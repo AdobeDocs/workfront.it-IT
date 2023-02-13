@@ -1,0 +1,34 @@
+---
+content-type: reference
+product-previous: workfront-fusion
+product-area: workfront-integrations
+navigation-topic: scenarios
+title: Modelli di scenario
+description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion oltre a una licenza Adobe Workfront.
+author: Becky
+feature: Workfront Fusion
+exl-id: 48fc3330-7fe1-4dea-8abe-cfc1139e26cf
+source-git-commit: 229fd48d604385a1bfcaba2fd34eb6f3bbdde7a7
+workflow-type: tm+mt
+source-wordcount: '75'
+ht-degree: 0%
+
+---
+
+# Modelli di scenario
+
+>[!INFO]
+>
+>[!DNL Adobe Workfront Fusion] richiede un [!DNL Adobe Workfront Fusion] oltre a una licenza [!DNL Adobe Workfront license].
+
+[!DNL Workfront Fusion]La funzione Modelli di consente di creare e utilizzare modelli esistenti come punto di partenza per le [!DNL Workfront Fusion] scenari.
+
+Questa sezione contiene i seguenti articoli:
+
+* [Crea nuovi modelli in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+* [Pubblicare e condividere [!DNL Adobe Workfront Fusion] modelli](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+* [Creare scenari con [!DNL Adobe Workfront Fusion] modelli](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
+* [Visualizzare, modificare ed eliminare [!DNL Adobe Workfront Fusion] modelli](../../../workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
+* [[!DNL Adobe Workfront Fusion] Amministrazione dei modelli](../../../workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
+* [[!DNL Adobe Workfront Fusion] Domande frequenti sui modelli](../../../workfront-fusion/scenarios/templates/fusion-templates-faqs.md)
+* [Attualmente disponibile [!DNL Adobe Workfront Fusion] modelli](../../../workfront-fusion/scenarios/templates/currently-available-fusion-templates.md)

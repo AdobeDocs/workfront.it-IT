@@ -1,0 +1,1046 @@
+---
+content-type: api
+product-area: documents
+navigation-topic: documents-webhooks-api
+title: API per i webhook dei documenti
+description: API per i webhook dei documenti
+author: John
+feature: Workfront API
+exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
+source-git-commit: a2f340122b22ccc57af1afffd82093e458219648
+workflow-type: tm+mt
+source-wordcount: '3661'
+ht-degree: 3%
+
+---
+
+
+# API per i webhook dei documenti
+
+Adobe Workfront Document Webhooks definisce un set di endpoint API attraverso i quali Workfront effettua chiamate API autorizzate a un provider di documenti esterno. Questo consente a chiunque di creare un plug-in middleware per qualsiasi provider di archiviazione documenti.
+
+L’esperienza utente per le integrazioni basate su webhook sarà simile a quella delle integrazioni di documenti esistenti, come Google Drive, Box e Dropbox. Ad esempio, un utente di Workfront sarà in grado di eseguire le azioni seguenti:
+
+* Spostarsi nella struttura delle cartelle del provider di documenti esterno
+* File di ricerca
+* Collegare file in Workfront
+* Caricare file nel provider di documenti esterno
+* Visualizzare una miniatura del documento
+
+## Implementazione di riferimento
+
+Per aiutarti a dare un impulso allo sviluppo di una nuova implementazione dei webhook, Workfront fornisce un’implementazione di riferimento. Il codice è disponibile all&#39;indirizzo [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Questa implementazione è basata su Java e consente a Workfront di collegare documenti a un file system di rete.
+
+## Registrazione di un&#39;integrazione Webhook
+
+Gli amministratori di Workfront possono aggiungere un’integrazione webhook personalizzata per la propria azienda passando a Configurazione > Documenti > Integrazioni personalizzate all’interno di Workfront. Dalla pagina Integrazione personalizzata in Configurazione, gli amministratori possono visualizzare un elenco delle integrazioni Webhook di documenti esistenti. Da questa pagina è possibile aggiungere, modificare, abilitare e disabilitare le integrazioni. Per aggiungere un&#39;integrazione, fai clic sul pulsante &quot;Aggiungi integrazione&quot;.
+
+### Campi disponibili
+
+Quando si aggiunge un’integrazione, l’amministratore immette valori per i campi seguenti:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Nome Campo</th> 
+   <th>Descrizione</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>Nome</td> 
+   <td>Nome dell'integrazione.</td> 
+  </tr> 
+  <tr> 
+   <td>URL API base</td> 
+   <td> <p>Posizione dell’API di callback. Quando effettui chiamate al sistema esterno, Workfront aggiungerà semplicemente il nome dell'endpoint a questo indirizzo. Ad esempio, se l’amministratore ha inserito l’URL API di base " https://www.mycompany.com/api/v1 ", Workfront utilizza il seguente URL per ottenere i metadati di un documento: https://www.mycompany.com/api/v1/metadata?id=1234.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Parametri di richiesta</td> 
+   <td> <p>Valori opzionali da accodare alla stringa di interrogazione di ogni chiamata API. Ad esempio, tipo_di_accesso</p> <p> </p> </td> 
+  </tr> 
+  <tr> 
+   <td>Tipo di autenticazione</td> 
+   <td>OAuth2 o ApiKey</td> 
+  </tr> 
+  <tr> 
+   <td>URL autenticazione</td> 
+   <td> <p>(Solo OAuth2) L’URL completo utilizzato per l’autenticazione degli utenti. Workfront indicherà agli utenti questo indirizzo come parte del processo di provisioning di OAuth. Nota: Workfront aggiungerà un parametro "state" alla stringa query. Il provider deve restituire questo messaggio a Workfront aggiungendolo all’URI di reindirizzamento Workfront.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>URL endpoint token</td> 
+   <td> <p>(Solo OAuth2) L’URL API completo utilizzato per recuperare i token OAuth2. Questo è ospitato dal provider webhook o dal provider di documenti esterno</p> <p> </p> </td> 
+  </tr> 
+  <tr> 
+   <td>ID client</td> 
+   <td>(Solo OAuth2) L’ID client OAuth2 per questa integrazione</td> 
+  </tr> 
+  <tr> 
+   <td>Segreto client</td> 
+   <td> <p>(Solo OAuth2) Il segreto client OAuth2 per questa integrazione</p> </td> 
+  </tr> 
+  <tr> 
+   <td>URI reindirizzamento Workfront</td> 
+   <td>  <p>(Solo OAuth2) Questo è un campo di sola lettura ed è generato da Workfront. Questo valore viene utilizzato per registrare l'integrazione con il provider di documenti esterno. Nota: Come descritto in precedenza per l'URL di autenticazione, il provider deve aggiungere il parametro "state" e il relativo valore alla stringa di query durante l'esecuzione del reindirizzamento.</p></td> 
+  </tr> 
+  <tr> 
+   <td>ApiKey</td> 
+   <td>  <p>(Solo ApiKey) Utilizzato per effettuare chiamate API autorizzate al provider webhook. Chiave API rilasciata dal provider webhook.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+ 
+
+## Autenticazione
+
+I webhook di documenti Workfront supportano due diverse forme di autenticazione: OAuth2 e ApiKey. In entrambi i casi, Workfront trasmette i token di autenticazione nell’intestazione quando effettua una chiamata API.
+
+### OAuth2
+
+OAuth2 consente a Workfront di effettuare chiamate API autorizzate a un provider di webhook per conto di un utente. Prima di eseguire questa operazione, l’utente deve collegare il proprio account del provider di documenti esterno a Workfront e concedere a Workfront
+
+accesso ad agire per loro conto. Questo processo di handshake viene eseguito una sola volta per ogni utente. Ecco come funziona:
+
+1. L&#39;utente inizia a collegare l&#39;integrazione webhook al proprio account. Al momento, questo viene fatto facendo clic sul menu a discesa &quot;Aggiungi documento&quot; > &quot;Aggiungi servizio&quot; > Nome integrazione personalizzata.
+1. Workfront sposta l’utente nell’URL di autenticazione, che potrebbe richiedere all’utente di accedere al provider di documenti esterno. Questa pagina è ospitata dal provider webhook o dal sistema esterno di gestione dei documenti. Workfront aggiunge un parametro &quot;state&quot; all&#39;URL di autenticazione. Questo valore deve essere restituito a Workfront aggiungendo lo stesso valore all’URI di ritorno Workfront nel passaggio seguente.
+1. Dopo aver effettuato l’accesso al sistema esterno (o se l’utente ha già effettuato l’accesso), viene portato a una pagina &quot;Autenticazione&quot;, che spiega che Workfront richiede l’accesso per eseguire una serie di azioni per conto dell’utente.
+1. Se l&#39;utente fa clic sul pulsante &quot;Consenti&quot;, il browser reindirizzerà all&#39; URI di reindirizzamento di Workfront , aggiungendo &quot;code=`<code>`&quot; nella stringa query. Secondo la specifica OAuth2, questo token è di breve durata. La stringa di query deve avere anche quanto segue, &quot;state=`<sent_by_workfront>`&quot;.
+1. Workfront elabora questa richiesta ed effettua una chiamata API all’URL dell’endpoint token con il codice di autorizzazione.
+1. L’URL dell’endpoint del token restituisce un token di aggiornamento e un token di accesso.
+1. Workfront memorizza questi token e fornisce l&#39;integrazione del webhook per questo utente.
+1. Da questo momento in poi, Workfront sarà in grado di effettuare chiamate API autorizzate al provider webhook. Quando effettui queste chiamate, Workfront invierà il token di accesso nell’intestazione della richiesta HTTP come mostrato di seguito:
+
+   ```
+   -------------------------------  
+   Authorization: Bearer [access_token] ­­­­­­­­­­­­­­­­­­­­­­­­­­  
+   -------------------------------
+   ```
+
+1. Se il token di accesso è scaduto, Workfront effettuerà una chiamata all’URL dell’endpoint del token per recuperare un nuovo token di accesso, quindi tenterà di nuovo la chiamata API autorizzata con il nuovo token di accesso.
+
+### ApiKey
+
+Effettuare chiamate API autorizzate a un provider di webhook utilizzando un ApiKey è molto più semplice di OAuth2. Quando effettui una chiamata API, Workfront passerà semplicemente l’ApiKey e il nome utente Workfront nell’intestazione della richiesta HTTP:
+
+```
+-------------------------------
+
+apiKey: 12345
+
+username: johndoe@foo.com
+
+-------------------------------
+```
+
+Il provider Webhook può utilizzare il nome utente per applicare autorizzazioni specifiche per l&#39;utente. Questo funziona meglio quando entrambi i sistemi si connettono a LDAP utilizzando Single Sign On (SSO).
+
+### Aggiunta di intestazioni di richiesta (facoltativo)
+
+Oltre a utilizzare i token OAuth2 o un ApiKey per l’autenticazione, Workfront può inviare un set predefinito di intestazioni al provider di webhook per ogni chiamata API. Un amministratore Workfront può configurarlo al momento della registrazione o della modifica di un&#39;integrazione di un manuale, come descritto nella sezione precedente. Vedi Registrazione di un&#39;integrazione Webhook .
+
+Ad esempio, può essere utilizzato per l&#39;autenticazione di base. A questo scopo, l’amministratore di Workfront aggiungerà le seguenti informazioni di intestazione di richiesta nella finestra di dialogo Integrazione personalizzata:
+
+   Autorizzazione Base QWxhZGRpbjpvcGVuIHNlc2FtZQ==
+
+dove QWxhZGRpbjpvcGVuIHNlc2FtZQ== è una stringa codificata base-64 di &quot;username:password&quot;. Consulta Autenticazione di base . A condizione che venga aggiunto, Workfront lo trasmetterà nell’intestazione della richiesta HTTP, oltre ad altre intestazioni di richiesta:
+
+```
+­­­­­­­­­­­­­­­­­­­­­­­­­­-------------------------------
+
+apiKey: 12345
+
+username: johndoe@foo.com
+
+Authorization: Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ== ­­­­­­­­­­­­­­­­­­­­­­­­­­
+
+-------------------------------
+```
+
+## Specifiche API
+
+Di seguito è riportato un elenco di API che il provider di webhook deve implementare per consentire il funzionamento dei webhook di documenti.
+
+### Ottenimento dei token OAuth2 (solo autenticazione OAuth2 necessaria)
+
+Restituisce il token di aggiornamento OAuth2 e il token di accesso per un utente autenticato. Viene richiamato una volta quando l&#39;utente fornisce un provider di documenti. Vengono effettuate chiamate successive per ottenere un token di accesso aggiornato.
+
+POST richiesta HTTP /any/url
+
+L’URL è configurabile e corrisponde al valore dell’URL dell’endpoint token nella pagina di configurazione dell’integrazione personalizzata.
+
+**Parametri query**
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Nome</th> 
+   <th>Obbligatorio</th> 
+   <th>Descrizione</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>tipo_sovvenzione</td> 
+   <td>sì</td> 
+   <td> <p>I valori includono "authorization_code" o "refresh_token". Il valore specificato indica quale dei due parametri verrà passato a questa chiamata API: codice o refresh_token.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>codice</td> 
+   <td>dipende</td> 
+   <td> <p>Il codice di autorizzazione inviato a Workfront subito dopo aver fatto clic sul pulsante "Grant". Questo è necessario solo quando il tipo di sovvenzione è "authorization_code". Il codice di autorizzazione dovrebbe essere di breve durata, generalmente con scadenza non superiore a 10 minuti.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>refresh_token</td> 
+   <td>dipende</td> 
+   <td> <p>Questo è necessario solo quando si eseguono chiamate successive per recuperare un nuovo access_token, dato che il precedente access_token è scaduto. Quando invii questo valore, imposta il parametro Grant_type su "refresh_token".</p> </td> 
+  </tr> 
+  <tr> 
+   <td>client_id</td> 
+   <td>sì</td> 
+   <td>L’ID client configurato in Workfront per questa integrazione personalizzata.</td> 
+  </tr> 
+  <tr> 
+   <td>client_secret</td> 
+   <td>sì</td> 
+   <td> Segreto client configurato in Workfront per questa integrazione personalizzata.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+ 
+
+**Risposta**
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Nome</th> 
+   <th>Tipo </th> 
+   <th>Descrizione</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>access_token </td> 
+   <td>Stringa</td> 
+   <td> <p>Token utilizzato per effettuare chiamate API autorizzate per conto dell’utente. Questo dovrebbe scadere per evitare chiamate API non autorizzate.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>refresh_token </td> 
+   <td>Stringa</td> 
+   <td> <p>Token longevo utilizzato per recuperare un nuovo access_token chiamando questo metodo API.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>expires_in </td> 
+   <td>long</td> 
+   <td>  <p>(facoltativo) tempo (in secondi) prima della scadenza di access_token, generalmente 3.600.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+ 
+
+**Esempio**
+
+```
+POST /oauth2/token
+grant_type=authorization_code
+code=d9ac7asdf6asdf579d7a8
+client_id=123456
+client_secret=6asdf7a7a9a4af
+```
+
+
+**Risposta**
+
+```
+{
+"access_token":"ad8af5ad5ads759", 
+"refresh_token":"9a0h5d87d808ads", 
+"expires_id":"3600" 
+}
+```
+
+### Ottieni metadati per file o cartella
+
+Restituisce i metadati per il file o la cartella specificati.
+
+**URL**
+
+GET /metadata?id=[ID documento o cartella]
+
+**Parametri query**
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Nome </th> 
+   <th>Descrizione</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>id</td> 
+   <td>  <p>ID del file o della cartella, a cui fa riferimento il provider webhook. È diverso dall’ID del documento di Workfront. Per ottenere i metadati della directory principale, utilizza il valore '/'.</p><p>Nota: La lunghezza massima per l'ID è di 255 caratteri.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+ 
+
+**Risposta**
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Nome </th> 
+   <th>Tipo </th> 
+   <th>Descrizione</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>title </td> 
+   <td>Stringa </td> 
+   <td>Nome del documento o della cartella</td> 
+  </tr> 
+  <tr> 
+   <td>gentile </td> 
+   <td>Stringa </td> 
+   <td>Specifica se l'elemento è un file o una cartella ('file' o 'cartella')</td> 
+  </tr> 
+  <tr> 
+   <td>id</td> 
+   <td>Stringa </td> 
+   <td>ID del file o della cartella.</td> 
+  </tr> 
+  <tr> 
+   <td>viewLink</td> 
+   <td>Stringa </td> 
+   <td> <p>Percorso URL utilizzato da un utente per visualizzare il documento in una finestra del browser. L'URL può essere ospitato dal provider di documenti o dal provider di archiviazione esterno nativo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>downloadLink</td> 
+   <td>Stringa </td> 
+   <td> <p>Percorso URL utilizzato da un utente per scaricare il documento in una finestra del browser. L'URL può essere ospitato dal provider di documenti o dal provider di archiviazione esterno nativo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>mimeType</td> 
+   <td>Stringa </td> 
+   <td>Il tipo MIME del file. (opzionale)</td> 
+  </tr> 
+  <tr> 
+   <td>dateModified</td> 
+   <td>Stringa </td> 
+   <td>L’ultima volta che questo file è stato modificato (data e ora formattata RFC 3339)</td> 
+  </tr> 
+  <tr> 
+   <td>size</td> 
+   <td>Lungo</td> 
+   <td>  Dimensione del file in byte. (opzionale)</td> 
+  </tr> 
+  <tr> 
+   <td>readOnly</td> 
+   <td>Booleano</td> 
+   <td>  <p> Indica se il file o la cartella è di sola lettura per l'utente autenticato.(opzionale)</p><p> </p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Esempio:** `https://www.acme.com/api/metadata?id=12345`
+
+**Risposta**
+
+```
+{
+"title":"My Document", 
+"kind":"file"
+"id":"12345", 
+"viewLink":"https://www.acme.com/viewDocument?id=12345", 
+"downloadLink":"https://www.acme.com/downloadDocument?id=12345",
+"mimeType":"image/png",
+"dateModified":"2014­06­05T17:39:45.251Z",
+"size": "32554694"
+}
+```
+
+>[!NOTE]
+>
+>La gestione degli errori deve essere coerente in tutte le chiamate API. Per ulteriori informazioni, consulta la sezione &quot;Gestione degli errori&quot; di seguito.
+
+### Ottenere un elenco di elementi in una cartella
+
+Restituisce i metadati per i file e le cartelle di una determinata cartella.
+
+**URL**
+
+GET /files
+
+**Parametri query**
+
+| Nome  | Descrizione |
+|---|---|
+| parentId  | ID cartella. Per ottenere i metadati della directory principale, utilizza il valore &#39;/&#39;. |
+
+{style=&quot;table-layout:auto&quot;}
+
+L&#39;API Document Webhooks non supporta attualmente l&#39;impaginazione.
+
+**Risposta**
+
+JSON contenente un elenco di file e cartelle. I metadati per ogni elemento sono gli stessi restituiti dall&#39;endpoint /metadata.
+
+**Esempio:** `https://www.acme.com/api/files?parentId=123456`
+
+**Risposta**
+
+```
+[
+{
+"title":"Folder A",
+"kind":"folder",
+"id":"2lj23lkj",
+"viewLink":"https://www.acme.com/viewDocument?id=2lj23lkj",
+"downloadLink":"https://www.acme.com/downloadDocument?id=2lj23lkj",
+"mimeType":"",
+"dateModified":"2014­06­05T17:39:45.251Z",
+"size":"" 
+},
+{
+"title":"My Document",
+"kind":"file",
+"id":"da8cj234"
+"viewLink":"https://www.acme.com/viewDocument?id=da8cj234",
+"downloadLink":"https://www.acme.com/downloadDocument?id=da8cj234",
+"mimeType":"image/png",
+"dateModified":"2014­06­05T17:39:45.251Z",
+"size":"32554694"
+},
+]
+```
+
+### Eseguire una ricerca
+
+Restituisce i metadati per i file e le cartelle restituiti da una ricerca. Può essere implementato come ricerca full-text o come normale query di database. Workfront chiama l&#39;endpoint /search quando l&#39;utente esegue una ricerca dal browser file esterno.
+
+**URL**
+
+GET /search
+
+**Parametri query**
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Nome </th> 
+   <th>Descrizione</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>query</td> 
+   <td>Il termine o la frase di ricerca.</td> 
+  </tr> 
+  <tr> 
+   <td>parentId</td> 
+   <td> <p>(facoltativo) ID cartella da cui viene eseguita la ricerca. Nota: Segnaposto per una funzione futura in Workfront. Attualmente, workfront non trasmette questo parametro. </p> </td> 
+  </tr> 
+  </tbody> 
+</table>
+
+L&#39;API Document Webhooks non supporta attualmente l&#39;impaginazione.
+
+ 
+
+**Risposta**
+
+JSON contenente un elenco di metadati per file e cartelle corrispondenti alla query. Ciò che costituisce un &quot;match&quot; è determinato dal provider webhook. Idealmente, dovrebbe effettuare una ricerca full-text. Anche eseguire una ricerca basata sul nome del file funziona.
+
+**Esempio:** `https://www.acme.com/api/search?query=test-query`
+
+**Risposta**
+
+```
+[
+{ File/Folder Metadata },
+{ File/Folder Metadata }
+]
+```
+
+### Ottenere il contenuto di un documento
+
+Restituisce i byte non elaborati di un documento
+
+**URL**
+
+GET/download
+
+**Parametri query**
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Nome </th> 
+   <th>Descrizione</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>id</p> </td> 
+   <td> ID del documento.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+ 
+
+**Risposta**
+
+Byte non elaborati del documento.
+
+**Esempio:** `https://www.acme.com/api/download?id=123456`
+
+### Ottenere una miniatura di un documento
+
+Restituisce i byte delle miniature non elaborati di un documento.
+
+**URL**
+
+GET /thumbnail
+
+**Parametri query**
+
+| Nome  | Descrizione |
+|---|---|
+| id  | ID del documento. |
+| size  |  Larghezza della miniatura |
+
+{style=&quot;table-layout:auto&quot;}
+
+ 
+
+**Risposta**
+
+I byte delle miniature non elaborati.
+
+**Esempio:** `https://www.acme.com/api/thumbnail?id=123456`
+
+### Caricare un file - Parte 1 di 2
+
+Il caricamento di un file in un provider di archiviazione di documenti è un processo in due fasi che richiede due endpoint API separati. Workfront avvia il processo di caricamento chiamando /uploadInit . Questo endpoint restituisce un ID documento che viene quindi passato a /upload durante il caricamento dei byte del documento. A seconda del sistema di archiviazione dei documenti sottostante, può essere necessario creare un documento a lunghezza zero e aggiornare successivamente il contenuto del documento.
+
+Aggiunto alla versione 1.1 di questa specifica, l’ID del documento e l’ID della versione del documento possono essere utilizzati per recuperare ulteriori informazioni da Workfront. Ad esempio, se il sistema di gestione dei documenti desidera ulteriori informazioni sul documento, il codice di implementazione del webhook potrebbe utilizzare l’ID del documento per recuperare tali informazioni utilizzando l’API RESTful di Workfront. Come procedura ottimale, queste informazioni possono provenire da campi di dati personalizzati nel documento e contengono attività, problemi o progetti.
+
+**URL**
+
+POST /uploadInit
+
+**Parametri query**
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Nome </th> 
+   <th>Descrizione</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>parentId </td> 
+   <td>ID della cartella principale, a cui fa riferimento il provider webhook.</td> 
+  </tr> 
+  <tr> 
+   <td>nomefile </td> 
+   <td>Nome del documento</td> 
+  </tr> 
+  <tr> 
+   <td>documentId</td> 
+   <td> <p>ID del documento Workfront (aggiunto nella versione 1.1)</p> <p> </p> </td> 
+  </tr> 
+  <tr> 
+   <td>documentVersionId </td> 
+   <td>ID versione del documento Workfront (aggiunto nella versione 1.1)</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+ 
+
+**Risposta**
+
+I metadati per il file, come definito dall&#39;endpoint /metadata.
+
+**Esempio:** `https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&docu mentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b`
+
+**Risposta**
+
+`[file_metadata]` include il nuovo ID documento utilizzato dal provider di documenti.
+
+### Caricare un file - Parte 2 di 2
+
+Carica i byte di un documento nel provider webhook.
+
+**URL**
+
+PUT /upload
+
+**Parametri query**
+
+| Nome  | Descrizione |
+|---|---|
+| id  |  ID documento appena creato. |
+
+
+ 
+
+**Corpo della richiesta**
+
+Byte di contenuto non elaborati per il documento.
+
+**Risposta**
+
+```
+{
+"result": "success"
+}
+```
+
+oppure
+
+```
+{
+"result": "fail"
+}
+```
+
+**Esempio:** `https://www.acme.com/api/upload?id=1234` *[byte dei documenti inclusi nel flusso di aggiornamento]*
+
+**Risposta**
+
+```
+{
+"result":"success"
+}
+```
+
+### Ottenere informazioni sul servizio 
+
+(Data di rilascio - TBD) Restituisce informazioni sul servizio, ad esempio caratteristiche e funzionalità. Workfront utilizzerà queste informazioni per personalizzare l’interfaccia utente in Workfront. Ad esempio, se l’implementazione del webhook contiene alcune azioni personalizzate, JSON deve elencare tali operazioni nel JSON. Gli utenti potranno quindi richiamare queste azioni da Workfront.
+
+**URL**
+
+GET /serviceInfo
+
+Parametri query
+
+Nessuno. Inoltre, le chiamate a questo endpoint non devono richiedere l&#39;autenticazione.
+
+**Risposta**
+
+JSON contenente informazioni su questo servizio
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Nome</th> 
+   <th>Tipo </th> 
+   <th>Descrizione</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>webhookVersion </td> 
+   <td>Stringa </td> 
+   <td>Versione webhook implementata da questo servizio. Questo è il numero di versione elencato nella parte superiore di questa specifica.</td> 
+  </tr> 
+  <tr> 
+   <td>version </td> 
+   <td>Stringa </td> 
+   <td>Numero di versione interno del servizio. Questo numero è determinato dal provider di servizi webhook e viene utilizzato solo a scopo informativo.<br><br></td> 
+  </tr> 
+  <tr> 
+   <td>editore </td> 
+   <td>Stringa </td> 
+   <td>Nome dell'azienda che fornisce l'implementazione del webhook.</td> 
+  </tr> 
+  <tr> 
+   <td>availableEndpoints</td> 
+   <td>Stringa </td> 
+   <td>Elenco contenente gli endpoint API implementati dal servizio. Questo può essere utilizzato per garantire che l'interfaccia utente in Workfront rifletta le funzionalità offerte dal provider webhook. Ogni elemento dell’elenco deve includere il nome dell’endpoint (ad esempio "search").</td> 
+  </tr> 
+  <tr> 
+   <td>customActions </td> 
+   <td>Stringa</td> 
+   <td>  <p>Elenco contenente le operazioni personalizzate implementate da questo webhook. Ogni voce dell’elenco include un nome e un nome visualizzato. Il nome visualizzato verrà visualizzato nel menu a discesa "Azioni documento" in Workfront. Facendo clic sull’elemento nel menu a discesa si richiama l’azione nel webhook chiamando l’endpoint /customAction .</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+**Esempio:** https://www.acme.com/api/serviceInfo
+
+**Restituisce**
+
+```
+{
+"webhook version": "1.2", "version": "1.0", "publisher": "Acme, LLC", "availableEndpoints": ["files", "metadata", "search", "download"
+
+"thumbnail", "uploadInit", "upload" ], "customActions" [
+{
+"name": "archive", "displayName": "Archive" }, {
+
+"name": "doSomethingElse", "displayName": "Do Something" }, ] }
+```
+
+### Creare una cartella
+
+(Aggiunta nella versione 1.2) Crea una cartella in una determinata directory.
+URL
+
+POST /createFolder
+
+**Parametri query**
+
+| Nome  | Descrizione |
+|---|---|
+| parentId  | ID cartella in cui creare la cartella |
+| name  | Nome della nuova cartella |
+
+{style=&quot;table-layout:auto&quot;}
+
+ 
+
+**Risposta**
+
+I metadati della cartella appena creata, come definito dall&#39;endpoint /metadata.
+
+**Esempio:** `POST https://www.acme.com/api/createFolder`
+
+```
+-------------------------------
+
+parentId=1234
+
+name=New Folder ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+
+-------------------------------
+```
+
+return
+
+```
+{"title":"New Folder", 
+ "kind":"folder""id":"5678",
+ "viewLink":"",
+ "downloadLink":"",
+ "mimeType":"",
+ "dateModified":"2014­06­05T17:39:45.251Z" 
+ "size": "" 
+ }
+```
+
+### Eliminare un documento o una cartella
+
+(Data di rilascio - TBD) Elimina un documento o una cartella con l’ID specificato nel sistema esterno. L’eliminazione di una cartella comporta anche l’eliminazione del relativo contenuto.
+
+URL
+
+PUT /delete
+
+**Parametri query**
+
+| Nome  | Descrizione |
+|---|---|
+| documentId  | ID documento da eliminare |
+| folderId  |  ID cartella da eliminare |
+
+{style=&quot;table-layout:auto&quot;}
+
+Risposta Una stringa JSON che indica il successo o l’errore, come specificato nella sezione Gestione degli errori di seguito.
+
+**Esempio:** PUT https://www.acme.com/api/delete id=1234
+
+return
+
+```
+{
+"status": "success" 
+}
+```
+
+return
+
+```
+{
+"status": "failure", "error": "File not found"
+}
+```
+
+
+### Rinominare un documento o una cartella
+
+(Data di rilascio - TBD) Rinomina un documento o una cartella con l’ID specificato nel sistema esterno.
+
+URL
+
+PUT/rinomina
+
+**Parametri query**
+
+| Nome  | Descrizione |
+|---|---|
+| id | ID del documento o della cartella da rinominare |
+| name  | Nuovo nome del documento o della cartella |
+
+{style=&quot;table-layout:auto&quot;}
+
+ 
+
+risposta
+
+Una stringa JSON che indica l’esito positivo o negativo, come specificato nella sezione Gestione degli errori di seguito.
+
+**Esempio:**
+
+`PUT https://www.acme.com/api/rename`
+
+```
+-------------------------------
+
+id=1234
+
+name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+
+-------------------------------
+```
+
+```
+{
+"status": "success" 
+}returns
+{
+"status": "failure", error: "Folder cannot be renamed because a folder with that name already exists." 
+}
+```
+
+### Eseguire un&#39;azione personalizzata
+
+(Data di rilascio - TBD) Questo endpoint consentirà a un utente Workfront (o, forse, a un evento di flusso di lavoro automatizzato) di eseguire un’azione nel sistema esterno. L&#39;endpoint /customAction accetta un parametro &quot;name&quot;, che consente al provider webhook di implementare più operazioni personalizzate.
+
+Il provider webhook registra azioni personalizzate con Workfront includendo le azioni nella risposta /serviceInfo in customActions. Workfront carica questo elenco durante la configurazione o l’aggiornamento del provider di webhook in Configurazione > Documenti > Integrazioni personalizzate.\
+![](assets/mceclip0-350x262.png)
+
+Gli utenti possono attivare l&#39;azione personalizzata selezionando la sezione in &quot;Azioni documento&quot;\
+![](assets/mceclip1-350x95.png)
+
+**URL**
+
+GET /customAction
+
+**Parametri query**
+
+<table style="table-layout:auto">
+ <col>
+ <col>
+ <thead>
+  <tr>
+   <th>Nome </th>
+   <th>Descrizione</th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td><p>name</p></td>
+   <td><p>Identificatore che specifica il tipo di azione da eseguire. Questo valore corrisponde a uno dei valori customAction elencati restituiti dall’endpoint /serviceInfo.</p></td>
+  </tr>
+  <tr>
+   <td>documentId </td>
+   <td>ID del documento anteriore per il quale viene eseguita l'azione.</td>
+  </tr>
+  <tr>
+   <td>documentVersionId </td>
+   <td> ID versione del documento di lavoro per il quale viene eseguita l'azione.</td>
+  </tr>
+ </tbody>
+</table>
+
+ 
+
+**Risposta**
+
+Una stringa JSON che indica l’esito positivo o negativo, come specificato nella sezione Gestione degli errori di seguito. In caso di errore (ovvero stato = &quot;errore&quot;), Workfront visualizza all’utente il messaggio di errore fornito.
+
+**Esempio:** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+
+response
+
+```
+{
+"status": "success" 
+}
+```
+
+
+## Gestione degli errori
+
+Possono sorgere problemi durante l’elaborazione delle richieste API. Questo deve essere gestito in modo coerente tra tutti gli endpoint API. Quando si verifica un errore, il provider webhook effettua le seguenti operazioni:
+
+* Includi un codice di errore nell’intestazione della risposta. I codici di errore includono:
+
+   * 403 - Vietato. Indica che i token di richiesta sono mancanti o non validi oppure che le credenziali associate ai token non hanno accesso alla risorsa specificata. Per i provider di webhook basati su OAuth, Workfront tenterà di recuperare nuovi token di accesso.
+   * 404 - Non trovato. Indica che il file o la cartella specificato non esiste.
+   * 500 - Errore interno del server. Qualsiasi altro tipo di errore.
+
+* Descrivi l’errore nel corpo della risposta utilizzando il seguente formato:
+
+
+```
+{
+"status": "error"
+"error": "Sample error message" 
+}
+```
+
+
+## Test
+
+Per verificare che l&#39;implementazione del webhook del documento funzioni correttamente, esegui i seguenti test. Si tratta di test manuali che passano attraverso l’interfaccia web di Workfront e colpiscono indirettamente gli endpoint per l’implementazione del webhook.
+
+### Prerequisiti
+
+Per eseguire questi test è necessario quanto segue:
+
+* Un account Workfront con Advanced Document Management (ADM) abilitato
+* Un utente Workfront per questo account con diritti di amministratore di sistema
+* Un’istanza Document Webhook, gli endpoint HTTP di Workfront sono accessibili
+
+Questi test presuppongono anche che tu abbia già registrato la tua istanza Document Webhook in Workfront in Configurazione > Documenti > Integrazioni personalizzate.
+
+### Prova 1: Provisioning del servizio Document Webhook per un utente
+
+Verifica l’URL di autenticazione e l’URL dell’endpoint dei token per i provider di Webhook basati su OAuth.
+
+1. In Workfront, vai alla pagina Documenti principale facendo clic sul collegamento Documenti nella barra di navigazione superiore.
+1. Fare clic sul menu a discesa Aggiungi documenti e selezionare il servizio Document Webhook in Aggiungi servizio.
+1. (Solo servizi OAuth) Dopo aver completato il passaggio precedente, vedrai il caricamento della pagina di autenticazione OAuth2 del servizio in una finestra a comparsa. (Nota: potrebbe essere richiesto di accedere prima al servizio). Dalla pagina di autenticazione, concedere l&#39;accesso Workfront all&#39;account dell&#39;utente facendo clic sul pulsante Trust o Allow.
+1. Verifica che il servizio sia stato aggiunto al menu a discesa Aggiungi documenti . Se non lo vedi inizialmente, prova ad aggiornare il browser.
+
+### Prova 2: Collega un documento ai test Workfront per i seguenti endpoint: /files, /metadata
+
+1. In Workfront, vai alla pagina Documenti principale facendo clic sul collegamento Documenti nella barra di navigazione superiore.
+1. Selezionare il servizio Document Webhook in Aggiungi documenti.
+1. Dal modale, passa alla struttura della cartella.
+1. Verifica di poter navigare correttamente nella struttura della cartella.
+1. Selezionare e collegare un documento in Workfront
+
+### Prova 3: Passare a un documento nel sistema di gestione dei contenuti
+
+Verifica i seguenti endpoint: /metadata (in particolare viewLink)
+
+1. Collegamento di un documento in Workfront
+1. Selezionare il documento e fare clic sul collegamento Apri.
+1. Verifica che il documento si apra in una nuova scheda.
+
+### Prova 4: Passa a un documento nel sistema di gestione dei contenuti (con accesso)
+
+Verifica i seguenti endpoint: /metadata (in particolare viewLink)
+
+1. Assicurati di essere disconnesso dal sistema di gestione dei contenuti.
+1. Collega un documento in Workfront.
+1. Selezionare il documento e fare clic sul collegamento Apri.
+1. Verifica che la schermata di accesso del sistema di gestione dei contenuti venga caricata in una nuova scheda.
+1. Accedi e verifica di essere stato portato al documento
+
+### Prova 5: Scarica il documento dal sistema di gestione dei contenuti
+
+Verifica i seguenti endpoint: /metadata (in particolare downloadLink)
+
+1. Collega un documento in Workfront.
+1. Seleziona il documento e fai clic sul collegamento Scarica .
+1. Verifica che il download inizi.
+
+### Prova 6: Cercare contenuti
+
+Verifica i seguenti endpoint: /search
+
+1. In Workfront, vai alla pagina Documenti principale facendo clic sul collegamento Documenti nella barra di navigazione superiore.
+1. Selezionare il servizio Document Webhook in Aggiungi documenti.
+1. Dal modale, esegui una ricerca.
+1. Verifica che i risultati della ricerca siano corretti.
+
+### Prova 7: Invio di documenti da Workfront al sistema di gestione dei contenuti
+
+Verifica i seguenti endpoint: /files, /uploadInit, /upload
+
+1. In Workfront, vai alla pagina Documenti principale facendo clic sul collegamento Documenti nella barra di navigazione superiore.
+1. Caricare un documento in Workfront dal computer
+1. Vai alla pagina dei dettagli del documento
+1. Dal menu a discesa Azioni documento, seleziona il servizio Webhook documento in Invia a...
+1. Passa alla cartella di destinazione desiderata e fai clic sul pulsante Salva .
+1. Verifica che il documento sia caricato nella posizione corretta nel sistema di gestione dei contenuti.
+
+### Prova 8: Visualizzare le miniature in Workfront
+
+Verifica i seguenti endpoint: /thumbnail
+
+1. Collega un documento in Workfront.
+1. Selezionare il documento nell&#39;elenco.
+1. Verifica che la miniatura sia visualizzata nel pannello di destra.
+
+### Prova 9: Ottenere i byte di contenuto
+
+Verifica i seguenti endpoint: /download
+
+1. Collega un documento in Workfront.
+1. Passare alla pagina dei dettagli del documento.
+1. Invia il documento a Workfront selezionando Azioni documento > Invia a... > Workfront. Verrà creata una nuova versione del documento in Workfront.
+1. Scarica il documento da Workfront facendo clic sul collegamento Scarica .
+
+### Prova 10: Aggiorna il token di accesso (solo provider di Webhook OAuth2)
+
+Verifica i seguenti endpoint: URL endpoint token
+
+1. Provisioning di un servizio Document Webhook per un utente
+1. Annulla la validità del token di accesso dell’utente con 1 in attesa del timeout o con 2) in attesa dell’annullamento manuale della validità nel sistema esterno.
+1. Aggiorna il token di accesso in Workfront. Per farlo, ad esempio, è possibile collegare un documento a Workfront. Il token di accesso è stato aggiornato se è stato possibile accedere a un documento e collegarlo.
+
+>[!NOTE]
+>
+>Attualmente, l&#39;opzione Invia a non è disponibile per i documenti collegati. Questo verrà aggiunto da Workfront. Puoi testare l’endpoint /download colpendo manualmente l’endpoint utilizzando un client REST, come Postman. In alternativa, è possibile testare l’endpoint /download generando una bozza digitale. Per abilitare la correzione digitale, contattare Workfront.
+
+## Versioni
+
+* Versione 1.0 (data di rilascio - maggio 2015)
+
+   * Specifica iniziale
+
+* Versione 1.1 (data di rilascio - giugno 2015)
+
+   * Aggiornati /uploadInit - Aggiunti documentId e documentVersionId
+
+* Versione 1.2 (data di rilascio - ottobre 2015)
+
+   * Aggiunto /createFolder
+

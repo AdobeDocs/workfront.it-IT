@@ -1,0 +1,170 @@
+---
+user-type: administrator
+product-area: system-administration
+navigation-topic: manage-deleted-items
+title: Ripristina elementi eliminati
+description: Gli amministratori di Workfront possono ripristinare progetti, attività, problemi, documenti e modelli in Adobe Workfront se sono stati eliminati negli ultimi 30 giorni. Dopo 30 giorni, questi elementi vengono eliminati definitivamente e non possono essere ripristinati. Quando si ripristina un oggetto, vengono ripristinati anche tutti i relativi oggetti e campi secondari. Ad esempio, se si ripristina un progetto, vengono ripristinate anche tutte le attività, i problemi, i documenti, le ore, le note, le assegnazioni e i dati personalizzati del progetto.items
+feature: System Setup and Administration
+role: Admin
+exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
+source-git-commit: 1fb283df7090173d8f4dd36b9474ced10c8d30d1
+workflow-type: tm+mt
+source-wordcount: '1076'
+ht-degree: 1%
+
+---
+
+# Ripristina elementi eliminati
+
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
+-->
+
+Gli amministratori di Workfront possono ripristinare progetti, attività, problemi, documenti e modelli in Adobe Workfront se sono stati eliminati negli ultimi 30 giorni. Dopo 30 giorni, questi elementi vengono eliminati definitivamente e non possono essere ripristinati.
+
+Quando si ripristina un oggetto, vengono ripristinati anche tutti i relativi oggetti e campi secondari. Ad esempio, se si ripristina un progetto, vengono ripristinate anche tutte le attività, i problemi, i documenti, le ore, le note, le assegnazioni e i dati personalizzati del progetto.
+
+Un amministratore di gruppo può inoltre ripristinare questi oggetti per un gruppo che gestisce.
+
+>[!IMPORTANT]
+>
+>* Se elimini un report, un dashboard, un utente, un gruppo, un team o un&#39;iterazione, non puoi ripristinarlo.
+>* In un gruppo, quando un utente diverso dall&#39;amministratore del gruppo carica un documento direttamente nell&#39;area Documenti di un oggetto, solo un amministratore Workfront può ripristinare il documento.
+>
+>* Se si sposta un&#39;attività o un problema e si sceglie di non spostare anche i documenti allegati all&#39;attività o al problema, i documenti vengono eliminati e inseriti nel Cestino per 30 giorni. Un amministratore può ripristinarli e verranno ricollegati all’attività o al problema spostati. Se l&#39;attività o il problema sono stati eliminati dopo lo spostamento, i documenti verranno ripristinati nell&#39;area Documenti della pagina utente dell&#39;amministratore che li ripristina.
+
+
+## Requisiti di accesso
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td>Qualsiasi</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td>Piano</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Per sapere quale piano o tipo di licenza hai, contatta il tuo amministratore Workfront.
+
+## Informazioni recuperate quando si ripristina un progetto, un&#39;attività o un problema
+
+Quando si ripristina un progetto, un&#39;attività o un problema, vengono recuperate insieme alle seguenti informazioni associate:
+
+* Commenti e risposte nell’area Aggiornamenti
+* Approvazioni
+* Assegnazioni
+* Moduli personalizzati
+* Impostazione coda
+* Casi aziendali, inclusi scorecard, obiettivi e rischi
+* Team di progetto
+* Date
+* Problemi
+* Attività
+* Sottoattività
+* Stati
+* Informazione Finanziaria:
+
+   * Record di fatturazione
+   * Tassi di fatturazione
+   * Spese
+
+* Informazioni sulla timeline:
+
+   * Predecessori
+   * Vincoli dell’attività
+   * Tipo di durata
+
+* Linee di base
+
+   Le linee di base delle attività vengono recuperate quando si ripristina il progetto o l&#39;attività padre, ma non quando si ripristinano le attività eliminate singolarmente.
+
+* Ore (e ID ora)
+
+   Il ripristino delle ore nell&#39;elemento eliminato dipende dalle impostazioni selezionate durante la configurazione delle preferenze per i fogli presenze e le ore. Per ulteriori informazioni, consulta [La configurazione influisce sulle ore in cui un oggetto viene eliminato e ripristinato](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
+
+* URL dell’elemento
+
+   Una volta ripristinato, l’URL dell’elemento rimane lo stesso. Se gli utenti hanno creato dei segnalibri per l’elemento, questi rimangono validi.
+
+* Accesso e autorizzazioni
+
+   Gli utenti che hanno avuto accesso all&#39;elemento prima che fosse eliminato riacquistano l&#39;accesso dopo il ripristino.
+
+* Documenti (compresi i documenti di prova)
+
+   Quando si ripristinano documenti e versioni di documenti, tenere presente quanto segue:
+
+   * I documenti eliminati singolarmente possono essere ripristinati singolarmente.
+
+      I documenti che sono stati eliminati insieme al progetto padre, all&#39;attività o al problema vengono recuperati quando si ripristina l&#39;elemento padre, ma non è possibile ripristinarli singolarmente.
+
+   * Tutte le versioni di un documento o di una bozza di documento vengono ripristinate quando il documento viene ripristinato.\
+      Non è possibile recuperare le singole versioni di un documento o di una prova che sono state eliminate singolarmente.
+
+## Informazioni non recuperate quando si ripristina un progetto, un&#39;attività o un problema
+
+Quando si ripristina un progetto, un&#39;attività o un problema, le seguenti informazioni associate non vengono recuperate insieme ad esso:
+
+* Mi piace
+* Valutazioni positive
+* Indirizzo e-mail di acquisizione in una coda di richiesta
+* Preferiti
+
+   Un progetto, un&#39;attività o un problema aggiunto al menu Preferiti prima di eliminarlo non viene visualizzato nuovamente nel menu Preferiti dopo il ripristino.
+
+* Risoluzione degli oggetti
+
+   Un oggetto di risoluzione è un problema convertito configurato con l&#39;opzione **Mantenere il problema originale e legarne la risoluzione a questo** &lt;**progetto** o **attività)**> Se si elimina il progetto o l&#39;attività padre, il problema non viene più identificato come oggetto di risoluzione perché non esiste più un collegamento che lo collega al progetto o all&#39;attività. Se si ripristina l&#39;elemento padre, il collegamento non viene ripristinato.
+
+   Per ulteriori informazioni sulla configurazione dei problemi da parte di un amministratore di Workfront o di un amministratore di gruppo in modo che corrispondano all&#39;oggetto di risoluzione al momento della conversione, vedere [Configurare le preferenze relative alle attività e ai problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) e [Configurare le preferenze per attività e problemi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+
+   Per ulteriori informazioni sulla conversione dei problemi, vedi [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+
+## Ripristina elementi
+
+1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+
+1. Fai clic su **Cestino** > **Eliminato di recente**.
+1. Fai clic sul pulsante **Progetti**, **Attività**, **Problemi** oppure **Documenti** a seconda del tipo di elemento da ripristinare.
+
+   Gli elementi vengono ordinati in base al **Data di eliminazione** per impostazione predefinita.
+
+1. Seleziona fino a 10 elementi da ripristinare.
+
+   Se si elimina un’attività figlia, questa viene visualizzata nell’elenco.
+
+   Se si elimina un&#39;attività padre, nell&#39;elenco viene visualizzata solo l&#39;attività principale. Tuttavia, tutte le attività figlio vengono ripristinate quando si ripristina un&#39;attività padre.
+
+1. Fai clic su **Ripristina** per ripristinare gli elementi selezionati nella posizione originale.
+1. (Facoltativo) Per visualizzare rapidamente l&#39;elemento ripristinato, seguire i passaggi descritti in [Visualizza elemento ripristinato](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+   Per ulteriori informazioni su cosa accade dopo il ripristino di un elemento, vedi [Cosa succede dopo aver ripristinato gli elementi](#what-happens-after-you-restore-items) in questo articolo.
+
+## Cosa succede dopo aver ripristinato gli elementi {#what-happens-after-you-restore-items}
+
+* Quando si ripristinano attività e sottoattività, queste vengono visualizzate nell&#39;ordine in cui erano state precedentemente eliminate.
+
+   Tuttavia, se durante l&#39;eliminazione dell&#39;attività viene modificato l&#39;ordine delle altre attività, l&#39;attività potrebbe essere ripristinata in fondo all&#39;elenco delle attività o delle sottoattività.
+
+* Dopo aver ripristinato un elemento:
+
+   * Viene visualizzato un messaggio per informare l’utente della riuscita dell’operazione.
+
+      Ricevi anche una notifica e-mail. Se sono stati ripristinati più elementi, vengono elencati nell’e-mail.
+
+   * Viene visualizzato un commento nell’area Aggiornamenti del progetto, dell’attività o del problema e in quella dell’oggetto principale.
+
+      Ciò non si verifica quando si ripristina un documento.
+
+## Bozze ripristinate
+
+Al momento del ripristino di un documento con una bozza, nella pagina Attività di correzione per la bozza potrebbe essere visualizzato il nome del primo amministratore Workfront attivo elencato per l’istanza dell’organizzazione (in ordine di ID profilo) invece del nome effettivo che ha ripristinato la bozza.
