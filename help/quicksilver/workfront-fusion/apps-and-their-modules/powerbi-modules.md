@@ -9,7 +9,7 @@ title: Moduli Power BI
 description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion oltre a una licenza Adobe Workfront.
 author: Becky
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 30e9b175e29acaed638f005eb6a701777f65e0bc
+source-git-commit: 6d6aaa4e85690307f93dfc5179a489a09e9a2381
 workflow-type: tm+mt
 source-wordcount: '2352'
 ht-degree: 0%
