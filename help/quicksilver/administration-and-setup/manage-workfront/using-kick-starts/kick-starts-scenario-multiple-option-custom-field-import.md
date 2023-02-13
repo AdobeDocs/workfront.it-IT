@@ -8,7 +8,7 @@ description: È possibile importare campi personalizzati con più opzioni in Ado
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 80ad604330e8b55037f1607b754cc8bb34f6a3ec
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
@@ -25,16 +25,20 @@ Esempi di campi personalizzati con più opzioni sono:
 * Elenco a discesa multi-selezione
 * A discesa
 * Checkboxe
-* Bottoni Circolari.
+* Bottoni Circolari
 
 A volte questi campi possono avere molte (a volte centinaia) opzioni. L’importazione di questi elementi utilizzando la funzionalità Kick-Start consente di risparmiare molto tempo, in qualità di amministratore di Workfront, e di evitare errori.
 
-Per importare campi personalizzati con più opzioni mediante un avvio, è necessario seguire i passaggi descritti nelle sezioni seguenti, in questo ordine:
+>[!IMPORTANT]
+>
+>Per importare campi personalizzati con più opzioni mediante un avvio, è necessario seguire i passaggi descritti nelle sezioni seguenti, in questo ordine:
+>
+>1. Esporta dati personalizzati esistenti da Workfront (passaggio facoltativo)
+>1. Esportare il modello di avvio rapido per i dati personalizzati
+>1. Compilare il foglio di calcolo Excel Kick-Starts
+>1. Caricare il foglio di calcolo Excel in Workfront
 
-1. Esporta dati personalizzati esistenti da Workfront (passaggio facoltativo)
-1. Esportare il modello di avvio rapido per i dati personalizzati
-1. Compilare il foglio di calcolo Excel Kick-Starts
-1. Caricare il foglio di calcolo Excel in Workfront
+
 
 ## Esporta dati personalizzati esistenti da Workfront (passaggio facoltativo)
 
@@ -115,15 +119,20 @@ Per compilare il foglio di calcolo Excel con le informazioni per i nuovi campi p
 
 1. Apri il foglio di calcolo Excel scaricato nella sezione precedente e osserva alcuni fogli. Ogni foglio rappresenta un oggetto nell&#39;applicazione.
 
-   Ad esempio: **Parametro** (che fa riferimento al campo personalizzato), **Opzione parametro**(che fa riferimento all’opzione Campo personalizzato ), **Categoria** (che fa riferimento a Modulo personalizzato).
+   >[!INFO]
+   >
+   >Ad esempio: **Parametro** (che fa riferimento al campo personalizzato), **Opzione parametro**(che fa riferimento all’opzione Campo personalizzato), **Categoria** (che fa riferimento a Modulo personalizzato).
+   >
+   >È necessario scrivere i nomi degli oggetti e i relativi attributi nel formato supportato dal database Workfront.
+   >
+   >Per informazioni sul significato di questi oggetti, vedere la [Glossario Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >Per informazioni sui nomi degli oggetti nel database Workfront, vedere la [Esplora API](../../../wf-api/general/api-explorer.md).
+   >
+   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
-   È necessario scrivere i nomi degli oggetti e i relativi attributi nel formato supportato dal database Workfront.
 
-   Per informazioni sul significato di questi oggetti, vedere la [Glossario Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   Per informazioni sui nomi degli oggetti nel database Workfront, vedere la [Esplora API](../../../wf-api/general/api-explorer.md).
-
-   ![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Assicurati che le seguenti informazioni siano formattate correttamente:
@@ -164,7 +173,9 @@ Per compilare il foglio di calcolo Excel con le informazioni per i nuovi campi p
 
    * **`setName`** = immetti il nome dei campi personalizzati come desideri che vengano visualizzati in Workfront.
 
-      Ad esempio, è possibile importare due campi personalizzati, denominati _Brand_, un campo casella di controllo e _Media_, un campo pulsante di scelta.
+      >[!INFO]
+      >
+      >Ad esempio, è possibile importare due campi personalizzati, denominati _Brand_, un campo casella di controllo e _Media_, un campo pulsante di scelta.
 
    * La **`setName`** e **`setValue`** in genere le colonne contengono le stesse informazioni e devono riflettere i nomi desiderati nell’interfaccia Workfront per il nuovo campo.
    Il valore di un campo è il nome visualizzato nei rapporti, ad esempio, mentre il nome viene visualizzato nei moduli personalizzati associati agli oggetti.
