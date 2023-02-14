@@ -128,7 +128,7 @@ Per impostare le cartelle collegate:
 * Premiere Pro
 * After Effects
 
-## WF per l&#39;elenco delle applicazioni CC {#cc-plugin-app-list}
+## WF per l'elenco delle applicazioni CC {#cc-plugin-app-list}
 
 * InDesign
 * Illustrator
