@@ -7,14 +7,18 @@ description: È possibile visualizzare e gestire i dettagli di un elemento di la
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
 # Visualizza e gestisci [!DNL Adobe Workfront] dettagli oggetto da [!DNL G Suite]
+
+>[!NOTE]
+>
+>C&#39;è una [problema noto](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versione corrente di [!DNL Workfront for G Suite] non funziona come previsto. Stiamo lavorando a una nuova versione e ci aspettiamo che venga rilasciata al [!DNL Google Marketplace] nel prossimo futuro.
 
 È possibile visualizzare e gestire i dettagli di un elemento di lavoro senza uscire [!DNL G Suite]. Ad esempio, è possibile leggere la descrizione di un&#39;attività, visualizzarne l&#39;oggetto principale, modificarne lo stato e contrassegnarla come completa, il tutto all&#39;interno di [!DNL Adobe Workfront for G Suite].
 

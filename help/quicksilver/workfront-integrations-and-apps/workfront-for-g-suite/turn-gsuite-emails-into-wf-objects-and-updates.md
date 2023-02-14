@@ -7,14 +7,18 @@ description: Puoi trasformare le e-mail non Workfront regolari in [!DNL Adobe Wo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 62df8503-fe6e-4b37-b2ce-0fb5678c21d7
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
 # Trasforma le e-mail di G Suite in [!DNL Adobe Workfront] oggetti e aggiornamenti
+
+>[!NOTE]
+>
+>C&#39;è una [problema noto](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versione corrente di [!DNL Workfront for G Suite] non funziona come previsto. Stiamo lavorando a una nuova versione e ci aspettiamo che venga rilasciata al [!DNL Google Marketplace] nel prossimo futuro.
 
 Puoi trasformare il normale non-[!DNL Workfront] e-mail in [!DNL Adobe Workfront] oggetti e aggiornamenti senza uscire [!DNL G Mail]. Per ulteriori informazioni, consulta i seguenti articoli:
 

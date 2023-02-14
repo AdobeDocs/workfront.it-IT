@@ -7,14 +7,18 @@ description: Puoi aggiornare un progetto, un’attività o un problema esistente
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 3143e5a4988b7234d8225da442f5af1d756d461d
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
 
 # Aggiornare un [!DNL Adobe Workfront] elemento da [!DNL G Suite] utilizzo del contenuto e-mail
+
+>[!NOTE]
+>
+>C&#39;è una [problema noto](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versione corrente di [!DNL Workfront for G Suite] non funziona come previsto. Stiamo lavorando a una nuova versione e ci aspettiamo che venga rilasciata al [!DNL Google Marketplace] nel prossimo futuro.
 
 È possibile aggiornare un progetto, un&#39;attività o un problema esistente con le informazioni di un[!DNL Adobe Workfront] e-mail.
 

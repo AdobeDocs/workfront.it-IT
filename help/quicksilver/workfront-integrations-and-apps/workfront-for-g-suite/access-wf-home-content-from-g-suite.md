@@ -7,14 +7,18 @@ description: Puoi accedere al tuo [!DNL Adobe Workfront] Contenuto principale, i
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
 # Accesso [!DNL Adobe Workfront] [!UICONTROL Pagina principale] contenuto da [!DNL G Suite]
+
+>[!NOTE]
+>
+>C&#39;è una [problema noto](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versione corrente di [!DNL Workfront for G Suite] non funziona come previsto. Stiamo lavorando a una nuova versione e ci aspettiamo che venga rilasciata al [!DNL Google Marketplace] nel prossimo futuro.
 
 Puoi accedere al tuo [!DNL Adobe Workfront] [!UICONTROL Pagina principale] contenuti, inclusi tutte le attività, i problemi, le approvazioni e le richieste di accesso a te assegnate, senza uscire da G Suite.
 
