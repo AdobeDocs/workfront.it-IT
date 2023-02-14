@@ -92,14 +92,14 @@ A [!DNL Microsoft Word] modello è regolare [!DNL Microsoft Word] documento (fil
 Un tag valore semplice viene semplicemente sostituito con un valore corrispondente. Il nome del tag corrisponde al [!UICONTROL Chiave] il valore del campo, posto all&#39;interno di doppie parentesi graffe; ad esempio,
 
 
-<pre>{{name}}</pre>
+<pre>&#123;&#123;name&#125;&#125;</pre>
 
 
 .
 
 **Esempio:** Per creare un documento che dice &quot;Ciao Petr!&quot;, potresti usare un [!DNL Microsoft Word Template] modulo per creare il seguente modello:
 
-<pre>&gt; Ciao {{name}}!</pre>
+<pre>&gt; Ciao &#123;&#123;name&#125;&#125;!</pre>
 
 A questo scopo, imposterai il modulo come segue:
 
@@ -110,7 +110,7 @@ A questo scopo, imposterai il modulo come segue:
 È possibile utilizzare un tag di condizione per racchiudere il testo di cui è necessario eseguire il rendering solo quando sono soddisfatte determinate condizioni. Per racchiudere il testo, posizionarlo tra i tag di condizione di apertura e chiusura, ad esempio &quot;hasPhone&quot;, se la condizione è se i dati includono o meno un numero di telefono. Il nome di un tag di apertura viene preceduto dal simbolo cancelletto #, il nome di un tag di chiusura viene preceduto da una barra /, come mostrato nell’esempio seguente.
 
 **Esempio:** Per produrre un documento che include il numero di telefono di un cliente se i dati di input includono un numero di telefono, ma nessun indirizzo e-mail, è possibile utilizzare un [!DNL Microsoft Word Template] e crea il seguente modello:
-<pre>&gt; {{#hasPhone}}Telefono: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}Email: {{email}} {{/hasEmail}}</pre>A questo scopo, imposterai il modulo come segue:
+pre>> &#123;&#123;#hasPhone&#125;&#125;Telefono: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125;Email: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>A questo scopo, imposterai il modulo come segue:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +129,7 @@ Nel documento, il numero di telefono appare come segue:
 
 **Esempio:** Per produrre un documento in cui siano elencati il nome e il numero di telefono di ogni contatto in un elenco di clienti, è possibile utilizzare un [!DNL Microsoft Word Template] e crea il seguente modello:
 
-<pre>&gt; {{#contact}}</pre><pre>&gt; {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>> &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
 
 A questo scopo, imposterai il modulo come segue:
 

@@ -97,31 +97,31 @@ La [!UICONTROL XML] > [!UICONTROL Analizza XML] Il modulo analizza un testo in f
 >1. Fai clic su **[!UICONTROL OK]**&#x200B; salvare e chiudere la configurazione del modulo.
 1. Aggiungi [!UICONTROL XML] > [!UICONTROL Analizza XML] modulo, collegalo dopo [!UICONTROL HTTP] > [!UICONTROL Ottieni un file] e configuralo come segue:
 <table style="table-layout:auto"> 
-&gt;    <col> 
-&gt;    <col> 
-&gt;    <tbody> 
-&gt;     <tr> 
-&gt;      <td role="rowheader">[!UICONTROL Data structure]</td> 
-&gt;      <td> 
-&gt;       <ol> 
-&gt;        <li value="1">Fai clic sul pulsante <strong>[!UICONTROL Aggiungi]</strong> pulsante .</li> 
-&gt;        <li value="2">Fai clic sul pulsante <strong>[!UICONTROL Generator]</strong> pulsante .</li> 
-&gt;        <li value="3">Nel browser Web, apri una nuova scheda o finestra.</li> 
-&gt;        <li value="4">Inserisci l’URL utilizzato nel terzo passaggio nella barra degli indirizzi e recupera il file XML.</li> 
-&gt;        <li value="5">Seleziona tutto il testo XML e copialo negli Appunti.</li> 
-&gt;        <li value="6">Chiudi la scheda o la finestra e torna allo scenario.</li> 
-&gt;        <li value="7">Incolla il testo XML copiato nel campo Dati di esempio.</li> 
-&gt;        <li value="8">Fai clic su <strong>[!UICONTROL Save]</strong>.</li> 
-&gt;        <li value="9">Verifica che la struttura dati sia stata generata correttamente.</li> 
-&gt;        <li value="10">Fai clic su <strong>[!UICONTROL Save]</strong> per salvare la struttura dati.</li> 
-&gt;       </ol> <p>È possibile saltare i passaggi da 2 a 9 per fornire una struttura dati vuota. Se la struttura dati è vuota, l’output del modulo non è disponibile nel pannello di mappatura fino a quando il modulo non è stato eseguito almeno una volta.</p> </td> 
-&gt;     </tr> 
-&gt;     <tr> 
-&gt;      <td role="rowheader">[!UICONTROL XML]</td> 
-&gt;      <td> <p>Mappa la <code>Data </code>elemento dall’output del modulo [!UICONTROL HTTP] &gt; [!UICONTROL Ottieni un file] nel campo . Utilizza la <code>toString()</code> per convertire il suo valore dal tipo [!UICONTROL Buffer] (dati binari) al tipo di dati [!UICONTROL Text].</p> <p>Puoi copiare e incollare il codice della formula nel campo : <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>Per ulteriori informazioni sui tipi di dati Buffer e Testo , consulta <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Tipi di dati per elementi in Adobe Workfront Fusion</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
-&gt;     </tr> 
-&gt;    </tbody> 
-&gt;   </table>
+>    <col> 
+>    <col> 
+>    <tbody> 
+>     <tr> 
+>      <td role="rowheader">[!UICONTROL Data structure]</td> 
+>      <td> 
+>       <ol> 
+>        <li value="1">Fai clic sul pulsante <strong>[!UICONTROL Aggiungi]</strong> pulsante .</li> 
+>        <li value="2">Fai clic sul pulsante <strong>[!UICONTROL Generator]</strong> pulsante .</li> 
+>        <li value="3">Nel browser Web, apri una nuova scheda o finestra.</li> 
+>        <li value="4">Inserisci l’URL utilizzato nel terzo passaggio nella barra degli indirizzi e recupera il file XML.</li> 
+>        <li value="5">Seleziona tutto il testo XML e copialo negli Appunti.</li> 
+>        <li value="6">Chiudi la scheda o la finestra e torna allo scenario.</li> 
+>        <li value="7">Incolla il testo XML copiato nel campo Dati di esempio.</li> 
+>        <li value="8">Fai clic su <strong>[!UICONTROL Save]</strong>.</li> 
+>        <li value="9">Verifica che la struttura dati sia stata generata correttamente.</li> 
+>        <li value="10">Fai clic su <strong>[!UICONTROL Save]</strong> per salvare la struttura dati.</li> 
+>       </ol> <p>È possibile saltare i passaggi da 2 a 9 per fornire una struttura dati vuota. Se la struttura dati è vuota, l’output del modulo non è disponibile nel pannello di mappatura fino a quando il modulo non è stato eseguito almeno una volta.</p> </td> 
+>     </tr> 
+>     <tr> 
+>      <td role="rowheader">[!UICONTROL XML]</td> 
+>      <td> <p>Mappa la <code>Data </code>elemento dall’output del modulo [!UICONTROL HTTP] &gt; [!UICONTROL Ottieni un file] nel campo . Utilizza la <code>toString()</code> per convertire il suo valore dal tipo [!UICONTROL Buffer] (dati binari) al tipo di dati [!UICONTROL Text].</p> <p>Puoi copiare e incollare il codice della formula nel campo : <code>&#123;&#123;toString(1.data)&#125;&#125;</code></p> <p>Per ulteriori informazioni sui tipi di dati Buffer e Testo , consulta <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Tipi di dati per elementi in Adobe Workfront Fusion</a>.</p> <p> <img src="assets/paste-formula-code-350x99.png" style="width: 350;height: 99;"> </p> </td> 
+>     </tr> 
+>    </tbody> 
+>   </table>
 
 
 ## [!UICONTROL Analisi degli attributi XML]
@@ -181,26 +181,31 @@ La [!UICONTROL XML] > [!UICONTROL Crea XML] Il modulo converte un bundle in un t
 </table>
 
 >[!INFO]
-**Esempio:**
-Un caso d’uso tipico è quello di trasformare i dati da un [!DNL Google] > foglio di calcolo in XML.
-1. Posiziona il [!DNL Google Sheets] > [!UICONTROL Seleziona righe] nel tuo scenario per recuperare i dati. Imposta il modulo per recuperare le righe dal [!DNL Google] foglio di calcolo. Imposta il &#x200B;**[!UICONTROL Numero massimo di righe restituite]** a un numero ridotto, ma maggiore di uno a scopo di test (esempio, tre). Esegui il [!DNL Google Sheets] modulo facendo clic con il pulsante destro del mouse e scegliendo &quot;**[!UICONTROL Esegui solo questo modulo]**.&quot; Verifica l’output del modulo.
-1. Collega [!UICONTROL Aggregatore array] modulo dopo [!DNL Google Sheets] modulo . Nella configurazione del modulo, scegli la [!DNL Google Sheets] nel modulo **[!UICONTROL Nodo di origine]** campo . Lascia gli altri campi così come sono per il momento.
-1. Collega [!UICONTROL XML] > [!UICONTROL Crea XML] modulo dopo [!UICONTROL Aggregatore array] modulo .
-   La configurazione del modulo richiede una struttura dati che descrive la struttura dell&#39;output XML. Fai clic sul pulsante **[!UICONTROL Aggiungi]** per aprire la configurazione della struttura dati. Il modo più semplice per creare questa struttura dati è generarla automaticamente da un esempio XML.
-1. Fai clic sul pulsante **[!UICONTROL Generatore]** e incolla l&#39;esempio XML nel [!UICONTROL Dati di esempio] campo:
-
-![](assets/sample-data-field-350x146.png)
-1. Fai clic su **[!UICONTROL Salva]**. Il campo Specifica nella struttura dati contiene ora la struttura generata.
-1. Modifica il nome della struttura dati in modo che sia più specifico e fai clic su **[!UICONTROL Salva]**. Un campo corrispondente all’attributo dell’array principale viene visualizzato come campo mappabile nella configurazione del modulo JSON.
-1. Fai clic sul pulsante **[!UICONTROL Mappa]** accanto al campo e mappa il `Array[]` dell&#39;articolo [!UICONTROL Aggregatore array] output:
-1. Fai clic su **[!UICONTROL OK]** per chiudere la configurazione del modulo XML.
-1. Apri la configurazione del [!UICONTROL Aggregatore array] modulo . Modificare la **[!UICONTROL Struttura di Target]** da Personalizzato a un campo del modulo XML corrispondente all&#39;elemento XML padre.Mappa elementi dal [!DNL Google Sheets] ai campi appropriati.
-1. Fai clic su **[!UICONTROL OK]** per chiudere la configurazione del modulo Aggregator Array.
-1. Esegui lo scenario.
-
-   Il modulo XML genera il file XML corretto.
-1. Apri la configurazione del [!DNL Google Sheets] e aumentare il [!UICONTROL Numero massimo di righe restituite] deve essere maggiore del numero di righe nel foglio di calcolo per elaborare tutti i dati.
-   Il file XML risultante può essere salvato in [!DNL Dropbox], inviato come allegato tramite e-mail, caricato tramite FTP su un server e così via.
+> 
+>**Esempio:**
+>
+>Un caso d’uso tipico è quello di trasformare i dati da un [!DNL Google] > foglio di calcolo in XML.
+>1. Posiziona il [!DNL Google Sheets] > [!UICONTROL Seleziona righe] nel tuo scenario per recuperare i dati. Imposta il modulo per recuperare le righe dal [!DNL Google] foglio di calcolo. Imposta il &#x200B;**[!UICONTROL Numero massimo di righe restituite]** a un numero ridotto, ma maggiore di uno a scopo di test (esempio, tre). Esegui il [!DNL Google Sheets] modulo facendo clic con il pulsante destro del mouse e scegliendo &quot;**[!UICONTROL Esegui solo questo modulo]**.&quot; Verifica l’output del modulo.
+>1. Collega [!UICONTROL Aggregatore array] modulo dopo [!DNL Google Sheets] modulo . Nella configurazione del modulo, scegli la [!DNL Google Sheets] nel modulo **[!UICONTROL Nodo di origine]** campo . Lascia gli altri campi così come sono per il momento.
+>1. Collega [!UICONTROL XML] > [!UICONTROL Crea XML] modulo dopo [!UICONTROL Aggregatore array] modulo .
+>   La configurazione del modulo richiede una struttura dati che descrive la struttura dell&#39;output XML. Fai clic sul pulsante **[!UICONTROL Aggiungi]** per aprire la configurazione della struttura dati. Il modo più semplice per creare questa struttura dati è generarla automaticamente da un esempio XML.
+>1. Fai clic sul pulsante **[!UICONTROL Generatore]** e incolla l&#39;esempio XML nel [!UICONTROL Dati di esempio] campo:
+>
+>   ![](assets/sample-data-field-350x146.png)
+>
+>1. Fai clic su **[!UICONTROL Salva]**. Il campo Specifica nella struttura dati contiene ora la struttura generata.
+>1. Modifica il nome della struttura dati in modo che sia più specifico e fai clic su **[!UICONTROL Salva]**. Un campo corrispondente all’attributo dell’array principale viene visualizzato come campo mappabile nella configurazione del modulo JSON.
+>1. Fai clic sul pulsante **[!UICONTROL Mappa]** accanto al campo e mappa il `Array[]` dell&#39;articolo [!UICONTROL Aggregatore array] output:
+>1. Fai clic su **[!UICONTROL OK]** per chiudere la configurazione del modulo XML.
+>1. Apri la configurazione del [!UICONTROL Aggregatore array] modulo . Modificare la **[!UICONTROL Struttura di Target]** da Personalizzato a un campo del modulo XML corrispondente all&#39;elemento XML padre.Mappa elementi dal [!DNL Google Sheets] ai campi appropriati.
+>1. Fai clic su **[!UICONTROL OK]** per chiudere la configurazione del modulo Aggregator Array.
+>1. Esegui lo scenario.
+>
+>   Il modulo XML genera il file XML corretto.
+>
+>1. Apri la configurazione del [!DNL Google Sheets] e aumentare il [!UICONTROL Numero massimo di righe restituite] deve essere maggiore del numero di righe nel foglio di calcolo per elaborare tutti i dati.
+>
+>   Il file XML risultante può essere salvato in [!DNL Dropbox], inviato come allegato tramite e-mail, caricato tramite FTP su un server e così via.
 
 
 ## Aggiunta di attributi XML

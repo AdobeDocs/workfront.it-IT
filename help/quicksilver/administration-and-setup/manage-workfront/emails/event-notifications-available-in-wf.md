@@ -220,10 +220,10 @@ Vedi anche [Notifiche: Richieste che ho presentato](../../../workfront-basics/us
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Aggiunta documento richiesta al contatto principale del problema</p> </td> 
-   <td> <p>Documento modificato o caricato su un problema per il quale sono il contatto principale.</p> <p>Il contatto principale del problema riceve una notifica e-mail quando un documento viene caricato o modificato sul problema, a meno che l'utente che ha caricato o modificato il documento non sia anche il contatto principale.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Current e se nella scheda Configurazione coda è abilitata l’opzione "Pubblica come coda della richiesta di aiuto". &lt;!— DISEGNATO IN FLARE: Per ulteriori informazioni sulla pubblicazione di un progetto come coda di richiesta della Guida, consulta 
+   <td> <p>Documento modificato o caricato su un problema per il quale sono il contatto principale.</p> <p>Il contatto principale del problema riceve una notifica e-mail quando un documento viene caricato o modificato sul problema, a meno che l'utente che ha caricato o modificato il documento non sia anche il contatto principale.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Current e se nella scheda Configurazione coda è abilitata l’opzione "Pubblica come coda della richiesta di aiuto". <!-- DISEGNATO IN FLARE: Per ulteriori informazioni sulla pubblicazione di un progetto come coda di richiesta della Guida, consulta 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Panoramica della scheda Dettagli coda in un progetto</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Attivi</p> </td> 
   </tr> 
   <tr> 
@@ -429,10 +429,10 @@ Vedi anche [Notifiche: Informazioni sul lavoro assegnato](../../../workfront-bas
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Aggiunta documento richiesta a Problema assegnato a</p> </td> 
-   <td> <p>I documenti vengono caricati o modificati sulle richieste alle quali sono assegnato.</p> <p>L’assegnatario del problema riceve una notifica e-mail quando i documenti vengono caricati o modificati su un problema aggiunto.</p> <p>Non viene inviata una notifica e-mail se l’utente che ha inserito il problema è l’assegnatario del problema.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Current e se nella scheda Configurazione coda è abilitata l’opzione "Pubblica come coda della richiesta di aiuto".&lt;!— DISEGNATO IN FLARE: Per ulteriori informazioni sulla pubblicazione di un progetto come coda di richiesta della Guida, consulta 
+   <td> <p>I documenti vengono caricati o modificati sulle richieste alle quali sono assegnato.</p> <p>L’assegnatario del problema riceve una notifica e-mail quando i documenti vengono caricati o modificati su un problema aggiunto.</p> <p>Non viene inviata una notifica e-mail se l’utente che ha inserito il problema è l’assegnatario del problema.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Current e se nella scheda Configurazione coda è abilitata l’opzione "Pubblica come coda della richiesta di aiuto". <!-- DISEGNATO IN FLARE: Per ulteriori informazioni sulla pubblicazione di un progetto come coda di richiesta della Guida, consulta 
        <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Panoramica della scheda Dettagli coda in un progetto</a>.
 
-    —>&lt;/p> &lt;/td>
+    --></p> </td>
 <td> <p>Attivi</p> </td> 
   </tr> 
   <tr> 

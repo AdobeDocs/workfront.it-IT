@@ -65,8 +65,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >Quando utilizzi un modello di flusso di lavoro automatizzato, considera quanto segue:
    >   
    >* Le impostazioni di un modello di flusso di lavoro automatizzato determinano le operazioni che è possibile eseguire con il flusso di lavoro automatico per una bozza. Ad esempio, se il pulsante Aggiungi un passaggio è disabilitato nel modello, questo non è visibile perché lavori con le impostazioni del flusso di lavoro automatizzato per la bozza.
-   * Quando una persona viene aggiunta a una pagina in un modello di flusso di lavoro automatizzato, ma è già presente come revisore sulla bozza, l’applicazione del modello rimuove il revisore dal passaggio. Se non aggiungi un altro revisore all’area di visualizzazione, viene visualizzato un messaggio per richiedere di aggiungerne uno.
-   * La possibilità di modificare un modello di flusso di lavoro automatizzato dipende dalle impostazioni del modello configurate dall’amministratore di Workfront, come descritto in . Se la possibilità di modificare il modello è disabilitata, solo il proprietario del modello può modificarlo.
+   >* Quando una persona viene aggiunta a una pagina in un modello di flusso di lavoro automatizzato, ma è già presente come revisore sulla bozza, l’applicazione del modello rimuove il revisore dal passaggio. Se non aggiungi un altro revisore all’area di visualizzazione, viene visualizzato un messaggio per richiedere di aggiungerne uno.
+   >* La possibilità di modificare un modello di flusso di lavoro automatizzato dipende dalle impostazioni del modello configurate dall’amministratore di Workfront, come descritto in . Se la possibilità di modificare il modello è disabilitata, solo il proprietario del modello può modificarlo.
 
 
 1. Configura la prima fase del flusso di lavoro automatizzato:
@@ -75,14 +75,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    1. In **Destinatari** per l’area di visualizzazione, aggiungi i revisori all’area di visualizzazione.
 
       >[!NOTE]
-      Quando aggiungi revisori a un&#39;area di visualizzazione, considera quanto segue:
-      * Puoi aggiungere utenti esterni a un&#39;area di visualizzazione con un indirizzo e-mail.
-      * Dopo aver aggiunto un utente a un’area di visualizzazione, puoi configurare le impostazioni per tale utente sulla bozza.
-      * Puoi trascinare gli utenti direttamente su un altro passaggio, oppure puoi trascinare gli utenti su un altro passaggio **Fasi** diagramma. Per selezionare più utenti, premere Maiusc+Ctrl (su Windows) o Maiusc+Comando (su Mac).
-      * È possibile aggiungere un revisore a una bozza una sola volta, il che significa che non è possibile aggiungere la stessa persona a più di una fase della bozza.
-      * I revisori che non vengono aggiunti a uno stadio privato non possono vedere tale stadio sulla prova o sui commenti fatti in tale fase.
-      * Per impostazione predefinita, l’aggiunta di un utente a un’area di visualizzazione consente all’utente di accedere alla bozza dal momento in cui viene creata.\
-         L’amministratore di Workfront può impedire agli utenti di accedere alla bozza finché il flusso di lavoro non entra nell’area in cui è stato aggiunto l’utente.
+      >Quando aggiungi revisori a un&#39;area di visualizzazione, considera quanto segue:
+      >* Puoi aggiungere utenti esterni a un&#39;area di visualizzazione con un indirizzo e-mail.
+      >* Dopo aver aggiunto un utente a un’area di visualizzazione, puoi configurare le impostazioni per tale utente sulla bozza.
+      >* Puoi trascinare gli utenti direttamente su un altro passaggio, oppure puoi trascinare gli utenti su un altro passaggio **Fasi** diagramma. Per selezionare più utenti, premere Maiusc+Ctrl (su Windows) o Maiusc+Comando (su Mac).
+      >* È possibile aggiungere un revisore a una bozza una sola volta, il che significa che non è possibile aggiungere la stessa persona a più di una fase della bozza.
+      >* I revisori che non vengono aggiunti a uno stadio privato non possono vedere tale stadio sulla prova o sui commenti fatti in tale fase.
+      >* Per impostazione predefinita, l’aggiunta di un utente a un’area di visualizzazione consente all’utente di accedere alla bozza dal momento in cui viene creata.\
+      >   L’amministratore di Workfront può impedire agli utenti di accedere alla bozza finché il flusso di lavoro non entra nell’area in cui è stato aggiunto l’utente.
 
 
    1. Fai clic su **Impostazioni dello stage**.
