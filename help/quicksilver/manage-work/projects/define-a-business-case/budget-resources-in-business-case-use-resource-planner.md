@@ -5,7 +5,7 @@ description: Come parte della pianificazione delle risorse, è possibile utilizz
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 0%
@@ -13,6 +13,10 @@ ht-degree: 0%
 ---
 
 # Risorse di budget nel Business Case utilizzando il Resource Planner
+
+<!--drafted for the Budgeted Hours story: 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Come parte della pianificazione delle risorse, è possibile utilizzare il Planner risorse a livello di progetto per creare il budget dei ruoli di lavoro necessari per completare il lavoro in un progetto quando si crea il caso aziendale.
 
@@ -169,3 +173,7 @@ Per applicare i pool di risorse e le risorse del progetto di budget nel Business
    Il costo viene visualizzato nel Business Case nella valuta del progetto.
 
    Le informazioni di budget specificate nel Business Case vengono visualizzate anche nel Resource Planner.
+
+   <!--drafted for Budgeted Hours: 
+   <span class="preview">When you copy a project, you have the option to also copy the Budgeted Hours to the new project. Only hours budgeted in the Resource Planner are copied. For more information, see [Copy a project](../manage-projects/copy-project.md)</span>
+   -->

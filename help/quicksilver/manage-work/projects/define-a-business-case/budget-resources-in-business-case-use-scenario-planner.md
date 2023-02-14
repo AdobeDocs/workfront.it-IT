@@ -5,14 +5,18 @@ description: Come parte della pianificazione delle risorse, è possibile utilizz
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: ffd7a588c0c9449b7a6aa18e6df7baa7c9872926
+source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Risorse di budget nel caso aziendale utilizzando il Planner scenario
+
+<!--drafted for the Budgeted Hours story: 
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 Come parte della pianificazione delle risorse, è possibile utilizzare Adobe Workfront Scenario Planner per preventivare i ruoli di lavoro necessari per completare il lavoro in un progetto quando si crea il caso aziendale.
 
@@ -126,15 +130,19 @@ Prima di iniziare, è necessario effettuare le seguenti operazioni:
 
       ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
-      Per calcolare il costo del lavoro in budget del progetto, in Workfront vengono utilizzate le ore necessarie per il ruolo del lavoro dell’iniziativa collegata. Questa è l’opzione consigliata. Il costo viene visualizzato nel Business Case nella valuta del progetto.
+      Workfront utilizza le ore del ruolo di lavoro richieste dall&#39;iniziativa collegata per calcolare il costo del lavoro in budget e le ore previste del progetto. Questa è l’opzione consigliata. Il costo viene visualizzato nel Business Case nella valuta del progetto.
 
-      >[!IMPORTANT]
-      Quando si utilizza il Planner scenario per preventivare le risorse del progetto, il costo del lavoro a budget viene visualizzato nelle seguenti aree di Workfront:
-      * Area Budget risorse del Business Case
-      * La pianificazione dello scenario a livello di sistema come costo delle persone dell&#39;iniziativa collegata al progetto. Per ulteriori informazioni, consulta [Creare e modificare le iniziative in Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
+      <!--drafted for Budgeted Hours:
+   <span class="preview">Quando copi un progetto e selezioni di copiare le ore previste nel nuovo progetto, le ore previste nel budget utilizzando il planner scenario non vengono copiate nel nuovo progetto. Vengono copiate solo le ore inserite in budget nel Planner risorse. Per ulteriori informazioni, consulta [Copiare un progetto](../manage-projects/copy-project.md)</span>
+—>
+
+   >[!IMPORTANT]
+   Quando si utilizza il Planner scenario per preventivare le risorse del progetto, il costo del lavoro a budget viene visualizzato nelle seguenti aree di Workfront:
+   * Area Budget risorse del Business Case
+   * La pianificazione dello scenario a livello di sistema come costo delle persone dell&#39;iniziativa collegata al progetto. Per ulteriori informazioni, consulta [Creare e modificare le iniziative in Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
-1. (Facoltativo) Fai clic su **Visualizza in planner scenario** aprire il piano che contiene l&#39;iniziativa collegata al progetto. Verrà visualizzata la finestra di pianificazione dello scenario in una nuova scheda del browser.
+1. (Facoltativo) Fai clic su **Visualizza in planner scenario** aprire il piano che contiene l&#39;iniziativa collegata al progetto. Verrà visualizzata la finestra di pianificazione dello scenario in una nuova scheda del browser.
 1. (Facoltativo) Aggiorna le informazioni sull&#39;iniziativa. Per ulteriori informazioni, consulta [Creare e modificare le iniziative in Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
