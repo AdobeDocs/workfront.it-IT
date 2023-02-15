@@ -6,9 +6,9 @@ description: Quando si utilizza il planner scenario di Adobe Workfront, è possi
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -133,13 +133,18 @@ Per creare iniziative da zero:
      </tr> 
      <tr> 
       <td role="rowheader">Sezione ruoli processo richiesti </td> 
-      <td> <p>Fai clic sul pulsante <strong>[!UICONTROL Inizia a digitare il ruolo del lavoro]</strong> e selezionare un ruolo dall'elenco o iniziare a digitare il nome di un<span>n attivo</span> ruolo professionale. </p> <p><span>A seconda che il piano sia impostato per l'uso di FTE o ore,</span> aggiungi il numero di ruoli di lavoro necessari per questa iniziativa in FTE <span><span>o ore</span></span><span> per ogni mese nell'ambito dell'iniziativa</span>. <span>I primi tre mesi dell’iniziativa vengono visualizzati per impostazione predefinita.</span></p> <p><span>L'aggiornamento delle informazioni sul ruolo di lavoro per l'iniziativa aggiorna anche le informazioni sul ruolo di lavoro richiesto per il piano.</span> </p> <p>Per informazioni sull'impostazione del piano per l'utilizzo di FTE o ore, vedi <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Crea e modifica piani in [!DNL Scenario Planner]</a>. </p> <p>Suggerimento:  
-        <ul> 
-         <li> <p><span>Utilizza il tasto [!UICONTROL Tab] per passare al mese successivo.</span> </p> </li> 
-         <li> <p> Tutto <span>attivo</span> i ruoli di lavoro nel sistema vengono elencati quando si fa clic su questo campo. </p> </li> 
-         <li> <p>I ruoli di lavoro già aggiunti ai ruoli di lavoro disponibili del piano vengono visualizzati per primi. Per informazioni sull'aggiunta di ruoli di lavoro disponibili a un piano, vedere <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Creare e modificare i piani nel planner dello scenario</a>. </p> </li> 
-         <li> <p>[!DNL Workfront] ritiene che un equivalente a tempo pieno sia di 160 ore per un mese. </p> </li> 
-        </ul> </p> <p>È possibile immettere un numero inferiore a 1 ETP o numeri decimali per FTE <span>o</span> <span data-mc-edit-date="2021-04-22T16:51:21.5923499-04:00" data-mc-editor="alinawilson" data-mc-comment=" yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:00.3159349-04:00">ore</span>. Ad esempio, un ruolo di consulente di 0,5 significherebbe che un consulente dedicherebbe metà del suo ETP (in genere, 4 ore, dove 8 ore è 1 ETP) a lavorare su questa iniziativa. </p> <p>Per tutti i calcoli nel Planner scenario, Workfront utilizza il seguente valore: 1 ETP = 8 ore. </p> </td> 
+      <td> <p>Fai clic sul pulsante <strong>[!UICONTROL Inizia a digitare il ruolo del lavoro]</strong> e selezionare un ruolo dall'elenco o iniziare a digitare il nome di un<span>n attivo</span> ruolo professionale. </p> <p><span>A seconda che il piano sia impostato per l'uso di FTE o ore,</span> aggiungi il numero di ruoli di lavoro necessari per questa iniziativa in FTE <span><span>o ore</span></span><span> per ogni mese nell'ambito dell'iniziativa</span>. <span>I primi tre mesi dell’iniziativa vengono visualizzati per impostazione predefinita.</span></p> <p><span>L'aggiornamento delle informazioni sul ruolo di lavoro per l'iniziativa aggiorna anche le informazioni sul ruolo di lavoro richiesto per il piano.</span> </p> <p>Per informazioni sull'impostazione del piano per l'utilizzo di FTE o ore, vedi <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Crea e modifica piani in [!DNL Scenario Planner]</a>. </p>
+      <p><b>IMPORTANTE</b></p>  
+      <p>Per tutti i calcoli nel [!DNL Scenario Planner], [!DNL Workfront] utilizza il seguente valore: 1 ETP = 8 ore. </p>
+
+   <p><b>SUGGERIMENTO</b></p>
+
+   <ul> 
+       <li> <p><span>Utilizza il tasto [!UICONTROL Tab] per passare al mese successivo.</span> </p> </li> 
+      <li> <p> Tutto <span>attivo</span> i ruoli di lavoro nel sistema vengono elencati quando si fa clic su questo campo. </p> </li> 
+       <li> <p>I ruoli di lavoro già aggiunti ai ruoli di lavoro disponibili del piano vengono visualizzati per primi. Per informazioni sull'aggiunta di ruoli di lavoro disponibili a un piano, vedere <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Creare e modificare i piani nel planner dello scenario</a>. </p> </li> 
+       <li> <p>[!DNL Workfront] ritiene che un equivalente a tempo pieno sia di 160 ore per un mese. </p> <p>Per tutti i calcoli nel Planner scenario, Workfront utilizza il seguente valore: 1 ETP = 8 ore. </p></li> 
+      </ul> </p> <p>È possibile immettere un numero inferiore a 1 ETP o numeri decimali per FTE <span>o</span> <span>ore</span>. Ad esempio, un ruolo di consulente di 0,5 significherebbe che un consulente dedicherebbe metà del suo ETP (in genere, 4 ore, dove 8 ore è 1 ETP) a lavorare su questa iniziativa. </p>  </td> 
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">Sezione Costi</td> 

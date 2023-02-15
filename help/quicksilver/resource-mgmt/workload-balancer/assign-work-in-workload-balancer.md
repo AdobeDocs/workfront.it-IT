@@ -6,7 +6,7 @@ description: In qualità di gestore delle risorse, è possibile utilizzare il se
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: d6516c0d7b92172ebe10c9f219c9c0ff8d614167
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 0%
@@ -14,6 +14,10 @@ ht-degree: 0%
 ---
 
 # Panoramica dell’assegnazione del lavoro nel servizio di bilanciamento del carico di lavoro
+
+<!--drafted for Work Time story:
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+-->
 
 In qualità di gestore delle risorse, è possibile utilizzare il servizio di bilanciamento del carico di lavoro di Adobe Workfront per visualizzare gli elementi di lavoro non ancora assegnati agli utenti e assegnarli.
 
@@ -47,6 +51,9 @@ Workfront utilizza le seguenti informazioni per calcolare la capacità dell’ut
 * Il tempo di inattività dell&#39;utente. Indica i giorni in cui l’utente intende decollare.
 
    Per ulteriori informazioni, consulta [Configurare l’ora personale di inattività in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+<!--drafted for Work Time: 
+* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
 
 ## Assegnare il lavoro nel bilanciamento del carico di lavoro
 

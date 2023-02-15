@@ -6,9 +6,9 @@ description: È possibile preventivare le risorse in Adobe Workfront Resource Pl
 author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2160'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se h
    Per ulteriori informazioni sulla comprensione dell&#39;area di budget delle risorse del Business Case, vedere la sezione &quot;Resource Budgeting&quot; nell&#39;articolo [Panoramica delle aree del Business Case](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. (Facoltativo) Selezionare la visualizzazione Utente per notare eventuali sovrassegnazioni o sottoutilizzazioni degli utenti tra le ore disponibili e pianificate per ogni utente. Le ore con budget non sono visibili nella visualizzazione Utente.
+
+   Per informazioni sul modo in cui Workfront calcola la disponibilità di un utente, consulta [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Risorse di budget nella vista Ruolo {#budget-resources-in-the-role-view}
 

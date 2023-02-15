@@ -6,9 +6,9 @@ description: In qualità di Gestione risorse, puoi assegnare il lavoro agli uten
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2787'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,12 @@ Come parte dell&#39;assegnazione del lavoro agli utenti, è possibile modificare
       >La modifica delle allocazioni quando questa impostazione è abilitata fa diminuire il numero totale nella riga utente.
 
    1. **Progetto** in **Seleziona tema colore** sezione . Questo consente di visualizzare ogni progetto e i rispettivi elementi di lavoro in colori unici e di comprendere più facilmente quali elementi appartengono a un progetto.
-   1. **Percentuale** in **Visualizza l&#39;allocazione degli utenti in** sezione . In questo modo le allocazioni vengono visualizzate come valore percentuale. La capacità dell’utente in base alla sua pianificazione è considerata al 100%. Ad esempio, se un utente è associato a una pianificazione di 8 ore al giorno, 8 ore equivale a una capacità del 100%. Se si desidera allocare l&#39;utente a lavorare 4 ore al giorno, è necessario aggiornare l&#39;allocazione al 50%.
+   1. **Percentuale** in **Visualizza l&#39;allocazione degli utenti in** sezione . In questo modo le allocazioni vengono visualizzate come valore percentuale. La capacità dell’utente in base alla pianificazione è considerata al 100%. Ad esempio, se un utente è associato a una pianificazione di 8 ore al giorno, 8 ore equivale a una capacità del 100%. Se si desidera allocare l&#39;utente a lavorare 4 ore al giorno, è necessario aggiornare l&#39;allocazione al 50%.
+
+      >[!NOTE]
+      >
+      >L&#39;amministratore di Workfront decide quale pianificazione utilizzare nel sistema per calcolare la capacità dell&#39;utente nell&#39;area Gestione risorse dell&#39;installazione. Per ulteriori informazioni, consulta [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
 
 1. Fai clic sul pulsante **Altro** menu ![](assets/qs-more-menu.png) per un elemento di lavoro, quindi fare clic su **Modifica allocazioni**.
 
