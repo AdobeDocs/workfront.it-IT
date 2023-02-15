@@ -134,16 +134,19 @@ Prima di iniziare, è necessario effettuare le seguenti operazioni:
 
       <!--drafted for Budgeted Hours:
    <span class="preview">Quando copi un progetto e selezioni di copiare le ore previste nel nuovo progetto, le ore previste nel budget utilizzando il planner scenario non vengono copiate nel nuovo progetto. Vengono copiate solo le ore inserite in budget nel Planner risorse. Per ulteriori informazioni, consulta [Copiare un progetto](../manage-projects/copy-project.md)</span>
-—>
+-->
 
    >[!IMPORTANT]
-   Quando si utilizza il Planner scenario per preventivare le risorse del progetto, il costo del lavoro a budget viene visualizzato nelle seguenti aree di Workfront:
-   * Area Budget risorse del Business Case
-   * La pianificazione dello scenario a livello di sistema come costo delle persone dell&#39;iniziativa collegata al progetto. Per ulteriori informazioni, consulta [Creare e modificare le iniziative in Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
+   >
+   >Quando si utilizza il Planner scenario per preventivare le risorse del progetto, il costo del lavoro a budget viene visualizzato nelle seguenti aree di Workfront:
+   >
+   >* Area Budget risorse del Business Case
+   >* La pianificazione dello scenario a livello di sistema come costo delle persone dell&#39;iniziativa collegata al progetto. Per ulteriori informazioni, consulta [Creare e modificare le iniziative in Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
 
 
 1. (Facoltativo) Fai clic su **Visualizza in planner scenario** aprire il piano che contiene l&#39;iniziativa collegata al progetto. Verrà visualizzata la finestra di pianificazione dello scenario in una nuova scheda del browser.
 1. (Facoltativo) Aggiorna le informazioni sull&#39;iniziativa. Per ulteriori informazioni, consulta [Creare e modificare le iniziative in Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]
-   È necessario pubblicare l&#39;iniziativa dopo ogni modifica per l&#39;area Resource Budgeting del progetto da aggiornare.
+   >
+   >È necessario pubblicare l&#39;iniziativa dopo ogni modifica per l&#39;area Resource Budgeting del progetto da aggiornare.
