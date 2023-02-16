@@ -6,9 +6,9 @@ description: Le persone devono essere aggiunte alla bacheca come membri prima di
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 705ddcde7e17ebf452ccce9ca69be65815354214
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic sul pulsante **[!UICONTROL Aggiungi membro]** icona ![Aggiungi membri](assets/boards-addmember-spectrum-25x25.png).
 1. In **[!UICONTROL Aggiungi membri]** iniziare a digitare un nome, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 
-   È possibile selezionare un singolo membro o un team. Se scegliete un team, il team stesso viene aggiunto alla bacheca. I singoli membri del team possono quindi essere assegnati a una scheda.
+   È possibile selezionare un singolo membro o un team. Se scegliete un team, il team stesso viene aggiunto alla bacheca. L&#39;intero team e i singoli membri del team sono quindi disponibili per l&#39;assegnazione a una scheda.
 
    >[!NOTE]
    >

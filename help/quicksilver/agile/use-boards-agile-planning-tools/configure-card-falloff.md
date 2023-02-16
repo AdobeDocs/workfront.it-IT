@@ -6,7 +6,7 @@ title: Configura decadimento scheda
 description: Potete configurare una bacheca in modo che le schede vengano archiviate o lasciate fuori dalla bacheca, secondo una pianificazione.
 author: Lisa
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 2dfa3e7b215a8234453b2d688031c993978e02ae
+source-git-commit: 5114a135c510d5a7020fd0a0862f9dcc61d9ad93
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![Impostazioni di diminuzione schede](assets/card-falloff-switch.png)
 
-1. Selezionate quando archiviare le schede dalla bacheca. Puoi scegliere fino a 4 settimane o fino a 30 giorni.
+1. Selezionate quando archiviare le schede dalla bacheca. Puoi scegliere fino a 8 settimane o fino a 60 giorni.
 
    La data viene determinata dall&#39;ultima modifica apportata alla scheda.
 
