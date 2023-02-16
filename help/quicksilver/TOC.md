@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '12688'
+source-wordcount: '12695'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 1%
       * [Preparazione di una versione trimestrale di Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versione 23.2 {#release-23-2}
          * [Panoramica sulla versione 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
+         * [Attività di rilascio 23.2: Settimana del 13 febbraio 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
          * [Attività di rilascio 23.2: Settimana del 6 febbraio 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
          * [Attività di rilascio 23.2: settimana del 23 gennaio 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
          * [Scopri gli aggiornamenti nel periodo di tempo di rilascio 23.2](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
@@ -901,6 +902,7 @@ ht-degree: 1%
       * [Aggiungere una colonna di assunzione a una bacheca](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Utilizzare i gruppi su una bacheca](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Configura decadimento scheda](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+      * [Gestire le raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
    * Kanban in un team agile {#kanban}
       * [Kanban in un team agile](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Panoramica Kanban](agile/use-kanban-in-an-agile-team/kanban-overview.md)

@@ -6,16 +6,22 @@ title: Eliminare o archiviare una bacheca
 description: Potete eliminare o archiviare una bacheca in Workfront. L'eliminazione di una bacheca la rimuove definitivamente da Workfront, mentre l'archiviazione di una bacheca conserva tutte le schede e consente di ripristinarla in un secondo momento.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
 
 # Eliminare o archiviare una bacheca
 
-Potete eliminare o archiviare una bacheca in [!DNL Workfront]. L&#39;eliminazione di una bacheca comporta la rimozione definitiva di tale bacheca [!DNL Workfront], mentre l&#39;archiviazione di una bacheca conserva tutte le schede e consente di ripristinarla in un secondo momento.
+{{highlighted-preview}}
+
+Potete eliminare o archiviare una bacheca in [!DNL Workfront]. L&#39;eliminazione di una bacheca comporta la rimozione definitiva di tale bacheca [!DNL Workfront], mentre l&#39;archiviazione di una bacheca conserva tutte le schede e consente di ripristinarla in un secondo momento. <span class="preview">Queste opzioni si applicano sia alle schede indipendenti che alle bacheche che fanno parte delle raccolte.</span>
+
+>[!NOTE]
+>
+>Le raccolte sono disponibili solo tramite la funzionalità opt-in iniziale per le bacheche Workfront.
 
 ## Requisiti di accesso
 

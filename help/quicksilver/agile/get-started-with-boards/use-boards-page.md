@@ -6,18 +6,32 @@ description: La [!UICONTROL bacheche] Il dashboard mostra l'elenco delle bachech
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 814765092d5906417513966d9f563ae5e097d1d1
+source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
 
 # Utilizzare il dashboard delle bacheche
 
-Il dashboard delle bacheche mostra l&#39;elenco delle bacheche a cui hai accesso, incluse le bacheche create e le bacheche a cui sei stato aggiunto.
+{{highlighted-preview}}
 
-Nel dashboard delle bacheche è possibile archiviare una bacheca, filtrare l&#39;elenco delle bacheche, ordinare l&#39;elenco in base al nome o alla data di modifica e cercare una bacheca specifica. Potete anche archiviare o eliminare una singola bacheca. Per informazioni sulla creazione di una nuova bacheca o sulla modifica di una bacheca esistente, vedete [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
+Il dashboard delle bacheche mostra l&#39;elenco delle bacheche <span class="preview">e raccolte</span> alle quali potete accedere, comprese le bacheche che avete creato e le bacheche alle quali siete stati aggiunti. <span class="preview">Vengono visualizzate per prime le bacheche singole alle quali hai accesso e che non fanno parte di una raccolta.</span>
+
+>[!NOTE]
+>
+>Le raccolte sono disponibili solo tramite l’opt-in della funzione iniziale per [!DNL Workfront] [!UICONTROL Schede].
+
+Nel dashboard puoi effettuare le seguenti operazioni per le bacheche e <span class="preview">collezioni</span>:
+
+* Archiviare una bacheca (le raccolte non possono essere archiviate)
+* Filtrare l&#39;elenco delle bacheche
+* Ordina l&#39;elenco delle bacheche in base al nome o alla data di modifica della bacheca
+* Cercare una bacheca o una raccolta
+* Eliminare una bacheca o una raccolta
+
+Per informazioni sulla creazione di una nuova bacheca o sulla modifica di una bacheca esistente, vedete [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md). <span class="preview">Per informazioni sulla creazione di una nuova raccolta, vedi [Gestire le raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
 
 ## Requisiti di accesso
 
@@ -45,23 +59,25 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Potete filtrare il dashboard delle bacheche per visualizzare le bacheche attive, le bacheche archiviate o tutte le bacheche.
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic sull’icona del filtro ![Filtro](assets/filter-icon-spectrum-25x25.png) e seleziona **[!UICONTROL Tutto]**, **[!UICONTROL Schede attive]** oppure **[!UICONTROL Schede archiviate]**.
+1. Fai clic su [!UICONTROL **Filtro**] e seleziona **[!UICONTROL Tutto]**, **[!UICONTROL Schede attive]** oppure **[!UICONTROL Schede archiviate]**.
 
    Quando sul dashboard viene applicato un filtro diverso da quello predefinito, sull&#39;icona del filtro viene visualizzato un indicatore ![[!UICONTROL Filtro applicato a] dashboard](assets/boards-filterapplied-30x30.png).
 
 ## Schede di ordinamento
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Per ordinare l&#39;elenco delle bacheche, fate clic sull&#39;icona di ordinamento ![Icona Ordina](assets/sort-boards-icon.png). L’opzione di ordinamento predefinita per la pagina è per **[!UICONTROL Data di modifica]**. Puoi anche ordinare la pagina per bacheca **[!UICONTROL Nome]**.
+1. Per ordinare l&#39;elenco delle bacheche, fate clic su [!UICONTROL **Ordinare**]. L’opzione di ordinamento predefinita per la pagina è per **[!UICONTROL Data di modifica]**. Puoi anche ordinare la pagina per bacheca **[!UICONTROL Nome]**.
 
    Seleziona **[!UICONTROL Ordine inverso]** per ordinare le bacheche in ordine inverso rispetto alla data di modifica o al nome. Quando la freccia sull&#39;icona di ordinamento è rivolta verso l&#39;alto, viene applicato l&#39;ordine inverso. Quando la freccia punta verso il basso, viene applicato l’ordine standard.
 
    Quando sul dashboard viene applicato un ordinamento diverso da quello predefinito, sull&#39;icona di ordinamento viene visualizzato un indicatore ![Ordinamento applicato](assets/sort-applied-boards.png).
 
-## Cercare una bacheca
+## Cercare una bacheca <span class="preview">o una raccolta</span>
+
+<span class="preview">Potete cercare una bacheca specifica nell&#39;area Bacheche oppure cercare una raccolta specifica nell&#39;area Raccolte.</span>
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic sull’icona di ricerca ![Icona Ricerca](assets/search-icon.png) e digitare un termine di ricerca. Quindi, premere Invio.
+1. Fai clic su [!UICONTROL **Ricerca**] e digitare un termine di ricerca. Quindi, premere Invio.
 
    Vengono visualizzate tutte le bacheche contenenti il termine di ricerca nel titolo.
 
@@ -86,14 +102,38 @@ L&#39;archiviazione di una bacheca la invia all&#39;archivio ed è possibile rip
 
 1. Per ripristinare una bacheca archiviata, fate clic sul pulsante **[!UICONTROL Altro]** menu ![Icona menu Altro](assets/more-icon-spectrum.png) sulla bacheca e selezionare **[!UICONTROL Ripristina]**.
 
-## Eliminare una bacheca
+## Eliminare una bacheca <span class="preview">o una raccolta</span>
 
 Quando eliminate una bacheca, viene rimossa definitivamente da [!DNL Workfront] e non può essere ripristinato. Tutte le carte sulla bacheca vengono cancellate insieme alla bacheca.
 
+<span class="preview">L&#39;eliminazione di una raccolta elimina tutte le bacheche della raccolta.</span>
+
 >[!NOTE]
 >
->Potete eliminare solo le bacheche create, non le bacheche alle quali siete stati aggiunti.
+>Potete eliminare solo le bacheche e le raccolte create, non le bacheche e le raccolte a cui siete stati aggiunti.
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla bacheca e selezionare **[!UICONTROL Elimina]**.
-1. Fai clic su **[!UICONTROL Elimina bacheca]** nel messaggio di conferma.
+1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla bacheca o sulla raccolta e selezionare **[!UICONTROL Elimina]**.
+
+   <span class="preview">In una raccolta, il menu si trova a destra, accanto al [!UICONTROL **Visualizza raccolta**] pulsante .</span>
+
+1. Fai clic su **[!UICONTROL Elimina bacheca]** o [!UICONTROL **Elimina raccolta**] nel messaggio di conferma.
+
+<div class="preview">
+
+## Spostare una bacheca in una raccolta
+
+Potete spostare una bacheca autonoma in una raccolta o spostare una bacheca da una raccolta a un&#39;altra.
+
+>[!NOTE]
+>
+>Potete spostare solo le bacheche create, non le bacheche alle quali siete stati aggiunti.
+
+1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
+1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla bacheca e selezionare [!UICONTROL **Sposta alla raccolta**].
+1. Selezionate la raccolta a cui aggiungere la bacheca e fate clic su [!UICONTROL **Sposta**].
+
+   La bacheca viene spostata nella raccolta e non viene più visualizzata nella [!UICONTROL Schede] area.
+Se non avete ancora creato una raccolta, vi verrà richiesto di crearne una in cui spostare la bacheca.
+
+</div>

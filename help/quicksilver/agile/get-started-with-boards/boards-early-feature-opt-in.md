@@ -6,9 +6,9 @@ title: Accesso anticipato per [!DNL Adobe Workfront] Schede
 description: Leggi questo articolo per saperne di più [!DNL Workfront Boards] funzionalità opt-in iniziale.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 4b494093110edaa82ade13756b5f6717e4013efa
+source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ La tabella seguente illustra le principali funzioni delle bacheche e il loro sta
   </tr>
   <tr>
    <td>Creazione di raccolte di bacheche</td>
-   <td>Pianificato</td>
+   <td>Rilasciato parzialmente</td>
   </tr>
   <tr>
    <td>Creare iterazioni</td>
@@ -162,7 +162,7 @@ Tutte le organizzazioni dispongono di funzioni avanzate per le bacheche. Il coin
 Solo [!DNL Workfront] gli amministratori possono scegliere di utilizzare le funzioni avanzate delle bacheche. Quando un [!DNL Workfront] l’amministratore abilita le funzionalità iniziali, tutti gli utenti dell’organizzazione vengono inclusi nel consenso.
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic su **[!UICONTROL Accesso anticipato]** nella parte superiore della schermata del dashboard.
+1. Fai clic su ![Accesso anticipato](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Accesso anticipato]) nella parte superiore della schermata del dashboard.
 1. Fai clic su **[!UICONTROL Abilita]**.
 1. Iniziate a utilizzare le funzioni iniziali delle bacheche.
 
@@ -192,5 +192,5 @@ Tuttavia, [!DNL Workfront] l’amministratore può nascondere l’opzione Bachec
 Solo [!DNL Workfront] gli amministratori possono scegliere di non ricevere le funzionalità in anticipo. Se [!DNL Workfront] l’amministratore disattiva le funzioni preliminari. Tutti gli utenti dell’organizzazione vengono esclusi.
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic su **[!UICONTROL Abilitazione anticipata della funzionalità opt-in]** nella parte superiore della schermata del dashboard.
+1. Fai clic su ![Abilitazione anticipata della funzionalità opt-in](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Abilitazione anticipata della funzionalità opt-in]) nella parte superiore della schermata del dashboard.
 1. Fai clic su **[!UICONTROL Disattiva]**.
