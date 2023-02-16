@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 8d9717a5b24c98f31d8248a87145fb7aa4244219
+source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
 workflow-type: tm+mt
-source-wordcount: '12675'
+source-wordcount: '12683'
 ht-degree: 1%
 
 ---
@@ -891,6 +891,7 @@ ht-degree: 1%
       * [Utilizzare schede collegate sulle bacheche](agile/get-started-with-boards/connected-cards.md)
       * [Gestione delle schede](agile/get-started-with-boards/move-board-items.md)
       * [Gestione degli elementi delle liste di controllo sulle schede](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Eliminare o archiviare una scheda da una bacheca](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrare ed eseguire ricerche in una bacheca](agile/get-started-with-boards/filter-search-in-board.md)
       * [Aggiungi tag](agile/get-started-with-boards/add-tags.md)
