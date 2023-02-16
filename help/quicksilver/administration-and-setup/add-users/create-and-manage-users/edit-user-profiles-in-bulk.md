@@ -8,50 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 5433008d93e99d69f8116e222bfce02411b77825
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '2194'
+source-wordcount: '2384'
 ht-degree: 0%
 
 ---
 
 # Modificare in blocco i profili utente
 
-<!--drafted for Work Time field: 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
-
-In the table below, under Resource Planning, add the "Work Time" field and update the "FTE" field:
-
-<b><span class="preview">Work Time</span></b>: <span class="preview">Represents the percentage of the Full Time Equivalent (FTE) time that the user is available for actual work, not including overhead. Work Time must be a decimal number up to 1, and it cannot be 0. For example, a 20% availability for actual work would be 0.2.</span> 
-
-<span class="preview">The field's default is 1, indicating that a user spends their entire FTE on actual, project-related work.</span>  
-
-<span class="preview">The system uses this number to calculate the availability of the user for actual, project-related work.</span> 
-
-<span class="preview">For more information about creating schedules in Workfront, see Create a schedule.</span>
-
-<span class="preview">Schedule exceptions and time off might also affect the user capacity. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-
-***UPDATED FTE FIELD***
-
-FTE: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. The FTE indicates the amount of time that the user can spend at work. This includes overhead, and  time that is not spent on project work, but on other type of work. For example, time that is spent in meetings, or training is also included in the FTE. 
-
-The FTE must be a decimal number up to 1, and it cannot be 0. 
-The field's default is 1.
-
-For example, if the FTE value is 0.5 and the Default Schedule in Workfront is 40 hours, the user is available for 20 hours a week. 
-
-Schedule exceptions, time off might, <span class="preview">and the value of Work Time</span> may affect the amount of available hours or the FTE. 
-
-Workfront calculates a user's availability depending on the Resource Management preferences in your Setup area. For more information, see Configure Resource Management preferences. (*****INSERT LINK****)
-
-If the Resource Management Preferences at the system level are set to The User's Schedule, the value you specify here is ignored and the user is considered to be available according to what is specified in their schedule. 
-
-For more information about creating schedules in Workfront, see Create a schedule. (*****INSERT LINK*****)
--->
+<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.</span>
 
 >[!IMPORTANT]
 >
@@ -176,44 +142,76 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      <tr> 
       <td role="rowheader">Pianificazione risorse</td> 
       <td> 
+       <ul>
+
+   <li>
+       <b><span class="preview">Tempo di lavoro</span></b>: <span class="preview">Rappresenta la percentuale del tempo equivalente a tempo pieno (FTE) disponibile per il lavoro effettivo, esclusi i costi comuni. Il tempo di lavoro deve essere un numero decimale fino a 1 e non può essere 0. Ad esempio, una disponibilità del 20% per il lavoro effettivo sarebbe 0,2.</span>
+
+   <span class="preview">L’impostazione predefinita del campo è 1, a indicare che un utente spende l’intero FTE sul lavoro effettivo correlato al progetto.</span>
+
+   <span class="preview">Il sistema utilizza questo numero per calcolare la disponibilità dell&#39;utente per il lavoro effettivo relativo al progetto. </span>
+
+   <span class="preview">Per ulteriori informazioni sulla creazione di pianificazioni in Workfront, vedi <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Creare una pianificazione</a>.</span>
+
+   <span class="preview">Le eccezioni di pianificazione e il tempo di inattività potrebbero influire anche sulla capacità dell&#39;utente.
+
+   Workfront calcola la disponibilità di un utente in base alle preferenze di Gestione risorse nell’area Configurazione. Per ulteriori informazioni, consulta <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurare le preferenze di Gestione risorse</a>.
+
+   <b>SUGGERIMENTO</b>
+
+   <span class="preview">Impostare il valore Ora di lavoro su 1 per indicare che l’utente è disponibile per il lavoro relativo al progetto per l’intero equivalente a tempo pieno.</span>
+   </li>
+
+   <li><b>Disattivazione programmata</b>: Seleziona questa casella se desideri pianificare la disattivazione degli utenti dopo un periodo di tempo.</li> 
+       <li><b>Data di disattivazione pianificata</b>: Data dopo la quale gli utenti vengono disattivati. Per ulteriori informazioni sulla pianificazione degli utenti per la disattivazione, consulta la sezione . <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Pianificare gli utenti per la disattivazione</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Disattivare o riattivare un utente</a>.</li> 
+       <li> <p><b>Ruolo principale</b>: Questo è il ruolo principale di un utente in Workfront. Per impostazione predefinita, a ogni attività e problema a cui sono assegnati gli utenti viene assegnato anche questo ruolo di lavoro. I ruoli di lavoro sono essenziali nella gestione delle risorse. Per ulteriori informazioni sui ruoli di lavoro, consulta <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Creare e gestire ruoli di lavoro</a></p> <p>È possibile aggiornare questo campo solo se si dispone di una licenza Plan con accesso amministrativo per gli utenti o se si è un amministratore Workfront. Per ulteriori informazioni sulla configurazione degli utenti con accesso amministrativo agli utenti, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</p> </li> 
+       <li>(Condizionale) Se hai selezionato un <b>Ruolo principale</b>, <b>Percentuale di disponibilità FTE</b> viene visualizzato il campo . Specificare la percentuale di tempo delle pianificazioni degli utenti allocata a questo ruolo di lavoro. Il valore predefinito per la percentuale di disponibilità FTE per il ruolo principale è 100%.</li> 
+       <li> <p><b>Altri ruoli</b>: Gli utenti possono avere più ruoli di lavoro in Workfront. I ruoli di lavoro sono essenziali nella gestione delle risorse. Non vi è alcun limite per il numero di ruoli di lavoro che un utente può svolgere. Tuttavia, consigliamo di non assegnare un utente a un numero eccessivo di ruoli di lavoro, perché la gestione delle risorse potrebbe diventare troppo complessa per questi utenti.</p> <p>Per ulteriori informazioni sui ruoli di lavoro, consulta <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Creare e gestire ruoli di lavoro</a>.</p> <p>È possibile aggiornare questo campo solo se si dispone di una licenza Plan con accesso amministrativo per gli utenti o se si è un amministratore Workfront. Per ulteriori informazioni sulla configurazione degli utenti con accesso amministrativo agli utenti, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</p> </li> 
+       <li> <p>(Condizionale) Se hai selezionato uno o più <b>Altri ruoli</b>, <b>Percentuale di disponibilità FTE</b> viene visualizzato un campo per ciascun ruolo. Specificare la percentuale di tempo delle pianificazioni degli utenti allocata a ciascun ruolo di lavoro. Il valore predefinito per la percentuale di disponibilità FTE per gli altri ruoli è 0%.</p> <p><b>NOTA</b>:  
        <ul> 
-        <li><b>Disattivazione programmata</b>: Seleziona questa casella se desideri pianificare la disattivazione degli utenti dopo un periodo di tempo.</li> 
-        <li><b>Data di disattivazione pianificata</b>: Data dopo la quale gli utenti vengono disattivati. Per ulteriori informazioni sulla pianificazione degli utenti per la disattivazione, consulta la sezione . <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#scheduling-users-for-deactivation" class="MCXref xref">Pianificare gli utenti per la disattivazione</a> in <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Disattivare o riattivare un utente</a>.</li> 
-        <li> <p><b>Ruolo principale</b>: Questo è il ruolo principale di un utente in Workfront. Per impostazione predefinita, a ogni attività e problema a cui sono assegnati gli utenti viene assegnato anche questo ruolo di lavoro. I ruoli di lavoro sono essenziali nella gestione delle risorse. Per ulteriori informazioni sui ruoli di lavoro, consulta <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Creare e gestire ruoli di lavoro</a></p> <p>È possibile aggiornare questo campo solo se si dispone di una licenza Plan con accesso amministrativo per gli utenti o se si è un amministratore Workfront. Per ulteriori informazioni sulla configurazione degli utenti con accesso amministrativo agli utenti, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</p> </li> 
-        <li>(Condizionale) Se hai selezionato un <b>Ruolo principale</b>, <b>Percentuale di disponibilità FTE</b> viene visualizzato il campo . Specificare la percentuale di tempo delle pianificazioni degli utenti allocata a questo ruolo di lavoro. Il valore predefinito per la percentuale di disponibilità FTE per il ruolo principale è 100%.</li> 
-        <li> <p><b>Altri ruoli</b>: Gli utenti possono avere più ruoli di lavoro in Workfront. I ruoli di lavoro sono essenziali nella gestione delle risorse. Non vi è alcun limite per il numero di ruoli di lavoro che un utente può svolgere. Tuttavia, consigliamo di non assegnare un utente a un numero eccessivo di ruoli di lavoro, perché la gestione delle risorse potrebbe diventare troppo complessa per questi utenti.</p> <p>Per ulteriori informazioni sui ruoli di lavoro, consulta <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Creare e gestire ruoli di lavoro</a>.</p> <p>È possibile aggiornare questo campo solo se si dispone di una licenza Plan con accesso amministrativo per gli utenti o se si è un amministratore Workfront. Per ulteriori informazioni sulla configurazione degli utenti con accesso amministrativo agli utenti, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</p> </li> 
-        <li> <p>(Condizionale) Se hai selezionato uno o più <b>Altri ruoli</b>, <b>Percentuale di disponibilità FTE</b> viene visualizzato un campo per ciascun ruolo. Specificare la percentuale di tempo delle pianificazioni degli utenti allocata a ciascun ruolo di lavoro. Il valore predefinito per la percentuale di disponibilità FTE per gli altri ruoli è 0%.</p> <p><b>NOTA</b>:  
-          <ul> 
-           <li>Se la disponibilità di altri ruoli è pari a 0%, questi non vengono visualizzati nel Planner risorse, a meno che gli utenti non siano assegnati a attività in questi ruoli.</li> 
-           <li> <p>La somma di tutte le percentuali di disponibilità FTE per tutti i ruoli deve essere uguale al 100%. Ogni percentuale di disponibilità FTE calcola le ore disponibili per ogni ruolo per utente nel Resource Planner. L’orario disponibile per ogni ruolo per utente dipende dal tempo disponibile per l’utente.</p> <p>Il tempo disponibile per l’utente viene calcolato da Workfront in base al metodo selezionato dall’amministratore Workfront per calcolare l’ETP nelle Preferenze di gestione delle risorse.</p> <p>Per ulteriori informazioni sul calcolo della disponibilità per l'utente, consulta <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica del calcolo delle ore e degli FTE per utenti e ruoli nel Planner risorse</a>.</p> <p>Per ulteriori informazioni sulla configurazione delle preferenze di Gestione risorse, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </li> 
-          </ul> </p> </li> 
-        <li> <p><b>Pianificazione</b>: Associa una pianificazione agli utenti. La pianificazione degli utenti calcola la cronologia delle attività a cui sono assegnati gli utenti.</p> <p>Per poter essere associato agli utenti, un amministratore di Workfront o un amministratore di gruppo deve creare una pianificazione.</p> <p>Selezionare una pianificazione a livello di sistema o di gruppo per assegnarla agli utenti selezionati.</p> <p>Per ulteriori informazioni sulle pianificazioni a livello di sistema e di gruppo, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>.</p> <p><b>IMPORTANTE</b>: Workfront utilizza la pianificazione di un utente solo quando l’impostazione Calcola disponibilità risorse utilizzando è impostata su Pianificazione dell’utente. Per informazioni su come l'impostazione Calcola disponibilità risorse utilizzando influisce sulla pianificazione utilizzata per la gestione delle risorse, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </li> 
-        <li> <p><b>Profilo scheda attività</b>: Associa un profilo scheda attività agli utenti. In questo modo i fogli presenze vengono generati automaticamente per gli utenti.</p> 
-        <p><b>NOTA</b>:  
-          <ul> 
-           <li>L'elenco dei profili della scheda attività disponibili in questo campo dipende dall'accesso:
-            <ul>
-             <li>In qualità di amministratore di Workfront, è possibile visualizzare tutti i profili della scheda attività a livello di sistema e di gruppo.</li>
-             <li><p>In qualità di amministratore di gruppo, è possibile visualizzare i profili della scheda attività a livello di sistema e quelli associati ai gruppi gestiti.</p></li>
-             <li><p>In qualità di utente con una licenza Planner e accesso per modificare gli utenti, è possibile visualizzare solo i profili della scheda attività a livello di sistema.</p></li>
-            </ul></li> 
-           <li>Se sei un amministratore di gruppo, tutti gli utenti che stai modificando devono essere membri di un gruppo che amministri.</li> 
-          </ul> </p> </li> 
-        <li><b>Tipo orario predefinito</b>: Seleziona il tipo di ora predefinito per gli utenti. Questo è il tipo di ora utilizzato per impostazione predefinita quando l’utente registra l’ora.</li> 
-        <li> <p><b>Tipi di ora disponibili</b>: Seleziona i tipi di ora che devono essere disponibili per l’utente. Questi tipi di ora sono visibili ovunque in Workfront, dove gli utenti possono registrare il tempo. Un utente può visualizzare solo i tipi di ora abilitati a livello di progetto e a livello di utente.</p> 
-        <p>Per ulteriori informazioni sui tipi di ora disponibili per gli utenti, consulta <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Definire i tipi di ora e la disponibilità per i fogli presenze</a>.</p> 
-        </li> 
-        <li> <p><b>FTE</b>: Il numero specificato viene preso in considerazione per calcolare la disponibilità dell'utente in base alla pianificazione predefinita solo quando le preferenze di gestione delle risorse a livello di sistema sono impostate su <b>Pianificazione predefinita</b>.</p> 
-        <p>Ad esempio, se il valore FTE è 0,5 e la pianificazione predefinita è 40 ore, l’utente può lavorare 20 ore alla settimana. Per ulteriori informazioni su come le eccezioni di pianificazione o il tempo di inattività potrebbero influire sulla disponibilità dell'utente quando è selezionata la pianificazione predefinita, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>. </p> 
-        <p>Se le preferenze di Gestione risorse a livello di sistema sono impostate su <b>Pianificazione dell'utente</b>, il valore specificato viene ignorato e l’utente viene considerato disponibile in base a quanto specificato nella pianificazione. In questo caso, l’FTE dell’utente per il Planner risorse viene calcolato dalla seguente formula:</p>
-        <p><code style="font-style: normal;">User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours</code> </p> <p>Per ulteriori informazioni sul calcolo dell’FTE per l’utente, consulta <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica del calcolo delle ore e degli FTE per utenti e ruoli nel Planner risorse</a>.</p> <p>Per ulteriori informazioni sulla creazione di pianificazioni in Workfront, vedi <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>.</p> <p>Per ulteriori informazioni sulla configurazione delle preferenze di gestione delle risorse, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> 
-        </li> 
-        <li> <p><b>Pool di risorse</b>: Associa gli utenti ai pool di risorse.</p> <p><b>NOTA</b>: In questo campo vengono visualizzati solo i pool di risorse comuni a tutti gli utenti selezionati. Se gli utenti selezionati non dispongono di pool di risorse condivise, questo campo è vuoto. Se questo campo è vuoto, i pool di risorse specificati in questo campo sovrascriveranno i singoli pool di risorse.</p> 
-        <p>Per ulteriori informazioni sui pool di risorse, consulta <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Panoramica dei pool di risorse </a>.</p> </li> 
-        <li><b>Costo/ora</b>: Importo del costo all'ora per l'utente. </li> 
-        <li><b>Fatturazione per ora</b>: La quantità di fatturazione all'ora per l'utente.</li> 
-        <li><b>Forms personalizzato</b>: Associa un modulo personalizzato utente esistente agli utenti. È necessario creare un modulo personalizzato prima di poterlo associare a un utente. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>.</li> 
-        <li><b>Commento</b>: Immetti un commento nel campo fornito. Tutti gli utenti selezionati riceveranno una notifica in-app e una notifica e-mail con il tuo commento. Il commento viene visualizzato nella scheda Aggiornamenti del profilo dell’utente.</li> 
+       <li>Se la disponibilità di altri ruoli è pari a 0%, questi non vengono visualizzati nel Planner risorse, a meno che gli utenti non siano assegnati a attività in questi ruoli.</li> 
+       <li> <p>La somma di tutte le percentuali di disponibilità FTE per tutti i ruoli deve essere uguale al 100%. Ogni percentuale di disponibilità FTE calcola le ore disponibili per ogni ruolo per utente nel Resource Planner. L’orario disponibile per ogni ruolo per utente dipende dal tempo disponibile per l’utente.</p> <p>Il tempo disponibile per l’utente viene calcolato da Workfront in base al metodo selezionato dall’amministratore Workfront per calcolare l’ETP nelle Preferenze di gestione delle risorse.</p> <p>Per ulteriori informazioni sul calcolo della disponibilità per l'utente, consulta <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Panoramica del calcolo delle ore e degli FTE per utenti e ruoli nel Planner risorse</a>.</p> <p>Per ulteriori informazioni sulla configurazione delle preferenze di Gestione risorse, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </li> 
+       </ul> </p> </li> 
+       <li> <p><b>Pianificazione</b>: Associa una pianificazione agli utenti. La pianificazione degli utenti calcola la cronologia delle attività a cui sono assegnati gli utenti.</p> <p>Per poter essere associato agli utenti, un amministratore di Workfront o un amministratore di gruppo deve creare una pianificazione.</p> <p>Selezionare una pianificazione a livello di sistema o di gruppo per assegnarla agli utenti selezionati.</p> <p>Per ulteriori informazioni sulle pianificazioni a livello di sistema e di gruppo, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Creare una pianificazione</a>.</p> <p><b>IMPORTANTE</b>: Workfront utilizza la pianificazione di un utente solo quando l’impostazione Calcola disponibilità risorse utilizzando è impostata su Pianificazione dell’utente. Per informazioni su come l'impostazione Calcola disponibilità risorse utilizzando influisce sulla pianificazione utilizzata per la gestione delle risorse, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configurare le preferenze di Gestione risorse</a>.</p> </li> 
+       <li> <p><b>Profilo scheda attività</b>: Associa un profilo scheda attività agli utenti. In questo modo i fogli presenze vengono generati automaticamente per gli utenti.</p> 
+       <p><b>NOTA</b>:  
+       <ul> 
+       <li>L'elenco dei profili della scheda attività disponibili in questo campo dipende dall'accesso:
+       <ul>
+       <li>In qualità di amministratore di Workfront, è possibile visualizzare tutti i profili della scheda attività a livello di sistema e di gruppo.</li>
+       <li><p>In qualità di amministratore di gruppo, è possibile visualizzare i profili della scheda attività a livello di sistema e quelli associati ai gruppi gestiti.</p></li>
+       <li><p>In qualità di utente con una licenza Planner e accesso per modificare gli utenti, è possibile visualizzare solo i profili della scheda attività a livello di sistema.</p></li>
+       </ul></li> 
+       <li>Se sei un amministratore di gruppo, tutti gli utenti che stai modificando devono essere membri di un gruppo che amministri.</li> 
+       </ul> </p> </li> 
+       <li><b>Tipo orario predefinito</b>: Seleziona il tipo di ora predefinito per gli utenti. Questo è il tipo di ora utilizzato per impostazione predefinita quando l’utente registra l’ora.</li> 
+       <li> <p><b>Tipi di ora disponibili</b>: Seleziona i tipi di ora che devono essere disponibili per l’utente. Questi tipi di ora sono visibili ovunque in Workfront, dove gli utenti possono registrare il tempo. Un utente può visualizzare solo i tipi di ora abilitati a livello di progetto e a livello di utente.</p> 
+       <p>Per ulteriori informazioni sui tipi di ora disponibili per gli utenti, consulta <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Definire i tipi di ora e la disponibilità per i fogli presenze</a>.</p> 
+       </li> 
+       <li> <b>FTE</b>: È l'equivalente a tempo pieno dell'utente. Workfront utilizza questo numero per calcolare la disponibilità dell'utente in base alla pianificazione predefinita solo quando le preferenze di gestione delle risorse a livello di sistema sono impostate su La pianificazione predefinita.
+
+   <p>L’FTE indica la quantità di tempo che l’utente può trascorrere al lavoro. Ciò include i costi comuni e il tempo impiegato per il lavoro del progetto. Ad esempio, il tempo trascorso nelle riunioni o la formazione è incluso anche nell’ETP.</p>
+
+   L’ETP deve essere un numero decimale massimo di 1 e non può essere 0. Ad esempio, se il valore FTE è 0,5 e la pianificazione predefinita in Workfront è 40 ore, l’utente è disponibile per 20 ore alla settimana.
+
+   Il valore predefinito del campo è 1.
+
+   Possibilità di programmare eccezioni, tempo libero, <span class="preview">e il valore del tempo di lavoro</span> può influire sulla disponibilità dell&#39;utente.
+
+   Workfront calcola la disponibilità di un utente in base alle preferenze di Gestione risorse nell’area Configurazione.
+
+   Se le preferenze di gestione delle risorse a livello di sistema sono impostate su Pianificazione dell&#39;utente, il valore specificato viene ignorato e l&#39;utente viene considerato disponibile in base a quanto specificato nella relativa pianificazione.
+
+   Per ulteriori informazioni, consulta <a href="../../set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurare le preferenze di Gestione risorse</a>.
+
+   Per ulteriori informazioni sulla creazione di pianificazioni in Workfront, vedi <a href="../../set-up-workfront/configure-timesheets-schedules/create-schedules.md">Creare una pianificazione</a>.
+   </li> 
+       <li> <p><b>Pool di risorse</b>: Associa gli utenti ai pool di risorse.</p> <p><b>NOTA</b>: In questo campo vengono visualizzati solo i pool di risorse comuni a tutti gli utenti selezionati. Se gli utenti selezionati non dispongono di pool di risorse condivise, questo campo è vuoto. Se questo campo è vuoto, i pool di risorse specificati in questo campo sovrascriveranno i singoli pool di risorse.</p> 
+       <p>Per ulteriori informazioni sui pool di risorse, consulta <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Panoramica dei pool di risorse </a>.</p> </li> 
+       <li><b>Costo/ora</b>: Importo del costo all'ora per l'utente. </li> 
+       <li><b>Fatturazione per ora</b>: La quantità di fatturazione all'ora per l'utente.</li> 
+       <li><b>Forms personalizzato</b>: Associa un modulo personalizzato utente esistente agli utenti. È necessario creare un modulo personalizzato prima di poterlo associare a un utente. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>.</li> 
+       <li><b>Commento</b>: Immetti un commento nel campo fornito. Tutti gli utenti selezionati riceveranno una notifica in-app e una notifica e-mail con il tuo commento. Il commento viene visualizzato nella scheda Aggiornamenti del profilo dell’utente.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 

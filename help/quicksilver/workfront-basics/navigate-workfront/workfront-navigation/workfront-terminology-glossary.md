@@ -5,9 +5,9 @@ title: Glossario di [!DNL Adobe Workfront] terminologia
 description: La [!DNL Adobe Workfront] Il glossario elenca i termini comunemente utilizzati in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: 4a33d72e234ff812a72d7d7a382226697f858df6
 workflow-type: tm+mt
-source-wordcount: '18635'
+source-wordcount: '19106'
 ht-degree: 0%
 
 ---
@@ -221,12 +221,23 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
   <tr> 
    <td>[!UICONTROL Automatico E Su Modifica]</td> 
    <td> <p>Uno dei tipi [!UICONTROL Project Update]. In questo modo verranno ricalcolate le linee temporali previste e pianificate del progetto quando viene eseguito il processo di ricalcolo notturno e quando viene effettuato un aggiornamento al progetto o alle attività all’interno del progetto. </p> <p>Per ulteriori informazioni, consulta <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Seleziona il tipo di aggiornamento del progetto </a>.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><p>Disponibilità</p></td> 
+   <td> <p>Questo termine viene utilizzato in relazione alla "disponibilità dell’utente" o alla "disponibilità delle risorse" e indica il tempo a disposizione della risorsa (utente o ruolo) per il lavoro. </p> 
+   <p>Workfront calcola la disponibilità degli utenti utilizzando diversi campi e a seconda delle impostazioni delle preferenze di Gestione risorse del sistema. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurare le preferenze di Gestione risorse</a>. </p>
+   <p>Per ulteriori informazioni sulla disponibilità delle risorse, consulta <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Guida introduttiva a Gestione risorse</a></p>
+   In alternativa, la "capacità" viene utilizzata anche per fare riferimento alla disponibilità delle risorse. 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Solo automatico]</td> 
    <td> <p>Uno dei tipi [!UICONTROL Project Update]. Questo ricalcola le timeline previste e pianificate quando viene eseguito il processo di ricalcolo notturno.</p> <p>Per ulteriori informazioni, consulta <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Seleziona il tipo di aggiornamento del progetto</a>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>[!UICONTROL BAU]</td> 
    <td>Lavoro "normale" che contribuisce a realizzare gli obiettivi aziendali primari quotidiani.</td> 
   </tr> 
@@ -773,11 +784,10 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
      <li>Lavoro calcolato</li> 
      <li>[!UICONTROL Sforzo guidato]</li> 
      <li>[!UICONTROL Semplice]</li> 
-    </ul> <p>Per ulteriori informazioni, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica dell’attività [!UICONTROL Duration] e [!UICONTROL Duration Type]</a>.</p> <!--
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
-    --> </td> 
-  </tr> 
-  <tr> 
+    </ul> <p>Per ulteriori informazioni, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica dell’attività [!UICONTROL Duration] e [!UICONTROL Duration Type]</a>.</p> 
+    —&gt; </td> 
+   </tr> 
+   <tr> 
    <td>[!UICONTROL Unità di durata]</td> 
    <td>Unità utilizzata per misurare il tempo in una ricerca di alimentazione.</td> 
   </tr> 
@@ -858,15 +868,40 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
   </tr> 
   <tr> 
    <td>[!UICONTROL Cartella]</td> 
-   <td>Le cartelle vengono utilizzate per organizzare documenti o rapporti associati a un oggetto.</td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Integrated"> 
-    <td>FTE</td> 
-    <td>The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.</td> 
-   </tr>
-  --> 
- </tbody> 
-</table>
+   <td>Le cartelle vengono utilizzate per organizzare documenti o rapporti associati a un oggetto.</td> </tr>
+  <tr>
+  <td>FTE (Full Time Equivalent)</td> 
+   <td>Equivalente a tempo pieno che indica il tempo di disponibilità di una risorsa per il lavoro. 
+   Il campo FTE viene visualizzato nelle seguenti aree: 
+  <ul>
+   <li> Profilo dell’utente, durante la modifica o la creazione dell’utente </li>
+   <li> Pianificazione risorse </li>
+   <li> Planner scenario (richiede una licenza aggiuntiva per Workfront Scenario Planner) </li>
+   <li> Elenchi di utenti e rapporti </li> </ul>
+
+<p>L’ETP deve essere un numero decimale massimo di 1 e non può essere 0. </p>
+   <p> Un ETP di 1 (che è l’impostazione predefinita per il campo FTE di un utente, come definito nel suo profilo) significa che una risorsa (utente o ruolo) funziona per l’intero numero di ore, in base alla pianificazione che ne calcola la disponibilità. </p>
+   <p>L’amministratore di Workfront decide quale pianificazione utilizzare per determinare la disponibilità dell’utente.  </p>
+   <ul>
+   <li> Quando si utilizza la pianificazione predefinita, Workfront utilizza l’FTE dell’utente trovato nel suo profilo per calcolare la disponibilità. </li>
+   <li> Quando si utilizza la pianificazione dell'utente, Workfront utilizza l'orario di inattività dell'utente, <span class="preview">Valore del tempo di lavoro</span>e le ore di pianificazione predefinita per calcolare l’FTE dell’utente. </li> </ul>
+
+<p>Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Configurare le preferenze di Gestione risorse</a>.  </p>
+   <p>Per ulteriori informazioni sulla creazione di pianificazioni in Workfront, vedi <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Creare una pianificazione</a>. </p>
+
+<p><b>NOTA</b></p>
+   <p>Per tutti i calcoli nel Planner scenario, Workfront utilizza il seguente valore: 1 ETP = 8 ore.</p>
+   <p>Per ulteriori informazioni, consulta <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Guida introduttiva a Scenario Planner</a>. </p>
+   </td> </tr> 
+   </tbody> 
+   </table>
+
+<!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
+<!--
+FTE
+The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
+-->
 
 ## G - I
 
@@ -2287,10 +2322,26 @@ Le voci ora possono avere uno dei seguenti stati in Workfront:
   <tr> 
    <td>[!UICONTROL Modello di flusso di lavoro]</td> 
    <td>Nel rapporto [!UICONTROL Verifica approvazione], questo campo visualizza tutti i modelli di flusso di lavoro associati a una bozza. Se non sono presenti modelli allegati, la colonna è vuota.</td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL orario di lavoro]</td> 
+   <td>
+
+<p><span class="preview">Rappresenta la percentuale del tempo equivalente a tempo pieno (FTE) disponibile per il lavoro effettivo, esclusi i costi comuni. Il tempo di lavoro deve essere un numero decimale fino a 1 e non può essere 0. Ad esempio, una disponibilità del 20% per il lavoro effettivo sarebbe 0,2.</span>  </p>
+   </p><span class="preview">L’impostazione predefinita del campo è 1, a indicare che un utente spende l’intero FTE sul lavoro effettivo correlato al progetto.</span>   </p>
+   <p><span class="preview">Il sistema utilizza questo numero per calcolare la disponibilità dell'utente per il lavoro effettivo relativo al progetto. </span></p>
+   <p> <span class="preview">Le eccezioni di pianificazione e il tempo di inattività potrebbero influire anche sulla capacità dell'utente.</span> </p>
+   <p><span class="preview">Per ulteriori informazioni sulla creazione di pianificazioni in Workfront, consulta Creare una pianificazione. (INSERISCI COLLEGAMENTO)</span> </p>
+    <p>Workfront calcola la disponibilità di un utente in base alle preferenze di Gestione risorse nell’area Configurazione. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configurare le preferenze di Gestione risorse</a>. </p> 
+   <p><span class="preview">È possibile aggiornare l'orario di lavoro di un utente quando si modifica o si crea l'utente. Per informazioni, consulta <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modificare il profilo di un utente</a></span></p> 
+   <b>SUGGERIMENTO</b> 
+   <p><span class="preview">Impostare il valore Ora di lavoro su 1 per indicare che l’utente è disponibile per il lavoro relativo al progetto per l’intero equivalente a tempo pieno.</span></p> 
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Orario di lavoro]</td> 
-   <td>I dati che compongono le tue pianificazioni.</td> 
+   <td>Nella documentazione di Workfront, questo termine viene utilizzato per descrivere il tempo assegnato al lavoro, in base a una pianificazione.</td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 

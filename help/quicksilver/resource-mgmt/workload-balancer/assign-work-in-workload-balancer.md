@@ -6,18 +6,16 @@ description: In qualità di gestore delle risorse, è possibile utilizzare il se
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
 
 # Panoramica dell’assegnazione del lavoro nel servizio di bilanciamento del carico di lavoro
 
-<!--drafted for Work Time story:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.</span>
 
 In qualità di gestore delle risorse, è possibile utilizzare il servizio di bilanciamento del carico di lavoro di Adobe Workfront per visualizzare gli elementi di lavoro non ancora assegnati agli utenti e assegnarli.
 
@@ -52,8 +50,7 @@ Workfront utilizza le seguenti informazioni per calcolare la capacità dell’ut
 
    Per ulteriori informazioni, consulta [Configurare l’ora personale di inattività in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
-<!--drafted for Work Time: 
-* The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent. -->
+* <span class="preview">L&#39;orario di lavoro dell&#39;utente. Indica la percentuale di tempo FTE a disposizione dell’utente per eseguire il lavoro effettivo relativo al progetto, senza costi comuni. Impostare il valore Ora di lavoro su 1 per indicare che l’utente è disponibile per il lavoro relativo al progetto per l’intero equivalente a tempo pieno.</span>
 
 ## Assegnare il lavoro nel bilanciamento del carico di lavoro
 

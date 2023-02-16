@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: 56af35ff6253a1ddd42ec0a1fdcfb98409d72c40
 workflow-type: tm+mt
-source-wordcount: '12683'
+source-wordcount: '12688'
 ht-degree: 1%
 
 ---
@@ -1088,6 +1088,7 @@ ht-degree: 1%
          * [Sfoglia il catalogo dei progetti e richiedi l&#39;installazione dei progetti](administration-and-setup/blueprints/browse-catalog.md)
          * [Copiare un modello di progetto](manage-work/projects/create-and-manage-templates/copy-template.md)
          * [Allegare un modello a un progetto](manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+         * [Copia e sposta le attività del modello](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [Modificare i modelli di progetto](manage-work/projects/create-and-manage-templates/edit-templates.md)
          * [Modificare un’attività modello](manage-work/projects/create-and-manage-templates/edit-template-task.md)
          * [Crea modello da progetto](manage-work/projects/create-and-manage-templates/create-template-from-project.md)

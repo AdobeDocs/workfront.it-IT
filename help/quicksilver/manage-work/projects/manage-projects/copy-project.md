@@ -6,16 +6,16 @@ description: Puoi copiare un progetto anziché crearne uno da zero. Puoi copiare
 author: Alina
 feature: Work Management
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 5e0e1425f45886a805726de49357c43b0aecb7f4
+source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '736'
 ht-degree: 5%
 
 ---
 
 # Copiare un progetto
 
-<!--some areas are drafted for the 23.2 release story-->
+<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.</span>
 
 <!--
 <(LINKED TO THE PRODUCT IN THE COPY PROJECT BOX)</p>
@@ -33,7 +33,7 @@ Puoi copiare un progetto anziché crearne uno da zero. Puoi copiare un solo prog
 >* Note
 >* Ore
 >* predecessori tra progetti
->* Ore preventivate <!-- drafted for release 23.2: take this out and move it to the one below IF there is no UI component for the story that allows you to check/uncheck this information as you copy the project. If there is a UI component, take this out of here and just add it to the new screen shot below. -->
+>* <span class="preview">Ore preventivate</span>
 >
 >I seguenti elementi vengono sempre copiati da un progetto esistente a uno nuovo:
 >
@@ -137,11 +137,6 @@ Per copiare un progetto:
 
 1. (Facoltativo) Deseleziona gli elementi che non desideri copiare nel nuovo progetto. La tabella seguente descrive cosa accade quando deselezioni gli elementi:
 
-   <!--drafted for story for the 23.2 release: add another line in the table below for "Budgeted hours" and add this information to that row:
-      Removes the hours budgeted in the Resource Planning area of the project's Business Case from the copied project. 
-      <b>NOTE</b>
-      Hours budgeted using the Scenario Planner are never copied to the new project because the new project is not linked to an initiative in the Scenario Planner. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budget resources in the Business Case using the Scenario Planner</a>
-      -->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -178,9 +173,20 @@ Per copiare un progetto:
      </tr> 
      <tr> 
       <td role="rowheader">Tutti i predecessori</td> 
-      <td> <p>Rimuove tutte le relazioni precedenti tra le attività del progetto. </p> <p>Suggerimento: I predecessori tra progetti non vengono mai trasferiti al nuovo progetto, indipendentemente dal fatto che sia selezionato o meno. </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>Rimuove tutte le relazioni precedenti tra le attività del progetto. </p> <p><b>SUGGERIMENTO</b>
+
+   I predecessori tra progetti non vengono mai trasferiti al nuovo progetto, indipendentemente dal fatto che sia selezionato o meno. </p> </td>
+   </tr>
+
+<tr> 
+      <td role="rowheader"><span class="preview">Ore preventivate</span></td> 
+      <td> <p><span class="preview">Rimuove dal progetto copiato le ore previste nell'area di pianificazione delle risorse del Business Case del progetto. <span class="preview"></p>
+
+<b>NOTA</b>
+
+<span class="preview">Le ore inserite in budget utilizzando il Planner scenario non vengono mai copiate nel nuovo progetto perché il nuovo progetto non è collegato a un&#39;iniziativa nel Planner scenario. Per ulteriori informazioni, consulta <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Risorse di budget nel caso aziendale utilizzando il Planner scenario</a></span>
+</tr></td>
+    <tr> 
       <td role="rowheader">Informazione Finanziaria</td> 
       <td> <p>Rimuove le informazioni nelle seguenti aree: </p> 
        <ul> 
