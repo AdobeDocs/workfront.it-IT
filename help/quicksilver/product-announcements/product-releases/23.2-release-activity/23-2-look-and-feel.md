@@ -4,10 +4,10 @@ description: Scopri gli aggiornamenti nel periodo di tempo di rilascio 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1010c762d51b379b9734900d3a84a150ed33e675
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 4%
+source-wordcount: '439'
+ht-degree: 2%
 
 ---
 
@@ -42,3 +42,19 @@ Per ulteriori informazioni e per visualizzare un video dimostrativo di una funzi
 ## Icona della versione del documento aggiornata in Dettagli documento
 
 È stato aggiornato l’aspetto dell’icona della versione del documento. L’icona ora mostra un punto rosso che nota quando ti trovi in una versione precedente e un passaggio del mouse che indica &quot;Versione passata&quot;.
+
+## Nuova esperienza durante la copia di una o più attività del modello
+
+>[!NOTE]
+>
+>Anteprima versione: 16 febbraio 2023; Rilascio produzione pianificato: 2 marzo 2023
+
+Per rendere coerente l’utilizzo di Adobe Workfront ovunque nell’applicazione, durante la copia o lo spostamento di un’attività modello è stata riprogettata l’interfaccia. Questa opzione è attualmente disponibile quando si copia un&#39;attività modello a livello di attività o si copia una o più attività in un elenco.
+
+Alcuni dei miglioramenti includono:
+
+* Tutte le informazioni che è necessario aggiornare prima di copiare o spostare l&#39;attività modello vengono visualizzate su una pagina continua.
+* Workfront controlla se disponi dell’accesso al modello di destinazione immediatamente dopo la scelta del modello. Prima di questo miglioramento, veniva visualizzato un messaggio di avviso che indica che non disponi dell’accesso corretto dopo la conferma della copia o dello spostamento, che determinava passaggi aggiuntivi e l’azione non era consentita.
+* Possibilità di richiedere l&#39;accesso per un modello in cui si desidera copiare o spostare l&#39;attività del modello senza uscire dalla casella Copia o Sposta attività modello.
+
+Per ulteriori informazioni, consulta [Copia e sposta le attività del modello](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md).

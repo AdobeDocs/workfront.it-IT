@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 711f1ca5cfa4a8eec67d4bc8307824fd36b0b53e
+source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Per suggerimenti su come preparare la prossima versione, consulta [Preparazione 
 
 * [Miglioramenti dell’amministratore](#administrator-enhancements)
 * [Miglioramenti di Agile](#agile-enhancements)
+* [Miglioramenti alla gestione dei progetti](#project-management-enhancements)
+* [Miglioramenti alla gestione delle risorse](#resource-management-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti dell’amministratore
@@ -81,6 +83,57 @@ Per suggerimenti su come preparare la prossima versione, consulta [Preparazione 
                         </p>
                     </td>
                 </tr>
+              <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Personalizzare la visualizzazione dei campi su una scheda</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <p>È ora disponibile la personalizzazione per configurare quali campi vengono visualizzati su una scheda, sia nella visualizzazione completa quando la scheda è aperta, sia nella vista a schede condensate sulla bacheca. Quando disattivi un campo non viene visualizzato in nessuna delle due viste. È inoltre possibile abilitare un campo nella visualizzazione completa e nasconderlo dalla vista a condensa.</p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 16 febbraio 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versione di produzione per consenso anticipato: 23 febbraio 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione a questa data solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
+                                <p>Versione di produzione per tutti i clienti: Con la versione 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Definire uno stato predefinito per le schede spostate in una colonna di una bacheca</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <p>È ora possibile impostare uno stato predefinito da applicare alle schede spostate in una colonna specifica, selezionando uno stato personalizzato e uno stato di sistema nei criteri colonna. Quando sposti una scheda nella colonna, Workfront tenta innanzitutto di applicare lo stato personalizzato (ad esempio, In attesa di un feedback). Se lo stato personalizzato non è disponibile per quella scheda, Workfront applicherà lo stato del sistema (ad esempio, In attesa). Inoltre, se lo stato dell'attività o del problema connesso viene modificato in stato personalizzato o di sistema impostato nel criterio a colonne, la scheda viene spostata automaticamente nella colonna.</p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 16 febbraio 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versione di produzione per consenso anticipato: 23 febbraio 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione a questa data solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
+                                <p>Versione di produzione per tutti i clienti: Con la versione 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Raccolte ora disponibili nelle bacheche Adobe Workfront</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <p>Ora potete creare raccolte nel dashboard delle bacheche. Una collezione è un gruppo di bacheche per collaborare sul lavoro. Una volta denominata la raccolta, potete aggiungere bacheche alla raccolta utilizzando un set di modelli che offrono impostazioni predefinite, come i nomi delle colonne.</p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 16 febbraio 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versione di produzione per consenso anticipato: 23 febbraio 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione a questa data solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
+                                <p>Versione di produzione per tutti i clienti: Con la versione 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Il campo Stima sulle schede collegate è associato al campo Punti Storia sugli oggetti Workfront</a></p>
@@ -99,7 +152,6 @@ Per suggerimenti su come preparare la prossima versione, consulta [Preparazione 
                         </ul>
                     </td>
                 </tr>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md" class="MCXref xref" xrefformat="{para}">Scheda Anteprima nella colonna di aspirazione</a></p>
@@ -113,6 +165,77 @@ Per suggerimenti su come preparare la prossima versione, consulta [Preparazione 
                             <li>
                                  <p>Versione di produzione per consenso anticipato: 2 febbraio 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione a questa data solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
                                 <p>Versione di produzione per tutti i clienti: Con la versione 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Miglioramenti alla gestione dei progetti
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzione</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copia ore in budget durante la copia di un progetto</a><span style="color: #ff0000;"> Novità in Anteprima!</span>
+                        <p>Ora è possibile copiare le ore a budget nell'area Resource Budgeting del Business Case o del Resource Planner quando si copia un progetto. Prima di questo miglioramento, le ore in budget per il progetto non venivano trasferite al progetto copiato.</p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 16 febbraio 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Versione di produzione: 2 marzo 2023 (Off-cycle)</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+### Miglioramenti alla gestione delle risorse
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzione</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Introduzione del campo Ora di lavoro per calcolare con precisione la capacità dell’utente</a><span style="color: #ff0000;"> Novità in Anteprima!</span>
+                        <p>Per consentire ai responsabili delle risorse di calcolare con precisione la disponibilità dei propri utenti e account per il tempo che gli utenti dedicano al lavoro effettivo connesso al progetto, stiamo introducendo il concetto dell’orario di lavoro in Adobe Workfront.</p>
+                        <p>Puoi definire il valore del campo Ora di lavoro per ogni utente quando crei o modifichi il suo profilo.</p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 16 febbraio 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p><span class="preview">Versione di produzione: 2 marzo 2023 (Off-cycle)</span></p>
                             </li>
                         </ul>
                     </td>
@@ -138,8 +261,8 @@ Per suggerimenti su come preparare la prossima versione, consulta [Preparazione 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Esportare le tavole da disegno come file PDF singolo o come più file PDF in Adobe Workfront per XD</span></a><span style="color: #ff0000;"> Novità nella produzione!</span>
-                        <p>In Adobe Workfront per XD plug-in, ora puoi scegliere di esportare le tue tavole da disegno come un singolo file PDF o più file PDF.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Esportare le tavole da disegno come file PDF singolo o come più file PDF in Adobe Workfront per XD</span></a>
+                        </span></a><p>In Adobe Workfront per XD plug-in, ora puoi scegliere di esportare le tue tavole da disegno come un singolo file PDF o più file PDF.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
                         <ul>
