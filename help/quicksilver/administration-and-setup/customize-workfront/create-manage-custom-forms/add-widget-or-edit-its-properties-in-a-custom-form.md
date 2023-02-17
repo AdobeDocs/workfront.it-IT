@@ -5,9 +5,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: eeff0c8a3f7cbccd942c978d771d24f4cf9c425d
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1334'
 ht-degree: 1%
 
 ---
@@ -92,12 +92,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Obbligatorio) Digita o incolla l'URL del widget in cui è memorizzato su Internet.</p> 
+       <p><strong>Importante</strong>: L'URL per deve essere un URL pubblico. </p>
       <p>Se stai aggiungendo un widget video, al momento puoi farlo aggiungendo quanto segue nella casella URL:</p> 
       <ul> 
       <li> <p>Collegamento YouTube o Vimeo</p> </li> 
       <li> <p>Collegamento video a Google Drive</p> </li> 
       <li> <p>Collegamento a video con estensione MP4 e MOV</p> </li> 
-      <li> <p>Collega a video già caricato nell’area Documenti nella tua istanza Workfront. Per istruzioni, consulta <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Aggiungere un widget video a un modulo personalizzato dall’area Documenti</a> in questo articolo.</p> </li> 
+      <li> <p>Collega a video già caricato nell’area Documenti nella tua istanza Workfront. Per istruzioni, consulta <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Aggiungere un widget video a un modulo personalizzato dall’area Documenti</a> in questo articolo.</p> 
+      </li> 
       </ul> 
        </td> 
      </tr> 

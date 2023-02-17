@@ -7,9 +7,9 @@ description: Puoi creare e modificare i tag e applicarli alle bozze e ai file. Q
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Per ulteriori informazioni su questi profili e autorizzazioni, consulta [Profili
 1. Fai clic su **[!UICONTROL Tag]** > **[!UICONTROL Gestire i tag]** appena sopra la lista.
 
 1. Sulla [!UICONTROL Tag] scheda visualizzata, gestire i tag come descritto in precedenza in [Creazione, modifica o eliminazione di una scheda.](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
-   Un tag viene applicato a tutti gli elementi selezionati quando il controllo nella casella di controllo accanto al tag è di colore grigio scuro. Se è di colore grigio chiaro, solo alcuni degli elementi di un batch selezionato sono contrassegnati con esso. Per rimuovere un tag da tutti gli elementi selezionati, accertati che la casella accanto al tag sia vuota.\
+   Un tag viene applicato a tutti gli elementi selezionati quando la casella di controllo accanto al tag è di colore grigio scuro. Se è di colore grigio chiaro, solo alcuni degli elementi di un batch selezionato sono contrassegnati con esso. Per rimuovere un tag da tutti gli elementi selezionati, accertati che la casella accanto al tag sia vuota.\
    ![Tags_menu_-_Dark_and_light_cheque.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 
 ## Gestione dei tag dai dettagli della bozza o dai dettagli dei file
