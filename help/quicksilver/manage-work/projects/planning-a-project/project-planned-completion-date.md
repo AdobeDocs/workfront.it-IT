@@ -7,7 +7,7 @@ description: La data di completamento pianificata di un progetto è la data entr
 author: Alina
 feature: Work Management
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Per pianificare un progetto dalla data di completamento:
 
 1. Seleziona **Dettagli progetto** nel pannello a sinistra, fai clic sul pulsante **Modifica progetto** nell&#39;angolo in alto a destra.
 
-1. In **Pianificazione da** campo , seleziona **Data completamento**.
+1. In **Modalità di pianificazione** campo , seleziona **Data completamento**.
 
 1. Specifica la **Data completamento pianificata** del progetto.
 1. Fai clic su **Salva modifiche**.
@@ -119,7 +119,7 @@ Per pianificare un progetto dalla data di inizio:
 
 1. Seleziona **Dettagli progetto** nel pannello a sinistra, fai clic sul pulsante **Modifica progetto** nell&#39;angolo in alto a destra.
 
-1. In **Pianificazione da** campo , seleziona **Data di inizio**.
+1. In **Modalità di pianificazione** campo , seleziona **Data di inizio**.
 
 1. Specifica la **Data di inizio prevista** del progetto.
 1. Fai clic su **Salva modifiche**.

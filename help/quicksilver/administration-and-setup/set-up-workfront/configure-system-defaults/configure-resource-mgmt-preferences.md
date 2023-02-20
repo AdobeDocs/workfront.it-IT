@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '857'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,9 @@ Nel calcolo della capacità di un utente, Workfront tiene conto delle seguenti i
 * [!UICONTROL Pianificazione] [!UICONTROL Eccezioni] (a seconda di quale [!UICONTROL Pianificazione] viene utilizzato, può essere l&#39;eccezione della pianificazione dell&#39;utente o quelle associate al [!DNL Workfront] [!UICONTROL Pianificazione predefinita])
 * Tempo di inattività dell&#39;utente
 * Il valore dell&#39;equivalente a tempo pieno ([!UICONTROL FTE]) dell&#39;utente o del [!DNL Workfront] sistema. La [!UICONTROL FTE] è uguale a 1 quando l’utente lavora a tempo pieno, come definito nella pianificazione.
-* <span class="preview">Il valore di [!UICONTROL Tempo di lavoro] per l’utente che fa riferimento al tempo che l’utente trascorre sul lavoro relativo al progetto. Questo non include i tempi di overhead, come riunioni e formazione. La [!UICONTROL Tempo di lavoro] è uguale a 1 quando l&#39;utente è disponibile per il lavoro per l&#39;intero periodo di tempo indicato dal [!UICONTROL FTE] o il programma, il che significa che non trascorrono del tempo in lavori non legati al progetto come riunioni o formazioni.</span>
+<div class="preview">
+* Il valore di [!UICONTROL Work Time] per l'utente che fa riferimento al tempo che l'utente trascorre sul lavoro relativo al progetto. Questo non include i tempi di overhead, come riunioni e formazione. L’ [!UICONTROL Work Time] è uguale a 1 quando l’utente è disponibile per il lavoro per tutto il tempo indicato dall’[!UICONTROL FTE] o dalla pianificazione, il che significa che non trascorrono del tempo in lavori non correlati al progetto come riunioni o formazioni.
+</div>
 
 Per informazioni sulla pianificazione e la pianificazione delle risorse in [!DNL Workfront], vedi [Guida introduttiva a Gestione risorse](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 

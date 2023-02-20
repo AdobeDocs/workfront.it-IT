@@ -5,9 +5,9 @@ title: Utilizzo di fusi orari diversi
 description: 'Può essere utile capire come [!DNL Adobe Workfront] utilizza i fusi orari per calcolare quanto segue: EDIT ME.'
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -93,11 +93,7 @@ Puoi aiutare gli utenti a lavorare più facilmente in più fusi orari in diversi
 
    Per istruzioni su come assegnare una pianificazione a un progetto o a un utente, consulta [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Per informazioni su come il fuso orario configurato nella pianificazione influisce sulla distribuzione di [!UICONTROL Orari pianificati] in [!UICONTROL Pianificazione] e [!DNL Workload Balancer], vedi quanto segue:
-
-   * [Gestisci le allocazioni degli utenti nel [!UICONTROL Pianificazione] aree](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
-   * [Gestisci le allocazioni degli utenti nel [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
-
+   Per informazioni su come il fuso orario configurato nella pianificazione influisce sulla distribuzione di [!UICONTROL Orari pianificati] in [!DNL Workload Balancer], vedi [Gestisci le allocazioni degli utenti nel [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Utilizzare i campi tempo calcolati in un modulo personalizzato {#use-calculated-time-fields-in-a-custom-form}

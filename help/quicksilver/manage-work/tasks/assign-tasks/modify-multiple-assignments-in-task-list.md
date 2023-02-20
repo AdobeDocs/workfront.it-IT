@@ -6,9 +6,9 @@ description: Quando si gestiscono le assegnazioni di attività, è possibile mod
 author: Alina
 feature: Work Management
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,6 @@ Quando si gestiscono le assegnazioni di attività, è possibile modificarle cont
 
 Questo articolo fa riferimento alla modifica di più assegnazioni utente per più attività in un elenco di attività. Vedere anche gli articoli seguenti per modificare le assegnazioni su più attività in altre aree:
 
-* Per informazioni sulla modifica delle assegnazioni per più attività nell&#39;area Pianificazione, vedere [Modificare più assegnazioni di utenti in attività nelle aree di programmazione](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
 * Per informazioni sull&#39;assegnazione di attività tramite il servizio di bilanciamento del carico di lavoro, consulta [Panoramica dell’assegnazione del lavoro nel servizio di bilanciamento del carico di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Per informazioni sull&#39;assegnazione di un&#39;attività a una risorsa in un elenco, consulta [Assegnare le attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md).

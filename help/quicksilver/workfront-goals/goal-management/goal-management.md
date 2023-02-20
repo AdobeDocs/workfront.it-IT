@@ -7,9 +7,9 @@ description: Leggi i seguenti articoli per scoprire dove iniziare con gli obiett
 author: Alina
 feature: Workfront Goals
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,5 @@ Leggi i seguenti articoli per scoprire dove iniziare con gli obiettivi di Workfr
 * [Panoramica dell’avanzamento e della condizione dell’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/calculate-goal-progress.md)
 * [Filtrare le informazioni negli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md)
-* [Stampa l&#39;elenco degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/print-the-goal-list.md)
 * [Aggiornare gli obiettivi nella sezione Dettagli obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
 * [Rivedere gli obiettivi nei guai negli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/view-in-trouble-goals.md)

@@ -7,9 +7,9 @@ description: Risultati e attività sono indicatori di avanzamento per un obietti
 author: Alina
 feature: Workfront Goals
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,8 @@ For additional information about access to Workfront Goals, see [Requirements to
 >  Contatta il tuo account manager Workfront per saperne di più su una licenza di Workfront Obiettivi .
 >
 >Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedi [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+Per registrare l&#39;avanzamento in Obiettivi di Workfront, è necessario associare gli indicatori di avanzamento agli obiettivi. Oltre ai risultati e alle attività, puoi anche associare progetti o obiettivi figlio a un obiettivo per registrare l’avanzamento.
 
 Questa sezione contiene i seguenti articoli:
 

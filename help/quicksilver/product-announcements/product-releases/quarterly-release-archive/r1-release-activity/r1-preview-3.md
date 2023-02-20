@@ -6,9 +6,9 @@ description: Questa pagina descrive tutte le modifiche disponibili nell’ambien
 author: Luke
 feature: Product Announcements
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1345'
 ht-degree: 2%
 
 ---
@@ -31,6 +31,10 @@ Per ulteriori informazioni, consulta  [Collegamento di documenti da applicazion
 
 ## Team Aggiornato Che Lavora Sul Calendario
 
+>[!NOTE]
+>
+>Gli strumenti di pianificazione delle risorse sono stati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il servizio di bilanciamento del carico di lavoro, vedi [Panoramica del servizio di bilanciamento del carico di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
 Il calendario di lavoro disponibile per i team ora contiene funzionalità aggiuntive e un aspetto e un aspetto aggiornati. Il calendario di lavoro del team ora funziona in modo simile allo strumento di programmazione delle risorse per i progetti.
 
 Il calendario di lavoro del team aggiornato include i seguenti miglioramenti:
@@ -52,22 +56,26 @@ Differenze rispetto allo strumento di programmazione delle risorse quando si pia
 * I problemi vengono visualizzati per impostazione predefinita nel calendario di lavoro del team.\
    Quando si pianificano risorse per i progetti, i problemi non vengono visualizzati per impostazione predefinita.
 
-Per ulteriori informazioni sull&#39;utilizzo del calendario di lavoro del team aggiornato, vedi [Pianificazione delle risorse](../../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+Per ulteriori informazioni sull&#39;utilizzo del calendario di lavoro del team aggiornato, vedere &quot;Pianificazione delle risorse&quot;.
 
 ## Miglioramenti alla pianificazione delle risorse
 
 La timeline della pianificazione include i seguenti miglioramenti:
 
-* [Utilizza il filtro per controllare quali utenti vengono visualizzati nella Timeline di pianificazione](#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline)
-* [Gli utenti rimangono sulla timeline dopo l’assegnazione di un’attività](#users-remain-on-the-timeline-after-being-assigned-a-task)
+* &quot;Utilizza il filtro per controllare quali utenti vengono visualizzati nella Timeline di programmazione&quot;
+* &quot;Gli utenti rimangono sulla timeline dopo l’assegnazione di un’attività&quot;
 
 ### Utilizza il filtro per controllare quali utenti vengono visualizzati nella Timeline di pianificazione {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+
+>[!NOTE]
+>
+>Gli strumenti di pianificazione delle risorse sono stati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il servizio di bilanciamento del carico di lavoro, vedi [Panoramica del servizio di bilanciamento del carico di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Il filtro può ora essere utilizzato per controllare quali utenti vengono visualizzati sulla timeline della pianificazione, oltre a quali attività e problemi vengono visualizzati nell&#39;area Non assegnata. Quando gli utenti sono selezionati nel filtro, vengono visualizzati solo gli utenti selezionati, indipendentemente dal fatto che abbiano un&#39;assegnazione di ruolo corrispondente all&#39;assegnazione di ruolo delle attività nell&#39;area Non assegnata. Vengono inoltre visualizzate tutte le attività attualmente assegnate a tale utente.
 
 Prima di questa modifica, il filtro controllava solo le attività e i problemi visualizzati nell&#39;area Non assegnata. Gli utenti venivano visualizzati nella timeline della pianificazione solo se l’utente corrispondeva all’assegnazione del ruolo di un’attività nell’area Non assegnata.
 
-Per ulteriori informazioni sull&#39;utilizzo del filtro per controllare ciò che viene visualizzato nella timeline della programmazione, vedi  [Filtrare le informazioni nell&#39;area Pianificazione](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)e  [Assegnazione manuale di attività e problemi non assegnati nelle aree di programmazione](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Assegnazione manuale di attività e problemi non assegnati nelle aree di programmazione](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Per ulteriori informazioni sull&#39;utilizzo del filtro per controllare la visualizzazione nella timeline della pianificazione, vedere &quot;Filtrare le informazioni nell&#39;area di programmazione&quot; e &quot;Assegnare manualmente le attività e i problemi non assegnati nelle aree di programmazione&quot;.
 
 ### Gli utenti rimangono sulla timeline dopo l’assegnazione di un’attività {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
@@ -75,7 +83,7 @@ Gli utenti rimangono sulla timeline della pianificazione dopo aver ricevuto un�
 
 Prima di questa modifica, gli utenti scompaiono dalla timeline della pianificazione immediatamente dopo l’assegnazione di un’attività o di un problema se nell’area Non assegnata non sono presenti altre attività o problemi con assegnazione di un ruolo corrispondente.
 
-Per ulteriori informazioni, consulta  [Assegnazione manuale di attività e problemi non assegnati nelle aree di programmazione](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md#automatically-assigning-unassigned-tasks-and-issues) in [Assegnazione manuale di attività e problemi non assegnati nelle aree di programmazione](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+Per ulteriori informazioni, vedere &quot;Assegnazione manuale di attività e problemi non assegnati nelle aree di programmazione&quot;.
 
 ## Personalizzare la terminologia Workfront modificando i nomi degli oggetti
 

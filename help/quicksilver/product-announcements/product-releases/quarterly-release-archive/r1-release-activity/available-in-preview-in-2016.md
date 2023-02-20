@@ -6,9 +6,9 @@ description: Le seguenti funzioni sono state rese disponibili nell’ambiente An
 author: Luke
 feature: Product Announcements
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: aa1bf796982fa91ff9096d92fef1fb95c2e29778
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,23 @@ Le seguenti funzioni sono state rese disponibili nell’ambiente Anteprima nel 2
 
 ## Miglioramenti alla pianificazione delle risorse
 
-Ora è possibile visualizzare tutte le attività sui progetti per i quali si è il responsabile risorse, per essere più informati quando si prendono decisioni sulla pianificazione. 
+>[!NOTE]
+>
+>Gli strumenti di pianificazione delle risorse sono stati obsoleti e rimossi da Workfront con la versione 23.1. Per informazioni sulla pianificazione delle risorse tramite il servizio di bilanciamento del carico di lavoro, vedi [Panoramica del servizio di bilanciamento del carico di lavoro](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Per informazioni generali sugli strumenti disponibili per la pianificazione delle risorse, consulta [Guida introduttiva alla pianificazione delle risorse](../../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md)
+Ora è possibile visualizzare tutte le attività sui progetti per i quali si è il responsabile risorse, per essere più informati quando si prendono decisioni sulla pianificazione.
 
-Per regolare le informazioni visualizzate nella timeline della pianificazione, crea un filtro, come descritto in [Filtrare le informazioni nell&#39;area Pianificazione](../../../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
+Per informazioni generali sugli strumenti disponibili per la pianificazione delle risorse, vedere &quot;Introduzione alla pianificazione delle risorse&quot;.
 
-Oltre a visualizzare le attività relative ai progetti di cui sei responsabile, puoi utilizzare la timeline della pianificazione per apportare modifiche alle assegnazioni delle risorse. Per informazioni su come gestire le assegnazioni utente nella sequenza temporale di programmazione, vedere [Assegnazione manuale di attività e problemi non assegnati nelle aree di programmazione](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
+Per regolare le informazioni visualizzate nella timeline della pianificazione, crea un filtro, come descritto in &quot;Filtra informazioni nell’area di programmazione&quot;.
+
+Oltre a visualizzare le attività relative ai progetti di cui sei responsabile, puoi utilizzare la timeline della pianificazione per apportare modifiche alle assegnazioni delle risorse. Per informazioni su come gestire le assegnazioni utente nella cronologia di programmazione, vedere &quot;Assegnazione manuale di attività e problemi non assegnati nelle aree di programmazione&quot;.
 
 ## Gestire le allocazioni utente nella Timeline di programmazione
 
 Ora, quando si pianificano risorse con i nuovi strumenti di pianificazione delle risorse, è possibile determinare in che modo gli utenti allocano le ore pianificate per un&#39;attività o un problema. È possibile suddividere le ore tra i giorni nella durata dell’attività e tra gli utenti assegnati.
 
-Per ulteriori informazioni, consulta [Gestione delle allocazioni utente nelle aree di programmazione](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Per ulteriori informazioni, vedere &quot;Gestione delle allocazioni utente nelle aree di programmazione&quot;.
 
 ## Le allocazioni degli utenti sono disabilitate per impostazione predefinita
 
@@ -39,7 +43,7 @@ L’ombreggiatura dell’allocazione utente nella timeline di pianificazione qua
 
 In precedenza, l&#39;ombreggiatura di allocazione veniva visualizzata per impostazione predefinita e non poteva essere disabilitata.
 
-Per ulteriori informazioni su come abilitare le opzioni di allocazione degli utenti, consulta [Gestione delle allocazioni utente nelle aree di programmazione](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md) in  [Gestione delle allocazioni utente nelle aree di programmazione](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
+Per ulteriori informazioni su come abilitare le opzioni di allocazione degli utenti, vedere &quot;Gestire le allocazioni degli utenti nelle aree di programmazione&quot;.
 
 ## Modello di layout Determina se il calendario nuovo o legacy viene visualizzato nell’area di lavoro personale
 

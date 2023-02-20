@@ -2,19 +2,19 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Rimuovi risultati, attività e progetti dagli obiettivi in Obiettivi di Adobe Workfront
+title: Rimuovere gli indicatori di avanzamento dagli obiettivi in Obiettivi di Adobe Workfront
 description: Puoi rimuovere risultati, attività e progetti dagli obiettivi in Obiettivi di Adobe Workfront, quando non sono più rilevanti.
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Rimuovi risultati, attività e progetti dagli obiettivi in Obiettivi di Adobe Workfront
+# Rimuovere gli indicatori di avanzamento dagli obiettivi in Obiettivi di Adobe Workfront
 
 <!-- for goal redesign PRODUCTION RELEASE: Should this article be called "Remove or disconnect progress indicators from goals" when this is available to ALL progress indicators (including "disconnect goals")-- if yes, updte the title everywhere else where this is linked?
 -->

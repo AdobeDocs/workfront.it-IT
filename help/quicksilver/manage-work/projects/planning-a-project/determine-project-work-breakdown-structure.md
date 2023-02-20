@@ -6,9 +6,9 @@ description: La definizione di una struttura di suddivisione del lavoro (WBS, Wo
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1738'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ All&#39;inizio di un anno fiscale o di un trimestre, è possibile gestire le ris
 Per informazioni sulla pianificazione dell’utilizzo delle risorse a un livello più elevato, consulta l’articolo [Guida introduttiva alla pianificazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Quando gestisci le risorse nel contesto della creazione della struttura di suddivisione del lavoro di un progetto e assicurati che ogni attività sia assegnata alla risorsa corretta, puoi pianificare le risorse per il lavoro da eseguire.\
-Per informazioni sulla pianificazione delle risorse, consulta gli articoli nella sezione [Pianificazione delle risorse](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) sezione .
+Per informazioni sulla pianificazione delle risorse, consulta gli articoli nella sezione [Il servizio di bilanciamento del carico di lavoro](../../../resource-mgmt/workload-balancer/workload-balancer.md) sezione .
 
 ## Stimare le finanze del progetto
 

@@ -6,7 +6,7 @@ description: In qualità di gestore delle risorse, è possibile utilizzare il se
 author: Alina
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 95c999a72020ce825f3a8377662c71e35a194d80
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 0%
@@ -49,8 +49,9 @@ Workfront utilizza le seguenti informazioni per calcolare la capacità dell’ut
 * Il tempo di inattività dell&#39;utente. Indica i giorni in cui l’utente intende decollare.
 
    Per ulteriori informazioni, consulta [Configurare l’ora personale di inattività in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-* <span class="preview">L&#39;orario di lavoro dell&#39;utente. Indica la percentuale di tempo FTE a disposizione dell’utente per eseguire il lavoro effettivo relativo al progetto, senza costi comuni. Impostare il valore Ora di lavoro su 1 per indicare che l’utente è disponibile per il lavoro relativo al progetto per l’intero equivalente a tempo pieno.</span>
+<div class="preview">
+* Tempo di lavoro dell'utente. Indica la percentuale di tempo FTE a disposizione dell’utente per eseguire il lavoro effettivo relativo al progetto, senza costi comuni. Impostare il valore Ora di lavoro su 1 per indicare che l’utente è disponibile per il lavoro relativo al progetto per l’intero equivalente a tempo pieno.
+</div>
 
 ## Assegnare il lavoro nel bilanciamento del carico di lavoro
 

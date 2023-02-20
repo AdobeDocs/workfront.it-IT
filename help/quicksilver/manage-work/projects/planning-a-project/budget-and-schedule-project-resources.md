@@ -6,10 +6,10 @@ description: Budget e programmazione delle risorse del progetto
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 1%
+source-wordcount: '134'
+ht-degree: 0%
 
 ---
 
@@ -30,9 +30,4 @@ Assicurati di effettuare le seguenti operazioni durante la finalizzazione della 
    * [Pianificazione delle risorse in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Guida introduttiva a Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* Pianifica le risorse o assegnale a attività e problemi. Quando assegni le risorse a attività e problemi, puoi associare effettivamente utenti, team o ruoli a specifici elementi di lavoro, rendendoli responsabili del completamento di tali elementi. .
-
-   Per informazioni, consulta gli articoli:
-
-   * [Panoramica del servizio di bilanciamento del carico di lavoro](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
-   * [Programmazione delle risorse](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md)
+* Pianifica le risorse o assegnale a attività e problemi. Quando assegni le risorse a attività e problemi, puoi associare effettivamente utenti, team o ruoli a specifici elementi di lavoro, rendendoli responsabili del completamento di tali elementi. Per informazioni, consulta [Panoramica del servizio di bilanciamento del carico di lavoro](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

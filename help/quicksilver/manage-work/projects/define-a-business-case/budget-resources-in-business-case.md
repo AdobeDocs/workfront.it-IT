@@ -5,9 +5,9 @@ description: Come parte della pianificazione delle risorse, è possibile creare 
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Come parte della pianificazione delle risorse, è possibile creare un budget per
 
 >[!NOTE]
 >
->Le risorse di budget non sono uguali alla pianificazione delle risorse per un progetto. Quando si creano budget per le risorse, si stimano i ruoli che potrebbero essere necessari per completare il lavoro su un progetto. Per pianificare o assegnare effettivamente gli utenti al lavoro su un progetto, vedi [Guida introduttiva alla pianificazione delle risorse](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). Per informazioni sulla pianificazione delle risorse in Adobe Workfront, vedi [Guida introduttiva alla pianificazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+>Le risorse di budget non sono uguali alla pianificazione delle risorse per un progetto. Quando si creano budget per le risorse, si stimano i ruoli che potrebbero essere necessari per completare il lavoro su un progetto. Per pianificare o assegnare effettivamente gli utenti al lavoro su un progetto, vedi [Gestire le allocazioni di utenti nel load balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 È necessario associare i ruoli di lavoro al progetto prima di creare un budget per le relative risorse. Di seguito sono riportati i modi per assegnare i ruoli di lavoro a un progetto:
 

@@ -7,9 +7,9 @@ description: Le ore pianificate associate a un'attività, un problema o un proge
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '2888'
+source-wordcount: '2789'
 ht-degree: 0%
 
 ---
@@ -76,8 +76,6 @@ Ad esempio, se un&#39;attività è impostata per iniziare alle 16.00 e la pianif
 >
 >L’allocazione giornaliera o giornaliera prevista è l’allocazione di ore pianificate per ogni giorno durante la durata dell’attività. Se l&#39;attività dispone di un&#39;assegnazione, questo numero rappresenta le ore pianificate per giorno per assegnazione. Se l&#39;attività dispone di più assegnazioni, l&#39;orario pianificato per giorno per assegnazione è diverso dall&#39;orario pianificato per giorno per l&#39;attività. In Workfront non è disponibile alcuna rappresentazione visiva per le ore pianificate per giorno per assegnazione, per le attività con più assegnazioni.
 
- 
-
 ## Individuare e comprendere i valori dell’ora pianificata
 
 Puoi trovare i valori di Ora pianificata in diverse aree di Workfront. 
@@ -89,7 +87,6 @@ Il numero di ore pianificate visualizzate deriva dagli elementi di lavoro del pr
 * [Sezione Dettagli di un progetto, un&#39;attività o un problema](#the-details-section-of-a-project-task-or-issue)
 * [Casella Modifica attività o Modifica problema](#the-edit-task-or-edit-issue-box)
 * [Report](#reports)
-* [Aree di programmazione](#the-scheduling-areas)
 * [Il servizio di bilanciamento del carico di lavoro](#the-workload-balancer)
 * [Planner risorse](#the-resource-planner)
 * [Rapporto Utilizzo](#the-utilization-report)
@@ -131,20 +128,22 @@ Per informazioni sulla creazione di rapporti, consulta [Creare un rapporto perso
 >
 >Se si crea un rapporto Progetto (dati finanziari) e lo si raggruppa per data, è possibile che nelle ore Pianificate venga visualizzata una parte delle ore Pianificate del progetto, a seconda della cronologia delle attività del progetto. Per impostazione predefinita, in Workfront le ore pianificate delle attività vengono distribuite in modo uniforme per ogni giorno della durata dell&#39;attività. Le ore pianificate per un determinato intervallo di tempo corrispondono a quelle di distribuzione uguali impostate da Workfront per tale intervallo di tempo nel rapporto Progetto (dati finanziari) .
 
-### Aree di programmazione  {#the-scheduling-areas}
+<!--
+### The Scheduling areas  {#the-scheduling-areas}
 
 ![](assets/task-detail-expanded-in-scheduler-with-planned-hours-and-adjusted-daily-allocations-nwe-350x323.png)
 
-Le ore pianificate per le attività e i problemi vengono visualizzate nelle aree Pianificazione nel campo Ora pianificata .
+The Planned Hours for tasks and issues display in the Scheduling areas in the Planned Hours field.
 
-È possibile visualizzare l&#39;allocazione giornaliera delle ore pianificate per ogni utente assegnato a un&#39;attività o a un problema nelle aree di programmazione.
+You can view the daily allocation of Planned Hours for each user assigned to a task or an issue in the Scheduling areas.
 
-L’ora giornaliera rappresenta uno dei seguenti valori: 
+The daily hour amount represents one of the following:
 
-* l&#39;importo predefinito equamente distribuito da Workfront per ogni giorno della Durata delle attività o dei problemi
-* l’allocazione giornaliera corretta gestita dai gestori delle risorse.
+* the default amount equally distributed by Workfront for each day of the Duration of the tasks or issues
+* the adjusted daily allocation managed by resource managers.
 
-   Per informazioni sulla regolazione delle allocazioni giornaliere negli strumenti di programmazione, vedere [Gestione delle allocazioni utente nelle aree di programmazione](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+  For information about adjusting daily allocations in the Scheduling tools, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+-->
 
 ### Il servizio di bilanciamento del carico di lavoro {#the-workload-balancer}
 
@@ -156,7 +155,8 @@ Le seguenti ore pianificate per attività, problemi e progetti vengono visualizz
 * Per i progetti, un totale di ore pianificate dalle attività e dai problemi visibili sullo schermo.
 
    >[!TIP]
-   Il servizio di bilanciamento del carico di lavoro non visualizza tutte le ore pianificate di un progetto come visibili nell’area Dettagli progetto.
+   >
+   >Il servizio di bilanciamento del carico di lavoro non visualizza tutte le ore pianificate di un progetto come visibili nell’area Dettagli progetto.
 
 È possibile visualizzare l&#39;allocazione giornaliera delle ore pianificate per ogni utente assegnato a un&#39;attività o a un problema nel servizio di bilanciamento del carico di lavoro.
 
@@ -176,7 +176,8 @@ In planner risorse viene visualizzato l&#39;orario pianificato per progetti, att
 È possibile visualizzare le allocazioni settimanali di Orari pianificati per gli utenti e i ruoli di lavoro associati agli elementi di lavoro nella colonna PLN del Planner risorse.
 
 >[!TIP]
-Gli adeguamenti giornalieri dell&#39;allocazione nel workload Balancer influenzano le allocazioni settimanali per le attività e i problemi nel Resource Planner.
+>
+>Gli adeguamenti giornalieri dell&#39;allocazione nel workload Balancer influenzano le allocazioni settimanali per le attività e i problemi nel Resource Planner.
 
 Il numero di ore pianificate per ciascun oggetto varia a seconda della visualizzazione applicata al planner risorse. Per ulteriori informazioni, consulta [Panoramica delle informazioni su ore, FTE e costi nelle visualizzazioni Progetto e Ruolo del Planner risorse](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
@@ -194,7 +195,8 @@ L’importo settimanale per i progetti, gli utenti e i ruoli è influenzato dall
 Il progetto Orari pianificati è quello associato alle assegnazioni di ogni attività e problema.
 
 >[!IMPORTANT]
-Le ore pianificate nel rapporto Utilizzo sono associate alle assegnazioni e non alle attività e ai problemi stessi. Le ore pianificate nel rapporto Utilizzo non corrispondono sempre alle ore pianificate sulle attività e sui problemi del progetto. Tuttavia, le ore pianificate corrispondono alle ore associate alle assegnazioni per attività e problemi.
+>
+>Le ore pianificate nel rapporto Utilizzo sono associate alle assegnazioni e non alle attività e ai problemi stessi. Le ore pianificate nel rapporto Utilizzo non corrispondono sempre alle ore pianificate sulle attività e sui problemi del progetto. Tuttavia, le ore pianificate corrispondono alle ore associate alle assegnazioni per attività e problemi.
 
 Nel rapporto Utilizzo è possibile visualizzare i seguenti tipi di ore pianificate:
 

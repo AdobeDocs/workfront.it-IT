@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,12 @@ Continuiamo a migliorare il modo in cui utilizzi gli obiettivi di Workfront in b
 
 * È stata aggiornata l’esperienza di stampa di un elenco di obiettivi con un collegamento Stampa più intuitivo nella sezione Elenco obiettivi .
 
-   Per informazioni sugli obiettivi di stampa, vedi [Stampa l&#39;elenco degli obiettivi in Obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/print-the-goal-list.md).
+   Per informazioni sugli obiettivi di stampa, consulta &quot;Stampare l’elenco degli obiettivi in Obiettivi di Adobe Workfront&quot;.
+
+   >[!NOTE]
+   >
+   >  La funzionalità per la stampa degli obiettivi è stata rimossa e rimossa da Workfront.
+
 
 * Sono state aggiunte ulteriori informazioni su Risultati e Attività nel pannello Dettagli obiettivo, per comprendere chiaramente la differenza tra i due.
 

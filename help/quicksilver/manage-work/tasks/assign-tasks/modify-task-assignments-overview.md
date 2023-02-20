@@ -7,7 +7,7 @@ description: È possibile assegnare attività a o annullare l’assegnazione di 
 author: Alina
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: 7e77223595d3c9cf0d6592a09e893142439adb2c
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Questo articolo contiene informazioni generali sull&#39;impatto della modifica d
 
 * Per informazioni sull&#39;assegnazione delle attività, vedere [Assegnare le attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md) e [Modificare più assegnazioni utente in un elenco di attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-* Per informazioni sulla modifica delle assegnazioni per più attività nell&#39;area Pianificazione, vedere [Modificare più assegnazioni di utenti in attività nelle aree di programmazione](../../../resource-mgmt/resource-scheduling/modify-multipl-assignments-scheduling-areas.md).
+* Per informazioni sulla modifica delle assegnazioni per più attività nell&#39;area Pianificazione, vedere &quot;Modificare più assegnazioni di utenti in attività nelle aree Programmazione&quot;.
 * Per informazioni sull&#39;assegnazione di attività tramite il servizio di bilanciamento del carico di lavoro, consulta [Panoramica dell’assegnazione del lavoro nel servizio di bilanciamento del carico di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Alcune informazioni in questo articolo si applicano anche alle assegnazioni a problemi. Per ulteriori informazioni sull’assegnazione dei problemi e considerazioni aggiuntive, consulta [Modifica della panoramica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).

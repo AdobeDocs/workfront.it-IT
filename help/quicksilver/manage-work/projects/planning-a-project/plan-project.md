@@ -6,9 +6,9 @@ description: Pianificare una panoramica del progetto
 author: Alina
 feature: Work Management
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1834439ed43fb97c5287fc33abf860de77683e1b
+source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
@@ -144,11 +144,11 @@ Quando definisci le attività, considera quanto segue:
 
    Per ulteriori informazioni sulle ore pianificate, consulta l’articolo [Panoramica sull’orario pianificato](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* Assegna ogni attività a un utente o a un team responsabile del completamento. 
+* Assegna ogni attività a un utente o a un team responsabile del completamento.
 * Controlla la disponibilità degli utenti che stai assegnando alle attività. Assicurati che siano liberi di lavorare e non sovrassegnate in modo che possano completare le attività assegnate. Se gli utenti sono sovrallocati o hanno un orario di inattività nei loro programmi, considera uno dei seguenti elementi:
 
    * Ridurre le ore pianificate di ogni attività.
    * Aggiungi altri utenti a un&#39;attività per assicurarti che possa essere completata durante il tempo assegnato.
    * Riassegna le attività agli utenti disponibili senza altri vincoli.\
       Per ulteriori informazioni sulla pianificazione delle risorse del progetto, consulta l’articolo [Pianificazione delle risorse in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-      Per ulteriori informazioni sulla pianificazione delle risorse per eseguire il lavoro su un progetto, consulta l’articolo [Pianificazione delle risorse](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+      Per ulteriori informazioni sulla pianificazione delle risorse per eseguire il lavoro su un progetto, consulta [Panoramica del servizio di bilanciamento del carico di lavoro](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

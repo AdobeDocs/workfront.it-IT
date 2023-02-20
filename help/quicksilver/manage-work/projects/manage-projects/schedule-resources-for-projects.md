@@ -6,7 +6,7 @@ description: Puoi pianificare le risorse per un singolo progetto per indicare a 
 author: Alina
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Per accedere allo strumento Pianificazione in un progetto:
 1. Passa al progetto per il quale desideri pianificare le risorse.
 1. Fai clic sul pulsante **Pianificazione** o la sezione del servizio di bilanciamento del carico di lavoro nel pannello a sinistra. La sezione Pianificazione o Bilanciamento carico di lavoro potrebbe essere situata in **Mostra altro**.
 
-   Per informazioni sulla pianificazione delle risorse tramite lo strumento Pianificazione in un progetto, consulta la sezione [Modifica assegnazioni e allocazioni utente](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify) sezione dell&#39;articolo [Guida introduttiva alla pianificazione delle risorse](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+   Per informazioni sulla pianificazione delle risorse tramite lo strumento Pianificazione in un progetto, vedere la sezione &quot;Modifica assegnazioni e allocazioni utente&quot; nell&#39;articolo &quot;Introduzione alla pianificazione delle risorse&quot;.
 
 1. (Condizionale e consigliato) Se hai fatto clic su Pianificazione, fai clic su **Passa al bilanciamento del carico di lavoro** per pianificare le risorse utilizzando il servizio di bilanciamento del carico di lavoro.
 
