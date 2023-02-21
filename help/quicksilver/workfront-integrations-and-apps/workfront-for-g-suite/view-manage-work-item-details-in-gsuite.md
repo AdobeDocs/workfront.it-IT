@@ -7,7 +7,7 @@ description: È possibile visualizzare e gestire i dettagli di un elemento di la
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 0%
@@ -57,7 +57,6 @@ Prima di visualizzare e gestire i dettagli degli elementi di lavoro in [!DNL G S
 
    Quando selezioni un’attività o un problema, la **[!UICONTROL Dettagli]** è aperta la scheda . L&#39;area sopra la **[!UICONTROL Dettagli]** visualizza il nome dell&#39;oggetto principale, il nome dell&#39;attività o del problema e il [!UICONTROL Data di scadenza] (se si tratta di un&#39;attività) o [!UICONTROL Data priorità] (se si tratta di un problema).
 
-   ![](assets/details-tab.png)
 
    Puoi eseguire varie attività in questa scheda senza uscire [!DNL G Suite], compresi i seguenti elementi:
 
