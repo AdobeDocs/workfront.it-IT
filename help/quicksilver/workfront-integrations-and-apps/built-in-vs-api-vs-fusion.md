@@ -7,9 +7,9 @@ title: Metodi di integrazione di Adobe Workfront
 description: È possibile integrare [!DNL Adobe Workfront] con applicazioni di terze parti. Queste integrazioni possono estendere l'utilità di [!DNL Workfront] e adattalo alle esigenze della tua organizzazione. Puoi utilizzare una o tutte queste integrazioni, a seconda di quale risulta più utile per una determinata attività.
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: 685186f76cd89e69eac0a07bff9a39e2e28f9429
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
-source-wordcount: '963'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -27,20 +27,20 @@ Le integrazioni integrate di Workfront si concentrano in gran parte sulla produt
 I vantaggi delle integrazioni integrate possono includere:
 
 * Molte di queste integrazioni integrate sono disponibili senza costi aggiuntivi. (Altri richiedono un acquisto aggiuntivo.)
-* Le integrazioni integrate coprono molte delle applicazioni più comuni utilizzate dalle aziende, ad esempio lo Slack, [!DNL Google Drive]o prodotti di Adobe come [!DNL Adobe Creative Cloud] o [!DNL Adobe Experience Manager] Risorse. Se l’azienda utilizza già queste app, l’integrazione avverrà senza problemi nel flusso di lavoro esistente degli utenti.
+* Le integrazioni integrate coprono molte delle applicazioni più comuni utilizzate dalle aziende, come [!DNL Slack], [!DNL Google Drive]oppure [!DNL Adobe] prodotti quali [!DNL Adobe Creative Cloud] o [!DNL Adobe Experience Manager] Risorse. Se l’azienda utilizza già queste app, l’integrazione avverrà senza problemi nel flusso di lavoro esistente degli utenti.
 * Integrazione [!DNL Workfront] con un&#39;applicazione di uso frequente può aumentare l&#39;adozione tra gli utenti.
 
 >[!INFO]
 >
 >**Esempio:**
 >
->Con la [!DNL Workfront for Microsoft integration], puoi ricevere notifiche in [!DNL Microsoft Teams] informazioni [!DNL Workfront] oggetti di lavoro. Senza partire [!DNL Microsoft Teams], è possibile eseguire azioni quali approvare, commentare o modificare lo stato degli elementi di lavoro. Qualsiasi modifica apportata agli elementi di lavoro [!DNL Microsoft] I team si riflettono in [!DNL Workfront] anche.
+>Con la [!DNL Workfront for Microsoft Teams integration], puoi ricevere notifiche in [!DNL Microsoft Teams] informazioni [!DNL Workfront] oggetti di lavoro. Senza partire [!DNL Microsoft Teams], è possibile eseguire azioni quali approvare, commentare o modificare lo stato degli elementi di lavoro. Qualsiasi modifica apportata agli elementi di lavoro [!DNL Microsoft Teams] sono riflessi in [!DNL Workfront] anche.
 
 Per ulteriori informazioni sulle integrazioni integrate, incluso un elenco delle integrazioni integrate attualmente disponibili, consulta [[!DNL Adobe Workfront] panoramica delle integrazioni integrate](../workfront-integrations-and-apps/built-in-integrations-non-admin.md).
 
 ## Applicazioni OAuth2 personalizzate
 
-Adobe [!DNL Workfront] gli amministratori possono creare applicazioni OAuth2 per la tua istanza di [!DNL Workfront], che consente ad altre applicazioni di accedere a Workfront. Gli utenti possono quindi concedere l’autorizzazione a tali altre applicazioni per accedere ai propri dati Workfront. In questo modo, è possibile integrare Workfront con applicazioni a scelta, incluse le applicazioni interne.
+Adobe [!DNL Workfront] gli amministratori possono creare applicazioni OAuth2 per la tua istanza di [!DNL Workfront], che consentono l&#39;accesso ad altre applicazioni [!DNL Workfront]. Gli utenti possono quindi concedere l&#39;autorizzazione a tali altre applicazioni per accedere ai loro [!DNL Workfront] dati. In questo modo, è possibile integrare Workfront con applicazioni a scelta, incluse le applicazioni interne.
 
 >[!NOTE]
 >
@@ -54,9 +54,9 @@ Vantaggi della creazione di un [!UICONTROL OAuth2] la domanda può comprendere q
 
 Per ulteriori informazioni, consulta [Creare applicazioni OAuth2 per le integrazioni Workfront](../administration-and-setup/configure-integrations/create-oauth-application.md).
 
-## API Workfront
+## [!DNL Workfront] API
 
-Workfront offre un’API pubblica (interfaccia di programmazione dell’applicazione) che ti consente di estendere e migliorare la tua esperienza Workfront. L’obiettivo dell’API Workfront è semplificare la creazione di integrazioni personalizzate con Workfront introducendo un’architettura REST-ful che opera tramite HTTP. L’API Workfront richiede effettivamente alcune conoscenze tecniche, ma è uno strumento molto potente per recuperare, creare e modificare i dati. Puoi personalizzare le chiamate API per eseguire funzioni molto specifiche.
+[!DNL Workfront] offre un’API pubblica (interfaccia di programmazione dell’applicazione) che ti consente di estendere e migliorare la tua esperienza Workfront. L&#39;obiettivo per [!DNL Workfront] L’API è utile per semplificare la creazione di integrazioni personalizzate con [!DNL Workfront] introducendo un’architettura REST-ful che funziona tramite HTTP. La [!DNL Workfront] L’API richiede alcune conoscenze tecniche, ma è uno strumento molto potente per recuperare, creare e modificare i dati. Puoi personalizzare le chiamate API per eseguire funzioni molto specifiche.
 
 Inoltre, [!DNL Workfront] offre un’API iscrizione agli eventi. Quando si verifica un&#39;azione su un [!DNL Workfront] oggetto supportato dalle sottoscrizioni di eventi, è possibile configurare [!DNL Workfront] per inviare una risposta all’endpoint desiderato. Ciò significa che le applicazioni di terze parti possono ricevere aggiornamenti da [!DNL Workfront] interazioni tramite [!DNL Workfront] API subito dopo il loro verificarsi.
 
@@ -81,13 +81,13 @@ Per ulteriori informazioni sulla [!DNL Workfront] API, vedi [Nozioni di base sul
 
 Per ulteriori informazioni sugli abbonamenti agli eventi, vedi [API iscrizione agli eventi](../wf-api/general/event-subs-api.md).
 
-## Adobe Workfront Fusion
+## [!DNL Adobe Workfront Fusion]
 
-Workfront Fusion consente di automatizzare i flussi di lavoro. Con la [!DNL Workfront Fusion for Work Automation and Integration] In licenza, puoi creare queste automatizzazioni in più app e servizi web, creando scenari in cui le app lavorano insieme per eseguire un&#39;attività. Uno scenario è una rappresentazione visiva dell’attività o del flusso di lavoro generato utilizzando i moduli, che sono attività discrete come &quot;Scarica un documento&quot; o &quot;Crea un progetto&quot;. Si concatenano i moduli per definire il flusso di lavoro, quindi il flusso di lavoro viene eseguito automaticamente quando viene soddisfatta una condizione di attivazione.
+[!DNL Workfront Fusion] consente di automatizzare i flussi di lavoro. Con la [!DNL Workfront Fusion for Work Automation and Integration] In licenza, puoi creare queste automatizzazioni in più app e servizi web, creando scenari in cui le app lavorano insieme per eseguire un&#39;attività. Uno scenario è una rappresentazione visiva dell’attività o del flusso di lavoro generato utilizzando i moduli, che sono attività discrete come &quot;Scarica un documento&quot; o &quot;Crea un progetto&quot;. Si concatenano i moduli per definire il flusso di lavoro, quindi il flusso di lavoro viene eseguito automaticamente quando viene soddisfatta una condizione di attivazione.
 
 Vantaggi per [!DNL Workfront Fusion] possono comprendere:
 
-* Workfront Fusion non richiede tanto conoscenze tecniche quanto l&#39;API perché l&#39;interfaccia visiva aiuta a comprendere e configurare il flusso di lavoro. Ciò significa che può essere utilizzato da persone esterne a un team di sviluppo, il che può risparmiare tempo e denaro.
+* [!DNL Workfront Fusion] non richiede tanto conoscenze tecniche quanto l’API, perché l’interfaccia visiva facilita la comprensione e la configurazione del flusso di lavoro. Ciò significa che può essere utilizzato da persone esterne a un team di sviluppo, il che può risparmiare tempo e denaro.
 * Da [!DNL Workfront Fusion] funziona tramite l’API e può accedere alla maggior parte delle app e dei servizi web. Molte app dispongono di moduli per effettuare chiamate API, oppure è possibile utilizzare i moduli HTTP, SOAP o JSON per interagire con i servizi web che non dispongono di un [!DNL Workfront Fusion] connettore.
 
 >[!INFO]
@@ -98,4 +98,4 @@ Vantaggi per [!DNL Workfront Fusion] possono comprendere:
 >
 >![](assets/fusion-example-comment-350x416.png)
 
-Per ulteriori informazioni su Workfront Fusion, consulta [Adobe Workfront Fusion](../workfront-fusion/workfront-fusion-2.md).
+Per ulteriori informazioni [!DNL Workfront Fusion], vedi [[!DNL Adobe Workfront Fusion]](../workfront-fusion/workfront-fusion-2.md).

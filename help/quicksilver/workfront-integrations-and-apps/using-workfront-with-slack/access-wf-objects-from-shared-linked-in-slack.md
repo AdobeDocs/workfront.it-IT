@@ -6,9 +6,9 @@ description: Quando si effettua un collegamento a [!DNL Adobe Workfront] gli ogg
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1118'
 ht-degree: 2%
 
 ---
@@ -62,8 +62,6 @@ Prima di poter accedere ai preferiti e agli elementi recenti da [!DNL Slack], de
    >[!NOTE]
    >
    >L’utente che condivide il collegamento deve avere almeno [!UICONTROL Visualizza] autorizzazioni al progetto per consentirti di visualizzare ulteriori informazioni.
-
-   ![slack_project_details.png](assets/slack-project-details-350x199.png)
 
 1. (Facoltativo) Fai clic sul nome del progetto per aprirlo in [!DNL Workfront] in una nuova scheda del browser.
 1. Considera la revisione delle seguenti informazioni aggiuntive sul progetto:

@@ -6,9 +6,9 @@ description: Dopo che il proprietario del tuo team installa Adobe Workfront per 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 0cb2ddf2a7d9cd9f1d257829097d467c9f0a5666
+source-git-commit: 473a1fe3cb7e247749d9b540e3e5556cbe17a1dd
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -49,9 +49,7 @@ Le [!DNL Microsoft Teams] installare il proprietario del team [!DNL Workfront] p
 
 ## Invia [!DNL Workfront] richieste da [!DNL Microsoft Teams]
 
-1. Fai clic sul pulsante **[!UICONTROL Altre app aggiunte]** nella barra di navigazione a sinistra in Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Fai clic sul pulsante **[!UICONTROL Altre app aggiunte]** Icona a tre punti nella barra di navigazione a sinistra in [!DNL Microsoft Teams].
 
 1. Fai clic su **[!DNL Workfront]** nell&#39;elenco visualizzato.
 1. Fai clic sul pulsante **[!UICONTROL Richieste]** scheda .
@@ -89,14 +87,10 @@ Le [!DNL Microsoft Teams] installare il proprietario del team [!DNL Workfront] p
 
 ## Visualizza [!DNL Workfront] richieste inviate in [!DNL Microsoft Teams]
 
-1. Fai clic sul pulsante **[!UICONTROL Altre app aggiunte]** nella barra di navigazione a sinistra in Microsoft Teams.
-
-   ![](assets/ms-teams-more-added-apps-icon.png)
+1. Fai clic sul pulsante **[!UICONTROL Altre app aggiunte]** Icona a tre punti nella barra di navigazione a sinistra in [!DNL Microsoft Teams].
 
 1. Fai clic su **[!DNL Workfront]** nell&#39;elenco visualizzato.
 1. Fai clic sul pulsante **[!UICONTROL Richieste]** scheda .
-
-   ![](assets/ms-teams-requests-page-with-count-350x198.png)
 
    Le richieste inviate sono elencate nella sezione [!UICONTROL Richieste inviate] area [!UICONTROL Richieste] scheda . Non è possibile configurare le informazioni visualizzate in questa scheda sulle richieste inviate.
 

@@ -6,9 +6,9 @@ description: È possibile utilizzare [!DNL Adobe Workfront for Jira] per integra
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2400'
 ht-degree: 0%
 
 ---
@@ -143,8 +143,6 @@ Per configurare i trigger per la creazione automatica di elementi in [!DNL Jira]
 
    La **[!UICONTROL Triggers]** è selezionata per impostazione predefinita.
 
-   ![Triggers_tab_Jira_WF.png](assets/new-triggers-tab-jira-wf-1373x754.png)
-
 1. Fai clic su **[!UICONTROL Aggiungi trigger]** per aggiungere un nuovo trigger.
 1. In **[!UICONTROL Team/utente/ruolo di Workfront]** campo , specifica il nome di un [!DNL Workfront] ruolo team, utente o processo, quindi fare clic per selezionarlo quando viene visualizzato nell&#39;elenco.
 
@@ -180,8 +178,6 @@ Per definire quali campi devono essere sincronizzati automaticamente sugli eleme
 1. Fai clic su **[!UICONTROL Configura]**.
 1. Accedi a [!DNL Workfront] come amministratore Workfront.
 1. Fai clic sul pulsante **[!UICONTROL Configurazione]** scheda .
-
-   ![](assets/new-jira-newsetuptab-1205x1145.png)
 
 1. In **[!UICONTROL Sincronizzazione da Jira a Workfront]** seleziona i campi in cui desideri eseguire l’aggiornamento [!DNL Jira] quando vengono aggiornate in Workfront.
 
@@ -305,7 +301,7 @@ Per definire quali campi devono essere sincronizzati automaticamente sugli eleme
            <li>Quando selezioni <strong>[!UICONTROL Always]</strong> consente di abilitare l’integrazione per creare un nuovo utente Workfront ogni volta che [!DNL Jira] utente senza [!DNL Workfront] l'account esegue le seguenti azioni su un [!DNL Jira] problema:
             <ul>
              <li>È assegnato a un [!DNL Jira] problema</li>
-             <li><p>Registrazione del tempo su un [!DNL Jira] problema</p><p>Questo nuovo utente non occupa un [!DNL Workfront] licenza. L'impostazione predefinita è Sempre. L’utente ha creato in questo modo [!DNL Workfront] ha aggiunto "[!UICONTROL Jira]" al loro nome.</p><p><img src="assets/jira-wf-indication-of-user-created-by-jira-350x66.png" style="width: 350;height: 66;"></p></li>
+             <li><p>Registrazione del tempo su un [!DNL Jira] problema</p><p>Questo nuovo utente non occupa un [!DNL Workfront] licenza. L'impostazione predefinita è Sempre. L’utente ha creato in questo modo [!DNL Workfront] ha aggiunto "[!UICONTROL Jira]" al loro nome.</p></li>
             </ul></li>
            <li>Quando selezioni <strong>[!UICONTROL Mai]</strong>, si verificano le seguenti situazioni:
             <ul>

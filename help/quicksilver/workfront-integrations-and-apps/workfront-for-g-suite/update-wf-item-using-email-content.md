@@ -7,7 +7,7 @@ description: Puoi aggiornare un progetto, un’attività o un problema esistente
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 0%
@@ -57,8 +57,6 @@ Prima di poter aggiornare un [!DNL Workfront] elemento che utilizza il contenuto
 1. Sotto **[!UICONTROL Tipo]**, fai clic sulla freccia a discesa, quindi fai clic sul tipo di oggetto in cui desideri aggiungere l’aggiornamento.
 1. Fai clic sul pulsante **[!UICONTROL Cerca]** inizia a digitare il nome dell&#39;oggetto in cui desideri aggiungere l&#39;aggiornamento, quindi seleziona l&#39;elemento quando viene visualizzato nell&#39;elenco seguente.
 
-   ![](assets/click-search-for-task-issue.png)
-
    Questa opzione varia a seconda di quanto selezionato al punto 3. Potrebbe essere **[!UICONTROL Cercare un progetto]**, **[!UICONTROL Ricerca di un’attività]** oppure **[!UICONTROL Cercare un problema]**.
 
    >[!NOTE]
@@ -90,8 +88,6 @@ Prima di poter aggiornare un [!DNL Workfront] elemento che utilizza il contenuto
 1. Fai clic su **[!UICONTROL Aggiorna]**.
 
    Quando si aggiorna il browser, viene visualizzato un messaggio con un collegamento nella parte inferiore della sezione [!DNL Workfront for G Suite] Il pannello conferma che l’e-mail è stata convertita in un aggiornamento:
-
-   ![](assets/email-was-converted-as-update.png)
 
    Puoi fare clic sul collegamento per passare alla [!UICONTROL Aggiornamenti] scheda in [!DNL Workfront] per l&#39;oggetto specificato al punto 4.
 

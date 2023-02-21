@@ -7,7 +7,7 @@ description: Puoi convertire un’e-mail esterna (non generata da [!DNL Adobe Wo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '804'
 ht-degree: 0%
@@ -102,8 +102,6 @@ Prima di creare un problema da [!DNL G Suite], devi
    Nella parte inferiore del **[!UICONTROL Dettagli]** puoi anche fare clic su **[!UICONTROL Visualizza in Workfront]** per passare al nuovo numero in Workfront.
 
    Quando si aggiorna il browser, viene visualizzato un messaggio con un collegamento nella parte inferiore della sezione [!UICONTROL Workfront per G Suite] Il pannello conferma che l’e-mail è stata convertita in un problema:
-
-   ![](assets/email-was-converted.png)
 
    Puoi fare clic sul collegamento per passare alla visualizzazione Dettagli all&#39;interno della [!DNL Workfront for G Suite] , per il problema creato.
 

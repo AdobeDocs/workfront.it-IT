@@ -6,9 +6,9 @@ description: Dopo aver installato e configurato [!DNL Adobe Workfront] ad Slack,
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,7 @@ Prima di creare attività e problemi da [!DNL Slack], devi
    >
    >I comandi sono sensibili all’uso di maiuscole e minuscole. Puoi avviare il comando con `/wf` anziché `/workfront`.
    >  
-   >Il Nome attività deve essere immesso così come apparirà nella [!DNL Workfront] senza parentesi né virgolette.\
-   >![add_task_to_project.png](assets/add-task-to-project-350x63.png)
+   >Il Nome attività deve essere immesso così come apparirà nella [!DNL Workfront] senza parentesi né virgolette.
 
 1. (Facoltativo) Inizia a digitare il nome di un progetto a cui si desidera associare la nuova attività e selezionala quando viene visualizzata nell’elenco.\
    Viene visualizzata una conferma che indica che l’attività è stata aggiunta al progetto selezionato.
@@ -81,8 +80,7 @@ Prima di creare attività e problemi da [!DNL Slack], devi
    >[!NOTE]
    >
    >I comandi sono sensibili all’uso di maiuscole e minuscole. Puoi avviare il comando con &#39;/wf&#39; invece di &#39;/workfront&#39;. \
-   >Il nome del problema deve essere immesso così come apparirà nel [!DNL Workfront] senza parentesi né virgolette.\
-   >![slack_add_issue_to_project.png](assets/slack-add-issue-to-project-350x88.png)
+   >Il nome del problema deve essere immesso così come apparirà nel [!DNL Workfront] senza parentesi né virgolette.
 
 1. (Facoltativo) Inizia a digitare il nome di un progetto a cui desideri associare il nuovo problema e selezionalo quando viene visualizzato nell’elenco.\
    Ricevi una conferma che indica che il problema è stato aggiunto al progetto selezionato.

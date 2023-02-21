@@ -6,9 +6,9 @@ description: Dopo aver installato e configurato [!DNL Adobe Workfront] ad Slack,
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4bf62192-66fe-42a7-b8c0-23b7bdef45e8
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,6 @@ Prima di poter accedere ai preferiti e agli elementi recenti da [!DNL Slack], de
 
    Viene visualizzato un elenco dei Preferiti.
 
-* ![slack_favorites_with_show_more_button.png](assets/slack-favorites-with-show-more-button-350x202.png)
-
 1. (Facoltativo) Fai clic su **[!UICONTROL Mostra altro]** per elencare altri Preferiti.
 1. Fai clic sul nome di un preferito per aprirlo in [!DNL Workfront] in una nuova scheda del browser.
 
@@ -73,7 +71,6 @@ Prima di poter accedere ai preferiti e agli elementi recenti da [!DNL Slack], de
    >I comandi sono sensibili all’uso di maiuscole e minuscole. Puoi avviare il comando con `/wf` anziché `/workfront`.
 
    Viene visualizzato un elenco degli elementi recenti, nell’ordine in cui sono stati aperti per ultimi, con quelli più recenti nella parte superiore. Gli elementi sono elencati tre alla volta e sono raggruppati per tipo di oggetto.\
-   ![slack_Recent_items.png](assets/slack-recent-items-350x249.png)
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Mostra altro]** per elencare gli elementi più recenti.
 1. (Facoltativo) Fai clic sul nome di un elemento a cui hai recentemente effettuato l’accesso per aprirlo in [!DNL Workfront] in una nuova scheda del browser.

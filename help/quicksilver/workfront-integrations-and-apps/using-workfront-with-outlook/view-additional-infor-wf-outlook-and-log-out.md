@@ -6,9 +6,9 @@ description: È possibile visualizzare i dettagli della versione del componente 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f2200d71-c81e-4b15-b631-07e08562609b
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,6 @@ Le [!DNL Workfront] l&#39;amministratore deve abilitare [!DNL Outlook for Office
 1. Seleziona un messaggio e-mail in [!DNL Outlook].
 1. Fai clic su **[!DNL Workfront]** per visualizzare il componente aggiuntivo Workfront.
 1. Fai clic sulla freccia a discesa accanto al nome utente.
-
-   ![outlook_additional_information_for_the_app.png](assets/outlook-additional-information-for-the-app-249x341.png)
 
 1. Fai clic su una delle seguenti opzioni:
 

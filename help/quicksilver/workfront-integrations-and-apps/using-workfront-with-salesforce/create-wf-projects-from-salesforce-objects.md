@@ -6,9 +6,9 @@ description: Dopo l'installazione [!DNL Adobe Workfront] per Salesforce, puoi de
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1506'
 ht-degree: 3%
 
 ---
@@ -198,8 +198,6 @@ Per visualizzare i progetti creati da un [!UICONTROL Opportunità] o Account :
 1. Seleziona la **[!UICONTROL Progetti]** scheda .
 
    Tutti i progetti creati da attivatori definiti sono elencati in questa scheda. Qualsiasi utente in [!DNL Salesforce] che ha anche [!DNL Workfront] e che potrebbero disporre delle autorizzazioni per visualizzare questi progetti in [!DNL Workfront] possono anche visualizzarle [!DNL Salesforce] per [!UICONTROL Opportunità] o l&#39;account che li ha generati.
-
-   ![[!DNL salesforce_projects_tab_with_projects_listed].png](assets/salesforce-projects-tab-with-projects-listed-350x150.png)
 
    Puoi visualizzare le seguenti informazioni sui progetti creati dall’integrazione:
 

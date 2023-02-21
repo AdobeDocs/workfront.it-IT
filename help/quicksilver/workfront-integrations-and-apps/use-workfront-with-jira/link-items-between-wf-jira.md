@@ -6,9 +6,9 @@ description: Puoi collegare [!DNL Jira] questioni [!DNL Adobe Workfront] attivit
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f533c9000c14d5692c87987973eb0b1d6665229d
+source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -102,8 +102,6 @@ Per collegare automaticamente un [!DNL Workfront] a un [!DNL Jira] problema:
 
    In **[!UICONTROL Aggiornamenti]** area della nuova attività, c&#39;è un commento per indicare che è stato creato anche un nuovo problema in [!DNL Jira].
 
-   ![WF_Confirm_that_Jira_issue_was_created.png](assets/wf-confirmation-that-jira-issue-was-created-350x43.png)
-
 1. (Facoltativo) Fai clic sul collegamento al problema Jira per aprirlo in Jira.
 
    Oppure
@@ -142,15 +140,14 @@ Collegamento manuale [!DNL Jira] questioni [!DNL Workfront] articoli:
 
    Oppure
 
-   Da [!UICONTROL Dettagli] area ![](assets/details-icon-in-left-panel.png), copia il **[!UICONTROL Numero di riferimento]** dell’elemento in Workfront.
+   Da [!UICONTROL Dettagli] area, copia **[!UICONTROL Numero di riferimento]** dell’elemento in Workfront.
 
    >[!NOTE]
    >
    >Devi avere un [!DNL Workfront] licenza di accesso a [!DNL Workfront]. In caso contrario, un [!DNL Workfront] l&#39;utente deve fornire queste informazioni.
 
 1. In [!DNL Jira], individua un problema a cui desideri collegare manualmente [!DNL Workfront] oggetto.
-1. In [!DNL Workfront] pannello a destra, incolla **URL** o **[!UICONTROL Numero di riferimento]** del [!DNL Workfront] elemento a cui si desidera collegarsi.\
-   ![manual_link_items_Jira_WF.png](assets/new-manually-link-items-jira-631x394.png)
+1. In [!DNL Workfront] pannello a destra, incolla **URL** o **[!UICONTROL Numero di riferimento]** del [!DNL Workfront] elemento a cui si desidera collegarsi.
 
 1. Fai clic su **[!UICONTROL Collegamento]**.
 
@@ -168,8 +165,6 @@ Collegamento manuale [!DNL Jira] questioni [!DNL Workfront] articoli:
 
 Per ulteriori informazioni sull’abilitazione della visualizzazione di campi aggiuntivi nel pannello di destra, consulta [Configura la sincronizzazione dei campi tra [!DNL Jira] e [!DNL Workfront] Elementi](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) sezione [Configura [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). Un commento da [!DNL Workfront] l’amministratore associato all’integrazione viene registrato nel **[!DNL Workfront]** della scheda [!DNL Jira] problema di confermare che un nuovo [!DNL Jira] elemento creato. Il commento contiene un collegamento al [!DNL Jira] problema.
 
-![Jira_Confirm_of_the_Jira_issue_created_Workfront_tab.png](assets/new-jira-confirmation-jira-issue-created-workfront-tab-1096x533.png)
-
 ## Scollega elementi tra [!DNL Jira] e [!DNL Workfront]
 
 Elementi collegati tra [!DNL Jira] e [!DNL Workfront] può essere scollegato manualmente da [!DNL Jira].\
@@ -185,6 +180,6 @@ Solo un [!DNL Workfront] L’amministratore può scollegare gli elementi collega
 Per scollegare una [!DNL Jira] problema da [!DNL Workfront] articolo:
 
 1. In [!DNL Jira], passa a un problema collegato a un [!DNL Workfront] attività o problema.
-1. Vai a [!DNL Workfront] nel pannello a destra, quindi fai clic sul pulsante **[!UICONTROL Scollega]** icona, quindi fai clic su **[!UICONTROL Scollega]**.\
-   ![Jira_WF_unlink_icon.png](assets/new-jira-wf-unlink-icon-631x394.png)\
+1. Vai a [!DNL Workfront] nel pannello a destra, quindi fai clic sul pulsante **[!UICONTROL Scollega]** icona, quindi fai clic su **[!UICONTROL Scollega]**.
+
    Collegamento precedente [!DNL Jira] e [!DNL Workfront] Gli elementi ora non sono collegati. Tutti i campi, i commenti o i documenti che in futuro potrebbero essere aggiornati singolarmente non vengono aggiornati sulla loro controparte precedente nell’altra applicazione.

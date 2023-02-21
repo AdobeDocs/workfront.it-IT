@@ -6,9 +6,9 @@ description: Puoi creare una [!DNL Adobe Workfront] richiesta da un'e-mail in Ou
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,10 @@ Per creare una [!DNL Workfront] Richiesta da [!DNL Outlook]:
 1. Fai clic sul pulsante **[!DNL Workfront]** nell’angolo in alto a destra del messaggio e-mail per visualizzare il componente aggiuntivo Workfront.\
    Potrebbe essere necessario fare clic sulla freccia rivolta verso il basso in alto a destra del messaggio e-mail per accedere al [!DNL Workfront] icona.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu]** per visualizzare l’elenco delle opzioni disponibili [!DNL Workfront] opzioni.
-
-   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+1. Fai clic sul pulsante **[!UICONTROL Menu]** icona ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) per visualizzare l’elenco delle opzioni disponibili [!DNL Workfront] opzioni.
 
 1. Fai clic su **[!UICONTROL Invia richiesta]**.
 1. In **[!UICONTROL Selezionare un tipo di richiesta]** seleziona la coda di richiesta in cui desideri inviare la richiesta.
-
-   ![o365_addin_submitrequest.png](assets/o365-addin-submitrequest.png)
 
 1. Specifica le seguenti informazioni:\
    A seconda della configurazione della coda di richiesta, i campi disponibili potrebbero variare. Per un elenco completo e una descrizione dei campi possibili, vedi [Creazione e invio [!DNL Adobe Workfront] requests](../../manage-work/requests/create-requests/create-submit-requests.md) articolo.
@@ -79,4 +75,3 @@ Per creare una [!DNL Workfront] Richiesta da [!DNL Outlook]:
 
 1. (Facoltativo) Torna a [!DNL Outlook], quindi seleziona l’e-mail originale.\
    Nella parte superiore del [!DNL Workfront] nel pannello dei componenti aggiuntivi, osserva la conferma con un collegamento che l’e-mail è stata aggiunta a Workfront come richiesta. Il collegamento include la data in cui è stato convertito.\
-   ![outlook_submit_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)

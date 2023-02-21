@@ -6,9 +6,9 @@ description: Puoi convertire le e-mail in [!DNL Adobe Workfront] attività o pro
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: 04782dfdb8c1ed24bb9c7399a01511c0cbd2dec3
+source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,11 @@ Le [!DNL Workfront] l&#39;amministratore deve abilitare [!DNL Outlook for Office
 
    Potrebbe essere necessario fare clic sulla freccia rivolta verso il basso in alto a destra del messaggio e-mail per accedere al [!DNL Workfront] icona.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu]** per visualizzare l’elenco delle opzioni disponibili [!DNL Workfront] opzioni.
+1. Fai clic sul pulsante **[!UICONTROL Menu]** icona ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) per visualizzare l’elenco delle opzioni disponibili [!DNL Workfront] opzioni.
 
-   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+
 
 1. Fai clic su **[!UICONTROL Aggiungi a lavoro]**.
-
-   ![outlook__add_to_work.png](assets/outlook---add-to-work-302x413.png)
 
 1. Seleziona la **[!UICONTROL Aggiungi a progetto]** campo .
 1. Inizia a digitare il nome di un progetto nel **[!UICONTROL Progetto]** , quindi selezionalo quando viene visualizzato nell’elenco.
@@ -95,4 +93,3 @@ Le [!DNL Workfront] l&#39;amministratore deve abilitare [!DNL Outlook for Office
 
    Nella parte superiore del [!DNL Workfront] nel pannello dei componenti aggiuntivi, osserva la conferma con un collegamento a cui è stato aggiunto il messaggio e-mail [!DNL Workfront] come attività o problema. Il collegamento include la data in cui è stato convertito.
 
-   ![outlook_this_email_was_added_as_an_issue.png](assets/outlook-this-email-was-added-as-an-issue-350x126.png)

@@ -7,7 +7,7 @@ description: Questo articolo descrive come accedere o uscire da [!DNL Adobe Work
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -69,8 +69,6 @@ Prima di poter accedere o uscire da [!DNL Workfront for G Suite], devi
 
 1. Se la [!UICONTROL Workfront per G Suite] il pannello non è visualizzato, fai clic sul pulsante [!DNL Workfront] icona ![](assets/wf-lion-icon.png) in [!DNL G Suite] barra laterale dei componenti aggiuntivi all’estrema destra della pagina.
 1. Fai clic sul pulsante **[!UICONTROL Altre azioni]** nella parte superiore della [!DNL Workfront for G Suite] pannello.
-
-   ![](assets/more-actions-icon.png)
 
 1. Fai clic su **[!UICONTROL Logout]** nel menu visualizzato.
 

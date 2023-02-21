@@ -7,7 +7,7 @@ description: Puoi convertire un’e-mail esterna (non generata da Adobe) [!DNL W
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 925e8f9d57d65fcb44068274800450d9db5c9d34
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -59,8 +59,6 @@ Prima di creare un [!DNL Workfront] in [!DNL G Suite], devi
 1. Se la [!UICONTROL Workfront per G Suite] il pannello non è visualizzato, fai clic sul pulsante [!DNL Workfront] icona ![](assets/wf-lion-icon.png) in [!DNL G Suite] barra laterale dei componenti aggiuntivi all’estrema destra della pagina.
 1. Con il messaggio e-mail aperto in [!DNL G Suite], fai clic su un’opzione in [!DNL Workfront for G Suite] per convertire l’e-mail in una nuova [!DNL Workfront] compito.
 
-   ![](assets/convert-email-task-issue-update.png)
-
 1. Seleziona una **[!UICONTROL Crea nuovo]** per indicare se l’attività farà parte di un progetto o di un’attività personale indipendente da un progetto.
 1. Se desideri allegare l’attività a un progetto principale, fai clic su **[!UICONTROL Nome del progetto]**, inizia a digitare il nome del progetto in cui desideri eseguire l’attività, quindi fai clic sul nome del progetto quando viene visualizzato nell’elenco seguente.
 1. Apporta una delle seguenti modifiche:
@@ -107,8 +105,6 @@ Prima di creare un [!DNL Workfront] in [!DNL G Suite], devi
    Nella parte inferiore del **[!UICONTROL Dettagli]** puoi anche fare clic su **[!UICONTROL Visualizza in[!DNL Workfront]]** per passare alla nuova attività in Workfront.
 
    Quando si aggiorna il browser, viene visualizzato un messaggio con un collegamento nella parte inferiore della sezione [!DNL Workfront for G Suite] Il pannello conferma che l’e-mail è stata convertita in un’attività :
-
-   ![](assets/email-was-converted.png)
 
    Puoi fare clic sul collegamento per passare alla visualizzazione Dettagli all&#39;interno della [!DNL Workfront for G Suite] per l’attività creata.
 
