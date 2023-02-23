@@ -7,7 +7,7 @@ description: Quando create una bacheca utilizzando schede ad hoc e collegate, po
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: abed861ff3902d1142fec4139a60cffe5f8fa1c0
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%
@@ -16,9 +16,7 @@ ht-degree: 0%
 
 # Panoramica degli strumenti di pianificazione di Agile
 
-{{highlighted-preview}}
-
-Quando create una bacheca utilizzando schede ad hoc e collegate, potreste voler sfruttare ulteriori strumenti di pianificazione agile, tra cui i limiti WIP delle colonne, il raggruppamento delle schede in corsie, una colonna di assunzione che può essere utilizzata per un backlog e <span class="preview">collezioni di bacheche</span>.
+Quando create una bacheca utilizzando schede ad hoc e collegate, potreste voler sfruttare ulteriori strumenti di pianificazione agile, tra cui i limiti WIP delle colonne, il raggruppamento delle schede in corsie, una colonna di assunzione che può essere utilizzata per un backlog e raccolte di bacheche.
 
 Puoi utilizzare uno o tutti questi strumenti in modo che funzionino per te e il tuo team, senza impegnarti in una metodologia agile specifica come Kanban o Scrum.
 

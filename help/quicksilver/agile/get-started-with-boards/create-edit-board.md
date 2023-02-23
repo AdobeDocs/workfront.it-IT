@@ -6,7 +6,7 @@ description: Da [!UICONTROL bacheche] Potete creare una nuova bacheca o modifica
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 67870f1bd9b1795b58ced827e888572aa407c28e
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 4%
@@ -15,11 +15,9 @@ ht-degree: 4%
 
 # Creare o modificare una bacheca
 
-{{highlighted-preview}}
-
 Da [!UICONTROL bacheche] Potete creare una nuova bacheca o modificarne una esistente.
 
-<span class="preview">Per aggiungere una bacheca a una raccolta, vedete [Gestire le raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Per aggiungere una bacheca a una raccolta, vedete [Gestire le raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisiti di accesso
 
@@ -45,15 +43,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Crea una nuova bacheca
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Per creare una bacheca autonoma, fate clic su **[!UICONTROL Crea nuovo]** in [!UICONTROL Schede] area. <span class="preview">Per aggiungere una bacheca a una raccolta, vedete [Gestire le raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+1. Per creare una bacheca autonoma, fate clic su **[!UICONTROL Crea nuovo]** in [!UICONTROL Schede] area. Per aggiungere una bacheca a una raccolta, vedete [Gestire le raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
    >[!NOTE]
    >
    > Le raccolte sono disponibili solo tramite l’opt-in della funzione iniziale per [!DNL Workfront] [!UICONTROL Schede].
 
-1. <span class="preview">Selezionate un modello per la bacheca.</span>
-
-   <div class="preview">
+1. Selezionate un modello per la bacheca.
 
    | Modello | Descrizione |
    |---------|----------|
@@ -64,8 +60,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >[!NOTE]
    >
    > I modelli per bacheca sono disponibili solo tramite la funzionalità opt-in iniziale per [!DNL Workfront] [!UICONTROL Schede].
-
-   </div>
 
 1. Digitate un nome per la bacheca nella **[!UICONTROL Scheda]** e premere Invio.
 1. Configura la bacheca in base alle esigenze.

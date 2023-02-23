@@ -6,7 +6,7 @@ description: La [!UICONTROL bacheche] Il dashboard mostra l'elenco delle bachech
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
@@ -15,15 +15,13 @@ ht-degree: 0%
 
 # Utilizzare il dashboard delle bacheche
 
-{{highlighted-preview}}
-
-Il dashboard delle bacheche mostra l&#39;elenco delle bacheche <span class="preview">e raccolte</span> alle quali potete accedere, comprese le bacheche che avete creato e le bacheche alle quali siete stati aggiunti. <span class="preview">Vengono visualizzate per prime le bacheche singole alle quali hai accesso e che non fanno parte di una raccolta.</span>
+Il dashboard delle bacheche mostra l&#39;elenco delle bacheche e delle raccolte a cui hai accesso, incluse le bacheche create e le bacheche a cui sei stato aggiunto. Vengono visualizzate per prime le bacheche singole alle quali hai accesso e che non fanno parte di una raccolta.
 
 >[!NOTE]
 >
 >Le raccolte sono disponibili solo tramite l’opt-in della funzione iniziale per [!DNL Workfront] [!UICONTROL Schede].
 
-Nel dashboard puoi effettuare le seguenti operazioni per le bacheche e <span class="preview">collezioni</span>:
+Nel dashboard puoi effettuare le seguenti operazioni per bacheche e raccolte:
 
 * Archiviare una bacheca (le raccolte non possono essere archiviate)
 * Filtrare l&#39;elenco delle bacheche
@@ -31,7 +29,7 @@ Nel dashboard puoi effettuare le seguenti operazioni per le bacheche e <span cla
 * Cercare una bacheca o una raccolta
 * Eliminare una bacheca o una raccolta
 
-Per informazioni sulla creazione di una nuova bacheca o sulla modifica di una bacheca esistente, vedete [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md). <span class="preview">Per informazioni sulla creazione di una nuova raccolta, vedi [Gestire le raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).</span>
+Per informazioni sulla creazione di una nuova bacheca o sulla modifica di una bacheca esistente, vedete [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md). Per informazioni sulla creazione di una nuova raccolta, vedi [Gestire le raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisiti di accesso
 
@@ -72,9 +70,9 @@ Potete filtrare il dashboard delle bacheche per visualizzare le bacheche attive,
 
    Quando sul dashboard viene applicato un ordinamento diverso da quello predefinito, sull&#39;icona di ordinamento viene visualizzato un indicatore ![Ordinamento applicato](assets/sort-applied-boards.png).
 
-## Cercare una bacheca <span class="preview">o una raccolta</span>
+## Cercare una bacheca o una raccolta
 
-<span class="preview">Potete cercare una bacheca specifica nell&#39;area Bacheche oppure cercare una raccolta specifica nell&#39;area Raccolte.</span>
+Potete cercare una bacheca specifica nell&#39;area Bacheche oppure cercare una raccolta specifica nell&#39;area Raccolte.
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
 1. Fai clic su [!UICONTROL **Ricerca**] e digitare un termine di ricerca. Quindi, premere Invio.
@@ -102,11 +100,11 @@ L&#39;archiviazione di una bacheca la invia all&#39;archivio ed è possibile rip
 
 1. Per ripristinare una bacheca archiviata, fate clic sul pulsante **[!UICONTROL Altro]** menu ![Icona menu Altro](assets/more-icon-spectrum.png) sulla bacheca e selezionare **[!UICONTROL Ripristina]**.
 
-## Eliminare una bacheca <span class="preview">o una raccolta</span>
+## Eliminare una bacheca o una raccolta
 
 Quando eliminate una bacheca, viene rimossa definitivamente da [!DNL Workfront] e non può essere ripristinato. Tutte le carte sulla bacheca vengono cancellate insieme alla bacheca.
 
-<span class="preview">L&#39;eliminazione di una raccolta elimina tutte le bacheche della raccolta.</span>
+L&#39;eliminazione di una raccolta elimina tutte le bacheche della raccolta.
 
 >[!NOTE]
 >
@@ -115,11 +113,9 @@ Quando eliminate una bacheca, viene rimossa definitivamente da [!DNL Workfront] 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
 1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla bacheca o sulla raccolta e selezionare **[!UICONTROL Elimina]**.
 
-   <span class="preview">In una raccolta, il menu si trova a destra, accanto al [!UICONTROL **Visualizza raccolta**] pulsante .</span>
+   In una raccolta, il menu si trova a destra, accanto al [!UICONTROL **Visualizza raccolta**] pulsante .
 
 1. Fai clic su **[!UICONTROL Elimina bacheca]** o [!UICONTROL **Elimina raccolta**] nel messaggio di conferma.
-
-<div class="preview">
 
 ## Spostare una bacheca in una raccolta
 
@@ -135,5 +131,3 @@ Potete spostare una bacheca autonoma in una raccolta o spostare una bacheca da u
 
    La bacheca viene spostata nella raccolta e non viene più visualizzata nella [!UICONTROL Schede] area.
 Se non avete ancora creato una raccolta, vi verrà richiesto di crearne una in cui spostare la bacheca.
-
-</div>

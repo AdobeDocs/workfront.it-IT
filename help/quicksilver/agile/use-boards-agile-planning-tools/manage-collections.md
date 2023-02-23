@@ -6,7 +6,7 @@ title: Gestire le raccolte
 description: Una raccolta è un gruppo configurabile di bacheche per collaborare sul lavoro.
 author: Lisa
 feature: Agile
-source-git-commit: 553e3dd6c903f0ba2f95019b2824cf944745bf09
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 4%
@@ -14,8 +14,6 @@ ht-degree: 4%
 ---
 
 # Gestire le raccolte
-
-{{highlighted-preview-article-level}}
 
 Una raccolta è un gruppo configurabile di bacheche per collaborare sul lavoro. Le raccolte possono includere diversi tipi di bacheche create dai modelli.
 

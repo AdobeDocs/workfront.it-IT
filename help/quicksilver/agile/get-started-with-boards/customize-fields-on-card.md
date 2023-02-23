@@ -5,9 +5,9 @@ title: Personalizzare i campi visualizzati su una scheda
 description: È possibile personalizzare i campi che vengono visualizzati su una scheda disattivando un campo in modo che non venga visualizzato nella vista a schede intere o a schede condensate oppure nascondendo un campo nella vista a schede condensate.
 author: Lisa
 feature: Agile
-source-git-commit: 5b7253fb0313e4ba1a2959497c0b3f92cff30e13
+source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Personalizzare i campi visualizzati su una scheda
 
-{{highlighted-preview-article-level}}
-
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in iniziale per [!DNL Workfront] [!UICONTROL Schede]. Per maggiori dettagli, vedi [Funzionalità opt-in in anteprima per le schede Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Per impostazione predefinita, tutti i campi disponibili vengono visualizzati su una scheda, sia nella vista completa all&#39;apertura della scheda, sia nella vista a schede condensate sulla bacheca. Puoi personalizzare i campi visualizzati:
 
@@ -62,7 +60,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic su [!UICONTROL **Configura**] sulla destra della bacheca per aprire il pannello Configura .
 1. Espandi [!UICONTROL **Schede**].
 
-   Tutti i campi sono abilitati per impostazione predefinita.
+   La maggior parte dei campi è abilitata per impostazione predefinita.
 
 1. Disattiva un campo per disattivarlo in entrambe le viste a schede.
 1. Fai clic sull’icona Nascondi ![Icona Nascondi](assets/eye-hide-icon.png) accanto a un campo per nasconderlo nella vista a condensa.
