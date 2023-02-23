@@ -6,16 +6,14 @@ description: Per impostazione predefinita, una nuova bacheca contiene tre colonn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 3032fe730d57418d0680f2423ebb389cbe8bae1e
+source-git-commit: ba6b5db8416e0e564b155dd040933b41fe87c286
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
 
 # Gestire le colonne della bacheca
-
-{{highlighted-preview}}
 
 Per impostazione predefinita, una nuova bacheca contiene tre colonne. È possibile aggiungere altre colonne, modificare l’ordine delle colonne, rinominare le colonne ed eliminare le colonne non necessarie.
 
@@ -121,13 +119,17 @@ Se si utilizza il limite WIP su una colonna, non viene aggiunto un contatore di 
       Vengono visualizzate anche le opzioni di traduzione dello stato per le schede collegate. (La traduzione dello stato non si applica alle schede ad hoc.) Queste opzioni determinano lo stato applicato all&#39;attività o al problema in [!DNL Workfront] quando una scheda connessa viene spostata in questa colonna.
 
    1. Per modificare le selezioni di conversione dello stato predefinite, fai clic sul pulsante **[!UICONTROL Modifica]** icona ![Icona Modifica](assets/edit-icon-spectrum.png).
-   1. <span class="preview">Nell’ambiente Anteprima: Seleziona una [!UICONTROL **Personalizzato**] status e [!UICONTROL **Sistema**] stato da applicare alla scheda, sia per le attività che per i problemi.</span>
+   1. Se utilizzi la funzionalità opt-in per le prime funzioni: Seleziona una [!UICONTROL **Personalizzato**] stato da applicare alla scheda, sia per le attività che per i problemi.
 
-      <span class="preview">Quando una scheda viene spostata in questa colonna, [!DNL Workfront] tenta innanzitutto di applicare lo stato personalizzato (ad esempio, Risolto). Se lo stato personalizzato non è disponibile per quella scheda, Workfront applicherà lo stato del sistema (ad esempio, Chiuso).</span>
+      Quando una scheda viene spostata in questa colonna, [!DNL Workfront] tenta innanzitutto di applicare lo stato personalizzato (ad esempio, Risolto). Se lo stato personalizzato non è disponibile per quella scheda, Workfront applicherà lo stato del sistema (ad esempio, Chiuso). Lo stato del sistema è lo stato selezionato al passaggio b precedente.
 
-      <span class="preview">Inoltre, se lo stato dell&#39;attività o del problema connesso viene modificato in stato personalizzato o di sistema impostato nel criterio a colonne, la scheda viene spostata automaticamente nella colonna.</span>
+      Inoltre, se lo stato dell&#39;attività o del problema connesso viene modificato in stato personalizzato o di sistema impostato nel criterio a colonne, la scheda viene spostata automaticamente nella colonna.
 
-   1. Nell’ambiente di produzione: Selezionare uno stato per le attività e uno stato per i problemi. Solo il valore predefinito [!DNL Workfront] gli stati sono disponibili, non quelli personalizzati.
+      >[!NOTE]
+      >
+      >L’impostazione di uno stato personalizzato predefinito per la colonna è disponibile solo tramite l’opzione di consenso anticipato della funzione. Per maggiori dettagli, vedi [Funzionalità opt-in in anteprima per le schede Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+
+   1. Se non utilizzi la funzionalità opt-in iniziale: Selezionare uno stato per le attività e uno stato per i problemi. Solo il valore predefinito [!DNL Workfront] gli stati sono disponibili, non quelli personalizzati.
 
       >[!NOTE]
       >
