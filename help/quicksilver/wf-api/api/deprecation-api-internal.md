@@ -6,7 +6,7 @@ description: Obsolescenza di API-Internal
 author: John
 feature: Workfront API
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
-source-git-commit: 606d19b8a83b833aba6d6b15231a8683aa2cee40
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -39,8 +39,8 @@ L’esempio seguente mostra l’URI che chiama API-Unsupported:
 https://<domainname>.my.workfront.com/attask/api/api-unsupported/proj/4c70...
 ```
 
-L’esempio seguente mostra un URI che chiama la versione 7.0 dell’API:
+L’esempio seguente mostra un URI che chiama la versione 15.0 dell’API:
 
 ```
-https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c70…
+https://<domainname>.my.workfront.com/attask/api/v15.0/proj/4c70…
 ```

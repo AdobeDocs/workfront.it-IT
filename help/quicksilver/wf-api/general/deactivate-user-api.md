@@ -7,7 +7,7 @@ description: Disattivazione di un utente tramite API
 author: John
 feature: Workfront API
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
-source-git-commit: 50675b7af3fcd2188a18391732a93a7b67454db9
+source-git-commit: c1cec2c08c66c704385cde1abd0c019fd59702da
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Per disattivare un utente tramite l’API:
 1. Genera una chiave API utilizzando la seguente richiesta API:
 
 ```
-<domain>.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
+<domain>.my.workfront.com/attask/api/v15.0/user?action=generateApiKey&username=`username`&password=`password`&method=PUT`
 ```
 
 1. Individuare il GUID dell&#39;utente da disattivare.
@@ -36,13 +36,13 @@ Per disattivare un utente tramite l’API:
    1. Utilizza la seguente richiesta API per recuperare il GUID per tutti gli utenti del sistema, tieni presente che **isActive** mostre dei campi **true** per gli utenti attualmente attivi e **false** per gli utenti disattivati:
 
 ```
-<domain>`.my.workfront.com/attask/api/v7.0/USER/search?fields=isActive
+<domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
 ```
 
 1. Individuare il GUID per l&#39;utente da disattivare, utilizzare quanto segue **PUT** richiesta di modifica del **isActive** valore campo a **false**:
 
 ```
-<domain>`.my.workfront.com/attask/api/v7.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
+<domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
 ```
 
 1. La risposta mostrerà che il **isActive** il valore del campo è stato modificato da **true** a **false** indica che l’utente è stato disattivato:
