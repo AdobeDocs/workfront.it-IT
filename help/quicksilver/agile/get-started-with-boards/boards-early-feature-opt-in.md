@@ -6,9 +6,9 @@ title: Accesso anticipato per [!DNL Adobe Workfront] Schede
 description: Leggi questo articolo per saperne di più [!DNL Workfront Boards] funzionalità opt-in iniziale.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: e28d3d70e05bc10497e54655499602fe48a392a3
+source-git-commit: 8837a3ffe8378cf126d0663ea70b7366a9e5b4c5
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,10 @@ La tabella seguente illustra le principali funzioni delle bacheche e il loro sta
   </tr>  
   <tr>
    <td>Definire uno stato predefinito per le schede spostate nelle colonne</td>
+   <td>Rilasciato parzialmente</td>
+  </tr>
+  <tr>
+   <td>Orari di accesso alle schede collegate</td>
    <td>Rilasciato parzialmente</td>
   </tr>
  </tbody> 

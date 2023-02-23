@@ -6,14 +6,16 @@ description: Potete aggiungere una scheda sulla bacheca connessa alle attività 
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: de7be49c7ee3fb58c332edd2f6367b31f2f79c17
+source-git-commit: 2a71ffd9180f2fe783675ae005165e1fd078178a
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 1%
+source-wordcount: '1227'
+ht-degree: 0%
 
 ---
 
 # Utilizzare schede collegate sulle bacheche
+
+{{highlighted-preview}}
 
 Potete aggiungere una scheda sulla bacheca connessa alle attività e ai problemi esistenti in [!DNL Workfront].
 
@@ -182,3 +184,27 @@ Dopo aver creato una scheda ad hoc, puoi convertirla in una scheda connessa. Per
    Il nome del progetto viene visualizzato nell&#39;area Connessione sui dettagli della scheda.
 
 1. Fai clic su **[!UICONTROL Chiudi]** per tornare al consiglio di amministrazione.
+
+<div class="preview">
+
+## Orari di registrazione su una scheda connessa
+
+>[!NOTE]
+>
+>Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+
+È necessario disporre delle autorizzazioni corrette per l&#39;accesso alle ore relative all&#39;attività o al problema connessi.
+
+Per impostazione predefinita, i campi di registrazione dell&#39;ora non vengono visualizzati sulle schede collegate. È necessario attivare [!UICONTROL **Ore**] in [!UICONTROL Configura] zona sotto [!UICONTROL Schede]. Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+1. Immettere il numero di ore per l&#39;attività o il problema.
+1. Seleziona un [!UICONTROL Tipo ora] dal menu a discesa, se è diverso da quello predefinito.
+1. Fai clic su [!UICONTROL **Tempo di log**].
+
+   ![Orari di accesso sulla scheda](assets/log-hours-on-card.png)
+
+   Il tempo di accesso alla scheda viene salvato anche sull&#39;attività o sul problema connessi.
+
+Il tempo di registrazione sulla scheda è lo stesso del tempo di registrazione su un&#39;attività o su un problema. Per ulteriori informazioni, consulta &quot;Tempo di log su un progetto, un’attività o un problema&quot; nell’articolo [Tempo di log](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+</div>
