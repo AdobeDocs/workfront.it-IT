@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 10c7e95f542cb3e05de62cff24f24439af140c0c
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -50,8 +50,8 @@ Per suggerimenti su come preparare la prossima versione, consulta [Preparazione 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Rinomina i pin nel modello di layout</span></a><span style="color: #ff0000;"> Novità in Anteprima!</span>
-                        <p>Ora è possibile rinominare i perni di un modello di layout in modo che siano più significativi per gli utenti, anziché utilizzare il nome predefinito per la pagina bloccata. I pin creati dagli amministratori vengono visualizzati per tutti gli utenti assegnati al modello di layout e gli utenti non possono rinominarli.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md" class="MCXref xref" xrefformat="{para}">Rinomina i pin nel modello di layout</span></a>
+                        </span></a><p>Ora è possibile rinominare i perni di un modello di layout in modo che siano più significativi per gli utenti, anziché utilizzare il nome predefinito per la pagina bloccata. I pin creati dagli amministratori vengono visualizzati per tutti gli utenti assegnati al modello di layout e gli utenti non possono rinominarli.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
                         <ul>
@@ -83,9 +83,26 @@ Per suggerimenti su come preparare la prossima versione, consulta [Preparazione 
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md" class="MCXref xref" xrefformat="{para}">Orari di accesso alle schede collegate su una bacheca</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <p>Ora è possibile accedere alle ore sulle schede collegate, nello stesso modo in cui si verifica un'attività o un problema. Per registrare l'ora è necessario disporre delle autorizzazioni corrette per l'attività o il problema.</p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 23 febbraio 2023<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versione di produzione per consenso anticipato: 2 marzo 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione a questa data solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
+                                <p>Versione di produzione per tutti i clienti: Con la versione 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Personalizzare la visualizzazione dei campi su una scheda</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Personalizzare la visualizzazione dei campi su una scheda</a></p>
                         <p>È ora disponibile la personalizzazione per configurare quali campi vengono visualizzati su una scheda, sia nella visualizzazione completa quando la scheda è aperta, sia nella vista a schede condensate sulla bacheca. Quando disattivi un campo non viene visualizzato in nessuna delle due viste. È inoltre possibile abilitare un campo nella visualizzazione completa e nasconderlo dalla vista a condensa.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -102,7 +119,7 @@ Per suggerimenti su come preparare la prossima versione, consulta [Preparazione 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Definire uno stato predefinito per le schede spostate in una colonna di una bacheca</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Definire uno stato predefinito per le schede spostate in una colonna di una bacheca</a></p>
                         <p>È ora possibile impostare uno stato predefinito da applicare alle schede spostate in una colonna specifica, selezionando uno stato personalizzato e uno stato di sistema nei criteri colonna. Quando sposti una scheda nella colonna, Workfront tenta innanzitutto di applicare lo stato personalizzato (ad esempio, In attesa di un feedback). Se lo stato personalizzato non è disponibile per quella scheda, Workfront applicherà lo stato del sistema (ad esempio, In attesa). Inoltre, se lo stato dell'attività o del problema connesso viene modificato in stato personalizzato o di sistema impostato nel criterio a colonne, la scheda viene spostata automaticamente nella colonna.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -119,7 +136,7 @@ Per suggerimenti su come preparare la prossima versione, consulta [Preparazione 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Raccolte ora disponibili nelle bacheche Adobe Workfront</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Raccolte ora disponibili nelle bacheche Adobe Workfront</a></p>
                         <p>Ora potete creare raccolte nel dashboard delle bacheche. Una collezione è un gruppo di bacheche per collaborare sul lavoro. Una volta denominata la raccolta, potete aggiungere bacheche alla raccolta utilizzando un set di modelli che offrono impostazioni predefinite, come i nomi delle colonne.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -190,7 +207,7 @@ Per suggerimenti su come preparare la prossima versione, consulta [Preparazione 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copia ore in budget durante la copia di un progetto</a><span style="color: #ff0000;"> Novità in Anteprima!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Copia ore in budget durante la copia di un progetto</a>
                         <p>Ora è possibile copiare le ore a budget nell'area Resource Budgeting del Business Case o del Resource Planner quando si copia un progetto. Prima di questo miglioramento, le ore in budget per il progetto non venivano trasferite al progetto copiato.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -225,7 +242,7 @@ Per suggerimenti su come preparare la prossima versione, consulta [Preparazione 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Introduzione del campo Ora di lavoro per calcolare con precisione la capacità dell’utente</a><span style="color: #ff0000;"> Novità in Anteprima!</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md" class="MCXref xref" xrefformat="{para}">Introduzione del campo Ora di lavoro per calcolare con precisione la capacità dell’utente</a>
                         <p>Per consentire ai responsabili delle risorse di calcolare con precisione la disponibilità dei propri utenti e account per il tempo che gli utenti dedicano al lavoro effettivo connesso al progetto, stiamo introducendo il concetto dell’orario di lavoro in Adobe Workfront.</p>
                         <p>Puoi definire il valore del campo Ora di lavoro per ogni utente quando crei o modifichi il suo profilo.</p>
                     </td>
@@ -328,6 +345,21 @@ Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versi
 
 Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione del prodotto Adobe Workfront. Per ulteriori informazioni, consulta la sezione [Pagina degli aggiornamenti della versione di formazione](https://one.workfront.com/s/training-release-updates).
 
+### Funzionalità presto rimossa da Workfront
+
+La seguente funzionalità verrà presto rimossa da Workfront:
+
+#### **Modifiche all’API predefinita di Workfront**
+
+Per garantire che le chiamate API possano sfruttare la funzionalità API di Workfront più aggiornata, stiamo aggiornando l’API predefinita. Quando una chiamata API non specifica una versione dell’API, la chiamata viene effettuata all’API predefinita.
+
+Ora, l’API predefinita riflette la versione più recente dell’API. In futuro, l’API predefinita verrà aggiornata ogni volta che viene rilasciata una nuova versione dell’API, in modo che le chiamate all’API predefinita utilizzino sempre la versione più recente dell’API.
+
+In precedenza, l’API predefinita utilizzava l’API Workfront versione 2.0, che era stata dichiarata obsoleta.
+
+Se l’organizzazione utilizza l’API predefinita obsoleta, l’amministratore di Workfront ha ricevuto un messaggio Centro annunci con ulteriori istruzioni relative all’API predefinita.
+
+Per ulteriori informazioni, consulta [Aggiornare le integrazioni che utilizzano il controllo delle versioni API predefinito](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--
@@ -347,7 +379,7 @@ Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi
                 </tr>
                 <tr>
                     <td>
-                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> Coming soon!</span></p>
+                        <a href="ADD LINK" class="MCXref xref" xrefformat="{para}">Title</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Body</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

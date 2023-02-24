@@ -4,7 +4,7 @@ description: Scopri gli aggiornamenti nel periodo di tempo di rilascio 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7de3ebef55a9d11c3a417872f2cfcd1f4ea03640
+source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 23.2, vedi [Pano
 
 >[!NOTE]
 >
->Anteprima versione: 9 febbraio 2023; Rilascio produzione pianificato: 23 febbraio 2023
+>Anteprima versione: 9 febbraio 2023; Rilascio produzione pianificato: 2 marzo 2023
 
 Ulteriori informazioni utente vengono visualizzate quando aggiungi utenti nelle seguenti aree:
 
