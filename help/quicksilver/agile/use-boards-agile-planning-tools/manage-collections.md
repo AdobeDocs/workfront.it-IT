@@ -6,14 +6,16 @@ title: Gestire le raccolte
 description: Una raccolta è un gruppo configurabile di bacheche per collaborare sul lavoro.
 author: Lisa
 feature: Agile
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '510'
 ht-degree: 4%
 
 ---
 
 # Gestire le raccolte
+
+{{highlighted-preview-article-level}}
 
 Una raccolta è un gruppo configurabile di bacheche per collaborare sul lavoro. Le raccolte possono includere diversi tipi di bacheche create dai modelli.
 
@@ -60,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 | Modello | Descrizione |
 |---------|----------|
-| Bacheca base | Sulla bacheca sono fornite tre colonne predefinite. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Sulla bacheca sono fornite tre colonne predefinite. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. |
+| Bacheca base | Sulla bacheca sono fornite tre colonne predefinite. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Non vengono applicati criteri di colonna. |
 | Bacheca Kanban | Nella bacheca sono disponibili le colonne seguenti: Backlog, Nuovo, In corso, Completo e Bloccato. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite.<p>Per utilizzare il backlog, è necessario impostare i filtri per la colonna di assunzione. Per informazioni, consulta [Aggiungere una colonna di assunzione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Per esaminare i criteri predefiniti per ciascuna colonna, fai clic sul pulsante [!UICONTROL **Altro** menu] su una colonna e seleziona [!UICONTROL **Modifica**]. È possibile modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Bacheca retrospettiva | Nella bacheca sono disponibili le colonne seguenti: Cos&#39;è andato bene? Cosa migliorare? Con chi congratularsi? Come velocizzare? È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Non vengono applicati criteri di colonna. |
 
