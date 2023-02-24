@@ -2,13 +2,13 @@
 product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: Creare, modificare e assegnare profili della scheda attività
-description: È possibile creare, modificare e assegnare profili della scheda attività che generano fogli presenze ricorrenti per gli utenti senza ulteriori interventi da parte dell'utente. Ciò ti consente di risparmiare tempo e assicura che i seguenti elementi siano coerenti tra gli utenti - EDIT ME.
+description: È possibile creare, modificare e assegnare profili della scheda attività che generano fogli presenze ricorrenti per gli utenti senza ulteriori interventi da parte dell'utente. In questo modo potrai risparmiare tempo e garantire la coerenza tra gli utenti.
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 7e2a4b02277e8b82ac6ee92a7994250fcdebb0b0
+source-git-commit: 43f1ad86784532ed3a5a3baa12d135ca35f16d21
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1505'
 ht-degree: 1%
 
 ---
@@ -101,10 +101,12 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se h
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Crea schede orario</strong> </td> 
-      <td> <p> <p>Specifica quando il profilo della scheda attività deve generare i fogli presenze. È possibile impostare una scheda attività per generare automaticamente su base settimanale, bisettimanale, semestrale o mensile. Selezionare il giorno della settimana in cui si desidera produrre la scheda attività.</p> <p><b>NOTA</b>
+      <td> <p> <p>Specifica quando il profilo della scheda attività deve generare i fogli presenze. È possibile impostare una scheda attività per generare automaticamente su base settimanale, bisettimanale, semestrale o mensile. Selezionare il giorno della settimana in cui si desidera produrre la scheda attività.</p>
+      <p>La scheda attività settimanale inizia alla data di generazione. Ad esempio, se si creano fogli presenze settimanali ogni giovedì, il primo giorno della settimana sulla scheda attività è giovedì.</p>
+      <p><b>NOTA</b></p>
 
-   Se si configura un profilo della scheda attività per creare fogli presenze il venerdì, gli utenti non possono registrare le ore del venerdì, del sabato e della domenica per la settimana corrente.</p> <p>Workfront crea sempre due fogli presenze alla volta: la prima scheda attività include sempre la data corrente e la seconda scheda attività inizia quando termina l&#39;intervallo di tempo del primo.</p> </p> </td>
-   </tr> 
+   <p>Workfront crea sempre due fogli presenze alla volta: la prima scheda attività include sempre la data corrente e la seconda scheda attività inizia quando termina l'intervallo di tempo del primo.</p> </p> </td> 
+    </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Approvatori</strong></p> </td> 
       <td> <p> <p>Gli approvatori sono utenti che approvano la scheda attività per gli utenti associati alla scheda attività. È possibile identificare fino a 7 utenti come approvatori in una scheda attività. Identificare più utenti è utile per garantire che un approvatore sia disponibile quando qualcuno è fuori ufficio. Tutti gli approvatori vengono avvisati quando un utente invia la scheda attività per l'approvazione. Per approvare la scheda attività è necessario un solo utente.</p> <p>È possibile impostare come approvatori solo gli utenti con diritti di amministrazione della scheda attività. Per ulteriori informazioni sui diritti amministrativi della scheda attività, vedere <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Consentire agli utenti l'accesso amministrativo a determinate aree</a>.</p> <p>Utilizzare il menu a discesa per selezionare l'approvatore per la scheda attività (se è richiesto un approvatore). Puoi scegliere tra le seguenti opzioni:</p> 
