@@ -6,24 +6,22 @@ title: Gestire le raccolte
 description: Una raccolta è un gruppo configurabile di bacheche per collaborare sul lavoro.
 author: Lisa
 feature: Agile
-source-git-commit: d14713f75857d00376f576e4b70f036c9b43e503
+source-git-commit: 5202756d21224d6a704750eec00fcfa24241fb6b
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '520'
 ht-degree: 4%
 
 ---
 
 # Gestire le raccolte
 
-{{highlighted-preview-article-level}}
+>[!NOTE]
+>
+>Le raccolte sono disponibili solo tramite l’opt-in della funzione iniziale per [!UICONTROL [!DNL Workfront] Schede]. Per maggiori dettagli, vedi [Funzionalità opt-in in anteprima per le schede Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Una raccolta è un gruppo configurabile di bacheche per collaborare sul lavoro. Le raccolte possono includere diversi tipi di bacheche create dai modelli.
 
 Le raccolte vengono visualizzate nel dashboard insieme alle singole bacheche a cui hai accesso che non fanno parte di una raccolta. Per informazioni sul dashboard delle bacheche, vedete [Utilizzare il dashboard delle bacheche](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Potete fare clic su un nome di bacheca nel dashboard per aprirlo.
-
->[!NOTE]
->
->Le raccolte sono disponibili solo tramite l’opt-in della funzione iniziale per [!UICONTROL [!DNL Workfront] Schede].
 
 ## Requisiti di accesso
 
