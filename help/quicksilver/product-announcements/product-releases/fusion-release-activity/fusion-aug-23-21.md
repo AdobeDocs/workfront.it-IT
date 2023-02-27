@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Fusion
 exl-id: 8630ef90-0b8c-4c68-938d-4875050f78fd
 hidefromtoc: true
-source-git-commit: 9c2321794c5ba773bfda1d6e9dfda6b8de1a1449
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusio
 
 Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
 
 ## Campi Typeahead ora disponibili nei moduli Workfront
 

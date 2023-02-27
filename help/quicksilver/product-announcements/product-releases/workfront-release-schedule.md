@@ -7,9 +7,9 @@ description: L’ambiente Anteprima viene aggiornato una volta alla settimana co
 author: Luke
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Di solito, le funzioni in Anteprima sono disponibili nell’ambiente Produzione 
 
 ### Aggiornamenti alla manutenzione
 
-Le correzioni dei problemi relativi al prodotto Adobe Workfront sono rese disponibili nell’ambiente di produzione ogni settimana. Consulta la sezione [Aggiornamenti alla manutenzione di Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) per vedere cosa è stato corretto di recente.
+Le correzioni dei problemi relativi al prodotto Adobe Workfront sono rese disponibili nell’ambiente di produzione ogni settimana. Consulta la sezione [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) per vedere cosa è stato corretto di recente.
 
 ## Funzioni rimosse da una versione trimestrale
 

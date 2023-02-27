@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 hidefromtoc: true
 exl-id: ed844acd-3f1c-466c-89ca-a644fa01c825
-source-git-commit: ffc7205eb995985127d89bdab1187e311490951e
+source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusio
 
 Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://one.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
 
 
 ## Il modulo &quot;Esegui un&#39;azione&quot; è ora disponibile per il connettore Anaplan in Workfront Fusion
