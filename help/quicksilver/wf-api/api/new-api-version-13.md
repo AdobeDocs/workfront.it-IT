@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Novità dell’API versione 13
 description: Adobe Workfront ha rilasciato l’API versione 13 il 22 aprile 2021. La versione 13 dell’API presenta le seguenti modifiche rispetto alla versione 12.
-author: John
+author: Becky
 feature: Workfront API
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%

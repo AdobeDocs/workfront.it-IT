@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Utilizzo del flusso PKCE per le applicazioni OAuth 2
 description: Utilizzo del flusso PKCE per le applicazioni OAuth 2
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 03df0ad329255e86780c03bbb4541e0a0a526381
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%
@@ -83,14 +83,18 @@ Il codice del generatore PKCE crea un output simile al seguente:
 >
 >**Esempio:**
 >
->```
+>
+```
 >{
 >
->  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
 >
->  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
+  "code\_verifier":"N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat",
 >
->}
+>
+  "code\_challenge":"wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
+>
+>
+}
 >```
 
 L&#39;app salva `code_verifier` e invia `code_challenge` insieme alla richiesta di autorizzazione al server di autorizzazione `/authorize` URL.
@@ -104,10 +108,12 @@ Se utilizzi il server di autorizzazione personalizzato predefinito, l’URL dell
 >**Esempio:**
 >
 >
->```
+>
+```
 >/authorize?client\_id=<clientID>&response\_type=code&redirect\_uri=<redirectURL>
 >
->&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
+>
+&code\_challenge\_method=S256&code\_challenge=wzgjYF9qEiWep-CwqgrTE78-2ghjwCtRO3vj23o4W\_fw"
 >```
 
 Nota i parametri che vengono passati:
@@ -133,16 +139,21 @@ Per scambiare il codice di autorizzazione per un token di accesso, trasmettilo a
 >
 >**Esempio:**
 >
->```
+>
+```
 >/token \\
 >
->  --header 'accept: application/json' \\
 >
->  --header 'cache-control: no-cache' \\
+  --header 'accept: application/json' \\
 >
->  --header 'content-type: application/x-www-form-urlencoded' \\
 >
->  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
+  --header 'cache-control: no-cache' \\
+>
+>
+  --header 'content-type: application/x-www-form-urlencoded' \\
+>
+>
+  --data 'grant\_type=authorization\_code&client\_id=<clientID>&redirect\_uri=<redirectURL>&code=<code>&code\_verifier=N28zVMsKU6ptUjHaYWg3T1NFTDQqcW1R4BU5NXywapNac4hhfkxjwfhZQat
 >```
 
 >[!IMPORTANT]
@@ -168,16 +179,21 @@ Se il codice è ancora valido e il verificatore di codice corrisponde, l&#39;app
 >
 >**Esempio:**
 >
->```
+>
+```
 >{
 >
->    "access\_token": "eyJhd\[...\]Yozv",
 >
->    "expires\_in": 3600,
+    "access\_token": "eyJhd\[...\]Yozv",
 >
->    "token\_type": "Bearer"
 >
->}
+    "expires\_in": 3600,
+>
+>
+    "token\_type": "Bearer"
+>
+>
+}
 >```
 
 ## Convalida il token di accesso
@@ -190,10 +206,12 @@ Puoi convalidare il token di accesso con una chiamata API simile alla seguente:
 >
 >**Esempio:**
 >
->```
+>
+```
 >/attask/api/<api version>/proj/search \\
 >
->  --header 'sessionID: <access\_token>' \\
+>
+  --header 'sessionID: <access\_token>' \\
 >```
 
 ## Richiedere un token di aggiornamento
@@ -204,14 +222,19 @@ Per richiedere un token di aggiornamento, puoi effettuare una chiamata POST all�
 >
 >**Esempio:**
 >
->```
+>
+```
 >/token \\
 >
->  --header 'accept: application/json' \\
 >
->  --header 'cache-control: no-cache' \\
+  --header 'accept: application/json' \\
 >
->  --header 'content-type: application/x-www-form-urlencoded' \\
 >
->  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
+  --header 'cache-control: no-cache' \\
+>
+>
+  --header 'content-type: application/x-www-form-urlencoded' \\
+>
+>
+  --data 'grant\_type=refresh\_token&client\_id=<clientID>&redirect\_uri=<redirectURL>&refresh\_token=<refresh\_token>
 >```

@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Novità dell’API versione 9
 description: Questo è un elenco delle risorse nuove dell’API versione 9. Per visualizzare un elenco degli aggiornamenti apportati alle risorse della versione 9, visita Aggiornamenti alla versione 9 dell’API
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 25%

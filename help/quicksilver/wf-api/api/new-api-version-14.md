@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Novità dell’API versione 14
 description: Adobe Workfront ha rilasciato l’API versione 14 il 9 settembre 2021. La versione 14 dell’API presenta le seguenti modifiche rispetto alla versione 14.
-author: John
+author: Becky
 feature: Workfront API
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 2%

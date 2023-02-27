@@ -3,10 +3,10 @@ content-type: api
 navigation-topic: api-navigation-topic
 title: Novità dell’API versione 9 (continua)
 description: Questa lista è la seconda metà di una lista più grande. La prima metà si trova in Novità dell’API Versione 9. L’elenco degli aggiornamenti alla versione 9 è disponibile in Aggiornamenti alla versione 9 dell’API.
-author: John
+author: Becky
 feature: Workfront API
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f050c8b95145552c9ed67b549608c16115000606
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 29%
