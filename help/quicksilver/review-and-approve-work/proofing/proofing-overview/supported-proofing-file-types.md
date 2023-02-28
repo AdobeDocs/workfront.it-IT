@@ -7,9 +7,9 @@ description: È possibile condividere e rivedere vari tipi di file con i revisor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: c3474fb14fbe008c64ab669882c6bc047be71916
+source-git-commit: fa0247796b2d0fc147a0b6a564a306c7e594c6fb
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -178,6 +178,7 @@ Workfront ha i seguenti limiti:
 * MPEG-2
 * H.263
 * H.264
+* H.265
 * Tutte le implementazioni MPEG-4 (Xvid, 3vix, ecc.)
 * AVI
 * Flash (VP6, Sorenson Spark/H.263+, H.264)
