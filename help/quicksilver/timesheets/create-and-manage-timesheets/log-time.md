@@ -6,7 +6,7 @@ description: È possibile registrare il tempo per gli elementi di lavoro in &nbs
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1817f3b1a5950823ff6ce600b1fef09ff4ca6767
+source-git-commit: f87f71be1b5f60b95859f3632bae4cf392cc5e84
 workflow-type: tm+mt
 source-wordcount: '2973'
 ht-degree: 0%
@@ -96,7 +96,7 @@ In Workfront è possibile registrare il tempo nelle seguenti aree:
 * [Home](#home)
 * [Progetto, attività o problema](#project-task-or-issue)
 * [Pannello Riepilogo](#summary-panel)
-* <span class="preview">[Bacheche](#boards)</span>
+* [Bacheche](#boards)
 * [App mobile](#mobile-app)
 
 ### Scheda orario {#timesheet}
