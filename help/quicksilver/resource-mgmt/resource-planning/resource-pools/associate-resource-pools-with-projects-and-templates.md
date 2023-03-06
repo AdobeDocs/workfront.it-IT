@@ -1,19 +1,19 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: Associare pool di risorse a progetti e modelli
-description: I pool di risorse sono raccolte di utenti che consentono di gestire le risorse in Adobe Workfront.
+title: Associare i pool di risorse a progetti e modelli
+description: I pool di risorse sono insiemi di utenti che consentono di gestire le risorse in Adobe Workfront.
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 6580fec18982215dbc2535d5f2ab159fc32ac3f5
+source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
 
 ---
 
-# Associare pool di risorse a progetti e modelli
+# Associare i pool di risorse a progetti e modelli
 
 
 <!-- drafted for bulk editing projects: make this live when we release edit projects in bulk and replace the screen shot below (marked) and make the shot in yellow showing adding resource pools to multiple projects:
@@ -28,26 +28,26 @@ ht-degree: 0%
 </div>
 -->
 
-I pool di risorse sono raccolte di utenti che consentono di gestire le risorse in Adobe Workfront.
+I pool di risorse sono insiemi di utenti che consentono di gestire le risorse in Adobe Workfront.
 
-Dopo aver creato i pool di risorse, è possibile associarli a progetti o modelli in modo da poter in un secondo momento eseguire il budget delle risorse sui progetti.
+Dopo aver creato i pool di risorse, è possibile associarli ai progetti o ai modelli in modo da poter successivamente preventivare le risorse sui progetti.
 
-È consigliabile creare in anticipo i pool di risorse, associarli ai progetti e assegnare un budget alle risorse prima dell’avvio del progetto.
+È consigliabile creare in anticipo i pool di risorse, associarli ai progetti e preventivare le risorse prima dell&#39;inizio del progetto.
 
-Per informazioni sui pool di risorse, consulta [Panoramica dei pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+Per informazioni sui pool di risorse, consulta [Panoramica sui pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
-Per informazioni sulla creazione di pool di risorse, consulta [Creare pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+Per informazioni sulla creazione di pool di risorse, consulta [Creare i pool di risorse](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Pro e superiore</p> </td> 
   </tr> 
   <tr> 
@@ -55,27 +55,27 @@ Devi disporre dei seguenti elementi:
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica l'accesso a Gestione risorse che include l'accesso a Gestione pool di risorse</p> <p>Accesso a progetti, modelli e utenti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Gestisci gruppi di risorse</p> <p>Modificare l’accesso a progetti, modelli e utenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Consente di gestire le autorizzazioni per i progetti, i modelli e gli utenti a cui si associano i pool di risorse</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per i progetti, i modelli e gli utenti a cui si associano i pool di risorse</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Associa pool di risorse a un progetto o a un modello
+## Associare i pool di risorse a un progetto o modello
 
 È possibile associare i pool di risorse a un modello nello stesso modo in cui si associano i pool di risorse a un progetto. Questo articolo descrive come associare i pool di risorse ai progetti.
 
-1. Passa a un progetto e fai clic sul pulsante **Altro** icona ![](assets/more-icon.png)accanto al nome del progetto, fai clic su **Modifica**.
+1. Vai a un progetto e fai clic su **Altro** icona ![](assets/more-icon.png)accanto al nome del progetto, quindi fai clic su **Modifica**.
 
-1. Fai clic su **Impostazioni progetto**.
+1. Clic **Impostazioni progetto**.
 
-1. Inizia a digitare il nome di un pool di risorse nel **Pool di risorse** , quindi selezionalo dall’elenco quando viene visualizzato.\
+1. Inizia a digitare il nome di un pool di risorse nel **Gruppi di risorse** nell&#39;elenco quando viene visualizzato.\
    È possibile associare più pool di risorse a un progetto o modello.
 
    ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
@@ -86,33 +86,33 @@ Per ulteriori informazioni su come modificare un progetto e associarlo ai pool d
 
 Per ulteriori informazioni su come modificare un modello e associarlo ai pool di risorse, consulta [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-## Associa pool di risorse a diversi progetti o modelli in blocco
+## Associare in blocco i pool di risorse a più progetti o modelli
 
-È possibile modificare più progetti o modelli in blocco e associare contemporaneamente gli stessi pool di risorse a tutti i progetti.
+È possibile modificare più progetti o modelli in blocco e associare gli stessi pool di risorse a tutti contemporaneamente.
 
 È possibile associare i pool di risorse ai modelli nello stesso modo in cui si associano i pool di risorse ai progetti.
 
-Per associare pool di risorse a diversi progetti in blocco:
+Per associare i pool di risorse a più progetti in blocco:
 
-1. Vai a un elenco di progetti.
-1. Seleziona più progetti, quindi fai clic sul pulsante **Modifica** icona ![](assets/edit-icon.png) in cima all&#39;elenco.
+1. Consente di passare a un elenco di progetti.
+1. Seleziona più progetti, quindi fai clic su **Modifica** icona ![](assets/edit-icon.png) nella parte superiore dell’elenco.
 
-1. Fai clic su **Impostazioni**.
-1. Inizia a digitare il nome di un pool di risorse nel **Pool di risorse** , quindi selezionalo dall’elenco quando viene visualizzato.\
-   È possibile associare più pool di risorse a progetti o modelli.
+1. Clic **Impostazioni**.
+1. Inizia a digitare il nome di un pool di risorse nel **Gruppi di risorse** nell&#39;elenco quando viene visualizzato.\
+   È possibile associare più pool di risorse ai progetti o ai modelli.
 
    >[!NOTE]
    >
-   >Quando modifichi progetti o modelli in blocco, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i progetti o modelli selezionati. Se i progetti selezionati non dispongono di pool di risorse condivise, questo campo sarà vuoto. I pool di risorse qui specificati sovrascriveranno i singoli pool di risorse dei progetti o modelli.
+   >Quando si modificano progetti o modelli in blocco, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i progetti o modelli selezionati. Se i progetti selezionati non hanno pool di risorse condivisi, questo campo sarà vuoto. I pool di risorse specificati in questo campo sovrascriveranno i singoli pool di risorse dei progetti o dei modelli.
 
-<!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
+   <!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
 
-![add_resource_pool_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
-1. Fai clic su **Salva modifiche**.\
-   Quando i pool di risorse sono associati ai progetti o ai modelli, è possibile allocare gli utenti a budget per i progetti all&#39;interno del Planner risorse.\
-   Per ulteriori informazioni sul planner risorse, vedere [Panoramica di Resource Planner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+1. Clic **Salva modifiche**.\
+   Quando i pool di risorse sono associati ai progetti o ai modelli, è possibile preventivare le allocazioni utente per i progetti all&#39;interno della Programmazione delle risorse.\
+   Per ulteriori informazioni sulla Programmazione delle risorse, consulta [Panoramica di Programmazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-Per ulteriori informazioni su come modificare progetti in blocco, consulta la sezione &quot;Modifica progetti in blocco&quot; in [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+Per ulteriori informazioni su come modificare i progetti in blocco, consulta la sezione &quot;Modifica progetti in blocco&quot; in [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-Per ulteriori informazioni su come modificare i modelli in blocco, consulta la sezione &quot;Modificare i modelli in blocco&quot; in [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Per ulteriori informazioni su come modificare i modelli in blocco, consulta la sezione &quot;Modifica modelli in blocco&quot; in [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
