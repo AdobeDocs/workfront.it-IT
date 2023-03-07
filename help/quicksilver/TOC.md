@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: e1df51f5f689d7ecc7db56d1d836d34dbe40d1e1
+source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
 workflow-type: tm+mt
-source-wordcount: '12597'
+source-wordcount: '12602'
 ht-degree: 1%
 
 ---
@@ -846,7 +846,7 @@ ht-degree: 1%
          * [Commento sulle bozze in iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [Adobe Workfront per la gestione dei dispositivi mobili (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [Configurare Adobe Workfront per MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [Assistente virtuale per app mobili Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
+         * [Assistente virtuale per app mobile di Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Approvazioni nell’app mobile Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * Utilizza la vista Adobe Workfront {#use-workfront-view}
          * [Utilizza la vista Adobe Workfront](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
@@ -884,6 +884,7 @@ ht-degree: 1%
       * [Configura Scrum](agile/get-started-with-agile-in-workfront/configure-scrum.md)
    * Introduzione alle bacheche in Adobe Workfront {#boards-in-workfront}
       * [Introduzione alle bacheche in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+      * [Dimostrazioni video delle bacheche Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Consenso anticipato alle funzioni delle bacheche](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Utilizzare il dashboard delle bacheche](agile/get-started-with-boards/use-boards-page.md)
       * [Creare o modificare una bacheca](agile/get-started-with-boards/create-edit-board.md)
