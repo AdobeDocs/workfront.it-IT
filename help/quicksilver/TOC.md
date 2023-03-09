@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: a0a5346ff017a32ebb678f90ce812a6969039a4b
+source-git-commit: 6bf7e4f58aa80271d7ec84576723cdbade55ce9b
 workflow-type: tm+mt
-source-wordcount: '12770'
+source-wordcount: '12759'
 ht-degree: 1%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 1%
       * [Prepararsi per una versione trimestrale di Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versione 23.2 {#release-23-2}
          * [Panoramica sulla versione 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
-         * [Attività di rilascio 23.2: settimana del 27 febbraio 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-27.md)
-         * [Attività di rilascio della versione 23.2: settimana del 20 febbraio 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-20.md)
-         * [Attività di rilascio 23.2: settimana del 13 febbraio 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-13.md)
-         * [Attività di rilascio 23.2: settimana del 6 febbraio 2023](product-announcements/product-releases/23.2-release-activity/23-2-feb-6.md)
-         * [Attività di rilascio 23.2: settimana del 23 gennaio 2023](product-announcements/product-releases/23.2-release-activity/23-1-jan-23.md)
+         * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
+         * [23.2 Miglioramenti di Agile](product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md)
+         * [23.2 Miglioramenti alla gestione dei progetti](product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md)
+         * [23.2 Miglioramenti alla gestione delle risorse](product-announcements/product-releases/23.2-release-activity/23-2-resource-management-enhancements.md)
+         * [23.2 Miglioramenti per dispositivi mobili](product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md)
+         * [23.2 Altri miglioramenti](product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md)
          * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.2](product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md)
       * Versione 23.1 {#release-23-1}
          * [Panoramica sulla versione 23.1](product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md)
@@ -866,7 +867,7 @@ ht-degree: 1%
          * [Commento sulle bozze in iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [Adobe Workfront per la gestione dei dispositivi mobili (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [Configurare Adobe Workfront per MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [Assistente virtuale per app mobile di Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
+         * [Assistente virtuale per app mobili Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Approvazioni nell’app mobile Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * Utilizza la vista Adobe Workfront {#use-workfront-view}
          * [Utilizza la vista Adobe Workfront](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
