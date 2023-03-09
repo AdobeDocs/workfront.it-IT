@@ -4,9 +4,9 @@ description: 23.2 Miglioramenti al progetto
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2cfcec04151329918c071b7ed7cb48519d553095
+source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Oltre all’aspetto aggiornato dell’interfaccia, nella casella Modifica proget
 * È stata rimossa la funzionalità di aggiunta di commenti dalla casella Modifica progetti.
 
 Per informazioni, consulta [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Esperienza di filtro migliorata generalmente disponibile in Adobe Workfront
 
