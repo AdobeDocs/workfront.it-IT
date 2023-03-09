@@ -1,19 +1,19 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront
+title: Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront
 description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzare in Obiettivi di Adobe Workfront.
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 2f10dbcfe35676ff6091ab72db0825557f21bcac
+source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
 
-# Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront
+# Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront
 
 Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzare in Obiettivi di Adobe Workfront.
 
@@ -78,20 +78,20 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Pro o superiore</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta o superiore</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td> 
+   <td> <p>Richiedi o superiore</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td> <p>Devi acquistare una licenza aggiuntiva per la funzionalità Obiettivi di Adobe Workfront per accedere alla descritta in questo articolo. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td> 
+   <td> <p>Per accedere alle funzionalità descritte in questo articolo, è necessario acquistare una licenza aggiuntiva per Adobe Workfront Goals. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso*</td> 
-   <td> <p>Visualizzare o accedere in modo più rapido agli obiettivi</p> <p><b>NOTA</b><p>Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta:</p> 
+   <td> <p>Visualizzare o accedere più facilmente agli obiettivi</p> <p><b>NOTA</b><p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Concedere l’accesso agli obiettivi di Adobe Workfront</a></span> </p> </li> 
@@ -102,21 +102,21 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
    <td> 
     <div> 
      <p>Visualizza o autorizzazioni superiori per gli obiettivi</p> 
-     <p>Per informazioni sulla condivisione degli obiettivi, vedi <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p> 
+     <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per sapere quale piano, tipo di licenza o accesso si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
 
 ## Prerequisiti
 
-È necessario disporre dei seguenti elementi prima di poter iniziare:
+Prima di iniziare, è necessario disporre dei seguenti elementi:
 
-* Modello di layout che include l’area Obiettivi del menu principale.
+* Modello di layout che include l&#39;area Obiettivi nel menu principale.
 
-## Individuare l’area Commenti
+## Individuare l&#39;area Commenti
 
 <!--
 Locating goal comments differs depending on what environment you use. 
@@ -188,28 +188,29 @@ You can edit or delete a comment that you entered in this area, or you can like 
 
 -->
 
->[!IMPORTANT]
->Il contenuto di questa pagina fa riferimento a funzionalità che fanno parte della nuova esperienza di creazione di commenti unificati, attualmente disponibile solo in Obiettivi di Adobe Workfront. Per ulteriori informazioni sull&#39;esperienza di creazione di commenti unificata, vedi [Esperienza di commento unificata](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
-
 Puoi aggiungere commenti agli obiettivi nella sezione Aggiornamenti della pagina di un obiettivo.
 
-È possibile rispondere a un commento aggiunto o come un commento aggiunto in questo campo.
+È possibile rispondere a o aggiungere un commento a quello aggiunto da altri utenti in quest&#39;area.
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) > **Obiettivi** nell&#39;angolo in alto a destra.
-Viene aperto l’elenco degli obiettivi.
-1. Individua l&#39;obiettivo a cui desideri aggiungere i commenti, quindi fai clic sul nome per aprire la pagina dell&#39;obiettivo.
-1. Fai clic su  **Aggiornamenti** nel pannello a sinistra.
-1. Fai clic sul pulsante **Commenti** nell’angolo in alto a sinistra dell’area Aggiornamenti.
-1. Inizia a inserire un commento in **Scrivere un commento** scatola.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) > **Obiettivi** nell’angolo superiore destro.
+Verrà aperto l&#39;elenco degli obiettivi.
+1. Individua l’obiettivo a cui desideri aggiungere commenti, quindi fai clic sul nome per aprire la pagina dell’obiettivo.
+1. Clic  **Aggiornamenti** nel pannello a sinistra.
+1. Fai clic su **Commenti** nell&#39;angolo superiore sinistro dell&#39;area Aggiornamenti.
+1. Inizia a immettere un commento in **Scrivi un commento** casella.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
-1. (Facoltativo) In **Notifica** area, inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
-1. Fai clic su **Invia**.
+   >[!TIP]
+   >
+   >Se si esce dalla sezione Aggiornamenti prima di completare la digitazione e l&#39;invio di un commento, il commento nella pagina rimane in modalità bozza anche dopo la disconnessione e la riconnessione. I commenti bozza sono visibili solo all&#39;utente che li inserisce.
+
+1. (Facoltativo) In **Notifica** , inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
+1. Clic **Invia**.
 1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi da 5 a 7 di cui sopra. <!--insure this stays accurate-->
-1. (Facoltativo) Fai clic sul pulsante **Simile** icona![](assets/like-icon.png) Mi piace un commento aggiunto da qualcun altro. L’icona si aggiorna con il numero di Mi piace.
-1. (Facoltativo) Per aggiungere formattazione RTF all’aggiornamento, utilizza tutti gli attributi nella barra degli strumenti RTF durante la digitazione. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Facoltativo) Fai clic sul pulsante **Attività di sistema** per visualizzare gli aggiornamenti registrati dal sistema. Quando un obiettivo viene aggiornato, Workfront genera una nota sull’aggiornamento e la visualizza nella scheda Attività di sistema. Workfront registra inoltre un aggiornamento del sistema quando un risultato, un’attività o un progetto viene aggiunto all’obiettivo o quando viene aggiornato. <!--ensure the casing on the tab has not changed-->
+1. (Facoltativo) Fai clic su **Mi piace** icona![](assets/like-icon.png) per apprezzare un commento aggiunto da un altro utente. L’icona si aggiorna con il numero di Mi piace.
+1. (Facoltativo) Per aggiungere la formattazione RTF all’aggiornamento, utilizza tutti gli attributi nella barra degli strumenti Testo RTF durante la digitazione. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facoltativo) Fai clic su **Attività di sistema** per visualizzare gli aggiornamenti registrati dal sistema Quando un obiettivo viene aggiornato, Workfront genera una nota sull’aggiornamento e lo visualizza nella scheda Attività del sistema. Workfront registra inoltre un aggiornamento del sistema quando un risultato, un’attività o un progetto viene aggiunto all’obiettivo o quando viene aggiornato. <!--ensure the casing on the tab has not changed-->
 
 <!--
 ## Add comments to goals in the Check-in section
