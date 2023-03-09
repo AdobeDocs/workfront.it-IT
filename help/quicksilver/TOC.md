@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 53781e0df0c748310d254ca149ec371757b90303
+source-git-commit: a8a3aec50b5538de5867ce3ba7723d92c046b50d
 workflow-type: tm+mt
-source-wordcount: '12602'
+source-wordcount: '12605'
 ht-degree: 1%
 
 ---
@@ -1582,6 +1582,7 @@ ht-degree: 1%
          * [Stampare un dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
          * [Condividere un dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [Rimuovere una pagina esterna da un dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+         * [Panoramica delle dashboard di Canvas](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
    * Funzionalità di analisi avanzate {#enhanced-analytics}
       * [Funzionalità di analisi avanzate](enhanced-analytics/enhanced-analytics.md)
       * [Panoramica di analisi avanzate](enhanced-analytics/enhanced-analytics-overview.md)
