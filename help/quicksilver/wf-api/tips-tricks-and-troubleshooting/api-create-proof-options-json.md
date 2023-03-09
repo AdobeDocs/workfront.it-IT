@@ -1,66 +1,66 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Aggiungere opzioni di correzione avanzate con l’API di Adobe Workfront
-description: Aggiungere opzioni di correzione avanzate con l’API di Adobe Workfront
+title: Aggiungere opzioni di verifica avanzate con l’API di Adobe Workfront
+description: Aggiungere opzioni di verifica avanzate con l’API di Adobe Workfront
 author: Becky
 feature: Workfront API, Workfront Proof
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: e2a334ad16fc16b49d8e8b8186fa89fc0e09d998
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
 
 
-# Aggiungi opzioni di correzione avanzate durante la creazione di una bozza tramite l’API di Adobe Workfront
+# Aggiungere opzioni di verifica avanzate durante la creazione di una bozza tramite l’API Adobe Workfront
 
-Quando crei una bozza nell’API di Workfront, puoi aggiungere opzioni di correzione avanzate.
+Durante la creazione di una bozza nell’API di Workfront, puoi aggiungere opzioni di bozza avanzate.
 
 Utilizza uno dei seguenti flussi di lavoro per aggiungere opzioni di correzione a una bozza utilizzando l’API:
 
-* (Consigliato) Crea una bozza semplice utilizzando l’API Workfront, quindi aggiungi opzioni di correzione avanzate alla bozza utilizzando l’API ProofHQ
+* (Consigliato) Crea una bozza semplice utilizzando l’API Workfront, quindi aggiungi opzioni di bozza avanzate alla bozza utilizzando l’API ProofHQ
 
-* Creare una bozza con opzioni di correzione avanzate utilizzando JSON nell’API Workfront
+* Creare una bozza con opzioni di verifica avanzate utilizzando JSON nell’API di Workfront
 
-## Crea una bozza utilizzando le API Workfront e ProofHQ (consigliato) {#create-a-proof-using-the-workfront-and-proofhq-apis-recommended}
+## Creare una bozza utilizzando le API Workfront e ProofHQ (consigliato) {#create-a-proof-using-the-workfront-and-proofhq-apis-recommended}
 
-Questa sezione descrive come creare una bozza con opzioni di correzione avanzate tramite l’API Workfront, utilizzando una combinazione di API Workfront e ProofHQ.
+Questa sezione descrive come creare una bozza con opzioni di verifica avanzate tramite l’API Workfront, utilizzando una combinazione di API Workfront e ProofHQ.
 
-L’API ProofHQ include una varietà di azioni non disponibili per le bozze nell’API Workfront. Utilizzando queste azioni, puoi modificare o configurare la bozza con una precisione maggiore di quella disponibile nell’API Workfront.
+L’API ProofHQ include diverse azioni non disponibili per le bozze nell’API Workfront. Utilizzando queste azioni, puoi modificare o configurare la bozza con maggiore precisione di quanto non sia disponibile nell’API di Workfront.
 
-Per una panoramica dell’API ProofHQ, consulta la sezione [Panoramica di PoofHQ](../../proofhq-api/general/overview.md). Puoi inoltre fare riferimento alla sezione [Documentazione di ProofHQ](https://api.proofhq.com/home.html).
+Per una panoramica dell’API ProofHQ, vedi [Panoramica di PoofHQ](../../proofhq-api/general/overview.md). È inoltre possibile fare riferimento al [Documentazione di ProofHQ](https://api.proofhq.com/home.html).
 
 >[!NOTE]
 >
 >* L’API Workfront è un’API REST-ful. L’API ProofHQ è un’API SOAP.
->* Le bozze create nell’API ProofHQ non vengono collegate automaticamente a Workfront. Pertanto, consigliamo di creare bozze nell’API di Workfront prima di aggiornarle con l’API ProofHQ.
+>* Le bozze create nell’API ProofHQ non vengono collegate automaticamente a Workfront. Pertanto, consigliamo di creare bozze nell’API Workfront prima di aggiornarle con l’API ProofHQ.
 >
 
 
-### Creare una bozza con opzioni di correzione avanzate
+### Creare una bozza con opzioni di verifica avanzate
 
-1. Crea una bozza utilizzando `Document createProof` nell’API di Workfront.
+1. Creare una bozza utilizzando `Document createProof` nell’API di Workfront.
 
    >[!NOTE]
-   Durante la creazione della bozza, non includere un valore per il parametro advancedProofingOptions .
+   Durante la creazione della bozza, imposta `{}` come valore per `advancedProofingOptions` parametro.
 
-1. Dopo aver creato la bozza, utilizza l’API ProofHQ per aggiungere eventuali opzioni avanzate.
+1. Dopo aver creato la bozza, utilizza l’API ProofHQ per aggiungere opzioni avanzate.
 
 ### Esempi
 
-Questa sezione mostra alcuni aggiornamenti di esempio che puoi eseguire con l’API ProofHQ.
+Questa sezione mostra alcuni aggiornamenti che è possibile apportare con l’API ProofHQ.
 
 **Esempi:**
 
-* [Una bozza può essere scaricata, ha un messaggio e viene condivisa pubblicamente](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
+* [È possibile scaricare una bozza, averne un messaggio e condividerla pubblicamente](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
 * [Aggiornare una fase in modo che non sia privata, non obbligatoria e richieda una sola approvazione](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
-* [Aggiungi due destinatari a una bozza senza processo decisionale principale](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
+* [Aggiungere due destinatari a una bozza senza decision maker primario](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-**Una bozza può essere scaricata, ha un messaggio e viene condivisa pubblicamente**
+**È possibile scaricare una bozza, averne un messaggio e condividerla pubblicamente**
 
-La documentazione per questo endpoint si trova nella sezione [Aggiornamento API ProofHQ](https://api.proofhq.com/home/proofs/updateproof.html) pagina.
+La documentazione relativa a questo endpoint è disponibile sul sito [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) pagina.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -84,7 +84,7 @@ La documentazione per questo endpoint si trova nella sezione [Aggiornamento API 
 
 **Aggiornare una fase in modo che non sia privata, non obbligatoria e richieda una sola approvazione**
 
-La documentazione per questo endpoint si trova nella sezione [Aggiornamento API ProofHQworkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) pagina.
+La documentazione relativa a questo endpoint è disponibile sul sito [Aggiornamento API ProofHQWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) pagina.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -107,9 +107,9 @@ La documentazione per questo endpoint si trova nella sezione [Aggiornamento API 
 </soapenv:Envelope>
 ```
 
-**Aggiungi due destinatari a una bozza senza processo decisionale principale**
+**Aggiungere due destinatari a una bozza senza decision maker primario**
 
-La documentazione per questo endpoint si trova nella sezione [API ProofHQ addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) pagina.
+La documentazione relativa a questo endpoint è disponibile sul sito [AddWorkflowProofReviewers API ProofHQ](https://api.proofhq.com/addworkflowproofreviewers.html) pagina.
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -142,21 +142,21 @@ La documentazione per questo endpoint si trova nella sezione [API ProofHQ addWor
 </soapenv:Envelope>
 ```
 
-## Creare una bozza utilizzando JSON nell’API Workfront
+## Creare una bozza utilizzando JSON nell’API di Workfront
 
-Questa sezione descrive come creare una bozza con opzioni di correzione avanzate tramite l’API Workfront, utilizzando JSON come valore di parametro nell’API Workfront
+Questa sezione descrive come creare una bozza con opzioni di verifica avanzate tramite l’API Workfront, utilizzando JSON come valore di parametro nell’API Workfront
 
-### Creare una bozza con opzioni di correzione avanzate
+### Creare una bozza con opzioni di verifica avanzate
 
-Puoi creare bozze tramite l’API di Workfront utilizzando l’ `Document createProof` azione. Questa azione accetta `advancedProofingOptions` , che ha il tipo di valore di `string`. Per includere opzioni di correzione avanzate nel `createProof` è necessario inserire le opzioni nella `advancedProofingOptions` in formato JSON.
+Puoi creare bozze tramite l’API Workfront utilizzando `Document createProof` azione. Questa azione accetta `advancedProofingOptions` parametro, che ha il tipo di valore `string`. Per includere opzioni di verifica avanzate nel `createProof` , è necessario immettere le opzioni nella `advancedProofingOptions` parametro in formato JSON.
 
 >[!NOTE]
-Può essere difficile prevedere i campi da includere nel JSON advancedProofingOptions. Potrebbe essere utile esaminare i dati di rete della tua organizzazione durante l’utilizzo della correzione avanzata in Workfront e basare il tuo JSON sui campi e i valori comunemente utilizzati dalla tua organizzazione.
-Poiché questi campi possono essere difficili da prevedere, è consigliabile creare una bozza utilizzando l’API Workfront e aggiornarla utilizzando l’API ProofHQ. Per ulteriori informazioni, consulta [Crea una bozza utilizzando le API Workfront e ProofHQ (consigliato)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) nel presente articolo
+Può essere difficile prevedere i campi da includere nel JSON advancedProofingOptions. Puoi esaminare i dati di rete della tua organizzazione durante l’utilizzo della verifica avanzata in Workfront e basare il tuo JSON sui campi e i valori comunemente utilizzati dalla tua organizzazione.
+Poiché questi campi possono essere difficili da prevedere, si consiglia di creare una bozza utilizzando l’API Workfront e quindi di aggiornarla utilizzando l’API ProofHQ. Per ulteriori informazioni, consulta [Creare una bozza utilizzando le API Workfront e ProofHQ (consigliato)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) in questo articolo
 
 ### Esempio
 
-Questo esempio mostra i campi e la formattazione utilizzabili per la creazione di JSON per `advancedProofingOptions` parametro . Le `advancedProofingOptions` Il file JSON può avere più o meno campi rispetto a quanto mostrato qui.
+Questo esempio mostra i campi e la formattazione che è possibile utilizzare durante la creazione del codice JSON per `advancedProofingOptions` parametro. Il tuo `advancedProofingOptions` Il file JSON può avere un numero di campi maggiore o minore di quello mostrato qui.
 
 **Esempio:**
 
