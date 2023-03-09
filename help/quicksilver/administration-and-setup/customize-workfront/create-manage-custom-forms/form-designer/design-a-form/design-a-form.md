@@ -7,9 +7,9 @@ description: È possibile progettare un modulo personalizzato con il progettista
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f416fc6a021a63e3a0cbd905de8e5892455f21a9
+source-git-commit: b56cf20e054b2658ade8aef6c179128e001603c2
 workflow-type: tm+mt
-source-wordcount: '3618'
+source-wordcount: '3803'
 ht-degree: 4%
 
 ---
@@ -124,7 +124,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >[!NOTE]
    >
    >I campi di testo con formattazione non sono disponibili per le app Workfront per dispositivi mobili (disponibili nelle prossime versioni).
+
 * **Testo descrittivo**: ti consente di includere istruzioni e collegamenti a pagine esterne a Workfront.
+
 +++
 
 Per aggiungere un campo di testo:
@@ -134,7 +136,7 @@ Per aggiungere un campo di testo:
    * Testo su riga singola:
    * Testo paragrafo
    * Campo di testo con formattazione
-   * Testi descrittivi
+   * Testo descrittivo
 
    ![](assets/drag-field-to-section.png)
 
@@ -145,6 +147,17 @@ Per aggiungere un campo di testo:
     <td>Input in</td>
     <td>Descrizione</td>
     <td>Disponibile per </td>
+    </tr>
+    <tr>
+    <td>Dimensione</td>
+    <td><p>Modificare le dimensioni dei campi di testo nel modulo.<p>
+   </td>
+    <td><ul>
+    <li>Testo su riga singola</li>
+    <li>Testo paragrafo</li>
+    <li>Testo con formattazione</li>
+    <li>Testo descrittivo in arrivo</li>
+    </ul></td>
     </tr>
     <tr>
     <td>Etichetta</td>
@@ -209,6 +222,14 @@ Per aggiungere un campo di testo:
     <td><ul><li>Testo descrittivo</li></ul></td>
     </tr>
    </table>
+
+1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi o widget.
+
+   oppure
+
+   Per copiare un campo, posiziona il cursore del mouse su un campo e fai clic sull’icona Copia.
+
+   ![icona copia](assets/copy-field.png)
 
 1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
 
@@ -346,6 +367,20 @@ Per aggiungere pulsanti di scelta e caselle di controllo:
     </tbody> 
     </table>
 
+1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi o widget.
+
+   oppure
+
+   Per copiare un campo, posiziona il cursore del mouse su un campo e fai clic sull’icona Copia.
+
+   ![icona copia](assets/copy-field.png)
+
+1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+
+   oppure
+
+   Clic **Salva e chiudi**.
+
 ### Aggiungere campi di tipo typeahead e date
 
 È possibile aggiungere campi di tipo typeahead e date a un modulo personalizzato.
@@ -445,6 +480,14 @@ Per aggiungere campi data di completamento automatico:
     </tbody> 
    </table>
 
+1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi o widget.
+
+   oppure
+
+   Per copiare un campo, posiziona il cursore del mouse su un campo e fai clic sull’icona Copia.
+
+   ![icona copia](assets/copy-field.png)
+
 1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
@@ -520,6 +563,14 @@ Per aggiungere immagini, PDF o video:
     </tbody> 
    </table>
 
+1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi o widget.
+
+   oppure
+
+   Per copiare un campo, posiziona il cursore del mouse su un campo e fai clic sull’icona Copia.
+
+   ![icona copia](assets/copy-field.png)
+
 1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
@@ -588,6 +639,14 @@ Per aggiungere un file Adobe XD:
      </tr> 
     </tbody> 
    </table>
+
+1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi o widget.
+
+   oppure
+
+   Per copiare un campo, posiziona il cursore del mouse su un campo e fai clic sull’icona Copia.
+
+   ![icona copia](assets/copy-field.png)
 
 1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
 
