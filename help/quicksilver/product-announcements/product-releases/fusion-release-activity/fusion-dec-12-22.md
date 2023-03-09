@@ -4,7 +4,7 @@ description: Attività di rilascio di Workfront Fusion alla settimana del 12 dic
 author: Becky
 feature: Product Announcements, Workfront Fusion
 hidefromtoc: true
-source-git-commit: 5293ea1b83334567da5dfdd85221faec3deeb64b
+source-git-commit: 71b60c467b564ab84d8d26228dbfc188fb156907
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Attività di rilascio di Workfront Fusion: settimana del 12 dicembre 2022
 
-Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 14 febbraio 2022.
+Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 12 dicembre 2022.
 
 Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
