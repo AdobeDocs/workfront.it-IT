@@ -6,7 +6,7 @@ description: In Adobe Workfront puoi modificare un progetto con la frequenza nec
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: a533beb1a28bedb8f7f05e8f0321b275d080eefb
+source-git-commit: 5eddd7765dfafed24b67b58aaf6f6f0e8a4a96ee
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -884,3 +884,4 @@ Per ulteriori informazioni sulla modifica dell&#39;area di accesso, vedere la se
 1. Fai clic su **Salva**.
 
 </div>
+

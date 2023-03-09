@@ -6,17 +6,16 @@ description: È possibile aggiornare l'ordine di visualizzazione dei moduli pers
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
 
 # Gestire i moduli personalizzati allegati agli oggetti
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  -->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.</span>
 
 È possibile aggiornare l&#39;ordine di visualizzazione dei moduli personalizzati allegati a un oggetto, rimuoverli o modificare in blocco la modalità di visualizzazione dei moduli personalizzati su più oggetti.
 
@@ -98,13 +97,11 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 ## Gestire più moduli personalizzati durante la modifica in blocco di oggetti
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
 
 >[!NOTE]
 >
-><span class="preview">For information about managing custom forms on projects in bulk in the Preview environment, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
-
--->
+><span class="preview">Per informazioni sulla gestione di moduli personalizzati per progetti in blocco nell’ambiente di anteprima, consulta l’articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
 
 Quando si modificano in blocco oggetti a cui sono applicati più moduli personalizzati, è possibile modificare la modalità di visualizzazione dei moduli personalizzati su tali oggetti e i campi comuni tra i moduli personalizzati.
 

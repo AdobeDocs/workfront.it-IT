@@ -6,9 +6,9 @@ description: I pool di risorse sono insiemi di utenti che consentono di gestire 
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 78de23b4d5814e5e2ead6bb61a80bba7bd2aed33
+source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,13 @@ ht-degree: 0%
 # Associare i pool di risorse a progetti e modelli
 
 
-<!-- drafted for bulk editing projects: make this live when we release edit projects in bulk and replace the screen shot below (marked) and make the shot in yellow showing adding resource pools to multiple projects:
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
+<!-- drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
 
+Also - take out all the references to Preview and Prod at prod final
 -->
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.</span>
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -103,11 +106,12 @@ Per associare i pool di risorse a più progetti in blocco:
 
    >[!NOTE]
    >
-   >Quando si modificano progetti o modelli in blocco, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i progetti o modelli selezionati. Se i progetti selezionati non hanno pool di risorse condivisi, questo campo sarà vuoto. I pool di risorse specificati in questo campo sovrascriveranno i singoli pool di risorse dei progetti o dei modelli.
+   >* Nell’ambiente di produzione, quando si modificano progetti o modelli in blocco, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i progetti o modelli selezionati. Se i progetti selezionati non hanno pool di risorse condivisi, questo campo sarà vuoto. I pool di risorse specificati in questo campo sovrascriveranno i singoli pool di risorse dei progetti o dei modelli.
+   >
+   >* <span class="preview">Nell’ambiente di anteprima, quando si modificano i progetti in blocco, viene visualizzato un indicatore &quot;Più valori&quot; se i progetti selezionati hanno pool di risorse diversi. Se si aggiungono in blocco gruppi di risorse, tutti i gruppi verranno aggiunti al progetto selezionato, sovrascrivendo i gruppi di risorse originali.</span>
 
-   <!--drafted note for bulk editing projects - update the screen shot below for Edit Projects with the new UI in bulk and add the preview tags to the picture for Preview-->
 
-   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
+   <span class="preview">![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
 
 1. Clic **Salva modifiche**.\
    Quando i pool di risorse sono associati ai progetti o ai modelli, è possibile preventivare le allocazioni utente per i progetti all&#39;interno della Programmazione delle risorse.\
