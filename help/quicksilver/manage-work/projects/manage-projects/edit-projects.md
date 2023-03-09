@@ -6,7 +6,7 @@ description: In Adobe Workfront puoi modificare un progetto con la frequenza nec
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: baaaec2087c692ced0d60c9e4ceb86ee94c1d659
 workflow-type: tm+mt
 source-wordcount: '7664'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 <!--
 <p>***Linked to many articles,</p>
-<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article -</p>
+<p>The Resource Pools part also duplicates in the "Working with Resource Pools" article </p>
 <p>The Update Type section is also documented in Selecting the Project Update Type article</p>
 <p>Keep the reference link to the other article that also documents the Update Type) </p>
 <p>(NOTE 2: information described here also exists in these articles:</p>
@@ -110,7 +110,7 @@ Quando modifichi i progetti, tieni presente quanto segue:
 
 ## Modificare un progetto
 
-La modifica di un progetto consente di modificare le informazioni e le impostazioni del progetto, nonché le attività e i problemi relativi.
+Modificando un progetto è possibile modificare le informazioni e le impostazioni del progetto, nonché le attività e i problemi relativi al progetto.
 
 Alcune impostazioni menzionate in questo articolo potrebbero essere modificate dal loro stato predefinito in base allo stato nel modello da cui è stato creato il progetto. Per informazioni sulla modifica dei modelli, consulta [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
