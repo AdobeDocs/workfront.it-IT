@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 51ea73c473105f1be1eaa6791ba5b09546fe9922
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '2306'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti, ad Adobe Summit
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Creare moduli personalizzati con il nuovo progettista di moduli</a><span style="color: #ff0000;"> Novità in anteprima.</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Creare moduli personalizzati con la nuova versione beta di Progettazione moduli</a><span style="color: #ff0000;"> Novità in anteprima.</span>
                         <p>Il nuovo progettista di moduli dispone di una nuova area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l'area di lavoro e le impostazioni dei campi.</p>
                         <p>Con il nuovo form designer è stata aggiunta la possibilità di 
                         <ul>

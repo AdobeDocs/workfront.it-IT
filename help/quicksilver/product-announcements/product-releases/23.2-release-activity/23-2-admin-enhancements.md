@@ -4,9 +4,9 @@ description: 23.2 Miglioramenti per gli amministratori
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: ac9155223c22f9872e300111d003fff51bbb4d49
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Questa pagina descrive tutti i miglioramenti per gli amministratori apportati co
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.2, consulta [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Creare moduli personalizzati con il nuovo progettista di moduli
+## Creare moduli personalizzati con la nuova versione beta di Progettazione moduli
 
-Il nuovo progettista di moduli dispone di una nuova area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi.
+Ora disponibile in una versione beta pubblica, il nuovo progettista di moduli dispone di una nuova area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi.
 
 Con il nuovo form designer è stata aggiunta la possibilità di
 
