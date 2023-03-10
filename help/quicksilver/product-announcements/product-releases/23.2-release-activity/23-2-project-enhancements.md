@@ -4,9 +4,9 @@ description: 23.2 Miglioramenti al progetto
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a533ac04ce35625ed3e6ae5fc7be5148b497cc2
+source-git-commit: c4cb27085ddc3bea86081ddd14a88640d0ed5f90
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Oltre all’aspetto aggiornato dell’interfaccia, nella casella Modifica proget
 * Indicare quali moduli personalizzati sono già allegati ai progetti selezionati e il numero di progetti a cui è già allegato un determinato modulo.
 
 * È stata rimossa la funzionalità di aggiunta di commenti dalla casella Modifica progetti.
+
+* È stata eliminata l’opzione Ricalcola scorecard durante la modifica in blocco di progetti.
 
 Per informazioni, consulta [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
