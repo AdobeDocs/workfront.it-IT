@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 15aa025c9a35e30867f942047ec1989fdd6834e5
+source-git-commit: 1290b29ce816673ffc678a1991aea16f0cf5e83f
 workflow-type: tm+mt
-source-wordcount: '2517'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,44 @@ Per istruzioni su come collegare i documenti tramite il nuovo [!DNL SharePoint] 
 >* Un utente ha accesso agli stessi siti, raccolte, cartelle, sottocartelle e file tramite [!DNL Workfront] [!DNL SharePoint] l&#39;integrazione che hanno nel loro [!DNL SharePoint] account.
 
 
-## Configurare l’integrazione legacy di SharePoint per l’accesso continuo ai documenti
+## Informazioni su sicurezza, accesso e autorizzazione per [!DNL SharePoint] integrazione
 
-Per garantire agli utenti un accesso continuo ai documenti collegati a Workfront tramite l’integrazione legacy di SharePoint, devi riconfigurare l’accesso all’integrazione legacy di SharePoint e mantenere aggiornato SharePoint Client Secret.
+### Autenticazione e autorizzazione
+
+[!DNL Workfront] utilizza OAuth2 per recuperare un token di accesso e un token di aggiornamento. Questo token di accesso viene utilizzato per l’autorizzazione con tutti [!DNL SharePoint] aree.
+
+### Accesso e autorizzazioni
+
+La prima volta che un utente aggiunge un documento a [!DNL Workfront] da [!DNL SharePoint], vengono indirizzati a una schermata che richiede le seguenti autorizzazioni:
+
+| Accesso | Motivo |
+|---|---|
+| Accesso completo ai file | Consente [!DNL Workfront] per accedere ai file di un utente per collegare una risorsa. Quando i documenti vengono inviati da [!DNL Workfront] a [!DNL SharePoint], [!DNL Workfront] richiede l’accesso per creare la risorsa. |
+| Leggi elementi in tutte le raccolte siti | Consente [!DNL Workfront] leggere le risorse per abilitare la navigazione degli utenti. |
+| Modifica o elimina elementi in tutte le raccolte siti | Consente [!DNL Workfront] per creare risorse in sites e nella raccolta siti. L’eliminazione viene utilizzata solo per la pulizia dopo tentativi di collegamento non riusciti. |
+| Gestisci l&#39;accesso ai dati a cui hai dato accesso | Consente [!DNL Workfront] per generare un token di aggiornamento. |
+| Accedi e leggi il profilo utente | Consente [!DNL Workfront] per utilizzare il token di accesso per agire per conto dell’utente, tramite il flusso di accesso OAuth2. |
+
+Questo accesso viene concesso dall’utente la prima volta che utilizza l’integrazione e può essere revocato in qualsiasi momento.
+
+Considera quanto segue per quanto riguarda l’accesso a [!DNL SharePoint] tramite [!DNL Workfront] [!DNL SharePoint] integrazione:
+
+* [!DNL Workfront] richiede l’accesso minimo necessario per eseguire operazioni nell’integrazione.
+* Accesso per visualizzare, modificare o eliminare un [!DNL Adobe Workfront] documento collegato a [!DNL SharePoint] si basa sull’accesso dell’utente in [!DNL Workfront]. Tuttavia, la navigazione, il download o la modifica di un [!DNL SharePoint] file o cartella richiede l&#39;accesso a [!DNL SharePoint]e l&#39;accesso a queste azioni è controllato da [!DNL SharePoint].
+* Gli utenti possono visualizzare miniature e immagini in anteprima da cui provengono [!DNL SharePoint]e possono visualizzare i nomi di file e cartelle in [!DNL SharePoint], senza accedere a [!DNL SharePoint].
+* Il token di accesso di un utente viene utilizzato solo quando l’utente è offline e un altro utente visualizza il contenuto di una cartella collegata a [!DNL Workfront]. Il token di accesso viene utilizzato per verificare se eventuali documenti nella cartella sono stati aggiunti, rimossi o modificati.
+
+### Sicurezza
+
+Tutte le comunicazioni tra [!DNL Workfront] e [!DNL SharePoint] viene eseguito tramite HTTPS, che crittografa le informazioni.
+
+[!DNL Workfront] non memorizza, copia o duplica dati da [!DNL SharePoint]. L&#39;unica eccezione è che [!DNL Workfront] memorizza le miniature da [!DNL SharePoint] da visualizzare nella vista a elenco e in Anteprima.
+
+Se una risorsa è stata caricata per la prima volta in [!DNL Workfront], e quindi inviato a [!DNL SharePoint], [!DNL Workfront] conserva i dati per il primo file perché gli utenti possono scaricare una versione precedente di un file [!DNL Workfront] documento. Se un documento è stato creato in [!DNL SharePoint], [!DNL Workfront] non memorizza i dati del file.
+
+## Configurare la versione precedente di [!DNL SharePoint] integrazione per un accesso continuo ai documenti
+
+Per garantire agli utenti un accesso continuo ai documenti collegati a Workfront tramite [!DNL SharePoint] dell&#39;integrazione, è necessario riconfigurare l&#39;accesso alla [!DNL SharePoint] e mantenere aggiornato il segreto client di SharePoint.
 
 * [Riconfigurare l’accesso alla versione precedente di [!DNL SharePoint] integrazione](#reconfigure-access-to-the-legacy-dnl-sharepoint-integration)
 * [Configura il segreto client per l’accesso continuo ai [!DNL SharePoint] integrazione](#configure-the-client-secret-for-continued-access-to-the-legacy-dnl-sharepoint-integration)
@@ -130,132 +165,137 @@ Il tuo [!DNL SharePoint] Il segreto client scade una volta all’anno. Per garan
 1. Immetti il nuovo segreto client in **[!UICONTROL Segreto client]** campo.
 1. Fai clic su **[!UICONTROL Salva]**.
 
+<!--
 
-
-## Istruzioni per la configurazione dell’integrazione legacy di SharePoint
+## Instructions for setting up the legacy SharePoint integration
 
 >[!IMPORTANT]
 >
->Questa integrazione è stata rimossa. Le istruzioni qui sono solo a scopo informativo e verranno rimosse a breve.
+>This integration has been deprecated. The instructions here are for information only and will be removed in the near future.
 
 
-Workfront si connette a [!DNL SharePoint] Online utilizzando OAuth 2.0, uno standard utilizzato dalla maggior parte delle integrazioni basate sul web per l’autenticazione e l’autorizzazione degli utenti.
+Workfront connects to [!DNL SharePoint] Online using OAuth 2.0, a standard used by most web-based integrations for the authentication and authorization of users.
 
-Per configurare OAuth, è necessario creare un [!DNL SharePoint] sito e un&#39;app del sito in [!DNL SharePoint]. Questo processo è descritto nelle sezioni seguenti.
+To configure OAuth, you need to create a [!DNL SharePoint] site and a Site App within [!DNL SharePoint]. This process is described in the following sections.
 
-Per ulteriori informazioni su OAuth, consulta [http://oauth.net](http://oauth.net/).
+For more information about OAuth, see [http://oauth.net](http://oauth.net/).
 
 >[!TIP]
 >
->Per semplificare la copia e l&#39;incollamento delle informazioni tra [!DNL Workfront] e [!DNL SharePoint] in questi passaggi si consiglia di mantenere entrambe le applicazioni aperte in schede separate.
+>To make it easy to copy and paste information between [!DNL Workfront] and [!DNL SharePoint] in these steps, we recommend keeping both applications open in separate tabs.
 
-* [Creare e configurare un [!DNL SharePoint] sito](#create-and-configure-a-sharepoint-site)
-* [Concedere le autorizzazioni di scrittura all’app del sito](#grant-write-permissions-to-the-site-app)
-* [Creare un [!DNL Workfront] [!DNL SharePoint] istanza di integrazione](#create-a-workfront-sharepoint-integration-instance)
-* [Completare l’integrazione](#complete-your-integration)
-* [Aggiungi documenti](#add-documents)
+* [Create and configure a [!DNL SharePoint] site](#create-and-configure-a-sharepoint-site) 
+* [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app) 
+* [Create a [!DNL Workfront] [!DNL SharePoint] integration instance](#create-a-workfront-sharepoint-integration-instance) 
+* [Complete your integration](#complete-your-integration) 
+* [Add documents](#add-documents)
 
-### Creare e configurare un [!DNL SharePoint] sito  {#create-and-configure-a-sharepoint-site}
+### Create and configure a [!DNL SharePoint] site  {#create-and-configure-a-sharepoint-site}
 
-Per ottenere [!DNL Workfront] per eseguire l’autenticazione con [!DNL SharePoint], [!DNL Workfront] può utilizzare un sito principale in cui gli utenti dispongono di [!UICONTROL Controllo completo] livello di autorizzazione o autorizzazioni Manage specifiche. Il sito master funge da punto di ingresso di autenticazione per [!DNL Workfront].
+In order for [!DNL Workfront] to authenticate with [!DNL SharePoint], [!DNL Workfront] ca use a master site where users have the [!UICONTROL Full Control] permission level or specific Manage permissions. This master site acts as an Authentication Entry Point for [!DNL Workfront].
 
-Per creare e configurare un [!DNL SharePoint] Sito:
+To create and configure a [!DNL SharePoint] Site:
 
-1. (Facoltativo) Se non si desidera utilizzare il sito principale dell&#39;organizzazione, è possibile creare un sito principale in [!DNL SharePoint].
+1. (Optional) If you do not want to use your organization's root site, you can create a master site in [!DNL SharePoint].
 
-   Per istruzioni, visita [Creare un sito](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) nel [!DNL Microsoft] Documentazione.
+   For instructions, visit [Create a site](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) in the [!DNL Microsoft] Documentation.
 
-   * Seleziona la **[!UICONTROL Sito team]** durante la creazione del sito.
+   * Select the **[!UICONTROL Team Site]** option when creating the site.
 
-1. (Condizionale) Se hai creato un sito nel passaggio 1, passa al sito appena creato.
+1. (Conditional) If you created a site in step 1, go to the site you just created.
 
-   Oppure
+   Or
 
-   Se non hai creato un sito nel passaggio 1, passa al sito principale della tua organizzazione.
+   If you did not create a site in step 1, go to your organization's root site.
 
-1. Aggiungi `/_layouts/15/appregnew.aspx` alla fine dell’URL nella barra di ricerca nella parte superiore della finestra del browser.
-1. Configura i campi seguenti:
+1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
+1. Configure the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL ID client]</p> </td> 
-      <td> <p>Clic <strong>[!UICONTROL Genera]</strong> per generare un ID client. Copia questo ID in un percorso sicuro. La utilizzerai in seguito quando configurerai il [!DNL SharePoint] integrazione in [!DNL Workfront].</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Client ID]</p> </td> 
+      <td> <p>Click <strong>[!UICONTROL Generate]</strong> to generate a Client ID. Copy this ID to a secure location. You will use it later when you set up the [!DNL SharePoint] integration in [!DNL Workfront].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Segreto client]</p> </td> 
-      <td> <p>Clic <strong>[!UICONTROL Genera]</strong> per generare un segreto client. Copia il segreto in una posizione sicura. La utilizzerai in seguito quando configurerai il [!DNL SharePoint] integrazione in [!DNL Workfront].</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Client Secret]</p> </td> 
+      <td> <p>Click <strong>[!UICONTROL Generate]</strong> to generate a Client Secret. Copy this Secret to a secure location. You will use it later when you set up the [!DNL SharePoint] integration in [!DNL Workfront].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Titolo</p> </td> 
-      <td> <p>Inserisci un titolo, ad esempio [!DNL Workfront] App del sito. Gli utenti visualizzano questo titolo quando aggiungono documenti.</p> </td> 
+      <td role="rowheader"> <p>Title</p> </td> 
+      <td> <p>Enter a title, such as [!DNL Workfront] Site App. Users see this title when adding documents..</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL App Domain]</p> </td> 
       <td> <p><code>my.workfront.com</code> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL URI reindirizzamento]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Redirect URI]</p> </td> 
       <td> <p><code>https://oauth.my.workfront.com/oauth2/redirect</code> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Fai clic su **[!UICONTROL Crea]**
-1. Continua con [Concedere le autorizzazioni di scrittura all’app del sito](#grant-write-permissions-to-the-site-app).
+1. Click **[!UICONTROL Create]**
+1. Continue to [Grant write permissions to the site app](#grant-write-permissions-to-the-site-app).
 
-### Concedere le autorizzazioni di scrittura all’app del sito  {#grant-write-permissions-to-the-site-app}
+### Grant write permissions to the site app  {#grant-write-permissions-to-the-site-app}
 
-A questo punto, hai creato correttamente un’app del sito e l’hai registrata in [!DNL Workfront]. Questa app del sito è nota anche come app principal in [!DNL SharePoint]. Risiede nel tuo tenant. Le nuove app del sito non hanno automaticamente accesso alle raccolte siti all’interno del tenant. Le autorizzazioni devono essere concesse in modo esplicito per ogni raccolta siti. Nei passaggi seguenti verrà illustrato come concedere l&#39;autorizzazione di scrittura alla nuova app del sito per una raccolta siti. Ripeti questi passaggi per ogni raccolta siti aggiunta in [!UICONTROL Raccolte siti visibili] nei passaggi precedenti.
+At this point, you have successfully created a Site App and registered it within [!DNL Workfront]. This site app is also known as an app principal in [!DNL SharePoint]. It resides within your tenant. New site apps do not automatically have access to site collections within the tenant. Permissions must be granted explicitly, for each site collection. The steps below will show you how to grant Write permission to the new Site App a site collection. Repeat these steps for each of the site collections you added under [!UICONTROL Visible Site Collections] in the steps above.
 
-Questa app del sito deve avere [!UICONTROL Scrittura] autorizzazioni per tutte le raccolte siti a cui gli utenti devono accedere tramite [!DNL Workfront].
+This site app must have [!UICONTROL Write] permission to any site collections that users need to access through [!DNL Workfront].
 
-1. Aggiungere &quot;/_layouts/15/appinv.aspx&quot; all’URL in [!DNL Sharepoint].
+1. Add '/_layouts/15/appinv.aspx' to the URL in [!DNL Sharepoint].
 
-   **Esempio:**
+   **Example:**
 
    ```
    https://mycompany.sharepoint.com/sites/mysite/_layouts/15/appinv.aspx
    ```
 
-1. Configura i campi seguenti
+1. Configure the following fields
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL ID app]</td> 
-      <td> <p>Aggiungi l'ID client creato in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Creare e configurare un [!DNL SharePoint] sito </a>e fai clic su <strong>Ricerca [!UICONTROL]</strong>.</p> </td> 
+      <td role="rowheader">[!UICONTROL App ID]</td> 
+      <td> <p>Add the Client ID that you created in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>and click <strong>[!UICONTROL Lookup]</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Client] / [!UICONTROL App Domain] / [!UICONTROL Redirect URL]</p> </td> 
-      <td> <p>Queste impostazioni vengono compilate automaticamente quando si fa clic su [!UICONTROL Lookup].</p> </td> 
+      <td> <p>These automatically fill when you click [!UICONTROL Lookup].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Permission Request XML]</td> 
-      <td> <p>Copiare il codice XML seguente nel campo [!UICONTROL Permission Request XML]. Assicurati che venga aggiunto esattamente come mostrato, senza spazi aggiuntivi, ecc. per evitare errori.</p> 
+      <td> <p>Copy the following XML to the [!UICONTROL Permission Request XML] field. Make sure that it is added exactly as shown without additional spaces etc. in order to avoid errors.</p> 
       <div></a> 
       <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"> 
-       <pre></pre></div></div></td></tr></tbody></table>
+       <pre><code><span style="color: #63a35c; ">&lt;AppPermissionRequests&gt;</span><br><span style="color: #63a35c; ">&lt;AppPermissionRequest <span style="color: #795da3; ">Scope</span><span style="color: #df5000; ">="http://sharepoint/content/sitecollection/web"</span> <span style="color: #795da3; ">Right</span><span style="color: #df5000; ">="Write"</span>/&gt;</span><br><span style="color: #63a35c; ">&lt;/AppPermissionRequests&gt;</span></code></pre> 
+      </div> 
+      </div> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
-1. Fai clic su **[!UICONTROL Crea]**.
-1. Nella finestra di dialogo visualizzata, fai clic su **[!UICONTROL Fidati]**.
-1. Verificare che l&#39;app del sito abbia accesso alla raccolta siti facendo clic sul pulsante **[!UICONTROL Autorizzazioni app per raccolta siti]** collegamento in [!UICONTROL Impostazioni sito].
-1. Ripeti i passaggi precedenti per le altre raccolte siti, quindi continua con [Creare un [!DNL Workfront] [!DNL SharePoint] istanza di integrazione](#create-a-workfront-sharepoint-integration-instance).
+1. Click **[!UICONTROL Create]**. 
+1. In the dialog that appears, click **[!UICONTROL Trust it]**.
+1. Verify that the site app has access to the site collection by clicking the **[!UICONTROL Site collection app permissions]** link in [!UICONTROL Site Settings].
+1. Repeat the steps above for the remaining site collections, then continue with [Create a [!DNL Workfront] [!DNL SharePoint] integration instance](#create-a-workfront-sharepoint-integration-instance).
 
-### Creare un [!DNL Workfront] [!DNL SharePoint] istanza di integrazione {#create-a-workfront-sharepoint-integration-instance}
+### Create a [!DNL Workfront] [!DNL SharePoint] integration instance {#create-a-workfront-sharepoint-integration-instance}
 
-Quando hai creato un’app del sito in [!DNL SharePoint], ora puoi copiare le informazioni dall’app del sito in [!DNL Workfront]. L’app del sito è un’entità principale dell’app e funge da canale attraverso il quale vengono effettuate le richieste OAuth per accedere ai documenti all’interno delle raccolte siti.
+When you have created a site app in [!DNL SharePoint], you can now copy information from the site app into [!DNL Workfront]. The site app is an app principal and acts as the conduit through which OAuth requests are made to access documents within site collections.
 
-1. Accedi a [!DNL Workfront] come amministratore.
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+1. Log into [!DNL Workfront] as an administrator.
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Nel pannello a sinistra, fai clic su **[!UICONTROL Documenti]** > **[!UICONTROL [!DNL SharePoint]Integrazione]**.
-1. Clic **[!UICONTROL Aggiungi[!DNL SharePoint]]**.
-1. Configura i campi seguenti:
+1. In the left panel, click **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
+1. Click **[!UICONTROL Add [!DNL SharePoint]]**.
+1. Configure the following fields:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -263,80 +303,82 @@ Quando hai creato un’app del sito in [!DNL SharePoint], ora puoi copiare le in
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Name]</p> </td> 
-      <td> <p>Immetti un nome per [!DNL SharePoint] integrazione. Gli utenti visualizzano questo nome quando fanno clic su [!UICONTROL Add] &gt; [!UICONTROL From] 'name of integration' (Nome dell'integrazione). </p> </td> 
+      <td> <p>Enter a name for the [!DNL SharePoint] integration. Users see this name when they click [!UICONTROL Add] &gt; [!UICONTROL From] 'name of integration'. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL [!DNL SharePoint] Istanza host]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL [!DNL SharePoint] Host Instance]</p> </td> 
       <td> <p><code>&lt;YourDomain&gt;.sharepoint.com</code> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL [!DNL Azure] Dominio di accesso]</p> </td> 
-      <td> <p><code>&lt;YourDomain&gt;.onmicrosoft.com</code> </p> <p>Si riferisce al sito principale che gli utenti utilizzeranno per l’autenticazione tramite. È probabile che sia lo stesso dominio di [!UICONTROL [!DNL SharePoint] Istanza host].</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL [!DNL Azure] Access Domain]</p> </td> 
+      <td> <p><code>&lt;YourDomain&gt;.onmicrosoft.com</code> </p> <p>This refers to the Master Site that users will use to authenticate through. It is likely the same domain as the [!UICONTROL [!DNL SharePoint] Host Instance].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>
       </p> </td> 
-      <td> <b>Importante</b> Le raccolte siti vengono utilizzate solo nella versione precedente [!DNL SharePoint] Integrazione.
+      <td> <b>Important</b> Site collections are used only in the Legacy [!DNL SharePoint] Integration.
        <ul> 
-        <li> <p><b>Se utilizzi il sito principale della tua organizzazione</b><b>:</b> </p> <p>Invio <code>/</code></p> </li> 
-        <li> <p><b>Se si utilizza un sito principale e siti secondari:</b> </p> <p><b>IMPORTANTE</b>: [!DNL Microsoft SharePoint] non consiglia più l'utilizzo dei siti secondari.</p> <p>Immettere il file dell'URL per la raccolta siti creata nella sezione precedente.</p> <p>Questa è la sezione dell’URL dopo .com.</p> <p>Esempio: per l’URL <code>https://mycompany.sharepoint.com/sites/mysite</code>, lo stelo sarebbe <code>/sites/mysite</code>.</p> </li> 
+        <li> <p><b>If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: [!DNL Microsoft SharePoint] no longer recommends the use of subsites.</p> <p>Enter the URL stem for the site collection that you created in the section above.</p> <p>This is the section of the URL after .com.</p> <p>Example: for the URL <code>https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL SharePoint] ID client]</td> 
-      <td>Immetti l'ID client generato in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Creare e configurare un [!DNL SharePoint] sito </a>.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Client ID]</td> 
+      <td>Enter the Client ID that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Segreto client]</td> 
-      <td>Immetti il segreto client generato in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Creare e configurare un [!DNL SharePoint] sito </a>.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL SharePoint] Client Secret]</td> 
+      <td>Enter the Client Secret that you generated in <a href="#create-and-configure-a-sharepoint-site" class="MCXref xref">Create and configure a [!DNL SharePoint] site </a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL raccolte siti visibili]</td> 
-      <td> <b>Importante</b> Le raccolte siti vengono utilizzate solo nella versione precedente [!DNL SharePoint] integrazione.
+      <td role="rowheader">[!UICONTROL Visible Site Collections]</td> 
+      <td> <b>Important</b> Site collections are used only in the Legacy [!DNL SharePoint] integration.
        <ul> 
-        <li> <p><b> Se utilizzi il sito principale della tua organizzazione</b><b>:</b> </p> <p>Invio <code>/</code></p> </li> 
-        <li> <p><b>Se si utilizza un sito principale e siti secondari:</b> </p> <p><b>IMPORTANTE</b>: [!DNL Microsoft SharePoint] non consiglia più l'utilizzo dei siti secondari.</p> <p>Per ogni sito secondario che si desidera aggiungere al [!DNL SharePoint] nell'integrazione, immettere lo stelo del sito secondario.</p> <p>Esempio: per l’URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, lo stelo sarebbe <code>/sites/mysite/mysubsite</code>.</p> <p><b>NOTA</b>:   <p>Se si desidera verificare solo la configurazione (nessun sito secondario), immettere lo stelo del sito principale. </p> <p>Esempio: per l’URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, lo stelo sarebbe <code>/sites/mysite</code>.</p> <p>Dopo aver testato la configurazione come descritto in <a href="#complete-your-integration" class="MCXref xref">Completare l’integrazione</a>, è necessario rimuovere il sito master e immettere i siti secondari.</p> 
+        <li> <p><b> If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p><b>IMPORTANT</b>: [!DNL Microsoft SharePoint] no longer recommends the use of subsites.</p> <p>For each subsite you want to add to your [!DNL SharePoint] integration, enter the stem of the subsite.</p> <p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p> <p><b>NOTE</b>:   <p>If you want to test your configuration only (no subsites), enter the stem of the master site. </p> <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> <p>When you have tested your configuration as described in <a href="#complete-your-integration" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
           <ol> 
-           <li value="1">Fai clic su <strong>Menu principale di [!UICONTROL]</strong> icona <img src="assets/main-menu-icon.png"> nell'angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su <strong>[!UICONTROL Setup]</strong> <img src="assets/gear-icon-settings.png">.<li><p>Nel pannello a sinistra, fai clic su <strong>[!UICONTROL Documenti]</strong> &gt; <strong>[!UICONTROL [!DNL SharePoint] Integrazione]</strong>.</p></li><li><p>Fai clic su [!DNL SharePoint] dell’integrazione che stai impostando, quindi fai clic su Modifica.</p></li><li><p>Eliminare lo stelo del sito master dal campo [!UICONTROL Raccolte siti visibili].</p></li><li><p>Per ogni sito secondario che si desidera aggiungere al [!DNL SharePoint] nell'integrazione, immettere lo stelo del sito secondario.</p></li><p>Esempio: per l’URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, lo stelo sarebbe <code>/sites/mysite/mysubsite</code>.</p></li> 
+           <li value="1">Click the <strong>[!UICONTROL Main Menu]</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of [!DNL Adobe Workfront], then click <strong>[!UICONTROL Setup]</strong> <img src="assets/gear-icon-settings.png">.<li><p>In the left panel, click <strong>[!UICONTROL Documents]</strong> &gt; <strong>[!UICONTROL [!DNL SharePoint] Integration]</strong>.</p></li><li><p>Click the [!DNL SharePoint] integration you are setting up, then click Edit.</p></li><li><p>Delete the stem for the master site from the [!UICONTROL Visible Site Collections] field.</p></li><li><p>For each subsite you want to add to your [!DNL SharePoint] integration, enter the stem of the subsite.</p></li><p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p></li> 
           </ol> </p> </li> 
        </ul> <p> </p> <p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Fai clic su **[!UICONTROL Salva]**
-1. Continua con [Completare l’integrazione](#complete-your-integration).
+1. Click **[!UICONTROL Save]**
+1. Continue to [Complete your integration](#complete-your-integration).
 
-### Completare l’integrazione {#complete-your-integration}
+### Complete your integration {#complete-your-integration}
 
-La configurazione di base è quasi completa.
+The basic configuration is almost complete.
 
-1. In Workfront, fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Documenti]** ![](assets/document-icon.png).
-1. Clic **[!UICONTROL Aggiungi nuovo]**.
-1. Clic **[!UICONTROL Da]`<title of your [!DNL SharePoint] site>`** nel menu a discesa.
+1. In Workfront, Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Documents]** ![](assets/document-icon.png).
+1. Click **[!UICONTROL Add new]**.
+1. Click **[!UICONTROL From] `<title of your [!DNL SharePoint] site>`** in the dropdown.
 
-   Verrà visualizzata una finestra di dialogo in cui si invita l&#39;utente a considerare attendibile il sito.
+   A dialog that invites you to Trust this site appears.
 
    >[!NOTE]
    >
-   >Se questa finestra di dialogo non viene visualizzata, [!DNL SharePoint] L’integrazione di non è configurata correttamente.
+   >If this dialog does not appear, your [!DNL SharePoint] integration is not configured correctly.
 
-1. Clic **[!UICONTROL Fidati]**.
+1. Click **[!UICONTROL Trust it]**.
 
-### Aggiungi documenti {#add-documents}
+### Add documents {#add-documents}
 
-È ora possibile aggiungere documenti da [!DNL SharePoint] sito.
+You can now add documents from your [!DNL SharePoint] site.
 
-Per istruzioni, consulta [Collega un documento esterno a [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) in [Collegare documenti da applicazioni esterne](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
+For instructions, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) in [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
 
 >[!IMPORTANT]
 >
->Se l’utente che ha collegato una cartella non ha più accesso all’applicazione esterna, [!DNL Workfront] non può più accedere al contenuto della cartella. Ciò può verificarsi, ad esempio, se l’utente che ha collegato originariamente la cartella lascia l’azienda. Per garantire l’accesso continuo, un utente con accesso alla cartella deve ricollegare la cartella.
+>If the user who linked a folder no longer has access to the external application, [!DNL Workfront] can no longer access the contents of the folder. This may happen, for example, if the user who originally linked the folder leaves the company. To ensure continued access, a user with access to the folder must re-link the folder.
+> 
+
+-->
 
 ## Risoluzione dei problemi
 
 * [Problema: si verificano errori basati sull’autenticazione quando si utilizza [!DNL SharePoint] integrazione.](#problem-users-experience-authentication-based-errors-when-using-the-sharepoint-integration)
-* [Problema: as a [!DNL Workfront] utente, non è possibile effettuare il provisioning di un nuovo [!DNL SharePoint] dell&#39;istanza. Quando tento di farlo, viene visualizzato un errore.](#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error)
 * [Problema: quando si tenta di esplorare [!DNL SharePoint] file in [!DNL Workfront], non viene visualizzata alcuna raccolta siti o tutte le raccolte siti.](#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections)
 * [Problema: impossibile accedere a cartelle e documenti collegati in precedenza in [!DNL SharePoint].](#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint)
 
@@ -344,7 +386,7 @@ Per istruzioni, consulta [Collega un documento esterno a [!DNL Workfront]](../..
 
 Soluzioni:
 
-Gli utenti devono essere membri di un gruppo che dispone delle autorizzazioni appropriate per [!DNL SharePoint] sito.
+Gli utenti devono disporre delle autorizzazioni appropriate per [!DNL SharePoint] sito.
 
 Utenti con [!UICONTROL Controllo completo] dispongono di tutte le autorizzazioni necessarie per [!DNL SharePoint] integrazione. Se non si desidera concedere l&#39;accesso Controllo completo agli utenti, è necessario concedere le seguenti autorizzazioni:
 
@@ -373,15 +415,19 @@ Utenti con [!UICONTROL Controllo completo] dispongono di tutte le autorizzazioni
 
 Per istruzioni sulla creazione e la modifica dei livelli di autorizzazione, vedere [Come creare e modificare i livelli di autorizzazione](https://docs.microsoft.com/en-us/sharepoint/how-to-create-and-edit-permission-levels) nella documentazione di Microsoft.
 
-### Problema: as a [!DNL Workfront] utente, non è possibile effettuare il provisioning di un nuovo [!DNL SharePoint] dell&#39;istanza. Quando tento di farlo, viene visualizzato un errore. {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
+<!--
 
-Soluzioni:
+### Problem: As a [!DNL Workfront] user, I am unable to provision a new [!DNL SharePoint] instance. When I attempt to do I see an error. {#problem-as-a-workfront-user-i-am-unable-to-provision-a-new-sharepoint-instance-when-i-attempt-to-do-i-see-an-error}
 
-Ciò può essere causato da una serie di elementi, provenienti da [!DNL Workfront] o [!DNL SharePoint]configurazione di. Verifica che:
+Solutions:
 
-* L’ID client, il segreto client, l’URL restituito e altri campi di configurazione sono mappati correttamente tra i [!DNL Workfront] [!DNL SharePoint] Istanza di integrazione e [!DNL SharePoint] App del sito.
-* L’utente ha [!UICONTROL Controllo completo] autorizzazione per la raccolta siti utilizzata per l&#39;autenticazione.
-* L’app del sito è elencata in [!UICONTROL Autorizzazioni app per siti] per [!UICONTROL Raccolta siti] utilizzato per l’autenticazione.
+This can be caused by a number of things, originating in either [!DNL Workfront] or [!DNL SharePoint]'s configuration. Verify that:
+
+* The Client ID, Client Secret, return URL and other configuration fields are correctly mapped between the [!DNL Workfront] [!DNL SharePoint] Integration instance and the [!DNL SharePoint] Site App.
+* The user has [!UICONTROL Full Control] permission to the Site Collection used for authentication.
+* The Site App is listed under [!UICONTROL Site App Permissions] for the [!UICONTROL Site Collection] used for authentication.
+
+-->
 
 ### Problema: quando si tenta di esplorare [!DNL SharePoint] file in [!DNL Workfront], non viene visualizzata alcuna raccolta siti o tutte le raccolte siti. {#problem-when-attempting-to-browse-sharepoint-files-in-workfront-i-do-not-see-any-or-all-of-my-site-collections}
 
@@ -389,25 +435,31 @@ Soluzioni:
 
 Per visualizzare una raccolta siti in [!DNL Workfront], devono essere soddisfatte le seguenti condizioni:
 
-* La raccolta siti deve essere registrata nel [!DNL Workfront] [!DNL SharePoint] Istanza di integrazione.
+<!--
 
-   Per verificarlo in [!DNL Workfront]:
+* The site collection must be registered in the [!DNL Workfront] [!DNL SharePoint] Integration instance.
 
-   1. Vai a [!UICONTROL Configurazione] > [!UICONTROL Documenti] > [!UICONTROL [!DNL SharePoint] Integrazione].
-   1. Modifica il [!DNL SharePoint] Informazioni sull’istanza di integrazione.
-   1. Verificare che la raccolta siti sia elencata in [!UICONTROL Raccolte siti visibili].
+  To verify this in [!DNL Workfront]:
+
+   1. Go to [!UICONTROL Setup] > [!UICONTROL Documents] > [!UICONTROL [!DNL SharePoint] Integration].
+   1. Edit the [!DNL SharePoint] Integration instance information.
+   1. Verify that the site collection is listed under [!UICONTROL Visible Site Collections].
+   -->
 
 * L&#39;utente deve disporre dell&#39;accesso in visualizzazione alla raccolta siti in [!DNL SharePoint].
-* Per verificarlo in [!DNL SharePoint], vai a [!DNL SharePoint], e aprire la raccolta siti > [!UICONTROL Impostazioni] > [!UICONTROL Autorizzazioni del sito].
-* Il [!DNL SharePoint] L&#39;app del sito deve avere accesso alla raccolta siti.
 
-   Per verificarlo in [!DNL SharePoint]:
+   Per verificarlo in [!DNL SharePoint], vai a [!DNL SharePoint], e aprire la raccolta siti > [!UICONTROL Impostazioni] > [!UICONTROL Autorizzazioni del sito].
+<!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
-   1. Vai alla raccolta siti > [!UICONTROL Impostazioni] > [!UICONTROL Autorizzazioni per l’app del sito].
-   1. Assicurati che [!UICONTROL App del sito] utilizzato da [!DNL Workfront] è elencato qui.
-   1. (Condizionale) Se l&#39;app del sito non è elencata, aggiungi alla raccolta siti utilizzando _layouts/15/appinv.aspx.
+  To verify this in [!DNL SharePoint]:
 
-      Per informazioni sull&#39;aggiunta della raccolta siti, vedere Concessione di autorizzazioni di scrittura all&#39;app del sito.
+   1. Go to the site collection > [!UICONTROL Settings] > [!UICONTROL Site app permissions].
+   1. Ensure that the [!UICONTROL Site App] used by [!DNL Workfront] is listed here.
+   1. (Conditional) If the Site App is not listed, add to the site collection using _layouts/15/appinv.aspx.
+
+      For information about adding the site collection, see Granting Write Permissions To The Site App.
+      
+-->
 
 ### Problema: impossibile accedere a cartelle e documenti collegati in precedenza in [!DNL SharePoint]. {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
@@ -419,8 +471,10 @@ Per garantire l’accesso continuo, un utente con accesso alla cartella deve ric
 
 Per informazioni sul collegamento di cartelle da provider esterni, consulta [Collegare documenti da applicazioni esterne](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-### Problema: viene visualizzato l&#39;errore &quot;404 not found&quot; quando si tenta di aggiungere un documento da [!DNL Sharepoint]
+<!--
 
-#### Soluzione:
+### Problem: I see a "404 not found" error when attempting to add a document from [!DNL Sharepoint]
 
-Questo errore può verificarsi se uno dei siti è configurato in [!UICONTROL Raccolte siti visibili] è stato eliminato in Sharepoint. Controlla la [!UICONTROL Raccolte siti visibili] e rimuovere tutti i siti eliminati in Sharepoint.
+#### Solution:
+
+This error might occur if one of the sites configured in the [!UICONTROL Visible Site Collections] list has been deleted in Sharepoint. Check the [!UICONTROL Visible Site Collections] list, and remove any sites that have been deleted in Sharepoint.-->
