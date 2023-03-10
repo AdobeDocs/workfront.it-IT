@@ -1,5 +1,5 @@
 ---
-source-git-commit: e5aa29ba228cf29028b209e6600baa2cfac2d777
+source-git-commit: 7ef1d55a7d743d83bd4f6625252848442919b9f4
 workflow-type: tm+mt
 source-wordcount: '1548'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
-## Anteprima evidenziata per l’articolo completo {#highlighted-preview-article-level}
+## Anteprima evidenziata per l&#39;articolo completo {#highlighted-preview-article-level}
 
 <span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
@@ -240,7 +240,7 @@ Per impostare le cartelle collegate:
 
 ## Versione più recente di DPV {#latest-version}
 
-**Versione più recente**: 2.1.20 dal 1/11/2023
+**Versione più recente**: 2.1.22 dal 3/10/2023
 
 <!-- Release -->
 
