@@ -6,9 +6,9 @@ description: API di abbonamento agli eventi
 author: Becky
 feature: Workfront API
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: e06f6e8ca40da6741982b4ed8c5c53bdbfb253ca
+source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2111'
 ht-degree: 3%
 
 ---
@@ -260,7 +260,7 @@ Quando esegui una query su HTTP di Workfront, utilizza il metodo GET. Esistono d
 
 ### Esegui query su tutte le sottoscrizioni eventi
 
-Puoi eseguire query su tutte le sottoscrizioni di eventi per un cliente come specificato dal valore apiKey. Per gestire la risposta, puoi inoltre utilizzare le seguenti opzioni:
+Puoi eseguire una query su tutte le sottoscrizioni di eventi per un cliente oppure utilizzare quanto segue per gestire la risposta. Per gestire la risposta, puoi inoltre utilizzare le seguenti opzioni:
 
 * **pagina**: opzione del parametro query per specificare il numero di pagine da restituire. Il valore predefinito è 1.
 * **limit**: opzione del parametro query per specificare il numero di risultati da restituire per pagina. Il valore predefinito è 100 con un massimo di 1000.
