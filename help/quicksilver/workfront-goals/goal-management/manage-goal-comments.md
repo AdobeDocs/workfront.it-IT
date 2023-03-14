@@ -6,9 +6,9 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7ed42330837149b1e4b813c24c81aa317f3c8b7e
+source-git-commit: d7ae3d47cbc4426630260ab5e726380e4775096a
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -197,7 +197,7 @@ Verrà aperto l&#39;elenco degli obiettivi.
 1. Individua l’obiettivo a cui desideri aggiungere commenti, quindi fai clic sul nome per aprire la pagina dell’obiettivo.
 1. Clic  **Aggiornamenti** nel pannello a sinistra.
 1. Fai clic su **Commenti** nell&#39;angolo superiore sinistro dell&#39;area Aggiornamenti.
-1. Inizia a immettere un commento in **Scrivi un commento** casella.
+1. Inizia a immettere un commento in **Nuovo commento** casella.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
@@ -205,7 +205,7 @@ Verrà aperto l&#39;elenco degli obiettivi.
    >
    >Se si esce dalla sezione Aggiornamenti prima di completare la digitazione e l&#39;invio di un commento, il commento nella pagina rimane in modalità bozza anche dopo la disconnessione e la riconnessione. I commenti bozza sono visibili solo all&#39;utente che li inserisce.
 
-1. (Facoltativo) In **Notifica** , inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
+1. (Facoltativo) In **Assegna tag a persone o team** , inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
 1. Clic **Invia**.
 1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi da 5 a 7 di cui sopra. <!--insure this stays accurate-->
 1. (Facoltativo) Fai clic su **Mi piace** icona![](assets/like-icon.png) per apprezzare un commento aggiunto da un altro utente. L’icona si aggiorna con il numero di Mi piace.
