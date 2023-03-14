@@ -5,14 +5,16 @@ description: Puoi utilizzare una scorecard per misurare il livello di allineamen
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: b2859f3d268bd947fba5bb0280677465b3039d93
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
 
 # Applicare una scorecard a un progetto e generare un punteggio di allineamento
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.</span>
 
 Puoi utilizzare una scorecard per misurare il livello di allineamento di un progetto ai criteri precedentemente stabiliti per un portfolio. Una scorecard spesso riflette la missione, i valori e gli obiettivi strategici di un’organizzazione.
 
