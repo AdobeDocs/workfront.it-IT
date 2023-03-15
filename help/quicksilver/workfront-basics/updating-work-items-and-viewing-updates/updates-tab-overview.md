@@ -7,16 +7,22 @@ description: La scheda Aggiornamenti mostra fino a 200 degli aggiornamenti più 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 799a2f3463ee98d57b13edfda8a0c93629439ea3
+source-git-commit: 19872953e847921c0fee6d383026641c05012ead
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 6%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
 # Panoramica della scheda Aggiornamenti
 
-La scheda Aggiornamenti mostra fino a 200 degli aggiornamenti più recenti effettuati negli ultimi 90 giorni. È possibile rispondere agli aggiornamenti sui seguenti oggetti:
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+
+<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+
+La scheda Aggiornamenti mostra fino a 200 degli aggiornamenti più recenti effettuati negli ultimi 90 giorni.
+
+È possibile commentare e rispondere agli aggiornamenti sui seguenti oggetti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,21 +31,22 @@ La scheda Aggiornamenti mostra fino a 200 degli aggiornamenti più recenti effet
   <tr> 
    <td> 
     <ul> 
+     <li>Documenti</li> 
+     <li>Obiettivi</li> 
+     <li>Problemi</li> 
+     <li>Iterazioni</li> 
      <li>Progetti</li> 
-     <li>Portfolio</li> 
      <li>Programmi</li> 
-     <li>Modelli</li> 
-     <li>Attività modello</li> 
-     <li>Attività</li> 
+     <li>Portfolio</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Problemi</li> 
-     <li>Iterazioni</li> 
      <li>Storie</li> 
-     <li>Utenti</li> 
-     <li>Documenti</li> 
+     <li>Attività</li> 
+     <li>Modelli</li> 
+     <li>Attività modello</li> 
      <li>Schede orario</li> 
+     <li>Utenti</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -100,6 +107,11 @@ Ad esempio, quando si aggiunge un aggiornamento a un’attività, l’aggiorname
   <tr> 
    <td>Iterazione</td> 
    <td>Team</td> 
+  </tr>
+
+<tr> 
+   <td>Obiettivi</td> 
+   <td>Risultato, attività</td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,8 +119,11 @@ Ad esempio, quando si aggiunge un aggiornamento a un’attività, l’aggiorname
 >[!NOTE]
 >
 >Le risposte aggiunte agli aggiornamenti di sistema non vengono riportate all&#39;oggetto principale. Solo le risposte dirette su un oggetto secondario e le risposte aggiunte agli aggiornamenti esistenti vengono riportate agli oggetti principali.
+>
+>Per informazioni sulla gerarchia degli oggetti in Adobe Workfront, consulta [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-Per informazioni sulla gerarchia degli oggetti in Adobe Workfront, consulta [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+<!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
+><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
 ## Limitazioni della scheda Aggiornamenti
 
