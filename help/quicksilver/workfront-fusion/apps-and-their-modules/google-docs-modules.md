@@ -620,7 +620,7 @@ Questo modulo di azione individua tutti i collegamenti presenti nel documento e 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Unità condivisa]</td> 
-   <td> <p>Selezionare l'unità contenente il documento in cui si desidera aggiornare i collegamenti, quindi selezionare un documento. Questa opzione è disponibile se hai selezionato [!DNL Google Docs] nel campo [!UICONTROL Scegli un'unità].</p> </td> 
+   <td> <p>Selezionare l'unità contenente il documento in cui si desidera aggiornare i collegamenti, quindi selezionare un documento. Questa opzione è disponibile se hai selezionato [!DNL Google Docs] nel [!UICONTROL Scegli un'unità].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Document ID]</td> 

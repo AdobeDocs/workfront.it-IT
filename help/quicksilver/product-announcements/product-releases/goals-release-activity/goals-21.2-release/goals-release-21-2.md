@@ -7,7 +7,7 @@ description: Questa pagina fornisce informazioni sulle funzionalità per gli obi
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 621303ed-14a2-4138-b3de-dbe85a8f6689
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%

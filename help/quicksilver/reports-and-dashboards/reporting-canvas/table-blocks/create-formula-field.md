@@ -7,7 +7,7 @@ feature: Reports and Dashboards
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
 source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 7%
 
 ---
@@ -67,6 +67,6 @@ Prima di iniziare, è necessario iscriversi alla versione beta di Reporting Canv
    | DATEDIFF | Calcola il numero totale di giorni tra due date, arrotondato a una posizione decimale. | Numero |
    | WEEKDAYDIFF | Calcola il numero di giorni feriali tra due date, arrotondato a una posizione decimale. | Numero |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Fai clic sul pulsante **Torna indietro** nell’angolo in alto a sinistra dello schermo per tornare alla tabella.

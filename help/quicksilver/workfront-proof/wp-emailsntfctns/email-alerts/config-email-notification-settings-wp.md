@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
 workflow-type: tm+mt
-source-wordcount: '1998'
+source-wordcount: '1995'
 ht-degree: 0%
 
 ---
@@ -119,7 +119,7 @@ Per informazioni sulle impostazioni di bozza, consulta [!DNL Workfront] amminist
    |---|---|
    | **[!UICONTROL Modello di messaggio di bozza]** | Viene visualizzata nella pagina Nuova bozza, Nuova versione, Messaggio e Promemoria . Può essere modificato prima dell’invio. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## Modificare gli avvisi e-mail per un destinatario
 

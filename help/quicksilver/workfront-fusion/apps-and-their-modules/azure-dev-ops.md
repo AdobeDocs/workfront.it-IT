@@ -150,7 +150,7 @@ Quando si configura questo modulo, vengono visualizzati i campi seguenti.
    <td> <p>Immetti l’URL relativo a cui desideri connetterti per questa chiamata API.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>{organization}/_apis[/{area}]/{resource}</code> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL API Version]</td> 
+   <td role="rowheader">[!UICONTROL Versione API]</td> 
    <td>Seleziona o mappa la versione del [!DNL Azure DevOps] API a cui desideri connetterti per questa chiamata API. Se non è selezionata alcuna versione, [!DNL Workfront Fusion] si connette a [!DNL Azure DevOps] API versione 5.1.</td> 
   </tr> 
   <tr> 

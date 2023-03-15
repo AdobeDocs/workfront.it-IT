@@ -7,7 +7,7 @@ description: La [!DNL Adobe Workfront] l’app ti consente di accedere al tuo la
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 3%

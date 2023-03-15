@@ -9,7 +9,7 @@ exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
 source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -186,7 +186,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!IMPORTANT]
    >
-   >Gli utenti devono avere accesso al [!UICONTROL Visualizzatore di correzione del desktop] per rivedere e approvare le bozze interattive. Per ulteriori informazioni, consulta [Installa il [!UICONTROL Visualizzatore di correzione del desktop]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >Gli utenti devono avere accesso al [!UICONTROL Visualizzatore di correzione del desktop] per rivedere e approvare le bozze interattive. Per ulteriori informazioni, consulta [[!UICONTROL Installare Desktop Proofing Viewer]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Carica una nuova versione di prova
 

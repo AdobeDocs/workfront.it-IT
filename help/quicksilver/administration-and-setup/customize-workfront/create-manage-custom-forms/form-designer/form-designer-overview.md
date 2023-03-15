@@ -1,9 +1,9 @@
 ---
-title: Panoramica di Progettazione moduli
+title: Panoramica della finestra di progettazione dei moduli
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: È possibile progettare un modulo personalizzato che gli utenti possono allegare a un oggetto Workfront. Gli utenti che lavorano sull’oggetto possono compilare il modulo personalizzato per fornire informazioni sull’oggetto.
+description: È possibile progettare un modulo personalizzato che gli utenti possono allegare a un oggetto Workfront. Gli utenti che lavorano all’oggetto possono compilare il modulo personalizzato per fornire informazioni sull’oggetto.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
@@ -14,65 +14,65 @@ ht-degree: 1%
 
 ---
 
-# Panoramica di Progettazione moduli
+# Panoramica della finestra di progettazione dei moduli
 
 {{highlighted-preview-article-level}}
 
-È possibile utilizzare il nuovo progettista di moduli per progettare un modulo personalizzato che gli utenti possono allegare a un oggetto Workfront. Gli utenti che lavorano sull’oggetto possono compilare il modulo personalizzato per fornire informazioni sull’oggetto.
+È possibile utilizzare la nuova struttura del modulo per progettare un modulo personalizzato che gli utenti possono allegare a un oggetto Workfront. Gli utenti che lavorano all’oggetto possono compilare il modulo personalizzato per fornire informazioni sull’oggetto.
 
-Il nuovo progettista di moduli dispone di una nuova area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi. Consente inoltre di trascinare i campi all&#39;interno delle sezioni durante la progettazione del modulo.
+Il nuovo form designer dispone di una nuova area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l’area di lavoro e le impostazioni dei campi. Consente inoltre di trascinare i campi all’interno delle sezioni durante la progettazione del modulo.
 
 <!-- add screenshot when field settings empty state is ready -->
 
-## Come accedere al nuovo progettista di moduli
+## Accesso al nuovo form designer
 
-È disponibile un nuovo pulsante nella parte superiore sia del nuovo progettista di moduli che del generatore di moduli legacy. Puoi utilizzare questo pulsante per passare dal generatore legacy al nuovo designer.
+È disponibile un nuovo pulsante nella parte superiore sia del nuovo form designer che del precedente form builder. È possibile utilizzare questo pulsante per passare dal generatore legacy al nuovo designer.
 
 ![](assets/switch-views.png)
 
-## Nuova funzionalità disponibile con il progettista del modulo
+## Nuove funzionalità disponibili con la struttura del modulo
 
-Con il nuovo form designer è stata aggiunta la possibilità di
+Con il nuovo form designer, abbiamo aggiunto la possibilità di
 
-* **Copiare un campo**: ora puoi copiare i campi esistenti facendo clic sull’icona Copia sui campi direttamente dall’area di lavoro.
+* **Copiare un campo**: È ora possibile copiare i campi esistenti facendo clic sull’icona Copia sui campi direttamente dall’area di lavoro.
 
-* **Modificare le dimensioni per il testo descrittivo**: ora puoi assegnare dimensioni piccole, medie o grandi ai campi Testo descrittivo. È inoltre possibile utilizzarli nella stessa riga con altri campi.
+* **Modificare le dimensioni del testo descrittivo**: È ora possibile assegnare dimensioni piccole, medie o grandi ai campi di testo descrittivi. È inoltre possibile utilizzarli sulla stessa riga con altri campi.
 
-* **Usa una sezione predefinita**: se il creatore del modulo non ha aggiunto una sezione nella parte superiore del modulo, nell’area di lavoro è ora visibile una sezione predefinita che consente agli utenti di regolare le autorizzazioni per i campi ai quali non è assegnata alcuna sezione personalizzata.
+* **Utilizzare una sezione predefinita**: Se l’autore del modulo non ha aggiunto una sezione nella parte superiore del modulo, nell’area di lavoro è ora visibile una sezione Predefinito, che consente agli utenti di modificare le autorizzazioni per i campi a cui non è stata assegnata alcuna sezione personalizzata.
 
    >[!NOTE]
    >
-   >La sezione predefinita non è visibile all&#39;interno degli oggetti dopo che il modulo è stato allegato all&#39;oggetto.
+   >La sezione predefinita non è visibile all’interno degli oggetti una volta che il modulo è associato all’oggetto.
 
-## Funzionalità in arrivo
+## Funzionalità disponibili a breve
 
-I seguenti elementi non sono attualmente disponibili nel progettista del modulo, ma verranno aggiunti a breve:
+Al momento non sono disponibili nella finestra di progettazione dei moduli, ma verranno aggiunti a breve:
 
 * Regolare le dimensioni del testo descrittivo
 
-* Logica di visualizzazione/salto
+* Visualizza/Ignora logica
 
-* Filtra per campi typeahead
+* Filtro per campi di tipo precedente
 
 >[!IMPORTANT]
 >
->Le configurazioni esistenti per la logica e i filtri di digitazione non saranno interessate quando si utilizza il nuovo progettista di moduli.
+>Le configurazioni esistenti per i filtri logici e per la generazione di caratteri non saranno influenzate quando si lavora con la nuova struttura del modulo.
 
-## Funzionalità rimossa dal progettista del modulo
+## Funzionalità rimosse dalla struttura del modulo
 
-Sono state rimosse le seguenti funzionalità dall’interno di Forms Designer:
+Sono state rimosse le seguenti funzionalità dalla finestra di progettazione dei moduli:
 
 
-* Impostazioni modulo, Condivisione modulo, Schede Condivisione campo
+* Impostazioni modulo, Condivisione modulo, schede Condivisione campi
 
    * Le impostazioni del modulo sono ora disponibili nella parte superiore dell’area di lavoro
 
-   * Scheda principale Condivisione modulo e scheda secondaria Condivisione campo
+   * Scheda principale Condivisione moduli e scheda secondaria Condivisione campi
    >[!NOTE]
    >
-   >Puoi controllare la condivisione di moduli e campi dalla scheda Configurazione > Forms personalizzato > Forms o Campi.
+   >Puoi controllare la condivisione del modulo e del campo da Configurazione > Forms personalizzato > Forms o scheda Campi.
 
 * Traccia le modifiche dei campi nei feed di aggiornamento
    >[!NOTE]
    >
-   >È possibile trovarlo in Configurazione > Interfaccia > Aggiorna feed
+   >Puoi trovarlo in Configurazione > Interfaccia > Aggiorna feed

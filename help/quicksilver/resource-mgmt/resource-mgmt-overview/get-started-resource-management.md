@@ -166,8 +166,7 @@ Per informazioni sull&#39;accesso necessario per gestire le risorse nel servizio
 Per informazioni sui requisiti per ogni strumento di gestione delle risorse in Workfront, consulta:
 
 * La sezione &quot;Prerequisiti per lavorare nel Planner risorse&quot; nell’articolo [Panoramica di Resource Planner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-
-<!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
+   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * La sezione &quot;Best practice per l’utilizzo del servizio di bilanciamento del carico di lavoro&quot; nell’articolo [Panoramica del servizio di bilanciamento del carico di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Accesso necessario alle risorse di budget in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Accesso necessario per gestire le risorse nel servizio di bilanciamento del carico di lavoro](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

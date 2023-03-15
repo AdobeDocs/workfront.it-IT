@@ -6,7 +6,7 @@ feature: Reports and Dashboards
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1039'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Prima di iniziare, è necessario iscriversi alla versione beta di Reporting Canv
    | Spostare una colonna | Per ridisporre l’ordine delle colonne di una tabella, fare clic sul nome di una colonna e trascinarla in una nuova posizione. |
    | Eliminare una colonna | Per eliminare una colonna da una tabella, fai clic sulla colonna da eliminare, quindi fai clic sulla x a destra del nome della colonna. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. Per configurare una colonna, fai clic sul nome della colonna da modificare nella riga di intestazione della tabella, quindi seleziona una delle seguenti schede nel pannello di destra:
 

@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Questa tabella descrive alcune funzioni che differiscono tra le due esperienze.
 | La navigazione include un&#39;area di navigazione di primo livello per [!DNL Adobe] prodotti, [!DNL Adobe] notifiche, aiuto e profilo utente, oltre al [!DNL Workfront] barra di navigazione | La navigazione include [!DNL Workfront] solo barra di navigazione |
 | L’Aiuto è accessibile tramite l’ [!UICONTROL Menu principale] e area di navigazione superiore | L’Aiuto è accessibile tramite l’ [!UICONTROL Menu principale] e [!DNL Workfront] barra di navigazione |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Domande frequenti
 

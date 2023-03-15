@@ -8,8 +8,8 @@ feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 2%
+source-wordcount: '320'
+ht-degree: 1%
 
 ---
 
@@ -70,7 +70,7 @@ Prima di iniziare, è necessario iscriversi alla versione beta di Reporting Canv
    | URL non valido | L&#39;URL immesso non restituisce un sito valido. |
    | Restrizioni al sito del fornitore | Il sito che si sta tentando di incorporare non è consentito. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Facoltativo) Fai clic sul pulsante **Passa parametri** per aprire un elenco dei parametri di passaggio disponibili.
 

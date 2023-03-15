@@ -114,7 +114,7 @@ Le eccezioni di pianificazione e il tempo di inattività potrebbero influire sul
 Oltre alle ore disponibili o all’FTE, nel Planner risorse vengono visualizzate anche le seguenti informazioni sull’ora:
 
 * Lavoro Necessario
-* Ore Preventivate
+* Ore preventivate
 * Varianza ore
 * Ore nette\
    Per ulteriori informazioni su questi valori consulta [Panoramica delle informazioni su ore, FTE e costi nelle visualizzazioni Progetto e Ruolo del Planner risorse](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)

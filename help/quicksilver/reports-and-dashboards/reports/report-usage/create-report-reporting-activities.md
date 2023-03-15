@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    | **Immesso da** | Questo è il proprietario del report. |
    | **Data ultima visualizzazione** | Data e ora dell’ultima visualizzazione del rapporto da parte di un utente. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Facoltativo) Per limitare l&#39;elenco dei rapporti a specifici utenti disattivati:
 

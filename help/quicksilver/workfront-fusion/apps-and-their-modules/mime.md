@@ -8,7 +8,7 @@ description: In Adobe Workfront Fusion è possibile utilizzare tipi MIME. I tipi
 author: Becky
 feature: Workfront Fusion
 exl-id: ebbf6ad0-a1d0-47f8-849f-7bba1e0763d3
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%

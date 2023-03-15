@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. (Facoltativo) Seleziona un filtro, una visualizzazione e un raggruppamento da applicare all’elenco prima dell’esportazione.\
    Per informazioni su filtri, visualizzazioni e raggruppamenti, consulta [Elementi di reporting: filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-1. (Facoltativo) Per esportare solo elementi specifici in un elenco, selezionare tutti gli elementi nell’elenco che si desidera inserire nel file esportato.
+1. (Facoltativo) Per esportare solo elementi specifici in un elenco, selezionare tutti gli elementi dell’elenco che si desidera inserire nel file esportato.
 
    >[!TIP]
    >

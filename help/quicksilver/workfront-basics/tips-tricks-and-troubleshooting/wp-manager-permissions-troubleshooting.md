@@ -7,7 +7,7 @@ title: Risoluzione dei problemi relativi alle autorizzazioni di Workfront Proof 
 description: Di seguito sono riportati i profili di autorizzazione disponibili in [!DNL Adobe] Workfront per la correzione degli utenti - EDIT ME.
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: ''
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 1%

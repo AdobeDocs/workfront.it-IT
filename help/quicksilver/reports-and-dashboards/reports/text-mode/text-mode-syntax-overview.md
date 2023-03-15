@@ -361,7 +361,7 @@ Per informazioni sulla creazione di filtri in modalità testo, consulta [Modific
 
 * Un connettore di istruzioni che collega più istruzioni di filtro:
 
-   * AND
+   * E
 
       Questo è il connettore predefinito tra le istruzioni del filtro.
 

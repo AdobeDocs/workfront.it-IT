@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2545'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Per creare una coda di richiesta:
       | Persone nella società del progetto | Gli utenti che appartengono alla società associata a questo progetto possono visualizzare e aggiungere richieste a questa coda. Se esiste un’azienda associata al progetto, dopo questa impostazione il nome dell’azienda viene elencato tra parentesi. |
       | Persone nel gruppo del progetto | Gli utenti che appartengono al gruppo associato a questo progetto possono visualizzare e aggiungere richieste a questa coda. Se un gruppo è associato al progetto, dopo questa impostazione il nome del gruppo viene elencato tra parentesi. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **Condividi con questi collegamenti:** Le seguenti opzioni consentono di fornire accesso diretto alla coda di richiesta e ai moduli ad essa associati a utenti esterni a Workfront o a utenti Workfront che utilizzano una pagina esterna. Per informazioni su come incorporare una coda di richiesta in un dashboard come pagina esterna, consulta [Incorporare una coda di richiesta in un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 
@@ -275,7 +275,7 @@ Per creare una coda di richiesta:
       | Persone con accesso di visualizzazione al progetto (licenza Pianificazione) | Gli utenti con una licenza di piano che dispongono anche dei diritti di visualizzazione per questo progetto possono visualizzare i campi selezionati e quelli non selezionati. Gli altri utenti che possono inviare richieste a questo progetto possono visualizzare solo i campi selezionati. |
       | Nessun utente | Nessun utente può visualizzare i campi non selezionati. Tutti gli utenti che possono inviare richieste a questo progetto possono visualizzare solo i campi selezionati. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
    * **Forms personalizzato**: Selezionare un modulo personalizzato da associare alla coda richieste. È disponibile solo Issue Custom Forms da selezionare da questo menu a discesa. A tutti i problemi inviati alla coda di richiesta verranno associati i moduli selezionati.\
       Se a una coda di richieste sono associati più argomenti della coda, è consigliabile associare i moduli personalizzati agli argomenti della coda. Per ulteriori informazioni sulla creazione di sottosezioni per la coda richieste, vedi [Crea argomenti coda](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

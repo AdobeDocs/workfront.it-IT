@@ -4,10 +4,10 @@ description: Configurare la visualizzazione a torta nell’area di reporting
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ''
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 2%
+source-wordcount: '289'
+ht-degree: 1%
 
 ---
 
@@ -64,7 +64,7 @@ Prima di iniziare, è necessario iscriversi alla versione beta di Reporting Canv
       |---|---|
       | Mostra origine dati | Abilita questa opzione per visualizzare la tabella sorgente per la visualizzazione nell’area di lavoro del rapporto o disabilita l’opzione per nasconderla. |
 
-      {style=&quot;table-layout:auto&quot;}
+      {style="table-layout:auto"}
 
 <!--   
       NOLAN-FLAG: convert table to html. 

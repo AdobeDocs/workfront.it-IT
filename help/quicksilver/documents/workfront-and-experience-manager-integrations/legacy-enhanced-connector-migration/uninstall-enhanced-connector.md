@@ -1,8 +1,8 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Disinstallare il connettore avanzato di Workfront for Adobe Experience Manager
-description: È necessario disinstallare il connettore avanzato Workfront con Adobe Experience Manager all’integrazione nativa più recente che collega Workfront e Adobe Experience Manager Assets as a Cloud Service.
+title: Disinstallare il connettore avanzato Workfront per Adobe Experience Manager
+description: È necessario disinstallare Workfront con il connettore avanzato Adobe Experience Manager per l’integrazione nativa più recente che collega Workfront e Adobe Experience Manager Assets as a Cloud Service.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
@@ -13,27 +13,27 @@ ht-degree: 0%
 
 ---
 
-# Disinstallare Workfront con il connettore avanzato di Adobe Experience Manager
+# Disinstallare Workfront con il connettore avanzato Adobe Experience Manager
 
-È necessario disinstallare il connettore avanzato Workfront con Adobe Experience Manager all’integrazione nativa più recente che collega Workfront e Adobe Experience Manager Assets as a Cloud Service.
+È necessario disinstallare Workfront con il connettore avanzato Adobe Experience Manager per l’integrazione nativa più recente che collega Workfront e Adobe Experience Manager Assets as a Cloud Service.
 
 ## Prerequisiti
 
-* (Facoltativo) Se necessario, ripristina le modifiche apportate alla configurazione del firewall di Workfront e alle impostazioni del dispatcher AEM.
+* (Facoltativo) Se necessario, ripristina le modifiche apportate alla configurazione del firewall Workfront e alle impostazioni del dispatcher AEM.
 
 ## Disinstallare il connettore avanzato
 
-1. Accedi e clona l’archivio as a Cloud Service AEM da Cloud Manager.
+1. Accedi e duplica l’archivio as a Cloud Service AEM da Cloud Manager.
 
-1. Apri l’archivio Git clonato nell’IDE che preferisci.
+1. Apri il tuo archivio Git clonato nell’IDE che preferisci.
 
-1. Estrarre il ramo in cui è installato il connettore avanzato.
+1. Estrai il ramo in cui è installato il connettore avanzato.
 
 1. Passa al seguente percorso e rimuovi il file zip del connettore avanzato:
 
    `Path: /ui.apps/src/main/resources/<zip file will be here>`
 
-1. Rimuovi la seguente dipendenza dal file pom.xml della directory principale del progetto.
+1. Rimuovi la seguente dipendenza dal file pom.xml della radice del progetto.
 
    ```
    <!-- Workfront Tools -->
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >Assicurati che la versione a cui si fa riferimento nel blocco di codice precedente, ovvero 1.8.0, rifletta la versione che viene disinstallata dal codice.
+   >Assicurati che la versione a cui si fa riferimento nel blocco di codice di cui sopra, cioè 1.8.0, rifletta la versione che viene disinstallata dal codice.
 
 1. Rimuovi la seguente dipendenza dal file pom.xml del sottomodulo del progetto denominato **tutto**.
 
@@ -63,7 +63,7 @@ ht-degree: 0%
    </embedded>
    ```
 
-1. Rimuovi i seguenti elementi incorporati dal file pom.xml del sottomodulo del progetto denominato all.
+1. Rimuovi dal file pom.xml del sottomodulo del progetto denominato all il seguente incorporato.
 
    ```
    <!-- Workfront Tools -->
@@ -75,7 +75,7 @@ ht-degree: 0%
    </embedded>
    ```
 
-1. (Condizionale) Rimuovi la configurazione dell’archivio dal file pom.xml della directory principale del progetto.
+1. (Condizionale) Rimuovi la configurazione dell&#39;archivio dal file pom.xml della directory principale del progetto.
 
 
    ```
@@ -86,7 +86,7 @@ ht-degree: 0%
    </repository>
    ```
 
-1. (Condizionale) Rimuovi la configurazione del server da settings.xml, presente nel seguente percorso./cloudmanager/maven/settings.xml nella directory principale del progetto.&#39;
+1. (Condizionale) Rimuovi la configurazione del server dal file settings.xml, presente nel seguente percorso ./cloudmanager/maven/settings.xml nella directory principale del progetto.&quot;
 
    ```
            <server>
@@ -102,6 +102,6 @@ ht-degree: 0%
        </server>
    ```
 
-1. Apporta le modifiche e invia il codice all’archivio di Cloud Manager
+1. Conferma le modifiche e invia il codice all’archivio Cloud Manager
 
-1. Esegui la pipeline di Cloud Manager per distribuire le modifiche nell’istanza dei Cloud Services
+1. Esegui la pipeline di Cloud Manager per distribuire le modifiche nell’istanza di Cloud Services
