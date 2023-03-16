@@ -6,9 +6,9 @@ description: È possibile annullare l’assegnazione degli utenti dagli elementi
 author: Alina
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -37,8 +37,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Pianificare, quando si utilizza il servizio di bilanciamento del carico di lavoro per un team o nell'area di determinazione origine </p>
-   <p>Operazioni da eseguire quando si utilizza il servizio di bilanciamento del carico di lavoro di un progetto </p>
+   <td> <p>Pianificare quando si utilizza il servizio di bilanciamento del carico di lavoro nell'area Origine</p>
+   <p>Lavoro, quando si utilizza il bilanciamento del carico di lavoro di un team o di un progetto</p>
 
 </td> 
   </tr> 

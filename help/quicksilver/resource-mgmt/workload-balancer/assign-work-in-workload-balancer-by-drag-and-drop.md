@@ -6,9 +6,9 @@ description: È possibile assegnare gli elementi di lavoro utilizzando il serviz
 author: Alina
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: a1ffec0d8a50ff7f025ff23370afa746cf0d6d3f
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '901'
 ht-degree: 1%
 
 ---
@@ -35,8 +35,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Pianificare, quando si utilizza il servizio di bilanciamento del carico di lavoro per un team o nell'area di determinazione origine </p>
-   <p>Operazioni da eseguire quando si utilizza il servizio di bilanciamento del carico di lavoro di un progetto </p>
+   <td> <p>Pianificare l'assegnazione del lavoro nel servizio di bilanciamento del carico di lavoro nell'area di determinazione origine</p>
+   <p>Lavoro per assegnare il lavoro nel servizio di bilanciamento del carico di lavoro di un team o di un progetto</p>
  </td> 
   </tr> 
   <tr> 

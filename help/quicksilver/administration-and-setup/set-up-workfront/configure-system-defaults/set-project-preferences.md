@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2509'
 ht-degree: 1%
 
 ---
@@ -179,8 +179,15 @@ Configura una delle seguenti preferenze per i progetti appena creati in tutto il
        <ul> 
         <li>Hanno uno stato di [!UICONTROL Current]</li> 
         <li>Aver avuto un aggiornamento negli ultimi 3 mesi</li> 
-       </ul> </p> </li> 
-     <li> <p><strong>Quando l’ambito di un progetto cambia</strong>: Selezionare questa opzione per ricalcolare immediatamente le timeline del progetto in seguito alla modifica dell’ambito del progetto. Per informazioni sulla modifica dell’ambito di un progetto, consulta <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Ricalcolare le timeline dei progetti</a>.</p> </li> 
+        <li>Hanno avuto un tipo di aggiornamento di uno dei seguenti elementi:</li>
+        <ul>
+        <li>Automatico e con Modifica</li>
+        <li>Solo Modifica</li>
+        <li>Solo Automatico</li> 
+      </ul>       
+    <b>SUGGERIMENTO</b>
+    <p>Questa impostazione non interessa i progetti con tipo di aggiornamento di Solo manuale.</p>
+    <li> <p><strong>Quando l’ambito di un progetto cambia</strong>: Selezionare questa opzione per ricalcolare immediatamente le timeline del progetto in seguito alla modifica dell’ambito del progetto. Per informazioni sulla modifica dell’ambito di un progetto, consulta <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Ricalcolare le timeline dei progetti</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

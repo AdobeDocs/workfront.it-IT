@@ -6,10 +6,10 @@ description: Senza l'accesso o le autorizzazioni corrette, è possibile che non 
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: bba51ba60ad6d2452fa368fd8b0bd708d005a82a
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 1%
+source-wordcount: '535'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ La tabella seguente illustra la connessione tra il piano Workfront della tua azi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront Plan</td> 
+   <td role="rowheader"><p>Workfront Plan</p></td> 
    <td> <p>Aree in cui è possibile accedere al servizio di bilanciamento del carico di lavoro</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,8 @@ Per visualizzare il servizio di bilanciamento del carico di lavoro è necessario
  <tbody> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Pianificare la visualizzazione del bilanciamento del carico di lavoro nell'area di determinazione origine</p>
+   <p>Operazioni per visualizzare il servizio di bilanciamento del carico di lavoro di un team o di un progetto</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni a livello di accesso*</td> 
@@ -83,8 +84,8 @@ Per gestire il servizio di bilanciamento del carico di lavoro è necessario disp
  <tbody> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> 
-   <p>Operazioni da eseguire per gestire le risorse nel servizio di bilanciamento del carico di lavoro di un progetto</p>
+   <td> <p>Pianificare la gestione delle assegnazioni nel servizio di bilanciamento del carico di lavoro nell'area Origine</p>
+   <p>Operazioni per gestire le assegnazioni nel servizio di bilanciamento del carico di lavoro di un team o di un progetto</p>
    </td> 
   </tr> 
   <tr> 

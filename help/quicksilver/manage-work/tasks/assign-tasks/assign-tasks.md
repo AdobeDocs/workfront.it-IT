@@ -6,7 +6,7 @@ description: È possibile assegnare attività a utenti, ruoli o team per indicar
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
 source-wordcount: '1789'
 ht-degree: 1%
@@ -139,9 +139,9 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       <li>Se vengono assegnati più ruoli e almeno uno di essi corrisponde a uno degli altri ruoli dell’utente, l’attività o il problema viene assegnato all’utente (il ruolo viene selezionato in modo casuale se sono presenti più corrispondenze), insieme a eventuali ruoli aggiuntivi assegnati</li>
       <li>Se viene assegnato almeno un ruolo di lavoro e non sono presenti corrispondenze ai ruoli di lavoro dell'utente, l'attività o il problema viene assegnato sia al ruolo o ai ruoli che all'utente.</li>
      </ul>
-   <p>Per informazioni sul ruolo principale di un utente e su altri ruoli, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p>
-   </td>
-  </tr>
+   <p>Per informazioni sul ruolo principale di un utente e su altri ruoli, consulta <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modificare il profilo di un utente</a>.</p>
+   </td> 
+     </tr>
   </tbody>
   </table>
 

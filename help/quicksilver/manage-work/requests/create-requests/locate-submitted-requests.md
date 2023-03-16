@@ -6,9 +6,9 @@ description: Scopri le aree di Adobe Workfront in cui puoi individuare le richie
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '880'
 ht-degree: 1%
 
 ---
@@ -121,7 +121,11 @@ Per individuare le richieste inviate da te o da altri utenti:
 
    Se un problema è stato convertito in un’attività o un progetto e il problema è stato eliminato nel processo di conversione, il pannello Riepilogo è vuoto. Per informazioni sulla conversione dei problemi, vedi [Panoramica sulla conversione dei problemi in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Da **Icona Filtro** ![](assets/filter-nwepng.png) in alto a destra nell’elenco, seleziona uno dei seguenti filtri:
+1. Da **Icona Filtro** ![](assets/filter-nwepng.png) in alto a destra nell’elenco, seleziona uno dei filtri elencati nella tabella seguente.
+
+   >[!TIP]
+   >
+   >Non è possibile modificare i filtri nell’area Richieste. Inoltre, non sono disponibili opzioni per modificare o modificare la visualizzazione dell’area Richieste.
 
    <table style="table-layout:auto"> 
     <col> 

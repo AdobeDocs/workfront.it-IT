@@ -6,9 +6,9 @@ description: Per aggiornare gli elementi di lavoro nelle aree di lavoro assegnat
 author: Alina
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -33,8 +33,8 @@ Devi disporre dei seguenti elementi:
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Pianificare, quando si utilizza il servizio di bilanciamento del carico di lavoro per un team o nell'area di determinazione origine </p>
-   <p>Operazioni da eseguire quando si utilizza il servizio di bilanciamento del carico di lavoro di un progetto </p>
+   <td> <p>Pianificare quando si utilizza il servizio di bilanciamento del carico di lavoro nell'area Origine</p>
+   <p>Lavoro, quando si utilizza il bilanciamento del carico di lavoro di un team o di un progetto</p> 
  </p> </td> 
   </tr> 
   <tr> 
