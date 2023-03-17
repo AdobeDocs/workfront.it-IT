@@ -6,20 +6,21 @@ title: Eliminare o archiviare una bacheca
 description: Potete eliminare o archiviare una bacheca in Workfront. L'eliminazione di una bacheca la rimuove definitivamente da Workfront, mentre l'archiviazione di una bacheca conserva tutte le schede e consente di ripristinarla in un secondo momento.
 author: Lisa
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
 
 # Eliminare o archiviare una bacheca
 
-Potete eliminare o archiviare una bacheca in [!DNL Workfront]. L&#39;eliminazione di una bacheca comporta la rimozione definitiva di tale bacheca [!DNL Workfront], mentre l&#39;archiviazione di una bacheca conserva tutte le schede e consente di ripristinarla in un secondo momento. Queste opzioni si applicano sia alle schede indipendenti che alle bacheche che fanno parte delle raccolte.
+Potete eliminare o archiviare una bacheca in [!DNL Workfront]. L&#39;eliminazione di una bacheca comporta la rimozione definitiva di tale bacheca [!DNL Workfront], mentre l&#39;archiviazione di una bacheca conserva tutte le schede e consente di ripristinarla in un secondo momento. Queste opzioni si applicano sia alle schede indipendenti che alle bacheche che fanno parte dei flussi di lavoro.
 
 >[!NOTE]
 >
->Le raccolte sono disponibili solo tramite la funzionalità opt-in iniziale per le bacheche Workfront.
+>La versione precedente dei flussi di lavoro, denominata raccolte, è disponibile solo tramite la funzionalità opt-in iniziale per [!UICONTROL [!DNL Workfront] Schede]. Per maggiori dettagli, vedi [Funzionalità opt-in in anteprima per le schede Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+>I flussi di lavoro sono disponibili per tutti gli utenti nell’ambiente Anteprima.
 
 ## Requisiti di accesso
 

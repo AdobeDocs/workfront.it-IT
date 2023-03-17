@@ -6,30 +6,32 @@ description: La [!UICONTROL bacheche] Il dashboard mostra l'elenco delle bachech
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: e27965502ef7943f901daecd12897a4d3428068e
+source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
 
 # Utilizzare il dashboard delle bacheche
 
-Il dashboard delle bacheche mostra l&#39;elenco delle bacheche e delle raccolte a cui hai accesso, incluse le bacheche create e le bacheche a cui sei stato aggiunto. Vengono visualizzate per prime le bacheche singole alle quali hai accesso e che non fanno parte di una raccolta.
+{{highlighted-preview}}
+
+Il dashboard delle bacheche mostra l&#39;elenco delle bacheche e dei flussi di lavoro a cui hai accesso, incluse le bacheche che hai creato e le bacheche a cui sei stato aggiunto. Vengono visualizzate per prime le singole bacheche a cui hai accesso che non fanno parte di un flusso di lavoro.
 
 >[!NOTE]
 >
->Le raccolte sono disponibili solo tramite l’opt-in della funzione iniziale per [!DNL Workfront] [!UICONTROL Schede].
+>I flussi di lavoro sono disponibili nell’ambiente di anteprima e in Produzione tramite la funzionalità opt-in iniziale per [!UICONTROL [!DNL Workfront] Schede]. Per maggiori dettagli, vedi [Funzionalità opt-in in anteprima per le schede Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-Nel dashboard puoi effettuare le seguenti operazioni per bacheche e raccolte:
+Nel dashboard puoi effettuare le seguenti operazioni per le bacheche e i flussi di lavoro:
 
-* Archiviare una bacheca (le raccolte non possono essere archiviate)
-* Filtrare l&#39;elenco delle bacheche
+* Archiviare una bacheca <span class="preview">o flusso di lavoro</span>
+* Filtrare le bacheche <span class="preview">e flussi di lavoro</span>
 * Ordina l&#39;elenco delle bacheche in base al nome o alla data di modifica della bacheca
-* Cercare una bacheca o una raccolta
-* Eliminare una bacheca o una raccolta
+* Cercare una bacheca o un flusso di lavoro
+* Eliminare una bacheca o un flusso di lavoro
 
-Per informazioni sulla creazione di una nuova bacheca o sulla modifica di una bacheca esistente, vedete [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md). Per informazioni sulla creazione di una nuova raccolta, vedi [Gestire le raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Per informazioni sulla creazione di una nuova bacheca o sulla modifica di una bacheca esistente, vedete [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md). Per informazioni sulla creazione di un nuovo flusso di lavoro, vedi [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisiti di accesso
 
@@ -52,14 +54,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
 
-## Schede filtro {#filter-boards}
+## Schede filtro <span class="preview">e flussi di lavoro</span> {#filter-boards}
 
-Potete filtrare il dashboard delle bacheche per visualizzare le bacheche attive, le bacheche archiviate o tutte le bacheche.
+Potete filtrare il dashboard delle bacheche in modo da visualizzare le schede attive, archiviate o tutti i flussi di lavoro o le bacheche.
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic su [!UICONTROL **Filtro**] e seleziona **[!UICONTROL Tutto]**, **[!UICONTROL Schede attive]** oppure **[!UICONTROL Schede archiviate]**.
+1. Fai clic su [!UICONTROL **Filtro**] nell&#39;area Bacheche o nell&#39;area Flussi di lavoro, selezionare **[!UICONTROL Tutto]**, **[!UICONTROL Attivo]** oppure **[!UICONTROL Archiviato]**.
 
-   Quando sul dashboard viene applicato un filtro diverso da quello predefinito, sull&#39;icona del filtro viene visualizzato un indicatore ![[!UICONTROL Filtro applicato a] dashboard](assets/boards-filterapplied-30x30.png).
+   Quando sul dashboard viene applicato un filtro diverso da quello predefinito, sull&#39;icona del filtro viene visualizzato un indicatore ![Filtro applicato al dashboard](assets/boards-filterapplied-30x30.png).
 
 ## Schede di ordinamento
 
@@ -70,64 +72,68 @@ Potete filtrare il dashboard delle bacheche per visualizzare le bacheche attive,
 
    Quando sul dashboard viene applicato un ordinamento diverso da quello predefinito, sull&#39;icona di ordinamento viene visualizzato un indicatore ![Ordinamento applicato](assets/sort-applied-boards.png).
 
-## Cercare una bacheca o una raccolta
+## Cercare una bacheca o un flusso di lavoro
 
-Potete cercare una bacheca specifica nell&#39;area Bacheche oppure cercare una raccolta specifica nell&#39;area Raccolte.
+È possibile eseguire ricerche nell&#39;area Bacheche per una bacheca specifica oppure cercare un flusso di lavoro specifico nell&#39;area Flussi di lavoro.
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
 1. Fai clic su [!UICONTROL **Ricerca**] e digitare un termine di ricerca. Quindi, premere Invio.
 
-   Vengono visualizzate tutte le bacheche contenenti il termine di ricerca nel titolo.
+   Vengono visualizzate tutte le bacheche o i flussi di lavoro che contengono il termine di ricerca nel titolo.
 
    Fai clic sulla X per cancellare la ricerca.
 
    ![Cercare bacheche nel dashboard](assets/boards-searchbox.png)
 
-## Archiviare una bacheca
+## Archiviare una bacheca <span class="preview">o un flusso di lavoro</span>
 
-L&#39;archiviazione di una bacheca la invia all&#39;archivio ed è possibile ripristinarla in un secondo momento.
+L&#39;archiviazione di una bacheca o di un flusso di lavoro la invia all&#39;archivio ed è possibile ripristinarla in un secondo momento.
 
 >[!NOTE]
 >
 >Quando archiviate una bacheca, questa viene archiviata per tutti i membri della bacheca.
+>
+>Quando si archivia un flusso di lavoro, tutte le relative schede vengono archiviate.
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sulla bacheca e selezionare **[!UICONTROL Archivia]**.
+1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) sulla bacheca o sul flusso di lavoro e selezionare **[!UICONTROL Archivia]**.
 
-   Un [!UICONTROL Archivia] icona ![Archivia](assets/archive-icon-spectrum-25x20.png) appare sulla bacheca. Non è possibile modificare una bacheca archiviata.
+   Su un flusso di lavoro, il menu si trova a destra, accanto al [!UICONTROL **Visualizza flusso di lavoro**] pulsante .
 
-   Le bacheche archiviate sono nascoste nel dashboard delle bacheche a meno che non si applichi un filtro per visualizzarle. Per ulteriori informazioni, consulta la sezione [[!UICONTROL Schede filtro]](#filter-boards) in questo articolo.
+   Un [!UICONTROL Archivia] icona ![Archivia](assets/archive-icon-spectrum-25x20.png) appare sulla bacheca o sul flusso di lavoro. Non è possibile modificare una bacheca archiviata o un flusso di lavoro.
 
-1. Per ripristinare una bacheca archiviata, fate clic sul pulsante **[!UICONTROL Altro]** menu ![Icona menu Altro](assets/more-icon-spectrum.png) sulla bacheca e selezionare **[!UICONTROL Ripristina]**.
+   Gli elementi archiviati vengono nascosti nel dashboard delle bacheche, a meno che non venga applicato un filtro per visualizzarli. Per ulteriori informazioni, consulta la sezione [[!UICONTROL Schede filtro]](#filter-boards) in questo articolo.
 
-## Eliminare una bacheca o una raccolta
+1. Per ripristinare una bacheca o un flusso di lavoro archiviati, fare clic sul pulsante **[!UICONTROL Altro]** menu ![Icona menu Altro](assets/more-icon-spectrum.png) sulla bacheca o sul flusso di lavoro e selezionare **[!UICONTROL Ripristina]**.
+
+## Eliminare una bacheca o un flusso di lavoro
 
 Quando eliminate una bacheca, viene rimossa definitivamente da [!DNL Workfront] e non può essere ripristinato. Tutte le carte sulla bacheca vengono cancellate insieme alla bacheca.
 
-L&#39;eliminazione di una raccolta elimina tutte le bacheche della raccolta.
+L&#39;eliminazione di un flusso di lavoro elimina anche tutte le schede nel flusso di lavoro.
 
 >[!NOTE]
 >
->Potete eliminare solo le bacheche e le raccolte create, non le bacheche e le raccolte a cui siete stati aggiunti.
+>Potete eliminare solo le bacheche e i flussi di lavoro creati, non le bacheche e i flussi di lavoro a cui siete stati aggiunti.
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla bacheca o sulla raccolta e selezionare **[!UICONTROL Elimina]**.
+1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla bacheca o sul flusso di lavoro e selezionare **[!UICONTROL Elimina]**.
 
-   In una raccolta, il menu si trova a destra, accanto al [!UICONTROL **Visualizza raccolta**] pulsante .
+   Su un flusso di lavoro, il menu si trova a destra, accanto al [!UICONTROL **Visualizza flusso di lavoro**] pulsante .
 
-1. Fai clic su **[!UICONTROL Elimina bacheca]** o [!UICONTROL **Elimina raccolta**] nel messaggio di conferma.
+1. Fai clic su **[!UICONTROL Elimina bacheca]** o [!UICONTROL **Elimina flusso di lavoro**] nel messaggio di conferma.
 
-## Spostare una bacheca in una raccolta
+## Spostare una bacheca in un flusso di lavoro
 
-Potete spostare una bacheca autonoma in una raccolta o spostare una bacheca da una raccolta a un&#39;altra.
+È possibile spostare una scheda indipendente in un flusso di lavoro o spostare una scheda da un flusso di lavoro a un altro flusso di lavoro.
 
 >[!NOTE]
 >
 >Potete spostare solo le bacheche create, non le bacheche alle quali siete stati aggiunti.
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla bacheca e selezionare [!UICONTROL **Sposta alla raccolta**].
-1. Selezionate la raccolta a cui aggiungere la bacheca e fate clic su [!UICONTROL **Sposta**].
+1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla bacheca e selezionare [!UICONTROL **Passa a flusso di lavoro**].
+1. Selezionare il flusso di lavoro a cui aggiungere la bacheca e fare clic su [!UICONTROL **Sposta**].
 
-   La bacheca viene spostata nella raccolta e non viene più visualizzata nella [!UICONTROL Schede] area.
-Se non avete ancora creato una raccolta, vi verrà richiesto di crearne una in cui spostare la bacheca.
+   La bacheca viene spostata nel flusso di lavoro e non viene più visualizzata nel [!UICONTROL Schede] area.
+Se non avete ancora creato un flusso di lavoro, vi viene richiesto di crearne uno in cui spostare la bacheca.

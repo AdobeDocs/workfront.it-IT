@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
 workflow-type: tm+mt
-source-wordcount: '12763'
+source-wordcount: '12773'
 ht-degree: 1%
 
 ---
@@ -928,7 +928,10 @@ ht-degree: 1%
       * [Aggiungere una colonna di assunzione a una bacheca](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
       * [Utilizzare i gruppi su una bacheca](agile/use-boards-agile-planning-tools/group-cards-on-board.md)
       * [Configura decadimento scheda](agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-      * [Gestire le raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+      * [Utilizza l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+      * [Creare un’iterazione](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)
+      * [Metriche di iterazione della revisione](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
    * Kanban in un team agile {#kanban}
       * [Kanban in un team agile](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [Panoramica Kanban](agile/use-kanban-in-an-agile-team/kanban-overview.md)
