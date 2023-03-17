@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2574'
 ht-degree: 0%
 
 ---
@@ -138,7 +138,7 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere attività e problemi ai flussi di lavoro delle bacheche da elenchi e rapporti</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere attività e problemi da elenchi e rapporti a un elenco di schede del flusso di lavoro</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
                         <p>È ora possibile aggiungere attività o problemi esistenti a un flusso di lavoro in Workfront Boards direttamente da una vista a elenco o a rapporti. Tutti gli elementi aggiunti al flusso di lavoro vengono aggiunti all’elenco delle schede come schede non pianificate.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -170,7 +170,7 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere attività e problemi alle bacheche Workfront da elenchi e rapporti</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere attività e problemi da elenchi e rapporti a una bacheca Workfront</a></p>
                         <p>È ora possibile aggiungere attività o problemi esistenti a una bacheca di Workfront direttamente da una vista a elenco o a rapporti. Tutti gli elementi aggiunti alla bacheca diventeranno schede collegate.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>

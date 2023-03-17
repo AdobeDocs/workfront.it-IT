@@ -4,9 +4,9 @@ description: 23.2 Miglioramenti di Agile
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
+source-git-commit: 456794da11baf21bcd4f138d15719007ae2759a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,27 @@ Le raccolte sono state rinominate in flussi di lavoro. I flussi di lavoro consen
 
 Per ulteriori informazioni, consulta [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Creare un’iterazione](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)e [Utilizza l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). I due articoli successivi non saranno disponibili in Principale fino a quando non pubblicherò il ramo.
 
-## Aggiungere attività e problemi ai flussi di lavoro delle bacheche da elenchi e rapporti
+## Aggiungere attività e problemi da elenchi e rapporti a un elenco di schede del flusso di lavoro
 
 È ora possibile aggiungere attività o problemi esistenti a un flusso di lavoro in Workfront Boards direttamente da una vista a elenco o a rapporti. Tutti gli elementi aggiunti al flusso di lavoro vengono aggiunti all’elenco delle schede come schede non pianificate.
+
+Per ulteriori informazioni, consulta [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+
+## Aggiungi campi personalizzati alle schede di una bacheca
+
+È ora possibile includere campi personalizzati nelle bacheche Adobe Workfront. Il campo deve essere già creato in Workfront. Non potete progettare e creare nuovi campi personalizzati all&#39;interno di una bacheca.
+
+Come per i campi predefiniti, potete scegliere di visualizzare il campo personalizzato nella vista completa di una scheda e nella vista a condensa sulla bacheca.
+
+Tutti i dati del campo personalizzato della scheda sono di sola lettura.
+
+Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+
+## Aggiungere attività e problemi da elenchi e rapporti a una bacheca Workfront
+
+È ora possibile aggiungere attività o problemi esistenti a una bacheca di Workfront direttamente da una vista a elenco o a rapporti. Tutti gli elementi aggiunti alla bacheca diventeranno schede collegate.
+
+Inoltre, il campo Bacheche è ora disponibile per aggiungere a elenchi e rapporti per attività o problemi. In questo campo vengono visualizzate tutte le bacheche alle quali è stata aggiunta un&#39;attività o un problema.
 
 Per ulteriori informazioni, consulta [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
@@ -48,13 +66,6 @@ Per impostazione predefinita, i campi di registrazione dell&#39;ora non vengono 
 
 Per ulteriori informazioni, consulta [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Aggiungere attività e problemi alle bacheche Workfront da elenchi e rapporti
-
-È ora possibile aggiungere attività o problemi esistenti a una bacheca di Workfront direttamente da una vista a elenco o a rapporti. Tutti gli elementi aggiunti alla bacheca diventeranno schede collegate.
-
-Inoltre, il campo Bacheche è ora disponibile per aggiungere a elenchi e rapporti per attività o problemi. In questo campo vengono visualizzate tutte le bacheche alle quali è stata aggiunta un&#39;attività o un problema.
-
-Per ulteriori informazioni, consulta [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Personalizzare la visualizzazione dei campi su una scheda
 
