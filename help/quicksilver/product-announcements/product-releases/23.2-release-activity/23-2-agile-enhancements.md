@@ -4,9 +4,9 @@ description: 23.2 Miglioramenti di Agile
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8a209bbe64b7b69b41cd9e4d2f603ff58491ba30
+source-git-commit: 938bccf3b3eedf010b7d1db451c365f6097dc64d
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,27 +17,24 @@ Questa pagina descrive tutti i miglioramenti apportati all’ambiente di antepri
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di versione 23.2, vedi [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-<!--
+## Funzionalità di iterazione disponibile nelle schede Adobe Workfront
 
-## Iteration functionality available in Adobe Workfront Boards
+Diverse nuove funzioni disponibili nelle schede Workfront consentono di utilizzare la funzionalità Scrum agile. Queste funzioni includono:
 
-Several new features available in Workfront Boards make it possible to use agile Scrum functionality. These features include:
+* Flussi di lavoro per raggruppare bacheche correlate allo stesso team e collaborare sul lavoro
+* Un elenco di schede, o backlog di lavoro, con la possibilità di utilizzare le origini per collegare le schede alle attività e ai problemi di Workfront
+* Schede di processo di pianificazione e iterazione dell&#39;iterazione
 
-* Workstreams for grouping boards related to the same team, and collaborating on work
-* A list of cards, or backlog of work, with the option to use sources to connect cards to Workfront tasks and issues
-* Iteration planning and iteration process boards
+Le raccolte sono state rinominate in flussi di lavoro. I flussi di lavoro consentono di visualizzare i dati in modi diversi. Potete visualizzare gli elementi su schede in un elenco, su una bacheca o su un&#39;iterazione. Le schede in un flusso di lavoro possono essere condivise anche tra più bacheche. È possibile facilitare facilmente i flussi di lavoro utilizzando schede e bacheche in un flusso di lavoro.
 
-Note that collections have been renamed to workstreams. Workstreams help you visualize data in different ways. You can display items on cards in a list, on a board, or on an iteration. Cards in a workstream can also be shared among multiple boards. You can easily facilitate workflows using cards and boards in a workstream.
+Per ulteriori informazioni, consulta [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Creare un’iterazione](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md)e [Utilizza l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). I due articoli successivi non saranno disponibili in Principale fino a quando non pubblicherò il ramo.
 
-For more information, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Create an iteration](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md), and [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). Second two articles will not be available in Main until I publish my branch.
+## Aggiungere attività e problemi ai flussi di lavoro delle bacheche da elenchi e rapporti
 
-## Add tasks and issues to Boards workstreams from lists and reports
+È ora possibile aggiungere attività o problemi esistenti a un flusso di lavoro in Workfront Boards direttamente da una vista a elenco o a rapporti. Tutti gli elementi aggiunti al flusso di lavoro vengono aggiunti all’elenco delle schede come schede non pianificate.
 
-You can now add existing tasks or issues to a workstream in Workfront Boards directly from a list or report view. Any items you add to the workstream are added to the card list as unplanned cards.
+Per ulteriori informazioni, consulta [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
-For more information, see [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
-
--->
 
 ## Orari di accesso alle schede collegate su una bacheca
 
@@ -50,6 +47,14 @@ Ora è possibile accedere alle ore sulle schede collegate, nello stesso modo in 
 Per impostazione predefinita, i campi di registrazione dell&#39;ora non vengono visualizzati sulle schede collegate. È necessario attivare **Ore** nell&#39;area Configura sotto Schede.
 
 Per ulteriori informazioni, consulta [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+## Aggiungere attività e problemi alle bacheche Workfront da elenchi e rapporti
+
+È ora possibile aggiungere attività o problemi esistenti a una bacheca di Workfront direttamente da una vista a elenco o a rapporti. Tutti gli elementi aggiunti alla bacheca diventeranno schede collegate.
+
+Inoltre, il campo Bacheche è ora disponibile per aggiungere a elenchi e rapporti per attività o problemi. In questo campo vengono visualizzate tutte le bacheche alle quali è stata aggiunta un&#39;attività o un problema.
+
+Per ulteriori informazioni, consulta [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Personalizzare la visualizzazione dei campi su una scheda
 
