@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: f4e3991745109bfe9f2d27d4be30bbcf90a23cb4
+source-git-commit: 77a4d3291882e0a5284971fa0bc054b8d81e6349
 workflow-type: tm+mt
-source-wordcount: '2376'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -397,13 +397,13 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Dashboard di Canvas</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Dashboard di Canvas</a><span style="color: #ff0000;"> Presto disponibile!</span></p>
                         <p>I dashboard di Area di lavoro sono stati aggiunti come funzione disponibile per i dashboard che è possibile abilitare nei modelli di layout. I dashboard di Area di lavoro consentono di combinare le visualizzazioni Area di reporting con i rapporti esistenti, oltre alle nuove opzioni di layout. Attualmente sono supportati solo i rapporti elenco, ma saranno aggiunte più opzioni man mano che lo sviluppo continua.</p>
                     </td>
-                    <td><p><b>Disponibile alle seguenti date: N/D</b></p>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
                         <ul>
                             <li>
-                                <p>Anteprima versione:<br /></p>
+                                <p>Anteprima versione:N/D<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Versione di produzione: Con la versione 23.2</span></p>
