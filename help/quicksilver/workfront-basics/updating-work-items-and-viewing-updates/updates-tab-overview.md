@@ -2,27 +2,56 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Panoramica della scheda Aggiornamenti
-description: La scheda Aggiornamenti mostra fino a 200 degli aggiornamenti più recenti effettuati negli ultimi 90 giorni.
+title: Panoramica della sezione Aggiornamenti
+description: La sezione Aggiornamenti mostra fino a 200 degli ultimi aggiornamenti effettuati negli ultimi 90 giorni.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 19872953e847921c0fee6d383026641c05012ead
+source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 7%
+source-wordcount: '592'
+ht-degree: 6%
 
 ---
 
-# Panoramica della scheda Aggiornamenti
+# Panoramica della sezione Aggiornamenti
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only for a limited number of objects when you opt in to the new commenting experience Beta.</span> -->
+<!--take "Beta" references out when we remove the beta-->
 
-<!-- for preview commenting beta: at the release of commenting beta: change the title to: Updates section overview - also update ALL articles from which this is linked-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 
-La scheda Aggiornamenti mostra fino a 200 degli aggiornamenti più recenti effettuati negli ultimi 90 giorni.
+>[!NOTE]
+>
+>We are currently redesigning the Updates section of an object. You can access the new design by enabling the commenting Beta. 
+Currently, the Beta is available for <span class="preview">issues</span>. 
+For more information about the new commenting  experience, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md). 
 
-È possibile commentare e rispondere agli aggiornamenti sui seguenti oggetti:
+-->
+
+Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti relativi all’oggetto o agli aggiornamenti di sistema che tengono traccia delle modifiche apportate all’oggetto.
+
+## Panoramica della sezione Aggiornamenti
+
+<!--drafted for the commenting beta for issues: 
+The information is organized differently in the Updates section, depending on which environment you access it from. 
+
+###  Overview of the current Updates section 
+-->
+
+La sezione Aggiornamenti di un oggetto mostra fino a 200 degli aggiornamenti più recenti effettuati negli ultimi 90 giorni.
+
+<!--drafted for the commenting beta for issues: 
+The current Updates section shows the following information:
+
+************** AND REMOVE THE SENTENCE BELOW WHEN MAKING THIS LIVE:
+-->
+
+La sezione Aggiornamenti mostra le seguenti informazioni:
+
+* Osservazioni degli utenti e risposte a tali osservazioni.
+* Aggiornamenti di sistema, ovvero messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, è possibile acquisire le modifiche di stato, nome o campi personalizzati con gli aggiornamenti di sistema. L’amministratore di Workfront o di gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Viene visualizzata la sezione Aggiornamenti per i seguenti oggetti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,11 +81,43 @@ La scheda Aggiornamenti mostra fino a 200 degli aggiornamenti più recenti effet
  </tbody> 
 </table>
 
+<!--drafted for the commenting beta for issues: 
+###  Overview of the Updates section in the Beta commenting experience
+
+The Updates section displays information in the following tabs in the Beta commenting experience: 
+
+* **Updates**: Displays comments made by users and replies to those comments. 
+* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your ojects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+Currenlty, you can make comments and reply to updates using the Beta commenting experience on the following objects:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li>Goals</li> 
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li><span class="preview">Issues</span></li> 
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>The commenting experience Beta is the default current experience for goals. You must have an additional license to access Workfront Goals. For information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
+
 ## Aggiornamenti che vengono visualizzati anche su oggetti di rango più elevato
 
-Come illustrato nella tabella seguente, le risposte agli aggiornamenti su alcuni oggetti vengono visualizzate anche nella scheda Aggiornamenti di oggetti di livello superiore.
+Come illustrato nella tabella seguente, anche le risposte agli aggiornamenti su alcuni oggetti vengono visualizzate nella sezione Aggiornamenti di oggetti di livello superiore.
 
-Ad esempio, quando si aggiunge un aggiornamento a un’attività, l’aggiornamento viene visualizzato nella scheda Aggiornamenti dell’attività e nella scheda Aggiornamenti del progetto contenente l’attività.
+Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggiornamento viene visualizzato nella sezione Aggiornamenti dell&#39;attività e nella sezione Aggiornamenti del progetto contenente l&#39;attività.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,18 +186,18 @@ Ad esempio, quando si aggiunge un aggiornamento a un’attività, l’aggiorname
 <!-- drafted for the new commenting experience for issues in beta: Add this paragraph to the note above: 
 ><span class="preview"> It is not possible to reply to system updates in the new commenting experience Beta. For more information, see [New commenting experience](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span> -->
 
-## Limitazioni della scheda Aggiornamenti
+## Limitazioni della sezione Aggiornamenti
 
 ### Limitazioni per utenti e team
 
-Non è possibile eseguire aggiornamenti sui team. La scheda Aggiornamenti per i team viene compilata dagli aggiornamenti immessi nei seguenti oggetti:
+Non è possibile eseguire aggiornamenti sui team. La sezione Aggiornamenti per i team viene compilata dagli aggiornamenti immessi nei seguenti oggetti:
 
 * Utenti
 * Schede orario
 * Storie
 * Iterazioni
 
-Nella scheda Aggiornamenti per utenti e team, puoi visualizzare gli aggiornamenti immessi negli ultimi 90 giorni.
+Nella sezione Aggiornamenti per utenti e team, puoi visualizzare gli aggiornamenti immessi negli ultimi 90 giorni.
 
 Se desideri visualizzare tutti gli aggiornamenti effettuati su un utente o un team, oltre il limite di 90 giorni, puoi creare un rapporto per le note. Il rapporto non deve avere un filtro temporale che mostri tutti gli aggiornamenti effettuati per utenti o team. Per ulteriori informazioni, consulta [Creare un rapporto personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
