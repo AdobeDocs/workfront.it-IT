@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2577'
 ht-degree: 0%
 
 ---
@@ -484,7 +484,7 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova esperienza di commento per problemi Beta</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova esperienza di commento per problemi Beta<span style="color: #ff0000;"> Novità in Anteprima!</span></a>
                         <p>Un aggiornamento dell’esperienza di commento in Adobe Workfront è attualmente in fase di sviluppo. Questo aggiornamento include una nuova interfaccia, nuove funzionalità e prestazioni migliorate nella sezione Aggiornamenti di alcuni oggetti. </p>
                         <p>Questa nuova esperienza unirà i commenti in Adobe Workfront e oltre, in Adobe Experience Cloud. </p>
                     </td>

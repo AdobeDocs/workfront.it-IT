@@ -4,9 +4,9 @@ description: 23.2 Altri miglioramenti
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b1c9a72587c0c7128feee6b5992e2069668af4f7
+source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Con questa riprogettazione, abbiamo rimosso l’aggiunta di commenti agli aggior
 Nelle versioni future verranno aggiunte ulteriori funzioni, in quanto questi miglioramenti continueranno ad essere aggiunti ad altri oggetti.
 
 Per informazioni sulle offerte della nuova esperienza di commento, consulta [Esperienza di commento unificata](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+
+[Guarda un video dimostrativo di questa funzione.](https://video.tv.adobe.com/v/3416962/){target=_blank}
 
 ## Esportare le tavole da disegno come file PDF singolo o come più file PDF in Adobe Workfront per XD
 
