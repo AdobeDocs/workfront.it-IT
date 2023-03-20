@@ -6,7 +6,7 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
 workflow-type: tm+mt
 source-wordcount: '2674'
 ht-degree: 1%
@@ -218,15 +218,16 @@ il
       ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
 
 1. Fai clic su **Invia** per aggiungere l’aggiornamento all’oggetto Workfront.
-1. (Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.
-1. Modifica le informazioni nel commento o rimuovi uno degli utenti con tag.
-È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.
+1. <span class="preview">(Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.</span>
+1. <span class="preview">Modifica le informazioni nel commento o rimuovi uno degli utenti con tag. </span>
+
+   <span class="preview">È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato. </span>
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   Viene generato un messaggio e-mail per avvisare gli utenti dell’aggiornamento solo quando si invia l’aggiornamento originale. Dopo aver modificato l’aggiornamento non viene generato alcun messaggio e-mail.
+   >   <span class="preview">Viene generato un messaggio e-mail per avvisare gli utenti dell’aggiornamento solo quando si invia l’aggiornamento originale. Dopo aver modificato l’aggiornamento non viene generato alcun messaggio e-mail.</span>
 1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 4-7 di cui sopra. <!--(**************insure this stays accurate***********)-->. Per informazioni sulla risposta a un aggiornamento, consulta [Risposta agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Facoltativo) Fai clic sul pulsante **Simile** icona![](assets/like-icon.png). L’icona si aggiorna con il numero di Mi piace.
 1. (Condizionale e Facoltativo) Se hai incluso altre persone nel commento, fai clic sul numero di membri inclusi nell’aggiornamento per visualizzare un elenco di entità con cui è condiviso il commento immesso.
