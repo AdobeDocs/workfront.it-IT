@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: get-started-with-workfront
 title: Aggiorna elementi di lavoro e visualizza aggiornamenti
 description: È possibile utilizzare la sezione Aggiornamenti della maggior parte degli oggetti per aggiungere commenti, risposte o per seguire gli aggiornamenti monitorati dal sistema sulle modifiche apportate all’oggetto.
-author: Lisa and Alina
+author: Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 39647f235c2e131e0ddd5d3b72d2f073387e531e
+source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
