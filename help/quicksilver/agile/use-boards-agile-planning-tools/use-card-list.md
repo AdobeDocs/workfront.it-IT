@@ -6,9 +6,9 @@ title: Utilizza l'elenco delle schede
 description: È possibile creare un elenco di schede in un flusso di lavoro e aggiungere le schede alle iterazioni.
 author: Lisa
 feature: Agile
-source-git-commit: e5f65106226d82b24c7fa359e53136226f3d1239
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Fai clic sulla X per cancellare la ricerca.
 
 >[!NOTE]
 >
->È necessario creare un&#39;iterazione prima di poter aggiungere schede. Per informazioni, consulta [Creare un’iterazione](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+>È necessario creare un&#39;iterazione prima di poter aggiungere schede. Per informazioni, consulta [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Accedi all&#39;elenco delle schede per il flusso di lavoro.
 1. Seleziona la [!UICONTROL **Visualizzazione iterazione**] per vedere quali schede sono assegnate a un&#39;iterazione e quali non sono pianificate.

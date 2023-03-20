@@ -6,9 +6,9 @@ title: Gestire i flussi di lavoro
 description: Un flusso di lavoro è un gruppo configurabile di bacheche e schede per collaborare sul lavoro.
 author: Lisa
 feature: Agile
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '868'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 Un flusso di lavoro è un gruppo configurabile di bacheche e schede per collaborare sul lavoro. I flussi di lavoro possono includere diversi tipi di bacheche create da modelli, <span class="preview">e un elenco a schede degli elementi di lavoro. In un flusso di lavoro è possibile tenere traccia del lavoro in iterazioni o spruzzi.</span>
 
-<span class="preview">Per ulteriori informazioni, consulta [Utilizza l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) e [Creare un’iterazione](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).</span>
+<span class="preview">Per ulteriori informazioni, consulta [Utilizza l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) e [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
 
 I flussi di lavoro vengono visualizzati sul dashboard insieme alle singole bacheche a cui hai accesso che non fanno parte di un flusso di lavoro. Per informazioni sul dashboard delle bacheche, vedete [Utilizzare il dashboard delle bacheche](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Potete fare clic su un nome di bacheca nel dashboard per aprirlo.
 
@@ -68,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 | Bacheca base | Sulla bacheca sono fornite tre colonne predefinite. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Non vengono applicati criteri di colonna. |
 | Bacheca Kanban | Nella bacheca sono disponibili le colonne seguenti: Backlog, Nuovo, In corso, Completo e Bloccato. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite.<p>Per utilizzare il backlog, è necessario impostare i filtri per la colonna di assunzione. Per informazioni, consulta [Aggiungere una colonna di assunzione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Per esaminare i criteri predefiniti per ciascuna colonna, fai clic sul pulsante [!UICONTROL **Altro** menu] su una colonna e seleziona [!UICONTROL **Modifica**]. È possibile modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Bacheca retrospettiva | Nella bacheca sono disponibili le colonne seguenti: Cos&#39;è andato bene? Cosa migliorare? Con chi congratularsi? Come velocizzare? È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Non vengono applicati criteri di colonna. |
-| <span class="preview">Processo di iterazione</span> | <span class="preview">Questa è la bacheca utilizzata per definire ed eseguire un&#39;iterazione. <p>Nella bacheca sono disponibili le colonne seguenti: Backlog, Nuovo, In corso, Completo e Bloccato. Non è possibile aggiungere colonne alla bacheca. <p>Per esaminare i criteri predefiniti per ciascuna colonna, fai clic sul pulsante [!UICONTROL **Altro**] in una colonna e seleziona [!UICONTROL **Modifica**]. È possibile modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+| <span class="preview">Processo iterazione</span> | <span class="preview">Questa è la bacheca utilizzata per definire ed eseguire un&#39;iterazione. <p>Nella bacheca sono disponibili le colonne seguenti: Backlog, Nuovo, In corso, Completo e Bloccato. Non è possibile aggiungere colonne alla bacheca. <p>Per esaminare i criteri predefiniti per ciascuna colonna, fai clic sul pulsante [!UICONTROL **Altro**] in una colonna e seleziona [!UICONTROL **Modifica**]. È possibile modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
 
 Per ulteriori informazioni sulla configurazione della bacheca, consultate [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -111,7 +111,7 @@ Quando nell&#39;elenco delle bacheche vengono applicati filtri diversi da quelli
 
    Il numero totale di schede, il numero di schede puntate e il numero di iterazioni vengono visualizzati nella sezione Elenco schede. Fai clic su [!UICONTROL **Visualizza elenco**] per aprire l’elenco e aggiungere schede. Per ulteriori informazioni, consulta [Utilizza l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Se è stata definita un’iterazione, vengono visualizzati la data di inizio, il numero di schede e il numero di punti. Fai clic su [!UICONTROL **Visualizza bacheca di iterazione**] per aprire la bacheca. Per ulteriori informazioni, consulta [Creare un’iterazione](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration.md).
+   Se è stata definita un’iterazione, vengono visualizzati la data di inizio, il numero di schede e il numero di punti. Fai clic su [!UICONTROL **Visualizza bacheca di iterazione**] per aprire la bacheca. Per ulteriori informazioni, consulta [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Fai clic su [!UICONTROL **Aggiungi origine**] per definire un&#39;origine per importare le schede nel flusso di lavoro. Al momento, l’unica sorgente disponibile è [!DNL Adobe Workfront].
 1. Aggiungi dei filtri per importare attività e problemi da Workfront come schede.
