@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '928'
 ht-degree: 4%
 
 ---
@@ -22,11 +22,30 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->È in corso la riprogettazione della sezione Aggiornamenti di un oggetto. È possibile accedere alla nuova progettazione abilitando la funzione di commento Beta.
+>È in corso la riprogettazione della sezione Aggiornamenti di un oggetto.
 >
->Attualmente, la versione beta è disponibile per <span class="preview">questioni</span>.
+>Per ulteriori informazioni sulla nuova esperienza di aggiornamento, consulta [Nuova esperienza di commento](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->Per ulteriori informazioni sulla nuova esperienza di commento, consulta [Nuova esperienza di commento](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>È possibile accedere alla nuova progettazione dai seguenti oggetti e nei seguenti ambienti:
+>
+>* <span class="preview">Quando abiliti l’esperienza di creazione dei commenti per i seguenti oggetti:</span>
+   >
+   >     * <span class="preview">Problemi</span>
+
+   >     
+   >     <span class="preview">Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:</span>
+   >
+   >     * <span class="preview">Home</span>
+   >     * <span class="preview">Pannello di riepilogo negli elenchi</span>
+   >     * <span class="preview">Pannello Riepilogo nei fogli presenze</span>
+>
+>* Per impostazione predefinita, come esperienza di commento corrente per i seguenti oggetti:
+   >
+   >     * Obiettivi
+
+   >
+   >     Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti relativi all’oggetto o agli aggiornamenti di sistema che tengono traccia delle modifiche apportate all’oggetto.
 
@@ -79,9 +98,9 @@ Viene visualizzata la sezione Aggiornamenti per i seguenti oggetti:
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-La sezione Aggiornamenti visualizza informazioni nelle seguenti schede nell’esperienza di commento in versione beta:
+Nella nuova esperienza di commento, la sezione Aggiornamenti visualizza le informazioni nelle seguenti schede:
 
-* **Aggiornamenti**: Visualizza i commenti degli utenti e le risposte a tali commenti. Per informazioni sull’aggiornamento degli oggetti nella nuova esperienza di creazione dei commenti, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+* **Commenti**: Visualizza i commenti degli utenti e le risposte a tali commenti. Per informazioni sull’aggiornamento degli oggetti nella nuova esperienza di creazione dei commenti, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 * **Attività di sistema**: Visualizza gli aggiornamenti di sistema che sono messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, è possibile acquisire le modifiche di stato, nome o campi personalizzati con gli aggiornamenti di sistema. L’amministratore di Workfront o di gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 Al momento, è possibile effettuare commenti e rispondere agli aggiornamenti utilizzando l’esperienza di commento Beta per i seguenti oggetti:
@@ -102,14 +121,6 @@ Al momento, è possibile effettuare commenti e rispondere agli aggiornamenti uti
   </tr> 
  </tbody> 
 </table>
-
->[!NOTE]
->
->L’esperienza di commento Beta è l’esperienza corrente predefinita per gli obiettivi. Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront.
->
->Per informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
->
->Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 ## Aggiornamenti che vengono visualizzati anche su oggetti di rango più elevato
 

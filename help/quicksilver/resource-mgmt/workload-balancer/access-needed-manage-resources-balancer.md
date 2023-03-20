@@ -6,7 +6,7 @@ description: Senza l'accesso o le autorizzazioni corrette, è possibile che non 
 author: Alina
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
 source-wordcount: '535'
 ht-degree: 0%
@@ -28,8 +28,8 @@ La tabella seguente illustra la connessione tra il piano Workfront della tua azi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Workfront Plan</p></td> 
-   <td> <p>Aree in cui è possibile accedere al servizio di bilanciamento del carico di lavoro</p> </td> 
+   <td role="rowheader"><p><b>Workfront Plan</b></p></td> 
+   <td> <p><b>Aree in cui è possibile accedere al servizio di bilanciamento del carico di lavoro</b></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team o superiore </td> 

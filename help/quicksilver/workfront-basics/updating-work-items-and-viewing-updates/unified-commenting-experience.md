@@ -5,9 +5,9 @@ title: Esperienza di commento unificata
 description: La nuova esperienza di commento unificata
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -247,7 +247,8 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td><span class="preview">✓</span>
+   <p><span class="preview">Questa funzione dovrebbe essere disponibile con la versione 23.2 ed è stata temporaneamente ritardata.</span> 
    </td>
    <td> 
    </td>

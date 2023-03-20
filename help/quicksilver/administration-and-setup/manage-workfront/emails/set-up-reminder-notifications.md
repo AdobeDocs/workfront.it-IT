@@ -1,13 +1,13 @@
 ---
 title: Impostare le notifiche dei promemoria
 description: Impostare le notifiche dei promemoria
-author: Lisa, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,15 @@ Per informazioni su come creare un modello e-mail, consulta [Configurare i model
      </tr> 
      <tr> 
       <td role="rowheader">Timing</td> 
-      <td> <p>Seleziona l’evento che attiva la notifica del promemoria da pianificare.</p> <p>Se la notifica di promemoria è destinata a progetti, attività o problemi, le opzioni disponibili sono correlate alla data di completamento o alla data di inizio. La notifica di promemoria tiene conto della marca temporale relativa alle date di completamento e di inizio dei progetti, delle attività e dei problemi.</p> <p>Se la notifica del promemoria è destinata ai fogli presenze, le opzioni disponibili sono correlate alla data di fine, alla data di inizio o alla data dell'ultimo aggiornamento. La notifica di promemoria per i fogli presenze tiene conto dell'indicatore orario della data di fine, inizio e ultimo aggiornamento della scheda attività. La scheda attività inizia a mezzanotte del giorno della data di inizio (ore 12:00) e termina immediatamente prima della mezzanotte della data di fine (ore 11:59).</p> </td> 
+      <td> <p>Seleziona l’evento che attiva la notifica del promemoria da pianificare.</p> <p>Se la notifica di promemoria è destinata a progetti, attività o problemi, le opzioni disponibili sono correlate alla data di completamento o alla data di inizio. La notifica di promemoria tiene conto della marca temporale relativa alle date di completamento e di inizio dei progetti, delle attività e dei problemi.</p>
+
+   <p>Se la notifica del promemoria è destinata ai fogli presenze, le opzioni disponibili sono correlate alla data di fine, alla data di inizio o alla data dell'ultimo aggiornamento. La notifica di promemoria per i fogli presenze tiene conto dell'indicatore orario della data di fine, inizio e ultimo aggiornamento della scheda attività. La scheda attività inizia a mezzanotte del giorno della data di inizio (ore 12:00) e termina immediatamente prima della mezzanotte della data di fine (ore 11:59).</p>
+
+   <p><b>NOTA</b></p>
+      <p>Le notifiche di promemoria della scheda attività vengono distribuite solo una volta ogni 24 ore.</p> <p>Quando imposti più notifiche di promemoria entro un periodo di 24 ore, Workfront invia un’e-mail di notifica con tutti i promemoria inclusi in tale notifica.</p>
+      <p>Ad esempio, se configuri tre notifiche di promemoria per l’attivazione di 10 ore prima, 2 ore prima e 1 ora prima di una data di scadenza, i tre promemoria verranno tutti combinati nella stessa notifica se si verificano nello stesso giorno.</p> <p>Tuttavia, se imposti una notifica di promemoria per 26 ore prima e un’altra per 1 ora prima di una data di scadenza, gli utenti riceveranno due notifiche separate. </p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Criteri</td> 
@@ -123,7 +131,7 @@ Per informazioni su come creare un modello e-mail, consulta [Configurare i model
 
 Quando la condizione viene soddisfatta sull&#39;elemento a cui è collegata la notifica di promemoria, viene attivata una notifica e-mail all&#39;utente definito nella notifica di promemoria.
 
-Per ulteriori informazioni sulla ricezione delle notifiche di promemoria, consulta la sezione [Notifiche di promemoria](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) sezione [Notifiche Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
+Per ulteriori informazioni sulla ricezione delle notifiche di promemoria, consulta la [Notifiche di promemoria](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) sezione [Notifiche Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Verifica della consegna della notifica del promemoria
 

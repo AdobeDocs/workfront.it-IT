@@ -6,9 +6,9 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b1a82758a7e3c745e622ddbab4b0651a6b35a33
+source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
 workflow-type: tm+mt
-source-wordcount: '2690'
+source-wordcount: '2674'
 ht-degree: 1%
 
 ---
@@ -21,13 +21,24 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->È in corso la riprogettazione del modo in cui si aggiorna il lavoro quando si utilizza la sezione Aggiornamenti di un oggetto.
->
->È possibile accedere alla nuova progettazione abilitando la funzione di commento Beta.
->
->Attualmente, la versione beta è disponibile per <span class="preview">questioni</span>.
->
+>Stiamo riprogettando l’esperienza di commento in Adobe Workfront.
 >Per ulteriori informazioni sulla nuova esperienza di aggiornamento, consulta [Nuova esperienza di commento](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>
+>È possibile accedere alla nuova progettazione per i seguenti oggetti:
+> * <span class="preview">Problemi relativi all’abilitazione della funzione di commento Beta. </span>
+   >
+   >     <span class="preview">Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:</span>
+   >
+   >     * <span class="preview">Home</span>
+   >     * <span class="preview">Pannello di riepilogo negli elenchi</span>
+   >     * <span class="preview">Pannello Riepilogo nei fogli presenze</span>
+>
+> * Obiettivi
+   >   La nuova esperienza di commento è l’impostazione predefinita per gli obiettivi. Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per ulteriori informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
+   >
+   >    Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+
 
 Puoi aggiungere commenti alla maggior parte degli oggetti in Adobe Workfront nella sezione Aggiornamenti . Per ulteriori informazioni sugli oggetti che visualizzano la sezione Aggiornamenti, consulta [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -173,26 +184,6 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 1. Per rispondere a un aggiornamento, vedi [Risposta agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### Aggiungere un aggiornamento a un elemento di lavoro utilizzando l’esperienza di creazione dei commenti Beta
-
-
->[!NOTE]
->
->La funzionalità descritta in questa sezione è disponibile per i seguenti oggetti:
->
->* <span class="preview">Problemi relativi all’abilitazione dell’esperienza di creazione dei commenti Beta.</span>
-   >
-   >   <span class="preview">Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:</span>
-   >
-   >   * <span class="preview">Home</span>
-   >   * <span class="preview">Pannello di riepilogo negli elenchi</span>
-   >   * <span class="preview">Pannello Riepilogo nei fogli presenze</span>
->* Obiettivi
-
-   >
-   >   La nuova esperienza di commento è l’esperienza corrente predefinita per gli obiettivi.
-   >   Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-
-
 
 1. Individuare l’oggetto che si desidera aggiornare, quindi fare clic sul suo nome per aprire la pagina dell’oggetto.
 1. Fai clic su  **Aggiornamenti** nel pannello a sinistra.
