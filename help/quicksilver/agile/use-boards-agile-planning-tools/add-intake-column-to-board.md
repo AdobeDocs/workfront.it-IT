@@ -7,9 +7,9 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di assun
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: db62d7361f6d432c2ac8846938de4bc437923295
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >[!NOTE]
    >
    >È possibile filtrare la colonna di assunzione per includere sia le attività che i problemi, ma è necessario impostare i filtri separatamente per ciascun tipo di oggetto.
+   >
+   >Sono inoltre disponibili filtri salvati e filtri predefiniti di sistema da selezionare.
 
 1. Nel pannello del filtro, fai clic su **[!UICONTROL Nuovo filtro]** per iniziare.
 

@@ -6,9 +6,9 @@ description: Per impostazione predefinita, una nuova bacheca contiene tre colonn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ba6b5db8416e0e564b155dd040933b41fe87c286
+source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -116,12 +116,11 @@ Se si utilizza il limite WIP su una colonna, non viene aggiunto un contatore di 
 
       ![Stato per le colonne](assets/boards-column-status.png)
 
-      Vengono visualizzate anche le opzioni di traduzione dello stato per le schede collegate. (La traduzione dello stato non si applica alle schede ad hoc.) Queste opzioni determinano lo stato applicato all&#39;attività o al problema in [!DNL Workfront] quando una scheda connessa viene spostata in questa colonna.
+      Vengono visualizzate anche le opzioni di traduzione dello stato per le schede collegate. (La traduzione dello stato non si applica alle schede ad hoc.) Queste opzioni determinano lo stato personalizzato applicato all&#39;attività o al problema in [!DNL Workfront] quando una scheda connessa viene spostata in questa colonna.
 
-   1. Per modificare le selezioni di conversione dello stato predefinite, fai clic sul pulsante **[!UICONTROL Modifica]** icona ![Icona Modifica](assets/edit-icon-spectrum.png).
-   1. Se utilizzi la funzionalità opt-in per le prime funzioni: Seleziona una [!UICONTROL **Personalizzato**] stato da applicare alla scheda, sia per le attività che per i problemi.
+   1. Se utilizzi la funzionalità opt-in per le prime funzioni: Seleziona una [!UICONTROL **Personalizzato**] stato da applicare alla scheda per attività e problemi.
 
-      Quando una scheda viene spostata in questa colonna, [!DNL Workfront] tenta innanzitutto di applicare lo stato personalizzato (ad esempio, Risolto). Se lo stato personalizzato non è disponibile per quella scheda, Workfront applicherà lo stato del sistema (ad esempio, Chiuso). Lo stato del sistema è lo stato selezionato al passaggio b precedente.
+      Quando una scheda viene spostata in questa colonna, [!DNL Workfront] tenta innanzitutto di applicare lo stato personalizzato (ad esempio, Risolto). Se lo stato personalizzato selezionato non è disponibile per quella scheda, viene richiesto di scegliere un altro stato corrispondente allo stato del sistema (dal passaggio b sopra).
 
       Inoltre, se lo stato dell&#39;attività o del problema connesso viene modificato in stato personalizzato o di sistema impostato nel criterio a colonne, la scheda viene spostata automaticamente nella colonna.
 
