@@ -4,9 +4,9 @@ description: 23.2 Altri miglioramenti
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: 92c995dff3498f625cf7928ca2cef928b106be8d
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,6 @@ Alcune delle funzionalità incluse in questo aggiornamento sono:
 * Prestazioni migliori
 
 * Indicatore in tempo reale per nuovi commenti.
-   >[!NOTE]
-   >
-   >Il rilascio dell’indicatore in tempo reale è stato ritardato.
 
 * Modifica dei commenti dopo l’invio.
 
