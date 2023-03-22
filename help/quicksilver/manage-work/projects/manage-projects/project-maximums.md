@@ -7,9 +7,9 @@ description: Adobe Workfront ha dei limiti per quanti oggetti possono essere ass
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: 11c4028038fe3d410ee0d4f238d2138435d9a3fa
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,20 @@ I seguenti oggetti associati ai progetti hanno i seguenti limiti:
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Attività</p></td> 
-   <td>  <p>Il numero massimo di attività per progetto è 5.000. Viene visualizzato un messaggio di avviso quando il numero di attività si avvicina a questo valore massimo. Una volta raggiunto il massimo, viene visualizzato un messaggio di errore e non è possibile aggiungere ulteriori attività al progetto.</p> <p>Per evitare di raggiungere questo limite massimo, sposta le attività chiuse in un altro progetto designato per le attività chiuse. Potrebbe essere necessario adeguare le relazioni relative a tali progetti.</p> </td> 
+   <td>  <p>Il numero massimo di attività per progetto è 5.000. Viene visualizzato un messaggio di avviso quando il numero di attività si avvicina a questo valore massimo. Una volta raggiunto il massimo, viene visualizzato un messaggio di errore e non è possibile aggiungere ulteriori attività al progetto.</p> <p>Per evitare di raggiungere questo limite massimo, sposta le attività chiuse in un altro progetto designato per le attività chiuse. Potrebbe essere necessario adeguare le relazioni relative a tali progetti.</p>
+
+<b>IMPORTANTE</b>
+
+Per i progetti in cui le attività hanno molte dipendenze, si consiglia di ridurre di molto il numero di attività nei progetti rispetto al massimo consentito di 5.000 attività.
+
+Alcuni esempi di dipendenze tra attività che potrebbero influenzare o impedire il ricalcolo della cronologia del progetto sono:
+
+<ul><li>Numero di figli</li>
+   <li>Livelli multipli di rientro delle attività</li>
+   <li>Numero di predecessori</li>
+   <li>Assegnazioni multiple</li>
+   </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Problemi</p></td> 

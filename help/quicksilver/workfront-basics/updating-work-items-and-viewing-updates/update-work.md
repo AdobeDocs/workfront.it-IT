@@ -6,9 +6,9 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 661688a5217589da47b8c7a0b043c8292fb346db
+source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
 workflow-type: tm+mt
-source-wordcount: '2674'
+source-wordcount: '2756'
 ht-degree: 1%
 
 ---
@@ -183,13 +183,14 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 
 1. Per rispondere a un aggiornamento, vedi [Risposta agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
+<div class="preview">
+
 ### Aggiungere un aggiornamento a un elemento di lavoro utilizzando l’esperienza di creazione dei commenti Beta
 
 1. Individuare l’oggetto che si desidera aggiornare, quindi fare clic sul suo nome per aprire la pagina dell’oggetto.
 1. Fai clic su  **Aggiornamenti** nel pannello a sinistra.
-1. <span class="preview">Fai clic su **Prova il commento Beta** nell&#39;angolo in basso a destra dell&#39;area Aggiornamenti, quindi fai clic su **Accetto** sull&#39;accordo Beta. In questo modo l’area Aggiornamenti passa all’esperienza di creazione dei commenti Beta. </span>
-il 
-**Commenti** è selezionata per impostazione predefinita.
+1. Fai clic su **Prova il commento Beta** nell&#39;angolo in basso a destra dell&#39;area Aggiornamenti, quindi fai clic su **Accetto** sull&#39;accordo Beta. In questo modo l’area Aggiornamenti passa all’esperienza di creazione dei commenti Beta.
+La **Commenti** è selezionata per impostazione predefinita.
 1. Inizia a inserire un commento in **Nuovo commento** scatola.
 
    ![](assets/comment-box-empty-unshimmed.png)
@@ -211,23 +212,26 @@ il
 
    Per ulteriori informazioni, consulta la sezione &quot;Utilizzare il testo RTF in un aggiornamento Workfront&quot; in questo articolo. <!--remove this list, above, when we get to parity for Rich Text-->
 
-   <!--not available yet in preview - should be live with production: format this as a TIP: 
-      * If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
-      * The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      * The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
-      ![](assets/real-time-new-red-indicator-unified-commenting.png)-->
+   >[!TIP]
+   >
+   >Se un altro utente invia un commento allo stesso elemento che stai aggiornando, ci sarà una linea rossa con un indicatore &quot;Nuovo&quot; per informarti dei commenti più recenti.
+   >
+   >L&#39;indicatore viene visualizzato solo dopo che il commento è stato inviato sull&#39;elemento e non quando il commento è ancora composto.
+   >
+   >L’indicatore &quot;Nuovo&quot; viene visualizzato solo quando l’utente che ha inserito un nuovo aggiornamento e l’utente che sta attualmente inserendo un aggiornamento utilizzano la nuova esperienza di commento.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 
 1. Fai clic su **Invia** per aggiungere l’aggiornamento all’oggetto Workfront.
-1. <span class="preview">(Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.</span>
-1. <span class="preview">Modifica le informazioni nel commento o rimuovi uno degli utenti con tag. </span>
-
-   <span class="preview">È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato. </span>
+1. (Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.
+1. Modifica le informazioni nel commento o rimuovi uno degli utenti con tag.
+È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">Viene generato un messaggio e-mail per avvisare gli utenti dell’aggiornamento solo quando si invia l’aggiornamento originale. Dopo aver modificato l’aggiornamento non viene generato alcun messaggio e-mail.</span>
+   >   Viene generato un messaggio e-mail per avvisare gli utenti dell’aggiornamento solo quando si invia l’aggiornamento originale. Dopo aver modificato l’aggiornamento non viene generato alcun messaggio e-mail.
 1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 4-7 di cui sopra. <!--(**************insure this stays accurate***********)-->. Per informazioni sulla risposta a un aggiornamento, consulta [Risposta agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Facoltativo) Fai clic sul pulsante **Simile** icona![](assets/like-icon.png). L’icona si aggiorna con il numero di Mi piace.
 1. (Condizionale e Facoltativo) Se hai incluso altre persone nel commento, fai clic sul numero di membri inclusi nell’aggiornamento per visualizzare un elenco di entità con cui è condiviso il commento immesso.
@@ -241,6 +245,7 @@ il
    >
    >Non è possibile aggiungere un commento a un aggiornamento del sistema.
 
+</div>
 
 ## Utilizzare Rich Text in un aggiornamento di Workfront
 
