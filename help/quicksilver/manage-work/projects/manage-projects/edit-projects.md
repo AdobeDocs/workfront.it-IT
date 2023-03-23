@@ -6,16 +6,16 @@ description: Puoi modificare un progetto in Adobe Workfront con la frequenza nec
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '7705'
+source-wordcount: '7718'
 ht-degree: 2%
 
 ---
 
 # Modifica progetti
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.</span>
+<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile per tutti i clienti nell’ambiente Anteprima e per un gruppo selezionato di clienti nell’ambiente Produzione.</span>
 
 <!--
 <p>***Linked to many articles,</p>

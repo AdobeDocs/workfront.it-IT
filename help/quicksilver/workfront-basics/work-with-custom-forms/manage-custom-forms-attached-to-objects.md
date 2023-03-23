@@ -6,16 +6,16 @@ description: È possibile aggiornare l’ordine di visualizzazione, rimozione o 
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 23257f11b0795aa1f1e422923f6d596017c58126
+source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
 
 # Gestione di moduli personalizzati associati agli oggetti
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.</span>
+<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile per tutti i clienti nell’ambiente Anteprima e per un gruppo selezionato di clienti nell’ambiente Produzione.</span>
 
 È possibile aggiornare l’ordine di visualizzazione, rimozione o modifica collettiva dei moduli personalizzati associati a un oggetto nel modo in cui i moduli personalizzati vengono visualizzati su più oggetti.
 
