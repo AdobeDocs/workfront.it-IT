@@ -6,9 +6,9 @@ description: 'Alcuni dei motivi per esportare i dati sono: EDIT ME.'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 754ff1d13cd2549f09cfb127786a0a1eeda51a9d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Le informazioni possono essere esportate nei seguenti formati:
 ### Limiti di esportazione {#export-limits}
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."])</p>
+NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting Up Report Deliveries."]
 -->
 
 Esistono diverse limitazioni relative al modo in cui i rapporti vengono visualizzati in Workfront e al modo in cui vengono esportati tramite un’esportazione manuale, un rapporto consegnato o tramite l’API.
@@ -106,9 +106,13 @@ Esistono diverse limitazioni relative al modo in cui i rapporti vengono visualiz
    * Per i file Excel .xlsx questo limite è **100.000 righe**.
    * Questi limiti escludono le intestazioni di colonna e le righe per i raggruppamenti nel rapporto. Ad esempio, se in un rapporto sono presenti 6 raggruppamenti e 50.000 righe o dati, il file esportato avrà 50.000 righe.
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Se il rapporto contiene più elementi di questi limiti, viene visualizzato un errore di errore che indica che l’esportazione non è riuscita. Riduci il numero di elementi visualizzati sullo schermo a un numero minore o uguale a questi limiti per poter esportare i risultati.
+   >L’esportazione di un rapporto che include un riferimento a una raccolta all’interno di una colonna può causare un errore, anche se il rapporto si trova entro i limiti di esportazione elencati. Se la raccolta di riferimento è troppo grande, il processo di esportazione si interrompe e si verifica quindi un errore.
+   >
+   >Per evitare questo errore, escludere le colonne che fanno riferimento a raccolte di grandi dimensioni o ridurre la dimensione delle raccolte a cui si fa riferimento prima dell’esportazione.
+
+   Se il rapporto contiene più elementi di questi limiti, viene visualizzato un errore di errore che indica che l’esportazione non è riuscita. Riduci il numero di elementi visualizzati sullo schermo a un numero minore o uguale a questi limiti per poter esportare i risultati.
 
    Se il rapporto contiene più di 50.000/65.000/100.000 righe e desideri esportare tutti i dati, è consigliabile utilizzare filtri o prompt per ottenere carichi di dati più ridotti ed eseguire più esportazioni.
 
