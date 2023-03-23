@@ -6,7 +6,7 @@ description: Desktop Proofing Viewer, progettato principalmente per la correzion
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 7ef1d55a7d743d83bd4f6625252848442919b9f4
+source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 0%
@@ -53,8 +53,8 @@ In caso contrario, puoi seguire i passaggi seguenti.
 
 1. Per scaricare l’app, effettua una delle seguenti operazioni:
 
-   * Se utilizzi l’ambiente Produzione, fai clic su  [Download di produzione Mac per visualizzatore di correzione desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.22.pkg)
-   * Se utilizzi l’ambiente Anteprima, fai clic su  [Mac Preview Download per il visualizzatore di correzione desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.22.pkg)
+   * Se utilizzi l’ambiente Produzione, fai clic su  [Download di produzione Mac per visualizzatore di correzione desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.23.pkg)
+   * Se utilizzi l’ambiente Anteprima, fai clic su  [Mac Preview Download per il visualizzatore di correzione desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.23.pkg)
 
 1. Apri il file appena scaricato per avviare l&#39;installazione.
 1. Nella casella di installazione visualizzata, fare clic su **Continua**, quindi fai clic su **Installa**.
@@ -76,8 +76,8 @@ Se l’amministratore di Workfront o Workfront Proof ha scaricato l’app sulla 
 
 1. Per scaricare l’app, effettua una delle seguenti operazioni:
 
-   * Nell’ambiente di produzione, fai clic su  [Download di Windows Production per il visualizzatore di correzione desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.22.exe)
-   * Nell’ambiente Anteprima, fai clic su  [Download di anteprima di Windows per il visualizzatore di correzione desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.22.exe).
+   * Nell’ambiente di produzione, fai clic su  [Download di Windows Production per il visualizzatore di correzione desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.23.exe)
+   * Nell’ambiente Anteprima, fai clic su  [Download di anteprima di Windows per il visualizzatore di correzione desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.23.exe).
 
 1. Apri il file appena scaricato per avviare l&#39;installazione.
 1. Nella casella di installazione visualizzata, apri il file appena scaricato per avviare l&#39;installazione.
