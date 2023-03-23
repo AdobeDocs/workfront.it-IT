@@ -1,13 +1,13 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Aggiungere attività o problemi esistenti a una bacheca di Adobe Workfront
+title: Aggiungere attività o problemi esistenti a una bacheca o a un flusso di lavoro di Adobe Workfront
 description: Potete aggiungere qualsiasi attività o problema a una bacheca in Adobe Workfront da una vista a elenco o a rapporti.
 author: Lisa
 feature: Agile
-source-git-commit: fd0b220801d26e10ad65ac7d6b8fa17bbeec629a
+source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 {{highlighted-preview-article-level}}
 
-È possibile aggiungere qualsiasi attività o problema a una bacheca o a un flusso di lavoro in [!DNL Adobe Workfront] da una vista a elenco o a rapporti.
+È possibile aggiungere qualsiasi attività o problema a una bacheca o a un flusso di lavoro in [!DNL Adobe Workfront] da una vista a elenco o a rapporti o dai dettagli dell’oggetto.
 
 ## Requisiti di accesso
 
@@ -43,36 +43,45 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
 
-## Aggiungere attività o problemi esistenti a una bacheca
+## Aggiungere attività o problemi esistenti a una bacheca o a un flusso di lavoro da un elenco
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
 1. Scegliere una delle seguenti opzioni: **[!UICONTROL Progetti]**, **[!UICONTROL Reporting]** oppure **[!UICONTROL Dashboard]**.
-1. Vai al progetto, al rapporto o al dashboard che contiene l&#39;attività o il problema che desideri aggiungere alla bacheca.
+1. Passa al progetto, al rapporto o al dashboard contenente l&#39;attività o il problema che desideri aggiungere alla bacheca o al flusso di lavoro.
 1. Selezionare una o più attività o problemi.
-1. Fai clic su [!UICONTROL **Altro**] > [!UICONTROL **Aggiungi alle bacheche**].
-1. In [!UICONTROL Aggiungi a] selezionate la bacheca a a cui aggiungere gli elementi.
+1. Fai clic su [!UICONTROL **Altro**] > [!UICONTROL **Aggiungi alle bacheche**] o [!UICONTROL **Aggiungi ai flussi di lavoro**].
+1. In [!UICONTROL Aggiungi a] selezionate la bacheca o il flusso di lavoro a cui aggiungere gli elementi.
 
-   Con questa opzione sono disponibili solo schede indipendenti, non bacheche che fanno parte di flussi di lavoro.
+   Per una bacheca sono disponibili solo schede indipendenti, non bacheche che fanno parte di flussi di lavoro.
 
 1. Fai clic su [!UICONTROL **Aggiungi**].
 
-   L&#39;attività o il problema viene aggiunto alla bacheca. Se per la bacheca sono applicati criteri di colonna per lo stato, la scheda viene aggiunta nella colonna corrispondente al suo stato. In caso contrario, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di assunzione.
+   Per una bacheca: L&#39;attività o il problema viene aggiunto alla bacheca. Se per la bacheca sono applicati criteri di colonna per lo stato, la scheda viene aggiunta nella colonna corrispondente al suo stato. In caso contrario, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di assunzione.
 
    Per informazioni sui criteri delle colonne, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-## Aggiungere attività o problemi esistenti a un flusso di lavoro
+   Per un flusso di lavoro: L’attività o il problema viene aggiunto all’elenco delle schede del flusso di lavoro come scheda non pianificata.
+
+## Aggiungi attività o problemi esistenti a una bacheca o a un flusso di lavoro dai dettagli dell&#39;oggetto
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront].
-1. Scegliere una delle seguenti opzioni: **[!UICONTROL Progetti]**, **[!UICONTROL Reporting]** oppure **[!UICONTROL Dashboard]**.
-1. Passa al progetto, al report o al dashboard contenente l&#39;attività o il problema che desideri aggiungere al flusso di lavoro.
-1. Selezionare una o più attività o problemi.
-1. Fai clic su [!UICONTROL **Altro**] > [!UICONTROL **Aggiungi a flusso di lavoro**].
-1. In [!UICONTROL Aggiungi a] selezionare il flusso di lavoro a cui aggiungere gli elementi.
+1. Fai clic su [!UICONTROL **Progetti**], quindi fai clic sul nome di un progetto per aprirlo.
+1. Fai clic su [!UICONTROL **Attività**] o [!UICONTROL **Problemi**] nel pannello a sinistra.
+1. Fare clic sull&#39;attività o sul problema che si desidera aggiungere a una bacheca o a un flusso di lavoro.
+1. Fai clic sul pulsante **[!UICONTROL Altro]** accanto al nome dell’oggetto e seleziona [!UICONTROL **Aggiungi alle bacheche**] o [!UICONTROL **Aggiungi ai flussi di lavoro**].
+1. In [!UICONTROL Aggiungi a] selezionate la bacheca o il flusso di lavoro a cui aggiungere gli elementi.
+
+   Per una bacheca sono disponibili solo schede indipendenti, non bacheche che fanno parte di flussi di lavoro.
+
 1. Fai clic su [!UICONTROL **Aggiungi**].
 
-   L’attività o il problema viene aggiunto all’elenco delle schede del flusso di lavoro come scheda non pianificata.
+   Per una bacheca: L&#39;attività o il problema viene aggiunto alla bacheca. Se per la bacheca sono applicati criteri di colonna per lo stato, la scheda viene aggiunta nella colonna corrispondente al suo stato. In caso contrario, viene visualizzato nella prima colonna a sinistra, esclusa la colonna di assunzione.
 
-## Visualizzare le bacheche associate a un&#39;attività o a un problema
+   Per informazioni sui criteri delle colonne, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+
+   Per un flusso di lavoro: L’attività o il problema viene aggiunto all’elenco delle schede del flusso di lavoro come scheda non pianificata.
+
+## Visualizza le bacheche associate a un&#39;attività o a un problema da un elenco
 
 1. Accedere al progetto, al rapporto o al dashboard contenente l&#39;attività o il problema per il quale si desidera visualizzare le informazioni sulle bacheche.
 1. Selezionate una vista che include la colonna Bacheche oppure createne una nuova con la colonna Bacheche.
