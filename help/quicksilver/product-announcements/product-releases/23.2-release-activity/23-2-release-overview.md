@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8cdb0b9f529979ac5eb6ac9b0a7b52ab879defe5
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '2577'
+source-wordcount: '2641'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,23 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Funzionalità di iterazione disponibile nelle schede Adobe Workfront</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere attività e problemi dai dettagli degli oggetti a una bacheca Workfront o a un flusso di lavoro</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <p>È ora possibile aggiungere attività o problemi esistenti a una bacheca Workfront o a un elenco di schede flusso di lavoro direttamente dai dettagli dell'oggetto. Tutti gli elementi aggiunti a una bacheca diventeranno schede collegate e tutti gli elementi aggiunti a un flusso di lavoro verranno aggiunti all'elenco delle schede come schede non pianificate.</p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 23 marzo 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Versione di produzione: Con la versione 23.2</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Funzionalità di iterazione disponibile nelle schede Adobe Workfront</a></p>
                         <p>Diverse nuove funzioni disponibili nelle schede Workfront consentono di utilizzare la funzionalità Scrum agile. Queste funzioni includono:
                         <ul>
                         <li>Flussi di lavoro per raggruppare bacheche correlate allo stesso team e collaborare sul lavoro</li>
@@ -138,7 +154,7 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere attività e problemi da elenchi e rapporti a un elenco di schede del flusso di lavoro</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere attività e problemi da elenchi e rapporti a un elenco di schede del flusso di lavoro</a></p>
                         <p>È ora possibile aggiungere attività o problemi esistenti a un flusso di lavoro in Workfront Boards direttamente da una vista a elenco o a rapporti. Tutti gli elementi aggiunti al flusso di lavoro vengono aggiunti all’elenco delle schede come schede non pianificate.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -154,7 +170,7 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungi campi personalizzati alle schede di una bacheca</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungi campi personalizzati alle schede di una bacheca</a></p>
                         <p>È ora possibile includere campi personalizzati nelle bacheche Adobe Workfront. Il campo deve essere già creato in Workfront. Non potete progettare e creare nuovi campi personalizzati all'interno di una bacheca.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -484,7 +500,7 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova esperienza di commento per problemi Beta<span style="color: #ff0000;"> Novità in Anteprima!</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova esperienza di commento per problemi Beta</a>
                         <p>Un aggiornamento dell’esperienza di commento in Adobe Workfront è attualmente in fase di sviluppo. Questo aggiornamento include una nuova interfaccia, nuove funzionalità e prestazioni migliorate nella sezione Aggiornamenti di alcuni oggetti. </p>
                         <p>Questa nuova esperienza unirà i commenti in Adobe Workfront e oltre, in Adobe Experience Cloud. </p>
                     </td>

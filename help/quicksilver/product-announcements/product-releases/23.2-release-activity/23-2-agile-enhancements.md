@@ -4,9 +4,9 @@ description: 23.2 Miglioramenti di Agile
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,12 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 23.2. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.2.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di versione 23.2, vedi [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Aggiungere attività e problemi dai dettagli degli oggetti a una bacheca Workfront o a un flusso di lavoro
+
+È ora possibile aggiungere attività o problemi esistenti a una bacheca Workfront o a un elenco di schede flusso di lavoro direttamente dai dettagli dell&#39;oggetto. Tutti gli elementi aggiunti a una bacheca diventeranno schede collegate e tutti gli elementi aggiunti a un flusso di lavoro verranno aggiunti all&#39;elenco delle schede come schede non pianificate.
+
+Per ulteriori informazioni, consulta [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Funzionalità di iterazione disponibile nelle schede Adobe Workfront
 
@@ -28,6 +34,8 @@ Diverse nuove funzioni disponibili nelle schede Workfront consentono di utilizza
 Le raccolte sono state rinominate in flussi di lavoro. I flussi di lavoro consentono di visualizzare i dati in modi diversi. Potete visualizzare gli elementi su schede in un elenco, su una bacheca o su un&#39;iterazione. Le schede in un flusso di lavoro possono essere condivise anche tra più bacheche. È possibile facilitare facilmente i flussi di lavoro utilizzando schede e bacheche in un flusso di lavoro.
 
 Per ulteriori informazioni, consulta [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)e [Utilizza l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). I due articoli successivi non saranno disponibili in Principale fino a quando non pubblicherò il ramo.
+
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
 ## Aggiungere attività e problemi da elenchi e rapporti a un elenco di schede del flusso di lavoro
 
