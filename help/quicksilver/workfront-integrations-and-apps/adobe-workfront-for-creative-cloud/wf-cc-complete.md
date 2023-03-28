@@ -6,9 +6,9 @@ description: Puoi rimanere nelle applicazioni Adobe Creative Cloud e completare 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 012c2fbe923ed75587c236bc32436196bab9d9d0
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
@@ -60,5 +60,11 @@ Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Wor
 
 1. Da **[!UICONTROL Elenco lavori]**, seleziona l’attività o il problema da contrassegnare come completato.
 1. Fai clic su **[!UICONTROL Fine]**.\
-   Questo contrassegna l’elemento completato in Workfront.\
-   ![](assets/complete-work-350x529.png)
+   Questo contrassegna l’elemento completato in Workfront.
+
+   >[!NOTE]
+   >
+   >Se l’elemento di lavoro è dotato di predecessori, il pulsante Fine è grigio fino a quando i predecessori non sono contrassegnati come completi. Per visualizzare i predecessori all&#39;interno di [!DNL Workfront], fai clic sul nome dell’attività.
+   >![](assets/navigate-to-workfront.png)
+
+<!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->

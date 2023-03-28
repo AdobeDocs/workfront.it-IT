@@ -2,13 +2,13 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Installa e apri [!DNL Adobe Workfront for design and video]
-description: È possibile installare Workfront per il plug-in Creative Cloud da Adobe Marketplace.
+description: Puoi installare Workfront per il plug-in Creative Cloud da Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 6b6d0794b21f34eb448a1bc4b728cb8e5fe0df72
+source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '505'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,7 @@ Il plug-in supporta le seguenti lingue:
 * Portoghese
 * Cinese semplificato
 * Cinese tradizionale
-
-<!-- * Korean -->
+* Coreano
 
 >[!NOTE]
 >
