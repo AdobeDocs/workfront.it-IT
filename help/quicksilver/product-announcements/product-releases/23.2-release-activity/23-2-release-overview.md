@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: d989ab316c48550f35e17fabc58e23a0db108f7f
+source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
 workflow-type: tm+mt
-source-wordcount: '2689'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Panoramica sulla versione 23.2
 
-Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 23.2 pianificata per aprile 2023.
+Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 23.2 pianificata per la settimana del 3 aprile 2023.
 
 I miglioramenti apportati a questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che la versione 23.2 si avvicina alla versione di Produzione pianificata.
 
