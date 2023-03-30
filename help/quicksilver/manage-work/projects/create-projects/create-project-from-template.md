@@ -2,26 +2,33 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Creare un progetto utilizzando un modello
-description: Puoi utilizzare i modelli come framework per creare nuovi progetti. Se i progetti vengono ripetuti spesso, l’utilizzo di modelli per la timeline generale del nuovo progetto evita di dover creare ripetutamente gli stessi progetti.
+description: Puoi utilizzare i modelli come framework per creare progetti. Se i progetti vengono ripetuti spesso, l’utilizzo di modelli per la timeline generale del nuovo progetto evita di dover creare ripetutamente gli stessi progetti.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 1%
+source-wordcount: '1104'
+ht-degree: 0%
 
 ---
 
 # Creare un progetto utilizzando un modello
 
-Puoi utilizzare i modelli come framework per creare nuovi progetti. Se i progetti vengono ripetuti spesso, l’utilizzo di modelli per la timeline generale del nuovo progetto evita di dover creare ripetutamente gli stessi progetti.
+Puoi utilizzare i modelli come framework per creare progetti. Se i progetti vengono ripetuti spesso, l’utilizzo di modelli per la timeline generale del nuovo progetto evita di dover creare ripetutamente gli stessi progetti.
 
-I modelli consentono di acquisire tutti i processi, le informazioni e le impostazioni ripetibili associati ai progetti. Tutte le informazioni associate a un modello vengono trasferite al progetto. Ciò include attività, assegnazioni, durate, documenti, dettagli finanziari, rischi e moduli personalizzati.
+I modelli consentono di acquisire processi, informazioni e impostazioni ripetibili associati ai progetti. Le informazioni associate a un modello vengono trasferite al progetto. Ciò include attività, assegnazioni, durate, documenti, dettagli finanziari, rischi e moduli personalizzati.
 
 >[!TIP]
 >
->Lo stato di un nuovo progetto creato da un modello corrisponde a quello definito dall’amministratore Workfront nell’area Preferenze progetto principale o da un amministratore di gruppo (o amministratore Workfront) nell’area Preferenze progetto per un gruppo. Per informazioni sulla configurazione delle preferenze del progetto, consulta [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>Workfront definisce il gruppo e lo stato del nuovo progetto come segue:
+>
+>* Lo stato predefinito di un nuovo progetto creato da un modello corrisponde allo stato definito dall’amministratore Workfront nell’area Preferenze progetto principale o da un amministratore di gruppo (o amministratore Workfront) nell’area Preferenze progetto di un gruppo. Per informazioni sulla configurazione delle preferenze del progetto, consulta [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>
+>* Il gruppo del nuovo progetto è il gruppo del modello. Se il modello non è associato a un gruppo, il gruppo del progetto è il gruppo principale dell’utente che crea il progetto.
+>
+>* Gli stati disponibili per un nuovo progetto corrispondono agli stati del gruppo del progetto, ovvero il gruppo del modello o il gruppo home dell’utente che crea il progetto.
+
 
 Per creare un progetto da un modello sono disponibili le seguenti opzioni:
 
@@ -88,7 +95,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se h
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare le autorizzazioni per un modello</p> <p>Quando crei un progetto ricevi automaticamente le autorizzazioni Gestisci per il progetto </p> <p> Per informazioni sulle autorizzazioni del progetto, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condivisione di un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni per un modello</p> <p>Quando crei un progetto, riceverai automaticamente le autorizzazioni di gestione per il progetto </p> <p> Per informazioni sulle autorizzazioni del progetto, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condivisione di un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

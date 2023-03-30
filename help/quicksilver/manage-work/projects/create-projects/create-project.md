@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Crea un Progetto
-description: '(NOTA: è collegato dall’interfaccia utente della sezione Navigazione globale dei progetti in Classic. Non modificare/rimuovere)'
+description: Un progetto è una grande unità di lavoro in Adobe Workfront. È possibile creare progetti da zero, utilizzare un modello o convertendo problemi o attività in progetti.
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: e83d4742106bc3cb5adb939040997959315dd1e2
+source-git-commit: 590fd9e5b9ad6cce9c66b708959033ee780b1f10
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1206'
 ht-degree: 1%
 
 ---
@@ -127,13 +127,21 @@ Considera quanto segue:
 * Workfront applica le impostazioni del gruppo, se presenti, prima di applicare quelle impostate dall’amministratore di Workfront.
 * Se crei un progetto utilizzando un modello, le impostazioni del modello hanno la precedenza sulle impostazioni stabilite dall’amministratore di Workfront o di gruppo.
 
->[!NOTE]
->
->Lo stato predefinito per un nuovo progetto è Planning. Quando apporti modifiche al nuovo progetto, le notifiche non vengono attivate dagli utenti assegnati al progetto.
+   >[!NOTE]
+   >
+   >Lo stato predefinito per un nuovo progetto è Planning. Quando apporti modifiche al nuovo progetto, le notifiche non vengono attivate dagli utenti assegnati al progetto.
+   >
+   >Per ulteriori informazioni sull’impostazione dello stato predefinito e di altre impostazioni predefinite per un nuovo progetto, consulta [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) o [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-Per ulteriori informazioni sull’impostazione dello stato predefinito e di altre impostazioni predefinite per un nuovo progetto, consulta [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Workfront definisce il gruppo e lo stato del nuovo progetto come segue:
 
+   * Lo stato predefinito di un nuovo progetto creato da un modello corrisponde allo stato definito dall’amministratore Workfront nell’area Preferenze progetto principale o da un amministratore di gruppo (o amministratore Workfront) nell’area Preferenze progetto di un gruppo.
 
+   * Il gruppo del nuovo progetto è il gruppo del modello. Se il modello non è associato a un gruppo, il gruppo del progetto è il gruppo principale dell’utente che crea il progetto.
+
+   * Gli stati disponibili per un nuovo progetto corrispondono agli stati del gruppo del progetto, ovvero il gruppo del modello o il gruppo home dell’utente che crea il progetto.
+
+   * Il gruppo di un nuovo progetto creato convertendo un problema in un progetto è il gruppo del progetto esistente del problema. Se l&#39;utente che converte il problema non ha accesso al progetto del problema, il gruppo del nuovo progetto è il gruppo principale dell&#39;utente che converte il problema. Gli stati del nuovo progetto corrispondono a quelli del gruppo associato al progetto, ovvero il Gruppo del progetto originale o il Gruppo Home dell’utente che converte il problema.
 
 ## Crea un progetto da zero
 
