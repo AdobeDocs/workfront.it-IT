@@ -6,9 +6,9 @@ description: È possibile incorporare una nuova coda di richiesta in un dashboar
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1178'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Prerequisiti
 
-Per incorporare una coda di richiesta in una dashboard è necessario creare entrambe le operazioni seguenti:
+Per incorporare una coda di richiesta in un dashboard è necessario creare entrambe le operazioni seguenti:
 
 * **Dashboard**: Per informazioni sulla creazione di dashboard, consulta [Creare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 * **Coda richieste**: Per informazioni sulla creazione delle code di richiesta, vedi [Creare una coda di richiesta](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
@@ -97,9 +97,7 @@ Quando condividi un collegamento a un tipo di richiesta, l’utente seleziona il
 
    Il codice deve essere simile al seguente:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
    Questo è il collegamento alla coda di richiesta associata al progetto selezionato. Il tipo di richiesta è preselezionato.
 
@@ -120,19 +118,15 @@ Quando condividi un collegamento a un tipo di richiesta preselezionata, il tipo 
 
    Il codice deve essere simile al seguente:
 
-   ```
-   <samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>
-   ```
+   `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
 1. Modifica il codice per conservare solo le informazioni seguenti:
 
-   ```
-   <samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>
-   ```
+   `https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71`
 
    >[!TIP]
    >
-   >È possibile mantenere `<samp>iframe </samp>` quando si incorpora il codice in un&#39;applicazione diversa da Workfront.
+   >Puoi aggiungere una `<samp>iframe </samp>` quando si incorpora il codice in un&#39;applicazione diversa da Workfront.
 
    Questo è il collegamento alla coda di richiesta associata al progetto selezionato. Il tipo di richiesta è preselezionato e non può essere modificato.
 
