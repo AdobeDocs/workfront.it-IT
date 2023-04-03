@@ -6,9 +6,9 @@ description: Puoi modificare la lingua in cui vengono visualizzati Adobe Workfro
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 961eba73186f8fe3f10affc0c6e52067f997ef31
+source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,16 @@ La terminologia di Workfront viene aggiornata per le lingue supportate con ogni 
 
 Workfront supporta le seguenti lingue:
 
-* Cinese - semplificato (zh-CN)
-* Cinese - tradizionale (zh-TW)
 * Inglese (en-US)
 * Francese (fr-FR)
 * Tedesco (de-DE)
-* Italiano (it_IT)
 * Giapponese (ja)
+* Spagnolo (es)
+* Italiano (it_IT)
 * Portoghese (pt-BR)
-* Spagnolo - America Latina
+* Coreano (ko)
+* Cinese - semplificato (zh-CN)
+* Cinese - tradizionale (zh-TW)
 
 La lingua utilizzata per visualizzare Workfront nel browser è controllata dalle impostazioni della lingua del browser. Accertati di selezionare una lingua per il browser, elencata nell’elenco delle lingue supportate.
 
