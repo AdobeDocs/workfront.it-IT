@@ -6,9 +6,9 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 809f1c3629c343a55305c0c617f4974dc05439bf
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2758'
 ht-degree: 1%
 
 ---
@@ -189,7 +189,7 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 
 1. Individuare l’oggetto che si desidera aggiornare, quindi fare clic sul suo nome per aprire la pagina dell’oggetto.
 1. Fai clic su  **Aggiornamenti** nel pannello a sinistra.
-1. Fai clic su **Prova il commento Beta** nell&#39;angolo in basso a destra dell&#39;area Aggiornamenti, quindi fai clic su **Accetto** sull&#39;accordo Beta. In questo modo l’area Aggiornamenti passa all’esperienza di creazione dei commenti Beta.
+1. Abilita la **Versione beta dei commenti** seleziona l’angolo superiore destro dell’area Aggiornamenti , quindi fai clic su **Accetto** sull&#39;accordo Beta. In questo modo l’area Aggiornamenti passa all’esperienza di creazione dei commenti Beta.
 La **Commenti** è selezionata per impostazione predefinita.
 1. Inizia a inserire un commento in **Nuovo commento** scatola.
 
@@ -224,7 +224,7 @@ La **Commenti** è selezionata per impostazione predefinita.
 
 1. Fai clic su **Invia** per aggiungere l’aggiornamento all’oggetto Workfront.
 1. (Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.
-1. Modifica le informazioni nel commento o rimuovi uno degli utenti con tag.
+1. Modifica le informazioni nel commento o rimuovi uno degli utenti con tag. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
 È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -322,11 +322,12 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
 
 ## Copia informazioni di aggiornamento
 
-<!--drafted for beta release toggle - remove when copying an update will be available:-->
+<!--drafted for beta release toggle - remove when copying an update will be available:
 
 >[!NOTE]
 >
->Non è possibile copiare un aggiornamento quando si utilizza l’esperienza di commento Beta.
+>Copying an update is not possible when using the Beta commenting experience.
+-->
 
 Esistono diversi modi per copiare un aggiornamento. Dopo aver copiato un collegamento, puoi condividerlo con altri per indirizzarlo all’aggiornamento.
 
@@ -348,7 +349,7 @@ Questa opzione copia il testo da un aggiornamento specifico negli Appunti.
 Questa opzione copia il collegamento del thread completo negli Appunti in modo da poter condividere il thread con altri utenti.
 
 1. Passa al thread di aggiornamento da copiare.
-1. Fai clic sul pulsante **Altro** menu, quindi fai clic su **Copia collegamento thread**.
+1. Fai clic sul pulsante **Altro** menu, quindi fai clic su **Copia collegamento thread** <span class="preview">o **Copia collegamento** quando utilizzi l’esperienza Beta</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -357,7 +358,7 @@ Questa opzione copia il collegamento del thread completo negli Appunti in modo d
 Questa opzione copia un collegamento di aggiornamento specifico negli Appunti. Quando condividi il collegamento di aggiornamento, l’utente che lo segue visualizza un bordo intorno all’aggiornamento.
 
 1. Vai all&#39;aggiornamento o alla risposta che desideri copiare.
-1. Fai clic sul pulsante **Altro** accanto al singolo aggiornamento, quindi fai clic su **Collegamento Copia aggiornamento**.
+1. Fai clic sul pulsante **Altro** accanto al singolo aggiornamento, quindi fai clic su **Collegamento Copia aggiornamento** <span class="preview">o **Copia collegamento** quando utilizzi l’esperienza Beta</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 

@@ -6,9 +6,9 @@ description: Quando un utente aggiunge o risponde a un aggiornamento di un ogget
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1141'
 ht-degree: 0%
 
 ---
@@ -109,14 +109,11 @@ La risposta a un commento o a una risposta varia a seconda dell’esperienza e d
 
 1. Inizia a digitare la risposta e utilizza eventuali opzioni aggiuntive nella barra degli strumenti Rich Text. Per informazioni sull’utilizzo di Rich Text, consulta la sezione &quot;Utilizzare il testo RTF in un aggiornamento Workfront&quot; in [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
-<!--this is not yet available in beta, leave drafted:  
-1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line. -***********close the draft here************-->
-
 1. Fai clic su **Invia** per salvare la risposta.
 
+1. (Facoltativo) Fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) accanto all’aggiornamento per ulteriori opzioni per gestire la risposta. Per ulteriori informazioni, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+
 </div>
-
-
 
 ## Risposta a un aggiornamento tramite notifica e-mail
 

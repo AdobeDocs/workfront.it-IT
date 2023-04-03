@@ -6,9 +6,9 @@ description: Puoi modificare un progetto in Adobe Workfront con la frequenza nec
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
 workflow-type: tm+mt
-source-wordcount: '7718'
+source-wordcount: '7787'
 ht-degree: 2%
 
 ---
@@ -323,6 +323,7 @@ Quando selezioni più di un progetto per modificarli in blocco, esistono i segue
 * Se non si dispone delle autorizzazioni Modifica modulo personalizzato per almeno uno dei progetti selezionati, non è possibile modificare i campi in nessuno dei moduli personalizzati allegati. È possibile visualizzare solo i campi nei moduli personalizzati allegati
 * Se si dispone dell’accesso Visualizza (e non Modifica) a una sezione di un modulo personalizzato, non è possibile modificare i campi di tale sezione. È possibile visualizzare solo i campi in tale sezione.
 * Se non si dispone dell’accesso a una sezione di uno dei moduli personalizzati allegati ad almeno uno dei progetti, la sezione non viene visualizzata nella casella Modifica progetti.
+* Se sono presenti campi obbligatori in uno qualsiasi dei moduli personalizzati allegati a tutti i progetti e si seleziona un campo senza modificarlo, è necessario eliminare le modifiche apportate a tale campo o aggiungerle informazioni prima di salvare i progetti selezionati. Se non si seleziona alcun campo obbligatorio, è possibile salvare i progetti selezionati anche se il campo richiesto è vuoto.
 
 Per informazioni sull’accesso personalizzato ai moduli, vedere i seguenti articoli:
 
