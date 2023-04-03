@@ -5,9 +5,9 @@ title: Caricare documenti da Illustrator
 description: Puoi caricare le tue tavole da disegno come documenti da rivedere e approvare rapidamente o semplicemente archiviare in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic sul pulsante **[!UICONTROL Documento]** icona ![](assets/documents.png) nella barra di navigazione.
 
 1. Fai clic su **[!UICONTROL Nuovo file]** vicino al fondo del plugin.
-1. Scegli la **[!UICONTROL Tipo di risorsa]** dal menu a discesa.
 1. (Facoltativo) Digita un commento nella sezione **[!UICONTROL Aggiornamenti]** area.
-1. Fai clic su **[!UICONTROL Carica]**, quindi configura le opzioni di esportazione desiderate in base al tipo di risorsa scelto in precedenza.
+1. Scegli la **[!UICONTROL Tipo di risorsa]** dal menu a discesa.
+1. Apri **[!UICONTROL Imposta le impostazioni del file di esportazione]** finestra di dialogo, quindi configura le opzioni di esportazione desiderate in base al tipo di risorsa scelto in precedenza.
+
+   ![](assets/file-export-settings.png)
+1. Fai clic su **[!UICONTROL Carica]**.
 Il documento viene visualizzato nel [!UICONTROL Documenti] nell’area del plug-in e nell’app desktop.

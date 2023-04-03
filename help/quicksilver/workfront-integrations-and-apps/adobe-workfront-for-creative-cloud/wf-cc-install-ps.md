@@ -6,9 +6,9 @@ description: Puoi installare il plug-in Adobe Workfront for Photoshop da Adobe M
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 9baddd29b84c3b5d77f8b2e708be53d4150e6e92
+source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '465'
 ht-degree: 1%
 
 ---
@@ -64,13 +64,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 >Se sei un [!DNL Adobe Admin Console] amministratore, puoi includere il plug-in [!DNL Creative Cloud] pacchetti di distribuzione. Per ulteriori informazioni, consulta [Includere i plug-in nel pacchetto](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
 
-1. Apri [!DNL Adobe Creative Cloud] app.
-1. Fai clic sul pulsante **[!UICONTROL Marketplace]** nella parte superiore della finestra.
-1. In **[!UICONTROL Cerca tutti i plug-in]** casella, tipo *Workfront*, quindi premi **[!UICONTROL Invio]**.
-
-   ![](assets/adobe-marketplace-350x218.png)
-
-1. Quando nei risultati della ricerca viene visualizzato il plug-in Adobe Workfront for Photoshop, fai clic su **[!UICONTROL Get]**.
+1. Vai a [Pagina di installazione di Adobe Workfront for Photoshop](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share) su Adobe Exchange.
+1. Nella finestra di dialogo visualizzata, fai clic su **Apri [!DNL Adobe Creative Cloud] app desktop**.
+1. Una volta [!DNL Adobe Photoshop] viene aperto il gestore dei plug-in, fai clic su **[!UICONTROL Installa]**.
 1. Leggere le informazioni nella finestra di dialogo, quindi fare clic su **[!UICONTROL OK]**.
 
 1. Per informazioni su come aprire il plug-in, consulta la sezione seguente.
@@ -97,7 +93,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Da **[!UICONTROL Plug-in]** nella parte superiore dello schermo, seleziona **[!UICONTROL Pannello plug-in]**.
 1. Seleziona **[!DNL Adobe Workfront for Photoshop]**.
-1. Inserisci il tuo dominio, quindi fai clic su **[!UICONTROL Accedere]**. Viene visualizzata una pagina del browser.
+1. Inserisci il tuo dominio, quindi fai clic su **[!UICONTROL Accedere]**. Viene visualizzata una pagina del browser. Potrebbe essere necessario concedere l&#39;autorizzazione Photoshop per aprire il browser.
 
    >[!TIP]
    >
