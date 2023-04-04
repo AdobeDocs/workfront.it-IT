@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 1dfe9305e7d9de1dfdf9b149ba185b2f061cba2e
+source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -625,7 +625,7 @@ A questo punto della versione non sono disponibili aggiornamenti di prova Workfr
 
 ### Miglioramenti agli obiettivi di Workfront
 
-A questo punto della versione non sono disponibili aggiornamenti di obiettivi Workfront. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
+Nuove funzioni disponibili nella versione Obiettivi di Workfront con la versione 23.2. Per informazioni su queste nuove funzioni disponibili in Anteprima, consulta [Obiettivi di Adobe Workfront con la versione 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### API versione 15
 
