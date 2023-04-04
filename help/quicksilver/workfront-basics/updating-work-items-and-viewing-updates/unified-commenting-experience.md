@@ -5,9 +5,9 @@ title: Esperienza di commento unificata
 description: La nuova esperienza di commento unificata
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '561'
 ht-degree: 1%
 
 ---
@@ -414,7 +414,7 @@ La nuova esperienza di commento è attualmente supportata per i seguenti oggetti
 Per abilitare la nuova esperienza di commento Beta:
 
 1. Passa a un oggetto per il quale desideri attivare la nuova esperienza di commento, quindi fai clic su **Aggiornamenti** nel pannello a sinistra.
-1. Fai clic su **Prova la versione beta dei commenti** nell’angolo in basso a destra dell’area Aggiornamenti.
+1. Abilita la **Versione beta dei commenti** nell’angolo in alto a destra dell’area Aggiornamenti.
 1. Fai clic su **Accetto** nella casella contratto Beta. Consente la nuova esperienza di commento per l’oggetto selezionato.
 1. Inizia a digitare un aggiornamento nel **Commenti** scheda . La scheda Commenti deve essere la scheda predefinita all’apertura della nuova esperienza
 

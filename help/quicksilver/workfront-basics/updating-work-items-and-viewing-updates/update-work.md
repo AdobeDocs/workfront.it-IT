@@ -6,7 +6,7 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 1%
@@ -232,6 +232,7 @@ La **Commenti** è selezionata per impostazione predefinita.
    >[!TIP]
    >
    >   Viene generato un messaggio e-mail per avvisare gli utenti dell’aggiornamento solo quando si invia l’aggiornamento originale. Dopo aver modificato l’aggiornamento non viene generato alcun messaggio e-mail.
+
 1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 4-7 di cui sopra. <!--(**************insure this stays accurate***********)-->. Per informazioni sulla risposta a un aggiornamento, consulta [Risposta agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 1. (Facoltativo) Fai clic sul pulsante **Simile** icona![](assets/like-icon.png). L’icona si aggiorna con il numero di Mi piace.
 1. (Condizionale e Facoltativo) Se hai incluso altre persone nel commento, fai clic sul numero di membri inclusi nell’aggiornamento per visualizzare un elenco di entità con cui è condiviso il commento immesso.
@@ -349,7 +350,12 @@ Questa opzione copia il testo da un aggiornamento specifico negli Appunti.
 Questa opzione copia il collegamento del thread completo negli Appunti in modo da poter condividere il thread con altri utenti.
 
 1. Passa al thread di aggiornamento da copiare.
-1. Fai clic sul pulsante **Altro** menu, quindi fai clic su **Copia collegamento thread** <span class="preview">o **Copia collegamento** quando utilizzi l’esperienza Beta</span>.
+
+1. Fai clic sul pulsante **Altro** menu, quindi fai clic su **Copia collegamento thread**
+
+   oppure
+
+   <span class="preview">**Copia collegamento** quando utilizzi l’esperienza Beta</span>.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -358,7 +364,11 @@ Questa opzione copia il collegamento del thread completo negli Appunti in modo d
 Questa opzione copia un collegamento di aggiornamento specifico negli Appunti. Quando condividi il collegamento di aggiornamento, l’utente che lo segue visualizza un bordo intorno all’aggiornamento.
 
 1. Vai all&#39;aggiornamento o alla risposta che desideri copiare.
-1. Fai clic sul pulsante **Altro** accanto al singolo aggiornamento, quindi fai clic su **Collegamento Copia aggiornamento** <span class="preview">o **Copia collegamento** quando utilizzi l’esperienza Beta</span>.
+1. Fai clic sul pulsante **Altro** accanto al singolo aggiornamento, quindi fai clic su **Collegamento Copia aggiornamento**
+
+   oppure
+
+   <span class="preview">**Copia collegamento** quando utilizzi l’esperienza Beta</span>.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -373,7 +383,11 @@ Nessun utente Workfront (incluso l’amministratore Workfront) può eliminare gl
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Nel messaggio visualizzato, fai clic su **Conferma** <span class="preview">o **Elimina**</span>, nel commentare l’esperienza Beta.
+1. Nel messaggio visualizzato, fai clic su **Conferma**
+
+   oppure
+
+   <span class="preview"> **Elimina**, nel commentare l&#39;esperienza Beta</span>.
 
 >[!NOTE]
 >
