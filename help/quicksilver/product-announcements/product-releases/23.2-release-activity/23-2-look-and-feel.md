@@ -4,9 +4,9 @@ description: Scopri gli aggiornamenti nel periodo di tempo di rilascio 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 8ccfa470f7d09a3a7ca0b8414c53e31c1e03f185
+source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '529'
 ht-degree: 2%
 
 ---
@@ -17,6 +17,21 @@ ht-degree: 2%
 Questa pagina descrive alcuni piccoli aggiornamenti all’aspetto e alle caratteristiche delle varie aree dell’applicazione Adobe Workfront che sono state effettuate entro il periodo di rilascio della versione 23.2. Questi miglioramenti saranno resi disponibili nell&#39;ambiente di produzione almeno 2 settimane dopo il rilascio in anteprima.
 
 Per un elenco di tutte le modifiche disponibili con la versione 23.2, vedi [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+
+## Aggiornamenti all’aspetto dell’elenco Bozze nell’area Richieste
+
+>[!NOTE]
+>
+>Anteprima versione: 4 aprile 2023; Rilascio produzione pianificato: 18 aprile 2023
+
+Abbiamo aggiornato l’elenco Bozze nell’area Richieste per renderlo coerente con gli elenchi più recenti in Workfront.
+Alcuni degli aggiornamenti includono:
+
+* Il filtro &quot;Filtra per tipo di richiesta&quot; è stato sostituito con il filtro rapido standard
+* Immagine rimossa dall’elenco Bozze quando l’elenco non contiene richieste
+* È stata aggiunta l’impaginazione e l’ordinamento delle colonne all’elenco.
+
+Per ulteriori informazioni, consulta [Creare richieste dalle bozze](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
 
 ## Selezione intelligente di utenti disponibile in altre aree di Workfront
 
