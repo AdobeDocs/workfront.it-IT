@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management
 hide: true
 hidefromtoc: true
-source-git-commit: 7b1c52da63507e36b6000e74fcb502f9436e19d1
+source-git-commit: 11855fef5f1f1c48ab51cce62a540afae0efba15
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -25,13 +25,21 @@ Per partecipare a questa versione Alpha, accertati di essere stato aggiunto ad A
 
 ## Ultima versione
 
+### Rilascio Alpha 3 - Mar. 2023
+
+In questa terza versione Alpha abbiamo incorporato i tuoi commenti e suggerimenti introducendo messaggi di successo da visualizzare al termine di azioni come l’aggiunta o la rimozione di approvatori e revisori. Inoltre, questa versione offre una maggiore visibilità delle approvazioni in sospeso, che ora possono essere visualizzate nelle pagine Home e I miei aggiornamenti, consentendo agli utenti di approvare facilmente i documenti direttamente da queste pagine.
+
+Guarda il video completo che segue:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3417854/)
+
+## _Versioni precedenti_
+
 ### Rilascio Alpha 2 - Gen. 2023
 
 Con questa versione di Alpha 2 è possibile aggiungere singoli utenti e team come revisori o approvatori e prendere decisioni di approvazione direttamente dalla pagina dei dettagli del documento.
 
->[!VIDEO](https://video.tv.adobe.com/v/3413941/?quality=12)
-
-## _Versioni precedenti_
+Guarda il [video dettagliata](https://video.tv.adobe.com/v/3413941){target=_blank}.
 
 ### Rilascio Alpha 1 - Nov. 2022
 
