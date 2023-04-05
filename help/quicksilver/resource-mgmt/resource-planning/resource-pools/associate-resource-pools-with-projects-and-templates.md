@@ -6,9 +6,9 @@ description: I pool di risorse sono raccolte di utenti che consentono di gestire
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 Also - take out all the references to Preview and Prod at prod final
 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile per tutti i clienti nell’ambiente Anteprima e per un gruppo selezionato di clienti nell’ambiente Produzione.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 
 <!--
@@ -104,9 +104,9 @@ Per associare pool di risorse a diversi progetti in blocco:
 
    >[!NOTE]
    >
-   >* Nell’ambiente Produzione, quando si modificano in blocco progetti o modelli, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i progetti o modelli selezionati. Se i progetti selezionati non dispongono di pool di risorse condivise, questo campo sarà vuoto. I pool di risorse qui specificati sovrascriveranno i singoli pool di risorse dei progetti o modelli.
+   >* Quando modifichi modelli in blocco, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i modelli selezionati. Se i modelli selezionati non dispongono di pool di risorse condivise, questo campo è vuoto. I pool di risorse qui specificati sovrascrivono i singoli pool di risorse dei progetti o modelli.
    >
-   >* <span class="preview">Nell’ambiente Anteprima, quando si modificano progetti in blocco, è presente un indicatore di &quot;Valori multipli&quot; se i progetti selezionati hanno pool di risorse diversi. Se si aggiungono pool di risorse in blocco, tutti i pool verranno aggiunti al progetto selezionato, sovrascrivendo i pool di risorse originali.</span>
+   >* Quando modifichi progetti in blocco, è presente un indicatore di &quot;Più valori&quot; se i progetti selezionati hanno pool di risorse diversi. Se si aggiungono pool di risorse in blocco per i progetti, tutti i pool vengono aggiunti al progetto selezionato, sovrascrivendo i pool di risorse originali.</span>
 
 
    <span class="preview">![add_resource_pool_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>

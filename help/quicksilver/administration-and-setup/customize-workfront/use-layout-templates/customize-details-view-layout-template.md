@@ -8,16 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
 # Personalizzare la visualizzazione Dettagli utilizzando un modello di layout
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile per tutti i clienti nell’ambiente Anteprima e per un gruppo selezionato di clienti nell’ambiente Produzione.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 In qualità di amministratore di Adobe Workfront, puoi utilizzare un modello di layout per determinare quali informazioni vengono visualizzate quando un utente fa clic sull’icona Dettagli ![](assets/project-details-icon.png) nel pannello a sinistra durante la visualizzazione di un&#39;attività, un problema, un documento, un programma o un portfolio.
 
@@ -38,9 +38,9 @@ Le modifiche apportate alla visualizzazione Dettagli di un oggetto determinano a
    ![](assets/edit-task-screen.png)
 
 
-* <span class="preview">Schermate &quot;Modifica oggetti&quot; durante la modifica collettiva di progetti, come Modifica progetti</span>
+* Le schermate &quot;Modifica oggetti&quot; vengono visualizzate durante la modifica collettiva di oggetti. Attualmente è supportato per la modifica collettiva di progetti.
 
-   <span>![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)</span>
+   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
 * Riepilogo ![](assets/summary-panel-icon.png) pannello per l’elenco delle attività e dei problemi

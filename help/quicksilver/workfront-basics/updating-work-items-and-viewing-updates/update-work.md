@@ -6,9 +6,9 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2732'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 1%
 >Per ulteriori informazioni sulla nuova esperienza di aggiornamento, consulta [Nuova esperienza di commento](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >È possibile accedere alla nuova progettazione per i seguenti oggetti:
-> * <span class="preview">Problemi relativi all’abilitazione della funzione di commento Beta. </span>
+> * Problemi relativi all’abilitazione della funzione di commento Beta.
    >
-   >     <span class="preview">Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:</span>
+   >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:
    >
-   >     * <span class="preview">Home</span>
-   >     * <span class="preview">Pannello di riepilogo negli elenchi</span>
-   >     * <span class="preview">Pannello Riepilogo nei fogli presenze</span>
+   >     * Home
+   >     * Pannello di riepilogo negli elenchi
+   >     * Pannello Riepilogo nei fogli presenze
 >
 > * Obiettivi
-   >   La nuova esperienza di commento è l’impostazione predefinita per gli obiettivi. Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per ulteriori informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   La nuova esperienza di commento è l’impostazione predefinita per gli obiettivi. Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per ulteriori informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -183,8 +184,6 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 
 1. Per rispondere a un aggiornamento, vedi [Risposta agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<div class="preview">
-
 ### Aggiungere un aggiornamento a un elemento di lavoro utilizzando l’esperienza di creazione dei commenti Beta
 
 1. Individuare l’oggetto che si desidera aggiornare, quindi fare clic sul suo nome per aprire la pagina dell’oggetto.
@@ -224,7 +223,7 @@ La **Commenti** è selezionata per impostazione predefinita.
 
 1. Fai clic su **Invia** per aggiungere l’aggiornamento all’oggetto Workfront.
 1. (Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.
-1. Modifica le informazioni nel commento o rimuovi uno degli utenti con tag. <!--check to make sure you can still remove the users in preview or production. At one point, they were removing this functionality-->
+1. Modificare le informazioni nel commento <!--or remove any of the tagged users-->.
 È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -246,7 +245,6 @@ La **Commenti** è selezionata per impostazione predefinita.
    >
    >Non è possibile aggiungere un commento a un aggiornamento del sistema.
 
-</div>
 
 ## Utilizzare Rich Text in un aggiornamento di Workfront
 
@@ -318,7 +316,7 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
    >* Le immagini sono accessibili solo dalla scheda Aggiornamenti di un oggetto e non sono disponibili nella scheda Documenti.
    >* Puoi inviare un aggiornamento con un’immagine e senza testo.
 
-1. Fai clic su **Aggiorna**  <span class="preview">o **Invia**</span>, nel commentare l’esperienza Beta.
+1. Fai clic su **Aggiorna**  o **Invia**, quando si utilizza l’esperienza di creazione di commenti Beta.
 
 
 ## Copia informazioni di aggiornamento
@@ -351,11 +349,7 @@ Questa opzione copia il collegamento del thread completo negli Appunti in modo d
 
 1. Passa al thread di aggiornamento da copiare.
 
-1. Fai clic sul pulsante **Altro** menu, quindi fai clic su **Copia collegamento thread**
-
-   oppure
-
-   <span class="preview">**Copia collegamento** quando utilizzi l’esperienza Beta</span>.
+1. Fai clic sul pulsante **Altro** menu, quindi fai clic su **Copia collegamento thread** o **Copia collegamento**, quando utilizzi l’esperienza Beta.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -364,11 +358,7 @@ Questa opzione copia il collegamento del thread completo negli Appunti in modo d
 Questa opzione copia un collegamento di aggiornamento specifico negli Appunti. Quando condividi il collegamento di aggiornamento, l’utente che lo segue visualizza un bordo intorno all’aggiornamento.
 
 1. Vai all&#39;aggiornamento o alla risposta che desideri copiare.
-1. Fai clic sul pulsante **Altro** accanto al singolo aggiornamento, quindi fai clic su **Collegamento Copia aggiornamento**
-
-   oppure
-
-   <span class="preview">**Copia collegamento** quando utilizzi l’esperienza Beta</span>.
+1. Fai clic sul pulsante **Altro** accanto al singolo aggiornamento, quindi fai clic su **Collegamento Copia aggiornamento** o **Copia collegamento**, quando utilizzi l’esperienza Beta.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -383,11 +373,7 @@ Nessun utente Workfront (incluso l’amministratore Workfront) può eliminare gl
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Nel messaggio visualizzato, fai clic su **Conferma**
-
-   oppure
-
-   <span class="preview"> **Elimina**, nel commentare l&#39;esperienza Beta</span>.
+1. Nel messaggio visualizzato, fai clic su **Conferma** o **Elimina**, quando si utilizza l’esperienza di creazione di commenti Beta.
 
 >[!NOTE]
 >
@@ -416,13 +402,11 @@ Nessun utente Workfront (incluso l’amministratore Workfront) può eliminare gl
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
-
-
 >[!NOTE]
 >
-><span class="preview">Non è possibile disabilitare gli aggiornamenti di sistema quando si utilizza l&#39;esperienza di commento Beta. </span>
-><span class="preview">Le informazioni presenti in questa sezione si riferiscono solo alle funzionalità disponibili nella sezione Aggiornamenti correnti. </span>
-><span class="preview">Per ulteriori informazioni sugli aggiornamenti di sistema nella versione Beta, consulta [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md). </span>
+>Non è possibile disabilitare gli aggiornamenti di sistema quando si utilizza l&#39;esperienza di commento Beta.
+>Le informazioni presenti in questa sezione si riferiscono solo alle funzionalità disponibili nella sezione Aggiornamenti correnti.
+>Per ulteriori informazioni sugli aggiornamenti di sistema nella versione Beta, consulta [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 Nella sezione Aggiornamenti di un oggetto Workfront sono visualizzati due tipi di informazioni:

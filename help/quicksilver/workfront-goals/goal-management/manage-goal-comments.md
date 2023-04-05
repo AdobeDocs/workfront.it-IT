@@ -6,9 +6,9 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzare in Obiettivi di Adobe Workfront.
 
@@ -140,16 +140,15 @@ Viene aperto l’elenco degli obiettivi.
    >Se passi dalla sezione Aggiornamenti prima di terminare la digitazione e l’invio di un commento, il commento viene mantenuto in modalità bozza anche dopo la disconnessione e il successivo accesso. I commenti creati sono visibili solo all’utente che li inserisce.
 
 1. (Facoltativo) In **Assegnare tag a persone o team** area, inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
-1. <span class="preview">(Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**. </span>
-1. <span class="preview">Modifica le informazioni nel commento o rimuovi uno degli utenti con tag. </span>
+1. (Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.
+1. Modifica le informazioni nel commento&lt;<!--, or remove any of the tagged users-->.
+È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.
 
-   <span class="preview">È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.</span>
-
-   <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
+   ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   <span class="preview">Viene generato un messaggio e-mail per avvisare gli utenti dell’aggiornamento solo quando si invia l’aggiornamento originale. Dopo aver modificato l’aggiornamento non viene generato alcun messaggio e-mail.</span>
+   > Viene generato un messaggio e-mail per avvisare gli utenti dell’aggiornamento solo quando si invia l’aggiornamento originale. Dopo aver modificato l’aggiornamento non viene generato alcun messaggio e-mail.
 
    1. (Facoltativo) Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png), quindi fai clic su una delle seguenti opzioni per copiare le informazioni da un commento agli Appunti:
 
@@ -169,7 +168,7 @@ Viene aperto l’elenco degli obiettivi.
    >L’indicatore &quot;Nuovo&quot; viene visualizzato solo quando l’utente che ha inserito un nuovo aggiornamento e l’utente che sta attualmente inserendo un aggiornamento utilizzano la nuova esperienza di commento.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. <span class="preview">(Facoltativo) Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra di un commento, quindi fai clic su **Elimina** per eliminare un commento aggiunto. </span>
+1. (Facoltativo) Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra di un commento, quindi fai clic su **Elimina** per eliminare un commento aggiunto.
 1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 5-9 di cui sopra. <!--insure this stays accurate-->
 1. (Facoltativo) Fai clic sul pulsante **Simile** icona![](assets/like-icon.png) Mi piace un commento aggiunto da qualcun altro. L’icona si aggiorna con il numero di Mi piace.
 1. (Facoltativo) Per aggiungere formattazione RTF all’aggiornamento, utilizza tutti gli attributi nella barra degli strumenti RTF durante la digitazione. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

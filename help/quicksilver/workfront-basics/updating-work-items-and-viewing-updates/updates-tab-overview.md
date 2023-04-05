@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: bbd99435bb07d68bf9058bcd3e8c6ef5d9df75a9
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '896'
 ht-degree: 4%
 
 ---
@@ -18,33 +18,28 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
 
 >[!NOTE]
 >
->È in corso la riprogettazione della sezione Aggiornamenti di un oggetto.
->
+>Stiamo riprogettando l’esperienza di commento in Adobe Workfront.
 >Per ulteriori informazioni sulla nuova esperienza di aggiornamento, consulta [Nuova esperienza di commento](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
->È possibile accedere alla nuova progettazione dai seguenti oggetti e nei seguenti ambienti:
+>È possibile accedere alla nuova progettazione per i seguenti oggetti:
+> * Problemi relativi all’abilitazione della funzione di commento Beta.
+   >
+   >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:
+   >
+   >     * Home
+   >     * Pannello di riepilogo negli elenchi
+   >     * Pannello Riepilogo nei fogli presenze
 >
->* <span class="preview">Quando abiliti l’esperienza di creazione dei commenti per i seguenti oggetti:</span>
-   >
-   >     * <span class="preview">Problemi</span>
-
-   >     
-   >     <span class="preview">Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:</span>
-   >
-   >     * <span class="preview">Home</span>
-   >     * <span class="preview">Pannello di riepilogo negli elenchi</span>
-   >     * <span class="preview">Pannello Riepilogo nei fogli presenze</span>
->
->* Per impostazione predefinita, come esperienza di commento corrente per i seguenti oggetti:
-   >
-   >     * Obiettivi
+> * Obiettivi
 
    >
-   >     Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >   La nuova esperienza di commento è l’impostazione predefinita per gli obiettivi. Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per ulteriori informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >
+   >    Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti relativi all’oggetto o agli aggiornamenti di sistema che tengono traccia delle modifiche apportate all’oggetto.
@@ -116,7 +111,7 @@ Al momento, è possibile effettuare commenti e rispondere agli aggiornamenti uti
      </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="preview">Problemi</span></li> 
+     <li>Problemi</li> 
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -192,7 +187,7 @@ Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggior
 >
 >Per informazioni sulla gerarchia degli oggetti in Adobe Workfront, consulta [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-><span class="preview"> Non è possibile rispondere agli aggiornamenti di sistema nella nuova esperienza di commento Beta. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).</span>
+> Non è possibile rispondere agli aggiornamenti di sistema nella nuova esperienza di commento Beta. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 
 ## Limitazioni della sezione Aggiornamenti
 

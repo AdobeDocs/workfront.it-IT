@@ -6,9 +6,9 @@ description: Quando un utente aggiunge o risponde a un aggiornamento di un ogget
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 36b5c534e0a454b3c890d7a5c7c5b6a5a954088b
+source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -25,17 +25,18 @@ ht-degree: 0%
 >Per ulteriori informazioni sulla nuova esperienza di aggiornamento, consulta [Nuova esperienza di commento](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
 >
 >È possibile accedere alla nuova progettazione per i seguenti oggetti:
-> * <span class="preview">Problemi relativi all’abilitazione della funzione di commento Beta. </span>
+> * Problemi relativi all’abilitazione della funzione di commento Beta.
    >
-   >     <span class="preview">Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:</span>
+   >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:
    >
-   >     * <span class="preview">Home</span>
-   >     * <span class="preview">Pannello di riepilogo negli elenchi</span>
-   >     * <span class="preview">Pannello Riepilogo nei fogli presenze</span>
+   >     * Home
+   >     * Pannello di riepilogo negli elenchi
+   >     * Pannello Riepilogo nei fogli presenze
 >
 > * Obiettivi
-   >   La nuova esperienza di commento è l’impostazione predefinita per gli obiettivi. Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per ulteriori informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
+   >
+   >   La nuova esperienza di commento è l’impostazione predefinita per gli obiettivi. Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per ulteriori informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
    >    Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -97,8 +98,6 @@ La risposta a un commento o a una risposta varia a seconda dell’esperienza e d
 1. (Facoltativo) Utilizza la formattazione, le emoticon, include i collegamenti o le immagini come spiegato nella sezione &quot;Utilizza il Rich Text in un aggiornamento Workfront&quot; nell&#39;articolo [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Fai clic su **Rispondi** per salvare la risposta.
 
-<div class="preview">
-
 ### Rispondi a un commento quando utilizzi l’esperienza di commento Beta
 
 1. Passare all&#39;oggetto a cui si desidera aggiungere una risposta.
@@ -113,7 +112,6 @@ La risposta a un commento o a una risposta varia a seconda dell’esperienza e d
 
 1. (Facoltativo) Fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) accanto all’aggiornamento per ulteriori opzioni per gestire la risposta. Per ulteriori informazioni, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
-</div>
 
 ## Risposta a un aggiornamento tramite notifica e-mail
 
