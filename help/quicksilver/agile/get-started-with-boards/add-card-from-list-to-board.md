@@ -5,16 +5,14 @@ title: Aggiungere attività o problemi esistenti a una bacheca o a un flusso di 
 description: Potete aggiungere qualsiasi attività o problema a una bacheca in Adobe Workfront da una vista a elenco o a rapporti.
 author: Lisa
 feature: Agile
-source-git-commit: 36144b10a55a4732b7c50c2aea8e2ebb219efc4c
+source-git-commit: a1ab72b3ee416a6a47343eadf4d3dec317e4e27a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
 # Aggiungi attività o problemi esistenti a un [!DNL Adobe Workfront] scheda o flusso di lavoro
-
-{{highlighted-preview-article-level}}
 
 È possibile aggiungere qualsiasi attività o problema a una bacheca o a un flusso di lavoro in [!DNL Adobe Workfront] da una vista a elenco o a rapporti o dai dettagli dell’oggetto.
 
