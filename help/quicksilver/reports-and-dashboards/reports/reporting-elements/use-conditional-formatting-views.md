@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Utilizzare la formattazione condizionale nelle visualizzazioni
 description: Quando condividi i rapporti con altri utenti in Adobe Workfront, considera la possibilità di personalizzare la visualizzazione dei rapporti, di semplificare la lettura di determinate informazioni o di distinguerli.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1148'
 ht-degree: 2%

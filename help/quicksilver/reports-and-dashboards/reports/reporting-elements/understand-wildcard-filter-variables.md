@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Variabili filtro caratteri jolly
 description: Utilizzando i caratteri jolly nei filtri, puoi fare riferimento a un utente o a una data generici invece di un utente o una data specifici. In questo modo, gli elementi generati sono dinamici e i risultati cambiano a seconda del contesto in cui vengono utilizzati.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 2%
+source-wordcount: '1447'
+ht-degree: 1%
 
 ---
 
@@ -94,21 +94,21 @@ Per indicare diversi periodi di tempo e diversi punti nel tempo (futuri o passat
 | **m** | mese |
 | **y** | anno |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Qualificatori** |  |
 |---|---|
 | **b** | inizio della settimana (domenica) |
 | **e** | fine settimana (sabato) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 | **Operatori** |  |
 |---|---|
 | **+** | aggiungi valore al valore jolly |
 | **-** | sottrarre valore dal valore jolly |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Ad esempio, il carattere jolly `$$TODAYb+2w` si riferisce a &quot;2 settimane dall&#39;inizio di questa settimana&quot;. Il carattere jolly *`$$NOW+2h` si riferisce a &quot;2 ore da ora&quot;.
 

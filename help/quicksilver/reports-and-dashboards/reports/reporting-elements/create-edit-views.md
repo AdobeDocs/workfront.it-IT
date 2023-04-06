@@ -3,10 +3,10 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Creare o modificare visualizzazioni in Adobe Workfront
 description: Puoi personalizzare il tipo di informazioni da visualizzare sullo schermo utilizzando le visualizzazioni. Puoi utilizzare diversi tipi di visualizzazioni in Adobe Workfront.
-author: Lisa
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 442e0b8fde9e4acaa2686ccd292fb003f72be623
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 1%

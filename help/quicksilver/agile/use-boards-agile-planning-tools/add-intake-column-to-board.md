@@ -7,7 +7,7 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di assun
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -77,7 +77,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Questo esempio mostra un filtro per le attività di un progetto specifico che si trovano nello stato di [!UICONTROL Nuovo] o [!UICONTROL In corso]e sono assegnati a me.
 
-   Per informazioni dettagliate sulla creazione di un filtro, consulta la sezione &quot;Creare o modificare un filtro nel generatore beta&quot; nell’articolo [Creare o modificare i filtri in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Per informazioni sulla creazione di un filtro, consulta la sezione &quot;Creare o modificare un filtro nel generatore standard&quot; nell’articolo [Creare o modificare i filtri in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Denomina il filtro e fai clic su **[!UICONTROL Salva]**.
 
