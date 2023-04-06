@@ -6,9 +6,9 @@ title: Creare un’iterazione in un flusso di lavoro
 description: Un'iterazione è un tempo impostato riservato al completamento del lavoro. Alcuni team agili possono fare riferimento a un'iterazione come sprint.
 author: Lisa
 feature: Agile
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: cc1411f0308e3415a09403e8e3a65d8af2886de9
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -86,3 +86,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Una volta avviata l’iterazione, è possibile modificare solo il nome dell’iterazione.
 
+## Eliminare un’iterazione
+
+1. Fai clic sul pulsante [!UICONTROL **Elenco a schede**] sul flusso di lavoro e apri la visualizzazione dell&#39;iterazione.
+1. Fai clic sul pulsante **Elimina** accanto all’iterazione.
+1. Fai clic su [!UICONTROL **Elimina iterazione**] nel messaggio di conferma.
