@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 0a32193f54e919972b0a1b10e9f15fea2b6b5b8e
+source-git-commit: 0e6a7c0b5e83c85f848208ac0f79cd6eb7b8b1b2
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Personalizzare le pagine bloccate utilizzando un modello di layout
-
-{{highlighted-preview}}
 
 In un modello di layout, puoi fissare le pagine che desideri che gli utenti abbiano sempre a disposizione nella parte superiore di Adobe Workfront. È possibile accedere a queste pagine tramite il menu principale ![](assets/main-menu-icon.png) o dashboard.
 
@@ -70,9 +68,9 @@ Per eseguirle per un gruppo, devi essere un responsabile di quel gruppo.</p> <p>
 
 1. Ripeti il passaggio precedente per fissare altre pagine.
 
-1. <span class="preview"> (Facoltativo) Per rinominare un perno, posiziona il puntatore del mouse sul perno, fai clic sulla freccia accanto al nome del perno e seleziona **Rinomina perno**. Digitare il nuovo nome del pin e fare clic sull&#39;icona del segno di spunta o premere Invio.</span>
+1. (Facoltativo) Per rinominare un perno, posiziona il puntatore del mouse sul perno, fai clic sulla freccia accanto al nome del perno e seleziona **Rinomina perno**. Digitare il nuovo nome del pin e fare clic sull&#39;icona del segno di spunta o premere Invio.
 
-   <span class="preview"> Dopo aver fatto clic sul segno di spunta o premuto Invio, viene visualizzata una piccola finestra a comparsa che consente di annullare la modifica del nome del pin prima di salvarla.</span>
+   Dopo aver fatto clic sul segno di spunta o premuto Invio, viene visualizzata una piccola finestra a comparsa che consente di annullare la modifica del nome del pin prima di salvarla.
 
 1. Continua a personalizzare il modello di layout.
 
