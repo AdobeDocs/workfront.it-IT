@@ -6,18 +6,16 @@ description: Specificare una versione API nelle integrazioni
 author: Becky
 feature: Workfront API
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # Specificare una versione API nelle integrazioni
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
-
-Tutti gli URI Adobe Workfront sono necessari per fare riferimento a una versione specifica dell’API dopo la parte &quot;attask/api&quot; dell’URI. L&#39;esempio seguente chiama la versione 15.0:
+Tutti gli URI Adobe Workfront devono fare riferimento a una versione specifica dell’API dopo la parte &quot;attask/api&quot; dell’URI. L&#39;esempio seguente chiama la versione 15.0:
 
 `attask/api/v15.0/<objectName>/<objectId>`
 
@@ -31,11 +29,9 @@ Per ulteriori informazioni sulla cadenza del rilascio e sulla pianificazione del
 
 >[!IMPORTANT]
 >
->* Dopo la versione 23.2, la versione predefinita dell’API sarà impostata sulla versione più recente. Qualsiasi chiamata API senza la versione specificata utilizzerà la versione predefinita. Ogni volta che Workfront rilascia una nuova versione dell’API, la versione predefinita viene aggiornata alla versione più recente. Pertanto, dopo la pubblicazione di una nuova versione dell’API Workfront, tutte le chiamate API che utilizzano la versione predefinita devono essere verificate per assicurarsi che la funzionalità sia ancora supportata.
+>* La versione predefinita dell’API è impostata sulla versione più recente. Qualsiasi chiamata API senza la versione specificata utilizzerà la versione predefinita. Ogni volta che Workfront rilascia una nuova versione dell’API, la versione predefinita viene aggiornata alla versione più recente. **Pertanto, dopo la pubblicazione di una nuova versione dell’API Workfront, tutte le chiamate API che utilizzano la versione predefinita devono essere verificate per assicurarsi che la funzionalità sia ancora supportata.**
 >
 >* Se l’organizzazione utilizza l’API predefinita, l’amministratore di Workfront ha ricevuto un messaggio Centro annunci con ulteriori istruzioni relative all’API predefinita.
->
->* <span class="preview">L’API predefinita nell’ambiente Anteprima è impostata sulla versione più recente. L’API predefinita nell’ambiente di produzione sarà impostata sulla versione più recente dopo la versione 23.2 (aprile 2023)</span>.
 >
 >Per visualizzare la versione più recente dell’API, consulta [Controllo delle versioni e pianificazione del supporto API](../../wf-api/api/api-version-support-schedule.md).
 

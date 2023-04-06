@@ -6,18 +6,14 @@ description: Aggiornare le integrazioni che utilizzano il controllo delle versio
 author: Becky
 feature: Workfront API
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 2b9eacc9b2c8f499cdd1794a55879a56224051c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
 # Aggiornare le integrazioni che utilizzano il controllo delle versioni API predefinito
-
-<!-- This article is going to need a complete revamp or to be removed-->
-
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 Rilasceremo nuove versioni dell’API Adobe Workfront su base biennale. Ogni versione è supportata per tre anni dopo il rilascio, con un anno aggiuntivo in uno stato obsoleto in cui la versione è disponibile ma non supportata.
 
@@ -27,38 +23,16 @@ Le integrazioni che non specificano una versione dell’API nell’URI vengono a
 >
 >Se l’organizzazione utilizza l’API predefinita, l’amministratore di Workfront ha ricevuto un messaggio Centro annunci con ulteriori istruzioni relative all’API predefinita.
 
-
-<!--
-Integrations that do not specify a version of the API in the URI are automatically routed to Default, which has been deprecated. In order for your Workfront integrations to be valid, you must specify a supported API version in your Workfront API requests.
--->
-
 Per informazioni su come specificare una versione nelle richieste API, consulta [Specificare una versione API nelle integrazioni](../../wf-api/api/specify-api-version-integrations.md).
 
 ## Considerazioni sull’utilizzo dell’API predefinita
 
 Quando si lavora con l’API predefinita di Workfront, considera quanto segue:
 
-* Dopo la versione 23.2, la versione predefinita dell’API sarà impostata sulla versione più recente. Qualsiasi chiamata API senza la versione specificata utilizzerà la versione predefinita. Ogni volta che Workfront rilascia una nuova versione dell’API, la versione predefinita viene aggiornata alla versione più recente. **Pertanto, dopo aver rilasciato una nuova versione dell’API Workfront, tutte le chiamate API che utilizzano la versione predefinita devono essere verificate per assicurarti che la funzionalità sia ancora supportata**.
-* Se l’organizzazione utilizza l’API predefinita obsoleta, l’amministratore di Workfront ha ricevuto un messaggio Centro annunci con ulteriori istruzioni relative all’API predefinita.
-* <span class="preview">L’API predefinita nell’ambiente Anteprima è attualmente impostata sulla versione più recente. L’API predefinita nell’ambiente di produzione sarà impostata sulla versione più recente dopo la versione 23.2,</span>
+* La versione predefinita dell’API, la versione più recente. Qualsiasi chiamata API senza la versione specificata utilizzerà la versione predefinita. Ogni volta che Workfront rilascia una nuova versione dell’API, la versione predefinita viene aggiornata alla versione più recente. **Pertanto, dopo aver rilasciato una nuova versione dell’API Workfront, tutte le chiamate API che utilizzano la versione predefinita devono essere verificate per assicurarti che la funzionalità sia ancora supportata**.
+* Se l’organizzazione utilizza l’API predefinita precedente, obsoleta, l’amministratore di Workfront ha ricevuto un messaggio Centro annunci con ulteriori istruzioni relative all’API predefinita.
 
 Per visualizzare la versione più recente dell’API, consulta [Controllo delle versioni e pianificazione del supporto API](../../wf-api/api/api-version-support-schedule.md).
-
-<!--
-
-## Deprecating Default
-
-In an effort to improve the Workfront API, we are in the process of removing older API versions that have exceeded our support window of three years. One of these versions is Version 2, to which Default is mapped. This version was released in 2010, and much of the logic supported in the Attask/Workfront application at that time either no longer exists or has substantially changed.
-
-We deprecated Default in July 2017, and we will no longer designate a specific version of the API to be the default version. Instead, all Workfront API requests must specify a specific API version.
-
->[!IMPORTANT]
->
-> By July 1, 2018 all of your Workfront integrations that use Default must be updated to call a specific supported API version. After that date, all of your Workfront API requests used by integrations that do not specify a version will fail.
-
-To learn about the Workfront deprecation cadence, see [API versioning and support schedule](../../wf-api/api/api-version-support-schedule.md).
-
--->
 
 ## Aggiornamento delle integrazioni alle versioni API supportate
 
