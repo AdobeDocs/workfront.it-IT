@@ -7,9 +7,9 @@ description: Puoi verificare se un rapporto viene aggiunto a un dashboard in Ado
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -62,10 +62,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Visualizzazione delle informazioni del dashboard nella visualizzazione di un elenco di rapporti
 
+>[!WARNING]
+>
+>L’inclusione della colonna Dashboard in un elenco di rapporti può aumentare notevolmente i tempi di caricamento, in particolare per gli elenchi di rapporti lunghi.
+
 Per creare una visualizzazione con le informazioni del dashboard per un elenco di rapporti:
 
 1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Workfront, quindi fai clic su **Rapporti**.
-
 1. Nell’elenco dei rapporti, fai clic sul pulsante **Visualizza** menu a discesa.
 1. Fai clic su **Nuova vista**.
 1. Fai clic su **Aggiungi colonna**.

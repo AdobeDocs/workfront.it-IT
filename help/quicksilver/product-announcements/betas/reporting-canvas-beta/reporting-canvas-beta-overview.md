@@ -6,186 +6,37 @@ description: Informazioni sul programma beta per il prossimo strumento Reporting
 author: Nolan
 feature: Product Announcements
 exl-id: cc0adf28-08ab-4330-b901-219ab687f02f
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
 workflow-type: tm+mt
-source-wordcount: '1195'
-ht-degree: 3%
+source-wordcount: '1060'
+ht-degree: 1%
 
 ---
 
 
 # Reporting Canvas beta: panoramica
 
-## Beta dell’area di lavoro per la generazione di rapporti
+## Area di lavoro di reporting
 
-Una completa reimmaginazione del reporting in Workfront, il nuovo strumento di Reporting Canvas sta per essere completato e sarà presto disponibile per i test pubblici. Nello sviluppo di Reporting Canvas, abbiamo lavorato sodo per fornire un’esperienza che offra la massima flessibilità abbinata a un design intuitivo e modulare, in modo che gli utenti come te possano sfruttare al meglio i tuoi dati per creare e condividere rapporti. Grazie a un nuovo tipo di rapporto unificato che consente di trascinare quasi tutti gli elementi su un&#39;area di lavoro senza limiti, la creazione di un capolavoro di dati visivi sarà presto più semplice che mai.
+Una completa reimmaginazione del reporting in Workfront, il nuovo strumento Area di reporting è attualmente in fase di sviluppo. Nella progettazione di Reporting Canvas, abbiamo lavorato sodo per fornire un’esperienza che offra la massima flessibilità abbinata a un design intuitivo e modulare, in modo che gli utenti come voi possano sfruttare al meglio i vostri dati per creare e condividere rapporti. Grazie a un nuovo tipo di rapporto unificato che consente di trascinare quasi tutti gli elementi su un&#39;area di lavoro senza limiti, la creazione di un capolavoro di dati visivi sarà presto più semplice che mai.
 
-Questo articolo contiene informazioni sul funzionamento della versione beta e su come la tua organizzazione può aiutarci a migliorare Reporting Canvas prima del suo avvio ufficiale.
+Questo articolo contiene informazioni sull’attuale versione beta privata, limitata a clienti specifici. Le nuove funzioni Area di lavoro di reporting vengono ora implementate tramite dashboard di Canvas. Vedi **Piano di sviluppo** qui sotto per ulteriori informazioni.
 
-### Pianificazione del rilascio
+### Piano di sviluppo
 
-* Versione beta corrente: La versione beta corrente è privata e limitata a un numero specifico di clienti.
-* Lancio beta pubblico: TBD (Una volta annunciata una data, inizieremo a consentire a tutti i clienti di accedere alla versione beta di Reporting Canvas).
-* Rilascio ufficiale: TBD
+Siamo nelle fasi finali di risoluzione di un problema di qualità dei dati che abbiamo osservato all&#39;inizio nella versione beta di Reporting Canvas. Presto riprenderemo il lavoro per fornire nuove visualizzazioni, espandere la selezione di oggetti Workfront segnalabili e migliorare le esperienze di creazione e distribuzione dei rapporti, tutte parte integrante della realizzazione dei nostri obiettivi per Reporting Canvas.
 
-### Funzioni
-
-Nello sviluppo di Reporting Canvas, abbiamo riprogettato radicalmente alcune funzionalità e ne abbiamo create alcune nuove dal basso per semplificare la creazione dei rapporti. La tabella seguente illustra le principali funzioni di Reporting Canvas rispetto agli strumenti di reporting esistenti, nonché lo stato di rilascio corrente:
-
->[!NOTE]
->
->Per un elenco cronologico delle funzioni aggiunte e dei problemi risolti, vedi [Reporting Canvas beta: attività di rilascio](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md).
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <th>Descrizione della funzione</th> 
-   <th>Terminologia legacy </th> 
-   <th>Terminologia dell’area di reporting</th> 
-   <th>Stato</th> 
-  </tr> 
-  <tr> 
-   <td>Report</td> 
-   <td>Rapporto</td> 
-   <td>Area di lavoro di reporting</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-  <tr> 
-   <td>Dashboard</td> 
-   <td>Dashboard</td> 
-   <td>Area di lavoro di reporting</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-  <tr> 
-   <td>Tabelle</td> 
-   <td>Scheda Dettagli</td> 
-   <td>Blocco tabella</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-  <tr> 
-   <td>Grafici</td> 
-   <td>Scheda Grafico</td> 
-   <td>Blocco di visualizzazione</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-  <tr> 
-   <td>Subtotali</td> 
-   <td>Scheda Riepilogo</td> 
-   <td>Visualizzazione KPI</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-  <tr> 
-   <td>Percorso di perforazione</td> 
-   <td>Finestra modale per visualizzatori di rapporti</td> 
-   <td>Sovrapposizione visualizzatore rapporti</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-  <tr> 
-   <td>Colonne</td> 
-   <td>Scheda Visualizza</td> 
-   <td>Modifica tabella</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-  <tr> 
-   <td>Filtri</td> 
-   <td>Scheda Filtro</td> 
-   <td>Modifica tabella</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-  <tr> 
-   <td>Gruppi</td> 
-   <td>Scheda Gruppo</td> 
-   <td>Modifica tabella</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-  <tr> 
-   <td>Configurazione del campo<br>(aggregazioni e formattazione condizionale)</td> 
-   <td>Scheda Visualizza</td> 
-   <td>Modifica tabella (colonna selezionata)</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-  <tr> 
-   <td>Ridimensionamento delle colonne</td> 
-   <td>Modalità testo</td> 
-   <td>Modifica tabella (colonna selezionata)</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-   <tr> 
-   <td>Contenuto esterno</td> 
-   <td>Pagina esterna</td> 
-   <td>Blocco di contenuto web</td> 
-   <td>Rilasciato</td> 
-  </tr> 
-   <tr> 
-   <td>Esportazione in corso</td> 
-   <td>Azioni di rapporto</td> 
-   <td><strong>Altro</strong> menu in visualizzatore</td> 
-   <td>Rilasciato parzialmente</td> 
-  </tr> 
-  <tr> 
-   <td>Condivisione di colonne</td> 
-   <td>Modalità testo</td> 
-   <td>Generatore di campi</td> 
-   <td>Rilasciato parzialmente</td> 
-  </tr> 
-  <tr> 
-   <td>Colonne calcolate</td> 
-   <td>Modalità testo</td> 
-   <td>Generatore di campi</td> 
-   <td>Rilasciato parzialmente</td> 
-  </tr> 
-  <tr> 
-   <td>Stile del grafico</td> 
-   <td>Scheda Grafico</td> 
-   <td>Blocco di visualizzazione (scheda Stile)</td> 
-   <td>Pianificato</td> 
-  </tr> 
-  <tr> 
-   <td>Consegna pianificata</td> 
-   <td>Azioni di rapporto</td> 
-   <td><strong>Altro</strong> menu in visualizzatore</td> 
-   <td>Pianificato</td> 
-  </tr> 
-  <tr> 
-   <td>Concessione dell'accesso al rapporto</td> 
-   <td>Azioni di rapporto</td> 
-   <td><strong>Altro</strong> menu in visualizzatore</td> 
-   <td>Pianificato</td> 
-  </tr> 
-  <tr> 
-   <td>Accesso al dashboard non autenticato</td> 
-   <td>Azioni del dashboard</td> 
-   <td><strong>Altro</strong> menu in visualizzatore</td> 
-   <td>Pianificato</td> 
-  </tr> 
-  <tr> 
-   <td>Modifica dei dati dei rapporti</td> 
-   <td>Modifica in linea</td> 
-   <td>Riquadro di riepilogo</td> 
-   <td>Pianificato</td> 
-  </tr> 
-  <tr> 
-   <td>Filtro pagina</td> 
-   <td>N/D</td> 
-   <td>Filtro area di lavoro</td> 
-   <td>Pianificato</td> 
-  </tr> 
- </tbody> 
-</table>
-
->[!NOTE]
->
->Le funzioni elencate di seguito verranno rilasciate nell’ambito di uno schema di rilascio dei prodotti su più livelli. Le funzionalità a cui hai accesso in questa versione beta potrebbero non essere disponibili nella versione completa, in base al piano della tua organizzazione.
+A partire dalla versione 23.2, distribuiremo queste nuove esperienze in modo incrementale tramite la nuova pagina Dashboard di Canvas che è ora disponibile nel tuo ambiente di anteprima. I dashboard di Canvas consentono di visualizzare i rapporti esistenti insieme alle nuove funzionalità di reporting che stiamo creando e fungeranno da ambiente principale per la distribuzione e il test delle nuove funzionalità per Area di lavoro di reporting. Per ulteriori informazioni sull’abilitazione e l’utilizzo delle dashboard di Canvas, consulta [Panoramica delle dashboard di Canvas](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Partecipa alla versione beta
 
+>[!IMPORTANT]
+>
+>Le informazioni beta riportate di seguito sono per gli amministratori che sono già stati inclusi nella versione beta di Reporting Canvas, che non accetta più nuovi partecipanti. Se desideri testare le nuove funzioni di Area di lavoro rapporti man mano che vengono aggiunte, consulta **Piano di sviluppo** per informazioni sull’abilitazione delle dashboard di Canvas.
+
 ### Disponibilità
 
-La versione beta dell’area di lavoro per la generazione di rapporti sarà disponibile per tutte le organizzazioni che utilizzano AWS, indipendentemente dall’area geografica.
+La versione beta di Reporting Canvas è disponibile per tutte le organizzazioni che si trovano su AWS, indipendentemente dall’area geografica.
 
 ### Unisciti alla versione beta
 

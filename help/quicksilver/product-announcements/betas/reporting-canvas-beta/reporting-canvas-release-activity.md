@@ -1,15 +1,11 @@
 ---
-content-type: reference
-navigation-topic: betas
 title: '''Reporting Canvas beta: attività di rilascio"'
 description: Attività di rilascio settimanale per la versione beta di Adobe Workfront Reporting Canvas
-author: Nolan
-feature: Product Announcements
-exl-id: 41742569-d4bb-48c0-b0a1-f3af57a6c4e5
-source-git-commit: d649decb2875a3af4fd40c323a7836d4468bf04b
+hidefromtoc: true
+source-git-commit: 4d41779e2e93e40f295bcff2bbdc0c84ea290b41
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 0%
+source-wordcount: '543'
+ht-degree: 4%
 
 ---
 
@@ -77,3 +73,152 @@ Per informazioni generali sulla versione beta dell’area di lavoro per la gener
 
 * #Valore! è visualizzato nella cella quando non è possibile eseguire un calcolo per riga
 * Aggiunta di convalida durante il trascinamento e il rilascio di determinati tipi di dati in una determinata funzione nel Generatore di campi
+
+## Funzioni pianificate
+
+Nello sviluppo di Reporting Canvas, abbiamo riprogettato radicalmente alcune funzionalità e ne abbiamo create alcune nuove dal basso per semplificare la creazione dei rapporti. La tabella seguente illustra le principali funzioni di Reporting Canvas rispetto agli strumenti di reporting esistenti, nonché lo stato di rilascio corrente:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>Descrizione della funzione</th> 
+   <th>Terminologia legacy </th> 
+   <th>Terminologia dell’area di reporting</th> 
+   <th>Stato</th> 
+  </tr> 
+  <tr> 
+   <td>Report</td> 
+   <td>Rapporto</td> 
+   <td>Area di lavoro di reporting</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+  <tr> 
+   <td>Dashboard</td> 
+   <td>Dashboard</td> 
+   <td>Area di lavoro di reporting</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+  <tr> 
+   <td>Tabelle</td> 
+   <td>Scheda Dettagli</td> 
+   <td>Blocco tabella</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+  <tr> 
+   <td>Grafici</td> 
+   <td>Scheda Grafico</td> 
+   <td>Blocco di visualizzazione</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+  <tr> 
+   <td>Subtotali</td> 
+   <td>Scheda Riepilogo</td> 
+   <td>Visualizzazione KPI</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+  <tr> 
+   <td>Percorso di perforazione</td> 
+   <td>Finestra modale per visualizzatori di rapporti</td> 
+   <td>Sovrapposizione visualizzatore rapporti</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+  <tr> 
+   <td>Colonne</td> 
+   <td>Scheda Visualizza</td> 
+   <td>Modifica tabella</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+  <tr> 
+   <td>Filtri</td> 
+   <td>Scheda Filtro</td> 
+   <td>Modifica tabella</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+  <tr> 
+   <td>Gruppi</td> 
+   <td>Scheda Gruppo</td> 
+   <td>Modifica tabella</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+  <tr> 
+   <td>Configurazione del campo<br>(aggregazioni e formattazione condizionale)</td> 
+   <td>Scheda Visualizza</td> 
+   <td>Modifica tabella (colonna selezionata)</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+  <tr> 
+   <td>Ridimensionamento delle colonne</td> 
+   <td>Modalità testo</td> 
+   <td>Modifica tabella (colonna selezionata)</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+   <tr> 
+   <td>Contenuto esterno</td> 
+   <td>Pagina esterna</td> 
+   <td>Blocco di contenuto web</td> 
+   <td>Rilasciato</td> 
+  </tr> 
+   <tr> 
+   <td>Esportazione in corso</td> 
+   <td>Azioni di rapporto</td> 
+   <td><strong>Altro</strong> menu in visualizzatore</td> 
+   <td>Rilasciato parzialmente</td> 
+  </tr> 
+  <tr> 
+   <td>Condivisione di colonne</td> 
+   <td>Modalità testo</td> 
+   <td>Generatore di campi</td> 
+   <td>Rilasciato parzialmente</td> 
+  </tr> 
+  <tr> 
+   <td>Colonne calcolate</td> 
+   <td>Modalità testo</td> 
+   <td>Generatore di campi</td> 
+   <td>Rilasciato parzialmente</td> 
+  </tr> 
+  <tr> 
+   <td>Stile del grafico</td> 
+   <td>Scheda Grafico</td> 
+   <td>Blocco di visualizzazione (scheda Stile)</td> 
+   <td>Pianificato</td> 
+  </tr> 
+  <tr> 
+   <td>Consegna pianificata</td> 
+   <td>Azioni di rapporto</td> 
+   <td><strong>Altro</strong> menu in visualizzatore</td> 
+   <td>Pianificato</td> 
+  </tr> 
+  <tr> 
+   <td>Concessione dell'accesso al rapporto</td> 
+   <td>Azioni di rapporto</td> 
+   <td><strong>Altro</strong> menu in visualizzatore</td> 
+   <td>Pianificato</td> 
+  </tr> 
+  <tr> 
+   <td>Accesso al dashboard non autenticato</td> 
+   <td>Azioni del dashboard</td> 
+   <td><strong>Altro</strong> menu in visualizzatore</td> 
+   <td>Pianificato</td> 
+  </tr> 
+  <tr> 
+   <td>Modifica dei dati dei rapporti</td> 
+   <td>Modifica in linea</td> 
+   <td>Riquadro di riepilogo</td> 
+   <td>Pianificato</td> 
+  </tr> 
+  <tr> 
+   <td>Filtro pagina</td> 
+   <td>N/D</td> 
+   <td>Filtro area di lavoro</td> 
+   <td>Pianificato</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>Le funzioni elencate di seguito verranno rilasciate nell’ambito di uno schema di rilascio dei prodotti su più livelli. Le funzionalità a cui hai accesso in questa versione beta potrebbero non essere disponibili nella versione completa, in base al piano della tua organizzazione.
