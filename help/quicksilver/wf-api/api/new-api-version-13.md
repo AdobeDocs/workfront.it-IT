@@ -6,7 +6,7 @@ description: Adobe Workfront ha rilasciato l’API versione 13 il 22 aprile 2021
 author: Becky
 feature: Workfront API
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 1ea7e1a0435e9d199c3d828723d11ce530a80540
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 2%
@@ -456,7 +456,7 @@ Un oggetto Scheda attività rappresenta una scheda attività virtuale che consen
 
 ### Modello UIT {#uitemplate}
 
-Gli amministratori di Adobe Workfront o gli amministratori di gruppo possono creare modelli per personalizzare gli elementi di layout in Adobe Workfront. L&#39;oggetto LayoutTemplate è specifico per la nuova esperienza Adobe Workfront.
+Gli amministratori di Adobe Workfront o gli amministratori di gruppo possono creare modelli per personalizzare gli elementi di layout in Adobe Workfront. L&#39;oggetto UITemplate è specifico per la nuova esperienza Adobe Workfront.
 
 Per l&#39;oggetto che rappresenta i modelli di layout in Adobe Workfront Classic, consultare [LayoutTemplate](#layouttemplate).
 

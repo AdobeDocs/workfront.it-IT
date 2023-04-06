@@ -6,9 +6,9 @@ description: Controllo delle versioni e pianificazione del supporto API
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: bcf8c8a5ce9cbaf596878b85aa134245e811d07d
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '226'
 ht-degree: 11%
 
 ---
@@ -33,6 +33,10 @@ La tabella seguente mostra la pianificazione del rilascio e del supporto per l‚Ä
   </tr> 
  </thead> 
  <tbody> 
+   <td>14</td> 
+   <td> <p>Aprile 2023</p> <p>(con la versione 23.2)</p> </td> 
+   <td> <p>**durante il 2026</p> <p>(con la versione 26.2)</p> </td> 
+  </tr> 
   <tr> 
    <td>15</td> 
    <td>Prima met√† del 2022</td> 
