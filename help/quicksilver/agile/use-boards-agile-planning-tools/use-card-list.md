@@ -6,7 +6,7 @@ title: Utilizza l'elenco delle schede
 description: È possibile creare un elenco di schede in un flusso di lavoro e aggiungere le schede alle iterazioni.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Utilizza l&#39;elenco delle schede
-
-{{highlighted-preview-article-level}}
 
 È possibile creare un elenco di schede in un flusso di lavoro e aggiungere le schede alle iterazioni.
 

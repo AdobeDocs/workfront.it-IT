@@ -6,18 +6,16 @@ title: Metriche di iterazione della revisione
 description: Le metriche sono disponibili per ogni iterazione in un flusso di lavoro, nel pannello del processo di iterazione.
 author: Lisa
 feature: Agile
-source-git-commit: 463585bb3368b0061957c42516f790ed085711d2
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
 # Metriche di iterazione della revisione
 
-{{highlighted-preview-article-level}}
-
-Le metriche sono disponibili per ogni iterazione in un flusso di lavoro, nel pannello del processo di iterazione.
+Le metriche sono disponibili per ogni iterazione in un flusso di lavoro, nel pannello del processo di iterazione e nel dashboard.
 
 ## Requisiti di accesso
 

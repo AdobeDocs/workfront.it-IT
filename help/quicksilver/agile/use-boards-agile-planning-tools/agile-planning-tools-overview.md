@@ -7,7 +7,7 @@ description: Quando create una bacheca utilizzando schede ad hoc e collegate, po
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Panoramica degli strumenti di pianificazione di Agile
-
-{{highlighted-preview}}
 
 Quando create una bacheca utilizzando schede ad hoc e collegate, potreste voler sfruttare ulteriori strumenti di pianificazione agile.
 
@@ -26,15 +24,11 @@ Gli strumenti utili per Kanban includono:
 * Raggruppamento delle carte in corsie
 * Colonna di aspirazione che può essere utilizzata per un backlog
 
-<div class="preview">
-
 Gli strumenti utili per Scrum includono:
 
 * Flussi di lavoro e pannelli di iterazione
 * Lista di schede o backlog
 * Metriche di iterazione
-
-</div>
 
 Puoi utilizzare uno o tutti questi strumenti in modo che funzionino per te e il tuo team, senza impegnarsi in una metodologia agile specifica.
 

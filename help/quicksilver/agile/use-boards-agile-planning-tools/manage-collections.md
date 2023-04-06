@@ -6,24 +6,18 @@ title: Gestire i flussi di lavoro
 description: Un flusso di lavoro è un gruppo configurabile di bacheche e schede per collaborare sul lavoro.
 author: Lisa
 feature: Agile
-source-git-commit: 96819e5d81a063ad623350a0a75428629d6f7b6d
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 2%
+source-wordcount: '841'
+ht-degree: 3%
 
 ---
 
 # Gestire i flussi di lavoro
 
-{{highlighted-preview}}
+Un flusso di lavoro è un gruppo configurabile di bacheche e schede per collaborare sul lavoro. I flussi di lavoro possono includere diversi tipi di bacheche create da modelli e un elenco a schede di elementi di lavoro. In un flusso di lavoro è possibile tenere traccia del lavoro in iterazioni o spruzzi.
 
->[!NOTE]
->
->I flussi di lavoro sono disponibili nell’ambiente di anteprima e in Produzione tramite la funzionalità opt-in iniziale per [!UICONTROL [!DNL Workfront] Schede]. Per maggiori dettagli, vedi [Funzionalità opt-in in anteprima per le schede Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-Un flusso di lavoro è un gruppo configurabile di bacheche e schede per collaborare sul lavoro. I flussi di lavoro possono includere diversi tipi di bacheche create da modelli, <span class="preview">e un elenco a schede degli elementi di lavoro. In un flusso di lavoro è possibile tenere traccia del lavoro in iterazioni o spruzzi.</span>
-
-<span class="preview">Per ulteriori informazioni, consulta [Utilizza l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) e [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).</span>
+Per ulteriori informazioni, consulta [Utilizza l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) e [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 I flussi di lavoro vengono visualizzati sul dashboard insieme alle singole bacheche a cui hai accesso che non fanno parte di un flusso di lavoro. Per informazioni sul dashboard delle bacheche, vedete [Utilizzare il dashboard delle bacheche](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Potete fare clic su un nome di bacheca nel dashboard per aprirlo.
 
@@ -68,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 | Bacheca base | Sulla bacheca sono fornite tre colonne predefinite. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Non vengono applicati criteri di colonna. |
 | Bacheca Kanban | Nella bacheca sono disponibili le colonne seguenti: Backlog, Nuovo, In corso, Completo e Bloccato. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite.<p>Per utilizzare il backlog, è necessario impostare i filtri per la colonna di assunzione. Per informazioni, consulta [Aggiungere una colonna di assunzione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Per esaminare i criteri predefiniti per ciascuna colonna, fai clic sul pulsante [!UICONTROL **Altro** menu] su una colonna e seleziona [!UICONTROL **Modifica**]. È possibile modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Bacheca retrospettiva | Nella bacheca sono disponibili le colonne seguenti: Cos&#39;è andato bene? Cosa migliorare? Con chi congratularsi? Come velocizzare? È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Non vengono applicati criteri di colonna. |
-| <span class="preview">Processo iterazione</span> | <span class="preview">Questa è la bacheca utilizzata per definire ed eseguire un&#39;iterazione. <p>Nella bacheca sono disponibili le colonne seguenti: Backlog, Nuovo, In corso, Completo e Bloccato. Non è possibile aggiungere colonne alla bacheca. <p>Per esaminare i criteri predefiniti per ciascuna colonna, fai clic sul pulsante [!UICONTROL **Altro**] in una colonna e seleziona [!UICONTROL **Modifica**]. È possibile modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+| Processo iterazione | Questa è la bacheca utilizzata per definire ed eseguire un&#39;iterazione. <p>Nella bacheca sono disponibili le colonne seguenti: Backlog, Nuovo, In corso, Completo e Bloccato. Non è possibile aggiungere colonne alla bacheca. <p>Per esaminare i criteri predefiniti per ciascuna colonna, fai clic sul pulsante [!UICONTROL **Altro**] in una colonna e seleziona [!UICONTROL **Modifica**]. È possibile modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 Per ulteriori informazioni sulla configurazione della bacheca, consultate [Creare o modificare una bacheca](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
@@ -99,8 +93,6 @@ Quando nell&#39;elenco delle bacheche vengono applicati filtri diversi da quelli
 
    Si tratta dello stesso processo utilizzato per aggiungere membri a una bacheca. Per ulteriori informazioni, consulta [Aggiunta o rimozione di membri da una bacheca](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-<div class="preview">
-
 ## Configurare un flusso di lavoro
 
 {{step1-to-boards}}
@@ -118,4 +110,3 @@ Quando nell&#39;elenco delle bacheche vengono applicati filtri diversi da quelli
 
    L&#39;aggiunta di filtri per le origini del flusso di lavoro equivale all&#39;aggiunta di filtri per una colonna di assunzione su una bacheca di base o una bacheca Kanban. Per ulteriori informazioni, consulta [Aggiungere una colonna di assunzione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-</div>

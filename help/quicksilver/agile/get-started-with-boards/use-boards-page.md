@@ -6,27 +6,21 @@ description: La [!UICONTROL bacheche] Il dashboard mostra l'elenco delle bachech
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 16e96d55932116cb475eecbe8b6ebfd4661eb494
+source-git-commit: 0bf2de8cbdcbb21936ac36bdb8cd21552211a8cf
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
 
 # Utilizzare il dashboard delle bacheche
 
-{{highlighted-preview}}
-
 Il dashboard delle bacheche mostra l&#39;elenco delle bacheche e dei flussi di lavoro a cui hai accesso, incluse le bacheche che hai creato e le bacheche a cui sei stato aggiunto. Vengono visualizzate per prime le singole bacheche a cui hai accesso che non fanno parte di un flusso di lavoro.
-
->[!NOTE]
->
->I flussi di lavoro sono disponibili nell’ambiente di anteprima e in Produzione tramite la funzionalità opt-in iniziale per [!UICONTROL [!DNL Workfront] Schede]. Per maggiori dettagli, vedi [Funzionalità opt-in in anteprima per le schede Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 Nel dashboard puoi effettuare le seguenti operazioni per le bacheche e i flussi di lavoro:
 
-* Archiviare una bacheca <span class="preview">o flusso di lavoro</span>
-* Filtrare le bacheche <span class="preview">e flussi di lavoro</span>
+* Archiviare una bacheca o un flusso di lavoro
+* Filtrare le bacheche e i flussi di lavoro
 * Ordina l&#39;elenco delle bacheche in base al nome o alla data di modifica della bacheca
 * Cercare una bacheca o un flusso di lavoro
 * Eliminare una bacheca o un flusso di lavoro
@@ -54,7 +48,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
 
-## Schede filtro <span class="preview">e flussi di lavoro</span> {#filter-boards}
+## Filtrare bacheche e flussi di lavoro {#filter-boards}
 
 Potete filtrare il dashboard delle bacheche in modo da visualizzare le schede attive, archiviate o tutti i flussi di lavoro o le bacheche.
 
@@ -85,7 +79,7 @@ Potete filtrare il dashboard delle bacheche in modo da visualizzare le schede at
 
    ![Cercare bacheche nel dashboard](assets/boards-searchbox.png)
 
-## Archiviare una bacheca <span class="preview">o un flusso di lavoro</span>
+## Archiviare una bacheca o un flusso di lavoro
 
 L&#39;archiviazione di una bacheca o di un flusso di lavoro la invia all&#39;archivio ed è possibile ripristinarla in un secondo momento.
 
@@ -123,17 +117,18 @@ L&#39;eliminazione di un flusso di lavoro elimina anche tutte le schede nel flus
 
 1. Fai clic su **[!UICONTROL Elimina bacheca]** o [!UICONTROL **Elimina flusso di lavoro**] nel messaggio di conferma.
 
-## Spostare una bacheca in un flusso di lavoro
+<!-- ## Move a board to a workstream
 
-È possibile spostare una scheda indipendente in un flusso di lavoro o spostare una scheda da un flusso di lavoro a un altro flusso di lavoro.
+You can move a standalone board into a workstream, or move a board from one workstream to another workstream.
 
 >[!NOTE]
 >
->Potete spostare solo le bacheche create, non le bacheche alle quali siete stati aggiunti.
+>You can only move boards that you created, not boards that you were added to.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla bacheca e selezionare [!UICONTROL **Passa a flusso di lavoro**].
-1. Selezionare il flusso di lavoro a cui aggiungere la bacheca e fare clic su [!UICONTROL **Sposta**].
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board, and select [!UICONTROL **Move to workstream**].
+1. Select which workstream to add the board to, and click [!UICONTROL **Move**].
 
-   La bacheca viene spostata nel flusso di lavoro e non viene più visualizzata nel [!UICONTROL Schede] area.
-Se non avete ancora creato un flusso di lavoro, vi viene richiesto di crearne uno in cui spostare la bacheca.
+   The board is moved into the workstream and no longer appears in the [!UICONTROL Boards] area.
+   If you have not created a workstream yet, you are prompted to create one to move the board into.
+-->

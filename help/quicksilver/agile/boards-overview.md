@@ -7,7 +7,7 @@ description: Le bacheche Adobe Workfront sono strumenti flessibili che consenton
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 3b15ac31cc2f5f63d218e2f1efaccc250d17b00c
+source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # [!UICONTROL Schede] panoramica
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL Schede] sono strumenti flessibili che consentono la collaborazione del team fornendo l&#39;accesso a una bacheca condivisa che contiene colonne e schede.
 
@@ -29,7 +27,7 @@ Con le bacheche potete:
 * Personalizzare i flussi di lavoro con schede aperte (schede ad hoc o schede collegate a [!DNL Workfront] compiti e questioni)
 * Organizzare e gestire il lavoro di un team in un’unica posizione
 * Utilizzare flussi di lavoro per raggruppare i dati (come schede e bacheche) e collaborare sul lavoro
-* Utilizzare strumenti di pianificazione agile, ad esempio una colonna di assunzione per pannelli Kanban, <span class="preview">nonché un elenco di schede e una pianificazione delle iterazioni</span>
+* Utilizzare strumenti di pianificazione agile, ad esempio una colonna di assunzione per le bacheche Kanban, un elenco di schede e una pianificazione delle iterazioni
 
 Per informazioni sull&#39;utilizzo delle funzioni di base delle bacheche, vedete [Introduzione alle bacheche in [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Per informazioni sugli strumenti di pianificazione delle aree nelle bacheche, vedi [Panoramica degli strumenti di pianificazione di Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
