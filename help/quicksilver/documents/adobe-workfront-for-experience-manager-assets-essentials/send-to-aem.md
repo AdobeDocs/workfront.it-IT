@@ -6,9 +6,9 @@ description: Puoi inviare documenti da Workfront a Experience Manager Assets o A
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 6bedca2f3394fadc6d6ffbb34654fd1f0194a5d6
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Devi disporre dei seguenti elementi:
    <td> <p> Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze legacy</a>*</td> 
    <td> <p>Richiesta o superiore</p> </td> 
   </tr> 
   <tr> 

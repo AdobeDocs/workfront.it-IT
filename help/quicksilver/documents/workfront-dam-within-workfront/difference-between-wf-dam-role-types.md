@@ -7,9 +7,9 @@ description: Gli amministratori di Adobe Workfront utilizzano i livelli di acces
 author: Courtney
 feature: Digital Content and Documents
 exl-id: dcca0158-dc31-4aba-bd87-90ccc64e77cb
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ In qualità di amministratore di Workfront, puoi definire il livello di accesso 
 * Richiesta
 * Esterno
 
-Vedi [Panoramica sulle licenze di Adobe Workfront](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) per una descrizione dei diversi tipi di licenza in Workfront.
+Vedi [Panoramica sulle licenze legacy](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) per una descrizione dei diversi tipi di licenza in Workfront.
 
 ## Tipi di ruoli DAM Workfront
 

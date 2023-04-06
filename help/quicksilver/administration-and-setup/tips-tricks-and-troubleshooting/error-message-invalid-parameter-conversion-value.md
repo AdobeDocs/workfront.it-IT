@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '337'
 ht-degree: 1%
 
 ---
@@ -27,18 +27,18 @@ Quando si tenta di modificare il formato di un campo personalizzato in un modulo
 
 Questo messaggio si verifica nel seguente scenario:
 
-Ad esempio, è disponibile un campo personalizzato formattato come Testo .  A questo punto, è necessario modificare il formato del campo personalizzato in Valuta. Da qualche parte nel tuo [!DNL Adobe Workfront] ad esempio, questo campo è già associato a un oggetto e contiene informazioni già specificate. Le informazioni esistenti in almeno un campo di questo tipo sono già formattate come Testo. Pertanto, il formato del campo non può essere modificato in Valuta.
+Ad esempio, è disponibile un campo personalizzato formattato come Testo .  A questo punto, è necessario modificare il formato del campo personalizzato in Valuta. In un punto della tua istanza di Adobe Workfront, questo campo è già associato a un oggetto e contiene informazioni già specificate. Le informazioni esistenti in almeno un campo di questo tipo sono già formattate come Testo. Pertanto, il formato del campo non può essere modificato in Valuta.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">[!DNL Workfront] piano</a>*</p> </td> 
+   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">piano Workfront</a>*</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] panoramica delle licenze</a>*</p> </td> 
+   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze legacy</a>*</p> </td> 
    <td>Piano</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -47,7 +47,7 @@ Ad esempio, è disponibile un campo personalizzato formattato come Testo .  A qu
     <ul> 
      <li> <p>Creare rapporti, dashboard e calendari</p> </li> 
      <li> <p>Creare filtri, visualizzazioni e gruppi</p> </li> 
-    </ul> <p><b>NOTA</b>: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+    </ul> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

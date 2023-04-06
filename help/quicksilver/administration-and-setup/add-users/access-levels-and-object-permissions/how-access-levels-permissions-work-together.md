@@ -10,14 +10,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 2%
+source-wordcount: '909'
+ht-degree: 1%
 
 ---
 
-# Funzionamento congiunto dei livelli di accesso e delle autorizzazioni
+# Funzionamento congiunto dei livelli di accesso e delle autorizzazioni legacy
 
 L’amministratore di Adobe Workfront determina il livello di accesso che ogni utente deve avere. Tale livello di accesso definisce le operazioni che gli utenti possono visualizzare e eseguire con i tipi di oggetto e le aree del sistema.
 
@@ -31,11 +31,11 @@ Ad esempio, se il livello di accesso indica che è possibile creare attività, m
 
 Questo articolo spiega come funziona questa combinazione.
 
-## Livello di accesso
+## Livello di accesso legacy
 
 Il livello di accesso assegnato a ciascun utente da un amministratore Workfront è necessario per accedere a Workfront.
 
-I livelli di accesso predefiniti sono:
+I livelli di accesso legacy predefiniti sono:
 
 * Amministratore di sistema (collegato alla licenza Plan)
 * Planner (allegato alla licenza Plan)

@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1405'
 ht-degree: 6%
 
 ---
@@ -19,13 +19,14 @@ ht-degree: 6%
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.-->
 
-In qualità di amministratore di Adobe Workfront, puoi creare livelli di accesso personalizzati e applicarli agli utenti, come spiegato in [Panoramica dei livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+In qualità di amministratore di Adobe Workfront, puoi creare livelli di accesso personalizzati e applicarli agli utenti. Quando si lavora con i livelli di accesso, è importante comprendere come funzionano insieme alle autorizzazioni per gli oggetti concesse dagli utenti quando condividono gli oggetti tra loro. Per ulteriori informazioni sui livelli di accesso, consulta
 
-Quando si lavora con i livelli di accesso, è importante comprendere come funzionano insieme alle autorizzazioni per gli oggetti concesse dagli utenti quando condividono gli oggetti tra loro. Per ulteriori informazioni, consulta [Funzionamento congiunto dei livelli di accesso e delle autorizzazioni](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+* [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Panoramica dei livelli di accesso legacy](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
->È vivamente consigliato lasciare invariati i livelli di accesso incorporati, in modo da potervi fare riferimento dopo aver configurato gli utenti. Per personalizzare un livello di accesso, copia il livello di accesso predefinito e modifica la copia. (È possibile eseguire questa operazione per ogni livello di accesso, ad eccezione di Amministratore di sistema e Utente esterno.)
+>È vivamente consigliato lasciare invariati i livelli di accesso incorporati, in modo da potervi fare riferimento dopo aver configurato gli utenti. Per personalizzare un livello di accesso, copia il livello di accesso predefinito e modifica la copia. Puoi eseguire questa operazione per ogni livello di accesso, ad eccezione di Amministratore di sistema e Utente esterno.
 
 ## Requisiti di accesso
 
@@ -41,11 +42,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td>Piano attuale: Standard
+   <p>oppure</p>
+   <p>Piano legacy: Pianificare</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> <p>Devi essere un amministratore Workfront.</p> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="#" class="MCXref xref selected">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Devi essere un amministratore Workfront.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +72,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <tbody> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>Digita un nome per il livello di accesso. </p> <p>Se hai appena copiato un livello di accesso per crearne uno nuovo, il nome predefinito è Nome livello di accesso (copia), dove Nome livello di accesso è il livello di accesso copiato.</p> <p><strong>Suggerimento</strong>: È consigliabile includere il nome originale del livello di accesso nel nome della copia. Ad esempio, nella società ACME, una copia del livello di accesso Planner potrebbe essere denominata ACME Planner.</p> </td> 
+      <td> <p>Digita un nome per il livello di accesso. </p> <p>Se hai appena copiato un livello di accesso per crearne uno nuovo, il nome predefinito è Nome livello di accesso (copia), dove Nome livello di accesso è il livello di accesso copiato.</p> <p><strong>Suggerimento</strong>: È consigliabile includere il nome originale del livello di accesso nel nome della copia. Ad esempio, nella società ACME, una copia del livello di accesso Standard potrebbe essere denominata ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descrizione </td> 
@@ -77,12 +80,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Tipo di licenza</td> 
-      <td>Assicurati che la licenza selezionata qui sia quella più strettamente associata al tipo di livello di accesso che stai creando o modificando. La licenza selezionata determina le impostazioni disponibili per il livello di accesso. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</td> 
+      <td>Assicurati che la licenza selezionata qui sia quella più strettamente associata al tipo di livello di accesso che stai creando o modificando. La licenza selezionata determina le impostazioni disponibili per il livello di accesso. Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Panoramica sulle licenze legacy</a> o <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze legacy di Adobe Workfront</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Condizionale) Se **Pianificare** è selezionato in **Tipo di licenza** casella, scorri fino alla sezione **Consenti accesso amministrativo per** e selezionare le autorizzazioni di accesso amministrativo per gli utenti che avranno questo livello di accesso.
+1. (Condizionale) Se **Standard** o **Pianificare** è selezionato in **Tipo di licenza** casella, scorri fino alla sezione **Consenti accesso amministrativo per** e selezionare le autorizzazioni di accesso amministrativo per gli utenti che avranno questo livello di accesso.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -121,7 +124,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
         <li>Aggiungi nuovi ruoli di lavoro</li> 
         <li>Modificare la fatturazione dei ruoli e le tariffe dei costi</li> 
        </ul> 
-       <p>Per informazioni importanti sull'accesso ai dati finanziari disponibili per un utente Planner con accesso amministrativo ai ruoli di lavoro, consulta <a href="#planner-users-with-administrative-access-to-job-roles">Utenti planner con accesso amministrativo ai ruoli di lavoro</a>.</p>
+       <p>Per informazioni importanti sull'accesso ai dati finanziari disponibili per un utente Standard o Planner con accesso amministrativo ai ruoli di lavoro, consulta <a href="#planner-users-with-administrative-access-to-job-roles">Utenti standard o planner con accesso amministrativo ai ruoli di lavoro</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +137,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Schede orario e ore</td> 
-      <td> <p>Gli amministratori dei gruppi possono assegnare profili della scheda attività agli utenti dei gruppi e dei sottogruppi gestiti.</p> <p>Senza questa opzione abilitata, gli amministratori dei gruppi non possono assegnare profili della scheda attività ad altri utenti nei gruppi e sottogruppi gestiti, anche se possono crearli.</p> <p>Tutti gli altri utenti con una licenza Plan possono visualizzare tutte le ore e i fogli ore in Workfront.</p> <p>Senza questa opzione abilitata, gli utenti possono visualizzare le ore solo nei seguenti casi:</p> 
+      <td> <p>Gli amministratori dei gruppi possono assegnare profili della scheda attività agli utenti dei gruppi e dei sottogruppi gestiti.</p> <p>Senza questa opzione abilitata, gli amministratori dei gruppi non possono assegnare profili della scheda attività ad altri utenti nei gruppi e sottogruppi gestiti, anche se possono crearli.</p> <p>Tutti gli altri utenti con una licenza Standard o Plan possono visualizzare tutte le ore e i fogli ore in Workfront.</p> <p>Senza questa opzione abilitata, gli utenti possono visualizzare le ore solo nei seguenti casi:</p> 
        <ul> 
         <li>Progetti, attività o problemi che gestiscono</li> 
         <li>Scheda attività propria</li> 
@@ -203,9 +206,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Per informazioni su come un amministratore di Adobe assegna un livello di accesso amministratore di sistema a un utente, vedere [Concedere a un utente pieno accesso amministrativo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Utenti planner con accesso amministrativo ai ruoli di lavoro {#planner-users}
+## Utenti standard o planner con accesso amministrativo ai ruoli di lavoro {#planner-users}
 
-Se si concede a un utente di Planner l&#39;accesso amministrativo ai ruoli di lavoro, l&#39;impostazione Modifica fatturazione ruolo e tassi di costo viene abilitata automaticamente per l&#39;utente.
+Se si concede a un utente Standard o Planner l&#39;accesso amministrativo ai ruoli di lavoro, l&#39;impostazione Modifica fatturazione ruolo e tassi di costo viene abilitata automaticamente per l&#39;utente.
 
 Successivamente, se si disabilita l&#39;accesso amministrativo ai ruoli di lavoro per l&#39;utente, i ruoli di lavoro saranno ancora visibili all&#39;utente perché l&#39;impostazione Modifica fatturazione e tassi di costo ruolo è ancora abilitata.
 

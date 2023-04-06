@@ -1,23 +1,23 @@
 ---
-title: Panoramica dei livelli di accesso
+title: Panoramica dei livelli di accesso legacy
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: accesso, livello, sistema, amministratore, planner, lavoratore, revisore, richiedente, esterno, utente
 navigation-topic: access-levels
 description: Per poter accedere e lavorare in Workfront, ogni utente deve disporre di un livello di accesso. È possibile utilizzare il livello di accesso per controllare ciò che un utente può vedere e fare con determinati oggetti e aree di Workfront. Ognuno dei sei livelli di accesso incorporati è collegato a una delle cinque licenze Workfront, che sono Piano, Lavoro, Revisione, Richiesta ed Esterno.
-author: Caroline
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 33c269cee3fbab51ce67f50cbdd1fdd190d948b7
+source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
-# Panoramica dei livelli di accesso
+# Panoramica dei livelli di accesso legacy
 
 In qualità di amministratore di Adobe Workfront, assegni un livello di accesso a un utente per 2 scopi:
 
@@ -42,7 +42,7 @@ Per informazioni sugli argomenti correlati, vedi i seguenti articoli:
  <tbody> 
   <tr> 
    <td>Licenze</td> 
-   <td> <p>La licenza associata a un livello di accesso determina la modalità di configurazione del livello di accesso.</p> <p>Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> <p><strong>Suggerimento</strong>: Puoi vedere quale livello di accesso e licenza è assegnato a ogni utente visualizzando un elenco di utenti o un rapporto. Per istruzioni, consulta <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Elencare i livelli di accesso e le licenze degli utenti</a>.</p> </td> 
+   <td> <p>La licenza associata a un livello di accesso determina la modalità di configurazione del livello di accesso.</p> <p>Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze legacy</a>.</p> <p><strong>Suggerimento</strong>: Puoi vedere quale livello di accesso e licenza è assegnato a ogni utente visualizzando un elenco di utenti o un rapporto. Per istruzioni, consulta <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Elencare i livelli di accesso e le licenze degli utenti</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Livelli di accesso incorporati</td> 

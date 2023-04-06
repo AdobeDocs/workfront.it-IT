@@ -1,26 +1,26 @@
 ---
-title: Accesso configurabile alla funzionalità per ogni tipo di oggetto
-description: Questo articolo spiega cosa è possibile consentire in qualità di amministratore Adobe Workfront per ogni tipo di oggetto, in ogni livello di accesso. Inoltre, spiega la configurazione predefinita per ogni tipo di livello di accesso.
-author: Caroline
+title: Accesso legacy configurabile alle funzionalità per ogni tipo di oggetto
+description: Questo articolo spiega cosa è possibile consentire in qualità di amministratore Adobe Workfront per ogni tipo di oggetto, in ogni livello di accesso legacy. Inoltre, spiega la configurazione predefinita per ogni tipo di livello di accesso legacy.
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
 workflow-type: tm+mt
-source-wordcount: '3435'
+source-wordcount: '3456'
 ht-degree: 10%
 
 ---
 
-# Accesso configurabile alla funzionalità per ogni tipo di oggetto
+# Accesso legacy configurabile alle funzionalità per ogni tipo di oggetto
 
-Questo articolo spiega cosa è possibile consentire in qualità di amministratore Adobe Workfront per ogni tipo di oggetto, in ogni livello di accesso. Inoltre, spiega la configurazione predefinita per ogni tipo di livello di accesso.
+Questo articolo spiega cosa è possibile consentire in qualità di amministratore Adobe Workfront per ogni tipo di oggetto, in ogni livello di accesso legacy. Inoltre, spiega la configurazione predefinita per ogni tipo di livello di accesso legacy.
 
 Per informazioni su tutte le funzionalità disponibili per un tipo di oggetto in ciascun livello di accesso, vedere [Funzionalità disponibile per ciascun tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Progetti
 
-In ogni livello di accesso, puoi configurare le seguenti opzioni per i progetti:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per i progetti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +83,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per i progetti:
 
 ## Attività
 
-In ogni livello di accesso, è possibile configurare le seguenti opzioni per le attività:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per le attività:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -149,7 +149,7 @@ In ogni livello di accesso, è possibile configurare le seguenti opzioni per le 
 
 ## Problemi
 
-In ogni livello di accesso, puoi configurare le seguenti opzioni per i problemi:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per i problemi:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per i problemi:
 
 ## Portfolio
 
-In ogni livello di accesso, puoi configurare le seguenti opzioni per i portfolio:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per i portfolio:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -283,7 +283,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per i portfolio
 
 ## Programmi
 
-In ogni livello di accesso, puoi configurare le seguenti opzioni per i programmi:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per i programmi:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -339,7 +339,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per i programmi
 
 ## Report, dashboard e calendari
 
-In ogni livello di accesso, puoi configurare le seguenti opzioni per rapporti, dashboard e calendari:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per rapporti, dashboard e calendari:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -413,7 +413,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per rapporti, d
 
 ## Filtri, visualizzazioni e raggruppamenti
 
-In ogni livello di accesso, puoi configurare le seguenti opzioni per filtri, visualizzazioni e raggruppamenti:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per filtri, visualizzazioni e raggruppamenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -490,7 +490,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per filtri, vis
 
 ## Documenti
 
-In ogni livello di accesso, è possibile configurare le seguenti opzioni per i documenti:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per i documenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -573,7 +573,7 @@ In ogni livello di accesso, è possibile configurare le seguenti opzioni per i d
 
 ## Utenti
 
-In ogni livello di accesso, puoi configurare le seguenti opzioni per gli utenti:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per gli utenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -629,7 +629,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per gli utenti:
 
 ## Team
 
-In ogni livello di accesso, puoi configurare le seguenti opzioni per i team:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per i team:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -711,7 +711,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per i team:
 
 ## Modelli
 
-In ogni livello di accesso, puoi configurare le seguenti opzioni per i modelli:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per i modelli:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -768,7 +768,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per i modelli:
 
 ## Dati finanziari
 
-In ogni livello di accesso, puoi configurare le seguenti opzioni per i dati finanziari:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per i dati finanziari:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -833,7 +833,7 @@ In ogni livello di accesso, puoi configurare le seguenti opzioni per i dati fina
 
 ## Gestione risorse
 
-In ogni livello di accesso, è possibile configurare le seguenti opzioni per Gestione risorse:
+In ogni livello di accesso legacy, puoi configurare le seguenti opzioni per Gestione risorse:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -891,7 +891,7 @@ In ogni livello di accesso, è possibile configurare le seguenti opzioni per Ges
 
 ## Area planner dello scenario
 
-L&#39;impostazione predefinita per tutti i livelli di accesso è No Access (Nessun accesso). Un amministratore Workfront può modificare questa opzione per visualizzare o modificare l&#39;accesso per qualsiasi livello di accesso a Planner, Worker e Reviewer.
+L&#39;impostazione predefinita per tutti i livelli di accesso legacy è No Access (Nessun accesso). Un amministratore Workfront può modificare questa opzione per visualizzare o modificare l&#39;accesso per qualsiasi livello di accesso a Planner, Worker e Reviewer.
 
 <!--
 DRAFTED IN FLARE:
@@ -905,6 +905,6 @@ Alina says: This will change overtime for some of the access levels, but right n
 
 ## Area Obiettivi di Workfront
 
-Tutti e sei i livelli di accesso predefiniti (e tutti e 4 i tipi di licenza) possono modificare e visualizzare gli obiettivi di Workfront.
+Tutti e sei i livelli di accesso legacy predefiniti (e tutti e 4 i tipi di licenza) possono modificare e visualizzare gli obiettivi di Workfront.
 
 Modifica è l’opzione predefinita.
