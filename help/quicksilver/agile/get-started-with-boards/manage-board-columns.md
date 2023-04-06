@@ -6,9 +6,9 @@ description: Per impostazione predefinita, una nuova bacheca contiene tre colonn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 0bcd7cbe43a03216dddabb173aa5888b97cffd23
+source-git-commit: df0e23de7ed84d8c13b60866e1814fe19a877c0b
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -118,22 +118,11 @@ Se si utilizza il limite WIP su una colonna, non viene aggiunto un contatore di 
 
       Vengono visualizzate anche le opzioni di traduzione dello stato per le schede collegate. (La traduzione dello stato non si applica alle schede ad hoc.) Queste opzioni determinano lo stato personalizzato applicato all&#39;attività o al problema in [!DNL Workfront] quando una scheda connessa viene spostata in questa colonna.
 
-   1. Se utilizzi la funzionalità opt-in per le prime funzioni: Seleziona una [!UICONTROL **Personalizzato**] stato da applicare alla scheda per attività e problemi.
+   1. Seleziona una [!UICONTROL **Personalizzato**] stato da applicare alla scheda per attività e problemi.
 
-      Quando una scheda viene spostata in questa colonna, [!DNL Workfront] tenta innanzitutto di applicare lo stato personalizzato (ad esempio, Risolto). Se lo stato personalizzato selezionato non è disponibile per quella scheda, viene richiesto di scegliere un altro stato corrispondente allo stato del sistema (dal passaggio b sopra).
+      Quando una scheda viene spostata in questa colonna, [!DNL Workfront] tenta innanzitutto di applicare lo stato personalizzato (ad esempio, Risolto). Se lo stato personalizzato selezionato non è disponibile per quella scheda, viene richiesto di scegliere un altro stato corrispondente allo stato del sistema (dal passaggio b sopra). Per ulteriori informazioni sugli stati, consulta [Panoramica sugli stati](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       Inoltre, se lo stato dell&#39;attività o del problema connesso viene modificato in stato personalizzato o di sistema impostato nel criterio a colonne, la scheda viene spostata automaticamente nella colonna.
-
-      >[!NOTE]
-      >
-      >L’impostazione di uno stato personalizzato predefinito per la colonna è disponibile solo tramite l’opzione di consenso anticipato della funzione. Per maggiori dettagli, vedi [Funzionalità opt-in in anteprima per le schede Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
-
-   1. Se non utilizzi la funzionalità opt-in iniziale: Selezionare uno stato per le attività e uno stato per i problemi. Solo il valore predefinito [!DNL Workfront] gli stati sono disponibili, non quelli personalizzati.
-
-      >[!NOTE]
-      >
-      >Se utilizzi stati personalizzati in [!DNL Workfront], al primo spostamento di una scheda connessa in questa colonna viene richiesto di scegliere uno stato. Ad esempio, se il progetto connesso ha più tipi di stato a cui corrispondono tutti [!UICONTROL Completato], è necessario scegliere lo stato da utilizzare in [!DNL Workfront]. Potete impostare la scelta come predefinita in modo da non dover effettuare la selezione ogni volta che spostate una scheda nella colonna.
-      >Per ulteriori informazioni sugli stati, consulta [Panoramica sugli stati](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 1. (Facoltativo) Imposta un valore per gli assegnatari della scheda:
 

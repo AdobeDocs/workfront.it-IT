@@ -6,9 +6,9 @@ title: Accesso anticipato per [!DNL Adobe Workfront] Schede
 description: Leggi questo articolo per saperne di più [!DNL Workfront Boards] funzionalità opt-in iniziale.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 619f1862f3d6fb9280fe97de4b5055d64bb46c6c
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -118,23 +118,23 @@ La tabella seguente illustra le principali funzioni delle bacheche e il loro sta
   </tr>
   <tr>
    <td>Carte di sola visualizzazione nella colonna di assunzione</td>
-   <td>Rilasciato parzialmente</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Campo Stima mappa sulla scheda nel campo Punti della storia sull'attività</td>
-   <td>Rilasciato parzialmente</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Creazione di flussi di lavoro e aggiunta di bacheche ai flussi di lavoro</td>
-   <td>Rilasciato parzialmente</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Creare iterazioni</td>
-   <td>Rilasciato parzialmente (disponibile in Anteprima)</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Definire l'elenco delle schede o il backlog</td>
-   <td>Rilasciato parzialmente (disponibile in Anteprima)</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Importa sottoattività come voci di elenco di controllo sulle schede</td>
@@ -142,19 +142,31 @@ La tabella seguente illustra le principali funzioni delle bacheche e il loro sta
   </tr>
   <tr>
    <td>Personalizzare la visualizzazione dei campi su una scheda</td>
-   <td>Rilasciato parzialmente</td>
+   <td>Rilasciato</td>
   </tr>  
   <tr>
    <td>Definire uno stato predefinito per le schede spostate nelle colonne</td>
-   <td>Rilasciato parzialmente</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Orari di accesso alle schede collegate</td>
-   <td>Rilasciato parzialmente</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Aggiungi campi personalizzati alle schede collegate</td>
-   <td>Rilasciato parzialmente (disponibile in Anteprima)</td>
+   <td>Rilasciato</td>
+  </tr>
+  <tr>
+   <td>Definire le notifiche e-mail per le bacheche</td>
+   <td>Pianificato</td>
+  </tr>
+  <tr>
+   <td>Migrazione di schede Kanban legacy alle bacheche</td>
+   <td>Pianificato</td>
+  </tr>
+  <tr>
+   <td>Creazione di bacheche dinamiche</td>
+   <td>Pianificato</td>
   </tr>
  </tbody> 
 </table>

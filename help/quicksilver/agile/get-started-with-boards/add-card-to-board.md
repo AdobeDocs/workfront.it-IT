@@ -6,7 +6,7 @@ description: Potete aggiungere rapidamente una scheda ad hoc a una bacheca e ass
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: ed87ad7de2c3ea6dde4a9d0b89882c2717c4fc80
+source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 0%
@@ -79,7 +79,7 @@ Una scheda ad hoc non è connessa a un elemento di lavoro in [!DNL Adobe Workfro
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td> 
-      <td><p>Digitare il numero stimato di ore per la scheda da completare. Questa è solo una voce manuale.</p></td>
+      <td>Digitare il numero stimato di ore per la scheda da completare. Questa è solo una voce manuale.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Data di scadenza]</strong></td> 

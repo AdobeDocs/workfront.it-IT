@@ -7,9 +7,9 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di assun
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -96,10 +96,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    ![Colonna acquisizione](assets/intake-column-added3.png)
 
    Le schede nella colonna di assunzione non sono modificabili finché non le si spostano in altre colonne della bacheca. Potete fare clic sulla scheda per aprirla in una visualizzazione di sola lettura oppure fare clic su ![Apri attività o problema](assets/boards-launch-icon.png) per aprire l’attività o il problema in una nuova scheda del browser.
-
-   >[!NOTE]
-   >
-   >La visualizzazione in sola lettura per le schede nella colonna di assunzione è disponibile solo tramite l’opzione di consenso per le funzioni iniziali per [!DNL Workfront] [!UICONTROL Schede].
 
    Potete riordinare manualmente gli elementi nella colonna di assunzione.
 
