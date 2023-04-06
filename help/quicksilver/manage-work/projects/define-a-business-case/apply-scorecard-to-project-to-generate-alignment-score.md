@@ -5,16 +5,14 @@ description: Puoi utilizzare una scorecard per misurare l’allineamento di un p
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
 
 # Applicare una scorecard a un progetto e generare un punteggio di allineamento
-
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile per tutti i clienti nell’ambiente Anteprima e per un gruppo selezionato di clienti nell’ambiente Produzione.</span>
 
 Puoi utilizzare una scorecard per misurare l’allineamento di un progetto con i criteri precedentemente stabiliti di un portfolio. Una scheda di valutazione spesso riflette la missione, i valori e gli obiettivi strategici di un&#39;organizzazione.
 
@@ -95,17 +93,20 @@ Per applicare una scorecard a un progetto:
 
    La scheda di valutazione è ora associata al progetto e il relativo punteggio.
 
-1. (Facoltativo) Quando si verificano modifiche ai valori delle domande della scorecard, è necessario ricalcolare la scorecard per riflettere i nuovi valori per il punteggio del progetto. Per ricalcolare la scorecard, procedi come segue:
+<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
-   1. Passa a un elenco di progetti e seleziona tutti i progetti nell’elenco.
-   1. Fai clic sul pulsante **Modifica** nella parte superiore dell’elenco.
-   1. Fai clic su **Impostazioni** nel pannello a sinistra, quindi controlla il **Ricalcola scorecard** alla fine dell&#39;area Impostazioni.
-   1. Fai clic su Salva. In questo modo viene ricalcolato il valore del punteggio in base alle scorecard allegate per tutti i progetti selezionati.
+1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
+
+   1. Go to a list of projects and select all projects in the list. 
+   1. Click the **Edit** icon at the top of the list. 
+   1. Click **Settings** in the left panel, then check the **Recalculate Scorecards** option at the end of the Settings area. 
+   1. Click Save. This recalculates the score value based on the scorecards attached for all the selected projects.  
 
       >[!NOTE]
       >
-      >   <span class="preview">L’opzione per ricalcolare le scorecard è stata rimossa dall’ambiente Anteprima quando si modificano progetti in blocco. </span>
+      >   The option to recalculate scorecards has been removed from the Preview environment, when editing projects in bulk. 
 
+-->
 
 ## Genera un punteggio di allineamento
 

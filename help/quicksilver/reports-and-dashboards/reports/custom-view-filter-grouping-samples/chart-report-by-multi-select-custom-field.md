@@ -7,16 +7,16 @@ description: Non è possibile creare un grafico per un rapporto in base a un cam
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '773'
 ht-degree: 0%
 
 ---
 
 # Creare un grafico di un rapporto in base a un campo personalizzato a selezione multipla
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile per tutti i clienti nell’ambiente Anteprima e per un gruppo selezionato di clienti nell’ambiente Produzione.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 Non è possibile creare un grafico per un rapporto in base a un campo personalizzato con più selezioni. È necessario creare un campo calcolato aggiuntivo che faccia riferimento al campo personalizzato a selezione multipla per creare un grafico del rapporto in base al valore del campo personalizzato a selezione multipla.
 
@@ -109,7 +109,7 @@ Per creare il campo personalizzato calcolato che fa riferimento al campo persona
 
    >[!NOTE]
    >
-   ><span class="preview">Questa opzione è stata eliminata dalla modifica collettiva di progetti nell’ambiente di anteprima.  Puoi comunque ricalcolare le espressioni per progetti in blocco facendo clic su **Altro** ![](assets/more-icon-45x33.png) in cima a un elenco di progetti, quindi **Ricalcola espressioni**. </span>
+   >Questa opzione è stata eliminata dalla modifica collettiva di progetti.  È comunque possibile ricalcolare le espressioni per progetti in blocco facendo clic sul pulsante **Altro** icona ![](assets/more-icon-45x33.png) in cima a un elenco di progetti, quindi **Ricalcola espressioni**.
 
 
 1. Passare al rapporto in cui si desidera aggiungere il grafico per il campo calcolato che fa riferimento al campo personalizzato a selezione multipla.

@@ -7,16 +7,16 @@ description: È possibile aggiungere un modulo personalizzato esistente a uno qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '850'
 ht-degree: 1%
 
 ---
 
 # Aggiungere un modulo personalizzato a un oggetto
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile per tutti i clienti nell’ambiente Anteprima e per un gruppo selezionato di clienti nell’ambiente Produzione.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 È possibile aggiungere un modulo personalizzato esistente a uno qualsiasi degli oggetti elencati di seguito. Un modulo personalizzato contiene campi personalizzati in cui è possibile memorizzare informazioni sull’oggetto.
 
@@ -115,18 +115,21 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">Per informazioni sull’aggiunta in blocco di moduli personalizzati a progetti nell’ambiente di anteprima, consulta l’articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>L’aggiunta di moduli personalizzati agli oggetti è identica per tutti gli oggetti, ad eccezione dei progetti.
+>
+>Per informazioni sull’aggiunta in massa di moduli personalizzati a progetti, consulta l’articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. Passare a un elenco di oggetti.
 1. Selezionare più oggetti nell’elenco.
 
-1. Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png), quindi fai clic su **Modifica** icona  ![](assets/edit-icon.png)oppure fai clic sul pulsante **Modifica** icona ![](assets/edit-icon.png).
+1. Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png), quindi fai clic su **Modifica** icona  ![](assets/edit-icon.png)oppure fai clic sul pulsante **Modifica** icona ![](assets/edit-icon.png) in cima all&#39;elenco.
 1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
 1. Selezionare il modulo che si desidera associare a tutti gli oggetti selezionati nella **Selezione** menu a discesa.
    >[!NOTE]
    >
    >Se non è possibile trovare il modulo nel menu a discesa, almeno uno degli oggetti presenta il modulo già associato. Prima di aggiungere il modulo agli oggetti rimanenti, è necessario determinare l’oggetto selezionato ed eliminarlo dalla selezione.
+
 
 1. Fai clic su **Salva modifiche**.
 

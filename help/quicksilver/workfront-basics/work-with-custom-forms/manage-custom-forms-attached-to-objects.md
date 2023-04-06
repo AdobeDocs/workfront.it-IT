@@ -6,16 +6,16 @@ description: È possibile aggiornare l’ordine di visualizzazione, rimozione o 
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: addcff71ff067be22e9ee80f997af545293fa5db
+source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1108'
 ht-degree: 0%
 
 ---
 
 # Gestione di moduli personalizzati associati agli oggetti
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile per tutti i clienti nell’ambiente Anteprima e per un gruppo selezionato di clienti nell’ambiente Produzione.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 È possibile aggiornare l’ordine di visualizzazione, rimozione o modifica collettiva dei moduli personalizzati associati a un oggetto nel modo in cui i moduli personalizzati vengono visualizzati su più oggetti.
 
@@ -101,7 +101,9 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 >[!NOTE]
 >
-><span class="preview">Per informazioni sulla gestione di moduli personalizzati su progetti in blocco nell’ambiente di anteprima, vedere l’articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md)</span>.
+>La gestione di moduli personalizzati in oggetti è identica per tutti gli oggetti, ad eccezione dei progetti.
+>
+>Per informazioni sull’aggiunta in massa di moduli personalizzati a progetti, consulta l’articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
 Quando si modificano in serie oggetti a cui sono applicati più moduli personalizzati, è possibile modificare la modalità di visualizzazione dei moduli personalizzati su tali oggetti, nonché modificare i campi comuni nei moduli personalizzati.
 
