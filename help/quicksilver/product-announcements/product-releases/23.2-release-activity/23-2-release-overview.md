@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 2049958745516d37f41938fbd4b6398f57378959
+source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2677'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 0%
 
 # Panoramica sulla versione 23.2
 
-Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 23.2 pianificata per la settimana del 3 aprile 2023.
-
-I miglioramenti apportati a questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che la versione 23.2 si avvicina alla versione di Produzione pianificata.
+Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 23.1. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.2 del 6 e 7 aprile 2023.
 
 Per suggerimenti su come preparare la prossima versione, consulta [Preparazione di una versione trimestrale di Adobe Workfront](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
@@ -116,7 +114,7 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere attività e problemi dai dettagli degli oggetti a una bacheca Workfront o a un flusso di lavoro</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere attività e problemi dai dettagli degli oggetti a una bacheca Workfront o a un flusso di lavoro</a></p>
                         <p>È ora possibile aggiungere attività o problemi esistenti a una bacheca Workfront o a un elenco di schede flusso di lavoro direttamente dai dettagli dell'oggetto. Tutti gli elementi aggiunti a una bacheca diventeranno schede collegate e tutti gli elementi aggiunti a un flusso di lavoro verranno aggiunti all'elenco delle schede come schede non pianificate.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -429,7 +427,7 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Dashboard di Canvas</a><span style="color: #ff0000;"> Presto disponibile!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Dashboard dell’area di lavoro</a></p>
                         <p>I dashboard di Area di lavoro sono stati aggiunti come funzione disponibile per i dashboard che è possibile abilitare nei modelli di layout. I dashboard di Area di lavoro consentono di combinare le visualizzazioni Area di reporting con i rapporti esistenti, oltre alle nuove opzioni di layout. Attualmente sono supportati solo i rapporti elenco, ma saranno aggiunte più opzioni man mano che lo sviluppo continua.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -464,8 +462,8 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Raccolte biometriche di login e bacheche nell’app mobile</span></a><span style="color: #ff0000;"> Presto disponibile!</span>
-                        <p>L’accesso biometrico ora è un’opzione per accedere più rapidamente all’app mobile. Una volta effettuata la verifica biometrica dopo un accesso iniziale, gli utenti potranno utilizzare l’impronta digitale o il riconoscimento facciale per accedere rapidamente all’app con una verifica della password solo occasionale. Inoltre, ci saranno diversi miglioramenti dell’aspetto dell’esperienza di accesso generale in arrivo in un aggiornamento successivo.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Raccolte biometriche di login e bacheche nell’app mobile</span></a>
+                        </span></a><p>L’accesso biometrico ora è un’opzione per accedere più rapidamente all’app mobile. Una volta effettuata la verifica biometrica dopo un accesso iniziale, gli utenti potranno utilizzare l’impronta digitale o il riconoscimento facciale per accedere rapidamente all’app con una verifica della password solo occasionale. Inoltre, ci saranno diversi miglioramenti dell’aspetto dell’esperienza di accesso generale in arrivo in un aggiornamento successivo.</p>
                         <p>Le raccolte di schede sono ora supportate anche nell’app mobile, consentendo agli utenti mobili di visualizzare le raccolte a cui hanno accesso nella versione desktop dal loro elenco delle bacheche mobili.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -537,7 +535,7 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovi clienti Net da integrare in Adobe Unified Experience</a><span style="color: #ff0000;"> Presto disponibile!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovi clienti Net da integrare in Adobe Unified Experience</a></p>
                         <p>L’esperienza unificata di Adobe include:
                         <ul>
                         <li>Un unico accesso per tutte le applicazioni Adobe tramite Adobe Experience Cloud</li>
@@ -559,7 +557,7 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Il visualizzatore di correzione si apre in una nuova scheda per gli utenti dell’esperienza unificata</a><span style="color: #ff0000;"> Presto disponibile!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Il visualizzatore di correzione si apre in una nuova scheda per gli utenti dell’esperienza unificata</a></p>
                         <p>Il visualizzatore di correzione ora si apre in una nuova scheda per gli utenti di Esperienza unificata.
                         </p>
                     </td>
@@ -627,11 +625,11 @@ A questo punto della versione non sono disponibili aggiornamenti di prova Workfr
 
 Nuove funzioni disponibili nella versione Obiettivi di Workfront con la versione 23.2. Per informazioni su queste nuove funzioni disponibili in Anteprima, consulta [Obiettivi di Adobe Workfront con la versione 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
-### API versione 15
+### API versione 16
 
-Per l’API versione 15, abbiamo modificato alcune risorse e alcuni endpoint. Alcune delle modifiche supportano nuove funzionalità, altre le semplificano nell’utilizzo delle informazioni disponibili tramite l’API.
+La versione 16 dell’API verrà rilasciata con la versione 22.3. Per l’API versione 16, abbiamo modificato alcune risorse e alcuni endpoint. Alcune delle modifiche supportano nuove funzionalità, altre le semplificano nell’utilizzo delle informazioni disponibili tramite l’API.
 
-Per informazioni sulle novità e gli aggiornamenti, consulta [Novità dell’API versione 15](/help/quicksilver/wf-api/api/new-api-version-15.md).
+Per informazioni sulle novità e gli aggiornamenti, consulta [Novità dell’API versione 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 Per informazioni sulle versioni API, consulta [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

@@ -4,7 +4,7 @@ description: Scopri gli aggiornamenti nel periodo di tempo di rilascio 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+source-git-commit: f10e84b4afffee5d80a32161300bbcf4b0d20f73
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 2%
@@ -22,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 23.2, vedi [Pano
 
 >[!NOTE]
 >
->Anteprima versione: 4 aprile 2023; Rilascio produzione pianificato: 18 aprile 2023
+>Anteprima versione: 4 aprile 2023; Rilascio produzione pianificato: 20 aprile 2023
 
 Abbiamo aggiornato l’elenco Bozze nell’area Richieste per renderlo coerente con gli elenchi più recenti in Workfront.
 Alcuni degli aggiornamenti includono:

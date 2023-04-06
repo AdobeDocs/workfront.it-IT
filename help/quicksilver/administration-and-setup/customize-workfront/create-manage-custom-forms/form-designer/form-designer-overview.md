@@ -7,7 +7,7 @@ description: È possibile progettare un modulo personalizzato che gli utenti pos
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9b32c41c9f2971f3b0bbded230680677cc0b3c64
+source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Panoramica della finestra di progettazione dei moduli
-
-{{highlighted-preview-article-level}}
 
 È possibile utilizzare la nuova struttura del modulo per progettare un modulo personalizzato che gli utenti possono allegare a un oggetto Workfront. Gli utenti che lavorano all’oggetto possono compilare il modulo personalizzato per fornire informazioni sull’oggetto.
 
