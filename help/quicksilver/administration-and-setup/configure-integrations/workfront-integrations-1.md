@@ -9,16 +9,16 @@ author: Becky, Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
+source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront] integrazioni
 
-Puoi integrare Adobe Workfront con applicazioni di terze parti. Le integrazioni possono estendere l’utilità di Workfront e adattarla alle esigenze della tua organizzazione.
+È possibile integrare Adobe Workfront con applicazioni di terze parti e altri [!DNL Adobe] prodotti. Le integrazioni possono estendere l’utilità di Workfront e adattarla alle esigenze della tua organizzazione.
 
 Integrazioni per [!DNL Workfront] rientrano nelle seguenti categorie:
 
