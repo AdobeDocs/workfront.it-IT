@@ -6,9 +6,9 @@ title: Panoramica delle integrazioni integrate di Adobe Workfront
 description: È possibile integrare [!DNL Adobe Workfront] con applicazioni di terze parti. Queste integrazioni possono estendere l'utilità di [!DNL Workfront] e adattalo alle esigenze della tua organizzazione. Ad esempio, se sei un lavoratore creativo nel settore marketing, puoi utilizzare il componente aggiuntivo Adobe Creative Cloud per esportare risorse direttamente da Photoshop a Workfront.
 feature: Workfront Integrations and Apps
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 04cf9d37c681398f5a0e2b9d7d45c0f8b93ab44b
+source-git-commit: 5c5c198645006506cb4187196d5bffab72cd1d56
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '512'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,20 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/adobecclogo.png"> </p> </td> 
+   <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Integrare [!DNL Workfront] commenti e approvazioni con InDesign, Illustrator e Photoshop </li> 
-     <li>Scarica/installa da Adobe Exchange o manualmente</li> 
-    </ul> </td> 
+     <li>Integrare [!DNL Workfront] commenti e approvazioni con le seguenti applicazioni Adobe Creative Cloud: 
+     <ul>
+     <li>InDesign </li>
+     <li>Illustrator </li>
+     <li>Photoshop </li>
+     <li>XD </li>
+     <li>Premiere Pro </li>
+     <li>After Effects </li>
+     </ul>
+     <li><p>Scarica/installa da <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <p>Per informazioni e istruzioni, consulta <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installa il  [!DNL Adobe Workfront] plug-in per [!DNL Creative Cloud] Applicazioni</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
