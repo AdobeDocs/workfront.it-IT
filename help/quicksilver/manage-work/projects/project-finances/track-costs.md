@@ -7,9 +7,9 @@ description: In Adobe Workfront puoi tenere traccia dei costi per progetti, atti
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4bb6306b7fa088823fba8ef5614aae8551ce02c
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2372'
 ht-degree: 1%
 
 ---
@@ -113,9 +113,6 @@ Il costo pianificato di un progetto viene calcolato con la seguente formula:
 Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project
 ```
 
-* 
-   * 
-
 Ad esempio, nella scheda Spese di un&#39;attività sono disponibili le seguenti spese: una spesa di marketing da 100 dollari e una spesa amministrativa da 50 dollari. Nella scheda Finanza selezionare il tipo di costo orario utente. Un utente viene assegnato all&#39;attività e la tariffa oraria dell&#39;utente è di $ 15. L&#39;utente viene assegnato a lavorare 5 ore su questa attività. Nella scheda Spese del progetto è disponibile un costo pianificato di $100 per una spesa denominata Consulting. Hai anche un costo fisso di $ 200 per il progetto.
 
 Il costo pianificato del progetto viene calcolato come segue:
@@ -148,17 +145,15 @@ Il costo effettivo di un progetto è il costo associato al lavoro effettivo (ore
 Il costo effettivo viene calcolato utilizzando la formula seguente:
 
 ```
-Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project
+Actual Project Cost = Actual Labor Cost of all tasks + Actual Expense Cost of all tasks + Actual Labor Cost of the project + Actual Expense Cost of the project + Fixed Cost of the project
 ```
 
-.
-
-Ad esempio, nella scheda Spese di un&#39;attività sono disponibili le seguenti spese: una spesa di marketing con un costo effettivo di $ 110 e una spesa amministrativa con un costo effettivo di $ 40. Selezionare il tipo di costo Orario ruolo e assegnare il ruolo di lavoro Consulente all&#39;attività. Il tasso del ruolo di consulente è di $15 all&#39;ora, e ci sono 6 ore registrate sull&#39;attività per il ruolo di lavoro di Consultant. È inoltre presente una spesa di consulenza associata al progetto (nella scheda Spese ), con un costo effettivo di $ 100 e un utente con un tasso di costo per ora di $ 20 nel proprio profilo utente registra 10 ore sul progetto.
+Ad esempio, nella scheda Spese di un&#39;attività sono disponibili le seguenti spese: una spesa di marketing con un costo effettivo di $ 110 e una spesa amministrativa con un costo effettivo di $ 40. Selezionare il tipo di costo Orario ruolo e assegnare il ruolo di lavoro Consulente all&#39;attività. Il tasso del ruolo di consulente è di $15 all&#39;ora, e ci sono 6 ore registrate sull&#39;attività per il ruolo di lavoro di Consultant. È presente una spesa di consulenza associata al progetto (nella scheda Spese ), con un costo effettivo di $ 100 e un utente con un tasso di costo per ora di $ 20 nel proprio profilo utente registra 10 ore sul progetto. Hai anche un costo fisso di $ 200 per il progetto.
 
 Il costo effettivo del progetto viene calcolato come segue:
 
 ```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project)= $540
+$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost)= $740
 ```
 
 >[!NOTE]
