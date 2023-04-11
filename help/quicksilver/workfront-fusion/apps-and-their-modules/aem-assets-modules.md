@@ -10,7 +10,7 @@ description: Con la [!DNL Adobe Experience Manager Assets] connettore per [!DNL 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: c978a0eed86e399824d5b383c6db004deb0ec0ce
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 0%
@@ -71,7 +71,7 @@ Per creare una connessione per [!DNL Adobe Experience Manager Assets] moduli:
 
       Questa configurazione richiede informazioni dal [!DNL Adobe Admin Console].
 
-   * **[!DNL AEM Assets Basic]**
+   * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
       Questa configurazione richiede un nome utente e una password.
 
@@ -79,7 +79,7 @@ Per creare una connessione per [!DNL Adobe Experience Manager Assets] moduli:
 
    Per [!DNL AEM Assets as a Cloud Service], vedi [Configura la connessione per [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
-   Per [!UICONTROL AEM Assets Basic], vedi [Configura la connessione per [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
+   Per [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), vedi [Configura la connessione per [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
 4. Fai clic su **[!UICONTROL Continua]** per salvare la connessione e tornare al modulo .
 
@@ -129,13 +129,13 @@ Per creare una connessione per [!DNL Adobe Experience Manager Assets] moduli:
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Chiave privata]</td>
-                  <td>Immetti la chiave privata generata vince la configurazione [!UICONTROL Server-to-server]. Per estrarre la chiave privata, fai clic su [!UICONTROL Extract], quindi immetti il file da estrarre e la password per il file.</td>
+                  <td>Immetti la chiave privata generata vince la configurazione [!UICONTROL Server-to-server]. Per estrarre la chiave privata, fai clic su [!UICONTROL Extract], quindi inserisci il file da estrarre e la password per il file.</td>
               </tr>
           </tbody>
       </table>
 
 
-### Configura la connessione per [!DNL AEM Assets Basic]
+### Configura la connessione per [!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])
 
 <table style="table-layout:auto"> 
         <col/>
