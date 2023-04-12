@@ -6,10 +6,10 @@ description: Puoi collegare manualmente la risoluzione di un problema alla risol
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 0%
+source-wordcount: '553'
+ht-degree: 1%
 
 ---
 
@@ -68,19 +68,30 @@ Prima di iniziare, devi:
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Vai a **Panoramica** nella zona **Dettagli del problema** sezione .
-1. Fai clic sul pulsante **Risolto da** e selezionare uno dei seguenti tipi di oggetti di risoluzione:  
+1. Fai clic sul pulsante **Risolto da** e selezionare uno dei seguenti tipi di oggetti di risoluzione:
 
    * **Progetto**
    * **Attività**
    * **Problema**
 
-1. Viene visualizzato il campo relativo all&#39;oggetto di risoluzione.
-1. Dopo aver selezionato l’oggetto, inizia a digitare il nome di un progetto, un’attività o un problema specifico nel campo disponibile e selezionalo quando viene visualizzato nell’elenco a discesa.
-1. Fai clic su **Salva** **Modifiche**.\
+   A seconda dell’oggetto selezionato, vengono visualizzati i campi seguenti:
+
+   * **Progetto risolutivo**
+   * **Attività risolutiva**
+   * **Problema risolutivo**
+
+
+1. Inizia a digitare il nome di un progetto, un&#39;attività o un problema specifico nel **Risoluzione del progetto**, **Attività** oppure **Problema** quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
+
+   >[!NOTE]
+   >
+   >Non è possibile collegare la risoluzione di un problema all&#39;attività o al progetto in cui si trova il problema. L&#39;attività o il progetto del problema non vengono visualizzati nei campi Attività di risoluzione o Attività di risoluzione.
+
+
+1. Fai clic su **Salva modifiche**.
+
    Il problema originale diventa Oggetto risolvibile per il progetto, l&#39;attività o il problema selezionato nei passaggi 4 e 5. Ciò significa che il problema originale viene completato quando l&#39;oggetto di risoluzione (il progetto, l&#39;attività o il problema a cui l&#39;utente ha collegato) viene completato.
 
    >[!NOTE]
    >
    >Un progetto, un&#39;attività o un problema può avere più problemi come Oggetti Risolvibili.
-
- 
