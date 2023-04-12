@@ -6,7 +6,7 @@ description: È possibile aggiungere tag alle schede per mostrare visivamente ch
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 86d168cc13b7b1942877430a9194c38be2dd56de
+source-git-commit: 887e8c162764d5d69605b5323f6315de3a2992f3
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 1%
@@ -93,7 +93,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Modifica]**.
 
-1. Trova il tag da rimuovere dalla scheda, quindi fai clic sul pulsante **[!UICONTROL Rimuovi]** Icona &#x200B; ![Rimuovi tag](assets/copy-of-boards-remove-30x23.png).
+1. Trova il tag da rimuovere dalla scheda, quindi fai clic sul pulsante **[!UICONTROL Rimuovi]** icona ![Rimuovi tag](assets/copy-of-boards-remove-30x23.png).
 1. Fai clic su **[!UICONTROL Chiudi]**.
 
 ## Eliminare un tag
