@@ -4,12 +4,12 @@ keywords: release
 navigation-topic: product-announcements
 title: Pianificazione ed elaborazione delle versioni di Adobe Workfront
 description: L’ambiente Anteprima viene aggiornato una volta alla settimana con nuove funzioni. Queste funzioni sono comunicate nelle note sulla versione per la prossima versione trimestrale.
-author: Luke
+author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Le correzioni dei problemi relativi al prodotto Adobe Workfront sono rese dispon
 
 ## Funzioni rimosse da una versione trimestrale
 
-Tutte le funzioni associate a una determinata versione trimestrale sono disponibili per il test in Anteprima 2-4 settimane prima della versione finale in Produzione. Se le funzioni vengono rimosse dalla versione trimestrale prima di tale data, vengono intraprese le seguenti azioni per informare i clienti:
+Tutte le funzioni associate a una determinata versione trimestrale sono disponibili per il test in Anteprima per almeno 2-4 settimane prima della versione finale in Produzione. Se le funzioni vengono rimosse dalla versione trimestrale prima di tale data, vengono intraprese le seguenti azioni per informare i clienti:
 
 * Le note sulla versione per la versione trimestrale (disponibili nella sezione [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md) page) vengono aggiornate per indicare che la funzione è stata rimossa.
 
@@ -41,6 +41,30 @@ Se le funzioni vengono rimosse dalla versione trimestrale dopo che tutte le funz
 * Le note sulla versione per la versione trimestrale (disponibili nella sezione [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md) page) vengono aggiornate per indicare che la funzione è stata rimossa.
 * Nella community Workfront viene aggiunto un post in cui viene indicato che la funzione è stata rimossa.
 * Tramite Centro annunci viene inviato un messaggio per informare tutti i clienti che la funzione è stata rimossa. (Centro annunci è un Centro notifiche in-app di Workfront. Per ulteriori informazioni, consulta [Inviare annunci](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+
+## Versioni beta
+
+A volte, Workfront rilascia nuove funzionalità come parte di un programma beta.
+Le informazioni specifiche su ogni versione beta, comprese le modalità di partecipazione, le versioni quando ogni programma beta viene avviato e tutti i programmi beta sono diversi.
+
+Di seguito sono riportati i tipi di programmi beta disponibili da Workfront:
+
+* **Versione beta chiusa o privata**: Le seguenti sono caratteristiche di un rilascio beta chiuso o privato:
+
+   * Le funzioni sono disponibili per un piccolo gruppo di clienti, accuratamente selezionati da Workfront.
+   * I partecipanti in genere lavorano con un Product Manager e forniscono feedback su base regolare.
+   * Le nuove funzioni che fanno parte della versione beta possono essere rilasciate in Anteprima o Produzione o in un ambiente separato reso disponibile ai fini del programma beta. Le funzioni beta chiuse vengono rilasciate a intervalli casuali e senza alcun avviso.
+   * Nelle pagine di rilascio del prodotto non sono disponibili informazioni sulla versione per i betas chiusi.
+
+* **Beta aperta o pubblica**: Le seguenti sono caratteristiche di una versione beta aperta o pubblica:
+
+   * Le funzioni sono disponibili per tutti i clienti Workfront, ma sono in stato beta. Potrebbero non essere sempre completamente funzionali e il feedback è sempre benvenuto.
+   * La partecipazione a una versione beta pubblica è facoltativa e i clienti possono decidere se attivare autonomamente le funzioni beta.
+   * Le nuove funzioni che fanno parte della versione beta possono essere rilasciate in Anteprima o Produzione.
+   * Le funzioni potrebbero rilasciare più spesso dei normali pattern di rilascio per Workfront.
+   * Le informazioni su quando le funzioni vengono rilasciate in una versione beta pubblica sono incluse nelle pagine di rilascio del prodotto.
+
+Per informazioni sulle note sulla versione del prodotto, consulta [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md).
 
 ## Note sulla versione
 
