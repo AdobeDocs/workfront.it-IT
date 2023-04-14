@@ -6,10 +6,10 @@ description: Le seguenti notifiche ti avvisano della comunicazione, ad esempio u
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 2af2a1f7d1a4d0b06cf4e7bfd2b9997ff8b9a6bf
 workflow-type: tm+mt
-source-wordcount: '1546'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -70,7 +70,7 @@ Vedi anche [Notifiche degli eventi](../../workfront-basics/using-notifications/e
    <td><strong>[!UICONTROL Daily]</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Qualcuno ha commentato uno degli elementi del mio lavoro</strong> </p> <p>L'assegnatario dell'elemento di lavoro riceve una notifica e-mail ogni volta che un utente aggiunge un aggiornamento a un elemento di lavoro, a meno che l'utente che aggiunge l'aggiornamento non sia anche l'assegnatario. </p> <p>Quando un commento viene pubblicato su una richiesta, invia un'e-mail al contatto principale del problema.</p> <p>Il contatto principale per un problema riceve una notifica e-mail quando un commento viene pubblicato su una richiesta, a meno che l'utente che ha pubblicato il commento non sia anche il contatto principale per il problema.</p> <p>Anche gli utenti che sono inclusi direttamente nel commento ricevono una notifica e-mail.</p> <p>Una notifica viene inviata solo se lo stato del progetto è [!UICONTROL Current].</p> <p>L’oggetto dell’e-mail di notifica istantanea è: <em>Commento su &lt;work item="" name=""&gt; su &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> Oggetto della notifica giornaliera del riassunto:<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p><strong>Qualcuno ha commentato uno degli elementi del mio lavoro</strong> </p> <p>L'assegnatario dell'elemento di lavoro riceve una notifica e-mail ogni volta che un utente aggiunge un aggiornamento a un elemento di lavoro, a meno che l'utente che aggiunge l'aggiornamento non sia anche l'assegnatario. </p> <p>Quando un commento viene pubblicato su una richiesta, invia un'e-mail al contatto principale del problema.</p> <p>Il contatto principale per un problema riceve una notifica e-mail quando un commento viene pubblicato su una richiesta, a meno che l'utente che ha pubblicato il commento non sia anche il contatto principale per il problema.</p> <p>Anche gli utenti che sono inclusi direttamente nel commento ricevono una notifica e-mail.</p> <p>L’oggetto dell’e-mail di notifica istantanea è: <em>Commento su &lt;work item="" name=""&gt; su &lt;project name="" ref="" work="" item="" reference="" number=""&gt;)</em></p> <p> Oggetto della notifica giornaliera del riassunto:<em> [!UICONTROL Digest of Communication] &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
    <td> Nome elemento di lavoro<br>Nome progetto<br>Numero di riferimento dell'elemento di lavoro<br>Nome dell’utente che ha commentato l’elemento di lavoro<br>Testo del commento sull’elemento di lavoro<br>Data e ora in cui è stato effettuato il commento<br>*Numero totale di commenti ricevuti<br>*Numero di commenti ricevuti per ciascun oggetto<br>*Nome progetto<br>*<strong>[!UICONTROL Vedi tutte le notifiche]</strong> pulsante<br>*Data del digest giornaliero </td> 
    <td><strong>Giornaliera</strong> </td> 
   </tr> 
