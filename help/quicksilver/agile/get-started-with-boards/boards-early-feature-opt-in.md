@@ -6,9 +6,9 @@ title: Accesso anticipato per [!DNL Adobe Workfront] Schede
 description: Leggi questo articolo per saperne di più [!DNL Workfront Boards] funzionalità opt-in iniziale.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ La tabella seguente illustra le principali funzioni delle bacheche e il loro sta
   </tr>
   <tr>
    <td>Definire le notifiche e-mail per le bacheche</td>
-   <td>Pianificato</td>
+   <td>Rilasciato parzialmente</td>
   </tr>
   <tr>
    <td>Migrazione di schede Kanban legacy alle bacheche</td>

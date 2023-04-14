@@ -6,14 +6,16 @@ description: Adobe Workfront invia notifiche e-mail, notifiche in-app e notifich
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1301'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] Notifiche
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] invia notifiche e-mail, notifiche in-app e notifiche sul tuo dispositivo mobile.
 
@@ -32,6 +34,7 @@ Puoi ricevere le seguenti notifiche e-mail da [!DNL Workfront]:
 * [Notifica dei commenti inviati](#notification-of-posted-comments)
 * [promemoria automatici](#automatic-reminders)
 * [Notifiche promemoria](#reminder-notifications)
+* [Notifiche delle bacheche](#boards-notifications)
 * [Altro [!DNL Workfront] e-mail](#other-workfront-emails)
 
 ### Notifiche degli eventi
@@ -126,6 +129,16 @@ A [!DNL Workfront] amministratore (o un utente con un [!UICONTROL Planner] livel
 Le notifiche di promemoria vengono inviate dall’indirizzo e-mail che indica che [!DNL Workfront] amministratore selezionato per gestire le e-mail in uscita.
 
 Per informazioni sulla configurazione e l&#39;abilitazione delle notifiche per i promemoria, vedi [Impostare le notifiche dei promemoria](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+
+<span class="preview">
+
+### Notifiche delle bacheche
+
+[!DNL Adobe Workfront] [!UICONTROL Schede] invia un messaggio e-mail quando viene aggiunto a una bacheca e quando viene assegnata una scheda.
+
+Potete selezionare le e-mail che desiderate ricevere nelle preferenze delle bacheche. Per ulteriori informazioni, consulta [Schede notifiche e preferenze e-mail](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+</span>
 
 ### Altro [!DNL Workfront] e-mail
 

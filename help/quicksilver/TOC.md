@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 5e049780167b5acf680090e88164d85f661a15a5
+source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
 workflow-type: tm+mt
-source-wordcount: '12875'
+source-wordcount: '12880'
 ht-degree: 1%
 
 ---
@@ -924,6 +924,7 @@ ht-degree: 1%
       * [Eliminare o archiviare una scheda da una bacheca](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrare ed eseguire ricerche in una bacheca](agile/get-started-with-boards/filter-search-in-board.md)
       * [Aggiungi tag](agile/get-started-with-boards/add-tags.md)
+      * [Schede notifiche e preferenze e-mail](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * Utilizzare strumenti di pianificazione agile nelle bacheche {#agile-planning-boards}
       * [Panoramica degli strumenti di pianificazione di Agile](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [Gestire il limite WIP su una bacheca](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
@@ -1424,7 +1425,7 @@ ht-degree: 1%
       * Altri blocchi {#other-blocks}
          * [Altri blocchi](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
          * [Aggiungere o modificare un blocco di contenuto web in Reporting Canvas](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
-   * Report {#reports}
+   * Rapporti {#reports}
       * [Report](reports-and-dashboards/reports/reports-overview.md)
       * Nozioni di base sui rapporti {#report-basics}
          * [Nozioni di base sui rapporti](reports-and-dashboards/reports/reporting/reporting-basics.md)
@@ -1699,8 +1700,8 @@ ht-degree: 1%
       * [Delega richiesta di approvazione](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associa un processo di approvazione nuovo o esistente al lavoro](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Richiama le approvazioni presentate](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Verifica {#proofing}
-      * [Verifica](review-and-approve-work/proofing/proofing.md)
+   * Bozza {#proofing}
+      * [Bozza](review-and-approve-work/proofing/proofing.md)
       * Panoramica sulla correzione {#proofing-overview}
          * [Panoramica sulla correzione](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Panoramica del profilo di autorizzazione della bozza](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
