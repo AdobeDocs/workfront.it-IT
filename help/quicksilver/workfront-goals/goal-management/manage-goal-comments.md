@@ -6,9 +6,9 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,11 @@ Viene aperto l’elenco degli obiettivi.
 
 1. (Facoltativo) Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra di un commento, quindi fai clic su **Elimina** per eliminare un commento aggiunto.
 1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 5-9 di cui sopra. <!--insure this stays accurate-->
+1. (Condizionale e facoltativo) Se altri utenti hanno aggiunto commenti visualizzati al di fuori dell’area visibile nella sezione Aggiornamenti , fai clic su **Visualizza** in blu **nuovo banner commenti** nella parte inferiore dello schermo per visualizzare questi commenti.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Ulteriori commenti vengono visualizzati nella parte inferiore dello schermo.
 1. (Facoltativo) Fai clic sul pulsante **Simile** icona![](assets/like-icon.png) Mi piace un commento aggiunto da qualcun altro. L’icona si aggiorna con il numero di Mi piace.
 1. (Facoltativo) Per aggiungere formattazione RTF all’aggiornamento, utilizza tutti gli attributi nella barra degli strumenti RTF durante la digitazione. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) Fai clic sul pulsante **Attività di sistema** per visualizzare gli aggiornamenti registrati dal sistema. Quando un obiettivo viene aggiornato, Workfront genera una nota sull’aggiornamento e la visualizza nella scheda Attività di sistema. Workfront registra inoltre un aggiornamento del sistema quando un risultato, un’attività o un progetto viene aggiunto all’obiettivo o quando viene aggiornato. <!--ensure the casing on the tab has not changed-->

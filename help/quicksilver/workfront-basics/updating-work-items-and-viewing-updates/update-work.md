@@ -6,9 +6,9 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2814'
 ht-degree: 1%
 
 ---
@@ -233,6 +233,17 @@ La **Commenti** è selezionata per impostazione predefinita.
    >   Viene generato un messaggio e-mail per avvisare gli utenti dell’aggiornamento solo quando si invia l’aggiornamento originale. Dopo aver modificato l’aggiornamento non viene generato alcun messaggio e-mail.
 
 1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 4-7 di cui sopra. <!--(**************insure this stays accurate***********)-->. Per informazioni sulla risposta a un aggiornamento, consulta [Risposta agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Condizionale e facoltativo) Se altri utenti hanno aggiunto commenti visualizzati al di fuori dell’area visibile nella sezione Aggiornamenti , fai clic su **Visualizza** in blu **nuovo banner commenti** nella parte inferiore dello schermo per visualizzare questi commenti.
+
+   ![](assets/blue-new-comments-banner-with-view-button.png)
+
+   Ulteriori commenti vengono visualizzati nella parte inferiore dello schermo.
+
+   >[!NOTE]
+   >
+   >   L’indicatore &quot;nuovi commenti&quot; e il pulsante &quot;Visualizza&quot; vengono visualizzati solo quando gli utenti che hanno inserito i nuovi aggiornamenti e l’utente che sta guardando la sezione Aggiornamenti stanno utilizzando la nuova esperienza di commento.
+
+
 1. (Facoltativo) Fai clic sul pulsante **Simile** icona![](assets/like-icon.png). L’icona si aggiorna con il numero di Mi piace.
 1. (Condizionale e Facoltativo) Se hai incluso altre persone nel commento, fai clic sul numero di membri inclusi nell’aggiornamento per visualizzare un elenco di entità con cui è condiviso il commento immesso.
 

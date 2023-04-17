@@ -6,9 +6,9 @@ description: Quando un utente aggiunge o risponde a un aggiornamento di un ogget
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ La risposta a un commento o a una risposta varia a seconda dell’esperienza e d
 
    Puoi vedere gli utenti che sono attivamente coinvolti nella conversazione nella parte inferiore della **Nuovo commento** e puoi aggiungere di più o rimuovere quelli che non sono più rilevanti. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Puoi anche assegnare tag a più utenti per includerli nella risposta.  Per assegnare tag ad altri utenti, consulta [Assegnare tag agli altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Inizia a digitare la risposta e utilizza eventuali opzioni aggiuntive nella barra degli strumenti Rich Text. Per informazioni sull’utilizzo di Rich Text, consulta la sezione &quot;Utilizzare il testo RTF in un aggiornamento Workfront&quot; in [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+1. Inizia a digitare la risposta e utilizza eventuali opzioni aggiuntive nella barra degli strumenti Rich Text. Per informazioni sull’utilizzo di Rich Text o altre funzionalità di aggiornamento, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
 1. Fai clic su **Invia** per salvare la risposta.
 

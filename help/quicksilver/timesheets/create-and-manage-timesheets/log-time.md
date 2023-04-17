@@ -6,9 +6,9 @@ description: È possibile registrare il tempo per gli elementi di lavoro in&nbsp
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 27e9cfff363ab38c6469b99a8cbb04439f2df61c
+source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
 workflow-type: tm+mt
-source-wordcount: '2979'
+source-wordcount: '3016'
 ht-degree: 0%
 
 ---
@@ -246,9 +246,15 @@ In Workfront è possibile registrare l’ora nelle seguenti aree:
 
    >[!IMPORTANT]
    >
-   >Se un ruolo di lavoro per il quale hai effettuato l&#39;accesso è cambiato e **Assegnare manualmente i ruoli del processo alle voci dell&#39;ora** è stata disabilitata. È necessario salvare manualmente le voci relative al tempo. La scheda attività salverà nuovamente il tempo automaticamente solo quando non vi è più tempo registrato per il ruolo di lavoro modificato.
+   >È necessario salvare manualmente la scheda attività se si verifica uno dei seguenti scenari:
    >
-   >Se il ruolo è cambiato e il **Assegnare manualmente i ruoli del processo alle voci dell&#39;ora** è abilitata, puoi registrare l’ora o aggiornare il ruolo e le modifiche vengono salvate automaticamente.
+   >* Il ruolo del processo associato al tempo precedentemente registrato è stato modificato e il **Assegnare manualmente i ruoli del processo alle voci dell&#39;ora** è stata disabilitata. Il tempo di registrazione per le nuove date lo assocerà a un diverso ruolo di lavoro.
+      >   
+      >   Se il ruolo è cambiato e il **Assegnare manualmente i ruoli del processo alle voci dell&#39;ora** è abilitata, puoi registrare l’ora o aggiornare il ruolo e le modifiche vengono salvate automaticamente.
+   >
+   >* Il ruolo di lavoro assegnato a un&#39;attività o a un problema è diverso dal ruolo di lavoro con cui il proprietario della scheda attività sta registrando il tempo <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >
+   >La scheda attività salverà nuovamente il tempo automaticamente quando non ci sono più voci in conflitto tra i due ruoli.
 
 1. (Facoltativo) Specificare la quantità di lavoro straordinario nel campo Lavoro straordinario nell&#39;intestazione della scheda attività.
 
