@@ -7,9 +7,9 @@ description: Gli amministratori dispongono delle autorizzazioni necessarie per v
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: bcca026e193e66cfb92ab9a0fb1aaf1eeb6892fb
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -99,4 +99,4 @@ L’approvazione di un modello lo rende visibile nella [!UICONTROL Modelli pubbl
 
 In qualità di amministratore, puoi clonare uno scenario come modello.
 
-Per istruzioni sulla clonazione di uno scenario come modello, vedi [Crea nuovi modelli in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create)in [Crea nuovi modelli in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+Per istruzioni sulla clonazione di uno scenario come modello, vedi [Creare un modello da uno scenario](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create-a-template-from-a-scenario) in [Crea nuovi modelli in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
