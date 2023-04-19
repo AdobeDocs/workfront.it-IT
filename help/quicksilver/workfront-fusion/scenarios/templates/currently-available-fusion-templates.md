@@ -7,9 +7,9 @@ description: I seguenti modelli pubblici sono attualmente disponibili in Adobe W
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: b397e93842db742456f374a0baf130495b711a2c
+source-git-commit: f0ab9a14fc397b36c5e3dffe07306ebc43e76500
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,10 @@ Questo modello acquisisce una linea di base del progetto in caso di modifiche de
 ### Workfront - Creazione della linea di base settimanale
 
 Questo modello acquisisce una linea di base del progetto su base settimanale ogni lunedì alle 6:0 ET nei progetti filtrati per portafoglio e crea un aggiornamento nel flusso di aggiornamento per la registrazione.
+
+### Trova modelli di progetto non utilizzati per i criteri e invia una notifica
+
+Una volta al mese, rivedi i modelli di progetto utilizzando i tuoi criteri con questo modello di facile gestione che notifica agli utenti appropriati i modelli in violazione dei tuoi criteri.
 
 ## Workfront - Modelli di bozza Workfront
 
