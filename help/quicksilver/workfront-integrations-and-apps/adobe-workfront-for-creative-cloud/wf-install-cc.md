@@ -6,9 +6,9 @@ description: Puoi installare Workfront per il plug-in Creative Cloud da Adobe Ma
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: a9ec2952e6a4f7097ed08b10c06d1b8a0b144055
+source-git-commit: 15307cd34aa0787579a1cb26e0b165222d8d8502
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '534'
 ht-degree: 1%
 
 ---
@@ -66,13 +66,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * È necessario installare [!DNL Creative Cloud] app da utilizzare prima di installare il plug-in.
 
-## Installa il [!DNL Adobe Workfront for design and video] plugin
+## Installa il [!DNL Adobe Workfront for design and video] plug-in per la tua organizzazione
 
->[!TIP]
->
->Se sei un [!DNL Adobe Admin Console] amministratore, puoi includere il plug-in [!DNL Creative Cloud] pacchetti di distribuzione. Per ulteriori informazioni, consulta [Includere i plug-in nel pacchetto](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Se sei un [!DNL Adobe Admin Console] amministratore, puoi includere il plug-in [!DNL Creative Cloud] pacchetti di distribuzione. Per ulteriori informazioni, consulta [Includere i plug-in nel pacchetto](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-Per installare [!DNL Adobe Workfront for design and video] plugin:
+[Guarda un&#39;esercitazione video qui](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+
+## Installa il [!DNL Adobe Workfront for design and video] plug-in singolarmente
+
+È possibile installare [!DNL Adobe Workfront for design and video] plug-in per te stesso dal [!DNL Adobe Exchange].
 
 1. Vai a [Pagina di installazione di Adobe Workfront for Design and Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) su Adobe Exchange.
 1. Nella finestra di dialogo visualizzata, fai clic su **Apri [!DNL Adobe Creative Cloud] app desktop**.
