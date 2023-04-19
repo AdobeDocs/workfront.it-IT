@@ -5,9 +5,9 @@ title: Integrazioni di Adobe Experience Manager Assets
 description: Puoi collegare il tuo lavoro con le seguenti integrazioni di Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: f3af39e760b2b407cda5ab78497cdc775defdcf6
+source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ Puoi collegare il tuo lavoro con il tuo contenuto in [!DNL Experience Manager As
 * Tracciamento metadati per risorse e cartelle
 * Sincronizza i metadati del progetto tra [!DNL Workfront] e [!DNL Experience Manager Assets]
 
+Puoi anche collegare più archivi Experience Manager Assets a un ambiente Workfront o a più ambienti Workfront a un archivio Experience Manager Assets in tutti gli ID organizzazione. Segui le istruzioni di configurazione riportate in questo articolo per ogni integrazione che desideri configurare.
 
 ## Requisiti di accesso
 
@@ -105,7 +106,7 @@ Puoi mapparlo [!DNL Workfront] dati oggetto ai campi del supporto risorse in [!D
 ### Configurare i campi di metadati
 
 1. Configurare uno schema di metadati in [!DNL Experience Manager Assets] come spiegato in [Configurare la mappatura dei metadati delle risorse tra Adobi [!DNL Workfront] e [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-1. Configura campi modulo personalizzati in Workfront. [!DNL Workfront] dispone di molti campi personalizzati incorporati che è possibile utilizzare. Tuttavia, puoi anche creare campi personalizzati come spiegato in [Creare o modificare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Configura campi modulo personalizzati in Workfront. [!DNL Workfront] dispone di molti campi personalizzati incorporati che è possibile utilizzare. Tuttavia, puoi anche creare campi personalizzati come descritto in [Creare o modificare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 
 ### Risorse
