@@ -6,7 +6,7 @@ description: Adobe Workfront invia notifiche e-mail, notifiche in-app e notifich
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 1%
@@ -14,8 +14,6 @@ ht-degree: 1%
 ---
 
 # [!DNL Adobe Workfront] Notifiche
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] invia notifiche e-mail, notifiche in-app e notifiche sul tuo dispositivo mobile.
 
@@ -130,15 +128,11 @@ Le notifiche di promemoria vengono inviate dall’indirizzo e-mail che indica ch
 
 Per informazioni sulla configurazione e l&#39;abilitazione delle notifiche per i promemoria, vedi [Impostare le notifiche dei promemoria](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
-<span class="preview">
-
 ### Notifiche delle bacheche
 
 [!DNL Adobe Workfront] [!UICONTROL Schede] invia un messaggio e-mail quando viene aggiunto a una bacheca e quando viene assegnata una scheda.
 
 Potete selezionare le e-mail che desiderate ricevere nelle preferenze delle bacheche. Per ulteriori informazioni, consulta [Schede notifiche e preferenze e-mail](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-</span>
 
 ### Altro [!DNL Workfront] e-mail
 
@@ -166,7 +160,7 @@ Se hai [!DNL Workfront] L’app mobile installata sul telefono, toccando i colle
 
 * [!UICONTROL Lavoraci]
 * [!UICONTROL Commento]
-* [!UICONTROL Decidi l&#39;approvazione]
+* [!UICONTROL Decidi se approvare o meno]
 * [!UICONTROL Mostra tutte le notifiche]
 * [!UICONTROL Aggiungi]
 * [!UICONTROL Inizia]
