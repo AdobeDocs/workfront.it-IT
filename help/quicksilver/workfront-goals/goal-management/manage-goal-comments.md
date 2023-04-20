@@ -6,9 +6,9 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,29 @@ Viene aperto l’elenco degli obiettivi.
 
    >[!TIP]
    >
-   >Se passi dalla sezione Aggiornamenti prima di terminare la digitazione e l’invio di un commento, il commento viene mantenuto in modalità bozza anche dopo la disconnessione e il successivo accesso. I commenti creati sono visibili solo all’utente che li inserisce.
+   >Se passi dalla sezione Aggiornamenti prima di terminare la digitazione e l’invio di un commento, il commento viene mantenuto in modalità bozza anche dopo la disconnessione e il successivo accesso. Anche le immagini aggiunte al commento vengono salvate nella bozza. Le bozze vengono salvate per 7 giorni dopo i quali vengono scartate e non possono essere recuperate. I commenti creati sono visibili solo all’utente che li inserisce.
 
+1. (Facoltativo) Per aggiungere formattazione RTF all’aggiornamento, utilizzare un collegamento ipertestuale o un’immagine utilizzando le opzioni disponibili nella barra degli strumenti Rich Text o le icone adiacenti. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) In **Assegnare tag a persone o team** area, inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
+1. Seleziona la **Privato per la mia azienda** per rendere il commento visibile solo alle persone della tua azienda.
+
+   >[!TIP]
+   >
+   >Devi avere una società specificata nel tuo profilo per avere questa opzione disponibile nell’area Aggiornamenti.
+
+1. Fai clic su **Invia**.
+
+   >[!TIP]
+   >
+   >Se un altro utente invia un commento allo stesso elemento che stai aggiornando, ci sarà una linea rossa con un indicatore &quot;Nuovo&quot; per informarti dei commenti più recenti.
+   >
+   >L&#39;indicatore viene visualizzato solo dopo che il commento è stato inviato sull&#39;elemento e non quando il commento è ancora composto.
+   >
+   >L’indicatore &quot;Nuovo&quot; viene visualizzato solo quando l’utente che ha inserito un nuovo aggiornamento e l’utente che sta attualmente inserendo un aggiornamento utilizzano la nuova esperienza di commento.
+   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+
 1. (Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.
-1. Modifica le informazioni nel commento&lt;<!--, or remove any of the tagged users-->.
+1. Modifica le informazioni nel commento o rimuovi uno degli utenti con tag.
 È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -157,18 +175,7 @@ Viene aperto l’elenco degli obiettivi.
 
          Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. Fai clic su **Invia**.
-
-   >[!TIP]
-   >
-   >Se un altro utente invia un commento allo stesso elemento che stai aggiornando, ci sarà una linea rossa con un indicatore &quot;Nuovo&quot; per informarti dei commenti più recenti.
-   >
-   >L&#39;indicatore viene visualizzato solo dopo che il commento è stato inviato sull&#39;elemento e non quando il commento è ancora composto.
-   >
-   >L’indicatore &quot;Nuovo&quot; viene visualizzato solo quando l’utente che ha inserito un nuovo aggiornamento e l’utente che sta attualmente inserendo un aggiornamento utilizzano la nuova esperienza di commento.
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
-
-1. (Facoltativo) Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra di un commento, quindi fai clic su **Elimina** per eliminare un commento aggiunto.
+1. (Facoltativo) Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra di un commento, quindi fai clic su **Elimina** per eliminare un commento aggiunto. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 5-9 di cui sopra. <!--insure this stays accurate-->
 1. (Condizionale e facoltativo) Se altri utenti hanno aggiunto commenti visualizzati al di fuori dell’area visibile nella sezione Aggiornamenti , fai clic su **Visualizza** in blu **nuovo banner commenti** nella parte inferiore dello schermo per visualizzare questi commenti.
 
@@ -176,7 +183,7 @@ Viene aperto l’elenco degli obiettivi.
 
    Ulteriori commenti vengono visualizzati nella parte inferiore dello schermo.
 1. (Facoltativo) Fai clic sul pulsante **Simile** icona![](assets/like-icon.png) Mi piace un commento aggiunto da qualcun altro. L’icona si aggiorna con il numero di Mi piace.
-1. (Facoltativo) Per aggiungere formattazione RTF all’aggiornamento, utilizza tutti gli attributi nella barra degli strumenti RTF durante la digitazione. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 1. (Facoltativo) Fai clic sul pulsante **Attività di sistema** per visualizzare gli aggiornamenti registrati dal sistema. Quando un obiettivo viene aggiornato, Workfront genera una nota sull’aggiornamento e la visualizza nella scheda Attività di sistema. Workfront registra inoltre un aggiornamento del sistema quando un risultato, un’attività o un progetto viene aggiunto all’obiettivo o quando viene aggiornato. <!--ensure the casing on the tab has not changed-->
 
 <!--BELOW IS OLD, ATIIM/ WORKFRONT GOALS INFORMATION ABOUT COMMENTS: 
