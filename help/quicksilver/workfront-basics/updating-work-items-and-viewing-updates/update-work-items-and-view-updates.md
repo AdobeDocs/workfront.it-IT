@@ -7,7 +7,7 @@ description: È possibile utilizzare la sezione Aggiornamenti della maggior part
 author: Alina
 feature: Get Started with Workfront
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 98db73f8c807ff3f6bffcb1ec839a416d9c4111d
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 0%
@@ -28,4 +28,4 @@ Questa sezione contiene i seguenti articoli:
 * [Assegnare tag agli altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
 * [Visualizzare tutti gli aggiornamenti in un rapporto Nota](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
 * [Panoramica dei pulsanti &quot;Work On It and Done&quot;](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-* [Esperienza di commento unificata](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+* [Nuova esperienza di commento](../../workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)

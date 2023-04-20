@@ -2,7 +2,7 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: e405139a2215e4330e6e735a4cf1f8abec528a7c
+source-git-commit: 9f704ee45ce5d9d37e769dca3eb45d1c81065900
 workflow-type: tm+mt
 source-wordcount: '12919'
 ht-degree: 1%
@@ -808,7 +808,7 @@ ht-degree: 1%
       * [Assegnare tag agli altri utenti in caso di aggiornamenti](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Visualizzare tutti gli aggiornamenti in un rapporto Nota](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Panoramica dei pulsanti &quot;Work On It and Done&quot;](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [Esperienza di commento unificata](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
+      * [Nuova esperienza di commento](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * Utilizzare i moduli personalizzati {#work-with-custom-forms}
       * [Utilizzare i moduli personalizzati](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Aggiungere un modulo personalizzato a un oggetto](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)

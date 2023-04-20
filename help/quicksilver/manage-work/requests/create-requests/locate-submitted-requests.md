@@ -6,9 +6,9 @@ description: Scopri le aree di Adobe Workfront in cui puoi individuare le richie
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 781a6e28b759863f8bc4635c0a8850abb173e038
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ Per individuare le richieste inviate da te o da altri utenti:
 
    >[!TIP]
    >
-   >Non è possibile modificare i filtri nella sezione Inviato dell’area Richieste . Inoltre, non sono disponibili opzioni per modificare o modificare la visualizzazione dell’elenco delle richieste inviate.
+   >Non è possibile modificare i filtri nella sezione Inviato dell’area Richieste .
 
    <table style="table-layout:auto"> 
     <col> 
