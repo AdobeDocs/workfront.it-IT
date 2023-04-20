@@ -6,14 +6,16 @@ description: Potete aggiungere rapidamente una scheda ad hoc a una bacheca e ass
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
 
 # Aggiunta di una scheda ad hoc a una bacheca
+
+{{highlighted-preview}}
 
 Potete aggiungere rapidamente una scheda a una bacheca e assegnarla a un membro della bacheca. La scheda può rappresentare un&#39;attività, un problema, una persona, un gruppo o qualsiasi tipo di elemento che si desidera includere nella bacheca.
 
@@ -63,7 +65,7 @@ Una scheda ad hoc non è connessa a un elemento di lavoro in [!DNL Adobe Workfro
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descrizione]</strong> </td> 
-      <td>Una descrizione del Card.</td> 
+      <td>Una descrizione del Card. <span class="preview">Nella descrizione puoi aggiungere URL che diventeranno collegamenti cliccabili al momento del salvataggio della scheda.</span></td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
@@ -96,7 +98,17 @@ Una scheda ad hoc non è connessa a un elemento di lavoro in [!DNL Adobe Workfro
     </tbody> 
    </table>
 
+   Immagine dei dettagli della scheda di esempio nell’ambiente di produzione:
    ![Dettagli delle schede ad hoc](assets/boards-edit-ad-hoc-card-071822.png)
+
+   <span class="preview">Immagine dei dettagli della scheda di esempio nell&#39;ambiente di anteprima:
+   ![Dettagli delle schede ad hoc](assets/boards-edit-ad-hoc-card-041723.png)</span>
+
+   <span class="preview">Utilizza il pannello di navigazione a sinistra per spostarsi tra gruppi di campi nei dettagli della scheda.</span>
+
+   >[!NOTE]
+   >
+   >Il pannello di navigazione a sinistra e la possibilità di aggiungere collegamenti selezionabili nel campo Descrizione sono disponibili solo tramite la funzionalità opt-in iniziale per le schede Workfront.
 
 1. Fai clic su **[!UICONTROL Chiudi]** per aggiungere la scheda alla bacheca.
 
