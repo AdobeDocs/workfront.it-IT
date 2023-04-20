@@ -5,13 +5,13 @@ title: Caricare bozze da Illustrator
 description: Puoi caricare le tue tavole da disegno come documenti da rivedere e approvare rapidamente o semplicemente archiviare in Adobe Workfront.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 9330ba5e5f828738a8726a3641f39a9b279d2ed0
+exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
+source-git-commit: 9684dff5ea84ffbfc28c49271c2382e6bd0adb27
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 0%
 
 ---
-
 
 # Carica bozze da [!DNL Illustrator]
 
@@ -99,9 +99,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. In **[!UICONTROL Approvazioni di prova]** sezione , seleziona **[!UICONTROL Automatico]**.
 1. (Facoltativo) In **[!UICONTROL Modello di flusso di lavoro]** digitare il nome di un modello di flusso di lavoro della bozza.
-
+<!--
 {{adjust-proof-settings}}
-
+-->
 1. (Facoltativo) Digita un commento nella sezione **[!UICONTROL Aggiornamenti]** area.
 
    ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!-- new screenshot -->

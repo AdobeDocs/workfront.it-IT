@@ -1,7 +1,7 @@
 ---
-source-git-commit: c3c19f1913d5bab233a0d218ba87c69dead82215
+source-git-commit: e990b521c20a5bad973c62cbd239e96aca09919b
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Per impostare le cartelle collegate:
 * Premiere Pro
 * After Effects
 
-## WF per l’elenco delle applicazioni CC {#cc-plugin-app-list}
+## WF per l&#39;elenco delle applicazioni CC {#cc-plugin-app-list}
 
 * InDesign
 * Illustrator
@@ -138,83 +138,82 @@ Per impostare le cartelle collegate:
 
 ## Regolare le impostazioni di bozza automatica {#adjust-proof-settings}
 
-1. (Facoltativo) Regolare le impostazioni di bozza automatica
+1. (Facoltativo) Regola le impostazioni del flusso di lavoro per la bozza automatica
 
    <table>
-   <tr>
-      <td colspan="2" ><strong>Fasi di prova</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Disattivazione delle fasi
-      </td>
-      <td>
-   <ol>
+      <tr>
+         <td colspan="2" ><strong>Fasi di prova</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Disattivazione delle fasi
+         </td>
+         <td>
+      <ol>
 
    <li>Attiva/disattiva Seleziona tutto per disattivare tutti gli stadi. 
-   <p>Oppure</p></li>
-   <li>Consente di attivare/disattivare singoli stadi.</li>
+      <p>Oppure</p></li>
+      <li>Consente di attivare/disattivare singoli stadi.</li>
 
    </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Aggiungi destinatari
-      </td>
-      <td>
-   <ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Aggiungi destinatari
+         </td>
+         <td>
+      <ol>
 
    <li>Nella casella Aggiungi nuovo destinatario digitare il nome dell’utente.
-
-   Nota: Non puoi aggiungere destinatari esterni tramite e-mail dal plug-in.
 
    <li>Specifica il ruolo della bozza.
 
    <li>Scegli il tipo di avvisi e-mail per il destinatario. 
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Imposta una scadenza
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Imposta una scadenza
+         </td>
+         <td>
+      <ol>
 
    <li>Scegli una scadenza.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td colspan="2" ><strong>Notifiche e-mail</strong>
-      </td>
-   </tr>
-   <tr>
-      <td>Notifica ai destinatari la bozza
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td colspan="2" ><strong>Notifiche e-mail</strong>
+         </td>
+      </tr>
+      <tr>
+         <td>Notifica ai destinatari la bozza
+         </td>
+         <td>
+      <ol>
 
    <li>Attiva la casella di controllo per inviare una notifica agli utenti quando viene creata la bozza.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   <tr>
-      <td>Aggiungere un messaggio personalizzato
-      </td>
-      <td>
-   <ol>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      <tr>
+         <td>Aggiungere un messaggio personalizzato
+         </td>
+         <td>
+      <ol>
 
    <li>Digita un soggetto.
 
    <li>Digita il messaggio personalizzato.
-   </li>
-   </ol>
-      </td>
-   </tr>
-   </table>
+      </li>
+      </ol>
+         </td>
+      </tr>
+      </table>
+
 
 
 
