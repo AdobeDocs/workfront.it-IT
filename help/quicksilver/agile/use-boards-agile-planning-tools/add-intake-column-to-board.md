@@ -7,9 +7,9 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di assun
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 622a1c48af8612e32ff8aa23971d55aff26eea48
+source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Facoltativamente è possibile aggiungere una colonna di assunzione alla bacheca che estrae automaticamente le attività e i problemi come schede collegate quando vengono aggiunti in [!DNL Workfront], in base ai filtri definiti dall’utente. La colonna di assunzione può fungere da colonna backlog per un team Kanban, da posizione di assunzione per un team di assistenza per visualizzare i problemi man mano che vengono aggiunti a una coda di richiesta o per qualsiasi altro scopo necessario.
 
 Su una bacheca è consentita una sola colonna di assunzione ed è sempre visualizzata come la colonna più a sinistra.
+
+La colonna di aspirazione non è disponibile su una scheda dinamica.
 
 La colonna di assunzione è limitata a 300 attività e a 300 problemi. Sono ordinati in base alla priorità definita per gli elementi. Per informazioni sulla priorità, consulta [Aggiorna priorità attività](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) e [Aggiorna priorità del problema](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
 
