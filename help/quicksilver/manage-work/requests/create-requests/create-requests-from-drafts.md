@@ -6,16 +6,14 @@ description: Oltre a utilizzare le bozze disponibili suggerite da Workfront quan
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 345f63fc78d9bc2b2eff8f19a8a9196641567764
+source-git-commit: 0f30ff23ef828d32c406cc2d9733c23b095014c9
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '613'
 ht-degree: 1%
 
 ---
 
 # Creare richieste dalle bozze
-
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.</span>
 
 Oltre a utilizzare le bozze disponibili suggerite da Workfront quando si inserisce una nuova richiesta, è possibile accedere a una richiesta di bozza dalla sezione Bozze e completarla con l&#39;invio.
 
@@ -61,7 +59,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![](assets/nwe-drafts-section-with-list-of-drafts-350x169.png)
 
-1. <span class="preview">(Facoltativo) Fai clic su un’intestazione di colonna per ordinare l’elenco in base a tale colonna.</span>
+1. (Facoltativo) Fai clic su un’intestazione di colonna per ordinare l’elenco in base a tale colonna.
 
 1. Rivedere le informazioni su ogni bozza nelle colonne seguenti dell&#39;elenco Bozze:
 
@@ -73,7 +71,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    {style="table-layout:auto"}
 
-1. <span class="preview">(Facoltativo) Utilizzando il filtro rapido nell&#39;angolo in alto a destra dell&#39;elenco Bozze, inizia a digitare il nome di una richiesta di bozza, di una coda di richiesta, di un argomento della coda o di un gruppo di argomenti, quindi fai clic sul nome di una bozza per aprirla. </span>
+1. (Facoltativo) Utilizzando il filtro rapido nell&#39;angolo in alto a destra dell&#39;elenco Bozze, inizia a digitare il nome di una richiesta di bozza, di una coda di richiesta, di un argomento della coda o di un gruppo di argomenti, quindi fai clic sul nome di una bozza per aprirla.
+
+   >[!TIP]
+   >
+   >Non è possibile applicare filtri permanenti nella sezione Bozze dell’area Richieste . Inoltre, non sono disponibili opzioni per modificare o modificare la visualizzazione dell&#39;elenco delle bozze.
+
 1. Aggiorna le informazioni per la richiesta come descritto in [Creare e inviare richieste Adobe Workfront](../../../manage-work/requests/create-requests/create-submit-requests.md).
 1. (Facoltativo e condizionale) In qualsiasi momento durante l’immissione della richiesta, fai clic su **Elimina** bozza per eliminare la bozza. Questo elimina la bozza che non può essere recuperata. Per ulteriori informazioni sull&#39;eliminazione delle bozze, vedere [Eliminare una bozza di richiesta](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
