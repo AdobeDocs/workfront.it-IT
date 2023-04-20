@@ -9,9 +9,9 @@ description: In un [!DNL Adobe Workfront Fusion] In questo caso, puoi automatizz
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 8283022f24913988248005da0c8e583b29f19652
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '2371'
 ht-degree: 0%
 
 ---
@@ -90,11 +90,122 @@ Se trovi il pulsante mappa sopra un campo o una funzione, puoi utilizzarlo per i
 
 ![](assets/map-toggle-350x74.png)
 
+* [Elemento drive](#drive-item)
 * [Voce](#item)
 * [Lista](#list)
 * [Pagina (Beta)](#page-beta)
 * [Sito](#site)
 * [Altro](#other)
+
+### Elemento drive
+
+* [Creare un file](#create-a-file)
+* [Creare una cartella](#create-a-folder)
+* [Ottieni un file](#get-a-file)
+* [Elementi cartella di controllo](#watch-folder-items)
+
+#### Creare un file
+
+Questo modulo di azione crea un nuovo file in SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Per istruzioni su come collegare le [!DNL SharePoint] account a [!DNL Workfront Fusion], vedi <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connetti [!DNL SharePoint] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Immetti ID sito, unità e cartelle]</td> 
+   <td> <p>Selezionare la modalità di identificazione della posizione del file che si desidera creare.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Invio manuale]</strong> </p> <p>Inserisci o mappa il <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>e <strong>ID cartella [!UICONTROL]</strong> nei campi visualizzati.</p> </li> 
+     <li> <p><strong>[!UICONTROL Seleziona dall’elenco che segui]</strong> </p> <p>Selezionare il percorso in cui si desidera creare il file. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File di origine]</td> 
+   <td>Selezionare un file di origine da un modulo precedente o mappare il nome e i dati del file di origine.</td> 
+  </tr>  </tbody> 
+</table>
+
+#### Creare una cartella
+
+Questo modulo di azione crea una nuova cartella in SharePoint.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Per istruzioni su come collegare le [!DNL SharePoint] account a [!DNL Workfront Fusion], vedi <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connetti [!DNL SharePoint] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Immetti ID sito, unità e cartelle]</td> 
+   <td> <p>Selezionare la posizione in cui si desidera identificare la cartella da creare.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Invio manuale]</strong> </p> <p>Inserisci o mappa il <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>e <strong>ID cartella [!UICONTROL]</strong> nei campi visualizzati.</p> </li> 
+     <li> <p><strong>[!UICONTROL Seleziona dall’elenco che segui]</strong> </p> <p>Selezionare il percorso in cui si desidera creare la cartella. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Nome cartella]</td> 
+   <td>Immettere o mappare un nome per la nuova cartella.</td> 
+  </tr>
+  </tbody> 
+</table>
+
+#### Ottieni un file
+
+Questo modulo di azione recupera il file SharePoint specificato.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Per istruzioni su come collegare le [!DNL SharePoint] account a [!DNL Workfront Fusion], vedi <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connetti [!DNL SharePoint] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Immetti ID sito, unità e cartelle]</td> 
+   <td> <p>Selezionare la modalità di identificazione della posizione del file che si desidera ottenere.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Invio manuale]</strong> </p> <p>Inserisci o mappa il <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>e <strong>[!UICONTROL File ID]</strong> nei campi visualizzati.</p> </li> 
+     <li> <p><strong>[!UICONTROL Seleziona dall’elenco che segui]</strong> </p> <p>Selezionare la posizione del file. </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+#### Elementi cartella di controllo
+
+Questo modulo di attivazione avvia uno scenario quando un elemento viene aggiornato in una cartella selezionata.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Per istruzioni su come collegare le [!DNL SharePoint] account a [!DNL Workfront Fusion], vedi <a href="#connect-sharepoint-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Connetti [!DNL SharePoint] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Immetti ID sito, unità e cartelle]</td> 
+   <td> <p>Selezionare la modalità di identificazione della posizione del file che si desidera ottenere.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Invio manuale]</strong> </p> <p>Inserisci o mappa il <strong>[!UICONTROL Site ID]</strong>, <strong>[!UICONTROL List ID]</strong>e <strong>ID cartella [!UICONTROL]</strong> nei campi visualizzati.</p> </li> 
+     <li> <p><strong>[!UICONTROL Seleziona dall’elenco che segui]</strong> </p> <p>Selezionare il percorso della cartella che si desidera controllare. </p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Immettere il numero massimo di elementi [!DNL Workfront Fusion] dovrebbe essere restituito durante un ciclo di esecuzione di uno scenario.</td> 
+  <tr>
+  </tr>
+</tbody> 
+</table>
 
 ### Voce
 
