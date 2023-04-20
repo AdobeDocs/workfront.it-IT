@@ -6,9 +6,9 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '2814'
+source-wordcount: '2945'
 ht-degree: 1%
 
 ---
@@ -196,7 +196,7 @@ La **Commenti** è selezionata per impostazione predefinita.
 
    >[!TIP]
    >
-   >Se passi dalla sezione Aggiornamenti prima di terminare la digitazione e l’invio di un commento, il commento viene mantenuto in modalità bozza anche dopo la disconnessione e il successivo accesso. I commenti creati sono visibili solo all’utente che li inserisce.
+   >Se passi dalla sezione Aggiornamenti prima di terminare la digitazione e l’invio di un commento, il commento viene mantenuto in modalità bozza anche dopo la disconnessione e il successivo accesso. Anche le immagini aggiunte al commento vengono salvate nella bozza. Le bozze vengono salvate per 7 giorni dopo i quali vengono scartate e non possono essere recuperate. I commenti creati sono visibili solo all’utente che li inserisce.
 
 1. (Facoltativo) In **Assegnare tag a persone o team** area, inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
 1. (Facoltativo) Per aggiungere formattazione RTF all&#39;aggiornamento, utilizzare una delle opzioni seguenti nella sezione **Rich Text** barra degli strumenti per migliorare il testo:
@@ -223,7 +223,7 @@ La **Commenti** è selezionata per impostazione predefinita.
 
 1. Fai clic su **Invia** per aggiungere l’aggiornamento all’oggetto Workfront.
 1. (Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.
-1. Modificare le informazioni nel commento <!--or remove any of the tagged users-->.
+1. Modifica le informazioni nel commento o rimuovi uno degli utenti con tag.
 È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -316,9 +316,13 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
    1. Sotto **Testo da visualizzare**, digita o incolla il testo del collegamento.
    1. Fai clic su **Salva**.
 
-1. (Facoltativo) Per allegare un&#39;immagine all&#39;aggiornamento, fai clic sul pulsante **Immagine** icona ![](assets/addimageicon-35x32.png) e passare all&#39;immagine sul computer.\
-   Oppure\
-   Trascina l’immagine nell’area di aggiornamento.
+1. (Facoltativo) Per allegare un&#39;immagine all&#39;aggiornamento, effettua una delle seguenti operazioni, a seconda dell&#39;ambiente utilizzato:
+
+   * Fai clic sul pulsante **Immagine** icona ![](assets/addimageicon-35x32.png) e sfogliare l&#39;immagine sul computer o trascinare l&#39;immagine nell&#39;area di aggiornamento, quando si utilizza l&#39;esperienza di aggiornamento corrente
+
+   Oppure
+
+   Fai clic sul pulsante **Aggiungi allegato** icona ![](assets/add-image-paperclip-icon.png) e sfogliare l&#39;immagine sul computer, quando si utilizza l&#39;esperienza di commento Beta.
 
    >[!NOTE]
    >
@@ -384,11 +388,19 @@ Nessun utente Workfront (incluso l’amministratore Workfront) può eliminare gl
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Nel messaggio visualizzato, fai clic su **Conferma** o **Elimina**, quando si utilizza l’esperienza di creazione di commenti Beta.
+1. Nel messaggio visualizzato, fai clic su **Conferma** o fai clic su **Elimina**, quando si utilizza l’esperienza di creazione di commenti Beta.
 
->[!NOTE]
->
->Se si elimina un aggiornamento con un&#39;immagine allegata, vengono eliminati sia il commento che l&#39;immagine.
+   >[!NOTE]
+   >
+   >Se si elimina un aggiornamento con un&#39;immagine allegata, vengono eliminati sia il commento che l&#39;immagine.
+
+   Quando al commento eliminato sono associate delle risposte, è presente un&#39;indicazione che il commento è stato rimosso con il nome dell&#39;utente che lo ha rimosso.
+
+   ![](assets/removed-comment-indicator-new-experience.png)
+
+   Quando si utilizza l’esperienza di commento Beta, i commenti eliminati vengono rimossi immediatamente da Workfront. Un utente che utilizza la sezione Aggiornamenti vede un commento eliminato da un altro utente in tempo reale.
+
+   <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
 ## Aggiungere un aggiornamento in una scheda attività
 
