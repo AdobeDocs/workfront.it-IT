@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion offre attualmente connettori dedicati per le
 author: Becky
 feature: Workfront Fusion
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 39aa8b6c7ebd6384c925d2157b8e14b643a91d24
+source-git-commit: 8806688a8e766efd046c49a2980d00d95999d05c
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '207'
 ht-degree: 27%
 
 ---
@@ -41,19 +41,7 @@ Questa sezione contiene i seguenti articoli:
 * [[!DNL Adobe Journey Optimizer] moduli](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [[!DNL Adobe PDF Services] moduli](../../workfront-fusion/apps-and-their-modules/pdf-modules.md)
 * [[!DNL Adobe Target] moduli](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
-
-   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/adobe-analytics-modules.md" class="MCXref xref" xrefformat="{para}">Adobe Analytics Modules</a> </li>
-  -->
-
-   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/active-campaign-modules.md" class="MCXref xref" xrefformat="{para}">ActiveCampaign modules</a> </li>
-  -->
-
-   <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/airtable-modules.md" class="MCXref xref" xrefformat="{para}">Airtable modules</a> </li>
-  -->
-
+* [[!DNL Airtable] moduli](../../workfront-fusion/apps-and-their-modules/airtable-modules.md)
 * [[!DNL Allocadia] moduli](../../workfront-fusion/apps-and-their-modules/allocadia-modules.md)
 * [[!DNL Anaplan] Moduli](../../workfront-fusion/apps-and-their-modules/anaplan-modules.md)
 * [[!UICONTROL Archivia] moduli](../../workfront-fusion/apps-and-their-modules/archive-modules.md)
