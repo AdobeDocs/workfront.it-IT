@@ -5,7 +5,8 @@ navigation-topic: boards
 title: Schede notifiche e preferenze e-mail
 description: Le bacheche Adobe Workfront inviano un messaggio e-mail quando aggiungete a una bacheca e quando vi viene assegnata una scheda.
 author: Lisa
-source-git-commit: 06e5f4eb275548c5f1d2740632963a0c2fee48ac
+exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
+source-git-commit: bfe45a29290631420c3a60d7dcbe470619094ca1
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%
@@ -13,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Schede notifiche e preferenze e-mail
-
-{{highlighted-preview-article-level}}
 
 [!DNL Adobe Workfront] [!UICONTROL Schede] invia un messaggio e-mail quando viene aggiunto a una bacheca e quando viene assegnata una scheda. Le notifiche sono attivate per impostazione predefinita e potete selezionare nelle preferenze delle bacheche le e-mail che desiderate ricevere.
 
