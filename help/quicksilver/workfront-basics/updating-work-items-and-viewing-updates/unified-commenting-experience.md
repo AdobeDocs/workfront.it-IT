@@ -6,9 +6,9 @@ description: La nuova esperienza di commento unificata
 author: Alina
 feature: Get Started with Workfront
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: e148126102d30ef061a89edae83980ebe81e9810
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '546'
 ht-degree: 1%
 
 ---
@@ -163,8 +163,9 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
    <td> 
    </td>
-   <td>
-   <td>✓ 
+   <td>✓
+   </td>
+   <td> 
    </td>
    <td> 
    </td>
@@ -242,7 +243,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Visualizza nuovi commenti in tempo reale 
+   <td>Visualizzare nuovi commenti in tempo reale (include vedere quando un commento viene eliminato)
    </td>
    <td> 
    </td>
