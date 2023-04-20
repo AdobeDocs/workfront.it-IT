@@ -6,9 +6,9 @@ description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ L’assegnazione di tag agli altri utenti di un aggiornamento varia a seconda de
 
    ![](assets/tag-users-in-update.png)
 
-1. (Facoltativo) Per rendere privato l&#39;aggiornamento, abilita **Privato per la mia azienda** nell&#39;angolo in basso a destra della casella di aggiornamento. Questo rende l’aggiornamento visibile solo agli utenti della tua azienda.
+1. (Facoltativo) Per rendere privato l&#39;aggiornamento, abilita **Privato per la mia azienda** nell&#39;angolo in basso a destra della casella di aggiornamento. Questo rende l’aggiornamento visibile solo agli utenti della tua azienda. La **Privato per la mia azienda** è disponibile solo quando un&#39;azienda è specificata nel tuo profilo Workfront.
 
    >[!NOTE]
    >
@@ -135,6 +135,8 @@ L’assegnazione di tag agli altri utenti di un aggiornamento varia a seconda de
 
 ### Assegnare tag ad altri sugli aggiornamenti nell’esperienza beta per i commenti
 
+Puoi assegnare tag ad altri sugli aggiornamenti nell’esperienza di creazione dei commenti Beta. È inoltre possibile rimuovere gli utenti ai quali vengono assegnati i tag per errore durante la modifica di un commento.
+
 1. Inizia l&#39;aggiornamento di un elemento di lavoro, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. In **Assegnare tag a persone o team** inizia a digitare il nome dell&#39;utente o del team che desideri includere, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
@@ -148,7 +150,7 @@ L’assegnazione di tag agli altri utenti di un aggiornamento varia a seconda de
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (Facoltativo) Per rendere privato l&#39;aggiornamento, abilita **Privato per la mia azienda** nell&#39;angolo in basso a destra della casella di aggiornamento. Questo rende l’aggiornamento visibile solo agli utenti della tua azienda.
+1. (Facoltativo) Per rendere privato l&#39;aggiornamento, abilita **Privato per la mia azienda** nell&#39;angolo in basso a destra della casella di aggiornamento. Questo rende l’aggiornamento visibile solo agli utenti della tua azienda. La **Privato per la mia azienda** è disponibile solo quando un&#39;azienda è specificata nel tuo profilo Workfront.
 
    >[!NOTE]
    >
@@ -171,3 +173,5 @@ L’assegnazione di tag agli altri utenti di un aggiornamento varia a seconda de
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Per informazioni sulle funzionalità aggiuntive disponibili durante l&#39;aggiornamento di un elemento di lavoro, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (Facoltativo) Fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**. Rimuovi gli utenti con tag, quindi fai clic su **Invia**. È possibile modificare un commento solo entro 15 minuti dall’immissione. È possibile modificare solo i commenti aggiunti.
