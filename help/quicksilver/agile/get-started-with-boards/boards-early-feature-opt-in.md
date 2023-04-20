@@ -6,9 +6,9 @@ title: Accesso anticipato per [!DNL Adobe Workfront] Schede
 description: Leggi questo articolo per saperne di più [!DNL Workfront Boards] funzionalità opt-in iniziale.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 199a83eaeb7fb96b41cec44ea116121cb84c1721
+source-git-commit: 0e838c75bddb97d53f5fa791d609be9b6d8d27f8
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -166,6 +166,10 @@ La tabella seguente illustra le principali funzioni delle bacheche e il loro sta
   </tr>
   <tr>
    <td>Creazione di bacheche dinamiche</td>
+   <td>Rilasciato parzialmente</td>
+  </tr>
+  <tr>
+   <td>Usa navigazione a sinistra sui dettagli della scheda</td>
    <td>Rilasciato parzialmente</td>
   </tr>
  </tbody> 
