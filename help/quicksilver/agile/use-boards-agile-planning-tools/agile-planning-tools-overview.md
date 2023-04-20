@@ -7,9 +7,9 @@ description: Quando create una bacheca utilizzando schede ad hoc e collegate, po
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: 4df80a89134ce63903d3d83813fd4ca7c857cd00
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Questa sezione contiene i seguenti articoli:
 * [Aggiungere una colonna di assunzione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 * [Utilizzare i gruppi su una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
 * [Configura decadimento scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+* [Migrazione di schede Kanban del team agile alle schede Workfront](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
 * [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
 * [Utilizza l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
 * [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
