@@ -7,16 +7,18 @@ description: Rivedi questo articolo per capire meglio come funziona la bacheca K
 author: Lisa
 feature: Agile
 exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
-source-git-commit: a478e5355db33e076b321a6219442198901f3252
+source-git-commit: 2c6a828d95df1229780803a173d5013f5b1eb215
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
 
 # Panoramica Kanban
 
-Le sezioni seguenti consentono di comprendere meglio come [!UICONTROL Kanban] funzioni della bacheca:
+Le sezioni seguenti consentono di comprendere meglio come [!UICONTROL Kanban] funzioni della scheda.
+
+Se sei interessato alla migrazione da un team agile [!UICONTROL Kanban] bacheca [!DNL Workfront] [!UICONTROL Schede], vedi [Migrazione del team agile [!UICONTROL Kanban] schede [!DNL Workfront] bacheche](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL Kanban] layout e funzioni della scheda
 
