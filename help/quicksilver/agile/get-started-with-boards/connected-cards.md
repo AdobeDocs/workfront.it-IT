@@ -6,14 +6,16 @@ description: Potete aggiungere una scheda sulla bacheca connessa alle attività 
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: e9fce8cd8062fa6512493c3b0509aa248a76c528
+source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
 workflow-type: tm+mt
-source-wordcount: '1181'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
 
 # Utilizzare schede collegate sulle bacheche
+
+{{highlighted-preview}}
 
 Potete aggiungere una scheda sulla bacheca connessa alle attività e ai problemi esistenti in [!DNL Workfront].
 
@@ -96,11 +98,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Name]</strong></td> 
-      <td> <p>La modifica del nome comporta anche la modifica del nome sulla connessione [!DNL Workfront] oggetto.</p> </td> 
+      <td>La modifica del nome comporta anche la modifica del nome sulla connessione [!DNL Workfront] oggetto.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descrizione]</strong></td> 
-      <td> <p>La modifica della descrizione cambia anche la descrizione sulla connessione [!DNL Workfront] oggetto.</p> </td> 
+      <td>La modifica della descrizione cambia anche la descrizione sulla connessione [!DNL Workfront] oggetto. <span class="preview">Nella descrizione puoi aggiungere URL che diventeranno collegamenti cliccabili al momento del salvataggio della scheda.</span></td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
@@ -110,7 +112,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Column]</strong></td>
-      <td><p>Seleziona la colonna della scheda.</p></td>
+      <td>Seleziona la colonna della scheda.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Status]</strong></td>
@@ -120,7 +122,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Completamento pianificato]</strong></td>
-      <td><p>La modifica di questa data comporta anche la modifica della data di completamento pianificata nella [!DNL Workfront] oggetto.</p></td>
+      <td>La modifica di questa data comporta anche la modifica della data di completamento pianificata nella [!DNL Workfront] oggetto.</td>
      </tr>
       <tr>
       <td role="rowheader"><strong>[!UICONTROL Estimation]</strong></td>
@@ -137,6 +139,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr>
     </tbody> 
    </table>
+
+   <span class="preview">Utilizza il pannello di navigazione a sinistra per spostarsi tra gruppi di campi nei dettagli della scheda.</span>
+
+   >[!NOTE]
+   >
+   >Il pannello di navigazione a sinistra e la possibilità di aggiungere collegamenti selezionabili nel campo Descrizione sono disponibili solo tramite la funzionalità opt-in iniziale per le schede Workfront.
 
 1. Fai clic su **[!UICONTROL Chiudi]** per tornare al consiglio di amministrazione.
 L&#39;oggetto connesso, gli assegnatari, i tag, la data di scadenza, il contatore delle checklist, le ore stimate e lo stato vengono visualizzati sulla scheda.
