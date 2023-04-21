@@ -8,14 +8,13 @@ navigation-topic: apps-and-their-modules
 title: Moduli aerei
 description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion oltre a una licenza Adobe Workfront.
 author: Becky
-hidefromtoc: true
-source-git-commit: 6955c979d504adb6514ae64bf5108174d7a90ce4
+exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
+source-git-commit: 9460e14a66653eaf1856cdf5c1ab3213859f354a
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # Moduli aerei
 
@@ -438,7 +437,7 @@ L’URL del webhook deve essere generato in Workfront Fusion e quindi aggiunto a
 
 1. Accedi al tuo account Airtable.
 1. Aprire la base e la tabella che si desidera utilizzare per il modulo e creare una visualizzazione Modulo.
-1. Impostare il modulo come necessario, scorrere il modulo verso il basso e abilitare l’opzione Reindirizza a URL dopo l’invio del modulo.
+1. Impostare il modulo come necessario, scorrere il modulo verso il basso e abilitare l’opzione Reindirizza all’URL dopo l’invio del modulo.
 1. Inserisci l&#39;URL Webhook generato al passaggio 2 nella finestra di dialogo visualizzata e aggiungi la ?record_id={record_id} subito dopo l&#39;URL del webhook per includere l&#39;ID record nell&#39;output del modulo, quindi fai clic su Salva. L’URL risultante, ad esempio, sarà simile al seguente:
 1. Torna al tuo scenario Workfront Fusion ed esegui il modulo Watch Responses solo per caricare i campi da Airtable e per essere in grado di mappare tali campi negli altri moduli.
 1. Invia il modulo in Airtable dove l’opzione Reindirizza all’URL dopo l’invio del modulo è abilitata e viene aggiunto l’URL Webhook (passaggio 6 sopra).
