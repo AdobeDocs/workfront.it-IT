@@ -3,19 +3,20 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Accesso a oggetti e aree per tipo di licenza
+title: Accesso a oggetti e aree per nuove licenze
 description: La tabella seguente indica il livello di accesso più alto (Modifica o Visualizza) consentito da ciascuna licenza Adobe Workfront per gli oggetti e le aree in Workfront.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 0e690cf9cd6351ee89e32b8f1625e8493aa0ad4b
+exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 17%
 
 ---
 
-# Accesso a oggetti e aree per tipo di licenza
+# Accesso a oggetti e aree per nuove licenze
 
 La tabella seguente indica il livello di accesso più alto (Modifica o Visualizza) consentito da ciascuna licenza Adobe Workfront per gli oggetti e le aree in Workfront.
 

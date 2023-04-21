@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 4a7999e6cb46d5b6933f44f1f19ff1979cb68a85
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1402'
 ht-degree: 6%
 
 ---
@@ -21,8 +21,8 @@ ht-degree: 6%
 
 In qualità di amministratore di Adobe Workfront, puoi creare livelli di accesso personalizzati e applicarli agli utenti. Quando si lavora con i livelli di accesso, è importante comprendere come funzionano insieme alle autorizzazioni per gli oggetti concesse dagli utenti quando condividono gli oggetti tra loro. Per ulteriori informazioni sui livelli di accesso, consulta
 
-* [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Panoramica dei livelli di accesso legacy](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Panoramica dei nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Panoramica dei livelli di accesso](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Tipo di licenza</td> 
-      <td>Assicurati che la licenza selezionata qui sia quella più strettamente associata al tipo di livello di accesso che stai creando o modificando. La licenza selezionata determina le impostazioni disponibili per il livello di accesso. Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Panoramica sulle licenze legacy</a> o <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze legacy di Adobe Workfront</a>.</td> 
+      <td>Assicurati che la licenza selezionata qui sia quella più strettamente associata al tipo di livello di accesso che stai creando o modificando. La licenza selezionata determina le impostazioni disponibili per il livello di accesso. Per ulteriori informazioni, consulta <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Panoramica sulle nuove licenze</a> o <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Panoramica sulle licenze</a>.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -139,7 +139,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td role="rowheader">Schede orario e ore</td> 
       <td> <p>Gli amministratori dei gruppi possono assegnare profili della scheda attività agli utenti dei gruppi e dei sottogruppi gestiti.</p> <p>Senza questa opzione abilitata, gli amministratori dei gruppi non possono assegnare profili della scheda attività ad altri utenti nei gruppi e sottogruppi gestiti, anche se possono crearli.</p> <p>Tutti gli altri utenti con una licenza Standard o Plan possono visualizzare tutte le ore e i fogli ore in Workfront.</p> <p>Senza questa opzione abilitata, gli utenti possono visualizzare le ore solo nei seguenti casi:</p> 
        <ul> 
-        <li>Progetti, attività o problemi che gestiscono</li> 
+        <li>Progetti, attività o problemi da gestire</li> 
         <li>Scheda attività propria</li> 
         <li>Scheda attività di un utente che effettua un report</li> 
         <li>Scheda attività approvata</li> 

@@ -4,19 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: accesso, modello, funnel, diagramma, livelli, autorizzazioni
 navigation-topic: access-levels
-title: Funzionalità disponibile per ciascun tipo di oggetto
+title: Funzionalità disponibile per ogni tipo di oggetto per nuovi livelli di accesso
 description: Nella tabella seguente sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 14652fb34dbd9f830dd7a5ee397b2583869e02f9
+exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1250'
 ht-degree: 12%
 
 ---
 
-# Funzionalità disponibile per ogni tipo di oggetto per vari livelli di accesso
+# Funzionalità disponibile per ogni tipo di oggetto per nuovi livelli di accesso
 
 Nella tabella seguente sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
 

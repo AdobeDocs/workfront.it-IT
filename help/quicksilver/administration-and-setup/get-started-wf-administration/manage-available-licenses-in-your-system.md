@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: a39720a4529dcd974483f7730b6feb4d6cd6f994
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Per visualizzare le informazioni sulla licenza nel sistema:
 
 1. Nella parte inferiore del pannello di sinistra, fai clic su **Sistema** > **Licenze**.
 
-   Per ulteriori informazioni sulle licenze elencate in questa pagina, consulta [Panoramica sulle licenze legacy](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Per ulteriori informazioni sulle licenze elencate in questa pagina, consulta [Panoramica sulle licenze](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
@@ -91,11 +91,11 @@ If an organization has other paid add-on products, their license information als
 
 ## Visualizza informazioni sulle assegnazioni di documenti e prove mensili
 
-Le decisioni relative a prove e documenti sono limitate per tutte le licenze Workfront non pagate. I limiti vengono reimpostati mensilmente per utente.
-
 >[!IMPORTANT]
 >
->I limiti di bozza e decisione del documento non si applicano agli utenti su [licenze Workfront legacy e livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>I limiti delle decisioni in merito a prove e documenti si applicano solo agli utenti delle nuove licenze. Per ulteriori informazioni, consulta [Panoramica sulle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+Le decisioni relative a prove e documenti sono limitate per tutte le licenze Workfront non pagate. I limiti vengono reimpostati mensilmente per utente.
 
 I limiti di decisione per ogni licenza variano a seconda del piano in uso. Puoi visualizzare l’assegnazione mensile in Configurazione > Licenze.
 

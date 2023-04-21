@@ -1,5 +1,5 @@
 ---
-title: Panoramica sulle licenze legacy
+title: Panoramica sulle licenze
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,26 +10,26 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 6a62398de46f23701ee663b9effd074ae6b2dd35
+source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '347'
 ht-degree: 2%
 
 ---
 
-# Panoramica sulle licenze legacy
+# Panoramica sulle licenze
 
-La tua organizzazione ha acquistato un certo numero di licenze legacy al momento dell’acquisizione di Adobe Workfront. In qualità di amministratore di Workfront, quando assegni all’utente un livello di accesso, puoi assegnare a ciascun utente una delle 4 licenze legacy a pagamento di Workfront.
+La tua organizzazione ha acquistato un certo numero di licenze al momento dell’acquisto di Adobe Workfront. In qualità di amministratore di Workfront, quando assegni all’utente un livello di accesso, assegni a ciascun utente uno dei 4 tipi di licenze Workfront a pagamento.
 
-## Mappatura tra licenze legacy e livelli di accesso legacy
+## Meccanismo di associazione delle licenze e dei livelli di accesso
 
-I 4 tipi di licenze Workfront legacy a pagamento consentono diversi livelli di accesso a Workfront. Ogni livello di accesso legacy è associato a una di queste licenze legacy.
+I 4 tipi di licenze Workfront a pagamento consentono diversi livelli di accesso a Workfront. Ogni livello di accesso è associato a una di queste licenze.
 
-In qualità di amministratore di Workfront, invece di assegnare una licenza legacy a un utente, assegni loro il livello di accesso legacy associato a tale licenza legacy.
+In qualità di amministratore di Workfront, invece di assegnare una licenza a un utente, gli assegni il livello di accesso associato a tale licenza.
 
 La tabella e il diagramma mostrano i principali livelli di accesso a Workfront:
 
-| Licenza legacy | Livello di accesso legacy associato |
+| Licenza | Livello di accesso associato |
 |--- |--- |
 | Piano | Amministratore di sistema, planner |
 | Lavoro | Collaboratore |

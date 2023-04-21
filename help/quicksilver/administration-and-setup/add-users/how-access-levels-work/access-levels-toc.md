@@ -1,26 +1,27 @@
 ---
-title: Funzionamento dei livelli di accesso
+title: Come funzionano i nuovi livelli di accesso
 content-type: administrator
 product-area: system-administration
 navigation-topic: add-users-to-workfront
-description: In qualità di amministratore di Adobe Workfront, è possibile concedere agli utenti l’accesso per visualizzare o modificare gli oggetti assegnando loro un livello di accesso. Gli articoli seguenti spiegano come funzionano i livelli di accesso.
+description: In qualità di amministratore di Adobe Workfront, è possibile concedere agli utenti l’accesso per visualizzare o modificare gli oggetti assegnando loro un livello di accesso. Gli articoli seguenti spiegano come funzionano i nuovi livelli di accesso.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1bd454246419e199e5cfd0d8d1d73cd30c0b13b1
+exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
 
-# Funzionamento dei livelli di accesso
+# Come funzionano i nuovi livelli di accesso
 
-In qualità di amministratore di Adobe Workfront, è possibile concedere agli utenti l’accesso per visualizzare o modificare gli oggetti assegnando loro un livello di accesso. Gli articoli seguenti spiegano come funzionano i livelli di accesso.
+In qualità di amministratore di Adobe Workfront, è possibile concedere agli utenti l’accesso per visualizzare o modificare gli oggetti assegnando loro un livello di accesso. Gli articoli seguenti spiegano come funzionano i nuovi livelli di accesso.
 
-* [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Panoramica sulle licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-* [Accesso a oggetti e aree per tipo di licenza](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+* [Panoramica dei nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
+* [Panoramica sulle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
+* [Accesso a oggetti e aree per nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 * [Funzionalità disponibile per ciascun tipo di oggetto](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) <!--need to change name here or in legacy article -->
 
 ## Vedi anche

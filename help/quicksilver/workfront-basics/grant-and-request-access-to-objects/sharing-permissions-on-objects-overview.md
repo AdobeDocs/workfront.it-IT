@@ -6,7 +6,7 @@ description: È possibile condividere o rimuovere le autorizzazioni per un ogget
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e3211ac5801c1318978427bc0a48d9b3a3028984
+source-git-commit: 4644edd2aac8c77508e940ec42c597aa702c4df1
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Non è necessario essere un amministratore di Adobe Workfront per condividere le autorizzazioni sugli oggetti a cui si ha accesso, ma le autorizzazioni sugli oggetti funzionano entro i livelli di accesso impostati dall’amministratore di Workfront.
 
-È possibile condividere o rimuovere le autorizzazioni per un oggetto creato o condiviso con l&#39;utente. Se non sei l&#39;autore dell&#39;oggetto, devi disporre dell&#39;accesso Condividi sull&#39;oggetto che desideri condividere nel livello di accesso, oltre alle autorizzazioni Condividi sull&#39;oggetto. Per informazioni sui livelli di accesso, vedi [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) o [Panoramica dei livelli di accesso legacy](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+È possibile condividere o rimuovere le autorizzazioni per un oggetto creato o condiviso con l&#39;utente. Se non sei l&#39;autore dell&#39;oggetto, devi disporre dell&#39;accesso Condividi sull&#39;oggetto che desideri condividere nel livello di accesso, oltre alle autorizzazioni Condividi sull&#39;oggetto. Per informazioni sui livelli di accesso, vedi [Panoramica dei nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) o [Panoramica dei livelli di accesso](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 >[!NOTE]
 >

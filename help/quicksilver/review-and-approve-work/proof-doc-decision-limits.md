@@ -5,23 +5,19 @@ title: Panoramica su documenti e prove limitati per gli utenti non pagati 
 description: Le decisioni relative a prove e documenti sono limitate per tutte le licenze Workfront non pagate. I limiti vengono reimpostati mensilmente per utente.
 author: Courtney
 feature: Work Management
-source-git-commit: 4a91a00c8089eb3cf424aa10d4ae86219bd6413f
+exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
+source-git-commit: a1435e58328b592be749541f47af66c51331759c
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 6%
 
 ---
 
-
 # Panoramica su documenti e prove limitati per gli utenti non pagati
 
-Le decisioni relative a prove e documenti sono limitate per tutte le licenze Workfront non pagate. I limiti vengono reimpostati mensilmente per utente.
+Le decisioni sulle prove e sui documenti sono limitate per tutte le licenze Workfront non pagate sui nuovi piani. Per ulteriori informazioni, consulta [Panoramica sulle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
->[!IMPORTANT]
->
->I limiti di bozza e decisione del documento non si applicano agli utenti su [licenze Workfront legacy e livelli di accesso](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
-
-I limiti di decisione per ogni licenza variano a seconda del piano in uso:
+I limiti vengono reimpostati mensilmente per utente. I limiti di decisione per ogni licenza variano a seconda del piano in uso:
 
 <table>
   <tr>

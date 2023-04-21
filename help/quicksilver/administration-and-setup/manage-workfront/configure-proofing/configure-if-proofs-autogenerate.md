@@ -6,9 +6,9 @@ navigation-topic: configure-proofing-functionality
 title: Configura se le bozze vengono generate automaticamente
 description: Puoi configurare se il sistema genera automaticamente le bozze quando gli utenti specificano l’aggiunta di documenti a Workfront. Questa impostazione è disabilitata per impostazione predefinita.
 author: Courtney
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Devi disporre dei seguenti elementi:
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze legacy</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze</a>*</td> 
    <td>Piano</td> 
   </tr> 
   <tr> 
