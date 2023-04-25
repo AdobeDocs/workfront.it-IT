@@ -7,9 +7,9 @@ description: L’editor di scenari consente di creare e modificare scenari in un
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -158,3 +158,4 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
      <td>Fai clic su <strong>[!UICONTROL Esegui una volta)</strong> per verificare che lo scenario venga eseguito come previsto prima di attivarlo. Una volta attivato, lo scenario verrà eseguito in base alla sua pianificazione. Se tutto non funziona come previsto, puoi visitare la nostra sezione sulla gestione degli errori per scoprire come gestire gli errori.</td> 
    </tr> 
 </tbody>
+</table>
