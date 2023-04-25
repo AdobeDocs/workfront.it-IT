@@ -9,9 +9,9 @@ description: Puoi utilizzare il connettore Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 97f063a2e73c28a54cb1e1f99d66a8979ff3718c
 workflow-type: tm+mt
-source-wordcount: '5276'
+source-wordcount: '5288'
 ht-degree: 3%
 
 ---
@@ -424,7 +424,7 @@ Quando si configura questo modulo, vengono visualizzati i campi seguenti.
    <td> <p>Immettere un percorso relativo a<code> https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL API Version]</td> 
+   <td role="rowheader">[!UICONTROL Versione API]</td> 
    <td>Seleziona la versione del [!DNL Workfront] API che desideri utilizzare nel modulo.</td> 
   </tr> 
   <tr> 
@@ -771,7 +771,7 @@ Quando si configura questo modulo, vengono visualizzati i campi seguenti.
   </tr> 
   <tr> 
    <td>[!UICONTROL Criteri di ricerca]</td> 
-   <td> <p>Immettere il campo per il quale si desidera eseguire la ricerca, l'operatore da utilizzare nella query e il valore ricercato nel campo.</p> <p>Nota: Non utilizzare <code>username </code>nei criteri di ricerca. Incluso <code>username </code>in una query API a [!DNL Workfront] accede all’utente in Workfront e la ricerca non avrà esito positivo.</p> </td> 
+   <td> <p>Immettere il campo per il quale si desidera eseguire la ricerca, l'operatore da utilizzare nella query e il valore ricercato nel campo.</p> <p>Nota: Non utilizzare <code>username </code>nei criteri di ricerca. Incluso <code>username </code>in una query API a [!DNL Workfront] accede all’utente in Workfront e la ricerca non avrà esito positivo.</p> <p>Nota: <code>In</code> e <code>NotIn</code>con array. Gli input devono essere in formato array.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Uscite]</td> 
