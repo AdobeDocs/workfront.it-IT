@@ -7,7 +7,7 @@ description: L’editor di scenari consente di creare e modificare scenari in un
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 27db607fd0543b06a502032a9b6b0c88d4ecec41
+source-git-commit: c19e8c104ac1e93d67300637437d32b6f8534e99
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -61,12 +61,6 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
 
    Se si desidera modificare uno scenario esistente, fare clic sullo scenario.
 
-1. (Condizionale) Se stai creando un nuovo scenario, in **[!UICONTROL Quali servizi desideri integrare?]**, seleziona le app con cui desideri lavorare nello scenario, quindi fai clic su **[!UICONTROL Continua]**.
-
-   Oppure
-
-   Fai clic su **[!UICONTROL Salta]** se preferisci scegliere le app dall&#39;editor di scenari.
-
    Nell’editor dello scenario visualizzato, puoi eseguire tutte le operazioni elencate nella tabella seguente. Per ulteriori informazioni, consulta [Crea uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 1. Al termine della modifica di uno scenario (o in qualsiasi momento durante la modifica), fai clic sul pulsante [!UICONTROL Salva] icona. ![](assets/save-icon.gif)
@@ -76,6 +70,8 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
    >Dopo aver salvato lo scenario, sarà disponibile una nuova versione nel menu a tre punti nel caso sia necessario accedervi in futuro. Le versioni precedenti degli scenari salvati sono disponibili solo per 60 giorni.
 
 ## Azioni dell’editor di scenari disponibili
+
+Nell&#39;editor Scenario sono disponibili le seguenti azioni:
 
 <table style="table-layout:auto"> 
 <tbody>
