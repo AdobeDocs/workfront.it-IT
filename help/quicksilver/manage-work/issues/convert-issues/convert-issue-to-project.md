@@ -6,9 +6,9 @@ description: Convertire un problema in un progetto in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: e38411056b3f9be6d0241ee18e71984ef2a678a0
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -178,8 +178,8 @@ Puoi convertire un problema in un progetto vuoto o convertire un problema in un 
 
          >[!TIP]
          >
-         >* Se un modulo personalizzato con più oggetti allegato al problema è configurato per l’utilizzo sia con problemi che con progetti, tutte le informazioni salvate nel modulo vengono mantenute al momento della conversione.
-         >
+         >* Se un modulo personalizzato con più oggetti allegato al problema è configurato per l’utilizzo sia con problemi che con progetti, tutte le informazioni salvate nel modulo vengono mantenute quando si effettua la conversione, se i campi sono presenti sia sul problema che nei moduli personalizzati del progetto.
+         >* Se al problema e al progetto è associato un modulo personalizzato con più oggetti con un campo calcolato, il problema e il progetto devono essere compatibili con tutti i campi a cui si fa riferimento nei campi personalizzati calcolati del modulo. In caso di incompatibilità, un messaggio ti avvisa di apportare modifiche. Per ulteriori informazioni, consultare la sezione &quot;Campi personalizzati calcolati nei moduli personalizzati con più oggetti&quot; nella sezione [Aggiungere dati calcolati a un modulo personalizzato con il modulo precedente](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
          >* Se utilizzi un modello per la conversione e un modulo personalizzato allegato al modello contiene un campo personalizzato anch’esso presente in un modulo personalizzato allegato al problema, per il nuovo progetto viene utilizzato il valore del campo relativo al problema. Tuttavia, se il campo personalizzato è vuoto nel problema, viene utilizzato il valore del modello.
 
    1. Fai clic su [!UICONTROL **Converti in progetto**].

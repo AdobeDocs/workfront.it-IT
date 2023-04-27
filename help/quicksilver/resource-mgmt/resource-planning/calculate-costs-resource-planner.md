@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Calcolare i costi nel planner risorse
-description: '''(Alina: ***Collegato alla pianificazione nell''articolo Planner risorse, Informazioni sulle aree del planner risorse. - non spostare/modificare/eliminare.)"'
-author: Alina
+description: È possibile eseguire il budget delle risorse in Adobe Workfront Resource Planner utilizzando i valori Cost anziché i valori Hours o FTE. I valori dei costi non sono disponibili per la visualizzazione**Visualizza per utente** nel planner risorse.
+author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '1373'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
 -->
+
+<!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
 È possibile eseguire il budget delle risorse in Adobe Workfront Resource Planner utilizzando i valori Cost anziché i valori Hours o FTE. I valori di costo non sono disponibili per il **Visualizza per utente** nel planner risorse.
 
@@ -70,7 +72,7 @@ Per visualizzare le informazioni disponibili, pianificate e a budget in base al 
 1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront.
 
 1. Fai clic su **Risorsa**.
-1. Vai a .
+1. Vai al Planner risorse.
 1. (Condizionale) Seleziona **Visualizza per progetto** o **Visualizza per ruolo**.\
    Per impostazione predefinita **Visualizza per progetto** è selezionato.\
    Le informazioni sull’allocazione e sulla disponibilità vengono visualizzate in ore.

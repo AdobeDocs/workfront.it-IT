@@ -7,9 +7,9 @@ description: L’ambiente Anteprima viene aggiornato una volta alla settimana co
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: c7994ea14dd51c9a78e3bb5b5ec7bb5d7e21f4cd
+source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -65,6 +65,12 @@ Di seguito sono riportati i tipi di programmi beta disponibili da Workfront:
    * Le informazioni su quando le funzioni vengono rilasciate in una versione beta pubblica sono incluse nelle pagine di rilascio del prodotto.
 
 Per informazioni sulle note sulla versione del prodotto, consulta [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md).
+
+## Altre versioni
+
+A volte, Workfront potrebbe rilasciare funzionalità che potrebbero non essere documentate nelle note sulla versione, negli aggiornamenti di manutenzione o in uno degli articoli della documentazione effettiva. Questo accade nel tentativo di testare le nuove funzioni prima di renderle permanenti. Di solito, questi test vengono rilasciati a un numero limitato di clienti, ma potrebbe esserci un momento in cui potrebbero essere rilasciati a tutti.
+
+Se riscontri qualcosa nel sistema che non corrisponde alla documentazione, ti chiediamo di contattare il nostro team di assistenza clienti. Per ulteriori informazioni, consulta [Contatta l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Note sulla versione
 

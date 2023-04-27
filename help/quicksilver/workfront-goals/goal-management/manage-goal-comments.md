@@ -6,9 +6,9 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '874'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ Viene aperto l’elenco degli obiettivi.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. (Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.
-1. Modifica le informazioni nel commento o rimuovi uno degli utenti con tag.
+1. Modifica le informazioni nel commento, aggiungi o rimuovi immagini o rimuovi uno degli utenti con tag.
 È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
