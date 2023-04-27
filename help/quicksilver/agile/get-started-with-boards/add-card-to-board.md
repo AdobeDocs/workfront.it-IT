@@ -6,9 +6,9 @@ description: Potete aggiungere rapidamente una scheda ad hoc a una bacheca e ass
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -96,17 +96,9 @@ Una scheda ad hoc non è connessa a un elemento di lavoro in [!DNL Adobe Workfro
     </tbody> 
    </table>
 
-   Immagine dei dettagli della scheda di esempio nell’ambiente di produzione senza l’abilitazione dell’accesso anticipato alle funzioni:
-   ![Dettagli delle schede ad hoc](assets/boards-edit-ad-hoc-card-071822.png)
-
-   Immagine dei dettagli della scheda di esempio nell’ambiente di produzione con accesso alle funzioni anticipato abilitato:
    ![Dettagli delle schede ad hoc](assets/boards-edit-ad-hoc-card-041723.png)
 
    Utilizza il pannello di navigazione a sinistra per spostarsi tra gruppi di campi nei dettagli della scheda.
-
-   >[!NOTE]
-   >
-   >Il pannello di navigazione a sinistra e la possibilità di aggiungere collegamenti selezionabili nel campo Descrizione sono disponibili solo tramite la funzionalità opt-in iniziale per le schede Workfront.
 
 1. Fai clic su **[!UICONTROL Chiudi]** per aggiungere la scheda alla bacheca.
 

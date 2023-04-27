@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Anteprima versione: 27 aprile 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>Versione di produzione per consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
-                                <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p></span></p>
+                                <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -75,9 +74,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Anteprima versione: 20 aprile 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>Versione di produzione per consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
-                                <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p></span></p>
+                                <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -93,9 +91,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Anteprima versione: 20 aprile 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
                                  <p>Versione di produzione per consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
-                                <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p></span></p>
+                                <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p>
                             </li>
                         </ul>
                     </td>
@@ -111,9 +108,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Anteprima versione: 20 aprile 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
-                                 <p>Versione di produzione per consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
-                                <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p></span></p>
+                                <p><span class="preview">Versione di produzione per tutti i clienti: 27 aprile 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -129,9 +124,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Anteprima versione: 13 aprile 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">
-                                 <p>Versione di produzione per consenso anticipato: 13 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
-                                <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p></span></p>
+                                 <p>Versione di produzione per consenso anticipato: 13 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</p>
+                                <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p>
                             </li>
                         </ul>
                     </td>

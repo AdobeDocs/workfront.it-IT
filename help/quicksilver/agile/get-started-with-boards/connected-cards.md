@@ -6,9 +6,9 @@ description: Potete aggiungere una scheda sulla bacheca connessa alle attività 
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 7d671fe66c6a23efad2e8f8f0fa3d2b7b1afcc86
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -139,10 +139,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </table>
 
    Utilizza il pannello di navigazione a sinistra per spostarsi tra gruppi di campi nei dettagli della scheda.
-
-   >[!NOTE]
-   >
-   >Il pannello di navigazione a sinistra e la possibilità di aggiungere collegamenti selezionabili nel campo Descrizione sono disponibili solo tramite la funzionalità opt-in iniziale per le schede Workfront.
 
 1. Fai clic su **[!UICONTROL Chiudi]** per tornare al consiglio di amministrazione.
 L&#39;oggetto connesso, gli assegnatari, i tag, la data di scadenza, il contatore delle checklist, le ore stimate e lo stato vengono visualizzati sulla scheda.
