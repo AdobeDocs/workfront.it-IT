@@ -6,16 +6,14 @@ description: Da [!UICONTROL bacheche] Potete creare una nuova bacheca o modifica
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 966a88b8c7761b257a1ad0b2fdb3400f78c5d4f7
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '699'
 ht-degree: 3%
 
 ---
 
 # Creare o modificare una bacheca
-
-{{highlighted-preview}}
 
 Da [!UICONTROL bacheche] Potete creare una nuova bacheca o modificarne una esistente.
 
@@ -54,29 +52,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    | Bacheca base | Sulla bacheca sono fornite tre colonne predefinite. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Sulla bacheca sono fornite tre colonne predefinite. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. |
    | Bacheca Kanban | Nella bacheca sono disponibili le colonne seguenti: Backlog, Nuovo, In corso, Completo e Bloccato. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite.<p>Per utilizzare il backlog, è necessario impostare i filtri per la colonna di assunzione. Per informazioni, consulta [Aggiungere una colonna di assunzione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Per esaminare i criteri predefiniti per ciascuna colonna, fai clic sul pulsante [!UICONTROL **Altro** menu] su una colonna e seleziona [!UICONTROL **Modifica**]. È possibile modificare uno qualsiasi di questi criteri predefiniti. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Bacheca retrospettiva | Nella bacheca sono disponibili le colonne seguenti: Cos&#39;è andato bene? Cosa migliorare? Con chi congratularsi? Come velocizzare? È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. <p>Non vengono applicati criteri di colonna. |
-   | <span class="preview">Bacheca dinamica</span> | <span class="preview">Nella bacheca sono disponibili le colonne seguenti: Non selezionato, Nuovo, In corso, Bloccato e Completato. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. La colonna Non selezionata può essere rinominata ma non eliminata. Questa colonna contiene tutte le schede con uno stato che non corrisponde a nessuno degli altri stati della colonna.) <p>I criteri colonna predefiniti assegnano le schede alle colonne in base al loro stato. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).</span> |
+   | Bacheca dinamica | Nella bacheca sono disponibili le colonne seguenti: Non selezionato, Nuovo, In corso, Bloccato e Completato. È possibile aggiungere nuove colonne e rinominare o eliminare le colonne predefinite. La colonna Non selezionata può essere rinominata ma non eliminata. Questa colonna contiene tutte le schede con uno stato che non corrisponde a nessuno degli altri stati della colonna.) <p>I criteri colonna predefiniti assegnano le schede alle colonne in base al loro stato. Per informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). <p>**NOTA:** La scheda dinamica è disponibile solo tramite la funzionalità opt-in per le schede Workfront. |
 
-1. <span class="preview">Solo per una bacheca dinamica, seguite i passaggi della procedura guidata di configurazione:</span>
+1. Solo per una bacheca dinamica, seguite i passaggi della procedura guidata di configurazione:
 
-   <div class="preview">
+   1. Cerca e seleziona [!DNL Workfront] [!UICONTROL **Progetti**] per inserire compiti e problemi nel consiglio di amministrazione.
+   1. Cerca e seleziona [!UICONTROL **Assegnazioni**] per inserire compiti e problemi nel consiglio di amministrazione.
 
-   1. Digitate un nome per la bacheca e fate clic su [!UICONTROL **Successivo**].
-   1. Fai clic su [!UICONTROL **Aggiungi origine**].
-   1. Fai clic su [!UICONTROL **Origini del filtro**] e seleziona [!UICONTROL **Attività**] o [!UICONTROL **Problemi**].
+      Tutti gli oggetti vengono visualizzati sulla bacheca come schede collegate.
 
-      >[!NOTE]
-      >
-      >Potete filtrare la bacheca in modo da includere attività e problemi, ma dovete impostare i filtri separatamente per ogni tipo di oggetto.
-      >
-      >Sono inoltre disponibili filtri salvati e filtri predefiniti di sistema da selezionare.
+      La [!UICONTROL **Schede aggiunte**] Il contatore indica quante schede saranno presenti sulla bacheca. Ad esempio, se selezioni un progetto con 100 attività e problemi, il contatore ne mostra 100. Se si aggiunge un&#39;assegnazione utente e tale persona viene assegnata a 5 attività del progetto, il contatore mostra 5.
 
-   1. Create un filtro per definire gli oggetti da inserire nella bacheca come schede collegate.
+   1. (Facoltativo) Fai clic su [!UICONTROL **Utilizzare filtri avanzati**] per visualizzare opzioni di filtro aggiuntive.
 
       È lo stesso processo di creazione di un filtro su una colonna di assunzione. Per ulteriori informazioni, consulta [Aggiungere una colonna di assunzione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
    1. Dopo aver aggiunto i filtri, fai clic su [!UICONTROL **Crea bacheca**].
-
-   </div>
 
 1. Digitate un nome per la bacheca nella **[!UICONTROL Scheda]** e premere Invio.
 1. Configura la bacheca in base alle esigenze.

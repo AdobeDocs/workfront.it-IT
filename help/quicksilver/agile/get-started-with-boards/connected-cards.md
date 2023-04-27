@@ -6,7 +6,7 @@ description: Potete aggiungere una scheda sulla bacheca connessa alle attività 
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 07942865a25153fe50ff627291bb21e1508dddc5
+source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Utilizzare schede collegate sulle bacheche
-
-{{highlighted-preview}}
 
 Potete aggiungere una scheda sulla bacheca connessa alle attività e ai problemi esistenti in [!DNL Workfront].
 
@@ -102,7 +100,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Descrizione]</strong></td> 
-      <td>La modifica della descrizione cambia anche la descrizione sulla connessione [!DNL Workfront] oggetto. <span class="preview">Nella descrizione puoi aggiungere URL che diventeranno collegamenti cliccabili al momento del salvataggio della scheda.</span></td> 
+      <td>La modifica della descrizione cambia anche la descrizione sulla connessione [!DNL Workfront] oggetto. Nella descrizione puoi aggiungere URL che diventeranno collegamenti cliccabili al momento del salvataggio della scheda.</td> 
      </tr> 
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Assignees]</strong></td>
@@ -140,7 +138,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tbody> 
    </table>
 
-   <span class="preview">Utilizza il pannello di navigazione a sinistra per spostarsi tra gruppi di campi nei dettagli della scheda.</span>
+   Utilizza il pannello di navigazione a sinistra per spostarsi tra gruppi di campi nei dettagli della scheda.
 
    >[!NOTE]
    >
