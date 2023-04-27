@@ -6,7 +6,7 @@ description: Puoi caricare le tue tavole da disegno come bozze direttamente in A
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4a7fb18674b399b138fd981907f3a9da8e0bb30e
+source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 1%
@@ -99,6 +99,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Facoltativo) Digita un commento nella sezione **[!UICONTROL Aggiornamenti]** area.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -173,6 +175,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tbody> 
    </table>
 
+{{adjust-proof-settings}}
+
 1. (Facoltativo) Digita un commento nella sezione **[!UICONTROL Aggiornamenti]** area.
 
    ![](assets/proof-approvals-xd-350x396.png)
@@ -229,6 +233,8 @@ Puoi caricare una nuova versione di una bozza. Il plug-in ricorda il flusso di l
      </tr> 
     </tbody> 
    </table>
+
+{{adjust-proof-settings}}
 
 1. Scegli il formato di esportazione dal **[!UICONTROL Tipo di risorsa]** menu a discesa.
 

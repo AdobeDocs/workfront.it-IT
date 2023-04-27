@@ -6,9 +6,9 @@ description: Puoi caricare le tue tavole da disegno come bozze direttamente in A
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
+source-git-commit: 698affafa8771e9e91b725908d4782a2af12c0b8
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -66,22 +66,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic sul pulsante **[!UICONTROL Documento]** icona ![](assets/documents.png) nella barra di navigazione.
 1. Fai clic su **[!UICONTROL Nuovo file]** vicino al fondo del plugin.
 1. Abilita la **[!UICONTROL Creare una bozza]** alternare.
-1. Scegli la **[!UICONTROL Tipo di risorsa]** dal menu a discesa.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. (Facoltativo) Digita un nome per la bozza nella **[!UICONTROL Nome della bozza]** casella di testo.
 1. In **[!UICONTROL Approvazioni di prova]** sezione , seleziona **[!UICONTROL Base]**.
 1. (Facoltativo) Aggiungi approvatori.
 1. (Facoltativo) Digita un commento nella sezione **[!UICONTROL Aggiornamenti]** area.
 
-   ![](assets/plugin-proof-approvals-350x450.png)
+   ![](assets/add-comment.png)
 
-1. (Facoltativo) Digita un nome per la bozza in**[!UICONTROL Nome della bozza]** casella di testo.
+1. Scegli la **[!UICONTROL Tipo di risorsa]** dal menu a discesa.
+
 1. (Facoltativo) Seleziona **[!UICONTROL Aggiungi file esterno]** per aggiungere un file dal computer.
-1. Fai clic su **[!UICONTROL Carica]**.
+1. Fai clic su **[!UICONTROL Carica]**, quindi configura le opzioni di esportazione desiderate in base al tipo di risorsa scelto in precedenza.
 
    ![](assets/plugin-files-350x307.png)\
    Il documento viene visualizzato nel [!UICONTROL Documenti] nell’area del plug-in e nell’app desktop.
+
 
 ## Caricare una bozza automatica
 
@@ -93,25 +92,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic sul pulsante **[!UICONTROL Documento]** icona ![](assets/documents.png) nella barra di navigazione.
 
 1. Fai clic su **[!UICONTROL Nuovo file]** vicino al fondo del plugin.
-1. Abilita la **[!UICONTROL Creare una bozza]** seleziona , quindi **[!UICONTROL Tipo di risorsa]** dal menu a discesa.
-
-   ![](assets/plugin-create-proof-350x182.png)
-
+1. Abilita la **[!UICONTROL Creare una bozza]** alternare.
+1. (Facoltativo) Digita un nome per la bozza nella **[!UICONTROL Nome della bozza]** casella di testo.
 1. In **[!UICONTROL Approvazioni di prova]** sezione , seleziona **[!UICONTROL Automatico]**.
 1. (Facoltativo) In **[!UICONTROL Modello di flusso di lavoro]** digitare il nome di un modello di flusso di lavoro della bozza.
 
-<!-- {{adjust-proof-settings}} -->
+{{adjust-proof-settings}}
+
+>[!NOTE]
+>
+> Se nel modello di flusso di lavoro sono presenti campi obbligatori vuoti, le impostazioni di bozza automatizzata si aprono automaticamente e devi compilare tali campi per caricare la bozza.
+
 
 1. (Facoltativo) Digita un commento nella sezione **[!UICONTROL Aggiornamenti]** area.
 
-   ![](assets/copy-of-proof-approvals-advanced-350x424.png) <!--new screenshot -->
+   ![](assets/add-comment-automated-approval.png)
 
-1. (Facoltativo) Digita un nome per la bozza nella **[!UICONTROL Nome della bozza]** casella di testo.
+1. Scegli la **[!UICONTROL Tipo di risorsa]** dal menu a discesa.
 1. (Facoltativo) Seleziona **[!UICONTROL Aggiungi file esterno]** per aggiungere un file dal computer.
-1. Fai clic su **[!UICONTROL Carica]**.
-
-   ![](assets/plugin-files-350x307.png)\
-   Il documento viene visualizzato nel [!UICONTROL Documenti] nell’area del plug-in e nell’app desktop.
+1. Fai clic su **[!UICONTROL Carica]**, quindi configura le opzioni di esportazione desiderate in base al tipo di risorsa scelto in precedenza.
+Il documento viene visualizzato nel [!UICONTROL Documenti] nell’area del plug-in e nell’app desktop.
 
 ## Carica una nuova versione di prova
 
@@ -124,16 +124,14 @@ Puoi caricare una nuova versione di una bozza. Il plug-in ricorda il flusso di l
 1. Vai all&#39;elemento di lavoro in cui devi caricare un documento.
 1. Fai clic sul pulsante **[!UICONTROL Documento]** icona ![](assets/documents.png)nella barra di navigazione.
 
-1. Fai clic su **[!UICONTROL Nuova versione]** vicino al fondo del plugin..
-1. Scegli la **[!UICONTROL Tipo di risorsa]** dal menu a discesa.
-1. Abilita la **[!UICONTROL Creare una bozza]** seleziona , quindi **[!UICONTROL Tipo di risorsa]** dal menu a discesa.
+1. Fai clic su **[!UICONTROL Nuova versione]** vicino al fondo del plugin.
+1. Abilita la **[!UICONTROL Creare una bozza]** alternare.
 
-   ![](assets/plugin-create-proof-350x182.png)
-
-1. In **[!UICONTROL Prove di omologazione]** sezione, scegli **[!UICONTROL Base]** o **[!UICONTROL Automatico]**.
+1. In *[!UICONTROL *Omologazioni di prova]** sezione, scegli **[!UICONTROL Base]** o **[!UICONTROL Automatico]**.
 
 1. Aggiungi **[!UICONTROL Revisori]** o **[!UICONTROL Modello di flusso di lavoro]** in base al tipo di approvazione selezionato al punto 7.
 
 1. (Facoltativo) Digita un commento nella sezione **[!UICONTROL Aggiornamenti]** area.
-1. Fai clic su **[!UICONTROL Carica]**.\
-   Il documento viene visualizzato nel [!UICONTROL Documenti] nell’area del plug-in e nell’app desktop.
+1. Scegli la **[!UICONTROL Tipo di risorsa]** dal menu a discesa.
+1. Fai clic su **[!UICONTROL Carica]**, quindi configura le opzioni di esportazione desiderate in base al tipo di risorsa scelto in precedenza.
+Il documento viene visualizzato nel [!UICONTROL Documenti] nell’area del plug-in e nell’app desktop.
