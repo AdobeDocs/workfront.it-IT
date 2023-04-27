@@ -7,9 +7,9 @@ description: In Adobe Workfront puoi tenere traccia dei costi per progetti, atti
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
+source-git-commit: 7e78ca8c8ea7f037b55b06e7452ac5c562b99eca
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2418'
 ht-degree: 1%
 
 ---
@@ -158,12 +158,18 @@ $100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expen
 
 >[!NOTE]
 >
+>Il costo effettivo del progetto viene calcolato come segue:
+>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>
+>Questi costi non vengono duplicati nel calcolo del costo effettivo. Ad esempio, se un costo fisso fa parte del costo effettivo del progetto, non viene aggiunto separatamente al costo effettivo.
+
+>[!NOTE]
+>
 >Quando si registra il tempo in un progetto, quando si calcola il costo effettivo del lavoro per il progetto sono disponibili i seguenti scenari:
 >
 >* Per impostazione predefinita, Workfront utilizza il tasso di costo per ora dell’utente per calcolare il costo effettivo del lavoro.
 >* Se l’utente che registra il tempo non è associato ad alcun costo, Workfront utilizza il tasso di costo per ora del ruolo principale dell’utente.
 >* Se l’amministratore di Workfront ha abilitato la **Assegnare manualmente i ruoli del processo alle voci orarie** nell’area Preferenze fogli orari e ore e il tempo di registrazione dell’utente sul progetto seleziona un ruolo diverso da associare a questo momento, il costo effettivo del progetto viene calcolato in base al ruolo specificato al momento della registrazione delle ore. Per informazioni sull’abilitazione del tempo di registrazione per un ruolo di lavoro specifico, consulta l’articolo [Configurare le preferenze relative a schede attività e ora](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
->
 
 
 ### Modalità di calcolo dei tipi di costo per le attività in Workfront {#how-workfront-calculates-cost-types-for-tasks}
