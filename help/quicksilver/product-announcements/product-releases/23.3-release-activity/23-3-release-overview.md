@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 2c38c21770b7531293f76cdb24699c0bf76fed57
+source-git-commit: 8e7adb5aefd58c52f30a81e7ec4916701de808b3
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Miglioramenti di Adobe Workfront
 
 * [Miglioramenti di Agile](#agile-enhancements)
+* [Miglioramenti all’integrazione](#integration-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti di Agile
@@ -45,9 +46,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Filtri semplici aggiunti al modello di bacheca dinamica</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <p>I filtri nel modello di bacheca dinamica sono stati semplificati per consentire di creare una bacheca più rapidamente.</p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 27 aprile 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">
+                                 <p>Versione di produzione per consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
+                                <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p></span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Modello a bacheca dinamica</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Modello a bacheca dinamica</a></p>
                         <p>Per le schede indipendenti è ora disponibile un nuovo modello, la scheda dinamica. Questo modello non è disponibile per le bacheche all'interno di un flusso di lavoro.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -57,7 +76,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Versione di produzione per consenso anticipato: 27 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
+                                 <p>Versione di produzione per consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
                                 <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p></span></p>
                             </li>
                         </ul>
@@ -65,7 +84,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrare schede Kanban del team agile alle bacheche</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Migrare schede Kanban del team agile alle bacheche</a></p>
                         <p>Nuovo <b>Aggiungi alle bacheche</b> pulsante su schede Kanban del team agile consente di aggiungere tutte le schede dalla bacheca Kanban a una bacheca Workfront. Potete scegliere di creare una nuova bacheca Workfront o di aggiungere le schede a una bacheca esistente.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -75,7 +94,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Versione di produzione per consenso anticipato: 27 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
+                                 <p>Versione di produzione per consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
                                 <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p></span></p>
                             </li>
                         </ul>
@@ -83,7 +102,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Navigazione a sinistra aggiunta ai dettagli della scheda sulle bacheche</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">Navigazione a sinistra aggiunta ai dettagli della scheda sulle bacheche</a></p>
                         <p>Man mano che più opzioni di campo vengono aggiunte alle schede nelle bacheche Workfront, i dettagli della scheda sono cresciuti più a lungo. Un nuovo pannello di navigazione a sinistra dei dettagli della scheda consente di selezionare una sezione e spostarsi automaticamente in quel gruppo di campi.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -93,7 +112,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                             </li>
                             <li>
                                 <p><span class="preview">
-                                 <p>Versione di produzione per consenso anticipato: 27 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
+                                 <p>Versione di produzione per consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p>
                                 <p>Versione di produzione per tutti i clienti: Con la versione 23.3</p></span></p>
                             </li>
                         </ul>
@@ -120,7 +139,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Miglioramenti all’integrazione
 
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzione</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Regolare le impostazioni del modello di flusso di lavoro a prova automatica utilizzando Adobe Workfront per Creative Cloud</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <p>È ora possibile modificare le impostazioni dei modelli di flusso di lavoro automatizzati esistenti direttamente nella Creative Cloud.</p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 27 aprile 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versione di produzione: 27 aprile 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 ### Altri miglioramenti
 
@@ -140,7 +192,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">I profili senza avatar ora visualizzano le iniziali utente</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">I profili senza avatar ora visualizzano le iniziali utente</a></p>
                         <p>Per facilitare la ricerca di utenti specifici all’interno di elenchi di grandi dimensioni, i profili privi di avatar personalizzati ora presentano le iniziali dell’utente su uno sfondo colorato negli elenchi e nei rapporti legacy. Si tratta di una modifica cosmetica minore e non si applica se una foto avatar è già in uso o se l’utente è disattivato.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -149,7 +201,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Anteprima versione: 20 aprile 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Versione di produzione: con la versione 23.3</span></p>
+                                <p><span class="preview">Versione di produzione: 4 maggio 2023</span></p>
                             </li>
                         </ul>
                     </td>
