@@ -6,7 +6,7 @@ description: Gestire le informazioni nell'area di finanziamento del progetto
 author: Alina
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 2%
@@ -189,22 +189,18 @@ Per modificare le informazioni nella sottoscheda Finanza progetto:
       <td>Specifica il budget per il progetto.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Costo Fisso</strong> </td> 
+      <td role="rowheader">Costo Fisso</td> 
       <td>Specifica il costo fisso per il progetto. Ciò non dovrebbe includere i costi di manodopera o di spesa.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Reddito Fisso</strong> </td> 
+      <td role="rowheader">Reddito Fisso</td> 
       <td> <p>Specifica i ricavi fissi del progetto. Ciò non dovrebbe includere i ricavi provenienti da qualsiasi record di fatturazione fatturati a partner o terze parti.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Valuta progetto</td> 
       <td> <p>Specificare una valuta per il progetto, se è diversa dalla valuta predefinita nel sistema. La valuta predefinita nel sistema è definita dall’amministratore Workfront. Per ulteriori informazioni sull'impostazione dei tassi di cambio in Workfront, consulta l'articolo <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Imposta i tassi di cambio</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. Fai clic su **Salva***modifiche**.
+1. Fai clic su **Salva modifiche**.

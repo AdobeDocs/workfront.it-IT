@@ -6,10 +6,10 @@ description: Il processo per la creazione e la gestione delle spese è lo stesso
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -52,10 +52,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Accedere al progetto in cui si desidera inserire le spese.\
    Se si desidera aggiungere le spese a un&#39;attività, passare invece a un&#39;attività. 
-1. Fai clic su **Mostra**** Altro**, quindi fai clic su **Spese.**
-1. Fai clic su **Aggiungi una spesa.**
-il 
-**Aggiungi una spesa** viene visualizzata la finestra di dialogo.
+1. Fai clic su **Mostra altro**, quindi fai clic su **Spese**.
+1. Fai clic su **Aggiungi una spesa** .
+La **Aggiungi una spesa** viene visualizzata la finestra di dialogo.
 1. Aggiorna quanto segue:
 
    * **Descrizione:** Descrizione della spesa.
@@ -76,12 +75,12 @@ il
 
 1. Seleziona una **Modulo personalizzato** e specificare le informazioni aggiuntive richieste. È necessario creare un modulo personalizzato prima di associarlo a una spesa. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, consulta l’articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Fai clic su **Salva le modifiche.**
+1. Fai clic su **Salva modifiche**.
 
 ## Cancella Spese
 
 1. Accedere al progetto in cui si desidera eliminare le spese.
-1. Fai clic su **Mostra***Altro**, quindi fai clic su **Spese.**
+1. Fai clic su **Mostra altro**, quindi fai clic su **Spese**.
 1. Selezionare le spese da eliminare, quindi fare clic su **Elimina** ![Elimina](assets/delete.png).
 
-1. Fai clic su **Sì, Elimina** per confermare l’eliminazione. 
+1. Fai clic su **Sì, Elimina** per confermare l’eliminazione.

@@ -7,7 +7,7 @@ description: In Adobe Workfront puoi tenere traccia dei costi per progetti, atti
 author: Alina
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: b4bb6306b7fa088823fba8ef5614aae8551ce02c
+source-git-commit: d8c274d2153836647367c263cad8d786402cbe7f
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 1%
@@ -118,7 +118,7 @@ Ad esempio, nella scheda Spese di un&#39;attività sono disponibili le seguenti 
 Il costo pianificato del progetto viene calcolato come segue:
 
 ```
-$100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expense)+$15(Hourly Rate)*5(Planned Hours Logged) + $200 (Fixed Cost)= $525
+$100 (Consulting Expense) + $100 (Marketing Expense) + $50 (Administrative Expense) + $15(Hourly Rate)*5(Planned Hours Logged) + $200 (Fixed Cost) = $525
 ```
 
 #### Bdg prv {#budgeted-cost}
@@ -153,7 +153,7 @@ Ad esempio, nella scheda Spese di un&#39;attività sono disponibili le seguenti 
 Il costo effettivo del progetto viene calcolato come segue:
 
 ```
-$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost)= $740
+$100 (Consulting Expense) + $110 (Marketing Expense) + $40 (Administrative Expense) +$15 (Hourly Rate)*6 (Actual Hours Logged) + $20 (Cost per Hour rate for the user logging time on the project)*10 (hours the user logs on the project) + $200 (Fixed Cost) = $740
 ```
 
 >[!NOTE]
