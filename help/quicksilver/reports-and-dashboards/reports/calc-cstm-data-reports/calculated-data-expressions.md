@@ -7,9 +7,9 @@ description: Puoi utilizzare le espressioni dati per definire campi dati persona
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 22438c38727f5cc36b07b3530818f5bda2b0bacf
+source-git-commit: 1e91514f86a307ffa71cde650b35a2e3b8f0fa88
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2302'
 ht-degree: 7%
 
 ---
@@ -104,11 +104,11 @@ Gli elenchi seguenti definiscono le espressioni disponibili utilizzabili per la 
  <tbody> 
   <tr> 
    <td><strong>ADDDAYS</strong> </td> 
-   <td> <p>Questa espressione aggiunge il numero di giorni alla data ed è formattata come segue:</p><pre>ADDDAYS(date, number)</pre> </td> 
+   <td> <p>Questa espressione aggiunge il numero di giorni alla data. Il valore numerico può includere giorni parziali (ad esempio, 1,5 aggiungerà un giorno e mezzo alla data).</p> <p>L'espressione viene formattata come segue:</p><pre>ADDDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDWEEKDAYS</strong> </td> 
-   <td> <p>Questa espressione aggiunge il numero di giorni feriali alla data ed è formattata come segue:</p><pre>ADDWEEKDAYS(date, number)</pre> </td> 
+   <td> <p>Questa espressione aggiunge il numero di giorni feriali alla data. Questa espressione aggiunge alla data solo valori interi interi, con arrotondamento verso il basso. </p> <p>L'espressione viene formattata come segue:</p><pre>ADDWEEKDAYS(date, number)</pre> </td> 
   </tr> 
   <tr> 
    <td><strong>ADDMONTHS</strong> </td> 
@@ -270,8 +270,7 @@ Gli elenchi seguenti definiscono le espressioni disponibili utilizzabili per la 
    <td>Questa espressione sottrae tutti i numeri nell'ordine specificato e viene formattata come segue:<pre>SUB(number1, number2, ...)</pre></td> 
   </tr> 
   <tr> 
-   <td><strong>SOMMA
-</strong> </td> 
+   <td><strong>SUM</strong> </td> 
    <td>Questa espressione aggiunge tutti i numeri ed è formattata come segue:<pre>SUM(number1, number2, ...)</pre></td> 
   </tr> 
  </tbody> 
@@ -349,7 +348,7 @@ Gli elenchi seguenti definiscono le espressioni disponibili utilizzabili per la 
    <td> <p>Questa espressione restituisce un numero specificato di caratteri dal lato destro di una stringa e viene formattata come segue:</p><pre>RIGHT(string, length)</pre> </td> 
   </tr> 
   <tr> 
-   <td><strong>SEARCH</strong> </td> 
+   <td><strong>RICERCA</strong> </td> 
    <td> <p>Questa espressione restituisce l'indice della prima occorrenza di findText nella stringa withinText, a partire dalla posizione iniziale specificata, oppure -1 se il testo non viene trovato.</p> <p>L'espressione viene formattata come segue:</p><pre>SEARCH(findText, withinText, start)</pre> </td> 
   </tr> 
   <tr> 

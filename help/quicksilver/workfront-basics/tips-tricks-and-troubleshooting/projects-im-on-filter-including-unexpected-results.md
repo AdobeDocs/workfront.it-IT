@@ -5,7 +5,7 @@ title: Progetti su filtro, inclusi risultati imprevisti
 description: Leggi questo articolo per risolvere i problemi relativi al filtro Progetti su , inclusi i risultati imprevisti.
 feature: Get Started with Workfront
 author: Nolan
-source-git-commit: 5a4c98f9ce6bb7eb936a0b24b634d2545a0f13ee
+source-git-commit: ba261e5121b4a28f71c58f883c784f4e8d2ada81
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 1%
@@ -47,7 +47,7 @@ La [!UICONTROL **Progetti in corso**] Il filtro include i progetti che contengon
 
 1. Controlla la [!UICONTROL **Dettagli progetto**] per ogni progetto imprevisto incluso dal filtro e rimuovi il tuo nome da tutti i campi.
 
-O
+   OPPURE
 
 1. Prova a utilizzare un filtro simile, ad esempio [!UICONTROL **Progetti di proprietà**], che include solo i progetti specificamente assegnati all’utente.
 
