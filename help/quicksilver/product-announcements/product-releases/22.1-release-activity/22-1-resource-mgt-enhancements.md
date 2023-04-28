@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,6 @@ Prima di questo miglioramento, era possibile assegnare un solo utente a un eleme
 Le nuove assegnazioni in blocco includono anche nuove funzionalità di filtro per Stato progetto e attività, oltre a Nome.
 
 Per ulteriori informazioni, consulta [Panoramica dell’assegnazione del lavoro nel servizio di bilanciamento del carico di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-
-Per informazioni sulla deprecazione degli strumenti di pianificazione, consulta [Strumenti di pianificazione delle risorse obsoleti in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
 ## Ignora valuta durante la gestione dei ruoli del lavoro
 

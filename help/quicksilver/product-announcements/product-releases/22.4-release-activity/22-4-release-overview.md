@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '3238'
 ht-degree: 0%
 
 ---
@@ -760,11 +760,7 @@ Con la versione 22.4 in Produzione verranno rimosse le seguenti funzioni:
 >
 >La funzione di pianificazione delle risorse obsoleta è stata rimandata a poco dopo la versione 22.4.
 
-Il servizio di bilanciamento del carico di lavoro sta sostituendo l’utilità di pianificazione delle risorse. Per ulteriori informazioni sull’obsolescenza e su come prepararsi all’utilizzo del servizio di bilanciamento del carico di lavoro, consulta le risorse seguenti:
-
-* [Strumenti di pianificazione delle risorse obsoleti in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [Migrazione da Resource Scheduling al load Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+Il servizio di bilanciamento del carico di lavoro sta sostituendo l’utilità di pianificazione delle risorse.
 
 * Integrazione zoom
 

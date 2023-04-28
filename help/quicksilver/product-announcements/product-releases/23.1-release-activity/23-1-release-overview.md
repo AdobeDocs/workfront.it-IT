@@ -5,9 +5,9 @@ author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '2465'
+source-wordcount: '2429'
 ht-degree: 0%
 
 ---
@@ -574,11 +574,7 @@ Come parte della rimozione degli strumenti di pianificazione delle risorse, sono
 
 * Sezione Pianificazione della pagina di un progetto
 
-Il servizio di bilanciamento del carico di lavoro sta sostituendo l’utilità di pianificazione delle risorse. Per ulteriori informazioni sull’obsolescenza e su come prepararsi all’utilizzo del servizio di bilanciamento del carico di lavoro, consulta le risorse seguenti:
-
-* [Strumenti di pianificazione delle risorse obsoleti in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-
-* [Migrazione da Resource Scheduling al load Balancer](/help/quicksilver/resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
+Il servizio di bilanciamento del carico di lavoro sta sostituendo l’utilità di pianificazione delle risorse.
 
 #### **Il tipo di evento SHARE nell’API per sottoscrizioni di eventi.**
 

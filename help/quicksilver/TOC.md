@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: c57f437108fa70030973e227eb84882477ca386c
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '12928'
+source-wordcount: '12912'
 ht-degree: 1%
 
 ---
@@ -1645,8 +1645,6 @@ ht-degree: 1%
    * Gestione risorse {#resource-management}
       * [Gestione risorse](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Guida introduttiva a Gestione risorse](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-      * [Strumenti di pianificazione delle risorse obsoleti in Adobe Workfront](resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)
-      * [Migrazione da Resource Scheduling al load Balancer](resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md)
    * Pianificazione delle risorse in Adobe Workfront {#resource-planning-in-adobe-workfront}
       * [Pianificazione delle risorse in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
       * Gruppi di risorse {#resource-pools}

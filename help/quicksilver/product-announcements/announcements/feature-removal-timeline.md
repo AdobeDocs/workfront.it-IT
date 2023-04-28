@@ -7,9 +7,9 @@ description: Varie funzioni vengono gradualmente eliminate dal prodotto Adobe Wo
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Varie funzioni vengono gradualmente eliminate dal prodotto Adobe Workfront. Di s
    <td>Non più supportato con la versione 21.2</td> 
   </tr> 
   <tr> 
-   <td> <p>Programmazione delle risorse</p> <p>Il servizio di bilanciamento del carico di lavoro offre un’esperienza migliore nella pianificazione delle risorse.</p> <p>Per informazioni più dettagliate sul bilanciamento del carico di lavoro e sui confronti di funzioni con gli strumenti di pianificazione delle risorse, vedi <a href="../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md" class="MCXref xref">Strumenti di pianificazione delle risorse obsoleti in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Programmazione delle risorse</p> <p>Il servizio di bilanciamento del carico di lavoro offre un’esperienza migliore nella pianificazione delle risorse.</p> <p>Per informazioni più dettagliate sul servizio di bilanciamento del carico di lavoro, vedi <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Panoramica del servizio di bilanciamento del carico di lavoro</a>.</p> </td> 
    <td> </td> 
    <td> <p>Non più supportato il 9 novembre 2020 (con la versione 20.4)</p> <p>--</p> <p>Rimosso dalla piattaforma Workfront dopo la prima metà del 2022</p> </td> 
   </tr> 

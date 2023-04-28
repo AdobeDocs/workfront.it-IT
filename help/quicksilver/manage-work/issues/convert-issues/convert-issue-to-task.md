@@ -6,9 +6,9 @@ description: Se dopo l’invio del problema è necessario eseguire più operazio
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1048'
 ht-degree: 2%
 
 ---
@@ -107,9 +107,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!TIP]
    >
-   >Se un modulo personalizzato con più oggetti associato al problema è configurato per l’utilizzo sia con problemi che con attività, il modulo viene allegato per impostazione predefinita. Tutte le informazioni salvate nel modulo del problema vengono mantenute per l’attività quando si effettua la conversione.
-   >
-   >Se nel progetto di destinazione sono presenti moduli predefiniti definiti nel campo Forms personalizzato predefinito attività durante la modifica del progetto, tali moduli di attività vengono aggiunti anche alla nuova attività. Tutti i campi personalizzati comuni tra il problema originale e i campi nei moduli attività predefiniti vengono precompilati con le informazioni dei campi del problema.
+   >* Se un modulo personalizzato con più oggetti associato al problema è configurato per l’utilizzo sia con problemi che con attività, tutte le informazioni salvate nel modulo vengono mantenute quando si effettua la conversione, se i campi sono presenti sia sul problema che nei moduli personalizzati dell’attività.
+   >* Se al problema e all’attività è associato un modulo personalizzato con più oggetti con un campo calcolato, il problema e l’attività devono essere compatibili con tutti i campi a cui si fa riferimento nei campi personalizzati calcolati del modulo. In caso di incompatibilità, un messaggio ti avvisa di apportare modifiche. Per ulteriori informazioni, consultare la sezione &quot;Campi personalizzati calcolati nei moduli personalizzati con più oggetti&quot; nella sezione [Aggiungere dati calcolati a un modulo personalizzato con il modulo precedente](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+   >* Se nel progetto di destinazione sono presenti moduli predefiniti definiti nel campo Forms personalizzato predefinito attività durante la modifica del progetto, tali moduli di attività vengono aggiunti anche alla nuova attività. Tutti i campi personalizzati comuni tra il problema originale e i campi nei moduli attività predefiniti vengono precompilati con le informazioni dei campi del problema.
+
+
 
 1. Fai clic su [!UICONTROL **Converti in attività**].
 

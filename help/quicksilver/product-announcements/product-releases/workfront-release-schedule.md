@@ -7,9 +7,9 @@ description: L’ambiente Anteprima viene aggiornato una volta alla settimana co
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: d012f197cc56121c823a08789ba49d6d6a28a3cb
+source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -68,9 +68,9 @@ Per informazioni sulle note sulla versione del prodotto, consulta [Rilasci di pr
 
 ## Altre versioni
 
-A volte, Workfront potrebbe rilasciare funzionalità che potrebbero non essere documentate nelle note sulla versione, negli aggiornamenti di manutenzione o in uno degli articoli della documentazione effettiva. Questo accade nel tentativo di testare le nuove funzioni prima di renderle permanenti. Di solito, questi test vengono rilasciati a un numero limitato di clienti, ma potrebbe esserci un momento in cui potrebbero essere rilasciati a tutti.
+A volte, Workfront potrebbe rilasciare funzionalità che potrebbero non essere documentate nelle note sulla versione, negli aggiornamenti di manutenzione o in uno qualsiasi degli articoli della documentazione. Questo accade nel tentativo di testare le nuove funzioni prima di renderle permanenti. Di solito, questi test vengono rilasciati a un numero limitato di clienti, ma potrebbe esserci un momento in cui potrebbero essere rilasciati a tutti. Possono essere rilasciati negli ambienti Preview o Production.
 
-Se riscontri qualcosa nel sistema che non corrisponde alla documentazione, ti chiediamo di contattare il nostro team di assistenza clienti. Per ulteriori informazioni, consulta [Contatta l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Se ti imbatti in qualcosa nel sistema che non corrisponde alla documentazione e per il quale potresti avere delle domande, ti chiediamo di contattare il nostro team di Assistenza clienti. Per ulteriori informazioni, consulta [Contatta l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Note sulla versione
 
