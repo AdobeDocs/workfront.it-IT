@@ -6,7 +6,8 @@ title: Attività di Adobe Workfront Goals 23.2 - Settimana delle attività di ri
 description: Questa pagina descrive tutti i miglioramenti apportati con la versione 23.2 per Obiettivi di Adobe Workfront per l'ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell'ambiente di produzione la settimana del 20 marzo 2023.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: 71833a09ecde154ddbcf9cac34733641bf55f74d
+exl-id: 2397339a-7a78-41ee-8882-0606309e356c
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -25,4 +26,4 @@ A partire dalla versione 23.1, è stata introdotta una nuova esperienza di comme
 
 A partire dalla versione 23.2, l’esperienza di commento per gli obiettivi corrisponderà alla nuova esperienza di commento Beta che è stata rilasciata per i problemi. Continuiamo a rilasciare aggiornamenti in quest’area durante tutte le versioni del 2023.
 
-Per informazioni sulle funzioni disponibili nella funzione di commento di experience Beta, consulta [Nuova esperienza di commento](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+Per informazioni sulle funzioni disponibili nella funzione di commento di experience Beta, consulta [Nuova esperienza di commento](../../../betas/new-commenting-experience-beta/unified-commenting-experience.md).

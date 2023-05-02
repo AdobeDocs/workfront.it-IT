@@ -6,7 +6,7 @@ description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe 
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Stiamo riprogettando l’esperienza di commento in Adobe Workfront.
->Per ulteriori informazioni sulla nuova esperienza di aggiornamento, consulta [Nuova esperienza di commento](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Per ulteriori informazioni sulla nuova esperienza di aggiornamento, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >È possibile accedere alla nuova progettazione per i seguenti oggetti:
 > * Problemi relativi all’abilitazione della funzione di commento Beta.

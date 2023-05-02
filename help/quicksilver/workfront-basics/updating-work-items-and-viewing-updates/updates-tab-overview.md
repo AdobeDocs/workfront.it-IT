@@ -7,7 +7,7 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 607e0523cf97fdf26b650dc441e52b4ae4528af4
+source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 4%
@@ -23,7 +23,7 @@ ht-degree: 4%
 >[!NOTE]
 >
 >Stiamo riprogettando l’esperienza di commento in Adobe Workfront.
->Per ulteriori informazioni sulla nuova esperienza di aggiornamento, consulta [Nuova esperienza di commento](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+>Per ulteriori informazioni sulla nuova esperienza di aggiornamento, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >È possibile accedere alla nuova progettazione per i seguenti oggetti:
 > * Problemi relativi all’abilitazione della funzione di commento Beta.
@@ -189,7 +189,7 @@ Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggior
 >
 >Per informazioni sulla gerarchia degli oggetti in Adobe Workfront, consulta [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> Non è possibile rispondere agli aggiornamenti di sistema nella nuova esperienza di commento Beta. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../updating-work-items-and-viewing-updates/unified-commenting-experience.md).
+> Non è possibile rispondere agli aggiornamenti di sistema nella nuova esperienza di commento Beta. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Limitazioni della sezione Aggiornamenti
 

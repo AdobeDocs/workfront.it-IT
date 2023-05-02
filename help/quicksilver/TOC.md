@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 852d6acb4363e1926c20a64ada381a114bfe11ee
+source-git-commit: 62a6cc8f60a2a08a694ae59895072c86764ba9b5
 workflow-type: tm+mt
-source-wordcount: '12919'
+source-wordcount: '12934'
 ht-degree: 1%
 
 ---
@@ -344,6 +344,10 @@ ht-degree: 1%
       * Beta di Reporting Canvas {#reporting-canvas-beta}
          * [Panoramica sulla versione beta di Reporting Canvas](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
          * [Reporting Canvas beta: attività di rilascio](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * Nuova versione beta per l’esperienza dei commenti {#new-commenting-experience-beta}
+         * [Nuove informazioni sulla versione beta dei commenti](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+         * [Nuova esperienza di commento](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
+         * [Nuova attività di rilascio della versione beta per i commenti](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * Amministrazione e configurazione {#administration-and-setup}
    * [Amministrazione e configurazione](administration-and-setup/administration-and-setup.md)
    * Guida introduttiva all’amministrazione {#get-started-administration}
@@ -810,7 +814,6 @@ ht-degree: 1%
       * [Assegnare tag agli altri utenti in caso di aggiornamenti](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Visualizzare tutti gli aggiornamenti in un rapporto Nota](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [Panoramica dei pulsanti &quot;Work On It and Done&quot;](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
-      * [Nuova esperienza di commento](workfront-basics/updating-work-items-and-viewing-updates/unified-commenting-experience.md)
    * Utilizzare i moduli personalizzati {#work-with-custom-forms}
       * [Utilizzare i moduli personalizzati](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [Aggiungere un modulo personalizzato a un oggetto](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
