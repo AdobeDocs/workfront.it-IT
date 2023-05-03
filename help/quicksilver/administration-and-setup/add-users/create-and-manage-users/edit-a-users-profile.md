@@ -8,15 +8,14 @@ author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: fed4713d1e9044879db6d34dc4725245a2516634
+source-git-commit: 0bf30319978e1ec41a7ba4dc08788e15024cd03f
 workflow-type: tm+mt
-source-wordcount: '2786'
+source-wordcount: '2802'
 ht-degree: 0%
 
 ---
 
 # Modificare il profilo di un utente
-
 
 >[!IMPORTANT]
 >
@@ -200,11 +199,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Moduli personalizzati</td> 
-      <td>Associa un modulo personalizzato utente esistente a questo utente. È necessario creare un modulo personalizzato prima di poterlo associare a un utente. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per informazioni sulla creazione di moduli personalizzati, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>.</td> 
+      <td><p>Associa un modulo personalizzato utente esistente a questo utente. È necessario creare un modulo personalizzato prima di poterlo associare a un utente. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. I campi che non possono essere modificati non vengono visualizzati in un singolo modulo personalizzato.</p> <p>Per informazioni sulla creazione di moduli personalizzati, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Commento</td> 
-      <td> <p>Digita il commento da inviare agli utenti e all’area Aggiornamenti dei loro profili utente.</p> </td> 
+      <td>Digita il commento da inviare agli utenti e all’area Aggiornamenti dei loro profili utente.</td> 
      </tr> 
     </tbody> 
    </table>
