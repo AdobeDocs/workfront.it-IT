@@ -8,10 +8,10 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '5070'
-ht-degree: 27%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -220,11 +220,8 @@ Vedi anche [Notifiche: Richieste che ho presentato](../../../workfront-basics/us
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Aggiunta documento richiesta al contatto principale del problema</p> </td> 
-   <td> <p>Documento modificato o caricato su un problema per il quale sono il contatto principale.</p> <p>Il contatto principale del problema riceve una notifica e-mail quando un documento viene caricato o modificato sul problema, a meno che l'utente che ha caricato o modificato il documento non sia anche il contatto principale.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Current e se nella scheda Configurazione coda è abilitata l’opzione "Pubblica come coda della richiesta di aiuto". <!-- DISEGNATO IN FLARE: Per ulteriori informazioni sulla pubblicazione di un progetto come coda di richiesta della Guida, consulta 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Panoramica della scheda Dettagli coda in un progetto</a>.
-
-    --></p> </td>
-<td> <p>Attivi</p> </td> 
+   <td> <p>Documento modificato o caricato su un problema per il quale sono il contatto principale.</p> <p>Il contatto principale del problema riceve una notifica e-mail quando un documento viene caricato o modificato sul problema, a meno che l'utente che ha caricato o modificato il documento non sia anche il contatto principale.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Current e se nella scheda Configurazione coda è abilitata l’opzione "Pubblica come coda della richiesta di aiuto".</p> </td> 
+   <td> <p>Attivi</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
@@ -234,6 +231,11 @@ Vedi anche [Notifiche: Richieste che ho presentato](../../../workfront-basics/us
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE:
+       For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.-->
 
 ## Comunicazione
 
@@ -268,10 +270,8 @@ Vedi anche [Notifiche: Comunicazione](../../../workfront-basics/using-notificati
   <tr> 
    <td> <p>Utente</p> </td> 
    <td>Aggiornamento diretto all'utente</td> 
-   <td> <p>Qualcuno mi include in un aggiornamento diretto.</p> <p>Un aggiornamento diretto si verifica quando un utente include specificatamente un altro utente in un aggiornamento, come descritto in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Assegnare tag agli altri utenti in caso di aggiornamenti</a>.</p> <p>In questo caso, l’utente incluso nell’aggiornamento diretto riceve una notifica e-mail sull’aggiornamento.</p> <p>La notifica e-mail viene inviata solo se l’utente dispone dei diritti di accesso all’oggetto&lt;!&gt;— DISEGNATO IN FLARE: e non è lo stesso utente che inserisce l'aggiornamento
-
-    -->. &lt;/p> &lt;p>Questa notifica di evento è attivata per impostazione predefinita e non può essere disattivata.&lt;/p> &lt;/td>
-<td> <p>Attivi</p> </td> 
+   <td> <p>Qualcuno mi include in un aggiornamento diretto.</p> <p>Un aggiornamento diretto si verifica quando un utente include specificatamente un altro utente in un aggiornamento, come descritto in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Assegnare tag agli altri utenti in caso di aggiornamenti</a>.</p> <p>In questo caso, l’utente incluso nell’aggiornamento diretto riceve una notifica e-mail sull’aggiornamento.</p> <p>La notifica e-mail viene inviata solo se l’utente dispone dei diritti di accesso all’oggetto e se lo mantiene abilitato nel proprio profilo.  </p> <p>Questa notifica di evento è attivata per impostazione predefinita e non può essere disattivata.</p> </td> 
+   <td> <p>Attivi</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Team</p> </td> 
@@ -308,6 +308,10 @@ Vedi anche [Notifiche: Comunicazione](../../../workfront-basics/using-notificati
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: for the directed update above, it also mentions:
+        ... and is not the same user that enters the update-->
 
 ## Informazioni di omologazione
 
@@ -398,7 +402,7 @@ Vedi anche [Notifiche: Informazioni sul lavoro assegnato](../../../workfront-bas
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
-   <td> <p>Decisione di approvazione da rilasciare assegnata a</p> </td> 
+   <td> <p>Decisione di approvazione del rilascio assegnato a</p> </td> 
    <td> <p>Un problema che io risolvo è approvato o rifiutato.</p> <p>L’assegnatario di un problema riceve una notifica e-mail quando viene presa una decisione di approvazione (approvata o rifiutata).</p> <p>Gli utenti con una licenza di revisione non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
@@ -429,11 +433,8 @@ Vedi anche [Notifiche: Informazioni sul lavoro assegnato](../../../workfront-bas
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Aggiunta documento richiesta a Problema assegnato a</p> </td> 
-   <td> <p>I documenti vengono caricati o modificati sulle richieste alle quali sono assegnato.</p> <p>L’assegnatario del problema riceve una notifica e-mail quando i documenti vengono caricati o modificati su un problema aggiunto.</p> <p>Non viene inviata una notifica e-mail se l’utente che ha inserito il problema è l’assegnatario del problema.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Current e se nella scheda Configurazione coda è abilitata l’opzione "Pubblica come coda della richiesta di aiuto". <!-- DISEGNATO IN FLARE: Per ulteriori informazioni sulla pubblicazione di un progetto come coda di richiesta della Guida, consulta 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Panoramica della scheda Dettagli coda in un progetto</a>.
-
-    --></p> </td>
-<td> <p>Attivi</p> </td> 
+   <td> <p>I documenti vengono caricati o modificati sulle richieste alle quali sono assegnato.</p> <p>L’assegnatario del problema riceve una notifica e-mail quando i documenti vengono caricati o modificati su un problema aggiunto.</p> <p>Non viene inviata una notifica e-mail se l’utente che ha inserito il problema è l’assegnatario del problema.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Current e se nella scheda Configurazione coda è abilitata l’opzione "Pubblica come coda della richiesta di aiuto".</p> </td> 
+   <td> <p>Attivi</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività</p> </td> 
@@ -461,6 +462,11 @@ Vedi anche [Notifiche: Informazioni sul lavoro assegnato](../../../workfront-bas
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from the Request document add to issue assigned to: 
+        For more information on publishing a project as a Help Request Queue, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>. -->
 
 ## Informazioni sui progetti su cui mi trovo
 
@@ -739,12 +745,7 @@ Vedi anche [Notifiche: Informazioni varie](../../../workfront-basics/using-notif
    <td> </td> 
    <td> <p>Avviso errore</p> </td> 
    <td> <p>È stato trovato un errore che richiede la tua attenzione.</p> <p>Una notifica e-mail viene generata dopo che Workfront tenta e non riesce a connettersi a un account POP. Dopo 25 tentativi, Workfront disabilita la connessione all’account POP al fine di preservare le risorse e invia una notifica. </p> <p>La notifica e-mail viene inviata al proprietario del progetto, se l’e-mail POP è associata a una coda di richiesta, o agli amministratori di Workfront, se l’account POP è associato alla funzione "Posta in arrivo" in Configurazione e-mail.
-     <!--
-      DRAFTED IN FLARE:
-       <br>For more information on how to associate a request queue with a POP account, see 
-       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
-       For more information on how to enable a POP account for incoming mail, see .
-      --></p> </td> 
+   </p> </td> 
    <td> <p>Attivi</p> </td> 
   </tr> 
   <tr> 
@@ -797,6 +798,14 @@ Vedi anche [Notifiche: Informazioni varie](../../../workfront-basics/using-notif
   </tr> 
  </tbody> 
 </table>
+
+<!--
+      DRAFTED IN FLARE: from Error notification above: 
+      
+       <br>For more information on how to associate a request queue with a POP account, see 
+       <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+       For more information on how to enable a POP account for incoming mail, see .
+      -->
 
 ## Delega
 

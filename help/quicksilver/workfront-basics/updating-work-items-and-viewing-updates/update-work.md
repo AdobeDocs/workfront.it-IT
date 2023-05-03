@@ -6,10 +6,10 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cb770bc7c433f1eac31be39f26893016c1a465fc
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '2949'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,10 @@ ht-degree: 1%
 >[!NOTE]
 >
 >Stiamo riprogettando l’esperienza di commento in Adobe Workfront.
->Per ulteriori informazioni sulla nuova esperienza di aggiornamento, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->È possibile accedere alla nuova progettazione per i seguenti oggetti:
+>Per ulteriori informazioni sulla nuova esperienza di commento, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Puoi accedere alla nuova esperienza per i seguenti oggetti:
 > * Problemi relativi all’abilitazione della funzione di commento Beta.
    >
    >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:
@@ -135,7 +136,7 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 1. Passare all&#39;elemento di lavoro per il quale si desidera fornire un aggiornamento (ad esempio un progetto, un&#39;attività o un problema).
 1. Fai clic sul pulsante **Aggiornamenti** sezione .
 1. Fai clic su **Avvia un nuovo aggiornamento,** quindi digita l&#39;aggiornamento.
-1. (Facoltativo) Utilizza Rich Text o aggiungi emoticon, collegamenti o immagini al tuo aggiornamento per migliorare i contenuti. Per ulteriori informazioni, consulta la sezione &quot;Utilizzare il testo RTF in un aggiornamento Workfront&quot; in questo articolo
+1. (Facoltativo) Utilizza Rich Text o aggiungi emoticon, collegamenti o immagini al tuo aggiornamento per migliorare i contenuti. Per ulteriori informazioni, consulta la sezione [Utilizzare Rich Text in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) sezione del presente articolo
 1. (Facoltativo) Aggiornare una delle seguenti informazioni sull&#39;elemento di lavoro:
 
    <table style="table-layout:auto"> 
@@ -209,7 +210,7 @@ La **Commenti** è selezionata per impostazione predefinita.
    * Elenco numerato
    * Aggiungi allegato <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   Per ulteriori informazioni, consulta la sezione &quot;Utilizzare il testo RTF in un aggiornamento Workfront&quot; in questo articolo. <!--remove this list, above, when we get to parity for Rich Text-->
+   Per ulteriori informazioni, consulta la sezione [Utilizzare Rich Text in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) in questo articolo. <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
@@ -257,7 +258,7 @@ La **Commenti** è selezionata per impostazione predefinita.
    >Non è possibile aggiungere un commento a un aggiornamento del sistema.
 
 
-## Utilizzare Rich Text in un aggiornamento di Workfront
+## Utilizzare Rich Text in un aggiornamento di Workfront{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
@@ -322,13 +323,16 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
 
    Oppure
 
-   Fai clic sul pulsante **Aggiungi allegato** icona ![](assets/add-image-paperclip-icon.png) e sfogliare l&#39;immagine sul computer, quando si utilizza l&#39;esperienza di commento Beta.
+   Fai clic sul pulsante **Aggiungi allegato** icona ![](assets/add-image-paperclip-icon.png) e sfogliare l&#39;immagine sul computer, quando si utilizza l&#39;esperienza di commento Beta. <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* Per visualizzare l’icona Immagine, l’amministratore di Workfront deve abilitare l’aggiunta di immagini.
+   >* Per poter visualizzare le icone Immagine o Aggiungi allegato, l’amministratore di Workfront deve abilitare l’aggiunta di immagini nella sezione Preferenze feed aggiornamento dell’area Interfaccia Workfront . Per informazioni, consulta [Configurare le preferenze per gli aggiornamenti utente](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* La dimensione massima del file immagine è 7 MB. I tipi di file immagine supportati sono .jpg, .gif e .png.
-   >* Le immagini sono accessibili solo dalla scheda Aggiornamenti di un oggetto e non sono disponibili nella scheda Documenti.
+   >* Le immagini sono accessibili dalla sezione Aggiornamenti di un oggetto e sono disponibili anche nell’area Documenti.
+   >* <!--In the current commenting experience,--> Quando elimini un commento che contiene un’immagine, l’immagine rimane nell’area Documenti ma non è più visibile nella sezione Aggiornamenti .
+
+   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* Puoi inviare un aggiornamento con un’immagine e senza testo.
 
 1. Fai clic su **Aggiorna**  o **Invia**, quando si utilizza l’esperienza di creazione di commenti Beta.
@@ -392,7 +396,7 @@ Nessun utente Workfront (incluso l’amministratore Workfront) può eliminare gl
 
    >[!NOTE]
    >
-   >Se si elimina un aggiornamento con un&#39;immagine allegata, vengono eliminati sia il commento che l&#39;immagine.
+   >Se si elimina un aggiornamento con un&#39;immagine allegata, vengono eliminati sia il commento che l&#39;immagine. Per ulteriori informazioni, consulta la sezione [Utilizzare testo RTF in un aggiornamento Workfront](#use-rich-text-in-a-workfront-update) in questo articolo.
 
    Quando al commento eliminato sono associate delle risposte, è presente un&#39;indicazione che il commento è stato rimosso con il nome dell&#39;utente che lo ha rimosso.
 

@@ -6,9 +6,9 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Viene aperto l’elenco degli obiettivi.
    >
    >Se passi dalla sezione Aggiornamenti prima di terminare la digitazione e l’invio di un commento, il commento viene mantenuto in modalità bozza anche dopo la disconnessione e il successivo accesso. Anche le immagini aggiunte al commento vengono salvate nella bozza. Le bozze vengono salvate per 7 giorni dopo i quali vengono scartate e non possono essere recuperate. I commenti creati sono visibili solo all’utente che li inserisce.
 
-1. (Facoltativo) Per aggiungere formattazione RTF all’aggiornamento, utilizzare un collegamento ipertestuale o un’immagine utilizzando le opzioni disponibili nella barra degli strumenti Rich Text o le icone adiacenti. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facoltativo) Per aggiungere formattazione RTF all’aggiornamento, a un collegamento ipertestuale o a un’immagine, utilizza le opzioni disponibili nella barra degli strumenti Rich Text o le icone adiacenti. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) In **Assegnare tag a persone o team** area, inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
 1. Seleziona la **Privato per la mia azienda** per rendere il commento visibile solo alle persone della tua azienda.
 
@@ -160,7 +160,7 @@ Viene aperto l’elenco degli obiettivi.
 
 1. (Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.
 1. Modifica le informazioni nel commento, aggiungi o rimuovi immagini o rimuovi uno degli utenti con tag.
-È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.
+È possibile modificare il commento entro 15 minuti dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 

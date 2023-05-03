@@ -6,9 +6,9 @@ description: Quando un utente aggiunge o risponde a un aggiornamento di un ogget
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,10 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Stiamo riprogettando l’esperienza di commento in Adobe Workfront.
->Per ulteriori informazioni sulla nuova esperienza di aggiornamento, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->È possibile accedere alla nuova progettazione per i seguenti oggetti:
+>Per ulteriori informazioni sulla nuova esperienza di commento, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>
+>Puoi accedere alla nuova esperienza per i seguenti oggetti:
 > * Problemi relativi all’abilitazione della funzione di commento Beta.
    >
    >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:
