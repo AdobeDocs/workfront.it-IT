@@ -8,7 +8,7 @@ description: In alcuni casi è possibile interrompere con la forza l'esecuzione 
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Gestione degli errori di generazione [!DNL Adobe Workfront Fusion]
 
-In alcuni casi può essere utile interrompere con la forza l’esecuzione dello scenario seguito da [Ripristino](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) o [Commit](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) fase o per interrompere l&#39;elaborazione di una route e, facoltativamente, memorizzarla nella coda di esecuzioni incomplete.
+In alcuni casi, può essere utile interrompere con la forza l’esecuzione dello scenario seguito da [Ripristino](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) o [Commit](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) fase o per interrompere l&#39;elaborazione di una route e, facoltativamente, memorizzarla nella coda di esecuzioni incomplete.
 
 Attualmente le direttive per la gestione degli errori non possono essere utilizzate al di fuori dell&#39;ambito di un [route del gestore errori](../../workfront-fusion/errors/error-handling.md#error) e [!DNL Adobe Workfront Fusion] non offre un modulo che ti consenta di generare facilmente (generare) errori in modo condizionale.
 

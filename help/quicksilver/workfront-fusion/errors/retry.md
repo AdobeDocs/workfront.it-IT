@@ -7,7 +7,7 @@ description: In alcuni casi è utile ripetere l’esecuzione di un modulo non ri
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: 184033c8957e955b3011f7e0845a73029f6b7aba
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%
@@ -71,11 +71,11 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
 * L&#39;intervallo minimo di esecuzione dei tentativi è di un minuto.
 * Se il modulo elabora più bundle e l&#39;elaborazione di un bundle non riesce, l&#39;esecuzione parziale (solo il bundle che ha causato l&#39;errore) viene spostata nella cartella esecuzioni incomplete e pianificata per i nuovi tentativi in base al [!UICONTROL Interruzione] impostazioni della direttiva. Tuttavia, l’esecuzione corrente continua e il modulo continua a elaborare i bundle successivi. Puoi abilitare il &quot;[!UICONTROL Elaborazione sequenziale]&quot; nella [!UICONTROL Impostazioni dello scenario] per evitare che lo scenario venga nuovamente eseguito finché l’esecuzione memorizzata nella cartella esecuzioni incomplete non è stata risolta correttamente.
 
-Per ulteriori informazioni sulle esecuzioni incomplete, vedi [Visualizzare e risolvere le esecuzioni incomplete in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+   Per ulteriori informazioni sulle esecuzioni incomplete, vedi [Visualizzare e risolvere le esecuzioni incomplete in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 ### Utilizza la [!UICONTROL Ripetitore] modulo
 
-1. Implementare **[!UICONTROL Ripetitore]** modulo e impostarne il [!UICONTROL Ripeti] al numero massimo di tentativi.
+1. Implementare **[!UICONTROL Ripetitore]** modulo e impostarne il **[!UICONTROL Ripeti]** al numero massimo di tentativi.
 1. Collega il modulo potenzialmente non funzionante al **[!UICONTROL Ripetitore]** modulo .
 1. Allega una route del gestore errori a questo modulo (vedi [Gestione degli errori in [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
 1. Collega **[!UICONTROL Strumenti] > [!UICONTROL Sonno]** modulo alla route del gestore di errori e impostarne la **[!UICONTROL Ritardo]** al numero di secondi tra i tentativi.

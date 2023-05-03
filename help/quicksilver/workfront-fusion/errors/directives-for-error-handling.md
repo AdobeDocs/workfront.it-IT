@@ -8,9 +8,9 @@ description: Questo articolo descrive le direttive che puoi utilizzare per la ge
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
-source-git-commit: 50b43cd4bafdfc3379eb1d73c12e15c791e28dbe
+source-git-commit: f4e43d34068c987755559573b4ecd618ff710686
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -83,17 +83,31 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
 
 >[!NOTE]
 >
->Attualmente le direttive sulla gestione degli errori non possono essere utilizzate al di fuori dell&#39;ambito di un percorso di gestione degli errori e [!DNL Workfront Fusion] al momento non offre un modulo Throw che ti consentirebbe di generare facilmente (generare) errori in modo condizionale, anche se può essere utilizzata una soluzione alternativa per imitarne la funzionalità. Per ulteriori informazioni, consulta [route del gestore errori](../../workfront-fusion/errors/error-handling.md#error) nell&#39;articolo [Gestione degli errori in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md). Vedi anche [Soluzione per il lancio](../../workfront-fusion/errors/throw.md#workarou) nell&#39;articolo [Gestione degli errori di thread in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+>* Attualmente le direttive per la gestione degli errori non possono essere utilizzate al di fuori di un percorso per la gestione degli errori.
+   >
+   >   Per ulteriori informazioni, consulta [route del gestore errori](../../workfront-fusion/errors/error-handling.md#error) nell&#39;articolo [Gestione degli errori in Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
+>* [!DNL Workfront Fusion] al momento non offre un modulo Throw che ti consentirebbe di generare facilmente (generare) errori in modo condizionale, anche se può essere utilizzata una soluzione alternativa per imitarne la funzionalità.
+   >
+   >   Per ulteriori informazioni, consulta [Soluzione per il lancio](../../workfront-fusion/errors/throw.md#workaround-for-throw) nell&#39;articolo [Gestione degli errori di thread in Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+
 
 ## Interruzione {#break}
 
-Quando un errore viene gestito dal [!DNL Break] , viene creato un record [Visualizzare e risolvere le esecuzioni incomplete in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) cartella che memorizza lo stato dell’esecuzione dello scenario insieme ai dati dei moduli precedenti. Per ogni bundle di dati che causa l&#39;errore, viene creato un record separato.
+Quando un errore viene gestito dal [!DNL Break] viene creato un record nella cartella esecuzioni incomplete. Questo record memorizza lo stato dell’esecuzione dello scenario, insieme ai dati dei moduli precedenti. Il record fa riferimento al modulo da cui è stato generato l&#39;errore e contiene informazioni relative ai dati ricevuti dal modulo come input. Per ogni bundle di dati che causa l&#39;errore, viene creato un record separato.
 
-Il record fa riferimento al modulo da cui è stato generato l&#39;errore e contiene informazioni relative ai dati ricevuti dal modulo come input. Per ulteriori informazioni, consulta [Visualizzare e risolvere le esecuzioni incomplete in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+Per ulteriori informazioni, consulta [Visualizzare e risolvere le esecuzioni incomplete in Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-In questo caso, è possibile risolvere l’errore manualmente aggiornando lo scenario (se necessario) ed eseguendo l’errore una volta.
+### Risoluzione degli errori derivanti dalla direttiva di interruzione
 
-D&#39;altro canto, consentendo il [!UICONTROL Esecuzione automatica] in base alle impostazioni della direttiva di interruzione, è possibile configurare per elaborare automaticamente un&#39;esecuzione incompleta eseguendo nuovamente lo scenario dopo il numero specificato di minuti.
+È possibile risolvere manualmente l’errore aggiornando lo scenario (se necessario) e eseguendo una sola volta.
+
+Puoi anche configurare lo scenario in modo da elaborare automaticamente un’esecuzione incompleta eseguendo nuovamente lo scenario. Per configurare il modulo per l’elaborazione delle esecuzioni incomplete:
+
+1. All&#39;interno del modulo di interruzione, abilita il [!UICONTROL **Esecuzione automatica**] opzione .
+1. In **Numero di tentativi** immettere o mappare il numero massimo di tentativi che si desidera che il modulo ripeta l&#39;esecuzione
+
+   Questo numero deve essere compreso tra 1 e 100.
+1. In **Intervallo tra tentativi** immetti o mappa il numero di minuti tra ogni tentativo di esecuzione di un nuovo tentativo.
 
 Con questa opzione abilitata, quando si verifica un errore, l’esecuzione incompleta viene recuperata (dopo il tempo specificato nel [!UICONTROL Intervallo tra tentativi] ed eseguito con i dati di input originali. Ciò si ripeterà fino al completamento dell’esecuzione del modulo senza un errore o fino al raggiungimento del numero di tentativi specificato.
 
@@ -101,12 +115,13 @@ Con questa opzione abilitata, quando si verifica un errore, l’esecuzione incom
 >
 >Se il tentativo iniziale di nuovo tentativo non riesce, l&#39;intervallo tra i tentativi aumenta esponenzialmente ogni altro tentativo.
 
+
 Quando l’opzione &quot;Completa automaticamente l’esecuzione&quot; è attivata, l’esecuzione dello scenario viene contrassegnata come &quot;Completato&quot; perché il nuovo tentativo automatico del gestore di errori di interruzione gestisce il problema automaticamente. In questo caso, gli utenti non ricevono un’e-mail sull’esecuzione non riuscita.
 
 Quando l&#39;opzione &quot;Completa automaticamente l&#39;esecuzione&quot; è disattivata, l&#39;esecuzione viene contrassegnata come &quot;Avviso&quot;.
 
-![](assets/break-directive-350x241.png)
+Ci sono alcune eccezioni alle esecuzioni archiviate in Esecuzioni incomplete e con alcuni tipi di errore, il tentativo automatico di un&#39;esecuzione di uno scenario non è possibile.
 
-Tuttavia, ci sono alcune eccezioni alle esecuzioni archiviate in Esecuzioni incomplete e con alcuni tipi di errore, il tentativo automatico di un&#39;esecuzione di uno scenario non è possibile. Per ulteriori informazioni, consulta [Consenti archiviazione esecuzioni incomplete](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) nell&#39;articolo [Pannello delle impostazioni dello scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+Per ulteriori informazioni, consulta [Consenti archiviazione esecuzioni incomplete](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) nell&#39;articolo [Pannello delle impostazioni dello scenario in Adobe Workfront Fusion](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 Per ulteriori informazioni, consulta [Gestione avanzata degli errori in Adobe Workfront Fusion](../../workfront-fusion/errors/advanced-error-handling.md).
