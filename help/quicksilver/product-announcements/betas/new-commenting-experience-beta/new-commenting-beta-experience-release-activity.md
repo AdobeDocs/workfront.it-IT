@@ -5,9 +5,9 @@ title: '''Nuova attività di rilascio della versione beta dell''esperienza di co
 description: Rivedi l’attività di rilascio settimanale per la nuova esperienza di creazione commenti di Adobe Workfront Beta.
 author: Alina
 feature: Product Announcements
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 3d34d3c6fe9b1d4d825de91b60359215f1afeec0
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -19,8 +19,6 @@ Le informazioni in questa pagina si riferiscono all’attività di rilascio su b
 
 Per informazioni generali sulla nuova esperienza beta per i commenti, compreso un elenco delle funzioni attualmente disponibili o in fase di ricerca, consulta [Nuova esperienza di commento](../new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--the sections below are copied from the former Canvas beta - replace with real new commenting beta experience content when it becomes available; also, add links to pertinent articles when you add the features for each release, and the year for the week; thought: should we separate these by release in additional sections?! first by release and then by week?!-->
-
 >[!IMPORTANT]
 >
 >La nuova esperienza di commento avviata in Beta con la versione 23.2 di . Per informazioni sulla versione originale, consulta [Panoramica sulla versione 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).
@@ -29,18 +27,16 @@ Per informazioni generali sulla nuova esperienza beta per i commenti, compreso u
 
 Nelle sezioni seguenti sono elencate le funzioni aggiunte dopo la versione originale, a partire da quelle rilasciate più di recente.
 
-<!--
+## Settimana del 2 maggio 2023
 
-## Week of May 2, 2023
+### Le immagini vengono rimosse dall&#39;area Documenti quando gli allegati vengono rimossi dai commenti o quando i commenti contenenti un allegato vengono rimossi
 
-### Images are removed from the Documents area when attachments are removed from comments or when comments containing an attachment are removed
+Stiamo modificando il funzionamento degli allegati durante la rimozione o la modifica di un commento che contiene un allegato. Ora, quando si modifica un commento e si rimuove l&#39;allegato o quando si elimina un commento che contiene un allegato, anche l&#39;allegato viene rimosso dall&#39;area Documenti. Prima di questa modifica, nell’esperienza di commento precedente, gli allegati rimanevano nell’area Documenti. Per informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-We are changing the way attachments work when removing or editing a comment that contains an attachment. Now, when you edit a comment and remove the attachment, or when you delete a comment that contains an attachment, the attachment is also removed from your Documents area. Prior to this change, in the previous commenting experience, the attachments remained in your Documents area. For information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+Disponibile per il problema relativo alla funzione di commento dell’esperienza beta e per gli obiettivi di Workfront, per impostazione predefinita, alle seguenti date:
 
-Available for issue commenting Beta experience and for Workfront Goals on the following dates:
+* Anteprima e produzione: 4 maggio 2023
 
-* Preview and Production: May 4, 2023
--->
 
 ## 27 aprile 2023
 

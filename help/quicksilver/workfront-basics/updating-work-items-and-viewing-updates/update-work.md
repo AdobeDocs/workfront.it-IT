@@ -6,9 +6,9 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
 workflow-type: tm+mt
-source-wordcount: '3012'
+source-wordcount: '3085'
 ht-degree: 1%
 
 ---
@@ -330,10 +330,13 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
    >* Per poter visualizzare le icone Immagine o Aggiungi allegato, l’amministratore di Workfront deve abilitare l’aggiunta di immagini nella sezione Preferenze feed aggiornamento dell’area Interfaccia Workfront . Per informazioni, consulta [Configurare le preferenze per gli aggiornamenti utente](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* La dimensione massima del file immagine è 7 MB. I tipi di file immagine supportati sono .jpg, .gif e .png.
    >* Le immagini sono accessibili dalla sezione Aggiornamenti di un oggetto e sono disponibili anche nell’area Documenti.
-   >* <!--In the current commenting experience,--> Quando elimini un commento che contiene un’immagine, l’immagine rimane nell’area Documenti ma non è più visibile nella sezione Aggiornamenti .
-
-   > <!--* In the new commenting experience, when you delete a comment that contains an image, or when you edit a comment and remove the image from it, the image is removed from the Updates section as well as from the Documents area. -->
    >* Puoi inviare un aggiornamento con un’immagine e senza testo.
+   >* Quando elimini un commento che contiene un’immagine, esistono i seguenti scenari a seconda dell’esperienza scelta:
+      >
+      >     * Nell’esperienza di commento corrente, l’immagine rimane nell’area Documenti ma non è più visibile nella sezione Aggiornamenti .
+      >     * Nella nuova esperienza di commento, l’immagine viene rimossa dalla sezione Aggiornamenti e dall’area Documenti. L’immagine viene inoltre eliminata dall’area Documenti quando si modifica un commento ed elimina l’immagine.
+   >* Quando un utente elimina un&#39;immagine associata a un commento dall&#39;area Documenti, viene rimossa anche dal commento.
+
 
 1. Fai clic su **Aggiorna**  o **Invia**, quando si utilizza l’esperienza di creazione di commenti Beta.
 
