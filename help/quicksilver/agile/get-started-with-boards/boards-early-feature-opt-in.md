@@ -6,9 +6,9 @@ title: Accesso anticipato per [!DNL Adobe Workfront] Schede
 description: Leggi questo articolo per saperne di più [!DNL Workfront Boards] funzionalità opt-in iniziale.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 0e838c75bddb97d53f5fa791d609be9b6d8d27f8
+source-git-commit: 4c59a63d08efe6dcd6be294c49ec98ebf70feed6
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ La tabella seguente illustra le principali funzioni delle bacheche e il loro sta
   </tr>
   <tr>
    <td>Migrazione di schede Kanban legacy alle bacheche</td>
-   <td>Rilasciato parzialmente</td>
+   <td>Questa funzione sarà disponibile in Produzione il 4 maggio 2023 e non farà parte della funzionalità opt-in iniziale.</td>
   </tr>
   <tr>
    <td>Creazione di bacheche dinamiche</td>

@@ -5,30 +5,32 @@ keywords: gruppo, preferenze, compito, gruppi, problema, sblocca
 navigation-topic: create-and-manage-groups
 title: Configurare le preferenze relative a schede attività e ora per un gruppo
 description: A livello di sistema, un amministratore di Adobe Workfront può sbloccare le sezioni relative alle preferenze relative alla scheda attività e alle ore con Preferenze generali e Precompilazione fogli preselezionati. Questo consente agli amministratori di gruppo di configurare le opzioni in tali sezioni in modo indipendente per i propri gruppi.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 5%
+source-wordcount: '1368'
+ht-degree: 6%
 
 ---
 
 # Configurare le preferenze relative a schede attività e ora per un gruppo
 
+{{highlighted-preview}}
+
 Un amministratore di Adobe Workfront può sbloccare le sezioni seguenti delle preferenze relative alla scheda attività e alle ore a livello di sistema, in modo che gli amministratori dei gruppi possano configurarle in modo indipendente per i propri gruppi:
 
-* Preferenze Generali
-* Precompila le schede orario con
+* Preferenze generali
+* <span class="preview">Dove gli utenti possono registrare le ore</span>
+* Fogli temporali pre-popolati
 
 Se ci sono gruppi al di sopra del gruppo che gestisci, i loro amministratori possono farlo anche per il tuo gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
 
 Le sezioni seguenti nella pagina Preferenze scheda attività e ora sono configurabili solo a livello di sistema e non possono essere sbloccate per i gruppi:
 
-* Tempo di registrazione
-* Preferenze per l&#39;eliminazione di progetti, attività o problemi
+* Progetti, attività e problemi eliminati
 
 Per informazioni su come un amministratore di Workfront sblocca una scheda attività e una preferenza oraria, consulta la sezione . [Sblocca le preferenze della scheda attività e dell&#39;ora per i gruppi](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) nell&#39;articolo [Configurare le preferenze relative a schede attività e ora](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -134,7 +136,32 @@ Considera le seguenti informazioni sulla configurazione di una scheda attività 
     </tbody> 
    </table>
 
-1. In **Precompilazione dei fogli preselezionati con** configura una delle seguenti opzioni:
+1. <span class="preview">In **Dove gli utenti possono registrare il tempo** configura una delle seguenti opzioni:</span>
+
+   <table style="table-layout:auto">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><span class="preview">Registra tempo direttamente sui progetti</span></td> 
+      <td><span class="preview">Consente agli utenti di registrare il tempo sul progetto (sia nella scheda Aggiornamenti che nella scheda Attività). Se desideri impedire agli utenti di registrare il tempo a livello di progetto, lascia deselezionata questa opzione.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Registra tempo suoi progetti completi</span></td>
+      <td><span class="preview">Consente agli utenti di registrare il tempo su un progetto contrassegnato come completato. Se questa opzione è disabilitata, gli utenti non possono registrare il tempo del lavoro che hanno completato sui progetti nello stato Completo.</span></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Registra tempo suoi progetti inattivi</span></td> 
+      <td><span class="preview">Quando questa opzione è abilitata, gli utenti possono accedere alle ore dei progetti con stato Dead.</span></td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >Questa preferenza viene applicata in base alla configurazione delle preferenze dell&#39;utente per il gruppo home. Se queste impostazioni sono abilitate nelle preferenze Gruppo Home dell’utente, potranno registrare il tempo direttamente sui progetti, compresi i progetti completati o non più disponibili, indipendentemente dal fatto che le preferenze di gruppo del progetto lo consentano o meno.
+
+1. In **Fogli temporali pre-popolati** configura una delle seguenti opzioni:
 
    <table style="table-layout:auto"> 
     <col> 

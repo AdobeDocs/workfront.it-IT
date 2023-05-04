@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1310'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ult
     </tbody> 
    </table>
 
-1. In **[!UICONTROL Tempo di registrazione]** configura una delle seguenti opzioni:
+1. In **[!UICONTROL Dove gli utenti possono registrare il tempo]** configura una delle seguenti opzioni:
 
    <table style="table-layout:auto">
     <tr>
@@ -110,7 +110,7 @@ Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ult
     </tr>
    </table>
 
-1. In **[!UICONTROL Precompilazione dei fogli preselezionati con]**&#x200B; sezione , configura una delle seguenti opzioni:
+1. In **[!UICONTROL Fogli temporali precompilati]** configura una delle seguenti opzioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -135,11 +135,7 @@ Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ult
     </tbody> 
    </table>
 
-1. In **[!UICONTROL Preferenze di eliminazione di progetti, attività o problemi]** specifica quanto segue:
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Better title would be Deleting projects, tasks, and issues</p>
-   -->
+1. In **[!UICONTROL Progetti, attività e problemi eliminati]** specifica quanto segue:
 
    <table style="table-layout:auto"> 
     <col> 
