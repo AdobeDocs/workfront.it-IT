@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 7ee8257daa6b621d1b69d784717a13818ea9e098
+source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,41 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Miglioramenti all’integrazione](#integration-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
+### Miglioramenti dell’amministratore
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzione</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Controllo a livello di gruppo disponibile per la scheda attività e la preferenza ora "Dove gli utenti possono registrare l'ora"</a> <span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <p>L'amministratore di sistema ora può bloccare e sbloccare la scheda attività e le preferenze relative alle ore in cui gli utenti possono registrare l'ora. Quando questa preferenza viene sbloccata, gli amministratori di gruppo possono configurare le impostazioni "Dove gli utenti possono registrare l'ora" separatamente per ciascun gruppo.</p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 4 maggio 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versione di produzione: Con la versione 23.3</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### Miglioramenti di Agile
 
 <table>
@@ -48,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Filtri semplici aggiunti al modello di bacheca dinamica</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md" class="MCXref xref" xrefformat="{para}">Filtri semplici aggiunti al modello di bacheca dinamica</a></p>
                         <p>I filtri nel modello di bacheca dinamica sono stati semplificati per consentire di creare una bacheca più rapidamente.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
