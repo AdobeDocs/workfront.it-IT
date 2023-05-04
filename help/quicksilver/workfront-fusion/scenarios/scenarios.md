@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: dcc4d37af99bae36ba5592cb4ca82ff473ec1cb5
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Questa sezione contiene i seguenti articoli:
 * [Esecuzione di scenari, cicli e fasi in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md)
 * [Visualizzare la cronologia di esecuzione di uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-scenario-execution-history.md)
 * [Visualizzare e risolvere le esecuzioni incomplete in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
+* [Visualizza e gestisci gli scenari bloccati in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [Pianifica uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md)
 * [Attiva o disattiva uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
 * [Aggiungi un filtro a uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
@@ -41,3 +42,4 @@ Questa sezione contiene i seguenti articoli:
 * [[!DNL Adobe Workfront Fusion] esempio di scenario: Connessione di e-mail, [!UICONTROL Analizzatore di testo]e [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Ripristinare una versione di uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Copiare moduli o scenari in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
+* [Visualizza e gestisci gli scenari bloccati in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
