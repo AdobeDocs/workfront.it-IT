@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 122751851792dfecd062f156f804827cb732c40b
+source-git-commit: a683108ded1e7b022f0179832afaa1da0b81709c
 workflow-type: tm+mt
-source-wordcount: '12940'
+source-wordcount: '12957'
 ht-degree: 1%
 
 ---
@@ -183,7 +183,10 @@ ht-degree: 1%
          * [Pianificazione dello scenario Workfront con la versione 20.3 - 14 agosto 2020](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
       * Attività di rilascio degli obiettivi di Adobe Workfront {#goals-release}
          * [Attività di rilascio degli obiettivi di Adobe Workfront](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-         * Obiettivi con la versione 23.1 {#goals-23-2}
+         * Obiettivi con la versione 23.3 {#goals-23-3}
+            * [Obiettivi di Adobe Workfront con la versione 23.3](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
+            * [Attività di rilascio degli obiettivi di Adobe Workfront 23.3: Settimana del 1° maggio 2023](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
+         * Obiettivi con la versione 23.2 {#goals-23-2}
             * [Obiettivi di Adobe Workfront con la versione 23.2](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
             * [Attività di rilascio degli obiettivi di Adobe Workfront 23.2: Settimana del 20 marzo 2023](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
          * Obiettivi con la versione 23.1 {#goals-23-1}
