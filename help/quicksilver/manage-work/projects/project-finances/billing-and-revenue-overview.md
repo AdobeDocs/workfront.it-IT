@@ -7,7 +7,7 @@ description: In qualità di project manager, puoi utilizzare le tariffe di fattu
 author: Alina
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: 518a552845598a30fd547d432aa9d22dfef6ec8e
+source-git-commit: 3649e206a294918e7dc42d75bab6538609d22d20
 workflow-type: tm+mt
 source-wordcount: '3313'
 ht-degree: 0%
@@ -98,7 +98,7 @@ Workfront può tenere traccia automaticamente dei ricavi pianificati quando le a
 
 Inoltre, può tenere traccia automaticamente dei ricavi effettivi quando le ore effettive sono registrate sulle attività, sui problemi e sul progetto.
 
-Nella tabella seguente sono illustrati i tipi di ricavi associati a attività, problemi e progetti.
+La tabella seguente mostra i tipi di ricavi associati a attività, problemi e progetti.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -106,7 +106,7 @@ Nella tabella seguente sono illustrati i tipi di ricavi associati a attività, p
  <tbody> 
   <tr> 
    <td role="rowheader">Reddito Pianificato</td> 
-   <td> <p>Per le attività, si tratta dei ricavi associati all'orario pianificato delle attività. Le ore pianificate di tutte le attività si estendono fino alle ore pianificate del progetto per contribuire al calcolo delle ore pianificate del progetto. </p> <p>Per ulteriori informazioni sulle ore pianificate in Workfront, vedi <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Panoramica sull’orario pianificato</a>. </p> <p>Workfront calcola i ricavi pianificati per attività e progetti utilizzando le seguenti formule:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) +&nbsp;Fixed Revenue</code> </p> 
+   <td> <p>Per le attività, si tratta dei ricavi associati all'orario pianificato delle attività. Le ore pianificate di tutte le attività si estendono fino alle ore pianificate del progetto per contribuire al calcolo delle ore pianificate del progetto. </p> <p>Per ulteriori informazioni sulle ore pianificate in Workfront, vedi <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Panoramica sull’orario pianificato</a>. </p> <p>Workfront calcola i ricavi pianificati per attività e progetti utilizzando le seguenti formule:</p> <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code> </p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code> </p> 
    <p><b>NOTA</b>
 
 <p>I ricavi pianificati del progetto visualizzati nell'area Dettagli progetto e nei rapporti sul progetto sono diversi dai ricavi pianificati visualizzati nel rapporto Utilizzo. </p> <p>I ricavi pianificati nell'area Dettagli progetto riflettono i ricavi delle attività associati all'attività Ore pianificate e i ricavi fissi del progetto. Nel rapporto Utilizzo dei ricavi pianificati vengono visualizzati i ricavi pianificati associati solo alle ore pianificate delle assegnazioni delle attività nel progetto. </p> 
@@ -120,7 +120,7 @@ Nella tabella seguente sono illustrati i tipi di ricavi associati a attività, p
   </tr> 
   <tr> 
    <td role="rowheader">Reddito Reale*</td> 
-   <td> <p>Associato all'orario effettivo di attività, problemi e progetti. </p> <p>In genere, Workfront calcola i ricavi effettivi utilizzando questa formula:</p> <p><code>Planned Revenue = Planned Hours * Billing rate</code> </p> <p>Per informazioni sui calcoli dei ricavi effettivi nel rapporto Utilizzo, vedi <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visualizza informazioni sull’utilizzo delle risorse </a>. </p> <p><b>SUGGERIMENTO</b>
+   <td> <p>Associato all'orario effettivo di attività, problemi e progetti. </p> <p>In genere, Workfront calcola i ricavi effettivi utilizzando questa formula:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p>Per informazioni sui calcoli dei ricavi effettivi nel rapporto Utilizzo, vedi <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visualizza informazioni sull’utilizzo delle risorse </a>. </p> <p><b>SUGGERIMENTO</b>
 
 Non è possibile visualizzare i ricavi effettivi a livello di problema, ma i ricavi associati alle ore effettive sui problemi contribuiscono ai ricavi effettivi del progetto. </p> </td>
 </tr> 
