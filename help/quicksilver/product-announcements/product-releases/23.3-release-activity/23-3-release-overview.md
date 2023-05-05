@@ -4,7 +4,7 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
+source-git-commit: d6e9c2b6873f7b74c949a4593d952171e16d9ea1
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 0%
@@ -129,7 +129,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                  <s><p>Versione di produzione per consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in Produzione solo tramite la funzionalità opt-in per le schede Workfront.</span></p></s>
                                  </li>
                                  <li>
-                                <p><span class="preview">Versione di produzione per tutti i clienti: 18 maggio 2020</span>3</p>
+                                <p><span class="preview">Versione di produzione per tutti i clienti: 18 maggio 2023</span></p>
                             </li>
                         </ul>
                     </td>
