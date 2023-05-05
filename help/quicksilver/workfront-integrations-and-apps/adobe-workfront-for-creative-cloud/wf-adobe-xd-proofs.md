@@ -6,9 +6,9 @@ description: Puoi caricare le tue tavole da disegno come bozze direttamente in A
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: d0afdfc7be9177f6ff45dcc247253faa9dc57967
+source-git-commit: d5255968a96452d9501a285408f67be7da10d933
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '1007'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!TIP]
    >
-   >Per selezionare più tavole da disegno, fate clic e trascinate il mouse sulle tavole da disegno desiderate.
+   >* Le tavole da disegno vengono visualizzate nella bozza nell’ordine in cui sono state selezionate. La prima tavola da disegno selezionata sarà la prima pagina della bozza e così via.
+   >* Per selezionare rapidamente più tavole da disegno, fate clic e trascinate il mouse sulle tavole da disegno desiderate. Questo non consente di controllare l’ordine delle tavole da disegno nella bozza.
+
 
 1. Abilita **[!UICONTROL Creare una bozza]**.
 
