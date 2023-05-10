@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 5ee2e5c279c8133b1a9441b804d6205111f6fc10
+source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
 workflow-type: tm+mt
-source-wordcount: '12962'
+source-wordcount: '12984'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 1%
          * [Settimana delle attività di rilascio del 23.3 del 17 aprile 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
          * [Settimana delle attività di rilascio del 23.3 del 24 aprile 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
          * [Settimana delle attività di rilascio 23.3 del 1° maggio 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
+         * [Settimana delle attività di rilascio 23.3 dell’8 maggio 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
          * [Scopri gli aggiornamenti durante il periodo di tempo di rilascio 23.3](product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
          * [Panoramica sulla versione 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
@@ -207,6 +208,9 @@ ht-degree: 1%
          * [Obiettivi di Workfront con la versione 20.4](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Obiettivi di Workfront con la versione 20.3 - 14 agosto 2020](product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
       * Attività di rilascio delle prove di Workfront {#proof-release}
+         * Prova con versione 23.3 {#proof-23-3-release}
+            * [Prova di Adobe Workfront con la versione 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Attività di rilascio di Adobe Workfront Proof 23.3: Settimana dell’8 maggio 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Attività di rilascio della bozza di Workfront: Settimana del 17 maggio 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Attività di rilascio della bozza di Workfront: Settimana del 29 novembre 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * Archivio delle versioni trimestrali {#quarterly-release}
