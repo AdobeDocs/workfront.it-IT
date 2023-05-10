@@ -5,9 +5,9 @@ title: Glossario di [!DNL Adobe Workfront] terminologia
 description: La [!DNL Adobe Workfront] Il glossario elenca i termini comunemente utilizzati in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '19387'
+source-wordcount: '19399'
 ht-degree: 0%
 
 ---
@@ -265,7 +265,7 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
 
 <tr> 
    <td>[!UICONTROL Branding]</td> 
-   <td>Il processo di personalizzazione [!DNL Workfront] per dare all'interfaccia un aspetto che rispecchia la tua azienda utilizzando i tuoi colori e loghi.</td> 
+   <td><p>Il processo di personalizzazione [!DNL Workfront] per dare all'interfaccia un aspetto che rispecchia la tua azienda utilizzando i tuoi colori e loghi.</p><p><strong>NOTA</strong><br>Se l’organizzazione è stata integrata in [!DNL Adobe Experience Cloud], il branding non è disponibile.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Breadcrumb]</td> 

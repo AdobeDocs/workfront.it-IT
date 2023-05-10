@@ -3,11 +3,11 @@ content-type: overview
 title: Panoramica della barra di navigazione superiore
 description: Barra di navigazione superiore, visualizzata nella parte superiore dello schermo nella nuova [!DNL Adobe Workfront] experience (esperienza) - consente di trovare e navigare facilmente in altre aree della piattaforma.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: d8ca244e430f8a0e96b201bf09eba8b83b774a57
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -21,8 +21,6 @@ La barra di navigazione superiore, visualizzata nella parte superiore dello sche
 ## [!UICONTROL Icona Home]
 
 La **[!UICONTROL Pagina principale]** icona ![](assets/home-icon.png) ti porta al [!UICONTROL Pagina principale] , che è la pagina di destinazione predefinita. Per ulteriori informazioni su Home, consulta [Utilizza la [!UICONTROL Pagina principale] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-
-Un [!DNL Adobe Workfront] l&#39;amministratore può personalizzare [!UICONTROL Pagina principale] per far corrispondere il marchio della tua azienda. Per ulteriori informazioni, consulta [Marca il tuo [!DNL Adobe Workfront] istanza](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Pagine bloccate
 
@@ -59,6 +57,12 @@ La **[!UICONTROL Ricerca]** icona ![](assets/search-icon.png) nell’angolo in a
 Per ulteriori informazioni sulla ricerca, consulta [Ricerca [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## [!UICONTROL Menu principale]
+
+>[!IMPORTANT]
+>
+>Il menu principale descritto in questa pagina si applica solo alle organizzazioni per le quali non è ancora stato effettuato l’onboarding [!DNL Adobe Experience Cloud].
+>
+> Se l’organizzazione è stata integrata in [!DNL Adobe Experience Cloud], vedi [[!DNL Adobe Unified Experience] per [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 La **[!UICONTROL Menu principale]** icona ![Menu principale](assets/main-menu-icon.png) apre [!UICONTROL Menu principale], che consente di passare a un’area diversa di Workfront.
 

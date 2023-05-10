@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Esci [!DNL Adobe Workfront]
 description: Per motivi di sicurezza, è importante disconnettersi [!DNL Adobe Workfront] regolarmente. Per impostazione predefinita, [!DNL Workfront] disconnette automaticamente gli utenti dopo 8 ore di inattività.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 0dd5577fc937a98900fab17fb434b70e023385af
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,12 @@ Per motivi di sicurezza, è importante disconnettersi [!DNL Adobe Workfront] reg
 >TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
 ></MadCap:conditionalText>
 -->
+
+>[!IMPORTANT]
+>
+>La procedura descritta in questa pagina si applica solo alle organizzazioni per le quali non è ancora stato effettuato l’onboarding [!DNL Adobe Experience Cloud].
+>
+> Se l’organizzazione è stata integrata in [!DNL Adobe Experience Cloud], per disconnetterti, fai clic sull’immagine del tuo profilo nella navigazione superiore e seleziona [!UICONTROL **Esci**] dal menu. Per ulteriori informazioni, consulta [[!DNL Adobe Unified Experience] per [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Requisiti di accesso
 

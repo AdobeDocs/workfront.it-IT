@@ -8,14 +8,20 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Marchio Adobe Workfront utilizzando un modello di layout
+
+>[!IMPORTANT]
+>
+>La procedura descritta in questa pagina si applica solo alle organizzazioni per le quali non è ancora stato effettuato l’onboarding [!DNL Adobe Experience Cloud].
+>
+> Se l’organizzazione è stata integrata in [!DNL Adobe Experience Cloud], il branding non è disponibile.
 
 È possibile utilizzare un modello di layout per personalizzare i loghi nell’area di navigazione superiore e nel menu principale per determinati gruppi, team, ruoli e utenti. Questo è particolarmente utile per i gruppi di una grande organizzazione che hanno il proprio marchio.
 
@@ -23,7 +29,7 @@ Per informazioni sui modelli di layout per gruppi, consulta [Creare e modificare
 
 >[!NOTE]
 >
->Un amministratore Workfront può effettuare le stesse personalizzazioni di branding per l’intera organizzazione a livello di sistema, come spiegato in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Tuttavia, il branding in un modello di layout sostituisce il branding a livello di sistema. >
+>Un amministratore Workfront può effettuare le stesse personalizzazioni di branding per l’intera organizzazione a livello di sistema, come spiegato in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). Tuttavia, il branding in un modello di layout sostituisce il branding a livello di sistema.
 ><!--
 >Maybe add a section about deleting these 2 settings to revert to default branding?
 >-->
