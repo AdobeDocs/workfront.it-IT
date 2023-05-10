@@ -7,7 +7,7 @@ description: Un oggetto risolvibile è un problema la cui risoluzione è legata 
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: cd0adf2bd44a5c9f093e005b5af54b54ad019e34
+source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
 workflow-type: tm+mt
 source-wordcount: '1732'
 ht-degree: 1%
@@ -129,7 +129,7 @@ Quando un problema è l&#39;oggetto risolvibile di un&#39;attività o di un prog
 * [Sincronizzare lo stato predefinito dell&#39;oggetto di risoluzione con lo stato predefinito dell&#39;oggetto risolvibile](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Sincronizzazione dello stato personalizzato dell&#39;oggetto di risoluzione con lo stato personalizzato dell&#39;oggetto risolvibile](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
 
-#### Sincronizza lo stato predefinito dell&#39;oggetto di risoluzione con lo stato predefinito dell&#39;oggetto risolvibile {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
+#### Sincronizzare lo stato predefinito dell&#39;oggetto di risoluzione con lo stato predefinito dell&#39;oggetto risolvibile {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
 
 Indipendentemente dal fatto che lo stato &quot;Aggiorna automaticamente il problema risolvibile quando lo stato dell&#39;opzione Risolvi oggetto cambia&quot; sia selezionato, ogni volta che lo stato predefinito cambia sugli oggetti di risoluzione (progetti o attività), lo stato dell&#39;oggetto risolvibile (problemi) cambia di conseguenza. Solo gli stati predefiniti sono già mappati per attivare tale modifica.
 
@@ -169,7 +169,7 @@ Quando si modifica lo stato dell&#39;attività o del progetto in uno stato perso
 
 Puoi creare stati personalizzati con la stessa chiave per problemi e progetti o attività. Quando il progetto o l’attività (come oggetto di risoluzione) viene modificato in stato personalizzato, la modifica riflette anche lo stato del problema. La chiave di stato deve essere la stessa per il problema e lo stato del progetto o dell&#39;attività.
 
-Ad esempio, crea uno stato personalizzato del progetto denominato &quot;Avviato&quot; con il codice a tre lettere &quot;LCD&quot; che equivale a &quot;Corrente&quot;. Inoltre, crea uno stato personalizzato del problema denominato &quot;Progetto avviato&quot;, anche con il codice lettera &quot;LCD&quot; che equivale a &quot;In corso&quot;. Quando contrassegni il progetto come &quot;Avviato&quot;, lo stato cambia automaticamente in &quot;Progetto avviato&quot;. Se gli stati del problema &quot;Imposta automaticamente***set in modo che corrispondano all&#39;oggetto risolvibile utilizzando le chiavi di stato&quot; non sono stati abilitati, lo stato del problema viene modificato in &quot;In corso&quot; (lo stato predefinito).
+Ad esempio, crea uno stato personalizzato del progetto denominato &quot;Avviato&quot; con il codice a tre lettere &quot;LCD&quot; che equivale a &quot;Corrente&quot;. Inoltre, crea uno stato personalizzato del problema denominato &quot;Progetto avviato&quot;, anche con il codice lettera &quot;LCD&quot; che equivale a &quot;In corso&quot;. Quando contrassegni il progetto come &quot;Avviato&quot;, lo stato cambia automaticamente in &quot;Progetto avviato&quot;. Se lo stato del problema &quot;Aggiorna automaticamente lo stato del problema risolvibile quando lo stato dell&#39;impostazione Resolving Object changes&quot; non è stato abilitato, lo stato del problema diventa &quot;In corso&quot; (lo stato predefinito).
 
 Per ulteriori informazioni sulla creazione di uno stato personalizzato, consulta [Creare o modificare uno stato](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
