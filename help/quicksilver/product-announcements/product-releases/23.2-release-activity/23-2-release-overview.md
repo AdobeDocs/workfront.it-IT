@@ -5,7 +5,7 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
+source-git-commit: da05e02c51627cd732517dbce729bf28e65db63b
 workflow-type: tm+mt
 source-wordcount: '2730'
 ht-degree: 0%
@@ -347,7 +347,7 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                                 <p>Anteprima versione: 9 marzo 2023<br /></p>
                             </li>
                             <li>
-                                 <p><span class="preview">Versione di produzione: A partire dal 23 marzo, verrà rilasciato in produzione in un rollout graduale che sarà completato l’11 maggio 2023</span></p>
+                                 <p><span class="preview">Versione di produzione: A partire dal 23 marzo, verrà rilasciato in produzione in un rollout graduale che sarà completato dopo l’11 maggio 2023</span></p>
                             </li>
                         </ul>
                     </td>
