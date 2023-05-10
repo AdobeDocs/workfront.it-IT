@@ -4,13 +4,13 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: c3ab0f47d8cb31094eb39e314ff11099a647a9f9
+exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '2677'
+source-wordcount: '2730'
 ht-degree: 0%
 
 ---
-
 
 # Panoramica sulla versione 23.2
 
@@ -52,6 +52,22 @@ Invece di un webinar sulla versione, ti invitiamo ad Adobe Summit a registrarti 
                     <td>
                         <p><span class="bold">Date di rilascio</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Mappare i valori dei campi Workfront ai tag in Experience Manager Assets</a>
+                        <p>Ora puoi classificare e trovare rapidamente le risorse in base ai dati provenienti da Workfront.  Puoi mappare questi dati come parte della configurazione dei metadati nell’integrazione Workfront for Experience Manager Assets.</p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: N/D<br /></p>
+                            </li>
+                            <li>
+                                 <p>Versione di produzione: 30 marzo 2023</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

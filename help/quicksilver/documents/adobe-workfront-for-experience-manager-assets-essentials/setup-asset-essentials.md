@@ -6,10 +6,10 @@ description: Collega il tuo lavoro con i contenuti in Experience Manager Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b874cb1a99840db11d6d55c86b7f779aa3e6ef35
+source-git-commit: 9965ec9f436724e438fbbc5977f22761cc673878
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '643'
+ht-degree: 4%
 
 ---
 
@@ -109,6 +109,23 @@ Prima di iniziare, devi
 * Configurare uno schema di metadati in Experience Manager Assets Essentials come spiegato in [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * (Facoltativo) Configura campi modulo personalizzati in Workfront. Workfront dispone di molti campi personalizzati incorporati che è possibile utilizzare. Tuttavia, puoi anche creare campi personalizzati. Per ulteriori informazioni, consulta [Creare o modificare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
++++ **Campi Workfront e Experience Manager Assets supportati**
+
+**Parola chiave AEM**
+
+È possibile mappare qualsiasi campo supportato da Workfront su una parola chiave in Experience Manager Assets Essentials.
+
+Per collegare un campo a una parola chiave, seleziona `dc:subject` nell’elenco a discesa Campo Experience Manager Assets nell’area di mappatura metadati.
+
+Per mappare più campi di testo a riga singola su parole chiave, immetti un elenco separato da virgole dei valori delle parole chiave nel lato Workfront della mappatura metadati e `dc:subject` sul lato Experience Manager Assets. Ogni valore di campo è associato a una parola chiave separata. È possibile utilizzare un campo calcolato per combinare più campi Workfront in un singolo campo di testo separato da virgole.
+
+<!--
+Look for essentials article
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
+-->
+
++++
+
 
 ### Risorse
 
@@ -119,6 +136,8 @@ I metadati vengono mappati quando una risorsa viene inviata da Workfront per la 
    >
    >È possibile mappare un singolo campo Workfront su più campi Experience Manager Assets. Non è possibile mappare più campi Workfront su un singolo campo Experience Manager Assets.
 1. In **Experience Manager** scegliere un campo Experience Manager Assets.
+
+   Per mappare un campo Workfront a un tag Experience Manager Assets, seleziona `dc:subject`.
 1. Ripetere i passaggi 1 e 2 come necessario.
    ![abilitare i metadati](assets/metadata-assets-essentials.png)
 1. Fai clic su **Salva** o passare alla [Imposta cartelle collegate (facoltativo)](#set-up-linked-folders-optional) in questo articolo.
