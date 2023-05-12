@@ -6,9 +6,9 @@ title: Accesso anticipato per [!DNL Adobe Workfront] Schede
 description: Leggi questo articolo per saperne di più [!DNL Workfront Boards] funzionalità opt-in iniziale.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: f77a44a31e57ad8430b162b1c5e6ef355b5fe74d
+source-git-commit: 9278d70e5a44b0dbd26dec705f51d132792418ed
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
@@ -174,7 +174,7 @@ La tabella seguente illustra le principali funzioni delle bacheche e il loro sta
   </tr>
   <tr>
    <td>Utilizzare filtri semplificati nella colonna di assunzione</td>
-   <td>Pianificato</td>
+   <td>Rilasciato parzialmente</td>
   </tr>
  </tbody> 
 </table>

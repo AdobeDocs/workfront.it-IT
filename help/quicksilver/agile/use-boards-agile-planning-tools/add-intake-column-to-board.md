@@ -7,9 +7,9 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di assun
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 81d68656c5dc4811884cde53193139856f290f4d
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
 
-## Creare una colonna di assunzione
+## Creare una colonna di assunzione utilizzando filtri semplici
+
+>[!NOTE]
+>
+>I filtri semplici sono disponibili solo tramite la funzionalità opt-in iniziale per le schede Adobe Workfront.
 
 1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **[!UICONTROL Schede]**.
 1. Accedete a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
@@ -57,11 +61,38 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Espandi **[!UICONTROL Scheda]**.
 1. Attiva **[!UICONTROL Assorbimento dinamico di elementi a bordo]**.
 
-   ![Crea colonna di aspirazione](assets/create-intake-column2.png)
+   ![Opzioni filtro semplici per le colonne di entrata](assets/intake-column-simple-filters.png)
 
    La colonna di assunzione viene aggiunta a sinistra della tavola. Rimane vuoto finché non vengono applicati filtri.
 
+1. (Facoltativo) Cerca e seleziona [!DNL Workfront] [!UICONTROL **Progetti**].
+1. (Facoltativo) Cerca e seleziona l’utente o il team [!UICONTROL **Assegnazioni**].
+1. Seleziona [!UICONTROL **Includi lavoro completato**] per visualizzare le attività e i problemi con uno stato Completo nella colonna di assunzione.
+
+   >[!NOTE]
+   >
+   >Se questa opzione non è selezionata, quando le schede in altri stati sono contrassegnate come complete, verranno &quot;ritirate&quot; dalla bacheca e non verranno più visualizzate.
+
+1. Fai clic su [!UICONTROL **Applica**].
+
+   Tutti gli oggetti vengono visualizzati nella colonna di immissione della bacheca come schede collegate.
+
+   ![Colonna acquisizione](assets/intake-column-added3.png)
+
+## Creare una colonna di input utilizzando filtri avanzati
+
+1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **[!UICONTROL Schede]**.
+1. Accedete a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
+1. Fai clic su **[!UICONTROL Configura]** sulla destra della bacheca per aprire il pannello Configura .
+1. Espandi **[!UICONTROL Scheda]**.
+1. Attiva **[!UICONTROL Assorbimento dinamico di elementi a bordo]**.
+
+   La colonna di assunzione viene aggiunta a sinistra della tavola. Rimane vuoto finché non vengono applicati filtri.
+
+1. Fai clic su [!UICONTROL **Utilizzare filtri avanzati**].
 1. Fai clic su **[!UICONTROL Origini del filtro]** e seleziona **[!UICONTROL Attività]** o **[!UICONTROL Problemi]**.
+
+   ![Opzioni filtro avanzate della colonna di input](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
@@ -97,15 +128,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![Colonna acquisizione](assets/intake-column-added3.png)
 
-   Le schede nella colonna di assunzione non sono modificabili finché non le si spostano in altre colonne della bacheca. Potete fare clic sulla scheda per aprirla in una visualizzazione di sola lettura oppure fare clic su ![Apri attività o problema](assets/boards-launch-icon.png) per aprire l’attività o il problema in una nuova scheda del browser.
-
-   Potete riordinare manualmente gli elementi nella colonna di assunzione.
-
-   Le icone in alto a destra della colonna di assunzione mostrano il numero di schede attualmente presenti nella colonna e il numero di filtri applicati.
-
    >[!NOTE]
    >
    >Per aggiornare i filtri in qualsiasi momento, apri il pannello Configura e fai clic su **[!UICONTROL Origini del filtro]** e selezionando **[!UICONTROL Attività]** o **[!UICONTROL Problemi]**.
+
+## Utilizzare la colonna di assunzione
+
+Le schede nella colonna di assunzione non sono modificabili finché non le si spostano in altre colonne della bacheca. Potete fare clic sulla scheda per aprirla in una visualizzazione di sola lettura oppure fare clic su ![Apri attività o problema](assets/boards-launch-icon.png) per aprire l’attività o il problema in una nuova scheda del browser.
+
+
+Potete riordinare manualmente gli elementi nella colonna di assunzione.
+
+Le icone in alto a destra della colonna di assunzione mostrano il numero di schede attualmente presenti nella colonna e il numero di filtri applicati.
 
 1. (Facoltativo) Per cercare un elemento nella colonna di assunzione, fare clic su ![Icona Ricerca](assets/search-icon.png) nella colonna .
 1. (Facoltativo) Per spostare una scheda dalla colonna di assunzione in un&#39;altra colonna, trascinate la scheda nella posizione desiderata.

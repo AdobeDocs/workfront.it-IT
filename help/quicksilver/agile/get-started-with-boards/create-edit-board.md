@@ -6,9 +6,9 @@ description: Da [!UICONTROL bacheche] Potete creare una nuova bacheca o modifica
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: f6bee61bbfbac98595d737fa002bbe01c0c573dc
+source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '736'
 ht-degree: 3%
 
 ---
@@ -62,6 +62,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       Tutti gli oggetti vengono visualizzati sulla bacheca come schede collegate.
 
       La [!UICONTROL **Schede aggiunte**] Il contatore indica quante schede saranno presenti sulla bacheca. Ad esempio, se selezioni un progetto con 100 attività e problemi, il contatore ne mostra 100. Se si aggiunge un&#39;assegnazione utente e tale persona viene assegnata a 5 attività del progetto, il contatore mostra 5.
+
+   1. (Facoltativo) Seleziona [!UICONTROL **Includi lavoro completato**] per includere schede completate sulla bacheca.
+
+      >[!NOTE]
+      >
+      >Se questa opzione non è selezionata, quando le schede in altri stati sono contrassegnate come complete, verranno &quot;ritirate&quot; dalla bacheca e non verranno più visualizzate.
 
    1. (Facoltativo) Fai clic su [!UICONTROL **Utilizzare filtri avanzati**] per visualizzare opzioni di filtro aggiuntive.
 
