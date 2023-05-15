@@ -6,9 +6,9 @@ description: È possibile aggiungere documenti a progetti, attività o problemi 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: c4ec9363bdcf683b4b56eedee17ebf4388e6cee2
+source-git-commit: fe9f1da23f1196dac468ec33aae776950ce49f2c
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '727'
 ht-degree: 1%
 
 ---
@@ -111,8 +111,13 @@ Il sito Workfront impedisce l&#39;accesso al sito di virus e altri contenuti dan
 
 ### Come Workfront rileva i file danneggiati {#how-workfront-detects-corrupted-files}
 
-Workfront esegue la ricerca di virus durante il caricamento di un documento. Se si tenta di caricare un documento danneggiato, Workfront interrompe il processo di caricamento e viene visualizzato un messaggio che indica che il file è danneggiato. Ricevi anche una notifica e-mail quando Workfront rileva contenuti potenzialmente dannosi e il file è destinato alla rimozione.\
-Tutti i file danneggiati vengono rimossi entro 24 ore dal rilevamento, a meno che tu non lo rimuova manualmente. Se elimini un file danneggiato, Workfront tiene traccia di questa azione come aggiornamento. Se si consente a Workfront di rimuoverlo, non vengono registrati aggiornamenti.
+La scansione dei documenti è abilitata per la tua organizzazione solo su richiesta.
+
+Se la scansione dei documenti è abilitata, i file di dimensioni inferiori a 25 MB vengono analizzati al momento del caricamento. I file superiori a 25 MB non vengono analizzati.
+
+Se Workfront rileva un documento danneggiato, Workfront interrompe il processo di caricamento e viene visualizzato un messaggio che indica che il file è danneggiato. Ricevi anche una notifica e-mail quando Workfront rileva contenuti potenzialmente dannosi e il file è destinato alla rimozione.
+
+I file danneggiati vengono rimossi entro 24 ore dal rilevamento, a meno che non venga rimosso manualmente. Se elimini un file danneggiato, Workfront tiene traccia di questa azione come aggiornamento. Se si consente a Workfront di rimuoverlo, non vengono registrati aggiornamenti.
 
 ### Restrizioni relative al nome file {#file-name-restrictions}
 
