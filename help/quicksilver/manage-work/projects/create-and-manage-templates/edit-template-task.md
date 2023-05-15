@@ -7,9 +7,9 @@ description: Dopo aver creato un modello, è possibile modificare le informazion
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2503'
 ht-degree: 6%
 
 ---
@@ -152,7 +152,7 @@ Prima di iniziare, devi
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Lavoro Necessario</strong> </td> 
-      <td> <p>Specifica la quantità di ore pianificate per l'attività futura sul progetto creato con questo modello. Questo è il tempo effettivo necessario agli assegnatari dell'attività per completarla. È possibile specificare solo la quantità di ore pianificate per un'attività quando la<strong>Tipo di durata</strong> è impostato su <strong>Assegnazione calcolata</strong>. </p> </td> 
+      <td> <p>Specifica il numero di ore pianificate per l'attività futura sul progetto creato con questo modello. Questo è il tempo effettivo necessario agli assegnatari dell'attività per completarla. È possibile specificare solo il numero di ore pianificate per un'attività quando la<strong>Tipo di durata</strong> è impostato su <strong>Assegnazione calcolata</strong>. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Impegno di lavoro </td> 
@@ -276,6 +276,14 @@ Prima di iniziare, devi
     <col> 
     <col> 
     <tbody> 
+   <tr> 
+      <td role="rowheader"><strong><p>Milestone</p></strong> </td> 
+      <td> <p>Scegliere un'attività cardine da associare all'attività del modello selezionata.</p>
+
+   <p><b>IMPORTANTE</b></p>
+   <p>Per visualizzare questo campo è necessario associare un percorso cardine a un modello. Per ulteriori informazioni, consulta <a href="../create-and-manage-templates/edit-templates.md">Modificare i modelli di progetto</a>.</p> 
+   </td> 
+     </tr>
      <tr> 
       <td role="rowheader"><strong>Modalità Tracciamento</strong> </td> 
       <td> <p>Specificare come verrà tracciato lo stato di avanzamento dell'attività futura. </p> <p>Seleziona tra le seguenti opzioni:</p> 
@@ -348,7 +356,7 @@ Prima di iniziare, devi
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Selezionare il modulo o i moduli personalizzati che si desidera associare all&#39;attività del modello. È necessario creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)È possibile aggiungere fino a dieci moduli personalizzati a un’attività modello. I moduli vengono aggiunti automaticamente alle attività create dal modello.
+1. Selezionare il modulo o i moduli personalizzati che si desidera associare all&#39;attività del modello. È necessario creare i moduli personalizzati prima che siano disponibili per la selezione in questo campo. Nell’elenco vengono visualizzati solo i moduli personalizzati attivi. Per ulteriori informazioni sulla creazione di moduli personalizzati, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). È possibile aggiungere fino a dieci moduli personalizzati a un&#39;attività modello. I moduli vengono aggiunti automaticamente alle attività create dal modello.
 1. (Condizionale e facoltativo) Se è stato allegato un modulo personalizzato all’attività del modello, modificare tutti i campi del modulo. È necessario specificare tutti i campi obbligatori prima di salvare l&#39;attività modello.
 
    >[!NOTE]

@@ -7,9 +7,9 @@ description: Ritardo è la quantità di tempo che deve trascorrere dopo il compl
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: ad6ade3ff700f1e73c05dfc59aa0108a5d113f2e
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1502'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,9 @@ La tabella seguente illustra i tipi di margine e come indicare il periodo di tem
   </tr> 
   <tr> 
    <td> <p>Percentuale (p o pe)</p> </td> 
-   <td> <p>Il ritardo è espresso in percentuale del tempo stimato per completare l'attività predecessore. </p> <p>Ad esempio, se esiste una dipendenza di fine inizio con un ritardo del 20% tra un'attività predecessore di 10 giorni, il sistema calcolerà il numero di giorni pari al 20% della durata dell'attività dei predecessori e lo utilizzerà come ritardo. In questo caso sarebbero 2 giorni dopo il completamento dell'attività. </p> <p>Nota: Il limite massimo di ritardo per la percentuale è del 2000%.</p> </td> 
+   <td> <p>Il ritardo è espresso in percentuale del tempo stimato per completare l'attività predecessore. </p> <p>Ad esempio, se esiste una dipendenza di fine-inizio con un ritardo del 20% su un'attività predecessore di 10 giorni, il sistema calcolerà il numero di giorni che rappresentano il 20% della durata dell'attività dei predecessori e lo utilizzerà come ritardo. In questo caso sarebbero 2 giorni dopo il completamento dell'attività. </p>
+
+<p><b>NOTA</b></p> Il limite massimo di ritardo per la percentuale è del 2000%.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Giorno della settimana (w) </p> </td> 
@@ -177,7 +179,17 @@ La tabella seguente illustra i tipi di margine e come indicare il periodo di tem
      <li>Giovedì=5</li> 
      <li>Venerdì=6</li> 
      <li>Sabato=7</li> 
-    </ul> <p>Se si desidera indicare che la data di inizio pianificata del successore deve essere impostata su un martedì della settimana corrente e il martedì è precedente alla data di completamento pianificata del predecessore, è necessario codificare il successore con la seguente formula: </p> <p><code style="font-style: normal;">4fs-3w</code> </p> <p>Nota: Se il martedì passato per la settimana della data di completamento pianificata del predecessore, la data di inizio prevista dell'attività successore è il primo giorno lavorativo disponibile della settimana. </p> <p>Se si desidera indicare che il ritardo deve essere uguale a un sabato della settimana corrente e il sabato è successivo alla data di completamento pianificata del predecessore, è necessario codificare il successore con la seguente formula:</p> <p><code style="font-style: normal;">4fs+7w</code> </p> <p>Se il sabato è un giorno non lavorativo, il giorno successivo disponibile dopo il sabato (per indicare un ritardo positivo) viene selezionato come Data inizio prevista del successore. </p> <p>Per indicare le settimane passate o future, è possibile aggiungere un numero davanti al numero del giorno per il tipo di ritardo. </p> <p>Ad esempio, per indicare il lunedì di 10 settimane fa, puoi utilizzare questo codice per indicare il predecessore del tuo successore:</p> <p><code>4fs-102w</code> </p> <p>10 indica 10 settimane fa e 2 è il numero assegnato a Lunedì. </p> </td> 
+    </ul> <p>Se si desidera indicare che la data di inizio pianificata del successore deve essere impostata su un martedì della settimana corrente e il martedì è precedente alla data di completamento pianificata del predecessore, è necessario codificare il successore con la seguente formula: </p> <p><code style="font-style: normal;">4fs-3w</code> </p>
+
+<p><b>NOTA</b></p>
+
+Se il martedì passato per la settimana della data di completamento pianificata del predecessore, la data di inizio prevista dell&#39;attività successore è il primo giorno lavorativo disponibile della settimana. </p> <p>Se si desidera indicare che il ritardo deve essere uguale a un sabato della settimana corrente e il sabato è successivo alla data di completamento pianificata del predecessore, è necessario codificare il successore con la seguente formula:</p> <p>4fs+7w</code> </p> <p>Se il sabato è un giorno non lavorativo, il giorno successivo disponibile dopo il sabato (per indicare un ritardo positivo) viene selezionato come Data inizio prevista del successore. </p>
+
+<p>Ciò non si applica alle eccezioni di pianificazione. Nel caso in cui una data sia anche un'eccezione di pianificazione e la data di inizio del successore sia calcolata come quel giorno, il sistema cerca di trovare la data disponibile più vicina, ovvero il giorno della settimana specificato nell'espressione predecessore.</p>
+
+<p>Ad esempio, se la data di inizio è calcolata come un certo martedì e quel giorno è un'eccezione di pianificazione e il ritardo del predecessore è positivo, il martedì successivo (se è anche un giorno lavorativo) verrà scelto come data di inizio del successore. Se il ritardo è negativo, il sistema sceglie il martedì precedente come data di inizio.</p>
+
+<p>Per indicare le settimane passate o future, è possibile aggiungere un numero davanti al numero del giorno per il tipo di ritardo. </p> <p>Ad esempio, per indicare il lunedì di 10 settimane fa, puoi utilizzare questo codice per indicare il predecessore del tuo successore:</p> <p><code>4fs-102w</code> </p> <p>10 indica 10 settimane fa e 2 è il numero assegnato a Lunedì. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Giorno della settimana non zero (k)</p> </td> 
