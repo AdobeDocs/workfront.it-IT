@@ -6,7 +6,7 @@ description: Puoi visualizzare il numero di decisioni relative a prove e documen
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 870e4c0a3627558d1eba0d119f4abef19d135754
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 0%
@@ -27,4 +27,4 @@ Per visualizzare il numero di decisioni per un utente:
 
 1. Apri **Viste** area, quindi scegliere **Licenze** visualizza.
 
-1. Trova la colonna **Approvazioni di questo mese** per visualizzare il numero di decisioni che ogni utente ha preso nel mese.
+1. Trova la colonna **Decide questo mese** per visualizzare il numero di decisioni che ogni utente ha preso nel mese.
