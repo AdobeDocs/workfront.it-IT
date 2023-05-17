@@ -7,9 +7,9 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di assun
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 5e73603b695ff7456216ca7a4e15ce527b01559d
+source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    La colonna di assunzione viene aggiunta a sinistra della tavola. Rimane vuoto finché non vengono applicati filtri.
 
 1. Fai clic su [!UICONTROL **Utilizzare filtri avanzati**].
-1. Fai clic su **[!UICONTROL Origini del filtro]** e seleziona **[!UICONTROL Attività]** o **[!UICONTROL Problemi]**.
+1. Fai clic su **[!UICONTROL Aggiungi origini filtro]** e seleziona **[!UICONTROL Attività]** o **[!UICONTROL Problemi]**.
 
    ![Opzioni filtro avanzate della colonna di input](assets/intake-column-advanced-filters1.png)
 
