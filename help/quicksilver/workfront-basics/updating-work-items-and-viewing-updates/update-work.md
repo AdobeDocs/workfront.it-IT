@@ -6,9 +6,9 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4383d0d8178028d13f3d97189acfcabfa5766c41
+source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3153'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.</span>
 
 >[!NOTE]
 >
@@ -271,17 +271,19 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
 1. Vai all’area Aggiornamenti e inizia a digitare un commento.
 1. (Facoltativo) Per aggiungere formattazione RTF all&#39;aggiornamento, utilizzare qualsiasi attributo **Rich Text** durante la digitazione.
 
-   | **Attributo** | **Pulsante della barra degli strumenti** | **Tasti di scelta rapida Mac** | **Tasti di scelta rapida PC** |
+   | **Attributo** | **Pulsante Barra degli strumenti** | **Tasti di scelta rapida Mac** | **Tasti di scelta rapida di Windows** |
    |---|---|---|---|
    | Bold | ![mceclip10.png](assets/mceclip10.png) | inta+b | Ctrl+B |
    | Corsivo | ![mceclip9.png](assets/mceclip9.png) | +i | Ctrl+I |
    | Sottolinea | ![mceclip8.png](assets/mceclip8.png) | +u | Ctrl+U |
-   | Collegamento ipertestuale | ![mceclip7.png](assets/mceclip7.png) | ⌘+K | Ctrl+K |
+   | Collegamento ipertestuale | ![mceclip7.png](assets/mceclip7.png) | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti : ALT+K</br> <br><span class="preview">Nell’esperienza beta dei commenti, per incollare un collegamento sul testo selezionato: +V</span></br> | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti : Ctrl+K</br> <br><span class="preview">Nell’esperienza beta dei commenti, per incollare un collegamento sul testo selezionato: Ctrl+V</span></br> |
    | Elenco puntato | ![mceclip6.png](assets/mceclip6.png) | +Maiusc+8 | Ctrl+Maiusc+8 |
    | Elenco numerato | ![mceclip5.png](assets/mceclip5.png) | +Maiusc+7 | Ctrl+Maiusc+7 |
    | Citazione | ![](assets/block-quote-icon-large.png) | +Maiusc+9 | Ctrl+Maiusc+9 |
 
    Per interrompere la formattazione del testo, deselezionare l&#39;attributo **Rich Text** barra degli strumenti.
+
+   <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
