@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+source-git-commit: 674dcf567b0c77d31072193d8cbc349bbac2029f
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Controllo a livello di gruppo disponibile per la scheda attività e la preferenza ora "Dove gli utenti possono registrare l'ora"</a> <span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md" class="MCXref xref" xrefformat="{para}">Controllo a livello di gruppo disponibile per la scheda attività e la preferenza ora "Dove gli utenti possono registrare l'ora"</a></p>
                         <p>L'amministratore di sistema ora può bloccare e sbloccare la scheda attività e le preferenze relative alle ore in cui gli utenti possono registrare l'ora. Quando questa preferenza viene sbloccata, gli amministratori di gruppo possono configurare le impostazioni "Dove gli utenti possono registrare l'ora" separatamente per ciascun gruppo.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -83,7 +83,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Filtri semplici disponibili nelle colonne di alimentazione della bacheca</a><span style="color: #ff0000;"> Novità in Anteprima!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Filtri semplici disponibili nelle colonne di alimentazione della bacheca</a></p>
                         <p>Sono stati aggiunti filtri semplificati alla configurazione della colonna di assunzione per consentire di definire più rapidamente la colonna di assunzione. I filtri disponibili sono progetti Workfront e assegnazioni per team o utente. Se lo desideri, puoi passare ai filtri avanzati.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -205,7 +205,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mappare i valori dei campi Workfront ai tag in Experience Manager Assets</a><span style="color: #ff0000;"> Novità nella produzione!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Creazione automatica di cartelle collegate ad Adobe Experience Manager Assets durante la creazione di un progetto</a><span style="color: #ff0000;"> Novità nella produzione!</span></p>
+                        <p>Con il nuovo flusso di lavoro Crea cartella collegata per l’integrazione Adobe Experience Manager, puoi configurare l’integrazione con un percorso di una cartella Adobe Experience Manager Assets. Quando l’integrazione viene aggiunta a un modello di progetto, tutti i progetti creati dal modello creeranno automaticamente una sottocartella collegata in Experience Manager Assets nella cartella specificata. </p>
+                    </td>
+                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 11 maggio 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versione di produzione: 18 maggio 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mappare i valori dei campi Workfront ai tag in Experience Manager Assets</a></p>
                         <p>Ora puoi classificare e trovare rapidamente le risorse in base ai dati provenienti da Workfront. Puoi mappare questi dati come parte della configurazione dei metadati nell’integrazione Workfront for Experience Manager Assets.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
@@ -221,7 +237,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mappatura di campi Workfront a campi di metadati Experience Manager Assets personalizzati</a><span style="color: #ff0000;"> Novità nella produzione!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md" class="MCXref xref" xrefformat="{para}">Mappatura di campi Workfront a campi di metadati Experience Manager Assets personalizzati</a></p>
                         <p>Con l’integrazione nativa, ora puoi mappare campi Workfront nativi e incorporati in campi di schema metadati personalizzati in Experience Manager Assets as a Cloud Service.</p>
                     </td>
                     <td><p><b>Disponibile alle seguenti date:</b></p>
