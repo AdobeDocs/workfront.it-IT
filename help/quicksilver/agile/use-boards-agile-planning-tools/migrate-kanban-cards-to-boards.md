@@ -5,16 +5,14 @@ title: Migrazione di schede Kanban del team agile alle schede Workfront
 description: È possibile migrare gli elementi di lavoro da una bacheca Kanban di un team agile a una bacheca Workfront nuova o esistente.
 author: Lisa
 exl-id: c40b6453-5869-437b-a1e0-f20dd833d2b8
-source-git-commit: c990b897a4e6722515c6b065ee2a5832fdc31231
+source-git-commit: a788a8d39c714463f7ea9aa32f0c5a0f050eabdc
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # Migrazione di schede Kanban del team agile alle schede Workfront
-
-{{highlighted-preview-article-level}}
 
 È possibile migrare gli elementi di lavoro da una bacheca Kanban di un team agile a una bacheca Workfront nuova o esistente. Quando esegui la migrazione, tutte le schede sulla bacheca Kanban vengono copiate nella bacheca di Workfront. Non è consentito scegliere schede specifiche.
 
