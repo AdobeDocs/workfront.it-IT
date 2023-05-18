@@ -9,21 +9,19 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 3b0a82381d1c33d897b123a597df21ba54cc2565
+source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Configurare le preferenze relative a schede attività e ora per un gruppo
 
-{{highlighted-preview}}
-
 Un amministratore di Adobe Workfront può sbloccare le sezioni seguenti delle preferenze relative alla scheda attività e alle ore a livello di sistema, in modo che gli amministratori dei gruppi possano configurarle in modo indipendente per i propri gruppi:
 
 * Preferenze generali
-* <span class="preview">Dove gli utenti possono registrare le ore</span>
+* Dove gli utenti possono registrare le ore
 * Fogli temporali pre-popolati
 
 Se ci sono gruppi al di sopra del gruppo che gestisci, i loro amministratori possono farlo anche per il tuo gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
@@ -136,23 +134,23 @@ Considera le seguenti informazioni sulla configurazione di una scheda attività 
     </tbody> 
    </table>
 
-1. <span class="preview">In **Dove gli utenti possono registrare il tempo** configura una delle seguenti opzioni:</span>
+1. In **Dove gli utenti possono registrare il tempo** configura una delle seguenti opzioni:
 
    <table style="table-layout:auto">
     <col>
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="preview">Registra tempo direttamente sui progetti</span></td> 
-      <td><span class="preview">Consente agli utenti di registrare il tempo sul progetto (sia nella scheda Aggiornamenti che nella scheda Attività). Se desideri impedire agli utenti di registrare il tempo a livello di progetto, lascia deselezionata questa opzione.</span></td>
+      <td role="rowheader">Registra tempo direttamente sui progetti</td> 
+      <td>Consente agli utenti di registrare il tempo sul progetto (sia nella scheda Aggiornamenti che nella scheda Attività). Se desideri impedire agli utenti di registrare il tempo a livello di progetto, lascia deselezionata questa opzione.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Registra tempo suoi progetti completi</span></td>
-      <td><span class="preview">Consente agli utenti di registrare il tempo su un progetto contrassegnato come completato. Se questa opzione è disabilitata, gli utenti non possono registrare il tempo del lavoro che hanno completato sui progetti nello stato Completo.</span></td>
+      <td role="rowheader">Registra tempo suoi progetti completi</td>
+      <td>Consente agli utenti di registrare il tempo su un progetto contrassegnato come completato. Se questa opzione è disabilitata, gli utenti non possono registrare il tempo del lavoro che hanno completato sui progetti nello stato Completo.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Registra tempo suoi progetti inattivi</span></td> 
-      <td><span class="preview">Quando questa opzione è abilitata, gli utenti possono accedere alle ore dei progetti con stato Dead.</span></td>
+      <td role="rowheader">Registra tempo suoi progetti inattivi</td> 
+      <td>Quando questa opzione è abilitata, gli utenti possono accedere alle ore dei progetti con stato Dead.</td>
      </tr>
     </tbody>
    </table>
