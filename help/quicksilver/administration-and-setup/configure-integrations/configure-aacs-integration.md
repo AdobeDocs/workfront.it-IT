@@ -5,9 +5,9 @@ title: Integrazioni di Adobe Experience Manager Assets
 description: Puoi collegare il tuo lavoro con le seguenti integrazioni di Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 96f4d2b65aa630e86fdd4ee28b460069c5fd4987
+source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -220,7 +220,25 @@ Un [!DNL Experience Manager] campi mappati su [!DNL Workfront] i campi portfolio
 >Gli utenti devono avere accesso in scrittura in [!DNL Experience Manager] per le risorse che vivono nell’oggetto per consentire la sincronizzazione dei metadati al momento dell’aggiornamento.
 
 1. Abilita la **[!UICONTROL Sincronizzazione dei metadati degli oggetti]** campo .
-1. Fai clic su Salva o passa a [Configurare cartelle collegate (facoltativo)](#set-up-linked-folders-optional) in questo articolo.
+1. Fai clic su **Salva** o passare alla [Configurare i flussi di lavoro (facoltativo)](#set-up-workflows-optional) in questo articolo.
+
+<!--Courtney start here-->
+
+## Configurare i flussi di lavoro (facoltativo)
+
+Un flusso di lavoro è un insieme di azioni che collegano Workfront ad Adobe Experience Manager as a Cloud Service. In qualità di amministratore di Workfront, puoi configurare i flussi di lavoro in Workfront, quindi assegnarli ai modelli di progetto. Quando un progetto viene creato utilizzando un modello di progetto a cui è assegnato un flusso di lavoro, vengono attivate le azioni definite nel flusso di lavoro.
+
+I valori del flusso di lavoro predefiniti impostati nell’integrazione possono essere ignorati a livello di Modello di progetto e di Progetto.
+
+### Configurare un flusso di lavoro per la creazione di cartelle collegate Adobe Experience Manager
+
+1. Attiva/disattiva la **[!UICONTROL Crea cartella collegata]** su.
+1. Scegli un percorso di cartella per indicare la posizione in cui dovranno essere associate tutte le cartelle collegate a questa integrazione.
+   ![Navigazione cartelle collegate](assets/select-folder-aem-integration.png)
+1. Abilita la **Aggiungi nomi di Portfoli e programmi** per includere automaticamente i nomi dei Portfoli e dei programmi alla fine del nome della cartella collegata.
+1. Fai clic su **Salva** o passare alla [Configurare cartelle collegate (facoltativo)](#set-up-linked-folders-optional) in questo articolo.
+
+<!--Courtney end here-->
 
 ## Configurare cartelle collegate (facoltativo)
 
