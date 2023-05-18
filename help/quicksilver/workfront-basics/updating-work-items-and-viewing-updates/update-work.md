@@ -6,9 +6,9 @@ description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 77a489455b0d058bc53fbb87ffd219cf7b50a213
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3132'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Anteprima.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -276,7 +276,7 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
    | Bold | ![mceclip10.png](assets/mceclip10.png) | inta+b | Ctrl+B |
    | Corsivo | ![mceclip9.png](assets/mceclip9.png) | +i | Ctrl+I |
    | Sottolinea | ![mceclip8.png](assets/mceclip8.png) | +u | Ctrl+U |
-   | Collegamento ipertestuale | ![mceclip7.png](assets/mceclip7.png) | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti : ALT+K</br> <br><span class="preview">Nell’esperienza beta dei commenti, per incollare un collegamento sul testo selezionato: +V</span></br> | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti : Ctrl+K</br> <br><span class="preview">Nell’esperienza beta dei commenti, per incollare un collegamento sul testo selezionato: Ctrl+V</span></br> |
+   | Collegamento ipertestuale | ![mceclip7.png](assets/mceclip7.png) | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti : ALT+K</br> <br>Nell’esperienza beta dei commenti, per incollare un collegamento sul testo selezionato: +V</br> | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti : Ctrl+K</br> <br>Nell’esperienza beta dei commenti, per incollare un collegamento sul testo selezionato: Ctrl+V</br> |
    | Elenco puntato | ![mceclip6.png](assets/mceclip6.png) | +Maiusc+8 | Ctrl+Maiusc+8 |
    | Elenco numerato | ![mceclip5.png](assets/mceclip5.png) | +Maiusc+7 | Ctrl+Maiusc+7 |
    | Citazione | ![](assets/block-quote-icon-large.png) | +Maiusc+9 | Ctrl+Maiusc+9 |

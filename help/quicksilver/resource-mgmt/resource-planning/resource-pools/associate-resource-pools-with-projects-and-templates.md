@@ -6,7 +6,7 @@ description: I pool di risorse sono raccolte di utenti che consentono di gestire
 author: Alina
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 92fb1ee0b641d2f4b527e17df272e4c37c0feaef
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 0%
@@ -106,10 +106,10 @@ Per associare pool di risorse a diversi progetti in blocco:
    >
    >* Quando modifichi modelli in blocco, in questo campo vengono visualizzati solo i pool di risorse comuni a tutti i modelli selezionati. Se i modelli selezionati non dispongono di pool di risorse condivise, questo campo è vuoto. I pool di risorse qui specificati sovrascrivono i singoli pool di risorse dei progetti o modelli.
    >
-   >* Quando modifichi progetti in blocco, è presente un indicatore di &quot;Più valori&quot; se i progetti selezionati hanno pool di risorse diversi. Se si aggiungono pool di risorse in blocco per i progetti, tutti i pool vengono aggiunti al progetto selezionato, sovrascrivendo i pool di risorse originali.</span>
+   >* Quando modifichi progetti in blocco, è presente un indicatore di &quot;Più valori&quot; se i progetti selezionati hanno pool di risorse diversi. Se si aggiungono pool di risorse in blocco per i progetti, tutti i pool vengono aggiunti al progetto selezionato, sovrascrivendo i pool di risorse originali.
 
 
-   <span class="preview">![add_resource_pool_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)</span>
+   ![add_resource_pool_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
 1. Fai clic su **Salva modifiche**.\
    Quando i pool di risorse sono associati ai progetti o ai modelli, è possibile allocare gli utenti a budget per i progetti all&#39;interno del Planner risorse.\

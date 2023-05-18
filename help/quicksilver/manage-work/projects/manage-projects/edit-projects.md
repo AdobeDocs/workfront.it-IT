@@ -6,16 +6,16 @@ description: Puoi modificare un progetto in Adobe Workfront con la frequenza nec
 author: Alina
 feature: Work Management
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 4c4a8703cca33066f72f8f2088029382edbafc29
+source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '7344'
+source-wordcount: '7310'
 ht-degree: 2%
 
 ---
 
 # Modifica progetti
 
-<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile per tutti i clienti nell’ambiente Anteprima e per un gruppo selezionato di clienti nell’ambiente Produzione.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -690,8 +690,6 @@ Per impostazione predefinita, nell’intestazione del progetto sono inclusi i ca
 * Stato
 * Prendere decisioni di approvazione se si è impostati come approvatore in un processo di approvazione corrente
 
-<div class="preview">
-
 ## Modifica di progetti in serie
 
 Puoi modificare i progetti in blocco e aggiornare le informazioni per tutti i progetti selezionati contemporaneamente.
@@ -795,7 +793,6 @@ Per ulteriori informazioni sulla modifica dell&#39;area di Access, vedere la sez
 1. (Facoltativo) Fai clic su **Annulla** nella parte inferiore del **Modifica progetti** per rimuovere tutte le modifiche apportate a tutti i progetti.
 1. Fai clic su **Salva**.
 
-</div>
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
