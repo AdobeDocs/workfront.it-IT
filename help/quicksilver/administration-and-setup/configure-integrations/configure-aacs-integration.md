@@ -5,14 +5,16 @@ title: Integrazioni di Adobe Experience Manager Assets
 description: Puoi collegare il tuo lavoro con le seguenti integrazioni di Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 337aead90dba40a3c9104fb0183897c17f2cd66d
+source-git-commit: 9080dfe7e46a3780d493b59c8f2a3c4efbc011e7
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
 
 # Configura le [!UICONTROL Experience Manager Assets as a Cloud Service] integrazione
+
+<span class="preview">Le informazioni evidenziate in questa pagina fanno riferimento a funzionalità non ancora disponibili al pubblico. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 Puoi collegare il tuo lavoro con il tuo contenuto in [!DNL Experience Manager Assets]&#x200B;:
 
@@ -224,6 +226,8 @@ Un [!DNL Experience Manager] campi mappati su [!DNL Workfront] i campi portfolio
 
 <!--Courtney start here-->
 
+<div class="preview">
+
 ## Configurare i flussi di lavoro (facoltativo)
 
 Un flusso di lavoro è un insieme di azioni che collegano Workfront ad Adobe Experience Manager as a Cloud Service. In qualità di amministratore di Workfront, puoi configurare i flussi di lavoro in Workfront, quindi assegnarli ai modelli di progetto. Quando un progetto viene creato utilizzando un modello di progetto a cui è assegnato un flusso di lavoro, vengono attivate le azioni definite nel flusso di lavoro.
@@ -237,6 +241,8 @@ I valori del flusso di lavoro predefiniti impostati nell’integrazione possono 
    ![Navigazione cartelle collegate](assets/select-folder-aem-integration.png)
 1. Abilita la **Aggiungi nomi di Portfoli e programmi** per includere automaticamente i nomi dei Portfoli e dei programmi alla fine del nome della cartella collegata.
 1. Fai clic su **Salva** o passare alla [Configurare cartelle collegate (facoltativo)](#set-up-linked-folders-optional) in questo articolo.
+
+</div>
 
 <!--Courtney end here-->
 
