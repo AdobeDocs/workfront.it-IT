@@ -2,34 +2,34 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Risorse della modalità testo
-description: Risorse della modalità testo
+title: Risorse in modalità testo
+description: Risorse in modalità testo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
-# Risorse della modalità testo
+# Risorse in modalità testo
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: This is the section article with links to all other articles in this section)</p>
 -->
 
-Utilizza la seguente documentazione per comprendere l’utilizzo dell’interfaccia della modalità testo in Adobe Workfront. È possibile espandere l’uso dei rapporti utilizzando la modalità di testo e personalizzando i rapporti anche oltre le funzionalità offerte dal generatore di rapporti.
+Utilizza la seguente documentazione per comprendere l’utilizzo dell’interfaccia in modalità testo in Adobe Workfront. È possibile espandere l’utilizzo dei rapporti utilizzando la modalità Testo e personalizzando i rapporti anche oltre quanto consentito dal generatore di rapporti.
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Panoramica degli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-* [Panoramica della sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Modificare una visualizzazione utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [Panoramica sugli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
+* [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Modificare una vista utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [Modificare la modalità di testo in un raggruppamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+* [Modifica modalità testo in un raggruppamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 * [Esempi di visualizzazione, filtro e raggruppamento personalizzati](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
    <!--
@@ -46,11 +46,11 @@ Questa sezione contiene i seguenti articoli:
   </MadCap:conditionalText>
   -->
 
-* [Utilizzare la formattazione condizionale nella modalità Testo](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
+* [Utilizzare la formattazione condizionale in modalità testo](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
 * [Formattare le date nei report in modalità testo](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
-* [Valori di formato, valuta e percentuale nei report in modalità testo](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
-* [Confronto dei campi nella formattazione condizionale](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
-* [Riferimento alle raccolte in un rapporto](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
+* [Formattare numeri, valuta e valori percentuali nei report in modalità testo](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
+* [Confrontare i campi nella formattazione condizionale](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)
+* [Fare riferimento alle raccolte in un rapporto](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
 * [Creare istruzioni &quot;OR&quot; nei filtri in modalità testo](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
-* [Creare filtri complessi in modalità testo utilizzando le istruzioni EXISTS](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-* [Programma di creazione di report di base per la nuova esperienza Workfront](https://one.workfront.com/s/basic-report-creation-program)
+* [Creare filtri in modalità testo complessi utilizzando istruzioni EXISTS](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+   <!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

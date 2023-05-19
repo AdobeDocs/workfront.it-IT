@@ -1,62 +1,66 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Panoramica degli usi comuni della modalità testo
-description: Panoramica degli usi comuni della modalità testo
+title: Panoramica sugli usi comuni della modalità testo
+description: Panoramica sugli usi comuni della modalità testo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '739'
 ht-degree: 0%
 
 ---
 
-# Panoramica degli usi comuni della modalità testo
+# Panoramica sugli usi comuni della modalità testo
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is linked to Understanding Text Mode (article), and the TOC article for examples of various reporting elements)</p>
 -->
 
-Puoi espandere le tue funzionalità di reporting utilizzando la modalità testo nei report e negli elementi dei report. È inoltre possibile utilizzare una versione della modalità testo per creare campi personalizzati calcolati più complessi. Per ulteriori informazioni sulla modalità testo, consulta [Panoramica della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Puoi espandere le funzionalità di reporting utilizzando la modalità testo nei rapporti e negli elementi dei rapporti. È inoltre possibile utilizzare una versione della modalità testo per creare campi personalizzati calcolati più complessi. Per ulteriori informazioni sulla modalità testo, consulta [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Questo articolo illustra solo alcuni esempi comuni in cui è più probabile che sia necessario utilizzare la modalità di testo per espandere le funzionalità di reporting o calcolare i campi personalizzati in Adobe Workfront. Per un elenco più dettagliato degli esempi, vedi:
+Questo articolo illustra solo alcuni esempi comuni di dove probabilmente dovresti utilizzare la modalità testo per espandere le funzionalità di reporting o campi personalizzati calcolati in Adobe Workfront. Per un elenco più ampio di esempi, consulta:
 
 * [Esempi di visualizzazione, filtro e raggruppamento personalizzati](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Dati personalizzati calcolati nei rapporti](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-Per ulteriori esempi di modalità di testo in tempo reale che altri clienti Workfront potrebbero aver identificato, visita la pagina [Discussioni sulla generazione di rapporti in modalità testo](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) in Adobe Workfront One o partecipare al [Community Workfront](https://one.workfront.com/s/community) (richiede l&#39;accesso).  
+<!--this link is outdated: 
 
-## Istanze in cui è possibile utilizzare la modalità testo in elenchi e rapporti
+For additional real-life text mode examples that other Workfront customers might have identified, visit the [Text Mode Reporting Discussions](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) tab in&nbsp; Adobe Workfront One or join the [Workfront Community](https://one.workfront.com/s/community) (requires logging in). &nbsp;
 
-È consigliabile utilizzare il generatore di report e di elenchi per creare visualizzazioni, filtri e raggruppamenti. Tuttavia, in alcune istanze è possibile utilizzare la modalità testo per migliorare i rapporti e gli elenchi.
+-->
+
+## Istanze in cui è possibile utilizzare la modalità testo in elenchi e report
+
+Per creare viste, filtri e raggruppamenti, è consigliabile utilizzare il generatore di report e elenchi. Tuttavia, in alcuni casi è possibile utilizzare la modalità testo per migliorare i rapporti e gli elenchi.
 
 È possibile utilizzare la modalità testo quando si desidera ottenere quanto segue in Workfront:
 
 * Crea campi personalizzati calcolati personalizzati in un modulo personalizzato.\
-   Per ulteriori informazioni sui campi personalizzati calcolati, consulta la sezione [Usa modalità testo nei campi personalizzati calcolati](#use-text-mode-in-calculated-custom-fields) in questo articolo.
-* Filtri, viste e raggruppamenti migliorati oltre le possibilità offerte dal generatore di report. Per informazioni sull’utilizzo della modalità testo per filtri, visualizzazioni e raggruppamenti, consulta le sezioni seguenti in questo articolo:
+   Per ulteriori informazioni sui campi personalizzati calcolati, vedi [Utilizzare la modalità testo nei campi personalizzati calcolati](#use-text-mode-in-calculated-custom-fields) in questo articolo.
+* Migliora i filtri, le visualizzazioni e i raggruppamenti oltre a quanto è possibile fare nel generatore di rapporti. Per informazioni sull&#39;utilizzo della modalità testo per filtri, viste e raggruppamenti, vedere le sezioni seguenti in questo articolo:
 
-   * [Uso della modalità testo nelle visualizzazioni](#use-text-mode-in-views)
-   * [Usa modalità testo nei filtri](#use-text-mode-in-filters)
-   * [Uso della modalità testo nei raggruppamenti](#use-text-mode-in-groupings)
+   * [Utilizzare la modalità testo nelle visualizzazioni](#use-text-mode-in-views)
+   * [Utilizzare la modalità testo nei filtri](#use-text-mode-in-filters)
+   * [Utilizzare la modalità testo nei raggruppamenti](#use-text-mode-in-groupings)
 
-* Crea prompt personalizzati. È possibile creare prompt personalizzati solo utilizzando la modalità testo.
+* Creare prompt personalizzati. È possibile creare prompt personalizzati solo utilizzando la modalità Testo.
 
-   Per informazioni sulla creazione di prompt personalizzati, consulta [Aggiungere un prompt a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+   Per informazioni sulla creazione di prompt personalizzati, vedere [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-## Usa modalità testo nei campi personalizzati calcolati {#use-text-mode-in-calculated-custom-fields}
+## Utilizzare la modalità testo nei campi personalizzati calcolati {#use-text-mode-in-calculated-custom-fields}
 
 È possibile utilizzare la modalità testo per aggiungere un campo personalizzato calcolato a un modulo personalizzato.
 
-Per ulteriori informazioni sull’aggiunta di un campo personalizzato calcolato a un modulo personalizzato, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per ulteriori informazioni sull&#39;aggiunta di un campo personalizzato calcolato a un modulo personalizzato, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-Per ulteriori informazioni sulla creazione di un campo personalizzato calcolato in modalità testo, vedere [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+Per ulteriori informazioni sulla creazione di un campo personalizzato calcolato in modalità testo, consulta [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Ad esempio, è possibile aggiungere un campo personalizzato calcolato che mostri un indicatore di ora e data del momento in cui un elemento è stato contrassegnato come In corso. È possibile utilizzare questo calcolo per altri stati.
+Ad esempio, è possibile aggiungere un campo personalizzato calcolato che mostra un indicatore di data e ora del momento in cui un elemento è stato contrassegnato come In corso. È possibile utilizzare questo calcolo per altri stati.
 
-Per informazioni, consulta [Esempio di campo personalizzato calcolato: visualizzare una marca temporale di stato in un modulo personalizzato](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md).
+Per informazioni, consulta [Esempio di campo personalizzato calcolato: visualizzare un timestamp di stato in un modulo personalizzato](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md).
 
 <!--
 <ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -89,22 +93,22 @@ Per informazioni, consulta [Esempio di campo personalizzato calcolato: visualizz
 </div>
 -->
 
-## Uso della modalità testo nelle visualizzazioni {#use-text-mode-in-views}
+## Utilizzare la modalità testo nelle visualizzazioni {#use-text-mode-in-views}
 
-È possibile utilizzare la modalità testo nelle viste per espandere i campi e gli oggetti visualizzati nella visualizzazione.
+È possibile utilizzare la modalità testo nelle visualizzazioni per espandere i campi e gli oggetti che è possibile visualizzare nella visualizzazione.
 
-Per esempi dei motivi più comuni per utilizzare la modalità testo in una visualizzazione, consulta i seguenti articoli:
+Per esempi dei motivi più comuni per l&#39;utilizzo della modalità testo in una visualizzazione, vedere gli articoli seguenti:
 
 * [Visualizza: oggetti di visualizzazione non inclusi nell&#39;interfaccia standard](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [Visualizza: visualizzare il risultato di un calcolo tra due campi in una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
-* [Visualizza: modificare in modo permanente la larghezza di una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
-* [Visualizza: unire informazioni da più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
-* [Visualizza: rimuovere un collegamento a un oggetto in una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
-* [Riferimento alle raccolte in un rapporto](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
-* [Visualizza: nascondere il contenuto di una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
-* [Visualizza: visualizzare un&#39;immagine invece di una stringa in una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
-* [Visualizza: visualizzare i rientri delle attività in un elenco di attività](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
-* [Visualizza: calcolare le differenze di ora e data](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
+* [Visualizza: visualizza il risultato di un calcolo tra due campi in una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
+* [Visualizza: modifica definitivamente la larghezza di una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
+* [Vista: unire le informazioni provenienti da più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
+* [Visualizzazione: rimozione di un collegamento a un oggetto in una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
+* [Fare riferimento alle raccolte in un rapporto](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
+* [Visualizza: nasconde il contenuto di una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
+* [Visualizza: visualizza un’immagine invece di una stringa in una colonna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
+* [Visualizza: visualizza rientri attività in un elenco attività](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
+* [Visualizza: calcolo delle differenze di data e ora](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -286,22 +290,22 @@ Avoid using images that are uploaded to Workfront. Because images stored in Work
 </div>
 -->
 
-## Usa modalità testo nei filtri {#use-text-mode-in-filters}
+## Utilizzare la modalità testo nei filtri {#use-text-mode-in-filters}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replace all these links with the link to the actual articles; --- hide all the sections below)</p>
 -->
 
-È possibile utilizzare la modalità testo durante la creazione di filtri per espandere i campi e gli oggetti per i quali è possibile filtrare.
+È possibile utilizzare la modalità testo quando si creano i filtri per espandere i campi e gli oggetti in base ai quali è possibile filtrare.
 
-Per esempi dei motivi più comuni per utilizzare la modalità testo in un filtro, consulta i seguenti articoli:
+Per esempi dei motivi più comuni per l’utilizzo della modalità testo in un filtro, consulta i seguenti articoli:
 
-* [Filtro: creare più regole di filtro che fanno riferimento allo stesso campo (&quot;istruzioni AND&quot;)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
-* [Filtro: visualizzare solo gli elementi in uno stato di approvazione](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
-* [Filtro: visualizza gli elementi in base allo stato dello stesso nome quando gli stati sono associati a gruppi diversi](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
-* [Filtro: eliminare gli elementi in un elenco confrontando due campi](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
-* La sezione [Esempi di filtri in modalità testo che si estendono su più livelli nella gerarchia degli oggetti](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples) nell&#39;articolo [Creare filtri complessi in modalità testo utilizzando le istruzioni EXISTS](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-* La sezione [Creazione di filtri della modalità testo complessi per gli oggetti mancanti](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters) nell&#39;articolo [Creare filtri complessi in modalità testo utilizzando le istruzioni EXISTS](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+* [Filtro: crea più regole di filtro che fanno riferimento allo stesso campo (istruzioni &quot;AND&quot;)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
+* [Filtro: consente di visualizzare solo gli elementi con stato di approvazione](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
+* [Filtro: consente di visualizzare gli elementi in base agli stati con lo stesso nome quando gli stati sono associati a gruppi diversi](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
+* [Filtro: elimina elementi in un elenco confrontando due campi](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
+* La sezione [Esempi di filtri in modalità testo che si estendono su più livelli nella gerarchia degli oggetti](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#examples) nell’articolo [Creare filtri in modalità testo complessi utilizzando istruzioni EXISTS](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
+* La sezione [Creare filtri in modalità testo complesso per gli oggetti mancanti](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md#missing-object-filters) nell’articolo [Creare filtri in modalità testo complessi utilizzando istruzioni EXISTS](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -361,17 +365,17 @@ Only one status displays here. The status line displays one of the three-letter 
 </div>
 -->
 
-## Uso della modalità testo nei raggruppamenti {#use-text-mode-in-groupings}
+## Utilizzare la modalità testo nei raggruppamenti {#use-text-mode-in-groupings}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replace all these links with the link to the actual articles; --- hide all the sections below)</p>
 -->
 
-È possibile utilizzare la modalità testo durante la creazione di raggruppamenti per espandere i campi e gli oggetti per i quali è possibile raggruppare in elenchi e rapporti.
+È possibile utilizzare la modalità testo durante la creazione di raggruppamenti per espandere i campi e gli oggetti in base ai quali è possibile eseguire il raggruppamento in elenchi e report.
 
-Per esempi dei motivi più comuni per utilizzare la modalità testo in un raggruppamento, consulta i seguenti articoli:
+Per esempi dei motivi più comuni per l’utilizzo della modalità testo in un raggruppamento, consulta i seguenti articoli:
 
-* [Raggruppamento: organizza i risultati dell’elenco con un valore calcolato comune a tutti gli oggetti del raggruppamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+* [Raggruppamento: organizza i risultati elenco in base a un valore calcolato comune a tutti gli oggetti del raggruppamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
 * [Raggruppamento: aggiungere un quarto raggruppamento a un elenco](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
 * [Raggruppamento: modificare il nome visualizzato in un raggruppamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
 * [Raggruppamento: indica se i risultati di un raggruppamento devono essere compressi o espansi utilizzando la modalità testo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)

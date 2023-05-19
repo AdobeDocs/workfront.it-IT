@@ -1,19 +1,19 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Panoramica della modalità testo
-description: Panoramica della modalità testo
+title: Panoramica sulla modalità testo
+description: Panoramica sulla modalità testo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '925'
 ht-degree: 0%
 
 ---
 
-# Panoramica della modalità testo
+# Panoramica sulla modalità testo
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the UI (for the areas mentioned in the comments below and the new NWE filters as well))</p>
@@ -27,57 +27,57 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-Puoi creare un rapporto o un elenco in Adobe Workfront utilizzando l’interfaccia standard o in modalità testo durante la creazione degli elementi che compongono il rapporto o l’elenco. L’interfaccia standard ti consente di fare riferimento a campi e relativi attributi facilmente disponibili nell’interfaccia di Workfront. Utilizzando la modalità testo è possibile fare riferimento a campi e attributi che potrebbero non essere disponibili in modalità standard, ma che sono disponibili nel database Workfront.
+È possibile creare un rapporto o un elenco in Adobe Workfront utilizzando l’interfaccia standard o in modalità testo durante la creazione degli elementi che compongono il rapporto o l’elenco. L’interfaccia standard ti consente di fare riferimento ai campi e ai relativi attributi che sono prontamente disponibili nell’interfaccia di Workfront. Utilizzando la modalità testo è possibile fare riferimento a campi e attributi che potrebbero non essere disponibili in modalità standard, ma che sono disponibili nel database di Workfront.
 
 ## Considerazioni prima di utilizzare la modalità testo
 
 >[!TIP]
 >
->È inoltre possibile espandere le funzionalità dei campi personalizzati calcolati utilizzando una versione della modalità di testo per i campi personalizzati. La sintassi e le regole per la creazione di un campo personalizzato calcolato sono diverse da quelle utilizzate nei rapporti e negli elenchi. Per informazioni sull’aggiunta di un campo personalizzato calcolato, consulta [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>È inoltre possibile espandere le funzionalità dei campi personalizzati calcolati utilizzando una versione della modalità testo per i campi personalizzati. La sintassi e le regole per la creazione di un campo personalizzato calcolato sono diverse da quelle utilizzate nei report e negli elenchi. Per informazioni sull’aggiunta di un campo personalizzato calcolato, consulta [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-* Prima di iniziare a utilizzare la modalità testo nei rapporti, ti consigliamo vivamente di seguire le nostre lezioni sul reporting avanzato, per comprendere meglio il nostro linguaggio in modalità testo. Per i materiali di formazione sul reporting vedi [Percorsi di apprendimento di Workfront Reports and Dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
-* È consigliabile utilizzare la modalità standard per garantire che i rapporti creati rimangano intatti quando il software Workfront viene aggiornato. Mentre la modalità testo consente di creare visualizzazioni, filtri e raggruppamenti più complessi, è anche più complicato da mantenere e non è garantito quando il software Workfront viene aggiornato.
-* Si consiglia sempre di provare a creare tutti gli elementi di reporting nell’interfaccia standard e passare al generatore di modalità testo solo per poche regolazioni.
+* Prima di iniziare a utilizzare la modalità testo nei rapporti, consigliamo vivamente di seguire le nostre lezioni sui rapporti avanzati per comprendere meglio il linguaggio della modalità testo. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* È consigliabile utilizzare la modalità standard per garantire che i rapporti creati rimangano intatti quando il software Workfront viene aggiornato. Anche se la modalità testo consente di creare visualizzazioni, filtri e raggruppamenti più complessi, è più complessa da mantenere e non è garantita quando il software Workfront viene aggiornato.
+* È consigliabile creare sempre tutti gli elementi di reporting nell’interfaccia standard e passare al generatore della modalità testo solo per alcune regolazioni.
 
    >[!TIP]
    >
-   >L’utilizzo del generatore standard fornisce importanti blocchi predefiniti e pattern di codice che è quindi possibile utilizzare per modificare il codice in modalità testo.
+   >L’utilizzo del generatore standard offre blocchi predefiniti e pattern di codice importanti che possono essere utilizzati quando si modifica il codice in modalità testo.
 
-* Per generare correttamente rapporti ed elenchi in modalità testo è necessario utilizzare un set di regole e una sintassi univoca. Assicurati di avere familiarità con la sintassi Workfront per la modalità testo prima di iniziare.
+* Per creare correttamente report ed elenchi in modalità testo, è necessario utilizzare un set di regole e una sintassi univoca. Prima di iniziare, assicurati di avere familiarità con la sintassi Workfront per la modalità testo.
 
-   Per informazioni sulla sintassi e sulle regole per l&#39;utilizzo della modalità testo, vedi [Panoramica della sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+   Per informazioni sulla sintassi e sulle regole per l’utilizzo della modalità testo, consulta [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-* Dopo aver personalizzato un elemento di reporting in modalità testo, potrebbe non essere possibile tornare alla modalità standard (in una visualizzazione) oppure il codice per l’elemento creato potrebbe essere eliminato (in filtri e raggruppamenti). Questo perché non tutti i campi supportati in modalità testo sono supportati in modalità standard.
+* Dopo aver personalizzato un elemento di reporting in modalità testo, potrebbe non essere possibile tornare alla modalità standard (in una visualizzazione) oppure il codice dell’elemento creato potrebbe essere eliminato (in filtri e raggruppamenti). Questo perché non tutti i campi supportati in modalità testo sono supportati in modalità standard.
 
 ## Interfaccia in modalità standard
 
-L’interfaccia Modalità standard visualizza i campi per mappare gli elementi dell’applicazione che si desidera visualizzare in un rapporto o in un elenco. L’interfaccia in modalità standard è un set di menu a discesa dai quali è possibile selezionare i campi da visualizzare nei rapporti o negli elenchi.
+Nell&#39;interfaccia della modalità Standard vengono visualizzati i campi per la mappatura degli elementi dell&#39;applicazione che si desidera visualizzare in un report o in un elenco. L’interfaccia in modalità standard è un set di menu a discesa dai quali è possibile selezionare i campi da visualizzare nei rapporti o negli elenchi.
 
-Per ulteriori informazioni sull&#39;interfaccia in modalità standard e su come creare un rapporto o un elenco, consulta:
+Per ulteriori informazioni sull’interfaccia in modalità standard e su come creare un rapporto o un elenco, consulta:
 
 * [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-* [Elementi di reporting: filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
+* [Elementi di reporting: filtri, viste e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
-## Interfaccia della modalità testo
+## Interfaccia modalità testo
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add a section or note with a link to an another article about the syntax of text mode >> link to the Calc custom fields vc calc. columns)</p>
 -->
 
-La modalità testo consente di creare viste, filtri, raggruppamenti e prompt più complessi, consentendo di utilizzare campi non disponibili nell’interfaccia in modalità standard. In modalità testo di Workfront è una raccolta di istruzioni codificate che indicano gli oggetti che si desidera visualizzare in un rapporto o in un elenco.
+La modalità testo consente di creare visualizzazioni, filtri, raggruppamenti e prompt più complessi, consentendo di utilizzare campi non disponibili nell&#39;interfaccia della modalità standard. In modalità testo di Workfront è un insieme di istruzioni codificate che indicano gli oggetti che si desidera visualizzare in un report o in un elenco.
 
-Per un elenco completo di tutti i campi da segnalare, vedi [Esplora API](../../../wf-api/general/api-explorer.md).
+Per un elenco completo di tutti i campi da segnalare, vedi [API Explorer](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
->Non tutti i campi disponibili tramite l’API sono disponibili tramite l’interfaccia in modalità testo. Se utilizzi il campo corretto nel codice della modalità di testo e non visualizzi i risultati previsti, il campo potrebbe essere segnalabile solo tramite l’API.
+>Non tutti i campi disponibili tramite l’API sono disponibili tramite l’interfaccia in modalità testo. Se utilizzi il campo corretto nel codice in modalità testo e non visualizzi i risultati previsti, il campo potrebbe essere segnalato solo tramite l’API.
 
-* [Accedere agli elementi di reporting e alla modalità di modifica del testo](#access-reporting-elements-and-edit-text-mode)
-* [Motivi comuni per utilizzare la modalità testo](#common-reasons-to-use-text-mode)
+* [Accedere agli elementi di reporting e modificare la modalità testo](#access-reporting-elements-and-edit-text-mode)
+* [Motivi comuni per l’utilizzo della modalità testo](#common-reasons-to-use-text-mode)
 
-## Accedere agli elementi di reporting e alla modalità di modifica del testo {#access-reporting-elements-and-edit-text-mode}
+## Accedere agli elementi di reporting e modificare la modalità testo {#access-reporting-elements-and-edit-text-mode}
 
-L’accesso all’interfaccia in modalità testo è simile per le viste, i raggruppamenti e i filtri quando vi si accede da un rapporto o da un elenco.
+L’accesso all’interfaccia della modalità testo è simile per viste, raggruppamenti e filtri, quando si accede a essi da un rapporto o da un elenco.
 
 Per informazioni sull’utilizzo della modalità testo in viste, filtri e raggruppamenti, consulta:
 
@@ -85,13 +85,13 @@ Per informazioni sull’utilizzo della modalità testo in viste, filtri e raggru
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see what articles these sections are linked to and edit those articles to link to the individual ones)</p>
 -->
 
-* [Modificare una visualizzazione utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+* [Modificare una vista utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [Modificare la modalità di testo in un raggruppamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+* [Modifica modalità testo in un raggruppamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
-I prompt personalizzati possono essere modificati solo in modalità testo. È possibile accedere ai prompt solo da un rapporto.
+I prompt personalizzati possono essere modificati solo in modalità testo. È possibile accedere alle richieste solo da un report.
 
-Per informazioni sull&#39;accesso all&#39;interfaccia in modalità testo per i prompt personalizzati, consulta [Aggiungere un prompt a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Per informazioni sull&#39;accesso all&#39;interfaccia della modalità testo per i prompt personalizzati, vedere [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
@@ -538,7 +538,7 @@ We recommend that you build as much of the grouping as possible in standard mode
    -->
 
     &lt;!—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Il primo raggruppamento del rapporto ha un numero di gruppo pari a 0. Tutte le righe che fanno riferimento al primo raggruppamento iniziano con group.0.&lt;/code>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Il primo raggruppamento del rapporto ha un numero di gruppo pari a 0. Tutte le righe relative al primo raggruppamento iniziano con group.0.&lt;/code>&lt;/li>
     —>
     
     &lt;!>—
@@ -550,7 +550,7 @@ We recommend that you build as much of the grouping as possible in standard mode
     —>
     
     &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Solo in modalità testo è possibile aggiungere un numero di gruppo di 3 per un quarto raggruppamento. Tutte le righe che fanno riferimento al quarto raggruppamento iniziano con &lt;code>group.3&lt;/code>.&lt;/em>&lt;/li>
+    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Solo in modalità testo è possibile aggiungere un numero di gruppo 3 per un quarto raggruppamento. Tutte le righe che fanno riferimento al quarto raggruppamento iniziano con &lt;code>group.3&lt;/code>.&lt;/em>&lt;/li>
     —>
 
 <!--
@@ -585,9 +585,9 @@ We recommend that you build as much of the grouping as possible in standard mode
 
 >[!TIP]
 >
->Quando si regolano manualmente i raggruppamenti quando si visualizza un elenco, Workfront ricorda le preferenze manuali fino a quando non si disconnette. Quando si effettua di nuovo l’accesso, l’elenco viene visualizzato in base a questa impostazione.
+>Quando si modificano manualmente i raggruppamenti durante la visualizzazione di un elenco, Workfront ricorda la preferenza manuale fino alla disconnessione. Quando effettui di nuovo l’accesso, l’elenco viene visualizzato in base a questa impostazione.
 >
->I risultati di un raggruppamento vengono sempre espansi dopo l’accesso da un elemento grafico.
+>I risultati di un raggruppamento vengono sempre visualizzati in modalità espansa dopo essere stati accessibili da un elemento del grafico.
 
 <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>
@@ -609,8 +609,8 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about creating a custom prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
 -->
 
-## Motivi comuni per utilizzare la modalità testo {#common-reasons-to-use-text-mode}
+## Motivi comuni per l’utilizzo della modalità testo {#common-reasons-to-use-text-mode}
 
-Al di fuori della creazione di prompt personalizzati che possono essere configurati solo utilizzando la modalità testo, si consiglia di utilizzare il generatore di report per creare visualizzazioni, filtri e raggruppamenti. Tuttavia, in alcune istanze è possibile utilizzare la modalità testo per migliorare i rapporti e gli elenchi.
+Al di fuori della creazione di prompt personalizzati che possono essere configurati solo utilizzando la modalità testo, è consigliabile utilizzare il generatore di rapporti per creare visualizzazioni, filtri e raggruppamenti. Tuttavia, in alcuni casi è possibile utilizzare la modalità testo per migliorare i rapporti e gli elenchi.
 
-Per ulteriori informazioni sugli usi comuni della modalità testo, consulta [Panoramica degli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Per ulteriori informazioni sugli usi comuni della modalità testo, consulta [Panoramica sugli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
