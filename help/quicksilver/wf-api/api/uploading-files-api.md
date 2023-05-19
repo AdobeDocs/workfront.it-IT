@@ -6,9 +6,9 @@ description: Caricamento di file tramite API
 author: Becky
 feature: Workfront API
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3db01c329c005570b782ae3445f83b7c44ced676
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,17 @@ ht-degree: 0%
 
 Puoi caricare i file utilizzando le API di Workfront con strumenti API, come Postman, o con semplici comandi cURL.
 
-Per caricare i documenti, consulta le istruzioni per **Caricamento di documenti** in Workfront [Comportamento del post](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FWF_API%2FGeneral%2Fapi-basics.html). Puoi anche utilizzare queste stesse istruzioni per le richieste cURL.
+Per caricare i documenti, consulta le istruzioni per **Caricamento di documenti** in Workfront [Comportamento del post](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Puoi inoltre utilizzare queste stesse istruzioni per le richieste cURL.
 
-**Quando utilizzi gli strumenti API per caricare i file, segui queste linee guida:**
+**Quando si utilizzano gli strumenti API per caricare i file, attenersi alle seguenti linee guida:**
 
-* Utilizza l’opzione dello strumento API per caricare il file. Questi sono spesso un **Scegli file** nella schermata della richiesta.
+* Utilizza l’opzione dello strumento API per caricare il file. Questi sono spesso **Scegli file** nella schermata di richiesta.
 
-* Utilizza il metodo HTTP di POST per effettuare la richiesta di caricamento del file.
+* Utilizza il metodo HTTP POST per effettuare la richiesta di caricamento del file.
 
-* La richiesta deve dare luogo a una risposta che includa un valore per il relativo handle.
+* La richiesta deve tradursi in una risposta che includa un valore per il relativo handle.
 
-* Utilizza il valore handle, il tipo di oggetto e il valore GUID per l’oggetto objID in un payload JSON per effettuare una chiamata successiva. Questo è per creare l’oggetto per il file, come nell’esempio seguente:
+* Utilizza il valore handle, il tipo di oggetto e il valore GUID per objID in un payload JSON per effettuare una chiamata successiva. Questo è per la creazione dell’oggetto per il file, come nell’esempio seguente:
 
 ```
 }
@@ -39,6 +39,6 @@ Per caricare i documenti, consulta le istruzioni per **Caricamento di documenti*
 }
 ```
 
-Dovresti ricevere un ID per l&#39;oggetto nella risposta.
+Dovresti ricevere un ID per l’oggetto nella risposta.
 
-Per ulteriori informazioni, consulta l’aiuto dello strumento API specifico utilizzato.
+Per ulteriori informazioni, consulta la guida dello strumento API specifico che stai utilizzando.
