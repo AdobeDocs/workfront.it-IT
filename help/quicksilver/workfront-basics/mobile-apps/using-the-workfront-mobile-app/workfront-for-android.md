@@ -3,11 +3,11 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront per Android
-description: La [!DNL Adobe Workfront] l’app ti consente di accedere al tuo lavoro su qualsiasi dispositivo Android. È possibile installare e utilizzare il [!DNL Workfront] app mobile su telefoni e tablet con Android 5.0 o versione successiva.
+description: Il [!DNL Adobe Workfront] L'app ti consente di accedere al tuo lavoro su qualsiasi dispositivo Android. È possibile installare e utilizzare [!DNL Workfront] app mobile su telefoni e tablet con Android 5.0 o versione successiva.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-source-git-commit: ''
+source-git-commit: c4090cf37ee453a9ae2f44cd7b9b604a7e16cc55
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 3%
@@ -16,13 +16,13 @@ ht-degree: 3%
 
 # [!DNL Adobe Workfront] per [!DNL Android]
 
-La [!DNL Adobe Workfront] l’app ti consente di accedere ai tuoi lavori su qualsiasi [!DNL Android] dispositivo. È possibile installare e utilizzare il [!DNL Workfront] app mobile su telefoni e tablet in esecuzione [!DNL Android] 5.0 o versione successiva.
+Il [!DNL Adobe Workfront] consente di accedere al lavoro su qualsiasi [!DNL Android] dispositivo. È possibile installare e utilizzare [!DNL Workfront] app mobile su telefoni e tablet in esecuzione [!DNL Android] 5.0 o successiva.
 
-Per informazioni sull’accesso all’app mobile, consulta la sezione . [Accedi a [!DNL Workfront] app mobile](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) nell&#39;articolo [Accedi a [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Per informazioni sull’accesso all’app mobile, consulta la sezione [Accedi a [!DNL Workfront] app mobile](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) nell’articolo [Accedi a [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## [!UICONTROL Home]
 
-La [!UICONTROL Pagina principale] area consente di lavorare direttamente su attività, problemi e approvazioni assegnati all&#39;utente. Da [!UICONTROL Pagina principale] nell’area dell’app, puoi:
+Il [!UICONTROL Home] consente di lavorare direttamente sulle attività, sui problemi e sulle approvazioni che ti sono state assegnate. Dalla sezione [!UICONTROL Home] dell’app, puoi:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,37 +32,37 @@ La [!UICONTROL Pagina principale] area consente di lavorare direttamente su atti
    <td> 
     <ul> 
      <li>Inizia a lavorare su attività e problemi</li> 
-     <li>Contrassegna attività e problemi come [!UICONTROL Fine]</li> 
-     <li>Riassegnazione di attività e problemi</li> 
-     <li>Modificare la data del commit</li> 
+     <li>Contrassegna attività e problemi come [!UICONTROL Done]</li> 
+     <li>Riassegna attività e problemi</li> 
+     <li>Cambia la [!UICONTROL Commit Date]</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Aggiornare gli stati delle attività e dei problemi</li> 
+     <li>Aggiornare gli stati di attività e problemi</li> 
      <li>Pubblica nell’area Aggiornamenti</li> 
      <li>Visualizza documenti</li> 
      <li>Allega foto</li> 
-     <li> <p>Creare una richiesta o un’attività rapida</p> <p>Nota: Le attività rapide create in home sono attività personali, a meno che non si scelga di assegnare un progetto.</p> </li> 
+     <li> <p>Creare una richiesta o un’attività rapida</p> <p>Nota: le attività rapide create nella home sono attività personali, a meno che non si scelga di assegnare un progetto.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per ulteriori informazioni, consulta [[!UICONTROL Pagina principale] widget area](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) e [[!UICONTROL Il mio lavoro] nell’app mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Per ulteriori informazioni, consulta [[!UICONTROL Home] widget area](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) e [[!UICONTROL Il mio lavoro] sezione nell’app mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
-![Area abitativa](assets/mobile-home-area.png)
+![Area Home](assets/mobile-home-area.png)
 
 ## [!UICONTROL Bacheche]
 
-La [!UICONTROL Schede] area consente di accedere alle [!DNL Workfront] bacheche.
+Il [!UICONTROL Schede] consente di accedere al [!DNL Workfront] schede madri.
 
-![Area delle bacheche](assets/mobile-all-boards-displayed.png)
+![Area Bacheche](assets/mobile-all-boards-displayed.png)
 
 Per ulteriori informazioni, consulta [[!DNL Adobe Workfront] [!UICONTROL Boards] per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 ## [!UICONTROL Progetti]
 
-La [!UICONTROL Progetti] consente di interagire con i progetti di cui sei titolare e di gestirli. Da [!UICONTROL progetti] nell’area dell’app, puoi:
+Il [!UICONTROL Progetti] consente di interagire con i progetti di tua proprietà e con quelli a cui collabori. Dalla sezione [!UICONTROL progetti] dell’app, puoi:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,27 +71,27 @@ La [!UICONTROL Progetti] consente di interagire con i progetti di cui sei titola
   <tr> 
    <td> 
     <ul> 
-     <li>Aggiorna stato del progetto</li> 
-     <li>Visualizzare i dettagli importanti del progetto</li> 
-     <li>Pubblica nell’area [!UICONTROL Updates]</li> 
-     <li>Conversione di attività, problemi e richieste in progetti</li> 
+     <li>Aggiorna stato progetto</li> 
+     <li>Visualizza dettagli progetto importanti</li> 
+     <li>Pubblica nell'area [!UICONTROL Aggiornamenti]</li> 
+     <li>Convertire attività, problemi e richieste in progetti</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Interagire con attività e problemi del progetto</li> 
+     <li>Interagire con le attività e i problemi del progetto</li> 
      <li>Visualizza documenti</li> 
      <li>Allega foto</li> 
-     <li> <p>Creare un’attività rapida</p> <p>Nota: Le attività create in un progetto vengono assegnate automaticamente al progetto in cui ci si trova. </p> </li> 
+     <li> <p>Creare un’attività rapida</p> <p>Nota: le attività create in un progetto vengono assegnate automaticamente al progetto a cui stai lavorando. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-![Area progetti](assets/mobile-projects-area.png)
+![Area Progetti](assets/mobile-projects-area.png)
 
 ## [!UICONTROL Approvazioni]
 
-La [!UICONTROL Approvazioni] area consente di visualizzare e approvare le approvazioni assegnate o delegate all’utente. Da [!UICONTROL approvazioni] area, puoi approvare:
+Il [!UICONTROL Approvazioni] consente di visualizzare e approvare le approvazioni assegnate o delegate all&#39;utente. Dalla sezione [!UICONTROL approvazioni] area, puoi approvare:
 
 <table style="table-layout:auto">
  <col>
@@ -115,22 +115,22 @@ La [!UICONTROL Approvazioni] area consente di visualizzare e approvare le approv
 
 Per ulteriori informazioni sulle approvazioni, consulta [Approvazioni in [!DNL Adobe Workfront] app mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Per informazioni sulla revisione e l&#39;approvazione delle bozze, vedi [Riesame e decisione sulle bozze nella [!DNL Adobe Workfront] app mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Per informazioni sulla revisione e l’approvazione delle bozze, consulta [Rivedi e prendi decisioni sulle bozze in [!DNL Adobe Workfront] app mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
 ![Elenco approvazioni nell’app mobile](assets/mobile-approvals-adobe-350x574.png)
 
 ## [!UICONTROL Notifiche]
 
-La [!UICONTROL Notifiche] Area ti consente di visualizzare e rispondere alle notifiche in-app per il tuo lavoro.
+Il [!UICONTROL Notifiche] ti consente di visualizzare e rispondere alle notifiche in-app per il tuo lavoro.
 
 >[!NOTE]
->I collegamenti ipertestuali non sono disponibili nelle notifiche di aggiornamento a meno che l’intero contenuto di una nota non sia un collegamento ipertestuale senza testo di visualizzazione.
+>I collegamenti ipertestuali non sono disponibili nelle notifiche di aggiornamento a meno che l&#39;intero contenuto di una nota non sia un collegamento ipertestuale senza testo visualizzato.
 
-![Area Notifiche](assets/mobile-notifications-area.png)
+![Area notifiche](assets/mobile-notifications-area.png)
 
 ## [!UICONTROL Richieste]
 
-La [!UICONTROL Richieste] area consente di visualizzare i dettagli sulle richieste. Da [!UICONTROL Richieste] nell’area dell’app, puoi:
+Il [!UICONTROL Richieste] L’area ti consente di visualizzare i dettagli sulle richieste. Dalla sezione [!UICONTROL Richieste] dell’app, puoi:
 
 <table style="table-layout:auto">
  <col>
@@ -140,7 +140,7 @@ La [!UICONTROL Richieste] area consente di visualizzare i dettagli sulle richies
    <td>
     <ul>
      <li>Riassegna la richiesta</li>
-     <li>Aggiorna lo stato</li>
+     <li>Aggiornare lo stato</li>
      <li>Regolare la priorità</li>
     </ul> </td>
    <td>
@@ -154,35 +154,35 @@ La [!UICONTROL Richieste] area consente di visualizzare i dettagli sulle richies
  </tbody>
 </table>
 
-![Area richieste](assets/mobile-requests-area.png)
+![Area Richieste](assets/mobile-requests-area.png)
 
 ## [!UICONTROL Schede orario]
 
-La [!UICONTROL fogli presenze] area consente di visualizzare i dettagli dei fogli presenze. Nell’area Timesheets dell’app, puoi:
+Il [!UICONTROL schede orario] consente di visualizzare i dettagli delle schede orario. Nell’area Schede orario dell’app, puoi:
 
-* Pubblica nel [!UICONTROL Aggiornamenti] area
-* Regolare i tipi di ora
-* Modifica l&#39;ora di registrazione
-* Inserire commenti nella scheda attività
-* Chiudi la scheda attività
+* Pubblica in [!UICONTROL Aggiornamenti] area
+* Regola i tipi di ora
+* Modifica l’ora di accesso
+* Inserisci commenti sulla scheda orario
+* Chiudi la scheda orario
 
-![Area fogli presenze](assets/mobile-timesheets-area.png)
+![Area schede orario](assets/mobile-timesheets-area.png)
 
 ## [!UICONTROL Preferiti]
 
-Puoi accedere agli elementi esistenti dalla sezione [!UICONTROL Preferiti] e aggiungere nuovi elementi al menu Preferiti.
+È possibile accedere agli elementi esistenti dal [!UICONTROL Preferiti] e aggiungere nuove voci al menu Preferiti.
 
 ![Area Preferiti](assets/mobile-favorites-area.png)
 
 ## [!UICONTROL Conttati]
 
-La [!UICONTROL Contatti] area ti consente di visualizzare le informazioni di contatto per tutti gli utenti della tua azienda.
+Il [!UICONTROL Contatti] consente di visualizzare le informazioni di contatto per tutti gli utenti della società.
 
-![Area contatti](assets/mobile-contacts-area.png)
+![Area Contatti](assets/mobile-contacts-area.png)
 
 ## [!UICONTROL Configurazione]
 
-La [!UICONTROL Configurazione] area consente di:
+Il [!UICONTROL Configurazione] consente di:
 
 * Gestione delle impostazioni
 * Visualizza team assegnati
@@ -195,18 +195,18 @@ La [!UICONTROL Configurazione] area consente di:
 
 ## [!UICONTROL Assistente virtuale]
 
-L&#39;assistente virtuale consente di eseguire le seguenti attività tramite il comando vocale:
+L&#39;assistente virtuale consente di eseguire le seguenti attività tramite comando vocale:
 
 * [!UICONTROL Mostra]
 * [!UICONTROL Elimina]
 * [!UICONTROL Cerca]
-* [!UICONTROL Aiutami con i comandi]
+* [!UICONTROL Informazioni sui comandi]
 
-Per ulteriori informazioni sull&#39;assistente virtuale, vedi [Adobe [!DNL Workfront] assistente virtuale per app mobili](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+Per ulteriori informazioni sull&#39;Assistente virtuale, vedere [Adobe [!DNL Workfront] assistente virtuale per app mobili](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
 
 ## [!UICONTROL Pin]
 
-La [!UICONTROL Pin] area consente di accedere ai comandi dell&#39;assistente virtuale salvati e ai pin dal browser Web.
+Il [!UICONTROL Fissa] consente di accedere ai comandi salvati dell&#39;assistente virtuale e ai pin dal browser Web.
 ![Aggiungi e salva query](assets/pin-and-save-query-adobe-350x285.png)
 
-Per ulteriori informazioni sull&#39;assistente virtuale, vedi [Adobe [!DNL Workfront] assistente virtuale per app mobili](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+Per ulteriori informazioni sull&#39;Assistente virtuale, vedere [Adobe [!DNL Workfront] assistente virtuale per app mobili](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).

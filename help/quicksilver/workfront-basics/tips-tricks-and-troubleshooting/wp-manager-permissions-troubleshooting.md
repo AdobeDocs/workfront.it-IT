@@ -4,19 +4,19 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Risoluzione dei problemi relativi alle autorizzazioni di Workfront Proof Manager
-description: Di seguito sono riportati i profili di autorizzazione disponibili in [!DNL Adobe] Workfront per la correzione degli utenti - EDIT ME.
+description: Di seguito sono riportati i profili di autorizzazione disponibili in [!DNL Adobe] Workfront per utenti di verifica - MODIFICA.
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-source-git-commit: ''
+source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 1%
 
 ---
 
-# [!UICONTROL [!DNL Workfront] Responsabile delle prove] risoluzione dei problemi delle autorizzazioni
+# [!UICONTROL [!DNL Workfront] Gestione bozze] risoluzione dei problemi relativi alle autorizzazioni
 
-Di seguito sono riportati i profili di autorizzazione disponibili in [!DNL Adobe Workfront] per gli utenti di bozze:
+Di seguito sono riportati i profili di autorizzazione disponibili in [!DNL Adobe Workfront] per gli utenti di verifica:
 
 * [!UICONTROL Amministratore]
 * [!UICONTROL Supervisore]
@@ -26,18 +26,18 @@ Di seguito sono riportati i profili di autorizzazione disponibili in [!DNL Adobe
 
 Quando si concede un utente [!UICONTROL Manager] autorizzazioni, sono disponibili le seguenti informazioni per la risoluzione dei problemi:
 
-* **PROBLEMA:** Utenti con [!UICONTROL Manager] le autorizzazioni non possono visualizzare le bozze create da altri utenti. Invece, vedono la [!UICONTROL Accesso negato] schermo.
+* **PROBLEMA:** Utenti con [!UICONTROL Manager] Le autorizzazioni di non possono visualizzare le bozze create da altri utenti. Invece, visualizzano [!UICONTROL Accesso negato] schermo.
 
    ![](assets/access-denied-350x161.png)
 
-   **SOLUZIONE:** Utenti con [!UICONTROL Manager] le autorizzazioni devono essere aggiunte esplicitamente alle bozze. Le bozze devono sempre essere create tramite il [!UICONTROL Opzioni di correzione avanzate] e gli utenti devono sempre essere aggiunti tramite questa opzione.
+   **SOLUZIONE:** Utenti con [!UICONTROL Manager] Le autorizzazioni di devono essere aggiunte esplicitamente alle bozze. Le bozze devono sempre essere create tramite [!UICONTROL Opzioni di verifica avanzate] e gli utenti devono sempre essere aggiunti tramite questa opzione.
 
-* **PROBLEMA:** Utenti con [!UICONTROL Manager] Le autorizzazioni non possono aggiungere versioni di bozza alle bozze create da altri utenti (potrebbero potenzialmente inviare una bozza nel set di documenti, ma le versioni NON sarebbero collegate al set originale creato da un altro utente).\
-   **SOLUZIONE:** Utenti con [!UICONTROL Manager] le autorizzazioni possono inviare le versioni alla bozza di un altro utente solo se l&#39;utente con [!UICONTROL Manager] autorizzazioni quando :
+* **PROBLEMA:** Utenti con [!UICONTROL Manager] Le autorizzazioni non possono aggiungere versioni di bozze alle bozze create da altri utenti (potrebbero potenzialmente inviare una bozza nel set di documenti, ma le versioni NON sarebbero connesse al set originale creato da un altro utente).\
+   **SOLUZIONE:** Utenti con [!UICONTROL Manager] Le autorizzazioni di possono inviare le versioni alla bozza di un altro utente solo se l’utente con [!UICONTROL Manager] autorizzazioni quando:
 
    * Aggiunto esplicitamente alle bozze
-   * Imposta come [!UICONTROL Autori] (ruolo di prova) sulle prove
+   * Imposta come [!UICONTROL Autori] (ruolo bozza) sulle bozze
 
-* **PROBLEMA:** Utenti con [!UICONTROL Manager] Le autorizzazioni non possono modificare i commenti di altri utenti su una bozza che non possiedono o che non hanno creato.\
-   **SOLUZIONE:** Se gli utenti utilizzano [!UICONTROL Manager] le autorizzazioni non possiedono le bozze, ma devono essere in grado di modificare i commenti e aggiungerli come [!UICONTROL Autori] o [!UICONTROL Moderatori]).\
-   Questi tre tipi di autorizzazioni sono disponibili in [!DNL Workfront] per [!UICONTROL Planner], [!UICONTROL Lavoratore], [!UICONTROL Richiedente], [!UICONTROL Revisore] licenze di tipo. Amministratore di sistema o amministratore utente in [!DNL Workfront] può modificare i profili degli utenti e regolare [!DNL Workfront Proof] autorizzazioni da lì.
+* **PROBLEMA:** Utenti con [!UICONTROL Manager] le autorizzazioni non possono modificare i commenti di altri utenti su una bozza di cui non sono proprietari o che non hanno creato.\
+   **SOLUZIONE:** Se gli utenti con [!UICONTROL Manager] le autorizzazioni non sono proprietarie delle bozze, ma devono poter modificare i commenti e aggiungerli come [!UICONTROL Autori] (o [!UICONTROL Moderatori]).\
+   Questi tre tipi di autorizzazioni sono disponibili in [!DNL Workfront] per [!UICONTROL Planner], [!UICONTROL Lavoratore], [!UICONTROL Richiessore], [!UICONTROL Revisore] digitare le licenze. Amministratore di sistema o Amministratore utenti in [!DNL Workfront] può modificare i profili degli utenti e regolare [!DNL Workfront Proof] autorizzazioni da lì.
