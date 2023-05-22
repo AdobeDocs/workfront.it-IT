@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 9b83e1c4a89fa94fe26888e682676c84be1d1d85
+source-git-commit: 09e93cafc549eeb466668000ed5e879c2cf963e0
 workflow-type: tm+mt
-source-wordcount: '13017'
+source-wordcount: '13012'
 ht-degree: 1%
 
 ---
@@ -2505,7 +2505,6 @@ ht-degree: 1%
       * [API Explorer](wf-api/general/api-explorer.md)
       * [Utilizzo di API Explorer](wf-api/general/using-api-explorer.md)
       * [Campi Rich Text nell’API di Adobe Workfront](wf-api/general/rich-text-field-api.md)
-      * [Forum per sviluppatori API di Adobe Workfront](wf-api/general/api-developer-forum.md)
       * [Esempi di script API](wf-api/general/api-example-scripts.md)
       * [Utilizzo dell’API per sincronizzare i dati per programmi e servizi](wf-api/general/api-sync-data.md)
       * [Disattivare un utente tramite l’API](wf-api/general/deactivate-user-api.md)
