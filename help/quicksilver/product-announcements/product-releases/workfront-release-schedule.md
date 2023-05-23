@@ -1,88 +1,87 @@
 ---
 content-type: release-notes
-keywords: release
+keywords: versione
 navigation-topic: product-announcements
-title: Pianificazione ed elaborazione delle versioni di Adobe Workfront
-description: L’ambiente Anteprima viene aggiornato una volta alla settimana con nuove funzioni. Queste funzioni sono comunicate nelle note sulla versione per la prossima versione trimestrale.
+title: Pianificazione e processo della versione di Adobe Workfront
+description: L’ambiente di anteprima viene aggiornato una volta alla settimana con le nuove funzioni. Queste funzioni sono descritte nelle note sulla versione per la prossima versione trimestrale.
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
 
-# Pianificazione ed elaborazione delle versioni di Adobe Workfront
+# Pianificazione e processo della versione di Adobe Workfront
 
 ## Aggiorna pianificazione per anteprima
 
-L’ambiente Anteprima viene aggiornato una volta alla settimana con nuove funzioni. Queste funzioni sono comunicate nelle note sulla versione per la prossima versione trimestrale.
+L’ambiente di anteprima viene aggiornato una volta alla settimana con le nuove funzioni. Queste funzioni sono descritte nelle note sulla versione per la prossima versione trimestrale.
 
-## Aggiorna la pianificazione per la produzione
+## Aggiorna pianificazione per produzione
 
-### Funzioni del prodotto
+### Caratteristiche del prodotto
 
-Di solito, le funzioni in Anteprima sono disponibili nell’ambiente Produzione con la prossima versione trimestrale. Tuttavia, in alcuni casi, le funzioni sono disponibili nell’ambiente di produzione al di fuori di una versione trimestrale. Queste modifiche rimangono in Anteprima per almeno 2 settimane, per consentirti di conoscere le modifiche in modo adeguato. Queste modifiche vengono comunicate anche tramite Centro annunci al momento dell’aggiunta in Anteprima.
+Di solito, le funzioni in Anteprima sono rese disponibili nell’ambiente di produzione con la prossima versione trimestrale. Tuttavia, in alcuni casi, le funzioni di sono rese disponibili nell’ambiente di produzione al di fuori della versione trimestrale. Queste modifiche rimangono in Anteprima per un minimo di 2 settimane per fornire il tempo necessario per conoscere le modifiche. Queste modifiche vengono comunicate anche tramite il Centro notifiche al momento dell’aggiunta all’anteprima.
 
-### Aggiornamenti alla manutenzione
+### Aggiornamenti di manutenzione
 
-Le correzioni dei problemi relativi al prodotto Adobe Workfront sono rese disponibili nell’ambiente di produzione ogni settimana. Consulta la sezione [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) per vedere cosa è stato corretto di recente.
+Le correzioni dei problemi relativi al prodotto Adobe Workfront sono rese disponibili nell’ambiente di produzione ogni settimana. Consulta la [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) per vedere cosa è stato risolto di recente.
 
 ## Funzioni rimosse da una versione trimestrale
 
-Tutte le funzioni associate a una determinata versione trimestrale sono disponibili per il test in Anteprima per almeno 2-4 settimane prima della versione finale in Produzione. Se le funzioni vengono rimosse dalla versione trimestrale prima di tale data, vengono intraprese le seguenti azioni per informare i clienti:
+Tutte le funzioni associate a una data versione trimestrale sono disponibili per il test in Anteprima per un minimo di 2-4 settimane prima del rilascio finale in produzione. Se le funzioni vengono rimosse dalla versione trimestrale prima di questo momento, vengono adottate le seguenti azioni per informare i clienti:
 
-* Le note sulla versione per la versione trimestrale (disponibili nella sezione [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md) page) vengono aggiornate per indicare che la funzione è stata rimossa.
+* Note sulla versione trimestrale (disponibili nella [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md) ) per indicare che la funzione è stata rimossa.
 
-Se le funzioni vengono rimosse dalla versione trimestrale dopo che tutte le funzioni sono disponibili per il test in Anteprima, vengono intraprese le seguenti azioni per informare i clienti:
+Se le funzioni vengono rimosse dalla versione trimestrale dopo che tutte sono disponibili per il test in Anteprima, per informare i clienti vengono eseguite le seguenti operazioni:
 
-* Le note sulla versione per la versione trimestrale (disponibili nella sezione [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md) page) vengono aggiornate per indicare che la funzione è stata rimossa.
-* Nella community Workfront viene aggiunto un post in cui viene indicato che la funzione è stata rimossa.
-* Tramite Centro annunci viene inviato un messaggio per informare tutti i clienti che la funzione è stata rimossa. (Centro annunci è un Centro notifiche in-app di Workfront. Per ulteriori informazioni, consulta [Inviare annunci](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+* Note sulla versione trimestrale (disponibili nella [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md) ) per indicare che la funzione è stata rimossa.
+* Alla community di Workfront viene aggiunto un post per informare che la funzione è stata rimossa.
+* Tramite il Centro notifiche viene inviato un messaggio a tutti i clienti per informare che la funzione è stata rimossa. Il Centro notifiche è il centro notifiche in-app di Workfront. Per ulteriori informazioni, consulta [Inviare annunci](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
 ## Versioni beta
 
-A volte, Workfront rilascia nuove funzionalità come parte di un programma beta.
-Le informazioni specifiche su ogni versione beta, comprese le modalità di partecipazione, le versioni quando ogni programma beta viene avviato e tutti i programmi beta sono diversi.
+A volte, Workfront rilascia nuove funzioni come parte di un programma beta.
+Le informazioni specifiche su ciascuna versione beta, tra cui le modalità di partecipazione, le versioni all’avvio di ciascun programma beta e tutti i programmi beta sono diversi.
 
-Di seguito sono riportati i tipi di programmi beta disponibili da Workfront:
+I seguenti programmi beta sono disponibili da Workfront:
 
-* **Versione beta chiusa o privata**: Le seguenti sono caratteristiche di un rilascio beta chiuso o privato:
+* **Versione beta chiusa o privata**: le seguenti sono caratteristiche di una versione beta chiusa o privata:
 
-   * Le funzioni sono disponibili per un piccolo gruppo di clienti, accuratamente selezionati da Workfront.
-   * I partecipanti in genere lavorano con un Product Manager e forniscono feedback su base regolare.
-   * Le nuove funzioni che fanno parte della versione beta possono essere rilasciate in Anteprima o Produzione o in un ambiente separato reso disponibile ai fini del programma beta. Le funzioni beta chiuse vengono rilasciate a intervalli casuali e senza alcun avviso.
-   * Nelle pagine di rilascio del prodotto non sono disponibili informazioni sulla versione per i betas chiusi.
+   * Le funzioni di sono disponibili per un piccolo gruppo di clienti, accuratamente selezionati da Workfront.
+   * In genere i partecipanti lavorano con un Product Manager e forniscono feedback regolarmente.
+   * Le nuove funzioni che fanno parte della versione beta possono essere rilasciate in Anteprima o Produzione oppure in un ambiente separato reso disponibile per gli scopi del programma beta. Le funzioni beta chiuse vengono rilasciate a intervalli casuali e senza alcun avviso.
+   * Sulle pagine di rilascio del prodotto non sono disponibili informazioni sulla versione per i beta chiusi.
 
-* **Beta aperta o pubblica**: Le seguenti sono caratteristiche di una versione beta aperta o pubblica:
+* **Beta aperta o pubblica**: le seguenti sono caratteristiche di una versione beta aperta o pubblica:
 
-   * Le funzioni sono disponibili per tutti i clienti Workfront, ma sono in stato beta. Potrebbero non essere sempre completamente funzionali e il feedback è sempre benvenuto.
+   * Le funzioni sono disponibili per tutti i clienti di Workfront, ma si trovano in stato beta. Potrebbero non essere sempre completamente funzionali e il feedback è sempre il benvenuto.
    * La partecipazione a una versione beta pubblica è facoltativa e i clienti possono decidere se attivare autonomamente le funzioni beta.
    * Le nuove funzioni che fanno parte della versione beta possono essere rilasciate in Anteprima o Produzione.
-   * Le funzioni potrebbero rilasciare più spesso dei normali pattern di rilascio per Workfront.
-   * Le informazioni su quando le funzioni vengono rilasciate in una versione beta pubblica sono incluse nelle pagine di rilascio del prodotto.
+   * Le funzioni potrebbero essere rilasciate più spesso dei normali modelli di rilascio per Workfront.
+   * Le informazioni relative a quando le funzioni vengono rilasciate in una versione beta pubblica sono incluse nelle pagine di rilascio del prodotto.
 
 Per informazioni sulle note sulla versione del prodotto, consulta [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md).
 
 ## Altre versioni
 
-A volte, Workfront potrebbe rilasciare funzionalità che potrebbero non essere documentate nelle note sulla versione, negli aggiornamenti di manutenzione o in uno qualsiasi degli articoli della documentazione. Questo accade nel tentativo di testare le nuove funzioni prima di renderle permanenti. Di solito, questi test vengono rilasciati a un numero limitato di clienti, ma potrebbe esserci un momento in cui potrebbero essere rilasciati a tutti. Possono essere rilasciati negli ambienti Preview o Production.
+A volte, Workfront potrebbe rilasciare funzioni che potrebbero non essere documentate nelle note sulla versione, negli aggiornamenti di manutenzione o in uno qualsiasi degli articoli della documentazione. Ciò avviene nel tentativo di testare le nuove funzioni prima di renderle permanenti. Di solito, questi test vengono rilasciati a un numero limitato di clienti, ma potrebbe esserci un momento in cui potrebbero essere rilasciati a tutti. Possono essere rilasciati negli ambienti di anteprima o produzione.
 
-Se ti imbatti in qualcosa nel sistema che non corrisponde alla documentazione e per il quale potresti avere delle domande, ti chiediamo di contattare il nostro team di Assistenza clienti. Per ulteriori informazioni, consulta [Contatta l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Se riscontri qualcosa nel sistema che non corrisponde alla documentazione e per il quale potresti avere delle domande, ti chiediamo di contattare il nostro team di Assistenza clienti. Per ulteriori informazioni, consulta [Contatta l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Note sulla versione
 
-Utilizza le note sulla versione per la prossima versione trimestrale per vedere quali nuove funzioni sono disponibili in Anteprima e quando saranno rilasciate in Produzione.
+Utilizza le note sulla versione per la prossima versione trimestrale per vedere quali nuove funzioni sono disponibili in Anteprima e quando verranno rilasciate in Produzione.
 
-Per le note sulla versione per la prossima versione trimestrale, consulta [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md), quindi fai clic sul collegamento per passare alla pagina di panoramica sulla versione per la prossima versione.
+Per informazioni sulle note sulla versione del prossimo trimestre, consulta [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md), quindi fai clic sul collegamento per passare alla pagina di panoramica sulla versione per la prossima versione.
 
-Le note sulla versione forniscono una tabella con un elenco di funzioni nella colonna a sinistra, con una breve descrizione di ciascuna funzione. Puoi fare clic su un collegamento a una funzione per visualizzare un video dimostrativo della nuova funzione e accedere alla documentazione sulla nuova funzione. Nella colonna a destra sono visualizzate le seguenti informazioni per ciascuna funzione:
+Le note sulla versione contengono una tabella con un elenco delle funzioni nella colonna a sinistra, con una breve descrizione di ciascuna funzione. Puoi fare clic su un collegamento di funzione per visualizzare un video dimostrativo della nuova funzione e accedere alla documentazione relativa. Nella colonna di destra vengono visualizzate le seguenti informazioni per ogni funzione:
 
 * Data di rilascio anteprima
-* Data di rilascio della produzione
-* Disponibilità nella nuova esperienza Adobe Workfront e/o Adobe Workfront Classic
+* Data di rilascio produzione
 
 Ad esempio:
 

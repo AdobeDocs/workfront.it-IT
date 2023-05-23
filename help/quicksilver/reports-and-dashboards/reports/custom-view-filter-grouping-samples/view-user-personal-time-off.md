@@ -2,25 +2,25 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Visualizza: tempo di inattività personale dell''utente'
-description: '''Visualizza: tempo di inattività personale dell''utente'
+title: "Visualizza: indisponibilità personale utente"
+description: "Visualizza: indisponibilità personale utente"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 68baff382c1c5e6b69906bb021fb20fd513dad0f
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 4%
+source-wordcount: '284'
+ht-degree: 3%
 
 ---
 
-# Visualizza: tempo di inattività personale dell&#39;utente
+# Visualizza: indisponibilità personale dell&#39;utente
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
 -->
 
-Puoi creare un rapporto Time Off (Tempo di inattività) per acquisire le informazioni sul tempo libero degli utenti.
+Puoi creare un rapporto Time Off (Ferie) per acquisire le informazioni relative al tempo libero degli utenti.
 
 ## Requisiti di accesso
 
@@ -31,43 +31,46 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Richiesta di modifica di una vista </p>
+   <p>Pianificare la modifica di un rapporto</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a rapporti, dashboard, calendari</p> <p>Modificare l’accesso a Filtri, Visualizzazioni, Gruppi</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> <p><b>NOTA</b>
+
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Visualizzazione del tempo di inattività personale dell&#39;utente
+## Visualizza indisponibilità personale utente
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell&#39;angolo in alto a destra, quindi fai clic su **Rapporti > Nuovo rapporto**.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **Rapporti > Nuovo rapporto**.
 
-1. Dal menu a discesa, seleziona **Time Off**.
-1. Fai clic su **Salva e chiudi**.
+1. Dal menu a discesa, seleziona **Indisponibilità**.
+1. Clic **Salva e chiudi**.
 
-   Il rapporto visualizza per impostazione predefinita i campi seguenti nella visualizzazione:
+   Per impostazione predefinita, nel rapporto vengono visualizzati i campi riportati di seguito.
 
-   | Utente | Nome dell’utente che ha indicato l’orario di inattività nel profilo. |
+   | Utente | Il nome dell’utente che ha indicato l’indisponibilità nel suo profilo. |
    |---|---|
-   | Data di inizio | Data di inizio del periodo di tempo indicato dall&#39;utente. |
-   | Data di fine | Data di fine del periodo di tempo indicato dall&#39;utente. |
+   | Data di inizio | La data di inizio del periodo di inattività indicato dall’utente. |
+   | Data di fine | La data di fine del periodo di inattività indicato dall’utente. |
 
    {style="table-layout:auto"}
 
-1. (Facoltativo) Completa la creazione del rapporto modificando una delle seguenti schede:
+1. (Facoltativo) Termina la creazione del rapporto modificando una delle seguenti schede:
 
    * Colonne (Visualizzazione)
    * Raggruppamenti
@@ -78,7 +81,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!TIP]
    >
-   >Per facilitare la lettura del rapporto, è consigliabile aggiungere un raggruppamento per l’oggetto Utente.
+   >È consigliabile aggiungere un raggruppamento per l&#39;oggetto User per semplificare la lettura del report.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Add Time Off information to a user report</h2>

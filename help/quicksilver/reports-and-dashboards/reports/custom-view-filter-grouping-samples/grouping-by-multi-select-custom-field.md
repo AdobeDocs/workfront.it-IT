@@ -3,29 +3,29 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: Raggruppare un rapporto per un campo personalizzato a selezione multipla
-description: 'È possibile raggruppare in base al valore in un campo personalizzato a selezione multipla in un rapporto di Adobe Workfront. Esempi di campi personalizzati con selezione multipla sono: EDIT ME.'
+description: 'Puoi eseguire il raggruppamento in base al valore in un campo personalizzato a selezione multipla in un rapporto di Adobe Workfront. Alcuni esempi di campi personalizzati a selezione multipla sono: MODIFICAMI.'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Raggruppare un rapporto per un campo personalizzato a selezione multipla
 
-È possibile raggruppare in base al valore in un campo personalizzato a selezione multipla in un rapporto di Adobe Workfront. Esempi di campi personalizzati con selezione multipla sono:
+Puoi eseguire il raggruppamento in base al valore in un campo personalizzato a selezione multipla in un rapporto di Adobe Workfront. Di seguito sono riportati alcuni esempi di campi personalizzati a selezione multipla:
 
 * Checkboxe
 * Menu a discesa a selezione multipla
 
-È possibile raggruppare in base a questo tipo di campo solo utilizzando la modalità testo. Per informazioni sull’utilizzo della modalità testo, consulta l’articolo [Panoramica della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+È possibile eseguire il raggruppamento in base a questo tipo di campo solo utilizzando la modalità testo. Per informazioni sull’utilizzo della modalità testo, consulta l’articolo [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 >[!NOTE]
 >
->Non è possibile creare un grafico per un rapporto in base a un campo personalizzato con più selezioni. È necessario creare un campo calcolato aggiuntivo che faccia riferimento al campo personalizzato a selezione multipla per creare un grafico del rapporto in base al valore del campo personalizzato a selezione multipla. Per ulteriori informazioni, consulta [Creare un grafico di un rapporto in base a un campo personalizzato a selezione multipla](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+>Non è possibile tracciare un report con un campo personalizzato a selezione multipla. È necessario creare un campo calcolato aggiuntivo che faccia riferimento al campo personalizzato a selezione multipla per tracciare il rapporto anche in base al valore del campo personalizzato a selezione multipla. Per ulteriori informazioni, consulta [Creare un grafico per un rapporto in base a un campo personalizzato a selezione multipla](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 
 ## Requisiti di accesso
 
@@ -36,52 +36,55 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Richiesta di modifica di un raggruppamento </p>
+   <p>Pianificare la modifica di un rapporto</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a rapporti, dashboard, calendari</p> <p>Modificare l’accesso a Filtri, Visualizzazioni, Gruppi</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modifica l'accesso a Filtri, Viste, Raggruppamenti per modificare un raggruppamento</p> <p><b>NOTA</b>
+
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Raggruppare un rapporto tramite campi personalizzati con più selezioni
+## Raggruppare un rapporto per più campi personalizzati selezionati
 
 Per poter raggruppare in base a un campo personalizzato a selezione multipla, è necessario disporre dei seguenti prerequisiti:
 
-* Creare il campo personalizzato per selezione multipla in un modulo personalizzato.\
-   Per informazioni sulla creazione di moduli personalizzati e sull’aggiunta di campi personalizzati, vedere l’articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Crea il campo personalizzato a selezione multipla in un modulo personalizzato.\
+   Per informazioni sulla creazione di moduli personalizzati e sull’aggiunta di campi personalizzati, consulta l’articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 * Allegare il modulo personalizzato agli oggetti.
-* Compilare il campo personalizzato a selezione multipla con un valore per ciascun oggetto. 
+* Compila il campo personalizzato a selezione multipla con un valore su ciascun oggetto. 
 
 Per raggruppare in base a un campo personalizzato a selezione multipla in un rapporto:
 
-1. Crea un rapporto o modifica un rapporto esistente in cui desideri aggiungere un raggruppamento per un campo personalizzato con più selezioni.\
+1. Crea un rapporto o modificane uno esistente in cui desideri aggiungere un raggruppamento per un campo personalizzato a selezione multipla.\
    Per informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Seleziona la **Raggruppamenti** scheda .
-1. Fai clic su **Passa alla modalità testo**.
+1. Seleziona la **Raggruppamenti** scheda.
+1. Clic **Passa alla modalità testo**.
 
-1. Seleziona il testo nella **Raggruppa il rapporto** e sostituiscilo con il seguente codice:
+1. Seleziona il testo nella **Raggruppa il report** e sostituirlo con il seguente codice:
 
-   <pre>group.0.displayname=Nome campo personalizzato per selezione multipla<br>group.0.valueexpression={DE:Multi-select Nome campo personalizzato}<br>group.0.valueformat=HTML<br>textmode=true</pre>
+   <pre>group.0.displayname=Nome campo personalizzato a selezione multipla<br>group.0.valueexpression={DE:Nome campo personalizzato a selezione multipla}<br>group.0.valueformat=HTML<br>textmode=true</pre>
 
-1. Sostituire &quot;Multi-select Custom Field Name&quot; con il nome effettivo del campo personalizzato a selezione multipla, come visualizzato in Workfront.  
-1. Fai clic su **Salva e chiudi**.\
-   Gli oggetti nel rapporto sono raggruppati in base ai valori del campo personalizzato a selezione multipla.\
-   Il nome dei raggruppamenti del rapporto sono i nomi del campo personalizzato a selezione multipla seguito dai valori selezionati nel campo. 
+1. Sostituisci &quot;Nome campo personalizzato a selezione multipla&quot; con il nome effettivo del campo personalizzato a selezione multipla, come visualizzato in Workfront.  
+1. Clic **Salva e chiudi**.\
+   Gli oggetti nel report sono raggruppati in base ai valori del campo personalizzato a selezione multipla.\
+   I nomi dei raggruppamenti del rapporto sono i nomi del campo personalizzato a selezione multipla seguiti dai valori selezionati nel campo. 
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

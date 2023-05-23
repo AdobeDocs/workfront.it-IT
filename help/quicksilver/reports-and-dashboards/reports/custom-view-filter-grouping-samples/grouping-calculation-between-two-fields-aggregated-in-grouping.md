@@ -8,9 +8,9 @@ description: È possibile utilizzare la modalità testo in una colonna per visua
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -37,12 +37,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Richiesta di modifica di un raggruppamento </p>
+   <p>Pianificare la modifica di un rapporto</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
-  </tr> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modifica l'accesso a Filtri, Viste, Raggruppamenti per modificare un raggruppamento</p> <p><b>NOTA</b>
+
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 

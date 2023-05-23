@@ -3,24 +3,24 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Raggruppamento: progetti per data di ingresso"
-description: In questo raggruppamento di progetti personalizzato è possibile visualizzare progetti raggruppati in base ai relativi valori di data di ingresso.
+description: In questo raggruppamento di progetti personalizzato, puoi visualizzare i progetti raggruppati per i relativi valori di Data di ingresso.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-# Raggruppamento: progetti per data di ingresso
+# Raggruppamento: progetti per data di inserimento
 
-In questo raggruppamento di progetti personalizzato è possibile visualizzare progetti raggruppati in base ai relativi valori di data di ingresso.
+In questo raggruppamento di progetti personalizzato, puoi visualizzare i progetti raggruppati per i relativi valori di Data di ingresso.
 
-Ogni raggruppamento mostra progetti con una data di entrata entro:
+Ogni raggruppamento mostra i progetti con una Data di ingresso in:
 
-* Gli ultimi 30 giorni
+* Ultimi 30 giorni
 * 30-60 giorni
 * 60 giorni o più
 
@@ -33,37 +33,40 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Richiesta di modifica di un raggruppamento </p>
+   <p>Pianificare la modifica di un rapporto</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a rapporti, dashboard, calendari</p> <p>Modificare l’accesso a Filtri, Visualizzazioni, Gruppi</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modifica l'accesso a Filtri, Viste, Raggruppamenti per modificare un raggruppamento</p> <p><b>NOTA</b>
+
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+</tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Raggruppa progetti per data di ingresso
+## Raggruppa progetti per data immissione
 
 Per applicare questo raggruppamento:
 
-1. Passa a un rapporto di progetto esistente o creane uno nuovo.\
+1. Passare a un report di progetto esistente o creare un nuovo report di progetto.\
    Per ulteriori informazioni sulla creazione di un rapporto, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Da **Raggruppamento** scheda , fai clic su **Aggiungi raggruppamento**.
+1. Dalla sezione **Raggruppamento** , fare clic su **Aggiungi raggruppamento**.
 
-1. Fai clic su **Passa alla modalità testo**.
-1. Rimuovi il testo nel **Raggruppa il rapporto** area.
+1. Clic **Passa alla modalità testo**.
+1. Rimuovi il testo nella **Raggruppa il report** area.
 1. Sostituisci il testo con il seguente codice:
 
    ```
@@ -86,4 +89,4 @@ Per applicare questo raggruppamento:
    textmode=true
    ```
 
-1. Fai clic su **Salva e chiudi**.
+1. Clic **Salva e chiudi**.

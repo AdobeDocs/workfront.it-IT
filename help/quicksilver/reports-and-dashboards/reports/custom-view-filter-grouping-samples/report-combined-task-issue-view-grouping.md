@@ -2,27 +2,27 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Rapporto: attività e problemi combinati Visualizza e raggruppamento"
-description: Questo rapporto dell'elemento di lavoro mostra sia le attività che i problemi su cui gli utenti hanno accettato di lavorare in un unico rapporto. Questa funzione è ottimale se combinata con un raggruppamento personalizzato.
+title: "Rapporto: visualizzazione e raggruppamento combinati di attività e problemi"
+description: Questo rapporto Elemento di lavoro mostra le attività e i problemi che gli utenti hanno accettato di risolvere in un unico rapporto. È consigliabile se combinato con un raggruppamento personalizzato.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
-# Rapporto: visualizzazione combinata delle attività e dei problemi e raggruppamento
+# Rapporto: attività e problema combinati Visualizzazione e raggruppamento
 
-Questo rapporto dell&#39;elemento di lavoro mostra sia le attività che i problemi su cui gli utenti hanno accettato di lavorare in un unico rapporto. Questa funzione è ottimale se combinata con un raggruppamento personalizzato.
+Questo rapporto Elemento di lavoro mostra le attività e i problemi che gli utenti hanno accettato di risolvere in un unico rapporto. È consigliabile se combinato con un raggruppamento personalizzato.
 
-Questo rapporto utilizza `sharecol=true` nella visualizzazione per combinare più campi sotto la stessa intestazione di colonna. Per ulteriori informazioni sulla `sharecol` tag, vedi [Visualizza: unire informazioni da più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Questo rapporto utilizza `sharecol=true` nella visualizzazione per combinare più campi sotto la stessa intestazione di colonna. Per ulteriori informazioni su `sharecol` tag, vedi [Vista: unire le informazioni provenienti da più colonne in una colonna condivisa](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
-> Nella visualizzazione Elemento di lavoro vengono visualizzate solo le attività e i problemi accettati dagli utenti assegnati. Questo rapporto non visualizza gli elementi di lavoro che non sono stati spostati dagli elenchi Richieste di lavoro o Richieste di team nell&#39;elenco Lavorazione in corso dell&#39;utente.
+> Nella visualizzazione Elemento di lavoro vengono visualizzate solo le attività e i problemi accettati dagli utenti a esse assegnati. In questo report non vengono visualizzati gli elementi di lavoro che non sono stati spostati dagli elenchi Richieste di lavoro o Richieste team all&#39;elenco Lavori in corso dell&#39;utente.
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
@@ -35,7 +35,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -43,30 +43,32 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a rapporti, dashboard, calendari</p> <p>Modificare l’accesso a Filtri, Visualizzazioni, Gruppi</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p><b>NOTA</b>
+
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Creare un rapporto con attività combinate e visualizzazione dei problemi e raggruppamento
+## Creare un rapporto con attività e problemi combinati Visualizzazione e raggruppamento
 
 Per creare un rapporto con questa visualizzazione:
 
-1. Da **Menu principale** ![](assets/main-menu-icon.png), fai clic su **Rapporti**.
+1. Dalla sezione **Menu principale** ![](assets/main-menu-icon.png), fai clic su **Rapporti**.
 
-1. Fai clic su **Nuovo rapporto** e seleziona l’oggetto **Elemento di lavoro** dal menu a discesa.
+1. Clic **Nuovo rapporto** e selezionare l&#39;oggetto **Elemento di lavoro** dal menu a discesa.
 
-1. In **Anteprima a colonne** fare clic sull&#39;intestazione dell&#39;unica colonna visualizzata.
-1. Fai clic su **Passa alla modalità testo**.
-1. Passa il puntatore del mouse sull’area della modalità testo e fai clic su **Fare clic per modificare il testo**.
-1. Rimuovi il testo che trovi nella **Modalità testo** e sostituirlo con il seguente codice:
+1. In **Anteprima colonna** fare clic sull&#39;intestazione dell&#39;unica colonna visualizzata.
+1. Clic **Passa alla modalità testo**.
+1. Passa il puntatore del mouse sull&#39;area della modalità testo e fai clic su **Fare clic per modificare il testo**.
+1. Rimuove il testo trovato in **Modalità testo** e sostituirlo con il seguente codice:
 
    ```
    column.0.description=Task or Issue 
@@ -258,8 +260,8 @@ Per creare un rapporto con questa visualizzazione:
    ```
 
 1. (Facoltativo) Fai clic su **Raggruppamenti** per aggiungere un raggruppamento al rapporto.
-1. (Facoltativo) Se aggiungi un raggruppamento, fai clic su **Passa alla modalità testo**.
-1. (Facoltativo) Sostituisci il testo all’interno dell’area della modalità di raggruppamento del testo con il seguente codice:
+1. (Facoltativo) Se stai aggiungendo un raggruppamento, fai clic su **Passa alla modalità testo**.
+1. (Facoltativo) Sostituisci il testo all’interno dell’area della modalità testo di raggruppamento con il seguente codice:
 
    ```
    group.0.name=
@@ -268,6 +270,6 @@ Per creare un rapporto con questa visualizzazione:
    textmode=true
    ```
 
-   Questo raggruppamento raggruppa tutte le attività e tutti i problemi.
+   Questo raggruppamento raggruppa tutte le Attività e tutte le Issues.
 
-1. Fai clic su **Salva e chiudi**.
+1. Clic **Salva e chiudi**.

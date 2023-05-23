@@ -2,23 +2,23 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Visualizza: rimuovi il collegamento a un oggetto in una colonna"'
-description: Per impostazione predefinita, alcuni oggetti visualizzati in una visualizzazione collegano alla pagina Dettagli dell’oggetto. Ad esempio, la colonna che visualizza il Nome di un progetto è un collegamento al progetto; la colonna che visualizza il nome di un utente è un collegamento alla pagina del profilo dell’utente.
+title: "Visualizzazione: rimozione del collegamento a un oggetto in una colonna"
+description: Per impostazione predefinita, alcuni oggetti visualizzati in una visualizzazione vengono collegati alla pagina Dettagli dell'oggetto. Ad esempio, la colonna in cui viene visualizzato il Nome di un progetto è un collegamento al progetto; la colonna in cui viene visualizzato il Nome di un utente è un collegamento alla pagina del profilo dell’utente.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
 
-# Visualizza: rimuovere un collegamento a un oggetto in una colonna
+# Visualizzazione: rimozione di un collegamento a un oggetto in una colonna
 
-Per impostazione predefinita, alcuni oggetti visualizzati in una visualizzazione collegano alla pagina Dettagli dell’oggetto. Ad esempio, la colonna che visualizza il Nome di un progetto è un collegamento al progetto; la colonna che visualizza il nome di un utente è un collegamento alla pagina del profilo dell’utente.
+Per impostazione predefinita, alcuni oggetti visualizzati in una visualizzazione vengono collegati alla pagina Dettagli dell&#39;oggetto. Ad esempio, la colonna in cui viene visualizzato il Nome di un progetto è un collegamento al progetto; la colonna in cui viene visualizzato il Nome di un utente è un collegamento alla pagina del profilo dell’utente.
 
-Puoi rimuovere questo collegamento utilizzando la modalità testo nelle colonne visualizzate in tutte le viste.
+È possibile rimuovere questo collegamento utilizzando la modalità testo nelle colonne visualizzate in tutte le visualizzazioni.
 
 ## Requisiti di accesso
 
@@ -29,52 +29,55 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Richiesta di modifica di una vista </p>
+   <p>Pianificare la modifica di un rapporto</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a rapporti, dashboard, calendari</p> <p>Modificare l’accesso a Filtri, Visualizzazioni, Gruppi</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> <p><b>NOTA</b>
+
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+</tr>   
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Esempio: Rimuovere il collegamento a un&#39;attività dalla colonna Nome attività in una visualizzazione attività:
+## Esempio: rimuovere il collegamento a un&#39;attività dalla colonna Nome attività in una visualizzazione attività:
 
-1. Passare a un elenco di attività.
-1. Da **Visualizza** menu a discesa, fai clic su **Nuova vista** per creare una nuova visualizzazione.
+1. Consente di passare a un elenco di attività.
+1. Dalla sezione **Visualizza** menu a discesa, fai clic su **Nuova visualizzazione** per creare una nuova vista.
 
    Oppure
 
-   Fai clic sul pulsante **Icona Modifica** ![](assets/edit-icon.png)
+   Fai clic su **Icona Modifica** ![](assets/edit-icon.png)
 
-   per modificare una visualizzazione esistente, selezionarla.
+   per modificare una vista esistente, selezionare la vista.
 
-1. Fai clic su **Aggiungi colonna** per aggiungere una nuova colonna.
+1. Clic **Aggiungi colonna** per aggiungere una nuova colonna.
 
    Oppure
 
    Fare clic su una colonna esistente con un collegamento a un oggetto.
 
-1. Fai clic su **Passa alla modalità testo**.
+1. Clic **Passa alla modalità testo**.
 1. Passa il puntatore del mouse sull’area della modalità testo e fai clic su **Fare clic per modificare il testo**.
-1. Rimuovi il testo che trovi nella **Modalità testo** e sostituirlo con il seguente codice:
+1. Rimuove il testo trovato in **Modalità testo** e sostituirlo con il seguente codice:
 
-   <pre>displayname=Nome attività<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
+   <pre>displayname=Nome attività<br>linkedname=direct<br>namekey=name<br>querysort=nome<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Composto</pre>
 
    >[!TIP]
    >
-   >È possibile utilizzare un codice simile per altri oggetti regolando quanto segue:
+   >È possibile utilizzare codice simile per altri oggetti regolando i seguenti elementi:
    >
    >   
    >   
@@ -85,17 +88,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >   
    >   
    >   * Elimina tutte le righe che iniziano con >
-   >   
-   >     ```>   
-   >     link.
-   >     ```   >   
-   >   
-   >     from the original text of the column. For example, eliminate all the following lines:
-   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-   >   
-   >   
-   >
+
+      >   
+      >     ```>   
+      >     link.
+      >     ```   >   
+      >   
+      >     
+      from the original text of the column. For example, eliminate all the following lines:
+      >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
+      >   
+      >   
+      >
 
 
 
-1. Fai clic su **Salva**, quindi **Salva visualizzazione**.
+1. Clic **Salva**, quindi **Salva visualizzazione**.
