@@ -4,12 +4,12 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Risoluzione dei problemi relativi alle autorizzazioni di Workfront Proof Manager
-description: Di seguito sono riportati i profili di autorizzazione disponibili in [!DNL Adobe] Workfront per utenti di verifica - MODIFICA.
+description: I profili di autorizzazione disponibili in [!DNL Adobe] I Workfront per gli utenti di verifica sono Amministratore, Supervisore e Manager.
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
+source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '256'
 ht-degree: 1%
 
 ---
