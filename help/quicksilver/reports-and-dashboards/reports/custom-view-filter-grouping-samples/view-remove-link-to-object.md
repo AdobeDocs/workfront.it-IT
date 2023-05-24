@@ -88,18 +88,16 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    >   
    >   
    >   * Elimina tutte le righe che iniziano con >
-
-      >   
-      >     ```>   
-      >     link.
-      >     ```   >   
-      >   
-      >     
-      from the original text of the column. For example, eliminate all the following lines:
-      >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-      >   
-      >   
-      >
+   >   
+   >     ```>   
+   >     link.
+   >     ```   >   
+   >   
+   >     from the original text of the column. For example, eliminate all the following lines:
+   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
+   >   
+   >   
+   >
 
 
 
