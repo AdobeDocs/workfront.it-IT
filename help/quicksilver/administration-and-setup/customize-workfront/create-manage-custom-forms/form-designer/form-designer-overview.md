@@ -8,14 +8,18 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: c544f209ab952311d23e149a49bb8df308420bca
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '435'
 ht-degree: 1%
 
 ---
 
 # Panoramica di Progettazione moduli
+
+>[!IMPORTANT]
+>
+>Il progettista del modulo è stato temporaneamente disabilitato il 24 maggio 2023. Puoi utilizzare il generatore di moduli legacy per creare e modificare i moduli personalizzati. Consulta [Creare o modificare un modulo personalizzato con il generatore di moduli legacy](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 È possibile utilizzare il nuovo progettista di moduli per progettare un modulo personalizzato che gli utenti possono allegare a un oggetto Workfront. Gli utenti che lavorano sull’oggetto possono compilare il modulo personalizzato per fornire informazioni sull’oggetto.
 

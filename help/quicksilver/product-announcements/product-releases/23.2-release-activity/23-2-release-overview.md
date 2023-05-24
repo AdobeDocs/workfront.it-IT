@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: 477d09db70a56a39a6000340cf70f7c89718cca0
+source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
 workflow-type: tm+mt
-source-wordcount: '2732'
+source-wordcount: '2745'
 ht-degree: 0%
 
 ---
@@ -85,10 +85,11 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti, ad Adobe Summit
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 9 marzo 2023<br /></p>
+                                <p>Versione di anteprima: 9 marzo 2023</p>
                             </li>
                             <li>
-                                 <p>Versione di produzione: con la versione 23.2</p>
+                                 <p>Versione di produzione: con la versione 23.2<br />
+                                 <span style="color: #ff0000;">La versione beta di Forms Designer è stata temporaneamente disabilitata in Anteprima e produzione il 24 maggio 2023.</span></p>
                             </li>
                         </ul>
                     </td>
