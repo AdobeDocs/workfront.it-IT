@@ -7,10 +7,10 @@ description: Un flusso di lavoro è un gruppo configurabile di schede e schede p
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 3%
+source-wordcount: '905'
+ht-degree: 2%
 
 ---
 
@@ -94,20 +94,28 @@ Quando nell’elenco della bacheca vengono applicati filtri diversi da quelli pr
 
    È lo stesso processo utilizzato per aggiungere membri a una bacheca. Per ulteriori informazioni, consulta [Aggiungere o rimuovere membri da una bacheca](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
+## Aggiungere origini a un flusso di lavoro
+
+Una sorgente determina la provenienza delle schede nel flusso di lavoro.
+
+{{step1-to-boards}}
+
+1. Fai clic su [!UICONTROL **Sorgenti**] icona ![Icona Sorgenti](assets/sources-icon.png) per definire un&#39;origine per l&#39;importazione delle schede nel flusso di lavoro. Al momento, l’unica origine disponibile è [!DNL Adobe Workfront].
+1. Aggiungi filtri per importare attività e problemi da Workfront come schede.
+
+   L’aggiunta di filtri per le origini del flusso di lavoro è identica all’aggiunta di filtri avanzati per una colonna di acquisizione su una bacheca di base o su una bacheca Kanban. Per ulteriori informazioni, consulta [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
 ## Configurare un flusso di lavoro
 
 {{step1-to-boards}}
 
 1. Nel dashboard, fai clic su [!UICONTROL **Visualizza flusso di lavoro**] per aprire un workflow.
 1. Clic [!UICONTROL **Configura**] per aprire [!UICONTROL Configura flusso di lavoro] pannello.
-1. (Facoltativo) Digitare una descrizione del flusso di lavoro. Questa descrizione viene visualizzata nel dashboard.
-1. (Facoltativo) Aggiungi tag al flusso di lavoro. Per ulteriori informazioni, consulta [Aggiungi tag](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+1. (Facoltativo) Espandi [!UICONTROL **Flusso di lavoro**] e digitare una descrizione del flusso di lavoro. Questa descrizione viene visualizzata nel dashboard.
+1. (Facoltativo) Espandi [!UICONTROL **Iterazioni**] per definire un processo di iterazione per questo flusso di lavoro.
 
    Il numero totale di carte, il numero di carte puntate e il numero di iterazioni sono visualizzati nella sezione Elenco carte. Clic [!UICONTROL **Visualizza elenco**] per aprire l’elenco e aggiungere schede. Per ulteriori informazioni, consulta [Utilizza l’elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-   Se è stata definita un&#39;iterazione, vengono visualizzati la data di inizio, il numero di schede e il numero di punti. Clic [!UICONTROL **Visualizza bacheca iterazione**] per aprire la bacheca. Per ulteriori informazioni, consulta [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+   Se è già stata definita un’iterazione, vengono visualizzati la data di inizio, il numero di schede e il numero di punti. Clic [!UICONTROL **Visualizza bacheca**] per aprire la bacheca iterazione. Per ulteriori informazioni, consulta [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
-1. Clic [!UICONTROL **Aggiungi origine**] per definire un&#39;origine per l&#39;importazione delle schede nel flusso di lavoro. Al momento, l’unica origine disponibile è [!DNL Adobe Workfront].
-1. Aggiungi filtri per importare attività e problemi da Workfront come schede.
-
-   L’aggiunta di filtri per le origini del flusso di lavoro è identica all’aggiunta di filtri per una colonna di acquisizione su una bacheca di base o Kanban. Per ulteriori informazioni, consulta [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+1. (Facoltativo) Espandi [!UICONTROL **Tag**] per aggiungere tag al flusso di lavoro. Cercare un tag o digitare un nuovo nome di tag nella casella di ricerca e premere Invio per crearlo.
