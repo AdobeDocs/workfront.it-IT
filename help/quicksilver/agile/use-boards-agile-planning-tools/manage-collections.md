@@ -7,7 +7,7 @@ description: Un flusso di lavoro è un gruppo configurabile di schede e schede p
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: dd1bd5a27a2ed29af29b88b028d8fd34a592aae2
+source-git-commit: 0ccec525069557fdc2a17e37e00968f8fb6d3a41
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 2%
