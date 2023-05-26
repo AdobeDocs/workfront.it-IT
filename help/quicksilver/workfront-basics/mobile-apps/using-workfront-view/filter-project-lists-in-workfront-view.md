@@ -2,27 +2,27 @@
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
-title: Filtrare gli elenchi di progetti in [!DNL Adobe Workfront] Visualizza
+title: Filtrare gli elenchi dei progetti in [!DNL Adobe Workfront] Visualizza
 feature: Get Started with Workfront
-description: Per impostazione predefinita, [!DNL Adobe Workfront] Visualizza visualizza la [!UICONTROL Tutti i progetti] elenco in [!DNL Workfront], vengono elencati tutti i progetti a cui hai accesso, indipendentemente dal loro stato.
-author: Lisa
+description: Per impostazione predefinita, [!DNL Adobe Workfront] Visualizza mostra il [!UICONTROL Tutti i progetti] elenco in [!DNL Workfront]Pertanto, vengono elencati tutti i progetti a cui puoi accedere, indipendentemente dal loro stato.
+author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
 
 ---
 
-# Filtrare gli elenchi di progetti in [!DNL Adobe Workfront View]
+# Filtrare gli elenchi dei progetti in [!DNL Adobe Workfront View]
 
-Per impostazione predefinita, [!DNL Adobe Workfront View] visualizza la [!UICONTROL Tutti i progetti] elenco in [!DNL Workfront], vengono elencati tutti i progetti a cui hai accesso, indipendentemente dal loro stato.
+Per impostazione predefinita, [!DNL Adobe Workfront View] visualizza la [!UICONTROL Tutti i progetti] elenco in [!DNL Workfront]Pertanto, vengono elencati tutti i progetti a cui puoi accedere, indipendentemente dal loro stato.
 
-Puoi filtrare l’elenco dei progetti in [!DNL Workfront View] per visualizzare solo i progetti rilevanti. Dopo aver applicato i filtri, l’elenco dei progetti rimane filtrato fino alla successiva apertura o modifica dell’accesso.
+Puoi filtrare l’elenco dei progetti in [!DNL Workfront View] per visualizzare solo i progetti di tuo interesse. Dopo aver applicato i filtri, l’elenco dei progetti rimane filtrato fino al successivo accesso o fino a quando non vengono modificati.
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti accessi in [!DNL Workfront] per eseguire i passaggi descritti in questo articolo:
+Devi disporre dei seguenti diritti di accesso in [!DNL Workfront] per eseguire i passaggi descritti in questo articolo:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,43 +41,43 @@ Devi disporre dei seguenti accessi in [!DNL Workfront] per eseguire i passaggi d
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-## Filtrare [!UICONTROL progetti] elenco in [!UICONTROL Visualizzazione Workfront]
+## Filtra il [!UICONTROL progetti] elenco in [!UICONTROL Vista Workfront]
 
-1. Vai all’elenco dei progetti nel [!DNL Workfront] Visualizza app mobile.
-1. Toccare l’icona dell’elenco in alto a sinistra nell’elenco.\
+1. Passa all’elenco dei progetti in [!DNL Workfront] Visualizza l’app mobile.
+1. Tocca l’icona dell’elenco in alto a sinistra.\
    Viene visualizzato l’elenco dei filtri disponibili.\
    ![WF_View_filters_050621.jpg](assets/wf-view-filters-050621-350x427.jpg)
 
 1. Seleziona uno dei seguenti filtri:
 
-   * [!UICONTROL Portfoli]: Seleziona portfolio specifici di cui vuoi visualizzare i progetti.
-   * [!UICONTROL Condizione]: Selezionare per visualizzare solo i progetti con uno specifico [!UICONTROL Condizione].
-   * [!UICONTROL Avanzamento]: Selezionare per visualizzare solo i progetti in uno specifico [!UICONTROL Stato di avanzamento].
-   * Stato: Selezionare per visualizzare solo i progetti in uno specifico [!UICONTROL Stati].
-   * [!UICONTROL Inizio pianificato]: Seleziona per visualizzare solo i progetti con il [!UICONTROL Data di inizio prevista] nei seguenti intervalli di tempo:
+   * [!UICONTROL Portfoli]: seleziona portfolio specifici di cui desideri visualizzare i progetti.
+   * [!UICONTROL Condizione]: seleziona per visualizzare solo i progetti con un [!UICONTROL Condizione].
+   * [!UICONTROL Avanzamento]: seleziona per visualizzare solo i progetti in una specifica [!UICONTROL Stato di avanzamento].
+   * Stato: consente di visualizzare solo i progetti in [!UICONTROL Stati].
+   * [!UICONTROL Inizio pianificato]: seleziona per visualizzare solo i progetti con [!UICONTROL Data Inizio Pianificata] nei seguenti intervalli:
 
       * Ultimi 3 mesi
       * Ultimi 2 mesi
-      * Mese passato
+      * Mese scorso
       * Ultime due settimane
-   * [!UICONTROL Pianificato completato]: Seleziona per visualizzare solo i progetti con il [!UICONTROL Data completamento pianificata] nei seguenti prossimi intervalli di tempo:
+   * [!UICONTROL Pianificato Completo]: seleziona per visualizzare solo i progetti con [!UICONTROL Data di completamento Pianificata] nei seguenti orizzonti temporali:
 
       * Due settimane
       * Un mese
       * Due mesi
       * Tre mesi
-   * [!UICONTROL Completato previsto]: Seleziona per visualizzare solo i progetti con il [!UICONTROL Data di completamento prevista] nei seguenti prossimi intervalli di tempo:
+   * [!UICONTROL Previsto completato]: seleziona per visualizzare solo i progetti con [!UICONTROL Data di completamento Prevista] nei seguenti orizzonti temporali:
 
       * Due settimane
       * Un mese
       * Due mesi
       * Tre mesi
-   * [!UICONTROL Proprietario]: Selezionare questa opzione per visualizzare i progetti assegnati a specifici Proprietari.
-   * [!UICONTROL Sponsor]: Selezionare per visualizzare i progetti assegnati a uno specifico [!UICONTROL Sponsor].
+   * [!UICONTROL Proprietario]: consente di visualizzare i progetti assegnati a proprietari specifici.
+   * [!UICONTROL Sponsor]: consente di visualizzare i progetti assegnati a una specifica [!UICONTROL Sponsor].
 
 
 
 
-1. Tocca un punto qualsiasi dell’elenco dei progetti per chiudere l’icona dell’elenco.
+1. Per chiudere l’icona dell’elenco, tocca un punto qualsiasi dell’elenco dei progetti.

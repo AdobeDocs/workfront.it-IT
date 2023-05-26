@@ -2,12 +2,12 @@
 content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Assistente virtuale per app mobile Adobe Workfront
-description: Utilizza l’assistente virtuale dell’app mobile Adobe Workfront per individuare, eliminare e cercare informazioni all’interno di Workfront. Inoltre, è possibile fissare comandi e query di assistente virtuale per accedere ai risultati in qualsiasi momento.
-author: Lisa
+title: Assistente virtuale per app mobili Adobe Workfront
+description: Utilizza l’assistente virtuale per app mobile di Adobe Workfront per individuare, eliminare e cercare informazioni all’interno di Workfront. Inoltre, puoi fissare i comandi e le query dell’assistente virtuale per accedere ai risultati in qualsiasi momento.
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 2c3bbf76-6620-4319-a872-09330441c815
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 7%
@@ -16,7 +16,7 @@ ht-degree: 7%
 
 # [!DNL Adobe Workfront] assistente virtuale per app mobili
 
-Utilizza la [!DNL Adobe Workfront] assistente virtuale per app mobili per individuare, eliminare e cercare informazioni all’interno di [!DNL Workfront]. Inoltre, è possibile fissare comandi e query di assistente virtuale per accedere ai risultati in qualsiasi momento.
+Utilizza il [!DNL Adobe Workfront] assistente virtuale per app mobili per individuare, eliminare e cercare informazioni all’interno di [!DNL Workfront]. Inoltre, puoi fissare i comandi e le query dell’assistente virtuale per accedere ai risultati in qualsiasi momento.
 
 ## Comandi disponibili
 
@@ -24,11 +24,11 @@ Utilizza i seguenti comandi vocali per gestire il lavoro nell’app mobile:
 
 * [[!UICONTROL Mostra], [!UICONTROL Trova], [!UICONTROL Cerca]](#show-me-find-search-for)
 * [[!UICONTROL Elimina]](#delete)
-* [[!UICONTROL Aiutami con i comandi]](#help-me-with-commands)
+* [[!UICONTROL Informazioni sui comandi]](#help-me-with-commands)
 
 ### [!UICONTROL Mostra], [!UICONTROL Trova], [!UICONTROL Cerca]
 
-Utilizza la [!UICONTROL mostrami] per visualizzare informazioni sui seguenti oggetti:
+Utilizza il [!UICONTROL mostrami] per visualizzare informazioni sui seguenti oggetti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,8 +39,8 @@ Utilizza la [!UICONTROL mostrami] per visualizzare informazioni sui seguenti ogg
   <tr> 
    <td> </td> 
    <td>Data</td> 
-   <td>[!UICONTROL Status]</td> 
-   <td>[!UICONTROL Condition]</td> 
+   <td>[!UICONTROL Stato]</td> 
+   <td>Condizione [!UICONTROL]</td> 
   </tr> 
   <tr> 
    <td> <p>Attività</p> </td> 
@@ -112,44 +112,44 @@ Utilizza la [!UICONTROL mostrami] per visualizzare informazioni sui seguenti ogg
  <col> 
  <tbody> 
   <tr> 
-   <td colspan="2"><strong>Ricerca di oggetti</strong> </td> 
+   <td colspan="2"><strong>Cerca nei miei oggetti</strong> </td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li>Mostra attività</li> 
+     <li>Mostra le mie attività</li> 
      <li> Mostra i miei problemi </li> 
-     <li>Mostrami i miei team </li> 
-     <li>Visualizza le attività nelle ultime due settimane </li> 
+     <li>Mostra i miei team </li> 
+     <li>Mostra le mie attività per le ultime due settimane </li> 
      <li>Mostra i miei progetti per il 2020</li> 
-     <li> Mostra i miei problemi per il 1 aprile </li> 
-     <li>Mostra i fogli presenze per agosto </li> 
+     <li> Mostra i miei problemi per il 1° aprile </li> 
+     <li>Mostrami le mie schede orario per agosto </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Mostra le attività con stato [!UICONTROL In corso] </li> 
-     <li>Mostrami i miei problemi con la condizione [!UICONTROL Alcune preoccupazioni] </li> 
-     <li>Mostrami i miei progetti con stato [!UICONTROL Planning] e condizione [!UICONTROL On Target] </li> 
-     <li>Mostra i problemi relativi allo stato [!UICONTROL New] e [!UICONTROL In corso] </li> 
-     <li>Mostra i fogli presenze con stato [!UICONTROL Open] per il 2019 </li> 
-     <li>Mostra progetti con stato [!UICONTROL On Hold] e condizione [!UICONTROL At Risk] per questo mese </li> 
+     <li>Mostra le mie attività con stato [!UICONTROL In corso] </li> 
+     <li>Mostra i miei problemi con la condizione [!UICONTROL Some Concerns] </li> 
+     <li>Mostra i miei progetti con stato [!UICONTROL Planning] e condizione [!UICONTROL On Target] </li> 
+     <li>Mostra i miei problemi con lo stato [!UICONTROL Nuovo] e [!UICONTROL In corso] </li> 
+     <li>Mostra le mie schede orario con stato [!UICONTROL Open] per il 2019 </li> 
+     <li>Mostra i miei progetti con lo stato [!UICONTROL On Hold] e la condizione [!UICONTROL At Risk] per questo mese </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2"><strong>Progetti di ricerca di cui sono proprietario/Progetti su cui sono attivo</strong> </td> 
+   <td colspan="2"><strong>Cerca Progetti di mia proprietà/Progetti a cui collaboro</strong> </td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li>Mostra progetti di proprietà </li> 
-     <li>Mostra progetti in corso </li> 
-     <li>Mostra progetti di proprietà con stato [!UICONTROL Planning] </li> 
+     <li>Mostra i progetti di mia proprietà </li> 
+     <li>Mostra i progetti a cui collaboro </li> 
+     <li>Mostra i progetti di mia proprietà con stato [!UICONTROL Planning] </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Mostrami i progetti con la condizione [!UICONTROL On Target] </li> 
-     <li>Mostra progetti che possiedo per la settimana scorsa </li> 
-     <li>Mostra progetti su cui sto lavorando con la condizione [!UICONTROL On Target] per lo scorso marzo </li> 
+     <li>Mostra i progetti a cui collaboro con la condizione [!UICONTROL On Target] </li> 
+     <li>Mostra i progetti di mia proprietà per la settimana scorsa </li> 
+     <li>Mostra i progetti a cui collaboro con la condizione [!UICONTROL On Target] per lo scorso marzo </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -158,53 +158,53 @@ Utilizza la [!UICONTROL mostrami] per visualizzare informazioni sui seguenti ogg
   <tr> 
    <td> 
     <ul> 
-     <li>Mostra le attività personali </li> 
-     <li>Mostrami le mie attività personali con stato [!UICONTROL In corso] </li> 
+     <li>Mostra le mie attività personali </li> 
+     <li>Mostra le mie attività personali con stato [!UICONTROL In corso] </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Mostrami le mie attività personali con la condizione [!UICONTROL Andare liscio] </li> 
+     <li>Mostra le mie attività personali con la condizione [!UICONTROL Going Smoothly] </li> 
      <li>Mostra le mie attività personali con stato [!UICONTROL In corso] il 26 aprile </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2"><strong>Cerca gli elementi in ritardo</strong></td> 
+   <td colspan="2"><strong>Cerca elementi in ritardo</strong></td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li>Mostra articoli in ritardo </li> 
-     <li>Visualizza gli articoli più recenti per agosto 2020 </li> 
-     <li>Mostra attività in ritardo </li>
-     <li>Mostra i problemi in ritardo </li> 
+     <li>Mostrami gli oggetti in ritardo </li> 
+     <li>Mostrami gli oggetti in ritardo per agosto 2020 </li> 
+     <li>Mostra le attività in ritardo </li>
+     <li>Mostra le mie ultime Issues </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li>Mostra le attività in ritardo con stato [!UICONTROL Nuovo] </li> 
-     <li>Mostra i miei problemi di ritardo con lo stato [!UICONTROL In corso] </li> 
-     <li>Mostra i miei problemi di ritardo con la condizione [!UICONTROL Andare Smoothly] per gli ultimi 2 giorni </li> 
+     <li>Mostra i miei problemi in ritardo con lo stato [!UICONTROL In corso] </li> 
+     <li>Mostra i miei problemi in ritardo con la condizione [!UICONTROL Going Smoothly] per gli ultimi 2 giorni </li> 
      <li>Mostra lo stato delle attività in ritardo [!UICONTROL Complete] per il 26 marzo </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2"><strong>Cercare oggetti per assegnatario (Persona/Team). Disponibile solo su [!DNL iOS] dispositivi.</strong></td> 
+   <td colspan="2"><strong>Cerca oggetti per assegnatario (persona/team). Disponibile solo il [!DNL iOS] dispositivi.</strong></td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
-     <li>Mostra problemi assegnati </li> 
-     <li>Mostra problemi assegnati a Helen </li> 
-     <li>Mostra problemi assegnati al team Android </li> 
-     <li>Mostra attività assegnate a "Helen" </li> 
-     <li>Mostra attività assegnate a "[!DNL Android]" team </li> 
+     <li>Mostra le Issues assegnate a me </li> 
+     <li>Mostra le Issues assegnate a Elena </li> 
+     <li>Mostra i problemi assegnati al team [!UICONTROL Android] </li> 
+     <li>Mostra le attività assegnate a "Helen" </li> 
+     <li>Mostra le attività assegnate a "[!DNL Android]" team </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Mostra progetti assegnati ad Helen </li> 
-     <li>Visualizza progetti assegnati a [!DNL Android] team </li> 
-     <li>Mostra progetto/attività/problema [!DNL Android] team al momento in fase di lavoro </li> 
-     <li>Mostra programma/portafoglio assegnato/posseduto da Helen </li> 
-     <li>Visualizza utenti/persone/membri di [!DNL Android] team </li> 
+     <li>Mostra i progetti assegnati a Helen </li> 
+     <li>Mostra i progetti assegnati a [!DNL Android] team </li> 
+     <li>Mostra progetto/attività/problema [!DNL Android] il team è attualmente al lavoro su </li> 
+     <li>Mostra programma/portfolio assegnato/di proprietà di Helen </li> 
+     <li>Mostra utenti/persone/membri di [!DNL Android] team </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -212,7 +212,7 @@ Utilizza la [!UICONTROL mostrami] per visualizzare informazioni sui seguenti ogg
 
 ### [!UICONTROL Elimina]
 
-Utilizzare il comando delete per eliminare i seguenti tipi di oggetti:
+Utilizzare il comando delete per eliminare i seguenti tipi di oggetto:
 
 * Attività
 * Problema
@@ -233,37 +233,37 @@ Utilizzare il comando delete per eliminare i seguenti tipi di oggetti:
     <ul> 
      <li>Elimina oggetto</li> 
      <li>Cancella l'Attività</li> 
-     <li>Elimina oggetto corrente*<br>*disponibile solo dalla schermata [!UICONTROL Details]</li> 
+     <li>Elimina oggetto corrente*<br>*disponibile solo dalla schermata [!UICONTROL Details] (Dettagli UICONTROL)</li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li>Elimina oggetto con nome Marketing</li> 
-     <li>Elimina attività con revisione della progettazione del nome</li> 
+     <li>Elimina attività con nome revisione progettazione</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Aiutami con i comandi
+### Informazioni sui comandi
 
-Usa il comando Aiuto per visualizzare un elenco dei comandi disponibili direttamente nell’app mobile.
+Utilizza il comando help per visualizzare un elenco dei comandi disponibili direttamente nell’app mobile.
 
-![Guida, comando](assets/help-with-va-350x725.png)
+![Comando Guida](assets/help-with-va-350x725.png)
 
-## Pin, comandi
+## Blocca comandi
 
-Utilizzare la funzione pin per accedere ai comandi dell&#39;assistente virtuale salvati e ai pin dal browser Web. Una volta fissato un comando, è possibile accedervi in qualsiasi momento dalla [!UICONTROL Pin] area.
+Utilizza la funzione pin per accedere ai comandi dell’assistente virtuale salvati e ai pin dal browser web. Una volta aggiunto un comando, è possibile accedervi in qualsiasi momento dal [!UICONTROL Fissa] area.
 
 ### Assistente virtuale (VA)
 
-La sezione VA del [!UICONTROL Pin] consente di salvare i comandi vocali a cui accedere in un secondo momento.
+La sezione VA del [!UICONTROL Fissa] pagina consente di salvare i comandi vocali per accedere in un secondo momento.
 
-Per fissare un comando:
+Per aggiungere un comando:
 
-1. Compila il comando, quindi tocca **[!UICONTROL Pin]** nella pagina Risultati .
+1. Esegui il comando, quindi tocca il **[!UICONTROL Fissa]** nella pagina Risultati.
 
 ![Aggiungi e salva query](assets/pin-and-save-query-adobe-350x285.png)
 
-### Browser Web
+### Browser web
 
-La [!UICONTROL Web] della sezione [!UICONTROL Pin] consente di accedere agli oggetti aggiunti nel browser Web. Se l’oggetto bloccato è supportato nell’app mobile, viene aperto prima lì. Se non è supportato, avvia un browser web.
+Il [!UICONTROL Web] sezione del [!UICONTROL Fissa] Questa pagina consente di accedere agli oggetti aggiunti nel browser. Se l’oggetto fissato è supportato nell’app mobile, viene prima aperto lì. Se non è supportato, avvia un browser web.
