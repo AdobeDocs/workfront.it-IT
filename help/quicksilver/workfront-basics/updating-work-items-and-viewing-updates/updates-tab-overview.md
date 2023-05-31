@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Panoramica della sezione Aggiornamenti
-description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti relativi all’oggetto o agli aggiornamenti di sistema che tengono traccia delle modifiche apportate all’oggetto.
+description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti sull'oggetto o gli aggiornamenti di sistema che tengono traccia delle modifiche apportate all'oggetto.
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '911'
 ht-degree: 4%
 
 ---
@@ -22,34 +22,34 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Stiamo riprogettando l’esperienza di commento in Adobe Workfront.
+>Attualmente stiamo riprogettando l’esperienza di aggiunta di commenti in Adobe Workfront.
 >
->Per ulteriori informazioni sulla nuova esperienza di commento, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puoi accedere alla nuova esperienza per i seguenti oggetti:
-> * Problemi relativi all’abilitazione della funzione di commento Beta.
+> * Problemi, <!--<span class="preview">projects, tasks, and documents</span>,--> quando si abilita la funzione di commento Beta.
    >
-   >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:
+   >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
    >
    >     * Home
-   >     * Pannello di riepilogo negli elenchi
-   >     * Pannello Riepilogo nei fogli presenze
+   >     * Pannello Riepilogo negli elenchi
+   >     * Pannello Riepilogo nelle schede orario
 >
 > * Obiettivi
 
    >
-   >   La nuova esperienza di commento è l’impostazione predefinita per gli obiettivi. Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per ulteriori informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
-   >    Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >    Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
-Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti relativi all’oggetto o agli aggiornamenti di sistema che tengono traccia delle modifiche apportate all’oggetto.
+Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti sull&#39;oggetto o gli aggiornamenti di sistema che tengono traccia delle modifiche apportate all&#39;oggetto.
 
 ## Panoramica della sezione Aggiornamenti
 
-Le informazioni nella sezione Aggiornamenti sono organizzate in modo diverso, a seconda dell’ambiente di accesso.
+Le informazioni nella sezione Aggiornamenti sono organizzate in modo diverso a seconda dell’ambiente da cui accedi.
 
-### Panoramica della sezione Aggiornamenti correnti
+### Panoramica della sezione Aggiornamenti corrente
 
 La sezione Aggiornamenti di un oggetto mostra fino a 200 degli aggiornamenti più recenti effettuati negli ultimi 90 giorni.
 
@@ -57,8 +57,8 @@ La sezione Aggiornamenti di un oggetto mostra fino a 200 degli aggiornamenti pi�
 
 La sezione Aggiornamenti correnti mostra le seguenti informazioni:
 
-* Osservazioni degli utenti e risposte a tali osservazioni.
-* Aggiornamenti di sistema, ovvero messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, è possibile acquisire le modifiche di stato, nome o campi personalizzati con gli aggiornamenti di sistema. L’amministratore di Workfront o di gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* Osservazioni degli utilizzatori e risposte a tali osservazioni.
+* Aggiornamenti di sistema, ovvero messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, puoi acquisire le modifiche nei campi di stato, nome o personalizzati con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 Viene visualizzata la sezione Aggiornamenti per i seguenti oggetti:
 
@@ -90,16 +90,16 @@ Viene visualizzata la sezione Aggiornamenti per i seguenti oggetti:
  </tbody> 
 </table>
 
-### Panoramica della sezione Aggiornamenti nell’esperienza di commento in versione beta
+### Panoramica della sezione Aggiornamenti nell’esperienza di commento Beta
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-Nella nuova esperienza di commento, la sezione Aggiornamenti visualizza le informazioni nelle seguenti schede:
+La sezione Aggiornamenti visualizza le informazioni nelle schede seguenti nella nuova esperienza di commento:
 
-* **Commenti**: Visualizza i commenti degli utenti e le risposte a tali commenti. Per informazioni sull’aggiornamento degli oggetti nella nuova esperienza di creazione dei commenti, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
-* **Attività di sistema**: Visualizza gli aggiornamenti di sistema che sono messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, è possibile acquisire le modifiche di stato, nome o campi personalizzati con gli aggiornamenti di sistema. L’amministratore di Workfront o di gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **Commenti**: visualizza i commenti degli utenti e le relative risposte. Per informazioni sull’aggiornamento degli oggetti nella nuova esperienza di commento, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+* **Attività di sistema**: visualizza gli aggiornamenti del sistema, ovvero messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, puoi acquisire le modifiche nei campi di stato, nome o personalizzati con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Al momento, è possibile effettuare commenti e rispondere agli aggiornamenti utilizzando l’esperienza di commento Beta per i seguenti oggetti:
+Al momento, puoi fare commenti e rispondere agli aggiornamenti utilizzando l’esperienza di commento Beta per i seguenti oggetti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,9 +109,9 @@ Al momento, è possibile effettuare commenti e rispondere agli aggiornamenti uti
    <td> 
     <ul> 
      <li><p>Obiettivi</p>
-     <p>Questa è l'esperienza predefinita per gli obiettivi</p>
+     <p>Questa è l’esperienza predefinita per gli obiettivi</p>
      </li> 
-     </ul> </td> 
+      </ul> </td> 
    <td> 
     <ul> 
      <li>Problemi</li> 
@@ -120,11 +120,50 @@ Al momento, è possibile effettuare commenti e rispondere agli aggiornamenti uti
  </tbody> 
 </table>
 
-## Aggiornamenti che vengono visualizzati anche su oggetti di rango più elevato
+<!--replace table above with this: 
 
-Come illustrato nella tabella seguente, anche le risposte agli aggiornamenti su alcuni oggetti vengono visualizzate nella sezione Aggiornamenti di oggetti di livello superiore.
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li><p>Goals</p>
+     <p>This is the default experience for goals</p>
+     </li> 
+     <li><span class="preview">Projects</span></li>
+     </ul> </td> 
+   <td> 
+    <ul> 
+     <li>Issues</li> 
+     <li><span class="preview">Tasks</span></li>
+     <li><span class="preview">Documents</span></li>
+     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+-->
 
-Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggiornamento viene visualizzato nella sezione Aggiornamenti dell&#39;attività e nella sezione Aggiornamenti del progetto contenente l&#39;attività.
+## Aggiornamenti visualizzati anche su oggetti di livello superiore
+
+I commenti o le risposte agli aggiornamenti su determinati oggetti vengono visualizzati anche nella sezione Aggiornamenti di oggetti di livello superiore.
+
+Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggiornamento viene visualizzato nella sezione Aggiornamenti relativa all&#39;attività e nella sezione Aggiornamenti relativa al progetto contenente l&#39;attività.
+
+<!--
+>[!NOTE]
+>
+>When enabling the new commenting Beta experience, comments display on the following higher-ranking objects and in the following environments: 
+>
+>* Issues, in the Preview and Production environments
+>* <span class="preview">Projects and tasks, in the Preview environment</span>
+>
+>For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+-->
+
+Nella tabella seguente vengono illustrati gli oggetti i cui commenti vengono visualizzati anche sugli oggetti di livello superiore:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -132,7 +171,7 @@ Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggior
  <thead> 
   <tr> 
    <th><strong>Oggetto in cui è stato aggiunto l’aggiornamento originale</strong> </th> 
-   <th> <p><strong>Oggetto con classificazione più elevata in cui viene visualizzato anche l’aggiornamento originale</strong> </p> </th> 
+   <th> <p><strong>Oggetto di livello superiore in cui viene visualizzato anche l'aggiornamento originale</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -150,7 +189,7 @@ Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggior
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Documento </td> 
-   <td>Oggetto in cui è allegato il documento, Project </td> 
+   <td>Oggetto in cui è allegato un documento, Project </td> 
   </tr> 
   <tr> 
    <td>Programma</td> 
@@ -162,7 +201,7 @@ Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggior
   </tr> 
   <tr> 
    <td>Scheda orario</td> 
-   <td>Utente, Team</td> 
+   <td>Utente, team</td> 
   </tr> 
   <tr> 
    <td>Attività modello</td> 
@@ -170,7 +209,7 @@ Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggior
   </tr> 
   <tr> 
    <td>Storia</td> 
-   <td>Iterazione, Team</td> 
+   <td>Iterazione, team</td> 
   </tr> 
   <tr> 
    <td>Iterazione</td> 
@@ -186,19 +225,19 @@ Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggior
 
 >[!NOTE]
 >
->Le risposte aggiunte agli aggiornamenti di sistema non vengono riportate all&#39;oggetto principale. Solo le risposte dirette su un oggetto secondario e le risposte aggiunte agli aggiornamenti esistenti vengono riportate agli oggetti principali.
+>Le risposte aggiunte agli aggiornamenti di sistema non vengono riportate nell&#39;oggetto padre. Solo le risposte dirette su un oggetto figlio e le risposte aggiunte agli aggiornamenti esistenti vengono raggruppate in oggetti padre.
 >
 >Per informazioni sulla gerarchia degli oggetti in Adobe Workfront, consulta [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> Non è possibile rispondere agli aggiornamenti di sistema nella nuova esperienza di commento Beta. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> Non è possibile rispondere agli aggiornamenti di sistema nella nuova esperienza beta per i commenti. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Limitazioni della sezione Aggiornamenti
 
-Nella sezione Aggiornamenti di un team sono presenti alcune limitazioni e quando si immettono aggiornamenti per conto di altri utenti.
+Nella sezione Aggiornamenti di un team e quando si immettono aggiornamenti per conto di altri utenti, esistono alcune limitazioni.
 
 ### Limitazioni per utenti e team
 
-Non è possibile eseguire aggiornamenti sui team. La sezione Aggiornamenti per i team viene compilata dagli aggiornamenti immessi nei seguenti oggetti:
+Non è possibile apportare aggiornamenti ai team. La sezione Aggiornamenti per i team è compilata con gli aggiornamenti immessi sui seguenti oggetti:
 
 * Utenti
 * Schede orario
@@ -207,25 +246,25 @@ Non è possibile eseguire aggiornamenti sui team. La sezione Aggiornamenti per i
 
 Nella sezione Aggiornamenti per utenti e team, puoi visualizzare gli aggiornamenti immessi negli ultimi 90 giorni.
 
-Se desideri visualizzare tutti gli aggiornamenti effettuati su un utente o un team, oltre il limite di 90 giorni, puoi creare un rapporto per le note. Il rapporto non deve avere un filtro temporale che mostri tutti gli aggiornamenti effettuati per utenti o team. Per ulteriori informazioni, consulta [Creare un rapporto personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Se desideri visualizzare tutti gli aggiornamenti effettuati su un utente o su un team, oltre il limite di 90 giorni, puoi creare un rapporto per le note. Il rapporto non deve avere un filtro temporale che visualizzi tutti gli aggiornamenti apportati per utenti o team. Per ulteriori informazioni, consulta [Creare un rapporto personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-### Limitazioni per l’inserimento di commenti per conto di un altro utente
+### Limitazioni nell’inserimento di commenti per conto di un altro utente
 
-Gli amministratori di Adobe Workfront e gli amministratori di gruppo possono accedere come altri utenti ed eseguire azioni in Workfront, ad esempio inserire commenti. (Per informazioni, consulta [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) Le osservazioni formulate per conto di un altro utente sono indicate nel commento.
+Gli amministratori di Adobe Workfront e gli amministratori di gruppi possono accedere come altri utenti ed eseguire azioni in Workfront, ad esempio immettere commenti. (Per informazioni, consulta [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) Eventuali commenti formulati per conto di un altro utente sono indicati nel commento.
 
-Un amministratore di gruppo può commentare per conto di un&#39;altra persona ma non può eliminare tale commento. Solo un amministratore di Adobe Workfront può eliminare un commento che ha effettuato per conto di un altro utente.
+Un amministratore gruppo può aggiungere commenti per conto di un altro utente, ma non può eliminarli. Solo un amministratore di Adobe Workfront può eliminare un commento fatto per conto di un altro utente.
 
-## Visualizza gli aggiornamenti di sistema sugli elementi di lavoro con il rapporto Scrittura contabile
+## Visualizzare gli aggiornamenti di sistema per gli elementi di lavoro con il rapporto Scrittura contabile
 
-Il rapporto Scrittura contabile consente di visualizzare gli aggiornamenti del sistema dall&#39;area Aggiornamenti di progetti, attività e problemi.
+Il rapporto Scrittura contabile presenta gli aggiornamenti di sistema dall&#39;area Aggiornamenti di progetti, attività e problemi.
 
 Il rapporto ti consente di visualizzare:
 
 * Quante modifiche di stato si sono verificate
 * Quando un&#39;attività o un problema è stato eliminato
-* Modifica dei valori in importanti campi personalizzati nel corso di un progetto
-* Quali date importanti sono cambiate nel corso di un progetto?
-* Se la priorità è cambiata nel corso di un progetto
-* Se il proprietario di un progetto è cambiato
+* Modifica dei valori nei campi personalizzati importanti nel corso di un progetto
+* Quali date importanti sono cambiate nel corso di un progetto
+* Se la priorità cambia nel corso di un progetto
+* Se il proprietario di un progetto cambia
 
-Per ulteriori informazioni, consulta [Rapporto sull’area Aggiornamenti](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Per ulteriori informazioni, consulta [Rapporto sulla sezione Aggiornamenti](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

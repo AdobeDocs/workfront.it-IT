@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Aggiorna lavoro
-description: È possibile aggiungere un aggiornamento su un oggetto Adobe Workfront (progetto, attività o problema) per comunicare l’avanzamento dell’oggetto. Gli utenti assegnati o abbonati all’oggetto possono visualizzare l’aggiornamento. Puoi anche assegnare tag agli utenti per attirare la loro attenzione sull’aggiornamento.
+description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (progetto, attività o problema) per comunicare l’avanzamento dell’oggetto. Gli utenti che sono assegnati o abbonati all’oggetto possono visualizzare l’aggiornamento. Puoi anche assegnare tag agli utenti per attirare la loro attenzione sull’aggiornamento.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3151'
 ht-degree: 1%
 
 ---
@@ -21,40 +21,40 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Stiamo riprogettando l’esperienza di commento in Adobe Workfront.
+>Attualmente stiamo riprogettando l’esperienza di aggiunta di commenti in Adobe Workfront.
 >
->Per ulteriori informazioni sulla nuova esperienza di commento, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puoi accedere alla nuova esperienza per i seguenti oggetti:
-> * Problemi relativi all’abilitazione della funzione di commento Beta.
+> * Problemi, <!--<span class="preview">projects, tasks, and documents</span>,--> quando si abilita la funzione di commento Beta.
    >
-   >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:
+   >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
    >
    >     * Home
-   >     * Pannello di riepilogo negli elenchi
-   >     * Pannello Riepilogo nei fogli presenze
+   >     * Pannello Riepilogo negli elenchi
+   >     * Pannello Riepilogo nelle schede orario
 >
 > * Obiettivi
 
    >
-   >   La nuova esperienza di commento è l’impostazione predefinita per gli obiettivi. Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per ulteriori informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
-   >    Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >    Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
-Puoi aggiungere commenti alla maggior parte degli oggetti in Adobe Workfront nella sezione Aggiornamenti . Per ulteriori informazioni sugli oggetti che visualizzano la sezione Aggiornamenti, consulta [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Puoi aggiungere commenti alla maggior parte degli oggetti in Adobe Workfront nella sezione Aggiornamenti. Per ulteriori informazioni sugli oggetti che visualizzano la sezione Aggiornamenti, vedere [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-È possibile aggiungere un aggiornamento a un oggetto Workfront (progetto, attività o problema) per comunicare l’avanzamento dell’oggetto, mentre si commenta l’oggetto. Gli utenti assegnati o abbonati all’oggetto possono visualizzare l’aggiornamento. Puoi anche assegnare tag agli utenti per attirare la loro attenzione sull’aggiornamento. Gli utenti con tag ricevono una notifica in-app e un messaggio e-mail sull’aggiornamento.
+È possibile aggiungere un aggiornamento a un oggetto di Workfront (progetto, attività o problema) per comunicare l&#39;avanzamento dell&#39;oggetto, quando si commenta l&#39;oggetto. Gli utenti che sono assegnati o abbonati all’oggetto possono visualizzare l’aggiornamento. Puoi anche assegnare tag agli utenti per attirare la loro attenzione sull’aggiornamento. Gli utenti taggati ricevono una notifica in-app e un’e-mail relativa all’aggiornamento.
 
-Le informazioni contenute in questa pagina descrivono come è possibile commentare gli oggetti Workfront e come aggiornare progetti, attività e problemi. Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md). Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront.
+Le informazioni contenute in questa pagina descrivono come aggiungere commenti agli oggetti di Workfront e come aggiornare progetti, attività e problemi. Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md). È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals.
 
 
-Puoi aggiungere un aggiornamento a progetti, attività e problemi nelle seguenti aree di Workfront:
+Puoi aggiungere un aggiornamento a progetti, attività e problemi dalle seguenti aree di Workfront:
 
 * Da un oggetto Workfront, nella sezione Aggiornamenti
-* Dall&#39;area Home (per attività e problemi)
+* Dall’area Home (per attività e problemi)
 * Dal pannello Riepilogo in un elenco di oggetti (per attività e problemi)
-* Dalla scheda attività (per attività e problemi)
+* Dalla scheda orario (per attività e problemi)
 
 ## Requisiti di accesso
 
@@ -99,27 +99,27 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Piano Adobe Workfront*</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Richiesta o superiore di problemi e documenti; Revisione o superiore per tutti gli altri oggetti</p> </td> 
+   <td> <p>Richiedi o superiore per problemi e documenti; rivedi o superiore per tutti gli altri oggetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni a livello di accesso*</strong></td> 
-   <td> <p>Visualizza o modifica l'accesso per l'oggetto su cui si trova l'aggiornamento</p> <p><b>NOTA</b>
+   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
+   <td> <p>Accesso di visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Visualizza l’accesso all’oggetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione all'oggetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Aggiungere un aggiornamento a un elemento di lavoro
 
@@ -131,12 +131,12 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 
 >[!NOTE]
 >
->La seguente funzionalità è disponibile per tutti gli oggetti ad eccezione degli obiettivi. Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md)
+>La seguente funzionalità è disponibile per tutti gli oggetti ad eccezione degli obiettivi. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md)
 
-1. Passare all&#39;elemento di lavoro per il quale si desidera fornire un aggiornamento (ad esempio un progetto, un&#39;attività o un problema).
-1. Fai clic sul pulsante **Aggiornamenti** sezione .
-1. Fai clic su **Avvia un nuovo aggiornamento,** quindi digita l&#39;aggiornamento.
-1. (Facoltativo) Utilizza Rich Text o aggiungi emoticon, collegamenti o immagini al tuo aggiornamento per migliorare i contenuti. Per ulteriori informazioni, consulta la sezione [Utilizzare Rich Text in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) sezione del presente articolo
+1. Passare all&#39;elemento di lavoro per il quale si desidera fornire un aggiornamento, ad esempio un progetto, un&#39;attività o un problema.
+1. Fai clic su **Aggiornamenti** sezione.
+1. Clic **Avvia un nuovo aggiornamento,** quindi digita l’aggiornamento.
+1. (Facoltativo) Utilizza Rich Text o aggiungi emoji, collegamenti o immagini all’aggiornamento per migliorarne il contenuto. Per ulteriori informazioni, vedere [Utilizzare la funzione Rich Text in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) sezione in questo articolo
 1. (Facoltativo) Aggiornare una delle seguenti informazioni sull&#39;elemento di lavoro:
 
    <table style="table-layout:auto"> 
@@ -145,62 +145,62 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Notifica</strong></td> 
-      <td>Identifica gli utenti a cui deve essere notificato l’aggiornamento. Gli utenti assegnati o abbonati all’oggetto ricevono automaticamente la notifica quando viene effettuato un aggiornamento.<br><p>Per informazioni su come includere altri in un aggiornamento, vedi <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Assegnare tag agli altri utenti in caso di aggiornamenti</a>.</p></td> 
+      <td>Identifica gli utenti a cui deve essere notificato l’aggiornamento. Gli utenti assegnati o sottoscritti all'oggetto ricevono automaticamente una notifica quando viene effettuato un aggiornamento.<br><p>Per informazioni su come includere altri utenti in un aggiornamento, consulta <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Assegna tag ad altri utenti in caso di aggiornamenti</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Conferma data</strong></td> 
-      <td>Nel selettore data, selezionare la data in cui si effettua il commit per completare l'elemento di lavoro. Per informazioni sulla data di commit, vedi <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Panoramica sulla data del commit</a>.</td> 
+      <td>Nel selettore data, selezionare la data in cui si conferma il completamento dell'elemento di lavoro. Per informazioni sulla data di conferma, vedere <a href="../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Panoramica sulla data di conferma</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Condizione</strong></td> 
-      <td>Selezionare una nuova condizione per l'attività o il problema. Per informazioni sulla selezione di una condizione, consulta <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Aggiorna condizione per attività e problemi</a>.</td> 
+      <td>Seleziona una nuova condizione per l’attività o il problema. Per informazioni sulla selezione di una condizione, consulta <a href="../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Aggiorna condizione per attività e problemi</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Stato</strong></td> 
-      <td>Fai clic sulla freccia accanto allo stato corrente, quindi seleziona lo stato desiderato dal menu a discesa. Per informazioni sull'impostazione di uno stato, consulta <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Aggiorna stato attività</a>.<p>L'aggiornamento dello stato di un elemento di lavoro non modifica automaticamente lo stato di un progetto. A seconda della configurazione del progetto, è possibile che sia necessario eseguire separatamente gli aggiornamenti allo stato del progetto. Per ulteriori informazioni sui vari tipi di aggiornamento dei progetti, consulta <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Seleziona il tipo di aggiornamento del progetto </a>.</p><p><b>NOTA</b>
+      <td>Fai clic sulla freccia accanto allo stato corrente, quindi seleziona lo stato desiderato dal menu a discesa. Per informazioni sull'impostazione di uno stato, vedere <a href="../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Aggiorna stato attività</a>.<p>L'aggiornamento dello stato di un elemento di lavoro non modifica automaticamente lo stato di un progetto. A seconda della configurazione del progetto, potrebbe essere necessario aggiornare lo stato del progetto separatamente. Per ulteriori informazioni sui vari tipi di aggiornamento del progetto, consulta <a href="../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Seleziona il tipo di aggiornamento del progetto </a>.</p><p><b>NOTA</b>
 
-   Non è possibile modificare lo stato di un elemento di lavoro in attesa di approvazione.</p></td>
+   Non è possibile modificare lo stato di un elemento di lavoro che si trova nello stato In attesa di approvazione.</p></td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Barra di completamento</strong></td> 
-      <td>(Disponibile solo per le attività) Indica la percentuale di lavoro completato portando la barra di avanzamento alla percentuale desiderata. È inoltre possibile fare doppio clic sulla barra di completamento e immettere la percentuale di completamento.</td> 
+      <td>(Disponibile solo per le attività) Indicare la percentuale di lavoro completata facendo scorrere la barra di avanzamento fino alla percentuale desiderata. È inoltre possibile fare doppio clic sulla barra di completamento e immettere la percentuale di completamento.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Privato per la mia azienda</strong></td> 
-      <td> <p>Disattiva questa opzione per impedire agli utenti esterni all’azienda di accedere per visualizzare questo aggiornamento.</p> 
+      <td> <p>Disattiva questa opzione per impedire agli utenti esterni alla società di avere accesso alla visualizzazione di questo aggiornamento.</p> 
       <p><b>NOTA</b></p>
-      <p>Questa opzione viene visualizzata solo quando l'utente è associato a un'azienda.</p>
+      <p>Questa opzione viene visualizzata solo quando l’utente è associato a una società.</p>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Fai clic su **Aggiorna** per aggiungere l’aggiornamento all’oggetto Workfront.
+1. Clic **Aggiorna** per aggiungere l&#39;aggiornamento all&#39;oggetto Workfront.
 
    >[!NOTE]
    >
-   >Una piccola finestra pop-up apparirà per sette secondi dopo aver fatto clic su **Aggiorna**, che consente di annullare l’aggiornamento e tornare al riquadro di modifica prima della pubblicazione dell’aggiornamento. L’aggiornamento viene pubblicato se si chiude il pop-up Annulla, se si attende che scompaia o si esce dalla pagina.
+   >Una piccola finestra pop-up apparirà per sette secondi dopo aver fatto clic su **Aggiorna**, che consente di annullare l&#39;aggiornamento e tornare al riquadro di modifica prima della pubblicazione dell&#39;aggiornamento. L’aggiornamento verrà pubblicato se salti il pop-up di annullamento, attendi che scompaia o esci dalla pagina.
    >
-   >Se l’amministratore di Workfront seleziona l’impostazione &quot;Non consentire mai agli utenti di eliminare commenti&quot; nel livello di accesso, non è possibile annullare un commento. Per ulteriori informazioni, consulta [Creare e modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >Se l&#39;amministratore di Workfront seleziona l&#39;impostazione &quot;Non consentire agli utenti di eliminare commenti&quot; nel proprio livello di accesso, non è possibile annullare un commento. Per ulteriori informazioni, consulta [Creare e modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-1. Per rispondere a un aggiornamento, vedi [Risposta agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. Per rispondere a un aggiornamento, vedi [Rispondi agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-### Aggiungere un aggiornamento a un elemento di lavoro utilizzando l’esperienza di creazione dei commenti Beta
+### Aggiungere un aggiornamento a un elemento di lavoro utilizzando l’esperienza beta per i commenti
 
-1. Individuare l’oggetto che si desidera aggiornare, quindi fare clic sul suo nome per aprire la pagina dell’oggetto.
-1. Fai clic su  **Aggiornamenti** nel pannello a sinistra.
-1. Abilita la **Versione beta dei commenti** seleziona l’angolo superiore destro dell’area Aggiornamenti , quindi fai clic su **Accetto** sull&#39;accordo Beta. In questo modo l’area Aggiornamenti passa all’esperienza di creazione dei commenti Beta.
-La **Commenti** è selezionata per impostazione predefinita.
-1. Inizia a inserire un commento in **Nuovo commento** scatola.
+1. Individuare l&#39;oggetto che si desidera aggiornare, quindi fare clic sul relativo nome per aprire la pagina dell&#39;oggetto.
+1. Clic  **Aggiornamenti** nel pannello a sinistra.
+1. Abilita **Commento Beta** nell’angolo superiore destro dell’area Aggiornamenti, quindi fai clic su **Accetto** sull&#39;accordo beta. In questo modo nell’area Aggiornamenti viene visualizzata l’esperienza Beta con commenti.
+Il **Commenti** è selezionata per impostazione predefinita.
+1. Inizia a immettere un commento in **Nuovo commento** casella.
 
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Se passi dalla sezione Aggiornamenti prima di terminare la digitazione e l’invio di un commento, il commento viene mantenuto in modalità bozza anche dopo la disconnessione e il successivo accesso. Anche le immagini aggiunte al commento vengono salvate nella bozza. Le bozze vengono salvate per 7 giorni dopo i quali vengono scartate e non possono essere recuperate. I commenti creati sono visibili solo all’utente che li inserisce.
+   >Se si esce dalla sezione Aggiornamenti prima di completare la digitazione e l&#39;invio di un commento, il commento nella pagina rimane in modalità bozza anche dopo la disconnessione e la riconnessione. Nella bozza vengono salvate anche tutte le immagini aggiunte al commento. Le bozze vengono salvate per 7 giorni dopo i quali vengono eliminate e non possono essere recuperate. I commenti bozza sono visibili solo all&#39;utente che li inserisce.
 
-1. (Facoltativo) In **Assegnare tag a persone o team** area, inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
-1. (Facoltativo) Per aggiungere formattazione RTF all&#39;aggiornamento, utilizzare una delle opzioni seguenti nella sezione **Rich Text** barra degli strumenti per migliorare il testo:
+1. (Facoltativo) In **Assegna tag a persone o team** , inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
+1. (Facoltativo) Per aggiungere la formattazione RTF all’aggiornamento, utilizza una delle seguenti opzioni della **Rich Text** per migliorare il testo:
 
    * Bold
    * Corsivo
@@ -210,31 +210,33 @@ La **Commenti** è selezionata per impostazione predefinita.
    * Elenco numerato
    * Aggiungi allegato <!--(mark this parenthesis as draft: ************ this might be renamed to "Add image")-->
 
-   Per ulteriori informazioni, consulta la sezione [Utilizzare Rich Text in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) in questo articolo. <!--remove this list, above, when we get to parity for Rich Text-->
+   Per ulteriori informazioni, vedere [Utilizzare la funzione Rich Text in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) in questo articolo. <!--remove this list, above, when we get to parity for Rich Text-->
 
    >[!TIP]
    >
-   >Se un altro utente invia un commento allo stesso elemento che stai aggiornando, ci sarà una linea rossa con un indicatore &quot;Nuovo&quot; per informarti dei commenti più recenti.
+   >Se un altro utente invia un commento allo stesso elemento che si sta aggiornando, verrà visualizzata una linea rossa con un indicatore &quot;Nuovo&quot; per informare l&#39;utente dei commenti più recenti.
    >
-   >L&#39;indicatore viene visualizzato solo dopo che il commento è stato inviato sull&#39;elemento e non quando il commento è ancora composto.
+   >L’indicatore viene visualizzato solo dopo che il commento è stato inviato sull’elemento e non quando il commento è ancora composto.
    >
-   >L’indicatore &quot;Nuovo&quot; viene visualizzato solo quando l’utente che ha inserito un nuovo aggiornamento e l’utente che sta attualmente inserendo un aggiornamento utilizzano la nuova esperienza di commento.
+   >L’indicatore &quot;Nuovo&quot; viene visualizzato solo quando sia l’utente che ha inserito un nuovo aggiornamento che l’utente che lo sta inserendo utilizzano la nuova esperienza di commento.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
 
-1. Fai clic su **Invia** per aggiungere l’aggiornamento all’oggetto Workfront.
-1. (Facoltativo) Per modificare un commento, fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**.
-1. Modifica le informazioni nel commento, aggiungi o rimuovi immagini o rimuovi uno degli utenti con tag.
-È possibile modificare il commento entro 15 dall’invio. Un indicatore &quot;Modificato&quot; viene aggiunto a sinistra del timbro data che viene visualizzato quando il commento è stato aggiornato.
+1. Clic **Invia** per aggiungere l&#39;aggiornamento all&#39;oggetto Workfront.
+1. (Facoltativo) Per modificare un commento, fai clic su **Altro** menu ![](assets/more-menu.png) a destra dell’icona Mi piace, quindi fai clic su **Modifica**.
+1. Modifica le informazioni nel commento, aggiungi o rimuovi immagini o rimuovi gli utenti taggati.
+Puoi modificare il commento entro 15 dall’invio. A sinistra dell&#39;indicatore della data viene aggiunto l&#39;indicatore &quot;Modificato&quot; che viene visualizzato quando il commento è stato aggiornato.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   >   Viene generato un messaggio e-mail per avvisare gli utenti dell’aggiornamento solo quando si invia l’aggiornamento originale. Dopo aver modificato l’aggiornamento non viene generato alcun messaggio e-mail.
+   >* Viene generata un’e-mail per avvisare gli utenti dell’aggiornamento solo quando invii l’aggiornamento originale. Dopo aver modificato l’aggiornamento, non viene generata alcuna e-mail.
+   >* La data accanto al commento è la data del commento originale e non quella dell&#39;ultima modifica.
 
-1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 4-7 di cui sopra. <!--(**************insure this stays accurate***********)-->. Per informazioni sulla risposta a un aggiornamento, consulta [Risposta agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
-1. (Condizionale e facoltativo) Se altri utenti hanno aggiunto commenti visualizzati al di fuori dell’area visibile nella sezione Aggiornamenti , fai clic su **Visualizza** in blu **nuovo banner commenti** nella parte inferiore dello schermo per visualizzare questi commenti.
+
+1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi da 4 a 7 di cui sopra. <!--(**************insure this stays accurate***********)-->. Per informazioni sulla risposta a un aggiornamento, consulta [Rispondi agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Condizionale e facoltativo) Se altri utenti hanno aggiunto commenti visualizzati al di fuori dell’area visibile nella sezione Aggiornamenti, fai clic su **Visualizza** all&#39;interno del blu **banner nuovi commenti** nella parte inferiore dello schermo per visualizzare questi commenti.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
@@ -242,105 +244,105 @@ La **Commenti** è selezionata per impostazione predefinita.
 
    >[!NOTE]
    >
-   >   L’indicatore &quot;nuovi commenti&quot; e il pulsante &quot;Visualizza&quot; vengono visualizzati solo quando gli utenti che hanno inserito i nuovi aggiornamenti e l’utente che sta guardando la sezione Aggiornamenti stanno utilizzando la nuova esperienza di commento.
+   >   L’indicatore &quot;nuovi commenti&quot; e il pulsante &quot;Visualizza&quot; vengono visualizzati solo quando sia gli utenti che hanno inserito i nuovi aggiornamenti che quelli che stanno visualizzando la sezione Aggiornamenti utilizzano la nuova esperienza di commento.
 
 
-1. (Facoltativo) Fai clic sul pulsante **Simile** icona![](assets/like-icon.png). L’icona si aggiorna con il numero di Mi piace.
-1. (Condizionale e Facoltativo) Se hai incluso altre persone nel commento, fai clic sul numero di membri inclusi nell’aggiornamento per visualizzare un elenco di entità con cui è condiviso il commento immesso.
+1. (Facoltativo) Fai clic su **Mi piace** icona![](assets/like-icon.png). L’icona si aggiorna con il numero di Mi piace.
+1. (Condizionale e facoltativo) Se nel commento sono state incluse altre persone, fare clic sul numero di membri inclusi nell&#39;aggiornamento per visualizzare un elenco di entità con cui è condiviso il commento immesso.
 
    ![](assets/members-icons-expanded-unshimmed.png)
-1. (Facoltativo) Fai clic sul pulsante **Attività di sistema** per visualizzare gli aggiornamenti registrati dal sistema. Quando l’oggetto o uno dei relativi elementi figlio viene aggiornato, Workfront genera una nota relativa a tale aggiornamento e la visualizza nella scheda Attività di sistema.
+1. (Facoltativo) Fai clic su **Attività di sistema** per visualizzare gli aggiornamenti registrati dal sistema Quando l&#39;oggetto o uno dei relativi figli viene aggiornato, Workfront genera una nota su tale aggiornamento e lo visualizza nella scheda Attività di sistema.
 
-   Per ulteriori informazioni consulta [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   Per ulteriori informazioni, consulta [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
    >[!TIP]
    >
    >Non è possibile aggiungere un commento a un aggiornamento del sistema.
 
 
-## Utilizzare Rich Text in un aggiornamento di Workfront{#use-rich-text-in-a-workfront-update}
+## Utilizzare la funzione Rich Text in un aggiornamento di Workfront{#use-rich-text-in-a-workfront-update}
 
 <!--remove this top note when we get to parity with the current version, OR change the note to mention that some options are ONLY available in the Beta version and not the current one.-->
 
 >[!NOTE]
 >
->Alcune delle opzioni nella barra degli strumenti Rich Text potrebbero non essere disponibili per l’esperienza di commento Beta.
+>Alcune delle opzioni nella barra degli strumenti Testo formattato potrebbero non essere disponibili per l’esperienza di aggiunta di commenti alla versione beta.
 
 Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari elementi, come emoticon, collegamenti o immagini.
 
-1. Vai all’area Aggiornamenti e inizia a digitare un commento.
-1. (Facoltativo) Per aggiungere formattazione RTF all&#39;aggiornamento, utilizzare qualsiasi attributo **Rich Text** durante la digitazione.
+1. Vai alla sezione Aggiornamenti e inizia a digitare un commento.
+1. (Facoltativo) Per aggiungere la formattazione RTF all’aggiornamento, utilizza gli attributi nella **Rich Text** durante la digitazione.
 
-   | **Attributo** | **Pulsante Barra degli strumenti** | **Tasti di scelta rapida Mac** | **Tasti di scelta rapida di Windows** |
+   | **Attributo** | **Pulsante Barra degli strumenti** | **Tasti di scelta rapida di Mac** | **Tasti di scelta rapida di Windows** |
    |---|---|---|---|
-   | Bold | ![mceclip10.png](assets/mceclip10.png) | inta+b | Ctrl+B |
-   | Corsivo | ![mceclip9.png](assets/mceclip9.png) | +i | Ctrl+I |
-   | Sottolinea | ![mceclip8.png](assets/mceclip8.png) | +u | Ctrl+U |
-   | Collegamento ipertestuale | ![mceclip7.png](assets/mceclip7.png) | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti : ALT+K</br> <br>Nell’esperienza beta dei commenti, per incollare un collegamento sul testo selezionato: +V</br> | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti : Ctrl+K</br> <br>Nell’esperienza beta dei commenti, per incollare un collegamento sul testo selezionato: Ctrl+V</br> |
-   | Elenco puntato | ![mceclip6.png](assets/mceclip6.png) | +Maiusc+8 | Ctrl+Maiusc+8 |
-   | Elenco numerato | ![mceclip5.png](assets/mceclip5.png) | +Maiusc+7 | Ctrl+Maiusc+7 |
-   | Citazione | ![](assets/block-quote-icon-large.png) | +Maiusc+9 | Ctrl+Maiusc+9 |
+   | Bold | ![mceclip10.png](assets/mceclip10.png) | ⌘+b | Ctrl+B |
+   | Corsivo | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | CTRL+I |
+   | Sottolinea | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
+   | Collegamento ipertestuale | ![mceclip7.png](assets/mceclip7.png) | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti: ⌘+K</br> <br>Nell’esperienza beta per la creazione di commenti, per incollare un collegamento sul testo selezionato: ⌘+V</br> | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti: Ctrl+K</br> <br>Nell’esperienza beta per la creazione di commenti, per incollare un collegamento sul testo selezionato: Ctrl+V</br> |
+   | Elenco puntato | ![mceclip6.png](assets/mceclip6.png) | ⌘+Maiusc+8 | Ctrl+Maiusc+8 |
+   | Elenco numerato | ![mceclip5.png](assets/mceclip5.png) | ⌘+Maiusc+7 | Ctrl+Maiusc+7 |
+   | Citazione | ![](assets/block-quote-icon-large.png) | ⌘+Maiusc+9 | Ctrl+Maiusc+9 |
 
-   Per interrompere la formattazione del testo, deselezionare l&#39;attributo **Rich Text** barra degli strumenti.
+   Per interrompere la formattazione del testo, deselezionare l&#39;attributo nella **Rich Text** barra degli strumenti.
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment-->
 
    >[!NOTE]
    >
-   >* La formattazione viene visualizzata anche in qualsiasi notifica e-mail che gli utenti ricevono contenente il tuo aggiornamento.
-   >* La formattazione RTF applicata a un aggiornamento in un messaggio e-mail non viene visualizzata nell’aggiornamento quando viene visualizzata nella scheda Aggiornamenti.
-   >* Se l’organizzazione utilizza Workfront con Internet Explorer, qualsiasi testo formattato incollato in un aggiornamento perde la formattazione RTF e viene visualizzato come testo normale. È possibile riformattare il testo utilizzando gli attributi nella barra degli strumenti RTF.
-   >* La formattazione RTF non è disponibile per gli aggiornamenti apportati nell’area Foglio presenze o per gli oggetti Nota e Ultima condizione visualizzati in un rapporto.
+   >* La formattazione viene visualizzata anche in tutte le notifiche e-mail ricevute dagli utenti contenenti l’aggiornamento.
+   >* La formattazione Rich Text applicata a un aggiornamento in un messaggio e-mail non viene visualizzata nell’aggiornamento quando viene visualizzata nella scheda Aggiornamenti.
+   >* Se l’organizzazione utilizza Workfront con Internet Explorer, il testo formattato incollato in un aggiornamento perde la formattazione Rich Text e viene visualizzato come testo normale. È possibile riformattare il testo utilizzando gli attributi della barra degli strumenti Testo formattato.
+   >* La formattazione Rich Text non è disponibile per gli aggiornamenti apportati nell’area Schede orario o per gli oggetti Note e Last Condition visualizzati in un report.
 
 
-1. (Facoltativo) Se desideri includere testo da aggiornamenti precedenti o da altre fonti e distinguerlo dall’aggiornamento, puoi contrassegnarlo come preventivo di blocco. Fai clic sul pulsante **Preventivo** icona ![](assets/block-quote-small.png) e digitare il testo che si desidera citare. Il testo tra virgolette viene contrassegnato da una linea grigia verticale. Fai clic sul pulsante **Preventivo** per tornare alla formattazione normale.
+1. (Facoltativo) Se desideri includere testo da aggiornamenti precedenti o da altre origini e distinguerlo dal tuo aggiornamento, puoi contrassegnarlo come Preventivo di blocco. Fai clic su **Citazione** icona ![](assets/block-quote-small.png) e digitare il testo che si desidera citare. Il testo tra virgolette è contrassegnato da una linea grigia verticale. Fai clic su **Citazione** per tornare alla formattazione normale.
 
    ![](assets/block-quote-marked-350x144.png)
 
-1. (Facoltativo) Aggiungi gli emoticon al tuo aggiornamento.
+1. (Facoltativo) Aggiungi delle emoticon all’aggiornamento.
 
    >[!NOTE]
    >
-   >* Workfront non sostituisce gli emoticon di punteggiatura come :) con gli emoticon.
-   >* Le emoticon non sono disponibili per gli aggiornamenti effettuati nell’area Timesheets o per gli oggetti Note e Last Condition visualizzati in un rapporto.
-   >* La funzione emoji in Workfront utilizza caratteri Unicode e, come tale, viene visualizzata solo sui browser e sui sistemi operativi che supportano i punti di codice Unicode. Gli utenti di una versione di piattaforma, browser o sistema operativo diversa dalla tua potrebbero non avere accesso agli stessi emoticon.
-   >* Un’emoji non supportata è rappresentata da una casella bianca o nera.
-   >* Windows 7 supporta solo le emoticon in bianco e nero.
-   >* Le emoticon applicate a un aggiornamento effettuato tramite e-mail non vengono visualizzate sull’aggiornamento quando visualizzate nell’area Aggiornamenti .
+   >* Workfront non sostituisce gli emoticon di punteggiatura come :) con le emoticon.
+   >* Le emoticon non sono disponibili per gli aggiornamenti apportati nell’area Schede orario o per gli oggetti Nota e Ultima condizione visualizzati in un rapporto.
+   >* La funzione emoji di Workfront utilizza caratteri Unicode e, come tali, viene visualizzata solo sui browser e sui sistemi operativi che supportano i punti di codice Unicode. Gli utenti di una piattaforma, di un browser o di una versione del sistema operativo diversa dalla tua potrebbero non avere accesso alle stesse emoji.
+   >* Un emoji non supportato è rappresentato da una casella bianca o nera.
+   >* Windows 7 supporta solo emoji in bianco e nero.
+   >* Le emoticon applicate a un aggiornamento effettuato tramite e-mail non vengono visualizzate nell’aggiornamento quando lo si visualizza nell’area Aggiornamenti.
 
 
-1. (Facoltativo) Per aggiungere un collegamento URL a ulteriori origini di informazioni:
+1. (Facoltativo) Per aggiungere un collegamento URL a origini di informazioni aggiuntive:
 
-   1. Fai clic nell’aggiornamento in cui desideri inserire un collegamento.
-   1. Sulla **Rich Text** barra degli strumenti, fai clic su **Collegamento ipertestuale** icona. ![](assets/link-icon.png)
+   1. Fai clic nell’aggiornamento nel punto in cui desideri inserire un collegamento.
+   1. Il giorno **Rich Text** , fare clic sul pulsante **Collegamento ipertestuale** icona. ![](assets/link-icon.png)
 
-   1. In **Crea collegamento** casella visualizzata, sotto **URL**, digita o incolla l’URL dell’origine a cui desideri collegare.
+   1. In **Crea collegamento** casella visualizzata, sotto **URL**, digita o incolla l’URL dell’origine a cui desideri collegare il file.
 
    1. Sotto **Testo da visualizzare**, digita o incolla il testo del collegamento.
    1. Fai clic su **Salva**.
 
-1. (Facoltativo) Per allegare un&#39;immagine all&#39;aggiornamento, effettua una delle seguenti operazioni, a seconda dell&#39;ambiente utilizzato:
+1. (Facoltativo) Per allegare un’immagine all’aggiornamento, effettua una delle seguenti operazioni, a seconda dell’ambiente utilizzato:
 
-   * Fai clic sul pulsante **Immagine** icona ![](assets/addimageicon-35x32.png) e sfogliare l&#39;immagine sul computer o trascinare l&#39;immagine nell&#39;area di aggiornamento, quando si utilizza l&#39;esperienza di aggiornamento corrente
+   * Fai clic su **Immagine** icona ![](assets/addimageicon-35x32.png) e individuare l&#39;immagine nel computer o trascinarla nell&#39;area di aggiornamento quando si utilizza l&#39;esperienza di aggiornamento corrente
 
    Oppure
 
-   Fai clic sul pulsante **Aggiungi allegato** icona ![](assets/add-image-paperclip-icon.png) e sfogliare l&#39;immagine sul computer, quando si utilizza l&#39;esperienza di commento Beta. <!--the name of the icon and the icon for it might change-->
+   Fai clic su **Aggiungi allegato** icona ![](assets/add-image-paperclip-icon.png) e naviga fino all’immagine sul tuo computer quando utilizzi l’esperienza beta per la creazione di commenti. <!--the name of the icon and the icon for it might change-->
 
    >[!NOTE]
    >
-   >* Per poter visualizzare le icone Immagine o Aggiungi allegato, l’amministratore di Workfront deve abilitare l’aggiunta di immagini nella sezione Preferenze feed aggiornamento dell’area Interfaccia Workfront . Per informazioni, consulta [Configurare le preferenze per gli aggiornamenti utente](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
-   >* La dimensione massima del file immagine è 7 MB. I tipi di file immagine supportati sono .jpg, .gif e .png.
+   >* Per poter visualizzare le icone Immagine o Aggiungi allegato, l&#39;amministratore di Workfront deve abilitare l&#39;aggiunta di immagini nella sezione Preferenze feed di aggiornamento dell&#39;area Interfaccia Workfront. Per informazioni, consulta [Configurare le preferenze per gli aggiornamenti utente](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+   >* La dimensione massima del file di immagine è 7 MB. I tipi di file immagine supportati sono .jpg, .gif e .png.
    >* Le immagini sono accessibili dalla sezione Aggiornamenti di un oggetto e sono disponibili anche nell’area Documenti.
-   >* Puoi inviare un aggiornamento con un’immagine e senza testo.
-   >* Quando elimini un commento che contiene un’immagine, esistono i seguenti scenari a seconda dell’esperienza scelta:
+   >* È possibile inviare un aggiornamento con un’immagine e senza testo.
+   >* Quando elimini un commento che contiene un’immagine, esistono gli scenari seguenti a seconda dell’esperienza scelta:
       >
-      >     * Nell’esperienza di commento corrente, l’immagine rimane nell’area Documenti ma non è più visibile nella sezione Aggiornamenti .
-      >     * Nella nuova esperienza di commento, l’immagine viene rimossa dalla sezione Aggiornamenti e dall’area Documenti. L’immagine viene inoltre eliminata dall’area Documenti quando si modifica un commento ed elimina l’immagine.
-   >* Quando un utente elimina un&#39;immagine associata a un commento dall&#39;area Documenti, viene rimossa anche dal commento.
+      >     * Nell’esperienza di aggiunta di commenti corrente, l’immagine rimane nell’area Documenti ma non è più visibile nella sezione Aggiornamenti.
+      >     * Nella nuova esperienza di aggiunta di commenti, l’immagine viene rimossa dalla sezione Aggiornamenti e dall’area Documenti. L&#39;immagine viene eliminata anche dall&#39;area Documenti quando modificate un commento ed eliminate l&#39;immagine.
+   >* Quando qualcuno elimina un’immagine allegata a un commento dall’area Documenti, questa viene rimossa anche dal commento.
 
 
-1. Fai clic su **Aggiorna**  o **Invia**, quando si utilizza l’esperienza di creazione di commenti Beta.
+1. Clic **Aggiorna**  o **Invia**, quando si utilizza l’esperienza Beta di commento.
 
 
 ## Copia informazioni di aggiornamento
@@ -352,115 +354,115 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
 >Copying an update is not possible when using the Beta commenting experience.
 -->
 
-Esistono diversi modi per copiare un aggiornamento. Dopo aver copiato un collegamento, puoi condividerlo con altri per indirizzarlo all’aggiornamento.
+È possibile copiare un aggiornamento in diversi modi. Dopo aver copiato un collegamento, puoi condividerlo con altri utenti per indirizzarli all’aggiornamento.
 
-* [Copia l&#39;aggiornamento](#copy-the-update)
-* [Copia il collegamento del thread](#copy-the-thread-link)
+* [Copia l’aggiornamento](#copy-the-update)
+* [Copiare il collegamento del thread](#copy-the-thread-link)
 * [Copia il collegamento di aggiornamento](#copy-the-update-link)
 
-### Copia l&#39;aggiornamento {#copy-the-update}
+### Copia l’aggiornamento {#copy-the-update}
 
-Questa opzione copia il testo da un aggiornamento specifico negli Appunti.
+Questa opzione consente di copiare il testo da un aggiornamento specifico negli Appunti.
 
-1. Vai all&#39;aggiornamento o alla risposta che desideri copiare.
-1. Fai clic sul pulsante **Altro** menu, quindi fai clic su **Copia testo corpo**.
+1. Vai all’aggiornamento o alla risposta che desideri copiare.
+1. Fai clic su **Altro** , quindi fai clic su **Copia corpo del testo**.
 
-   ![Seleziona Copia testo corpo](assets/update-stream-copy-body-text-350x152.png)
+   ![Seleziona Copia corpo del testo](assets/update-stream-copy-body-text-350x152.png)
 
-### Copia il collegamento del thread {#copy-the-thread-link}
+### Copiare il collegamento del thread {#copy-the-thread-link}
 
-Questa opzione copia il collegamento del thread completo negli Appunti in modo da poter condividere il thread con altri utenti.
+Questa opzione consente di copiare il collegamento thread completo negli Appunti, in modo da poter condividere il thread con altri utenti.
 
-1. Passa al thread di aggiornamento da copiare.
+1. Passare al thread di aggiornamento da copiare.
 
-1. Fai clic sul pulsante **Altro** menu, quindi fai clic su **Copia collegamento thread** o **Copia collegamento**, quando utilizzi l’esperienza Beta.
+1. Fai clic su **Altro** , quindi fai clic su **Copia collegamento thread** o **Copia collegamento**, quando si utilizza l’esperienza Beta.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
 ### Copia il collegamento di aggiornamento {#copy-the-update-link}
 
-Questa opzione copia un collegamento di aggiornamento specifico negli Appunti. Quando condividi il collegamento di aggiornamento, l’utente che lo segue visualizza un bordo intorno all’aggiornamento.
+Questa opzione consente di copiare negli Appunti un collegamento di aggiornamento specifico. Quando condividi il collegamento di aggiornamento, l’utente che lo segue visualizza un bordo intorno all’aggiornamento.
 
-1. Vai all&#39;aggiornamento o alla risposta che desideri copiare.
-1. Fai clic sul pulsante **Altro** accanto al singolo aggiornamento, quindi fai clic su **Collegamento Copia aggiornamento** o **Copia collegamento**, quando utilizzi l’esperienza Beta.
+1. Vai all’aggiornamento o alla risposta che desideri copiare.
+1. Fai clic su **Altro** accanto al singolo aggiornamento, quindi fai clic su **Copia collegamento di aggiornamento** o **Copia collegamento**, quando si utilizza l’esperienza Beta.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
 ## Eliminare un aggiornamento o una risposta
 
-A seconda dell’accesso fornito dall’amministratore di Workfront, potrebbe essere possibile eliminare gli aggiornamenti aggiunti nella scheda Aggiornamenti di un oggetto. Per ulteriori informazioni, consulta [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) nell&#39;articolo [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+A seconda dell&#39;accesso fornito dall&#39;amministratore di Workfront, è possibile eliminare gli aggiornamenti aggiunti nella scheda Aggiornamenti di un oggetto. Per ulteriori informazioni, consulta [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) nell’articolo [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-Nessun utente Workfront (incluso l’amministratore Workfront) può eliminare gli aggiornamenti effettuati da un altro utente. Tuttavia, se il livello di accesso di un utente consente loro di eliminare i propri aggiornamenti, l&#39;amministratore di Workfront può effettuare l&#39;accesso come tale utente ed eliminare gli aggiornamenti apportati. Per ulteriori informazioni, consulta [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) e [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+Nessun utente di Workfront (incluso l’amministratore di Workfront) può eliminare gli aggiornamenti effettuati da un altro utente. Tuttavia, se il livello di accesso di un utente consente di eliminare i propri aggiornamenti, l’amministratore di Workfront può accedere come tale utente ed eliminare gli aggiornamenti che ha apportato. Per ulteriori informazioni, consulta [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) e [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-1. Passa all&#39;aggiornamento o alla risposta da eliminare.
-1. Fai clic sul pulsante **Altro** accanto all&#39;aggiornamento o alla risposta che si desidera eliminare, quindi fare clic su **Elimina**.
+1. Vai all’aggiornamento o alla risposta che desideri eliminare.
+1. Fai clic su **Altro** accanto all’aggiornamento o alla risposta che desideri eliminare, quindi fai clic su **Elimina**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Nel messaggio visualizzato, fai clic su **Conferma** o fai clic su **Elimina**, quando si utilizza l’esperienza di creazione di commenti Beta.
+1. Nel messaggio visualizzato, fai clic su **Conferma** o fai clic su **Elimina**, quando si utilizza l’esperienza Beta di commento.
 
    >[!NOTE]
    >
-   >Se si elimina un aggiornamento con un&#39;immagine allegata, vengono eliminati sia il commento che l&#39;immagine. Per ulteriori informazioni, consulta la sezione [Utilizzare testo RTF in un aggiornamento Workfront](#use-rich-text-in-a-workfront-update) in questo articolo.
+   >Se si elimina un aggiornamento con un’immagine allegata, vengono eliminati sia il commento che l’immagine. Per ulteriori informazioni, vedere [Utilizzare il testo RTF in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) in questo articolo.
 
-   Quando al commento eliminato sono associate delle risposte, è presente un&#39;indicazione che il commento è stato rimosso con il nome dell&#39;utente che lo ha rimosso.
+   Quando al commento eliminato sono associate delle risposte, viene indicato che il commento è stato rimosso con il nome dell&#39;utente che lo ha rimosso.
 
    ![](assets/removed-comment-indicator-new-experience.png)
 
-   Quando si utilizza l’esperienza di commento Beta, i commenti eliminati vengono rimossi immediatamente da Workfront. Un utente che utilizza la sezione Aggiornamenti vede un commento eliminato da un altro utente in tempo reale.
+   Quando si utilizza l’esperienza beta per la creazione di commenti, i commenti eliminati vengono rimossi immediatamente da Workfront. Un utente che utilizza la sezione Aggiornamenti vede un commento eliminato da un altro utente in tempo reale.
 
    <!--when we remove the beta, take out the first part of the sentence above about only when commenting in beta experience. Leave the rest though-->
 
-## Aggiungere un aggiornamento in una scheda attività
+## Aggiungere un aggiornamento a una scheda orario
 
-1. Passare a una scheda attività in cui si desidera eseguire un aggiornamento.
-1. Fare clic sulla scheda attività per aprirla.
-1. Nella parte inferiore della scheda attività fare clic su **Includi un commento**.
-1. Nella casella visualizzata nella parte inferiore della scheda attività, digitare un aggiornamento.
+1. Vai a una scheda orario per la quale desideri effettuare un aggiornamento.
+1. Fai clic sulla scheda orario per aprirla.
+1. Nella parte inferiore della scheda orario, fai clic su **Includi un commento**.
+1. Nella casella visualizzata nella parte inferiore della scheda orario, digita un aggiornamento.
 
-   ![scheda_aggiornamento_flusso.png](assets/timesheet-update-stream-350x50.png)
+   ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. (Condizionale) Per salvare l&#39;aggiornamento senza inviare la scheda attività per l&#39;approvazione, fare clic su **Salva per più tardi**.
-
-   Oppure
-
-   Per salvare l&#39;aggiornamento e inviare la scheda attività per l&#39;approvazione, fare clic su **Invia per approvazione**.
+1. (Condizionale)Per salvare l’aggiornamento senza inviare la scheda orario per l’approvazione, fai clic su **Salva per dopo**.
 
    Oppure
 
-   Se la scheda attività non è impostata con un approvatore, fare clic su **Salva e chiudi scheda attività** per salvare l&#39;aggiornamento.
+   Per salvare l’aggiornamento e inviare la scheda orario per l’approvazione, fai clic su **Invia per approvazione**.
 
-## Attiva o disattiva gli aggiornamenti del sistema
+   Oppure
+
+   Se la scheda orario non è configurata con un approvatore, fare clic su **Salva e chiudi scheda orario** per salvare l&#39;aggiornamento.
+
+## Attivare o disattivare gli aggiornamenti di sistema
 
 <!--remove the preview tag with 23.2 production, but keep the note till we remove Beta and it becomed the only exprience: -->
 
 >[!NOTE]
 >
->Non è possibile disabilitare gli aggiornamenti di sistema quando si utilizza l&#39;esperienza di commento Beta.
->Le informazioni presenti in questa sezione si riferiscono solo alle funzionalità disponibili nella sezione Aggiornamenti correnti.
->Per ulteriori informazioni sugli aggiornamenti di sistema nella versione Beta, consulta [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+>Non è possibile disattivare gli aggiornamenti di sistema quando si utilizza l’esperienza di commento Beta.
+>Le informazioni presenti in questa sezione si riferiscono solo alle funzionalità disponibili nella sezione Aggiornamenti corrente.
+>Per ulteriori informazioni sugli aggiornamenti del sistema nella versione beta, consulta [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
-Nella sezione Aggiornamenti di un oggetto Workfront sono visualizzati due tipi di informazioni:
+Nella sezione Aggiornamenti di un oggetto Workfront vengono visualizzati due tipi di informazioni:
 
-* **Aggiornamenti utente:** Gli aggiornamenti utente sono commenti inseriti dall&#39;utente e da altri utenti nel sistema.
+* **Aggiornamenti utente:** Gli aggiornamenti utente sono commenti immessi dall&#39;utente e da altri utenti del sistema.
 
    ![](assets/user-update-cl-350x277.png)
 
-* **Aggiornamenti di sistema:** Gli aggiornamenti di sistema registrano la rimozione delle risorse, l&#39;aggiunta o l&#39;eliminazione di versioni, l&#39;aggiunta o la rimozione di una richiesta di approvazione, nonché di eventuali modifiche o modifiche apportate ai documenti sull&#39;oggetto.
+* **Aggiornamenti di sistema:** Il sistema aggiorna i record che rimuovono le risorse, aggiungono o eliminano le versioni, allegano o rimuovono una richiesta di approvazione, nonché eventuali modifiche o modifiche apportate ai documenti dell&#39;oggetto.
 
    ![](assets/system-updates-cl-350x277.png)
 
-A seconda della licenza Workfront, gli aggiornamenti di sistema potrebbero essere attivati per impostazione predefinita. Gli amministratori di Workfront possono determinare cosa viene tracciato negli aggiornamenti di sistema, come spiegato in [Aggiornamenti tracciati dal sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). È inoltre possibile filtrare gli aggiornamenti di sistema o le attività in modo da visualizzare solo gli aggiornamenti utente per tutti gli oggetti.
+A seconda della licenza di Workfront, gli aggiornamenti di sistema potrebbero essere attivati per impostazione predefinita. Gli amministratori di Workfront possono determinare cosa viene tracciato negli aggiornamenti di sistema, come spiegato in [Aggiornamenti monitorati dal sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Puoi anche filtrare gli aggiornamenti di sistema o le attività in modo da visualizzare solo gli aggiornamenti utente per tutti gli oggetti.
 
-Per ulteriori informazioni sulla differenza tra gli aggiornamenti utente e di sistema, consulta [Aggiornamenti tracciati dal sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Per ulteriori informazioni sulla differenza tra gli aggiornamenti dell’utente e quelli del sistema, consulta [Aggiornamenti monitorati dal sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 Per attivare o disattivare gli aggiornamenti di sistema:
 
-1. Fai clic sul pulsante **Aggiornamenti** su un oggetto.
-1. Fai clic su **Mostra aggiornamenti di sistema** per far scorrere l&#39;interruttore a sinistra (disattivato) o a destra (attivato).
+1. Fai clic su **Aggiornamenti** su un oggetto.
+1. Clic **Mostra aggiornamenti di sistema** per far scorrere l&#39;interruttore a sinistra (disattivato) o a destra (attivato).
 
    ![](assets/show-system-updates-qs-350x55.png)
 
-   Questa opzione è persistente in tutti gli oggetti in Workfront e rimane nella posizione selezionata, anche se si disconnette da Workfront.
+   Questa opzione è permanente per tutti gli oggetti di Workfront e rimane nella posizione selezionata, anche se si esce da Workfront.
 

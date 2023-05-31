@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Assegnare tag agli altri utenti in caso di aggiornamenti
-description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe Workfront, tutte le informazioni inviate vengono visualizzate da tutti gli utenti del progetto. Tuttavia, in alcuni casi gli utenti che non fanno parte del progetto potrebbero trarre vantaggio dalla visualizzazione di queste informazioni. Invece di includere tali utenti nel progetto, puoi assegnare loro tag nell’aggiornamento per condividerlo con loro. Gli utenti con tag ricevono una notifica dell’evento.
+title: Assegna tag ad altri utenti in caso di aggiornamenti
+description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe Workfront, tutti gli utenti del progetto possono visualizzare le informazioni inviate. Tuttavia, in alcuni casi gli utenti che non fanno parte del progetto potrebbero trarre vantaggio dalla visualizzazione di tali informazioni. Invece di includere tali utenti nel progetto, puoi assegnare loro tag nell’aggiornamento per condividerlo con loro. Gli utenti taggati ricevono una notifica dell’evento.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1411'
 ht-degree: 0%
 
 ---
 
-# Assegnare tag agli altri utenti in caso di aggiornamenti
+# Assegna tag ad altri utenti in caso di aggiornamenti
 
 <!--take "Beta" references out when we remove the beta-->
 
@@ -22,40 +22,40 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Stiamo riprogettando l’esperienza di commento in Adobe Workfront.
+>Attualmente stiamo riprogettando l’esperienza di aggiunta di commenti in Adobe Workfront.
 >
->Per ulteriori informazioni sulla nuova esperienza di commento, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puoi accedere alla nuova esperienza per i seguenti oggetti:
-> * Problemi relativi all’abilitazione della funzione di commento Beta.
+> * Problemi, <!--<span class="preview">projects, tasks, and documents</span>,--> quando si abilita la funzione di commento Beta.
    >
-   >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti dei problemi e non è disponibile per le seguenti aree:
+   >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
    >
    >     * Home
-   >     * Pannello di riepilogo negli elenchi
-   >     * Pannello Riepilogo nei fogli presenze
+   >     * Pannello Riepilogo negli elenchi
+   >     * Pannello Riepilogo nelle schede orario
 >
 > * Obiettivi
 
    >
-   >   La nuova esperienza di commento è l’impostazione predefinita per gli obiettivi. Devi disporre di una licenza aggiuntiva per accedere agli obiettivi di Workfront. Per ulteriori informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    >
-   >    Per informazioni sui commenti sugli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+   >    Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 
-È possibile assegnare tag agli utenti durante l’aggiornamento a un oggetto se si desidera attirare l’attenzione su un oggetto che altrimenti non potrebbero seguire.
-Anziché includere gli utenti nell’oggetto assegnandoli ad esso o facendoli sottoscrivere, puoi assegnare loro tag sull’aggiornamento per condividerlo con loro. Gli utenti con tag ricevono una notifica relativa all’aggiornamento inserito.
-
->[!NOTE]
->
->L’utente deve abilitare una notifica personale nel proprio profilo per poter ricevere la notifica e-mail. Per ulteriori informazioni, consulta [Attivare o disattivare le notifiche degli eventi personali](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-Per informazioni sull’aggiunta di aggiornamenti agli oggetti Workfront, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+È possibile assegnare tag agli utenti quando si esegue un aggiornamento a un oggetto se si desidera attirare la loro attenzione su un oggetto che altrimenti potrebbero non seguire.
+Invece di includere tali utenti nell’oggetto assegnandoli a esso o imponendo loro di abbonarsi ad esso, puoi assegnare loro tag nell’aggiornamento per condividerlo con loro. Gli utenti taggati ricevono una notifica sull’aggiornamento immesso.
 
 >[!NOTE]
 >
->Quando un problema viene convertito in un progetto o in un&#39;attività, gli aggiornamenti vengono copiati nel nuovo progetto o attività, ma gli utenti con tag non lo sono. Per continuare la conversazione, devi assegnare nuovamente i tag ai partecipanti.
+>Per poter ricevere la notifica e-mail, l’utente deve abilitare una notifica personale nel proprio profilo. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+Per informazioni sull&#39;aggiunta di aggiornamenti agli oggetti di Workfront, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+>[!NOTE]
+>
+>Quando un problema viene convertito in un progetto o in un’attività, gli aggiornamenti vengono copiati nel nuovo progetto o attività, ma non negli utenti taggati. Per continuare la conversazione, è necessario assegnare nuovamente i tag ai partecipanti.
 
 ## Requisiti di accesso
 
@@ -68,59 +68,59 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>Piano Adobe Workfront*</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Richiesta o superiore di problemi e documenti; Revisione o superiore per tutti gli altri oggetti</p> </td> 
+   <td> <p>Richiedi o superiore per problemi e documenti; rivedi o superiore per tutti gli altri oggetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni a livello di accesso*</strong></td> 
-   <td> <p>Richiedente o superiore per le emissioni e i documenti; Revisore o superiore per tutti gli altri oggetti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
+   <td> <p>Richiedente o superiore per problemi e documenti; revisore o superiore per tutti gli altri oggetti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Visualizza l’accesso all’oggetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione all'oggetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per sapere quale piano, tipo di licenza o accesso si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
 
-## Assegnare tag agli altri utenti in caso di aggiornamenti
+## Assegna tag ad altri utenti in caso di aggiornamenti
 
-L’assegnazione di tag agli altri utenti di un aggiornamento varia a seconda dell’esperienza e dell’oggetto selezionati.
+L’assegnazione di tag ad altri in un aggiornamento varia a seconda dell’esperienza e dell’oggetto selezionato.
 
-### Assegna tag ad altri utenti degli aggiornamenti nella sezione Aggiornamenti correnti
+### Assegna tag ad altri utenti in caso di aggiornamenti nella sezione Aggiornamenti corrente
 
-1. Inizia l&#39;aggiornamento di un elemento di lavoro, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. In **Notifica** inizia a digitare il nome dell&#39;utente o del team che desideri includere, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Inizia ad aggiornare un elemento di lavoro, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. In **Notifica** , digitare il nome dell&#39;utente o del team che si desidera includere, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    Oppure
 
-   Digita il simbolo @ nel **Avvia un nuovo aggiornamento** area, inizia a digitare il nome dell&#39;utente o del team che desideri includere nell&#39;aggiornamento, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+   Digita il simbolo @ nella **Avvia un nuovo aggiornamento** , digitare il nome dell&#39;utente o del team che si desidera includere nell&#39;aggiornamento, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
-   >Per identificare l&#39;utente corretto quando ci sono utenti con nomi simili o identici, notate l&#39;avatar, il ruolo principale dell&#39;utente o il loro indirizzo e-mail. Gli utenti devono essere associati ad almeno un ruolo di lavoro per visualizzarlo durante l&#39;assegnazione dei tag in un aggiornamento.
+   >Per identificare l’utente corretto quando ci sono utenti con nomi simili o identici, nota l’avatar, il Ruolo principale dell’utente o il suo indirizzo e-mail. Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono tag in un aggiornamento.
 
    ![](assets/tag-users-in-update.png)
 
-1. (Facoltativo) Per rendere privato l&#39;aggiornamento, abilita **Privato per la mia azienda** nell&#39;angolo in basso a destra della casella di aggiornamento. Questo rende l’aggiornamento visibile solo agli utenti della tua azienda. La **Privato per la mia azienda** è disponibile solo quando un&#39;azienda è specificata nel tuo profilo Workfront.
+1. (Facoltativo) Per rendere l’aggiornamento privato, abilita **Privato per la mia azienda** nell&#39;angolo inferiore destro della casella di aggiornamento. In questo modo l’aggiornamento è visibile solo agli utenti della tua azienda. Il **Privato per la mia azienda** L’opzione è disponibile solo quando una società è specificata nel tuo profilo Workfront.
 
    >[!NOTE]
    >
-   >Gli utenti con tag esterni all’azienda potrebbero comunque ricevere una notifica o un’e-mail in-app, anche se non visualizzeranno i commenti privati nella scheda Aggiornamenti . Consigliamo di non assegnare tag agli utenti esterni in un aggiornamento se non desideri condividere le informazioni con loro.
+   >Gli utenti taggati esterni all’azienda potrebbero comunque ricevere una notifica o un’e-mail in-app, anche se non vedranno i commenti privati nella scheda Aggiornamenti. È consigliabile non assegnare tag agli utenti esterni in un aggiornamento se non si desidera condividere le informazioni con loro.
 
 1. (Facoltativo) Per aggiungere più utenti e team, ripeti il passaggio 2.
 
    >[!NOTE]
    >
-   >Tutti gli utenti e i membri del team elencati nel campo Notifica ricevono una notifica in-app per l’aggiornamento e potrebbero ricevere un’e-mail, a seconda della configurazione delle impostazioni di notifica e-mail. Gli utenti che si taggano in un commento o in una risposta ricevono una notifica per quel commento o risposta e possono visualizzare il loro nome nel campo Notifica per il resto del thread, ma non ricevono un&#39;altra notifica a meno che non si taggino di nuovo. Per ulteriori informazioni, consulta [Attivare o disattivare le notifiche degli eventi personali](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) e [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >Tutti gli utenti e i membri del gruppo elencati nel campo Notify (Notifica) ricevono una notifica in-app per l’aggiornamento e potrebbero ricevere un’e-mail, a seconda della configurazione delle impostazioni di notifica e-mail. Gli utenti che si assegnano i tag in un commento o in una risposta ricevono una notifica per quel commento o risposta e possono vedere il proprio nome nel campo Notify (Notifica) per il resto del thread, ma non ricevono un’altra notifica a meno che non si assegnino nuovamente i tag. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) e [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-1. Fai clic su **Aggiorna**.\
-   Gli utenti inclusi nell’aggiornamento ricevono automaticamente l’autorizzazione Visualizza per l’oggetto e possono visualizzare e rispondere agli aggiornamenti apportati all’oggetto.
+1. Clic **Aggiorna**.\
+   Agli utenti inclusi nell&#39;aggiornamento viene automaticamente concessa l&#39;autorizzazione Visualizzazione per l&#39;oggetto e possono visualizzare e rispondere agli aggiornamenti apportati all&#39;oggetto.
 
    Puoi vedere chi è stato taggato in ogni risposta nella parte superiore del thread di aggiornamento. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto.
 
@@ -128,45 +128,45 @@ L’assegnazione di tag agli altri utenti di un aggiornamento varia a seconda de
 
    Per informazioni sulle funzionalità aggiuntive disponibili durante l&#39;aggiornamento di un elemento di lavoro, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-### Assegnare tag ad altri sugli aggiornamenti nell’esperienza beta per i commenti
+### Assegna tag ad altri utenti sugli aggiornamenti nell’esperienza Beta di commento
 
-Puoi assegnare tag ad altri sugli aggiornamenti nell’esperienza di creazione dei commenti Beta. È inoltre possibile rimuovere gli utenti ai quali vengono assegnati i tag per errore durante la modifica di un commento.
+Puoi assegnare tag ad altri utenti per gli aggiornamenti nell’esperienza Beta di commento. Puoi anche rimuovere gli utenti a cui vengono assegnati tag per errore quando modifichi un commento.
 
-1. Inizia l&#39;aggiornamento di un elemento di lavoro, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. In **Assegnare tag a persone o team** inizia a digitare il nome dell&#39;utente o del team che desideri includere, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+1. Inizia ad aggiornare un elemento di lavoro, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. In **Assegna tag a persone o team** , digitare il nome dell&#39;utente o del team che si desidera includere, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    Oppure
 
-   Digita il simbolo @ nel **Scrivere un commento** area, inizia a digitare il nome dell&#39;utente o del team che desideri includere nell&#39;aggiornamento, quindi fai clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
+   Digita il simbolo @ nella **Scrivi un commento** , digitare il nome dell&#39;utente o del team che si desidera includere nell&#39;aggiornamento, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    >[!TIP]
    >
-   >Per identificare l&#39;utente corretto quando ci sono utenti con nomi simili o identici, notate l&#39;avatar, il ruolo principale dell&#39;utente o il loro indirizzo e-mail. Gli utenti devono essere associati ad almeno un ruolo di lavoro per visualizzarlo durante l&#39;assegnazione dei tag in un aggiornamento.
+   >Per identificare l’utente corretto quando ci sono utenti con nomi simili o identici, nota l’avatar, il Ruolo principale dell’utente o il suo indirizzo e-mail. Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono tag in un aggiornamento.
 
    ![](assets/tag-others-unified-commenting.png)
 
-1. (Facoltativo) Per rendere privato l&#39;aggiornamento, abilita **Privato per la mia azienda** nell&#39;angolo in basso a destra della casella di aggiornamento. Questo rende l’aggiornamento visibile solo agli utenti della tua azienda. La **Privato per la mia azienda** è disponibile solo quando un&#39;azienda è specificata nel tuo profilo Workfront.
+1. (Facoltativo) Per rendere l’aggiornamento privato, abilita **Privato per la mia azienda** nell&#39;angolo inferiore destro della casella di aggiornamento. In questo modo l’aggiornamento è visibile solo agli utenti della tua azienda. Il **Privato per la mia azienda** L’opzione è disponibile solo quando una società è specificata nel tuo profilo Workfront.
 
    >[!NOTE]
    >
-   >* Questa opzione viene visualizzata solo quando l&#39;utente è associato a un&#39;azienda.
-   >* Gli utenti con tag esterni all’azienda potrebbero comunque ricevere una notifica o un’e-mail in-app, anche se non visualizzeranno i commenti privati nella scheda Aggiornamenti . Consigliamo di non assegnare tag agli utenti esterni in un aggiornamento se non desideri condividere le informazioni con loro.
+   >* Questa opzione viene visualizzata solo quando l’utente è associato a una società.
+   >* Gli utenti taggati esterni all’azienda potrebbero comunque ricevere una notifica o un’e-mail in-app, anche se non vedranno i commenti privati nella scheda Aggiornamenti. È consigliabile non assegnare tag agli utenti esterni in un aggiornamento se non si desidera condividere le informazioni con loro.
 
 
 1. (Facoltativo) Per aggiungere più utenti e team, ripeti il passaggio 2. <!--insure this stays accurate-->
 
    >[!NOTE]
    >
-   >Tutti gli utenti e i membri del team elencati nel campo &quot;Assegnare tag alle persone o ai team&quot; ricevono una notifica in-app per l’aggiornamento e potrebbero ricevere un’e-mail, a seconda della configurazione delle impostazioni di notifica e-mail. Gli utenti che si taggano in un commento o una risposta ricevono una notifica per quel commento o risposta e possono vedere il loro nome nell&#39;elenco come membro del thread per il resto del thread, ma non ricevono un&#39;altra notifica a meno che non si taggino di nuovo. Per ulteriori informazioni, consulta [Attivare o disattivare le notifiche degli eventi personali](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) e [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >Tutti gli utenti e i membri del gruppo elencati nel campo &quot;Assegna tag a persone o team&quot; ricevono una notifica in-app per l’aggiornamento e potrebbero ricevere un’e-mail, a seconda della configurazione delle impostazioni di notifica e-mail. Gli utenti che si applicano il tag in un commento o in una risposta ricevono una notifica per tale commento o risposta e possono vedere il proprio nome in elencato come membro del thread per il resto del thread, ma non ricevono un’altra notifica a meno che non si assegnino nuovamente il tag. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) e [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-1. Fai clic su **Invia**.\
-   Gli utenti inclusi nell’aggiornamento ricevono automaticamente l’autorizzazione Visualizza per l’oggetto e possono visualizzare e rispondere agli aggiornamenti apportati all’oggetto.
+1. Clic **Invia**.\
+   Agli utenti inclusi nell&#39;aggiornamento viene automaticamente concessa l&#39;autorizzazione Visualizzazione per l&#39;oggetto e possono visualizzare e rispondere agli aggiornamenti apportati all&#39;oggetto.
 
-   È possibile vedere i tag assegnati in ogni risposta sotto il testo dell&#39;aggiornamento, nell&#39;area Membri. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto.
+   Nell&#39;area Membri è possibile vedere chi è stato taggato in ogni risposta sotto il testo dell&#39;aggiornamento. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto.
 1. (Facoltativo) Fai clic sul numero di **Membri** incluso nell&#39;aggiornamento per visualizzare un elenco di entità con cui è condiviso l&#39;aggiornamento immesso.
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
    Per informazioni sulle funzionalità aggiuntive disponibili durante l&#39;aggiornamento di un elemento di lavoro, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Facoltativo) Fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra dell&#39;icona Mi piace, quindi fai clic su **Modifica**. Rimuovi gli utenti con tag, quindi fai clic su **Invia**. È possibile modificare un commento solo entro 15 minuti dall’immissione. È possibile modificare solo i commenti aggiunti.
+1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-menu.png) a destra dell’icona Mi piace, quindi fai clic su **Modifica**. Rimuovi gli utenti taggati, quindi fai clic su **Invia**. È possibile modificare un commento solo entro 15 minuti dall&#39;immissione. Puoi modificare solo i commenti aggiunti.

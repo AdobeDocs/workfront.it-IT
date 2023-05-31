@@ -2,13 +2,13 @@
 product-area: betas
 navigation-topic: new-commenting-experience-beta
 title: Nuova esperienza di commento
-description: Un aggiornamento dell’esperienza di commento in Adobe Workfront è attualmente in fase di sviluppo. Questo aggiornamento include una nuova interfaccia, nuove funzionalità e prestazioni migliorate nella sezione Aggiornamenti di alcuni oggetti.
+description: È attualmente in fase di sviluppo un aggiornamento dell’esperienza di aggiunta di commenti in Adobe Workfront. Questo aggiornamento include una nuova interfaccia, nuove funzioni e prestazioni migliorate nella sezione Aggiornamenti di alcuni oggetti selezionati.
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 25625291f691f7858634d9961fccb4465008dc3c
+source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '596'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 1%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
-Un aggiornamento dell’esperienza di commento in Adobe Workfront è attualmente in fase di sviluppo. Questo aggiornamento include una nuova interfaccia, nuove funzionalità e prestazioni migliorate nella sezione Aggiornamenti di alcuni oggetti.
+È attualmente in fase di sviluppo un aggiornamento dell’esperienza di aggiunta di commenti in Adobe Workfront. Questo aggiornamento include una nuova interfaccia, nuove funzioni e prestazioni migliorate nella sezione Aggiornamenti di alcuni oggetti selezionati.
 
-La nuova esperienza di commento diventerà lentamente disponibile per tutti gli oggetti con una sezione Aggiornamenti in Workfront e in seguito si espanderà ad altre applicazioni Adobe Experience Cloud.
+La nuova esperienza di aggiunta di commenti diventerà lentamente disponibile per tutti gli oggetti con una sezione Aggiornamenti in Workfront e successivamente si espanderà ad altre applicazioni Adobe Experience Cloud.
 
 ## Funzioni
 
-La nuova esperienza di commento include miglioramenti e modifiche al flusso di aggiornamento esistente.
+La nuova esperienza di aggiunta di commenti include miglioramenti e modifiche al flusso di aggiornamento esistente.
 
 <!-- Previous content here - replaced with the table below: 
 
@@ -44,30 +44,30 @@ La nuova esperienza di commento include miglioramenti e modifiche al flusso di a
 
 -->
 
-Tra i miglioramenti inclusi nella nuova esperienza di commento vi sono i seguenti:
+Tra i miglioramenti inclusi nella nuova esperienza di commento, ci sono i seguenti:
 
 * Prestazioni ed esperienza utente migliorate
-* Separazione dei commenti degli utenti dagli aggiornamenti delle attività del sistema. Non ci sono modifiche nel modo in cui il sistema aggiorna la funzione.
+* Separazione dei commenti degli utenti dagli aggiornamenti delle attività di sistema. Non vi sono modifiche nel modo in cui il sistema si aggiorna.
 * Indicatore in tempo reale quando vengono aggiunti nuovi commenti a un oggetto
-* Modifica dei commenti dopo l’invio.
+* Modifica dei commenti dopo averli inviati.
 
 Le seguenti funzioni sono state rimosse dalla nuova esperienza:
 
-* Commenta un aggiornamento del sistema.
+* Commento su un aggiornamento del sistema.
 
-La tabella seguente illustra le funzionalità che saranno disponibili nella nuova esperienza di creazione dei commenti e la loro disponibilità nelle aree in cui sono supportate:
+La tabella seguente illustra le funzioni che saranno disponibili nella nuova esperienza di commento e la loro disponibilità nelle aree in cui sono supportate:
 
 <table>
   <tr>
-   <td><strong>Funzione </strong>
+   <td><strong>Funzionalità </strong>
    </td>
    <td><strong>Esiste nella vecchia esperienza di commento </strong>
    </td>
    <td><strong>Esiste nella versione beta della nuova esperienza di commento </strong>
    </td>
-   <td><strong>Sarà introdotto nella nuova esperienza di commento </strong>
+   <td><strong>Verrà introdotta nella nuova esperienza di commento </strong>
    </td>
-   <td><strong>Quando sarà introdotto nella nuova esperienza di commento </strong>
+   <td><strong>Quando verrà introdotta nella nuova esperienza di commento </strong>
    </td>
    <td><strong>Nella ricerca </strong>
    </td>
@@ -87,7 +87,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Rich text (esclusi virgolette e emoji)
+   <td>Testo formattato (escluse citazioni ed emoticon)
    </td>
    <td>✓ 
    </td>
@@ -102,7 +102,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
   </tr>
   <tr>
  <tr>
-   <td>Rich text (citazione ed emoticon)
+   <td>Testo formattato (virgolette ed emoticon)
    </td>
    <td>✓ 
    </td>
@@ -117,7 +117,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
   </tr>
   <tr>
 
-<td>React to comments (Like) 
+<td>Reagisce ai commenti (come) 
    </td>
    <td>✓ 
    </td>
@@ -131,7 +131,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Allegare immagini ai commenti 
+   <td>Allega immagini ai commenti 
    </td>
    <td>✓ 
    </td>
@@ -159,7 +159,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Rimuovere le persone dal thread 
+   <td>Rimuovi persone dal thread 
    </td>
    <td> 
    </td>
@@ -173,7 +173,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Commenti privati per un’azienda 
+   <td>Commenti privati a un’azienda 
    </td>
    <td>✓ 
    </td>
@@ -187,11 +187,11 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Annulla pubblicazione di un commento 
+   <td>Annullare la pubblicazione di un commento 
    </td>
    <td>✓ 
    </td>
-   <td>Sostituito con commento di modifica 
+   <td>Sostituito con modifica commento 
    </td>
    <td> 
    </td>
@@ -201,11 +201,11 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Disattivare gli aggiornamenti del sistema 
+   <td>Disattiva aggiornamenti di sistema 
    </td>
    <td>✓ 
    </td>
-   <td>Sostituita con la scheda Attività 
+   <td>Sostituito con la scheda Attività 
    </td>
    <td> 
    </td>
@@ -215,7 +215,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Modificare i commenti 
+   <td>Modifica commenti 
    </td>
    <td> 
    </td>
@@ -243,7 +243,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Visualizzare nuovi commenti in tempo reale (include vedere quando un commento viene eliminato)
+   <td>Visualizzare nuovi commenti in tempo reale (include la visualizzazione quando un commento viene eliminato)
    </td>
    <td> 
    </td>
@@ -257,7 +257,21 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Tempo di log 
+   <td>Tempo di connessione 
+   </td>
+   <td>✓ 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Modifica modulo personalizzato 
    </td>
    <td>✓ 
    </td>
@@ -271,21 +285,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Modificare un modulo personalizzato 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
-   <td>Possibilità di modificare lo stato, la condizione, la data di commit durante il commento 
+   <td>Possibilità di modificare lo stato, la condizione e la data del commit durante l'inserimento di commenti 
    </td>
    <td>✓ 
    </td>
@@ -303,7 +303,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
    <td>✓ 
    </td>
-   <td> Sostituito con collegamento Copia
+   <td> Sostituito con il collegamento Copia
    </td>
    <td> 
    </td>
@@ -313,11 +313,11 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Collegamento Copia commento 
+   <td>Copia collegamento commento 
    </td>
    <td>✓ 
    </td>
-   <td> Sostituito con collegamento Copia
+   <td> Sostituito con il collegamento Copia
    </td>
    <td> 
    </td>
@@ -355,7 +355,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Risolvere i commenti 
+   <td>Risolvi commenti 
    </td>
    <td> 
    </td>
@@ -369,7 +369,7 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    </td>
   </tr>
   <tr>
-   <td>Ricerca nei commenti 
+   <td>Cerca nei commenti 
    </td>
    <td> 
    </td>
@@ -382,41 +382,56 @@ La tabella seguente illustra le funzionalità che saranno disponibili nella nuov
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Rispondi agli aggiornamenti di sistema 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
 </table>
 
-## Nuova attività di rilascio della versione beta per i commenti
+## Nuova attività di commento della versione dell’esperienza beta
 
-Per informazioni sulle funzioni rilasciate di recente, consulta [Nuova attività di rilascio delle esperienze in versione beta per i commenti](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Per informazioni sulle funzioni rilasciate di recente, consulta [Nuova attività di commento della versione di esperienza beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
-## Individuare la nuova esperienza di commento
+## Individua la nuova esperienza di commento
 
-La nuova esperienza di commento è attualmente supportata per i seguenti oggetti, quando si visualizza la sezione Aggiornamenti nelle seguenti versioni di Workfront:
+La nuova esperienza di aggiunta di commenti è attualmente supportata per i seguenti oggetti, quando si visualizza la sezione Aggiornamenti nelle seguenti versioni di Workfront:
 
-* Quando abiliti l’esperienza Beta nella sezione Aggiornamenti :
+* Quando si abilita l’esperienza Beta nella sezione Aggiornamenti:
 
-   * Problemi
+   * Problemi<!--, <span class="preview">projects, tasks, and documents</span>-->
    Per ulteriori informazioni sulla gestione degli aggiornamenti per gli oggetti Workfront, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-* Per impostazione predefinita, come esperienza di commento principale:
+* Per impostazione predefinita, come esperienza principale di commento:
 
    * Obiettivi
    >[!NOTE]
    >
-   >Per poter accedere a questa area di Workfront, devi disporre di una licenza aggiuntiva per gli obiettivi di Adobe Workfront. Per ulteriori informazioni, consulta [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   >Per accedere a quest’area di Workfront è necessaria un’ulteriore licenza per Adobe Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-   Per ulteriori informazioni sulla gestione degli aggiornamenti per gli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/manage-goal-comments.md).
+   Per ulteriori informazioni sulla gestione degli aggiornamenti per gli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 Per abilitare la nuova esperienza di commento Beta:
 
-1. Passa a un oggetto per il quale desideri attivare la nuova esperienza di commento, quindi fai clic su **Aggiornamenti** nel pannello a sinistra.
-1. Abilita la **Versione beta dei commenti** nell’angolo in alto a destra dell’area Aggiornamenti.
-1. Fai clic su **Accetto** nella casella contratto Beta. Consente la nuova esperienza di commento per l’oggetto selezionato.
-1. Inizia a digitare un aggiornamento nel **Commenti** scheda . La scheda Commenti deve essere la scheda predefinita all’apertura della nuova esperienza
+1. Vai a un oggetto per il quale desideri attivare la nuova esperienza di commento, quindi fai clic su **Aggiornamenti** nel pannello a sinistra.
+1. Abilita **Commento Beta** nell&#39;angolo superiore destro dell&#39;area Aggiornamenti.
+1. Clic **Accetto** nella casella Contratto beta. In questo modo viene attivata la nuova esperienza di commento per l&#39;oggetto selezionato.
+1. Inizia a digitare un aggiornamento in **Commenti** scheda. La scheda Commenti deve essere quella predefinita all’apertura della nuova esperienza
 
    Oppure
 
-   Fai clic sul pulsante  **Attività di sistema** per visualizzare gli aggiornamenti delle attività generati da Workfront.
+   Fai clic su  **Attività di sistema** per visualizzare gli aggiornamenti dell’attività generati da Workfront.
 
-   Per ulteriori informazioni sull’aggiornamento degli oggetti nella nuova esperienza di creazione dei commenti, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Per ulteriori informazioni sull’aggiornamento degli oggetti nella nuova esperienza di commento, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
