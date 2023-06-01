@@ -6,16 +6,16 @@ description: È attualmente in fase di sviluppo un aggiornamento dell’esperien
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
 
 # Nuova esperienza di commento
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.</span>
 
 È attualmente in fase di sviluppo un aggiornamento dell’esperienza di aggiunta di commenti in Adobe Workfront. Questo aggiornamento include una nuova interfaccia, nuove funzioni e prestazioni migliorate nella sezione Aggiornamenti di alcuni oggetti selezionati.
 
@@ -47,7 +47,7 @@ La nuova esperienza di aggiunta di commenti include miglioramenti e modifiche al
 Tra i miglioramenti inclusi nella nuova esperienza di commento, ci sono i seguenti:
 
 * Prestazioni ed esperienza utente migliorate
-* Separazione dei commenti degli utenti dagli aggiornamenti delle attività di sistema. Non vi sono modifiche nel modo in cui il sistema si aggiorna.
+* Separazione dei commenti degli utenti dagli aggiornamenti delle attività di sistema.
 * Indicatore in tempo reale quando vengono aggiunti nuovi commenti a un oggetto
 * Modifica dei commenti dopo averli inviati.
 
@@ -261,7 +261,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td>✓ 
    </td>
-   <td> ✓
+   <td><span class="preview">✓</span>
    </td>
    <td> 
    </td>
@@ -409,7 +409,7 @@ La nuova esperienza di aggiunta di commenti è attualmente supportata per i segu
 
 * Quando si abilita l’esperienza Beta nella sezione Aggiornamenti:
 
-   * Problemi<!--, <span class="preview">projects, tasks, and documents</span>-->
+   * Problemi, <span class="preview">progetti, attività e documenti</span>
    Per ulteriori informazioni sulla gestione degli aggiornamenti per gli oggetti Workfront, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
