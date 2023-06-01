@@ -7,7 +7,7 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 4%
@@ -27,7 +27,9 @@ ht-degree: 4%
 >Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puoi accedere alla nuova esperienza per i seguenti oggetti:
-> * Problemi, <span class="preview">progetti, attività e documenti</span> quando si abilita la funzione di commento Beta.
+> * Problemi, <span class="preview">progetti, attività e documenti</span>.
+   >
+   >     Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.
    >
    >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
    >
@@ -131,7 +133,7 @@ Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggior
 
 >[!NOTE]
 >
->Quando si abilita la nuova esperienza di commento beta, i commenti vengono visualizzati sui seguenti oggetti di rango superiore e nei seguenti ambienti:
+>Quando si abilita la nuova esperienza di commento beta, i commenti vengono visualizzati sui seguenti oggetti di livello superiore:
 >
 >* Problemi
 >* <span class="preview">Progetti</span>

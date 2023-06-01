@@ -6,9 +6,9 @@ description: Quando qualcuno aggiunge o risponde a un aggiornamento su un oggett
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.
 
 >[!NOTE]
 >
@@ -26,8 +26,9 @@ ht-degree: 0%
 >Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puoi accedere alla nuova esperienza per i seguenti oggetti:
-> * Problemi, <!--<span class="preview">projects, tasks, and documents</span>,--> quando si abilita la funzione di commento Beta.
+> * Problemi, <span class="preview">progetti, attività e documenti</span>.
    >
+   >     Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.\
    >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
    >
    >     * Home
