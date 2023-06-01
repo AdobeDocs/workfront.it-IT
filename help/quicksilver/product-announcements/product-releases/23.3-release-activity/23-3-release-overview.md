@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a6dd604db7c12c00048150004323e8426e45cf2b
+source-git-commit: 8e12a80b904a13f60c5c946b48cfed325bb07acf
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1405'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Miglioramenti di Adobe Workfront
 
+* [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti Agile](#agile-enhancements)
 * [Miglioramenti dell’integrazione](#integration-enhancements)
+* [Miglioramenti al progetto](#project-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti per gli amministratori
@@ -221,8 +223,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Creare automaticamente cartelle collegate in Adobe Experience Manager Assets durante la creazione di un progetto</a><span style="color: #ff0000;"> Novità in produzione!</span></p>
-                        <p>Con il nuovo flusso di lavoro Crea cartella collegata per l’integrazione Adobe Experience Manager, puoi configurare l’integrazione con un percorso a una cartella Adobe Experience Manager Assets. Quando l’integrazione viene aggiunta a un modello di progetto, tutti i progetti creati dal modello creano automaticamente una sottocartella collegata in Experience Manager Assets nella cartella specificata. </p><p>Questa funzionalità è disponibile solo con un’integrazione Adobe Experience Manager as a Cloud Service all’interno di Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md" class="MCXref xref" xrefformat="{para}">Creare automaticamente cartelle collegate in Adobe Experience Manager Assets durante la creazione di un progetto</a></p>
+                        <p>Con il nuovo flusso di lavoro Crea cartella collegata per l’integrazione Adobe Experience Manager, puoi configurare l’integrazione con un percorso a una cartella Adobe Experience Manager Assets. Quando l’integrazione viene aggiunta a un modello di progetto, tutti i progetti creati dal modello creano automaticamente una sottocartella collegata in Experience Manager Assets nella cartella specificata. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -286,6 +288,43 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </tbody>
         </table>
 
+### Miglioramenti al progetto
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Approvazioni nuovi documenti</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>Le approvazioni dei documenti vengono riprogettate in un rollout graduale che verrà reso disponibile a più utenti con ogni versione.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 31 maggio 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versione di produzione: 14 giugno 2023</span></p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Altri miglioramenti
 
 <table>
@@ -302,6 +341,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md" class="MCXref xref" xrefformat="{para}">Nuova esperienza beta per i commenti relativi a progetti, attività e documenti</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>La nuova esperienza beta per i commenti è ora disponibile per progetti, attività e documenti. Prima di questo aggiornamento, l’esperienza Beta per i commenti era disponibile solo per problemi e obiettivi.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 1 giugno 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Versione di produzione:con la versione 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md" class="MCXref xref" xrefformat="{para}">I profili senza avatar ora visualizzano le iniziali utente</a></p>
