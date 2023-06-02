@@ -5,9 +5,9 @@ title: Utilizzo dei fusi orari
 description: Può essere utile capire come [!DNL Adobe Workfront] utilizza i fusi orari per calcolare i campi di tempo per gli oggetti e gli orari in altre aree, ad esempio le e-mail.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Puoi aiutare gli utenti a lavorare più facilmente in diversi fusi orari in dive
 
    Per istruzioni sull’assegnazione di una pianificazione a un progetto o a un utente, consulta [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Per informazioni su come il fuso orario configurato nella pianificazione influisce sulla distribuzione di [!UICONTROL Ore pianificate] nel [!DNL Workload Balancer], vedi [Gestire le allocazioni utente in [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Per informazioni su come il fuso orario configurato nella pianificazione influisce sulla distribuzione di [!UICONTROL Ore pianificate] nel [!UICONTROL Bilanciatore dei carichi di lavoro], vedi [Gestire le allocazioni utente in [!UICONTROL Bilanciatore dei carichi di lavoro]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Utilizzare i campi tempo calcolati in un modulo personalizzato {#use-calculated-time-fields-in-a-custom-form}
