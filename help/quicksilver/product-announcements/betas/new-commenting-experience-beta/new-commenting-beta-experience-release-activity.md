@@ -6,7 +6,7 @@ description: Rivedi l’attività di rilascio settimanale per la nuova esperienz
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 86e0ad3eced94a1165a5f6beded53b4cdf32c768
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 6%
@@ -29,7 +29,7 @@ Nelle sezioni seguenti sono elencate le funzioni aggiunte dopo la versione origi
 
 ## Settimana del 29 maggio 2023
 
-### Nuova esperienza beta per i commenti su progetti, attività e problemi
+### Nuova esperienza beta per i commenti relativi a progetti, attività e documenti
 
 La nuova esperienza beta per i commenti è ora disponibile per progetti, attività e documenti. Prima di questo aggiornamento, l’esperienza Beta per i commenti era disponibile solo per problemi e obiettivi.
 

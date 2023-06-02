@@ -1,32 +1,32 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Valori di formato, valuta e percentuale nei report in modalità testo
-description: I valori numerici, compresa la valuta, possono essere configurati per essere visualizzati in diversi formati nei rapporti e negli elenchi in Adobe Workfront.
+title: Formattare numeri, valuta e valori percentuali nei report in modalità testo
+description: I valori numerici, inclusa la valuta, possono essere configurati per la visualizzazione in diversi formati nei rapporti ed elenchi in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 965f5dcd-4844-4792-9fd0-a47814a325a4
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 7%
 
 ---
 
-# Valori di formato, valuta e percentuale nei report in modalità testo
+# Formattare numeri, valuta e valori percentuali nei report in modalità testo
 
-I valori numerici, compresa la valuta, possono essere configurati per essere visualizzati in diversi formati nei rapporti e negli elenchi in Adobe Workfront.
+I valori numerici, inclusa la valuta, possono essere configurati per la visualizzazione in diversi formati nei rapporti ed elenchi in Adobe Workfront.
 
-Per modificare il formato di un valore numerico, è necessario modificare il **valueformat** linea della colonna.
+Per modificare il formato di un valore numerico, è necessario modificare **valueformat** riga della colonna.
 
-Ad esempio, se desideri visualizzare la colonna Budget come $1000, la riga del formato del valore sarà simile alla seguente:
+Ad esempio, per visualizzare la colonna Budget come $1000, la riga del formato del valore sarà simile alla seguente:
 
 ```
 valueformat=currencyStringCurrencyRounded
 valuefield=budget
 ```
 
-Per ulteriori informazioni sull&#39;applicazione della formattazione condizionale nei rapporti e negli elenchi di Workfront utilizzando la modalità testo, consulta [Utilizzare la formattazione condizionale nella modalità Testo](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+Per ulteriori informazioni sull&#39;applicazione della formattazione condizionale nei report e negli elenchi di Workfront utilizzando la modalità testo, vedere [Utilizzare la formattazione condizionale in modalità testo](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 È possibile formattare i numeri utilizzando i seguenti valori per `valueformat` riga della colonna:
 
@@ -41,3 +41,4 @@ Per ulteriori informazioni sull&#39;applicazione della formattazione condizional
 | 12.34% | <pre>doubleAsPercent</pre> |
 | (1,234.56) | <pre>doubleAsFinancial</pre> |
 | (1,234) | <pre>doubleAsFinancialRounded</pre> |
+
