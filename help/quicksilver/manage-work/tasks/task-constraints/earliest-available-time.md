@@ -2,23 +2,23 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: '''Panoramica sul vincolo di attività: Tempo disponibile anticipato"'
-description: Tempo disponibile più breve è un vincolo di task che consente di programmare l'inizio di un'attività al più presto disponibile dopo aver considerato le relazioni predecessori.
+title: "Panoramica sui vincoli delle attività: primo orario disponibile"
+description: Primo orario disponibile è un vincolo dell'attività che pianifica l'inizio di un'attività il più presto possibile dopo aver preso in considerazione le relazioni precedenti.
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 18f26f976a47af003817f2f82f8550bdfbc0ab90
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 0%
 
 ---
 
-# Panoramica sul vincolo di attività: Tempo disponibile
+# Panoramica sui vincoli delle attività: Primo orario disponibile
 
-Tempo disponibile più breve è un vincolo di task che consente di programmare l&#39;inizio di un&#39;attività al più presto disponibile dopo aver considerato le relazioni predecessori.
+Primo orario disponibile è un vincolo dell&#39;attività che pianifica l&#39;inizio di un&#39;attività il più presto possibile dopo aver preso in considerazione le relazioni precedenti.
 
-Per informazioni su come aggiornare il vincolo di attività su un&#39;attività, vedere [Aggiornare il vincolo di attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Per informazioni sull&#39;aggiornamento del vincolo attività per un&#39;attività, vedere [Aggiornare il vincolo attività di un&#39;attività](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above) </p>
@@ -52,28 +52,32 @@ Per informazioni su come aggiornare il vincolo di attività su un&#39;attività,
    <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save Changes</strong>.</li>
    -->
 
-## La differenza tra il tempo disponibile più presto e il più presto possibile
+## Differenza tra l&#39;orario disponibile più presto e il più presto possibile
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])</p>
 -->
 
-Il vincolo Tempo disponibile più breve è diverso dal vincolo Il più presto possibile quando esistono tutti i seguenti criteri:
+Il vincolo Primo tempo disponibile è diverso dal vincolo Il più presto possibile quando sono presenti tutti i seguenti criteri:
 
-* Il progetto è programmato da completamento
+* Il progetto è programmato dal completamento
 * Le attività del progetto hanno una relazione predecessore
 * L&#39;attività predecessore ha un vincolo di attività flessibile
 
 In questa situazione:
 
-* **Prima ora disponibile:** L&#39;utilizzo del vincolo Tempo disponibile più breve sull&#39;attività successore dà priorità al vincolo flessibile del predecessore.
+* **Primo orario disponibile:** L&#39;utilizzo del vincolo Primo tempo disponibile sull&#39;attività successore dà priorità al vincolo flessibile del predecessore.
 
-   **Esempio:** L&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività B ha il vincolo Tempo disponibile più presto e l&#39;attività A ha il vincolo Più tardi possibile. In questa situazione, il compito B è programmato il più vicino possibile al completamento del progetto.
+   **ESEMPIO**
 
-   ![Vincolo di tempo disponibile più presto quando l&#39;attività ha le date prossime alla data di completamento del progetto](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
+   L&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività B ha il vincolo Primo tempo disponibile e l&#39;attività A ha il vincolo Il più tardi possibile. In questa situazione, l&#39;Attività B è programmata il più vicino possibile al completamento del progetto.
 
-* **Non Appena Possibile:** In questo scenario, l&#39;utilizzo del vincolo Il prima possibile sull&#39;attività successore dà la priorità all&#39;attività successore.
+   ![Primo vincolo di tempo disponibile quando le date dell&#39;attività sono vicine alla data di completamento del progetto](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
-   **Esempio:**  L&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività B ha il vincolo Il più presto possibile e l&#39;attività A ha il vincolo Il più tardi possibile. In questa situazione, l&#39;attività B è pianificata il più vicino possibile all&#39;inizio del progetto.
+* **Non Appena Possibile:** In questo scenario, l&#39;utilizzo del vincolo Il più presto possibile sull&#39;attività successore conferisce la priorità all&#39;attività successore.
 
-   ![Vincolo quanto prima possibile quando l&#39;attività ha le date prossime alla data di inizio del progetto](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+   **ESEMPIO**
+
+   L&#39;attività A è un predecessore dell&#39;attività B. L&#39;attività B ha il vincolo Il più presto possibile e l&#39;attività A ha il vincolo Il più tardi possibile. In questa situazione, l&#39;Attività B è programmata il più vicino possibile all&#39;inizio del progetto.
+
+   ![Vincolo Il più presto possibile quando le date dell&#39;attività sono vicine alla data di inizio del progetto](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
