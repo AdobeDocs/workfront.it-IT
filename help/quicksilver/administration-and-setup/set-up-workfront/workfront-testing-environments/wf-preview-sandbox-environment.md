@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 616bca509b87fbd746132c2eeb5130e0b7789c47
+source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -105,9 +105,7 @@ Per accedere alla sandbox di anteprima:
 
 #### Accesso alla sandbox di anteprima per gli account nei cluster 1, 2, 3 e 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
-Precedentemente, si accedeva alla Sandbox di anteprima da [https://companyname.attasksandbox.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.attasksandbox.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGTfPKCDnAylzkclNwdSuEXksLFRg).
-
-Questo URL non è più supportato e non è stato reindirizzato al nuovo URL per l’ambiente Sandbox di anteprima. Il nuovo URL corretto per la sandbox di anteprima è: [https://companyname.preview.workfront.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.preview.workfront.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFZQYw9VWjr2tuvQLfSJHneqJj_PQ).
+L’URL per la sandbox di anteprima è: `https://companyname.preview.workfront.com/`.
 
 >[!NOTE]
 >
@@ -115,7 +113,7 @@ Questo URL non è più supportato e non è stato reindirizzato al nuovo URL per 
 
 Per accedere alla sandbox di anteprima utilizzando un URL:
 
-1. Passa a questo URL: [[!DNL https]://companyname.preview.workfront.com/](https://companyname.preview.workfront.com/)
+1. Passa a questo URL: `https://companyname.preview.workfront.com/`.
 
    Se sei un cliente EMEA e il tuo account si trova nel cluster 4, consulta la sezione [Accesso alla sandbox di anteprima per gli account sul cluster 4 (account EMEA)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) in questo articolo.
 
