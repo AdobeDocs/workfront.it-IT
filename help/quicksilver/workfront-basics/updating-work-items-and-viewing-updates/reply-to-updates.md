@@ -6,7 +6,7 @@ description: Quando qualcuno aggiunge o risponde a un aggiornamento su un oggett
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 66e843ea0430a86b89b68f6f469763f5e4a348d7
+source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -29,13 +29,13 @@ ht-degree: 0%
 >
 >* Problemi, <span class="preview">progetti, attività e documenti</span>.
 >
->  Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.
+>     Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.
 >
->  Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
+>     Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
 >
->  * Home
->  * Pannello Riepilogo negli elenchi
->  * Pannello Riepilogo nelle schede orario
+>     * Home
+>     * Pannello Riepilogo negli elenchi
+>     * Pannello Riepilogo nelle schede orario
 >
 >* Obiettivi
 >
