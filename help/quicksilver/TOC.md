@@ -2,7 +2,7 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 0d5f0df35136f3a643b2c7a6cfe1c2377671352f
+source-git-commit: 1536d7425b5c5d3c676ff0c8c6a2a9531690ac3e
 workflow-type: tm+mt
 source-wordcount: '13064'
 ht-degree: 1%
@@ -352,9 +352,9 @@ ht-degree: 1%
          * [Rimuovi SMTP personalizzato come opzione e-mail in uscita](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
    * Programmi beta {#beta}
       * [Programmi beta](product-announcements/betas/betas.md)
-      * Reporting Canvas beta {#reporting-canvas-beta}
-         * [Panoramica sulla versione beta di Reporting Canvas](product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md)
-         * [Reporting di Canvas beta: attività di rilascio](product-announcements/betas/reporting-canvas-beta/reporting-canvas-release-activity.md)
+      * Dashboard Canvas versione beta {#canvas-dashboards-beta}
+         * [Panoramica sulla versione beta di Reporting Canvas](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
+         * [Dashboard Canvas versione beta: attività](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * Nuova esperienza di commento beta {#new-commenting-experience-beta}
          * [Nuove informazioni sull’esperienza beta per i commenti](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [Nuova esperienza di commento](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)

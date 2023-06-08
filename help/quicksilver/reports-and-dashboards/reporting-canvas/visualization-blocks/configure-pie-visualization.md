@@ -4,7 +4,7 @@ description: Configurare la visualizzazione a torta nell’area di lavoro Report
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
-source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 1%
@@ -18,7 +18,7 @@ Una visualizzazione a torta può aiutarti a raccontare rapidamente una storia su
 
 ## Prerequisiti
 
-Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, consulta [Reporting Canvas beta: panoramica](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, consulta [Reporting Canvas beta: panoramica](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configurare una visualizzazione a torta
 

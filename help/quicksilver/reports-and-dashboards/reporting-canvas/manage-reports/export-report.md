@@ -1,20 +1,20 @@
 ---
-title: Esportare un rapporto in Reporting Canvas
-description: Esportare un rapporto in Reporting Canvas
+title: Esportare un rapporto nell’area di lavoro rapporti
+description: Esportare un rapporto nell’area di lavoro rapporti
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: edad50a392c2d7c474a725254486588b09a12a65
+source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
 
 ---
 
-# Esportare un rapporto in Reporting Canvas
+# Esportare un rapporto nell’area di lavoro rapporti
 
-Puoi esportare un intero rapporto, o un blocco specifico, in un formato di file adatto alle tue esigenze. Puoi esportare in:
+È possibile esportare un intero report o un blocco specifico in un formato di file in base alle proprie esigenze. Puoi esportare in:
 
 * PDF (attualmente disabilitato)
 * CSV
@@ -23,20 +23,20 @@ Puoi esportare un intero rapporto, o un blocco specifico, in un formato di file 
 
 ## Prerequisiti
 
-Prima di iniziare, è necessario iscriversi alla versione beta di Reporting Canvas. Per ulteriori informazioni, consulta [Reporting Canvas beta: panoramica](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per ulteriori informazioni, consulta [Reporting Canvas beta: panoramica](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Esportare un rapporto
 
-1. Passa al rapporto da esportare.
-1. Nell’intestazione del rapporto, fai clic sul pulsante **Altro** icona ![](assets/more-icon-27x15.png), fai clic su **Esporta**, quindi selezionare il formato di file che si desidera creare.
+1. Passare al report da esportare.
+1. Nell’intestazione del rapporto, fai clic su **Altro** icona ![](assets/more-icon-27x15.png), fai clic su **Esporta**, quindi selezionare il formato di file da creare.
 
    >[!NOTE]
    >
    >Per quanto riguarda i file esportati, considera quanto segue:
    >
    >   * Se si esporta un report contenente più tabelle in un formato XLSX, il file esportato contiene un foglio separato per ogni tabella.
-   >   * Se si esporta un rapporto che contiene più tabelle in formato CSV, il risultato esportato è una cartella compressa contenente un file separato per ciascuna tabella.
-   >   * Se esporti una tabella contenente righe raggruppate in formato CSV, il file CSV include tutte le righe, ma non vengono visualizzate in gruppi.
+   >   * Se esportate un rapporto che contiene più tabelle in formato CSV, il risultato esportato sarà una cartella compressa contenente un file separato per ogni tabella.
+   >   * Se si esporta una tabella contenente righe raggruppate in formato CSV, il file CSV include tutte le righe, ma non vengono visualizzate in gruppi.
 
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
