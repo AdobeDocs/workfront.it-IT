@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 593da7a8859ceafa662acd95c27769aa05f6d457
+source-git-commit: 03290cff97c2505d9719f1a90196017a6d797a3b
 workflow-type: tm+mt
-source-wordcount: '13069'
+source-wordcount: '13077'
 ht-degree: 1%
 
 ---
@@ -214,6 +214,7 @@ ht-degree: 1%
       * Attività di rilascio di Workfront Proof {#proof-release}
          * Bozza con versione 23.3 {#proof-23-3-release}
             * [Bozza di Adobe Workfront con la versione 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Attività di rilascio di Adobe Workfront Proof 23.3: settimana del 5 giugno 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Attività di rilascio di Adobe Workfront Proof 23.3: settimana dell’8 maggio 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Attività rilascio bozza Workfront: settimana del 17 maggio 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Attività rilascio bozza Workfront: settimana del 29 novembre 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
@@ -902,7 +903,7 @@ ht-degree: 1%
          * [Commento sulle bozze in iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [Adobe Workfront per la gestione dei dispositivi mobili (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [Configurare Adobe Workfront per MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [Assistente virtuale per app mobile di Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
+         * [Assistente virtuale per app mobili Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Approvazioni nell’app mobile Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * Utilizza la vista Adobe Workfront {#use-workfront-view}
          * [Utilizza la vista Adobe Workfront](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)

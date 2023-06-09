@@ -2,23 +2,23 @@
 product-previous: workfront-proof
 content-type: release-notes
 navigation-topic: proof-release-activity
-title: Prova di Adobe Workfront con la versione 23.3
-description: Questa pagina fornisce informazioni sulle funzionalità per Adobe Workfront Proof nella nuova esperienza Adobe Workfront rilasciata all’ambiente di produzione con la versione 23.3.
+title: Bozza di Adobe Workfront con la versione 23.3
+description: Questa pagina fornisce informazioni sulla funzionalità Adobe Workfront Proof nella nuova esperienza Adobe Workfront che viene rilasciata nell’ambiente di produzione con la versione 23.3.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-source-git-commit: 6f9067d7d9c955e316546881f3e6883e9a59bcd4
+exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
+source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
 
+# Bozza di Adobe Workfront con la versione 23.3
 
-# Prova di Adobe Workfront con la versione 23.3
+Questa pagina fornisce informazioni sulle funzionalità di Adobe Workfront Proof che viene rilasciato nell’ambiente di produzione entro l’arco temporale della versione 23.3.
 
-Questa pagina fornisce informazioni sulle funzionalità di Adobe Workfront Proof rilasciate nell’ambiente di produzione entro il periodo di tempo di rilascio 23.3.
-
-Per un elenco di tutte le modifiche disponibili per tutte le aree di Workfront a questo punto del ciclo di rilascio 23.3, vedi [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili per tutte le aree di Workfront a questo punto del ciclo di rilascio 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -26,7 +26,7 @@ Per un elenco di tutte le modifiche disponibili per tutte le aree di Workfront a
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzione</span>
+                        <p><span class="bold">Funzionalità</span>
                         </p>
                     </td>
                     <td>
@@ -34,17 +34,33 @@ Per un elenco di tutte le modifiche disponibili per tutte le aree di Workfront a
                         </p>
                     </td>
                 </tr>
-                <tr>
+                </tr>
+                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Aggiornamento del visualizzatore di correzione del desktop</a><span style="color: #ff0000;"> Novità nella produzione!</span></p>
-                        <p>Il visualizzatore per correzione desktop è stato aggiornato alla versione 2.1.24. Questo aggiornamento include il supporto di Chrome v100 per la revisione delle bozze interattive e una serie di correzioni di problemi.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Modifica del supporto per le bozze di Microsoft Office</a><span style="color: #ff0000;"> Novità in produzione!</span> </p>
+                        <p>Per mantenere una soluzione di elaborazione delle bozze solida e scalabile, stiamo modificando i tipi di file di Microsoft Office supportati e i limiti di dimensione dei file.</p>
                     </td>
-                    <td><p><b>Disponibile alle seguenti date:</b></p>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 8 giugno 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Versione di produzione: 8 giugno 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Aggiornamento visualizzatore bozze desktop</a></p>
+                        <p>Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.24. Questo aggiornamento include il supporto di Chrome v100 per la revisione delle bozze interattive e una serie di correzioni di problemi.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Anteprima versione: 10 maggio 2023<br /></p>
+                                <p>Versione di anteprima: 10 maggio 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Versione di produzione: 10 maggio 2023</span></p>
