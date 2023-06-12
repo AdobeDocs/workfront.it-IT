@@ -2,50 +2,51 @@
 product-area: dashboards
 navigation-topic: creating-and-managing-dashboards
 title: Panoramica delle dashboard di Canvas
-description: È possibile creare dashboard di Area di lavoro che integrano le visualizzazioni Area di reporting con i rapporti tradizionali e presentano nuove opzioni di layout.
+description: Puoi creare dashboard di Canvas che integrano le visualizzazioni di Reporting Canvas con rapporti tradizionali e presentano nuove opzioni di layout.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
+source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
 
-
 # Panoramica delle dashboard di Canvas
 
-Le dashboard di Canvas, una funzione attualmente in fase di sviluppo per le dashboard, offrono una nuova opzione per la creazione di dashboard efficaci in Workfront. I dashboard di Area di lavoro consentono di includere facilmente le visualizzazioni Area di reporting con i rapporti esistenti, offrendo maggiore flessibilità e nuove opzioni di layout.
+Dashboard di Canvas, una funzione attualmente in fase di sviluppo per i dashboard, offre una nuova opzione per la creazione di dashboard efficaci in Workfront. Le dashboard di Canvas consentono di includere facilmente le visualizzazioni di Reporting Canvas nei rapporti esistenti, offrendo maggiore flessibilità e nuove opzioni di layout.
 
 Questa funzione è in fase di sviluppo e non supporta ancora:
-* rapporti grafici
 * pagine esterne
-* integrazione del calendario
-* rapporti sollecitati
+* integrazione calendario
+* rapporti richiesti
 * distribuzione tramite modelli di layout
 
-## Accedere ai dashboard Canvas
+Per un elenco completo delle funzioni aggiunte alle dashboard di Canvas, vedi [Dashboard di Canvas: attività di rilascio](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
 
-Per accedere ai dashboard di Canvas è possibile abilitare una nuova opzione Dashboard nel pannello a sinistra della pagina di destinazione delle dashboard esistenti. Questa opzione di menu è disattivata per impostazione predefinita e deve essere attivata per ottenere l’accesso. Per informazioni sull’abilitazione dell’opzione di menu e sulla relativa navigazione, consulta le istruzioni riportate di seguito.
+## Accedere ai dashboard di Canvas
 
-### Aggiungere dashboard di quadro al pannello a sinistra delle dashboard
+Per accedere alle dashboard di Canvas, è possibile abilitare la nuova opzione Dashboard di Canvas nel pannello sinistro della pagina di destinazione dei dashboard esistenti. Questa opzione di menu è disattivata per impostazione predefinita e deve essere attivata per ottenere l’accesso. Per informazioni sull&#39;abilitazione dell&#39;opzione di menu e sulla navigazione, vedere le istruzioni riportate di seguito.
+
+### Aggiungere dashboard di Canvas al pannello Dashboard a sinistra
 
 >[!IMPORTANT]
 >
->È necessario disporre almeno dei diritti di visualizzazione per i rapporti e le dashboard per attivare o disattivare l’elemento Dashboard di quadro nel modello di layout.
+>È necessario disporre almeno dei diritti di visualizzazione per i report e i dashboard per attivare/disattivare l&#39;elemento Dashboard Canvas nel modello di layout.
 
-1. Inizia a lavorare sul modello di layout in cui desideri abilitare le dashboard di Canvas, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Inizia a lavorare sul modello di layout in cui desideri abilitare i dashboard di Canvas, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Fai clic sul pulsante **Personalizzare ciò che gli utenti visualizzano** menu a discesa, quindi fai clic su **Dashboard**.
+1. Fai clic sul pulsante **Personalizzare gli elementi visualizzati dagli utenti** menu a discesa, quindi fai clic su **Dashboard**.
 
-1. In **Pannello a sinistra** elenco visualizzato di seguito, fai clic su ![](assets/delete-secondary-nav-item.png) accanto a **Dashboard di Canvas**. L’icona verrà sostituita da ![](assets/add-secondary-nav-item.png) per mostrare che è ora visibile nel pannello a sinistra dei dashboard.
+1. In **Pannello sinistro** nell&#39;elenco seguente, fare clic sul pulsante ![](assets/delete-secondary-nav-item.png) icona accanto a **Dashboard Canvas**. L’icona diventerà ![](assets/add-secondary-nav-item.png) per mostrare che ora è visibile nel pannello Dashboard a sinistra.
 
-1. Fai clic su **Salva** nella parte inferiore dello schermo.
+1. Clic **Salva** nella parte inferiore dello schermo.
 
-### Dashboard di Open Canvas
+### Apri dashboard area di lavoro
 
-1. Assicurati di aver abilitato l’opzione Dashboard di tela quadro nel modello di layout. Vedi **Aggiunta di dashboard di quadro al menu delle dashboard** per istruzioni.
+1. Assicurati di aver attivato l’opzione Dashboard Canvas nel modello di layout. Consulta **Aggiunta di dashboard di Canvas al menu dei dashboard** sopra per le istruzioni.
 
 1. Fai clic sull’icona Menu principale ![](assets/main-menu-icon.png), quindi fai clic su **Dashboard**.
 
-1. Nel pannello a sinistra, fai clic su **Dashboard di Canvas**.
+1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
