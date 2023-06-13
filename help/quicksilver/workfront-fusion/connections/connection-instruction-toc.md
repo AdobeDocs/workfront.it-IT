@@ -4,21 +4,21 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connettore
 navigation-topic: connections-annd-webhooks
-title: Crea connessioni in [!DNL Adobe Workfront Fusion]
-description: Una connessione deve rispettare i requisiti impostati dall’API dell’app o del servizio Web a cui si connette. Per questo motivo, le istruzioni per l'impostazione di una connessione variano in base all'app o al servizio Web. Questo articolo può aiutarti a identificare e individuare le istruzioni per la connessione [!DNL Adobe Workfront Fusion] all'app o al servizio Web scelto.
+title: Creare connessioni in [!DNL Adobe Workfront Fusion]
+description: Una connessione deve rispettare i requisiti impostati dall’API dell’app o del servizio web a cui si connette. Per questo motivo, le istruzioni per la configurazione di una connessione variano a seconda dell’app o del servizio web. Questo articolo consente di identificare e individuare le istruzioni per la connessione [!DNL Adobe Workfront Fusion] all’app o al servizio web scelto.
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: 97f91d663df86341a079894cff04d07c18b7bf08
+source-git-commit: c241fe4ae228432ef3fc7ebfaf7874680e039587
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
 
-# Crea connessioni in [!DNL Adobe Workfront Fusion]
+# Creare connessioni in [!DNL Adobe Workfront Fusion]
 
-Una connessione deve rispettare i requisiti impostati dall’API dell’app o del servizio Web a cui si connette. Per questo motivo, le istruzioni per l&#39;impostazione di una connessione variano in base all&#39;app o al servizio Web. Questo articolo può aiutarti a identificare e individuare le istruzioni per la connessione [!DNL Adobe Workfront Fusion] all&#39;app o al servizio Web scelto.
+Una connessione deve rispettare i requisiti impostati dall’API dell’app o del servizio web a cui si connette. Per questo motivo, le istruzioni per la configurazione di una connessione variano a seconda dell’app o del servizio web. Questo articolo consente di identificare e individuare le istruzioni per la connessione [!DNL Adobe Workfront Fusion] all’app o al servizio web scelto.
 
 ## Requisiti di accesso
 
@@ -30,7 +30,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>[!UICONTROL Pro] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
@@ -38,48 +38,48 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p> </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td>
+   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</td>
 
 </tbody> 
 </table>
 
-Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Connetti [!DNL Adobe Workfront] a [!DNL Workfront Fusion]
 
-Workfront e [!DNL Workfront Fusion] sono progettati per funzionare insieme. La connessione creata determina l&#39;account che [!DNL Workfront Fusion] utilizza per eseguire azioni in Workfront.
+WORKFRONT e [!DNL Workfront Fusion] sono progettati per funzionare insieme. La connessione creata determina l&#39;account che [!DNL Workfront Fusion] utilizza per eseguire azioni in Workfront.
 
 Per istruzioni, consulta [Connetti [!DNL Workfront] a [!DNL Workfront Fusion]](../../workfront-fusion/apps-and-their-modules/workfront-modules.md#connect) in [[!DNL Adobe Workfront] moduli](../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-## Connettersi a un&#39;app o a un servizio Web che non richiede la configurazione
+## Connettersi a un&#39;app o a un servizio Web che non richiede configurazione
 
-Nella maggior parte dei casi, è possibile utilizzare il modulo per creare una connessione con poche o nessuna informazione aggiuntiva. [!DNL Workfront Fusion] gestisce automaticamente l&#39;autenticazione.
+Nella maggior parte dei casi, è possibile utilizzare il modulo per creare una connessione con poche o nessuna informazione aggiuntiva. [!DNL Workfront Fusion] gestisce automaticamente l’autenticazione.
 
-Per istruzioni su come creare una connessione senza considerazioni speciali, consulta [Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md).
+Per istruzioni sulla creazione di una connessione senza considerazioni particolari, vedere [Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md).
 
-## Connessione a un [!DNL Microsoft] app o servizio Web
+## Connetti a [!DNL Microsoft] app o servizio web
 
-La maggior parte dei [!DNL Microsoft] app in [!DNL Workfront Fusion] consente di creare una connessione senza ulteriori informazioni.
+La maggior parte [!DNL Microsoft] app in [!DNL Workfront Fusion] consente di creare una connessione senza informazioni aggiuntive.
 
-Le seguenti circostanze richiedono passaggi aggiuntivi per la creazione di una connessione:
+Le circostanze seguenti richiedono passaggi aggiuntivi per la creazione di una connessione:
 
-* Utilizzo [!DNL Microsoft Dynamics 365] moduli.
+* Utilizzo di [!DNL Microsoft Dynamics 365] moduli.
 
-   Per istruzioni, consulta [[!DNL Microsoft Dynamics 365] moduli](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+  Per istruzioni, consulta [[!DNL Microsoft Dynamics 365] moduli](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
 
-* Collegamento al [!DNL Microsoft Graph API] utilizzando [!UICONTROL HTTP] modulo
+* Connessione a [!DNL Microsoft Graph API] utilizzando un [!UICONTROL HTTP] modulo
 
-   Per istruzioni, consulta [Chiama il [!DNL MS Graph REST API] tramite [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+  Per istruzioni, consulta [Chiama il [!DNL MS Graph REST API] tramite [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
 
-## Connessione a un [!DNL Google] app o servizio Web
+## Connetti a [!DNL Google] app o servizio web
 
-Il processo di connessione a [!DNL Google] le app possono variare a seconda del tipo di [!DNL Google] account in uso. Inoltre, [!DNL Google] le misure di sicurezza possono richiedere una configurazione aggiuntiva quando ci si connette a [!DNL Workfront Fusion].
+Processo per la connessione a [!DNL Google] le app possono variare in base al tipo di [!DNL Google] account utilizzato. Inoltre, [!DNL Google] le misure di protezione potrebbero richiedere una configurazione aggiuntiva durante la connessione a [!DNL Workfront Fusion].
 
 Per ulteriori informazioni, consulta:
 
@@ -88,14 +88,14 @@ Per ulteriori informazioni, consulta:
 
 ## Altre app che richiedono una configurazione aggiuntiva
 
-Le seguenti app non seguono la configurazione di base per [!DNL Workfront Fusion] connessioni. Puoi trovare le istruzioni per la connessione di queste app nell&#39;articolo per quell&#39;app.
+Le seguenti app non seguono la configurazione di base per [!DNL Workfront Fusion] connessioni. Le istruzioni per la connessione di queste app sono disponibili nell’articolo relativo all’app.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th>App / Servizio Web</th> 
+   <th>App/Servizio Web</th> 
    <th>Informazioni aggiuntive sulle connessioni</th> 
   </tr> 
  </thead> 
@@ -140,15 +140,11 @@ Le seguenti app non seguono la configurazione di base per [!DNL Workfront Fusion
   </tr> 
   <tr> 
    <td role="rowheader"> <p>E-mail</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/email-modules.md#connecti" class="MCXref xref">Collega l’e-mail a [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/email-modules.md" class="MCXref xref">Moduli di [!UICONTROL Email]</a></td>
+   <td><a href="../../workfront-fusion/apps-and-their-modules/email-modules.md#connecti" class="MCXref xref">Connetti l’e-mail a [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/email-modules.md" class="MCXref xref">Moduli di [!UICONTROL E-mail]</a></td>
 
 <tr> 
    <td role="rowheader"> <p>[!DNL Gmail]</p> </td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/gmail-modules.md#connect3" class="MCXref xref">Connetti [!DNL Gmail] a [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/gmail-modules.md" class="MCXref xref">[!DNL Gmail] moduli</a></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!DNL Intacct]</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md#connecti" class="MCXref xref">Connetti [!DNL Intacct] a [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/intacct-modules.md" class="MCXref xref">[!DNL Intacct] moduli</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira Cloud]</td> 
@@ -172,7 +168,7 @@ Le seguenti app non seguono la configurazione di base per [!DNL Workfront Fusion
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Qualtrics]</p> </td> 
-   <td><a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md#connecti" class="MCXref xref">Collegamento [!DNL Qualtrics] a [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md" class="MCXref xref">[!DNL Qualtrics] moduli</a></td> 
+   <td><a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md#connecti" class="MCXref xref">Connessione [!DNL Qualtrics] a [!DNL Workfront Fusion]</a> in <a href="../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md" class="MCXref xref">[!DNL Qualtrics] moduli</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL ServiceNow]</p> </td> 
