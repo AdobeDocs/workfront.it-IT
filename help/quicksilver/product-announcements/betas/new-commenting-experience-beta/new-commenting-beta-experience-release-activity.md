@@ -6,10 +6,10 @@ description: Rivedi l’attività di rilascio settimanale per la nuova esperienz
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: e1411ce49d8668ba50bcb9b80d4a4b47d0dd00fc
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,24 @@ Per informazioni generali sulla nuova esperienza beta di commento, incluso un el
 >Le funzioni di commento rilasciate nell’esperienza beta per gli oggetti Workfront vengono rilasciate anche nella sezione Aggiornamenti di un oggetto obiettivo in Obiettivi Workfront.
 
 Nelle sezioni seguenti sono elencate le funzioni aggiunte dopo la versione originale, a partire da quelle rilasciate più di recente.
+
+## Settimana del 13 giugno 2023
+
+### Esperienza migliorata durante la modifica dei commenti
+
+Durante la modifica dei commenti è ora possibile utilizzare i seguenti tasti di scelta rapida:
+
+* CTRL + Z (CMD + Z per Mac) per annullare una modifica
+
+* CTRL + Y (CMD + Y per Mac) per ripetere una modifica
+
+Prima di questi miglioramenti, non era possibile annullare o ripristinare le modifiche durante la modifica di un commento. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Anteprima: 13 giugno 2023
+
+Produzione: 13 giugno 2023
+
+<!--I used the date when I found them in Prod. Not sure when these released, but it could have been before this date-->
 
 ## Settimana del 29 maggio 2023
 

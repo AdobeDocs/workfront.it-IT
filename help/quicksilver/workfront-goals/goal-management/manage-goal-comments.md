@@ -6,9 +6,9 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: f5019325da11e66bf9ab315065ae2b7693660431
+source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -139,6 +139,9 @@ Verrà aperto l&#39;elenco degli obiettivi.
    >
    >Se si esce dalla sezione Aggiornamenti prima di completare la digitazione e l&#39;invio di un commento, il commento nella pagina rimane in modalità bozza anche dopo la disconnessione e la riconnessione. Nella bozza vengono salvate anche tutte le immagini aggiunte al commento. Le bozze vengono salvate per 7 giorni dopo i quali vengono eliminate e non possono essere recuperate. I commenti bozza sono visibili solo all&#39;utente che li inserisce.
 
+1. (Facoltativo) Per annullare o ripristinare una modifica, utilizzare i seguenti tasti di scelta rapida:
+   * CTRL + Z (⌘+z per Mac) per annullare una modifica
+   * CTRL+Y (⌘+y per Mac) per ripetere una modifica
 1. (Facoltativo) Per aggiungere la formattazione RTF all&#39;aggiornamento, a un collegamento ipertestuale o a un&#39;immagine, utilizzare le opzioni disponibili sulla barra degli strumenti Testo formattato o le icone adiacenti. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) In **Assegna tag a persone o team** , inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
 1. Seleziona la **Privato per la mia azienda** attiva per rendere visibile il commento solo agli utenti della tua azienda.
@@ -170,13 +173,12 @@ Puoi modificare il commento entro 15 minuti dall’invio. A sinistra dell&#39;in
    >
    > * Il timbro data è la data del commento originale e non la data dell’ultimo aggiornamento.
 
-
    1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-icon.png), quindi fare clic su una delle seguenti opzioni per copiare le informazioni da un commento negli Appunti:
 
       * **Copia collegamento** per copiare il collegamento di un aggiornamento, senza le risposte.
       * **Copia corpo del testo** per copiare il testo di un aggiornamento.
 
-         Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+        Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-icon.png) a destra di un commento, quindi fai clic su **Elimina** per eliminare un commento aggiunto. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 5-9 di cui sopra. <!--insure this stays accurate-->
