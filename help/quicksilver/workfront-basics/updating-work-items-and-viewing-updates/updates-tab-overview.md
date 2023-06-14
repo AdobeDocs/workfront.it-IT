@@ -7,7 +7,7 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 4%
@@ -28,22 +28,20 @@ ht-degree: 4%
 >
 >Puoi accedere alla nuova esperienza per i seguenti oggetti:
 > * Problemi, <span class="preview">progetti, attività e documenti</span>.
-   >
-   >     Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.
-   >
-   >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
-   >
-   >     * Home
-   >     * Pannello Riepilogo negli elenchi
-   >     * Pannello Riepilogo nelle schede orario
 >
-> * Obiettivi
-
-   >
-   >   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.
+>
+>     Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
+>
+>     * Home
+>     * Pannello Riepilogo negli elenchi
+>     * Pannello Riepilogo nelle schede orario
+>
+> * Obiettivi<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi <!--<span class="preview">and cards</span>-->. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti sull&#39;oggetto o gli aggiornamenti di sistema che tengono traccia delle modifiche apportate all&#39;oggetto.
 
@@ -124,6 +122,13 @@ Attualmente, puoi aggiungere commenti e rispondere agli aggiornamenti utilizzand
   </tr> 
  </tbody> 
 </table>
+
+<!--for 23.3 preview - June 15: 
+Add this to the table for 23.3 preview - under Goals:
+
+<li><span class="preview">Cards in the Boards area</span></li>
+This is the default experience for goals <span class="preview">and cards</span>. 
+-->
 
 ## Aggiornamenti visualizzati anche su oggetti di livello superiore
 
