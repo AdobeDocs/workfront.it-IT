@@ -1,7 +1,7 @@
 ---
 product-area: dashboards
 navigation-topic: creating-and-managing-dashboards
-title: Panoramica dei dashboard di Canvas
+title: Panoramica delle dashboard di Canvas
 description: Puoi creare dashboard di Canvas che integrano le visualizzazioni di Reporting Canvas con rapporti tradizionali e presentano nuove opzioni di layout.
 author: Nolan
 feature: Reports and Dashboards
