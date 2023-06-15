@@ -1,14 +1,14 @@
 ---
 product-area: dashboards
 navigation-topic: creating-and-managing-dashboards
-title: Panoramica delle dashboard di Canvas
+title: Panoramica dei dashboard di Canvas
 description: Puoi creare dashboard di Canvas che integrano le visualizzazioni di Reporting Canvas con rapporti tradizionali e presentano nuove opzioni di layout.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 45043c96f2dbacbae7b593727a46a9f52bc7eab2
+source-git-commit: da55003a14851d7894693fb95bff866c20938849
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -50,3 +50,44 @@ Per accedere alle dashboard di Canvas, è possibile abilitare la nuova opzione D
 1. Fai clic sull’icona Menu principale ![](assets/main-menu-icon.png), quindi fai clic su **Dashboard**.
 
 1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+
+## Utilizzo dei dashboard di Canvas
+
+### Crea un nuovo dashboard Canvas
+
+1. Aprire i dashboard di Canvas come descritto in **Apri dashboard area di lavoro** sopra.
+
+1. Clic **+ Nuovo dashboard**
+
+1. Clic **Senza titolo** nell&#39;angolo in alto a sinistra per immettere un nome per il dashboard.
+
+1. Clic **Fine** nell’angolo in alto a destra per salvare il nuovo dashboard, oppure inizia ad aggiungere widget come descritto in **Aggiungere un rapporto a un dashboard dell’area di lavoro** di seguito.
+
+### Aggiungere un rapporto a un dashboard dell’area di lavoro
+
+1. Aprire i dashboard di Canvas come descritto in **Apri dashboard area di lavoro** sopra.
+
+1. Fai clic sulla dashboard a cui desideri aggiungere un rapporto dall’elenco delle dashboard.
+
+1. Clic **Gestisci widget** in alto a destra, quindi fai clic su **Aggiungi widget**.
+
+1. Passa il puntatore del mouse sul tipo di widget di report che desideri aggiungere, quindi fai clic sulla casella di controllo visualizzata.
+
+1. Dopo aver selezionato tutti i widget da aggiungere, fai clic su **Aggiungi** in alto a destra.
+
+1. I widget selezionati verranno visualizzati nel dashboard. Clic **Configurazione** al centro di un widget per scegliere quale rapporto visualizzare.
+
+1. Inizia a digitare il nome del report che desideri visualizzare nel **Trova rapporto** campo. Quando visualizzi il rapporto nell’elenco, fai clic su **Rapporto elenco** o **Rapporto grafico** accanto al nome per visualizzare le informazioni del report nel formato scelto.
+
+>[!WARNING]
+> Mentre l’aggiunta di più widget che visualizzano informazioni dallo stesso rapporto è attualmente possibile, si consiglia di visualizzare ogni rapporto solo una volta, in quanto può influire sulle prestazioni del dashboard.
+
+### Modificare un widget in un dashboard di Canvas
+
+1. Aprire i dashboard di Canvas come descritto in **Apri dashboard area di lavoro** sopra.
+
+1. Nell’elenco delle dashboard, fai clic sulla dashboard da modificare.
+
+1. (Facoltativo) Per ridimensionare un widget, trascina e rilascia la **Ridimensiona** nell&#39;angolo in basso a sinistra del widget alle dimensioni desiderate.
+
+1. (Facoltativo) Per riposizionare un widget, trascinate lo spazio bianco di bordo del widget e trascinatelo nella posizione relativa desiderata sul dashboard.
