@@ -6,7 +6,7 @@ description: Quando qualcuno aggiunge o risponde a un aggiornamento su un oggett
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -26,8 +26,7 @@ ht-degree: 0%
 >Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puoi accedere alla nuova esperienza per i seguenti oggetti:
->
->* Problemi, <span class="preview">progetti, attività e documenti</span>.
+> * Problemi, <span class="preview">progetti, attività e documenti</span>.
 >
 >     Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.
 >
@@ -37,11 +36,11 @@ ht-degree: 0%
 >     * Pannello Riepilogo negli elenchi
 >     * Pannello Riepilogo nelle schede orario
 >
->* Obiettivi
+> * Obiettivi<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->  La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi <!--<span class="preview">and cards</span>-->. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->  Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>    Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 Quando qualcuno risponde a un commento o a un aggiornamento di sistema su un oggetto di lavoro, la risposta viene visualizzata nel thread di comunicazione nella sezione Aggiornamenti dell’oggetto.
 

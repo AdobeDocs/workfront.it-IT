@@ -6,10 +6,10 @@ description: Rivedi l’attività di rilascio settimanale per la nuova esperienz
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '953'
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,27 @@ Per informazioni generali sulla nuova esperienza beta di commento, incluso un el
 
 Nelle sezioni seguenti sono elencate le funzioni aggiunte dopo la versione originale, a partire da quelle rilasciate più di recente.
 
-## Settimana del 13 giugno 2023
+## Settimana del 12 giugno 2023
+
+### Nuova esperienza beta per i commenti per le schede nell’area Bacheche
+
+La nuova esperienza beta per i commenti è ora disponibile per le schede nell’area Bacheche. Per ulteriori informazioni, consulta [Panoramica sulla versione 23.3](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Anteprima: 15 giugno 2023
+
+Versione di produzione per il consenso anticipato: 22 giugno 2023
+
+Produzione per tutti i clienti: con la versione 23.3
+
+### Aggiungere virgolette a un commento
+
+Ora è possibile aggiungere virgolette a un commento utilizzando un’opzione della barra degli strumenti Testo formattato nella nuova esperienza Beta per i commenti.
+
+Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Anteprima: 14 giugno 2023
+
+Produzione: 15 giugno 2023
 
 ### Esperienza migliorata durante la modifica dei commenti
 

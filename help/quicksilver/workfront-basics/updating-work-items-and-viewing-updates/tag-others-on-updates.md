@@ -6,7 +6,7 @@ description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 7c458a41cd5376b746c93e9ed8e4f379a0ed1f4b
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -28,21 +28,20 @@ ht-degree: 0%
 >
 >Puoi accedere alla nuova esperienza per i seguenti oggetti:
 > * Problemi, <span class="preview">progetti, attività e documenti</span>.
-   >
-   >     Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.
-   >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
-   >
-   >     * Home
-   >     * Pannello Riepilogo negli elenchi
-   >     * Pannello Riepilogo nelle schede orario
 >
-> * Obiettivi
-
-   >
-   >   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   >
-   >    Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
-
+>     Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.
+>
+>     Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
+>
+>     * Home
+>     * Pannello Riepilogo negli elenchi
+>     * Pannello Riepilogo nelle schede orario
+>
+> * Obiettivi<!--, <span class="preview">Cards in the Boards area</span>-->
+>
+>   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi <!--<span class="preview">and cards</span>-->. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>    Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
 
 È possibile assegnare tag agli utenti quando si esegue un aggiornamento a un oggetto se si desidera attirare la loro attenzione su un oggetto che altrimenti potrebbero non seguire.
@@ -51,6 +50,7 @@ Invece di includere tali utenti nell’oggetto assegnandoli a esso o imponendo l
 >[!NOTE]
 >
 >Per poter ricevere la notifica e-mail, l’utente deve abilitare una notifica personale nel proprio profilo. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>
 
 Per informazioni sull&#39;aggiunta di aggiornamenti agli oggetti di Workfront, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -155,7 +155,6 @@ Puoi assegnare tag ad altri utenti per gli aggiornamenti nell’esperienza Beta 
    >
    >* Questa opzione viene visualizzata solo quando l’utente è associato a una società.
    >* Gli utenti taggati esterni all’azienda potrebbero comunque ricevere una notifica o un’e-mail in-app, anche se non vedranno i commenti privati nella scheda Aggiornamenti. È consigliabile non assegnare tag agli utenti esterni in un aggiornamento se non si desidera condividere le informazioni con loro.
-
 
 1. (Facoltativo) Per aggiungere più utenti e team, ripeti il passaggio 2. <!--insure this stays accurate-->
 

@@ -6,10 +6,10 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3211'
+ht-degree: 1%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 0%
 >     * Pannello Riepilogo negli elenchi
 >     * Pannello Riepilogo nelle schede orario
 >
-> * Obiettivi
+> * Obiettivi<!--, <span class="preview">Cards in the Boards area</span>-->
 >
->   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi <!--<span class="preview">and cards</span>-->. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >    Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -283,7 +283,7 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
    | Collegamento ipertestuale | ![mceclip7.png](assets/mceclip7.png) | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti: ⌘+K</br> <br>Nell’esperienza beta per la creazione di commenti, per incollare un collegamento sul testo selezionato: ⌘+V</br> | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti: Ctrl+K</br> <br>Nell’esperienza beta per la creazione di commenti, per incollare un collegamento sul testo selezionato: Ctrl+V</br> |
    | Elenco puntato | ![mceclip6.png](assets/mceclip6.png) | ⌘+Maiusc+8 | Ctrl+Maiusc+8 |
    | Elenco numerato | ![mceclip5.png](assets/mceclip5.png) | ⌘+Maiusc+7 | Ctrl+Maiusc+7 |
-   | Citazione | ![](assets/block-quote-icon-large.png) | ⌘+Maiusc+9 | Ctrl+Maiusc+9 |
+   | Citazione | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘+Maiusc+9 | Ctrl+Maiusc+9 |
 
    Per interrompere la formattazione del testo, deselezionare l&#39;attributo nella **Rich Text** barra degli strumenti.
 
