@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: b7b50ef85e38384251fadd57974d9b52a1d1525a
+source-git-commit: 8e30fbc97ce083802ae705466b3a9ee3abaecbaf
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1561'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td>
                         <p><span class="bold">Date di rilascio</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md" class="MCXref xref" xrefformat="{para}">Aggiungi commenti alle schede sulle bacheche</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>È ora possibile aggiungere commenti alle schede ad hoc e alle schede collegate sulle bacheche e assegnare tag ad altri utenti sui commenti. I commenti sono disponibili nei dettagli della scheda. La funzione di commento per le bacheche utilizza la nuova esperienza di commento di Adobe Workfront.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 15 giugno 2023</p>
+                            </li>
+                            <li>
+                                 <p>Versione di produzione per il consenso anticipato: 22 giugno 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.</span></p>
+                                <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -223,7 +240,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Esperienza migliorata durante lo spostamento di un documento in una cartella collegata tramite trascinamento</a><span style="color: #ff0000;"> Novità in anteprima.</span></p> 
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Esperienza migliorata durante lo spostamento di un documento in una cartella collegata tramite trascinamento</a></p> 
                         <p>Abbiamo aggiunto un po’ di trasparenza al processo di trascinamento e rilascio di un documento in una cartella collegata. Ora il documento spostato in una cartella collegata rimane nell'elenco dei documenti fino a quando non è stato completamente spostato. Le opzioni del documento sono disattivate, ma è comunque possibile aprire il documento per la visualizzazione durante lo spostamento. Una volta completato il trasferimento, il documento scompare dall'elenco dei documenti, in quanto si trova completamente nella cartella collegata. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -390,22 +407,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante il periodo di rilascio della versione 23.3</a></p>
-                        <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale della versione 23.3. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione almeno 2 settimane dopo il rilascio in anteprima. </p>
-                    </td>
-                    <td><p><b>Disponibile in queste date:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versione di anteprima: nell’arco temporale della versione 23.3<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Versione di produzione: almeno 2 settimane dopo il rilascio in anteprima (se non diversamente specificato)</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                 <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Nuovi miglioramenti dell’esperienza beta per i commenti</a></p>
                         <p>I miglioramenti alla sezione Aggiornamenti sono stati resi disponibili entro l’arco temporale della versione 23.3 per la nuova esperienza beta di creazione di commenti. Salvo diversa indicazione, questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.3. 
  </p>
@@ -430,10 +431,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: nell’arco temporale della versione 23.3<br /></p>
+                                <p>Versione di anteprima: 5 giugno 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Versione di produzione: con la versione 23.3 (se non diversamente specificato)</span></p>
+                                <p><span class="preview">Versione di produzione: 5 giugno 2023</span></p>
                             </li>
                         </ul>
                     </td>
