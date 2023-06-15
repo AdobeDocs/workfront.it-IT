@@ -6,7 +6,7 @@ description: Quando qualcuno aggiunge o risponde a un aggiornamento su un oggett
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
 workflow-type: tm+mt
 source-wordcount: '1194'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 >
 >   La nuova esperienza di commento è l’unica esperienza per gli obiettivi <span class="preview">e schede</span>. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->     È possibile aggiungere e visualizzare aggiornamenti alle schede nelle aree Bacheca quando si abilitano le sezioni Commenti e Attività di sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
+>     È possibile aggiungere e visualizzare aggiornamenti alle schede nell&#39;area Bacheche quando si abilitano le sezioni Commenti e Attività di sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
 
 Quando qualcuno risponde a un commento o a un aggiornamento di sistema su un oggetto di lavoro, la risposta viene visualizzata nel thread di comunicazione nella sezione Aggiornamenti dell’oggetto.

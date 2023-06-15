@@ -7,7 +7,7 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 4%
@@ -41,7 +41,7 @@ ht-degree: 4%
 >
 >   La nuova esperienza di commento è l’unica esperienza per gli obiettivi <span class="preview">e schede</span>. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->     È possibile aggiungere e visualizzare aggiornamenti alle schede nelle aree Bacheca quando si abilitano le sezioni Commenti e Attività di sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
+>     È possibile aggiungere e visualizzare aggiornamenti alle schede nell&#39;area Bacheche quando si abilitano le sezioni Commenti e Attività di sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
 Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti sull&#39;oggetto o gli aggiornamenti di sistema che tengono traccia delle modifiche apportate all&#39;oggetto.
 
