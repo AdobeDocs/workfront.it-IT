@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2544bbedfeae731d4cde2ce75d7e09b96c54e32a
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '968'
+source-wordcount: '1041'
 ht-degree: 4%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 4%
 >     * Pannello Riepilogo negli elenchi
 >     * Pannello Riepilogo nelle schede orario
 >
-> * Obiettivi<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Obiettivi, <span class="preview">schede nell’area Schede</span>
 >
->   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi <!--<span class="preview">and cards</span>-->. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nuova esperienza di commento è l’unica esperienza per gli obiettivi <span class="preview">e schede</span>. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     È possibile aggiungere e visualizzare aggiornamenti alle schede nelle aree Bacheca quando si abilitano le sezioni Commenti e Attività di sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
 Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti sull&#39;oggetto o gli aggiornamenti di sistema che tengono traccia delle modifiche apportate all&#39;oggetto.
 
@@ -84,7 +84,7 @@ Viene visualizzata la sezione Aggiornamenti per i seguenti oggetti:
      <li>Modelli</li> 
      <li>Attività modello</li> 
      <li>Schede orario</li> 
-     <li>Utenti</li> 
+     <li>Utenti</li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -99,7 +99,7 @@ La sezione Aggiornamenti visualizza le informazioni nelle schede seguenti nella 
 * **Commenti**: visualizza i commenti degli utenti e le relative risposte. Per informazioni sull’aggiornamento degli oggetti nella nuova esperienza di commento, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 * **Attività di sistema**: visualizza gli aggiornamenti del sistema, ovvero messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, puoi acquisire le modifiche nei campi di stato, nome o personalizzati con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-Attualmente, puoi aggiungere commenti e rispondere agli aggiornamenti utilizzando l’esperienza di commento beta per i seguenti oggetti:
+Al momento, è possibile aggiungere commenti e rispondere agli aggiornamenti utilizzando la nuova esperienza di commento per i seguenti oggetti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,10 +109,11 @@ Attualmente, puoi aggiungere commenti e rispondere agli aggiornamenti utilizzand
    <td> 
     <ul> 
      <li><p>Obiettivi</p>
-     <p>Questa è l’esperienza predefinita per gli obiettivi</p>
+     <li><span class="preview">Schede nell’area Schede</span></li>
+      Questa è l’unica esperienza per gli obiettivi <span class="preview">e schede</span>.
      </li> 
      <li><span class="preview">Progetti</span></li>
-     </ul> </td> 
+    </ul> </td> 
    <td> 
     <ul> 
      <li>Problemi</li> 
@@ -123,12 +124,10 @@ Attualmente, puoi aggiungere commenti e rispondere agli aggiornamenti utilizzand
  </tbody> 
 </table>
 
-<!--for 23.3 preview - June 15: 
-Add this to the table for 23.3 preview - under Goals:
 
-<li><span class="preview">Cards in the Boards area</span></li>
-This is the default experience for goals <span class="preview">and cards</span>. 
--->
+>[!NOTE]
+>
+>È possibile aggiungere e visualizzare aggiornamenti alle schede nelle aree Bacheca quando si abilitano le sezioni Commenti e Attività di sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Aggiornamenti visualizzati anche su oggetti di livello superiore
 

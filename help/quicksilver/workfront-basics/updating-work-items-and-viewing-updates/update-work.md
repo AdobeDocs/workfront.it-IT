@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: e6377e0198349cd514e444cbdd0bf1fc4c32d15b
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '3211'
+source-wordcount: '3373'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ ht-degree: 1%
 >     * Pannello Riepilogo negli elenchi
 >     * Pannello Riepilogo nelle schede orario
 >
-> * Obiettivi<!--, <span class="preview">Cards in the Boards area</span>-->
+> * Obiettivi, <span class="preview">schede nell’area Schede</span>
 >
->   La nuova esperienza di aggiunta di commenti è l’impostazione predefinita per gli obiettivi <!--<span class="preview">and cards</span>-->. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nuova esperienza di commento è l’unica esperienza per gli obiettivi <span class="preview">e schede</span>. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
->    Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>     È possibile aggiungere e visualizzare aggiornamenti alle schede nelle aree Bacheca quando si abilitano le sezioni Commenti e Attività di sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
 Puoi aggiungere commenti alla maggior parte degli oggetti in Adobe Workfront nella sezione Aggiornamenti. Per ulteriori informazioni sugli oggetti che visualizzano la sezione Aggiornamenti, vedere [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -131,7 +131,9 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 
 >[!NOTE]
 >
->La seguente funzionalità è disponibile per tutti gli oggetti ad eccezione degli obiettivi. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md)
+>La seguente funzionalità è disponibile per tutti gli oggetti ad eccezione di obiettivi e schede. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+>
+>È possibile aggiungere e visualizzare aggiornamenti alle schede nelle aree Bacheca quando si abilitano le sezioni Commenti e Attività di sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
 1. Passare all&#39;elemento di lavoro per il quale si desidera fornire un aggiornamento, ad esempio un progetto, un&#39;attività o un problema.
 1. Fai clic su **Aggiornamenti** sezione.
@@ -283,7 +285,7 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
    | Collegamento ipertestuale | ![mceclip7.png](assets/mceclip7.png) | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti: ⌘+K</br> <br>Nell’esperienza beta per la creazione di commenti, per incollare un collegamento sul testo selezionato: ⌘+V</br> | <br>Per aprire la casella Crea collegamenti o Aggiungi collegamenti: Ctrl+K</br> <br>Nell’esperienza beta per la creazione di commenti, per incollare un collegamento sul testo selezionato: Ctrl+V</br> |
    | Elenco puntato | ![mceclip6.png](assets/mceclip6.png) | ⌘+Maiusc+8 | Ctrl+Maiusc+8 |
    | Elenco numerato | ![mceclip5.png](assets/mceclip5.png) | ⌘+Maiusc+7 | Ctrl+Maiusc+7 |
-   | Citazione | <span class="preview">![](assets/block-quote-icon-large.png)</span> | ⌘+Maiusc+9 | Ctrl+Maiusc+9 |
+   | Citazione | ![](assets/block-quote-icon-large.png) | ⌘+Maiusc+9 | Ctrl+Maiusc+9 |
 
    Per interrompere la formattazione del testo, deselezionare l&#39;attributo nella **Rich Text** barra degli strumenti.
 
@@ -346,20 +348,17 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
 
 ## Copia informazioni di aggiornamento
 
-<!--drafted for beta release toggle - remove when copying an update will be available:
-
->[!NOTE]
->
->Copying an update is not possible when using the Beta commenting experience.
--->
-
 È possibile copiare un aggiornamento in diversi modi. Dopo aver copiato un collegamento, puoi condividerlo con altri utenti per indirizzarli all’aggiornamento.
+
+La copia di un aggiornamento varia a seconda dell’esperienza di commento utilizzata.
+
+### Copiare un aggiornamento nell’esperienza di commento corrente
 
 * [Copia l’aggiornamento](#copy-the-update)
 * [Copiare il collegamento del thread](#copy-the-thread-link)
 * [Copia il collegamento di aggiornamento](#copy-the-update-link)
 
-### Copia l’aggiornamento {#copy-the-update}
+#### Copia l’aggiornamento {#copy-the-update}
 
 Questa opzione consente di copiare il testo da un aggiornamento specifico negli Appunti.
 
@@ -368,24 +367,47 @@ Questa opzione consente di copiare il testo da un aggiornamento specifico negli 
 
    ![Seleziona Copia corpo del testo](assets/update-stream-copy-body-text-350x152.png)
 
-### Copiare il collegamento del thread {#copy-the-thread-link}
+#### Copiare il collegamento del thread {#copy-the-thread-link}
 
 Questa opzione consente di copiare il collegamento thread completo negli Appunti, in modo da poter condividere il thread con altri utenti.
 
 1. Passare al thread di aggiornamento da copiare.
 
-1. Fai clic su **Altro** , quindi fai clic su **Copia collegamento thread** o **Copia collegamento**, quando si utilizza l’esperienza Beta.
+1. Fai clic su **Altro** , quindi fai clic su **Copia collegamento thread**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-### Copia il collegamento di aggiornamento {#copy-the-update-link}
+#### Copia il collegamento di aggiornamento {#copy-the-update-link}
 
 Questa opzione consente di copiare negli Appunti un collegamento di aggiornamento specifico. Quando condividi il collegamento di aggiornamento, l’utente che lo segue visualizza un bordo intorno all’aggiornamento.
 
 1. Vai all’aggiornamento o alla risposta che desideri copiare.
-1. Fai clic su **Altro** accanto al singolo aggiornamento, quindi fai clic su **Copia collegamento di aggiornamento** o **Copia collegamento**, quando si utilizza l’esperienza Beta.
+1. Fai clic su **Altro** accanto al singolo aggiornamento, quindi fai clic su **Copia collegamento di aggiornamento**.
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
+
+
+### Copiare un aggiornamento nella nuova esperienza di commento
+
+<!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
+
+* [Copia link](#copy-link)
+* [Copia corpo del testo](#copy-body-text)
+
+#### Copia link
+
+Questa opzione consente di copiare il commento o il collegamento del thread negli Appunti, in modo da poterlo condividere con altri utenti.
+
+1. Vai all’aggiornamento di cui desideri copiare il collegamento.
+
+1. Fai clic su **Altro** , quindi fai clic su **Copia collegamento**.
+
+#### Copia corpo del testo
+
+Questa opzione consente di copiare il testo da un aggiornamento specifico negli Appunti.
+
+1. Vai all’aggiornamento o alla risposta che desideri copiare.
+1. Fai clic su **Altro** , quindi fai clic su **Copia corpo del testo**.
 
 ## Eliminare un aggiornamento o una risposta
 

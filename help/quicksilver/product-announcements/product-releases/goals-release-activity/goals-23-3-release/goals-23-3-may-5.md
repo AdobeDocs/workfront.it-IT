@@ -2,27 +2,28 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Attività di rilascio degli obiettivi di Adobe Workfront 23.3 Settimana del 1° maggio 2023
-description: Questa pagina descrive tutti i miglioramenti effettuati con la versione 23.3 per Obiettivi di Adobe Workfront per l'ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell'ambiente di produzione la settimana del 1° maggio 2023.
+title: Attività di rilascio Adobe Workfront Goals 23.3 Settimana del 1° maggio 2023
+description: Questa pagina descrive tutti i miglioramenti apportati con la versione 23.3 di Adobe Workfront Goals all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione nella settimana del 1° maggio 2023.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-source-git-commit: e9faaf52158030cd48ad11938186054594992c34
+exl-id: 5fd2e141-af8d-4934-a5f6-a4cdf5820082
+source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio degli obiettivi di Adobe Workfront 23.3: Settimana del 1° maggio 2023
+# Attività di rilascio Adobe Workfront Goals 23.3: settimana del 1 maggio 2023
 
-Questa pagina descrive tutti i miglioramenti effettuati con la versione 23.3 di Obiettivi di Adobe Workfront per l’ambiente di anteprima del 3 maggio 2023.
+Questa pagina descrive tutti i miglioramenti apportati con la versione 23.3 di Adobe Workfront Goals all’ambiente di anteprima il 3 maggio 2023.
 
-Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.3, se non diversamente specificato.
+Salvo diversa indicazione, questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.3.
 
-## Miglioramenti alla sezione Aggiornamenti
+## Miglioramenti alla sezione aggiornamenti
 
-I miglioramenti alla sezione Aggiornamenti degli obiettivi vengono resi disponibili entro il periodo di tempo di rilascio della versione 23.3. Questi miglioramenti saranno disponibili nell&#39;ambiente Produzione poco dopo il rilascio in Anteprima.
+Sono stati resi disponibili miglioramenti alla sezione Aggiornamenti degli obiettivi entro l’intervallo di tempo della versione 23.3. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione poco dopo il rilascio in anteprima.
 
-I miglioramenti a livello di commenti resi disponibili per gli obiettivi sono gli stessi introdotti con la nuova esperienza beta per i commenti per altri oggetti Workfront.
+I miglioramenti apportati ai commenti sono gli stessi di quelli rilasciati con la nuova esperienza di commento beta per altri oggetti Workfront.
 
-Per ulteriori dettagli, consulta [Nuova attività di rilascio della versione beta per i commenti](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Per ulteriori dettagli, consulta [Nuova attività di rilascio esperienza di commento](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
