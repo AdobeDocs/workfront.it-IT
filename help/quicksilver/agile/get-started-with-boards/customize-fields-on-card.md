@@ -2,31 +2,33 @@
 product-area: agile-and-teams
 navigation-topic: customize-fields-on-card
 title: Personalizzare i campi visualizzati su una scheda
-description: È possibile personalizzare i campi che vengono visualizzati su una scheda disattivando un campo in modo che non venga visualizzato nella vista a schede intere o a schede condensate oppure nascondendo un campo nella vista a schede condensate.
+description: È possibile personalizzare i campi visualizzati su una scheda disattivando un campo in modo che non venga visualizzato nella visualizzazione a schede complete o ridotta oppure nascondendo un campo nella visualizzazione a schede ridotta.
 author: Lisa
 feature: Agile
-source-git-commit: 48dc1bcbaa5755888c45fdafbd6471c9ee073a45
+exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
+source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-
 # Personalizzare i campi visualizzati su una scheda
 
-Per impostazione predefinita, tutti i campi disponibili vengono visualizzati su una scheda, sia nella vista completa all&#39;apertura della scheda, sia nella vista a schede condensate sulla bacheca. Puoi personalizzare i campi visualizzati:
+Per impostazione predefinita, tutti i campi disponibili vengono visualizzati su una scheda, sia nella visualizzazione completa quando la scheda è aperta, sia nella visualizzazione ridotta sulla scheda. Puoi personalizzare i campi visualizzati in base a:
 
 * Disabilitazione di un campo in modo che non venga visualizzato in nessuna delle due visualizzazioni
-* Nascondere un campo nella vista a schede condensate
+* Nascondere un campo nella visualizzazione scheda ridotta
 
-Se un campo contiene un valore e si disabilita il campo, il valore viene mantenuto se si riattiva il campo in un secondo momento.
+Se un campo contiene un valore e si disattiva il campo, il valore viene mantenuto se si riattiva il campo in un secondo momento.
 
-È inoltre possibile visualizzare campi personalizzati creati in precedenza. Non potete progettare e creare nuovi campi personalizzati all&#39;interno di una bacheca.
+Puoi visualizzare e nascondere anche le sezioni (che vengono visualizzate come opzioni di navigazione a sinistra nei dettagli della scheda).
+
+Puoi anche visualizzare i campi personalizzati creati in precedenza. Non puoi progettare e creare nuovi campi personalizzati all’interno di una bacheca.
 
 >[!NOTE]
 >
->Qualsiasi personalizzazione di campo applicata solo alla bacheca in cui state lavorando.
+>Tutte le personalizzazioni dei campi apportate vengono applicate solo alla bacheca in cui stai lavorando.
 
 ## Requisiti di accesso
 
@@ -44,54 +46,53 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
   </tr>
    </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
 ## Configurare le schede {#configure-cards}
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Accedete a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Fai clic su [!UICONTROL **Configura**] sulla destra della bacheca per aprire il pannello Configura .
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
+1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
+1. Clic [!UICONTROL **Configura**] sulla destra della bacheca per aprire il pannello Configura.
 1. Espandi [!UICONTROL **Schede**].
 
-   La maggior parte dei campi è abilitata per impostazione predefinita.
+   La maggior parte dei campi e delle sezioni è attivata per impostazione predefinita.
 
-1. Disattiva un campo per disattivarlo in entrambe le viste a schede.
-1. Fai clic sull’icona Nascondi ![Icona Nascondi](assets/eye-hide-icon.png) accanto a un campo per nasconderlo nella vista a condensa.
-1. Per visualizzare tutti i campi in entrambe le viste, fai clic su [!UICONTROL **Ripristina tutti i campi predefiniti**].
-1. Fai clic su [!UICONTROL **Nascondi configurazione**] per chiudere il pannello Configura .
+1. Disattiva un campo o una sezione per disattivarla in entrambe le visualizzazioni a schede.
+1. Fai clic sull’icona Nascondi ![Nascondi icona](assets/eye-hide-icon.png) accanto a un campo o a una sezione per nasconderlo nella visualizzazione ridotta.
+1. Per visualizzare tutti i campi e le sezioni in entrambe le visualizzazioni, fare clic su [!UICONTROL **Ripristina tutti i campi ai valori predefiniti**].
+1. Clic [!UICONTROL **Nascondi configurazione**] per chiudere il pannello Configura.
 
-## Aggiungi campi personalizzati alle schede
+## Aggiungere campi personalizzati alle schede
 
-I campi personalizzati sono disponibili sulle schede collegate. Sono visibili solo nella vista a schede intere, non nella vista a condensa sulla bacheca.
+I campi personalizzati sono disponibili sulle schede collegate. Sono visibili solo nella vista a schede completa, non nella vista a condensa sulla bacheca.
 
 >[!NOTE]
 >
->Quando aggiungi un campo personalizzato alle schede, i dati della scheda sono di sola lettura.
+>Quando aggiungi un campo personalizzato alle schede, i dati sulla scheda sono di sola lettura.
 
-1. Accedere a una bacheca e fare clic su [!UICONTROL **Configura**] per aprire il pannello Configura .
+1. Accedi a una bacheca e fai clic su [!UICONTROL **Configura**] per aprire il pannello Configura.
 1. Espandi [!UICONTROL **Schede**].
 1. Sotto [!UICONTROL Campi scheda], fai clic su [!UICONTROL **Aggiungi campo personalizzato**].
 1. Seleziona [!UICONTROL **Attività**] o [!UICONTROL **Problema**].
 
-   Vengono visualizzate le categorie di campi disponibili per le attività o i problemi. Espandi una categoria per visualizzare tutti i campi. È inoltre possibile cercare un campo.
+   Vengono visualizzate le categorie dei campi disponibili per le attività o i problemi. Espandere una categoria per visualizzare tutti i campi. È inoltre possibile cercare un campo.
 
    ![Cerca campo personalizzato](assets/boards-search-for-custom-field.png)
 
    >[!NOTE]
    >
-   >I seguenti tipi di campi non sono disponibili per l’aggiunta alle schede: Adobe XD, Immagine, PDF, Video.
+   >Non sono disponibili i seguenti tipi di campo da aggiungere alle schede: Adobe XD, Immagine, PDF, Video.
 
 1. Selezionare il nome del campo.
-1. (Facoltativo) Fai clic su nella **[!UICONTROL Valore campo]** per modificare questo campo personalizzato in un altro campo.
-1. (Facoltativo) Modificare il **[!UICONTROL Etichetta campo]** al nome del campo che si desidera visualizzare sulle schede.
-1. Al termine dell&#39;operazione, fai clic su [!UICONTROL **Campo Salva**].
+1. (Facoltativo) Fai clic su nella **[!UICONTROL Valore campo]** per cambiare il campo personalizzato.
+1. (Facoltativo) Modifica il **[!UICONTROL Etichetta campo]** al nome del campo che si desidera visualizzare sulle schede.
+1. Una volta apportate le modifiche desiderate, fare clic su [!UICONTROL **Salva campo**].
 
-   ![Valore campo personalizzato e etichetta](assets/save-custom-field-value-label.png)
+   ![Valore campo personalizzato ed etichetta](assets/save-custom-field-value-label.png)
 
-   Il campo personalizzato viene aggiunto all’elenco dei campi disponibili ed è abilitato per impostazione predefinita. Puoi disattivare il campo personalizzato seguendo i passaggi descritti nella sezione [Configurare le schede](customize-fields-on-card.md#configure-cards) sezione precedente, modificare il campo o eliminarlo da tutte le schede.
-
+   Il campo personalizzato viene aggiunto all’elenco dei campi disponibili ed è abilitato per impostazione predefinita. Puoi disattivare il campo personalizzato seguendo la procedura descritta nella sezione [Configurare le schede](customize-fields-on-card.md#configure-cards) , modificare il campo o eliminarlo da tutte le schede.
