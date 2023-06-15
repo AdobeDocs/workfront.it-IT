@@ -5,7 +5,7 @@ title: Approvare un documento
 description: Se si è assegnati come approvatori a un documento, è possibile prendere una decisione in diversi modi.
 author: Nolan
 feature: Work Management
-source-git-commit: 369a8564f44524d1abed57553435ce69c7c5e170
+source-git-commit: 967e599376714c600d4c920582938a90d8399dc0
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 0%
@@ -64,7 +64,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](../assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
 
-
 1. Clic **Filtri** in alto a sinistra nella pagina e assicurati che **Approvazioni** è selezionato.
 
    Nell&#39;elenco vengono visualizzati tutti gli elementi di lavoro che richiedono l&#39;approvazione.
@@ -82,6 +81,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       * **Approva** indica che non sono necessarie modifiche per questa versione del documento e che viene concessa l&#39;approvazione.
 
       * **Approva con modifiche** indica che nel documento sono ancora necessarie alcune piccole modifiche, ma l&#39;approvazione viene concessa a condizione che tali modifiche vengano apportate. Se si seleziona questa opzione, verrà visualizzata una finestra contenente una casella di testo denominata **Passaggi successivi** dove è possibile specificare le modifiche necessarie per approvare il documento. Immettere tali informazioni e fare clic su **Aggiungi messaggio** oppure puoi fare clic su **Ignora** inviare la decisione di approvazione senza ulteriori informazioni.
+
    * **Necessità di lavoro** indica che la versione del documento non è approvata e richiede modifiche significative.
 
    Quando visualizzi le approvazioni dei documenti nella Home, tieni presente quanto segue:
@@ -90,8 +90,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * Dopo aver preso una decisione su un’approvazione, l’approvazione rimane nella scheda Approvazioni personali con il testo &quot;Presa di decisione&quot; fino a quando non fai clic su **Aggiorna** o fino all&#39;aggiornamento della pagina del browser.
 
-
-
 ## Approvare un documento dalla pagina del documento
 
 1. Passare alla pagina del documento facendo clic sul nome del documento.
@@ -99,8 +97,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Selezionare la versione del documento in attesa di approvazione nel menu a discesa versione accanto al nome del documento. Per impostazione predefinita, viene selezionata la versione più recente.
 
    Se la versione attualmente selezionata del documento ha un&#39;approvazione in sospeso, i pulsanti di decisione di approvazione vengono visualizzati nell&#39;angolo in alto a destra della pagina. Se altre versioni del documento hanno approvazioni in sospeso, il menu a discesa della versione visualizza un punto rosso.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Fai clic su una delle due opzioni di approvazione seguenti nell’angolo in alto a destra della pagina:
@@ -110,8 +109,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       * **Approva** indica che non sono necessarie modifiche per questa versione del documento e che viene concessa l&#39;approvazione.
 
       * **Approva con modifiche** indica che nel documento sono ancora necessarie alcune piccole modifiche, ma l&#39;approvazione viene concessa a condizione che tali modifiche vengano apportate. Se si seleziona questa opzione, verrà visualizzata una finestra contenente una casella di testo denominata **Passaggi successivi** dove è possibile specificare le modifiche necessarie per approvare il documento. Immettere tali informazioni e fare clic su **Aggiungi messaggio** oppure puoi fare clic su **Ignora** inviare la decisione di approvazione senza ulteriori informazioni.
-   * **Necessità di lavoro** indica che la versione del documento non è approvata e richiede modifiche significative.
 
+   * **Necessità di lavoro** indica che la versione del documento non è approvata e richiede modifiche significative.
 
 ## Approvare un documento dal riquadro Riepilogo documento
 
@@ -122,8 +121,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Seleziona la versione del documento da rivedere nel menu a discesa della versione. Per impostazione predefinita, viene selezionata la versione più recente.
 
    Se la versione attualmente selezionata del documento ha un&#39;approvazione in sospeso, i pulsanti di decisione di approvazione vengono visualizzati nell&#39;angolo in alto a destra del riquadro Riepilogo documento. Se altre versioni del documento hanno approvazioni in sospeso, il menu a discesa della versione visualizza un punto rosso.
+
    <!--
-   ![](../assets/version-dropdown-red-dot.png)   
+   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Fare clic su una delle due opzioni di approvazione seguenti nell&#39;angolo superiore destro del riquadro Riepilogo documento:
@@ -133,4 +133,5 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       * **Approva** indica che non sono necessarie modifiche per questa versione del documento e che viene concessa l&#39;approvazione.
 
       * **Approva con modifiche** indica che nel documento sono ancora necessarie alcune piccole modifiche, ma l&#39;approvazione viene concessa a condizione che tali modifiche vengano apportate. Se si seleziona questa opzione, verrà visualizzata una finestra contenente una casella di testo denominata **Passaggi successivi** dove è possibile specificare le modifiche necessarie per approvare il documento. Immettere tali informazioni e fare clic su **Aggiungi messaggio** oppure puoi fare clic su **Ignora** inviare la decisione di approvazione senza ulteriori informazioni.
+
    * **Necessità di lavoro** indica che la versione del documento non è approvata e richiede modifiche significative.

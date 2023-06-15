@@ -6,9 +6,9 @@ title: Revisioni e approvazioni dei documenti
 description: Questa sezione contiene articoli sulle approvazioni di documenti in Adobe Workfront.
 author: Nolan
 feature: Work Management
-source-git-commit: 4593b63cbe6b2dc3ebffc57769f69bd7d31037a3
+source-git-commit: c36dda4894f04bc06d8d63455445484b3f3eeb7a
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '65'
 ht-degree: 0%
 
 ---
@@ -21,5 +21,6 @@ ht-degree: 0%
 
 Questa sezione contiene le sezioni seguenti:
 
+* [Panoramica delle approvazioni dei documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Gestire le approvazioni dei documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
 * [Rivedere e approvare i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
