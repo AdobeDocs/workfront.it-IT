@@ -2,29 +2,31 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Aggiungere una colonna di assunzione a una bacheca
-description: Facoltativamente, puoi aggiungere alla bacheca una colonna di assunzione che richiama automaticamente le attività e i problemi come schede collegate quando vengono aggiunti in Workfront, in base ai filtri definiti dall'utente.
+title: Aggiungere una colonna Acquisizione a una bacheca
+description: Facoltativamente, puoi aggiungere alla bacheca una colonna di acquisizione che richiama automaticamente le attività e i problemi come schede collegate quando vengono aggiunte in Workfront, in base ai filtri definiti.
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 47fb31980a73759806be8e0db8a2a9bc2d7e6fe4
+source-git-commit: 9b389a1d7116b15106d995fa1b08c09847aeb64d
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
 
-# Aggiungere una colonna di assunzione a una bacheca
+# Aggiungere una colonna Acquisizione a una bacheca
 
-Facoltativamente è possibile aggiungere una colonna di assunzione alla bacheca che estrae automaticamente le attività e i problemi come schede collegate quando vengono aggiunti in [!DNL Workfront], in base ai filtri definiti dall’utente. La colonna di assunzione può fungere da colonna backlog per un team Kanban, da posizione di assunzione per un team di assistenza per visualizzare i problemi man mano che vengono aggiunti a una coda di richiesta o per qualsiasi altro scopo necessario.
+Facoltativamente, puoi aggiungere alla bacheca una colonna di accettazione che richiama automaticamente le attività e i problemi come schede collegate quando vengono aggiunti in [!DNL Workfront], in base ai filtri definiti. La colonna Acquisizione può fungere da colonna di backlog per un team Kanban, da posizione di acquisizione per un team di supporto per visualizzare i problemi man mano che vengono aggiunti a una coda di richieste o per qualsiasi altro scopo.
 
-Su una bacheca è consentita una sola colonna di assunzione ed è sempre visualizzata come la colonna più a sinistra.
+È consentita una sola colonna di acquisizione su una bacheca, che viene sempre visualizzata come la colonna più a sinistra.
 
-La colonna di aspirazione non è disponibile su una scheda dinamica.
+La colonna Acquisizione non è disponibile su una bacheca dinamica.
 
-La colonna di assunzione è limitata a 300 attività e a 300 problemi. Sono ordinati in base alla priorità definita per gli elementi. Per informazioni sulla priorità, consulta [Aggiorna priorità attività](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) e [Aggiorna priorità del problema](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+La colonna Acquisizione non è disponibile nelle bacheche che fanno parte di un flusso di lavoro. Puoi invece impostare una colonna di backlog per richiamare le schede dall’elenco delle schede. Per informazioni sull’aggiunta di una colonna del backlog a una bacheca in un flusso di lavoro, consulta [Configurare il backlog in una bacheca del flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
-Per ulteriori informazioni sulle colonne, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Per informazioni sulle schede collegate, vedi [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+La colonna Assunzione è limitata a 300 attività e 300 problemi. Sono ordinati in base alla priorità definita sugli elementi. Per informazioni sulla priorità, consulta [Aggiorna priorità attività](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) e [Aggiorna la priorità del problema](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+
+Per ulteriori informazioni sulle colonne, consulta [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Per informazioni sulle schede collegate, vedere [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Requisiti di accesso
 
@@ -47,60 +49,60 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-## Creare una colonna di assunzione utilizzando filtri semplici
+## Creare una colonna di acquisizione utilizzando filtri semplici
 
 >[!NOTE]
 >
->I filtri semplici sono disponibili solo tramite la funzionalità opt-in iniziale per le schede Adobe Workfront.
+>I filtri semplici sono disponibili solo tramite la funzionalità opt-in anticipato per le schede madri Adobe Workfront.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **[!UICONTROL Schede]**.
-1. Accedete a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Fai clic su **[!UICONTROL Configura]** sulla destra della bacheca per aprire il pannello Configura .
-1. Espandi **[!UICONTROL Scheda]**.
-1. Attiva **[!UICONTROL Assorbimento dinamico di elementi a bordo]**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Schede]**.
+1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
+1. Clic **[!UICONTROL Configura]** sulla destra della bacheca per aprire il pannello Configura.
+1. Espandi **[!UICONTROL Scheda madre]**.
+1. Attiva **[!UICONTROL Acquisisci dinamicamente elementi nella bacheca]**.
 
-   ![Opzioni filtro semplici per le colonne di entrata](assets/intake-column-simple-filters.png)
+   ![Opzioni filtro semplice colonna acquisizione](assets/intake-column-simple-filters.png)
 
-   La colonna di assunzione viene aggiunta a sinistra della tavola. Rimane vuoto finché non vengono applicati filtri.
+   La colonna Acquisizione viene aggiunta a sinistra della bacheca. Rimane vuoto finché non vengono applicati dei filtri.
 
 1. (Facoltativo) Cerca e seleziona [!DNL Workfront] [!UICONTROL **Progetti**].
 1. (Facoltativo) Cerca e seleziona l’utente o il team [!UICONTROL **Assegnazioni**].
-1. Seleziona [!UICONTROL **Includi lavoro completato**] per visualizzare le attività e i problemi con uno stato Completo nella colonna di assunzione.
+1. Seleziona [!UICONTROL **Includi lavoro completato**] per visualizzare le attività e i problemi con stato Completato nella colonna Acquisizione.
 
    >[!NOTE]
    >
-   >Se questa opzione non è selezionata, quando le schede in altri stati sono contrassegnate come complete, verranno &quot;ritirate&quot; dalla bacheca e non verranno più visualizzate.
+   >Se questa opzione non è selezionata, quando le schede in altri stati sono contrassegnate come complete, esse &quot;cadono&quot; dalla bacheca e non vengono più visualizzate.
 
-1. Fai clic su [!UICONTROL **Applica**].
+1. Clic [!UICONTROL **Applica**].
 
-   Tutti gli oggetti vengono visualizzati nella colonna di immissione della bacheca come schede collegate.
+   Tutti gli oggetti vengono visualizzati nella colonna di acquisizione della bacheca come schede collegate.
 
    ![Colonna acquisizione](assets/intake-column-added3.png)
 
-## Creare una colonna di input utilizzando filtri avanzati
+## Creare una colonna di acquisizione utilizzando filtri avanzati
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **[!UICONTROL Schede]**.
-1. Accedete a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Fai clic su **[!UICONTROL Configura]** sulla destra della bacheca per aprire il pannello Configura .
-1. Espandi **[!UICONTROL Scheda]**.
-1. Attiva **[!UICONTROL Assorbimento dinamico di elementi a bordo]**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Schede]**.
+1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
+1. Clic **[!UICONTROL Configura]** sulla destra della bacheca per aprire il pannello Configura.
+1. Espandi **[!UICONTROL Scheda madre]**.
+1. Attiva **[!UICONTROL Acquisisci dinamicamente elementi nella bacheca]**.
 
-   La colonna di assunzione viene aggiunta a sinistra della tavola. Rimane vuoto finché non vengono applicati filtri.
+   La colonna Acquisizione viene aggiunta a sinistra della bacheca. Rimane vuoto finché non vengono applicati dei filtri.
 
-1. Fai clic su [!UICONTROL **Utilizzare filtri avanzati**].
-1. Fai clic su **[!UICONTROL Aggiungi origini filtro]** e seleziona **[!UICONTROL Attività]** o **[!UICONTROL Problemi]**.
+1. Clic [!UICONTROL **Utilizzare filtri avanzati**].
+1. Clic **[!UICONTROL Aggiungi origini filtro]** e seleziona **[!UICONTROL Attività]** o **[!UICONTROL Problemi]**.
 
-   ![Opzioni filtro avanzate della colonna di input](assets/intake-column-advanced-filters1.png)
+   ![Opzioni filtro avanzate colonna acquisizione](assets/intake-column-advanced-filters1.png)
 
    >[!NOTE]
    >
-   >È possibile filtrare la colonna di assunzione per includere sia le attività che i problemi, ma è necessario impostare i filtri separatamente per ciascun tipo di oggetto.
+   >È possibile filtrare la colonna Acquisizione in modo da includere sia attività che problemi, ma è necessario impostare i filtri separatamente per ogni tipo di oggetto.
    >
-   >Sono inoltre disponibili filtri salvati e filtri predefiniti di sistema da selezionare.
+   >Inoltre, i filtri salvati e i filtri predefiniti di sistema sono disponibili per la selezione.
 
-1. Nel pannello del filtro, fai clic su **[!UICONTROL Nuovo filtro]** per iniziare.
+1. Nel pannello dei filtri, fai clic su **[!UICONTROL Nuovo filtro]** per iniziare.
 
    ![Fai clic su Nuovo filtro](assets/intake-filter-dialog5.png)
 
@@ -108,44 +110,44 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![Generatore di filtri](assets/intake-filter-dialog6.png)
 
-   Questo esempio mostra un filtro per le attività di un progetto specifico che si trovano nello stato di [!UICONTROL Nuovo] o [!UICONTROL In corso]e sono assegnati a me.
+   Questo esempio mostra un filtro per le attività di un progetto specifico che si trovano nello stato [!UICONTROL Nuovo] o [!UICONTROL In corso], e sono assegnati a me.
 
-   Per informazioni sulla creazione di un filtro, consulta la sezione &quot;Creare o modificare un filtro nel generatore standard&quot; nell’articolo [Creare o modificare i filtri in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Per informazioni dettagliate sulla creazione di un filtro, consulta la sezione &quot;Creare o modificare un filtro nel generatore di standard&quot; nell’articolo [Creare o modificare filtri in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Denomina il filtro e fai clic su **[!UICONTROL Salva]**.
 
-   ![Digitare un nome per il filtro](assets/intake-filter-dialog7.png)
+   ![Digita un nome per il filtro](assets/intake-filter-dialog7.png)
 
-   Assegnare al filtro un nome univoco ti consente di cercarlo in un secondo momento.
+   Assegnando al filtro un nome univoco è possibile cercarlo in un secondo momento.
 
-1. Il filtro viene visualizzato nell’elenco dei filtri salvati e viene applicato automaticamente alla colonna di assunzione. Fai clic sulla X nella parte superiore del pannello del filtro per chiuderlo.
+1. Il filtro viene visualizzato nell’elenco dei filtri salvati e viene applicato automaticamente alla colonna Acquisizione. Fai clic sulla X nella parte superiore del pannello del filtro per chiuderlo.
 
    ![Filtro salvato](assets/intake-filter-dialog8.png)
 
-1. (Facoltativo) Per condividere il filtro con altri utenti, passa il puntatore del mouse sul filtro salvato e fai clic sul pulsante **[!UICONTROL Altro]** menu ![Icona menu Altro](assets/more-icon-spectrum.png), quindi seleziona **[!UICONTROL Condividi]**. Scegli gli utenti o i team con cui condividere nella casella Condivisione filtro . Per ulteriori informazioni, consulta [Condividere un filtro, una visualizzazione o un raggruppamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-1. (Facoltativo) Per includere attività e problemi nella colonna di assunzione, fare clic su **[!UICONTROL Origini del filtro]** e selezionare l&#39;altro oggetto per creare un altro filtro.
-1. Al termine dell’aggiunta dei filtri, controlla la colonna di immissione per verificare che siano visualizzate le attività e i problemi corretti.
+1. (Facoltativo) Per condividere il filtro con altri, passa il cursore sul filtro salvato e fai clic sul pulsante **[!UICONTROL Altro]** menu ![Icona Altro menu](assets/more-icon-spectrum.png), e seleziona **[!UICONTROL Condividi]**. Scegliere gli utenti o i team con cui condividere i dati nella casella Condivisione filtro. Per ulteriori informazioni, consulta [Condividere un filtro, una visualizzazione o un raggruppamento](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+1. (Facoltativo) Per includere sia attività che problemi nella colonna Acquisizione, fai clic su **[!UICONTROL Filtra origini]** e selezionare l&#39;altro oggetto per creare un altro filtro.
+1. Dopo aver aggiunto i filtri, controlla la colonna Acquisizione per verificare che vengano visualizzate le attività e i problemi corretti.
 
    ![Colonna acquisizione](assets/intake-column-added3.png)
 
    >[!NOTE]
    >
-   >Per aggiornare i filtri in qualsiasi momento, apri il pannello Configura e fai clic su **[!UICONTROL Origini del filtro]** e selezionando **[!UICONTROL Attività]** o **[!UICONTROL Problemi]**.
+   >Per aggiornare i filtri in qualsiasi momento, apri il pannello Configura e fai clic su **[!UICONTROL Filtra origini]**, e selezione **[!UICONTROL Attività]** o **[!UICONTROL Problemi]**.
 
-## Utilizzare la colonna di assunzione
+## Utilizzare la colonna Acquisizione
 
-Le schede nella colonna di assunzione non sono modificabili finché non le si spostano in altre colonne della bacheca. Potete fare clic sulla scheda per aprirla in una visualizzazione di sola lettura oppure fare clic su ![Apri attività o problema](assets/boards-launch-icon.png) per aprire l’attività o il problema in una nuova scheda del browser.
+Le schede nella colonna Acquisizione non sono modificabili finché non vengono spostate in altre colonne della bacheca. Puoi fare clic sulla scheda per aprirla in una visualizzazione di sola lettura, oppure fai clic su ![Apri attività o problema](assets/boards-launch-icon.png) per aprire l’attività o il problema in una nuova scheda del browser.
 
 
-Potete riordinare manualmente gli elementi nella colonna di assunzione.
+Puoi riordinare manualmente gli elementi nella colonna Acquisizione.
 
-Le icone in alto a destra della colonna di assunzione mostrano il numero di schede attualmente presenti nella colonna e il numero di filtri applicati.
+Le icone in alto a destra nella colonna Acquisizione mostrano quante schede ci sono attualmente nella colonna e quanti filtri vengono applicati.
 
-1. (Facoltativo) Per cercare un elemento nella colonna di assunzione, fare clic su ![Icona Ricerca](assets/search-icon.png) nella colonna .
-1. (Facoltativo) Per spostare una scheda dalla colonna di assunzione in un&#39;altra colonna, trascinate la scheda nella posizione desiderata.
+1. (Facoltativo) Per cercare un elemento nella colonna Acquisizione, fai clic su ![Icona Ricerca](assets/search-icon.png) nella colonna.
+1. (Facoltativo) Per spostare una scheda dalla colonna Acquisizione a un’altra colonna, trascina e rilascia la scheda nella posizione in cui desideri che venga visualizzata.
 
    Oppure
 
-   Fai clic sul pulsante **[!UICONTROL Altro]** menu ![Icona menu Altro](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Sposta]**. Quindi, sul **[!UICONTROL Sposta elemento]** scegliere un&#39;altra colonna e selezionare **[!UICONTROL Sposta]**.
+   Fai clic su **[!UICONTROL Altro]** menu ![Icona Altro menu](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Sposta]**. Quindi, nella **[!UICONTROL Sposta elemento]** , scegliere un&#39;altra colonna e selezionare **[!UICONTROL Sposta]**.
 
-1. (Facoltativo) Per eliminare la colonna di assunzione, fare clic sul pulsante **[!UICONTROL Altro]** menu ![Icona menu Altro](assets/more-icon-spectrum.png) e seleziona **[!UICONTROL Elimina]**.
+1. (Facoltativo) Per eliminare la colonna Acquisizione, fai clic sul pulsante **[!UICONTROL Altro]** menu ![Icona Altro menu](assets/more-icon-spectrum.png) e seleziona **[!UICONTROL Elimina]**.
