@@ -6,9 +6,9 @@ description: Rivedi l’attività di rilascio settimanale per la nuova esperienz
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1203'
 ht-degree: 4%
 
 ---
@@ -44,10 +44,9 @@ Di seguito è riportata una timeline pianificata per il rilascio della nuova esp
    * Nuova esperienza di inserimento di commenti per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza)
 * Con la versione 23.4 (inizio di ottobre 2023)
    * Nuova esperienza di inserimento di commenti per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza)
-  <!--wait for Ani to confirm this after June 19, 2023: * Add the new commenting experience to Home and the Summary panel. -->
+  <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
 * Fine del 2023:
-   * Rimuovi l’esperienza legacy dagli oggetti che la contengono ancora.
-   * I seguenti oggetti hanno la nuova esperienza di aggiunta di commenti come unica esperienza: progetti, attività, problemi, storie, documenti, modelli, attività modello, programmi, portfolio, team, utenti e schede orario, obiettivi, schede.
+   * I seguenti oggetti hanno come impostazione predefinita la nuova esperienza di aggiunta di commenti: progetti, attività, problemi, storie, documenti, modelli, attività modello, programmi, portfolio, team, utenti e schede orario, obiettivi, schede. L’esperienza di commento legacy rimarrà come opzione.
 
   >[!NOTE]
   >
