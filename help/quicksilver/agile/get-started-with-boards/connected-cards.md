@@ -6,16 +6,14 @@ description: È possibile aggiungere alla bacheca una scheda connessa alle attiv
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 4b006b18b0532d3162be2361807962986d5e2e1b
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
 
 # Utilizzare le schede collegate sulle bacheche
-
-{{highlighted-preview}}
 
 È possibile aggiungere alla bacheca una scheda connessa alle attività e ai problemi esistenti in [!DNL Workfront].
 
@@ -146,13 +144,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td>Consulta "Registrare le ore su una scheda collegata", di seguito.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Commenti]</strong></span> </td>
-      <td><span class="preview"><p>Fai clic su nella <strong>[!UICONTROL Nuovo commento]</strong> e digita il commento. Utilizzare gli strumenti di formattazione per formattare il testo e fare clic su <strong>Aggiungi allegato</strong> icona <img src="assets/attachment-icon.png" alt="Icona dell’allegato"> per allegare un file al commento. Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca. Gli utenti taggati sulle schede collegate riceveranno notifiche e-mail.</p><p>Clic <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
-      <p><strong>NOTA:</strong> L’area di commento sulle schede utilizza la nuova esperienza di commento di Adobe Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nuova esperienza di commento</a>.</p></span></td>
+      <td role="rowheader"><strong>[!UICONTROL Commenti]</strong></td>
+      <td><p>Fai clic su nella <strong>[!UICONTROL Nuovo commento]</strong> e digita il commento. Utilizzare gli strumenti di formattazione per formattare il testo e fare clic su <strong>Aggiungi allegato</strong> icona <img src="assets/attachment-icon.png" alt="Icona dell’allegato"> per allegare un file al commento. Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca. Gli utenti taggati sulle schede collegate riceveranno notifiche e-mail.</p><p>Clic <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
+      <p><strong>NOTA:</strong> L’area di commento sulle schede utilizza la nuova esperienza di commento di Adobe Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiorna lavoro</a>.</p><p><strong>NOTA:</strong> I commenti sulle schede sono disponibili solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.</p></td>
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Attività di sistema]</strong></span> </td> 
-      <td><span class="preview"><p>Se è stato <strong>Attività di sistema</strong> abilitata come sezione scheda, l’attività viene visualizzata in quest’area.</p> <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizzare i campi visualizzati su una scheda</a> e <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Aggiornamenti monitorati dal sistema</a>.</p></span></td>
+      <td role="rowheader"><strong>[!UICONTROL Attività di sistema]</strong></td> 
+      <td><p>Se è stato <strong>Attività di sistema</strong> abilitata come sezione scheda, l’attività viene visualizzata in quest’area.</p> <p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Personalizzare i campi visualizzati su una scheda</a> e <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md">Aggiornamenti monitorati dal sistema</a>.</p><p><strong>NOTA:</strong> L’attività del sistema è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.</p></td>
      </tr>     
     </tbody> 
    </table>

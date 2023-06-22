@@ -6,16 +6,14 @@ description: Puoi aggiungere rapidamente una scheda ad hoc a una bacheca e asseg
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
 
 # Aggiungere una scheda ad hoc a una bacheca
-
-{{highlighted-preview}}
 
 Puoi aggiungere rapidamente una scheda a una bacheca e assegnarla a un membro della bacheca. La scheda può rappresentare un’attività, un problema, una persona, un gruppo o qualsiasi tipo di elemento che desideri includere nella bacheca.
 
@@ -100,18 +98,18 @@ Una scheda ad hoc non è collegata a un elemento di lavoro in [!DNL Adobe Workfr
       <td> <p>Clic <strong>[!UICONTROL Aggiungi voce elenco di controllo]</strong>. Digitare quindi il titolo dell'elemento e premere Invio. Un altro elemento viene aggiunto automaticamente. Continua a inserire i titoli per aggiungere altri elementi.</p> <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell’elenco di controllo, consulta <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestire le voci dell’elenco di controllo sulle schede</a>.</p> </td> 
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Commenti]</strong></span> </td>
-      <td><span class="preview"><p>Fai clic su nella <strong>[!UICONTROL Nuovo commento]</strong> e digita il commento. Utilizzare gli strumenti di formattazione per formattare il testo e fare clic su <strong>Aggiungi allegato</strong> icona <img src="assets/attachment-icon.png" alt="Icona dell’allegato"> per allegare un file al commento. Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca.</p><p><strong>NOTA:</strong> Al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
+      <td role="rowheader"><strong>[!UICONTROL Commenti]</strong></td>
+      <td><p>Fai clic su nella <strong>[!UICONTROL Nuovo commento]</strong> e digita il commento. Utilizzare gli strumenti di formattazione per formattare il testo e fare clic su <strong>Aggiungi allegato</strong> icona <img src="assets/attachment-icon.png" alt="Icona dell’allegato"> per allegare un file al commento. Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca.</p><p><strong>NOTA:</strong> Al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
       </p><p>Clic <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
-      <p><strong>NOTA:</strong> L’area di commento sulle schede utilizza la nuova esperienza di commento di Adobe Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nuova esperienza di commento</a>.</p></span></td>
+      <p><strong>NOTA:</strong> L’area di commento sulle schede utilizza la nuova esperienza di commento di Adobe Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiorna lavoro</a>.</p><p><strong>NOTA:</strong> I commenti sulle schede sono disponibili solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Immagine di esempio nell’ambiente di produzione:
+   Immagine di esempio nell’ambiente di produzione quando non viene utilizzata la funzionalità opt-in anticipata:
    ![Dettagli scheda ad hoc](assets/boards-edit-ad-hoc-card-041723.png)
 
-   <span class="preview">Immagine di esempio nell’ambiente di anteprima:</span>
+   Immagine di esempio nell’ambiente di produzione quando è abilitata la funzione di opt-in anticipato:
    ![Dettagli scheda ad hoc](assets/ad-hoc-card-details-with-comments.png)
 
    Utilizza il pannello di navigazione a sinistra per spostarti tra le sezioni dei campi nei dettagli della scheda.
