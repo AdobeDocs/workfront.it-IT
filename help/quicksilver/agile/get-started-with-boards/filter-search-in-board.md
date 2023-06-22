@@ -2,33 +2,37 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Filtrare ed eseguire ricerche in una bacheca
-description: Potete filtrare una bacheca per visualizzare solo alcune schede.
+description: Puoi filtrare una bacheca per visualizzare solo determinate schede.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 4f59548cc539adced6af6795517dd7d7c0965e6d
+source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
 
 # Filtrare ed eseguire ricerche in una bacheca
 
-Potete filtrare una bacheca per visualizzarla:
+{{highlighted-preview}}
 
-* Carte assegnate a determinate persone
-* Schede con alcuni tag
+Puoi filtrare una bacheca per visualizzarla:
+
+* Schede assegnate a determinate persone
+* Schede con determinati tag
 * Schede con uno stato specifico
-* Carte scadute in un certo arco di tempo
-* Carte archiviate
-* Schede collegate a un progetto specifico
+* Schede in scadenza in un determinato intervallo di tempo
+* Schede archiviate
+* Schede connesse a un progetto specifico
+
+<span class="preview">L’ordinamento della bacheca ordina tutte le schede nelle colonne. Non è possibile ordinare una singola colonna e la colonna backlog o acquisizione non è ordinata.</span>
 
 La ricerca consente inoltre di individuare una scheda specifica sulla bacheca.
 
-Quando vengono applicati filtri, sulla bacheca viene visualizzato un indicatore ![Filtro applicato a bordo](assets/boards-filterapplied-30x30.png). Fai clic su **[!UICONTROL Cancella tutto]** per rimuovere tutti i filtri dalla bacheca, quindi fate clic su **[!UICONTROL Nascondi filtri]** per chiudere il pannello del filtro.
+Quando vengono applicati filtri, sulla scheda viene visualizzato un indicatore ![Filtro applicato alla bacheca](assets/boards-filterapplied-30x30.png). Clic **[!UICONTROL Cancella tutto]** per rimuovere tutti i filtri dalla bacheca, quindi fai clic su **[!UICONTROL Nascondi filtri]** per chiudere il pannello dei filtri.
 
-![Pannello filtro](assets/boards-all-filters-collapsed-1022.png)
+![Pannello Filtro](assets/boards-all-filters-collapsed-1022.png)
 
 ## Requisiti di accesso
 
@@ -44,75 +48,98 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
 ## Filtrare una bacheca per assegnatari
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Accedete a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
-1. Fai clic su [!UICONTROL **Filtro**], espandi [!UICONTROL Membri] e selezionare la persona o le persone di cui si desidera visualizzare le carte. È inoltre possibile visualizzare le schede non assegnate.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
+1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
+1. Clic [!UICONTROL **Filtro**], espandi [!UICONTROL Membri] e selezionare la persona o le persone di cui si desidera visualizzare le schede. Puoi anche visualizzare le schede non assegnate.
 
    ![Filtra per membro](assets/boards-filter-by-assignees-0822.png)
 
 ## Filtrare una bacheca per tag
 
-1. Accedete alla bacheca.
-1. Fai clic su [!UICONTROL **Filtro**], espandi [!UICONTROL Tag] e selezionare i tag da visualizzare.
+1. Accedi alla bacheca.
+1. Clic [!UICONTROL **Filtro**], espandi [!UICONTROL Tag] e selezionare i tag che si desidera visualizzare.
 
-   ![Filtrare per tag](assets/boards-filter-by-tags-0822.png)
+   ![Filtra per tag](assets/boards-filter-by-tags-0822.png)
 
 ## Filtrare una bacheca per stato
 
-1. Accedete alla bacheca.
-1. Fai clic su [!UICONTROL **Filtro**], espandi [!UICONTROL Stati] e selezionare i tipi di stato che si desidera visualizzare.
+1. Accedi alla bacheca.
+1. Clic [!UICONTROL **Filtro**], espandi [!UICONTROL Stati] e selezionare i tipi di stato da visualizzare.
 
-   È inoltre possibile nascondere le schede completate.
+   Puoi anche nascondere le schede completate.
 
    ![Filtra per stato](assets/boards-filter-by-status-0822.png)
 
 ## Filtrare una bacheca per data di scadenza
 
-1. Accedete alla bacheca.
-1. Fai clic su [!UICONTROL **Filtro**], espandi [!UICONTROL Data di scadenza] e selezionare le opzioni di data che si desidera visualizzare.
+1. Accedi alla bacheca.
+1. Clic [!UICONTROL **Filtro**], espandi [!UICONTROL Data di scadenza] e selezionare le opzioni di data desiderate.
 
    Vengono visualizzate solo le schede negli intervalli di date selezionati.
 
-   ![Filtra per data di scadenza](assets/boards-filter-by-due-date-0822.png)
+   ![Filtra per scadenza](assets/boards-filter-by-due-date-0822.png)
 
-## Filtrare una bacheca per visualizzare le schede archiviate
+## Filtrare una bacheca per mostrare le schede archiviate
 
-Per impostazione predefinita, solo le schede attive vengono visualizzate su una bacheca. Potete filtrare la bacheca per visualizzare anche le schede archiviate.
+Per impostazione predefinita, su una bacheca vengono visualizzate solo le schede attive. Puoi filtrare la bacheca per visualizzare anche eventuali schede archiviate.
 
-1. Accedete alla bacheca.
-1. Fai clic su [!UICONTROL **Filtro**], espandi [!UICONTROL Schede archiviate] e seleziona **[!UICONTROL Carte archiviate]** per visualizzare le schede archiviate.
+1. Accedi alla bacheca.
+1. Clic [!UICONTROL **Filtro**], espandi [!UICONTROL Schede archiviate] e seleziona **[!UICONTROL Schede archiviate]** per visualizzare le schede archiviate.
 
    Il filtro mostra il numero di schede archiviate.
 
-   ![Filtrare le schede archiviate](assets/boards-filter-by-archived-cards_0822.png)
+   ![Filtra schede archiviate](assets/boards-filter-by-archived-cards_0822.png)
 
-1. Seleziona **[!UICONTROL Carte archiviate]** per cancellare l&#39;opzione e visualizzare solo le schede attive.
+1. Seleziona **[!UICONTROL Schede archiviate]** per cancellare l&#39;opzione e visualizzare solo le schede attive.
 
-## Filtrare una bacheca in base alla connessione
+## Filtrare una bacheca per connessione
 
-1. Accedete alla bacheca.
-1. Fai clic su [!UICONTROL **Filtro**], espandi [!UICONTROL Connessione] e seleziona la sezione [!DNL Workfront] progetti per le schede collegate che si desidera visualizzare.
+1. Accedi alla bacheca.
+1. Clic [!UICONTROL **Filtro**], espandi [!UICONTROL Connessione] e seleziona la sezione [!DNL Workfront] progetti per le schede collegate che si desidera visualizzare.
 
    È inoltre possibile visualizzare schede non collegate a un progetto.
 
    ![Filtra per connessione](assets/boards-filter-by-connection.png)
 
-## Ricerca in una bacheca
+<div class="preview">
 
-1. Accedete alla bacheca.
-1. Fai clic su [!UICONTROL **Ricerca**] e digitare un termine di ricerca. Quindi, premere Invio.
+## Ordinare su una bacheca
 
-   Vengono visualizzate tutte le schede contenenti il termine di ricerca.
+Quando si seleziona un&#39;opzione in base alla quale eseguire l&#39;ordinamento, vengono ordinate tutte le colonne. Non è possibile ordinare una singola colonna e la colonna backlog o acquisizione non è ordinata.
 
-   Fai clic sulla X per cancellare la ricerca.
+1. Accedi alla bacheca.
+1. Clic [!UICONTROL **Ordina per**] e seleziona [!UICONTROL **Nome**], [!UICONTROL **Data di scadenza**], [!UICONTROL **Stima**], [!UICONTROL **Stato**], o [!UICONTROL **Connessione**].
 
-   ![Cercare schede in una bacheca](assets/boards-searchbox.png)
+   La connessione (nome progetto) si applica solo alle schede collegate e le altre opzioni ordinano le schede connesse e quelle ad hoc nelle colonne.
+
+   L’opzione &quot;user order&quot; (Ordine utente) riporta le schede nell’ordine in cui sono state impostate manualmente, prima che venissero applicate altre opzioni di ordinamento. Questo è l’ordinamento predefinito per le colonne.
+
+1. Seleziona [!UICONTROL **Ordine inverso**] per ordinare le colonne in ordine inverso rispetto all&#39;opzione di ordinamento.
+
+   La freccia sull&#39;icona di ordinamento indica se le colonne sono in ordine crescente o decrescente.
+
+   Quando viene applicato un ordinamento diverso da quello predefinito, sull’icona di ordinamento viene visualizzato un indicatore ![Ordinamento applicato](assets/sort-applied-boards.png).
+
+   ![Ordinare per colonne su una bacheca](assets/sort-by-columns-in-board.png)
+
+</div>
+
+## Cerca in una bacheca
+
+1. Accedi alla bacheca.
+1. Clic [!UICONTROL **Ricerca**] e digita un termine di ricerca. Quindi premere Invio.
+
+   Vengono visualizzate tutte le schede che contengono il termine di ricerca.
+
+   Fare clic sulla X per annullare la ricerca.
+
+   ![Cercare le schede in una bacheca](assets/boards-searchbox.png)
