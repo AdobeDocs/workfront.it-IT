@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1076'
 ht-degree: 4%
 
 ---
@@ -79,7 +79,7 @@ Viene visualizzata la sezione Aggiornamenti per i seguenti oggetti:
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Storie</li> 
+     <li>Storie*</li> 
      <li>Attività</li> 
      <li>Modelli</li> 
      <li>Attività modello</li> 
@@ -89,10 +89,13 @@ Viene visualizzata la sezione Aggiornamenti per i seguenti oggetti:
   </tr> 
  </tbody> 
 </table>
+*Le storie sono attività. Tutte le informazioni relative alle attività sono disponibili anche per gli articoli.
 
 ### Panoramica della sezione Aggiornamenti nell’esperienza di commento Beta
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
+
+Per informazioni sulle funzioni disponibili per la nuova esperienza di commento e per gli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 La sezione Aggiornamenti visualizza le informazioni nelle schede seguenti nella nuova esperienza di commento:
 
@@ -109,7 +112,7 @@ Al momento, è possibile aggiungere commenti e rispondere agli aggiornamenti uti
    <td> 
     <ul> 
      <li><p>Obiettivi</p>
-     <li><span class="preview">Schede nell’area Schede</span></li>
+     <li><span class="preview">Schede nell'area Schede*</span></li>
       Questa è l’unica esperienza per gli obiettivi <span class="preview">e schede</span>.
      </li> 
      <li><span class="preview">Progetti</span></li>
@@ -124,10 +127,7 @@ Al momento, è possibile aggiungere commenti e rispondere agli aggiornamenti uti
  </tbody> 
 </table>
 
-
->[!NOTE]
->
->È possibile aggiungere e visualizzare aggiornamenti alle schede nelle aree Bacheca quando si abilitano le sezioni Commenti e Attività di sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
+*È possibile aggiungere e visualizzare gli aggiornamenti alle schede nelle aree della bacheca quando si abilitano le sezioni Commenti e Attività del sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Aggiornamenti visualizzati anche su oggetti di livello superiore
 

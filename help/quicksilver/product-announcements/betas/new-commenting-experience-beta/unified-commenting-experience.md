@@ -6,9 +6,9 @@ description: È attualmente in fase di sviluppo un aggiornamento dell’esperien
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '620'
 ht-degree: 1%
 
 ---
@@ -425,7 +425,7 @@ La nuova esperienza di aggiunta di commenti è attualmente supportata per i segu
 
 * Quando si abilita l’esperienza Beta nella sezione Aggiornamenti:
 
-   * Problemi, <span class="preview">progetti, attività, storie e documenti</span>
+   * Problemi, <span class="preview">progetti, attività e documenti</span>
 
   Per ulteriori informazioni sulla gestione degli aggiornamenti per gli oggetti Workfront, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

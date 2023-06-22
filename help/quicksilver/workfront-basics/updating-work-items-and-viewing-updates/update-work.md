@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: c73a63901523d99704f63f2e589b5a333619a19e
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '3373'
+source-wordcount: '3413'
 ht-degree: 1%
 
 ---
@@ -188,6 +188,8 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 1. Per rispondere a un aggiornamento, vedi [Rispondi agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ### Aggiungere un aggiornamento a un elemento di lavoro utilizzando l’esperienza beta per i commenti
+
+Per informazioni sulle funzioni disponibili per la nuova esperienza di commento e per gli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Individuare l&#39;oggetto che si desidera aggiornare, quindi fare clic sul relativo nome per aprire la pagina dell&#39;oggetto.
 1. Clic  **Aggiornamenti** nel pannello a sinistra.
@@ -388,6 +390,8 @@ Questa opzione consente di copiare negli Appunti un collegamento di aggiornament
 
 
 ### Copiare un aggiornamento nella nuova esperienza di commento
+
+Per informazioni sulle funzioni disponibili per la nuova esperienza di commento e per gli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 <!--when we remove and deprecate the legacy stream, add screen shots in the secitons below-->
 

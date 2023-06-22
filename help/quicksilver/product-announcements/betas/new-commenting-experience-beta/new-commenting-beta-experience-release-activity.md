@@ -6,9 +6,9 @@ description: Rivedi l’attività di rilascio settimanale per la nuova esperienz
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 26e2a8ed6b0c6c1e4b51fc27b385b9753072faf9
+source-git-commit: 4e278a2418537fba0d8f2b8462571e4c843324a7
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1205'
 ht-degree: 4%
 
 ---
@@ -37,26 +37,70 @@ Di seguito è riportata una timeline pianificata per il rilascio della nuova esp
    * Esperienza di commento beta per i problemi
    * Nuova esperienza di commento per gli obiettivi (come unica esperienza)
 * Con la versione 23.3 (20 luglio 2023):
-   * Commento di Experience Beta per progetti, attività, storie e documenti.
-   * L’opzione predefinita è la funzione Commento di Experience Beta per progetti, attività, problemi, storie e documenti.
+   * Commento di Experience Beta per progetti, attività e documenti.
    * Nuova esperienza di commento per le schede nell’area Schede (come unica esperienza)
-* Durante la versione 23.4 (data non ancora annunciata) (versione limitata)<!--, only available to Fast Track customers-->):
+* Durante la versione 23.4 (data non ancora annunciata) (versione limitata)<!--, only available to customers that choose the fast release -->):
    * Nuova esperienza di inserimento di commenti per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza)
 * Con la versione 23.4 (inizio di ottobre 2023)
    * Nuova esperienza di inserimento di commenti per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza)
   <!--wait for Anna to confirm this after the teams are starting to work on this and will be closer to finish line; QBR is June 19, 2023, but wait until MUCH after this: * Add the new commenting experience to Home and the Summary panel. -->
+   * L’opzione predefinita è la funzione Commento di Experience Beta per progetti, attività, problemi e documenti.
 * Fine del 2023:
-   * I seguenti oggetti hanno come impostazione predefinita la nuova esperienza di aggiunta di commenti: progetti, attività, problemi, storie, documenti, modelli, attività modello, programmi, portfolio, team, utenti e schede orario, obiettivi, schede. L’esperienza di commento legacy rimarrà come opzione.
+   * L’esperienza di aggiunta di commenti legacy rimarrà un’opzione per i seguenti oggetti: progetti, attività, problemi e documenti.
+
+     Modelli, attività modello, programmi, portfolio, team, utenti e schede orario, obiettivi e schede hanno la nuova esperienza di commento come unica opzione.
 
   >[!NOTE]
   >
   >    Le iterazioni continueranno a presentare l’esperienza di commento legacy.
 
-Nella sezione seguente sono elencate le funzioni aggiunte dopo la versione originale, a partire da quelle rilasciate più di recente.
+La sezione seguente contiene un elenco di funzioni aggiunte dopo la versione originale, a partire da quelle rilasciate più di recente.
 
 ## Funzioni rilasciate
 
 Le informazioni seguenti si riferiscono all’attività di rilascio settimanale delle funzioni incluse nella nuova esperienza beta di commento. Nella pagina sono elencate le nuove funzioni aggiunte e i problemi risolti per la nuova esperienza di aggiunta di commenti.
+
+<!--
+### Week of June 19, 2023
+
+#### Quote comment content in a new reply 
+
+Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+Preview and Production: June 22, 2023 
+
+### Upcoming releases, after June 19, 2023
+
+<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
+
+The features described in this section are planned to release shortly after the week of June 19, 2023. 
+
+#### Add emojis to an update
+
+You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+
+For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+Preview: To be announced 
+
+Production: To be announced. Before the 23.3 release.
+
+#### New commenting experience for additional objects 
+
+The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+
+This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+
+For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
+
+Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+
+Production release for all customers: with the 23.4 release 
+-->
 
 ### Settimana del 12 giugno 2023
 

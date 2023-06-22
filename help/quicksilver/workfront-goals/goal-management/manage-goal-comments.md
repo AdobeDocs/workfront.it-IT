@@ -6,9 +6,9 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 7b64e27c441bdbd60884e8be3b2dbbf3b71134b6
+source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Puoi modificare il commento entro 15 minuti dall’invio. A sinistra dell&#39;in
         Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-icon.png) a destra di un commento, quindi fai clic su **Elimina** per eliminare un commento aggiunto. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 5-9 di cui sopra. <!--insure this stays accurate-->
+1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 5-9 di cui sopra. Per ulteriori informazioni sulla risposta agli aggiornamenti, consulta [Rispondi agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
 1. (Condizionale e facoltativo) Se altri utenti hanno aggiunto commenti visualizzati al di fuori dell’area visibile nella sezione Aggiornamenti, fai clic su **Visualizza** all&#39;interno del blu **banner nuovi commenti** nella parte inferiore dello schermo per visualizzare questi commenti.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
