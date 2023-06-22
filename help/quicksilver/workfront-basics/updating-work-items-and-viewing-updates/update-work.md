@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '3413'
+source-wordcount: '3416'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.</span>
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile per tutti i clienti solo nell’ambiente di anteprima.</span>
 
 >[!NOTE]
 >
@@ -36,9 +36,9 @@ ht-degree: 1%
 >     * Pannello Riepilogo negli elenchi
 >     * Pannello Riepilogo nelle schede orario
 >
-> * Obiettivi, <span class="preview">schede nell’area Schede</span>
+> * Obiettivi, carte nell’area Bacheche
 >
->   La nuova esperienza di commento è l’unica esperienza per gli obiettivi <span class="preview">e schede</span>. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nuova esperienza di commento è l’unica per obiettivi e carte. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >     È possibile aggiungere e visualizzare aggiornamenti alle schede nell&#39;area Bacheche quando si abilitano le sezioni Commenti e Attività di sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 

@@ -6,16 +6,16 @@ description: È attualmente in fase di sviluppo un aggiornamento dell’esperien
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '623'
 ht-degree: 1%
 
 ---
 
 # Nuova esperienza di commento
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.</span>
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile per tutti i clienti solo nell’ambiente di anteprima.</span>
 
 È attualmente in fase di sviluppo un aggiornamento dell’esperienza di aggiunta di commenti in Adobe Workfront. Questo aggiornamento include una nuova interfaccia, nuove funzioni e prestazioni migliorate nella sezione Aggiornamenti di alcuni oggetti selezionati.
 
@@ -432,7 +432,7 @@ La nuova esperienza di aggiunta di commenti è attualmente supportata per i segu
 
 * Per impostazione predefinita, come esperienza principale di commento:
 
-   * Obiettivi, <span class="preview">schede nell’area Schede</span>
+   * Obiettivi, carte nell’area Bacheche
 
   >[!NOTE]
   >

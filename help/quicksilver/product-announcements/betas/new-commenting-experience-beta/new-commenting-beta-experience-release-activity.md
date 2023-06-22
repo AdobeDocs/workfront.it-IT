@@ -6,10 +6,10 @@ description: Rivedi l’attività di rilascio settimanale per la nuova esperienz
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4e278a2418537fba0d8f2b8462571e4c843324a7
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 4%
+source-wordcount: '1411'
+ht-degree: 3%
 
 ---
 
@@ -60,47 +60,44 @@ La sezione seguente contiene un elenco di funzioni aggiunte dopo la versione ori
 
 Le informazioni seguenti si riferiscono all’attività di rilascio settimanale delle funzioni incluse nella nuova esperienza beta di commento. Nella pagina sono elencate le nuove funzioni aggiunte e i problemi risolti per la nuova esperienza di aggiunta di commenti.
 
-<!--
-### Week of June 19, 2023
 
-#### Quote comment content in a new reply 
+### Funzionalità rilasciate dopo il 19 giugno 2023
 
-Now, you have the ability to copy the content of a comment and add it as a new quote to a reply in the same thread when using the new commenting experience.  
+<!--restructure this section with actual weeks and dates, when we know them-->
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+Le funzioni elencate in questa sezione saranno rilasciate poco dopo la settimana del 19 giugno 2023.
 
-Preview and Production: June 22, 2023 
+#### Contenuto commento preventivo in una nuova risposta
 
-### Upcoming releases, after June 19, 2023
+Ora è possibile copiare il contenuto di un commento e aggiungerlo come nuova virgoletta a una risposta nello stesso thread quando si utilizza la nuova esperienza di commento.
 
-<!--*****************CLOSE THIS COMMENT: restructure this section with actual weeks and dates, when we know them--
+Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-The features described in this section are planned to release shortly after the week of June 19, 2023. 
+Anteprima e produzione: pianificata per il 29 giugno 2023
 
-#### Add emojis to an update
+#### Aggiungere emoji a un aggiornamento
 
-You can now add emojis to a comment using a Rich Text toolbar option in the new commenting experience. 
+È ora possibile aggiungere emoticon a un commento utilizzando un’opzione della barra degli strumenti Testo formattato nella nuova esperienza di commento.
 
-For more information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Preview: To be announced 
+Anteprima: Da annunciare (durante la versione 23.3)
 
-Production: To be announced. Before the 23.3 release.
+Produzione: da annunciare. Prima della versione 23.3.
 
-#### New commenting experience for additional objects 
+#### Nuova esperienza di commento per oggetti aggiuntivi
 
-The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
+La nuova esperienza di aggiunta di commenti sarà disponibile per i seguenti oggetti, poco dopo la versione 23.3 di in Produzione: attività modello, modelli, schede orario, team, utenti, programmi, portfolio.
 
-This will be the only commenting experience for these objects, as the legacy commenting experience is removed when you access them.  
+Questa sarà l’unica esperienza di commento per questi oggetti, poiché l’esperienza di commento legacy viene rimossa quando si accede a essi.
 
-For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Preview release: To be announced, after the 23.3 Production release (July 20, 2023)
+Versione di anteprima: da annunciare, dopo la versione di produzione 23.3 (20 luglio 2023)
 
-Production release for the Fast release customers: To be announced, after the 23.3 Production release  
+Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3
 
-Production release for all customers: with the 23.4 release 
--->
+Versione di produzione per tutti i clienti: con la versione 23.4
 
 ### Settimana del 12 giugno 2023
 

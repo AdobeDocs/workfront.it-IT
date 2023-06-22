@@ -6,7 +6,7 @@ description: Quando qualcuno aggiunge o risponde a un aggiornamento su un oggett
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -36,9 +36,9 @@ ht-degree: 0%
 >     * Pannello Riepilogo negli elenchi
 >     * Pannello Riepilogo nelle schede orario
 >
-> * Obiettivi, <span class="preview">schede nell’area Schede</span>
+> * Obiettivi, carte nell’area Bacheche
 >
->   La nuova esperienza di commento è l’unica esperienza per gli obiettivi <span class="preview">e schede</span>. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   La nuova esperienza di commento è l’unica per obiettivi e carte. È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 >
 >     È possibile aggiungere e visualizzare aggiornamenti alle schede nell&#39;area Bacheche quando si abilitano le sezioni Commenti e Attività di sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
