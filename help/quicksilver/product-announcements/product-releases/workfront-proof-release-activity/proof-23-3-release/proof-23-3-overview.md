@@ -7,9 +7,9 @@ description: Questa pagina fornisce informazioni sulla funzionalità Adobe Workf
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: ea47e5eae09b7acc9af70b46ecb70c4f8ffcbbea
+source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -34,10 +34,25 @@ Per un elenco di tutte le modifiche disponibili per tutte le aree di Workfront a
                         </p>
                     </td>
                 </tr>
-                </tr>
-                 <tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Modifica del supporto per le bozze di Microsoft Office</a><span style="color: #ff0000;"> Novità in produzione!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md" class="MCXref xref" xrefformat="{para}">Posticipare gli aggiornamenti per il visualizzatore bozze desktop</a> </p>
+                        <p>In base al feedback ricevuto dagli utenti, è stata aggiunta l’opzione per posticipare gli aggiornamenti di Desktop Proofing Viewer (Visualizzatore di bozze desktop). Ora gli utenti possono scegliere di posticipare un aggiornamento e continuare con il proprio lavoro, ma verrà ricordato che è disponibile un aggiornamento ogni volta che aprono il Visualizzatore bozze desktop.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: con la versione 23.3</p>
+                            </li>
+                            <li>
+                                <p>Versione di produzione: con la versione 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md" class="MCXref xref" xrefformat="{para}">Modifica del supporto per le bozze di Microsoft Office</a></p>
                         <p>Per mantenere una soluzione di elaborazione delle bozze solida e scalabile, stiamo modificando i tipi di file di Microsoft Office supportati e i limiti di dimensione dei file.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -50,7 +65,8 @@ Per un elenco di tutte le modifiche disponibili per tutte le aree di Workfront a
                             </li>
                         </ul>
                     </td>
-                </tr>                <tr>
+                </tr>                
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Aggiornamento visualizzatore bozze desktop</a></p>
                         <p>Il Visualizzatore bozze desktop è stato aggiornato alla versione 2.1.24. Questo aggiornamento include il supporto di Chrome v100 per la revisione delle bozze interattive e una serie di correzioni di problemi.</p>

@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: bb25e08bd81c6c5c2fa35fde7912e8607b894284
+source-git-commit: c75b418f02ea05905d712efe6fd608c8217ba310
 workflow-type: tm+mt
-source-wordcount: '13086'
+source-wordcount: '13071'
 ht-degree: 1%
 
 ---
@@ -20,15 +20,13 @@ ht-degree: 1%
       * [Prepararsi per una versione trimestrale di Adobe Workfront](product-announcements/product-releases/release-readiness.md)
       * Versione 23.3 {#release-23-3}
          * [Panoramica sulla versione 23.3](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
-         * [Attività di rilascio della versione 23.3: settimana del 10 aprile 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-10.md)
-         * [Attività di rilascio 23.3 settimana del 17 aprile 2023](product-announcements/product-releases/23.3-release-activity/23-3-apr-17.md)
-         * [Attività di rilascio della versione 23.3 il 24 aprile 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-apr-24.md)
-         * [Attività di rilascio della versione 23.3 per la settimana del 1° maggio 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-4.md)
-         * [Attività di rilascio della versione 23.3: settimana dell’8 maggio 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-10.md)
-         * [Attività di rilascio della versione 23.3: settimana del 15 maggio 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-15.md)
-         * [Attività di rilascio della versione 23.3: settimana del 29 maggio 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-may-29.md)
-         * [Attività di rilascio della versione 23.3: settimana del 5 giugno 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-5.md)
-         * [Attività di rilascio della versione 23.3: settimana del 12 giugno 2023](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-jun-12.md)
+         * [23.3 Miglioramenti per gli amministratori](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-admin-enhancements.md)
+         * [23.3 Miglioramenti di Agile](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md)
+         * [23.3 Miglioramenti dell’integrazione](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md)
+         * [23.3 Miglioramenti al progetto](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md)
+         * [23.3 Miglioramenti per dispositivi mobili](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md)
+         * [23.3 Altri miglioramenti](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md)
+         * [Aggiornamenti look and feel durante il periodo di rilascio della versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-look-and-feel-updates.md)
       * Versione 23.2 {#release-23-2}
          * [Panoramica sulla versione 23.2](product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md)
          * [23.2 Miglioramenti per gli amministratori](product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md)
@@ -215,6 +213,7 @@ ht-degree: 1%
       * Attività di rilascio di Workfront Proof {#proof-release}
          * Bozza con versione 23.3 {#proof-23-3-release}
             * [Bozza di Adobe Workfront con la versione 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
+            * [Attività di rilascio di Adobe Workfront Proof 23.3: settimana del 17 luglio 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Attività di rilascio di Adobe Workfront Proof 23.3: settimana del 5 giugno 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Attività di rilascio di Adobe Workfront Proof 23.3: settimana dell’8 maggio 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Attività rilascio bozza Workfront: settimana del 17 maggio 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
@@ -341,7 +340,7 @@ ht-degree: 1%
       * [Pianificazione delle funzioni non più supportate](product-announcements/announcements/feature-removal-timeline.md)
       * [Domande frequenti sulla finestra di manutenzione](product-announcements/announcements/maintenance-window-faq.md)
       * [Modifica necessaria per aggiungere bozze al inserisco nell&#39;elenco Consentiti di](product-announcements/announcements/proofhq-domain-change-workfront.md)
-      * [Annullare l’abbonamento ai messaggi del Centro notifiche nella nuova esperienza Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+      * [Annulla l’iscrizione ai messaggi del Centro notifiche nella nuova esperienza Adobe Workfront](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * Archivio notifiche {#announcement-archive}
          * [Archivio notifiche](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [App mobile aggiornata per iOS e Android (inizio agosto 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
