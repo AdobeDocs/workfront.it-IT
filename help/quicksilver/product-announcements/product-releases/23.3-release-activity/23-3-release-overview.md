@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2525'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ordina per colonne bacheca</a><span style="color: #ff0000;"> In arrivo!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ordina per colonne bacheca</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
                         <p>È stata aggiunta la possibilità di ordinare le schede nelle colonne di una bacheca. Quando si seleziona un'opzione in base alla quale eseguire l'ordinamento, vengono ordinate tutte le colonne. Non è possibile ordinare una singola colonna e la colonna backlog o acquisizione non è ordinata.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>

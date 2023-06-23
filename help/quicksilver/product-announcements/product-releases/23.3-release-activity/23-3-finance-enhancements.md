@@ -3,7 +3,7 @@ title: 23.3 Miglioramenti apportati alla gestione finanziaria
 description: 23.3 Miglioramenti apportati alla gestione finanziaria
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: 2644afeda2c839ff45c9ee2a89d79b429daed1f0
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -24,4 +24,4 @@ Inoltre, i set di ruoli con data di validità sono ora disponibili nel profilo u
 
 Una nuova funzione, denominata Tariffe, consente di definire più tariffe di fatturazione per mansione, in base alla posizione. Una tariffa di fatturazione per una mansione e un&#39;ubicazione può includere anche date di validità. È possibile allegare ai progetti schede di tariffa per applicare tutte le informazioni sulla tariffa in una sola volta per la mansione e la posizione specifiche. I ruoli basati sulla posizione possono essere assegnati anche alle attività con la possibilità di modificare le tariffe a livello di assegnazione.
 
-Tutte queste funzioni verranno rilasciate in anteprima a luglio 2023 e la documentazione utente aggiornata sarà disponibile in tale momento.
+Tutte queste funzioni verranno rilasciate in anteprima il 29 luglio 2023 e la documentazione utente aggiornata sarà disponibile in tale momento.
