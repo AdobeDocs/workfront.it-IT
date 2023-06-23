@@ -6,9 +6,9 @@ description: Rivedi l’attività di rilascio settimanale per la nuova esperienz
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1492'
 ht-degree: 3%
 
 ---
@@ -71,15 +71,25 @@ Le funzioni elencate in questa sezione saranno rilasciate poco dopo la settimana
 
 Ora è possibile copiare il contenuto di un commento e aggiungerlo come nuova virgoletta a una risposta nello stesso thread quando si utilizza la nuova esperienza di commento.
 
-Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentazione verrà aggiornata al momento della versione.
 
-Anteprima e produzione: pianificata per il 29 giugno 2023
+Anteprima e versione di produzione pianificate: 29 giugno 2023
+
+#### Nuova interfaccia per il tempo di registrazione
+
+Nella nuova esperienza di commento, è stata riprogettata l’interfaccia per la registrazione dell’ora dalla sezione Aggiornamenti.
+
+Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentazione verrà aggiornata al momento della versione.
+
+Versione di anteprima pianificata: 29 giugno 2023
+
+Versione di produzione pianificata: con la versione 23.3
 
 #### Aggiungere emoji a un aggiornamento
 
 È ora possibile aggiungere emoticon a un commento utilizzando un’opzione della barra degli strumenti Testo formattato nella nuova esperienza di commento.
 
-Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentazione verrà aggiornata al momento della versione.
 
 Anteprima: Da annunciare (durante la versione 23.3)
 
@@ -91,11 +101,11 @@ La nuova esperienza di aggiunta di commenti sarà disponibile per i seguenti ogg
 
 Questa sarà l’unica esperienza di commento per questi oggetti, poiché l’esperienza di commento legacy viene rimossa quando si accede a essi.
 
-Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). La documentazione verrà aggiornata al momento della versione.
 
 Versione di anteprima: da annunciare, dopo la versione di produzione 23.3 (20 luglio 2023)
 
-Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3
+Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione 23.3
 
 Versione di produzione per tutti i clienti: con la versione 23.4
 
