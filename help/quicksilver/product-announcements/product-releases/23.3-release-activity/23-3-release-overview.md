@@ -4,7 +4,7 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 8de827eb5c187030a1e8d8c8a414c9ddccaa3d80
+source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
 workflow-type: tm+mt
 source-wordcount: '2524'
 ht-degree: 0%
@@ -25,8 +25,10 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti Agile](#agile-enhancements)
+* [Miglioramenti di Financial Management](#financial-management-enhancements)
 * [Miglioramenti dell’integrazione](#integration-enhancements)
 * [Miglioramenti al progetto](#project-enhancements)
+* [Miglioramenti per dispositivi mobili](#mobile-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti per gli amministratori
@@ -111,7 +113,23 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ordina per colonne bacheca</a><span style="color: #ff0000;"> In arrivo!</span></p>
+                        <p>È stata aggiunta la possibilità di ordinare le schede nelle colonne di una bacheca. Quando si seleziona un'opzione in base alla quale eseguire l'ordinamento, vengono ordinate tutte le colonne. Non è possibile ordinare una singola colonna e la colonna backlog o acquisizione non è ordinata.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 22 giugno 2023</p>
+                            </li>
+                            <li>
+                                <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                             
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">La modalità scura è ora disponibile sulle schede madri Adobe Workfront</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
@@ -130,24 +148,8 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti alle iterazioni del flusso di lavoro nelle schede madri Adobe Workfront</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
-                        <p>È stata aggiunta la possibilità di aggiungere obiettivi a un’iterazione, senza dover elencare gli obiettivi su una scheda. Gli obiettivi vengono aggiunti in un formato elenco di controllo e possono essere contrassegnati come completati. L’area delle metriche in alto a destra dell’iterazione mostra quanti obiettivi esistono e quanti sono stati completati. Inoltre, la colonna Iterazione successiva è ora disponibile nelle bacheche di iterazione.</p>
-                    </td>
-                    <td><p><b>Disponibile in queste date:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versione di anteprima: 22 giugno 2023</p>
-                            </li>
-                            <li>
-                                <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ordina per colonne bacheca</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
-                        <p>È stata aggiunta la possibilità di ordinare le schede nelle colonne di una bacheca. Quando si seleziona un'opzione in base alla quale eseguire l'ordinamento, vengono ordinate tutte le colonne. Non è possibile ordinare una singola colonna e la colonna backlog o acquisizione non è ordinata.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Obiettivi disponibili sulle iterazioni del flusso di lavoro nelle schede madri Adobe Workfront</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>È stata aggiunta la possibilità di aggiungere obiettivi a un’iterazione, senza dover elencare gli obiettivi su una scheda. Gli obiettivi vengono aggiunti in un formato elenco di controllo e possono essere contrassegnati come completati. L’area delle metriche in alto a destra dell’iterazione mostra quanti obiettivi esistono e quanti sono stati completati.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -299,6 +301,42 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
             </tbody>
         </table>
 
+### Miglioramenti di Financial Management
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>   
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Data costo effettivo e tariffe di fatturazione</a><span style="color: #ff0000;"> In arrivo!</span> </p>
+                        <p>Le tariffe di costo e fatturazione effettive per data sono ora disponibili per gli oggetti società, utente e mansione in Workfront. Quando a un progetto vengono applicati i tassi di validità della data e le ore vengono registrate nelle attività del progetto, i costi e i ricavi vengono calcolati utilizzando i tassi specificati per ogni periodo di tempo.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 29 giugno 2023</p>
+                            </li>
+                            <li>
+                                <p>Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3</p>
+                                <p>Versione di produzione per tutti i clienti: con la versione 23.4</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Miglioramenti dell’integrazione
 
 <table>
@@ -445,24 +483,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                         <p><span class="bold">Date di rilascio</span>
                         </p>
                     </td>
-                 </tr>   
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Data costo effettivo e tariffe di fatturazione</a><span style="color: #ff0000;"> In arrivo!</span> </p>
-                        <p>Le tariffe di costo e fatturazione effettive per data sono ora disponibili per gli oggetti società, utente e mansione in Workfront. Quando a un progetto vengono applicati i tassi di validità della data e le ore vengono registrate nelle attività del progetto, i costi e i ricavi vengono calcolati utilizzando i tassi specificati per ogni periodo di tempo.</p>
-                    </td>
-                    <td><p><b>Disponibile in queste date:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versione di anteprima: 29 giugno 2023</p>
-                            </li>
-                            <li>
-                                <p>Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3</p>
-                                <p>Versione di produzione per tutti i clienti: con la versione 23.4</p>
-                            </li>
-                        </ul>
-                    </td>
-                 </tr>   
+                 </tr>  
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Approvazioni nuovi documenti</a> </p>

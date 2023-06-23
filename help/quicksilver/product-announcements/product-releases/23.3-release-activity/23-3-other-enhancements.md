@@ -3,9 +3,9 @@ title: 23.3 Altri miglioramenti
 description: 23.3 Altri miglioramenti
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,9 @@ New Home è una nuova funzione importante che siamo entusiasti di continuare a s
 
 Al momento del rilascio, la nuova Home sarà l’esperienza predefinita per tutti gli utenti. Tuttavia, puoi scegliere di ripristinare l’esperienza Home esistente man mano che continuiamo a svilupparne le funzionalità.
 
-La documentazione relativa alla Nuova Home sarà disponibile con il rilascio in anteprima il 23 giugno.
+Per ulteriori informazioni, consulta [Introduzione alla nuova home in Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3420860/){target=_blank}
 
 ## Nuova esperienza di commento per oggetti aggiuntivi
 

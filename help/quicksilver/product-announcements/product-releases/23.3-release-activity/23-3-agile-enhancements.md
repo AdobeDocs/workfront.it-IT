@@ -3,9 +3,9 @@ title: 23.3 Miglioramenti di Agile
 description: 23.3 Miglioramenti di Agile
 author: Lisa
 feature: Product Announcements
-source-git-commit: 0f4cdc190ad841a843c5c3d0195b4c654450aa83
+source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti agili apportati con la versione 23.3 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.3.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+
+Per informazioni dettagliate su come acconsentire alle nuove funzioni delle bacheche prima del rilascio trimestrale, consulta [Consenso anticipato alle funzioni per le schede madri Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Visualizzazione Agile di un progetto mostra una bacheca kanban
 
@@ -28,24 +30,6 @@ Mentre ti trovi nella bacheca, puoi scegliere di passare alla precedente vista A
 
 La documentazione relativa al progetto aggiornato Agile View sarà disponibile con la relativa versione in anteprima.
 
-## La modalità scura è ora disponibile sulle schede madri Adobe Workfront
-
-Ora è possibile visualizzare tutte le schede madri e i flussi di lavoro in modalità scura. La nuova impostazione è disponibile tramite le preferenze nel dashboard Bacheche.
-
->[!NOTE]
->
->Se l’istanza di Workfront della tua organizzazione è stata integrata in Adobe Unified Experience, puoi abilitare la formattazione del tema scuro per tutto Adobe Experience Cloud tramite il menu delle preferenze (l’immagine del profilo) e non visualizzerai un’opzione separata della modalità scura per le schede madri di Workfront.
-
-Per ulteriori informazioni, consulta [Bacheche notifiche e preferenze e-mail](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
-
-## Miglioramenti alle iterazioni del flusso di lavoro nelle schede madri Adobe Workfront
-
-È stata aggiunta la possibilità di aggiungere obiettivi a un’iterazione, senza dover elencare gli obiettivi su una scheda. Gli obiettivi vengono aggiunti in un formato elenco di controllo e possono essere contrassegnati come completati. L’area delle metriche in alto a destra dell’iterazione mostra quanti obiettivi esistono e quanti sono stati completati.
-
-Inoltre, la colonna Iterazione successiva è ora disponibile nelle bacheche di iterazione. Quando inserisci una scheda in questa colonna, questa viene automaticamente portata all’iterazione successiva e non viene reinserita nel backlog. Nell’iterazione successiva, la scheda viene visualizzata nella colonna che corrisponde al suo stato.
-
-Per ulteriori informazioni su entrambe queste funzioni, consulta [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
-
 ## Ordina per colonne bacheca
 
 È stata aggiunta la possibilità di ordinare le schede nelle colonne di una bacheca. Quando si seleziona un&#39;opzione in base alla quale eseguire l&#39;ordinamento, vengono ordinate tutte le colonne. Non è possibile ordinare una singola colonna e la colonna backlog o acquisizione non è ordinata.
@@ -56,6 +40,24 @@ L’opzione &quot;user order&quot; (Ordine utente) riporta le schede nell’ordi
 
 Per ulteriori informazioni, consulta [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+## La modalità scura è ora disponibile sulle schede madri Adobe Workfront
+
+Ora è possibile visualizzare tutte le schede madri e i flussi di lavoro in modalità scura. La nuova impostazione è disponibile tramite le preferenze nel dashboard Bacheche.
+
+>[!NOTE]
+>
+>Se l’istanza di Workfront della tua organizzazione è stata integrata in Adobe Unified Experience, puoi abilitare la formattazione del tema scuro per tutto Adobe Experience Cloud tramite il menu delle preferenze (l’immagine del profilo) e non visualizzerai un’opzione separata della modalità scura per le schede madri di Workfront.
+
+Per ulteriori informazioni, consulta [Bacheche notifiche e preferenze e-mail](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+
+## Obiettivi disponibili nelle iterazioni del flusso di lavoro nelle schede madri Adobe Workfront
+
+È stata aggiunta la possibilità di aggiungere obiettivi a un’iterazione, senza dover elencare gli obiettivi su una scheda. Gli obiettivi vengono aggiunti in un formato elenco di controllo e possono essere contrassegnati come completati. L’area delle metriche in alto a destra dell’iterazione mostra quanti obiettivi esistono e quanti sono stati completati.
+
+<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+
+Per ulteriori informazioni, consulta [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
+
 ## Aggiungi commenti alle schede sulle bacheche
 
 >[!NOTE]
@@ -65,6 +67,8 @@ Per ulteriori informazioni, consulta [Filtrare ed eseguire ricerche in una bache
 È ora possibile aggiungere commenti alle schede ad hoc e alle schede collegate sulle bacheche e assegnare tag ad altri utenti sui commenti. I commenti sono disponibili nei dettagli della scheda. La funzione di commento per le bacheche utilizza la nuova esperienza di commento di Adobe Workfront.
 
 Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Miglioramenti al gestore di tag delle bacheche
 
