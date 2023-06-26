@@ -6,7 +6,7 @@ description: Il pulsante Done (Fine) può impostare automaticamente lo stato di 
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Il [!UICONTROL Fine] può impostare automaticamente lo stato di un’attività o
 Gli utenti con determinate autorizzazioni possono configurare [!UICONTROL Fine] per riflettere determinati stati nel sistema. Esistono 3 modi diversi per [!UICONTROL Fine] funziona per i problemi in [!DNL Workfront]:
 
 * Se all’utente è stato assegnato un [!UICONTROL Team predefinito], a [!DNL Workfront] amministratore o un utente con un [!UICONTROL Piano] la licenza può configurare [!UICONTROL Fine] per riflettere determinati stati per i membri del team. Consulta [Configurare [!UICONTROL Fine] pulsante per un team](#configure-the-uicontrol-done-button-for-a-team) in questo articolo.
-* Se l’utente non dispone di un’ [!UICONTROL Team predefinito], ma hanno[!UICONTROL Altri team] nel loro profilo, Workfront cerca l’impostazione del [!UICONTROL Fine] su uno dei team associati all’utente. La selezione è casuale e lo stato associato a uno qualsiasi dei team viene utilizzato per il problema.
+* Se l’utente non dispone di un’ [!UICONTROL Team predefinito], ma hanno [!UICONTROL Altri team] nel loro profilo, Workfront cerca l’impostazione del [!UICONTROL Fine] su uno dei team associati all’utente. La selezione è casuale e lo stato associato a uno qualsiasi dei team viene utilizzato per il problema.
 * Se l’utente non dispone di un’ [!UICONTROL Team predefinito] assegnato, il [!UICONTROL Fine] per i problemi è associato a un pulsante generato dal sistema [!UICONTROL Risolto] stato con codice di tre lettere [!UICONTROL RLV]. Non sono disponibili opzioni di configurazione in questo scenario. Il [!UICONTROL Fine] viene impostato automaticamente su questo stato.
 * Se il [!UICONTROL Risolto] ([!UICONTROL RLV]) viene eliminato e l&#39;utente contrassegna il problema come [!UICONTROL Fine] non ha [!UICONTROL Team predefinito], lo stato predefinito del problema è associato a ciò che è impostato come predefinito per [!UICONTROL Chiuso] per il gruppo assegnato al progetto a cui appartiene il problema. L’amministratore di Workfront può configurare un’impostazione predefinita a livello di sistema per il gruppo. Consulta [Configurare [!UICONTROL Fine] quando [!UICONTROL Risolto] lo stato è stato eliminato](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) in questo articolo.
 
