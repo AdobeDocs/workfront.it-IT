@@ -6,9 +6,9 @@ title: Bacheche notifiche e preferenze e-mail
 description: Le bacheche Adobe Workfront ti inviano un’e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
+source-git-commit: bda865111eacf5df874a09f184db039b5f837765
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 >[!NOTE]
 >
 >Le notifiche e-mail sono disponibili solo tramite il consenso esplicito alle funzioni anticipate per le schede madri Workfront.
-
-<span class="preview">Preferenze aggiuntive consentono di abilitare la modalità scura per tutte le schede madri e i flussi di lavoro.</span>
 
 ## Requisiti di accesso
 
