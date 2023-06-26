@@ -6,16 +6,14 @@ title: Bacheche notifiche e preferenze e-mail
 description: Le bacheche Adobe Workfront ti inviano un’e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda.
 author: Lisa
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: e5e8819db11f39734d9fcada833a2cb808bc88fe
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
 # Bacheche notifiche e preferenze e-mail
-
-{{highlighted-preview}}
 
 [!DNL Adobe Workfront] [!UICONTROL Schede] ti invia un’e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda. Le notifiche sono attivate per impostazione predefinita e puoi selezionare nelle preferenze delle Bacheche quali e-mail desideri ricevere.
 
@@ -59,19 +57,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Le preferenze impostate per le e-mail si applicano a tutte le bacheche.
 
+<!--
+
 <div class="preview">
 
-## Impostare la preferenza per la modalità scura
+## Set the dark mode preference
 
 >[!NOTE]
 >
->Se l’istanza di Workfront della tua organizzazione è stata integrata in Adobe Unified Experience, puoi abilitare la formattazione del tema scuro per tutto Adobe Experience Cloud tramite il menu delle preferenze (l’immagine del profilo) e non visualizzerai un’opzione separata della modalità scura per le schede madri di Workfront. Per ulteriori informazioni, consulta [Adobe di esperienza unificata per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>If your organization's instance of Workfront has been onboarded to the Adobe Unified Experience, you can enable dark theme formatting for all of Adobe Experience Cloud through your preferences menu (your profile picture), and you will not see a separate dark mode option for Workfront Boards. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 {{step1-to-boards}}
 
-1. Clic [!UICONTROL **Preferenze**] nel dashboard delle bacheche.
-1. Nell&#39;area Temi, attivate o disattivate la modalità scura.
+1. Click [!UICONTROL **Preferences**] on the boards dashboard.
+1. In the Themes area, enable or disable Dark mode.
 
-   La preferenza impostata per la modalità scura si applica a tutte le bacheche, ai flussi di lavoro e alla dashboard.
+   The preference you set for dark mode applies to all of your boards and workstreams, and the dashboard.
 
 </div>
+
+-->

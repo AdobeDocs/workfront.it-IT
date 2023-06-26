@@ -7,16 +7,14 @@ description: Un'iterazione è una quantità di tempo riservata per il completame
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
 # Creare un’iterazione in un flusso di lavoro
-
-{{highlighted-preview}}
 
 Un&#39;iterazione è una quantità di tempo riservata per il completamento del lavoro. Alcuni team agili possono fare riferimento a un’iterazione come sprint.
 
@@ -90,12 +88,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Una volta avviata un&#39;iterazione, è possibile modificarne solo il nome e non le date o la lunghezza.
 
-1. <span class="preview">Per aggiungere obiettivi all&#39;iterazione, espandere [!UICONTROL **Obiettivi**].</span>
-1. <span class="preview">Clic [!UICONTROL **Aggiungi obiettivo**] e digita il nome dell’obiettivo.</span>
+<!--   
 
-   <span class="preview">Quando gli obiettivi vengono completati durante l&#39;iterazione, è possibile selezionare la casella di controllo per contrassegnarli come completati oppure fare clic su **Elimina** icona ![Icona Elimina](assets/delete.png) per eliminare un obiettivo. L’area delle metriche in alto a destra dell’iterazione mostra quanti obiettivi esistono e quanti sono stati completati.</span>
+1. <span class="preview">To add goals to the iteration, expand [!UICONTROL **Goals**].</span>
+1. <span class="preview">Click [!UICONTROL **Add goal**], and type the goal name.</span>
 
-<!--
+   <span class="preview">As goals are completed during the iteration, you can select the check box to mark them complete, or click the **Delete** icon ![Delete icon](assets/delete.png) to delete a goal. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</span>
+
 <div class="preview">
 
 ## Assign cards to the next iteration

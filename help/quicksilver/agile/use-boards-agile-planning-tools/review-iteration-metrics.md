@@ -7,16 +7,14 @@ description: Le metriche sono disponibili per ogni iterazione in un flusso di la
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: 563e0f443ecef9ee99e9f9bfb5a0d579aa50cef4
+source-git-commit: 0ca3428d7442564a9753db04790fd40839ae24ea
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 # Rivedere le metriche di iterazione
-
-{{highlighted-preview}}
 
 Le metriche sono disponibili per ogni iterazione in un flusso di lavoro, sulla scheda del processo di iterazione e sulla dashboard.
 
@@ -49,7 +47,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Seleziona la [!UICONTROL Processo iterazione] bacheca
 1. Controlla l’area delle metriche sopra la bacheca, in alto a destra. Fare clic sulle frecce su e giù per spostarsi tra le iterazioni.
 
-   Vengono visualizzate le metriche seguenti: numero totale di punti assegnati all&#39;iterazione, punti rimanenti non ancora completati nell&#39;iterazione, numero di punti completati nell&#39;iterazione, <span class="preview">e il numero di obiettivi creati e completati nell’iterazione</span>.
+   Vengono visualizzate le metriche seguenti: numero totale di punti assegnati all&#39;iterazione, i punti rimanenti non ancora completati nell&#39;iterazione, il numero di punti completati nell&#39;iterazione.
 
 1. (Facoltativo) Fai clic su [!UICONTROL **Dettagli iterazione**] icona ![Dettagli iterazione](assets/iteration-details-button.png) per aprire la finestra di dialogo dei dettagli per l&#39;iterazione selezionata.
 
