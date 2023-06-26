@@ -3,9 +3,9 @@ title: 23.3 Miglioramenti di Agile
 description: 23.3 Miglioramenti di Agile
 author: Lisa
 feature: Product Announcements
-source-git-commit: b7c46cc7a29bdf67e023a01543dffc17be98999a
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ L’opzione &quot;user order&quot; (Ordine utente) riporta le schede nell’ordi
 
 Per ulteriori informazioni, consulta [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+
 ## La modalità scura è ora disponibile sulle schede madri Adobe Workfront
 
 Ora è possibile visualizzare tutte le schede madri e i flussi di lavoro in modalità scura. La nuova impostazione è disponibile tramite le preferenze nel dashboard Bacheche.
@@ -54,7 +56,7 @@ Per ulteriori informazioni, consulta [Bacheche notifiche e preferenze e-mail](/h
 
 È stata aggiunta la possibilità di aggiungere obiettivi a un’iterazione, senza dover elencare gli obiettivi su una scheda. Gli obiettivi vengono aggiunti in un formato elenco di controllo e possono essere contrassegnati come completati. L’area delle metriche in alto a destra dell’iterazione mostra quanti obiettivi esistono e quanti sono stati completati.
 
-<!--Also, the Next Iteration column is now available on iteration boards. When you place a card in this column, it is automatically carried to the next iteration and does not return to the backlog. On the next iteration, the card appears in the column that corresponds with its status.-->
+Inoltre, la colonna Iterazione successiva è ora disponibile nelle bacheche di iterazione. Quando inserisci una scheda in questa colonna, questa viene automaticamente portata all’iterazione successiva e non viene reinserita nel backlog. Nell’iterazione successiva, la scheda viene visualizzata nella colonna che corrisponde al suo stato.
 
 Per ulteriori informazioni, consulta [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 

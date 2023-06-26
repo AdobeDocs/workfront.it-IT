@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d84450c8cb8a0a05e9372ebbef515e94fbc53f80
+source-git-commit: bcd3484316089140a58ecda8c4420d69dd65e373
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2538'
 ht-degree: 0%
 
 ---
@@ -132,32 +132,32 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                 </tr>                             
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">La modalità scura è ora disponibile sulle schede madri Adobe Workfront</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">La modalità scura è ora disponibile sulle schede madri Adobe Workfront</a></p>
                         <p>Ora è possibile visualizzare tutte le schede madri e i flussi di lavoro in modalità scura. La nuova impostazione è disponibile tramite le preferenze nel dashboard Bacheche.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 22 giugno 2023</p>
+                                <p>Versione di anteprima: 22 giugno 2023<span style="color: #ff0000;"> Questa funzione è stata rimossa dall’anteprima e non verrà rilasciata con 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
+                                <p>Versione di produzione per tutti i clienti: N/D</p>
                             </li>
                         </ul>
                     </td>
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Obiettivi disponibili sulle iterazioni del flusso di lavoro nelle schede madri Adobe Workfront</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Obiettivi disponibili sulle iterazioni del flusso di lavoro nelle schede madri Adobe Workfront</a></p>
                         <p>È stata aggiunta la possibilità di aggiungere obiettivi a un’iterazione, senza dover elencare gli obiettivi su una scheda. Gli obiettivi vengono aggiunti in un formato elenco di controllo e possono essere contrassegnati come completati. L’area delle metriche in alto a destra dell’iterazione mostra quanti obiettivi esistono e quanti sono stati completati.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 22 giugno 2023</p>
+                                <p>Versione di anteprima: 22 giugno 2023<span style="color: #ff0000;"> Questa funzione è stata rimossa dall’anteprima e non verrà rilasciata con 23.3.</span></p>
                             </li>
                             <li>
-                                <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
+                                <p>Versione di produzione per tutti i clienti: N/D</p>
                             </li>
                         </ul>
                     </td>
