@@ -8,9 +8,9 @@ description: Le seguenti funzioni stringa sono disponibili nel pannello di mappa
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '774'
 ht-degree: 3%
 
 ---
@@ -35,20 +35,28 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione del lavoro</p>  </td> 
+   <td>
+   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Oppure</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL ascii (testo; [rimuovere la diacritica])]
+## [!UICONTROL ascii (testo; [rimuovere i segni diacritici])]
 
 Rimuove tutti i caratteri non ascii da una stringa di testo.
 
@@ -57,13 +65,12 @@ Rimuove tutti i caratteri non ascii da una stringa di testo.
 >**Esempi:**
 >
 >* `ascii(` `Wěošrčkřfžrýoáníté` `)`
-   >
-   >   Restituisce: [!DNL Workfront]
+>
+>   Restituisce: [!DNL Workfront]
 >
 >* `ascii(` `ěščřž` `;` `true` `)`
-   >
-   >   Restituisce: [!UICONTROL escrz]
-
+>
+>   Restituisce: [!UICONTROL escrz]
 
 ## [!UICONTROL base64 (testo)]
 
@@ -75,9 +82,9 @@ Trasforma il testo in base64.
 >
 >`base64( workfront )`
 >
->Restituisce: d29ya2Zyb250===
+>Restituisce: d29ya2Zyb250==
 
-## [!UICONTROL maiuscola (testo)]
+## [!UICONTROL maiuscolo (testo)]
 
 Converte il primo carattere di una stringa di testo in maiuscolo.
 
@@ -98,13 +105,12 @@ Verifica se il testo contiene la stringa di ricerca.
 >**Esempi:**
 >
 >* `contains( Hello World ; Hello )`
-   >
-   >   Restituisce: [!UICONTROL true]
+>
+>   Restituisce: [!UICONTROL true]
 >
 >* `contains( Hello World ; Bye )`
-   >
-   >   Restituisce: [!UICONTROL false]
-
+>
+>   Restituisce: [!UICONTROL false]
 
 ## [!UICONTROL decodeURL (testo)]
 
@@ -119,11 +125,11 @@ Decodifica caratteri speciali in un URL in testo.
 
 ## [!UICONTROL encodeURL (testo)]
 
-Codifica caratteri speciali in un testo in un indirizzo URL valido.
+Codifica i caratteri speciali in un testo in un indirizzo URL valido.
 
 ## [!UICONTROL escapeHTML (testo)]
 
-Elimina tutti i tag di HTML nel testo.
+Esclude tutti i tag HTML nel testo.
 
 >[!INFO]
 >
@@ -133,9 +139,9 @@ Elimina tutti i tag di HTML nel testo.
 >
 > Restituisce: `&lt;b&gt;Hello&lt;/b&gt;`
 
-## [!UICONTROL escapeMarkdown(text)]
+## [!UICONTROL escapeMarkdown(testo)]
 
-Elimina tutti i tag Markdown nel testo.
+Evita tutti i tag Markdown nel testo.
 
 >[!INFO]
 >
@@ -147,24 +153,23 @@ Elimina tutti i tag Markdown nel testo.
 
 ## [!DNL indexOf (string; value; [start])]
 
-Restituisce la posizione della prima occorrenza di un valore specificato in una stringa. Questo metodo restituisce &#39;-1&#39; se il valore ricercato non è presente. Il valore iniziale indica dove deve iniziare la ricerca nella stringa.
+Restituisce la posizione della prima occorrenza di un valore specificato in una stringa. Questo metodo restituisce &#39;-1&#39; se il valore ricercato non è presente. Il valore iniziale indica la posizione nella stringa da cui deve iniziare la ricerca.
 
 >[!INFO]
 >
 >**Esempi:**
 >
 >* `indexOf( Workfront ; o )`
-   >
-   >   Restituisce: 1
+>
+>   Restituisce: 1
 >
 >* `indexOf( Workfront ; x )`
-   >
-   >   Restituisce: -1
+>
+>   Restituisce: -1
 >
 >* `indexOf( Workfront ; o ; 3 )`
-   >
-   >   Restituisce: 6
-
+>
+>   Restituisce: 6
 
 ## [!UICONTROL lunghezza (testo o buffer)]
 
@@ -178,7 +183,7 @@ Restituisce la lunghezza della stringa di testo (numero di caratteri) o del buff
 >
 >Restituisce: 5
 
-## [!UICONTROL Lower (testo)]
+## [!UICONTROL lower (testo)]
 
 Converte tutti i caratteri alfabetici di una stringa di testo in minuscolo.
 
@@ -192,7 +197,7 @@ Converte tutti i caratteri alfabetici di una stringa di testo in minuscolo.
 
 ## [!UICONTROL md5 (testo)]
 
-Calcola l’hash md5 di una stringa.
+Calcola l’hash MD5 di una stringa.
 
 >[!INFO]
 >
@@ -202,9 +207,9 @@ Calcola l’hash md5 di una stringa.
 >
 >Restituisce: `1448bbbeaa7a9b8091d426999f1f666b`
 
-## [!UICONTROL sostituire (testo;stringa di ricerca; stringa sostitutiva)]
+## [!UICONTROL replace (testo;stringa di ricerca; stringa di sostituzione)]
 
-Sostituisce la stringa di ricerca con la nuova stringa.
+sostituisce la stringa di ricerca con la nuova stringa.
 
 >[!INFO]
 >
@@ -214,7 +219,7 @@ Sostituisce la stringa di ricerca con la nuova stringa.
 >
 >Restituisce: [!UICONTROL Hi World]
 
-Espressioni regolari (racchiuse in `/.../`) può essere utilizzata come stringa di ricerca con una combinazione di flag (ad esempio `g`, `i`, `m`) aggiunta:
+Espressioni regolari (racchiuse in `/.../`) può essere utilizzato come stringa di ricerca con una combinazione di flag (come `g`, `i`, `m`) aggiunto:
 
 >[!INFO]
 >
@@ -222,12 +227,12 @@ Espressioni regolari (racchiuse in `/.../`) può essere utilizzata come stringa 
 >
 >![](assets/replace---1-350x31.png)
 >
->Tutti questi numeri X X X X sono sostituiti con X
+>Tutti questi numeri X X X X sono sostituiti da X
 
-La stringa di sostituzione può includere i seguenti pattern di sostituzione speciali:
+La stringa di sostituzione può includere i seguenti modelli di sostituzione speciali:
 
 * `$&` Inserisce la sottostringa corrispondente.
-* `$n` Se n è un numero intero positivo inferiore a 100, inserisce l’ennesima stringa di sottocorrispondenza tra parentesi. Questo è indicizzato a 1.
+* `$n` Dove n è un numero intero positivo minore di 100, inserisce l&#39;ennesima stringa di submatch tra parentesi. È indicizzato 1.
 
 >[!INFO]
 >
@@ -235,111 +240,134 @@ La stringa di sostituzione può includere i seguenti pattern di sostituzione spe
 >
 >![](assets/variable-value-350x63.png)
 >
->Restituisce: Numero di telefono `+420777111222`
->>![](assets/variable-value---2-350x55.png)
->Restituisce: Numero di telefono: `+420777111222`
+>Restituisce: numero di telefono `+420777111222`
+>>
+>![](assets/variable-value---2-350x55.png)
+>
+>Restituisce: numero di telefono: `+420777111222`
 
 >[!CAUTION]
-Non utilizzare gruppi di acquisizione denominati quali `/ is (?<number>\d+)/` nell&#39;argomento della stringa di sostituzione. In questo modo si verifica un errore.
+>
+>Non utilizzare gruppi di acquisizione denominati come `/ is (?<number>\d+)/` nell&#39;argomento della stringa di sostituzione. In questo caso si verifica un errore.
 
-Per ulteriori informazioni sulle espressioni regolari, consulta [Analizzatore di testo](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+Per ulteriori informazioni sulle espressioni regolari, consulta [Parser testo](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
-## [!UICONTROL sha1 (testo; [encoding]; [key])]
+## [!UICONTROL sha1 (testo; [codifica]; [chiave])]
 
-Calcola l’hash sha1 di una stringa. Se viene specificato l’argomento chiave, viene restituito invece l’hash HMAC sha1. Codifiche supportate: &quot;esadecimale&quot; (predefinito), &quot;base64&quot; o &quot;latin1&quot;.
-
->[!INFO]
-**Esempio:**
-`sha1( workfront )`
-Restituisce: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
-
-## [!UICONTROL sha256 (testo; [encoding]; [key])]
-
-Calcola l’hash sha256 di una stringa. Se viene specificato l’argomento chiave, viene restituito l’hash HMAC sha256. Codifiche supportate: &quot;esadecimale&quot; (predefinito), &quot;base64&quot; o &quot;latin1&quot;.>
+Calcola l’hash sha1 di una stringa. Se l&#39;argomento chiave è specificato, viene restituito l&#39;hash HMAC sha1. Codifiche supportate: &quot;hex&quot; (impostazione predefinita), &quot;base64&quot; o &quot;latin1&quot;.
 
 >[!INFO]
-**Esempio:**
-`sha256( workfront )`
-Restituisce: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
+>
+>**Esempio:**
+>
+>`sha1( workfront )`
+>
+>Restituisce: b2b30b8ae1f9e5b40fbb0696eaabdbfd8d0c087f
 
-## [!UICONTROL sha512 (testo; [codifica output]; [key]; [codifica chiave])]
+## [!UICONTROL sha256 (testo; [codifica]; [chiave])]
 
-Calcola l’hash sha512 di una stringa. Se viene specificato l&#39;argomento chiave, viene restituito invece l&#39;hash HMAC sha512.
+Calcola l’hash sha256 di una stringa. Se l&#39;argomento chiave è specificato, viene restituito l&#39;hash sha256 HMAC. Codifiche supportate: &quot;hex&quot; (impostazione predefinita), &quot;base64&quot; o &quot;latin1&quot;.>
 
-Codifiche supportate:
+>[!INFO]
+>
+>**Esempio:**
+>
+>`sha256( workfront )`
+>
+>Restituisce: ed3d7397eec7b94453035b67ba4468c883ee3bedeb57137f7371f2e0cf5e2bbc
 
-* &quot;[!UICONTROL esasperare]&quot; (predefinito)
+## [!UICONTROL sha512 (testo; [codifica di output]; [chiave]; [codifica chiave])]
+
+Calcola l’hash sha512 di una stringa. Se l&#39;argomento chiave è specificato, viene restituito l&#39;hash HMAC sha512.
+
+Codifiche supportate
+
+* &quot;[!UICONTROL esadecimale]&quot; (impostazione predefinita)
 * &quot;[!UICONTROL base64]&quot;
 * &quot;[!UICONTROL latin1]&quot;
 
 Codifiche chiave supportate:
 
-* &quot;[!UICONTROL text]&quot; (predefinito)
-* &quot;[!UICONTROL esasperare]&quot;
+* &quot;[!UICONTROL text]&quot; (impostazione predefinita)
+* &quot;[!UICONTROL esadecimale]&quot;
 * &quot;[!UICONTROL base64]&quot; o &quot;[!UICONTROL binario]&quot;
 
-Quando si utilizza &quot;[!UICONTROL binario]&quot; codifica chiave, una chiave deve essere un buffer, non una stringa.
+Quando si utilizza &quot;[!UICONTROL binario]&quot;, una chiave deve essere un buffer, non una stringa.
 
 >[!INFO]
-**Esempio:**
-`sha512(workfront)`
-Restituisce: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b8 5e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
+>
+>**Esempio:**
+>
+>`sha512(workfront)`
+>
+>Restituisce: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
 
-## [!UICONTROL divisione (testo; separatore)]
+## [!UICONTROL split (testo; separatore)]
 
-Divide una stringa in una matrice di stringhe separando la stringa in sottostringhe.
+Divide una stringa in una matrice di stringhe separandola in sottostringhe.
 
 >[!INFO]
-**Esempio:**
-`split( John, George, Paul ; , )`
+>
+>**Esempio:**
+>
+>`split( John, George, Paul ; , )`
 
 ## [!UICONTROL startcase (testo)]
 
-Comprende la prima lettera di ogni parola e le lettere minuscole di tutte le altre lettere.
+Usa la maiuscola per la prima lettera di ogni parola e le minuscole per tutte le altre lettere.
 
 >[!INFO]
-**Esempio:**
-`startcase( hello WORLD )`
-Restituisce: [!UICONTROL Hello World]
+>
+>**Esempio:**
+>`startcase( hello WORLD )`
+>
+>Restituisce: [!UICONTROL Hello World]
 
 ## [!UICONTROL stripHTML (testo)]
 
-Rimuove dal testo tutti i tag HTML.
+Rimuove tutti i tag HTML dal testo.
 
 >[!INFO]
-**Esempio:**
-`stripHTML( <b>Hello</b> )`
-Restituisce: Ciao
+>
+>**Esempio:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>Restituisce: Hello
 
 ## [!UICONTROL sottostringa (testo; inizio;fine)]
 
 Restituisce una parte di una stringa di testo tra la posizione &quot;start&quot; e la posizione &quot;end&quot;.
 
 >[!INFO]
-**Esempi:**
-* `substring( Hello ; 0 ; 3)`
-
-   Restituisce: Alza
-* `substring( Hello ; 1 ; 3 )`
-
-   Restituisce: el
-
+>
+>**Esempi:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   Restituisce: Hel
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   Restituisce: el
 
 ## [!UICONTROL toBinary (valore)]
 
 Converte qualsiasi valore in dati binari.
 
-È inoltre possibile specificare la codifica come secondo argomento per applicare conversioni binarie da esadecimali o base64 a dati binari.
+È inoltre possibile specificare la codifica come secondo argomento per applicare le conversioni binarie da hex o base64 ai dati binari.
 
 >[!INFO]
-**Esempi:**
-* `toBinary( Workfront )`
-
-   Restituisce: 57 6f 72 6b 66 72 6f 6e 74
-* `toBinary( V29ya2Zyb250 ; base64 )`
-
-   Restituisce: 57 6f 72 6b 66 72 6f 6e 74
-
+>
+>**Esempi:**
+>
+>* `toBinary( Workfront )`
+>
+>   Restituisce: 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   Restituisce: 57 6f 72 6b 66 72 6f 6e 74
 
 ## [!UICONTROL toString (valore)]
 
@@ -347,13 +375,16 @@ Converte qualsiasi valore in una stringa.
 
 ## [!UICONTROL trim (testo)]
 
-Rimuove gli spazi all’inizio o alla fine del testo.
+Rimuove gli spazi all&#39;inizio o alla fine del testo.
 
-## [!UICONTROL superiore (testo)]
+## [!UICONTROL upper (testo)]
 
-Converte tutti i caratteri alfabetici di una stringa di testo in caratteri maiuscoli.
+Converte tutti i caratteri alfabetici in maiuscolo in una stringa di testo.
 
 >[!INFO]
-**Esempio:**
-`upper( Hello )`
-Restituisce: [!UICONTROL CIAO]
+>
+>**Esempio:**
+>
+>`upper( Hello )`
+>
+>Restituisce: [!UICONTROL CIAO]

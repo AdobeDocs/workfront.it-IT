@@ -7,9 +7,9 @@ description: Quando si crea un modello, il modello diventa disponibile per tutti
 author: Becky
 feature: Workfront Fusion
 exl-id: aaa59a1e-aa16-41f5-9f56-ce0615c1b685
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,19 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione lavoro] </p>  </td>    </tr> 
+  <td>
+   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Oppure</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +86,6 @@ Dopo aver pubblicato un modello, puoi condividerlo.
    >
    >* Una volta approvato, il modello diventa pubblico. [!UICONTROL Modelli pubblici] sono visibili in [!UICONTROL Modelli pubblici] scheda per tutti [!DNL Workfront Fusion] utenti, indipendentemente dall’organizzazione o dal team.
    >* L’amministratore non viene informato della ricezione del modello da rivedere tramite e-mail. Se l’approvazione è urgente, contatta direttamente l’amministratore.
-
 
 
 ## Stati dei modelli

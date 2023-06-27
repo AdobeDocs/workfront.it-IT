@@ -4,15 +4,15 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connettore
 navigation-topic: apps-and-their-modules
-title: Moduli Microsoft SQL Server
+title: Moduli di Microsoft SQL Server
 description: È possibile utilizzare [!DNL Adobe Workfront Fusion] per connettersi a Microsoft SQL Server.
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 0%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
@@ -30,7 +30,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] piano*</td>
-  <td> <p>[!UICONTROL Pro] o superiore</p> </td>
+  <td> <p>[!UICONTROL Pro] o versione successiva</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td>
@@ -38,45 +38,53 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p> </td> 
+   <td>
+   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Oppure</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Utilizzo [!DNL Microsoft SQL Server] moduli
+## Utilizzo di [!DNL Microsoft SQL Server] moduli
 
-È possibile eseguire la logica personalizzata direttamente sul server di database tramite le stored procedure. [!DNL Adobe Workfront Fusion] carica dinamicamente l&#39;interfaccia dei parametri di input/output e del set di record in modo che ogni parametro o valore possa essere mappato singolarmente. Prima di iniziare a configurare lo scenario, assicurati che l&#39;account utilizzato per la connessione al database abbia accesso in lettura a `INFORMATION_SCHEMA.ROUTINES` e `INFORMATION_SCHEMA.PARAMETERS` visualizzazioni.
+È possibile eseguire la logica personalizzata direttamente sul server di database tramite stored procedure. [!DNL Adobe Workfront Fusion] carica dinamicamente l&#39;interfaccia dei parametri di input/output e del recordset in modo che ogni parametro o valore possa essere mappato singolarmente. Prima di iniziare a configurare lo scenario, verificare che l&#39;account utilizzato per la connessione al database disponga dell&#39;accesso in lettura a `INFORMATION_SCHEMA.ROUTINES` e `INFORMATION_SCHEMA.PARAMETERS` visualizzazioni.
 
-Quando [!DNL Fusion] stabilisce il collegamento [!DNL SQL server] la destinazione, [!DNL Fusion] l’utente identifica l’host (il nome di dominio o l’indirizzo IP in cui è ospitato il server) e la porta. [!DNL Fusion] può connettersi a qualsiasi host e porta disponibili.
+Quando [!DNL Fusion] stabilisce la connessione al [!DNL SQL server] destinazione, il [!DNL Fusion] L&#39;utente identifica l&#39;host (il nome di dominio o l&#39;indirizzo IP in cui è ospitato il server) e la porta. [!DNL Fusion] può connettersi a qualsiasi host e porta disponibile.
 
 Per informazioni su indirizzi IP specifici utilizzati da [!DNL Workfront Fusion], vedi [Indirizzi IP per l&#39;accesso [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 
-Per ulteriori informazioni sulla creazione di una stored procedure, consulta [!DNL Microsoft SQL Server] documentazione.
+Per ulteriori informazioni sulla creazione di una stored procedure, vedere [!DNL Microsoft SQL Server] documentazione.
 
 >[!NOTE]
 >
->[!DNL Workfront Fusion] non supporta più set di record. Viene elaborata solo la prima.
+>[!DNL Workfront Fusion] non supporta più recordset. Viene elaborato solo il primo.
 
-## Errore di risoluzione dei problemi [!UICONTROL ER_LOCK_WAIT_TIMEOUT: Timeout di attesa blocco superato; prova a riavviare la transazione]
+## Risoluzione dei problemi di errore [!UICONTROL ER_LOCK_WAIT_TIMEOUT: timeout di attesa blocco superato; provare a riavviare la transazione]
 
-Questo errore si verifica quando si modificano gli stessi dati utilizzando più moduli. È causato dalle transazioni SQL.
+Questo errore si verifica quando si modificano gli stessi dati utilizzando più moduli. È causata da transazioni SQL.
 
-Quando viene eseguito un modulo SQL, viene avviata una transazione. La transazione è terminata dopo che lo scenario è stato eseguito completamente.
+Quando viene eseguito un modulo SQL, viene avviata una transazione. La transazione è terminata dopo che lo scenario è stato completamente eseguito.
 
-Se un altro modulo tenta di accedere agli stessi dati, deve attendere il completamento della transazione precedente. Dal momento che la prima transazione verrà completata al termine dello scenario, la seconda transazione non potrà mai iniziare.
+Se un altro modulo tenta di accedere agli stessi dati, deve attendere il completamento della transazione precedente. Poiché la prima transazione verrà completata al termine dello scenario, la seconda transazione non potrà mai iniziare.
 
 ### Soluzione:
 
-Attiva il commit automatico. Il commit automatico termina (impegna) ogni transazione immediatamente dopo l&#39;esecuzione del modulo.
+Attiva il commit automatico. Il commit automatico termina (esegue il commit) ogni transazione subito dopo l&#39;esecuzione del modulo.
 
-1. Fai clic sul pulsante [!UICONTROL Impostazioni dello scenario] icona ![](assets/scenario-settings-icon.png)nella parte inferiore dello schermo.
-1. Fai clic sul pulsante **[!UICONTROL commit automatico]** casella di controllo.
-1. Fai clic su **[!UICONTROL OK]** per salvare le impostazioni dello scenario.
+1. Fai clic su [!UICONTROL Impostazioni scenario] icona ![](assets/scenario-settings-icon.png)nella parte inferiore dello schermo.
+1. Fai clic su **[!UICONTROL Commit automatico]** casella di controllo.
+1. Clic **[!UICONTROL OK]** per salvare le impostazioni dello scenario.

@@ -2,19 +2,19 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Ripristinare una versione di uno scenario in [!DNL Adobe Workfront Fusion]
-description: È possibile ripristinare una versione precedente di uno scenario. Ciò ti consente di apportare modifiche a uno scenario, quindi di ripristinarle facilmente se preferisci la funzionalità precedente.
+title: Ripristinare una versione dello scenario in [!DNL Adobe Workfront Fusion]
+description: È possibile ripristinare una versione precedente di uno scenario. Questo consente di apportare modifiche a uno scenario, quindi di ripristinarle facilmente se si preferisce la funzionalità precedente.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8885fe4e-a9ae-4cfa-895f-68a2f8228034
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 0%
+source-wordcount: '224'
+ht-degree: 1%
 
 ---
 
-# Ripristinare una versione di uno scenario in [!DNL Adobe Workfront Fusion]
+# Ripristinare una versione dello scenario in [!DNL Adobe Workfront Fusion]
 
 ## Requisiti di accesso
 
@@ -34,28 +34,36 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione del lavoro </p>  </td>    </tr> 
+  <td>
+   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Oppure</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Ripristinare una versione di uno scenario
+## Ripristinare una versione dello scenario
 
 1. Apri lo scenario.
-1. Fai clic sul pulsante [!UICONTROL Altro] icona ![](assets/more-icon.png), quindi fai clic su **[!UICONTROL Versioni precedenti]**.
+1. Fai clic su [!UICONTROL Altro] icona ![](assets/more-icon.png), quindi fai clic su **[!UICONTROL Versioni precedenti]**.
 
-1. Fai clic sul pulsante **[!UICONTROL Scegli la versione]**, quindi fai clic sulla versione da ripristinare.
-1. Fai clic su **[!UICONTROL OK]**:
-1. La versione dello scenario selezionato verrà ripristinata.
+1. Fai clic su **[!UICONTROL Scegli la versione]**, quindi fare clic sulla versione da ripristinare.
+1. Clic **[!UICONTROL OK]**:
+1. La versione dello scenario selezionata verrà ripristinata.
 
 >[!NOTE]
 >
->La versione ripristinata dello scenario non viene salvata automaticamente. Per salvare la versione ripristinata dello scenario, è necessario salvarla manualmente.
+>La versione ripristinata dello scenario non viene salvata automaticamente. Se desideri salvare la versione ripristinata dello scenario, devi salvarla manualmente.

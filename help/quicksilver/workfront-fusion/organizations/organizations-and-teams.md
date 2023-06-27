@@ -8,9 +8,9 @@ description: Le funzioni Organizzazione e Team di Adobe Workfront Fusion consent
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,19 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>Workfront Fusion per l'automazione e l'integrazione del lavoro,</p>  </td> 
+   <td>
+   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Oppure</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -56,9 +64,7 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, co
 
 ## Organismi
 
-[!DNL Workfront Fusion] gli utenti appartengono a un’organizzazione. Il tuo [!DNL Fusion] la licenza determina quanti scenari e connettori attivi sono disponibili nell’organizzazione.
-
-[!DNL Fusion] le licenze determinano il numero di scenari attivi e di app attive disponibili per un&#39;organizzazione. [!DNL Fusion] visualizza il conteggio corrente di &quot;Scenari attivi&quot; e &quot;App attive&quot; sul dashboard dell’organizzazione.
+[!DNL Workfront Fusion] gli utenti appartengono a un’organizzazione.
 
 * [Ruoli organizzazione](#organization-roles)
 * [Invito di utenti a un&#39;organizzazione](#inviting-users-to-an-organization)

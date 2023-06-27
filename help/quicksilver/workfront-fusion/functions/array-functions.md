@@ -3,19 +3,19 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Funzioni dell'array in Adobe Workfront Fusion
-description: Le seguenti funzioni dell'array sono disponibili nel pannello di mappatura di Adobe Workfront Fusion.
+title: Funzioni array in Adobe Workfront Fusion
+description: Nel pannello di mappatura di Adobe Workfront Fusion sono disponibili le seguenti funzioni di array.
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
 
-# Funzioni dell&#39;array in Adobe Workfront Fusion
+# Funzioni array in Adobe Workfront Fusion
 
 ## Requisiti di accesso
 
@@ -35,175 +35,179 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione del lavoro</p>  </td> 
+   <td>
+   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Oppure</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL add (array; valore1; value2; ...]
+## [!UICONTROL aggiungi (matrice; valore1; valore2; ...)]
 
-Aggiunge a una matrice i valori specificati nei parametri e restituisce tale array.
+Aggiunge i valori specificati nei parametri a un array e restituisce tale array.
 
 ## [!UICONTROL contiene (array; valore)]
 
-Verifica se una matrice contiene il valore.
+Verifica se un array contiene il valore.
 
-## [!UICONTROL distinto (array; [key])]
+## [!UICONTROL distinct (array; [chiave])]
 
-Rimuove i duplicati all’interno di una matrice. Utilizza il &quot;[!UICONTROL key]&quot; argomento per accedere alle proprietà all’interno di oggetti complessi. Per accedere alle proprietà nidificate, utilizza la notazione del punto. Il primo elemento di una matrice è l&#39;indice 1.
+Rimuove i duplicati all&#39;interno di un array. Utilizza la &quot;[!UICONTROL chiave]&quot; per accedere alle proprietà all&#39;interno di oggetti complessi. Per accedere alle proprietà nidificate, utilizza la notazione del punto. Il primo elemento di un array è l&#39;indice 1.
 
 >[!INFO]
 >
 >**Esempio:** `distinct(Contacts[];name)`
 >
->Rimuove i duplicati all&#39;interno di una matrice di contatti confrontando la proprietà &quot;name&quot;
+>Rimuove i duplicati in un array di contatti confrontando la proprietà &quot;name&quot;
 
-## [!UICONTROL flatten (array)]
+## [!UICONTROL appiattisci (array)]
 
-Crea un nuovo array con tutti gli elementi di sottoarray concatenati, in modo ricorsivo, fino alla profondità specificata.
+Crea un nuovo array con tutti gli elementi sub-array concatenati in esso, in modo ricorsivo, fino alla profondità specificata.
 
 
 ## [!UICONTROL join (array; separatore)]
 
-Concatena tutti gli elementi di un array in una stringa utilizzando il separatore specificato tra ciascun elemento.
+Concatena tutti gli elementi di un array in una stringa utilizzando il separatore specificato tra ogni elemento.
 
-## [!UICONTROL keys (oggetto)]
+## [!UICONTROL tasti (oggetto)]
 
-Restituisce una matrice delle proprietà di un oggetto o array specificato.
+Restituisce una matrice delle proprietà di un determinato oggetto o matrice.
 
-## [!UICONTROL length (array)]
+## [!UICONTROL lunghezza (array)]
 
 Restituisce il numero di elementi in una matrice.
 
-## [!UICONTROL mappa (matrice complessa; chiave;[chiave per il filtro];[possibili valori di filtro])]
+## [!UICONTROL mappa (array complesso; chiave;[chiave per il filtro];[valori possibili per il filtro])]
 
-Restituisce una matrice primitiva contenente i valori di una matrice complessa. Questa funzione consente di filtrare i valori. Utilizza i nomi delle variabili non elaborate per le chiavi.
+Restituisce una matrice primitiva contenente i valori di una matrice complessa. Questa funzione consente di filtrare i valori. Utilizza nomi di variabili non elaborati per le chiavi.
 
 >[!INFO]
 >
 >**Esempi:**
 >
 >* `map(Emails[];email)`
-  >
+>
 >  Restituisce un array primitivo con le e-mail
 >
 >* `map(Emails[];email;label;work;home)`
-  >
->  Restituisce un array primitivo con e-mail con un&#39;etichetta uguale a lavoro o a casa
+>
+>  Restituisce un array primitivo con e-mail aventi un’etichetta uguale a lavoro o casa
 
-Per ulteriori informazioni, consulta [Mappare informazioni da un modulo a un altro in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
+Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
 
 
-## [!UICONTROL merge (array1); array2; ...]
+## [!UICONTROL merge (matrice1; matrice2; ...)]
 
 Unisce uno o più array in un unico array.
 
-## [!UICONTROL remove (array; valore1; value2; ...]
+## [!UICONTROL rimuovere (matrice; valore1; valore2; ...)]
 
-Rimuove i valori specificati nei parametri di una matrice. Questa funzione è efficace solo su array primitivi di testo o numeri.
+Rimuove i valori specificati nei parametri di un array. Questa funzione è efficace solo su array primitivi di testo o numeri.
 
-## [!UICONTROL reverse (array)]
+## [!UICONTROL inverso (array)]
 
-Il primo elemento dell’array diventa l’ultimo, il secondo diventa il successivo all’ultimo e così via.
+Il primo elemento dell’array diventa l’ultimo elemento, il secondo diventa il successivo-ultimo e così via.
 
-## [!UICONTROL sezione (matrice); inizio; [end])]
+## [!UICONTROL slice (array; start; [fine])]
 
 Restituisce una nuova matrice contenente solo gli elementi selezionati.
 
-## [!UICONTROL sort (array; [ordine]; [key])]
+## [!UICONTROL sort (array; [ordine]; [chiave])]
 
-Ordina i valori di una matrice. I valori validi della `order` sono:
+Ordina i valori di un array. I valori validi della proprietà `order` I parametri sono:
 
 * `asc`
 
-   (predefinito) - Ordine crescente: 1, 2, 3, ... per il tipo Numero. A, B, C, a, b, c, ... per tipo Testo
+  (impostazione predefinita) - Ordine crescente: 1, 2, 3, ... per il tipo Numero. A, B, C, a, b, c, ... per il tipo Testo
 
 * `desc`
 
-   ordine decrescente: ..., 3, 2, 1 per il tipo Numero. ..., c, b, a, C, B, A per il tipo Testo.
+  ordine decrescente: ..., 3, 2, 1 per il tipo Numero. ..., c, b, a, C, B, A per il tipo Testo.
 
 * `asc ci`
 
-   ordine crescente senza distinzione tra maiuscole e minuscole: A, a, B, b, C, c, ... per il tipo Testo.
+  ordine crescente senza distinzione tra maiuscole e minuscole: A, a, B, b, C, c, ... per il tipo Testo.
 
 * `desc ci`
 
-   ordine decrescente senza distinzione tra maiuscole e minuscole: ..., C, c, B, b, A, a per il tipo Testo.
+  ordine decrescente senza distinzione tra maiuscole e minuscole: ..., C, c, B, b, A, a per il tipo Testo.
 
-Utilizza la `key` per accedere alle proprietà all’interno di oggetti complessi.
+Utilizza il `key` per accedere alle proprietà all&#39;interno di oggetti complessi.
 
-Utilizza i nomi delle variabili non elaborate per le chiavi.
+Utilizza nomi di variabili non elaborati per le chiavi.
 
 Per accedere alle proprietà nidificate, utilizza la notazione del punto.
 
-Il primo elemento di una matrice è l&#39;indice 1.
+Il primo elemento di un array è l&#39;indice 1.
 
 >[!INFO]
 >
 >**Esempi:**
 >
 >* `sort(Contacts[];name)`
-   >
-   >    Ordina un array di contatti in base alla proprietà &quot;name&quot; in ordine crescente predefinito
+>
+>    Ordina un array di contatti in base alla proprietà &quot;name&quot; in ordine crescente predefinito
 >
 >* `sort(Contacts[];desc;name)`
-   >
-   >   Ordina un array di contatti in base alla proprietà &quot;name&quot; in ordine decrescente
+>
+>   Ordina un array di contatti in base alla proprietà &quot;name&quot; in ordine decrescente
 >
 >* `sort(Contacts[];asc ci;name)`
-   >
-   >    Ordina una matrice di contatti in base alla proprietà &quot;name&quot; in ordine crescente senza distinzione tra maiuscole e minuscole
+>
+>    Ordina un array di contatti in base alla proprietà &quot;name&quot;, in ordine crescente senza distinzione tra maiuscole e minuscole
 >
 >* `sort(Emails[];sender.name)`
-   >
-   >    Ordina una matrice di e-mail dalla proprietà &quot;sender.name&quot;
-
+>
+>    Ordina un array di e-mail in base alla proprietà &quot;sender.name&quot;
 
 ## [!UICONTROL arrayDifference [array1, array2, modalità]]
 
 Restituisce la differenza tra due array.
 
-Immettere uno dei seguenti valori per il `mode` parametro .
+Immetti uno dei seguenti valori per `mode` parametro.
 
-* `classic`: Restituisce un nuovo array contenente tutti gli elementi di `array1` che non esistono in `array2`.
+* `classic`: restituisce un nuovo array che contiene tutti gli elementi di `array1` che non esistono in `array2`.
 
-* `symmetric`: Restituisce una matrice di elementi non comuni a entrambi gli array.
+* `symmetric`: restituisce una matrice di elementi che non sono comuni a entrambe le matrici.
 
-   In altre parole, la funzione restituisce un array che contiene tutti gli elementi di `array1` che non esistono in `array2`e tutti gli elementi `array2` che non esistono in `array1`.
+  In altre parole, la funzione restituisce un array che contiene tutti gli elementi di `array1` che non esistono in `array2`, e tutti gli elementi di `array2` che non esistono in `array1`.
 
-   >[!INFO]
-   >
-   >**Esempi:**
-   >
-   >Dati i seguenti array:
-   >
-   >
-   ```
-   >myArray = [1,2,3,4,5]
-   >```
-   >
-   >
-   ```
-   >yourArray = [3,4,5,6,7]
-   >```
-   >
-   >* `arrayDifference [myArray, yourArray, classic]`
-      >
-      >    Restituisce `[1,2]`
-   >
-   >* `arrayDifference [yourArray, myArray, classic]`
-      >
-      >    Restituisce `[6,7]`
-   >
-   >* `arrayDifference [myArray, yourArray, symmetric]`
-      >
-      >    Restituisce `[1,2,6,7]`
-
+  >[!INFO]
+  >
+  >**Esempi:**
+  >
+  >Considerati i seguenti array:
+  >
+  >```
+  >myArray = [1,2,3,4,5]
+  >```
+  >
+  >```
+  >yourArray = [3,4,5,6,7]
+  >```
+  >
+  >* `arrayDifference [myArray, yourArray, classic]`
+  >
+  >    Restituisce `[1,2]`
+  >
+  >* `arrayDifference [yourArray, myArray, classic]`
+  >
+  >    Restituisce `[6,7]`
+  >
+  >* `arrayDifference [myArray, yourArray, symmetric]`
+  >
+  >    Restituisce `[1,2,6,7]`

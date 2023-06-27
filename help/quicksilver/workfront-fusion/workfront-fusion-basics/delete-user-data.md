@@ -2,28 +2,28 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Elimina i dati utente in [!DNL Adobe Workfront Fusion]
-description: È possibile memorizzare ed eliminare i dati utente nel [!DNL Adobe Workfront Fusion] conto.
+title: Elimina dati utente in [!DNL Adobe Workfront Fusion]
+description: Puoi archiviare ed eliminare dati utente nel tuo [!DNL Adobe Workfront Fusion] account.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
-source-git-commit: aa58a64ea6b09192f93fa89a42a4bf6731052d10
+source-git-commit: 759472ada4595625e3a02b55c455564e24343743
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '202'
 ht-degree: 1%
 
 ---
 
-# Elimina i dati utente in [!DNL Adobe Workfront Fusion]
+# Elimina dati utente in [!DNL Adobe Workfront Fusion]
 
-È possibile memorizzare ed eliminare i dati utente nelle seguenti aree nel [!DNL Adobe Workfront Fusion] account:
+Puoi archiviare ed eliminare i dati utente nelle seguenti aree del tuo [!DNL Adobe Workfront Fusion] account:
 
 * [!UICONTROL Scenario]
 * [!UICONTROL Connessioni]
 * [!UICONTROL Webhook]
 * [!UICONTROL Chiavi]
 * [!UICONTROL Dispositivi]
-* [!UICONTROL Archiviazione dati]
+* [!UICONTROL Archivi dati]
 * [!UICONTROL Profili utente]
 
 ## Requisiti di accesso
@@ -44,26 +44,30 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione del lavoro</p>   </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Eliminare i dati utente
+## Elimina dati utente
 
 Per eliminare i dati utente:
 
 1. Fai clic sull’area nel pannello a sinistra .
 
-   Ad esempio, se desideri eliminare uno scenario, fai clic su **[!UICONTROL Scenario]** nel pannello a sinistra.
+   Ad esempio, per eliminare uno scenario, fai clic su **[!UICONTROL Scenario]** nel pannello a sinistra.
 
 1. Fare clic sulla freccia rivolta verso il basso a destra dell&#39;elemento che si desidera eliminare, quindi fare clic su **[!UICONTROL Elimina]**.
-1. Fai clic su **[!UICONTROL Veramente]** per confermare.
+1. Clic **[!UICONTROL Davvero]** per confermare.

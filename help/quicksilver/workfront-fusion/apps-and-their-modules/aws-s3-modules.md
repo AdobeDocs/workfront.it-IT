@@ -5,20 +5,20 @@ product-area: workfront-integrations
 keywords: connettore
 navigation-topic: apps-and-their-modules
 title: Moduli AWS S3
-description: La [!DNL Adobe Workfront Fusion AWS] I moduli S3 consentono di eseguire operazioni sui bucket S3.
+description: Il [!DNL Adobe Workfront Fusion AWS] I moduli S3 consentono di eseguire operazioni sui bucket S3.
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 0%
+source-wordcount: '1429'
+ht-degree: 1%
 
 ---
 
 # Moduli AWS S3
 
-La [!DNL Adobe Workfront Fusion AWS] I moduli S3 consentono di eseguire operazioni sui bucket S3.
+Il [!DNL Adobe Workfront Fusion AWS] I moduli S3 consentono di eseguire operazioni sui bucket S3.
 
 ## Requisiti di accesso
 
@@ -30,7 +30,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] piano*</td>
-  <td> <p>[!UICONTROL Pro] o superiore</p> </td>
+  <td> <p>[!UICONTROL Pro] o versione successiva</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td>
@@ -38,47 +38,55 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p> </td> 
+   <td>
+   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Oppure</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisiti
 
-Per utilizzare [!UICONTROL AWS S3] moduli, è necessario disporre di un [!DNL Amazon Web Service] conto.
+Da utilizzare [!UICONTROL AWS S3] moduli, è necessario disporre di un [!DNL Amazon Web Service] account.
 
 ## Connetti [!DNL AWS] a [!DNL Workfront Fusion] {#connect-aws-to-workfront-fusion}
 
-Connessione [!DNL AWS S3] a [!DNL Workfront Fusion] è necessario collegare il [!DNL AWS] account a [!DNL Workfront Fusion]. Per farlo, devi prima creare un utente API in [!DNL AWS] [!UICONTROL IAM].
+Per connettersi [!DNL AWS S3] a [!DNL Workfront Fusion] è necessario collegare il [!DNL AWS] account a [!DNL Workfront Fusion]. Per farlo, devi prima creare un utente API in [!DNL AWS] [!UICONTROL IAM].
 
-1. Accedi al tuo [!DNL AWS] [!UICONTROL IAM] conto.
-1. Passa a **[!UICONTROL Gestione di identità e accesso]** > **[!UICONTROL Gestione degli accessi]** > **[!UICONTROL Utenti]**.
+1. Accedi al tuo [!DNL AWS] [!UICONTROL IAM] account.
+1. Accedi a **[!UICONTROL Gestione di identità e accessi]** > **[!UICONTROL Gestione degli accessi]** > **[!UICONTROL Utenti]**.
 
-1. Fai clic su **[!UICONTROL Aggiungi utente]**.
-1. Immetti il nome del nuovo utente e seleziona il **[!UICONTROL Accesso programmatico]** in [!UICONTROL Tipo di accesso] sezione .
-1. Fai clic su **[!UICONTROL Allegare direttamente le politiche esistenti]**, quindi cerca **[!UICONTROL AmazonS3FullAccess]** nella barra di ricerca. Fai clic su di esso quando viene visualizzato, quindi fai clic su **[!UICONTROL Successivo]**.
+1. Clic **[!UICONTROL Aggiungi utente]**.
+1. Inserisci il nome del nuovo utente e seleziona la **[!UICONTROL Accesso programmatico]** opzione in [!UICONTROL Tipo di accesso] sezione.
+1. Clic **[!UICONTROL Allega direttamente i criteri esistenti]**, quindi cerca **[!UICONTROL AmazonS3FullAccess]** nella barra di ricerca. Fai clic su di esso quando viene visualizzato, quindi fai clic su **[!UICONTROL Successivo]**.
 
-1. Scorri le altre finestre di dialogo, quindi fai clic su **[!UICONTROL Crea utente]**.
-1. Copia i dati forniti **[!UICONTROL ID chiave di accesso]** e **[!UICONTROL Chiave di accesso segreta]**.
+1. Passa alle altre finestre di dialogo, quindi fai clic su **[!UICONTROL Crea utente]**.
+1. Copia il fornito **[!UICONTROL ID chiave di accesso]** e **[!UICONTROL Chiave di accesso segreta]**.
 
-1. Vai a [!DNL Workfront Fusion] e aprire [!DNL AWS S3] del modulo **[!UICONTROL Creare una connessione]** finestra di dialogo.
-1. Inserisci il [!UICONTROL ID chiave di accesso] e [!UICONTROL Chiave di accesso segreta] dal passaggio 7 ai rispettivi campi e fai clic su **[!UICONTROL Continua]** stabilire il collegamento.
+1. Vai a [!DNL Workfront Fusion] e apri [!DNL AWS S3] del modulo **[!UICONTROL Creare una connessione]** .
+1. Inserisci il [!UICONTROL ID chiave di accesso] e [!UICONTROL Chiave di accesso segreta] dal passaggio 7 ai rispettivi campi e fare clic su **[!UICONTROL Continua]** per stabilire la connessione.
 
-Il collegamento è stato stabilito. È possibile procedere alla configurazione del modulo.
+La connessione è stata stabilita. Puoi procedere con la configurazione del modulo.
 
 ## [!DNL AWS S3] moduli e relativi campi
 
-Quando si configura [!DNL AWS S3] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Oltre a questi, ulteriori [!DNL AWS S3] potrebbero essere visualizzati, a seconda di fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
+Quando si configura [!DNL AWS S3] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Oltre a questi, ulteriori [!DNL AWS S3] I campi potrebbero essere visualizzati in base a fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
 
-Se trovi il pulsante mappa sopra un campo o una funzione, puoi utilizzarlo per impostare variabili e funzioni per quel campo. Per ulteriori informazioni, consulta [Mappare informazioni da un modulo a un altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possibile utilizzarlo per impostare variabili e funzioni per tale campo. Per ulteriori informazioni, consulta [Mappare le informazioni da un modulo all’altro in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -100,15 +108,15 @@ Se trovi il pulsante mappa sopra un campo o una funzione, puoi utilizzarlo per i
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni su come collegare le [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name] </td> 
-   <td> <p>Inserisci il nome del nuovo bucket.</p> </td> 
+   <td> <p>Immetti il nome del nuovo bucket.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
-   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> nella documentazione di AWS.</p> </td> 
+   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione di <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> nella documentazione di AWS.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -123,15 +131,15 @@ Scarica un file da un bucket.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni su come collegare le [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
-   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> in [!DNL AWS] documentazione.</p> </td> 
+   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione di <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> nel [!DNL AWS] documentazione.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bucket] </td> 
-   <td> <p>Seleziona il bucket da cui vuoi scaricare il file.</p> </td> 
+   <td> <p>Seleziona il bucket da cui desideri scaricare il file.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Path]</p> </td> 
@@ -148,15 +156,15 @@ Scarica un file da un bucket.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni su come collegare le [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
-   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> in [!DNL AWS] documentazione.</p> </td> 
+   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione di <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> nel [!DNL AWS] documentazione.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Folder] (facoltativo) </p> </td> 
-   <td> <p>Specifica la cartella di destinazione in cui caricare un file.</p> </td> 
+   <td> <p>Specificare la cartella di destinazione in cui si desidera caricare un file.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File di origine]</td> 
@@ -164,14 +172,14 @@ Scarica un file da un bucket.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Headers] (facoltativo)</p> </td> 
-   <td> <p> Inserisci intestazioni di richiesta. Le intestazioni disponibili sono disponibili nella sezione <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObject.html">[!DNL AWS S3] documentazione - oggetto [!UICONTROL PUT]</a>.</p> </td> 
+   <td> <p> Inserire le intestazioni della richiesta. Le intestazioni disponibili si trovano nella sezione <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObject.html">[!DNL AWS S3] documentazione - Oggetto [!UICONTROL PUT]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Effettuare una chiamata API]
 
-Per una discussione dettagliata [!DNL Amazon S3] API, vedi [[!DNL Amazon S3] [!UICONTROL REST] Introduzione API](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html).
+Per una discussione dettagliata del [!DNL Amazon S3] API, vedi [[!DNL Amazon S3] [!UICONTROL REST] Introduzione all’API](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html).
 
 <table style="table-layout:auto">
  <col> 
@@ -179,23 +187,23 @@ Per una discussione dettagliata [!DNL Amazon S3] API, vedi [[!DNL Amazon S3] [!U
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni su come collegare le [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Region] </td> 
-   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> in [!DNL AWS] documentazione.</p> </td> 
+   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione di <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> nel [!DNL AWS] documentazione.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL URL]</td> 
    <td> <p>URL Immettere un URL host. Il percorso deve essere relativo a<code> https://s3.&lt;selected-region>.amazonaws.com/</code>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL, Metodo]</td> 
-   <td> <p>Seleziona il metodo di richiesta [!UICONTROL HTTP] necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td>[!UICONTROL Method]</td> 
+   <td> <p>Seleziona il metodo di richiesta [!UICONTROL HTTP] necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metodi di richiesta [!UICONTROL HTTP] in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Headers]</td> 
-   <td> <p>Aggiungi un'intestazione di richiesta. Puoi utilizzare le seguenti intestazioni di richiesta comuni. Per ulteriori intestazioni di richiesta fare riferimento a <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonRequestHeaders.html">[!DNL AWS S3] Documentazione API</a>.</p> <p>[!DNL Workfront Fusion] aggiunge automaticamente le intestazioni di autorizzazione.</p> 
+   <td> <p>Aggiungi un’intestazione di richiesta. Puoi utilizzare le seguenti intestazioni di richiesta comuni. Per ulteriori intestazioni di richiesta consulta <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonRequestHeaders.html">[!DNL AWS S3] Documentazione API</a>.</p> <p>[!DNL Workfront Fusion] aggiunge automaticamente le intestazioni di autorizzazione.</p> 
     <table style="table-layout:auto">
      <col> 
      <col> 
@@ -208,7 +216,7 @@ Per una discussione dettagliata [!DNL Amazon S3] API, vedi [[!DNL Amazon S3] [!U
      <tbody> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL Content-Length]</p> </td> 
-       <td> <p>Lunghezza del messaggio (senza le intestazioni) in base alla RFC 2616. Questa intestazione è necessaria per [!UICONTROL PUT]s e le operazioni che caricano XML, come log e ACL.</p> </td> 
+       <td> <p>Lunghezza del messaggio (senza intestazioni) in base alla RFC 2616. Questa intestazione è necessaria per [!UICONTROL PUT]s e per le operazioni che caricano XML, ad esempio log e ACL.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL Content-Type]</p> </td> 
@@ -216,46 +224,46 @@ Per una discussione dettagliata [!DNL Amazon S3] API, vedi [[!DNL Amazon S3] [!U
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL Content-MD5]</p> </td> 
-       <td> <p>Il riepilogo MD5 a 128 bit codificato base64 del messaggio (senza le intestazioni) in base alla RFC 1864. Puoi utilizzare questa intestazione come controllo dell’integrità del messaggio per verificare che i dati siano gli stessi che sono stati inviati originariamente. Anche se opzionale, si consiglia di utilizzare il meccanismo [!UICONTROL Content-MD5] come controllo dell’integrità end-to-end. Per ulteriori informazioni sull'autenticazione della richiesta REST [!UICONTROL REST], vai a <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html?r=1821">Autenticazione REST</a> in <i>[!DNL Amazon] Guida per gli sviluppatori di servizi di storage semplici</i>.</p> </td> 
+       <td> <p>Il digest MD5 a 128 bit codificato in base a base64 del messaggio (senza le intestazioni) in base alla RFC 1864. Questa intestazione può essere utilizzata come controllo di integrità del messaggio per verificare che i dati siano gli stessi dati inviati originariamente. Sebbene sia opzionale, si consiglia di utilizzare il meccanismo [!UICONTROL Content-MD5] come controllo di integrità end-to-end. Per ulteriori informazioni sull'autenticazione della richiesta REST, visitare il sito Web all'indirizzo <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html?r=1821">Autenticazione [!UICONTROL REST]</a> nel <i>[!DNL Amazon] Guida per gli sviluppatori di Simple Storage Service</i>.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL Date]</p> </td> 
-       <td> <p>Data e ora correnti in base al richiedente. Esempio: <code>Wed, 01 Mar 2006 12:00:00 GMT</code>. Quando specifichi la <code>Authorization </code>è necessario specificare <code>x-amz-date</code> o <code>Date </code>intestazione.</p> </td> 
+       <td> <p>Data e ora correnti in base al richiedente. Esempio: <code>Wed, 01 Mar 2006 12:00:00 GMT</code>. Quando si specifica <code>Authorization </code>, è necessario specificare <code>x-amz-date</code> o <code>Date </code>intestazione.</p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"> <p>[!UICONTROL previsto]</p> </td> 
-       <td> <p>Quando l'applicazione utilizza [!UICONTROL 100-continue], non invia il corpo della richiesta fino a quando non riceve una conferma. Se il messaggio viene rifiutato in base alle intestazioni, il corpo del messaggio non viene inviato. Puoi utilizzare questa intestazione solo se invii un corpo.</p> <p>Valori validi: [!UICONTROL 100-continue]</p> </td> 
+       <td role="rowheader"> <p>[!UICONTROL expected]</p> </td> 
+       <td> <p>Quando l'applicazione utilizza [!UICONTROL 100-continue], non invia il corpo della richiesta finché non riceve una conferma. Se il messaggio viene rifiutato in base alle intestazioni, il corpo del messaggio non viene inviato. Questa intestazione può essere utilizzata solo se invii un corpo.</p> <p>Valori validi: [!UICONTROL 100-continue]</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL Host]</p> </td> 
-       <td> <p>Per le richieste in stile percorso, il valore è <code>s3.amazonaws.com</code>. Per le richieste in stile virtuale, il valore è <code>BucketName.s3.amazonaws.com</code>. Per ulteriori informazioni, consulta <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html">Hosting virtuale</a> in <i>[!DNL Amazon] Guida per gli sviluppatori di servizi di storage semplici</i>.</p> <p>Questa intestazione è necessaria per HTTP 1.1 (la maggior parte dei toolkit aggiunge automaticamente questa intestazione); facoltativo per le richieste HTTP/1.0.</p> </td> 
+       <td> <p>Per le richieste di tipo percorso, il valore è <code>s3.amazonaws.com</code>. Per le richieste in stile virtuale, il valore è <code>BucketName.s3.amazonaws.com</code>. Per ulteriori informazioni, consulta <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html">Hosting virtuale</a> nel <i>[!DNL Amazon] Guida per gli sviluppatori di Simple Storage Service</i>.</p> <p>Questa intestazione è obbligatoria per HTTP 1.1 (la maggior parte dei toolkit aggiunge questa intestazione automaticamente); facoltativa per le richieste HTTP/1.0.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL x-amz-content-sha256]</p> </td> 
-       <td> <p>Quando si utilizza la versione 4 della firma per autenticare la richiesta, questa intestazione fornisce un hash del payload della richiesta. Durante il caricamento di un oggetto nei blocchi, imposta il valore su <code>STREAMING-AWS4-HMAC-SHA256-PAYLOAD</code> per indicare che la firma copre solo le intestazioni e che non è presente alcun payload. Per ulteriori informazioni, consulta <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-streaming.html">Calcoli delle firme per l’intestazione Autorizzazione: Trasferimento del payload in più blocchi (caricamento con blocchi) ([!DNL AWS] Firma versione 4)</a>.</p> </td> 
+       <td> <p>Quando si utilizza la firma versione 4 per autenticare la richiesta, questa intestazione fornisce un hash del payload della richiesta. Quando si carica un oggetto in blocchi, impostare il valore su <code>STREAMING-AWS4-HMAC-SHA256-PAYLOAD</code> per indicare che la firma copre solo le intestazioni e che non è presente alcun payload. Per ulteriori informazioni, consulta <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-streaming.html">Calcoli della firma per l’intestazione di autorizzazione: trasferimento del payload in più blocchi (caricamento a blocchi) ([!DNL AWS] Firma versione 4)</a>.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL x-amz-date]</p> </td> 
-       <td> <p>Data e ora correnti in base al richiedente. Esempio: <code>Wed, 01 Mar 2006 12:00:00 GMT</code>. Quando specifichi la <code>Authorization </code>è necessario specificare <code>x-amz-date</code> o <code>Date </code>intestazione. Se specifichi entrambi, il valore specificato per <code>x-amz-date</code> l’intestazione ha la precedenza.</p> </td> 
+       <td> <p>Data e ora correnti in base al richiedente. Esempio: <code>Wed, 01 Mar 2006 12:00:00 GMT</code>. Quando si specifica <code>Authorization </code>, è necessario specificare <code>x-amz-date</code> o <code>Date </code>intestazione. Se si specificano entrambi, il valore specificato per <code>x-amz-date</code> l’intestazione ha la precedenza.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL x-amz-security-token]</p> </td> 
        <td> <p>Questa intestazione può essere utilizzata nei seguenti scenari:</p> 
         <ul> 
-         <li>Fornire token di sicurezza per [!DNL Amazon DevPay] operazioni. Ogni richiesta che utilizza [!DNL Amazon DevPay] richiede due <code>x-amz-security-token</code> intestazioni: uno per il token prodotto e uno per il token utente. Quando [!DNL Amazon S3] riceve una richiesta autenticata e confronta la firma calcolata con la firma fornita. Intestazioni multivalore formattate in modo errato utilizzate per calcolare una firma possono causare problemi di autenticazione.</li> 
-         <li>Fornire un token di sicurezza quando si utilizzano credenziali di sicurezza temporanee. Quando esegui richieste utilizzando le credenziali di sicurezza temporanee ottenute da IAM, devi fornire un token di sicurezza utilizzando questa intestazione. Per ulteriori informazioni sulle credenziali di sicurezza temporanee, vedere Esecuzione delle richieste.</li> 
-        </ul> <p>Questa intestazione è necessaria per le richieste che utilizzano [!DNL Amazon DevPay] e le richieste firmate utilizzando le credenziali di sicurezza temporanee.</p> </td> 
+         <li>Fornire token di sicurezza per [!DNL Amazon DevPay] operazioni. Ogni richiesta che utilizza [!DNL Amazon DevPay] richiede due <code>x-amz-security-token</code> intestazioni: una per il token di prodotto e una per il token utente. Quando [!DNL Amazon S3] riceve una richiesta autenticata, confronta la firma calcolata con la firma fornita. Le intestazioni con più valori formattate in modo non corretto utilizzate per calcolare una firma possono causare problemi di autenticazione.</li> 
+         <li>Fornisci un token di sicurezza quando utilizzi credenziali di sicurezza temporanee. Quando effettui richieste utilizzando le credenziali di sicurezza temporanee ottenute da IAM, devi fornire un token di sicurezza utilizzando questa intestazione. Per ulteriori informazioni sulle credenziali di sicurezza temporanee, vedere Creazione di richieste.</li> 
+        </ul> <p>Questa intestazione è necessaria per le richieste che utilizzano [!DNL Amazon DevPay] e le richieste firmate utilizzando credenziali di sicurezza temporanee.</p> </td> 
       </tr> 
      </tbody> 
     </table> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Query String]</td> 
+   <td>[!UICONTROL Stringa Di Query]</td> 
    <td> <p>Aggiungi le stringhe di query desiderate, ad esempio parametri o campi modulo.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Body]</td> 
-   <td> <p>Aggiungi il contenuto del corpo per la chiamata API sotto forma di un oggetto JSON standard.</p> <p>Nota:   <p>Quando si utilizzano istruzioni condizionali come <code>if</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.</p> 
+   <td> <p>Aggiungi il contenuto body per la chiamata API sotto forma di oggetto JSON standard.</p> <p>Nota:   <p>Quando si utilizzano istruzioni condizionali quali <code>if</code> nel JSON, inserisci le virgolette al di fuori dell’istruzione condizionale.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -265,10 +273,10 @@ Per una discussione dettagliata [!DNL Amazon S3] API, vedi [[!DNL Amazon S3] [!U
 
 ### Ricerche
 
-* [[!UICONTROL File elenco]](#list-files)
+* [[!UICONTROL File di elenco]](#list-files)
 * [[!UICONTROL Cartelle elenco]](#list-folders)
 
-#### [!UICONTROL File elenco]
+#### [!UICONTROL File di elenco]
 
 Restituisce un elenco di file da una posizione specificata.
 
@@ -278,15 +286,15 @@ Restituisce un elenco di file da una posizione specificata.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni su come collegare le [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
-   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> in [!DNL AWS] documentazione.</p> </td> 
+   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione di <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> nel [!DNL AWS] documentazione.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bucket] </td> 
-   <td> <p>Seleziona la [!DNL Amazon S3] bucket in cui si desidera cercare i file.</p> </td> 
+   <td> <p>Seleziona la [!DNL Amazon S3] bucket in cui cercare i file.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Prefix] (facoltativo)</p> </td> 
@@ -305,15 +313,15 @@ Restituisce un elenco di cartelle da una posizione specificata.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Per istruzioni su come collegare le [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
+   <td> <p>Per istruzioni sulla connessione [!DNL AWS] account a [!DNL Workfront Fusion], vedi <a href="#connect-aws-to-workfront-fusion" class="MCXref xref">Connetti [!DNL AWS] a [!DNL Workfront Fusion]</a> in questo articolo.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
-   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> nella documentazione di AWS.</p> </td> 
+   <td> <p>Seleziona l’endpoint regionale. Per ulteriori informazioni, consulta la discussione di <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">endpoint regionali</a> nella documentazione di AWS.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bucket] </td> 
-   <td> <p>Seleziona la [!DNL Amazon S3] bucket che si desidera cercare nelle cartelle.</p> </td> 
+   <td> <p>Seleziona la [!DNL Amazon S3] bucket in cui cercare le cartelle.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Prefix] (facoltativo)</p> </td> 

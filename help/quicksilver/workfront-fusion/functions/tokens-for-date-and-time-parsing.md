@@ -8,10 +8,10 @@ description: I seguenti token per l’analisi di data e ora sono disponibili nel
 author: Becky
 feature: Workfront Fusion
 exl-id: f5a92ccb-cdc6-4f7d-8373-31fd17d314d3
-source-git-commit: c57a796ccbfb36bce58d49345e7515dd524604c5
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 7%
+source-wordcount: '278'
+ht-degree: 6%
 
 ---
 
@@ -35,20 +35,28 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione del lavoro</p>  </td> 
+   <td>
+   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Oppure</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Token per anno, mese e giorno
+## Token di anno, mese e giorno
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +64,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
  <col> 
  <thead> 
   <tr> 
-   <th>Ingresso </th> 
+   <th>Input </th> 
    <th>Esempio </th> 
    <th> <p>Descrizione</p> </th> 
   </tr> 
@@ -70,12 +78,12 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
   <tr> 
    <td><code>YY</code></td> 
    <td><code>14</code></td> 
-   <td> <p>anno a due cifre</p> </td> 
+   <td> <p>Anno a 2 cifre</p> </td> 
   </tr> 
   <tr> 
    <td><code>Y</code> </td> 
    <td><code>-25</code> </td> 
-   <td> <p>[!UICONTROL Anno con qualsiasi numero di cifre e segno]</p> </td> 
+   <td> <p>[!UICONTROL Year con un numero qualsiasi di cifre e segno]</p> </td> 
   </tr> 
   <tr> 
    <td><code>Q</code> </td> 
@@ -85,7 +93,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
   <tr> 
    <td><code>M MM</code> </td> 
    <td><code>1..12</code> </td> 
-   <td> <p> Numero del mese</p> </td> 
+   <td> <p> Numero mese</p> </td> 
   </tr> 
   <tr> 
    <td><code>MMM MMMM</code> </td> 
@@ -100,7 +108,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
   <tr> 
    <td><code>Do </code> </td> 
    <td><code>1st..31st</code> </td> 
-   <td> <p> Giorno del mese con ordinale</p> </td> 
+   <td> <p> Giorno del mese con numero ordinale</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDD DDDD</code> </td> 
@@ -120,7 +128,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
  </tbody> 
 </table>
 
-## Token settimanali per anno, settimana e giorni feriali
+## Token settimana, settimana e giorno feriale
 
 <table style="table-layout:auto"> 
  <col> 
@@ -128,7 +136,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
  <col> 
  <thead> 
   <tr> 
-   <th>Ingresso </th> 
+   <th>Input </th> 
    <th>Esempio </th> 
    <th> <p>Descrizione</p> </th> 
   </tr> 
@@ -137,22 +145,22 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
   <tr> 
    <td><code>ddd dddd</code> </td> 
    <td><code>Mon...Sunday</code> </td> 
-   <td> <p> Nome del giorno</p> </td> 
+   <td> <p> Nome giorno</p> </td> 
   </tr> 
   <tr> 
    <td><code>GGGG</code> </td> 
    <td><code>2014</code> </td> 
-   <td> <p> Anno della settimana ISO a 4 cifre</p> </td> 
+   <td> <p> ISO a 4 cifre, settimana dell'anno</p> </td> 
   </tr> 
   <tr> 
    <td><code>GG </code> </td> 
    <td><code>14</code> </td> 
-   <td> <p> Anno della settimana ISO 2 cifre</p> </td> 
+   <td> <p> ISO a 2 cifre per settimana</p> </td> 
   </tr> 
   <tr> 
    <td><code>W WW</code> </td> 
    <td><code>1..53</code></td> 
-   <td> <p> Settimana dell'anno ISO</p> </td> 
+   <td> <p> Settimana dell’anno ISO</p> </td> 
   </tr> 
   <tr> 
    <td><code>E</code> </td> 
@@ -170,7 +178,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
  <col> 
  <thead> 
   <tr> 
-   <th>Ingresso </th> 
+   <th>Input </th> 
    <th>Esempio </th> 
    <th> <p>Descrizione</p> </th> 
   </tr> 
@@ -194,7 +202,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
   <tr> 
    <td><code>a A</code> </td> 
    <td><code>am pm</code> </td> 
-   <td> <p> Post o ante meridiem (Si noti che anche l'unico carattere a p sono considerati validi)</p> </td> 
+   <td> <p> Post o ante meridiem (si noti che anche un carattere a p è considerato valido)</p> </td> 
   </tr> 
   <tr> 
    <td><code>m mm</code> </td> 
@@ -204,12 +212,12 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
   <tr> 
    <td><code>s ss</code> </td> 
    <td><code>0..59</code> </td> 
-   <td> <p> Seconds</p> </td> 
+   <td> <p> Secondi</p> </td> 
   </tr> 
   <tr> 
    <td><code>S SS SSS</code> </td> 
    <td><code>0..999</code> </td> 
-   <td> <p> secondi frazionari</p> </td> 
+   <td> <p> Secondi frazionari</p> </td> 
   </tr> 
   <tr> 
    <td><code>Z ZZ</code> </td> 

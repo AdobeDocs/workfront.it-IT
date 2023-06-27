@@ -3,19 +3,19 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Risoluzione dei problemi del parser di testo in [!DNL Adobe Workfront Fusion]
-description: Utilizzare queste informazioni se non è possibile ottenere il parser di testo per produrre alcun output.
+title: Risoluzione dei problemi relativi al parser di testo in [!DNL Adobe Workfront Fusion]
+description: Utilizza queste informazioni se non riesci a ottenere un parser di testo per produrre alcun output.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3821cf-d0c6-4917-86e7-90a4872a5795
-source-git-commit: e58ff769015b8c4e34b34eea653f55a296eea371
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
-# Risoluzione dei problemi del parser di testo in [!DNL Adobe Workfront Fusion]
+# Risoluzione dei problemi relativi al parser di testo in [!DNL Adobe Workfront Fusion]
 
 Utilizza queste informazioni se non riesci a ottenere un parser di testo per produrre alcun output.
 
@@ -37,53 +37,61 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p>  </td> 
+   <td>
+   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Oppure</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Risoluzione dei problemi
 
-Esempio di caso, si desidera analizzare il tipo di file di un documento di file &quot;filename.docx&quot; e l’estensione del nome del file varia sempre da DOCX a PDF a CSV.
+Ad esempio, si desidera analizzare il tipo di file di un documento &quot;filename.docx&quot; e l&#39;estensione del nome file varia sempre da DOCX a PDF a CSV.
 
-L&#39;espressione che è possibile scegliere di utilizzare in questo caso è [!DNL \..+]
+L’espressione che puoi scegliere di utilizzare in questo caso è [!DNL \..+]
 
-Se doveste utilizzare questo su espressione regex su regex101.com otterrete una corrispondenza completa.
+Se dovessi utilizzarlo su un’espressione regex su regex101.com otterrai una corrispondenza completa.
 
 ![](assets/regex-expression-350x130.png)
 
-Sull&#39;immagine precedente, l&#39;estensione del file era corretta. Se si prende questo e si tenta di implementarlo nel parser di testo:
+Nell’immagine precedente, l’estensione del file corrispondeva correttamente. Se prendi questo e tenti di implementarlo nel parser di testo:
 
 ![](assets/text-parser-350x602.png)
 
-non otterrete una corrispondenza:
+non riceverai un risultato:
 
 ![](assets/text-parser-you-dont-get-a-match-350x365.png)
 
-Il motivo è che il &quot;i&quot; mostra solo il numero di corrispondenze per corrispondenza, quindi in questo caso abbiamo 2 corrispondenze, quindi dopo il &quot;i&quot; c&#39;è un valore numerico 1 e 2. In questo caso, se devi far corrispondere o trasmettere dati attraverso un filtro solo il secondo valore corrispondente, puoi specificare quale valore è rappresentato dal valore numerico.
+Il motivo è che la &quot;i&quot; mostra solo il numero di corrispondenze per partita, quindi in questo caso abbiamo 2 corrispondenze, quindi dopo la &quot;i&quot; c&#39;è un valore numerico 1 e 2. Il caso d’uso prevede che, se dovesse essere necessario far corrispondere o trasmettere dati attraverso un filtro, solo il secondo valore corrispondente sia possibile specificare quale valore è rappresentato dal valore numerico.
 
 ![](assets/text-parser-matches-350x355.png)
 
-Per ottenere i valori di corrispondenza necessari per aggiungere parentesi alla parte che si desidera analizzare (ad esempio, per estrarre da &quot;filename.docx&quot; - solo &quot;docx&quot;), quindi, in base all&#39;espressione regex che utilizziamo per questo scenario di caso, le parentesi devono essere applicate su \.(.+)
+Per ottenere i valori di corrispondenza necessari per aggiungere parentesi alla parte che si desidera analizzare, ad esempio per estrarre da &quot;filename.docx&quot; - solo &quot;docx&quot;, in base all&#39;espressione regex utilizzata per questo scenario, le parentesi devono essere applicate a \.(.+)
 
-Questo acquisisce il DOCX, lo inserisce in un gruppo e lascia il &quot;&quot;. fuori.
+Questo acquisisce il DOCX, lo inserisce in un gruppo e lascia il &quot;.&quot; fuori di esso.
 
 ![](assets/text-parser-get-matches-350x592.png)
 
-Nell&#39;output mostrato nell&#39;immagine seguente, il gruppo di acquisizione corrisponderà a qualsiasi carattere (ad eccezione dei terminatori di riga).
+Nell&#39;output mostrato nell&#39;immagine seguente, il gruppo di cattura corrisponderà a qualsiasi carattere (ad eccezione dei terminatori di riga).
 
 ![](assets/text-parser-output-350x389.png)
 
-Un&#39;altra soluzione che incorpora anche regex sta utilizzando la funzione di sostituzione
+Un’altra soluzione alternativa che incorpora anche regex è l’utilizzo della funzione replace
 
 `{{replace("abcdefghijklmno pqr stuvw xyz.docx"; "/.\./"; ".")}}`
 
-Quindi sostituisci `abcdefghijklmno pqr stuvw xyz.docx` con la variabile del nome del file effettivo.
+Quindi sostituisci `abcdefghijklmno pqr stuvw xyz.docx` con la variabile effettiva del nome file.

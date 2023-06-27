@@ -2,9 +2,9 @@
 user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 feature-set: Workfront
-source-git-commit: 06dc88ee79736a8a0f4b5667370849827d771ca1
+source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
 workflow-type: tm+mt
-source-wordcount: '13091'
+source-wordcount: '13093'
 ht-degree: 1%
 
 ---
@@ -908,7 +908,7 @@ ht-degree: 1%
          * [Commento sulle bozze in iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [Adobe Workfront per la gestione dei dispositivi mobili (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [Configurare Adobe Workfront per MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [Assistente virtuale per app mobili Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
+         * [Assistente virtuale per app mobile di Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Approvazioni nell’app mobile Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * Utilizza la vista Adobe Workfront {#use-workfront-view}
          * [Utilizza la vista Adobe Workfront](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
@@ -1965,6 +1965,7 @@ ht-degree: 1%
       * [Guardrail delle prestazioni di Adobe Workfront Fusion](workfront-fusion/get-started/fusion-performance-guardrails.md)
       * [Indirizzi IP per l&#39;accesso ad Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Licenze Adobe Workfront Fusion](workfront-fusion/get-started/license-automation-vs-integration.md)
+      * [Operazioni in [!DNL Adobe Workfront Fusion]](workfront-fusion/get-started/operations-in-workfront-fusion.md)
    * Nozioni di base su Adobe Workfront Fusion {#workfront-fusion-basics}
       * [Nozioni di base su Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
       * [Modificare le impostazioni del profilo in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)

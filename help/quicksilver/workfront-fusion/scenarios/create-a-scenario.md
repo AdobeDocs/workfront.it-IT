@@ -7,24 +7,24 @@ description: Le seguenti attività spiegano come creare un [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: a3fd1da2f0d144fe9d6444c038ac21baba3cd848
+source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
 
-# Crea uno scenario in [!DNL Adobe Workfront Fusion]
+# Creare uno scenario in [!DNL Adobe Workfront Fusion]
 
 Le seguenti attività spiegano come creare un [!DNL Adobe Workfront Fusion] scenario.
 
-Per un esercizio che illustra come creare uno scenario di automazione, consulta [Crea uno scenario di automazione pratica in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md).
+Per un esercizio che illustra la creazione di uno scenario di automazione, vedere [Creare uno scenario di automazione delle esercitazioni in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md).
 
 Per un esercizio che illustra come creare uno scenario di integrazione utilizzando i dati forniti, consulta [Creare uno scenario di integrazione pratica in Adobe Workfront Fusion](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
 >[!NOTE]
 >
->Per creare uno scenario da un modello, vedi [Creare scenari con [!DNL Adobe Workfront Fusion] modelli](../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
+>Per creare uno scenario da un modello, consulta [Creare scenari con [!DNL Adobe Workfront Fusion] modelli](../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
 
 ## Requisiti di accesso
 
@@ -44,25 +44,29 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione del lavoro</p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione del lavoro</p>    </td> 
+   <td> <p>[!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Inizia a creare uno scenario
 
-1. Fai clic su **[!UICONTROL Scenari]** ![](assets/scenarios-icon.png) nel pannello a sinistra.
+1. Clic **[!UICONTROL Scenari]** ![](assets/scenarios-icon.png) nel pannello a sinistra.
 
-1. Fai clic su **[!UICONTROL Creare un nuovo scenario]** nell’angolo superiore destro della pagina.
-1. Nella schermata visualizzata (editor dello scenario), se stai creando un nuovo scenario, fai clic su **[!UICONTROL Nuovo scenario]** nell&#39;angolo in alto a sinistra e digitare un nome per lo scenario.
+1. Clic **[!UICONTROL Crea un nuovo scenario]** nell’angolo superiore destro della pagina.
+1. Nella schermata visualizzata (editor scenario), se stai creando un nuovo scenario, fai clic su **[!UICONTROL Nuovo scenario]** nell’angolo in alto a sinistra e digita un nome per lo scenario.
 1. Continua su [Aggiungere un modulo in uno scenario](#add-a-module-in-a-scenario).
 
 ## Aggiungere un modulo in uno scenario
@@ -71,53 +75,53 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
 
    Oppure
 
-   Per aggiungere altri moduli allo scenario, fare clic sull&#39;handle sul lato destro del modulo che si desidera che segua.
+   Per aggiungere altri moduli allo scenario, fai clic sulla maniglia a destra del modulo che desideri che segua.
 
-1. Nella casella visualizzata, trova e fai clic sull’app o sul servizio con cui vuoi iniziare.
+1. Nella casella visualizzata, individua e fai clic sull’app o sul servizio con cui vuoi iniziare.
 
    Tutte le app selezionate in precedenza vengono visualizzate nella casella per un facile accesso e nella **[!UICONTROL Preferiti]** nella parte inferiore dello schermo.
 
-   Se fai clic su **[!UICONTROL Aggiungi un altro modulo]**, i moduli visualizzati dipendono da dove nello scenario in cui si sta aggiungendo il modulo. Alcuni moduli possono essere posizionati solo tra altri moduli e altri solo all’inizio dello scenario.
+   Se si fa clic su **[!UICONTROL Aggiungi un altro modulo]**, i moduli visualizzati dipendono dalla posizione nello scenario in cui si sta aggiungendo il modulo. Alcuni moduli possono essere posizionati solo tra altri moduli, altri solo all’inizio dello scenario.
 
    >[!TIP]
    >
-   >I due tipi più comuni di moduli sono azioni e trigger. Per ulteriori informazioni, consulta [Tipi di moduli](../../workfront-fusion/modules/module-types.md).
+   >I due tipi più comuni di moduli sono le azioni e i trigger. Per ulteriori informazioni, consulta [Tipi di moduli](../../workfront-fusion/modules/module-types.md).
 
-1. Nell’elenco dei moduli visualizzati, fare clic sul primo modulo che si desidera aggiungere allo scenario.
+1. Nell’elenco dei moduli visualizzati, fai clic sul primo modulo che desideri aggiungere allo scenario.
 
-   I moduli visualizzati dipendono dal punto in cui desideri aggiungere un modulo nel tuo scenario. Alcuni moduli possono essere posizionati solo tra altri moduli e altri solo all’inizio dello scenario.
+   I moduli visualizzati dipendono dalla posizione in cui desideri aggiungere un modulo nello scenario. Alcuni moduli possono essere posizionati solo tra altri moduli, altri solo all’inizio dello scenario.
 
-   I due tipi più comuni di moduli sono azioni e trigger. Per ulteriori informazioni, consulta [Tipi di moduli](../../workfront-fusion/modules/module-types.md).
+   I due tipi più comuni di moduli sono le azioni e i trigger. Per ulteriori informazioni, consulta [Tipi di moduli](../../workfront-fusion/modules/module-types.md).
 
-1. Continua su [Collega l’app o il servizio Web del modulo a [!DNL Workfront Fusion]](#connect-the-modules-app-or-web-service-to-workfront-fusion).
+1. Continua su [Connetti l’app o il servizio web del modulo a [!DNL Workfront Fusion]](#connect-the-modules-app-or-web-service-to-workfront-fusion).
 
-## Collega l’app o il servizio Web del modulo a [!DNL Workfront Fusion] {#connect-the-modules-app-or-web-service-to-workfront-fusion}
+## Connetti l’app o il servizio web del modulo a [!DNL Workfront Fusion] {#connect-the-modules-app-or-web-service-to-workfront-fusion}
 
-Moduli Workfront Fusion che si connettono a un&#39;app (ad esempio [!DNL Workfront], [!DNL Salesforce]oppure [!DNL Jira)] la funzione [!UICONTROL Connessione] campo . Qui puoi specificare la connessione che desideri utilizzare per la connessione all’app in questo modulo. È possibile selezionare una connessione esistente dal menu a discesa oppure crearne una nuova.
+Moduli Workfront Fusion che si connettono a un’app (ad esempio [!DNL Workfront], [!DNL Salesforce], o [!DNL Jira)] dispongono di [!UICONTROL Connessione] campo. Qui puoi specificare la connessione da utilizzare per il modulo per la connessione all’app. Puoi selezionare una connessione esistente dal menu a discesa, oppure crearne una nuova.
 
-Quando selezioni o crei una connessione per un’app in uno scenario, altri moduli per quell’app utilizzano automaticamente la stessa connessione, a meno che tu non ne selezioni una diversa quando configuri i moduli successivi.
+Quando selezioni o crei una connessione per un’app in uno scenario, gli altri moduli per tale app utilizzano automaticamente la stessa connessione, a meno che non ne selezioni una diversa durante la configurazione dei moduli successivi.
 
-Per ulteriori informazioni, consulta [Informazioni sulla connessione [!DNL Adobe Workfront Fusion] a un&#39;app o a un servizio](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Per ulteriori informazioni, consulta [Informazioni sulla connessione [!DNL Adobe Workfront Fusion] a un’app o a un servizio](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ![](assets/connection-field-350x169.png)
 
-Creazione di una connessione all&#39;interno di una [!DNL Workfront Fusion] modulo:
+Per creare una connessione in un [!DNL Workfront Fusion] modulo:
 
-1. Fai clic su **[!UICONTROL Aggiungi]** per aprire **[!UICONTROL Creare una connessione]** scatola.
-1. (Facoltativo) Modificare il valore predefinito **[!UICONTROL Nome connessione]**.
-1. (Condizionale) Se l’app richiede impostazioni di connessione avanzate, ad esempio un ID, una chiave o [!UICONTROL segreto], inserisci tali informazioni.
+1. Clic **[!UICONTROL Aggiungi]** per aprire **[!UICONTROL Creare una connessione]** casella.
+1. (Facoltativo) Modifica il valore predefinito **[!UICONTROL Nome connessione]**.
+1. (Condizionale) Se l’app richiede impostazioni di connessione avanzate, ad esempio un ID, una chiave o [!UICONTROL segreto], immetti tali informazioni.
 
-   Potrebbe essere necessario fare clic su **[!UICONTROL Mostra impostazioni avanzate]** per visualizzare i campi in cui è possibile inserire questo tipo di informazioni.
+   Potrebbe essere necessario fare clic su **[!UICONTROL Mostra impostazioni avanzate]** per visualizzare i campi in cui è possibile immettere questo tipo di informazioni.
 
-1. Fai clic su **[!UICONTROL Continua]**.
-1. Nella finestra di accesso visualizzata, immetti le tue credenziali per accedere all’app se non lo hai già fatto.
-1. (Condizionale) Se un **[!UICONTROL Consenti]** viene visualizzato il pulsante , esamina le azioni che il connettore sarà in grado di eseguire, quindi fai clic sul pulsante per collegare l’app a [!DNL Workfront Fusion].
-1. Continua su [Configura il modulo](#configure-the-module).
+1. Clic **[!UICONTROL Continua]**.
+1. Nella finestra di accesso visualizzata, inserisci le credenziali per accedere all’app, se non lo hai già fatto.
+1. (Condizionale) Se un **[!UICONTROL Consenti]** viene visualizzato il pulsante, esamina le azioni che il connettore sarà in grado di eseguire, quindi fai clic sul pulsante per connettere l’app a [!DNL Workfront Fusion].
+1. Continua su [Configurare il modulo](#configure-the-module).
 
 
-## Configura il modulo
+## Configurare il modulo
 
-1. Nei campi sotto il campo Connessione configurare le impostazioni per il modulo, quindi fare clic su **[!UICONTROL OK]**.
+1. Nei campi sotto il campo Connessione, configura le impostazioni per il modulo, quindi fai clic su **[!UICONTROL OK]**.
 
    ![](assets/conf-settigs-mod-350x547.png)
 
@@ -128,16 +132,16 @@ Creazione di una connessione all&#39;interno di una [!DNL Workfront Fusion] modu
    >Mentre lavori sullo scenario, puoi fare clic sul modulo per visualizzare questa casella di impostazioni in qualsiasi momento.
    >
    >
-   >Se viene visualizzato un cerchio nero su un modulo, non è stata completata la configurazione delle relative impostazioni. Fai clic sul modulo per aprirlo e continuare la configurazione.
+   >Se in un modulo viene visualizzato un cerchio nero, la configurazione delle relative impostazioni non è stata completata. Fai clic sul modulo per aprirlo e continuare la configurazione.
    >
    >
    >![](assets/black-error-circle-on-module.png)
 
-1. Se si aggiunge il primo modulo nello scenario, selezionare un&#39;opzione per indicare la posizione in cui si desidera avviare lo scenario ogni volta che viene eseguito.
+1. Se stai aggiungendo il primo modulo nello scenario, seleziona un’opzione per indicare dove desideri che lo scenario venga avviato ogni volta che viene eseguito.
 
    ![](assets/choose-where-start-350x194.png)
 
-1. Ripeti i passaggi nelle sezioni [Aggiungere un modulo in uno scenario](#add-a-module-in-a-scenario) e [Configura il modulo](#configure-the-module) per aggiungere altri moduli allo scenario.
+1. Ripeti i passaggi nelle sezioni [Aggiungere un modulo in uno scenario](#add-a-module-in-a-scenario) e [Configurare il modulo](#configure-the-module) per aggiungere altri moduli allo scenario.
 
 1. (Facoltativo) Copiare e incollare un modulo o un gruppo di moduli.
 
@@ -154,64 +158,64 @@ Creazione di una connessione all&#39;interno di una [!DNL Workfront Fusion] modu
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Specificare quando e con quale frequenza verrà eseguito lo scenario</td> 
-      <td> <p>Fai clic sull’icona dell’orologio. </p> <p> <img src="assets/clock-icon.gif"> </p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-fusion/scenarios/schedule-a-scenario.md" class="MCXref xref">Pianifica uno scenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      <td role="rowheader">Specifica quando e con quale frequenza verrà eseguito lo scenario</td> 
+      <td> <p>Fai clic sull’icona dell’orologio. </p> <p> <img src="assets/clock-icon.gif"> </p> <p>Per ulteriori informazioni, consulta <a href="../../workfront-fusion/scenarios/schedule-a-scenario.md" class="MCXref xref">Pianificare uno scenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Imposta un percorso</td> 
-      <td> <p>Fai clic sull’icona a forma di chiave inglese <img src="assets/wrench-icon.gif"> tra i due moduli e utilizzare una delle seguenti opzioni. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Aggiungi un filtro a uno scenario in [!DNL Adobe Workfront Fusion]</a>.</p> 
+      <td role="rowheader">Impostare un ciclo di lavorazione</td> 
+      <td> <p>Fai clic sull’icona chiave inglese <img src="assets/wrench-icon.gif"> tra i due moduli e utilizza una delle seguenti opzioni. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Aggiungere un filtro a uno scenario in [!DNL Adobe Workfront Fusion]</a>.</p> 
        <ul> 
-        <li><strong>[!UICONTROL Impostare un filtro]</strong>: Controlla quali bundle vengono utilizzati in determinati punti dello scenario.</li> 
-        <li><strong>[!UICONTROL Scollega]</strong>: Rimuove un percorso.</li> 
-        <li><strong>[!UICONTROL Aggiungere un router]</strong>: Aggiunge un router tra i moduli. </li> 
-        <li><strong>[!UICONTROL Aggiungi un modulo]</strong>: Aggiunge un nuovo modulo tra i moduli.</li> 
-        <li><strong>[!UICONTROL Aggiungi una nota]</strong>: Aggiunge una nota alla route.</li> 
+        <li><strong>[!UICONTROL Configura un filtro]</strong>: controlla quali bundle vengono utilizzati in determinati punti dello scenario.</li> 
+        <li><strong>[!UICONTROL Scollega]</strong>: rimuove una route.</li> 
+        <li><strong>[!UICONTROL Aggiungi router]</strong>: aggiunge un router tra i moduli. </li> 
+        <li><strong>[!UICONTROL Aggiungi un modulo]</strong>: aggiunge un nuovo modulo tra i moduli.</li> 
+        <li><strong>[!UICONTROL Aggiungi una nota]</strong>: aggiunge una nota alla route.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Configurare le impostazioni dello scenario</td> 
-      <td>Fai clic sull'icona [!UICONTROL Scenario settings] . <img src="assets/gear-icon-settings.png"> Queste impostazioni sono destinate principalmente agli utenti avanzati. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Il pannello delle impostazioni dello scenario in [!DNL Adobe Workfront Fusion]</a>.</td> 
+      <td>Fai clic sull'icona [!UICONTROL Scenario settings] (Impostazioni scenario). <img src="assets/gear-icon-settings.png"> Queste impostazioni sono destinate principalmente agli utenti avanzati. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Il pannello delle impostazioni dello scenario in [!DNL Adobe Workfront Fusion]</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Configurare le impostazioni di Controllo del flusso</td> 
-      <td> <p>Fai clic sull’icona [!UICONTROL Flow Control]. <img src="assets/flow-control-icon.gif"> È possibile impostare un'attività per ripetere un determinato numero di volte, convertire un array in una serie di bundle e unire diversi bundle in un unico bundle. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/apps-and-their-modules/flow-control.md" class="MCXref xref">Controllo del flusso in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      <td> <p>Fare clic sull'icona [!UICONTROL Flow Control]. <img src="assets/flow-control-icon.gif"> È possibile impostare un'attività in modo da ripetere un determinato numero di volte, convertire un array in una serie di bundle e unire più bundle in un singolo bundle. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/apps-and-their-modules/flow-control.md" class="MCXref xref">Controllo del flusso in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Migliorare lo scenario utilizzando strumenti avanzati</td> 
-      <td>Fai clic sul pulsante [!DNL Tools] icona. <img src="assets/tools-icon.gif"> Puoi creare attivatori, azioni, aggregatori e trasformatori. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">Strumenti</a>.</td> 
+      <td>Fai clic su [!DNL Tools] icona. <img src="assets/tools-icon.gif"> Puoi creare trigger, azioni, aggregatori e trasformatori. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">Strumenti</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Strumenti di analisi del testo dell’utente</td> 
-      <td>Fai clic sul pulsante [!DNL Text parser] icona <img src="assets/text-parser-icon.gif">. È possibile recuperare elementi dal codice HTML, trovare ed estrarre elementi stringa che corrispondono a un pattern di ricerca, cercare e sostituire testo e dati "scraping" da un sito web. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">Strumenti</a>.</td> 
+      <td role="rowheader">Strumenti di analisi del testo utente</td> 
+      <td>Fai clic su [!DNL Text parser] icona <img src="assets/text-parser-icon.gif">. Puoi recuperare elementi dal codice HTML, trovare ed estrarre elementi stringa che corrispondono a un pattern di ricerca, cercare e sostituire testo e dati di tipo "scrape" da un sito web. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/apps-and-their-modules/tools-modules.md" class="MCXref xref">Strumenti</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Per utilizzare lo scenario, effettua una delle seguenti operazioni:
+1. Effettua una delle seguenti operazioni per lavorare con lo scenario:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Visualizza un registro degli eventi che si verificano quando lo scenario viene eseguito</td> 
-      <td> <p>Fai clic sulla freccia [!UICONTROL Esci dalla modifica] <img src="assets/exit-editing-arrow.png"> nell'editor dello scenario per visualizzare la pagina dei dettagli Scenario. Il registro viene visualizzato nella parte inferiore della finestra o nell’angolo inferiore destro. Contiene informazioni su ogni fase ed eventuali errori riscontrati durante l'esecuzione dello scenario.</p> <p>Per tornare a lavorare con lo scenario in [!DNL scenario editor], fai clic in un punto qualsiasi della pagina dei dettagli Scenario .</p> <p>Per ulteriori informazioni sulla pagina dei dettagli dello scenario, consulta <a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">Dettagli scenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      <td role="rowheader">Visualizza un registro degli eventi che si verificano durante l’esecuzione dello scenario</td> 
+      <td> <p>Fare clic sulla freccia [!UICONTROL Esci dalla modifica] <img src="assets/exit-editing-arrow.png"> nell’editor dello scenario per visualizzare la pagina dei dettagli Scenario. Il registro viene visualizzato nella parte inferiore della finestra o nell'angolo inferiore destro. Contiene informazioni su ciascuna fase e sugli eventuali errori riscontrati durante l’esecuzione dello scenario.</p> <p>Per tornare a lavorare con lo scenario nel [!DNL scenario editor], fare clic in un punto qualsiasi della pagina Dettagli scenario.</p> <p>Per ulteriori informazioni sulla pagina dei dettagli dello scenario, consulta <a href="../../workfront-fusion/scenarios/scenario-detail.md" class="MCXref xref">Dettagli dello scenario in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Accedere alle app e ai servizi più comunemente utilizzati</td> 
-      <td> Fai clic su un’icona nella <strong>[!UICONTROL Preferiti]</strong> nella parte inferiore dello schermo. Le icone vengono visualizzate automaticamente in questa sezione quando aggiungi app e servizi al tuo scenario. Puoi anche fare clic sull’icona [!UICONTROL Aggiungi] <img src="assets/add-icon.gif"> per aggiungere manualmente app e servizi a questa area.</td> 
+      <td role="rowheader">Accedi alle app e ai servizi più comunemente utilizzati</td> 
+      <td> Fai clic su un’icona nella sezione <strong>[!UICONTROL Preferiti]</strong> nella parte inferiore dello schermo. Le icone vengono visualizzate automaticamente in questa sezione quando aggiungi app e servizi allo scenario. È inoltre possibile fare clic sull'icona [!UICONTROL Add] <img src="assets/add-icon.gif"> per aggiungere manualmente app e servizi a quest'area.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Visualizzare un'animazione che mostra il flusso dei dati nello scenario</td> 
-      <td>Fai clic sull’icona [!UICONTROL Explain flow] <img src="assets/explain-flow-airplane-icon.gif">.</td> 
+      <td role="rowheader">Visualizzare un’animazione che mostra il modo in cui i dati scorrono nello scenario</td> 
+      <td>Fai clic sull'icona [!UICONTROL Explain flow] <img src="assets/explain-flow-airplane-icon.gif">.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Allineamento automatico del layout dei moduli </td> 
-      <td>Fai clic sull’icona [!UICONTROL Auto align] <img src="assets/auto-align-icon.gif">.</td> 
+      <td>Fai clic sull'icona [!UICONTROL Allineamento automatico] <img src="assets/auto-align-icon.gif">.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Digitare o visualizzare note sullo scenario</td> 
-      <td>Fai clic sull’icona [!UICONTROL Notes] <img src="assets/notes-icon.gif">.</td> 
+      <td role="rowheader">Digita o visualizza le note sullo scenario</td> 
+      <td>Fai clic sull'icona [!UICONTROL Notes] <img src="assets/notes-icon.gif">.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Rimuovere un modulo</td> 
@@ -222,15 +226,15 @@ Creazione di una connessione all&#39;interno di una [!DNL Workfront Fusion] modu
 
 1. Per eseguire il test dello scenario, fai clic su **[!UICONTROL Esegui una volta]**.
 
-   È importante verificare che lo scenario venga eseguito come previsto prima di attivarlo. Una volta attivato, lo scenario verrà eseguito in base alla sua pianificazione. Se tutto non viene eseguito come previsto, vedi [Gestione degli errori in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
+   È importante verificare che lo scenario venga eseguito come previsto prima di attivarlo. Una volta attivato, lo scenario viene eseguito in base alla sua pianificazione. Se tutto non funziona come previsto, vedi [Gestione degli errori in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
 
 1. Al termine della modifica dello scenario (o in qualsiasi momento durante la modifica), fai clic sul pulsante [!UICONTROL Salva] nella parte inferiore della finestra ![](assets/save-icon.gif).
 
-Per informazioni sull&#39;attivazione di uno scenario, vedi [Attiva o disattiva uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+Per informazioni sull’attivazione di uno scenario, consulta [Attivare o disattivare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
-## Scelte rapide da tastiera per Workfront Fusion
+## Scelte rapide da tastiera per lo scenario Workfront Fusion
 
-Quando si crea o si modifica uno scenario, è possibile utilizzare le seguenti scelte rapide da tastiera:
+Durante la creazione o la modifica di uno scenario è possibile utilizzare le seguenti scelte rapide da tastiera:
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -245,14 +249,14 @@ Quando si crea o si modifica uno scenario, è possibile utilizzare le seguenti s
  </thead> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Save] </td> 
+   <td role="rowheader">[!UICONTROL Salva] </td> 
    <td>Ctrl+Maiusc+S</td> 
-   <td><span style="font-weight: normal;">Comando+Maiusc+S</span> </td> 
+   <td><span style="font-weight: normal;">Cmd+Maiusc+S</span> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Esegui Una Volta]</td> 
-   <td>Ctrl+Maiusc+Invio</td> 
-   <td><span style="font-weight: normal;">Comando+Maiusc+Invio</span> </td> 
+   <td role="rowheader">[!UICONTROL Una Volta]</td> 
+   <td>CTRL+MAIUSC+INVIO</td> 
+   <td><span style="font-weight: normal;">Cmd+Maiusc+Invio</span> </td> 
   </tr> 
  </tbody> 
 </table>

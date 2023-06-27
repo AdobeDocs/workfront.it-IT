@@ -2,33 +2,33 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Attiva o disattiva uno scenario in [!DNL Adobe] Workfront Fusion
-description: Questo articolo spiega perché gli scenari attivi o disattivati sono utili in situazioni diverse e come attivare o disattivare uno scenario.
+title: Attivare o disattivare uno scenario in [!DNL Adobe] Workfront Fusion
+description: Questo articolo descrive perché gli scenari attivi o disattivati sono utili in situazioni diverse e come attivare o disattivare uno scenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
+source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 0%
+source-wordcount: '291'
+ht-degree: 1%
 
 ---
 
-# Attiva o disattiva uno scenario in [!DNL Adobe Workfront Fusion]
+# Attivare o disattivare uno scenario in [!DNL Adobe Workfront Fusion]
 
 È possibile utilizzare scenari in uno stato attivo o inattivo:
 
-* Uno scenario attivo viene eseguito periodicamente in base al relativo programma definito, come spiegato in [Pianifica uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+* Uno scenario attivo viene eseguito periodicamente in base alla pianificazione definita, come spiegato in [Pianificare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
-   Questa funzione è utile quando si desidera automatizzare la funzione di uno scenario.
+  Questa funzione è utile quando si desidera automatizzare la funzione di uno scenario.
 
-* Uno scenario inattivo viene eseguito solo quando lo si esegue manualmente.
+* Uno scenario inattivo viene eseguito solo quando viene eseguito manualmente.
 
-   Questa opzione è utile quando si desidera eseguire lo scenario solo in determinate situazioni.
+  Questa opzione è utile quando si desidera eseguire lo scenario solo in determinati momenti.
 
-È possibile attivare o disattivare uno scenario in qualsiasi momento, a seconda di come si desidera utilizzare lo scenario.
+Puoi attivare o disattivare uno scenario in qualsiasi momento, a seconda di come desideri utilizzarlo.
 
-Per impostazione predefinita, uno scenario appena creato non è attivo.
+Per impostazione predefinita, uno scenario appena creato è inattivo.
 
 ## Requisiti di accesso
 
@@ -48,18 +48,26 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
   </tr> 
   <tr> 
    <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] per automazione e integrazione del lavoro] </p><p>[!UICONTROL [!DNL Workfront Fusion] per automazione del lavoro </p>  </td>    </tr> 
+  <td>
+   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Oppure</p>
+   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro], [!UICONTROL [!DNL Workfront Fusion] per automazione lavoro]</p>
+   </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td>La tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare le funzionalità descritte in questo articolo.</td> 
+   <td>
+   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Oppure</p>
+   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Prerequisiti
 
@@ -67,7 +75,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, vedi [[!DNL Adobe Wor
 
 ## Attiva o disattiva uno scenario:
 
-1. Fai clic su **[!UICONTROL Scenari]** ![](assets/scenarios-icon.png) nel pannello a sinistra, quindi fai clic sullo scenario per aprirlo.
-1. Nell’angolo in alto a destra della finestra, fai clic sul pulsante **[!UICONTROL On/Off]** alternare.
+1. Clic **[!UICONTROL Scenari]** ![](assets/scenarios-icon.png) nel pannello a sinistra, fai clic sullo scenario per aprirlo.
+1. Nell&#39;angolo superiore destro della finestra, fare clic sul pulsante **[!UICONTROL On/Off]** attivare/disattivare.
 
    ![](assets/on-off-switch.jpg)
