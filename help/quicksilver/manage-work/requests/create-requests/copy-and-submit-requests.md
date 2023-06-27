@@ -1,13 +1,14 @@
 ---
 title: Copiare e inviare richieste
-description: Copiare e inviare richieste
+description: Quando invii spesso richieste simili, puoi copiare una richiesta già inviata. In questo caso, puoi copiare una richiesta esistente, apportarvi modifiche minime e inviarla nuovamente come nuova richiesta.
 author: Alina
-draft: Probably
 feature: Work Management
+role: User
+topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1339'
 ht-degree: 2%
 
 ---
@@ -121,7 +122,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 1. (Condizionale) Se la sezione Inviata non viene visualizzata per impostazione predefinita, fai clic su **Inviato** nel pannello a sinistra.
 1. Individuare la richiesta che si desidera copiare e inviare come nuova ed effettuare una delle seguenti operazioni:
 
-   * Selezionala, quindi fai clic su **Copia e invia come nuovo** icona ![](assets/copy-and-submit-as-new-requests-area-nwe.png) nell’angolo superiore sinistro dell’elenco Richieste inviate. <!--update this icon AND change its name to "Copy" with the 23.3 preview release, or shortly after-->
+   * Selezionala, quindi fai clic su **Copia e invia come nuovo** icona ![](assets/copy-and-submit-as-new-requests-area-nwe.png) nell’angolo superiore sinistro dell’elenco Richieste inviate. <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
 
    <!-- reveal this tip for 23.3 preview release:
    >[!TIP]

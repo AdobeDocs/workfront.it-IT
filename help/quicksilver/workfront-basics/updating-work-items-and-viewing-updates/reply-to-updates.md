@@ -5,8 +5,10 @@ title: Rispondi agli aggiornamenti
 description: Quando qualcuno aggiunge o risponde a un aggiornamento su un oggetto di lavoro, la risposta viene visualizzata nel thread di comunicazione nella sezione Aggiornamenti dell’oggetto. È possibile aggiungere una risposta a un aggiornamento o aggiungerla come se si disponesse dell'accesso di visualizzazione all'oggetto.
 author: Lisa and Alina
 feature: Get Started with Workfront
+role: User
+topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 0%
@@ -111,7 +113,7 @@ Per informazioni sulle funzioni disponibili per la nuova esperienza di commento 
 
 1. Passare all&#39;oggetto a cui si desidera aggiungere una risposta.
 1. Clic **Aggiornamenti**, quindi fare clic su **Commenti** e trovare il commento o la risposta a cui si desidera rispondere.
-   <!-- Ensure this link is called and cased the same way as  before: 1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
+   <!--1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.-->
 1. Clic **Rispondi**.
 
    Puoi vedere gli utenti attivamente coinvolti nella conversazione nella parte inferiore della sezione **Nuovo commento** e puoi aggiungerne altre o rimuovere quelle che non sono più pertinenti. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Puoi anche assegnare tag a più utenti per includerli nella risposta.  Per assegnare tag a più utenti, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
