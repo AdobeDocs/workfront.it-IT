@@ -4,9 +4,9 @@ description: Aggiornamenti look and feel durante il periodo di rilascio della ve
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: b34325813af7abd0e5107174734f06d6694acfd6
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '278'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ I miglioramenti sono i seguenti:
 * ora è presente un indicatore di caricamento quando la pagina viene caricata;
 * l’icona Copia è persistente e accompagnata da testo e diventa disabilitata quando non viene selezionata alcuna richiesta.
 
-Per ulteriori informazioni, consulta [Copiare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md).
+Per ulteriori informazioni, consulta [Copiare e inviare richieste](/help/quicksilver/manage-work/requests/create-requests/copy-and-submit-requests.md). La documentazione verrà aggiornata dopo il rilascio delle funzioni.
 
-## Progettazione aggiornata durante l’invio di una nuova richiesta
+## Progettazione aggiornata quando si aggiunge un nuovo problema a un progetto
 
 >[!NOTE]
 >
 >Versione di anteprima pianificata: 5 luglio 2023; versione di produzione pianificata: con versione 23.3
 
-È stata aggiornata la casella Nuova richiesta che viene visualizzata quando si invia una nuova richiesta. Ora l’interfaccia corrisponde alla casella Nuovo problema visualizzata quando si aggiunge un nuovo problema a un progetto.
+È stata aggiornata la casella Nuovo problema che viene visualizzata quando si invia un nuovo problema a un progetto. Ora, l’interfaccia corrisponde alla casella Nuova richiesta che viene visualizzata quando si invia una nuova richiesta a una coda di richieste.
 
-Per ulteriori informazioni, consulta [Creare e inviare richieste Adobe Workfront](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Per ulteriori informazioni, consulta [Crea problemi](../../../manage-work/issues/manage-issues/create-issues.md). La documentazione verrà aggiornata dopo il rilascio delle funzioni.
 
 ## Elenco tariffe di fatturazione aggiornato
 

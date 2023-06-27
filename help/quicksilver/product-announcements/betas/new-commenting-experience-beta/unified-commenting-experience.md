@@ -6,9 +6,9 @@ description: È attualmente in fase di sviluppo un aggiornamento dell’esperien
 author: Alina
 feature: Product Announcements
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -56,6 +56,18 @@ Le seguenti funzioni sono state rimosse dalla nuova esperienza:
 * Commento su un aggiornamento del sistema
 * Possibilità di modificare lo stato, la condizione e la data del commit durante l&#39;inserimento di commenti
 * Modifica modulo personalizzato
+
+>[!NOTE]
+>
+>Per gli oggetti elencati di seguito, quando si abilita l’esperienza beta sono disponibili solo i commenti e gli aggiornamenti di sistema dell’anno precedente (a partire da giugno 2022).
+>
+>* Problemi
+>* <span class="preview">Progetti</span>
+>* <span class="preview">Attività</span>
+>* <span class="preview">Documenti</span>
+>
+>Puoi visualizzare i commenti e gli aggiornamenti di sistema precedenti a giugno 2022 quando visualizzi la sezione Aggiornamenti nell’esperienza corrente.
+
 
 La tabella seguente illustra le funzioni che saranno disponibili nella nuova esperienza di commento e la loro disponibilità nelle aree in cui sono supportate:
 

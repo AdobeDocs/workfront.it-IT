@@ -6,9 +6,9 @@ description: Rivedi l’attività di rilascio settimanale per la nuova esperienz
 author: Alina
 feature: Product Announcements
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1500'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,9 @@ Per informazioni generali sulla nuova esperienza di aggiunta di commenti, inclus
 >
 >La nuova esperienza di commento è stata lanciata in versione beta con la versione 23.2. Per informazioni sulla versione originale, consulta [Panoramica sulla versione 23.2](../../product-releases/23.2-release-activity/23-2-release-overview.md).
 >
->Le funzioni di commento rilasciate nell’esperienza beta per gli oggetti Workfront vengono rilasciate anche nella sezione Aggiornamenti di un oggetto obiettivo in Obiettivi Workfront.
+>Le funzioni di commento rilasciate nell’esperienza beta per gli oggetti Workfront vengono rilasciate anche nella sezione Aggiornamenti dei seguenti oggetti come unica esperienza di commento:
+>* Obiettivi
+>* Schede nell&#39;area Schede.
 
 ## Timeline di rilascio
 
