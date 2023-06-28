@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;projects
-keywords: google,doc,documento,foglio,diapositiva
+keywords: google,documento,documento,foglio,diapositiva
 navigation-topic: workfront-for-g-suite
 title: Visualizza e gestisci [!DNL Adobe Workfront] dettagli oggetto da G Suite
-description: È possibile visualizzare e gestire i dettagli di un elemento di lavoro senza uscire da G Suite. Ad esempio, è possibile leggere la descrizione di un'attività, visualizzarne l'oggetto principale, modificarne lo stato e contrassegnarla come completa, il tutto all'interno di [!DNL Adobe Workfront] per G Suite.
+description: È possibile visualizzare e gestire i dettagli di un elemento di lavoro senza uscire da G Suite. È ad esempio possibile leggere la descrizione di un'attività, visualizzarne l'oggetto padre, modificarne lo stato e contrassegnarla come completata, il tutto all'interno di [!DNL Adobe Workfront] per G Suite.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: f818eadcfbb5a897485a25c25fc25ad057567116
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->C&#39;è una [problema noto](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versione corrente di [!DNL Workfront for G Suite] non funziona come previsto. Stiamo lavorando a una nuova versione e ci aspettiamo che venga rilasciata al [!DNL Google Marketplace] nel prossimo futuro.
+>La versione più recente del plug-in Adobe Workfront per Google è stata rilasciata il 26 giugno 2023.
 
-È possibile visualizzare e gestire i dettagli di un elemento di lavoro senza uscire [!DNL G Suite]. Ad esempio, è possibile leggere la descrizione di un&#39;attività, visualizzarne l&#39;oggetto principale, modificarne lo stato e contrassegnarla come completa, il tutto all&#39;interno di [!DNL Adobe Workfront for G Suite].
+È possibile visualizzare e gestire i dettagli di un elemento di lavoro senza uscire [!DNL G Suite]. È ad esempio possibile leggere la descrizione di un&#39;attività, visualizzarne l&#39;oggetto padre, modificarne lo stato e contrassegnarla come completata, il tutto all&#39;interno di [!DNL Adobe Workfront for G Suite].
 
 ## Requisiti di accesso
 
@@ -36,50 +36,50 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Lavoro], [!UICONTROL Piano]</p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
 ## Prerequisiti
 
-Prima di visualizzare e gestire i dettagli degli elementi di lavoro in [!DNL G Suite], devi
+Prima di visualizzare e gestire i dettagli degli elementi di lavoro in [!DNL G Suite], è necessario
 
 * Installa [!DNL Workfront for G suite]\
    Per istruzioni, consulta [Installa [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Visualizza e gestisci i dettagli degli elementi di lavoro in [!DNL G Suite]
+## Visualizzare e gestire i dettagli degli elementi di lavoro in [!DNL G Suite]
 
-1. Se la [!UICONTROL Workfront per G Suite] il pannello non è visualizzato, fai clic sul pulsante [!DNL Workfront] icona ![](assets/wf-lion-icon.png) in [!DNL G Suite] barra laterale dei componenti aggiuntivi all’estrema destra della pagina.
-1. Vai a [!DNL Workfront] attività o problema in [!DNL G Suite], come descritto in [Accesso [!DNL Adobe Workfront] [!UICONTROL Pagina principale] contenuto di [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
+1. Se il [!UICONTROL Workfront per G Suite] non viene visualizzato, fare clic sul pulsante [!DNL Workfront] icona ![](assets/wf-lion-icon.png) nel [!DNL G Suite] barra laterale dei componenti aggiuntivi all’estrema destra della pagina.
+1. Vai a [!DNL Workfront] attività o problema in [!DNL G Suite], come descritto in [Accesso [!DNL Adobe Workfront] [!UICONTROL Home] contenuto da [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 
-   Quando selezioni un’attività o un problema, la **[!UICONTROL Dettagli]** è aperta la scheda . L&#39;area sopra la **[!UICONTROL Dettagli]** visualizza il nome dell&#39;oggetto principale, il nome dell&#39;attività o del problema e il [!UICONTROL Data di scadenza] (se si tratta di un&#39;attività) o [!UICONTROL Data priorità] (se si tratta di un problema).
+   Quando selezioni un’attività o un problema, il **[!UICONTROL Dettagli]** è aperta. L&#39;area sopra il **[!UICONTROL Dettagli]** visualizza il nome dell’oggetto principale, il nome dell’attività o del problema e [!UICONTROL Data di scadenza] (se si tratta di un’attività ) o [!UICONTROL Data di priorità] (se si tratta di un problema).
 
 
-   Puoi eseguire varie attività in questa scheda senza uscire [!DNL G Suite], compresi i seguenti elementi:
+   Puoi eseguire varie attività su questa scheda senza uscire [!DNL G Suite], tra cui:
 
-   * Visualizza l&#39;oggetto **[!UICONTROL Descrizione]** e altri dettagli, quali gli utenti assegnati all&#39;oggetto, **[!UICONTROL Priorità]**, il richiedente, **[!UICONTROL Data di completamento prevista]**, nonché tutti i campi e i moduli personalizzati associati all’oggetto.
+   * Visualizzare il **[!UICONTROL Descrizione]** e altri dettagli, come gli utenti assegnati all&#39;oggetto, il **[!UICONTROL Priorità]**, il richiedente, **[!UICONTROL Data di completamento pianificata]** ed eventuali campi personalizzati e moduli allegati all&#39;oggetto.
 
-      Nei moduli personalizzati vengono visualizzati solo i campi in cui sono state aggiunte informazioni.
+     I moduli personalizzati visualizzano solo i campi in cui sono state aggiunte informazioni.
 
-   * Fai clic sul pulsante **[!UICONTROL Progetto principale]** area per visualizzare i dettagli dell&#39;oggetto principale.
+   * Fai clic su **[!UICONTROL Progetto principale]** per visualizzare i dettagli dell&#39;oggetto padre.
 
-      >[!TIP]
-      >
-      >Questa funzione può essere utile quando si dispone di attività e problemi con lo stesso nome e occorre differenziarli.
+     >[!TIP]
+     >
+     >Questa funzione può essere utile quando si hanno attività e problemi con lo stesso nome ed è necessario distinguerli.
 
-   * Accetta il lavoro assegnato facendo clic su **[!UICONTROL Lavorare]**.
-   * Modifica varie opzioni, ad esempio **[!UICONTROL Fine]** l&#39;opzione **[!UICONTROL Stato]** e **[!UICONTROL Percentuale completata]**.
+   * Accettare il lavoro assegnato facendo clic su **[!UICONTROL Lavoraci]**.
+   * Modifica varie opzioni, ad esempio **[!UICONTROL Fine]** , l&#39;opzione **[!UICONTROL Stato]** e **[!UICONTROL Percentuale completata]**.
 
-      Sotto **[!UICONTROL Percentuale completata]**, digitare numeri e (facoltativamente) il segno percentuale % per indicare l&#39;avanzamento su un articolo.
-   * Visualizza informazioni su una richiesta di approvazione, inclusi il proprietario, le dimensioni e gli eventuali allegati.
-   * **[!UICONTROL Approva]** o **[!UICONTROL Rifiuta]** richieste di approvazione e documenti.
+     Sotto **[!UICONTROL Percentuale completata]**, digita i numeri e (facoltativamente) il segno percentuale % per indicare lo stato di avanzamento su un elemento.
+   * Visualizzare informazioni su una richiesta di approvazione, inclusi il proprietario, le dimensioni e gli eventuali allegati.
+   * **[!UICONTROL Approva]** o **[!UICONTROL Rifiuta]** richieste e documenti di approvazione.
 
-   * **[!UICONTROL Concessione]** o **[!UICONTROL Ignora]** richieste di accesso.
+   * **[!UICONTROL Concedi]** o **[!UICONTROL Ignora]** richieste di accesso.
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Visualizza in[!DNL Workfront]]** per passare all&#39;elemento di lavoro corrente in [!DNL Workfront].
 
-* Per informazioni sull&#39;utilizzo del [!UICONTROL Aggiornamenti] scheda in [!DNL Workfront for G Suite], vedi [Aggiornare un [!DNL Adobe Workfront] oggetto da [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
-* Per informazioni sull&#39;utilizzo del [!UICONTROL Documenti] scheda in [!DNL Workfront for G Suite], vedi [Visualizzare e gestire documenti da [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).
+* Per informazioni sull&#39;utilizzo di [!UICONTROL Aggiornamenti] scheda in [!DNL Workfront for G Suite], vedi [Aggiornare un [!DNL Adobe Workfront] oggetto da [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+* Per informazioni sull&#39;utilizzo di [!UICONTROL Documenti] scheda in [!DNL Workfront for G Suite], vedi [Visualizza e gestisci documenti da [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).

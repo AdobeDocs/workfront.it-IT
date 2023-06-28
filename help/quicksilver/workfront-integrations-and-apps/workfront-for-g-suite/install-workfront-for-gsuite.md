@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
-keywords: google,doc,documento,foglio,diapositiva
+keywords: google,documento,documento,foglio,diapositiva
 navigation-topic: workfront-for-g-suite
 title: Installa [!DNL Adobe Workfront] per G Suite
-description: È possibile installare [!DNL Adobe Workfront] per il componente aggiuntivo G Suite da G Suite Marketplace.
+description: È possibile installare [!DNL Adobe Workfront] per il componente aggiuntivo G Suite dal marketplace G Suite.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 0934ae23a8e80dd18872efef7d274bd57d227647
+source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '158'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->C&#39;è una [problema noto](https://experienceleague.adobe.com/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-integrations-error-when-opening-wf-for-gsuite.html?lang=en) con la versione corrente di [!DNL Workfront for G Suite] non funziona come previsto. Stiamo lavorando a una nuova versione e ci aspettiamo che venga rilasciata al [!DNL Google Marketplace] nel prossimo futuro.
+>La versione più recente del [!DNL Adobe Workfront] plugin per [!DNL Google] è stato rilasciato il 26 giugno 2023.
 
-È possibile installare [!DNL Adobe Workfront for G Suite] componente aggiuntivo dal [!DNL G Suite] Marketplace.
+È possibile installare [!DNL Adobe Workfront for G Suite] componente aggiuntivo da [!DNL G Suite] Marketplace.
 
 ## Requisiti di accesso
 
@@ -36,22 +36,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!UICONTROL Lavoro], [!UICONTROL Piano]</p> </td> 
   </tr>
    </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
 ## Installa [!DNL Workfront for G Suite]
 
-1. Fai clic sul seguente collegamento: [[!DNL Workfront for G Suite]](https://gsuite.google.com/marketplace/app/workfront_for_g_suite/1076371296461)
+1. Fai clic sul seguente collegamento: [[!DNL Workfront for G Suite]](https://workspace.google.com/marketplace/app/adobe_workfront/811980987828)
 
    Oppure
 
-   Fai clic sull’icona del segno più nel [!DNL G Suite] barra laterale dei componenti aggiuntivi all&#39;estrema destra di un [!DNL G Suite] app ([!DNL Gmail], [!DNL Google Calendar]oppure [!DNL Google Drive]). Cerca *[!DNL Workfront for G Suite]*, quindi fai clic su [!DNL Workfront for G Suite] elemento dell&#39;app visualizzato.
+   Fai clic sull’icona del segno più in [!DNL G Suite] barra laterale dei componenti aggiuntivi all’estrema destra di una [!DNL G Suite] app ([!DNL Gmail], [!DNL Google Calendar], o [!DNL Google Drive]). Cerca *[!DNL Workfront for G Suite]*, quindi fare clic su [!DNL Workfront for G Suite] elemento dell&#39;app visualizzato.
 
-1. Fai clic su **[!UICONTROL Installa]**, quindi segui le istruzioni visualizzate.
-1. (Condizionale) Nel [!DNL G Suite] app, se non visualizzi la [!DNL Workfront] icona ![](assets/wf-lion-icon.png) in [!DNL G Suite] barra laterale dei componenti aggiuntivi all’estrema destra della pagina, aggiorna la pagina.
+1. Clic **[!UICONTROL Installa]**, quindi seguire le istruzioni visualizzate.
+1. (Condizionale) Nel tuo [!DNL G Suite] app, se non trovi il [!DNL Workfront] icona ![](assets/wf-lion-icon.png) nel [!DNL G Suite] barra laterale dei componenti aggiuntivi all’estrema destra della pagina, aggiorna la pagina.
 
-Per informazioni sull&#39;accesso, vedi [Accesso ed uscita [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+Per informazioni sull’accesso, consulta [Accesso e uscita [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
