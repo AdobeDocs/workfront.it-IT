@@ -240,25 +240,25 @@ Questo modulo di azione trasforma un oggetto in una stringa json.
 >
 **Esempio:**
 >   
-```
-{
-
-"books": [
-
-{
-
-"id": "ID",
-
-"title": "Title",
-
-"author": "Author"
-
-}
-
-]
-
-}
-```
+>```
+>{
+>
+>"books": [
+>
+>{
+>
+>"id": "ID",
+>
+>"title": "Title",
+>
+>"author": "Author"
+>
+>}
+>
+>]
+>
+>}
+>```
 >
 1. Fai clic su **[!UICONTROL Salva]**. Il [!UICONTROL Specifiche] Nella struttura Dati ora contiene la struttura generata.
 1. Modifica il nome della struttura dati in un nome più specifico e fai clic su **[!UICONTROL Salva]**. Un campo corrispondente all’attributo dell’array principale viene visualizzato come campo mappabile nella configurazione del modulo JSON.
