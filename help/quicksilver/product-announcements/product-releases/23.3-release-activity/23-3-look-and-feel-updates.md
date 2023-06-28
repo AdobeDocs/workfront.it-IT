@@ -4,7 +4,7 @@ description: Aggiornamenti look and feel durante il periodo di rilascio della ve
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 63e3575addf8aaaa3eda1a9e52d57619c48ded91
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Per un elenco di tutte le modifiche disponibili con la versione 23.3, consulta [
 
 >[!NOTE]
 >
->Versione di anteprima pianificata: 28 giugno 2023; versione di produzione pianificata: 13 luglio 2023
+>Versione di anteprima pianificata: 29 giugno 2023; versione di produzione pianificata: 13 luglio 2023
 
 Sono stati apportati miglioramenti all’interfaccia dell’elenco Richieste inviate.
 
@@ -36,7 +36,7 @@ Per ulteriori informazioni, consulta [Copiare e inviare richieste](/help/quicksi
 
 >[!NOTE]
 >
->Versione di anteprima pianificata: 5 luglio 2023; versione di produzione pianificata: con versione 23.3
+>Versione di anteprima pianificata: 6 luglio 2023; versione di produzione pianificata: con versione 23.3
 
 È stata aggiornata la casella Nuovo problema che viene visualizzata quando si invia un nuovo problema a un progetto. Ora, l’interfaccia corrisponde alla casella Nuova richiesta che viene visualizzata quando si invia una nuova richiesta a una coda di richieste.
 

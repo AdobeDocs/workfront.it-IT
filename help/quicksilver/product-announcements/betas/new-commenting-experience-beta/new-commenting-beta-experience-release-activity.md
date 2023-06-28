@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
 workflow-type: tm+mt
 source-wordcount: '1500'
 ht-degree: 3%
@@ -76,7 +76,9 @@ Ora è possibile copiare il contenuto di un commento e aggiungerlo come nuova vi
 
 Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentazione verrà aggiornata al momento della versione.
 
-Anteprima e versione di produzione pianificate: 29 giugno 2023
+Anteprima: 28 giugno 2023
+
+Versione di produzione pianificata: 29 giugno 2023
 
 #### Nuova interfaccia per il tempo di registrazione
 
