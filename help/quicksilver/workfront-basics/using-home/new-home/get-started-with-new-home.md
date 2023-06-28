@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Introduzione alla nuova home in Adobe Workfront
 description: La nuova Home è una nuova potente funzione per gestire il tuo lavoro.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,7 @@ Per informazioni sull&#39;aggiunta, lo spostamento, il ridimensionamento o l&#39
 
 Per gli utenti che preferiscono l’esperienza Home esistente, Nuova Home può essere disattivata.
 
+
 **Per tornare all’esperienza Home corrente:**
 
 1. Passa alla home page facendo clic sull’icona di Adobe Workfront ![Icona Adobe Workfront](../new-home/assets/home-icon-30x29.png) nella parte superiore dello schermo, se Home è impostata come pagina di destinazione, oppure facendo clic sull’icona del menu principale ![Icona menu principale](../new-home/assets/main-menu-icon-left-nav.png) quindi clic su **Home**.
@@ -97,3 +98,7 @@ Per gli utenti che preferiscono l’esperienza Home esistente, Nuova Home può e
    ![Pulsante Torna alla pagina iniziale corrente](../new-home/assets/go-back-to-current-home-button.png)
 
 1. Nella finestra di conferma visualizzata, puoi scegliere di rispondere a un breve sondaggio sulla tua esperienza con New Home o fare clic su **Torna alla Home attuale** per finalizzare la decisione e ripristinare l’esperienza Home corrente.
+
+>[!NOTE]
+>
+> Gli amministratori di sistema possono disattivare Nuova home come impostazione predefinita per i propri utenti. Per informazioni sulla modifica dell’esperienza Home predefinita per gli utenti in un sistema, consulta [Configurare le preferenze di sistema](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
