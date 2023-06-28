@@ -88,7 +88,7 @@ Se il campo stringa JSON contiene una raccolta `{ ... }`, L’output è un singo
 >       "name" : "Peter",
 >
 >    
-   "ID" : 1
+>   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Se il campo stringa JSON contiene un array `[ ... ]`, l’output è una serie di
 >   },
 >
 >  
- {
+> {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
