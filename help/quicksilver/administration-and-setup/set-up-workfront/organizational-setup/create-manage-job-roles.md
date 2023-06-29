@@ -2,28 +2,30 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Creare e gestire ruoli di lavoro
-description: Come [!DNL Adobe Workfront] amministratore o utente con accesso amministrativo ai ruoli, è possibile creare ruoli di lavoro che possono essere assegnati agli utenti ed eliminare ruoli di lavoro predefiniti non rilevanti per la propria organizzazione.
+title: Creare e gestire le mansioni
+description: Come un [!DNL Adobe Workfront] amministratore o un utente con accesso amministrativo a Ruoli, puoi creare Ruoli che possono essere assegnati agli utenti ed eliminare Ruoli predefiniti che non sono rilevanti per la tua organizzazione.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
 
-# Creare e gestire ruoli di lavoro
+# Creare e gestire le mansioni
+
+{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Come [!DNL Adobe Workfront] amministratore o utente con accesso amministrativo ai ruoli, è possibile creare ruoli di lavoro che possono essere assegnati agli utenti ed eliminare ruoli di lavoro predefiniti non rilevanti per la propria organizzazione. Per informazioni sull&#39;accesso amministrativo in [!DNL Workfront], vedi [Consentire agli utenti l&#39;accesso amministrativo a determinate aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Come un [!DNL Adobe Workfront] amministratore o un utente con accesso amministrativo a Ruoli, puoi creare Ruoli che possono essere assegnati agli utenti ed eliminare Ruoli predefiniti che non sono rilevanti per la tua organizzazione. Per informazioni sull’accesso amministrativo in [!DNL Workfront], vedi [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,20 +40,20 @@ Devi disporre dei seguenti elementi:
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai ruoli di lavoro</p> <p><b>NOTA</b>: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso amministrativo alle mansioni</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-## Creare un ruolo di lavoro
+## Creare una mansione
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
 
-1. Nel pannello a sinistra, fai clic su &#x200B; **[!UICONTROL Ruoli processo].**
-1. Fai clic su **[!UICONTROL Nuovo ruolo del lavoro].**
+1. Nel pannello a sinistra, fai clic su&#x200B; **[!UICONTROL Mansioni].**
+1. Clic **[!UICONTROL Crea Ruolo].**
 1. Configura quanto segue:
 
    <table style="table-layout:auto"> 
@@ -60,7 +62,7 @@ Devi disporre dei seguenti elementi:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Indicare un nome per il ruolo del processo. Questo è il nome che viene visualizzato ovunque [!DNL Workfront] dove viene visualizzato il campo [!UICONTROL Job Role] (Ruolo lavoro). </p> <p>Suggerimento: Il nome di un ruolo di lavoro può contenere fino a 255 caratteri. Tuttavia, i nomi più lunghi potrebbero essere troncati in alcune aree di [!DNL Workfront]. </p> </td> 
+      <td> <p>Indicare un nome per la mansione. Questo è il nome che compare ovunque in [!DNL Workfront] dove viene visualizzato il campo [!UICONTROL Ruolo]. </p> <p>Suggerimento: il nome di una mansione può contenere fino a 255 caratteri. Tuttavia, i nomi più lunghi potrebbero essere troncati in alcune aree di [!DNL Workfront]. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL È Attivo]</span> </td> 
@@ -68,59 +70,60 @@ Devi disporre dei seguenti elementi:
        <ul> 
         <li> <p>Seleziona <b>[!UICONTROL Sì]</b> se desideri che il ruolo sia attivo e disponibile ovunque in [!DNL Workfront] da associare a utenti, elementi di lavoro, ecc. </p> </li> 
         <li> <p>Seleziona <b>[!UICONTROL No]</b>, se desideri che il ruolo sia disattivato e non disponibile per l’assegnazione a utenti, elementi di lavoro, ecc. </p> </li> 
-       </ul> <p><span>Per informazioni sulla disattivazione dei ruoli di lavoro, consulta</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Disattivazione dei ruoli di lavoro</a>. </p> </td> 
+       </ul> <p><span>Per informazioni sulla disattivazione delle mansioni, vedi</span> <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md" class="MCXref xref">Disattiva mansioni</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Descrizione]</td> 
-      <td>Immetti una descrizione del ruolo che indichi l’elemento univoco al riguardo. </td> 
+      <td>Immettere una descrizione per il ruolo che indichi l'elemento univoco. </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Valuta di base]</span> </td> 
-      <td> <p><span>Si tratta della [!UICONTROL Base Currency], impostata nell'area [!UICONTROL Setup] dal proprio amministratore Workfront. Per informazioni, consulta</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Imposta i tassi di cambio</a> .</p> <p>Suggerimento: <span>Non è possibile modificare la [!UICONTROL Base Currency] a livello di ruolo del lavoro. Questo campo è oscurato e funge da promemoria della valuta di base del sistema.</span> </p> </td> 
+      <td role="rowheader"><span>[!UICONTROL Valuta Di Base]</span> </td> 
+      <td> <p><span>Questa è la [!UICONTROL Base Currency], impostata nell'area [!UICONTROL Setup] dall'amministratore di Workfront. Per informazioni, consulta</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Imposta tassi di cambio</a> .</p> <p>Suggerimento <span>Non è possibile modificare la [!UICONTROL Base Currency] a livello di ruolo. Questo campo è oscurato e funge da promemoria per ciò che la valuta di base è per il sistema.</span> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Cost/ Hr.]</td> 
-      <td>Percentuale del costo per ora del ruolo di lavoro. Questo valore consente di calcolare i costi pianificati ed effettivi delle attività e dei problemi associati al ruolo e, in ultima analisi, i costi pianificati ed effettivi dei progetti. <span>Immettere il tasso utilizzando la [!UICONTROL Base Currency].</span> </td> 
+      <td role="rowheader">[!UICONTROL Costo/Ora.]</td> 
+      <td><p>Tariffa oraria della mansione. Questo valore calcola i costi pianificati ed effettivi delle attività e dei problemi associati al ruolo e in ultima analisi i costi pianificati ed effettivi dei progetti. Immettere il tasso utilizzando la [!UICONTROL Base Currency].</p> 
+      <p><span class="preview">Per le tariffe effettive per data, fare clic su <strong>[!UICONTROL Add Rate]</strong>. Immettere il valore del costo/ora per il periodo di tempo e assegnare una data di inizio [!UICONTROL] e una data di fine [!UICONTROL] in base alle esigenze. La prima tariffa non avrà una data di inizio e l'ultima tariffa non avrà una data di fine.</span></p> <p><span class="preview">Alcune date vengono aggiunte automaticamente. Ad esempio, se il primo tasso di costo non ha una data di fine e si aggiunge un secondo tasso di costo con una data di inizio del 1° maggio 2023, al primo tasso di costo verrà aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.</span></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Bill/ Hr.] </td> 
-      <td>Percentuale di fatturazione oraria del ruolo di lavoro. Questo valore consente di calcolare le entrate previste ed effettive delle attività e dei problemi associati al ruolo e, in ultima analisi, le entrate previste ed effettive dei progetti. Immettere il tasso utilizzando la [!UICONTROL Base Currency]. </td> 
+      <td role="rowheader">[!UICONTROL Fatturazione/ Ora.] </td> 
+      <td><p>Tariffa oraria fatturazione della mansione. Questo valore calcola le entrate pianificate ed effettive delle attività e dei problemi associati al ruolo e in ultima analisi le entrate pianificate ed effettive dei progetti. Immettere il tasso utilizzando la [!UICONTROL Base Currency].</p> <p><span class="preview">Per le tariffe di fatturazione effettive della data, fai clic su <strong>[!UICONTROL Add Rate]</strong>. Immetti il valore della fatturazione/ora per il periodo di tempo e assegna una data di inizio [!UICONTROL] e una data di fine [!UICONTROL] secondo necessità. La prima tariffa di fatturazione non avrà una data di inizio e l’ultima tariffa di fatturazione non avrà una data di fine.</span></p> <p><span class="preview">Alcune date vengono aggiunte automaticamente. Ad esempio, se la prima tariffa di fatturazione non ha una data di fine e ne aggiungi una seconda con una data di inizio del 1° maggio 2023, alla prima tariffa di fatturazione viene aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.</span></p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Override Currency]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Sovrascrivi valuta]</span> </td> 
       <td> 
        <div> 
-        <p>Selezionare una valuta associata a questo ruolo di lavoro. Questa è la valuta che [!DNL Workfront] utilizza per calcolare i costi e i ricavi associati a questo ruolo di lavoro. </p> 
-        <p><span>È diverso dalla [!UICONTROL Base Currency] impostata dal [!DNL Workfront] amministratore nell’area [!UICONTROL Setup] e può essere diverso dalla valuta associata a un progetto.</span> </p> 
-        <p>Suggerimento: In questo campo sono disponibili solo le valute disponibili nell'area [!UICONTROL Exchange Rates] del sistema.</p> 
-       </div> <p><span>Per informazioni sulla configurazione della [!UICONTROL Base Currency] in [!DNL Workfront], vedi</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Imposta i tassi di cambio</a>.</p> <p><span>Per informazioni sulla modifica della valuta di un progetto, consulta</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Modificare la valuta del progetto</a>.</p> </td> 
+        <p>Selezionare una valuta associata a questa mansione. Questa è la valuta che [!DNL Workfront] utilizza per calcolare i costi e i ricavi associati a questa mansione. </p> 
+        <p><span>È diverso dalla [!UICONTROL Base Currency] impostata dal [!DNL Workfront] nell'area [!UICONTROL Setup] e può essere diversa dalla valuta associata a un progetto.</span> </p> 
+        <p>Suggerimento: in questo campo sono disponibili solo le valute disponibili nell'area [!UICONTROL Exchange Rates] del sistema.</p> 
+       </div> <p><span>Per informazioni sulla configurazione della [!UICONTROL Base Currency] in [!DNL Workfront], vedi</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Imposta tassi di cambio</a>.</p> <p><span>Per informazioni sulla modifica della valuta di un progetto, consulta</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Modificare la valuta del progetto</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Ignora costo valuta/ora]</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Sostituisci Costo valuta/Ora]</span> </td> 
       <td> 
        <div> 
-        <p>È il tasso di costo per ora del ruolo di lavoro utilizzando la [!UICONTROL Override Currency] selezionata. [!DNL Workfront] utilizza questo valore per calcolare i costi pianificati ed effettivi delle attività e dei problemi associati al ruolo del lavoro. </p> 
-        <p><span>Immettere il tasso nella [!UICONTROL Override Currency] specificata sopra. Questo aggiorna anche il tasso costo/ora per questo ruolo di lavoro quando si utilizza la [!UICONTROL Base Currency].</span> </p> 
-        <p>Per informazioni su come [!DNL Workfront] calcola costo, vedi <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Costi di tracciamento</a>.</p> 
-       </div> <p>Suggerimento: Quando si aggiorna un ruolo di lavoro esistente a cui è già associato un tasso di costo/ora, [!DNL Workfront] calcola il tasso di sostituzione in base al tasso di conversione nel sistema. Se si aggiorna il [!UICONTROL Override Currency Cost/ Hour], anche il costo/ora del ruolo di lavoro viene aggiornato automaticamente.</p> </td> 
+        <p>Tariffa oraria della mansione che utilizza la [!UICONTROL Override Currency] selezionata. [!DNL Workfront] utilizza questo valore per calcolare i costi pianificati ed effettivi delle attività e dei problemi associati alla mansione. </p> 
+        <p><span>Immettere il tasso nella [!UICONTROL Override Currency] specificata sopra. In questo modo viene aggiornato anche il tasso Costo/Ora per questa mansione quando si utilizza la [!UICONTROL Base Currency].</span> </p> 
+        <p>Per informazioni su come [!DNL Workfront] calcola il costo, vedere <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracciare i costi</a>.</p> 
+       </div> <p>Suggerimento: quando si aggiorna una mansione esistente a cui è già associata una tariffa Costo/Ora, [!DNL Workfront] calcola il tasso di [!UICONTROL Override Currency] in base al tasso di conversione nel sistema. Se si aggiorna [!UICONTROL Sostituisci valuta costo/ora], anche il costo/ora della mansione viene aggiornato automaticamente.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span>[!UICONTROL Ignora fatturazione/ora valuta</span> </td> 
+      <td role="rowheader"><span>[!UICONTROL Sostituisci valuta fatturazione/ora]</span> </td> 
       <td> 
        <div> 
-        <p>Tasso di fatturazione per ora del ruolo di lavoro utilizzando la [!UICONTROL Override Currency] selezionata. [!DNL Workfront] utilizza questo valore per calcolare i ricavi pianificati ed effettivi delle attività e dei problemi associati al ruolo del lavoro. </p> 
-        <p><span>Immettere il tasso nella [!UICONTROL Override Currency] specificata sopra. Questo aggiorna anche il tasso di fatturazione/ora per questo ruolo di lavoro quando si utilizza la [!UICONTROL Base Currency].</span> </p> 
-        <p>Per informazioni su come [!DNL Workfront] calcola i ricavi, vedi <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica di fatturazione e ricavi</a>.</p> 
-       </div> <p>Suggerimento: Quando si aggiorna un ruolo di lavoro esistente a cui è già associato un tasso di fatturazione/ora, [!DNL Workfront] calcola il tasso di sostituzione della valuta in base al tasso di conversione nel sistema. Se si aggiorna la fatturazione/ora della divisa di sostituzione, anche la fatturazione/ora del ruolo di lavoro viene aggiornata automaticamente. </p> </td> 
+        <p>Tariffa oraria di fatturazione della mansione che utilizza la [!UICONTROL Override Currency] selezionata. [!DNL Workfront] utilizza questo valore per calcolare le entrate pianificate ed effettive delle attività e dei problemi associati al ruolo. </p> 
+        <p><span>Immettere il tasso nella [!UICONTROL Override Currency] specificata sopra. Questo aggiorna anche la tariffa di fatturazione/ora per questa mansione quando si utilizza la [!UICONTROL Base Currency].</span> </p> 
+        <p>Per informazioni su come [!DNL Workfront] calcola i ricavi, vedere <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Panoramica su fatturazione e ricavi</a>.</p> 
+       </div> <p>Suggerimento: quando si aggiorna una mansione esistente a cui è già associata una tariffa di fatturazione/ora, [!DNL Workfront] calcola il tasso della valuta di sostituzione in base al tasso di conversione nel sistema. Se aggiorni la valuta di sostituzione fatturazione/ora, anche la fatturazione/ora del ruolo viene aggiornata automaticamente. </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!TIP]
    >
-   >I ruoli di lavoro sono parte integrante della gestione delle risorse. Per utilizzare gli strumenti di pianificazione delle risorse, i ruoli di lavoro devono essere associati a un costo e a un tasso di fatturazione. Per informazioni, consulta [Guida introduttiva a Gestione risorse](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
+   >I ruoli sono parte integrante della gestione delle risorse. Per utilizzare gli strumenti di pianificazione delle risorse, le mansioni devono avere un costo e una tariffa di fatturazione associati. Per informazioni, consulta [Introduzione alla gestione delle risorse](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md).
 
-1. Fai clic su **[!UICONTROL Crea ruolo lavoro]**. È ora possibile assegnare il ruolo di lavoro a attività, problemi, approvazioni oppure condividere modelli di layout o altri oggetti con esso. Per informazioni su tutti gli usi dei ruoli di lavoro in [!DNL Workfront], vedi [Panoramica sul ruolo del lavoro](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Per informazioni sull&#39;eliminazione di un ruolo di lavoro, vedere [Eliminare i ruoli di lavoro](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
+1. Clic **[!UICONTROL Crea Ruolo]**. Il ruolo è ora disponibile per essere assegnato ad attività, problemi, approvazioni oppure puoi condividere modelli di layout o altri oggetti con esso. Per informazioni su tutti gli utilizzi delle mansioni in [!DNL Workfront], vedi [Panoramica sui ruoli](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Per informazioni sull&#39;eliminazione di una mansione, vedere [Elimina mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

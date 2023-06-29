@@ -1,48 +1,49 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Assegnare le attività
-description: È possibile assegnare attività a utenti, ruoli o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un'attività a più di una risorsa alla volta.
+title: Assegna attività
+description: È possibile assegnare attività a utenti, ruoli o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un'attività a più risorse contemporaneamente.
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 57ca3b58f3ef39eaea82acf609135b1e5ae8e631
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1789'
+source-wordcount: '1901'
 ht-degree: 1%
 
 ---
 
-# Assegnare le attività
+# Assegna attività
 
-È possibile assegnare attività a utenti, ruoli o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un&#39;attività a più di una risorsa alla volta.
+{{highlighted-preview}}
+
+È possibile assegnare attività a utenti, mansioni o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un&#39;attività a più risorse contemporaneamente.
 
 >[!TIP]
 >
->È possibile assegnare più utenti, ruoli o team. È possibile assegnare solo utenti attivi, ruoli e team.
+>Puoi assegnare più utenti, mansioni o team. Puoi assegnare solo utenti attivi, mansioni e team.
 >
->Se un utente, un ruolo di lavoro o un team è stato assegnato prima della disattivazione, rimangono assegnati all&#39;elemento di lavoro. In questo caso, si consiglia quanto segue:
+>Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
 >
->* Riassegna l&#39;elemento di lavoro alle risorse attive.
+>* Riassegnare l&#39;elemento di lavoro alle risorse attive.
 >* Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
 >
 
-
-Il numero di utenti assegnati a un&#39;attività e la pianificazione del proprietario dell&#39;attività possono modificare le date pianificate di un&#39;attività, il che comporta la modifica della cronologia del progetto. Per informazioni sull&#39;impatto dell&#39;assegnazione di più utenti a un&#39;attività, vedere [Panoramica sulla modifica delle assegnazioni di attività](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Il numero di utenti assegnati a un&#39;attività e la pianificazione del proprietario dell&#39;attività possono modificare le date pianificate di un&#39;attività, modificando la sequenza temporale del progetto. Per informazioni sull&#39;impatto dell&#39;assegnazione di più utenti a un&#39;attività, vedere [Panoramica sulla modifica delle assegnazioni delle attività](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 Oltre a questo articolo, si consiglia di leggere i seguenti articoli per ulteriori informazioni sull&#39;assegnazione delle attività:
 
-* [Panoramica sulla modifica delle assegnazioni di attività](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+* [Panoramica sulla modifica delle assegnazioni delle attività](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
 * [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [Esecuzione di assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [Creazione di assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Effettua assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [Crea assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [Modificare più assegnazioni utente in un elenco di attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
-* [Modifica delle attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
+* [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Pianificare una panoramica del progetto](../../../manage-work/projects/planning-a-project/plan-project.md)
-* [Panoramica dell&#39;attività Data completamento pianificata](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
-* [Imposta la data di completamento pianificato del progetto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
-* [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
-* [Panoramica dell’assegnazione del lavoro nel servizio di bilanciamento del carico di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [Panoramica della data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
+* [Impostare la data di completamento pianificata del progetto](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
+* [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
+* [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Requisiti di accesso
 
@@ -85,7 +86,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -93,37 +94,37 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso a progetti e attività</p> <p>Visualizza o accesso più elevato agli utenti</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modificare l’accesso a Progetti e Attività</p> <p>Accesso di visualizzazione o superiore agli utenti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Collaborare o autorizzazioni superiori per le attività</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Contribuire o accedere ad autorizzazioni superiori per le attività</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per sapere quale piano, tipo di licenza o accesso si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
 
-## Considerazioni relative a più assegnazioni a ruoli, team e utenti del processo
+## Considerazioni per più assegnazioni a mansioni, team e utenti
 
 Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto segue:
 
-* Gli utenti possono avere più di un ruolo di lavoro associato al loro profilo. Per informazioni sull’associazione degli utenti ai ruoli di lavoro, consulta [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Gli utenti possono avere più di una mansione associata al loro profilo. Per informazioni sull&#39;associazione degli utenti ai ruoli, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Se si assegnano più utenti a un&#39;attività o a un problema, il primo utente selezionato viene designato automaticamente come proprietario dell&#39;attività o del problema.
-Per istruzioni su come modificare questa impostazione, consulta le informazioni sull’opzione Rendi principale nell’articolo [Creazione di assegnazioni avanzate](create-advanced-assignments.md).
+* Se si assegnano più utenti a un&#39;attività o a un problema, il primo utente selezionato viene automaticamente designato come proprietario dell&#39;attività o del problema.
+Per istruzioni su come modificare questa impostazione, vedere le informazioni sull&#39;opzione Imposta come principale nell&#39;articolo [Crea assegnazioni avanzate](create-advanced-assignments.md).
 
-* Un team non può essere un assegnatario primario per un&#39;attività o un problema. Solo un utente o un ruolo di lavoro può essere designato come primario su un&#39;attività o un problema.
+* Un team non può essere un assegnatario principale di un&#39;attività o di un problema. Solo un utente o una mansione può essere designata come principale per un’attività o un problema.
 
 <!-- If a task is assigned to multiple teams, the primary team sees the Work On It button. waiting on team to verify if this is true. (Courtney)
 You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
-* Le attività e i problemi relativi a un progetto possono essere assegnati per prime a uno o più team o ruoli di lavoro. Quando il progetto è pronto per essere avviato, potrebbe essere necessario assegnarli anche agli utenti:
+* Le attività e i problemi di un progetto possono essere assegnati prima a uno o più team o mansioni. Quando il progetto è pronto per iniziare, potrebbe essere necessario assegnarlo anche agli utenti:
 
-   <table>
+  <table>
   <col> 
   <col> 
   <tbody>
@@ -133,13 +134,13 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
   </tr>
   <tr>
    <td>Mansioni</td>
-   <td><p>Se assegni un'attività o un problema a uno o più ruoli e poi assegni anche un utente, decide quale ruolo di lavoro associare all'utente aggiuntivo (se presente) in base alle regole seguenti:</p>
+   <td><p>Se assegni un’attività o un problema a uno o più ruoli e successivamente assegni anche un utente, decide quale ruolo associare all’utente aggiuntivo (se presente) in base alle seguenti regole:</p>
      <ul>
-      <li>Se è assegnato un solo ruolo di lavoro e corrisponde al ruolo principale dell’utente (configurato nel suo profilo), l’attività o il problema viene assegnato solo a tale utente.</li>
-      <li>Se vengono assegnati più ruoli e almeno uno di essi corrisponde a uno degli altri ruoli dell’utente, l’attività o il problema viene assegnato all’utente (il ruolo viene selezionato in modo casuale se sono presenti più corrispondenze), insieme a eventuali ruoli aggiuntivi assegnati</li>
-      <li>Se viene assegnato almeno un ruolo di lavoro e non sono presenti corrispondenze ai ruoli di lavoro dell'utente, l'attività o il problema viene assegnato sia al ruolo o ai ruoli che all'utente.</li>
+      <li>Se a un ruolo è assegnato un solo e questo corrisponde al ruolo principale dell’utente (configurato nel suo profilo), l’attività o il problema viene assegnato solo a tale utente.</li>
+      <li>Se vengono assegnati più ruoli e almeno uno di essi corrisponde a uno degli altri ruoli dell’utente, l’attività o il problema viene assegnato all’utente (il ruolo viene selezionato in modo casuale se ci sono più corrispondenze), insieme a eventuali ruoli aggiuntivi assegnati</li>
+      <li>Se viene assegnata almeno una mansione e non vi sono corrispondenze con le mansioni dell’utente, l’attività o il problema viene assegnato sia alla mansione o alle mansioni che all’utente.</li>
      </ul>
-   <p>Per informazioni sul ruolo principale di un utente e su altri ruoli, consulta <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modificare il profilo di un utente</a>.</p>
+   <p>Per informazioni sul ruolo principale di un utente e su altri ruoli, vedi <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Modificare il profilo di un utente</a>.</p>
    </td> 
      </tr>
   </tbody>
@@ -159,124 +160,131 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 </div>
 -->
 
-## Assegnare una singola attività
+## Assegna una singola attività
 
 1. Passare a un&#39;attività che si desidera assegnare.
-1. Fai clic su **Assegna a** in **Assegnazioni** nell’intestazione dell’attività o del problema.
+1. Clic **Assegna a** nel **Assegnazioni** nell’intestazione dell’attività o del problema.
 
    Oppure
 
-   Fare clic sul nome delle assegnazioni se l&#39;attività o il problema è già assegnato.
+   Se l’attività o il problema è già assegnato, fai clic sul nome delle assegnazioni.
 
-![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
 1. Esegui una delle operazioni seguenti:
 
-   * Iniziare a digitare il nome di un utente, un ruolo o un team che si desidera assegnare, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
+   * Inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare, quindi fai clic su di esso quando viene visualizzato nell’elenco.
 
 
-      >[!TIP]
-      >
-      >Quando aggiungi un&#39;assegnazione utente, osserva l&#39;avatar, il ruolo principale dell&#39;utente o il relativo indirizzo e-mail per distinguere tra utenti con nomi identici. Gli utenti devono essere associati ad almeno un ruolo di lavoro per visualizzarlo durante l&#39;aggiunta.
+     >[!TIP]
+     >
+     >Quando aggiungi un’assegnazione utente, osserva l’avatar, il ruolo principale dell’utente o il suo indirizzo e-mail per distinguere gli utenti con nomi identici. Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono aggiunti.
+     >
+     ><span class="preview">Quando si aggiunge un&#39;assegnazione di una mansione, è possibile cercare la mansione o la posizione. Selezionare la mansione predefinita/di sistema per utilizzare la tariffa di fatturazione predefinita per l&#39;assegnazione oppure selezionare una mansione scheda tariffa per utilizzare la tariffa di fatturazione dalla scheda tariffa. Per ulteriori informazioni sulle schede delle tariffe, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Condizionale) Fai clic su uno dei nomi nel **Assegnazioni consigliate** se viene visualizzato questo elenco. Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Condizionale) Fai clic su uno dei nomi nell’ **Assegnazioni suggerite** elenco, se visualizzato. Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
-   * Fai clic su **Avanzate**
+   * Clic **Avanzate**
 
-      Per informazioni su come effettuare assegnazioni avanzate, vedere [Creazione di assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Per informazioni su come effettuare assegnazioni avanzate, vedere [Crea assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 1. Fai clic su **Salva**.
-1. (Facoltativo e condizionale) Fai clic sul pulsante **Icona X** accanto al nome dell&#39;assegnazione nel pannello a destra dell&#39;attività da rimuovere, se si fa clic su **Avanzate**.
+1. (Facoltativo e condizionale) Fai clic su **Icona X** accanto al nome dell&#39;assegnazione nel pannello destro dell&#39;attività per rimuovere un&#39;assegnazione, se si fa clic su **Avanzate**.
 
-## Assegnare un’attività in un elenco
+## Assegnare un&#39;attività in un elenco
 
-È possibile assegnare le attività in un elenco o in un rapporto quando uno dei campi delle assegnazioni è visibile nella visualizzazione dell&#39;elenco. Questo è un modo più veloce per assegnare le attività. Questo articolo descrive come modificare le assegnazioni per un&#39;attività in un elenco. Per informazioni sulla modifica di più assegnazioni per più attività in un elenco, vedere [Modificare più assegnazioni utente in un elenco di attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+È possibile assegnare attività in un elenco o in un report quando uno qualsiasi dei campi delle assegnazioni è visibile nella visualizzazione dell&#39;elenco. Si tratta di un metodo più veloce per assegnare le attività. In questo articolo viene descritto come modificare le assegnazioni di un&#39;attività in un elenco. Per informazioni sulla modifica di più assegnazioni per più attività in un elenco, vedere [Modificare più assegnazioni utente in un elenco di attività](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
-A seconda del campo visibile nella visualizzazione, è possibile assegnare all&#39;attività le seguenti entità:
+A seconda del campo visibile nella visualizzazione, è possibile assegnare le seguenti entità all&#39;attività:
 
 | Campo | Entità assegnate |
 |---|---|
-| **Assegna a** | Assegnare un utente |
-| **Assgnt** | Assegnare un utente |
-| **Assegnazioni** | Assegnare utenti, ruoli o team |
+| **Assegna a** | Assegna un utente |
+| **Assgnt** | Assegna un utente |
+| **Assegnazioni** | Assegnare utenti, mansioni o team |
 
-Per assegnare attività in un elenco:
+Per assegnare le attività in un elenco:
 
-1. Passare a un elenco di attività con i campi Assegnato a, Assegnato o Assegnazioni nella visualizzazione.
-1. (Facoltativo) Fai clic sul pulsante **Salvataggio automatico** dal menu a discesa e seleziona una delle seguenti opzioni:
+1. Consente di passare a un elenco di attività contenente i campi Assegnato a, Assegnato o Assegnazioni nella visualizzazione.
+1. (Facoltativo) Fai clic su **Salvataggio automatico** e selezionare una delle seguenti opzioni:
 
    | Opzione | Descrizione opzione |
    |---|---| 
    | Salvataggio automatico | Le modifiche apportate alle attività vengono salvate automaticamente e non è possibile ripristinarle |
    | Salvataggio manuale | È necessario salvare manualmente le modifiche. È possibile ripristinare le modifiche prima di salvarle. |
-   | Pianificazione sequenza temporale | È necessario salvare manualmente le modifiche. È possibile ripristinare le modifiche prima di salvarle. Il salvataggio delle modifiche e di tutte le dipendenze del progetto è più rapido rispetto alla selezione del salvataggio manuale. |
+   | Pianificazione sequenza temporale | È necessario salvare manualmente le modifiche. È possibile ripristinare le modifiche prima di salvarle. Il salvataggio delle modifiche e di tutte le dipendenze del progetto è più rapido rispetto a quando si seleziona Salvataggio manuale. |
 
-   Per ulteriori informazioni sul salvataggio delle attività durante la modifica in un elenco, vedere [Modificare le attività in un elenco](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+   Per ulteriori informazioni sul salvataggio delle attività mentre vengono modificate in un elenco, vedere [Modificare le attività in un elenco](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-1. Per assegnare le attività, eseguire una delle operazioni seguenti:
+1. Per assegnare le attività, effettuare una delle seguenti operazioni:
 
-   * Fai clic all’interno del **Assegnato a** o **Assegnato** campi e iniziare a digitare il nome di un utente attivo che si desidera assegnare all&#39;attività, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
-   * Fai clic all’interno del **Assegnazioni** e iniziare a digitare il nome di un utente attivo, di un ruolo o di un team che si desidera assegnare all&#39;attività, quindi fare clic su di essa quando viene visualizzato nell&#39;elenco.
+   * Fai clic all’interno del **Assegnato a** o **Assegnato** e iniziare a digitare il nome di un utente attivo che si desidera assegnare all&#39;attività, quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
+   * Fai clic all’interno del **Assegnazioni** e inizia a digitare il nome di un utente attivo, una mansione o un team che desideri assegnare all’attività, quindi fai clic su di esso quando viene visualizzato nell’elenco.
 
-      >[!TIP]
-      >Quando aggiungi un&#39;assegnazione utente, osserva l&#39;avatar, il ruolo principale dell&#39;utente o il relativo indirizzo e-mail per distinguere tra utenti con nomi identici. Gli utenti devono essere associati ad almeno un ruolo di lavoro per visualizzarlo durante l&#39;aggiunta.
-      >
-      >
-   >
+     >[!TIP]
+     >
+     >Quando aggiungi un’assegnazione utente, osserva l’avatar, il ruolo principale dell’utente o il suo indirizzo e-mail per distinguere gli utenti con nomi identici. Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono aggiunti.
+     >
+     ><span class="preview">Quando si aggiunge un&#39;assegnazione di una mansione, è possibile cercare la mansione o la posizione. Selezionare la mansione predefinita/di sistema per utilizzare la tariffa di fatturazione predefinita per l&#39;assegnazione oppure selezionare una mansione scheda tariffa per utilizzare la tariffa di fatturazione dalla scheda tariffa. Per ulteriori informazioni sulle schede delle tariffe, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
-1. (Condizionale) Quando è visibile nel **Assegnazioni** fai clic sul campo **Persone** nell&#39;angolo superiore destro della casella assegnazioni per aprire **Assegnazioni avanzate** e creare assegnazioni avanzate.
+
+1. (Condizionale) Quando è visibile in **Assegnazioni** , fare clic sul pulsante **Persone** nell&#39;angolo superiore destro della casella assegnazioni per aprire **Assegnazioni avanzate** e creare assegnazioni avanzate.
 
    <!--
    there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
    -->
 
-   Per ulteriori informazioni, consulta [Creazione di assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+   Per ulteriori informazioni, consulta [Crea assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
-   Non è possibile effettuare assegnazioni avanzate dai campi Assegnato a o Assegnato.
+   >
+   >Non è possibile effettuare assegnazioni avanzate dai campi Assegnato a o Assegnato.
 
-1. Dopo aver aggiunto gli assegnatari all&#39;attività, premi Invio o fai clic in un punto qualsiasi della pagina per salvare le modifiche se hai selezionato Salvataggio automatico. In caso contrario, fai clic su **Salva**.
+1. Dopo aver aggiunto gli assegnatari all’attività, premi Invio o fai clic in un punto qualsiasi della pagina per salvare le modifiche, se hai selezionato Salvataggio automatico. In caso contrario, fare clic su **Salva**.
 
 ## Assegnare più attività a un utente
 
-1. Passare a un elenco delle attività che si desidera assegnare in blocco.
-1. (Condizionale) Assicurati che il **Salvataggio automatico** se ti trovi in un elenco di attività di un progetto, l’opzione è selezionata.
+1. Passare a un elenco di attività che si desidera assegnare in blocco.
+1. (Condizionale) Assicurati che il **Salvataggio automatico** L&#39;opzione è selezionata se ci si trova in un elenco di attività di un progetto.
 
    >[!IMPORTANT]
-   Non è possibile modificare le attività in blocco quando si salvano le attività manualmente in un progetto.
+   >
+   >Non è possibile modificare le attività in blocco quando si salvano le attività manualmente in un progetto.
 
-1. Selezionare diverse attività nell&#39;elenco delle attività.
-1. Fai clic su **Modifica**.
+1. Selezionare più attività nell&#39;elenco delle attività.
+1. Clic **Modifica**.
 
-   La **Modifica attività** viene visualizzata la finestra di dialogo.
+   Il **Modifica le Attività** viene visualizzata.
 
-1. In **Assegnazioni** area, selezionare **Assegnatario** quindi iniziare a digitare il nome di un utente, di un ruolo o di un team che si desidera assegnare a tutte le attività.
+1. In **Assegnazioni** , selezionare la **Assegnatario** , quindi iniziare a digitare il nome di un utente, una mansione o un team che si desidera assegnare a tutte le attività.
 
    >[!IMPORTANT]
-   Se una delle attività è già assegnata, le risorse indicate vengono aggiunte alle attività anziché sostituire le risorse esistenti sulle attività.
+   >
+   >Se una delle attività è già assegnata, le risorse indicate in questo campo vengono aggiunte alle attività anziché sostituire le risorse esistenti sulle attività.
 
-1. (Facoltativo) Seleziona il pulsante di scelta nel **Proprietario attività** per indicare quale risorsa è l&#39;assegnatario principale o il proprietario dell&#39;attività, quando si assegnano più risorse all&#39;attività. Non disponibile per i team.
-1. (Condizionale) Specifica il **% allocazione** per ogni risorsa assegnata all&#39;attività, se tutte le attività selezionate hanno un tipo di durata guidata sforzo o un&#39;assegnazione calcolata. Indica quanto tempo devono trascorrere queste risorse per completare l’attività. Questa opzione è disponibile solo per gli utenti e i ruoli di lavoro.
+1. (Facoltativo) Seleziona il pulsante di opzione nella **Proprietario attività** per indicare quale risorsa è l&#39;assegnatario principale o il proprietario dell&#39;attività, quando si assegnano più risorse all&#39;attività. Questa funzione non è disponibile per i team.
+1. (Condizionale) Specifica la **% allocazione** per ogni risorsa assegnata all&#39;attività se tutte le attività selezionate hanno un Tipo di durata di Impegno o Assegnazione calcolata. Indica quanto tempo queste risorse devono dedicare al completamento dell&#39;attività. Questa opzione è disponibile solo per gli utenti e le mansioni.
 
    Oppure
 
-   Specifica l&#39;importo di **Ore** per ogni risorsa assegnata all&#39;attività, se tutte le attività selezionate sono di tipo Durata semplice. Il totale di tutte le ore per tutte le risorse deve corrispondere al numero di ore pianificate per l&#39;attività.
+   Specifica la quantità di **Ore** per ogni risorsa assegnata all&#39;attività se tutte le attività selezionate hanno un Tipo di durata semplice. Il totale di tutte le ore per tutte le risorse deve corrispondere al numero di ore pianificate per l&#39;attività.
 
    >[!IMPORTANT]
-   Non è possibile specificare la percentuale di allocazione o il numero di ore per risorsa se le attività selezionate hanno tipi di durata diversi o le attività selezionate hanno tipi di durata diversi.
+   >
+   >Non è possibile specificare la percentuale di allocazione o il numero di ore per risorsa se le attività selezionate hanno tipi di durata diversi o se le attività selezionate hanno tipi di durata diversi.
 
-   Per informazioni sul tipo di durata per le attività, vedere [Panoramica del tipo di durata e durata dell’attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Per informazioni sul Tipo di Durata per le attività, vedi [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. (Facoltativo) Seleziona un ruolo che l’utente deve svolgere sull’attività dal **Scegli un ruolo** nel menu a discesa **Ruolo dell&#39;assegnatario** quando si assegnano gli utenti alle attività. Se non selezioni un ruolo, Workfront seleziona automaticamente il ruolo principale dell’utente.
+1. (Facoltativo) Seleziona un ruolo che l’utente deve svolgere sull’attività dall’elenco **Scegli una mansione** menu a discesa nella **Ruolo dell&#39;assegnatario** quando si assegnano gli utenti alle attività. Se non si seleziona un ruolo, Workfront seleziona automaticamente il ruolo principale dell&#39;utente.
 
-1. (Facoltativo) Se desideri rimuovere gli assegnatari esistenti da tutte le attività, effettua una delle seguenti operazioni:
+1. (Facoltativo) Se si desidera rimuovere assegnatari esistenti da tutte le attività, effettuare una delle seguenti operazioni:
 
-   1. Inizia a digitare il nome di un utente, un ruolo o un team da rimuovere dall&#39;attività, quindi selezionalo quando viene visualizzato nell&#39;elenco e fai clic su **Rimuovi assegnatario** per rimuovere altri assegnatari.
-   1. Fai clic su **Rimuovi tutti gli assegnatari esistenti** per rimuovere tutti gli assegnatari da tutte le attività selezionate.
+   1. Inizia a digitare il nome di un utente, ruolo o team che desideri rimuovere dall’attività, quindi selezionalo quando viene visualizzato nell’elenco e fai clic su **Rimuovi assegnatario** per rimuovere altri assegnatari.
+   1. Clic **Rimuovi tutti gli assegnatari esistenti** per rimuovere tutti gli assegnatari da tutte le attività selezionate.
 
-1. Fai clic su **Salva modifiche**.
-1. (Facoltativo e condizionale) Quando i campi Assegnato a o Assegnazioni vengono visualizzati nell’elenco delle attività, fare clic all’interno di una di queste colonne per un’attività, quindi fare clic sul pulsante **Icona X** accanto al nome di un assegnatario per rimuoverlo dall&#39;attività.
+1. Clic **Salva modifiche**.
+1. (Facoltativo e condizionale) Quando nell&#39;elenco delle attività vengono visualizzati i campi Assegnato a o Assegnazioni, fare clic in una di queste colonne per un&#39;attività, quindi fare clic su **Icona X** accanto al nome di un assegnatario per rimuoverlo dall&#39;attività.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

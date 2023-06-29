@@ -2,26 +2,28 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: accesso, modello, funnel, diagramma, livelli, autorizzazioni
+keywords: accesso,modello,funnel,diagramma,livelli,autorizzazioni
 navigation-topic: access-levels
-title: Funzionalità disponibile per ogni tipo di oggetto per nuovi livelli di accesso
-description: Nella tabella seguente sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
+title: Funzionalità disponibile per ogni tipo di oggetto per i nuovi livelli di accesso
+description: Nelle tabelle seguenti sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1253'
 ht-degree: 12%
 
 ---
 
-# Funzionalità disponibile per ogni tipo di oggetto per nuovi livelli di accesso
+# Funzionalità disponibile per ogni tipo di oggetto per i nuovi livelli di accesso
 
-Nella tabella seguente sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
+{{highlighted-preview}}
 
-Indica inoltre quali azioni possono essere disabilitate o abilitate dagli amministratori di Workfront utilizzando un livello di accesso.
+Nelle tabelle seguenti sono elencate le funzionalità disponibili per ogni tipo di oggetto nei vari livelli di accesso.
+
+Indica inoltre le azioni che gli amministratori di Workfront possono disabilitare o abilitare utilizzando un livello di accesso.
 
 ## Progetti
 
@@ -34,25 +36,25 @@ Indica inoltre quali azioni possono essere disabilitate o abilitate dagli ammini
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
 | Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Aggiungere un modulo personalizzato | ✓ |   |   |   |
-| Aggiorna campi personalizzati | ✓ |   |   |   |
-| Aggiungi un processo di approvazione | ✓ |   |   |   |
+| Aggiornare i campi personalizzati | ✓ |   |   |   |
+| Aggiungere un processo di approvazione | ✓ |   |   |   |
 | Approvare un progetto | ✓ | ✓ |   |   |
 | Aggiungi documento | ✓ | ✓ |   |   |
 | Aggiungi problema | ✓ | ✓ |   |   |
 | Aggiungi  attività | ✓ |   |   |   |
-| Aggiornamenti/commenti | ✓ | ✓ |   |   |
-| Cambia stato | ✓ |   |   |   |
-| Ore di log | ✓ | ✓ |   |   |
+| Assegna aggiornamenti/commenti | ✓ | ✓ |   |   |
+| Modifica stato | ✓ |   |   |   |
+| Registra ore | ✓ | ✓ |   |   |
 | Modifica assegnazioni | ✓ |   |   |   |
 | Gestire una baseline | ✓ |   |   |   |
 | Gestire i rischi | ✓ |   |   |   |
-| Gestire i finanziamenti | ✓ |   |   |   |
+| Gestire le finanze | ✓ |   |   |   |
 | Aggiungi/modifica spese | ✓ |   |   |   |
 | Allega modelli | ✓ |   |   |   |
 | Salva come modello | ✓ |   |   |   |
-| Aggiungi/modifica un caso aziendale | ✓ |   |   |   |
-| Modificare i dettagli del progetto | ✓ |   |   |   |
-| Modifica del personale | ✓ |   |   |   |
+| Aggiungere/modificare un caso di business | ✓ |   |   |   |
+| Modifica dettagli progetto | ✓ |   |   |   |
+| Modifica assegnazione personale | ✓ |   |   |   |
 | Esporta in MS Project | ✓ | ✓ |   |   |
 | Ricalcola finanza/timeline | ✓ |   |   |   |
 | Impostare le proprietà della coda | ✓ |   |   |   |
@@ -73,20 +75,20 @@ Indica inoltre quali azioni possono essere disabilitate o abilitate dagli ammini
 | Aggiungi predecessori | ✓ |   |   |   |
 | Aggiungi  problemi | ✓ | ✓ |   |   |
 | Modificare un’attività (escluso lo stato) | ✓ |   |   |   |
-| Modifica stato attività | ✓ |   |   |   |
+| Cambia stato attività | ✓ |   |   |   |
 | Aggiungi documenti | ✓ | ✓ |   |   |
-| Copiare un’attività | ✓ |   |   |   |
+| Copiare un&#39;attività | ✓ |   |   |   |
 | Spostare un’attività | ✓ |   |   |   |
-| Ore di log | ✓ | ✓ |   |   |
-| Accettare un&#39;assegnazione | ✓ |   |   |   |
-| Creare un&#39;assegnazione | ✓ | ✓ |   |   |
+| Registra ore | ✓ | ✓ |   |   |
+| Accetta un&#39;assegnazione | ✓ |   |   |   |
+| Assegnazione | ✓ | ✓ |   |   |
 | Allegare un modulo personalizzato | ✓ |   |   |   |
-| Modificare campi personalizzati | ✓ |   |   |   |
-| Creazione di un processo di approvazione | ✓ |   |   |   |
+| Modifica campi personalizzati | ✓ |   |   |   |
+| Creare un processo di approvazione | ✓ |   |   |   |
 | Approvare un’attività | ✓ | ✓ |   |   |
-| Modifica delle finanze | ✓ |   |   |   |
+| Modifica dati finanziari | ✓ |   |   |   |
 | Aggiungi/modifica spese | ✓ |   |   |   |
-| Visualizza finanza | ✓ | ✓ |   |   |
+| Visualizza informazioni finanziarie | ✓ | ✓ |   |   |
 | Aggiungi aggiornamenti/commenti | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
@@ -104,17 +106,17 @@ Indica inoltre quali azioni possono essere disabilitate o abilitate dagli ammini
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
 | Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Allegare moduli personalizzati | ✓ | ✓ | ✓ |   |
-| Modificare campi personalizzati | ✓ | ✓ | ✓ |   |
-| Approvare i problemi | ✓ | ✓ | ✓ |   |
-| Aggiungi un processo di approvazione | ✓ | ✓ | ✓ |   |
+| Modifica campi personalizzati | ✓ | ✓ | ✓ |   |
+| Approva problemi | ✓ | ✓ | ✓ |   |
+| Aggiungere un processo di approvazione | ✓ | ✓ | ✓ |   |
 | Aggiungi documenti | ✓ | ✓ | ✓ |   |
 | Copia i problemi | ✓ | ✓ | ✓ |   |
 | Sposta i problemi | ✓ | ✓ | ✓ |   |
-| Ore di log | ✓ |   |   |   |
+| Registra ore | ✓ |   |   |   |
 | Convertire un problema in un progetto | ✓ |   |   |   |
 | Convertire un problema in un&#39;attività | ✓ |   |   |   |
 | Accetta assegnazioni | ✓ |   |   |   |
-| Assegna assegnazioni | ✓ |   |   |   |
+| Assegnazioni | ✓ |   |   |   |
 | Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
@@ -134,9 +136,9 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai portf
 | Visualizza | ✓&#42; | ✓&#42; |   |   |
 | Modifica dettagli | ✓ |   |   |   |
 | Allegare moduli personalizzati | ✓ |   |   |   |
-| Modificare campi personalizzati | ✓ |   |   |   |
+| Modifica campi personalizzati | ✓ |   |   |   |
 | Aggiungere e rimuovere progetti | ✓ |   |   |   |
-| Approvare progetti | ✓ |   |   |   |
+| Approva progetti | ✓ |   |   |   |
 | Ottimizzazione del Portfolio | ✓ |   |   |   |
 | Aggiungi documenti | ✓ | ✓ |   |   |
 | Aggiungere aggiornamenti e commenti | ✓ | ✓ |   |   |
@@ -158,9 +160,9 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai progr
 | Visualizza | ✓&#42; | ✓&#42; |   |   |
 | Modifica dettagli | ✓ |   |   |   |
 | Allegare moduli personalizzati | ✓ |   |   |   |
-| Modificare campi personalizzati | ✓ |   |   |   |
+| Modifica campi personalizzati | ✓ |   |   |   |
 | Aggiungere e rimuovere progetti | ✓ |   |   |   |
-| Approvare progetti | ✓ |   |   |   |
+| Approva progetti | ✓ |   |   |   |
 | Ottimizzazione Portfolio | ✓ |   |   |   |
 | Aggiungi documenti | ✓ | ✓ |   |   |
 | Aggiungi aggiornamenti e commenti | ✓ | ✓ |   |   |
@@ -171,15 +173,15 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai progr
 
 ## Report, dashboard e calendari
 
-Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. Tutti gli altri livelli di accesso hanno accesso a Visualizza rapporti.
+Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. Tutti gli altri livelli di accesso dispongono dell&#39;accesso di visualizzazione ai rapporti.
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |--------------------------------------|----------|--------|-------------|---------------|
 | Crea | ✓&#42; |   |   |   |
 | Elimina | ✓&#42; |   |   |   |
-| Visualizzare i rapporti incorporati | ✓&#42; |   |   |   |
+| Visualizzare rapporti incorporati | ✓&#42; |   |   |   |
 | Condividi | ✓&#42; | ✓ |   |   |
-| Condividere calendari e rapporti pubblicamente | ✓&#42; |   |   |   |
+| Condividere calendari e report pubblicamente | ✓&#42; |   |   |   |
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
 | Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Modifica | ✓ |   |   |   |
@@ -191,9 +193,9 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 
 >[!NOTE]
 >
->I collaboratori possono visualizzare solo i rapporti condivisi con loro.
+>I collaboratori possono visualizzare solo i rapporti che sono stati condivisi con loro.
 
-## Filtri, visualizzazioni e raggruppamenti
+## Filtri, viste e raggruppamenti
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |-------------------|------------|---------|---------------|---------------|
@@ -219,13 +221,13 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
 | Visualizza | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | Modifica dettagli | ✓ | ✓ | ✓ |   |
-| Scaricare | ✓ | ✓ | ✓ | ✓ |
+| Scarica | ✓ | ✓ | ✓ | ✓ |
 | Pagamento | ✓ | ✓ | ✓ |   |
 | Aggiungi approvatori | ✓ | ✓ | ✓ |   |
-| Approvare documenti | ✓ | ✓ | ✓ | ✓ |
+| Approva documenti | ✓ | ✓ | ✓ | ✓ |
 | Allegare moduli personalizzati | ✓ | ✓ | ✓ |   |
-| Modificare campi personalizzati | ✓ | ✓ | ✓ |   |
-| Sposta a (oggetto) | ✓ | ✓ | ✓ |   |
+| Modifica campi personalizzati | ✓ | ✓ | ✓ |   |
+| Sposta in (oggetto) | ✓ | ✓ | ✓ |   |
 | Invia a (integrazione) | ✓ | ✓ | ✓ |   |
 | Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ |   |
 | Carica nuova versione | ✓ | ✓ | ✓ |   |
@@ -250,8 +252,8 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 | Crea | ✓* |   |   |   |
 | Elimina | ✓* |   |   |   |
 | Modifica, elimina, disattiva, accedi come o reimposta la password per qualsiasi utente | ✓* |   |   |   |
-| Modifica, elimina, disattiva, accedi come o reimposta la password per qualsiasi utente di un gruppo che amministra | ✓* |   |   |   |
-| Visualizzare gli utenti | ✓ | ✓ | ✓ |   |
+| Modifica, elimina, disattiva, accedi come o reimposta la password per tutti gli utenti di un gruppo che amministrano | ✓* |   |   |   |
+| Visualizza utenti | ✓ | ✓ | ✓ |   |
 | Visualizza informazioni di contatto | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
@@ -266,10 +268,10 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 |-----------------------------------------|-----------|------------|-------------|------------------|
 | Crea | ✓* |   |   |   |
 | Elimina | ✓* |   |   |   |
-| Modificare i team su cui sono attivi | ✓* |   |   |   |
-| Modificare i team in gruppi gestiti | ✓* |   |   |   |
+| Modifica i team a cui appartengono | ✓* |   |   |   |
+| Modificare i team nei gruppi da loro gestiti | ✓* |   |   |   |
 | Visualizza tutti i team | ✓ | ✓ | ✓ |   |
-| Visualizzare i team associati ai relativi gruppi | ✓ | ✓ | ✓ |   |
+| Visualizza i team associati ai loro gruppi | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
@@ -285,7 +287,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
 | Visualizza | ✓&#42; |   |   |   |
 | Copia | ✓ |   |   |   |
-| Modificare i dettagli del modello | ✓ |   |   |   |
+| Modifica dettagli modello | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -297,18 +299,19 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai dati 
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Modificare la fatturazione dei ruoli e le tariffe dei costi | ✓&#42; |   |   |   |
-| Modificare la fatturazione e le tariffe degli utenti | ✓&#42; |   |   |   |
-| Visualizza la fatturazione dei ruoli e le tariffe dei costi | ✓&#42; |   |   |   |
-| Visualizza la fatturazione e i tassi di costo degli utenti | ✓&#42; |   |   |   |
-| Gestire i record di fatturazione | ✓ |   |   |   |
-| Gestione delle spese | ✓ |   |   |   |
+| Modifica fatturazione mansioni e tassi di costo | ✓&#42; |   |   |   |
+| Modifica fatturazione utente e tariffe | ✓&#42; |   |   |   |
+| Visualizza fatturazione mansioni e tassi di costo | ✓&#42; |   |   |   |
+| Visualizza fatturazione utente e tariffe di costo | ✓&#42; |   |   |   |
+| Gestisci record fatturazione | ✓ |   |   |   |
+| Gestione spese | ✓ |   |   |   |
 | Visualizza dati finanziari | ✓&#42; | ✓&#42; |   |   |
-| Visualizzare le informazioni in base al costo negli strumenti di pianificazione delle risorse | ✓ |   |   |   |
-| Risorse di budget negli strumenti di pianificazione delle risorse&#42;&#42; | ✓ |   |   |   |
-| Visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione delle risorse&#42; | ✓ | ✓ |   |   |
-| Creare rischi sui progetti | ✓ |   |   |   |
-| Visualizza i rischi relativi ai progetti | ✓ | ✓ |   |   |
+| <span class="preview">Gestire le schede delle tariffe</span> | ✓ |   |   |   |
+| Visualizzare le informazioni per costo negli strumenti di pianificazione delle risorse | ✓ |   |   |   |
+| Risorse budget negli strumenti di pianificazione delle risorse&#42;&#42; | ✓ |   |   |   |
+| Visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione risorse&#42; | ✓ | ✓ |   |   |
+| Creare rischi nei progetti | ✓ |   |   |   |
+| Visualizzare i rischi sui progetti | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
@@ -316,69 +319,69 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai dati 
 
 ## Gestione risorse
 
-Solo gli utenti con una licenza Standard possono avere accesso completo alla gestione delle risorse. Altri tipi di licenza possono avere accesso limitato o nullo a Gestione risorse in Workfront.
+Solo gli utenti con una licenza Standard possono avere accesso completo alla gestione delle risorse. Altri tipi di licenza possono avere accesso limitato o nullo alla gestione delle risorse in Workfront.
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Modifica priorità e ore preventivate nella Programmazione | ✓&#42; |   |   |   |
-| Creare, modificare, eliminare i pool di risorse&#42;&#42; | ✓&#42; |   |   |   |
+| Creare, modificare ed eliminare i gruppi di risorse&#42;&#42; | ✓&#42; |   |   |   |
 | `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42; |   |   |   |
-| Visualizzare le priorità del progetto nel planner risorse | ✓&#42; |   |   |   |
-| Visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione delle risorse | ✓&#42; | ✓&#42; |   |   |
-| Visualizza pool di risorse | ✓&#42; | ✓&#42; |   |   |
-| Risorse di budget negli strumenti di pianificazione delle risorse&#42;&#42; | ✓ |   |   |   |
-| Allega pool di risorse a progetti, modelli e utenti | ✓ |   |   |   |
+| Visualizzare le priorità del progetto nella Programmazione delle risorse | ✓&#42; |   |   |   |
+| Visualizzare l&#39;allocazione delle risorse negli strumenti di pianificazione risorse | ✓&#42; | ✓&#42; |   |   |
+| Visualizza gruppi di risorse | ✓&#42; | ✓&#42; |   |   |
+| Risorse preventivate negli strumenti di pianificazione risorse&#42;&#42; | ✓ |   |   |   |
+| Allega gruppi di risorse a progetti, modelli e utenti | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
 &#42; Utilizzando un livello di accesso, gli amministratori di Workfront possono disabilitare o abilitare questa funzionalità.
 
-&#42;&#42;Richiede un accesso aggiuntivo ai dati finanziari e autorizzazioni per le finanze del progetto. Se si concede l&#39;accesso a Gestione risorse a un utente Planner che non ha accesso ai dati finanziari, l&#39;utente può comunque visualizzare le allocazioni orarie nel Planner risorse, ma non può passare alla visualizzazione Costi o visualizzare il Business Case. Per ulteriori informazioni, consulta [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere le autorizzazioni finanziarie su un oggetto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Richiede l&#39;accesso aggiuntivo ai dati finanziari e le autorizzazioni per i dati finanziari del progetto. Se si concede l&#39;accesso Gestione risorse a un utente di Planner che non ha accesso ai dati finanziari, l&#39;utente potrà comunque visualizzare le allocazioni orarie nella Programmazione risorse, ma non potrà passare alla visualizzazione Costo o al Business Case. Per ulteriori informazioni, consulta [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) e [Condividere le autorizzazioni finanziarie su un oggetto](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Richiede l&#39;autorizzazione per Contribute all&#39;oggetto, con l&#39;opzione Make Assignments abilitata in Impostazioni avanzate. Per informazioni, consulta la sezione . [Comprendere le autorizzazioni ereditate e la gerarchia degli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) nell&#39;articolo [Panoramica della condivisione delle autorizzazioni sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Richiede l&#39;autorizzazione per contribuire all&#39;oggetto con l&#39;opzione Crea assegnazioni abilitata in Impostazioni avanzate. Per informazioni, consulta la sezione [Comprendere le autorizzazioni ereditate e la gerarchia di oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) nell’articolo [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-## Area planner dello scenario
+## Area Pianificazione scenario
 
 | Azione | Standard | Light | Collaboratore | Utente esterno |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
-| Creare/modificare piani e iniziative esistenti | ✓ | ✓ |   |   |
-| Aggiungere o modificare le informazioni sul ruolo del lavoro in piani e iniziative&#42; | ✓ | ✓ |   |   |
-| Aggiungere o modificare informazioni sui costi relativi a piani e iniziative&#42; | ✓ | ✓ |   |   |
+| Crea/modifica piani e iniziative esistenti | ✓ | ✓ |   |   |
+| Aggiungere o modificare le informazioni sui ruoli in piani e iniziative&#42; | ✓ | ✓ |   |   |
+| Aggiungere o modificare le informazioni sui costi per piani e iniziative&#42; | ✓ | ✓ |   |   |
 | Elimina piani e iniziative | ✓ | ✓ |   |   |
 | Visualizza scenari nel menu principale | ✓ | ✓ |   |   |
-| Visualizza piani e iniziative creati dall&#39;utente&#42; | ✓ | ✓ |   |   |
+| Visualizza i piani e le iniziative creati dall&#39;utente&#42; | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Gli utenti possono visualizzare un piano creato da un altro utente solo se con esso è condiviso un collegamento al piano.
+>Gli utenti possono visualizzare un piano creato da un altro utente solo se con essi è condiviso un collegamento al piano.
 
-&#42; Affinché gli utenti possano visualizzare i dati finanziari in un piano o in un&#39;iniziativa, devono avere accesso ai dati finanziari. Per ulteriori informazioni, consulta [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; Affinché gli utenti possano visualizzare i dati finanziari in un piano o in un’iniziativa, devono avere accesso ai dati finanziari. Per ulteriori informazioni, consulta [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-## Area Obiettivi di Workfront
+## Area Obiettivi Workfront
 
 <!-- ask Alina about this section -->
 
 | Azioni | Viste | Modif |
 |---|---|---|
 | Crea |   | ✓ |
-| Modificare/eliminare tutti gli obiettivi |   | ✓ |
+| Modifica/elimina tutti gli obiettivi |   | ✓ |
 | Visualizza obiettivi nel menu principale | ✓ | ✓ |
-| Visualizzare l&#39;area Obiettivi da un collegamento condiviso | ✓ | ✓ |
-| Visualizza tutti gli obiettivi del sistema | ✓ | ✓ |
-| Attivare/disattivare/chiudere tutti gli obiettivi |   | ✓ |
-| Creare/modificare/eliminare attività |   | ✓ |
-| Creare/modificare/eliminare risultati |   | ✓ |
+| Visualizzare l’area Obiettivi da un collegamento condiviso | ✓ | ✓ |
+| Visualizza tutti gli obiettivi nel sistema | ✓ | ✓ |
+| Attiva/disattiva/chiudi tutti gli obiettivi |   | ✓ |
+| Creare, modificare ed eliminare attività |   | ✓ |
+| Crea/modifica/elimina risultati |   | ✓ |
 | Aggiungi un obiettivo allineato |   | ✓ |
 | Aggiornare l’avanzamento di un risultato o di un’attività |   | ✓ |
-| Possedere un obiettivo, un risultato o un’attività | ✓ | ✓ |
+| Possiedi un obiettivo, un risultato o un&#39;attività | ✓ | ✓ |
 | Commento su un obiettivo | ✓ | ✓ |
 | Copia obiettivi |   | ✓ |
 | Visualizza la sezione Elenco obiettivi nel pannello a sinistra | ✓ | ✓ |
-| Visualizza la sezione Grafici nel pannello a sinistra | ✓ | ✓ |
+| Visualizzare la sezione Grafici nel pannello a sinistra | ✓ | ✓ |
 | Visualizza la sezione Allineamento obiettivo nel pannello a sinistra | ✓ | ✓ |
 | Visualizzare la sezione Pulse nel pannello a sinistra | ✓ | ✓ |
-| Visualizza l’area Check-in nel pannello a sinistra |   | ✓ |
-| Visualizza l&#39;area Impostazioni nel pannello a sinistra | ✓ | ✓ |
+| Visualizza l&#39;area Check-in nel pannello a sinistra |   | ✓ |
+| Visualizza l’area Impostazioni nel pannello a sinistra | ✓ | ✓ |
 | Stampa un elenco di obiettivi | ✓ | ✓ |

@@ -1,43 +1,46 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Creazione di assegnazioni avanzate
-description: È possibile gestire le assegnazioni di task o di problemi utilizzando le assegnazioni avanzate.
+title: Crea assegnazioni avanzate
+description: È possibile gestire le assegnazioni di attività o problemi utilizzando Assegnazioni avanzate.
 author: Alina
 feature: Work Management
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 3f5e5e9832fc33d39ea5dfbbc513b80adbf113f5
+source-git-commit: 2b48377653a77d3d71c90fac9c64cb48fc7877a3
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1309'
 ht-degree: 0%
 
 ---
 
-# Creazione di assegnazioni avanzate
+# Crea assegnazioni avanzate
 
-È possibile gestire le assegnazioni di task o di problemi utilizzando le assegnazioni avanzate.
+{{highlighted-preview}}
 
-È possibile modificare le seguenti informazioni sull&#39;assegnazione quando si eseguono assegnazioni avanzate:
+È possibile gestire le assegnazioni di attività o problemi utilizzando Assegnazioni avanzate.
 
-* Assegna gli utenti all’attività o al problema (che può essere eseguito al di fuori di un’assegnazione avanzata).
-* Adegua e ridistribuisci il numero di ore assegnate a ciascun assegnatario.
-* Determinare quale utente deve essere designato come proprietario o come principale assegnatario dell&#39;attività o del problema.
-* Specificare il ruolo che ogni utente deve svolgere quando si lavora sull&#39;attività o sul problema.
+È possibile modificare le seguenti informazioni di assegnazione quando si eseguono assegnazioni avanzate:
+
+* Assegnare utenti all&#39;attività o al problema (operazione che può essere eseguita al di fuori di un&#39;assegnazione avanzata).
+* Regola e ridistribuisci il numero di ore assegnate a ciascun assegnatario.
+* Determina quale utente deve essere designato come proprietario o assegnatario principale dell’attività o del problema.
+* Specifica il ruolo che ogni utente svolge quando lavora sull&#39;attività o sul problema.
+* <span class="preview">Sostituisci la tariffa di fatturazione per una mansione.</span>
 
 >[!NOTE]
 >
->Quando si assegnano gli utenti al lavoro, la loro disponibilità in base alle loro pianificazioni influisce sulle date previste e previste delle attività e dei problemi. Per informazioni sulle pianificazioni, consulta [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Quando si assegnano gli utenti al lavoro, la loro disponibilità in base alle loro pianificazioni influisce sulle date pianificate e previste delle attività e dei problemi. Per informazioni sulle pianificazioni, consulta [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 ## Aree di Adobe Workfront in cui è possibile effettuare assegnazioni avanzate
 
-Questo articolo descrive come accedere alle assegnazioni avanzate nell&#39;intestazione dell&#39;attività o del problema.
+Questo articolo descrive come accedere ad Assegnazioni anticipate nell’intestazione dell’attività o del problema.
 
-Inoltre, è possibile effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
+Inoltre, puoi effettuare assegnazioni avanzate nelle seguenti aree di Workfront:
 
-* Negli elenchi e nei rapporti quando il campo Assegnazioni viene visualizzato nella visualizzazione.
-* Nella sezione Assegnazioni durante la modifica di un&#39;attività. Per ulteriori informazioni, consulta [Modifica delle attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-* Nell&#39;intestazione dell&#39;attività o del problema, nell&#39;area Assegnazioni.
-* Nel servizio di bilanciamento del carico di lavoro. Per ulteriori informazioni, consulta [Assegnare il lavoro manualmente utilizzando il bilanciamento del carico di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+* Negli elenchi e nei report quando il campo Assegnazioni viene visualizzato nella visualizzazione.
+* Nella sezione Assegnazioni durante la modifica di un&#39;attività. Per ulteriori informazioni, consulta [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* Nell’intestazione dell’attività o del problema, nell’area Assegnazioni.
+* Nel Bilanciatore dei carichi di lavoro. Per ulteriori informazioni, consulta [Assegnare il lavoro manualmente utilizzando il Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 ## Requisiti di accesso
 
@@ -48,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -56,99 +59,123 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica l'accesso alle attività e ai problemi</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica l'accesso ad Attività e Issues</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Contribuire o autorizzazioni superiori a un'attività o un problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Contribuire o concedere autorizzazioni superiori a un’attività o a un problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Esecuzione di assegnazioni avanzate
+## Assegnazioni avanzate
 
-1. Passa al progetto in cui desideri assegnare un’attività o un problema.
-1. Fai clic su **Attività** o **Problemi** nel pannello a sinistra, fai clic sul nome di un’attività o di un problema nell’elenco.
+1. Vai al progetto a cui desideri assegnare un’attività o un problema.
+1. Clic **Attività** o **Problemi** nel pannello a sinistra, fai clic sul nome di un’attività o di un problema nell’elenco.
 
    >[!TIP]
    >
-   >È possibile effettuare assegnazioni avanzate direttamente nell&#39;attività o nell&#39;elenco dei problemi se sono assegnate due o più persone. Fai clic all’interno del **Assegnazioni** sulla stessa riga dell&#39;attività o del problema, quindi fai clic sul **Icona Persone** per aprire la finestra Assegnazioni avanzate. Passa al passaggio 5 per continuare a creare assegnazioni avanzate.\
-   >![](assets/nwe-advanced-assignments-350x55.png)   >
+   >Se sono presenti due o più persone assegnate, è possibile effettuare assegnazioni avanzate direttamente nell&#39;elenco delle attività o dei problemi. Fai clic all’interno del **Assegnazioni** sulla stessa riga dell’attività o del problema, quindi fai clic sul pulsante **Icona Persone** per aprire la finestra Assegnazioni avanzate. Passare al passaggio 5 per continuare la creazione di assegnazioni avanzate.\
+   >![](assets/nwe-advanced-assignments-350x55.png)
+   >
 
-1. Fai clic su **Assegna a** in **Assegnazioni** campo nell’intestazione dell’attività o del problema
+1. Clic **Assegna a** nel **Assegnazioni** campo nell’intestazione dell’attività o del problema
 
    Oppure
 
-   Fare clic sul nome delle assegnazioni se l&#39;attività o il problema è già assegnato.
+   Se l’attività o il problema è già assegnato, fai clic sul nome delle assegnazioni.
 
-1. Fai clic su **Avanzate**.
+1. Clic **Avanzate**.
 
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-1. In **Cercare persone, ruoli e team** inizia a digitare il nome di un utente, di un ruolo o di un team, quindi fai clic sul nome quando viene visualizzato nell’elenco a discesa.
+1. In **Cerca persone, ruolo e team** , inizia a digitare il nome di un utente, una mansione o un team e, quando viene visualizzato nell&#39;elenco a discesa, fai clic sul nome.
 
    >[!NOTE]
    >
-   >Se il nome dell’utente contiene un carattere speciale, è necessario includere il carattere speciale nel campo di ricerca.
+   >Se il nome dell&#39;utente contiene un carattere speciale, è necessario includere tale carattere nel campo di ricerca.
 
-1. (Facoltativo) Continua ad aggiungere assegnatari nel **Cercare persone, ruoli o team** per aggiungere più risorse all&#39;attività o al problema.
+1. (Facoltativo) Continua ad aggiungere assegnatari nel **Cerca persone, ruolo o team** per aggiungere più risorse all’attività o al problema.
 
    >[!TIP]
    >
-   >* È possibile assegnare più utenti, ruoli o team. È possibile assegnare solo utenti attivi, ruoli e team.
+   >* Puoi assegnare più utenti, mansioni o team. Puoi assegnare solo utenti attivi, mansioni e team.
    >
    >
-   >* Quando aggiungi un&#39;assegnazione utente, osserva l&#39;avatar, il ruolo principale dell&#39;utente o il relativo indirizzo e-mail per distinguere tra utenti con nomi identici. Gli utenti devono essere associati ad almeno un ruolo di lavoro per visualizzarlo durante l&#39;aggiunta.
+   >* Quando aggiungi un’assegnazione utente, osserva l’avatar, il ruolo principale dell’utente o il suo indirizzo e-mail per distinguere gli utenti con nomi identici. Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono aggiunti.
    >
    >
-   >* Se un utente, un ruolo di lavoro o un team è stato assegnato prima della disattivazione, rimangono assegnati all&#39;elemento di lavoro. In questo caso, si consiglia quanto segue:
-      >   
-      >   * Riassegna l&#39;elemento di lavoro alle risorse attive.
-      >   * Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
+   >* <span class="preview">Quando si aggiunge un&#39;assegnazione di una mansione, è possibile cercare la mansione o la posizione. Selezionare la mansione predefinita/di sistema per utilizzare la tariffa di fatturazione predefinita per l&#39;assegnazione oppure selezionare una mansione scheda tariffa per sostituire la tariffa a livello di assegnazione. Per ulteriori informazioni sulle schede delle tariffe, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+   >
+   >
+   >* Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
+   >   
+   >   * Riassegnare l&#39;elemento di lavoro alle risorse attive.
+   >   * Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
+   >   
+   >
+
+1. Per ogni utente in **Assegnatario** , specificare le informazioni seguenti:
 
 
-1. Per ogni utente nel **Assegnatario** , specifica le seguenti informazioni:
+   * **Proprietario**: passa il puntatore sul nome dell’assegnatario e fai clic su **Rendi principale** nel campo Proprietario se si desidera contrassegnare l’assegnatario come proprietario dell’attività o del problema. Una casella di controllo verde indica che l’utente specificato è il contatto principale dell’attività o del problema. Adobe Workfront contrassegna come Proprietario o Assegnazione principale il primo utente o mansione assegnato a un&#39;attività o a un problema. Un team non può essere designato come proprietario principale di un’attività o di un problema.
 
+     >[!IMPORTANT]
+     >
+     >A seconda della modalità di impostazione delle preferenze di progetto da parte dell&#39;amministratore di Workfront o del gruppo, Workfront potrebbe utilizzare la pianificazione del proprietario dell&#39;attività per calcolare la sequenza temporale dell&#39;attività quando più utenti sono assegnati all&#39;attività. Per informazioni su più assegnatari di attività, vedere la sezione &quot;Assegnare più utenti a un&#39;attività&quot; nell&#39;articolo [Assegna attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
-   * **Proprietario**: Passa il puntatore del mouse sul nome dell&#39;assegnatario e fai clic su **Rendi primario** nel campo Proprietario se si desidera contrassegnare l&#39;assegnatario come proprietario dell&#39;attività o del problema. Una casella di controllo verde indica che l&#39;utente specificato è il contatto principale dell&#39;attività o del problema. Adobe Workfront contrassegna il primo ruolo utente o di lavoro assegnato a un&#39;attività o a un problema come Proprietario o Assegnazione principale. Impossibile designare un team come proprietario principale di un&#39;attività o di un problema.
+   * **Allocazioni** : quando il Tipo di durata di un’attività è Semplice, specifica il numero di ore che ogni utente o mansione deve essere assegnato all’attività. La somma di tutte le ore assegnate a ciascun utente è uguale al numero in **Ore pianificate** nella parte inferiore della colonna Allocazioni. In tutti gli altri casi, specifica la percentuale di tempo (o allocazione) che l’assegnatario deve dedicare alla risoluzione dell’attività o del problema.
 
-      >[!IMPORTANT]
-      >
-      >A seconda della configurazione delle preferenze di progetto da parte dell’amministratore di Workfront o dell’amministratore di gruppo, Workfront potrebbe utilizzare la pianificazione del proprietario dell’attività per calcolare la cronologia dell’attività quando a tale attività sono assegnati più utenti. Per informazioni su più assegnazioni di attività, consulta la sezione &quot;Assegnare più utenti a un’attività&quot; nell’articolo [Assegnare le attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
-
-   * **Allocazioni** : Quando il tipo di durata di un&#39;attività è Semplice, specificare il numero di ore in cui ogni utente o ruolo di lavoro deve essere assegnato all&#39;attività. La somma di tutte le ore assegnate per ogni utente è uguale al numero nel **Orari pianificati** campo nella parte inferiore della colonna Allocazioni. In tutti gli altri casi, specificare la percentuale di tempo (o allocazione) che l&#39;assegnatario deve trascorrere per risolvere l&#39;attività o il problema.
-
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
      -->
 
-      >[!TIP]
-      >
-      >
-      >   
-      >   
-      >   * Dopo aver modificato manualmente le allocazioni di assegnazione per le attività, è possibile che l&#39;orario pianificato delle attività venga aggiornato di conseguenza. Per ulteriori informazioni, consulta la sezione &quot;Aggiornare le ore pianificate delle attività durante la gestione delle allocazioni degli utenti&quot; nell’articolo [Panoramica sull’orario pianificato](../../../manage-work/tasks/task-information/planned-hours.md).
-      >   * Non è possibile modificare manualmente le allocazioni di assegnazione in caso di problemi.
-      >   * Non è possibile modificare manualmente le allocazioni per i team assegnati alle attività.
+     >[!TIP]
+     >
+     >
+     >   
+     >   
+     >   * Dopo aver modificato manualmente le allocazioni delle assegnazioni per le attività, le ore pianificate delle attività potrebbero essere aggiornate di conseguenza. Per ulteriori informazioni, vedere la sezione &quot;Aggiornare le ore pianificate per l&#39;attività durante la gestione delle allocazioni utente&quot; nell&#39;articolo [Panoramica sulle ore pianificate](../../../manage-work/tasks/task-information/planned-hours.md).
+     >   * Non è possibile modificare manualmente le allocazioni di assegnazione in caso di problemi.
+     >   * Non è possibile modificare manualmente le allocazioni per i team assegnati alle attività.
+     >   
+     >
 
+   * **Ruolo dell&#39;assegnatario:** Selezionare il ruolo che l&#39;utente deve utilizzare per l&#39;esecuzione di questa assegnazione.  Il Ruolo principale dell’utente viene visualizzato per impostazione predefinita. Fare clic nella casella Ruolo dell&#39;assegnatario per selezionare un altro ruolo.  Quando prima assegni l’attività o il problema a un ruolo e poi aggiungi un utente che può svolgere quel ruolo come seconda assegnazione, l’elenco degli utenti suggeriti viene filtrato per gli utenti che possono adempiere ai ruoli già assegnati all’attività e al problema.
 
-   * **Ruolo dell&#39;assegnatario:** Selezionare il ruolo che l&#39;utente deve utilizzare per completare l&#39;assegnazione.  Per impostazione predefinita viene visualizzato il Ruolo principale dell’utente. Fare clic nella casella Ruolo assegnatario per selezionare un altro ruolo.  Quando si assegna prima l’attività o il problema a un ruolo e quindi si aggiunge un utente che può svolgere tale ruolo come seconda assegnazione, l’elenco degli utenti consigliati viene filtrato per gli utenti che possono svolgere i ruoli già assegnati all’attività e al problema.
+     ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
+   <div class="preview">
 
-   * **Tipo di durata**: Questa opzione è disponibile solo per le attività. Fare clic sul nome del tipo di durata e selezionare un tipo di durata dal menu a discesa. Per informazioni sui tipi di durata, consulta [Panoramica del tipo di durata e durata dell’attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Posizione**: la posizione proviene dalla scheda tariffa, se una scheda tariffa allegata al progetto utilizza le posizioni con le mansioni. La posizione non può essere cambiata.
 
-   * **Durata:** È possibile aggiornare questo campo per un&#39;attività quando si dispone delle autorizzazioni di gestione per l&#39;attività.
+   * **Tariffe di fatturazione**: la tariffa di fatturazione per un utente deriva dalla tariffa di sistema per l’utente o dalla mansione associata. La tariffa di fatturazione per una mansione deriva dalla tariffa di sistema o dalla tariffa, se al progetto è allegata una tariffa. Le tariffe di fatturazione esistenti non vengono visualizzate in questo campo. Fai clic nel campo per modificare la tariffa di fatturazione per questa assegnazione di attività specifica.
 
-      Per ulteriori informazioni, consulta [Panoramica del tipo di durata e durata dell’attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Quando si modificano in serie le informazioni sull&#39;assegnazione, viene visualizzata una finestra di dialogo simile per assegnare utenti, ore, allocazione e proprietario dell&#39;attività.
+   </div>
 
-   * **Orari pianificati**: Quando il tipo di durata è Assegnazione calcolata o Semplice, aggiornare il numero di ore pianificate. Di conseguenza, le percentuali di allocazione o le ore per ogni risorsa vengono distribuite in modo uniforme. Workfront calcola le ore pianificate quando il tipo di durata è Lavoro calcolato o Sforzo guidato. Per ulteriori informazioni, consulta [Panoramica del tipo di durata e durata dell’attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   * **Tipo di durata**: disponibile solo per le attività. Fai clic sul nome del Tipo di durata e seleziona un Tipo di durata dal menu a discesa. Per informazioni sui tipi di durata, vedi [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
+   * **Durata:** È possibile aggiornare questo campo per un&#39;attività quando si dispone delle autorizzazioni Gestione per l&#39;attività.
+
+     Per ulteriori informazioni, consulta [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md). Quando si modificano in blocco le informazioni di assegnazione, viene visualizzata una finestra di dialogo simile che consente di assegnare utenti, ore, allocazione e proprietario dell&#39;attività.
+
+   * **Ore pianificate**: quando il tipo di durata è Assegnazione calcolata o Semplice, aggiorna il numero di ore pianificate. Di conseguenza, le percentuali di allocazione o le ore per ogni risorsa vengono distribuite in modo uniforme. Workfront calcola le ore pianificate quando il tipo di durata è Lavoro calcolato o Impegno guidato. Per ulteriori informazioni, consulta [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+     Immagine di esempio nell’ambiente di produzione:
+
+     ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
+
+     <div class="preview">
+
+     Immagine di esempio nell’ambiente di anteprima:
+
+     ![Assegnazioni avanzate](assets/advanced-assignments-location-billing-rates.png)
+
+     </div>
 
 1. Fai clic su **Salva**.

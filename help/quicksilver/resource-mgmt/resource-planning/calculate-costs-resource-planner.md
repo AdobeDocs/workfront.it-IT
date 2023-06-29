@@ -1,19 +1,21 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Calcolare i costi nel planner risorse
-description: È possibile eseguire il budget delle risorse in Adobe Workfront Resource Planner utilizzando i valori Cost anziché i valori Hours o FTE. I valori dei costi non sono disponibili per la visualizzazione**Visualizza per utente** nel planner risorse.
+title: Calcola i costi nella Programmazione delle risorse
+description: È possibile preventivare le risorse in Adobe Workfront Resource Planner utilizzando i valori Costo anziché i valori Ore o FTE. I valori dei costi non sono disponibili per la visualizzazione **Visualizza per utente** nella Programmazione risorse.
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: 61a107e1ee8a415fd94e73fc65fa5f59f7de02d1
+source-git-commit: d2b62f2ec2f52c54129b342d68c336c782601242
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1445'
 ht-degree: 0%
 
 ---
 
-# Calcolare i costi nel planner risorse
+# Calcola i costi nella Programmazione delle risorse
+
+{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -21,27 +23,27 @@ ht-degree: 0%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-È possibile eseguire il budget delle risorse in Adobe Workfront Resource Planner utilizzando i valori Cost anziché i valori Hours o FTE. I valori di costo non sono disponibili per il **Visualizza per utente** nel planner risorse.
+È possibile preventivare le risorse in Adobe Workfront Resource Planner utilizzando i valori Costo anziché i valori Ore o FTE. I valori di costo non sono disponibili per **Visualizza per utente** in Programmazione delle risorse.
 
 >[!IMPORTANT]
 >
->Per visualizzare le informazioni sui costi nel planner risorse, è necessario associare utenti e ruoli di lavoro ai tassi di costo per ora.\
->Per ulteriori informazioni sull&#39;associazione dei tassi di costo per ora con i ruoli di lavoro, vedere [Creare e gestire ruoli di lavoro](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
->Per ulteriori informazioni sull&#39;associazione delle tariffe di costo per ora con gli utenti, consulta [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+>È necessario associare utenti e mansioni alle tariffe Costo orario per visualizzare le informazioni sul costo nella Programmazione delle risorse.\
+>Per ulteriori informazioni sull&#39;associazione delle tariffe orarie con le mansioni, vedere [Creare e gestire le mansioni](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+>Per ulteriori informazioni sull&#39;associazione delle tariffe orarie agli utenti, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Prima di includere nel budget le risorse, assicurati di avere una buona comprensione di ciò che occorre fare (ore pianificate, FTE o Costo) e di quando gli utenti sono aperti al lavoro (ore disponibili, FTE o Costo).\
-Per ulteriori informazioni su come comprendere le informazioni nel Planner risorse quando si esegue il budget per ore o FTE, vedere [Panoramica delle informazioni su ore, FTE e costi nelle visualizzazioni Progetto e Ruolo del Planner risorse](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Prima di definire il budget delle risorse, accertati di avere una buona conoscenza del lavoro da eseguire (ore pianificate, FTE o costo) e degli orari in cui gli utenti sono aperti al lavoro (ore disponibili, FTE o costo).\
+Per ulteriori informazioni sulla comprensione delle informazioni nella Programmazione delle risorse quando si definisce il budget per ore o FTE, vedere [Panoramica di ore, FTE e informazioni sui costi nelle visualizzazioni Progetto e Ruolo della Programmazione delle risorse](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Pro e superiore</p> </td> 
   </tr> 
   <tr> 
@@ -49,52 +51,52 @@ Devi disporre dei seguenti elementi:
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica l'accesso a Gestione risorse che include l'accesso a Modifica priorità e ore di budget nel Planner risorse</p> <p>Modificare l’accesso a Dati finanziari, Progetti e Utenti</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica l'accesso a Gestione risorse, incluso l'accesso a Modifica priorità e ore preventivate nella Programmazione risorse</p> <p>Modifica accesso a dati finanziari, progetti e utenti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Consente di gestire le autorizzazioni per i progetti per i quali si desidera assegnare il budget alle informazioni con la possibilità di gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per i progetti per i quali si desidera preventivare le informazioni con la possibilità di gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Visualizza le informazioni nel planner risorse per costo
+## Visualizza informazioni nella Programmazione risorse per costo
 
-Per impostazione predefinita, le informazioni sulla disponibilità e sull&#39;allocazione vengono visualizzate in ore nel Planner risorse.
+Per impostazione predefinita, le informazioni sulla disponibilità e sull&#39;allocazione vengono visualizzate in Ore nella Programmazione delle risorse.
 
-Per visualizzare le informazioni disponibili, pianificate e a budget in base al costo nel planner risorse:
+Per visualizzare le informazioni Disponibili, Pianificate e Preventivate per Costo nella Programmazione risorse:
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
 
-1. Fai clic su **Risorsa**.
-1. Vai al Planner risorse.
-1. (Condizionale) Seleziona **Visualizza per progetto** o **Visualizza per ruolo**.\
-   Per impostazione predefinita **Visualizza per progetto** è selezionato.\
-   Le informazioni sull’allocazione e sulla disponibilità vengono visualizzate in ore.
+1. Clic **Risorse**.
+1. Vai alla Programmazione delle risorse.
+1. (Condizionale) Seleziona **Visualizza per Progetto** o **Visualizza per Ruolo**.\
+   Per impostazione predefinita **Visualizza per Progetto** è selezionato.\
+   Le informazioni sull&#39;allocazione e sulla disponibilità vengono visualizzate in Ore.
 
-1. Da **Ore** menu a discesa, seleziona **Costo**.
+1. Dalla sezione **Ore** menu a discesa, seleziona **Costo**.
 
-   Se non hai accesso ai dati finanziari nel tuo livello di accesso, questa opzione non è disponibile.\
-   Se i progetti hanno una valuta diversa da quella di sistema, il costo per questi progetti viene visualizzato nel Planner risorse convertito nella valuta del sistema. L&#39;amministratore di sistema definisce la valuta di sistema.\
-   Per ulteriori informazioni sulla configurazione della valuta del sistema in Workfront e sui tassi di conversione, vedi [Imposta i tassi di cambio](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
+   Se non si dispone dell&#39;accesso ai dati finanziari nel proprio livello di accesso, questa opzione non è disponibile.\
+   Se i progetti hanno una valuta diversa rispetto a quella di sistema, il Costo per questi progetti viene visualizzato in Pianificazione risorse convertito nella valuta del sistema. L&#39;amministratore di sistema definisce la valuta di sistema.\
+   Per ulteriori informazioni sull&#39;impostazione della valuta di sistema in Workfront e sui tassi di conversione, vedere [Imposta tassi di cambio](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
    ![cost_in_the_planner_with_no_budgeting.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
 
-## Calcola costo disponibile nel planner risorse
+## Calcola costo disponibile nella Programmazione delle risorse
 
-Per visualizzare i valori dei costi disponibili nel Planner risorse, è necessario disporre dei seguenti elementi:
+Per visualizzare i valori di Costo disponibile nella Programmazione delle risorse, è necessario disporre dei seguenti elementi:
 
-* Tariffe orarie per utenti e ruoli
+* Tariffe del costo orario per utenti e ruoli
 * Informazioni sulla disponibilità degli utenti.
 
-   L’ottenimento di informazioni sulla disponibilità degli utenti dipende dal modo in cui l’amministratore di Workfront configura le Preferenze di gestione delle risorse.\
-   Per ulteriori informazioni sul calcolo della disponibilità degli utenti e sull&#39;impostazione delle preferenze di gestione delle risorse, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  L&#39;ottenimento di informazioni sulla disponibilità degli utenti dipende dal modo in cui l&#39;amministratore di Workfront configura le preferenze di gestione delle risorse.\
+  Per ulteriori informazioni sul calcolo della disponibilità utente e sull&#39;impostazione delle preferenze di gestione delle risorse, vedere [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-Nella tabella seguente viene illustrato come viene calcolato il costo disponibile nel planner risorse:
+Nella tabella seguente viene illustrato il calcolo del costo disponibile nella Programmazione delle risorse:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,15 +110,15 @@ Nella tabella seguente viene illustrato come viene calcolato il costo disponibil
  <tbody> 
   <tr> 
    <td>Costo disponibile utente</td> 
-   <td> <p>Il costo disponibile per utente viene calcolato utilizzando la seguente formula:</p> <p><code>Available User Cost = User Available Hours * User Cost per Hour Rate</code> </p> <p><b>NOTA</b>
+   <td> <p>Il costo disponibile per utente viene calcolato utilizzando la formula seguente:</p> <p><code>Available User Cost = User Available Hours * User Cost per Hour Rate</code> </p> <p><b>NOTA</b>
 
-Se nel profilo dell&#39;utente non è presente un tasso di costo per ora, nel calcolo viene utilizzato il tasso di costo per ora del ruolo di lavoro in cui sono elencati. Se l&#39;utente non ha alcun ruolo associato a tali ruoli, il costo utente disponibile è $0. </p> </td>
+Se nel profilo dell&#39;utente non è presente una tariffa Costo orario, nel calcolo verrà utilizzata la tariffa Costo orario della mansione con cui è elencato l&#39;utente. Se all&#39;utente non è associato alcun ruolo, il costo utente disponibile è $0. </p> </td>
 </tr> 
   <tr> 
    <td>Costo disponibile ruolo</td> 
-   <td> <p>Il costo disponibile per ruolo viene calcolato utilizzando la seguente formula:</p> <p><code>Available Role Cost = Role Available Hours * Role Cost per Hour Rate</code> </p> <p><b>NOTA</b>
+   <td> <p>Il costo disponibile per ruolo viene calcolato utilizzando la formula seguente:</p> <p><code>Available Role Cost = Role Available Hours * Role Cost per Hour Rate</code> </p> <p><b>NOTA</b>
 
-Se il ruolo non dispone di un tasso di costo per ora, il costo del ruolo disponibile è $0.</p> </td>
+Se per il ruolo non è disponibile una tariffa Costo orario, il costo disponibile per il ruolo è pari a $0.</p> </td>
 </tr> 
   <tr> 
    <td>Costo disponibile progetto</td> 
@@ -125,138 +127,146 @@ Se il ruolo non dispone di un tasso di costo per ora, il costo del ruolo disponi
  </tbody> 
 </table>
 
-## Calcola costo pianificato nel planner risorse
+## Calcola costo pianificato nella Programmazione delle risorse
 
-Sebbene non sia possibile visualizzare le informazioni sulle attività nel Planner risorse, i costi pianificati per gli utenti, i ruoli e i progetti vengono calcolati tenendo conto delle seguenti informazioni sulle attività:
+Sebbene non sia possibile visualizzare le informazioni sulle attività nella Programmazione delle risorse, i costi pianificati per utenti, ruoli e progetti vengono calcolati tenendo conto delle seguenti informazioni sulle attività:
 
-* Tipo di assegnazione dell&#39;attività.\
-   È possibile lasciare un&#39;attività non assegnata o assegnare le seguenti entità a un&#39;attività:
+* Tipo di assegnazione per l&#39;attività.\
+  È possibile lasciare un&#39;attività non assegnata o assegnare le seguenti entità a un&#39;attività:
 
-   * Un utente (con o senza un ruolo di lavoro)
-   * Un ruolo
+   * Un utente (con o senza una mansione)
+   * Un Ruolo
    * Un team\
-      Un&#39;attività assegnata a un team viene considerata non assegnata, dal punto di vista del Planner risorse.
+     Un&#39;attività assegnata a un team viene considerata non assegnata dal punto di vista della programmazione delle risorse.
 
-* La **Tipo di costo** dei compiti del progetto.\
-   Per ulteriori informazioni sul tipo di costo di un&#39;attività, vedere [Costi di tracciamento](../../manage-work/projects/project-finances/track-costs.md).
+* Il **Tipo di costo** delle attività del progetto.\
+  Per ulteriori informazioni sul tipo di costo di un&#39;attività, vedere [Tracciare i costi](../../manage-work/projects/project-finances/track-costs.md).
+
+<div class="preview">
+
+* Le date di validità dei tassi di costo per mansioni e utenti.
+
+  Ad esempio, se il ruolo o l&#39;utente ha 10 ore pianificate in febbraio e 10 ore pianificate in marzo, ma il tasso di costo è cambiato da 12 a 20 dollari in marzo, il valore per il costo pianificato in febbraio è 120 dollari e in marzo è 200 dollari.
+
+</div>
 
 >[!NOTE]
 >
->I costi pianificati dall&#39;utente non influiscono sul costo pianificato del progetto. Solo i costi pianificati per il ruolo influiscono sui costi pianificati del progetto, nel Planner risorse.
+>I costi pianificati dall&#39;utente non influiscono sul costo pianificato del progetto. Solo i costi pianificati per ruolo influiscono sui costi pianificati del progetto nella pianificazione risorse.
 
-Esistono i seguenti scenari durante il calcolo del costo pianificato per utenti, ruoli e progetto:
+Per calcolare il costo pianificato per utenti, ruoli e progetto sono disponibili i seguenti scenari:
 
-* Quando il **Tipo di costo** è **Utente ogni ora **ed è presente **nessuna assegnazione** sull&#39;attività:
+* Quando **Tipo di costo** è **User Hourly **ed è presente **nessuna assegnazione** sull&#39;attività:
 
-   * **Ruolo e costo pianificato utente**:
+   * **Costo pianificato per ruolo e utente**:
 
-      I costi pianificati per Ruolo e Utente sono pari a $ 0,00.
-
-   * **Costo pianificato progetto**:
-
-      Il costo pianificato del progetto è $0,00.
-
-* Quando il **Tipo di costo** è **Utente orario** e c&#39;è un **assegnazione utente** sull&#39;attività:
-
-   * **Ruolo e costo pianificato utente**:
-
-      Il costo pianificato dall&#39;utente viene calcolato utilizzando la seguente formula:
-
-
-
-      ```
-      User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
-      ```
-
-      Se un utente ha un tasso di costo nel proprio profilo, tale tasso viene utilizzato per calcolare il costo pianificato. In caso contrario, viene utilizzato il tasso di costo per ora a livello di sistema del ruolo principale.
-
-      >[!NOTE]
-      >
-      >L’utente può essere assegnato all’attività con uno dei propri ruoli di lavoro secondari, ma in questo caso viene utilizzato il tasso del ruolo di lavoro principale.
-
-      Il costo pianificato per il ruolo viene calcolato utilizzando la seguente formula:
-
-      ```
-      Role Planned Cost = SUM(User Planned Cost)
-      ```
+     I costi pianificati per ruolo e utente sono pari a $ 0,00.
 
    * **Costo pianificato progetto**:
 
-      Il costo pianificato del progetto è $0,00.
+     Il costo pianificato del progetto è di $0,00.
 
-* Quando il **Tipo di costo** è **Utente orario** e c&#39;è un **assegnazione ruolo** sull&#39;attività:
+* Quando **Tipo di costo** è **Ore Utente** e c&#39;è un **assegnazione utente** sull&#39;attività:
 
-   * **Ruolo e costo pianificato utente**:
+   * **Costo pianificato per ruolo e utente**:
 
-      Il costo pianificato dall&#39;utente è $0,00.
+     Il costo pianificato dall&#39;utente viene calcolato utilizzando la formula seguente:
 
-      Il costo pianificato per il ruolo viene calcolato utilizzando la seguente formula:
 
-      ```
-      Role Planned Cost = Role Planned Hours * Role Cost per Hours
-      ```
 
-      Il tasso di costo per ora a livello di sistema del ruolo di lavoro assegnato all&#39;attività viene utilizzato per calcolare il costo pianificato.
+     ```
+     User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate
+     ```
 
-   * **Costo pianificato progetto**:
+     Se nel profilo di un utente è presente una tariffa, questa viene utilizzata per calcolare il costo pianificato. In caso contrario, viene utilizzato il tasso di costo orario a livello di sistema per il ruolo principale.
 
-      Il costo pianificato del progetto è $0,00.
+     >[!NOTE]
+     >
+     >L’utente può essere assegnato all’attività con una delle sue mansioni secondarie, ma in questa posizione viene utilizzato il tasso della mansione principale.
 
-* Quando il **Tipo di costo** è **Ruolo orario** e **nessuna assegnazione** sull&#39;attività:
+     Il costo pianificato del ruolo viene calcolato utilizzando la formula seguente:
 
-   * **Ruolo e costo pianificato utente**:
-
-      I costi pianificati per Ruolo e Utente sono pari a $ 0,00.
-
-   * **Costo pianificato progetto**:
-
-      Il costo pianificato del progetto è $0,00.
-
-* Quando il **Tipo di costo** è **Ruolo orario** e c&#39;è un **assegnazione utente** sull&#39;attività:
-
-   * **Ruolo e costo pianificato utente**:
-
-      Il costo pianificato dall&#39;utente è $0,00.
-
-      Il costo pianificato per il ruolo viene calcolato dalla seguente formula:
-
-      ```
-      Role Planned Cost = Role Planned Hours * Role Cost per Hours
-      ```
-
-      Per calcolare il costo pianificato per il ruolo, Workfront esamina il ruolo dell’utente che esegue l’attività.
-
-      Se l&#39;utente non è associato ad alcun ruolo sull&#39;attività, il costo pianificato è di $0,00.
+     ```
+     Role Planned Cost = SUM(User Planned Cost)
+     ```
 
    * **Costo pianificato progetto**:
 
-      Il costo pianificato del progetto viene calcolato utilizzando la seguente formula:
+     Il costo pianificato del progetto è di $0,00.
 
-      ```
-      Project Planned Cost = SUM(Role Planned Costs)
-      ```
+* Quando **Tipo di costo** è **Ore Utente** e c&#39;è un **assegnazione mansione** sull&#39;attività:
 
-* Quando il **Tipo di costo** è **Ruolo orario** e c&#39;è un **assegnazione ruolo** sull&#39;attività:
+   * **Costo pianificato per ruolo e utente**:
 
-   * **Ruolo e costo pianificato utente**:
+     Il costo pianificato dell&#39;utente è di $0,00.
 
-      Il costo pianificato dall&#39;utente è $0,00.
+     Il costo pianificato del ruolo viene calcolato utilizzando la formula seguente:
 
-      Il costo pianificato per il ruolo viene calcolato dalla seguente formula:
+     ```
+     Role Planned Cost = Role Planned Hours * Role Cost per Hours
+     ```
 
-      ```
-      Role Planned Cost = Role Planned Hours * Role Cost per Hours
-      ```
-
-      Per calcolare il costo pianificato per il ruolo, Workfront esamina il ruolo dell’utente che esegue l’attività.
+     La tariffa oraria a livello di sistema per la mansione assegnata all&#39;attività viene utilizzata per calcolare il costo pianificato.
 
    * **Costo pianificato progetto**:
 
-      Il costo pianificato del progetto viene calcolato utilizzando la seguente formula:
+     Il costo pianificato del progetto è di $0,00.
 
-      ```
-      Project Planned Cost = SUM(Role Planned Costs)
-      ```
+* Quando **Tipo di costo** è **Ore Ruolo** e c&#39;è **nessuna assegnazione** sull&#39;attività:
+
+   * **Costo pianificato per ruolo e utente**:
+
+     I costi pianificati per ruolo e utente sono pari a $ 0,00.
+
+   * **Costo pianificato progetto**:
+
+     Il costo pianificato del progetto è di $0,00.
+
+* Quando **Tipo di costo** è **Ore Ruolo** e c&#39;è un **assegnazione utente** sull&#39;attività:
+
+   * **Costo pianificato per ruolo e utente**:
+
+     Il costo pianificato dell&#39;utente è di $0,00.
+
+     Il costo pianificato del ruolo viene calcolato con la formula seguente:
+
+     ```
+     Role Planned Cost = Role Planned Hours * Role Cost per Hours
+     ```
+
+     Per calcolare il costo pianificato per il ruolo, Workfront esamina il ruolo che l&#39;utente svolge nell&#39;attività.
+
+     Se l&#39;utente non è associato ad alcun ruolo nell&#39;attività, il costo pianificato è $0,00.
+
+   * **Costo pianificato progetto**:
+
+     Il costo pianificato del progetto viene calcolato utilizzando la formula seguente:
+
+     ```
+     Project Planned Cost = SUM(Role Planned Costs)
+     ```
+
+* Quando **Tipo di costo** è **Ore Ruolo** e c&#39;è un **assegnazione mansione** sull&#39;attività:
+
+   * **Costo pianificato per ruolo e utente**:
+
+     Il costo pianificato dell&#39;utente è di $0,00.
+
+     Il costo pianificato del ruolo viene calcolato con la formula seguente:
+
+     ```
+     Role Planned Cost = Role Planned Hours * Role Cost per Hours
+     ```
+
+     Per calcolare il costo pianificato per il ruolo, Workfront esamina il ruolo che l&#39;utente svolge nell&#39;attività.
+
+   * **Costo pianificato progetto**:
+
+     Il costo pianificato del progetto viene calcolato utilizzando la formula seguente:
+
+     ```
+     Project Planned Cost = SUM(Role Planned Costs)
+     ```
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>
@@ -313,18 +323,18 @@ User Planned Costs do not influence the Project Planned Cost. Only the Role Plan
 </table>
 -->
 
-## Calcola costo preventivato nel planner risorse
+## Calcola costo preventivato nella programmazione delle risorse
 
-Per visualizzare i valori dei costi a budget nel Planner risorse, è necessario disporre dei seguenti elementi:
+Per visualizzare i valori di Costo preventivato nella Programmazione delle risorse, è necessario disporre dei seguenti elementi:
 
-* Ore previste per ruoli, utenti e progetti.
-* Tariffe orarie per utenti e ruoli.
+* Ore preventivate per ruoli, utenti e progetti.
+* Tariffe del costo orario per utenti e ruoli.
 
 >[!NOTE]
 >
->Le ore previste per i progetti vengono calcolate in base alle ore previste per i ruoli e non a quelle degli utenti.
+>Le ore preventivate per i progetti vengono calcolate in base alle ore preventivate per i ruoli, non a quelle degli utenti.
 
-Nella tabella seguente viene illustrato come viene calcolato il costo preventivato nel planner risorse:
+Nella tabella seguente viene illustrato come viene calcolato il Costo preventivato nella Programmazione risorse:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -337,20 +347,20 @@ Nella tabella seguente viene illustrato come viene calcolato il costo preventiva
  </thead> 
  <tbody> 
   <tr> 
-   <td>Costo a budget utente</td> 
-   <td> <p>Il costo a budget per utente viene calcolato utilizzando la seguente formula:</p> <p><code>Budgeted User Cost = User Budgeted Hours * User Cost per Hour Rate</code> </p> <p> <p><b>NOTA</b>
+   <td>Costo preventivato utente</td> 
+   <td> <p>Il costo preventivato per utente viene calcolato utilizzando la formula seguente:</p> <p><code>Budgeted User Cost = User Budgeted Hours * User Cost per Hour Rate</code> </p> <p> <p><b>NOTA</b>
 
-Se nel profilo dell&#39;utente non è presente un tasso di costo per ora, il costo per l&#39;utente in budget è $0,00.</p> </p> </td>
+Se l&#39;utente non ha una tariffa Costo all&#39;ora nel suo profilo, il Costo utente preventivato è $0,00.</p> </p> </td>
 </tr> 
   <tr> 
-   <td>Costo preventivato ruolo</td> 
-   <td> <p>Il costo preventivato ruolo viene calcolato utilizzando la seguente formula:</p> <p><code>Role Budgeted Cost = Role Budgeted Hours * Role Cost per Hour Rate</code> </p> <p> <p><b>NOTA</b>
+   <td>Costo preventivato mansione</td> 
+   <td> <p>Il costo preventivato ruolo viene calcolato utilizzando la formula seguente:</p> <p><code>Role Budgeted Cost = Role Budgeted Hours * Role Cost per Hour Rate</code> </p> <p> <p><b>NOTA</b>
 
-Se il ruolo non dispone di un tasso di costo per ora, il costo del ruolo a budget è $0,00.</p> </p> </td>
+Se per il ruolo non è disponibile una tariffa Costo orario, il costo del ruolo preventivato è pari a $ 0,00.</p> </p> </td>
 </tr> 
   <tr> 
    <td>Costo preventivato progetto</td> 
-   <td> <p>Il costo preventivato per progetto viene calcolato utilizzando la seguente formula:</p> <p><code>Project Budgeted Cost = SUM(Role Budgeted Cost). </code> </p> </td> 
+   <td> <p>Il Costo preventivato per progetto viene calcolato utilizzando la seguente formula:</p> <p><code>Project Budgeted Cost = SUM(Role Budgeted Cost). </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

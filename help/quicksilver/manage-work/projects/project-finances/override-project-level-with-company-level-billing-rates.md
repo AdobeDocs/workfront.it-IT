@@ -1,25 +1,27 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Sostituisci i tassi di fatturazione a livello di progetto con i tassi di fatturazione a livello di società
-description: Sostituisci i tassi di fatturazione a livello di progetto con i tassi di fatturazione a livello di società
+title: Sostituisci tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di società
+description: Sostituisci tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di società
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
-# Sostituisci i tassi di fatturazione a livello di progetto con i tassi di fatturazione a livello di società
+# Sostituisci tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di società
+
+{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
 -->
 
-Puoi configurare un progetto in modo che utilizzi le tariffe di fatturazione a livello di azienda invece delle tariffe di fatturazione a livello di progetto.
+Puoi configurare un progetto in modo che utilizzi le tariffe di fatturazione a livello di società anziché quelle a livello di progetto.
 
 ## Requisiti di accesso
 
@@ -30,7 +32,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -38,56 +40,69 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica l’accesso a progetti e dati finanziari</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso a progetti e dati finanziari</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per il progetto con autorizzazioni per Manage Finance</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il progetto con le autorizzazioni per Gestire le finanze</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Attiva l&#39;opzione di sostituzione Tassi di fatturazione a livello aziendale
+## Abilita l&#39;opzione di sostituzione delle tariffe di fatturazione a livello di società
 
-Quando un&#39;azienda è associata a un progetto e questa opzione è abilitata, le modifiche apportate ai tassi di fatturazione a livello di azienda sovrascrivono il tasso di fatturazione impostato sul progetto.
+Quando una società è associata a un progetto e questa opzione è abilitata, le modifiche fatte alle tariffe di fatturazione della società sovrascrivono la tariffa di fatturazione impostata sul progetto.
 
-Quando un utente ricalcola manualmente le finanze del progetto, vengono applicate tutte le modifiche ai tassi di fatturazione a livello aziendale. Vengono ignorati anche i calcoli storici dei ricavi, a meno che non siano contrassegnati come fatturati.
+Quando un utente ricalcola manualmente i dati finanziari sul progetto, vengono applicate eventuali modifiche alle tariffe di fatturazione della società. Anche i calcoli dei ricavi storici vengono sostituiti a meno che non vengano contrassegnati come fatturati.
 
 1. Vai a un progetto.
-1. Fai clic sul pulsante **Altro** menu ![](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell’intestazione, quindi fai clic su **Modifica**.
-1. In **Finanza** abilitare **Consenti ai tassi di fatturazione a livello aziendale di ignorare i tassi di fatturazione a livello di progetto**.
+1. Fai clic su **Altro** menu ![](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell’intestazione, quindi fai clic su **Modifica**.
+1. In **Finanza** , abilita **Consenti tariffe di fatturazione a livello di società per sostituire le tariffe di fatturazione a livello di progetto**.
 
    >[!CAUTION]
    >
-   >L’abilitazione di questa opzione sostituisce i calcoli storici dei ricavi a meno che non siano contrassegnati come fatturati. È possibile mantenere i calcoli storici dei ricavi creando un record di fatturazione. Per ulteriori informazioni, consulta l’articolo [Creazione di record di fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md)
+   >L’abilitazione di questa opzione sostituisce i calcoli dei ricavi storici a meno che non siano contrassegnati come fatturati. Puoi conservare i calcoli dei ricavi storici creando un record di fatturazione. Per ulteriori informazioni, consulta l’articolo [Crea record fatturazione](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. Fai clic su **Salva modifiche**.
+1. Clic **Salva modifiche**.
 
-## Aggiornare i tassi di fatturazione a livello aziendale e applicarli a un progetto
+## Aggiornare le tariffe di fatturazione a livello aziendale e applicarle a un progetto
 
-Dopo aver abilitato l&#39;opzione di sostituzione dei tassi di fatturazione a livello aziendale su un progetto, le modifiche apportate ai tassi di fatturazione dell&#39;azienda vengono applicate al progetto ogni volta che le finanze vengono ricalcolate.
+Dopo aver abilitato l&#39;opzione di sostituzione delle tariffe di fatturazione a livello di società in un progetto, le modifiche apportate alle tariffe di fatturazione della società vengono applicate al progetto in qualsiasi momento in cui vengono ricalcolati i dati finanziari.
 
 >[!NOTE]
 >
->Gli utenti devono avere accesso alle Aziende nel loro livello di accesso per aggiornare le tariffe di fatturazione a livello aziendale.
+>Per aggiornare le tariffe di fatturazione a livello aziendale, gli utenti devono avere accesso alle Aziende nel proprio livello di accesso.
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione**.
-1. Fai clic su **Aziende**.
-1. Fai clic sul nome della società associata al progetto per cui hai abilitato la sostituzione delle tariffe di fatturazione a livello di società.
-1. Fai clic su **Tassi di fatturazione** nel pannello a sinistra.
-1. Immettere il nuovo tasso di fatturazione per un ruolo di lavoro esistente nel **Tasso di fatturazione della società** quindi premere Invio.
-1. Per aggiornare le tariffe aziendali per uno o più progetti, eseguire una delle operazioni seguenti:
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione**.
+1. Clic **Aziende**.
+1. Fare clic sul nome della società associata al progetto per la quale è stata abilitata la sostituzione delle tariffe di fatturazione a livello di società.
+1. Clic **Tariffe di fatturazione** nel pannello a sinistra.
+1. Nell’ambiente di produzione, inserisci la nuova tariffa di fatturazione per una mansione esistente in **Tariffa di fatturazione della società** , quindi premere Invio.
+
+   Oppure
+
+   <div class="preview">
+
+   Nell’ambiente di anteprima, aggiorna la **Tariffa di fatturazione della società** e le date di inizio/fine per una mansione esistente, quindi premere Invio.
+
+   Per aggiungere una nuova tariffa di fatturazione della società con data effettiva, selezionare una tariffa di fatturazione per la mansione e fare clic su Modifica. Per ulteriori informazioni sulle tariffe di fatturazione aziendali effettive per data, consulta [Sostituisci le tariffe di fatturazione dei ruoli a livello aziendale](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+
+   </div>
+
+1. Per aggiornare le tariffe aziendali per uno o più progetti, effettuare una delle seguenti operazioni:
 
    * Più progetti:
-   1. Vai a un elenco di progetti.
-   1. Seleziona la casella di controllo in linea con i progetti da aggiornare.
-   1. Fai clic su **Modifica**.
-   1. Nella sezione Impostazioni , abilita **Ricalcolare Costi E Entrate** opzione .
-   1. Fai clic su **Salva modifiche**.
-   * Progetto unico:
 
-      1. Passa al progetto per il quale hai abilitato la sostituzione delle tariffe di fatturazione a livello di società.
-      1. Fai clic sul pulsante **Altro** menu ![](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell’intestazione, quindi fai clic su **Ricalcola finanza**.
+   1. Consente di passare a un elenco di progetti.
+   1. Seleziona la casella di controllo in linea con i progetti da aggiornare.
+   1. Clic **Modifica**.
+   1. Nella sezione Settings, abilita **Ricalcolare Costi E Ricavi** opzione.
+   1. Clic **Salva modifiche**.
+
+   * Progetto singolo:
+
+      1. Vai al progetto per il quale hai abilitato la sostituzione delle tariffe di fatturazione a livello di società.
+      1. Fai clic su **Altro** menu ![](assets/qs-more-icon-on-an-object.png) accanto al nome del progetto nell’intestazione, quindi fai clic su **Ricalcola dati finanziari**.
