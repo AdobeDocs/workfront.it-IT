@@ -2,37 +2,39 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Panoramica delle bacheche
-description: Le bacheche Adobe Workfront sono strumenti flessibili che consentono la collaborazione del team fornendo accesso a una bacheca condivisa che contiene colonne e schede.
+title: Panoramica delle schede
+description: Le bacheche Adobe Workfront sono strumenti flessibili che consentono la collaborazione in team fornendo l’accesso a una bacheca condivisa contenente colonne e schede.
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 8c02f5364154bdc343512416d0c7e38ef563a170
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Schede] panoramica
 
-[!DNL Adobe Workfront] [!UICONTROL Schede] sono strumenti flessibili che consentono la collaborazione del team fornendo l&#39;accesso a una bacheca condivisa che contiene colonne e schede.
+[!DNL Adobe Workfront] [!UICONTROL Schede] sono strumenti flessibili che consentono la collaborazione in team fornendo accesso a una bacheca condivisa contenente colonne e schede.
 
-La visualizzazione dello stato dell&#39;attività è un uso comune per le bacheche, ma è possibile raggruppare tutti gli elementi. Una scheda su una bacheca può rappresentare una persona, un gruppo di persone, un&#39;idea, un concetto o qualsiasi tipo di elemento necessario.
+La visualizzazione dello stato delle attività è un uso comune per le bacheche, ma è possibile raggruppare tutti gli elementi. Una scheda su una bacheca può rappresentare una persona, un gruppo di persone, un&#39;idea, un concetto o qualsiasi tipo di elemento necessario.
 
-Con le bacheche potete:
+Utilizzando le bacheche è possibile:
 
-* Configurazione rapida di una task board
+* Configurare rapidamente una bacheca delle attività
 * Configurare le colonne per mostrare uno stato o una categoria
-* Personalizzare i flussi di lavoro con schede aperte (schede ad hoc o schede collegate a [!DNL Workfront] compiti e questioni)
+* Personalizzare i flussi di lavoro con schede aperte (ad hoc o connesse a [!DNL Workfront] attività e problemi)
 * Organizzare e gestire il lavoro di un team in un’unica posizione
-* Utilizzare flussi di lavoro per raggruppare i dati (come schede e bacheche) e collaborare sul lavoro
-* Utilizzare strumenti di pianificazione agile, ad esempio una colonna di assunzione per le bacheche Kanban, un elenco di schede e una pianificazione delle iterazioni
+* Utilizzare i flussi di lavoro per raggruppare i dati (ad esempio bacheche e schede) e collaborare al lavoro
+* Utilizza strumenti di pianificazione agile, ad esempio una colonna di assegnazione per le bacheche Kanban, nonché un elenco di schede e una pianificazione delle iterazioni
 
-Per informazioni sull&#39;utilizzo delle funzioni di base delle bacheche, vedete [Introduzione alle bacheche in [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Per informazioni sugli strumenti di pianificazione delle aree nelle bacheche, vedi [Panoramica degli strumenti di pianificazione di Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+Per informazioni sull&#39;utilizzo delle funzioni di base delle schede, vedere [Introduzione alle bacheche in [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Per informazioni sugli strumenti di pianificazione agile nelle bacheche, vedi [Panoramica degli strumenti di pianificazione Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-Potete anche accedere alle bacheche nell&#39;app mobile. Per informazioni, consulta [[!DNL Adobe Workfront] [!UICONTROL Boards] per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Per informazioni sull’utilizzo di una bacheca in un progetto, consulta [Gestire un progetto nella visualizzazione Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-Per i video sulle funzioni delle bacheche, vedete [[!DNL Adobe Workfront] [!UICONTROL Boards] dimostrazioni video](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+Puoi anche accedere alle bacheche nell’app mobile. Per informazioni, consulta [[!DNL Adobe Workfront] [!UICONTROL Boards] per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-Per informazioni su ulteriori strumenti agili in [!DNL Workfront], vedi [Panoramica di Agile](../agile/agile-overview.md).
+Per informazioni dettagliate sulle funzioni delle schede madri, consulta [[!DNL Adobe Workfront] [!UICONTROL Boards] dimostrazioni video](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+
+Per informazioni sugli strumenti agili aggiuntivi in [!DNL Workfront], vedi [Panoramica di Agile](../agile/agile-overview.md).

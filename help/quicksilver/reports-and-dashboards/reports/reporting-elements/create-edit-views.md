@@ -6,14 +6,16 @@ description: È possibile personalizzare il tipo di informazioni visualizzate su
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1787'
 ht-degree: 1%
 
 ---
 
 # Creare o modificare viste in Adobe Workfront
+
+{{highlighted-preview}}
 
 È possibile personalizzare il tipo di informazioni visualizzate sullo schermo utilizzando le viste. In Adobe Workfront è possibile utilizzare diversi tipi di visualizzazioni.
 
@@ -72,12 +74,12 @@ Potete creare una nuova vista standard oppure personalizzare una vista standard 
    * Modificare l&#39;ordine di visualizzazione delle colonne trascinando il titolo della colonna in una nuova posizione.
 
       * (Facoltativo) In **Impostazioni colonna** , fare clic sul pulsante **Riepiloga questa colonna per** , quindi selezionare una delle opzioni disponibili per il riepilogo delle informazioni. Quando si sceglie questa opzione, le informazioni nella colonna vengono aggregate nei raggruppamenti del rapporto.\
-         Per i campi data, è possibile riepilogare i valori utilizzando le opzioni seguenti:
+        Per i campi data, è possibile riepilogare i valori utilizzando le opzioni seguenti:
 
          * Massimo
          * Minimo
 
-         Per i campi numerici e di valuta, è possibile riepilogare i valori utilizzando le opzioni seguenti:
+        Per i campi numerici e di valuta, è possibile riepilogare i valori utilizzando le opzioni seguenti:
 
          * Count
          * SOMMA
@@ -86,20 +88,21 @@ Potete creare una nuova vista standard oppure personalizzare una vista standard 
          * Massimo
          * Minimo
 
-         >[!NOTE]
-         >
-         >Le eccezioni riportate di seguito si applicano agli oggetti padre, ad esempio i task padre, quando si aggregano i valori per i campi seguenti nei raggruppamenti:
-         >   
-         >   * Tutti i campi relativi al numero e alla divisa tranne Ore effettive (ad esempio Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo pianificato/effettivo, Ore pianificate) aggregano solo i valori per le attività figlio e le attività autonome. Non aggregano i valori per le attività padre o i padri dei padri.
-         >   * Le ore effettive aggregano i valori per le attività padre principale e le attività autonome; non aggregano i numeri per le attività padre o figlio.
-         >   * I campi dati personalizzati per i valori numerici e di valuta aggregano tutte le attività: padri, figli, padri e attività autonome.
+        >[!NOTE]
+        >
+        >Le eccezioni riportate di seguito si applicano agli oggetti padre, ad esempio i task padre, quando si aggregano i valori per i campi seguenti nei raggruppamenti:
+        >   
+        >   * Tutti i campi relativi al numero e alla divisa tranne Ore effettive (ad esempio Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo pianificato/effettivo, Ore pianificate) aggregano solo i valori per le attività figlio e le attività autonome. Non aggregano i valori per le attività padre o i padri dei padri.
+        >   * Le ore effettive aggregano i valori per le attività padre principale e le attività autonome; non aggregano i numeri per le attività padre o figlio.
+        >   * I campi dati personalizzati per i valori numerici e di valuta aggregano tutte le attività: padri, figli, padri e attività autonome.
+        >   
+        >
 
-
-         Per ulteriori informazioni sull’utilizzo dei raggruppamenti in un rapporto, consulta l’articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+        Per ulteriori informazioni sull’utilizzo dei raggruppamenti in un rapporto, consulta l’articolo [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Facoltativo) Fai clic su **Opzioni avanzate** per specificare le seguenti informazioni per la colonna:
 
-         <table style="table-layout:auto"> 
+        <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -122,9 +125,7 @@ Potete creare una nuova vista standard oppure personalizzare una vista standard 
          </tbody> 
         </table>
 
-         Per ulteriori informazioni sulla formattazione condizionale delle visualizzazioni nei rapporti, consulta l’articolo [Utilizzare la formattazione condizionale in modalità testo](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
-
-
+        Per ulteriori informazioni sulla formattazione condizionale delle visualizzazioni nei rapporti, consulta l’articolo [Utilizzare la formattazione condizionale in modalità testo](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Condizionale) Se hai fatto clic **Opzioni avanzate**, fai clic su **Fine**.
 
@@ -148,14 +149,18 @@ Puoi creare una nuova visualizzazione Agile o personalizzare una visualizzazione
 
 Per ulteriori informazioni sulle visualizzazioni Agile, consulta l’articolo [Gestire un progetto nella visualizzazione Agile](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: [! The information in the following steps is more or less duplicated in "Creating and Managing Agile Teams."])</p>
--->
+>[!NOTE]
+>
+><span class="preview">Questa procedura si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.</span>
 
 Per creare o personalizzare una visualizzazione Agile:
 
 1. Consente di passare all&#39;elenco delle attività di un progetto.
-1. Fai clic su **Storyboard Agile** icona ![](assets/agile-storyboard-nwe.png).
+1. Fai clic su **Storyboard Agile** icona ![Icona Storyboard Agile](assets/agile-storyboard-nwe.png).
+
+   <span class="preview">Oppure</span>
+
+   <span class="preview">Fai clic su **Scheda madre** icona ![Icona bacheca](assets/board-icon-for-agile-view.png)e quindi fare clic su **Usa agile legacy** nella vista bacheca.</span>
 
 1. (Condizionale) Per personalizzare una visualizzazione Agile esistente:
 
@@ -240,7 +245,7 @@ Per creare o personalizzare una visualizzazione Agile:
 
    * Nome della storia con un collegamento diretto all’attività
    * Il nome del progetto con un collegamento diretto al progetto\
-      Questo collegamento viene visualizzato solo quando si utilizza la vista agile in un’iterazione e non quando si utilizza una vista agile in un progetto.
+     Questo collegamento viene visualizzato solo quando si utilizza la vista agile in un’iterazione e non quando si utilizza una vista agile in un progetto.
    * Descrizione dell’attività
    * Impegno attuale
    * Visualizzare e modificare la percentuale di completamento regolando la percentuale stessa o il numero di punti o ore completate
