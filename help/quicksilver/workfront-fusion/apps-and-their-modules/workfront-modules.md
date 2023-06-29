@@ -9,9 +9,9 @@ description: Puoi utilizzare il connettore Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
 workflow-type: tm+mt
-source-wordcount: '5426'
+source-wordcount: '5428'
 ht-degree: 3%
 
 ---
@@ -564,7 +564,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td>Inserisci o mappa l’univoco [!DNL Workfront] ID del record con cui vuoi che il modulo interagisca.<p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copiare il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
+   <td>Inserisci o mappa l’univoco [!DNL Workfront] ID del record con cui vuoi che il modulo interagisca.<p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -645,7 +645,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td> <p>Immetti l’univoco [!DNL Workfront] ID del record che desideri aggiornare nel modulo.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copiare il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Immetti l’univoco [!DNL Workfront] ID del record che desideri aggiornare nel modulo.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Record Type]</td> 
@@ -736,7 +736,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID record padre]</td> 
-   <td> <p>Immettere o mappare l'ID del record padre di cui si desidera leggere i record associati.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copiare il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Immettere o mappare l'ID del record padre di cui si desidera leggere i record associati.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Raccolte]</td> 
@@ -991,6 +991,12 @@ Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibil
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Approvazione bozza</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Tempo riservato* </td> 
@@ -1722,3 +1728,4 @@ Per ulteriori informazioni sugli abbonamenti agli eventi, consulta [Domande freq
 Per ulteriori informazioni sui webhook, consulta [Trigger istantanei (webhook) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 Per ulteriori informazioni sui filtri negli scenari, consulta [Aggiungere un filtro a uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+
