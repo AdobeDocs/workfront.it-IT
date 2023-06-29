@@ -6,16 +6,16 @@ description: Scopri le aree di Adobe Workfront in cui puoi individuare le richie
 author: Alina
 feature: Work Management
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: cd059c445d86ed5581e8b2cb01507f18b97954f3
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '890'
 ht-degree: 1%
 
 ---
 
 # Individuare le richieste inviate
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.</span>
 
 Puoi individuare i seguenti tipi di richieste inviate da te o da un altro utente oppure richieste avviate ma non ancora inviate. Puoi individuare queste richieste nelle seguenti aree di Adobe Workfront:
 
@@ -62,7 +62,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 Per individuare le richieste inviate da te o da altri utenti:
 
 1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
-1. Clic **Inviato** nel pannello a sinistra per visualizzare tutte le richieste inviate.
+1. Clic **Inviato** nel pannello a sinistra per visualizzare tutte le richieste inviate.
 
    È possibile visualizzare fino a 2.000 richieste, che possono essere visualizzate su più pagine.
 
@@ -70,44 +70,43 @@ Per individuare le richieste inviate da te o da altri utenti:
    >
    >Non è possibile personalizzare le colonne nell’elenco delle richieste inviate.
 
-   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
 
-   <!--update the shot above when we release the new Copy button to preview - for or after the 23.3 release-->
 
 1. Per impostazione predefinita, vengono visualizzate le seguenti colonne:
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Nome</td> 
-      <td> <p>Nome della richiesta.</p> <p>Fai clic sul nome di una richiesta per aprirla. </p> <p><b>SUGGERIMENTO</b>
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Nome</td> 
+         <td> <p>Nome della richiesta.</p> <p>Fai clic sul nome di una richiesta per aprirla. </p> <p><b>SUGGERIMENTO</b>
 
    Se il problema non è stato mantenuto durante la conversione in un’attività o un progetto, il nome del problema viene visualizzato in grigio e non è più possibile fare clic su di esso. Per informazioni sulla conversione dei problemi, consulta <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Panoramica sulla conversione dei problemi in Adobe Workfront</a>. </p> </td>
    </tr> 
-     <tr> 
-      <td role="rowheader">Convertito in</td> 
-      <td> <p>Nome dell'oggetto di risoluzione, che può essere un'attività o un progetto a cui è stata convertita la richiesta. </p> <p>Fare clic sul nome dell'attività o del progetto per aprirli. </p> <p>Se la richiesta non è stata convertita, questo campo è vuoto. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Percorso</td> 
-      <td>Il nome della coda di richieste, dei gruppi di argomenti e degli argomenti della coda in cui la richiesta è stata inviata in origine. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Stato</td> 
-      <td>Stato corrente della richiesta o dell'oggetto di risoluzione (attività o progetto)</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Data inserimento</td> 
-      <td>La data in cui la richiesta è stata inviata o la data in cui è stato creato l’oggetto di risoluzione se la richiesta è stata eliminata al momento della conversione. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Data ultimo aggiornamento</td> 
-      <td> <p>Data dell’ultimo aggiornamento della richiesta.</p> <p>Per impostazione predefinita, l’elenco delle richieste inviate è ordinato in base a questo campo. </p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <tr> 
+         <td role="rowheader">Convertito in</td> 
+         <td> <p>Nome dell'oggetto di risoluzione, che può essere un'attività o un progetto a cui è stata convertita la richiesta. </p> <p>Fare clic sul nome dell'attività o del progetto per aprirli. </p> <p>Se la richiesta non è stata convertita, questo campo è vuoto. </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Percorso</td> 
+         <td>Il nome della coda di richieste, dei gruppi di argomenti e degli argomenti della coda in cui la richiesta è stata inviata in origine. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Stato</td> 
+         <td>Stato corrente della richiesta o dell'oggetto di risoluzione (attività o progetto)</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Data inserimento</td> 
+         <td>La data in cui la richiesta è stata inviata o la data in cui è stato creato l’oggetto di risoluzione se la richiesta è stata eliminata al momento della conversione. </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Data ultimo aggiornamento</td> 
+         <td> <p>Data dell’ultimo aggiornamento della richiesta.</p> <p>Per impostazione predefinita, l’elenco delle richieste inviate è ordinato in base a questo campo. </p> </td> 
+      </tr> 
+      </tbody> 
+      </table>
 
 1. (Facoltativo) Fai clic sull’intestazione di una colonna per ordinarla.
 

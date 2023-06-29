@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1499'
 ht-degree: 3%
 
 ---
@@ -78,7 +78,7 @@ Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics
 
 Anteprima: 28 giugno 2023
 
-Versione di produzione pianificata: 29 giugno 2023
+Versione di produzione: 29 giugno 2023
 
 #### Nuova interfaccia per il tempo di registrazione
 

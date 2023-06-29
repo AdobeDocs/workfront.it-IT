@@ -6,16 +6,16 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 742565b06395e5092152b1d04262344dc1020d74
+source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
 
 # Copiare e inviare richieste
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> -->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.</span>
 
 Quando invii spesso richieste simili, puoi copiare una richiesta già inviata. In questo caso, puoi copiare una richiesta esistente, apportarvi modifiche minime e inviarla nuovamente come nuova richiesta.
 
@@ -122,15 +122,13 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 1. (Condizionale) Se la sezione Inviata non viene visualizzata per impostazione predefinita, fai clic su **Inviato** nel pannello a sinistra.
 1. Individuare la richiesta che si desidera copiare e inviare come nuova ed effettuare una delle seguenti operazioni:
 
-   * Selezionala, quindi fai clic su **Copia e invia come nuovo** icona ![](assets/copy-and-submit-as-new-requests-area-nwe.png) nell’angolo superiore sinistro dell’elenco Richieste inviate. <!--update this icon the 23.3 preview release, or shortly after: replace this step with this: Select it, then click the **Copy** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.-->
+   * Selezionala, quindi fai clic su <span class="preview"> **Copia** ![](assets/copy-and-submit-as-new-requests-area-nwe.png)</span> nell’angolo superiore sinistro dell’elenco Richieste inviate.
 
-   <!-- reveal this tip for 23.3 preview release:
    >[!TIP]
    >
-   > <span class="preview">If you did not select a request first, the Copy icon is dimmed.</span> 
-   -->
+   > <span class="preview">Se non hai selezionato prima una richiesta, l’icona Copia non è attiva.</span>
 
-   * Fai clic su **Altro** menu ![](assets/more-icon.png) a destra del nome della richiesta, quindi fai clic su **Copia e invia come nuovo** <!--ensure this does not change with the Copy icon improvements with 23.3 preview-->
+   * Fai clic su **Altro** menu ![](assets/more-icon.png) a destra del nome della richiesta, quindi fai clic su **Copia e invia come nuovo**
 
      Oppure
 
