@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1514'
 ht-degree: 3%
 
 ---
@@ -86,9 +86,11 @@ Nella nuova esperienza di commento, è stata riprogettata l’interfaccia per la
 
 Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentazione verrà aggiornata al momento della versione.
 
-Versione di anteprima pianificata: 29 giugno 2023
+Versione di anteprima pianificata per progetti, attività e problemi: 5 luglio 2023
 
-Versione di produzione pianificata: con la versione 23.3
+Versione di produzione pianificata per i problemi: 6 luglio 2023
+
+Versione di produzione pianificata per progetti e attività: con la versione 23.3
 
 #### Aggiungere emoji a un aggiornamento
 
@@ -188,7 +190,7 @@ Produzione: 1 giugno 2023
 
 Anteprima: 1 giugno 2023
 
-Produzione: da annunciare
+Produzione: con la versione 23.3
 
 ### Settimana del 15 maggio 2023
 
