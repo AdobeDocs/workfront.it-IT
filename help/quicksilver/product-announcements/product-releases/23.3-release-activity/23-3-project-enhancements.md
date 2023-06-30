@@ -3,9 +3,9 @@ title: 23.3 Miglioramenti al progetto
 description: 23.3 Miglioramenti al progetto
 author: Lisa
 feature: Product Announcements
-source-git-commit: 77ebeb8f9573d7b08b5d22a1522f1d416c6f99ee
+source-git-commit: 5b4aa5c806d0f930250e9238d460833cd1aed71a
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,10 @@ In questa prima versione, il processo di approvazione è stato semplificato sia 
 * Prendi decisioni di approvazione direttamente da My Updates and Home
 * Creare approvazioni per specifiche versioni di documenti
 
-Per ulteriori informazioni sull&#39;utilizzo delle nuove approvazioni di documenti, vedere [Revisioni e approvazioni dei documenti](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.html?lang=en).
+Per ulteriori informazioni sull&#39;utilizzo delle nuove approvazioni di documenti, vedere [Panoramica sulle nuove approvazioni documenti](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html).
+
+## Pulsante Nuova condivisione
+
+L’opzione Condividi è stata rimossa dal menu Altro per consentire la condivisione di progetti, attività e problemi in modo più intuitivo. Il nuovo pulsante Condividi ora viene visualizzato accanto al nome di un oggetto prima del menu Altro. La condivisione di documenti, portfolio e programmi rimane invariata.
+
+Per ulteriori informazioni sulla condivisione degli oggetti, vedere [Condividere un oggetto](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html).
