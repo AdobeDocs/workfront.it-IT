@@ -6,9 +6,9 @@ description: È possibile gestire le assegnazioni di attività o problemi utiliz
 author: Alina
 feature: Work Management
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 2b48377653a77d3d71c90fac9c64cb48fc7877a3
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 0%
 # Crea assegnazioni avanzate
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima il 30 giugno 2023.
 
 È possibile gestire le assegnazioni di attività o problemi utilizzando Assegnazioni avanzate.
 

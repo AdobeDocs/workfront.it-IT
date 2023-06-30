@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: d8420930738102e64fbab2eecf91f2eb4429cb0e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '2687'
+source-wordcount: '2701'
 ht-degree: 0%
 
 ---
@@ -29,9 +29,8 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
 > * Se è attiva la **trimestrale** versione, la versione successiva alla 23.3 sarà **23,10**, nell&#39;ottobre 2023.
 > 
 > I rilasci trimestrali includeranno funzionalità da tre rilasci mensili. Ad esempio, la versione trimestrale 23.10 includerà le funzionalità rilasciate nelle versioni mensili 23.8, 23.9 e 23.10.
->
 >|Versione mensile|Versione trimestrale|
->|----|----|
+>---- ----
 >|<ul><li>23.8 (agosto 2023)</li><li>23.9 (settembre 2023)</li><li>23.10 (ottobre 2023)</li></ul>| <ul><li>23.10 (ottobre 2023)</li></ul>|
 >|<ul><li>23.11 (novembre 2023)</li><li>23.12 (dicembre 2023)</li><li>24.1 (gennaio 2024)</li></ul>| <ul><li>24.1 (gennaio 2024)</li></ul>|
 
@@ -114,7 +113,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Visualizzazione Agile di un progetto mostra una bacheca kanban</a><span style="color: #ff0000;"> In arrivo!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Visualizzazione Agile di un progetto mostra una bacheca kanban</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
                         <p>La visualizzazione Agile di un progetto ora include funzionalità aggiuntive per filtrare, raggruppare e ordinare il lavoro in una bacheca kanban. Il nuovo design flessibile della vista include una solida funzione di ricerca e la possibilità di aggiungere nuove attività al progetto direttamente dalla bacheca.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -333,7 +332,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Data costo effettivo e tariffe di fatturazione</a><span style="color: #ff0000;"> In arrivo!</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Data costo effettivo e tariffe di fatturazione</a><span style="color: #ff0000;"> Novità in anteprima.</span> </p>
                         <p>Le tariffe di costo e fatturazione effettive per data sono ora disponibili per gli oggetti società, utente e mansione in Workfront. Quando a un progetto vengono applicati i tassi di validità della data e le ore vengono registrate nelle attività del progetto, i costi e i ricavi vengono calcolati utilizzando i tassi specificati per ogni periodo di tempo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -343,7 +342,8 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                             </li>
                             <li>
                                 <p>Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3</p>
-                                <p>Versione di produzione per tutti i clienti: con la versione 23.4</p>
+                                <p>Versione di produzione per tutti i clienti: con la versione 23.4<br>
+                                <span style="color: #ff0000;"> La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima il 30 giugno 2023.</span></p>
                             </li>
                         </ul>
                     </td>

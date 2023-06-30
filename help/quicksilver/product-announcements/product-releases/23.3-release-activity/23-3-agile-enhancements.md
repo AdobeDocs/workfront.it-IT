@@ -3,9 +3,9 @@ title: 23.3 Miglioramenti di Agile
 description: 23.3 Miglioramenti di Agile
 author: Lisa
 feature: Product Announcements
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1305'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ La visualizzazione Agile di un progetto ora include funzionalità aggiuntive per
 Mentre ti trovi nella bacheca, puoi scegliere di passare alla precedente vista Agile.
 
 Per ulteriori informazioni, consulta [Gestire un progetto nella visualizzazione Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## Ordina per colonne bacheca
 

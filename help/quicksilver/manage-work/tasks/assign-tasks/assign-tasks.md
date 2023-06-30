@@ -6,9 +6,9 @@ description: È possibile assegnare attività a utenti, ruoli o team per indicar
 author: Alina
 feature: Work Management
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1913'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 1%
 # Assegna attività
 
 {{highlighted-preview}}
+
+>[!IMPORTANT]
+>
+>La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima il 30 giugno 2023.
 
 È possibile assegnare attività a utenti, mansioni o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un&#39;attività a più risorse contemporaneamente.
 
