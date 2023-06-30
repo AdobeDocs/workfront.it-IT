@@ -7,9 +7,9 @@ description: L’ambiente di anteprima viene aggiornato una volta alla settimana
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,26 @@ L’ambiente di anteprima viene aggiornato una volta alla settimana con le nuove
 
 ### Caratteristiche del prodotto
 
-Di solito, le funzioni in Anteprima sono rese disponibili nell’ambiente di produzione con la prossima versione trimestrale. Tuttavia, in alcuni casi, le funzioni di sono rese disponibili nell’ambiente di produzione al di fuori della versione trimestrale. Queste modifiche rimangono in Anteprima per un minimo di 2 settimane per fornire il tempo necessario per conoscere le modifiche. Queste modifiche vengono comunicate anche tramite il Centro notifiche al momento dell’aggiunta all’anteprima.
+
+Adobe Workfront dispone di due modelli per il rilascio di nuove funzioni e aggiornamenti. La tua organizzazione può scegliere se ricevere nuove funzionalità su base trimestrale o secondo una pianificazione più rapida.
+
+In genere, le funzioni in Anteprima sono rese disponibili nell’ambiente di produzione con la versione successiva. Tuttavia, in alcuni casi, le funzioni di sono rese disponibili nell’ambiente di produzione al di fuori di una versione pianificata. Queste modifiche rimangono in Anteprima per un minimo di 2 settimane per fornire il tempo necessario per conoscere le modifiche. Queste modifiche vengono comunicate anche tramite il Centro notifiche al momento dell’aggiunta all’anteprima.
+
+Per ulteriori informazioni sui processi di rilascio trimestrali e rapidi, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ### Aggiornamenti di manutenzione
 
 Le correzioni dei problemi relativi al prodotto Adobe Workfront sono rese disponibili nell’ambiente di produzione ogni settimana. Consulta la [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) per vedere cosa è stato risolto di recente.
 
-## Funzioni rimosse da una versione trimestrale
+## Funzioni rimosse da una versione pianificata
 
-Tutte le funzioni associate a una data versione trimestrale sono disponibili per il test in Anteprima per un minimo di 2-4 settimane prima del rilascio finale in produzione. Se le funzioni vengono rimosse dalla versione trimestrale prima di questo momento, vengono adottate le seguenti azioni per informare i clienti:
+Tutte le funzioni associate a un determinato rilascio (mensile o trimestrale) sono disponibili per il test in Anteprima per un minimo di 2-4 settimane prima del rilascio finale in Produzione. Se le funzioni vengono rimosse dalla versione pianificata prima di questo momento, vengono eseguite le seguenti azioni per informare i clienti:
 
-* Note sulla versione trimestrale (disponibili nella [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md) ) per indicare che la funzione è stata rimossa.
+* Note sulla versione pianificata (disponibili nella [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md) ) per indicare che la funzione è stata rimossa.
 
-Se le funzioni vengono rimosse dalla versione trimestrale dopo che tutte sono disponibili per il test in Anteprima, per informare i clienti vengono eseguite le seguenti operazioni:
+Se le funzioni vengono rimosse dalla versione pianificata dopo che tutte sono disponibili per il test in Anteprima, per informare i clienti vengono eseguite le seguenti azioni:
 
-* Note sulla versione trimestrale (disponibili nella [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md) ) per indicare che la funzione è stata rimossa.
+* Le note sulla versione (disponibili nella [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md) ) per indicare che la funzione è stata rimossa.
 * Alla community di Workfront viene aggiunto un post per informare che la funzione è stata rimossa.
 * Tramite il Centro notifiche viene inviato un messaggio a tutti i clienti per informare che la funzione è stata rimossa. Il Centro notifiche è il centro notifiche in-app di Workfront. Per ulteriori informazioni, consulta [Inviare annunci](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
@@ -74,9 +79,9 @@ Se riscontri qualcosa nel sistema che non corrisponde alla documentazione e per 
 
 ## Note sulla versione
 
-Utilizza le note sulla versione per la prossima versione trimestrale per vedere quali nuove funzioni sono disponibili in Anteprima e quando verranno rilasciate in Produzione.
+Utilizza le note sulla versione per la prossima versione pianificata per vedere quali nuove funzioni sono disponibili in anteprima e quando verranno rilasciate in produzione.
 
-Per informazioni sulle note sulla versione del prossimo trimestre, consulta [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md), quindi fai clic sul collegamento per passare alla pagina di panoramica sulla versione per la prossima versione.
+Per leggere le note sulla versione pianificata successiva, consulta [Rilasci di prodotti](../../product-announcements/product-releases/product-releases.md), quindi fai clic sul collegamento per passare alla pagina di panoramica sulla versione per la prossima versione.
 
 Le note sulla versione contengono una tabella con un elenco delle funzioni nella colonna a sinistra, con una breve descrizione di ciascuna funzione. Puoi fare clic su un collegamento di funzione per visualizzare un video dimostrativo della nuova funzione e accedere alla documentazione relativa. Nella colonna di destra vengono visualizzate le seguenti informazioni per ogni funzione:
 

@@ -1,147 +1,148 @@
 ---
 content-type: release-notes
 navigation-topic: product-announcements
-title: Preparare un [!DNL Adobe Workfront] versione trimestrale
-description: Segui questi suggerimenti per aggiornare senza problemi la tua organizzazione per ogni nuova versione di Workfront.
+title: Prepararsi per un [!DNL Adobe Workfront] versione
+description: Segui questi suggerimenti per aggiornare facilmente la tua organizzazione per ogni nuova versione di Workfront.
 author: Becky
 feature: Product Announcements
-source-git-commit: 6fa34c77cd23a2abd781365d986d52c9b63a517f
+exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
+source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1166'
 ht-degree: 0%
 
 ---
 
-# Preparare un [!DNL Adobe Workfront] versione trimestrale
+# Prepararsi per un [!DNL Adobe Workfront] versione pianificata
 
-[!DNL Adobe Workfront] presenta trimestralmente i principali aggiornamenti dell&#39;ambiente di produzione. Come [!DNL Workfront] amministratore, puoi fare in modo che la tua organizzazione abbia una transizione senza problemi a ogni nuova versione del [!DNL Workfront] prodotto.
+[!DNL Adobe Workfront] rilascia regolarmente aggiornamenti importanti all’ambiente di produzione. As a [!DNL Workfront] amministratore, hai l’opportunità di garantire alla tua organizzazione una transizione fluida a ogni nuova versione di [!DNL Workfront] prodotto.
 
 <!--
 [Watch a video about ways you can prepare for an [!DNL Adobe Workfront] quarterly release.](https://video.tv.adobe.com/v/3413544){target=_blank}
 -->
 
-Guarda il video seguente per scoprire come prepararti a un [!DNL Adobe Workfront] versione trimestrale.
+Guarda il video seguente per scoprire come prepararti per un [!DNL Adobe Workfront] versione.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3413544/?quality=12)
 
-## Comprendere il [!DNL Workfront] processo di rilascio
+## Comprendere la [!DNL Workfront] processo di rilascio
 
-Per una descrizione dettagliata del [!DNL Workfront] processo di rilascio, vedi [[!DNL Adobe Workfront] programma e processo di rilascio](workfront-release-schedule.md).
+Per una descrizione dettagliata del [!DNL Workfront] processo di rilascio, vedi [[!DNL Adobe Workfront] pianificazione e processo del rilascio](workfront-release-schedule.md).
 
-## Preparare un [!DNL Workfront] versione trimestrale
+## Prepararsi per un [!DNL Workfront] versione
 
 >[!TIP]
 >
->Puoi creare un modello di progetto per tenere traccia del lavoro correlato a [!DNL Workfront] versioni trimestrali.
+>È possibile creare un modello di progetto per tenere traccia del lavoro correlato a [!DNL Workfront] versioni.
 >
->Per ulteriori informazioni, consulta [Utilizza un [!DNL Workfront] progetto per monitorare il lavoro di rilascio](#use-a-workfront-project-to-track-release-work) in questo articolo.
+>Per ulteriori informazioni, consulta [Utilizza un [!DNL Workfront] progetto per tenere traccia del lavoro sulle versioni](#use-a-workfront-project-to-track-release-work) in questo articolo.
 
 
-È consigliabile prendere in considerazione alcune o tutte le azioni seguenti per preparare l’organizzazione per le prossime versioni:
+È consigliabile prendere in considerazione alcune o tutte le seguenti azioni che possono aiutarti a preparare la tua organizzazione per le prossime versioni:
 
-* [Aggiornati con le note sulla versione](#stay-up-to-date-with-release-notes)
-* [Guarda il [!DNL Workfront] Centro Annunci](#watch-the-workfront-announcement-center)
-* [Esplora [!UICONTROL Anteprima sandbox] ambiente](#explore-the-preview-sandbox-environment)
+* [Resta aggiornato con le note sulla versione](#stay-up-to-date-with-release-notes)
+* [Osserva [!DNL Workfront] Centro notifiche](#watch-the-workfront-announcement-center)
+* [Esplora [!UICONTROL Anteprima Sandbox] ambiente](#explore-the-preview-sandbox-environment)
 * [Partecipa al webinar sulla versione](#attend-the-release-webinar)
 * [Feedback sull’offerta a Workfront](#offer-feedback-to-workfront)
 
-### Aggiornati con le note sulla versione
+### Resta aggiornato con le note sulla versione
 
-Le note sulla versione per una data funzione vengono pubblicate quando la funzione viene inserita nel [!UICONTROL Anteprima sandbox] ambiente. In questo modo, potrai conoscere ed esplorare la funzione prima che faccia parte dell&#39;ambiente di produzione.
+Le note sulla versione di una data funzione vengono pubblicate quando la funzione viene recapitata al [!UICONTROL Anteprima Sandbox] ambiente. In questo modo, puoi conoscere ed esplorare la funzione prima che faccia parte dell&#39;ambiente di produzione.
 
-Ogni versione trimestrale presenta una pagina di panoramica sulla versione trimestrale con brevi descrizioni di ciascuna funzione e collegamenti a note più approfondite che contengono informazioni aggiuntive e video dimostrativi. Queste note approfondite sono organizzate per settimana, man mano che si verificano i rilasci da visualizzare in anteprima, e vengono quindi riorganizzate per area in prossimità della data di rilascio effettiva di Produzione.
+Ogni versione include una pagina di panoramica sulla versione con brevi descrizioni di ciascuna funzione e collegamenti a note più approfondite contenenti informazioni aggiuntive e video dimostrativi. Queste note approfondite sono organizzate per settimana, man mano che vengono rilasciati i rilasci in anteprima, e quindi vengono riorganizzate per area più vicina alla data di rilascio effettiva in produzione.
 
-Si consiglia vivamente di guardare i video demo disponibili nelle note sulla versione. Questi possono essere particolarmente utili per vedere la funzione in azione, o per dare un’occhiata rapida al contesto della funzione se hai poco tempo.
+Consigliamo vivamente di guardare i video dimostrativi disponibili nelle note sulla versione. Queste opzioni possono essere particolarmente utili per vedere la funzione in azione o per esaminare rapidamente il contesto della funzione se non si dispone di tempo sufficiente.
 
-Per collegamenti alle panoramiche sulla versione trimestrale, consulta [Rilasci di prodotti](product-releases.md).
+Per i collegamenti alle panoramiche della versione, consulta [Rilasci di prodotti](product-releases.md).
 
-### Guarda il [!DNL Workfront] Centro Annunci
+### Osserva [!DNL Workfront] Centro notifiche
 
 >[!IMPORTANT]
 >
->Messaggi del Centro Annunci direttamente da [!DNL Workfront] sono disponibili solo per [!DNL Workfront] amministratori.
+>Messaggi del Centro notifiche direttamente da [!DNL Workfront] sono disponibili solo per [!DNL Workfront] amministratori.
 
-Come [!DNL Workfront] amministratore, riceverai un messaggio del Centro annunci da [!DNL Workfront] su vari aspetti del rilascio. Riceverai un messaggio del Centro annunci quando si verifica uno dei seguenti casi:
+As a [!DNL Workfront] amministratore, riceverai il messaggio Centro notifiche da [!DNL Workfront] informazioni su vari aspetti della versione. Verrà visualizzato un messaggio del Centro notifiche quando si verifica una delle situazioni seguenti:
 
-* Nuove funzioni disponibili nell&#39;ambiente di produzione
-* Le funzioni rilasciate in Anteprima verranno rilasciate in Produzione prima della versione trimestrale pianificata.
-* Tutte le nuove funzioni sono disponibili nell’ambiente Anteprima prima della versione trimestrale pianificata.
-* Il webinar sulla versione è aperto per la registrazione
-
->[!TIP]
->
->Assicurati di ricevere informazioni sulle nuove versioni deselezionando &quot;[!UICONTROL Nuove versioni]&quot; nel tuo [!UICONTROL Centro Annunci] impostazioni.
->
->Per ulteriori informazioni, consulta [Annulla sottoscrizione a messaggi del Centro annunci](../announcements/unsubscribe-from-ac-messages.md).
-
-
-### Esplora [!UICONTROL Anteprima sandbox] ambiente
-
-La [!UICONTROL Anteprima sandbox] ambiente, noto anche come [!UICONTROL Anteprima] viene utilizzato come ambiente in cui gli utenti dell’organizzazione possono eseguire in modo sicuro test e lavorare con una copia separata dei dati dall’ambiente di produzione. [!UICONTROL Workfront] rilascia nuove funzioni e funzionalità nell’ambiente di anteprima molto prima che vengano rilasciate nell’ambiente di produzione. Puoi acquisire familiarità con queste funzioni prima che vengano rilasciate nei flussi di lavoro giornalieri degli utenti. Quindi, se i tuoi utenti hanno difficoltà a sfruttare le nuove funzioni, potrai aiutarli più facilmente ad adattarsi.
+* Sono disponibili nuove funzioni nell’ambiente di produzione
+* Le funzioni rilasciate in Anteprima verranno rilasciate in Produzione prima del rilascio pianificato.
+* Tutte le nuove funzioni sono disponibili nell’ambiente di anteprima prima della versione pianificata.
+* Il webinar sulla versione è aperto alla registrazione
 
 >[!TIP]
 >
->È consigliabile utilizzare l’ambiente di anteprima per testare e apprendere le funzioni prima che vengano rilasciate nell’ambiente di produzione.
+>Per ricevere informazioni sulle nuove versioni, deseleziona &quot;[!UICONTROL Nuove versioni]&quot; nel tuo [!UICONTROL Centro notifiche] impostazioni.
+>
+>Per ulteriori informazioni, consulta [Annulla iscrizione ai messaggi del Centro notifiche](../announcements/unsubscribe-from-ac-messages.md).
 
-Quando una funzione viene rilasciata nell’ambiente Sandbox di anteprima, [!DNL Workfront] la documentazione viene aggiornata per includere le nuove funzionalità. Puoi cercare l’articolo applicabile o seguire i collegamenti alla documentazione nelle note sulla versione.
 
-Per ulteriori informazioni sulla [!UICONTROL Anteprima sandbox] ambiente, vedi [La [!DNL Adobe Workfront] [!UICONTROL Anteprima sandbox] ambiente](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+### Esplora [!UICONTROL Anteprima Sandbox] ambiente
+
+Il [!UICONTROL Anteprima Sandbox] ambiente, noto anche come [!UICONTROL Anteprima] funge da ambiente in cui gli utenti dell’organizzazione possono testare e lavorare in modo sicuro con una copia separata dei dati dall’ambiente di produzione. [!UICONTROL Workfront] Verranno rilasciate nuove funzioni e funzionalità nell’ambiente di anteprima molto prima che vengano rilasciate nell’ambiente di produzione. Hai l’opportunità di acquisire familiarità con queste funzioni prima che vengano rilasciate nei flussi di lavoro giornalieri degli utenti. Quindi, se gli utenti hanno difficoltà a sfruttare le nuove funzioni, potrai aiutarli più facilmente ad adattarsi.
+
+>[!TIP]
+>
+>È consigliabile utilizzare l’ambiente di anteprima per testare e scoprire le funzioni prima di rilasciarle nell’ambiente di produzione.
+
+Quando una funzione viene rilasciata nell’ambiente Sandbox di anteprima, [!DNL Workfront] La documentazione di è stata aggiornata per includere la nuova funzionalità. Puoi cercare l’articolo applicabile o seguire i collegamenti alla documentazione dalle note sulla versione.
+
+Per ulteriori informazioni su [!UICONTROL Anteprima Sandbox] ambiente, consulta [Il [!DNL Adobe Workfront] [!UICONTROL Anteprima Sandbox] ambiente](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ### Partecipa al webinar sulla versione
 
-[!DNL Workfront] ospita un webinar sulla versione poco prima di ogni versione trimestrale. Qui, il [!DNL Workfront] il team di prodotto illustra e illustra nuove funzionalità e può rispondere alle domande dei partecipanti.
+[!DNL Workfront] ospita un webinar sulla versione poco prima di alcune versioni. Ecco, il [!DNL Workfront] il team di prodotto illustra e illustra nuove funzionalità e può rispondere alle domande dei partecipanti.
 
-I webinar sulle versioni vengono annunciati tramite [!DNL Workfront] Centro Annunci. I collegamenti per la registrazione si trovano nella pagina di panoramica del rilascio.
+I webinar sulla versione vengono annunciati tramite [!DNL Workfront] Centro notifiche. I collegamenti per la registrazione sono disponibili nella pagina Panoramica sulla versione.
 
-Per collegamenti alle panoramiche sulla versione trimestrale, consulta [Rilasci di prodotti](product-releases.md).
+Per i collegamenti alle panoramiche della versione, consulta [Rilasci di prodotti](product-releases.md).
 
 ### Feedback sull’offerta a Workfront
 
-Alcune nuove funzioni possono avere un pulsante &quot;Fornisci feedback&quot;. Teniamo conto di questo feedback quando ci prepariamo a rilasciare la funzione in Produzione.
+Alcune nuove funzioni potrebbero includere un pulsante &quot;Provide Feedback&quot; (Invia feedback). Teniamo conto di questo feedback durante la preparazione del rilascio della funzione in produzione.
 
-Inoltre, se riscontri un bug o hai problemi con le nuove funzioni, contatta il supporto Workfront. Per ulteriori informazioni, consulta [Contatta l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Inoltre, in caso di bug o problemi con le nuove funzioni, contattare il supporto tecnico Workfront. Per ulteriori informazioni, consulta [Contatta l’Assistenza clienti](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 
 
-## Preparare gli utenti per la nuova versione
+## Preparare gli utenti alla nuova versione
 
-Ti trovi nella posizione migliore per determinare le informazioni e le funzionalità più utili per i tuoi utenti. Puoi anche controllare la data e l’ora del rilascio delle informazioni e controllare quali nuove funzioni vedono gli utenti.
+L&#39;utente è nella posizione migliore per determinare le informazioni e le funzionalità più utili per gli utenti. Puoi anche controllare la tempistica della versione delle informazioni e quali nuove funzioni visualizzano gli utenti.
 
 * [Comunicazione delle informazioni sulla versione agli utenti](#communicate-release-information-to-your-users)
-* [Utilizzare modelli di layout per controllare la disponibilità delle funzioni](#consider-using-layout-templates-to-control-feature-availability)
+* [Valuta l’utilizzo dei modelli di layout per controllare la disponibilità delle funzioni](#consider-using-layout-templates-to-control-feature-availability)
 
 ### Comunicazione delle informazioni sulla versione agli utenti
 
-Mentre ti prepari a comunicare le informazioni sulla versione agli utenti, considera il modo più efficace per comunicare tali informazioni all’interno della tua organizzazione. È consigliabile utilizzare diversi metodi di comunicazione per assicurarsi di raggiungere tutti gli utenti. Puoi considerare canali di comunicazione come:
+Quando ti prepari a comunicare le informazioni sulla versione agli utenti, considera il modo più efficace per comunicare tali informazioni all’interno dell’organizzazione. È consigliabile utilizzare diversi metodi di comunicazione per assicurarsi di raggiungere tutti gli utenti. Puoi prendere in considerazione canali di comunicazione quali:
 
 * Newsletter interne
 * E-mail
-* Messaggi del Centro Annunci (inoltrati da [!DNL Workfront] o creato da te)
-* Annunci su strumenti di collaborazione, ad esempio [!DNL Slack] o [!DNL Microsoft Teams]
-* Webinar o formazione interni
+* Messaggi del Centro notifiche (inoltrati da [!DNL Workfront] o creato da te)
+* Annunci su strumenti di collaborazione, come [!DNL Slack] o [!DNL Microsoft Teams]
+* Webinar o corsi di formazione interni
 
-È possibile scegliere il bilanciamento tra [!DNL Workfront] risorse (come documentazione, note sulla versione e formazione) con informazioni più personalizzate per le esigenze e i flussi di lavoro della tua organizzazione. Mostrare agli utenti come le nuove funzioni possono migliorare il loro lavoro o risparmiare tempo ed energia aiuterà gli utenti ad accettare i cambiamenti, ma è possibile risparmiare tempo utilizzando le demo o la documentazione già disponibili attraverso [!DNL Workfront].
+Puoi scegliere il saldo tra [!DNL Workfront] risorse (come documentazione, note sulla versione e formazione) con informazioni più personalizzate in base alle esigenze e ai flussi di lavoro della tua organizzazione. Mostrare agli utenti come le nuove funzioni possono migliorare il loro lavoro o risparmiare tempo ed energia aiuterà i tuoi utenti ad accettare le modifiche, ma puoi risparmiare tempo utilizzando le demo o la documentazione già disponibile tramite [!DNL Workfront].
 
-Nel tempo, riconoscerai la comunicazione più efficace per la tua organizzazione. È consigliabile documentare i processi, valutare il successo e perfezionare la comunicazione per la prossima versione.
+Nel tempo, riconoscerai la comunicazione più efficace per la tua organizzazione. È consigliabile documentare i processi, valutare il successo e perfezionare la comunicazione per la versione successiva.
 
-### Utilizzare modelli di layout per controllare la disponibilità delle funzioni
+### Valuta l’utilizzo dei modelli di layout per controllare la disponibilità delle funzioni
 
-Quando raccogli informazioni sulla versione, potresti decidere che gli utenti non siano pronti per una nuova funzione. In questo caso, è possibile utilizzare modelli di layout per limitare ciò che gli utenti visualizzano, impedendo loro di incontrare e utilizzare la nuova funzione. Quindi, quando gli utenti dispongono di una comunicazione e una formazione sufficienti sulla nuova funzione, puoi aggiornare il modello di layout per rendere disponibile la funzione.
+Quando raccogli informazioni sulla versione, puoi decidere che gli utenti non sono pronti per una nuova funzione. In questo caso, puoi utilizzare i modelli di layout per limitare ciò che gli utenti visualizzano e quindi impedire loro di incontrare e utilizzare la nuova funzione. Quindi, quando gli utenti dispongono di comunicazioni e formazione sufficienti sulla nuova funzione, puoi aggiornare il modello di layout per rendere disponibile la funzione.
 
 Per informazioni sui modelli di layout, consulta [Creare e gestire modelli di layout](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-## Utilizza un [!DNL Workfront] progetto per monitorare il lavoro di rilascio
+## Utilizza un [!DNL Workfront] progetto per tenere traccia del lavoro sulle versioni
 
-È consigliabile creare un progetto con account per garantire che l’organizzazione sia pronta per la nuova versione. Qui puoi creare attività per ogni flusso di lavoro o aspetto di [!DNL Workfront] che desideri verificare nell’ambiente Anteprima. Concentrandoti sui tuoi flussi di lavoro, ti occuperai delle nuove funzioni che possono modificare i flussi di lavoro esistenti, oltre a capire quali flussi di lavoro non subiranno modifiche. Puoi avere attività quali:
+È consigliabile creare un progetto per l’account in modo che la tua organizzazione sia pronta per la nuova versione. In questo caso, puoi creare attività per ogni flusso di lavoro o aspetto di [!DNL Workfront] che desideri verificare nell’ambiente di anteprima. Concentrandoti sui flussi di lavoro, potrai tenere conto delle nuove funzioni che possono modificare quelli esistenti, e capire quali flussi di lavoro rimarranno invariati. Potresti avere attività quali:
 
-* Test della creazione di un progetto
-* Prova di approvazione di una prova
-* Livelli di accesso di prova per [!UICONTROL Lavoratori] e [!UICONTROL Planner]
-* Test delle app mobili
+* Test creazione di un progetto
+* Test di approvazione di una bozza
+* Test dei livelli di accesso per [!UICONTROL Lavoratori] e [!UICONTROL Planner]
+* Test delle app per dispositivi mobili
 
-Inoltre, può essere utile tenere traccia delle responsabilità di rilascio oltre al test. Puoi aggiungere queste attività a questo progetto o crearne una nuova. Qui puoi aggiungere attività come:
+Può anche essere utile tenere traccia delle responsabilità di rilascio oltre ai test. Puoi aggiungere queste attività a questo progetto o crearne una nuova. In questo caso, puoi aggiungere attività quali:
 
 * Partecipa al webinar sulla versione
-* Guarda video dimostrativi
+* Guarda i video dimostrativi
 
-La creazione di un modello da questo progetto contribuirà a migliorare la coerenza e l’accuratezza della preparazione per ogni nuova versione.
+La creazione di un modello da questo progetto contribuirà a garantire coerenza e accuratezza durante la preparazione per ogni nuova versione.
