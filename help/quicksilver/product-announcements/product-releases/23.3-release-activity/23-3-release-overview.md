@@ -29,8 +29,9 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
 > * Se è attiva la **trimestrale** versione, la versione successiva alla 23.3 sarà **23,10**, nell&#39;ottobre 2023.
 > 
 > I rilasci trimestrali includeranno funzionalità da tre rilasci mensili. Ad esempio, la versione trimestrale 23.10 includerà le funzionalità rilasciate nelle versioni mensili 23.8, 23.9 e 23.10.
+>
 >|Versione mensile|Versione trimestrale|
->---- ----
+>|----|----|
 >|<ul><li>23.8 (agosto 2023)</li><li>23.9 (settembre 2023)</li><li>23.10 (ottobre 2023)</li></ul>| <ul><li>23.10 (ottobre 2023)</li></ul>|
 >|<ul><li>23.11 (novembre 2023)</li><li>23.12 (dicembre 2023)</li><li>24.1 (gennaio 2024)</li></ul>| <ul><li>24.1 (gennaio 2024)</li></ul>|
 
