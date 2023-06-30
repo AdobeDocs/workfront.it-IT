@@ -3,9 +3,9 @@ title: 23.3 Miglioramenti per gli amministratori
 description: 23.3 Miglioramenti per gli amministratori
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3ebf408bb03a97de78600ab771834a7d7f29e2e0
+source-git-commit: f49f1275ec0911cc05a74c694436bf654a02bfe2
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Per consentirti di ricevere più rapidamente nuovi aggiornamenti e funzioni dei 
 
 In precedenza, le funzioni e le funzionalità venivano rilasciate su un ciclo trimestrale per tutti i clienti.
 
-La documentazione contenente ulteriori informazioni sarà disponibile nella versione 23.3.
+Per ulteriori informazioni, consulta [Attiva o disattiva il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Controllo a livello di gruppo disponibile per la preferenza relativa alle ore e alla scheda orario &quot;Dove gli utenti possono registrare il tempo&quot;
 
