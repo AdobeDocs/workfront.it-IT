@@ -183,7 +183,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
      >[!NOTE]
      >
-      L’amministratore di Workfront o il creatore di oggetti può rimuovere le autorizzazioni da queste entità.
+     > L’amministratore di Workfront o il creatore di oggetti può rimuovere le autorizzazioni da queste entità.
 
       
 
