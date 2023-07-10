@@ -7,9 +7,9 @@ description: In Adobe Workfront Fusion sono attualmente disponibili i seguenti m
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 4e618a0b91a44a6232ff6a72b9c7384b774b0fda
+source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '861'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,26 @@ Questi modelli recuperano le informazioni da un servizio web e le inseriscono in
 ### APILayer > Workfront - Aggiornamento del tasso di cambio giornaliero (EUR)
 
 Questo modello crea uno scenario che automatizza l&#39;aggiornamento di un tasso di cambio in un determinato momento. Questo scenario richiama il tasso di euro (EUR) al dollaro statunitense (USD) da un’API APIlayers.com e aggiorna il tasso in Workfront.
+
+## Modelli Workfront-Marketo
+
+Questi modelli supportano l&#39;integrazione Workfront-Marketo.
+
+>[!NOTE]
+>
+> Per utilizzare i modelli in questa sezione è necessario disporre di una licenza Workfront Fusion for Work Automation and Integration.
+
+### Approvare la bozza e-mail del Marketo Engage con i flussi di lavoro di approvazione di Workfront
+
+Questo fa parte dell’integrazione Revisione e approvazione tra Workfront e Marketi Engage. Questo modello rileva se è stata approvata una bozza e-mail in Workfront, quindi aggiorna l’e-mail corrispondente nel Marketo Engage in base all’approvazione.
+
+### Acquisisci le richieste delle campagne di marketing in Workfront e automatizza la creazione di campagne in Marketi Engage
+
+Questo scenario offre un modo programmatico per creare campagne e-mail e webinar in Marketo Engage da una richiesta effettuata in Workfront. Utilizzando l’automazione per creare, organizzare e configurare le campagne, i team sono in grado di migliorare l’efficienza.
+
+### Verifica una bozza e-mail del Marketo Engage in Workfront
+
+Questo modello rileva se un’attività di Workfront è stata impostata sullo stato Pronto per la revisione, quindi esporta la bozza e-mail dal Marketo Engage per salvarla come bozza in Workfront.
 
 ## Modelli Workfront-Anaplan
 
