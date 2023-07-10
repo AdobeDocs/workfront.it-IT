@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1606'
 ht-degree: 3%
 
 ---
@@ -32,9 +32,9 @@ Per informazioni generali sulla nuova esperienza di aggiunta di commenti, inclus
 
 Stiamo pianificando di rilasciare la nuova esperienza di commento in modo iterativo. Questo influisce su alcuni oggetti a ogni versione. Un piccolo insieme di funzioni potrebbe essere rilasciato all&#39;inizio e altre saranno aggiunte agli oggetti rimanenti nel tempo.
 
-Per informazioni sugli oggetti Workfront che visualizzano la sezione Aggiornamenti, vedere   [Panoramica della sezione Aggiornamenti](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+Per informazioni sugli oggetti Workfront che visualizzano la sezione Aggiornamenti, vedere   [Panoramica della sezione Aggiornamenti](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Di seguito è riportata una timeline pianificata per il rilascio della nuova esperienza di commento nell’ambiente di produzione:
+Di seguito è riportata una timeline pianificata con le tappe principali per il rilascio della nuova esperienza di commento nell’ambiente di produzione. Oltre alle tappe indicate di seguito, continueremo a migliorare l’esperienza di aggiunta dei commenti con miglioramenti di minore entità. Per informazioni dettagliate su tutte le funzioni rilasciate, vedi [Funzioni rilasciate](#released-features) in questo articolo.
 
 * Con la versione 23.2 (6 aprile 2023):
    * Esperienza di commento beta per i problemi
@@ -51,24 +51,41 @@ Di seguito è riportata una timeline pianificata per il rilascio della nuova esp
 * Fine del 2023:
    * L’esperienza di aggiunta di commenti legacy rimarrà un’opzione per i seguenti oggetti: progetti, attività, problemi e documenti.
 
-     Modelli, attività modello, programmi, portfolio, team, utenti e schede orario, obiettivi e schede hanno la nuova esperienza di commento come unica opzione.
-
   >[!NOTE]
   >
   >    Le iterazioni continueranno a presentare l’esperienza di commento legacy.
 
-La sezione seguente contiene un elenco di funzioni aggiunte dopo la versione originale, a partire da quelle rilasciate più di recente.
-
 ## Funzioni rilasciate
 
-Le informazioni seguenti si riferiscono all’attività di rilascio settimanale delle funzioni incluse nella nuova esperienza beta di commento. Nella pagina sono elencate le nuove funzioni aggiunte e i problemi risolti per la nuova esperienza di aggiunta di commenti.
+La sezione seguente contiene un elenco di funzioni aggiunte dopo la versione originale, a partire da quelle rilasciate più di recente.
 
+Le informazioni seguenti si riferiscono all’attività di rilascio settimanale delle funzioni incluse nella nuova esperienza beta di commento. In questo articolo sono elencate le nuove funzioni aggiunte e i problemi risolti per la nuova esperienza di aggiunta di commenti.
 
 ### Funzionalità rilasciate dopo il 19 giugno 2023
 
 <!--restructure this section with actual weeks and dates, when we know them-->
 
 Le funzioni elencate in questa sezione saranno rilasciate poco dopo la settimana del 19 giugno 2023.
+
+#### Assegna automaticamente tag a tutti i partecipanti del thread
+
+Il proprietario di un commento viene ora taggato automaticamente in un thread. Prima di questo aggiornamento, solo gli utenti ai quali sono stati assegnati tag utilizzando i tag &quot;@name&quot; o aggiungendoli alla sezione &quot;Assegna tag a persone o team&quot; visualizzata nell’elenco degli utenti ai tag. Con questo, ora puoi rimuovere il proprietario di un commento dal thread, se necessario, anche se non era stato applicato loro alcun tag manuale in precedenza.
+
+Versione di anteprima pianificata: 12 luglio 2023
+
+Versione di produzione pianificata: 13 luglio 2023
+
+#### Nuova interfaccia per il tempo di registrazione
+
+Nella nuova esperienza di commento, è stata riprogettata l’interfaccia per la registrazione dell’ora dalla sezione Aggiornamenti.
+
+Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentazione verrà aggiornata al momento della versione.
+
+Versione di anteprima per progetti, attività e problemi: 5 luglio 2023
+
+Versione di produzione per i problemi: 6 luglio 2023
+
+Versione di produzione pianificata per progetti e attività: con la versione 23.3
 
 #### Contenuto commento preventivo in una nuova risposta
 
@@ -80,27 +97,13 @@ Anteprima: 28 giugno 2023
 
 Versione di produzione: 29 giugno 2023
 
-#### Nuova interfaccia per il tempo di registrazione
-
-Nella nuova esperienza di commento, è stata riprogettata l’interfaccia per la registrazione dell’ora dalla sezione Aggiornamenti.
-
-Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentazione verrà aggiornata al momento della versione.
-
-Versione di anteprima pianificata per progetti, attività e problemi: 5 luglio 2023
-
-Versione di produzione pianificata per i problemi: 6 luglio 2023
-
-Versione di produzione pianificata per progetti e attività: con la versione 23.3
-
 #### Aggiungere emoji a un aggiornamento
 
 È ora possibile aggiungere emoticon a un commento utilizzando un’opzione della barra degli strumenti Testo formattato nella nuova esperienza di commento.
 
 Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentazione verrà aggiornata al momento della versione.
 
-Anteprima: Da annunciare (durante la versione 23.3)
-
-Produzione: da annunciare. Prima della versione 23.3.
+Anteprima e produzione: da annunciare (durante o poco dopo la versione 23.3)
 
 #### Nuova esperienza di commento per oggetti aggiuntivi
 

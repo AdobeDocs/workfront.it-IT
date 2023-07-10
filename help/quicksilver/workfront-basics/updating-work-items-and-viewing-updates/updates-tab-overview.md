@@ -7,10 +7,10 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 4%
+source-wordcount: '1141'
+ht-degree: 3%
 
 ---
 
@@ -232,7 +232,18 @@ Se desideri visualizzare tutti gli aggiornamenti effettuati su un utente o su un
 
 ### Limitazioni nell’inserimento di commenti per conto di un altro utente
 
-Gli amministratori di Adobe Workfront e gli amministratori di gruppi possono accedere come altri utenti ed eseguire azioni in Workfront, ad esempio immettere commenti. (Per informazioni, consulta [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) Eventuali commenti formulati per conto di un altro utente sono indicati nel commento.
+Gli amministratori di Adobe Workfront e gli amministratori di gruppi possono accedere come altri utenti ed eseguire azioni in Workfront, ad esempio immettere commenti.
+
+Per informazioni, consulta [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+Eventuali commenti formulati per conto di un altro utente sono indicati nel commento.
+
+>[!NOTE]
+>
+><span class="preview">Quando si utilizza la nuova esperienza di commento, il commento viene aggiunto come utente che ha effettuato l’accesso come altro utente e non vi è alcuna indicazione che stia aggiungendo un commento per conto di un altro utente.
+>
+>Ad esempio, se un amministratore di Workfront effettua l’accesso come altro utente, l’utente associato al commento è l’amministratore di Workfront. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+
 
 Un amministratore gruppo può aggiungere commenti per conto di un altro utente, ma non può eliminarli. Solo un amministratore di Adobe Workfront può eliminare un commento fatto per conto di un altro utente.
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 716b5a151585aa314cd9db67237d2ed085e817c1
+source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -57,6 +57,7 @@ Le seguenti funzioni sono state rimosse dalla nuova esperienza:
 * Commento su un aggiornamento del sistema
 * Possibilità di modificare lo stato, la condizione e la data del commit durante l&#39;inserimento di commenti
 * Modifica modulo personalizzato
+* Le informazioni &quot;per conto di &lt; nome utente >&quot; quando un amministratore di Workfront o di gruppo effettua l&#39;accesso come altro utente e aggiunge un commento per suo conto.
 
 >[!NOTE]
 >
@@ -115,8 +116,23 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    <td> 
    </td>
   </tr>
-  <tr>
- <tr>
+
+<tr>
+   <td>Testo formattato (emoji)
+   </td>
+   <td>✓ 
+   </td>
+   <td>
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+<tr>
    <td>Testo formattato (virgolette)
    </td>
    <td>✓ 
@@ -188,13 +204,13 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
   </tr>
   <tr>
-   <td>Rimuovi persone dal thread 
+   <td>Assegna automaticamente tag a tutti i partecipanti del thread
    </td>
    <td> 
    </td>
-   <td>✓
+   <td>
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -299,35 +315,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Modifica modulo personalizzato 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
-  <tr>
-   <td>Possibilità di modificare lo stato, la condizione e la data del commit durante l'inserimento di commenti 
-   </td>
-   <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Copia link thread 
    </td>
    <td>✓ 
@@ -360,9 +348,9 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td>✓ 
    </td>
-   <td> 
+   <td><span class="preview">✓</span> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td>2° trimestre 2023 
    </td>
@@ -411,9 +399,50 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    <td>✓ 
    </td>
   </tr>
-
+<tr>
+   <td>Modifica modulo personalizzato 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+  <tr>
+   <td>Possibilità di modificare lo stato, la condizione e la data del commit durante l'inserimento di commenti 
+   </td>
+   <td>✓ 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+  </tr>
 <tr>
    <td>Rispondi agli aggiornamenti di sistema 
+   </td>
+   <td> ✓
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> 
+   </td>
+  </tr>
+<tr>
+   <td>Visualizza "per conto di" quando si aggiungono commenti connessi come altro utente
    </td>
    <td> ✓
    </td>
@@ -430,7 +459,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
 
 ## Timeline di rilascio
 
-Per informazioni sulle funzioni rilasciate di recente nella nuova esperienza di commento e sulla timeline di rilascio, consulta [Nuova attività di commento della versione di esperienza beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Per informazioni sulle funzioni rilasciate di recente nella nuova esperienza di commento e sulla timeline di rilascio, consulta [Nuova attività di commento della versione dell’esperienza beta](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Individua la nuova esperienza di commento
 
