@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
@@ -204,6 +204,22 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
   </tr>
   <tr>
+   <td>Rimuovi partecipanti thread
+   </td>
+   <td> 
+   </td>
+   <td><span class="preview">✓</span>
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+  </tr>
+
+
+<tr>
    <td>Assegna automaticamente tag a tutti i partecipanti del thread
    </td>
    <td> 
@@ -217,7 +233,8 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    <td> 
    </td>
   </tr>
-  <tr>
+
+<tr>
    <td>Commenti privati a un’azienda 
    </td>
    <td>✓ 

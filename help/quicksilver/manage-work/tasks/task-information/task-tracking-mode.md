@@ -2,23 +2,23 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Panoramica sulla modalità di tracciamento delle attività
-description: È possibile regolare l'impostazione della modalità di tracciamento di un'attività durante la creazione o la modifica di un'attività per controllare come e quando vengono visualizzati gli indicatori di stato di avanzamento di un'attività. Adobe Workfront visualizza i flag Stato di avanzamento quando si configurano alcune impostazioni per tenere traccia dell'avanzamento delle attività.
+title: Panoramica sulla modalità di monitoraggio attività
+description: È possibile regolare l'impostazione della modalità Tracciamento di un'attività durante la creazione o la modifica di un'attività per controllare come e quando vengono visualizzati gli indicatori di stato di avanzamento di un'attività. Adobe Workfront mostra i flag di stato di avanzamento quando configuri alcune impostazioni per il tracciamento dell’avanzamento delle attività.
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '630'
 ht-degree: 3%
 
 ---
 
-# Panoramica sulla modalità di tracciamento delle attività
+# Panoramica sulla modalità di monitoraggio attività
 
-È possibile regolare l&#39;impostazione della modalità di tracciamento di un&#39;attività durante la creazione o la modifica di un&#39;attività per controllare come e quando vengono visualizzati gli indicatori di stato di avanzamento di un&#39;attività. Adobe Workfront visualizza i flag Stato di avanzamento quando si configurano alcune impostazioni per tenere traccia dell&#39;avanzamento delle attività.
+È possibile regolare l&#39;impostazione della modalità Tracciamento di un&#39;attività durante la creazione o la modifica di un&#39;attività per controllare come e quando vengono visualizzati gli indicatori di stato di avanzamento di un&#39;attività. Adobe Workfront mostra i flag di stato di avanzamento quando configuri alcune impostazioni per il tracciamento dell’avanzamento delle attività.
 
-Per ulteriori informazioni sullo stato di avanzamento delle attività, vedere [Panoramica sullo stato dell&#39;avanzamento dell&#39;attività](../../../manage-work/tasks/task-information/task-progress-status.md).
+Per ulteriori informazioni sullo stato di avanzamento delle attività, vedere [Panoramica sullo stato di avanzamento dell’attività](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -36,7 +36,7 @@ Per ulteriori informazioni sullo stato di avanzamento delle attività, vedere [P
 
 ## Opzioni della modalità di tracciamento {#tracking-mode-options}
 
-In qualità di proprietario di un&#39;attività o di project manager, è possibile selezionare il modo in cui Workfront indica lo stato di avanzamento di ogni attività. Per informazioni su come impostare la modalità di tracciamento delle attività, consulta [Impostare la modalità di tracciamento per le attività](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
+In qualità di proprietario di un&#39;attività o di project manager, è possibile selezionare il modo in cui Workfront indica lo stato di avanzamento di ogni attività. Per informazioni su come impostare la modalità di tracciamento per le attività, consulta [Imposta modalità di verifica per le attività](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
 Puoi scegliere tra le seguenti opzioni:
 
@@ -48,31 +48,31 @@ Puoi scegliere tra le seguenti opzioni:
 
 ### Utente deve Aggiornare {#user-must-update}
 
-Quando questa opzione è selezionata, Workfront utilizza la percentuale di completamento e le ore effettive dell&#39;attività registrate per determinare lo stato di avanzamento dell&#39;attività. Questa è l’opzione predefinita.
+Quando questa opzione è selezionata, Workfront utilizza la percentuale di completamento e le ore effettive registrate dell&#39;attività per determinare lo stato di avanzamento dell&#39;attività. Questa è l&#39;opzione predefinita.
 
 ### presume nei tempi {#assume-on-time}
 
-Workfront presuppone che un&#39;attività venga completata in tempo, indipendentemente dallo stato di completamento corrente. In caso contrario, Workfront assume automaticamente una data di completamento pianificata del giorno lavorativo successivo. È comunque necessario indicare quando l&#39;attività viene completata. Utilizza questa opzione quando gli utenti non aggiornano regolarmente le attività.
+Workfront presuppone che un&#39;attività verrà completata in tempo, indipendentemente dallo stato di completamento corrente. In caso contrario, Workfront assume automaticamente una Data di completamento pianificata del giorno lavorativo successivo. È comunque necessario indicare quando l&#39;attività viene completata. Utilizza questa opzione quando gli utenti non aggiorneranno regolarmente le loro attività.
 
 ### Ignora Avvertimenti di Ritardo {#ignore-late-warnings}
 
-Lo stato di avanzamento di un&#39;attività sarà attivato in tempo finché non diventa in ritardo. Ad esempio, se si pianifica un&#39;attività per 10 giorni e il giorno in cui deve essere completata, l&#39;attività mostra una percentuale di completamento del 60%, Workfront aggiorna la data di completamento prevista aggiungendo quattro giorni e lo stato di avanzamento dell&#39;attività diventa in ritardo.
+Lo stato di avanzamento di un&#39;attività è Attivo fino a quando non è in ritardo. Se ad esempio si pianifica un&#39;attività che richiede 10 giorni e il giorno in cui deve essere completata, l&#39;attività mostra una percentuale di completamento del 60%, Workfront aggiorna la data di completamento prevista aggiungendo quattro giorni e lo stato di avanzamento dell&#39;attività diventa in ritardo.
 
 ### Auto completamento {#auto-complete}
 
-Workfront presuppone che le attività vengano completate come pianificato e le contrassegna come completate in base alle rispettive date di completamento previste o previste. Fino ad allora, Workfront utilizza Percentuale di completamento e Ore effettive registrate per determinare lo stato di avanzamento. Tuttavia, indipendentemente dallo stato di avanzamento prima della data di completamento pianificata, Workfront contrassegna ancora l’attività completata.
+Workfront presuppone che le attività saranno completate come programmato e le contrassegna come completate alle rispettive Date di completamento previste o in scadenza. Fino ad allora, Workfront utilizza la percentuale di completamento e le ore effettive registrate per determinare lo stato di avanzamento. Tuttavia, indipendentemente dallo stato di avanzamento prima della data di completamento pianificata, Workfront contrassegna comunque l’attività come completata.
 
 Esistono le seguenti eccezioni:
 
-* Se l&#39;attività ha predecessori incompleti, non verrà completata automaticamente fino al completamento di tutti i predecessori.
-* Se l&#39;attività presenta un vincolo di data fissa, l&#39;attività viene sempre completata alla data di completamento pianificata, indipendentemente dal completamento dei predecessori.
+* Se l&#39;attività ha predecessori incompleti, non verrà completata automaticamente fino al completamento di tutti i predecessori. I Predecessori devono essere fatti rispettare.
+* Se l&#39;attività ha un vincolo Data fissa, l&#39;attività viene sempre completata alla Data di completamento pianificata, indipendentemente dal fatto che i predecessori siano stati completati.
 
 >[!IMPORTANT]
 >
->Quando si seleziona questa opzione per completare automaticamente le attività, l&#39;attività viene completata quando viene ricalcolata l&#39;ora del progetto. Se Tipo di aggiornamento del progetto è impostato su Automatico o Automatico e su Modifica, la timeline del progetto viene calcolata quotidianamente. Per informazioni sul ricalcolo temporale dei progetti, consulta [Ricalcolare le timeline dei progetti](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Se si seleziona l&#39;opzione per il completamento automatico delle attività, l&#39;attività viene contrassegnata come completata quando viene ricalcolata l&#39;ora del progetto. Se il tipo di aggiornamento del progetto è impostato su Automatico o Automatico e su Modifica, la sequenza temporale del progetto viene calcolata quotidianamente. Per informazioni sui ricalcoli della sequenza temporale nei progetti, consulta [Ricalcolare i timeline dei progetti](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->L&#39;ora della Data di completamento effettiva è la mezzanotte del giorno in cui la timeline viene calcolata automaticamente. L&#39;ora utilizzata per generare questa marca temporale è il fuso orario del sistema, come definito dall&#39;amministratore Workfront nella sezione Informazioni cliente di Configurazione. Per informazioni sull&#39;impostazione del fuso orario del sistema, vedi [Configurare le informazioni di base per il sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>L&#39;ora della data di completamento effettiva è la mezzanotte del giorno in cui la sequenza temporale viene calcolata automaticamente. L’ora utilizzata per generare questa marca temporale è il fuso orario del sistema, come definito dall’amministratore di Workfront nella sezione Informazioni cliente di Configurazione. Per informazioni sull&#39;impostazione del fuso orario del sistema, vedere [Configurare le informazioni di base per il sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Predecessore {#predecessor}
 
-Workfront stima la data di completamento prevista di un&#39;attività in base alla relazione precedente. Lo stato di avanzamento di un&#39;attività viene determinato in base a questa stima. Ad esempio, l’attività B ha una durata di 1 giorno e deve essere completata due giorni dopo il suo predecessore, l’attività A, che dovrebbe richiedere cinque giorni. Un utente aggiorna quindi l’attività B al 50% completata, ma il predecessore, l’attività A, non è ancora iniziato. Workfront determina il completamento dell&#39;attività dipendente B sei giorni dopo la data di inizio dell&#39;attività predecessore, consentendo 5 giorni per l&#39;attività A e 1 giorno per l&#39;attività B.
+Workfront stima la data di completamento prevista di un&#39;attività in base alla relazione predecessore. Lo stato di avanzamento di un&#39;attività viene determinato in base a questa stima. Ad esempio, l&#39;attività B ha una durata di 1 giorno ed è programmata per essere completata due giorni dopo il predecessore, l&#39;attività A, che dovrebbe richiedere cinque giorni. Un utente aggiorna quindi l’Attività B al 50% completato, ma il predecessore, l’Attività A, non è ancora iniziato. Workfront programma il completamento dell&#39;attività B dipendente sei giorni dopo la data di inizio dell&#39;attività predecessore, consentendo 5 giorni per l&#39;attività A e 1 giorno per l&#39;attività B.
