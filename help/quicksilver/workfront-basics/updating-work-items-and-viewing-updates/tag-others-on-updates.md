@@ -6,9 +6,9 @@ description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: c941467e2b1e93a728b5f7d8844c7fefea2816e1
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,8 @@ L’assegnazione di tag ad altri in un aggiornamento varia a seconda dell’espe
 
 ### Assegna tag ad altri utenti in caso di aggiornamenti nella sezione Aggiornamenti corrente
 
+Puoi assegnare tag agli utenti manualmente nella sezione Aggiornamenti corrente.
+
 1. Inizia ad aggiornare un elemento di lavoro, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. In **Notifica** , digitare il nome dell&#39;utente o del team che si desidera includere, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
@@ -134,9 +136,19 @@ L’assegnazione di tag ad altri in un aggiornamento varia a seconda dell’espe
 
 ### Assegna tag ad altri utenti sugli aggiornamenti nell’esperienza Beta di commento
 
-Puoi assegnare tag ad altri utenti per gli aggiornamenti nell’esperienza Beta di commento. Puoi anche rimuovere gli utenti a cui vengono assegnati tag per errore quando modifichi un commento.
+<!--replace the first paragraph in this section with the commented out piece when this releases to preview - July 13, 2023??
 
-1. Inizia ad aggiornare un elemento di lavoro, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+You can tag others on updates in the new commenting experience in the following ways:
+
+* <span class="preview"> **Automatically**: When a user adds a comment or a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. </span>
+* **Manually**: When you manually add a user to the Tag people area of the commenting box.
+
+You can also remove users who are tagged by mistake when you edit or reply to a comment.-->
+
+
+Puoi assegnare manualmente tag ad altri utenti per gli aggiornamenti nell’esperienza Beta di commento. È inoltre possibile rimuovere gli utenti a cui vengono assegnati tag per errore quando si modifica o si risponde a un commento.
+
+1. Inizia ad aggiornare un elemento di lavoro, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <!--<span class="preview">As the comment owner, you are automatically tagged and added to the Tag people or teams area of the commenting box. </span> -->
 1. In **Assegna tag a persone o team** , digitare il nome dell&#39;utente o del team che si desidera includere, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 
    Oppure

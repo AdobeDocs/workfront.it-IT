@@ -6,7 +6,7 @@ description: È possibile registrare il tempo per gli elementi di lavoro in &nbs
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
 workflow-type: tm+mt
 source-wordcount: '3336'
 ht-degree: 0%
@@ -385,7 +385,7 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
 1. Nel pannello a sinistra, seleziona **Aggiornamenti**.
 1. Clic **Tempo di connessione**.
 
-   Viene visualizzata la finestra di dialogo Immetti ore.
+   <span class="preview">Viene visualizzata la finestra di dialogo Log Time (Tempo registro). </span>
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
    >   
    >   Nell&#39;angolo superiore destro della casella Enter Days è indicato il numero di ore incluse in un giorno.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Specifica le seguenti informazioni:
 
