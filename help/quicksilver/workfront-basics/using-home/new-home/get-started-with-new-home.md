@@ -4,9 +4,9 @@ navigation-topic: use-the-home-area
 title: Introduzione alla nuova home in Adobe Workfront
 description: La nuova Home è una nuova potente funzione per gestire il tuo lavoro.
 author: Nolan
-source-git-commit: 281712542566aec87c51a2eccb301dd3a83a94b3
+source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ I widget sono alla base della Nuova Home. Aggiungendo i widget alla home page, �
     Visualizza i problemi assegnati in una tabella con filtri, viste e raggruppamenti personalizzabili, nonché un pulsante per creare direttamente un nuovo problema.
 
 * **Le mie richieste**\
-    Visualizza tutte le richieste assegnate all&#39;utente, un filtro che consente di visualizzare solo le richieste aperte e un pulsante che apre il riquadro di riepilogo di una richiesta.
+    Visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste aperte e un pulsante che apre il riquadro di riepilogo di una richiesta.
 
 * **Richieste team**\
     Visualizza tutte le richieste in sospeso per i team ordinati per team, nonché i pulsanti per assegnare direttamente una richiesta a un utente o lavorarci personalmente.
