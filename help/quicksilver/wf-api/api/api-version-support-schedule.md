@@ -1,25 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Controllo delle versioni e pianificazione del supporto API
-description: Controllo delle versioni e pianificazione del supporto API
+title: Pianificazione del supporto e del controllo delle versioni API
+description: Pianificazione del supporto e del controllo delle versioni API
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: bcf8c8a5ce9cbaf596878b85aa134245e811d07d
+source-git-commit: 5a4868451384718e359bfd5f876081961b16485d
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
-# Controllo delle versioni e pianificazione del supporto API
+# Pianificazione del supporto e del controllo delle versioni API
 
 
 
-Adobe Workfront rilascia regolarmente nuove versioni API, di solito due volte allâ€™anno. Le versioni API sono supportate per 3 anni dopo la versione. Le versioni API precedenti a 3 anni non sono piÃ¹ supportate.
+Adobe Workfront rilascia regolarmente nuove versioni API, in genere due volte allâ€™anno. Le versioni API sono supportate per 3 anni dopo il rilascio. Le versioni API precedenti a 3 anni non sono piÃ¹ supportate.
 
-La tabella seguente mostra la pianificazione del rilascio e del supporto per lâ€™API Workfront.
+La tabella seguente mostra la versione e la pianificazione del supporto per lâ€™API Workfront.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,9 +33,9 @@ La tabella seguente mostra la pianificazione del rilascio e del supporto per lâ€
   </tr> 
  </thead> 
  <tbody> 
-   <td>14</td> 
-   <td> <p>Aprile 2023</p> <p>(con la versione 23.2)</p> </td> 
-   <td> <p>**durante il 2026</p> <p>(con la versione 26.2)</p> </td> 
+   <td>16</td> 
+   <td> <p>2023 aprile</p> <p>(con versione 23.2)</p> </td> 
+   <td> <p>**durante il 2026</p> <p>(con versione 26.2)</p> </td> 
   </tr> 
   <tr> 
    <td>15</td> 
@@ -44,8 +44,8 @@ La tabella seguente mostra la pianificazione del rilascio e del supporto per lâ€
   </tr> 
   <tr> 
    <td>14</td> 
-   <td> <p>Ottobre 2021</p> <p>(con la versione 21.4)</p> </td> 
-   <td> <p>**durante il 2024</p> <p>(con la versione 24.4)</p> </td> 
+   <td> <p>Ottobre 2021</p> <p>(con versione 21.4)</p> </td> 
+   <td> <p>**durante il 2024</p> <p>(con versione 24.4)</p> </td> 
   </tr> 
   <tr> 
    <td>13</td> 
@@ -59,8 +59,8 @@ La tabella seguente mostra la pianificazione del rilascio e del supporto per lâ€
   </tr> 
   <tr> 
    <td>11</td> 
-   <td> <p>Prima metÃ  del 2020</p> <p>(con la versione 2020.2)</p> </td> 
-   <td> <p>** nel 2023</p> <p>(con la versione 2023.2)</p> </td> 
+   <td> <p>Primo semestre del 2020</p> <p>(con la versione 2020.2)</p> </td> 
+   <td> <p>** durante il 2023</p> <p>(con la versione 2023.2)</p> </td> 
   </tr> 
   <tr> 
    <td>10</td> 
@@ -79,8 +79,8 @@ La tabella seguente mostra la pianificazione del rilascio e del supporto per lâ€
   </tr> 
   <tr> 
    <td>7</td> 
-   <td>Aprile 2017</td> 
-   <td> <p>Aprile 2020</p> <p>(con la versione 2020.2)</p> </td> 
+   <td>2017 aprile</td> 
+   <td> <p>2020 aprile</p> <p>(con la versione 2020.2)</p> </td> 
   </tr> 
   <tr> 
    <td>6</td> 
@@ -89,8 +89,8 @@ La tabella seguente mostra la pianificazione del rilascio e del supporto per lâ€
   </tr> 
   <tr> 
    <td>5</td> 
-   <td>Aprile 2014</td> 
-   <td> <p>Aprile 2019</p> <p>(con la versione 2019.2)</p> </td> 
+   <td>2014 aprile</td> 
+   <td> <p>2019 aprile</p> <p>(con la versione 2019.2)</p> </td> 
   </tr> 
   <tr> 
    <td>4</td> 
