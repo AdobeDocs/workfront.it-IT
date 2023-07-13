@@ -2,25 +2,26 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Imposta la data di completamento pianificato del progetto
-description: La data di completamento pianificata di un progetto è la data entro la quale il progetto viene impostato per il completamento.
+title: Impostare la data di completamento pianificata del progetto
+description: La Data di completamento pianificata di un progetto è la data entro la quale il progetto è impostato per essere completato.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
-# Imposta la data di completamento pianificato del progetto
+# Impostare la data di completamento pianificata del progetto
 
-La data di completamento pianificata di un progetto è la data entro la quale il progetto viene impostato per il completamento.
+La Data di completamento pianificata di un progetto è la data entro la quale il progetto è impostato per essere completato.
 
-Le date di inizio pianificato e di completamento pianificato di un progetto dipendono dalle date delle attività del progetto. Questo articolo descrive come impostare manualmente o automaticamente la data di completamento pianificata di un progetto. Per ulteriori informazioni sulla data di completamento pianificata di un&#39;attività, vedere [Panoramica dell&#39;attività Data completamento pianificata](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+L&#39;Inizio pianificato e le Date di completamento pianificate di un progetto si basano sulle date delle attività del progetto. Questo articolo descrive come impostare manualmente o automaticamente la Data di completamento pianificata di un progetto. Per ulteriori informazioni sulla data di completamento pianificata di un&#39;attività, vedere [Panoramica della data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
-La data di completamento pianificata di un progetto può essere impostata manualmente o automaticamente, a seconda che il progetto sia programmato dall&#39;inizio o dalla data di completamento.
+La data di completamento pianificata di un progetto può essere impostata manualmente o automaticamente, a seconda che il progetto sia pianificato dall’inizio o dalla data di completamento.
 
 ## Requisiti di accesso
 
@@ -62,7 +63,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -70,63 +71,68 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso a progetti</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai progetti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Impostare manualmente la data di completamento pianificata di un progetto
 
-È necessario impostare manualmente la data di completamento pianificata di un progetto quando si pianifica il progetto da Data di completamento. 
+È necessario impostare manualmente la data di completamento pianificata di un progetto quando si pianifica il progetto dalla data di completamento.
 
-Per pianificare un progetto dalla data di completamento:
+>[!NOTE]
+>
+>Quando imposti manualmente la Data di completamento pianificata di un progetto, Workfront calcola automaticamente la Data di inizio pianificata del progetto in base alla Durata di tutte le attività.
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell&#39;angolo in alto a destra, quindi fai clic su **Progetti**.
 
-1. Fai clic su **Nuovo progetto** then **Nuovo progetto**.
+Per programmare un progetto dalla data di completamento:
 
-   Per ulteriori informazioni sulla creazione di progetti, consulta l’articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **Progetti**.
 
-1. Seleziona **Dettagli progetto** nel pannello a sinistra, fai clic sul pulsante **Modifica progetto** nell&#39;angolo in alto a destra.
-
-1. In **Modalità di pianificazione** campo , seleziona **Data completamento**.
-
-1. Specifica la **Data completamento pianificata** del progetto.
-1. Fai clic su **Salva modifiche**.
-
-   Quando inizi ad aggiungere attività al progetto, la **Data di inizio prevista** del progetto viene calcolato in base alla durata totale di tutte le attività. 
-
-## Imposta automaticamente la data di completamento pianificata di un progetto
-
-La data di completamento pianificata di un progetto viene calcolata automaticamente da Adobe Workfront quando si pianifica il progetto dalla data di inizio. 
-
-Per pianificare un progetto dalla data di inizio:
-
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell&#39;angolo in alto a destra, quindi fai clic su **Progetti**.
-
-1. Fai clic su **Nuovo progetto** then **Nuovo progetto**.
+1. Clic **Nuovo progetto** allora **Nuovo progetto**.
 
    Per ulteriori informazioni sulla creazione di progetti, consulta l’articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Seleziona **Dettagli progetto** nel pannello a sinistra, fai clic sul pulsante **Modifica progetto** nell&#39;angolo in alto a destra.
+1. Seleziona **Dettagli progetto** nel pannello a sinistra, fai clic su **Modifica Progetto** nell’angolo in alto a destra.
 
-1. In **Modalità di pianificazione** campo , seleziona **Data di inizio**.
+1. In **Modalità Schedule** campo, seleziona **Data di completamento**.
 
-1. Specifica la **Data di inizio prevista** del progetto.
-1. Fai clic su **Salva modifiche**.
+1. Specifica la **Data di completamento Pianificata** del progetto.
+1. Clic **Salva modifiche**.
 
-   Quando inizi ad aggiungere attività al progetto, la **Data completamento pianificata** del progetto viene calcolato in base alla durata totale di tutte le attività. 
+   Quando inizi ad aggiungere attività al progetto, il **Data Inizio Pianificata** del progetto in base alla durata totale di tutte le attività. 
 
-   Per ulteriori informazioni sulla durata dell’attività, consulta l’articolo [Panoramica del tipo di durata e durata dell’attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+## Impostare automaticamente la data di completamento pianificata di un progetto
+
+La data di completamento pianificata di un progetto viene calcolata automaticamente da Workfront quando si pianifica il progetto a partire dalla data di inizio. 
+
+Per programmare un progetto dalla data di inizio:
+
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **Progetti**.
+
+1. Clic **Nuovo progetto** allora **Nuovo progetto**.
+
+   Per ulteriori informazioni sulla creazione di progetti, consulta l’articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+
+1. Seleziona **Dettagli progetto** nel pannello a sinistra, fai clic su **Modifica Progetto** nell’angolo in alto a destra.
+
+1. In **Modalità Schedule** campo, seleziona **Data di inizio**.
+
+1. Specifica la **Data Inizio Pianificata** del progetto.
+1. Clic **Salva modifiche**.
+
+   Quando inizi ad aggiungere attività al progetto, il **Data di completamento Pianificata** del progetto in base alla durata totale di tutte le attività. 
+
+   Per ulteriori informazioni sulla durata dell&#39;attività, vedere l&#39;articolo [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
    La data di completamento pianificata del progetto coincide, in questo caso, con la data di completamento pianificata dell&#39;ultima attività del progetto.
 

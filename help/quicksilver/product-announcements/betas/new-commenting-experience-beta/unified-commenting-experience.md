@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '713'
 ht-degree: 1%
 
 ---
@@ -69,8 +69,6 @@ Le seguenti funzioni sono state rimosse dalla nuova esperienza:
 >* <span class="preview">Attività</span>
 >* <span class="preview">Documenti</span>
 
-
-
 La tabella seguente illustra le funzioni che saranno disponibili nella nuova esperienza di commento e la loro disponibilità nelle aree in cui sono supportate:
 
 <table>
@@ -79,7 +77,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td><strong>Esiste nella vecchia esperienza di commento </strong>
    </td>
-   <td><strong>Esiste nella versione beta della nuova esperienza di commento </strong>
+   <td><strong>Esiste nella nuova esperienza di commento </strong>
    </td>
    <td><strong>Verrà introdotta nella nuova esperienza di commento </strong>
    </td>
@@ -224,9 +222,9 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td>
+   <td><span class="preview">✓</span>
    </td>
-   <td> ✓
+   <td> 
    </td>
    <td> 
    </td>

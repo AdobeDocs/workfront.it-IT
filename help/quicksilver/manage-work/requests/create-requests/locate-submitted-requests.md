@@ -4,18 +4,20 @@ navigation-topic: create-requests
 title: Individuare le richieste inviate
 description: Scopri le aree di Adobe Workfront in cui puoi individuare le richieste che hai inviato o che un altro utente ha inviato o le richieste che non hai mai inviato e che sono state salvate come bozze.
 author: Alina
-feature: Work Management
+feature: Requests
+topic: Collaboration
+role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: bb68f15c2d8ffabfb67a7789de14ef916cd2dbef
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '869'
 ht-degree: 1%
 
 ---
 
 # Individuare le richieste inviate
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 Puoi individuare i seguenti tipi di richieste inviate da te o da un altro utente oppure richieste avviate ma non ancora inviate. Puoi individuare queste richieste nelle seguenti aree di Adobe Workfront:
 
@@ -70,7 +72,7 @@ Per individuare le richieste inviate da te o da altri utenti:
    >
    >Non è possibile personalizzare le colonne nell’elenco delle richieste inviate.
 
-   <span class="preview">![](assets/nwe-submitted-requests-new-list-350x57.png)</span>
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
 
 1. Per impostazione predefinita, vengono visualizzate le seguenti colonne:

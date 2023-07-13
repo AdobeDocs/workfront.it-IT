@@ -4,12 +4,13 @@ navigation-topic: manage-projects
 title: Copiare un progetto
 description: È possibile copiare un progetto anziché crearne uno da zero. È possibile copiare un solo progetto alla volta. Non è possibile copiare progetti in blocco.
 author: Alina
-feature: Work Management
+feature: Projects, Work Management
+role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 5%
+source-wordcount: '764'
+ht-degree: 4%
 
 ---
 
@@ -43,7 +44,7 @@ ht-degree: 5%
 >* Scorecard
 >* Informazioni predefinite attività (processo di approvazione predefinito attività, Forms personalizzato predefinito attività)
 >
-
+> Le date delle attività originali nei progetti vengono copiate nel nuovo progetto. È necessario modificare la data di inizio o di completamento del progetto (a seconda della modalità di programmazione) per aggiornare le date delle attività. I vincoli relativi alle attività potrebbero impedire la modifica delle date nel progetto.
 
 ## Requisiti di accesso
 
