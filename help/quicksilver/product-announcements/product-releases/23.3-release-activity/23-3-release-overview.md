@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '2752'
+source-wordcount: '2754'
 ht-degree: 0%
 
 ---
@@ -346,7 +346,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                             <li>
                                 <p>Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3</p>
                                 <p>Versione di produzione per tutti i clienti: con la versione 23.4<br>
-                                <span style="color: #ff0000;"> La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima il 30 giugno 2023.</span></p>
+                                <span style="color: #ff0000;"> La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima dal 30 giugno al 13 luglio 2023.</span></p>
                             </li>
                         </ul>
                     </td>

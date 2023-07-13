@@ -3,24 +3,20 @@ title: 23.3 Miglioramenti apportati alla gestione finanziaria
 description: 23.3 Miglioramenti apportati alla gestione finanziaria
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
 
 # 23.3 Miglioramenti apportati alla gestione finanziaria
 
-Questa pagina descrive tutti i miglioramenti finanziari apportati con la versione 23.3 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.3.
+Questa pagina descrive tutti i miglioramenti apportati all&#39;ambiente di anteprima con la versione 23.3 di Financial Management. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.3.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Data costo effettivo e tariffe di fatturazione
-
->[!IMPORTANT]
->
->La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima il 30 giugno 2023.
 
 Le tariffe di costo e fatturazione effettive per data sono ora disponibili per gli oggetti società, utente e mansione in Workfront. Quando a un progetto vengono applicati i tassi di validità della data e le ore vengono registrate nelle attività del progetto, i costi e i ricavi vengono calcolati utilizzando i tassi specificati per ogni periodo di tempo.
 
