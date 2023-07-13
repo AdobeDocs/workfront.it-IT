@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 3f12cc51897b1fd090f14f3c58c98eb9f74ec33c
 workflow-type: tm+mt
-source-wordcount: '1591'
+source-wordcount: '1569'
 ht-degree: 3%
 
 ---
@@ -79,7 +79,7 @@ Versione di produzione pianificata: 13 luglio 2023
 
 Nella nuova esperienza di commento, è stata riprogettata l’interfaccia per la registrazione dell’ora dalla sezione Aggiornamenti.
 
-Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md). La documentazione verrà aggiornata al momento della versione.
+Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Versione di anteprima: 5 luglio 2023
 
@@ -89,7 +89,7 @@ Versione di produzione: con versione 23.3
 
 Ora è possibile copiare il contenuto di un commento e aggiungerlo come nuova virgoletta a una risposta nello stesso thread quando si utilizza la nuova esperienza di commento.
 
-Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). La documentazione verrà aggiornata al momento della versione.
+Per ulteriori informazioni, consulta [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Anteprima: 28 giugno 2023
 
