@@ -5,7 +5,7 @@ title: Integrazioni di Adobe Experience Manager Assets
 description: Puoi collegare il tuo lavoro con le seguenti Integrazioni di Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -23,7 +23,9 @@ Puoi collegare il tuo lavoro con il contenuto in [!DNL Experience Manager Assets
 * Tracciare i metadati per risorse e cartelle
 * Sincronizza metadati progetto tra [!DNL Workfront] e [!DNL Experience Manager Assets]
 
-È inoltre possibile connettere più archivi Experience Manager Assets a un ambiente Workfront o più ambienti Workfront a un archivio Experience Manager Assets per più ID organizzazione. Segui le istruzioni di configurazione in questo articolo per ogni integrazione da configurare.
+>[!NOTE]
+>
+>È inoltre possibile connettere più archivi Experience Manager Assets a un ambiente Workfront o più ambienti Workfront a un archivio Experience Manager Assets per più ID organizzazione. Segui le istruzioni di configurazione in questo articolo per ogni integrazione da configurare.
 
 ## Requisiti di accesso
 
@@ -165,7 +167,6 @@ Puoi mappare su Experience Manager Assets i campi Workfront incorporati e person
 > * Configurazione > Forms personalizzato in Workfront o il campo nell’oggetto
 > * Risorse > schemi di metadati in Experience Manager Assets
 
-
 +++
 
 ### Mappare i metadati per le risorse
@@ -181,7 +182,6 @@ Per mappare i metadati delle risorse:
    >
    >Puoi mappare un singolo [!DNL Workfront] campo a più [!UICONTROL Experience Manager Assets] campi. Impossibile mappare più elementi [!DNL Workfront] campi in un singolo [!DNL Experience Manager Assets] campo.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
-
 
 1. In [!DNL Experience Manager Assets] , eseguire una ricerca nelle categorie precompilate o immettere almeno due lettere nel campo di ricerca per accedere ad altre categorie.
 1. Ripetere i passaggi 2 e 3 in base alle esigenze.
