@@ -1,33 +1,37 @@
 ---
-title: Personalizzare il pannello a sinistra utilizzando un modello di layout
+title: Personalizzare il pannello sinistro utilizzando un modello di layout
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: In un modello di layout, è possibile personalizzare ciò che gli utenti visualizzano nell’area del pannello a sinistra in Adobe Workfront.
-author: Caroline
+description: In un modello di layout, puoi personalizzare ciò che gli utenti visualizzano nell’area del pannello sinistro in Adobe Workfront.
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: c0b0102eb1e1f45e794f962f7e905349f9e241eb
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
-# Personalizzare il pannello a sinistra utilizzando un modello di layout
+# Personalizzare il pannello sinistro utilizzando un modello di layout
 
-In un modello di layout, è possibile personalizzare gli elementi visualizzati dagli utenti nell’area del pannello a sinistra [!DNL Adobe Workfront].
+In un modello di layout, puoi personalizzare ciò che gli utenti visualizzano nell’area del pannello sinistro [!DNL Adobe Workfront].
 
-Ad esempio, puoi determinare quale dei seguenti elementi viene visualizzato dagli utenti nel pannello a sinistra durante la visualizzazione di un’attività:
+Ad esempio, puoi determinare quali dei seguenti elementi vengono visualizzati dagli utenti nel pannello a sinistra quando visualizzano un’attività:
 
 ![](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
->Le modifiche apportate all’ordine e alla visibilità si riflettono nell’app mobile.
+>Le modifiche apportate all’ordine e alla visibilità vengono riportate nell’app mobile.
 
-Per informazioni sui modelli di layout per gruppi, consulta [Creare e modificare i modelli di layout di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire modelli di layout](../use-layout-templates/create-and-manage-layout-templates.md).
+
+Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare i modelli di layout di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Requisiti di accesso
 
@@ -46,27 +50,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> Per eseguire questi passaggi a livello di sistema, è necessario disporre del livello di accesso [!UICONTROL System Administrator].<p>Per eseguirle per un gruppo, devi essere un responsabile di quel gruppo.</p> <p><b>NOTA</b>: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> Per eseguire questi passaggi a livello di sistema, è necessario il livello di accesso [!UICONTROL System Administrator].<p>Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Personalizzare il pannello a sinistra di un’area in [!DNL Workfront]:
+## Personalizzare il pannello sinistro di un’area in [!DNL Workfront]:
 
-1. Inizia a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Fai clic sulla freccia giù ![](assets/dropdown-arrow.png) sotto **[!UICONTROL Personalizzare ciò che gli utenti visualizzano]**, quindi fai clic sul pannello a sinistra da personalizzare.
+1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Fare clic sulla freccia giù ![](assets/dropdown-arrow.png) in **[!UICONTROL Personalizzare gli elementi visualizzati dagli utenti]**, quindi fai clic sul pannello a sinistra che desideri personalizzare.
 
    >[!NOTE]
    >
-   >Per informazioni sulla [!UICONTROL Pagina principale] in questo elenco a discesa, vedi [Personalizza [!UICONTROL Pagina principale] e [!UICONTROL Riepilogo] utilizzo di un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Per informazioni sull’opzione Elenchi, consulta [Personalizzare filtri, visualizzazioni e gruppi utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >Per informazioni su [!UICONTROL Home] in questo elenco a discesa, vedi [Personalizza [!UICONTROL Home] e [!UICONTROL Riepilogo] utilizzo di un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Per informazioni sull&#39;opzione Elenchi, vedere [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. In **[!UICONTROL Pannello a sinistra]** effettua una delle seguenti operazioni per determinare cosa vedranno gli utenti nel pannello a sinistra per l’opzione ([!DNL Workfront] area o tipo di oggetto) selezionata:
+1. In **[!UICONTROL Pannello sinistro]** , eseguire una delle operazioni seguenti per determinare ciò che verrà visualizzato dagli utenti nel pannello sinistro per l&#39;opzione ([!DNL Workfront] o tipo di oggetto) selezionato:
 
-   * Mostra ![](assets/add-secondary-nav-item.png) o nascondere ![](assets/delete-secondary-nav-item.png) oggetti. Qualsiasi elemento senza ![](assets/add-secondary-nav-item.png) o ![](assets/delete-secondary-nav-item.png) non può essere nascosto.
+   * Spettacolo ![](assets/add-secondary-nav-item.png) o nascondi ![](assets/delete-secondary-nav-item.png) elementi. Qualsiasi elemento senza ![](assets/add-secondary-nav-item.png) o ![](assets/delete-secondary-nav-item.png) non può essere nascosto.
 
-   * Trascinamento di elementi ![](assets/move-icon---dots.png) per modificare l’ordine nel pannello a sinistra.
-
+   * Trascina elementi ![](assets/move-icon---dots.png) per modificarne l’ordine nel pannello a sinistra.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -74,30 +77,30 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <thead> 
      <tr> 
       <th>Opzione</th> 
-      <th>Quando gli utenti fanno clic su quanto segue...</th> 
-      <th>Visualizzano gli elementi del pannello a sinistra scelti tra i seguenti:</th> 
+      <th>Quando gli utenti fanno clic su quanto segue:</th> 
+      <th>Visualizzano gli elementi del pannello sinistro scelti tra i seguenti:</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL Project]</td> 
+      <td>Progetto [!UICONTROL]</td> 
       <td>Nome di un progetto</td> 
-      <td>Attività di [!UICONTROL], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rilling Rall Rates],], Record di fatturazione, [!UICONTROL Cost], [!UICONTROL Cost], [!UICONTROL Hours], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL CONTROL Gruppo di argomenti], [!UICONTROL Metrics]</td> 
+      <td>[!UICONTROL Tasks], [!UICONTROL Project Details], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues], [!UICONTROL Risks], [!UICONTROL Approvals], [!UICONTROL Baselines], [!UICONTROL Billing Rates], [!UICONTROL Billing Records], [!UICONTROL Expenses], [!UICONTROL Hours],!UICONTROL Bilanciatore Dei Carichi Di Lavoro], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Task]</td> 
+      <td>[!UICONTROL Attività]</td> 
       <td>Nome di un'attività</td> 
-      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Task Details], [!UICONTROL Subtask], [!UICONTROL Issues], [!UICONTROL Hours], [!UICONTROL Approvals], [!UICONTROL Expensors], [!UICONTROL Predecessori]</td> 
+      <td> [!UICONTROL Aggiornamenti], [!UICONTROL Documenti], [!UICONTROL Dettagli Attività], [!UICONTROL Sottoattività], [!UICONTROL Problemi], [!UICONTROL Ore], [!UICONTROL Approvazioni], [!UICONTROL Spese], [!UICONTROL Predecessori]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Problema]</td> 
+      <td>[!UICONTROL Issue]</td> 
       <td>Nome di un problema</td> 
-      <td> [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Issues Details], [!UICONTROL Hours], [!UICONTROL Approvals]</td> 
+      <td> [!UICONTROL Aggiornamenti], [!UICONTROL Documenti], [!UICONTROL Dettagli Problema], [!UICONTROL Ore], [!UICONTROL Approvazioni]</td> 
      </tr> 
      <tr> 
-      <td>Portfolio [!UICONTROL]</td> 
-      <td>Nome di un portafoglio</td> 
-      <td>Progetti, [!UICONTROL Programmi], [!UICONTROL Dettagli Portfolio], [!UICONTROL Portfolio], [!UICONTROL Optimization], [!UICONTROL Documenti], [!UICONTROL Aggiornamenti]</td> 
+      <td>[!UICONTROL Portfoli]</td> 
+      <td>Nome di un portfolio</td> 
+      <td>[!UICONTROL Projects], [!UICONTROL Programs], [!UICONTROL Portfoli Details], [!UICONTROL Portfoli] [!UICONTROL Optimization], [!UICONTROL Documents], [!UICONTROL Updates]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Program]</td> 
@@ -105,14 +108,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td>[!UICONTROL Projects], [!UICONTROL Program Details], [!UICONTROL Updates], [!UICONTROL Documents]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Template]</td> 
+      <td>Modello [!UICONTROL]</td> 
       <td>Nome di un modello di progetto</td> 
-      <td>Attività dei modelli, [!UICONTROL Template Details], [!UICONTROL Template Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Risks], [!UICONTROL Expenses], [!UICONTROL People], [!UICONTROL Approvals], [!UICONTROL Billing Rates], [!UICONTROL Queue Details], Dettagli coda,],],], [!UICONTROL Regole di routing], [!UICONTROL Argomento Coda], [!UICONTROL Gruppo di argomenti]</td> 
+      <td>[!UICONTROL Template Tasks], [!UICONTROL Template Details], [!UICONTROL Updates], [!UICONTROL Documents], [!UICONTROL Risks], [!UICONTROL Expenses], [!UICONTROL People], [!UICONTROL Approvals], [!UICONTROL Billing Rates], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Argomento Coda], [!UICONTROL Argomento]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Template Task]</td> 
+      <td>[!UICONTROL Attività Modello]</td> 
       <td>Nome di un'attività modello</td> 
-      <td>[!UICONTROL Aggiornamenti], [!UICONTROL Documenti], [!UICONTROL Template Task Details], [!UICONTROL Sottoattività], [!UICONTROL Spese], [!UICONTROL Approvazioni], [!UICONTROL Predecessori]</td>
+      <td>[!UICONTROL Aggiornamenti], [!UICONTROL Documenti], [!UICONTROL Dettagli Attività Modello], [!UICONTROL Sottoattività], [!UICONTROL Spese], [!UICONTROL Approvazioni], [!UICONTROL Predecessori]</td>
      </tr>
      <!--
       <tr> 
@@ -122,42 +125,42 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       </tr>
      --> 
      <tr> 
-      <td> [!UICONTROL Record di fatturazione]</td> 
+      <td> [!UICONTROL Fatturazione]</td> 
       <td>Nome di un record di fatturazione per un progetto</td> 
-      <td>[!UICONTROL Dettagli record fatturazione], [!UICONTROL Ore fatturabili], [!UICONTROL Spese fatturabili], [!UICONTROL Entrate fisse]</td> 
+      <td>[!UICONTROL Dettagli record fatturazione], [!UICONTROL Ore fatturabili], [!UICONTROL Spese fatturabili], [!UICONTROL Retribuzioni fisse]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Projects]</td> 
-      <td>Progetti <img src="assets/projects-in-main-menu.png"> nel menu principale <img src="assets/main-menu-icon.png"></td> 
-      <td>[!UICONTROL Projects]</td> 
+      <td>[!UICONTROL Progetti]</td> 
+      <td>Progetti <img src="assets/projects-in-main-menu.png"> nel menu principale [!UICONTROL] <img src="assets/main-menu-icon.png"></td> 
+      <td>[!UICONTROL Progetti]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Requests]</td> 
       <td>Nome di una richiesta</td> 
-      <td>[!UICONTROL Nuova richiesta], [!UICONTROL Richieste inviate], [!UICONTROL Tutte le richieste], [!UICONTROL Bozze]</td> 
+      <td>[!UICONTROL Nuova Richiesta], [!UICONTROL Richieste Inviate], [!UICONTROL Tutte Le Richieste], [!UICONTROL Bozze]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
       <td>Nome di un dashboard</td> 
-      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>NOTA</b>: Se hai creato schede personalizzate per l’area Rapporti utilizzando un modello di layout in [!DNL Adobe Workfront Classic], vengono visualizzati in fondo a questo elenco. Per gli utenti, vengono visualizzati nella parte inferiore del pannello di sinistra nell’area delle dashboard di .</p> </td> 
+      <td>[!UICONTROL I Miei Dashboard], [!UICONTROL Dashboard Condivisi], [!UICONTROL Tutti I Dashboard]<p><b>NOTA</b>: se hai creato schede personalizzate per l’area [!UICONTROL Reports] utilizzando un modello di layout in [!DNL Adobe Workfront Classic], vengono visualizzati in fondo all'elenco. Per gli utenti, vengono visualizzate nella parte inferiore del pannello sinistro nell'area [!UICONTROL Dashboards].</p> </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Scrum Team]</td> 
+      <td>[!UICONTROL Team Scrum]</td> 
       <td>Nome di un team Scrum</td> 
-      <td><p>[!UICONTROL Iterations], [!UICONTROL Current iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Settings]</p> <p><strong>NOTA:</strong> La <strong>[!UICONTROL iterazione corrente]</strong> nel pannello di sinistra viene visualizzato solo quando è presente almeno un'attività o un problema nell'iterazione.</p></td> 
+      <td><p>[!UICONTROL Iterations], [!UICONTROL Current iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Settings]</p> <p><strong>NOTA:</strong> Il <strong>[!UICONTROL Current iteration]</strong> item (elemento) viene visualizzato nel pannello a sinistra solo quando nell’iterazione è presente almeno un’attività o un problema.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Kanban Team]</td> 
       <td>Nome di un team Kanban</td> 
-      <td>[!UICONTROL Workload Balancer], [!UICONTROL Kanban board], [!UICONTROL Backlog], [!UICONTROL Aggiornamenti], [!UICONTROL Team Settings]</td> 
+      <td>[!UICONTROL Bilanciatore dei carichi di lavoro], [!UICONTROL Kanban Board], [!UICONTROL Backlog], [!UICONTROL Updates], [!UICONTROL Team Settings]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Waterfall Team]</td> 
-      <td>Nome di una squadra di cascata</td> 
-      <td>[!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Requests], [!UICONTROL Team Settings]</td> 
+      <td>[!UICONTROL Team Waterfall]</td> 
+      <td>Nome di un team Waterfall</td> 
+      <td>[!UICONTROL Workload Balancer], [!UICONTROL Aggiornamenti], [!UICONTROL Richieste Team], [!UICONTROL Impostazioni Team]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Iteration]</td> 
+      <td>[!UICONTROL Iterazione]</td> 
       <td>Nome di un'iterazione</td> 
       <td>[!UICONTROL Stories], [!UICONTROL Issues], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
@@ -194,27 +197,29 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!NOTE]
    >
-   >Gli ultimi 3 elementi nel **[!UICONTROL Personalizzare ciò che gli utenti visualizzano]** elenco a discesa ([!UICONTROL Elenchi], [!UICONTROL Home e Riepilogo]e [!UICONTROL Branding]) sono per le aree di configurazione diverse dal pannello a sinistra. Per informazioni su di essi, consulta questi articoli:
->   * [Personalizzare filtri, visualizzazioni e gruppi utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [Personalizza [!UICONTROL Pagina principale] e [!UICONTROL Riepilogo] utilizzo di un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Adobe del marchio [!DNL Workfront] utilizzo di un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >Gli ultimi 3 elementi in **[!UICONTROL Personalizzare gli elementi visualizzati dagli utenti]** elenco a discesa ([!UICONTROL Elenchi], [!UICONTROL Home e Riepilogo], e [!UICONTROL Marchio]) sono per la configurazione di aree diverse dal pannello sinistro. Per informazioni su di essi, consulta i seguenti articoli:
+>   >   
+* [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+>* [Personalizza [!UICONTROL Home] e [!UICONTROL Riepilogo] utilizzo di un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+* [Adobe del brand [!DNL Workfront] utilizzo di un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
+1. (Facoltativo) Se desideri aggiungere un elemento del pannello a sinistra collegato a una delle dashboard della tua organizzazione, fai clic su **[!UICONTROL Aggiungi sezione personalizzata]**, digitare a **[!UICONTROL Titolo sezione personalizzato]** per l’elemento, quindi aggiungi il dashboard.
 
-1. (Facoltativo) Se desideri aggiungere un elemento del pannello sinistro che si collega a una delle dashboard della tua organizzazione, fai clic su **[!UICONTROL Aggiungi sezione personalizzata]**, digitare a **[!UICONTROL Titolo sezione personalizzato]** per l’elemento , quindi aggiungi il dashboard.
-
-   Gli elementi del dashboard vengono visualizzati nella parte inferiore del pannello di sinistra. Gli utenti visualizzano il titolo della sezione Personalizzato digitato accanto all’elemento del dashboard quando passano il puntatore del mouse sul pannello di sinistra.
+   Gli elementi del dashboard vengono visualizzati nella parte inferiore del pannello sinistro. Gli utenti visualizzano il titolo della sezione Personalizzata digitato accanto all’elemento del dashboard quando passano il puntatore del mouse sul pannello sinistro.
 
    >[!NOTE]
-   Gli utenti possono aggiungere elementi personalizzati del dashboard al proprio pannello a sinistra. Quando si aggiungono elementi dashboard personalizzati in un modello di layout, gli elementi vengono uniti con i rispettivi senza sovrascriverli o reimpostarli. Questo vale anche se assegni gli utenti a un nuovo modello di layout con elementi dashboard personalizzati. Per informazioni su come gli utenti possono personalizzare il pannello di sinistra, vedi [Creare schede o sezioni personalizzate](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >
+   Gli utenti possono aggiungere elementi del dashboard personalizzati al proprio pannello sinistro. Quando si aggiungono elementi del dashboard personalizzati in un modello di layout, gli elementi vengono uniti ai relativi senza sovrascriverli o reimpostarli. Ciò si verifica anche se si assegnano gli utenti a un nuovo modello di layout con elementi del dashboard personalizzati. Per informazioni su come gli utenti possono personalizzare il pannello sinistro, vedi [Creare schede o sezioni personalizzate](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
    Per informazioni sulle dashboard, consulta [Dashboard](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. Continua a personalizzare il modello di layout.
+1. Continuate a personalizzare il modello di layout.
 
    Oppure
 
-   Al termine della personalizzazione, fai clic su **[!UICONTROL Salva]**.
+   Se hai finito di personalizzare, fai clic su **[!UICONTROL Salva]**.
 
    >[!TIP]
-   Puoi fare clic su [!UICONTROL Salva] in qualsiasi momento per salvare l&#39;avanzamento, quindi continuare a modificare il modello in un secondo momento.
+   >
+   Puoi fare clic su [!UICONTROL Salva] in qualsiasi momento per salvare l’avanzamento, quindi continua a modificare il modello in un secondo momento.

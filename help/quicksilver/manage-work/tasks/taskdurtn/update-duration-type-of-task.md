@@ -2,31 +2,31 @@
 product-area: projects
 navigation-topic: task-duration
 title: Aggiornare il tipo di durata di un'attività
-description: Il tipo di durata di un'attività identifica la relazione tra il numero di risorse assegnate a un'attività, lo sforzo totale e la durata totale dell'attività. Per ulteriori informazioni, vedere Panoramica sulla durata e sul tipo di durata dell’attività.
+description: Il tipo di durata di un'attività identifica la relazione tra il numero di risorse assegnate a un'attività, l'impegno totale e la durata totale dell'attività. Per ulteriori informazioni, vedere Cenni preliminari sulla durata e sul tipo di durata dell'attività.
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 2%
 
 ---
 
 # Aggiornare il tipo di durata di un&#39;attività
 
-Il tipo di durata di un&#39;attività identifica la relazione tra il numero di risorse assegnate a un&#39;attività, lo sforzo totale e la durata totale dell&#39;attività. Per ulteriori informazioni, consulta [Panoramica del tipo di durata e durata dell’attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Il tipo di durata di un&#39;attività identifica la relazione tra il numero di risorse assegnate a un&#39;attività, l&#39;impegno totale e la durata totale dell&#39;attività. Per ulteriori informazioni, consulta [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Requisiti di accesso
 
-Per modificare il tipo di durata di un&#39;attività è necessario disporre dei seguenti elementi:
+Per modificare il tipo di durata di un&#39;attività, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
@@ -34,43 +34,40 @@ Per modificare il tipo di durata di un&#39;attività è necessario disporre dei 
    <td> <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Visualizzare o accedere in modo più rapido ai progetti</p> <p>Modifica accesso alle attività</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Modifica l'accesso alle Attività</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire l’accesso all’attività </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire l’accesso all’attività </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Aggiornare il tipo di durata di un&#39;attività
 
-Oltre ad aggiornare il tipo di durata di un&#39;attività come descritto in questo articolo, è anche possibile aggiornare il tipo di durata durante la modifica di un&#39;attività o durante l&#39;esecuzione di assegnazioni avanzate. Per ulteriori informazioni, consulta:
+Oltre ad aggiornare il Tipo di durata di un&#39;attività come descritto in questo articolo, è anche possibile aggiornare il Tipo di durata quando si modifica un&#39;attività o si effettuano assegnazioni avanzate. Per ulteriori informazioni, consulta:
 
-* [Modifica delle attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
-* [Creazione di assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
+* [Crea assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 
-Per aggiornare il tipo di durata di un&#39;attività:
+Per aggiornare il Tipo di durata di un&#39;attività:
 
-1. Fai clic su **Menu principale** > **Progetti**, quindi fai clic su un progetto per accedervi.
-1. Fai clic sul pulsante **Attività** nel pannello a sinistra .
-1. Fai clic su **Dettagli attività** nel pannello a sinistra, quindi nell’area Panoramica fai clic su **Tipo di durata**.
+1. Clic **Menu principale** > **Progetti**, quindi fai clic su un progetto per accedervi.
+1. Fai clic su **Attività** nel pannello a sinistra .
+1. Clic **Dettagli Attività** nel pannello a sinistra, quindi nell’area Panoramica fai clic su **Tipo di durata**.
 
    ![](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. Seleziona tra le seguenti opzioni
 
-   | Lavoro Calcolato | Per informazioni, consulta [Panoramica sul tipo di durata: Lavoro calcolato](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
+   | Tipo di Durata | Ulteriori informazioni |
    |---|---|
-   | Impegno Aggiuntivo | Per informazioni, consulta [Panoramica sul tipo di durata: Guida allo sforzo](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
-   | Incarico Calcolato | Per informazioni, consulta [Panoramica sul tipo di durata: Assegnazione calcolata](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
-   | Semplice | Per informazioni, consulta [Panoramica sul tipo di durata: Semplice](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
+   | Lavoro Calcolato | Per informazioni, consulta [Panoramica sul tipo di durata: lavoro calcolato](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
+   | Impegno Aggiuntivo | Per informazioni, consulta [Panoramica sul tipo di durata: basata sulle risorse](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
+   | Incarico Calcolato | Per informazioni, consulta [Panoramica sul tipo di durata: assegnazione calcolata](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
+   | Semplice | Per informazioni, consulta [Panoramica sul tipo di durata: semplice](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
-   {style=&quot;table-layout:auto&quot;}
-
-1. Fai clic su **Salva** **Modifiche**.
-
- 
+1. Clic **Salva modifiche**.

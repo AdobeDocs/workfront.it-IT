@@ -5,9 +5,9 @@ title: Glossario di [!DNL Adobe Workfront] terminologia
 description: Il [!DNL Adobe Workfront] il glossario elenca i termini più comunemente utilizzati in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '19551'
+source-wordcount: '19720'
 ht-degree: 0%
 
 ---
@@ -2103,8 +2103,17 @@ Le ore possono avere uno dei seguenti stati in Workfront:
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Allineamento strategico]</td> 
    <td>Misurazione e allineamento degli obiettivi aziendali tra portfolio e programmi.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td><code>[!UICONTROL stretch]</code></td> 
+   <td><p>Viene utilizzato nelle colonne del rapporto quando si utilizza l’interfaccia in modalità testo. </p>
+   <p>Il <code>[!UICONTROL stretch]</code> viene utilizzato per identificare le colonne che occupano spazio aggiuntivo non necessario per la visualizzazione. La larghezza dell’interfaccia utente dell’area di lavoro per un utente tipico è di circa 850 pixel. Ciò significa che se disponi di una vista con quattro colonne (150 pixel ciascuna), la vista occupa 600 di 850 pixel. Nell’interfaccia utente sono presenti 250 pixel aggiuntivi che verranno aggiunti alle colonne per le quali è fornita una percentuale di estensione. </p>
+   <p>L'estensione di una colonna viene applicata quando si utilizza la riga di codice aggiuntiva: <code>[!UICONTROL usewidths=true]</code> per almeno una delle colonne della visualizzazione. 
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Subscribers]</td> 
    <td> <p>Utenti abbonati a progetti, attività o problemi.</p> <p>Quando utilizzi questo campo in un rapporto, viene visualizzato un elenco di abbonati, separati da una virgola.</p> <p>Per ulteriori informazioni, consulta l’articolo <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Iscriviti agli elementi in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
@@ -2304,11 +2313,22 @@ Le ore possono avere uno dei seguenti stati in Workfront:
   <tr> 
    <td>[!UICONTROL Visualizzazioni Quest'Anno]</td> 
    <td>In un elenco di rapporti viene visualizzato il numero di volte in cui il rapporto è stato visualizzato durante l'anno corrente.<br>Per ulteriori informazioni sulle informazioni di utilizzo negli elenchi dei rapporti, consulta l’articolo <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">Visualizza utilizzo report</a>.</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr>
+  <td> <code>[!UICONTROL width]</code>
+  </td>
+<td> In un report, quando si utilizza l'interfaccia [!UICONTROL Text Mode], la riga di codice in cui è possibile specificare la larghezza di ogni colonna in pixel. Workfront fornisce una larghezza consigliata per ogni campo, anche se a seconda del tipo di campo e del formato, potrebbe essere necessario apportare delle modifiche.
+È necessario utilizzare il pulsante aggiuntivo <code>[!UICONTROL usewidths=true]</code> riga di codice per applicare la larghezza specificata per la colonna. 
+  </td>
+
+</tr>
+
+<tr> 
    <td><code>[!UICONTROL work]</code> </td> 
    <td> <p>In un rapporto di progetto, attività o problema, l’istruzione che segue in modalità testo mostra le Ore pianificate del progetto, dell’attività o del problema:</p>
-   <p></p><p></p> 
+   <code><p>valuefield=work</p>
+   <p>valueformat=HTML</p></code> 
    <p>Per informazioni sull'utilizzo della modalità testo, vedere <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Panoramica sulla sintassi della modalità testo</a>. </p> 
    <p><b>SUGGERIMENTO</b> 
    <p>In un report sui problemi, l’aggiunta di uno dei campi [!UICONTROL Planned Hours] (Ore pianificate) aggiunge <code>work </code>al report. </p> </td> 
@@ -2396,7 +2416,10 @@ Le ore possono avere uno dei seguenti stati in Workfront:
   <tr> 
    <td><code>[!UICONTROL workRequiredExpression]</code> </td> 
    <td> <p>In un report di progetto, attività o problema, utilizzando l’istruzione seguente in modalità testo viene visualizzato il numero di ore pianificate del progetto, attività o problema seguito dalla parola "ore":</p>
-   <p></p><p></p>
+   <code>
+   <p>valuefield=workRequiredExpression</p>
+   <p>valueformat=HTML</p>
+   </code>
     <p>Per informazioni sull'utilizzo della modalità testo, vedere <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Panoramica sulla sintassi della modalità testo</a>. </p> </td> 
   </tr> 
  </tbody> 

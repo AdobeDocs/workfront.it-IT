@@ -7,9 +7,9 @@ description: È possibile modificare temporaneamente la larghezza delle colonne 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 >[!IMPORTANT]
 >
 >Se modifichi manualmente la larghezza di una colonna come descritto nella sezione &quot;Modificare temporaneamente la larghezza e l’ordine delle colonne&quot; nell’articolo [Modifica la larghezza e l&#39;ordine delle colonne](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) dopo aver modificato in modo permanente la larghezza della colonna, questa viene mantenuta in base al ridimensionamento manuale e la larghezza della colonna viene aggiornata in base ai passaggi seguenti. Dopo aver cancellato la cache o effettuato l’accesso da un altro browser, puoi visualizzare la colonna in base alla larghezza definita nei passaggi seguenti.
+>
+>Per ulteriori informazioni sulla personalizzazione della larghezza delle colonne quando si utilizza l’interfaccia Text Mode, consulta le definizioni &quot;width&quot; e &quot;stretch&quot; nella sezione [Glossario della terminologia di Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Consente di passare a un elenco di oggetti.
 1. Dalla sezione **Visualizza** menu a discesa, fai clic su **Nuova visualizzazione**.
@@ -79,3 +81,5 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    Per **larghezza** riga, specificare un numero (in pixel) che rappresenti la larghezza della colonna da visualizzare nella visualizzazione.
 
 1. Clic **Salva**, quindi **Salva visualizzazione**.
+
+

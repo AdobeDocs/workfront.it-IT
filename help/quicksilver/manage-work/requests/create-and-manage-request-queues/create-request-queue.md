@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: ddb8f39e3ef400b02b443230f237b6a563d99d5f
+source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '2571'
+source-wordcount: '2597'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ Questo articolo descrive come creare una coda di richieste da un progetto esiste
 ## Creare una coda di richieste
 
 Quando imposti un progetto come Coda richieste, per poter essere visualizzato nell’area Richieste di Workfront lo stato del progetto deve essere Corrente.
+
+>[!TIP]
+>
+>L&#39;amministratore del Workfront o del gruppo potrebbe assegnare l&#39;utente a un modello di layout personalizzato che potrebbe non includere alcune delle sezioni descritte nei passaggi seguenti.
+
 
 Per creare una coda di richieste:
 
