@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 793b1b0db3fcf66782cd25566df5803df955cb0d
+source-git-commit: 20aac191f6bca42610575384c398306e61f59780
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2759'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,17 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
 >
 >La versione 23.3 include l’opzione per spostare l’organizzazione alle versioni mensili. Pertanto, Workfront sta modificando lo schema di numerazione delle versioni in modo da tenere conto delle versioni mensili e trimestrali.
 >
->* Se è attiva la **rilascio rapido (mensile)** track, la versione successiva alla 23.3 sarà **23,8**, nell’agosto 2023.
-> * Se è attiva la **trimestrale** versione, la versione successiva alla 23.3 sarà **23,10**, nell&#39;ottobre 2023.
+>* Se è attiva la **rilascio rapido (mensile)** track, la versione successiva alla 23.3 sarà **23,8**, il 31 agosto 2023.
+> * Se è attiva la **trimestrale** versione, la versione successiva alla 23.3 sarà **23,10**, il 26 ottobre 2023.
 > 
 > I rilasci trimestrali includeranno funzionalità da tre rilasci mensili. Ad esempio, la versione trimestrale 23.10 includerà le funzionalità rilasciate nelle versioni mensili 23.8, 23.9 e 23.10.
 >
+>I rilasci mensili e trimestrali dovrebbero essere disponibili l&#39;ultimo giovedì del mese.
+>
 >| Versione mensile | Versione trimestrale |
 >|----|----|
->| <ul><li>23.8 (agosto 2023)</li><li>23.9 (settembre 2023)</li><li>23.10 (ottobre 2023)</li></ul> | <ul><li>23.10 (ottobre 2023)</li></ul> |
+>| <ul><li>23.8 (31 agosto 2023)</li><li>23.9 (28 settembre 2023)</li><li>23.10 (26 ottobre 2023)</li></ul> | <ul><li>23.10 (Settimana del 26 ottobre 2023)</li></ul> |
 >| <ul><li>23.11 (novembre 2023)</li><li>23.12 (dicembre 2023)</li><li>24.1 (gennaio 2024)</li></ul> | <ul><li>24.1 (gennaio 2024)</li></ul> |
->
->I rilasci mensili e trimestrali dovrebbero essere disponibili l&#39;ultimo giovedì del mese.
 
 ## Miglioramenti di Adobe Workfront
 
