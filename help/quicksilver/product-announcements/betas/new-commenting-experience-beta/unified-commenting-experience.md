@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: ba1450e247bd47b775f3171e722bd4e70773b98e
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
@@ -21,6 +21,15 @@ ht-degree: 1%
 È attualmente in fase di sviluppo un aggiornamento dell’esperienza di aggiunta di commenti in Adobe Workfront. Questo aggiornamento include una nuova interfaccia, nuove funzioni e prestazioni migliorate nella sezione Aggiornamenti di alcuni oggetti selezionati.
 
 La nuova esperienza di aggiunta di commenti diventerà lentamente disponibile per tutti gli oggetti con una sezione Aggiornamenti in Workfront e successivamente si espanderà ad altre applicazioni Adobe Experience Cloud.
+
+<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
+
+For additional resources for the new commenting experience, also see the following articles:
+
+* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
+
+-->
 
 ## Funzioni
 

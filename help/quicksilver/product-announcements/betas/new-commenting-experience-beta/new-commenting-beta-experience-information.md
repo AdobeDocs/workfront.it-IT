@@ -6,7 +6,7 @@ description: Stiamo attualmente rilasciando una nuova esperienza di commento nel
 author: Alina
 feature: Product Announcements
 exl-id: 5909b09d-626e-4294-9048-6db940f45e37
-source-git-commit: f2849f7a36a45a81c528c267d237d312a7089e5d
+source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
 workflow-type: tm+mt
 source-wordcount: '82'
 ht-degree: 0%
@@ -19,3 +19,4 @@ Stiamo attualmente rilasciando una nuova esperienza di commento nella sezione Ag
 
 * [Nuova attività di rilascio esperienza di commento](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
 * [Nuova esperienza di commento](../new-commenting-experience-beta/unified-commenting-experience.md)
+  <!--* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)-->

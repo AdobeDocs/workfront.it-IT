@@ -7,9 +7,9 @@ description: È possibile unire le informazioni visualizzate in più colonne sep
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -54,16 +54,10 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 * È possibile unire due colonne adiacenti e visualizzare le informazioni di ciascuna colonna separate da un&#39;interruzione di riga oppure unire le informazioni in due colonne adiacenti senza separatori tra le informazioni di ciascuna colonna.
 * È possibile unire le informazioni di più colonne applicando la stessa sintassi descritta in questo articolo a una colonna già condivisa e a una adiacente.
-* il
-
-   ```
-   valueformat=HTML
-   ```
-
-   riga obbligatoria in una colonna condivisa. In caso contrario, le colonne non contengono informazioni (saranno vuote) quando il rapporto viene esportato da Adobe Workfront.
+* Il `valueformat=HTML` riga obbligatoria in una colonna condivisa. In caso contrario, le colonne non contengono informazioni (saranno vuote) quando il rapporto viene esportato da Adobe Workfront.
 * La formattazione condizionale potrebbe non essere supportata nelle colonne unite.
 
-   Esistono le seguenti eccezioni:
+  Esistono le seguenti eccezioni:
 
    * Quando si visualizzano le informazioni in Workfront, la formattazione della prima colonna viene mantenuta e la formattazione di tutte le altre colonne viene ignorata se le colonne che compongono una colonna unita hanno una formattazione diversa,.
    * Quando si esporta la visualizzazione in un file PDF, la formattazione condizionale viene applicata alla prima colonna di una colonna unita.
@@ -73,80 +67,47 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 * Se si esporta un elenco con colonne condivise in un formato Excel o delimitato da tabulazioni, queste colonne vengono separate nel file esportato.
 
+* Quando una o entrambe le colonne visualizzano `tile` tipo, nella colonna unita viene automaticamente introdotta un’interruzione di riga forzata. Ad esempio, i campi di testo con formattazione sono `tile` digita i campi. In questo caso, è presente un codice di riga `type=tile` quando si visualizzano le colonne in modalità testo.
+
 ## Unisci dati da due colonne senza interruzione di riga
 
 È possibile unire i dati di più colonne separate per visualizzarli in una colonna senza interruzioni o spazi tra i valori di ciascuna colonna.
 
 >[!TIP]
 >
->Questo approccio è consigliato quando si uniscono due colonne che non possono mai mostrare un valore per lo stesso record contemporaneamente. Ad esempio, in un rapporto Elemento di lavoro, è possibile unire le colonne Nome problema e Nome attività senza un&#39;interruzione di riga tra di esse perché un elemento di lavoro non può mai avere contemporaneamente un nome problema e un nome attività. Un elemento di lavoro può essere un problema o un’attività in Workfront.
+>Questo approccio è consigliato quando si uniscono due colonne che non possono mai mostrare un valore per lo stesso record contemporaneamente. Ad esempio, in un rapporto Elemento di lavoro, è possibile unire le colonne Nome problema e Nome attività senza un&#39;interruzione di riga tra di esse perché un elemento di lavoro non può mai avere contemporaneamente un nome problema e un nome attività. Un elemento di lavoro può essere un problema o un’attività in Workfront.
 
 Per eseguire questa operazione:
 
 1. Utilizzando la modalità testo per una visualizzazione, aggiungere il testo seguente alla prima colonna che si desidera unire:
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
 
-   Quando si uniscono le prime due colonne di un elenco o di un report, Workfront precede ogni riga di testo contenente informazioni sull&#39;oggetto nella prima colonna con
+   Quando si uniscono le prime due colonne di un elenco o di un report, Workfront precede ogni riga di testo contenente informazioni sull&#39;oggetto nella prima colonna con `column.0.` e le righe di testo che contengono informazioni sulla seconda colonna con `column.1.` .
 
-   ```
-   column.0.
-   ```
-
-   e le righe di testo che contengono informazioni sulla seconda colonna con
-
-   ```
-   column.1.
-   ```
-
-   .\
-   È necessario anteporre al numero di colonna della prima colonna il numero di tale colonna. Il conteggio delle colonne inizia sempre con la colonna più a sinistra dell’elenco o del rapporto etichettata come
-
-   ```
-   column.0.
-   ```
-
-   .
+   È necessario anteporre al numero di colonna della prima colonna il numero di tale colonna. Il conteggio delle colonne inizia sempre con la colonna più a sinistra dell’elenco o del rapporto etichettata come `column.0.`.
 
    Se condividi più colonne, assicurati di aggiungere il numero di colonna nelle righe di codice che contengono le informazioni di condivisione per ciascuna colonna.
 
    **Esempio:** Di seguito è riportato il codice in modalità testo per una colonna unita che contiene tre colonne separate, a partire dalla seconda colonna dell&#39;elenco. I valori uniti sono Nome progetto, Data inizio pianificata e Nome del proprietario del progetto e non vi è alcuna interruzione tra i tre valori:
 
-   ```
-   column.1.valuefield=name
-   ```
+   `column.1.valuefield=name`
 
-   ```
-   column.1.valueformat=HTML
-   ```
+   `column.1.valueformat=HTML`
 
-   ```
-   column.1.sharecol=true
-   ```
+   `column.1.sharecol=true`
 
-   ```
-   column.2.valuefield=plannedStartDate
-   ```
+   `column.2.valuefield=plannedStartDate`
 
-   ```
-   column.2.valueformat=atDate
-   ```
+   `column.2.valueformat=atDate`
 
-   ```
-   column.2.sharecol=true
-   ```
+   `column.2.sharecol=true`
 
-   ```
-   column.3.valuefield=owner:name
-   ```
+   `column.3.valuefield=owner:name`
 
-   ```
-   column.3.valueformat=HTML
-   ```
+   `column.3.valueformat=HTML`
 
-   <pre><img src="assets/shared-column-no-line-breaks-350x142.png" style="width: 350;height: 142;"></pre>
+![](assets/shared-column-no-line-breaks-350x142.png)
 
 1. Clic **Salva**, quindi **Salva visualizzazione**.
 
@@ -157,140 +118,74 @@ Per unire i dati di più colonne in modo da visualizzarli in una colonna comune 
 1. Aggiungere una terza colonna tra le due colonne che si desidera unire.
 
    >[!TIP]
-   * Le colonne che si desidera unire devono essere adiacenti.
-   * Fare clic sulla prima colonna che si desidera unire.
-
+   >
+   >* Le colonne che si desidera unire devono essere adiacenti.
+   >* Fare clic sulla prima colonna che si desidera unire.
 
 1. Clic **Passa alla modalità testo** e aggiungi il seguente codice nella colonna centrale aggiunta al passaggio 1:
 
-   ```
-   value=<br>
-   ```
+   `value=<br>`
 
-   ```
-   valueformat=HTML
-   ```
+   `valueformat=HTML`
 
-   ```
-   width=1
-   ```
+   `width=1`
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
+
 
 1. Aggiungi il testo seguente alla prima colonna:
 
-   ```
-   sharecol=true
-   ```
+   `sharecol=true`
 
-   Quando si uniscono le prime due colonne di un elenco o di un report, Workfront precede ogni riga di testo contenente informazioni sull&#39;oggetto nella prima colonna con
+   Quando si uniscono le prime due colonne di un elenco o di un report, Workfront precede ogni riga di testo contenente informazioni sull&#39;oggetto nella prima colonna con `column.0.`, la colonna con le informazioni di condivisione `column.1.`e le righe di testo che contengono informazioni sulla seconda colonna con `column.2.`.
 
-   ```
-   column.0.
-   ```
-
-   , la colonna con le informazioni di condivisione
-
-   ```
-   column.1.
-   ```
-
-   e le righe di testo che contengono informazioni sulla seconda colonna con
-
-   ```
-   column.2.
-   ```
-
-   . Se la colonna combinata si trova al centro della vista, le colonne vengono numerate in base alla loro posizione nella vista. Il conteggio delle colonne inizia sempre con la colonna più a sinistra dell’elenco o del rapporto etichettata come
-
-   ```
-   column.0.
-   ```
-
-   .
+   Se la colonna combinata si trova al centro della vista, le colonne vengono numerate in base alla loro posizione nella vista. Il conteggio delle colonne inizia sempre con la colonna più a sinistra dell’elenco o del rapporto etichettata come `column.0.`.
 
    Se condividi più di una colonna, assicurati di aggiungere il numero della colonna nelle righe di codice che contengono le informazioni di condivisione.
 
    **Esempio:** Di seguito è riportato il codice in modalità testo per una colonna condivisa che contiene Nome progetto, Data inizio pianificata e Nome del proprietario del progetto con un&#39;interruzione di riga. La colonna condivisa è la seconda colonna di una visualizzazione di progetto.
 
-   ```
-   column.1.displayname=Project_StartDate_Owner
-   ```
 
-   ```
-   column.1.sharecol=true
-   ```
+   `column.1.displayname=Project_StartDate_Owner`
 
-   ```
-   column.1.textmode=true
-   ```
+   `column.1.sharecol=true`
 
-   ```
-   column.1.valuefield=name
-   ```
+   `column.1.textmode=true`
 
-   ```
-   column.1.valueformat=HTML
-   ```
+   `column.1.valuefield=name`
 
-   ```
-   column.2.value=<br>
-   ```
+   `column.1.valueformat=HTML`
 
-   ```
-   column.2.width=1
-   ```
+   `column.2.value=<br>`
 
-   ```
-   column.2.valueformat=HTML
-   ```
+   `column.2.width=1`
 
-   ```
-   column.2.sharecol=true
-   ```
+   `column.2.valueformat=HTML`
 
-   ```
-   column.3.valuefield=plannedStartDate
-   ```
+   `column.2.sharecol=true`
 
-   ```
-   column.3.valueformat=atDate
-   ```
+   `column.3.valuefield=plannedStartDate`
 
-   ```
-   column.3.sharecol=true
-   ```
+   `column.3.valueformat=atDate`
 
-   ```
-   column.4.value=<br>
-   ```
+   `column.3.sharecol=true`
 
-   ```
-   column.4.width=1
-   ```
+   `column.4.value=<br>`
 
-   ```
-   column.4.valueformat=HTML
-   ```
+   `column.4.width=1`
 
-   ```
-   column.4.sharecol=true
-   ```
+   `column.4.valueformat=HTML`
 
-   ```
-   column.5.textmode=true
-   ```
+   `column.4.sharecol=true`
 
-   ```
-   column.5.valuefield=owner:name
-   ```
+   `column.5.textmode=true`
 
-   ```
-   column.5.valueformat=HTML
-   ```
+   `column.5.valuefield=owner:name`
 
-   <pre><img src="assets/shared-column-with-line-breaks-350x199.png" style="width: 350;height: 199;"></pre>
+   `column.5.valueformat=HTML`
+
+
+   ![](assets/shared-column-with-line-breaks-350x199.png)
+
 
 1. Clic **Salva**, quindi **Salva visualizzazione**.
