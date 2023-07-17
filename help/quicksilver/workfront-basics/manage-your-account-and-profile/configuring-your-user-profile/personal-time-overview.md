@@ -7,9 +7,9 @@ description: Adobe Workfront non è progettato per replicare o sostituire i sist
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -62,11 +62,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Configurare il tempo libero personale in [!DNL Workfront]
 
-1. {#step1-click-profile-pic}
-
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, fai clic sul nome utente accanto all’immagine del profilo. Oppure, se disponibile, fai clic sull’immagine del tuo profilo nell’area di navigazione superiore, quindi fai clic su **[!UICONTROL Profilo Workfront]**.
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Indisponibilità]**.
 1. Seleziona la data desiderata per il tuo tempo libero personale.
-1. Seleziona **[!UICONTROL Tutto il giorno]**, se si sta prendendo un giorno intero di ferie.\
+1. Seleziona **[!UICONTROL Tutto il giorno]**, se sta prendendo un giorno intero di ferie.\
    Lascia deselezionata questa opzione se sta prendendo meno di un giorno intero di ferie e indica l’ora di inizio e di fine del periodo di ferie.
 
 1. Fai clic su **[!UICONTROL Salva]**.\

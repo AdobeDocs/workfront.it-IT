@@ -6,9 +6,9 @@ description: Il tuo [!DNL Adobe Workfront] Il profilo contiene informazioni su d
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
 workflow-type: tm+mt
-source-wordcount: '3208'
+source-wordcount: '3248'
 ht-degree: 1%
 
 ---
@@ -196,8 +196,7 @@ Nella seguente griglia sono illustrate le sezioni [!UICONTROL Le mie impostazion
 
 ## Configurazione di [!UICONTROL Le mie impostazioni] area
 
-1. {#step1-click-profile-pic}
-
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, fai clic sul nome utente accanto all’immagine del profilo. Oppure, se disponibile, fai clic sull’immagine del tuo profilo nell’area di navigazione superiore, quindi fai clic su **[!UICONTROL Profilo Workfront]**.
 1. Fai clic su **[!UICONTROL Altro]** menu ![](assets/more-icon.png), quindi fai clic su **[!UICONTROL Modifica]**.
 
 1. A seconda del livello di accesso, puoi aggiornare le sezioni seguenti:
