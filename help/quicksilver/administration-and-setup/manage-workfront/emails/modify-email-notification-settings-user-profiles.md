@@ -1,28 +1,28 @@
 ---
 user-type: administrator
 product-area: system-administration
-keywords: modificare,e-mail,notifica,impostazioni,bulk,modifica in serie,configurare,più,utenti
+keywords: modifica,e-mail,notifica,impostazioni,in blocco,modifica in blocco,configura,più,utenti
 navigation-topic: emails-administration
-title: Modificare le impostazioni di notifica e-mail nei profili degli utenti
-description: Se sei un amministratore di Adobe Workfront o disponi di un livello di accesso Planner che consente di modificare le impostazioni di altri utenti, puoi configurare le impostazioni di notifica per più utenti contemporaneamente. Ciò include specificare se gli utenti ricevono notifiche mentre si verificano eventi o in un’e-mail digest giornaliera, come descritto nelle notifiche di Adobe Workfront. Per informazioni sul livello di accesso necessario per modificare gli utenti, consulta Concedere l’accesso agli utenti.
+title: Modificare le impostazioni delle notifiche e-mail nei profili degli utenti
+description: Se sei un amministratore di Adobe Workfront o hai un livello di accesso alla Pianificazione che ti consente di modificare le impostazioni di altri utenti, puoi configurare le impostazioni di notifica per più utenti contemporaneamente. Ciò include specificare se gli utenti ricevono le notifiche quando si verificano degli eventi, oppure in un’e-mail di riepilogo giornaliera, come descritto in Notifiche di Adobe Workfront. Per informazioni sul livello di accesso necessario per modificare gli utenti, consulta Concedere l’accesso agli utenti.
 author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
 
-# Modificare le impostazioni di notifica e-mail nei profili degli utenti
+# Modificare le impostazioni delle notifiche e-mail nei profili degli utenti
 
-Se sei un amministratore di Adobe Workfront o disponi di un livello di accesso Planner che consente di modificare le impostazioni di altri utenti, puoi configurare le impostazioni di notifica per più utenti contemporaneamente. Ciò include specificare se gli utenti ricevono notifiche mentre si verificano eventi, o in un’e-mail digest giornaliera, come descritto in [Notifiche Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md). Per informazioni sul livello di accesso necessario per modificare gli utenti, consulta [Concedere l’accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Se sei un amministratore di Adobe Workfront o hai un livello di accesso alla Pianificazione che ti consente di modificare le impostazioni di altri utenti, puoi configurare le impostazioni di notifica per più utenti contemporaneamente. Ciò include specificare se gli utenti ricevono le notifiche quando gli eventi si verificano, oppure in un’e-mail di riepilogo giornaliera, come descritto in [Notifiche Adobe Workfront](../../../workfront-basics/using-notifications/wf-notifications.md). Per informazioni sul livello di accesso necessario per modificare gli utenti, consulta [Concedere l’accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-Quando configuri le impostazioni di notifica in blocco, puoi modificare solo le impostazioni comuni agli utenti selezionati.
+Quando si configurano le impostazioni di notifica in blocco, è possibile modificare solo le impostazioni comuni agli utenti selezionati.
 
-Puoi anche configurare le notifiche e-mail per un utente alla volta. Per ulteriori informazioni, consulta [Attivare o disattivare le notifiche degli eventi personali](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Puoi anche configurare le notifiche e-mail per un utente alla volta, incluso il tuo profilo. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Requisiti di accesso
 
@@ -33,7 +33,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
@@ -43,27 +43,27 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano o tipo di licenza hai, contatta il tuo amministratore Workfront.
+&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Modificare le impostazioni di notifica e-mail di più utenti in blocco
+## Modificare le impostazioni delle notifiche e-mail di più utenti in blocco
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png). Seleziona gli utenti, quindi fai clic su **Modifica**.
-1. In **Modifica persona** casella visualizzata, fai clic su **Notifiche**.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png). Seleziona gli utenti, quindi fai clic su **Modifica**.
+1. In **Modifica persona** visualizzata, fare clic su **Notifiche**.
 
-1. Espandi una categoria per visualizzare le impostazioni di notifica relative a tale categoria.
+1. Espandere una categoria per visualizzare le impostazioni di notifica relative a tale categoria.
 
-   Se è selezionato almeno un utente in cui le notifiche non corrispondono alle notifiche degli altri utenti selezionati, la casella di controllo della categoria relativa a tale notifica contiene una riga orizzontale ![](assets/straight-line-instead-of-checkmark.jpg) invece di un segno di spunta.
+   Se è selezionato almeno un utente le cui notifiche non corrispondono a quelle degli altri utenti selezionati, la casella di controllo Categoria relativa a tale notifica contiene una riga orizzontale ![](assets/straight-line-instead-of-checkmark.jpg) invece di un segno di spunta.
 
-1. Fai clic su tutte le notifiche che desideri che gli utenti ricevano quotidianamente o istantaneamente, oppure cancella tutte le notifiche che desideri che smettano di ricevere.
+1. Fai clic sulle notifiche che desideri che gli utenti ricevano quotidianamente o istantaneamente, oppure cancella le notifiche che desideri che gli utenti smettano di ricevere.
 
-   Per **Comunicazione** categoria , puoi selezionare singole notifiche solo per la consegna istantanea. Devi selezionare tutte le notifiche da consegnare in un riepilogo giornaliero.
+   Per **Comunicazione** categoria, puoi selezionare singole notifiche solo per la consegna immediata. Devi selezionare tutte le notifiche da consegnare in un riepilogo giornaliero.
 
-   Quando modifichi un’impostazione di notifica, l’etichetta **Modificato** viene visualizzata per tale impostazione di notifica, per informarti che l’impostazione di notifica è stata modificata.
+   Quando modifichi un’impostazione di notifica, l’etichetta **Modificato** per l&#39;impostazione di notifica, per comunicare che l&#39;impostazione di notifica è stata modificata.
 
-1. Se hai selezionato le notifiche da inviare come riepilogo giornaliero, seleziona l’ora del giorno in cui desideri che il digest venga consegnato nella parte superiore della **Notifiche** nella sezione **Digest giornaliero e-mail dopo** menu.
+1. Se hai selezionato le notifiche da inviare come riepilogo giornaliero, seleziona l’ora del giorno in cui desideri che il riepilogo venga consegnato all’inizio del **Notifiche** sezione nella sezione **Invia digest tramite e-mail ogni giorno dopo** menu.
 
-   Dopo aver selezionato un orario di consegna, la **Digest giornaliero e-mail dopo** viene visualizzata con una cornice arancione per indicare che è stata modificata l’ora della consegna.
+   Dopo aver selezionato un orario di consegna, il **Invia digest tramite e-mail ogni giorno dopo** viene visualizzata con una cornice arancione per indicare che l’ora della consegna è stata modificata.
 
-   Il riepilogo giornaliero include eventi che soddisfano i criteri delle notifiche 24 ore prima dell’ora selezionata. Gli utenti ricevono un’e-mail digest giornaliera per ogni tipo di notifica.
+   Il riepilogo giornaliero include gli eventi che soddisfano i criteri delle notifiche 24 ore prima dell’ora selezionata. Gli utenti ricevono un’e-mail di riepilogo giornaliero per ogni tipo di notifica.
 
-   Il riepilogo giornaliero potrebbe arrivare dopo il tempo selezionato, a seconda del numero di e-mail che vengono messe in coda per la consegna nel sistema. L&#39;ora indicata è l&#39;ora locale specificata nelle impostazioni del browser.
+   Il riepilogo giornaliero può arrivare dopo l’orario selezionato, a seconda di quante e-mail sono in coda per la consegna nel sistema. L’ora indicata corrisponde all’ora locale specificata nelle impostazioni del browser.

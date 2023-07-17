@@ -8,9 +8,9 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 94b07085-8e3d-4137-9820-38aaa257a3ed
-source-git-commit: 730932f6c8d4658273dd943e464a038828d288e9
+source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
 workflow-type: tm+mt
-source-wordcount: '80'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,11 @@ ht-degree: 0%
 
 In qualità di amministratore di Adobe Workfront, puoi configurare le notifiche degli eventi, le notifiche dei promemoria e i modelli e-mail per i tuoi utenti.
 
-* Per informazioni sulla configurazione delle notifiche degli eventi, vedi [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-* Per informazioni sulla configurazione delle notifiche dei promemoria, vedi [Impostare le notifiche dei promemoria](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+* Per informazioni sulla configurazione delle notifiche degli eventi, consulta [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* Per informazioni sulla configurazione delle notifiche di promemoria, vedi [Configurare le notifiche di promemoria](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 * Per informazioni sulla configurazione dei modelli e-mail, consulta [Configurare i modelli e-mail](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
+
+Questi collegamenti consentono di passare all’area utente degli articoli della guida per le notifiche Adobe Workfront.
+
+* Per informazioni generali sulle notifiche, consulta [Notifiche Adobe Workfront](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md)
+* Per informazioni sulla configurazione delle notifiche nel profilo, consulta [Attiva o disattiva le notifiche degli eventi](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
