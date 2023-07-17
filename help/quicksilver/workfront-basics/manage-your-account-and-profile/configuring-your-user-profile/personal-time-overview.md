@@ -7,9 +7,9 @@ description: Adobe Workfront non è progettato per replicare o sostituire i sist
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 1079f85651ec691280e2cccefaa6e48e0b9d89f8
+source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Gli strumenti di gestione delle risorse utilizzano anche il proprio tempo libero
 >* [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## Requisiti di accesso
 
@@ -63,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Configurare il tempo libero personale in [!DNL Workfront]
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic sul nome utente accanto all’immagine del profilo.
+1. {#step1-click-profile-pic}
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Indisponibilità]**.
 1. Seleziona la data desiderata per il tuo tempo libero personale.
@@ -71,4 +70,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Lascia deselezionata questa opzione se sta prendendo meno di un giorno intero di ferie e indica l’ora di inizio e di fine del periodo di ferie.
 
 1. Fai clic su **[!UICONTROL Salva]**.\
-   Il tempo libero è ora visibile in [!DNL Workfront] in strumenti di pianificazione come Griglia risorse. Quando ti viene assegnato un lavoro durante questo periodo, viene visualizzata una descrizione comando per informare l’utente che hai pianificato un’indisponibilità.
+   Il tempo libero è ora visibile in [!DNL Workfront] negli strumenti di gestione delle risorse, come la pianificazione delle risorse e il bilanciatore dei carichi di lavoro. Quando ti viene assegnato un lavoro durante questo periodo, viene visualizzata una descrizione comando per informare l’utente che hai pianificato un’indisponibilità.
