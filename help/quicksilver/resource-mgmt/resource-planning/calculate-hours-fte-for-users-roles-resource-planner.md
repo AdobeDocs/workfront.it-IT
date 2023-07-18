@@ -7,7 +7,7 @@ description: Panoramica del calcolo delle ore e dell'FTE per utenti e ruoli nell
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -68,21 +68,22 @@ In base alla configurazione di questa impostazione, la disponibilità degli uten
      Per ulteriori informazioni sulle pianificazioni, inclusa la pianificazione predefinita, vedere [Creare una pianificazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
    * Il **FTE disponibile** per l&#39;utente nella Programmazione delle risorse è uguale all&#39;FTE dell&#39;utente specificato nelle impostazioni utente.
-Ad esempio, se l’FTE dell’utente è 0,5 nelle impostazioni utente, l’FTE disponibile dell’utente è 0,5 nella Programmazione delle risorse. Per ulteriori informazioni sul valore dell’FTE utente visualizzato nelle impostazioni utente, consulta [Modificare il profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+     Ad esempio, se l’FTE dell’utente è 0,5 nelle impostazioni utente, l’FTE disponibile dell’utente è 0,5 nella Programmazione delle risorse. Per ulteriori informazioni sul valore dell’FTE utente visualizzato nelle impostazioni utente, consulta [Modificare il profilo di un utente](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **La pianificazione dell&#39;utente**: la Pianificazione dell’utente viene utilizzata per determinare la disponibilità dell’utente nella Programmazione delle risorse. Il valore dell&#39;FTE utente viene ignorato. In questo caso:
 
    * Il **Ore disponibili** in Pianificazione risorse sono le stesse ore della Pianificazione dell&#39;utente.
 
-  Ad esempio, se la pianificazione dell&#39;utente dispone di 40 ore settimanali per lavorare, l&#39;utente è disponibile a lavorare per 40 ore settimanali nella pianificazione risorse.
+     Ad esempio, se la pianificazione dell&#39;utente dispone di 40 ore settimanali per lavorare, l&#39;utente è disponibile a lavorare per 40 ore settimanali nella pianificazione risorse.
 
    * Il **FTE disponibile** in Pianificazione risorse viene calcolato con la formula seguente:
 
-  `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-  Ad esempio, se la pianificazione dell’utente ha 20 ore disponibili per lavorare e la pianificazione predefinita in Workfront ha 40 ore disponibili per lavorare, l’FTE dell’utente è 0,5.
+     Ad esempio, se la pianificazione dell’utente ha 20 ore disponibili per lavorare e la pianificazione predefinita in Workfront ha 40 ore disponibili per lavorare, l’FTE dell’utente è 0,5.
 
-  Per ulteriori informazioni sulle pianificazioni, inclusa la pianificazione predefinita, vedere [Creare una pianificazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+     Per ulteriori informazioni sulle pianificazioni, inclusa la pianificazione predefinita, vedere [Creare una pianificazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
