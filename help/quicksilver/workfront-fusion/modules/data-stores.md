@@ -8,9 +8,9 @@ description: Un archivio dati, simile a un database o a una semplice tabella, pu
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -111,7 +111,7 @@ Prima di poter utilizzare un archivio dati in un modulo, è necessario creare l�
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL Dimensioni archiviazione dati in MB]</p> </td> 
-      <td> <p>Alloca le dimensioni per l’archivio dati dal totale dell’archiviazione interna dei dati.</p> <p>Nota: l'importo prenotato può essere modificato in qualsiasi momento.</p>  </td> 
+      <td> <p>Alloca le dimensioni per l’archivio dati dal totale dell’archiviazione interna dei dati.</p> <p> Il valore predefinito è 10 MB. Se hai meno di 10 MB di spazio non allocato per l'archivio dati dall'assegnazione di 500 MB, la dimensione predefinita è la quantità di spazio non allocato.  <p>Nota: l'importo prenotato può essere modificato in qualsiasi momento.</p>  </td> 
      </tr> 
     </tbody> 
    </table>
