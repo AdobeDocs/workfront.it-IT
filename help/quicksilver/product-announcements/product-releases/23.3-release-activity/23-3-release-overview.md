@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 20aac191f6bca42610575384c398306e61f59780
+source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
 workflow-type: tm+mt
-source-wordcount: '2759'
+source-wordcount: '2657'
 ht-degree: 0%
 
 ---
@@ -418,22 +418,22 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                         </ul>
                     </td>
                 </tr>                
-                <tr>
+ <!--               <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Esperienza migliorata durante lo spostamento di un documento in una cartella collegata tramite trascinamento</a></p> 
-                        <p>Abbiamo aggiunto un po’ di trasparenza al processo di trascinamento e rilascio di un documento in una cartella collegata. Ora il documento spostato in una cartella collegata rimane nell'elenco dei documenti fino a quando non è stato completamente spostato. Le opzioni del documento sono disattivate, ma è comunque possibile aprire il documento per la visualizzazione durante lo spostamento. Una volta completato il trasferimento, il documento scompare dall'elenco dei documenti, in quanto si trova completamente nella cartella collegata. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved experience when moving a document to a linked folder with drag and drop</a></p> 
+                        <p>We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder. </p>
                     </td>
-                    <td><p><b>Disponibile in queste date:</b></p>
+                    <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 7 giugno 2023</p>
+                                <p>Preview release: June 7, 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Versione di produzione: 15 giugno 2023</span></p>
+                                <p><span class="preview">Production release: June 15, 2023</span></p>
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Creare automaticamente cartelle collegate in Adobe Experience Manager Assets durante la creazione di un progetto</a></p>
