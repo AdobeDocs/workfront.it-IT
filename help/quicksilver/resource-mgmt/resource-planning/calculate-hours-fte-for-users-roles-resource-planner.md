@@ -7,7 +7,7 @@ description: Panoramica del calcolo delle ore e dell'FTE per utenti e ruoli nell
 author: Alina
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: 243d177857e37e4ea406b112d667b946e7e7e8a8
+source-git-commit: de015496d4cb960b10368e4dfa0f7abec1b7d989
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 1%
@@ -115,7 +115,7 @@ Per questo esempio, usiamo i seguenti numeri:
 
 * Una pianificazione predefinita di sistema di 40 ore
 * Una pianificazione utente di 20 ore
-* Un FTE utente di 0,75
+* Un FTE utente di 0,8
 
 | Metodo di calcolo FTE (impostazione di sistema) | **Ore dalla pianificazione dell&#39;utente** | **Ore dalla pianificazione predefinita** | **Campo FTE utente** | **Ore disponibili nella pianificazione risorse** | **FTE disponibile nella pianificazione risorse** |
 |---|---|---|---|---|---|
