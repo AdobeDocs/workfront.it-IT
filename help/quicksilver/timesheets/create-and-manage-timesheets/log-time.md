@@ -6,9 +6,9 @@ description: È possibile registrare il tempo per gli elementi di lavoro in &nbs
 author: Alina
 feature: Timesheets
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4116cd1610cc5b8de0407a96a4bc67532d78a25e
+source-git-commit: 38a7329ebac4051439601ddd8ad2a89ee24c7971
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3337'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 È possibile registrare il tempo degli elementi di lavoro in Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L&#39;ora registrata viene visualizzata nella scheda orario.
 
@@ -361,13 +361,13 @@ Puoi registrare l’ora specifica di un progetto su un progetto, un’attività 
 
 #### Sezione aggiornamenti{#updates-section}
 
-<!--remove the note below when we can log time for projects and tasks in production with the 23.3 release. Also, update the screen shot for the Enter Hours box-->
+<!--remove the note below when the -->
 
 >[!NOTE]
 >
-> È possibile registrare il tempo per i problemi, <span class="preview">progetti e attività</span> quando si abilita la nuova esperienza di creazione di commenti Beta nella sezione Aggiornamenti.
+> La sezione Aggiornamenti corrente e quella nuova presentano alcune lievi differenze nell’aspetto dell’interfaccia utente. Le informazioni in questa sezione fanno riferimento alla funzionalità visualizzata nella nuova esperienza di commento.
 >
->Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Per ulteriori informazioni sulla nuova sezione Aggiornamenti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attività o un problema, è necessario disporre dei seguenti elementi:
 
@@ -383,9 +383,9 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
 
 1. Vai a un progetto, attività o problema.
 1. Nel pannello a sinistra, seleziona **Aggiornamenti**.
-1. Clic **Tempo di connessione**.
+1. Clic **Tempo di connessione**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   <span class="preview">Viene visualizzata la finestra di dialogo Log Time (Tempo registro). </span>
+   Viene visualizzata la finestra di dialogo Log Time (Tempo registro).
 
    >[!TIP]
    >
@@ -393,7 +393,7 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
    >   
    >   Nell&#39;angolo superiore destro della casella Enter Days è indicato il numero di ore incluse in un giorno.
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. Specifica le seguenti informazioni:
 

@@ -7,16 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: ba1450e247bd47b775f3171e722bd4e70773b98e
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
 
 # Nuova esperienza di commento
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile per tutti i clienti solo nell’ambiente di anteprima.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 È attualmente in fase di sviluppo un aggiornamento dell’esperienza di aggiunta di commenti in Adobe Workfront. Questo aggiornamento include una nuova interfaccia, nuove funzioni e prestazioni migliorate nella sezione Aggiornamenti di alcuni oggetti selezionati.
 
@@ -74,9 +74,9 @@ Le seguenti funzioni sono state rimosse dalla nuova esperienza:
 >
 >Puoi visualizzare i commenti e gli aggiornamenti di sistema su questi oggetti prima di giugno 2022 quando visualizzi la sezione Aggiornamenti nell’esperienza corrente:
 >* Problemi
->* <span class="preview">Progetti</span>
->* <span class="preview">Attività</span>
->* <span class="preview">Documenti</span>
+>* Progetti
+>* Attività
+>* Documenti
 
 La tabella seguente illustra le funzioni che saranno disponibili nella nuova esperienza di commento e la loro disponibilità nelle aree in cui sono supportate:
 
@@ -159,7 +159,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td>✓ 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -215,7 +215,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -231,7 +231,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -330,7 +330,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span>
+   <td>✓
    </td>
    <td> 
    </td>
@@ -372,7 +372,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td>✓ 
    </td>
-   <td><span class="preview">✓</span> 
+   <td>✓
    </td>
    <td> 
    </td>
@@ -491,7 +491,7 @@ La nuova esperienza di aggiunta di commenti è attualmente supportata per i segu
 
 * Quando si abilita l’esperienza Beta nella sezione Aggiornamenti:
 
-   * Problemi, <span class="preview">progetti, attività e documenti</span>
+   * Problemi, progetti, attività e documenti
 
   Per ulteriori informazioni sulla gestione degli aggiornamenti per gli oggetti Workfront, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

@@ -7,10 +7,10 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 38f46324219f297523ff262b083f41a2dd388579
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 3%
+source-wordcount: '1116'
+ht-degree: 4%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 3%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile per tutti i clienti solo nell’ambiente di anteprima.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 3%
 >Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puoi accedere alla nuova esperienza per i seguenti oggetti:
-> * Problemi, <span class="preview">progetti, attività e documenti</span>.
+> * Problemi, progetti, attività e documenti.
 >
 >     Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.
 >
@@ -115,13 +115,13 @@ Al momento, è possibile aggiungere commenti e rispondere agli aggiornamenti uti
      <li>Schede nell'area Schede*</li>
       Questa è l'unica esperienza per obiettivi e carte.
      </li> 
-     <li><span class="preview">Progetti</span></li>
+     <li>Progetti</li>
     </ul> </td> 
    <td> 
     <ul> 
      <li>Problemi</li> 
-     <li><span class="preview">Attività</span></li>
-     <li><span class="preview">Documenti</span></li>
+     <li>Attività</li>
+     <li>Documenti</li>
      </ul> </td> 
   </tr> 
  </tbody> 
@@ -137,11 +137,11 @@ Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggior
 
 >[!NOTE]
 >
->Quando si abilita la nuova esperienza di commento beta, i commenti vengono visualizzati sui seguenti oggetti di livello superiore:
+>Quando abilitate la nuova esperienza di commento, i commenti vengono visualizzati sui seguenti oggetti di rango superiore:
 >
 >* Problemi
->* <span class="preview">Progetti</span>
->* <span class="preview">Attività</span>
+>* Progetti
+>* Attività
 >
 >Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -238,11 +238,13 @@ Per informazioni, consulta [Accedi come altro utente](../../administration-and-s
 
 Eventuali commenti formulati per conto di un altro utente sono indicati nel commento.
 
+<!--might need to update this note when the new commenting experience will be the only experience; also - how will this affect the areas that will keep the old experience, like Iterations?-->
+
 >[!NOTE]
 >
-><span class="preview">Quando si utilizza la nuova esperienza di commento, il commento viene aggiunto come utente che ha effettuato l’accesso come altro utente e non vi è alcuna indicazione che stia aggiungendo un commento per conto di un altro utente.
+>Quando si utilizza la nuova esperienza di commento, il commento viene aggiunto come utente che ha effettuato l’accesso come altro utente e non vi è alcuna indicazione che stia aggiungendo un commento per conto di un altro utente.
 >
->Ad esempio, se un amministratore di Workfront effettua l’accesso come altro utente, l’utente associato al commento è l’amministratore di Workfront. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>Ad esempio, se un amministratore di Workfront effettua l’accesso come altro utente, l’utente associato al commento è l’amministratore di Workfront. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 Un amministratore gruppo può aggiungere commenti per conto di un altro utente, ma non può eliminarli. Solo un amministratore di Adobe Workfront può eliminare un commento fatto per conto di un altro utente.

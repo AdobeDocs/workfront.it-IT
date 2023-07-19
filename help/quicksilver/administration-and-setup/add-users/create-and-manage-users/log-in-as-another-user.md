@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 82f42d81970c7572f43519423ec3a8c0889aaff4
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,8 @@ ht-degree: 0%
 # Accedi come altro utente
 
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile per tutti gli utenti solo nell’ambiente di anteprima.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
+
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
@@ -147,11 +148,13 @@ Quando accedi a Workfront come altro utente ed esegui un’azione, Workfront ind
 
 Ad esempio, se si commenta un elemento durante l&#39;accesso come altro utente, un&#39;istruzione indica che il commento è stato creato dall&#39;utente per conto dell&#39;utente.
 
+<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+
 >[!NOTE]
 >
-><span class="preview">Quando si utilizza la nuova esperienza di commento, il commento viene aggiunto come utente che ha effettuato l’accesso come altro utente e non vi è alcuna indicazione che stia aggiungendo un commento per conto di un altro utente.
+>Quando si utilizza la nuova esperienza di commento, il commento viene aggiunto come utente che ha effettuato l’accesso come altro utente e non vi è alcuna indicazione che stia aggiungendo un commento per conto di un altro utente.
 >
->Ad esempio, se un amministratore di Workfront effettua l’accesso come altro utente, l’utente associato al commento è l’amministratore di Workfront. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
+>Ad esempio, se un amministratore di Workfront effettua l’accesso come altro utente, l’utente associato al commento è l’amministratore di Workfront. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ### Visualizzare le informazioni di audit {#view-audit-information}

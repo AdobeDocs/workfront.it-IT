@@ -6,9 +6,9 @@ description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1550'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 <!--take "Beta" references out when we remove the beta-->
 
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.-->
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 >Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 >Puoi accedere alla nuova esperienza per i seguenti oggetti:
-> * Problemi, <span class="preview" style="display-inline">progetti, attività e documenti</span>.
+> * Problemi, progetti, attività e documenti.
 >
 >     Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.
 >
@@ -138,16 +138,16 @@ Puoi assegnare tag agli utenti manualmente nella sezione Aggiornamenti corrente.
 
 Puoi assegnare tag ad altri utenti per gli aggiornamenti nella nuova esperienza di commento nei seguenti modi:
 
-* <span class="preview"> **Automaticamente**: quando un utente aggiunge un commento o una risposta, viene automaticamente taggato e aggiunto all’area Tag persone o team della casella di commento. </span>
+* **Automaticamente**: quando un utente aggiunge un commento o una risposta, viene automaticamente taggato e aggiunto all’area Tag persone o team della casella di commento.
 * **Manualmente**: quando si aggiunge manualmente un utente all’area Tag persone della casella di commento.
 
 È inoltre possibile rimuovere gli utenti a cui vengono assegnati tag per errore quando si modifica o si risponde a un commento.
 
-1. Inizia ad aggiornare un elemento di lavoro, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). <span class="preview">In qualità di proprietario del commento, riceverai automaticamente i tag e verrai aggiunto all’area Tag persone o team della casella di commento. </span>
+1. Inizia ad aggiornare un elemento di lavoro, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). In qualità di proprietario del commento, riceverai automaticamente i tag e verrai aggiunto all’area Tag persone o team della casella di commento.
 
    >[!TIP]
    >
-   ><span class="preview">Il proprietario del commento non può visualizzare il proprio nome nell’area Tag persone o team della casella di commento.</span>
+   >Il proprietario del commento non può visualizzare il proprio nome nell’area Tag persone o team della casella di commento.
 
 1. In **Assegna tag a persone o team** , digitare il nome dell&#39;utente o del team che si desidera includere, quindi fare clic sul nome quando viene visualizzato nell&#39;elenco a discesa.
 

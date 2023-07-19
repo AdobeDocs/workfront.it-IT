@@ -6,9 +6,9 @@ description: Potete modificare le informazioni sulle attività create o sulle qu
 author: Alina
 feature: Work Management
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '3663'
+source-wordcount: '3711'
 ht-degree: 4%
 
 ---
@@ -356,7 +356,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Durata per Occorrenza</td> 
-      <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Viene visualizzata la durata di ogni attività ricorrente. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> <p> <b>NOTA</b>
+      <td> <p>Viene visualizzato solo sull'elemento padre delle attività ricorrenti. Viene visualizzata la durata di ogni attività ricorrente, definita al momento della creazione dell'attività. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>. </p> <p> <b>NOTA</b>
 
    Le durate modificate in singole attività ricorrenti non visualizzano il valore indicato in questo campo. </p> </td>
    </tr> 
@@ -437,7 +437,13 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
    </tr> 
    <tr> 
    <td role="rowheader">Lavoro Necessario</td> 
-   <td> <p>Specifica la quantità di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari per completare l'attività. È possibile specificare la quantità di ore pianificate per un'attività solo quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>.</p> </td> 
+   <td> <p>Specifica la quantità di ore pianificate per l'attività, in ore. Quantità di tempo effettivo necessario agli assegnatari per completare l'attività. È possibile specificare la quantità di ore pianificate per un'attività solo quando il tipo di durata è impostato su Assegnazione calcolata. Per ulteriori informazioni sui tipi di durata, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica sulla durata e sul tipo di durata dell'attività</a>.</p> 
+   <b>NOTA</b>
+   <p>
+   Quando si creano attività ricorrenti, le ore pianificate sono quelle di ogni occorrenza. Le ore pianificate delle attività padre sono il totale di tutte le ore pianificate di tutte le occorrenze. Per informazioni sulla creazione di attività ricorrenti, vedere <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Creare attività ricorrenti</a>.
+   </p>
+
+   </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Allocazione</td> 

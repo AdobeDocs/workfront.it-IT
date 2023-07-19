@@ -1,17 +1,17 @@
 ---
 content-type: overview
 product-area: projects
-keywords: ricorrente,ripetuto,ripetuto
+keywords: ricorrente,ricorrente,ricorrente
 navigation-topic: manage-tasks
 title: Panoramica delle attività ricorrenti
 description: Panoramica delle attività ricorrenti
 author: Alina
 feature: Work Management
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 3%
+source-wordcount: '679'
+ht-degree: 2%
 
 ---
 
@@ -35,45 +35,46 @@ Per informazioni su come creare attività ricorrenti in Adobe Workfront, consult
 
 È possibile scegliere di creare attività ricorrenti per indicare il lavoro ripetibile durante la durata di un progetto.
 
-Ad esempio, durante un progetto IT, è probabile che sia necessario eseguire il backup del software a intervalli regolari. La creazione di un’attività ricorrente per questa attività riduce il tempo necessario per impostare più attività individuali.
+Ad esempio, durante un progetto IT, è probabile che il software debba essere sottoposto a backup a intervalli regolari. La creazione di un&#39;attività ricorrente per questa attività riduce il tempo necessario per impostare più attività singole.
 
-Quando crei attività ricorrenti in Workfront, considera quanto segue:
+Quando crei attività ricorrenti in Workfront, tieni presente quanto segue:
 
-* Non è possibile aggiungere attività ricorrenti a un modello.
-* Non è possibile aggiungere una frequenza di ricorrenza a un&#39;attività esistente.
-* Le attività ricorrenti vengono visualizzate come sottoattività o elementi secondari per l&#39;occorrenza principale che viene visualizzata come attività principale.
-* Non è possibile allegare un&#39;approvazione a un&#39;attività ricorrente padre.
-* Workfront trasferisce la maggior parte dei campi aggiornati per la ricorrenza padre durante la creazione alle attività figlio. I campi seguenti non vengono trasferiti alle attività figlio quando vengono create:
+* Impossibile aggiungere attività ricorrenti a un modello.
+* Impossibile aggiungere una frequenza di ricorrenza a un&#39;attività esistente.
+* Le attività ricorrenti vengono visualizzate come sottoattività o figli per l&#39;occorrenza principale che viene visualizzata come attività padre.
+* Non è possibile allegare un&#39;approvazione a un&#39;attività padre ricorrente.
+* Workfront trasferisce la maggior parte dei campi aggiornati per la ricorrenza padre durante la creazione alle attività figlio. I campi seguenti non vengono trasferiti alle attività figlio quando vengono create:
 
-   * Il Vincolo attività delle attività figlio cambia automaticamente in:
+   * Il Vincolo attività delle attività figlio viene modificato automaticamente in:
 
-      * Deve iniziare il giorno per i progetti pianificati a partire dalla data di inizio.
-      * È necessario completare i progetti pianificati a partire dalla data di completamento.
-   * I documenti allegati al genitore non vengono trasferiti ai figli.
+      * Deve iniziare il per i progetti pianificati dalla data di inizio.
+      * Deve completare il per i progetti pianificati a partire dalla data di completamento.
 
+   * I documenti allegati all&#39;elemento padre non vengono trasferiti agli elementi figlio.
 
-* Le seguenti modifiche si verificano sull&#39;attività principale dopo aver indicato che l&#39;attività è ricorrente:
+* Le seguenti modifiche si verificano sull&#39;attività padre dopo aver indicato che l&#39;attività è ricorrente:
 
-   * Il campo Durata viene rinominato in Durata per Occorrenza per l&#39;attività principale. Resta la Durata per le attività dei bambini.
-   * Lo stato è disattivato nell&#39;attività principale e viene impostato automaticamente su Nuovo negli elementi secondari. L&#39;attività padre viene completata automaticamente e lo stato viene aggiornato su Completato al completamento di tutti gli elementi figlio.
+   * Il campo Durata viene rinominato in Durata per Occorrenza per l&#39;attività padre. Rimane la Durata per le attività figlio.
+   * Lo stato è disattivato per l&#39;attività padre e viene automaticamente impostato su Nuovo per le attività figlio. L&#39;attività padre viene completata automaticamente e lo stato viene aggiornato a Completo quando tutti gli elementi figlio vengono completati.
    * Gli unici tipi di durata disponibili per le attività ricorrenti sono:
 
       * Semplice
       * Impegno Aggiuntivo
+* La Durata e le Ore pianificate indicate per una nuova attività ricorrente sono la Durata e le Ore pianificate di ciascuna ricorrenza. La durata dell&#39;attività padre è il tempo che intercorre tra la data di inizio pianificata della prima attività e la data di completamento pianificata dell&#39;attività più recente. Le ore pianificate dell&#39;attività padre corrispondono al totale di tutte le ore pianificate di tutte le ricorrenze.
 
 ## Considerazioni sulla modifica di attività ricorrenti
 
-Alcune modifiche apportate a un&#39;attività padre ricorrente potrebbero non essere aggiornate su tutte le ricorrenze esistenti. Le attività secondarie che mostrano l’avanzamento o che sono state aggiornate singolarmente non vengono aggiornate quando si aggiorna l’elemento padre. Workfront ritiene che un’attività presenti dei progressi nelle seguenti situazioni:
+Alcune modifiche apportate a un&#39;attività padre ricorrente potrebbero non essere aggiornate su tutte le ricorrenze esistenti. Le attività figlio che mostrano lo stato di avanzamento o che sono state aggiornate singolarmente non verranno aggiornate quando si aggiorna l&#39;attività padre. Workfront ritiene che un&#39;attività mostri progressi nelle seguenti situazioni:
 
 * Lo stato viene aggiornato e l’attività non è più Nuova
 * La percentuale di completamento dell&#39;attività è superiore a zero
-* L&#39;attività ha relazioni precedenti
+* L&#39;attività ha relazioni predecessori
 
-La tabella seguente illustra se le modifiche apportate agli aggiornamenti del trigger padre sugli elementi secondari che non sono stati modificati singolarmente o mostrano lo stato di avanzamento:
+La tabella seguente illustra se le modifiche apportate al trigger padre vengono aggiornate sugli elementi figlio che non sono stati modificati singolarmente o se mostrano lo stato di avanzamento:
 
-| Campi aggiornati sull’attività principale | Aggiornamenti trasferiti a figli o figli non modificati senza avanzamento registrato |
+| Campi aggiornati sull&#39;attività padre | Trasferimento degli aggiornamenti a elementi figlio non modificati o a elementi figlio senza avanzamento registrato |
 |---|---|
-| Frequenza ricorrenza* | ↓ |
+| Frequenza ricorrenza* | ✔ |
 | Assegnazioni&#42;&#42; | ✔ |
 | Nome | ✔ |
 | Descrizione | ✔ |
@@ -81,21 +82,21 @@ La tabella seguente illustra se le modifiche apportate agli aggiornamenti del tr
 | Durata | ✔ |
 | Lavoro Necessario | ✔ |
 | Tipo Cst | ✔ |
-| Tipo di ricavo | ✔ |
+| Tipo di retribuzione | ✔ |
 | Livellamento Risorse | ✔ |
 | Ritardo di Livellamento | ✔ |
-| Vincolo attività | Non aggiorna i figli |
-| Allega o rimuovi Forms personalizzato | Non aggiorna i figli |
-| Tipo di durata | Non aggiorna i figli |
-| Informazioni sul modulo personalizzato | Non aggiorna i figli |
+| Vincolo attività | Non aggiorna gli elementi figlio |
+| Allega o rimuovi Forms personalizzato | Non aggiorna gli elementi figlio |
+| Tipo di durata | Non aggiorna gli elementi figlio |
+| Informazioni modulo personalizzato | Non aggiorna gli elementi figlio |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-&#42; Quando si aggiorna la frequenza di ricorrenza di un&#39;attività principale si verificano i seguenti scenari:
+&#42; Quando si aggiorna la Frequenza di ricorrenza di un task padre, si verificano gli scenari seguenti:
 
-* Se si modifica la frequenza di ricorrenza in un&#39;attività padre esistente, le sottoattività esistenti vengono eliminate e sostituite con nuove sottoattività che seguono la nuova frequenza di ricorrenza se non mostrano alcun avanzamento e se non le si sono aggiornate manualmente.
-* Se si modifica la frequenza di ricorrenza in un&#39;attività padre esistente, le sottoattività che mostrano l&#39;avanzamento non vengono eliminate. Queste attività sono considerate separate dalla ricorrenza a questo punto.
+* Se si modifica la Frequenza di ricorrenza per un&#39;attività padre esistente, le sottoattività esistenti vengono eliminate e sostituite con nuove sottoattività che seguono la nuova frequenza di ricorrenza se non mostrano alcun avanzamento e se non sono state aggiornate manualmente.
+* Se si modifica la Frequenza di ricorrenza per un&#39;attività padre esistente, le sottoattività che mostrano l&#39;avanzamento non vengono eliminate. A questo punto, queste attività sono considerate separate dalla ricorrenza.
 
-&#42;&#42; Le assegnazioni eseguite sull&#39;attività padre vengono applicate a tutte le sottoattività della ricorrenza. Qualsiasi modifica apportata all&#39;assegnazione nell&#39;attività padre sostituisce le singole assegnazioni nell&#39;attività secondaria. Se l&#39;attività mostra l&#39;avanzamento, l&#39;assegnazione non viene modificata.
+&#42;&#42; Le assegnazioni effettuate sull&#39;attività padre vengono applicate a tutte le sottoattività nella ricorrenza. Eventuali modifiche apportate all&#39;assegnazione nell&#39;attività padre sostituiscono le singole assegnazioni nell&#39;attività secondaria. Se l&#39;attività mostra lo stato di avanzamento, l&#39;assegnazione non cambia.
 
  

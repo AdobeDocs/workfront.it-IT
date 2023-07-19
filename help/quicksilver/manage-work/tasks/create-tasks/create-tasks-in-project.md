@@ -1,30 +1,30 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Creazione di attività in un progetto
-description: È possibile creare attività in un progetto solo dopo la creazione del progetto.
+title: Creare attività in un progetto
+description: È possibile creare le attività di un progetto solo dopo averlo creato.
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Creazione di attività in un progetto
+# Creare attività in un progetto
 
-È possibile creare attività in un progetto solo dopo la creazione del progetto.
+È possibile creare le attività di un progetto solo dopo averlo creato.
 
-Ad esempio, dopo aver creato un progetto, è possibile aggiungere attività e modificarle per organizzare il piano di progetto. Per ulteriori informazioni sulla creazione di un progetto, consulta [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
+Ad esempio, dopo aver creato un progetto, è possibile aggiungere attività e modificarle per organizzare il piano del progetto. Per ulteriori informazioni sulla creazione di un progetto, consulta [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
-Per informazioni sulla creazione di attività personali non incluse in un progetto, consulta la sezione &quot;Creare un’attività personale&quot; nell’articolo [Creazione di elementi di lavoro dall&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Per informazioni sulla creazione di attività personali non incluse in un progetto, vedere la sezione &quot;Creare un&#39;attività personale&quot; nell&#39;articolo [Creare elementi di lavoro dall&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-Questo articolo descrive come creare attività da zero. È inoltre possibile creare attività nei seguenti modi:
+Questo articolo descrive come creare le attività da zero. È inoltre possibile creare le attività nei modi seguenti:
 
-* Copiando o duplicando le attività esistenti. Per informazioni, consulta [Copia e duplica le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* Spostando le attività da un progetto all’altro. Per informazioni, consulta [Sposta attività](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* Copiando o duplicando le attività esistenti. Per informazioni, consulta [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* Spostando le attività da un progetto all&#39;altro. Per informazioni, consulta [Sposta le attività](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Requisiti di accesso
 
@@ -62,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -70,49 +70,49 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Lavoro o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica l’accesso a Attività e Progetti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni sull'accesso alle attività, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Concedere l’accesso alle attività</a>. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ad attività e progetti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull'accesso alle attività, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Concedere l’accesso alle attività</a>. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni di Contribute per il progetto con la possibilità di aggiungere attività o versioni successive</p> <p>Quando crei un'attività, riceverai automaticamente le autorizzazioni di gestione per l'attività</p> <p> Per informazioni sulle autorizzazioni delle attività, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Condividere un’attività </a>. </p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni di Contribute per il progetto con la possibilità di aggiungere attività o versione successiva</p> <p>Quando crei un’attività, ricevi automaticamente le autorizzazioni di gestione per l’attività</p> <p> Per informazioni sulle autorizzazioni per le attività, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Condividere un’attività </a>. </p> <p>Per informazioni sulla richiesta di autorizzazioni aggiuntive, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Creazione di attività in un progetto
+## Creare attività in un progetto
 
-1. Passa al progetto in cui desideri creare un’attività.
-1. Fai clic su **Attività** nel pannello a sinistra.
-1. (Condizionale) Se stai visualizzando l&#39;elenco delle attività in una visualizzazione agile, fai clic sul pulsante **Vista a elenco** icona ![](assets/list-view-in-agile-view-for-tasks.png) nell&#39;angolo in alto a destra per visualizzare l&#39;elenco delle attività.
-1. (Facoltativo) Fai clic sul pulsante **Modalità piano** icona ![](assets/nwe-plan-mode-icon-task-list.png) e seleziona **Salvataggio manuale**, quindi seleziona **Standard** o **Pianificazione temporale**. Questo disattiva il **Salvataggio automatico** che è attivata per impostazione predefinita.
+1. Vai al progetto in cui desideri creare un’attività.
+1. Clic **Attività** nel pannello a sinistra.
+1. (Condizionale) Se l&#39;elenco delle attività è visualizzato in modalità agile, fare clic sul pulsante **Vista a elenco** icona ![](assets/list-view-in-agile-view-for-tasks.png) nell&#39;angolo superiore destro per visualizzare l&#39;elenco delle attività.
+1. (Facoltativo) Fai clic su **Modalità pianificazione** icona ![](assets/nwe-plan-mode-icon-task-list.png) e seleziona **Salvataggio manuale**, quindi selezionare **Standard** o **Pianificazione sequenza temporale**. Questo disattiva la **Salvataggio automatico** che è attivata per impostazione predefinita.
 
    ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
 
    >[!TIP]
    >
-   >È possibile annullare le modifiche quando si seleziona Salva manualmente.
+   >È possibile annullare le modifiche quando si seleziona Salvataggio manuale.
 
-1. Crea una nuova attività eseguendo una delle operazioni seguenti:
+1. Creare una nuova attività eseguendo una delle operazioni seguenti:
 
-   * Fai clic su **Nuova attività** nella parte superiore dell’elenco delle attività
-   * Fai clic su **Aggiungi altre attività** in fondo all&#39;elenco delle attività
+   * Clic **Crea Attività** nella parte superiore dell&#39;elenco delle attività
+   * Clic **Aggiungi altre attività** nella parte inferiore dell&#39;elenco delle attività
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
-1. (Condizionale) Se hai fatto clic su **Nuova attività** effettua le seguenti operazioni:
+1. (Condizionale) Se hai fatto clic **Crea Attività** effettuare le seguenti operazioni:
 
-   1. Specifica uno dei campi nell’elenco limitato di campi all’interno della **Nuova attività** quindi fai clic su **Crea attività** per creare rapidamente un’attività.
+   1. Specifica uno dei campi nell&#39;elenco limitato dei campi all&#39;interno del **Crea Attività** , quindi fare clic su **Crea attività** se si desidera creare rapidamente un&#39;attività.
 
       Oppure
 
-      Per aggiornare tutti i campi dell&#39;attività, fare clic su **Altre opzioni** per aprire **Crea attività** scatola.
+      Per aggiornare tutti i campi dell&#39;attività, fare clic su **Altre opzioni** per aprire **Crea attività** casella.
 
       ![](assets/nwe-create-task-small-screen-350x272.png)
 
-      La **Crea attività** si apre la casella.
+      Il **Crea attività** viene visualizzata la casella.
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
@@ -120,55 +120,55 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
       >[!NOTE]
       >
-      >A seconda della configurazione del modello di layout da parte dell’amministratore di Workfront, i campi nella casella Crea attività potrebbero visualizzare campi diversi nell’ambiente in uso. Per informazioni, consulta [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+      >A seconda della modalità di configurazione del modello di layout impostata dall&#39;amministratore di Workfront, è possibile che nei campi della casella Crea attività vengano visualizzati campi diversi dell&#39;ambiente. Per informazioni, consulta [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   1. Specifica le informazioni per le seguenti aree nel pannello a sinistra della casella Crea attività :
+   1. Specificare le informazioni per le seguenti aree nel pannello sinistro della casella Crea attività:
 
       * Nome attività
       * Panoramica
       * Assegnazioni
-      * Forms personalizzato
+      * Moduli personalizzati
       * Finanz
       * Impostazioni
 
-         Per informazioni sulla definizione di tutti i campi relativi alle attività di un&#39;attività, vedere [Modifica delle attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
-   1. (Condizionale e facoltativo) Se desideri che l’attività sia ricorrente, aggiorna la sezione **Frequenza ricorrenza** campo . Per ulteriori informazioni sulla creazione di attività ricorrenti, consulta [Creare attività ricorrenti](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
-   1. (Facoltativo) Fai clic su **Documenti** nel pannello a sinistra per allegare un documento alla nuova attività, quindi fare clic su **Aggiungere o collegare file** per aggiungere un documento all&#39;attività dal computer, da un altro servizio o per collegare documenti e cartelle dal computer o da un altro servizio.
+        Per informazioni sulla definizione di tutti i campi relativi a un&#39;attività, vedere [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
+   1. (Condizionale e facoltativo) Se desideri che l’attività sia ricorrente, aggiorna il **Frequenza ricorrenza** campo. Per ulteriori informazioni sulla creazione di attività ricorrenti, vedere [Creare attività ricorrenti](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+   1. (Facoltativo) Fai clic su **Documenti** nel pannello a sinistra per allegare un documento alla nuova attività, quindi fai clic su **Aggiungi o collega file** per aggiungere un documento all&#39;attività dal computer, da un altro servizio o per collegare documenti e cartelle dal computer o da un altro servizio.
 
-1. (Condizionale) Se hai fatto clic su **Aggiungi altre attività** nel passaggio 5, iniziare a inserire le informazioni sull&#39;attività utilizzando la modifica in linea, quindi premere Invio.
+1. (Condizionale) Se hai fatto clic **Aggiungi altre attività** nel passaggio 5, iniziare a immettere le informazioni sull&#39;attività utilizzando la modifica in linea, quindi premere Invio.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this stays accurate)</p>
    -->
 
-   È consigliabile utilizzare questa opzione, in particolare quando si aggiungono più attività all’elenco.
+   È consigliabile utilizzare questa opzione soprattutto quando si aggiungono più attività all’elenco.
 
    ![](assets/ctp4-350x26.png)
 
-1. (Condizionale) Effettuare una delle seguenti operazioni:
+1. (Condizionale) Effettua una delle seguenti operazioni:
 
-   * Se hai fatto clic su **Nuova attività** nel passaggio 5, fai clic su **Crea attività** per salvare le modifiche e aggiungere la nuova attività al progetto.
+   * Se hai fatto clic su **Crea Attività** nel passaggio 5, fare clic su **Crea attività** per salvare le modifiche e aggiungere la nuova attività al progetto.
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?)</p>   
      -->
 
-   * Se hai fatto clic su **Aggiungi altre attività** al punto 5, procedi come segue:
+   * Se hai fatto clic su **Aggiungi altre attività** nel passaggio 5 eseguire le operazioni seguenti:
 
-      <!--   
+     <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is this step still right?) </p>   
      -->
 
       1. Fai clic in un punto qualsiasi del browser per inviare le modifiche, oppure premi Invio.
-      1. (Facoltativo) Nell’elenco delle attività, seleziona l’attività appena creata, quindi fai clic su **Rientro**.
+      1. (Facoltativo) Nell’elenco delle attività, seleziona la nuova attività creata, quindi fai clic su **Rientra**.
 
          In questo modo la nuova attività diventa un&#39;attività secondaria o secondaria dell&#39;attività precedente.
 
-         Per ulteriori informazioni sulle attività figlio, consulta [Panoramica delle attività](../../../manage-work/tasks/task-information/tasks-overview.md).
+         Per ulteriori informazioni sulle attività figlio, vedi [Panoramica delle attività](../../../manage-work/tasks/task-information/tasks-overview.md).
 
-      1. (Condizionale) Se hai disabilitato il **Salvataggio automatico** opzione dopo aver premuto **Aggiungi altre attività**, puoi effettuare le seguenti operazioni:
+      1. (Condizionale) Se hai disabilitato **Salvataggio automatico** opzione dopo aver premuto **Aggiungi altre attività**, è possibile effettuare le seguenti operazioni:
 
-         * Fai clic su **Annulla** in qualsiasi momento per invertire l&#39;ultima modifica, oppure **Annulla** per annullare tutte le modifiche apportate all&#39;elenco delle attività.
-         * Se hai fatto clic su **Annulla**, fai clic su **Ripeti** per riapplicare l&#39;ultima modifica annullata.
-         * Fai clic su **Salva** per salvare le modifiche nell&#39;elenco delle attività.
+         * Clic **Annulla** in qualsiasi momento per annullare l’ultima modifica, oppure **Annulla** per annullare tutte le modifiche apportate all&#39;elenco delle attività.
+         * Se in precedenza hai fatto clic su **Annulla**, fai clic su **Ripeti** per riapplicare l&#39;ultima modifica annullata.
+         * Clic **Salva** per salvare le modifiche apportate all&#39;elenco delle attività.
