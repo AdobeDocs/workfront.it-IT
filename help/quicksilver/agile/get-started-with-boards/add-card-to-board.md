@@ -6,9 +6,9 @@ description: Puoi aggiungere rapidamente una scheda ad hoc a una bacheca e asseg
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: c1fab97289f1806676f9d80ccaa640fffa5192e5
+source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '885'
 ht-degree: 0%
 
 ---
@@ -101,15 +101,11 @@ Una scheda ad hoc non è collegata a un elemento di lavoro in [!DNL Adobe Workfr
       <td role="rowheader"><strong>[!UICONTROL Commenti]</strong></td>
       <td><p>Fai clic su nella <strong>[!UICONTROL Nuovo commento]</strong> e digita il commento. Utilizzare gli strumenti di formattazione per formattare il testo e fare clic su <strong>Aggiungi allegato</strong> icona <img src="assets/attachment-icon.png" alt="Icona dell’allegato"> per allegare un file al commento. Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca.</p><p><strong>NOTA:</strong> Al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
       </p><p>Clic <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
-      <p><strong>NOTA:</strong> L’area di commento sulle schede utilizza la nuova esperienza di commento di Adobe Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiorna lavoro</a>.</p><p><strong>NOTA:</strong> I commenti sulle schede sono disponibili solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.</p></td>
+      <p><strong>NOTA:</strong> L’area di commento sulle schede utilizza la nuova esperienza di commento di Adobe Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiorna lavoro</a>.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   Immagine di esempio nell’ambiente di produzione quando non viene utilizzata la funzionalità opt-in anticipata:
-   ![Dettagli scheda ad hoc](assets/boards-edit-ad-hoc-card-041723.png)
-
-   Immagine di esempio nell’ambiente di produzione quando è abilitata la funzione di opt-in anticipato:
    ![Dettagli scheda ad hoc](assets/ad-hoc-card-details-with-comments.png)
 
    Utilizza il pannello di navigazione a sinistra per spostarti tra le sezioni dei campi nei dettagli della scheda.

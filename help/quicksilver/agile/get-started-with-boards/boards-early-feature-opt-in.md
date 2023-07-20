@@ -6,9 +6,9 @@ title: Consenso anticipato alle funzioni per [!DNL Adobe Workfront] Schede
 description: Leggi questo articolo per saperne di più su [!DNL Workfront Boards] consenso alle funzioni anticipate.
 author: Lisa
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
   </tr>
   <tr>
    <td>Definire le notifiche e-mail per le bacheche</td>
-   <td>Parzialmente rilasciato</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Migrare le schede Kanban legacy alle bacheche</td>
@@ -166,19 +166,19 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
   </tr>
   <tr>
    <td>Creare bacheche dinamiche</td>
-   <td>Parzialmente rilasciato</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Utilizza navigazione a sinistra nei dettagli della scheda</td>
-   <td>Parzialmente rilasciato</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Utilizza filtri semplificati nella colonna Acquisizione</td>
-   <td>Parzialmente rilasciato</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Utilizzare commenti su schede ad hoc e collegate</td>
-   <td>Parzialmente rilasciato</td>
+   <td>Rilasciato</td>
   </tr>
  </tbody> 
 </table>

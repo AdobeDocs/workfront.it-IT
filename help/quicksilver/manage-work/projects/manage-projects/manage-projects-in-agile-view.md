@@ -6,16 +6,14 @@ description: Piani, tipi di licenza necessari e accesso a Adobe Workfront Plan T
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1384'
 ht-degree: 0%
 
 ---
 
 # Gestire un progetto nella visualizzazione Agile
-
-{{highlighted-preview}}
 
 <!--
 Required plans, license types, and access
@@ -82,7 +80,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 >[!NOTE]
 >
-><span class="preview">Questa sezione si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.</span>
+>Questa sezione si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.
 
 * [Funzionalità Agile in un progetto](#agile-functionality-in-a-project)
 * [Differenze quando si utilizza la vista Agile su un progetto rispetto a un’iterazione](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -164,25 +162,19 @@ Per informazioni su come personalizzare una visualizzazione agile, consulta [Cre
 ## Visualizzare un progetto nella visualizzazione Agile
 
 1. Vai al progetto che desideri visualizzare in una visualizzazione agile.
-1. Fai clic su **Agile** icona ![Icona Agile](assets/agile-icon-nwe.png).
+1. Fai clic su **Scheda madre** icona ![Icona bacheca](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">Oppure</span>
-
-   <span class="preview">Fai clic su **Scheda madre** icona ![Icona bacheca](assets/board-icon-for-agile-view.png).</span>
-
-   Il progetto viene visualizzato nella visualizzazione agile predefinita.
-
-   <span class="preview">Nell’ambiente di anteprima, per impostazione predefinita viene visualizzata la vista bacheca.</span>
+   La vista bacheca del progetto viene visualizzata per impostazione predefinita.
 
    ![Vista bacheca del progetto](assets/project-agile-board-view.png)
 
-   (Solo visualizzazione Agile legacy) Se in precedenza il progetto era stato visualizzato in una visualizzazione Agile personalizzata, il progetto viene visualizzato in tale visualizzazione anziché nella visualizzazione Agile predefinita.
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">(Facoltativo) Fai clic su **Configura** per impostare le opzioni per le colonne e le schede.</span>
+1. (Facoltativo) Fai clic su **Configura** per impostare le opzioni per le colonne e le schede.
 
-   <span class="preview">Per ulteriori informazioni, consulta [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) e [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Non è possibile definire i criteri di colonna nella vista bacheca di un progetto.</span>
+   Per ulteriori informazioni, consulta [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) e [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Non è possibile definire i criteri di colonna nella vista bacheca di un progetto.
 
-1. <span class="preview">(Facoltativo) Fai clic su **Usa agile legacy** per utilizzare la vista agile legacy invece della vista bacheca.</span>
+1. (Facoltativo) Fai clic su **Usa agile legacy** per utilizzare la vista agile legacy invece della vista bacheca.
 
 1. (Facoltativo - solo vista agile legacy) Se hai creato una vista agile personalizzata o se un altro utente ha creato una vista agile personalizzata e l’ha condivisa con te, puoi visualizzarla al posto della vista agile predefinita.
 
@@ -200,14 +192,13 @@ Per informazioni su come personalizzare una visualizzazione agile, consulta [Cre
 
    Per aggiungere stati alla vista Agile, crea una nuova vista Agile o personalizza una vista Agile esistente, come descritto nella sezione &quot;Creare o personalizzare una vista Agile&quot; nell’articolo [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (Facoltativo) Per tornare alla vista a elenco, fai clic sul pulsante **Elenco** icona.\
-   ![Icona elenco](assets/list-icon.png)
+1. (Facoltativo) Per tornare alla vista a elenco, fai clic sul pulsante **Elenco** icona.
 
 ## Creare e personalizzare viste Agile {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">Questa sezione si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.</span>
+>Questa sezione si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.
 
 Come per le viste standard in Workfront, puoi personalizzare le viste agili esistenti o crearne di nuove da zero. A differenza delle viste standard, non è possibile creare nuove viste agili basate su viste agili esistenti.
 
@@ -217,7 +208,7 @@ Per ulteriori informazioni sulla creazione e la personalizzazione di viste Agile
 
 >[!NOTE]
 >
-><span class="preview">Questa sezione si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.</span>
+>Questa sezione si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.
 
 Per informazioni su come condividere una visualizzazione agile, consulta [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -225,6 +216,6 @@ Per informazioni su come condividere una visualizzazione agile, consulta [Condiv
 
 >[!NOTE]
 >
-><span class="preview">Questa sezione si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.</span>
+>Questa sezione si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.
 
 Per informazioni sull&#39;eliminazione di una visualizzazione, vedere la sezione &quot;Rimuovere una visualizzazione&quot; nell&#39;articolo [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

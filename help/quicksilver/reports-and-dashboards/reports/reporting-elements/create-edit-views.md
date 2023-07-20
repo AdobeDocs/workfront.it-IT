@@ -6,16 +6,14 @@ description: È possibile personalizzare il tipo di informazioni visualizzate su
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 11e239bd47a007adbec1770dafc7f7a5d97eb57e
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
-source-wordcount: '1787'
+source-wordcount: '1777'
 ht-degree: 1%
 
 ---
 
 # Creare o modificare viste in Adobe Workfront
-
-{{highlighted-preview}}
 
 È possibile personalizzare il tipo di informazioni visualizzate sullo schermo utilizzando le viste. In Adobe Workfront è possibile utilizzare diversi tipi di visualizzazioni.
 
@@ -151,16 +149,12 @@ Per ulteriori informazioni sulle visualizzazioni Agile, consulta l’articolo [G
 
 >[!NOTE]
 >
-><span class="preview">Questa procedura si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.</span>
+>Questa procedura si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.
 
 Per creare o personalizzare una visualizzazione Agile:
 
 1. Consente di passare all&#39;elenco delle attività di un progetto.
-1. Fai clic su **Storyboard Agile** icona ![Icona Storyboard Agile](assets/agile-storyboard-nwe.png).
-
-   <span class="preview">Oppure</span>
-
-   <span class="preview">Fai clic su **Scheda madre** icona ![Icona bacheca](assets/board-icon-for-agile-view.png)e quindi fare clic su **Usa agile legacy** nella vista bacheca.</span>
+1. Fai clic su **Scheda madre** icona ![Icona bacheca](assets/board-icon-for-agile-view.png)e quindi fare clic su **Usa agile legacy** nella vista bacheca.
 
 1. (Condizionale) Per personalizzare una visualizzazione Agile esistente:
 
@@ -256,4 +250,4 @@ Per creare o personalizzare una visualizzazione Agile:
 1. Fai clic su **Salva**.\
    Il modo in cui la vista viene salvata dipende dal tuo accesso. Se la vista è stata creata in origine, è possibile salvare le modifiche; in caso contrario, viene richiesto di salvare una versione. Le modifiche apportate alla visualizzazione hanno un impatto sugli utenti con cui la visualizzazione è stata condivisa.
 
-1. (Facoltativo) Fai clic su **Vista a elenco** icona ![](assets/list-view-in-agile-view-for-tasks.png) per tornare all&#39;elenco delle attività.
+1. (Facoltativo) Fai clic su **Elenco** per tornare all&#39;elenco delle attività.

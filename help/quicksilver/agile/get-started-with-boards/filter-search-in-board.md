@@ -6,7 +6,7 @@ description: Puoi filtrare una bacheca per visualizzare solo determinate schede.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Filtrare ed eseguire ricerche in una bacheca
-
-{{highlighted-preview}}
 
 Puoi filtrare una bacheca per visualizzarla:
 
@@ -26,7 +24,7 @@ Puoi filtrare una bacheca per visualizzarla:
 * Schede archiviate
 * Schede connesse a un progetto specifico
 
-<span class="preview">L’ordinamento della bacheca ordina tutte le schede nelle colonne. Non è possibile ordinare una singola colonna e la colonna backlog o acquisizione non è ordinata.</span>
+L’ordinamento della bacheca ordina tutte le schede nelle colonne. Non è possibile ordinare una singola colonna e la colonna backlog o acquisizione non è ordinata.
 
 La ricerca consente inoltre di individuare una scheda specifica sulla bacheca.
 
@@ -110,8 +108,6 @@ Per impostazione predefinita, su una bacheca vengono visualizzate solo le schede
 
    ![Filtra per connessione](assets/boards-filter-by-connection.png)
 
-<div class="preview">
-
 ## Ordinare su una bacheca
 
 Quando si seleziona un&#39;opzione in base alla quale eseguire l&#39;ordinamento, vengono ordinate tutte le colonne. Non è possibile ordinare una singola colonna e la colonna backlog o acquisizione non è ordinata.
@@ -130,8 +126,6 @@ Quando si seleziona un&#39;opzione in base alla quale eseguire l&#39;ordinamento
    Quando viene applicato un ordinamento diverso da quello predefinito, sull’icona di ordinamento viene visualizzato un indicatore ![Ordinamento applicato](assets/sort-applied-boards.png).
 
    ![Ordinare per colonne su una bacheca](assets/sort-by-columns-in-board.png)
-
-</div>
 
 ## Cerca in una bacheca
 
