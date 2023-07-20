@@ -6,9 +6,9 @@ description: I grafici di Gantt in Adobe Workfront forniscono una rappresentazio
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '560'
 ht-degree: 5%
 
 ---
@@ -63,7 +63,7 @@ Elenco dei progetti [!UICONTROL Diagramma di Gantt] è accessibile nelle seguent
 
 Per accedere al [!UICONTROL Elenco progetti Diagramma di Gantt], passare a una delle aree sopra indicate e fare clic su [!UICONTROL Diagramma di Gantt] icona.
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+![Fai clic sull’icona Diagramma di Gantt](assets/click-gantt-chart-icon.png)
 
 ## Configurare la modalità di visualizzazione delle informazioni sul [!UICONTROL Diagramma di Gantt]
 

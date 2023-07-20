@@ -6,9 +6,9 @@ description: Nell'elenco delle attività Diagramma di Gantt vengono visualizzati
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1036'
 ht-degree: 1%
 
 ---
@@ -99,7 +99,7 @@ Per seguire i passaggi descritti in questo articolo, è necessario disporre dei 
 
    Il **[!UICONTROL Salvataggio automatico]** è selezionata per impostazione predefinita, nel qual caso tutte le modifiche vengono salvate automaticamente.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Fai clic sull’icona Diagramma di Gantt](assets/click-gantt-chart-icon.png)
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Modalità pianificazione]** e seleziona **[!UICONTROL Salvataggio manuale standard]** o **[!UICONTROL Pianificazione sequenza temporale]** per salvare le modifiche manualmente.
 
@@ -131,7 +131,7 @@ Per seguire i passaggi descritti in questo articolo, è necessario disporre dei 
 
    Tutte le modifiche vengono salvate automaticamente quando **[!UICONTROL Salvataggio automatico]** l&#39;opzione è abilitata. È attivata per impostazione predefinita.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Fai clic sull’icona Diagramma di Gantt](assets/click-gantt-chart-icon.png)
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Modalità pianificazione]** e seleziona **[!UICONTROL Salvataggio manuale standard]** o **[!UICONTROL Pianificazione sequenza temporale]** per salvare le modifiche manualmente.
 
@@ -178,7 +178,7 @@ Per seguire i passaggi descritti in questo articolo, è necessario disporre dei 
 1. Vai al progetto che desideri modificare.
 1. In **[!UICONTROL Attività]** , fare clic sul pulsante **[!UICONTROL Diagramma di Gantt]** icona.
 
-   ![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+   ![Fai clic sull’icona Diagramma di Gantt](assets/click-gantt-chart-icon.png)
 
    Tutte le modifiche vengono salvate automaticamente quando **[!UICONTROL Salvataggio automatico]** l&#39;opzione è abilitata. È attivata per impostazione predefinita.
 
