@@ -3,7 +3,7 @@ title: 23.3 Miglioramenti di Agile
 description: 23.3 Miglioramenti di Agile
 author: Lisa
 feature: Product Announcements
-source-git-commit: 3aa19652024cd6df1c9560aad6e982e4b615569c
+source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
 workflow-type: tm+mt
 source-wordcount: '1305'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 23.3 Miglioramenti di Agile
 
-Questa pagina descrive tutti i miglioramenti agili apportati con la versione 23.3 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.3.
+Questa pagina descrive tutte le bacheche e i miglioramenti agili apportati con la versione 23.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

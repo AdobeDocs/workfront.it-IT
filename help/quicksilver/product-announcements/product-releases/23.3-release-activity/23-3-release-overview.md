@@ -4,20 +4,18 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: bcb657df8b38c6bdea5c24a917a9adad51da017d
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '2657'
+source-wordcount: '2648'
 ht-degree: 0%
 
 ---
 
 # Panoramica sulla versione 23.3
 
-Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 23.3 pianificata per la settimana del 17 luglio 2023.
+Questa pagina fornisce informazioni sulle funzionalità incluse nella versione 23.3 di. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
 
-I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che la versione 23.3 si avvicina alla versione di produzione pianificata.
-
-Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [registrati qui per il webinar](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
+Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. È possibile [registrati per partecipare al webinar e visualizzare una registrazione on-demand](https://webinars.on24.com/adobe_workfront/whatsnewin233?partnerref=exlreleaseoverview).
 
 <span class="preview">Le funzioni off-cycle (quelle rilasciate in produzione prima della data di rilascio della versione 23.3) sono evidenziate in giallo.</span>
 
@@ -116,7 +114,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Visualizzazione Agile di un progetto mostra una bacheca kanban</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Visualizzazione Agile di un progetto mostra una bacheca kanban</a></p>
                         <p>La visualizzazione Agile di un progetto ora include funzionalità aggiuntive per filtrare, raggruppare e ordinare il lavoro in una bacheca kanban. Il nuovo design flessibile della vista include una solida funzione di ricerca e la possibilità di aggiungere nuove attività al progetto direttamente dalla bacheca.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -132,7 +130,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ordina per colonne bacheca</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Ordina per colonne bacheca</a></p>
                         <p>È stata aggiunta la possibilità di ordinare le schede nelle colonne di una bacheca. Quando si seleziona un'opzione in base alla quale eseguire l'ordinamento, vengono ordinate tutte le colonne. Non è possibile ordinare una singola colonna e la colonna backlog o acquisizione non è ordinata.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -189,7 +187,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                                 <p>Versione di anteprima: 15 giugno 2023</p>
                             </li>
                             <li>
-                                 <p>Versione di produzione per il consenso anticipato: 22 giugno 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.</span></p>
+                                 <p>Versione di produzione per il consenso anticipato: 22 giugno 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite il consenso anticipato per le schede madri Workfront.</span></p>
                                 <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
                             </li>
                         </ul>
@@ -222,7 +220,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                                 <p>Versione di anteprima: 10 maggio 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versione di produzione per il consenso anticipato: 10 maggio 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.</span></p>
+                                 <p>Versione di produzione per il consenso anticipato: 10 maggio 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite il consenso anticipato per le schede madri Workfront.</span></p>
                                 <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
                             </li>
                         </ul>
@@ -239,7 +237,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                                 <p>Versione di anteprima: 27 aprile 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versione di produzione per il consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.</span></p>
+                                 <p>Versione di produzione per il consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite il consenso anticipato per le schede madri Workfront.</span></p>
                                 <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
                             </li>
                         </ul>
@@ -256,7 +254,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                                 <p>Versione di anteprima: 20 aprile 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versione di produzione per il consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.</span></p>
+                                 <p>Versione di produzione per il consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite il consenso anticipato per le schede madri Workfront.</span></p>
                                 <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
                             </li>
                         </ul>
@@ -273,7 +271,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                                 <p>Versione di anteprima: 20 aprile 2023<br /></p>
                             </li>
                             <li>
-                                 <s><p>Versione di produzione per il consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.</span></p></s>
+                                 <s><p>Versione di produzione per il consenso anticipato: 28 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite il consenso anticipato per le schede madri Workfront.</span></p></s>
                                  </li>
                                  <li>
                                 <p><span class="preview">Versione di produzione per tutti i clienti: 18 maggio 2023</span></p>
@@ -308,7 +306,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                                 <p>Versione di anteprima: 13 aprile 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Versione di produzione per il consenso anticipato: 13 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.</p>
+                                 <p>Versione di produzione per il consenso anticipato: 13 aprile 2023 <span style="color: #ff0000;"> Questa funzione è disponibile in produzione in questa data solo tramite il consenso anticipato per le schede madri Workfront.</p>
                                 <p>Versione di produzione per tutti i clienti: con la versione 23.3</p>
                             </li>
                         </ul>
@@ -335,7 +333,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                  </tr>   
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Data costo effettivo e tariffe di fatturazione</a><span style="color: #ff0000;"> Novità in anteprima.</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-finance-enhancements.md" class="MCXref xref" xrefformat="{para}">Data costo effettivo e tariffe di fatturazione</a></p>
                         <p>Le tariffe di costo e fatturazione effettive per data sono ora disponibili per gli oggetti società, utente e mansione in Workfront. Quando a un progetto vengono applicati i tassi di validità della data e le ore vengono registrate nelle attività del progetto, i costi e i ricavi vengono calcolati utilizzando i tassi specificati per ogni periodo di tempo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -346,7 +344,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                             <li>
                                 <p>Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3</p>
                                 <p>Versione di produzione per tutti i clienti: con la versione 23.4<br>
-                                <span style="color: #ff0000;"> La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima dal 30 giugno al 13 luglio 2023.</span></p>
+                                La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima dal 30 giugno al 13 luglio 2023.</p>
                             </li>
                         </ul>
                     </td>
@@ -606,7 +604,7 @@ Il webinar sulla versione 23.3 si terrà il 29 giugno 2023. È possibile [regist
                 </tr>
             <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova esperienza Home</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova esperienza Home</a></p>
                         <p>Per consentire agli utenti di tutti i tipi di utilizzare al meglio Workfront per le loro esigenze specifiche, Home ha ricevuto un aggiornamento importante! La nuova esperienza Home offre la personalizzazione visiva e dei contenuti per la home page, offrendo la flessibilità di visualizzare solo le informazioni più rilevanti per il tuo lavoro.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>

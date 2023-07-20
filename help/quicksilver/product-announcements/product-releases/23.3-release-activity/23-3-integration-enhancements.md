@@ -3,16 +3,16 @@ title: 23.3 Miglioramenti dell’integrazione
 description: 23.3 Miglioramenti dell’integrazione
 author: Lisa
 feature: Product Announcements
-source-git-commit: 75e035bcdf75501e34fd9de57dd6eab85d9e5542
+source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '730'
 ht-degree: 0%
 
 ---
 
 # 23.3 Miglioramenti dell’integrazione
 
-Questa pagina descrive tutti i miglioramenti all’integrazione apportati con la versione 23.3 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.3.
+Questa pagina descrive tutti i miglioramenti all’integrazione apportati con la versione 23.3 di. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
