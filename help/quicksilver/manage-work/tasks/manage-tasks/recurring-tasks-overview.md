@@ -6,12 +6,13 @@ navigation-topic: manage-tasks
 title: Panoramica delle attività ricorrenti
 description: Panoramica delle attività ricorrenti
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -60,11 +61,11 @@ Quando crei attività ricorrenti in Workfront, tieni presente quanto segue:
 
       * Semplice
       * Impegno Aggiuntivo
-* La Durata e le Ore pianificate indicate per una nuova attività ricorrente sono la Durata e le Ore pianificate di ciascuna ricorrenza. La durata dell&#39;attività padre è il tempo che intercorre tra la data di inizio pianificata della prima attività e la data di completamento pianificata dell&#39;attività più recente. Le ore pianificate dell&#39;attività padre corrispondono al totale di tutte le ore pianificate di tutte le ricorrenze.
+* La Durata e le Ore pianificate indicate per una nuova attività ricorrente sono la Durata e le Ore pianificate di ciascuna occorrenza. La durata dell&#39;attività padre è il tempo che intercorre tra la data di inizio pianificata della prima attività e la data di completamento pianificata dell&#39;attività più recente. Le ore pianificate dell&#39;attività padre corrispondono al totale di tutte le ore pianificate di tutte le occorrenze.
 
 ## Considerazioni sulla modifica di attività ricorrenti
 
-Alcune modifiche apportate a un&#39;attività padre ricorrente potrebbero non essere aggiornate su tutte le ricorrenze esistenti. Le attività figlio che mostrano lo stato di avanzamento o che sono state aggiornate singolarmente non verranno aggiornate quando si aggiorna l&#39;attività padre. Workfront ritiene che un&#39;attività mostri progressi nelle seguenti situazioni:
+Alcune modifiche apportate a un elemento padre attività ricorrente potrebbero non essere aggiornate su tutte le occorrenze esistenti. Le attività figlio che mostrano lo stato di avanzamento o che sono state aggiornate singolarmente non verranno aggiornate quando si aggiorna l&#39;attività padre. Workfront ritiene che un&#39;attività mostri progressi nelle seguenti situazioni:
 
 * Lo stato viene aggiornato e l’attività non è più Nuova
 * La percentuale di completamento dell&#39;attività è superiore a zero
@@ -75,19 +76,19 @@ La tabella seguente illustra se le modifiche apportate al trigger padre vengono 
 | Campi aggiornati sull&#39;attività padre | Trasferimento degli aggiornamenti a elementi figlio non modificati o a elementi figlio senza avanzamento registrato |
 |---|---|
 | Frequenza ricorrenza* | ✔ |
-| Assegnazioni&#42;&#42; | ✔ |
+| Assegnazioni | ✔ |
 | Nome | ✔ |
 | Descrizione | ✔ |
 | Priorità | ✔ |
 | Durata | ✔ |
 | Lavoro Necessario | ✔ |
 | Tipo Cst | ✔ |
-| Tipo di retribuzione | ✔ |
+| Tipo di Reddito | ✔ |
 | Livellamento Risorse | ✔ |
 | Ritardo di Livellamento | ✔ |
 | Vincolo attività | Non aggiorna gli elementi figlio |
 | Allega o rimuovi Forms personalizzato | Non aggiorna gli elementi figlio |
-| Tipo di durata | Non aggiorna gli elementi figlio |
+| Tipo di Durata | Non aggiorna gli elementi figlio |
 | Informazioni modulo personalizzato | Non aggiorna gli elementi figlio |
 
 {style="table-layout:auto"}

@@ -2,117 +2,117 @@
 content-type: o
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Panoramica dei pulsanti "Work On It and Done"
-description: Quando si è assegnati a un'attività o a un problema, è possibile utilizzare un pulsante contestuale che cambia nomi e funzioni a seconda del coinvolgimento con l'elemento di lavoro.
+title: Panoramica del pulsante Lavoraci e Fine
+description: Quando ti viene assegnata un’attività o un problema, puoi utilizzare un pulsante contestuale che cambia nome e funzione in base al tuo coinvolgimento con l’elemento di lavoro.
 author: Lisa and Alina
 feature: Get Started with Workfront
+role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
 
 ---
 
-# Panoramica dei pulsanti &quot;Work On It and Done&quot;
+# Panoramica del pulsante Lavoraci e Fine
 
-Quando si è assegnati a un&#39;attività o a un problema, è possibile utilizzare un pulsante contestuale che cambia nomi e funzioni a seconda del coinvolgimento con l&#39;elemento di lavoro.
+Quando ti viene assegnata un’attività o un problema, puoi utilizzare un pulsante contestuale che cambia nome e funzione in base al tuo coinvolgimento con l’elemento di lavoro.
 
-Utilizzando il pulsante contestuale per accettare o completare elementi di lavoro, è possibile consentire ad Adobe Workfront di aggiornare diversi campi sugli elementi senza doverli aggiornare manualmente.
+Utilizzando il pulsante contestuale per accettare o completare gli elementi di lavoro, puoi consentire ad Adobe Workfront di aggiornare diversi campi sugli elementi senza doverli aggiornare manualmente.
 
-## Utilizzare i nomi dei pulsanti Fine
+## Lavoraci e nomi dei pulsanti Fine
 
-A seconda dell’area di Workfront da cui si accede all’attività o al problema, il pulsante Work On It o Done può modificare i nomi, come descritto nei seguenti scenari: 
+A seconda dell’area di Workfront da cui accedi all’attività o al problema, il pulsante Lavoraci o Fine può modificare i nomi, come descritto nei seguenti scenari: 
 
-* Quando l&#39;attività o il problema viene assegnato per la prima volta e lo stato è Nuovo, il pulsante viene visualizzato come Lavoro.
+* Quando l’attività o il problema viene assegnato per la prima volta e lo stato è Nuovo, il pulsante viene visualizzato come Lavoraci.
 
-   ![](assets/nwe-work-on-it-button.png)
+  ![](assets/nwe-work-on-it-button.png)
 
-   >[!TIP]
-   >
-   >È possibile sostituire il pulsante Lavora su di esso con un pulsante Start. Per informazioni sulla sostituzione del pulsante Work On It con un pulsante Start, vedere  [Sostituire il pulsante Work On It con un pulsante Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
+  >[!TIP]
+  >
+  >È possibile sostituire il pulsante Lavoraci con un pulsante Avvia. Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Start, vedere  [Sostituire il pulsante Lavoraci con un pulsante Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
-* Dopo aver fatto clic su Lavora su accetta, il pulsante diventa Contrassegna come completato o Fine , a seconda di dove in Workfront accedi all’attività o al problema da cui. Per informazioni su dove è possibile accedere al pulsante Lavora su di esso, vedere la sezione [Individua il pulsante Lavora su di esso e Fine](#locate-the-work-on-it-and-done-button) in questo articolo.
+* Dopo aver fatto clic su Accetta lavoro, il pulsante diventa Contrassegna come completato o Fine , a seconda di dove si accede all’attività o al problema in Workfront. Per informazioni su dove è possibile accedere al pulsante Lavoraci, vedere la sezione [Individuare il pulsante Lavoraci e Fine](#locate-the-work-on-it-and-done-button) in questo articolo.
 
-   ![](assets/nwe-mark-as-done-button-350x122.png)
+  ![](assets/nwe-mark-as-done-button-350x122.png)
 
-* Se non sei l&#39;unico assegnato all&#39;attività o al problema e accedi all&#39;elemento di lavoro dall&#39;Elenco lavori nell&#39;area Home, il pulsante diventa Fine con la mia parte.
+* Se non sei l’unico assegnato all’attività o al problema e stai accedendo al tuo elemento di lavoro da Work List (Elenco di lavoro) nell’area Home, il pulsante diventa Done (Fine) con la mia parte.
 
-   ![](assets/home-left-done-with-my-part-button-350x184.png)
+  ![](assets/home-left-done-with-my-part-button-350x184.png)
 
-## Individua il pulsante Lavora su di esso e Fine {#locate-the-work-on-it-and-done-button}
+## Individuare il pulsante Lavoraci e Fine {#locate-the-work-on-it-and-done-button}
 
-È possibile individuare il pulsante Lavoro su di esso e Fine nelle seguenti aree di Workfront:
+Puoi individuare il pulsante Lavoraci e Fine nelle seguenti aree di Workfront:
 
-* Area Home, sia nell’Elenco lavori che nel pannello dei dettagli
+* L’area Home, sia nell’elenco di lavoro che nel pannello dei dettagli
 
-   Per informazioni sulla marcatura di un elemento come Fatto nell&#39;area Home, vedere [Contrassegna un elemento come Fatto nell&#39;area Home](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
+  Per informazioni su come contrassegnare un elemento come completato nell&#39;area Home, vedere [Contrassegna un elemento come completato nell’area Home](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
 * Nell’intestazione dell’attività o del problema
 
-   Per informazioni sulle intestazioni dell&#39;oggetto, vedere [Nuove intestazioni oggetto](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+  Per informazioni sulle intestazioni degli oggetti, vedi [Nuove intestazioni oggetto](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
-* Nel pannello Attività o Riepilogo del problema in un elenco o nel servizio di bilanciamento del carico di lavoro
+* Nel pannello Riepilogo dell’attività o del problema in un elenco o nel Bilanciatore dei carichi di lavoro
 
-   Per informazioni sull’utilizzo del pannello Riepilogo, consulta [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+  Per informazioni sull&#39;utilizzo del pannello Riepilogo, consultate [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Panoramica dei campi che si aggiornano automaticamente quando si fa clic sul pulsante Lavora su e Fine
+## Panoramica dei campi che vengono aggiornati automaticamente quando si fa clic sul pulsante Lavoraci e Fine
 
-L’utilizzo dei pulsanti Lavora su e Fine consente a Workfront di aggiornare automaticamente le informazioni sull’elemento di lavoro assegnato.
+I pulsanti Lavoraci e Fine consentono a Workfront di aggiornare automaticamente le informazioni sull&#39;elemento di lavoro assegnato.
 
-* [Pulsante Su](#work-on-it-button)
+* [Pulsante Lavoraci](#work-on-it-button)
 * [Pulsante Start](#start-button)
 * [Pulsante Fine](#the-done-button)
 
-### Pulsante Su {#work-on-it-button}
+### Pulsante Lavoraci {#work-on-it-button}
 
-Quando fai clic su Lavora su di esso, vengono aggiornati anche i seguenti elementi:
+Quando fai clic su Lavoraci, vengono aggiornati anche i seguenti elementi:
 
-* Aggiornamenti dello stato di assegnazione da Richiesto a Lavoro
+* Aggiornamenti dello stato di assegnazione da Richiesto a In esecuzione
 
-   >[!TIP]
-   >
-   >Il campo Stato assegnazione è visibile solo nei rapporti e negli elenchi. Per informazioni sul campo Stato assegnazione, vedere la [Glossario della terminologia di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  >[!TIP]
+  >
+  >Il campo Stato assegnazione è visibile solo nei report e negli elenchi. Per informazioni sul campo Stato assegnazione, vedere [Glossario della terminologia di Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-* Data del commit
+* Conferma data
 
-   Per informazioni sulla data di commit, vedi [Panoramica sulla data del commit](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Per informazioni sulla data di conferma, consulta [Panoramica sulla data di conferma](../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ### Pulsante Start {#start-button}
 
-Se hai accesso per modificare i team, puoi sostituire il pulsante Lavora su di esso con un pulsante Start per un team. Quando gli utenti con quel team come team principale fanno clic sul pulsante Start sugli elementi a cui sono assegnati, i campi aggiuntivi sugli elementi di lavoro vengono aggiornati automaticamente. Per informazioni sulla sostituzione del pulsante Work On It con un pulsante Start, vedere [Sostituire il pulsante Work On It con un pulsante Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Se si dispone dell&#39;accesso per modificare i team, è possibile sostituire il pulsante Lavoraci con un pulsante Avvia per un team. Quando gli utenti con quel team come team predefinito fanno clic sul pulsante Start sugli elementi a cui sono assegnati, i campi aggiuntivi sugli elementi di lavoro si aggiornano automaticamente. Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Start, vedere [Sostituire il pulsante Lavoraci con un pulsante Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-Oltre ai campi che vengono aggiornati quando si fa clic sul pulsante Attivato, i campi seguenti vengono aggiornati automaticamente su un&#39;attività o su un problema quando si fa clic sul pulsante Avvia:
+Oltre ai campi che vengono aggiornati quando si fa clic sul pulsante Lavoraci, quando si fa clic sul pulsante Start i campi seguenti vengono aggiornati automaticamente per un&#39;attività o un problema:
 
 * Stato
-* Data di inizio effettiva
+* Data d&#39;Inizio Reale
 
-   Per informazioni sulla data di inizio effettiva, vedi [Panoramica della data di inizio effettiva del progetto](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
+  Per informazioni sulla data di inizio effettiva, vedere [Panoramica della data di inizio effettiva del progetto](../../manage-work/projects/planning-a-project/project-actual-start-date.md).
 
-* Data completamento effettiva se il pulsante Start è associato a uno stato che corrisponde a Completo o Chiuso.
+* Data di completamento effettiva se il pulsante Inizio è associato a uno stato che equivale a Completo o Chiuso.
 
-   Per informazioni sulla data di completamento effettiva, vedere [Panoramica della data di completamento effettivo del progetto](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
+  Per informazioni sulla data di completamento effettiva, vedere [Panoramica della data di completamento effettiva del progetto](../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
 >[!NOTE]
 >
->Facendo clic sul pulsante Annulla, l&#39;elemento di lavoro viene ripristinato allo stato originale ed è eliminata la data di inizio effettiva.
+>Facendo clic sul pulsante Annulla, l&#39;elemento di lavoro torna allo stato originale ed elimina la data di inizio effettiva.
 >
 >Il pulsante Annulla non è disponibile nelle seguenti aree:
 >
->* Richieste del team
+>* Richieste team
 >* Intestazione attività
 >
 
-
 ### Pulsante Fine {#the-done-button}
 
-Se si dispone dell&#39;accesso per modificare i team, è possibile configurare il pulsante Fine per un team per aggiornare l&#39;attività o gli stati di problema quando si contrassegna un elemento come completato. Quando gli utenti con quel team come team principale fanno clic sul pulsante Fine sui loro elementi, i campi seguenti vengono aggiornati automaticamente su un&#39;attività o un problema:
+Se si dispone dell&#39;accesso per modificare i team, è possibile configurare il pulsante Fine per un team in modo da aggiornare gli stati di attività o problemi quando si contrassegna un elemento come completato. Quando gli utenti con quel team come loro team predefinito fanno clic sul pulsante Fine sui loro elementi, i seguenti campi si aggiornano automaticamente su un’attività o un problema:
 
 * Stato
-* Aggiornamenti dello stato dell&#39;assegnazione da Lavoro a Fine
-* Data completamento effettivo
+* Stato assegnazione aggiornato da In corso a Fine
+* Data di completamento effettiva
 
-Per informazioni sulla configurazione del pulsante Fine per un team, vedere i seguenti articoli:
+Per informazioni sulla configurazione del pulsante Fine per un team, vedere gli articoli seguenti:
 
 * [Configura il pulsante Fine per le attività](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
 * [Configura il pulsante Fine per i problemi](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
