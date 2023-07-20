@@ -6,9 +6,9 @@ description: È possibile creare le attività di un progetto solo dopo averlo cr
 author: Alina
 feature: Work Management
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: af6e906035073cde4782b73bdab39b02026cb20a
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -23,8 +23,8 @@ Per informazioni sulla creazione di attività personali non incluse in un proget
 
 Questo articolo descrive come creare le attività da zero. È inoltre possibile creare le attività nei modi seguenti:
 
-* Copiando o duplicando le attività esistenti. Per informazioni, consulta [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* Spostando le attività da un progetto all&#39;altro. Per informazioni, consulta [Sposta le attività](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* Copiando o duplicando le attività esistenti. Per informazioni, consulta [Copiare e duplicare le attività](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* Spostando le attività da un progetto all&#39;altro. Per informazioni, consulta [Sposta le attività](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Requisiti di accesso
 
@@ -89,7 +89,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. (Condizionale) Se l&#39;elenco delle attività è visualizzato in modalità agile, fare clic sul pulsante **Vista a elenco** icona ![](assets/list-view-in-agile-view-for-tasks.png) nell&#39;angolo superiore destro per visualizzare l&#39;elenco delle attività.
 1. (Facoltativo) Fai clic su **Modalità pianificazione** icona ![](assets/nwe-plan-mode-icon-task-list.png) e seleziona **Salvataggio manuale**, quindi selezionare **Standard** o **Pianificazione sequenza temporale**. Questo disattiva la **Salvataggio automatico** che è attivata per impostazione predefinita.
 
-   ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+   ![Seleziona salvataggio manuale](assets/manual-save-option.png)
 
    >[!TIP]
    >

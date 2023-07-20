@@ -4,9 +4,9 @@ title: Panoramica di riepilogo
 description: È possibile utilizzare il pannello Riepilogo per rivedere e aggiornare le informazioni sull'elemento di lavoro direttamente da un elenco di attività, documenti o da altre aree di [!DNL Adobe Workfront] che visualizzano attività e problemi.
 feature: Get Started with Workfront
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 2%
 
 ---
@@ -116,21 +116,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Puoi selezionare una sola attività o un solo problema alla volta per visualizzarne i dettagli in [!UICONTROL Riepilogo] pannello.
 
-   ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
+   ![Pannello Riepilogo](assets/summary-panel-for-task.png)
 
 1. (Facoltativo) Per chiudere il [!UICONTROL Riepilogo] eseguire una delle operazioni seguenti:
 
    * In un elenco di attività o problemi, fai clic su **[!UICONTROL Apri riepilogo]** icona ![](assets/summary-panel-icon.png)
 
-      Oppure
+     Oppure
 
-      Fai clic su **X** nell&#39;angolo superiore destro del [!UICONTROL Riepilogo] pannello.
+     Fai clic su **X** nell&#39;angolo superiore destro del [!UICONTROL Riepilogo] pannello.
 
    * In [!UICONTROL Inviato] sezione del [!UICONTROL Richieste] , fare clic sul pulsante **[!UICONTROL Chiudi riepilogo]** icona ![](assets/close-summary-with-text-nwe.png)
 
-      Oppure
+     Oppure
 
-      Fai clic su **X** nell&#39;angolo superiore destro del pannello Riepilogo.
+     Fai clic su **X** nell&#39;angolo superiore destro del pannello Riepilogo.
 
 ## [!UICONTROL Percentuale completato]
 
