@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '2749'
+source-wordcount: '2751'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti, ad Adobe Summit
                             </li>
                             <li>
                                  <p>Versione di produzione: con la versione 23.2<br />
-                                 <span style="color: #ff0000;">La versione beta di Forms Designer è stata temporaneamente disabilitata in Anteprima e produzione il 24 maggio 2023.</span></p>
+                                 <span style="color: #ff0000;">La versione beta di Forms Designer è stata temporaneamente disabilitata in Anteprima e produzione dal 24 maggio al 21 luglio 2023.</span></p>
                             </li>
                         </ul>
                     </td>
@@ -97,7 +97,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti, ad Adobe Summit
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Rinomina pin nel modello di layout</span></a>
-                        </span></a><p>È ora possibile rinominare i pin di un modello di layout in modo che siano più significativi per gli utenti, invece di utilizzare il nome predefinito per la pagina bloccata. I pin creati dagli amministratori vengono visualizzati per tutti gli utenti assegnati al modello di layout e gli utenti non possono rinominarli.</p>
+                        <p>È ora possibile rinominare i pin di un modello di layout in modo che siano più significativi per gli utenti, invece di utilizzare il nome predefinito per la pagina bloccata. I pin creati dagli amministratori vengono visualizzati per tutti gli utenti assegnati al modello di layout e gli utenti non possono rinominarli.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -480,7 +480,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti, ad Adobe Summit
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Raccolte biometriche di accesso e bacheche nell’app mobile</span></a>
-                        </span></a><p>L’accesso biometrico è ora un’opzione per accedere più rapidamente all’app mobile. Una volta impostata la verifica biometrica dopo il primo accesso, gli utenti potranno utilizzare il riconoscimento delle impronte digitali o del volto per accedere rapidamente di nuovo all’app e verificare solo occasionalmente la password. Inoltre, sono previsti diversi miglioramenti nell’esperienza di accesso generale, che verranno introdotti in un aggiornamento successivo.</p>
+                        <p>L’accesso biometrico è ora un’opzione per accedere più rapidamente all’app mobile. Una volta impostata la verifica biometrica dopo il primo accesso, gli utenti potranno utilizzare il riconoscimento delle impronte digitali o del volto per accedere rapidamente di nuovo all’app e verificare solo occasionalmente la password. Inoltre, sono previsti diversi miglioramenti nell’esperienza di accesso generale, che verranno introdotti in un aggiornamento successivo.</p>
                         <p>Le raccolte di schede madri sono ora supportate anche nell’app mobile, consentendo agli utenti mobili di visualizzare dall’elenco delle schede madri qualsiasi raccolta a cui hanno accesso nella versione desktop.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -592,7 +592,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti, ad Adobe Summit
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Esportare le tavole da disegno come file PDF singolo o più file PDF in Adobe Workfront per XD</span></a>
-                        </span></a><p>Nel plug-in Adobe Workfront for XD, ora puoi scegliere di esportare le tavole da disegno come un singolo file PDF o più file PDF.</p>
+                        <p>Nel plug-in Adobe Workfront for XD, ora puoi scegliere di esportare le tavole da disegno come un singolo file PDF o più file PDF.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>

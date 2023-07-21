@@ -3,9 +3,9 @@ title: 23.3 Miglioramenti per gli amministratori
 description: 23.3 Miglioramenti per gli amministratori
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -31,3 +31,15 @@ L’amministratore di sistema ora può bloccare e sbloccare la scheda orario e l
 Per ulteriori informazioni, consulta [Configurare le preferenze di orario e scheda orario](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) e [Configurare le preferenze di orario e scheda orario per un gruppo](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3419111/){target=_blank}
+
+## Visualizza gli indicatori logici e ignora quelli e le regole visualizzati nella versione beta di Progettazione moduli
+
+La versione beta pubblica del designer del modulo è stata riabilitata in Anteprima e produzione il 21 luglio 2023. Il nuovo progettista di moduli dispone di una nuova area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi.
+Inoltre, quando si apre un modulo personalizzato nella versione beta di Progettazione moduli contenente la logica di visualizzazione o di salto creata nel generatore di moduli legacy, è ora possibile visualizzare la logica:
+
+* Le icone in un campo nell&#39;area di lavoro di progettazione del modulo indicano che la logica è configurata in tale campo o che il campo viene utilizzato nelle regole di logica configurate in altri campi.
+* Quando si seleziona un campo a cui è applicata la logica, vengono visualizzate le regole di logica esistenti nelle impostazioni del campo.
+
+La modifica della logica esistente e l’aggiunta di una nuova logica a un modulo personalizzato non sono ancora disponibili nella versione beta di Progettazione moduli, ma sono pianificate per il futuro.
+
+Per ulteriori informazioni, consulta [Panoramica di Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).

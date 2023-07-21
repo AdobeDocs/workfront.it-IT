@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Product Announcements
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 061d1a08a8c99b2770491ce2fcea63a9dad7a63f
+source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,6 @@ Per ulteriori informazioni su questa funzionalità in Experience Manager Assets 
 Per ulteriori informazioni su questa funzionalità in Experience Manager Assets Essentials, [Configurare l’integrazione di Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Creare moduli personalizzati con la nuova versione beta di Progettazione moduli
-
->[!IMPORTANT]
->
->La versione beta di Forms Designer è stata temporaneamente disabilitata il 24 maggio 2023. Puoi utilizzare il generatore di moduli legacy per creare e modificare i moduli personalizzati. Consulta [Creare o modificare un modulo personalizzato con il generatore di moduli legacy](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Ora disponibile in una versione beta pubblica, il nuovo progettista di moduli dispone di una nuova area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi.
 
