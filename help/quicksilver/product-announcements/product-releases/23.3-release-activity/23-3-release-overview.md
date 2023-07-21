@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '2724'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,9 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. È poss
 >| Versione mensile | Versione trimestrale |
 >|----|----|
 >| <ul><li>23.8 (31 agosto 2023)</li><li>23.9 (28 settembre 2023)</li><li>23.10 (26 ottobre 2023)</li></ul> | <ul><li>23.10 (Settimana del 26 ottobre 2023)</li></ul> |
->| <ul><li>23.11 (novembre 2023)</li><li>23.12 (dicembre 2023)</li><li>24.1 (gennaio 2024)</li></ul> | <ul><li>24.1 (gennaio 2024)</li></ul> |
+>| <ul><li>Nessuna versione (novembre 2023)</li><li>Nessuna versione (dicembre 2023)</li><li>24.1 (gennaio 2024)</li></ul> | <ul><li>24.1 (gennaio 2024)</li></ul> |
+>
+>Per ulteriori informazioni sul processo di rilascio rapido, consulta [Attiva o disattiva il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Miglioramenti di Adobe Workfront
 
