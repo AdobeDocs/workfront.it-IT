@@ -8,9 +8,9 @@ author: Courtney / Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: ad04b732adac345bc015bb290dfd12898bb0a604
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,11 @@ Sebbene non sia ancora possibile aggiungere la logica di visualizzazione/salto d
 
 Le icone di un campo nel progettista del modulo indicano che la logica viene applicata al campo.
 
-Il **D** in basso a sinistra indica che il campo è il campo di destinazione per la logica di visualizzazione (se nel modulo viene effettuata una selezione specifica, questo campo viene visualizzato). Il **D** in basso a destra significa che il campo viene utilizzato per definire la logica di visualizzazione (una selezione o un valore specifico di questo campo visualizzerà il campo di destinazione).
+Il ![Logica di visualizzazione per il campo di destinazione](assets/display-logic-bottom-left.png) in basso a sinistra indica che il campo è il campo di destinazione per la logica di visualizzazione (se nel modulo viene effettuata una selezione specifica, questo campo viene visualizzato). Il ![Definire l’icona della logica di visualizzazione](assets/display-logic-bottom-right.png) in basso a destra significa che il campo viene utilizzato per definire la logica di visualizzazione (una selezione o un valore specifico di questo campo visualizzerà il campo di destinazione).
 
-Il **S** in basso a sinistra indica che il campo è il campo di destinazione per la logica di salto (se nel modulo viene effettuata una selezione specifica, il modulo passa a questo campo). Il **S** in basso a destra significa che il campo viene utilizzato per definire la logica di salto (una selezione o un valore specifico in questo campo salterà altri campi e passerà direttamente al campo di destinazione).
+Il ![Logica di salto per il campo di destinazione](assets/skip-logic-bottom-left.png) in basso a sinistra indica che il campo è il campo di destinazione per la logica di salto (se nel modulo viene effettuata una selezione specifica, il modulo passa a questo campo). Il ![Icona Definisci logica di salto](assets/skip-logic-bottom-right.png) in basso a destra significa che il campo viene utilizzato per definire la logica di salto (una selezione o un valore specifico in questo campo salterà altri campi e passerà direttamente al campo di destinazione).
+
+![Icone logiche](assets/logic-icons-3.png)
 
 Quando si seleziona un campo a cui è applicata la logica, vengono visualizzate le regole di logica esistenti nelle impostazioni del campo.
 
