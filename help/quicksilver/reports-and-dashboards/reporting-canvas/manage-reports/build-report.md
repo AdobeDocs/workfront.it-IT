@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Storia</td> 
-       <td> <p>Aggiungi testo che dia contesto alle informazioni contenute nel rapporto.</p> <p>Per ulteriori informazioni, vedere [collegamento finale].</p> </td> 
+       <td> <p>Aggiungi testo che dia contesto alle informazioni contenute nel rapporto.</p> </td> 
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Contenuto web</td> 
@@ -61,7 +61,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Filtro area di lavoro</td> 
-       <td> <p>Aggiungi un filtro che consenta agli utenti di esaminare diversi aspetti di un rapporto. Questo filtro si applica a tutti i dati nel rapporto.</p> <p>Per ulteriori informazioni, vedere [collegamento finale].</p> </td> 
+       <td> <p>Aggiungi un filtro che consenta agli utenti di esaminare diversi aspetti di un rapporto. Questo filtro si applica a tutti i dati nel rapporto.</p> </td> 
       </tr>
     </tbody> 
    </table>
@@ -107,7 +107,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
      </tr> 
      <tr> 
       <td role="rowheader">Preferite il rapporto</td> 
-      <td>Dopo aver lasciato il riquadro di modifica, fare clic su <strong>Stella</strong> icona [icon] accanto al nome del rapporto per aggiungerlo all’elenco dei rapporti preferiti.</td> 
+      <td>Dopo aver lasciato il riquadro di modifica, fare clic su <strong>Stella</strong> accanto al nome del rapporto per aggiungerlo all’elenco dei rapporti preferiti.</td> 
      </tr> 
     </tbody> 
    </table>

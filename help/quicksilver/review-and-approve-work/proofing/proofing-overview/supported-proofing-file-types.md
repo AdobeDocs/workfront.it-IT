@@ -7,9 +7,9 @@ description: È possibile condividere e rivedere vari tipi di file con i revisor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 Workfront ha i seguenti limiti:
 
 * I file devono essere inferiori a 4 GB per file.
-* I file Microsoft Word (DOC, DOCX) e PowerPoint (PPT, PPTX) devono essere inferiori a 512 MB.
+* I file Microsoft Word (DOC, DOCX) e PowerPoint (PPT, PPTX) devono essere inferiori a 512 MB. Questo vale anche per l’annullamento dell’archiviazione delle bozze di questi tipi di file create prima dell’implementazione del limite di dimensioni.
 * I file XLS e XLSX devono essere inferiori a 100 MB.
 * I file allegati ai commenti sulle bozze devono essere inferiori a 30 MB.
 * I PNG devono avere un&#39;altezza e una larghezza inferiori a 65535 px.
@@ -180,11 +180,15 @@ Workfront ha i seguenti limiti:
 > * XLT - Modello Microsoft Excel
 > * XLTX - Modello Microsoft Excel
 
+>[!WARNING]
+> Per un problema di sicurezza, temporaneamente non è supportato il seguente tipo di file statico:
+>
+> * EPS - PostScript incapsulato
+
 * AI - Illustrazione di Adobe Illustrator
 * AIT - Modello Adobe Illustrator
 * DOC - Documento di Microsoft Word
 * DOCX - Documento di Microsoft Word
-* EPS - PostScript incapsulato
 * PDF - File di documento portatile Adobe
 * PPT - Presentazione di PowerPoint
 * PPTX - Presentazione PowerPoint 2007 PS - File PostScript
