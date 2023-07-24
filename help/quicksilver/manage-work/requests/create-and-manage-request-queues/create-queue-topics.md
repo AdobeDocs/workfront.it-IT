@@ -4,11 +4,12 @@ navigation-topic: create-and-manage-request-queues
 title: Crea argomenti coda
 description: Gli argomenti della coda funzionano insieme alle regole di instradamento per assegnare automaticamente il lavoro in arrivo a un utente, a una mansione, a un team o per inserirlo in un progetto. Argomenti coda definiscono le condizioni necessarie per l'implementazione della regola di routing.
 author: Alina
-feature: Work Management
+feature: Work Management, Requests
+role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -140,14 +141,18 @@ Devi avere i seguenti:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipi di richieste</strong> </td> 
-      <td> <p>Scegliere il tipo di richieste archiviate dall'argomento coda. Le opzioni visibili sono impostate su <strong>Dettagli coda</strong> del progetto. Questo è un campo obbligatorio. </p> <p>Nota: i tipi di richiesta vengono visualizzati come selezione nell'area Richieste solo se il tipo di richiesta è selezionato sia nelle pagine Dettagli coda che Argomento coda. Per informazioni sulla configurazione dell’area Dettagli coda di un progetto, consulta <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a>. </p> <p>Selezionare uno dei tipi seguenti:</p> 
-       <ul> 
-        <li>Segnalazione Bug</li> 
-        <li>Richiesta di Modifica</li> 
-        <li>Problema</li> 
-        <li>Richiesta</li> 
-       </ul> <p>L'amministratore di Workfront potrebbe aver rinominato alcune di queste opzioni. </p> </td> 
-     </tr> 
+      <td> <p>Scegliere il tipo di richieste archiviate dall'argomento coda. Le opzioni visibili sono impostate su <strong>Dettagli coda</strong> del progetto. Questo è un campo obbligatorio. </p>
+
+   <p><b>NOTA</b>:
+
+   I tipi vengono visualizzati come selezione nell&#39;area Richieste solo se il tipo di richiesta è selezionato nelle pagine Dettagli coda e Argomento coda. Per informazioni sulla configurazione dell’area Dettagli coda di un progetto, consulta <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Creare una coda di richieste</a>. </p> <p>Selezionare uno dei tipi seguenti:</p>
+   <ul>
+   <li>Segnalazione Bug</li>
+   <li>Richiesta di Modifica</li>
+   <li>Problema</li>
+   <li>Richiesta</li>
+   </ul> <p>L&#39;amministratore di Workfront potrebbe aver rinominato alcune di queste opzioni. </p> </td>
+   </tr> 
     </tbody> 
    </table>
 
