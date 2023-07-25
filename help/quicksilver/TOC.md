@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
+source-git-commit: 5c47b09550c54b7ea4f8319bb42e93572e06324b
 workflow-type: tm+mt
-source-wordcount: '13125'
+source-wordcount: '13127'
 ht-degree: 1%
 
 ---
@@ -2583,6 +2583,7 @@ ht-degree: 1%
       * [Panoramica](proofhq-api/general/overview.md)
       * [Esempi di codice](proofhq-api/general/code-samples.md)
       * [Domande frequenti sulle API SOAP](proofhq-api/general/soap-api-faqs.md)
+* [File nascosto](hidden-test.md)
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify
