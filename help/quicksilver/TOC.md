@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: e6f5f09876afad6979e3ff05c152f561a3632701
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '13126'
+source-wordcount: '13125'
 ht-degree: 1%
 
 ---
@@ -447,7 +447,7 @@ ht-degree: 1%
          * [Funzionamento dei nuovi livelli di accesso](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
          * [Panoramica dei nuovi livelli di accesso](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
          * [Panoramica sulle nuove licenze](administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)
-         * [Accesso a oggetti e aree da per le nuove licenze](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+         * [Accesso a oggetti e aree tramite nuove licenze](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
          * [Funzionalità disponibile per ogni tipo di oggetto per i nuovi livelli di accesso](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
          * [Disattiva l&#39;opzione di aggiornamento automatico per gli utenti non pagati nel nuovo piano di licenze](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
       * Funzionamento dei livelli di accesso {#legacy-access-levels}
@@ -1875,7 +1875,7 @@ ht-degree: 1%
       * [Definire i tipi di ore e la disponibilità per le schede orario](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Creare una scheda orario monouso](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [Modifica informazioni scheda orario](timesheets/create-and-manage-timesheets/edit-timesheets.md)
-      * [Tempo di connessione](timesheets/create-and-manage-timesheets/log-time.md)
+      * [Registra ore](timesheets/create-and-manage-timesheets/log-time.md)
       * [Invia una scheda orario per l&#39;approvazione](timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
       * [Approvare una scheda orario](timesheets/create-and-manage-timesheets/timesheet-approvals.md)
       * [Visualizza le ore totali sulla scheda orario](timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)

@@ -3,29 +3,29 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Accesso a oggetti e aree per nuove licenze
-description: La tabella seguente indica il livello di accesso più alto (Modifica o Visualizza) consentito da ciascuna licenza Adobe Workfront per gli oggetti e le aree in Workfront.
+title: Accesso a oggetti e aree tramite nuove licenze
+description: La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza) consentito da ciascuna licenza Adobe Workfront per gli oggetti e le aree in Workfront.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
+source-git-commit: 38e548594b37ef3109d7df436955a5255881bb6d
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '397'
 ht-degree: 17%
 
 ---
 
-# Accesso a oggetti e aree per nuove licenze
+# Accesso a oggetti e aree tramite nuove licenze
 
-La tabella seguente indica il livello di accesso più alto (Modifica o Visualizza) consentito da ciascuna licenza Adobe Workfront per gli oggetti e le aree in Workfront.
+La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza) consentito da ciascuna licenza Adobe Workfront per gli oggetti e le aree in Workfront.
 
-* **Visualizza**: L&#39;utente può rivedere e condividere gli elementi.
-* **Modifica**: L’utente può creare, modificare, eliminare e condividere elementi.
+* **Visualizza**: l’utente può rivedere e condividere gli elementi.
+* **Modifica**: l’utente può creare, modificare, eliminare e condividere elementi.
 
-   >[!NOTE]
-   >
-   >Quando un altro utente condivide un oggetto, può specificare autorizzazioni che ne limitano la possibilità di modificarlo. Per ulteriori informazioni, consulta [Panoramica della condivisione delle autorizzazioni sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >[!NOTE]
+  >
+  >Quando un altro utente condivide un oggetto, può specificare le autorizzazioni che limitano la possibilità di modificarlo. Per ulteriori informazioni, consulta [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -75,10 +75,10 @@ La tabella seguente indica il livello di accesso più alto (Modifica o Visualizz
         <td>Modifica</td>
         <td>Visualizza</td>
         <td>Visualizza*</td>
-        <td>Visualizza (solo per calendari, nessuna autorizzazione di condivisione)</td>
+        <td>Visualizza (solo per i calendari, nessuna autorizzazione di condivisione)</td>
     </tr>
     <tr>
-        <td>Filtri, visualizzazioni e raggruppamenti</td>
+        <td>Filtri, viste e raggruppamenti</td>
         <td>Modifica</td>
         <td>Modifica</td>
         <td>Modifica</td>
@@ -142,28 +142,28 @@ La tabella seguente indica il livello di accesso più alto (Modifica o Visualizz
     </tr>
 </table>
 
-&#42; Gli utenti con una licenza da collaboratore possono visualizzare solo i rapporti, le dashboard e i calendari condivisi con loro.
+&#42; Gli utenti con una licenza Collaboratore possono visualizzare solo report, dashboard e calendari condivisi con loro.
 
 >[!NOTE]
 >
->Gli utenti con una licenza Light o una licenza Contributor hanno funzionalità di condivisione limitate. Per ulteriori informazioni, consulta [Panoramica sulle licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Gli utenti con una licenza Light o una licenza Contributor dispongono di funzionalità di condivisione limitate. Per ulteriori informazioni, consulta [Panoramica sulle licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
->Gli utenti esterni non possono cercare elementi in Workfront. Possono visualizzare documenti e calendari condivisi con gli utenti. Possono anche vedere gli utenti che condividono gli elementi con loro.
+>Gli utenti esterni non possono cercare elementi in Workfront. Possono visualizzare documenti e calendari condivisi in modo specifico con loro. Possono inoltre visualizzare gli utenti che condividono gli elementi con loro.
 
-Puoi trovare informazioni dettagliate su ciò che i livelli di accesso consentono per ogni oggetto e area nei seguenti articoli:
+Nei seguenti articoli sono disponibili informazioni dettagliate sui livelli di accesso consentiti per ciascun oggetto e area:
 
 * [Concedere l’accesso ai progetti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Concedere l’accesso alle attività](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
 * [Concedere l’accesso ai problemi](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Concedere l’accesso ai documenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
-* [Concedere l’accesso ai portafogli](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
+* [Concedere l’accesso ai portfolio](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
 * [Concedere l’accesso ai programmi](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
-* [Consentire l’accesso a report, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
-* [Consentire l’accesso a filtri, visualizzazioni e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
+* [Concedere l’accesso a rapporti, dashboard e calendari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
+* [Concedere l’accesso a filtri, viste e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [Concedere l’accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [Concedere l’accesso ai team](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Concedere l’accesso ai modelli](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
-* [Concedere l’accesso a Gestione risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
-* [Concedere l&#39;accesso a Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [Concedere l’accesso alla gestione delle risorse](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [Concedere l’accesso a Scenario Planner](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [Concedere l’accesso agli obiettivi di Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
