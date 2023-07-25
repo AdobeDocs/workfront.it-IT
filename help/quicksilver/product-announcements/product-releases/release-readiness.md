@@ -6,14 +6,20 @@ description: Segui questi suggerimenti per aggiornare facilmente la tua organizz
 author: Becky
 feature: Product Announcements
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: c31fe134c0a0494301adb49f5e8d14c009e72d11
+source-git-commit: 062ab8f2acfa2d5c43b333f8ee95fef817fd4fce
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
 
 # Prepararsi per un [!DNL Adobe Workfront] versione pianificata
+
+>[!NOTE]
+>
+>Workfront offre due modelli per il rilascio di nuove funzioni e aggiornamenti. La tua organizzazione può scegliere se ricevere nuove funzionalità su base trimestrale o secondo una pianificazione più rapida. Il processo di preparazione per una versione è simile, indipendentemente dal modello utilizzato dalla tua organizzazione.
+>
+>Per una spiegazione dettagliata dei due modelli di rilascio, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 [!DNL Adobe Workfront] rilascia regolarmente aggiornamenti importanti all’ambiente di produzione. As a [!DNL Workfront] amministratore, hai l’opportunità di garantire alla tua organizzazione una transizione fluida a ogni nuova versione di [!DNL Workfront] prodotto.
 
@@ -50,7 +56,7 @@ Per una descrizione dettagliata del [!DNL Workfront] processo di rilascio, vedi 
 
 Le note sulla versione di una data funzione vengono pubblicate quando la funzione viene recapitata al [!UICONTROL Anteprima Sandbox] ambiente. In questo modo, puoi conoscere ed esplorare la funzione prima che faccia parte dell&#39;ambiente di produzione.
 
-Ogni versione include una pagina di panoramica sulla versione con brevi descrizioni di ciascuna funzione e collegamenti a note più approfondite contenenti informazioni aggiuntive e video dimostrativi. Queste note approfondite sono organizzate per settimana, man mano che vengono rilasciati i rilasci in anteprima, e quindi vengono riorganizzate per area più vicina alla data di rilascio effettiva in produzione.
+Ogni versione include una pagina di panoramica sulla versione con brevi descrizioni di ciascuna funzione e collegamenti a note più approfondite contenenti informazioni aggiuntive e video dimostrativi. Queste note approfondite sono organizzate per settimana man mano che vengono rilasciati i rilasci in anteprima, e quindi vengono riorganizzate per area più vicina alla data effettiva di rilascio trimestrale di Produzione.
 
 Consigliamo vivamente di guardare i video dimostrativi disponibili nelle note sulla versione. Queste opzioni possono essere particolarmente utili per vedere la funzione in azione o per esaminare rapidamente il contesto della funzione se non si dispone di tempo sufficiente.
 
@@ -78,7 +84,7 @@ As a [!DNL Workfront] amministratore, riceverai il messaggio Centro notifiche da
 
 ### Esplora [!UICONTROL Anteprima Sandbox] ambiente
 
-Il [!UICONTROL Anteprima Sandbox] ambiente, noto anche come [!UICONTROL Anteprima] funge da ambiente in cui gli utenti dell’organizzazione possono testare e lavorare in modo sicuro con una copia separata dei dati dall’ambiente di produzione. [!UICONTROL Workfront] Verranno rilasciate nuove funzioni e funzionalità nell’ambiente di anteprima molto prima che vengano rilasciate nell’ambiente di produzione. Hai l’opportunità di acquisire familiarità con queste funzioni prima che vengano rilasciate nei flussi di lavoro giornalieri degli utenti. Quindi, se gli utenti hanno difficoltà a sfruttare le nuove funzioni, potrai aiutarli più facilmente ad adattarsi.
+Il [!UICONTROL Anteprima Sandbox] ambiente, noto anche come [!UICONTROL Anteprima] funge da ambiente in cui gli utenti dell’organizzazione possono testare e lavorare in modo sicuro con una copia separata dei dati dall’ambiente di produzione. [!UICONTROL Workfront] In genere vengono rilasciate nuove funzioni e funzionalità nell’ambiente di anteprima almeno due settimane prima che vengano rilasciate nell’ambiente di produzione. Hai l’opportunità di acquisire familiarità con queste funzioni prima che vengano rilasciate nei flussi di lavoro giornalieri degli utenti. Quindi, se gli utenti hanno difficoltà a sfruttare le nuove funzioni, potrai aiutarli più facilmente ad adattarsi.
 
 >[!TIP]
 >
