@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Anteprima e completamento di un modulo personalizzato con il generatore di moduli legacy
 description: Al termine della creazione o della modifica di un modulo personalizzato, è possibile visualizzarne l'anteprima per verificare l'aspetto per gli utenti, quindi salvarlo e chiuderlo.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%

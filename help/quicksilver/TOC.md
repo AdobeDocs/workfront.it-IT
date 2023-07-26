@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 5c47b09550c54b7ea4f8319bb42e93572e06324b
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '13127'
+source-wordcount: '13125'
 ht-degree: 1%
 
 ---
@@ -374,7 +374,7 @@ ht-degree: 1%
       * [Configurare le nozioni di base](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
       * [Panoramica del firewall](administration-and-setup/get-started-wf-administration/firewall-overview.md)
       * [Configurare il firewall per il inserisco nell&#39;elenco Consentiti del firewall](administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
-      * [Configurare il inserisco nell&#39;elenco Consentiti di e-mail per l’e-mail](administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
+      * [Configurare l’elenco Consentiti e-mail](administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
       * [Inviare annunci](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
       * [Requisiti del browser](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
       * [Differenze basate sulla piattaforma](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
@@ -1858,7 +1858,7 @@ ht-degree: 1%
          * [Suggerimenti, trucchi e risoluzione dei problemi per la verifica in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Elencare gli utenti con una licenza di verifica in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [Modificare il campo Profilo autorizzazione bozza in blocco](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
-         * [Disattiva la condivisione della bozza tramite URL pubblico o codice di incorporamento](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
+         * [Disattiva la condivisione della bozza tramite URL pubblico o codice incorporato](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [Domande frequenti: verifica della migrazione da Adobe Workfront, Stati Uniti a EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
    * Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni {#ttt-approvals}
       * [Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
@@ -2583,7 +2583,6 @@ ht-degree: 1%
       * [Panoramica](proofhq-api/general/overview.md)
       * [Esempi di codice](proofhq-api/general/code-samples.md)
       * [Domande frequenti sulle API SOAP](proofhq-api/general/soap-api-faqs.md)
-* [File nascosto](hidden-test.md)
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify

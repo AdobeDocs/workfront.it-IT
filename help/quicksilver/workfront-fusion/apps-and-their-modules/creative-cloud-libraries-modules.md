@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Moduli di Adobe Creative Cloud Libraries
 description: Con il [!DNL Adobe Workfront Fusion Adobe Creative Cloud] Nei moduli Libreria, puoi avviare uno scenario quando viene creato o aggiornato un elemento o una libreria. Puoi anche caricare, recuperare, archiviare o elencare elementi, oppure effettuare una chiamata al [!DNL Adobe Creative Cloud Libraries] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1241'
 ht-degree: 1%

@@ -2,10 +2,10 @@
 title: Aggiungere o modificare un’immagine o un altro widget di risorse in un modulo personalizzato con il generatore di moduli legacy
 description: Puoi aggiungere o modificare le proprietà di uno qualsiasi dei seguenti widget di risorse, come immagini, video, file PDF e file Adobe XD, in un modulo personalizzato. Questa funzione ti consente di includere contenuti visivi, come immagini di branding, un video istruttivo o un prototipo interattivo per un’app che stai progettando.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 1%
@@ -68,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * Se state aggiungendo un nuovo widget, selezionate **Immagine**, **PDF**, o **Video** per aggiungerlo nella parte inferiore del modulo o trascinarlo nella posizione desiderata all&#39;interno del modulo.
 
-      ![](assets/add-widget.png)
+     ![](assets/add-widget.png)
 
 
    * Se desideri aggiungere un widget già aggiunto a un altro modulo personalizzato, fai clic su **Libreria campi**, quindi fare clic sul nome del widget nell&#39;elenco visualizzato. Per ulteriori informazioni, consulta [Riutilizzare un campo personalizzato o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).

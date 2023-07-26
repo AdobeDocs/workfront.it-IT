@@ -5,15 +5,15 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: È possibile riattivare o disattivare un modulo personalizzato. È consigliabile disattivare i moduli personalizzati anziché eliminare i moduli che non vengono più utilizzati per conservare i dati storici.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: c0082dd73e3db8123f9cc08f1798ef8e70730625
+exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
 
 ---
-
 
 # Disattivare o riattivare un modulo personalizzato
 

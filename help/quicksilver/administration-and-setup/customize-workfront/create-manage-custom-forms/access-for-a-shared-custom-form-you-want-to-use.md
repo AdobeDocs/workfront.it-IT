@@ -1,26 +1,26 @@
 ---
 user-type: administrator
 product-area: system-administration
-keywords: accesso, condiviso, personalizzato, modulo
+keywords: accesso,condiviso,personalizzato,modulo
 navigation-topic: create-and-manage-custom-forms
-title: Accesso a un campo personalizzato condiviso da utilizzare
-description: Quando un utente condivide un campo personalizzato con accesso Visualizza o Gestisci , può configurare altre impostazioni per definire ulteriormente tale accesso. Se sei un destinatario del campo, queste impostazioni influiscono sulle operazioni che puoi eseguire con il campo . Quando si visualizza il campo, è possibile che venga visualizzato quanto segue.
+title: Accedere a un campo personalizzato condiviso che si desidera utilizzare
+description: Quando un utente condivide un campo personalizzato con l’accesso Visualizza o Gestisci, può configurare diverse altre impostazioni per definire ulteriormente tale accesso. Se sei un destinatario del campo, queste impostazioni influiscono su ciò che puoi fare con il campo. Quando visualizzi il campo, potresti visualizzare quanto segue.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
-# Accesso a un campo personalizzato condiviso da utilizzare
+# Accedere a un campo personalizzato condiviso che si desidera utilizzare
 
-Quando un utente condivide un campo personalizzato con accesso Visualizza o Gestisci , può configurare altre impostazioni per definire ulteriormente tale accesso. Se sei un destinatario del campo, queste impostazioni influiscono sulle operazioni che puoi eseguire con il campo . Quando si visualizza il campo, è possibile che venga visualizzato quanto segue.
+Quando un utente condivide un campo personalizzato con l’accesso Visualizza o Gestisci, può configurare diverse altre impostazioni per definire ulteriormente tale accesso. Se sei un destinatario del campo, queste impostazioni influiscono su ciò che puoi fare con il campo. Quando visualizzi il campo, potresti visualizzare quanto segue.
 
-Per ulteriori informazioni su come gli utenti configurano le impostazioni di condivisione quando condividono un modulo personalizzato, consulta [Configurare la condivisione per campi e widget personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Per ulteriori informazioni sulla configurazione delle impostazioni di condivisione durante la condivisione di un modulo personalizzato, vedere [Configurare la condivisione per campi e widget personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,52 +36,52 @@ Per ulteriori informazioni su come gli utenti configurano le impostazioni di con
    <td> 
     <ul> 
      <li>Visualizza</li> 
-     <li>Aggiungi a Forms personalizzato: Non selezionato</li> 
+     <li>Aggiungi a Forms personalizzato: non selezionato</li> 
     </ul> </td> 
-   <td> <p>Se si visualizza la scheda Campi nella pagina Forms personalizzata principale, è possibile visualizzare il campo, ma il pulsante Modifica non è disponibile nella barra degli strumenti quando si seleziona il campo.</p> </td> 
+   <td> <p>Se si visualizza la scheda Campi nella pagina principale Forms personalizzato, è possibile visualizzare il campo, ma il pulsante Modifica non è disponibile nella barra degli strumenti quando si seleziona il campo.</p> </td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Visualizza</li> 
-     <li>Aggiungi a Forms personalizzato: Selezionati</li> 
+     <li>Aggiungi a Forms personalizzato: selezionato</li> 
     </ul> </td> 
-   <td> <p>Se si aggiunge un campo a un modulo personalizzato:</p> 
+   <td> <p>Se si aggiunge il campo a un modulo personalizzato:</p> 
     <ul> 
-     <li>È possibile modificare le impostazioni relative al modulo per il campo, ad esempio la logica di visualizzazione, l’ordine, tra gli altri campi del modulo, se si tratta di un campo obbligatorio del modulo e la possibilità di rimuoverlo dal modulo.</li> 
-     <li>Non è possibile modificare le impostazioni relative al campo, ad esempio l’etichetta, il nome e il tipo.</li> 
+     <li>È possibile modificare le impostazioni relative al modulo per il campo, ad esempio la logica di visualizzazione, l'ordine tra gli altri campi del modulo, se si tratta di un campo obbligatorio del modulo e la possibilità di rimuoverlo dal modulo.</li> 
+     <li>Non è possibile modificare le impostazioni relative al campo, ad esempio l'etichetta, il nome e il tipo.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Gestisci</li> 
-     <li>A livello di sistema modificabile</li> 
+     <li>Modificabile a livello di sistema</li> 
     </ul> </td> 
-   <td>È possibile aggiungere il campo ai moduli personalizzati e modificare le relative impostazioni relative al campo, ad esempio l’etichetta, il nome e il tipo.</td> 
+   <td>È possibile aggiungere il campo ai moduli personalizzati e modificare le relative impostazioni, ad esempio l'etichetta, il nome e il tipo.</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Gestisci</li> 
     </ul> </td> 
-   <td> <p>Se si visualizza la scheda Campi nella pagina Forms personalizzata principale, quando si seleziona il campo è disponibile il pulsante Modifica sulla barra degli strumenti.</p> </td> 
+   <td> <p>Se si visualizza la scheda Campi nella pagina principale Forms personalizzato, il pulsante Modifica è disponibile sulla barra degli strumenti quando si seleziona il campo.</p> </td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Visualizza o Gestisci</li> 
-     <li>Condividi: Non selezionato</li> 
+     <li>Condivisione: non selezionata</li> 
     </ul> </td> 
-   <td> <p>Le impostazioni di condivisione non sono visibili quando si visualizza il campo durante la creazione o la modifica di un modulo personalizzato.</p> <p>Se si visualizza la scheda Campi nella pagina Forms personalizzata principale, il pulsante Condividi della barra degli strumenti non è disponibile nella barra degli strumenti quando si seleziona il campo.</p> </td> 
+   <td> <p>Le impostazioni di condivisione non sono visibili quando si visualizza il campo durante la creazione o la modifica di un modulo personalizzato.</p> <p>Se si visualizza la scheda Campi nella pagina principale Forms personalizzato, il pulsante Condividi della barra degli strumenti non sarà disponibile quando si seleziona il campo.</p> </td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li>Visualizza o Gestisci</li> 
-     <li>Elimina: Non selezionato</li> 
+     <li>Elimina: non selezionato</li> 
     </ul> </td> 
-   <td> <p>Se si visualizza la scheda Campi nella pagina Forms personalizzata principale, il pulsante Elimina non è disponibile nella barra degli strumenti quando si seleziona il campo.</p> </td> 
+   <td> <p>Se si visualizza la scheda Campi nella pagina principale Forms personalizzato, il pulsante Elimina non è disponibile nella barra degli strumenti quando si seleziona il campo.</p> </td> 
   </tr> 
  </tbody> 
 </table>

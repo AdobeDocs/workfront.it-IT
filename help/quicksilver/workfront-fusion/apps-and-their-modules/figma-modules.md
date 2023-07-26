@@ -7,8 +7,9 @@ navigation-topic: apps-and-their-modules
 title: Moduli Figma
 description: Con il [!DNL Adobe Workfront Fusion] Nei moduli Figma è possibile recuperare elenchi di commenti, file, versioni di file o progetti. Puoi anche pubblicare un commento o effettuare una chiamata all’API Figma.
 author: Becky
+feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2309'
 ht-degree: 1%
@@ -255,7 +256,7 @@ Questo modulo di azione recupera un singolo file o immagine da una libreria Figm
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL File Key]</td>
+      <td role="rowheader">[!UICONTROL File key]</td>
       <td>Seleziona il file da cui vuoi restituire il JSON.</td>
     </tr>
     <tr>

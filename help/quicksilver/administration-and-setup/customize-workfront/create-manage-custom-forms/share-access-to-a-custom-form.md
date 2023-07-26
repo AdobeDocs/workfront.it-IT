@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: È possibile configurare l'accesso per un modulo personalizzato in modo da controllare chi, persona, ruolo, gruppo, team, azienda, può visualizzarlo, condividerlo e modificarlo.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '884'
 ht-degree: 1%
@@ -97,7 +97,6 @@ Anziché lasciare un modulo personalizzato nello stato di condivisione predefini
    >
    >* Quando si rende visibile un modulo personalizzato a livello di sistema, è possibile consentire agli utenti di visualizzarlo e compilarlo solo sugli oggetti a cui sono assegnati, non di allegarlo ad altri oggetti. È possibile concedere la possibilità di allegare il modulo personalizzato agli oggetti utilizzando l&#39;opzione &quot;Allega a dati personalizzati&quot; descritta nel passaggio 5.
    >* La maggior parte delle organizzazioni desidera assicurarsi che tutti gli utenti del sistema possano compilare un modulo personalizzato quando è allegato agli oggetti su cui lavorano e visualizzarne i dati nei rapporti. Se questo è vero per la tua organizzazione, ti consigliamo di utilizzare &quot;**Rendi visibile a livello di sistema**.&quot; Se l&#39;opzione è configurata in questo modo, nella finestra di dialogo viene visualizzato &quot;Visibile a livello di sistema&quot;:
-
    >   
    >![](assets/visible-system-wide-350x480.png)
    >   

@@ -5,10 +5,10 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: In un modulo personalizzato è possibile creare un campo personalizzato calcolato che genera calcoli. A questo scopo, è necessario creare un'istruzione che utilizzi espressioni di dati e i nomi dei campi esistenti, che possono essere campi personalizzati, campi di dati personalizzati calcolati e campi Workfront incorporati. Questa istruzione calcola i dati immessi e visualizza il risultato nel nuovo campo personalizzato calcolato.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 0%
@@ -23,19 +23,19 @@ Un campo personalizzato calcolato può contenere:
 
 * Un semplice riferimento a un singolo campo incorporato.
 
-   >[!INFO]
-   >
-   > **Esempio:** Per calcolare i ricavi generati dai progetti e dalle attività, è possibile creare un campo personalizzato calcolato contenente il campo predefinito Ricavi effettivi. Quando un utente allega il modulo personalizzato a un progetto o a un’attività, nel campo vengono visualizzate le entrate relative al progetto o all’attività.
+  >[!INFO]
+  >
+  > **Esempio:** Per calcolare i ricavi generati dai progetti e dalle attività, è possibile creare un campo personalizzato calcolato contenente il campo predefinito Ricavi effettivi. Quando un utente allega il modulo personalizzato a un progetto o a un’attività, nel campo vengono visualizzate le entrate relative al progetto o all’attività.
 
 * Espressione che fa riferimento a uno o più campi. Possono essere campi personalizzati, altri campi personalizzati calcolati e campi incorporati.
 
-   >[!INFO]
-   >
-   >**Esempio:** Per calcolare il profitto generato dai progetti e dalle attività, è possibile creare un campo personalizzato calcolato denominato Profitto contenente un&#39;espressione matematica che sottrae il costo dai ricavi.
-   >
-   >A tale scopo, è possibile utilizzare l&#39;espressione matematica SUB (sottrazione) con i campi incorporati di Workfront Costo effettivo e Ricavo effettivo.
-   >
-   >Nei passaggi seguenti puoi vedere come può essere eseguito questo esempio.
+  >[!INFO]
+  >
+  >**Esempio:** Per calcolare il profitto generato dai progetti e dalle attività, è possibile creare un campo personalizzato calcolato denominato Profitto contenente un&#39;espressione matematica che sottrae il costo dai ricavi.
+  >
+  >A tale scopo, è possibile utilizzare l&#39;espressione matematica SUB (sottrazione) con i campi incorporati di Workfront Costo effettivo e Ricavo effettivo.
+  >
+  >Nei passaggi seguenti puoi vedere come può essere eseguito questo esempio.
 
 Per informazioni sulla creazione di moduli personalizzati per l’organizzazione e sul tipo di campi che è possibile associare a essi, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
@@ -139,17 +139,15 @@ Puoi utilizzare sia i campi Workfront incorporati che i campi personalizzati gi�
    >Per ottenere informazioni sui calcoli, eseguire una delle operazioni seguenti:
    > 
    >* Passa il puntatore del mouse su un&#39;espressione nel calcolo per visualizzare una descrizione, un esempio che mostra come può essere utilizzata e un collegamento &quot;Ulteriori informazioni&quot; per ulteriori informazioni nell&#39;articolo [Espressioni dati calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
-      >  ![](assets/hover-expression-help-text.jpg)
+   >  ![](assets/hover-expression-help-text.jpg)
    >* Utilizza la codifica a colori per identificare i componenti aggiunti. Le espressioni vengono visualizzate in blu e i campi in verde.
-      >  ![](assets/colors-fields-expressions.jpg)
+   >  ![](assets/colors-fields-expressions.jpg)
    >* Individuare gli errori di calcolo, evidenziati in rosa. Puoi passare il cursore del mouse su un errore evidenziato per visualizzarne una breve descrizione della causa.
-      >  ![](assets/error-help.png)
+   >  ![](assets/error-help.png)
    >* Nell&#39;area sottostante il calcolo, visualizzare in anteprima i risultati di un oggetto Workfront esistente.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-
-      >  ![](assets/preview-calc.jpg)
+   ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
+   >  ![](assets/preview-calc.jpg)
    >* Riferimento alle espressioni in un calcolo lungo utilizzando i numeri di riga visualizzati a sinistra.
-
 
 1. Clic **Riduci a icona** al termine della creazione del calcolo per il campo personalizzato calcolato.
 
@@ -220,15 +218,15 @@ Il sistema elenca tutti i campi personalizzati tra cui è possibile scegliere qu
 
 * Se vuoi che il calcolo faccia riferimento a un campo che estrae dati da *principale* oggetto quando il modulo personalizzato viene allegato a un oggetto, è necessario anteporre al nome del campo il tipo di oggetto dell&#39;oggetto padre, tra parentesi graffe.
 
-   Ad esempio, se il modulo personalizzato è configurato per l&#39;utilizzo con le attività e si desidera che il campo calcoli le entrate effettive dell&#39;oggetto padre quando il modulo viene allegato a un&#39;attività, è necessario indicare `Project` come tipo di oggetto del campo:
+  Ad esempio, se il modulo personalizzato è configurato per l&#39;utilizzo con le attività e si desidera che il campo calcoli le entrate effettive dell&#39;oggetto padre quando il modulo viene allegato a un&#39;attività, è necessario indicare `Project` come tipo di oggetto del campo:
 
-   `{project}.{actualRevenue}`
+  `{project}.{actualRevenue}`
 
-   Oppure, se si tratta di un campo personalizzato:
+  Oppure, se si tratta di un campo personalizzato:
 
-   `{project}.{DE:profit}`
+  `{project}.{DE:profit}`
 
-   Se non si è sicuri di quale sarà il tipo di oggetto dell&#39;oggetto padre perché l&#39;oggetto personalizzato per è configurato per più tipi di oggetto, è possibile utilizzare la variabile di filtro con caratteri jolly `$$OBJCODE` per consentire il funzionamento del calcolo per ciascuno dei tipi possibili. Per ulteriori informazioni, consulta [Campi personalizzati calcolati nei moduli personalizzati con più oggetti](#calculated-custom-fields-in-multi-object-custom-forms) in questo articolo.
+  Se non si è sicuri di quale sarà il tipo di oggetto dell&#39;oggetto padre perché l&#39;oggetto personalizzato per è configurato per più tipi di oggetto, è possibile utilizzare la variabile di filtro con caratteri jolly `$$OBJCODE` per consentire il funzionamento del calcolo per ciascuno dei tipi possibili. Per ulteriori informazioni, consulta [Campi personalizzati calcolati nei moduli personalizzati con più oggetti](#calculated-custom-fields-in-multi-object-custom-forms) in questo articolo.
 
 ### Separa elementi con periodi
 
@@ -278,7 +276,7 @@ In questo caso, puoi effettuare una delle seguenti operazioni:
 
 >[!INFO]
 >
->**Esempio:** Sebbene nei progetti non sia presente il campo Assegnato a: Nome, è disponibile un campo Proprietario incorporato (che viene automaticamente compilato con il nome della persona che ha creato il progetto, a meno che questo non venga modificato manualmente da qualcuno).
+>**Esempio:** Sebbene nei progetti non sia presente il campo Assegnato a: Nome, è disponibile un campo Proprietario predefinito che viene automaticamente compilato con il nome della persona che ha creato il progetto, a meno che questa impostazione non venga modificata manualmente.
 >
 >Quindi, nel campo personalizzato In carica, puoi utilizzare `$$OBJCODE` come mostrato di seguito per fare riferimento al campo Proprietario quando il modulo personalizzato è allegato a un progetto e al campo Assegnato a: Nome quando il modulo è allegato a un’attività:
 >
@@ -294,7 +292,6 @@ I campi personalizzati calcolati su un oggetto vengono ricalcolati automaticamen
 * Qualcuno modifica un altro campo a cui fa riferimento un campo personalizzato calcolato sull’oggetto.
 * L&#39;espressione calcolata è vuota e il campo contiene un valore, che imposta il valore su null.
 
-   >[!NOTE]
-   >
-   ><div>In un modulo personalizzato allegato a un oggetto, le istruzioni di data e ora nei campi personalizzati calcolati vengono calcolate e salvate in base al tempo UTC (Coordinated Universal Time) e non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e il tuo profilo utente. I calcoli in un modulo personalizzato vengono generati in base ai singoli fusi orari degli utenti.</div>
-
+  >[!NOTE]
+  >
+  ><div>In un modulo personalizzato allegato a un oggetto, le istruzioni di data e ora nei campi personalizzati calcolati vengono calcolate e salvate in base al tempo UTC (Coordinated Universal Time) e non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e il tuo profilo utente. I calcoli in un modulo personalizzato vengono generati in base ai singoli fusi orari degli utenti.</div>

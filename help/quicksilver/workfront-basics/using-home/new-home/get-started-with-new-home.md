@@ -4,7 +4,8 @@ navigation-topic: use-the-home-area
 title: Introduzione alla nuova home in Adobe Workfront
 description: La nuova Home è una nuova potente funzione per gestire il tuo lavoro.
 author: Nolan
-source-git-commit: f25b435d2615eabba6e9feaef4e59c65d46bb819
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -97,7 +98,7 @@ Per gli utenti che preferiscono l’esperienza Home esistente, Nuova Home può e
 
    ![Pulsante Torna alla pagina iniziale corrente](../new-home/assets/go-back-to-current-home-button.png)
 
-1. Nella finestra di conferma visualizzata, puoi scegliere di rispondere a un breve sondaggio sulla tua esperienza con New Home o fare clic su **Torna alla Home attuale** per finalizzare la decisione e ripristinare l’esperienza Home corrente.
+1. Nella finestra di conferma visualizzata, puoi scegliere di svolgere un breve sondaggio sull’esperienza con Nuova Home o fare clic su **Torna alla Home attuale** per finalizzare la decisione e ripristinare l’esperienza Home corrente.
 
 >[!NOTE]
 >

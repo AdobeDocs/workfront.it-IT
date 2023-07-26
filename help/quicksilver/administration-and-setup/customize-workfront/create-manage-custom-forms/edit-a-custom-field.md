@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Modificare le proprietà di un campo personalizzato, un’interruzione di sezione o un widget in un modulo personalizzato
 description: Puoi modificare le proprietà di un campo personalizzato, di un’interruzione di sezione o di un widget utilizzato nel modulo personalizzato nella tua istanza di Adobe Workfront. Questi includono l’etichetta, il nome, le istruzioni e così via dell’elemento.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%

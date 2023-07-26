@@ -4,7 +4,8 @@ navigation-topic: new-home
 title: Aggiungere, modificare o rimuovere widget in Nuova Home
 description: È possibile scegliere tra diversi widget per personalizzare il contenuto visualizzato nella home page. Questi widget possono essere ridimensionati e disposti nella home page.
 author: Nolan
-source-git-commit: 73a1c2c2df48ea47c09c0a69e48ae59ead5cbbd9
+feature: Get Started with Workfront
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%

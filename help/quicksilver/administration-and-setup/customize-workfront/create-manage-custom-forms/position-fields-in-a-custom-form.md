@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Posizionare campi e widget personalizzati in un modulo personalizzato con il generatore di moduli legacy
 description: È possibile riposizionare campi e widget personalizzati in un modulo personalizzato.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: f96425e3-8e20-43ac-8340-915538ae5886
-source-git-commit: ac5b7e0237dbcaea14010eda658f7d5a6be089cc
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -67,7 +67,6 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 >* È possibile utilizzare **Anteprima** nell’angolo in basso a destra per avere un’idea di come verranno visualizzati nel modulo i campi personalizzati e i widget.
 >* I campi Testo descrittivo non possono condividere una riga.
 >* I campi personalizzati e i widget potrebbero non essere sempre visualizzati allo stesso modo nel modulo, a seconda dello spazio disponibile sullo schermo quando viene visualizzato da un utente. Ad esempio, il terzo campo di una riga di campi può essere disposto alla riga successiva di campi se lo spazio orizzontale è limitato.
-
 
 1. (Facoltativo)Per posizionare un campo personalizzato o un widget sopra o sotto un altro campo, trascinarlo sopra o sotto fino a visualizzare una linea blu orizzontale tra gli elementi.
 1. Clic **Applica**.

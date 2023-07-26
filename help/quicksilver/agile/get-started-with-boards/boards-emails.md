@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Bacheche notifiche e preferenze e-mail
 description: Le bacheche Adobe Workfront ti inviano un’e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda.
 author: Lisa
+feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%

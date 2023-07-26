@@ -4,8 +4,9 @@ navigation-topic: delegate-work
 title: Delega attività e problemi
 description: Puoi delegare temporaneamente il lavoro che ti è stato assegnato mentre sei fuori sede. Questo articolo descrive come delegare le assegnazioni di attività e problemi.
 author: Alina
+feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 1%
@@ -32,16 +33,14 @@ Per informazioni generali sulla delega del lavoro, consulta [Panoramica sul lavo
 >
 >* Gli utenti che selezioni come delegati ricevono le stesse autorizzazioni delle tue autorizzazioni per le attività e i problemi che deleghi loro.
 >* Le autorizzazioni devono funzionare all’interno dei loro livelli di accesso e a volte i loro livelli di accesso potrebbero essere inferiori ai tuoi.
-
-   >
-   >   
-   >   Ad esempio, se un utente dispone solo dell&#39;accesso Visualizzazione alle attività nel proprio livello di accesso e si dispone delle autorizzazioni Gestione per le attività delegate, riceverà le autorizzazioni Gestione per le attività delegate. Tuttavia, non potranno eseguire le stesse azioni che esegui sulle attività delegate. Devono richiedere all&#39;amministratore di sistema l&#39;accesso di modifica alle attività per poter aggiornare le attività in assenza dell&#39;utente.
-   >
-   >   
-   >   Per informazioni su come modificare il livello di accesso, consulta [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>
+>   
+>   Ad esempio, se un utente dispone solo dell&#39;accesso Visualizzazione alle attività nel proprio livello di accesso e si dispone delle autorizzazioni Gestione per le attività delegate, riceverà le autorizzazioni Gestione per le attività delegate. Tuttavia, non potranno eseguire le stesse azioni che esegui sulle attività delegate. Devono richiedere all&#39;amministratore di sistema l&#39;accesso di modifica alle attività per poter aggiornare le attività in assenza dell&#39;utente.
+>
+>   
+>   Per informazioni su come modificare il livello di accesso, consulta [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* Per gli elementi assegnati dopo l&#39;avvio della delega, può essere necessaria un&#39;ora dopo l&#39;assegnazione dell&#39;elemento per [!DNL Workfront] condividere gli elementi appena assegnati con il delegato.
-
 
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
@@ -87,7 +86,7 @@ Prima di poter eseguire le attività descritte in questo articolo, è necessario
 
 * Il tuo [!DNL Workfront] o dall&#39;amministratore del gruppo abilitato [!UICONTROL Consenti agli utenti di eliminare attività e problemi con ore registrate] impostazione in [!UICONTROL Configurazione] dell&#39;area [!DNL Workfront] dell&#39;istanza.
 
-   Per ulteriori informazioni, consulta [Configurare le preferenze per attività e problemi a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Per ulteriori informazioni, consulta [Configurare le preferenze per attività e problemi a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Delega attività e problemi a un altro utente
 
@@ -105,29 +104,30 @@ Per delegare le tue attività e i tuoi problemi ad altri:
 
    * [!UICONTROL **Delega le tue attività e i tuoi problemi a**]: inizia a digitare il nome di un utente al quale desideri delegare le attività e i problemi, quindi selezionalo quando viene visualizzato nell’elenco. È possibile selezionare un solo utente.\
 
-      L&#39;utente che si seleziona come delegato riceve le stesse autorizzazioni delle autorizzazioni relative alle attività e ai problemi che si delegano loro. Per ulteriori informazioni, consulta [Panoramica sulle attività e sui problemi dei delegati](delegate-work-overview.md).
+     L&#39;utente che si seleziona come delegato riceve le stesse autorizzazioni delle autorizzazioni relative alle attività e ai problemi che si delegano loro. Per ulteriori informazioni, consulta [Panoramica sulle attività e sui problemi dei delegati](delegate-work-overview.md).
 
    * [!UICONTROL **Data di inizio**]: seleziona una data dal calendario a partire dalla quale deve iniziare la delega degli elementi di lavoro.
 
-      >[!TIP]
-      >
-      >La data di inizio non può essere nel passato.
+     >[!TIP]
+     >
+     >La data di inizio non può essere nel passato.
 
    * [!UICONTROL **Nessuna data di fine**]: seleziona questa opzione se non desideri specificare la data di fine della delega.
 
    * [!UICONTROL **Data di fine**]: seleziona una data dal calendario in cui la delega deve terminare.
 
-      >[!TIP]
-      >
-      >La mancata selezione di una data di fine abilita la delega solo per il giorno corrente.
+     >[!TIP]
+     >
+     >La mancata selezione di una data di fine abilita la delega solo per il giorno corrente.
 
-      ![](assets/delegate-box-expanded-in-home.png)
+     ![](assets/delegate-box-expanded-in-home.png)
 
 1. Fai clic su [!UICONTROL **Salva**].
 
    Si verificano le seguenti situazioni:
 
    * Il lavoro è delegato all&#39;utente specificato. Eventuali attività o problemi incompleti con date comprese nell’intervallo di tempo selezionato (compresi quelli appena assegnati, dopo l’abilitazione della delega) vengono delegati.
+
    >[!TIP]
    >
    >   Gli elementi di lavoro completati con date comprese nell’intervallo di tempo della delega non vengono delegati.
@@ -138,7 +138,6 @@ Per delegare le tue attività e i tuoi problemi ad altri:
    * Nella maggior parte delle aree in cui è possibile visualizzare le assegnazioni in, viene visualizzata un&#39;indicazione che indica che le attività e i problemi sono delegati ad altri utenti. [!DNL Workfront]. Per ulteriori informazioni sulle aree in cui non sono inclusi i nomi dei delegati, vedere [Panoramica sulle attività e sui problemi dei delegati](delegate-work-overview.md).
 
    * Il [!UICONTROL **Delega**] pulsante in [!UICONTROL Home] modifica area in [!UICONTROL **Modifica delega**] per indicare che esiste una delega.
-
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
@@ -151,8 +150,7 @@ Per delegare le tue attività e i tuoi problemi ad altri:
 
    * L’utente selezionato come delegato riceve un’e-mail sulla delega, se le relative notifiche degli eventi sono abilitate.
 
-      Per informazioni sull’abilitazione delle notifiche e-mail personali, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
+     Per informazioni sull’abilitazione delle notifiche e-mail personali, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 
@@ -203,13 +201,13 @@ Quando l&#39;amministratore del sistema o del gruppo abilita la delega del lavor
 
 * Intestazione dell’attività o del problema
 
-   ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
-   Il [!UICONTROL Assegnazioni] nell’intestazione dell’attività o del problema diventa [!UICONTROL Assegnazioni e deleghe].
+  Il [!UICONTROL Assegnazioni] nell’intestazione dell’attività o del problema diventa [!UICONTROL Assegnazioni e deleghe].
 
 * Il [!UICONTROL Bilanciatore dei carichi di lavoro] quando si assegnano manualmente attività o problemi
 
-   ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -243,6 +241,7 @@ Se un’attività o un problema è delegato e il [!UICONTROL Deleghe] scheda sec
    * Per gli elementi che hai delegato ad altri, il nome del delegato viene visualizzato nel [!UICONTROL **Elenco lavori**] nonché [!UICONTROL **Assegnazioni e deleghe**] campo a destra.
 
    * Per gli elementi delegati, il nome dell&#39;assegnatario viene visualizzato nel [!UICONTROL **Elenco lavori**] nonché **[!UICONTROL Assegnazioni e deleghe]** campo a destra.
+
    >[!TIP]
    >
    >    Se la delega è impostata per iniziare in una data successiva alla data odierna, la data di inizio della delega viene visualizzata anche nel [!UICONTROL Elenco lavori]. Gli elementi delegati vengono visualizzati nel raggruppamento selezionato per [!UICONTROL Elenco lavori], in base al tipo di raggruppamento. Ad esempio, se si raggruppa per [!UICONTROL Data di completamento Pianificata], gli elementi delegati vengono visualizzati nel raggruppamento che corrisponde alle date di completamento pianificate.

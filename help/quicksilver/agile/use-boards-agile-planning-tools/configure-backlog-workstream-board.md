@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Configurare il backlog in una bacheca del flusso di lavoro
 description: Puoi scegliere di visualizzare una colonna di backlog su una bacheca in un flusso di lavoro e definire una query per le schede inserite nel backlog della bacheca dall’elenco delle schede del flusso di lavoro.
 author: Lisa
+feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: fffbf47e75e5ff1b6cd7ce37e0198a07459006da
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%

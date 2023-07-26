@@ -5,8 +5,9 @@ navigation-topic: boards
 title: Consenso anticipato alle funzioni per [!DNL Adobe Workfront] Schede
 description: Leggi questo articolo per saperne di più su [!DNL Workfront Boards] consenso alle funzioni anticipate.
 author: Lisa
+feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%

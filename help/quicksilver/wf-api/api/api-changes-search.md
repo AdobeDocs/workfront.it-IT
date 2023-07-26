@@ -1,21 +1,22 @@
 ---
 filename: api-changes-search
 content-type: api
-keywords: oggetto,stato,ricerca,best,pratica,risposta
+keywords: oggetto,stato,ricerca,best,procedure,risposta
 navigation-topic: api-navigation-topic
-title: '''Modifiche API di base: Risposte alla ricerca dello stato'
+title: "Modifiche API di base: risposte alla ricerca di stato"
 description: Modifiche nel modo in cui Workfront memorizza gli oggetti di stato.
+feature: Workfront API
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
 
 ---
 
-# Modifiche API di base: Risposte alla ricerca dello stato
+# Modifiche API di base: risposte alla ricerca di stato
 
-Sono state apportate modifiche al modo in cui Workfront memorizza gli oggetti di stato. Queste modifiche non influiscono sulle modalità di esecuzione delle richieste di ricerca dello stato, ma influenzano la risposta restituita dalle richieste API che includono una ricerca di oggetti di stato restituendo un elenco incompleto di stati del gruppo.
+Sono state apportate modifiche al modo in cui Workfront memorizza gli oggetti di stato. Queste modifiche non influiscono sul modo in cui vengono effettuate le richieste di ricerca dello stato, ma sulla risposta restituita dalle richieste API che includono una ricerca di oggetti stato restituendo un elenco incompleto di stati del gruppo.
 
 ## Best practice
 
@@ -23,9 +24,9 @@ Per recuperare in modo affidabile l’elenco completo degli stati disponibili pe
 
 >[!NOTE]
 >
->Queste strutture di richiesta sono consigliate per tutti gli utenti indipendentemente dal fatto che siano state apportate o meno le modifiche alla ricerca dello stato nel cluster.
+>Queste strutture di richiesta sono consigliate per tutti gli utenti, indipendentemente dal fatto che le modifiche alla ricerca dello stato siano state apportate o meno al cluster.
 
-Per lo stato del gruppo di progetto:
+Per Stato Gruppo Progetto:
 
 >**Esempio:**
 
@@ -33,7 +34,7 @@ Per lo stato del gruppo di progetto:
 /attask/api/<VERSION>/CSTEM/projectGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Per Stato Gruppo Di Attività:
+Per lo stato del gruppo di task:
 
 >**Esempio:**
 
@@ -41,7 +42,7 @@ Per Stato Gruppo Di Attività:
 /attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Per Stato Gruppo Di Problemi:
+Per lo stato del gruppo di problemi:
 
 >**Esempio:**
 
@@ -49,9 +50,9 @@ Per Stato Gruppo Di Problemi:
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Tutti e tre questi endpoint accettano il **includeHidden=true** per recuperare gli stati nascosti di progetto/attività/problema di un determinato gruppo. Modellare le query di ricerca dello stato dopo questi esempi di best practice garantirà che tutte le informazioni sullo stato del gruppo siano incluse con ogni risposta.
+Questi tre endpoint accettano **includeHidden=true** per recuperare gli stati nascosti di progetto/attività/problema di un determinato gruppo. La modellazione delle query di ricerca dello stato dopo questi esempi di best practice garantirà che tutte le informazioni sullo stato del gruppo siano incluse in ogni risposta.
 
-Esempio di query di ricerca dello stato eseguita su un gruppo di attività che include uno stato bloccato a livello di sistema **Personalizzato_1** e uno stato sbloccato **Personalizzato_2**:
+Di seguito è riportato un esempio di query di ricerca stato eseguita su un gruppo di attività che include uno stato bloccato a livello di sistema **Personalizzato_1** e uno stato sbloccato **Personalizzato_2**:
 
 >**Esempio:**
 
@@ -110,7 +111,7 @@ L’utilizzo di questo formato assicura che la risposta includa tutti i seguenti
 
 ## Informazioni sulle modifiche apportate alla query di ricerca dello stato legacy
 
-Nel sistema precedente, una query di ricerca dello stato copierebbe tutti gli stati del sistema disponibili per tutti i gruppi inclusi in una query. La risposta legacy includerebbe quindi tutti gli stati del sistema e gli stati a livello di gruppo disponibili per ciascun gruppo nella query.
+Nel sistema legacy, una query di ricerca dello stato copia tutti gli stati di sistema disponibili per tutti i gruppi inclusi in una query. La risposta legacy includerebbe quindi tutti gli stati di sistema e gli stati a livello di gruppo disponibili per ciascun gruppo nella query.
 
 Ad esempio, questa query (che non segue le best practice consigliate correnti):
 
@@ -120,7 +121,7 @@ Ad esempio, questa query (che non segue le best practice consigliate correnti):
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK
 ```
 
-La risposta seguente viene fornita nel sistema legacy, che include tutti gli stati dell’oggetto:
+Avrebbe la seguente risposta nel sistema legacy, che include tutti gli stati dell’oggetto:
 
 ```
 {
@@ -169,11 +170,11 @@ La risposta seguente viene fornita nel sistema legacy, che include tutti gli sta
 }
 ```
 
-Tuttavia, in seguito agli aggiornamenti apportati al modo in cui gli stati vengono memorizzati e utilizzati, gli stati non vengono copiati per i gruppi e vengono ereditati da ciascun gruppo a livello di sistema. Di conseguenza, la query API di ricerca legge solo gli stati direttamente associati a un particolare gruppo, pertanto la risposta include gli stati bloccati e sbloccati del sistema, ma solo per i gruppi creati dopo l’aggiunta dello stato in questione.
+Tuttavia, in seguito agli aggiornamenti apportati alla modalità di archiviazione e utilizzo degli stati, questi non vengono copiati per i gruppi e vengono ereditati da ciascun gruppo a livello di sistema. Di conseguenza, la query API di ricerca legge solo gli stati direttamente associati a un determinato gruppo, quindi la risposta include gli stati bloccati e sbloccati dal sistema, ma solo per i gruppi creati dopo l’aggiunta dello stato in questione.
 
-Se non si utilizzano i metodi best practice aggiornati per eseguire query di ricerca dello stato dopo l’aggiornamento del sistema precedente, nella risposta verrà restituito un elenco incompleto degli stati del gruppo.
+Se non si utilizzano i metodi best practice aggiornati per eseguire query di ricerca dello stato dopo l’aggiornamento del sistema legacy, nella risposta verrà restituito un elenco incompleto degli stati dei gruppi.
 
-Ecco un esempio di ciò che restituisce questa struttura di richiesta obsoleta dopo l’aggiornamento del sistema legacy:
+Di seguito è riportato un esempio di ciò che questa struttura di richieste obsoleta restituisce dopo l’aggiornamento del sistema legacy:
 
 >**Esempio:**
 
@@ -181,7 +182,7 @@ Ecco un esempio di ciò che restituisce questa struttura di richiesta obsoleta d
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK
 ```
 
-Tieni presente che questa risposta include solo gli stati specifici del gruppo e lascia fuori gli stati dichiarati a livello di sistema:
+Tieni presente che questa risposta include solo gli stati specifici del gruppo e non considera quelli dichiarati a livello di sistema:
 
 ```
 {

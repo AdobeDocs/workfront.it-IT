@@ -1,23 +1,23 @@
 ---
-title: Progettazione di un modulo da una copia con la struttura del modulo
+title: Progettare un modulo da una copia con il progettista del modulo
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: È possibile progettare un modulo personalizzato da una copia con la struttura del modulo.
+description: È possibile progettare un modulo personalizzato da una copia con il progettista del modulo.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 6e06e7892542c7dd96b6bf8b857583333efc883d
+exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
+# Progettare un modulo da una copia con il progettista del modulo
 
-# Progettazione di un modulo da una copia con la struttura del modulo
-
-È possibile progettare un nuovo modulo personalizzato basato su uno esistente. È possibile allegare moduli personalizzati a diversi oggetti Workfront per acquisire i dati relativi a tali oggetti.
+È possibile progettare un nuovo modulo personalizzato basato su un modulo esistente. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
 ## Requisiti di accesso
 
@@ -28,32 +28,32 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>piano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>Piano Adobe Workfront*</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td>
-   <p>Piano attuale: Standard</p>
+   <p>Piano corrente: Standard</p>
    <p>oppure</p>
-   <p>Piano legacy: Pianificare</p></td> 
+   <p>Piano legacy: piano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni su come gli amministratori di Workfront concedono questo accesso, consulta <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Consentire agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o configurazioni del livello di accesso si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
 
 ## Copiare un modulo personalizzato per crearne uno nuovo
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Fai clic su **Forms personalizzato.**
-1. Selezionare il modulo personalizzato che si desidera utilizzare come base per un nuovo modulo personalizzato, quindi fare clic su **Copia**.
-1. In **Copia modulo personalizzata** nella casella visualizzata, digitare le informazioni seguenti:
+1. Clic **Forms personalizzato.**
+1. Seleziona il modulo personalizzato da utilizzare come base per un nuovo modulo personalizzato, quindi fai clic su **Copia**.
+1. In **Copia modulo personalizzato** nella casella visualizzata, digitare le informazioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,7 +65,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Tipi di moduli </p> </td> 
-      <td> <p>In <b>Tipo di modulo</b> selezionare i tipi di oggetto con cui si desidera utilizzare il modulo personalizzato e fare clic sulla X accanto ai tipi che si desidera rimuovere. I tipi già associati al modulo sono disabilitati nell’elenco.</p> 
+      <td> <p>In <b>Tipo di modulo</b> selezionare i tipi di oggetto che si desidera utilizzare nel modulo personalizzato e fare clic sulla X accanto ai tipi che si desidera rimuovere. I tipi già associati al modulo sono disabilitati nell'elenco.</p> 
       <p><img src="assets/copy-form-obj-types.png"></p> 
       <p>Il modulo deve essere associato ad almeno un tipo di oggetto.</p> 
       </td> 
@@ -73,21 +73,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tbody> 
    </table>
 
-1. Fai clic su **Copia modulo**.
+1. Clic **Copia modulo**.
 
-   Nel modulo originale, se i campi calcolati fanno riferimento a campi non compatibili con un tipo di oggetto aggiunto al nuovo modulo, viene richiesto di modificare i calcoli in tali campi.
+   Nel modulo originale, se i campi calcolati fanno riferimento a campi incompatibili con un tipo di oggetto aggiunto al nuovo modulo, verrà visualizzato un messaggio in cui viene richiesto di modificare i calcoli in tali campi.
 
-   Analogamente, se un&#39;opzione di accesso per un&#39;interruzione di sezione nel modulo originale non è compatibile con un tipo di oggetto aggiunto al nuovo, viene richiesto di modificare l&#39;opzione.
+   Analogamente, se un&#39;opzione di accesso per un&#39;interruzione di sezione nel modulo originale non è compatibile con un tipo di oggetto aggiunto al nuovo, verrà visualizzato un messaggio in cui viene richiesto di modificare l&#39;opzione.
 
-1. Selezionare il modulo appena copiato, quindi fare clic su **Modifica**.
-1. Apportare eventuali modifiche al modulo, come spiegato nelle sezioni seguenti del [Progettazione di un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) articolo:
+1. Seleziona il modulo appena copiato, quindi fai clic su **Modifica**.
+1. Apportare le modifiche desiderate al modulo, come descritto nelle sezioni seguenti della [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) articolo:
 
 * [Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Aggiungi campi di testo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
-   * [Aggiungi campi calcolati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
-   * [Aggiungere pulsanti di scelta, gruppi di caselle di controllo e menu a discesa](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
-   * [Aggiungere campi tipo di data e data](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
+   * [Aggiungere campi calcolati](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
+   * [Aggiungi pulsanti di scelta, gruppo di caselle di controllo e elenchi a discesa](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Aggiungere campi di tipo typeahead e date](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
    * [Aggiungere immagini, PDF e video](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
    * [Aggiungere file Adobe XD](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
 
-1. (Facoltativo) Dopo aver fatto clic su **Salva e chiudi**, allegare il modulo all’oggetto in cui lo si desidera utilizzare, come descritto in [Aggiungere un modulo personalizzato a un oggetto](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (Facoltativo) Dopo aver fatto clic su **Salva+Chiudi**, allegare il modulo all&#39;oggetto in cui si desidera utilizzarlo, come descritto in [Aggiungere un modulo personalizzato a un oggetto](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

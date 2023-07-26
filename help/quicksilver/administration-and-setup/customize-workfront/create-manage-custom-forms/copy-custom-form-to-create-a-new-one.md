@@ -6,10 +6,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Copiare un modulo personalizzato per crearne uno nuovo con il generatore legacy
 description: È possibile creare un nuovo modulo personalizzato basato su un modulo esistente.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: e02e28d9a62a6bafbe19de7e6fda043b56210cf7
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 0%

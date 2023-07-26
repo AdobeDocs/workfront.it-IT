@@ -2,7 +2,9 @@
 title: Elencare e modificare i moduli personalizzati e i widget aggiunti ai moduli personalizzati
 description: Quando si visualizza un elenco dei moduli personalizzati dell'organizzazione e dei campi personalizzati e dei widget che sono stati aggiunti a essi, è possibile utilizzare le opzioni della barra degli strumenti per modificarne le proprietà, limitare il numero di utenti condivisi, copiarli ed eliminarli. Nelle colonne visualizzate è inoltre possibile visualizzare altre informazioni, ad esempio i tipi di oggetto a cui è associato ogni modulo personalizzato.
 author: Caroline
-source-git-commit: 7835b5f9b5903e19b03cb7e25bfae37c9739f064
+feature: System Setup and Administration, Custom Forms
+role: Admin
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 0%
@@ -76,7 +78,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * [Modificare le proprietà di un campo personalizzato, un’interruzione di sezione o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Configurare la condivisione per campi e widget personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Eliminare un campo personalizzato o un widget dal sistema](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
-
 
 1. Seleziona la **Sezioni** , quindi assicurati che **Raggruppa parametri** è selezionato come **Visualizza** per l&#39;elenco..
 

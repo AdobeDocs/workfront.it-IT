@@ -5,10 +5,10 @@ navigation-topic: create-and-manage-custom-forms
 title: Eliminare un campo personalizzato o un widget dal sistema
 description: Per migliorare le prestazioni del sistema e semplificare l'utilizzo dei moduli da parte degli utenti, è possibile rimuovere campi e widget personalizzati dal sistema quando non sono più utilizzati.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: f43a0aae33b96f5a061d9134122078d73fc21e40
+source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -74,8 +74,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
       * Se utilizzi il generatore di moduli personalizzati, consulta [Riutilizzare un campo personalizzato o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
       * Se si utilizza il progettista del modulo, vedere [Aggiungere campi nuovi o esistenti al modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
-   1. Salva il nuovo modulo personalizzato.
 
+   1. Salva il nuovo modulo personalizzato.
 
 1. Limitare l&#39;accesso al modulo personalizzato solo agli utenti con accesso amministrativo, come descritto in [Condividere un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 1. Applicare il nuovo modulo personalizzato agli oggetti in cui è già applicato il modulo personalizzato originale, come descritto in [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
