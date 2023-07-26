@@ -1,21 +1,28 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Visualizza gli elementi nel [!UICONTROL Elenco lavori] nell'area Home
-description: La [!UICONTROL Elenco lavori] in [!UICONTROL Pagina principale] area visualizza tutti gli elementi di lavoro assegnati all'utente. Puoi controllare quali elementi visualizzare nel [!UICONTROL Lavoro] Elenco come descritto di seguito.
+title: Visualizzare gli elementi in [!UICONTROL Elenco lavori] nell’area Home
+description: Il [!UICONTROL Elenco lavori] nel [!UICONTROL Home] In quest'area vengono visualizzati tutti gli elementi di lavoro assegnati all'utente. È possibile controllare gli elementi da visualizzare nel [!UICONTROL Lavoro] Elenco come descritto di seguito.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: c111ae72da39fc1637320d993906ae9451e17e99
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1654'
 ht-degree: 0%
 
 ---
 
-# Visualizza gli elementi nel [!UICONTROL Elenco lavori] nell&#39;area Home
+# Visualizzare gli elementi in [!UICONTROL Elenco lavori] nell’area Home
 
-La [!UICONTROL Elenco lavori] in [!UICONTROL Pagina principale] area visualizza tutti gli elementi di lavoro assegnati all&#39;utente. Puoi controllare quali elementi visualizzare nel [!UICONTROL Lavoro] Elenco come descritto di seguito.
+Il [!UICONTROL Elenco lavori] nel [!UICONTROL Home] In quest&#39;area vengono visualizzati tutti gli elementi di lavoro assegnati all&#39;utente. È possibile controllare gli elementi da visualizzare nel [!UICONTROL Lavoro] Elenco come descritto di seguito.
+
+>[!NOTE]
+>
+>Quando si converte un problema in un’attività o un progetto, il problema viene rimosso dall’area Home dell’utente assegnato al problema.
+>
+>Quando si converte un’attività in un progetto, l’attività viene eliminata e rimossa dall’area Home dell’utente assegnato all’attività.
+
 
 ## Requisiti di accesso
 
@@ -33,96 +40,96 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>Revisione solo per le approvazioni</p> <p>Lavoro o superiore per tutti gli altri oggetti</p> </td> 
+   <td> <p>[!UICONTROL Revisione] solo per le approvazioni</p> <p>[!UICONTROL Work] o versione successiva per tutti gli altri oggetti</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni a livello di accesso*</strong></td> 
-   <td> <p>Visualizzazione o accesso a progetti, attività, problemi e documenti</p> <p>Nota: Se non hai ancora accesso, chiedi [!DNL Workfront] amministratore se imposta ulteriori restrizioni nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
+   <td> <p>Accesso di [!UICONTROL View] o versione successiva a progetti, attività, problemi e documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Autorizzazioni di Contribute o superiori alle attività e ai problemi su cui lavorare</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti</a>.</p> </td> 
+   <td> <p>Autorizzazioni per contribuire o superiore alle attività e ai problemi su cui devi lavorare</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
-## Filtrare [!UICONTROL Elenco lavori]
+## Filtra il [!UICONTROL Elenco lavori]
 
-Puoi filtrare gli elementi nella [!UICONTROL Elenco lavori] per visualizzare solo tipi specifici di elementi. Ad esempio, puoi filtrare il [!UICONTROL Elenco lavori] per visualizzare solo i problemi o le richieste.
+È possibile filtrare gli elementi in [!UICONTROL Elenco lavori] per visualizzare solo tipi specifici di elementi. Ad esempio, puoi filtrare i [!UICONTROL Elenco lavori] per visualizzare solo i problemi o le richieste.
 
 >[!NOTE]
 >
->Le opzioni del filtro sono memorizzate nel browser. Se utilizzi sempre lo stesso browser sullo stesso computer (e non cancelli i dati del sito) i filtri selezionati non cambiano. Se si passa a un browser o a un computer, i filtri ripristinano l&#39;opzione predefinita, che è con tutti i filtri deselezionati.
+>Le opzioni del filtro sono memorizzate nel browser. Se utilizzi sempre lo stesso browser sullo stesso computer (e non cancelli i dati del sito), i filtri selezionati non cambiano. Se si cambia browser o computer, i filtri tornano all&#39;opzione predefinita, che è deselezionata per tutti i filtri.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo in alto a destra, quindi fai clic su **[!UICONTROL Pagina principale]**.
-1. Fai clic sul pulsante **[!UICONTROL Filtro]** ![](assets/filter-nwepng.png) menu a discesa.
-1. Seleziona tra le seguenti opzioni filtro per specificare il tipo di elementi da visualizzare:
+1. Fai clic su **[!UICONTROL Menu principale]** ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic su **[!UICONTROL Filtro]** ![](assets/filter-nwepng.png) menu a discesa.
+1. Per specificare il tipo di elementi da visualizzare, seleziona una delle seguenti opzioni di filtro:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL ALL]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tutto]</strong></td> 
       <td>Visualizza e seleziona tutti gli elementi. Ciò include attività, problemi, approvazioni, attività personali e attività e problemi completati. </td>
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Attività Su Cui Lavorare]</strong></td> 
-      <td> <p>Visualizza solo le attività su cui si sta lavorando attivamente. Si tratta di task assegnati per i quali hai fatto clic sul pulsante [!UICONTROL Work On It].</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Attività In Esecuzione]</strong></td> 
+      <td> <p>Visualizza solo le attività su cui si sta lavorando attivamente. Queste sono attività assegnate all'utente per le quali è stato fatto clic sul pulsante [!UICONTROL Lavoraci].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Attività pronte per l'avvio]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Attività pronte da iniziare]</strong></td> 
       <td> 
        <div> 
-        <p>Visualizza solo le attività pronte per l'avvio. Entrambe le affermazioni seguenti devono essere vere:</p> 
+        <p>Visualizza solo le attività pronte per l'avvio. Entrambe le istruzioni seguenti devono essere vere:</p> 
         <ul> 
-         <li> <p>I compiti e i loro genitori non hanno predecessori o vincoli di compito che impediscono loro di lavorare.</p> </li> 
-         <li> <p>La [!UICONTROL Pianificazione della data di inizio] delle attività è prevista in passato o fino a due settimane in futuro.</p> </li> 
+         <li> <p>Le attività e i relativi genitori non hanno predecessori o vincoli di attività che impediscono di lavorarci.</p> </li> 
+         <li> <p>La [!UICONTROL Planned Start Date] (Data di inizio pianificata) delle attività è negli ultimi o nel futuro di un massimo di due settimane.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Attività non pronte]</strong></td> 
+      <td role="rowheader"><strong>[!UICONTROL Tasks Not Ready]</strong></td> 
       <td> 
        <div> 
-        <p>Visualizza solo le attività non ancora pronte per l'avvio. Una delle seguenti affermazioni deve essere vera:</p> 
+        <p>Visualizza solo le attività che non sono ancora pronte per l'avvio. Una delle seguenti affermazioni deve essere vera:</p> 
         <ul> 
-         <li> <p>I compiti e i loro genitori potrebbero avere predecessori o vincoli di compito che impediscono loro di lavorare.</p> </li> 
-         <li> <p>Le attività dispongono di una [!UICONTROL Pianificazione della data di inizio] che sarà superiore a due settimane in futuro.</p> </li> 
+         <li> <p>Le attività e i relativi genitori potrebbero avere predecessori o vincoli di attività che impediscono di lavorarci.</p> </li> 
+         <li> <p>Le attività hanno una [!UICONTROL Planned Start Date] che è più di due settimane nel futuro.</p> </li> 
         </ul> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Problemi Al Lavoro]</strong></td> 
-      <td> <p>Visualizza solo i problemi su cui stai lavorando attivamente. Si tratta di problemi a te assegnati per i quali hai fatto clic sul pulsante [!UICONTROL Work On It] .</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL Issues Working On]</strong></td> 
+      <td> <p>Visualizza solo i problemi su cui si sta lavorando attivamente. Si tratta di problemi assegnati all'utente per i quali si è fatto clic sul pulsante [!UICONTROL Lavoraci].</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Problemi richiesti]</strong></td> 
-      <td>Visualizza solo i problemi a cui sei assegnato ma per i quali non hai fatto clic sul pulsante [!UICONTROL Work On It].</td> 
+      <td role="rowheader"><strong>[!UICONTROL Issues Requested]</strong></td> 
+      <td>Visualizza solo i problemi assegnati a, ma per i quali non è stato fatto clic sul pulsante [!UICONTROL Lavoraci].</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Personale</strong></td> 
-      <td>Visualizza solo le attività personali. Si tratta di attività create come attività da eseguire, come descritto nella sezione <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">Creare un’attività personale</a> nell'articolo <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Creare elementi di lavoro dall'area [!UICONTROL Home]</a>.</td> 
+      <td>Visualizza solo le attività personali. Si tratta di attività che vengono create come attività [!UICONTROL Da fare], come descritto nella sezione <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#creating-a-personal-task">Crea un'attività personale</a> nell’articolo <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Crea elementi di lavoro dall'area Home di [!UICONTROL]</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Approvals]</strong></td> 
       <td> 
        <div> 
-        <p>Visualizza solo le approvazioni assegnate o delegate all'utente e le approvazioni inviate. Le approvazioni includono le approvazioni su elementi di lavoro (progetti, attività e problemi) e le approvazioni per documenti, bozze, richieste di accesso e fogli ore. Per ulteriori informazioni sulle approvazioni, vedere i seguenti articoli:</p> 
+        <p>Visualizza solo le approvazioni assegnate o delegate all'utente e le approvazioni inviate. Le approvazioni includono approvazioni su elementi di lavoro (progetti, attività e problemi) e approvazioni per documenti, bozze, richieste di accesso e schede orario. Per ulteriori informazioni sulle approvazioni, consulta i seguenti articoli:</p> 
         <ul> 
          <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">Visualizza approvazioni</a> </li> 
         </ul> 
         <ul> 
-         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Approvazione del lavoro</a> </p> </li> 
+         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Approvazioni lavoro</a> </p> </li> 
         </ul> 
-        <p>Nota: Le approvazioni inviate e in cui si è anche uno degli approvatori vengono conteggiate due volte.</p> 
+        <p>Nota: le approvazioni sottomesse e per le quali si è anche uno degli approvatori vengono conteggiate due volte.</p> 
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Completato]</strong></td> 
-      <td> <p>Visualizza solo le attività, i problemi e le attività personali completate. Il lavoro completato viene visualizzato per le due settimane precedenti e viene raggruppato nell'Elenco di lavoro in base alla settimana in cui è stato completato. Le approvazioni non sono incluse.</p> <p>Il lavoro completato viene nascosto nell’[!UICONTROL Work List] a meno che non selezioni questo filtro.</p> </td> 
+      <td role="rowheader"><strong>[!UICONTROL completato]</strong></td> 
+      <td> <p>Visualizza solo le attività completate, i problemi e le attività personali. Il lavoro completato viene visualizzato per le due settimane precedenti ed è raggruppato in Work List (Elenco di lavoro) in base alla settimana in cui è stato completato. Le approvazioni non sono incluse.</p> <p>Il lavoro completato è nascosto in [!UICONTROL Work List] a meno che non si selezioni questo filtro.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -131,122 +138,121 @@ Puoi filtrare gli elementi nella [!UICONTROL Elenco lavori] per visualizzare sol
 
    >[!TIP]
    >
-   >* Le opzioni filtro si basano sugli oggetti (Attività, Problemi, Approvazioni, Attività personali).
-   >* Le attività e i problemi vengono ulteriormente filtrati dal loro stato in relazione alla nostra disponibilità a lavorarci su ([!UICONTROL Utilizzo], [!UICONTROL Pronto per l&#39;inizio], [!UICONTROL Non pronto] per i compiti e [!UICONTROL Utilizzo] e [!UICONTROL Richiesto] per questioni). È possibile selezionare per visualizzare attività o problemi in uno stato specifico oppure fare clic su Attività o Problemi per selezionare e visualizzare tutti gli stati.
-   >* Esiste un filtro separato per gli elementi completati e include sia attività che problemi. Non sono incluse le approvazioni. La [!UICONTROL Completato] Il filtro include le attività Personali.
-   >* È possibile selezionare un solo stato alla volta. Ad esempio, puoi visualizzare solo [!UICONTROL Utilizzo] solo attività [!UICONTROL Richiesto] problemi.
-   >* Non puoi applicare filtri per gli elementi assegnati a uno dei tuoi team e non sono inclusi negli elementi che ti vengono assegnati direttamente.
+   >* Le opzioni filtro si basano su oggetti (Attività, Problemi, Approvazioni, Attività personali).
+   >* I compiti e le questioni sono ulteriormente filtrati dal loro stato in relazione alla nostra disponibilità a lavorare su di essi ([!UICONTROL Lavori in corso], [!UICONTROL Pronto per iniziare], [!UICONTROL Non pronto] per le attività, e [!UICONTROL Lavori in corso] e [!UICONTROL Richiesto] per i problemi). È possibile scegliere di visualizzare le attività o i problemi in uno stato specifico oppure fare clic su Attività o Problemi per selezionare e visualizzare tutti gli stati.
+   >* Esiste un filtro separato per gli elementi completati che include sia attività che problemi. Non sono incluse le approvazioni. Il [!UICONTROL Completato] Il filtro include le attività personali.
+   >* È possibile selezionare un solo stato alla volta. Ad esempio, puoi visualizzare solo [!UICONTROL Lavori in corso] attività e solo [!UICONTROL Richiesto] problemi.
+   >* Non puoi applicare filtri agli elementi assegnati a uno dei tuoi team e non sono inclusi negli elementi che ti vengono assegnati direttamente.
 
 
+1. (Facoltativo) Organizza ulteriormente il [!UICONTROL Elenco lavori], come descritto nella sezione [Raggruppa e ordina per data, progetto e priorità](#group-and-sort-by-date-project-and-priority) in questo articolo.
 
-1. (Facoltativo) Organizzare ulteriormente [!UICONTROL Elenco lavori], come descritto nella sezione [Raggruppa e ordina per data, progetto e priorità](#group-and-sort-by-date-project-and-priority) in questo articolo.
+## Raggruppa e ordina per [!UICONTROL Data], [!UICONTROL Progetto], e [!UICONTROL Priorità]
 
-## Raggruppa e ordina per [!UICONTROL Data], [!UICONTROL Progetto]e [!UICONTROL Priorità]
+Puoi raggruppare e ordinare i [!UICONTROL Elenco lavori] da [!UICONTROL Data di completamento Pianificata], [!UICONTROL Conferma data], [!UICONTROL Progetto], o [!UICONTROL La mia priorità]. L&#39;opzione scelta determina il modo in cui gli elementi vengono raggruppati nel [!UICONTROL Elenco lavori].
 
-Puoi raggruppare e ordinare i [!UICONTROL Elenco lavori] da [!UICONTROL Data completamento pianificata], [!UICONTROL Data impegno], [!UICONTROL Progetto]oppure [!UICONTROL Priorità]. L’opzione selezionata determina il modo in cui gli elementi vengono raggruppati nel gruppo [!UICONTROL Elenco lavori].
-
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo in alto a destra, quindi fai clic su **[!UICONTROL Pagina principale]**.
-1. Fai clic sul pulsante **[!UICONTROL Raggruppa per]** menu a discesa.
+1. Fai clic su **[!UICONTROL Menu principale]** ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic su **[!UICONTROL Raggruppa per]** menu a discesa.
 
    ![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
 
-1. Seleziona tra le seguenti opzioni:
+1. Selezionare una delle opzioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Completamento pianificato]</strong></td> 
-      <td> <p> Gli elementi vengono visualizzati nei raggruppamenti seguenti nell’[!UICONTROL Work List], a seconda della [!UICONTROL Planned Completion Date] (Data completamento pianificata) (il numero di elementi contenuti in ciascun raggruppamento viene visualizzato tra parentesi accanto al titolo dell’intestazione):</p> 
+      <td role="rowheader"><strong>[!UICONTROL completamento pianificato]</strong></td> 
+      <td> <p> Gli elementi vengono visualizzati nei seguenti raggruppamenti in [!UICONTROL Work List], a seconda della [!UICONTROL Planned Completion Date] (data di completamento pianificata). Il numero di elementi contenuti in ciascun raggruppamento viene visualizzato tra parentesi accanto al titolo dell'intestazione:</p> 
        <ul> 
-        <li> <p>[!UICONTROL in ritardo]</p> </li> 
-        <li> <p>[!UICONTROL Nessuna Data Di Completamento Pianificata]</p> </li> 
+        <li> <p>[!UICONTROL Late]</p> </li> 
+        <li> <p>[!UICONTROL Nessuna data di completamento pianificata]</p> </li> 
         <li> <p>[!UICONTROL Questa Settimana]</p> <p>Questo raggruppamento viene espanso per impostazione predefinita.</p> </li> 
-        <li> <p>[!UICONTROL Settimana Prossima]</p> </li> 
-        <li> <p>[!UICONTROL Pianificato], seguito da vari [!UICONTROL Pianificato date di completamento] (raggruppamenti multipli)</p> </li> 
-        <li> <p>[!UICONTROL Completato]</p> </li> 
+        <li> <p>[!UICONTROL settimana prossima]</p> </li> 
+        <li> <p>[!UICONTROL Planned], seguito da vari [!UICONTROL Planned Completion Dates] (più raggruppamenti)</p> </li> 
+        <li> <p>[!UICONTROL Complete]</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Inizio pianificato]</strong></td> 
-      <td> <p>Gli elementi vengono visualizzati nei raggruppamenti seguenti nell’[!UICONTROL Work List], a seconda della [!UICONTROL Planned Start Date] (Data inizio pianificata) (il numero di elementi contenuti in ciascun raggruppamento viene visualizzato tra parentesi accanto al titolo dell’intestazione):</p> 
+      <td role="rowheader"><strong>[!UICONTROL Pianificato - Inizio]</strong></td> 
+      <td> <p>Gli elementi vengono visualizzati nei seguenti raggruppamenti in [!UICONTROL Work List], a seconda del relativo [!UICONTROL Planned Start Date] (Data di inizio pianificata) (il numero di elementi contenuti in ciascun raggruppamento viene visualizzato tra parentesi accanto al titolo dell'intestazione):</p> 
        <ul> 
-        <li> <p>[!UICONTROL in ritardo]</p> </li> 
+        <li> <p>[!UICONTROL Late]</p> </li> 
         <li> <p>[!UICONTROL Questa Settimana] </p> <p>Questo raggruppamento viene espanso per impostazione predefinita.</p> </li> 
-        <li> <p>[!UICONTROL Settimana Prossima]</p> </li> 
-        <li> <p>[!UICONTROL Pianificato], seguito da varie [!UICONTROL Date di inizio pianificate] (più raggruppamenti)</p> </li> 
+        <li> <p>[!UICONTROL settimana prossima]</p> </li> 
+        <li> <p>[!UICONTROL Pianificato], seguito da vari [!UICONTROL Pianificato Date Inizio] (più raggruppamenti)</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Data del commit]</strong></td> 
-      <td> <p>Gli elementi vengono visualizzati nei raggruppamenti seguenti nell’ [!UICONTROL Work List] (il numero di elementi contenuti in ciascun raggruppamento viene visualizzato tra parentesi accanto al titolo dell’intestazione):</p> 
+      <td role="rowheader"><strong>[!UICONTROL Commit Date]</strong></td> 
+      <td> <p>Gli elementi vengono visualizzati nei seguenti raggruppamenti in [!UICONTROL Work List] (il numero di elementi contenuti in ciascun raggruppamento viene visualizzato tra parentesi accanto al titolo dell'intestazione):</p> 
        <ul> 
-        <li> <p>[!UICONTROL Nessuna data di commit]</p> </li> 
-        <li> <p>[!UICONTROL Impegnato la settimana prossima]</p> </li> 
+        <li> <p>[!UICONTROL No Commit Date]</p> </li> 
+        <li> <p>[!UICONTROL Eseguito La Settimana Prossima]</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Project]</strong></td> 
-      <td>Gli elementi vengono raggruppati in base al progetto e i progetti vengono visualizzati in ordine alfabetico nell’ [!UICONTROL Work List]. Il numero di elementi contenuti in ciascun raggruppamento viene visualizzato tra parentesi accanto al titolo dell’intestazione.</td> 
+      <td role="rowheader"><strong>Progetto [!UICONTROL]</strong></td> 
+      <td>Gli elementi vengono raggruppati in base al progetto e i progetti vengono visualizzati in ordine alfabetico in [!UICONTROL Work List]. Il numero di elementi contenuti in ciascun raggruppamento viene visualizzato tra parentesi accanto al titolo dell’intestazione.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL La mia priorità]</strong></td> 
-      <td>Gli elementi vengono visualizzati in un ordine scelto. Per ulteriori informazioni, consulta <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md" class="MCXref xref">Dare priorità al lavoro nell'area [!UICONTROL Home]</a>.</td> 
+      <td role="rowheader"><strong>[!UICONTROL Mia Priorità]</strong></td> 
+      <td>Gli articoli vengono visualizzati nell'ordine scelto. Per ulteriori informazioni, consulta <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md" class="MCXref xref">Assegna priorità al lavoro nell'area [!UICONTROL Home]</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
 >[!NOTE]
 >
->L&#39;ordinamento predefinito è crescente. Se l’ordinamento viene modificato in decrescente , le opzioni di ordinamento selezionate vengono memorizzate nel browser. Se si utilizza in modo coerente lo stesso browser sullo stesso computer (e non si cancellano i dati del sito) l&#39;ordinamento non cambia, ma se si cambia browser o computer, l&#39;ordinamento viene modificato in base all&#39;ordinamento predefinito.
+>L&#39;ordinamento predefinito è crescente. Se si imposta l&#39;ordinamento decrescente, le opzioni di ordinamento selezionate vengono memorizzate nel browser. Se si utilizza sempre lo stesso browser nello stesso computer e non si cancellano i dati del sito, l&#39;ordinamento non cambia, ma se si cambia browser o computer, l&#39;ordinamento diventa quello predefinito.
 
 ## Visualizza elementi in ritardo
 
 [!DNL Adobe Workfront] utilizza le date seguenti per determinare se le richieste di lavoro sono in ritardo:
 
-* **Attività**: [!UICONTROL Data completamento pianificata]
-* **Problemi**: [!UICONTROL Data completamento pianificata]
+* **Attività**: [!UICONTROL Data di completamento Pianificata]
+* **Problemi**: [!UICONTROL Data di completamento Pianificata]
 * **Documenti**: [!UICONTROL Data di invio]
-* **Schede temporali**: [!UICONTROL Data di invio]
+* **Schede orario**: [!UICONTROL Data di invio]
 * **Approvazioni**: [!UICONTROL Data di invio]
-* **Prove di omologazione**: [!UICONTROL Termine di prova]
+* **Approvazioni bozza**: [!UICONTROL Scadenza bozza]
 
-## Cerca nel [!UICONTROL Elenco lavori]
+## Cerca in [!UICONTROL Elenco lavori]
 
-Quando esegui una ricerca nel [!UICONTROL Elenco lavori], tutti gli elementi assegnati all’utente vengono restituiti nella ricerca (anche quelli che non sono attualmente caricati sullo schermo). Se la [!UICONTROL Mostra completato] viene selezionata l’opzione , vengono restituiti anche tutti gli elementi contrassegnati come completi nelle ultime due settimane.
+Quando esegui una ricerca nel [!UICONTROL Elenco lavori], tutti gli elementi a te assegnati vengono restituiti nella ricerca (anche quelli che non sono attualmente caricati sullo schermo). Se il [!UICONTROL Mostra completato] è selezionata, verranno restituiti anche tutti gli elementi contrassegnati come completati nelle ultime due settimane.
 
-Vengono inoltre cercati solo i nomi degli elementi di lavoro (le informazioni all’interno dell’elemento di lavoro non vengono cercate, né i nomi dei progetti in cui risiede l’elemento di lavoro).
+Inoltre, vengono cercati solo i nomi degli elementi di lavoro (le informazioni all’interno dell’elemento di lavoro non vengono cercate, così come i nomi dei progetti in cui risiede l’elemento di lavoro).
 
-Per cercare [!UICONTROL Elenco lavori]:
+Per eseguire ricerche in [!UICONTROL Elenco lavori]:
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo in alto a destra, quindi fai clic su **[!UICONTROL Pagina principale]**.
-1. (Facoltativo) Filtrare il [!UICONTROL Elenco lavori], come descritto in [Filtrare [!UICONTROL Elenco lavori]](#filter-the-work-list) e [Raggruppa e ordina per data, progetto e priorità](#group-and-sort-by-date-project-and-priority).
+1. Fai clic su **[!UICONTROL Menu principale]** ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. (Facoltativo) Filtra il [!UICONTROL Elenco lavori], come descritto in [Filtra il [!UICONTROL Elenco lavori]](#filter-the-work-list) e [Raggruppa e ordina per data, progetto e priorità](#group-and-sort-by-date-project-and-priority).
 
-1. (Facoltativo) Se stai cercando un elemento di lavoro già completato, devi configurare il [!UICONTROL Elenco lavori] per visualizzare gli elementi completati prima della ricerca.
+1. (Facoltativo) Se stai cercando un elemento di lavoro già completo, devi configurare il [!UICONTROL Elenco lavori] per visualizzare gli elementi completati prima della ricerca.
 1. ![](assets/search-icon-highlighted-home-new-filters-and-sorting-nwe-350x238.png)
 
-1. Inizia a digitare il nome dell’elemento che stai cercando.\
-   La [!UICONTROL Elenco lavori] viene filtrato automaticamente in modo da includere elementi con un nome corrispondente.
+1. Inizia a digitare il nome del nome dell&#39;elemento che stai cercando.\
+   Il [!UICONTROL Elenco lavori] viene filtrato automaticamente in modo da includere gli elementi con un nome corrispondente.
 
-## Modificare le dimensioni dell&#39;elenco di lavoro
+## Modificare le dimensioni dell’elenco di lavoro
 
-È possibile modificare le dimensioni del [!UICONTROL Elenco lavori] in modo che consuma ovunque tra circa un quarto dell&#39;area Home e circa la metà del [!UICONTROL Pagina principale] area.
+È possibile modificare le dimensioni del [!UICONTROL Elenco lavori] in modo da consumare da un quarto all&#39;altro dell&#39;area Home a circa la metà [!UICONTROL Home] area.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo in alto a destra, quindi fai clic su **[!UICONTROL Pagina principale]**.
-1. Passa il mouse sul bordo destro del [!UICONTROL Elenco lavori], quindi trascinare a sinistra o a destra finché l’Elenco di lavoro non raggiunge la dimensione desiderata.
+1. Fai clic su **[!UICONTROL Menu principale]** ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Passa il puntatore del mouse sul bordo destro [!UICONTROL Elenco lavori], quindi trascina a sinistra o a destra fino a ottenere la dimensione desiderata per Work List (Elenco di lavoro).
 
-## Comprimere ed espandere i raggruppamenti
+## Comprimi ed espandi raggruppamenti
 
-Elementi nel [!UICONTROL Elenco lavori] vengono visualizzati all’interno dei raggruppamenti. È possibile comprimere ed espandere i raggruppamenti per controllare la quantità di informazioni visualizzate sulla pagina in un dato momento.
+Elementi in [!UICONTROL Elenco lavori] sono visualizzate all’interno di raggruppamenti. È possibile comprimere ed espandere i raggruppamenti per controllare la quantità di informazioni visualizzate sulla pagina in un determinato momento.
 
-È possibile comprimere ed espandere i raggruppamenti all’interno di [!UICONTROL Elenco lavori] per controllare meglio quali informazioni sono visibili.\
-Per impostazione predefinita, la [!UICONTROL Questa settimana] Il raggruppamento viene espanso e tutti gli altri raggruppamenti vengono compressi. Tutte le modifiche apportate verranno ricordate al successivo accesso all&#39;area Home.
+È possibile comprimere ed espandere i raggruppamenti all&#39;interno di [!UICONTROL Elenco lavori] per controllare meglio quali informazioni sono visibili.\
+Per impostazione predefinita, il [!UICONTROL Questa settimana] Il raggruppamento è espanso e tutti gli altri raggruppamenti sono compressi. Tutte le modifiche apportate vengono memorizzate al successivo accesso all&#39;area Home.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** ![](assets/main-menu-icon.png) nell&#39;angolo in alto a destra, quindi fai clic su **[!UICONTROL Pagina principale]**.
-1. Fai clic sul pulsante **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** accanto a un raggruppamento da espandere o comprimere.
+1. Fai clic su **[!UICONTROL Menu principale]** ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **[!UICONTROL Home]**.
+1. Fai clic su **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** accanto a qualsiasi raggruppamento che si desidera espandere o comprimere.
 
    ![](assets/expand-section-icon-highlighted-home-new-filters-and-sorting-nwe-350x268.png)
 
    Oppure\
-   Per espandere o comprimere tutti i raggruppamenti contemporaneamente, fai clic sul pulsante **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** freccia accanto a qualsiasi raggruppamento tenendo premuto il tasto [!UICONTROL Maiusc] chiave.
+   Per espandere o comprimere tutti i raggruppamenti contemporaneamente, fare clic sul pulsante **[!UICONTROL Espandi]** o **[!UICONTROL Comprimi]** freccia accanto a qualsiasi raggruppamento tenendo premuto il tasto [!UICONTROL Maiusc] chiave.

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -35,14 +35,13 @@ Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti
 
 Le modifiche apportate alla visualizzazione Dettagli per un oggetto determinano inoltre la disponibilità e l&#39;ordine dei campi visualizzati dagli utenti nelle aree seguenti:
 
-<!-- the New box is not affected by the LT yet. Might be in the future. Commenting this one out for now: 
-* "New object" boxes, such as New Task and New Issue
+
+* Caselle &quot;Crea oggetto&quot;, ad esempio Crea attività
 
   ![](assets/new-task-dialog.png)
 
--->
 
-* Schermate &quot;Modifica oggetto&quot;, come Modifica attività, Modifica problema e Modifica progetto
+* Schermate &quot;Modifica oggetto&quot; durante la modifica di un oggetto, come Modifica attività, Modifica problema e Modifica progetto
 
   ![](assets/edit-task-screen.png)
 
