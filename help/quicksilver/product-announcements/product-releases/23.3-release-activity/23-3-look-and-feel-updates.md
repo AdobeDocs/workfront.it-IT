@@ -4,9 +4,9 @@ description: Aggiornamenti look and feel durante il periodo di rilascio della ve
 author: Courtney
 feature: Product Announcements
 exl-id: 77b43c01-4476-4243-b8c4-062afe786a1d
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: 2fc3799b97e353e124a3ee2f181ad62fbadec592
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Per ulteriori informazioni, consulta [Copiare e inviare richieste](/help/quicksi
 
 >[!NOTE]
 >
->Anteprima pianificata: da annunciare; Produzione pianificata: da annunciare.
+>Anteprima pianificata: 27 luglio 2023; produzione pianificata per il rilascio rapido: con la versione 23.8. Pianificazione della produzione per l’uscita trimestrale: con la versione 23.10
 >
 >Questa funzione era stata originariamente pianificata per il rilascio con la versione 23.3 ed è stata successivamente ritardata.
 
