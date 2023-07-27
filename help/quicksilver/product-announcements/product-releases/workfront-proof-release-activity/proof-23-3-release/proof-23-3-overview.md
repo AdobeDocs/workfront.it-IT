@@ -7,9 +7,9 @@ description: Questa pagina fornisce informazioni sulla funzionalità Adobe Workf
 author: Nolan
 feature: Product Announcements, Workfront Proof
 exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
-source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
+source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -42,10 +42,12 @@ Per un elenco di tutte le modifiche disponibili per tutte le aree di Workfront a
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: con la versione 23.3</p>
+                                <p><i>Per gli utenti che utilizzano l’installazione manuale, con versione 2.1.26</i></p>
+                                <p>Anteprima e versione di produzione: 27 luglio 2023</p>
                             </li>
                             <li>
-                                <p>Versione di produzione: con la versione 23.3</p>
+                                <p><i>Per gli utenti che utilizzano l’installazione automatica, con versione 2.1.27</i></p>
+                                <p>Anteprima e versione di produzione: 3 agosto 2023</p>
                             </li>
                         </ul>
                     </td>
