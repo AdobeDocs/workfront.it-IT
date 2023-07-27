@@ -93,14 +93,14 @@ A [!DNL Microsoft Word] il modello è un normale [!DNL Microsoft Word] documento
 Un tag di valore semplice viene semplicemente sostituito con un valore corrispondente. Il nome del tag corrisponde a [!UICONTROL Chiave] il valore del campo, che viene posizionato all&#39;interno di doppie parentesi graffe; ad esempio,
 
 
-<pre>{{name}}</pre>
+<pre>&#123;&#123;name&#125;&#125;</pre>
 
 
 .
 
 **Esempio:** Per creare un documento con la dicitura &quot;Ciao, Petr!&quot;, puoi utilizzare un’ [!DNL Microsoft Word Template] per creare il seguente modello:
 
-<pre>&gt; Ciao {{name}}!</pre>
+<pre>&gt; Ciao &#123;&#123;name&#125;&#125;!</pre>
 
 A questo scopo, imposta il modulo come segue:
 
@@ -111,7 +111,7 @@ A questo scopo, imposta il modulo come segue:
 È possibile utilizzare un tag condizione per racchiudere il testo di cui eseguire il rendering solo quando vengono soddisfatte determinate condizioni. Per racchiudere il testo, posizionalo tra i tag della condizione di apertura e chiusura, ad esempio &quot;hasPhone&quot; se la condizione è se i dati includono o meno un numero di telefono. Il nome di un tag di apertura è preceduto da un hash sign #, il nome di un tag di chiusura è preceduto da una barra /, come mostrato nell&#39;esempio seguente.
 
 **Esempio:** Per produrre un documento che includa il numero di telefono di un cliente se i dati di input includono un numero di telefono, ma nessun indirizzo e-mail, puoi utilizzare un [!DNL Microsoft Word Template] e creare il seguente modello:
-<pre>&gt; {{#hasPhone}}Telefono: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}E-mail: {{email}} {{/hasEmail}}</pre>A questo scopo, imposta il modulo come segue:
+<pre>&gt; &#123;&#123;#hasPhone&#125;&#125;Telefono: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>&gt; &#123;&#123;#hasEmail&#125;&#125;E-mail: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>A questo scopo, imposta il modulo come segue:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +129,7 @@ Per ripetere una sezione di testo, è possibile utilizzare un tag loop, noto anc
 
 **Esempio:** Per produrre un documento in cui sono elencati il nome e il numero di telefono di ogni contatto in un elenco clienti, è possibile utilizzare una [!DNL Microsoft Word Template] e creare il seguente modello:
 
-<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>&gt; &#123;&#123;#contact&#125;&#125;</pre><pre>&gt;     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>&gt; &#123;&#123;/contact&#125;&#125;</pre>
 
 A questo scopo, imposta il modulo come segue:
 
