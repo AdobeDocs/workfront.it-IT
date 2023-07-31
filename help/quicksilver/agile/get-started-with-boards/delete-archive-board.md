@@ -3,10 +3,11 @@ filename: delete-archive-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Eliminare o archiviare una bacheca
-description: Potete eliminare o archiviare una bacheca in Workfront. L'eliminazione di una bacheca la rimuove definitivamente da Workfront, mentre l'archiviazione di una bacheca conserva tutte le schede e consente di ripristinarla in un secondo momento.
+description: Puoi eliminare o archiviare una bacheca in Workfront. L’eliminazione di una bacheca ne comporta la rimozione definitiva da Workfront, mentre l’archiviazione di una bacheca conserva tutte le schede e ne consente il ripristino in un secondo momento.
 author: Lisa
+feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: 67472e2c6d3bf3cbb11c2ba5ad2f3eee13336f74
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 # Eliminare o archiviare una bacheca
 
-Potete eliminare o archiviare una bacheca in [!DNL Workfront]. L&#39;eliminazione di una bacheca comporta la rimozione definitiva di tale bacheca [!DNL Workfront], mentre l&#39;archiviazione di una bacheca conserva tutte le schede e consente di ripristinarla in un secondo momento. Queste opzioni si applicano sia alle schede indipendenti che alle bacheche che fanno parte dei flussi di lavoro.
+Puoi eliminare o archiviare una bacheca in [!DNL Workfront]. Se si elimina una bacheca, questa viene rimossa definitivamente da [!DNL Workfront], mentre l’archiviazione di una bacheca conserva tutte le schede e ne consente il ripristino in un secondo momento. Queste opzioni si applicano sia alle bacheche autonome che a quelle che fanno parte dei flussi di lavoro.
 
 ## Requisiti di accesso
 
@@ -33,43 +34,43 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o superiore</p> </td> 
+   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
   </tr>
    </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
 ## Eliminare una bacheca
 
-Quando eliminate una bacheca, viene rimossa definitivamente da [!DNL Workfront] e non può essere ripristinato. Tutte le carte sulla bacheca vengono cancellate insieme alla bacheca.
+Quando elimini una bacheca, questa viene rimossa definitivamente da [!DNL Workfront] e non possono essere ripristinati. Tutte le schede sulla bacheca vengono eliminate insieme alla bacheca.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Nel dashboard, selezionate la bacheca da aprire.
-1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) accanto al nome della bacheca e selezionate **[!UICONTROL Elimina]**. Quindi, fai clic su **[!UICONTROL Elimina bacheca]** nel messaggio di conferma.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
+1. Nel dashboard, seleziona la bacheca da aprire.
+1. Fai clic su **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) accanto al nome della bacheca e seleziona **[!UICONTROL Elimina]**. Quindi, fai clic su **[!UICONTROL Elimina bacheca]** sul messaggio di conferma.
 
    >[!NOTE]
    >
-   >Potete eliminare solo le bacheche create, non le bacheche alle quali siete stati aggiunti.
+   >Puoi eliminare solo le bacheche che hai creato, non quelle a cui sei stato aggiunto.
 
-   ![Menu Altro bacheca](assets/boards-board-more-menu.png)
+   ![Menu Altro della bacheca](assets/boards-board-more-menu.png)
 
 ## Archiviare una bacheca
 
-Le bacheche archiviate conservano tutte le schede e le assegnazioni. Ogni utente può archiviare o ripristinare una bacheca in qualsiasi momento.
+Le bacheche archiviate conservano tutte le schede e le assegnazioni. Qualsiasi utente può archiviare o ripristinare una bacheca in qualsiasi momento.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Nel dashboard, selezionate la bacheca da aprire.
-1. Fai clic sul pulsante **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) accanto al nome della bacheca e selezionate **[!UICONTROL Archivia]**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
+1. Nel dashboard, seleziona la bacheca da aprire.
+1. Fai clic su **[!UICONTROL Altro]** menu ![[!UICONTROL Menu Altro]](assets/more-icon-spectrum.png) accanto al nome della bacheca e seleziona **[!UICONTROL Archivia]**.
 
-   ![Menu Altro bacheca](assets/boards-board-more-menu.png)
+   ![Menu Altro della bacheca](assets/boards-board-more-menu.png)
 
 ## Ripristinare una bacheca
 
-Una scheda archiviata può essere ripristinata in qualsiasi momento. Qualsiasi utente può ripristinare una bacheca archiviata.
+Una bacheca archiviata può essere ripristinata in qualsiasi momento. Qualsiasi utente può ripristinare una bacheca archiviata.
 
-1. Fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Nel dashboard, fai clic sull’icona del filtro ![Filtro](assets/filter-icon-spectrum-25x25.png) e seleziona **[!UICONTROL Schede archiviate]**.
-1. Trova la bacheca da ripristinare, fai clic sul pulsante **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) accanto al nome della bacheca, e selezionate **[!UICONTROL Ripristina]**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
+1. Nel dashboard, fai clic sull’icona del filtro ![Filtro](assets/filter-icon-spectrum-25x25.png) e seleziona **[!UICONTROL Bacheche archiviate]**.
+1. Individuare la bacheca da ripristinare, fare clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) accanto al nome della bacheca e seleziona **[!UICONTROL Ripristina]**.
 
    ![Ripristina bacheca](assets/boards-dashboard-restore.png)

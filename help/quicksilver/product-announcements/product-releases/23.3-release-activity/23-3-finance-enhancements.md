@@ -3,20 +3,34 @@ title: 23.3 Miglioramenti apportati alla gestione finanziaria
 description: 23.3 Miglioramenti apportati alla gestione finanziaria
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
 
 # 23.3 Miglioramenti apportati alla gestione finanziaria
 
-Questa pagina descrive tutti i miglioramenti apportati a Financial Management con la versione 23.3. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.3 del 20 e 21 luglio 2023.
+Questa pagina descrive tutti i miglioramenti apportati a Financial Management con la versione 23.3. Questi miglioramenti sono stati resi disponibili con la versione 23.3 il 20 e il 21 luglio 2023.
 
 Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.3, consulta [Panoramica sulla versione 23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Data costo effettivo e tariffe di fatturazione
+
+
+>[!IMPORTANT]
+>
+>Questa funzione sarà disponibile nelle seguenti date:
+>
+>* Versione di anteprima: 29 giugno 2023
+>
+>* Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3
+>
+>* Versione di produzione per tutti i clienti: versione di produzione per tutti i clienti: con la versione 23.10 (ottobre 2023)
+>
+>La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima dal 30 giugno al 13 luglio 2023.
+
 
 Le tariffe di costo e fatturazione effettive per data sono ora disponibili per gli oggetti società, utente e mansione in Workfront. Quando a un progetto vengono applicati i tassi di validità della data e le ore vengono registrate nelle attività del progetto, i costi e i ricavi vengono calcolati utilizzando i tassi specificati per ogni periodo di tempo.
 
