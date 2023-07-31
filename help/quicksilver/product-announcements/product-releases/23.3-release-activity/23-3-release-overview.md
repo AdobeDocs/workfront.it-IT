@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 80a2b3e3decc7beb7f7b9eb4f4933ca5938963eb
+source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
 workflow-type: tm+mt
-source-wordcount: '2724'
+source-wordcount: '2736'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. È poss
                             </li>
                             <li>
                                 <p>Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3</p>
-                                <p>Versione di produzione per tutti i clienti: con la versione 23.4<br>
+                                <p>Versione di produzione per tutti i clienti: con la versione 23.10 (ottobre 2023)<br>
                                 La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima dal 30 giugno al 13 luglio 2023.</p>
                             </li>
                         </ul>
@@ -588,7 +588,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. È poss
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova funzionalità di bozza nell’app mobile Workfront</a> </p>
-                        <p>Con la rimozione dell’app Workfront Proof autonoma nella versione 23.4, l’app mobile principale Workfront ha aggiunto delle funzioni di verifica per consentire il proseguimento della verifica su dispositivi mobili.</p>
+                        <p>Con la versione 23.10 (ottobre 2023), l’app mobile principale Workfront Workfront Proof è stata rimossa e sono state aggiunte funzioni di verifica per consentire il proseguimento della verifica su dispositivi mobili.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -648,7 +648,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. È poss
                             </li>
                             <li>
                                 <p>Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3 </p>
-                                <p>Versione di produzione per tutti i clienti: con la versione 23.4</p>
+                                <p>Versione di produzione per tutti i clienti: con la versione 23.10 (ottobre 2023)</p>
                             </li>
                         </ul>
                     </td>
@@ -777,11 +777,11 @@ Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi
 
 Le seguenti funzionalità verranno presto rimosse da Workfront:
 
-#### L’app mobile Proof è stata rimossa con 23.4
+#### L’app mobile Proof è diventata obsoleta con la versione 23.10 (ottobre 2023)
 
-Con la versione 23.4, l’app mobile Proof verrà ufficialmente dichiarata obsoleta. L’app mobile generale di Workfront è stata migliorata con nuove funzionalità di verifica (per ulteriori informazioni, consulta la nota sulla versione in Miglioramenti di Workfront Mobile) e si consiglia agli utenti di iniziare a utilizzarla per il lavoro di verifica il prima possibile.
+Con la versione 23.10 (ottobre 2023), l’app mobile Proof diventerà ufficialmente obsoleta. L’app mobile generale di Workfront è stata migliorata con nuove funzionalità di verifica (per ulteriori informazioni, consulta la nota sulla versione in Miglioramenti di Workfront Mobile) e si consiglia agli utenti di iniziare a utilizzarla per il lavoro di verifica il prima possibile.
 
-L’app mobile Workfront richiede un accesso a Workfront. Gli utenti esterni e gli ospiti possono continuare a utilizzare l’app Bozza per il lavoro di verifica; tuttavia, non è più supportata e non sarà più disponibile a partire dalla versione 23.4.
+L’app mobile Workfront richiede un accesso a Workfront. Gli utenti esterni e gli ospiti possono continuare a utilizzare l’app Bozza per il lavoro di verifica; tuttavia, non è più supportata e non sarà più disponibile con la versione 23.10 (ottobre 2023).
 
 
 <!-- HTML you might need
