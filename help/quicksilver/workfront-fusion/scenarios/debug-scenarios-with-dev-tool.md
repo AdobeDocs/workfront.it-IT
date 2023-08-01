@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion DevTool consente di comprendere e risolvere 
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 19de44559be7b5bd7584012f1d6f7e12523f12be
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 0%
 # Scenari di debug con [!DNL Adobe Workfront Fusion] DevTool
 
 Il [!DNL Adobe Workfront Fusion] DevTool consente di comprendere e risolvere gli scenari. DevTool aggiunge un pannello aggiuntivo alla [!DNL Chrome Developer Tools]. Utilizzando questo pannello di debugger, puoi controllare tutte le esecuzioni manuali dello scenario, esaminare tutte le operazioni eseguite e visualizzare i dettagli di ogni chiamata API eseguita. Puoi vedere quale modulo, operazione o singola risposta ha causato l’errore e sfruttare queste informazioni per perfezionare lo scenario.
+
+>[!NOTE]
+>
+>Workfront Fusion DevTool non è disponibile per le organizzazioni che accedono a Fusion tramite Unified Shell di Adobe.
 
 ## Requisiti di accesso
 
