@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '7336'
+source-wordcount: '7315'
 ht-degree: 2%
 
 ---
@@ -57,10 +57,8 @@ In Adobe Workfront puoi modificare un progetto con la frequenza necessaria. È c
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> 
-    <ul> 
-     <li> <p>Contribute permissions to a project to edit it in the Project Details area </p> </li> 
-     <li> <p>Manage permissions to a project to edit it in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+     <p>Manage permissions to a project </p> 
+     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,10 +85,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> 
-    <ul> 
-     <li> <p>Concedere le autorizzazioni per un progetto per modificarlo nell’area Dettagli progetto </p> </li> 
-     <li> <p>Per gestire le autorizzazioni per un progetto e modificarlo, seleziona la casella Modifica progetto</p> </li> 
-    </ul> <p> Per informazioni sulle autorizzazioni per i progetti, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+    <p>Gestire le autorizzazioni per un progetto </p> 
+    <p> Per informazioni sulle autorizzazioni per i progetti, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Condividere un progetto in Adobe Workfront</a>.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -271,7 +267,7 @@ Alcune impostazioni menzionate in questo articolo potrebbero essere modificate d
       <td role="rowheader"><strong>Gruppo</strong></td> 
       <td> <p> <p>Specifica il nome del gruppo associato al progetto. </p>Questo campo è obbligatorio. Non puoi avere un progetto che non è associato a un gruppo. </p> <p>Per assicurarsi di selezionare il gruppo corretto, posizionare il puntatore del mouse su di esso e fare clic sull'icona delle informazioni <img src="assets/info-icon.png"> che viene visualizzato accanto ad esso. In questo modo viene visualizzata una descrizione del gruppo contenente informazioni sul gruppo stesso, ad esempio la gerarchia dei gruppi al di sopra del gruppo e i relativi amministratori.</p> Per impostazione predefinita, quando viene creato un progetto, viene automaticamente associato uno dei seguenti gruppi, a meno che non si specifichi un gruppo diverso:</p> 
        <ul> 
-       <li> <p><span>Quando il progetto viene creato dall’area Progetti, al progetto viene associato il Gruppo Predefinito del creatore del progetto.</span> </p> <p>Ciò si verifica anche quando il progetto viene creato dalla sezione Progetti di un portfolio o di un programma.</p> </li> 
+       <li> <p><span>Quando il progetto viene creato dall’area Progetti, al progetto viene associato il Gruppo Predefinito dell’autore del progetto.</span> </p> <p>Ciò si verifica anche quando il progetto viene creato dalla sezione Progetti di un portfolio o di un programma.</p> </li> 
        <li> <p>Quando il progetto viene creato dalla pagina principale di un gruppo nell’area Configura, tale gruppo viene associato al progetto.</p> </li> 
        </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
        <p><b>NOTE</b></p>
@@ -484,7 +480,7 @@ Per modificare i campi nell&#39;area Finanza:
        <li>Per i vincoli delle attività relativi alla pianificazione da una data di inizio (il più presto possibile, il più presto possibile, il prima ora disponibile, l'inizio non prima del, l'inizio non più tardi del, deve iniziare il), la data di inizio pianificata non cambia, ma la data di completamento pianificata cambia.</li> 
        <li>Per i vincoli dei task relativi alla pianificazione da una data di completamento (il più tardi possibile, l'ultima ora disponibile, il più presto possibile, il più tardi possibile, il più tardi possibile, il più tardi possibile, la data di completamento pianificata non cambia, ma la data di inizio pianificata cambia.</li> 
        <li>Per le attività con un vincolo di Date fisse, non vengono modificate né l'Inizio pianificato né la Data di completamento. </li> 
-       </ul><p>La durata dell'attività non cambia quando si seleziona questa impostazione. Solo le date pianificate cambiano, a seconda del Vincolo attività. Per informazioni sul vincolo attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sui vincoli delle attività</a>. </p><p>- <strong>Ignora indisponibilità utente durante l'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto rimangono invariate rispetto alla pianificazione originale, anche se l’assegnatario principale dell’attività presenta un’indisponibilità durante la durata dell’attività. </p><p>Quando selezioni le opzioni per questa impostazione, tieni presente quanto segue:</p> 
+       </ul><p>La durata dell'attività non cambia quando si seleziona questa impostazione. Solo le date pianificate cambiano, a seconda del Vincolo attività. Per informazioni sul vincolo attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sui vincoli delle attività</a>. </p><p>- <strong>Ignora indisponibilità utente durante l'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto rimangono invariate rispetto a quelle pianificate in origine, anche se l’assegnatario principale dell’attività presenta un’indisponibilità per tutta la durata dell’attività. </p><p>Quando selezioni le opzioni per questa impostazione, tieni presente quanto segue:</p> 
        <ul> 
        <li><p>L’opzione predefinita per questa impostazione per un nuovo progetto è la stessa della preferenza di progetto a livello di sistema. </p><p>Per informazioni sulle preferenze del progetto a livello di sistema, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>. </p></li> 
        <li>Quando alleghi un modello a un progetto esistente, l’impostazione sul progetto viene aggiornata in modo da corrispondere a quella del modello. </li> 

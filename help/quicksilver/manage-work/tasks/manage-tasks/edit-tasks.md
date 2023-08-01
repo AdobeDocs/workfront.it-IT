@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '3711'
+source-wordcount: '3712'
 ht-degree: 4%
 
 ---
@@ -53,8 +53,13 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> 
     <ul> 
-     <li> <p>Concedere le autorizzazioni per un'attività per modificarla nell'area Dettagli attività </p> </li> 
-     <li> <p>Gestire le autorizzazioni per un'attività per modificarla nella casella Modifica attività</p> </li> 
+     <li> <p>Concedere le autorizzazioni per un'attività per modificare le informazioni seguenti nell'area Dettagli attività: </p>
+     <ul>
+     <li>Descrizione</li>
+     <li>Stato</li>
+     </ul>  
+      </li> 
+     <li> <p>Gestire le autorizzazioni per un'attività per modificare tutte le informazioni nell'area Dettagli e nella casella Modifica attività</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Autorizzazioni Contribute (Contribute) o superiori per il progetto</p> </li> 
@@ -80,7 +85,7 @@ Quando modifichi le attività, tieni presente quanto segue:
 
 * È sempre possibile modificare le informazioni seguenti su un&#39;attività quando il progetto è stato contrassegnato come Completo, Inattivo o si trova in un processo di approvazione:
 
-   * Tempo di connessione
+   * Registra ore
    * Modifica spese esistenti
    * Allegare un modulo personalizzato
 
@@ -103,7 +108,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 1. Clic **Progetti**, quindi fai clic sul nome di un progetto per aprirlo.
 1. Clic **Attività** nel pannello a sinistra.
 1. Fare clic sull&#39;attività da modificare.
-1. (Condizionale) Per modificare informazioni limitate su un’attività, in qualità di utente con autorizzazioni Contribute (Contribuisci), fai clic su **Dettagli Attività** nel pannello a sinistra.
+1. (Condizionale) Per modificare informazioni limitate su un’attività, fai clic su **Dettagli Attività** nel pannello a sinistra.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
