@@ -7,9 +7,9 @@ description: Questi video presentano i diversi tipi di bacheche disponibili in A
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1f4975a883206126fee7536cb6abb9d32b7ff1a7
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '347'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,12 @@ Una bacheca semplice o di base consente di iniziare rapidamente a utilizzare le 
 Una bacheca kanban può contenere un backlog, o colonna di acquisizione, configurato con filtri per inserire attività e problemi da Workfront nella bacheca.
 
 [Visualizza una dimostrazione video di un Kanban Board.](https://video.tv.adobe.com/v/3416383/){target=_blank}
+
+### Bacheca dinamica
+
+Una bacheca dinamica consente di popolare automaticamente una bacheca con schede basate su un progetto Workfront. Utilizzando i filtri, le schede vengono aggiunte alle colonne in base al loro stato.
+
+[Visualizza una dimostrazione video di una bacheca dinamica.](https://video.tv.adobe.com/v/3422404/){target=_blank}
 
 ### Scheda madre per dispositivi mobili
 
