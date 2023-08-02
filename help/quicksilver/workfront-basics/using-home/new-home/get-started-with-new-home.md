@@ -5,10 +5,10 @@ title: Introduzione alla nuova home in Adobe Workfront
 description: La nuova Home è una nuova potente funzione per gestire il tuo lavoro.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 0%
+source-wordcount: '1032'
+ht-degree: 21%
 
 ---
 
@@ -26,13 +26,13 @@ New Home è progettato per essere altamente personalizzabile, consentendo di sel
 I widget sono alla base della Nuova Home. Aggiungendo i widget alla home page, è possibile scegliere il tipo di informazioni visualizzate per soddisfare al meglio le proprie esigenze di lavoro. Alcuni widget sono disponibili solo per tipi di licenza specifici, in quanto gli oggetti di cui tengono traccia sono disponibili solo per tali licenze. Di seguito sono riportati i dieci widget attualmente disponibili tra cui scegliere e un riepilogo delle informazioni visualizzate:
 
 * **Il mio lavoro**\
-    Un ottimo punto di partenza per la gestione di una varietà di lavori, questo widget mostra tutte le attività, i problemi e le richieste assegnati in un&#39;unica posizione.
+    Questo widget, un ottimo punto di partenza per la gestione di diversi lavori, mostra tutte le attività, i problemi e le richieste assegnati a te in un unico posto.
 
 * **I miei progetti**\
-    Visualizza i progetti assegnati all&#39;utente in una tabella che può essere ordinata in modo da visualizzare solo i progetti di cui si è proprietari o tutti i progetti in uso; opzioni standard di filtro, visualizzazione e raggruppamento; e un pulsante per creare direttamente un nuovo progetto.
+    Mostra i progetti che ti sono stati assegnati in una tabella che può essere ordinata per visualizzare solo i progetti che possiedi o tutti i progetti in cui ti trovi; opzioni standard di filtro, visualizzazione e raggruppamento; e un pulsante per creare direttamente un nuovo progetto.
 
 * **Le mie attività**\
-    Visualizza le attività assegnate all&#39;utente in una tabella con filtri, visualizzazioni e raggruppamenti personalizzabili, nonché un pulsante per creare direttamente una nuova attività.
+    Mostra le attività che ti sono state assegnate in una tabella con filtri, visualizzazioni e raggruppamenti personalizzabili, oltre a un pulsante per creare direttamente una nuova attività.
 
 * **I miei problemi**\
     Visualizza i problemi assegnati in una tabella con filtri, viste e raggruppamenti personalizzabili, nonché un pulsante per creare direttamente un nuovo problema.
@@ -41,19 +41,30 @@ I widget sono alla base della Nuova Home. Aggiungendo i widget alla home page, �
     Visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste aperte e un pulsante che apre il riquadro di riepilogo di una richiesta.
 
 * **Richieste team**\
-    Visualizza tutte le richieste in sospeso per i team ordinati per team, nonché i pulsanti per assegnare direttamente una richiesta a un utente o lavorarci personalmente.
+    Mostra tutte le richieste in sospeso per i team di cui fai parte, ordinate per team, nonché i pulsanti per assegnare direttamente una richiesta a un utente o per lavorarci di persona.
 
 * **In attesa della mia approvazione**\
-    Visualizza tutte le approvazioni assegnate o delegate in sospeso, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all&#39;interno del widget.
+    Mostra tutte le approvazioni assegnate o delegate in attesa, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all’interno del widget.
 
 * **Tutte le approvazioni**\
-    Visualizza tutte le approvazioni per l’organizzazione in una tabella con colonne personalizzabili, nonché una barra di ricerca che consente di cercare approvazioni specifiche.
+    Visualizza tutte le approvazioni per la tua organizzazione in una tabella con colonne personalizzabili, oltre a una barra di ricerca che ti consente di cercare approvazioni specifiche.
 
 * **Menzioni**\
-    Visualizza i thread di commento recenti che contengono le tue @ in Workfront, nonché un pulsante di risposta che ti consente di comporre una risposta all’interno del widget.
+    Visualizza i thread di commenti recenti che contengono @menzioni su di te in Workfront, oltre a un pulsante di risposta che ti consente di comporre una risposta all’interno del widget.
 
 * **Da fare**\
     Questo widget univoco consente di aggiungere elementi di testo a un elenco di controllo personale che puoi modificare liberamente.
+
+Per impostazione predefinita, la home page è compilata con alcuni widget specifici in base al tipo di licenza. La tabella seguente illustra i widget visualizzati dagli utenti di ciascun tipo di licenza la prima volta che accedono alla nuova home.
+
+| **Tipo di licenza legacy** | **Widget predefiniti** | **Tipo di licenza corrente** | **Widget predefiniti** |
+|---|---|---|---|
+| Piano | Progetti, menzioni e cose da fare personali | Standard | I miei progetti, il mio lavoro, le menzioni, le cose da fare |
+| Lavoro | Il mio lavoro, le mie menzioni, le mie cose da fare | Light | Il mio lavoro, in attesa della mia approvazione, cose da fare |
+| Revisiona | Il mio lavoro, le mie menzioni, le mie cose da fare | Collaboratore | Il mio lavoro, le mie menzioni, le mie cose da fare |
+| Limitato | Progetti personali, In attesa della mia approvazione, Attività | Esterno | In attesa della mia approvazione, cose da fare |
+| Collaboratore | Il mio lavoro, le mie menzioni, le mie cose da fare |  |  |
+| Esterno | In attesa della mia approvazione, cose da fare |  |  |
 
 Per informazioni sull&#39;aggiunta, lo spostamento, il ridimensionamento o l&#39;eliminazione di widget, consultate [Aggiungere, modificare o rimuovere widget in Nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
