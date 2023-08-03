@@ -6,7 +6,7 @@ description: Piani, tipi di licenza necessari e accesso a Adobe Workfront Plan T
 author: Alina
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: 0b6b71fae698d34e9c96ba5a699006b3df294a5c
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 0%
@@ -163,7 +163,7 @@ Per informazioni su come personalizzare una visualizzazione agile, consulta [Cre
 
 ## Visualizzare un progetto nella visualizzazione Agile
 
-1. Passare al progetto che si desidera visualizzare in una visualizzazione agile nell&#39;elenco delle attività <span class="preview">o l’elenco dei problemi</span>.
+1. <span class="preview">Vai al progetto che desideri visualizzare in una visualizzazione agile, sull’elenco delle attività o sull’elenco dei problemi.</span>
 1. Fai clic su **Scheda madre** icona ![Icona bacheca](assets/board-icon-for-agile-view.png).
 
    La vista bacheca del progetto viene visualizzata per impostazione predefinita.
