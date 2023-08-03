@@ -7,9 +7,9 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di acqui
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,17 @@ La colonna Acquisizione non è disponibile su una bacheca dinamica.
 
 La colonna Acquisizione non è disponibile nelle bacheche che fanno parte di un flusso di lavoro. Puoi invece impostare una colonna di backlog per richiamare le schede dall’elenco delle schede. Per informazioni sull’aggiunta di una colonna del backlog a una bacheca in un flusso di lavoro, consulta [Configurare il backlog in una bacheca del flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
 
-La colonna Assunzione è limitata a 300 attività e 300 problemi. Sono ordinati in base alla priorità definita sugli elementi. Per informazioni sulla priorità, consulta [Aggiorna priorità attività](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) e [Aggiorna la priorità del problema](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+La colonna Assunzione è limitata a 300 attività e 300 problemi. L’ordine predefinito degli elementi nella colonna Acquisizione è il seguente:
+
+Attività:
+
+* Ordine principale: nome progetto
+* Ordine secondario: struttura analisi stratificata lavoro
+
+Problemi:
+
+* Ordine principale: nome progetto
+* Ordine secondario: numero di riferimento
 
 Per ulteriori informazioni sulle colonne, consulta [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Per informazioni sulle schede collegate, vedere [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 

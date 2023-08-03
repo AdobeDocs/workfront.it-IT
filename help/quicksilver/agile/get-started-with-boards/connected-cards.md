@@ -6,14 +6,16 @@ description: È possibile aggiungere alla bacheca una scheda connessa alle attiv
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: c063bd9505a785ea738d07e082328871245216f2
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1434'
 ht-degree: 0%
 
 ---
 
 # Utilizzare le schede collegate sulle bacheche
+
+{{preview-and-fast-release}}
 
 È possibile aggiungere alla bacheca una scheda connessa alle attività e ai problemi esistenti in [!DNL Workfront].
 
@@ -138,6 +140,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      <tr> 
       <td role="rowheader"><strong>Elenco di controllo di [!UICONTROL]</strong> </td> 
       <td> <p>Clic <strong>[!UICONTROL Aggiungi voce elenco di controllo]</strong>. Digitare quindi il titolo dell'elemento e premere Invio. Un altro elemento viene aggiunto automaticamente. Continua a inserire i titoli per aggiungere altri elementi.</p> <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell’elenco di controllo, consulta <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestire le voci dell’elenco di controllo sulle schede</a>.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documenti]</strong></span></td>
+      <td><span class="preview"><p>Passa il puntatore sull'anteprima del documento e fai clic su <strong>Anteprima</strong> per visualizzare il file nel browser o <strong>Scarica</strong> per scaricare il file sul computer.</p></span>
+      <span class="preview"><p><strong>NOTA:</strong> In questo momento, è necessario caricare un documento nell'attività Workfront per renderlo disponibile sulla scheda collegata.</p></span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>
