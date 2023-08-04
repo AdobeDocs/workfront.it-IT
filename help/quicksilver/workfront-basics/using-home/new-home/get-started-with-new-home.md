@@ -5,10 +5,10 @@ title: Introduzione alla nuova home in Adobe Workfront
 description: La nuova Home è una nuova potente funzione per gestire il tuo lavoro.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 63aa6bcbdf7e31a61a497f8d89c3bfe3debd5ff1
+source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 21%
+source-wordcount: '1048'
+ht-degree: 20%
 
 ---
 
@@ -55,16 +55,65 @@ I widget sono alla base della Nuova Home. Aggiungendo i widget alla home page, �
 * **Da fare**\
     Questo widget univoco consente di aggiungere elementi di testo a un elenco di controllo personale che puoi modificare liberamente.
 
-Per impostazione predefinita, la home page è compilata con alcuni widget specifici in base al tipo di licenza. La tabella seguente illustra i widget visualizzati dagli utenti di ciascun tipo di licenza la prima volta che accedono alla nuova home.
+  >[!NOTE]
+  >
+  >Per creare cose da fare nel widget Attività è necessario disporre dell&#39;autorizzazione per creare attività.
 
-| **Tipo di licenza legacy** | **Widget predefiniti** | **Tipo di licenza corrente** | **Widget predefiniti** |
-|---|---|---|---|
-| Piano | Progetti, menzioni e cose da fare personali | Standard | I miei progetti, il mio lavoro, le menzioni, le cose da fare |
-| Lavoro | Il mio lavoro, le mie menzioni, le mie cose da fare | Light | Il mio lavoro, in attesa della mia approvazione, cose da fare |
-| Revisiona | Il mio lavoro, le mie menzioni, le mie cose da fare | Collaboratore | Il mio lavoro, le mie menzioni, le mie cose da fare |
-| Limitato | Progetti personali, In attesa della mia approvazione, Attività | Esterno | In attesa della mia approvazione, cose da fare |
-| Collaboratore | Il mio lavoro, le mie menzioni, le mie cose da fare |  |  |
-| Esterno | In attesa della mia approvazione, cose da fare |  |  |
+Per impostazione predefinita, la home page è compilata con alcuni widget specifici in base al tipo di licenza. Le tabelle seguenti descrivono i widget visualizzati dagli utenti di ciascun tipo di licenza la prima volta che accedono alla nuova home.
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Tipo di licenza corrente</b></td>
+        <td><b>Widget predefiniti</b></td>
+    </tr>
+    <tr>
+        <td>Standard</td>
+        <td>I miei progetti, il mio lavoro, le menzioni, le cose da fare</td>
+    </tr>
+    <tr>
+        <td>Light</td>
+        <td>Il mio lavoro, in attesa della mia approvazione, cose da fare</td>
+    </tr>
+    <tr>
+        <td>Collaboratore</td>
+        <td>Il mio lavoro, le mie menzioni, le mie cose da fare</td>
+    </tr>
+    <tr>
+        <td>Esterno</td>
+        <td>In attesa della mia approvazione, cose da fare</td>
+    </tr>
+</table>
+
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>Tipo di licenza legacy</b></td>
+        <td><b>Widget predefiniti</b></td>
+    </tr>
+    <tr>
+        <td>Piano</td>
+        <td>Progetti, menzioni e cose da fare personali</td>
+    </tr>
+    <tr>
+        <td>Lavoro</td>
+        <td>Il mio lavoro, le mie menzioni, le mie cose da fare</td>
+    </tr>
+    <tr>
+        <td>Revisiona</td>
+        <td>Il mio lavoro, le mie menzioni, le mie cose da fare</td>
+    </tr>
+    <tr>
+        <td>Limitato</td>
+        <td>Progetti personali, In attesa della mia approvazione, Attività</td>
+    </tr>
+    <tr>
+        <td>Collaboratore</td>
+        <td>Il mio lavoro, le mie menzioni, le mie cose da fare</td>
+    </tr>
+    <tr>
+        <td>Esterno</td>
+        <td>In attesa della mia approvazione, cose da fare</td>
+    </tr>
+</table>
 
 Per informazioni sull&#39;aggiunta, lo spostamento, il ridimensionamento o l&#39;eliminazione di widget, consultate [Aggiungere, modificare o rimuovere widget in Nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
