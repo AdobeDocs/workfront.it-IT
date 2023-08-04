@@ -8,9 +8,9 @@ description: Le funzioni Organizzazione e Team di Adobe Workfront Fusion consent
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -146,6 +146,8 @@ Un utente ha uno dei seguenti ruoli in ciascuno dei propri team:
 * **[!UICONTROL Monitoraggio team]**: Il [!UICONTROL monitoraggio] Il ruolo consente agli utenti di accedere alle informazioni di esecuzione per gli scenari, ma non sono in grado di progettare scenari o di modificare il loro stato &quot;Attivo&quot;.
 * **[!UICONTROL Operatore team]**: Il [!UICONTROL operatore] Il ruolo consente agli utenti di visualizzare i dati di esecuzione e modificare lo stato &quot;Attivo&quot; degli scenari.
 * **[!UICONTROL Membro con restrizioni team]**: la funzionalità per questo ruolo non è attualmente disponibile e verrà resa disponibile a breve. Non è consigliabile assegnare gli utenti a questo ruolo in questo momento.
+
+Per informazioni su attività specifiche disponibili per i ruoli del team, vedi[Ruoli di organizzazione e team](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Gestione team
 
