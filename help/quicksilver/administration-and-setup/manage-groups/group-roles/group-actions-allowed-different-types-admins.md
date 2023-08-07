@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 531d28fe1ba46a98d9a56a3ed2741954b5ccfcb9
+source-git-commit: 71979b32684a0c52cb5951d74dc1aa9a5b1d83ef
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -36,13 +36,7 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
    <th>Amministratore del sottogruppo (le azioni sono limitate ai gruppi gestiti dall'amministratore)</th> 
   </tr> 
  </thead> 
- <tbody> 
-  <tr> 
-   <td>Iscrivi membri nella nuova esperienza Adobe Workfront</td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-   <td>✓ </td> 
-  </tr> 
+ <tbody>
   <tr> 
    <td>Reimpostare la password di un utente</td> 
    <td>✓ </td> 
