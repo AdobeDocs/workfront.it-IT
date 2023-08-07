@@ -8,7 +8,7 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 2%
@@ -16,6 +16,8 @@ ht-degree: 2%
 ---
 
 # Creare un processo di approvazione per gli elementi di lavoro
+
+<!--see below the "hidden" content for the redesigned tabs - August 2023-->
 
 È possibile creare un processo di approvazione che gli utenti possono allegare a un elemento di lavoro (progetto, attività, problema, modello o attività modello), a un documento o a una bozza. Un processo di approvazione garantisce che gli assegnatari designati dell&#39;oggetto rivedano alcune modifiche prima che l&#39;oggetto progredisca nel sistema.
 
@@ -71,6 +73,10 @@ Devi avere i seguenti:
    Oppure
 
    Se si sta creando un processo di approvazione a livello di gruppo, fare clic su **Gruppi** ![](assets/groups-icon.png), fai clic sul nome del gruppo, quindi fai clic su **Approvazioni**.
+
+   <!--hidden for the new tab redesign - August 2023: 
+   ![](assets/approvals-area-in-setup-processes.png)
+   -->
 
 1. Fai clic su **Approvazioni progetti**, **Approvazioni attività**, o **Approvazioni problemi** , a seconda del tipo di processo di approvazione che si desidera creare.
 

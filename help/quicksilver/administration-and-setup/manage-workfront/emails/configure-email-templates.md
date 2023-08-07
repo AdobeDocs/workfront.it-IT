@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 1%
 
 In qualità di amministratore di Adobe Workfront, puoi configurare modelli e-mail per supportare le notifiche dei promemoria.
 
-I modelli e-mail contengono il messaggio inviato agli utenti quando viene avviata una notifica di promemoria.\
-Senza un modello e-mail, la notifica di promemoria verrà recapitata come contenuto vuoto nel corpo dell’e-mail.
+I modelli di e-mail contengono il messaggio inviato agli utenti quando viene avviata una notifica di promemoria.\
+Senza un modello e-mail, la notifica del promemoria verrà consegnata come contenuto vuoto nel corpo dell’e-mail.
 
-I modelli e-mail possono essere associati a notifiche di promemoria per problemi, attività, progetti e fogli presenze. Durante la creazione di modelli e-mail, l’amministratore Workfront può fornire il contenuto dell’e-mail e una riga dell’oggetto.
+I modelli e-mail possono essere associati a notifiche di promemoria per problemi, attività, progetti e schede orario. Durante la creazione dei modelli e-mail, l’amministratore di Workfront può fornire il contenuto dell’e-mail e una riga dell’oggetto.
 
 ## Requisiti di accesso
 
@@ -41,67 +41,72 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Piano</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Amministratore di sistema</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Creare un nuovo modello e-mail {#create-a-new-email-template}
+## Crea un nuovo modello e-mail {#create-a-new-email-template}
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Nel pannello a sinistra, fai clic su **E-mail** > **Notifiche**.
+1. Nel pannello a sinistra, fai clic su **E-mail** > **Notifiche**> **Modelli e-mail**.
 
-1. Fai clic sul pulsante **Modelli e-mail** scheda , quindi fai clic su **Nuovo modello e-mail**.
+<!--hidden for tab redesign - August 2023: 
+  ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+  -->
 
-1. In **Nuovo modello e-mail** nella casella visualizzata, specificare le seguenti informazioni:
+1. Clic **Nuovo modello e-mail**.
+
+1. In **Nuovo modello e-mail** nella casella visualizzata, specificare le informazioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Modello e-mail</td> 
+      <td role="rowheader">Nome</td> 
       <td>Titolo del modello e-mail (obbligatorio).</td> 
      </tr> 
      <tr> 
+      <td role="rowheader">Tipo oggetto</td> 
+      <td>Specifica il tipo di oggetto a cui associare il modello (obbligatorio, sarà impostato su "Problema" per impostazione predefinita).</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Descrizione</td> 
       <td>Descrizione del modello.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Tipo di oggetto</td> 
-      <td>Specificare il tipo di oggetto a cui si desidera associare il modello (obbligatorio, per impostazione predefinita sarà impostato su "Problema").</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Oggetto </td> 
-      <td>Oggetto visualizzato quando viene inviato il messaggio e-mail (obbligatorio).</td> 
+      <td>Oggetto visualizzato all’invio del messaggio e-mail (obbligatorio).</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
-      <td> <p>Contenuto visualizzato all’invio del messaggio e-mail.</p> <p>È possibile utilizzare la formattazione di HTML per il contenuto dell’e-mail, come descritto in <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Aggiungere la formattazione di HTML a un modello e-mail</a> in questo articolo.</p> </td> 
+      <td role="rowheader">Corpo </td> 
+      <td> <p>Contenuto visualizzato all’invio del messaggio e-mail.</p> <p>Puoi utilizzare la formattazione HTML per il contenuto dell’e-mail, come descritto in <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Aggiungere formattazione HTML a un modello e-mail</a> in questo articolo.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Fai clic su **Salva**.
 
-## Aggiungere la formattazione di HTML a un modello e-mail {#add-html-formatting-to-an-email-template}
+## Aggiungere formattazione HTML a un modello e-mail {#add-html-formatting-to-an-email-template}
 
-Puoi aggiungere tag HTML ai modelli e-mail per produrre notifiche personalizzate.\
-Inizia a creare il modello e-mail come descritto in [Creare un nuovo modello e-mail](#create-a-new-email-template).
+Per generare notifiche personalizzate, puoi aggiungere HTML ai modelli e-mail.\
+Inizia a creare il modello e-mail come descritto in [Crea un nuovo modello e-mail](#create-a-new-email-template).
 
-La formattazione di HTML può arricchire i modelli e-mail, come illustrato nelle sezioni seguenti.
+La formattazione HTML può arricchire i modelli e-mail, come illustrato nelle sezioni seguenti.
 
 * [Collegamento a oggetti Workfront](#link-to-workfront-objects)
 * [Collegamento a campi personalizzati con HTML](#link-to-custom-fields-with-html)
-* [Esempi e-mail di HTML](#html-email-examples)
+* [Esempi di e-mail su HTML](#html-email-examples)
 
 ### Collegamento a oggetti Workfront {#link-to-workfront-objects}
 
-È possibile includere collegamenti ai campi Workfront utilizzando `$$` carattere jolly per indicare al generatore di e-mail di cercare i valori dal database associato a un oggetto specifico.
+È possibile includere collegamenti ai campi di Workfront utilizzando `$$` carattere jolly per indicare al generatore di e-mail di cercare valori dal database associato a un oggetto specifico.
 
-Ad esempio, il corpo dell’e-mail relativa a una notifica che avvisa l’assegnatario dell’attività che sta per essere avviata può seguire questa struttura:
+Ad esempio, il corpo dell’e-mail di una notifica che avvisa l’assegnatario dell’attività che l’attività sta per iniziare può seguire questa struttura:
 
 ```html
 <html>
@@ -127,15 +132,15 @@ Per ottenere il valore &quot;jolly&quot; per un oggetto, effettuare una delle se
 
 <!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
-* Utilizzare il valore &quot;valueField&quot; che si trova all&#39;interno di una visualizzazione in modalità testo di un report. Per ulteriori informazioni sui valori della modalità testo, consulta [Panoramica della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Utilizza il valore &quot;valuefield&quot; presente all’interno della visualizzazione in modalità testo di un rapporto. Per ulteriori informazioni sui valori della modalità testo, consulta [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-   Il valore &quot;intestazione&quot; può essere il nome dell’oggetto, come desideri che appaia nel corpo dell’e-mail.
+  Il valore &quot;intestazione&quot; può essere il nome dell’oggetto, come desideri che appaia nel corpo dell’e-mail.
 
 ### Collegamento a campi personalizzati con HTML {#link-to-custom-fields-with-html}
 
-È possibile includere collegamenti a utenti e campi personalizzati utilizzando **$** carattere jolly per indicare al generatore di e-mail di cercare i valori dal database associato all’oggetto. Devono essere presenti su entrambi i lati del riferimento dell&#39;attributo del database.
+È possibile includere collegamenti a utenti e campi personalizzati utilizzando **$$** carattere jolly per indicare al generatore di e-mail di cercare i valori dal database associato all’oggetto. Devono essere presenti su entrambi i lati del riferimento dell’attributo del database.
 
-Ad esempio, se si aggiunge il testo seguente come HTML, alla notifica di promemoria associata a un&#39;attività verrà aggiunto il nome utente assegnato:
+Se ad esempio si aggiunge come HTML il testo seguente, il nome dell&#39;utente assegnato verrà aggiunto alla notifica di promemoria associata a un&#39;attività:
 
 `assignedTo:firstName`
 
@@ -143,9 +148,9 @@ Per aggiungere campi personalizzati con la stessa formattazione, puoi aggiungere
 
 `DE:Custom Field As It Appears in Workfront`
 
-Ad esempio, si tratta di un modello e-mail che include un riferimento a un campo personalizzato denominato Data consegna e si presume che il campo Data consegna appartenga a un’attività.
+Ad esempio, si tratta di un modello e-mail che include un riferimento a un campo personalizzato denominato Data di consegna e presuppone che il campo Data di consegna appartenga a un’attività.
 
-Sostituisci `<your domain>` con il dominio Workfront della tua azienda, senza le parentesi graffe:
+Sostituisci `<your domain>` con il dominio Workfront della tua azienda, senza le parentesi:
 
 ```html
 <html>
@@ -175,24 +180,24 @@ Sostituisci `<your domain>` con il dominio Workfront della tua azienda, senza le
 
 >[!NOTE]
 >
->Se il campo appartiene a un progetto, sostituisci l’attività con il progetto:
+>Se il campo appartiene a un progetto, sostituisci attività con progetto:
 >
 >`DE:Project:Delivery Date`
 
-### Esempi e-mail di HTML {#html-email-examples}
+### Esempi di e-mail su HTML {#html-email-examples}
 
-* [Notifica promemoria progetto in ritardo (esempio)](#late-project-reminder-notification-example)
-* [Attività o problema Informazioni sull&#39;avvio promemoria (esempio)](#task-or-issue-about-to-start-reminder-example)
+* [Notifica di promemoria per progetto in ritardo (esempio)](#late-project-reminder-notification-example)
+* [Promemoria Attività o Problema in procinto di iniziare (esempio)](#task-or-issue-about-to-start-reminder-example)
 
-#### Notifica promemoria progetto in ritardo (esempio) {#late-project-reminder-notification-example}
+#### Notifica di promemoria per progetto in ritardo (esempio) {#late-project-reminder-notification-example}
 
-Per modificare un modello e-mail per un promemoria di progetto in ritardo, considera queste informazioni per i campi Oggetto e Contenuto .
+Per modificare un modello e-mail per un promemoria per un progetto in ritardo, considera queste informazioni per i campi Oggetto e Contenuto.
 
-Sostituisci `<your domain>` con il dominio Workfront della tua azienda, senza le parentesi graffe.
+Sostituisci `<your domain>` con il dominio Workfront della tua azienda, senza le parentesi.
 
 **Oggetto:**
 
-Un Progetto Gestito È Diventato In Ritardo
+Un Progetto Gestito È In Ritardo
 
 **ContentContenuto:**
 
@@ -214,19 +219,19 @@ Un Progetto Gestito È Diventato In Ritardo
 </html>
 ```
 
-Viene generato un messaggio e-mail simile al seguente:
+Questo genera un’e-mail simile alla seguente:
 
 ![](assets/screen-shot-2016-09-16-at-3.52.54-pm-350x103.png)
 
-#### Attività o problema Informazioni sull&#39;avvio del promemoria {#task-or-issue-about-to-start-reminder-example}
+#### Promemoria attività o problema in procinto di iniziare {#task-or-issue-about-to-start-reminder-example}
 
-È inoltre possibile creare una notifica di promemoria per un&#39;attività o un problema imminente.
+Puoi anche creare una notifica di promemoria per un’attività o un problema imminente.
 
-Il codice seguente può essere incluso in un modello e-mail da utilizzare per le attività e per emettere notifiche di promemoria inviate un numero qualsiasi di giorni prima della data di inizio pianificata dell’attività o del problema.
+Il seguente codice può essere incluso in un modello e-mail da utilizzare per le notifiche di promemoria su attività e problemi inviate un numero qualsiasi di giorni prima della data di inizio pianificata dell’attività o del problema.
 
-Sostituisci `<your domain>` con il dominio Workfront della tua azienda, senza le parentesi graffe.
+Sostituisci `<your domain>` con il dominio Workfront della tua azienda, senza le parentesi.
 
-Per utilizzare questo per un’e-mail relativa al problema, modifica il `/task/view.` nel collegamento all’elemento di lavoro a `/issue/view`.
+Per utilizzare questa proprietà per un messaggio e-mail relativo a un problema, modifica il `/task/view.` valore nel collegamento all’elemento di lavoro per `/issue/view`.
 
 **Oggetto:**
 
@@ -269,6 +274,6 @@ Per utilizzare questo per un’e-mail relativa al problema, modifica il `/task/v
 </html>
 ```
 
-![email_template_delivery.png](assets/email-template-delivered.png)
+![email_template_delivered.png](assets/email-template-delivered.png)
 
-Dopo la creazione di un modello e-mail, gli utenti possono associarlo alle notifiche dei promemoria, come descritto in [Impostare le notifiche dei promemoria](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+Dopo aver creato un modello e-mail, gli utenti possono associarlo alle notifiche di promemoria, come descritto in [Configurare le notifiche di promemoria](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
