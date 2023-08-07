@@ -8,7 +8,7 @@ description: Le funzioni Organizzazione e Team di Adobe Workfront Fusion consent
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 6531f318d9fb34b38a378a28e4d478c428bd1c25
+source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 0%
@@ -97,8 +97,6 @@ Per invitare un utente a partecipare a un&#39;organizzazione:
 1. Fai clic su **[!UICONTROL Salva]**.
 
 [!DNL Fusion] invia un’e-mail con un invito all’organizzazione specifica e un [!UICONTROL Accetta Il Ruolo] pulsante.
-
-![](assets/accept-the-role.png)
 
 Quando il destinatario fa clic sul pulsante, viene reindirizzato alla pagina dell’invito, dove può accettare l’invito.
 
