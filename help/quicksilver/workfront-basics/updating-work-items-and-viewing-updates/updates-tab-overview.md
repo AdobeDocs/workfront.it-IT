@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1127'
 ht-degree: 4%
 
 ---
@@ -51,83 +51,99 @@ Le informazioni nella sezione Aggiornamenti sono organizzate in modo diverso a s
 
 ### Panoramica della sezione Aggiornamenti corrente
 
-La sezione Aggiornamenti di un oggetto mostra fino a 200 degli aggiornamenti più recenti effettuati negli ultimi 90 giorni.
+* La sezione Aggiornamenti di un oggetto mostra fino a 200 degli aggiornamenti più recenti effettuati negli ultimi 90 giorni.
 
-![](assets/updates-tab-before-unified-experience-for-issues.png)
+  ![](assets/updates-tab-before-unified-experience-for-issues.png)
 
-La sezione Aggiornamenti correnti mostra le seguenti informazioni:
+* Viene visualizzata la sezione Aggiornamenti per i seguenti oggetti:
 
-* Osservazioni degli utilizzatori e risposte a tali osservazioni.
-* Aggiornamenti di sistema, ovvero messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, puoi acquisire le modifiche nei campi di stato, nome o personalizzati con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td> 
+      <ul> 
+      <li>Documenti</li> 
+      <li>Obiettivi</li> 
+      <li>Problemi</li> 
+      <li>Iterazioni</li> 
+      <li>Progetti</li> 
+      <li>Programmi</li> 
+      <li>Portfolio</li> 
+      </ul> </td> 
+    <td> 
+      <ul> 
+      <li>Storie*</li> 
+      <li>Attività</li> 
+      <li>Modelli</li> 
+      <li>Attività modello</li> 
+      <li>Schede orario</li> 
+      <li>Utenti</li>
+      </ul> </td> 
+    </tr> 
+  </tbody> 
+  </table>
 
-Viene visualizzata la sezione Aggiornamenti per i seguenti oggetti:
+  *Le storie sono attività. Tutte le informazioni relative alle attività sono disponibili anche per gli articoli.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Documenti</li> 
-     <li>Obiettivi</li> 
-     <li>Problemi</li> 
-     <li>Iterazioni</li> 
-     <li>Progetti</li> 
-     <li>Programmi</li> 
-     <li>Portfolio</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Storie*</li> 
-     <li>Attività</li> 
-     <li>Modelli</li> 
-     <li>Attività modello</li> 
-     <li>Schede orario</li> 
-     <li>Utenti</li>
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-*Le storie sono attività. Tutte le informazioni relative alle attività sono disponibili anche per gli articoli.
+* La sezione Aggiornamenti correnti mostra le seguenti informazioni:
+
+   * Aggiornamenti utente: commenti degli utenti e risposte a tali commenti.
+   * Aggiornamenti del sistema: messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, puoi acquisire le modifiche nei campi di stato, nome o personalizzati con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+* I seguenti oggetti non registrano gli aggiornamenti di sistema:
+
+   * Team
+   * Modello
+   * Attività modello
 
 ### Panoramica della sezione Aggiornamenti nell’esperienza di commento Beta
 
-![](assets/updates-tab-after-unified-experience-for-issues.png)
-
 Per informazioni sulle funzioni disponibili per la nuova esperienza di commento e per gli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-La sezione Aggiornamenti visualizza le informazioni nelle schede seguenti nella nuova esperienza di commento:
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
-* **Commenti**: visualizza i commenti degli utenti e le relative risposte. Per informazioni sull’aggiornamento degli oggetti nella nuova esperienza di commento, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
-* **Attività di sistema**: visualizza gli aggiornamenti del sistema, ovvero messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, puoi acquisire le modifiche nei campi di stato, nome o personalizzati con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* La sezione Aggiornamenti visualizza le informazioni nelle schede seguenti nella nuova esperienza di commento:
 
-Al momento, è possibile aggiungere commenti e rispondere agli aggiornamenti utilizzando la nuova esperienza di commento per i seguenti oggetti:
+   * **Commenti**: visualizza i commenti degli utenti e le relative risposte. Per informazioni sull’aggiornamento degli oggetti nella nuova esperienza di commento, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Attività di sistema**: visualizza gli aggiornamenti del sistema, ovvero messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, puoi acquisire le modifiche nei campi di stato, nome o personalizzati con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Obiettivi</p>
-     <li>Schede nell'area Schede*</li>
-      Questa è l'unica esperienza per obiettivi e carte.
-     </li> 
-     <li>Progetti</li>
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Problemi</li> 
-     <li>Attività</li>
-     <li>Documenti</li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+* Al momento, è possibile aggiungere commenti e rispondere agli aggiornamenti utilizzando la nuova esperienza di commento per i seguenti oggetti:
 
-*È possibile aggiungere e visualizzare gli aggiornamenti alle schede nelle aree della bacheca quando si abilitano le sezioni Commenti e Attività del sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
+  <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td> 
+        <ul> 
+        <li><p>Obiettivi</p>
+        <li>Schede nell'area Schede*</li>
+          Questa è l'unica esperienza per obiettivi e carte.
+        </li> 
+        <li>Progetti</li>
+        </ul> </td> 
+      <td> 
+        <ul> 
+        <li>Problemi</li> 
+        <li>Attività</li>
+        <li>Documenti</li>
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
+
+  *È possibile aggiungere e visualizzare gli aggiornamenti alle schede nelle aree della bacheca quando si abilitano le sezioni Commenti e Attività del sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
+
+<!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
+
+* The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+-->
 
 ## Aggiornamenti visualizzati anche su oggetti di livello superiore
 
@@ -215,7 +231,7 @@ Nella tabella seguente vengono illustrati gli oggetti i cui commenti vengono vis
 
 ## Limitazioni della sezione Aggiornamenti
 
-Nella sezione Aggiornamenti di un team e quando si immettono aggiornamenti per conto di altri utenti, esistono alcune limitazioni.
+Nella sezione Aggiornamenti di un team e quando si inseriscono aggiornamenti per conto di altri utenti, esistono alcune limitazioni.
 
 ### Limitazioni per utenti e team
 
