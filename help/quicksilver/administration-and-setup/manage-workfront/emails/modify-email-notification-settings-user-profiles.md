@@ -9,7 +9,7 @@ author: Lisa, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -22,7 +22,10 @@ Se sei un amministratore di Adobe Workfront o hai un livello di accesso alla Pia
 
 Quando si configurano le impostazioni di notifica in blocco, è possibile modificare solo le impostazioni comuni agli utenti selezionati.
 
-Puoi anche configurare le notifiche e-mail per un utente alla volta, incluso il tuo profilo. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>[!NOTE]
+>
+>Puoi anche configurare le notifiche e-mail per un utente alla volta, incluso il tuo profilo. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
 
 ## Requisiti di accesso
 
