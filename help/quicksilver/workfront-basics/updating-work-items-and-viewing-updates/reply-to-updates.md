@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Rispondi a un aggiornamento o a una risposta
+## Rispondere a un aggiornamento o a una risposta in Workfront
 
 È possibile rispondere a un commento nel thread di un oggetto che è possibile visualizzare oppure accedere come amministratore di Workfront o di gruppo e rispondere a un commento per conto di un altro utente. Per ulteriori informazioni, consulta [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
@@ -127,53 +127,23 @@ Per informazioni sulle funzioni disponibili per la nuova esperienza di commento 
 1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-menu.png) accanto all’aggiornamento per ulteriori opzioni per gestire la risposta. Per ulteriori informazioni, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
 
-## Rispondi a un aggiornamento tramite notifica e-mail
+## Rispondere a un aggiornamento da una notifica e-mail
 
 A seconda della configurazione delle notifiche e-mail, potresti ricevere una notifica e-mail quando viene effettuato un aggiornamento a determinati oggetti a cui hai accesso.
 
->[!NOTE]
->
->La risposta agli aggiornamenti tramite e-mail non è disponibile per gli ambienti nel cluster 6.
+È possibile rispondere a un aggiornamento da una notifica e-mail nei modi seguenti:
+
+* Rispondi all’e-mail ricevuta. L’e-mail di risposta viene aggiunta come risposta di Workfront al commento originale.
+* Utilizza il pulsante Commento all’interno dell’e-mail per tornare a Workfront e rispondere all’aggiornamento nell’area Aggiornamenti.
 
 Di seguito è riportato un esempio di notifica e-mail attivata in seguito a un aggiornamento effettuato nella scheda Aggiornamenti di un’attività:
 
 ![email.png](assets/email-350x202.png)
 
-Dall’e-mail, puoi facilmente aggiungere una risposta direttamente al thread di comunicazione dell’oggetto in Workfront. Puoi anche aggiungere una risposta senza effettuare l’accesso a Workfront, su un messaggio e-mail generato dai commenti aggiunti ai seguenti oggetti:
+Per informazioni, consulta [Rispondi alle notifiche e-mail](../updating-work-items-and-viewing-updates/reply-to-email-notifications.md).
 
-* Progetto
-* Attività
-* Problema
-* Documento
-* Attività modello e modello
-* Portfolio
-* Programma
-* Iterazione
-* Scheda orario
 
-### Rispondere a un aggiornamento da una notifica e-mail
 
-Quando ricevi una notifica e-mail, puoi aprire rapidamente l’oggetto Workfront associato e aggiungere una risposta direttamente al thread di comunicazione.
 
-1. Clic **Commento** nella notifica e-mail.
 
-   La pagina Dettagli dell&#39;oggetto viene visualizzata in Workfront.
 
-1. Vai all’aggiornamento a cui desideri aggiungere una risposta.
-
-   Oltre a visualizzare gli utenti attivamente coinvolti nella conversazione, puoi vedere chi è stato taggato in ogni risposta nella parte superiore del thread di aggiornamento. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Per assegnare tag a più utenti, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-1. Clic **Risposta,** immetti la risposta, quindi fai clic su **Rispondi**.
-
-### Aggiungere un aggiornamento a un oggetto esterno a Workfront
-
-Quando ricevi una notifica e-mail di Workfront, puoi aggiungere rapidamente un aggiornamento al thread di comunicazione senza effettuare l’accesso a Workfront.
-
-Per aggiungere un aggiornamento a un messaggio e-mail di Workfront:
-
-1. Dall’applicazione e-mail, apri l’e-mail Workfront a cui desideri rispondere, quindi apri una finestra e-mail di risposta.
-1. Digita il tuo aggiornamento.\
-   Gli allegati non sono consentiti e l’eventuale formattazione Rich Text applicata a un aggiornamento in un messaggio e-mail non viene visualizzata nell’aggiornamento quando viene visualizzata nella scheda Aggiornamenti.
-1. Clic **Invia**.
-
-   L&#39;aggiornamento viene aggiunto al thread di comunicazione dell&#39;oggetto.
