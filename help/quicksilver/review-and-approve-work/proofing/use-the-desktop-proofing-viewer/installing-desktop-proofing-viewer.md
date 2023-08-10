@@ -6,7 +6,7 @@ description: Il Visualizzatore bozze desktop, progettato principalmente per la v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: fde4d0abf494c32cb53d3c4bc1b150f1825df433
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 0%
@@ -53,8 +53,8 @@ In caso contrario, puoi seguire i passaggi seguenti.
 
 1. Per scaricare l’app, effettua una delle seguenti operazioni:
 
-   * Se utilizzi l’ambiente Produzione, fai clic su [Download di produzione Mac per il visualizzatore di bozze desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.26.pkg)
-   * Se utilizzi l’ambiente di anteprima, fai clic su [Download dell&#39;anteprima di Mac per il visualizzatore di bozze desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.26.pkg)
+   * Se utilizzi l’ambiente Produzione, fai clic su [Download di produzione Mac per il visualizzatore di bozze desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof-2.1.28.pkg)
+   * Se utilizzi l’ambiente di anteprima, fai clic su [Download dell&#39;anteprima di Mac per il visualizzatore di bozze desktop.](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.28.pkg)
 
 1. Aprire il file appena scaricato per avviare l&#39;installazione.
 1. Nella casella di installazione visualizzata fare clic su **Continua**, quindi fai clic su **Installa**.
@@ -77,8 +77,8 @@ Se l’amministratore di Workfront o Workfront Proof ha scaricato l’app sulla 
 
 1. Per scaricare l’app, effettua una delle seguenti operazioni:
 
-   * Nell’ambiente di produzione, fai clic su [Download di Windows Production per il Visualizzatore bozze desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.26.exe)
-   * Nell’ambiente di anteprima, fai clic su [Download dell&#39;anteprima di Windows per il visualizzatore di bozze desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.26.exe).
+   * Nell’ambiente di produzione, fai clic su [Download di Windows Production per il Visualizzatore bozze desktop.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.28.exe)
+   * Nell’ambiente di anteprima, fai clic su [Download dell&#39;anteprima di Windows per il visualizzatore di bozze desktop](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.28.exe)
 
 1. Aprire il file appena scaricato per avviare l&#39;installazione.
 1. Nella casella di installazione visualizzata, aprire il file appena scaricato per avviare l&#39;installazione.

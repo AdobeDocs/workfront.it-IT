@@ -5,10 +5,10 @@ title: Introduzione alla nuova home in Adobe Workfront
 description: La nuova Home è una nuova potente funzione per gestire il tuo lavoro.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 40eccf1fa13b4221ca599b74c0adff9063b7249a
+source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 20%
+source-wordcount: '1095'
+ht-degree: 19%
 
 ---
 
@@ -23,7 +23,9 @@ New Home è progettato per essere altamente personalizzabile, consentendo di sel
 
 ### Widget
 
-I widget sono alla base della Nuova Home. Aggiungendo i widget alla home page, è possibile scegliere il tipo di informazioni visualizzate per soddisfare al meglio le proprie esigenze di lavoro. Alcuni widget sono disponibili solo per tipi di licenza specifici, in quanto gli oggetti di cui tengono traccia sono disponibili solo per tali licenze. Di seguito sono riportati i dieci widget attualmente disponibili tra cui scegliere e un riepilogo delle informazioni visualizzate:
+I widget sono alla base della Nuova Home. Aggiungendo i widget alla home page, è possibile scegliere il tipo di informazioni visualizzate per soddisfare al meglio le proprie esigenze di lavoro. Alcuni widget sono disponibili solo per tipi di licenza specifici, in quanto gli oggetti di cui tengono traccia sono disponibili solo per tali licenze. Per informazioni sull&#39;aggiunta, lo spostamento, il ridimensionamento o l&#39;eliminazione di widget, consultate [Aggiungere, modificare o rimuovere widget in Nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+
+Di seguito sono riportati i dieci widget attualmente disponibili tra cui scegliere e un riepilogo delle informazioni visualizzate:
 
 * **Il mio lavoro**\
     Questo widget, un ottimo punto di partenza per la gestione di diversi lavori, mostra tutte le attività, i problemi e le richieste assegnati a te in un unico posto.
@@ -50,7 +52,7 @@ I widget sono alla base della Nuova Home. Aggiungendo i widget alla home page, �
     Visualizza tutte le approvazioni per la tua organizzazione in una tabella con colonne personalizzabili, oltre a una barra di ricerca che ti consente di cercare approvazioni specifiche.
 
 * **Menzioni**\
-    Visualizza i thread di commenti recenti che contengono @menzioni su di te in Workfront, oltre a un pulsante di risposta che ti consente di comporre una risposta all’interno del widget.
+    Visualizza i thread di commenti recenti che contengono @menzioni su di te in Workfront, oltre a un pulsante di risposta che ti consente di comporre una risposta all’interno del widget. Questo widget mostra anche i commenti aggiunti sulle attività e sui problemi che ti vengono assegnati, che hai assegnato a un altro utente, di cui sei proprietario, per cui sei il contatto principale o che hai creato, purché l’attività o il problema sia stato aggiornato negli ultimi 30 giorni.
 
 * **Da fare**\
     Questo widget univoco consente di aggiungere elementi di testo a un elenco di controllo personale che puoi modificare liberamente.
@@ -114,8 +116,6 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
         <td>In attesa della mia approvazione, cose da fare</td>
     </tr>
 </table>
-
-Per informazioni sull&#39;aggiunta, lo spostamento, il ridimensionamento o l&#39;eliminazione di widget, consultate [Aggiungere, modificare o rimuovere widget in Nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 
 ### Personalizzazione dello sfondo
 
