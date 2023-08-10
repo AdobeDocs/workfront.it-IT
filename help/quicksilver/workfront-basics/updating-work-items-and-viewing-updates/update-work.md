@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
-source-wordcount: '3486'
+source-wordcount: '3460'
 ht-degree: 1%
 
 ---
@@ -240,8 +240,6 @@ Il **Commenti** è selezionata per impostazione predefinita.
    >L’indicatore &quot;Nuovo&quot; viene visualizzato solo quando sia l’utente che ha inserito un nuovo aggiornamento che l’utente che lo sta inserendo utilizzano la nuova esperienza di commento.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. Fai clic su **Aggiungi allegato** icona ![](assets/add-image-paperclip-icon.png) <!--replace this icon with this new one for August 10: ![](assets/add-image-mountain-with-plus-icon.png)--> per aggiungere un&#39;immagine al commento. Prima di poter collegare l&#39;immagine, è necessario salvarla sul computer. <!--**************** this might be renamed to "Add image")-->
-
 1. Clic **Invia** per aggiungere l&#39;aggiornamento all&#39;oggetto Workfront.
 1. (Facoltativo) Per modificare un commento, fai clic su **Altro** menu ![](assets/more-menu.png) a destra dell’icona Mi piace, quindi fai clic su **Modifica**.
 1. Modifica le informazioni nel commento, aggiungi o rimuovi immagini o rimuovi gli utenti taggati.
@@ -301,7 +299,6 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
    | Elenco puntato | ![mceclip6.png](assets/mceclip6.png) | ⌘+Maiusc+8 | Ctrl+Maiusc+8 |
    | Elenco numerato | ![mceclip5.png](assets/mceclip5.png) | ⌘+Maiusc+7 | Ctrl+Maiusc+7 |
    | Citazione | ![](assets/block-quote-icon-large.png) | ⌘+Maiusc+9 | Ctrl+Maiusc+9 |
-   | Emoji | ![](assets/emoji-icon.png) | ⌘. | ⊞+. |
 
    Per interrompere la formattazione del testo, deselezionare l&#39;attributo nella **Rich Text** barra degli strumenti.
 
@@ -345,7 +342,7 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
 
    Oppure
 
-   Fai clic su **Aggiungi allegato** icona ![](assets/add-image-paperclip-icon.png) e naviga fino all’immagine sul tuo computer quando utilizzi l’esperienza beta per la creazione di commenti. <!--the name of the icon and the icon for it might change-->
+   Fai clic su **Aggiungi allegato** icona ![](assets/add-image-mountain-with-plus-icon.png) e naviga fino all’immagine sul tuo computer quando utilizzi l’esperienza beta per la creazione di commenti. <!--**************** the tooltip of this icon might be renamed to "Add image")-->
 
    >[!NOTE]
    >

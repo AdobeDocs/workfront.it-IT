@@ -5,7 +5,7 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 1%
@@ -13,8 +13,6 @@ ht-degree: 1%
 ---
 
 # Configurare le notifiche di promemoria
-
-<!--hidden content for the tab redesign in August 2023-->
 
 Le notifiche di promemoria inviano e-mail ai destinatari in base a criteri specificati. In qualità di amministratore di Adobe Workfront o di utente con un livello di accesso alla Pianificazione e un accesso amministrativo alle notifiche dei promemoria, puoi associare manualmente le notifiche dei promemoria agli elementi di lavoro, come progetti, attività, problemi e schede orario.
 
@@ -68,9 +66,8 @@ Per informazioni su come creare un modello e-mail, consulta [Configurare i model
 
 1. Clic **E-mail** > **Notifiche** > **Avvisi di Promemoria**.
 
-   <!--hidden for the tab redesign for August 2023:
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
-   -->
+
 1. Clic **Nuovo Avviso di Promemoria**.
 
 1. Nell&#39;elenco a discesa fare clic sul tipo di oggetto che si desidera associare alla notifica di promemoria.

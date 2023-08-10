@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: ca4b3bc9f88a42102f33537dc7b9fd45e0a108d8
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 1%
@@ -129,9 +129,9 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td>✓ 
    </td>
-   <td>
+   <td>✓
    </td>
-   <td>✓ 
+   <td> 
    </td>
    <td> 
    </td>
@@ -326,7 +326,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
   </tr>
   <tr>
-   <td>Tempo di connessione 
+   <td>Registra ore 
    </td>
    <td>✓ 
    </td>
