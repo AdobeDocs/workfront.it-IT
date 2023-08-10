@@ -4,9 +4,9 @@ description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
 exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 368ad085a1f07ea9301bd1d5279add76b9cd86d9
+source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
@@ -729,7 +729,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. È poss
                                 <p>Versione di anteprima: nell’arco temporale della versione 23.3</p>
                             </li>
                             <li>
-                                <p><span class="preview">Almeno 2 settimane dopo il rilascio in anteprima (se non diversamente specificato)</span></p>
+                                <p><span class="preview">Versione di produzione: almeno 2 settimane dopo il rilascio in anteprima (se non diversamente specificato)</span></p>
                             </li>
                         </ul>
                     </td>
