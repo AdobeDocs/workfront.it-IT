@@ -5,7 +5,7 @@ author: Caroline, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 3d4ba0396c5a59b1109ec70a6e85b77d0d093bf5
+source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -13,8 +13,6 @@ ht-degree: 0%
 ---
 
 # Configurare le notifiche degli eventi per tutti gli utenti del sistema
-
-<!--look for the "hidden" addition below for the tab redesign - August 2023-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
@@ -69,9 +67,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Clic **E-mail** > **Notifiche**.
 
-   <!--hidden shot for the tab redesign - make live in August 2023:
    ![](assets/notifications-area-under-setup-emails.png)
-   -->
+
 
 1. Assicurati che le **Notifiche evento** è aperta.
 1. Fare clic sul pulsante a sinistra del nome dell&#39;evento per attivarlo o disattivarlo.

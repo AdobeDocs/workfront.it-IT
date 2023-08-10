@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 207a8c8a642f3204a2d007789eb7ee8cd9379f1b
 workflow-type: tm+mt
 source-wordcount: '360'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -62,14 +62,15 @@ Il [!UICONTROL Aggiornamenti] L&#39;area include i seguenti tipi di aggiornament
      Per accedere alla proprietà è necessaria una licenza aggiuntiva [!UICONTROL Obiettivi] area. Per informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
    * [!UICONTROL Scheda] su una bacheca
 
-     Per ulteriori informazioni sugli aggiornamenti sulle schede, consulta [Aggiungere una scheda ad hoc a una bacheca](../../../agile/get-started-with-boards/add-card-to-board.md).
-
+     Per ulteriori informazioni sugli aggiornamenti sulle schede, consulta [Utilizzare le schede collegate sulle bacheche](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] non tiene traccia degli aggiornamenti di sistema per i seguenti oggetti:
 
    * [!UICONTROL Team]
    * [!UICONTROL Modello]
    * [!UICONTROL Attività modello]
+   * Ad hoc [!UICONTROL Scheda]
+
 
 <!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
 
@@ -99,4 +100,6 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * [!UICONTROL Documento]
    * [!UICONTROL Scheda orario]
    * [!UICONTROL Iterazione]
+   * [!UICONTROL Obiettivo]
+
 
