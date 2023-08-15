@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: fb18fb0793a9e28ecc4d1b91c3a1010ee842028e
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1126'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,31 @@ ht-degree: 4%
 
 <!--take "Beta" references out when we remove the beta-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
+
+<!-- with October 26 release: add somewhere this:
+
+>[!NOTE]
+>
+>Iterations display the legacy commenting experience.-->
 
 >[!NOTE]
 >
@@ -29,7 +53,7 @@ ht-degree: 4%
 >Puoi accedere alla nuova esperienza per i seguenti oggetti:
 > * Problemi, progetti, attività e documenti.
 >
->     Questa funzione è disponibile quando abiliti l’esperienza Beta di commento.
+>     Questa funzione è disponibile quando abiliti la nuova esperienza di commento.
 >
 >     Questa funzionalità è disponibile solo per la sezione Aggiornamenti e non per le aree seguenti:
 >
@@ -50,6 +74,8 @@ Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli 
 Le informazioni nella sezione Aggiornamenti sono organizzate in modo diverso a seconda dell’ambiente da cui accedi.
 
 ### Panoramica della sezione Aggiornamenti corrente
+
+<!--October 26 - replace current with legacy-->
 
 * La sezione Aggiornamenti di un oggetto mostra fino a 200 degli aggiornamenti più recenti effettuati negli ultimi 90 giorni.
 
@@ -89,8 +115,8 @@ Le informazioni nella sezione Aggiornamenti sono organizzate in modo diverso a s
 
 * La sezione Aggiornamenti correnti mostra le seguenti informazioni:
 
-   * Aggiornamenti utente: commenti degli utenti e risposte a tali commenti.
-   * Aggiornamenti del sistema: messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, puoi acquisire le modifiche nei campi di stato, nome o personalizzati con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Aggiornamenti utente**: osservazioni degli utilizzatori e risposte a tali osservazioni.
+   * **Aggiornamenti di sistema**: messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, puoi acquisire le modifiche nei campi di stato, nome o personalizzati con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 * I seguenti oggetti non registrano gli aggiornamenti di sistema:
 
@@ -98,9 +124,11 @@ Le informazioni nella sezione Aggiornamenti sono organizzate in modo diverso a s
    * Modello
    * Attività modello
 
-### Panoramica della sezione Aggiornamenti nell’esperienza di commento Beta
+### Panoramica della sezione Aggiornamenti nella nuova esperienza di commento
 
 Per informazioni sulle funzioni disponibili per la nuova esperienza di commento e per gli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+<!--update screen shot and maybe save it under a new name??? with the August 17 release-->
 
 ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
@@ -111,7 +139,31 @@ Per informazioni sulle funzioni disponibili per la nuova esperienza di commento 
 
 * Al momento, è possibile aggiungere commenti e rispondere agli aggiornamenti utilizzando la nuova esperienza di commento per i seguenti oggetti:
 
-  <table style="table-layout:auto"> 
+<!--replace the table with this list on August 17: 
+
+    * Projects
+    * Tasks (and stories)
+    * Issues
+    * Documents
+
+    <span class="preview">
+    
+    * Templates
+    * Template Tasks
+    * Timesheets
+    * Users
+    * Portfolios
+    * Programs
+    
+    >[!NOTE]
+    >
+    >    You cannot display the new commenting experience for iterations. 
+
+    </span>
+  
+  -->
+
+<table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
@@ -134,7 +186,7 @@ Per informazioni sulle funzioni disponibili per la nuova esperienza di commento 
     </tbody> 
     </table>
 
-  *È possibile aggiungere e visualizzare gli aggiornamenti alle schede nelle aree della bacheca quando si abilitano le sezioni Commenti e Attività del sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
+*È possibile aggiungere e visualizzare gli aggiornamenti alle schede nelle aree della bacheca quando si abilitano le sezioni Commenti e Attività del sistema su una scheda. Per ulteriori informazioni, consulta [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
 <!--enable this when we release the new update stream to ALL other objects and only if Anna's bug was fixed to include this: 
 
@@ -227,11 +279,11 @@ Nella tabella seguente vengono illustrati gli oggetti i cui commenti vengono vis
 >
 >Per informazioni sulla gerarchia degli oggetti in Adobe Workfront, consulta [Comprendere gli oggetti in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> Non è possibile rispondere agli aggiornamenti di sistema nella nuova esperienza beta per i commenti. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> Nella nuova esperienza di inserimento di commenti non è possibile rispondere agli aggiornamenti di sistema. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Limitazioni della sezione Aggiornamenti
 
-Nella sezione Aggiornamenti di un team e quando si inseriscono aggiornamenti per conto di altri utenti, esistono alcune limitazioni.
+Nella sezione Aggiornamenti di un team e quando si immettono aggiornamenti per conto di altri utenti, esistono alcune limitazioni.
 
 ### Limitazioni per utenti e team
 

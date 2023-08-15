@@ -8,18 +8,36 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: d93d42322d62ff5eb927ca13febcb763cbec3f13
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1052'
 ht-degree: 0%
 
 ---
 
 # Rispondi agli aggiornamenti
 
-<!--take "Beta" references out when we remove the beta-->
+<!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers only in the Preview environment.</span>-->
+<!--after August 17: 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/enable-fast-release-process.html?lang=en ). </span>  
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span>-->
+
+<!--replace the note below with this at August 17: 
+>[!NOTE]
+>
+>We are currently redesigning the commenting experience in Adobe Workfront.
+>Depending on what environment and what objects you access the commenting experience from, you might see different functionality in the Updates section. 
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>The new commenting experience is available only for the Updates section, and it is not available for the following areas:
+>
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets
+
+-->
 
 >[!NOTE]
 >
@@ -49,7 +67,7 @@ Quando qualcuno risponde a un commento o a un aggiornamento di sistema su un ogg
 
 >[!IMPORTANT]
 >
->Non è possibile rispondere agli aggiornamenti di sistema nella nuova esperienza beta per i commenti. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Nella nuova esperienza di inserimento di commenti non è possibile rispondere agli aggiornamenti di sistema. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ## Requisiti di accesso
@@ -109,13 +127,13 @@ La risposta a un commento o a una risposta varia a seconda dell’esperienza e d
 1. (Facoltativo) Utilizza la formattazione, le emoticon, i collegamenti o le immagini come spiegato nella sezione &quot;Utilizzare il testo RTF in un aggiornamento di Workfront&quot; nell’articolo [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Clic **Rispondi** per salvare la risposta.
 
-### Rispondere a un commento quando si utilizza l’esperienza Beta di commento
+### Rispondere a un commento quando si utilizza la nuova esperienza di commento
 
-Per informazioni sulle funzioni disponibili per la nuova esperienza di commento e per gli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Per informazioni sulle funzioni disponibili nella nuova esperienza di commento e sugli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Passare all&#39;oggetto a cui si desidera aggiungere una risposta.
 1. Clic **Aggiornamenti**, quindi fare clic su **Commenti** e trovare il commento o la risposta a cui si desidera rispondere.
-1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fare clic sul pulsante **Altro** accanto all&#39;aggiornamento o alla risposta che si desidera citare, quindi fare clic su **Risposta preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato da una linea grigia verticale.
+1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fare clic sul pulsante **Altro** menu accanto all&#39;aggiornamento o alla risposta che si desidera citare <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>-->, quindi fai clic su **Risposta preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato da una linea grigia verticale.
 1. Clic **Rispondi**.
 
    Puoi vedere gli utenti attivamente coinvolti nella conversazione nella parte inferiore della sezione **Nuovo commento** e puoi aggiungerne altre o rimuovere quelle che non sono più pertinenti. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Puoi anche assegnare tag a più utenti per includerli nella risposta.  Per assegnare tag a più utenti, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
@@ -124,7 +142,7 @@ Per informazioni sulle funzioni disponibili per la nuova esperienza di commento 
 
 1. Clic **Invia** per salvare la risposta.
 
-1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-menu.png) accanto all’aggiornamento per ulteriori opzioni per gestire la risposta. Per ulteriori informazioni, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-menu.png) accanto all’aggiornamento <!--(replace placing of the More menu - August 17) <span class="preview">in the upper-right corner of the comment you want to reply to</span>--> per ulteriori opzioni per gestire la risposta. Per ulteriori informazioni, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
 
 ## Rispondere a un aggiornamento da una notifica e-mail
