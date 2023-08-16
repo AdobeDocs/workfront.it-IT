@@ -4,7 +4,9 @@ description: Configurare una colonna di tabella nell’area di lavoro Reporting
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 2%
@@ -97,7 +99,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
       <td role="rowheader"><strong>Formattazione condizionale</strong> </td> 
       <td> 
        <ol data-mc-continue="false"> 
-        <li value="1"> <p>Aggiungi <img src="assets/add-rule.png">, modifica <img src="assets/edit-icon.png">, o eliminare <img src="assets/delete.png"> regola che formatta le celle della colonna quando i valori soddisfano i criteri specificati.</p> <p>Ad esempio, puoi creare una regola che modifichi in viola grassetto il font nel campo "Stato progetto" quando il valore del campo è uguale a "Costruzione".</p> <p>Oppure puoi utilizzare <b>Mostra un'icona</b> per aggiungere un'icona di flag verde a ogni elemento della colonna con lo stato "Corrente".</p> <p> <img src="assets/conditional-formatting-options.png"> </p> <p>Nota: se utilizzi <strong>Mostra un'icona</strong>, le altre opzioni di formattazione non sono disponibili.</p> <p>Puoi selezionare <strong>Applica all'intera riga</strong> se si desidera che la formattazione abbia effetto sull'intera riga di una cella che soddisfa la condizione della regola. Ad esempio, puoi evidenziare i progetti in scadenza dopo una certa data applicando un colore di sfondo giallo non solo alle celle della colonna "Data di scadenza", ma all’intera riga in cui tali date si verificano.</p> <p>Suggerimento: quando si aggiungono opzioni di formattazione a una regola, il formato di cella risultante viene visualizzato in <strong>Anteprima</strong> nella parte inferiore del pannello.</p> </li> 
+        <li value="1"> <p>Aggiungi <img src="assets/add-rule.png">, modifica <img src="assets/edit-icon.png">, o elimina <img src="assets/delete.png"> regola che formatta le celle della colonna quando i valori soddisfano i criteri specificati.</p> <p>Ad esempio, puoi creare una regola che modifichi in viola grassetto il font nel campo "Stato progetto" quando il valore del campo è uguale a "Costruzione".</p> <p>Oppure puoi utilizzare <b>Mostra un'icona</b> per aggiungere un'icona di flag verde a ogni elemento della colonna con lo stato "Corrente".</p> <p> <img src="assets/conditional-formatting-options.png"> </p> <p>Nota: se utilizzi <strong>Mostra un'icona</strong>, le altre opzioni di formattazione non sono disponibili.</p> <p>Puoi selezionare <strong>Applica all'intera riga</strong> se si desidera che la formattazione abbia effetto sull'intera riga di una cella che soddisfa la condizione della regola. Ad esempio, puoi evidenziare i progetti in scadenza dopo una certa data applicando un colore di sfondo giallo non solo alle celle della colonna "Data di scadenza", ma all’intera riga in cui tali date si verificano.</p> <p>Suggerimento: quando si aggiungono opzioni di formattazione a una regola, il formato di cella risultante viene visualizzato in <strong>Anteprima</strong> nella parte inferiore del pannello.</p> </li> 
         <li value="2">Dopo aver aggiunto una regola, fai clic su <strong>Salva</strong>.</li> 
         <li value="3"> <p>(Facoltativo) Fai clic su <b>+ Aggiungi regola</b> per aggiungere altre regole alla stessa colonna.</p> <p>In una tabella vengono applicate più regole di formattazione condizionale nell'ordine seguente:</p> 
          <ul> 

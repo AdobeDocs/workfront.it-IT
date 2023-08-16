@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 2%
@@ -95,7 +97,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
    * Per aggiungere un altro gruppo, trascina un altro campo dal pannello laterale.
    * Per visualizzare le righe di un gruppo compresse per impostazione predefinita, fare clic sul pulsante **Menu Altro** icona ![](assets/more-icon.png) accanto al gruppo, quindi fai clic su **Comprimi gruppo**.
 
-      Ogni gruppo può essere configurato singolarmente per la visualizzazione con righe compresse o espanse. Per impostazione predefinita, tutte le righe raggruppate sono compresse.
+     Ogni gruppo può essere configurato singolarmente per la visualizzazione con righe compresse o espanse. Per impostazione predefinita, tutte le righe raggruppate sono compresse.
 
    * Per visualizzare un conteggio nella riga del gruppo, fare clic sul pulsante **Menu Altro** icona ![](assets/more-icon-27x15.png) accanto al gruppo, quindi fai clic su **Numero di visualizzazioni**.
    * Per rimuovere un gruppo, fare clic su **Menu Altro** icona ![](assets/more-icon.png) accanto al gruppo, quindi fai clic su **Rimuovi gruppo**.

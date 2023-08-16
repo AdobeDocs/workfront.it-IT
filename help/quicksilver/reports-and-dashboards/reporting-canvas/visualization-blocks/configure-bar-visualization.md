@@ -4,7 +4,9 @@ description: Configurare una visualizzazione a barre nell’area di lavoro Repor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 2%

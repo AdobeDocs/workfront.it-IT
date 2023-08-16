@@ -4,7 +4,9 @@ description: Configurare una visualizzazione di colonne nell’area di lavoro Re
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%

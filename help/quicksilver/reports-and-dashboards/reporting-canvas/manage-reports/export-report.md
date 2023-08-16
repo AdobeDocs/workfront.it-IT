@@ -5,7 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 1%
@@ -37,7 +39,7 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
    >   * Se si esporta un report contenente più tabelle in un formato XLSX, il file esportato contiene un foglio separato per ogni tabella.
    >   * Se esportate un rapporto che contiene più tabelle in formato CSV, il risultato esportato sarà una cartella compressa contenente un file separato per ogni tabella.
    >   * Se si esporta una tabella contenente righe raggruppate in formato CSV, il file CSV include tutte le righe, ma non vengono visualizzate in gruppi.
-
+   >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 

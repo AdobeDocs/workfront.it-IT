@@ -6,7 +6,9 @@ description: I blocchi di contenuto web consentono di visualizzare informazioni 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
@@ -61,7 +63,6 @@ Prima di iniziare, devi iscriverti alla versione beta di Reporting Canvas. Per u
    >   * powerbi.com
    >   * domo.com
    >   * looker.com
-
 
    Se non è possibile incorporarlo, viene visualizzato un avviso sotto l’URL immesso. Queste avvertenze includono:
 

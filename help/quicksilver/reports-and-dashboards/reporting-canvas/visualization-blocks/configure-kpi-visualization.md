@@ -4,7 +4,9 @@ description: Configurare una visualizzazione KPI nell’area di lavoro del repor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
-source-git-commit: ca70952bf0acd71f748b042852d434b560727a83
+hidefromtoc: true
+hide: true
+source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 2%
