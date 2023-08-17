@@ -5,10 +5,10 @@ title: Introduzione alla nuova home in Adobe Workfront
 description: La nuova Home è una nuova potente funzione per gestire il tuo lavoro.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 8c18753f5bd51a90f74357b8630ca6404e779f8f
+source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 19%
+source-wordcount: '1088'
+ht-degree: 20%
 
 ---
 
@@ -74,15 +74,15 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
     </tr>
     <tr>
         <td>Light</td>
-        <td>Il mio lavoro, in attesa della mia approvazione, cose da fare</td>
+        <td>Il mio lavoro, in attesa della mia approvazione</td>
     </tr>
     <tr>
         <td>Collaboratore</td>
-        <td>Il mio lavoro, le mie menzioni, le mie cose da fare</td>
+        <td>Il mio lavoro, menzioni</td>
     </tr>
     <tr>
         <td>Esterno</td>
-        <td>In attesa della mia approvazione, cose da fare</td>
+        <td>In attesa della mia approvazione</td>
     </tr>
 </table>
 
@@ -101,19 +101,19 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
     </tr>
     <tr>
         <td>Revisiona</td>
-        <td>Il mio lavoro, le mie menzioni, le mie cose da fare</td>
+        <td>Il mio lavoro, menzioni</td>
     </tr>
     <tr>
         <td>Limitato</td>
-        <td>Progetti personali, In attesa della mia approvazione, Attività</td>
+        <td>I miei progetti, in attesa della mia approvazione</td>
     </tr>
     <tr>
         <td>Collaboratore</td>
-        <td>Il mio lavoro, le mie menzioni, le mie cose da fare</td>
+        <td>Il mio lavoro, menzioni</td>
     </tr>
     <tr>
         <td>Esterno</td>
-        <td>In attesa della mia approvazione, cose da fare</td>
+        <td>In attesa della mia approvazione</td>
     </tr>
 </table>
 
