@@ -4,7 +4,7 @@ description: Aggiornamenti look-and-feel durante l’intervallo di tempo di rila
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%
@@ -26,4 +26,4 @@ Per un elenco di tutte le modifiche disponibili con la versione del quarto trime
 
 Abbiamo aggiornato le schede Notifiche e-mail, Notifiche promemoria e Modelli e-mail nell’area Configura > E-mail > Notifiche per renderle più moderne e coerenti con le altre aree di Workfront.
 
-Per informazioni, consulta [Configurare le notifiche degli eventi per tutti gli utenti del sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
+Per informazioni, consulta [Configurare le notifiche degli eventi per tutti gli utenti del sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
