@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a751b0fab898130bbe681bfd824cc8026eb3607c
+source-git-commit: 71948e70c49ee3b3d678fb54847ff79f2632bd84
 workflow-type: tm+mt
-source-wordcount: '1670'
+source-wordcount: '1723'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,9 @@ Questo blueprint contiene la configurazione delle strutture organizzative da esp
 
 **[!UICONTROL Configurazione dell&#39;organizzazione IT]**
 Questo blueprint contiene la configurazione delle strutture organizzative da espandere a un caso di utilizzo di Information Technology.
+
+**[!UICONTROL Nozioni di base sull’istanza ereditata | Lista di controllo]**
+Questo blueprint contiene un modello di progetto (o elenco di controllo) che puoi esaminare con un breve elenco di domande, risorse e collegamenti per comprendere chiaramente come è stata configurata la tua istanza di Workfront. Utilizzalo quando hai ereditato di recente un’istanza Workfront e hai bisogno di istruzioni su dove iniziare.
 
 **[!UICONTROL Esecuzione di una campagna integrata]**
 Il [!UICONTROL Esecuzione di una campagna integrata] blueprint contiene un singolo modello di progetto che organizza il lavoro distribuito tra più team per eseguire una campagna multicanale.

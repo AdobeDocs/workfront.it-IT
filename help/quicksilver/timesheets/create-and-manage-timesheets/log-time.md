@@ -1,24 +1,27 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Tempo di connessione
+title: Registra ore
 description: È possibile registrare il tempo per gli elementi di lavoro in &nbsp;Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L'ora registrata viene visualizzata nella scheda orario.
 author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
 workflow-type: tm+mt
-source-wordcount: '3337'
+source-wordcount: '3409'
 ht-degree: 0%
 
 ---
 
-# Tempo di connessione
+# Registra ore
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>\
+<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del quarto trimestre 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
 
 È possibile registrare il tempo degli elementi di lavoro in Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L&#39;ora registrata viene visualizzata nella scheda orario.
 
@@ -97,7 +100,7 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
 * Il numero massimo di elementi visualizzati in una scheda orario è 45. Se sono presenti più di 45 elementi le cui date corrispondono all’intervallo di tempo della scheda orario, vengono visualizzati solo gli elementi aggiornati più di recente.
 * Le ore inserite nei record di fatturazione fatturate sono oscurate e non possono essere modificate nella scheda orario. Per ulteriori informazioni, consulta [Crea record fatturazione](../../manage-work/projects/project-finances/create-billing-records.md).
 
-## Tempo di connessione
+## Registra ore
 
 In Workfront è possibile registrare il tempo nelle seguenti aree:
 
@@ -362,7 +365,7 @@ Puoi registrare l’ora specifica di un progetto su un progetto, un’attività 
 
 #### Sezione aggiornamenti{#updates-section}
 
-<!--remove the note below when the -->
+<!--remove the note below - October 2023 -->
 
 >[!NOTE]
 >
@@ -392,9 +395,9 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
    >
    >   Se la preferenza del profilo è impostata sul tempo di registrazione in giorni, viene visualizzata la casella Enter Days (Inserisci giorni).
    >   
-   >   Nell&#39;angolo superiore destro della casella Enter Days è indicato il numero di ore incluse in un giorno.
+   >   Nell&#39;angolo superiore destro della casella Immettere i giorni è indicato il numero di ore incluse in un giorno.
 
-   ![](assets/log-time-box-in-updates-stream.png)
+   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
 
 1. Specifica le seguenti informazioni:
 
