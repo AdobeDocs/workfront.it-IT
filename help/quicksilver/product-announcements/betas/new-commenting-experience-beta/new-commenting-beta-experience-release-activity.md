@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: a1d312167292c1e37a96233e26c378d72fee2032
+source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1902'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,9 @@ La sezione seguente contiene un elenco di funzioni aggiunte dopo la versione 23.
 
 Le informazioni seguenti si riferiscono all’attività di rilascio settimanale delle funzioni incluse nella nuova esperienza beta di commento. In questo articolo sono elencate le nuove funzioni aggiunte e i problemi risolti per la nuova esperienza di aggiunta di commenti.
 
-### Settimana del 14 agosto 2023 (inizio del rilascio del quarto trimestre 2023)
+### Settimana del 14 agosto 2023
+
+[Guarda un video dimostrativo di tutte le funzioni rilasciate durante la settimana del 14 agosto 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Nuova esperienza di commento per oggetti aggiuntivi
 
