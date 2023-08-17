@@ -6,9 +6,9 @@ description: È possibile aggiungere alla bacheca una scheda connessa alle attiv
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: c063bd9505a785ea738d07e082328871245216f2
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '1426'
 ht-degree: 0%
 
 ---
@@ -27,8 +27,10 @@ Quando uno qualsiasi dei seguenti dettagli viene aggiornato per la scheda in una
 * [!UICONTROL Stato]
 * [!UICONTROL Data di completamento pianificata]
 * [!UICONTROL Stima] / [!UICONTROL Punti storia]
+* <span class="preview">[!UICONTROL Documenti]</span>
 
 >[!NOTE]
+>
 >È possibile aggiungere una sola attività o un singolo problema collegato una sola volta per bacheca. La stessa attività o lo stesso problema può essere collegato a più bacheche.
 
 ## Requisiti di accesso
@@ -143,8 +145,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr>
      <tr>
       <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documenti]</strong></span></td>
-      <td><span class="preview"><p>Passa il puntatore sull'anteprima del documento e fai clic su <strong>Anteprima</strong> per visualizzare il file nel browser o <strong>Scarica</strong> per scaricare il file sul computer.</p></span>
-      <span class="preview"><p><strong>NOTA:</strong> In questo momento, è necessario caricare un documento nell'attività Workfront per renderlo disponibile sulla scheda collegata.</p></span></td>
+      <td><span class="preview">Per un documento esistente, passa il cursore sulla miniatura del documento e fai clic su <strong>Anteprima</strong> per visualizzare il file nel browser o <strong>Scarica</strong> per scaricare il file sul computer. Per un nuovo documento, vedere <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Aggiungi documenti su schede</a>.</span></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>

@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 381dafce2163b3f2bba3f5775ec6314d704eb61d
+source-git-commit: 6871cd4faea6b02cf0ed3f89e32f6963fd4b4df9
 workflow-type: tm+mt
-source-wordcount: '13160'
+source-wordcount: '13164'
 ht-degree: 1%
 
 ---
@@ -380,7 +380,7 @@ ht-degree: 1%
       * [Configurare le nozioni di base](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
       * [Panoramica del firewall](administration-and-setup/get-started-wf-administration/firewall-overview.md)
       * [Configurare il firewall per il inserisco nell&#39;elenco Consentiti del firewall](administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
-      * [Configurare l’elenco Consentiti e-mail](administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
+      * [Configurare il inserisco nell&#39;elenco Consentiti di e-mail per l’e-mail](administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
       * [Inviare annunci](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
       * [Requisiti del browser](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
       * [Differenze basate sulla piattaforma](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
@@ -920,7 +920,7 @@ ht-degree: 1%
          * [Commento sulle bozze in iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [Adobe Workfront per la gestione dei dispositivi mobili (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [Configurare Adobe Workfront per MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [Assistente virtuale per app mobile di Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
+         * [Assistente virtuale per app mobili Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Approvazioni nell’app mobile Adobe Workfront](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * Utilizza la vista Adobe Workfront {#use-workfront-view}
          * [Utilizza la vista Adobe Workfront](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
@@ -962,6 +962,7 @@ ht-degree: 1%
       * [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [Gestire le schede](agile/get-started-with-boards/move-board-items.md)
       * [Gestire le voci dell’elenco di controllo sulle schede](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
+      * [Aggiungi documenti su schede](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
       * [Eliminare o archiviare una scheda da una bacheca](agile/get-started-with-boards/delete-board-items.md)
       * [Filtrare ed eseguire ricerche in una bacheca](agile/get-started-with-boards/filter-search-in-board.md)
@@ -1085,21 +1086,21 @@ ht-degree: 1%
          * [Visualizzare o scaricare una risorsa collegata con il connettore avanzato](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
       * Adobe Workfront per Experience Manager Assets e Assets Essentials {#wf-aem-essentials}
          * [Adobe Workfront per Experience Manager Assets e Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
-         * [Panoramica delle integrazioni Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+         * [Panoramica delle integrazioni di Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
          * [Collegare risorse e cartelle da Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
          * [Visualizzare i metadati mappati per Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
-         * [Visualizzare o scaricare una risorsa collegata da Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
-         * [Inviare un documento a Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
+         * [Visualizzare o scaricare una risorsa collegata da Experience Manager Assets o da Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+         * [Inviare un documento a Experience Manager Assets o ad Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
          * [Prova di una risorsa collegata per Experience Manager Assets o Asset Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
          * [Creare una cartella collegata a Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [Utilizzare i flussi di lavoro nell’integrazione Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
-         * [Risoluzione dei problemi relativi all’integrazione di Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
+         * [Risolvere i problemi relativi all’integrazione di Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migrare dai connettori legacy o avanzati {#migrate-from-legacy-enhanced-connectors}
       * [Migrare dai connettori legacy o avanzati](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Migrare dal connettore legacy o migliorato a Workfront per l’integrazione as a Cloud Service di Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Migra dal connettore legacy o avanzato a Workfront, ad Adobe integrazione as a Cloud Service con Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migrare dal connettore legacy al connettore avanzato](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Disinstallare Workfront con il connettore legacy di Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
-      * [Disinstallare Workfront con il connettore avanzato di Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
+      * [Disinstallare il Workfront con il connettore avanzato Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
       * [Eseguire la migrazione di cartelle e documenti collegati](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md)
 * Gestisci lavoro {#manage-work}
    * [Gestisci lavoro](manage-work/manage-work.md)

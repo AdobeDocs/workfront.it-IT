@@ -6,19 +6,22 @@ description: È possibile aggiungere documenti a progetti, attività o problemi 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: d7fd5e4ec315e564ec3ff4d4311f753dc1c8b359
+source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
 
 # Aggiungere documenti ad Adobe Workfront dal file system
 
+{{preview-and-fast-release}}
+
 È possibile aggiungere documenti a progetti, attività o problemi nelle seguenti aree in Adobe Workfront:
 
 * Area Documenti globale
 * Area Documenti per un oggetto Workfront
+* <span class="preview">Una scheda collegata su una scheda Workfront</span>
 
 È inoltre possibile caricare nuove versioni di documenti e aggiungere collegamenti a documenti di fornitori di cloud di terze parti, ad esempio Google Drive, Dropbox e Microsoft OneDrive. Per informazioni sull&#39;aggiunta di nuove versioni di documenti, vedere [Carica una nuova versione di un documento](../../documents/managing-documents/upload-new-document-version.md). Per informazioni sull’aggiunta di documenti di fornitori cloud di terze parti, consulta [Collegare documenti da applicazioni esterne](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
