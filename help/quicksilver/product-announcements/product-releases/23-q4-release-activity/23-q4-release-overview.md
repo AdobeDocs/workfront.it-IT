@@ -3,9 +3,9 @@ title: Panoramica sulla versione del quarto trimestre 2023
 description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -105,13 +105,13 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 21 agosto 2023<br /></p>
                             </li>
                             <li>
-                                <p>Produzione per l’accesso anticipato alle schede madri: 24 agosto 2023</p>
+                                <p>Produzione per l'accesso anticipato alle schede madri: da definire</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio rapido: con la versione 23.8</p>
+                                <p>Produzione per il rilascio rapido: da definire</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
