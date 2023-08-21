@@ -3,9 +3,9 @@ title: Panoramica sulla versione del quarto trimestre 2023
 description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: 3764fba07e9d6ac80e793d92edd960281162c805
+source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -307,6 +307,63 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                             </li>
                             <li>
                                 <p>Produzione per rilascio trimestrale: con il rilascio 23.10 (se non diversamente specificato)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nuove opzioni filtro per Nuova Home</a> </p>
+                        <p>Sono ora disponibili nuove opzioni di filtro per il widget Il mio lavoro nella nuova home. Le opzioni includono i filtri per i tipi di oggetto (attività, problemi e richieste) e gli stati (non pronto, pronto per l’avvio, al lavoro e completato).</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Supporto terminologico personalizzato per la nuova home</a> </p>
+                        <p>Per soddisfare al meglio le esigenze specifiche delle organizzazioni, New Home ora utilizza una terminologia personalizzata per gli oggetti definita nei modelli di layout di un’istanza. Ad esempio, se gli oggetti "Progetto" sono stati rinominati "Campagne" nella tua istanza di Workfront, il widget Progetti personali verrà invece visualizzato come Campagne personali nella nuova home.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Pulsante Prova nuova home rimosso per gli account che hanno disabilitato Nuova home</a> </p>
+                        <p>Il pulsante Prova nuova home non è più presente per gli account in cui la nuova home è stata disabilitata. L'amministratore di sistema deve riattivare la Nuova Home prima che i singoli utenti possano utilizzare il pulsante per provare la Nuova Home.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
                             </li>
                         </ul>
                     </td>
