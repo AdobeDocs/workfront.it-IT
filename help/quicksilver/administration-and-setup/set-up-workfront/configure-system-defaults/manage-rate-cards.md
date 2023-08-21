@@ -7,9 +7,9 @@ description: Le schede tariffa consentono di definire più tariffe di fatturazio
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -53,12 +53,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su [!UICONTROL **Classifica schede**].
-1. Clic [!UICONTROL **Nuova scheda tariffaria**], quindi immettere il nome e la descrizione della scheda tariffaria nell&#39;elenco.
-1. Per aggiungere le tariffe di fatturazione, fai clic sul nome della scheda delle tariffe nell’elenco.
-1. Nella schermata della scheda, fai clic su [!UICONTROL **Nuova tariffa di fatturazione**].
-1. Nella finestra di dialogo Nuova tariffa di fatturazione, seleziona una [!UICONTROL **Ruolo**] per definire le tariffe di fatturazione per.
+1. Clic [!UICONTROL **Nuova scheda tariffaria**], quindi digita un nome per la scheda delle tariffe nel [!UICONTROL **Scheda tariffa**] per sostituire &quot;Tasso senza titolo&quot;.
+1. Nella schermata della scheda, fai clic su [!UICONTROL **Aggiungi mansione**].
+1. Nella finestra di dialogo, seleziona una [!UICONTROL **Ruolo**] per definire le tariffe di fatturazione per.
 
-   Nel campo Tariffa di fatturazione predefinita viene visualizzata la tariffa a livello di sistema per questa mansione.
+   Nel campo Tariffa di fatturazione predefinita viene visualizzata la tariffa a livello di sistema per questa mansione, se definita.
 
    ![Finestra di dialogo Nuova tariffa di fatturazione](assets/location-rate-for-rate-card.png)
 
@@ -79,18 +78,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      La tariffa di fatturazione 1 non avrà una data di inizio e l&#39;ultima tariffa di fatturazione non avrà una data di fine. Alcune date vengono aggiunte automaticamente. Ad esempio, se la tariffa di fatturazione 1 non ha una data di fine e si aggiunge la tariffa di fatturazione 2 con una data di inizio del 1° maggio 2023, alla tariffa di fatturazione 1 viene aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.
 
 1. Fai clic su [!UICONTROL **Salva**].
-1. (Facoltativo) Per aggiungere un’altra tariffa di fatturazione, per la stessa mansione in un’altra posizione o per una mansione separata, fai clic su [!UICONTROL **Nuova tariffa di fatturazione**].
+1. (Facoltativo) Per aggiungere un’altra tariffa di fatturazione, per la stessa mansione in un’altra posizione o per una mansione separata, fai clic su [!UICONTROL **Aggiungi mansione**].
+1. (Facoltativo) Per modificare una tariffa di fatturazione, selezionala nella scheda della tariffa e fai clic su **Modifica** icona.
 
 ## Copiare una scheda tariffa
 
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su [!UICONTROL **Classifica schede**].
-1. Seleziona la casella di controllo accanto alla scheda di valutazione nell’elenco e fai clic su **Copia** icona ![Icona Copia](assets/copy-icon.png).
+1. Seleziona la casella di controllo accanto alla scheda delle tariffe nell’elenco e fai clic su **Copia** icona ![Icona Copia](assets/copy-icon.png).
 
    Viene aggiunta una scheda di frequenza duplicata. Fare clic sul nome della scheda della tariffa nell&#39;elenco per modificarlo.
 
-## Eliminare una scheda tariffa
+## Eliminare un&#39;intera scheda tariffaria
 
 {{step-1-to-setup}}
 

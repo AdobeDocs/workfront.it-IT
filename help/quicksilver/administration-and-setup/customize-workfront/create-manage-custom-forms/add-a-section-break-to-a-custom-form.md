@@ -7,9 +7,9 @@ description: È possibile raggruppare i campi personalizzati e i widget in un mo
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td role="rowheader"> <p>Concedi l’accesso</p> </td> 
       <td> <p> Per visualizzare questa sezione e modificare i valori dei campi, seleziona le autorizzazioni necessarie per un oggetto a cui è allegato il modulo personalizzato. 
        <p>Le seguenti autorizzazioni sono disponibili in <b>Gli utenti con questo accesso all’oggetto possono visualizzare i valori dei campi</b>:</p> 
-         <ul>  
+         <ul>
+          <li><strong>Visualizza</strong>: visualizzare le autorizzazioni per l’oggetto</li>
           <li><p><b>Modifica limitata</b>: (disponibile solo se l’oggetto è un progetto, un’attività, un problema o un utente):</p> 
           <p>Consente agli utenti di contribuire all'oggetto se si tratta di un progetto, attività o problema.</p>
           <p>Consente agli utenti di modificare il profilo o di disporre dell'autorizzazione di profilo per l'oggetto, se si tratta di un utente.</p></li> 
