@@ -3,7 +3,7 @@ title: Panoramica sulla versione del quarto trimestre 2023
 description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: a84c879fac143c898ea11b7b71ebf22818adbd78
+source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 0%
@@ -67,7 +67,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 3 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 3 agosto 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per l’accesso anticipato alle schede madri: 10 agosto 2023</p>
@@ -88,7 +88,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 3 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 3 agosto 2023</p>
                             </li>
                              <li>
                                 <p>Produzione per rilascio rapido: con la versione 23.8</p>
@@ -105,10 +105,10 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 21 agosto 2023<br /></p>
+                                <p>Versione di anteprima: 21 agosto 2023</p>
                             </li>
                             <li>
-                                <p>Produzione per l'accesso anticipato alle schede madri: da definire</p>
+                                <p>Produzione per l’accesso anticipato alle schede madri: 24 agosto 2023</p>
                             </li>
                             <li>
                                 <p>Produzione per il rilascio rapido: da definire</p>
