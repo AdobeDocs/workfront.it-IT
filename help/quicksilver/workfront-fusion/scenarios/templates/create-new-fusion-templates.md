@@ -7,9 +7,9 @@ description: Puoi creare nuovi modelli di scenario in [!DNL Adobe] Workfront Fus
 author: Becky
 feature: Workfront Fusion
 exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
-source-git-commit: b7879e8f2d4590d6347762d66c82de293d00c995
+source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 >[!NOTE]
 >
 >Salvando il modello sarà possibile renderlo visibile a tutti i membri del team. Se desideri che il modello sia accessibile all’esterno del team, devi inviare una richiesta per far sì che sia approvato e pubblicato. La richiesta viene inviata ad Adobe Workfront per l’approvazione e, una volta approvato, il modello è accessibile ad altri utenti esterni al team.
+>
+>Per informazioni sulla pubblicazione dei modelli, consulta [Pubblica e condividi [!DNL Adobe Workfront Fusion] modelli](/help/quicksilver/workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
 ### Creare un modello da uno scenario
 
