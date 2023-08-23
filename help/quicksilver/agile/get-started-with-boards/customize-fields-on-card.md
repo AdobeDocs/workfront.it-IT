@@ -6,9 +6,9 @@ description: È possibile personalizzare i campi visualizzati su una scheda disa
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 80e0a053f39991d3ed8d9bd2a11a8da2d5de588e
+source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -96,3 +96,7 @@ I campi personalizzati sono disponibili sulle schede collegate. Sono visibili so
    ![Valore campo personalizzato ed etichetta](assets/save-custom-field-value-label.png)
 
    Il campo personalizzato viene aggiunto all’elenco dei campi disponibili ed è abilitato per impostazione predefinita. Puoi disattivare il campo personalizzato seguendo la procedura descritta nella sezione [Configurare le schede](customize-fields-on-card.md#configure-cards) , modificare il campo o eliminarlo da tutte le schede.
+
+>[!NOTE]
+>
+>Se successivamente rinominate il campo personalizzato in Workfront, è necessario modificare l’etichetta del campo nel pannello Configura in modo che corrisponda, altrimenti il campo non viene visualizzato sulle schede.
