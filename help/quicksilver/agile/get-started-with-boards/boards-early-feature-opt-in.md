@@ -7,9 +7,9 @@ description: Leggi questo articolo per saperne di più su [!DNL Workfront Boards
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 1594382c48d18a4da99bc5c47ddbbd4f63b76cd4
+source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -212,7 +212,7 @@ Solo [!DNL Workfront] gli amministratori possono dare il consenso alle funzioni 
 
 ### Come posso sapere se la mia organizzazione ha acconsentito alle funzioni iniziali?
 
-Quando [!DNL Workfront] l&#39;amministratore ha attivato in anticipo le funzioni per le bacheche, verrà visualizzata una [!UICONTROL Consenso alle funzioni anticipate] Pulsante attivato nella parte superiore della schermata del dashboard. Fai clic sul pulsante per vedere quali funzioni sono abilitate.
+Contatta il tuo [!DNL Workfront] per verificare se sono state attivate le funzioni anticipate per le bacheche.
 
 ### È possibile abilitare le funzioni anticipate solo per determinati utenti?
 

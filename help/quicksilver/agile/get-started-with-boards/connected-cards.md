@@ -6,9 +6,9 @@ description: È possibile aggiungere alla bacheca una scheda connessa alle attiv
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 55ba26b65cf046806f5a198e4de1b5eed2e08384
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '1426'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    La scheda viene aggiunta nella parte inferiore della colonna più a sinistra. La connessione [!DNL Workfront] L&#39;oggetto e i relativi assegnatari vengono visualizzati sulla scheda.
 
-   >[!NOTE]
-   >
-   >Se un assegnatario su [!DNL Workfront] l’attività o il problema non è un membro della bacheca, non è assegnato alla scheda.
-
    ![Scheda connessa](assets/boards-connected-card-first-added.png)
 
 1. Clic ![Apri attività o problema](assets/boards-launch-icon.png) per aprire [!DNL Workfront] attività o problema in una nuova scheda del browser.
@@ -124,9 +120,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td><p>Il numero di ore per il completamento della scheda.</p><p>La modifica della stima cambia anche il valore dei punti della storia sulla connessione [!DNL Workfront] oggetto.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Assegnatari]</strong></td>
-      <td><p>Per assegnare più persone o un team alla scheda, inizia a digitare un nome nel campo di ricerca, quindi selezionalo quando viene visualizzato nell’elenco. Puoi aggiungere sia singoli utenti che team. Su una scheda connessa è consentita una sola assegnazione team.</p>
-      <p>Gli assegnatari devono essere membri della bacheca o non verranno visualizzati nell’elenco di selezione. Quando un team è membro della bacheca, i singoli membri del team possono essere assegnati alla scheda.</p>
+      <td role="rowheader"><strong>[!UICONTROL Assegnazioni]</strong></td>
+      <td><p>Per assegnare più persone o un team alla scheda, fai clic su <strong>[!UICONTROL Aggiungi assegnazione]</strong> e inizia a digitare un nome nel campo di ricerca. Quindi, selezionalo quando viene visualizzato nell’elenco dei risultati. Puoi aggiungere sia singoli utenti che team. Su una scheda connessa è consentita una sola assegnazione team.</p>
       <p>Tutti gli assegnatari selezionati vengono assegnati anche all'attività o al problema in [!DNL Workfront].</p></td>
      </tr>
      <tr>

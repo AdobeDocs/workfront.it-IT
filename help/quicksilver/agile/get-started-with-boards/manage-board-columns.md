@@ -6,9 +6,9 @@ description: Per impostazione predefinita, una nuova bacheca contiene tre colonn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 05cac2441474e0f6ecf18aa777a5a66fefb2dba8
+source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -135,10 +135,10 @@ Se si utilizza il limite WIP in una colonna, non viene aggiunto un contatore di 
 
       * **[!UICONTROL Aggiungi su assegnatari]:** Gli assegnatari selezionati vengono aggiunti all&#39;elenco esistente di assegnatari su una scheda quando questa viene spostata in questa colonna.
       * **[!UICONTROL Sostituisci assegnatari]:** Gli assegnatari selezionati sostituiscono tutti gli altri assegnatari e diventano gli unici assegnatari su una scheda quando viene spostata in questa colonna.
-   1. Seleziona gli assegnatari dall’elenco a discesa. Solo i membri della bacheca sono disponibili per la scelta. Per ulteriori informazioni, consulta [Aggiungere o rimuovere membri da una bacheca](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+
+   1. Clic [!UICONTROL **Aggiungi assegnazione**] e cercare un utente. Selezionare gli assegnatari dai risultati della ricerca. Tutti gli utenti e i team di Workfront sono disponibili tra cui scegliere.
 
       ![Assegnatari per colonna](assets/boards-column-assignees.png)
-
 
 1. (Facoltativo) Imposta un valore per i tag della scheda:
 
@@ -147,10 +147,10 @@ Se si utilizza il limite WIP in una colonna, non viene aggiunto un contatore di 
 
       * **[!UICONTROL Aggiungi su tag]:** I tag selezionati vengono aggiunti all&#39;elenco esistente di tag su una scheda quando questa viene spostata in questa colonna.
       * **[!UICONTROL Sostituisci tag]:** I tag selezionati sostituiscono tutti gli altri tag e diventano gli unici tag di una scheda quando viene spostata in questa colonna.
+
    1. Seleziona i tag dall’elenco a discesa. Solo i tag già creati nel [!UICONTROL Gestione tag] sono disponibili per la scelta. Per informazioni sull’aggiunta di nuovi tag, consulta [Aggiungi tag](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Tag per colonna](assets/boards-column-tags.png)
-
 
 1. Abilita **[!UICONTROL Limite work in progress]** criterio per limitare il numero di schede che possono essere aggiunte alla colonna. Quindi, digita il numero limite nel **[!UICONTROL Imposta limite]** campo.
 

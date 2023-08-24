@@ -6,9 +6,9 @@ description: Puoi aggiungere rapidamente una scheda ad hoc a una bacheca e asseg
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 964273ad38230e28411083cf616617e14b2d2d0e
+source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -82,8 +82,8 @@ Una scheda ad hoc non è collegata a un elemento di lavoro in [!DNL Adobe Workfr
       <td>Digitare il numero stimato di ore per il completamento della scheda. Questa è solo una immissione manuale.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Assegnatari]</strong> </td> 
-      <td> <p>Per assegnare la scheda, inizia a digitare un nome nel campo di ricerca, quindi selezionalo quando viene visualizzato nell’elenco. Puoi aggiungere sia singoli utenti che team e assegnare più persone o team a una scheda.</p> <p>Gli assegnatari devono essere membri della bacheca o non verranno visualizzati nell’elenco di selezione. Quando un team è membro della bacheca, i singoli membri del team possono essere assegnati alla scheda.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Assegnazioni]</strong> </td> 
+      <td>Per assegnare la scheda, fai clic su <strong>[!UICONTROL Aggiungi assegnazione]</strong> e inizia a digitare un nome nel campo di ricerca. Quindi, selezionalo quando viene visualizzato nell’elenco dei risultati. Puoi aggiungere sia singoli utenti che team e assegnare più persone o team a una scheda.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
