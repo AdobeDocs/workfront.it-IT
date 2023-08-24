@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3521'
 ht-degree: 1%
 
 ---
@@ -267,7 +267,7 @@ Per informazioni sulle funzioni disponibili per la nuova esperienza di commento 
 1. Clic **Invia** per aggiungere l&#39;aggiornamento all&#39;oggetto Workfront.
 1. (Facoltativo) Per modificare un commento, fai clic su **Altro** menu ![](assets/more-menu.png)  <span class="preview">nell’angolo superiore destro del commento</span>, quindi fai clic su **Modifica**.
 1. Modifica le informazioni nel commento, aggiungi o rimuovi immagini o rimuovi gli utenti taggati.
-Puoi modificare il commento entro 15 dall’invio. A sinistra dell&#39;indicatore della data viene aggiunto l&#39;indicatore &quot;Modificato&quot; che viene visualizzato quando il commento è stato aggiornato.
+Puoi modificare il commento entro 15 dall’invio. A sinistra dell&#39;indicatore della data viene aggiunto l&#39;indicatore &quot;Modificato&quot; che viene visualizzato quando è stato inserito il commento.
 
    <span class="preview">![](assets/edited-tag-on-comment-unified-commenting.png)</span>
 
@@ -275,6 +275,7 @@ Puoi modificare il commento entro 15 dall’invio. A sinistra dell&#39;indicator
    >
    >* Viene generata un’e-mail per avvisare gli utenti dell’aggiornamento solo quando invii l’aggiornamento originale. Dopo aver modificato l’aggiornamento, non viene generata alcuna e-mail.
    >* La data accanto al commento è la data del commento originale e non quella dell&#39;ultima modifica.
+   >* Nei commenti relativi all&#39;anno corrente non viene visualizzato l&#39;anno nel timbro data. Passando il puntatore del mouse su una marca temporale viene visualizzata la data completa, incluso l’anno.
 
 1. (Facoltativo) Fai clic su **Rispondi** per rispondere a un commento esistente, segui i passaggi 4-8 di cui sopra. <!--(**************insure this stays accurate***********)--> Per informazioni sulla risposta a un aggiornamento, consulta [Rispondi agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 

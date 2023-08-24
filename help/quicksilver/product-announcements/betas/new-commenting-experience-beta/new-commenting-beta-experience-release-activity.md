@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 7df70ed43b9ee7320bae5f0f6b5e632000af78c3
+source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
 workflow-type: tm+mt
-source-wordcount: '1902'
+source-wordcount: '1976'
 ht-degree: 2%
 
 ---
@@ -68,6 +68,16 @@ Di seguito è riportata una timeline pianificata con le tappe principali per il 
 La sezione seguente contiene un elenco di funzioni aggiunte dopo la versione 23.2 originale, a partire da quelle rilasciate più di recente.
 
 Le informazioni seguenti si riferiscono all’attività di rilascio settimanale delle funzioni incluse nella nuova esperienza beta di commento. In questo articolo sono elencate le nuove funzioni aggiunte e i problemi risolti per la nuova esperienza di aggiunta di commenti.
+
+### Settimana del 21 agosto 2023
+
+#### Modificare il formato della marca temporale nella scheda Commenti
+
+Il formato della marca temporale dei commenti utente è stato aggiornato nella scheda Commenti del nuovo flusso di commenti. Come parte di questa modifica, nei commenti dell’anno corrente non viene più visualizzato l’anno nella marca temporale. Passando il puntatore del mouse su una marca temporale viene visualizzata la data completa, incluso l’anno.
+
+Le modifiche non influiscono sugli aggiornamenti di sistema nella scheda Attività di sistema.
+
+Anteprima e produzione: 24 agosto 2023
 
 ### Settimana del 14 agosto 2023
 
