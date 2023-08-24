@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: 4042384f4e3c70bb23d585d5a5e392d624ac6cb4
+source-git-commit: 5d3c8e3626dabf88394bd6b3c2dd48e6168b56c4
 workflow-type: tm+mt
-source-wordcount: '2407'
+source-wordcount: '2325'
 ht-degree: 2%
 
 ---
@@ -72,14 +72,14 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 
 ### Oggetti di lavoro
 
-| Oggetto promovibile | Oggetti secondari inclusi |
+| Oggetto promovibile | Inclusi oggetti secondari promozionali |
 | --- | --- |
 | Progetto (PROJ) | Progetto<br>Attività<br>Assegnazione<br>Predecessore<br>Azienda<br>Percentuale sostituzione<br>Gruppo<br>Ruolo<br>Team<br>Processo di approvazione<br>Percorso di approvazione<br>Passaggio di approvazione<br>Approvatore passaggio<br>Pianificazione<br>Giorno non feriale<br>Definizione coda<br>Gruppo di argomenti coda<br>Argomento Coda<br>Regola di Instradamento<br>Percorso milestone<br>Milestone<br>Tipo di Ora<br>Pool di Risorse<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
 | Modello (TMPL) | Modello<br>Attività modello<br>Assegnazione attività modello<br>Predecessore attività modello<br>Azienda<br>Percentuale sostituzione<br>Gruppo<br>Ruolo<br>Team<br>Processo di approvazione<br>Percorso di approvazione<br>Passaggio di approvazione<br>Approvatore passaggio<br>Pianificazione<br>Giorno non feriale<br>Definizione coda<br>Gruppo di argomenti coda<br>Argomento Coda<br>Regola di Instradamento<br>Percorso milestone<br>Milestone<br>Tipo di Ora<br>Pool di Risorse<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
 
 ### Oggetti di reporting
 
-| Oggetto promovibile | Oggetti secondari inclusi |
+| Oggetto promovibile | Inclusi oggetti secondari promozionali |
 | --- | --- |
 | Modello di layout (UITMPL) | Modello di layout<br>Dashboard<br>Calendario<br>Sezione calendario<br>Pagina esterna<br>Report<br>Filtro<br>Raggruppamento<br>Visualizza<br>Parametro |
 | Dashboard (PTLTAB) | Dashboard<br>Calendario<br>Sezione calendario<br>Pagina esterna<br>Report<br>Filtro<br>Raggruppamento<br>Visualizza<br>Parametro |
@@ -92,7 +92,7 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 
 ### Oggetti dati personalizzati
 
-| Oggetto promovibile | Oggetti secondari inclusi |
+| Oggetto promovibile | Inclusi oggetti secondari promozionali |
 | --- | --- |
 | Categoria (CTGY) | Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria<br>Gruppo |
 | Parametro (PARAM) | Parametro<br>Opzione Parametro |
@@ -100,7 +100,7 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 
 ### Oggetti organizzazione
 
-| Oggetto promovibile | Oggetti secondari inclusi |
+| Oggetto promovibile | Inclusi oggetti secondari promozionali |
 | --- | --- |
 | Gruppo (GROUP) | Gruppo <br>Sottogruppi (fino a 5 livelli)<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
 | Ruolo (ROLE) | Ruolo |
@@ -111,7 +111,7 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 
 ### Altri oggetti di configurazione
 
-| Oggetto promovibile | Oggetti secondari inclusi |
+| Oggetto promovibile | Inclusi oggetti secondari promozionali |
 | --- | --- |
 | Processo di approvazione (ARVPRC) | Processo di approvazione<br>Percorso di approvazione<br>Passaggio di approvazione<br>Approvatore passaggio<br>Ruolo<br>Team<br>Gruppo |
 | Pianificazione (SCHED) | Pianificazione<br>Giorno non feriale<br>Gruppo |
@@ -126,7 +126,7 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 
 L’API autentica ogni richiesta per garantire che il client abbia accesso alla visualizzazione o alla modifica di un oggetto richiesto.
 
-L’autenticazione viene eseguita trasmettendo un ID sessione che può essere assegnato utilizzando uno dei seguenti metodi:
+L’autenticazione viene eseguita trasmettendo un ID sessione o una chiave API, che può essere fornita utilizzando uno dei seguenti metodi:
 
 ### Autenticazione intestazione richiesta
 
@@ -138,22 +138,6 @@ Di seguito è riportato un esempio di intestazione di richiesta:
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
 ```
-
-### Richiedi autenticazione parametro
-
-Puoi eseguire l’autenticazione trasmettendo un parametro di richiesta denominato sessionID, come illustrato nell’esempio seguente: 
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
-```
-
-### Autenticazione basata su cookie
-
-L’API utilizza la stessa autenticazione basata su cookie utilizzata dall’interfaccia web per il sistema. Se un client accede a Workfront utilizzando l’interfaccia utente web, tutte le chiamate AJAX effettuate dall’interno dello stesso browser utilizzano la stessa autenticazione.
-
->[!NOTE]
->
->Al fine di proteggere da possibili attacchi CSRF (Cross Site Request Forgery), questo metodo di autenticazione è disponibile solo per le operazioni di sola lettura.
 
 ## Endpoint API
 
@@ -189,13 +173,13 @@ Il secondo passaggio utilizza il `objectCollections` fornito nel corpo del POST 
 
 >[!NOTE]
 >
-Osserva la struttura del `objectCollections`  array.
+>Osserva la struttura del `objectCollections`  array.
 >
-Ogni elemento dell’array contiene un `objCode` chiave che corrisponde al codice oggetto documentato in Workfront API Explorer.
+>Ogni elemento dell’array contiene un `objCode` chiave che corrisponde al codice oggetto documentato in Workfront API Explorer.
 >
-Ogni elemento contiene anche un `entities` raccolta. Questo prevede che `ID` e `name` le chiavi per essere presenti.
+>Ogni elemento contiene anche un `entities` raccolta. Questo prevede che `ID` e `name` le chiavi per essere presenti.
 >
-Per l’elenco dei codici oggetto consentiti da richiedere in `objectCollections` , vedere la [Oggetti supportati per la promozione dell’ambiente](#supported-objects-for-environment-promotion) in questo articolo.
+>Per l’elenco dei codici oggetto consentiti da richiedere in `objectCollections` , vedere la [Oggetti supportati per la promozione dell’ambiente](#supported-objects-for-environment-promotion) in questo articolo.
 
 #### URL
 
@@ -207,7 +191,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -273,7 +259,6 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d"
 }
 ```
@@ -303,7 +288,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -330,7 +317,6 @@ _Vuoto_
             "createdAt": "2023-06-06T17:29:21.600Z",
             "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
             "publishedAt": null,
-            "isPrivate": true,
             "customerId": "61aa9d090005fa42152c1cb66659f38d"
         },
         {...}
@@ -363,7 +349,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -389,21 +377,15 @@ _Vuoto_
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
                    "name": "Default Group",
-                   "description"
+                   "description": "null"
+                   - or -
+                   "description": "..."
                }
             ],
             "ROLE": [
@@ -436,7 +418,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -452,13 +436,6 @@ _Vuoto_
 
 ```json
 {
-    "metadata": {
-        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-        "summaryOrder": ["GROUP","ROLE","TMPL"], 
-        "shapeVersion": 2
-    },
     "packageEntities": {
         "GROUP": [
            {
@@ -472,7 +449,7 @@ _Vuoto_
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -504,12 +481,11 @@ La richiesta prevede che vengano forniti tutti i campi modificabili.
 Gli attributi modificabili sono:
 
 1. nome (stringa)
-2. descrizione (stringa)
-3. origine (stringa con convalida URL)
-4. stato (stringa con convalida del valore)
-5. version (numero intero)
-6. metadati (raccolta)
-7. packageEntities (insieme)
+1. descrizione (stringa)
+1. origine (stringa con convalida URL)
+1. stato (stringa con convalida del valore)
+1. version (numero intero)
+1. packageEntities (insieme)
 
 Le opzioni di stato includono:
 
@@ -554,7 +530,9 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -588,7 +566,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
                "isActive": true,
                "isGroupPublic": true,
                "isPublic": true,
-               "parentID" null,
+               "parentID": null,
                "rootID": null,
                "rootName": null,
                "uiTemplateID": null
@@ -620,15 +598,7 @@ PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -666,7 +636,6 @@ Gli attributi modificabili sono:
 1. origine (stringa con convalida URL)
 1. stato (stringa con convalida del valore)
 1. version (numero intero)
-1. metadati (raccolta)
 1. packageEntities (insieme)
 
    oppure
@@ -688,7 +657,9 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -719,15 +690,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": "2023-06-06T19:39:01.600Z",
-        "isPrivate": true,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "metadata": {
-            "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"], 
-            "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-            "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-            "summaryOrder": ["GROUP","ROLE","TMPL"], 
-            "shapeVersion": 2
-        },
         "displayEntities": {
             "GROUP": [
                {
@@ -760,7 +723,7 @@ Questa chiamata elimina il record del pacchetto di promozione. Questa azione è 
 
 >[!NOTE]
 >
-Invece di eliminare un pacchetto di promozione, si consiglia di modificarne lo stato in DISABILITATO. In questo modo il pacchetto potrà essere recuperato e verrà mantenuta la cronologia di installazione della posizione in cui è stato distribuito.
+>Invece di eliminare un pacchetto di promozione, si consiglia di modificarne lo stato in DISABILITATO. In questo modo il pacchetto potrà essere recuperato e verrà mantenuta la cronologia di installazione della posizione in cui è stato distribuito.
 
 #### URL
 
@@ -772,7 +735,9 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -838,7 +803,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/t
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -888,7 +855,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 
 ```json
 {
-    "Authorization": "Bearer ****************",
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
     "Content-Type": "application/json"
 }
 ```
@@ -935,7 +904,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1v1/
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -953,8 +924,8 @@ _Vuoto_
 [
     {
         "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-        "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-        "blueprintVersion": 1,
+        "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+        "environmentPromotionPackageVersion": 1,
         "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
         "customerId": "54286d78b064451096752b99bf968481",
         "status": "COMPLETED",
@@ -1024,7 +995,9 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 
 ```json
 {
-    "Authorization": "Bearer ****************"
+    "apikey": "**********",
+    - or -
+    "sessionID": "*****************", 
 }
 ```
 
@@ -1041,8 +1014,8 @@ _Vuoto_
 ```json
 {
     "id": "2892b936-e09e-455a-935f-e1462ab9753c",
-    "blueprintId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
-    "blueprintVersion": 1,
+    "environmentPromotionPackageId": "4fae2b9d-d315-45f4-909f-a0c0d79fc65d",
+    "environmentPromotionPackageVersion": 1,
     "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
     "customerId": "54286d78b064451096752b99bf968481",
     "status": "COMPLETED",
