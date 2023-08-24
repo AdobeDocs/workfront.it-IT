@@ -3,9 +3,9 @@ title: Panoramica sulla versione del quarto trimestre 2023
 description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: e2ecd03aea12892b6eb4b2660133998aa430c916
+source-git-commit: 06f7c4b940e4b658b35bbee13d5027f622892700
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 ## Miglioramenti di Adobe Workfront
 
 * [Miglioramenti alle schede madri](#boards-enhancements)
+* [Miglioramenti dell’integrazione](#integration-enhancements)
 * [Miglioramenti al progetto](#project-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
@@ -60,6 +61,42 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                         </p>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Miglioramenti alle assegnazioni utente su bacheche e schede</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Sono ora disponibili miglioramenti che aggiungono flessibilità quando si aggiungono utenti a bacheche e schede in Bacheche Adobe Workfront.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 21 agosto 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produzione per tutti i clienti: 24 agosto 2023</span>
+                            </li> 
+                       </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Aggiungi documenti su schede collegate</a></p><p>È ora possibile allegare documenti su schede collegate nelle Schede Adobe Workfront. Tutti i documenti aggiunti sulla scheda diventano disponibili nella scheda Documenti dell’attività o del problema connesso e gli stessi tipi di file sono supportati in entrambe le aree.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 21 agosto 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per l’accesso anticipato alle schede madri: 24 agosto 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per il rilascio rapido: da definire</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md" class="MCXref xref" xrefformat="{para}">Documenti disponibili sulle schede collegate come sola visualizzazione</a></p><p>Per le schede collegate sulle bacheche Adobe Workfront, ora è possibile visualizzare documenti come immagini e PDF. È possibile visualizzare in anteprima un documento nel browser o scaricarlo nel computer. </p>
@@ -98,29 +135,65 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                             </li>
                         </ul>
                     </td>
+                </tr>    
+           </tbody>
+        </table>
+
+### Miglioramenti dell’integrazione
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Aggiungi documenti su schede collegate</a></p><p>È ora possibile allegare documenti su schede collegate nelle Schede Adobe Workfront. Tutti i documenti aggiunti sulla scheda diventano disponibili nella scheda Documenti dell’attività o del problema connesso e gli stessi tipi di file sono supportati in entrambe le aree.</p>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>  
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Miglioramenti all’esperienza di invio di documenti a SharePoint (GraphAPI)</a><span style="color: #ff0000;"> Novità in anteprima.</span> </p><p>Sono state apportate alcune modifiche per facilitare l’individuazione delle cartelle durante l’invio di documenti alle cartelle di SharePoint (GraphAPI)</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 21 agosto 2023</p>
-                            </li>
-                            <li>
-                                <p>Produzione per l’accesso anticipato alle schede madri: 24 agosto 2023</p>
+                                <p>Anteprima versione: 24 agosto<br /></p>
                             </li>
                             <li>
                                 <p>Produzione per il rilascio rapido: da definire</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
+                                <p>Produzione per rilascio trimestrale: da definire</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al trascinamento della selezione per le integrazioni di documenti</a><span style="color: #ff0000;"> Novità in anteprima.</span> </p><p>Sono stati apportati alcuni miglioramenti per aggiungere chiarezza e rimuovere l’errore utente durante il trascinamento e il rilascio di un file in una cartella collegata.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: 24 agosto<br /></p>
+                            </li>
+                            <li>
+                                <p>Produzione per il rilascio rapido: da definire</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: da definire</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
+
 
 ### Miglioramenti al progetto
 
