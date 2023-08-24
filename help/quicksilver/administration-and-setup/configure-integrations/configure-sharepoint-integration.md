@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: e08b56b3bc212d49fd594912b6b28cd8e8f77b8b
+source-git-commit: 80e0bd0cd391372f48e8dddc4228fc431f54d052
 workflow-type: tm+mt
-source-wordcount: '1483'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -81,6 +81,27 @@ Per istruzioni su come collegare i documenti tramite il nuovo [!DNL SharePoint] 
 >* A [!DNL SharePoint] l’integrazione può connettersi a un singolo [!DNL SharePoint] dell&#39;istanza. Pertanto, un utente può impostare un’integrazione per uno [!DNL SharePoint], ma non può impostare un’integrazione per un secondo [!DNL SharePoint], anche se dispongono di autorizzazioni per e documenti sul secondo [!DNL SharePoint].
 >
 >* Un utente ha accesso agli stessi siti, raccolte, cartelle, sottocartelle e file tramite [!DNL Workfront] [!DNL SharePoint] l&#39;integrazione che hanno nel loro [!DNL SharePoint] account.
+
+### Collega documenti da SharePoint
+
+Per istruzioni sul collegamento di documenti da SharePoint tramite il nuovo [!DNL SharePoint] integrazione, vedi [Collega un documento esterno a [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+
+### Inviare documenti a SharePoint
+
+Per inviare un documento a SharePoint:
+
+1. Fai clic su **Invia a** icona ![Invia a](assets/send-to-icon.png) e seleziona SharePoint (Graph API).
+1. (Facoltativo) Cercare nella barra di ricerca il sito o la cartella in cui si desidera inviare il documento.
+1. Selezionare il sito o la cartella dall&#39;elenco.
+
+   * I siti sono contrassegnati con ![Icona del sito](assets/site-icon.png).
+
+   * Le cartelle sono contrassegnate con ![Icona cartella](assets/folder-icon.png).
+
+   * I file non sono contrassegnati da un&#39;icona.
+
+1. Fai clic su **Salva**.
+
 
 ## Informazioni su sicurezza, accesso e autorizzazione per [!DNL SharePoint] integrazione
 
