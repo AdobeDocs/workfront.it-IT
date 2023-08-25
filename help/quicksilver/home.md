@@ -3,18 +3,18 @@ title: '''[!DNL Adobe Workfront] documentazione"'
 description: Documentazione per [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 9%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # [!DNL Workfront] documentazione
 
-Ti diamo il benvenuto nella pagina principale del prodotto Adobe Workfront e della sua documentazione tecnica. Adobe Workfront è un’applicazione di marketing per la gestione dell’intero ciclo di vita del lavoro, tutto in un’unica posizione.
+Ti diamo il benvenuto nella pagina principale del prodotto Adobe Workfront e della sua documentazione tecnica. Adobe Workfront è un’applicazione per la gestione dell’intero ciclo di vita del lavoro, tutto in un’unica posizione.
 
-Utilizza i seguenti documenti, tutorial e risorse aggiuntive su Adobe Workfront per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
+Utilizza i seguenti articoli della guida di Adobe Workfront e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 
 Nelle sezioni seguenti sono disponibili collegamenti utili all’interno di questa guida, organizzati per tipo di pubblico in base alle tipiche mansioni di lavoro:
 
@@ -40,13 +40,32 @@ Inizia a usare Workfront padroneggiando le nozioni di base.
 
 Consulta [Nozioni di base su Adobe Workfront](/help/quicksilver/workfront-basics/workfront-basics.md).
 
+### Gestione del lavoro
+
+Scopri come impostare e utilizzare i potenti processi e strumenti di gestione del lavoro di Workfront.
+
+Consulta [Gestisci lavoro](/help/quicksilver/manage-work/manage-work.md)
+
+
 ### Agile in Workfront
 
 La funzionalità agile di Workfront consente ai team di completare piccole quantità di lavoro gestibili con una frequenza costante.
 
 Consulta [Panoramica di Agile](/help/quicksilver/agile/agile-overview.md).
 
-### Generazione rapporti in modalità testo
+### Utilizzo dei documenti
+
+Migliora la tua esperienza aggiungendo documenti al flusso di lavoro.
+
+Consulta [Documenti](/help/quicksilver/documents/documents-overview.md).
+
+### Reporting
+
+Per visualizzare le informazioni esistenti in un formato di facile lettura e condividerle con tutte le parti interessate, utilizza rapporti e dashboard.
+
+Consulta [Rapporti e dashboard](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+
+#### Generazione rapporti in modalità testo
 
 Se non riesci a capire come creare il rapporto di cui hai bisogno in Workfront, la soluzione che stai cercando potrebbe essere trovata utilizzando la modalità Testo.
 
@@ -58,11 +77,11 @@ Utilizza il Bilanciatore dei carichi di lavoro come alternativa alla pianificazi
 
 Consulta [Il Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-### Informazioni sulla versione di Workfront
+### Adobe Workfront Goals
 
-Scopri tutte le novità di Workfront.
+Allinea la tua strategia al tuo lavoro per ottenere l’allineamento e il successo utilizzando gli Obiettivi di Adobe Workfront.
 
-Consulta [Rilasci di prodotti Workfront](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Consulta [Obiettivi di Adobe Workfront](/help/quicksilver/workfront-goals/workfront-goals.md).
 
 ## Sviluppatori
 
@@ -77,3 +96,15 @@ Consulta [Nozioni di base sulle API](/help/quicksilver/wf-api/general/api-basics
 Puoi visualizzare tutti gli oggetti disponibili tramite l’API Adobe Workfront in Esplora API.
 
 Consulta la [Esplora API di Workfront su developer.adobe.com](https://developer.adobe.com/workfront/api-explorer/).
+
+### Integrazioni di Workfront
+
+Accedere a tutte le applicazioni in un&#39;unica posizione integrando Workfront con altri sistemi.
+
+Consulta [Integrazioni Adobe Workfront](/help/quicksilver/workfront-integrations-and-apps/workfront-integrations.md).
+
+## Informazioni sulla versione di Workfront
+
+Scopri tutte le novità di Workfront.
+
+Consulta [Rilasci di prodotti Workfront](/help/quicksilver/product-announcements/product-releases/product-releases.md).
