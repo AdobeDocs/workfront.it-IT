@@ -1,14 +1,9 @@
 ---
-product-area: reporting
-navigation-topic: other-blocks
 title: Aggiungere o modificare un blocco di contenuto web nell’area di lavoro rapporti
 description: I blocchi di contenuto web consentono di visualizzare informazioni provenienti da siti web esterni direttamente all’interno del rapporto.
-author: Nolan
-feature: Reports and Dashboards
-exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
 hidefromtoc: true
 hide: true
-source-git-commit: a9c36ff874d3272e1d2de70578c420af29b9d44c
+source-git-commit: 350d64577bac677bb0cc9bcb804c32b0301bc5d4
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 1%
