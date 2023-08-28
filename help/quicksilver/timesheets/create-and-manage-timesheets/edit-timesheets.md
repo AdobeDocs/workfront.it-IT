@@ -6,10 +6,10 @@ description: In qualità di utente con accesso amministrativo alle schede orario
 author: Alina
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 2%
+source-wordcount: '817'
+ht-degree: 1%
 
 ---
 
@@ -111,6 +111,16 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
      <tr> 
       <td role="rowheader"><strong>Data di fine</strong> </td> 
       <td> Questa è la data di fine della scheda orario.</td> 
+     </tr>
+<tr> 
+      <td role="rowheader"><strong>Stato</strong> </td> 
+      <td> Questo è lo stato della scheda orario.
+      Di seguito sono riportate le possibili opzioni di stato della scheda orario: 
+      <ul><li><b>Apri</b>: la scheda orario è aperta e le voci orarie possono essere modificate.</li>
+      <li><b>Inviato</b>: la scheda orario viene inviata per l’approvazione agli approvatori designati.</li>
+      <li><b>Rifiutato</b>: la scheda orario non è stata approvata dagli approvatori ed è ora nuovamente disponibile per l’utente per modificare le voci relative all’ora.</li>
+      <li><b>Chiuso</b>: la scheda orario è chiusa dall’utente o approvata dall’approvatore e, di conseguenza, ora è chiusa. Non è possibile aggiungere un orario a una scheda orario chiusa.</li>
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Approvatori</strong> </td> 
@@ -127,4 +137,4 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
     </tbody> 
    </table>
 
-1. Fai clic su Salva.
+1. Fai clic su **Salva**.

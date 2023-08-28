@@ -6,9 +6,9 @@ description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Assegna tag ad altri utenti in caso di aggiornamenti
 
 <!--take "Beta" references out when we remove the beta and change "current" to "legacy" after October 26-->
+
+<!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>\
 <span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
@@ -163,7 +165,12 @@ Puoi assegnare tag agli utenti manualmente nella sezione Aggiornamenti corrente.
 
 Puoi assegnare tag ad altri utenti per gli aggiornamenti nella nuova esperienza di commento nei seguenti modi:
 
-* **Automaticamente**: quando un utente aggiunge un commento o una risposta, viene automaticamente taggato e aggiunto all’area Tag persone o team della casella di commento.
+* **Automaticamente**: quando un utente avvia un thread, aggiunge un commento o aggiunge una risposta, viene automaticamente taggato e aggiunto all’area Tag persone o team della casella di commento. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+
+  >[!TIP]
+  >
+  >Quando il thread viene avviato nell’esperienza di commento legacy, ai partecipanti al thread non vengono assegnati automaticamente tag.
+
 * **Manualmente**: quando si aggiunge manualmente un utente all’area Tag persone della casella di commento.
 
 È inoltre possibile rimuovere gli utenti a cui vengono assegnati tag per errore quando si modifica o si risponde a un commento.
@@ -213,3 +220,10 @@ Puoi assegnare tag ad altri utenti per gli aggiornamenti nella nuova esperienza 
    Per informazioni sulle funzionalità aggiuntive disponibili durante l&#39;aggiornamento di un elemento di lavoro, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-menu.png) <span class="preview">nell’angolo superiore destro del commento</span>, quindi fai clic su **Modifica**. Rimuovi gli utenti taggati, quindi fai clic su **Invia**. È possibile modificare un commento solo entro 15 minuti dall&#39;immissione. Puoi modificare solo i commenti aggiunti.
+
+   >[!TIP]
+   >
+   >Quando si utilizza l’esperienza di commento legacy per aggiungere commenti e risposte, i proprietari di commenti che non sono stati taggati in modo specifico non possono essere rimossi manualmente dagli utenti che utilizzano la nuova esperienza di commento.
+
+
+
