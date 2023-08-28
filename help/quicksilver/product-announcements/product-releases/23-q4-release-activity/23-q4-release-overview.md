@@ -3,9 +3,9 @@ title: Panoramica sulla versione del quarto trimestre 2023
 description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: e31391e854c088ba203a17db81fc04b61a840c21
+source-git-commit: eb337ec6b467cd4f52d852dc90975c0679ef59fe
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1635'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                                 <p>Produzione per l’accesso anticipato alle schede madri: 24 agosto 2023</p>
                             </li>
                             <li>
-                                <p>Produzione per il rilascio rapido: da definire</p>
+                                <p>Produzione per rilascio rapido: N/D</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
@@ -110,7 +110,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                                 <p>Produzione per l’accesso anticipato alle schede madri: 10 agosto 2023</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio rapido: con la versione 23.8</p>
+                                <p>Produzione per rilascio rapido: N/D</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
@@ -128,7 +128,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                                 <p>Versione di anteprima: 3 agosto 2023</p>
                             </li>
                              <li>
-                                <p>Produzione per rilascio rapido: con la versione 23.8</p>
+                                <p>Produzione per rilascio rapido: N/D</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
