@@ -6,9 +6,9 @@ description: Puoi filtrare una bacheca per visualizzare solo determinate schede.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ L’ordinamento della bacheca ordina tutte le schede nelle colonne. Non è possi
 
 La ricerca consente inoltre di individuare una scheda specifica sulla bacheca.
 
-Quando vengono applicati filtri, sulla scheda viene visualizzato un indicatore ![Filtro applicato alla bacheca](assets/boards-filterapplied-30x30.png). Clic **[!UICONTROL Cancella tutto]** per rimuovere tutti i filtri dalla bacheca, quindi fai clic su **[!UICONTROL Nascondi filtri]** per chiudere il pannello dei filtri.
+Quando vengono applicati filtri, sulla scheda viene visualizzato un indicatore ![Filtro applicato alla bacheca](assets/boards-filterapplied-30x30.png). Clic **[!UICONTROL Cancella tutto]** per rimuovere tutti i filtri dalla bacheca, fai clic sull’icona comprimi per chiudere il pannello dei filtri.
 
-![Pannello Filtro](assets/boards-all-filters-collapsed-1022.png)
+![Pannello Filtro](assets/boards-all-filters-collapsed-0823.png)
 
 ## Requisiti di accesso
 
