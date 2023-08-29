@@ -9,9 +9,9 @@ description: Puoi utilizzare il connettore Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3604e67309b76c4e0e8c3af1341b80a607b95d6f
+source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
 workflow-type: tm+mt
-source-wordcount: '5428'
+source-wordcount: '5468'
 ht-degree: 3%
 
 ---
@@ -486,7 +486,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr data-mc-conditions=""> 
    <td>ID</td> 
-   <td> <p>Immetti l’univoco [!DNL Workfront] ID del record che desideri eliminare dal modulo.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copiare il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Immetti l’univoco [!DNL Workfront] ID del record che desideri eliminare dal modulo.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tipo di record]</td> 
@@ -496,6 +496,14 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
 </table>
 
 Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+
+>[!NOTE]
+>
+>Per evitare che i record vengano eliminati a causa di operazioni asincrone, è consigliabile effettuare la configurazione dello scenario seguente.
+>
+>1. Eliminare il record in modo sincrono.
+>1. Aggiungi la gestione degli errori al modulo Elimina record per ignorare l’errore causato dal timeout di 40 secondi.
+
 
 +++
 
@@ -614,7 +622,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr> 
     <td>[!UICONTROL ID]</td>
-   <td> <p>Immetti l’univoco [!DNL Workfront] ID del record che desideri che il modulo legga.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copiare il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Immetti l’univoco [!DNL Workfront] ID del record che desideri che il modulo legga.</p> <p>Per ottenere l’ID, apri la [!DNL Workfront] nel browser e copia il testo alla fine dell'URL dopo "ID=". Ad esempio: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
