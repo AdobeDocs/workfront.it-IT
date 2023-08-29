@@ -5,9 +5,9 @@ title: Integrazioni di Adobe Experience Manager Assets
 description: Puoi collegare il tuo lavoro con le seguenti Integrazioni di Adobe Experience Manager Assets.
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: e03e6a3cacc8eb65764d86854a9847eb414aa340
+source-git-commit: 69f1ee95754207ea9e6bcaf8ee2d270a15c9fc6b
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -79,6 +79,7 @@ Prima di iniziare,
 
 1. Fai clic su **[!UICONTROL Menu principale]** nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Configurazione]** .
 1. Seleziona **[!UICONTROL Documenti]** nel pannello a sinistra, seleziona quindi **[!UICONTROL [!DNL Experience Manager]Integrazione]**.
+
    >[!NOTE]
    >
    >Questa area di configurazione viene visualizzata solo se [!DNL Workfront] l&#39;ambiente è incluso in un [!DNL Adobe Admin Console].
@@ -215,6 +216,8 @@ Per mappare i metadati per le cartelle:
 
 Un [!DNL Experience Manager] campi mappati a [!DNL Workfront] i campi portfolio, programma, progetto, attività, problema e documento vengono aggiornati automaticamente quando vengono modificati in [!DNL Workfront].
 
+Quando questa opzione è abilitata, qualsiasi risorsa inviata ad Adobe Experience Manager include una scheda nella pagina Dettagli documento che mostra una visualizzazione in tempo reale dei metadati Adobe Experience Manager del documento.
+
 >[!IMPORTANT]
 >
 >Gli utenti devono avere accesso in scrittura in [!DNL Experience Manager] per le risorse che vivono nell’oggetto in modo che i metadati vengano sincronizzati quando vengono aggiornati.
@@ -230,7 +233,7 @@ Un flusso di lavoro è un insieme di azioni che collegano Workfront ad Adobe Exp
 
 I valori predefiniti del flusso di lavoro impostati nell’integrazione possono essere ignorati a livello di Modello del progetto e di Progetto.
 
-### Configurare un flusso di lavoro per la creazione di cartelle collegate ad Adobe Experience Manager
+### Configurare un flusso di lavoro per la creazione di cartelle collegate a Adobe Experience Manager
 
 1. Attiva/disattiva **[!UICONTROL Crea cartella collegata]** su.
 1. Scegli un percorso di cartella per indicare dove desideri che tutte le cartelle collegate siano associate a questa integrazione.
