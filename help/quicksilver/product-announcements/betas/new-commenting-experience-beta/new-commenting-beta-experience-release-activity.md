@@ -7,14 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1994'
 ht-degree: 2%
 
 ---
 
 # Nuova attività di rilascio esperienza di commento
+
+<!--take the badge out when it comes to production GA for everyone-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases. </span>  
@@ -77,13 +79,15 @@ Il formato della marca temporale dei commenti utente è stato aggiornato nella s
 
 Le modifiche non influiscono sugli aggiornamenti di sistema nella scheda Attività di sistema.
 
-Anteprima e produzione: 24 agosto 2023
+Anteprima e produzione per tutti i clienti: 24 agosto 2023
 
 ### Settimana del 14 agosto 2023
 
 [Guarda un video dimostrativo di tutte le funzioni rilasciate durante la settimana del 14 agosto 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Nuova esperienza di commento per oggetti aggiuntivi
+
+[!BADGE In produzione per il rilascio rapido]{type=Positive}
 
 La nuova esperienza di aggiunta di commenti sarà disponibile per i seguenti oggetti, poco dopo la versione 23.3 di in Produzione: attività modello, modelli, schede orario, team, utenti, programmi, portfolio.
 
@@ -98,6 +102,8 @@ Versione di produzione per rilascio rapido: con la versione 23.8 (31 agosto 2023
 Versione di produzione per tutti i clienti: con la versione 23.10 (ottobre 2023)
 
 #### Nuovo aggiornamento della progettazione per il nuovo flusso di commenti
+
+[!BADGE In produzione per il rilascio rapido]{type=Positive}
 
 Abbiamo riprogettato il nuovo flusso di commenti per conferirgli un aspetto più aggiornato. Alcuni dei miglioramenti sono:
 
@@ -122,6 +128,8 @@ Produzione per rilascio rapido: con la versione 23.8 (31 agosto 2023)
 Produzione per la versione trimestrale: con la versione 23.10 (ottobre 2023)
 
 #### La nuova esperienza di aggiunta di commenti è quella predefinita per progetti, attività, problemi e documenti
+
+[!BADGE In produzione per il rilascio rapido]{type=Positive}
 
 La nuova esperienza di aggiunta di commenti verrà impostata come predefinita per i seguenti oggetti: progetti, attività, problemi e documenti.  L’esperienza di aggiunta di commenti legacy rimarrà un’opzione alternativa durante l’accesso a questi oggetti.
 
