@@ -8,9 +8,9 @@ author: Becky, Caroline
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: d76dde079748e11949acd322dbe6a4400c0d4ca9
+source-git-commit: 2a5e793077e520e34fdbb9187ba17f1e1bde43e9
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 >[!IMPORTANT]
 >
@@ -93,12 +91,12 @@ Per istruzioni sul collegamento di documenti da SharePoint tramite il nuovo [!DN
 Per inviare un documento a SharePoint:
 
 1. Fai clic su **Invia a** icona ![Invia a](assets/send-to-icon.png) e seleziona SharePoint (Graph API).
-1. <span class="preview">(Facoltativo) Cercare nella barra di ricerca il sito o la cartella in cui si desidera inviare il documento.</span>
+1. (Facoltativo) Cercare nella barra di ricerca il sito o la cartella in cui si desidera inviare il documento.
 1. Selezionare il sito o la cartella dall&#39;elenco.
 
-   * <span class="preview">I siti sono contrassegnati con ![Icona del sito](assets/site-icon.png).</span>
+   * I siti sono contrassegnati con ![Icona del sito](assets/site-icon.png).
 
-   * <span class="preview">Le cartelle sono contrassegnate con ![Icona cartella](assets/folder-icon.png).</span>
+   * Le cartelle sono contrassegnate con ![Icona cartella](assets/folder-icon.png).
 
    * I file non sono contrassegnati da un&#39;icona.
 
