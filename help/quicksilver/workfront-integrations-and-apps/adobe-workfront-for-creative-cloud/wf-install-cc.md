@@ -1,25 +1,25 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Installa e apri [!DNL Adobe Workfront for design and video]
-description: Puoi installare Workfront per il plug-in Creative Cloud da Adobe Marketplace.
+title: Installare e aprire [!DNL Adobe Workfront for design and video]
+description: È possibile installare [!DNL Adobe Workfront for design and video] da Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
+source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '524'
 ht-degree: 1%
 
 ---
 
-# Installa e apri [!DNL Adobe Workfront for design and video]
+# Installare e aprire [!DNL Adobe Workfront for design and video]
 
-È possibile installare [!DNL Adobe Workfront for design and video] plug-in da [!DNL Adobe Marketplace]. Questo plug-in supporta le seguenti applicazioni Creative Cloud:
+È possibile installare [!DNL Adobe Workfront for design and video] dal [!DNL Adobe Marketplace]. Questo plug-in supporta le seguenti applicazioni Creative Cloud:
 
 {{cc-plugin-app-list}}
 
-Il plug-in supporta le seguenti lingue:
+[!DNL Adobe Workfront for design and video] supporta le seguenti lingue:
 
 * Inglese
 * Francese
@@ -55,40 +55,40 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> -->
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td><p>Devi avere un [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront] licenza.</p><p>Per ulteriori informazioni, consulta <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud criteri di supporto</a>.</p></td> 
+   <td><p>Devi avere un [!DNL Adobe Creative Cloud] licenza in aggiunta a una [!DNL Workfront] licenza.</p><p>Per ulteriori informazioni, consulta <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud criteri di supporto</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
 ## Prerequisiti
 
-* È necessario installare [!DNL Creative Cloud] app da utilizzare prima di installare il plug-in.
+* È necessario installare [!DNL Creative Cloud] app che desideri utilizzare prima di installare il plug-in Workfront per tale app.
 
-## Installa il [!DNL Adobe Workfront for design and video] plug-in per la tua organizzazione
+## Installa [!DNL Workfront for design and video] per la tua organizzazione
 
-Se sei un [!DNL Adobe Admin Console] amministratore, puoi includere il plug-in [!DNL Creative Cloud] pacchetti di distribuzione. Per ulteriori informazioni, consulta [Includere i plug-in nel pacchetto](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Se sei un [!DNL Adobe Admin Console] amministratore, puoi includere [!DNL Adobe Workfront for design and video] in [!DNL Creative Cloud] pacchetti di distribuzione. Per ulteriori informazioni, consulta [Inclusione di plug-in nel pacchetto](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-[Guarda un&#39;esercitazione video qui](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[Visualizza un&#39;esercitazione video](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-## Installa il [!DNL Adobe Workfront for design and video] plug-in singolarmente
+## Installa [!DNL Workfront for design and video] singolarmente
 
-È possibile installare [!DNL Adobe Workfront for design and video] plug-in per te stesso dal [!DNL Adobe Exchange].
+È possibile installare [!DNL Adobe Workfront for design and video] per te stesso da [!DNL Adobe Exchange].
 
-1. Vai a [Pagina di installazione di Adobe Workfront for Design and Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) su Adobe Exchange.
+1. Vai a [Pagina di installazione di Adobe Workfront for Design and Video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) sull&#39;Adobe Exchange.
 1. Nella finestra di dialogo visualizzata, fai clic su **Apri [!DNL Adobe Creative Cloud] app desktop**.
-1. Una volta [!DNL Adobe Creative Cloud] viene aperto il gestore dei plug-in, fai clic su **[!UICONTROL Installa]**.
-1. Leggere le informazioni nella finestra di dialogo, quindi fare clic su **[!UICONTROL OK]**.
-1. Una volta installato il plug-in, apri la [!DNL Creative Cloud] app di cui hai bisogno e individua il plug-in Workfront nel pannello dei plug-in .
+1. Una volta [!DNL Adobe Creative Cloud] plugin manager si apre, fai clic su **[!UICONTROL Installa]**.
+1. Leggi le informazioni nella finestra di dialogo, quindi fai clic su **[!UICONTROL OK]**.
+1. Una volta [!DNL Workfront for design and video] in installato, apri la [!DNL Creative Cloud] dell&#39;app necessaria e individuare [!DNL Workfront] plugin nel pannello plugin.
 
-1. Per informazioni su come aprire il plug-in, consulta la sezione seguente.
+1. Per informazioni su come aprire, passare alla sezione seguente [!DNL Workfront for design and video].
 
-## Apri [!DNL Adobe Workfront for design and video] plugin
+## Aperto [!DNL Adobe Workfront for design and video]
 
-1. Apri il plugin Creative Cloud che desideri utilizzare.
+1. Aprire il plug-in di Creative Cloud che si desidera utilizzare.
 
-1. Crea un nuovo progetto o ne apri uno esistente.
+1. Crea un nuovo progetto o aprirne uno esistente.
 
 1. Nel menu principale, fai clic su **Windows** > **Estensioni** > **Menu Adobe Workfront**.
 
@@ -101,39 +101,37 @@ Se sei un [!DNL Adobe Admin Console] amministratore, puoi includere il plug-in [
 
    >[!TIP]
    >
-   >Se il plug-in non viene visualizzato dopo averlo aperto dal menu Estensioni, potrebbe trovarsi dietro l’app Creative Cloud. Prova a ridurre al minimo l’app per trovare il plug-in.
+   >Se non vedi [!DNL Adobe Workfront for design and video] dopo averlo aperto dal menu Estensioni, potrebbe trovarsi dietro l’app Creative Cloud. Prova a ridurre a icona l’app per trovare il plug-in.
 
-1. Per informazioni su come accedere al plug-in, consulta la sezione seguente.
+1. Per informazioni su come accedere a, consulta la sezione seguente. [!DNL Adobe Workfront for design and video].
 
 
 ## Accedi a [!DNL Adobe Workfront for design and video]
 
-1. Da **[!UICONTROL Plug-in]** nella parte superiore dello schermo, seleziona **[!UICONTROL Pannello plug-in]**.
+1. Dalla sezione **[!UICONTROL Plug-in]** nella parte superiore dello schermo, seleziona **[!UICONTROL Pannello plug-in]**.
 1. Seleziona **[!DNL Adobe Workfront for design and video]**.
-1. Inserisci il tuo dominio, quindi fai clic su **[!UICONTROL Accedere]**. Viene visualizzata una pagina del browser.
+1. Immetti il dominio, quindi fai clic su **[!UICONTROL Accedi]**. Viene visualizzata una pagina del browser.
 
    >[!TIP]
    >
-   >* Per trovare il dominio, apri un browser e passa al [!DNL Workfront] e copia la prima parte dell’URL:\
-      >![](assets/domain-350x50.png)
+   >* Per trovare il dominio, apri un browser, accedi al tuo [!DNL Workfront] e copia la prima parte dell’URL:\
+   >![](assets/domain-350x50.png)
    >
-   > * Se l’istanza Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
+   > * Se la tua istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
 
-
-1. Nel browser, immetti [!DNL Workfront] credenziali, quindi fai clic su **[!UICONTROL Accedere]**. Se la tua azienda utilizza un Single Sign-On (SSO), verrai indirizzato alla pagina del tuo provider SSO per effettuare l&#39;accesso.
+1. Nel browser, immetti il [!DNL Workfront] , quindi fai clic su **[!UICONTROL Accedi]**. Se l&#39;azienda utilizza un Single Sign-On (SSO), verrà visualizzata la pagina del provider SSO per l&#39;accesso.
 
    >[!NOTE]
    >
-   >Potrebbe non essere richiesto di entrare nel [!DNL Workfront] credenziali se hai effettuato l&#39;accesso di recente.
+   >È possibile che non venga richiesto di immettere [!DNL Workfront] credenziali se hai effettuato di recente l’accesso.
 
 1. Segui le istruzioni per accedere a [!DNL Workfront].
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] si connette a [!DNL Adobe Creative Cloud] utilizzando OAuth 2.0, uno standard sicuro utilizzato dalla maggior parte delle integrazioni basate su web per l’autenticazione e l’autorizzazione degli utenti.
-   >* Quando viene richiesto di immettere il [dominio o host] del tuo [!DNL Workfront] account, digitare il formato: *la tua azienda&#39;sDomain.my.workfront.com*. Il dominio della tua azienda è in genere il nome della tua azienda.
+   >* [!DNL Workfront] si connette a [!DNL Adobe Creative Cloud] con OAuth 2.0, uno standard sicuro utilizzato dalla maggior parte delle integrazioni basate su web per l’autenticazione e l’autorizzazione degli utenti.
+   >* Quando viene richiesto di immettere il [dominio o host] del tuo [!DNL Workfront] account, digitalo utilizzando questo formato: *yourCompany&#39;sDomain.my.workfront.com*. Il dominio della tua azienda è in genere il nome della tua azienda.
 
-
-1. Fai clic su **[!UICONTROL Consenti accesso]** per completare l&#39;accesso.
+1. Clic **[!UICONTROL Consenti accesso]** per completare l&#39;accesso.
 1. Torna a [!DNL Adobe Photoshop] per vedere il tuo lavoro.
 

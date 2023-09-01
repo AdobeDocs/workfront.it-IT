@@ -6,9 +6,9 @@ description: Puoi caricare le tue bacheche grafiche come documenti per una revis
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: 1772db4163323399e93d7068bbeda13cc822e262
+source-git-commit: e3bc8ca88dda16ac792e6de8055296105e6ff0e0
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Prerequisiti
 
-* È necessario installare [!DNL Adobe Workfront for design and video] plug-in per caricare i documenti da [!DNL Illustrator].
+* Installazione obbligatoria [!DNL Adobe Workfront for design and video] prima di caricare i documenti da [!DNL Illustrator].
 
   Per istruzioni, consulta [Installa [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
