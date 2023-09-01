@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
+source-git-commit: e21758ba410dd75440ff28e00a2fb5ba88c3d18a
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 0%
@@ -61,10 +61,10 @@ Il [!UICONTROL Iniziativa strategica interna generale] blueprint contiene un mod
 **[!UICONTROL Impostazione organizzazione risorse umane]**
 Questo blueprint contiene la configurazione delle strutture organizzative da espandere a un reparto Risorse umane.
 
-[!BADGE Nuovo!]{type=Informative}**[!UICONTROL Configurazione dell&#39;organizzazione IT]**
+**[!UICONTROL Configurazione dell&#39;organizzazione IT]**
 Questo blueprint contiene la configurazione delle strutture organizzative da espandere a un caso di utilizzo di Information Technology.
 
-**[!UICONTROL Nozioni di base sull’istanza ereditata | Lista di controllo]**
+[!BADGE Nuovo!]{type=Informative}**[!UICONTROL Nozioni di base sull’istanza ereditata | Lista di controllo]**
 Questo blueprint contiene un modello di progetto (o elenco di controllo) che puoi esaminare con un breve elenco di domande, risorse e collegamenti per comprendere chiaramente come è stata configurata la tua istanza di Workfront. Utilizzalo quando hai ereditato di recente un’istanza Workfront e hai bisogno di istruzioni su dove iniziare.
 
 **[!UICONTROL Esecuzione di una campagna integrata]**
