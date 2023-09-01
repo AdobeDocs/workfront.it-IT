@@ -7,9 +7,9 @@ description: In Adobe Workfront Fusion sono attualmente disponibili i seguenti m
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3897606db8a80d04a3b8d8f0cba69365ceb86c17
+source-git-commit: 2211431b4c4e3d751519fe8441cfa578e713ac77
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '866'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,13 @@ Per visualizzare i modelli disponibili, fai clic su **Modelli** icona ![](assets
 
 Questi modelli automatizzano i processi e i flussi di lavoro di Workfront.
 
-### Workfront: copia dei dati di campo e del Forms personalizzato del programma nei nuovi progetti associati
+### [!BADGE Nuovo!]{type=Informative}
 
 Questa automazione controlla i nuovi progetti nei programmi con moduli personalizzati. Quindi aggiunge i moduli e i campi personalizzati del programma ai nuovi progetti.
+
+### [!BADGE Nuovo!]{type=Informative}
+
+Questa automazione controlla nuovi progetti in portfolio con moduli personalizzati. Quindi aggiunge i moduli e i campi personalizzati del portfolio ai nuovi progetti.
 
 ### Workfront - Conversione del problema approvato in progetto
 
@@ -54,7 +58,7 @@ Questo modello acquisisce una baseline del progetto in seguito a qualsiasi modif
 
 Questo modello acquisisce una previsione del progetto su base settimanale ogni lunedì alle 6 (ora legale) sui progetti filtrati in base al portfolio e crea un aggiornamento nel flusso di aggiornamento per la registrazione.
 
-### Trova modelli di progetto non utilizzati in fase di definizione del criterio e invia una notifica
+### [!BADGE Nuovo!]{type=Informative}
 
 Una volta al mese, rivedi i modelli di progetto utilizzando il tuo criterio con questo modello facile da gestire che notifica agli utenti appropriati i modelli che violano il criterio.
 
