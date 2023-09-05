@@ -1,21 +1,21 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Installa e apri Adobe Workfront per XD
-description: Puoi installare Adobe Workfront per XD plug-in da Adobe Marketplace.
+title: Installare e aprire Adobe Workfront for XD
+description: Puoi installare il plug-in Adobe Workfront for XD da Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 48856487ee145ca4ad4959aa3fb37931dc101095
+source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '481'
 ht-degree: 1%
 
 ---
 
-# Installa e apri [!DNL Adobe Workfront for XD]
+# Installare e aprire [!DNL Adobe Workfront for XD]
 
-È possibile installare [!DNL Adobe Workfront for XD] plug-in da Adobe Marketplace. Il plug-in supporta le seguenti lingue:
+È possibile installare [!DNL Adobe Workfront for XD] plugin da Adobe Marketplace. Il plug-in supporta le seguenti lingue:
 
 * Inglese
 * Francese
@@ -48,40 +48,42 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> -->
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td><p>Devi avere un [!DNL Adobe Creative Cloud] oltre a una licenza [!DNL Workfront] licenza.</p><p>Per ulteriori informazioni, consulta <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud criteri di supporto</a>.</p></td> 
+   <td><p>Devi avere un [!DNL Adobe Creative Cloud] licenza in aggiunta a una [!DNL Workfront] licenza.</p><p>Per ulteriori informazioni, consulta <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud criteri di supporto</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano, tipo di licenza o accesso hai, contatta il tuo [!DNL Workfront] amministratore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
 
 ## Prerequisiti
 
 * È necessario installare [!DNL Adobe XD] prima di installare il plug-in Workfront.
 
-## Installa il [!DNL Adobe Workfront for XD] plug-in per la tua organizzazione
+## Installare [!DNL Adobe Workfront for XD] plugin per la tua organizzazione
 
-Se sei un [!DNL Adobe Admin Console] amministratore, puoi includere il plug-in [!DNL Creative Cloud] pacchetti di distribuzione. Per ulteriori informazioni, consulta [Includere i plug-in nel pacchetto](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Se sei un [!DNL Adobe Admin Console] amministratore, puoi includere il plug-in [!DNL Creative Cloud] pacchetti di distribuzione. Per ulteriori informazioni, consulta [Inclusione di plug-in nel pacchetto](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-[Guarda un&#39;esercitazione video qui](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[Visualizza un&#39;esercitazione video](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-## Installa il [!DNL Adobe Workfront for XD] plug-in singolarmente
+[!DNL Adobe Admin Console] gli amministratori possono anche creare pacchetti di solo plug-in da distribuire agli utenti. Per ulteriori informazioni, consulta [Crea [!UICONTROL [!DNL Adobe Workfront] per [!DNL Creative Cloud]] pacchetti per gli utenti in [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
-È possibile installare [!DNL Adobe Workfront for XD] plug-in per te stesso dal [!DNL Adobe Exchange].
+## Installare [!DNL Adobe Workfront for XD] plugin singolarmente
 
-1. Vai a [Pagina di installazione di Adobe Workfront for XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) su Adobe Exchange.
+È possibile installare [!DNL Adobe Workfront for XD] plugin per te stesso da [!DNL Adobe Exchange].
+
+1. Vai a [Pagina di installazione di Adobe Workfront per XD](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share) sull&#39;Adobe Exchange.
 1. Nella finestra di dialogo visualizzata, fai clic su **Apri [!DNL Adobe Creative Cloud] app desktop**.
-1. Una volta [!DNL Adobe XD] viene aperto il gestore dei plug-in, fai clic su **[!UICONTROL Installa]**.
-1. Leggere le informazioni nella finestra di dialogo, quindi fare clic su **[!UICONTROL OK]**.
+1. Una volta [!DNL Adobe XD] plugin manager si apre, fai clic su **[!UICONTROL Installa]**.
+1. Leggi le informazioni nella finestra di dialogo, quindi fai clic su **[!UICONTROL OK]**.
 1. Per informazioni su come aprire il plug-in, consulta la sezione seguente.
 
 ## Apri [!DNL Adobe Workfront for XD] plugin
 
 1. Aperto [!DNL Adobe XD].
 
-1. Crea un nuovo file o apri un file esistente.
+1. Creare un nuovo file o aprirne uno esistente.
 
-1. Nell’angolo in basso a sinistra, fai clic sul pulsante **Plug-in** icona.
+1. Nell’angolo in basso a sinistra, fai clic su **Plug-in** icona.
 
 ![](assets/xd-plugin-window-350x620.png)
 
@@ -91,31 +93,29 @@ Se sei un [!DNL Adobe Admin Console] amministratore, puoi includere il plug-in [
 
 ## Accedi a [!DNL Adobe Workfront for XD]
 
-1. Assicurati che il pannello Plugin sia aperto, quindi fai clic su **[!DNL Adobe Workfront for XD]**.
-1. Inserisci il tuo dominio, quindi fai clic su **[!UICONTROL Accedere]**. Viene visualizzata una pagina del browser.
+1. Assicurati che il pannello Plug-in sia aperto, quindi fai clic su **[!DNL Adobe Workfront for XD]**.
+1. Immetti il dominio, quindi fai clic su **[!UICONTROL Accedi]**. Viene visualizzata una pagina del browser.
 
    >[!TIP]
    >
-   >* Per trovare il dominio, apri un browser e passa al [!DNL Workfront] e copia la prima parte dell’URL:\
-      >![](assets/domain-350x50.png)
+   >* Per trovare il dominio, apri un browser, accedi al tuo [!DNL Workfront] e copia la prima parte dell’URL:\
+   >![](assets/domain-350x50.png)
    >
-   > * Se l’istanza Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
+   > * Se la tua istanza di Workfront è integrata con Experience Cloud, chiedi all’amministratore di fornirti il dominio Workfront che si trova in Prodotto > Workfront nell’Admin Console.
 
-
-1. Nel browser, immetti [!DNL Workfront] credenziali, quindi fai clic su **[!DNL Log in]**. Se la tua azienda utilizza un Single Sign-On (SSO), verrai indirizzato alla pagina del tuo provider SSO per effettuare l&#39;accesso.
+1. Nel browser, immetti il [!DNL Workfront] , quindi fai clic su **[!DNL Log in]**. Se l&#39;azienda utilizza un Single Sign-On (SSO), verrà visualizzata la pagina del provider SSO per l&#39;accesso.
 
    >[!NOTE]
    >
-   >Potrebbe non essere richiesto di entrare nel [!DNL Workfront] credenziali se hai effettuato l&#39;accesso di recente.
+   >È possibile che non venga richiesto di immettere [!DNL Workfront] credenziali se hai effettuato di recente l’accesso.
 
    Segui le istruzioni per accedere a [!DNL Workfront].
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] si connette a [!DNL Adobe Creative Cloud] utilizzando OAuth 2.0, uno standard sicuro utilizzato dalla maggior parte delle integrazioni basate su web per l’autenticazione e l’autorizzazione degli utenti.
-   >* Quando viene richiesto di immettere il [dominio o host] del tuo [!DNL Workfront] account, digitare il formato: *la tua azienda&#39;sDomain.my.workfront.com*. Il dominio della tua azienda è in genere il nome della tua azienda.
+   >* [!DNL Workfront] si connette a [!DNL Adobe Creative Cloud] con OAuth 2.0, uno standard sicuro utilizzato dalla maggior parte delle integrazioni basate su web per l’autenticazione e l’autorizzazione degli utenti.
+   >* Quando viene richiesto di immettere il [dominio o host] del tuo [!DNL Workfront] account, digitalo utilizzando questo formato: *yourCompany&#39;sDomain.my.workfront.com*. Il dominio della tua azienda è in genere il nome della tua azienda.
 
-
-1. Fai clic su **[!UICONTROL Consenti accesso]** per completare l&#39;accesso, e tornare al [!DNL Adobe XD] per vedere il tuo lavoro.
+1. Clic **[!UICONTROL Consenti accesso]** per completare l&#39;accesso e tornare a [!DNL Adobe XD] per vedere il tuo lavoro.
 
  
