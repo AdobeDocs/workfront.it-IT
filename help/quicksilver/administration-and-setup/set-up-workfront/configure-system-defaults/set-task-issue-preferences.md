@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: db0891e0c607b9297d4fcd6b48916b47e8a0b990
+source-git-commit: ca3ded2d18f369a0859efce49d185fa0de4cf54f
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2105'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo di retribuzione]</td> 
-   <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando <strong>[!UICONTROL Tipo di retribuzione]</strong> è impostato su<strong>[!UICONTROL Non Fatturabile]</strong>, le ore pianificate e quelle effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p> </td> 
+   <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando <strong>[!UICONTROL Tipo di retribuzione]</strong> è impostato su <strong>[!UICONTROL Non Fatturabile]</strong>, le ore pianificate e quelle effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tipo di costo]</td> 
@@ -118,7 +118,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Concedere l’accesso ai problemi</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Consenti al contatto principale di accedere all'attività]</strong>: consente al contatto principale (autore del problema) di accedere all’attività per rivederla, informarsi sullo stato di avanzamento e aggiungere commenti alla sezione Aggiornamenti dell’attività.</li> 
+     <li><strong>[!UICONTROL Consenti al contatto principale di accedere all'attività]</strong>: fornisce al contatto principale (autore del problema) l’accesso in visualizzazione all’attività per esaminarla, tenerne informato l’avanzamento e aggiungere commenti alla sezione Aggiornamenti dell’attività.</li> 
      <li> <p><strong>[!UICONTROL Consenti la modifica di queste impostazioni durante la conversione]</strong>: consente all’utente che converte il problema di modificare queste opzioni durante la conversione di un problema in un’attività.</p> <!--
        Screenshot when possible</p>
       --> </li> 
@@ -133,7 +133,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
         <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Concedere l’accesso ai problemi</a> </p> </li> 
         <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema </a> </p> </li> 
        </ul> </p> </li> 
-     <li><strong>[!UICONTROL Consenti al contatto principale di accedere al progetto]</strong>: consente al contatto principale (autore del problema) di accedere al progetto per esaminarlo, informarsi sui progressi e formulare commenti sulla sezione Aggiornamenti del progetto.</li> 
+     <li><strong>[!UICONTROL Consenti al contatto principale di accedere al progetto]</strong>: fornisce al contatto principale (autore del problema) l’accesso in visualizzazione al progetto per esaminarlo, tenerlo informato sui progressi e formulare commenti sulla sezione Aggiornamenti del progetto.</li> 
      <li><strong>[!UICONTROL Consenti la modifica di queste impostazioni durante la conversione]</strong>: consente all’utente che converte il problema di modificare le opzioni elencate durante la conversione di un problema in un progetto.</li> 
     </ul> </td>
   </tr> 
@@ -234,7 +234,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL Quando un utente viene assegnato a un'attività]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Concedi loro ... l'accesso a un'attività]</strong>: definisce l’autorizzazione predefinita di un utente per l’attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni per le attività, consulta<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</li> 
+     <li><strong>[!UICONTROL Concedi loro ... l'accesso a un'attività]</strong>: definisce l’autorizzazione predefinita di un utente per l’attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni per le attività, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</li> 
      <li> <p><strong>[!UICONTROL Concede anche loro ... l'accesso al progetto]</strong>: definisce l’autorizzazione predefinita di un utente per il progetto al quale è stata assegnata un’attività. Per ulteriori informazioni sulle autorizzazioni per i progetti, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -242,7 +242,7 @@ I have not had a chance to follow up with customers to verify if this is still a
    <td role="rowheader">[!UICONTROL Quando a un utente viene assegnato un problema]</td> 
    <td> 
     <ul> 
-     <li><strong>[!UICONTROL Concedi loro ... l'accesso a un'attività]</strong>: definisce l’autorizzazione predefinita di un utente per l’attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni per le attività, consulta<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</li> 
+     <li><strong>[!UICONTROL Concedi loro ... l'accesso a un'attività]</strong>: definisce l’autorizzazione predefinita di un utente per l’attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni per le attività, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</li> 
      <li> <p><strong>[!UICONTROL Concede anche loro ... l'accesso al progetto]</strong>: definisce l’autorizzazione predefinita di un utente per il progetto al quale è stata assegnata un’attività. Per ulteriori informazioni sulle autorizzazioni per i progetti, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>.</p> </li> 
     </ul> </td> 
   </tr> 
