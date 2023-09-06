@@ -6,7 +6,7 @@ description: Puoi installare il plug-in Adobe Workfront for Photoshop da Adobe M
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 316c85d4809f6833441f63578038624a7ebfcb39
 workflow-type: tm+mt
 source-wordcount: '528'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * È necessario installare [!DNL Adobe Photoshop] prima di installare [!DNL Workfront] plugin.
 
-## Installare [!DNL Adobe Workfront for Photoshop] plug-in per l’organizzazione
+## Installare [!DNL Adobe Workfront for Photoshop] plugin per la tua organizzazione
 
 Se sei un [!DNL Adobe Admin Console] amministratore, puoi includere il plug-in [!DNL Creative Cloud] pacchetti di distribuzione. Per ulteriori informazioni, consulta [Inclusione di plug-in nel pacchetto](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
