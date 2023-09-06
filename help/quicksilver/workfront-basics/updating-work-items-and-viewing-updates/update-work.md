@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: bdbb970aa0bb49fe9e69a15f93c96609eb2c1bfe
 workflow-type: tm+mt
-source-wordcount: '3521'
+source-wordcount: '3550'
 ht-degree: 1%
 
 ---
@@ -218,6 +218,7 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
       <td> <p>Disattiva questa opzione per impedire agli utenti esterni alla società di avere accesso alla visualizzazione di questo aggiornamento.</p> 
       <p><b>NOTA</b></p>
       <p>Questa opzione viene visualizzata solo quando l’utente è associato a una società.</p>
+      <p>Questa opzione non è disponibile in tutte le aree da cui è possibile aggiungere aggiornamenti. Ad esempio, non è disponibile nelle applicazioni di terze parti da cui puoi aggiungere aggiornamenti. </p>
       </td> 
      </tr> 
     </tbody> 
