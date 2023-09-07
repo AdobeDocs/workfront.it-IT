@@ -4,9 +4,9 @@ description: Il [!DNL Adobe Workfront Fusion] I moduli di gestione delle relazio
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
 workflow-type: tm+mt
-source-wordcount: '2533'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -349,7 +349,7 @@ Crea un contatto se non esiste già in un portale, oppure lo aggiorna con i valo
 
 #### [!UICONTROL Crea/aggiorna un gruppo di contatti]
 
-Crea un gruppo di contatti o li aggiorna se esistono già. Le prestazioni sono migliori quando la dimensione del batch è limitata a un massimo di 100 contatti. Le modifiche apportate tramite questo endpoint vengono elaborate in modo asincrono, pertanto l&#39;applicazione delle modifiche ai record dei contatti può richiedere alcuni minuti.
+Crea un gruppo di contatti o li aggiorna se esistono già. Le prestazioni sono migliori quando la dimensione del batch è limitata a un massimo di 100 contatti. Le modifiche apportate tramite questo endpoint vengono elaborate in modo asincrono, pertanto l&#39;applicazione delle modifiche ai record dei contatti potrebbe richiedere alcuni minuti.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -730,6 +730,19 @@ Elimina un ticket esistente in base al suo ID.
 ### [!UICONTROL Effettuare una chiamata API]
 
 Consente di eseguire una chiamata API personalizzata.
+
+>[!NOTE]
+>
+>I seguenti endpoint sono stati dichiarati obsoleti nell’API HubSpot il 31 agosto 2023 e non possono più essere utilizzati nei moduli Fusion.
+>
+>* Elencare eventi di contenuto
+>* Elencare eventi social
+>* Elencare eventi attività calendario
+>* Elenca tutti gli eventi calendario
+>* Crea attività calendario
+>* Ottieni attività calendario per ID
+>* Aggiorna attività calendario
+>* Eliminare un’attività calendario
 
 <table style="table-layout:auto"> 
  <col> 
