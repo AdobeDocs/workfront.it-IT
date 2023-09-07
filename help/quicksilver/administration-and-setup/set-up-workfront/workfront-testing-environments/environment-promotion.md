@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: e05ecf25ec5a6102c42a405116488752f87cc3b1
+source-git-commit: 68c3a66a91f4c0936d256398b5d30518226396a6
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2346'
 ht-degree: 3%
 
 ---
@@ -177,7 +177,7 @@ Il secondo passaggio utilizza il `objectCollections` fornito nel corpo del POST 
 >
 >Ogni elemento dell’array contiene un `objCode` chiave che corrisponde al codice oggetto documentato in Workfront API Explorer.
 >
->Ogni elemento contiene anche un `entities` raccolta. Questo prevede che `ID` e `name` le chiavi per essere presenti.
+>Ogni elemento contiene anche un `entities` raccolta. Questo prevede che `ID` campo. Può inoltre accettare un `name` per rendere più facile sapere quale `ID` rappresenta.
 >
 >Per l’elenco dei codici oggetto consentiti da richiedere in `objectCollections` , vedere la [Oggetti supportati per la promozione dell’ambiente](#supported-objects-for-environment-promotion) in questo articolo.
 
