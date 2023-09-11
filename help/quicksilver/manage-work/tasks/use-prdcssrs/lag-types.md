@@ -7,9 +7,9 @@ description: Lag è il tempo che deve trascorrere dopo il completamento di un pr
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -164,7 +164,7 @@ Nella tabella seguente sono illustrati i tipi di ritardo e la modalità di indic
 <p><b>NOTA</b></p> Il limite massimo di ritardo per la percentuale è 2000%.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Giorno della settimana (w) </p> </td> 
+   <td> <p>Giorno della settimana (w o we) </p> </td> 
    <td> <p>Il ritardo tra due attività viene misurato indicando i giorni della settimana che contiene la data di completamento pianificata del predecessore.</p> <p>Per questo Tipo di Lag, ogni giorno della settimana è associato a un numero:</p> 
     <ul> 
      <li>Domenica=1</li> 
@@ -187,7 +187,7 @@ Se si calcola che la data di inizio del successore sia un martedì specifico e t
 <p>Per indicare le settimane passate o future, è possibile aggiungere un numero prima del numero del giorno per il tipo di ritardo. </p> <p>Ad esempio, per indicare il lunedì di 10 settimane fa, è possibile utilizzare questo codice per indicare il predecessore del successore:</p> <p><code>4fs-102w</code> </p> <p>10 indica 10 settimane fa e 2 è il numero assegnato a lunedì. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Giorno della settimana diverso da zero (k)</p> </td> 
+   <td> <p>Giorno della settimana non zero (k o ke)</p> </td> 
    <td> <p>Il ritardo tra due attività viene misurato in modo identico al tipo di ritardo Giorno della settimana, tranne nel caso in cui il tempo del predecessore termini nello stesso giorno della settimana specificata. Il tempo di ritardo viene quindi calcolato sulla settimana adiacente (+/-). </p> <p>In questo caso, il tempo di ritardo non può mai essere 0.</p> </td> 
   </tr> 
  </tbody> 
