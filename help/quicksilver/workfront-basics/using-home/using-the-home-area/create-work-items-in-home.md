@@ -6,9 +6,9 @@ description: Creare elementi di lavoro dall'area Home
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 3793f68faf2ec0a8050f8f0c6e06a32579b43879
+source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>[!UICONTROL Worker]</p> <p>Nota: se non disponi ancora dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker]</p> <p><b>NOTA</b></p> 
+   <p>Se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
@@ -72,6 +73,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 >
 >* A differenza delle normali attività di progetto, le attività personali hanno un set limitato di campi visibili nell’interfaccia di Workfront e non influenzano la timeline o l’avanzamento di alcun progetto. Quando si riassegna un&#39;attività personale a un altro utente, tutti i campi delle attività vengono aggiunti a un&#39;attività personale, ma l&#39;attività rimane nel progetto personale dell&#39;utente che ha creato l&#39;attività.
 >
+>
+>* Le attività personali vengono visualizzate nelle schede orario solo quando sono registrate o sono bloccate nella scheda orario. È possibile aggiungere un&#39;attività personale a una scheda orario solo quando sono presenti ore registrate per l&#39;attività. Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+> 
 >* Se desideri che le attività personali facciano parte del flusso di lavoro normale, è consigliabile creare un progetto e spostarvi tutte le attività personali.
 >
 > ![[!UICONTROL Progetto per attività personali]](assets/createworkitems-personal--project-350x105.png)
