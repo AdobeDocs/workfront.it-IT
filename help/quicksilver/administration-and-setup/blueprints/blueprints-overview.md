@@ -9,14 +9,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 006df3f8c391596cd0c769df5d7eb843949b4e01
+source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # Panoramica dei blueprint
+
+I blueprint sono set di oggetti Workfront che trattano casi d’uso comuni in Workfront. Puoi scaricare e installare una blueprint, quindi configurare gli oggetti per il tuo caso d’uso specifico.
+
+>[!INFO]
+>
+>Esempi:
+>
+>* **Impostazione organizzazione risorse umane**
+>
+>   Questo blueprint contiene la configurazione delle strutture organizzative da espandere a un reparto Risorse umane.
+>
+>* **Aggiungi elenco di controllo IT nuovo dipendente**
+>
+>   Questo blueprint contiene un modello per organizzare nuove attività di onboarding dei dipendenti. L&#39;utilizzo di questo modello consente ai team IT di operare in modo efficiente, garantendo un&#39;esperienza positiva per i nuovi dipendenti e una maggiore produttività.
+>
+>* **Elenco di controllo delle nozioni di base dell’istanza ereditata**
+>
+>    Questo blueprint contiene un modello di progetto (o elenco di controllo) che puoi esaminare con un breve elenco di domande, risorse e collegamenti per comprendere chiaramente come è stata configurata la tua istanza di Workfront. Utilizzalo quando hai ereditato di recente un’istanza Workfront e hai bisogno di istruzioni su dove iniziare.
+>
+>Per rivedere i blueprint correnti, vedi [Elenco dei blueprint disponibili](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
+
 
 I blueprint forniscono elementi di base per aiutarti a creare un sistema di gestione del lavoro che cresce con te. Gli amministratori di sistema possono sfogliare il catalogo dei blueprint e installare modelli di progetto, dashboard e strutture organizzative pronti all’uso. Altri utenti possono sfogliare il catalogo e richiedere l’installazione di una blueprint. Per ulteriori informazioni, consulta [Sfoglia il catalogo dei blueprint e richiedi l’installazione dei blueprint](../../administration-and-setup/blueprints/browse-catalog.md).
 
