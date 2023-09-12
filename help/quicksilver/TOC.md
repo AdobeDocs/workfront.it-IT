@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 01f91f31cf97ece80d7f7b98a96e846b4c8ad914
+source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
 workflow-type: tm+mt
-source-wordcount: '13232'
+source-wordcount: '13335'
 ht-degree: 1%
 
 ---
@@ -1978,6 +1978,41 @@ ht-degree: 1%
       * [Personalizzare la terminologia degli obiettivi di Adobe Workfront](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Condividere un obiettivo in Obiettivi di Workfront](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Abilita notifiche obiettivi di Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* Maestro Adobe {#adobe-maestro}
+   * [Informazioni Adobe Maestro](maestro/maestro-information.md)
+   * [Panoramica di Adobe Maestro](maestro/maestro-overview.md)
+   * [Attività di rilascio Adobe Maestro](maestro/release-activity.md)
+   * Architettura Adobe Maestro {#adobe-maestro-architecture}
+      * [Informazioni sull&#39;architettura](maestro/architecture-and-fields/architecture-and-fields-information.md)
+      * [Creare aree di lavoro](maestro/architecture-and-fields/create-workspaces.md)
+      * [Panoramica dei tipi di record e delle tassonomie](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
+      * [Crea tipi di record](maestro/architecture-and-fields/create-record-types.md)
+      * [Creare tipi di record di tassonomia](maestro/architecture-and-fields/create-a-taxonomy.md)
+      * [Connetti tipi di record](maestro/architecture-and-fields/connect-record-types.md)
+      * [Crea campi](maestro/architecture-and-fields/create-fields.md)
+      * [Modifica tipi di record](maestro/architecture-and-fields/edit-record-types.md)
+      * [Modifica campi](maestro/architecture-and-fields/edit-fields.md)
+      * [Eliminare le aree di lavoro](maestro/architecture-and-fields/delete-workspaces.md)
+      * [Elimina tipi di record](maestro/architecture-and-fields/delete-record-types.md)
+      * [Elimina campi](maestro/architecture-and-fields/delete-fields.md)
+      * [Esempio di connessione di tipi di record e record](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
+      * [Elenco dei modelli di Workspace](maestro/architecture-and-fields/workspace-templates.md)
+   * Accesso Adobe Maestro {#adobe-maestro-access}
+      * [Informazioni di accesso](maestro/access/access-information.md)
+      * [Panoramica degli accessi](maestro/access/access-overview.md)
+      * [Concedere l’accesso a Adobe Maestro](maestro/access/grant-access.md)
+   * Record Adobe Maestro {#adobe-maestro-records}
+      * [Informazioni sui record](maestro/records/records-information.md)
+      * [Crea record](maestro/records/create-records.md)
+      * [Collega record](maestro/records/connect-records.md)
+      * [Modifica record](maestro/records/edit-records.md)
+      * [Elimina record](maestro/records/delete-records.md)
+      * [Condividere i record](maestro/records/share-records.md)
+   * Adobe Visualizzazioni Maestro {#adobe-maestro-views}
+      * [Informazioni sulle visualizzazioni](maestro/views/views-information.md)
+      * [Gestire le visualizzazioni record](maestro/views/manage-record-views.md)
+      * [Gestire la vista tabella](maestro/views/manage-the-table-view.md)
+      * [Gestire la visualizzazione della timeline](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * Introduzione ad Adobe Workfront Fusion {#get-started-with-workfront-fusion}
