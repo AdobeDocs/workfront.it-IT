@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Panoramica sulla modalità testo
-description: Panoramica sulla modalità testo
+description: È possibile creare un rapporto o un elenco in Adobe Workfront utilizzando l’interfaccia standard o in modalità testo durante la creazione degli elementi che compongono il rapporto o l’elenco.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ ht-degree: 0%
 
 È possibile creare un rapporto o un elenco in Adobe Workfront utilizzando l’interfaccia standard o in modalità testo durante la creazione degli elementi che compongono il rapporto o l’elenco. L’interfaccia standard ti consente di fare riferimento ai campi e ai relativi attributi che sono prontamente disponibili nell’interfaccia di Workfront. Utilizzando la modalità testo è possibile fare riferimento a campi e attributi che potrebbero non essere disponibili in modalità standard, ma che sono disponibili nel database di Workfront.
 
+Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità testo, inclusi classi, video e tutorial, consulta la sezione Informazioni sul sito Adobe Experience League.
+
 ## Considerazioni prima di utilizzare la modalità testo
 
 >[!TIP]
@@ -39,13 +41,13 @@ ht-degree: 0%
 * È consigliabile utilizzare la modalità standard per garantire che i rapporti creati rimangano intatti quando il software Workfront viene aggiornato. Anche se la modalità testo consente di creare visualizzazioni, filtri e raggruppamenti più complessi, è più complessa da mantenere e non è garantita quando il software Workfront viene aggiornato.
 * È consigliabile creare sempre tutti gli elementi di reporting nell’interfaccia standard e passare al generatore della modalità testo solo per alcune regolazioni.
 
-   >[!TIP]
-   >
-   >L’utilizzo del generatore standard offre blocchi predefiniti e pattern di codice importanti che possono essere utilizzati quando si modifica il codice in modalità testo.
+  >[!TIP]
+  >
+  >L’utilizzo del generatore standard offre blocchi predefiniti e pattern di codice importanti che possono essere utilizzati quando si modifica il codice in modalità testo.
 
 * Per creare correttamente report ed elenchi in modalità testo, è necessario utilizzare un set di regole e una sintassi univoca. Prima di iniziare, assicurati di avere familiarità con la sintassi Workfront per la modalità testo.
 
-   Per informazioni sulla sintassi e sulle regole per l’utilizzo della modalità testo, consulta [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Per informazioni sulla sintassi e sulle regole per l’utilizzo della modalità testo, consulta [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * Dopo aver personalizzato un elemento di reporting in modalità testo, potrebbe non essere possibile tornare alla modalità standard (in una visualizzazione) oppure il codice dell’elemento creato potrebbe essere eliminato (in filtri e raggruppamenti). Questo perché non tutti i campi supportati in modalità testo sono supportati in modalità standard.
 

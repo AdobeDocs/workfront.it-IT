@@ -6,9 +6,9 @@ description: Le informazioni su come creare rapporti sono utili per fornire acce
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1809'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 1%
 
 Le informazioni su come creare rapporti sono utili per fornire accesso alle informazioni di cui l’organizzazione ha bisogno all’interno di Adobe Workfront. Puoi utilizzare uno qualsiasi dei rapporti incorporati disponibili in Workfront, oppure creare rapporti personalizzati da zero.
 
-Per ulteriori informazioni sui rapporti incorporati, vedi [Utilizzare i rapporti incorporati di Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). Per informazioni sulla creazione di un report copiandolo, vedere [Creare una copia di un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Per ulteriori informazioni sui rapporti incorporati, vedi [Utilizzare i rapporti incorporati di Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+
+Per informazioni sulla creazione di un report copiandolo, vedere [Creare una copia di un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+Per ulteriori informazioni sulla creazione e la gestione dei rapporti, inclusi classi, video e tutorial, consulta la sezione Informazioni sul sito Adobe Experience League.
 
 ## Requisiti di accesso
 
@@ -149,7 +153,6 @@ Per guardare un video su come creare un rapporto, vedi questo [Creare un rapport
    >* Le ore effettive aggregano i valori per le attività padre principale e le attività autonome; non aggregano i numeri per le attività padre o figlio.
    >* I campi dati personalizzati per i valori numerici e di valuta aggregano tutte le attività: padri, figli, padri e attività autonome.
 
-
    Per ulteriori informazioni sull’utilizzo dei raggruppamenti in un rapporto, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. (Facoltativo) Fai clic su **Opzioni avanzate** per specificare le seguenti informazioni per la colonna:
@@ -205,7 +208,6 @@ Per guardare un video su come creare un rapporto, vedi questo [Creare un rapport
    >
    >* Quando si modificano manualmente i raggruppamenti durante la visualizzazione di un elenco, Workfront ricorda la preferenza manuale fino alla disconnessione. Quando effettui di nuovo l’accesso, l’elenco viene visualizzato in base a questa impostazione.
    >* I risultati di un raggruppamento vengono sempre visualizzati in modalità espansa dopo essere stati accessibili da un elemento del grafico.
-
 
 1. (Facoltativo) Puoi scegliere di creare un raggruppamento di matrici per mostrare i risultati in formato griglia.
 

@@ -6,9 +6,9 @@ description: Panoramica sugli usi comuni della modalità testo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Questo articolo illustra solo alcuni esempi comuni di dove probabilmente dovrest
 * [Esempi di visualizzazione, filtro e raggruppamento personalizzati](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Dati personalizzati calcolati nei rapporti](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
+Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità testo, inclusi classi, video e tutorial, consulta la sezione Informazioni sul sito Adobe Experience League.
+
 <!--this link is outdated: 
 
 For additional real-life text mode examples that other Workfront customers might have identified, visit the [Text Mode Reporting Discussions](https://one.workfront.com/s/topic/0TO0z000000cdHmGAI/text-mode-reporting?tabset-21363=3) tab in&nbsp; Adobe Workfront One or join the [Workfront Community](https://one.workfront.com/s/community) (requires logging in). &nbsp;
@@ -39,7 +41,7 @@ Per creare viste, filtri e raggruppamenti, è consigliabile utilizzare il genera
 È possibile utilizzare la modalità testo quando si desidera ottenere quanto segue in Workfront:
 
 * Crea campi personalizzati calcolati personalizzati in un modulo personalizzato.\
-   Per ulteriori informazioni sui campi personalizzati calcolati, vedi [Utilizzare la modalità testo nei campi personalizzati calcolati](#use-text-mode-in-calculated-custom-fields) in questo articolo.
+  Per ulteriori informazioni sui campi personalizzati calcolati, vedi [Utilizzare la modalità testo nei campi personalizzati calcolati](#use-text-mode-in-calculated-custom-fields) in questo articolo.
 * Migliora i filtri, le visualizzazioni e i raggruppamenti oltre a quanto è possibile fare nel generatore di rapporti. Per informazioni sull&#39;utilizzo della modalità testo per filtri, viste e raggruppamenti, vedere le sezioni seguenti in questo articolo:
 
    * [Utilizzare la modalità testo nelle visualizzazioni](#use-text-mode-in-views)
@@ -48,7 +50,7 @@ Per creare viste, filtri e raggruppamenti, è consigliabile utilizzare il genera
 
 * Creare prompt personalizzati. È possibile creare prompt personalizzati solo utilizzando la modalità Testo.
 
-   Per informazioni sulla creazione di prompt personalizzati, vedere [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Per informazioni sulla creazione di prompt personalizzati, vedere [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Utilizzare la modalità testo nei campi personalizzati calcolati {#use-text-mode-in-calculated-custom-fields}
 

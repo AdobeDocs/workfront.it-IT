@@ -2,25 +2,27 @@
 content-type: reference
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Limiti dei caratteri nei campi
-description: Alcuni campi in Adobe Workfront limitano il numero di caratteri che possono essere inclusi nel campo . Workfront indicizza il contenuto in modo che possa essere ricercato in un secondo momento. Viene applicato un limite di caratteri per garantire prestazioni di alta qualità del sistema Workfront.
+title: Limiti di caratteri nei campi
+description: Alcuni campi in Adobe Workfront limitano il numero di caratteri che possono essere inclusi nel campo. Workfront indicizza il contenuto in modo che sia possibile eseguirne la ricerca in un secondo momento. Viene applicato un limite di caratteri per garantire prestazioni di alta qualità del sistema Workfront.
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '248'
 ht-degree: 5%
 
 ---
 
-# Limiti dei caratteri nei campi
+# Limiti di caratteri nei campi
 
-Alcuni campi in Adobe Workfront limitano il numero di caratteri che possono essere inclusi nel campo . Workfront indicizza il contenuto in modo che possa essere ricercato in un secondo momento. Viene applicato un limite di caratteri per garantire prestazioni di alta qualità del sistema Workfront.
+Alcuni campi in Adobe Workfront limitano il numero di caratteri che possono essere inclusi nel campo. Workfront indicizza il contenuto in modo che sia possibile eseguirne la ricerca in un secondo momento. Viene applicato un limite di caratteri per garantire prestazioni di alta qualità del sistema Workfront.
 
-Quando si avvicina il limite, viene visualizzato un contatore. Quando si supera il limite, i caratteri in eccesso vengono evidenziati e non è possibile pubblicare il testo. Elimina i caratteri fino a quando non ti trovi entro il limite consentito.
+Quando si raggiunge il limite, viene visualizzato un contatore. Quando superi il limite, vengono evidenziati i caratteri in eccesso e non puoi pubblicare il testo. Elimina i caratteri fino a raggiungere il limite consentito.
 
-Il limite di caratteri varia a seconda del campo in uso. I limiti indicati di seguito si applicano alle lingue che utilizzano un alfabeto latino (come l&#39;inglese). Il limite potrebbe essere inferiore per le lingue che contengono caratteri a byte esteso o doppio.
+Il limite di caratteri varia a seconda del campo in uso. I limiti riportati di seguito si applicano alle lingue che utilizzano un alfabeto latino (ad esempio l&#39;inglese). Il limite potrebbe essere inferiore per le lingue che contengono caratteri estesi o a doppio byte.
+
+Gli amministratori di Workfront o gruppi non possono modificare i limiti dei caratteri nei campi.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,7 +30,7 @@ Il limite di caratteri varia a seconda del campo in uso. I limiti indicati di se
  <thead> 
   <tr> 
    <th> <p><strong>Tipo di campo</strong> </p> </th> 
-   <th> <p><strong>Limite caratteri (</strong><strong>spazi inclusi)</strong> </p> </th> 
+   <th> <p><strong>Limite carattere (</strong><strong>spazi inclusi)</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

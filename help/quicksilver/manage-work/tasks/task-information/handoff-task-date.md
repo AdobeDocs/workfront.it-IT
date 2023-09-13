@@ -7,10 +7,10 @@ description: La data di handoff è la data in cui un'attività diventa disponibi
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 3%
+source-wordcount: '723'
+ht-degree: 2%
 
 ---
 
@@ -52,8 +52,8 @@ Workfront utilizza le seguenti regole per calcolare la Data handoff di un’atti
 
 * **Quando l’attività non ha un predecessore e**:
 
-   * **La data di inizio pianificata è nel passato**: la data di handoff corrisponde alla data di inizio pianificata del progetto.
-   * **La data di inizio pianificata è nel futuro (qualsiasi data successiva alla data corrente)**: la data di handoff corrisponde alla data di inizio pianificata dell’attività.
+   * **La data di inizio pianificata è nel passato**: la data di handoff corrisponde alla data di inizio pianificata del progetto se per l’attività non è impostato alcun vincolo forzato. Per i casi in cui le attività hanno vincoli forzati, vedere la sezione seguente &quot;Quando l&#39;attività ha un vincolo forzato per le date pianificate&quot;.
+   * **La data di inizio pianificata è nel futuro (qualsiasi data successiva alla data corrente)**: la data di handoff corrisponde alla data di inizio pianificata dell&#39;attività se per l&#39;attività non è impostato alcun vincolo forzato. Per i casi in cui le attività hanno vincoli forzati, vedere la sezione seguente &quot;Quando l&#39;attività ha un vincolo forzato per le date pianificate&quot;.
 
 >[!NOTE]
 >
@@ -75,9 +75,16 @@ Workfront utilizza le seguenti regole per calcolare la Data handoff di un’atti
 
   Esistono i seguenti scenari:
 
-   * Quando per l&#39;attività è impostato il vincolo Deve iniziare il o Inizia non prima di, la Data handoff corrisponde alla Data vincolo, a meno che non sia presente una Data inizio effettiva per l&#39;attività. Se sull&#39;attività è presente una data di inizio effettiva, la data di handoff è la data di completamento effettiva del predecessore.
-   * Quando per l&#39;attività è impostato il vincolo Deve finire il o Inizia non dopo il, la Data handoff è sempre la Data di completamento effettiva del predecessore, indipendentemente dal fatto che l&#39;attività abbia o meno una Data di inizio effettiva.
-   * Quando l&#39;attività ha un vincolo di Date fisse, la Data handoff è la Data inizio pianificata dell&#39;attività, indipendentemente dal fatto che abbia o meno un predecessore e dal fatto che il predecessore sia stato completato o meno.
+   * **Quando per l&#39;attività è impostato il vincolo Deve iniziare il o Iniziare non prima del**: se la data del vincolo dell&#39;attività è nel passato e non è presente alcuna data di inizio effettiva per l&#39;attività (l&#39;attività non è ancora iniziata), la data di handoff è la data più vicina alla quale l&#39;attività può iniziare a essere elaborata. Se l&#39;attività è iniziata, la data di handoff corrisponde alla data di inizio del progetto.
+   * **Quando per l&#39;attività è impostato il vincolo Deve finire il o Inizia non dopo il**: se la data vincolo attività è nel futuro e non è presente alcuna data di inizio effettiva sull&#39;attività (l&#39;attività non è ancora iniziata), la data di handoff è la data di inizio pianificata dell&#39;attività. Se sull&#39;attività è presente la data di inizio effettiva, la data di handoff sarà la data di inizio del progetto.
+   * **Quando l&#39;attività ha un vincolo di Date Fisse**: la Data di handoff è la Data di inizio pianificata dell&#39;attività, indipendentemente dal fatto che abbia o meno un predecessore e dal fatto che il predecessore sia stato completato o meno.
+
+<!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
+   * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
+   * When the task has a constraint of Must Finish On or Start No Later Than, the Handoff Date is always the Actual Completion Date of the predecessor, regardless of whether there is an Actual Start Date on the task or not. 
+   * When the task has a constraint of Fixed Dates, the Handoff Date is the Planned Start Date of the task, regardless of whether it has a predecessor or not and regardless of whether the predecessor is completed or not.
+
+-->
 
 ## Individuare la data di handoff
 

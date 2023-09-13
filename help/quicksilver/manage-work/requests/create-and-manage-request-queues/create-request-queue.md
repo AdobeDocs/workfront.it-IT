@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2630'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 2%
 -->
 
 Puoi impostare una coda di richieste in cui gli utenti possono immettere richieste occasionali che non sono pianificate per lavorare su un progetto. Ad esempio, è possibile impostare una coda di richieste dell&#39;helpdesk per acquisire tutte le richieste degli utenti inviate a un reparto IT.
+
+Questo articolo descrive come creare una coda di richieste in cui gli utenti possono inviare richieste. Per informazioni su come inviare una nuova richiesta a una coda di richieste, consulta [Copiare e inviare richieste](../create-requests/copy-and-submit-requests.md).
 
 ## Requisiti di accesso
 
@@ -230,7 +232,7 @@ Per creare una coda di richieste:
    * **Quando qualcuno effettua una richiesta, concedi automaticamente:** Quando un utente effettua una richiesta alla coda di richieste, all’utente viene concesso automaticamente il livello di autorizzazione scelto per tale richiesta. Seleziona tra i seguenti livelli di autorizzazione:
 
       * **Visualizza**
-      * **contribuire**. Questa è la selezione predefinita.
+      * **Contribuisci**. Questa è la selezione predefinita.
       * **Gestisci**
 
      Per informazioni sul modello di autorizzazioni di Workfront, consulta [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).\

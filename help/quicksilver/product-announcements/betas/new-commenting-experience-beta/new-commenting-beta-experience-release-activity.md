@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
-source-git-commit: 3d1bf0ec9aa9156f6acdc12a3a7188eec76460d7
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2047'
 ht-degree: 2%
 
 ---
@@ -70,6 +70,16 @@ Di seguito è riportata una timeline pianificata con le tappe principali per il 
 La sezione seguente contiene un elenco di funzioni aggiunte dopo la versione 23.2 originale, a partire da quelle rilasciate più di recente.
 
 Le informazioni seguenti si riferiscono all’attività di rilascio settimanale delle funzioni incluse nella nuova esperienza beta di commento. In questo articolo sono elencate le nuove funzioni aggiunte e i problemi risolti per la nuova esperienza di aggiunta di commenti.
+
+### Settimana dell’11 settembre 2023
+
+#### La nuova esperienza di aggiunta di commenti acquisisce le informazioni a partire dal 1° gennaio 2019
+
+Progetti, attività, problemi e documenti mostrano gli aggiornamenti a partire dal 1° gennaio 2019. Prima di questo miglioramento, la nuova esperienza di commento acquisiva solo gli aggiornamenti di giugno 2022 per questi oggetti.
+
+Per ulteriori informazioni, consulta [Nuova esperienza di commento](../new-commenting-experience-beta/unified-commenting-experience.md).
+
+Anteprima e produzione per tutti i clienti: 11 settembre 2023.
 
 ### Settimana del 21 agosto 2023
 

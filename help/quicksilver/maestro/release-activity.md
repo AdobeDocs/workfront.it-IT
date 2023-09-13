@@ -3,9 +3,9 @@ title: Attività di rilascio Adobe Maestro
 description: Utilizza Maestro per creare oggetti, campi e aree di lavoro personalizzati.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Anteprima e produzione: 13 luglio 2023
 
 Anteprima e produzione: 13 luglio 2023
 
-Ora puoi aggiungere un tipo di campo Casella di controllo ai tipi di record Maestro. È possibile utilizzare il tipo di campo Casella di controllo per aggiungere una singola opzione a un record. È possibile utilizzare questo campo per indicare un attributo o uno stato specifico per quel record specifico. È ad esempio possibile utilizzarlo come flag per tenere traccia di completamento, approvazione o qualsiasi altro attributo binario per ogni record.
+Ora puoi aggiungere un tipo di campo Casella di controllo ai tipi di record Maestro. È possibile utilizzare un campo di tipo Casella di controllo per aggiungere una singola opzione a un record. È possibile utilizzare questo campo per indicare un attributo o uno stato specifico per quel record specifico. È ad esempio possibile utilizzarlo come flag per tenere traccia di completamento, approvazione o qualsiasi altro attributo binario per ogni record.
 
 ## Settimana del 26 giugno 2023
 
