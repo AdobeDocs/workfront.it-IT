@@ -3,9 +3,9 @@ title: Elimina tipi di record
 description: È possibile eliminare i tipi di record operativi o i tipi di record della tassonomia quando non sono più rilevanti.
 hidefromtoc: true
 hide: true
-source-git-commit: 14b456f32dd2c8735e0a5252387f25305efc7610
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >

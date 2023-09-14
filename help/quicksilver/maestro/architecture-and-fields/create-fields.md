@@ -3,9 +3,9 @@ title: Crea campi
 description: Ad Adobe, Maestro, puoi creare campi personalizzati per ogni tipo di record operativo o tassonomia. Puoi quindi associare il campo ai record Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: 62c67c8db01c9fc40f530a83162476dd0972f464
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '2556'
+source-wordcount: '2555'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >

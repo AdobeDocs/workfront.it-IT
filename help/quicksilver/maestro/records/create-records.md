@@ -3,9 +3,9 @@ title: Crea record
 description: In Adobe Maestro, un record è un'istanza di un tipo di record. È necessario creare tipi di record prima di creare singoli record.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >

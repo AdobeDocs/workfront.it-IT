@@ -3,9 +3,9 @@ title: Informazioni sulle visualizzazioni
 description: Puoi visualizzare i record Adobe Maestro in una vista tabella o timeline. Gli articoli seguenti descrivono come creare e gestire le visualizzazioni record di Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: 0701b3677dba280e8e0cf232aff083d922bb4897
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >

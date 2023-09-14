@@ -3,9 +3,9 @@ title: Crea tipi di record
 description: I tipi di record sono i tipi di oggetti di Adobe Maestro. In Maestro, puoi creare tipi di record personalizzati che illustrano gli elementi di lavoro necessari nel ciclo di vita della tua organizzazione.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1396'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >

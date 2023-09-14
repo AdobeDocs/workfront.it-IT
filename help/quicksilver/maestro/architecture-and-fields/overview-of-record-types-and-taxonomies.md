@@ -3,9 +3,9 @@ title: Panoramica dei tipi di record e delle tassonomie
 description: I tipi di record sono gli elementi costitutivi di uno spazio di lavoro Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: 0701b3677dba280e8e0cf232aff083d922bb4897
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >

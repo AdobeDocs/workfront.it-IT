@@ -3,9 +3,9 @@ title: Informazioni Adobe Maestro
 description: In qualità di leader delle operazioni di marketing, puoi utilizzare Adobe Maestro per organizzare il lavoro nel ciclo di vita di marketing per tutti i team. Gli articoli in questa sezione descrivono come configurare Maestro e come iniziare a utilizzarne le funzionalità come parte delle operazioni di gestione della campagna.
 hidefromtoc: true
 hide: true
-source-git-commit: 6e219089f68db651f5eb8369e3c6df83b6cd823b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,13 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
+<!--remove the video at open beta or before-->
+
 In qualità di leader delle operazioni di marketing, puoi utilizzare Adobe Maestro per organizzare il lavoro nel ciclo di vita di marketing per tutti i team.
 
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >
@@ -43,8 +45,20 @@ Gli articoli nelle sezioni elencate di seguito descrivono come configurare Maest
 >
 >La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
 
-* [Panoramica di Maestro](maestro-overview.md): panoramica di alto livello di Adobe Maestro, inclusi la terminologia e i concetti specifici di questa soluzione.
+## Panoramica generale di Adobe Maestro
+
+Accedi ai seguenti articoli per una panoramica di Adobe Maestro:
+
+<!--update the video when we have something better, especially after Open Beta - remove it-->
+
+* [Guarda un video dimostrativo di Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
+* [Panoramica di Maestro](maestro-overview.md): panoramica di alto livello di Adobe Maestro, inclusi la terminologia e i concetti specifici di questa soluzione. Consigliamo di iniziare il percorso con Maestro qui.
 * [Attività di rilascio](../maestro/release-activity.md): elenco di tutte le funzioni rilasciate dal lancio del programma beta chiuso Maestro, il 22 maggio 2023, con date di rilascio esatte e una breve panoramica di ciascuna funzione.
+
+## Architettura e funzionalità Maestro
+
+Le sezioni seguenti contengono articoli che descrivono in dettaglio le funzioni Maestro attualmente disponibili:
+
 * [Informazioni di accesso](../maestro/access/access-information.md): informazioni sull’accesso necessario per utilizzare Adobe Maestro.
 * [Informazioni sull&#39;architettura](../maestro/architecture-and-fields/architecture-and-fields-information.md): informazioni approfondite sull’architettura di Adobe Maestro, con istruzioni dettagliate su come creare e gestire aree di lavoro, tipi di record e campi.
 * [Informazioni sui record](../maestro/records/records-information.md): informazioni approfondite e istruzioni dettagliate su come creare e gestire i record.

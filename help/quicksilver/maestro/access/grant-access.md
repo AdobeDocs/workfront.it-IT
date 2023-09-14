@@ -3,9 +3,9 @@ title: Concedere l’accesso a Adobe Maestro
 description: Scopri come concedere l’accesso e condividere le informazioni in Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '288'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
+>
+>Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
+>
+>Per informazioni, consulta [Panoramica di Adobe Maestro](../maestro-overview.md).
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->

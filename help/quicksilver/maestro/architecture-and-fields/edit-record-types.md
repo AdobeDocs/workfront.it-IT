@@ -3,9 +3,9 @@ title: Modifica tipi di record
 description: È possibile modificare i tipi di record dopo il salvataggio. I tipi di record sono i tipi di oggetti di Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >

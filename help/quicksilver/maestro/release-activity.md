@@ -3,9 +3,9 @@ title: Attività di rilascio Adobe Maestro
 description: Utilizza Maestro per creare oggetti, campi e aree di lavoro personalizzati.
 hidefromtoc: true
 hide: true
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1430'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >

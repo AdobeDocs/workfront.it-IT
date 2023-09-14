@@ -3,9 +3,9 @@ title: Panoramica di Adobe Maestro
 description: Adobe Maestro è una nuova offerta di Adobe Workfront. Puoi creare aree di lavoro completamente personalizzabili per definire flussi di lavoro che soddisfino le esigenze di ogni unità organizzativa dell’azienda.
 hidefromtoc: true
 hide: true
-source-git-commit: 71ce412ead1590b8511ec4219d3ba72fbf32b98d
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1805'
+source-wordcount: '1811'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,14 @@ ht-degree: 1%
 
 <!-- remove the references to closed beta from the entire article-->
 
+<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
+
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
+>[Guarda un video dimostrativo di Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
 
 ## Introduzione a Adobe Maestro
 

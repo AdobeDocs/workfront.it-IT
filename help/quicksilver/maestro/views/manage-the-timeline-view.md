@@ -3,9 +3,9 @@ title: Gestire la visualizzazione della timeline
 description: È possibile visualizzare i record in una visualizzazione timeline quando si accede alla pagina del tipo di record in Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: bac066b90c7fd69ffd423988c4cf736c16807f2b
+source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1077'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ role: User
 
 >[!IMPORTANT]
 >
->Attualmente, Adobe Maestro fa parte di un programma beta chiuso aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >
