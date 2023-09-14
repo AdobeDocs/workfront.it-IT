@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a033216655b6ab89d178291e6d019691cb175f83
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 0%
@@ -16,58 +16,59 @@ ht-degree: 0%
 
 ## Come si crea la prima bozza di file?
 
-Sono necessari 3 semplici passaggi:
+Prende 3 semplici passaggi:
 
-**Passaggio 1**: Carica il file in Workfront Proof inviandolo tramite una richiesta Post a  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Ti restituiremo l&#39;hash del file - questo è molto importante! Nota che a questo punto non vedrai nulla nel tuo account, tutto quello che hai fatto finora è inviarci il file ma non ci ha detto cosa fare con esso.
+**Passaggio 1**: carica il file in Workfront Proof inviandolo tramite una richiesta Post a  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Ti restituiremo l’hash del file - questo è molto importante! Tieni presente che a questo punto non vedrai nulla nel tuo account, tutto quello che hai fatto finora è inviarci il file ma non ci hai detto cosa farci.
 
-**Passaggio 2**: Se non disponi ancora dell&#39;ID sessione, ottenerlo utilizzando i metodi doLogin() o getSessionID() . Usa il primo per &quot;accedere&quot; utilizzando l&#39;indirizzo e-mail e la password di un utente o il secondo metodo se disponi dell&#39;indirizzo e-mail e del token di autenticazione dell&#39;utente.
+**Passaggio 2**: se non disponi ancora dell’ID sessione, ottenerlo utilizzando i metodi doLogin() o getSessionID(). Utilizza la prima per effettuare l’accesso con l’indirizzo e-mail e la password di un utente oppure, se disponi del token di autenticazione e dell’indirizzo e-mail dell’utente, con il secondo metodo.
 
-**Passaggio 3:** Ora è il momento di creare le prove. Utilizza il metodo createProof() e inviaci almeno i campi richiesti (attualmente ce ne sono solo 5). Assicurati di impostare il parametro Hash sull&#39;hash del file restituito durante il &quot;Passaggio 1&quot;, in quanto questo ci consente di determinare quale file utilizzare durante la creazione della bozza.
+**Passaggio 3:** Ora è il momento di creare la tua bozza. Utilizza il metodo createProof() e inviaci almeno i campi obbligatori (al momento ce ne sono solo 5). Assicurati di impostare il parametro Hash sull’hash del file restituito durante il &quot;Passaggio 1&quot;, in quanto questo consente di determinare quale file utilizzare per creare la bozza.
 
-Se ora accedi al tuo account, visualizzerai la bozza.
+Se accedi al tuo account, verrà visualizzata la bozza.
 
-## Come posso creare la mia prima bozza web snapshot?
+## Come si crea la prima bozza di istantanea Web?
 
-Sono necessari 2 semplici passaggi:
+Prende 2 semplici passaggi:
 
-**Passaggio 1**: Se non disponi ancora di un ID sessione, ottenerlo utilizzando i metodi doLogin() o getSessionID() . Usa il primo per &quot;accedere&quot; utilizzando l&#39;indirizzo e-mail e la password di un utente o il secondo metodo se disponi dell&#39;indirizzo e-mail e del token di autenticazione dell&#39;utente.
+**Passaggio 1**: se non disponi ancora di un ID sessione, ottenerlo utilizzando i metodi doLogin() o getSessionID(). Utilizza la prima per effettuare l’accesso con l’indirizzo e-mail e la password di un utente oppure, se disponi del token di autenticazione e dell’indirizzo e-mail dell’utente, con il secondo metodo.
 
-**Passaggio 2:**Ora è il momento di creare la bozza. Utilizza il metodo createProof() e inviaci almeno i campi richiesti (attualmente ce ne sono solo 5). Assicurati di impostare il parametro Hash su &quot;web&quot; e il parametro SourceName come URL della pagina web che desideri acquisire.
+**Passaggio 2:**È ora di creare la bozza. Utilizza il metodo createProof() e inviaci almeno i campi obbligatori (al momento ce ne sono solo 5). Accertati di impostare il parametro Hash su &quot;web&quot; e il parametro SourceName come URL della pagina web che desideri acquisire.
 
-Se ora accedi al tuo account, visualizzerai la bozza.
+Se accedi al tuo account, verrà visualizzata la bozza.
 
 ## Qual è la differenza tra una bozza e una versione?
 
-Nelle versioni di Workfront Proof vengono visualizzate come una singola bozza. Facendo clic su una versione specifica nell’interfaccia utente Web verranno visualizzati i dettagli di tale versione. In realtà, ogni versione è una bozza separata e l’interfaccia utente web le visualizza insieme.
+In Workfront le versioni di Proof vengono visualizzate come una singola bozza. Facendo clic su una versione specifica nell’interfaccia utente Web, vengono visualizzati i relativi dettagli. In realtà, ogni versione è una bozza separata e l’interfaccia web li visualizza insieme.
 
 Dal punto di vista dell’API, ogni versione è una bozza separata e le bozze sono collegate tra loro dai rispettivi ID.
 
-**createProof()** creerà sempre **versione 1** della prova. Supponiamo per il nostro esempio che l’ID restituito per questa prova &quot;100&quot;.
+**createProof()** creerà sempre **versione 1** della bozza. Supponiamo per il nostro esempio che l’ID restituito per questa bozza sia &quot;100&quot;.
 
-Quando utilizzi **createProofVersion()** invia sempre l’ID della versione precedente. Se vogliamo creare **versione 2** sulla prova &quot;100&quot;, noi **passa &quot;100&quot; per il ParentFileID** parametro . Questo indica al sistema che questa prova deve essere la versione 2 del set. Il metodo restituirà un ID di prova univoco, per il nostro esempio supponiamo che sia &quot;101&quot;.
+Quando si utilizza **createProofVersion()** invia sempre l’ID della versione precedente. Se si desidera creare **versione 2** sulla bozza &quot;100&quot;, **passa &quot;100&quot; per ParentFileID** parametro. Questo comunica al sistema che questa bozza deve essere la versione 2 del set. Il metodo restituirà un ID di bozza univoco, ad esempio diciamo che è &quot;101&quot;.
 
-Se una terza versione è **versione 3** è obbligatorio, chiamerai **createProofVersion()** ancora e questa volta **passa &quot;101&quot; per il ParentFileID** che garantirà la corretta creazione dell’elenco collegato delle versioni.
+Se si utilizza una terza versione, ovvero **versione 3** è obbligatorio, effettuerai una chiamata **createProofVersion()** ancora e questa volta **passa &quot;101&quot; per ParentFileID** che garantirà la corretta creazione dell’elenco collegato delle versioni.
 
-## È necessario ottenere un nuovo ID sessione prima di ogni chiamata?
+## Devo ottenere un nuovo ID sessione prima di ogni chiamata?
 
 È importante sottolineare che ogni ID sessione è essenzialmente un utente che esegue le azioni. 
 
-Non devi ottenere un nuovo ID sessione prima di ogni chiamata all’API e rimarrà valido per 24 ore. Il tempo di scadenza viene reimpostato ogni volta che effettui una chiamata all’API.
+Non è necessario ottenere un nuovo ID sessione prima di ogni chiamata all’API, che resterà valido per 24 ore. La data di scadenza viene ripristinata ogni volta che si effettua una chiamata all&#39;API.
 
-## Che cos’è una bozza / URL personale?
+## Che cos’è una bozza/un URL personale?
 
-**Team/Pubblico**: Ogni versione della bozza dispone di un URL univoco per Team (Public). Se abilitata, la bozza viene aperta in modalità di sola lettura. Puoi ottenere l’URL del team utilizzando la [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) metodo .
+**Team/Pubblico**: ogni versione della bozza ha un URL del team (pubblico) univoco. Se questa opzione è attivata, la bozza verrà aperta in modalità di sola lettura. Puoi ottenere l’URL del team utilizzando [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) metodo.
 
-**Personale**: Un URL personale è univoco per ogni revisore e versione della bozza. Se un set di prove contiene 3 versioni e un revisore è su tutte le versioni, il revisore avrà 3 URL personali univoci. Un URL personale apre la versione della bozza con il revisore già identificato e deve pertanto essere mantenuto sicuro e non condiviso. Gli URL personali possono essere ottenuti chiamando il [getProofReviewers()](http://api.proofhq.com/home/proofs/getproofreviewers) e quindi iterazione su ogni  [SOAPRecepientObject](http://api.proofhq.com/home/objects/soaprecipientobject) e ottenere il parametro &quot;proof_url&quot;.
+**Personale**: un URL personale è univoco per ogni revisore e versione della bozza. Se un set di bozze contiene 3 versioni e un revisore si trova su tutte le versioni, il revisore avrà 3 URL personali univoci. Un URL personale apre la versione della bozza con il revisore già identificato e deve quindi essere mantenuto sicuro e non condiviso. Gli URL personali possono essere ottenuti chiamando il [getProofReviewers()](http://api.proofhq.com/home/proofs/getproofreviewers) e quindi iterazione su ogni  [SOAPRecepientObject](http://api.proofhq.com/home/objects/soaprecipientobject) e ottenere il parametro &quot;proof_url&quot;.
 
-## >Come includere parametri personalizzati all’apertura della miniproof?
+## >Come includere parametri personalizzati quando si apre la miniproof?
 
-La miniproof consente di incorporare lo strumento di correzione nella pagina. Un parametro &quot;referer&quot; può essere incluso come parte della miniproof per fornire un URL di reindirizzamento quando un utente fa clic sul pulsante Chiudi nel miniproof. Puoi includere qualsiasi numero di parametri personalizzati come parte di questo URL di reindirizzamento aggiungendoli utilizzando il carattere di escape &#39;&amp;&#39;, ad esempio %26.
+La miniproof consente di incorporare lo strumento di correzione nella pagina. È possibile includere un parametro &quot;referer&quot; come parte della miniproof per fornire un URL di reindirizzamento quando un utente fa clic sul pulsante Chiudi nella miniproof. È possibile includere un numero qualsiasi di parametri personalizzati come parte di questo URL di reindirizzamento aggiungendoli utilizzando il carattere &#39;&amp;&#39; di escape, ad esempio %26.
 
-Ad esempio, l’URL a prova di miniatura
+Ad esempio, l’URL miniproof
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` deve essere codificato come 
-`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=` per trasmettere i parametri personalizzati.
+`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=` affinché i parametri personalizzati possano essere trasmessi.
 
 ## Come si crea un client Java Web Service?
 
-[Questo video](http://screencast.com/t/xsSNrqs5b) mostra come creare un client Java Web Service utilizzando Eclipse e la definizione WSDL di prova di Workfront.
+[Questo video](http://screencast.com/t/xsSNrqs5b) mostra come creare un client Java Web Service utilizzando Eclipse e la definizione WSDL di Workfront Proof.
+
