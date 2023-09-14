@@ -8,14 +8,16 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
 workflow-type: tm+mt
-source-wordcount: '3803'
+source-wordcount: '4675'
 ht-degree: 4%
 
 ---
 
 # Progettare un modulo con il progettista del modulo
+
+{{preview-and-fast-release}}
 
 È possibile progettare un modulo personalizzato con il progettista del modulo. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
@@ -115,7 +117,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * **Campo di testo a riga singola**: consente agli utenti di digitare una singola riga di testo nel campo.
 * **Campo di testo paragrafo**: consente agli utenti di digitare più righe di testo nel campo.
-* **Campo di testo con formattazione**: consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Un limite di caratteri di 15.000 consente di formattare e inserire testo in abbondanza.
+* **Campo di testo con formattazione**: consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.
 
   Per informazioni sull’accesso a questo campo tramite l’API, consulta Archiviazione di campi in formato Rich text nell’API.
 
@@ -491,6 +493,90 @@ Per aggiungere campi data di completamento automatico:
    oppure
 
    Clic **Salva e chiudi**.
+
+<div class="preview">
+
+### Aggiungere campi di ricerca esterni
+
+Un campo di ricerca esterno richiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Gli utenti che utilizzano l’oggetto a cui è associato il modulo personalizzato possono selezionare una di queste opzioni dal menu a discesa.
+
+Per aggiungere una ricerca esterna:
+
+1. Sul lato sinistro dello schermo, trovare **Ricerca esterna** e trascinarlo in una sezione dell’area di lavoro.
+1. Sul lato destro della schermata, configura le opzioni per il campo personalizzato:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Etichetta</td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nome</td> 
+      <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo personalizzato.</p> <p>Quando configuri il campo personalizzato per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome non sono sincronizzati. In questo modo è possibile modificare l'etichetta visualizzata dagli utenti senza dover cambiare il nome visualizzato dal sistema.</p> 
+      <p><b>IMPORTANTE</b>:   
+      <ul> 
+      <li>Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l’utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront. <p>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.</p> </li>
+      <li> <p>È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.</p> </li>
+      <li><p>È consigliabile non utilizzare il carattere punto/punto nel nome del campo personalizzato, per evitare errori quando si utilizza il campo in aree diverse di Workfront.</p></li>
+      </ul> <p>Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. Per ulteriori informazioni, consulta <a href="#Add" class="MCXref xref">Aggiungere un campo personalizzato a un modulo personalizzato</a> in questo articolo.</p> </td>
+     </tr> 
+      <td role="rowheader">Istruzioni</td> 
+      <td> <p>Inserisci eventuali informazioni aggiuntive sul campo personalizzato. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Formato</td>
+      <td><p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato.</p>
+      <p><strong>NOTA:</strong></p>
+      <ul><li>È possibile modificare il tipo di formato dopo il salvataggio del modulo, con un limite: tutti i valori esistenti sugli oggetti devono poter essere convertiti nel nuovo tipo. Ad esempio, se il tipo di formato è Testo e un oggetto memorizza il valore "abc", non è possibile convertire il campo e viene visualizzato un errore che indica che il sistema non può convertire "abc" in numero/valuta. Se si desidera utilizzare il campo nei calcoli matematici, assicurarsi di selezionare un formato Numerico o Valuta.</li>
+      <li>Quando selezionate Numero (Number) o Valuta (Currency), il sistema tronca automaticamente i numeri che iniziano con 0.</li></ul></td>
+     </tr> 
+     <tr> 
+      <td role="rowheader">URL API base</td> 
+      <td><p>Digita o incolla l’URL per l’API.</p><p>L’URL API deve restituire il contenuto JSON delle opzioni che desideri visualizzare nel menu a discesa. Puoi utilizzare il campo Percorso JSON per selezionare i valori specifici dal JSON restituito come opzioni a discesa.</p><p>Quando immetti l’URL API, puoi facoltativamente trasmettere i seguenti valori nell’URL:</p>
+      <ul><li>$$query - Rappresenta il testo di ricerca digitato dall'utente finale nel campo e consente di implementare il filtro delle query per gli utenti finali. L’utente cercherà il valore nel menu a discesa.</li>
+      <li>{fieldName} : dove fieldName è un campo personalizzato o nativo in Workfront. In questo modo puoi implementare i filtri delle opzioni a discesa a cascata, quando trasmetti il valore di un campo già selezionato al campo Ricerca esterna per filtrare le opzioni. Ad esempio, il campo Regione esiste già nel modulo e stai restringendo un elenco di paesi dall’API a quelli che si trovano in un’area specifica.</li></ul>
+      <p><strong>NOTA:</strong> Consulta la documentazione dell’API con cui stai lavorando per le query specifiche che puoi definire.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Metodo HTTP</td> 
+      <td>Seleziona <strong>Ottenere</strong>, <strong>Pubblica</strong>, o <strong>Inserisci</strong> per il metodo.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Percorso JSON</td>
+      <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l’URL API restituisce JSON in questo formato:</br>
+      <pre>
+      { dati: { name: "USA"}, { name: "Canada"} } }
+      </pre>
+      </p>
+      <p>quindi puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa.</p> <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, consulta <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Intestazioni</td>
+      <td>Clic <strong>Aggiungi intestazione</strong>e digita o incolla la coppia chiave-valore richiesta per l’autenticazione con l’API.</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+
+   oppure
+
+   Clic **Salva e chiudi**.
+
+>[!NOTE]
+>
+>Limitazioni tecniche della chiamata all’API esterna:
+>
+>* Numero massimo di opzioni: 200 (vengono visualizzate solo le prime 200 opzioni del JSON restituito)
+>* Timeout: 3 secondi
+>* Numero di nuovi tentativi: 3
+>* Durata attesa tra nuovi tentativi: 500 ms
+>* Stati di risposta previsti: 2xx
+
+</div>
 
 ### Aggiungere immagini, PDF e video
 
