@@ -3,9 +3,9 @@ title: Modifica record
 description: Puoi modificare le informazioni dei record in Adobe Maestro. È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '567'
 ht-degree: 1%
 
 ---
@@ -88,6 +88,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Se i record modificati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
 
+
 ## Modifica record
 
 È possibile modificare un record dalle seguenti aree:
@@ -140,7 +141,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!TIP]
    >
-   >I campi collegati non sono modificabili. Le informazioni per questi campi vengono compilate automaticamente dai record collegati. Per informazioni, consulta [Connetti tipi di record](../architecture-and-fields/connect-record-types.md).
+   >* I campi collegati non sono modificabili. Le informazioni per questi campi vengono compilate automaticamente dai record collegati. Per informazioni, consulta [Connetti tipi di record](../architecture-and-fields/connect-record-types.md).
+   >
+   >* Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
 
 
 
