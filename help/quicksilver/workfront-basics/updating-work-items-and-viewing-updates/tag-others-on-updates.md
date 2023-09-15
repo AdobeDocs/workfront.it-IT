@@ -6,9 +6,9 @@ description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Invece di includere tali utenti nell’oggetto assegnandoli a esso o imponendo l
 
 >[!NOTE]
 >
->Per poter ricevere la notifica e-mail, l’utente deve abilitare una notifica personale nel proprio profilo. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>Per poter ricevere la notifica e-mail, l’utente deve abilitare una notifica personale nel proprio profilo. Per ulteriori informazioni, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 >
 
 Per informazioni sull&#39;aggiunta di aggiornamenti agli oggetti di Workfront, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
@@ -150,7 +150,7 @@ Puoi assegnare tag agli utenti manualmente nella sezione Aggiornamenti corrente.
 
    >[!NOTE]
    >
-   >Tutti gli utenti e i membri del gruppo elencati nel campo Notify (Notifica) ricevono una notifica in-app per l’aggiornamento e potrebbero ricevere un’e-mail, a seconda della configurazione delle impostazioni di notifica e-mail. Gli utenti che si assegnano i tag in un commento o in una risposta ricevono una notifica per quel commento o risposta e possono vedere il proprio nome nel campo Notify (Notifica) per il resto del thread, ma non ricevono un’altra notifica a meno che non si assegnino nuovamente i tag. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) e [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >Tutti gli utenti e i membri del gruppo elencati nel campo Notify (Notifica) ricevono una notifica in-app per l’aggiornamento e potrebbero ricevere un’e-mail, a seconda della configurazione delle impostazioni di notifica e-mail. Gli utenti che si assegnano i tag in un commento o in una risposta ricevono una notifica per quel commento o risposta e possono vedere il proprio nome nel campo Notify (Notifica) per il resto del thread, ma non ricevono un’altra notifica a meno che non si assegnino nuovamente i tag. Per ulteriori informazioni, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) e [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 1. Clic **Aggiorna**.\
    Agli utenti inclusi nell&#39;aggiornamento viene automaticamente concessa l&#39;autorizzazione Visualizzazione per l&#39;oggetto e possono visualizzare e rispondere agli aggiornamenti apportati all&#39;oggetto.
@@ -208,7 +208,7 @@ Puoi assegnare tag ad altri utenti per gli aggiornamenti nella nuova esperienza 
 
    >[!NOTE]
    >
-   >Tutti gli utenti e i membri del gruppo elencati nel campo &quot;Assegna tag a persone o team&quot; ricevono una notifica in-app per l’aggiornamento e potrebbero ricevere un’e-mail, a seconda della configurazione delle impostazioni di notifica e-mail. Gli utenti che si applicano il tag in un commento o in una risposta ricevono una notifica per tale commento o risposta e possono vedere il proprio nome in elencato come membro del thread per il resto del thread, ma non ricevono un’altra notifica a meno che non si assegnino nuovamente il tag. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) e [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+   >Tutti gli utenti e i membri del gruppo elencati nel campo &quot;Assegna tag a persone o team&quot; ricevono una notifica in-app per l’aggiornamento e potrebbero ricevere un’e-mail, a seconda della configurazione delle impostazioni di notifica e-mail. Gli utenti che si applicano il tag in un commento o in una risposta ricevono una notifica per tale commento o risposta e possono vedere il proprio nome in elencato come membro del thread per il resto del thread, ma non ricevono un’altra notifica a meno che non si assegnino nuovamente il tag. Per ulteriori informazioni, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) e [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 1. Clic **Invia**.\
    Agli utenti inclusi nell&#39;aggiornamento viene automaticamente concessa l&#39;autorizzazione Visualizzazione per l&#39;oggetto e possono visualizzare e rispondere agli aggiornamenti apportati all&#39;oggetto.

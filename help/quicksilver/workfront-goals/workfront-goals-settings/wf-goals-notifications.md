@@ -2,25 +2,25 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
-title: Abilitare le notifiche relative agli obiettivi di Adobe Workfront
-description: Obiettivi di Adobe Workfront viene fornito con un set di notifiche evento predefinite che puoi abilitare per il tuo account. Queste notifiche di evento attivano le comunicazioni e-mail ogni volta che viene soddisfatta la condizione definita dall’evento.
+title: Abilita notifiche obiettivi di Adobe Workfront
+description: Adobe Workfront Goals viene fornito con una serie di notifiche di eventi predefiniti che puoi abilitare per il tuo account. Queste notifiche di eventi attivano la comunicazione e-mail ogni volta che viene soddisfatta la condizione definita dall’evento.
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
-# Abilitare le notifiche relative agli obiettivi di Adobe Workfront
+# Abilita notifiche obiettivi di Adobe Workfront
 
-Obiettivi di Adobe Workfront viene fornito con un set di notifiche evento che puoi abilitare per il tuo account. Queste notifiche di evento attivano le comunicazioni e-mail ogni volta che viene soddisfatta la condizione definita dall’evento.
+Adobe Workfront Goals viene fornito con una serie di notifiche di eventi che puoi abilitare per il tuo account. Queste notifiche di eventi attivano la comunicazione e-mail ogni volta che viene soddisfatta la condizione definita dall’evento.
 
-Per informazioni sulle notifiche che puoi abilitare per gli obiettivi di Workfront, vedi [Notifiche: Obiettivi](../../workfront-basics/using-notifications/notifications-goals.md).
+Per informazioni sulle notifiche che è possibile abilitare per gli obiettivi di Workfront, consulta [Notifiche: Obiettivi](../../workfront-basics/using-notifications/notifications-goals.md).
 
-Per informazioni sulla gestione delle notifiche in Adobe Workfront, vedi [Attivare o disattivare le notifiche degli eventi personali](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per informazioni sulla gestione delle notifiche in Adobe Workfront, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -121,6 +121,6 @@ A personal goal is a goal where you are designated as the owner.
 
 ## Esempio di notifica e-mail per obiettivi Workfront
 
-Quando si verifica l’evento definito dalla notifica abilitata, ricevi un messaggio e-mail che descrive l’evento. Di seguito è riportato un esempio di e-mail di notifica dell’assegnazione come proprietario di un nuovo obiettivo:
+Quando si verifica l’evento definito dalla notifica abilitata, ricevi un’e-mail con la descrizione dell’evento. Di seguito è riportato un esempio di e-mail che ti informa che sei assegnato come Proprietario di un nuovo obiettivo:
 
 ![](assets/wf-align-notification-email-350x164.png)

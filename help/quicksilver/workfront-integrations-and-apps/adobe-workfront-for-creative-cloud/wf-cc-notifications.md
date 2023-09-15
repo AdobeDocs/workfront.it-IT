@@ -2,19 +2,19 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Visualizza e gestisci [!DNL Adobe Workfront] notifiche in Adobe Creative Cloud
-description: Puoi ricevere notifiche in Adobe Creative Cloud da [!DNL Adobe Workfront] informazioni sugli elementi da approvare, sulle assegnazioni assegnate o sui commenti e le modifiche agli elementi a cui sei associato.
+description: Puoi ricevere notifiche in Adobe Creative Cloud da [!DNL Adobe Workfront] informazioni sugli elementi da approvare, sulle assegnazioni assegnate o sui commenti e le modifiche agli elementi associati.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: 8dbe15370287e47416164b5df6542bbb11405099
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
 
 # Visualizza e gestisci [!DNL Adobe Workfront] notifiche da [!DNL Adobe Creative Cloud]
 
-Puoi ricevere notifiche in Adobe Creative Cloud da [!DNL Adobe Workfront] informazioni sugli elementi da approvare, sulle assegnazioni assegnate o sui commenti e le modifiche agli elementi a cui sei associato.
+Puoi ricevere notifiche in Adobe Creative Cloud da [!DNL Adobe Workfront] informazioni sugli elementi da approvare, sulle assegnazioni assegnate o sui commenti e le modifiche agli elementi associati.
 
 Queste notifiche contengono [!DNL Workfront] azioni che puoi eseguire senza allontanarti dal Adobe Creative Cloud per eseguirle.
 
@@ -53,7 +53,7 @@ Le notifiche sono disponibili nelle seguenti app Adobe Creative Cloud:
 
 {{cc-install-prereq}}
 
-* Hai abilitato le notifiche istantanee in [!DNL Workfront]. Per informazioni sull’abilitazione delle notifiche istantanee, consulta [Attiva o disattiva le notifiche degli eventi](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Hai abilitato le notifiche istantanee in [!DNL Workfront]. Per informazioni sull’abilitazione delle notifiche istantanee, consulta [Modifica le tue notifiche e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Visualizza e gestisci [!DNL Workfront] notifiche in Adobe Creative Cloud
 

@@ -6,9 +6,9 @@ description: Puoi delegare temporaneamente il lavoro che ti è stato assegnato m
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1487'
+source-wordcount: '1485'
 ht-degree: 1%
 
 ---
@@ -150,7 +150,7 @@ Per delegare le tue attività e i tuoi problemi ad altri:
 
    * L’utente selezionato come delegato riceve un’e-mail sulla delega, se le relative notifiche degli eventi sono abilitate.
 
-     Per informazioni sull’abilitazione delle notifiche e-mail personali, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+     Per informazioni sull’abilitazione delle notifiche e-mail personali, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 

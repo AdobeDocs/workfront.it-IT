@@ -4,14 +4,14 @@ product-area: system-administration
 keywords: modifica,e-mail,notifica,impostazioni,in blocco,modifica in blocco,configura,più,utenti
 navigation-topic: emails-administration
 title: Modificare le impostazioni delle notifiche e-mail nei profili degli utenti
-description: Se sei un amministratore di Adobe Workfront o hai un livello di accesso alla Pianificazione che ti consente di modificare le impostazioni di altri utenti, puoi configurare le impostazioni di notifica per più utenti contemporaneamente. Ciò include specificare se gli utenti ricevono le notifiche quando si verificano degli eventi, oppure in un’e-mail di riepilogo giornaliera, come descritto in Notifiche di Adobe Workfront. Per informazioni sul livello di accesso necessario per modificare gli utenti, consulta Concedere l’accesso agli utenti.
-author: Lisa, Caroline
+description: Questo articolo fornisce informazioni agli amministratori di Workfront o di gruppi su come aggiornare le notifiche e-mail di altri utenti.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Quando si configurano le impostazioni di notifica in blocco, è possibile modifi
 
 >[!NOTE]
 >
->Puoi anche configurare le notifiche e-mail per un utente alla volta, incluso il tuo profilo. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+>Puoi anche configurare le notifiche e-mail per un utente alla volta, incluso il tuo profilo. Per ulteriori informazioni, consulta [Modifica le tue notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 ## Requisiti di accesso

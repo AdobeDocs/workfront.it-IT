@@ -6,9 +6,9 @@ description: Il tuo [!DNL Adobe Workfront] Il profilo contiene informazioni su d
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 4e4cf18fb9a8936deab935f55eb6cfd0b5c7a41a
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '3248'
+source-wordcount: '3246'
 ht-degree: 1%
 
 ---
@@ -252,7 +252,7 @@ Queste informazioni devono essere già configurate dal [!DNL Workfront] amminist
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condizionale) [!UICONTROL Only Allow &lt;sso configuration=""&gt; Authentication]</strong></td> 
-   <td> <p> Se il [!DNL Workfront] l'amministratore ha abilitato un'integrazione SSO con [!DNL Workfront] e ha aggiornato gli utenti per l'SSO, questo campo è selezionato per impostazione predefinita. Tipo di configurazione SSO abilitata per [!DNL Workfront] in questo campo.</p> <p>Quando questo campo è selezionato, è necessario accedere a [!DNL Workfront] con le credenziali SSO. Deselezionando questa opzione sarà possibile accedere a [!DNL Workfront] con il [!DNL Workfront] credenziali.</p> <p>Per ulteriori informazioni sulla configurazione di [!DNL Workfront] con una soluzione SSO, consulta <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Accesso Single Sign-On [!DNL Adobe Workfront]</a>. Per ulteriori informazioni sull'aggiornamento degli utenti per l'SSO, vedere <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Aggiornare gli utenti per il Single Sign-On</a>.</p> </td> 
+   <td> <p> Se il [!DNL Workfront] l'amministratore ha abilitato un'integrazione SSO con [!DNL Workfront] e ha aggiornato gli utenti per l'SSO, questo campo è selezionato per impostazione predefinita. Tipo di configurazione SSO abilitata per [!DNL Workfront] in questo campo.</p> <p>Quando questo campo è selezionato, è necessario accedere a [!DNL Workfront] con le credenziali SSO. Deselezionando questa opzione sarà possibile accedere a [!DNL Workfront] con il [!DNL Workfront] credenziali.</p> <p>Per ulteriori informazioni sulla configurazione [!DNL Workfront] con una soluzione SSO, consulta <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Accesso Single Sign-On [!DNL Adobe Workfront]</a>. Per ulteriori informazioni sull'aggiornamento degli utenti per l'SSO, vedere <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Aggiornare gli utenti per il Single Sign-On</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -356,7 +356,7 @@ Specifica cosa visualizzare nel [!DNL Workfront] in questa sezione.
 
 ### [!UICONTROL Notifiche]
 
-Specifica da quali notifiche desideri ricevere [!DNL Workfront]. Per ulteriori informazioni sulla configurazione delle notifiche, consulta [Attiva o disattiva le notifiche degli eventi](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Specifica da quali notifiche desideri ricevere [!DNL Workfront]. Per ulteriori informazioni sulla configurazione delle notifiche, consulta [Modifica le tue notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Accesso]
 

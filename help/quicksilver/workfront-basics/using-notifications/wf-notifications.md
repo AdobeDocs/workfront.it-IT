@@ -6,9 +6,9 @@ description: Adobe Workfront invia notifiche e-mail, notifiche in-app e notifich
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: '1307'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 [!DNL Workfront] invia una serie di notifiche e-mail agli utenti in merito all’attività in Workfront e fornisce informazioni e collegamenti utili.
 
-Per modificare le preferenze per le notifiche e-mail, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per modificare le preferenze per le notifiche e-mail, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Lo stato predefinito mostra quali notifiche (giornaliere, istantanee o entrambe)
 
 Per un elenco completo delle notifiche degli eventi e informazioni su come vengono abilitate e configurate a livello di sistema, gruppo o utente, consulta [Notifiche degli eventi disponibili in [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Per informazioni su come scegliere le notifiche degli eventi da ricevere, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per informazioni su come scegliere le notifiche degli eventi da ricevere, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >
@@ -85,13 +85,13 @@ E-mail di riepilogo giornaliero per [!UICONTROL Comunicazione] vengono seleziona
 
 Le informazioni vengono riepilogate per l&#39;oggetto in cui si è verificata la comunicazione e per ogni oggetto viene visualizzato un numero totale di messaggi di comunicazione.
 
-Per ulteriori informazioni sulla configurazione delle notifiche e-mail, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per ulteriori informazioni sulla configurazione delle notifiche e-mail, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Per istruzioni su come commentare [!UICONTROL Comunicazione] e-mail, vedi [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Per ulteriori informazioni su [!UICONTROL Comunicazione] e-mail, vedi [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per ulteriori informazioni su [!UICONTROL Comunicazione] e-mail, vedi [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Per ulteriori informazioni sull’abilitazione delle notifiche con riepilogo giornaliero, consulta [Attiva o disattiva le notifiche degli eventi](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per ulteriori informazioni sull’abilitazione delle notifiche con riepilogo giornaliero, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Promemoria automatici
 

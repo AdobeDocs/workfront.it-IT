@@ -7,9 +7,9 @@ description: Le bacheche Adobe Workfront ti inviano un’e-mail quando sei aggiu
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: 9a9b64ce2bacbffbde40a15a201c4be35dfc3097
+source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Adobe Workfront] [!UICONTROL Schede] ti invia un’e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda. Le notifiche sono attivate per impostazione predefinita e puoi selezionare nelle preferenze delle Bacheche quali e-mail desideri ricevere.
 
-Riceverai anche un’e-mail quando ti viene taggato all’interno di un commento su una scheda connessa, a seconda delle impostazioni di notifica e-mail. Per ulteriori informazioni, consulta [Attiva o disattiva le notifiche degli eventi](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
+Riceverai anche un’e-mail quando ti viene taggato all’interno di un commento su una scheda connessa, a seconda delle impostazioni di notifica e-mail. Per ulteriori informazioni, consulta [Modifica le tue notifiche e-mail](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). Al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
 
 ## Requisiti di accesso
 
