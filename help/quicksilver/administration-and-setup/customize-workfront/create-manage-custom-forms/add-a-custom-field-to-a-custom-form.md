@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '2264'
-ht-degree: 3%
+source-wordcount: '2305'
+ht-degree: 2%
 
 ---
 
@@ -77,7 +77,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Campo di testo con formattazione</td> 
-      <td>Consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. È disponibile in Home, nell’area Aggiornamenti, negli elenchi e nell’area Dettagli per gli oggetti Workfront. Un limite di caratteri di 15.000 consente di formattare e inserire testo in abbondanza.</p> <p>Per informazioni sull’accesso a questo campo tramite l’API, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Archiviazione di campi in formato Rich Text nell’API</a>.</p> <p><b>NOTA</b>: i campi di testo con formattazione non sono disponibili per le app Workfront per dispositivi mobili (saranno disponibili nelle prossime versioni). </p> </td> 
+      <td>Consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. È disponibile in Home, nell’area Aggiornamenti, negli elenchi e nell’area Dettagli per gli oggetti Workfront. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.</p> <p>Per informazioni sull’accesso a questo campo tramite l’API, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Archiviazione di campi in formato Rich Text nell’API</a>.</p> <p><b>NOTA</b>: i campi di testo con formattazione non sono disponibili per le app Workfront per dispositivi mobili (saranno disponibili nelle prossime versioni). </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">A discesa</td> 
@@ -125,6 +125,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >I campi che consentono selezioni multiple, come la casella di controllo e il menu a discesa, sono difficili da tracciare e raggruppare nei rapporti. Per semplificare la creazione di grafici e il raggruppamento nei report, è possibile creare campi separati per ogni scelta, ad esempio un campo di testo a riga singola.
 
 1. Il giorno **Impostazioni campo** , configura le opzioni disponibili per il tipo di campo personalizzato che stai aggiungendo:
 

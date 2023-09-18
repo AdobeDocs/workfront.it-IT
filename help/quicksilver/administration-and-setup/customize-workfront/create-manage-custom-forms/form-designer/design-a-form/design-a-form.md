@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 365d4b9e6f88031ca92d37df0f89923911484525
+source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
 workflow-type: tm+mt
-source-wordcount: '4675'
+source-wordcount: '4747'
 ht-degree: 4%
 
 ---
@@ -133,7 +133,7 @@ Per aggiungere un campo di testo:
 
 1. Nella parte sinistra dello schermo, individua uno dei campi di testo seguenti e trascinalo in una sezione dell’area di lavoro:
 
-   * Testo su riga singola:
+   * Testo su riga singola
    * Testo paragrafo
    * Campo di testo con formattazione
    * Testo descrittivo
@@ -254,6 +254,10 @@ Per aggiungere un campo calcolato, vedi [Aggiungere campi calcolati con il proge
 * **A discesa**: fornisce un elenco di scelte a discesa.
 
 +++
+
+>[!NOTE]
+>
+>I campi che consentono selezioni multiple, ad esempio il gruppo di caselle di controllo, sono difficili da tracciare e raggruppare nei rapporti. Per semplificare la creazione di grafici e il raggruppamento nei report, è possibile creare campi separati per ogni scelta, ad esempio un campo di testo a riga singola.
 
 Per aggiungere pulsanti di scelta e caselle di controllo:
 
@@ -568,13 +572,14 @@ Per aggiungere una ricerca esterna:
 
 >[!NOTE]
 >
->Limitazioni tecniche della chiamata all’API esterna:
+>Gli elementi seguenti sono limitazioni tecniche della chiamata all’API esterna:
 >
 >* Numero massimo di opzioni: 200 (vengono visualizzate solo le prime 200 opzioni del JSON restituito)
 >* Timeout: 3 secondi
 >* Numero di nuovi tentativi: 3
 >* Durata attesa tra nuovi tentativi: 500 ms
 >* Stati di risposta previsti: 2xx
+>* L’utente può visualizzare il valore selezionato (e modificarlo) negli elenchi e nei rapporti di Workfront, ma non il menu a discesa con le opzioni provenienti dall’API esterna.
 
 </div>
 
