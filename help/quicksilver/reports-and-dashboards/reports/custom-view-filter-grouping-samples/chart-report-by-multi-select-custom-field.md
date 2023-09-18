@@ -7,7 +7,7 @@ description: È possibile tracciare un report in base a un campo personalizzato 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -132,7 +132,6 @@ Per generare il campo personalizzato calcolato che fa riferimento al campo perso
    >[!NOTE]
    >
    >Questa opzione è stata eliminata dalla modifica in blocco di progetti.  È comunque possibile ricalcolare le espressioni per i progetti in blocco facendo clic sul pulsante **Altro** icona ![](assets/more-icon-45x33.png) nella parte superiore dell’elenco di un progetto, quindi **Ricalcola espressioni**.
-
 
 1. Vai al report in cui desideri aggiungere il grafico per il campo calcolato che fa riferimento al campo personalizzato a selezione multipla.
 1. Clic **Azioni report**, quindi **Modifica**.
