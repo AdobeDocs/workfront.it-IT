@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
 workflow-type: tm+mt
-source-wordcount: '4747'
+source-wordcount: '4774'
 ht-degree: 4%
 
 ---
@@ -257,7 +257,7 @@ Per aggiungere un campo calcolato, vedi [Aggiungere campi calcolati con il proge
 
 >[!NOTE]
 >
->I campi che consentono selezioni multiple, ad esempio il gruppo di caselle di controllo, sono difficili da tracciare e raggruppare nei rapporti. Per semplificare la creazione di grafici e il raggruppamento nei report, è possibile creare campi separati per ogni scelta, ad esempio un campo di testo a riga singola.
+>I campi che consentono selezioni multiple, come il gruppo di caselle di controllo e il menu a discesa, sono difficili da tracciare e raggruppare nei rapporti. Per semplificare la creazione di grafici e il raggruppamento nei report, è possibile creare campi separati per ogni scelta, ad esempio un campo di testo a riga singola.
 
 Per aggiungere pulsanti di scelta e caselle di controllo:
 
@@ -328,7 +328,7 @@ Per aggiungere pulsanti di scelta e caselle di controllo:
     </tr> 
     <tr> 
      <td role="rowheader">Tipo di Disposizione</td> 
-    <td>Consente di passare da un pulsante di scelta all'altro, da un gruppo di caselle di controllo a un elenco a discesa per il campo.</td> 
+    <td>Passa da un pulsante di opzione a un altro, da un gruppo di caselle di controllo a un altro, da un elenco a discesa a un altro o da un elenco a discesa a selezione multipla per il campo.</td> 
     <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
@@ -559,7 +559,7 @@ Per aggiungere una ricerca esterna:
      </tr>
      <tr> 
       <td role="rowheader">Intestazioni</td>
-      <td>Clic <strong>Aggiungi intestazione</strong>e digita o incolla la coppia chiave-valore richiesta per l’autenticazione con l’API.</td>
+      <td><p>Clic <strong>Aggiungi intestazione</strong>e digita o incolla la coppia chiave-valore richiesta per l’autenticazione con l’API.</p><p><strong>NOTA:</strong> I campi Intestazione non rappresentano un luogo sicuro in cui archiviare le credenziali. È necessario prestare attenzione a ciò che si immette e si salva.</p></td>
      </tr>
     </tbody>
    </table>
@@ -579,7 +579,7 @@ Per aggiungere una ricerca esterna:
 >* Numero di nuovi tentativi: 3
 >* Durata attesa tra nuovi tentativi: 500 ms
 >* Stati di risposta previsti: 2xx
->* L’utente può visualizzare il valore selezionato (e modificarlo) negli elenchi e nei rapporti di Workfront, ma non il menu a discesa con le opzioni provenienti dall’API esterna.
+>* Gli utenti possono visualizzare il valore selezionato (e modificarlo) negli elenchi e nei rapporti di Workfront, ma non il menu a discesa con le opzioni provenienti dall’API esterna.
 
 </div>
 
