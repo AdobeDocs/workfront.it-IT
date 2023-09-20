@@ -3,9 +3,9 @@ title: Attività di rilascio Adobe Maestro
 description: Utilizza Maestro per creare oggetti, campi e aree di lavoro personalizzati.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,14 @@ Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle 
 In questa sezione sono elencate le funzioni e le patch rilasciate dopo il lancio del programma beta chiuso Maestro, il 22 maggio 2023.
 
 Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rilascio, con la prima più recente. I clienti che partecipano al programma Maestro closed beta possono accedere a tutte le funzioni nei loro ambienti di anteprima e produzione.
+
+## Settimana del 18 settembre 2023
+
+### Riordina righe
+
+Anteprima e produzione: 20 settembre 2023
+
+È ora possibile riordinare una o più righe (o record) nella visualizzazione Tabella di una pagina del tipo di record.
 
 ## Settimana del 4 settembre 2023
 

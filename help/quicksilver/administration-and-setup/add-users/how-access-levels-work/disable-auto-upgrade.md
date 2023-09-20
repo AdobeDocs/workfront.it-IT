@@ -9,13 +9,13 @@ description: Per accedere e lavorare in Workfront, ogni utente deve disporre di 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 864906732c80af12db051d1d5e6d9bc4ae125eb8
+exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
+source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '211'
 ht-degree: 1%
 
 ---
-
 
 # Disattiva l&#39;opzione di aggiornamento automatico per gli utenti non pagati nel nuovo piano di licenze
 
@@ -57,6 +57,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step-1-to-setup}}
 
-1. Scorri verso il basso fino a [!UICONTROL **Preferenze**].
+1. Espandi [!UICONTROL **Sistema**] nel menu di navigazione a sinistra, fai clic su [!UICONTROL **Preferenze**].
 1. In [!UICONTROL **Preferenze generali**] sezione, controlla la [!UICONTROL **Disattiva l’aggiornamento automatico nei Livelli di accesso**] casella.
 1. Fai clic su [!UICONTROL **Salva**].
