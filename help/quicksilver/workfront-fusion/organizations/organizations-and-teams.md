@@ -8,9 +8,9 @@ description: Le funzioni Organizzazione e Team di Adobe Workfront Fusion consent
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 9828fe3602342520ef203ac174990f0ea03f0588
+source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -164,6 +164,12 @@ Per creare un team:
 1. Immettere un nome per il nuovo team e fare clic su **Aggiungi**.
 
 #### Imposta opzioni di notifica team
+
+>[!NOTE]
+>
+>Se accedi a [!DNL Fusion] tramite [!DNL Adobe Experience Cloud], le notifiche vengono gestite in [!DNL Experience Cloud] centro notifiche.
+>
+>Per ulteriori informazioni, consulta [Accedere alle notifiche](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] per [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 Le opzioni di notifica e-mail sono impostate a livello di team.
 
