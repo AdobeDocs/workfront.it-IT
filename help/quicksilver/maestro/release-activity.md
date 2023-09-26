@@ -3,7 +3,8 @@ title: Attività di rilascio Adobe Maestro
 description: Utilizza Maestro per creare oggetti, campi e aree di lavoro personalizzati.
 hidefromtoc: true
 hide: true
-source-git-commit: 1dffebd5075dc353f28402c79d0c87aff2c12cfa
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%

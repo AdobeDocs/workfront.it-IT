@@ -3,7 +3,8 @@ title: Modifica record
 description: Puoi modificare le informazioni dei record in Adobe Maestro. È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 hidefromtoc: true
 hide: true
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 1%

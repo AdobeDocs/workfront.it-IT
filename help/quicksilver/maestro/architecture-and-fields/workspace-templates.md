@@ -3,7 +3,8 @@ title: Elenco dei modelli di Workspace
 description: Un’area di lavoro è una raccolta di tipi di record operativi e tassonomie utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. Maestro viene fornito con un set di modelli per iniziare a utilizzare i tipi di record, le tassonomie e i campi di base durante la creazione dell’area di lavoro.
 hide: true
 hidefromtoc: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%

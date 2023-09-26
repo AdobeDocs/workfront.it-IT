@@ -3,7 +3,8 @@ title: Panoramica degli accessi
 description: Tutti gli utenti di un’organizzazione possono accedere a Adobe Maestro. Attualmente, non ci sono livelli di accesso o autorizzazioni associati agli utenti o alle informazioni in Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 0%

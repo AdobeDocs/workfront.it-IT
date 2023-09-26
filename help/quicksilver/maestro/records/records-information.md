@@ -3,7 +3,8 @@ title: Informazioni sui record
 description: Dopo aver creato i tipi di record in Adobe Maestro è possibile creare singoli record di tali tipi. Gli articoli seguenti descrivono come creare e gestire i record in Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%

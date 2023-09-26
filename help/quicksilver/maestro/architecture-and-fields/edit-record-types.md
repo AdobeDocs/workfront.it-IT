@@ -3,7 +3,8 @@ title: Modifica tipi di record
 description: È possibile modificare i tipi di record dopo il salvataggio. I tipi di record sono i tipi di oggetti di Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%

@@ -3,7 +3,8 @@ title: Informazioni sull'architettura
 description: I seguenti articoli descrivono come configurare l’architettura di Adobe Maestro. Come parte di questa configurazione, scopri come creare aree di lavoro, tipi di record e campi personalizzati per mappare i flussi di lavoro che desideri gestire in Adobe Maestro.
 hidefromtoc: true
 hide: true
-source-git-commit: f058c369bdb3b991910d3a820895de73ea4709f0
+recommendations: noDisplay, noCatalog
+source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
