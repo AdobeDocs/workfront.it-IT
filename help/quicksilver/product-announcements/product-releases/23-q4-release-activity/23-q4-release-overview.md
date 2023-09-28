@@ -3,9 +3,10 @@ title: Panoramica sulla versione del quarto trimestre 2023
 description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
-source-git-commit: eb5fb3fdc99bcbc5e6fa8c37bddcfd53b045816f
+exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
+source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
 workflow-type: tm+mt
-source-wordcount: '1845'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
@@ -66,7 +67,8 @@ Il webinar sulla versione 23.10 si terrà il 5 ottobre 2023. È possibile [regis
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Aggiungere opzioni di valore da un’API esterna a un modulo personalizzato</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Aggiungere opzioni di valore da un’API esterna a un modulo personalizzato</a></p>
+                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
                         <p>Un nuovo tipo di campo, <strong>Ricerca esterna</strong>, è ora disponibile nel designer del modulo personalizzato. Quando i dati sono memorizzati su un sistema esterno, questo tipo di campo ti consente di caricare opzioni da un’API esterna e di filtrare in base ad altri valori di campo nel modulo personalizzato.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -104,7 +106,7 @@ Il webinar sulla versione 23.10 si terrà il 5 ottobre 2023. È possibile [regis
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Miglioramenti alle assegnazioni utente su bacheche e schede</a></p><p>Sono ora disponibili miglioramenti che aggiungono flessibilità quando si aggiungono utenti a bacheche e schede in Bacheche Adobe Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Miglioramenti alle assegnazioni utente su bacheche e schede</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Sono ora disponibili miglioramenti che aggiungono flessibilità quando si aggiungono utenti a bacheche e schede in Bacheche Adobe Workfront.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -201,7 +203,7 @@ Il webinar sulla versione 23.10 si terrà il 5 ottobre 2023. È possibile [regis
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Miglioramenti all’esperienza di invio di documenti a SharePoint (GraphAPI)</a></p><p>Sono state apportate alcune modifiche per facilitare l’individuazione delle cartelle durante l’invio di documenti alle cartelle di SharePoint (GraphAPI)</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Miglioramenti all’esperienza di invio di documenti a SharePoint (GraphAPI)</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Sono state apportate alcune modifiche per facilitare l’individuazione delle cartelle durante l’invio di documenti alle cartelle di SharePoint (GraphAPI)</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -216,7 +218,7 @@ Il webinar sulla versione 23.10 si terrà il 5 ottobre 2023. È possibile [regis
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al trascinamento della selezione per le integrazioni di documenti</a></p><p>Sono stati apportati alcuni miglioramenti per aggiungere chiarezza e rimuovere l’errore utente durante il trascinamento e il rilascio di un file in una cartella collegata.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al trascinamento della selezione per le integrazioni di documenti</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Sono stati apportati alcuni miglioramenti per aggiungere chiarezza e rimuovere l’errore utente durante il trascinamento e il rilascio di un file in una cartella collegata.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -370,7 +372,8 @@ Il webinar sulla versione 23.10 si terrà il 5 ottobre 2023. È possibile [regis
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nuovi pulsanti di accesso rapido per il widget Il mio lavoro</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nuovi pulsanti di accesso rapido per il widget Il mio lavoro</a> </p>
+                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
                         <p>Ampliando ulteriormente la possibilità di gestire il lavoro direttamente dalla Nuova Home, sono stati aggiunti nuovi pulsanti di accesso rapido al widget Il mio lavoro.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -409,7 +412,7 @@ Il webinar sulla versione 23.10 si terrà il 5 ottobre 2023. È possibile [regis
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Supporto terminologico personalizzato per la nuova home</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Supporto terminologico personalizzato per la nuova home</a> </p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Per soddisfare al meglio le esigenze specifiche delle organizzazioni, New Home ora utilizza una terminologia personalizzata per gli oggetti definita nei modelli di layout di un’istanza. Ad esempio, se gli oggetti "Progetto" sono stati rinominati "Campagne" nella tua istanza di Workfront, il widget Progetti personali verrà invece visualizzato come Campagne personali nella nuova home.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -595,6 +598,8 @@ New in preview, prod, and coming soon text
 Badge for available in Fast Release
 
 [!BADGE In production for Fast Release ]{type=Positive}
+[!BADGE In production ]{type=Informative}
+
 
 
 Test for boards early access stuff
@@ -604,5 +609,3 @@ Production release for early opt-in: March 2, 2023 This feature is available in 
 Production release for all customers: With the 23.2 release
 
 -->
-
-

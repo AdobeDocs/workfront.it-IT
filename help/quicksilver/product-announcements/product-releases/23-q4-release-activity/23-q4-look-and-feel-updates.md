@@ -4,13 +4,13 @@ description: Aggiornamenti look-and-feel durante l’intervallo di tempo di rila
 author: Lisa
 draft: Probably
 feature: Product Announcements
-source-git-commit: 7cc8c27848082c0547440ae98e4c4ec62809f5bd
+exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
+source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
-
 
 # Aggiornamenti look-and-feel durante il periodo di rilascio del quarto trimestre 2023
 
@@ -27,3 +27,13 @@ Per un elenco di tutte le modifiche disponibili con la versione del quarto trime
 Abbiamo aggiornato le schede Notifiche e-mail, Notifiche promemoria e Modelli e-mail nell’area Configura > E-mail > Notifiche per renderle più moderne e coerenti con le altre aree di Workfront.
 
 Per informazioni, consulta [Configurare le notifiche degli eventi per tutti gli utenti del sistema](/help/quicksilver/administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+## Aggiornamenti look-and-feel per le schermate dei ruoli
+
+>[!NOTE]
+>
+>Versione di anteprima: 21 settembre 2023; versione di produzione per tutti i clienti: quando vengono rilasciati le schede di tariffa e altri aggiornamenti di Financial Management
+
+Le schermate Nuovo ruolo e Modifica ruolo sono state aggiornate a un design più moderno, coerente con le altre aree di Workfront.
+
+Per informazioni, consulta [Creare e gestire le mansioni](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
