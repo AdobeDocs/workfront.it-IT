@@ -4,9 +4,9 @@ description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 16d18e6c-b169-4c5d-8d0a-57711e24583d
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+source-git-commit: 723c2b7b57b1e876ec6edaf4b1ac14ec1b983667
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1884'
 ht-degree: 0%
 
 ---
@@ -182,6 +182,141 @@ Il webinar sulla versione 23.10 si terrà il 5 ottobre 2023. È possibile [regis
                         </ul>
                     </td>
                 </tr>    
+           </tbody>
+        </table>
+
+### Miglioramenti Home
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>
+                <!--<tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Changes to New Home </a> </p>
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Based on user feedback, we are removing the page-wide time range filter and summary bar. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content marked ??Current??, ensuring the work they track is always relevant. we've also changed which widgets display "counter bubbles".</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: September 13, 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 23.9 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 23.10 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>-->
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nuovi pulsanti di accesso rapido per i widget di tracciamento di progetti, attività e problemi</a> </p>
+                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>Per ampliare ulteriormente la possibilità di gestire il lavoro direttamente dalla Nuova Home, sono stati aggiunti nuovi pulsanti di accesso rapido ai widget Progetto, Attività e Tracciamento problemi.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 13 settembre 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 23.9</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nuove opzioni filtro per Nuova Home</a> </p>
+                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>Sono ora disponibili nuove opzioni di filtro per il widget Il mio lavoro nella nuova home. Le opzioni includono i filtri per i tipi di oggetto (attività, problemi e richieste) e gli stati (non pronto, pronto per l’avvio, al lavoro e completato).</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Supporto terminologico personalizzato per la nuova home</a> </p><p>[!BADGE In produzione ]{type=Informative}</p>
+                        <p>Per soddisfare al meglio le esigenze specifiche delle organizzazioni, New Home ora utilizza una terminologia personalizzata per gli oggetti definita nei modelli di layout di un’istanza. Ad esempio, se gli oggetti "Progetto" sono stati rinominati "Campagne" nella tua istanza di Workfront, il widget Progetti personali verrà invece visualizzato come Campagne personali nella nuova home.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produzione per tutti i clienti: 31 agosto 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Pulsante Prova nuova home rimosso per gli account che hanno disabilitato Nuova home</a> </p>
+                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>Il pulsante Prova nuova home non è più presente per gli account in cui la nuova home è stata disabilitata. L'amministratore di sistema deve riattivare la Nuova Home prima che i singoli utenti possano utilizzare il pulsante per provare la Nuova Home.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 23.8</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Passa al nuovo widget predefinito della Home</a> </p>
+                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>Il widget Da fare, che richiede l'autorizzazione per creare attività, è ora presente solo nel widget predefinito impostato per gli utenti con i tipi di licenza Standard, Piano o Lavoro. Inoltre, il widget è stato rimosso automaticamente dalle home page degli utenti con tutti gli altri tipi di licenza.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: 17 agosto 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per la versione trimestrale: 17 agosto 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
 
@@ -366,102 +501,6 @@ Il webinar sulla versione 23.10 si terrà il 5 ottobre 2023. È possibile [regis
                             </li>
                             <li>
                                 <p>Produzione per rilascio trimestrale: con il rilascio 23.10 (se non diversamente specificato)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Nuovi pulsanti di accesso rapido per il widget Il mio lavoro</a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
-                        <p>Ampliando ulteriormente la possibilità di gestire il lavoro direttamente dalla Nuova Home, sono stati aggiunti nuovi pulsanti di accesso rapido al widget Il mio lavoro.</p>
-                    </td>
-                    <td><p><b>Disponibile in queste date:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versione di anteprima: 13 settembre 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Produzione per rilascio rapido: con la versione 23.9</p>
-                            </li>
-                            <li>
-                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>                
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Nuove opzioni filtro per Nuova Home</a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
-                        <p>Sono ora disponibili nuove opzioni di filtro per il widget Il mio lavoro nella nuova home. Le opzioni includono i filtri per i tipi di oggetto (attività, problemi e richieste) e gli stati (non pronto, pronto per l’avvio, al lavoro e completato).</p>
-                    </td>
-                    <td><p><b>Disponibile in queste date:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Produzione per rilascio rapido: con la versione 23.8</p>
-                            </li>
-                            <li>
-                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Supporto terminologico personalizzato per la nuova home</a> </p><p>[!BADGE In produzione ]{type=Informative}</p>
-                        <p>Per soddisfare al meglio le esigenze specifiche delle organizzazioni, New Home ora utilizza una terminologia personalizzata per gli oggetti definita nei modelli di layout di un’istanza. Ad esempio, se gli oggetti "Progetto" sono stati rinominati "Campagne" nella tua istanza di Workfront, il widget Progetti personali verrà invece visualizzato come Campagne personali nella nuova home.</p>
-                    </td>
-                    <td><p><b>Disponibile in queste date:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Produzione per tutti i clienti: 31 agosto 2023</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Pulsante Prova nuova home rimosso per gli account che hanno disabilitato Nuova home</a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
-                        <p>Il pulsante Prova nuova home non è più presente per gli account in cui la nuova home è stata disabilitata. L'amministratore di sistema deve riattivare la Nuova Home prima che i singoli utenti possano utilizzare il pulsante per provare la Nuova Home.</p>
-                    </td>
-                    <td><p><b>Disponibile in queste date:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Produzione per rilascio rapido: con la versione 23.8</p>
-                            </li>
-                            <li>
-                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md" class="MCXref xref" xrefformat="{para}">Passa al nuovo widget predefinito della Home</a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
-                        <p>Il widget Da fare, che richiede l'autorizzazione per creare attività, è ora presente solo nel widget predefinito impostato per gli utenti con i tipi di licenza Standard, Piano o Lavoro. Inoltre, il widget è stato rimosso automaticamente dalle home page degli utenti con tutti gli altri tipi di licenza.</p>
-                    </td>
-                    <td><p><b>Disponibile in queste date:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versione di anteprima: 17 agosto 2023<br /></p>
-                            </li>
-                            <li>
-                                <p>Produzione per rilascio rapido: 17 agosto 2023</p>
-                            </li>
-                            <li>
-                                <p>Produzione per la versione trimestrale: 17 agosto 2023</p>
                             </li>
                         </ul>
                     </td>
