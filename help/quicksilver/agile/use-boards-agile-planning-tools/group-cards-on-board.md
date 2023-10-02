@@ -7,9 +7,9 @@ description: È possibile raggruppare le schede in una bacheca per assegnatario 
 author: Lisa
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3cb62cb00bb6c13a0b03203bda1840bce8a4d7a7
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Tutte le schede nella colonna Acquisizione non sono incluse in un gruppo. Per informazioni sulla colonna dell’assunzione, vedi [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Tutte le schede nella colonna Acquisizione non sono incluse in un gruppo e la colonna Acquisizione è nascosta quando viene applicato un gruppo. Per informazioni sulla colonna dell’assunzione, vedi [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Requisiti di accesso
 
