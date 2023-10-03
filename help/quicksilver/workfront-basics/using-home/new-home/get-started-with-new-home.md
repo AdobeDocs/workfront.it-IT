@@ -5,13 +5,13 @@ title: Introduzione alla nuova home in Adobe Workfront
 description: La nuova Home è una nuova potente funzione per gestire il tuo lavoro.
 author: Nolan
 feature: Get Started with Workfront
-source-git-commit: 1950effcb3bb0b36784159a214ed7e3db9d161d2
+exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
+source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 20%
+source-wordcount: '927'
+ht-degree: 23%
 
 ---
-
 
 # Introduzione alla nuova home in Adobe Workfront
 
@@ -52,7 +52,7 @@ Di seguito sono riportati i dieci widget attualmente disponibili tra cui sceglie
     Visualizza tutte le approvazioni per la tua organizzazione in una tabella con colonne personalizzabili, oltre a una barra di ricerca che ti consente di cercare approvazioni specifiche.
 
 * **Menzioni**\
-    Visualizza i thread di commenti recenti che contengono @menzioni su di te in Workfront, oltre a un pulsante di risposta che ti consente di comporre una risposta all’interno del widget. Questo widget mostra anche i commenti aggiunti sulle attività e sui problemi che ti vengono assegnati, che hai assegnato a un altro utente, di cui sei proprietario, per cui sei il contatto principale o che hai creato, purché l’attività o il problema sia stato aggiornato negli ultimi 30 giorni.
+    Mostra i thread di commenti recenti in cui è presente una tua @mensione in Workfront, oltre a un pulsante di risposta che ti consente di comporre una risposta all&#39;interno del widget. Questo widget mostra anche i commenti aggiunti sulle attività e sui problemi che ti vengono assegnati, che hai assegnato a un altro utente, di cui sei proprietario, per cui sei il contatto principale o che hai creato, purché l’attività o il problema sia stato aggiornato negli ultimi 30 giorni.
 
 * **Da fare**\
     Questo widget univoco consente di aggiungere elementi di testo a un elenco di controllo personale che puoi modificare liberamente.
@@ -131,24 +131,9 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
 
 1. In **Sfondo** sezione del **Personalizza** che appare, fare clic sul colore che si desidera selezionare per lo sfondo Home. Puoi anche fare clic su **Nessuno** per rimuovere lo sfondo.
 
-### Filtra per intervallo di tempo
-
-È possibile filtrare rapidamente tutte le informazioni nella home page per visualizzare le informazioni sugli oggetti entro tre intervalli di tempo specifici: Giorno, Settimana o Mese. Nella parte superiore della home page viene inoltre visualizzato un riepilogo del numero di attività scadute e di quelle completate entro l&#39;intervallo.
-
-**Per modificare l&#39;intervallo di tempo della home page:**
-
-1. Passa alla home page facendo clic sull’icona di Adobe Workfront ![Icona Adobe Workfront](../new-home/assets/home-icon-30x29.png) nella parte superiore dello schermo, se Home è impostata come pagina di destinazione, oppure facendo clic sull’icona del menu principale ![Icona menu principale](../new-home/assets/main-menu-icon-left-nav.png) quindi clic su **Home**.
-
-1. Fare clic sul filtro intervallo di tempo nell&#39;angolo superiore sinistro della home page. Per impostazione predefinita, il filtro è impostato su **Settimana personale**.
-
-   ![Menu a discesa del filtro dell’intervallo di tempo](../new-home/assets/time-range-filter-dropdown-home.png)
-
-1. Fai clic su **Giorno**, **Settimana**, o **Mese** per filtrare la home page in modo da visualizzare solo le informazioni sugli oggetti in scadenza entro tale intervallo di tempo.
-
 ## Ripristina l’esperienza Home corrente
 
 Per gli utenti che preferiscono l’esperienza Home esistente, Nuova Home può essere disattivata.
-
 
 **Per tornare all’esperienza Home corrente:**
 
