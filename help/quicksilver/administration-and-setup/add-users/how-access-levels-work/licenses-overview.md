@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 74b9876dbe630ae0e0264bb98f59ad5b61f10501
+source-git-commit: 9317f8ef2f31497dd7bb864472e4da4b1eca8edb
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ La tua organizzazione ha acquistato un certo numero di licenze al momento dell�
 
 ## Legare tra loro le nuove licenze Workfront e i nuovi livelli di accesso
 
-I tre tipi di nuove licenze Workfront a pagamento consentono diversi livelli di accesso a Workfront. Ogni livello di accesso è associato a una di queste licenze.
+I 3 tipi di nuove licenze Workfront consentono diversi livelli di accesso a Workfront. Ogni livello di accesso è associato a una di queste licenze.
 
 In qualità di amministratore di Workfront, invece di assegnare una licenza a un utente, puoi assegnare loro il livello di accesso associato a tale licenza.
 
