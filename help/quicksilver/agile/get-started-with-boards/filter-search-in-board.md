@@ -6,9 +6,9 @@ description: Puoi filtrare una bacheca per visualizzare solo determinate schede.
 author: Lisa
 feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
-source-git-commit: 44ced4ec8af150bc373699389bd63d150cc387f6
+source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -91,11 +91,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Per impostazione predefinita, su una bacheca vengono visualizzate solo le schede attive. Puoi filtrare la bacheca per visualizzare anche eventuali schede archiviate.
 
 1. Accedi alla bacheca.
+1. Clic [!UICONTROL **Configura**] sulla destra della bacheca per aprire il pannello Configura.
+1. Espandi [!UICONTROL **Schede**].
+1. Attiva [!UICONTROL **Visualizza le schede archiviate sulla bacheca**].
 1. Clic [!UICONTROL **Filtro**], espandi [!UICONTROL Schede archiviate] e seleziona **[!UICONTROL Schede archiviate]** per visualizzare le schede archiviate.
 
    Il filtro mostra il numero di schede archiviate.
 
-   ![Filtra schede archiviate](assets/boards-filter-by-archived-cards_0822.png)
+   ![Filtra schede archiviate](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >Il [!UICONTROL Schede archiviate] La sezione non è disponibile nel filtro se non hai attivato l’impostazione di configurazione per visualizzare le schede archiviate.
 
 1. Seleziona **[!UICONTROL Schede archiviate]** per cancellare l&#39;opzione e visualizzare solo le schede attive.
 
