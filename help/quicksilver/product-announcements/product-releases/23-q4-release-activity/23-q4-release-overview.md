@@ -4,9 +4,9 @@ description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
 workflow-type: tm+mt
-source-wordcount: '1963'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,25 @@ Il webinar sulla versione 23.10 si terrà il 5 ottobre 2023. È possibile [regis
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-oct-2.md" class="MCXref xref" xrefformat="{para}">I campi calcolati nei moduli personalizzati ora possono utilizzare il carattere jolly $$USER</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>Il carattere jolly $$USER è ora disponibile nei campi personalizzati calcolati e nei campi di ricerca esterni nel nuovo progettista di moduli.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 5 ottobre 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 23.10</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md" class="MCXref xref" xrefformat="{para}">Aggiungere opzioni di valore da un’API esterna a un modulo personalizzato</a></p>
