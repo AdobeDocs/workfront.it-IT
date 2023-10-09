@@ -6,10 +6,10 @@ description: Pianificazione del supporto e del controllo delle versioni API
 author: Becky
 feature: Workfront API
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 5a4868451384718e359bfd5f876081961b16485d
+source-git-commit: 6b341310e06e75e47b94b7c27031ce8398e91c68
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 13%
+source-wordcount: '243'
+ht-degree: 12%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 13%
 
 
 Adobe Workfront rilascia regolarmente nuove versioni API, in genere due volte all’anno. Le versioni API sono supportate per 3 anni dopo il rilascio. Le versioni API precedenti a 3 anni non sono più supportate.
+
+Per ulteriori informazioni su come identificare e utilizzare le versioni API, consulta [Specificare una versione API nelle integrazioni](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
 La tabella seguente mostra la versione e la pianificazione del supporto per l’API Workfront.
 
