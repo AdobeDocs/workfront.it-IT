@@ -6,9 +6,9 @@ description: Puoi aggiungere rapidamente una scheda ad hoc a una bacheca e asseg
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: b25a165dd85b64a154233b64ae2fc9b676a5aaa2
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Una scheda ad hoc non è collegata a un elemento di lavoro in [!DNL Adobe Workfr
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Schede]**.
 1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clic **[!UICONTROL Aggiungi scheda] > [!UICONTROL Nuova scheda]**.
+
+   Il [!UICONTROL Dettagli scheda] viene visualizzato.
+
+   >[!NOTE]
+   >
+   >Se fai clic all’esterno del campo Nome, la scheda ad hoc viene salvata automaticamente come &quot;Senza titolo&quot; nella parte inferiore della colonna più a sinistra. Per uscire senza salvare la scheda, fai clic su [!UICONTROL **Annulla**] senza fare clic in un altro punto della [!UICONTROL Dettagli scheda] casella.
+
 1. In **[!UICONTROL Dettagli scheda]** , aggiungere le seguenti informazioni:
 
    <table style="table-layout:auto"> 
