@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1374'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,9 @@ Per informazioni sulla conversione dei problemi in progetti, consulta [Convertir
 
 * Quando si converte un problema in un’attività o un progetto, il problema viene rimosso dall’area Home dell’utente assegnato al problema.
 
-* Quando si converte un problema in un progetto utilizzando un modello, la maggior parte delle informazioni contenute nel modello viene trasferita al nuovo progetto. Tuttavia, alcune informazioni del problema possono anche essere trasferite al nuovo progetto. Per ulteriori informazioni, vedere [Panoramica dei campi del progetto quando si converte un problema in un progetto utilizzando un modello](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in questo articolo.
+* Quando si converte un problema, le autorizzazioni per i problemi originali non vengono trasferite all’oggetto convertito (attività o progetto).
+
+* Quando si converte un problema in un progetto utilizzando un modello, la maggior parte delle informazioni contenute nel modello viene trasferita al nuovo progetto. Tuttavia, alcune informazioni del problema possono anche essere trasferite al nuovo progetto. Per ulteriori informazioni, vedere [Panoramica dei campi del progetto quando si converte un problema in un progetto utilizzando un modello](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in questo articolo.
 * Durante la conversione di un problema, non tutti i documenti o le relative informazioni vengono spostati nel nuovo oggetto in cui viene convertito il problema. Quando si converte un problema a cui sono allegati documenti o collegamenti a documenti, vengono inclusi i seguenti elementi:
 
    * Documento
@@ -110,12 +112,17 @@ Nella tabella seguente sono elencate le informazioni sul progetto e se viene tra
   </tr> 
   <tr> 
    <td>Gruppo</td> 
-   <td>Trasferimenti dal modello. Se sul modello non è presente alcun gruppo, viene impostato sul gruppo del progetto a cui appartiene il problema.</td> 
+   <td><p> Esistono i seguenti scenari:</p>
+     <ul><li>Se durante la conversione viene specificato un gruppo, questo diventerà il gruppo del progetto</li>
+     <li>Se si converte in un progetto utilizzando un modello ed è presente un gruppo nel modello e durante la conversione non si specifica un gruppo, il gruppo del modello diventa il gruppo del nuovo progetto</li>
+      <li> Se nel modello non è presente alcun gruppo e non si specifica un gruppo durante la conversione, il gruppo del progetto del problema originale diventa il gruppo del nuovo progetto</li> </ul>
+      </td> 
   </tr> 
   <tr> 
-   <td>Azienda</td> 
-   <td>Trasferimenti dal modello. In caso contrario, il campo è vuoto.</td> 
-  </tr> 
+   <td>Azienda</td>    
+   <td>  Trasferimenti dal modello. In caso contrario, il campo è vuoto.</td>
+
+</tr> 
   <tr> 
    <td>Proprietario progetto</td> 
    <td>Trasferimenti dal campo Proprietario modello nel modello. In caso contrario, viene impostato sull’utente connesso che sta eseguendo la conversione. </td> 

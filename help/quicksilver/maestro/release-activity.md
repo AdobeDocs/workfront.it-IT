@@ -4,13 +4,13 @@ description: Utilizza Maestro per creare oggetti, campi e aree di lavoro persona
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
-
 
 # Attività di rilascio Adobe Maestro
 
@@ -34,13 +34,21 @@ In questa sezione sono elencate le funzioni e le patch rilasciate dopo il lancio
 
 Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rilascio, con la prima più recente. I clienti che partecipano al programma Maestro closed beta possono accedere a tutte le funzioni nei loro ambienti di anteprima e produzione.
 
+## Settimana del 9 ottobre 2023
+
+### Cerca nella vista tabella
+
+Anteprima e produzione: 9 ottobre 2023
+
+È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista tabella. È possibile utilizzare parole chiave e caratteri speciali in qualsiasi campo visibile sullo schermo per trovare un record. Per informazioni, consulta [Gestire la vista tabella](../maestro/views/manage-the-table-view.md).
+
 ## Settimana del 18 settembre 2023
 
 ### Riordina righe
 
 Anteprima e produzione: 20 settembre 2023
 
-È ora possibile riordinare una o più righe (o record) nella visualizzazione Tabella di una pagina del tipo di record.
+È ora possibile riordinare una o più righe (o record) nella visualizzazione Tabella di una pagina del tipo di record. Per informazioni, consulta [Gestire la vista tabella](../maestro/views/manage-the-table-view.md).
 
 ## Settimana del 4 settembre 2023
 

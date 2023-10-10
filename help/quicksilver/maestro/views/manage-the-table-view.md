@@ -4,13 +4,13 @@ description: È possibile visualizzare i record e i relativi campi in una vista 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 5%
+source-wordcount: '1659'
+ht-degree: 4%
 
 ---
-
 
 # Gestire la vista tabella
 
@@ -127,7 +127,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    Le colonne aggiunte sono visibili a tutti gli utenti che accedono al tipo di record e vengono aggiunte come nuovi campi nella pagina Dettagli dei record del tipo di record selezionato.
 
-1. Per riordinare le colonne della tabella, effettuate una delle seguenti operazioni:
+1. Per riordinare le colonne della tabella, effettuare una delle seguenti operazioni:
 
    * Prendi l’intestazione della colonna e trascinala nella posizione desiderata. La colonna spostata viene visualizzata brevemente con uno sfondo blu finché non vengono apportate altre modifiche alla tabella.
 
@@ -145,24 +145,45 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    >
    >* Il campo Nome è bloccato e non fa parte dello scorrimento orizzontale.
 
-1. Per aumentare la larghezza delle colonne, fare clic sulle linee di separazione delle colonne e trascinarle nella posizione desiderata.
+1. Selezionare uno o più record in una riga, quindi trascinare e rilasciare il **maniglia** icona ![](assets/handle-icon.png) a sinistra del nome del record per riordinare le righe.
+
+   >[!NOTE]
+   >
+   >Non è possibile riordinare le righe se si applica almeno un ordinamento alla vista tabella.
+
+1. Fate clic sulle linee di separazione delle colonne e trascinatele nel punto desiderato per aumentare la larghezza delle colonne.
 
    >[!TIP]
    >
    >Le modifiche apportate alla larghezza e all&#39;ordine delle colonne sono permanenti e visibili a tutti gli utenti che accedono al tipo di record.
 
-1. Per nascondere una colonna, posiziona il cursore del mouse sull’intestazione della colonna, fai clic sulla freccia rivolta verso il basso, quindi fai clic su **Nascondi campo**
+1. Passa il puntatore del mouse sull’intestazione della colonna, fai clic sulla freccia rivolta verso il basso, quindi fai clic su **Nascondi campo**
 
    Oppure
 
-   Clic **Campi** nella barra degli strumenti della tabella e disattivare l&#39;interruttore associato ai campi che si desidera nascondere.
+   Clic **Campi** nella barra degli strumenti della tabella e disattivare l&#39;interruttore associato ai campi (o alle colonne) che si desidera nascondere.
 
    >[!TIP]
    >
    >Il numero di campi nascosti viene visualizzato a sinistra dell’icona Campi nella barra degli strumenti.
 
 
-1. Dalla sezione **Campi** , abilita l&#39;interruttore associato ai campi che desideri visualizzare nelle colonne della tabella. Tutti i campi vengono visualizzati per impostazione predefinita.
+1. Fai clic su **Campi** impostare e attivare l&#39;interruttore associato ai campi da visualizzare nelle colonne della tabella. Tutti i campi vengono visualizzati per impostazione predefinita.
+
+1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
+
+   1. Fai clic su **ricerca** icona ![](assets/search-icon.png) e iniziare a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Il numero di corrispondenze corrette viene visualizzato accanto all’elemento di ricerca e il campo con la corrispondenza corretta viene evidenziato in blu.
+
+      È possibile utilizzare qualsiasi parola o carattere speciale visibile sullo schermo.
+
+      Non è possibile utilizzare parole chiave associate a campi nascosti nella visualizzazione Tabella.
+
+      ![](assets/search-box-with-results-blue-outline-table-view.png)
+
+   1. (Facoltativo) Se sono presenti più corrispondenze, fare clic sulle frecce su e giù a destra della parola chiave di ricerca per trovare tutte le corrispondenze nella tabella.
+
+   1. Fai clic su **X** nella casella di ricerca per deselezionare la parola chiave di ricerca.
+
 
 ### Aggiungi righe (o record) {#add-rows}
 
@@ -388,12 +409,11 @@ Per ordinare <!--ungrouped (add this when sorting for groupings will be availabl
 
 1. Fai clic all’esterno del **Ordina record per** per chiuderlo.
 
+   ![](assets/sorting-in-table-view.png)
+
    Le informazioni visualizzate nella tabella vengono ordinate in base ai criteri selezionati.
 
    I campi selezionati per l’ordinamento visualizzano un’icona di ordinamento seguita da un numero che indica l’ordine in cui viene applicato l’ordinamento.
-
-   ![](assets/sorting-in-table-view.png)
-
 
 <!-- this is not available yet: 
 

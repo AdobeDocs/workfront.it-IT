@@ -6,13 +6,13 @@ description: Questo articolo contiene un elenco delle domande più frequenti sul
 author: Alina
 feature: Product Announcements
 role: User, Admin
-source-git-commit: 709b36f4471e5576e45ed918783216a1f7f4abac
+exl-id: 5ce15530-0858-44a4-b928-779654310dee
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
-
 
 # Domande frequenti sulle nuove esperienze di commento
 
@@ -24,7 +24,7 @@ Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi 
 
 Attualmente sono supportati solo gli allegati immagine ai commenti. Se desideri vedere altri tipi di file, invia una richiesta al laboratorio di innovazione per consentirci di comprendere quanto è necessaria la funzione.
 
-## È possibile aggiungere nuovamente la possibilità di modificare lo stato, la condizione o la data di completamento pianificata di un elemento di lavoro nella nuova esperienza di commento?
+## È possibile aggiungere nuovamente la possibilità di modificare lo stato, la condizione, la data di impegno o la data di completamento pianificata di un elemento di lavoro nella nuova esperienza di commento?
 
 Non prevediamo di ripristinare la capacità di eseguire queste azioni, in quanto sono disponibili dall’intestazione e dalle aree Dettagli dell’oggetto. Comprendiamo che vi chiediamo di cambiare il modello di utilizzo del flusso di commento, ma lo facciamo per mantenere l&#39;esperienza di commento per il suo scopo diretto di comunicazione e collaborazione.
 

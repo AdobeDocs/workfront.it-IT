@@ -7,9 +7,9 @@ description: È possibile unire le informazioni visualizzate in più colonne sep
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 976e8c7fe0362392928ac9cd6be1a9ba7c653dda
+source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Per unire i dati di più colonne in modo da visualizzarli in una colonna comune 
    `sharecol=true`
 
 
-1. Aggiungi il testo seguente alla prima colonna:
+1. Fai clic sulla prima colonna e fai clic su **Passa alla modalità testo**, quindi aggiungi il seguente testo alla colonna:
 
    `sharecol=true`
 
