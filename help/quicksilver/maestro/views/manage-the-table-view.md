@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 7614652b57c57e1176dfb48058f890fd4e5c942e
 workflow-type: tm+mt
-source-wordcount: '1659'
+source-wordcount: '1687'
 ht-degree: 4%
 
 ---
@@ -145,12 +145,6 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    >
    >* Il campo Nome è bloccato e non fa parte dello scorrimento orizzontale.
 
-1. Selezionare uno o più record in una riga, quindi trascinare e rilasciare il **maniglia** icona ![](assets/handle-icon.png) a sinistra del nome del record per riordinare le righe.
-
-   >[!NOTE]
-   >
-   >Non è possibile riordinare le righe se si applica almeno un ordinamento alla vista tabella.
-
 1. Fate clic sulle linee di separazione delle colonne e trascinatele nel punto desiderato per aumentare la larghezza delle colonne.
 
    >[!TIP]
@@ -191,9 +185,16 @@ Le righe di una vista tabella Maestro visualizzano singoli record del tipo di re
 
 Puoi avere fino a 10.000 record (o righe) per un tipo di record in Maestro.
 
-L&#39;aggiunta di righe a una vista tabella Maestro è identica alla creazione di record in una tabella.
+1. Passare a una pagina del tipo di record e selezionare un **Tabella** dal menu a discesa vista.
+1. Inizia ad aggiungere record (o righe), come descritto nell’articolo [Crea record](../records/create-records.md).
 
-Per ulteriori informazioni, consulta [Crea record](../records/create-records.md).
+   I record aggiunti nella vista tabella vengono salvati immediatamente e sono visibili a tutti gli utenti che accedono a Maestro. <!--this will change with permissions-->
+
+1. (Facoltativo) Seleziona uno o più record in una riga, quindi trascina e rilascia la **maniglia** icona ![](assets/handle-icon.png) a sinistra del nome del record per riordinare le righe.
+
+   >[!NOTE]
+   >
+   >Non è possibile riordinare le righe se si applica almeno un ordinamento alla vista tabella.
 
 <!-- this is not possible right now:
 
