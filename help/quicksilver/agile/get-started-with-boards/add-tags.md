@@ -6,16 +6,20 @@ description: Puoi aggiungere tag alle schede per mostrare visivamente che sono s
 author: Lisa
 feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
-source-git-commit: 14175ce94c1395138a31f47ad72951f0120f11ee
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '534'
 ht-degree: 2%
 
 ---
 
 # Aggiungi tag
 
-Puoi aggiungere tag alle schede per mostrare visivamente che sono simili. Puoi quindi filtrare in base a tali tag per visualizzare le relative schede. I tag delle bacheche non sono condivisi tra bacheche, ma i tag del flusso di lavoro sono disponibili su tutte le bacheche di un flusso di lavoro.
+Puoi aggiungere tag alle schede per mostrare visivamente che sono simili. Puoi quindi filtrare in base a tali tag per visualizzare le relative schede.
+
+>[!NOTE]
+>
+>I tag non sono condivisi tra bacheche.
 
 ## Requisiti di accesso
 
@@ -57,6 +61,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    ![Gestione tag](assets/tag-manager-2023.png)
 
 ## Creare tag per un flusso di lavoro
+
+>[!IMPORTANT]
+>
+>I flussi di lavoro sono disponibili solo per un gruppo specifico di clienti.
+
+I tag del flusso di lavoro sono disponibili per tutte le bacheche di un flusso di lavoro.
 
 {{step1-to-boards}}
 

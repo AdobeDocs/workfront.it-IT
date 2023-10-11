@@ -7,14 +7,18 @@ description: Le metriche sono disponibili per ogni iterazione in un flusso di la
 author: Lisa
 feature: Agile
 exl-id: 09743566-161d-4850-9a1a-b96da6d537a7
-source-git-commit: bda865111eacf5df874a09f184db039b5f837765
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
 
 # Rivedere le metriche di iterazione
+
+>[!IMPORTANT]
+>
+>I flussi di lavoro sono disponibili solo per un gruppo specifico di clienti.
 
 Le metriche sono disponibili per ogni iterazione in un flusso di lavoro, sulla scheda del processo di iterazione e sulla dashboard.
 

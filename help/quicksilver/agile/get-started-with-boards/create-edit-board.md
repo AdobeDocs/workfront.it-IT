@@ -6,9 +6,9 @@ description: Dalla sezione [!UICONTROL schede madri] dashboard, puoi creare una 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '692'
 ht-degree: 3%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 3%
 # Creare o modificare una bacheca
 
 Dalla sezione [!UICONTROL schede madri] dashboard, puoi creare una nuova bacheca o modificare una bacheca esistente.
-
-Per aggiungere una bacheca a un flusso di lavoro, vedi [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Requisiti di accesso
 
@@ -43,7 +41,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Crea una nuova bacheca
 
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
-1. Per creare una bacheca autonoma, fai clic su **[!UICONTROL Aggiungi bacheca]** nel [!UICONTROL Schede] area. Per aggiungere una bacheca a un flusso di lavoro, vedi [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Clic **[!UICONTROL Aggiungi bacheca]**.
 
 1. Seleziona un modello per la bacheca.
 

@@ -7,10 +7,10 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di acqui
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 070bc906d7ca0729697cf9def08416b00e691fc8
+source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
-source-wordcount: '984'
-ht-degree: 0%
+source-wordcount: '933'
+ht-degree: 2%
 
 ---
 
@@ -22,14 +22,12 @@ Facoltativamente, puoi aggiungere alla bacheca una colonna di accettazione che r
 
 La colonna Acquisizione non è disponibile su una bacheca dinamica.
 
-La colonna Acquisizione non è disponibile nelle bacheche che fanno parte di un flusso di lavoro. Puoi invece impostare una colonna di backlog per richiamare le schede dall’elenco delle schede. Per informazioni sull’aggiunta di una colonna del backlog a una bacheca in un flusso di lavoro, consulta [Configurare il backlog in una bacheca del flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
-
 La colonna Assunzione è limitata a 300 attività e 300 problemi. L’ordine predefinito degli elementi nella colonna Acquisizione è il seguente:
 
 Attività:
 
 * Ordine principale: nome progetto
-* Ordine secondario: struttura analisi stratificata lavoro
+* Ordine secondario: struttura dettaglio lavoro
 
 Problemi:
 

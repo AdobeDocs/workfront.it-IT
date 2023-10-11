@@ -7,14 +7,18 @@ description: Un flusso di lavoro è un gruppo configurabile di schede e schede p
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 0ccec525069557fdc2a17e37e00968f8fb6d3a41
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '915'
 ht-degree: 2%
 
 ---
 
 # Gestire i flussi di lavoro
+
+>[!IMPORTANT]
+>
+>I flussi di lavoro sono disponibili solo per un gruppo specifico di clienti.
 
 Un flusso di lavoro è un gruppo configurabile di schede e schede per la collaborazione sul lavoro. I flussi di lavoro possono includere diversi tipi di bacheche create da modelli e un elenco di schede di elementi di lavoro. In un flusso di lavoro è possibile tenere traccia del lavoro in iterazioni o sprint.
 

@@ -7,14 +7,18 @@ description: Puoi scegliere di visualizzare una colonna di backlog su una bachec
 author: Lisa
 feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
 # Configurare il backlog in una bacheca del flusso di lavoro
+
+>[!IMPORTANT]
+>
+>I flussi di lavoro sono disponibili solo per un gruppo specifico di clienti.
 
 Puoi scegliere di visualizzare una colonna di backlog su una bacheca in un flusso di lavoro e definire una query per le schede inserite nel backlog della bacheca dall’elenco delle schede del flusso di lavoro.
 
