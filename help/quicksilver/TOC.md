@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: f0385bd49e11ed95ea36e4ccdf7a6ba4774c3f7e
+source-git-commit: 372f330849bfcdc265e567931527497ddb19d9bb
 workflow-type: tm+mt
-source-wordcount: '13343'
+source-wordcount: '13347'
 ht-degree: 1%
 
 ---
@@ -971,6 +971,7 @@ ht-degree: 1%
       * [Utilizzare le schede collegate sulle bacheche](agile/get-started-with-boards/connected-cards.md)
       * [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
       * [Gestire le schede](agile/get-started-with-boards/move-board-items.md)
+      * [Gestire le sottoattività nelle bacheche](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
       * [Gestire le voci dell’elenco di controllo sulle schede](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
       * [Aggiungi documenti su schede](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
       * [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
@@ -1934,8 +1935,8 @@ ht-degree: 1%
    * [Condividere un piano nella Pianificazione scenario](scenario-planner/share-a-plan.md)
    * [Mostra assegnazione ruoli per progetti e iniziative nell&#39;elenco delle attività](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [Mostra l’allocazione dei ruoli per progetti e iniziative nel Bilanciatore dei carichi di lavoro](scenario-planner/show-role-allocation-workload-balancer.md)
-* Adobe Workfront Goals {#adobe-workfront-goals}
-   * [Adobe Workfront Goals](workfront-goals/workfront-goals.md)
+* Obiettivi di Adobe Workfront {#adobe-workfront-goals}
+   * [Obiettivi di Adobe Workfront](workfront-goals/workfront-goals.md)
    * [Panoramica sugli obiettivi di Adobe Workfront](workfront-goals/goal-management/wf-goals-overview.md)
    * Gestione degli obiettivi in Obiettivi di Adobe Workfront {#goal-management}
       * [Gestione degli obiettivi in Obiettivi di Adobe Workfront](workfront-goals/goal-management/goal-management.md)
