@@ -4,10 +4,10 @@ description: Aggiornamenti look-and-feel durante l’intervallo di tempo di rila
 author: Lisa
 draft: Probably
 feature: Product Announcements
-exl-id: d667c25f-87c3-4465-81e6-481cd1e93e87
-source-git-commit: ab046a9ee532b7ef97f721e4c7b41a1a0543d647
+exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
+source-git-commit: 05c209f7ba40ec7434d392a79efa96330294f20a
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,16 @@ ht-degree: 0%
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati nell’arco temporale del rilascio del quarto trimestre 2023.
 
 Per un elenco di tutte le modifiche disponibili con la versione del quarto trimestre 2023, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Indicatore per le allocazioni regolate manualmente nel Bilanciatore dei carichi di lavoro
+
+>[!NOTE]
+>
+>Versione di anteprima: 12 ottobre 2023; versione di produzione per tutti i clienti: da definire
+
+Per fornire maggiore chiarezza sulle regolazioni manuali o sul contorno nel Bilanciatore dei carichi di lavoro, le allocazioni orarie regolate manualmente ora mostrano un’icona a forma di matita.
+
+Per ulteriori informazioni, consulta [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Nuovi aggiornamenti look-and-feel delle schede nell’area Configura notifiche
 

@@ -3,9 +3,10 @@ title: 23.3 Miglioramenti apportati alla gestione finanziaria
 description: 23.3 Miglioramenti apportati alla gestione finanziaria
 author: Lisa
 feature: Product Announcements
-source-git-commit: 685529997d785b1bd98ef0fbc97b47dc59ea0244
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +28,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rila
 >
 >* Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3
 >
->* Versione di produzione per tutti i clienti: versione di produzione per tutti i clienti: con la versione 23.10 (ottobre 2023)
+>* Rilascio di produzione per tutti i clienti: rilascio di produzione per tutti i clienti: da annunciare
 >
 >La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima dal 30 giugno al 13 luglio 2023.
 

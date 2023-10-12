@@ -3,10 +3,10 @@ title: Panoramica sulla versione 23.3
 description: Panoramica sulla versione 23.3
 author: Becky
 feature: Product Announcements
-exl-id: 9bf786e2-e077-4504-b928-9091fcb61ec1
-source-git-commit: 53c124eec4d78b59e5b44e95ec28db7de779aec7
+exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
+source-git-commit: 46d0a392875f24a55ebddaa7ff123bca0289a0bf
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2737'
 ht-degree: 0%
 
 ---
@@ -361,7 +361,7 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. È poss
                             </li>
                             <li>
                                 <p>Versione di produzione per i clienti della versione Fast: da annunciare, dopo la versione di produzione 23.3</p>
-                                <p>Versione di produzione per tutti i clienti: con la versione 23.10 (ottobre 2023)<br>
+                                <p>Versione di produzione per tutti i clienti: da annunciare<br>
                                 La funzione di sostituzione della percentuale di assegnazione è stata temporaneamente disabilitata in Anteprima dal 30 giugno al 13 luglio 2023.</p>
                             </li>
                         </ul>
@@ -452,8 +452,8 @@ Il webinar sulla versione 23.3 di è stato pubblicato il 29 giugno 2023. È poss
                 </tr>-->
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Creare automaticamente cartelle collegate in Adobe Experience Manager Assets durante la creazione di un progetto</a></p>
-                        <p>Con il nuovo flusso di lavoro Crea cartella collegata per l’integrazione Adobe Experience Manager, puoi configurare l’integrazione con un percorso a una cartella Adobe Experience Manager Assets. Quando l’integrazione viene aggiunta a un modello di progetto, tutti i progetti creati dal modello creano automaticamente una sottocartella collegata in Experience Manager Assets nella cartella specificata. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Creazione automatica di cartelle collegate in Adobe Experience Manager Assets durante la creazione di un progetto</a></p>
+                        <p>Con il nuovo flusso di lavoro Crea cartella collegata per l’integrazione di Adobe Experience Manager, puoi configurare l’integrazione con un percorso a una cartella Adobe Experience Manager Assets. Quando l’integrazione viene aggiunta a un modello di progetto, tutti i progetti creati dal modello creano automaticamente una sottocartella collegata in Experience Manager Assets nella cartella specificata. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>

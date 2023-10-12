@@ -7,9 +7,9 @@ description: L’ambiente di anteprima viene aggiornato una volta alla settimana
 author: Alina
 feature: Product Announcements
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: f3807e83a2d9fdbe351269bb1ecc9c6defc78a76
+source-git-commit: 8488cb46b3dd9b377c59121597db5b6fe784fdab
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 L’ambiente di anteprima viene aggiornato una volta alla settimana con le nuove funzioni. Queste funzioni sono descritte nelle note sulla versione per la prossima versione trimestrale.
 
+I rilasci avvengono in genere intorno alle 20:00-10 PM US Mountain Time.
+
 ## Aggiorna pianificazione per produzione
 
 ### Caratteristiche del prodotto
@@ -27,7 +29,7 @@ L’ambiente di anteprima viene aggiornato una volta alla settimana con le nuove
 
 Adobe Workfront dispone di due modelli per il rilascio di nuove funzioni e aggiornamenti. La tua organizzazione può scegliere se ricevere nuove funzionalità su base trimestrale o secondo una pianificazione più rapida.
 
-I rilasci mensili e trimestrali dovrebbero essere disponibili l&#39;ultimo giovedì del mese.
+I rilasci mensili e trimestrali dovrebbero essere disponibili l&#39;ultimo giovedì del mese. I rilasci avvengono in genere intorno alle 20:00-10 PM US Mountain Time.
 
 In genere, le funzioni in Anteprima sono rese disponibili nell’ambiente di produzione con la versione successiva. Tuttavia, in alcuni casi, le funzioni di sono rese disponibili nell’ambiente di produzione al di fuori di una versione pianificata. Queste modifiche rimangono in Anteprima per un minimo di 2 settimane per fornire il tempo necessario per conoscere le modifiche. Queste modifiche vengono comunicate anche tramite il Centro notifiche al momento dell’aggiunta all’anteprima.
 
