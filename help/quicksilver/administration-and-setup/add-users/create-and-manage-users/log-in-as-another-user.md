@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: f8d596121f90d4f0c57e65cc415d1df87c14730c
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 0%
@@ -148,7 +148,7 @@ Quando accedi a Workfront come altro utente ed esegui un’azione, Workfront ind
 
 Ad esempio, se si commenta un elemento durante l&#39;accesso come altro utente, un&#39;istruzione indica che il commento è stato creato dall&#39;utente per conto dell&#39;utente.
 
-<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
+<!--remove the note below when we bring this back to Prod: -->
 
 >[!NOTE]
 >

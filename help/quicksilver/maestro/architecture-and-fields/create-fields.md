@@ -4,13 +4,13 @@ description: Ad Adobe, Maestro, puoi creare campi personalizzati per ogni tipo d
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2600'
 ht-degree: 2%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -186,6 +186,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * [Percentuale](#percentage)
    * [Valuta](#currency)
    * [Casella di controllo](#checkbox)
+     <!--* [People](#people)-->
 
    >[!IMPORTANT]
    >
@@ -201,7 +202,7 @@ I campi di testo a riga singola acquisiscono informazioni alfanumeriche limitate
 
    ![](assets/single-line-text-field-type.png)
 
-1. Aggiungi le seguenti informazioni:
+1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sull&#39;intestazione di colonna del campo in una tabella.
 1. Fai clic su **Crea**.
@@ -213,12 +214,22 @@ I campi di testo a riga singola acquisiscono informazioni alfanumeriche limitate
 
 I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un record, simili al campo Descrizione. Il contenuto di un campo paragrafo può contenere fino a 1.000 caratteri.
 
+<!-- remove the last sentence above and add this tip when we go to rich text: 
+
+>[!TIP]
+>
+>* The content of a paragraph field can have up to 1,000 characters. 
+
+* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
+
+-->
+
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, seleziona la **Paragrafo** tipo di campo.
 
    ![](assets/paragraph-field-type.png)
 
 
-1. Aggiungi le seguenti informazioni:
+1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
 1. Fai clic su **Crea**.
@@ -235,7 +246,7 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
    ![](assets/multi-select-field-type.png)
 
 
-1. Aggiungi le seguenti informazioni:
+1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Scelte**: le opzioni disponibili per la selezione dal menu a discesa dopo il salvataggio del campo. È possibile utilizzare sia numeri che lettere per il nome di ciascuna scelta.
@@ -257,7 +268,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
    ![](assets/single-select-field-type.png)
 
 
-1. Aggiungi le seguenti informazioni:
+1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Scelte**: le opzioni disponibili per la selezione dal menu a discesa dopo il salvataggio del campo. È possibile utilizzare sia numeri che lettere per il nome di ciascuna scelta.
@@ -279,7 +290,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
    ![](assets/date-field-type.png)
 
 
-1. Aggiungi le seguenti informazioni:
+1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Formato data**: tipo di formato della data che desideri visualizzare in questo campo.
@@ -308,7 +319,7 @@ I tipi di campo numerico acquisiscono informazioni in formato numerico.
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, seleziona la **Numero** tipo di campo.
 
    ![](assets/number-field-type.png)
-1. Aggiungi le seguenti informazioni:
+1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
 
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record.
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
@@ -331,7 +342,7 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
 
    ![](assets/percentage-field-type.png)
 
-1. Aggiungi le seguenti informazioni:
+1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record.
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Precisione**: numero di decimali da registrare per il campo. Puoi visualizzare fino a 6 decimali.
@@ -353,7 +364,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
 
    ![](assets/currency-field-type.png)
 
-1. Aggiungi le seguenti informazioni:
+1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Valuta**: tipo di valuta da visualizzare in questo campo. Questa è una lista di valute secondo l&#39;Organizzazione Internazionale di Standardizzazione (ISO).
@@ -376,12 +387,30 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
 
    ![](assets/checkbox-field-type.png)
 
-1. Aggiungi le seguenti informazioni:
+1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
 1. Fai clic su **Crea**.
 
    Il nuovo campo casella di controllo viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record. Il campo viene visualizzato anche nella pagina Dettagli di un record.
+
+<!--
+### People
+
+You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
+ 
+    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+
+1. Add the following information in the **New field** tab:
+     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
+1. Click **Create**.
+
+    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+
+-->
 
 ## Creare i campi collegando i tipi di record
 
@@ -402,6 +431,3 @@ Quando si crea un tipo di record, per impostazione predefinita vengono creati an
 Maestro crea campi per tipi di record operativi e tassonomie quando crei un’area di lavoro da un modello.
 
 Per informazioni, consulta [Creare aree di lavoro](../architecture-and-fields/create-workspaces.md).
-
-
-

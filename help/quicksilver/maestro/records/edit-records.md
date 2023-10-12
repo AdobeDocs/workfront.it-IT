@@ -4,13 +4,13 @@ description: Puoi modificare le informazioni dei record in Adobe Maestro. È nec
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
-
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -88,7 +88,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * È possibile modificare i record creati dall&#39;utente corrente o da un altro utente. <!--will change with access levels-->
 * Se i record modificati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
-
+* Non è possibile modificare i campi collegati da altri record.
 
 ## Modifica record
 
@@ -145,6 +145,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >* I campi collegati non sono modificabili. Le informazioni per questi campi vengono compilate automaticamente dai record collegati. Per informazioni, consulta [Connetti tipi di record](../architecture-and-fields/connect-record-types.md).
    >
    >* Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
+<!--for rich text formatting - when released:
 
+1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
 
-
+    * Bold
+    * Italic
+    * Underline (*****anything else?? insert a screen shot?***********)
+-->

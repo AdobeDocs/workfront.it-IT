@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 0%
@@ -41,6 +41,24 @@ Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rila
 Anteprima e produzione: 9 ottobre 2023
 
 È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista tabella. È possibile utilizzare parole chiave e caratteri speciali in qualsiasi campo visibile sullo schermo per trovare un record. Per informazioni, consulta [Gestire la vista tabella](../maestro/views/manage-the-table-view.md).
+
+<!--
+***********WHICH WEEK IS THIS???***********
+
+### New People field type 
+
+Preview and production: ************ADD INFORMATION HERE***********
+
+You can now add a People-type field to Maestro record types. You can use People-type fields to add existing users, job roles, or teams to a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
+
+
+### Rich Text- format for Paragraph fields
+
+Preview and production: ************ADD INFORMATION HERE***********
+
+We have added Rich Text format controls for Paragraph-type fields. For more information, see [Edit records](../maestro/records/edit-records.md). 
+
+-->
 
 ## Settimana del 18 settembre 2023
 

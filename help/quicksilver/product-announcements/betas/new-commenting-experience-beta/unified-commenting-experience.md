@@ -7,7 +7,7 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 3%
@@ -50,7 +50,7 @@ Le seguenti funzioni sono state rimosse dalla nuova esperienza:
 * Commento su un aggiornamento del sistema
 * Possibilità di modificare lo stato, la condizione e la data del commit durante l&#39;inserimento di commenti
 * Modifica modulo personalizzato
-* Le informazioni &quot;per conto di &lt; nome utente >&quot; quando un amministratore di Workfront o di gruppo effettua l&#39;accesso come altro utente e aggiunge un commento per suo conto.
+* Le informazioni &quot;per conto di &lt; nome utente >&quot; quando un amministratore di Workfront o di gruppo effettua l&#39;accesso come altro utente e aggiunge un commento per suo conto. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
 * L’opzione &quot;Richiedi approvazione&quot; quando si applicano tag alle persone durante l’aggiunta di un commento a un documento.
 
 >[!NOTE]
