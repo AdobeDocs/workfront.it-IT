@@ -6,9 +6,9 @@ description: È possibile copiare un'attività da un progetto a un altro oppure 
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1774'
 ht-degree: 1%
 
 ---
@@ -85,9 +85,14 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 Quando copi un’attività, tieni presente quanto segue:
 
-* I problemi non vengono copiati con l&#39;attività.
 * Le attività cardine vengono trasferite all&#39;attività copiata e rimosse dall&#39;attività originale.
 * Quando si copia un&#39;attività da un progetto a un altro, le date dell&#39;attività potrebbero essere ricalcolate. Il ricalcolo terrà conto della pianificazione utilizzata dal nuovo progetto e delle informazioni di Schedule From del progetto.
+* Le sottoattività vengono trasferite alla nuova attività.
+* I moduli personalizzati vengono copiati con l’attività. Le informazioni contenute nei campi personalizzati vengono trasferite alle attività copiate solo quando si seleziona di copiare i dati personalizzati durante la copia dell&#39;attività.
+* È possibile scegliere di copiare alcuni elementi associati all&#39;attività nell&#39;attività copiata durante il processo di copia. Tuttavia, per impostazione predefinita, i seguenti oggetti non vengono trasferiti all&#39;attività copiata:
+   * Problemi
+   * Ore registrate
+   * Commenti utente <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
 
 Puoi copiare un’attività nelle seguenti aree dell’applicazione web Adobe Workfront:
 

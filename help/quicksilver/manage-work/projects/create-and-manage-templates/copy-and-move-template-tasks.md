@@ -5,13 +5,13 @@ title: Copiare e spostare le attività modello
 description: È possibile copiare o spostare un'attività modello nello stesso modello o in un altro modello.
 author: Alina
 feature: Work Management
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
+source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '2065'
+source-wordcount: '2138'
 ht-degree: 3%
 
 ---
-
 
 # Copiare e spostare le attività modello
 
@@ -53,6 +53,12 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 Quando copi un’attività modello, tieni presente quanto segue:
 
 * I milestone non vengono trasferiti all&#39;attività modello copiata o spostata.
+
+* Le sottoattività vengono trasferite alla nuova attività modello.
+* I moduli personalizzati vengono copiati con l’attività modello. Le informazioni contenute nei campi personalizzati vengono trasferite alla nuova attività modello solo quando si seleziona di copiare i dati personalizzati.
+* È possibile selezionare di copiare alcuni elementi associati all&#39;attività modello nell&#39;attività copiata durante il processo di copia. Tuttavia, per impostazione predefinita, i seguenti oggetti non vengono trasferiti all&#39;attività copiata:
+
+   * Commenti utente
 
 * Puoi copiare un’attività modello nelle seguenti aree dell’applicazione web Adobe Workfront:
 
@@ -219,7 +225,6 @@ Viene visualizzata la casella Sposta attività modello (Move Template Task).
    >* La sezione Opzioni è disponibile solo dopo aver selezionato un modello di destinazione.
    >* Deselezionare **Seleziona tutto** deseleziona tutte le opzioni.
 
-
    Deseleziona tra le seguenti opzioni per non trasferire le informazioni all’attività modello spostata. La tabella seguente descrive cosa accade quando le opzioni vengono deselezionate:
 
    <table style="table-layout:auto"> 
@@ -317,5 +322,3 @@ Viene visualizzata la casella Sposta attività modello (Move Template Task).
 1. Clic **Sposta attività modello**.
 
    Le attività modello spostate si trovano ora nel modello specificato e sono sottoattività dell&#39;attività modello padre selezionata o delle ultime attività modello nel modello.
-
-
