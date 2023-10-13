@@ -6,7 +6,7 @@ description: In qualità di Responsabile risorse, puoi assegnare il lavoro agli 
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: cc7e0d3a44d81149cd691332821df016b9e57419
+source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
 workflow-type: tm+mt
 source-wordcount: '2808'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro
+
+{{highlighted-preview}}
 
 In qualità di Responsabile risorse, è possibile assegnare lavoro agli utenti e gestire le loro allocazioni giornaliere, settimanali o mensili dal Bilanciatore dei carichi di lavoro per assicurarsi che venga allocata una quantità di ore adatta alle loro programmazioni disponibili.
 
@@ -256,7 +258,7 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
 
 >[!TIP]
 >
->A destra del nome dell’elemento di lavoro viene visualizzata un’icona a forma di matita per indicare che è stato regolato manualmente.
+><span class="preview">A destra del nome dell’elemento di lavoro viene visualizzata un’icona a forma di matita per indicare che è stato regolato manualmente.</span>
 
 ![Icona ore regolate manualmente](assets/icon-for-manually-adjusted-hours.png)
 
