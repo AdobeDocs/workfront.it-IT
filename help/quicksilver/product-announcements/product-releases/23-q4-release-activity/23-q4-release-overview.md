@@ -4,9 +4,9 @@ description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 1b247102f3d413e779106577a8b4a9c2c39b20da
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '2528'
+source-wordcount: '2599'
 ht-degree: 0%
 
 ---
@@ -285,6 +285,25 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Pulsante Delega lavoro per i widget Progetto, Attività e Problema</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>Dopo aver aggiunto un pulsante Delega ai widget Il mio lavoro, Le mie attività e I miei problemi, una funzione comunemente richiesta nella vecchia home page, è possibile delegare facilmente il lavoro quando si è fuori sede.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 12 ottobre 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 23.10</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovo widget Bacheche per Nuova Home</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>

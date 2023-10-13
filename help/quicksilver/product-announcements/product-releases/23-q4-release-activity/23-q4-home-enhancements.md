@@ -3,9 +3,9 @@ title: Miglioramenti Home Quarto Trimestre 2023
 description: Miglioramenti Home Quarto Trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,12 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2023. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.10.
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del quarto trimestre del 2023, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Pulsante Delega lavoro per i widget Progetto, Attività e Problema
+
+Dopo aver aggiunto un pulsante Delega ai widget Il mio lavoro, Le mie attività e I miei problemi, una funzione comunemente richiesta nella vecchia home page, è possibile delegare facilmente il lavoro quando si è fuori sede. Nel menu delegato, che funziona in modo identico a come prima di New Home, puoi selezionare a chi e per quanto tempo desideri delegare le tue storie e i tuoi problemi. Affinché il pulsante venga visualizzato, la delega del lavoro deve essere abilitata nell’ambiente Workfront.
+
+Per ulteriori informazioni sulla delega in Workfront, consulta [Gestire la delega di attività e problemi](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
 
 ## Nuovo widget Bacheche per Nuova Home
 
