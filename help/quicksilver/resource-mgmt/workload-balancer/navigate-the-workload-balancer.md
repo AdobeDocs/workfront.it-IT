@@ -6,9 +6,9 @@ description: Utilizza il Bilanciatore dei carichi di lavoro per comprendere la d
 author: Alina
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 7429353804e69a32b69a7ae6c7ca8d4e9f231be8
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '4082'
+source-wordcount: '4077'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Quando visualizzi il Bilanciatore dei carichi di lavoro, considera quanto segue:
 
   >[!NOTE]
   >
-  >* Gli elementi di lavoro assegnati a una mansione o a un team e assegnati anche a un utente che è l’assegnatario principale vengono visualizzati sia nell’area Lavoro non assegnato che sotto il nome dell’utente assegnato nell’area Lavoro assegnato.
+  >* Gli elementi di lavoro assegnati a una mansione o a un team e assegnati a un utente vengono visualizzati sia nell&#39;area Lavoro non assegnato che sotto il nome dell&#39;utente assegnato nell&#39;area Lavoro assegnato.
   >* Gli elementi di lavoro assegnati a un utente e una mansione, in cui la mansione è selezionata come assegnataria principale dell’elemento, vengono visualizzati nell’area Lavoro non assegnato.
   >* Gli elementi di lavoro assegnati a più utenti vengono visualizzati sotto tutti i nomi degli utenti assegnati nell’area Lavoro assegnato.
 

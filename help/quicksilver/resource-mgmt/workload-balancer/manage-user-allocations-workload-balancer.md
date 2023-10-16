@@ -6,9 +6,9 @@ description: In qualità di Responsabile risorse, puoi assegnare il lavoro agli 
 author: Alina
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: b68436ff0c7edf3129b13e10859d63d73e4553de
+source-git-commit: d1390144d60aee3f278729da230a3458b49ca4f0
 workflow-type: tm+mt
-source-wordcount: '2808'
+source-wordcount: '2807'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Devi avere i seguenti:
 
 Le allocazioni utente sono quantità di ore che indicano il tempo che un utente deve trascorrere in un dato giorno o giorno feriale, settimana o mese per completare l&#39;elemento di lavoro. Sono incluse nelle Ore pianificate dell’elemento di lavoro.
 
-Questo articolo descrive come aggiornare le allocazioni orarie giornaliere, settimanali o mensili per gli utenti assegnati ad attività o problemi. Per informazioni sulla gestione delle allocazioni complessive per gli utenti e i ruoli alle attività, consulta [Gestire le ore di allocazione di utenti e ruoli sulle attività](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
+Questo articolo descrive come aggiornare le allocazioni orarie giornaliere, settimanali o mensili per gli utenti assegnati ad attività o problemi. Per informazioni sulla gestione delle allocazioni complessive per gli utenti e i ruoli alle attività, consulta [Gestire le ore di allocazione di utenti e ruoli sulle attività](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md).
 
 * [Panoramica sull’allocazione degli utenti](#user-allocation-overview)
 * [Criteri che reimpostano le allocazioni utente](#criteria-that-reset-user-allocations)
@@ -95,10 +95,7 @@ Quando si individuano le allocazioni giornaliere, settimanali o mensili per atti
 >
 >Workfront calcola l’allocazione delle 2 ore nei 2 giorni della durata utilizzando la seguente formula:
 >
->```
->
->   Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours
->```
+>`Daily allocation hours = (Total Planned Hours / Total of available hours) * Daily available hours`
 >
 >  Ad esempio, le ore di allocazione giornaliere per ogni giorno sono:
 >   
@@ -107,8 +104,6 @@ Quando si individuano le allocazioni giornaliere, settimanali o mensili per atti
 >  (2 / 13) * 8 = 1,23 ore di assegnazione per il secondo giorno
 >
 >  Nei calcoli precedenti, 13 indica il totale delle ore disponibili per l&#39;attività: 5 + 8 = 13
-
-
 
 * Due utenti con fusi orari o pianificazioni diversi in fusi orari diversi rispetto a quelli degli utenti assegnati possono visualizzare le quantità di allocazione in modo diverso a due utenti che visualizzano gli stessi elementi di lavoro.
 
@@ -178,7 +173,7 @@ Quando visualizzi le ore pianificate nel Bilanciatore dei carichi di lavoro, tie
 Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le allocazioni degli utenti nel Bilanciatore dei carichi di lavoro per garantire che non vengano mai sovrassegnate o per garantire un preciso equilibrio di ore tra le risorse. Per informazioni su come identificare se un utente è sovrassegnato, consulta la sezione [Panoramica sull’allocazione degli utenti](#user-allocation-overview) in questo articolo.
 
 1. Assicurati di avere attività e problemi assegnati agli utenti. Per informazioni sull’assegnazione di lavoro agli utenti nel Bilanciatore dei carichi di lavoro, consulta [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
-1. Vai al Bilanciatore dei carichi di lavoro .
+1. Passa al Bilanciatore dei carichi di lavoro.
 1. (Facoltativo) Fai clic su **Settimana** o **Mese** per gestire le allocazioni settimanali o mensili per gli utenti.
 
    ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
@@ -199,9 +194,9 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
 
 1. (Facoltativo) Fai clic su **Impostazioni** icona ![](assets/gear-icon-settings.png) e selezionare una delle seguenti opzioni:
 
-   1. **Includi ore da problemi**. Questo consente di gestire le allocazioni dei problemi oltre alle allocazioni delle attività.
-   1. **Mostra lavoro completato** . In questo modo vengono visualizzati gli elementi completati e pianificati durante la sequenza temporale per la quale si gestiscono le allocazioni.
-   1. **Mostra tempo rimanente** opzione. Il numero totale di ore per ogni utente (nella riga utente) cambia. Se questa impostazione è abilitata, il Bilanciatore dei carichi di lavoro visualizza le ore disponibili per ogni utente anziché il numero di ore allocate.
+   1. **Includi ore da problemi**. Questo consente di gestire le allocazioni dei problemi oltre alle allocazioni delle attività.
+   1. **Mostra lavoro completato**. In questo modo vengono visualizzati gli elementi completati e pianificati durante la sequenza temporale per la quale si gestiscono le allocazioni.
+   1. **Mostra tempo rimanente**. Il numero totale di ore per ogni utente (nella riga utente) cambia. Se questa impostazione è abilitata, il Bilanciatore dei carichi di lavoro visualizza le ore disponibili per ogni utente anziché il numero di ore allocate.
 
       >[!TIP]
       >
@@ -213,7 +208,6 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
       >[!NOTE]
       >
       >L&#39;amministratore di Workfront decide la pianificazione da utilizzare nel sistema per calcolare la capacità dell&#39;utente nell&#39;area Gestione risorse di Configura. Per ulteriori informazioni, consulta [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
-
 
 1. Fai clic su **Altro** menu ![](assets/qs-more-menu.png) per un elemento di lavoro, quindi fare clic su **Modifica allocazioni**.
 
