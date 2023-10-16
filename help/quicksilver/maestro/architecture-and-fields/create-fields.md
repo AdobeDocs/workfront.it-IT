@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2600'
+source-wordcount: '2828'
 ht-degree: 2%
 
 ---
@@ -186,7 +186,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * [Percentuale](#percentage)
    * [Valuta](#currency)
    * [Casella di controllo](#checkbox)
-     <!--* [People](#people)-->
+   * [Persone](#people)
 
    >[!IMPORTANT]
    >
@@ -212,17 +212,13 @@ I campi di testo a riga singola acquisiscono informazioni alfanumeriche limitate
 
 ### Paragrafo {#paragraph}
 
-I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un record, simili al campo Descrizione. Il contenuto di un campo paragrafo può contenere fino a 1.000 caratteri.
-
-<!-- remove the last sentence above and add this tip when we go to rich text: 
+I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un record, simili al campo Descrizione.
 
 >[!TIP]
 >
->* The content of a paragraph field can have up to 1,000 characters. 
-
-* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. (********check to make sure this is true about Details page***********)
-
--->
+>* Il contenuto di un campo paragrafo può contenere fino a 1.000 caratteri.
+>
+>* È possibile utilizzare la formattazione Rich Text per migliorare il contenuto dei campi paragrafo visualizzati nella visualizzazione Tabella o nella pagina Dettagli di un record.
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, seleziona la **Paragrafo** tipo di campo.
 
@@ -394,23 +390,25 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
 
    Il nuovo campo casella di controllo viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record. Il campo viene visualizzato anche nella pagina Dettagli di un record.
 
-<!--
-### People
+### Persone
 
-You can use the People field type to add a user, job role, or team to a record. This is a type-ahead field, and you can add only users, roles, or teams that already exist in Workfront.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
- 
-    ***************INSERT SCREEN SHOT HERE - DO YOU HAVE TO REPLACE OTHER SCREEN SHOTS ABOVE OR IN OTHER DOCS THAT SHOW ALL THE FIELDS, IN INCLUDE THE NEW ONE?! ***************
+È possibile utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or team--> a un record. Questo è un campo di completamento automatico ed è possibile aggiungere solo utenti<!--, roles, or teams--> che esistono già in Workfront.
 
-1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. *************ensure they updated this; and update the screen shot: it used to be "Label"**********
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-1. Click **Create**.
+1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, seleziona la **Persone** tipo di campo.
 
-    The new People-type field is added as a column to the record type and its values can be associated with records. The field also displays on the Details page of a record. 
+   ![](assets/people-field-type.png)
 
--->
+1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
+   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record.
+   * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
+   * **Consenti più valori**: seleziona questa opzione se desideri consentire agli utenti di aggiungere più di un utente in questo campo. Questa opzione è deselezionata per impostazione predefinita.
+
+   >[!NOTE]
+   >
+   >    Se si seleziona Consenti più valori e più utenti vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro durante la modifica del campo.
+1. Fai clic su **Crea**.
+
+   Il nuovo campo Persone viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record. Il campo viene visualizzato anche nella pagina Dettagli di un record.
 
 ## Creare i campi collegando i tipi di record
 

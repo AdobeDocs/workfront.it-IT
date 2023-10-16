@@ -6,9 +6,9 @@ description: È possibile copiare o spostare un'attività modello nello stesso m
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '2138'
+source-wordcount: '2102'
 ht-degree: 3%
 
 ---
@@ -52,22 +52,23 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 Quando copi un’attività modello, tieni presente quanto segue:
 
-* I milestone non vengono trasferiti all&#39;attività modello copiata o spostata.
+* Per impostazione predefinita, le informazioni seguenti vengono trasferite all&#39;attività spostata:
 
-* Le sottoattività vengono trasferite alla nuova attività modello.
-* I moduli personalizzati vengono copiati con l’attività modello. Le informazioni contenute nei campi personalizzati vengono trasferite alla nuova attività modello solo quando si seleziona di copiare i dati personalizzati.
+   * Moduli personalizzati e informazioni sui campi personalizzati.
+   * Sottoattività.
+
+* Le seguenti informazioni non vengono trasferite all&#39;attività spostata o copiata:
+
+   * I milestone non vengono trasferiti all&#39;attività modello copiata o spostata.
+
 * È possibile selezionare di copiare alcuni elementi associati all&#39;attività modello nell&#39;attività copiata durante il processo di copia. Tuttavia, per impostazione predefinita, i seguenti oggetti non vengono trasferiti all&#39;attività copiata:
 
    * Commenti utente
-
-* Puoi copiare un’attività modello nelle seguenti aree dell’applicazione web Adobe Workfront:
-
-   * A livello di attività del modello, da **Icona Altro** ![](assets/more-icon.png) a destra del nome dell&#39;attività modello.
-
-   * In un elenco di attività modello.
-* È possibile copiare o spostare le attività modello una alla volta oppure selezionando più attività modello.
+* I moduli personalizzati vengono copiati con l’attività modello. Le informazioni contenute nei campi personalizzati vengono trasferite alla nuova attività modello solo quando si seleziona di copiare i dati personalizzati.
 
 ## Copia attività modello
+
+È possibile copiare una singola attività modello oppure più attività modello in blocco.
 
 1. Passare al modello contenente l&#39;attività modello o le attività modello che si desidera copiare.
 1. Clic **Attività modello** nel pannello a sinistra.
@@ -165,7 +166,6 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
     </tbody> 
    </table>
 
-(DOMANDA SULL’ULTIMA RIGA: L’ATTIVITÀ MODELLO NON SEMBRA AVERE &quot;CONDIVISIONE&quot;)
 
 1. (Facoltativo) Fai clic su **Seleziona elemento padre** nel pannello a sinistra, seleziona l’attività modello nel modello di destinazione che desideri diventi l’attività padre dell’attività modello copiata.
 
@@ -191,8 +191,7 @@ Viene visualizzata la casella Copia attività modello (Copy Template Task).
 
 ## Sposta le attività modello
 
-Oltre a copiare le attività modello, è anche possibile spostare un&#39;attività modello in un&#39;altra attività modello nello stesso modello o in un altro modello.
-
+È possibile spostare un&#39;attività modello in un&#39;altra attività modello nello stesso modello o in un altro modello. È possibile spostare una o più attività modello in blocco.
 
 1. Passare al modello contenente l&#39;attività modello o le attività modello che si desidera spostare.
 1. Clic **Attività modello** nel pannello a sinistra.
@@ -300,7 +299,6 @@ Viene visualizzata la casella Sposta attività modello (Move Template Task).
     </tbody> 
    </table>
 
-(DOMANDA SULL’ULTIMA RIGA: L’ATTIVITÀ MODELLO NON SEMBRA AVERE &quot;CONDIVISIONE&quot;)
 
 1. (Facoltativo) Fai clic su **Seleziona elemento padre** nel pannello a sinistra, seleziona l’attività modello nel modello di destinazione che desideri diventi l’attività padre dell’attività modello spostata.
 

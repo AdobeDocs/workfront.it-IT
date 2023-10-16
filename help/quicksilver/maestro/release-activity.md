@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,22 @@ In questa sezione sono elencate le funzioni e le patch rilasciate dopo il lancio
 
 Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rilascio, con la prima più recente. I clienti che partecipano al programma Maestro closed beta possono accedere a tutte le funzioni nei loro ambienti di anteprima e produzione.
 
+## Settimana del 16 ottobre 2023
+
+### Nuovo tipo di campo Persone
+
+Anteprima e produzione: 16 ottobre 2023
+
+Ora puoi aggiungere un campo di tipo Persone ai tipi di record Maestro. È possibile utilizzare i campi di tipo Persone per associare gli utenti esistenti a un record. Per informazioni, consulta [Crea campi](../maestro/architecture-and-fields/create-fields.md).
+
+
+### Formato Rich Text per campi Paragrafo
+
+Anteprima e produzione: 16 ottobre 2023
+
+Sono stati aggiunti controlli di formato Rich Text per i campi di tipo Paragrafo. È possibile formattare i campi paragrafo utilizzando il formato RTF nella visualizzazione Tabella di un tipo di record o nella pagina Dettagli di un record. Per ulteriori informazioni, consulta [Modifica record](../maestro/records/edit-records.md).
+
+
 ## Settimana del 9 ottobre 2023
 
 ### Cerca nella vista tabella
@@ -41,24 +57,6 @@ Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rila
 Anteprima e produzione: 9 ottobre 2023
 
 È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista tabella. È possibile utilizzare parole chiave e caratteri speciali in qualsiasi campo visibile sullo schermo per trovare un record. Per informazioni, consulta [Gestire la vista tabella](../maestro/views/manage-the-table-view.md).
-
-<!--
-***********WHICH WEEK IS THIS???***********
-
-### New People field type 
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-You can now add a People-type field to Maestro record types. You can use People-type fields to add existing users, job roles, or teams to a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
-
-
-### Rich Text- format for Paragraph fields
-
-Preview and production: ************ADD INFORMATION HERE***********
-
-We have added Rich Text format controls for Paragraph-type fields. For more information, see [Edit records](../maestro/records/edit-records.md). 
-
--->
 
 ## Settimana del 18 settembre 2023
 

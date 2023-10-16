@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -86,9 +86,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Considerazioni sulla modifica dei record
 
 * È possibile modificare i record creati dall&#39;utente corrente o da un altro utente. <!--will change with access levels-->
-* Se i record modificati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati.
+* Non è possibile modificare i campi collegati da altri record o campi che contengono calcoli.
+* Se i record visualizzati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
-* Non è possibile modificare i campi collegati da altri record.
+* Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
+* Durante la modifica di un campo di tipo Paragrafo, è possibile utilizzare le seguenti opzioni di formattazione Rich Text:
+
+   * Bold
+   * Italic
+   * Sottolinea
+   * Aggiungi un collegamento
+   * Aggiungere un elenco puntato
+   * Aggiungere un elenco numerato
 
 ## Modifica record
 
@@ -99,9 +108,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ### Modificare un record dalla pagina Dettagli del record
 
-1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/main-menu-shell.png) nell’angolo in alto a sinistra, se è disponibile, fai clic su Maestro.
+1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/main-menu-shell.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro**.
 
    Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
+
+1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
 1. Esegui una delle operazioni seguenti:
 
    * In una visualizzazione Tabella fare clic sul nome di un record.
@@ -120,11 +131,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-   >[!NOTE]
-   >
-   >    I campi collegati o che contengono calcoli o sono generati dal sistema non sono modificabili.
-
-
 1. Clic **Salva modifiche**. <!--logged a bug for this - this needs to be "Save"-->
 
 ### Modificare un record dalla vista tabella del tipo di record
@@ -132,24 +138,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) in alto a destra, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> quindi fai clic su **Maestro** ![](assets/maestro-icon.png).
 
    Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
+
+1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
 1. (Condizionale) Da **Visualizza** nell&#39;angolo superiore destro della tabella, selezionare una vista Tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
 
    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
-1. Fare clic all&#39;interno della riga di un record per iniziare a modificare le informazioni sul record in linea, quindi premere **Invio** sulla tastiera per salvare le modifiche. Le modifiche vengono salvate automaticamente.
+1. Fare clic all&#39;interno della riga di un record per iniziare a modificare le informazioni sul record in linea.
 
-   >[!TIP]
-   >
-   >* I campi collegati non sono modificabili. Le informazioni per questi campi vengono compilate automaticamente dai record collegati. Per informazioni, consulta [Connetti tipi di record](../architecture-and-fields/connect-record-types.md).
-   >
-   >* Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
-<!--for rich text formatting - when released:
-
-1. (Conditional) When you edit a Paragraph-type field, use the following Rich Text formatting capabilities: 
-
-    * Bold
-    * Italic
-    * Underline (*****anything else?? insert a screen shot?***********)
--->
+   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+1. Premi **Invio** sulla tastiera o fare clic all&#39;esterno di una riga per salvare le modifiche. Le modifiche vengono salvate automaticamente.

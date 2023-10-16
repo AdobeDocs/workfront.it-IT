@@ -6,9 +6,9 @@ description: È possibile copiare un'attività da un progetto a un altro oppure 
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1717'
 ht-degree: 1%
 
 ---
@@ -85,30 +85,18 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 Quando copi un’attività, tieni presente quanto segue:
 
-* Le attività cardine vengono trasferite all&#39;attività copiata e rimosse dall&#39;attività originale.
 * Quando si copia un&#39;attività da un progetto a un altro, le date dell&#39;attività potrebbero essere ricalcolate. Il ricalcolo terrà conto della pianificazione utilizzata dal nuovo progetto e delle informazioni di Schedule From del progetto.
-* Le sottoattività vengono trasferite alla nuova attività.
 * I moduli personalizzati vengono copiati con l’attività. Le informazioni contenute nei campi personalizzati vengono trasferite alle attività copiate solo quando si seleziona di copiare i dati personalizzati durante la copia dell&#39;attività.
 * È possibile scegliere di copiare alcuni elementi associati all&#39;attività nell&#39;attività copiata durante il processo di copia. Tuttavia, per impostazione predefinita, i seguenti oggetti non vengono trasferiti all&#39;attività copiata:
    * Problemi
    * Ore registrate
-   * Commenti utente <!--not sure about this, enable only if requested by users and vrified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+   * Commenti utente <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. -->
+* Gli elementi seguenti vengono spostati nell&#39;attività copiata per impostazione predefinita:
 
-Puoi copiare un’attività nelle seguenti aree dell’applicazione web Adobe Workfront:
+   * Le attività cardine vengono trasferite all&#39;attività copiata e rimosse dall&#39;attività originale.
+   * Le sottoattività vengono trasferite alla nuova attività.
 
-* A livello di attività, da **Icona Altro** ![](assets/qs-more-menu-19x7.png) a destra del nome dell&#39;attività.
-
-  Per informazioni, vedere [Copiare un&#39;attività a livello di attività](#copy-a-task-at-the-task-level) in questo articolo.
-
-* In un elenco di attività, eseguendo una delle operazioni seguenti:
-
-   * Fare clic con il pulsante destro del mouse sul nome di un&#39;attività.
-   * Selezionare l&#39;attività o le attività ed espandere **Altro** icona ![](assets/more-icon-task-list.png) nella parte superiore dell&#39;elenco delle attività.
-   * Selezionare un&#39;attività ed espandere **Altro** icona ![](assets/more-icon-task-list.png) accanto al nome dell&#39;attività.
-
-     Questa opzione non è disponibile quando si selezionano più attività.
-
-  Per informazioni, vedere [Copiare le attività in un elenco](#copy-tasks-in-a-list) in questo articolo.
+* È possibile copiare un&#39;attività alla volta oppure più attività contemporaneamente quando si modificano le attività in un elenco.
 
 ## Copiare le attività in un elenco {#copy-tasks-in-a-list}
 
@@ -118,7 +106,7 @@ Puoi copiare un’attività nelle seguenti aree dell’applicazione web Adobe Wo
 
    Passare a un report attività.
 
-1. Clic **Attività** nel pannello a sinistra.
+1. (Condizionale) Fai clic su **Attività** nel pannello a sinistra, se hai aperto il progetto che contiene le attività.
 1. Fai clic su **Menu della modalità Piano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , quindi **Salvataggio automatico**.
 
    >[!IMPORTANT]
@@ -129,24 +117,22 @@ Puoi copiare un’attività nelle seguenti aree dell’applicazione web Adobe Wo
 
    * Fai clic su **Menu Altro** nella parte superiore dell&#39;elenco delle attività, quindi fare clic su **Copia in**.
    * Fare clic con il pulsante destro del mouse sulle attività selezionate, quindi scegliere **Copia in**.
-   * Quando si seleziona un&#39;attività, fare clic su **Altro** menu ![](assets/more-icon-task-list.png) accanto al nome dell&#39;attività nell&#39;elenco, quindi fare clic su **Copia in**.
+   * Quando si seleziona un&#39;attività, fare clic su **Altro** menu ![](assets/more-icon-task-list.png) accanto al nome dell&#39;attività nell&#39;elenco, quindi fare clic su **Copia in**.
 
    ![](assets/copy-task-in-list-nwe-350x131.png)
 
 1. Continua a copiare l’attività come descritto nella sezione [Copiare un&#39;attività a livello di attività](#copy-a-task-at-the-task-level) a partire dal passaggio 4.
 
    <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this still accurate?!)
-   </MadCap:conditionalText>
+      (NOTE: is this still accurate?!)
    -->
 
 ## Copiare un&#39;attività a livello di attività {#copy-a-task-at-the-task-level}
 
-Oltre a copiare le attività in un elenco di attività, è possibile copiare un&#39;attività dopo averla aperta. 
+Oltre a copiare le attività in un elenco di attività, è possibile copiare un&#39;attività dopo averla aperta.
 
 1. Cercare un&#39;attività nel sistema Workfront.
-1. Fare clic sul nome dell&#39;attività per aprirla. 
+1. Fare clic sul nome dell&#39;attività per aprirla.
 1. Fai clic su **Altro** menu a discesa ![](assets/qs-more-menu.png) accanto al nome dell&#39;attività, quindi fare clic su **Copia** **a**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
@@ -161,7 +147,7 @@ Oltre a copiare le attività in un elenco di attività, è possibile copiare un&
    >
    >![](assets/copy-task-multiple-tasks-box-with-list-of-task-names-nwe-350x130.png)
 
-1. Digita il nome del **Progetto di destinazione** dove si desidera copiare l&#39;attività in **Seleziona progetto di destinazione** campo. 
+1. Digita il nome del **Progetto di destinazione** dove si desidera copiare l&#39;attività in **Seleziona progetto di destinazione** campo.
 
    >[!TIP]
    >
@@ -171,20 +157,20 @@ Oltre a copiare le attività in un elenco di attività, è possibile copiare un&
 
    Il nome del progetto corrente viene visualizzato per impostazione predefinita. Se si desidera copiare l&#39;attività all&#39;interno dello stesso progetto, lasciare questo campo invariato.
 
-1. (Condizionale) Fai clic su **richiedi accesso** per richiedere l’accesso al progetto, se non hai accesso al progetto selezionato.
+1. (Condizionale) Fai clic su **richiedi accesso** per richiedere l’accesso al progetto, se non hai accesso al progetto selezionato.
 1. (Facoltativo) Continua a copiare l&#39;attività nel progetto di destinazione selezionato senza richiedere l&#39;accesso se disponi dell&#39;accesso per aggiungere attività a una delle attività nel progetto di destinazione.
 
    ![](assets/copy-task-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >
-   >Messaggi simili vengono visualizzati se il progetto selezionato è in attesa di approvazione, completato o inattivo, quando l’amministratore di Workfront impedisce l’aggiunta di attività a questi progetti. Per ulteriori informazioni, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   >Messaggi simili vengono visualizzati se il progetto selezionato è in attesa di approvazione, completato o inattivo, quando l’amministratore di Workfront impedisce l’aggiunta di attività a questi progetti. Per ulteriori informazioni, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. Clic **Opzioni** nel pannello a sinistra, deseleziona gli attributi dell’attività che non desideri copiare con l’attività. Tutte le opzioni sono selezionate per impostazione predefinita.
+1. Clic **Opzioni** nel pannello a sinistra, deseleziona gli attributi dell’attività che non desideri copiare con l’attività. Tutte le opzioni sono selezionate per impostazione predefinita.
 
    >[!TIP]
    >
-   Selezione e deselezione **Seleziona tutto** deseleziona tutte le opzioni.
+   >Selezione e deselezione **Seleziona tutto** deseleziona tutte le opzioni.
 
    Deseleziona le seguenti opzioni per non trasferirle all’attività copiata. La tabella seguente descrive cosa accade quando le opzioni vengono deselezionate:
 
@@ -239,24 +225,24 @@ Oltre a copiare le attività in un elenco di attività, è possibile copiare un&
     </tbody> 
    </table>
 
-1.  (Facoltativo) Fai clic su **Seleziona elemento padre** nel pannello a sinistra, seleziona l’attività nel progetto di destinazione che desideri diventi l’attività principale dell’attività copiata.
+1. (Facoltativo) Fai clic su **Seleziona elemento padre** nel pannello a sinistra, seleziona l’attività nel progetto di destinazione che desideri diventi l’attività principale dell’attività copiata.
 
-   >[!TIP]
-   >
-   Quando si seleziona per copiare più attività in un elenco, tutte le attività selezionate diventano gli elementi figlio dell&#39;elemento padre selezionato.
+>[!TIP]
+>
+>Quando si seleziona per copiare più attività in un elenco, tutte le attività selezionate diventano gli elementi figlio dell&#39;elemento padre selezionato.
 
-   Selezionare un elemento padre eseguendo una delle operazioni seguenti:
+Selezionare un elemento padre eseguendo una delle operazioni seguenti:
 
-   * Nell&#39;elenco delle attività selezionare uno dei padri nel piano di progetto.
-   * Fai clic sull’icona di ricerca ![Icona Ricerca](assets/search-icon.png) e cercare un&#39;attività padre per nome.
+* Nell&#39;elenco delle attività selezionare uno dei padri nel piano di progetto.
+* Fai clic sull’icona di ricerca ![Icona Ricerca](assets/search-icon.png) e cercare un&#39;attività padre per nome.
 
-   L&#39;attività dovrebbe essere visualizzata nell&#39;elenco.
+L&#39;attività dovrebbe essere visualizzata nell&#39;elenco.
 
-   ![Selezionare l&#39;attività padre quando si sposta un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+![Selezionare l&#39;attività padre quando si sposta un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
-1. Dopo averlo trovato, seleziona il pulsante di opzione relativo al genitore. 
+1. Dopo averlo trovato, seleziona il pulsante di opzione relativo al genitore.
 
-   Se non si seleziona un&#39;attività padre, le attività vengono copiate come attività principali anziché come sottoattività e verranno inserite alla fine dell&#39;elenco delle attività nel progetto di destinazione. 
+   Se non si seleziona un&#39;attività padre, le attività vengono copiate come attività principali anziché come sottoattività e verranno inserite alla fine dell&#39;elenco delle attività nel progetto di destinazione.
 
 1. Clic **Copia attività**
 
@@ -275,7 +261,6 @@ Le attività copiate si trovano ora nel progetto specificato e sono sottoattivit
 ### Considerazioni sulla duplicazione delle attività {#considerations-for-duplicating-tasks}
 
 * È possibile duplicare un&#39;attività in un elenco di attività solo se l&#39;elenco è ordinato in base al numero di attività.
-
 * La nuova attività avrà lo stesso nome dell&#39;attività originale.
 * Impossibile selezionare le informazioni da duplicare nella nuova attività. Per impostazione predefinita, quasi tutte le informazioni dell&#39;attività originale vengono trasferite all&#39;attività duplicata, inclusa la relazione padre.
 * I seguenti elementi non vengono trasferiti alla nuova attività:
@@ -285,10 +270,12 @@ Le attività copiate si trovano ora nel progetto specificato e sono sottoattivit
    * Problemi
    * Solo i predecessori che fanno parte dello stesso gruppo di attività copiate vengono copiati con le attività successori.
 
-     **Esempio:** Ad esempio, se si copia contemporaneamente l&#39;Attività 2 e il suo predecessore, l&#39;Attività 1, si disporrà di una copia dell&#39;Attività 2 e di una copia dell&#39;Attività 1. La copia dell&#39;attività 1 sarà la copia precedente dell&#39;attività 2. Ma se copi solo l&#39;Attività 2 senza copiare il suo predecessore, allora la sua copia non avrà alcun predecessore.
+     **ESEMPIO**
+
+     Ad esempio, se si copia contemporaneamente l&#39;Attività 2 e il suo predecessore, l&#39;Attività 1, si disporrà di una copia dell&#39;Attività 2 e di una copia dell&#39;Attività 1. La copia dell&#39;attività 1 sarà la copia precedente dell&#39;attività 2. Ma se copi solo l&#39;Attività 2 senza copiare il suo predecessore, allora la sua copia non avrà alcun predecessore.
 
 * Quando si duplica un&#39;attività padre, vengono duplicate anche tutte le attività figlio, anche quando le attività figlio non sono selezionate.
-* È possibile duplicare più attività contemporaneamente.
+* È possibile duplicare una o più attività contemporaneamente.
 
   Tuttavia, non è possibile duplicare più attività non sequenziali contemporaneamente.
 
@@ -312,4 +299,4 @@ Le attività copiate si trovano ora nel progetto specificato e sono sottoattivit
 
       1. Clic **Salva** per salvare le modifiche.
 
-   1. Modificare le attività in un elenco
+         Le attività vengono duplicate e aggiunte allo stesso progetto delle attività originali.
