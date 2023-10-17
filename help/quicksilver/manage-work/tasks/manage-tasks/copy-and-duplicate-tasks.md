@@ -6,9 +6,9 @@ description: È possibile copiare un'attività da un progetto a un altro oppure 
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '1717'
+source-wordcount: '1727'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,9 @@ Quando copi un’attività, tieni presente quanto segue:
    Passare a un report attività.
 
 1. (Condizionale) Fai clic su **Attività** nel pannello a sinistra, se hai aperto il progetto che contiene le attività.
-1. Fai clic su **Menu della modalità Piano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) , quindi **Salvataggio automatico**.
+1. Fai clic su **Modalità pianificazione** icona ![](assets/qs-list-mode-or-save-mode-icon-small.png)e garantire che **Salvataggio automatico** l&#39;opzione è abilitata.
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
 
    >[!IMPORTANT]
    >
@@ -227,22 +229,22 @@ Oltre a copiare le attività in un elenco di attività, è possibile copiare un&
 
 1. (Facoltativo) Fai clic su **Seleziona elemento padre** nel pannello a sinistra, seleziona l’attività nel progetto di destinazione che desideri diventi l’attività principale dell’attività copiata.
 
->[!TIP]
->
->Quando si seleziona per copiare più attività in un elenco, tutte le attività selezionate diventano gli elementi figlio dell&#39;elemento padre selezionato.
+   >[!TIP]
+   >
+   >Quando si seleziona per copiare più attività in un elenco, tutte le attività selezionate diventano gli elementi figlio dell&#39;elemento padre selezionato.
 
-Selezionare un elemento padre eseguendo una delle operazioni seguenti:
+   Selezionare un elemento padre eseguendo una delle operazioni seguenti:
 
-* Nell&#39;elenco delle attività selezionare uno dei padri nel piano di progetto.
-* Fai clic sull’icona di ricerca ![Icona Ricerca](assets/search-icon.png) e cercare un&#39;attività padre per nome.
+   * Nell&#39;elenco delle attività selezionare uno dei padri nel piano di progetto.
+   * Fai clic sull’icona di ricerca ![Icona Ricerca](assets/search-icon.png) e cercare un&#39;attività padre per nome.
 
-L&#39;attività dovrebbe essere visualizzata nell&#39;elenco.
+   L’attività viene visualizzata nell’elenco.
 
-![Selezionare l&#39;attività padre quando si sposta un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
+   ![Selezionare l&#39;attività padre quando si sposta un&#39;attività con funzionalità di ricerca ](assets/select-parent-when-moving-tasks-with-search-functionality-nwe-350x110.png)
 
 1. Dopo averlo trovato, seleziona il pulsante di opzione relativo al genitore.
 
-   Se non si seleziona un&#39;attività padre, le attività vengono copiate come attività principali anziché come sottoattività e verranno inserite alla fine dell&#39;elenco delle attività nel progetto di destinazione.
+   Se non si seleziona un&#39;attività padre, le attività vengono copiate come attività principali anziché come attività secondarie e si trovano alla fine dell&#39;elenco delle attività nel progetto di destinazione.
 
 1. Clic **Copia attività**
 
@@ -287,11 +289,11 @@ Le attività copiate si trovano ora nel progetto specificato e sono sottoattivit
 1. Clic **Attività** nel pannello a sinistra.
 1. Esegui una delle operazioni seguenti:
 
-   * (Condizionale) Fai clic su **Menu della modalità Piano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Salvataggio automatico**, seleziona le attività da duplicare, quindi fai clic sul pulsante **Menu Altro** ![](assets/qs-more-menu-29x11.png) > **Duplica**.
+   * (Condizionale) Fai clic su **Modalità pianificazione** icona ![](assets/qs-list-mode-or-save-mode-icon-small.png) e garantire **Salvataggio automatico** è attivata, seleziona le attività da duplicare, quindi fai clic sul pulsante **Menu Altro** ![](assets/qs-more-menu-29x11.png) > **Duplica**.
 
      ![](assets/duplicate-tasks-in-list-nwe-350x196.png)
 
-   * (Condizionale) Fai clic su **Menu della modalità Piano** ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Salvataggio manuale** > **Standard** o **Pianificazione sequenza temporale**, quindi eseguire le operazioni seguenti:
+   * (Condizionale) Fai clic su **Modalità pianificazione** icona ![](assets/qs-list-mode-or-save-mode-icon-small.png) > **Salvataggio manuale** > **Standard** o **Pianificazione sequenza temporale**, quindi eseguire le operazioni seguenti:
 
       1. Selezionare l&#39;attività o le attività da duplicare e fare clic su **Duplica**.
       1. (Facoltativo) Fai clic su **Annulla** per annullare le modifiche e non duplicare le attività.

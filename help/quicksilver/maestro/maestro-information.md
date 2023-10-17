@@ -4,13 +4,13 @@ description: In qualità di leader delle operazioni di marketing, puoi utilizzar
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
-
 
 # Informazioni Adobe Maestro
 
@@ -53,8 +53,8 @@ Accedi ai seguenti articoli per una panoramica di Adobe Maestro:
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 * [Guarda un video dimostrativo di Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [Panoramica di Maestro](maestro-overview.md): panoramica di alto livello di Adobe Maestro, inclusi la terminologia e i concetti specifici di questa soluzione. Consigliamo di iniziare il percorso con Maestro qui.
-* [Attività di rilascio](../maestro/release-activity.md): elenco di tutte le funzioni rilasciate dal lancio del programma beta chiuso Maestro, il 22 maggio 2023, con date di rilascio esatte e una breve panoramica di ciascuna funzione.
+* [Panoramica di Adobe Maestro](maestro-overview.md): panoramica di alto livello di Adobe Maestro, inclusi la terminologia e i concetti specifici di questa soluzione. Consigliamo di iniziare il percorso con Maestro qui.
+* [Attività di rilascio Adobe Maestro](../maestro/release-activity.md): elenco di tutte le funzioni rilasciate dal lancio del programma beta chiuso Maestro, il 22 maggio 2023, con date di rilascio esatte e una breve panoramica di ciascuna funzione.
 
 ## Architettura e funzionalità Maestro
 
@@ -64,4 +64,3 @@ Le sezioni seguenti contengono articoli che descrivono in dettaglio le funzioni 
 * [Informazioni sull&#39;architettura](../maestro/architecture-and-fields/architecture-and-fields-information.md): informazioni approfondite sull’architettura di Adobe Maestro, con istruzioni dettagliate su come creare e gestire aree di lavoro, tipi di record e campi.
 * [Informazioni sui record](../maestro/records/records-information.md): informazioni approfondite e istruzioni dettagliate su come creare e gestire i record.
 * [Informazioni sulle visualizzazioni](../maestro/views/views-information.md): informazioni approfondite sulle visualizzazioni Maestro e su come gestirle.
-

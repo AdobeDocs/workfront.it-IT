@@ -4,9 +4,10 @@ description: I seguenti articoli descrivono come configurare l’architettura di
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -51,10 +52,8 @@ Gli articoli nelle sezioni seguenti descrivono come configurare le aree di lavor
 * [Modifica tipi di record](../architecture-and-fields/edit-record-types.md)
 * [Connetti tipi di record](../architecture-and-fields/connect-record-types.md)
 * [Esempio di connessione di tipi di record e record](../architecture-and-fields/example-connect-record-types-and-records.md)
-* [Creazione di campi in Adobe Maestro](../architecture-and-fields/create-fields.md)
+* [Crea campi](../architecture-and-fields/create-fields.md)
 * [Modifica campi](../architecture-and-fields/edit-fields.md)
 * [Eliminare le aree di lavoro](../architecture-and-fields/delete-workspaces.md)
 * [Elimina tipi di record](../architecture-and-fields/delete-record-types.md)
 * [Elimina campi](../architecture-and-fields/delete-fields.md)
-
-

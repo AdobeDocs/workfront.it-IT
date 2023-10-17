@@ -4,19 +4,21 @@ description: Scopri come concedere l’accesso e condividere le informazioni in 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
+source-git-commit: 1e49cbaf8dfc0c308f45faabb45ebbfaaba3d65d
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Concedere l’accesso a Adobe Maestro
 
 >[!IMPORTANT]
+>
+>Adobe Maestro è una nuova offerta di Adobe Workfront.
 >
 >Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
@@ -26,8 +28,6 @@ ht-degree: 0%
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe Maestro è una nuova offerta di Adobe Workfront. Per ulteriori informazioni, consulta [Panoramica di Maestro](../maestro-overview.md).
 
 Attualmente, tutti gli utenti della tua organizzazione possono accedere a Maestro se è presente il seguente prerequisito:
 
@@ -50,9 +50,9 @@ Dopo che la tua organizzazione è stata iscritta al programma beta Maestro, puoi
 
 Per condividere l&#39;area Maestro utilizzando un modello di layout:
 
-1. Accedi a Workfront come amministratore di sistema.
+1. Accedi a **Workfront** come amministratore di sistema.
 
-1. Aggiungi l’icona Maestro al menu principale utilizzando un modello di layout.
+1. Aggiungi il **Maestro** icona ![](assets/maestro-icon.png) al **Menu principale** utilizzando un **Modello di layout**.
 
    Per informazioni, consulta [Personalizzare il menu principale utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -63,6 +63,3 @@ Per condividere l&#39;area Maestro utilizzando un modello di layout:
    Tutti gli utenti assegnati al modello ora possono accedere a Maestro nel loro menu principale.
 
    Gli utenti possono iniziare a creare workspace, tipi di record, record e campi.
-
-
-

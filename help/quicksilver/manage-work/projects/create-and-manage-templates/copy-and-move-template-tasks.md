@@ -6,9 +6,9 @@ description: È possibile copiare o spostare un'attività modello nello stesso m
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
-source-wordcount: '2102'
+source-wordcount: '2127'
 ht-degree: 3%
 
 ---
@@ -50,21 +50,33 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 ## Considerazioni per la copia o lo spostamento di attività modello
 
-Quando copi un’attività modello, tieni presente quanto segue:
+Quando copi le attività modello, tieni presente quanto segue:
+
+* Le seguenti informazioni non vengono trasferite all&#39;attività copiata:
+
+   * Le Milestone
+
+* È possibile selezionare di copiare alcuni elementi associati all&#39;attività modello nell&#39;attività copiata durante il processo di copia. Tuttavia, per impostazione predefinita, i seguenti oggetti non vengono trasferiti all&#39;attività copiata:
+
+   * Commenti utente
+
+* I moduli personalizzati vengono copiati con l&#39;attività modello quando si copia un&#39;attività modello. Le informazioni contenute nei campi personalizzati vengono trasferite alla nuova attività modello solo quando si seleziona di copiare i dati personalizzati.
+
+* Per impostazione predefinita, i seguenti elementi vengono trasferiti all&#39;attività modello copiata:
+
+   * Sottoattività
+
+Quando si spostano le attività modello, considera quanto segue:
 
 * Per impostazione predefinita, le informazioni seguenti vengono trasferite all&#39;attività spostata:
 
    * Moduli personalizzati e informazioni sui campi personalizzati.
    * Sottoattività.
+   * Commenti utente.
 
-* Le seguenti informazioni non vengono trasferite all&#39;attività spostata o copiata:
+* Le seguenti informazioni non vengono trasferite all&#39;attività spostata:
 
-   * I milestone non vengono trasferiti all&#39;attività modello copiata o spostata.
-
-* È possibile selezionare di copiare alcuni elementi associati all&#39;attività modello nell&#39;attività copiata durante il processo di copia. Tuttavia, per impostazione predefinita, i seguenti oggetti non vengono trasferiti all&#39;attività copiata:
-
-   * Commenti utente
-* I moduli personalizzati vengono copiati con l’attività modello. Le informazioni contenute nei campi personalizzati vengono trasferite alla nuova attività modello solo quando si seleziona di copiare i dati personalizzati.
+   * Le Milestone.
 
 ## Copia attività modello
 

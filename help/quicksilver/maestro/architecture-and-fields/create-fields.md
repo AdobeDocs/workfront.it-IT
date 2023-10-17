@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4895a85084c1554cfd773cf51ea0c922f7701414
+source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
 workflow-type: tm+mt
 source-wordcount: '2828'
 ht-degree: 2%
@@ -406,6 +406,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
    >[!NOTE]
    >
    >    Se si seleziona Consenti più valori e più utenti vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro durante la modifica del campo.
+
 1. Fai clic su **Crea**.
 
    Il nuovo campo Persone viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record. Il campo viene visualizzato anche nella pagina Dettagli di un record.
