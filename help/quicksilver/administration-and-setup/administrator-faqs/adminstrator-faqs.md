@@ -1,5 +1,5 @@
 ---
-title: Domande frequenti sull’amministratore
+title: Domande frequenti sugli amministratori
 user-type: administrator
 content-type: faq;reference
 product-area: system-administration
@@ -8,19 +8,19 @@ description: Qui trovi le risposte alle domande più frequenti per gli amministr
 feature: System Setup and Administration
 role: Admin
 exl-id: 9b230142-de71-4577-8e67-35e8a6b9b932
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01351c0d86b0deea2d952564172841ba6a77c894
 workflow-type: tm+mt
-source-wordcount: '24'
+source-wordcount: '26'
 ht-degree: 0%
 
 ---
 
-# Domande frequenti sull’amministratore
+# Domande frequenti sugli amministratori
 
-Questa sezione contiene i seguenti articoli:
+Per gli amministratori sono disponibili i seguenti articoli sulle domande frequenti:
 
-* [Criterio di supporto atTask OnPremise](../../administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
+* [Criterio di supporto AtTask OnPremise](../../administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
 
-   <!--
+  <!--
   <li Migrating to another cluster</a> </li>
   -->
