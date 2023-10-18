@@ -2,70 +2,67 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calcola indice prestazioni pianificazione costi (CSI)
-description: L'indice delle prestazioni della pianificazione dei costi (CSI) è un calcolo automatico che combina l'indice delle prestazioni dei costi (CPI) e l'indice delle prestazioni della programmazione (SPI) in un'unica metrica generale che bilancia i costi e la pianificazione.
+title: Calcola indice prestazioni programma costi (CSI)
+description: Il CSI (Cost Schedule Performance Index) è un calcolo automatico che combina l'IPC (Cost Performance Index) e l'IPP (Schedule Performance Index) in un'unica metrica generale che bilancia i costi e la programmazione.
 author: Alina
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 0%
 
 ---
 
-# Calcola indice prestazioni pianificazione costi (CSI)
+# Calcola indice prestazioni programma costi (CSI)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.) </p>
 -->
 
-## Panoramica dell&#39;indice di prestazioni della pianificazione dei costi (CSI)
+## Panoramica dell&#39;indice delle prestazioni del programma di costo (CSI)
 
-L&#39;indice delle prestazioni della pianificazione dei costi (CSI) è un calcolo automatico che combina l&#39;indice delle prestazioni dei costi (CPI) e l&#39;indice delle prestazioni della programmazione (SPI) in un&#39;unica metrica generale che bilancia i costi e la pianificazione. Moltiplicando insieme questi valori, una singola metrica può rappresentare un programma prolungato a un budget inferiore o viceversa. I responsabili del progetto possono utilizzare questa opzione per determinare lo stato generale del progetto o delle attività quando il costo viene sacrificato per guidare la pianificazione a metà progetto.
+Il CSI (Cost Schedule Performance Index) è un calcolo automatico che combina l&#39;IPC (Cost Performance Index) e l&#39;IPP (Schedule Performance Index) in un&#39;unica metrica generale che bilancia i costi e la programmazione. Moltiplicando insieme questi valori, una singola metrica può rappresentare una programmazione prolungata con un budget inferiore o viceversa. I project manager possono utilizzare questa proprietà per determinare lo stato generale del progetto o dell&#39;attività quando il costo viene sacrificato per la programmazione di metà progetto.
 
 >[!TIP]
 >
 >Adobe Workfront calcola CSI sia per le attività che per i progetti. Workfront non calcola un valore CSI per i problemi.
 
-Puoi trarre vantaggio dalle informazioni fornite da questa metrica solo se nell’organizzazione sono presenti i seguenti elementi:
+Puoi beneficiare delle informazioni fornite da questa metrica solo se nell’organizzazione sono presenti i seguenti elementi:
 
-* Gli utenti registrano il tempo di registrazione per il lavoro completato.\
-   Questo calcola CSI in base alle ore.
-* Gli utenti o i ruoli di lavoro sono associati ai tassi di costo per ora. 
+* Gli utenti registrano il tempo necessario per completare il lavoro.\
+  Questo calcola il CSI in base alle ore.
+* Agli utenti o alle mansioni sono associati tassi Costo orario. 
 
-   In questo modo viene calcolato il CSI in base ai costi.
+  Questo calcola il CSI in base ai costi.
 
-## Modalità di calcolo dell&#39;indice delle prestazioni della pianificazione dei costi (CSI) da parte di Workfront
+## Modalità di calcolo dell&#39;indice di prestazioni del programma di costo (CSI, Cost Schedule Performance Index) in Workfront
 
-Workfront calcola l&#39;indice di prestazione dei costi (CSI) di un progetto o di un&#39;attività utilizzando la formula seguente:
+Workfront calcola l&#39;indice di prestazioni dei costi (CSI, Cost Performance Index) di un progetto o di un task utilizzando la formula seguente:
 
-```
-CSI = CPI x SPI
-```
+`CSI = CPI x SPI`
 
-Per informazioni sull’IPC, consulta l’articolo [Calcola indice di prestazione dei costi (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Per informazioni sull’indice dei prezzi al consumo, consulta l’articolo [Calcola indice prestazioni costi (IPC)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
-Per informazioni su SPI, consulta l’articolo [Calcola indice delle prestazioni della pianificazione (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
+Per informazioni su SPI, vedere l&#39;articolo [Calcola indice prestazioni Schedule (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
 
-Il CSI ha i tre valori possibili seguenti:
+CSI ha i seguenti tre valori possibili:
 
-* 1 = segue il piano generale   
-* 
-   >1 = Combinazione dei programmi di budget
-* &lt;1 = Combinazione di piani di budget in eccesso
+* 1 = segue il piano generale
+* \>1 = Combinazione programmazione sotto budget
+* &lt;1 = Combinazione di programmi fuori budget
 
 ![](assets/csi-highlighted.png)
 
-## Individua l&#39;indice delle prestazioni della pianificazione dei costi (CSI)
+## Individuare l&#39;indice CSI (Cost Schedule Performance Index)
 
 >[!CAUTION]
 >
->Per visualizzare il valore CSI di un progetto o di un&#39;attività, è necessario disporre dell&#39;accesso a Visualizza dati finanziari nel livello di accesso e delle autorizzazioni per visualizzare il progetto o l&#39;attività.
+>Per visualizzare il valore CSI di un progetto o di un task, è necessario disporre dell&#39;accesso Visualizza dati finanziari nel proprio livello di accesso e delle autorizzazioni per visualizzare il progetto o il task.
 
-Puoi individuare CSI nelle seguenti aree di Workfront:
+È possibile individuare CSI nelle seguenti aree di Workfront:
 
-* Area finanziamenti nella sezione Dettagli progetto.
+* Area Finanza nella sezione Dettagli progetto.
 * Area Contabilità nella sezione Dettagli attività.
 * Visualizzazione di un progetto o di un&#39;attività
-* Un progetto o un rapporto di attività
+* Un report di progetto o attività
