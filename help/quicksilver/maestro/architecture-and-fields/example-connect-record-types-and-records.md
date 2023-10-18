@@ -4,17 +4,19 @@ description: Questo articolo descrive un esempio di come creare una connessione 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1758'
 ht-degree: 0%
 
 ---
 
-
 # Esempio di connessione di tipi di record e record
 
 >[!IMPORTANT]
+>
+>Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro che è una nuova offerta di Adobe.
 >
 >Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
@@ -193,6 +195,3 @@ Per eseguire questa operazione:
    >    I campi aggiunti al record Workfront Project Maestro vengono aggiunti solo nella pagina Progetto Workfront e non nella pagina Tipo di record Campagna, come campi collegati. Per visualizzare i campi relativi alle campagne, aggiungi i campi del progetto dal campo Informazioni progetto connesso a un oggetto del tipo di record Campagna.
 
 1. (Facoltativo e condizionale) Se hai selezionato di visualizzare almeno due campi data per i progetti, fai clic sul pulsante **Visualizza** nella tabella dei tipi di record di Workfront Project, quindi **Crea visualizzazione** > **Timeline** > **Crea** per creare una vista timeline e visualizzare i progetti su una timeline.
-
-
-

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '7315'
+source-wordcount: '7330'
 ht-degree: 2%
 
 ---
@@ -457,7 +457,7 @@ Per modificare i campi nell&#39;area Finanza:
        <td> <p>Controlla la modalità di contrassegnazione delle attività padre come Completate. Selezionare una delle opzioni seguenti: 
        <ul> 
        <li><strong>Automatico</strong>: le attività padre sono contrassegnate come completate e aggiornano automaticamente la loro percentuale di completamento, man mano che le attività figlio vengono completate e la percentuale di completamento degli elementi figlio viene aggiornata. </li> 
-       <li><strong>Manuale</strong>: devi aggiornare manualmente la percentuale di completamento e lo stato delle attività principali, indipendentemente dalle modifiche apportate alle attività secondarie.</li> 
+       <li><strong>Manuale</strong>: devi aggiornare manualmente la percentuale di completamento e lo stato delle attività principali, indipendentemente dalle modifiche apportate alle attività secondarie. Ciò consente di contrassegnare un'attività padre completata anche quando le sottoattività sono incomplete. </li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -480,7 +480,7 @@ Per modificare i campi nell&#39;area Finanza:
        <li>Per i vincoli delle attività relativi alla pianificazione da una data di inizio (il più presto possibile, il più presto possibile, il prima ora disponibile, l'inizio non prima del, l'inizio non più tardi del, deve iniziare il), la data di inizio pianificata non cambia, ma la data di completamento pianificata cambia.</li> 
        <li>Per i vincoli dei task relativi alla pianificazione da una data di completamento (il più tardi possibile, l'ultima ora disponibile, il più presto possibile, il più tardi possibile, il più tardi possibile, il più tardi possibile, la data di completamento pianificata non cambia, ma la data di inizio pianificata cambia.</li> 
        <li>Per le attività con un vincolo di Date fisse, non vengono modificate né l'Inizio pianificato né la Data di completamento. </li> 
-       </ul><p>La durata dell'attività non cambia quando si seleziona questa impostazione. Solo le date pianificate cambiano, a seconda del Vincolo attività. Per informazioni sul vincolo attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sui vincoli delle attività</a>. </p><p>- <strong>Ignora indisponibilità utente durante l'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto rimangono invariate rispetto a quelle pianificate in origine, anche se l’assegnatario principale dell’attività presenta un’indisponibilità per tutta la durata dell’attività. </p><p>Quando selezioni le opzioni per questa impostazione, tieni presente quanto segue:</p> 
+       </ul><p>La durata dell'attività non cambia quando si seleziona questa impostazione. Solo le date pianificate cambiano, a seconda del Vincolo attività. Per informazioni sul vincolo attività, vedere <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Panoramica sui vincoli delle attività</a>. </p><p>- <strong>Ignora indisponibilità utente durante l'attività</strong>: quando si seleziona questa opzione, le date pianificate delle attività nel progetto rimangono invariate rispetto alla pianificazione originale, anche se l’assegnatario principale dell’attività presenta un’indisponibilità durante la durata dell’attività. </p><p>Quando selezioni le opzioni per questa impostazione, tieni presente quanto segue:</p> 
        <ul> 
        <li><p>L’opzione predefinita per questa impostazione per un nuovo progetto è la stessa della preferenza di progetto a livello di sistema. </p><p>Per informazioni sulle preferenze del progetto a livello di sistema, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>. </p></li> 
        <li>Quando alleghi un modello a un progetto esistente, l’impostazione sul progetto viene aggiornata in modo da corrispondere a quella del modello. </li> 
@@ -574,7 +574,7 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
 
    | Dimensione | Percentuale |
    |---|---|
-   | Piccolo | 25% |
+   | Piccola | 25% |
    | Medio | 50% |
    | Grande | 75% |
 

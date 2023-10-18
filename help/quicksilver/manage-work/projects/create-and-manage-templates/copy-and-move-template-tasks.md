@@ -6,7 +6,7 @@ description: È possibile copiare o spostare un'attività modello nello stesso m
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
 source-wordcount: '2127'
 ht-degree: 3%
@@ -70,9 +70,9 @@ Quando si spostano le attività modello, considera quanto segue:
 
 * Per impostazione predefinita, le informazioni seguenti vengono trasferite all&#39;attività spostata:
 
-   * Moduli personalizzati e informazioni sui campi personalizzati.
-   * Sottoattività.
-   * Commenti utente.
+   * Moduli personalizzati e informazioni sui campi personalizzati
+   * Sottoattività
+   * Commenti utente
 
 * Le seguenti informazioni non vengono trasferite all&#39;attività spostata:
 

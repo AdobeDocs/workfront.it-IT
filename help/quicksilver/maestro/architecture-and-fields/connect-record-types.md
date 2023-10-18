@@ -4,13 +4,13 @@ description: Un modo per indicare la correlazione tra i singoli tipi di record c
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1742'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
-
 
 <!-----
 title: Connect record types
@@ -30,6 +30,8 @@ author: Alina
 
 >[!IMPORTANT]
 >
+>Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro che è una nuova offerta di Adobe.
+>
 >Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
@@ -42,6 +44,7 @@ author: Alina
 
 * Tipi di record operativi Maestro
 * Gestire i tipi di record operativi per i tipi di record della tassonomia
+* Tipi di tassonomia Maestro per tipi di record operativi
 * Gestire i tipi di record operativi e i tipi di oggetto di altre applicazioni.
 
 In questo modo è possibile visualizzare i campi del record collegato o del tipo di oggetto su un altro record Maestro.
@@ -250,18 +253,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * Un campo record collegato sul tipo di record a cui si sta effettuando il collegamento. Il nome del campo record collegato nel tipo di record collegato è il nome del tipo di record da cui si esegue il collegamento.
 
-     Ad esempio, se colleghi il tipo di record &quot;Prodotto&quot; dal tipo di record &quot;Campagna&quot; e denomini il campo connesso della campagna &quot;Prodotto collegato&quot;, viene creato un campo collegato &quot;Campagna&quot; per il tipo di record Prodotto.
+     Ad esempio, se colleghi il tipo di record &quot;Prodotto&quot; dal tipo di record &quot;Campagna&quot; e denomini il campo connesso della campagna &quot;Prodotto collegato&quot;, viene creato un campo di record collegato &quot;Campagna&quot; per il tipo di record Prodotto.
 
-     <!--is the statement in the note below still accurate?? they were working on removing this from taxonomies-->
-
-     >[!NOTE]
-     >
-     >Il campo record collegato che visualizza il tipo di record da cui si sta effettuando il collegamento non viene aggiunto ai tipi di record quando si collega un tipo di record con quanto segue: <!--is this temporary for taxonomies??-->
-     >        
-     >   * Una tassonomia.
-     >   * Tipo di oggetto di un&#39;altra applicazione.
-
-1. (Facoltativo) Dal tipo di record originale o dalla vista tabella del tipo di record collegato, fare clic sull&#39;elenco a discesa a destra del campo del record collegato, quindi fare clic su una delle opzioni seguenti:
+1. (Facoltativo) Nella visualizzazione per tabella del tipo di record originale o del tipo di record collegato fare clic sulla freccia rivolta verso il basso nell&#39;intestazione dei campi del record collegato, quindi scegliere una delle opzioni seguenti:
 
    * **Modifica campo**: puoi aggiornare solo il **Nome** e **Descrizione** informazioni sul campo.
    * **Modifica campi di ricerca**: aggiungi o rimuovi i campi del record collegato.
@@ -270,11 +264,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Per aggiungere o rimuovere campi, seguire le istruzioni riportate nei passaggi 7-12. <!--ensure these step numbers stay accurate-->
 
-1. (Facoltativo) Fai clic sulla freccia rivolta verso il basso nell’intestazione del record o dei campi collegati, quindi fai clic su **Elimina**.
+1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso nell&#39;intestazione del campo record collegato dal tipo di record da cui si sta eseguendo il collegamento, quindi fare clic su **Elimina**.
 
-   Il campo record ed eventuali campi di ricerca aggiuntivi vengono eliminati e non è possibile recuperare i campi e le relative informazioni.
+   Il campo record ed eventuali campi di ricerca collegati aggiuntivi vengono eliminati e non è possibile recuperare i campi e le relative informazioni.
 
    >[!TIP]
    >
-   >    Il campo record collegato nel record collegato dal record originale non viene eliminato. <!-- is this still accurate?! -->
-
+   >    Il campo del record collegato nel tipo di record a cui si sta effettuando il collegamento non viene eliminato. <!-- is this still accurate?! -->

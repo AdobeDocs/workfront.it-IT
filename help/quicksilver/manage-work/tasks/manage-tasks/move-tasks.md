@@ -6,9 +6,9 @@ description: In Adobe Workfront è possibile spostare le attività in progetti d
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1479'
 ht-degree: 2%
 
 ---
@@ -72,7 +72,7 @@ Quando si sposta un&#39;attività, tenere presente quanto segue:
 
 Per impostazione predefinita, i seguenti elementi non si spostano con l’attività:
 
-* Le attività cardine vengono trasferite all&#39;attività copiata e rimosse dall&#39;attività originale.
+* Le Milestone
 
 ## Spostare le attività in un elenco
 

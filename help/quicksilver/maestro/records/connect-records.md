@@ -4,13 +4,13 @@ description: Dopo aver creato connessioni tra tipi di record, è possibile colle
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1819'
 ht-degree: 0%
 
 ---
-
 
 <!--when you make this live, update the metadata above to this: 
 ---
@@ -29,6 +29,8 @@ hide: yes
 # Collega record
 
 >[!IMPORTANT]
+>
+>Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro che è una nuova offerta di Adobe.
 >
 >Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
@@ -276,15 +278,3 @@ Dopo aver creato una connessione tra un tipo di record Maestro e un tipo di ogge
    >  I campi aggiunti o rimossi nella pagina Tipo di record oggetto di Workfront non vengono aggiunti né rimossi dal tipo di record Maestro che si collega al tipo di oggetto di Workfront. I campi sono visibili solo nella pagina del tipo di record Workfront di sola lettura, quindi puoi esaminarli in Maestro.
 
 1. (Facoltativo) Dal menu a discesa Visualizza della pagina Tipo di record oggetto di Workfront, scegliere la vista Timeline per visualizzare gli oggetti collegati di Workfront nella vista timeline.
-
-
-
-
-
-
-
-
-
-
-
-

@@ -4,13 +4,13 @@ description: Un’area di lavoro è una raccolta di tipi di record operativi e t
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 28602d66b43ec4c30a9f13cff43157b978439d99
+exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
@@ -28,6 +28,8 @@ role: User
 # Elenco dei modelli di Workspace
 
 >[!IMPORTANT]
+>
+>Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro che è una nuova offerta di Adobe.
 >
 >Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
@@ -154,5 +156,3 @@ Di seguito sono riportati i modelli di area di lavoro disponibili in Maestro e i
       * **Team di prodotto**: 3 campi
       * **Richieste di funzioni**: 8 campi e 1 campo collegato
       * **Settore**: 1 campo e 1 campo collegato
-
-

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1408'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 # Creare tipi di record operativi
 
 >[!IMPORTANT]
+>
+>Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro che è una nuova offerta di Adobe.
 >
 >Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
 >
@@ -100,7 +102,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
         Per informazioni, consulta [Creare aree di lavoro](../architecture-and-fields/create-workspaces.md).
       * Quando vengono importati utilizzando un file Excel o CSV. Questa opzione non è disponibile per i tipi di record di tassonomia.
-      * Quando si crea una connessione a tipi di oggetto da un&#39;altra applicazione, quando si aggiungono campi a un tipo di record. In questo modo viene creato un tipo di record di sola lettura in Maestro che è connesso a tipi di oggetto dell&#39;applicazione originale. Questa opzione non è disponibile per i tipi di record di tassonomia.
+      * Quando si crea una connessione a tipi di oggetto da un&#39;altra applicazione, quando si aggiungono campi a un tipo di record. In questo modo viene creato un tipo di record di sola lettura in Maestro che è connesso a tipi di oggetto dell&#39;applicazione originale.
 
      Per informazioni sulla connessione dei tipi di oggetto con i record Maestro, vedere [Collega record](../records/connect-records.md).
    * Manualmente:
@@ -258,5 +260,7 @@ Ad esempio, puoi creare tipi di record collegando i tipi di record Maestro ai pr
    * Progetti
    * Portfolio
    * Programmi
+   * Azienda
+   * Gruppo
 
 Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture-and-fields/connect-record-types.md).
