@@ -6,9 +6,9 @@ description: È possibile richiedere un documento su qualsiasi oggetto che suppo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Devi avere i seguenti:
 
    Puoi fare clic sul collegamento che si trova nella notifica e-mail, quindi caricare il documento. Oppure puoi fare clic sulla notifica in-app. Ogni opzione ti indirizza alla pagina del profilo utente in cui puoi caricare il documento richiesto.
 
-   Puoi anche rispondere direttamente all’e-mail e allegare i documenti richiesti (se sei configurato per supportare le risposte e-mail). Per configurare le risposte e-mail, consulta .
+   Puoi anche rispondere direttamente all’e-mail e allegare i documenti richiesti (se sei configurato per supportare le risposte e-mail).
 
 1. Dopo aver caricato il documento, la persona che lo ha richiesto può accedere al documento nel proprio **Documenti** area.
 

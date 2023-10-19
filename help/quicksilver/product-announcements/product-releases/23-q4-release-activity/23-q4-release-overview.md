@@ -4,9 +4,9 @@ description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '2599'
+source-wordcount: '2547'
 ht-degree: 0%
 
 ---
@@ -325,8 +325,8 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova pagina di destinazione predefinita del collaboratore: Nuova home</a> <span style="color: #ff0000;"> Novità in anteprima.</span> </p>
-                        <p>La nuova Home è ora la pagina di destinazione predefinita per gli account dei collaboratori. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova pagina di destinazione predefinita per i collaboratori: Nuova home</a> <span style="color: #ff0000;"> Novità in anteprima.</span> </p>
+                        <p>La nuova Home è ora la pagina di destinazione predefinita per gli account Collaboratore/Richiedente. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -628,27 +628,8 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Modelli e-mail aggiornati</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
-                        <p>Come inizio di una nuova iniziativa per aggiornare le e-mail di notifica degli eventi, abbiamo aggiornato due delle più comuni: l’approvazione dei documenti e la condivisione degli oggetti.</p>
-                    </td>
-                    <td><p><b>Disponibile in queste date:</b></p>
-                        <ul>
-                            <li>
-                                <p>Versione di anteprima: 12 ottobre 2023</p>
-                            </li>
-                            <li>
-                                <p>Produzione per rilascio rapido: con la versione 23.10</p>
-                            </li>
-                            <li>
-                                <p>Produzione per rilascio trimestrale: con il rilascio 23.10</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifiche al menu principale Collaboratore</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
-                        <p>Per informare meglio i collaboratori sulle funzioni disponibili con un tipo di licenza Workfront a pagamento, ora possono visualizzare tutte le opzioni disponibili nel menu principale.</p>
+                        <p>Per informare in modo più efficace i collaboratori/richiedenti sulle funzioni disponibili con una licenza Workfront a pagamento, possono ora visualizzare tutte le opzioni disponibili nel menu principale.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>

@@ -3,9 +3,9 @@ title: Miglioramenti Home Quarto Trimestre 2023
 description: Miglioramenti Home Quarto Trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 2fa6cfa10bab8714c8e30b9b1e084ee626ec933a
+source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ In una nuova importante aggiunta alle opzioni di gestione del lavoro disponibili
 
 Per ulteriori informazioni sui widget disponibili in Nuova Home, consulta [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Nuova pagina di destinazione predefinita del collaboratore: Nuova home
+## Nuova pagina di destinazione predefinita per i collaboratori: Nuova home
 
-La nuova Home è ora la pagina di destinazione predefinita per gli account dei collaboratori. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro. Al momento della prima visita alla pagina, i collaboratori verranno inoltre istruiti sull’utilizzo di Nuova Home e dei widget specifici disponibili per impostazione predefinita in una procedura dettagliata personalizzata. Si noti che se un layout con una home page personalizzata attualmente utilizzato da un account collaboratore, rimarrà la propria home page.
+La nuova Home è ora la pagina di destinazione predefinita per gli account Collaboratore/Richiedente. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro. Al momento della prima visita alla pagina, i collaboratori riceveranno anche istruzioni sull’utilizzo della nuova home e dei widget specifici disponibili per impostazione predefinita in una procedura dettagliata personalizzata. Si noti che se un layout con una home page personalizzata attualmente utilizzato da un account collaboratore, rimarrà la propria home page.
 
 Per ulteriori informazioni sull&#39;utilizzo di Nuova home, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
