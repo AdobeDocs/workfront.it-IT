@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Clic **Accedi.**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -147,15 +147,6 @@ Quando si effettua l&#39;accesso come altro utente, la data dell&#39;ultimo acce
 Quando accedi a Workfront come altro utente ed esegui un’azione, Workfront indica chiaramente che l’azione eseguita è stata eseguita da te per conto dell’utente che hai effettuato l’accesso come.
 
 Ad esempio, se si commenta un elemento durante l&#39;accesso come altro utente, un&#39;istruzione indica che il commento è stato creato dall&#39;utente per conto dell&#39;utente.
-
-<!--remove the note below when we bring this back to Prod: -->
-
->[!NOTE]
->
->Quando si utilizza la nuova esperienza di commento, il commento viene aggiunto come utente che ha effettuato l’accesso come altro utente e non vi è alcuna indicazione che stia aggiungendo un commento per conto di un altro utente.
->
->Ad esempio, se un amministratore di Workfront effettua l’accesso come altro utente, l’utente associato al commento è l’amministratore di Workfront. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 
 ### Visualizzare le informazioni di audit {#view-audit-information}
 

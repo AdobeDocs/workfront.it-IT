@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2143'
 ht-degree: 2%
 
 ---
@@ -65,23 +65,23 @@ Di seguito è riportata una timeline pianificata con le tappe principali per il 
   >
   >    Le iterazioni continueranno a presentare l’esperienza di commento legacy. La nuova esperienza di aggiunta di commenti non sarà disponibile per le iterazioni.
 
+* Primo trimestre del 2024 (gennaio 2024):
+
+   * L’opzione per tornare al flusso di commenti legacy verrà rimossa e il nuovo flusso di commenti diventerà l’unica esperienza per tutti gli oggetti, ad eccezione delle iterazioni.
+
 ## Funzioni rilasciate
 
 La sezione seguente contiene un elenco di funzioni aggiunte dopo la versione 23.2 originale, a partire da quelle rilasciate più di recente.
 
 Le informazioni seguenti si riferiscono all’attività di rilascio settimanale delle funzioni incluse nella nuova esperienza beta di commento. In questo articolo sono elencate le nuove funzioni aggiunte e i problemi risolti per la nuova esperienza di aggiunta di commenti.
 
-<!--CHECK THE DATES BELOW, BEFORE POSTING: 
+### Settimana del 16 ottobre 2023
 
-### Week of October 9, 2023
+#### Aggiungere le informazioni &quot;per conto di &lt; nome utente >&quot; quando si aggiungono commenti durante l&#39;accesso come altro utente
 
-#### Add back the "on behalf of <user name>" information when commenting on behalf of other users
+Durante la riprogettazione dell’esperienza di creazione dei commenti, era stato rimosso l’indicatore &quot;per conto di &lt; nome utente >&quot; quando un amministratore di Workfront o di gruppo aggiungeva commenti mentre si accedeva come altro utente. Queste informazioni sono state ripristinate.
 
-While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
-
-Preview and production for all customers: October 13, 2023. 
-
--->
+Anteprima e produzione per tutti i clienti: 19 ottobre 2023.
 
 ### Settimana dell’11 settembre 2023
 

@@ -5,9 +5,9 @@ title: Glossario di [!DNL Adobe Workfront] terminologia
 description: Il [!DNL Adobe Workfront] il glossario elenca i termini più comunemente utilizzati in Adobe Workfront.
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '19720'
+source-wordcount: '19729'
 ht-degree: 0%
 
 ---
@@ -2078,7 +2078,8 @@ Le ore possono avere uno dei seguenti stati in Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL - Aggiornamento stato]</td> 
-   <td> <p>Questo campo mostra l'aggiornamento di stato più recente fornito dagli utenti nel campo '[!UICONTROL Update Status]'. I commenti aggiunti agli aggiornamenti dello stato non vengono visualizzati nella colonna [!UICONTROL Status Update] (Aggiornamento dello stato).</p> <p>Per visualizzare gli stati '[!UICONTROL New],' '[!UICONTROL In Process],' e '[!UICONTROL Complete]', utilizzare la colonna [!UICONTROL Status].</p> <p>I commenti aggiunti agli aggiornamenti dello stato non vengono visualizzati nella colonna [!UICONTROL Status Update] (Aggiornamento dello stato).</p> <p>Per ulteriori informazioni sugli stati, consulta l’articolo <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Aggiorna stato attività</a>.</p> </td> 
+   <td> <p>Questo campo mostra l'aggiornamento di stato più recente fornito dai proprietari dell'oggetto nel campo '[!UICONTROL Update Status]'. Per i progetti, ciò significa che sono stati aggiunti commenti dal proprietario del progetto, mentre per le attività e i problemi, significa che sono stati aggiunti commenti dagli assegnatari.</p> 
+   <p> I commenti aggiunti agli aggiornamenti dello stato non vengono visualizzati nella colonna [!UICONTROL Status Update] (Aggiornamento dello stato).</p> <p>Per visualizzare gli stati '[!UICONTROL New],' '[!UICONTROL In Process],' e '[!UICONTROL Complete]', utilizzare la colonna [!UICONTROL Status].</p> <p>Per ulteriori informazioni sugli stati, consulta l’articolo <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Aggiorna stato attività</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Stati [!UICONTROL]</td> 

@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: 01618ee7a4002128d0ad6a519de3a58fa72e8818
 workflow-type: tm+mt
-source-wordcount: '1036'
+source-wordcount: '1050'
 ht-degree: 3%
 
 ---
@@ -25,13 +25,10 @@ ht-degree: 3%
 
 La nuova esperienza di aggiunta di commenti diventerà lentamente disponibile per tutti gli oggetti con una sezione Aggiornamenti in Workfront e successivamente si espanderà ad altre applicazioni Adobe Experience Cloud.
 
-<!--  ****************UNCOMMENT THIS SECTION WHEN THE FAQs ARTICLE IS LIVE: 
-
-For additional resources for the new commenting experience, also see the following articles:
+<!--For additional resources for the new commenting experience, also see the following articles:
 
 * [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../new-commenting-experience-beta/new-commenting-faq.md.draft)
-
+* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
 -->
 
 ## Funzioni
@@ -50,7 +47,7 @@ Le seguenti funzioni sono state rimosse dalla nuova esperienza:
 * Commento su un aggiornamento del sistema
 * Possibilità di modificare lo stato, la condizione e la data del commit durante l&#39;inserimento di commenti
 * Modifica modulo personalizzato
-* Le informazioni &quot;per conto di &lt; nome utente >&quot; quando un amministratore di Workfront o di gruppo effettua l&#39;accesso come altro utente e aggiunge un commento per suo conto. <!-- Replace this bullet with this, when re bring this back: The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated in October 2023.-->
+* Le informazioni &quot;per conto di &lt; nome utente >&quot; quando un amministratore di Workfront o di gruppo effettua l’accesso come altro utente e aggiunge un commento per suo conto sono state originariamente rimosse. È stato ripristinato il 19 ottobre 2023.
 * L’opzione &quot;Richiedi approvazione&quot; quando si applicano tag alle persone durante l’aggiunta di un commento a un documento.
 
 >[!NOTE]
@@ -381,34 +378,36 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    <td> 
    </td>
   </tr>
-  <tr>
-   <td>Risolvi commenti 
-   </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td>✓ 
-   </td>
-   <td>3° trimestre 2023 
-   </td>
-   <td>✓ 
-   </td>
-  </tr>
-  <tr>
+    <tr>
    <td>Cerca nei commenti 
    </td>
    <td> 
    </td>
    <td> 
    </td>
-   <td>✓ 
+   <td> 
    </td>
-   <td>3° trimestre 2023 
+   <td>1° trimestre 2024 
    </td>
    <td>✓ 
    </td>
   </tr>
+
+<tr>
+   <td>Copiare e incollare immagini in un commento
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td> 
+   </td>
+   <td>1° trimestre 2024 
+   </td>
+   <td>✓ 
+   </td>
+  </tr>
+
 <tr>
    <td>Modifica modulo personalizzato 
    </td>
@@ -456,7 +455,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> ✓
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1743'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,34 @@ Anteprima e produzione: 16 ottobre 2023
 
 Sono stati aggiunti controlli di formato Rich Text per i campi di tipo Paragrafo. È possibile formattare i campi paragrafo utilizzando il formato RTF nella visualizzazione Tabella di un tipo di record o nella pagina Dettagli di un record. Per ulteriori informazioni, consulta [Modifica record](../maestro/records/edit-records.md).
 
+
+### Registrazione e raggruppamento della codifica colore per la visualizzazione Timeline
+
+Anteprima e produzione: 19 ottobre 2023
+
+È ora possibile applicare un codice colore alle barre dei record e ai raggruppamenti nella visualizzazione Timeline.
+
+Di seguito sono riportate le opzioni relative ai colori che è possibile scegliere di visualizzare per le barre dei record e i raggruppamenti nella visualizzazione Timeline:
+
+* I raggruppamenti possono corrispondere ai seguenti colori:
+
+   * Grigio (impostazione predefinita)
+
+   * Colore del campo in base al quale eseguire il raggruppamento
+
+* Le barre possono corrispondere ai seguenti colori:
+
+   * Colore del tipo di record
+
+   * Colore di un campo selezionato
+
+   * Colore del raggruppamento
+
+   * Nessun colore (impostazione predefinita)
+
+Quando si abbinano i colori a un determinato campo, è possibile selezionare solo i campi con opzioni codificate per colore.
+
+Per ulteriori informazioni, consulta [Gestire la visualizzazione della timeline](../maestro/views/manage-the-timeline-view.md).
 
 ## Settimana del 9 ottobre 2023
 

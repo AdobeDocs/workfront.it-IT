@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 89d590551ffbd23b357f5697163fa56651f294fb
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -144,13 +144,11 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella e
 | Filtra record | ✓ | ✓ |
 | Raggruppa record |           | ✓ |
 | Ordinare i record | ✓ |              |
+| Record codice colore |           | ✓ |
+| Raggruppamenti di codici colore |           | ✓ |
 
 <!--| Sort groupings                                                        | ✓          | ✓             |-->
-
 <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
-
-<!--| Color-code records                     |           | ✓              |-->
-<!--| Color-code groupings                     |           | ✓              |-->
 
 ## Creare o modificare le viste {#create-or-edit-views}
 

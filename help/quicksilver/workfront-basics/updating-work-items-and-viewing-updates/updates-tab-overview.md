@@ -7,10 +7,10 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 8be7534dfc0a1227bd2274ad093a88ae19b4691d
+source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 4%
+source-wordcount: '1170'
+ht-degree: 5%
 
 ---
 
@@ -133,8 +133,6 @@ Le informazioni nella sezione Aggiornamenti sono organizzate in modo diverso a s
 
 Per informazioni sulle funzioni disponibili per la nuova esperienza di commento e per gli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-<!--update screen shot and maybe save it under a new name??? with the August 17 release - also make sure you have some people tagged, similar to what we show in the old UI-->
-
 <span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 * La sezione Aggiornamenti visualizza le informazioni nelle schede seguenti nella nuova esperienza di commento:
@@ -211,8 +209,6 @@ Per informazioni sulle funzioni disponibili per la nuova esperienza di commento 
 
   *You can add and view updates to cards in the Board areas when you enable the Comments and System Activity sections on a card. For more information, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md). 
   -->
-
-
 
 ## Aggiornamenti visualizzati anche su oggetti di livello superiore
 
@@ -325,18 +321,13 @@ Gli amministratori di Adobe Workfront e gli amministratori di gruppi possono acc
 
 Per informazioni, consulta [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Eventuali commenti formulati per conto di un altro utente sono indicati nel commento.
+Quando si effettua l’accesso come altro utente e si aggiungono commenti, considera quanto segue:
 
-<!--remove the note below when we release this back to the new commenting-->
+* Eventuali commenti formulati per conto di un altro utente sono indicati nel commento.
 
->[!NOTE]
->
->Quando si utilizza la nuova esperienza di commento, il commento viene aggiunto come utente che ha effettuato l’accesso come altro utente e non vi è alcuna indicazione che stia aggiungendo un commento per conto di un altro utente.
->
->Ad esempio, se un amministratore di Workfront effettua l’accesso come altro utente, l’utente associato al commento è l’amministratore di Workfront. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+* Un amministratore gruppo può aggiungere commenti per conto di un altro utente, ma non può eliminarli. Solo un amministratore di Adobe Workfront può eliminare un commento fatto per conto di un altro utente.
 
-
-Un amministratore gruppo può aggiungere commenti per conto di un altro utente, ma non può eliminarli. Solo un amministratore di Adobe Workfront può eliminare un commento fatto per conto di un altro utente.
+* Un amministratore di Workfront o di gruppo può modificare un commento aggiunto per conto di un altro utente solo quando si disconnette come utente e accede nuovamente come utente.
 
 ## Visualizzare gli aggiornamenti di sistema per gli elementi di lavoro con il rapporto Scrittura contabile
 
