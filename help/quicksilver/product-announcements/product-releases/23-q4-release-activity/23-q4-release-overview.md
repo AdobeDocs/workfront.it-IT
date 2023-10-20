@@ -4,9 +4,9 @@ description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '2547'
+source-wordcount: '2606'
 ht-degree: 0%
 
 ---
@@ -544,6 +544,23 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                             </li>
                         </ul>
                         <p><span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti in tempo reale nell’elenco delle attività</a> </p>
+                        <p>[!BADGE In produzione]{type=Informative}</p>
+                        <p>Gli elenchi Attività ora vengono aggiornati in tempo reale. Le modifiche apportate a un’attività vengono aggiornate nell’elenco delle attività, in modo che l’utente che visualizza l’elenco delle attività possa visualizzarle senza aggiornare la pagina.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Anteprima versione: N/D<br /></p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produzione per tutti i clienti: rollout graduale, completato il 19 ottobre 2023</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

@@ -3,9 +3,9 @@ title: Miglioramenti al progetto nel quarto trimestre 2023
 description: Miglioramenti al progetto nel quarto trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 4d5a8958137e5f85510c5239dfc797ddf1ca24ed
+source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -55,3 +55,7 @@ Per ulteriori informazioni, consulta [Modificare le informazioni nei campi modul
 È stato modificato il modo in cui le ore pianificate vengono assegnate ad attività ricorrenti senza assegnazioni e con un tipo di durata semplice. Ora, quando si impostano le ore pianificate su una nuova attività ricorrente con un tipo di durata semplice e nessuna assegnazione, le ore vengono allocate anche alle singole ricorrenze. Prima di questa modifica, le ore non venivano salvate per le singole ricorrenze quando le attività padre non venivano assegnate.
 
 Per informazioni sulla creazione di attività ricorrenti, vedere [Creare attività ricorrenti](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+
+## Aggiornamenti in tempo reale nell’elenco delle attività
+
+Gli elenchi Attività ora vengono aggiornati in tempo reale. Le modifiche apportate a un’attività vengono aggiornate nell’elenco delle attività, in modo che l’utente che visualizza l’elenco delle attività possa visualizzarle senza aggiornare la pagina.
