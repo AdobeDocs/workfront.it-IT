@@ -7,8 +7,9 @@ title: Adobe Workfront per G Suite
 description: Adobe Workfront for G Suite consente di connettersi al lavoro più importante e di collaborare con altri utenti rimanendo all'interno di Gmail, Google Calendar e Google Drive. Senza uscire da queste applicazioni, puoi acquisire richieste e-mail o aggiornamenti di lavoro e aggiungerli a Workfront. Puoi controllare cosa sta succedendo in Workfront, incluse date di scadenza, priorità, documenti, aggiornamenti e altro contesto, senza lasciare la casella in. È possibile prendere decisioni di approvazione, rispondere ai commenti o accettare nuove richieste di lavoro. È inoltre possibile convertire le e-mail in attività personali del progetto o assegnare il lavoro e la priorità ad altri.
 author: Becky
 feature: Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: dfced3e9-0338-446e-bf70-fa5d07f3ac1f
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 0%
@@ -37,7 +38,7 @@ Queste spiegano come gestire [!DNL Workfront] oggetti senza uscire [!DNL G Suite
 * [Visualizza e gestisci [!DNL Adobe Workfront] dettagli oggetto da [!UICONTROL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
 * [Visualizza [!DNL Adobe Workfront] aggiornamenti oggetto da [!UICONTROL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
 
-In questo modo viene illustrato come visualizzare e rispondere ai dettagli di un elemento di lavoro quando si riceve un [!DNL Workfront] e-mail di notifica.
+In queste istruzioni viene illustrato come visualizzare e rispondere ai dettagli su un elemento di lavoro quando si riceve un [!DNL Workfront] e-mail di notifica.
 
 * [Gestisci [!DNL Adobe Workfront] dettagli di notifica da [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
 * [Rispondi a [!DNL Adobe Workfront] notifica di aggiornamento da [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)

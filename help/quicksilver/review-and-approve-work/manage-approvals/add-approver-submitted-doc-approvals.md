@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Aggiunta di approvatori aggiuntivi alle approvazioni dei documenti inviate
-description: È possibile aggiungere altri approvatori all'approvazione di un documento direttamente dall'area Home.
+title: Aggiungi ulteriori approvatori alle approvazioni documenti inviate
+description: È possibile aggiungere ulteriori approvatori all’approvazione di un documento direttamente dall’area Home.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
-# Aggiunta di approvatori aggiuntivi alle approvazioni dei documenti inviate
+# Aggiungi ulteriori approvatori alle approvazioni documenti inviate
 
-È possibile aggiungere altri approvatori all&#39;approvazione di un documento direttamente dall&#39;area Home.
+È possibile aggiungere ulteriori approvatori all’approvazione di un documento direttamente dall’area Home.
 
 ## Requisiti di accesso
 
@@ -26,45 +26,44 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Revisione o superiore</p> </td> 
+   <td> <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a progetti, attività, problemi, modelli, Portfoli, programmi, rapporti, dashboard e calendari, documenti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso a progetti, attività, problemi, modelli, Portfoli, programmi, report, dashboard e calendari, documenti o versioni successive</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzazione o accesso superiore all'oggetto associato alla richiesta di accesso o approvazione </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione o accesso successivo all’oggetto associato alla richiesta di accesso o approvazione </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Aggiunta di approvatori aggiuntivi alle approvazioni dei documenti inviate
+## Aggiungi ulteriori approvatori alle approvazioni documenti inviate
 
-1. Fai clic sul pulsante **Pagina principale** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
+1. Fai clic su **Home** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
 
    >[!NOTE]
    >
-   >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nell’ambiente:
+   >L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
    >
-   >* Sostituiscilo con un&#39;immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   >* Sostituisci la pagina collegata con una pagina diversa. In questo caso, fai clic sul pulsante **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Pagina principale**.
+   >* Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
+   >* Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
 
+1. In **Elenco lavori** Area, vai a **Approvazioni che ho inviato** raggruppamento.
 
-1. In **Elenco lavori** area, vai alla **Approvazioni inviate** raggruppamento.
+1. Seleziona un **Documento** approvazione.
 
-1. Seleziona una **Documento** approvazione.
+1. Clic **Gestisci approvazioni** nell’angolo superiore destro del pannello di destra.
+1. In **Chiedi a qualcuno di approvare questo documento** digitare il nome dell&#39;approvatore.
 
-1. Fai clic su **Gestisci approvazioni** nell’angolo superiore destro del pannello di destra.
-1. In **Chiedere a un utente di approvare questo documento** digitare il nome dell&#39;approvatore.
-
-   Se il tuo amministratore Adobe Workfront ha abilitato la funzionalità di collaborare con persone che non utilizzano Workfront, come descritto in [Configurare le preferenze di sicurezza del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), puoi digitare i relativi indirizzi e-mail per includerli.
+   Se l’amministratore di Adobe Workfront ha abilitato la funzionalità di collaborazione con persone che non utilizzano Workfront, come descritto in [Configurare le preferenze di sicurezza del sistema](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), puoi digitare i loro indirizzi e-mail per includerli.
 
 1. Fai clic su **Salva**.

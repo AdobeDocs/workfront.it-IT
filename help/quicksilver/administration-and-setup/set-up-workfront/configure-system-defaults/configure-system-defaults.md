@@ -8,8 +8,9 @@ description: Come un [!DNL Adobe Workfront] amministratore, puoi configurare le 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 160c1b11cfca13ae141612a516d6c592d4bac509
+source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 0%

@@ -6,8 +6,9 @@ title: Panoramica degli elementi di reporting
 description: 'Tutti i rapporti e gli elenchi di Adobe Workfront sono una combinazione di tre elementi essenziali: viste, filtri e raggruppamenti.'
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 5b5385ac-3b75-4500-bf4d-ec6ad4bf727a
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%

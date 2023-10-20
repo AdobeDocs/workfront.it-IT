@@ -2,11 +2,11 @@
 product-area: projects
 navigation-topic: approvals
 title: Delega richiesta di approvazione
-description: La delega delle richieste di approvazione ti consente di assegnare a un altro utente il compito di approvare le richieste per un periodo di tempo, ad esempio, nel caso in cui tu sia fuori ufficio in vacanza.
+description: La delega delle richieste di approvazione ti consente di assegnare a un altro utente il compito di approvare le richieste per un determinato periodo di tempo, ad esempio se ti trovi fuori sede in vacanza.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: d04afc0cc55a71e48c357af2ed4446c22dab1ba4
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 0%
@@ -15,16 +15,15 @@ ht-degree: 0%
 
 # Delega richiesta di approvazione
 
-Puoi delegare temporaneamente il lavoro a cui sei assegnato mentre sei fuori ufficio. È possibile delegare le assegnazioni di attività ed emissioni oppure delegare le richieste di approvazione. Questo articolo descrive come delegare le richieste di approvazione. Per informazioni sulla delega delle assegnazioni di task e problemi, vedere [Gestione dell&#39;attività e della delega dei problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
+Puoi delegare temporaneamente il lavoro che ti è stato assegnato mentre sei fuori sede. Puoi delegare le assegnazioni di attività e problemi oppure puoi delegare le richieste di approvazione. Questo articolo descrive come delegare le richieste di approvazione. Per informazioni sulla delega delle assegnazioni di attività e problemi, consulta [Gestire la delega di attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 >[!NOTE]
 >
->Per evitare incongruenze con le date pianificate per la delega delle approvazioni, è consigliabile che il fuso orario del profilo utente corrisponda a quello della pianificazione. Per ulteriori informazioni, consulta i seguenti articoli:
+>Per evitare incoerenze con le date pianificate per la delega delle approvazioni, è consigliabile che il fuso orario del profilo utente corrisponda a quello della pianificazione. Per ulteriori informazioni, consulta i seguenti articoli:
 >
 >* [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 >* [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
-
 
 ## Requisiti di accesso
 
@@ -37,144 +36,147 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>piano Adobe Workfront*</p></td> 
+   <td role="rowheader"><p>Piano Adobe Workfront*</p></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td> 
-   <td> <p>Revisione o superiore</p> </td> 
+   <td> <p>Revisione o successiva</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano o tipo di licenza hai, contatta il tuo amministratore Workfront.
+&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Comprendere l’accesso degli utenti per le approvazioni delegate
 
-Durante il periodo di approvazione designato, l&#39;utente al quale si delega una richiesta di approvazione ha le seguenti capacità:
+Durante il periodo di approvazione designato, l’utente a cui deleghi una richiesta di approvazione dispone delle seguenti capacità:
 
-* Può approvare o rifiutare le richieste di approvazione esistenti in assenza di una decisione
-* Può approvare e rifiutare le nuove richieste di approvazione ricevute durante un periodo di tempo specificato
-* Accesso alla visualizzazione degli oggetti in attesa di approvazione
+* Può approvare o rifiutare le richieste di approvazione esistenti se non è stata presa alcuna decisione
+* Può approvare e rifiutare nuove richieste di approvazione ricevute durante un periodo di tempo specificato
+* È concesso l’accesso di visualizzazione agli oggetti in attesa di approvazione
 
-   >[!NOTE]
-   >
-   > L’amministratore di Adobe Workfront può impedire agli utenti di accedere a determinati tipi di oggetti. Quando un utente non ha accesso a un tipo di oggetto e l&#39;approvazione di tale tipo viene delegata all&#39;utente, l&#39;utente non dispone dell&#39;accesso Visualizza all&#39;oggetto. Tuttavia, l’utente può comunque approvare o rifiutare le richieste di approvazione da **Pagina principale** come descritto in [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md).\
-   Ad esempio, l&#39;utente A appartiene al gruppo A. L&#39;amministratore di Workfront ha limitato i diritti di accesso del gruppo A in modo che gli utenti di questo gruppo non possano visualizzare le attività all&#39;interno di Workfront. Se una richiesta di approvazione di un&#39;attività viene delegata all&#39;utente A, l&#39;utente A non può visualizzare l&#39;attività a cui è associata l&#39;approvazione. Tuttavia, l’utente A può approvare o rifiutare la richiesta di approvazione dalla home page.
+  >[!NOTE]
+  >
+  > L’amministratore Adobe Workfront può impedire agli utenti di accedere a determinati tipi di oggetti. Quando un utente non ha accesso a un tipo di oggetto e all’utente viene delegata un’approvazione di tale tipo, l’utente non ha accesso alla visualizzazione dell’oggetto. Tuttavia, l’utente può ancora approvare o rifiutare le richieste di approvazione provenienti da **Home** come descritto in [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md).\
+  Ad esempio, l&#39;utente A appartiene al gruppo A. L&#39;amministratore di Workfront ha limitato i diritti di accesso del Gruppo A in modo che gli utenti di questo gruppo non possano visualizzare le attività all&#39;interno di Workfront. Se una richiesta di approvazione di un’attività è delegata all’Utente A, quest’ultimo non può visualizzare l’attività a cui è associata l’approvazione. Tuttavia, l’utente A può approvare o rifiutare la richiesta di approvazione dalla home page.
 
-   Per informazioni su come l’amministratore di Workfront può limitare l’accesso ai tipi di oggetto all’interno di Configurazione, consulta  [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
+  Per informazioni su come l&#39;amministratore di Workfront può limitare l&#39;accesso ai tipi di oggetto in Configurazione, vedere  [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
-Dopo l&#39;arresto o l&#39;annullamento della delega di approvazione, l&#39;utente designato come approvatore:
+Dopo l&#39;interruzione o l&#39;annullamento della delega di approvazione, l&#39;utente designato come approvatore:
 
-* Non dispone più dell&#39;accesso per approvare il lavoro per gli articoli che richiedono l&#39;approvazione
-* Continua ad avere l&#39;accesso Visualizza agli elementi di lavoro\
-   Gli utenti a cui è stato concesso l’accesso Visualizza agli oggetti tramite una delega di approvazione conservano tale accesso Visualizza anche dopo che la delega di approvazione si è arrestata o è richiamata. Per rimuovere l&#39;accesso Visualizza agli oggetti a cui l&#39;utente ha avuto accesso durante il periodo di delega delle approvazioni, è necessario passare all&#39;oggetto e rimuovere i diritti di accesso direttamente dall&#39;oggetto.
+* Non dispone più dell&#39;accesso per approvare il lavoro per gli elementi che richiedono l&#39;approvazione
+* Continua ad avere accesso in visualizzazione agli elementi di lavoro\
+  Gli utenti a cui è stato concesso l’accesso di visualizzazione agli oggetti tramite una delega di approvazione conservano tale accesso anche dopo l’interruzione o il richiamo della delega di approvazione. Per rimuovere l’accesso in visualizzazione a qualsiasi oggetto a cui l’utente aveva accesso durante il periodo di delega delle approvazioni, devi passare all’oggetto e rimuovere i diritti di accesso direttamente dall’oggetto.
 
-## Delega richieste di approvazione nell&#39;area Home
+## Delegare le richieste di approvazione nell’area Home
 
-* [Delega le approvazioni a un altro utente](#delegate-your-approvals-to-another-user)
+* [Delega le tue approvazioni a un altro utente](#delegate-your-approvals-to-another-user)
 * [Aggiornare o interrompere una delega di approvazione](#update-or-stop-an-approval-delegation)
 * [Visualizza approvazioni delegate](#view-delegated-approvals)
 
-### Delega le approvazioni a un altro utente {#delegate-your-approvals-to-another-user}
+### Delega le tue approvazioni a un altro utente {#delegate-your-approvals-to-another-user}
 
-È possibile delegare i seguenti tipi di approvazioni, indipendentemente da come l&#39;approvazione è stata assegnata all&#39;utente (sia direttamente assegnata all&#39;utente, a un team di cui è membro o al suo ruolo di lavoro):
+Puoi delegare i seguenti tipi di approvazione, indipendentemente da come ti è stata assegnata l’approvazione (sia che sia assegnata direttamente a te, a un team di cui sei membro o al tuo ruolo lavorativo):
 
-* Approvazioni dei progetti
-* Approvazioni task
-* Rilascio delle approvazioni
+* Approvazioni progetto
+* Approvazioni attività
+* Approvazioni problemi
 
-Non è possibile delegare le approvazioni di schede attività e documenti. 
+Non puoi delegare le approvazioni di schede orario e documenti. 
 
-Quando deleghi le approvazioni, considera quanto segue:
+Quando deleghi le approvazioni, tieni presente quanto segue:
 
-* Quando deleghi le approvazioni, tutte le approvazioni vengono delegate. Non è possibile delegare singole richieste di approvazione.
-* Puoi delegare le approvazioni a un solo utente; non è possibile delegare le approvazioni a più utenti contemporaneamente.\
-   Tutte le approvazioni per tutti i progetti, le attività e i problemi vengono delegate all&#39;utente designato.
-* Un massimo di 5 utenti può delegare le approvazioni allo stesso tempo allo stesso utente. In altre parole, un singolo utente non può essere designato come approvatore temporaneo per più di 5 utenti contemporaneamente.
-* L’attività relativa alle approvazioni viene visualizzata nella scheda Aggiornamenti . È necessario che Mostra aggiornamenti di sistema sia abilitato. Sia l’utente che delega l’approvazione che l’utente a cui vengono delegate le approvazioni ricevono una notifica e-mail relativa all’attività di approvazione.
+* Quando deleghi le approvazioni, tutte le tue approvazioni vengono delegate. Non è possibile delegare singole richieste di approvazione.
+* È possibile delegare le approvazioni a un solo utente; non è possibile delegare le approvazioni a più utenti contemporaneamente.\
+  Tutte le approvazioni per tutti i progetti, le attività e i problemi vengono delegate all&#39;utente designato.
+* Un massimo di 5 utenti può delegare le approvazioni allo stesso utente contemporaneamente. In altre parole, un singolo utente non può essere designato come approvatore temporaneo per più di 5 utenti contemporaneamente.
+* L’attività relativa alle approvazioni viene visualizzata nella scheda Aggiornamenti. È necessario che l&#39;opzione Mostra aggiornamenti di sistema sia abilitata. Sia l’utente che delega l’approvazione sia l’utente a cui vengono delegate le approvazioni ricevono una notifica e-mail relativa all’attività di approvazione.
 
 Per delegare le approvazioni a un altro utente:
 
-1. Fai clic sul pulsante **Pagina principale** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
+1. Fai clic su **Home** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
 
    >[!NOTE]
-   L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nell’ambiente:
-   * Sostituiscilo con un&#39;immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   * Sostituisci la pagina collegata con una pagina diversa. In questo caso, fai clic sul pulsante **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Pagina principale**.
-
+   >
+   L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
+   >
+   * Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
+   * Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
 
    Oppure
 
-   Fai clic sul pulsante **Menu principale** icona > **nome** > **Time Off** nel pannello a sinistra.
+   Fai clic su **Menu principale** icona > **nome** > **Indisponibilità** nel pannello a sinistra.
 
-1. (Facoltativo e condizionale) Nell’area Home, fai clic sul pulsante **Filtro** menu a discesa, quindi fai clic su **Approvazioni**.
+1. (Facoltativo e condizionale) Nell’area Home, fai clic su **Filtro** menu a discesa, quindi fai clic su **Approvazioni**.
 
 1. (Condizionale) Fai clic su **Delega le mie approvazioni**
 
    Oppure
 
-   Se l&#39;amministratore di sistema o di gruppo ha abilitato la delega dell&#39;attività e del problema, fare clic su **Delega**, quindi fai clic su **Delega approvazioni**.
+   Se l’amministratore del sistema o del gruppo ha abilitato la delega di attività e problemi, fai clic su **Delega**, quindi fai clic su **Delega approvazioni**.
 
    ![](assets/delegate-approvals-nwe.png)
 
-1. Specifica le seguenti informazioni nella sezione Delega approvazioni personali :
+1. Specifica le seguenti informazioni nella sezione Delegate My Approvals (Delega le mie approvazioni):
 
-   * **Nome**: Inizia a digitare il nome dell&#39;utente a cui desideri delegare le approvazioni, quindi fai clic sul nome quando viene visualizzato nel menu a discesa.
-   * **Data di inizio**: Selezionare la data di inizio dell&#39;inoltro delle approvazioni. L&#39;inoltro inizia alle 12:00 alla data selezionata.\
-      La data di inizio deve essere la data corrente o una data futura.
-   * **Data di fine**:Esegui una delle seguenti operazioni:
+   * **Nome**: inizia a digitare il nome dell’utente a cui desideri delegare le approvazioni, quindi fai clic sul nome quando viene visualizzato nel menu a discesa.
+   * **Data di inizio**: seleziona la data in cui le approvazioni iniziano a essere inoltrate. L’inoltro inizia alle 00:00 del mattino successivo alla data selezionata.\
+     La data di inizio deve essere la data corrente o una data futura.
+   * **Data di fine**:Effettua una delle operazioni seguenti:
 
-      * Selezionare la data per l&#39;interruzione dell&#39;inoltro delle approvazioni. L&#39;inoltro termina alle 23:59 alla data selezionata.
-      * Seleziona **Nessuna data di fine** per configurare Workfront per delegare le approvazioni a tempo indeterminato.
+      * Seleziona la data in cui le approvazioni non verranno più inoltrate. L’inoltro termina alle 23:59 della data selezionata.
+      * Seleziona **Nessuna data di fine** per configurare Workfront in modo da delegare le approvazioni a tempo indeterminato.
 
 1. Fai clic su **Salva**.
 
 ### Aggiornare o interrompere una delega di approvazione {#update-or-stop-an-approval-delegation}
 
-1. Fai clic sul pulsante **Pagina principale** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
+1. Fai clic su **Home** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
 
    >[!NOTE]
-   L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nell’ambiente:
-   * Sostituiscilo con un&#39;immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   * Sostituisci la pagina collegata con una pagina diversa. In questo caso, fai clic sul pulsante **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Pagina principale**.
+   >
+   L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
+   >
+   * Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
+   * Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
 
-
-1. Fai clic sul pulsante **Filtro** menu a discesa, quindi fai clic su **Approvazioni**.
+1. Fai clic su **Filtro** menu a discesa, quindi fai clic su **Approvazioni**.
 
 1. (Condizionale) Fai clic su **Modifica delega**
 
    Oppure
 
-   Se l&#39;attività e la delega sono state abilitate dall&#39;amministratore di sistema o di gruppo, fare clic su **Modifica delega**, quindi fai clic su **Delega approvazioni**.
+   Se l’amministratore di sistema o di gruppo ha abilitato la delega di attività e problemi, fai clic su **Modifica delega**, quindi fai clic su **Delega approvazioni**.
 
-1. (Condizionale) Effettuare una delle seguenti operazioni:
+1. (Condizionale) Effettua una delle seguenti operazioni:
 
-   * Per aggiornare la delega di approvazione esistente: Modifica le informazioni visualizzate, quindi fai clic su **Salva**.
+   * Per aggiornare la delega di approvazione esistente: modifica le informazioni visualizzate, quindi fai clic su **Salva**.
 
-   * Per interrompere la delega esistente: Fai clic su **Interrompi delega**, quindi fai clic su **Interrompi delega** per confermare.
+   * Per interrompere la delega esistente: fai clic su **Revoca delega**, quindi fai clic su **Revoca delega** per confermare.
 
-      ![](assets/stop-delegation-nwe.png)
+     ![](assets/stop-delegation-nwe.png)
 
 ### Visualizza approvazioni delegate {#view-delegated-approvals}
 
-È possibile visualizzare solo i seguenti tipi di delegazioni di approvazione nell&#39;Elenco di lavoro:
+In Elenco lavori è possibile visualizzare solo i tipi di deleghe di approvazione seguenti:
 
-* Approvazioni dei progetti
-* Approvazioni task
-* Rilascio delle approvazioni
+* Approvazioni progetto
+* Approvazioni attività
+* Approvazioni problemi
 
 Per visualizzare le approvazioni delegate:
 
-1. Fai clic sul pulsante **Pagina principale** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
+1. Fai clic su **Home** icona ![](assets/home-icon-30x29.png) nell’angolo in alto a sinistra di Adobe Workfront.
 
    >[!NOTE]
-   L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nell’ambiente:
-   * Sostituiscilo con un&#39;immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
-   * Sostituisci la pagina collegata con una pagina diversa. In questo caso, fai clic sul pulsante **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Pagina principale**.
+   >
+   L’amministratore di Workfront potrebbe apportare le seguenti modifiche all’icona Home nel tuo ambiente:
+   >
+   * Sostituiscilo con un’immagine personalizzata per illustrare la tua organizzazione. In questo caso, l’icona avrà un aspetto diverso da quello mostrato in questo articolo.
+   * Sostituisci la pagina collegata con un’altra pagina. In questo caso, fai clic su **Menu principale** ![](assets/main-menu-icon.png) nell’angolo superiore destro della pagina, quindi fai clic su **Home**.
 
-
-1. Fai clic sul pulsante **Filtro** menu a discesa, quindi fai clic su **Approvazioni**.\
-   Tutte le approvazioni vengono visualizzate nell&#39;elenco per impostazione predefinita, incluse le approvazioni assegnate all&#39;utente e le approvazioni delegate all&#39;utente.
+1. Fai clic su **Filtro** menu a discesa, quindi fai clic su **Approvazioni**.\
+   Tutte le approvazioni vengono visualizzate nell’elenco per impostazione predefinita, incluse le approvazioni assegnate all’utente e quelle delegate all’utente.
 
    ![](assets/delegated-to-me-nwe-350x93.png)

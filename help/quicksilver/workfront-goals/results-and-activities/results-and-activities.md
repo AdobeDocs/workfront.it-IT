@@ -3,11 +3,12 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Risultati e attività in Obiettivi di Adobe Workfront
-description: Risultati e attività sono indicatori di avanzamento per un obiettivo in Obiettivi di Adobe Workfront. Ulteriori informazioni sui risultati e le attività sono disponibili nei seguenti articoli.
+description: I risultati e le attività sono indicatori di progresso per un obiettivo in Obiettivi di Adobe Workfront. Ulteriori informazioni sui risultati e sulle attività sono disponibili nei seguenti articoli.
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -41,22 +42,22 @@ For additional information about access to Workfront Goals, see [Requirements to
 
 >[!NOTE]
 >
->Per utilizzare la funzionalità descritta in questo articolo, l’organizzazione deve disporre delle seguenti caratteristiche:
+>Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
 >
 >* A Pro o superiore [piano Adobe Workfront](https://www.workfront.com/plans).
->* Una licenza Adobe Workfront Obiettivi oltre a una licenza Workfront.
+>* Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
 >
->  Contatta il tuo account manager Workfront per saperne di più su una licenza di Workfront Obiettivi .
+>  Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 >
->Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedi [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Per registrare l&#39;avanzamento in Obiettivi di Workfront, è necessario associare gli indicatori di avanzamento agli obiettivi. Oltre ai risultati e alle attività, puoi anche associare progetti o obiettivi figlio a un obiettivo per registrare l’avanzamento.
+Per registrare i progressi relativi agli obiettivi di Workfront, è necessario associare gli indicatori di progresso agli obiettivi. Oltre ai risultati e alle attività, puoi anche associare i progetti o gli obiettivi secondari a un obiettivo per registrare l’avanzamento.
 
 Questa sezione contiene i seguenti articoli:
 
-* [Guida introduttiva ai risultati e alle attività in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+* [Introduzione ai risultati e alle attività in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
 * [Aggiungere attività agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 * [Aggiungere risultati agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Aggiungere progetti agli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)
 * [Modificare risultati e attività in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
-* [Rimuovi risultati, attività e progetti dagli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)
+* [Rimuovere risultati, attività e progetti dagli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md)

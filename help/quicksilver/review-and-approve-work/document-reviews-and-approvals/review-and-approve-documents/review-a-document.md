@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Rivedere un documento
 description: In qualità di revisore, puoi visualizzare in anteprima un documento che ti è stato inviato per la revisione.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 0%
 
 ---
-
 
 # Rivedere un documento
 

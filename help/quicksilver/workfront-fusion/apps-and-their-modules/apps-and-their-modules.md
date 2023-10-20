@@ -8,8 +8,9 @@ title: App e relativi moduli
 description: Adobe Workfront Fusion offre attualmente connettori dedicati per le app elencate in questo elenco. Se l’app che desideri utilizzare non è presente in questo elenco, puoi connetterti utilizzando i moduli HTTP, SOAP o JSON.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
 workflow-type: tm+mt
 source-wordcount: '206'
 ht-degree: 27%

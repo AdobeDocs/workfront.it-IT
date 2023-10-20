@@ -6,8 +6,9 @@ title: Gestire le bozze
 description: Modifica impostazioni bozza
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: ed1719ff-27e3-4fc0-b5bf-b3f20ffe98f0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 0%
@@ -17,7 +18,7 @@ ht-degree: 0%
 # Gestire le bozze
 
 * [Modifica impostazioni bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
-* [Stampa un riepilogo delle prove in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
+* [Stampare un riepilogo delle bozze in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
 * [Eliminare una bozza](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
 * [Ripristinare una bozza archiviata](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/restore-archived-proof.md)
 * [Visualizzare l’attività su una bozza in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-activity-on-proof-in-wf.md)

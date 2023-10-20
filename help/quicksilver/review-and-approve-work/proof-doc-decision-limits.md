@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Panoramica su documenti e prove limitati per gli utenti non pagati 
-description: Le decisioni relative a prove e documenti sono limitate per tutte le licenze Workfront non pagate. I limiti vengono reimpostati mensilmente per utente.
+title: Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica 
+description: Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront non a pagamento. Limiti reimpostati per ogni utente ogni mese.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: a1435e58328b592be749541f47af66c51331759c
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 6%
 
 ---
 
-# Panoramica su documenti e prove limitati per gli utenti non pagati
+# Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica
 
-Le decisioni sulle prove e sui documenti sono limitate per tutte le licenze Workfront non pagate sui nuovi piani. Per ulteriori informazioni, consulta [Panoramica sulle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront non pagate sui nuovi piani. Per ulteriori informazioni, consulta [Panoramica sulle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
-I limiti vengono reimpostati mensilmente per utente. I limiti di decisione per ogni licenza variano a seconda del piano in uso:
+Limiti reimpostati per ogni utente ogni mese. I limiti di decisione per ciascuna licenza variano a seconda del piano a cui stai lavorando:
 
 <table>
   <tr>
@@ -64,17 +64,17 @@ I limiti vengono reimpostati mensilmente per utente. I limiti di decisione per o
 
 ## Utenti esterni
 
-Se un utente esterno raggiunge il limite di decisione, non perderà l’accesso a Workfront e potrà comunque prendere decisioni. Adobe Workfront valuterà gli overage.
+Se un utente esterno raggiunge il proprio limite decisionale, non perderà l’accesso a Workfront e sarà comunque in grado di prendere decisioni. Adobe Workfront valuterà le interruzioni.
 
 ## Utenti collaboratori
 
-Quando un utente con una licenza da collaboratore raggiunge il limite di decisione, viene automaticamente aggiornato alla licenza Light con una quantità illimitata di prove e decisioni sul documento. Per ulteriori informazioni sulla licenza Light, consulta [Livello di accesso leggero](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) nella sezione [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) articolo.
+Quando un utente con una licenza Collaboratore raggiunge il limite di decisione, viene aggiornato automaticamente alla licenza Light con decisioni illimitate su bozze e documenti. Per ulteriori informazioni sulla licenza Light, vedere [Livello di accesso alla luce](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) sezione nella sezione [Panoramica dei livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) articolo.
 
 >[!NOTE]
 >
 >L’amministratore di Workfront riceverà una notifica e-mail relativa a questo aggiornamento.
 
 
-## Visualizza il numero di decisioni per un utente
+## Visualizzare il numero di decisioni per un utente
 
-È possibile visualizzare il numero di decisioni relative a un utente nell’area Utenti di Workfront. Per ulteriori informazioni, consulta [Visualizza il numero di decisioni per tutti gli utenti](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
+Puoi visualizzare il numero di decisioni per un utente nell’area Utenti di Workfront. Per ulteriori informazioni, consulta [Visualizza il numero di decisioni per tutti gli utenti](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

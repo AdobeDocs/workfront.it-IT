@@ -2,23 +2,24 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: mobile-workfront-proof
-title: App per dispositivi mobili Workfront Proof
-description: Questa sezione contiene i seguenti articoli - EDIT ME.
+title: App mobili Workfront Proof
+description: 'Questa sezione contiene i seguenti articoli: MODIFICAMI.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 8a868212-cf8e-4752-8aa6-ed74f10f5cea
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '44'
 ht-degree: 0%
 
 ---
 
-# App per dispositivi mobili Workfront Proof
+# App mobili Workfront Proof
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 

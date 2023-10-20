@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Aggiungere altri approvatori o revisori a un documento
 description: È possibile aggiungere ulteriori approvatori o revisori a un documento che dispone già di approvazioni in sospeso.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
 
 ---
-
 
 # Aggiungere altri approvatori o revisori a un documento
 

@@ -4,14 +4,14 @@ navigation-topic: approvals
 title: Creare un’approvazione documento
 description: Puoi richiedere l’approvazione di altri utenti per un documento in Adobe Workfront.
 author: Nolan
-feature: Work Management
-source-git-commit: 2ae69970ebf5c72d4c192f8158bdc412c084ce35
+feature: Work Management, Digital Content and Documents
+exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 0%
 
 ---
-
 
 # Creare una richiesta di approvazione documento
 

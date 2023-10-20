@@ -3,8 +3,9 @@ title: Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Adobe Workfron
 description: Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Adobe Workfront] Nozioni di base
 author: Nolan
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%

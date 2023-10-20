@@ -4,11 +4,12 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Conttati
-description: Questa sezione contiene i seguenti articoli - EDIT ME.
+description: 'Questa sezione contiene i seguenti articoli: MODIFICAMI.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: a8b70462-28bc-45cc-b19a-cb683172d528
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 4%
@@ -19,10 +20,10 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
 
 Questa sezione contiene i seguenti articoli:
 
 * [Aggiungi un ospite a [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
-* [Gestisci i tuoi contatti in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
+* [Gestire i contatti in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
 * [Comprendere utenti, membri e ospiti in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)

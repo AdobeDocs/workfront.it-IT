@@ -2,21 +2,22 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Dettagli della scheda attività in Adobe Workfront
-description: Per ulteriori informazioni sui fogli presenze e il relativo layout, consulta i seguenti articoli.
+title: Dettagli scheda orario in Adobe Workfront
+description: Per ulteriori informazioni sulle schede orario e sul relativo layout, consulta i seguenti articoli.
 author: Alina
 feature: Timesheets
+recommendations: noDisplay, noCatalog
 exl-id: 59ddd607-5e99-43b4-aea5-c6cb0d6aa13d
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 0%
 
 ---
 
-# Dettagli della scheda attività in Adobe Workfront
+# Dettagli scheda orario in Adobe Workfront
 
 Questa sezione contiene i seguenti articoli:
 
-* [Panoramica sui fogli presenze](../../timesheets/timesheets/timesheets-overview.md)
-* [Comprendere il layout del foglio presenze](../../timesheets/timesheets/timesheet-layout.md)
+* [Panoramica schede orario](../../timesheets/timesheets/timesheets-overview.md)
+* [Comprendere il layout della scheda orario](../../timesheets/timesheets/timesheet-layout.md)

@@ -3,11 +3,12 @@ content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Gestione risorse
-description: Gestione delle risorse consente ai responsabili delle risorse di prendere decisioni aziendali che garantiscano che i singoli lavoratori disponibili oggi siano iscritti in bilancio rispetto al lavoro con la massima priorità. Anche se può iniziare a livello di ruolo, alla fine la gestione delle risorse si preoccupa degli utenti e del loro sottoutilizzo o eccesso di impegno.
+description: Gestione delle risorse consente ai responsabili delle risorse di prendere decisioni aziendali che garantiscano la disponibilità di singoli lavoratori in budget rispetto al lavoro con la massima priorità. Anche se può iniziare a livello di mansione, alla fine Gestione risorse si preoccupa degli utenti e del loro sottoutilizzo o sovra-impegno.
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: f150c57e8b83e73734b1cbeded7ef4c16d65097c
+source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 3%
@@ -16,14 +17,13 @@ ht-degree: 3%
 
 # Gestione risorse
 
-Gestione delle risorse consente ai responsabili delle risorse di prendere decisioni aziendali che garantiscano che i singoli lavoratori disponibili oggi siano iscritti in bilancio rispetto al lavoro con la massima priorità.
+Gestione delle risorse consente ai responsabili delle risorse di prendere decisioni aziendali che garantiscano la disponibilità di singoli lavoratori in budget rispetto al lavoro con la massima priorità.
 
-Anche se può iniziare a livello di ruolo, alla fine Gestione delle risorse si occupa degli utenti, delle loro assegnazioni al lavoro effettivo e della loro sottoutilizzazione o impegno eccessivo.
+Anche se può iniziare a livello di mansione, alla fine Gestione risorse si preoccupa degli utenti, delle loro assegnazioni al lavoro effettivo e del loro sottoutilizzo o sovra-impegno.
 
 Questa sezione contiene i seguenti articoli:
 
-* [Guida introduttiva a Gestione risorse](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-
+* [Introduzione alla gestione delle risorse](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
 <!--
 
 * [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md)

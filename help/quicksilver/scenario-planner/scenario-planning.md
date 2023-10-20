@@ -6,8 +6,9 @@ title: Pianificazione scenario Adobe Workfront
 description: Elenco di articoli che descrivono le funzionalità di Workfront Scenario Planner.
 author: Alina
 feature: Workfront Scenario Planner
+recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
 workflow-type: tm+mt
 source-wordcount: '140'
 ht-degree: 0%

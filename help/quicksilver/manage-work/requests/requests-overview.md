@@ -3,11 +3,12 @@ content-type: overview;reference
 product-area: requests
 navigation-topic: projects-navigation-topic
 title: Richieste
-description: Scopri come creare richieste e code di richieste nelle sezioni seguenti.
+description: Per informazioni sulla creazione di richieste e code di richieste, consulta le sezioni seguenti.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: f7c12f06-868e-45da-816b-4eb94e06c783
-source-git-commit: 168e8ac6e7491e020164f9cfa9aef6cf1e64ffe5
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '27'
 ht-degree: 7%

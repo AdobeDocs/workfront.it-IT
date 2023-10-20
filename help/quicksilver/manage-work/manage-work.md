@@ -2,19 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Gestione del lavoro
-description: Trova gli articoli sulla gestione del lavoro in Adobe Workfront nelle sezioni seguenti.
+title: Gestisci lavoro
+description: Gli articoli sulla gestione del lavoro in Adobe Workfront sono disponibili nelle sezioni seguenti.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: c566eb094e96abca6073554433434822c567bc34
+source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
 workflow-type: tm+mt
 source-wordcount: '33'
 ht-degree: 18%
 
 ---
 
-# Gestione del lavoro
+# Gestisci lavoro
 
 Questa sezione contiene le seguenti sottosezioni:
 
@@ -24,4 +25,4 @@ Questa sezione contiene le seguenti sottosezioni:
 * [Diagramma di Gantt](../manage-work/gantt-chart/the-gantt-chart.md)
 * [Gestione Portfolio](../manage-work/portfolios/portfolio-management-overview.md)
 * [Richieste](../manage-work/requests/requests-overview.md)
-* [Delega del lavoro](../manage-work/delegate-work/delegate-work.md)
+* [Delega lavoro](../manage-work/delegate-work/delegate-work.md)

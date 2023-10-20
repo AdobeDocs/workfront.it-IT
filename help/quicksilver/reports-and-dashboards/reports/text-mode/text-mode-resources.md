@@ -6,8 +6,9 @@ title: Risorse in modalità testo
 description: Risorse in modalità testo
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 0%
@@ -32,7 +33,7 @@ Questa sezione contiene i seguenti articoli:
 * [Modifica modalità testo in un raggruppamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 * [Esempi di visualizzazione, filtro e raggruppamento personalizzati](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this is linked here although from another section)
   </MadCap:conditionalText>
@@ -40,7 +41,7 @@ Questa sezione contiene i seguenti articoli:
 
 * [Dati personalizzati calcolati nei rapporti](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: this is linked here although from another section)
   </MadCap:conditionalText>
@@ -53,4 +54,4 @@ Questa sezione contiene i seguenti articoli:
 * [Fare riferimento alle raccolte in un rapporto](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
 * [Creare istruzioni &quot;OR&quot; nei filtri in modalità testo](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
 * [Creare filtri in modalità testo complessi utilizzando istruzioni EXISTS](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-   <!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->
+  <!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->
