@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b015f442ba028e452abbab3cd7e6d9b6d86f9622
+source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
 workflow-type: tm+mt
-source-wordcount: '4774'
+source-wordcount: '4886'
 ht-degree: 4%
 
 ---
@@ -502,7 +502,7 @@ Per aggiungere campi data di completamento automatico:
 
 ### Aggiungere campi di ricerca esterni
 
-Un campo di ricerca esterno richiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Gli utenti che utilizzano l’oggetto a cui è associato il modulo personalizzato possono selezionare una di queste opzioni dal menu a discesa.
+Un campo di ricerca esterno richiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Gli utenti che utilizzano l’oggetto a cui è associato il modulo personalizzato possono selezionare una o più di queste opzioni dal menu a discesa.
 
 Per aggiungere una ricerca esterna:
 
@@ -540,7 +540,8 @@ Per aggiungere una ricerca esterna:
      <tr> 
       <td role="rowheader">URL API base</td> 
       <td><p>Digita o incolla l’URL per l’API.</p><p>L’URL API deve restituire il contenuto JSON delle opzioni che desideri visualizzare nel menu a discesa. Puoi utilizzare il campo Percorso JSON per selezionare i valori specifici dal JSON restituito come opzioni a discesa.</p><p>Quando immetti l’URL API, puoi facoltativamente trasmettere i seguenti valori nell’URL:</p>
-      <ul><li>$$query - Rappresenta il testo di ricerca digitato dall'utente finale nel campo e consente di implementare il filtro delle query per gli utenti finali. L’utente cercherà il valore nel menu a discesa.</li>
+      <ul><li>$$QUERY - Rappresenta il testo di ricerca digitato dall'utente finale nel campo e consente di implementare il filtro delle query per gli utenti finali. L’utente cercherà il valore nel menu a discesa.</li>
+      <li>$$HOST - Rappresenta l'host Workfront corrente e può essere utilizzato per effettuare chiamate API /search all'API Workfront. Quando si utilizza questo carattere jolly, l'autenticazione viene gestita e gli utenti non devono inviare intestazioni di autenticazione. Ad esempio, gli utenti possono cercare le attività utilizzando l’URL di base "$$HOST/attask/api/task/search", che consente di cercare le attività e selezionare i valori da un elenco di attività restituito.</li>
       <li>{fieldName} : dove fieldName è un campo personalizzato o nativo in Workfront. In questo modo puoi implementare i filtri delle opzioni a discesa a cascata, quando trasmetti il valore di un campo già selezionato al campo Ricerca esterna per filtrare le opzioni. Ad esempio, il campo Regione esiste già nel modulo e stai restringendo un elenco di paesi dall’API a quelli che si trovano in un’area specifica.</li></ul>
       <p><strong>NOTA:</strong> Consulta la documentazione dell’API con cui stai lavorando per le query specifiche che puoi definire.</p></td> 
      </tr>
@@ -561,6 +562,15 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">Intestazioni</td>
       <td><p>Clic <strong>Aggiungi intestazione</strong>e digita o incolla la coppia chiave-valore richiesta per l’autenticazione con l’API.</p><p><strong>NOTA:</strong> I campi Intestazione non rappresentano un luogo sicuro in cui archiviare le credenziali. È necessario prestare attenzione a ciò che si immette e si salva.</p></td>
      </tr>
+     <tr> 
+      <td role="rowheader">Elenco a discesa multi-selezione</td>
+      <td><p>Seleziona questa opzione per consentire all’utente di selezionare più di un valore nel menu a discesa.</p></td>
+     </tr>
+     </tr>
+     <tr> 
+      <td role="rowheader">Rendi il campo obbligatorio</td>
+      <td><p>Seleziona questa opzione se desideri che il campo sia obbligatorio per consentire all’utente di completare il modulo personalizzato.</p></td>
+     </tr>       
     </tbody>
    </table>
 
