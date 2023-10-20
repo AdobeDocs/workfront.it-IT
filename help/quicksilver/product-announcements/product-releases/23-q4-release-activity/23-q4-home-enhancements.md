@@ -3,9 +3,9 @@ title: Miglioramenti Home Quarto Trimestre 2023
 description: Miglioramenti Home Quarto Trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 Dopo aver aggiunto un pulsante Delega ai widget Il mio lavoro, Le mie attività e I miei problemi, una funzione comunemente richiesta nella vecchia home page, è possibile delegare facilmente il lavoro quando si è fuori sede. Nel menu delegato, che funziona in modo identico a come prima di New Home, puoi selezionare a chi e per quanto tempo desideri delegare le tue storie e i tuoi problemi. Affinché il pulsante venga visualizzato, la delega del lavoro deve essere abilitata nell’ambiente Workfront.
 
-Per ulteriori informazioni sulla delega in Workfront, consulta [Gestire la delega di attività e problemi](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md)
+Per ulteriori informazioni sulla delega in Workfront, consulta [Gestire la delega di attività e problemi](/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md).
 
 ## Nuovo widget Bacheche per Nuova Home
 
@@ -30,7 +30,7 @@ Per ulteriori informazioni sui widget disponibili in Nuova Home, consulta [Intro
 
 ## Nuova pagina di destinazione predefinita per i collaboratori: Nuova home
 
-La nuova Home è ora la pagina di destinazione predefinita per gli account Collaboratore/Richiedente. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro. Al momento della prima visita alla pagina, i collaboratori riceveranno anche istruzioni sull’utilizzo della nuova home e dei widget specifici disponibili per impostazione predefinita in una procedura dettagliata personalizzata. Si noti che se un layout con una home page personalizzata attualmente utilizzato da un account collaboratore, rimarrà la propria home page.
+La nuova Home è ora la pagina di destinazione predefinita per gli account Collaboratore/Richiedente. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro. Al momento della prima visita alla pagina, i collaboratori riceveranno anche istruzioni sull’utilizzo della nuova home e dei widget specifici disponibili per impostazione predefinita in una procedura dettagliata personalizzata. I widget predefiniti per i collaboratori sono: Richieste, Riferimenti, Problemi e Bacheche. Si noti che se un layout con una home page personalizzata è attualmente utilizzato da un account collaboratore, rimarrà la propria home page.
 
 Per ulteriori informazioni sull&#39;utilizzo di Nuova home, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
