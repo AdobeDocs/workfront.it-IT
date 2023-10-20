@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 13a48a16d74ae02ddb762b8792a406a5f4e715f3
+exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
+source-git-commit: 949907d7d4c37fa6541a021b458f84f1ebff2896
 workflow-type: tm+mt
-source-wordcount: '2346'
+source-wordcount: '2412'
 ht-degree: 3%
 
 ---
@@ -801,6 +802,10 @@ Deleted
 
 ### Eseguire una
 
+>[!IMPORTANT]
+>
+>Prima di poter eseguire un&#39;installazione, è necessario eseguire questa pre-esecuzione. Quando esegui l’installazione, utilizzerai l’ID generato da questa chiamata.
+
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
@@ -874,10 +879,108 @@ Oppure
 ```
 
 ```json
-{}
+{
+    "environmentPromotionPackageId": "45f2ae94-76c0-4b13-8f3b-f688de83043d",
+    "environmentPromotionPackageVersion": 1,
+    "id": "c0bc79bd-c9c1-4b5b-b118-b1241392de0e",
+    "userId": "5ba38da500b752fd66439d4f6a9999a1",
+    "customerId": "5ba38d9d00b74f0c7a38b1b487fc9710",
+    "status": "PREPARING",
+    "environment": "mmi.my.workfront.com",
+    "registeredAt": "2023-10-19T20:00:16.697Z",
+    "updatedAt": "2023-10-19T20:00:16.701Z",
+    "translationMap": {
+        "CTGY": {
+            "62d9c9a0000013aeeefe7242a0a5fdb2": {
+                "name": "Example Document Form",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c9a0000013aeeefe7242a0a5fdb2"
+            }
+        },
+        "PGRP": {
+            "62d1eee4001c6618e6b9f9a588ba1598": {
+                "name": "Asset Detail",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee4001c6618e6b9f9a588ba1598"
+            }
+        },
+        "GROUP": {
+            "5ba38da500b752b0f46d13186030b7ad": {
+                "name": "Default Group",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "5ba38da500b752b0f46d13186030b7ad"
+            }
+        },
+        "PARAM": {
+            "62d1eee400f8578895166ee91a83f97a": {
+                "name": "Asset Type",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee400f8578895166ee91a83f97a"
+            },
+            "62d1eee50001407c713514a8970b58e4": {
+                "name": "Keywords",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee50001407c713514a8970b58e4"
+            },
+            "62d1eee5000333ac3981ea4f3df6d88e": {
+                "name": "Permitted Uses",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee5000333ac3981ea4f3df6d88e"
+            },
+            "62d1eee5000b188e9ec8039a097fc7ab": {
+                "name": "File Format",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee5000b188e9ec8039a097fc7ab"
+            },
+            "62d1eee500100c159fd5f838ce560507": {
+                "name": "CTA",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d1eee500100c159fd5f838ce560507"
+            },
+            "62d9c988001c1f23954dbb9d646335b5": {
+                "name": "Other CTA",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c988001c1f23954dbb9d646335b5"
+            },
+            "62d9c9880070f546cf4c798ea6c3eaa4": {
+                "name": "Other Audience",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c9880070f546cf4c798ea6c3eaa4"
+            },
+            "62d9c990006258baf1b40f2569c3eab7": {
+                "name": "Target Audience",
+                "action": "USEEXISTING",
+                "isValid": true,
+                "targetId": "62d9c990006258baf1b40f2569c3eab7"
+            }
+        }
+    }
+}
 ```
 
+>[!NOTE]
+>
+>L&#39;ID necessario per eseguire l&#39;installazione è il `id` campo. In questo esempio, la proprietà `id` è il terzo campo dalla parte superiore e ha un valore che inizia con `c0bc79bd`.
+
 ### Eseguire un’installazione
+
+>[!IMPORTANT]
+>
+>Prima di eseguire un&#39;installazione, è necessario eseguire una pre-esecuzione. Quando esegui l’installazione, utilizzerai l’ID generato dalla pre-esecuzione.
+>
+>Se sono state apportate modifiche all’ambiente di destinazione (l’ambiente in cui viene distribuito il pacchetto) dopo l’esecuzione della pre-esecuzione, si consiglia di eseguirla di nuovo. Se non esegui nuovamente la pre-esecuzione, l’esecuzione potrebbe non essere completata con precisione o l’installazione potrebbe non riuscire.
+>
+>Per istruzioni sull’esecuzione di una pre-esecuzione, consulta [Eseguire una](#execute-a-pre-run).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -889,12 +992,6 @@ Oppure
 </table>
 
 Questa chiamata avvia un tentativo di installazione di un pacchetto di promozione nell’ambiente di destinazione identificato nell’URL di POST.
-
-#### Opzioni
-
-Se un `translationmap` non viene fornito nel corpo del POST, il processo avvierà automaticamente il `/prepare-installation` chiamare. Il `translationmap` che viene restituito verrà utilizzato così com’è, senza la possibilità di rivederlo o modificarlo.
-
-Se un `translationmap` è fornito nel corpo del POST, il processo di installazione utilizzerà la mappatura fornita. In questo modo, l&#39;utente che esegue l&#39;installazione può rivedere e apportare le modifiche necessarie prima di eseguire un tentativo di installazione.
 
 #### URL
 
