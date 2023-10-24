@@ -4,9 +4,9 @@ description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 803c03845b834757b4643d8fd5c88f185ad6c32e
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '2606'
+source-wordcount: '2602'
 ht-degree: 0%
 
 ---
@@ -364,9 +364,9 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovi pulsanti di accesso rapido per i widget di tracciamento di progetti, attività e problemi</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovi pulsanti di azione rapida per il widget Il mio lavoro</a> </p>
                         <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
-                        <p>Per ampliare ulteriormente la possibilità di gestire il lavoro direttamente dalla Nuova Home, sono stati aggiunti nuovi pulsanti di accesso rapido ai widget Progetto, Attività e Tracciamento problemi.</p>
+                        <p>Ampliando ulteriormente la possibilità di gestire il lavoro direttamente dalla Nuova Home, sono stati aggiunti nuovi pulsanti di azione rapida al widget Il mio lavoro.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>

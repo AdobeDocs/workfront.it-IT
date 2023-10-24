@@ -6,10 +6,10 @@ description: La nuova Home è una nuova potente funzione per gestire il tuo lavo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 23%
+source-wordcount: '933'
+ht-degree: 21%
 
 ---
 
@@ -52,7 +52,7 @@ Di seguito sono riportati i dieci widget attualmente disponibili tra cui sceglie
     Visualizza tutte le approvazioni per la tua organizzazione in una tabella con colonne personalizzabili, oltre a una barra di ricerca che ti consente di cercare approvazioni specifiche.
 
 * **Menzioni**\
-    Mostra i thread di commenti recenti in cui è presente una tua @mensione in Workfront, oltre a un pulsante di risposta che ti consente di comporre una risposta all&#39;interno del widget. Questo widget mostra anche i commenti aggiunti sulle attività e sui problemi che ti vengono assegnati, che hai assegnato a un altro utente, di cui sei proprietario, per cui sei il contatto principale o che hai creato, purché l’attività o il problema sia stato aggiornato negli ultimi 30 giorni.
+    Visualizza i thread di commenti recenti da Workfront, in modo simile alla pagina My Updates (I miei aggiornamenti), nonché un pulsante di risposta che consente di comporre una risposta all’interno del widget. Questo widget mostra anche i commenti aggiunti sulle attività e sui problemi che ti vengono assegnati, che hai assegnato a un altro utente, di cui sei proprietario, per cui sei il contatto principale o che hai creato, purché l’attività o il problema sia stato aggiornato negli ultimi 30 giorni.
 
 * **Da fare**\
     Questo widget univoco consente di aggiungere elementi di testo a un elenco di controllo personale che puoi modificare liberamente.
@@ -78,7 +78,7 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
     </tr>
     <tr>
         <td>Collaboratore</td>
-        <td>Il mio lavoro, menzioni</td>
+        <td>Le mie richieste, menzioni, in attesa della mia approvazione, bacheche</td>
     </tr>
     <tr>
         <td>Esterno</td>
@@ -104,11 +104,11 @@ Per impostazione predefinita, la home page è compilata con alcuni widget specif
         <td>Il mio lavoro, menzioni</td>
     </tr>
     <tr>
-        <td>Limitato</td>
+        <td>Richiesta</td>
         <td>I miei progetti, in attesa della mia approvazione</td>
     </tr>
     <tr>
-        <td>Collaboratore</td>
+        <td>Contribuisci</td>
         <td>Il mio lavoro, menzioni</td>
     </tr>
     <tr>

@@ -3,9 +3,9 @@ title: Miglioramenti Home Quarto Trimestre 2023
 description: Miglioramenti Home Quarto Trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: f4aeb9b5afa5b0d3dcb5e4eee2cf2acda2b66398
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Per ulteriori informazioni sui widget disponibili in Nuova Home, consulta [Intro
 
 ## Nuova pagina di destinazione predefinita per i collaboratori: Nuova home
 
-La nuova Home è ora la pagina di destinazione predefinita per gli account Collaboratore/Richiedente. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro. Al momento della prima visita alla pagina, i collaboratori riceveranno anche istruzioni sull’utilizzo della nuova home e dei widget specifici disponibili per impostazione predefinita in una procedura dettagliata personalizzata. I widget predefiniti per i collaboratori sono: Richieste, Riferimenti, Problemi e Bacheche. Si noti che se un layout con una home page personalizzata è attualmente utilizzato da un account collaboratore, rimarrà la propria home page.
+La nuova Home è ora la pagina di destinazione predefinita per gli account Collaboratore/Richiedente. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro. Al momento della prima visita alla pagina, i collaboratori riceveranno anche istruzioni sull’utilizzo della nuova home e dei widget specifici disponibili per impostazione predefinita in una procedura dettagliata personalizzata. I widget predefiniti per i collaboratori sono: Richieste personali, Riferimenti, In attesa di approvazione e Bacheche. Si noti che se un layout con una home page personalizzata è attualmente utilizzato da un account collaboratore, rimarrà la propria home page.
 
 Per ulteriori informazioni sull&#39;utilizzo di Nuova home, vedere [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -40,9 +40,9 @@ In base al feedback degli utenti, sono stati rimossi il filtro per l’intervall
 
 Per ulteriori informazioni sul tracciamento del lavoro in New Home, consulta [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-## Nuovi pulsanti di accesso rapido per i widget di tracciamento di progetti, attività e problemi
+## Nuovi pulsanti di azione rapida per il widget Il mio lavoro
 
-Per ampliare ulteriormente la possibilità di gestire il lavoro direttamente dalla Nuova Home, sono stati aggiunti nuovi pulsanti di accesso rapido ai widget Progetto, Attività e Tracciamento dei problemi (incluso Il mio lavoro). Questi nuovi pulsanti, disponibili in questi widget per ogni progetto, attività, problema o richiesta, consentono di aprire rapidamente il riquadro di riepilogo, caricare file, modificare moduli personalizzati, creare un aggiornamento e registrare l&#39;ora senza uscire dalla nuova home page, oltre a un pulsante Lavoro su di essa più grande.
+Ampliando ulteriormente la possibilità di gestire il lavoro direttamente dalla Nuova Home, sono stati aggiunti nuovi pulsanti di azione rapida al widget Il mio lavoro. Questi nuovi pulsanti, disponibili in ogni progetto, attività, problema o richiesta del widget, consentono di aprire rapidamente il riquadro di riepilogo, caricare file, modificare moduli personalizzati, creare un aggiornamento e registrare l&#39;ora senza uscire dalla nuova home page, nonché un pulsante Work On It/Done più grande.
 
 Per ulteriori informazioni sulle funzionalità dei widget nella nuova home, vedi [Introduzione alla nuova home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

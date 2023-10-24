@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: b8416108a16d973435d070f8d2738fee585cc6d3
+source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 5%
+source-wordcount: '802'
+ht-degree: 6%
 
 ---
 
@@ -111,7 +111,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Gli utenti nel sistema visualizzeranno per impostazione predefinita la nuova esperienza Home </td> 
-      <td>Consente di specificare se gli utenti visualizzeranno la nuova esperienza Home per impostazione predefinita. Quando questa opzione è attivata, gli utenti possono comunque scegliere di abilitare o disabilitare la nuova home su base individuale. Se è disattivato, gli utenti non avranno la possibilità di utilizzare la Nuova Home. Questa opzione è attivata per impostazione predefinita.</td> 
+      <td>Consente di specificare se gli utenti visualizzeranno la nuova esperienza Home per impostazione predefinita. Quando questa opzione è attivata, gli utenti vedranno l’esperienza Nuova home per impostazione predefinita, ma potranno comunque scegliere di abilitare o disabilitare la nuova home su base individuale. <b>Se è disattivato, gli utenti non avranno la possibilità di utilizzare la Nuova Home.</b> Questa impostazione è attivata per impostazione predefinita.</td> 
      </tr> 
     </tbody> 
    </table>
