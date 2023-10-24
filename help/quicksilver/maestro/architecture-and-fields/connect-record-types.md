@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -262,7 +262,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-   Per aggiungere o rimuovere campi, seguire le istruzioni riportate nei passaggi 7-12. <!--ensure these step numbers stay accurate-->
+   Per aggiungere o rimuovere campi di ricerca, seguire le istruzioni riportate nei passaggi 7-12 precedenti. <!--ensure these step numbers stay accurate-->
 
 1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso nell&#39;intestazione del campo record collegato dal tipo di record da cui si sta eseguendo il collegamento, quindi fare clic su **Elimina**.
 
