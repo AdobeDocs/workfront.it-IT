@@ -1,21 +1,24 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Visualizza il numero di decisioni relative a prove e documenti per tutti gli utenti
-description: Puoi visualizzare il numero di decisioni relative a prove e documenti prese dagli utenti nell’istanza di Workfront.
+title: Visualizza il numero di decisioni su bozze e documenti per tutti gli utenti
+description: Puoi visualizzare il numero di decisioni su bozze e documenti prese dagli utenti nell’istanza di Workfront.
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: 870e4c0a3627558d1eba0d119f4abef19d135754
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
 
-# Visualizza il numero di decisioni relative a prove e documenti per tutti gli utenti
 
-Puoi visualizzare il numero di decisioni relative a prove e documenti prese dagli utenti nell’istanza di Workfront.
+# Visualizza il numero di decisioni su bozze e documenti per tutti gli utenti
+
+Puoi visualizzare il numero di decisioni su bozze e documenti prese dagli utenti nell’istanza di Workfront.
+
+## Visualizza decisioni nell’area Utenti
 
 >[!NOTE]
 >
@@ -23,8 +26,19 @@ Puoi visualizzare il numero di decisioni relative a prove e documenti prese dagl
 
 Per visualizzare il numero di decisioni per un utente:
 
-1. Fai clic sul pulsante **Menu principale** nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Utenti**.
+1. Fai clic su **Menu principale** nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti**.
 
-1. Apri **Viste** area, quindi scegliere **Licenze** visualizza.
+1. Apri **Visualizzazioni** , quindi scegliere il **Licenze** visualizzazione.
 
-1. Trova la colonna **Decide questo mese** per visualizzare il numero di decisioni che ogni utente ha preso nel mese.
+1. Trovare la colonna **Decisioni di questo mese** per visualizzare il numero di decisioni che ogni utente ha preso nel mese.
+
+## Visualizza decisioni nell&#39;area di reporting
+
+>[!NOTE]
+>
+>Questo rapporto si applica agli utenti dei modelli di livello di accesso nuovi e legacy.
+
+1. Fai clic su **Menu principale** nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Rapporti**.
+1. Clic **Nuovo rapporto**, quindi seleziona **Decisioni degli utenti**.
+1. Rivedi il rapporto e modificalo in base alle esigenze. Per ulteriori informazioni, consulta [Creare un rapporto personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+

@@ -5,9 +5,9 @@ title: Comprendere gli oggetti in [!DNL Adobe Workfront]
 description: Comprendere gli oggetti in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2255'
 ht-degree: 7%
 
 ---
@@ -334,6 +334,10 @@ Per ulteriori informazioni sulle API, consulta [API Explorer](../../../wf-api/ge
 * [!UICONTROL Delega utente]
 
   Puoi creare rapporti sugli utenti che sono stati delegati a eseguire attività e problemi di altri utenti mentre sono fuori sede. Questo rapporto mostra l’utente che è fuori sede e l’utente che svolge i propri compiti mentre è fuori sede.
+
 * [!UICONTROL Decisioni degli utenti]
+
+  Puoi generare rapporti sul numero di decisioni prese dagli utenti su bozze e documenti nel mese corrente.
+
 * [!UICONTROL Visualizza]
 * [!UICONTROL Elemento di lavoro] (genera un rapporto per attività e problemi)
