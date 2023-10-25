@@ -4,9 +4,9 @@ description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 383c87843b3a9a3a7e4e9b78ddd41828013c23c7
 workflow-type: tm+mt
-source-wordcount: '2602'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,22 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Decisioni relative a bozze e documenti disponibili per i clienti dei modelli di licenza legacy</a></p>
+                        <p>I clienti legacy che non hanno ancora effettuato la transizione al nuovo modello di licenza Adobe Workfront ora possono visualizzare in un unico rapporto i dati con il numero di decisioni in merito a bozze/documenti per utente al mese. Questi dati sono disponibili quando si esegue un rapporto Decisioni utenti.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 12 ottobre 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produzione per tutti i clienti: 12 ottobre 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>            
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">I campi calcolati nei moduli personalizzati ora possono utilizzare il carattere jolly $$USER</a></p>
@@ -494,7 +510,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al trascinamento della selezione per le integrazioni di documenti</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Sono stati apportati alcuni miglioramenti per aggiungere chiarezza e rimuovere l’errore utente durante il trascinamento e il rilascio di un file in una cartella collegata.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al trascinamento della selezione per le integrazioni di documenti</a></p><p>Sono stati apportati alcuni miglioramenti per aggiungere chiarezza e rimuovere l’errore utente durante il trascinamento e il rilascio di un file in una cartella collegata.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -502,7 +518,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                                 <p>Versione di anteprima: 24 agosto 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produzione per tutti i clienti: 31 agosto 2023</span></p>
+                                <p><span class="preview">Produzione per tutti i clienti: dopo la versione 23.10</span></p>
                             </li>
                         </ul>
                     </td>
