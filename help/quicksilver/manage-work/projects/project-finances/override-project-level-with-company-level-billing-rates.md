@@ -6,16 +6,14 @@ description: Sostituisci tariffe di fatturazione a livello di progetto con tarif
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
 # Sostituisci tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di società
-
-{{highlighted-preview}}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -80,17 +78,9 @@ Dopo aver abilitato l&#39;opzione di sostituzione delle tariffe di fatturazione 
 1. Clic **Aziende**.
 1. Fare clic sul nome della società associata al progetto per la quale è stata abilitata la sostituzione delle tariffe di fatturazione a livello di società.
 1. Clic **Tariffe di fatturazione** nel pannello a sinistra.
-1. Nell’ambiente di produzione, inserisci la nuova tariffa di fatturazione per una mansione esistente in **Tariffa di fatturazione della società** , quindi premere Invio.
+1. Aggiornare il **Tariffa di fatturazione della società** e le date di inizio/fine per una mansione esistente, quindi premere Invio.
 
-   Oppure
-
-   <div class="preview">
-
-   Nell’ambiente di anteprima, aggiorna la **Tariffa di fatturazione della società** e le date di inizio/fine per una mansione esistente, quindi premere Invio.
-
-   Per aggiungere una nuova tariffa di fatturazione della società con data effettiva, selezionare una tariffa di fatturazione per la mansione e fare clic su Modifica. Per ulteriori informazioni sulle tariffe di fatturazione aziendali effettive per data, consulta [Sostituisci le tariffe di fatturazione dei ruoli a livello aziendale](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
-
-   </div>
+   Per aggiungere una nuova tariffa di fatturazione della società con data effettiva, selezionare una tariffa di fatturazione per la mansione e fare clic su **Modifica**. Per ulteriori informazioni sulle tariffe di fatturazione aziendali effettive per data, consulta [Sostituisci le tariffe di fatturazione dei ruoli a livello aziendale](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Per aggiornare le tariffe aziendali per uno o più progetti, effettuare una delle seguenti operazioni:
 

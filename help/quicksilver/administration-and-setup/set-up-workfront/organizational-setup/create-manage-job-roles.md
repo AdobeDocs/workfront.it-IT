@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: fa5aa268405c8ee2b5915fd55983397decf8d198
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Creare e gestire le mansioni
-
-{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -83,11 +81,11 @@ Devi avere i seguenti:
      <tr> 
       <td role="rowheader">[!UICONTROL Cost Rate]</td> 
       <td><p>Tariffa oraria della mansione. Questo valore calcola i costi pianificati ed effettivi delle attività e dei problemi associati al ruolo e in ultima analisi i costi pianificati ed effettivi dei progetti. Immettere il tasso utilizzando la [!UICONTROL Base Currency].</p> 
-      <p><span class="preview">Per le tariffe effettive per data, fare clic su <strong>[!UICONTROL Add Rate]</strong>. Immettere il valore del costo/ora per il periodo di tempo e assegnare una data di inizio [!UICONTROL] e una data di fine [!UICONTROL] in base alle esigenze. La prima tariffa non avrà una data di inizio e l'ultima tariffa non avrà una data di fine.</span></p> <p><span class="preview">Alcune date vengono aggiunte automaticamente. Ad esempio, se il primo tasso di costo non ha una data di fine e si aggiunge un secondo tasso di costo con una data di inizio del 1° maggio 2023, al primo tasso di costo verrà aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.</span></p> <p><span class="preview">Suggerimento: quando modifichi una mansione esistente, puoi selezionare <strong>Ordina per data di inizio</strong> per visualizzare la data di inizio più recente nella parte superiore dell’elenco delle tariffe. </span></p></td> 
+      <p>Per le tariffe effettive per data, fare clic su <strong>[!UICONTROL Add Rate]</strong>. Immettere il valore del costo/ora per il periodo di tempo e assegnare una data di inizio [!UICONTROL] e una data di fine [!UICONTROL] in base alle esigenze. La prima tariffa non avrà una data di inizio e l'ultima tariffa non avrà una data di fine.</p> <p>Alcune date vengono aggiunte automaticamente. Ad esempio, se il primo tasso di costo non ha una data di fine e si aggiunge un secondo tasso di costo con una data di inizio del 1° maggio 2023, al primo tasso di costo verrà aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.</p> <p>Suggerimento: quando modifichi una mansione esistente, puoi selezionare <strong>Ordina per data di inizio</strong> per visualizzare la data di inizio più recente nella parte superiore dell’elenco delle tariffe.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Tariffa Di Fatturazione] </td> 
-      <td><p>Tariffa oraria fatturazione della mansione. Questo valore calcola le entrate pianificate ed effettive delle attività e dei problemi associati al ruolo e in ultima analisi le entrate pianificate ed effettive dei progetti. Immettere il tasso utilizzando la [!UICONTROL Base Currency].</p> <p><span class="preview">Per le tariffe di fatturazione effettive della data, fai clic su <strong>[!UICONTROL Add Rate]</strong>. Immetti il valore della fatturazione/ora per il periodo di tempo e assegna una data di inizio [!UICONTROL] e una data di fine [!UICONTROL] secondo necessità. La prima tariffa di fatturazione non avrà una data di inizio e l’ultima tariffa di fatturazione non avrà una data di fine.</span></p> <p><span class="preview">Alcune date vengono aggiunte automaticamente. Ad esempio, se la prima tariffa di fatturazione non ha una data di fine e ne aggiungi una seconda con una data di inizio del 1° maggio 2023, alla prima tariffa di fatturazione viene aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.</span></p> <p><span class="preview">Suggerimento: quando modifichi una mansione esistente, puoi selezionare <strong>Ordina per data di inizio</strong> per visualizzare la data di inizio più recente nella parte superiore dell’elenco delle tariffe. </span></p> </td> 
+      <td><p>Tariffa oraria fatturazione della mansione. Questo valore calcola le entrate pianificate ed effettive delle attività e dei problemi associati al ruolo e in ultima analisi le entrate pianificate ed effettive dei progetti. Immettere il tasso utilizzando la [!UICONTROL Base Currency].</p> <p>Per le tariffe di fatturazione effettive della data, fai clic su <strong>[!UICONTROL Add Rate]</strong>. Immetti il valore della fatturazione/ora per il periodo di tempo e assegna una data di inizio [!UICONTROL] e una data di fine [!UICONTROL] secondo necessità. La prima tariffa di fatturazione non avrà una data di inizio e l’ultima tariffa di fatturazione non avrà una data di fine.</p> <p>Alcune date vengono aggiunte automaticamente. Ad esempio, se la prima tariffa di fatturazione non ha una data di fine e ne aggiungi una seconda con una data di inizio del 1° maggio 2023, alla prima tariffa di fatturazione viene aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.</p> <p>Suggerimento: quando modifichi una mansione esistente, puoi selezionare <strong>Ordina per data di inizio</strong> per visualizzare la data di inizio più recente nella parte superiore dell’elenco delle tariffe.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>[!UICONTROL Sovrascrivi valuta]</span> </td> 

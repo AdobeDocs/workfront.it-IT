@@ -8,16 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1472'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
 
 # Creare e modificare le società
-
-{{highlighted-preview}}
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -109,11 +107,7 @@ Per aggiungere o modificare una società:
         <li> <p><b>[!UICONTROL Group]</b>: se esiste un gruppo che conduce affari con l’azienda, puoi aggiungere il nome del gruppo qui. Questo è utile per gli amministratori di gruppi che devono segnalare e gestire tutte le aziende con cui i loro gruppi intrattengono rapporti commerciali.</p> <p><b>IMPORTANTE</b>: se non associ il gruppo che lavorerà con questa società, gli amministratori del gruppo non possono accedere a meno che non abbiano accesso amministrativo alle società nel loro livello di accesso. Per informazioni sulle modalità di concessione dell’accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Inizia a digitare il nome del gruppo, quindi premi <strong>[!UICONTROL INVIO]</strong> quando viene visualizzato.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Quando si assegna un gruppo a una società, gli amministratori del gruppo del gruppo ottengono l'accesso [!UICONTROL Gestisci] alla società. Per ulteriori informazioni, consulta <a href="#group-administrators-and-companies" class="MCXref xref">Amministratori di gruppi e società</a> in questo articolo.</p> </li> 
         <li> <p><b>[!UICONTROL Membri società]</b>: aggiungi utenti esistenti all’azienda. In questo modo, si associano questi utenti a questa azienda.</p> <p>Non esiste un limite al numero di utenti associati a una società, ma un utente non può essere associato a più società.</p> </li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Sezione [!UICONTROL Billing Rates] (Tariffe di fatturazione)</td> 
-      <td> <p><span class="preview">Questa sezione è stata rimossa nell’ambiente di anteprima.</span></p><p>Puoi sovrascrivere le tariffe di fatturazione associate alle mansioni a livello aziendale. Per informazioni sulla creazione di mansioni e sulla loro associazione alle tariffe di fatturazione, consulta <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Creare e gestire le mansioni</a>.</p> <p>Per ulteriori informazioni sulla sostituzione delle tariffe di fatturazione a livello aziendale, consulta <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Sostituisci le tariffe di fatturazione dei ruoli a livello aziendale</a>.</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">Sezione [!UICONTROL Custom Forms]</td> 
       <td> <p>Se sono presenti campi che desideri aggiungere alla tua azienda che non sono disponibili in [!DNL Workfront], è possibile creare un modulo personalizzato e associarlo all'azienda. Per allegare il modulo alla società, selezionarlo dal menu a discesa. Nel menu a discesa sono elencate solo le società attive. Per informazioni sulla creazione di Forms personalizzati, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>. </p> </td> 

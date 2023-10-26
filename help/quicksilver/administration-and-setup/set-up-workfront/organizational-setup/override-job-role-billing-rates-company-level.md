@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 1%
@@ -17,9 +17,7 @@ ht-degree: 1%
 
 # Sostituisci le tariffe di fatturazione dei ruoli a livello aziendale
 
-{{highlighted-preview}}
-
-Quando viene creato un ruolo, è possibile selezionare una tariffa di fatturazione oraria per tale ruolo. <span class="preview">Puoi creare più tariffe di fatturazione orarie specifiche per una società. Ogni tariffa di fatturazione è valida per un intervallo di date specifico.</span>
+Quando viene creato un ruolo, è possibile selezionare una tariffa di fatturazione oraria per tale ruolo. Puoi creare più tariffe di fatturazione orarie specifiche per una società. Ogni tariffa di fatturazione è valida per un intervallo di date specifico.
 
 A livello di progetto, è possibile abilitare un&#39;opzione per consentire alle tariffe di fatturazione a livello di società di sostituire le tariffe a livello di progetto. Per ulteriori informazioni, consulta [Sostituisci tariffe di fatturazione a livello di progetto con tariffe di fatturazione a livello di società](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
 
@@ -54,30 +52,30 @@ Devi avere i seguenti:
 
 1. Clic **[!UICONTROL Aziende]**.
 1. Individua l&#39;azienda a cui è assegnata la mansione.
-1. <span class="preview">Fare clic sul nome della società nell&#39;elenco.</span>
-1. <span class="preview">Clic **[!UICONTROL Tariffe di fatturazione]** nel pannello a sinistra.</span>
-1. <span class="preview">Clic **[!UICONTROL Aggiungi tariffa di fatturazione] > [!UICONTROL Nuova tariffa di fatturazione]** oppure scegli una tariffa esistente da modificare.</span>
-1. <span class="preview">In [!UICONTROL Nuova tariffa di fatturazione] , seleziona una [!UICONTROL **Ruolo**] per definire la tariffa di fatturazione per.</span>
+1. Fare clic sul nome della società nell&#39;elenco.
+1. Clic **[!UICONTROL Tariffe di fatturazione]** nel pannello a sinistra.
+1. Clic **[!UICONTROL Aggiungi tariffa di fatturazione] > [!UICONTROL Nuova tariffa di fatturazione]** oppure scegli una tariffa esistente da modificare.
+1. In [!UICONTROL Nuova tariffa di fatturazione] , seleziona una [!UICONTROL **Ruolo**] per definire la tariffa di fatturazione per.
 
-   <span class="preview">Il [!UICONTROL **Tariffa di fatturazione predefinita**] visualizza il tasso a livello di sistema per questa mansione.</span>
+   Il [!UICONTROL **Tariffa di fatturazione predefinita**] visualizza il tasso a livello di sistema per questa mansione.
 
-   <span class="preview">![Finestra di dialogo Nuova tariffa di fatturazione](assets/date-effective-billing-rates-for-company.png)</span>
+   ![Finestra di dialogo Nuova tariffa di fatturazione](assets/date-effective-billing-rates-for-company.png)
 
-1. <span class="preview">In [!DNL **Tariffe di fatturazione 1**] , inserire la tariffa di fatturazione. Quindi, fai clic su [!UICONTROL **Salva**] per sostituire una sola volta la tariffa di fatturazione.</span>
+1. In [!DNL **Tariffe di fatturazione 1**] , inserire la tariffa di fatturazione. Quindi, fai clic su [!UICONTROL **Salva**] per sostituire una sola volta la tariffa di fatturazione.
 
-   <span class="preview">Oppure</span>
+   Oppure
 
-   <span class="preview">Clic [!UICONTROL **Aggiungi tariffa**] per aggiungere altre tariffe di fatturazione con date di validità.</span>
+   Clic [!UICONTROL **Aggiungi tariffa**] per aggiungere altre tariffe di fatturazione con date di validità.
 
-1. <span class="preview">(Condizionale) Se si stanno aggiungendo più tariffe di fatturazione, inserire le seguenti informazioni:</span>
+1. (Condizionale) Se si stanno aggiungendo più tariffe di fatturazione, inserire le seguenti informazioni:
 
-   * <span class="preview">**[!UICONTROL Tariffe di fatturazione 1], 2, ecc.**: il valore della tariffa di fatturazione per il periodo di tempo.</span>
-   * <span class="preview">**[!UICONTROL Data di inizio ]**: la data in cui il tasso diventa effettivo.</span>
-   * <span class="preview">**[!UICONTROL Data di fine ]**: la data in cui termina il tasso.</span>
+   * **[!UICONTROL Tariffe di fatturazione 1], 2, ecc.**: il valore della tariffa di fatturazione per il periodo di tempo.
+   * **[!UICONTROL Data di inizio]**: la data in cui il tasso diventa effettivo.
+   * **[!UICONTROL Data di fine]**: la data in cui termina il tasso.
 
-     <span class="preview">La tariffa di fatturazione 1 non avrà una data di inizio e l&#39;ultima tariffa di fatturazione non avrà una data di fine. Alcune date vengono aggiunte automaticamente. Ad esempio, se la tariffa di fatturazione 1 non ha una data di fine e si aggiunge la tariffa di fatturazione 2 con una data di inizio del 1° maggio 2023, alla tariffa di fatturazione 1 viene aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.</span>
+     La tariffa di fatturazione 1 non avrà una data di inizio e l&#39;ultima tariffa di fatturazione non avrà una data di fine. Alcune date vengono aggiunte automaticamente. Ad esempio, se la tariffa di fatturazione 1 non ha una data di fine e si aggiunge la tariffa di fatturazione 2 con una data di inizio del 1° maggio 2023, alla tariffa di fatturazione 1 viene aggiunta una data di fine del 30 aprile 2023 in modo che non esistano spazi vuoti.
 
-1. <span class="preview">Fai clic su [!UICONTROL **Salva**].</span>
+1. Fai clic su [!UICONTROL **Salva**].
 
    >[!NOTE]
    >
