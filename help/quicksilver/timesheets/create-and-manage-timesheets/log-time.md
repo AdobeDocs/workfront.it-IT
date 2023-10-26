@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '3470'
+source-wordcount: '3349'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,12 @@ ht-degree: 0%
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>\
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
-<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del quarto trimestre 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+-->
 
 È possibile registrare il tempo degli elementi di lavoro in Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L&#39;ora registrata viene visualizzata nella scheda orario.
 
@@ -366,14 +368,6 @@ Puoi registrare l’ora specifica di un progetto su un progetto, un’attività 
 
 #### Sezione aggiornamenti{#updates-section}
 
-<!--remove the note below - October 2023 -->
-
->[!NOTE]
->
-> La sezione Aggiornamenti corrente e quella nuova presentano alcune lievi differenze nell’aspetto dell’interfaccia utente. Le informazioni in questa sezione fanno riferimento alla funzionalità visualizzata nella nuova esperienza di commento.
->
->Per ulteriori informazioni sulla nuova sezione Aggiornamenti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
 Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attività o un problema, è necessario disporre dei seguenti elementi:
 
 * Una licenza Lavoro o Piano.
@@ -390,7 +384,7 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
 1. Nel pannello a sinistra, seleziona **Aggiornamenti**.
 1. Clic **Tempo di connessione**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
-   Viene visualizzata la finestra di dialogo Log Time (Tempo registro).
+   Viene visualizzata la finestra di dialogo Registra ora.
 
    >[!TIP]
    >
@@ -398,7 +392,7 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
    >   
    >   Nell&#39;angolo superiore destro della casella Immettere i giorni è indicato il numero di ore incluse in un giorno.
 
-   <span class="preview">![](assets/log-time-box-in-updates-stream.png)</span>
+   ![](assets/log-time-box-in-updates-stream.png)
 
 1. Specifica le seguenti informazioni:
 

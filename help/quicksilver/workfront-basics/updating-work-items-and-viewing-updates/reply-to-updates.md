@@ -8,28 +8,37 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4b6d14559f776ed5484a67fcc5f461f154cc5e30
+source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
 
 # Rispondi agli aggiornamenti
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. Dopo i rilasci mensili in Produzione, le stesse funzioni sono disponibili nell’ambiente di Produzione per i clienti che hanno abilitato i rilasci rapidi. </span>\
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>
+<!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
-<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del quarto trimestre 2023](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+
+<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
+
+-->
 
 >[!IMPORTANT]
 >
 >Attualmente stiamo riprogettando l’esperienza di aggiunta di commenti in Adobe Workfront.
->A seconda dell’ambiente e degli oggetti da cui accedi all’esperienza di commento, nella sezione Aggiornamenti potrebbero essere presenti funzionalità diverse.
+>
+>A seconda degli oggetti per i quali accedi all’esperienza di commento, per la sezione Aggiornamenti potresti visualizzare le seguenti funzionalità:
+>* La nuova esperienza
+>* L’esperienza legacy
+>* La nuova esperienza e quella legacy
 >
 >Per ulteriori informazioni sulla nuova esperienza di commento e sulla sua disponibilità, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->La nuova esperienza di aggiunta di commenti è disponibile solo per la sezione Aggiornamenti e non per le seguenti aree:
+>La nuova esperienza di aggiunta di commenti è disponibile solo per la sezione Aggiornamenti degli oggetti di Workfront e non è disponibile quando si accede agli oggetti dalle aree seguenti:
 >
 > * Home
 > * Pannello Riepilogo negli elenchi
@@ -41,6 +50,7 @@ Quando qualcuno risponde a un commento o a un aggiornamento di sistema su un ogg
 >
 >Nella nuova esperienza di inserimento di commenti non è possibile rispondere agli aggiornamenti di sistema. Per ulteriori informazioni, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
 
 ## Requisiti di accesso
 
@@ -79,7 +89,30 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 La risposta a un commento o a una risposta varia a seconda dell’esperienza e dell’oggetto selezionato.
 
-### Rispondi a un aggiornamento o rispondi alla sezione Aggiornamenti correnti
+### Rispondere a un commento quando si utilizza la nuova esperienza di commento
+
+Per informazioni sulle funzioni disponibili nella nuova esperienza di commento e sugli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
+1. Passare all&#39;oggetto a cui si desidera aggiungere una risposta.
+1. Clic **Aggiornamenti**, quindi fare clic su **Commenti** e trovare il commento o la risposta a cui si desidera rispondere.
+1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fare clic sul pulsante **Altro** nell’angolo superiore destro del commento a cui desideri rispondere, quindi fai clic su **Risposta preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato da una linea grigia verticale.
+1. Clic **Rispondi**.
+
+   ![](assets/reply-to-update-empty-box.png)
+
+   Puoi vedere gli utenti attivamente coinvolti nella conversazione nella parte inferiore della sezione **Aggiungi risposta...** e puoi aggiungerne altre o rimuovere quelle che non sono più pertinenti. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Puoi anche assegnare tag a più utenti per includerli nella risposta.  Per assegnare tag a più utenti, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   >[!TIP]
+   >
+   >   Per aggiungere ulteriori risposte a una risposta esistente, puoi iniziare a digitare nella **Aggiungi risposta...** o fai clic su **Rispondi** sul commento originale. La risposta viene aggiunta alla fine del thread.
+
+1. Inizia a digitare la risposta e utilizza eventuali opzioni aggiuntive dalla barra degli strumenti Testo formattato. Per informazioni sull’utilizzo di Rich Text o di altre funzionalità di aggiornamento, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+
+1. Clic **Invia** per salvare la risposta.
+
+1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-menu.png) nell’angolo superiore destro del commento a cui desideri rispondere per ulteriori opzioni di gestione della risposta. Per ulteriori informazioni, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+
+### Rispondi a un aggiornamento o rispondi nella sezione Aggiornamenti legacy
 
 1. Passare all&#39;oggetto a cui si desidera aggiungere una risposta.
 1. Il giorno **Aggiornamenti** per l&#39;oggetto, trovare l&#39;aggiornamento o la risposta a cui si desidera rispondere.
@@ -98,30 +131,6 @@ La risposta a un commento o a una risposta varia a seconda dell’esperienza e d
 1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fare clic sul pulsante **Altro** accanto all&#39;aggiornamento o alla risposta che si desidera citare, quindi fare clic su **Risposta preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato da una linea grigia verticale.
 1. (Facoltativo) Utilizza la formattazione, le emoticon, i collegamenti o le immagini come spiegato nella sezione &quot;Utilizzare il testo RTF in un aggiornamento di Workfront&quot; nell’articolo [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. Clic **Rispondi** per salvare la risposta.
-
-### Rispondere a un commento quando si utilizza la nuova esperienza di commento
-
-Per informazioni sulle funzioni disponibili nella nuova esperienza di commento e sugli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-
-1. Passare all&#39;oggetto a cui si desidera aggiungere una risposta.
-1. Clic **Aggiornamenti**, quindi fare clic su **Commenti** e trovare il commento o la risposta a cui si desidera rispondere.
-1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fare clic sul pulsante **Altro** menu <span class="preview">nell’angolo superiore destro del commento a cui desideri rispondere</span>, quindi fai clic su **Risposta preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato da una linea grigia verticale.
-1. Clic **Rispondi**.
-
-   ![](assets/reply-to-update-empty-box.png)
-
-   Puoi vedere gli utenti attivamente coinvolti nella conversazione nella parte inferiore della sezione **Aggiungi risposta...** e puoi aggiungerne altre o rimuovere quelle che non sono più pertinenti. Questi utenti, insieme a tutti gli utenti abbonati all’oggetto, ricevono una notifica ogni volta che viene effettuato un aggiornamento o una risposta sull’oggetto. Puoi anche assegnare tag a più utenti per includerli nella risposta.  Per assegnare tag a più utenti, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-
-   >[!TIP]
-   >
-   >   <span class="preview">Per aggiungere ulteriori risposte a una risposta esistente, puoi iniziare a digitare nella **Aggiungi risposta...** o fai clic su **Rispondi** sul commento originale. La risposta viene aggiunta alla fine del thread. </span>
-
-1. Inizia a digitare la risposta e utilizza eventuali opzioni aggiuntive dalla barra degli strumenti Testo formattato. Per informazioni sull’utilizzo di Rich Text o di altre funzionalità di aggiornamento, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
-
-1. Clic **Invia** per salvare la risposta.
-
-1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-menu.png) <span class="preview">nell’angolo superiore destro del commento a cui desideri rispondere</span> per ulteriori opzioni per gestire la risposta. Per ulteriori informazioni, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
-
 
 ## Rispondere a un aggiornamento da una notifica e-mail
 

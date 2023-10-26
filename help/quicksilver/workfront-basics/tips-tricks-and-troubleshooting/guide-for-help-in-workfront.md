@@ -5,9 +5,9 @@ title: Guida rapida alla ricerca di aiuto in [!DNL Adobe Workfront]
 description: Guida rapida alla ricerca di aiuto in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: ccc20edf13c2cdec1d81d5ab90dcd0d24c0e2ff3
+source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Benvenuti in [!DNL Adobe Workfront!] Sappiamo che hai delle domande e non sempre
 >(NOTE: from Luke: I wonder who added this. This article does containa lot of good information. I wonder if we should update the TOC so that it appears in a more prominent section?)>
 ></MadCap:conditionalText>>
 >-->
-
 
 
 ## Come posso ottenere risposte alle domande e informazioni su [!DNL Workfront?]
@@ -68,7 +67,7 @@ Per ulteriori informazioni su [!DNL Workfront], è possibile:
   </tr> 
   <tr> 
    <td><strong>Scopri on-demand e approfondisci con [!DNL Workfront] Formazione</strong> </td> 
-   <td><a href="https://experienceleague.adobe.com">Experience League</a> offre percorsi di apprendimento basati sui ruoli per consentire a pianificatori, lavoratori, collaboratori e amministratori di sistema di iniziare a lavorare con funzionalità chiave in [!DNL Workfront].<br>Espandi la tua [!DNL Workfront] conoscenza</a> esplorando percorsi di apprendimento, esercitazioni video e guide scaricabili sui tuoi argomenti di interesse.</a><br></td> 
+   <td><a href="https://experienceleague.adobe.com">Experience League</a> offre percorsi di apprendimento basati sui ruoli per consentire a pianificatori, lavoratori, collaboratori e amministratori di sistema di iniziare a lavorare con funzionalità chiave in [!DNL Workfront].<br>Espandi la tua [!DNL Workfront] conoscenza</a> esplorando percorsi di apprendimento, esercitazioni video e guide scaricabili sui tuoi argomenti di interesse.<br></td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,10 +155,14 @@ Per ulteriori informazioni su [!DNL Workfront] Sito di stato, vedere [Il [!DNL A
 
 Per scoprire cosa è stato risolto in un aggiornamento di manutenzione settimanale, consulta [Aggiornamenti di manutenzione](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-## Quali sono le best practice per la manutenzione e l’ottimizzazione [!DNL Workfront?]
+<!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 
-Le seguenti dashboard possono essere utili come [!DNL Workfront] amministratore mantieni Workfront:
+## What are best practices for maintaining and tuning up [!DNL Workfront?]
 
-| [[!DNL Workfront] Dashboard utilizzo](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Utilizzo dell’esperienza da parte degli utenti [!DNL Workfront] può aiutarti a misurare l’adozione complessiva del tuo sistema e a immergerti in qualsiasi area problematica che possa richiedere un po’ di attenzione. |
+The following dashboards can help you as a [!DNL Workfront] administrator maintain Workfront:
+
+| [[!DNL Workfront] Usage Dashboard](https://experienceleaguecommunities.adobe.com/t5/workfront-archived-groups/workfront-usage-dashboard/m-p/461045#M2624) | Understanding how your users are leveraging [!DNL Workfront] can help you gauge the overall adoption of your system as well as dive into any problem areas that may need some attention. |
 |---|---|
-| [[!DNL Workfront] Dashboard di pulizia: disattivare gli oggetti inutilizzati](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Mantenimento [!DNL Workfront] la pulizia dagli oggetti inutilizzati è una best practice consolidata, ma che può sembrare scoraggiante senza gli strumenti giusti. Questa dashboard è progettata per consentire agli amministratori di sistema o ai proprietari dei processi di trovare facilmente [!DNL Workfront] dati che potrebbero dover essere eliminati per migliorare l’esperienza utente. È consigliabile rivedere questo dashboard ogni trimestre per mantenere [!DNL Workfront] pulita. |
+| [[!DNL Workfront] Cleanup Dashboard: Deactivate Unused Objects](https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-workfront-cleaned-up-its-own-unbridled-instance-of-workfront/ba-p/518299) | Keeping [!DNL Workfront] clean from unused objects is a long-standing best practice but one that can seem daunting without the right tools. This dashboard is designed for System Administrators or Process Owners to easily find [!DNL Workfront] data that may need to be cleaned up to help improve the user experience. We recommend reviewing this dashboard every quarter to help keep [!DNL Workfront] clean. |
+
+-->
