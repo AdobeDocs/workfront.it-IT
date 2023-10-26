@@ -6,7 +6,7 @@ description: Sostituisci tariffe di fatturazione a livello di progetto con tarif
 author: Alina
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -86,11 +86,11 @@ Dopo aver abilitato l&#39;opzione di sostituzione delle tariffe di fatturazione 
 
    * Più progetti:
 
-   1. Consente di passare a un elenco di progetti.
-   1. Seleziona la casella di controllo in linea con i progetti da aggiornare.
-   1. Clic **Modifica**.
-   1. Nella sezione Settings, abilita **Ricalcolare Costi E Ricavi** opzione.
-   1. Clic **Salva modifiche**.
+      1. Consente di passare a un elenco di progetti.
+      1. Seleziona la casella di controllo in linea con i progetti da aggiornare.
+      1. Clic **Modifica**.
+      1. Nella sezione Settings, abilita **Ricalcolare Costi E Ricavi** opzione.
+      1. Clic **Salva modifiche**.
 
    * Progetto singolo:
 
