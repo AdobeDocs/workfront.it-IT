@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: dc9d331045f5381290983a5b37bf16e72249422c
+source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
 workflow-type: tm+mt
-source-wordcount: '13358'
+source-wordcount: '13366'
 ht-degree: 1%
 
 ---
@@ -381,6 +381,7 @@ ht-degree: 1%
          * [Domande frequenti sulle nuove esperienze di commento](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
       * Integrazione di Workfront e Frame.io alfa {#frame-io-wf-integration-alpha}
          * [Integrazione alfa nativa di Adobe Workfront e Frame.io: panoramica](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+         * [Integrazione alfa nativa di Adobe Workfront e Frame.io: funzioni](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * Amministrazione e configurazione {#administration-and-setup}
    * [Amministrazione e configurazione](administration-and-setup/administration-and-setup.md)
    * Introduzione all’amministrazione {#get-started-administration}
@@ -1017,8 +1018,8 @@ ht-degree: 1%
       * [Elimina storia da bacheca Kanban](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
    * Scrum in un team agile {#scrum}
       * [Scrum in un team agile](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
-      * Burn-down {#burndown}
-         * [Burn-down](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
+      * Lavoro {#burndown}
+         * [Lavoro](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [Panoramica del grafico a burn-down Agile](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
          * [Panoramica sullo stato di completamento dell&#39;iterazione](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
          * [Ridimensionare e comprimere il grafico a dispersione](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)

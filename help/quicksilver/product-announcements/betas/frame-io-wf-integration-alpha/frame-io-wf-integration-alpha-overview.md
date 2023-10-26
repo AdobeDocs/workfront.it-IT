@@ -7,9 +7,9 @@ author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
-source-git-commit: 58118f98d2d17960e4383c63b564aa2e56ea49f6
+source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -23,19 +23,14 @@ Benvenuti nel programma alfa di integrazione Workfront + Frame.io! Come parte di
 
 Ottieni il meglio di entrambi i mondi e scopri come un’esperienza semplificata tra Frame.io e Workfront (comprese le nuove approvazioni dei documenti) può stimolare il ciclo di vita dei contenuti dall’inizio del lavoro alla firma e alla consegna.
 
-<!--
-Learn more about 
 
-This program and feedback participation activities: <link> 
-
-The new experience and features and how you can test them: <link> 
--->
+Per ulteriori informazioni sulle feature pianificate dell&#39;alfa e su come testarle, consultate [Integrazione alfa nativa di Adobe Workfront e Frame.io: funzioni](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 
 >[!NOTE]
 >
 >Se vi imbatteste in queste pagine senza che la vostra azienda partecipasse a questo programma alfa, assicuratevi di trattare le informazioni con attenzione e contattate l&#39;amministratore Workfront o Frame.io per ulteriori informazioni.
 
-## Attività di feedback e canali di comunicazione pianificati
+## Canali di comunicazione
 
 Questo programma alfa offre l&#39;opportunità unica di testare l&#39;esperienza diretta che intendiamo creare sfruttando al meglio sia Workfront che Frame.io. Workfront per la pianificazione del lavoro, il monitoraggio e la gestione del processo di revisione e approvazione delle risorse richieste; Frame.io per la collaborazione creativa e la conduzione della revisione e approvazione.
 
