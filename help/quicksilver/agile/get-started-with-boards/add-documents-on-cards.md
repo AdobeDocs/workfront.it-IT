@@ -6,7 +6,7 @@ description: È possibile aggiungere documenti alle schede collegate su Schede A
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: 2e9ba58c01f3c5c6569c88e05993674d56124806
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Aggiungi documenti su schede
-
-{{article-preview-and-fast-release}}
 
 È possibile aggiungere documenti alle schede collegate su Schede Adobe Workfront. Tutti i documenti aggiunti sulla scheda diventano disponibili nella scheda Documenti dell’attività o del problema connesso e i documenti aggiunti all’attività o al problema sono visibili sulla scheda. Gli stessi tipi di file sono supportati in entrambe le aree. Per ulteriori informazioni sui documenti in Workfront, consulta [Aggiungere documenti ad Adobe Workfront dal file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 

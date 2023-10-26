@@ -6,7 +6,7 @@ description: È possibile aggiungere alla bacheca una scheda connessa alle attiv
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 99e985642fff751ac67a9de562908bd2156b3812
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
 source-wordcount: '1427'
 ht-degree: 0%
@@ -14,8 +14,6 @@ ht-degree: 0%
 ---
 
 # Utilizzare le schede collegate sulle bacheche
-
-{{preview-and-fast-release}}
 
 È possibile aggiungere alla bacheca una scheda connessa alle attività e ai problemi esistenti in [!DNL Workfront].
 
@@ -27,8 +25,8 @@ Quando uno qualsiasi dei seguenti dettagli viene aggiornato per la scheda in una
 * [!UICONTROL Stato]
 * [!UICONTROL Data di completamento pianificata]
 * [!UICONTROL Stima] / [!UICONTROL Punti storia]
-* <span class="preview">[!UICONTROL Sottoattività]</span>
-* <span class="preview">[!UICONTROL Documenti]</span>
+* [!UICONTROL Sottoattività]
+* [!UICONTROL Documenti]
 
 >[!NOTE]
 >
@@ -137,10 +135,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr>
      <tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Sottoattività]</strong></span></td>
-      <td><span class="preview"><p>Tutte le sottoattività esistenti per l'attività vengono visualizzate in questa sezione. Clic <strong>[!UICONTROL Aggiungi sottoattività]</strong> per aggiungere una nuova sottoattività.</p>
+      <td role="rowheader"><strong>[!UICONTROL Sottoattività]</strong></td>
+      <td><p>Tutte le sottoattività esistenti per l'attività vengono visualizzate in questa sezione. Clic <strong>[!UICONTROL Aggiungi sottoattività]</strong> per aggiungere una nuova sottoattività.</p>
       <p>Il contatore nella parte superiore della sezione mostra il numero di sottoattività completate e il numero totale di sottoattività.</p>
-      <p>Per ulteriori informazioni sulle sottoattività, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gestire le sottoattività nelle bacheche</a>.</p></span></td>
+      <p>Per ulteriori informazioni sulle sottoattività, vedere <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Gestire le sottoattività nelle bacheche</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>Elenco di controllo di [!UICONTROL]</strong></td>
@@ -148,8 +146,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <p>Il contatore nella parte superiore dell’elenco di controllo mostra il numero di elementi completati e il numero totale di elementi.</p> <p>Per ulteriori informazioni sugli elementi dell’elenco di controllo, consulta <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Gestire le voci dell’elenco di controllo sulle schede</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documenti]</strong></span></td>
-      <td><span class="preview">Per un documento esistente, passa il cursore sulla miniatura del documento e fai clic su <strong>Anteprima</strong> per visualizzare il file nel browser o <strong>Scarica</strong> per scaricare il file sul computer. Per un nuovo documento, vedere <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Aggiungi documenti su schede</a>.</span></td>
+      <td role="rowheader"><strong>[!UICONTROL Documenti]</strong></td>
+      <td>Per un documento esistente, passa il cursore sulla miniatura del documento e fai clic su <strong>Anteprima</strong> per visualizzare il file nel browser o <strong>Scarica</strong> per scaricare il file sul computer. Per un nuovo documento, vedere <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Aggiungi documenti su schede</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>

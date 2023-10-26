@@ -7,9 +7,9 @@ description: Leggi questo articolo per saperne di più su [!DNL Workfront Boards
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 28fd1872b05c620cf4e86a4044317cd7958e4482
+source-git-commit: ec753f4176208708de0a39679788d34f486f759b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -183,9 +183,9 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
   </tr>
   <tr>
    <td>Visualizza documenti su schede collegate</td>
-   <td>Parzialmente rilasciato</td>
+   <td>Rilasciato</td>
   </tr>
- </tbody> 
+ </tbody>
 </table>
 
 ## Consenso alle funzioni anticipate
