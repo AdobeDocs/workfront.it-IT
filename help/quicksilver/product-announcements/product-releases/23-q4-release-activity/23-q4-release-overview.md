@@ -4,9 +4,9 @@ description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 383c87843b3a9a3a7e4e9b78ddd41828013c23c7
+source-git-commit: b179a4681ab08773ceaa4a6cd81c764acda1dcf1
 workflow-type: tm+mt
-source-wordcount: '2665'
+source-wordcount: '2679'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Decisioni relative a bozze e documenti disponibili per i clienti dei modelli di licenza legacy</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Decisioni relative a bozze e documenti disponibili per i clienti dei modelli di licenza legacy</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>I clienti legacy che non hanno ancora effettuato la transizione al nuovo modello di licenza Adobe Workfront ora possono visualizzare in un unico rapporto i dati con il numero di decisioni in merito a bozze/documenti per utente al mese. Questi dati sono disponibili quando si esegue un rapporto Decisioni utenti.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -89,7 +89,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>            
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">I campi calcolati nei moduli personalizzati ora possono utilizzare il carattere jolly $$USER</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">I campi calcolati nei moduli personalizzati ora possono utilizzare il carattere jolly $$USER</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Il carattere jolly $$USER è ora disponibile nei campi personalizzati calcolati e nei campi di ricerca esterni nel nuovo progettista di moduli.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -109,7 +109,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere opzioni di valore da un’API esterna a un modulo personalizzato</a></p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Un nuovo tipo di campo, <strong>Ricerca esterna</strong>, è ora disponibile nel designer del modulo personalizzato. Quando i dati sono memorizzati su un sistema esterno, questo tipo di campo ti consente di caricare opzioni da un’API esterna e di filtrare in base ad altri valori di campo nel modulo personalizzato.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -147,7 +147,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Le sottoattività sono ora disponibili sulle bacheche di Adobe Workfront</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Quando aggiungi una scheda collegata a una bacheca per un’attività di Workfront, tutte le sottoattività esistenti vengono importate nella scheda. Inoltre, quando si crea un'attività secondaria su una scheda connessa, all'attività Workfront viene aggiunta un'attività secondaria.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Le sottoattività sono ora disponibili sulle bacheche di Adobe Workfront</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Quando aggiungi una scheda collegata a una bacheca per un’attività di Workfront, tutte le sottoattività esistenti vengono importate nella scheda. Inoltre, quando si crea un'attività secondaria su una scheda connessa, all'attività Workfront viene aggiunta un'attività secondaria.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -183,7 +183,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungi documenti su schede collegate</a></p><p>È ora possibile allegare documenti su schede collegate nelle Schede Adobe Workfront. Tutti i documenti aggiunti sulla scheda diventano disponibili nella scheda Documenti dell’attività o del problema connesso e gli stessi tipi di file sono supportati in entrambe le aree.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungi documenti su schede collegate</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>È ora possibile allegare documenti su schede collegate nelle Schede Adobe Workfront. Tutti i documenti aggiunti sulla scheda diventano disponibili nella scheda Documenti dell’attività o del problema connesso e gli stessi tipi di file sono supportati in entrambe le aree.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -204,7 +204,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Documenti disponibili sulle schede collegate come sola visualizzazione</a></p><p>Per le schede collegate sulle bacheche Adobe Workfront, ora è possibile visualizzare documenti come immagini e PDF. È possibile visualizzare in anteprima un documento nel browser o scaricarlo nel computer. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Documenti disponibili sulle schede collegate come sola visualizzazione</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Per le schede collegate sulle bacheche Adobe Workfront, ora è possibile visualizzare documenti come immagini e PDF. È possibile visualizzare in anteprima un documento nel browser o scaricarlo nel computer. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -225,7 +225,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">La vista bacheca di un progetto è ora disponibile per i problemi</a></p><p>Ora puoi accedere alla vista Bacheca di un elenco di problemi di progetto. La bacheca Kanban può aiutarti a monitorare l’avanzamento dei problemi in modo più visivo rispetto alla visualizzazione nell’elenco. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">La vista bacheca di un progetto è ora disponibile per i problemi</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Ora puoi accedere alla vista Bacheca di un elenco di problemi di progetto. La bacheca Kanban può aiutarti a monitorare l’avanzamento dei problemi in modo più visivo rispetto alla visualizzazione nell’elenco. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -265,7 +265,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Data costo effettivo e tariffe di fatturazione</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Data costo effettivo e tariffe di fatturazione</a></p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Le tariffe di costo e fatturazione effettive per data sono ora disponibili per gli oggetti società, utente e mansione in Workfront. Quando a un progetto vengono applicati i tassi di validità della data e le ore vengono registrate nelle attività del progetto, i costi e i ricavi vengono calcolati utilizzando i tassi specificati per ogni periodo di tempo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -303,7 +303,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Pulsante Delega lavoro per i widget Progetto, Attività e Problema</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Pulsante Delega lavoro per i widget Progetto, Attività e Problema</a> </p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Dopo aver aggiunto un pulsante Delega ai widget Il mio lavoro, Le mie attività e I miei problemi, una funzione comunemente richiesta nella vecchia home page, è possibile delegare facilmente il lavoro quando si è fuori sede.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -322,7 +322,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovo widget Bacheche per Nuova Home</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovo widget Bacheche per Nuova Home</a> </p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>In una nuova importante aggiunta alle opzioni di gestione del lavoro disponibili in Nuova Home, ora puoi visualizzare una bacheca nella tua home page!</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -341,7 +341,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova pagina di destinazione predefinita per i collaboratori: Nuova home</a> <span style="color: #ff0000;"> Novità in anteprima.</span> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova pagina di destinazione predefinita per i collaboratori: Nuova home</a>  </p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>La nuova Home è ora la pagina di destinazione predefinita per gli account Collaboratore/Richiedente. Questa nuova home page predefinita include una serie di widget selezionati in modo specifico per consentire ai collaboratori di gestire immediatamente il proprio lavoro.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -361,7 +361,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifiche al tracciamento del lavoro in Nuova Home </a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>In base al feedback degli utenti, sono stati rimossi il filtro per l’intervallo di tempo a livello di pagina e la barra di riepilogo che riportava le attività in scadenza e completate. I widget Progetto, Attività e Problema dispongono ciascuno di funzioni di filtro incorporate che consentono di personalizzarne l’ambito su base individuale.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -381,7 +381,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuovi pulsanti di azione rapida per il widget Il mio lavoro</a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Ampliando ulteriormente la possibilità di gestire il lavoro direttamente dalla Nuova Home, sono stati aggiunti nuovi pulsanti di azione rapida al widget Il mio lavoro.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -401,7 +401,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuove opzioni filtro per Nuova Home</a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Sono ora disponibili nuove opzioni di filtro per il widget Il mio lavoro nella nuova home. Le opzioni includono i filtri per i tipi di oggetto (attività, problemi e richieste) e gli stati (non pronto, pronto per l’avvio, al lavoro e completato).</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -437,7 +437,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Pulsante Prova nuova home rimosso per gli account che hanno disabilitato Nuova home</a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Il pulsante Prova nuova home non è più presente per gli account in cui la nuova home è stata disabilitata. L'amministratore di sistema deve riattivare la Nuova Home prima che i singoli utenti possano utilizzare il pulsante per provare la Nuova Home.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -457,7 +457,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Passa al nuovo widget predefinito della Home</a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Il widget Da fare, che richiede l'autorizzazione per creare attività, è ora presente solo nel widget predefinito impostato per gli utenti con i tipi di licenza Standard, Piano o Lavoro. Inoltre, il widget è stato rimosso automaticamente dalle home page degli utenti con tutti gli altri tipi di licenza.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -544,7 +544,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Approvazioni nuovi documenti</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Approvazioni nuovi documenti</a> </p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>In questa versione, il processo di approvazione è stato semplificato sia per la creazione di approvazioni che per l’approvazione/revisione di documenti, oltre a nuove funzionalità.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -582,7 +582,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Progettazione aggiornata quando si aggiunge un nuovo problema a un progetto</a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Questo aggiornamento è stato annunciato con la versione 23.3.</p>
                         <p>È stata aggiornata la casella Nuovo problema che viene visualizzata quando si invia un nuovo problema a un progetto. Ora, l’interfaccia corrisponde alla casella Nuova richiesta che viene visualizzata quando si invia una nuova richiesta a una coda di richieste.</p>
                     </td>
@@ -603,7 +603,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Ricalcolo dinamico dei campi calcolati nei moduli</a></p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>I campi calcolati in un modulo allegato a un oggetto ora vengono ricalcolati in tempo reale in modo dinamico quando vengono modificati i valori dipendenti di un modulo della pagina. In questo modo è possibile visualizzare i risultati aggiornati senza salvare il modulo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -623,7 +623,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Imposta ore pianificate per attività ricorrenti figlio con tipo di durata semplice senza assegnazioni</a></p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>È stato modificato il modo in cui le ore pianificate vengono assegnate ad attività ricorrenti senza assegnazioni e con un tipo di durata semplice. Ora, quando si impostano le ore pianificate su una nuova attività ricorrente con un tipo di durata semplice e nessuna assegnazione, le ore vengono allocate anche alle singole ricorrenze. Prima di questa modifica, le ore non venivano salvate per le singole ricorrenze quando le attività padre non venivano assegnate.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -661,7 +661,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifiche al menu principale Collaboratore</a> <span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifiche al menu principale Collaboratore</a> </p><p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>Per informare in modo più efficace i collaboratori/richiedenti sulle funzioni disponibili con una licenza Workfront a pagamento, possono ora visualizzare tutte le opzioni disponibili nel menu principale.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -681,7 +681,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Nuovi miglioramenti all’esperienza beta per i commenti</a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>I miglioramenti alla sezione Aggiornamenti sono stati resi disponibili entro l’arco temporale di rilascio della versione beta dell’esperienza di commento del quarto trimestre 2023. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione per tutti i clienti con la versione del quarto trimestre 2023 (ottobre 2023).</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -701,7 +701,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nuovi miglioramenti della versione beta delle dashboard di Canvas</a> </p>
-                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>[!BADGE In produzione ]{type=Informative}</p>
                         <p>I miglioramenti alle dashboard di Canvas sono disponibili entro l’arco temporale di rilascio del quarto trimestre 2023 nell’ambito della versione beta in corso. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione per tutti i clienti con la versione del quarto trimestre 2023 (ottobre 2023).</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -720,7 +720,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l’arco temporale del quarto trimestre 2023</a></p><p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati nell’arco temporale del quarto trimestre 2023. Consulta le singole note sulla versione per specifiche date di rilascio.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l’arco temporale del quarto trimestre 2023</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati nell’arco temporale del quarto trimestre 2023. Consulta le singole note sulla versione per specifiche date di rilascio.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
