@@ -7,7 +7,7 @@ description: È possibile modificare le informazioni di un modulo personalizzato
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: b2bb5d1292291cb6632cc5d1b1fb32ce37e594a6
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Modificare le informazioni nei campi modulo personalizzati
-
-{{preview-and-fast-release}}
 
 È possibile modificare le informazioni di un modulo personalizzato dopo che il modulo è stato allegato a un oggetto. Per informazioni sull&#39;aggiunta di moduli personalizzati agli oggetti, vedere [Aggiungere un modulo personalizzato a un oggetto](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -105,7 +103,7 @@ La modifica delle informazioni in un modulo personalizzato associato a un oggett
 
    Quando qualcuno modifica i dati in un altro oggetto a cui fanno riferimento i campi personalizzati calcolati nell&#39;oggetto, le modifiche non vengono applicate automaticamente nell&#39;oggetto. Per informazioni sull&#39;aggiornamento manuale di tutti i campi personalizzati calcolati nell&#39;oggetto, vedere [Ricalcolare tutti i campi personalizzati calcolati per un oggetto](#recalculate-all-calculated-custom-fields-for-an-object) in questo articolo.
 
-   <span class="preview">Quando i campi dipendenti della pagina vengono modificati, i campi calcolati del modulo personalizzato vengono ricalcolati in tempo reale in modo dinamico. È possibile visualizzare il nuovo valore del campo calcolato senza salvare il modulo, ma non viene effettivamente applicato al modulo e all&#39;oggetto fino a quando non si salvano le modifiche. Ciò si applica ai campi calcolati nei moduli predefiniti e nei moduli personalizzati.</span>
+   Quando i campi dipendenti della pagina vengono modificati, i campi calcolati del modulo personalizzato vengono ricalcolati in tempo reale in modo dinamico. È possibile visualizzare il nuovo valore del campo calcolato senza salvare il modulo, ma non viene effettivamente applicato al modulo e all&#39;oggetto fino a quando non si salvano le modifiche. Ciò si applica ai campi calcolati nei moduli predefiniti e nei moduli personalizzati.
 
    È inoltre possibile aggiornare manualmente tutti i campi personalizzati calcolati per un oggetto quando si modifica in blocco l&#39;oggetto insieme ad altri oggetti in un elenco. Per istruzioni, consulta [Ricalcolare tutti i campi personalizzati calcolati per più oggetti in un elenco durante la modifica degli oggetti](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in questo articolo.
 

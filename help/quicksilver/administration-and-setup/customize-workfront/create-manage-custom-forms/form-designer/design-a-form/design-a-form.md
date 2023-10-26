@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 4559a60729fb0001d973c794dc40a8c7ec90cd91
+source-git-commit: 456310e460bae44183de390efc4be919fda3f36d
 workflow-type: tm+mt
 source-wordcount: '4886'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 ---
 
 # Progettare un modulo con il progettista del modulo
-
-{{preview-and-fast-release}}
 
 È possibile progettare un modulo personalizzato con il progettista del modulo. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
@@ -498,8 +496,6 @@ Per aggiungere campi data di completamento automatico:
 
    Clic **Salva e chiudi**.
 
-<div class="preview">
-
 ### Aggiungere campi di ricerca esterni
 
 Un campo di ricerca esterno richiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Gli utenti che utilizzano l’oggetto a cui è associato il modulo personalizzato possono selezionare una o più di queste opzioni dal menu a discesa.
@@ -590,8 +586,6 @@ Per aggiungere una ricerca esterna:
 >* Durata attesa tra nuovi tentativi: 500 ms
 >* Stati di risposta previsti: 2xx
 >* Gli utenti possono visualizzare il valore selezionato (e modificarlo) negli elenchi e nei rapporti di Workfront, ma non il menu a discesa con le opzioni provenienti dall’API esterna.
-
-</div>
 
 ### Aggiungere immagini, PDF e video
 
