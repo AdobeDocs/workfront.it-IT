@@ -3,16 +3,16 @@ title: Miglioramenti Home Quarto Trimestre 2023
 description: Miglioramenti Home Quarto Trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: ee84471418590401fe143741cadd1d76a8917149
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
 
 # Miglioramenti Home Quarto Trimestre 2023
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2023. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.10.
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del quarto trimestre 2023. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione con la versione 23.10.
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del quarto trimestre del 2023, consulta [Panoramica sulla versione del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
