@@ -6,10 +6,10 @@ description: Campi delle risorse di abbonamento agli eventi
 author: Becky
 feature: Workfront API
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: a000e1fc353bfbe47851062945adb810804d8dee
+source-git-commit: 80b42da8f9cd51571258c7b09fe4498be5244320
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '644'
+ht-degree: 10%
 
 ---
 
@@ -146,7 +146,7 @@ Nella tabella seguente sono elencati i campi disponibili per le risorse di abbon
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p><span style="color: #ff0000;"> Questo campo è obsoleto e verrà rimosso nella settimana del 23 ottobre 2023.</p></span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="Questo campo è stato rimosso il 26 ottobre 2023."}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
