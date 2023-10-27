@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2609'
 ht-degree: 7%
 
 ---
@@ -308,13 +308,21 @@ Ogni riga del foglio corrisponde a un oggetto univoco.
 1. Completare la cella in **isNew** colonna:
 
    * Se l&#39;oggetto da importare è nuovo, digitare **TRUE** per importare i dati nella riga.
-   * Se l&#39;oggetto è già in Workfront, digitare **FALSE** per ignorare la riga.
+   * Se l&#39;oggetto è già in Workfront, **FALSE** deve trovarsi nella colonna per ignorare la riga.
+
+      * I record già esistenti in Workfront non vengono aggiornati.
+      * Se hai scaricato un modello con dati, gli oggetti esistenti sono già contrassegnati con **FALSE**.
+      * Se è stato scaricato un modello vuoto, non è necessario aggiungere nuove righe per gli oggetti esistenti.
 
 1. Completare la cella in **ID** in uno dei modi seguenti:
 
-   * Se l&#39;oggetto che si sta importando è nuovo (e si è digitato **TRUE** nel **isNew** ), specifica un numero qualsiasi per l’ID. Questo numero deve essere univoco nel foglio di calcolo.
+   * Se l&#39;oggetto che si sta importando è nuovo (e si è digitato **TRUE** nel **isNew** ), digita un numero qualsiasi per l&#39;ID. Questo numero deve essere univoco nel foglio di calcolo.
 
-   * Se l&#39;oggetto che si sta importando esiste già nel sistema Workfront (e si è digitato **FALSE** nel **isNew** ), l&#39;ID deve essere il GUID alfanumerico esistente in Workfront per quell&#39;oggetto.
+   * Se l’oggetto esiste già in Workfront (e **FALSE** è in **isNew** ), l&#39;ID deve essere il GUID alfanumerico esistente in Workfront per quell&#39;oggetto.
+
+      * I record già esistenti in Workfront non vengono aggiornati.
+      * Se è stato scaricato un modello con dati, gli oggetti esistenti contengono già il GUID come ID.
+      * È possibile importare un nuovo oggetto basato su un oggetto esistente modificando **FALSE** a **TRUE** nel **isNew** , modificando l&#39;ID ed effettuando le regolazioni di dati necessarie prima dell&#39;importazione.
 
      ![ID di esempio per un gruppo](assets/kick-start-group-example.png)
 
