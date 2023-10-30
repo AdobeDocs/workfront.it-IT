@@ -7,9 +7,9 @@ description: L’editor degli scenari consente di creare e modificare scenari in
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,11 @@ Nell’editor scenario sono disponibili le seguenti azioni:
    <tr> 
      <td role="rowheader">Eseguire il test dello scenario</td>   
      <td>Clic <strong>[!UICONTROL Esegui una volta]</strong> per verificare che lo scenario venga eseguito come previsto prima di attivarlo. Una volta attivato, lo scenario viene eseguito in base alla sua pianificazione. Se tutto non funziona come previsto, consulta la sezione Gestione degli errori per scoprire come gestire gli errori.</td> 
+   </tr> 
+   <tr> 
+     <td role="rowheader">Utilizzare Devtool per eseguire il debug dello scenario</td>   
+     <td>Per ulteriori informazioni, vedere <a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">Scenari di debug con [!DNL Adobe Workfront Fusion] Devtool</a>.
+</td> 
    </tr> 
 </tbody>
 </table>
