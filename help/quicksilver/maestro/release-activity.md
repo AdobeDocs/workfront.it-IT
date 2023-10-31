@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1882'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,38 @@ Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle 
 In questa sezione sono elencate le funzioni e le patch rilasciate dopo il lancio del programma beta chiuso Maestro, il 22 maggio 2023.
 
 Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rilascio, con la prima più recente. I clienti che partecipano al programma Maestro closed beta possono accedere a tutte le funzioni nei loro ambienti di anteprima e produzione.
+
+## Settimana del 30 ottobre 2023
+
+### Nuovi tipi di campo per i campi utente e data per acquisire l&#39;utente che ha creato o modificato per ultimo un record o in quale data
+
+Anteprima e produzione: 30 ottobre 2023
+
+Abbiamo introdotto i seguenti tipi di campi per i record Maestro:
+
+* Creato da
+
+* Data di creazione
+
+* Ultima modifica eseguita da
+
+* Data ultima modifica
+
+I valori dei campi creati da questi tipi di campo sono di sola lettura e acquisiscono il nome dell&#39;utente che ha creato o modificato per ultimo un record oppure la data in cui il record è stato creato o modificato per ultimo.
+
+Per ulteriori informazioni, consulta [Crea campi](../maestro/architecture-and-fields/create-fields.md).
+
+### Passare a oggetti Workfront da un record Maestro
+
+Anteprima e produzione: 31 ottobre 2023
+
+È ora possibile aprire le pagine degli oggetti di Workfront dalle seguenti aree in Maestro:
+
+* Visualizzazione tabella record oggetti Workfront collegata di sola lettura
+
+* Pagina Dettagli record oggetto Workfront di sola lettura
+
+Per ulteriori informazioni, consulta [Collega record](../maestro/records/connect-records.md).
 
 ## Settimana del 16 ottobre 2023
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
 workflow-type: tm+mt
-source-wordcount: '1819'
+source-wordcount: '1833'
 ht-degree: 0%
 
 ---
@@ -277,4 +277,4 @@ Dopo aver creato una connessione tra un tipo di record Maestro e un tipo di ogge
    >
    >  I campi aggiunti o rimossi nella pagina Tipo di record oggetto di Workfront non vengono aggiunti né rimossi dal tipo di record Maestro che si collega al tipo di oggetto di Workfront. I campi sono visibili solo nella pagina del tipo di record Workfront di sola lettura, quindi puoi esaminarli in Maestro.
 
-1. (Facoltativo) Dal menu a discesa Visualizza della pagina Tipo di record oggetto di Workfront, scegliere la vista Timeline per visualizzare gli oggetti collegati di Workfront nella vista timeline.
+1. (Facoltativo e condizionale) Se sono stati aggiunti almeno due campi data all&#39;oggetto Workfront, fare clic su **Visualizza** nella pagina tipo di record oggetto di Workfront e selezionare il **Timeline** visualizzazione. Gli oggetti collegati di Workfront vengono visualizzati nella vista timeline.
