@@ -3,9 +3,10 @@ title: Miglioramenti all’integrazione per il quarto trimestre 2023
 description: Miglioramenti all’integrazione per il quarto trimestre 2023
 author: Lisa
 feature: Product Announcements
-source-git-commit: ee84471418590401fe143741cadd1d76a8917149
+exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
+source-git-commit: 24ffde1850a005428a3f619fc00842a8779bbc6d
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -27,6 +28,10 @@ Sono state apportate alcune modifiche alle modalità di invio dei documenti alle
 Per ulteriori informazioni, consulta [Collegare i documenti tramite la nuova integrazione SharePoint](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## Aggiornamenti al trascinamento della selezione per le integrazioni di documenti
+
+>[!NOTE]
+>
+>Questa funzione non è ancora stata rilasciata negli ambienti di produzione.
 
 Sono stati apportati alcuni miglioramenti all’esperienza utente durante il trascinamento e il rilascio di un file in una cartella collegata.
 
