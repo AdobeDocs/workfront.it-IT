@@ -6,9 +6,9 @@ description: È possibile aggiungere documenti alle schede collegate su Schede A
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -59,3 +59,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Nella scheda, individua [!UICONTROL Documenti] area. Clic ![Icona elenco](assets/docs-list-icon.png) per visualizzare tutti i documenti di un elenco o fare clic su ![Icona Galleria](assets/docs-gallery-icon.png) per visualizzare i documenti di una raccolta.
 1. Passa il puntatore sull&#39;anteprima del documento e fai clic su [!UICONTROL **Anteprima**] per visualizzare il file nel browser o [!UICONTROL **Scarica**] per scaricare il file sul computer.
+
+   >[!NOTE]
+   >
+   >I PDF non visualizzano un&#39;immagine di anteprima.
