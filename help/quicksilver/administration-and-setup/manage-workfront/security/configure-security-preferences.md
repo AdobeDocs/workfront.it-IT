@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: 20e806b1a4face80488bf32fda677f730baed41a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '825'
 ht-degree: 6%
 
 ---
@@ -111,7 +111,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Gli utenti nel sistema visualizzeranno per impostazione predefinita la nuova esperienza Home </td> 
-      <td>Consente di specificare se gli utenti visualizzeranno la nuova esperienza Home per impostazione predefinita. Quando questa opzione è attivata, gli utenti vedranno l’esperienza Nuova home per impostazione predefinita, ma potranno comunque scegliere di abilitare o disabilitare la nuova home su base individuale. <b>Se è disattivato, gli utenti non avranno la possibilità di utilizzare la Nuova Home.</b> Questa impostazione è attivata per impostazione predefinita.</td> 
+      <td>Consente di specificare se gli utenti visualizzeranno la nuova esperienza Home per impostazione predefinita. Quando questa opzione è attivata, gli utenti vedranno l’esperienza Nuova home per impostazione predefinita, ma potranno comunque scegliere di abilitare o disabilitare la nuova home su base individuale. Se l'opzione è disattivata, gli utenti non visualizzeranno il banner che consente loro di passare alla nuova home, ma potranno comunque passare alla nuova home page immettendo manualmente <code>/home/workspaces</code> alla fine dell’URL dell’istanza. Questa impostazione è attivata per impostazione predefinita.</td> 
      </tr> 
     </tbody> 
    </table>
