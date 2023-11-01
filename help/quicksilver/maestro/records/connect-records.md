@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
 * Gestire i record operativi per i record della tassonomia
 * Gestire i record operativi e gli oggetti provenienti da altre applicazioni.
 
-  Sono attualmente supportati le applicazioni e i tipi di oggetto seguenti:
+  È possibile collegare i record Maestro agli oggetti dei tipi elencati di seguito dalle seguenti applicazioni:
 
    * Adobe Workfront
 
@@ -138,7 +138,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Tutti coloro che hanno accesso a Maestro possono vedere le connessioni che si creano tra i record Maestro o tra i record Maestro e gli oggetti Workfront. Inoltre, puoi visualizzare e modificare le connessioni di tutti gli altri. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * È possibile collegare un record Maestro a uno o più oggetti di un&#39;altra applicazione.
 * Non è possibile connettere le tassonomie a tipi di record o a oggetti di un&#39;altra applicazione. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* Attualmente, è possibile collegare i record Maestro solo a oggetti Workfront. Per collegare i record Maestro agli oggetti Workfront, è necessario disporre dei seguenti elementi:
+* Per collegare i record Maestro agli oggetti Workfront, è necessario disporre dei seguenti elementi:
 
    * Oggetti Workfront. Ad esempio, devi prima creare progetti, portfolio, programmi, aziende o gruppi in Workfront.
    * Aree di lavoro Maestro, tipi di record e record. Per ulteriori informazioni, consulta i seguenti articoli:
@@ -151,16 +151,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ### Collega i record Maestro
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell’angolo superiore destro di Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> quindi fai clic su **Maestro** ![](assets/maestro-icon.png).
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
 
    Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace da cui si desidera connettere i record.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
-1. Selezionate una vista Tabella (Table) dal menu **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
+1. Seleziona un **Tabella** vista da **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
 1. Aggiungere una connessione a un altro record o tipo di oggetto dal tipo di record selezionato. Per informazioni, consulta [Connetti tipi di record](../architecture-and-fields/connect-record-types.md).
 
-Viene aggiunta una nuova colonna alla tabella per visualizzare il tipo di record collegato.
+   Viene aggiunta una nuova colonna alla tabella per visualizzare il tipo di record collegato.
 
 1. Aggiungere record al tipo di record selezionato aggiungendo una nuova riga alla tabella. Per informazioni, consulta [Crea record](../../maestro/records/create-records.md).
 1. Da un record elencato nella vista a tabella, vai alla colonna del record collegato e passa il puntatore del mouse sulla cella corrispondente al record che desideri collegare con altri record Maestro, quindi fai clic sul pulsante **+** icona.
@@ -201,7 +201,7 @@ Viene aggiunta una nuova colonna alla tabella per visualizzare il tipo di record
 
 Dopo aver creato una connessione tra un tipo di record Maestro e un tipo di oggetto Workfront, è possibile collegare singoli record Maestro a oggetti in Workfront. È inoltre possibile collegare campi dall&#39;oggetto Workfront al tipo di record Maestro.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell’angolo superiore destro di Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> quindi fai clic su **Maestro** ![](assets/maestro-icon.png).
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
 
    Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
@@ -265,11 +265,30 @@ Dopo aver creato una connessione tra un tipo di record Maestro e un tipo di ogge
    >
    >    * Per visualizzare il tipo di record oggetto di Workfront nella vista Timeline, è necessario che nella vista Tabella della pagina di sola lettura del tipo di record di Workfront siano visualizzati almeno due campi data.
 
-1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-menu.png) accanto al nome del tipo di record di oggetti di Workfront nell’intestazione della pagina, quindi fai clic su **Rinomina** per modificare il nome del record.
+1. (Facoltativo) Per aprire la pagina Dettagli record oggetto Workfront in Maestro, effettuare una delle seguenti operazioni:
 
-   >[!NOTE]
-   >
-   >    Non è possibile eliminare un tipo di record Workfront collegato o altri oggetti dalla pagina Tipo di record di Workfront.
+   * Dal tipo di record da cui è stato eseguito il collegamento, passare al campo record collegato all&#39;oggetto Workfront e fare clic sul nome dell&#39;oggetto Workfront.
+   * Dalla sezione **Tabella** nella visualizzazione della pagina tipo di record di Workfront, fare clic sul nome dell&#39;oggetto Workfront
+
+     Oppure
+
+     Fai clic su **Altro** a destra del nome dell&#39;oggetto Workfront, quindi fare clic su **Visualizza**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   Viene visualizzata la pagina Dettagli Maestro dell&#39;oggetto Workfront collegato. Pagina di sola lettura.
+
+1. (Facoltativo) Per aprire l&#39;oggetto Workfront collegato in Workfront, effettuare una delle seguenti operazioni:
+
+   * Dalla sezione **Tabella** nella visualizzazione della pagina tipo di record di Workfront, fare clic sul nome dell&#39;oggetto Workfront,
+
+   Oppure
+
+   Fai clic su **Altro** a destra del nome dell&#39;oggetto Workfront, quindi fare clic su **Vai all&#39;origine**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Verrà aperta la pagina degli oggetti di Workfront. Se si dispone delle autorizzazioni necessarie, è possibile modificare le informazioni sull&#39;oggetto Workfront.
 
 1. (Facoltativo) Fai clic su **Aggiungi campi** icona ![](assets/add-fields-icon.png) nell&#39;angolo superiore destro della visualizzazione tabella della pagina tipo di record di Workfront per aggiungere o rimuovere campi di Workfront dal tipo di record di Workfront.
 

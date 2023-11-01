@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '1758'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -179,13 +179,32 @@ Per eseguire questa operazione:
    * I progetti selezionati per la connessione alle campagne vengono visualizzati come record separati nella pagina Tipo di record progetto Workfront. I record del progetto sono anche di sola lettura e le relative informazioni vengono aggiornate automaticamente durante l’aggiornamento dei progetti in Workfront. È necessario aggiungere altri progetti dal record Maestro connesso per visualizzarli nel tipo di record Progetto Workfront.
    * Nel campo Record collegato alla campagna vengono inseriti i nomi delle campagne connesse ai progetti dalla pagina Tipo di record Campagna.
 
-1. (Facoltativo) Fai clic su **Altro** icona ![](assets/more-menu.png) a destra del nome del tipo di record di Workfront Project e fare clic su **Rinomina** per rinominare il tipo di record.
+1. (Facoltativo) Per aprire la pagina Dettagli progetto Workfront in Maestro, effettuate una delle seguenti operazioni:
 
-   >[!TIP]
-   >
-   >È possibile rinominare un nome di tipo di record facendo clic sul nome nell&#39;intestazione del tipo di record.
+   * Dal tipo di record da cui è stato effettuato il collegamento (**Campagna**), vai al campo record collegato al progetto Workfront (**Informazioni progetto**) e fai clic sul nome di un progetto Workfront.
+   * Dalla sezione **Tabella** vista del **Progetto Workfront** , fare clic sul nome di un progetto Workfront
 
-1. Fai clic sull’icona Aggiungi campi ![](assets/add-fields-icon.png) nell’angolo superiore destro della tabella dei tipi di record di Workfront Project per aggiungere altri campi di progetto al tipo di record Workfront Project Maestro.
+     Oppure
+
+     Fai clic su **Altro** a destra di un progetto Workfront, quindi fai clic su **Visualizza**.
+
+     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+   Si apre la pagina Maestro Details (Dettagli Maestro) del progetto Workfront collegato. Pagina di sola lettura.
+
+1. (Facoltativo) Per aprire il progetto Workfront collegato in Workfront, effettuate una delle seguenti operazioni:
+
+   * Dalla sezione **Tabella** vista del **Progetto Workfront** , fare clic sul nome di un progetto Workfront,
+
+   Oppure
+
+   Fai clic su **Altro** a destra del nome del progetto Workfront, quindi fai clic su **Vai all&#39;origine**.
+
+   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+   Viene visualizzata la pagina del progetto Workfront. Se si dispone delle autorizzazioni necessarie, è possibile modificare le informazioni sul progetto Workfront.
+
+1. Fai clic su **Aggiungi campi** icona ![](assets/add-fields-icon.png) nell’angolo superiore destro della tabella dei tipi di record di Workfront Project per aggiungere altri campi di progetto al tipo di record Workfront Project Maestro.
 1. Fai clic su **+** per qualsiasi campo di progetto che desideri aggiungere al record Workfront Project Maestro in **Campi non selezionati** sezione.
 1. Fai clic su **-** per i campi del progetto che si desidera rimuovere dal record Workfront Project Maestro in **Campi selezionati** sezione.
 1. Fai clic su **Salva**.

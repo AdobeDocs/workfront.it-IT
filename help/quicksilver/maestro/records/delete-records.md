@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 908a3136b2537310305f282b7a76d8f09cae3836
+source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '515'
 ht-degree: 1%
 
 ---
@@ -88,6 +88,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Se i record eliminati sono collegati ad altri record, i record collegati non vengono eliminati, ma vengono eliminate anche le informazioni del record eliminato.
 * Non è possibile eliminare i record in blocco. <!--this will probably change-->
 * Non è possibile eliminare record dalla visualizzazione timeline.
+* Impossibile eliminare un tipo di record collegato da un&#39;altra applicazione. Se ad esempio si collega un record Maestro a un oggetto Workfront, non è possibile eliminare l&#39;oggetto Workfront dalla pagina di registrazione dell&#39;oggetto Workfront.
 
 ## Elimina record
 

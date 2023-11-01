@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ec6a12f2ffbacabac6124ec3a7d85a3ba292e621
 workflow-type: tm+mt
-source-wordcount: '1835'
+source-wordcount: '1845'
 ht-degree: 1%
 
 ---
@@ -223,6 +223,10 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
    * Valuta
    * Casella di controllo
    * Persone
+   * Creato da
+   * Data di creazione
+   * Ultima modifica eseguita da
+   * Data ultima modifica
 
 * **Tipi di record collegati**, **Record collegati**, e **Campi record collegati**: puoi creare una connessione tra le seguenti entità:
 
