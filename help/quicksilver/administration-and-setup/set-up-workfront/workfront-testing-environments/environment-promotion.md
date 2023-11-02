@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 949907d7d4c37fa6541a021b458f84f1ebff2896
+source-git-commit: d777e42a91b18586da22be3aeb35be32e1439104
 workflow-type: tm+mt
-source-wordcount: '2412'
-ht-degree: 3%
+source-wordcount: '2301'
+ht-degree: 2%
 
 ---
 
@@ -104,7 +104,7 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 
 | Oggetto promovibile | Inclusi oggetti secondari promozionali |
 | --- | --- |
-| Gruppo (GROUP) | Gruppo <br>Sottogruppi (fino a 5 livelli)<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
+| Gruppo (GROUP) | Gruppo <br>Sottogruppi (fino a 5 livelli) *<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
 | Ruolo (ROLE) | Ruolo |
 | Team (TEAM) | Team<br>Gruppo |
 | Società (CMPY) | Azienda<br>Percentuale sostituzione<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Parametro <br>Logica di visualizzazione della categoria<br>Gruppo |
@@ -146,8 +146,6 @@ SessionID: abc1234
 * [Creare un pacchetto](#create-a-package)
 * [Ottieni un elenco di pacchetti](#get-a-list-of-packages)
 * [Ottenere un pacchetto per ID](#get-a-package-by-id)
-* [Ottenere la definizione di configurazione di un pacchetto](#get-a-packages-configuration-definition)
-* [Sostituisci dettagli e definizione pacchetto](#replace-package-details-and-definition)
 * [Aggiornare proprietà specifiche di un pacchetto](#update-specific-properties-of-a-package)
 * [Eliminare un pacchetto](#delete-a-package)
 * [Eseguire una](#execute-a-pre-run)
@@ -262,13 +260,14 @@ Oppure
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "source": "https://{domain}.{environment}.workfront.com",
         "status": "ASSEMBLING",
         "version": 1,
-        "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
         "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
         "customerId": "61aa9d090005fa42152c1cb66659f38d"
+    }
 }
 ```
 
@@ -327,17 +326,15 @@ _Vuoto_
             "name": "Agency Onboarding - 2023-06-06",
             "description": "This promotion package contains configuration to support the agency onboarding processes...",
             "status": "ASSEMBLING",
-            "version": 1,
-            "installationCounts": {},
             "createdAt": "2023-06-06T17:29:21.600Z",
-            "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
-            "publishedAt": null,
-            "customerId": "61aa9d090005fa42152c1cb66659f38d"
-        },
+            "deletedAt": null
+},
         {...}
     ]
 }
 ```
+
+&lt;!—Controllare &quot;status&quot; sopra—è stato aggiunto?—>
 
 ### Ottenere un pacchetto per ID
 
@@ -392,14 +389,13 @@ _Vuoto_
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "source": "https://{domain}.{environment}.workfront.com",
         "status": "DRAFT",
         "version": 1,
-        "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
-        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": null,
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "displayEntities": {
+        "packageEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
@@ -418,101 +414,24 @@ _Vuoto_
 }
 ```
 
-### Ottenere la definizione di configurazione di un pacchetto
+### Aggiornare proprietà specifiche di un pacchetto
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td><code>GET /packages/{id}/definition</code></td> 
+   <td><code>PATCH /packages/{id}</code></td> 
   </tr> 
   </tbody> 
 </table>
 
-#### URL
-
-```
-GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/definition
-```
-
-#### Intestazioni
-
-```json
-{
-    "apikey": "**********"
-}
-```
-
-Oppure
-
-```json
-{
-    "sessionID": "*****************"
-}
-```
-
-#### Corpo
-
-_Vuoto_
-
-#### risposta
-
-```
-200
-```
-
-```json
-{
-    "packageEntities": {
-        "GROUP": [
-           {
-               "id": "52aa9d0e0005fcee8f212835bdaa2691",
-               "name": "Default Group",
-               "businessLeaderID": "...",
-               "categoryID": "...",
-               "defaultInterface": 1,
-               "description": "...",
-               "extRefID": null,
-               "isActive": true,
-               "isGroupPublic": true,
-               "isPublic": true,
-               "parentID": null,
-               "rootID": null,
-               "rootName": null,
-               "uiTemplateID": null
-           }
-        ],
-        "ROLE": [
-           {...}
-        ],
-        ...
-    }
-}
-```
-
-### Sostituisci dettagli e definizione pacchetto
-
-<table style="table-layout:auto"> 
- <col> 
- <tbody> 
-  <tr> 
-   <td><code>PUT /packages/{id}</code></td> 
-  </tr> 
-  </tbody> 
-</table>
-
-Questa chiamata sostituisce tutti i contenuti del pacchetto promozionale.
-
-La richiesta prevede che vengano forniti tutti i campi modificabili.
+Questa chiamata aggiorna qualsiasi contenuto del pacchetto promozionale fornito nel corpo del PATCH.
 
 Gli attributi modificabili sono:
 
 1. nome (stringa)
 1. descrizione (stringa)
-1. origine (stringa con convalida URL)
 1. stato (stringa con convalida del valore)
-1. version (numero intero)
-1. packageEntities (insieme)
 
 Le opzioni di stato includono:
 
@@ -547,136 +466,6 @@ Le opzioni di stato includono:
   </tbody> 
 </table>
 
-#### URL
-
-```
-PUT https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}
-```
-
-#### Intestazioni
-
-```json
-{
-    "apikey": "**********",
-    "Content-Type": "application/json"
-}
-```
-
-```json
-{
-    "sessionID": "*****************", 
-    "Content-Type": "application/json"
-}
-```
-
-#### Corpo
-
-```json
-{
-    "name": "Agency Onboarding - 2023-06-06",
-    "description": "This promotion package contains configuration to support the agency onboarding processes... with a description change",
-    "source": "https://{domain}.{environment}.workfront.com",
-    "status": "TESTING",
-    "version": 1,
-    "metadata": {
-        "displayOrder": ["GROUP","ROLE","TMPL","PROJ","PTLTAB"],
-        "historyOrder": ["GROUP","ROLE","TMPL","TTSK","PROJ","PTLTAB"], 
-        "installOrder": ["GROUP","ROLE","TMPL","TTSK","TPRED","TASSGN","PROJ","QUED","RRUL","QUET","UIFT","UIGB","UIVW","PTLTAB"], 
-        "summaryOrder": ["GROUP","ROLE","TMPL"], 
-        "shapeVersion": 2
-    },
-    "packageEntities": {
-        "GROUP": [
-           {
-               "id": "52aa9d0e0005fcee8f212835bdaa2691",
-               "name": "Default Group",
-               "businessLeaderID": "...",
-               "categoryID": "...",
-               "defaultInterface": 1,
-               "description": "...",
-               "extRefID": null,
-               "isActive": true,
-               "isGroupPublic": true,
-               "isPublic": true,
-               "parentID": null,
-               "rootID": null,
-               "rootName": null,
-               "uiTemplateID": null
-           }
-        ],
-        "ROLE": [
-           {...}
-        ],
-        ...
-    }
-}
-```
-
-#### risposta
-
-```
-200
-```
-
-```json
-{
-    "data": {
-        "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
-        "name": "Agency Onboarding - 2023-06-06",
-        "description": "This promotion package contains configuration to support the agency onboarding processes...",
-        "status": "TESTING",
-        "version": 1,
-        "installationCounts": {},
-        "createdAt": "2023-06-06T17:29:21.600Z",
-        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
-        "publishedAt": null,
-        "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "displayEntities": {
-            "GROUP": [
-               {
-                   "id": "52aa9d0e0005fcee8f212835bdaa2691",
-                   "name": "Default Group",
-                   "description": "..."
-               }
-            ],
-            "ROLE": [
-               {...}
-            ],
-            ...
-        }
-   }
-}
-```
-
-### Aggiornare proprietà specifiche di un pacchetto
-
-<table style="table-layout:auto"> 
- <col> 
- <tbody> 
-  <tr> 
-   <td><code>PATCH /packages/{id}</code></td> 
-  </tr> 
-  </tbody> 
-</table>
-
-Questa chiamata aggiorna qualsiasi contenuto del pacchetto promozionale fornito nel corpo del PATCH.
-
-Gli attributi modificabili sono:
-
-1. nome (stringa)
-1. descrizione (stringa)
-1. origine (stringa con convalida URL)
-1. stato (stringa con convalida del valore)
-1. version (numero intero)
-1. packageEntities (insieme)
-
-   oppure
-
-   objectCollections (array)
-
-Fornire `packageEntities` aggiorna il pacchetto di promozione con la definizione di configurazione fornita.
-
-Fornire `objectCollections` avvierà una riestrazione dal `source` ambiente associato al pacchetto di promozione. Il `source` deve essere fornito quando `objectCollections` viene fornito.
 
 #### URL
 
@@ -723,14 +512,13 @@ Oppure
         "id": "1d5693b9-b7b5-492d-8219-c21f34bcaca6",
         "name": "Agency Onboarding - 2023-06-06",
         "description": "This promotion package contains configuration to support the agency onboarding processes...",
+        "source": "https://{domain}.{environment}.workfront.com",
         "status": "ACTIVE",
         "version": 1,
-        "installationCounts": {},
         "createdAt": "2023-06-06T17:29:21.600Z",
-        "createdById": "61aa9d0e0005fcee8f212835bdaa2619",
         "publishedAt": "2023-06-06T19:39:01.600Z",
         "customerId": "61aa9d090005fa42152c1cb66659f38d",
-        "displayEntities": {
+        "packageEntities": {
             "GROUP": [
                {
                    "id": "52aa9d0e0005fcee8f212835bdaa2691",
@@ -1027,7 +815,7 @@ Oppure
 #### risposta
 
 ```
-200
+202
 ```
 
 
@@ -1089,7 +877,7 @@ _Vuoto_
         "environmentPromotionPackageVersion": 1,
         "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
         "customerId": "54286d78b064451096752b99bf968481",
-        "status": "COMPLETED",
+        "status": "INSTALLED",
         "environment": "https://{domain}.{environment}.workfront.com",
         "registeredAt": "2021-03-16T02:21:31.908Z",
         "updatedAt": null,
@@ -1185,7 +973,7 @@ _Vuoto_
     "environmentPromotionPackageVersion": 1,
     "userId": "8fbbc5bcf4f94a5b862483ee05573e73",
     "customerId": "54286d78b064451096752b99bf968481",
-    "status": "COMPLETED",
+    "status": "INSTALLED",
     "environment": "https://{domain}.{environment}.workfront.com",
     "registeredAt": "2021-03-16T02:21:31.908Z",
     "updatedAt": null,
