@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b781687b175167784367a2fdec158d97fb3fd6a4
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,13 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
 1. (Condizionale) Se la pagina del tipo di record non si apre nella vista a tabella, fare clic sul pulsante **Visualizza** e selezionare un menu a discesa esistente **Vista tabella** ![](assets/table-view-icon.png) o fai clic su **Crea vista > Tabella** per creare una vista tabella.
 
-1. Clic **Nuovo &lt; Nome tipo di record >** nell’ultima riga della tabella per aggiungere una nuova riga alla tabella.
+1. Per aggiungere nuovi record, fare clic su **Nuovo &lt; Nome tipo di record >** nell’ultima riga della tabella
+
+   Oppure
+
+   Clic **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. Viene aggiunta una riga vuota.
 
    ![](assets/adding-a-new-campaign-in-table-row.png)
-
-   >[!TIP]
-   >
-   >    Digitare CTRL+INVIO per aggiungere un nuovo record in una nuova riga.
-
-   <!--ensure this is the shortcut for adding a new row AND that it is not different for Macs-->
 
 1. Iniziare a digitare informazioni sul nuovo record nella nuova riga.
 

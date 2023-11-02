@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c39782606358fbb9983b23421588e392dd12ae8a
+source-git-commit: 0699740f8ef0932316843d9aec0008ccdeb319f5
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,22 @@ Anteprima e produzione: 31 ottobre 2023
 * Pagina Dettagli record oggetto Workfront di sola lettura
 
 Per ulteriori informazioni, consulta [Collega record](../maestro/records/connect-records.md).
+
+### Navigazione migliorata nella vista a tabella
+
+Anteprima e produzione: 2 novembre 2023
+
+È stata migliorata la navigazione nella vista a tabella di una pagina del tipo di record.
+
+Di seguito sono riportati alcuni miglioramenti:
+
+* Utilizza il tasto TAB sulla tastiera per spostarti tra le colonne e le righe della tabella
+
+* Aggiungere un nuovo record da qualsiasi posizione di colonna. Prima di questo miglioramento era possibile aggiungere un record solo dalla prima colonna.
+
+* Utilizzare la combinazione di tastiera Maiusc + Invio per aggiungere un nuovo record (o riga) nella tabella.
+
+Per ulteriori informazioni, consulta [Crea record](../maestro/records/connect-records.md).
 
 ## Settimana del 16 ottobre 2023
 
