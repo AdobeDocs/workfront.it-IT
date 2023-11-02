@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: d777e42a91b18586da22be3aeb35be32e1439104
+source-git-commit: a485f213cc735cd6596a89c560b33ee1b896c47d
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2304'
 ht-degree: 2%
 
 ---
@@ -123,6 +123,8 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 | Tipo di spesa (EXPTYP) | Tipo di Spesa |
 | Tipo di rischio (RSKTYP) | Tipo Rischio |
 | Pool di Risorse (RSPL) | Gruppo di risorse |
+
+\* Attualmente non disponibile
 
 ## Autenticazione
 
