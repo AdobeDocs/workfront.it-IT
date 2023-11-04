@@ -6,9 +6,9 @@ description: È possibile richiedere un documento su qualsiasi oggetto che suppo
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 93191e047dbf0344647e41f9e4280c08c1172001
+source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -68,8 +68,6 @@ Devi avere i seguenti:
    Se questa preferenza è abilitata, l’utente riceve una notifica e-mail e una notifica in-app. Per ulteriori informazioni sulle notifiche e-mail, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    Puoi fare clic sul collegamento che si trova nella notifica e-mail, quindi caricare il documento. Oppure puoi fare clic sulla notifica in-app. Ogni opzione ti indirizza alla pagina del profilo utente in cui puoi caricare il documento richiesto.
-
-   Puoi anche rispondere direttamente all’e-mail e allegare i documenti richiesti (se sei configurato per supportare le risposte e-mail).
 
 1. Dopo aver caricato il documento, la persona che lo ha richiesto può accedere al documento nel proprio **Documenti** area.
 
