@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97a89293989fd5dcc3ba40dd12ad0e1cf97d69ff
+source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3810'
 ht-degree: 1%
 
 ---
@@ -415,55 +415,6 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
 
 La copia di un aggiornamento varia a seconda dell’esperienza di commento utilizzata.
 
-### Copiare un aggiornamento nell’esperienza di commento legacy
-
-<!--remove legacy when removed from the UI-->
-
-* [Copia l’aggiornamento](#copy-the-update)
-* [Copiare il collegamento del thread](#copy-the-thread-link)
-* [Copia il collegamento di aggiornamento](#copy-the-update-link)
-* [Risposta preventivo](#quote-reply)
-
-#### Copia l’aggiornamento {#copy-the-update}
-
-Questa opzione consente di copiare il testo da un aggiornamento specifico negli Appunti.
-
-1. Vai all’aggiornamento o alla risposta che desideri copiare.
-1. Fai clic su **Altro** , quindi fai clic su **Copia corpo del testo**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copiare il collegamento del thread {#copy-the-thread-link}
-
-Questa opzione consente di copiare il collegamento thread completo negli Appunti, in modo da poter condividere il thread con altri utenti.
-
-1. Passare al thread di aggiornamento da copiare.
-
-1. Fai clic su **Altro** , quindi fai clic su **Copia collegamento thread**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copia il collegamento di aggiornamento {#copy-the-update-link}
-
-Questa opzione consente di copiare negli Appunti un collegamento di aggiornamento specifico. Quando condividi il collegamento di aggiornamento, l’utente che lo segue visualizza un bordo intorno all’aggiornamento.
-
-1. Vai all’aggiornamento o alla risposta che desideri copiare.
-1. Fai clic su **Altro** accanto al singolo aggiornamento, quindi fai clic su **Copia collegamento di aggiornamento**.
-
-   ![](assets/copy-update-link-old-ui.png)
-
-
-#### Risposta preventivo
-
-L&#39;opzione Risposta preventivo copia il commento originale in una nuova risposta sotto forma di un&#39;offerta di blocco.
-
-1. Vai all’aggiornamento o alla risposta che desideri copiare.
-1. Fai clic su **Altro** , quindi fai clic su **Risposta preventivo**.
-
-   Viene visualizzata una nuova casella di commento e la risposta tra virgolette viene inclusa nel nuovo commento e contrassegnata come virgolette.
-
-1. Continua ad aggiungere il tuo aggiornamento e fai clic su **Rispondi** per aggiungere il commento.
-
 ### Copiare un aggiornamento nella nuova esperienza di commento
 
 Per informazioni sulle funzioni disponibili per la nuova esperienza di commento e per gli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -486,6 +437,14 @@ L’opzione Copia collegamento copia il commento o il collegamento agli Appunti,
 
 1. Fai clic su **Altro** , quindi fai clic su **Copia collegamento**.
 
+1. Incolla il collegamento copiato nel passaggio precedente in un’e-mail o in un’altra applicazione per condividerlo con altri utenti. Il collegamento condiviso apre il commento da cui hai condiviso il collegamento.
+
+   >[!TIP]
+   >
+   >Quando si condivide il collegamento di una conversazione su un oggetto figlio da un oggetto di livello superiore, il collegamento apre il thread nell&#39;area Aggiornamenti dell&#39;oggetto di livello superiore.
+   >
+   >Ad esempio, se copi il collegamento di un commento attività dall’area Aggiornamenti del progetto, il commento apre la pagina del progetto.
+
 #### Copia corpo del testo
 
 L’opzione Copia corpo del testo copia il testo da un aggiornamento specifico negli Appunti.
@@ -507,6 +466,64 @@ L&#39;opzione Risposta preventivo copia il commento originale in una nuova rispo
    <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Continua ad aggiungere il tuo aggiornamento e fai clic su **Invia** per aggiungere il commento.
+
+### Copiare un aggiornamento nell’esperienza di commento legacy
+
+<!--remove legacy when removed from the UI-->
+
+* [Copia l’aggiornamento](#copy-the-update)
+* [Copiare il collegamento del thread](#copy-the-thread-link)
+* [Copia il collegamento di aggiornamento](#copy-the-update-link)
+* [Risposta preventivo](#quote-reply)
+
+  >[!TIP]
+  >
+  >Quando si copia e si condivide il collegamento di una conversazione su un oggetto figlio da un oggetto di livello superiore, il collegamento apre il thread nell&#39;area Aggiornamenti dell&#39;oggetto figlio.
+  >
+  >Se ad esempio si copia il collegamento di un commento attività dall&#39;area Aggiornamenti del progetto, il commento apre la pagina attività.
+
+#### Copia l’aggiornamento {#copy-the-update}
+
+Questa opzione consente di copiare il testo da un aggiornamento specifico negli Appunti.
+
+1. Vai all’aggiornamento o alla risposta che desideri copiare.
+1. Fai clic su **Altro** , quindi fai clic su **Copia corpo del testo**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+#### Copiare il collegamento del thread {#copy-the-thread-link}
+
+Questa opzione consente di copiare il collegamento thread completo negli Appunti, in modo da poter condividere il thread con altri utenti.
+
+1. Passare al thread di aggiornamento da copiare.
+
+1. Fai clic su **Altro** , quindi fai clic su **Copia collegamento thread**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+1. Incolla il collegamento copiato nel passaggio precedente in un’e-mail o in un’altra applicazione per condividerlo con altri utenti. Il collegamento condiviso apre il commento da cui hai condiviso il collegamento.
+
+#### Copia il collegamento di aggiornamento {#copy-the-update-link}
+
+Questa opzione consente di copiare negli Appunti un collegamento di aggiornamento specifico. Quando condividi il collegamento di aggiornamento, l’utente che lo segue visualizza un bordo intorno all’aggiornamento.
+
+1. Vai all’aggiornamento o alla risposta che desideri copiare.
+1. Fai clic su **Altro** accanto al singolo aggiornamento, quindi fai clic su **Copia collegamento di aggiornamento**.
+
+   ![](assets/copy-update-link-old-ui.png)
+
+1. Incolla il collegamento copiato nel passaggio precedente in un’e-mail o in un’altra applicazione per condividerlo con altri utenti. Il collegamento condiviso apre il commento da cui hai condiviso il collegamento.
+
+#### Risposta preventivo
+
+L&#39;opzione Risposta preventivo copia il commento originale in una nuova risposta sotto forma di un&#39;offerta di blocco.
+
+1. Vai all’aggiornamento o alla risposta che desideri copiare.
+1. Fai clic su **Altro** , quindi fai clic su **Risposta preventivo**.
+
+   Viene visualizzata una nuova casella di commento e la risposta tra virgolette viene inclusa nel nuovo commento e contrassegnata come virgolette.
+
+1. Continua ad aggiungere il tuo aggiornamento e fai clic su **Rispondi** per aggiungere il commento.
 
 ## Eliminare un aggiornamento o una risposta
 
