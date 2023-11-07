@@ -1,39 +1,40 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Aggiornamenti all’API versione 9
+title: Aggiornamenti a API versione 9
 description: Risorse aggiornate
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 47%
+source-wordcount: '248'
+ht-degree: 43%
 
 ---
 
-# Aggiornamenti all’API versione 9
+# Aggiornamenti a API versione 9
 
 ## Risorse aggiornate
 
-Con questa versione dell’API Adobe Workfront sono state aggiornate le seguenti risorse esistenti. Per visualizzare le risorse nuove della versione 9, visita [Novità dell’API versione 9](../../wf-api/api/new-api-version-9.md) e [Novità dell’API versione 9 (continua)](../../wf-api/api/new-api-version-9-continue.md). Le modifiche apportate a una risorsa vengono indicate nel modo seguente:
+Le seguenti risorse esistenti sono state aggiornate con questa versione dell’API di Adobe Workfront. Per visualizzare le risorse nuove della versione 9, visita [Novità dell’API versione 9](../../wf-api/api/new-api-version-9.md) e [Novità dell&#39;API versione 9 (continua)](../../wf-api/api/new-api-version-9-continue.md). Le modifiche apportate a una risorsa sono indicate nel modo seguente:
 
-* Le aggiunte sono semplicemente elencate
-* Le rimozione sono indicate con testo barrato
-* Le modifiche sono riportate nella nota dopo la tabella
+* Le aggiunte vengono semplicemente elencate
+* Le rimozioni sono indicate con testo barrato
+* Le modifiche vengono annotate nella nota dopo la tabella
 
-### LavoroAgile
+### AgileWork
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| `opTaskID`<sup>2</sup> |  |  |  |  |  |  |
-| `taskID`<sup>2</sup> |  |  |  |  |  |  |
+| `opTaskID`<sup>2</sup> |  |   |  |   |   |  |
+| `taskID`<sup>2</sup> |   |   |  |  |  |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flag rimosso: SEGNALABILE\
-² È stato rimosso il contrassegno: NOT_GROUPABLE
+<sup>1</sup> Flag rimosso: SEGNALABILE\
+<sup>2</sup> Flag rimosso: NOT_GROUPABLE
 
 ### Approval
 
@@ -41,148 +42,148 @@ Con questa versione dell’API Adobe Workfront sono state aggiornate le seguenti
 |---|---|---|---|---|---|---|
 | `storyBoardOrder` | `agileWork` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 Assegnazione
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-|  |  |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |  |  |
-|  |  |  |  | `assignUserToRoleOnTasks`<sup>1</sup> |  |  |
-|  |  |  |  | `swapUsersOnProjects`<sup>1</sup> |  |  |
-|  |  |  |  | `swapUsersOnTasks`<sup>1</sup> |  |  |
+| |   |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |   |   |
+|   |   |   |   | `assignUserToRoleOnTasks`<sup>1</sup> |   |   |
+|   |   |   |   | `swapUsersOnProjects`<sup>1</sup> |   |   |
+|   |   |   |   | `swapUsersOnTasks`<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Campo aggiunto: lockToRole
+<sup>1</sup> Campo aggiunto: lockToRole
 
-### CustomerPreferences
+### PreferenzeCliente
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | `name`<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche a possibiliValues
+<sup>1</sup> Modifiche a possibleValues
 
 ### Ora
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| `days` |  |  |  |  |  |  |
-| `workHoursPerDay` |  |  |  |  |  |  |
+| `days` |   |   |   |   |   |   |
+| `workHoursPerDay` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Iterazione
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-|  |  |  |  | `moveIssues` |  |  |
+|   |   |   |   | `moveIssues` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ModelliLayout
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| `groupID` | `group` |  |  |  |  |  |
+| `groupID` | `group` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Nota
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| `html` |  |  |  |  |  |  |
-| `json` |  |  |  |  |  |  |
-| `richTextNoteID` |  |  |  |  |  |  |
+| `html` |   |   |   |   |   |   |
+| `json` |   |   |   |   |   |   |
+| `richTextNoteID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### OpTask
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| `color` | `agileWork` |  |  | `convertToProject` |  |  |
-| `isReady` |  |  |  | `convertToTask` |  |  |
-| `storyBoardOrder` |  |  |  | `linkExternalObject` |  |  |
-|  |  |  |  | `unlinkExternalObject` |  |  |
+| `color` | `agileWork` |   |   | `convertToProject` |   |   |
+| `isReady` |   |   |   | `convertToTask` |   |   |
+| `storyBoardOrder` |   |   |   | `linkExternalObject` |   |   |
+|   |   |   |   | `unlinkExternalObject` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### ResourceBudget
+### BudgetRisorse
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| `ID` |  |  |  |  |  |  |
+| `ID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flag rimosso: SEGNALABILE
+<sup>1</sup> Flag rimosso: SEGNALABILE
 
 ### Pianificazione
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| `homeGroupID` | `homeGroup` |  |  |  |  |  |
+| `homeGroupID` | `homeGroup` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Attività
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-|  | `agileWork` |  |  | `convertToProject` |  |  |
-|  |  |  |  | `linkExternalObject` |  |  |
-|  |  |  |  | `unlinkExternalObject` |  |  |
+|   | `agileWork` |   |   | `convertToProject` |   |   |
+|   |   |   |   | `linkExternalObject` |   |   |
+|   |   |   |   | `unlinkExternalObject` |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Team
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| `includeIssues` |  |  |  |  |  |  |
+| `includeIssues` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### Profilo scheda attività
+### TimesheetProfile
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| `groupID` | `group` |  |  |  |  |  |
+| `groupID` | `group` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UIFilter
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  | `filtersForObjCode` |  |
+|   |   |   |   |   | `filtersForObjCode` |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### UIView
+### Vista UI
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-|  |  |  |  |  | `viewsForObjCode` |  |
+|   |   |   |   |   | `viewsForObjCode` |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Utente
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| `logTimeInDays` |  |  |  |  |  |  |
-| `workHoursPerDay` |  |  |  |  |  |  |
+| `logTimeInDays` |   |   |   |   |   |   |
+| `workHoursPerDay` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Lavoro
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| `storyBoardOrder` | `agileWork` |  |  | `getWFHomeObjects` |  |  |
+| `storyBoardOrder` | `agileWork` |   |   | `getWFHomeObjects` |   |   |

@@ -1,33 +1,34 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità dell’API versione 7
+title: Novità della versione 7 dell’API
 description: Raccolte
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 50%
+source-wordcount: '474'
+ht-degree: 47%
 
 ---
 
-# Novità dell’API versione 7
+# Novità della versione 7 dell’API
 
 ## Nuovi oggetti
 
-### Fagiolo di prova
+### Fagiolo bozza
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Ricerca |
-| DeadLine |   |   |   |   |   |   |
+| deadLine |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### CollegamentoMetadatiDoc
+### Collegamento DocMetadata
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,7 +84,7 @@ ht-degree: 50%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Get  </td> 
+   <td>Ottenere  </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -113,26 +114,26 @@ ht-degree: 50%
 | ID |   |   |   |   |   | Aggiungi |
 |   |   |   |   |   |   | Count |
 |   |   |   |   |   |   | Elimina |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
 |   |   |   |   |   |   | Ricerca |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### Approvazione bozza
+### ProofApproval
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Count |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
 |   |   |   |   |   |   | Ricerca |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### ResourceContour
+### ContornoRisorse
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -140,11 +141,11 @@ ht-degree: 50%
 |   |   |   |   |   |   | Count |
 |   |   |   |   |   |   | Elimina |
 |   |   |   |   |   |   | Modifica |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
 |   |   |   |   |   |   | Ricerca |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -153,14 +154,14 @@ ht-degree: 50%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | groupID | gruppo |   |   |   |   |   |
-| isOwner  | user  |   |   |   |   |   |
+| isOwner  | utente  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### Profilo scheda attività
+### TimesheetProfile
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -169,12 +170,12 @@ ht-degree: 50%
 |   |   |   |   |   |   | Count |
 |   |   |   |   |   |   | Elimina |
 |   |   |   |   |   |   | Modifica |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
 |   |   |   |   |   |   | Ricerca |
 |   |   |   |   |   |   | Sostituisci |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -183,16 +184,16 @@ ht-degree: 50%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID | cliente | utenti |   |   |   | Aggiungi |
-| customerID  | enterBy  |   |   |   |   | Count |
+| customerID  | enteredBy  |   |   |   |   | Count |
 | descrizione  | lastUpdatedBy  |   |   |   |   | Elimina |
-| enterByID  |   |   |   |   |   | Modifica |
-| entryDate  |   |   |   |   |   | Get |
+| enteredByID  |   |   |   |   |   | Modifica |
+| entryDate  |   |   |   |   |   | Ottenere |
 | extRefID  |   |   |   |   |   | Rapporto |
 | lastUpdateDate |   |   |   |   |   | Ricerca |
 | lastUpdateByID |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -201,11 +202,11 @@ ht-degree: 50%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Count |
-| articleName  |   |   |   |   |   | Get |
+| articleName  |   |   |   |   |   | Ottenere |
 | pageID  |   |   |   |   |   | Rapporto |
 | url  |   |   |   |   |   | Ricerca |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,35 +216,35 @@ ht-degree: 50%
 
 ## Oggetti aggiornati
 
-Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le rimozioni hanno barrato, le modifiche a esistenti hanno una nota allegata dopo la tabella
+Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le rimozioni sono barrate, le modifiche a esistenti hanno una nota allegata dopo la tabella
 
 ### UpdateBean
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   |   |   |
+| updateType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori 
+<sup>1</sup> Modifiche ai valori possibili 
 
  
 
-### AcceptServiceObject
+### ApprovalServiceObject
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| authorizationCompletionDate |   |   |   |   |   |   |
-| authorizationStartDate¹ |   |   |   |   |   |   |
+| approvalCompletionDate |   |   |   |   |   |   |
+| approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |    |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### AccessRule¹
+### AccessRule<sup>1</sup>
 
-¹ Segnalato come segnalabile
+<sup>1</sup> Contrassegnato come segnalabile
 
  
 
@@ -253,11 +254,11 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
   
 
-### Percorso di approvazione¹
+### Percorso di approvazione<sup>1</sup>
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -265,25 +266,25 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 |   |   |   |   |   |   | `Delete` |
 |   |   |   |   |   |   | `Edit` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flag di reportabile rimosso
+<sup>1</sup> Flag segnalabile rimosso
 
  
 
-### Oggetto del servizio di lavoro
+### Oggetto servizio di lavoro
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| authorizationCompletionDate |   |   |   |   |   |   |
-| authorizationStartDate |   |   |   |   |   |   |
+| approvalCompletionDate |   |   |   |   |   |   |
+| approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Aggiunta convalida data
+<sup>1</sup> Convalida data aggiunta
 
-² Flag non_filtrabile aggiunto
+<sup>2</sup> Flag Not_Filterable aggiunto
 
  
 
@@ -291,13 +292,13 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects¹ |   |   |
-|   |   |   |   | swapUsersOnProjects¹ |   |   |
-|   |   |   |   | unassignUserFromProjects¹ |   |   |
+|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
+|   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Campo aggiunto includeIssues
+<sup>1</sup> Il campo aggiunto includeIssues
 
  
 
@@ -305,11 +306,11 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   |   |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori 
+<sup>1</sup> Modifiche ai valori possibili 
 
  
 
@@ -319,7 +320,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -329,7 +330,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -337,9 +338,9 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-|   |   |   |   |  getProofingToken |   |   |
+|   |   |   |   |  getProofingTokens |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -350,9 +351,9 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 | isPublic |  layoutTemplate | userGroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Convalida PRECISION modificata per 8 a 9
+<sup>1</sup> Convalida PRECISION modificata da 8 a 9
 
  
 
@@ -366,7 +367,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 |   |   |   |   |   | globalHourTypes  |   |
 |   |   |   |   |   | objectHourTypes  |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -374,11 +375,11 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup> Modifiche ai valori possibili
 
  
 
@@ -386,10 +387,10 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| authorizationCompletionDate |   |   |   |  assignMultiple |   |   |
-| authorizationStartDate |   |   |   |   |   |   |
+| approvalCompletionDate |   |   |   |  assignMultiple |   |   |
+| approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -399,32 +400,32 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| authorizationCompletionDate |   |   |   |   |   |   |
-| authorizationStartDate |   |   |   |   |   |   |
+| approvalCompletionDate |   |   |   |   |   |   |
+| approvalStartDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
-
- 
+{style="table-layout:auto"}
 
  
 
-### QueueDef
+ 
+
+### DefCoda
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### ArgomentoCoda
+### Argomento coda
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |  queueTopicID |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -434,7 +435,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 |---|---|---|---|---|---|---|
 |   |   |   |   |  updateLastViewedObject |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -442,23 +443,23 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| authorizationCompletionDate |   |   |   | assignMultiple  |   |   |
-| authorizationStartDate |   |   |   |   |   |   |
+| approvalCompletionDate |   |   |   | assignMultiple  |   |   |
+| approvalStartDate |   |   |   |   |   |   |
 | workPerDayList |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### AttivitàModello
+### TemplateTask
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Tipo modificato da Int a Double 
+<sup>1</sup> Tipo cambiato da Int a Double 
 
  
 
@@ -496,9 +497,9 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">pianificazioneDataDisattivazione</span></td> 
+   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">schedaProfiloOraTipi</span> </td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
    <td> </td> 
    <td>getAvailableActions</td> 
    <td> </td> 
@@ -551,7 +552,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -563,6 +564,6 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 |---|---|---|---|---|---|---|
 |  name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup> Modifiche ai valori possibili

@@ -1,21 +1,22 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità dell’API versione 9 (continua)
-description: Questa lista è la seconda metà di una lista più grande. La prima metà si trova in Novità dell’API Versione 9. L’elenco degli aggiornamenti alla versione 9 è disponibile in Aggiornamenti alla versione 9 dell’API.
+title: Novità dell'API versione 9 (continua)
+description: Questa lista è la seconda metà di una lista più grande. La prima metà si trova in Novità della versione 9 dell’API. L’elenco degli aggiornamenti alla versione 9 è disponibile in Aggiornamenti all’API versione 9.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 29%
+source-wordcount: '145'
+ht-degree: 25%
 
 ---
 
-# Novità dell’API versione 9 (continua)
+# Novità dell&#39;API versione 9 (continua)
 
-Questa lista è la seconda metà di una lista più grande. La prima metà può essere situata in [Novità dell’API versione 9](../../wf-api/api/new-api-version-9.md). L’elenco degli aggiornamenti alla versione 9 è disponibile all’indirizzo [Aggiornamenti all’API versione 9](../../wf-api/api/new-api-version-9-updates.md).
+Questa lista è la seconda metà di una lista più grande. La prima metà può essere localizzata al seguente indirizzo: [Novità dell’API versione 9](../../wf-api/api/new-api-version-9.md). L’elenco degli aggiornamenti della versione 9 è disponibile all’indirizzo [Aggiornamenti a API versione 9](../../wf-api/api/new-api-version-9-updates.md).
 
 ## PortalSection
 
@@ -83,19 +84,19 @@ Questa lista è la seconda metà di una lista più grande. La prima metà può e
 | `viewID` |   |   |   |   |   |   |
 | `width` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionLastViewer
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| createdDate | `customer` |  |  |  |  | `COUNT` |
+| creationDate | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
 | `ID` | `viewer` |  |  |  |  | `REPORT` |
 | `reportID` |  |  |  |  |  | `SEARCH` |
 | viewerID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalSectionStatisticInfo
 
@@ -113,9 +114,9 @@ Questa lista è la seconda metà di una lista più grande. La prima metà può e
 | `viewsThisQuarter`  |   |   |   |   |   |   |
 | `viewsThisYear`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-## Scheda Portale
+## PortalTab
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -135,7 +136,7 @@ Questa lista è la seconda metà di una lista più grande. La prima metà può e
 | `tabname` |   |   |   |   |   |   |
 | `userID`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## PortalTabSection
 
@@ -152,7 +153,7 @@ Questa lista è la seconda metà di una lista più grande. La prima metà può e
 | `portalSectionObjID`  |   |   |   |   |   |   |
 | `portalTabID` |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ReportFolder
 
@@ -162,7 +163,7 @@ Questa lista è la seconda metà di una lista più grande. La prima metà può e
 | `ID`  |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## ScheduleReport
 

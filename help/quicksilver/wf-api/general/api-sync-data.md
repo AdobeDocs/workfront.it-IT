@@ -1,13 +1,14 @@
 ---
 content-type: api
-keywords: API,dati,sincronizzazione,diario,entrata,oggetto
+keywords: API,dati,sincronizzazione,diario,voce,oggetto
 navigation-topic: general-api
-title: Utilizza l’API per sincronizzare i dati per programmi e servizi
-description: Utilizza l’API per sincronizzare i dati per programmi e servizi
+title: Utilizzare l’API per sincronizzare i dati per programmi e servizi
+description: Utilizzare l’API per sincronizzare i dati per programmi e servizi
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 0%
@@ -17,17 +18,17 @@ ht-degree: 0%
 
 # Utilizzo dell’API per sincronizzare i dati per programmi e servizi
 
-Questi sono alcuni modi comuni per utilizzare l’API per sincronizzare i dati per programmi e servizi.
+Di seguito sono riportati alcuni modi comuni per utilizzare l’API per sincronizzare i dati per programmi e servizi.
 
-## Aggiornamenti in tempo reale
+## Aggiornamenti quasi in tempo reale
 
-Adobe Workfront utilizza &quot;Sottoscrizioni evento&quot; (comunemente chiamati anche webhook) per inviare aggiornamenti in tempo reale sugli oggetti e le azioni supportati, tramite l’API, agli endpoint desiderati. È previsto di ricevere un aggiornamento relativo ai nuovi oggetti e azioni entro 5 secondi, ma in media gli aggiornamenti arrivano tra circa 1 secondo. Per ulteriori informazioni sul tipo di oggetti supportati, sui tipi di azioni supportati, sui dettagli tecnici e sugli esempi di configurazione delle sottoscrizioni di eventi, consulta [API iscrizione agli eventi](../../wf-api/general/event-subs-api.md) e [Requisiti di consegna abbonamento agli eventi](../../wf-api/general/setup-event-sub-endpoint.md).
+Adobe Workfront utilizza &quot;Sottoscrizioni eventi&quot; (comunemente noti anche come webhook) per inviare aggiornamenti in tempo quasi reale, tramite l’API, sugli oggetti e le azioni supportati agli endpoint desiderati. È possibile ricevere un aggiornamento relativo a nuovi oggetti e azioni entro 5 secondi, ma in media gli aggiornamenti arrivano in circa 1 secondo. Per ulteriori informazioni sul tipo di oggetti supportati, sui tipi di azioni supportati, sui dettagli tecnici e su esempi per la configurazione delle sottoscrizioni di eventi, consulta [API di abbonamento agli eventi](../../wf-api/general/event-subs-api.md) e [Requisiti di consegna dell’abbonamento agli eventi](../../wf-api/general/setup-event-sub-endpoint.md).
 
-## Aggiornamenti in batch
+## Aggiornamenti batch
 
-Gli aggiornamenti in batch sono un modo per configurare il sistema per gli aggiornamenti effettuando richieste periodiche ai server Workfront. Esistono molti modi per farlo, ma in genere il processo consiste nel richiedere al servizio di effettuare una richiesta ai server API di Workfront e nella ricerca di oggetti creati o modificati dall’ultima chiamata di richiesta. Per informazioni sulle chiamate potenziali e sui parametri utili, consulta la sezione [Comportamento GET](../../wf-api/general/api-basics.md#get-behavior) dalla sezione [Nozioni di base sulle API](../../wf-api/general/api-basics.md) articolo.
+Gli aggiornamenti in batch consentono di configurare il sistema per gli aggiornamenti effettuando richieste periodiche ai server Workfront. Esistono molti modi per farlo, ma in genere il processo consiste nel richiedere al servizio di effettuare una richiesta ai server API di Workfront e nel cercare oggetti creati o modificati dopo l’ultima chiamata della richiesta. Per informazioni sulle potenziali chiamate di richieste e sui parametri utili, consulta la [Comportamento GET](../../wf-api/general/api-basics.md#get-behavior) sezione dalla sezione [Nozioni di base sulle API](../../wf-api/general/api-basics.md) articolo.
 
-Mentre si sta impostando il servizio per gli aggiornamenti batch qui ci sono alcune cose importanti da tenere a mente:
+Durante la configurazione del servizio per gli aggiornamenti in batch, tieni presente alcuni aspetti importanti:
 
 ### Date di ingresso
 
@@ -39,9 +40,9 @@ Le date di ingresso vengono memorizzate utilizzando la formattazione ISO 8601. Q
  
 <pre><code>2020-05-18T17:00:00:000-0600</code></pre> 
 
-Sia la data di creazione di un oggetto che l&#39;ultima data di modifica dell&#39;oggetto sono memorizzate rispettivamente come &quot;entryDate&quot; e &quot;lastUpdateDate&quot;. Per informazioni approfondite sugli oggetti Workfront, i campi associati e i nomi dei campi, consultare la sezione [Esplora API](../../wf-api/general/api-explorer.md). Si noti che l&#39;entryDate per un determinato oggetto Workfront non cambia, dove man mano che l&#39;oggetto viene modificato l&#39;ultimoUpdatedDate ogni volta che l&#39;oggetto viene modificato.
+La data di creazione e l&#39;ultima data di modifica dell&#39;oggetto vengono memorizzate rispettivamente come &quot;entryDate&quot; e &quot;lastUpdateDate&quot;. Per informazioni dettagliate sugli oggetti Workfront, sui campi associati e sui nomi dei campi, vedere [API Explorer](../../wf-api/general/api-explorer.md). Si noti che entryDate per un determinato oggetto Workfront non viene modificato, in quanto lastUpdatedDate cambia ogni volta che l&#39;oggetto viene modificato.
 
-**Esempio:** richiesta di GET per un oggetto problema, utilizzando **lastUpdateDate** campo . Questa richiesta restituirà tutti i problemi aggiornati a partire da quella data specificata.
+**Esempio:** GET richiesta per un oggetto problema, utilizzando **lastUpdateDate** campo. Con questa richiesta vengono restituiti tutti i problemi aggiornati a partire dalla data specificata.
 
 <!-- [Copy](javascript:void(0);) -->
  
@@ -51,11 +52,11 @@ GET
 https://<domain>.my.workfront.com/attask/api/v15.0/OPTASK/search?fields=ID,name,lastUpdateDate&$$LIMIT=200&lastUpdateDate=2020-05-13T18:18:37.255Z&lastUpdateDate_Mod=gte
 ```
 
-### Oggetto Journal Entry
+### Oggetto voce diario
 
-Se si desidera ottenere le modifiche relative a un campo specifico di un oggetto, è possibile eseguire una query sull&#39;oggetto &quot;Journal Entry&quot;. È possibile impostare l&#39;oggetto Workfront Journal Entry per registrare informazioni su campi oggetto specifici ogni volta che tali campi vengono modificati, vedere [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) per ulteriori dettagli.
+Se si desidera ottenere modifiche relative a un campo specifico di un oggetto, è possibile eseguire una query sull&#39;oggetto &quot;Voce diario&quot;. L&#39;oggetto Workfront Journal Entry può essere impostato per registrare informazioni su campi oggetto specifici ogni volta che questi campi vengono modificati. Vedere [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) per ulteriori dettagli.
 
-Quando un campo è configurato per essere registrato come parte dell&#39;oggetto Journal Entry, ogni volta che tale campo viene modificato viene creata una voce Journal corrispondente. Quindi, puoi eseguire una query sull&#39;oggetto Journal Entry utilizzando una chiamata API simile alla seguente:
+Quando un campo viene impostato per essere registrato come parte dell&#39;oggetto Voce diario, verrà creata una voce diario corrispondente ogni volta che tale campo viene modificato. È quindi possibile eseguire una query sull&#39;oggetto Voce diario utilizzando una chiamata API simile alla seguente:
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -63,4 +64,4 @@ Quando un campo è configurato per essere registrato come parte dell&#39;oggetto
 
 >[!NOTE]
 >
->&quot;entryDate&quot; viene utilizzato per esaminare una scrittura contabile di una modifica, invece di guardare l&#39;oggetto modificato stesso.
+>&quot;entryDate&quot; viene utilizzato per esaminare una voce del diario di una modifica, anziché esaminare l&#39;oggetto modificato stesso.

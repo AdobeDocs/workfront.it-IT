@@ -1,19 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità dell’API versione 11
-description: ReportabileBudgedHour è stato aggiunto all’API di Adobe Workfront come risorsa per il reporting. Contiene campi di riferimento, campi di base e campi predefiniti assenti in BudgetedHour.
+title: Novità della versione 11 dell’API
+description: ReportableBudgedHour è stato aggiunto all’API di Adobe Workfront come risorsa per la generazione di rapporti. Sono disponibili campi di riferimento, campi core e campi predefiniti assenti in OraPreventivata.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '3600'
 ht-degree: 2%
 
 ---
 
-# Novità dell’API versione 11
+# Novità della versione 11 dell’API
 
 * [Risorse aggiunte](#added-resources)
 * [Risorse rimosse](#removed-resources)
@@ -33,7 +34,7 @@ ht-degree: 2%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#loginassettings" class="MCXref xref">LoginAsSettings</a> </li>
   -->
 
-* [OrarioA budgetRiportabile](#reportablebudgetedhour)
+* [ReportableBudgetedHour](#reportablebudgetedhour)
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule">LoginAsAccessRule</h3>
@@ -62,7 +63,7 @@ ht-degree: 2%
     <ul> 
      <li style="font-weight: bold;">accessor</li> 
      <li style="font-weight: bold;">cliente</li> 
-     <li style="font-weight: bold;">user  </li> 
+     <li style="font-weight: bold;">utente  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -132,7 +133,7 @@ ht-degree: 2%
      <li style="font-weight: bold;">customerID</li> 
      <li style="font-weight: bold;">licenseTypes</li> 
      <li style="font-weight: bold;">ID</li> 
-     <li style="font-weight: bold;">RestricLoginAs  </li> 
+     <li style="font-weight: bold;">restrictedLoginAs  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -160,9 +161,9 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-### OrarioA budgetRiportabile {#reportablebudgetedhour}
+### ReportableBudgetedHour {#reportablebudgetedhour}
 
-ReportabileBudgedHour è stato aggiunto all’API di Adobe Workfront come risorsa per il reporting. Contiene campi di riferimento, campi di base e campi predefiniti assenti in BudgetedHour.
+ReportableBudgedHour è stato aggiunto all’API di Adobe Workfront come risorsa per la generazione di rapporti. Sono disponibili campi di riferimento, campi core e campi predefiniti assenti in OraPreventivata.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -172,22 +173,22 @@ ReportabileBudgedHour è stato aggiunto all’API di Adobe Workfront come risors
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">allocateDate </p> <p>La data di allocazione è il primo giorno (una domenica) della settimana per la quale hai preventivato le ore nel Planner risorse.</p> </li> 
-     <li> <p style="font-weight: bold;">budgetedHours </p> <p>Le ore previste sono ore in cui il budget del gestore risorse per il lavoro che le risorse devono completare sui progetti</p> </li> 
-     <li> <p style="font-weight: bold;">ID </p> <p>L'ID Workfront univoco assegnato a un oggetto Reportabile Budgeted Hour specifico.</p> </li> 
-     <li style="font-weight: bold;">ScheduledBudgetedHours </li> 
-     <li> <p style="font-weight: bold;">projectID </p> <p>L'ID Workfront univoco assegnato a un progetto specifico.</p> </li> 
-     <li> <p style="font-weight: bold;">roleID</p> <p>L’ID Workfront univoco assegnato a un ruolo di lavoro specifico.</p> </li> 
-     <li> <p style="font-weight: bold;">userID</p> <p>L'ID Workfront univoco assegnato a un utente specifico.</p> </li> 
+     <li> <p style="font-weight: bold;">allocationDate </p> <p>La data di allocazione è il primo giorno (una domenica) della settimana per cui sono state preventivate le ore nella Programmazione delle risorse.</p> </li> 
+     <li> <p style="font-weight: bold;">BudgetedHours </p> <p>Le ore preventivate sono ore preventivate dal responsabile delle risorse per il lavoro che le risorse devono completare nei progetti</p> </li> 
+     <li> <p style="font-weight: bold;">ID </p> <p>L'ID Workfront univoco assegnato a uno specifico oggetto Ora preventivata da segnalare.</p> </li> 
+     <li style="font-weight: bold;">plannedBudgetedHours </li> 
+     <li> <p style="font-weight: bold;">projectID </p> <p>L’ID Workfront univoco assegnato a un progetto specifico.</p> </li> 
+     <li> <p style="font-weight: bold;">roleID</p> <p>ID Workfront univoco assegnato a una mansione specifica.</p> </li> 
+     <li> <p style="font-weight: bold;">userID</p> <p>L’ID Workfront univoco assegnato a un utente specifico.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Campi di riferimento</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">progetto</p> <p>Progetto a cui è associato un oggetto ReportabileBudgetedHour.</p> </li> 
-     <li> <p style="font-weight: bold;">ruolo</p> <p>Ruolo del lavoro a cui è associato un oggetto ReportabileBudgetedHour.</p> </li> 
-     <li> <p style="font-weight: bold;">user</p> <p>Utente a cui è associato un oggetto ReportabileBudgetedHour.</p> </li> 
+     <li> <p style="font-weight: bold;">progetto</p> <p>Progetto a cui è associato un oggetto ReportableBudgetedHour.</p> </li> 
+     <li> <p style="font-weight: bold;">ruolo</p> <p>Ruolo a cui è associato un oggetto ReportableBudgetedHour.</p> </li> 
+     <li> <p style="font-weight: bold;">utente</p> <p>Utente a cui è associato un oggetto ReportableBudgetedHour.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -210,7 +211,7 @@ ReportabileBudgedHour è stato aggiunto all’API di Adobe Workfront come risors
    <td>Operazioni</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;">CONTEGGIO</li> 
+     <li style="font-weight: bold;">COUNT</li> 
      <li style="font-weight: bold;">GET</li> 
      <li style="font-weight: bold;">RAPPORTO </li> 
      <li style="font-weight: bold;">SEARCH</li> 
@@ -221,7 +222,7 @@ ReportabileBudgedHour è stato aggiunto all’API di Adobe Workfront come risors
 
 ## Risorse rimosse {#removed-resources}
 
-Non sono state rimosse risorse per API v11.
+Nessuna risorsa rimossa per API v11.
 
 ## Risorse modificate {#modified-resources}
 
@@ -237,15 +238,15 @@ Non sono state rimosse risorse per API v11.
      <li><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </li> 
      <li><a href="#accessrule" class="MCXref xref">AccessRule</a> </li> 
      <li><a href="#approval" class="MCXref xref">Approval</a> </li> 
-     <li><a href="#approvalpath" class="MCXref xref">Percorso approvazione</a> </li> 
-     <li><a href="#approvalprocess" class="MCXref xref">Processo di approvazione</a> </li> 
+     <li><a href="#approvalpath" class="MCXref xref">ApprovalPath</a> </li> 
+     <li><a href="#approvalprocess" class="MCXref xref">ApprovalProcess</a> </li> 
      <li><a href="#assignment" class="MCXref xref">Assegnazione</a> </li> 
-     <li><a href="#baselinetask" class="MCXref xref">Attività linea di base</a> </li> 
+     <li><a href="#baselinetask" class="MCXref xref">AttivitàPrevista</a> </li> 
      <li><a href="#category" class="MCXref xref">Categoria</a> </li> 
      <li><a href="#company" class="MCXref xref">Azienda</a> </li> 
-     <li><a href="#customenum" class="MCXref xref">CustomEnum</a> </li> 
+     <li><a href="#customenum" class="MCXref xref">EnumPersonalizzata</a> </li> 
      <li><a href="#customer" class="MCXref xref">Cliente</a> </li> 
-     <li><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </li> 
+     <li><a href="#customerpreferences" class="MCXref xref">PreferenzeCliente</a> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -253,16 +254,16 @@ Non sono state rimosse risorse per API v11.
      <li><a href="#document" class="MCXref xref">Documento</a> </li> 
      <li><a href="#iteration" class="MCXref xref">Iterazione</a> </li> 
      <li><a href="#layout-template" class="MCXref xref">Modello di layout</a> </li> 
-     <li><a href="#milestonepath" class="MCXref xref">MilestonePath</a> </li> 
+     <li><a href="#milestonepath" class="MCXref xref">PercorsoMilestone</a> </li> 
      <li><a href="#note" class="MCXref xref">Nota</a> </li> 
      <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
      <li><a href="#parameter" class="MCXref xref">Parametro</a> </li> 
      <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
      <li><a href="#program" class="MCXref xref">Programma</a> </li> 
      <li><a href="#project" class="MCXref xref">Progetto</a> </li> 
-     <li><a href="#proofapproval" class="MCXref xref">Approvazione bozza</a> </li> 
-     <li><a href="#queuedef" class="MCXref xref">QueueDef</a> </li> 
-     <li><a href="#reservedtime" class="MCXref xref">TempoRiservato</a> </li> 
+     <li><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </li> 
+     <li><a href="#queuedef" class="MCXref xref">DefCoda</a> </li> 
+     <li><a href="#reservedtime" class="MCXref xref">ReservedTime</a> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -273,13 +274,13 @@ Non sono state rimosse risorse per API v11.
      <li><a href="#task" class="MCXref xref">Attività</a> </li> 
      <li><a href="#team" class="MCXref xref">Team</a> </li> 
      <li><a href="#template" class="MCXref xref">Modello</a> </li> 
-     <li><a href="#templateassignment" class="MCXref xref">Assegnazione modello</a> </li> 
-     <li><a href="#templatetask" class="MCXref xref">AttivitàModello</a> </li> 
+     <li><a href="#templateassignment" class="MCXref xref">AssegnazioneModello</a> </li> 
+     <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Scheda orario</a> </li> 
      <li><a href="#update" class="MCXref xref">Aggiorna</a> </li> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
-     <li><a href="#usernote" class="MCXref xref">NoteUtente</a> </li> 
+     <li><a href="#usernote" class="MCXref xref">NotaUtente</a> </li> 
      <li><a href="#work" class="MCXref xref">Lavoro </a> </li> 
     </ul> </td> 
   </tr> 
@@ -290,7 +291,7 @@ Non sono state rimosse risorse per API v11.
 
 ### AccessLevelPermissions {#accesslevelpermissions}
 
-Un oggetto AccessLevelPermissions rappresenta un set di autorizzazioni. Questo insieme di autorizzazioni può quindi essere associato a un livello di accesso.
+Un oggetto AccessLevelPermissions rappresenta un insieme di autorizzazioni. Questo set di autorizzazioni può quindi essere associato a un Livello di accesso.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -298,11 +299,11 @@ Un oggetto AccessLevelPermissions rappresenta un set di autorizzazioni. Questo i
  <tbody> 
   <tr> 
    <td>Campi diretti</td> 
-   <td> <p>I campi seguenti hanno aggiunto il possibile valore BUDGETING_INFORMATION. Questo consente agli utenti con l'autorizzazione di modificare le priorità e le ore di budget nel planner.</p> 
+   <td> <p>I campi seguenti hanno aggiunto il possibile valore BUDGETING_INFORMATION. Questo consente agli utenti con l’autorizzazione di modificare le priorità e le ore preventivate nel planner.</p> 
     <ul> 
      <li style="font-weight: bold;">coreAction</li> 
      <li style="font-weight: bold;">forbiddenActions</li> 
-     <li style="font-weight: bold;">secondarioActions  </li> 
+     <li style="font-weight: bold;">secondaryActions  </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -310,7 +311,7 @@ Un oggetto AccessLevelPermissions rappresenta un set di autorizzazioni. Questo i
 
 ### AccessRequest {#accessrequest}
 
-Se un utente non ha accesso a un oggetto in Workfront di cui ha bisogno, può richiedere l&#39;accesso a tale oggetto. L&#39;oggetto AccessRequest rappresenta questa richiesta.
+Se un utente non ha accesso a un oggetto in Workfront di cui ha bisogno, può richiedere l’accesso a tale oggetto. L&#39;oggetto AccessRequest rappresenta questa richiesta.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -320,7 +321,7 @@ Se un utente non ha accesso a un oggetto in Workfront di cui ha bisogno, può ri
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">action</p> <p>È stato aggiunto il possibile valore BUDGETING_INFORMATION. Questo consente agli utenti con l'autorizzazione di modificare le priorità e le ore di budget nel planner.  </p> </li> 
+     <li> <p style="font-weight: bold;">azione</p> <p>È stato aggiunto il possibile valore BUDGETING_INFORMATION. Questo consente agli utenti con l’autorizzazione di modificare le priorità e le ore preventivate nel planner.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -336,11 +337,11 @@ Un oggetto AccessRule rappresenta un set di regole nei livelli di accesso person
  <tbody> 
   <tr> 
    <td>Campi diretti</td> 
-   <td> <p>I campi seguenti hanno aggiunto il possibile valore BUDGETING_INFORMATION. Questo consente agli utenti con l'autorizzazione di modificare le priorità e le ore di budget nel planner.</p> 
+   <td> <p>I campi seguenti hanno aggiunto il possibile valore BUDGETING_INFORMATION. Questo consente agli utenti con l’autorizzazione di modificare le priorità e le ore preventivate nel planner.</p> 
     <ul> 
      <li style="font-weight: bold;">coreAction</li> 
      <li style="font-weight: bold;">forbiddenActions</li> 
-     <li style="font-weight: bold;">secondarioActions  </li> 
+     <li style="font-weight: bold;">secondaryActions  </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -348,25 +349,25 @@ Un oggetto AccessRule rappresenta un set di regole nei livelli di accesso person
 
 ### Approval {#approval}
 
-Un dato elemento di lavoro, ad esempio un&#39;attività, un documento o una scheda attività, può richiedere che un supervisore o un altro utente si disconnetta dall&#39;elemento di lavoro. Un oggetto Approvazione rappresenta l&#39;azione di disconnessione su un elemento di lavoro.
+Per un determinato elemento di lavoro, ad esempio un&#39;attività, un documento o una scheda orario, può essere necessario che un supervisore o un altro utente approvi l&#39;elemento di lavoro. Un oggetto Approval rappresenta l&#39;azione di approvazione di un elemento di lavoro.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td colspan="2">Campi diretti<p style="font-weight: normal;">I campi seguenti hanno aggiunto gli elementi di convalida AT_DATE_BEFORE_YEAR e AT_DATE_AFTER_YEAR. Questi validatori specificano che le date sugli oggetti associati non possono essere impostate prima dell'anno 1900 o dopo 2200.</p>
+   <td colspan="2">Campi diretti<p style="font-weight: normal;">Nei campi seguenti sono stati aggiunti i validatori AT_DATE_BEFORE_YEAR e AT_DATE_AFTER_YEAR. Questi validatori specificano che le date sugli oggetti associati non possono essere impostate prima del 1900 o dopo il 2200.</p>
     <ul>
-     <li style="font-weight: bold;">effectiveCompletionDate</li>
-     <li style="font-weight: bold;">effectiveStartDate</li>
-     <li style="font-weight: bold;">ConstrDate</li>
-     <li style="font-weight: bold;">scheduledCompletionDate</li>
-     <li style="font-weight: bold;">ScheduledStartDate</li>
-    </ul><p style="font-weight: normal;">I campi seguenti sono stati aggiunti all’API pubblica per la trasparenza nel calcolo dell’EAC (Stima al completamento).</p>
+     <li style="font-weight: bold;">actualCompletionDate</li>
+     <li style="font-weight: bold;">actualStartDate</li>
+     <li style="font-weight: bold;">constraintDate</li>
+     <li style="font-weight: bold;">plannedCompletionDate</li>
+     <li style="font-weight: bold;">plannedStartDate</li>
+    </ul><p style="font-weight: normal;">I seguenti campi sono stati aggiunti all’API pubblica per la trasparenza nel calcolo di EAC (Stima al completamento).</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Noto anche come Valore realizzato, il BCWP (Budgeted Cost of Work Performed) è una metrica di prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività effettivamente completata al momento del calcolo di questa metrica. Per le attività, BCWP = percentuale effettiva di completamento x budget attività. Per i progetti, BCWP = SUM (valori BCWP di tutte le attività principali e individuali).</p></li>
-     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Noto anche come Valore pianificato, il Costo preventivato del lavoro programmato (BCWS) è una metrica di prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività che avrebbe dovuto essere completato al momento del calcolo di questa metrica. Per le attività, BCWS = percentuale di completamento pianificata x budget attività. Per i progetti, BCWS = SUM (valori BCWS di tutte le attività principali e individuali).</p></li>
-    </ul><p style="font-weight: normal;">I campi seguenti hanno aggiunto il possibile valore ET. Questo valore rappresenta l'unità di tempo trascorso mesi, che si riferisce a mesi senza considerare fine settimana o giorni festivi.</p>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Il valore BCWP (Costo preventivato del lavoro eseguito, Budgeted Cost of Work Performed) è una metrica delle prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività effettivamente completata al momento del calcolo di questa metrica. Per le attività, BCWP = Percentuale di completamento effettiva x Budget attività. Per i progetti, BCWP = SUM(valori BCWP di tutte le attività padre e di quelle singole).</p></li>
+     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Anche noto come valore pianificato, il costo preventivato del lavoro programmato (BCWS, Budgeted Cost of Work Scheduled) è una metrica delle prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività che avrebbe dovuto essere completata al momento del calcolo di questa metrica. Per le attività, BCWS = Percentuale di completamento pianificata x Budget attività. Per i progetti, BCWS = SUM(valori BCWS di tutte le attività padre e singole).</p></li>
+    </ul><p style="font-weight: normal;">Nei campi seguenti è stato aggiunto il possibile valore ET. Questo valore rappresenta l’unità di tempo Mesi trascorsi, che si riferisce ai mesi indipendentemente dai fine settimana o dalle festività.</p>
     <ul>
      <li style="font-weight: bold;">durationUnit</li>
      <li style="font-weight: bold;">workUnit</li>
@@ -374,11 +375,11 @@ Un dato elemento di lavoro, ad esempio un&#39;attività, un documento o una sche
     <ul>
      <li style="font-weight: bold;">projectBudgetedCost</li>
      <li style="font-weight: bold;">projectNetValue</li>
-    </ul><p style="font-weight: normal;">I campi seguenti sono stati rimossi dall'oggetto Approvazione.</p>
+    </ul><p style="font-weight: normal;">I campi seguenti sono stati rimossi dall'oggetto Approval.</p>
     <ul>
-     <li style="font-weight: bold;">reserveTimeID</li>
+     <li style="font-weight: bold;">reservTimeID</li>
      <li style="font-weight: bold;">timelineExceptionInfo</li>
-    </ul><p style="font-weight: normal;">Il campo seguente è stato aggiunto all'oggetto Approvazione.</p>
+    </ul><p style="font-weight: normal;">Il seguente campo è stato aggiunto all'oggetto Approval.</p>
     <ul>
      <li style="font-weight: bold;">storyPoints</li>
     </ul></td> 
@@ -387,22 +388,22 @@ Un dato elemento di lavoro, ad esempio un&#39;attività, un documento o una sche
    <td>Campi di riferimento</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>reserveTime</p> <p style="font-weight: normal;">Rimosso dall'oggetto Approvazione  </p> </li> 
+     <li style="font-weight: bold;"> <p>reservTime</p> <p style="font-weight: normal;">Rimosso dall’oggetto Approval  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Aggiunto all'oggetto Approvazione.</p> </li> 
+     <li style="font-weight: bold;"> <p>allConditions</p> <p style="font-weight: normal;">Aggiunto all'oggetto Approval.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Percorso approvazione {#approvalpath}
+### ApprovalPath {#approvalpath}
 
-Un oggetto ApprovedPath è un ramo all&#39;interno di un processo di approvazione. I percorsi di approvazione si basano sullo stato dell&#39;oggetto a cui è associato il processo di approvazione.
+Un oggetto ApprovalPath è un ramo di un processo di approvazione. I percorsi di approvazione si basano sullo stato dell&#39;oggetto a cui è associato il processo di approvazione.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -412,15 +413,15 @@ Un oggetto ApprovedPath è un ramo all&#39;interno di un processo di approvazion
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">È stato aggiunto il possibile valore ET. Questo valore rappresenta l'unità di tempo trascorso mesi, che si riferisce a mesi senza considerare fine settimana o giorni festivi.  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">È stato aggiunto il possibile valore ET. Questo valore rappresenta l’unità di tempo Mesi trascorsi, che si riferisce ai mesi indipendentemente dai fine settimana o dalle festività.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Processo di approvazione {#approvalprocess}
+### ApprovalProcess {#approvalprocess}
 
-Un oggetto ApprovazioneProcesso è un&#39;approvazione in più passaggi che può essere associata a un progetto, un task o un problema.
+Un oggetto ApprovalProcess è un&#39;approvazione in più passaggi che può essere associata a un progetto, un&#39;attività o un problema.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -430,7 +431,7 @@ Un oggetto ApprovazioneProcesso è un&#39;approvazione in più passaggi che può
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con un valore true se un oggetto è attivo e false se non lo è. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di digitazione e possono essere associati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di tipo Avanti da allegare ad altri oggetti.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con valore true se un oggetto è attivo e false in caso contrario. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di completamento automatico e possono essere allegati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di completamento automatico da associare ad altri oggetti.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -445,7 +446,7 @@ Un oggetto ApprovazioneProcesso è un&#39;approvazione in più passaggi che può
 
 ### Assegnazione {#assignment}
 
-Un oggetto di assegnazione rappresenta la connessione tra un elemento di lavoro e l&#39;utente, il team o il gruppo assegnato per lavorare su di esso.
+Un oggetto assegnazione rappresenta la connessione tra un elemento di lavoro e l&#39;utente, il team o il gruppo assegnato a lavorarci.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -455,15 +456,15 @@ Un oggetto di assegnazione rappresenta la connessione tra un elemento di lavoro 
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>workUnit </p> <p style="font-weight: normal;">È stato aggiunto il possibile valore ET. Questo valore rappresenta l'unità di tempo trascorso mesi, che si riferisce a mesi senza considerare fine settimana o giorni festivi.  </p> </li> 
+     <li style="font-weight: bold;"> <p>workUnit </p> <p style="font-weight: normal;">È stato aggiunto il possibile valore ET. Questo valore rappresenta l’unità di tempo Mesi trascorsi, che si riferisce ai mesi indipendentemente dai fine settimana o dalle festività.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Attività linea di base {#baselinetask}
+### AttivitàPrevista {#baselinetask}
 
-Le linee di base sono istantanee di come si presentavano le prestazioni di un progetto in un dato momento nel tempo. Archiviano informazioni chiave sul progetto, come date chiave, avanzamento, valori dei costi e dei ricavi. Quando si crea una baseline, le informazioni sull&#39;attività vengono acquisite anche sulle attività della baseline della baseline.
+Le linee di base sono istantanee delle prestazioni di un progetto in un determinato momento. Memorizzano informazioni chiave sul progetto, come date chiave, avanzamento, costi e ricavi. Quando si crea una previsione, le informazioni sulle attività vengono acquisite anche sulle attività previste della previsione.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -473,7 +474,7 @@ Le linee di base sono istantanee di come si presentavano le prestazioni di un pr
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">È stato aggiunto il possibile valore ET. Questo valore rappresenta l'unità di tempo trascorso mesi, che si riferisce a mesi senza considerare fine settimana o giorni festivi.  </p> </li> 
+     <li style="font-weight: bold;"> <p>durationUnit </p> <p style="font-weight: normal;">È stato aggiunto il possibile valore ET. Questo valore rappresenta l’unità di tempo Mesi trascorsi, che si riferisce ai mesi indipendentemente dai fine settimana o dalle festività.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -481,7 +482,7 @@ Le linee di base sono istantanee di come si presentavano le prestazioni di un pr
 
 ### Categoria {#category}
 
-Un oggetto Category è un modulo personalizzato. È possibile creare rapporti per questo oggetto e mostrarli anche in altri rapporti sugli oggetti.
+Un oggetto Category è un modulo personalizzato. È possibile creare report per questo oggetto e visualizzarlo anche in altri report oggetto.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -491,7 +492,7 @@ Un oggetto Category è un modulo personalizzato. È possibile creare rapporti pe
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con un valore true se un oggetto è attivo e false se non lo è. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di digitazione e possono essere associati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di tipo Avanti da allegare ad altri oggetti.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con valore true se un oggetto è attivo e false in caso contrario. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di completamento automatico e possono essere allegati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di completamento automatico da associare ad altri oggetti.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -506,7 +507,7 @@ Un oggetto Category è un modulo personalizzato. È possibile creare rapporti pe
 
 ### Azienda {#company}
 
-Un oggetto Società rappresenta un&#39;organizzazione costituita da una raccolta di persone. Le società sono associate a un utente o a un progetto.
+Un oggetto Company rappresenta un&#39;organizzazione costituita da un insieme di persone. Le aziende sono associate a un utente o a un progetto.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -516,7 +517,7 @@ Un oggetto Società rappresenta un&#39;organizzazione costituita da una raccolta
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con un valore true se un oggetto è attivo e false se non lo è. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di digitazione e possono essere associati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di tipo Avanti da allegare ad altri oggetti.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con valore true se un oggetto è attivo e false in caso contrario. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di completamento automatico e possono essere allegati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di completamento automatico da associare ad altri oggetti.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -529,7 +530,7 @@ Un oggetto Società rappresenta un&#39;organizzazione costituita da una raccolta
  </tbody> 
 </table>
 
-### CustomEnum {#customenum}
+### EnumPersonalizzata {#customenum}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A CustomEnum object is an enumeration that is created in Workfront to be used in objects and fields throughout Workfront.</p>
@@ -541,7 +542,7 @@ Un oggetto Società rappresenta un&#39;organizzazione costituita da una raccolta
  <tbody> 
   <tr> 
    <td>Azioni</td> 
-   <td> <p style="font-weight: normal;">All'oggetto CustomEnum sono state aggiunte le azioni seguenti</p> 
+   <td> <p style="font-weight: normal;">Le azioni seguenti sono state aggiunte all'oggetto CustomEnum</p> 
     <ul> 
      <li style="font-weight: bold;">getDefaultOpTaskConditionEnum</li> 
      <li style="font-weight: bold;">getDefaultProjectConditionEnum</li> 
@@ -550,7 +551,7 @@ Un oggetto Società rappresenta un&#39;organizzazione costituita da una raccolta
   </tr> 
   <tr> 
    <td>Query</td> 
-   <td> <p>Le seguenti query sono state aggiunte all'oggetto CustomEnum</p> 
+   <td> <p>Le query seguenti sono state aggiunte all'oggetto CustomEnum</p> 
     <ul> 
      <li style="font-weight: bold;">opTaskConditions</li> 
      <li style="font-weight: bold;">projectConditions</li> 
@@ -572,11 +573,11 @@ Un oggetto Customer rappresenta un&#39;organizzazione che utilizza un&#39;istanz
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>customEnumTypes</p> <p style="font-weight: normal;">Sono stati aggiunti i valori possibili: </p> 
+     <li style="font-weight: bold;"> <p>customEnumTypes</p> <p style="font-weight: normal;">Sono stati aggiunti i possibili valori: </p> 
       <ul> 
-       <li style="font-weight: normal;">CONDITION_PROJ (Condizioni del progetto)</li> 
+       <li style="font-weight: normal;">CONDITION_PROJ (Condizioni progetto)</li> 
        <li style="font-weight: normal;">CONDITION_TASK (Condizioni attività)</li> 
-       <li style="font-weight: normal;">CONDITION_OPTASK (Condizioni del problema)  </li> 
+       <li style="font-weight: normal;">CONDITION_OPTASK (condizioni problema)  </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> <!--
@@ -590,18 +591,18 @@ Un oggetto Customer rappresenta un&#39;organizzazione che utilizza un&#39;istanz
   --> 
   <tr> 
    <td>Azioni</td> 
-   <td> <p style="font-weight: normal;">Sono state aggiunte le seguenti azioni all’oggetto Cliente</p> 
+   <td> <p style="font-weight: normal;">Le azioni seguenti sono state aggiunte all'oggetto Customer</p> 
     <ul> 
-     <li style="font-weight: bold;">golEnabled</li> 
+     <li style="font-weight: bold;">goalsEnabled</li> 
      <li style="font-weight: bold;">updateLoginAsSettings</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### CustomerPreferences {#customerpreferences}
+### PreferenzeCliente {#customerpreferences}
 
-Un oggetto CustomerPreferences rappresenta il set di preferenze che un cliente ha impostato per la propria istanza di Workfront.
+Un oggetto CustomerPreferences rappresenta l&#39;insieme di preferenze impostate da un cliente per l&#39;istanza di Workfront.
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -613,15 +614,15 @@ Un oggetto CustomerPreferences rappresenta il set di preferenze che un cliente h
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Sono stati aggiunti i valori possibili:</p> 
+     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Sono stati aggiunti i possibili valori:</p> 
       <ul> 
-       <li style="font-weight: normal;">password:password.authPolicy (requisiti di complessità della password)</li> 
-       <li style="font-weight: normal;"> password:password.minimumLength (lunghezza minima password)</li> 
+       <li style="font-weight: normal;">password:password.eauthPolicy (Password Complexity Requirements)</li> 
+       <li style="font-weight: normal;"> password:password.minimumLength (Lunghezza minima password)</li> 
        <li style="font-weight: normal;">password:mobileSessionTimeout (timeout sessione mobile)</li> 
-       <li style="font-weight: normal;"> project.mgmt:default.project.usertimeoff (User Time Off)</li> 
-       <li style="font-weight: normal;">scheda attività:default.timesheet.manualrole (ruolo di controllo manuale)</li> 
-       <li style="font-weight: normal;">bozza:defaultNonRecipientRole (config.proofhq.defaultnonrecipientrole) </li> 
-       <li style="font-weight: normal;">bozza:defaultNonRecipientGuestRole (config.proofhq.defaultnonrecipientguestrole)  </li> 
+       <li style="font-weight: normal;"> project.mgmt:default.project.usertimeoff (Indisponibilità utente)</li> 
+       <li style="font-weight: normal;">scheda orario:default.timesheet.manualrole (ruolo di controllo manuale)</li> 
+       <li style="font-weight: normal;">proof:defaultNonRecipientRole (config.proof.defaultnonRecipientRole) </li> 
+       <li style="font-weight: normal;">proof:defaultNonRecipientGuestRole (config.proof.defaultnonrecipientguestrole)  </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -646,7 +647,7 @@ Un oggetto CustomerPreferences rappresenta il set di preferenze che un cliente h
 
 ### Documento {#document}
 
-Un oggetto Document rappresenta un file (ad esempio materiale scritto, immagini o altre forme di informazioni).
+Un oggetto Document rappresenta un file, ad esempio materiale scritto, immagini o altre forme di informazioni.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -654,7 +655,7 @@ Un oggetto Document rappresenta un file (ad esempio materiale scritto, immagini 
  <tbody> 
   <tr> 
    <td>Azioni</td> 
-   <td> <p>All'oggetto Document sono state aggiunte le azioni seguenti.</p> 
+   <td> <p>Le azioni seguenti sono state aggiunte all'oggetto Document.</p> 
     <ul> 
      <li style="font-weight: bold;">completeLargeDocument</li> 
      <li style="font-weight: bold;">createLargeDocument</li> 
@@ -670,7 +671,7 @@ Un oggetto Document rappresenta un file (ad esempio materiale scritto, immagini 
 
 ### Iterazione {#iteration}
 
-Un oggetto Iteration rappresenta una singola iterazione Agile. Le iterazioni sono periodi di tempo discreti utilizzati per pianificare e completare storie Agile.
+Un oggetto Iteration rappresenta una singola iterazione Agile. Le iterazioni sono periodi di tempo distinti utilizzati per pianificare e completare le storie di Agile.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -678,7 +679,7 @@ Un oggetto Iteration rappresenta una singola iterazione Agile. Le iterazioni son
  <tbody> 
   <tr> 
    <td>Campi diretti</td> 
-   <td> <p>I campi seguenti sono stati aggiunti all’oggetto Iteration .</p> 
+   <td> <p>I campi seguenti sono stati aggiunti all'oggetto Iteration.</p> 
     <ul> 
      <li style="font-weight: bold;">originalTotalPoints</li> 
      <li style="font-weight: bold;">punti completati</li> 
@@ -690,7 +691,7 @@ Un oggetto Iteration rappresenta una singola iterazione Agile. Le iterazioni son
 
 ### Modello di layout {#layout-template}
 
-Un oggetto Modello di layout rappresenta una particolare disposizione degli elementi di layout, ad esempio il menu principale, il pannello di navigazione o l’area principale. I modelli di layout possono essere assegnati a utenti, team, gruppi o ruoli di lavoro.
+Un oggetto modello di layout rappresenta una particolare disposizione di elementi layout, ad esempio il menu principale, il pannello di navigazione o l&#39;area Home. I modelli di layout possono essere assegnati a utenti, team, gruppi o mansioni.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -700,7 +701,7 @@ Un oggetto Modello di layout rappresenta una particolare disposizione degli elem
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>showHomeTimestamps </p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con valore true se un modello di layout è impostato per mostrare le marche temporali per le date di scadenza nell’Elenco di lavoro e nel Calendario e false se è impostato per nascondere le marche temporali.  </p> </li> 
+     <li style="font-weight: bold;"> <p>showHomeTimestamps </p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con il valore true se un modello di layout è impostato per mostrare i timestamp per le date di scadenza nell’elenco di lavoro e nel calendario e false se è impostato per nascondere i timestamp.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -713,9 +714,9 @@ Un oggetto Modello di layout rappresenta una particolare disposizione degli elem
  </tbody> 
 </table>
 
-### MilestonePath {#milestonepath}
+### PercorsoMilestone {#milestonepath}
 
-Un&#39;attività cardine è un indicatore di un&#39;attività che indica che si tratta di un punto chiave del progetto. Generalmente utilizzato per indicare un evento significativo come il completamento di una fase del progetto o di una serie di attività critiche. Un oggetto MilestonePath è un insieme di pietre miliari.
+Una milestone è un indicatore di un&#39;attività che indica che si tratta di un punto chiave nel progetto. Generalmente utilizzato per indicare un evento significativo, ad esempio il completamento di una fase del progetto o di una serie di attività critiche. Un oggetto MilestonePath è un insieme di milestone.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -725,7 +726,7 @@ Un&#39;attività cardine è un indicatore di un&#39;attività che indica che si 
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con un valore true se un oggetto è attivo e false se non lo è. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di digitazione e possono essere associati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di tipo Avanti da allegare ad altri oggetti.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con valore true se un oggetto è attivo e false in caso contrario. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di completamento automatico e possono essere allegati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di completamento automatico da associare ad altri oggetti.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -748,7 +749,7 @@ Un oggetto Note è un commento o un aggiornamento effettuato su un oggetto Workf
  <tbody> 
   <tr> 
    <td>Campi diretti</td> 
-   <td> <p>I campi seguenti sono stati aggiunti all’oggetto Note .</p> 
+   <td> <p>I campi seguenti sono stati aggiunti all'oggetto Note.</p> 
     <ul> 
      <li style="font-weight: bold;">proofID  </li> 
     </ul> </td> 
@@ -757,7 +758,7 @@ Un oggetto Note è un commento o un aggiornamento effettuato su un oggetto Workf
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>like</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>piace</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -765,25 +766,25 @@ Un oggetto Note è un commento o un aggiornamento effettuato su un oggetto Workf
 
 ### OpTask {#optask}
 
-Un oggetto OpTask è comunemente noto come Problema. Un problema è un elemento di lavoro che in genere indica che c&#39;è un problema che impedisce il completamento di un&#39;attività o di un progetto. Un problema può anche essere una richiesta dell&#39;Help Desk. Anche gli ordini di modifica, le richieste e i bug sono problemi.
+Un oggetto OpTask è comunemente noto come Issue. Un problema è un elemento di lavoro che in genere indica la presenza di un problema che impedisce il completamento di un&#39;attività o di un progetto. Un problema può anche essere una richiesta dell’helpdesk. Anche gli ordini di modifica, le richieste e i bug sono problemi.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td colspan="2">Campi diretti<p style="font-weight: normal;">I campi seguenti hanno aggiunto gli elementi di convalida AT_DATE_BEFORE_YEAR e AT_DATE_AFTER_YEAR. Questi valori specificano che le date sugli oggetti associati non possono essere impostate prima dell’anno 1900 o dopo il 2200.</p>
+   <td colspan="2">Campi diretti<p style="font-weight: normal;">Nei campi seguenti sono stati aggiunti i validatori AT_DATE_BEFORE_YEAR e AT_DATE_AFTER_YEAR. Questi valdator specificano che le date sugli oggetti associati non possono essere impostate prima dell'anno 1900 o dopo il 2200.</p>
     <ul>
-     <li style="font-weight: bold;">effectiveCompletionDate</li>
-     <li style="font-weight: bold;">effectiveStartDate</li>
-     <li style="font-weight: bold;">scheduledCompletionDate</li>
-     <li style="font-weight: bold;">ScheduledStartDate</li>
+     <li style="font-weight: bold;">actualCompletionDate</li>
+     <li style="font-weight: bold;">actualStartDate</li>
+     <li style="font-weight: bold;">plannedCompletionDate</li>
+     <li style="font-weight: bold;">plannedStartDate</li>
     </ul><p style="font-weight: normal;">I campi seguenti sono stati aggiunti a OpTask.</p>
     <ul>
-     <li style="font-weight: bold;"><p>kanbanBoardID </p><p style="font-weight: normal;">L'ID Workfront univoco di un oggetto Kanban Board.</p></li>
-     <li style="font-weight: bold;"><p>percentComplete</p><p style="font-weight: normal;">La percentuale di completamento è un parametro che restituisce la quantità completata di un problema, sotto forma di percentuale.</p></li>
+     <li style="font-weight: bold;"><p>kanbanBoardID </p><p style="font-weight: normal;">ID Workfront univoco di un oggetto Kanban Board.</p></li>
+     <li style="font-weight: bold;"><p>percentComplete</p><p style="font-weight: normal;">La percentuale di completamento è un parametro che restituisce l’importo completato di un’emissione, come percentuale.</p></li>
      <li style="font-weight: bold;">storyPoints</li>
-     <li style="font-weight: bold;">lavorare  </li>
+     <li style="font-weight: bold;">lavoro  </li>
     </ul></td> 
   </tr> 
   <tr> 
@@ -797,7 +798,7 @@ Un oggetto OpTask è comunemente noto come Problema. Un problema è un elemento 
    <td>Campi Ricerca</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>lavorare</p> <p style="font-weight: normal;">Rimosso</p> </li> 
+     <li style="font-weight: bold;"> <p>lavoro</p> <p style="font-weight: normal;">Rimosso</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -830,8 +831,8 @@ Un oggetto Parameter è un campo personalizzato.
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">È stato aggiunto il valore possibile TYAH (Typeahead).</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Questo campo è stato aggiunto e fa riferimento al codice oggetto di un oggetto di riferimento. I codici oggetto per tutti gli oggetti si trovano nella <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">Esplora API</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">È stato aggiunto il possibile valore TYAH (automatico).</p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Questo campo è stato aggiunto e fa riferimento al codice oggetto di un oggetto di riferimento. I codici oggetto per tutti gli oggetti si trovano nel <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -839,7 +840,7 @@ Un oggetto Parameter è un campo personalizzato.
 
 ### Portfolio {#portfolio}
 
-Un oggetto Portfolio è una raccolta di progetti che competono per le stesse risorse, in genere denaro o persone per completarle.
+Un oggetto Portfolio è una raccolta di progetti che competono per le stesse risorse, in genere denaro o persone per completarli.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -849,7 +850,7 @@ Un oggetto Portfolio è una raccolta di progetti che competono per le stesse ris
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>descrizione</p> <p style="font-weight: normal;">Aggiunta della convalida MAX_LENGTH, che specifica che la lunghezza della descrizione non supera i 4000 caratteri.</p> </li> 
+     <li style="font-weight: bold;"> <p>descrizione</p> <p style="font-weight: normal;">È stata aggiunta la convalida MAX_LENGTH che specifica che la lunghezza della descrizione non deve superare i 4000 caratteri.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -857,7 +858,7 @@ Un oggetto Portfolio è una raccolta di progetti che competono per le stesse ris
 
 ### Programma {#program}
 
-Un oggetto Program è un sottoinsieme all&#39;interno di un portfolio, dove progetti simili possono essere raggruppati insieme.
+Un oggetto Program è un sottoinsieme all&#39;interno di un portfolio, in cui è possibile raggruppare progetti simili.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -867,9 +868,9 @@ Un oggetto Program è un sottoinsieme all&#39;interno di un portfolio, dove prog
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>descrizione</p> <p style="font-weight: normal;">Aggiunta della convalida MAX_LENGTH, che specifica che la lunghezza della descrizione non supera i 4000 caratteri.</p> </li> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con un valore true se un oggetto è attivo e false se non lo è. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di digitazione e possono essere associati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di tipo Avanti da allegare ad altri oggetti.  </p> </li> 
-     <li style="font-weight: bold;"> <p>name </p> <p style="font-weight: normal;">Aggiunta della convalida MAX_LENGTH, che specifica che la lunghezza del nome non è superiore a 255 caratteri.  </p> </li> 
+     <li style="font-weight: bold;"> <p>descrizione</p> <p style="font-weight: normal;">È stata aggiunta la convalida MAX_LENGTH che specifica che la lunghezza della descrizione non deve superare i 4000 caratteri.</p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con valore true se un oggetto è attivo e false in caso contrario. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di completamento automatico e possono essere allegati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di completamento automatico da associare ad altri oggetti.  </p> </li> 
+     <li style="font-weight: bold;"> <p>name </p> <p style="font-weight: normal;">È stata aggiunta la convalida MAX_LENGTH che specifica che la lunghezza del nome non deve superare i 255 caratteri.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -884,28 +885,28 @@ Un oggetto Program è un sottoinsieme all&#39;interno di un portfolio, dove prog
 
 ### Progetto {#project}
 
-I progetti sono elementi di lavoro all’interno di Workfront e costituiscono un elemento di base principale nel modo in cui Workfront aiuta le persone a lavorare. Un oggetto Project rappresenta un gruppo di attività con un obiettivo specifico comune.
+I progetti sono elementi di lavoro all’interno di Workfront e costituiscono un elemento fondamentale nel modo in cui Workfront aiuta le persone a lavorare. Un oggetto Project rappresenta un gruppo di attività con un obiettivo comune specifico.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td colspan="2">Campi diretti<p style="font-weight: normal;">I campi seguenti hanno aggiunto gli elementi di convalida AT_DATE_BEFORE_YEAR e AT_DATE_AFTER_YEAR. Questi valori specificano che le date sugli oggetti associati non possono essere impostate prima dell’anno 1900 o dopo il 2200.</p>
+   <td colspan="2">Campi diretti<p style="font-weight: normal;">Nei campi seguenti sono stati aggiunti i validatori AT_DATE_BEFORE_YEAR e AT_DATE_AFTER_YEAR. Questi valdator specificano che le date sugli oggetti associati non possono essere impostate prima dell'anno 1900 o dopo il 2200.</p>
     <ul>
-     <li style="font-weight: bold;">effectiveCompletionDate</li>
-     <li style="font-weight: bold;">effectiveStartDate</li>
-     <li style="font-weight: bold;">scheduledCompletionDate</li>
-     <li style="font-weight: bold;">ScheduledStartDate</li>
-    </ul><p style="font-weight: normal;">I campi seguenti sono stati aggiunti all’API pubblica per la trasparenza nel calcolo dell’EAC (Stima al completamento).</p>
+     <li style="font-weight: bold;">actualCompletionDate</li>
+     <li style="font-weight: bold;">actualStartDate</li>
+     <li style="font-weight: bold;">plannedCompletionDate</li>
+     <li style="font-weight: bold;">plannedStartDate</li>
+    </ul><p style="font-weight: normal;">I seguenti campi sono stati aggiunti all’API pubblica per la trasparenza nel calcolo di EAC (Stima al completamento).</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Noto anche come Valore realizzato, il BCWP (Budgeted Cost of Work Performed) è una metrica di prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività effettivamente completata al momento del calcolo di questa metrica. Per le attività, BCWP = percentuale effettiva di completamento x budget attività. Per i progetti, BCWP = SUM (valori BCWP di tutte le attività principali e individuali).</p></li>
-     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Noto anche come Valore pianificato, il Costo preventivato del lavoro programmato (BCWS) è una metrica di prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività che avrebbe dovuto essere completato al momento del calcolo di questa metrica. Per le attività, BCWS = percentuale di completamento pianificata x budget attività. Per i progetti, BCWS = SUM (valori BCWS di tutte le attività principali e individuali).</p></li>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Il valore BCWP (Costo preventivato del lavoro eseguito, Budgeted Cost of Work Performed) è una metrica delle prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività effettivamente completata al momento del calcolo di questa metrica. Per le attività, BCWP = Percentuale di completamento effettiva x Budget attività. Per i progetti, BCWP = SUM(valori BCWP di tutte le attività padre e di quelle singole).</p></li>
+     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Anche noto come valore pianificato, il costo preventivato del lavoro programmato (BCWS, Budgeted Cost of Work Scheduled) è una metrica delle prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività che avrebbe dovuto essere completata al momento del calcolo di questa metrica. Per le attività, BCWS = Percentuale di completamento pianificata x Budget attività. Per i progetti, BCWS = SUM(valori BCWS di tutte le attività padre e singole).</p></li>
     </ul><p style="font-weight: normal;">I campi seguenti hanno aggiunto il flag CURRENCY</p>
     <ul>
      <li style="font-weight: bold;">projectBudgetedCost</li>
      <li style="font-weight: bold;">projectNetValue</li>
-    </ul><p style="font-weight: normal;">Il campo seguente è stato rimosso dall'oggetto Project.</p>
+    </ul><p style="font-weight: normal;">Il seguente campo è stato rimosso dall'oggetto Project.</p>
     <ul>
      <li style="font-weight: bold;">timelineExceptionInfo</li>
     </ul></td> 
@@ -920,9 +921,9 @@ I progetti sono elementi di lavoro all’interno di Workfront e costituiscono un
  </tbody> 
 </table>
 
-### Approvazione bozza {#proofapproval}
+### ProofApproval {#proofapproval}
 
-Un oggetto ProofApproved rappresenta un&#39;approvazione direttamente connessa a una bozza.
+Un oggetto ProofApproval rappresenta un&#39;approvazione direttamente connessa a una bozza.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -932,15 +933,15 @@ Un oggetto ProofApproved rappresenta un&#39;approvazione direttamente connessa a
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isAwaitDecision</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con un valore true se una bozza è in attesa di una decisione e false in caso contrario.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isAwaitDecision</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano che ha il valore true se una bozza è in attesa di una decisione e false in caso contrario.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### QueueDef {#queuedef}
+### DefCoda {#queuedef}
 
-Un oggetto QueueDef rappresenta una coda, ovvero un progetto pubblicato nell&#39;area Help Desk per consentire agli utenti di inviare i Problemi ad esso.
+Un oggetto QueueDef rappresenta una coda, ovvero un progetto che è stato pubblicato nell&#39;area Help Desk per consentire agli utenti di inviare i problemi.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -948,7 +949,7 @@ Un oggetto QueueDef rappresenta una coda, ovvero un progetto pubblicato nell&#39
  <tbody> 
   <tr> 
    <td>Campi diretti</td> 
-   <td> <p>I campi seguenti hanno aggiunto il possibile valore BUDGETING_INFORMATION. Questo consente agli utenti con l'autorizzazione di modificare le priorità e le ore di budget nel planner.</p> 
+   <td> <p>I campi seguenti hanno aggiunto il possibile valore BUDGETING_INFORMATION. Questo consente agli utenti con l’autorizzazione di modificare le priorità e le ore preventivate nel planner.</p> 
     <ul> 
      <li style="font-weight: bold;">requestorCoreAction</li> 
      <li style="font-weight: bold;">requestorForbiddenActions</li> 
@@ -957,9 +958,9 @@ Un oggetto QueueDef rappresenta una coda, ovvero un progetto pubblicato nell&#39
  </tbody> 
 </table>
 
-### TempoRiservato {#reservedtime}
+### ReservedTime {#reservedtime}
 
-Un oggetto ReservedTime rappresenta i giorni specificati nell&#39;ora personale di un utente, indicando che l&#39;utente non sarà disponibile per il lavoro.
+Un oggetto ReservedTime rappresenta i giorni specificati nell&#39;Ora personale di un utente, a indicare che l&#39;utente non sarà disponibile per il lavoro.
 
 La risorsa ReservedTime ha aggiunto il flag REPORTABLE.
 
@@ -974,7 +975,7 @@ La risorsa ReservedTime ha aggiunto il flag REPORTABLE.
      <li style="font-weight: bold;">endDate</li> 
      <li style="font-weight: bold;">extRefID</li> 
      <li style="font-weight: bold;">startDate </li> 
-    </ul> <p>Il campo seguente è stato rimosso dall'oggetto ReservedTime.</p> 
+    </ul> <p>Il seguente campo è stato rimosso dall'oggetto ReservedTime.</p> 
     <ul> 
      <li style="font-weight: bold;">taskID</li> 
     </ul> </td> 
@@ -998,13 +999,13 @@ La risorsa ReservedTime ha aggiunto il flag REPORTABLE.
 
 ### ResourcePlannerFilter {#resourceplannerfilter}
 
-Un oggetto ResourcePlannerFilter è un insieme di regole che determinano quali elementi verranno visualizzati nel Planner risorse.
+Un oggetto ResourcePlannerFilter è un insieme di regole che determinano gli elementi da visualizzare nella Programmazione delle risorse.
 
 La risorsa ResourcePlannerFilter ha aggiunto il flag SHARABLE. Non sono state apportate altre modifiche all&#39;oggetto.
 
 ### Rischio {#risk}
 
-Un oggetto Risk rappresenta un possibile evento che può impedire il completamento di un progetto nei tempi stabiliti o entro il budget previsto. Si aggiungono rischi ai progetti nella fase di pianificazione per individuare potenziali ostacoli prima dell&#39;approvazione di qualsiasi lavoro.
+Un oggetto Rischio rappresenta un possibile evento che può impedire il completamento di un progetto in tempo o entro i limiti del budget. I progetti in fase di pianificazione presentano rischi aggiuntivi per individuare potenziali ostacoli prima dell’approvazione di qualsiasi lavoro.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1012,19 +1013,19 @@ Un oggetto Risk rappresenta un possibile evento che può impedire il completamen
  <tbody> 
   <tr> 
    <td>Campi diretti</td> 
-   <td> <p>Nell’oggetto Rischio sono stati aggiunti i campi seguenti:</p> 
+   <td> <p>I campi seguenti sono stati aggiunti all'oggetto Risk:</p> 
     <ul> 
-     <li style="font-weight: bold;"> <p>enterByID</p> <p style="font-weight: normal;">ID dell’utente che ha creato l’oggetto in origine.</p> </li> 
+     <li style="font-weight: bold;"> <p>enteredByID</p> <p style="font-weight: normal;">ID dell'utente che ha creato l'oggetto.</p> </li> 
      <li> <p style="font-weight: bold;">entryDate</p> <p>Data in cui un oggetto è stato inviato da un utente in Workfront.</p> </li> 
-     <li> <p style="font-weight: bold;">lastUpdateDate</p> <p>Il parametro Data ultimo aggiornamento restituirà la data in cui è stato effettuato l’ultimo aggiornamento a un oggetto,</p> </li> 
-     <li> <p style="font-weight: bold;">lastUpdatedByID </p> <p>Ultimo aggiornamento per ID è un parametro che restituisce l’ID utente dell’ultimo utente che ha aggiornato l’oggetto.  </p> </li> 
+     <li> <p style="font-weight: bold;">lastUpdateDate</p> <p>Il parametro Last Update Date restituisce la data in cui è stato effettuato l'ultimo aggiornamento di un oggetto.</p> </li> 
+     <li> <p style="font-weight: bold;">lastUpdatedByID </p> <p>Last Updated By ID è un parametro che restituirà l'ID utente dell'ultimo utente che ha aggiornato l'oggetto.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Campi di riferimento</td> 
-   <td> <p style="font-weight: normal;">I seguenti campi di riferimento sono stati aggiunti all'oggetto RIsk.</p> 
+   <td> <p style="font-weight: normal;">I campi di riferimento seguenti sono stati aggiunti all'oggetto RIsk.</p> 
     <ul> 
-     <li style="font-weight: bold;">enterBy</li> 
+     <li style="font-weight: bold;">enteredBy</li> 
      <li style="font-weight: bold;">lastUpdatedBy  </li> 
     </ul> </td> 
   </tr> 
@@ -1033,7 +1034,7 @@ Un oggetto Risk rappresenta un possibile evento che può impedire il completamen
 
 ### ScheduledReport {#scheduledreport}
 
-Un oggetto ScheduledReport rappresenta un report configurato per la distribuzione.
+Un oggetto ScheduledReport rappresenta un report configurato per la consegna.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1056,7 +1057,7 @@ Un oggetto ScheduledReport rappresenta un report configurato per la distribuzion
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Un oggetto ScoreCardQuestion rappresenta una domanda che è stata aggiunta a una scorecard. Queste domande sono solitamente determinate dal gestore del Portfolio e le loro risposte consentono al manager di comprendere quanto un progetto sia in linea con gli obiettivi del portfolio.
+Un oggetto ScoreCardQuestion rappresenta una domanda aggiunta a una scorecard. Queste domande sono solitamente determinate dal manager del Portfolio e le loro risposte consentono al manager di capire quanto un progetto sia in linea con gli obiettivi del portfolio.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1066,7 +1067,7 @@ Un oggetto ScoreCardQuestion rappresenta una domanda che è stata aggiunta a una
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">È stato aggiunto il valore possibile TYAH (Typeahead)  </p> </li> 
+     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">È stato aggiunto il possibile valore TYAH (automatico)  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1081,25 +1082,25 @@ Un oggetto Task rappresenta un elemento di lavoro che deve essere eseguito come 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td colspan="2">Campi diretti<p style="font-weight: normal;">I campi seguenti hanno aggiunto gli elementi di convalida AT_DATE_BEFORE_YEAR e AT_DATE_AFTER_YEAR. Questi valori specificano che le date sugli oggetti associati non possono essere impostate prima dell’anno 1900 o dopo il 2200.</p>
+   <td colspan="2">Campi diretti<p style="font-weight: normal;">Nei campi seguenti sono stati aggiunti i validatori AT_DATE_BEFORE_YEAR e AT_DATE_AFTER_YEAR. Questi valdator specificano che le date sugli oggetti associati non possono essere impostate prima dell'anno 1900 o dopo il 2200.</p>
     <ul>
-     <li style="font-weight: bold;">effectiveCompletionDate</li>
-     <li style="font-weight: bold;">effectiveStartDate</li>
-     <li style="font-weight: bold;">ConstrDate</li>
-     <li style="font-weight: bold;">scheduledCompletionDate</li>
-     <li style="font-weight: bold;">ScheduledStartDate</li>
-    </ul><p style="font-weight: normal;">I campi seguenti sono stati aggiunti all’API pubblica per la trasparenza nel calcolo dell’EAC (Stima al completamento).</p>
+     <li style="font-weight: bold;">actualCompletionDate</li>
+     <li style="font-weight: bold;">actualStartDate</li>
+     <li style="font-weight: bold;">constraintDate</li>
+     <li style="font-weight: bold;">plannedCompletionDate</li>
+     <li style="font-weight: bold;">plannedStartDate</li>
+    </ul><p style="font-weight: normal;">I seguenti campi sono stati aggiunti all’API pubblica per la trasparenza nel calcolo di EAC (Stima al completamento).</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Noto anche come Valore realizzato, il BCWP (Budgeted Cost of Work Performed) è una metrica di prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività effettivamente completata al momento del calcolo di questa metrica. Per le attività, BCWP = percentuale effettiva di completamento x budget attività. Per i progetti, BCWP = SUM (valori BCWP di tutte le attività principali e individuali).</p></li>
-     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Noto anche come Valore pianificato, il Costo preventivato del lavoro programmato (BCWS) è una metrica di prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività che avrebbe dovuto essere completato al momento del calcolo di questa metrica. Per le attività, BCWS = percentuale di completamento pianificata x budget attività. Per i progetti, BCWS = SUM (valori BCWS di tutte le attività principali e individuali).</p></li>
-    </ul><p style="font-weight: normal;">I campi seguenti hanno aggiunto il possibile valore ET. Questo valore rappresenta l'unità di tempo trascorso mesi, che si riferisce a mesi senza considerare fine settimana o giorni festivi.</p>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Il valore BCWP (Costo preventivato del lavoro eseguito, Budgeted Cost of Work Performed) è una metrica delle prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività effettivamente completata al momento del calcolo di questa metrica. Per le attività, BCWP = Percentuale di completamento effettiva x Budget attività. Per i progetti, BCWP = SUM(valori BCWP di tutte le attività padre e di quelle singole).</p></li>
+     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Anche noto come valore pianificato, il costo preventivato del lavoro programmato (BCWS, Budgeted Cost of Work Scheduled) è una metrica delle prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività che avrebbe dovuto essere completata al momento del calcolo di questa metrica. Per le attività, BCWS = Percentuale di completamento pianificata x Budget attività. Per i progetti, BCWS = SUM(valori BCWS di tutte le attività padre e singole).</p></li>
+    </ul><p style="font-weight: normal;">Nei campi seguenti è stato aggiunto il possibile valore ET. Questo valore rappresenta l’unità di tempo Mesi trascorsi, che si riferisce ai mesi indipendentemente dai fine settimana o dalle festività.</p>
     <ul>
      <li style="font-weight: bold;">durationUnit</li>
      <li style="font-weight: bold;">workUnit</li>
-    </ul><p style="font-weight: normal;">Il campo seguente è stato rimosso dall'oggetto Task.</p>
+    </ul><p style="font-weight: normal;">Il seguente campo è stato rimosso dall'oggetto Task.</p>
     <ul>
-     <li style="font-weight: bold;">reserveTimeID</li>
-    </ul><p style="font-weight: normal;">Il campo seguente è stato aggiunto all’oggetto Task.</p>
+     <li style="font-weight: bold;">reservTimeID</li>
+    </ul><p style="font-weight: normal;">Il seguente campo è stato aggiunto all'oggetto Task.</p>
     <ul>
      <li style="font-weight: bold;">storyPoints</li>
     </ul></td> 
@@ -1108,7 +1109,7 @@ Un oggetto Task rappresenta un elemento di lavoro che deve essere eseguito come 
    <td>Campi di riferimento</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>reserveTime</p> <p style="font-weight: normal;">Rimosso  </p> </li> 
+     <li style="font-weight: bold;"> <p>reservTime</p> <p style="font-weight: normal;">Rimosso  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1123,7 +1124,7 @@ Un oggetto Task rappresenta un elemento di lavoro che deve essere eseguito come 
 
 ### Team {#team}
 
-Un oggetto Team è un insieme di utenti che possono essere assegnati a un elemento di lavoro.
+Un oggetto Team è un insieme di Utenti che possono essere assegnati a un elemento di lavoro.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1133,9 +1134,9 @@ Un oggetto Team è un insieme di utenti che possono essere assegnati a un elemen
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>agileEstimateType </p> <p style="font-weight: normal;">Questo campo è stato aggiunto all'oggetto Team. Tipo di stima dell'altezza determina il modo in cui viene stimato il carico di lavoro di un brano. Se stimato in ore, questo è il numero di ore pianificate aggiunte alla storia. Se stimato in punti, ogni punto aggiungerà al brano un numero di ore pianificate in base a come vengono impostati i punti (il valore predefinito è 8 ore). I valori possibili per Tipo di stima Agile sono:</p> 
+     <li style="font-weight: bold;"> <p>agileEstimateType </p> <p style="font-weight: normal;">Questo campo è stato aggiunto all'oggetto Team. Il tipo di stima agile determina come viene stimato il carico di lavoro di una storia. Se stimato in ore, si tratta del numero di ore pianificate che vengono aggiunte alla storia. Se stimato in punti, ogni punto aggiungerà un numero di ore pianificate alla storia in base a come vengono impostati i punti (il valore predefinito è 8 ore). I valori possibili per il tipo di stima Agile sono:</p> 
       <ul> 
-       <li style="font-weight: normal;"> STORY_POINTS (punti della storia)</li> 
+       <li style="font-weight: normal;"> STORY_POINTS (Punti storia)</li> 
        <li style="font-weight: normal;">ORE (ore)</li> 
        <li style="font-weight: normal;">LEGACY_POINTS (ore come punti)  </li> 
       </ul> </li> 
@@ -1146,7 +1147,7 @@ Un oggetto Team è un insieme di utenti che possono essere assegnati a un elemen
 
 ### Modello {#template}
 
-Un oggetto Template rappresenta un pattern per un progetto. I progetti possono essere creati da Modelli per risparmiare tempo. Un modello contiene un team e attività, che verranno copiati in un progetto quando viene utilizzato il modello.
+Un oggetto Template rappresenta un pattern per un progetto. I progetti possono essere creati dai modelli per risparmiare tempo. Un modello contiene un team e delle attività, che verranno copiate in un progetto quando viene utilizzato il modello.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1156,14 +1157,14 @@ Un oggetto Template rappresenta un pattern per un progetto. I progetti possono e
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con un valore true se un oggetto è attivo e false se non lo è. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di digitazione e possono essere associati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di tipo Avanti da allegare ad altri oggetti.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Questo campo è stato aggiunto ed è un parametro booleano con valore true se un oggetto è attivo e false in caso contrario. Gli oggetti impostati su Attivo vengono visualizzati nei menu a discesa e nei campi di completamento automatico e possono essere allegati ad altri oggetti. Gli oggetti non impostati su Attivo non sono visibili nei menu a discesa e nei campi di completamento automatico da associare ad altri oggetti.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allPriorità</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>allPriorities</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1176,7 +1177,7 @@ Un oggetto Template rappresenta un pattern per un progetto. I progetti possono e
  </tbody> 
 </table>
 
-### Assegnazione modello {#templateassignment}
+### AssegnazioneModello {#templateassignment}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A TemplateAssignment object represents the connection between a Template and the User, Team, or Group it is assigned to.</p>
@@ -1190,15 +1191,15 @@ Un oggetto Template rappresenta un pattern per un progetto. I progetti possono e
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>workUnit</p> <p style="font-weight: normal;">È stato aggiunto il possibile valore ET. Questo valore rappresenta l'unità di tempo trascorso mesi, che si riferisce a mesi senza considerare fine settimana o giorni festivi.  </p> </li> 
+     <li style="font-weight: bold;"> <p>workUnit</p> <p style="font-weight: normal;">È stato aggiunto il possibile valore ET. Questo valore rappresenta l’unità di tempo Mesi trascorsi, che si riferisce ai mesi indipendentemente dai fine settimana o dalle festività.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### AttivitàModello {#templatetask}
+### TemplateTask {#templatetask}
 
-Un oggetto TemplateTask rappresenta un oggetto Task che fa parte di un modello. Le attività modello diventano attività nel progetto in cui viene utilizzato il modello.
+Un oggetto TemplateTask rappresenta un oggetto Task che fa parte di un oggetto Template. Le Attività Modello diventano Attività nel Progetto in cui viene utilizzato il Modello.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1206,7 +1207,7 @@ Un oggetto TemplateTask rappresenta un oggetto Task che fa parte di un modello. 
  <tbody> 
   <tr> 
    <td>Campi diretti</td> 
-   <td> <p style="font-weight: normal;">I campi seguenti hanno aggiunto il possibile valore ET. Questo valore rappresenta l'unità di tempo trascorso mesi, che si riferisce a mesi senza considerare fine settimana o giorni festivi.</p> 
+   <td> <p style="font-weight: normal;">Nei campi seguenti è stato aggiunto il possibile valore ET. Questo valore rappresenta l’unità di tempo Mesi trascorsi, che si riferisce ai mesi indipendentemente dai fine settimana o dalle festività.</p> 
     <ul> 
      <li style="font-weight: bold;">durationUnit</li> 
      <li style="font-weight: bold;">workUnit</li> 
@@ -1216,7 +1217,7 @@ Un oggetto TemplateTask rappresenta un oggetto Task che fa parte di un modello. 
    <td>Campi raccolta</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>allPriorità</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
+     <li style="font-weight: bold;"> <p>allPriorities</p> <p style="font-weight: normal;">Aggiunta completata</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1224,7 +1225,7 @@ Un oggetto TemplateTask rappresenta un oggetto Task che fa parte di un modello. 
 
 ### Scheda orario {#timesheet}
 
-Un oggetto Scheda attività rappresenta una scheda attività virtuale che consente agli utenti di immettere le ore effettive lavorate per attività, progetti e tipi di orario comune.
+Un oggetto Timesheet rappresenta un foglio ore virtuale che consente agli utenti di immettere le ore effettivamente lavorate per le attività, i progetti e i tipi di ore di lavoro comune.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1252,12 +1253,12 @@ Un oggetto Scheda attività rappresenta una scheda attività virtuale che consen
    <td>Campi diretti</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>updateType</p> <p style="font-weight: normal;">È stato aggiunto il valore possibile referenceObjectCustomData (enum.updatetypeenum.referenceoggtcustomdata)  </p> </li> 
+     <li style="font-weight: bold;"> <p>updateType</p> <p style="font-weight: normal;">È stato aggiunto il possibile valore referenceObjectCustomData (enum.updatetypeenum.referenceobjectcustomdata)  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Query</td> 
-   <td> <p style="font-weight: normal;">Le seguenti query sono state aggiunte all'oggetto Update.</p> 
+   <td> <p style="font-weight: normal;">Le query seguenti sono state aggiunte all'oggetto Update.</p> 
     <ul> 
      <li style="font-weight: bold;">objectUpdatesMobile</li> 
      <li style="font-weight: bold;">updateThreadMobile</li> 
@@ -1289,7 +1290,7 @@ Un oggetto Scheda attività rappresenta una scheda attività virtuale che consen
   </tr> 
   <tr> 
    <td>Azioni</td> 
-   <td> <p style="font-weight: normal;">Le azioni seguenti sono state aggiunte all’oggetto User .</p> 
+   <td> <p style="font-weight: normal;">Le azioni seguenti sono state aggiunte all'oggetto User.</p> 
     <ul> 
      <li style="font-weight: bold;">hasGrantLoginAsAccess</li> 
      <li style="font-weight: bold;">isUserAdmin</li> 
@@ -1305,7 +1306,7 @@ Un oggetto Scheda attività rappresenta una scheda attività virtuale che consen
  </tbody> 
 </table>
 
-### NoteUtente {#usernote}
+### NotaUtente {#usernote}
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1313,10 +1314,10 @@ Un oggetto Scheda attività rappresenta una scheda attività virtuale che consen
  <tbody> 
   <tr> 
    <td>Azioni</td> 
-   <td> <p style="font-weight: normal;">Le azioni seguenti sono state aggiunte all’oggetto User .</p> 
+   <td> <p style="font-weight: normal;">Le azioni seguenti sono state aggiunte all'oggetto User.</p> 
     <ul> 
-     <li style="font-weight: bold;">confirmMyNotifications</li> 
-     <li style="font-weight: bold;">unknownAllObjectsTypeCount  </li> 
+     <li style="font-weight: bold;">acknowledledgeMyNotifications</li> 
+     <li style="font-weight: bold;">unacknowledgedAllObjectsTypeCount  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1331,32 +1332,32 @@ Un oggetto Scheda attività rappresenta una scheda attività virtuale che consen
 
 ### Lavoro  {#work}
 
-Un oggetto Work è un&#39;interfaccia comune ereditata da Task e OpTask e condivide il codice comune tra i due.
+Un oggetto Work è un&#39;interfaccia comune ereditata sia da Task che da OpTask e condivide il codice comune tra i due.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td colspan="2">Campi diretti<p style="font-weight: normal;">I campi seguenti hanno aggiunto gli elementi di convalida AT_DATE_BEFORE_YEAR e AT_DATE_AFTER_YEAR. Questi valori specificano che le date sugli oggetti associati non possono essere impostate prima dell’anno 1900 o dopo il 2200.</p>
+   <td colspan="2">Campi diretti<p style="font-weight: normal;">Nei campi seguenti sono stati aggiunti i validatori AT_DATE_BEFORE_YEAR e AT_DATE_AFTER_YEAR. Questi valdator specificano che le date sugli oggetti associati non possono essere impostate prima dell'anno 1900 o dopo il 2200.</p>
     <ul>
-     <li style="font-weight: bold;">effectiveCompletionDate</li>
-     <li style="font-weight: bold;">effectiveStartDate</li>
-     <li style="font-weight: bold;">ConstrDate</li>
-     <li style="font-weight: bold;">scheduledCompletionDate</li>
-     <li style="font-weight: bold;">ScheduledStartDate</li>
-    </ul><p style="font-weight: normal;">I campi seguenti sono stati aggiunti all’API pubblica per la trasparenza nel calcolo dell’EAC (Stima al completamento).</p>
+     <li style="font-weight: bold;">actualCompletionDate</li>
+     <li style="font-weight: bold;">actualStartDate</li>
+     <li style="font-weight: bold;">constraintDate</li>
+     <li style="font-weight: bold;">plannedCompletionDate</li>
+     <li style="font-weight: bold;">plannedStartDate</li>
+    </ul><p style="font-weight: normal;">I seguenti campi sono stati aggiunti all’API pubblica per la trasparenza nel calcolo di EAC (Stima al completamento).</p>
     <ul>
-     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Noto anche come Valore realizzato, il BCWP (Budgeted Cost of Work Performed) è una metrica di prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività effettivamente completata al momento del calcolo di questa metrica. Per le attività, BCWP = percentuale effettiva di completamento x budget attività. Per i progetti, BCWP = SUM (valori BCWP di tutte le attività principali e individuali).</p></li>
-     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Noto anche come Valore pianificato, il Costo preventivato del lavoro programmato (BCWS) è una metrica di prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività che avrebbe dovuto essere completato al momento del calcolo di questa metrica. Per le attività, BCWS = percentuale di completamento pianificata x budget attività. Per i progetti, BCWS = SUM (valori BCWS di tutte le attività principali e individuali).</p></li>
-    </ul><p style="font-weight: normal;">I campi seguenti hanno aggiunto il possibile valore ET. Questo valore rappresenta l'unità di tempo trascorso mesi, che si riferisce a mesi senza considerare fine settimana o giorni festivi.</p>
+     <li><p style="font-weight: bold;">bcwp</p><p style="font-weight: normal;">Il valore BCWP (Costo preventivato del lavoro eseguito, Budgeted Cost of Work Performed) è una metrica delle prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività effettivamente completata al momento del calcolo di questa metrica. Per le attività, BCWP = Percentuale di completamento effettiva x Budget attività. Per i progetti, BCWP = SUM(valori BCWP di tutte le attività padre e di quelle singole).</p></li>
+     <li><p style="font-weight: bold;">bcws</p><p style="font-weight: normal;">Anche noto come valore pianificato, il costo preventivato del lavoro programmato (BCWS, Budgeted Cost of Work Scheduled) è una metrica delle prestazioni del progetto che rappresenta il costo preventivato dell'importo dell'attività che avrebbe dovuto essere completata al momento del calcolo di questa metrica. Per le attività, BCWS = Percentuale di completamento pianificata x Budget attività. Per i progetti, BCWS = SUM(valori BCWS di tutte le attività padre e singole).</p></li>
+    </ul><p style="font-weight: normal;">Nei campi seguenti è stato aggiunto il possibile valore ET. Questo valore rappresenta l’unità di tempo Mesi trascorsi, che si riferisce ai mesi indipendentemente dai fine settimana o dalle festività.</p>
     <ul>
      <li style="font-weight: bold;">durationUnit</li>
      <li style="font-weight: bold;">workUnit</li>
-    </ul><p style="font-weight: normal;">Il campo seguente è stato rimosso dall'oggetto Work.</p>
+    </ul><p style="font-weight: normal;">Il seguente campo è stato rimosso dall'oggetto Lavoro.</p>
     <ul>
-     <li style="font-weight: bold;">reserveTimeID</li>
-    </ul><p style="font-weight: normal;">Il campo seguente è stato aggiunto all’oggetto Work.</p>
+     <li style="font-weight: bold;">reservTimeID</li>
+    </ul><p style="font-weight: normal;">Il seguente campo è stato aggiunto all'oggetto Work.</p>
     <ul>
      <li style="font-weight: bold;">storyPoints</li>
     </ul></td> 
@@ -1365,7 +1366,7 @@ Un oggetto Work è un&#39;interfaccia comune ereditata da Task e OpTask e condiv
    <td>Campi di riferimento</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>reserveTime</p> <p style="font-weight: normal;">Rimosso  </p> </li> 
+     <li style="font-weight: bold;"> <p>reservTime</p> <p style="font-weight: normal;">Rimosso  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

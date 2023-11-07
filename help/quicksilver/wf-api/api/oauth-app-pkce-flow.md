@@ -5,8 +5,9 @@ title: Utilizzo del flusso PKCE per le applicazioni OAuth 2
 description: Utilizzo del flusso PKCE per le applicazioni OAuth 2
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 0%

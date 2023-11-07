@@ -1,105 +1,106 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Aggiornamenti alla versione 8 dell’API
-description: 'Con questa versione dell’API Adobe Workfront sono state aggiornate le seguenti risorse esistenti. Per visualizzare le risorse nuove della versione 8, consulta Novità della versione 8 dell’API. Le modifiche apportate a una risorsa sono indicate nel modo seguente: MODIFICA ME.'
+title: Aggiornamenti a API versione 8
+description: 'Le seguenti risorse esistenti sono state aggiornate con questa versione dell’API di Adobe Workfront. Per visualizzare le risorse nuove rispetto alla versione 8, consulta Novità dell’API versione 8. Le modifiche apportate a una risorsa sono indicate nel modo seguente: MODIFICAMI.'
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 37%
+source-wordcount: '529'
+ht-degree: 31%
 
 ---
 
-# Aggiornamenti alla versione 8 dell’API
+# Aggiornamenti a API versione 8
 
 ## Risorse aggiornate
 
-Con questa versione dell’API Adobe Workfront sono state aggiornate le seguenti risorse esistenti. Per visualizzare le risorse nuove della versione 8, consulta [Novità dell’API versione 8](../../wf-api/api/new-api-version-8.md). Le modifiche apportate a una risorsa vengono indicate nel modo seguente:
+Le seguenti risorse esistenti sono state aggiornate con questa versione dell’API di Adobe Workfront. Per visualizzare le risorse nuove rispetto alla versione 8, consulta [Novità della versione 8 dell’API](../../wf-api/api/new-api-version-8.md). Le modifiche apportate a una risorsa sono indicate nel modo seguente:
 
-* Le aggiunte sono semplicemente elencate
-* Le rimozione sono indicate con testo barrato
-* Le modifiche sono riportate nella nota dopo la tabella
+* Le aggiunte vengono semplicemente elencate
+* Le rimozioni sono indicate con testo barrato
+* Le modifiche vengono annotate nella nota dopo la tabella
 
 ### AccessRequest
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| azione¹  |   |   |   |   |   |   |
+| azione<sup>1</sup>  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup> Modifiche ai valori possibili
 
-### AccessRule¹ 
+### AccessRule<sup>1</sup> 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| coreAction²  |   |   |   |   |   |   |
-| ForbiddenActions² |   |   |   |   |   |   |
-| secondarioActions² |   |   |   |   |   |   |
+| coreAction<sup>2</sup>  |   |   |   |   |   |   |
+| forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
+| secondaryActions<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flag rimosso: SEGNALABILE\
-² Modifiche ai possibili valori
+<sup>1</sup> Flag rimosso: SEGNALABILE\
+<sup>2</sup> Modifiche ai valori possibili
 
 ### Approval
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  | resourcePools |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  | resourcePools |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori\
-Campi aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE
+<sup>1</sup>Modifiche ai valori possibili\
+<sup>2</sup>Flag aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE
 
 ### Assegnazione
 
 |   |   |   |   | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|---|---|---|---|
 |   |   |   |   | assignUserToRoleOnTasks | getAssignAssignmentsForTasks  |   |   |   |   |   |
-|   |   |   |   | swapUsersOnTasks | getUnassignAssignmentsForTasks |   |   |   |   |   |
+|   |   |   |   | swapUsersOnTasks | getUnassignedAssignmentsForTasks |   |   |   |   |   |
 |   |   |   |   | unassignUserFromTasks |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Cliente
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |   |   |   | getPackagingOptionValue |   |   |
-| proofPlan¹ |   |   |   | isPackagingOptionEnabled |   |   |
+| bizRuleExclusions<sup>1</sup> |   |   |   | getPackagingOptionValue |   |   |
+| proofPlan<sup>1</sup> |   |   |   | isPackagingOptionEnabled |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup>Modifiche ai valori possibili
 
-### CustomerPreferences
-
-| Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
-|---|---|---|---|---|---|---|
-| name¹ |   |   |   |   |   |   |
-
-{style=&quot;table-layout:auto&quot;}
-
-¹ Modifiche ai possibili valori
-
-### Approvazione documento
+### PreferenzeCliente
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID¹ |   |   |   |   |   |   |
+| nome<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flag aggiunto: NOT_FILTERABLE
+<sup>1</sup>Modifiche ai valori possibili
+
+### DocumentApproval
+
+| Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
+|---|---|---|---|---|---|---|
+| ID<sup>1</sup> |   |   |   |   |   |   |
+
+{style="table-layout:auto"}
+
+<sup>1</sup>Flag aggiunto: NOT_FILTERABLE
 
 ### DocumentVersion
 
@@ -107,7 +108,7 @@ Campi aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE
 |---|---|---|---|---|---|---|
 | activeProofStages |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Gruppo
 
@@ -115,17 +116,17 @@ Campi aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE
 |---|---|---|---|---|---|---|
 |   |   | proprietari |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### HourType
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| appGlobalID¹ |   |   |   |   |   |   |
+| appGlobalID<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flag aggiunto: NOT_FILTERABLE
+<sup>1</sup>Flag aggiunto: NOT_FILTERABLE
 
 ### Iterazione
 
@@ -133,7 +134,7 @@ Campi aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE
 |---|---|---|---|---|---|---|
 |   |   |   |   | moveStories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Come
 
@@ -141,85 +142,85 @@ Campi aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Nota
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditType¹ |   |   |   |   |   |   |
+| auditType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup>Modifiche ai valori possibili
 
 ### OpTask
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
 | backlogOrder | iterazione |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | stima |   |   |   |   |   |   |
 | iterationID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup>Modifiche ai valori possibili
 
 ### Portfolio
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup>Modifiche ai valori possibili
 
 ### Programma
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup>Modifiche ai valori possibili
 
 ### Progetto
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
+| auditTypes<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup>Modifiche ai valori possibili
 
-### Approvazione bozza
+### ProofApproval
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | approverID | approvatore |   |   |   |   |   |
 | documentVersionID | documentVersion |   |   |   |   |   |
-| ID¹ |   |   |   |   |   |   |
+| ID<sup>1</sup> |   |   |   |   |   |   |
 | proofCreationDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Flag aggiunto: NOT_FILTERABLE
+<sup>1</sup>Flag aggiunto: NOT_FILTERABLE
 
-### QueueDef
+### DefCoda
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| requestorCoreAction¹ |   |   |   |   |   |   |
-| requestorForbiddenActions¹ |   |   |   |   |   |   |
+| requestorCoreAction<sup>1</sup> |   |   |   |   |   |   |
+| requestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup>Modifiche ai valori possibili
 
 ### Trfa
 
@@ -229,15 +230,15 @@ Campi aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE
 | name |   |   |   |   |   |   |
 | startDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### TempoRiservato
+### ReservedTime
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | extRefID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourceManager
 
@@ -245,19 +246,19 @@ Campi aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE
 |---|---|---|---|---|---|---|
 | projectPriority |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Attività
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   | allTasksOnIterations  |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup>Modifiche ai valori possibili
 
 ### Team
 
@@ -269,7 +270,7 @@ Campi aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE
 | teamStoryBoardIssueStatuses |   |   |   |   |   |   |
 | wipLimit |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Modello
 
@@ -277,27 +278,27 @@ Campi aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE
 |---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### AttivitàModello
+### TemplateTask
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |   |   |   |   |   |   |
+| auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup>Modifiche ai valori possibili
 
 Aggiorna
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| updateType¹ | `updateEndorsement` |   |   |   |   |   |
+| updateType<sup>1</sup> | `updateEndorsement` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup>Modifiche ai valori possibili
 
 ### Utente
 
@@ -305,32 +306,32 @@ Aggiorna
 |---|---|---|---|---|---|---|---|---|
 |   |   | resourcePools |   |   |   |   |   |   |
 |   |   | userGroups |   |   |   |   |   |   |
-|   |   | userRuoli |   |   |   |   |   |   |
+|   |   | userRoles |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### NoteUtente
+### NotaUtente
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
-| eventType¹ |   |   |   |   |   |   |
+| eventType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup>Modifiche ai valori possibili
 
 ### Lavoro
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| auditTypes¹ | agileWork  |   |   |   |   |   |
-| backlogOrder² | kanbanBoard  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agileWork  |   |   |   |   |   |
+| backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori\
-Campi aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE
+<sup>1</sup>Modifiche ai valori possibili\
+<sup>2</sup>Flag aggiunti: DYNAMIC, LAZY_READ e NOT_GROUPABLE

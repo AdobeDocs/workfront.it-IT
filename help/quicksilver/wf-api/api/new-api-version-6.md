@@ -1,19 +1,20 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità dell’API versione 6
-description: Novità dell’API versione 6
+title: Novità della versione 6 dell’API
+description: Novità della versione 6 dell’API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 42%
+source-wordcount: '495'
+ht-degree: 38%
 
 ---
 
-# Novità dell’API versione 6
+# Novità della versione 6 dell’API
 
 ## Nuovi oggetti
 
@@ -24,7 +25,7 @@ ht-degree: 42%
 | ID | cliente |   |   |   |   | Aggiungi |
 | customerID | progetto |   |   |   |   | Count |
 | projectID | resourceManager |   |   |   |   | Elimina |
-| resourceManagerID | template |   |   |   |   | Get |
+| resourceManagerID | modello |   |   |   |   | Ottenere |
 | templateID |   |   |   |   |   | Rapporto  |
 |   |   |   |   |   |   | Ricerca  |
 
@@ -34,7 +35,7 @@ ht-degree: 42%
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | fileName |   |   |   |   | caricare |   |
-| impugnatura |   |   |   |   |   |   |
+| maniglia |   |   |   |   |   |   |
 | objCode |   |   |   |   |   |   |
 
 
@@ -45,14 +46,14 @@ ht-degree: 42%
 | ID |   |   |   | checkDelete | customLabels | Aggiungi |
 |   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Count |
 |   |   |   |   | removeCustomLabel |   | Elimina |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Ottenere |
 |   |   |   |   |   |   | Rapporto |
 |   |   |   |   |   |   | Ricerca |
 
 
 ## Oggetti aggiornati
 
-Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le rimozioni hanno barrato, le modifiche a esistenti hanno una nota allegata dopo la tabella
+Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le rimozioni sono barrate, le modifiche a esistenti hanno una nota allegata dopo la tabella
 
 ### Aggiorna
 
@@ -60,14 +61,14 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| updateType¹ |   |   |   |   | `sinceDate` |   |
-|   |   |   |   |   | objectUpdatesByCommentID² |   |
+| updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
+|   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup> Modifiche ai valori possibili
 
-² l&#39;attributo hasFilters è stato modificato in true
+<sup>2</sup> attributo hasFilters modificato in true
 
  
 
@@ -75,17 +76,17 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| completedHours |   | resourceManager | resourceManagerIDs |   |   |   |
-| ConstrDate¹ |   |   |   |   |   |   |
+| completedHours |   | resourceManagers | resourceManagerIDs |   |   |   |
+| constraintDate<sup>1</sup> |   |   |   |   |   |   |
 | isOriginalPlannedHoursSet |   |   |   |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Convalida della data aggiunta
+<sup>1</sup> Convalida data aggiunta
 
-² Aggiunta del flag NOT_FILTERABLE
+<sup>2</sup> Flag NOT_FILTERABLE aggiunto
 
  
 
@@ -93,9 +94,9 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 |   | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|---|
-|  |  | `attachedApprovalPaths` |   |   |   |   |   |
+|   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -105,49 +106,49 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| authorizationType¹ |   |   |   |   |   |   |
+| approvalType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup> Modifiche ai valori possibili
 
  
 
-### Percorso di approvazione¹
+### Percorso di approvazione<sup>1</sup>
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| approvatoStatus |   |   |   |   |   | Aggiungi |
-| approvatoStatusLabel |   |   |   |   |   | Count |
+| approvalStatus |   |   |   |   |   | Aggiungi |
+| approvalStatusLabel |   |   |   |   |   | Count |
 | commento |   |   |   |   |   | Elimina |
-| enterByID |   |   |   |   |   | Modifica |
-| entryDate |   |   |   |   |   | Get |
+| enteredByID |   |   |   |   |   | Modifica |
+| entryDate |   |   |   |   |   | Ottenere |
 | globalPathID |   |   |   |   |   | Rapporto |
 | isPrivate |   |   |   |   |   | Ricerca |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| name² |   |   |   |   |   |   |
+| nome<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modificato in Oggetto di Comunicazione
+<sup>1</sup> Modificato in Segnalabile
 
-² Convalida della lunghezza massima aggiunta
+<sup>2</sup> Convalida lunghezza massima aggiunta
 
  
 
-### Oggetto del servizio di lavoro
+### Oggetto servizio di lavoro
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ConstrDate¹ |   |   |   | getMyWorkCountFiltered |   |   |
-| workRequired² |   |   |   | workItemStatusLabels  |   |   |
+| constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
+| workRequired<sup>2</sup> |   |   |   | workItemStatusLabels  |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Aggiunta convalida data
+<sup>1</sup> Convalida data aggiunta
 
-² Flag non_filtrabile aggiunto
+<sup>2</sup> Flag Not_Filterable aggiunto
 
  
 
@@ -159,7 +160,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 |   |   |   |   | swapUsersOnProjects |   |   |
 |   |   |   |   | unassignUserFromProjects |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -167,11 +168,11 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Contrassegno non_filtrabile aggiunto
+<sup>1</sup> Flag Not_Filterable aggiunto
 
  
 
@@ -179,11 +180,11 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| workRequired¹ |   |   |   |   |   |   |
+| workRequired<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Contrassegno non_filtrabile aggiunto
+<sup>1</sup> Flag Not_Filterable aggiunto
 
  
 
@@ -191,11 +192,11 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| billingDate¹ |   |   |   |   |   |   |
+| billingDate<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Aggiunta del flag del campo NO_TIME
+<sup>1</sup> aggiunto flag di campo NO_TIME
 
 ### Evento Burndown 
 
@@ -204,7 +205,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -215,7 +216,7 @@ Modifiche agli oggetti esistenti: le aggiunte sono semplicemente elencate, le ri
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -224,10 +225,10 @@ Enum personalizzata 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatuses |   |
-|   |   |   |   | isPossibileToUnlockStatus | projectGroupStatuses |   |
-|   |   |   |   |   | taskGroupStatuses |   |
+|   |   |   |   | isPossibleToUnlockStatus | projectGroupStatuses |   |
+|   |   |   |   |   | taskGroupStatus |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -238,7 +239,7 @@ Documento 
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -246,11 +247,11 @@ Tasso di cambio 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| tasso¹ |   |   |   |   |   |   |
+| tariffa<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Convalida PRECISION modificata per 8 a 9
+<sup>1</sup> Convalida PRECISION modificata da 8 a 9
 
  
 
@@ -260,7 +261,7 @@ Tasso di cambio 
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
@@ -268,61 +269,61 @@ Tasso di cambio 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| changeType¹ |   |   |   |   |   |   |
+| changeType<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Modifiche ai possibili valori
+<sup>1</sup> Modifiche ai valori possibili
 
  
 
-### Optask (problema)¹ 
+### Optask (problema)<sup>1</sup> 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Contrassegnato come RESTORABLE
+<sup>1</sup> Contrassegnato come RIPRISTINABILE
 
-² Flag non_filtrabile aggiunto
+<sup>2</sup> Flag Not_Filterable aggiunto
 
  
 
-### Progetto¹ 
+### Progetto<sup>1</sup> 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
-| isOriginalPlannedHoursSet |   | resourceManager | resourceManagerIDs  |   |   |   |
+| isOriginalPlannedHoursSet |   | resourceManagers | resourceManagerIDs  |   |   |   |
 | originalWorkRequired |   |   | `work` |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
-| lavorare |   |   |   |   |   |   |
+| lavoro |   |   |   |   |   |   |
 | workRequired |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Contrassegnato come RESTORABLE e RESOURCE_MANAGEABLE
+<sup>1</sup> Contrassegnati come RESTORABLE e RESOURCE_MANAGEABLE
 
-² Flag non_filtrabile aggiunto
+<sup>2</sup> Flag Not_Filterable aggiunto
 
  
 
-### Attività¹
+### Attività<sup>1</sup>
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ConstrDate² |   |   |   |   |   |   |
-| workRequired³ |   |   |   |   |   |   |
+| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| workRequired<sup>3</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Contrassegnato come RESTORABLE
+<sup>1</sup> Contrassegnato come RIPRISTINABILE
 
-² Aggiunta della convalida AT_DATE_YEAR_BEFORE
+<sup>2</sup> Convalida AT_DATE_YEAR_BEFORE aggiunta
 
-³ Flag non_filtrabile aggiunto
+<sup>3</sup> Flag Not_Filterable aggiunto
 
  
 
@@ -333,31 +334,31 @@ Tasso di cambio 
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
  
 
-### Modello¹ 
+### Modello<sup>1</sup> 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-|   |   | resourceManager | resourceManagerIDs |   |   |   |
+|   |   | resourceManagers | resourceManagerIDs |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Contrassegnato come RESTORABLE e RESOURCE_MANAGEABLE
+<sup>1</sup> Contrassegnati come RESTORABLE e RESOURCE_MANAGEABLE
 
-### Attività modello¹ 
+### Attività modello<sup>1</sup> 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| workRequired² |   |   |   |   |   |   |
+| workRequired<sup>2</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Contrassegnato come RESTORABLE
+<sup>1</sup> Contrassegnato come RIPRISTINABILE
 
-² Flag non_filtrabile aggiunto
+<sup>2</sup> Flag Not_Filterable aggiunto
 
  
 
@@ -365,11 +366,11 @@ Tasso di cambio 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| myInfo¹ |   |   |   |   |   |   |
+| myInfo<sup>1</sup> |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Violatori MAX_LENGTH
+<sup>1</sup> Violatori MAX_LENGTH
 
  
 
@@ -377,13 +378,13 @@ Tasso di cambio 
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| eventType¹ |   |   |   |   | myNotifications² |   |
+| eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-¹ Valori possibili modificati
+<sup>1</sup> Valori Possibili Modificati
 
-² presenta filtri modificati in `[true]`
+<sup>2</sup> Filtri modificati in `[true]`
 
  
 

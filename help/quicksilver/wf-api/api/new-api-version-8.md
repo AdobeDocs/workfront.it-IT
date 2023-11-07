@@ -1,30 +1,31 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Novità dell’API versione 8
-description: Elenco delle risorse nuove dell’API versione 9. Per un elenco degli aggiornamenti apportati alle risorse della versione 8, visita Aggiornamenti alla versione 8 dell’API
+title: Novità della versione 8 dell’API
+description: Questo è un elenco di risorse nuove per la versione API 9. Per un elenco degli aggiornamenti apportati alle risorse della versione 8, visita Aggiornamenti all’API versione 8
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 32%
+source-wordcount: '261'
+ht-degree: 30%
 
 ---
 
-# Novità dell’API versione 8
+# Novità della versione 8 dell’API
 
 ## Nuove risorse
 
-Elenco delle risorse nuove dell’API versione 9. Per un elenco degli aggiornamenti apportati alle risorse della versione 8, visita [Aggiornamenti alla versione 8 dell’API](../../wf-api/api/new-api-version-8-updates.md)
+Questo è un elenco di risorse nuove per la versione API 9. Per un elenco degli aggiornamenti apportati alle risorse della versione 8, visita [Aggiornamenti a API versione 8](../../wf-api/api/new-api-version-8-updates.md)
 
-**LavoroAgile**
+**AgileWork**
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | backlogOrder | cliente |   |   | bulkCopy  |   | COPIA |
-| color | iterazione  |   |   |   |   | CONTEGGIO |
+| colore | iterazione  |   |   |   |   | COUNT |
 | customerID | lastUpdatedBy |   |   |   |   | ELIMINA |
 | stima | opTask |   |   |   |   | MODIFICA |
 | ID | progetto |   |   |   |   | GET  |
@@ -44,44 +45,44 @@ Elenco delle risorse nuove dell’API versione 9. Per un elenco degli aggiorname
 | uiObjCode |   |   |   |   |   |   |
 | uiObjectID |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### APIVersionMetadata
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| deprecationRelease |   |   |   |   |   | CONTEGGIO  |
+| deprecationRelease |   |   |   |   |   | COUNT  |
 | removeRelease |   |   |   |   |   | GET |
 | versionName |   |   |   |   |   | RAPPORTO |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **KanbanBoard**
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | AGGIUNGI |
-| name |   |   |   |   |   | CONTEGGIO |
+| name |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | ELIMINA |
 |   |   |   |   |   |   | MODIFICA |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | RAPPORTO |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-### StatoApprovazioneProof
+### ProofApprovalStatus
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
-| proofApprovedStatusID |   |   |   |   |   |   |
-| proofApprovedStatusLabel |   |   |   |   |   |   |
+| proofApprovalStatusID |   |   |   |   |   |   |
+| proofApprovalStatusLabel |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-**ProofFileMetadata**
+**MetadatiFileBozza**
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
@@ -91,64 +92,64 @@ Elenco delle risorse nuove dell’API versione 9. Per un elenco degli aggiorname
 | ID |   |   |   |   |   |   |
 | isURL |   |   |   |   |   |   |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-**ResourceBudgetedHour**
+**OraRisorsePreventivate**
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| allocateDate |   |   |   |   |   | AGGIUNGI |
-| budgetedHours |   |   |   |   |   | CONTEGGIO |
-| ScheduledBudgetedHours |   |   |   |   |   | ELIMINA |
+| allocationDate |   |   |   |   |   | AGGIUNGI |
+| BudgetedHours |   |   |   |   |   | COUNT |
+| plannedBudgetedHours |   |   |   |   |   | ELIMINA |
 | projectID |   |   |   |   |   | MODIFICA |
 | roleID |   |   |   |   |   | GET |
 | userID |   |   |   |   |   | RAPPORTO |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### ResourcePlannerFilter
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | AGGIUNGI |
-| name |   |   |   |   |   | CONTEGGIO |
+| name |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | ELIMINA |
 |   |   |   |   |   |   | MODIFICA |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | RAPPORTO |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-**NotaRichText**
+**RichTextNote**
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | CONTEGGIO |
+| ID |   |   |   |   |   | COUNT |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | RAPPORTO |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Iscrizione
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 |  ID |   |   |   | addSubscribers | abbonati | AGGIUNGI |
-|   |   |   |   | removeSubscribers |   | CONTEGGIO  |
-|   |   |   |   | abbonati |   | ELIMINA |
-|   |   |   |   | annulla sottoscrizione |   | GET |
+|   |   |   |   | removeSubscribers |   | COUNT  |
+|   |   |   |   | abbonamenti |   | ELIMINA |
+|   |   |   |   | annulla abbonamenti |   | GET |
 |   |   |   |   |   |   | RAPPORTO |
 |   |   |   |   |   |   | SEARCH |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### UserRole
 
 | Campi | Riferimenti | Raccolte | Ricerca | Azioni | Query | Operazioni |
 |---|---|---|---|---|---|---|
 | roleID | ruolo |   |   |   |   |   |
-| timePercentage | user |   |   |   |   |   |
+| timePercentage | utente |   |   |   |   |   |
 | userID |   |   |   |   |   |   |

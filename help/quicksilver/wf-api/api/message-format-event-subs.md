@@ -1,44 +1,45 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Formato del messaggio in uscita per le sottoscrizioni di eventi
-description: Formato del messaggio in uscita per le sottoscrizioni di eventi
+title: Formato dei messaggi in uscita per le sottoscrizioni di eventi
+description: Formato dei messaggi in uscita per le sottoscrizioni di eventi
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
 
 ---
 
-# Formato del messaggio in uscita per le sottoscrizioni di eventi
+# Formato dei messaggi in uscita per le sottoscrizioni di eventi
 
-Con il rilascio di Adobe Workfront 2017.3, il formato dei messaggi in uscita per gli abbonamenti agli eventi verrà modificato per consentire prestazioni migliori e un migliore utilizzo degli abbonamenti agli eventi per le integrazioni.
+Con il rilascio di Adobe Workfront 2017.3, il formato dei messaggi in uscita per gli abbonamenti agli eventi verrà modificato per consentire prestazioni migliori e un utilizzo migliore degli abbonamenti agli eventi per le integrazioni.
 
 ## Aggiornamenti al formato dei messaggi in uscita
 
-Nel formato del messaggio in uscita verranno apportate le seguenti modifiche:
+Le seguenti modifiche verranno apportate al formato dei messaggi in uscita:
 
-* I messaggi in uscita includeranno il vecchioState e il nuovoState per una risorsa Workfront.
+* I messaggi in uscita includono oldState e newState per una risorsa Workfront.
 
-   Questi valori mostreranno le modifiche apportate a un oggetto come risultato di un evento in Workfront.
+  Questi valori mostrano le modifiche apportate a un oggetto a seguito di un evento in Workfront.
 
-* Il campo metadati eventTime verrà aggiunto a tutti i messaggi in uscita.
+* Il campo di metadati eventTime verrà aggiunto a tutti i messaggi in uscita.
 
-   Questo campo indica, in Nanosecondi ed EpochSeconds, il momento in cui si è verificato un evento. Utilizza eventTime per ordinare gli eventi elaborati dall’integrazione.
+  Questo campo indica, in Nanosecondi ed EpochSeconds, il momento in cui si è verificato un evento. Utilizza eventTime per ordinare gli eventi elaborati dall’integrazione.
 
-* Il campo di riferimento owner:companyID nella risorsa NOTE verrà rimosso.
-* La risorsa objectOn DOCU (Document) di riferimento currentVersion verrà rimossa.
+* Il campo proprietario:companyID a cui si fa riferimento nella risorsa NOTE verrà rimosso.
+* L&#39;oggetto a cui si fa riferimento currentVersionNella risorsa DOCU (Document) verrà rimosso.
 
-Se attualmente utilizzi gli abbonamenti agli eventi di Workfront, dovrai aggiornare le integrazioni Workfront prima della versione 2017.3 per tenere conto di queste modifiche.
+Se al momento utilizzi gli abbonamenti agli eventi di Workfront, dovrai aggiornare le integrazioni Workfront prima della versione 2017.3 per tenere conto di queste modifiche.
 
-Per ulteriori informazioni sugli abbonamenti agli eventi, vedi [API iscrizione agli eventi](../../wf-api/general/event-subs-api.md).
+Per ulteriori informazioni sugli abbonamenti agli eventi, consulta [API di abbonamento agli eventi](../../wf-api/general/event-subs-api.md).
 
-## Esempi di formati di messaggio nuovi e vecchi
+## Esempi di formati vecchi e nuovi
 
-Dopo il rilascio della versione 2017.3, il seguente messaggio CREATE non verrà più utilizzato:
+Il seguente messaggio di vecchio formato CREATE non verrà più utilizzato dopo il rilascio di 2017.3:
 
 ```
 {
@@ -72,7 +73,7 @@ Dopo il rilascio della versione 2017.3, il seguente messaggio CREATE non verrà 
 }
 ```
 
-Dopo il rilascio della versione 2017.3 verrà utilizzato il seguente nuovo formato:
+Dopo il rilascio della versione 2017.3 verrà utilizzato il nuovo messaggio CREATE nel formato seguente:
 
 ```
 {
@@ -110,7 +111,7 @@ Dopo il rilascio della versione 2017.3 verrà utilizzato il seguente nuovo forma
    "oldState": {}
 ```
 
-Dopo il rilascio della versione 2017.3, il seguente messaggio UPDATE di vecchio formato non verrà più utilizzato:
+Il seguente messaggio UPDATE (AGGIORNAMENTO precedente formato) non verrà più utilizzato dopo il rilascio della versione 2017.3 di:
 
 ```
 {
@@ -146,7 +147,7 @@ Dopo il rilascio della versione 2017.3, il seguente messaggio UPDATE di vecchio 
  }
 ```
 
-Dopo il rilascio della versione 2017.3 verrà utilizzato il seguente nuovo messaggio UPDATE:
+Dopo la versione 2017.3 verrà utilizzato il seguente messaggio UPDATE:
 
 ```
 {

@@ -1,26 +1,28 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Recupera le informazioni sulla valuta per un progetto quando la valuta è null
-description: Recupera le informazioni sulla valuta per un progetto quando la valuta è null
+title: Recuperare le informazioni sulla valuta per un progetto quando la valuta è null
+description: Recuperare le informazioni sulla valuta per un progetto quando la valuta è null
 author: Becky
 feature: Workfront API
-source-git-commit: a9af457793e123a60172fe4baf5ae5def472b026
+role: Developer
+exl-id: 31ed533b-be19-4ccb-aad4-7c78e008b3e9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 0%
 
 ---
 
-# Recupera le informazioni sulla valuta per un progetto quando la valuta è null (non assegnata)
+# Recuperare le informazioni sulla valuta per un progetto quando la valuta è Null (non assegnata)
 
-L&#39;oggetto di progetto con il campo valuta può essere recuperato utilizzando la seguente richiesta:
+L’oggetto del progetto con il campo valuta può essere recuperato utilizzando la seguente richiesta:
 
 ```
 GET /attask/api-internal/project/{{projectID}}?fields=currency
 ```
 
-Questo restituirà il seguente corpo di risposta:
+Questo restituirebbe il seguente corpo di risposta:
 
 ```
 {
@@ -35,7 +37,7 @@ Questo restituirà il seguente corpo di risposta:
 }
 ```
 
-Se la valuta non è impostata per il progetto, questa risposta includerà una valuta con il valore `null`:
+Se la valuta non è impostata per il progetto, questa risposta includerebbe una valuta con il valore `null`:
 
 ```
 {
@@ -50,11 +52,11 @@ Se la valuta non è impostata per il progetto, questa risposta includerà una va
 }
 ```
 
-Se si richiede la valuta per il progetto (ad esempio per i calcoli), è possibile recuperare la valuta predefinita per il cliente:
+Se è necessaria la valuta per il progetto (ad esempio per i calcoli), è possibile recuperare la valuta predefinita per il cliente:
 
 `GET /attask/api-internal/CUST/currentCustomer?fields=currency`
 
-La risposta include la valuta impostata come predefinita dall’utente, che verrà utilizzata da qualsiasi progetto per quel cliente che non ha la valuta impostata:
+La risposta include la valuta impostata dall’utente come predefinita, che verrebbe utilizzata da tutti i progetti per quel cliente che non hanno la valuta impostata:
 
 ```
 {

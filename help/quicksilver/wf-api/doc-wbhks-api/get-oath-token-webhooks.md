@@ -6,28 +6,29 @@ title: Ottieni token OAuth2
 description: Ottieni token OAuth2
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '268'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
 
 # Ottieni token OAuth2
 
-## Ottenimento dei token OAuth2
+## Recupero token OAuth2
 
-Restituisce il token di aggiornamento OAuth2 e il token di accesso per un utente autenticato. Viene richiamato una volta quando l&#39;utente fornisce un provider di documenti. Vengono effettuate chiamate successive per ottenere un token di accesso aggiornato.
+Restituisce il token di aggiornamento e il token di accesso OAuth2 per un utente autenticato. Viene richiamato una volta quando l’utente fornisce un provider di documenti. Vengono effettuate chiamate successive per ottenere un token di accesso aggiornato.
 
 **URL**
 
-POST /any/url
+POST/any/url
 
-L’URL è configurabile e corrisponde al valore dell’URL dell’endpoint token nella pagina di configurazione dell’integrazione personalizzata.
+L’URL è configurabile e corrisponde al valore dell’URL dell’endpoint del token nella pagina di configurazione dell’integrazione personalizzata.
 
-### Parametri query
+### Parametri di query
 
 <table style="table-layout:auto">
  <col>
@@ -42,19 +43,19 @@ L’URL è configurabile e corrisponde al valore dell’URL dell’endpoint toke
  </thead>
  <tbody>
   <tr>
-   <td>tipo_sovvenzione</td>
+   <td>grant_type</td>
    <td>sì</td>
-   <td><p>I valori includono "authorization_code" o "refresh_token". Il valore specificato indica quale dei due parametri verrà passato a questa chiamata API: codice o refresh_token.</p></td>
+   <td><p>I valori includono "authorized_code" o "refresh_token". Il valore specificato indica quale dei due parametri verrà trasmesso a questa chiamata API: code o refresh_token.</p></td>
   </tr>
   <tr>
    <td>codice</td>
    <td>dipende</td>
-   <td><p>Il codice di autorizzazione inviato ad Adobe Workfront subito dopo aver fatto clic sul pulsante "Grant". Questo è necessario solo quando il tipo di sovvenzione è "authorization_code". Il codice di autorizzazione dovrebbe essere di breve durata, generalmente con scadenza non superiore a 10 minuti.</p></td>
+   <td><p>Il codice di autorizzazione inviato ad Adobe Workfront subito dopo che l’utente ha fatto clic sul pulsante "Concedi". Questa opzione è necessaria solo quando il tipo di concessione è "authorized_code". Il codice di autorizzazione deve essere di breve durata e scadere generalmente in 10 minuti o meno.</p></td>
   </tr>
   <tr>
    <td>refresh_token</td>
    <td>dipende</td>
-   <td><p>Questo è necessario solo quando si eseguono chiamate successive per recuperare un nuovo access_token, dato che il precedente access_token è scaduto. Quando invii questo valore, imposta il parametro Grant_type su "refresh_token".</p></td>
+   <td><p>Questa opzione è necessaria solo quando si effettuano chiamate successive per recuperare un nuovo access_token, dato che il precedente access_token è scaduto. Quando si invia questo valore, impostare il parametro grant_type su "refresh_token".</p></td>
   </tr>
   <tr>
    <td>client_id</td>
@@ -64,7 +65,7 @@ L’URL è configurabile e corrisponde al valore dell’URL dell’endpoint toke
   <tr>
    <td>client_secret</td>
    <td>sì</td>
-   <td> Segreto client configurato in Workfront per questa integrazione personalizzata.</td>
+   <td> Il segreto client configurato in Workfront per questa integrazione personalizzata.</td>
   </tr>
  </tbody>
 </table>
@@ -88,17 +89,17 @@ L’URL è configurabile e corrisponde al valore dell’URL dell’endpoint toke
   <tr>
    <td>access_token </td>
    <td>Stringa</td>
-   <td><p>Token utilizzato per effettuare chiamate API autorizzate per conto dell’utente. Questo dovrebbe scadere per evitare chiamate API non autorizzate.</p></td>
+   <td><p>Token utilizzato per effettuare chiamate API autorizzate per conto dell’utente. Questa impostazione dovrebbe scadere per evitare chiamate API non autorizzate.</p></td>
   </tr>
   <tr>
    <td>refresh_token </td>
    <td>Stringa</td>
-   <td><p>Token longevo utilizzato per recuperare un nuovo access_token chiamando questo metodo API.</p></td>
+   <td><p>Token di lunga durata utilizzato per recuperare un nuovo access_token chiamando questo metodo API.</p></td>
   </tr>
   <tr>
    <td>expires_in </td>
    <td>long</td>
-   <td><p>(facoltativo) tempo (in secondi) prima della scadenza di access_token, generalmente 3.600.</p></td>
+   <td><p>(facoltativo) Tempo (in secondi) prima della scadenza del token di accesso, in genere 3.600.</p></td>
   </tr>
  </tbody>
 </table>

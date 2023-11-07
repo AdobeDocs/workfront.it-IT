@@ -5,8 +5,9 @@ title: API di abbonamento agli eventi
 description: API di abbonamento agli eventi
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 34810c67de5578479ae56cd72865656a89d35aa9
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '2111'
 ht-degree: 3%
@@ -76,7 +77,7 @@ Per creare, eseguire query o eliminare un abbonamento a un evento, l’utente di
 * Per utilizzare le sottoscrizioni di eventi è necessario un livello di accesso &quot;Amministratore di sistema&quot;.
 * A `sessionID`  L’intestazione è necessaria per utilizzare l’API Sottoscrizioni eventi
 
-   Per ulteriori informazioni, consulta [Autenticazione](api-basics.md#authentication) in [Nozioni di base sulle API](api-basics.md).
+  Per ulteriori informazioni, consulta [Autenticazione](api-basics.md#authentication) in [Nozioni di base sulle API](api-basics.md).
 
 ## Formazione della risorsa abbonamento
 
@@ -90,7 +91,7 @@ La risorsa abbonamento contiene i campi seguenti.
 
    * **Stringa** : objCode dell’oggetto abbonato alle modifiche. I valori possibili per objCode sono elencati nella tabella seguente.
 
-      <table style="table-layout:auto"> 
+     <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -419,6 +420,7 @@ Puoi utilizzare il filtro dell’abbonamento agli eventi per assicurarti di rice
 Ad esempio, un’ **AGGIORNA - ATTIVITÀ** è possibile impostare la sottoscrizione dell&#39;evento per l&#39;attivazione solo quando **newState** di un payload dell’evento definisce **taskStatus** as **corrente**.
 
 >[!IMPORTANT]
+>
 I seguenti attributi si applicano al filtro di abbonamento agli eventi
 
 * Quando un campo filtro ha un valore non vuoto, vengono inviati solo messaggi con un valore **newState** contenente le chiavi e i valori del filtro vengono inviati all’URL sottoscritto
@@ -580,6 +582,7 @@ Questo filtro consente la trasmissione dei messaggi se la modifica apportata con
 Questo filtro consente la trasmissione dei messaggi solo se il campo specificato (`fieldName`) ha un valore diverso in oldstate e newstate. Aggiornamento di altri campi oltre a quello specificato (`fieldName`) non restituirà la modifica.
 
 >[!NOTE]
+>
 `fieldValue` nell’array filters qui sotto non ha alcun effetto.
 
 ```
@@ -604,6 +607,7 @@ Questo connettore applica il filtro al nuovo stato o al vecchio stato dell’ogg
 `oldState` non è possibile su CREATE `eventTypes`.
 
 >[!NOTE]
+>
 La sottoscrizione seguente con il filtro specificato restituirà solo messaggi in cui il nome dell’attività contiene `again` il `oldState`, precedente a un aggiornamento dell&#39;attività.
 Un caso d’uso per questo potrebbe essere quello di trovare i messaggi objCode che sono cambiati da una cosa all’altra. Ad esempio, per individuare tutte le attività che sono cambiate da &quot;Cerca nome&quot; a &quot;Cerca nome team&quot;
 

@@ -2,12 +2,13 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Ottenere informazioni sul servizio
-description: Ottenere informazioni sul servizio
+title: Ottieni informazioni sul servizio
+description: Ottieni informazioni sul servizio
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
-source-git-commit: f050c8b95145552c9ed67b549608c16115000606
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 4%
@@ -15,21 +16,21 @@ ht-degree: 4%
 ---
 
 
-# Ottenere informazioni sul servizio (non ancora implementato)
+# Ottieni informazioni sul servizio (non ancora implementato)
 
 >[!NOTE]
 >
->La data di rilascio di questa funzione deve ancora essere determinata.
+>La data di rilascio di questa funzione non è ancora stata determinata.
 
-Restituisce informazioni sul servizio, ad esempio caratteristiche e funzionalità. Adobe Workfront utilizzerà queste informazioni per personalizzare l’interfaccia utente in Workfront. Ad esempio, se l’implementazione del webhook contiene alcune azioni personalizzate, JSON deve elencare tali operazioni nel JSON. Gli utenti potranno quindi richiamare queste azioni da Workfront.
+Restituisce informazioni sul servizio, ad esempio caratteristiche e funzionalità. Adobe Workfront utilizzerà queste informazioni per personalizzare l’interfaccia utente in Workfront. Ad esempio, se l’implementazione del webhook contiene alcune azioni personalizzate, il JSON deve elencare tali operazioni nel JSON. Gli utenti potranno quindi richiamare queste azioni da Workfront.
 
 **URL**
 
 GET /serviceInfo
 
-## Parametri query
+## Parametri di query
 
-Nessuno. Inoltre, le chiamate a questo endpoint non devono richiedere l&#39;autenticazione.
+Nessuno. Inoltre, le chiamate a questo endpoint non devono richiedere l’autenticazione.
 
 ## risposta
 
@@ -50,43 +51,43 @@ JSON contenente informazioni su questo servizio
   <tr> 
    <td>webhookVersion </td> 
    <td>Stringa </td> 
-   <td>Versione webhook implementata da questo servizio. Questo è il numero di versione elencato nella parte superiore di questa specifica.</td> 
+   <td>Versione del webhook implementata da questo servizio. Il numero di versione riportato nella parte superiore della specifica.</td> 
   </tr> 
   <tr> 
    <td>version </td> 
    <td>Stringa </td> 
-   <td>Numero di versione interno del servizio. Questo numero è determinato dal provider di servizi webhook e viene utilizzato solo a scopo informativo.<br><br></td> 
+   <td>Numero di versione interno per questo servizio. Questo numero è determinato dal provider di servizi webhook ed è utilizzato solo a scopo informativo.<br><br></td> 
   </tr> 
   <tr> 
    <td>editore </td> 
    <td>Stringa </td> 
-   <td>Nome dell'azienda che fornisce l'implementazione del webhook.</td> 
+   <td>Il nome della società che fornisce l’implementazione del webhook.</td> 
   </tr> 
   <tr> 
    <td>availableEndpoints</td> 
    <td>Stringa </td> 
-   <td>Elenco contenente gli endpoint API implementati dal servizio. Questo può essere utilizzato per garantire che l'interfaccia utente in Workfront rifletta le funzionalità offerte dal provider webhook. Ogni elemento dell’elenco deve includere il nome dell’endpoint (ad esempio "search").</td> 
+   <td>Elenco contenente gli endpoint API implementati da questo servizio. Questa può essere utilizzata per garantire che l’interfaccia utente di Workfront rifletta le funzionalità offerte dal provider del webhook. Ogni elemento nell’elenco deve includere il nome del punto finale (ad esempio "search").</td> 
   </tr> 
   <tr> 
    <td>customActions </td> 
    <td>Stringa</td> 
-   <td>  <p>Elenco contenente le operazioni personalizzate implementate da questo webhook. Ogni voce dell’elenco include un nome e un nome visualizzato. Il nome visualizzato verrà visualizzato nel menu a discesa "Azioni documento" in Workfront. Facendo clic sull’elemento nel menu a discesa si richiama l’azione nel webhook chiamando l’endpoint /customAction .</p></td> 
+   <td>  <p>Elenco contenente le operazioni personalizzate implementate da questo webhook. Ogni voce di elenco include un nome e un nome visualizzato. Il nome visualizzato verrà visualizzato nel menu a discesa "Azioni documento" in Workfront. Facendo clic sull’elemento nel menu a discesa, l’azione viene richiamata nel webhook chiamando l’endpoint /customAction.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 **Esempio:** `https://www.acme.com/api/serviceInfo`
 
-return
+restituisce
 
 ```
 {
-webhook version: “1.2”, version: “1.0”, publisher: “Acme, LLC”, availableEndpoints: [“files”, “metadata”, “search”, “download”
-“thumbnail”, “uploadInit”, “upload” ], customActions [
+webhook version: "1.2", version: "1.0", publisher: "Acme, LLC", availableEndpoints: ["files", "metadata", "search", "download"
+"thumbnail", "uploadInit", "upload" ], customActions [
 {
-name: “archive”, displayName: “Archive” 
+name: "archive", displayName: "Archive" 
 }, 
-{name: “doSomethingElse”, displayName: “Do Something” }, 
+{name: "doSomethingElse", displayName: "Do Something" }, 
 ] 
 }
 ```

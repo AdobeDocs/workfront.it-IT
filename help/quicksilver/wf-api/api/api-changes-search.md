@@ -6,8 +6,9 @@ navigation-topic: api-navigation-topic
 title: "Modifiche API di base: risposte alla ricerca di stato"
 description: Modifiche nel modo in cui Workfront memorizza gli oggetti di stato.
 feature: Workfront API
+role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%

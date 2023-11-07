@@ -1,19 +1,20 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Configurazione delle opzioni per OPTASK copyIssue
-description: Una spiegazione dei valori interi previsti dall'endpoint copyIssue.
+title: Configurazione opzioni per OPTASK copyIssue
+description: Spiegazione dei valori interi previsti dall’endpoint copyIssue.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a2b8ef01-1c14-47a5-8b0a-550b17b526ff
-source-git-commit: 93a67b3dbd59f188dad6b060ec93c3f137c981b2
+source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 6%
 
 ---
 
-# Configurazione delle opzioni per OPTASK copyIssue
+# Configurazione opzioni per OPTASK copyIssue
 
 
 Una delle proprietà per una chiamata API copyIssue è un campo denominato `options`. Questo campo richiede un numero intero.
@@ -23,7 +24,7 @@ Per includere una delle opzioni seguenti, immettere il numero intero corrisponde
 | opzione | value* |
 |---|---|
 | Cancella assegnazioni | 2 |
-| Cancella progresso | 4 |
+| Annulla avanzamento | 4 |
 | Cancella documenti | 128 |
 | Cancella aggiornamenti | 65536 |
 | Cancella autorizzazioni | 524288 |
@@ -33,12 +34,12 @@ Per includere una delle opzioni seguenti, immettere il numero intero corrisponde
 
 Esempi:
 
-* Per cancellare l’avanzamento della copia del problema, immetti un `options` valore `4`.
+* Per cancellare l’avanzamento quando copi il problema, immetti un `options` valore di `4`.
 
-* Per cancellare sia l&#39;avanzamento che i documenti, immetti un `options` valore `132`.
+* Per cancellare sia l&#39;avanzamento che i documenti, immetti un `options` valore di `132`.
 
-   Cancella avanzamento = 4
+  Annulla avanzamento = 4
 
-   Cancella documenti = 128
+  Cancella documenti = 128
 
-   4 + 128 = 132
+  4 + 128 = 132
