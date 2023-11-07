@@ -7,7 +7,7 @@ description: La mappatura è il processo di assegnazione degli output di un modu
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
 workflow-type: tm+mt
 source-wordcount: '1563'
 ht-degree: 0%
@@ -102,7 +102,7 @@ Per ulteriori informazioni, consulta [Configurare le impostazioni di un modulo i
 
 Puoi mappare più elementi in un campo, combinarli con valori letterali (valori fissi) e utilizzare operatori e funzioni per creare formule complesse:
 
-![](assets/operators-and-functions-350x187.png)
+![](assets/operators-and-functions.png)
 
 Puoi trovare le funzioni e gli operatori nel pannello di mappatura sotto una delle relative schede.
 
