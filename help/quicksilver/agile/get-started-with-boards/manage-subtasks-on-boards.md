@@ -5,14 +5,19 @@ title: Gestire le sottoattività nelle bacheche
 description: L'utilizzo delle sottoattività nelle schede consente di stabilire una relazione padre-figlio tra le attività e di creare una gerarchia di lavoro.
 author: Lisa
 feature: Agile
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
+source-git-commit: 7a48179ad113c57fe6588a32de86aaf8836f586e
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
 # Gestire le sottoattività nelle bacheche
+
+>[!IMPORTANT]
+>
+>Le sottoattività sulle schede non sono temporaneamente disponibili dal 7 novembre 2023.
 
 L&#39;utilizzo delle sottoattività nelle schede consente di stabilire una relazione padre-figlio tra le attività e di creare una gerarchia di lavoro. All’attività nel progetto Workfront viene aggiunta anche un’attività secondaria che aggiungi a una scheda di una bacheca Workfront. Per ulteriori informazioni sulle sottoattività e sulle attività a livello di progetto, vedi [Crea sottoattività](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
