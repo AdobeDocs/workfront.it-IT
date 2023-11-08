@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Visualizza: calcolare le differenze di data e ora"
-description: 'È possibile calcolare la differenza tra i seguenti valori: MODIFICAMI.'
+description: Creare una visualizzazione che visualizzi la differenza tra due campi data in un oggetto o tra un campo data in un oggetto e un altro campo data nell'oggetto padre.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -106,14 +106,14 @@ Per un elenco degli oggetti e dei relativi elementi padre, vedere la sezione &qu
 
    * Per visualizzare la differenza tra la data di completamento pianificata del progetto e quella dell&#39;attività:
 
-      ```
-      displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
-      ```
+     ```
+     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+     ```
 
    * Per visualizzare la differenza tra la data di completamento pianificata dell&#39;attività padre e quella dell&#39;attività:
 
-      ```
-      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
-      ```
+     ```
+     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+     ```
 
 1. Clic **Salva**, quindi **Salva visualizzazione**.

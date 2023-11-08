@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -120,8 +120,6 @@ Considera quanto segue:
      * Edit record information
 -->
 
-Durante la creazione di una vista timeline, per impostazione predefinita tutti i record del tipo di record selezionato vengono visualizzati in una timeline come barre.
-
 Per gestire una vista timeline:
 
 1. Passare alla pagina del tipo di record per la quale si desidera visualizzare la sequenza temporale.
@@ -129,7 +127,7 @@ Per gestire una vista timeline:
 
    ![](assets/timeline-view-example.png)
 
-   I record associati al tipo di record selezionato vengono visualizzati in una sequenza temporale cronologica sotto forma di barre.
+   Per impostazione predefinita, i record associati al tipo di record selezionato vengono visualizzati come barre in un indicatore cronologico e vengono ordinati in ordine cronologico.
 
 1. Per spostarsi nella timeline, effettuate una delle seguenti operazioni:
 
@@ -176,26 +174,22 @@ Quando si lavora con i filtri nella vista timeline, considera quanto segue:
 
 ### Aggiungi raggruppamento
 
-<!-- if groupings are identical between the table and the timeline, consider replacing this section with this: 
-
-Adding groupings in the timeline view is identical to adding filters in the table view. 
-
-For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
+<!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 È possibile raggruppare i record in base a informazioni simili quando si applica un raggruppamento a una visualizzazione.
 
+L’aggiunta di raggruppamenti nella vista timeline è simile all’aggiunta di raggruppamenti nella vista tabella.
+
 Quando si lavora con i raggruppamenti nella vista timeline, tenete presente quanto segue:
 
-<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
+* Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * Potete applicare 3 livelli di raggruppamento in una vista Maestro. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
 * Puoi applicare fino a 4 livelli di raggruppamento quando utilizzi l’API.
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni timeline dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa visualizzazione timeline visualizzano lo stesso raggruppamento attualmente applicato.
-
 * Non è possibile denominare i raggruppamenti creati per una vista timeline.
-
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
 
-Per aggiungere un raggruppamento:
+Per aggiungere un raggruppamento nella vista timeline:
 
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell’articolo [Gestire le visualizzazioni record](../views/manage-record-views.md).
 1. Clic **Raggruppamento** nell&#39;angolo superiore destro della vista timeline.
@@ -218,7 +212,7 @@ Per aggiungere un raggruppamento:
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Facoltativo) Fai clic su **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
+1. (Facoltativo) All&#39;interno del **Raggruppa record per** , fare clic sul pulsante **x** a destra di un campo selezionato per il raggruppamento per rimuovere il raggruppamento
 
    Oppure
 

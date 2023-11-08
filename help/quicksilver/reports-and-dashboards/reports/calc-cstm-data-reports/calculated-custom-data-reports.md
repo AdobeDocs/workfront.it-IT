@@ -3,21 +3,21 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Dati personalizzati calcolati nei rapporti
-description: 'Questa sezione contiene i seguenti articoli: MODIFICAMI.'
+description: Puoi creare rapporti utilizzando dati personalizzati calcolati.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '86'
 ht-degree: 0%
 
 ---
 
 # Dati personalizzati calcolati nei rapporti
 
-Questa sezione contiene i seguenti articoli:
+Puoi creare rapporti utilizzando dati personalizzati calcolati. I seguenti articoli descrivono come:
 
 * [Espressioni dati calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
 * [Campi personalizzati calcolati e colonne calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)

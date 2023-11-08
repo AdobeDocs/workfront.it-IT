@@ -8,9 +8,9 @@ author: Courtney and Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 62c600a13f61f7f5e889a92b446252e5ca0777f9
+source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1380'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,15 @@ ht-degree: 1%
 
 Come un [!DNL Adobe Workfront] amministratore, puoi specificare le preferenze per le schede orario e le ore in [!DNL Workfront] per definire gli elementi con cui le schede orario possono precompilare e a quali elementi gli utenti possono registrare il tempo.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Gli elementi per i quali hai effettuato l’accesso durante l’intervallo di tempo della scheda orario vengono visualizzati nella scheda orario per impostazione predefinita, anche se potrebbero non soddisfare le condizioni descritte in questo articolo per la precompilazione della scheda orario.
+>Oltre agli elementi che precompilano una scheda orario in base alle condizioni descritte in questo articolo, per impostazione predefinita vengono visualizzati anche i seguenti elementi:
+>* Elementi per i quali hai effettuato l’accesso durante l’intervallo di tempo della scheda orario
+>* Elementi bloccati sulla scheda orario
+>* Elementi cercati e aggiunti manualmente alla scheda orario. Gli elementi aggiunti manualmente vengono bloccati per impostazione predefinita.
 >
->Per informazioni sull&#39;ora di registrazione, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
 
 
 Qualsiasi modifica apportata alle schede orario influisce su tutte le schede orario create in futuro.
