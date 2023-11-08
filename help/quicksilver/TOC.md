@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 85cab7836aaf4bd6907ed2909de34b4c95655852
+source-git-commit: d666b54f3bb13f2ad923b819774ac4f849db75e8
 workflow-type: tm+mt
-source-wordcount: '13373'
+source-wordcount: '13384'
 ht-degree: 1%
 
 ---
@@ -767,6 +767,7 @@ ht-degree: 1%
    * Amministrazione in Adobe Admin Console {#admin-in-admin-console}
       * [Amministrazione di Workfront in Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Prepararsi per il Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+      * [Informazioni sulla migrazione di prodotti e utenti Workfront a Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
    * Suggerimenti, trucchi e risoluzione dei problemi per l’amministrazione e la configurazione {#admin-setup-tips}
       * [Suggerimenti, trucchi e risoluzione dei problemi](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
       * [Gli amministratori dei gruppi devono disporre di un accesso più elevato rispetto a quelli che gestiscono](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1468,7 +1469,7 @@ ht-degree: 1%
    * [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Reporting Canvas {#reporting-canvas}
       * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Gestire i rapporti {#manage-reports}
+      * Gestione dei rapporti {#manage-reports}
          * [Panoramica sulla gestione dei rapporti](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
          * [Creare un rapporto nell’area di lavoro rapporti](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
          * [Esportare un rapporto nell’area di lavoro rapporti](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
