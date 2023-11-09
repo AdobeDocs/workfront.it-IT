@@ -4,9 +4,9 @@ description: Panoramica sulla versione del quarto trimestre 2023
 author: Becky
 feature: Product Announcements
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '2700'
+source-wordcount: '2705'
 ht-degree: 0%
 
 ---
@@ -510,7 +510,7 @@ Il webinar sulla versione 23.10 era il 5 ottobre 2023. È possibile [registrati 
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al trascinamento della selezione per le integrazioni di documenti</a></p><p>Sono stati apportati alcuni miglioramenti per aggiungere chiarezza e rimuovere l’errore utente durante il trascinamento e il rilascio di un file in una cartella collegata.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti al trascinamento della selezione per le integrazioni di documenti</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Sono stati apportati alcuni miglioramenti per aggiungere chiarezza e rimuovere l’errore utente durante il trascinamento e il rilascio di un file in una cartella collegata.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>

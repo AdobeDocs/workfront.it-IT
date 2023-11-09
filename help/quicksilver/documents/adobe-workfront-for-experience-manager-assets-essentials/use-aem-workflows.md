@@ -6,16 +6,14 @@ description: Utilizzare i flussi di lavoro nell’integrazione Experience Manage
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
 
 # Utilizzare i flussi di lavoro nell’integrazione di Experience Manager Assets
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 Un flusso di lavoro è un insieme di azioni che collegano Workfront ad Adobe Experience Manager as a Cloud Service. Un amministratore di Workfront può configurare i flussi di lavoro in Workfront, quindi assegnarli a Modelli di progetto. Quando un progetto viene creato utilizzando un modello di progetto a cui è assegnato un flusso di lavoro, vengono attivate le azioni definite nel flusso di lavoro.
 
@@ -147,8 +145,6 @@ Per modificare il flusso di lavoro per le cartelle collegate:
 
 #### Pubblicazione delle risorse
 
-<div class="preview">
-
 Per modificare il flusso di lavoro per la pubblicazione delle risorse:
 
 1. Attiva/Disattiva **Pubblicare automaticamente le risorse** acceso o spento come desiderato.
@@ -159,4 +155,4 @@ Per modificare il flusso di lavoro per la pubblicazione delle risorse:
 
    Se si è nel [!DNL Adobe Experience Manager area], le modifiche vengono salvate automaticamente. <!--Do they though?-->
 
-</div>
+
