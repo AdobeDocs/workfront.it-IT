@@ -7,17 +7,15 @@ author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
-source-git-commit: 0ad33f377086f71699c550e2300731056a834e72
+exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
+source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
 
-
-# Integrazione alfa nativa di Adobe Workfront e Frame.io: funzioni
-
-## Casi d’uso e test delle funzioni
+# Integrazione nativa alfa di Adobe Workfront e Frame.io: funzioni e test
 
 Con questa integrazione, il nostro obiettivo è consentire ai creativi di rimanere nel loro strumento scelto (CC o Frame.io) per condurre la creazione dei contenuti e le revisioni tra pari, mentre i project manager coordinano il lavoro e inizializzano e monitorano il processo di revisione formale dall&#39;interno di Workfront. Ciò può essere ottenuto utilizzando il meglio di entrambe le soluzioni: le nuove approvazioni dei documenti di Workfront per la gestione delle approvazioni dei contenuti, insieme alle funzionalità di revisione dei contenuti offerte da Frame.io. Collettivamente, le nuove approvazioni dei documenti e Frame.io formeranno la nuova esperienza di revisione e approvazione dei contenuti end-to-end. 
 
@@ -28,38 +26,39 @@ Per ulteriori informazioni sul funzionamento dell&#39;alfa e sulle modalità di 
 >
 >Se vi imbatteste in queste pagine senza che la vostra azienda partecipasse a questo programma alfa, assicuratevi di trattare le informazioni con attenzione e contattate l&#39;amministratore Workfront o Frame.io per ulteriori informazioni.
 
-<!--Initial setup and basic test scenario 
+## Scenario di test di base
 
-As part of the alpha program, we've provisioned a new test Frame.io account for you and connected it to a new group "Frame.io alpha testing" in your existing Workfront Preview or Sandbox environment. To test the delivered functionality please log in to your Workfront Preview or Sandbox instance and  perform the following steps: 
+Per consentire di testare facilmente le nuove funzioni del programma alfa, abbiamo creato un nuovo account test Frame.io e lo abbiamo collegato a un nuovo gruppo chiamato `Frame.io alpha testing` nell’ambiente Workfront Preview o Sandbox esistente.
 
-Coordinators: Within Workfront, create a project with the "Frame.io alpha testing" group assigned as project group 
+Per testare la funzionalità, accedi all’istanza Workfront Preview o Sandbox ed esegui i seguenti passaggi:
 
-Coordinators: Within Workfront, assign your creatives to the project or Frame enabled tasks and change the project status to "Current" 
+1. **Coordinatori:** In Workfront, crea un progetto con `Frame.io alpha testing` gruppo assegnato come gruppo di progetto.
 
-Creatives: Check your emails for an invite to the newly created Frame.io project 
+1. **Coordinatori:** In Workfront, assegna i tuoi creativi alle attività abilitate per il progetto o per il Frame e modifica lo stato del progetto su &quot;Corrente&quot;.
 
-Creatives: Click on the "Join project" button within the invitation email to join the Frame.io project, review the creative brief within the project and start your content creation within your CC tool of choice 
+1. **Creatività:** Controlla le e-mail per un invito al progetto Frame.io appena creato
 
-Creatives: Upload your created assets to Frame.io and add them to the linked Workfront project (or assigned Frame enabled tasks)  
+1. **Creatività:** Fai clic sul pulsante &quot;Partecipa al progetto&quot; nell’e-mail di invito per partecipare al progetto Frame.io, rivedi il documento creativo all’interno del progetto e avvia la creazione dei contenuti all’interno dello strumento Creative Cloud desiderato.
 
-Coordinators: Within Workfront, see the linked Frame.io assets in your project and assign reviewers / approvers (new document approvals: More help on this feature) 
+1. **Creatività:** Carica le risorse create in Frame.io e aggiungile al progetto Workfront collegato (o alle attività assegnate che supportano i frame).
 
-Stakeholders: Withing Workfront, view your approval request in Workfront Home or Document Details and review the Frame connected document in the Frame.io Viewer. Leave a comment feedback 
+1. **Coordinatori:** In Workfront, trova le risorse Frame.io collegate nel tuo progetto e assegna revisori/approvatori (per ulteriori informazioni sull’assegnazione di revisioni/approvatori, consulta [Aggiungere altri approvatori o revisori a un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
-Coordinators: Within Workfront, view the stakeholder created comments within the Updates section of the Frame.io connected document in Workfront 
+1. **Parti interessate:** In Workfront, visualizzare la richiesta di approvazione in Dettagli pagina principale o Documento, esaminare il documento Frame connected nel visualizzatore Frame.io e lasciare un commento contenente il feedback.
 
-Stakeholders: Make a decision from within the Frame.io Viewer 
+1. **Coordinatori:** In Workfront, visualizzare i commenti creati dalle parti interessate nella sezione Aggiornamenti del documento connesso Frame.io.
 
-Creatives: Within Frame.io, notice the overall approval decision made for your assets 
+1. **Parti interessate:** Decidere dall&#39;interno del visualizzatore Frame.io.
 
-Creatives: Within Frame.io, Apply the requested changes by adding the updated version to the version stack of the connected asset 
+1. **Creatività:** In Frame.io, notate la decisione di approvazione complessiva presa per le vostre risorse.
 
-Coordinators: Within Workfront, assign approvers / reviewers to the new version upload and monitor the progress until it reaches sign-off-->
+1. **Creatività:** All’interno di Frame.io, applica le modifiche richieste aggiungendo la versione aggiornata allo stack delle versioni della risorsa connessa.
+
+1. **Coordinatori:** In Workfront, assegna approvatori/revisori alla versione appena caricata e monitora l’avanzamento fino al momento dell’approvazione.
 
 ## Feature plan
 
 Di seguito sono riportate informazioni sui casi d’uso principali che stiamo cercando di affrontare e sulle funzioni che abbiamo pianificato di svolgere. <!--, along with documentation to get you started testing.-->
-
 
 ### Gli amministratori di Workfront possono impostare una connessione tra i gruppi di Workfront e gli account Frame.io
 
