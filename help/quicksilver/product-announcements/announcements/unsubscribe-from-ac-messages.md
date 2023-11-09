@@ -1,41 +1,41 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Annulla sottoscrizione a messaggi del Centro annunci
-description: 'I messaggi del Centro annunci sono messaggi inviati da Adobe Workfront alla base clienti Workfront. È possibile annullare l’iscrizione ai seguenti tipi di messaggi del Centro annunci: EDIT ME.'
+title: Annulla iscrizione ai messaggi del Centro notifiche
+description: I messaggi del Centro notifiche sono messaggi inviati da Adobe Workfront alla base clienti Workfront. È possibile annullare l'iscrizione ai messaggi del Centro notifiche.
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
-source-git-commit: e2335829f22551ce9fd4c88071c97fb1a893a1d8
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
-# Annulla sottoscrizione a messaggi del Centro annunci
+# Annulla iscrizione ai messaggi del Centro notifiche
 
-I messaggi del Centro annunci sono messaggi inviati da Adobe Workfront alla base clienti Workfront. Puoi annullare l’iscrizione ai seguenti tipi di messaggi del Centro annunci:
+I messaggi del Centro notifiche sono messaggi inviati da Adobe Workfront alla base clienti Workfront. È possibile annullare l&#39;iscrizione ai seguenti tipi di messaggi del Centro notifiche:
 
-* Annunci relativi a funzionalità che vengono pubblicati per singola funzionalità al di fuori di queste versioni principali.
+* Annunci relativi alle funzionalità rilasciate in base a una funzione al di fuori di queste versioni principali.
 
-   La maggior parte delle nuove funzionalità introdotte nella piattaforma Workfront viene rilasciata in combinazione con una delle 4 versioni principali ogni anno. Tuttavia, alcune funzionalità vengono rilasciate in base alle singole funzionalità al di fuori di queste versioni principali. Ogni volta che una funzione viene rilasciata al di fuori di una versione principale, viene visualizzato un messaggio tramite Centro annunci. (Per ulteriori informazioni sul Centro Annunci, vedi [Inviare annunci](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+  La maggior parte delle nuove funzionalità introdotte nella piattaforma Workfront viene rilasciata insieme a una delle 4 versioni principali ogni anno. Tuttavia, alcune funzionalità vengono rilasciate caratteristica per caratteristica al di fuori di queste versioni principali. Ogni volta che una funzione viene rilasciata al di fuori di una versione principale, si riceve un messaggio tramite il Centro annunci. Per ulteriori informazioni sul Centro notifiche, vedere [Inviare annunci](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
 * Annunci relativi alle prossime offerte ed eventi di formazione.
 
-Per annullare l&#39;iscrizione alla ricezione dei messaggi del Centro Annunci:
+Per annullare l&#39;iscrizione alla ricezione dei messaggi del Centro notifiche:
 
 1. Fai clic sull’icona numerata ![](assets/notifications-icon-jewel.jpg) nell’angolo in alto a destra di Workfront per aprire l’elenco delle notifiche.
-1. Fai clic su **Tutti gli annunci** in fondo all&#39;elenco.
+1. Clic **Tutti gli annunci** in fondo all’elenco.
 
-   La **Annunci** viene visualizzata una pagina in cui sono elencati tutti gli annunci.
+   Il **Annunci** viene visualizzata una pagina che elenca tutti gli annunci.
 
    ![](assets/announcements-page-qs-350x210.png)
 
-1. Fai clic su **Impostazioni** nell’angolo in alto a destra della pagina Annunci , seleziona **Nuove versioni** o **Formazione**, a seconda del tipo di annunci che non desideri più ricevere.
+1. Clic **Impostazioni** nell’angolo superiore destro della pagina Annunci, quindi seleziona **Nuove versioni** o **Formazione**, a seconda del tipo di annunci che non desideri più ricevere.
 
    ![](assets/announcementcenter-settings-350x187.png)
 
-1. Fai clic su **Salva impostazioni**.
+1. Clic **Salva impostazioni**.
 
-   Non riceverai più messaggi del Centro annunci per questo tipo di annuncio.
+   Non verranno più ricevuti messaggi del Centro notifiche per questo tipo di annuncio.

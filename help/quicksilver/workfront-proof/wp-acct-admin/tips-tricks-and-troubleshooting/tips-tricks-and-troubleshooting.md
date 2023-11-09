@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Suggerimenti, trucchi e risoluzione dei problemi per [!DNL Workfront] Amministrazione account bozza
-description: 'Questa sezione contiene i seguenti articoli: MODIFICAMI.'
+description: Scopri come risolvere i problemi relativi agli account Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1e6bd078-b794-4fac-bbda-3ba125408370
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---

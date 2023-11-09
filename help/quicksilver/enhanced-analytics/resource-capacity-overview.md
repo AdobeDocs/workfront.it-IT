@@ -1,26 +1,26 @@
 ---
-title: Visualizzazione della visualizzazione della capacità delle risorse in Analisi avanzata
+title: Visualizzare la visualizzazione Capacità risorse in Analisi avanzate
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: La visualizzazione della capacità delle risorse mostra se un team è finito, sotto o alla capacità. Questo calcolo si basa su - EDIT ME.
+description: La visualizzazione Capacità risorse mostra se un team è al di sopra, al di sotto o alla capacità.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '826'
 ht-degree: 0%
 
 ---
 
-# Visualizzazione della visualizzazione della capacità delle risorse in Analisi avanzata
+# Visualizzare la visualizzazione Capacità risorse in Analisi avanzate
 
-La visualizzazione della capacità delle risorse mostra se un team è finito, sotto o alla capacità.
+La visualizzazione Capacità risorse mostra se un team è al di sopra, al di sotto o alla capacità.
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,109 +28,109 @@ Devi disporre dei seguenti elementi:
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">piano Adobe Workfront</a>*</td> 
-   <td> <p>Aziende o superiore</p> </td> 
+   <td> <p>Business o superiore</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>*</td> 
-   <td> <p>Revisione o superiore</p> </td> 
+   <td> <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Visualizza accesso a progetti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso.<br>Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso ai progetti in visualizzazione</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso.<br>Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Prerequisiti
 
-Per i prerequisiti per l’utilizzo di Analytics avanzato, consulta la sezione &quot;Prerequisiti&quot; in [Panoramica dell’analisi migliorata](../enhanced-analytics/enhanced-analytics-overview.md).
+Per i prerequisiti per utilizzare Enhanced Analytics, consulta la sezione &quot;Prerequisiti&quot; in [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Comprendere la visualizzazione della capacità della risorsa
+## Comprendere la visualizzazione Capacità risorse
 
-La visualizzazione della capacità delle risorse mostra se un team è finito, sotto o alla capacità. Questo calcolo si basa su:
+La visualizzazione Capacità risorse mostra se un team è al di sopra, al di sotto o alla capacità. Questo calcolo si basa su:
 
-* **Capacità disponibile**: La quantità totale di ore disponibili per il lavoro di un team domestico nel periodo di tempo filtrato
+* **Capacità disponibile**: la quantità totale di ore che un team predefinito ha a disposizione per lavorare nel periodo di tempo filtrato
 
-   >[!NOTE]
-   >
-   >Se stai osservando un periodo di tempo futuro, la capacità disponibile viene calcolata in base alla capacità del team per gli ultimi 7 giorni. Per questo motivo, non viene preso in considerazione alcun PTO pianificato.
+  >[!NOTE]
+  >
+  >Se si considera un periodo di tempo futuro, la capacità disponibile viene calcolata in base alla capacità del team per gli ultimi 7 giorni. Per questo motivo, non vengono prese in considerazione eventuali ferie retribuite programmate.
 
-* **Capacità prevista**: Quantità totale di ore di lavoro pianificate previste dal team di origine nel periodo di tempo filtrato
+* **Capacità pianificata**: la quantità totale di ore di lavoro pianificate previste dal team principale nel periodo di tempo filtrato
 
-Questo confronto tra le ore pianificate e le ore pianificate effettive di un team domestico può aiutarti a determinare se non stai assegnando abbastanza lavoro al team principale o se potrebbero essere in fase di esaurimento da un carico di lavoro pesante.
+Questo confronto tra le ore pianificate di un team predefinito e le ore pianificate effettive può aiutarti a determinare se non stai assegnando abbastanza lavoro al team principale o se si sta verificando un esaurimento da un carico di lavoro pesante.
 
 ![](assets/resource-capacity-350x110.png)
 
-Nella visualizzazione della capacità delle risorse, puoi vedere i seguenti dettagli:
+Nella visualizzazione Capacità risorse puoi visualizzare i seguenti dettagli:
 
-* **Capacità prevista**: In linea con il nome del team principale, il cerchio blu rappresenta il numero di ore pianificate assegnate al team principale.
+* **Capacità pianificata**: in linea con il nome di un team principale, il cerchio blu rappresenta il numero di ore pianificate assegnate al team principale.
 
-   ![](assets/resource-capacity-blue-circle.png)
+  ![](assets/resource-capacity-blue-circle.png)
 
-* **Capacità effettiva**: In linea con il nome del team principale, la linea verticale rappresenta il numero di ore disponibili per il team principale.
+* **Capacità effettiva**: in linea con il nome di un team principale, la riga verticale rappresenta il numero di ore disponibili per il team principale.
 
-   ![](assets/resource-capacity-vertical-line.png)
+  ![](assets/resource-capacity-vertical-line.png)
 
-* **Sovracapacità**: Quando la linea orizzontale e il cerchio blu vengono visualizzati a destra della linea verticale, al team principale è stato assegnato più lavoro di quello che possono completare nel numero di ore disponibili. Ciò significa che il team potrebbe superare la capacità per il periodo di tempo filtrato. Il numero rimanente di ore necessarie al completamento del team viene visualizzato a destra del cerchio blu.
+* **Sovraccapacità**: quando la linea orizzontale e il cerchio blu sono visualizzati a destra della linea verticale, al team principale è stato assegnato più lavoro di quello che può completare nel numero di ore disponibili. Ciò significa che il team potrebbe avere una capacità eccessiva per il periodo di tempo filtrato. Il numero di ore rimanenti che il team deve completare viene visualizzato a destra del cerchio blu.
 
-   ![](assets/resource-capacity-over-capacity.png)
+  ![](assets/resource-capacity-over-capacity.png)
 
-* **Incapacità**: Quando la linea orizzontale e il cerchio blu vengono visualizzati a sinistra della linea verticale, il team principale dispone di più ore disponibili del numero di ore di lavoro pianificate assegnate. Ciò significa che il team potrebbe essere in grado di utilizzare il periodo di tempo filtrato. Il numero aggiuntivo di ore disponibili per il team principale per completare il lavoro viene visualizzato a sinistra del cerchio blu.
+* **Sotto capacità**: quando la linea orizzontale e il cerchio blu vengono visualizzati a sinistra della linea verticale, il team interno ha più ore disponibili del numero di ore di lavoro pianificate che sono state assegnate. Ciò significa che la capacità del team potrebbe essere insufficiente per il periodo di tempo filtrato. Il numero aggiuntivo di ore disponibili per il completamento del lavoro da parte del team interno viene visualizzato a sinistra del cerchio blu.
 
-   ![](assets/resource-capacity-under-capacity.png)
+  ![](assets/resource-capacity-under-capacity.png)
 
-Passando il puntatore del mouse sopra una riga si può vedere il numero esatto di ore per la capacità pianificata e la capacità disponibile, nonché il numero di ore in cui il team di origine ha superato o è in grado di raggiungere la capacità.
+Passando il cursore sopra una riga, viene visualizzato il numero esatto di ore per la capacità pianificata e la capacità disponibile, nonché il numero di ore in cui il team predefinito ha una capacità eccessiva o insufficiente.
 
 La visualizzazione di queste informazioni consente di determinare:
 
 * Se la squadra principale è stata sovrassegnata o sottoassegnata.
-* Quali sono stati i progetti più grandi su cui si è concentrata la squadra domestica.
-* Quali home team sono disponibili per il lavoro.
+* I progetti più grandi erano quelli su cui si concentrava il team interno.
+* Quali team principali sono disponibili per il lavoro.
 
-Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta [Panoramica dell’analisi migliorata](../enhanced-analytics/enhanced-analytics-overview.md).
+Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Visualizzazione della visualizzazione della capacità della risorsa
+## Visualizzare la visualizzazione Capacità risorse
 
 1. Fai clic sull’icona Menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
 1. Nel pannello a sinistra, seleziona **Persone**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. (Facoltativo) Per utilizzare un intervallo di date diverso, seleziona nuove date di inizio e di fine dal filtro dell’intervallo di date.
+1. (Facoltativo) Per utilizzare un intervallo di date diverso, seleziona nuove date di inizio e fine dal filtro dell’intervallo di date.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Per informazioni sull’utilizzo del filtro dell’intervallo di date, consulta [Applicazione di filtri in Analisi avanzata](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Per informazioni sull’utilizzo del filtro per intervalli di date, consulta [Applicare i filtri nelle analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 1. (Condizionale) Se non hai impostato il filtro Team, aggiungi il filtro Team e seleziona ogni team per il quale desideri visualizzare i dati.
 
-   Per ulteriori informazioni sull’aggiunta di filtri nell’analisi avanzata, consulta [Applicazione di filtri in Analisi avanzata](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Per ulteriori informazioni sull’aggiunta di filtri in Analisi avanzate, consulta [Applicare i filtri nelle analisi avanzate](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   Dopo aver aggiunto i filtri, vengono visualizzati i dati per un massimo di 50 progetti e i filtri rimangono attivi anche dopo aver lasciato la pagina o disconnesso da Workfront.
+   Dopo aver aggiunto i filtri, vengono visualizzati i dati per un massimo di 50 progetti e i filtri rimangono attivi anche dopo che hai lasciato la pagina o disconnesso da Workfront.
 
-1. (Facoltativo) Per ingrandire un intervallo di date, seleziona un punto sulla visualizzazione per l’inizio dell’intervallo di date e trascina fino alla fine dell’intervallo di date.
+1. (Facoltativo) Per ingrandire un intervallo di date, seleziona un punto nella visualizzazione per l’inizio dell’intervallo di date e trascina fino alla fine dell’intervallo di date.
 
-   Tutte le altre visualizzazioni vengono aggiornate con lo stesso intervallo di date e viene creato un filtro per l’intervallo di tempo.
+   Tutte le altre visualizzazioni vengono aggiornate allo stesso intervallo di date e viene creato un filtro per l’intervallo di tempo.
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. Passa il puntatore del mouse sulla linea del team principale per vedere quante ore sono ancora disponibili per la pianificazione, la quantità di ore pianificate per il completamento del team principale e il numero totale di ore lavorate, etichettate come in eccesso, in esaurimento o alla capacità.
+1. Passa il cursore del mouse sulla riga del team predefinito per vedere quante ore sono ancora disponibili da programmare, la quantità di ore pianificate per il completamento da parte del team principale e il numero totale di ore lavorate, etichettate come al di sopra, al di sotto o alla capacità.
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 
-1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sul pulsante **Icona Esporta** ![](assets/export.png) nell’angolo in alto a destra della visualizzazione, quindi seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sul pulsante **Icona Esporta** ![](assets/export.png) nell’angolo in alto a destra della visualizzazione, seleziona il formato di esportazione:
 
    * **Grafico (PNG)**
    * **Tabella dati (XSLX)**
 
-1. Fai clic sul nome del team principale per visualizzare ulteriori informazioni nella visualizzazione della capacità del team.
+1. Fai clic sul nome di un team principale per visualizzare ulteriori informazioni nella visualizzazione Capacità del team.
 
-   Per ulteriori informazioni sulla visualizzazione della capacità del team, consulta [Visualizzazione della visualizzazione della capacità del team in Analisi avanzata](../enhanced-analytics/team-capacity-overview.md).
+   Per ulteriori informazioni sulla visualizzazione Capacità team, consulta [Visualizzare la visualizzazione della capacità del team in Analisi avanzate](../enhanced-analytics/team-capacity-overview.md).
 
 

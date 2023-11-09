@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: basics-workfront-proof
 title: Impostazioni personali in [!DNL Workfront Proof]
-description: 'Questa sezione contiene i seguenti articoli: MODIFICAMI.'
+description: Scopri le impostazioni personali in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 6d19a4f9-04f6-4965-9651-4763892955fd
-source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
+source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
-source-wordcount: '44'
+source-wordcount: '43'
 ht-degree: 0%
 
 ---

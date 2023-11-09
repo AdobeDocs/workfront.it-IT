@@ -2,85 +2,85 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
-title: Panoramica sulle differenze tra il visualizzatore per correzione web e il visualizzatore per correzione desktop
-description: 'Adobe Workfront fornisce due diversi visualizzatori di correzione: EDIT ME.'
+title: Panoramica sulle differenze tra il visualizzatore bozze web e il visualizzatore bozze desktop
+description: Scopri le differenze tra i visualizzatori di bozze per desktop e web.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 2%
+source-wordcount: '865'
+ht-degree: 0%
 
 ---
 
-# Panoramica sulle differenze tra il visualizzatore per correzione web e il visualizzatore per correzione desktop
+# Panoramica sulle differenze tra il visualizzatore bozze web e il visualizzatore bozze desktop
 
-Adobe Workfront fornisce due diversi visualizzatori di correzione:
+Adobe Workfront fornisce due diversi visualizzatori di bozze:
 
-* **Visualizzatore per correzione web:** Progettato principalmente per la correzione dei file statici e video. Viene eseguito in Google Chrome, Firefox o Safari.
-* **Visualizzatore di correzione desktop:** Progettato per la correzione dei file interattivi, nonché dei file video e statici. Viene eseguito come applicazione indipendente sulla workstation. Per ulteriori informazioni, consulta [Comprendere il visualizzatore di correzione del desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+* **Visualizzatore bozze Web:** Progettato principalmente per la verifica di file statici e video. Viene eseguito in Google Chrome, Firefox o Safari.
+* **Visualizzatore bozze desktop:** Progettato per la verifica di file interattivi, video e statici. Funziona come applicazione indipendente sulla workstation. Per ulteriori informazioni, consulta [Informazioni su Visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
-* Se l’organizzazione non è in grado di utilizzare l’app Visualizzatore correzione desktop per motivi di sicurezza, l’amministratore Workfront può configurare il sistema in modo da poter rivedere il contenuto interattivo, incluso in un file di archivio ZIP, nel Visualizzatore correzione web. Per ulteriori informazioni, consulta  [Impostazione della correzione dei contenuti interattivi nel visualizzatore per correzione web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* Se l&#39;organizzazione non è in grado di utilizzare l&#39;app Visualizzatore bozze desktop per motivi di sicurezza, l&#39;amministratore di Workfront può configurare il sistema in modo da poter esaminare il contenuto interattivo, incluso in un file di archivio ZIP, nel Visualizzatore bozze web. Per ulteriori informazioni, consulta  [Configurare la verifica dei contenuti interattivi nel visualizzatore bozze web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-L’elenco seguente consente di comprendere cosa è possibile utilizzare per la verifica di determinati tipi di contenuto:
+L’elenco seguente consente di comprendere cosa è possibile utilizzare Proofing Viewer (Visualizzatore di bozze) per verificare determinati tipi di contenuto:
 
-* **Contenuto web interattivo - URL**: Se si crea una bozza per il contenuto web utilizzando un URL e si desidera verificarne il contenuto in modo interattivo, è necessario utilizzare il visualizzatore per correzione desktop.
-* **Contenuto web interattivo - File ZIP**: Se si crea una bozza per il contenuto web utilizzando un file ZIP, è possibile utilizzare il visualizzatore per correzione Web (con alcune limitazioni) o il visualizzatore per correzione desktop. Per informazioni sulle limitazioni relative all’utilizzo del visualizzatore per correzione Web per i contenuti interattivi, consulta [Impostazione della correzione dei contenuti interattivi nel visualizzatore per correzione web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* **Contenuto web interattivo - URL**: se crei una bozza per il contenuto web utilizzando un URL e desideri eseguirne la bozza in modo interattivo, devi utilizzare il Visualizzatore bozze desktop.
+* **Contenuto web interattivo - File ZIP**: se crei una bozza per il contenuto web utilizzando un file ZIP, puoi utilizzare il visualizzatore bozze web (con alcune limitazioni) o il visualizzatore bozze desktop. Per informazioni sulle limitazioni relative all’utilizzo del visualizzatore bozze web per i contenuti interattivi, consulta [Configurare la verifica dei contenuti interattivi nel visualizzatore bozze web](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-* **Contenuto statico e video**: Se crei una bozza contenente contenuto statico, puoi utilizzare il visualizzatore per correzione Web o il visualizzatore per correzione desktop.
+* **Contenuti statici e video**: se crei una bozza con contenuto statico, puoi utilizzare il Visualizzatore bozze web o il Visualizzatore bozze desktop.
 
-## Prove statiche
+## Bozze statiche
 
-| **Funzione** | **Visualizzatore per correzione web** | **Visualizzatore di correzione del desktop** |
+| **Funzionalità** | **Visualizzatore bozze web** | **Visualizzatore bozze desktop** |
 |---|---|---|
-| Aprire le bozze statiche | ✓ | ✓&#42; |
-| Vista singola, rivista e continua | ✓ | ✓&#42; |
-| Panoramica | ✓ | ✓&#42; |
+| Apri bozze statiche | ✓ | ✓&#42; |
+| Visualizzazioni singole, riviste e continue | ✓ | ✓&#42; |
+| Panning | ✓ | ✓&#42; |
 | Zoom | ✓ | ✓&#42; |
 | Ruota | ✓ | ✓&#42; |
-| Strumento di misura | ✓ (impostare un&#39;area di dimensioni personalizzate) | ✓&#42; |
+| Strumento di misurazione | ✓ (impostare un&#39;area di dimensioni personalizzate) | ✓&#42; |
 | Visualizzazione miniature | ✓ | ✓&#42; |
-| Navigatore a prova statica | ✓ | ✓&#42; |
-| Ricerca di documenti | ✓ | ✓&#42; |
-| Pubblica commento su più pagine | ✓ (disponibile su tutte le visualizzazioni) | ✓&#42; (disponibile su tutte le visualizzazioni) |
-| Collegamenti a bozza statica avanzata | ✓ (per ulteriori informazioni, consulta [Scelte rapide da tastiera nel visualizzatore di correzione](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(per ulteriori informazioni, consulta [Scelte rapide da tastiera nel visualizzatore di correzione](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
+| Navigatore bozza statica | ✓ | ✓&#42; |
+| Ricerca documenti | ✓ | ✓&#42; |
+| Pubblica commento su più pagine | ✓ (disponibile su tutte le viste) | ✓&#42; (disponibile su tutte le visualizzazioni) |
+| Scelte rapide per bozze statiche avanzate | ✓ (per ulteriori informazioni, consulta la sezione [Scelte rapide da tastiera nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(per ulteriori informazioni, consulta [Scelte rapide da tastiera nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-&#42; Questa funzionalità funziona solo se l’amministratore di Workfront ha configurato il visualizzatore per correzione desktop come visualizzatore predefinito per tutte le bozze.
+&#42; Questa funzionalità funziona solo se l’amministratore di Workfront ha configurato Desktop Proofing Viewer come visualizzatore predefinito per tutte le bozze.
 
-## Prove video
+## Bozze video
 
-| **Funzione**  | **Visualizzatore per correzione web** | **Visualizzatore di correzione del desktop** |
+| **Funzionalità**  | **Visualizzatore bozze web** | **Visualizzatore bozze desktop** |
 |---|---|---|
 | Apri bozze video | ✓ | ✓&#42; |
 | Buffering | ✓ | ✓&#42; |
-| Revisione con il tempo | ✓ | ✓&#42; |
-| Revisione mediante fotogrammi o codice temporale | ✓ | ✓&#42; |
-| Revisione più rapida o più lenta | ✓ | ✓&#42; |
+| Revisione in base all&#39;ora | ✓ | ✓&#42; |
+| Revisione con frame o codice temporale | ✓ | ✓&#42; |
+| Rivedi più velocemente o più lentamente | ✓ | ✓&#42; |
 | Regolazione del volume | ✓ | ✓&#42;  |
 | modalità a schermo intero | ✓ | ✓&#42;  |
-| Commenti a intervalli | ✓ | ✓&#42;  |
-| Prove video in loop (i video si concludono e si avviano automaticamente) | ✓ | ✓&#42;  |
-| Collegamenti video avanzati | ✓ (per ulteriori informazioni, consulta [Scelte rapide da tastiera nel visualizzatore di correzione](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
+| Commenti intervallo | ✓ | ✓&#42;  |
+| Eseguire il ciclo continuo delle bozze video (i video vengono completati e avviati automaticamente) | ✓ | ✓&#42;  |
+| Scelte rapide video avanzate | ✓ (per ulteriori informazioni, consulta la sezione [Scelte rapide da tastiera nel visualizzatore di bozze](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
-&#42; Questa funzionalità funziona solo se il visualizzatore di correzione desktop è configurato come visualizzatore predefinito per tutte le bozze.
+&#42; Questa funzionalità funziona solo se il Visualizzatore bozze desktop è configurato come visualizzatore predefinito per tutte le bozze.
 
-## Prove interattive
+## Bozze interattive
 
-| **Funzione**  | **Visualizzatore per correzione web** | **Visualizzatore di correzione del desktop** |
+| **Funzionalità**  | **Visualizzatore bozze web** | **Visualizzatore bozze desktop** |
 |---|---|---|
-| Apri bozze interattive create dal contenuto incluso in un file ZIP | ✓ | ✓ (consigliato) |
+| Aprire le bozze interattive create dal contenuto incluso in un file ZIP | ✓ | ✓ (scelta consigliata) |
 | Aprire una bozza interattiva creata da un URL | Non supportato | ✓ |
-| Visualizza bozze interattive (create dal contenuto incluso in un file ZIP) in varie dimensioni dello schermo | ✓ | ✓ |
-| Visualizza bozze interattive (create dal contenuto incluso in un file ZIP) per vari dispositivi | Non supportato | ✓ |
+| Visualizzare bozze interattive (create da contenuti inclusi in un file ZIP) in varie dimensioni dello schermo | ✓ | ✓ |
+| Visualizzare bozze interattive (create dal contenuto incluso in un file ZIP) per vari dispositivi | Non supportato | ✓ |
 | Esamina siti non protetti (HTTP) | Non supportato | ✓ |
-| Rivedere i siti protetti da iFrame (siti protetti dalla visualizzazione all&#39;interno di un iFrame) | Non supportato | ✓ |
+| Siti protetti da iFrame (siti protetti dalla visualizzazione all&#39;interno di un iFrame) | Non supportato | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Commenti
 
@@ -90,9 +90,9 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
  <col> 
  <thead> 
   <tr> 
-   <th>Funzione</th> 
-   <th>Visualizzatore per correzione web </th> 
-   <th>Visualizzatore di correzione del desktop </th> 
+   <th>Funzionalità</th> 
+   <th>Visualizzatore bozze web </th> 
+   <th>Visualizzatore bozze desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -102,72 +102,72 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Aggiungi ed elimina le risposte</p> </td> 
+   <td> <p>Aggiungere ed eliminare le risposte</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Strumenti di marcatura per rettangoli, frecce, linee, a mano libera ed evidenziazioni</p> </td> 
+   <td> <p>Strumenti di markup rettangolo, freccia, linea, mano libera ed evidenziazione</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Strumento Poligono</p> </td> 
+   <td> <p>Strumento Polilinea</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Strumenti di marcatura per le maschere di ritaglio</p> </td> 
+   <td> <p>Strumenti di markup della maschera di ritaglio</p> </td> 
    <td>Non supportato</td> 
    <td>Non supportato</td> 
   </tr> 
   <tr> 
-   <td> <p>Strumento di marcatura per la selezione del testo</p> </td> 
-   <td>Solo prove statiche ✓</td> 
-   <td>Solo prove statiche ✓</td> 
+   <td> <p>Strumento markup per selezione testo</p> </td> 
+   <td>✓ Solo bozze statiche di</td> 
+   <td>✓ Solo bozze statiche di</td> 
   </tr> 
   <tr> 
-   <td> <p>Cambia colore di marcatura</p> </td> 
+   <td> <p>Cambia colore markup</p> </td> 
    <td>✓ (32 colori disponibili) </td> 
    <td>✓ (32 colori disponibili) </td> 
   </tr> 
   <tr> 
-   <td> <p>Modificare l’opacità del markup</p> </td> 
+   <td> <p>Modificare l'opacità del markup</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Modifica spessore marcatura</p> </td> 
+   <td> <p>Modificare lo spessore del markup</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Tagliare, copiare e incollare le marcature</p> </td> 
+   <td> <p>Tagliare, copiare e incollare i markup</p> </td> 
    <td> Non supportato</td> 
    <td> Non supportato</td> 
   </tr> 
   <tr> 
-   <td> <p>Annulla e Ripristina l’ultima operazione</p> </td> 
+   <td> <p>Annulla e ripristina l'ultima operazione</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Marcature duplicate</p> </td> 
+   <td> <p>Duplica markup</p> </td> 
    <td> Non supportato</td> 
    <td> Non supportato</td> 
   </tr> 
   <tr> 
-   <td>Impostazione di azioni per i commenti</td> 
-   <td>✓ (le azioni sono visibili sui commenti subito dopo l’impostazione dell’azione)</td> 
+   <td>Impostare le azioni sui commenti</td> 
+   <td>✓ (Le azioni sono visibili nei commenti subito dopo l’impostazione dell’azione)</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Imposta colore di marcatura come predefinito</p> </td> 
+   <td> <p>Imposta colore markup come predefinito</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Risolvere i commenti</p> </td> 
+   <td> <p>Risolvi commenti</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
@@ -177,7 +177,7 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
    <td> Non supportato</td> 
   </tr> 
   <tr> 
-   <td> <p>Assegnare tag agli utenti</p> </td> 
+   <td> <p>Assegna tag agli utenti</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -187,27 +187,27 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Visualizza l'elenco dei commenti in visualizzazione compatta</p> </td> 
+   <td> <p>Visualizzare l'elenco dei commenti in una visualizzazione compatta</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Visualizza l'elenco dei commenti in una visualizzazione standard, completa o singola</p> </td> 
+   <td> <p>Visualizzare l'elenco dei commenti in una visualizzazione standard, completa o singola</p> </td> 
    <td>Pianificato per il futuro</td> 
    <td>Pianificato per il futuro</td> 
   </tr> 
   <tr> 
-   <td> <p>Commenti alla ricerca</p> </td> 
+   <td> <p>Cerca commenti</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Filtrare i commenti per utente</p> </td> 
+   <td> <p>Filtra commenti per utente</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Filtrare commenti e risposte per utente</p> </td> 
+   <td> <p>Filtra commenti e risposte per utente</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -226,12 +226,12 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
 
 ## Decisioni
 
-| Funzione | Visualizzatore per correzione web | Visualizzatore di correzione del desktop |
+| Funzionalità | Visualizzatore bozze web | Visualizzatore bozze desktop |
 |---|---|---|
-| Prendere decisioni | ✓ | ✓ |
+| Prendi decisioni | ✓ | ✓ |
 | Personalizzare le decisioni | ✓ | ✓ |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Confronta bozze
 
@@ -241,14 +241,14 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
  <col> 
  <thead> 
   <tr> 
-   <th>Funzione</th> 
-   <th>Visualizzatore per correzione web </th> 
-   <th>Visualizzatore di correzione del desktop </th> 
+   <th>Funzionalità</th> 
+   <th>Visualizzatore bozze web </th> 
+   <th>Visualizzatore bozze desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Confrontare diverse versioni delle bozze</td> 
+   <td>Confrontare diverse versioni di bozze</td> 
    <td>✓</td> 
    <td>✓<br></td> 
   </tr> 
@@ -260,7 +260,7 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
  </tbody> 
 </table>
 
-## Operazioni di prova
+## Operazioni bozza
 
 <table style="table-layout:auto"> 
  <col> 
@@ -268,9 +268,9 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
  <col> 
  <thead> 
   <tr> 
-   <th>Funzione</th> 
-   <th>Visualizzatore per correzione web </th> 
-   <th>Visualizzatore di correzione del desktop </th> 
+   <th>Funzionalità</th> 
+   <th>Visualizzatore bozze web </th> 
+   <th>Visualizzatore bozze desktop </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -280,32 +280,32 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td>Creare una nuova versione</td> 
-   <td> <p>Disponibile solo in Workfront Proof (pianificato per il futuro durante la correzione all’interno di Workfront)<br></p> </td> 
-   <td>Disponibile solo in Workfront Proof (pianificato per il futuro durante la correzione all’interno di Workfront)</td> 
+   <td>Crea una nuova versione</td> 
+   <td> <p>Disponibile solo in Workfront Proof (pianificato per il futuro se si verifica in Workfront)<br></p> </td> 
+   <td>Disponibile solo in Workfront Proof (pianificato per il futuro se si verifica in Workfront)</td> 
   </tr> 
   <tr> 
-   <td>Dettagli della prova di revisione </td> 
-   <td>✓</td> 
-   <td>✓</td> 
-  </tr> 
-  <tr> 
-   <td>Verifica dei flussi di lavoro a prova di verifica</td> 
+   <td>Rivedi dettagli bozza </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Modificare le fasi del flusso di lavoro</td> 
+   <td>Rivedere i flussi di lavoro per le bozze</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Modifica fasi del flusso di lavoro</td> 
    <td>Non supportato</td> 
    <td>Non supportato</td> 
   </tr> 
   <tr> 
-   <td>Condividere le bozze</td> 
+   <td>Condividi bozze</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Ottieni URL del team</td> 
+   <td>Ottieni URL team</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -320,12 +320,12 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Bloccare e sbloccare prove e stadi</td> 
+   <td>Bloccare e sbloccare bozze e fasi</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Riepilogo della bozza della stampa</td> 
+   <td>Stampa riepilogo bozze</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -340,17 +340,17 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
    <td><strong>Disponibile solo in Workfront Proof</strong> </td> 
   </tr> 
   <tr> 
-   <td>Branding (logo personalizzati)</td> 
+   <td>Marchio (logo personalizzati)</td> 
    <td>✓</td> 
    <td> ✓<br>(Logo Workfront nella pagina di lancio) </td> 
   </tr> 
   <tr> 
-   <td>Collegamenti personalizzati (solo prova Workfront)</td> 
+   <td>Collegamenti personalizzati (solo Workfront Proof)</td> 
    <td>Non supportato</td> 
    <td> Non supportato </td> 
   </tr> 
   <tr> 
-   <td>Integrazioni di base (solo per Workfront Proof) </td> 
+   <td>Integrazioni Basecamp (solo Workfront Proof) </td> 
    <td>Pianificato per il futuro</td> 
    <td>Pianificato per il futuro</td> 
   </tr> 
@@ -360,20 +360,20 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Verifica aggiornamenti automatici (modifiche delle autorizzazioni e nuove versioni)</td> 
+   <td>Aggiornamenti automatici della bozza (modifiche delle autorizzazioni e nuove versioni)</td> 
    <td>✓</td> 
    <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Miniviewer
+## Visualizzatore
 
-| **Funzione**  | **Visualizzatore per correzione web**  | **Visualizzatore di correzione del desktop** |
+| **Funzionalità**  | **Visualizzatore bozze web**  | **Visualizzatore bozze desktop** |
 |---|---|---|
-| Codice incorporato | Pianificato per future prove video statiche e native | Non supportato  |
+| Codice incorporato | Previste per il futuro per bozze video statiche e native | Non supportato  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Traduzioni
 
@@ -383,14 +383,14 @@ L’elenco seguente consente di comprendere cosa è possibile utilizzare per la 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Funzione</strong> </th> 
-   <th><strong>Visualizzatore per correzione web</strong> </th> 
-   <th><strong>Visualizzatore di correzione del desktop</strong> </th> 
+   <th><strong>Funzionalità</strong> </th> 
+   <th><strong>Visualizzatore bozze web</strong> </th> 
+   <th><strong>Visualizzatore bozze desktop</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Lingue diverse dall’inglese</td> 
+   <td>Lingue di supporto diverse dall'inglese</td> 
    <td>✓</td> 
    <td>✓<br></td> 
   </tr> 

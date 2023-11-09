@@ -3,75 +3,75 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Risoluzione dei problemi - font interfaccia danneggiato nel visualizzatore di correzione su Mac
-description: Se noti che il visualizzatore di correzione non visualizza correttamente il font dell’interfaccia, ciò potrebbe essere dovuto ad alcuni problemi con i font sul computer Mac. Per risolvere il problema, prova le seguenti soluzioni - MODIFICA ME.
+title: Risoluzione dei problemi - font di interfaccia danneggiato nel visualizzatore di bozze su Mac
+description: Risoluzione dei problemi relativi al font dell’interfaccia danneggiato nel visualizzatore di bozze su Mac
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
 
-# Risoluzione dei problemi - font interfaccia danneggiato nel visualizzatore di correzione su Mac
+# Risoluzione dei problemi - font di interfaccia danneggiato nel visualizzatore di bozze su Mac
 
 >[!IMPORTANT]
 >
->Questo articolo fa riferimento alla funzionalità del prodotto standalone [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Copertura](../../../review-and-approve-work/proofing/proofing.md).
+>Questo articolo fa riferimento alle funzionalità del prodotto autonomo [!DNL Workfront Proof]. Per informazioni sulle prove all&#39;interno [!DNL Adobe Workfront], vedi [Bozza](../../../review-and-approve-work/proofing/proofing.md).
 
-Se noti che il visualizzatore di correzione non visualizza correttamente il font dell’interfaccia, ciò potrebbe essere dovuto ad alcuni problemi con i font sul computer Mac. Per risolvere il problema, prova le seguenti soluzioni:
+Se si nota che il visualizzatore di bozze non visualizza correttamente il carattere dell&#39;interfaccia, ciò potrebbe essere dovuto ad alcuni problemi con i caratteri sul computer Mac. Per risolvere il problema, provare le soluzioni seguenti:
 
-## Rimuovi duplicati di font
+## Rimuovi duplicati font
 
-Controlla se ci sono font duplicati nel sistema.
+Verificare se nel sistema sono presenti caratteri duplicati.
 
-1. Chiudi il browser in uso.
-1. Aprire l&#39;applicazione Font Book nella cartella Applicazioni.
-1. Fai clic su **[!UICONTROL Tutti i font]** (1)
-1. Fai clic su **[!UICONTROL Modifica]** > **[!UICONTROL Cerca duplicati abilitati]**.
+1. Chiudere il browser in uso.
+1. Aprire l&#39;applicazione Rubrica caratteri nella cartella Applicazioni.
+1. Clic **[!UICONTROL Tutti i font]** (1)
+1. Clic **[!UICONTROL Modifica]** > **[!UICONTROL Cerca duplicati abilitati]**.
 
-1. Fai clic su **[!UICONTROL Sì]** per risolvere i duplicati.
-1. Se viene visualizzato un avviso sui font danneggiati, fare clic su **[!UICONTROL Sì]**.
+1. Clic **[!UICONTROL Sì]** per risolvere i duplicati.
+1. Se viene visualizzato un avviso relativo ai caratteri danneggiati, fare clic su **[!UICONTROL Sì]**.
 1. Riavvia il computer.
-1. Riprova la bozza.
+1. Riprovare.
 
-## Cancella la cache dei font
+## Cancella la cache dei caratteri
 
-A volte, le cache dei font in Mac OS X diventano danneggiate. Ad esempio, quando un font o una famiglia di font viene reinstallato più volte o se un&#39;applicazione è stata aggiornata o reinstallata. Oltre ai file della cache dei font del sistema operativo, alcune applicazioni possono avere una propria cache dei font. L&#39;eliminazione di questi file della cache dei font può risolvere il problema con il testo illeggibile.
+A volte, le cache dei font in Mac OS X risultano danneggiate. Ad esempio, quando un carattere o una famiglia di caratteri viene reinstallato più volte o se un&#39;applicazione è stata aggiornata o reinstallata. A parte i file della cache dei caratteri del sistema operativo, alcune applicazioni possono disporre di una propria cache dei caratteri. L&#39;eliminazione di questi file di cache dei caratteri può risolvere il problema con il testo illeggibile.
 
-In primo luogo, sarà necessario avviare Font Book, selezionare il font o la famiglia con cui si verificano problemi e premere il pulsante Elimina sulla tastiera. Puoi anche fare clic con il pulsante destro del mouse e selezionare [!UICONTROL Rimuovi famiglia]. Se non sei sicuro del font o della famiglia che sta causando i problemi, puoi provare prima a rimuovere i duplicati come descritto sopra.
+Innanzitutto, è necessario avviare la Rubrica, selezionare il carattere o la famiglia con cui si hanno problemi e premere il pulsante Elimina sulla tastiera. Puoi anche fare clic con il pulsante destro del mouse e selezionare [!UICONTROL Rimuovi famiglia]. Se non si è sicuri del tipo di carattere o della famiglia che causa il problema, provare prima a rimuovere i duplicati come descritto in precedenza.
 
-Il secondo passo sarebbe quello di cancellare la cache dei font e ci sono diversi modi per ottenere questo.
+Il secondo passaggio consiste nel cancellare la cache dei caratteri e ci sono diversi modi per farlo.
 
-Il primo è semplicemente riavviare in modalità provvisoria tenendo premuto il tasto Maiusc immediatamente quando si sentono i tempi di avvio all&#39;avvio. Quando questa modalità viene caricata, deve essere visualizzata una barra di avanzamento durante la quale il sistema eseguirà vari controlli e routine di manutenzione, una delle quali consiste nel cancellare la cache dei font.
+Il primo consiste nel riavviare il sistema in modalità provvisoria tenendo premuto il tasto Maiusc immediatamente quando si sentono i segnali di avvio all&#39;avvio. Quando questa modalità viene caricata, dovrebbe essere visualizzata una barra di avanzamento, durante la quale il sistema eseguirà vari controlli e routine di manutenzione, uno dei quali è quello di cancellare la cache del font.
 
-Il secondo approccio è quello di utilizzare il Terminal, che può essere fatto eseguendo il seguente comando dall&#39;interno di un account amministrativo: *sudo atsutil database -remove*
+Il secondo approccio consiste nell’utilizzare il terminale, che può essere eseguito eseguendo il seguente comando dall’interno di un account amministrativo: *database sudo atsutil -remove*
 
 >[!NOTE]
 >
->Questo comando richiede l&#39;immissione della password, che non verrà visualizzata quando digitato. Si consiglia di consultare il proprio reparto IT in quanto ciò potrebbe richiedere autorizzazioni di amministratore sul computer.
+>Questo comando richiede l&#39;immissione della password, che non verrà visualizzata al momento della digitazione. È consigliabile consultare il reparto IT in quanto potrebbe essere necessario disporre di autorizzazioni di amministratore sul computer.
 
-Un altro approccio consiste nell’utilizzare un’utilità per la cache dei font, ad esempio FontNuke, e cancellare la cache con il suo aiuto.
+Un altro approccio consiste nell’utilizzare un’utility per la cache dei caratteri come ad esempio FontNuke e cancellare la cache con il relativo aiuto.
 
-Molti studi di prestampa e artworking/design utilizzano anche il software Universal Type Server per gestire la licenza e la distribuzione dei font. A volte, può verificarsi un problema con la cache dei font del server del tipo universale, che può causare il [!DNL Workfront Proof] annotazioni da eliminare.
+Molti studi di prestampa e artworking/design utilizzano anche il software Universal Type Server per gestire le licenze e la distribuzione dei font. A volte può verificarsi un problema con la cache dei caratteri del server di tipo universale, che può causare [!DNL Workfront Proof] annotazioni da eliminare.
 
-Per risolvere il problema, cancella la cache dei font del server del tipo universale e riavvia il server del tipo universale.
+Per risolvere il problema, cancellare la cache dei caratteri del server di tipo universale e riavviare il server di tipo universale.
 
 ## Correzione [!DNL Flash] conflitto di font
 
-È possibile che non si disponga dell&#39;accesso a questa funzionalità perché è supportata da [!DNL Flash], che è stato dichiarato obsoleto nella maggior parte degli ambienti.
+Potresti non avere accesso a questa funzionalità perché è supportata da [!DNL Flash], che è stato dichiarato obsoleto nella maggior parte degli ambienti.
 
-Il visualizzatore di correzione legacy si basa su [!DNL Flash Player] e a volte, quando il testo è mancante nel visualizzatore di correzione, è possibile che ci sia un conflitto di font tra OS X e [!DNL Flash Player]. Prova quanto segue:
+Il visualizzatore di bozze legacy si basa su [!DNL Flash Player] e a volte, quando il testo non è presente nel visualizzatore di bozze, è possibile che vi sia un conflitto di font tra OS X e [!DNL Flash Player]. Provare a eseguire le operazioni seguenti:
 
-1. Apri Finder e apri le **[!UICONTROL Vai]** scheda .
-1. Premi il tasto Opzione ( ⌥ Alt) per aprire la [!UICONTROL Libreria] nell’elenco a discesa.
-1. Tenendo premuto il tasto Opzione, fai clic sul pulsante [!UICONTROL Libreria] cartella.
-1. Dopo la [!UICONTROL Libreria] si apre, vai a [!UICONTROL Font] cartella all’interno di .
-1. Sposta tutti i font presenti nella [!UICONTROL Font] in un&#39;altra cartella, ad esempio sul desktop (non creare un&#39;altra cartella all&#39;interno della cartella Font).
-1. Questa azione nasconde tutti i font personalizzati; è comunque necessario salvare i font di sistema standard nella posizione separata.
+1. Apri Finder e apri **[!UICONTROL Vai]** scheda.
+1. Premere il tasto Opzione ( Alt) per aprire [!UICONTROL Libreria] nell’elenco a discesa.
+1. Tenendo premuto il tasto Opzione, fare clic sul pulsante [!UICONTROL Libreria] cartella.
+1. Dopo il [!UICONTROL Libreria] apertura cartella, vai a [!UICONTROL Font] cartella che si trova in.
+1. Spostare tutti i tipi di carattere presenti nel [!UICONTROL Font] cartella in un&#39;altra cartella, ad esempio sul desktop (non creare un&#39;altra cartella all&#39;interno della cartella Fonts).
+1. Questa azione consente di nascondere tutti i tipi di carattere personalizzati; è comunque necessario salvare i tipi di carattere di sistema standard in una posizione separata.
 1. Esci e riavvia [!DNL Safari].
 1. Riapri la bozza.
 
-Ora dovresti vedere i tuoi font. Se non hai bisogno dei font rimossi dalla directory principale, puoi eliminarli in tutta sicurezza. In caso contrario, eseguine l’analisi in batch, copiale nuovamente nella cartella Libreria/Font e scopri quale causa il problema.
+I tipi di carattere dovrebbero essere visualizzati adesso. Se non è necessario rimuovere i tipi di carattere dalla home directory, è possibile eliminarli in modo sicuro. In caso contrario, esaminali in batch, copiali nuovamente nella cartella Libreria/Tipi di carattere e individua la causa del problema.

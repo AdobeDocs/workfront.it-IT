@@ -3,13 +3,13 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Visualizza: oggetti di visualizzazione non inclusi nell’interfaccia standard"
-description: 'È possibile visualizzare in una vista oggetti non inclusi nell''interfaccia in modalità standard. Puoi eseguire questa operazione solo facendo riferimento a essi tramite la modalità testo. È possibile determinare quali campi possono essere inclusi in una visualizzazione in uno dei seguenti modi: MODIFICAMI.'
+description: È possibile visualizzare in una vista oggetti non inclusi nell'interfaccia in modalità standard. Puoi eseguire questa operazione solo facendo riferimento a essi tramite la modalità testo.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: c0138730-494b-4443-865a-44f8f00d5342
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 0%
 È possibile determinare quali campi possono essere inclusi in una visualizzazione in uno dei seguenti modi:
 
 * Utilizza il [API Explorer](../../../wf-api/general/api-explorer.md) per individuare altri oggetti a cui è possibile fare riferimento tramite la modalità testo.\
-   Non tutti i campi documentati in API Explorer sono campi validi per la modalità testo. Alcuni campi sono segnalabili solo tramite l’API.
+  Non tutti i campi documentati in API Explorer sono campi validi per la modalità testo. Alcuni campi sono segnalabili solo tramite l’API.
 
 * Trova il campo ID dell&#39;oggetto in una colonna. La maggior parte degli oggetti che hanno un ID campo hanno anche un nome di colonna o di campo corrispondente che potrebbe non essere accessibile tramite l&#39;interfaccia in modalità standard.
 
-   È possibile utilizzare la modalità testo per includere in una visualizzazione il nome della colonna o del campo al posto dell’ID sostituendo il `fieldnameID` con `fieldname:name`.
+  È possibile utilizzare la modalità testo per includere in una visualizzazione il nome della colonna o del campo al posto dell’ID sostituendo il `fieldnameID` con `fieldname:name`.
 
-   Ad esempio, nell’interfaccia in modalità standard, il **ID proprietario Portfolio** è disponibile per la visualizzazione di un progetto, ma il **Nome proprietario Portfolio** il campo non è. È possibile utilizzare la modalità testo per visualizzare **Nome proprietario Portfolio** nella colonna di una visualizzazione.
+  Ad esempio, nell’interfaccia in modalità standard, il **ID proprietario Portfolio** è disponibile per la visualizzazione di un progetto, ma il **Nome proprietario Portfolio** il campo non è. È possibile utilizzare la modalità testo per visualizzare **Nome proprietario Portfolio** nella colonna di una visualizzazione.
 
 ## Requisiti di accesso
 

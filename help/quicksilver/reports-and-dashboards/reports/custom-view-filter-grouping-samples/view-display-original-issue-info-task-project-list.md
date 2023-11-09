@@ -2,31 +2,31 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Visualizza: visualizza informazioni originali sul problema negli elenchi di attività e progetti'
-description: È possibile visualizzare le seguenti informazioni dal problema originale in una visualizzazione degli elenchi di attività e progetti, dopo che il problema è stato convertito nelle attività e nei progetti nell'elenco - EDIT ME.
+title: "Visualizza: visualizza le informazioni originali sui problemi negli elenchi di attività e progetti"
+description: Dopo aver convertito il problema nelle attività e nei progetti dell’elenco, è possibile visualizzare le informazioni del problema originale in una visualizzazione degli elenchi di attività e progetti.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '141'
 ht-degree: 4%
 
 ---
 
-# Visualizza: visualizzare le informazioni originali sul problema negli elenchi di attività e progetti
+# Visualizza: visualizza le informazioni originali sui problemi negli elenchi di attività e progetti
 
-È possibile visualizzare le seguenti informazioni dal problema originale in una visualizzazione degli elenchi di attività e progetti, dopo che il problema è stato convertito in attività e progetti nell&#39;elenco:
+Dopo aver convertito il problema in attività e progetti dell’elenco, puoi visualizzare le seguenti informazioni del problema originale in una visualizzazione degli elenchi di attività e progetti:
 
 * Nome problema convertito
 * Data voce problema convertito
-* Nome dell&#39;origine del problema convertito
+* Nome del mittente del problema convertito
 
-Per informazioni sulla creazione di una visualizzazione con Report Builder standard, vedi [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Per informazioni sulla creazione di una vista con il generatore di rapporti standard, consulta [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Per ulteriori informazioni sull’inclusione di informazioni aggiuntive sui problemi relativi agli elenchi di progetti e attività, consulta anche [Visualizza: dati relativi ai compiti e ai progetti originari](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Per ulteriori informazioni sull’inclusione di informazioni aggiuntive sui problemi negli elenchi di progetti e attività, consulta anche [Visualizza: dettagli problema di origine per attività e progetti](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
