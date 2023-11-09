@@ -5,14 +5,17 @@ title: Utilizzare i flussi di lavoro nell’integrazione Experience Manager Asse
 description: Utilizzare i flussi di lavoro nell’integrazione Experience Manager Assets Essentials
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 3849bd8ce80f40ae7d05b81e0dd8e846851dffc0
+exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
+source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '838'
 ht-degree: 0%
 
 ---
 
 # Utilizzare i flussi di lavoro nell’integrazione di Experience Manager Assets
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 Un flusso di lavoro è un insieme di azioni che collegano Workfront ad Adobe Experience Manager as a Cloud Service. Un amministratore di Workfront può configurare i flussi di lavoro in Workfront, quindi assegnarli a Modelli di progetto. Quando un progetto viene creato utilizzando un modello di progetto a cui è assegnato un flusso di lavoro, vengono attivate le azioni definite nel flusso di lavoro.
 
@@ -41,7 +44,7 @@ Devi avere i seguenti:
   <tr>
    <td><strong>Prodotto</strong>
    </td>
-   <td><p>Devi disporre di Experience Manager Assets as a Cloud Service o Assets Essentials e devi essere aggiunto al prodotto come utente nell’Admin Console.</p><p>Per creare cartelle collegate, è necessario disporre dell’accesso in scrittura all’archivio in Adobe Experience Manager.</p>&gt;
+   <td><p>È necessario disporre di Experience Manager Assets as a Cloud Service o Assets Essentials e aggiungerli al prodotto come utente nell’Admin Console.</p><p>Devi disporre dell’accesso in scrittura all’archivio in Adobe Experience Manager.</p>
    </td>
   </tr>
   <tr>
@@ -72,7 +75,7 @@ Prima di iniziare,
 
 È possibile aggiungere un flusso di lavoro a un modello di progetto. Il flusso di lavoro verrà applicato a tutti i progetti creati dal modello.
 
-1. <!-- main menu snippet??--> Aprire un modello facendo clic su **Modelli** nel menu principale, quindi selezionare il modello dall&#39;elenco.
+1. Aprire un modello facendo clic su **Modelli** nel menu principale, quindi selezionare il modello dall&#39;elenco.
 1. Clic **Experience Manager Assets** nel pannello di navigazione a sinistra.
 
    >[!NOTE]
@@ -82,7 +85,7 @@ Prima di iniziare,
 1. In **Seleziona un campo di integrazione per flussi di lavoro automatizzati**, seleziona l’integrazione con i flussi di lavoro che desideri utilizzare per i progetti creati da questo modello.
 1. (Facoltativo) Modifica i valori del flusso di lavoro che desideri applicare ai progetti creati da questo modello.
 
-   Ad esempio, per creare una cartella collegata in un percorso diverso da quello predefinito, immettere il percorso della cartella collegata.
+   Per istruzioni su flussi di lavoro specifici, consulta [Modificare i valori del flusso di lavoro in un progetto](#edit-workflow-values-in-a-project) in questo articolo.
 
    Solo i flussi di lavoro attivati nell’area Experience Manager di Configurazione sono disponibili nei modelli o nei progetti.
 
@@ -113,6 +116,8 @@ Puoi aggiungere un flusso di lavoro durante la creazione di un progetto o un flu
 1. Quando selezioni un modello per il progetto, seleziona il modello contenente i flussi di lavoro che desideri utilizzare per questo progetto.
 1. (Facoltativo) Modifica i valori del flusso di lavoro per il progetto, come descritto in [Modificare i valori del flusso di lavoro in un progetto](#edit-workflow-values-in-a-project).
 
+   Solo i flussi di lavoro attivati nell’area Experience Manager di Configurazione sono disponibili nei modelli o nei progetti.
+
 ### Modificare i valori del flusso di lavoro in un progetto
 
 Puoi modificare i valori del flusso di lavoro a livello di progetto. I valori del flusso di lavoro a livello di progetto sostituiscono i valori impostati nel modello di progetto, che sostituiscono i valori predefiniti impostati nell’integrazione di Adobe Experience Manager Assets.
@@ -123,19 +128,35 @@ Tutti i valori del flusso di lavoro sono disponibili in:
 * La sezione Adobe Experience Manager del menu di navigazione a sinistra.
 
 
-   >[!NOTE]
-   >
-   >Se queste aree non sono visibili, l’amministratore di Workfront non ha abilitato i flussi di lavoro per la tua organizzazione.
+  >[!NOTE]
+  >
+  >Se queste aree non sono visibili, l’amministratore di Workfront non ha abilitato i flussi di lavoro per la tua organizzazione.
 
 #### Cartelle collegate
 
 Per modificare il flusso di lavoro per le cartelle collegate:
 
-1. Attiva/disattiva **[!UICONTROL Crea cartella collegata]** su.
-1. Scegli un percorso di cartella per indicare dove desideri che tutte le cartelle collegate siano associate a questa integrazione.
-1. Se utilizzi la finestra Crea progetto o Modifica progetto, fai clic su Salva.
+1. Attiva/Disattiva **[!UICONTROL Crea cartella collegata]** acceso o spento come desiderato.
+1. (Condizionale) Se abiliti le cartelle collegate, scegli un percorso di cartella per indicare dove desideri che tutte le cartelle collegate siano associate a questa integrazione.
+1. Clic **[!UICONTROL Salva]** se si utilizza [!UICONTROL Crea progetto] o [!UICONTROL Modifica progetto] finestra.
 
    Oppure
 
-   Se ti trovi nell’area Adobe Experience Manager, le modifiche vengono salvate automaticamente. <!--Do they though?-->
+   Se si è nel [!DNL Adobe Experience Manager area], le modifiche vengono salvate automaticamente. <!--Do they though?-->
 
+
+#### Pubblicazione delle risorse
+
+<div class="preview">
+
+Per modificare il flusso di lavoro per la pubblicazione delle risorse:
+
+1. Attiva/Disattiva **Pubblicare automaticamente le risorse** acceso o spento come desiderato.
+1. (Condizionale) Se abiliti la pubblicazione, seleziona se desideri pubblicarla nel servizio di pubblicazione, nel portale del brand o in entrambi.
+1. Clic **[!UICONTROL Salva]** se si utilizza [!UICONTROL Crea progetto] o [!UICONTROL Modifica progetto] finestra.
+
+   Oppure
+
+   Se si è nel [!DNL Adobe Experience Manager area], le modifiche vengono salvate automaticamente. <!--Do they though?-->
+
+</div>
