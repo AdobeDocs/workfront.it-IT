@@ -2,126 +2,129 @@
 content-type: overview
 navigation-topic: use-the-gantt-chart
 title: Introduzione a [!UICONTROL Gantt] Grafico
-description: I grafici di Gantt in Adobe Workfront forniscono una rappresentazione visiva di un elenco di attività o progetti.
+description: I grafici di Gantt in Adobe Workfront forniscono una rappresentazione visiva della timeline di un elenco di attività o progetti.
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '539'
 ht-degree: 5%
 
 ---
 
 # Introduzione a [!UICONTROL Diagramma di Gantt]
 
+I grafici di Gantt in Adobe Workfront forniscono una rappresentazione visiva della timeline di un elenco di attività o progetti.
+
 In entrata [!DNL Adobe Workfront], ce ne sono due [!UICONTROL Grafici di Gantt] con funzionalità simili:
 
-* Elenco delle attività [!UICONTROL Diagramma di Gantt]: visualizza informazioni sulle attività a livello di progetto ed è modificabile.
-* Elenco dei progetti [!UICONTROL Diagramma di Gantt]: visualizza informazioni sui progetti e non è modificabile.
+* **Elenco delle attività [!UICONTROL Diagramma di Gantt]**: visualizza informazioni sulle attività e sulla relativa sequenza temporale a livello di progetto. Simile [!UICONTROL Diagramma di Gantt] visualizza informazioni sulle attività modello a livello di modello.
+* **Elenco dei progetti [!UICONTROL Diagramma di Gantt]**: visualizza informazioni sui progetti e sulla relativa timeline.
 
 Anche se sembrano e si sentono simili, le funzionalità di ciascuno sono diverse.
 
+## Considerazioni sul diagramma di Gantt
+
+* È possibile modificare le informazioni nei seguenti modi [!UICONTROL Diagramma di Gantt]:
+   * Un elenco di attività
+* Non è possibile modificare le informazioni nei seguenti elementi [!UICONTROL Grafici di Gantt]:
+   * Un elenco di attività modello
+   * Un elenco di progetti
+* Non esiste [!UICONTROL Diagramma di Gantt] per un elenco di modelli.
+* È possibile configurare le informazioni da visualizzare in entrambi gli elenchi di task [!UICONTROL Diagramma di Gantt] e l’elenco dei progetti [!UICONTROL Diagramma di Gantt].
+* Non è possibile configurare i colori o i caratteri in cui [!UICONTROL Diagramma di Gantt] vengono visualizzate le informazioni.
+* Quando le informazioni vengono aggiornate dalle attività, vengono automaticamente riportate sia nell&#39;elenco delle attività [!UICONTROL Diagramma di Gantt] e l’elenco dei progetti [!UICONTROL Diagramma di Gantt].
+* Quando le informazioni vengono aggiornate dalle attività modello, vengono automaticamente riportate nell&#39;elenco delle attività modello [!UICONTROL Diagramma di Gantt].
+
 ## Accedere a [!UICONTROL Diagramma di Gantt]
 
-Il [!UICONTROL Gantt] grafici in [!DNL Workfront]  fornisce una rappresentazione visiva di un elenco di attività o progetti. È possibile visualizzare l&#39;elenco delle attività [!UICONTROL Diagramma di Gantt] direttamente dall&#39;elenco attività di un progetto o da un report attività. È possibile visualizzare l’elenco dei progetti [!UICONTROL Diagramma di Gantt] in un elenco di progetti o in un report di progetti.
+Il [!UICONTROL Gantt] grafici in [!DNL Workfront]  fornisce una rappresentazione visiva di un elenco di attività o progetti.
+
+È possibile visualizzare l&#39;elenco delle attività [!UICONTROL Diagramma di Gantt] direttamente dall&#39;elenco attività di un progetto o da un report attività.
+
+È possibile visualizzare l’elenco dei progetti [!UICONTROL Diagramma di Gantt] in un elenco di progetti o in un report di progetti.
 
 * [Elenco attività [!UICONTROL Diagramma di Gantt]](#task-list-gantt-chart)
 * [Elenco progetti [!UICONTROL Diagramma di Gantt]](#project-list-gantt-chart)
 
 ### Elenco attività [!UICONTROL Diagramma di Gantt] {#task-list-gantt-chart}
 
-Elenco delle attività [!UICONTROL Diagramma di Gantt] è accessibile nelle seguenti aree:
+<!--The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
-* All’interno di un progetto
+* In a Project
 
-   * [!UICONTROL Attività] area
-   * [!UICONTROL Sottoattività] area
+   * [!UICONTROL Tasks] section
+   * [!UICONTROL Subtasks] section of a task
 
-* All’interno di un modello
+* In a [!UICONTROL Template]
 
-Per accedere all&#39;elenco delle attività [!UICONTROL Diagramma di Gantt], passare a una delle aree sopra indicate e fare clic su [!UICONTROL Diagramma di Gantt] icona.
+* In a [!UICONTROL Task] report-->
 
-![Fai clic sull’icona Diagramma di Gantt](assets/click-gantt-chart-icon.png)
+Per accedere all&#39;elenco delle attività [!UICONTROL Diagramma di Gantt] di un progetto o modello:
+
+1. Passare a una delle seguenti aree:
+
+   * Un progetto, quindi fai clic su [!UICONTROL **Attività**] nel pannello a sinistra.
+   * Un modello, quindi fai clic su [!UICONTROL **Attività modello**] nel pannello a sinistra
+   * Un’attività o un modello, quindi fai clic su [!UICONTROL **Sottoattività**] nel pannello a sinistra.
+   * Un rapporto di attività
+
+1. Fai clic su [!UICONTROL **Gantt**] icona ![](assets/gantt-icon-nwe.png) nella parte superiore dell&#39;elenco delle attività.
+
+   ![](assets/task-list-gantt.png)
+
+   Elenco delle attività [!UICONTROL Diagramma di Gantt] si apre a destra dell&#39;elenco delle attività.
+
+1. Per configurare le informazioni da visualizzare nell&#39;attività [!UICONTROL Gantt] grafico, fai clic sul pulsante [!UICONTROL **Impostazioni**] , quindi attivare una delle opzioni seguenti:
+
+   * [!UICONTROL Date effettive]
+   * [!UICONTROL Assegnazioni]
+   * [!UICONTROL Linea di base]
+   * [!UICONTROL Conferma data]
+   * [!UICONTROL % Completato]
+   * [!UICONTROL Percorso Critico]
+   * [!UICONTROL Diamanti milestone]
+   * [!UICONTROL Linee milestone]
+   * [!UICONTROL Predecessori]
+   * [!UICONTROL Stato di avanzamento]
+   * [!UICONTROL Date Previste]
+
+1. Inizia a modificare le attività come descritto nei seguenti articoli:
+
+   * [Configurare la modalità di visualizzazione delle informazioni nel Diagramma di Gantt](../use-the-gantt-chart/configure-info-on-gantt-chart.md)
+   * [Aggiorna informazioni nell&#39;elenco delle attività Diagramma di Gantt](../use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ### Elenco progetti [!UICONTROL Diagramma di Gantt] {#project-list-gantt-chart}
 
-Elenco dei progetti [!UICONTROL Diagramma di Gantt] è accessibile nelle seguenti aree:
+<!--The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
-* All&#39;interno del [!UICONTROL Progetti] area
-* Entro un Portfolio
+* In the [!UICONTROL Projects] area
+* In the [!UICONTROL Projects] section of a [!UICONTROL Portfolio]
+* In the [!UICONTROL Projects] section of a [!UICONTROL Program]
+* In a [!UICONTROL Project] report-->
 
-   * [!UICONTROL Progetti] area
+Per accedere all’elenco dei progetti [!UICONTROL Diagramma di Gantt]:
 
-* In un report di progetto
+1. Passare a una delle seguenti aree:
 
-   * Qualsiasi report di progetto o attività
+   * Il [!UICONTROL **Progetti**] area
+   * Il [!UICONTROL **Progetti**] sezione di a [!UICONTROL Portfolio]
+   * Il [!UICONTROL **Progetti**] sezione di a [!UICONTROL Programma]
+   * A [!UICONTROL **Progetto**] rapporto
 
-* All’interno di un programma
+1. Fai clic su [!UICONTROL **Gantt**] nella parte superiore dell’elenco dei progetti.
 
-   * In [!UICONTROL Progetti] area
+   ![](assets/project-list-gantt.png)
 
-Per accedere al [!UICONTROL Elenco progetti Diagramma di Gantt], passare a una delle aree sopra indicate e fare clic su [!UICONTROL Diagramma di Gantt] icona.
+   Elenco dei progetti [!UICONTROL Diagramma di Gantt] viene aperto.
 
-![Fai clic sull’icona Diagramma di Gantt](assets/click-gantt-chart-icon.png)
+1. Per configurare le informazioni da visualizzare nel progetto [!UICONTROL Gantt] grafico, fai clic sul pulsante [!UICONTROL **Impostazioni**] , quindi attivare una delle opzioni seguenti:
 
-## Configurare la modalità di visualizzazione delle informazioni sul [!UICONTROL Diagramma di Gantt]
-
-È possibile configurare le informazioni da visualizzare in entrambi gli elenchi di task [!UICONTROL Diagramma di Gantt] e l’elenco dei progetti [!UICONTROL Diagramma di Gantt].\
-Non è possibile configurare i colori o i caratteri in cui [!UICONTROL Diagramma di Gantt] vengono visualizzate le informazioni.
-
-* [Elenco attività [!UICONTROL Diagramma di Gantt]](#task-list-gantt-chart)
-* [Elenco progetti [!UICONTROL Diagramma di Gantt]](#project-list-gantt-chart)
-
-### Elenco attività [!UICONTROL Diagramma di Gantt] {#task-list-gantt-chart-1}
-
-Nell&#39;elenco delle attività sono disponibili le seguenti opzioni di visualizzazione [!UICONTROL Diagramma di Gantt]:
-
-* [!UICONTROL Date effettive]
-* [!UICONTROL Assegnazioni]
-* [!UICONTROL Linea di base]
-* [!UICONTROL Conferma data]
-* [!UICONTROL % Completato]
-* [!UICONTROL Percorso Critico]
-* [!UICONTROL Diamanti milestone]
-* [!UICONTROL Linee milestone]
-* [!UICONTROL Predecessori]
-* [!UICONTROL Stato di avanzamento]
-* [!UICONTROL Date previste]
-
-Per informazioni dettagliate sulle opzioni di visualizzazione elencate in precedenza, vedere [Configurare la modalità di visualizzazione delle informazioni sul [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
-
-### Elenco progetti [!UICONTROL Diagramma di Gantt] {#project-list-gantt-chart-1}
-
-Nell’elenco dei progetti sono disponibili le seguenti opzioni di visualizzazione [!UICONTROL Diagramma di Gantt]:
-
-* [!UICONTROL Date effettive]
-* [!UICONTROL % Completato]
-* [!UICONTROL Diamanti milestone]
-* [!UICONTROL Linee milestone]
-* [!UICONTROL Predecessori]
-* [!UICONTROL Stato di avanzamento]
-* [!UICONTROL Date Previste]
-
-Per informazioni sulle opzioni di visualizzazione elencate in precedenza, vedere [Configurare la modalità di visualizzazione delle informazioni sul [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
-
-## Aggiornare il [!UICONTROL Diagramma di Gantt]
-
-Quando le informazioni vengono aggiornate dall&#39;elenco delle attività, vengono automaticamente riportate in entrambi [!UICONTROL Diagramma di Gantt] e l’elenco dei progetti [!UICONTROL Diagramma di Gantt].
-
-* [Elenco attività [!UICONTROL Diagramma di Gantt]](#task-list-gantt-chart)
-* [Elenco progetti [!UICONTROL Diagramma di Gantt]](#project-list-gantt-chart)
-
-### Elenco attività [!UICONTROL Diagramma di Gantt] {#task-list-gantt-chart-2}
-
-In un progetto è possibile aggiornare l&#39;elenco delle attività [!UICONTROL Diagramma di Gantt] direttamente dal [!UICONTROL Diagramma di Gantt] o dall&#39;elenco delle attività. Per ulteriori informazioni, consulta [Aggiorna informazioni nell&#39;elenco delle attività [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
-
-In un modello, l&#39;elenco delle attività [!UICONTROL Diagramma di Gantt] riflette gli aggiornamenti effettuati nell&#39;elenco delle attività del modello. Questo [!UICONTROL Diagramma di Gantt] non è modificabile.
-
-### Elenco progetti [!UICONTROL Diagramma di Gantt] {#project-list-gantt-chart-2}
-
-Il [!UICONTROL Elenco progetti Diagramma di Gantt] riflette gli aggiornamenti effettuati nell&#39;elenco delle attività di ogni progetto. Questo [!UICONTROL Diagramma di Gantt] non è modificabile.
-
-## Visualizza informazioni su [!UICONTROL Diagramma di Gantt]
-
-Elenco delle attività [!UICONTROL Diagramma di Gantt] e elenco dei progetti [!UICONTROL Diagramma di Gantt] visualizza informazioni su attività e progetti. Per ulteriori informazioni, consulta [Visualizzare le informazioni in [!UICONTROL Diagramma di Gantt]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+   * [!UICONTROL Date effettive]
+   * [!UICONTROL % Completato]
+   * [!UICONTROL Diamanti milestone]
+   * [!UICONTROL Linee milestone]
+   * [!UICONTROL Predecessori]
+   * [!UICONTROL Stato di avanzamento]
+   * [!UICONTROL Date Previste]

@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 2647b060b604eb167554153d9b1e6c6a99f4845b
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1170'
 ht-degree: 4%
 
 ---
@@ -172,8 +172,11 @@ Nella tabella seguente vengono illustrati gli oggetti i cui commenti vengono vis
    <td>Team</td> 
   </tr> 
   <tr> 
-   <td>Scheda orario*</td> 
-   <td>Utente, team</td> 
+   <td>Scheda orario</td> 
+   <td><p>Utente, team</p>
+   <p><b>NOTA</b></p>
+   <p>I commenti delle schede orario vengono visualizzati nella sezione Aggiornamenti dell’utente che crea il commento e nella sezione Aggiornamenti del proprio team predefinito.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>Attività modello</td> 
@@ -184,7 +187,7 @@ Nella tabella seguente vengono illustrati gli oggetti i cui commenti vengono vis
    <td>Iterazione, team</td> 
   </tr> 
   <tr> 
-   <td>Iterazione*</td> 
+   <td>Iterazione</td> 
    <td>Team</td> 
   </tr>
 
@@ -198,7 +201,7 @@ Nella tabella seguente vengono illustrati gli oggetti i cui commenti vengono vis
   </tr> 
  </tbody> 
 </table>
-* Questi non sono disponibili per la nuova esperienza di commento.
+
 
 <br>
 

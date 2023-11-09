@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1496'
 ht-degree: 0%
 
 ---
@@ -219,6 +219,7 @@ Per aggiungere un raggruppamento nella vista timeline:
    Clic **Cancella tutto** per rimuovere tutti i campi.
 
 1. Fai clic all’esterno del **Raggruppa record per** per chiuderlo.
+1. (Facoltativo) Fai clic su **Impostazioni**, quindi **Colore** ai raggruppamenti dei codici colore. Per ulteriori informazioni, vedere [Modificare le impostazioni della vista timeline](#edit-the-timeline-view-settings) in questo articolo.
 
 <!-- 
 
