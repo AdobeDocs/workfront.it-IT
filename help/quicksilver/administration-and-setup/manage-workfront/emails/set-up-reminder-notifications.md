@@ -5,9 +5,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1141'
 ht-degree: 1%
 
 ---
@@ -109,13 +109,13 @@ Per informazioni su come creare un modello e-mail, consulta [Configurare i model
       <td role="rowheader">Criteri</td> 
       <td> <p>Selezionare i criteri per qualificare la notifica di promemoria da programmare. Le notifiche di promemoria non vengono pianificate a meno che la selezione dei criteri non sia soddisfatta.</p> <p>A seconda del tipo di oggetto selezionato nel passaggio 4, sono disponibili le seguenti opzioni di criteri:</p> 
        <ul> 
-        <li><strong>Incompleto nei progetti correnti:</strong> (Disponibile per promemoria relativi a attività e problemi) La notifica di promemoria è pianificata per essere inviata solo quando lo stato dell'oggetto a cui è associata la notifica di promemoria non è Completo e lo stato del progetto è Corrente.</li> 
-        <li><strong>Tutto nei progetti correnti:</strong>(Disponibile per promemoria relativi a attività e problemi) La notifica di promemoria è pianificata per essere inviata indipendentemente dallo stato dell'oggetto e solo quando lo stato del progetto a cui è associata la notifica di promemoria è Corrente.</li> 
-        <li><strong>Progetti non Completati:</strong> (Disponibile per i promemoria del progetto) La notifica del promemoria è pianificata per essere inviata quando lo stato del progetto è diverso da Completo.</li> 
-        <li><strong>Progetti completati:</strong> (Disponibile per i promemoria del progetto) La notifica del promemoria è programmata per essere inviata quando lo stato del progetto è Completo.</li> 
-        <li><strong>Schede orario aperte:</strong> (Disponibile per i promemoria della scheda orario) La notifica del promemoria è pianificata per essere inviata quando lo stato della scheda orario è Aperto.</li> 
-        <li><strong>Schede orario inviate:</strong> (Disponibile per i promemoria della scheda orario) La notifica del promemoria è pianificata per essere inviata quando lo stato della scheda orario è Inviato.</li> 
-        <li><strong>Scheda orario aperta o meno di 40 ore a settimana:</strong> (Disponibile per i promemoria della scheda orario) La notifica del promemoria è pianificata per essere inviata quando lo stato della scheda orario è Aperto o quando la scheda orario ha registrato meno di 40 ore.</li> 
+        <li><strong>Incompleto nei progetti correnti:</strong> <i>(Disponibile per promemoria attività e problemi)</i> La notifica di promemoria è pianificata per essere inviata solo quando lo stato dell'oggetto a cui è associata la notifica di promemoria non è Completo e lo stato del progetto è Corrente.</li> 
+        <li><strong>Tutto nei progetti correnti:</strong> <i>(Disponibile per promemoria attività e problemi)</i> La notifica di promemoria è pianificata per essere inviata indipendentemente dallo stato dell'oggetto e solo quando lo stato del progetto a cui è associata la notifica di promemoria è Corrente.</li> 
+        <li><strong>Progetti non Completati:</strong> <i>(Disponibile per i promemoria dei progetti)</i> La notifica di promemoria è pianificata per essere inviata quando lo stato del progetto è diverso da Completo.</li> 
+        <li><strong>Tutti i progetti:</strong> <i>(Disponibile per i promemoria dei progetti)</i> La notifica di promemoria è pianificata per essere inviata indipendentemente dallo stato del progetto.</li> 
+        <li><strong>Schede orario aperte:</strong> <i>(Disponibile per i promemoria delle schede orario)</i> La notifica di promemoria è pianificata per essere inviata quando lo stato della scheda orario è Aperto.</li> 
+        <li><strong>Schede orario inviate:</strong> <i>(Disponibile per i promemoria delle schede orario)</i> La notifica di promemoria è pianificata per essere inviata quando lo stato della scheda orario è Inviato.</li> 
+        <li><strong>Scheda orario aperta o meno di 40 ore a settimana:</strong> <i>(Disponibile per i promemoria delle schede orario)</i> La notifica di promemoria è pianificata per essere inviata quando lo stato della scheda orario è Aperto o quando la scheda orario ha registrato meno di 40 ore.</li> 
         <li><strong>Modello e-mail:</strong> Dall’elenco a discesa, seleziona un modello e-mail da allegare al promemoria.<br>Per informazioni su come creare un modello e-mail, consulta <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configurare i modelli e-mail</a>.</li> 
        </ul> </td> 
      </tr> 

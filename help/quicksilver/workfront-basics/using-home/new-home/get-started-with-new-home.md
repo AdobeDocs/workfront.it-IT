@@ -6,10 +6,10 @@ description: La nuova Home è una nuova potente funzione per gestire il tuo lavo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: efe1fee1504e39b22b2a40f5e319f53c698acea5
+source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 21%
+source-wordcount: '945'
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ Di seguito sono riportati i dieci widget attualmente disponibili tra cui sceglie
     Mostra le attività che ti sono state assegnate in una tabella con filtri, visualizzazioni e raggruppamenti personalizzabili, oltre a un pulsante per creare direttamente una nuova attività.
 
 * **I miei problemi**\
-    Visualizza i problemi assegnati in una tabella con filtri, viste e raggruppamenti personalizzabili, nonché un pulsante per creare direttamente un nuovo problema.
+    Visualizza i problemi assegnati in una tabella con filtri, viste e raggruppamenti personalizzabili, nonché un pulsante per creare direttamente un nuovo problema. Questo widget include solo i problemi i cui progetti associati sono impostati su Corrente.
 
 * **Le mie richieste**\
     Visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste aperte e un pulsante che apre il riquadro di riepilogo di una richiesta.
