@@ -6,7 +6,7 @@ description: Puoi rispondere alle notifiche e-mail di Workfront generate dai com
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 413e5ff710b4c77b7ea2d870b34bb0627a4fcd86
+source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 1%
@@ -19,12 +19,8 @@ A seconda della configurazione delle notifiche e-mail, potresti ricevere una not
 
 È possibile rispondere a un aggiornamento da una notifica e-mail nei modi seguenti:
 
-risponde al commento originale.
-
 * Utilizza il pulsante Commento all’interno dell’e-mail per tornare a Workfront e rispondere all’aggiornamento nell’area Aggiornamenti.
-* Rispondi all’e-mail ricevuta. L’e-mail di risposta viene aggiunta come Workfront
-
-
+* Rispondi all’e-mail ricevuta. L’e-mail di risposta viene aggiunta come risposta di Workfront al commento originale.
 
 >[!NOTE]
 >
@@ -46,7 +42,7 @@ Puoi rispondere all’e-mail di Workfront generata dai commenti ai seguenti ogge
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
