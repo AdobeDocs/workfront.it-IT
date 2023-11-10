@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -112,11 +112,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Verrà aperta la pagina del tipo di record.
 1. (Condizionale) Seleziona un **Vista tabella** dal **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
-1. Passa il puntatore del mouse sull&#39;intestazione di colonna di un campo che desideri modificare, quindi fai clic sulla freccia rivolta verso il basso dopo il nome del campo.
+1. Passa il puntatore del mouse sull&#39;intestazione di colonna di un campo che desideri modificare, quindi fai clic sulla freccia rivolta verso il basso dopo il nome del campo, quindi fai clic su **Modifica campo**
+
+   Oppure
+
+   Fare doppio clic sull&#39;intestazione di colonna per il campo.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Clic **Modifica campo**, quindi aggiorna le informazioni sul campo e fai clic su **Salva**.
+1. Aggiorna le informazioni sul campo e fai clic su **Salva**.
 
    <!--insert screen shot when finalized-->
 

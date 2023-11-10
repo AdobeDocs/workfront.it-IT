@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -344,9 +344,33 @@ Per rimuovere un elemento dalla scheda orario aggiunto manualmente:
 
 Puoi registrare l’ora specifica del progetto nella Home.
 
-Per informazioni generali sull’utilizzo dell’area Home, consulta [Utilizzare l’area Home](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Per informazioni generali sull&#39;utilizzo dell&#39;area Home, vedere le sezioni seguenti:
 
-Per registrare il tempo su un elemento di lavoro dall&#39;area Home:
+* Per informazioni sull&#39;utilizzo dell&#39;area Home legacy, vedere [Utilizzare l’area Home](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* Per informazioni sull&#39;utilizzo della nuova area Home, vedere [Introduzione alla nuova home in Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
+#### Tempo di connessione per un elemento di lavoro dalla nuova area Home
+
+1. Arrivato al **Home** area.
+1. Aggiungi uno dei seguenti widget:
+
+   * Le mie attività
+   * I miei problemi
+   * Il mio lavoro
+   * Le mie richieste
+1. Seleziona un’attività, un problema o una richiesta in un elenco, quindi fai clic su **Riepilogo**
+
+   Oppure
+
+   Fai clic su **Riepilogo** icona ![](assets/open-summary-icon-in-home.png) da un&#39;attività o un problema nel widget Il mio lavoro.
+
+   Il pannello Riepilogo si apre a destra.
+
+   ![](assets/log-time-new-home-my-work-widget.png)
+1. Continuare a registrare nel pannello Riepilogo, come descritto in [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+
+#### Tempo di connessione di un elemento di lavoro dall’area Home legacy
 
 1. In **Elenco lavori** , selezionare l&#39;elemento in cui si desidera registrare l&#39;ora.
 1. Nel pannello di destra, fai clic su **Tempo di connessione**.
@@ -430,16 +454,16 @@ Per registrare il tempo nella sezione Ore di un progetto, attività o problema:
    * **Proprietario:** Per impostazione predefinita, il tuo nome viene visualizzato in questo campo.\
      Se si registrano le ore per un altro utente, specificarne il nome.
 
-   * **Ore**: immetti il numero di ore per il progetto, l’attività o il problema.
    * **Tipo di Ora**: seleziona un Tipo di ora dal menu a discesa, se diverso da quello visualizzato per impostazione predefinita.
 
      A seconda dei tipi di ore configurati nel sistema, le opzioni disponibili possono variare. Per ulteriori informazioni sulla configurazione dei tipi di ora, consulta [Definire i tipi di ore e la disponibilità per le schede orario](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Ruolo**: (Condizionale) se l’amministratore del Workfront o del gruppo ha abilitato **Assegnare manualmente i ruoli alle voci orarie** , seleziona un **Ruolo** dal menu a discesa. Il Ruolo specificato quando si è assegnati all&#39;oggetto viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un Ruolo nell&#39;oggetto, il Ruolo principale viene visualizzato come impostazione predefinita. Per ulteriori informazioni su questa impostazione, consulta l’articolo [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-     ![Screen_Shot_2017-05-03_at_10.16.52_AM.png](assets/screen-shot-2017-05-03-at-10.16.52-am-350x346.png)
+     ![](assets/log-time-box-in-hours-section-on-task.png)
+   * **Ore**: immetti il numero di ore per il progetto, l’attività o il problema.
 
-1. Clic **Registra ore**.
+1. Clic **Tempo di connessione**.
 
 ### Pannello Riepilogo
 

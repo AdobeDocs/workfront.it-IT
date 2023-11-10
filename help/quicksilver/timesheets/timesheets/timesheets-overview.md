@@ -2,60 +2,113 @@
 content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Panoramica sui fogli presenze
-description: È possibile utilizzare i fogli presenze per tenere traccia del tempo trascorso sul lavoro. Per informazioni sul layout della scheda attività in Adobe Workfront, vedere Comprendere il layout della scheda attività.
+title: Panoramica schede orario
+description: È possibile utilizzare le schede orario per tenere traccia del tempo trascorso sul lavoro. Per informazioni sul layout della scheda orario in Adobe Workfront, consulta Comprendere il layout della scheda orario.
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# Panoramica sui fogli presenze
+# Panoramica schede orario
 
-È possibile utilizzare i fogli presenze per tenere traccia del tempo trascorso sul lavoro. Per informazioni sul layout della scheda attività in Adobe Workfront, consulta [Comprendere il layout del foglio presenze](../../timesheets/timesheets/timesheet-layout.md).
+Puoi utilizzare le schede orario per tenere traccia del tempo trascorso su lavoro in Adobe Workfront.
 
-È possibile accedere al tempo in Workfront in diversi modi, in genere a livello di progetto, attività o problema in cui viene eseguito il lavoro. Nella scheda attività viene visualizzato anche il tempo registrato per attività, problemi e progetti.
+In qualità di amministratore di Workfront o di gruppo, puoi creare schede orario e associarle ai tuoi utenti. Per informazioni sulla creazione delle schede orario, consulta [Creare e gestire le schede orario](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
-È inoltre possibile registrare il tempo per il lavoro non di progetto, in Orario generale. L&#39;ora generale può essere registrata solo nella scheda attività.
+Una scheda attività è una tabella di tipo griglia che visualizza gli elementi di lavoro e un&#39;area del calendario. È possibile registrare l&#39;ora per gli elementi e associarla al giorno in cui è stato eseguito il lavoro. Tiene traccia del tempo di lavoro effettivo in Workfront. Nella scheda attività è inoltre disponibile un&#39;area in cui è possibile registrare il tempo per elementi non correlati al lavoro, ad esempio riunioni, corsi di formazione o tempo fuori sede.
 
-Per ulteriori informazioni sul tempo di accesso in Workfront, vedi [Tempo di log](../../timesheets/create-and-manage-timesheets/log-time.md).
+Per informazioni sul layout della scheda orario in Adobe Workfront, consulta [Comprendere il layout della scheda orario](../../timesheets/timesheets/timesheet-layout.md).
 
->[!NOTE]
+![](assets/timesheet-example.png)
+
+È possibile registrare il tempo in Workfront in diversi modi, in genere a livello di progetto, attività o problema in cui viene eseguito il lavoro. Nella scheda attività viene visualizzata anche l&#39;ora registrata per attività, problemi e progetti.
+
+È inoltre possibile registrare il tempo per il lavoro non di progetto in Ore generali. L&#39;ora generale può essere registrata solo nella scheda orario.
+
+Per ulteriori informazioni su dove è possibile registrare il tempo in Workfront, consulta [Tempo di connessione](../../timesheets/create-and-manage-timesheets/log-time.md).
+
+>[!TIP]
 >
->L&#39;app mobile Workfront consente inoltre di pubblicare aggiornamenti, modificare l&#39;ora di registrazione, inserire commenti e chiudere la scheda attività.
+>L’app mobile Workfront ti consente inoltre di pubblicare aggiornamenti, modificare l’ora registrata, immettere commenti e chiudere la scheda orario.
 
-## Comprendere il tempo del progetto rispetto al tempo non del progetto
+## Requisiti di accesso
 
-I fogli presenze forniscono agli utenti un modo semplice per tenere traccia del tempo necessario sia per il lavoro di progetto che per quello non di progetto:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
-* **Ora del progetto:** Direttamente dall’attività o dal progetto in cui si desidera tenere traccia dell’ora.
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td> <p>Qualsiasi</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Piano </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> <p><b>NOTA</b>
 
-   Le ore registrate per attività, problemi e progetti tramite una scheda attività vengono associate ai rispettivi elementi di lavoro per fornire una rappresentazione accurata dello sforzo speso per progetti e attività. Senza un&#39;indicazione precisa dell&#39;ora, i dati potrebbero non essere accurati se destinati a scopi di fatturazione.
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+</tr> 
+ </tbody> 
+</table>
 
-   Inoltre, quando una risorsa registra ore direttamente sulle attività, i problemi e i progetti vengono visualizzati automaticamente quando l&#39;utente accede alla scheda attività. Si presume che l&#39;intervallo di date della scheda attività si estenda per le date in cui sono state registrate le ore.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-* **Ora non progetto:** Direttamente sulla scheda attività utente. Per ulteriori informazioni su come tenere traccia del tempo in Workfront, vedi  [Tempo di log](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-   Su una scheda attività, una risorsa può registrare ore di vacanza, ore di malattia, ore trascorse in transito, ore trascorse per la riparazione o la manutenzione di attrezzature o qualsiasi tipo di orario generale di overhead che si desidera creare.
+## Comprendere il tempo del progetto e il tempo non del progetto
 
-## Comprendere dove è possibile registrare il tempo
+Le schede orario forniscono agli utenti un modo semplice per tenere traccia del tempo sia per il lavoro di progetto che per quello non di progetto:
 
-L&#39;area Fogli attività consente di accedere a tre diverse aree di gestione della scheda attività. In ogni scheda attività vengono visualizzate tutte le attività, i problemi e i progetti per i quali è stato eseguito il log time. In una scheda attività sono inoltre visualizzate fino a 45 attività, problemi o progetti assegnati con date entro l&#39;intervallo di tempo della scheda attività, ma per i quali non è ancora stato registrato il tempo.
+* **Ora progetto:** Direttamente dall&#39;attività o dal progetto in cui si desidera tenere traccia dell&#39;ora.
 
-È possibile tenere traccia dell’ora in Workfront accedendo ai fogli presenze nell’area Timesheets. È possibile aggiornare la visualizzazione, il filtro e il raggruppamento nell’area Fogli orari. Di seguito sono riportati alcuni esempi di filtri incorporati che è possibile selezionare, a seconda del tipo di fogli presenze da visualizzare. Puoi anche creare filtri personalizzati:
+  Le ore registrate per attività, problemi e progetti tramite una scheda orario vengono associate ai rispettivi elementi di lavoro per fornire una rappresentazione accurata dello sforzo speso per progetti e attività. Senza l&#39;inserimento dell&#39;ora esatta, i dati potrebbero non essere accurati se destinati a scopi di fatturazione.
 
-* Tutti i filtri. Questa opzione è selezionata per impostazione predefinita.
+  Inoltre, quando una risorsa registra le ore direttamente sulle attività, i problemi e i progetti vengono visualizzati automaticamente quando l’utente accede alla scheda orario. Ciò presuppone che l’intervallo di date della scheda orario si estenda sulle date in cui sono state registrate le ore.
+
+* **Tempo non dedicato al progetto:** Direttamente sulla scheda orario utente. Per ulteriori informazioni su come tenere traccia del tempo in Workfront, consulta   [Tempo di connessione](../../timesheets/create-and-manage-timesheets/log-time.md).
+
+  In una scheda attività, una risorsa può registrare le ore di ferie, di malattia, di transito, di riparazione o manutenzione delle apparecchiature o qualsiasi tipo di ore di lavoro generale che si desidera creare.
+
+## Accedere alle schede orario nell’area Schede orario
+
+Per informazioni su tutte le aree di Workfront in cui è possibile registrare il tempo, consulta [Tempo di connessione](../../timesheets/create-and-manage-timesheets/log-time.md).
+
+Per accedere a una scheda orario:
+
+1. Fai clic su **Menu principale** icona ![](assets/dots-main-menu.png) nell&#39;angolo superiore destro o **Menu principale** icona ![](assets/lines-main-menu.png) nell’angolo in alto a sinistra di Workfront, se disponibile, fai clic su Schede orario.
+
+   Per impostazione predefinita, viene visualizzata l’area Schede orario e vengono visualizzate tutte le schede orario che ti appartengono o per le quali hai accesso alla visualizzazione.
 
    ![](assets/all-timesheets-list-nwe-350x68.png)
 
-* Il filtro Fogli orari personali che visualizza i fogli presenze che appartengono a te.
+1. Fai clic su una delle seguenti opzioni nell’angolo superiore destro per visualizzare un numero limitato di schede orario:
+
+   * **Le mie schede orario** per visualizzare solo le schede orario.
 
    ![](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
 
-* Filtro Approvazioni foglio presenze personale che visualizza i fogli presenze impostati come approvatore.
+   * **Le mie approvazioni schede orario** per visualizzare solo i timesheet che hai approvato.
 
-   ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+     ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+
+   Viene visualizzato un elenco filtrato di schede orario.
+
+1. (Facoltativo) Aggiorna la visualizzazione, il filtro e il raggruppamento nella parte superiore dell’elenco delle schede orario. Per ulteriori informazioni, consulta [Elementi di reporting: filtri, viste e raggruppamenti](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+
+1. Fai clic su **Intervallo date** di una scheda orario per aprirla.
+
+   Ogni scheda attività visualizza tutte le attività, i problemi e i progetti per i quali hai effettuato l’accesso. In una scheda attività vengono inoltre visualizzate fino a 45 attività, problemi o progetti assegnati all&#39;utente con date comprese nell&#39;intervallo di tempo della scheda attività, ma per i quali potrebbe non essere stato ancora registrato il tempo.
+
+   Per ulteriori informazioni, consulta [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+
+

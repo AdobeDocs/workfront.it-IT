@@ -3,51 +3,54 @@ content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
 title: Panoramica delle visualizzazioni in Adobe Workfront
-description: È possibile personalizzare il tipo di informazioni visualizzate in un elenco o in un rapporto gestendo la visualizzazione dell'elenco o del rapporto. È possibile visualizzare gli oggetti e i relativi attributi in una visualizzazione.
+description: È possibile personalizzare il tipo di informazioni visualizzate in un elenco o in un report gestendo la visualizzazione dell'elenco o del report. È possibile visualizzare gli oggetti e i relativi attributi in una vista.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Panoramica delle visualizzazioni in Adobe Workfront
 
-È possibile personalizzare il tipo di informazioni visualizzate in un elenco o in un rapporto gestendo la visualizzazione dell&#39;elenco o del rapporto. È possibile visualizzare gli oggetti e i relativi attributi in una visualizzazione. Per informazioni sugli oggetti di Adobe Workfront, vedi [Comprendere gli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+È possibile personalizzare il tipo di informazioni visualizzate in un elenco o in un report gestendo la visualizzazione dell&#39;elenco o del report. È possibile visualizzare gli oggetti e i relativi attributi in una vista. Per informazioni sugli oggetti di Adobe Workfront, consulta [Comprendere gli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Considerazioni sulle visualizzazioni
 
-* Puoi personalizzare le visualizzazioni esistenti. Anche tutti gli utenti che possono visualizzare le visualizzazioni possono vedere le modifiche apportate.
-* Per poter creare visualizzazioni, l’amministratore di Adobe Workfront deve concedere all’utente l’accesso per la modifica di filtri, visualizzazioni e raggruppamenti.
+* Potete personalizzare le viste esistenti. Anche tutti gli utenti che possono visualizzare le visualizzazioni possono visualizzare le modifiche.
+* Per poter creare le viste, l’amministratore Adobe Workfront deve concedere l’accesso per la modifica di filtri, viste e raggruppamenti.
 
-   Per informazioni sulla concessione dell&#39;accesso alle modifiche, consulta [Consentire l’accesso a filtri, visualizzazioni e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Per informazioni sulla concessione dell&#39;accesso in modifica, vedere [Concedere l’accesso a filtri, viste e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Il livello di autorizzazioni per una visualizzazione determina la modalità di salvataggio di una visualizzazione. Se la visualizzazione è stata creata in origine, è possibile salvare le modifiche; in caso contrario viene richiesto di salvare una versione della visualizzazione. Se apporti modifiche a una visualizzazione che hai condiviso con altri, influisce anche su di loro.
-* Puoi personalizzare una visualizzazione condivisa con te solo se l’utente che l’ha condivisa ti ha concesso l’accesso Gestione. Per informazioni sulla condivisione di una visualizzazione, vedi [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Il livello di autorizzazioni di una visualizzazione determina il modo in cui viene salvata. Se la vista è stata creata in origine, è possibile salvare le modifiche, altrimenti viene richiesto di salvare una versione della vista. Le modifiche apportate a una visualizzazione condivisa con altri utenti hanno un impatto anche su di esse.
+* È possibile personalizzare una visualizzazione condivisa solo se l&#39;utente che l&#39;ha condivisa concede l&#39;accesso Gestisci. Per informazioni sulla condivisione di una visualizzazione, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-Puoi personalizzare le viste esistenti, creare nuove viste basate su viste esistenti o creare nuove viste da zero.
+Potete personalizzare le viste esistenti, creare nuove viste basate su viste esistenti o creare nuove viste da zero.
 
 ## Tipi di visualizzazioni in Workfront
 
-Di seguito sono riportati i tipi di visualizzazioni che è possibile applicare negli elenchi o nei rapporti in Workfront:
+Di seguito sono riportati i tipi di visualizzazione che è possibile applicare agli elenchi o ai report in Workfront:
 
 <table style="table-layout:auto">
     <tr>
         <td><strong>Visualizzazioni standard</strong></td>
-        <td>È possibile applicarli a qualsiasi elenco o rapporto di oggetti. Le viste standard sono altamente personalizzabili. Puoi personalizzare e condividere una visualizzazione standard con altri utenti. Per informazioni consulta <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Creare o modificare visualizzazioni in Adobe Workfront</a>.</td>
+        <td>È possibile applicarli a qualsiasi elenco o report di oggetti. Le visualizzazioni standard sono altamente personalizzabili. È possibile personalizzare e condividere una visualizzazione standard con altri utenti. Per informazioni, vedi <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Creare o modificare viste in Adobe Workfront</a>.</td>
     </tr>
     <tr>
-        <td><strong>Vista a mano</strong></td>
-        <td>È possibile applicarlo a un elenco di attività nella sezione Attività di un progetto. Puoi personalizzare e condividere una visualizzazione agile con altri utenti. Per informazioni, consulta <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Creare o modificare visualizzazioni in Adobe Workfront</a>.</td>
+        <td><strong>Visualizzazione Agile</strong></td>
+        <td>Puoi applicarlo a un elenco di attività nella sezione Attività di un progetto. Puoi personalizzare e condividere una visualizzazione agile con altri utenti. Per informazioni, consulta <a href="/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md">Creare o modificare viste in Adobe Workfront</a>.</td>
     </tr>
     <tr>
-        <td><strong>Visualizzazione Gantt</strong></td>
-        <td>È possibile applicarlo a un elenco di attività nella sezione Attività di un progetto, a un elenco di progetti o aggiungerlo a un'attività o a un rapporto di progetto. È possibile personalizzare le informazioni visualizzate nella visualizzazione Gantt utilizzando opzioni predefinite incorporate. Tutti gli utenti che hanno accesso alla visualizzazione di attività o progetti possono visualizzarle nella visualizzazione Gantt. Per informazioni, consulta <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Guida introduttiva al Diagramma di Gantt</a>.</td>
-    </tr>
+        <td><strong>Vista Gantt</strong></td>
+        <td>È possibile applicarlo a un elenco di attività nella sezione Attività di un progetto o a un elenco di progetti oppure aggiungerlo a un report di attività o di progetto. È possibile personalizzare le informazioni visualizzate nella vista Gantt utilizzando le opzioni predefinite incorporate. Tutti gli utenti con accesso per visualizzare attività o progetti possono visualizzarli nella visualizzazione Gantt. Per informazioni, consulta <a href="/help/quicksilver/manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md">Introduzione al diagramma di Gantt</a>.</td>
+       </tr>
 </table>
+
+<!--NOTE FOR MAYBE LATER: consider adding calendar and board views to this list of views (above)?! -->
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -220,11 +223,11 @@ Agile views are available only when viewing a project.
 
 ## Condividere una visualizzazione
 
-Per informazioni su come condividere una visualizzazione, vedi [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Per informazioni su come condividere una visualizzazione, vedere [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Rimuovere una visualizzazione
 
-La possibilità di rimuovere una visualizzazione funziona in modo diverso a seconda che la visualizzazione sia stata creata inizialmente o che sia stata condivisa con te. Non è possibile rimuovere una visualizzazione predefinita.
+La possibilità di rimuovere una vista funziona in modo diverso a seconda che la vista sia stata creata inizialmente o che sia stata condivisa con te. Non è possibile rimuovere una vista predefinita.
 
 Per ulteriori informazioni, consulta [Rimuovere filtri, visualizzazioni e raggruppamenti](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
