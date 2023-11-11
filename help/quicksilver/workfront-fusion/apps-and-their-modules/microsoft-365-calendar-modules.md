@@ -9,7 +9,7 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, è possibile automati
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i flussi di lavoro che utilizzano [!DNL Microsoft Office 365 Calendar], oltre a collegarlo a più applicazioni e servizi di terze parti.
 
-Per utilizzare [!DNL Office 365 Calendar] con [!DNL Adobe Workfront Fusion], è necessario disporre di un [!DNL Office 365 Excel] account. Puoi crearne una in [www.office.com](http://www.office.com/).
+Per utilizzare [!DNL Office 365 Calendar] con [!DNL Adobe Workfront Fusion], è necessario disporre di un [!DNL Office 365 Excel] account. Puoi crearne una in [www.office.com](https://www.office.com/).
 
 Per istruzioni sulla connessione dell&#39;account Office 365 a [!DNL Workfront Fusion], vedi [Creare una connessione a Adobe [!DNL Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md)
 

@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '4475'
 ht-degree: 0%
@@ -95,7 +95,7 @@ L’autenticazione viene eseguita trasmettendo un ID sessione che può essere as
 
 #### Autenticazione intestazione richiesta
 
-Il metodo preferito per l’autenticazione consiste nel trasmettere un’intestazione di richiesta denominata SessionID contenente il token di sessione. Questo ha il vantaggio di essere al sicuro [CSRF (Cross-Site Request Forgery)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) attacchi e non interferire con l’URI a scopo di caching.
+Il metodo preferito per l’autenticazione consiste nel trasmettere un’intestazione di richiesta denominata SessionID contenente il token di sessione. Questo ha il vantaggio di essere al sicuro [CSRF (Cross-Site Request Forgery)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) attacchi e non interferire con l’URI a scopo di caching.
 
 Di seguito è riportato un esempio di intestazione di richiesta:
 

@@ -4,10 +4,10 @@ description: Puoi visualizzare lo stato di [!DNL Workfront] piattaforma, inclusi
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -32,7 +32,7 @@ Puoi visualizzare gli aggiornamenti di stato su [!DNL Adobe] Sito di stato.
 
    Oppure
 
-   Tipo [status.adobe.com](http://status.adobe.com/) nel browser per accedere al sito Stato.
+   Tipo [status.adobe.com](https://status.adobe.com/it/) nel browser per accedere al sito Stato.
 
 1. Seleziona **[!UICONTROL Experience Cloud]**.
 1. Scorri verso il basso e seleziona **[!UICONTROL Adobe Workfront]** dall’elenco delle soluzioni.
@@ -41,7 +41,7 @@ Puoi visualizzare gli aggiornamenti di stato su [!DNL Adobe] Sito di stato.
 
 Per iscriversi al sito di stato o per gestire l&#39;iscrizione dopo l&#39;iscrizione:
 
-1. Vai a [status.adobe.com](http://status.adobe.com/).
+1. Vai a [status.adobe.com](https://status.adobe.com/it/).
 1. Nella barra di stato, seleziona **[!UICONTROL Gestire gli abbonamenti]**.
 1. Se disponi di un account esistente, accedi all’account; in caso contrario, crea un nuovo account.
 1. Fai clic su **[!UICONTROL Creare abbonamenti]** pulsante.
@@ -67,7 +67,7 @@ I ricercatori che si occupano di vulnerabilità e i creatori sfruttano i progett
 
 ## Perché è importante? {#why-is-this-important}
 
-Tutti gli amministratori di rete che supportano la sicurezza devono conoscere il sito Status e le vulnerabilità denominate identificate da Workfront.
+Tutti gli amministratori di rete che supportano la sicurezza devono avere familiarità con il sito Status e le vulnerabilità denominate identificate da Workfront.
 
 Quando vengono divulgate vulnerabilità di impatto di grandi dimensioni, è fondamentale garantire che i fornitori siano consapevoli e mantengano protetti i tuoi dati.
 

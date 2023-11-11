@@ -9,7 +9,7 @@ description: È possibile utilizzare il modulo SOAP per connettersi alle API SOA
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 1%
@@ -68,7 +68,7 @@ Il [!UICONTROL SOAP] Il modulo è attualmente in versione beta e non supporta:
 * Limitazioni per le cifre totali
 * Limitazioni dello spazio vuoto
 * Più parti nei messaggi di input e di output. Sono supportati solo i messaggi in una sola parte
-* Elementi schema XML personalizzati definiti con l&#39;aiuto di [[!UICONTROL SOAP] Codifica](http://schemas.xmlsoap.org) schemi ed elementi.
+* Elementi schema XML personalizzati definiti con l&#39;aiuto di [[!UICONTROL SOAP] Codifica](https://schemas.xmlsoap.org) schemi ed elementi.
 
 >[!INFO]
 >

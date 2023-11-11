@@ -9,7 +9,7 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i 
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 0%
@@ -310,7 +310,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID risoluzione]</td> 
-   <td>Immetti l’ID della risoluzione da utilizzare per la bozza. Per un elenco degli ID risoluzione, vedi [!DNL Workfront Proof] <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">Documentazione API</a>.</td> 
+   <td>Immetti l’ID della risoluzione da utilizzare per la bozza. Per un elenco degli ID risoluzione, vedi [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">Documentazione API</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
