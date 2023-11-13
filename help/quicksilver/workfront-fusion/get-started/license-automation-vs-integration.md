@@ -8,20 +8,26 @@ description: Adobe Workfront Fusion offre due diverse licenze che determinano la
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 8c781894022661bee229a88556728659ff634310
+source-git-commit: 7bae22ba1211298ac77b8909c06e18f2a35cd405
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
 
-# Legacy [!DNL Adobe Workfront Fusion] licenze
+# [!DNL Adobe Workfront Fusion] licenze
+
+[!DNL Workfront Fusion] dispone di due modelli di licenze, un nuovo modello basato su operazioni e un modello basato su connettori legacy.
+
+## Modello di gestione licenze basato su operazioni (nuovo)
+
+Il nuovo [!DNL Workfront Fusion] il modello di licenza si basa sul numero di operazioni utilizzate dall&#39;organizzazione. In questo modello, tutte le organizzazioni hanno accesso alla stessa funzionalità.
+
+Per informazioni su ciò che viene considerato un&#39;operazione con il nuovo modello di licenza, vedere [Operazioni in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
+
+## Modello di licenze basato su connettori (legacy)
 
 In [!DNL Adobe Workfront Fusion] modello di licenza legacy, [!DNL Fusion] offre due diverse licenze che determinano la funzionalità a cui sei in grado di accedere. La tua organizzazione ha scelto una di queste licenze al momento dell’acquisto [!DNL Workfront Fusion].
-
->[!NOTE]
->
->Il nuovo modello di licenza Fusion si basa sul numero di operazioni utilizzate dall&#39;organizzazione. In questo modello, tutte le organizzazioni hanno accesso alla stessa funzionalità.
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
