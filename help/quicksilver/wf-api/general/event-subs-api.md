@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 7f11ddf290c24ac3436ea98f14eff1338388f314
+source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 3%
+source-wordcount: '2126'
+ht-degree: 4%
 
 ---
 
@@ -70,6 +70,7 @@ I seguenti oggetti Workfront sono supportati dalle sottoscrizioni di eventi.
 * Modello
 * Scheda orario
 * Utente
+* Area di lavoro
 
 Per un elenco dei campi supportati dagli oggetti di sottoscrizione degli eventi, vedi [Campi delle risorse di abbonamento agli eventi](../../wf-api/api/event-sub-resource-fields.md).
 
@@ -179,6 +180,10 @@ La risorsa abbonamento contiene i campi seguenti.
        <tr> 
         <td scope="col">Utente</td> 
         <td scope="col">UTENTE</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Area di lavoro</td> 
+        <td scope="col">WORKSPACE</td> 
        </tr> 
       </tbody> 
      </table>
