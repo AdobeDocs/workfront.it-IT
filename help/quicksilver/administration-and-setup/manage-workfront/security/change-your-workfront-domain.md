@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: b9e088a0cdb32f3e8c565ea17f4613dda104bd7b
+source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Richiedi modifica dominio
 
-1. Fai clic su **Supporto** nella pagina Workfront One, quindi inizia a creare un caso di supporto.
+1. Inizia a creare un ticket di supporto su Experience League.
 1. In **Descrizione** , includi il nuovo dominio desiderato e l’intervallo di tempo in cui desideri che il nuovo dominio venga reso live.
 1. Completare la compilazione delle caselle relative al caso di supporto, quindi fare clic su **Invia**.
 
