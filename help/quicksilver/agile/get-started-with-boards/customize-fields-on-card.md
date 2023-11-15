@@ -6,9 +6,9 @@ description: È possibile personalizzare i campi visualizzati su una scheda disa
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 0beb96dc3869e6f913d87f699aa9a51c5aaa8f79
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -71,9 +71,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 I campi personalizzati sono disponibili sulle schede collegate. Sono visibili solo nella vista a schede completa, non nella vista a condensa sulla bacheca.
 
->[!NOTE]
->
->Quando aggiungi un campo personalizzato alle schede, i dati sulla scheda sono di sola lettura.
+I dati sui campi personalizzati sono modificabili sulla scheda, anche se alcuni elementi personalizzati potrebbero essere disponibili per la modifica solo sul campo originale e non sulla scheda.
 
 1. Accedi a una bacheca e fai clic su [!UICONTROL **Configura**] per aprire il pannello Configura.
 1. Espandi [!UICONTROL **Schede**].

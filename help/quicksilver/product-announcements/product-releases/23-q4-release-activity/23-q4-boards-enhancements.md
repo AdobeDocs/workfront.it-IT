@@ -4,9 +4,9 @@ description: Miglioramenti alle schede madri del quarto trimestre 2023
 author: Lisa
 feature: Product Announcements
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 421cfdeaab4ef102b6b896677dae824cbeae4d70
+source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -20,10 +20,6 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 Per informazioni dettagliate su come acconsentire alle nuove funzioni delle bacheche prima del rilascio trimestrale, consulta [Consenso anticipato alle funzioni per le schede madri Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Le sottoattività sono ora disponibili sulle bacheche di Adobe Workfront
-
->[!NOTE]
->
->Questa funzione non è temporaneamente disponibile dal 7 novembre 2023. Questa pagina verrà aggiornata quando la funzione sarà disponibile.
 
 Quando aggiungi una scheda collegata a una bacheca per un’attività di Workfront, tutte le sottoattività esistenti vengono importate nella scheda. Inoltre, quando si crea un&#39;attività secondaria su una scheda connessa, all&#39;attività Workfront viene aggiunta un&#39;attività secondaria.
 
