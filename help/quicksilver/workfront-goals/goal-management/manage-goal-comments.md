@@ -6,9 +6,9 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: c1bc58be18e43a0c9cce10d0117a186ba2abca9e
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -120,16 +120,28 @@ Prima di iniziare, è necessario disporre dei seguenti elementi:
 
 * Modello di layout che include l&#39;area Obiettivi nel menu principale.
 
-## Individua la sezione Aggiornamenti
+## Gestisci commenti obiettivo
 
 Puoi aggiungere commenti agli obiettivi nella sezione Aggiornamenti della pagina di un obiettivo.
 
 È possibile rispondere a o aggiungere un commento a quello aggiunto da altri utenti in quest&#39;area.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) > **Obiettivi** nell’angolo superiore destro.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o **Menu principale** icona ![](assets/lines-main-menu.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Obiettivi**.
 Verrà aperto l&#39;elenco degli obiettivi.
 1. Individua l’obiettivo a cui desideri aggiungere commenti, quindi fai clic sul nome per aprire la pagina dell’obiettivo.
 1. Clic  **Aggiornamenti** nel pannello a sinistra.
+<!--
+1. (Optional) To locate an existing comment, start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab-goals.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+      >[!TIP]
+      >
+      >   Searching for a comment is not available for system activity updates. -->
+
+1. Fai clic su **x** nel campo di ricerca per cancellare i risultati della ricerca e tornare alla pagina completa.
 1. Fai clic su **Commenti** nell&#39;angolo superiore sinistro dell&#39;area Aggiornamenti.
 1. Inizia a immettere un commento in **Nuovo commento** casella.
 

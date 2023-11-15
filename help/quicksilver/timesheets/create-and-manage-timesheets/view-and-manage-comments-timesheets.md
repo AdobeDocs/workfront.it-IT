@@ -6,9 +6,9 @@ description: È possibile aggiungere commenti alle schede orario, agli elementi 
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,12 @@ Puoi fare commenti generali sulla scheda orario.
 
 1. Clic **Schede orario**.
 1. Vai alla scheda orario in cui desideri inserire un commento.
-1. Clic **Aggiornamenti** nel pannello a sinistra, assicurati che **Commenti** è selezionata e inizia a immettere un aggiornamento nel **Nuovo commento** casella.
+1. Clic **Aggiornamenti** nel pannello a sinistra, fai clic su **Commenti** scheda.
+<!--
+1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
+
+   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
+1. Immetti un aggiornamento in **Nuovo commento** casella.
 1. (Facoltativo) Aggiungi persone o team nel **Assegna tag a persone o team** per includerne altri nell’aggiornamento. Per ulteriori informazioni, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 1. (Facoltativo) Aggiungi la formattazione Rich Text al commento. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) Seleziona la **Privato per la mia azienda** opzione se desideri che solo le persone della tua azienda visualizzino l’aggiornamento.
