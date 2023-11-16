@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool consente di comprendere e risolvere 
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
+source-git-commit: 27117543df0d2ba0a5c5035c71a3105d7a855345
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1845'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Se utilizzi Fusion nell’Adobe Unified Shell, puoi accedere allo strumento di s
 
 >[!NOTE]
 >
->Attualmente, solo il **Live Stream** dello strumento Devtool è disponibile per gli utenti di Unified Shell.
+>Attualmente, solo il **Live Stream** e **Scenario Debugger** Le aree di Devtool sono disponibili per gli utenti di Unified Experience. Il **Strumenti** al momento l’area non è disponibile in Unified Experience.
 
 ### Accedere a Devtool in Classic [!DNL Fusion] esperienza
 
@@ -193,6 +193,10 @@ Scenario Debugger è utile per scenari più complessi. Visualizza la cronologia 
 1. Per visualizzare i dettagli della richiesta, fai clic sull’operazione desiderata.
 
 ### Strumenti
+
+>[!NOTE]
+>
+>Questa area non è attualmente disponibile per gli utenti di Adobe Unified Experience.
 
 Il [!DNL Workfront Fusion] Sviluppa strumenti che semplificano la configurazione dello scenario.
 
