@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: bc9d47dddacf82b352ed4dbfe8e57861859d752b
+source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 7%
+source-wordcount: '2642'
+ht-degree: 6%
 
 ---
 
@@ -300,6 +300,7 @@ Quando si apre una di queste schede, nella riga 2 vengono visualizzati i campi d
 >
 >  Ad esempio, nella **Progetto PROJ** , la scheda **setCondition** e **setConditionType** possono essere lasciati vuoti, ma il campo **setGroupID** e **setName** le colonne non possono.
 >
+>* Alcuni campi, tra cui **setResourceRevenue** e **setEnteredByID**, vengono generate automaticamente dal sistema. Se si immettono dati per questi campi nel foglio di calcolo, il processo di avvio lo ignorerà quando si carica il foglio di calcolo.
 
 ### Importare un record  {#import-a-record}
 
