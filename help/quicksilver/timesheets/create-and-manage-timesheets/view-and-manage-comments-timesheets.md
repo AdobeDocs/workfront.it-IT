@@ -6,9 +6,9 @@ description: È possibile aggiungere commenti alle schede orario, agli elementi 
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '849'
 ht-degree: 0%
 
 ---
@@ -76,28 +76,23 @@ I commenti vengono visualizzati sotto l’elemento in cui sono stati registrati 
 
 ### Commento sulla scheda orario generale {#comment-on-the-overall-timesheet}
 
-Puoi fare commenti generali sulla scheda orario.
+Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività complessiva è simile a commentare altri oggetti.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o **Menu principale** icona ![](assets/lines-main-menu.png) nell’angolo in alto a sinistra o in Workfront, se disponibile.
 
 1. Clic **Schede orario**.
 1. Vai alla scheda orario in cui desideri inserire un commento.
 1. Clic **Aggiornamenti** nel pannello a sinistra, fai clic su **Commenti** scheda.
-<!--
-1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
-
-   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
-1. Immetti un aggiornamento in **Nuovo commento** casella.
+1. Inizia ad aggiungere nuovi commenti o rispondi a quelli esistenti, come descritto in [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) Aggiungi persone o team nel **Assegna tag a persone o team** per includerne altri nell’aggiornamento. Per ulteriori informazioni, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (Facoltativo) Aggiungi la formattazione Rich Text al commento. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) Seleziona la **Privato per la mia azienda** opzione se desideri che solo le persone della tua azienda visualizzino l’aggiornamento.
 1. Digita il commento, quindi fai clic su **Invia**.
 
-   Il commento viene visualizzato in [!UICONTROL Aggiornamenti] sezione della scheda orario.
+   Il commento viene visualizzato in [!UICONTROL Aggiornamenti] nella scheda Commenti.
 
 1. (Facoltativo) Fai clic su **Attività di sistema** per rivedere gli aggiornamenti generati dal sistema.
 
-   Per ulteriori informazioni, vedere la sezione &quot;Attivare o disattivare gli aggiornamenti di sistema&quot; nell&#39;articolo [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ### Commento su una singola immissione di ore in una scheda orario {#comment-on-an-individual-hour-entry-in-a-timesheet}
 

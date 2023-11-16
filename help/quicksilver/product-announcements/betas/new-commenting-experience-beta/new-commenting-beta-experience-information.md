@@ -2,15 +2,15 @@
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
 title: Informazioni sulla nuova esperienza beta di commento
-description: La nuova esperienza beta per i commenti è attualmente chiusa. I seguenti articoli documentano le funzioni rese disponibili in come nuova esperienza di commento.
+description: Il nuovo programma experience beta per la creazione di commenti è attualmente chiuso. I seguenti articoli documentano le funzioni rese disponibili in come nuova esperienza di commento.
 author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: 0ffa49583d8c248c8e248caccd1bb5edd18e9a91
+source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '94'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->La nuova esperienza beta per i commenti è attualmente chiusa.
+>Il nuovo programma experience beta per la creazione di commenti è attualmente chiuso.
 >
 >Le funzioni rilasciate durante il periodo beta sono state rese disponibili a tutti i clienti a partire dalla versione del quarto trimestre del 2023 (ottobre 2023).
 
