@@ -7,9 +7,9 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di acqui
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: b816f41796e33fed81b76e80823c83fcb45d2b6b
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '995'
 ht-degree: 2%
 
 ---
@@ -114,9 +114,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    ![Generatore di filtri](assets/intake-filter-dialog6.png)
 
-   Questo esempio mostra un filtro per le attività di un progetto specifico che si trovano nello stato [!UICONTROL Nuovo] o [!UICONTROL In corso], e sono assegnati a me.
+   Questo esempio mostra un filtro per le attività di un progetto specifico che si trovano nello stato [!UICONTROL Nuovo] o [!UICONTROL In corso].
 
-   Per informazioni dettagliate sulla creazione di un filtro, consulta la sezione &quot;Creare o modificare un filtro nel generatore di standard&quot; nell’articolo [Creare o modificare filtri in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   >[!NOTE]
+   >
+   >Si consiglia di non utilizzare il carattere jolly &quot;Me&quot; (utente connesso) in un filtro della bacheca, perché non è garantito che vengano sempre visualizzate le attività o i problemi per l’utente connesso. Dopo aver configurato la bacheca con le attività e i problemi corretti, puoi filtrarla per mostrare gli elementi per un assegnatario specifico. Per ulteriori informazioni, consulta [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+   Per ulteriori dettagli sulla creazione di un filtro, consulta la sezione &quot;Creare o modificare un filtro nel generatore di standard&quot; nell’articolo [Creare o modificare filtri in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Denomina il filtro e fai clic su **[!UICONTROL Salva]**.
 
@@ -141,7 +145,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Utilizzare la colonna Acquisizione
 
 Le schede nella colonna Acquisizione non sono modificabili finché non vengono spostate in altre colonne della bacheca. Puoi fare clic sulla scheda per aprirla in una visualizzazione di sola lettura, oppure fai clic su ![Apri attività o problema](assets/boards-launch-icon.png) per aprire l’attività o il problema in una nuova scheda del browser.
-
 
 Puoi riordinare manualmente gli elementi nella colonna Acquisizione.
 
