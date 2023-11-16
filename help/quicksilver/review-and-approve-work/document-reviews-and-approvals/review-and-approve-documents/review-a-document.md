@@ -6,16 +6,16 @@ description: In qualità di revisore, puoi visualizzare in anteprima un document
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 803dccc3ede32cd2f74eb4646fb5b054b5bcc78e
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Rivedere un documento
 
-In qualità di revisore, puoi visualizzare in anteprima un documento che ti è stato inviato per la revisione.
+In qualità di revisore, puoi visualizzare un documento che ti è stato inviato per la revisione. A differenza di un&#39;approvazione, non puoi prendere una decisione. Al contrario, confermi di aver rivisto la risorsa.
 
 >[!IMPORTANT]
 >
@@ -70,6 +70,7 @@ Add once functionality is added
    Clic **Scarica** per scaricare una copia locale del documento sul dispositivo.
 
 1. (Facoltativo) Dopo aver rivisto il documento, è possibile lasciare un commento per il richiedente nel **Aggiornamenti** sezione. Per ulteriori informazioni sui commenti, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Per registrare che hai completato la revisione, fai clic su **Revisione completa**.
 
 ## Esaminare un documento dal riquadro Riepilogo documento
 
@@ -90,3 +91,4 @@ Add once functionality is added
 1. (Facoltativo) Dopo aver rivisto il documento, è possibile lasciare un commento per il richiedente nel **Aggiornamenti** sezione. Per ulteriori informazioni sui commenti, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Facoltativo) Puoi anche visualizzare in anteprima o scaricare una versione specifica del documento scorrendo fino alla sezione **Versioni** del riquadro Riepilogo documento, quindi facendo clic sull&#39;icona Altro ![](../assets/more-icon.png) accanto alla versione che desideri rivedere e selezionare **Scarica** o **Anteprima**.
+1. Per registrare che hai completato la revisione, fai clic su **Revisione completa**.
