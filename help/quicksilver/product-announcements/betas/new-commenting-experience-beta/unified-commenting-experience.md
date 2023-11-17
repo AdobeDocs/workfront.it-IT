@@ -7,28 +7,33 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3c22ea2ac3a597b5fd5f43d29b937c90c6295b28
+source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '918'
 ht-degree: 3%
 
 ---
 
 # Nuova esperienza di commento
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti.  </span>
+
+<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del primo trimestre 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono alle funzioni rilasciate durante la fase beta per la nuova esperienza di commento.
+>Le informazioni contenute in questo articolo si riferiscono alle funzioni rilasciate nella nuova esperienza di commento.
 >
->Il programma beta per la nuova esperienza di commento è iniziato ad aprile 2023 ed è terminato a ottobre 2023.
+>Il programma beta per la nuova esperienza di commento è iniziato ad aprile 2023 ed è terminato a ottobre 2023. Il programma beta per la nuova esperienza di commento si è chiuso con la versione di ottobre 2023.
 >
->Le funzionalità rilasciate durante il periodo beta sono state rese disponibili a tutti i clienti a partire dalla versione del quarto trimestre del 2023 (ottobre 2023) e il programma beta è stato chiuso.
+>Le funzioni descritte in questo articolo sono state rilasciate a tutti i clienti a ottobre 2023, salvo diversa indicazione.
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -394,13 +399,13 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>1° trimestre 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -409,13 +414,13 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>1° trimestre 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -508,15 +513,15 @@ A seconda degli oggetti per i quali accedi all’esperienza di commento, per la 
 
 * Sia la nuova esperienza di commento che quella legacy per i seguenti oggetti:
 
-      * Progetto
-      * Attività (incluse le storie)
-      * Problema
-      * Documento
-      
-      >[!SUGGERIMENTO]
-      >
-      >Utilizzare l&#39;opzione Nuovo commento per visualizzare la nuova esperienza di commento (quando abilitata) o l&#39;esperienza di commento legacy (quando disabilitata), come descritto in questa sezione. La nuova esperienza di aggiunta di commenti è quella predefinita.
-  
+   * Progetto
+   * Attività (incluse le storie)
+   * Problema
+   * Documento
+
+  >[!TIP]
+  >
+  >Utilizza l’opzione Nuovo commento per visualizzare la nuova esperienza di commento (quando è abilitata) o quella legacy (quando è disabilitata), come descritto in questa sezione. La nuova esperienza di aggiunta di commenti è quella predefinita.
+
    * Solo la nuova esperienza di commento per gli oggetti elencati di seguito. Non è possibile abilitare l’esperienza di commento legacy per questi oggetti:
 
       * Obiettivo
