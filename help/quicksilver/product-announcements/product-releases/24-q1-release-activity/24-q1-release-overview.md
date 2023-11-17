@@ -3,9 +3,9 @@ title: Panoramica sulla versione del primo trimestre 2024
 description: Panoramica sulla versione del primo trimestre 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: cc07fee3d98ff67894ed040cc9125b8cf903a09b
+source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -207,7 +207,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Miglioramenti apportati a Workfront Fusion
 
-A questo punto della versione non sono presenti aggiornamenti di Workfront Fusion. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza che esula dalla pianificazione del rilascio del primo trimestre 2023. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Miglioramenti di Workfront Scenario Planner
 
