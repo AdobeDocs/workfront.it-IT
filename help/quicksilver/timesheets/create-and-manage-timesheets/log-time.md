@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '3491'
 ht-degree: 0%
 
 ---
@@ -118,24 +118,27 @@ In Workfront è possibile registrare il tempo nelle seguenti aree:
 
 #### Tempo di connessione a una scheda orario {#log-time-on-a-timesheet}
 
-È possibile registrare ore generali o ore specifiche del progetto in una scheda orario.
+Puoi registrare il tempo ai seguenti elementi nella scheda orario:
+
+* Attività, problemi e progetti precompilati che vengono visualizzati automaticamente, in base al modo in cui l’amministratore di Workfront imposta le preferenze della scheda orario. Per informazioni sul modo in cui le schede orario vengono precompilate, vedi [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+
+  Solo le attività e i problemi assegnati sono precompilati nella scheda orario. Le attività e i problemi assegnati ai tuoi team o alle tue mansioni non compilano automaticamente la scheda orario.
+
+  Facendo clic su Lavoraci per un elemento assegnato ai team, l&#39;elemento verrà assegnato all&#39;utente e verrà visualizzato nella scheda attività.
+* Attività, problemi o progetti aggiunti manualmente.
+* Attività, problemi o progetti per i quali hai già effettuato l’accesso altrove in Workfront.
+* Tempo generale (ferie, formazione, tempo di lavoro).
 
 >[!NOTE]
 >
 >Gli utenti di revisione assegnati a un profilo Scheda orario possono visualizzare l’area Schede orario e registrare le ore generali. Tuttavia, non possono registrare le ore per le attività o i problemi assegnati che compaiono nella scheda orario.
 
-1. Fai clic su [!UICONTROL **Menu principale**] icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+Per registrare l’ora su una scheda orario:
+
+1. Fai clic su [!UICONTROL **Menu principale**] icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o **Menu principale** icona ![](assets/lines-main-menu.png) nell’angolo in alto a sinistra di Workfront, se disponibile.
 
 1. Clic [!UICONTROL **Schede orario**]. La scheda orario corrente viene visualizzata per impostazione predefinita.
    ![Scheda orario](assets/timesheet-redesigned-nwe.png)
-
-   La scheda orario è precompilata con gli elementi assegnati durante l’intervallo di tempo della scheda orario. Per informazioni sul modo in cui le schede orario vengono precompilate, vedi [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). Se non trovi un elemento nella scheda orario, puoi aggiungerlo.
-
-   >[!NOTE]
-   >
-   >La scheda orario viene precompilata solo con gli elementi assegnati a te. Non viene precompilato con gli elementi assegnati ai team o alle mansioni.
-   >
-   >Facendo clic su Lavoraci per un elemento assegnato ai team, l&#39;elemento verrà assegnato all&#39;utente e verrà visualizzato nella scheda attività.
 
 
 1. (Facoltativo) Fai clic su **a schermo intero** icona ![](assets/full-screen.png) per visualizzare la scheda orario in modalità a schermo intero, fai clic sul pulsante **exit-full-screen** ![](assets/exit-full-screen.png) per tornare alla scheda orario.
