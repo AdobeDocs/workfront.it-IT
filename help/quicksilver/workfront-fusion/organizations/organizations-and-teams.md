@@ -8,9 +8,9 @@ description: Le funzioni Organizzazione e Team di Adobe Workfront Fusion consent
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,8 @@ Un utente ha uno dei seguenti ruoli in un’organizzazione:
 * **[!UICONTROL Contabile]**: un ruolo di contabile consente agli utenti di visualizzare solo le informazioni sulle licenze nel dashboard dell’organizzazione.
 * **[!UICONTROL Sviluppatore di app]**: la funzionalità per questo ruolo non è attualmente disponibile e verrà resa disponibile a breve. Non è consigliabile assegnare gli utenti a questo ruolo in questo momento.
 
+Per informazioni sulle azioni specifiche disponibili per gli utenti in ciascun ruolo dell’organizzazione, consulta [Ruoli di organizzazione e team](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### Invito di utenti a un&#39;organizzazione
 
 Per impostazione predefinita, il proprietario di un’organizzazione (o l’utente autorizzato) può invitare un’altra persona a partecipare all’organizzazione.
@@ -145,7 +147,7 @@ Un utente ha uno dei seguenti ruoli in ciascuno dei propri team:
 * **[!UICONTROL Operatore team]**: Il [!UICONTROL operatore] Il ruolo consente agli utenti di visualizzare i dati di esecuzione e modificare lo stato &quot;Attivo&quot; degli scenari.
 * **[!UICONTROL Membro con restrizioni team]**: la funzionalità per questo ruolo non è attualmente disponibile e verrà resa disponibile a breve. Non è consigliabile assegnare gli utenti a questo ruolo in questo momento.
 
-Per informazioni su attività specifiche disponibili per i ruoli del team, vedi[Ruoli di organizzazione e team](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+Per informazioni sulle azioni specifiche disponibili per gli utenti in ogni ruolo del team, vedi [Ruoli di organizzazione e team](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Gestione team
 
