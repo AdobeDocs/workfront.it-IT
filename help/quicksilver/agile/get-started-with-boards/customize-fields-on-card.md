@@ -6,9 +6,9 @@ description: È possibile personalizzare i campi visualizzati su una scheda disa
 author: Lisa
 feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
-source-git-commit: 63d043a85c2e5300d8b5872b2ec7983de4ba1f50
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -98,3 +98,19 @@ I dati sui campi personalizzati sono modificabili sulla scheda, anche se alcuni 
 >[!NOTE]
 >
 >Se successivamente rinominate il campo personalizzato in Workfront, è necessario modificare l’etichetta del campo nel pannello Configura in modo che corrisponda, altrimenti il campo non viene visualizzato sulle schede.
+
+## Visualizzare o nascondere le schede archiviate
+
+È necessario attivare un&#39;impostazione di configurazione per visualizzare le schede archiviate su una bacheca.
+
+1. Accedi a una bacheca e fai clic su [!UICONTROL **Configura**] per aprire il pannello Configura.
+1. Espandi [!UICONTROL **Schede**].
+1. Attiva [!UICONTROL **Visualizza le schede archiviate sulla bacheca**].
+
+   Ora puoi filtrare la bacheca per mostrare tutte le schede che sono state archiviate. Per ulteriori informazioni, consulta [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+1. Clic [!UICONTROL **Nascondi configurazione**] per chiudere il pannello Configura.
+
+## Configurare la perdita di dati della scheda
+
+Per rimuovere automaticamente le schede dalla bacheca dopo un periodo di tempo, vedi [Configurare la perdita di dati della scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).

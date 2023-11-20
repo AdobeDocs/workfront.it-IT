@@ -6,9 +6,9 @@ description: Quando elimini una scheda da una bacheca, questa viene eliminata de
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: 55d47665ca53c63142d5b71830fe56a05d991c74
+source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ Per impostazione predefinita, su una bacheca vengono visualizzate solo le schede
 
    >[!NOTE]
    >
-   >Il [!UICONTROL Schede archiviate] La sezione non è disponibile nel filtro se non hai attivato l’impostazione di configurazione per visualizzare le schede archiviate.
+   >Il [!UICONTROL Schede archiviate] La sezione non è disponibile nel filtro se non hai attivato l’impostazione di configurazione per visualizzare le schede archiviate. Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Seleziona **[!UICONTROL Schede archiviate]** per cancellare l&#39;opzione e visualizzare solo le schede attive.
