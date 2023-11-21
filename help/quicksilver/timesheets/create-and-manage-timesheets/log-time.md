@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
 workflow-type: tm+mt
 source-wordcount: '3491'
 ht-degree: 0%
@@ -125,6 +125,7 @@ Puoi registrare il tempo ai seguenti elementi nella scheda orario:
   Solo le attività e i problemi assegnati sono precompilati nella scheda orario. Le attività e i problemi assegnati ai tuoi team o alle tue mansioni non compilano automaticamente la scheda orario.
 
   Facendo clic su Lavoraci per un elemento assegnato ai team, l&#39;elemento verrà assegnato all&#39;utente e verrà visualizzato nella scheda attività.
+
 * Attività, problemi o progetti aggiunti manualmente.
 * Attività, problemi o progetti per i quali hai già effettuato l’accesso altrove in Workfront.
 * Tempo generale (ferie, formazione, tempo di lavoro).

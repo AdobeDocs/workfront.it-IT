@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,9 @@ In qualità di leader delle operazioni di marketing, puoi utilizzare Adobe Maest
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro che è una nuova offerta di Adobe.
+>Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro, una nuova offerta di Adobe Workfront.
 >
->Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare le funzionalità Maestro, devi essere un cliente Workfront.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >
@@ -62,7 +62,8 @@ Accedi ai seguenti articoli per una panoramica di Adobe Maestro:
 
 Le sezioni seguenti contengono articoli che descrivono in dettaglio le funzioni Maestro attualmente disponibili:
 
-* [Informazioni di accesso](../maestro/access/access-information.md): informazioni sull’accesso necessario per utilizzare Adobe Maestro.
-* [Informazioni sull&#39;architettura](../maestro/architecture-and-fields/architecture-and-fields-information.md): informazioni approfondite sull’architettura di Adobe Maestro, con istruzioni dettagliate su come creare e gestire aree di lavoro, tipi di record e campi.
+* [Informazioni di accesso](../maestro/access/access-information.md): informazioni sull’accesso e le autorizzazioni necessarie per utilizzare Adobe Maestro.
+* [Informazioni sull&#39;architettura](../maestro/architecture/architecture-information.md): informazioni approfondite sull’architettura di Adobe Maestro, con istruzioni dettagliate su come creare e gestire aree di lavoro e tipi di record.
+* [Informazioni sui campi](../maestro/fields/fields-information.md): informazioni approfondite e istruzioni dettagliate sulla creazione di campi personalizzati per i tipi di record Maestro.
 * [Informazioni sui record](../maestro/records/records-information.md): informazioni approfondite e istruzioni dettagliate su come creare e gestire i record.
-* [Informazioni sulle visualizzazioni](../maestro/views/views-information.md): informazioni approfondite sulle visualizzazioni Maestro e su come gestirle.
+* [Informazioni sulle visualizzazioni](../maestro/views/views-information.md): informazioni approfondite sulle visualizzazioni Maestro e su come gestirle quando visualizzi i record in una pagina di tipo record.

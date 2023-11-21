@@ -1,20 +1,32 @@
 ---
-title: Condividere i record
-description: È possibile condividere i record con altri utenti per aumentare la collaborazione.
+title: Modifica campi
+description: Ad Adobe, Maestro può modificare le impostazioni dei campi già creati.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Condividere i record
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can edit the field settings for fields that are already created.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+
+# Modifica campi
 
 >[!IMPORTANT]
 >
@@ -26,25 +38,24 @@ ht-degree: 0%
 >
 >Per informazioni, consulta [Panoramica di Adobe Maestro](../maestro-overview.md).
 
-Per collaborare con altri utenti, è possibile condividere i record con altri utenti.
+È possibile modificare le impostazioni dei campi già creati.
 
-Puoi condividere un record Maestro nei seguenti modi:
+Per informazioni sulla creazione di campi Adobe Maestro, consulta [Crea campi](../fields/create-fields.md).
 
-* Copiare il collegamento della pagina Dettagli di un record dal browser quando la pagina è aperta.
+Questo articolo descrive come modificare le impostazioni per i campi Maestro. Per informazioni sulla modifica dei valori dei campi per i record Maestro, vedere [Modifica record](../records/edit-records.md).
 
-* Copiare un collegamento nella pagina Dettagli del record quando si visualizzano i record nella visualizzazione tabella del tipo di record.
+## Considerazioni sulla modifica delle informazioni sui campi
 
-<!-- Update with this when we release permissions: 
+* Puoi modificare i campi creati o quelli creati da altri utenti. <!--this will change with access levels/ permissions-->
+* È possibile modificare un campo nella tabella del tipo di record.
+* Non è possibile modificare il tipo di campo dopo il salvataggio del campo.
+* Non è possibile deselezionare l&#39;impostazione Consenti numeri negativi precedentemente selezionata per un campo Numerico, Percentuale o Valuta se sono già presenti valori negativi memorizzati nei record a cui è associato.
+<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
+* You cannot edit the options, or the special format of the following fields, after they are saved:
 
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
+    * Allow negative numbers option from a Number, Percentage, or Currency field. 
+    * The Options of a Single-select or a Multi-select field.
 -->
-
-In questo articolo viene descritto come copiare un collegamento alla pagina Dettagli di un record dalla vista tabella di un tipo di record.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
 
 ## Requisiti di accesso
 
@@ -90,8 +101,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +146,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -156,32 +166,36 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Condividere i collegamenti ai record dalla vista tabella del tipo di record
+## Modifica campi
 
-1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/main-menu-shell.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro**.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
 
-   Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
-1. Fare clic su una scheda del tipo di record.
+   Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
-   Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Da **Visualizza** nell&#39;angolo superiore destro della tabella, selezionare una vista tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
+1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera eliminare i tipi di record.
 
-   I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
-1. Fare clic con il pulsante destro del mouse su una riga di record
+   Verrà aperto il workspace e verranno visualizzati i tipi di record e le tassonomie ad esso associati.
+1. Fare clic sulla scheda relativa al tipo di record o alla tassonomia di cui si desidera modificare i campi.
+
+   Verrà aperta la pagina del tipo di record.
+1. (Condizionale) Seleziona un **Vista tabella** dal **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
+1. Passa il puntatore del mouse sull&#39;intestazione di colonna di un campo che desideri modificare, quindi fai clic sulla freccia rivolta verso il basso dopo il nome del campo, quindi fai clic su **Modifica campo**
 
    Oppure
 
-   Passa il puntatore del mouse sul nome di un record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Copia collegamento**.
+   Fare doppio clic sull&#39;intestazione di colonna per il campo.
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   Il collegamento viene copiato negli Appunti.
+1. Aggiorna le informazioni sul campo e fai clic su **Salva**.
 
-1. Incolla il collegamento in un’e-mail o in una finestra di chat per condividerlo con altri utenti. Quando gli utenti ricevono il collegamento, viene aperta la pagina Dettagli del record.
+   <!--insert screen shot when finalized-->
 
    >[!TIP]
    >
-   >I campi del record nella pagina Dettagli sono gli stessi campi disponibili nella visualizzazione Tabella del record.
+   >Non è possibile aggiornare il tipo di campo dopo il salvataggio del campo.
 
 
-   <!--add there when it will be available: if they have access to this record-->
+1. (Condizionale) Per i campi record collegati, fai clic su **Modifica campi di ricerca** e aggiungere o rimuovere qualsiasi campo dal tipo di record collegato.
+
+   Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).

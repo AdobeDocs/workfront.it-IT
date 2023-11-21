@@ -1,20 +1,31 @@
 ---
-title: Condividere i record
-description: È possibile condividere i record con altri utenti per aumentare la collaborazione.
+title: Elimina tipi di record
+description: È possibile eliminare i tipi di record operativi o i tipi di record della tassonomia quando non sono più rilevanti.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
+hidefromtoc: yes
+hide: yes
+---
+-->
 
-# Condividere i record
+# Elimina tipi di record
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,13 @@ ht-degree: 0%
 >
 >Per informazioni, consulta [Panoramica di Adobe Maestro](../maestro-overview.md).
 
-Per collaborare con altri utenti, è possibile condividere i record con altri utenti.
+È possibile eliminare i tipi di record operativi o i tipi di record della tassonomia quando non sono più rilevanti.
 
-Puoi condividere un record Maestro nei seguenti modi:
+Per informazioni sui tipi di record e sulle tassonomie, vedere [Panoramica dei tipi di record e delle tassonomie](../architecture/overview-of-record-types-and-taxonomies.md).
 
-* Copiare il collegamento della pagina Dettagli di un record dal browser quando la pagina è aperta.
+È consigliabile ricreare i campi e i record associati al tipo di record o alla tassonomia che si desidera eliminare in un altro tipo di record prima di eliminarli.
 
-* Copiare un collegamento nella pagina Dettagli del record quando si visualizzano i record nella visualizzazione tabella del tipo di record.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-In questo articolo viene descritto come copiare un collegamento alla pagina Dettagli di un record dalla vista tabella di un tipo di record.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+<!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## Requisiti di accesso
 
@@ -90,8 +89,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,14 +134,16 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +156,29 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Condividere i collegamenti ai record dalla vista tabella del tipo di record
+## Considerazioni durante l’eliminazione dei tipi di record
 
-1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/main-menu-shell.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro**.
+<!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-   Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
-1. Fare clic su una scheda del tipo di record.
+* È possibile eliminare qualsiasi tipo di record o tassonomia creata dall&#39;utente o da altri utenti dell&#39;organizzazione. <!--this will change with access levels and permissions-->
+* L&#39;eliminazione dei tipi di record comporta la rimozione di tutte le informazioni ad essi associate, inclusi i campi e i record di quel tipo.
+* Non è possibile recuperare i tipi di record eliminati o le relative informazioni.
 
-   Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Da **Visualizza** nell&#39;angolo superiore destro della tabella, selezionare una vista tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
+## Elimina tipi di record
 
-   I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
-1. Fare clic con il pulsante destro del mouse su una riga di record
+L&#39;eliminazione dei tipi di record della tassonomia è identica all&#39;eliminazione dei tipi di record operativi.
 
-   Oppure
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
 
-   Passa il puntatore del mouse sul nome di un record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Copia collegamento**.
+   Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera eliminare i tipi di record.
 
-   Il collegamento viene copiato negli Appunti.
+   Verrà aperto il workspace e verranno visualizzati i tipi di record e le tassonomie ad esso associati.
+1. Fare clic sulla scheda relativa al tipo di record o alla tassonomia che si desidera eliminare.
 
-1. Incolla il collegamento in un’e-mail o in una finestra di chat per condividerlo con altri utenti. Quando gli utenti ricevono il collegamento, viene aperta la pagina Dettagli del record.
+   Verrà aperta la pagina del tipo di record.
+1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Elimina**.
+1. Clic **Elimina** per confermare.
 
-   >[!TIP]
-   >
-   >I campi del record nella pagina Dettagli sono gli stessi campi disponibili nella visualizzazione Tabella del record.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   Il tipo di record o la tassonomia selezionati, insieme ai relativi campi e record associati, vengono eliminati.

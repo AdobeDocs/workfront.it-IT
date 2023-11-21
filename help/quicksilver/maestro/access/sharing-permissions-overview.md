@@ -4,9 +4,9 @@ description: Puoi condividere o rimuovere le autorizzazioni per un’area di lav
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b4b144a36b5ab7d3aab400d4fcd2007df2a2e4a1
+source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '375'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 2%
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
 <!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!-- *********add to TOC****************-->
 
 # Panoramica delle autorizzazioni di condivisione in Adobe Maestro
 
@@ -35,7 +37,7 @@ In Maestro puoi condividere i seguenti oggetti:
 
 * Aree di lavoro
 
-  La condivisione delle aree di lavoro consente di condividere tutti i tipi di record, i record e i campi associati alle aree di lavoro.
+  Quando si condivide un&#39;area di lavoro, vengono condivisi anche tutti i tipi di record, i record e i campi associati alle aree di lavoro.
 
 ## Considerazioni sulla condivisione di oggetti in Maestro
 
@@ -46,7 +48,7 @@ In Maestro puoi condividere i seguenti oggetti:
    * Utenti
    * Gruppi
 
-## Autorizzazioni di condivisione per gli oggetti Maestro
+## Condivisione delle autorizzazioni per gli oggetti Maestro
 
 La tabella seguente illustra il livello di autorizzazioni che è possibile selezionare quando si condivide un&#39;area di lavoro Maestro:
 
@@ -54,9 +56,14 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
  <col> 
  <col> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"><p><b>Livello di autorizzazione</b></p></td> 
+   <td> <p><b>Azioni eseguibili</b></p> 
+    </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">Visualizza</td> 
-   <td> <p>Puoi eseguire le seguenti azioni:</p> 
+   <td role="rowheader"><p>Visualizza</p></td> 
+   <td> 
     <ul> 
      <li>Visualizzare l’area di lavoro</li> 
      <li>Visualizza tutti i tipi di record nell'area di lavoro</li> 
@@ -65,8 +72,8 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Contribuisci</td> 
-   <td> <p>Puoi eseguire le seguenti azioni:</p> 
+   <td role="rowheader"><p>Contribuisci</p></td> 
+   <td>  
     <ul> 
      <li>Tutte le azioni incluse nell’autorizzazione Visualizzazione</li> 
      <li>Aggiungi record</li>
@@ -77,8 +84,8 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Gestire</td> 
-   <td> <p>Puoi eseguire le seguenti azioni:</p> 
+   <td role="rowheader"><p>Gestire</p></td> 
+   <td> 
     <ul> 
      <li>Tutte le azioni incluse nelle autorizzazioni Visualizza e Contribuisci</li> 
      <li>Modifica tipi di record</li> 
@@ -90,7 +97,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Amministratori Workfront</td> 
+   <td role="rowheader"><p>Amministratori Workfront</p></td> 
    <td> <p>Non è un permesso del Maestro.</p>
    <p> Tutti gli amministratori di Workfront possono effettuare le seguenti operazioni: </p>
    <ul><li>Creare aree di lavoro</li>
@@ -101,13 +108,15 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
  </tbody> 
 </table>
 
+<!-- the following sections are hidden in the links below - ensure they are visible-->
+
 ## Condividere un’area di lavoro
 
-Per informazioni sulla condivisione di un’area di lavoro Maestro, consulta [Concedi l’accesso](../access/grant-access.md).
+Per informazioni sulla condivisione di un’area di lavoro Maestro, consulta [Concedere l’accesso a Adobe Maestro](../access/grant-access.md).
 
 ## Rimuovere le autorizzazioni per un’area di lavoro
 
-Per informazioni sulla condivisione di un’area di lavoro Maestro, consulta [Concedi l’accesso](../access/grant-access.md).
+Per informazioni sulla condivisione di un’area di lavoro Maestro, consulta [Concedere l’accesso a Adobe Maestro](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
 

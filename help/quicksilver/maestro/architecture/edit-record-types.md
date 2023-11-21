@@ -1,20 +1,32 @@
 ---
-title: Elimina record
-description: È possibile eliminare i record creati dall'utente corrente o da un altro utente. Non è possibile recuperare i record eliminati.
+title: Modifica tipi di record
+description: È possibile modificare i tipi di record dopo il salvataggio. I tipi di record sono i tipi di oggetti di Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 1%
+source-wordcount: '455'
+ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav
+---
+title: Edit record types
+description: You can edit record types after they have been saved. Record types are the objec types of Adobe Maestro.
+author: Alina
+role: User
+feature: Work Management 
+topic: Architecture
+hidefromtoc: yes
+hide: yes
+---
 
-# Elimina record
+-->
+
+# Modifica tipi di record
 
 >[!IMPORTANT]
 >
@@ -26,7 +38,7 @@ ht-degree: 1%
 >
 >Per informazioni, consulta [Panoramica di Adobe Maestro](../maestro-overview.md).
 
-Puoi eliminare i record che non sono più rilevanti in Adobe Maestro.
+I tipi di record sono i tipi di oggetti di Adobe Maestro. È possibile modificare l&#39;aspetto dei tipi di record creati dall&#39;utente o da qualsiasi altro utente. Per informazioni sulla creazione di tipi di record Maestro, vedere [Crea tipi di record](../architecture/create-record-types.md).
 
 ## Requisiti di accesso
 
@@ -118,7 +130,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -138,58 +150,34 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Considerazioni sull&#39;eliminazione di record
+## Modifica tipi di record
 
-* È possibile eliminare i record creati dall&#39;utente corrente o da un altro utente.
-* Non è possibile recuperare i record eliminati. <!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
-* Se i record eliminati sono collegati ad altri record, i record collegati non vengono eliminati, ma vengono eliminate anche le informazioni del record eliminato.
-* Non è possibile eliminare i record in blocco. <!--this will probably change-->
-* Non è possibile eliminare record dalla visualizzazione timeline.
-* Impossibile eliminare un tipo di record collegato da un&#39;altra applicazione. Se ad esempio si collega un record Maestro a un oggetto Workfront, non è possibile eliminare l&#39;oggetto Workfront dalla pagina di registrazione dell&#39;oggetto Workfront.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
 
-## Elimina record
+   Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
-È possibile eliminare un record dalle seguenti aree:
+1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera creare i tipi di record.
+1. Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell&#39;angolo superiore destro della scheda tipo di record, quindi fare clic su **Aggiorna aspetto**.
 
-* [Dalla pagina Dettagli di un record](#delete-a-record-from-the-records-details-page)
-* [Dalla vista tabella di un tipo di record](#delete-a-record-from-the-record-type-table-view)
+   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
 
-### Eliminare un record dalla pagina Dettagli del record
+1. Nella casella Aggiorna tipo di record aggiornare le informazioni seguenti:
 
-1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/main-menu-shell.png) nell’angolo in alto a sinistra, se è disponibile, fai clic su Maestro.
+   * **Nome record**: modifica il nome del tipo di record, se necessario. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **Aspetto**: modifica il colore e la forma dell’icona associata al tipo di record. Effettua le seguenti operazioni:
+      * Selezionare un colore per identificare il tipo di record. Colore dell&#39;icona del tipo di record. Il grigio è selezionato per impostazione predefinita.
+      * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
 
-   Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
-1. Selezionare un tipo di record.
+     ![](assets/update-record-type-box.png)
 
-   Viene visualizzata la pagina del tipo di record.
-1. Esegui una delle operazioni seguenti:
+1. Fare clic all&#39;esterno della casella Aggiorna tipo di record per salvare le modifiche.
+1. (Facoltativo) Fai clic sulla scheda del tipo di record nell’area di lavoro per aprire la pagina del tipo di record.
+1. Fai clic su **Altro** a destra del nome del tipo di record, quindi fare clic su **Rinomina** per rinominare il tipo di record
 
-   * In una visualizzazione Tabella fare clic sul nome di un record.
-   * Nella visualizzazione Tabella, posizionare il puntatore del mouse sul nome di un record, quindi fare clic su **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Visualizza**
+   Oppure
 
-     ![](assets/contextual-menu-for-record-row.png)
-   * In una visualizzazione Sequenza temporale, fare clic su una barra dei record.
+   Rinomina il tipo di record nell’intestazione.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
 
-   Il record **Dettagli** viene visualizzata la pagina.
+   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
-1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del record, quindi fare clic su **Elimina**, quindi **Elimina** di nuovo per confermare.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-Il record viene eliminato e non può essere recuperato.
-
-### Eliminare un record dalla vista tabella del tipo di record
-
-1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/main-menu-shell.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro**.
-
-   Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
-1. Selezionare un tipo di record.
-
-   Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Da **Visualizza** nell&#39;angolo superiore destro della tabella, selezionare una vista Tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
-
-   I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
-1. Fare clic con il pulsante destro del mouse su una riga di record, quindi scegliere **Elimina**.
-
-   ![](assets/contextual-menu-for-record-row.png)
-
-   Il record viene eliminato e non può essere recuperato.
+   È inoltre possibile rinominare un tipo di record nell&#39;intestazione della pagina del tipo di record.

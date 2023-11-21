@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1dcc267f04242782efea4a219410380ca5a01e1d
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
@@ -30,9 +30,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro che è una nuova offerta di Adobe.
+>Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro, una nuova offerta di Adobe Workfront.
 >
->Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare le funzionalità Maestro, devi essere un cliente Workfront.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >
@@ -42,9 +42,9 @@ hide: yes
 
 È innanzitutto necessario connettere due tipi di record o un tipo di record a un tipo di oggetto di un&#39;altra applicazione e quindi utilizzare la visualizzazione Tabella del tipo di record per connettere record tra loro o record ad altri oggetti.
 
-Per informazioni sulla connessione di tipi di record tra loro o a tipi di oggetto di altre applicazioni, vedere [Connetti tipi di record](../architecture-and-fields/connect-record-types.md).
+Per informazioni sulla connessione di tipi di record tra loro o a tipi di oggetto di altre applicazioni, vedere [Connetti tipi di record](../architecture/connect-record-types.md).
 
-Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione di tipi di record e record](../architecture-and-fields/example-connect-record-types-and-records.md).
+Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione di tipi di record e record](../architecture/example-connect-record-types-and-records.md).
 
 È possibile connettere i seguenti elementi:
 
@@ -113,6 +113,61 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody>
 </table>
 
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -143,11 +198,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Oggetti Workfront. Ad esempio, devi prima creare progetti, portfolio, programmi, aziende o gruppi in Workfront.
    * Aree di lavoro Maestro, tipi di record e record. Per ulteriori informazioni, consulta i seguenti articoli:
 
-      * [Creare aree di lavoro](../architecture-and-fields/create-workspaces.md)
-      * [Crea tipi di record](../architecture-and-fields/create-record-types.md)
+      * [Creare aree di lavoro](../architecture/create-workspaces.md)
+      * [Crea tipi di record](../architecture/create-record-types.md)
       * [Crea record](../records/create-records.md)
 
-   * Connessioni tra tipi di record o tra tipi di record e oggetti di altre applicazioni. Per informazioni, consulta [Connetti tipi di record](../architecture-and-fields/connect-record-types.md).
+   * Connessioni tra tipi di record o tra tipi di record e oggetti di altre applicazioni. Per informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md)
 
 ### Collega i record Maestro
 
@@ -158,7 +213,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace da cui si desidera connettere i record.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Seleziona un **Tabella** vista da **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
-1. Aggiungere una connessione a un altro record o tipo di oggetto dal tipo di record selezionato. Per informazioni, consulta [Connetti tipi di record](../architecture-and-fields/connect-record-types.md).
+1. Aggiungere una connessione a un altro record o tipo di oggetto dal tipo di record selezionato. Per informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
 
    Viene aggiunta una nuova colonna alla tabella per visualizzare il tipo di record collegato.
 
@@ -216,7 +271,7 @@ Dopo aver creato una connessione tra un tipo di record Maestro e un tipo di ogge
    * Azienda
    * Gruppo
 
-   Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture-and-fields/connect-record-types.md).
+   Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
 
    Viene aggiunta una nuova colonna alla tabella per visualizzare il tipo di oggetto collegato.
 

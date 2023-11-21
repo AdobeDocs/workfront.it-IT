@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 90c730bbab2e62bcc60bee37272edb1219b2afb4
+source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1854'
 ht-degree: 1%
 
 ---
@@ -26,9 +26,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro che è una nuova offerta di Adobe.
+>Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro, una nuova offerta di Adobe Workfront.
 >
->Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare le funzionalità Maestro, devi essere un cliente Workfront.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >[Guarda un video dimostrativo di Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
@@ -130,7 +130,7 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
-  Per ulteriori informazioni, consulta [Creare aree di lavoro](../maestro/architecture-and-fields/create-workspaces.md).
+  Per ulteriori informazioni, consulta [Creare aree di lavoro](../maestro/architecture/create-workspaces.md).
 
 * **Tipo di record**: tipo di oggetto principale Maestro.
 
@@ -140,7 +140,7 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
 
   In Maestro, puoi creare qualsiasi tipo di record che soddisfi i flussi di lavoro della tua organizzazione. Successivamente è possibile definire la relazione tra i tipi di record o le dipendenze tra le maschere.
 
-  Per ulteriori informazioni, consulta [Panoramica dei tipi di record operativi e delle tassonomie](../maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+  Per ulteriori informazioni, consulta [Panoramica dei tipi di record operativi e delle tassonomie](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
   Maestro ha i seguenti tipi di record:
 
@@ -150,7 +150,7 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
 
      Ad esempio, Campaign, Activity, Program possono essere tipi di record operativi.
 
-     Per ulteriori informazioni, consulta [Crea tipi di record](../maestro/architecture-and-fields/create-record-types.md).
+     Per ulteriori informazioni, consulta [Crea tipi di record](../maestro/architecture/create-record-types.md).
 
    * **Tassonomia**: tipo di record che acquisisce gli attributi relativi a un tipo di record operativo.
 
@@ -160,7 +160,7 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
 
      Ad esempio, Pubblico, Area o Indirizzo possono essere tipi di record di tipo tassonomia.
 
-     Per ulteriori informazioni, consulta [Creare tipi di record di tassonomia](../maestro/architecture-and-fields/create-a-taxonomy.md).
+     Per ulteriori informazioni, consulta [Creare tipi di record di tassonomia](../maestro/architecture/create-a-taxonomy.md).
 
 * **Registra**: istanza di un tipo di record Maestro. Un record può fare riferimento a un tipo di record operativo o a una tassonomia.
 
@@ -183,7 +183,7 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
 
   Maestro viene fornito con un modello di area di lavoro di vendita, marketing e gestione dei prodotti.
 
-  Per ulteriori informazioni, consulta [Creare aree di lavoro](../maestro/architecture-and-fields/create-workspaces.md).
+  Per ulteriori informazioni, consulta [Creare aree di lavoro](../maestro/architecture/create-workspaces.md).
 
 * **Campi**: i campi sono attributi che è possibile aggiungere ai tipi di record operativi o di tassonomia che contengono informazioni sul tipo di record. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -199,7 +199,7 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
 
    * I campi Maestro sono completamente personalizzabili e sono accessibili solo in Maestro. Non puoi accedere ai campi Maestro da Workfront.
 
-  Per ulteriori informazioni, consulta [Crea campi](../maestro/architecture-and-fields/create-fields.md)
+  Per ulteriori informazioni, consulta [Crea campi](../maestro/fields/create-fields.md)
 
   Per impostazione predefinita, un nuovo tipo di record operativo è associato ai seguenti campi predefiniti:
 
@@ -243,7 +243,7 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
 
   Per informazioni sul collegamento di tipi di record, record e sulla creazione di campi collegati, vedere gli articoli seguenti:
 
-   * [Connetti tipi di record](../maestro/architecture-and-fields/connect-record-types.md)
+   * [Connetti tipi di record](../maestro/architecture/connect-record-types.md)
    * [Collega record](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->

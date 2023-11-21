@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 324ad45b52dafa96c2854f1fec1172b88643bdc2
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '2069'
+source-wordcount: '2080'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro che è una nuova offerta di Adobe.
+>Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro, una nuova offerta di Adobe Workfront.
 >
->Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti.
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare le funzionalità Maestro, devi essere un cliente Workfront.
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >
@@ -125,7 +125,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 È possibile aggiungere fino a 500 campi (o colonne) in una visualizzazione tabella.
 
 1. Passare a una pagina del tipo di record e selezionare un **Tabella** dal menu a discesa vista.
-1. Inizia ad aggiungere campi (o colonne), come descritto nell’articolo [Crea campi](../architecture-and-fields/create-fields.md).
+1. Inizia ad aggiungere campi (o colonne), come descritto nell’articolo [Crea campi](../fields/create-fields.md).
 
    Le colonne aggiunte sono visibili a tutti gli utenti che accedono al tipo di record e vengono aggiunte come nuovi campi nella pagina Dettagli dei record del tipo di record selezionato.
 
@@ -238,7 +238,7 @@ Per aggiungere un filtro a una vista tabella:
 
      >[!TIP]
      >
-     > Non è possibile selezionare campi collegati. Per informazioni, consulta [Crea campi](../architecture-and-fields/create-fields.md).
+     > Non è possibile selezionare campi collegati. Per informazioni, consulta [Crea campi](../fields/create-fields.md).
 
      <table>
         <thead>
@@ -412,7 +412,7 @@ Per ordinare <!--ungrouped (add this when sorting for groupings will be availabl
 
    >[!TIP]
    >
-   > Non è possibile selezionare campi collegati. Per informazioni, consulta [Crea campi](../architecture-and-fields/create-fields.md).
+   > Non è possibile selezionare campi collegati. Per informazioni, consulta [Crea campi](../fields/create-fields.md).
 
 1. (Facoltativo) In **Ordina record per** , fare clic sul pulsante **x** a destra di un campo di ordinamento per rimuovere l’ordinamento
 

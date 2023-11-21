@@ -1,20 +1,31 @@
 ---
-title: Condividere i record
-description: È possibile condividere i record con altri utenti per aumentare la collaborazione.
+title: Elimina campi
+description: Ad Adobe, Maestro, puoi eliminare i campi personalizzati che non sono più rilevanti.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Condividere i record
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
+
+# Elimina campi
 
 >[!IMPORTANT]
 >
@@ -26,25 +37,22 @@ ht-degree: 0%
 >
 >Per informazioni, consulta [Panoramica di Adobe Maestro](../maestro-overview.md).
 
-Per collaborare con altri utenti, è possibile condividere i record con altri utenti.
+Ad Adobe, Maestro, puoi creare campi personalizzati per memorizzare informazioni sui record.
 
-Puoi condividere un record Maestro nei seguenti modi:
+Per informazioni sulla creazione di campi personalizzati in Maestro, consulta [Crea campi](../fields/create-fields.md).
 
-* Copiare il collegamento della pagina Dettagli di un record dal browser quando la pagina è aperta.
+Puoi eliminare i campi Maestro che non sono più rilevanti.
 
-* Copiare un collegamento nella pagina Dettagli del record quando si visualizzano i record nella visualizzazione tabella del tipo di record.
+## Considerazioni sull’eliminazione dei campi Maestro:
 
-<!-- Update with this when we release permissions: 
+* Puoi eliminare i campi creati o quelli creati da altri utenti o dal sistema. <!--this will change with access levels/ permissions-->
+* Impossibile eliminare il campo Nome di un record. <!--change this to say you can't delete the field selected to be the primary-->
+* È possibile eliminare un campo solo nella tabella del tipo di record.
+* Tutte le informazioni memorizzate nel campo vengono eliminate e non possono essere recuperate.
+* Quando si elimina un campo record collegato, vengono eliminati anche tutti i campi di ricerca collegati dal tipo di record da cui si esegue il collegamento. I campi record collegati dei tipi di record a cui si effettua il collegamento non vengono eliminati.
 
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-In questo articolo viene descritto come copiare un collegamento alla pagina Dettagli di un record dalla vista tabella di un tipo di record.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+  Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
+  <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Requisiti di accesso
 
@@ -90,8 +98,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,7 +143,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -144,6 +151,7 @@ After permissions - replace the table with - below
 </table>
 
 -->
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -156,32 +164,23 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Condividere i collegamenti ai record dalla vista tabella del tipo di record
+## Elimina campi
 
-1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/main-menu-shell.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro**.
+<!--When they release the sharing of fields between other records, revise this section.  -->
 
-   Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
-1. Fare clic su una scheda del tipo di record.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
 
-   Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Da **Visualizza** nell&#39;angolo superiore destro della tabella, selezionare una vista tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
+   Si apre l’ultimo spazio di lavoro a cui si è avuto accesso in Maestro.
+1. Fare clic sulla scheda di un tipo di record di cui si desidera eliminare i campi.
+1. (Condizionale) Seleziona un **Vista tabella** dal **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
+1. Individuare il campo da eliminare nelle intestazioni di colonna, posizionare il puntatore del mouse sull&#39;intestazione di colonna e fare clic sulla freccia rivolta verso il basso dopo il nome del campo.
 
-   I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
-1. Fare clic con il pulsante destro del mouse su una riga di record
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-   Oppure
+1. Clic **Elimina**. <!-- check this: they might replace it with **Delete field**-->
 
-   Passa il puntatore del mouse sul nome di un record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Copia collegamento**.
+   <!--insert screen shot when finalized-->
 
-   ![](assets/contextual-menu-for-record-row.png)
+1. Clic **Elimina** per confermare.
 
-   Il collegamento viene copiato negli Appunti.
-
-1. Incolla il collegamento in un’e-mail o in una finestra di chat per condividerlo con altri utenti. Quando gli utenti ricevono il collegamento, viene aperta la pagina Dettagli del record.
-
-   >[!TIP]
-   >
-   >I campi del record nella pagina Dettagli sono gli stessi campi disponibili nella visualizzazione Tabella del record.
-
-
-   <!--add there when it will be available: if they have access to this record-->
+   Il campo viene eliminato, non può essere recuperato e non può più essere associato ad alcun record.

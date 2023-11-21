@@ -1,20 +1,20 @@
 ---
-title: Condividere i record
-description: È possibile condividere i record con altri utenti per aumentare la collaborazione.
+title: Creare tipi di record di tassonomia
+description: Le tassonomie sono un tipo di tipi di record riutilizzabili che acquisisce attributi relativi a un tipo di record operativo in Adobe Workfront Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
+source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Condividere i record
+# Creare tipi di record di tassonomia
 
 >[!IMPORTANT]
 >
@@ -26,25 +26,11 @@ ht-degree: 0%
 >
 >Per informazioni, consulta [Panoramica di Adobe Maestro](../maestro-overview.md).
 
-Per collaborare con altri utenti, è possibile condividere i record con altri utenti.
+Le tassonomie sono tipi di record che acquisiscono attributi sui tipi di record operativi in Adobe Maestro.
 
-Puoi condividere un record Maestro nei seguenti modi:
+Ad esempio, Campaign può essere un tipo di record operativo. Di seguito sono riportate le tassonomie che acquisiscono gli attributi relativi al tipo di record Campaign: Area geografica, Pubblico, Paese.
 
-* Copiare il collegamento della pagina Dettagli di un record dal browser quando la pagina è aperta.
-
-* Copiare un collegamento nella pagina Dettagli del record quando si visualizzano i record nella visualizzazione tabella del tipo di record.
-
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
-
-In questo articolo viene descritto come copiare un collegamento alla pagina Dettagli di un record dalla vista tabella di un tipo di record.
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+Per ulteriori informazioni sui tipi di record Maestro, vedi [Panoramica dei tipi di record e delle tassonomie](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Requisiti di accesso
 
@@ -52,7 +38,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <table style="table-layout:auto">
  <col>
+ <col>
  <tbody>
+ <tr>
 <td>
    <p> prodotto Adobe</p> </td>
    <td>
@@ -81,6 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p>  
 </td>
   </tr>
+
 <tr>
    <td role="rowheader">Modello di layout</td>
    <td> <p>L’amministratore di sistema deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/grant-access.md">Concedere l’accesso a Adobe Maestro</a>. </p>  
@@ -90,8 +79,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 <!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
+After permssions - replace the table with: 
 
 <table style="table-layout:auto">
  <col>
@@ -136,15 +124,14 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
  </tbody>
 </table>
 
 -->
-
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -156,32 +143,34 @@ After permissions - replace the table with - below
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## Condividere i collegamenti ai record dalla vista tabella del tipo di record
+## Considerazioni sulla creazione di tassonomie
 
-1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/main-menu-shell.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro**.
+* È necessario creare un&#39;area di lavoro prima di poter creare tassonomie nell&#39;area di lavoro.
 
-   Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
-1. Fare clic su una scheda del tipo di record.
+  Per informazioni sulle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
+* È possibile creare un tipo di record di tassonomia eseguendo una delle operazioni seguenti:
+   * Creali automaticamente quando crei un’area di lavoro utilizzando un modello. Per informazioni, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
+   * Creale manualmente, da zero.
+   * Per crearli manualmente, incollare le informazioni da un elenco esterno.
 
-   Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Da **Visualizza** nell&#39;angolo superiore destro della tabella, selezionare una vista tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
+  <!--this is not possible yet:
+  * You can taxonomies to a workspace by doing one of the following:
+    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
 
-   I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
-1. Fare clic con il pulsante destro del mouse su una riga di record
+* Tutte le tassonomie create di recente sono disponibili nei campi seguenti:
 
-   Oppure
+   * Nome <!--if there won't be any more fields, consider rephrasing this-->
 
-   Passa il puntatore del mouse sul nome di un record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Copia collegamento**.
+  È inoltre possibile aggiungere campi personalizzati alle tassonomie. Per ulteriori informazioni, consulta [Crea campi](../fields/create-fields.md).
 
-   ![](assets/contextual-menu-for-record-row.png)
+  >[!NOTE]
+  >
+  >    Le tassonomie create quando si utilizza un modello di area di lavoro dispongono di campi aggiuntivi.
 
-   Il collegamento viene copiato negli Appunti.
+## Creare una tassonomia
 
-1. Incolla il collegamento in un’e-mail o in una finestra di chat per condividerlo con altri utenti. Quando gli utenti ricevono il collegamento, viene aperta la pagina Dettagli del record.
+La creazione di tassonomie è simile alla creazione di un tipo di record operativo da zero o da un modello di workspace.
 
-   >[!TIP]
-   >
-   >I campi del record nella pagina Dettagli sono gli stessi campi disponibili nella visualizzazione Tabella del record.
+Per informazioni, vedere la sezione &quot;Creare un tipo di record da zero&quot; nell&#39;articolo [Crea tipi di record](../architecture/create-record-types.md).
 
-
-   <!--add there when it will be available: if they have access to this record-->
+Per informazioni sulla creazione automatica di tassonomie durante la creazione di un&#39;area di lavoro da un modello, vedere [Creare aree di lavoro](../architecture/create-workspaces.md).
