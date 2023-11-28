@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2223'
 ht-degree: 2%
 
 ---
@@ -117,6 +117,11 @@ Anteprima e produzione per tutti i clienti: 19 ottobre 2023.
 ### Settimana dell’11 settembre 2023
 
 #### La nuova esperienza di aggiunta di commenti acquisisce le informazioni a partire dal 1° gennaio 2019
+
+>[!NOTE]
+>
+>Questa limitazione è stata rimossa dopo il 28 novembre 2023. Per ulteriori informazioni, consulta [Panoramica sulla versione del primo trimestre 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
 
 Progetti, attività, problemi e documenti mostrano gli aggiornamenti a partire dal 1° gennaio 2019. Prima di questo miglioramento, la nuova esperienza di commento acquisiva solo gli aggiornamenti di giugno 2022 per questi oggetti.
 

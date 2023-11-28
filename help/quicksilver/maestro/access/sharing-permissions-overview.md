@@ -4,9 +4,10 @@ description: Puoi condividere o rimuovere le autorizzazioni per un’area di lav
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '382'
 ht-degree: 2%
 
 ---
@@ -94,6 +95,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
      <li>Aggiungi campi</li> 
      <li>Elimina campi</li> 
      <li>Aggiungere nuove connessioni tra tipi di record</li> 
+     <li>Condividere l’area di lavoro con utenti e gruppi</li> 
      </ul> </td> 
   </tr> 
   <tr> 
@@ -119,5 +121,3 @@ Per informazioni sulla condivisione di un’area di lavoro Maestro, consulta [Co
 Per informazioni sulla condivisione di un’area di lavoro Maestro, consulta [Concedere l’accesso a Adobe Maestro](../access/grant-access.md).
 
 <!--This is currently not possible: ## Request permissions to objects -->
-
-

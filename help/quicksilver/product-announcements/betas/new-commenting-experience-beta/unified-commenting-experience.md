@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 937498a68a994d19b0005d518d7e313c48961672
+source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '863'
 ht-degree: 3%
 
 ---
@@ -64,18 +64,21 @@ Le seguenti funzioni sono state rimosse dalla nuova esperienza:
 * Le informazioni &quot;per conto di &lt; nome utente >&quot; quando un amministratore di Workfront o di gruppo effettua l’accesso come altro utente e aggiunge un commento per suo conto sono state originariamente rimosse. È stato ripristinato il 19 ottobre 2023.
 * L’opzione &quot;Richiedi approvazione&quot; quando si applicano tag alle persone durante l’aggiunta di un commento a un documento.
 
+<!--removed this note on November 28, 2023, when this limitation was removed: 
+
 >[!NOTE]
 >
->Per gli oggetti elencati di seguito sono disponibili solo i commenti e gli aggiornamenti di sistema a partire dal 1° gennaio 2019 nella nuova esperienza di aggiunta di commenti.
+>The objects listed below have only the comments and system updates starting with January 1, 2019 available in the new commenting experience.  
 >
->Puoi visualizzare i commenti e gli aggiornamenti di sistema su questi oggetti prima del 1° gennaio 2019 quando visualizzi la sezione Aggiornamenti nell’esperienza corrente:
+>You can view comments and system updates on these objects prior to January 1, 2019 when viewing the Updates section in the current experience:
 >
->* Problemi
->* Progetti
->* Attività
->* Documenti
+>* Issues
+>* Projects
+>* Tasks
+>* Documents
 
-Per ulteriori informazioni, vedere [Domande frequenti sulle nuove esperienze di commento](../../betas/new-commenting-experience-beta/new-commenting-faq.md).
+For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
+-->
 
 La tabella seguente illustra le funzioni che saranno disponibili nella nuova esperienza di commento e la loro disponibilità nelle aree in cui sono supportate:
 
