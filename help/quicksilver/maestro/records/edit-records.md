@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '821'
 ht-degree: 1%
 
 ---
@@ -193,7 +193,7 @@ After permssions - replace the table with:
 
 ### Modificare un record dalla vista tabella del tipo di record
 
-1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) in alto a destra, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> quindi fai clic su **Maestro** ![](assets/maestro-icon.png).
+1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/main-menu-shell.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
 
    Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
@@ -201,10 +201,38 @@ After permssions - replace the table with:
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Da **Visualizza** nell&#39;angolo superiore destro della tabella, selezionare una vista Tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
+1. (Condizionale) Da **Visualizza** menu a discesa nell&#39;angolo superiore destro della tabella, selezionare un **Tabella** visualizzazione. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
 
    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
 1. Fare clic all&#39;interno della riga di un record per iniziare a modificare le informazioni sul record in linea.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. Premi **Invio** sulla tastiera o fare clic all&#39;esterno di una riga per salvare le modifiche. Le modifiche vengono salvate automaticamente. Un indicatore Saved (Salvato) viene visualizzato brevemente nell&#39;angolo superiore destro della vista tabella per indicare che le modifiche sono state salvate.
+
+   >[!NOTE]
+   >
+   >  Non è possibile modificare le informazioni per i campi seguenti, in quanto sono di sola lettura e Workfront li aggiorna automaticamente:
+   >  
+   >  * Campi collegati creati mediante il collegamento di tipi di record
+   >  * Campi dei seguenti tipi: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica
+
+
+1. (Facoltativo) Copia un valore esistente di un campo, quindi incolla in un campo dello stesso tipo su un altro record, quindi fai clic su **Invio** sulla tastiera per salvare le modifiche.
+
+   >[!NOTE]
+   >
+   >Considera quanto segue:
+   >
+   >* Non è possibile copiare informazioni da un&#39;altra origine, ad eccezione di un campo Maestro dello stesso tipo del campo in cui si incollano le informazioni.
+   >
+   >* Non è possibile copiare e incollare i valori dei campi visualizzati nell&#39;area Dettagli di un record.
+   >* Non è possibile copiare e incollare valori di campo per i tipi di campo seguenti:
+   ><ul>
+   >
+   > * Persone
+   >
+   > * Campi di sistema
+   >
+   > * Campi collegati creati in seguito alla connessione di record
+
+   <!--take People out of the list above when they release this - this might be coming later-->

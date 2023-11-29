@@ -3,19 +3,27 @@ content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
 title: Gestisci lavoro
-description: Gli articoli sulla gestione del lavoro in Adobe Workfront sono disponibili nelle sezioni seguenti.
+description: Puoi utilizzare Adobe Workfront per gestire il tuo lavoro. È possibile iniziare determinando quali oggetti di lavoro utilizzare per definire il lavoro, a seconda della complessità e delle risorse o del budget allocato. Questa sezione descrive come organizzare il lavoro in elementi di lavoro più grandi, come progetti, portfolio o programmi, e come suddividere grandi quantità di lavoro in elementi di lavoro più gestibili, come attività e problemi. È inoltre possibile utilizzare il Diagramma di Gantt per definire una sequenza temporale del lavoro o delegare il lavoro ad altri utenti quando non è disponibile per completarlo.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 5d17322b-e517-4475-aa77-faaeb4677152
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
 workflow-type: tm+mt
-source-wordcount: '33'
-ht-degree: 18%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
-# Gestisci lavoro
+# Gestire le informazioni sul lavoro
+
+Puoi utilizzare Adobe Workfront per gestire il tuo lavoro.
+
+È possibile iniziare determinando quali oggetti di lavoro utilizzare per definire il lavoro, a seconda della complessità e delle risorse o del budget allocato.
+
+Questa sezione descrive come organizzare il lavoro in elementi di lavoro più grandi, come progetti, portfolio o programmi, e come suddividere grandi quantità di lavoro in elementi di lavoro più gestibili, come attività e problemi.
+
+È inoltre possibile utilizzare il Diagramma di Gantt per definire una sequenza temporale del lavoro o delegare il lavoro ad altri utenti quando non è disponibile per completarlo.
 
 Questa sezione contiene le seguenti sottosezioni:
 
