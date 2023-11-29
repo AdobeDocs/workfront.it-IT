@@ -3,7 +3,8 @@ title: Miglioramenti all’integrazione per il primo trimestre 2024
 description: Miglioramenti all’integrazione per il primo trimestre 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: 864ba63e448a070b3ae5413196cc2fdd316fb931
+exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 Questa pagina descrive tutti i miglioramenti all’integrazione apportati con la versione del primo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del primo trimestre 2024.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## I campi typeahead sono ora disponibili nell’integrazione di Adobe Experience Manager
 
@@ -31,7 +32,3 @@ Per informazioni e istruzioni sulla mappatura dei metadati nell’integrazione d
 Il flusso di lavoro Pubblicazione automatica può essere abilitato e configurato nell’integrazione di Adobe Experience Manager. Quando è attivata, il flusso di lavoro può essere modificato a livello di modello di progetto o di progetto.
 
 Per ulteriori informazioni, consulta [Pubblicazione delle risorse](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets) in [Utilizzare i flussi di lavoro nell’integrazione di Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
-
-
-

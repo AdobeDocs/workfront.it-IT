@@ -3,13 +3,13 @@ title: Panoramica sulla versione del primo trimestre 2024
 description: Panoramica sulla versione del primo trimestre 2024
 author: Becky
 feature: Product Announcements
-source-git-commit: e58f502917e0091b046152531bcda0ee9b759b25
+exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
-
 
 # Panoramica sulla versione del primo trimestre 2024
 
@@ -99,6 +99,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
 </table>
 
+### Miglioramenti Home
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">I pulsanti di azione rapida Il mio lavoro sono stati modificati per essere visualizzati solo al passaggio del mouse</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Per migliorare le prestazioni, i pulsanti di azione rapida disponibili nel widget Il mio lavoro ora vengono visualizzati solo quando un elemento di lavoro viene passato con il mouse.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 29 novembre 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produzione per tutti i clienti: 29 novembre 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Miglioramenti dell’integrazione
 
 <table>
@@ -164,6 +198,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La nuova esperienza con commenti acquisisce tutte le informazioni per progetti, attività, problemi e documenti</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Progetti, attività, problemi e documenti mostrano tutti gli aggiornamenti nella nuova area esperienza di aggiunta di commenti, dall’inizio dell’istanza di Workfront.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 28 novembre 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per tutti i clienti: 28 novembre 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Cerca un commento o un utente nella sezione Aggiornamenti</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Per trovare rapidamente le informazioni nella sezione Aggiornamenti di un oggetto, è ora possibile cercare una parola chiave da un commento o per qualsiasi utente associato a un commento.</p>

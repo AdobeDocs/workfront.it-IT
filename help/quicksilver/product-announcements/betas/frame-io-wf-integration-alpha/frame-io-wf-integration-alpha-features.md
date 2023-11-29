@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 2778cd34a70f2c268490bdf4cbc2e8ef81bdead2
+source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1183'
 ht-degree: 0%
 
 ---
@@ -60,9 +60,17 @@ Per testare la funzionalità, accedi all’istanza Workfront Preview o Sandbox e
 
 Di seguito sono riportate informazioni sui casi d’uso principali che stiamo cercando di affrontare e sulle funzioni che abbiamo pianificato di svolgere. <!--, along with documentation to get you started testing.-->
 
+>[!NOTE]
+>
+><span class="preview">Testo evidenziato</span> di seguito si fa riferimento alle funzioni non ancora implementate, ma che verranno incluse in una versione successiva.
+>
+>Punti elenco sotto a **&quot;Potenziali miglioramenti nelle versioni future&quot;** l’intestazione potrebbe essere inclusa o meno in una versione futura, a seconda del feedback alfa e dei nostri piani di sviluppo in evoluzione.
+>
+
+
 ### Gli amministratori di Workfront possono impostare una connessione tra i gruppi di Workfront e gli account Frame.io
 
-* _In Workfront è possibile collegare un gruppo Workfront a un account Frame.io_
+* <span class="preview">In Workfront è possibile collegare un gruppo Workfront a un account Frame.io</span>
 
 * All&#39;interno di Frame.io verrà creato un nuovo team Frame.io che rappresenta il gruppo Workfront connesso
 
@@ -76,19 +84,19 @@ Di seguito sono riportate informazioni sui casi d’uso principali che stiamo ce
 
 * Possibilità di contrassegnare i progetti Workfront come Frame.io abilitati assegnando un gruppo Frame connesso
 
-* _Miglioramento: possibilità di attivare o disattivare le attività all&#39;interno dei progetti Workfront come attività Frame che, a loro volta, creeranno cartelle di attività all&#39;interno di Frame.io_
+* <span class="preview">Miglioramento: possibilità di attivare o disattivare le attività all&#39;interno dei progetti Workfront come attività Frame che, a loro volta, creeranno cartelle di attività all&#39;interno di Frame.io</span>
 
 * Quando lo stato di un progetto Workfront è impostato su Corrente, viene creato un progetto connesso corrispondente in Frame, gli utenti assegnati a Workfront vengono aggiunti al progetto Frame e viene inviata una notifica e-mail da Frame.io
 
    * Tutti i membri del progetto Workfront (utenti e team) verranno aggiunti come collaboratori al progetto Frame.io (durante la creazione del progetto e in seguito)
 
-   * _Modifica: utenti e team assegnati ad attività di Workfront abilitate per i frame verranno aggiunti come collaboratori al progetto Frame.io e notificati (durante la creazione del progetto e in seguito)_
+   * <span class="preview">Modifica: utenti e team assegnati ad attività di Workfront abilitate per i frame verranno aggiunti come collaboratori al progetto Frame.io e notificati (durante la creazione del progetto e in seguito)</span>
 
 * I documenti (Riassunti creativi) aggiunti al progetto e le attività con Frame abilitato verranno inviati al progetto Frame.io (nella rispettiva cartella di lavoro) quando il progetto viene creato (trigger: stato progetto impostato su Corrente)
 
    * Si consiglia di limitare la quantità di documenti aggiunti al progetto prima di diventare attivi solo nelle descrizioni creative, per evitare di inviare più documenti non necessari a Frame.io
 
-* _Miglioramento: Utenti / team esplicitamente non assegnati a un&#39;attività Workfront abilitata per frame verrà rimossa dal progetto Frame.io_
+* <span class="preview">Miglioramento: Utenti / team esplicitamente non assegnati a un&#39;attività Workfront abilitata per frame verrà rimossa dal progetto Frame.io</span>
 
 **Potenziali miglioramenti nelle versioni future:**
 
@@ -104,9 +112,9 @@ Di seguito sono riportate informazioni sui casi d’uso principali che stiamo ce
 
 * La nuova versione caricata all&#39;interno di Frame.io creerà automaticamente una nuova versione del documento in Workfront sulle risorse collegate
 
-* _Miglioramento: possibilità di contrassegnare le attività Workfront a cui si fa riferimento come completate dall&#39;interno di Frame.io_
+* <span class="preview">Miglioramento: possibilità di contrassegnare le attività Workfront a cui si fa riferimento come completate dall&#39;interno di Frame.io</span>
 
-* _Miglioramento: nel caso in cui il documento Workfront connesso venga eliminato, rimane all&#39;interno di Frame.io e può essere riconnesso alla stessa o ad altra attività di progetto_
+* <span class="preview">Miglioramento: nel caso in cui il documento Workfront connesso venga eliminato, rimane all&#39;interno di Frame.io e può essere riconnesso alla stessa o ad altra attività di progetto</span>
 
 **Potenziali miglioramenti nelle versioni future:**
 
@@ -118,7 +126,7 @@ Di seguito sono riportate informazioni sui casi d’uso principali che stiamo ce
 
 * Gli utenti e i team di Workfront possono essere aggiunti alle nuove approvazioni di documenti per documenti connessi a Frame.io
 
-* _Miglioramento: quando un utente/team non è più condiviso da un documento abilitato per i frame, perde anche l’accesso alla risorsa nel Visualizzatore Frame.io_
+* <span class="preview">Miglioramento: quando un utente/team non è più condiviso da un documento abilitato per i frame, perde anche l’accesso alla risorsa nel Visualizzatore Frame.io</span>
 
 **Potenziali miglioramenti nelle versioni future:**
 
@@ -134,12 +142,12 @@ Di seguito sono riportate informazioni sui casi d’uso principali che stiamo ce
 
 * Possibilità di sfruttare le funzionalità esistenti di revisione e commento fornite dal visualizzatore Frame.io che sarà sincronizzato con il flusso di aggiornamento di Workfront
 
-* _Possibilità di prendere una nuova decisione di approvazione del documento dal visualizzatore Frame.io_
+* <span class="preview">Possibilità di prendere una nuova decisione di approvazione del documento dal visualizzatore Frame.io</span>
 
 ### All&#39;interno di Frame.io, i creativi verranno informati sulle decisioni generali relative alla risorsa Frame.io collegata
 
-* _Miglioramento: lo stato di approvazione generale del documento verrà visualizzato sulla risorsa all&#39;interno di Frame.io_
+* <span class="preview">Miglioramento: lo stato di approvazione generale del documento verrà visualizzato sulla risorsa all&#39;interno di Frame.io</span>
 
 ### I coordinatori dei progetti possono inviare risorse finali all&#39;AEM
 
-* _Miglioramento: i documenti con frame collegato, inclusi i metadati, possono essere inviati all&#39;AEM utilizzando l&#39;attuale connettore Workfront + AEM Asset CS_
+* <span class="preview">Miglioramento: i documenti con frame collegato, inclusi i metadati, possono essere inviati all&#39;AEM utilizzando l&#39;attuale connettore Workfront + AEM Asset CS</span>
