@@ -4,9 +4,9 @@ description: Panoramica sulla versione del primo trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">I campi typeahead sono ora disponibili nell’integrazione di Adobe Experience Manager</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Per semplificare il collegamento dei campi tra Workfront e Adobe Experience Manager, è stato aggiunto il supporto dei campi typeahead nella mappatura dei metadati. Ora è possibile mappare i campi typeahead ai campi corrispondenti in Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">I campi typeahead sono ora disponibili nell’integrazione di Adobe Experience Manager</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Per semplificare il collegamento dei campi tra Workfront e Adobe Experience Manager, è stato aggiunto il supporto dei campi typeahead nella mappatura dei metadati. Ora è possibile mappare i campi typeahead ai campi corrispondenti in Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -159,7 +159,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Versione di anteprima: 16 novembre 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produzione per tutti i clienti: 7 dicembre 2023</span></p>
+                                <p><span class="preview">Produzione per tutti i clienti: 29 novembre 2023</span></p>
                             </li>
                         </ul>
                     </td>
