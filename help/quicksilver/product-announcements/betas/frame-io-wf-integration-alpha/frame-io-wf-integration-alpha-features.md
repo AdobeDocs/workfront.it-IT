@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -32,25 +32,30 @@ Per consentire di testare facilmente le nuove funzioni del programma alfa, abbia
 
 Per testare la funzionalità, accedi all’istanza Workfront Preview o Sandbox ed esegui i seguenti passaggi:
 
+>[!NOTE]
+>
+><span class="preview">Testo evidenziato</span> di seguito sono riportate le funzioni non ancora implementate per il test, ma che verranno incluse in una versione successiva.
+>
+
 1. **Coordinatori:** In Workfront, crea un progetto con `Frame.io alpha testing` gruppo assegnato come gruppo di progetto.
 
-1. **Coordinatori:** In Workfront, assegna i tuoi creativi alle attività abilitate per il progetto o per il Frame e modifica lo stato del progetto su &quot;Corrente&quot;.
+1. **Coordinatori:** In Workfront, assegna i tuoi creativi al progetto <span class="preview">o le attività con frame abilitato</span> e cambia lo stato del progetto in &quot;Corrente&quot;.
 
 1. **Creatività:** Controlla le e-mail per un invito al progetto Frame.io appena creato
 
 1. **Creatività:** Fai clic sul pulsante &quot;Partecipa al progetto&quot; nell’e-mail di invito per partecipare al progetto Frame.io, rivedi il documento creativo all’interno del progetto e avvia la creazione dei contenuti all’interno dello strumento Creative Cloud desiderato.
 
-1. **Creatività:** Carica le risorse create in Frame.io e aggiungile al progetto Workfront collegato (o alle attività assegnate che supportano i frame).
+1. **Creatività:** Carica le risorse create in Frame.io e aggiungile al progetto Workfront collegato <span class="preview">(o attività assegnate abilitate per i fotogrammi).</span>
 
 1. **Coordinatori:** In Workfront, trova le risorse Frame.io collegate nel tuo progetto e assegna revisori/approvatori (per ulteriori informazioni sull’assegnazione di revisioni/approvatori, consulta [Aggiungere altri approvatori o revisori a un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
 
 1. **Parti interessate:** In Workfront, visualizzare la richiesta di approvazione in Dettagli pagina principale o Documento, esaminare il documento Frame connected nel visualizzatore Frame.io e lasciare un commento contenente il feedback.
 
-1. **Coordinatori:** In Workfront, visualizzare i commenti creati dalle parti interessate nella sezione Aggiornamenti del documento connesso Frame.io.
+1. <span class="preview">**Coordinatori:** In Workfront, visualizzare i commenti creati dalle parti interessate nella sezione Aggiornamenti del documento connesso Frame.io.</span>
 
-1. **Parti interessate:** Decidere dall&#39;interno del visualizzatore Frame.io.
+1. <span class="preview">**Parti interessate:** Decidere dall&#39;interno del visualizzatore Frame.io.</span>
 
-1. **Creatività:** In Frame.io, notate la decisione di approvazione complessiva presa per le vostre risorse.
+1. <span class="preview">**Creatività:** In Frame.io, notate la decisione di approvazione complessiva presa per le vostre risorse.</span>
 
 1. **Creatività:** All’interno di Frame.io, applica le modifiche richieste aggiungendo la versione aggiornata allo stack delle versioni della risorsa connessa.
 
