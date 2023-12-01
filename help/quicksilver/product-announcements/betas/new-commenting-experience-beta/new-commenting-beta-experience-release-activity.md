@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: c3abb5dce14c0b19ab2e5b82f159cd29f80f79e4
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '2223'
+source-wordcount: '1874'
 ht-degree: 2%
 
 ---
@@ -31,13 +31,13 @@ ht-degree: 2%
 >
 >Il programma beta per la nuova esperienza di commento è iniziato ad aprile 2023 ed è terminato a ottobre 2023.
 >
->Le funzionalità rilasciate durante il periodo beta sono state rese disponibili a tutti i clienti a partire dalla versione del quarto trimestre del 2023 (ottobre 2023) e il programma beta è stato chiuso.
+>Le funzionalità rilasciate durante il periodo beta sono state rese disponibili a tutti i clienti a partire dalla versione del quarto trimestre del 2023 (ottobre 2023), quando il programma beta è stato chiuso.
 > 
 ><br>Per ulteriori informazioni, consulta i seguenti articoli: </br>
 >
 >* Per informazioni sulle funzioni rilasciate durante il periodo della nuova esperienza beta, consulta [Nuova esperienza di commento](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->* Per informazioni sulle funzioni rilasciate per l’esperienza di commento dopo la chiusura del nuovo programma Experience beta, consulta la pagina di panoramica sulla versione corrente del prodotto.
+>* Per informazioni sulle funzioni rilasciate per l’esperienza di commento dopo la chiusura del nuovo programma Experience beta, consulta la pagina di panoramica della versione corrente.
 
 <!--
  This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
@@ -55,48 +55,14 @@ For general information on the new commenting experience, including a list of fe
 
 -->
 
-## Nuova timeline del rilascio dell’esperienza di commento
+## Nuova posizione dell’esperienza di commento e timeline di rilascio
 
 La nuova esperienza di aggiunta di commenti aggiunge un nuovo design alla sezione Aggiornamenti degli oggetti di Workfront.
 
 Per informazioni sugli oggetti Workfront che visualizzano la sezione Aggiornamenti, vedere [Panoramica della sezione Aggiornamenti](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Di seguito è riportata una timeline pianificata con le tappe principali per il rilascio della nuova esperienza di commento nell’ambiente di produzione. Oltre alle tappe indicate di seguito, continueremo a migliorare l’esperienza di aggiunta dei commenti con miglioramenti di minore entità.
+Per informazioni sulla tempistica di rilascio della nuova esperienza di commento, consulta [Nuova esperienza di commento](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-Per informazioni dettagliate sulle funzioni rilasciate durante il periodo beta e su quando sono state rilasciate, vedi [Funzioni rilasciate durante il periodo beta](#features-released-during-the-beta-period) in questo articolo.
-
-Per informazioni sulle funzioni rilasciate per la nuova esperienza di commento dopo la chiusura del periodo beta, consulta la pagina di panoramica della versione corrente.
-
-Di seguito è riportata una timeline pianificata per il rilascio della nuova esperienza di commento:
-
-* Con la versione 23.2 (6 aprile 2023):
-   * Avvia l’esperienza di commento Beta per i problemi
-   * Rilascia la nuova esperienza di commento per gli obiettivi (come unica esperienza)
-* Con la versione 23.3 (20 luglio 2023):
-   * Avvia l&#39;esperienza di commento beta per progetti, attività e documenti.
-   * Rilascia la nuova esperienza di commento per le schede nell’area Schede (come unica esperienza)
-* Durante il rilascio del quarto trimestre 2023 (rilascio limitato, disponibile solo per i clienti che scelgono il rilascio rapido):
-   * Rilascia la nuova esperienza di commento per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza)
-   * Aggiorna l’esperienza di aggiunta di commenti Beta per progetti, attività, problemi e documenti, affinché diventi l’opzione predefinita. L’etichetta &quot;Beta&quot; viene rimossa.
-* Con la versione del quarto trimestre 2023 (23.10) (26 ottobre 2023)
-   * Rilascia a tutti i clienti la nuova esperienza di aggiunta di commenti per modelli, attività modello, programmi, portfolio, team, utenti e schede orario (come unica esperienza).
-   * Imposta come predefinita la nuova esperienza di aggiunta di commenti per progetti, attività, problemi e documenti.
-
-  >[!IMPORTANT]
-  >
-  >    In questo modo si conclude la fase beta della nuova esperienza di commento.
-
-   * Rendi tutte le funzioni rilasciate per l’esperienza di commento che inizia con questa data parte delle regolari versioni mensili e trimestrali correnti.
-* Fine del 2023:
-   * Mantieni l’esperienza di commento legacy come opzione secondaria per i seguenti oggetti: progetti, attività, problemi e documenti. La nuova esperienza di aggiunta di commenti è l’opzione predefinita per tutti gli utenti.
-
-  >[!NOTE]
-  >
-  >    Le iterazioni continueranno a presentare l’esperienza di commento legacy. La nuova esperienza di aggiunta di commenti non sarà disponibile per le iterazioni.
-
-* Primo trimestre del 2024 (gennaio 2024):
-
-   * Rimuovi l’opzione per tornare al flusso di commenti legacy e rendere il nuovo flusso di commenti l’unica esperienza per tutti gli oggetti, ad eccezione delle iterazioni.
 
 ## Funzioni rilasciate durante il periodo beta
 

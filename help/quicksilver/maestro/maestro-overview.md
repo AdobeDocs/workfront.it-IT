@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1864'
 ht-degree: 1%
 
 ---
@@ -260,7 +260,7 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
 
      ![](assets/table-view-example.png)
 
-   * **Vista Timeline**: visualizza i record che contengono almeno due campi Data in una sequenza temporale cronologica.
+   * **Vista Timeline**: visualizza i record che contengono almeno due campi di tipo Data in una sequenza temporale cronologica.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -373,12 +373,8 @@ La tabella seguente illustra le principali funzioni che saranno disponibili in M
 | Inviare richieste |                               |                                  | ✓ |
 | Descrizione creativa |                               |                                  | ✓ |
 | Personalizzare il colore e l&#39;icona di un record | ✓ |                                  |                 |
-<!--
-Add another row for Rich text formatting:
-
-
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
--->
+| Aggiungere commenti ai record |                               | ✓ |                 |
+| Formattazione Rich Text per i campi Paragrafo | ✓ |                                  |                 |
 
 ## Attività di rilascio Maestro
 
