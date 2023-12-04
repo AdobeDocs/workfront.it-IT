@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
 workflow-type: tm+mt
-source-wordcount: '4005'
+source-wordcount: '4052'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,9 @@ After the monthly releases to Production, the same features are also available i
    * Dall’area Home (per attività e problemi)
    * Dal pannello Riepilogo in un elenco di oggetti o da una scheda orario (per attività e problemi)
 
-Le informazioni contenute in questa pagina descrivono come aggiungere commenti agli oggetti di Workfront e come aggiornare progetti, attività e problemi.
+Le informazioni contenute in questa pagina descrivono come aggiungere commenti agli oggetti di Workfront e come aggiornare progetti, attività e problemi durante l&#39;aggiunta di commenti.
+
+<!--take this out (below) when we remove legacy out of the application-->
 
 Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md). È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals.
 
@@ -156,13 +158,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Richiedi o superiore per problemi e documenti; rivedi o superiore per tutti gli altri oggetti</p> </td> 
+   <td> <p>Richiedi o superiore per problemi e documenti</p>
+   <p> Revisione o successiva per tutti gli altri oggetti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
    <td> <p>Accesso di visualizzazione o modifica per l'oggetto su cui si trova l'aggiornamento</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
@@ -175,14 +178,29 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 ## Aggiungere un aggiornamento a un elemento di lavoro
 
+L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della versione della sezione Aggiornamenti utilizzata.
+
+È possibile aggiungere aggiornamenti ai seguenti oggetti:
+
+* Progetti
+* Attività
+* Problemi
+* Programmi
+* Portfolio
+* Modelli
+* Attività modello
+* Utenti
+* Schede orario
+* Team
+* Obiettivi
+* Schede nell’area Schede
+* Iterazioni
+
+### Aggiungere un aggiornamento a un elemento di lavoro nella sezione Aggiornamenti legacy
+
 >[!IMPORTANT]
 >
 >Le informazioni contenute in questa pagina descrivono come aggiornare progetti, attività e problemi.
-
-
-L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della versione della sezione Aggiornamenti utilizzata.
-
-### Aggiungere un aggiornamento a un elemento di lavoro nella sezione Aggiornamenti legacy
 
 1. Passare all&#39;elemento di lavoro per il quale si desidera fornire un aggiornamento, ad esempio un progetto, un&#39;attività o un problema.
 1. Fai clic su **Aggiornamenti** sezione.
