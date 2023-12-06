@@ -2,15 +2,15 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Creare una coda di richieste
-description: Puoi impostare una coda di richieste in cui gli utenti possono immettere richieste occasionali che non sono pianificate per lavorare su un progetto.
+description: Puoi impostare una coda di richieste in cui gli utenti possono immettere richieste occasionali che non sono pianificate per lavorare su un progetto. Ad esempio, è possibile impostare una coda di richieste dell'helpdesk per acquisire tutte le richieste degli utenti inviate a un reparto IT.
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2655'
+source-wordcount: '2679'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,39 @@ Questo articolo descrive come creare una coda di richieste in cui gli utenti pos
 
 ## Requisiti di accesso
 
-<!--drafted for P&P: replace the table below with this:
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td> <p>Qualsiasi </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td> 
+   <p>Nuova licenza: Standard </p>
+   Oppure
+   <p>Licenza corrente: Piano </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai progetti</p> <p><b>NOTA</b>
+
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+</tr> 
+  <tr> 
+   <td role="rowheader">Autorizzazioni oggetto</td> 
+   <td> <p> Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront
+
+
+<!--old access levels: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,16 +71,13 @@ Questo articolo descrive come creare una coda di richieste in cui gli utenti pos
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   <p>Current license: Stadard </p>
-   Or
-   <p>Legacy license: Plan </p> </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b></p> 
    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -57,37 +86,8 @@ Questo articolo descrive come creare una coda di richieste in cui gli utenti pos
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator
+*To find out what plan, license type, or access you have, contact your Workfront administrator
 -->
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Qualsiasi </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai progetti</p> <p><b>NOTA</b></p>
-
-<p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p> Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront
 
 ## Panoramica delle code di richieste
 

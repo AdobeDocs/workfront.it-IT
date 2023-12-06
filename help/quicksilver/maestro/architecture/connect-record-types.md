@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1784'
 ht-degree: 0%
 
 ---
@@ -173,7 +173,10 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
+
 ## Considerazioni sulla connessione dei tipi di record
+
+Considera quanto segue:
 
 * In Maestro è possibile collegare le seguenti entità:
 
@@ -219,7 +222,7 @@ After permssions - replace the table with:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](assets/dots-main-menu.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](assets/lines-main-menu.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Maestro]**.
 
    Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
@@ -252,7 +255,7 @@ After permssions - replace the table with:
    * **Consenti più record**: seleziona questa opzione per indicare che gli utenti possono aggiungere più record quando il campo del tipo di record collegato viene visualizzato nei record originali. Questa opzione è selezionata per impostazione predefinita.
    * **Seleziona campi di ricerca**: seleziona questa opzione per aggiungere campi dal tipo di record selezionato. Questa opzione è selezionata per impostazione predefinita.
 
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
 1. (Condizionale) Se hai selezionato l’impostazione Seleziona campo di ricerca nel passaggio precedente, il **Aggiungi campi di ricerca** viene visualizzata la casella.
 

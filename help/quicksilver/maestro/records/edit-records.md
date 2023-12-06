@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 66a4a1e11ff04008d1d0c77fbd6887e8f5f1c46b
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -217,7 +217,7 @@ After permssions - replace the table with:
    >  * Campi dei seguenti tipi: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica
 
 
-1. (Facoltativo) Copia un valore esistente di un campo, quindi incolla in un campo dello stesso tipo su un altro record, quindi fai clic su **Invio** sulla tastiera per salvare le modifiche.
+1. (Facoltativo) Copiare uno o più valori esistenti di un campo, quindi incollarli in un campo dello stesso tipo in un altro record, quindi fare clic su **Invio** sulla tastiera per salvare le modifiche.
 
    >[!NOTE]
    >
@@ -229,10 +229,7 @@ After permssions - replace the table with:
    >* Non è possibile copiare e incollare valori di campo per i tipi di campo seguenti:
    ><ul>
    >
-   > * Persone
-   >
    > * Campi di sistema
-   >
-   > * Campi collegati creati in seguito alla connessione di record
+
 
    <!--take People out of the list above when they release this - this might be coming later-->

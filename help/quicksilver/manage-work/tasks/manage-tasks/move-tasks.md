@@ -6,9 +6,9 @@ description: In Adobe Workfront è possibile spostare le attività in progetti d
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1488'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,9 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront*</td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td> <p>Nuovo piano: Standard </p> 
+ <p>oppure</p>  
+<p>Piano corrente: Lavoro o superiore </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 

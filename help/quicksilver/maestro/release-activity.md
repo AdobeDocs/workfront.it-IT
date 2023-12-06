@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 579c30d1090f80d7fecef47286206e4ba03ddbb7
+source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
 workflow-type: tm+mt
-source-wordcount: '2161'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,29 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Settimana del 4 dicembre 2023
+
+### Copiare e incollare informazioni da un campo all&#39;altro nella vista tabella Maestro per i campi record collegati e di tipo Persona
+
+Anteprima e produzione: 5 dicembre 2023
+
+È ora possibile copiare e incollare informazioni da un campo a un altro campo dello stesso tipo in una vista tabella di tipo di record Maestro. Questa funzionalità è ora supportata per i seguenti tipi di campi:
+
+* Persone
+* Campi record collegati
+
+Considera quanto segue:
+
+* Per i campi che visualizzano più valori è possibile copiare e incollare valori di campo da un campo all&#39;altro.
+
+* Non è possibile copiare informazioni da un&#39;altra origine, ad eccezione di un campo Maestro dello stesso tipo del campo in cui si incollano le informazioni.
+
+* Non è possibile copiare e incollare i valori dei campi visualizzati nell&#39;area Dettagli di un record.
+
+Per ulteriori informazioni, consulta [Modifica record](../maestro/records/edit-records.md).
+
+Per informazioni sui campi collegati, consulta [Connetti tipi di record](../maestro/architecture/connect-record-types.md).
 
 ## Settimana del 27 novembre 2023
 
