@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: b3869a9339cf1c0aedd7dcd00cc679fb4717b2db
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 6%
@@ -42,9 +42,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano corrente: Standard
+   <td>Nuovo piano: Standard
    <p>oppure</p>
-   <p>Piano legacy: piano</p></td> 
+   <p>Piano corrente: piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -100,7 +100,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td>Aggiungere nuove società e modificare quelle esistenti in Workfront.<br><p>Senza questo accesso, gli utenti possono solo visualizzare le aziende esistenti.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Moduli personalizzati</td> 
+      <td role="rowheader">Moduli personalizzati nel mio gruppo</td> 
       <td>Crea e gestisci tutti i moduli personalizzati all’interno del loro gruppo. <br><p>Senza questo accesso, gli utenti possono allegare i moduli esistenti solo agli oggetti a cui hanno accesso per contribuire o gestire.</p></td> 
      </tr> 
      <tr> 

@@ -3,10 +3,10 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 2ed1d2df76f27ef6e2fe2c9612f8cdf867ed994d
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '13442'
-ht-degree: 1%
+source-wordcount: '13775'
+ht-degree: 0%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 1%
          * [21.2 Miglioramenti al progetto](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
          * [21.2 Richieste di miglioramenti](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
          * [21.2 Miglioramenti alla gestione delle risorse](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
-         * [21. 2 Miglioramenti al reporting](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
+         * [21 2 Miglioramenti al reporting](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
          * [21.2 Miglioramenti delle bozze](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
          * [21.2 Miglioramenti all’integrazione](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2 Altri miglioramenti](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
@@ -360,7 +360,7 @@ ht-degree: 1%
             * [Anteprima R1 4](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md)
             * [Anteprima R1 5](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
             * [Webinar sulla versione di R1](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
-   * Notifiche {#announcements}
+   * Annunci {#announcements}
       * [Notifiche](product-announcements/announcements/announcements.md)
       * [Miglioramenti dei moduli personalizzati](product-announcements/announcements/custom-form-enhancements.md)
       * [Pianificazione delle funzioni non più supportate](product-announcements/announcements/feature-removal-timeline.md)
@@ -546,7 +546,7 @@ ht-degree: 1%
          * [Copiare un modello di layout](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
          * [Eliminare i modelli di layout classici utilizzando una chiamata API](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
       * Moduli personalizzati {#custom-forms}
-         * [Moduli personalizzati](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+         * [Moduli personalizzati nel mio gruppo](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Panoramica dei moduli personalizzati](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * Generatore di moduli personalizzati legacy {#custom-form-builder}
             * Utilizzare il sistema di creazione di moduli personalizzati {#use-the-custom-form-builder}
@@ -673,7 +673,7 @@ ht-degree: 1%
          * [Visualizza elemento ripristinato](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [Effetti degli oggetti eliminati sugli oggetti](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [Ripristino di singoli oggetti figlio](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
-      * Diagnostiche {#diagnostics}
+      * Diagnostica {#diagnostics}
          * [Diagnostiche](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
          * [Utilizza la diagnostica per attivare le automazioni](administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md)
       * Kick-Start {#kick-starts}
@@ -800,7 +800,7 @@ ht-degree: 1%
       * [La condivisione mostra più di un’autorizzazione](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [E-mail non autenticata non accettata](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
       * [Credenziali utente e credenziali SAML](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
-      * [Aggiorna le opzioni di aggiornamento automatico nei livelli di accesso](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
+      * [Aggiornare le opzioni di aggiornamento automatico nei livelli di accesso](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Nozioni di base su Adobe Workfront {#basics}
    * [Nozioni di base su Adobe Workfront](workfront-basics/workfront-basics.md)
    * [Glossario della terminologia di Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
@@ -1028,7 +1028,7 @@ ht-degree: 1%
       * [Elimina storia da bacheca Kanban](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
    * Scrum in un team agile {#scrum}
       * [Scrum in un team agile](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
-      * Lavoro {#burndown}
+      * Burndown {#burndown}
          * [Lavoro](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
          * [Panoramica del grafico a burn-down Agile](agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
          * [Panoramica sullo stato di completamento dell&#39;iterazione](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
@@ -1156,7 +1156,7 @@ ht-degree: 1%
       * Creare progetti {#create-projects}
          * [Creare progetti](manage-work/projects/create-projects/create-projects-overview.md)
          * [Crea un Progetto](manage-work/projects/create-projects/create-project.md)
-         * [Crea Richesta Progetto](manage-work/projects/create-projects/request-project.md)
+         * [Richiedi un progetto](manage-work/projects/create-projects/request-project.md)
          * [Creare un progetto utilizzando un modello](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importare un progetto da Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Crea linee di base progetto](manage-work/projects/create-projects/create-baselines.md)
@@ -1473,11 +1473,11 @@ ht-degree: 1%
    * Suggerimenti, trucchi e risoluzione dei problemi per team e gruppi {#tips-tricks-people-teams-groups}
       * [Suggerimenti, trucchi e risoluzione dei problemi per team e gruppi](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [Nome utente già in uso](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* Reporting {#reporting}
+* Generazione rapporti {#reporting}
    * [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Reporting Canvas {#reporting-canvas}
       * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-      * Gestione dei rapporti {#manage-reports}
+      * Gestire i rapporti {#manage-reports}
          * [Panoramica sulla gestione dei rapporti](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
          * [Creare un rapporto nell’area di lavoro rapporti](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
          * [Esportare un rapporto nell’area di lavoro rapporti](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
@@ -1678,7 +1678,7 @@ ht-degree: 1%
          * [Comprendere le dashboard](reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
          * [Introduzione alle dashboard](reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
          * [Comprendere come vengono visualizzati i rapporti in un dashboard](reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
-      * Creare e gestire i Cruscotti {#create-dashboards}
+      * Creare e gestire le dashboard {#create-dashboards}
          * [Creare e gestire i Cruscotti](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
          * [Creare un dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
          * [Aggiungere un rapporto a una dashboard](reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
@@ -1785,7 +1785,7 @@ ht-degree: 1%
          * [Rivedere un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Approvare un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Bozza {#proofing}
-      * [Bozza](review-and-approve-work/proofing/proofing.md)
+      * [Verifica](review-and-approve-work/proofing/proofing.md)
       * Panoramica bozza {#proofing-overview}
          * [Panoramica bozza](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Panoramica del profilo di autorizzazione della bozza](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
@@ -2338,8 +2338,8 @@ ht-degree: 1%
       * [Applicare un’allocazione budget Anaplan a un progetto Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [Creare un elemento dell’elenco Anaplan da una richiesta di Adobe Workfront campaign](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Applicare un’allocazione budget Anaplan a una richiesta o a un progetto di campagna Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront Proof {#workfront-proof}
-   * [Workfront Proof](workfront-proof/workfront-proof.md)
+* Bozza Workfront {#workfront-proof}
+   * [Workfront Proof: indice articolo](workfront-proof/workfront-proof.md)
    * Guida introduttiva a Workfront Proof {#get-started-wf-proof}
       * [Guida introduttiva a Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * Esempi di flussi di lavoro {#workflow-examples}
@@ -2518,7 +2518,7 @@ ht-degree: 1%
          * [Creare gruppi di bozze utilizzando Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)
          * [Rendi i gruppi privati con Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md)
          * [Gestire i gruppi con Workfront Proof](workfront-proof/wp-mnguserscontacts/groups/manage-groups.md)
-      * Conttati {#contacts}
+      * Contatti {#contacts}
          * [Conttati](workfront-proof/wp-mnguserscontacts/contacts/contacts.md)
          * [Aggiungi una bozza guest a Workfront](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
          * [Gestione dei contatti in Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
@@ -2552,7 +2552,7 @@ ht-degree: 1%
       * API di verifica Workfront {#wf-proof-api}
          * [API di verifica Workfront](workfront-proof/wp-integrations/api/wp-api.md)
          * [API Workfront Proof](workfront-proof/wp-integrations/api/workfront-proof-api.md)
-      * Box {#box}
+      * Casella {#box}
          * [Box](workfront-proof/wp-integrations/box/box.md)
          * [Introduzione all’integrazione Workfront Proof and Box](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [Creare una bozza tramite l’account Box](workfront-proof/wp-integrations/box/create-proof-box-account.md)

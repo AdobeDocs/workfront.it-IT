@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -34,9 +34,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td>
-   <p>Piano corrente: Standard</p>
+   <p>Nuovo piano: Standard</p>
    <p>oppure</p>
-   <p>Piano legacy: piano</p></td> 
+   <p>Piano corrente: piano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 

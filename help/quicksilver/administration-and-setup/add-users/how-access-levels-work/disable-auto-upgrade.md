@@ -9,10 +9,10 @@ description: Per accedere e lavorare in Workfront, ogni utente deve disporre di 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
-source-git-commit: 8807636d2309435cb5f4e08d6a7d27246342200d
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,6 @@ Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront n
 >[!IMPORTANT]
 >
 >Una volta disabilitati, gli utenti non pagati che superano il numero di decisioni loro assegnato non verranno aggiornati automaticamente.
-
 
 ## Requisiti di accesso
 
@@ -42,9 +41,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano corrente: Standard
+   <td>Nuovo piano: Standard
    <p>oppure</p>
-   <p>Piano legacy: piano</p></td> 
+   <p>Piano corrente: piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 

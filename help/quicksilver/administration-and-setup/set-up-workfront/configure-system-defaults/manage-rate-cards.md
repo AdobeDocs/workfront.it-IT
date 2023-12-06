@@ -7,9 +7,10 @@ description: Le schede tariffa consentono di definire più tariffe di fatturazio
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 961e0451ce9011a8a9f511d7d5da99368d22d6fb
+exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
+source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -34,8 +35,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td><p>Piano legacy: [!UICONTROL Plan]</p>
-       <p>Piano corrente: [!UICONTROL Standard]</p></td> 
+   <td><p>Nuovo piano: [!UICONTROL Standard] </p>
+       <p>oppure</p> 
+       <p>Piano corrente: [!UICONTROL Plan] </p>
+   </td>    
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
