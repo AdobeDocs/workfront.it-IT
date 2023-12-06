@@ -7,16 +7,16 @@ description: È possibile condividere e rivedere vari tipi di file con i revisor
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6e6cc1db8f89b76d9903905e6ee4cf9014727ba1
+source-git-commit: d3aefd7ec045b9bf4c5b42c0bb3576061a1056b0
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 # Panoramica dei tipi di file di verifica supportati e dei limiti di dimensione
 
-È possibile condividere e rivedere vari tipi di file con i revisori, anche se il software utilizzato per la creazione dei file (ad esempio Photoshop o Illustrator) non è installato sui computer. Supportiamo tipi di file statici, video, audio, web capture e interattivi di dimensioni fino a 4 GB.
+È possibile condividere e rivedere vari tipi di file con i revisori, anche se il software utilizzato per la creazione dei file (ad esempio Photoshop o Illustrator) non è installato sui computer. Supportiamo tipi di file statici, video, audio, di acquisizione web e interattivi di dimensioni fino a 4 GB.
 
 ## Limiti dimensioni file
 
