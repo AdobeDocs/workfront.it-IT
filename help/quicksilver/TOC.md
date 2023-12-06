@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 9d273023179c3f650b043be2de8f6bd15febf130
 workflow-type: tm+mt
-source-wordcount: '13775'
+source-wordcount: '13779'
 ht-degree: 0%
 
 ---
@@ -394,7 +394,7 @@ ht-degree: 0%
 * Amministrazione e configurazione {#administration-and-setup}
    * [Amministrazione e configurazione](administration-and-setup/administration-and-setup.md)
    * Introduzione all’amministrazione {#get-started-administration}
-      * [Introduzione](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
+      * [Introduzione all’amministrazione: indice dell’articolo](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Definire gli obiettivi di implementazione](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
       * [Gestione delle licenze](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
       * [Configurare le nozioni di base](administration-and-setup/get-started-wf-administration/configure-basic-info.md)

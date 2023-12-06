@@ -3,21 +3,23 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: Introduzione all’amministrazione di Adobe Workfront
-description: È possibile configurare le impostazioni predefinite di Workfront, i Timesheets e le pianificazioni, la configurazione dell'organizzazione, le informazioni sugli aggiornamenti monitorati dal sistema e gli ambienti di test per l'organizzazione
-author: Caroline
+title: "Introduzione all’amministrazione di Adobe Workfront: indice degli articoli"
+description: In questa sezione puoi trovare informazioni e istruzioni sulla prima configurazione di Adobe Workfront, nonché informazioni necessarie come amministratore di Workfront.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 3d2124260b041ec7566f0873a57514d84c5f7025
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-# Introduzione all’amministrazione di Adobe Workfront
+# Introduzione all’amministrazione di Adobe Workfront: indice degli articoli
+
+In questa sezione puoi trovare informazioni e istruzioni sulla prima configurazione di Adobe Workfront, nonché informazioni necessarie come amministratore di Workfront.
 
 Questa sezione contiene i seguenti articoli:
 
