@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 97f6e3390a2bf2a4f01c2780561bad80d271f03a
+source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
-source-wordcount: '4052'
+source-wordcount: '4073'
 ht-degree: 1%
 
 ---
@@ -206,7 +206,7 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 1. Fai clic su **Aggiornamenti** sezione.
 1. (Condizionale) Se è abilitato, fai clic sul pulsante **Nuovo commento** nell’angolo in alto a destra della sezione Aggiornamenti per disabilitarla e abilitare l’esperienza di commento legacy.
 1. Clic **Avvia un nuovo aggiornamento,** quindi digita l’aggiornamento.
-1. (Facoltativo) Utilizza Rich Text o aggiungi emoji, collegamenti o immagini all’aggiornamento per migliorarne il contenuto. Per ulteriori informazioni, vedere [Utilizzare la funzione Rich Text in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) in questo articolo.
+1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini all’aggiornamento, per migliorare i contenuti. Per ulteriori informazioni, vedere [Utilizzare la funzione Rich Text in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) in questo articolo.
 1. (Facoltativo) Aggiornare una delle seguenti informazioni sull&#39;elemento di lavoro:
 
    <table style="table-layout:auto"> 
@@ -275,7 +275,7 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
    * CTRL + Z (⌘+z per Mac) per annullare una modifica
    * CTRL+Y (⌘+y per Mac) per ripetere una modifica
 1. (Facoltativo) In **Assegna tag a persone o team** , inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
-1. (Facoltativo) Utilizza Rich Text o aggiungi emoji, collegamenti o immagini all’aggiornamento per migliorarne il contenuto. Per ulteriori informazioni, vedere [Utilizzare la funzione Rich Text in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) in questo articolo.
+1. (Facoltativo) Utilizza le opzioni nella barra degli strumenti Testo formattato per formattare il testo, aggiungere emoticon, collegamenti o immagini all’aggiornamento, per migliorare i contenuti. Per ulteriori informazioni, vedere [Utilizzare la funzione Rich Text in un aggiornamento di Workfront](#use-rich-text-in-a-workfront-update) in questo articolo.
 
    >[!TIP]
    >
@@ -291,7 +291,7 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 
    >[!IMPORTANT]
    >
-   >Puoi modificare il commento solo entro 15 dall’invio.
+   >È possibile modificare il commento solo entro 15 minuti dall&#39;invio.
 
 1. Modifica le informazioni nel commento, aggiungi o rimuovi immagini o rimuovi gli utenti taggati. A sinistra dell&#39;indicatore della data viene aggiunto l&#39;indicatore &quot;Modificato&quot; che viene visualizzato quando è stato inserito il commento.
 
@@ -407,11 +407,15 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
    1. Sotto **Testo da visualizzare**, digita o incolla il testo del collegamento.
    1. Fai clic su **Salva**.
 
-1. (Facoltativo) <span class="preview">Per allegare un&#39;immagine all&#39;aggiornamento, copiare uno screenshot dal computer, quindi incollarlo nel commento </span>
+1. (Facoltativo) Per allegare un&#39;immagine all&#39;aggiornamento, effettuare una delle seguenti operazioni:
 
-   Oppure
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
 
-   Fai clic su **Aggiungi immagine** icona ![](assets/add-image-mountain-with-plus-icon.png) e passare all&#39;immagine nel computer.
+   * <span class="preview">Copiare uno screenshot dal computer, quindi incollarlo nel commento </span>
+   * Fai clic su **Aggiungi immagine** icona ![](assets/add-image-mountain-with-plus-icon.png) e passare all&#39;immagine nel computer.
+
 
    >[!NOTE]
    >
