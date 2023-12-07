@@ -7,9 +7,9 @@ description: È possibile utilizzare la modalità testo in una colonna per visua
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Ad esempio, se desideri conoscere il numero di giorni della settimana trascorsi 
 È possibile, ad esempio, calcolare la differenza tra i giorni della settimana tra la data di completamento pianificata e la data di completamento effettiva di un&#39;attività e visualizzare il risultato in una colonna.
 
 In questo calcolo è possibile utilizzare altre due date (Inizio effettivo, Completamento effettivo, Inizio previsto, Completamento previsto e così via).\
-Per ulteriori informazioni sulle espressioni di dati calcolati, vedi [Espressioni dati calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Per ulteriori informazioni sulle espressioni di dati calcolati, vedi [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ## Requisiti di accesso
 

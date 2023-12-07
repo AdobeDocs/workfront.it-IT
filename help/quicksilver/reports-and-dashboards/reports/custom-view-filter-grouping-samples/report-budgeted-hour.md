@@ -7,9 +7,9 @@ description: "Rapporto: Ore preventivate"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
    In questo modo il numero di ore preventivate viene arrotondato al numero di decimali specificato.
 
-   Per informazioni sull&#39;arrotondamento di un numero in Workfront, vedere l&#39;articolo [Espressioni dati calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Per informazioni sull&#39;arrotondamento di un numero in Workfront, vedere l&#39;articolo [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. (Facoltativo) Fai clic su **Aggiungi colonna** per aggiungere altre colonne.
 1. (Facoltativo) Per semplificare la lettura del rapporto, si consiglia di aggiungervi un raggruppamento. Consigliamo il seguente raggruppamento:
@@ -123,7 +123,7 @@ Per impostazione predefinita, nel rapporto Ore preventivate sono disponibili le 
    <td>Questo è il nome dell'utente associato all'Ora preventivata.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Allc. Data</td> 
+   <td role="rowheader">Dat Allc.</td> 
    <td> <p>Si tratta della data di allocazione. È il primo giorno (una domenica) della settimana per il quale hai preventivato le ore.</p> <p>Suggerimento  <p>Se una settimana dura due mesi, vengono generate due righe nel rapporto: una corrispondente al primo giorno della settimana (la domenica della settimana che si trova durante il primo mese) e una seconda corrispondente al primo giorno del secondo mese (che potrebbe essere qualsiasi giorno della settimana).</p> <p>Ad esempio, se preventivi 8 ore per un utente per la settimana dal 30 giugno (domenica) al 6 luglio (sabato), le due righe mostrano la data di allocazione 30 giugno e 1 luglio.</p> </p> </td> 
   </tr> 
   <tr> 

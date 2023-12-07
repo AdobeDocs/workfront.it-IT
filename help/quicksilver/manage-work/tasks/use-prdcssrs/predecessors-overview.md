@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: Panoramica dei predecessori delle attività
-description: Un predecessore è l'attività da cui dipende un'altra attività (denominata attività successore o dipendente). Adobe Workfront supporta cinque tipi di dipendenze dei predecessori.
+description: Un predecessore è l'attività da cui dipende un'altra attività, denominata attività successore o dipendente. Adobe Workfront supporta cinque tipi di dipendenze dei predecessori.
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-Un predecessore è l&#39;attività da cui dipende un&#39;altra attività (denominata attività successore o dipendente). Adobe Workfront supporta cinque tipi di dipendenze dei predecessori. Per informazioni sulle dipendenze dei predecessori, vedere [Panoramica dei tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+Un predecessore è l&#39;attività da cui dipende un&#39;altra attività, denominata attività successore o dipendente. Adobe Workfront supporta cinque tipi di dipendenze dei predecessori. Per informazioni sulle dipendenze dei predecessori, vedere [Panoramica dei tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Panoramica sui predecessori
 
 Comprendere la funzionalità dei predecessori è importante per comprendere le tempistiche dei progetti.
 
-Le relazioni dei predecessori tra le attività sono presenti sia all&#39;interno di un singolo progetto che in più progetti.
+Esistono relazioni predecessore di attività sia tra attività all’interno di un singolo progetto sia tra attività di progetti diversi.
 
-Nel caso di una dipendenza tra più progetti, puoi stabilire predecessori per più progetti.
+Nel caso di una relazione tra più progetti, è possibile stabilire predecessori tra progetti diversi per attività appartenenti a due progetti diversi.
 
-Se le attività predecessore e successore appartengono allo stesso progetto o a due progetti diversi, le dipendenze e le tempistiche vengono calcolate nello stesso modo.
+Se le attività predecessore e successore appartengono allo stesso progetto o a due progetti diversi, le dipendenze e le tempistiche di ciascun progetto vengono calcolate nello stesso modo.
 
 Per quanto riguarda i predecessori, la sequenza temporale del progetto è influenzata dai seguenti fattori:
 
@@ -38,15 +38,19 @@ Per quanto riguarda i predecessori, la sequenza temporale del progetto è influe
 * Valore e tipo Lag\
   Per ulteriori informazioni sulla dipendenza e sui ritardi, consulta [Esempi di valori predecessori in un elenco attività](#examples-of-predecessor-values-in-a-task-list).
 
-Se, ad esempio, l&#39;attività A è un predecessore dell&#39;attività B in una relazione di fine-inizio e l&#39;attività B ha un vincolo attività Il più presto possibile, Workfront assegna all&#39;attività B una data di inizio pianificata immediatamente successiva alla data di completamento pianificata dell&#39;attività A, indipendentemente dal fatto che il predecessore sia applicato o meno.
+  Se, ad esempio, l&#39;attività A è un predecessore dell&#39;attività B in una relazione di fine-inizio e l&#39;attività B ha un vincolo attività Il più presto possibile, Workfront assegna all&#39;attività B una data di inizio pianificata immediatamente successiva alla data di completamento pianificata dell&#39;attività A, indipendentemente dal fatto che il predecessore sia applicato o meno.
 
 Per comprendere le relazioni dei predecessori, è necessario comprendere:
 
 * **Tipi di dipendenze:** I predecessori sono collegati da vari tipi di dipendenza. Per ulteriori informazioni sui tipi di dipendenza, vedere [Panoramica dei tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **Applicazione di un predecessore:** Quando si applica un predecessore, l&#39;attività successore non può iniziare fino al completamento del predecessore. L&#39;attività successore viene visualizzata come inizio immediatamente dopo il completamento del predecessore.
+* **Applicazione di un predecessore:** Quando si applica un predecessore, l&#39;attività successore non può assolutamente iniziare fino al completamento del predecessore. L&#39;attività successore viene visualizzata come inizio immediatamente dopo il completamento del predecessore.
 
-  Workfront non consente di contrassegnarlo come In corso o Completo fino al completamento del predecessore. Workfront, tuttavia, consente la generazione di rapporti sulle ore dell’attività.\
+  Quando il predecessore non è completato (o iniziato) e non è applicato, l&#39;attività successore può iniziare ma la timeline del progetto è ancora influenzata dalle date sia dell&#39;attività predecessore che di quella successore.
+
+  Con un predecessore imposto, Workfront non consente che l&#39;attività successore venga contrassegnata come In corso o Completata fino al completamento del predecessore.
+
+  Workfront, tuttavia, consente la generazione di rapporti sulle ore dell’attività.\
   Per ulteriori informazioni sull&#39;applicazione dei predecessori, vedere [Imponi predecessori](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **Lag:** Nelle relazioni è possibile creare dei ritardi che determinano un ritardo che deve verificarsi dopo il completamento di un&#39;attività predecessore e prima che l&#39;attività successore possa iniziare. I ritardi influiscono sulla timeline del progetto.
@@ -104,7 +108,7 @@ Quando si visualizzano i predecessori in un elenco di attività, è possibile ch
 
   >[!NOTE]
   >
-  >Il valore imposto (**e**) deve essere aggiunto al Lag, non al predecessore.
+  >È necessario aggiungere il valore imposto (**e**) al Lag e non al predecessore.
 
 * **4515:2** Il numero dell&#39;attività predecessore è 2. - Relazione Fine-Inizio non imposta con il predecessore nel progetto con numero di riferimento **4515**.
 

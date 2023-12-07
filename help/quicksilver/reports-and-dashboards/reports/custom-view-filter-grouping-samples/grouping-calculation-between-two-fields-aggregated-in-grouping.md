@@ -8,7 +8,7 @@ description: È possibile utilizzare la modalità testo in una colonna per visua
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 È possibile utilizzare la modalità testo in una colonna per visualizzare un calcolo tra due campi nella visualizzazione di un report o di un elenco. Ogni riga visualizza il calcolo per ogni oggetto nel report o nell&#39;elenco.
 
-È ad esempio possibile visualizzare la differenza tra le ore effettive e le ore pianificate in una terza colonna denominata Bilanciamento del lavoro per ogni attività in un report attività. Per ulteriori informazioni sulle espressioni di dati calcolati, vedi [Espressioni dati calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+È ad esempio possibile visualizzare la differenza tra le ore effettive e le ore pianificate in una terza colonna denominata Bilanciamento del lavoro per ogni attività in un report attività. Per ulteriori informazioni sulle espressioni di dati calcolati, vedi [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 È possibile visualizzare il valore aggregato di più elementi della vista calcolata nella stessa colonna in un raggruppamento aggiungendo un calcolo alla `aggregator` riga della colonna contenente il valore calcolato. È possibile, ad esempio, aggregare (visualizzare la somma di) la quantità di ore del saldo di lavoro di tutti i task nel raggruppamento del report o nell&#39;elenco della colonna Bilancio di lavoro. Questo articolo descrive come eseguire questa operazione.
 

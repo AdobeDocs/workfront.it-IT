@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 27a4305826a6e9516d110c5bf7a82d2e465c58c8
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '13776'
+source-wordcount: '13778'
 ht-degree: 0%
 
 ---
@@ -1552,7 +1552,7 @@ ht-degree: 0%
          * [Creare un rapporto di delega utente](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
       * Dati personalizzati calcolati nei rapporti {#calculated-custom-data}
          * [Dati personalizzati calcolati nei rapporti](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-         * [Espressioni dati calcolate](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
+         * [Panoramica delle espressioni di dati calcolati](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
          * [Campi personalizzati calcolati e colonne calcolate](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
          * [Operatori condizione nelle espressioni personalizzate calcolate](reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
          * [Panoramica delle istruzioni &quot;IF&quot;](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)
@@ -2736,7 +2736,7 @@ Moved and commented out sections from line 1477 - I believe the entire section i
 
 
       * [Calculated custom data in reports](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-        * [Calculated data expressions](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
+        * [Overview of calculated data expressions](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
         * [Calculated custom fields vs. calculated columns](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
         * [Condition operators in calculated custom expressions](reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
         * ["IF" statements overview](reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)

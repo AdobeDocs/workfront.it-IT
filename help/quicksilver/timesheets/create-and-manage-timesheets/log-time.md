@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: edd4aa9556b624de3634af26d6d9efd59f5d2e44
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -351,7 +351,7 @@ Puoi registrare l’ora specifica del progetto nella Home.
 Per informazioni generali sull&#39;utilizzo dell&#39;area Home, vedere le sezioni seguenti:
 
 * Per informazioni sull&#39;utilizzo dell&#39;area Home legacy, vedere [Utilizzare l’area Home](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Per informazioni sull&#39;utilizzo della nuova area Home, vedere [Introduzione alla nuova home in Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* Per informazioni sull&#39;utilizzo della nuova area Home, vedere [Introduzione alla nuova home](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Tempo di connessione per un elemento di lavoro dalla nuova area Home
 
@@ -390,7 +390,7 @@ Per informazioni generali sull&#39;utilizzo dell&#39;area Home, vedere le sezion
 
 Puoi registrare l’ora specifica di un progetto su un progetto, un’attività o un problema nelle sezioni seguenti:
 
-* [Sezione aggiornamenti](#updates-section)
+* [Sezione Aggiornamenti](#updates-section)
 * [Sezione ore](#hours-section)
 
 #### Sezione aggiornamenti{#updates-section}

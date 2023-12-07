@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
-source-wordcount: '2573'
+source-wordcount: '2582'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Puoi utilizzare sia i campi Workfront incorporati che i campi personalizzati gi�
    >
    >In questo esempio, `SUB` è l’espressione e i campi di riferimento sono `actualRevenue` e `actualCost`.
 
-   Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contenenti i campi a cui si desidera fare riferimento quando il modulo personalizzato viene allegato a un oggetto. Per informazioni sulle espressioni disponibili, vedi [Espressioni dati calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Un calcolo inizia in genere con un&#39;espressione, seguita da parentesi contenenti i campi a cui si desidera fare riferimento quando il modulo personalizzato viene allegato a un oggetto. Per informazioni sulle espressioni disponibili, vedi [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Ogni campo deve essere circondato da parentesi graffe, come spiegato nella sezione [Sintassi richiesta nei campi personalizzati calcolati](#syntax-required-in-calculated-custom-fields) in questo articolo. Quando si inizia a digitare il nome di un campo, il sistema formula dei suggerimenti ed è possibile selezionarne uno per inserirlo nel calcolo.
 
@@ -138,7 +138,7 @@ Puoi utilizzare sia i campi Workfront incorporati che i campi personalizzati gi�
    >
    >Per ottenere informazioni sui calcoli, eseguire una delle operazioni seguenti:
    > 
-   >* Passa il puntatore del mouse su un&#39;espressione nel calcolo per visualizzare una descrizione, un esempio che mostra come può essere utilizzata e un collegamento &quot;Ulteriori informazioni&quot; per ulteriori informazioni nell&#39;articolo [Espressioni dati calcolate](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* Passa il puntatore del mouse su un&#39;espressione nel calcolo per visualizzare una descrizione, un esempio che mostra come può essere utilizzata e un collegamento &quot;Ulteriori informazioni&quot; per ulteriori informazioni nell&#39;articolo [Panoramica delle espressioni di dati calcolati](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* Utilizza la codifica a colori per identificare i componenti aggiunti. Le espressioni vengono visualizzate in blu e i campi in verde.
    >  ![](assets/colors-fields-expressions.jpg)
