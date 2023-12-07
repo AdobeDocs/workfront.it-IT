@@ -5,25 +5,25 @@ content-type: reference
 product-area: system-administration
 keywords: licenza,tipo
 navigation-topic: access-levels
-description: La tua organizzazione ha acquistato un certo numero di licenze quando ha acquistato Adobe Workfront. In qualità di amministratore di Workfront, puoi assegnare a ogni utente uno dei 4 tipi di licenze Workfront a pagamento quando gli assegni un livello di accesso.
-author: Courtney
+description: La tua organizzazione ha acquistato un certo numero di licenze quando ha acquistato Adobe Workfront. In qualità di amministratore di Workfront, si assegna a ogni utente uno dei cinque tipi di licenze Workfront quando si assegna all'utente un livello di accesso.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '350'
 ht-degree: 3%
 
 ---
 
 # Panoramica sulle licenze
 
-La tua organizzazione ha acquistato un certo numero di licenze quando ha acquistato Adobe Workfront. In qualità di amministratore di Workfront, si assegna a ogni utente uno dei 5 tipi di licenze Workfront quando si assegna all&#39;utente un livello di accesso.
+La tua organizzazione ha acquistato un certo numero di licenze quando ha acquistato Adobe Workfront. In qualità di amministratore di Workfront, si assegna a ogni utente uno dei cinque tipi di licenze Workfront quando si assegna all&#39;utente un livello di accesso.
 
 ## Legare licenze e livelli di accesso
 
-I 5 tipi di licenze Workfront consentono diversi livelli di accesso a Workfront. Ogni livello di accesso è associato a una di queste licenze.
+I cinque tipi di licenze Workfront consentono diversi livelli di accesso a Workfront. Ogni livello di accesso è associato a una di queste licenze.
 
 In qualità di amministratore di Workfront, invece di assegnare una licenza a un utente, puoi assegnare loro il livello di accesso associato a tale licenza.
 

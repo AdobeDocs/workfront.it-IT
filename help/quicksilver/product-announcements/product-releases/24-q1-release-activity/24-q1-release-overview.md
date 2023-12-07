@@ -4,9 +4,9 @@ description: Panoramica sulla versione del primo trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: e46a471ce0d2d7c3a6a95cfc056516555628c150
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 
 I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del primo trimestre 2024 si avvicina al rilascio pianificato in produzione.
 
-
-<!-- Keep commented until Final Preview release.
-
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [registrati qui per il webinar](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Le funzioni fuori ciclo (quelle che vengono rilasciate in produzione prima della data di rilascio del primo trimestre 2024) sono evidenziate in giallo.</span>
 

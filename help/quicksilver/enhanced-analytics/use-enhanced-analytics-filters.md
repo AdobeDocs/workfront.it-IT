@@ -6,7 +6,7 @@ description: I filtri nell’area Analisi avanzata di Adobe Workfront consentono
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
+source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 0%
@@ -28,9 +28,6 @@ Puoi aggiungere e rimuovere i filtri in base alle esigenze e Workfront mantiene 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-  *Per informazioni sulla pianificazione, il tipo di licenza o l'accesso disponibili, contattare l'amministratore Workfront.
- </caption> 
  <col> 
  <col> 
  <tbody> 
@@ -50,15 +47,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td> 
   </tr>
   <tr> 
-   <td><b>Livello di accesso*</b> </td> 
+   <td>Livello di accesso* </td> 
    <td> <p>Accesso ai progetti in visualizzazione</p> <p>Per visualizzare opzioni di filtro specifiche per i campi del progetto, è inoltre necessario disporre dell'accesso in visualizzazione ad attività, Portfoli e utenti.</p> <p>Nota: se sono selezionate restrizioni nella sezione Imposta restrizioni aggiuntive della finestra di dialogo Modifica livello di accesso, è possibile che dopo l’applicazione del filtro non vengano visualizzate tutte le informazioni nei filtri o nella pagina Analisi avanzata. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Autorizzazioni oggetto</b> </p> </td> 
+   <td> <p>Autorizzazioni oggetto </p> </td> 
    <td> <p>Visualizza</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Prerequisiti
 

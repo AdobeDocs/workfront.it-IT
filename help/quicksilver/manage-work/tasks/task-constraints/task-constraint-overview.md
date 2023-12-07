@@ -7,9 +7,9 @@ description: I vincoli dell'attività determinano quando un'attività deve inizi
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 45c82f659d02dca69d2a2c390b084330773d4252
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '691'
 ht-degree: 6%
 
 ---
@@ -28,7 +28,7 @@ I tipi di vincolo che richiedono date definite influiscono sulle relazioni dei p
 
 >[!TIP]
 >
->Considerare l&#39;utilizzo di un tipo di vincolo che non richiede date specifiche se si utilizzano relazioni predecessori tra attività.
+>Si consiglia di utilizzare un tipo di vincolo che non richieda date specifiche se si utilizzano relazioni predecessori tra attività.
 
 Nella tabella seguente vengono visualizzati i vincoli e le relative abbreviazioni. Le abbreviazioni vengono utilizzate negli elenchi delle attività e durante la creazione di file di importazione Kick-Start. Fare clic sul titolo collegato di ogni vincolo attività per ulteriori informazioni su tale tipo di vincolo.
 
@@ -55,7 +55,7 @@ Nella tabella seguente vengono visualizzati i vincoli e le relative abbreviazion
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Panoramica sui vincoli delle attività: Il più tardi possibile </a> </p> </td> 
    <td scope="col"> <p>PTP</p> </td> 
    <td scope="col"> <p>Posiziona il tempo di completamento dell'attività il più vicino possibile alla fine del progetto.</p> 
-   <p>Si tratta del vincolo predefinito quando la modalità di programmazione del progetto è dalla data di completamento e il valore predefinito del sistema o del gruppo per la data di inizio di un'attività è Basato sulla data pianificata del progetto. </p>
+   <p>Si tratta del vincolo predefinito quando la modalità di pianificazione del progetto è impostata su Data completamento e il valore predefinito del sistema o del gruppo per la data di inizio di un'attività è impostato su Basato sulla data pianificata del progetto. </p>
    </td> 
   </tr> 
   <tr> 
@@ -78,18 +78,18 @@ Nella tabella seguente vengono visualizzati i vincoli e le relative abbreviazion
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Panoramica sui vincoli delle attività: inizia non più tardi di</a> </p> </td> 
    <td scope="col"> <p>INDD</p> </td> 
    <td scope="col"> <p>Programma l'inizio di un'attività prima della data specificata.</p> 
-   <p>STthis è il vincolo predefinito se la modalità di pianificazione del progetto è dalla data di completamento e il valore predefinito del sistema o del gruppo per la data di inizio di un'attività è Today (Oggi). 
+   <p>Si tratta del vincolo predefinito se la modalità di programmazione del progetto è impostata su Data completamento e se il sistema o il gruppo predefinito per la data di inizio di un'attività è impostato su Oggi. 
    </td> 
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Panoramica sui vincoli attività: Finire non prima di</a> </p> </td> 
    <td scope="col"> <p>FNPD</p> </td>
-   <td scope="col"> <p>Programma il completamento di un'attività dopo la data specificata.</p> </td> 
+   <td scope="col"> <p>Consente di pianificare il completamento di un'attività dopo la data specificata.</p> </td> 
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Panoramica sui vincoli attività: Termina non più tardi di</a> </p> </td> 
    <td scope="col"> <p>FNDD</p> </td> 
-   <td scope="col"> <p>Consente di programmare il completamento di un'attività prima della data specificata.</p> </td> 
+   <td scope="col"> <p>Programma il completamento di un'attività prima della data specificata.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Panoramica sui vincoli attività: deve iniziare il</a> </p> </td> 
@@ -104,7 +104,7 @@ Nella tabella seguente vengono visualizzati i vincoli e le relative abbreviazion
   <tr> 
    <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Panoramica sui vincoli delle attività: date fisse</a> </p> </td> 
    <td> <p>FISSD</p> </td> 
-   <td> <p>Consente di programmare l'inizio e la fine di un'attività in date specifiche.</p> </td> 
+   <td> <p>Programma l'inizio e la fine di un'attività in date specifiche.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Workfront utilizza due variabili per decidere quale vincolo attività è selezio
 
 * Il **Data di inizio** configurata dall&#39;amministratore di Workfront o gruppo in **Attività e problemi** area di **Configurazione**.
 
-  Per informazioni sulle preferenze per attività e problemi, consulta la sezione &quot;Nuovi valori predefiniti attività&quot; in [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Per informazioni sulle preferenze per attività e problemi, vedere [Nuovi valori predefiniti attività](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) sezione in [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Nella tabella seguente viene illustrato il vincolo attività predefinito quando si scelgono variabili diverse per il progetto e le nuove attività:
 
