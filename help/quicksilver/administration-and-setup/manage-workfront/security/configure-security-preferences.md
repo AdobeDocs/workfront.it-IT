@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: c709ecd8023a0a9ce9c5b4591145d0a70912e003
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 6%
+source-wordcount: '833'
+ht-degree: 4%
 
 ---
 
@@ -69,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Abilita processo di revisione rapida</p> </td> 
-      <td>Consente di abilitare i rilasci mensili di Workfront per la tua organizzazione invece dei rilasci trimestrali.</p><p>Per ulteriori informazioni sul processo di rilascio rapido, consulta <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Abilitare o disabilitare le versioni rapide per la tua organizzazione</a>.</p></td> 
+      <td>Consente di abilitare i rilasci mensili di Workfront per la tua organizzazione invece dei rilasci trimestrali.</p><p>Per ulteriori informazioni sul processo di rilascio rapido, consulta <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Abilitare o disabilitare le versioni rapide per la tua organizzazione</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Consenti incorporamento di <strong>Workfront</strong> in un iframe</p> </td> 
@@ -80,7 +80,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td> <p>Consente di incorporare Workfront in un iframe solo per i componenti aggiuntivi di Office 365 quando Workfront è integrato con una soluzione Single Sign-On SAML 2.0. </p> <p>Questa opzione è attivata per impostazione predefinita.</p> <p><b>NOTA</b>: se abiliti l’opzione precedente, <strong>Consenti l’incorporamento di Workfront in un iframe</strong>, l’opzione <strong>Consenti autenticazione SAML 2.0 nei componenti aggiuntivi di Office 365</strong> è attivato e oscurato.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Abilita l'utilizzo delle informazioni della sessione durante la creazione degli URL delle pagine esterne</td> 
+      <td role="rowheader">Abilita l’utilizzo delle informazioni della sessione durante la creazione degli URL delle pagine esterne</td> 
       <td> <p>Consente agli utenti di utilizzare le informazioni ID sessione di un sito quando si aggiunge una pagina esterna a un dashboard.</p> <p>Per ulteriori informazioni sull'aggiunta di pagine esterne a un dashboard, vedere <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporare una pagina web esterna in una dashboard</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -98,7 +98,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
        </ul><p>Questa opzione è attivata per impostazione predefinita.</p> <p><b>Importante</b>: se questa opzione è disabilitata, il livello di accesso per gli utenti esterni non è disponibile nell’istanza di Workfront. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Livelli di accesso incorporati in Workfront</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Richiede agli utenti esterni di registrarsi con una password</td> 
+      <td role="rowheader">Richiedi agli utenti esterni di registrarsi con una password</td> 
       <td> <p>Richiede agli utenti esterni di registrarsi prima di poter visualizzare gli elementi in Workfront. Per impostazione predefinita, questa opzione è disabilitata. Quando abiliti questa opzione, alle persone senza un account Workfront incluse in alcuni aggiornamenti in base al loro indirizzo e-mail verrà richiesto di creare un account prima di poter visualizzare l’elemento in cui sono incluse. In questo modo viene creato un account utente esterno.</p> <p>Questa opzione è disabilitata per impostazione predefinita.</p> </td> 
      </tr> 
      <tr> 
