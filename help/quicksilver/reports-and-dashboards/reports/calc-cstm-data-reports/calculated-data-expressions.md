@@ -7,7 +7,7 @@ description: Puoi utilizzare le espressioni di dati per definire campi di dati p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 26aa5a1f9b0fd88c83d9967245d2a8149d39b607
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
 source-wordcount: '2166'
 ht-degree: 0%
@@ -56,21 +56,20 @@ Ad esempio:
 
 * In un campo personalizzato, in un modulo personalizzato per le attività, puoi utilizzare quanto segue per generare il nome del progetto principale dell’attività a cui è allegato il modulo personalizzato:
 
-  ```
-  {project}.{name}
-  ```
+
+  ` {project}.{name}`
+
 
 * In una colonna personalizzata di un report, utilizzare quanto segue per aggiungere una colonna personalizzata Nome progetto a un report attività:
 
-  ```
-  valuefield=project:name
-  ```
+
+  `valuefield=project:name`
+
 
   Oppure
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
+
 
   >[!TIP]
   >

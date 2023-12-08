@@ -5,13 +5,13 @@ keywords: kick-start, kick-start, kick-start, kick-start
 navigation-topic: use-kick-starts
 title: Importare dati in Adobe Workfront utilizzando un modello di avvio
 description: I Kick-Start sono cartelle di lavoro di Excel appositamente formattate che è possibile compilare con i dati che si desidera importare in Workfront. Adobe Workfront fornisce un modello Kick-Start da utilizzare a tale scopo, come spiegato in Importazione dati Kick-Start.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 81a9f33f5707e37a62a81546b9249410ded23ab5
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2780'
 ht-degree: 6%
 
 ---
@@ -42,7 +42,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td>
+   <p> Nuovo: Standard</p>
+   oppure
+   <p>Corrente: Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -56,23 +59,26 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 È possibile importare un numero elevato di oggetti in Workfront utilizzando un modello Kick-Start. Tuttavia, considera le seguenti limitazioni:
 
-* L&#39;importazione dei dati in questo modo non aggiorna le informazioni sui record già esistenti in Workfront
-* È possibile importare solo i nuovi record e le relative informazioni
+* Questa importazione di dati non aggiorna le informazioni sui record già esistenti in Workfront.
+* È possibile importare solo i nuovi record e le relative informazioni.
 * Non importare più di 2.000 record alla volta per evitare il timeout dell&#39;importazione
 
 ## Esportare un modello di Kick-Start come file di foglio di calcolo
 
-Quando si esporta un modello Kick-Start, viene visualizzata una cartella di lavoro vuota del foglio di calcolo di Excel. Nelle procedure successive di questo articolo, la cartella di lavoro verrà compilata con le informazioni e quindi importata nuovamente in Workfront.
+Quando si esporta un modello Kick-Start, viene visualizzata una cartella di lavoro vuota del foglio di calcolo di Excel. Una volta scaricato il foglio di calcolo nel computer, è possibile utilizzarlo per compilare le informazioni e quindi importarle nuovamente in Workfront.
 
 Per esportare un modello di Kick-Start:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Clic **Sistema** > **Esporta dati (Kick-Start)**.
+<!--
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. Clic **Altre opzioni**, quindi selezionare i tipi di informazioni che si desidera includere.
+1. Clic **Sistema** > **Importa dati (Kick-Start)**.
 
-   Ogni opzione selezionata rappresenta una raccolta di più schede nel foglio di calcolo esportato. Ad esempio, se selezioni l’opzione Rapporto, nel foglio di calcolo verranno inclusi tutti gli oggetti necessari per la creazione di un rapporto (viste, filtri, raggruppamenti, rapporti).
+1. Selezionare i tipi di informazioni che si desidera includere.
+
+   Ogni opzione selezionata rappresenta una raccolta di più schede nel foglio di calcolo esportato. Ad esempio, se selezioni il **Report** , tutti gli oggetti necessari per la creazione di un report verranno inclusi nel foglio di calcolo (viste, filtri, raggruppamenti, report).
 
    Per importare i dati in Workfront, è possibile utilizzare tutti i tipi di oggetto elencati di seguito. L&#39;unica eccezione è rappresentata dall&#39;opzione Livelli di accesso. La scheda dati Livelli di accesso in un&#39;esportazione viene fornita a scopo di riferimento, in quanto consente di assegnare un livello di accesso a un nuovo account utente in base all&#39;ID.)
 
@@ -93,22 +99,22 @@ Per esportare un modello di Kick-Start:
      <tr> 
       <td scope="col"> <p>Dashboard</p> <p>Tutte le dashboard del sistema sono disponibili per l’esportazione. È possibile selezionare fino a 100 dashboard specifici in una singola esportazione.</p> </td> 
       <td scope="col">Esporta come file ZIP</td> 
-      <td scope="col"> <p>Parametro</p> <p>Opzione Parametro</p> <p>Gruppo di parametri</p> <p>Parametro di Categoria</p> <p>Categoria</p> <p>Rapporto</p> <p>La Sezione della Liguetta Portale</p> <p>Dashboard</p> <p>Preferenze</p> </td> 
+      <td scope="col"> <p>Parametro</p> <p>Testo descrittivo</p><p>Opzione Parametro</p> <p>Gruppo di parametri</p> <p>Parametro di Categoria</p> <p>Categoria</p> <p>Rapporto</p> <p>La Sezione della Liguetta Portale</p> <p>Dashboard</p> <p>Preferenze</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Rapporto</p> <p>Tutti i report nel sistema sono disponibili per l'esportazione. Puoi selezionare fino a 100 rapporti specifici in una singola esportazione.</p> </td> 
       <td scope="col">Esporta come file ZIP </td> 
-      <td scope="col"> <p scope="col">Parametro</p> <p scope="col">Opzione Parametro</p> <p scope="col">Gruppo di parametri</p> <p scope="col">Parametro di Categoria</p> <p scope="col">Categoria</p> <p scope="col">Rapporto</p> <p scope="col">Preferenze</p> </td> 
+      <td scope="col"> <p scope="col">Parametro</p> <p scope="col">Testo descrittivo</p> <p scope="col">Opzione Parametro</p> <p scope="col">Gruppo di parametri</p> <p scope="col">Parametro di Categoria</p> <p scope="col">Categoria</p> <p scope="col">Rapporto</p> <p scope="col">Preferenze</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Approval</p> </td> 
       <td scope="col"> <p>Esporta come file Excel</p> </td> 
-      <td scope="col"> <p>Approvatore passaggio</p> <p>Passaggio di approvazione</p> <p>Approval</p> <p>Processo di approvazione</p> <p>Preferenze</p> </td> 
+      <td scope="col"> <p>Approvatore fase</p> <p>Fase di approvazione</p> <p>Approval</p> <p>Processo di approvazione</p> <p>Preferenze</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Dati personalizzati</p> </td> 
       <td scope="col"> <p>Esporta come file Excel</p> </td> 
-      <td scope="col"> <p>Parametro</p> <p>Opzione Parametro</p> <p>Gruppo di parametri</p> <p>Parametro di Categoria</p> <p>Categoria</p> <p>Preferenze</p> </td> 
+      <td scope="col"> <p>Parametro</p> <p>Testo descrittivo</p>  <p>Opzione Parametro</p> <p>Gruppo di parametri</p> <p>Parametro di Categoria</p> <p>Categoria</p> <p>Preferenze</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Tipo di Spesa</p> </td> 
@@ -189,13 +195,33 @@ Per esportare un modello di Kick-Start:
       <td>Ruolo</td> 
       <td>Esporta come file Excel</td> 
       <td> <p> Ruolo</p> <p>Preferenze </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>Gruppo di risorse esistente</td> 
+      <td>Esporta come file Excel</td> 
+      <td> <p> Gruppo di risorse esistente</p> <p>Preferenze </p> </td> 
+     </tr>
+
+   <tr> 
       <td>Percorso milestone</td> 
       <td> Esporta come file Excel</td> 
       <td> <p> Milestone</p> <p>Percorso milestone</p> <p>Preferenze </p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+      <td>Risorsa non manodopera</td> 
+      <td> Esporta come file Excel</td> 
+      <td> <p> Risorsa non manodopera</p> <p>Preferenze</p></td> 
+     </tr>
+
+   <tr> 
+      <td>Categoria di risorse non manodopera</td> 
+      <td> Esporta come file Excel</td> 
+      <td> <p> Categoria di risorse non manodopera</p> <p>Preferenze</p></td> 
+     </tr>
+
+   <tr> 
       <td>Nota</td> 
       <td>Esporta come file Excel</td> 
       <td> <p> Nota</p> <p>Preferenze </p> </td> 
@@ -216,11 +242,6 @@ Per esportare un modello di Kick-Start:
       <td> <p> Stima Risorse</p> <p>Preferenze </p> </td> 
      </tr> 
      <tr> 
-      <td>Gruppo di risorse</td> 
-      <td>Esporta come file Excel</td> 
-      <td> <p> Gruppo di risorse</p> <p>Preferenze </p> </td> 
-     </tr> 
-     <tr> 
       <td>Rischio</td> 
       <td>Esporta come file Excel</td> 
       <td> <p> Rischio</p> <p>Preferenze </p> </td> 
@@ -233,7 +254,7 @@ Per esportare un modello di Kick-Start:
      <tr> 
       <td>Scorecard</td> 
       <td>Esporta come file Excel</td> 
-      <td> <p>Domande Scorecard</p> <p>Opzione scorecard</p> <p>Scorecard</p> <p>Preferenze </p> </td> 
+      <td> <p>Domanda Scorecard</p> <p>Opzione scorecard</p> <p>Scorecard</p> <p>Preferenze </p> </td> 
      </tr> 
      <tr> 
       <td>Attività</td> 
@@ -269,17 +290,17 @@ Per esportare un modello di Kick-Start:
    </table>
 
 1. Clic **Scarica**.
-1. Continua con [Compilare il modello di foglio di calcolo con i dati](#populate-the-spreadsheet-template-with-your-data) per compilare il modello con le informazioni.
+1. Continua con [Compilare il modello di foglio di calcolo con i dati](#populate-the-spreadsheet-template-with-your-data) per inserire le informazioni nel foglio di calcolo del modello vuoto.
 
 ## Compilare il modello di foglio di calcolo con i dati {#populate-the-spreadsheet-template-with-your-data}
 
-* [Informazioni sulle schede (fogli dati) incluse nel foglio di calcolo](#about-the-tabs-data-sheets-included-in-the-spreadsheet)
+* [Panoramica delle schede (fogli dati) incluse nel foglio di calcolo](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
 * [Importare un record](#import-a-record)
 * [Includi date](#include-dates)
 * [Usa caratteri jolly](#use-wildcards)
 * [Sostituzione nome attributo per ID](#attribute-name-substitution-for-ids)
 
-### Informazioni sulle schede (fogli dati) incluse nel foglio di calcolo {#about-the-tabs-data-sheets-included-in-the-spreadsheet}
+### Panoramica delle schede (fogli dati) incluse nel foglio di calcolo
 
 >[!TIP]
 >
@@ -293,12 +314,13 @@ Quando si apre una di queste schede, nella riga 2 vengono visualizzati i campi d
 >
 >Per evitare errori, assicurati di quanto segue:
 >
->* Non eliminare o modificare questi campi in alcun modo. Ad esempio, non modificare l’ordine o i nomi.
->* Popola ogni campo con un’intestazione di colonna in grassetto. Questi rappresentano campi obbligatori.
+>* Non eliminare la prima riga vuota di un foglio di calcolo di avvio.
+>* Non eliminare, modificare o ridisporre questi campi (intestazioni di colonna) in alcun modo. Ad esempio, non modificare l’ordine o i nomi.
+>* Aggiungi valori a ogni campo visualizzato in grassetto nell’intestazione della colonna. Questi rappresentano campi obbligatori.
 >
->  Tuttavia, se un campo obbligatorio contiene un valore predefinito impostato nelle preferenze di sistema, non è necessario compilarlo.
+>     Tuttavia, se un campo obbligatorio contiene un valore predefinito impostato nelle preferenze di sistema, non è necessario compilarlo.
 >
->  Ad esempio, nella **Progetto PROJ** , la scheda **setCondition** e **setConditionType** possono essere lasciati vuoti, ma il campo **setGroupID** e **setName** le colonne non possono.
+>     Ad esempio, nella **Progetto PROJ** , la scheda **setCondition** e **setConditionType** possono essere lasciati vuoti, ma il campo **setGroupID** e **setName** le colonne non possono.
 >
 >* Alcuni campi, tra cui **setResourceRevenue** e **setEnteredByID**, vengono generate automaticamente dal sistema. Se si immettono dati per questi campi nel foglio di calcolo, il processo di avvio lo ignorerà quando si carica il foglio di calcolo.
 
@@ -306,26 +328,30 @@ Quando si apre una di queste schede, nella riga 2 vengono visualizzati i campi d
 
 Ogni riga del foglio corrisponde a un oggetto univoco.
 
-1. Completare la cella in **isNew** colonna:
+1. Aggiungere informazioni in **isNew** colonna:
 
-   * Se l&#39;oggetto da importare è nuovo, digitare **TRUE** per importare i dati nella riga.
-   * Se l&#39;oggetto è già in Workfront, **FALSE** deve trovarsi nella colonna per ignorare la riga.
+   * Se l&#39;oggetto da importare è nuovo, digitare **TRUE** per importare i dati nella riga. Questo valore fa distinzione tra maiuscole e minuscole e deve essere sempre in lettere maiuscole
+   * Se l&#39;oggetto è già in Workfront, digitare **FALSE** nel **isNew** per ignorare la riga. Questo valore fa distinzione tra maiuscole e minuscole e deve essere sempre in lettere maiuscole
 
       * I record già esistenti in Workfront non vengono aggiornati.
-      * Se hai scaricato un modello con dati, gli oggetti esistenti sono già contrassegnati con **FALSE**.
+      * Se hai scaricato un modello con dati da Workfront, gli oggetti esistenti sono già contrassegnati con **FALSE**.
       * Se è stato scaricato un modello vuoto, non è necessario aggiungere nuove righe per gli oggetti esistenti.
 
-1. Completare la cella in **ID** in uno dei modi seguenti:
+1. Aggiungere informazioni in **ID** in uno dei modi seguenti:
 
-   * Se l&#39;oggetto che si sta importando è nuovo (e si è digitato **TRUE** nel **isNew** ), digita un numero qualsiasi per l&#39;ID. Questo numero deve essere univoco nel foglio di calcolo.
+   * Se l&#39;oggetto che si sta importando è nuovo (e si è digitato **TRUE** nel **isNew** ), digita un numero qualsiasi per l&#39;ID. Questo numero deve essere univoco nel foglio di calcolo. Ad esempio, se importi tre oggetti, puoi assegnare loro rispettivamente l’ID 1, 2, 3.
 
-   * Se l’oggetto esiste già in Workfront (e **FALSE** è in **isNew** ), l&#39;ID deve essere il GUID alfanumerico esistente in Workfront per quell&#39;oggetto.
+   * Se l’oggetto esiste già in Workfront (e **FALSE** è in **isNew** ) e si stanno importando nuove informazioni sugli oggetti esistenti, l&#39;ID deve essere il GUID alfanumerico esistente in Workfront per quell&#39;oggetto.
 
-      * I record già esistenti in Workfront non vengono aggiornati.
-      * Se è stato scaricato un modello con dati, gli oggetti esistenti contengono già il GUID come ID.
-      * È possibile importare un nuovo oggetto basato su un oggetto esistente modificando **FALSE** a **TRUE** nel **isNew** , modificando l&#39;ID ed effettuando le regolazioni di dati necessarie prima dell&#39;importazione.
+   >[!TIP]
+   >
+   > Per individuare il GUID univoco di un oggetto in Workfront, è possibile creare un report per tale oggetto e aggiungere la colonna ID al report. Il valore di ogni oggetto nella colonna è il GUID dell&#39;oggetto.
 
-     ![ID di esempio per un gruppo](assets/kick-start-group-example.png)
+   * I record già esistenti in Workfront non vengono aggiornati.
+   * Se è stato scaricato un modello con dati, gli oggetti esistenti contengono già il GUID come ID.
+   * È possibile importare un nuovo oggetto basato su un oggetto esistente modificando **FALSE** a **TRUE** nel **isNew** , modificando l&#39;ID ed effettuando le regolazioni di dati necessarie prima dell&#39;importazione.
+
+   ![ID di esempio per un gruppo](assets/kick-start-group-example.png)
 
    * Quando si importa un progetto, è necessario indicare un ID gruppo.
 
@@ -341,7 +367,7 @@ Ogni riga del foglio corrisponde a un oggetto univoco.
 1. (Facoltativo) Per aggiungere dati personalizzati:
 
    * Creare una nuova colonna per ogni campo personalizzato che si desidera includere nel processo di importazione.
-   * Denomina ogni nuova colonna per il campo personalizzato corrispondente come segue: **DE:[Nome del campo personalizzato visualizzato in Workfront]**.
+   * Denomina ogni nuova colonna per il campo personalizzato corrispondente come segue: **DE:[Nome del campo personalizzato visualizzato in Workfront]**. Ad esempio, puoi creare il seguente campo personalizzato: &quot;DE: Dipartimenti&quot;.
    * Nella colonna **setCategoryID**, digitare il GUID del modulo personalizzato esistente in cui si trova il campo personalizzato. Questo campo è obbligatorio per l’importazione di dati personalizzati.
    * Per aggiungere più valori di dati nel campo personalizzato, ad esempio pulsanti di scelta, caselle di controllo o elenchi, utilizzare il delimitatore di dati personalizzato a barre verticali &quot;|&quot; elencato nella scheda Preferenze per separare i valori.
 
@@ -353,13 +379,17 @@ Workfront è in grado di elaborare la maggior parte dei formati di date. È tutt
 
 >[!TIP]
 >
->Per la maggior parte delle persone è più semplice utilizzare il formato MM/GG/AAAA (ad esempio: 07/10/2022).
+>Il formato più diffuso è il formato MM/GG/AAAA.
+>
+>Ad esempio: 07/10/2023.
 
-Workfront accetta anche valori di ora come parte della data (ad esempio: 07/10/2022 01:30 o 07/10/2022 1:00 PM).
+Workfront accetta anche i valori di ora come parte della data.
+
+Ad esempio: 07/10/2022 01:30 o 07/10/2022 1:00 PM.
 
 Se si omette un&#39;ora nella data, Workfront esegue una delle operazioni seguenti:
 
-* Presuppone le 00:00. Per visualizzare il risultato della data prevista, il fuso orario del sistema deve corrispondere al proprio.
+* Presuppone che l’ora sia le 00:00. Per visualizzare il risultato della data prevista, il fuso orario del sistema deve corrispondere al proprio.
 * Se si trova su un oggetto associato a una pianificazione, il tempo si riferisce alla prima volta consentita dalla pianificazione.
 
 >[!NOTE]
@@ -407,19 +437,19 @@ Sebbene sia una best practice utilizzare gli ID quando possibile, a volte è sco
 
 **Esempi:**
 
-* **(importazione progetto)**
+* **Importazione progetto**
 
   Durante l’importazione dei progetti, imposta **setGroupID** dei progetti mediante il collegamento **Gruppo di gruppi** , annotando i rispettivi ID gruppo e incollandoli nelle celle corrette (**setGroupID** ) sulla **Progetto PROJ** foglio.
 
   Questo è possibile quando si lavora con pochi gruppi e progetti, ma se si lavora con diversi di ciascuno, non è pratico.
 
-  Per eseguire l&#39;operazione Sostituzione nome attributo per l&#39;esempio descritto in precedenza, è necessario modificare **setGroupID** intestazione di colonna a **#setGroupID GROUP****name**. È quindi possibile fare riferimento al gruppo di ogni progetto per nome.
+  Per eseguire l&#39;operazione Sostituzione nome attributo per l&#39;esempio descritto in precedenza, è necessario modificare **setGroupID** intestazione di colonna a **Nome GRUPPO #setGroupID**. È quindi possibile fare riferimento al gruppo di ogni progetto per nome.
 
   >[!NOTE]
   >
   >L&#39;opzione per utilizzare la sostituzione nome attributo è limitata ai riferimenti solo per i record esistenti. Non è possibile utilizzare la sostituzione del nome per gli oggetti che si stanno creando nella stessa importazione.
 
-* **(importazione utente)**
+* **Importazione utente**
 
   Quando importi gli utenti, compila il **setRoleID** da un elenco di ruoli sul **Ruolo** scheda.
 
@@ -443,8 +473,7 @@ Dopo aver inserito i dati nel modello di Excel, puoi caricarne i dati in Workfro
 
 L&#39;importazione Kick-Start supporta i seguenti tipi di file:
 
-* Excel basato su XML (.xlsx)
-* Excel legacy (.xls)
+* Excel (.xls o .xlsx)
 * File ZIP compresso (contenente solo file xlsx o xls)
 
   >[!NOTE]
@@ -460,7 +489,9 @@ L&#39;importazione Kick-Start supporta i seguenti tipi di file:
 
 Per importare i dati del foglio di calcolo del modello in Workfront:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
+<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
 1. Clic **Sistema** >**Importa dati (Kick-Start)**.
 
@@ -468,7 +499,7 @@ Per importare i dati del foglio di calcolo del modello in Workfront:
 
 1. Clic **Carica.**
 
-   Se il caricamento del file Excel in Workfront richiede più di 5 minuti, l’applicazione scade e non è possibile caricare il file.
+   Se il caricamento del file Excel in Workfront richiede più di 5 minuti, l’applicazione va in timeout e Workfront non può caricare il file.
 
    Prova a importare i dati in batch più piccoli di oggetti.
 

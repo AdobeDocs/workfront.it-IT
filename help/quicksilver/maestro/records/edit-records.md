@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -191,7 +191,7 @@ After permssions - replace the table with:
 
 1. Clic **Salva modifiche**. <!--logged a bug for this - this needs to be "Save"-->
 
-### Modificare un record dalla vista tabella del tipo di record
+### Modificare un record dalla vista tabella di un tipo di record
 
 1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/main-menu-shell.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
 
@@ -213,7 +213,7 @@ After permssions - replace the table with:
    >
    >  Non è possibile modificare le informazioni per i campi seguenti, in quanto sono di sola lettura e Workfront li aggiorna automaticamente:
    >  
-   >  * Campi collegati creati mediante il collegamento di tipi di record
+   >  * Campi collegati creati mediante la connessione di tipi di record. Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
    >  * Campi dei seguenti tipi: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica
 
 
@@ -225,11 +225,12 @@ After permssions - replace the table with:
    >
    >* Non è possibile copiare informazioni da un&#39;altra origine, ad eccezione di un campo Maestro dello stesso tipo del campo in cui si incollano le informazioni.
    >
-   >* Non è possibile copiare e incollare i valori dei campi visualizzati nell&#39;area Dettagli di un record.
+   >* Non è possibile copiare e incollare i valori dei campi nell&#39;area Dettagli di un record. Questa funzionalità è supportata solo nella vista tabella di un tipo di record.
    >* Non è possibile copiare e incollare valori di campo per i tipi di campo seguenti:
-   ><ul>
    >
-   > * Campi di sistema
+   >
+   >    * Campi collegati creati mediante la connessione di tipi di record. È possibile copiare e incollare campi record collegati. Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
+   >    * Campi dei seguenti tipi: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica
 
 
    <!--take People out of the list above when they release this - this might be coming later-->

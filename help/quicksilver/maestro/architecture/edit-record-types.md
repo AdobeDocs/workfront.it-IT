@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 85f499a429d4223c62b7b13dc0b1d10e8e79e9ed
+source-git-commit: 3e1e651662f9ff695d475ffcbdc77f0802d108f1
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -152,9 +152,9 @@ After permssions - replace the table with:
 
 ## Modifica tipi di record
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
+Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera creare i tipi di record.
 1. Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell&#39;angolo superiore destro della scheda tipo di record, quindi fare clic su **Aggiorna aspetto**.
@@ -181,3 +181,4 @@ After permssions - replace the table with:
    ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
    È inoltre possibile rinominare un tipo di record nell&#39;intestazione della pagina del tipo di record.
+1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un tipo di record e selezionare un altro tipo di record da modificare.
