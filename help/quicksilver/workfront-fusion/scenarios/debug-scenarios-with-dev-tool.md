@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool consente di comprendere e risolvere 
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 82ff5d2731c981c89eb02c86d6d6eddc5d87dec7
+source-git-commit: a84c59e44055dec25928f34f1a795bb8565ff199
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 # Scenari di debug con [!DNL Adobe Workfront Fusion] Devtool
 
 Il [!DNL Adobe Workfront Fusion] Devtool consente di comprendere e risolvere gli scenari. Devtool aggiunge un pannello aggiuntivo al [!DNL Chrome Developer Tools]. Utilizzando questo pannello di debugger, puoi controllare tutte le esecuzioni manuali dello scenario, esaminare tutte le operazioni eseguite e visualizzare i dettagli di ogni chiamata API eseguita. Puoi vedere quale modulo, operazione o singola risposta ha causato l’errore e sfruttare queste informazioni per perfezionare lo scenario.
+
+Per un video approfondito sullo strumento Fusion Devtool, consultate [Procedura dettagliata Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
 
 ## Requisiti di accesso
 
@@ -98,7 +100,7 @@ Il [!DNL Workfront Fusion] L&#39;estensione Devtool è stata aggiunta al [!DNL C
 Per utilizzare [!DNL Workfront Fusion] Devtool, devi aggiungere [!DNL Workfront Fusion] Estensione Devtool per [!DNL Chrome] come descritto in [Installare l’estensione per Chrome Devtool](#install-the-chrome-Devtool-extension).
 
 1. Apri il [!DNL Workfront Fusion] scenario.
-1. Aperto [!DNL Chrome Developer Tools]:
+1. Apri [!DNL Chrome Developer Tools]:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -203,7 +205,7 @@ Strumenti e relativi campi:
 * [Trova moduli per mappatura](#find-modules-by-mapping)
 * [Ottieni metadati app](#get-app-metadata)
 * [Copia mappatura](#copy-mapping)
-* [Copia Filtro](#copy-filter)
+* [Copia filtro](#copy-filter)
 * [Scambia connessione](#swap-connection)
 * [Scambia variabile](#swap-variable)
 * [Scambia app](#swap-app)
@@ -277,7 +279,7 @@ Copia i valori dal modulo di origine al modulo di destinazione.
  </tbody> 
 </table>
 
-#### [!UICONTROL Copia Filtro]
+#### [!UICONTROL Copia filtro]
 
 Copia le impostazioni del filtro dal modulo di origine al modulo di destinazione.
 
