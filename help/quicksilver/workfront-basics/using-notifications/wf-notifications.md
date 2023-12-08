@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 navigation-topic: notifications
-title: Notifiche Adobe Workfront
+title: Panoramica delle notifiche
 description: Adobe Workfront invia notifiche e-mail, notifiche in-app e notifiche sul dispositivo mobile.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: f0ad08f21101bca3f881b6e5a8267d30ce3988ed
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 1%
+source-wordcount: '1395'
+ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] notifiche
+# Panoramica delle notifiche
 
 [!DNL Adobe Workfront] invia notifiche e-mail, notifiche in-app e notifiche sul dispositivo mobile.
 
 ## Notifiche e-mail
 
-[!DNL Workfront] invia una serie di notifiche e-mail agli utenti in merito all’attività in Workfront e fornisce informazioni e collegamenti utili.
+[!DNL Workfront] invia notifiche e-mail agli utenti in merito all’attività in Workfront e fornisce informazioni e collegamenti utili.
 
 Per modificare le preferenze per le notifiche e-mail, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -39,11 +39,11 @@ Puoi ricevere le seguenti notifiche e-mail da [!DNL Workfront]:
 
 ### Notifiche degli eventi
 
-Le notifiche degli eventi sono predefinite in [!DNL Workfront]. Di solito vengono attivati da determinati eventi.
+Le notifiche degli eventi vengono in genere attivate da alcuni eventi predefiniti, ad esempio l&#39;assegnazione di un&#39;attività o la ricezione di una risposta a un commento.
 
-Dopo che le notifiche dell’evento sono state attivate dal [!DNL Workfront] amministratore o amministratore gruppo, puoi selezionare quelli che desideri ricevere modificando il tuo [!UICONTROL Notifiche] preferenze nel profilo utente. Puoi anche scegliere se ricevere le notifiche man mano che gli eventi si verificano, o se ricevere il riepilogo degli eventi in un’e-mail di riepilogo giornaliero.
+Dopo l’attivazione delle notifiche degli eventi nel [!DNL Workfront] sistema in base al [!DNL Workfront] amministratore o amministratore gruppo, puoi selezionare quelli che desideri ricevere modificando il tuo [!UICONTROL Notifiche] preferenze nel profilo utente. Puoi anche scegliere se ricevere le notifiche man mano che gli eventi si verificano, o se ricevere il riepilogo degli eventi in un’e-mail di riepilogo giornaliero.
 
-A seconda di come [!DNL Workfront] l&#39;amministratore ha configurato le notifiche degli eventi per [!DNL Workfront] (come descritto in [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)), potresti visualizzare solo un sottoinsieme di queste notifiche nelle impostazioni.
+È possibile che nelle impostazioni venga visualizzato solo un sottoinsieme di queste notifiche, a seconda di come [!DNL Workfront] l&#39;amministratore ha configurato le notifiche degli eventi per [!DNL Workfront] di rete. Per ulteriori informazioni, consulta [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 Lo stato predefinito mostra quali notifiche (giornaliere, istantanee o entrambe) sono abilitate per impostazione predefinita per i nuovi utenti quando li crei.
 
@@ -56,6 +56,8 @@ Per informazioni su come scegliere le notifiche degli eventi da ricevere, consul
 >Le notifiche degli eventi sono le uniche notifiche che possono essere configurate per essere consegnate negli aggiornamenti digest giornalieri.
 
 ### Notifiche riepilogo giornaliere
+
+Una notifica con riepilogo giornaliero è un’e-mail contenente tutte le notifiche di un certo tipo ricevute nelle 24 ore precedenti l’e-mail.
 
 Per un elenco completo delle notifiche e-mail abilitate per una consegna e-mail con riepilogo giornaliero e per informazioni su tutte le categorie per le notifiche e-mail, consulta [Notifiche degli eventi](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications).
 
@@ -72,6 +74,10 @@ Quando si ricevono le notifiche di riepilogo giornaliere è necessario tenere pr
 
   Per **[!UICONTROL Comunicazione]** categoria, le notifiche sono raggruppate in base all’oggetto in cui si è verificata la comunicazione.
 
+  >[!NOTE]
+  >
+  >Per la categoria Comunicazione, puoi selezionare singole notifiche solo per la consegna immediata. Affinché le notifiche vengano recapitate in un riepilogo giornaliero, è necessario selezionarle tutte.
+
 * L’e-mail di riepilogo giornaliero elenca gli eventi che si sono verificati per le azioni in una particolare area (come **Informazioni sui progetti di cui sono proprietario**) entro le 24 ore precedenti l&#39;orario scelto per la consegna.
 * Il fuso orario per l’ora selezionata per la consegna del riepilogo giornaliero corrisponde al fuso orario, in quanto è configurato sul browser.
 * Le e-mail di riepilogo giornaliero hanno il nome della sezione nell’oggetto e la data in cui vengono consegnate.
@@ -85,13 +91,15 @@ E-mail di riepilogo giornaliero per [!UICONTROL Comunicazione] vengono seleziona
 
 Le informazioni vengono riepilogate per l&#39;oggetto in cui si è verificata la comunicazione e per ogni oggetto viene visualizzato un numero totale di messaggi di comunicazione.
 
-Per ulteriori informazioni sulla configurazione delle notifiche e-mail, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Per rispondere al commento o visualizzarlo in Workfront:
 
-Per istruzioni su come commentare [!UICONTROL Comunicazione] e-mail, vedi [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Fai clic su **[!UICONTROL Commento]** nell’e-mail.
 
-Per ulteriori informazioni su [!UICONTROL Comunicazione] e-mail, vedi [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Il [!UICONTROL Aggiornamenti] viene aperta l&#39;area dell&#39;oggetto, con il commento specifico evidenziato in blu.
 
-Per ulteriori informazioni sull’abilitazione delle notifiche con riepilogo giornaliero, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   È aperta una casella di risposta che è possibile utilizzare per rispondere al commento.
+
+Per ulteriori informazioni sulla configurazione delle notifiche e-mail, inclusa l’abilitazione delle notifiche con riepilogo giornaliero, consulta [Visualizzare e modificare le impostazioni delle notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings) in [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### Promemoria automatici
 
@@ -120,7 +128,7 @@ Per informazioni sull&#39;attivazione dei promemoria automatici, vedere [Imposta
 
 ### Notifiche promemoria
 
-A [!DNL Workfront] amministratore (o un utente con [!UICONTROL Planner] livello di accesso e accesso amministrativo per le notifiche dei promemoria) possono progettare notifiche dei promemoria sull’approssimarsi delle scadenze e allegarle a progetti, attività, problemi e schede orario. Per ulteriori informazioni su come ottenere l’accesso amministrativo richiesto, consulta [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+A [!DNL Workfront] amministratore (o un utente con [!UICONTROL Planner] livello di accesso e accesso amministrativo per le notifiche dei promemoria) può progettare notifiche dei promemoria sull’approssimarsi delle scadenze e associarle manualmente a progetti, attività, problemi e schede orario.
 
 >[!IMPORTANT]
 >
@@ -130,15 +138,19 @@ Le notifiche di promemoria vengono inviate dall’indirizzo e-mail che [!DNL Wor
 
 Per informazioni sulla configurazione e l&#39;attivazione delle notifiche di promemoria, vedere [Configurare le notifiche di promemoria](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
+Per informazioni su come ottenere l’accesso amministrativo richiesto, consulta [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+
 ### Notifiche delle bacheche
 
-[!DNL Adobe Workfront] [!UICONTROL Schede] ti invia un’e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda.
+[!DNL Adobe Workfront] [!UICONTROL Schede] ti invia un’e-mail quando sei aggiunto a una bacheca e quando ti viene assegnata una scheda. Puoi selezionare le e-mail che desideri ricevere nelle preferenze delle Bacheche.
 
-Puoi selezionare le e-mail che desideri ricevere nelle preferenze delle Bacheche. Per ulteriori informazioni, consulta [Bacheche notifiche e preferenze e-mail](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
+Per ulteriori informazioni, consulta [Bacheche notifiche e preferenze e-mail](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
 ### Altro [!DNL Workfront] email
 
-Potresti ricevere altre e-mail da [!DNL Workfront] che non può essere configurato. Le seguenti e-mail vengono inviate automaticamente da [!DNL Workfront] quando sono soddisfatte le seguenti condizioni:
+Potresti ricevere altre e-mail da [!DNL Workfront] che non può essere configurato.
+
+Le seguenti e-mail vengono inviate automaticamente da [!DNL Workfront] quando sono soddisfatte le seguenti condizioni:
 
 * Ripristina un elemento: quando [!DNL Workfront] l&#39;amministratore ripristina un oggetto da [!UICONTROL Ricicla] Raccoglitore, viene inviata un’e-mail al [!DNL Workfront] amministratore.
 * Impossibile ripristinare: quando [!DNL Workfront] l&#39;amministratore tenta di ripristinare un oggetto dal Cestino e il ripristino non riesce, viene inviata un&#39;e-mail al [!DNL Workfront] amministratore.
@@ -162,10 +174,10 @@ Se si dispone di [!DNL Workfront] L’app mobile installata sul telefono, toccan
 
 * [!UICONTROL Lavoraci]
 * [!UICONTROL Commento]
-* [!UICONTROL Decidi se approvare o meno]
-* [!UICONTROL Mostra tutte le notifiche]
+* [!UICONTROL Decidi l&#39;approvazione]
+* [!UICONTROL Visualizza tutte le notifiche]
 * [!UICONTROL Aggiungi]
-* [!UICONTROL Inizia]
+* [!UICONTROL Introduzione]
 * [!UICONTROL Vedi altri dettagli]
 
 Per ulteriori informazioni su [!DNL Workfront] App mobile, vedi [Utilizza il [!DNL Adobe Workfront] app mobile](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).

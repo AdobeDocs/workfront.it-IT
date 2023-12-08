@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: dcbb55f57d189c715cc1111fde3c4bc597495851
 workflow-type: tm+mt
-source-wordcount: '1857'
+source-wordcount: '1863'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Per informazioni e considerazioni sulla modalità testo prima di iniziare, consu
 
 Per un elenco completo di tutti i campi da segnalare e dei relativi attributi, vedere [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità testo, inclusi classi, video e tutorial, consulta la sezione Informazioni sul sito Adobe Experience League.
+Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità testo, inclusi classi, video e tutorial, visita la sezione Informazioni sul sito Adobe Experience League.
 
 ## Considerazioni sulla sintassi della modalità testo
 
@@ -99,14 +99,14 @@ Esistono le seguenti somiglianze tra la sintassi dei set di elementi di reportin
 
 ### Sintassi per visualizzazioni e raggruppamenti
 
-È possibile notare che le righe di codice durante la creazione di visualizzazioni e raggruppamenti sono simili.
+Le righe di codice per la creazione di visualizzazioni e raggruppamenti sono simili.
 
 Per informazioni sulla creazione di viste e raggruppamenti, vedere gli articoli seguenti:
 
 * [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-La riga di codice più importante per una visualizzazione o un raggruppamento è la riga che identifica l&#39;oggetto a cui si fa riferimento nella colonna della visualizzazione o nel raggruppamento. A seconda che si tratti di un riferimento diretto a un campo di un database Workfront o di un calcolo tra più campi, la riga di codice può iniziare con `valuefield` o `valueexpression`
+La riga di codice più importante per una visualizzazione o un raggruppamento è la riga che identifica l&#39;oggetto a cui si fa riferimento nella colonna della visualizzazione o nel raggruppamento. Questa riga di codice può iniziare con `valuefield` o `valueexpression` a seconda che si tratti di un riferimento diretto a un campo di un database Workfront o di un calcolo tra più campi.
 
 Nella tabella seguente sono elencate le righe di codice più comuni in una visualizzazione o in un raggruppamento:
 
@@ -216,13 +216,11 @@ Le seguenti regole si applicano quando si fa riferimento a oggetti Workfront uti
 
 #### `Valueformat` panoramica su visualizzazioni e raggruppamenti
 
-La seconda riga di codice più importante in una visualizzazione o in un raggruppamento è `valueformat=` linea. Questo indica a Workfront in quale formato restituire il valore specificato nel
-`valuefield` o righe di espressione di valore. Anche se è possibile utilizzare vari formati per `valueformat` linee, si consiglia di utilizzare sempre il seguente valore quando si utilizza
-`valueexpression`:
+La seconda riga di codice più importante in una visualizzazione o in un raggruppamento è `valueformat=` linea. Questo indica a Workfront in quale formato restituire il valore specificato nel `valuefield` o `valueexpression` linee. Anche se è possibile utilizzare vari formati per `valueformat` linee, si consiglia di utilizzare sempre il seguente valore quando si utilizza `valueexpression`:
 
 `valueformat=HTML`
 
-Per ulteriori `valueformats` , vedi anche i seguenti articoli:
+Per ulteriori `valueformat` , vedi anche i seguenti articoli:
 
 * [Formattare le date nei report in modalità testo](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formattare numeri, valuta e valori percentuali nei report in modalità testo](../../reports/text-mode/format-numbers-in-text-mode-reports.md)

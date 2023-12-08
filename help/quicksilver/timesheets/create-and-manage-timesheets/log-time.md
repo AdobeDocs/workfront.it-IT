@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3570'
 ht-degree: 0%
 
 ---
@@ -72,8 +72,11 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <ul><li>Revisione o successiva per registrare le ore generali in una scheda orario</li>
-   <li> Lavoro o superiore per registrare le ore su un progetto, attività o problema</li></ul>
+   <td> <p>Nuovo piano:<ul><li>Chiaro o superiore per registrare le ore generali in una scheda orario</li></p>
+   <li> Standard o superiore per registrare le ore su un progetto, attività o problema</li></ul></p>
+   <p>oppure</p>
+   <p>Piano corrente:<ul><li>Revisione o successiva per registrare le ore generali in una scheda orario</li></p>
+   <li> Lavoro o superiore per registrare le ore su un progetto, attività o problema</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -103,7 +106,7 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
 * Le ore inserite nei record di fatturazione fatturate sono oscurate e non possono essere modificate nella scheda orario. Per ulteriori informazioni, consulta [Crea record fatturazione](../../manage-work/projects/project-finances/create-billing-records.md).
 * Per impostazione predefinita, le attività personali non vengono visualizzate nella scheda orario. Le attività personali vengono visualizzate nella scheda orario solo quando sono registrate. Dopo aver registrato l&#39;ora in un&#39;attività personale, è possibile aggiungere l&#39;attività alla scheda attività e rimarrà nella scheda attività se rimane bloccata. Per ulteriori informazioni, consulta [Creare elementi di lavoro dall&#39;area Home](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## Registra ore
+## Registra ore {#log-time-section}
 
 In Workfront è possibile registrare il tempo nelle seguenti aree:
 
@@ -136,7 +139,7 @@ Puoi registrare il tempo ai seguenti elementi nella scheda orario:
 
 Per registrare l’ora su una scheda orario:
 
-1. Fai clic su [!UICONTROL **Menu principale**] icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro o **Menu principale** icona ![](assets/lines-main-menu.png) nell’angolo in alto a sinistra di Workfront, se disponibile.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
 
 1. Clic [!UICONTROL **Schede orario**]. La scheda orario corrente viene visualizzata per impostazione predefinita.
    ![Scheda orario](assets/timesheet-redesigned-nwe.png)
@@ -157,6 +160,8 @@ Per registrare l’ora su una scheda orario:
 1. (Facoltativo) Espandere i menu a discesa di filtro, visualizzazione o raggruppamento per applicarne o personalizzarne uno e visualizzare le informazioni sull&#39;elemento desiderate.
 
 1. Seleziona uno o più elementi nell’elenco, quindi fai clic su **Aggiungi**.
+
+   Se sono stati aggiunti meno di 50 elementi alla volta, gli elementi verranno aggiunti alla scheda orario. Le attività e i problemi sono elencati con il nome del progetto.
 
    >[!NOTE]
    >
@@ -208,6 +213,7 @@ Per registrare l’ora su una scheda orario:
 
    ![Menu a discesa Tipo di Ora](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+
    >[!TIP]
    >
    >   A seconda del sistema operativo o del browser in uso e quando si utilizza una tastiera QWERTY standard, premere i tasti seguenti per aggiungere un&#39;altra riga:
@@ -231,7 +237,6 @@ Per registrare l’ora su una scheda orario:
    >   A seconda del sistema operativo o del browser in uso e quando si utilizza una tastiera QWERTY standard, premere i tasti seguenti per eliminare una riga:
    >   * Ctrl + Opzione + - per computer Windows
    >   * Cmd + Opzione + - per computer Mac
-
 
 1. Specifica per quanto tempo desideri accedere a un dato giorno nella sezione timeline della scheda orario, quindi fai clic all’esterno della casella delle ore per salvare la voce delle ore. Le ore vengono salvate automaticamente. La riga per la quale si registra l&#39;ora è evidenziata in blu chiaro e la casella di immissione ore è evidenziata in blu scuro.
 
@@ -299,6 +304,8 @@ Per registrare l’ora su una scheda orario:
 1. (Facoltativo) Fai clic su [!UICONTROL **Aggiornamenti**] nel pannello a sinistra, aggiungi un aggiornamento alla scheda orario. Per ulteriori informazioni sugli aggiornamenti di Workfront, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    ![enter-an-update-in-redesign-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+
+1. (Facoltativo) Torna a **Scheda orario** per chiudere o inviare la scheda orario.
 
    * **Chiudi**: al termine dell’aggiornamento, chiudi la scheda orario. Questa opzione è disponibile solo quando la scheda orario non è associata a un approvatore.
 
