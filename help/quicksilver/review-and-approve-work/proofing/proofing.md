@@ -2,20 +2,22 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Bozza
-description: Informazioni sulla verifica.
+title: "Bozza: indice articolo"
+description: Rivedi e commenta lo stesso documento in cui lavorano i team creativi. Con Workfront Proofing è possibile richiedere feedback, vedere commenti e ricevere notifiche per le approvazioni in sospeso e completate, mantenendo al contempo un audit trail di commenti e versioni.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '39'
-ht-degree: 5%
+source-wordcount: '116'
+ht-degree: 0%
 
 ---
 
-# Bozza
+# Strumenti di correzione: indice articolo
+
+Rivedi e commenta lo stesso documento in cui lavorano i team creativi. Con Workfront Proofing è possibile richiedere feedback, vedere commenti e ricevere notifiche per le approvazioni in sospeso e completate, mantenendo al contempo un audit trail di commenti e versioni.
 
 Questa sezione contiene le seguenti sottosezioni:
 

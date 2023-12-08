@@ -4,9 +4,9 @@ description: I seguenti miglioramenti significativi sono stati apportati alla ge
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -127,7 +127,7 @@ In questo caso, puoi effettuare una delle seguenti operazioni:
 
 Per istruzioni sull’aggiunta di un campo personalizzato calcolato a un modulo personalizzato, consulta [Aggiungere dati calcolati a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Per ulteriori informazioni su variabili come `$$OBJCODE`, vedi [Variabili filtro con caratteri jolly](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Per ulteriori informazioni su variabili come `$$OBJCODE`, vedi [Panoramica delle variabili filtro con caratteri jolly](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Attenzione sull&#39;eliminazione di un tipo di oggetto da un modulo personalizzato
 

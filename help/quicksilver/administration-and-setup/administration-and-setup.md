@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: Amministrazione e configurazione
-description: Consulta questa sezione per capire come gestire il sistema Workfront.
+title: "Administration and setup: article index"
+description: Trova le informazioni necessarie per gestire il sistema Workfront.
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: a1569362dee8cd686a91698af3c9c217e920c263
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 27%
+source-wordcount: '73'
+ht-degree: 1%
 
 ---
 
-# Amministrazione e configurazione
+# Amministrazione e configurazione: indice articolo
 
-Questa sezione contiene le seguenti sottosezioni:
+Gli amministratori possono controllare e personalizzare l’esperienza utente in Workfront. Utilizza i collegamenti seguenti per iniziare:
 
 * [Introduzione all’amministrazione di Adobe Workfront](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
   <!--

@@ -7,10 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 152159a27bf7253d292133d3406096d8f7049922
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 18%
+source-wordcount: '78'
+ht-degree: 17%
 
 ---
 
@@ -21,7 +21,7 @@ Questa sezione contiene le seguenti sottosezioni:
 * [Glossario della terminologia di Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Requisiti del browser Adobe Workfront](../workfront-basics/workfront-browser-requirements.md)
 * [Lingue supportate in Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md)
-* [Naviga in Adobe Workfront](../workfront-basics/navigate-workfront/navigate-workfront.md)
+* [Passa a Adobe Workfront: indice articolo](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [Home](../workfront-basics/using-home/home.md)
 * [Aggiorna elementi di lavoro e visualizza aggiornamenti](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [Utilizzare i moduli personalizzati](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)

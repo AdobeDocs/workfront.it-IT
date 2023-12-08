@@ -7,9 +7,9 @@ description: Le bacheche Adobe Workfront sono strumenti flessibili che consenton
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -28,12 +28,12 @@ Utilizzando le bacheche è possibile:
 * Organizzare e gestire il lavoro di un team in un’unica posizione
 * Utilizzare strumenti di pianificazione agile, ad esempio una colonna di acquisizione per le bacheche Kanban
 
-Per informazioni sull&#39;utilizzo delle funzioni di base delle schede, vedere [Introduzione alle bacheche in [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). Per informazioni sugli strumenti di pianificazione agile nelle bacheche, vedi [Panoramica degli strumenti di pianificazione Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+Per informazioni sull&#39;utilizzo delle funzioni di base delle schede, vedere [Introduzione alle bacheche: indice degli articoli](../agile/get-started-with-boards/get-started-with-boards.md). Per informazioni sugli strumenti di pianificazione agile nelle bacheche, vedi [Panoramica degli strumenti di pianificazione Agile](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
 Per informazioni sull’utilizzo di una bacheca in un progetto, consulta [Gestire un progetto nella visualizzazione Agile](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-Puoi anche accedere alle bacheche nell’app mobile. Per informazioni, consulta [[!DNL Adobe Workfront] [!UICONTROL Boards] per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Puoi anche accedere alle bacheche nell’app mobile. Per informazioni, consulta [[!DNL Adobe Workfront] [!UICONTROL Schede] per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
-Per informazioni dettagliate sulle funzioni delle schede madri, consulta [[!DNL Adobe Workfront] [!UICONTROL Boards] dimostrazioni video](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
+Per informazioni dettagliate sulle funzioni delle schede madri, consulta [[!DNL Adobe Workfront] [!UICONTROL Schede] dimostrazioni video](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md).
 
 Per informazioni sugli strumenti agili aggiuntivi in [!DNL Workfront], vedi [Panoramica di Agile](../agile/agile-overview.md).

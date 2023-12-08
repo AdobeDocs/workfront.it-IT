@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: a04347593c19e278e2e7fe4443a0449c65ff991d
+source-git-commit: 6279106f56fa0d128e0dd03cd13b63a71d4c2952
 workflow-type: tm+mt
-source-wordcount: '13777'
+source-wordcount: '13783'
 ht-degree: 0%
 
 ---
@@ -392,7 +392,7 @@ ht-degree: 0%
          * [Integrazione alfa nativa di Adobe Workfront e Frame.io: panoramica](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [Integrazione alfa nativa di Adobe Workfront e Frame.io: funzioni](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * Amministrazione e configurazione {#administration-and-setup}
-   * [Amministrazione e configurazione](administration-and-setup/administration-and-setup.md)
+   * [Amministrazione e configurazione: indice articolo](administration-and-setup/administration-and-setup.md)
    * Introduzione all’amministrazione {#get-started-administration}
       * [Introduzione all’amministrazione: indice dell’articolo](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
       * [Definire gli obiettivi di implementazione](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -807,7 +807,7 @@ ht-degree: 0%
    * [Requisiti del browser Adobe Workfront](workfront-basics/workfront-browser-requirements.md)
    * [Lingue supportate in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
    * Naviga in Adobe Workfront {#navigate}
-      * [Naviga in Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
+      * [Passa a Adobe Workfront: indice articolo](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Ricerca Adobe Workfront {#search}
          * [Ricerca Adobe Workfront](workfront-basics/navigate-workfront/search/search.md)
          * [Cerca in Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
@@ -973,7 +973,7 @@ ht-degree: 0%
    * [Agile](agile/agile.md)
    * [Panoramica delle schede](agile/boards-overview.md)
    * Introduzione alle bacheche in Adobe Workfront {#boards-in-workfront}
-      * [Introduzione alle bacheche in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+      * [Introduzione alle bacheche: indice degli articoli](agile/get-started-with-boards/get-started-with-boards.md)
       * [Dimostrazioni video delle bacheche Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
       * [Consenso anticipato alle funzioni delle bacheche](agile/get-started-with-boards/boards-early-feature-opt-in.md)
       * [Utilizzare il dashboard delle bacheche](agile/get-started-with-boards/use-boards-page.md)
@@ -1516,7 +1516,7 @@ ht-degree: 0%
          * [Panoramica sui raggruppamenti in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
          * [Creare raggruppamenti in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
          * [Modifica raggruppamenti esistenti](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-         * [Variabili filtro con caratteri jolly](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+         * [Panoramica delle variabili filtro con caratteri jolly](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
          * [Utilizzare caratteri jolly basati sulla data per generalizzare i rapporti](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
          * [Utilizzare caratteri jolly basati sull&#39;utente per generalizzare i rapporti](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
          * [Condividere un filtro, una visualizzazione o un raggruppamento](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
@@ -1785,7 +1785,7 @@ ht-degree: 0%
          * [Rivedere un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Approvare un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Bozza {#proofing}
-      * [Verifica](review-and-approve-work/proofing/proofing.md)
+      * [Strumenti di correzione: indice articolo](review-and-approve-work/proofing/proofing.md)
       * Panoramica bozza {#proofing-overview}
          * [Panoramica bozza](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Panoramica del profilo di autorizzazione della bozza](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)

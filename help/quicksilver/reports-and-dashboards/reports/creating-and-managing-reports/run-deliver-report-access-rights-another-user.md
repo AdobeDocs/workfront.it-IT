@@ -6,9 +6,9 @@ description: Per impostazione predefinita, gli utenti possono visualizzare solo 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: e68e470da3b03e418584898c4098f0be302c68ec
+source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Se esegui un rapporto con i diritti di accesso di un altro utente con un livello
 
 >[!TIP]
 >
->Sostituire il **Esegui questo report con i diritti di accesso di:** con un utente attivo solo se si desidera che il report venga visualizzato con i diritti di accesso dell&#39;utente. Ad esempio, un utente con licenza Lavoro potrebbe non disporre delle autorizzazioni necessarie per visualizzare tutti gli elementi di un report creato da un utente con licenza Pianificazione o da un amministratore di sistema, a meno che il report non venga visualizzato con i diritti di accesso di un planner o di un amministratore di sistema.\
+>Sostituire il **Esegui questo report con i diritti di accesso di:** con un utente attivo solo quando si desidera che il report venga visualizzato con i diritti di accesso di tale utente. Ad esempio, un utente con licenza Lavoro potrebbe non disporre delle autorizzazioni necessarie per visualizzare tutti gli elementi di un report creato da un utente con licenza Pianificazione o da un amministratore di sistema, a meno che il report non venga visualizzato con i diritti di accesso di un planner o di un amministratore di sistema.\
 Se il report viene condiviso con utenti con un accesso simile a quello specificato nell&#39; **Esegui questo report con i diritti di accesso di:** , è possibile lasciare vuoto questo campo.
 
 ## Requisiti di accesso
@@ -74,6 +74,7 @@ Per eseguire un report con i diritti di accesso di un altro utente:
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
+   >
    Gli utenti con un livello di accesso inferiore che sono autorizzati a generare rapporti non possono selezionare un utente diverso da se stessi per **Esegui questo report con i diritti di accesso di:** campo.
 
 1. Clic **Fine**.
@@ -81,8 +82,10 @@ Per eseguire un report con i diritti di accesso di un altro utente:
    Il rapporto ora viene visualizzato per tutti gli utenti con cui è condiviso, come se fosse visualizzato dall’utente specificato in **Esegui questo report con i diritti di accesso di:** campo.
 
 >[!IMPORTANT]
+>
 Inserimento di un utente diverso da quello connesso per **Esegui questo report con i diritti di accesso di:** influisce sulle informazioni visualizzate nel rapporto se questo contiene un filtro che utilizza un carattere jolly che fa riferimento all’utente connesso. Il rapporto viene visualizzato in base al valore specificato nella **Esegui questo report con i diritti di accesso di:** anziché quello definito nel filtro con caratteri jolly.
-Per ulteriori informazioni sui caratteri jolly per i campi utente, consulta la sezione &quot;Variabili basate sugli utenti&quot; in [Variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>
+Per ulteriori informazioni sui caratteri jolly per i campi utente, consulta la sezione &quot;Variabili basate sugli utenti&quot; in [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Consegna di un report con i diritti di accesso di un altro utente
 
@@ -101,6 +104,7 @@ Per consegnare un report con i diritti di accesso di un altro utente:
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
+   >
    Gli utenti con un livello di accesso inferiore che sono autorizzati a generare rapporti non possono selezionare un utente diverso da se stessi per **Consegna il report con i diritti di accesso di:** campo.
 
 1. Seleziona la **Formato** desideri che il rapporto venga visualizzato nell’e-mail:
@@ -134,20 +138,20 @@ Ad esempio, è possibile aggiungere uno degli elementi seguenti a un report con 
 * Le colonne Nome progetto o Nome attività di un report sui problemi.
 * Colonna che utilizza espressioni in modalità testo che fa riferimento a tutti e tre gli oggetti. Di seguito è riportato un esempio per un rapporto di ore:
 
-   `displayname=Custom Source`
+  `displayname=Custom Source`
 
-   `linkedname=opTask`
+  `linkedname=opTask`
 
-   `namekey=view.relatedcolumn`
+  `namekey=view.relatedcolumn`
 
-   `namekeyargkey.0=opTask`
+  `namekeyargkey.0=opTask`
 
-   `namekeyargkey.1=name`
+  `namekeyargkey.1=name`
 
-   `textmode=true`
+  `textmode=true`
 
-   `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
+  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
 
-   `valueformat=HTML`
+  `valueformat=HTML`
 
-   Per informazioni sulle visualizzazioni in modalità testo, vedere [Modificare una vista utilizzando la modalità testo](../text-mode/edit-text-mode-in-view.md).
+  Per informazioni sulle visualizzazioni in modalità testo, vedere [Modificare una vista utilizzando la modalità testo](../text-mode/edit-text-mode-in-view.md).
