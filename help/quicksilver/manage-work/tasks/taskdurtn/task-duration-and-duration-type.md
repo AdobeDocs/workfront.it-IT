@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 8f8a274eb872f78f888cf76b2d5fd3d39c6d6223
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1382'
+ht-degree: 1%
 
 ---
 
@@ -23,17 +23,13 @@ Il tipo di durata di un&#39;attività identifica la relazione tra il numero di r
 
 ## Panoramica sulla durata dell’attività
 
->[!NOTE]
->
->Se si tiene conto del tempo libero dell&#39;assegnatario principale in un progetto, le date pianificate dell&#39;attività potrebbero essere modificate, ma la durata dell&#39;attività rimane invariata. Per informazioni su come considerare il tempo libero dell’assegnatario principale durante la pianificazione di un progetto, consulta  [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-
 Se le date di inizio e di completamento effettive dell&#39;attività non rientrano nella programmazione del progetto, dell&#39;assegnatario principale o della programmazione predefinita, la durata dell&#39;attività è pari a zero.
 
 **Esempio:** Se una pianificazione inizia alle 9 e termina alle 12 e un&#39;attività è pianificata per iniziare alle 14 e terminare alle 16, la durata dell&#39;attività sarà zero.
 
-Di seguito sono riportati due scenari che esistono durante il calcolo della durata in Adobe Workfront.
+Di seguito sono riportati due scenari che esistono durante il calcolo della durata in Adobe Workfront:
 
-* Se l&#39;attività è assegnata a un utente, Workfront utilizza una delle seguenti pianificazioni, nell&#39;ordine esatto per calcolare la Durata:
+* Se l&#39;attività è assegnata a un utente Workfront, utilizza una delle seguenti pianificazioni, nell&#39;ordine esatto per calcolare la Durata:
 
    1. Workfront tiene conto della pianificazione dell’utente.
    1. Se l’utente non è associato a una pianificazione, Workfront tiene conto della pianificazione del progetto.
@@ -41,11 +37,15 @@ Di seguito sono riportati due scenari che esistono durante il calcolo della dura
 
 * Se l&#39;attività è assegnata a più utenti:
 
-  Workfront prende in considerazione la pianificazione del progetto o quella dell’assegnatario principale.
+   1. Workfront prende in considerazione la pianificazione del progetto o quella dell’assegnatario principale.
 
   L&#39;amministratore di Workfront determina la pianificazione utilizzata da Workfront quando un&#39;attività viene assegnata a più utenti. Per informazioni, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   I passaggi sono simili al primo scenario dopo aver compreso quale pianificazione utilizza Workfront per calcolare la durata.
+
+>[!NOTE]
+>
+>Se si tiene conto del tempo libero dell&#39;assegnatario principale in un progetto, le date pianificate dell&#39;attività potrebbero essere modificate, ma la durata dell&#39;attività rimane invariata. Per informazioni su come considerare il tempo libero dell’assegnatario principale durante la pianificazione di un progetto, consulta  [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Unità di tempo per la durata dell&#39;attività
 
@@ -94,7 +94,7 @@ Il Tipo di Durata consente di rispondere alle seguenti domande:
 * Quanto è grande il lavoro?
 * Quanto ci vorrà?
 
-![duration_type_triangle.png](assets/duration-type-triangle-350x245.png)
+![duration_type_triangle.png](assets/duration_type_triangle.png)
 
 ## Definire i tipi di durata
 
@@ -104,24 +104,24 @@ Il Tipo di Durata consente di rispondere alle seguenti domande:
  <col> 
  <thead> 
   <tr> 
-   <th scope="row">Tipo di Durata </th> 
+   <th scope="row"><p><strong>Tipo di Durata</strong></p></th> 
    <th scope="col"> <p><strong>Funzione</strong> </p> </th> 
    <th scope="col"> <p><strong>Effetti delle risorse</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <th scope="col"> <p><strong>Incarico Calcolato</strong> </p> </th> 
+   <th scope="col"> <p><strong>Assegnazione calcolata</strong> </p> </th> 
    <td scope="col"> <p>Calcola la percentuale di allocazione per ogni assegnatario di un'attività. </p> <p>Quando si sceglie questo Tipo di durata, è possibile immettere la durata e le ore pianificate per l'attività. Workfront divide le ore pianificate per il numero di ore all'interno della Durata dell'attività e quindi per il numero di risorse assegnate all'attività per calcolare l'allocazione per ciascun assegnatario.</p> <p>Per informazioni più dettagliate, consulta <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">Panoramica sul tipo di durata: assegnazione calcolata</a>.</p> </td> 
    <td scope="col">La durata e le ore pianificate non cambiano quando si aggiungono o si rimuovono assegnatari all'attività. </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p><strong>Lavoro Calcolato</strong> </p> </th> 
+   <th scope="col"> <p><strong>Lavoro calcolato</strong> </p> </th> 
    <td scope="col"> <p>Determina le ore pianificate (quantità di impegno) necessarie per il completamento dell'attività.</p> <p>Normalmente utilizzato quando le risorse assegnate all'attività vengono allocate per l'intera Durata dell'attività.</p> <p>Quando si sceglie questo Tipo di durata, è possibile immettere una singola Durata per l'attività. Workfront calcola le ore pianificate per l'attività moltiplicando il numero di giorni nella durata per il numero di ore lavorative nella pianificazione e per il numero di assegnatari dell'attività. </p> <p>È possibile modificare manualmente la percentuale di allocazione di ogni assegnatario all'attività, riducendo così la quantità di ore pianificate.</p> <p>Per informazioni più dettagliate, consulta <a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">Panoramica sul tipo di durata: lavoro calcolato</a>.</p> </td> 
    <td scope="col"> <p>Le ore pianificate aumentano quando gli assegnatari vengono aggiunti all'attività. </p> <p>Le ore pianificate diminuiscono quando gli assegnatari vengono rimossi dall'attività.</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p>Impegno Aggiuntivo</p> </th> 
+   <th scope="col"> <p><strong>Impegno Aggiuntivo</strong></p> </th> 
    <td scope="col"> <p>Determina le ore pianificate in base al numero di risorse.</p> <p>Quando si sceglie questo Tipo di durata, è possibile immettere una singola Durata per l'attività. Workfront calcola le ore pianificate per l'attività moltiplicando il numero di giorni nella durata per il numero di ore lavorative nella programmazione e dividendo tale numero per il numero di assegnatari dell'attività. </p> <p>È possibile modificare manualmente la percentuale di allocazione di ogni assegnatario all'attività, ma il numero di ore pianificate rimane invariato.</p> <p>Per informazioni più dettagliate, consulta <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Panoramica sul tipo di durata: basata sulle risorse</a>.</p> </td> 
    <td scope="col"> <p>Le ore pianificate aumentano quando gli assegnatari vengono rimossi dall'attività.</p> <p>Le ore pianificate diminuiscono quando gli assegnatari vengono aggiunti all'attività. </p> <p>La Durata rimane invariata, indipendentemente dalle modifiche apportate al numero di assegnatari o alla loro pianificazione. </p> <p>La durata è uguale alle ore pianificate. La Durata Pianificata è uguale alle Ore Pianificate divisa per il numero di assegnatari.</p> </td> 
   </tr> 
