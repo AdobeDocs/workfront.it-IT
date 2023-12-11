@@ -7,9 +7,9 @@ description: Dopo aver pianificato il lavoro sui progetti e aver creato le attiv
 author: Alina
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: e4230e1d74e36439ec36b569232ab1cdf3629b3e
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Per informazioni sulla creazione e l’utilizzo dei filtri nel Bilanciatore dei 
      Per ulteriori informazioni sulla creazione di pianificazioni, vedere [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
    * Aggiornare il calendario Time Off (Ferie) nel profilo.\
-     Per informazioni sull&#39;aggiornamento del calendario Time Off (Ferie) di un utente, vedere [Configurare il tempo libero personale in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Per informazioni sull&#39;aggiornamento del calendario Time Off (Ferie) di un utente, vedere [Configurare l’indisponibilità personale](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   

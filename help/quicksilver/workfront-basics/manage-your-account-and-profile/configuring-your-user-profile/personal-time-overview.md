@@ -2,23 +2,23 @@
 content-type: overview
 product-area: user-management
 navigation-topic: configure-your-user-profile
-title: Configurare il tempo libero personale in [!DNL Adobe Workfront]
-description: Adobe Workfront non è progettato per replicare o sostituire i sistemi esistenti per gestire, accantonare e tenere traccia delle indisponibilità personali. Tuttavia, è importante indicare quando si verifica l’assenza approvata, in quanto influisce sulla pianificazione e sulle date di completamento pianificate delle attività a cui sei assegnato.
+title: Configurare l’indisponibilità personale
+description: È importante indicare in Adobe Workfront quando si verifica l’assenza approvata, perché influisce sulla pianificazione e sulle date di completamento pianificate delle attività a cui sei assegnato.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91eb8770c07396b5772029e9d2370f0b1f10d4a1
+source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Configurare il tempo libero personale in [!DNL Adobe Workfront]
+# Configurare l’indisponibilità personale
 
 [!DNL Adobe Workfront] non è progettato per replicare o sostituire i sistemi esistenti per gestire, accantonare e tenere traccia del tempo di inattività personale.
 
-Tuttavia, è importante indicare quando si verifica l’assenza approvata, in quanto influisce sulla pianificazione e sul [!UICONTROL Date di completamento pianificate] delle attività che ti sono state assegnate.
+Tuttavia, è importante indicare quando si verifica l’assenza approvata, perché questo influisce sia sulla pianificazione che sul [!UICONTROL Date di completamento pianificate] delle attività che ti sono state assegnate.
 
 Se, ad esempio, si è assegnati a un&#39;attività per la quale è programmato un periodo di due settimane e si prevede di prendere tre giorni di ferie durante tale periodo, [!DNL Workfront] aggiunge tre giorni alla sequenza temporale dell&#39;attività per tenere conto del tempo libero.
 
@@ -43,15 +43,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td>[!UICONTROL Work] o versione successiva (per configurare il proprio periodo di inattività personale)</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
+   <td> <p>Nuovo piano: Standard (per configurare il proprio tempo libero personale)</p>
+        <p>oppure</p>
+        <p>Piano corrente: Lavoro o superiore (per configurare il proprio tempo libero personale)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
    <td>[!UICONTROL Manager] con accesso a [!UICONTROL Modifica utente] (per apportare modifiche al calendario delle ferie degli altri utenti)<br>
    <strong>NOTA:</strong> Se un manager modifica il calendario personale di ferie dell'utente, tutte le voci vengono visualizzate nel fuso orario dell'utente e non in quello del manager.</td> 
   </tr> 
@@ -62,7 +64,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Configurare il tempo libero personale in [!DNL Workfront]
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, fai clic sul nome utente accanto all’immagine del profilo. Oppure, se disponibile, fai clic sull’immagine del tuo profilo nell’area di navigazione superiore, quindi fai clic su **[!UICONTROL Profilo Workfront]**.
+{{step1-click-profile-pic}}
+
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Indisponibilità]**.
 1. Seleziona la data desiderata per il tuo tempo libero personale.
 
@@ -70,8 +73,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Seleziona **[!UICONTROL Tutto il giorno]**, se sta prendendo un giorno intero di ferie.
 
-   Lascia deselezionata questa opzione se sta prendendo meno di un giorno intero di ferie e indica l’ora di inizio e di fine del periodo di ferie.
+   Lasciare deselezionata la casella di controllo se si sta prendendo meno di un giorno intero di ferie e indicare l&#39;ora di inizio e di fine del periodo di ferie.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   Il tempo libero è ora visibile in [!DNL Workfront] negli strumenti di gestione delle risorse, come la pianificazione delle risorse e il bilanciatore dei carichi di lavoro. Quando ti viene assegnato un lavoro durante questo periodo, viene visualizzata una descrizione comando per informare l’utente che hai pianificato un’indisponibilità.
+   Il tempo libero è ora visibile in [!DNL Workfront] negli strumenti di gestione delle risorse, come la pianificazione delle risorse e il bilanciatore dei carichi di lavoro. Quando ti viene assegnato un lavoro durante questo periodo, una descrizione comando informa l’utente che hai pianificato un’indisponibilità.
