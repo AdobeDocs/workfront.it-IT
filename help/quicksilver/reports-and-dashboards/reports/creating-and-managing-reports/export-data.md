@@ -6,9 +6,9 @@ description: Scopri come esportare i dati del rapporto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
 workflow-type: tm+mt
-source-wordcount: '2177'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 Esistono diverse limitazioni relative al modo in cui i rapporti vengono visualizzati in Workfront e al modo in cui vengono esportati tramite un’esportazione manuale, un rapporto consegnato o tramite l’API.
 
+* **50.000 celle:** Il numero massimo di celle consentito in un&#39;esportazione di report per i file Excel.
 * **50.000 righe:** Il numero di righe di dati consentite in un’esportazione di rapporti per file .pdf e delimitati da tabulazioni.
 
    * Per i file .xls di Excel, questo limite è **65.000 righe**.
@@ -310,14 +311,14 @@ I collegamenti possono puntare a qualsiasi oggetto in Workfront che supporta il 
 
 >[!TIP]
 >
->Se la riga `valueformat=HTML` viene visualizzato in modalità testo per una colonna di campi personalizzati e i valori dei collegamenti non vengono visualizzati in un file pdf esportato. è necessario immettere righe di codice aggiuntive nella colonna in modalità testo.
+Se la riga `valueformat=HTML` viene visualizzato in modalità testo per una colonna di campi personalizzati e i valori dei collegamenti non vengono visualizzati in un file pdf esportato. è necessario immettere righe di codice aggiuntive nella colonna in modalità testo.
 >
->Ad esempio, se disponi di un campo personalizzato denominato Apri progetti Q1 contenente collegamenti, aggiungi il seguente codice:
+Ad esempio, se disponi di un campo personalizzato denominato Apri progetti Q1 contenente collegamenti, aggiungi il seguente codice:
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+```
+link.url=customDataLabelsAsString(Open Q1 Projects)
+linkedname=direct
+```
 
 Quando si esegue l&#39;esportazione in un formato Excel, nel file esportato vengono inclusi solo i collegamenti agli oggetti all&#39;interno di Workfront e sono supportati solo nelle posizioni in cui è possibile selezionare l&#39;opzione per consentire i collegamenti nei documenti Excel esportati, ad esempio le consegne dei report.
 
