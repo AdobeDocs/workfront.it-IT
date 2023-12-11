@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Creare un rapporto personalizzato
-description: Le informazioni su come creare rapporti sono utili per fornire accesso alle informazioni di cui l’organizzazione ha bisogno all’interno di Adobe Workfront. Puoi utilizzare uno qualsiasi dei rapporti incorporati disponibili in Workfront, oppure creare rapporti personalizzati da zero.
+description: Puoi fornire l’accesso alle informazioni di cui la tua organizzazione ha bisogno all’interno di Adobe Workfront creando rapporti. Puoi utilizzare uno qualsiasi dei rapporti incorporati disponibili in Workfront, oppure creare rapporti personalizzati da zero.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: ad309990a4e09f5c083c1518fd503078718a97d1
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1820'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Creare un rapporto personalizzato
 
-Puoi fornire l’accesso alle informazioni di cui la tua organizzazione ha bisogno all’interno di Adobe Workfront creando rapporti. Puoi utilizzare uno qualsiasi dei rapporti incorporati disponibili in Workfront, oppure creare rapporti personalizzati da zero.
+Puoi fornire l’accesso alle informazioni di cui la tua organizzazione ha bisogno in Adobe Workfront creando rapporti. Puoi utilizzare uno qualsiasi dei rapporti incorporati disponibili in Workfront, oppure creare rapporti personalizzati da zero.
 
 Per ulteriori informazioni sui rapporti incorporati, vedi [Utilizzare i rapporti incorporati di Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
@@ -38,7 +38,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Nuovo: Standard </p>
+   oppure
+   <p>Corrente: Piano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -47,7 +49,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Otterrai le autorizzazioni di gestione per il report creato</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Ottieni le autorizzazioni di gestione per i rapporti creati.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,9 +58,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Creare un rapporto {#create-a-report}
 
-Per guardare un video su come creare un rapporto, vedi questo [Creare un rapporto personalizzato](#Walk-thr) di seguito.
+{{step1-to-reports}}
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **Rapporti**.
 1. Clic **Nuovo rapporto**, quindi selezionare il tipo di oggetto desiderato per il report.
 
    Il generatore di report viene caricato.
@@ -109,17 +110,17 @@ Per guardare un video su come creare un rapporto, vedi questo [Creare un rapport
 
 1. Inizia a creare un rapporto come descritto in [Creare un rapporto](#create-a-report) in questo articolo.
 1. Nel generatore di report, seleziona la **Colonne (visualizzazione)** per identificare le colonne da visualizzare nel rapporto.
-1. (Facoltativo) Fai clic su **Applicare una vista esistente** per utilizzare una vista esistente.
+1. (Facoltativo) Fai clic su **Applicare una vista esistente** e fare clic sul nome di una visualizzazione nel menu a discesa per utilizzare una visualizzazione esistente.
 
-   Per ulteriori informazioni sulla creazione di una nuova visualizzazione, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Per ulteriori informazioni sulla creazione di una visualizzazione, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. (Facoltativo) Per rimuovere una colonna esistente, fai clic sulla colonna da rimuovere, quindi fai clic su **x** accanto al nome corrente nell’intestazione della colonna.
 
 1. Per aggiungere una nuova colonna, fai clic su **Aggiungi colonna**.
 
    Oppure
 
-   Per modificare una colonna esistente, seleziona la colonna da modificare, quindi fai clic sulla (x) accanto al nome corrente.
-
-1. Inizia a digitare il campo che desideri aggiungere. Se il campo è disponibile, viene compilato per ogni oggetto a cui può essere associato. Fai clic sul nome del campo per aggiungerlo alla colonna.
+   Per modificare una colonna esistente, fai clic sulla colonna e quindi sul pulsante **Rimuovi** icona ![](assets/x-icon-circled.png) a sinistra del campo corrente nella **Mostra in questo campo colonna** nell’angolo in alto a sinistra del report builder e inizia a digitare un nuovo campo, quindi fai clic su di esso quando viene visualizzato nell’elenco.
 
    Per ulteriori informazioni sui campi visualizzati nelle colonne, consulta [Glossario della terminologia di Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -150,7 +151,7 @@ Per guardare un video su come creare un rapporto, vedi questo [Creare un rapport
    >
    >Le eccezioni riportate di seguito si applicano agli oggetti padre, ad esempio i task padre, quando si aggregano i valori per i campi seguenti nei raggruppamenti:
    >
-   >* Tutti i campi relativi al numero e alla divisa tranne Ore effettive (ad esempio Costo manodopera pianificato/effettivo, Costo spesa pianificato/effettivo, Costo pianificato/effettivo, Ore pianificate) aggregano solo i valori per le attività figlio e le attività autonome. Non aggregano i valori per le attività padre o i padri dei padri.
+   >* Tutti i campi relativi al numero e alla divisa, ad eccezione delle ore effettive (ad esempio Costo manodopera pianificato o effettivo, Costo spesa pianificato o effettivo, Costo pianificato o effettivo, Ore pianificate), aggregano solo i valori per le attività figlio e le attività autonome. Non aggregano i valori per le attività padre o i padri dei padri.
    >* Le ore effettive aggregano i valori per le attività padre principale e le attività autonome; non aggregano i numeri per le attività padre o figlio.
    >* I campi dati personalizzati per i valori numerici e di valuta aggregano tutte le attività: padri, figli, padri e attività autonome.
 
@@ -193,7 +194,8 @@ Per guardare un video su come creare un rapporto, vedi questo [Creare un rapport
 
    Oppure
 
-   Scegli **Applicare un raggruppamento esistente** per selezionare un raggruppamento esistente
+   Scegli **Applicare un raggruppamento esistente** per selezionare un raggruppamento esistente quando viene visualizzato nell&#39;elenco.
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Inizia a digitare il campo che desideri aggiungere come raggruppamento. Se il campo è disponibile, viene compilato per ogni oggetto a cui può essere associato. Fai clic sul nome del campo per aggiungerlo al raggruppamento.
@@ -210,7 +212,7 @@ Per guardare un video su come creare un rapporto, vedi questo [Creare un rapport
    >* Quando si modificano manualmente i raggruppamenti durante la visualizzazione di un elenco, Workfront ricorda la preferenza manuale fino alla disconnessione. Quando effettui di nuovo l’accesso, l’elenco viene visualizzato in base a questa impostazione.
    >* I risultati di un raggruppamento vengono sempre visualizzati in modalità espansa dopo essere stati accessibili da un elemento del grafico.
 
-1. (Facoltativo) Puoi scegliere di creare un raggruppamento di matrici per mostrare i risultati in formato griglia.
+1. (Facoltativo) Fai clic su **Passa al raggruppamento di matrici**, per creare un raggruppamento di matrici e visualizzare i risultati in formato griglia.
 
    Per ulteriori informazioni sulla creazione di un rapporto matrice, vedere [Creare un rapporto matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
