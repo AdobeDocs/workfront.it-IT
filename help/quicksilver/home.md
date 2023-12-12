@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Workfront] documentazione"'
 description: Documentazione per [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -75,9 +75,9 @@ Consulta [Risorse in modalità testo](/help/quicksilver/reports-and-dashboards/r
 
 Utilizza il Bilanciatore dei carichi di lavoro come alternativa alla pianificazione delle risorse in Workfront.
 
-Consulta [Il Bilanciatore dei carichi di lavoro](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+Consulta [L’indice del Bilanciatore dei carichi di lavoro: articolo](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
-### Adobe Workfront Goals
+### Obiettivi di Adobe Workfront
 
 Allinea la tua strategia al tuo lavoro per ottenere l’allineamento e il successo utilizzando gli Obiettivi di Adobe Workfront.
 
@@ -97,7 +97,7 @@ Puoi visualizzare tutti gli oggetti disponibili tramite l’API Adobe Workfront 
 
 Consulta la [Esplora API di Workfront su developer.adobe.com](https://developer.adobe.com/workfront/api-explorer/).
 
-### Integrazioni di Workfront
+### Integrazioni Workfront
 
 Accedere a tutte le applicazioni in un&#39;unica posizione integrando Workfront con altri sistemi.
 

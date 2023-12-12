@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1289'
 ht-degree: 2%
 
 ---
@@ -430,7 +430,7 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
 <tr>
    <td>Trascinare le immagini in un commento
    </td>
-   <td> 
+   <td> ✓
    </td>
    <td> 
    </td>

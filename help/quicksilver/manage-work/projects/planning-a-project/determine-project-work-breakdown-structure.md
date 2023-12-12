@@ -6,9 +6,9 @@ description: La definizione di una WBS (Work Breakdown Structure) per un progett
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -108,7 +108,7 @@ All’inizio di un anno fiscale o di un trimestre, potrebbe essere utile gestire
 Per informazioni sulla pianificazione dell’utilizzo delle risorse a un livello più alto, consulta l’articolo [Introduzione alla pianificazione delle risorse](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 Quando si gestiscono le risorse nel contesto della creazione della struttura funzionale di un progetto e si assicura che ogni attività sia assegnata alla risorsa corretta, è possibile programmare le risorse per il lavoro da eseguire.\
-Per informazioni sulla pianificazione delle risorse, consulta gli articoli nella sezione [Il Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/workload-balancer.md) sezione.
+Per informazioni sulla pianificazione delle risorse, consulta gli articoli nella sezione [L’indice del Bilanciatore dei carichi di lavoro: articolo](../../../resource-mgmt/workload-balancer/workload-balancer.md) sezione.
 
 ## Stima i dati finanziari del progetto
 
