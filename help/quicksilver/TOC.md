@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '13780'
+source-wordcount: '13781'
 ht-degree: 0%
 
 ---
@@ -1899,13 +1899,13 @@ ht-degree: 0%
       * [Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Visualizza il numero di decisioni su bozze e documenti per tutti gli utenti](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Schede orario {#timesheets}
-   * [Schede orario](timesheets/timesheets-all.md)
+   * [Schede orario: indice degli articoli](timesheets/timesheets-all.md)
    * Dettagli Timesheet {#details}
-      * [Dettagli scheda orario in Adobe Workfront](timesheets/timesheets/timesheets.md)
+      * [Dettagli scheda orario: indice articolo](timesheets/timesheets/timesheets.md)
       * [Panoramica schede orario](timesheets/timesheets/timesheets-overview.md)
       * [Comprendere il layout della scheda orario](timesheets/timesheets/timesheet-layout.md)
-   * Creare e gestire le schede orario in Adobe Workfront {#create-and-manage-timesheets-in-adobe-workfront}
-      * [Creare e gestire le schede orario in Adobe Workfront](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+   * Creare e gestire le schede orario {#create-and-manage-timesheets-in-adobe-workfront}
+      * [Creare e gestire le schede orario: indice dell’articolo](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Creare, modificare e assegnare profili di schede orario](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [Definire i tipi di ore e la disponibilità per le schede orario](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Creare una scheda orario monouso](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1920,10 +1920,10 @@ ht-degree: 0%
       * [Genera manualmente i timesheet](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
       * [Esporta un elenco di schede orario](timesheets/create-and-manage-timesheets/export-timesheets.md)
    * Configurare la modalità di registrazione dell’ora {#configure-timesheet-preferences}
-      * [Configurare la modalità di registrazione dell’ora](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+      * [Configurare la modalità di registrazione del tempo: indice articolo](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
       * [Configurare se il tempo è registrato in ore o giorni](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
    * Suggerimenti, trucchi e risoluzione dei problemi per le schede orario {#tips-tricks-troubleshooting-for-timesheets}
-      * [Suggerimenti, trucchi e risoluzione dei problemi](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+      * [Suggerimenti, trucchi e risoluzione dei problemi: indice degli articoli](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
       * [Correggere il giorno di inizio della settimana lavorativa per le schede orario](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
       * [Impedisci che l&#39;azione Ricalcola dati finanziari influisca sulle ore storiche quando i tassi cambiano](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [Tracciare i record di ore con l’API di Adobe Workfront](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)

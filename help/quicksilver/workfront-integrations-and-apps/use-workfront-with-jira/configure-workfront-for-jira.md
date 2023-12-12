@@ -6,9 +6,9 @@ description: È possibile utilizzare [!DNL Adobe Workfront for Jira] per integra
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 4ade799ff735183f83f045e7eaa876961d266208
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2420'
 ht-degree: 0%
 
 ---
@@ -35,16 +35,16 @@ Devi avere i seguenti:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL [!DNL Adobe Workfront] piano]*</td> 
-   <td><p>Nuovo piano: Qualsiasi</p>
+   <td><p>Nuovo: Qualsiasi</p>
        <p>oppure</p>
-       <p>Piano corrente: [!UICONTROL Pro] o versione successiva</p>
+       <p>Corrente: [!UICONTROL Pro] o versione successiva</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td><p>Nuovo piano: [!UICONTROL Standard] </p>
+   <td><p>Nuovo: [!UICONTROL Standard] </p>
        <p>oppure</p> 
-       <p>Piano corrente: [!UICONTROL Plan] </p>
+       <p>Corrente: [!UICONTROL Plan] </p>
    </td>
   </tr> 
   <tr> 

@@ -7,9 +7,9 @@ description: Puoi utilizzare le schede orario per tenere traccia del tempo trasc
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Per informazioni più dettagliate su come registrare il tempo in Workfront, cons
 
 >[!TIP]
 >
->Gli amministratori di Workfront o di gruppi possono creare schede orario e associarle agli utenti. Per informazioni sulla creazione delle schede orario, consulta [Creare e gestire le schede orario](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>Gli amministratori di Workfront o di gruppi possono creare schede orario e associarle agli utenti. Per informazioni sulla creazione delle schede orario, consulta [Creare e gestire le schede orario: indice dell’articolo](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
 ## Comprendere il tempo del progetto e il tempo non del progetto

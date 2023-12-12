@@ -7,9 +7,9 @@ description: La visualizzazione Burndown mostra il burndown di un progetto speci
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: d42b6312d5a85570558abcd0c6be8fe87bb01699
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -31,16 +31,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Piano Adobe Workfront*</td> 
    <td>
-      <p>Nuovo piano: Qualsiasi</p>
+      <p>Nuovo: Qualsiasi</p>
       <p>oppure</p>
-      <p>Piano corrente: Business o superiore</p></td>
+      <p>Corrente: Business o superiore</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td>
-      <p>Nuovo piano: Leggero o superiore</p>
+      <p>Nuovo: Chiaro o superiore</p>
       <p>oppure</p>
-      <p>Piano corrente: revisione o successiva</p>
+      <p>Corrente: revisione o versione successiva</p>
    </td> 
   </tr> 
   <tr> 

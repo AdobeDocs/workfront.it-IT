@@ -7,9 +7,9 @@ description: Il menu principale cambia con il livello di accesso che ti è stato
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Le seguenti aree sono incluse nel layout predefinito di un [!UICONTROL Lavorator
 
 * **[!UICONTROL Richieste]**: qui puoi inviare le richieste e rivederle, qualora tu o i membri del tuo team abbiate effettuato l’invio. Per informazioni, consulta [Richieste](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL Schede orario]**: qui puoi accedere alle schede orario attuali, future o vecchie. Per informazioni, consulta [Schede orario](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL Schede orario]**: qui puoi accedere alle schede orario attuali, future o vecchie. Per informazioni, consulta [Schede orario: indice degli articoli](../../../timesheets/timesheets-all.md).
 
 * **[!UICONTROL Documenti]**: puoi caricare documenti o esaminare documenti condivisi con te qui. Per informazioni, consulta [Documenti](../../../documents/documents-overview.md).
 

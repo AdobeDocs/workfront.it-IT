@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
-source-git-commit: b4fe4dd38bca513f1ce932a8474c06192d97d760
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1024'
 ht-degree: 6%
 
 ---
@@ -41,9 +41,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td><p>Nuovo piano: Standard </p>
+   <td><p>Nuovo: Standard </p>
        <p>oppure</p> 
-       <p>Piano corrente: piano </p>
+       <p>Corrente: Piano </p>
    </td> 
   </tr> 
   <tr> 

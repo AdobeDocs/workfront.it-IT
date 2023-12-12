@@ -6,9 +6,9 @@ description: I filtri nell’area Analisi avanzata di Adobe Workfront consentono
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 2f6664aefd664e1275648abd6f7e41b1d545b9e7
+source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -34,16 +34,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">Piano Adobe Workfront*</td> 
    <td>
-      <p>Nuovo piano: Qualsiasi</p>
+      <p>Nuovo: Qualsiasi</p>
       <p>oppure</p>
-      <p>Piano corrente: Business o superiore</p></td> 
+      <p>Corrente: Business o superiore</p></td> 
   </tr>
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
    <td>
-      <p>Nuovo piano: Leggero o superiore</p>
+      <p>Nuovo: Chiaro o superiore</p>
       <p>oppure</p>
-      <p>Piano corrente: revisione o successiva</p>
+      <p>Corrente: revisione o versione successiva</p>
    </td> 
   </tr>
   <tr> 
