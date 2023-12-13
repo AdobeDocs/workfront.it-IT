@@ -5,10 +5,11 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Panoramica delle integrazioni integrate di Adobe Workfront
 description: È possibile integrare [!DNL Adobe Workfront] con applicazioni di terze parti. Queste integrazioni possono estendere l’utilità di [!DNL Workfront] e adattarlo alle esigenze della tua organizzazione. Ad esempio, se sei un lavoratore creativo nel settore del marketing, puoi utilizzare il componente aggiuntivo Adobe Creative Cloud per esportare le risorse direttamente da Photoshop a Workfront.
 feature: Workfront Integrations and Apps
+author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 8e283fce9aa2ad981c88e0b8cd5201c7408ab878
+source-git-commit: 02bacdc99c23b70bbe8dd71e493c940f91058965
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '482'
 ht-degree: 2%
 
 ---
@@ -41,7 +42,7 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
      <li>After Effects </li>
      </ul>
      <li><p>Scarica/installa da <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Scambio Adobe</a>.</p></li></ul>
-     <p>Per informazioni e istruzioni, consulta <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installare  [!DNL Adobe Workfront] plugin per [!DNL Creative Cloud] Applicazioni</a></p> </td> 
+     <p>Per informazioni e istruzioni, consulta <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installare  [!DNL Adobe Workfront] plugin per [!DNL Creative Cloud] Applicazioni</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
