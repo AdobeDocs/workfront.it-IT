@@ -8,9 +8,9 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
-source-git-commit: 15e2869417d8315bf8e96f7d9d537cd70a5e39df
+source-git-commit: 31adfeffeda9fc6aa4e76ceae7ef410d9c4c178c
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Per testare la funzionalità, accedi all’istanza Workfront Preview o Sandbox e
 
 1. **Coordinatori:** In Workfront, crea un progetto con `Frame.io alpha testing` gruppo assegnato come gruppo di progetto.
 
-1. **Coordinatori:** In Workfront, assegna i tuoi creativi al progetto <span class="preview">o le attività con frame abilitato</span> e cambia lo stato del progetto in &quot;Corrente&quot;.
+1. **Coordinatori:** In Workfront, assegna i tuoi creativi al progetto <span class="preview">o le attività con frame abilitato (si noti che le sottoattività non possono essere contrassegnate come abilitate per frame)</span> e cambia lo stato del progetto in &quot;Corrente&quot;.
 
 1. **Creatività:** Controlla le e-mail per un invito al progetto Frame.io appena creato
 
@@ -60,6 +60,10 @@ Per testare la funzionalità, accedi all’istanza Workfront Preview o Sandbox e
 1. **Creatività:** All’interno di Frame.io, applica le modifiche richieste aggiungendo la versione aggiornata allo stack delle versioni della risorsa connessa.
 
 1. **Coordinatori:** In Workfront, assegna approvatori/revisori alla versione appena caricata e monitora l’avanzamento fino al momento dell’approvazione.
+
+## Scenario di test dettagliato
+
+Abbiamo creato uno scenario di test più complesso per i partecipanti che desiderano testare funzionalità aggiuntive. Una guida per questo scenario di test dettagliato può essere scaricata qui: [Scenario di test dettagliato WF + Frame.io](/help/quicksilver/product-announcements/betas/assets/WF-Frame-Detailed-Test-Scenario-Walkthrough.pdf).
 
 ## Feature plan
 
