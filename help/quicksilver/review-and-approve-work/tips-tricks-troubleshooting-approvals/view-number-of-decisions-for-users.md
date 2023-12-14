@@ -6,15 +6,17 @@ description: Puoi visualizzare il numero di decisioni su bozze e documenti prese
 author: Courtney
 feature: Work Management
 exl-id: e7b1ee0a-3306-49a8-aa4f-142b9d894834
-source-git-commit: a2650ccc3deffd841a7b497e6ff1b5eed6145211
+source-git-commit: eb666e1fc9349e90d8adcd2be1c5efe964e4c77b
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
 
 # Visualizza il numero di decisioni su bozze e documenti per tutti gli utenti
+
+{{highlighted-preview}}
 
 Puoi visualizzare il numero di decisioni su bozze e documenti prese dagli utenti nell’istanza di Workfront.
 
@@ -26,11 +28,17 @@ Puoi visualizzare il numero di decisioni su bozze e documenti prese dagli utenti
 
 Per visualizzare il numero di decisioni per un utente:
 
-1. Fai clic su **Menu principale** nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Utenti**.
+{{step-1-to-users}}
 
 1. Apri **Visualizzazioni** , quindi scegliere il **Licenze** visualizzazione.
-
 1. Trovare la colonna **Decisioni di questo mese** per visualizzare il numero di decisioni che ogni utente ha preso nel mese.
+1. <span class="preview">Per visualizzare i dati storici, apri **Visualizzazioni** e scegliere **Visualizzazione utente cronologica**.</span>
+1. <span class="preview">Trovare la colonna **Decisioni storiche degli utenti** per visualizzare il numero di decisioni che ogni utente ha preso in un mese. I dati risalgono a 12 mesi fa rispetto al mese corrente.</span>
+
+>[!NOTE]
+>
+><span class="preview">Se la visualizzazione utente cronologica non è disponibile, è possibile creare una nuova visualizzazione per visualizzare i dati cronologici. Aggiungi **Decisioni storiche degli utenti** come colonna nella visualizzazione. Per informazioni sull&#39;aggiunta di una colonna a una visualizzazione, vedere [Creare o modificare viste in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).</span>
+
 
 ## Visualizza decisioni nell&#39;area di reporting
 
@@ -38,7 +46,12 @@ Per visualizzare il numero di decisioni per un utente:
 >
 >Questo rapporto si applica agli utenti dei modelli di livello di accesso nuovi e legacy.
 
-1. Fai clic su **Menu principale** nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Rapporti**.
+{{step1-to-reports}}
+
 1. Clic **Nuovo rapporto**, quindi seleziona **Decisioni degli utenti**.
+1. Trovare la colonna **Decisioni di questo mese** per visualizzare il numero di decisioni che ogni utente ha preso nel mese.
+
+   <span class="preview">I dati risalgono a 12 mesi fa rispetto al mese corrente. Il **Mese** e **Anno** Le colonne mostrano il mese in cui sono state prese le decisioni. Il mese 1 è gennaio, il mese 2 è febbraio e così via.</span>
+
 1. Rivedi il rapporto e modificalo in base alle esigenze. Per ulteriori informazioni, consulta [Creare un rapporto personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
