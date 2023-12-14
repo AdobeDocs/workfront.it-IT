@@ -4,9 +4,9 @@ description: Miglioramenti al flusso di aggiornamenti e alle notifiche del primo
 author: Lisa
 feature: Product Announcements
 exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 7e1bcff7361a76988a319b266c7b885a6b614c15
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti relativi al flusso di aggiornamenti e alle notifiche apportati con la versione del primo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del primo trimestre 2024.
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Trascinare l&#39;immagine in un commento nella sezione Aggiornamenti
+
+Per migliorare il contenuto dei commenti, ora puoi trascinare rapidamente un’immagine in un commento o in una risposta nella sezione Aggiornamenti di un oggetto.
+
+È possibile aggiungere immagini salvate nel computer solo nei formati seguenti: .jpg, .jpeg, .png, .gif.
+
+Questa funzionalità era già presente nel flusso di commenti legacy e ora è stata aggiunta alla nuova esperienza di commento.
+
+Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## La nuova esperienza con commenti acquisisce tutte le informazioni per progetti, attività, problemi e documenti
 

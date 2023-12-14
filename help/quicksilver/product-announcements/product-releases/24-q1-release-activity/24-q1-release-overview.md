@@ -4,9 +4,9 @@ description: Panoramica sulla versione del primo trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 7de68150d1da45d88e987b59056f906ed15d0080
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---
@@ -37,9 +37,47 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
 
 ## Miglioramenti di Adobe Workfront
 
+* [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti alla gestione dei documenti](#document-management-enhancements)
 * [Miglioramenti dell’integrazione](#integration-enhancements)
 * [Miglioramenti al flusso di aggiornamento e alle notifiche](#update-stream-and-notification-enhancements)
+
+### Miglioramenti per gli amministratori
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Sono ora disponibili decisioni su bozze e documenti per i 12 mesi precedenti</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>I rapporti Decisioni utenti per i tipi di licenza nuovi e precedenti ora visualizzano il numero di decisioni per il mese corrente e per i 12 mesi precedenti.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 14 dicembre 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con la versione 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
 
 ### Miglioramenti alla gestione dei documenti
 
@@ -59,7 +97,7 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Stati aggiornati per le approvazioni dei documenti</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Per rendere più chiaro lo stato di approvazione del documento, sono state aggiornate le approvazioni dello stato del documento disponibili. Ora lo stato di approvazione tiene conto dei revisori che contrassegnano la revisione come completata, nonché dei casi in cui sono presenti solo revisori ma non approvatori.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Stati aggiornati per le approvazioni dei documenti</a></p><p>Per rendere più chiaro lo stato di approvazione del documento, sono state aggiornate le approvazioni dello stato del documento disponibili. Ora lo stato di approvazione tiene conto dei revisori che contrassegnano la revisione come completata, nonché dei casi in cui sono presenti solo revisori ma non approvatori.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -132,7 +170,7 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">I pulsanti di azione rapida Il mio lavoro sono stati modificati per essere visualizzati solo al passaggio del mouse</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Per migliorare le prestazioni, i pulsanti di azione rapida disponibili nel widget Il mio lavoro ora vengono visualizzati solo quando un elemento di lavoro viene passato con il mouse.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">I pulsanti di azione rapida Il mio lavoro sono stati modificati per essere visualizzati solo al passaggio del mouse</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Per migliorare le prestazioni, i pulsanti di azione rapida disponibili nel widget Il mio lavoro ora vengono visualizzati solo quando un elemento di lavoro viene passato con il mouse.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -215,7 +253,25 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La nuova esperienza con commenti acquisisce tutte le informazioni per progetti, attività, problemi e documenti</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Progetti, attività, problemi e documenti mostrano tutti gli aggiornamenti nella nuova area esperienza di aggiunta di commenti, dall’inizio dell’istanza di Workfront.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Trascinare l'immagine in un commento nella sezione Aggiornamenti</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Per migliorare il contenuto dei commenti, ora puoi trascinare rapidamente un’immagine in un commento o in una risposta nella sezione Aggiornamenti di un oggetto.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 14 dicembre 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con la versione 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La nuova esperienza con commenti acquisisce tutte le informazioni per progetti, attività, problemi e documenti</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Progetti, attività, problemi e documenti mostrano tutti gli aggiornamenti nella nuova area esperienza di aggiunta di commenti, dall’inizio dell’istanza di Workfront.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -223,14 +279,14 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                                 <p>Versione di anteprima: 28 novembre 2023</p>
                             </li>
                             <li>
-                                <p>Produzione per tutti i clienti: 28 novembre 2023</p>
+                                <p><span class="preview">Produzione per tutti i clienti: 28 novembre 2023</span></p>
                             </li>
                         </ul>
                     </td>
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Cerca un commento o un utente nella sezione Aggiornamenti</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Per trovare rapidamente le informazioni nella sezione Aggiornamenti di un oggetto, è ora possibile cercare una parola chiave da un commento o per qualsiasi utente associato a un commento.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Cerca un commento o un utente nella sezione Aggiornamenti</a></p><p>Per trovare rapidamente le informazioni nella sezione Aggiornamenti di un oggetto, è ora possibile cercare una parola chiave da un commento o per qualsiasi utente associato a un commento.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -248,7 +304,7 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copiare e incollare un’immagine in un commento nella sezione Aggiornamenti</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Per fornire contesto al contenuto di un messaggio, è ora possibile allegare rapidamente immagini ai commenti copiandole dal computer e incollandole in un nuovo aggiornamento o in una nuova risposta.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copiare e incollare un’immagine in un commento nella sezione Aggiornamenti</a></p><p>Per fornire contesto al contenuto di un messaggio, è ora possibile allegare rapidamente immagini ai commenti copiandole dal computer e incollandole in un nuovo aggiornamento o in una nuova risposta.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
