@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 3ec1b40ec66b7fa043412203b6c0303a27eb8bfc
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -232,8 +232,12 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
 
    * Due tipi di record Maestro
    * Un tipo di record Maestro e un tipo di oggetto progetto, programma, portfolio, società o gruppo Workfront.
+   * Un tipo di record Maestro e una risorsa, cartella o raccolta Adobe Experience Manager.
 
-  ![](assets/new-connection-tab-with-workfront-option.png)
+     È necessario disporre di una licenza Adobe Experience Manager per collegare i tipi di record agli oggetti Experienci Manager.
+
+     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 
   Dopo aver stabilito una connessione tra i tipi di record, è possibile collegare tra loro singoli record di tali tipi. La connessione tra i record viene visualizzata come campo record collegato.
 
@@ -273,15 +277,15 @@ La tabella seguente mostra i limiti per il numero di oggetti che è possibile cr
 
 | Oggetto Maestro | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Numero di aree di lavoro per un’istanza Workfront | 1,000 |
+| Numero di aree di lavoro per un’istanza Workfront | 1.000 |
 | Numero di tipi di record per un&#39;area di lavoro | 1.000 (incluse le tassonomie per il workspace o gli oggetti importati da applicazioni di terze parti) |
-| Numero di record per un tipo di record | 10,000 |
+| Numero di record per un tipo di record | 10.000 |
 | Numero di campi per un tipo di record o una tassonomia | 500 |
 | Numero di caratteri per un campo di testo | 1.000 caratteri |
-| Dimensione del file che è possibile incollare in una tabella del tipo di record | 1MB |
-| Dimensione del file che è possibile importare tramite l’API per una tabella del tipo di record | 1.5MB |
+| Dimensione del file che è possibile incollare in una tabella del tipo di record | 1 MB |
+| Dimensione del file che è possibile importare tramite l’API per una tabella del tipo di record | 1,5 MB |
 | Frequenza con cui è possibile effettuare richieste API | 200 richieste al minuto |
-| Dimensione del file CSV di Excel che puoi importare in una tabella | 5MB |
+| Dimensione del file CSV di Excel che puoi importare in una tabella | 5 MB |
 
 ## Abilita Maestro per gli utenti nella tua istanza Workfront
 
@@ -367,6 +371,7 @@ La tabella seguente illustra le principali funzioni che saranno disponibili in M
 | Collegare i record Maestro e le tassonomie | ✓ |
 | Cerca record nella vista tabella | ✓ |   |
 | Collegare i record Maestro a progetti, programmi, portafogli, aziende, gruppi Workfront | ✓ |                                 |                  |
+| Collegare i record Maestro a risorse, cartelle e raccolte Adobe Experience Manager | ✓ |                                  |                 |
 | Pagina Dettagli record | ✓ |                                  |                  |
 | Aggiornare il layout della pagina Dettagli record |                               | ✓ |                  |
 | Autorizzazioni di Workspace | | ✓ |  |
@@ -375,6 +380,8 @@ La tabella seguente illustra le principali funzioni che saranno disponibili in M
 | Personalizzare il colore e l&#39;icona di un record | ✓ |                                  |                 |
 | Aggiungere commenti ai record |                               | ✓ |                 |
 | Formattazione Rich Text per i campi Paragrafo | ✓ |                                  |                 |
+
+
 
 ## Attività di rilascio Maestro
 

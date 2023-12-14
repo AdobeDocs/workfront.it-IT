@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2629'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,27 @@ Con questo miglioramento, tieni presente quanto segue:
 * Tutte le visualizzazioni tabella di un tipo di record hanno lo stesso campo principale selezionato.
 
 Per ulteriori informazioni, consulta [Gestisci vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+
+### Collegare i record Maestro con le risorse Adobe Experience Manager (AEM)
+
+Versione di anteprima: 14 dicembre 2023
+
+Versione di produzione: 15 dicembre 2023
+
+Ora puoi stabilire una connessione tra i tipi di record Maestro e le risorse Adobe Experience Manager.
+
+Dopo aver stabilito la connessione, con questo aggiornamento sono disponibili le seguenti funzionalità:
+
+* Gli utenti Maestro possono collegare risorse, cartelle o raccolte AEM a un record Maestro da un archivio specifico in AEM a cui hanno accesso
+
+* Gli utenti Maestro possono visualizzare tutte le risorse collegate in Maestro dopo essere stati collegati ai record.
+
+* Un tipo di record Experience Manager Assets viene creato automaticamente in Maestro dopo aver stabilito la connessione. Le risorse collegate sono visibili nella tabella Maestro e nelle visualizzazioni della timeline di questo nuovo tipo di record.
+
+* Puoi visualizzare le informazioni sulle risorse AEM nella tabella dei record Maestro da cui ti stai connettendo.
+
+Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/maestro/architecture/connect-record-types.md)
 
 ## Settimana del 4 dicembre 2023
 

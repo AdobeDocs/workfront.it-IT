@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 98b57b08b87e47a402684428a76576455df664d7
+source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1941'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <td>
    <p> prodotto Adobe</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Per collegare i tipi di record Maestro a Experience Manager Assets, è necessario disporre di un Adobe Experience Manager Assets</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
@@ -121,7 +123,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -199,6 +201,12 @@ Considera quanto segue:
       * Aziende
       * Gruppi
 
+   * Adobe Experience Manager Assets:
+
+      * Risorse
+      * Cartelle
+      * Raccolte
+
 * Dopo aver collegato un tipo di record a un altro tipo di record o a un tipo di oggetto di un&#39;altra applicazione, si verificano i seguenti scenari:
 
    * Quando si connettono due tipi di record: viene creato un campo Record collegato sul tipo di record da cui si esegue la connessione. Un campo record Collegato simile viene creato nel tipo di record a cui ci si connette.
@@ -230,12 +238,14 @@ Considera quanto segue:
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Fai clic su **+** nell&#39;angolo superiore destro della vista tabella, quindi fare clic sul pulsante **Nuova connessione** scheda.
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 1. In **Tipo di record** , selezionare una delle opzioni seguenti: <!--is the field name spelled right? lowercase "t"?-->
 
-   * Altro tipo di record operativo
-   * Una tassonomia
-   * Un progetto, un Portfolio, un programma, una società o un gruppo Workfront.
+   * Un altro tipo di record operativo dall&#39;area di lavoro selezionata
+   * Una tassonomia dall&#39;area di lavoro selezionata
+   * Un progetto, un Portfolio, un programma, una società o un gruppo della sezione Tipi di oggetti di Workfront.
+   * Experience Manager Assets dalla sezione Adobe Applications.
 
    ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -255,9 +265,17 @@ Considera quanto segue:
    * **Consenti più record**: seleziona questa opzione per indicare che gli utenti possono aggiungere più record quando il campo del tipo di record collegato viene visualizzato nei record originali. Questa opzione è selezionata per impostazione predefinita.
    * **Seleziona campi di ricerca**: seleziona questa opzione per aggiungere campi dal tipo di record selezionato. Questa opzione è selezionata per impostazione predefinita.
 
+1. (Condizionale e facoltativo) Se si è selezionato di collegare un oggetto Workfront, selezionare un **Modulo personalizzato** dal **Collega solo i progetti che corrispondono a questi criteri** sezione. <!--this needs to be updated for each object when they fix this UI.--> Solo gli oggetti a cui sono allegati i moduli personalizzati selezionati possono essere collegati al tipo di record Maestro selezionato. È possibile selezionare più moduli.
+
+   ![](assets/workfront-project-connection-selection.png)
+
+1. (Condizionale) Se hai selezionato di connetterti a Experience Manager Assets, seleziona un archivio da **archivio Experienci Manager** menu a discesa nella **Collegare le risorse dal seguente archivio** sezione. Questo campo è obbligatorio. In questo campo vengono visualizzati solo gli archivi a cui hai accesso in Experience Manager Assets.
+
+   ![](assets/aem-assets-connection-selection.png)
+
 1. Clic **Crea**.
 
-1. (Condizionale) Se hai selezionato l’impostazione Seleziona campo di ricerca nel passaggio precedente, il **Aggiungi campi di ricerca** viene visualizzata la casella.
+1. (Condizionale) Se hai selezionato il **Seleziona campo di ricerca** impostazione nel passaggio precedente, la **Aggiungi campi di ricerca** viene visualizzata la casella.
 
    Fai clic su **+** per aggiungere campi dalla **Campi non selezionati** area.
 
@@ -274,6 +292,10 @@ Considera quanto segue:
 1. (Facoltativo e condizionale) Se si seleziona di collegare un campo di tipo numero, valuta, percentuale o data, selezionare anche un valore aggregatore. Quando gli utenti selezionano più record collegati nel campo record collegato, i valori dei campi collegati vengono visualizzati separati da virgole o come valore aggregato in base all&#39;aggregatore scelto.
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
+
+   >[!NOTE]
+   >
+   > Gli aggregatori non sono disponibili quando si collegano tipi di record a Experience Manager Assets.
 
    Selezionare una delle opzioni seguenti:
 
