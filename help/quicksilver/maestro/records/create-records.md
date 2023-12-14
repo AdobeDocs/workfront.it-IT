@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 92e8b9949f13536b3464922a93fafcb74688d916
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,12 @@ La creazione di record operativi è identica alla creazione di record di tassono
 
 * Creali manualmente per i tipi di record Maestro
 * Collegali ai record Maestro da applicazioni di terze parti.
+* Creare record copiando e incollando informazioni da un elenco esterno.
+
+Questo articolo descrive come creare i record Maestro. Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
+
+* [Gestire la vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Gestire la visualizzazione della timeline](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## Requisiti di accesso
 
@@ -183,7 +189,7 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
 ## Creare record collegandoli da un&#39;altra applicazione
 
-Puoi importare record da altre applicazioni collegandoli a record collegati Maestro.
+Puoi importare record da altre applicazioni collegandoli a record collegati Maestro. In questo modo viene creato un tipo di record Maestro per l&#39;oggetto connesso dell&#39;applicazione di terze parti. I record collegati ai record Maestro originali vengono visualizzati nella vista della tabella del tipo di record Maestro dell&#39;oggetto collegato a un&#39;applicazione di terze parti.
 
 1. Creare un tipo di record Maestro, come descritto in [Crea tipi di record](../architecture/create-record-types.md).
 
@@ -199,7 +205,6 @@ Puoi importare record da altre applicazioni collegandoli a record collegati Maes
 
      Ad esempio, se si collega un tipo di record Maestro a progetti Workfront, nella stessa area di lavoro viene creato un tipo di record di sola lettura denominato &quot;progetti Workfront&quot;.
    * Record di sola lettura nella pagina del tipo di record di terze parti. I record importati dall&#39;applicazione di terze parti rimangono di sola lettura e possono essere aggiornati solo nell&#39;applicazione originale.
-
 
 ## Creare record copiando e incollando informazioni da un elenco esterno
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2271'
 ht-degree: 3%
 
 ---
@@ -137,36 +137,44 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-   >[!TIP]
-   >
-   >* Il campo Nome è sempre il primo campo della visualizzazione tabella.
-   >
-   >* Impossibile spostare il campo Nome in un&#39;altra posizione.
-   >
-   >* Non è possibile nascondere il campo Nome.
-   >
-   >* Il campo Nome è bloccato e non fa parte dello scorrimento orizzontale.
 
-   <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+     >[!TIP]
+     >
+     >* Il campo Nome è sempre il primo campo della visualizzazione tabella.
+     >
+     >* Impossibile spostare il campo Nome in un&#39;altra posizione.
+     >
+     >* Non è possibile nascondere il campo Nome.
+     >
+     >* Il campo Nome è bloccato e non fa parte dello scorrimento orizzontale.
 
-   <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+   * Sostituire il campo nella prima colonna con un altro campo modificando il campo principale. Per ulteriori informazioni, passare al passaggio 4. <!--accurate?-->
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
-    >
-    >   * The primary field is always frozen.
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+1. (Facoltativo) Passa il puntatore del mouse sul nome di un campo nell&#39;intestazione di colonna di un campo che non viene visualizzato nella prima colonna della tabella, fai clic sulla freccia rivolta verso il basso a destra del nome del campo, quindi fai clic su **Imposta come campo principale**.
+
+   ![](assets/set-as-primary-field-option-table-view.png)
+
+1. Clic **Imposta campo** per confermare.
+
+   Il campo diventa un campo primario, ovvero viene visualizzato come prima colonna della visualizzazione tabella. Il campo primario precedente si sposta sulla seconda colonna.
+
+   >[!NOTE]
+   >
+   >   * Solo i campi dei tipi seguenti possono essere campi primari:
+   >
+   >       * Testo a riga singola
+   >       * Numero
+   >       * Formula
+   >
+   >         I campi formula verranno rilasciati in una data successiva.
+   >
+   >   * Il campo principale è sempre bloccato e non può essere spostato. È possibile selezionare un altro campo per sostituire un campo principale, se è necessario spostarlo in un&#39;altra posizione.
+   >
+   >   * La modifica del campo principale nella vista tabella ha effetto sulla vista di tutti gli altri utenti che la scelgono.
+   >
+   >   * La modifica del campo principale in una vista tabella ha effetto su tutte le viste tabella.
+   >
+   >   * Non è possibile eliminare o nascondere un campo principale.
 
 1. Fate clic sulle linee di separazione delle colonne e trascinatele nel punto desiderato per aumentare la larghezza delle colonne.
 
@@ -282,7 +290,7 @@ Per aggiungere un filtro a una vista tabella:
             <td><p>È</p>
             <p>Non è</p>
             <p>È uno qualsiasi di</p>
-            <p>È nessuno di</p>
+            <p>Non è nessuno di</p>
             <p>È vuoto</p>
             <p>Non è vuoto</p></td>
         </tr>

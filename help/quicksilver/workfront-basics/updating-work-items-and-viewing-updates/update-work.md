@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4163'
 ht-degree: 1%
 
 ---
@@ -409,9 +409,8 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
 
 1. (Facoltativo) Per allegare un&#39;immagine all&#39;aggiornamento, effettuare una delle seguenti operazioni:
 
-   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
-   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
-   -->
+   * <span class="preview">Salva l’immagine sul computer, quindi trascinala e rilasciala nell’area Nuovo commento.</span>
+     <span class="preview">Questa funzione non è disponibile nell’ambiente di produzione per la nuova esperienza di commento. Il trascinamento e il rilascio di un’immagine in un commento sono disponibili nell’esperienza di commento legacy in Produzione. </span>
 
    * <span class="preview">Copiare uno screenshot dal computer, quindi incollarlo nel commento </span>
    * Fai clic su **Aggiungi immagine** icona ![](assets/add-image-mountain-with-plus-icon.png) e passare all&#39;immagine nel computer.
@@ -431,6 +430,11 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
    >* Quando qualcuno elimina un’immagine allegata a un commento dall’area Documenti, questa viene rimossa anche dal commento.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. (Facoltativo) Per visualizzare un&#39;immagine nell&#39;aggiornamento esistente, effettuate una delle seguenti operazioni:
+
+   * Fai clic su **Anteprima** icona <span class="preview">![](assets/previewimageicon-31x31.png)</span> sulla miniatura dell’immagine per aprire l’immagine a dimensione intera in una nuova scheda del browser.
+   * Fai clic su **Scarica** icona ![](assets/downloadimageicon.png) sulla miniatura dell&#39;immagine per scaricare l&#39;immagine.
 
 1. Clic **Invia** per aggiungere il commento.
 

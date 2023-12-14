@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,40 @@ The following are the permissions levels for Maestro workspaces:
 Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Settimana del 18 dicembre 2023
+
+### Aggiornare il campo principale in una visualizzazione tabella di un tipo di record
+
+Anteprima e produzione: 14 dicembre 2023
+
+Ora puoi scegliere il campo da visualizzare nella prima colonna di una vista a tabella Maestro. Questo campo è ora denominato campo primario.
+
+Prima di questo miglioramento, il campo Nome di un record veniva sempre visualizzato nella prima colonna della visualizzazione tabella e non poteva essere posizionato in un’altra posizione.
+
+Con questo miglioramento, tieni presente quanto segue:
+
+* Per impostazione predefinita, la colonna o il campo Nome è ancora la prima colonna di una tabella.
+
+* È possibile scegliere qualsiasi campo dei tipi seguenti come campo principale e sostituire il campo Nome nella prima colonna:
+
+   * Testo a riga singola
+
+   * Numero
+
+   * Formula
+
+     >[!NOTE]
+     >
+     >I campi di tipo formula verranno rilasciati in una data successiva.
+
+* Il campo principale di una visualizzazione tabella è sempre bloccato e non può essere spostato, a meno che non si imposti un altro campo come campo principale.
+
+* È possibile modificare il campo primario da un&#39;intestazione di colonna non primaria.
+
+* Tutte le visualizzazioni tabella di un tipo di record hanno lo stesso campo principale selezionato.
+
+Per ulteriori informazioni, consulta [Gestisci vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 ## Settimana del 4 dicembre 2023
 

@@ -3,13 +3,13 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Panoramica del Bilanciatore dei carichi di lavoro
-description: Dopo aver pianificato il lavoro sui progetti e aver creato le attività, i project manager possono utilizzare il Bilanciatore dei carichi di lavoro per assegnare tale lavoro agli utenti dei team.
-author: Alina
+description: Dopo che i project manager hanno pianificato il lavoro sui progetti creando attività e dopo aver allocato le risorse dei ruoli ai progetti nella Programmazione risorse, i project manager e i team manager possono utilizzare il Bilanciatore dei carichi di lavoro per assegnare gli elementi di lavoro agli utenti.
+author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-Dopo che i project manager hanno pianificato il lavoro sui progetti e creato le attività, è possibile utilizzare il Bilanciatore dei carichi di lavoro per assegnare tale lavoro agli utenti.
+Dopo che i project manager hanno pianificato il lavoro sui progetti creando attività e dopo aver allocato le risorse dei ruoli ai progetti nella Programmazione risorse, i project manager e i team manager possono utilizzare il Bilanciatore dei carichi di lavoro per assegnare gli elementi di lavoro agli utenti.
 
 >[!IMPORTANT]
 >
@@ -55,12 +55,12 @@ Quando utilizzi il Bilanciatore dei carichi di lavoro, considera i seguenti vant
 -->
 
 * Accedi a una chiara mappatura visiva della sovrassegnazione e del sottoutilizzo delle risorse, che sia trasparente per tutte le parti interessate.
-* In qualità di responsabile del personale, puoi proteggere il tuo personale dall’esaurimento dello spazio e metterlo in grado di svolgere al meglio il proprio lavoro con maggiore attenzione, qualità e coinvolgimento. Puoi garantirne l’utilizzo completo, suddividere i silos e consentire l’allineamento del lavoro tra i team.
+* In qualità di responsabile del personale, puoi proteggere il tuo personale dall’esaurimento e metterlo in grado di svolgere il suo lavoro al meglio con maggiore attenzione, qualità e coinvolgimento. Puoi garantirne l’utilizzo completo, suddividere i silos e consentire l’allineamento del lavoro tra i team.
 * Quando si assegna il lavoro a livello di attività o di problema, non si ha visibilità di quanto occupato un utente. Quando utilizzi il Bilanciatore dei carichi di lavoro, puoi visualizzare quali utenti dispongono di disponibilità nel loro carico di lavoro per completare l’attività o il problema in tempo. Questo include i dettagli relativi alle ferie e alle eccezioni alla pianificazione.
 
   Per ulteriori informazioni, consulta [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  È inoltre possibile assegnare elementi di lavoro in blocco, facilitando così la distribuzione di un numero elevato di elementi di lavoro contemporaneamente in più progetti. Per ulteriori informazioni, consulta [Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  È inoltre possibile assegnare elementi di lavoro in blocco, semplificando così la distribuzione di più elementi di lavoro contemporaneamente in più progetti. Per ulteriori informazioni, consulta [Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * I dirigenti possono prendere decisioni tempestive in materia di assegnazione del personale attraverso la trasparenza delle modalità di utilizzo delle persone all&#39;interno dell&#39;organizzazione.
 * I membri del team traggono vantaggio da una migliore collaborazione, in quanto possono tutti visualizzare su cosa stanno lavorando i loro colleghi in un dato momento. Per informazioni sull’accesso necessario per visualizzare o gestire le risorse nel Bilanciatore dei carichi di lavoro, consulta [Accesso necessario per gestire le risorse nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
@@ -92,15 +92,18 @@ Per informazioni sulla creazione e l’utilizzo dei filtri nel Bilanciatore dei 
 
   Per informazioni sull’accesso necessario per gestire il carico di lavoro delle risorse nel Bilanciatore dei carichi di lavoro, consulta [Accesso necessario per gestire le risorse nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
-* Gli utenti di cui desideri gestire il carico di lavoro devono soddisfare i seguenti criteri in modo che le informazioni sulla disponibilità e sulle competenze siano accurate:
+* Gli utenti il cui carico di lavoro si desidera gestire devono soddisfare i seguenti criteri in modo che le informazioni sulla loro disponibilità e sulle loro competenze siano accurate:
 
    * Hanno Schedules e Ruoli associati al loro profilo.
-   * Per ulteriori informazioni sull&#39;associazione di pianificazioni e mansioni agli utenti, vedere [Aggiungi utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+
+     Per ulteriori informazioni sull&#39;associazione di pianificazioni e mansioni agli utenti, vedere [Aggiungi utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * Se un utente non è associato a una pianificazione, la pianificazione predefinita del sistema Workfront viene associata all&#39;utente per impostazione predefinita, ai fini della gestione delle risorse.
-   * Richiedere l&#39;aggiornamento delle eccezioni di pianificazione nelle proprie pianificazioni.\
+   * Richiedere l&#39;aggiornamento delle eccezioni di pianificazione nelle proprie pianificazioni.
+
      Per ulteriori informazioni sulla creazione di pianificazioni, vedere [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * Aggiornare il calendario Time Off (Ferie) nel profilo.\
+   * Aggiornare il calendario Time Off (Ferie) nel profilo.
+
      Per informazioni sull&#39;aggiornamento del calendario Time Off (Ferie) di un utente, vedere [Configurare l’indisponibilità personale](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
@@ -110,13 +113,15 @@ Per informazioni sulla creazione e l’utilizzo dei filtri nel Bilanciatore dei 
      </div>   
      -->
 
-* L&#39;amministratore di Workfront deve determinare il modo in cui Workfront calcola la disponibilità degli utenti. Possono decidere se Workfront utilizza la pianificazione predefinita del sistema o la pianificazione dell’utente per calcolare il tempo in cui l’utente è disponibile a lavorare. Per ulteriori informazioni, consulta [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* L&#39;amministratore di Workfront deve determinare il modo in cui Workfront calcola la disponibilità degli utenti. Possono decidere se Workfront utilizza la pianificazione predefinita del sistema o la pianificazione dell&#39;utente per calcolare il tempo in cui l&#39;utente è disponibile a lavorare modificando le preferenze di Gestione risorse nell&#39;area Configurazione di Workfront.
+
+  Per ulteriori informazioni, consulta [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Best practice per l’impostazione di attività e problemi {#best-practices-for-setting-up-tasks-and-issues}
 
 Prima di iniziare a assegnare il lavoro agli utenti nel Bilanciatore dei carichi di lavoro, assicurati che siano presenti le seguenti impostazioni di attività e problemi:
 
-* Le attività padre non vengono assegnate a utenti o ruoli. Non vengono visualizzati nel Bilanciatore dei carichi di lavoro.
+* Le attività padre non vengono assegnate a utenti o ruoli. Le attività padre non vengono visualizzate nel Bilanciatore dei carichi di lavoro.
 * Le attività e i problemi hanno un valore per Ore pianificate maggiore di zero.
 
 * Le attività e i problemi hanno un valore per la durata maggiore di zero.
@@ -124,16 +129,16 @@ Prima di iniziare a assegnare il lavoro agli utenti nel Bilanciatore dei carichi
 
 ## Prima di iniziare a utilizzare il Bilanciatore dei carichi di lavoro
 
-* È possibile utilizzare il Bilanciatore dei carichi di lavoro per assegnare lavoro e gestire le allocazioni giornaliere per gli utenti dell&#39;organizzazione.
+* Rivedi i seguenti articoli prima di iniziare a utilizzare il Bilanciatore dei carichi di lavoro:
 
-  Questo articolo illustra come navigare nel Bilanciatore dei carichi di lavoro per eseguire le azioni seguenti: [Navigare nel Bilanciatore dei carichi di lavoro](../workload-balancer/navigate-the-workload-balancer.md).
+   * Questo articolo illustra come navigare nel Bilanciatore dei carichi di lavoro per eseguire le azioni seguenti: [Navigare nel Bilanciatore dei carichi di lavoro](../workload-balancer/navigate-the-workload-balancer.md).
 
-  I seguenti articoli descrivono come assegnare lavoro e gestire le allocazioni utente:
+   * I seguenti articoli descrivono come assegnare lavoro e gestire le allocazioni utente:
 
-   * [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../workload-balancer/assign-work-in-workload-balancer.md).
-   * [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-* Il Bilanciatore dei carichi di lavoro può essere posizionato in diverse aree di Workfront. Per informazioni su dove è possibile trovare il Bilanciatore dei carichi di lavoro, vedi [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* Il Bilanciatore dei carichi di lavoro si trova in diverse aree di Workfront. Per informazioni su dove è possibile trovare il Bilanciatore dei carichi di lavoro, vedi [Individuare il Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Accesso necessario per utilizzare il Bilanciatore dei carichi di lavoro
 

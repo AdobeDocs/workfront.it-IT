@@ -5,12 +5,13 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d1fe7165932fb6f2aff3c8488bdb8e1dfae3b6d3
+source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '768'
 ht-degree: 1%
 
 ---
+
 
 # Concedere l’accesso agli utenti
 
@@ -33,40 +34,40 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Piano</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> <p>Devi essere un amministratore Workfront.</p> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Configurazione dell’accesso agli utenti
 
-Puoi gestire le informazioni che gli utenti possono visualizzare e modificare per altri utenti utilizzando un livello di accesso predefinito o personalizzato creato. Gli utenti con le licenze di piano e lavoro predefinite possono visualizzare le informazioni di contatto di altri utenti. Uno dei seguenti utenti può creare e modificare altri utenti:
+È possibile gestire le informazioni che gli utenti possono visualizzare e modificare per altri utenti utilizzando un livello di accesso predefinito o personalizzato. Gli utenti con le licenze Pianificazione e Lavoro predefinite possono visualizzare le informazioni di contatto di altri utenti. Uno dei seguenti utenti può creare e modificare altri utenti:
 
 * Un amministratore Workfront.
 
-   Per ulteriori informazioni, consulta [Concedere a un utente pieno accesso amministrativo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Per ulteriori informazioni, consulta [Concedere a un utente l&#39;accesso amministrativo completo](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-* Un utente con una licenza di piano predefinita che ha accesso anche agli utenti, come spiegato in questo articolo.
+* Utente con una licenza Pianificazione predefinita che ha anche accesso agli utenti, come spiegato in questo articolo.
 
-   Gli utenti con restrizioni per visualizzare solo gli utenti della loro azienda o della società principale hanno accesso per modificare solo gli utenti che possono vedere. Per ulteriori informazioni, consulta [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Gli utenti che non possono vedere solo gli utenti della propria società o della società principale hanno accesso alla modifica solo per gli utenti che possono vedere. Per ulteriori informazioni, consulta [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Utente con una licenza di piano predefinita specificata anche come responsabile di un altro utente.
+* Utente con una licenza Pianificazione predefinita specificato anche come manager di un altro utente.
 
-   Gli utenti a cui è concesso l’accesso Modifica agli utenti nel loro livello di accesso possono gestire gli utenti che inviano rapporti agli utenti. Per informazioni sulla gestione di un utente, consulta [Visualizza il grafico organizzativo](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+  Gli utenti che dispongono dell’accesso di modifica al loro livello di accesso possono gestire gli utenti che fanno riferimento a loro. Per informazioni sulla gestione di un utente, consulta [Visualizzare l’organigramma](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
-* Un utente con una licenza di piano predefinita che ha creato un utente può disattivare, eliminare o modificare l&#39;utente creato. Per informazioni sulla creazione di nuovi utenti, consulta [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* L&#39;utente con una licenza Pianificazione predefinita che ha creato un utente può disattivare, eliminare o modificare l&#39;utente creato. Per informazioni sulla creazione di nuovi utenti, consulta [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-## Configurare l’accesso degli utenti per modificare gli utenti utilizzando un livello di accesso personalizzato
+## Configurare l’accesso degli utenti per la modifica degli utenti utilizzando un livello di accesso personalizzato
 
 1. Inizia a creare o modificare il livello di accesso, come spiegato in [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Per modificare la capacità degli utenti con una licenza Piano o Lavoro di visualizzare i profili di altri utenti:
+1. Per modificare la capacità degli utenti con una licenza Pianificazione o Lavoro di visualizzare i profili di altri utenti:
 
-   1. Fai clic sull’icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sulla **Visualizza** a destra di **Utenti**.
+   1. Fai clic sull’icona a forma di ingranaggio ![](assets/gear-icon-settings.png) il **Visualizza** a destra di **Utenti**.
 
-   1. Disattiva **Visualizza informazioni contatto**, quindi fai clic sulla X per chiudere la **Ottimizzare le impostazioni** scatola.
+   1. Disattiva **Visualizza informazioni di contatto**, quindi fare clic sulla X per chiudere **Metti a punto le impostazioni** casella.
 
-1. Per modificare la capacità degli utenti con accesso a una licenza di piano di modificare altri utenti, fai clic sull’icona a forma di ingranaggio ![](assets/gear-icon-settings.png) sulla **Modifica** a destra di **Utenti**, quindi seleziona le capacità che desideri concedere:
+1. Per modificare la possibilità degli utenti con un accesso alla licenza Pianificazione di modificare altri utenti, fare clic sull&#39;icona a forma di ingranaggio ![](assets/gear-icon-settings.png) il **Modifica** a destra di **Utenti**, quindi seleziona le abilità che desideri concedere:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -75,32 +76,32 @@ Puoi gestire le informazioni che gli utenti possono visualizzare e modificare pe
      <tr> 
       <td role="rowheader"><strong>Crea</strong> </td> 
       <td> <p>Consente agli utenti di creare utenti.<br>Questa opzione è attivata per impostazione predefinita.</p> 
-      &lt;!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Assicurati che questa modifica venga apportata prima di annullare la stesura di queste 2 note. Il 29/3, il dottore del req dice che questo dipende dai risultati delle indagini.</p>
+      &lt;!—
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Assicurati che questa modifica sia stata apportata prima di rimuovere queste 2 note. Il 29 marzo, il documento req afferma che ciò dipende dai risultati delle indagini.</p>
 
-       &lt;p>&lt;b>NOTA&lt;/b>: Questa opzione non è disponibile se l’organizzazione è stata caricata in Adobe Admin Console. Per ulteriori informazioni, rivolgiti al tuo amministratore di rete o IT.&lt;/p>
+       &lt;p>&lt;b>NOTA&lt;/b>: non è disponibile se l’organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all&#39;amministratore di rete o IT.&lt;/p>
        —>  &lt;/td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Elimina</strong> </td> 
-      <td> <p> Consente agli utenti di eliminare gli utenti che hanno creato da soli.<br>Questa opzione è attivata per impostazione predefinita.</p> <p><b>NOTA</b>: Questa opzione non è disponibile se l’organizzazione è stata caricata in Adobe Admin Console. Per ulteriori informazioni, rivolgiti al tuo amministratore di rete o IT.</p> </td> 
+      <td> <p> Consente agli utenti di eliminare gli utenti che hanno creato personalmente.<br>Questa opzione è attivata per impostazione predefinita.</p> <p><b>NOTA</b>: questo non è disponibile se l’organizzazione è stata integrata in Adobe Admin Console. Per ulteriori informazioni, rivolgersi all'amministratore di rete o IT.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Amministratore utenti (Tutti gli utenti)</strong> </td> 
+      <td role="rowheader"><strong>Amministratore utenti (tutti gli utenti)</strong> </td> 
       <td> <p>Consente agli utenti di effettuare le seguenti operazioni per qualsiasi utente in Workfront:</p> 
        <ul> 
-        <li>Modificare, eliminare o disattivare l’utente</li> 
+        <li>Modifica, elimina o disattiva l'utente</li> 
         <li>Accedi come utente</li> 
-        <li>Reimpostare la password dell'utente</li> 
+        <li>Reimposta password utente</li> 
        </ul> <p>Questa opzione è disabilitata per impostazione predefinita.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Amministratore utenti (Utenti gruppi)</strong> </td> 
-      <td> <p>Consente agli utenti di effettuare le seguenti operazioni per qualsiasi utente di un gruppo che amministrano: 
+      <td> <p>Consente agli utenti di effettuare le seguenti operazioni per qualsiasi utente di un gruppo amministrato: 
         <ul>
-         <li><p>Modificare, eliminare o disattivare l’utente</p></li>
+         <li><p>Modifica, elimina o disattiva l'utente</p></li>
          <li>Accedi come utente</li>
-         <li><p>Reimpostare la password dell'utente</p><p><b>NOTA</b>: Un amministratore di gruppo non può accedere come o reimpostare la password di un amministratore di Workfront.</p></li>
+         <li><p>Reimposta password utente</p><p><b>NOTA</b>: un amministratore di gruppo non può effettuare l’accesso come amministratore di Workfront né reimpostare la password di tale amministratore.</p></li>
         </ul><p>Questa opzione è disabilitata per impostazione predefinita.</p></p> </td> 
      </tr> 
     </tbody> 
@@ -108,11 +109,11 @@ Puoi gestire le informazioni che gli utenti possono visualizzare e modificare pe
 
    >[!TIP]
    >
-   >Se non desideri concedere agli amministratori dei gruppi l&#39;accesso a tutti i membri dei gruppi che amministrano, disattiva entrambe le opzioni Amministratore utenti riportate sopra. Gli amministratori di gruppo potranno comunque accedere ai membri del gruppo aggiunti a Workfront o che riferiscono a tali membri in Workfront.
+   >Se non si desidera concedere agli amministratori di gruppi l&#39;accesso a tutti i membri dei gruppi da essi amministrati, disattivare entrambe le opzioni Amministratore utenti descritte sopra. Gli amministratori di gruppi potranno comunque accedere ai membri del gruppo che aggiungono a Workfront o che fanno riferimento a loro in Workfront.
 
-1. (Facoltativo) Per configurare le impostazioni di accesso per altri oggetti e aree nel livello di accesso su cui stai lavorando, continua con uno degli articoli elencati in [Configurare l’accesso ad Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), quali [Concedere l’accesso alle attività](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Facoltativo) Per configurare le impostazioni di accesso per altri oggetti e aree nel livello di accesso su cui si sta lavorando, continuare con uno degli articoli elencati in [Configurare l’accesso ad Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), ad esempio [Concedere l’accesso alle attività](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) e [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Al termine, fai clic su **Salva**.
 
 ## Accesso agli utenti per tipo di licenza
 
-Per informazioni sulle operazioni che gli utenti di ciascun livello di accesso possono eseguire con gli utenti, consulta la sezione . [Utenti](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) nell&#39;articolo [Funzionalità disponibile per ciascun tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Per informazioni sulle operazioni che gli utenti possono eseguire con gli utenti in ogni livello di accesso, consulta la sezione [Utenti](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#users) nell’articolo [Funzionalità disponibile per ogni tipo di oggetto](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
