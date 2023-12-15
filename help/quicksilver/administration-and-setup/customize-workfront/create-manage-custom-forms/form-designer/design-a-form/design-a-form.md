@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
 workflow-type: tm+mt
-source-wordcount: '4918'
-ht-degree: 4%
+source-wordcount: '4927'
+ht-degree: 3%
 
 ---
 
@@ -499,6 +499,10 @@ Per aggiungere campi data di completamento automatico:
 ### Aggiungere campi di ricerca esterni
 
 Un campo di ricerca esterno richiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Gli utenti che utilizzano l’oggetto a cui è associato il modulo personalizzato possono selezionare una o più di queste opzioni dal menu a discesa.
+
+>[!NOTE]
+>
+>La funzionalità di ricerca esterna non è disponibile per gli oggetti Document.
 
 Per aggiungere una ricerca esterna:
 
