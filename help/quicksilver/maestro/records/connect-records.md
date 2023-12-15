@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2930'
 ht-degree: 0%
 
 ---
@@ -62,6 +62,13 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
       * Azienda
       * Gruppo
 
+   * Adobe Experience Manager Assets
+
+      * File immagine
+      * Cartelle
+
+
+
   <!--when you add more objects, fix the Access Requirements below which right now refer only to projects-->
 
 ## Requisiti di accesso
@@ -72,9 +79,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col>
 <tbody>
 <td>
-   <p> prodotto Adobe</p> </td>
+   <p> prodotto Adobe</p> 
+   </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>Per collegare i record Maestro a Experience Manager Assets, devi disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p></td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
@@ -183,20 +191,21 @@ After permssions - replace the table with:
 
 ### Considerazioni sulla connessione dei record
 
-* Una volta stabilita la connessione tra i tipi di record, i tipi di record collegati vengono visualizzati come campi di record collegati nella tabella dei tipi di record da cui sono collegati.
+* Dopo aver connesso i tipi di record, i tipi di record collegati vengono visualizzati come campi di record collegati nella tabella dei tipi di record da cui sono collegati.
 * È possibile sfogliare e aggiungere record e oggetti dei tipi di record e oggetti collegati dai campi dei record collegati.
 * È possibile aggiungere campi dei tipi di record collegati alla tabella del tipo di record da cui si sta eseguendo il collegamento.
 * Non è possibile aggiornare manualmente i valori dei campi collegati nei record da cui si sta effettuando il collegamento.
 
-  I valori dei campi collegati dei record collegati popolano il record Maestro dal quale si sta effettuando il collegamento automatico.
+  I valori dei campi collegati dei record collegati popolano il record Maestro che si sta collegando automaticamente dall&#39;area di lavoro Maestro configurata o dall&#39;applicazione di terze parti.
 
-* Tutti coloro che hanno accesso a Maestro possono vedere le connessioni che si creano tra i record Maestro o tra i record Maestro e gli oggetti Workfront. Inoltre, puoi visualizzare e modificare le connessioni di tutti gli altri. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
+* Tutti coloro che hanno accesso a Maestro possono vedere le connessioni che si creano tra i record Maestro o tra i record Maestro e gli oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle loro autorizzazioni sulle applicazioni di terze parti a cui ti stai connettendo.
+* Puoi visualizzare e modificare le connessioni di tutti gli altri utenti. <!--add that this is based on your permissions in both Maestro and Workfront (or, later, any other application)-->
 * È possibile collegare un record Maestro a uno o più oggetti di un&#39;altra applicazione.
-* Non è possibile connettere le tassonomie a tipi di record o a oggetti di un&#39;altra applicazione. <!-- this is temporary; there will be certain objects (teams, etc) that will be linked to taxonomies, per Lilit-->
-* Per collegare i record Maestro agli oggetti Workfront, è necessario disporre dei seguenti elementi:
+* Per collegare i record Maestro ad altri record o oggetti, è necessario disporre dei seguenti elementi:
 
-   * Oggetti Workfront. Ad esempio, devi prima creare progetti, portfolio, programmi, aziende o gruppi in Workfront.
-   * Aree di lavoro Maestro, tipi di record e record. Per ulteriori informazioni, consulta i seguenti articoli:
+   * Almeno un&#39;area di lavoro Maestro, un tipo di record e un record.
+
+     Per ulteriori informazioni, consulta i seguenti articoli:
 
       * [Creare aree di lavoro](../architecture/create-workspaces.md)
       * [Crea tipi di record](../architecture/create-record-types.md)
@@ -213,12 +222,8 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace da cui si desidera connettere i record.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Seleziona un **Tabella** vista da **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
-1. Aggiungere una connessione a un altro record o tipo di oggetto dal tipo di record selezionato. Per informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
-
-   Viene aggiunta una nuova colonna alla tabella per visualizzare il tipo di record collegato.
-
-1. Aggiungere record al tipo di record selezionato aggiungendo una nuova riga alla tabella. Per informazioni, consulta [Crea record](../../maestro/records/create-records.md).
-1. Da un record elencato nella vista a tabella, vai alla colonna del record collegato e passa il puntatore del mouse sulla cella corrispondente al record che desideri collegare con altri record Maestro, quindi fai clic sul pulsante **+** icona.
+1. (Facoltativo) Aggiungere record al tipo di record selezionato aggiungendo una nuova riga alla tabella. Per informazioni, consulta [Crea record](../../maestro/records/create-records.md).
+1. Da un record elencato nella visualizzazione tabella, passare alla colonna del record collegato e passare il puntatore del mouse sulla cella corrispondente al record che si desidera collegare ad altri record, quindi fare clic sul pulsante **+** icona.
 
    Il **Connetti oggetti** viene visualizzata la casella.
 
@@ -232,23 +237,22 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Sono aggiunti i seguenti elementi:
 
-   * I record collegati vengono visualizzati nel campo record collegato del record selezionato al passaggio 3. L&#39;aggiornamento dei record collegati aggiorna automaticamente i campi dei record collegati per i record da cui si sta effettuando il collegamento. <!--ensure the number of the step stays accurate-->
-   * I campi collegati che appartengono ai record collegati vengono compilati automaticamente con le informazioni dei record collegati originali. Non è possibile modificare manualmente i campi collegati.
+   * I record collegati vengono visualizzati nel campo record collegato del record selezionato al passaggio 5. <!--accurate?--> L&#39;aggiornamento dei record collegati aggiorna automaticamente i campi collegati per i record da cui si sta effettuando il collegamento. Non è possibile modificare manualmente i campi collegati.
 
      >[!TIP]
      >
      >* Utilizziamo &quot;campi collegati&quot; e &quot;campi di ricerca&quot; in modo intercambiabile.
      >
-     >* Se è stata abilitata l&#39;impostazione Consenti più record quando si sono connessi i tipi di record, i valori dei campi per i più oggetti selezionati vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
+     >* Se hai attivato **Consenti più record** impostazione quando si collegano i tipi di record, i valori dei campi per i più oggetti selezionati vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
 
 1. (Facoltativo) Chiudi la pagina Tipo di record Maestro e passa all’area di lavoro selezionata.
 1. Fare clic sulla scheda del tipo di record a cui si è collegati.
 
-   Ad esempio, se hai collegato il record Campagna al record Prodotto, fai clic sul pulsante **Prodotto** Card.
+   Ad esempio, se hai connesso **Campagna** con il record Prodotto, fare clic sul pulsante **Prodotto** Card.
 
-   La scheda del tipo di record deve aprirsi nella vista Tabella.
+   La scheda del tipo di record deve aprirsi nella vista Tabella. In caso contrario, selezionare una vista tabella.
 
-   Il campo Record collegato Campagna visualizza i nomi delle campagne collegate ai prodotti nella pagina Tipo di record prodotto. L’aggiornamento delle informazioni della campagna aggiorna automaticamente il campo del record collegato della campagna per il tipo di record Prodotto.
+   Tieni presente che **Campagna** nel campo record collegato vengono visualizzati i nomi delle campagne collegate ai prodotti nella pagina Tipo di record prodotto. L’aggiornamento delle informazioni della campagna aggiorna automaticamente il campo del record collegato della campagna per il tipo di record Prodotto.
 
 ### Collegare i record Maestro agli oggetti Workfront
 
@@ -282,7 +286,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
    Sono aggiunti i seguenti elementi:
 
    * Gli oggetti Workfront selezionati vengono aggiunti al campo record collegato.
-   * Per ogni campo collegato selezionato durante l&#39;aggiunta dei campi al record collegato viene creato un nuovo campo collegato o un campo di ricerca.
+   * Se li hai aggiunti quando hai connesso il tipo di record con Workfront, nei campi collegati (o nei campi di ricerca) vengono automaticamente inserite le informazioni provenienti da Workfront.
    * Un nuovo tipo di record denominato &quot;&lt; Nome del tipo di oggetto Workfront >&quot; viene creato nello stesso workspace del record Maestro da cui si sta effettuando il collegamento. Il nome dell&#39;oggetto fa parte del nome di questo tipo di record. Ad esempio, il collegamento a progetti Workfront crea il **Progetto** tipo di record in Maestro.
 
      Si tratta di un tipo di record di sola lettura e visualizza gli oggetti Workfront selezionati nel nuovo campo oggetto collegato creato dal record Maestro. I campi collegati dell&#39;oggetto collegato vengono visualizzati anche nei record Workfront collegati di sola lettura.
@@ -302,13 +306,9 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 
 1. (Facoltativo) Chiudi la pagina Tipo di record Maestro e passa all’area di lavoro selezionata.
-1. Fare clic sulla scheda del tipo di record oggetto Workfront. Ad esempio, fai clic su **progetto Workfront** se hai collegato a progetti Workfront. La scheda del tipo di record Workfront di sola lettura deve aprirsi nella visualizzazione Tabella.
+1. (Facoltativo) Fare clic sulla scheda del tipo di record oggetto di Workfront. Ad esempio, fai clic su **Progetto** se hai collegato a progetti Workfront. La scheda del tipo di record Workfront di sola lettura deve aprirsi nella vista tabella.
 
-   >[!NOTE]
-   >
-   >    * I record elencati nella pagina Tipo di record di Workfront sono oggetti Workfront di sola lettura. Anche i campi collegati dal tipo di record Workfront vengono visualizzati come colonne di sola lettura e vengono compilati automaticamente quando vengono inseriti in Workfront.
-   >    * Non è possibile aggiornare manualmente i campi Workfront in Maestro. I campi oggetto Workfront devono essere compilati in Workfront e i valori dei campi vengono visualizzati automaticamente sul record Workfront in Maestro.
-   >
+   I record elencati nella pagina Tipo di record di Workfront sono oggetti Workfront di sola lettura collegati dai record Maestro. Anche i campi collegati dal tipo di record Workfront vengono visualizzati come colonne di sola lettura e vengono compilati automaticamente quando vengono inseriti in Workfront.
 
 1. (Facoltativo) Per aprire la pagina Dettagli record oggetto Workfront in Maestro, effettuare una delle seguenti operazioni:
 
@@ -325,7 +325,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 1. (Facoltativo) Per aprire l&#39;oggetto Workfront collegato in Workfront, effettuare una delle seguenti operazioni:
 
-   * Dalla sezione **Tabella** nella visualizzazione della pagina tipo di record di Workfront, fare clic sul nome dell&#39;oggetto Workfront,
+   * Dalla sezione **Tabella** visualizzazione della pagina del tipo di record Workfront, fare clic sul nome dell&#39;oggetto Workfront per aprire il record Progetto in Maestro
 
    Oppure
 
@@ -335,7 +335,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Verrà aperta la pagina degli oggetti di Workfront. Se si dispone delle autorizzazioni necessarie, è possibile modificare le informazioni sull&#39;oggetto Workfront.
 
-1. (Facoltativo) Fai clic su **Aggiungi campi** icona ![](assets/add-fields-icon.png) nell&#39;angolo superiore destro della visualizzazione tabella della pagina tipo di record di Workfront per aggiungere o rimuovere campi di Workfront dal tipo di record di Workfront.
+1. (Facoltativo) Dalla pagina di sola lettura dei record di oggetti di Workfront in Maestro, fai clic sul pulsante **Aggiungi campi** icona ![](assets/add-fields-icon.png) nell&#39;angolo superiore destro della visualizzazione tabella, per aggiungere o rimuovere campi Workfront dal tipo di record Workfront.
 
    >[!NOTE]
    >
@@ -349,6 +349,12 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 ### Collegare i record Maestro agli oggetti Adobe Experience Manager
 
 <!--when we will have more applications to link to from Maestro, change the title to soemthing like: Connect Maestro records to objects from other applications-->
+
+>[!IMPORTANT]
+>
+>Devi disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console per poter collegare i record Maestro ad Adobe Experience Manager Assets.
+>
+>In caso di domande sull’onboarding per Adobe Admin Console, consulta [Domande frequenti sull’esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Dopo aver creato una connessione tra un tipo di record Maestro e Adobe Experience Manager Assets, puoi collegare singoli record Maestro ad Experienci Manager di risorse. I campi della risorsa connessi da Experience Manager Assets al momento della creazione della connessione vengono automaticamente popolati sul tipo di record Maestro da cui è stato effettuato il collegamento.
 
@@ -372,24 +378,23 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 1. Fai clic su per selezionare alcuni dei seguenti tipi di risorse:
 
    * Immagini
-   * Raccolte
    * Cartelle
 
    Puoi selezionare più risorse.
 
    >[!IMPORTANT]
    >
-   > Puoi collegare solo le risorse a cui hai accesso per visualizzare in Experience Manager.
+   > Puoi collegare solo le risorse a cui hai accesso per visualizzare in Experience Manager. Una volta connessi, tutti gli utenti Maestro possono visualizzare le risorse in Maestro, indipendentemente dal loro accesso in Experience Manager Assets.
 
 1. Clic **Seleziona**.
 
    Sono aggiunti i seguenti elementi:
 
    * Le risorse Experienci Manager selezionate vengono aggiunte al campo record collegato.
-   * Per ogni campo collegato selezionato durante l&#39;aggiunta dei campi al record collegato viene creato un nuovo campo collegato o un campo di ricerca.
-   * Un nuovo tipo di record denominato &quot;Experience Manager Assets&quot; viene creato nello stesso spazio di lavoro del record Maestro da cui si sta effettuando il collegamento.
+   * I campi collegati (o campi di ricerca) si compilano con le informazioni provenienti dall’Experience Manager risorse collegate.
+   * Un nuovo tipo di record denominato &quot;Experience Manager Assets&quot; viene creato nello stesso spazio di lavoro del record Maestro da cui si sta effettuando il collegamento. <!--is this still added?-->
 
-     Si tratta di un tipo di record di sola lettura e visualizza gli oggetti Experienci Manager selezionati nel nuovo campo oggetto collegato creato dal record Maestro. I campi collegati dell&#39;oggetto collegato vengono visualizzati anche nei record di Experience Manager collegati di sola lettura.
+     Si tratta di un tipo di record di sola lettura e visualizza le risorse Experienci Manager selezionate nel nuovo campo oggetto collegato creato dal record Maestro. I campi collegati dell&#39;oggetto collegato vengono visualizzati anche nei record di Experience Manager collegati di sola lettura.
 
      >[!IMPORTANT]
      >
@@ -408,11 +413,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 1. (Facoltativo) Chiudi la pagina Tipo di record Maestro e passa all’area di lavoro selezionata.
 1. Fare clic sulla scheda del tipo di record Experience Manager Assets. La scheda del tipo di record Experience Manager Assets di sola lettura deve aprirsi nella visualizzazione Tabella.
 
-   >[!NOTE]
-   >
-   >    * I record elencati nella pagina Tipo di record di Experience Manager Assets sono risorse di sola lettura. Anche i campi collegati dal tipo di record Experience Manager Assets vengono visualizzati come colonne di sola lettura e vengono compilati automaticamente quando vengono compilati in Experience Manager.
-   >    * Non è possibile aggiornare manualmente i campi Experience Manager in Maestro. I campi delle risorse di Experience Manager devono essere compilati in Experience Manager e i valori dei campi vengono visualizzati automaticamente sul record Experience Manager Assets in Maestro.
-   >
+   I record elencati nella pagina Tipo di record di Experience Manager Assets sono risorse di sola lettura. Anche i campi collegati dal tipo di record Experience Manager Assets vengono visualizzati come colonne di sola lettura e vengono compilati automaticamente quando vengono compilati in Experience Manager.
 
 1. (Facoltativo) Vai al tipo di record da cui hai collegato Experience Manager Assets e fai clic sul nome di una risorsa nel campo del record collegato. I dettagli di Experience Manager della risorsa vengono visualizzati in una finestra a comparsa. <!--update screen shot with hi-rez picture-->
 

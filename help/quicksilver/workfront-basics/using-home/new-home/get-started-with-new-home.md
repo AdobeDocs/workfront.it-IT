@@ -6,7 +6,7 @@ description: La nuova Home è una nuova potente funzione per la gestione del tuo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 8%
@@ -14,6 +14,8 @@ ht-degree: 8%
 ---
 
 # Introduzione alla nuova Home
+
+<!--Audited: 12/2023-->
 
 La nuova esperienza Home in Adobe Workfront mira a migliorare l’esperienza Home corrente e al contempo a fornire un modo più flessibile per concentrarti sul lavoro giusto.
 

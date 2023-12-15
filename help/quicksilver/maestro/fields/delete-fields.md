@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,9 @@ Puoi eliminare i campi Maestro che non sono più rilevanti.
 
 ## Considerazioni sull’eliminazione dei campi Maestro:
 
+* È possibile eliminare un campo solo nella vista tabella del tipo di record.
 * Puoi eliminare i campi creati o quelli creati da altri utenti o dal sistema. <!--this will change with access levels/ permissions-->
-* Impossibile eliminare il campo Nome di un record. <!--change this to say you can't delete the field selected to be the primary-->
-* È possibile eliminare un campo solo nella tabella del tipo di record.
+* Impossibile eliminare il campo principale di un record.
 * Tutte le informazioni memorizzate nel campo vengono eliminate e non possono essere recuperate.
 * Quando si elimina un campo record collegato, vengono eliminati anche tutti i campi di ricerca collegati dal tipo di record da cui si esegue il collegamento. I campi record collegati dei tipi di record a cui si effettua il collegamento non vengono eliminati.
 

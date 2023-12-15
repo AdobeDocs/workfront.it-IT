@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2629'
+source-wordcount: '2698'
 ht-degree: 0%
 
 ---
@@ -98,25 +98,34 @@ Con questo miglioramento, tieni presente quanto segue:
 Per ulteriori informazioni, consulta [Gestisci vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
 
-### Collegare i record Maestro con le risorse Adobe Experience Manager (AEM)
+### Collegare i record Maestro con Adobe Experience Manager Assets
 
 Versione di anteprima: 14 dicembre 2023
 
 Versione di produzione: 15 dicembre 2023
 
-Ora puoi stabilire una connessione tra i tipi di record Maestro e le risorse Adobe Experience Manager.
+>[!IMPORTANT]
+>
+>Per poter collegare i record Maestro ad Adobe Experience Manager Assets, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.
+>
+>In caso di domande sull’onboarding per Adobe Admin Console, consulta [Domande frequenti sull’esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+Ora puoi stabilire una connessione tra i tipi di record Maestro e Adobe Experience Manager Assets.
 
 Dopo aver stabilito la connessione, con questo aggiornamento sono disponibili le seguenti funzionalità:
 
-* Gli utenti Maestro possono collegare risorse, cartelle o raccolte AEM a un record Maestro da un archivio specifico in AEM a cui hanno accesso
+* Puoi collegare risorse e cartelle Experience Manager a un record Maestro da un archivio specifico in Experience Manager Assets a cui hanno accesso. In questo processo è possibile collegare i campi delle risorse ai campi Maestro.
 
-* Gli utenti Maestro possono visualizzare tutte le risorse collegate in Maestro dopo essere stati collegati ai record.
+* Gli utenti Maestro possono visualizzare il nome delle risorse collegate, nonché i valori dei campi connessi in Maestro
 
-* Un tipo di record Experience Manager Assets viene creato automaticamente in Maestro dopo aver stabilito la connessione. Le risorse collegate sono visibili nella tabella Maestro e nelle visualizzazioni della timeline di questo nuovo tipo di record.
+<!--removed per PM, for now: 
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
 
-* Puoi visualizzare le informazioni sulle risorse AEM nella tabella dei record Maestro da cui ti stai connettendo.
+* Puoi fare clic sul nome della risorsa nella vista a tabella del record Maestro dal campo del record collegato e visualizzare una finestra a comparsa con la miniatura della risorsa e diversi campi chiave. Dalla finestra pop-up, puoi passare al visualizzatore di risorse in Experience Manager e visualizzare tutti i dettagli relativi.
 
-Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/maestro/architecture/connect-record-types.md)
+Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Settimana del 4 dicembre 2023
 

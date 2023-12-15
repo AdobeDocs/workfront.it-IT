@@ -4,9 +4,10 @@ description: In Adobe Maestro puoi aggiungere nuovi campi che riflettono il cicl
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d1d3d82e15f4232ff81294d9094c2683b01ca89
+exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '541'
 ht-degree: 2%
 
 ---
@@ -57,7 +58,7 @@ In Adobe Maestro puoi aggiungere nuovi campi che riflettono il ciclo di vita del
 
    * Manualmente:
 
-      * Aggiungendo colonne nella visualizzazione Tabella di una pagina di tipo record. Le colonne della tabella sono i campi associati al tipo di record. Sono gli stessi campi visualizzati nella pagina Dettagli di un record.
+      * Aggiungendo colonne nella visualizzazione tabella di una pagina di tipo record. Le colonne della tabella sono i campi associati al tipo di record. Sono gli stessi campi visualizzati nella pagina Dettagli di un record.
 
         Impossibile creare campi dalla pagina Dettagli di un record.
 

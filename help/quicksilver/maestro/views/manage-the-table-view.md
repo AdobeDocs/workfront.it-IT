@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2307'
 ht-degree: 3%
 
 ---
@@ -140,13 +140,13 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
      >[!TIP]
      >
-     >* Il campo Nome è sempre il primo campo della visualizzazione tabella.
+     >* Per impostazione predefinita, il campo Nome è sempre il primo campo della visualizzazione tabella. Questo è considerato un campo primario.
      >
-     >* Impossibile spostare il campo Nome in un&#39;altra posizione.
+     >* Non è possibile spostare il campo Nome in un&#39;altra posizione, a meno che non si indichi un altro campo come campo principale. Per ulteriori informazioni, continuare con il passaggio 4. <!--accurate?-->
      >
-     >* Non è possibile nascondere il campo Nome.
+     >* Non è possibile nascondere o eliminare un campo principale.
      >
-     >* Il campo Nome è bloccato e non fa parte dello scorrimento orizzontale.
+     >* Il campo principale è bloccato e non fa parte dello scorrimento orizzontale.
 
    * Sostituire il campo nella prima colonna con un altro campo modificando il campo principale. Per ulteriori informazioni, passare al passaggio 4. <!--accurate?-->
 
@@ -197,11 +197,13 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
 1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
 
-   1. Fai clic su **ricerca** icona ![](assets/search-icon.png) e iniziare a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Il numero di corrispondenze corrette viene visualizzato accanto all’elemento di ricerca e il campo con la corrispondenza corretta viene evidenziato in blu.
+   1. Fai clic su **ricerca** icona ![](assets/search-icon.png) e iniziare a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Accanto all’elemento da cercare viene visualizzato il numero di corrispondenze corrette e viene evidenziato il campo con la corrispondenza corretta.
 
       È possibile utilizzare qualsiasi parola o carattere speciale visibile sullo schermo.
 
       Non è possibile utilizzare parole chiave associate a campi nascosti nella visualizzazione Tabella.
+
+      Premendo Invio sulla tastiera si passa al successivo campo trovato.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 

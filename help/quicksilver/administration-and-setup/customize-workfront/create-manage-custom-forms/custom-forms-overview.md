@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 7%
@@ -16,6 +16,8 @@ ht-degree: 7%
 ---
 
 # Panoramica dei moduli personalizzati
+
+<!--Audited: 12/2023-->
 
 Puoi creare un modulo personalizzato che gli utenti possono allegare a un oggetto Adobe Workfront. Gli utenti che lavorano sull’oggetto possono compilare il modulo personalizzato per fornire informazioni sull’oggetto.
 

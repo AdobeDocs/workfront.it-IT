@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
-source-wordcount: '3160'
-ht-degree: 2%
+source-wordcount: '3158'
+ht-degree: 1%
 
 ---
 
@@ -170,9 +170,9 @@ After permssions - replace the table with:
 
 <!--in a table (not sure if this can be done elsewhere?!-->
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
+Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un&#39;area di lavoro esistente e selezionare l&#39;area di lavoro per la quale si desidera creare i tipi di record, quindi fare clic sul tipo di record.
 
@@ -220,7 +220,7 @@ I campi di testo a riga singola acquisiscono informazioni alfanumeriche limitate
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sull&#39;intestazione di colonna del campo in una tabella.
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo a riga singola viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
@@ -243,7 +243,7 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo paragrafo viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
@@ -266,7 +266,7 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
    **Ordina le scelte dalla A alla Z** opzione se si desidera che le scelte vengano elencate automaticamente in ordine alfabetico. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Fai clic su **x** a destra di una scelta per rimuoverlo.
 1. Fate clic sul campione di colore a sinistra di una scelta per espandere il selettore di colore e personalizzare il colore di ciascuna opzione.
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo a selezione multipla viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
@@ -288,7 +288,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 1. (Facoltativo) Trascina e rilascia manualmente ciascuna scelta nell’ordine desiderato, oppure seleziona la **Ordina le scelte dalla A alla Z** opzione se si desidera che le scelte vengano elencate automaticamente in ordine alfabetico. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. Fai clic su **x** a destra di una scelta per rimuoverlo.
 1. Fate clic sul campione di colore a sinistra di una scelta per espandere il selettore di colore e personalizzare il colore di ciascuna opzione.
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo a selezione singola viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
@@ -319,7 +319,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
       * **24 ore**: ad esempio: 18:00
       * **12 ore**: ad esempio: 18:00
 
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo data viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
@@ -341,7 +341,7 @@ I tipi di campo numerico acquisiscono informazioni in formato numerico.
    >
    >    Se si seleziona Consenti numeri negativi e i valori negativi vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro.
 
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo numerico viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
@@ -363,7 +363,7 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
    >
    >    Se si seleziona Consenti numeri negativi e i valori negativi vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro.
 
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo percentuale viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
@@ -386,7 +386,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
    >
    >    Se si seleziona Consenti numeri negativi e i valori negativi vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro.
 
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo valuta viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
@@ -401,7 +401,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo casella di controllo viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
@@ -422,7 +422,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
    >
    >    Se si seleziona Consenti più valori e più utenti vengono memorizzati nei record a cui è associato il campo, non sarà più possibile deselezionare l&#39;impostazione in futuro durante la modifica del campo.
 
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo Persone viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
@@ -439,7 +439,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--this might change and they might prepopulate it with "Created by"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
 
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo Creato per tipo viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con il nome dell’utente che ha creato ciascun record.
 
@@ -472,7 +472,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
       * **24 ore**: ad esempio: 18:00
       * **12 ore**: ad esempio: 18:00
 
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo Data creazione viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con la data (o la data e l’ora) di creazione del record.
 
@@ -490,7 +490,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--this might change and they might prepopulate it with "Created by"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
 
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo Ultima modifica per tipo viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con il nome dell’ultimo utente che ha modificato ogni record.
 
@@ -523,7 +523,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
       * **24 ore**: ad esempio: 18:00
       * **12 ore**: ad esempio: 18:00
 
-1. Fai clic su **Crea**.
+1. Clic **Crea**.
 
    Il nuovo campo Ultima modifica del tipo di data viene aggiunto come colonna al tipo di record e i relativi valori vengono precompilati con la data (o data e ora) dell’ultima modifica apportata al record.
 
