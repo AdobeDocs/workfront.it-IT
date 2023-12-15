@@ -5,30 +5,32 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Il [!DNL Adobe Workfront] Anteprima ambiente sandbox
 description: L’ambiente Sandbox di anteprima è un ambiente di test che funge da replica dell’ambiente live. Viene aggiornato ogni fine settimana da Workfront. I dati aggiunti all’ambiente live il venerdì vengono visualizzati nella Sandbox di anteprima entro il lunedì successivo. Tutti i pacchetti di supporto hanno accesso a questa sandbox.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
 
 # Il [!DNL Adobe Workfront] Anteprima ambiente sandbox
 
+<!-- Audited: 12/2023 -->
+
 Esistono due ambienti di test per [!DNL Workfront] che sono repliche del tuo [!DNL Workfront] ambiente di produzione:
 
 * Sandbox di anteprima
 
-   L’anteprima sandbox è un ambiente di test che funge da replica dell’ambiente live e viene aggiornato ogni fine settimana da [!DNL Workfront]. I dati aggiunti all’ambiente live il venerdì vengono visualizzati nella Sandbox di anteprima entro il lunedì successivo.
+  L’anteprima sandbox è un ambiente di test che funge da replica dell’ambiente live e viene aggiornato ogni fine settimana da [!DNL Workfront]. I dati aggiunti all’ambiente live il venerdì vengono visualizzati nella Sandbox di anteprima entro il lunedì successivo.
 
-   Tutti i pacchetti di supporto hanno accesso alla Sandbox di anteprima.
+  Tutti i pacchetti di supporto hanno accesso alla Sandbox di anteprima.
 
 * Sandbox di aggiornamento personalizzata
 
-   La sandbox di aggiornamento personalizzata è un ambiente di test separato che viene aggiornato manualmente dall’utente. Per ottenere la Sandbox di aggiornamento personalizzata è necessario un costo aggiuntivo. Per ulteriori informazioni su questo ambiente, consulta [Il [!DNL Adobe Workfront] Ambiente sandbox di aggiornamento personalizzato](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  La sandbox di aggiornamento personalizzata è un ambiente di test separato che viene aggiornato manualmente dall’utente. Per ottenere la Sandbox di aggiornamento personalizzata è necessario un costo aggiuntivo. Per ulteriori informazioni su questo ambiente, consulta [Il [!DNL Adobe Workfront] Ambiente sandbox di aggiornamento personalizzato](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,8 +81,6 @@ L’ambiente di anteprima è ideale per l’esecuzione di corsi di formazione, i
 
 Per impostazione predefinita, come [!DNL Workfront] amministratore, puoi accedere al [!UICONTROL Anteprima] Ambiente sandbox. Se non riesci ad accedere al [!UICONTROL Anteprima] Come descritto in questa sezione, contatta il tuo [!DNL Workfront] o il nostro team di assistenza clienti.
 
-* [Accesso alla sandbox di anteprima da [!DNL Workfront] Interfaccia](#accessing-the-preview-sandbox-from-the-workfront-interface)
-* [Accesso alla sandbox di anteprima tramite un URL](#accessing-the-preview-sandbox-using-a-url)
 
 ### Accesso alla sandbox di anteprima da [!DNL Workfront] Interfaccia {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
@@ -100,8 +100,7 @@ Per accedere alla sandbox di anteprima:
 
 ### Accesso alla sandbox di anteprima tramite un URL {#accessing-the-preview-sandbox-using-a-url}
 
-* [Accesso alla sandbox di anteprima per gli account nei cluster 1, 2, 3 e 5](#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5)
-* [Accesso alla sandbox di anteprima per gli account sul cluster 4 (account EMEA)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts)
+Puoi accedere alla sandbox di anteprima utilizzando un URL.
 
 #### Accesso alla sandbox di anteprima per gli account nei cluster 1, 2, 3 e 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
@@ -115,11 +114,14 @@ Per accedere alla sandbox di anteprima utilizzando un URL:
 
 1. Passa a questo URL: `https://companyname.preview.workfront.com/`.
 
-   Se sei un cliente EMEA e il tuo account si trova nel cluster 4, consulta la sezione [Accesso alla sandbox di anteprima per gli account sul cluster 4 (account EMEA)](#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts) in questo articolo.
+   Se sei un cliente EMEA e il tuo account si trova nel cluster 4, consulta la sezione Accesso alla sandbox di anteprima per gli account nel cluster 4 (account EMEA) di seguito.
 
 1. Accedi utilizzando le credenziali di anteprima.
 
-   Le credenziali di anteprima devono essere uguali alle credenziali di produzione, a meno che non siano state modificate in Produzione dopo l’aggiornamento dell’anteprima. Gli accessi vengono sincronizzati solo quando si verifica un aggiornamento. Non vengono sincronizzati automaticamente.
+   >[!TIP]
+   >
+   >Le credenziali di anteprima devono essere uguali alle credenziali di produzione, a meno che non siano state modificate in Produzione dopo l’aggiornamento dell’anteprima. Gli accessi vengono sincronizzati solo quando si verifica un aggiornamento. Non vengono sincronizzati automaticamente.
+
 
 #### Accesso alla sandbox di anteprima per gli account sul cluster 4 (account EMEA) {#accessing-the-preview-sandbox-for-accounts-on-cluster-4-emea-accounts}
 
@@ -165,7 +167,7 @@ Quando la Sandbox di anteprima viene aggiornata (ogni fine settimana), le inform
 
 I passaggi per configurare il single sign-on nella Sandbox di anteprima sono simili a quelli per la configurazione nell’ambiente di produzione.
 
-Per ulteriori informazioni sulla configurazione di [!DNL Workfront] con SSO, vedi [Panoramica del single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Per ulteriori informazioni sulla configurazione [!DNL Workfront] con SSO, vedi [Panoramica del single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Anteprima delle prestazioni e della disponibilità dell’ambiente
 

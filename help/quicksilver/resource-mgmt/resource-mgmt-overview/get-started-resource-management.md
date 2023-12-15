@@ -7,14 +7,16 @@ description: Gestione risorse consente di configurare il sistema per prevedere c
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Introduzione alla gestione delle risorse
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
@@ -34,7 +36,7 @@ Workfront dispone di diversi set di strumenti utilizzati per gestire le risorse.
 
    * **Pianificazione risorse**: è possibile utilizzare la Pianificazione risorse nella prima fase della gestione delle risorse per calcolare il tempo del progetto per le risorse in base alla disponibilità programmata. Durante la fase di pianificazione delle risorse, è possibile organizzare gli utenti in pool di risorse e assegnare più pool di risorse a un progetto.
 
-     Per ulteriori informazioni sulla pianificazione delle risorse, vedere la sezione [Pianificazione delle risorse in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     Per ulteriori informazioni sulla pianificazione delle risorse, vedere [Pianificazione delle risorse in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **Pianificazione scenario**: si tratta di una pianificazione di livello superiore delle risorse che consente di gestirle in più iniziative che possono estendersi su un piano di uno, tre o cinque anni e includere più progetti. È possibile utilizzare lo scenario migliore per sfruttare al massimo la disponibilità e il budget.
 
@@ -48,7 +50,7 @@ Workfront dispone di diversi set di strumenti utilizzati per gestire le risorse.
 
    * **Il Bilanciatore dei carichi di lavoro**: appartiene a una fase di livello inferiore della gestione delle risorse, in cui è possibile assegnare le risorse al lavoro effettivo (attività e problemi) che devono completare, in base alla quantità di ore necessarie per completarle e alla loro disponibilità. Utilizzando il Bilanciatore dei carichi di lavoro è possibile assegnare gli utenti al lavoro effettivo attualmente non assegnato o assegnato a mansioni.
 
-     Per informazioni sul Bilanciatore di Workfront, consulta la sezione [L’indice del Bilanciatore dei carichi di lavoro: articolo](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     Per informazioni sul Bilanciatore di Workfront, consulta [L’indice del Bilanciatore dei carichi di lavoro: articolo](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 <!--
 
@@ -165,9 +167,9 @@ Prima di poter utilizzare in modo efficiente gli strumenti di gestione delle ris
 
 Per informazioni sui requisiti di ogni strumento di gestione delle risorse in Workfront, vedere:
 
-* La sezione &quot;Prerequisiti per lavorare nella Programmazione delle risorse&quot; nell’articolo [Panoramica di Programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* La sezione [Prerequisiti per lavorare nella Programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) nell’articolo [Panoramica di Programmazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* La sezione &quot;Best practice per l’utilizzo del Bilanciatore dei carichi di lavoro&quot; nell’articolo [Panoramica del Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* La sezione [Best practice per l’utilizzo del Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) nell’articolo [Panoramica del Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Accesso necessario per preventivare le risorse in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Accesso necessario per gestire le risorse nel Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

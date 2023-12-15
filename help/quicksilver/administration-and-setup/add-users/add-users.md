@@ -3,23 +3,27 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
-title: Panoramica sull’aggiunta di utenti
+title: "Gestione utente: indice articolo"
 description: Puoi aggiungere utenti in Adobe Workfront creando singoli utenti da zero o copiando quelli esistenti.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 92b02c31-7e77-4b27-9b17-d7803df2ba2d
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
 workflow-type: tm+mt
-source-wordcount: '56'
-ht-degree: 3%
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
-# Aggiungi utenti
+# Gestione utente: indice articolo
 
-Questa sezione contiene le seguenti sottosezioni:
+<!-- Audited: 12/2023 -->
+
+Puoi creare e gestire gli utenti in Workfront.
+
+Questo indice contiene collegamenti alle seguenti sottosezioni sulla gestione degli utenti:
 
 * [Creare e gestire gli utenti](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
 * [Funzionamento dei nuovi livelli di accesso](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
