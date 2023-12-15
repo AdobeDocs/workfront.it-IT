@@ -2,20 +2,32 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Esporta dati
-description: Scopri come esportare i dati del rapporto
+description: Puoi esportare i dati di Adobe Workfront da vari elenchi, report, dashboard e ricerche.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 3980d24b4a9c34b85c475a124c2b83dae7aa55ff
+source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2206'
 ht-degree: 0%
 
 ---
 
 # Esporta dati
 
+<!-- Audited: 12/2023 -->
+
 Puoi esportare i dati di Adobe Workfront da vari elenchi, report, dashboard e ricerche.
+
+Alcuni dei motivi per cui esportare i dati sono:
+
+* Desideri fornire una copia cartacea dei tuoi dati a un utente esterno a Workfront.
+* Si desidera inviare i risultati di un report come allegato a un utente esterno.
+* Si desidera creare un backup esterno dei dati Workfront.
+* È previsto un limite per la visualizzazione di soli 2.000 risultati in una pagina all’interno dell’applicazione web Workfront. Se il report produce più di 2.000, è possibile esportare il report in uno qualsiasi dei formati disponibili e visualizzare tutti i risultati in un unico elenco.
+
+Puoi esportare un rapporto manualmente dall’interfaccia di Workfront, oppure pianificare la consegna di un rapporto che ti verrà inviato in un secondo momento. Per ulteriori informazioni sulla programmazione dei rapporti consegnati, consulta [Panoramica sulla consegna dei rapporti](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
 Le informazioni contenute nel presente articolo non si applicano alle seguenti esportazioni:
 
 * Esportazione di informazioni dai report grafico.
@@ -29,15 +41,6 @@ Le informazioni contenute nel presente articolo non si applicano alle seguenti e
 * Esportazione di informazioni dalla Programmazione risorse.
 
   Per ulteriori informazioni sull&#39;esportazione delle informazioni dalla Programmazione delle risorse, vedere &quot;Opzione di esportazione&quot; in [Panoramica sulla navigazione in Programmazione delle risorse](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
-
-Alcuni dei motivi per cui esportare i dati sono:
-
-* Desideri fornire una copia cartacea dei tuoi dati a un utente esterno a Workfront.
-* Si desidera inviare i risultati di un report come allegato a un utente esterno.
-* Si desidera creare un backup esterno dei dati Workfront.
-* È previsto un limite per la visualizzazione di soli 2.000 risultati in una pagina all’interno dell’applicazione web Workfront. Se il report produce più di 2.000, è possibile esportare il report in uno dei formati indicati di seguito e visualizzare tutti i risultati del report in un unico elenco.
-
-Puoi esportare un rapporto manualmente dall’interfaccia di Workfront, oppure pianificare la consegna di un rapporto che ti verrà inviato in un secondo momento. Per ulteriori informazioni sulla programmazione dei rapporti consegnati, consulta [Panoramica sulla consegna dei rapporti](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Requisiti di accesso
 
@@ -55,7 +58,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Revisione o successiva</p> </td> 
+   <td>
+    <p>Nuovo: Chiaro o superiore</p>
+    <p>oppure</p>
+    <p>Corrente: revisione o versione successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -63,21 +69,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare o concedere autorizzazioni superiori a un report o a un dashboard per esportare il report o il dashboard</p> <p>Visualizza o autorizzazioni superiori per gli oggetti visualizzati in un elenco per esportare l'elenco</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare o concedere autorizzazioni superiori a un report o a un dashboard per esportare il report o il dashboard</p> <p>Visualizza o autorizzazioni superiori per gli oggetti visualizzati in un elenco per esportare l'elenco</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Prerequisiti
 
 Per esportare i dati del report è necessario crearlo.
 
-Per ulteriori informazioni sulla creazione di rapporti, consulta [Creare un rapporto](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Per ulteriori informazioni sulla creazione di rapporti, consulta [Creare un rapporto personalizzato](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) o [Creare una copia di un rapporto](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Formati e limiti di esportazione
-
-* [Formati di esportazione](#export-formats)
-* [Limiti di esportazione](#export-limits)
 
 ### Formati di esportazione {#export-formats}
 
@@ -105,7 +110,7 @@ Esistono diverse limitazioni relative al modo in cui i rapporti vengono visualiz
 
    * Per i file .xls di Excel, questo limite è **65.000 righe**.
    * Per i file .xlsx di Excel, questo limite è **100.000 righe**.
-   * Questi limiti escludono le intestazioni di colonna e le righe per i raggruppamenti nel rapporto. Ad esempio, se in un rapporto sono presenti 6 raggruppamenti e 50.000 righe o dati, il file esportato avrà 50.000 righe.
+   * Questi limiti escludono le intestazioni di colonna e le righe per i raggruppamenti nel rapporto. Ad esempio, se in un rapporto sono presenti 6 raggruppamenti e 50.000 righe di dati, il file esportato avrà 50.000 righe.
 
   >[!IMPORTANT]
   >
@@ -129,11 +134,11 @@ Esistono diverse limitazioni relative al modo in cui i rapporti vengono visualiz
    * Un’esportazione tramite un’integrazione API.
    * Dati esportati tramite kick-start.
 
-     Per ulteriori informazioni sull&#39;esportazione dei dati tramite kick-start, consulta [Esportare dati da Adobe Workfront tramite Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)
+     Per ulteriori informazioni sull&#39;esportazione dei dati tramite kick-start, consulta [Esportare dati da Adobe Workfront tramite Kick-Start](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
-     >È possibile esportare 50.000 righe in un file di avvio, anche se è possibile esportare i dati solo in un file in formato Excel. 
+     >È possibile esportare 50.000 righe in un file di avvio, anche se è possibile esportare i dati solo in un file in formato Excel.
 
    * Esportazione delle informazioni sull&#39;utilizzo per un progetto.
 
@@ -151,9 +156,6 @@ In caso di dubbi o problemi relativi al limite, contattare il supporto tecnico W
 
 ## Esporta dati
 
-* [Esportare dati da un report o elenco](#export-data-from-a-report-or-list)
-* [Esportare dati da un dashboard](#export-data-from-a-dashboard)
-
 ### Esportare dati da un report o elenco {#export-data-from-a-report-or-list}
 
 1. Passare al report o all&#39;elenco da esportare.
@@ -167,14 +169,17 @@ In caso di dubbi o problemi relativi al limite, contattare il supporto tecnico W
 
 1. Clic **Esporta**, quindi selezionare un formato.
 
+   <!--
+   This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
    >[!NOTE]
    >
-   Per esportare un rapporto Dashboard, è necessario disporre di una licenza Pianificazione.\
-   ![](assets/nwe-dashboard-export-note-350x271.png)
+   >To export a Dashboard report, you must have a Plan license.  
+   >![](assets/nwe-dashboard-export-note-350x271.png)
+   -->
 
    Oppure
 
-   Fai clic su **Esporta** icona ![](assets/export-icon-nwe.png), quindi selezionare un formato.
+   Fai clic su **Esporta** icona ![Icona Esporta](assets/export-icon-nwe.png), quindi selezionare un formato.
 
    Le opzioni disponibili per l&#39;esportazione PDF dipendono dalle impostazioni internazionali specificate nelle impostazioni utente di Workfront:
 
@@ -212,9 +217,6 @@ Per ulteriori informazioni sull’esportazione di dati da un dashboard, consulta
 
 Indipendentemente dall&#39;esportazione di un elenco di oggetti o di un report, il file esportato avrà un nome e un titolo. È possibile trovare il file esportato nel computer facendo riferimento al nome del file. Il titolo del report fornirà agli utenti un’indicazione di ciò che il file esportato rappresenta quando lo condividi con loro.
 
-* [Nomi di file per elenchi esportati](#file-names-for-exported-lists)
-* [Nomi di file per i report esportati](#file-names-for-exported-reports)
-
 #### Nomi di file per elenchi esportati {#file-names-for-exported-lists}
 
 Quando si esporta un elenco di oggetti, il tipo di oggetto viene visualizzato nel file esportato nel nome e nel titolo dell&#39;elenco.
@@ -226,7 +228,7 @@ Quando si esporta un elenco di attività o problemi, il **Nome file** può esser
    * *Il_nome_progetto_Attività_esportate*(*nei formati PDF, Excel, Excel (.xlsx) o Tab)*
    * *The_project_name_Exported_Issues*(*nei formati PDF, Excel, Excel (.xlsx) o Tab)*
 
-* Quando si esportano gli elenchi di attività e problemi in un&#39;attività (sottoattività):
+* Quando si esportano elenchi di attività e problemi in un’attività (sottoattività):
 
    * **Nome_progetto_task_nome_task_esportato_task**(*nei formati PDF, Excel, Excel (.xlsx) o Tab)*
    * **Nome_progetto_nome_attività_Nome_Esportato_Problemi**(*nei formati PDF, Excel, Excel (.xlsx) o Tab)*
@@ -245,19 +247,16 @@ Quando si esporta un report, il nome file del report esportato è:
 
 ### Titoli {#titles}
 
-Quando si esporta un elenco di oggetti, solo il file nel formato PDF avrà un titolo. Se si esporta un elenco o un report in Excel, Excel (.xlsx) o in formati delimitati da tabulazioni, il file non ha un titolo.
-
-* [Titoli per elenchi esportati](#titles-for-exported-lists)
-* [Titoli per i rapporti esportati](#titles-for-exported-reports)
+Quando si esporta un elenco di oggetti, solo il file nel formato PDF avrà un titolo. Se si esporta un elenco o un report in formato Excel, Excel (.xlsx) o Tab Delimited, il file non ha un titolo.
 
 #### Titoli per elenchi esportati {#titles-for-exported-lists}
 
-Quando si esportano gli elenchi attività e problemi di un progetto in un file PDF, il titolo del documento esportato è uno dei seguenti:
+Quando si esportano gli elenchi di attività e problemi di un progetto in un file PDF, il titolo del documento esportato è uno dei seguenti:
 
 * *Nome progetto - Attività esportate*
 * *Nome progetto - Problemi esportati*
 
-Quando si esportano gli elenchi Attività e Problema di un&#39;attività in un file PDF, la sezione del documento esportato è una delle seguenti:
+Quando si esportano gli elenchi di attività e problemi di un&#39;attività in un file PDF, il riquadro del documento esportato è uno dei seguenti:
 
 * *Nome progetto - Nome attività - Attività esportate*
 * *Nome progetto - Nome attività - Problemi esportati*
@@ -272,9 +271,9 @@ Ad esempio, il titolo può essere:
 
 Un report esportato in un file PDF avrà un titolo.
 
-Se il report viene esportato in Excel, Excel (.xlsx) o in formati delimitati da tabulazioni, il report esportato non avrà un titolo. Il titolo del file esportato è il nome del report visualizzato nell&#39;applicazione Web Workfront.
+Se il report viene esportato in Excel, Excel (.xlsx) o Tab Delimited, il report esportato non avrà un titolo. Il titolo del file esportato è il nome del report visualizzato nell&#39;applicazione Web Workfront.
 
-Se il report ha una descrizione, verrà incluso nel file esportato.
+Se il report ha una descrizione, viene incluso nel file esportato.
 
 ### Marca temporale {#timestamps}
 
@@ -297,11 +296,11 @@ Quando si esporta un progetto in formato .pdf, tutte le sottoattività vengono v
 
 Quando un rapporto viene inviato o pianificato per una consegna, viene sempre visualizzata la scheda predefinita del rapporto, a meno che questo non abbia una visualizzazione speciale.
 
-Se il report ha una formattazione speciale nell’applicazione web, il report deve essere consegnato con la formattazione speciale quando le schede Dettagli e Matrice vengono consegnate solo per i file .pdf ed Excel.
+Se il report ha una formattazione speciale nell’applicazione web, il report deve essere consegnato con la formattazione speciale quando vengono distribuite le schede Dettagli e Matrice, solo per i file .pdf ed Excel.
 
 >[!NOTE]
 >
-Se i dati che si stanno esportando contengono colonne condivise ed esportate in un formato Excel o Tab Delimited, queste colonne vengono separate nel file esportato.
+>Se i dati che si stanno esportando contengono colonne condivise ed esportate in un formato Excel o Tab Delimited, queste colonne vengono separate nel file esportato.
 
 Per ulteriori informazioni su come personalizzare la formattazione di un report, vedere [Utilizzare la formattazione condizionale nelle visualizzazioni](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
@@ -311,18 +310,22 @@ I collegamenti possono puntare a qualsiasi oggetto in Workfront che supporta il 
 
 >[!TIP]
 >
-Se la riga `valueformat=HTML` viene visualizzato in modalità testo per una colonna di campi personalizzati e i valori dei collegamenti non vengono visualizzati in un file pdf esportato. è necessario immettere righe di codice aggiuntive nella colonna in modalità testo.
+>Se la riga `valueformat=HTML` viene visualizzato in modalità testo per una colonna di campi personalizzati e i valori dei collegamenti non vengono visualizzati in un file pdf esportato. è necessario immettere righe di codice aggiuntive nella colonna in modalità testo.
 >
-Ad esempio, se disponi di un campo personalizzato denominato Apri progetti Q1 contenente collegamenti, aggiungi il seguente codice:
+>Ad esempio, se disponi di un campo personalizzato denominato Apri progetti Q1 contenente collegamenti, aggiungi il seguente codice:
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+>`link.url=customDataLabelsAsString(Open Q1 Projects)`
+>`linkedname=direct`
 
 Quando si esegue l&#39;esportazione in un formato Excel, nel file esportato vengono inclusi solo i collegamenti agli oggetti all&#39;interno di Workfront e sono supportati solo nelle posizioni in cui è possibile selezionare l&#39;opzione per consentire i collegamenti nei documenti Excel esportati, ad esempio le consegne dei report.
 
 ## Branding {#branding}
+
+>[!IMPORTANT]
+>
+>Il branding si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding in Adobe Experience Cloud.
+>
+>Se la tua organizzazione è stata integrata in Adobe Experience Cloud, il branding non è disponibile.
 
 Se l’amministratore di Workfront ha aggiunto un branding personalizzato all’istanza Workfront per la barra di navigazione globale, i file .pdf esportati includono anche il logo personalizzato.
 
