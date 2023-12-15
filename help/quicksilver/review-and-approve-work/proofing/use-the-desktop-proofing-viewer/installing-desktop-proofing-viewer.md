@@ -6,14 +6,16 @@ description: Il Visualizzatore bozze desktop, progettato principalmente per la v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
 
 # Installare il Visualizzatore bozze desktop
+
+<!--Audited: 12/2023-->
 
 Il Visualizzatore bozze desktop, progettato principalmente per la verifica del contenuto interattivo, è un&#39;applicazione che deve essere installata nel computer locale.
 
@@ -34,11 +36,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tbody> 
   <tr> 
    <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Piano corrente: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
+   <td> <p>Nuovo: Qualsiasi</p> <p>oppure</p> <p>Corrente: Pro o superiore</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Qualsiasi</p> <p>Piano legacy: qualsiasi (per l’utente deve essere abilitata la verifica)</p> </td> 
+   <td> <p>Qualsiasi</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +67,7 @@ In caso contrario, puoi seguire i passaggi seguenti.
 
 >[!NOTE]
 >
->Se il Visualizzatore bozze desktop non viene avviato quando si apre una bozza interattiva, è probabile che l&#39;amministratore di Workfront o Workfront Proof debba configurare il Visualizzatore bozze desktop come visualizzatore predefinito per le bozze interattive, come descritto in [Impostazione utente per l’apertura di bozze non interattive nel visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+>Se il Visualizzatore bozze desktop non viene avviato quando si apre una bozza interattiva, è probabile che l&#39;amministratore di Workfront o Workfront Proof debba configurare il Visualizzatore bozze desktop come visualizzatore predefinito per le bozze interattive, come descritto in [Impostazione utente per l’apertura di bozze non interattive nel visualizzatore bozze desktop](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Installare il Visualizzatore bozze desktop in Windows
 

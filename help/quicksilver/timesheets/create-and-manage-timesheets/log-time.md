@@ -7,14 +7,16 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 3d9631f0108487b4cad312ed1a6be5ae313eee93
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3568'
 ht-degree: 0%
 
 ---
 
 # Registra ore
+
+<!--Audited: 12/2023-->
 
 <!--remove all preview and production references from this article with 23.3 release-->
 
@@ -72,10 +74,10 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Nuovo piano:<ul><li>Chiaro o superiore per registrare le ore generali in una scheda orario</li></p>
+   <td> <p>Nuovo:<ul><li>Chiaro o superiore per registrare le ore generali in una scheda orario</li></p>
    <li> Standard o superiore per registrare le ore su un progetto, attività o problema</li></ul></p>
    <p>oppure</p>
-   <p>Piano corrente:<ul><li>Revisione o successiva per registrare le ore generali in una scheda orario</li></p>
+   <p>Corrente:<ul><li>Revisione o successiva per registrare le ore generali in una scheda orario</li></p>
    <li> Lavoro o superiore per registrare le ore su un progetto, attività o problema</li></ul></p>
    </td> 
   </tr> 

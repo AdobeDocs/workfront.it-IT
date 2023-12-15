@@ -5,9 +5,9 @@ title: Configurare [!UICONTROL Experience Manager Assets as a Cloud Service] int
 description: Puoi collegare il tuo lavoro con il contenuto in [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 0f625e7d058c6d3ccbfd9dbb12175ad3e2797911
+source-git-commit: 2ae77811cc20a7580f95437debfe1eea5922185c
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Devi avere i seguenti:
 
 Prima di iniziare,
 
-* Devi avere [!DNL Workfront] e [!DNL Adobe Experience Manager Assets] associato a un ID organizzazione in [!DNL Adobe Admin Consol]e. Per ulteriori informazioni, vedere [Differenze di amministrazione basate sulla piattaforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* Devi avere [!DNL Workfront] e [!DNL Adobe Experience Manager Assets] associato a un ID organizzazione in [!DNL Adobe Admin Console]. Per ulteriori informazioni, consulta [Differenze di amministrazione basate sulla piattaforma ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## Impostare le informazioni sull’integrazione
@@ -242,7 +242,7 @@ I valori predefiniti del flusso di lavoro impostati nell’integrazione possono 
 Nell’integrazione di Adobe Experience Manager sono disponibili i seguenti flussi di lavoro:
 
 * [Creare cartelle collegate a Adobe Experience Manager](#create-adobe-experience-manager-linked-folders)
-* [Pubblicare risorse inviate a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+* [Pubblicare le risorse inviate ad Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Creare cartelle collegate a Adobe Experience Manager
 
@@ -250,9 +250,9 @@ Nell’integrazione di Adobe Experience Manager sono disponibili i seguenti flus
 1. Scegli un percorso di cartella per indicare dove desideri che tutte le cartelle collegate siano associate a questa integrazione.
    ![Navigazione cartelle collegate](assets/select-folder-aem-integration.png)
 1. Abilita **[!UICONTROL Aggiungi nomi Portfolio e programma]** per includere automaticamente i nomi di Portfolio e di programma alla fine del nome della cartella collegata.
-1. Clic **[!UICONTROL Salva]** o passare al [Pubblicare risorse inviate a Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in questo articolo.
+1. Clic **[!UICONTROL Salva]** o passare al [Pubblicare le risorse inviate ad Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in questo articolo.
 
-### Pubblicare risorse inviate a Adobe Experience Manager Assets
+### Pubblicare le risorse inviate ad Adobe Experience Manager Assets
 
 1. Attiva **[!UICONTROL Pubblicare automaticamente le risorse]**.
 1. Seleziona la casella accanto al percorso in cui desideri pubblicare le risorse inviate alle risorse Adobe Experience Manager. Puoi abilitare una o entrambe le opzioni.

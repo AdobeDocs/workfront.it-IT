@@ -6,7 +6,7 @@ description: "Le informazioni visualizzate in [!DNL Adobe Workfront] è rapprese
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 0d167d78477b746d35209b315f0a7903b7269d1b
+source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '2306'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # [!DNL Adobe Workfront] panoramica degli oggetti
+
+<!--Audited: 12/2023-->
 
 <!--
 <***Linked to several articles, do not remove/ change. 

@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: fbfc8c5b905479c39687754f9c5c34f77f8225d7
+source-git-commit: 70a2ab0400a50c807aae301116902c5cefb3358b
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 In qualità di amministratore di Adobe Workfront, puoi assegnare un livello di accesso a un utente per due scopi:
 
 * Per accedere e lavorare in Workfront, ogni utente deve disporre di un livello di accesso.
-* Il livello di accesso consente di controllare cosa un utente può vedere e cosa può fare con determinati oggetti e aree di Workfront.
+* I livelli di accesso controllano ciò che un utente può vedere e fare con determinati oggetti e aree di Workfront.
 
 Ciascuno dei sei livelli di accesso incorporati è collegato a una delle cinque licenze Workfront: Pianificazione, Lavoro, Revisione, Richiesta ed Esterna.
 
@@ -32,7 +32,7 @@ External è una licenza non pagata progettata principalmente per la condivisione
 
 ![](assets/access-levels-and-licenses-old.png)
 
-Per informazioni su argomenti correlati, vedere i seguenti articoli:
+Per informazioni sugli argomenti relativi ai livelli di accesso, vedere i seguenti articoli:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,6 +55,10 @@ Per informazioni su argomenti correlati, vedere i seguenti articoli:
   <tr> 
    <td><strong>Assegnazione dei livelli di accesso</strong></td> 
    <td> <p>Per istruzioni su come assegnare un livello di accesso a un utente, consulta <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modificare il profilo di un utente</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Livelli di accesso Standard, Light, Collaboratore</td> 
+   <td> <p>Se questi livelli di accesso vengono visualizzati nell'ambiente anziché in Pianifica, Lavoro, Esamina o Richiedi, l'organizzazione utilizza il nuovo modello del livello di accesso. Per informazioni sul nuovo modello, consulta <a href="../../../administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Panoramica dei nuovi livelli di accesso</a>.</p> </td> 
   </tr> 
   <!--
   <tr> 
