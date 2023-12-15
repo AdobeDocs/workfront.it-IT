@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: b090983de417cf6a4dd36c9398da7dcc0296766a
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 0%
@@ -53,7 +53,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td>Nuovo: Standard <p>Oppure</p><p>Valuta: piano</p></td> 
+   <td>Nuovo: Standard <p>Oppure</p><p>Corrente: Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
