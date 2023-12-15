@@ -6,7 +6,7 @@ description: I filtri nell’area Analisi avanzata di Adobe Workfront consentono
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Applicare i filtri nelle analisi avanzate
+
+<!-- Audited: 12/2023 -->
 
 I filtri nell’area Analisi avanzata di Adobe Workfront consentono di concentrarsi su progetti specifici o su tipi specifici di dati. I tipi di filtri utilizzati possono fornire informazioni approfondite su:
 

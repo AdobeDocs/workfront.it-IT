@@ -7,9 +7,9 @@ description: Il menu principale cambia con il livello di accesso che ti è stato
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Le seguenti aree sono incluse nel layout predefinito di un [!UICONTROL Lavorator
 
 * **[!UICONTROL Home]**: le attività e i problemi assegnati vengono visualizzati qui. Questa è la pagina di destinazione predefinita per un lavoratore, tuttavia non viene visualizzata in [!UICONTROL Menu principale] a meno che non venga aggiunto da un amministratore di Workfront nel modello di layout.  Per informazioni, consulta [Introduzione a [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL Progetti]**: i progetti condivisi con te vengono visualizzati qui. Per informazioni, consulta [Progetti](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL Progetti]**: i progetti condivisi con te vengono visualizzati qui. Per informazioni, consulta [Progetti: indice articolo](../../../manage-work/projects/projects-overview.md).
 
 * **[!UICONTROL Rapporti]**: i rapporti condivisi con te vengono visualizzati qui. Per informazioni, consulta [Rapporti](../../../reports-and-dashboards/reports/reports-overview.md).
 

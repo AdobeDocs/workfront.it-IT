@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: Aggiornare il lavoro su un progetto
+title: "Aggiornare il lavoro su un progetto: indice articolo"
 description: Per aggiornare lo stato e l'avanzamento di un progetto è necessario aggiornare lo stato e l'avanzamento delle relative attività. Questo alla fine si riassume per mostrare lo stato di avanzamento del progetto.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-# Aggiornare il lavoro su un progetto
+# Aggiornare il lavoro su un progetto: indice articolo
 
 Per aggiornare lo stato e l&#39;avanzamento di un progetto è necessario aggiornare lo stato e l&#39;avanzamento delle relative attività. Questo alla fine si riassume per mostrare lo stato di avanzamento del progetto.
 

@@ -7,9 +7,9 @@ description: Il [!UICONTROL Ottimizzatore Portfolio] è lo strumento utilizzato 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,9 @@ Scopo della [!UICONTROL ottimizzatore portfolio] fornisce un’interfaccia trami
 
 Il [!UICONTROL Ottimizzatore Portfolio] puoi fornirti assistenza solo se hai soddisfatto i seguenti prerequisiti:
 
-
-* Il [!UICONTROL Casi di studio] sono state completate per i progetti. Per informazioni, consulta gli articoli nella sezione [Definire un caso di business](../../projects/define-a-business-case/define-business-case.md).
-* Un portfolio è definito nell&#39;area Panoramica progetto della sezione Dettagli progetto per i progetti che si desidera esaminare
+* Il [!UICONTROL Casi di studio] sono state completate per i progetti. Per informazioni, consulta gli articoli in [Definire un caso di business: indice articolo](../../projects/define-a-business-case/define-business-case.md).
+* Un portfolio è definito nell&#39;area Panoramica progetto della sezione Dettagli progetto per i progetti che si desidera esaminare.
 * Hai indicato il Budget del progetto e il Beneficio pianificato per i progetti che desideri rivedere. Costi fissi e Redditi fissi sono facoltativi ma aggiungono valore. Per informazioni, consulta [Campi finanziari progetto](../../projects/project-finances/project-finances-overview-1.md).
-
 
 Per informazioni su come individuare [!UICONTROL Ottimizzatore Portfolio], vedi [Individua il [!UICONTROL Ottimizzatore Portfolio]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 

@@ -6,9 +6,9 @@ description: La definizione di una WBS (Work Breakdown Structure) per un progett
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: dfd8dd07e1a88da872550163051e703f6aea5f74
+source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1750'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Per informazioni sulla pianificazione delle risorse, consulta gli articoli nella
 
 Workfront calcolerà i costi pianificati per ogni attività e i costi complessivi per un progetto. I costi pianificati per un task includono tutte le spese del task più il costo del dipendente o del ruolo assegnato al task. Le tariffe orarie per il task, il ruolo e il dipendente vengono assegnate durante la creazione del task, del ruolo e dell&#39;utente.
 
-Per informazioni sui dati finanziari del progetto, vedere la sezione [Finanze del progetto](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+Per informazioni sui dati finanziari del progetto, vedere la sezione [Finanze del progetto: indice articolo](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Determinare i punti di approvazione per il progetto
 
