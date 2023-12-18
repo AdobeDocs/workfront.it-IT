@@ -8,14 +8,16 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 2%
+source-wordcount: '561'
+ht-degree: 0%
 
 ---
 
 # Creare regole di instradamento
+
+<!-- Audited: 12/2023 -->
 
 Le regole di instradamento controllano le operazioni di Adobe Workfront con i problemi quando vengono inviati a una coda di richieste. Per ulteriori informazioni sulla creazione di code di richieste, consulta [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
@@ -53,7 +55,7 @@ Le regole di instradamento inviano i problemi a utenti o ruoli specifici in grad
 </table>
 -->
 
-Devi avere i seguenti:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +67,10 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td>
+    <p>Nuovo: Standard</p>
+    <p>oppure</p>
+    <p>Corrente: Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -75,19 +80,19 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p> Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p> Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per conoscere la pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
 
 ## Creare una regola di instradamento
 
-1. Vai al progetto a cui desideri aggiungere le regole di instradamento per le richieste.
+1. Passare al progetto in cui si desidera aggiungere le regole di instradamento per le richieste.
 1. Clic **Regole di instradamento** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Regole di instradamento**.
-1. Clic **Nuove regole di instradamento** per aggiungere la nuova regola.
-1. Specificare le informazioni seguenti per la Regola di instradamento:
+1. Clic **Nuova Regola di Instradamento** per aggiungere la nuova regola.
+1. Inserire le seguenti informazioni per la Regola di instradamento:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,14 +102,14 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Nome</strong> </td> 
-      <td> <p>Nome della regola di routing. Se si dispone dell'accesso per visualizzare queste informazioni sul progetto, è possibile visualizzare la regola di instradamento.</p> </td> 
+      <td>Nome della regola di routing. Se si dispone dell'accesso per visualizzare queste informazioni sul progetto, è possibile visualizzare la regola di instradamento.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Descrizione</strong> </td> 
       <td>Aggiungere una descrizione per la regola di routing.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>l'Incaricato Predefinito*</strong> </td> 
+      <td role="rowheader"><strong>Assegnatario predefinito*</strong> </td> 
       <td>Aggiungi un utente attivo o una mansione attiva a cui assegnare i nuovi problemi. In questo campo può essere presente un solo assegnatario predefinito. </td> 
      </tr> 
      <tr> 
@@ -113,12 +118,12 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
    <p><b>NOTA</b></p>
 
-   Dopo l’invio del problema, puoi modificarne le assegnazioni e assegnare altri utenti, ruoli o team. Per informazioni, consulta  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Assegna problemi </a>.
+   Dopo l’invio del problema, puoi modificarne le assegnazioni e assegnare altri utenti, ruoli o team. Per informazioni, consulta  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Assegna problemi</a>.
 
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Instrada al Progetto</strong> </td> 
+      <td role="rowheader"><strong>Instrada al progetto</strong> </td> 
       <td>Questo è il progetto in cui viene aggiunto il problema.</td> 
      </tr> 
     </tbody> 
@@ -130,7 +135,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
    Quando si indirizza un problema a un progetto, gli utenti con autorizzazioni per il problema ricevono le autorizzazioni impostate per tale progetto. Per informazioni sull’impostazione delle autorizzazioni per i progetti, consulta [Condividere un progetto in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-   ![](assets/new-routing-rule-box-nwe-350x419.png)
+   ![Casella Nuova regola di instradamento](assets/new-routing-rule-box.png)
 
 1. Fai clic su **Salva**.
 

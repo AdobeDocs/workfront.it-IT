@@ -4,18 +4,20 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Gestire le licenze disponibili nel sistema
 description: In qualità di amministratore di Adobe Workfront, puoi accedere a informazioni sul tuo account Workfront, compreso il numero di licenze acquistate per la tua organizzazione e il numero di tali licenze attualmente in uso.
-author: Caroline
+author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
 
 # Gestire le licenze disponibili nel sistema
+
+<!-- Audited: 12/2023 -->
 
 In qualità di amministratore di Adobe Workfront, puoi accedere a informazioni sul tuo account Workfront, compreso il numero di licenze acquistate per la tua organizzazione e il numero di tali licenze attualmente in uso.
 
@@ -33,7 +35,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td>
+    <p>Nuovo: Standard</p>
+    <p>oppure</p>
+    <p>Corrente: Piano</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
@@ -44,11 +49,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Visualizzare le licenze della tua organizzazione
 
-Il numero di licenze utilizzate viene aggiornato automaticamente quando si assegnano i livelli di accesso agli utenti aggiunti a Workfront. Per ulteriori informazioni, consulta [Aggiungi utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Il numero di licenze in uso viene aggiornato automaticamente quando si assegnano i livelli di accesso agli utenti aggiunti a Workfront. Per ulteriori informazioni, consulta [Aggiungi utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 Per visualizzare le informazioni sulle licenze nel sistema:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nella parte inferiore del pannello sinistro, fai clic su **Sistema** > **Licenze**.
 
@@ -62,16 +67,16 @@ Per visualizzare le informazioni sulle licenze nel sistema:
 
 ## Visualizzare informazioni sulle licenze per i componenti aggiuntivi di Workfront
 
-Nella schermata seguente, **5 di 10 Licenze Verifica** indica che questa organizzazione dispone del componente aggiuntivo a pagamento Workfront Proof e attualmente utilizza 5 delle 10 licenze Workfront Proof acquistate.
+Se la tua organizzazione dispone del componente aggiuntivo Workfront Proof a pagamento, vengono visualizzati il numero di licenze utilizzate e il numero di licenze disponibili. Ad esempio: **5 di 10 Licenze Verifica** indica che l’organizzazione sta attualmente utilizzando 5 delle 10 licenze Workfront Proof acquistate.
 
-![](assets/updated-licenses-page.png)
+![Licenza per i componenti aggiuntivi Workfront](assets/updated-licenses-page.png)
 
 Se la tua organizzazione ha acquistato Workfront Goals, qui vengono visualizzate anche le informazioni sulla licenza per questo prodotto. In questo caso, puoi visualizzare le seguenti informazioni:
 
 * Numero totale di licenze Workfront Goals acquistate dalla società
 * Il numero di licenze Workfront Goals associate agli utenti. Questo è il numero di utenti a cui è stato concesso almeno l’accesso di visualizzazione agli obiettivi nel rispettivo livello di accesso.
 
-Per informazioni sugli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md). Per informazioni sull’accesso agli obiettivi di Workfront, consulta [Concedere l’accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+Per informazioni sugli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md). Per informazioni sull’accesso agli obiettivi di Workfront, consulta [Concedere l’accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
@@ -84,12 +89,12 @@ If an organization has other paid add-on products, their license information als
 
 >[!TIP]
 >
->Gli utenti senza accesso amministrativo possono utilizzare un rapporto di gruppo per visualizzare il numero di licenze. Nella scheda Report, crea un nuovo report di gruppo e aggiungi le seguenti colonne:>
+>Gli utenti senza accesso amministrativo possono utilizzare un rapporto di gruppo per visualizzare il numero di licenze. Nella scheda Rapporto, crea un nuovo rapporto di gruppo e aggiungi le colonne seguenti:
+>
 >* Limite tipo di licenza: limite lavoratore
 >* Limite tipo di licenza: Limite planner
 >
 >Per ulteriori informazioni sulla creazione di un rapporto, consulta [Creare un rapporto personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
->
 
 ## Visualizza informazioni sulle assegnazioni di bozze e documenti decisionali mensili
 
@@ -103,11 +108,11 @@ I limiti di decisione per ogni licenza variano a seconda del piano su cui stai l
 
 Per ulteriori informazioni sui limiti di decisione per bozze e documenti, consulta [Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-![](assets/monthly-decision-allotment.png)
+![Aggiudicazione mensile delle decisioni](assets/monthly-decision-allotment.png)
 
 ## Aggiungere o rimuovere un gruppo predefinito nella pagina Licenze {#add-or-remove-a-home-group-to-the-licenses-page}
 
-Per utilizzare questa funzione è necessario un piano Workfront aziendale o aziendale. Per ulteriori informazioni sui vari piani disponibili, vedere [Piani Workfront.](https://www.workfront.com/plans)
+<!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
 Ogni utente può essere assegnato a un solo Gruppo Predefinito. Workfront fornisce un conteggio delle licenze orientato al gruppo calcolando il numero di licenze allocate e attualmente utilizzate in ciascun Gruppo predefinito.
 
@@ -121,7 +126,7 @@ Se viene visualizzato il messaggio **Per impostare un massimo, è necessario agg
 
 Per aggiungere o rimuovere un gruppo predefinito nella pagina Licenze:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nella parte inferiore del pannello sinistro, fai clic su **Sistema** > **Licenze**.
 
@@ -143,11 +148,11 @@ In qualità di amministratore di Workfront, puoi impostare il numero massimo di 
 
 Per impostazione predefinita, il numero massimo di licenze è impostato su N/D, il che significa che non esiste alcun limite.
 
-Gli amministratori di gruppi possono visualizzare il numero di licenze allocate e utilizzate in un Gruppo predefinito che gestiscono. Per ulteriori informazioni, consulta [Visualizzare il numero di licenze allocate e utilizzate in un gruppo nella nuova esperienza Adobe Workfront](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+Gli amministratori di gruppi possono visualizzare il numero di licenze allocate e utilizzate in un Gruppo predefinito che gestiscono. Per ulteriori informazioni, consulta [Visualizza il numero di licenze allocate e utilizzate in un gruppo](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
 Per impostare il numero massimo di licenze per un gruppo predefinito:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nella parte inferiore del pannello sinistro, fai clic su **Sistema** > **Licenze**.
 

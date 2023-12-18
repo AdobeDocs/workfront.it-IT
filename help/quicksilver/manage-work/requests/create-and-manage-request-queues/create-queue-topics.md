@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: e971f08a1ee9bbf27a78916dbec57ca729407c03
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 3%
+source-wordcount: '885'
+ht-degree: 2%
 
 ---
 
 # Crea argomenti coda
+
+<!-- Audited: 12/2023 -->
 
 Gli argomenti della coda funzionano insieme alle regole di instradamento per assegnare automaticamente il lavoro in arrivo a un utente, a una mansione, a un team o per inserirlo in un progetto. Argomenti coda definiscono le condizioni necessarie per l&#39;implementazione della regola di routing.
 
@@ -50,7 +52,7 @@ Non esiste alcun limite al numero di argomenti della coda che è possibile asseg
 </table>
 -->
 
-Devi avere i seguenti:
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,7 +64,10 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td>
+    <p>Nuovo: Standard</p>
+    <p>oppure</p>
+    <p>Corrente: Piano</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -70,12 +75,12 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p> Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p> Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Creare un argomento coda
 
@@ -87,17 +92,19 @@ Devi avere i seguenti:
    * [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 1. Passare al progetto che si è scelto di abilitare come coda di richieste di aiuto e dove si desidera creare un nuovo argomento della coda.\
-   Per ulteriori informazioni su come designare un progetto come coda di richieste di aiuto, consulta il seguente articolo:\
-   [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+   Per ulteriori informazioni su come designare un progetto come coda di richieste di aiuto, consultate [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-   È possibile organizzare gli argomenti correlati della coda in un gruppo di argomenti o direttamente nel progetto designato come coda di richieste di aiuto. In questo modo il richiedente disporrà di una serie di menu a discesa quando effettua una richiesta.\
+   È possibile organizzare gli argomenti correlati della coda in un gruppo di argomenti. In questo modo il richiedente disporrà di una serie di menu a discesa quando effettua una richiesta.
+
+   Oppure
+
    È possibile nidificare gli argomenti della coda direttamente sotto il progetto designato come coda di richieste di aiuto, senza un gruppo di argomenti.
 
    Per informazioni sulla creazione di gruppi di argomenti, vedere [Crea gruppi di argomenti](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 1. Clic **Argomenti Coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Argomenti Coda**.
 1. Clic **Nuovo argomento coda**.
-1. Il giorno **Nuovo argomento coda** , specificare quanto segue:
+1. Il giorno **Nuovo argomento coda** immetti quanto segue:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -112,8 +119,8 @@ Devi avere i seguenti:
       <td>Descrivere la coda di richieste. La descrizione viene visualizzata quando gli utenti selezionano l’argomento della coda durante il processo di invio di una nuova richiesta. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Aggiungi a gruppo argomenti</strong> </td> 
-      <td> Se nel progetto non sono presenti gruppi di argomenti, per impostazione predefinita il nome del progetto viene impostato su Gruppo di argomenti.<br>Se si desidera creare gruppi di argomenti aggiuntivi da qui, selezionare <strong>Crea nuovo gruppo di argomenti</strong> dal menu a discesa.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td role="rowheader"><strong>Aggiungi a gruppo di argomenti</strong> </td> 
+      <td> Se nel progetto non sono presenti gruppi di argomenti, il nome predefinito del progetto sarà Gruppo di argomenti.<br>Se si desidera creare gruppi di argomenti aggiuntivi da qui, selezionare <strong>Crea nuovo gruppo di argomenti</strong> dal menu a discesa.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Moduli personalizzati</strong> </td> 
@@ -136,8 +143,8 @@ Devi avere i seguenti:
       <td>Questa è la durata predefinita della richiesta e la data di completamento pianificata della richiesta viene calcolata in base a questo valore.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Instradimento Predefinito</strong> </td> 
-      <td>Specificare la regola di routing da associare all'argomento coda. È necessario creare la regola di routing prima di allegarla a un Argomento coda. Per informazioni, consulta <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Creare regole di instradamento</a> </td> 
+      <td role="rowheader"><strong>Percorso predefinito</strong> </td> 
+      <td>Specificare la regola di routing da associare all'argomento coda. È necessario creare la regola di routing prima di allegarla a un Argomento coda. Per informazioni, consulta <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Creare regole di instradamento</a>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipi di richieste</strong> </td> 
@@ -156,8 +163,7 @@ Devi avere i seguenti:
     </tbody> 
    </table>
 
-   ![](assets/new-queue-topic-box-nwe-350x375.png)
+   ![Casella Nuovo argomento coda](assets/new-queue-topic-box.png)
 
-1.  
 1. Fai clic su **Salva**.\
    L&#39;argomento Coda è ora disponibile ed è visibile nell&#39;area Richieste di Workfront, dopo aver selezionato una coda di richieste e un gruppo di argomenti.
