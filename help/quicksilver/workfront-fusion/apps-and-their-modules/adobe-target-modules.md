@@ -9,9 +9,9 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i 
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 51db439995430dad86e41190520824743216df69
+source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
 workflow-type: tm+mt
-source-wordcount: '2646'
+source-wordcount: '2665'
 ht-degree: 0%
 
 ---
@@ -649,7 +649,7 @@ Questo modulo di azione crea un’attività AB o XT, un’offerta o un pubblico.
 
 #### [!UICONTROL Effettuare una chiamata API personalizzata]
 
-Questo modulo effettua una chiamata API personalizzata al [!DNL Adobe Target] API
+Questo modulo effettua una chiamata API personalizzata al [!DNL Adobe Target] API.
 
 <table style="table-layout:auto"> 
   <col/>
