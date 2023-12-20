@@ -6,10 +6,10 @@ description: Puoi creare, modificare e assegnare profili di schede orario che ge
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 3983f82dfa668c3fcb0948a759ba47a76ec52f86
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 1%
+source-wordcount: '1510'
+ht-degree: 0%
 
 ---
 
@@ -35,16 +35,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Piano </p> </td> 
+   <tr> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td> <p>Nuovo: Standard </p>
+ <p>oppure</p> 
+<p>Corrente: Piano </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p>  <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td> <p>È necessario disporre dell'accesso amministrativo alle schede orario. </p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -63,7 +64,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 >
 >Per abilitare le modifiche al profilo della scheda orario nelle schede orario correnti, devi eliminare le schede orario esistenti e quindi generarne di nuove. Per istruzioni, consulta [Eliminare i timesheet in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) e [Genera manualmente i timesheet](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Se stai creando o modificando un profilo di scheda orario da utilizzare in tutto il sistema, fai clic su **Timesheet e ore**.
 
@@ -94,18 +95,18 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
       <li> <p>Se stai creando un profilo di scheda orario a livello di sistema, lascia vuoto questo campo.</p> <p>Qualsiasi utente che può modificare gli account utente può allegare una scheda orario a livello di sistema ad altri utenti.</p> <p>Solo un amministratore di Workfront può modificare un profilo di scheda orario a livello di sistema.</p> </li> 
       </ul> 
      <ul> 
-      <li> <p>Se stai creando un profilo di scheda orario per un gruppo che amministri, identifica il gruppo qui.</p> <p>Questo non assegna il profilo della scheda orario agli utenti del gruppo, ma consente solo agli amministratori del gruppo di modificare il profilo della scheda orario. Assegnerai il profilo agli utenti nel passaggio 6.</p> <p><b>NOTA</b>
+      <li> <p>Se stai creando un profilo di scheda orario per un gruppo che amministri, identifica il gruppo qui.</p> <p>Questo non assegna il profilo della scheda orario agli utenti del gruppo, ma consente solo agli amministratori del gruppo di modificare il profilo della scheda orario. Assegnerai il profilo agli utenti nel passaggio 6.</p>
 
-   Quando utenti esterni al gruppo allegano profili della scheda orario a un altro utente, non possono visualizzare o allegare questo profilo.</p> </li>
-   </ul> </p> </td> 
+   <p><b>NOTA</b>: quando utenti esterni al gruppo allegano profili della scheda orario a un altro utente, non potranno vedere o allegare questo profilo della scheda orario.</p> </li> 
+      </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Crea schede orario</strong> </td> 
       <td> <p> <p>Specifica quando il profilo della scheda orario deve generare le schede orario. Una scheda orario può essere impostata per essere generata automaticamente su base settimanale, bisettimanale, semestrale o mensile. Seleziona il giorno della settimana in cui desideri che venga prodotta la scheda orario.</p>
       <p>Una scheda orario settimanale inizia nella data in cui viene generata. Ad esempio, se crei schede orario settimanali ogni giovedì, il primo giorno della settimana nella scheda orario è giovedì.</p>
-      <p><b>NOTA</b></p>
 
-   <p>Workfront crea sempre due schede orario alla volta: la prima scheda orario include sempre la data corrente e la seconda inizia quando termina l’intervallo di tempo della prima scheda orario.</p> </p> </td> 
+
+   <p><b>NOTA</b>: Workfront crea sempre due schede orario alla volta: la prima scheda orario include sempre la data corrente e la seconda scheda orario inizia quando termina l’intervallo di tempo della prima scheda orario.</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Approvatori</strong></p> </td> 
@@ -134,9 +135,9 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
       <li>I responsabili dei proprietari delle schede orario possono inviare, richiamare, riaprire e modificare le schede orario dei loro referenti diretti.</li></ul>
       </ul>
 
-   <p><b>NOTA</b>
+   <p>
 
-   Dopo aver inviato una scheda orario per l&#39;approvazione, non è più possibile modificare le ore. Per ripristinare lo stato modificabile di una scheda orario inviata, richiamarla o richiedere all&#39;approvatore di rifiutarla. Per ulteriori informazioni, consulta <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Invia una scheda orario per l&#39;approvazione</a> e<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approvare una scheda orario</a>.</p> </p> </td>
+   <b>NOTA</b>: dopo aver inviato una scheda orario per l’approvazione, non è più possibile modificare le ore. Per ripristinare lo stato modificabile di una scheda orario inviata, richiamarla o richiedere all&#39;approvatore di rifiutarla. Per ulteriori informazioni, consulta <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Invia una scheda orario per l&#39;approvazione</a> e<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Approvare una scheda orario</a>.</p> </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Tipi di lavoro disponibili</strong> </td> 

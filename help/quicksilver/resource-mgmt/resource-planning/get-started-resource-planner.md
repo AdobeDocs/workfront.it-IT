@@ -7,7 +7,7 @@ description: È possibile stimare e preventivare l'allocazione delle risorse ai 
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Panoramica di Programmazione delle risorse
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
@@ -40,9 +42,9 @@ Per una panoramica generale della pianificazione delle risorse in Adobe Workfron
 
 * Per visualizzare le seguenti informazioni utilizzando la vista Utente:
 
-   * la disponibilità degli utenti in base alla loro pianificazione
-   * la quantità di tempo pianificata necessaria per completare il lavoro in base al piano del progetto.
-   * la quantità di tempo per cui gli utenti hanno già effettuato l&#39;accesso agli elementi di lavoro effettivi.
+   * Disponibilità degli utenti in base alla loro pianificazione
+   * Quantità di tempo pianificata necessaria per completare il lavoro in base al piano del progetto
+   * Quantità di tempo per cui gli utenti hanno già effettuato l&#39;accesso agli elementi di lavoro effettivi
 
   Per ulteriori informazioni sulla visualizzazione delle ore disponibili, pianificate ed effettive o FTE per gli utenti nella Programmazione delle risorse, vedere l&#39;articolo [Visualizzare le ore disponibili, pianificate ed effettive o FTE nella Programmazione delle risorse quando si utilizza la vista Utente](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 

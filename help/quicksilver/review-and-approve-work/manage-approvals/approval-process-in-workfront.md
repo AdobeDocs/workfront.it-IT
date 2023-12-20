@@ -7,14 +7,16 @@ description: È possibile creare un processo di approvazione e allegarlo a un og
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
 
 # Panoramica del processo di approvazione
+
+<!-- Audited: 12/2023 -->
 
 È possibile creare un processo di approvazione e allegarlo a un oggetto per assicurarsi che gli utenti designati verifichino determinate modifiche prima che l&#39;oggetto progredisca.
 
@@ -22,27 +24,26 @@ Questa funzione è disponibile per i seguenti tipi di oggetti in Adobe Workfront
 
 * Elemento di lavoro (progetto, attività o problema, modello, attività modello)
 * Documento
-*  Bozza
-
-Per istruzioni sulla creazione di un processo di approvazione, consulta [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* Bozza
 
 Questo articolo contiene informazioni generali sui processi di approvazione associati agli elementi di lavoro.
+Per istruzioni sulla creazione di un processo di approvazione, consulta [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Tipi di processi di approvazione
+## Tipi di processi di approvazione per gli elementi di lavoro
 
 Se sei un amministratore di Adobe Workfront o un utente con accesso amministrativo ai processi di approvazione, puoi creare i seguenti processi di approvazione per progetti, attività e problemi:
 
 * **Processo di approvazione globale a livello di sistema**: gli utenti possono allegarli a uno dei seguenti elementi:
 
    * Un progetto, un’attività o un problema nella sezione Approvazioni
-   * Nella casella Modifica progetto, l&#39;area Processo di approvazione predefinito attività
-   * Nella sezione Dettagli coda o Argomento coda di un progetto, nelle aree Processo di approvazione predefinito. Il progetto deve essere abilitato come coda di richieste.
+   * Nella casella Modifica progetto dell&#39;area Processo di approvazione predefinito attività
+   * Nella sezione Dettagli coda o Argomento coda di un progetto nelle aree Processo di approvazione predefinito. Il progetto deve essere abilitato come coda di richieste.
 
 * **Un processo di approvazione globale a livello di gruppo**: gli utenti possono allegarli ai seguenti elementi:
 
    * Progetto, attività o problema appartenente al gruppo associato al processo di approvazione nella sezione Approvazioni
-   * Nella casella Modifica progetto, l&#39;area Processo di approvazione predefinito attività per un progetto appartenente al gruppo associato al processo di approvazione
-   * Nella sezione Dettagli coda o Argomento coda di un progetto, nelle aree Processo di approvazione predefinito. Il progetto deve essere abilitato come coda di richieste e deve appartenere al gruppo associato al processo di approvazione.
+   * Nella casella Modifica progetto dell&#39;area Processo di approvazione predefinito attività per un progetto appartenente al gruppo associato al processo di approvazione
+   * Nella sezione Dettagli coda o Argomento coda di un progetto nelle aree Processo di approvazione predefinito. Il progetto deve essere abilitato come coda di richieste e deve appartenere al gruppo associato al processo di approvazione.
 
   Per informazioni sulla creazione di un processo di approvazione a livello di sistema o di gruppo, vedere [Creare un processo di approvazione per gli elementi di lavoro](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

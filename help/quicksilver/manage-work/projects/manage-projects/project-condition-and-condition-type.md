@@ -1,46 +1,47 @@
 ---
-title: Panoramica del tipo di condizione e condizione del progetto
+title: Panoramica della condizione e del tipo di condizione del progetto
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-description: La condizione del progetto è una rappresentazione visiva dell’avanzamento del progetto. Si tratta di una variabile segnalabile determinata dalla relazione tra le date previste, previste e stimate del progetto.
+description: La condizione del progetto è una rappresentazione visiva dell’avanzamento del progetto. Si tratta di una variabile da segnalare determinata dalla relazione tra le date pianificate, previste e stimate del progetto.
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 1%
 
 ---
 
-# Panoramica del tipo di condizione e condizione del progetto
+# Panoramica della condizione e del tipo di condizione del progetto
 
-La condizione del progetto è una rappresentazione visiva dell’avanzamento del progetto. Si tratta di una variabile segnalabile determinata dalla relazione tra le date previste, previste e stimate del progetto.
+<!-- Audited: 12/2023 -->
+
+La condizione del progetto è una rappresentazione visiva dell’avanzamento del progetto. Si tratta di una variabile da segnalare determinata dalla relazione tra le date pianificate, previste e stimate del progetto.
 
 ## Panoramica sulla condizione del progetto
 
-Per comprendere la condizione di un progetto, considera quanto segue:
+Per comprendere le condizioni di un progetto, considera quanto segue:
 
 * In qualità di proprietario del progetto, puoi decidere se impostare manualmente o automaticamente la condizione di un progetto. La condizione di un progetto può essere impostata nei seguenti modi:
 
-   * Manualmente, per gli utenti che hanno accesso a Gestione progetto e quando il Tipo di condizione del progetto è impostato su Manuale.
-   * Automaticamente, da Adobe Workfront, quando il tipo di condizione del progetto è impostato su Stato di avanzamento. Lo stato di avanzamento del progetto è determinato dall’avanzamento delle attività del progetto. Per informazioni sullo stato di avanzamento del progetto, consulta [Panoramica sullo stato di avanzamento del progetto](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * Manualmente per gli utenti che hanno accesso a Gestisci il progetto e quando il Tipo di condizione del progetto è impostato su Manuale.
+   * Automaticamente da Adobe Workfront, quando il Tipo di condizione del progetto è impostato su Stato di avanzamento. Lo stato di avanzamento del progetto è determinato dall&#39;avanzamento delle attività del progetto. Per informazioni sullo stato di avanzamento del progetto, vedi [Panoramica sullo stato di avanzamento del progetto](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
-   Per informazioni su come aggiornare il tipo di condizione del progetto, consulta [Imposta il tipo di condizione di un progetto](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
+  Per informazioni su come aggiornare il Tipo di condizione del progetto, vedi [Impostare il tipo di condizione di un progetto](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
 
-* Quando Workfront può stimare automaticamente la condizione del progetto, si consiglia di utilizzare i predecessori per le attività in modo che l’avanzamento dell’attività rifletta l’avanzamento effettivo e lo stato di avanzamento del progetto.
-* In qualità di proprietario del progetto, è possibile modificare il progetto per utilizzare un tipo di condizione manuale invece di utilizzare lo stato di avanzamento cambiando il tipo di condizione da Stato di avanzamento a Manuale.
+* Quando si consente a Workfront di stimare automaticamente la condizione del progetto, si consiglia di utilizzare i predecessori nelle attività in modo che l’avanzamento dell’attività si rifletta nell’avanzamento effettivo e nello stato di avanzamento del progetto.
+* In qualità di proprietario del progetto, è possibile modificare il progetto in modo da utilizzare un tipo di condizione manuale anziché lo stato di avanzamento cambiando il tipo di condizione da stato di avanzamento a manuale.
 
-   >[!NOTE]
-   >
-   >I progetti che si trovano in uno dei seguenti stati sono sempre contrassegnati come Su Target, indipendentemente dalle date delle attività e dal relativo avanzamento:
-   >
-   >* Idea
-   >* Richiesto
-   >* Approvato
-   >* Rifiutato
-
+  >[!NOTE]
+  >
+  >I progetti che si trovano in uno dei seguenti stati sono sempre contrassegnati come On Target, indipendentemente dalle date delle attività e dal loro avanzamento:
+  >
+  >* Idea
+  >* Richiesto
+  >* Approvato
+  >* Rifiutato
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -59,13 +60,13 @@ Per comprendere la condizione di un progetto, considera quanto segue:
 </div>
 -->
 
-## Aggiornamento della condizione del progetto da parte di Workfront in base allo stato di avanzamento
+## Come Workfront aggiorna la condizione del progetto in base allo stato di avanzamento
 
-Quando il tipo di condizione del progetto è impostato su Manuale, è possibile determinare quale condizione del progetto è indipendente dallo stato di avanzamento del progetto.
+Quando il Tipo di condizione del progetto è impostato su Manuale, è possibile determinare quale sia la condizione del progetto indipendentemente dallo Stato di avanzamento del progetto.
 
-Tuttavia, è consigliabile impostare il tipo di condizione del progetto su Stato di avanzamento in modo da avere un’indicazione chiara dell’effettivo avanzamento del progetto, in base all’avanzamento delle attività. Per informazioni sul modo in cui Workfront calcola lo stato di avanzamento dei progetti, consulta [Panoramica sullo stato di avanzamento del progetto](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+Tuttavia, si consiglia di impostare il Tipo di condizione del progetto su Stato di avanzamento in modo da poter avere un’indicazione chiara dell’avanzamento effettivo del progetto, in base all’avanzamento delle attività. Per informazioni sul modo in cui Workfront calcola lo stato di avanzamento dei progetti, vedi [Panoramica sullo stato di avanzamento del progetto](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
-In questo caso, i valori per la condizione di progetto possono essere:
+In questo caso, i valori per Condizione progetto possono essere:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -74,26 +75,26 @@ In questo caso, i valori per la condizione di progetto possono essere:
  <col> 
  <tbody> 
   <tr> 
-   <td>Condizione del progetto</td> 
-   <td>Stato di avanzamento del progetto</td> 
-   <td>Indicatore di condizione Workfront</td> 
+   <td><strong>Condizione progetto</strong></td> 
+   <td><strong>Stato avanzamento progetto</strong></td> 
+   <td><strong>Indicatore di condizione Workfront</strong></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Puntuale</td> 
-   <td> <li>Quando lo stato di avanzamento del progetto è attivato, la condizione del progetto è <strong>Su Target</strong>.</li> </td> 
+   <td>Quando lo stato di avanzamento del progetto è Nei tempi stabiliti, la condizione del progetto è <strong>On Target</strong>. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>A Rischio</td> 
-   <td>Stato di avanzamento del progetto <strong>Dietro</strong> o <strong>A rischio</strong>, la condizione del progetto è <strong>A rischio</strong>.</td> 
+   <td>Quando lo stato di avanzamento del progetto è <strong>Dietro</strong> o <strong>A Rischio</strong>, quindi la condizione del progetto è <strong>A Rischio</strong>.</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>In difficoltà</td> 
-   <td>Stato di avanzamento del progetto <strong>In ritardo</strong>, la condizione del progetto è <strong>In problemi</strong>. </td> 
+   <td>Quando lo stato di avanzamento del progetto è <strong>In Ritardo</strong>, quindi la condizione del progetto è <strong>In difficoltà</strong>. </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
    <td> </td> 
   </tr> 
@@ -102,17 +103,17 @@ In questo caso, i valori per la condizione di progetto possono essere:
 
 >[!NOTE]
 >
->Le condizioni possono essere personalizzate per il tuo ambiente, quindi potresti trovare più di tre opzioni per Condition nel tuo ambiente. I nomi delle Condizioni potrebbero essere diversi da quelli sopra elencati. Per informazioni sulla personalizzazione delle Condizioni in , consulta l’articolo [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+>Le condizioni possono essere personalizzate per il tuo ambiente, per cui potresti trovare più di tre opzioni per Condizione nel tuo ambiente. I nomi delle Condizioni potrebbero essere diversi da quelli elencati sopra. Per informazioni sulla personalizzazione delle Condizioni in , consulta l’articolo [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-## Rapporto sulla condizione del progetto, sull’aggiornamento della condizione del progetto e sulla nota relativa all’ultima condizione
+## Rapporto sulla condizione del progetto, Aggiornamento condizione progetto e Nota ultima condizione
 
-Nella visualizzazione di un rapporto sul progetto, puoi visualizzare i seguenti campi relativi alla condizione del progetto:
+Nella visualizzazione di un report di progetto, è possibile visualizzare i campi seguenti relativi alla condizione del progetto:
 
-* **Condizione del progetto:** Mostra la condizione corrente del progetto.
-* **Aggiornamento della condizione del progetto**: Mostra l’aggiornamento più recente fornito dal proprietario del progetto nel flusso di aggiornamento del progetto, insieme alla nuova condizione .\
-   I commenti effettuati sugli aggiornamenti della condizione non vengono visualizzati nella **Aggiornamento delle condizioni** colonna; viene visualizzato solo l&#39;aggiornamento principale.
+* **Condizione progetto:** Mostra la condizione corrente del progetto.
+* **Aggiornamento condizione progetto**: mostra l’aggiornamento più recente fornito dal proprietario del progetto nel flusso di aggiornamento del progetto, insieme alla nuova condizione.\
+  I commenti aggiunti agli aggiornamenti delle condizioni non vengono visualizzati nella **Aggiornamento condizione** ; viene visualizzato solo l’aggiornamento principale.
 
-* **Ultima nota sulla condizione**: Visualizza l&#39;ultimo aggiornamento immesso in un oggetto dal proprietario dell&#39;oggetto. Questo campo è utile per visualizzare l&#39;attività o l&#39;interazione più recente del proprietario su un oggetto.\
-   La **Ultima nota sulla condizione** Se il testo della nota dell’ultima nota di un oggetto è stato eliminato, la colonna è vuota. Quando una nuova nota viene inserita sull’oggetto, diventa l’ultima nota e viene visualizzata nuovamente nella colonna.
+* **Nota ultima condizione**: visualizza l’ultimo aggiornamento immesso su un oggetto dal proprietario dell’oggetto. Questo campo è utile per visualizzare l’attività o l’interazione più recente del proprietario su un oggetto.\
+  Il **Nota ultima condizione** Se il testo della nota dell&#39;ultima nota di un oggetto è stato eliminato, la colonna è vuota. Una nuova nota immessa sull&#39;oggetto diventa l&#39;ultima nota e viene nuovamente visualizzata nella colonna.
 
 Per informazioni su come creare un rapporto, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
