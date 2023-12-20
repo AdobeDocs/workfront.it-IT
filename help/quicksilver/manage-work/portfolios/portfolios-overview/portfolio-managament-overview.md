@@ -6,9 +6,9 @@ description: La gestione di un Portfolio o di un Portfolio di progetti (Project 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '621'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Per ulteriori informazioni sulla creazione di un caso di business e di una richi
 
 ### Revisione del progetto {#project-review}
 
-Dopo aver inviato la richiesta di progetto, il Responsabile di Portfolio o un team esecutivo la esamina e decide se approvarla. Se vengono approvati, verranno selezionati per un Portfolio di progetti della società.
+Dopo aver inviato la richiesta di progetto, il Responsabile di Portfolio o un team esecutivo la esamina e decide se approvare o meno il progetto. Se approva il progetto, il progetto viene selezionato come Portfolio di progetti della società.
 
 Per ulteriori informazioni sui portfolio, consulta [Panoramica del Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Per ulteriori informazioni sull&#39;approvazione di un Business Case, vedere [Approvare un caso di business](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
@@ -67,7 +67,7 @@ Per ulteriori informazioni sull’ottimizzazione del portafoglio, consulta [Otti
 
 ### Pianificazione risorse {#resource-planning}
 
-Oltre a ottimizzare le prestazioni del portfolio e assegnare la priorità al progetto, Resource Manager assicura che siano allocate ai progetti risorse appropriate. Valutano la disponibilità e l&#39;allocazione delle risorse utilizzando gli strumenti di gestione delle risorse disponibili in [!DNL Workfront].
+Oltre a ottimizzare le prestazioni del portfolio e assegnare la priorità ai progetti, Resource Manager assicura che siano allocate risorse appropriate ai progetti. Valutano la disponibilità e l&#39;allocazione delle risorse utilizzando gli strumenti di gestione delle risorse disponibili in [!DNL Workfront].
 
 A seconda della disponibilità delle risorse, il Manager Portfolio potrebbe dover ridefinire l’ordine di priorità dei progetti.
 
@@ -75,7 +75,7 @@ Per ulteriori informazioni sulla gestione delle risorse, vedere [Gestire le riso
 
 ### Esecuzione del progetto {#project-execution}
 
-Dopo aver ricevuto l&#39;approvazione del progetto dal Responsabile del Portfolio e la convalida delle risorse dal Responsabile risorse, in qualità di Proprietario del progetto, è possibile impostare il progetto sullo stato [!UICONTROL Corrente] e i tuoi utenti possono avviare il lavoro per completare il progetto. Si consiglia di acquisire una linea di base del progetto in questa fase, per avere un punto di riferimento per il progetto, nel suo stato originale.
+Dopo aver ricevuto l&#39;approvazione del progetto dal Responsabile del Portfolio e la convalida delle risorse dal Responsabile risorse, in qualità di Proprietario del progetto, è possibile impostare il progetto sullo stato [!UICONTROL Corrente] e i tuoi utenti possono avviare il lavoro per completare il progetto. È consigliabile acquisire una linea di base del progetto in questa fase, per avere un punto di riferimento per il progetto, nel suo stato originale.
 
 Per ulteriori informazioni sulla gestione dei progetti in [!DNL Workfront], vedi [Gestisci progetti: indice articoli](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 Per ulteriori informazioni sulla creazione di linee di base per i progetti, consulta [Crea linee di base progetto](../../../manage-work/projects/create-projects/create-baselines.md).

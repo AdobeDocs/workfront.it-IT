@@ -6,9 +6,9 @@ description: È possibile creare un rapporto o un elenco in Adobe Workfront util
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-È possibile creare un rapporto o un elenco in Adobe Workfront utilizzando l’interfaccia standard o in modalità testo durante la creazione degli elementi che compongono il rapporto o l’elenco. L’interfaccia standard ti consente di fare riferimento ai campi e ai relativi attributi che sono prontamente disponibili nell’interfaccia di Workfront. Utilizzando la modalità testo è possibile fare riferimento a campi e attributi che potrebbero non essere disponibili in modalità standard, ma che sono disponibili nel database di Workfront.
+È possibile creare un rapporto o un elenco in Adobe Workfront utilizzando l’interfaccia standard o in modalità testo durante la creazione degli elementi che compongono il rapporto o l’elenco.
+
+L’interfaccia standard ti consente di fare riferimento ai campi e ai relativi attributi che sono prontamente disponibili nell’interfaccia di Workfront.
+
+Utilizzando la modalità testo è possibile fare riferimento a campi e attributi che potrebbero non essere disponibili in modalità standard, ma che sono disponibili nel database di Workfront.
 
 Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità testo, inclusi classi, video e tutorial, consulta la sezione Informazioni sul sito Adobe Experience League.
 
@@ -74,9 +78,6 @@ Per un elenco completo di tutti i campi da segnalare, vedi [API Explorer](../../
 >
 >Non tutti i campi disponibili tramite l’API sono disponibili tramite l’interfaccia in modalità testo. Se utilizzi il campo corretto nel codice in modalità testo e non visualizzi i risultati previsti, il campo potrebbe essere segnalato solo tramite l’API.
 
-* [Accedere agli elementi di reporting e modificare la modalità testo](#access-reporting-elements-and-edit-text-mode)
-* [Motivi comuni per l’utilizzo della modalità testo](#common-reasons-to-use-text-mode)
-
 ## Accedere agli elementi di reporting e modificare la modalità testo {#access-reporting-elements-and-edit-text-mode}
 
 L’accesso all’interfaccia della modalità testo è simile per viste, raggruppamenti e filtri, quando si accede a essi da un rapporto o da un elenco.
@@ -95,13 +96,20 @@ I prompt personalizzati possono essere modificati solo in modalità testo. È po
 
 Per informazioni sull&#39;accesso all&#39;interfaccia della modalità testo per i prompt personalizzati, vedere [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
--->
+## Motivi comuni per l’utilizzo della modalità testo {#common-reasons-to-use-text-mode}
+
+Al di fuori della creazione di prompt personalizzati che possono essere configurati solo utilizzando la modalità testo, è consigliabile utilizzare il generatore di rapporti per creare visualizzazioni, filtri e raggruppamenti. Tuttavia, in alcuni casi è possibile utilizzare la modalità testo per migliorare i rapporti e gli elenchi.
+
+Per ulteriori informazioni sugli usi comuni della modalità testo, consulta [Panoramica sugli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Editing the text mode code inside views, filters, and groupings has some differences outlined below.</p>
+  -->
+
+<!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: everything below, and the four subsections >>> drafted and created individual articles.)</p>
+  -->
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#edit-text-mode-in-a-view" class="MCXref xref">Edit text mode in a view</a> </li>
@@ -120,18 +128,18 @@ Per informazioni sull&#39;accesso all&#39;interfaccia della modalità testo per 
   -->
 
 <!--
-<h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
--->
+  <h4 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="edit-text-mode-in-a-view"><strong>Edit text mode in a view</strong> </h4>
+  -->
 
 <!--
-<note type="tip">
-We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
-</note>
--->
+  <note type="tip">
+  We recommend that you build as much of the view as possible in standard mode, then convert it to text mode to edit it.
+  </note>
+  -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
--->
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To access the text mode interface for a view:</p>
+  -->
 
 <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Find the report you want to modify in text mode.</p>
@@ -539,21 +547,21 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The lines of code that refer to the same field selected in the grouping are numbered with the same number, as follows:</p>
    -->
 
-    &lt;!—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Il primo raggruppamento del rapporto ha un numero di gruppo pari a 0. Tutte le righe relative al primo raggruppamento iniziano con group.0.&lt;/code>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Il secondo raggruppamento del rapporto ha un numero di gruppo pari a 1. Tutte le righe che fanno riferimento al secondo raggruppamento iniziano con &lt;code>group.1&lt;/code>.&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Il terzo gruppo del rapporto ha un numero di gruppo pari a 2. Tutte le righe che fanno riferimento al terzo raggruppamento iniziano con &lt;code>group.2&lt;/code>.&lt;/em>&lt;/li>
-    —>
-    
-    &lt;!>—
-    &lt;li data-mc-conditions=&quot;QuicksilverOrClassic.Draft mode&quot;>Solo in modalità testo è possibile aggiungere un numero di gruppo 3 per un quarto raggruppamento. Tutte le righe che fanno riferimento al quarto raggruppamento iniziano con &lt;code>group.3&lt;/code>.&lt;/em>&lt;/li>
-    —>
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0.</code></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The second grouping of the report has a group number of 1. All lines referring to the second grouping start with <em><code>group.1</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The third grouping of the report has a group number of 2. All lines referring to the third grouping start with <em><code>group.2</code>.</em></li>   
+  -->
+
+<!--   
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Only in text mode, you can add a group number of 3, for a fourth grouping. All lines referring to the fourth grouping start with <em><code>group.3</code>.</em></li>   
+  -->
 
 <!--
    <note type="note">
@@ -585,11 +593,13 @@ We recommend that you build as much of the grouping as possible in standard mode
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Create groupings to organize results article, Common uses of text mode, Edit groupings to organize reports, Create a Custom Report)</p>   
    -->
 
->[!TIP]
->
->Quando si modificano manualmente i raggruppamenti durante la visualizzazione di un elenco, Workfront ricorda la preferenza manuale fino alla disconnessione. Quando effettui di nuovo l’accesso, l’elenco viene visualizzato in base a questa impostazione.
->
->I risultati di un raggruppamento vengono sempre visualizzati in modalità espansa dopo essere stati accessibili da un elemento del grafico.
+<!--
+   >[!TIP]
+   >
+   >When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+   >
+   >The results of a grouping always display expanded after accessing them from a chart element.
+   -->
 
 <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Apply</strong> if you want to save your changes and continue editing the report.</li>
@@ -611,8 +621,4 @@ We recommend that you build as much of the grouping as possible in standard mode
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about creating a custom prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p>
 -->
 
-## Motivi comuni per l’utilizzo della modalità testo {#common-reasons-to-use-text-mode}
 
-Al di fuori della creazione di prompt personalizzati che possono essere configurati solo utilizzando la modalità testo, è consigliabile utilizzare il generatore di rapporti per creare visualizzazioni, filtri e raggruppamenti. Tuttavia, in alcuni casi è possibile utilizzare la modalità testo per migliorare i rapporti e gli elenchi.
-
-Per ulteriori informazioni sugli usi comuni della modalità testo, consulta [Panoramica sugli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

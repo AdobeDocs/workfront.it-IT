@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: c5053b78dd80fe9017ba96e193e59fbd9b17e7c8
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto
 
    * (Condizionale) Fai clic su uno dei nomi nell’ **Assegnazioni suggerite** list
    * Clic **Assegna a me** per assegnarlo a se stessi
-   * Clic **Avanzate**
+   * Clic **Avanzate**.
 
      La creazione di assegnazioni avanzate è simile per attività e problemi. Per informazioni su come effettuare assegnazioni avanzate, vedere [Crea assegnazioni avanzate](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
@@ -147,7 +147,7 @@ A seconda del campo visibile nella vista, puoi assegnare le seguenti entità al 
 | Opzione | Entità assegnate |
 |---|---|
 | **Assegna a** | Assegna un utente |
-| **Assgnt** | Assegna un utente |
+| **Assegnato** | Assegna un utente |
 | **Assegnazioni** | Assegna utenti, mansioni o team. |
 
 Per assegnare i problemi in un elenco:

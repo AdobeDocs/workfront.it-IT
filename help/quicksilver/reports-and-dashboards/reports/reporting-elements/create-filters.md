@@ -6,10 +6,10 @@ description: È possibile limitare la quantità di informazioni visualizzate sul
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 2%
+source-wordcount: '2462'
+ht-degree: 1%
 
 ---
 
@@ -21,13 +21,13 @@ Puoi applicare i seguenti tipi di filtri in Adobe Workfront:
 
 * Filtri rapidi in un elenco di oggetti per trovare un elemento utilizzando una parola chiave. Si tratta di filtri temporanei che non è possibile salvare per utilizzi futuri.
 
-   Per informazioni sui filtri rapidi, consulta [Applicare il filtro rapido a un elenco](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Per informazioni sui filtri rapidi, consulta [Applicare il filtro rapido a un elenco](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 * Filtri permanenti che consentono di risparmiare tempo e utilizzarli in più elenchi e rapporti. In questo articolo viene descritto come creare un filtro permanente o modificarne uno esistente in un elenco o in un report.
 
 * Filtri in altre aree di Workfront, al di fuori di elenchi e rapporti.
 
-   Per un elenco di tutti i filtri in Workfront e delle aree in cui puoi applicarli, consulta [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Per un elenco di tutti i filtri in Workfront e delle aree in cui puoi applicarli, consulta [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisiti di accesso
 
@@ -43,11 +43,33 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Richiedi o superiore</p> </td> 
+   <td> <p>Nuovo: Collaboratore o versione successiva</p>
+
+Oppure
+
+<p>Corrente: richiesta o successiva</p>
+
+<p><b>NOTA:</b></p>
+
+Per modificare un filtro in un rapporto, è necessario disporre della seguente licenza:
+
+<p>Nuovo: Piano</p>
+
+Oppure
+
+<p>Corrente: Standard</p>
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Modificare l’accesso a Filtri, Viste e Raggruppamenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <ul><li><p>Modificare l’accesso a Filtri, Viste e Raggruppamenti</p></li></ul>
+    <p><b>NOTA:</b></p>
+   Per modificare un filtro in un rapporto, è necessario disporre della seguente configurazione del livello di accesso, oltre all’accesso di modifica a filtri, viste e raggruppamenti:
+
+<ul><li><p>Modificare l’accesso a rapporti, dashboard e calendari</p></li></ul>
+
+<p><b>NOTA:</b></p> <p> Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
@@ -93,7 +115,7 @@ Puoi creare filtri utilizzando i tipi di generatori di filtri descritti nella ta
 <ul>
 <li> <p>Elenco Progetti nella Pianificazione scenario</p> <p>Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, consulta <a href="../../../scenario-planner/scenario-planner-overview.md">Panoramica sulla pianificazione degli scenari</a>. </p> </li>
 </ul>
-<p>NOTA: i generatori standard per i filtri non sono disponibili nei rapporti.
+<p><b>NOTA:</b></p> <p>I generatori standard di filtri non sono disponibili nei rapporti.
 </td>
 </tr>
 <tr>
@@ -111,41 +133,40 @@ Quando crei filtri utilizzando le diverse interfacce, tieni presente quanto segu
 * Puoi trovare il generatore di standard nelle stesse posizioni in cui si trova l’interfaccia filtro legacy per le aree elencate nella tabella precedente.
 * Il generatore di standard è l&#39;esperienza predefinita per tutte le aree in cui è disponibile. Per passare al generatore di filtri legacy, fai clic sul pulsante **Altro** menu accanto a [!UICONTROL **Filtri**] e seleziona [!UICONTROL **Torna a Filtri legacy**].
 
-   ![Torna ai Filtri legacy](assets/use-legacy-filters.png)
+  ![Torna a Filtri legacy](assets/use-legacy-filters.png)
 
 * I filtri salvati sono disponibili in entrambi i generatori, indipendentemente dall’esperienza utilizzata per generarli originariamente. Ad esempio, se hai creato un filtro utilizzando il generatore legacy, puoi trovarlo e modificarlo anche nell’interfaccia del generatore standard.
 
-   >[!TIP]
-   >
-   >Il filtro &quot;All&quot; (Tutti) non è incluso nel generatore standard perché quando non si applicano filtri vengono visualizzate tutte le voci di elenco. Clic [!UICONTROL **Cancella tutto**] in alto a destra nel generatore per cancellare tutti i filtri attivi e visualizzare tutti gli elementi. Se [!UICONTROL **Cancella tutto**] è disattivato, quindi non vengono applicati filtri.
+  >[!TIP]
+  >
+  >Il filtro &quot;All&quot; (Tutti) non è incluso nel generatore standard perché quando non si applicano filtri vengono visualizzate tutte le voci di elenco. Clic [!UICONTROL **Cancella tutto**] in alto a destra nel generatore per cancellare tutti i filtri attivi e visualizzare tutti gli elementi. Se [!UICONTROL **Cancella tutto**] è disattivato, quindi non vengono applicati filtri.
 
 * I generatori standard e legacy hanno una sintassi leggermente diversa durante la creazione di filtri con più istruzioni che combinano gli operatori AND e OR. Di conseguenza, questi filtri possono essere visualizzati in modo diverso quando si passa da un generatore all’altro.
 
-   >[!INFO]
-   >
-   >Esiste lo scenario seguente:
-   >
-   >1. Utilizza il generatore di standard per creare un filtro con la seguente sintassi:
-   >
-   >   `(A OR B) AND C`
-   >
-   >1. Passa al generatore legacy e modifica il filtro utilizzando la sintassi del generatore legacy come descritto in [Creare o modificare un filtro nel generatore legacy](#create-filter-in-legacy-builder) in questo articolo. La sintassi per il generatore legacy di visualizza le istruzioni del filtro come segue:
-   >
-   >   `A AND C`
-   >   `OR`
-   >   `B AND C`
-   >
-   >1. Apporta una modifica al filtro nell’interfaccia legacy.
-   >1. Torna al generatore standard. L’istruzione di filtro viene visualizzata in base alla logica supportata nel generatore di versioni precedenti, come descritto in precedenza.
-
-   >
-   >   Il filtro viene visualizzato nell’interfaccia standard di generazione come segue:
-   >  
-   >   `A AND C`
-   >   `OR`
-   >   `B AND C`
-   > 
-   >   Ciò si verifica perché il filtro è stato modificato nell’interfaccia legacy.
+  >[!INFO]
+  >
+  >Esiste lo scenario seguente:
+  >
+  >1. Utilizza il generatore di standard per creare un filtro con la seguente sintassi:
+  >
+  >   `(A OR B) AND C`
+  >
+  >1. Passa al generatore legacy e modifica il filtro utilizzando la sintassi del generatore legacy come descritto in [Creare o modificare un filtro nel generatore legacy](#create-filter-in-legacy-builder) in questo articolo. La sintassi per il generatore legacy di visualizza le istruzioni del filtro come segue:
+  >
+  >   `A AND C`
+  >   `OR`
+  >   `B AND C`
+  >
+  >1. Apporta una modifica al filtro nell’interfaccia legacy.
+  >1. Torna al generatore standard. L’istruzione di filtro viene visualizzata in base alla logica supportata nel generatore di versioni precedenti, come descritto in precedenza.
+  >
+  >   Il filtro viene visualizzato nell’interfaccia standard di generazione come segue:
+  >  
+  >   `A AND C`
+  >   `OR`
+  >   `B AND C`
+  > 
+  >   Ciò si verifica perché il filtro è stato modificato nell’interfaccia legacy.
 
 ## Creare o modificare un filtro nel generatore di standard
 
@@ -193,9 +214,10 @@ Crea un filtro tramite l’interfaccia standard di generazione:
    * Clic **Nuovo filtro** per creare un filtro da zero.
    * Passa il puntatore del mouse su un filtro esistente che disponi delle autorizzazioni per gestire e fai clic su **Modifica** icona ![Icona Modifica](assets/edit-icon.png) per modificarlo.
 
-      Oppure
+     Oppure
 
-      Passa il puntatore del mouse su un filtro esistente per il quale disponi delle autorizzazioni di visualizzazione, fai clic sul pulsante **Altro** menu ![Menu Altro](assets/more-icon-spectrum.png)e fai clic su **Duplica** per copiare il filtro esistente e modificare una copia.
+     Passa il puntatore del mouse su un filtro esistente per il quale disponi delle autorizzazioni di visualizzazione, fai clic sul pulsante **Altro** menu ![Menu Altro](assets/more-icon-spectrum.png)e fai clic su **Duplica** per copiare il filtro esistente e modificare una copia.
+
    ![Altre opzioni di menu](assets/new-filters-more-menu-options-with-delete.png)
 
 1. (Condizionale) A seconda che si desideri trovare oggetti che corrispondano a tutte o a una qualsiasi delle istruzioni di un gruppo di filtri, selezionare una delle opzioni seguenti:
@@ -319,7 +341,7 @@ Crea un filtro tramite l’interfaccia standard di generazione:
    >
    >Quando selezioni più filtri, tutte le relative condizioni devono essere soddisfatte contemporaneamente per visualizzare i risultati corrispondenti.
 
-   ![Stack di filtri](assets/new-filter-stack-filters.png)
+   ![Sovrapponi filtri](assets/new-filter-stack-filters.png)
 
    Il numero di filtri selezionati viene visualizzato accanto all’icona del filtro nella parte superiore dell’elenco degli elementi.
 
@@ -362,28 +384,28 @@ Indipendentemente dal metodo utilizzato per creare i filtri, la creazione di un 
    * Modifica le regole di filtro esistenti facendo clic sulla regola esistente e selezionando una nuova opzione.
    * Aggiungere una regola di filtro facendo clic su **Aggiungi un&#39;altra regola filtro**, inizia a digitare il nome dell’opzione per la quale desideri aggiungere una regola nel **Inizia a digitare il nome del campo** , quindi fare clic su di esso quando viene visualizzato nell&#39;elenco a discesa.
 
-      I campi associati all’oggetto del filtro sono elencati nella sezione **Inizia a digitare il nome del campo** casella.
+     I campi associati all’oggetto del filtro sono elencati nella sezione **Inizia a digitare il nome del campo** casella.
 
    * Clic **E** o **OPPURE** quando si aggiunge una nuova regola filtro.\
-      Quando aggiungi le regole del filtro, utilizza i modificatori del filtro per stabilire la condizione del filtro. Per ulteriori informazioni sui modificatori di filtri, consulta [Modificatori di filtri e condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+     Quando aggiungi le regole del filtro, utilizza i modificatori del filtro per stabilire la condizione del filtro. Per ulteriori informazioni sui modificatori di filtri, consulta [Modificatori di filtri e condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-      >[!NOTE]
-      >
-      >Quando si connette un gruppo di istruzioni AND da più istruzioni OR, è necessario ripetere i campi che non cambiano tra le istruzioni OR per ogni gruppo di istruzioni.
-      >
-      >![Istruzioni di filtro collegate](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
-      >
-      >Quando si crea un filtro per i task che contengono la parola &quot;marketing&quot; e si trovano in progetti con lo stato Attuale o Pianificazione, è necessario disporre delle seguenti regole di filtro:
-      >
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Current`
-      >`OR`
-      >`Task: Name Contains Marketing`
-      >`AND`
-      >`Project: Status Equals Planning`
-      >
-      >Sebbene Task: Name Contains &quot;marketing&quot; non cambi tra i due gruppi di filtri AND, deve essere ripetuto nel secondo gruppo.
+     >[!NOTE]
+     >
+     >Quando si connette un gruppo di istruzioni AND da più istruzioni OR, è necessario ripetere i campi che non cambiano tra le istruzioni OR per ogni gruppo di istruzioni.
+     >
+     >![Istruzioni di filtro collegate](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >
+     >Quando si crea un filtro per i task che contengono la parola &quot;marketing&quot; e si trovano in progetti con lo stato Attuale o Pianificazione, è necessario disporre delle seguenti regole di filtro:
+     >
+     >`Task: Name Contains Marketing`
+     >`AND`
+     >`Project: Status Equals Current`
+     >`OR`
+     >`Task: Name Contains Marketing`
+     >`AND`
+     >`Project: Status Equals Planning`
+     >
+     >Sebbene Task: Name Contains &quot;marketing&quot; non cambi tra i due gruppi di filtri AND, deve essere ripetuto nel secondo gruppo.
 
    * Elimina una regola di filtro esistente facendo clic sull’icona &quot;X&quot;.
 

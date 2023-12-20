@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Configurare le preferenze di progetto a livello di sistema
 description: Come un [!DNL Adobe Workfront] amministratore, puoi configurare le preferenze predefinite per tutti i progetti creati nel sistema. Queste preferenze influiscono sul comportamento di un progetto, di un’attività e di un problema.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 0%
 
 ---
@@ -32,28 +32,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td role="rowheader"><p>[!DNL Adobe Workfront] piano</p></td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Nuovo: [!UICONTROL Standard]</p>
+   Oppure
+   <p>Corrente: [!UICONTROL Plan]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un [!DNL Workfront] amministratore.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>[!UICONTROL Amministratore di sistema]</p> <p><b>NOTA</b>:</p><p>Se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Configurare le preferenze di progetto per l’intera organizzazione
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Preferenze progetto]** > **[!UICONTROL Progetti]**.
 
-1. Nella pagina visualizzata, continua con una delle 4 sezioni elencate di seguito per configurare le preferenze per [!UICONTROL Stato progetto], [!UICONTROL Timeline], [!UICONTROL Casi di studio], e [!UICONTROL Vita dopo la morte].
-1. Se desideri che tutti i gruppi dell’organizzazione utilizzino le stesse preferenze di progetto, accertati che ciascuna preferenza sia bloccata ![](assets/lock-toggle-button.png) (impostazione predefinita).
+1. Il giorno **Preferenze progetto** , continuare con una delle 4 sezioni elencate di seguito per configurare le preferenze per [!UICONTROL Stato progetto], [!UICONTROL Timeline], [!UICONTROL Casi di studio], e [!UICONTROL Vita dopo la morte].
+1. Se desideri che tutti i gruppi dell’organizzazione utilizzino le stesse preferenze di progetto, accertati che ogni preferenza sia bloccata ![](assets/lock-toggle-button.png) (impostazione predefinita).
 
    >[!IMPORTANT]
    >
@@ -112,7 +115,7 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Imposta automaticamente la condizione del progetto in base allo stato di avanzamento]</td> 
-   <td> <p>Questa preferenza consente agli utenti di impostare manualmente la condizione [!UICONTROL] di un progetto ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) oppure [!DNL Workfront] imposta automaticamente la condizione [!UICONTROL Condition] (Stato di avanzamento) in base alla progressione del progetto nella sequenza temporale. Per ulteriori informazioni sulle condizioni dei progetti, consulta <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Panoramica della condizione e del tipo di condizione del progetto</a>.</p> </td> 
+   <td> <p>Questa preferenza consente agli utenti di impostare manualmente la condizione [!UICONTROL] di un progetto su ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) o su [!DNL Workfront] imposta automaticamente la condizione [!UICONTROL Condition] (Stato di avanzamento) in base alla progressione del progetto nella sequenza temporale. Per ulteriori informazioni sulle condizioni dei progetti, consulta <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Panoramica della condizione e del tipo di condizione del progetto</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Crea automaticamente linee di base]</p> </td> 
@@ -130,7 +133,7 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
    <td role="rowheader"> <p>[!UICONTROL Stima al completamento ]</p> </td> 
    <td> <p>Determinare i dati [!DNL Workfront] utilizza per calcolare la [!UICONTROL Estimate at Completion] (EAC) che rappresenta il costo totale previsto di un progetto.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Calcola a livello di progetto]</strong>:EAC per l'attività e il progetto padre vengono determinati immettendo [!UICONTROL Ore effettive] o [!UICONTROL Costo effettivo manodopera] nelle formule EAC. Questo calcolo include [!UICONTROL Ore effettive] o [!UICONTROL Costi e spese] aggiunti direttamente all'attività o al progetto padre.</li> 
+     <li><strong>[!UICONTROL Calcola a livello di progetto]</strong>: l'EAC per l'attività e il progetto padre viene determinato immettendo [!UICONTROL Ore effettive] o [!UICONTROL Costo effettivo manodopera] nelle formule EAC. Questo calcolo include [!UICONTROL Ore effettive] o [!UICONTROL Costi e spese] aggiunti direttamente all'attività o al progetto padre.</li> 
      <li> <p><strong>[!UICONTROL Riporta da attività/sottoattività]</strong>: l’EAC per l’attività e il progetto principali viene determinato sommando l’EAC per ogni attività secondaria. Questo calcolo esclude [!UICONTROL Ore effettive] o [!UICONTROL Costi e spese effettive] aggiunti direttamente all'attività o al progetto padre.</p> <p>Il project manager può modificare questa impostazione a livello di progetto utilizzando l'area [!UICONTROL Finance] in [!UICONTROL Project Details].Per ulteriori informazioni, vedere <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Gestisci informazioni nell'area [!UICONTROL Finance] del progetto</a>.</p> </li> 
     </ul> <p>Per ulteriori informazioni sulle modalità di calcolo di EAC, vedere <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calcola [!UICONTROL Stima Al Completamento] (EAC)</a>.</p> </td> 
   </tr> 
@@ -157,7 +160,7 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
    <td role="rowheader">[!UICONTROL Indisponibilità utente]</td> 
    <td> <p>Determinare se l'indisponibilità dell'assegnatario principale di un'attività determina l'adeguamento delle date pianificate per l'attività in un progetto.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Considera l'indisponibilità dell'utente durante l'attività]</strong>: qualsiasi indisponibilità programmata per l'assegnatario principale di un'attività regola le date pianificate dell'attività se l'indisponibilità si verifica durante la durata dell'attività. Questa è l'impostazione predefinita. </p> <p>Ad esempio, se un'attività con un vincolo di [!UICONTROL il prima possibile] è pianificata per iniziare il 1° giugno e completare il 3 giugno e l'assegnatario principale ha il 2 giugno contrassegnato per l'indisponibilità, le date pianificate dell'attività vengono aggiornate al 1° giugno fino al 4 giugno.</p> <p><b>IMPORTANTE</b>: la Durata dell’attività non cambia quando selezioni questa impostazione. Solo le date pianificate cambiano, a seconda del Vincolo attività.</p> </li> 
+     <li> <p><strong>[!UICONTROL Considera l'indisponibilità dell'utente durante l'attività]</strong>: qualsiasi indisponibilità programmata per l'assegnatario principale di un'attività regola le date pianificate dell'attività se l'indisponibilità si verifica durante la durata dell'attività. Questa è l'impostazione predefinita. </p> <p>Ad esempio, se un'attività con un vincolo di [!UICONTROL il prima possibile] è pianificata per iniziare il 1° giugno e completare il 3 giugno e l'assegnatario principale ha il 2 giugno contrassegnato per l'indisponibilità, le date pianificate dell'attività vengono aggiornate al 1° giugno fino al 4 giugno.</p> <p><b>IMPORTANTE</b>:</p> <p>La durata dell'attività non cambia quando si seleziona questa impostazione. Solo le date pianificate cambiano, a seconda del Vincolo attività.</p> </li> 
      <li><strong>[!UICONTROL Ignora indisponibilità utente durante l'attività]</strong>: le date pianificate per ogni attività in un progetto rimangono invariate rispetto alla pianificazione iniziale, anche se l'assegnatario principale di un'attività presenta un'indisponibilità durante la sua durata.</li> 
     </ul> <p>Quando selezioni le opzioni per questa impostazione, tieni presente quanto segue:</p> 
     <ul> 
@@ -172,7 +175,7 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Le sequenze temporali del progetto [!UICONTROL verranno ricalcolate automaticamente]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Le sequenze temporali del progetto vengono ricalcolate automaticamente]</p> </td> 
    <td> <p>Determina quando viene ricalcolata la timeline di un progetto. Per informazioni sul ricalcolo della sequenza temporale del progetto, consultate <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Ricalcolare i timeline dei progetti</a>.</p> <p>Le seguenti opzioni sono attivate per impostazione predefinita. È possibile selezionare una o più delle seguenti impostazioni:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Ogni notte]</strong>: seleziona questa opzione per ricalcolare le timeline del progetto ogni notte. Eventuali modifiche apportate al progetto che potrebbero influenzare la timeline non sono immediatamente visibili. [!DNL Workfront​​​] ricalcola le sequenze temporali di notte solo per i progetti in cui sono soddisfatte entrambe le seguenti condizioni:</p> <p> 
@@ -185,14 +188,14 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
         <li>Solo Modifica</li>
         <li>Solo Automatico</li> 
       </ul>       
-    <b>SUGGERIMENTO</b>
+    <b>SUGGERIMENTO:</b>
     <p>Questa impostazione non ha effetto sui progetti con il tipo di aggiornamento Solo manuale.</p>
     <li> <p><strong>Quando l’ambito di un progetto cambia</strong>: seleziona questa opzione per ricalcolare immediatamente le timeline del progetto in seguito a una modifica dell’ambito del progetto. Per informazioni su cosa costituisce una modifica dell’ambito di un progetto, consulta <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Ricalcolare i timeline dei progetti</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Quando a un'attività sono assegnati più utenti, utilizzare la pianificazione di]</p> </td> 
-   <td> <p>Se a un progetto non è stata assegnata una pianificazione o se agli utenti assegnati alle sue attività non è stata assegnata una pianificazione, [!DNL Workfront] utilizza la pianificazione predefinita del sistema per calcolare la sequenza temporale delle attività.</p> <p>Se si assegnano più utenti alla stessa attività in un progetto, a cui è assegnata anche una pianificazione, in [!UICONTROL Workfront] vengono utilizzate le pianificazioni seguenti:</p> 
+   <td> <p>Se a un progetto non è stata assegnata una pianificazione o se agli utenti assegnati alle sue attività non è stata assegnata una pianificazione, [!DNL Workfront] utilizza la pianificazione predefinita del sistema per calcolare la sequenza temporale delle attività.</p> <p>Se si assegnano più utenti alla stessa attività in un progetto a cui è assegnata una pianificazione e agli utenti assegnati alle attività è assegnata anche una pianificazione, [!UICONTROL Workfront] utilizza le pianificazioni seguenti:</p> 
     <ul> 
      <li><strong>[!UICONTROL Assegnazione primaria]</strong>: [!DNL Workfront] utilizza la pianificazione dell'assegnazione principale per l'attività per calcolare le sequenze temporali.</li> 
      <li><strong>Progetto [!UICONTROL]</strong>: [!DNL Workfront] utilizza la pianificazione del progetto per calcolare la sequenza temporale di ciascuna attività.</li> 
@@ -205,12 +208,12 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
      <li><strong>[!UICONTROL Ore tipiche per giornata lavorativa]</strong>: imposta il numero di ore in una giornata di lavoro tipica per gli utenti che lavoreranno sui progetti. Il valore predefinito è 8 ore.</li> 
     </ul> 
     <ul> 
-     <li><strong>[!UICONTROL Giornate di lavoro tipiche a settimana]</strong>: imposta la settimana lavorativa standard per gli utenti che lavoreranno sui progetti. Il valore predefinito è 5 giorni.</li> 
-    </ul> <p>Queste 2 opzioni convertono i giorni in ore o le settimane in giorni.</p> <p>Ad esempio, se un'attività ha 8 ore pianificate e la durata viene calcolata in base alle ore pianificate, [!DNL Workfront] converte tali ore in giorni in modo da visualizzare la Durata come giorni.</p> <p>Dal campo Tipico [!UICONTROL giorni lavorativi per settimana], [!DNL Workfront] calcola il valore FTE (Full Time Equivalent) del sistema. Questo è ciò che [!DNL Workfront] utilizza per calcolare le allocazioni per gli utenti.</p> <p>Questi valori vengono utilizzati per la pianificazione delle sequenze temporali dei progetti, la definizione del budget per le risorse o la registrazione del tempo rispetto ai progetti. </p> <p>Non vengono utilizzati quando si stabiliscono schede orario per gli utenti nel sistema, come descritto in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Preferenze orario e scheda orario di [!UICONTROL Configure]</a>.</p> <p><b>NOTA</b>: [!DNL Workfront] Gli amministratori non possono sbloccare le preferenze di [!UICONTROL Timeline Calculation].</p> </td> 
+     <li><strong>[!UICONTROL Giornate di lavoro tipiche a settimana]</strong>: imposta la settimana lavorativa standard per gli utenti che lavorano sui progetti. Il valore predefinito è 5 giorni.</li> 
+    </ul> <p>Queste 2 opzioni convertono i giorni in ore o le settimane in giorni.</p> <p>Ad esempio, se un'attività ha 8 ore pianificate e la durata viene calcolata in base alle ore pianificate, [!DNL Workfront] converte tali ore in giorni in modo da visualizzare la Durata come giorni.</p> <p>Dal campo Tipico [!UICONTROL giorni lavorativi per settimana], [!DNL Workfront] calcola il valore FTE (Full Time Equivalent) del sistema. Questo è ciò che [!DNL Workfront] utilizza per calcolare le allocazioni per gli utenti.</p> <p>Questi valori vengono utilizzati per la pianificazione delle sequenze temporali dei progetti, la definizione del budget per le risorse o la registrazione del tempo rispetto ai progetti. </p> <p>Non vengono utilizzati quando si stabiliscono schede orario per gli utenti nel sistema, come descritto in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Preferenze orario e scheda orario di [!UICONTROL Configure]</a>.</p> <p><b>NOTA</b>:</p> <p>[!DNL Workfront] Gli amministratori non possono sbloccare le preferenze di [!UICONTROL Timeline Calculation].</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Trimestri Personalizzati]</p> </td> 
-   <td> <p>Configura trimestri annuali personalizzati per gli utenti che lavoreranno ai progetti. I trimestri personalizzati sono solitamente trimestri che non corrispondono alla ripartizione tradizionale dei trimestri durante un anno di calendario. È possibile aggiungere più trimestri personalizzati. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Abilita trimestri personalizzati per i progetti</a>.</p>  <p><b>NOTA</b>: [!DNL Workfront] Gli amministratori non possono sbloccare le preferenze di [!UICONTROL Trimestri personalizzati].</p> </td> 
+   <td> <p>Configura trimestri annuali personalizzati per gli utenti che lavoreranno ai progetti. I trimestri personalizzati sono solitamente trimestri che non corrispondono alla ripartizione tradizionale dei trimestri durante un anno di calendario. È possibile aggiungere più trimestri personalizzati. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Abilita trimestri personalizzati per i progetti</a>.</p>  <p><b>NOTA</b>: </p><p>[!DNL Workfront] Gli amministratori non possono sbloccare le preferenze di [!UICONTROL Trimestri personalizzati].</p> </td> 
   </tr> 
  </tbody> 
 </table>

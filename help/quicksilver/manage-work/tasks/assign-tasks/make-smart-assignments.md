@@ -1,21 +1,27 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Esecuzione di assegnazioni avanzate
-description: È possibile utilizzare le assegnazioni avanzate per identificare l'utente migliore per completare il lavoro. Le assegnazioni avanzate sono suggerimenti per gli utenti presentati da Adobe Workfront quando si assegnano elementi di lavoro alle risorse in base a un algoritmo che determina la risorsa più appropriata per il processo. Per informazioni sulle assegnazioni avanzate, vedere Panoramica delle assegnazioni avanzate.
+title: Effettua assegnazioni intelligenti
+description: È possibile utilizzare le assegnazioni avanzate per identificare l'utente migliore per completare il lavoro. Le assegnazioni intelligenti sono suggerimenti per gli utenti presentati da Adobe Workfront quando si assegnano elementi di lavoro alle risorse in base a un algoritmo che determina la risorsa più appropriata per il processo. Per informazioni sulle assegnazioni Smart, vedere Cenni preliminari sulle assegnazioni Smart.
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 420ba180dd0bfd53514c58f77ca9897ba9797320
+source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
-# Esecuzione di assegnazioni avanzate
+# Effettua assegnazioni intelligenti
 
-È possibile utilizzare le assegnazioni avanzate per identificare l&#39;utente migliore per completare il lavoro. Le assegnazioni avanzate sono suggerimenti per gli utenti presentati da Adobe Workfront quando si assegnano elementi di lavoro alle risorse in base a un algoritmo che determina la risorsa più appropriata per il processo. Per informazioni sulle assegnazioni avanzate, vedere [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+  
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+-->
+
+È possibile utilizzare le assegnazioni avanzate per identificare l&#39;utente migliore per completare il lavoro. Le assegnazioni intelligenti sono suggerimenti per gli utenti presentati da Adobe Workfront quando si assegnano elementi di lavoro alle risorse in base a un algoritmo che determina la risorsa più appropriata per il processo. Per informazioni sulle assegnazioni avanzate, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Requisiti di accesso
 
@@ -26,56 +32,66 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td> <p>Nuovo: Standard</p>
+      Oppure
+      <p>Corrente: Lavoro o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica l'accesso alle attività e ai problemi</p> <p>Visualizzare o accedere in modo più rapido ai progetti</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica l'accesso ad Attività e Issues</p> <p>Accesso ai progetti di visualizzazione o superiore</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Contribuire o autorizzazioni superiori con la possibilità di eseguire assegnazioni su attività e problemi</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni di tipo Contribuisci o più elevato con la possibilità di effettuare assegnazioni su attività e problemi</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Esecuzione di assegnazioni avanzate
+## Effettua assegnazioni intelligenti
 
-Le assegnazioni avanzate sono disponibili nella maggior parte dei punti in cui è possibile effettuare assegnazioni in Workfront.
+Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizioni in cui è possibile effettuare assegnazioni in Workfront.
 
-1. Passa alle seguenti aree e fai clic sul pulsante **Assegnazioni** o **Assegna a** campo:   
+1. Vai alle seguenti aree e fai clic su **Assegnazioni** o **Assegna a** campo:   
 
-   * Un elenco di attività o di problemi o un rapporto
-   * Intestazione di un&#39;attività o di un problema
-   * Pannello Attività o Riepilogo del problema
-   * Campo Assegnazioni per un elemento elencato nell&#39;area Home
-   * Attività o problema nelle aree Pianificazione o Pianificazione
-   * Un’attività o un problema nel servizio di bilanciamento del carico di lavoro
+   * Un elenco di attività o problemi o un rapporto
+   * Un’intestazione di attività o problema
+   * Pannello Riepilogo dell’attività o del problema
+   * Il campo Assegnazioni per un elemento elencato nell&#39;area Home
+   * Un&#39;attività o un problema nelle aree Pianificazione o Pianificazione
+   * Un’attività o un problema nel Bilanciatore dei carichi di lavoro
 
-1. Posizionare il cursore nel campo assegnazione e attendere due secondi. ******Assegnazioni suggerite** viene visualizzato l’elenco .
+1. Posizionare il cursore nel campo delle assegnazioni e attendere due secondi. Il **Assegnazioni suggerite** o **Di seguito sono riportati alcuni consigli** viene visualizzato un elenco.
+
+   <!--check the casing for "assignments" should be lower case in task lists??-->
+
+   <!--replace the last sentence above with this when we release smarter assignments:
+   The **Suggested assignments** list displays. 
+   NOTE (********and add preview tags for the note*****)
+   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
+   -->
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   Gli utenti visualizzati in questo elenco sono i suggerimenti per l&#39;assegnazione intelligente per l&#39;attività o il problema.
+   Gli utenti visualizzati in questo elenco sono i suggerimenti di assegnazione intelligente per l’attività o il problema.
 
-   Per ulteriori informazioni sulla posizione di visualizzazione delle assegnazioni avanzate, vedere la sezione &quot;Individua suggerimenti per le assegnazioni avanzate&quot; nell&#39;articolo [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   Per ulteriori informazioni sulla posizione di visualizzazione delle assegnazioni avanzate, vedere la sezione &quot;Individuare suggerimenti assegnazione avanzata&quot; nell&#39;articolo [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
-1. Seleziona l’utente nell’elenco dei consigli facendo clic sul suo nome. Clic **Assegnami** assegna l&#39;elemento di lavoro a se stesso.
+1. Seleziona l’utente nell’elenco dei consigli facendo clic sul nome. Clic **Assegna a me** assegna l&#39;elemento di lavoro a se stessi.
 
    >[!TIP]
    >
    >Se non sono presenti suggerimenti, l&#39;elenco dei suggerimenti non viene aperto.
 
-1. (Facoltativo) Se non si desidera utilizzare uno degli utenti consigliati dall&#39;elenco delle assegnazioni avanzate, iniziare a digitare il nome dell&#39;utente desiderato e selezionare il nome quando viene visualizzato nell&#39;elenco.
-1. Fai clic su **Invio** per effettuare l&#39;assegnazione.
+1. (Facoltativo) Se non desideri utilizzare uno degli utenti consigliati dall’elenco Assegnazioni avanzate, inizia a digitare il nome dell’utente desiderato e seleziona il nome quando viene visualizzato nell’elenco.
+1. Clic **Invio** per effettuare l&#39;assegnazione.
 
-   L’utente selezionato viene assegnato all’attività o al problema.
+   L’utente selezionato è assegnato all’attività o al problema.
