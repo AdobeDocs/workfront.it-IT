@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: cc20fd99ec334140cc5f6d73e4f257ea2cdabe23
+source-git-commit: 1224ecc73ed333a5296b23735ad4e899f15f544b
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -145,7 +145,7 @@ Gli utenti Workfront devono essere aggiunti al Adobe Admin Console. Un amministr
    >
    >Per i nuovi utenti di Adobe, l’Admin Console fornisce un’e-mail per invitarli a completare la procedura di registrazione. Tutti gli utenti devono completare la procedura di registrazione per accedere a qualsiasi applicazione di Adobe.
    >
-   >Per gli Adobi esistenti, l’utente potrebbe ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto.
+   >Per gli Adobi esistenti, l’utente potrebbe ricevere o meno un’e-mail sulla disponibilità di Workfront. Questa è una preferenza controllata dall’amministratore di Adobe per il prodotto. L’amministratore Adobe potrebbe essere una persona diversa dall’amministratore Workfront.
 
 ### Creare utenti in Workfront e approvarli per Adobe Admin Console
 
