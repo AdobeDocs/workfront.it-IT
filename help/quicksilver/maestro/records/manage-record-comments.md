@@ -1,40 +1,42 @@
 ---
 title: Gestisci commenti record
-description: Puoi collaborare ai record Adobe Maestro aggiungendo aggiornamenti e facendo domande o risposte nell’area Commenti di un record.
+description: È possibile collaborare ai record Adobe Maestro aggiungendo commenti o risposte nell'area Commenti di un record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
 
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-
 # Gestisci commenti record
 
-Puoi collaborare ai record Adobe Maestro aggiungendo aggiornamenti e facendo domande o risposte nell’area Commenti di un record.
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. </span>
+
+<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+È possibile collaborare ai record Adobe Maestro aggiungendo commenti o risposte nell&#39;area Commenti di un record.
 
 ## Considerazioni sul commento a un record
 
 * È possibile aggiungere commenti e risposte ai record operativi e alle tassonomie in Maestro, nella sezione Commenti di un record.
 
-* I commenti aggiunti ai record collegati non vengono visualizzati nei record da cui si sta eseguendo il collegamento. Ad esempio, se commenti un progetto collegato a un record Campagna, il commento viene visualizzato solo sul record del progetto in Maestro e non sul record della campagna da cui stai effettuando il collegamento.
+* I commenti aggiunti ai record collegati non vengono visualizzati nei record da cui si sta eseguendo il collegamento. Ad esempio, se commenti un record Prodotto Maestro collegato a un record Campagna, il commento viene visualizzato solo sul record Prodotto in Maestro e non sul record Campagna da cui stai effettuando il collegamento.
 
-* I commenti aggiunti agli oggetti collegati in altre applicazioni non vengono visualizzati in Maestro.
-I commenti aggiunti agli oggetti collegati in Maestro non vengono visualizzati in altre applicazioni.\
-  Ad esempio, i commenti aggiunti ai progetti in Workfront non vengono visualizzati sullo stesso progetto collegato a una campagna in Maestro.
+* È possibile aggiungere commenti ai record Maestro creati come risultato di una connessione tra un record Maestro e un oggetto di un&#39;altra applicazione.
 
-* Puoi assegnare tag agli utenti per attirare la loro attenzione su un aggiornamento. Gli utenti taggati non ricevono una notifica in-app o un’e-mail relativa all’aggiornamento. Non è possibile assegnare tag ai team in un commento Maestro.
+  Ad esempio, puoi commentare il record Project Maestro dopo aver collegato i progetti Workfront ai record Maestro. Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/maestro/records/connect-records.md).
 
-  >[!TIP]
-  >
-  >* I proprietari dei commenti non vengono automaticamente taggati in un aggiornamento.
-  >
-  >* Non è possibile rimuovere utenti con tag da un aggiornamento quando si risponde.
+* I commenti aggiunti agli oggetti collegati in altre applicazioni non vengono visualizzati in Maestro e i commenti aggiunti agli oggetti collegati in Maestro non vengono visualizzati in altre applicazioni.
+
+  Ad esempio, i commenti aggiunti ai progetti in Workfront non vengono visualizzati sullo stesso progetto collegato a una campagna in Maestro e i commenti aggiunti al progetto Maestro non vengono visualizzati in Workfront.
+
+* Puoi assegnare tag agli utenti per attirare la loro attenzione su un aggiornamento. Gli utenti taggati non ricevono una notifica in-app o un’e-mail relativa all’aggiornamento. <!--this might change??-->
 
 * Puoi aggiungere un aggiornamento ai record dalle seguenti aree di Maestro:
 
@@ -140,27 +142,15 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
 
 -->
 
-
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ### Gestire i commenti sui record
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](assets/dots-main-menu.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](assets/lines-main-menu.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Maestro]**.
+{{step1-to-maestro}}
 
-   Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
+Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 1. Scegliere una vista tabella dal menu **Visualizza** menu a discesa.
 1. Fare clic sul nome di un record nella vista tabella.
 
-   Il record **Dettagli** viene visualizzata la pagina.
+   Il record **Dettagli** viene visualizzata la pagina. L’area Commenti (Comments) viene visualizzata per impostazione predefinita nel pannello di destra.
 
 1. Inizia a immettere un commento in **Nuovo commento** casella.
 
@@ -197,9 +187,9 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
    >
    >Nei commenti relativi all&#39;anno corrente non viene visualizzato l&#39;anno nel timbro data. Passando il puntatore del mouse su una marca temporale viene visualizzata la data completa, incluso l’anno.
 
-1. (Facoltativo e condizionale) Per cercare un commento esistente, inizia a digitare una parola chiave nella casella di ricerca nell&#39;angolo superiore destro del **Commenti** area.
+1. <span class="preview">(Facoltativo e condizionale) Per cercare un commento esistente, inizia a digitare una parola chiave nella casella di ricerca nell&#39;angolo superiore destro del **Commenti** area.</span>
 
-   ![](assets/search-box-for-comments-area.png)
+   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
 
 1. (Facoltativo) Fai clic su **Rispondi** o inizia a digitare un commento nel **Aggiungi risposta...** per rispondere a un commento esistente, quindi seguire i passaggi 4-8 sopra. <!--(**************accurate??***********)-->
 

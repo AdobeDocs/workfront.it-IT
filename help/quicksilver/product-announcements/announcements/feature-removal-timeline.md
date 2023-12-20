@@ -1,22 +1,22 @@
 ---
 content-type: faq
-keywords: rimozione, obsoleto, obsoleto, non supportato, flash, risorsa, programmazione
+keywords: rimozione,obsoleto,obsoleto,non supportato,flash,risorsa,pianificazione
 navigation-topic: announcements
-title: Pianificazione delle funzioni non più supportata
-description: Varie funzioni vengono gradualmente eliminate dal prodotto Adobe Workfront. Di seguito è riportata una breve descrizione di ciascuna funzione, collegamenti a informazioni aggiuntive e date chiave di cui tenere conto.
+title: Pianificazione delle funzioni non più supportate
+description: Diverse funzioni sono state eliminate gradualmente dal prodotto Adobe Workfront. Segue una breve descrizione di ciascuna funzione, collegamenti a informazioni aggiuntive e date chiave di cui tenere conto.
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
 
-# Pianificazione delle funzioni non più supportata
+# Pianificazione delle funzioni non più supportate
 
-Varie funzioni vengono gradualmente eliminate dal prodotto Adobe Workfront. Di seguito è riportata una breve descrizione di ciascuna funzione, collegamenti a informazioni aggiuntive e date chiave di cui tenere conto.
+Diverse funzioni sono state eliminate gradualmente dal prodotto Adobe Workfront. Segue una breve descrizione di ciascuna funzione, collegamenti a informazioni aggiuntive e date chiave di cui tenere conto.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -24,14 +24,14 @@ Varie funzioni vengono gradualmente eliminate dal prodotto Adobe Workfront. Di s
  <col> 
  <tbody> 
   <tr> 
-   <td><b>Area funzionale o di prodotto</b></td> 
+   <td><b>Funzionalità o area di prodotto</b></td> 
    <td><strong>Ultima versione con nuove funzioni</strong> </td> 
    <td> <p rowspan="2"><strong>Date chiave</strong> </p> <p rowspan="2"> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Adobe Workfront Classic <p style="font-weight: normal;">Ulteriori informazioni in arrivo.</p> </td> 
    <td>Con la versione 21.2</td> 
-   <td> <p>Ultima versione con nuovi miglioramenti delle funzioni di Classic con la versione 21.2</p> <p>Non più supportato il 31 marzo 2022</p> </td> 
+   <td> <p>Ultima versione con nuovi miglioramenti delle funzioni in Classic con la versione 21.2</p> <p>Non più supportato il 31 marzo 2022</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Supporto di Internet Explorer</p> <p>Con la rimozione del supporto per Internet Explorer, Workfront ora supporta ufficialmente Microsoft Edge. </p> <p>Per ulteriori informazioni sui browser supportati, consulta <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Requisiti del browser Adobe Workfront</a>.</p> </td> 
@@ -39,17 +39,17 @@ Varie funzioni vengono gradualmente eliminate dal prodotto Adobe Workfront. Di s
    <td>Non più supportato con la versione 21.2</td> 
   </tr> 
   <tr> 
-   <td> <p>Programmazione delle risorse</p> <p>Il servizio di bilanciamento del carico di lavoro offre un’esperienza migliore nella pianificazione delle risorse.</p> <p>Per informazioni più dettagliate sul servizio di bilanciamento del carico di lavoro, vedi <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Panoramica del servizio di bilanciamento del carico di lavoro</a>.</p> </td> 
+   <td> <p>Programmazione delle risorse</p> <p>Il Bilanciatore dei carichi di lavoro offre un’esperienza migliore nella pianificazione delle risorse.</p> <p>Per informazioni più dettagliate sul Bilanciatore dei carichi di lavoro, vedi <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Panoramica del Bilanciatore dei carichi di lavoro</a>.</p> </td> 
    <td> </td> 
-   <td> <p>Non più supportato il 9 novembre 2020 (con la versione 20.4)</p> <p>--</p> <p>Rimosso dalla piattaforma Workfront dopo la prima metà del 2022</p> </td> 
+   <td> <p>Non più supportato il 9 novembre 2020 (con la versione 20.4)</p> <p>—</p> <p>Rimosso dalla piattaforma Workfront dopo la prima metà del 2022</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Workfront Fusion legacy</p> <p>Workfront Fusion offre un'esperienza migliore da legacy Workfront Fusion.</p> <p>Per ulteriori informazioni su Workfront Fusion, consulta <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Workfront Fusion legacy</p> <p>Workfront Fusion offre un’esperienza migliore rispetto alla versione precedente di Workfront Fusion.</p> <p>Per ulteriori informazioni su Workfront Fusion, consulta <a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Rimosso dalla piattaforma Workfront il 31 marzo 2021</td> 
   </tr> 
   <tr> 
-   <td> <p>Flash</p> <p>In Workfront sono ora disponibili diversi strumenti come sostituti per ogni strumento basato sul Flash. Per informazioni più dettagliate, consulta <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Sostituzione di strumenti basati su Flash in Adobe Workfront</a>.</p> </td> 
+   <td> <p>Flash</p> <p>In Workfront sono ora disponibili diversi strumenti in sostituzione di ogni strumento basato su Flash. Per informazioni più dettagliate, consulta <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Sostituzione degli strumenti basati su Flash in Adobe Workfront</a>.</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>Rimosso dalla piattaforma Workfront il 19 novembre 2020</p> </td> 
   </tr> <!--

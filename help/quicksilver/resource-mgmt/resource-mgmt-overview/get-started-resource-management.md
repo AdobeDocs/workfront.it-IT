@@ -7,9 +7,9 @@ description: Gestione risorse consente di configurare il sistema per prevedere c
 author: Alina
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ Il processo di gestione delle risorse in Workfront prevede le seguenti fasi:
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
 
-  For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+  For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
 * **Analisi**: in qualità di responsabile delle risorse, proprietario del progetto o responsabile del personale, esaminare il rapporto Utilizzo per comprendere il confronto tra le allocazioni pianificate e preventivate delle risorse e quelle effettive. Esaminare le informazioni in base a ore, costi o ricavi. Per informazioni sul rapporto Utilizzo, vedere [Visualizza informazioni sull&#39;utilizzo delle risorse](../../resource-mgmt/resource-utilization/view-utilization-information.md).

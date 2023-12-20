@@ -1,13 +1,13 @@
 ---
-title: Informazioni sui record
+title: "Record: indice articolo"
 description: Dopo aver creato i tipi di record in Adobe Maestro è possibile creare singoli record di tali tipi. Gli articoli seguenti descrivono come creare e gestire i record in Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ hide: yes
 ---
 -->
 
-# Informazioni sui record
+# Record: indice articolo
 
 >[!IMPORTANT]
 >
@@ -45,3 +45,4 @@ I seguenti articoli descrivono come creare e gestire i record in Adobe Maestro:
 * [Elimina record](../records/delete-records.md)
 * [Condividere i record](../records/share-records.md)
 * [Collega record](../records/connect-records.md)
+* [Gestisci commenti record](/help/quicksilver/maestro/records/manage-record-comments.md)

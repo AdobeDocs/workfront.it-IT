@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '13828'
+source-wordcount: '13836'
 ht-degree: 0%
 
 ---
@@ -596,7 +596,7 @@ ht-degree: 0%
          * [Creare stati personalizzati ed etichette di priorità](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
          * [Panoramica sugli stati](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
          * [Elenca tutti gli stati del progetto](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-         * [Stati progetto](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+         * [Panoramica degli stati dei progetti di sistema](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
          * [Elenca tutti gli stati delle attività](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
          * [Stati attività](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
          * [Elencare gli stati dei problemi](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
@@ -2003,7 +2003,7 @@ ht-degree: 0%
    * [Panoramica di Adobe Maestro](maestro/maestro-overview.md)
    * [Attività di rilascio Adobe Maestro](maestro/release-activity.md)
    * Architettura Adobe Maestro {#adobe-maestro-architecture}
-      * [Informazioni sull&#39;architettura](maestro/architecture/architecture-information.md)
+      * [Architettura: indice degli articoli](maestro/architecture/architecture-information.md)
       * [Creare aree di lavoro](maestro/architecture/create-workspaces.md)
       * [Panoramica dei tipi di record e delle tassonomie](maestro/architecture/overview-of-record-types-and-taxonomies.md)
       * [Creare tipi di record operativi](maestro/architecture/create-record-types.md)
@@ -2015,7 +2015,7 @@ ht-degree: 0%
       * [Esempio di connessione di tipi di record e record](maestro/architecture/example-connect-record-types-and-records.md)
       * [Elenco dei modelli di Workspace](maestro/architecture/workspace-templates.md)
    * Campi Adobe Maestro {#adobe-maestro-fields}
-      * [Informazioni sui campi](maestro/fields/fields-information.md)
+      * [Campi: indice articolo](maestro/fields/fields-information.md)
       * [Panoramica dei campi](maestro/fields/fields-overview.md)
       * [Crea campi](maestro/fields/create-fields.md)
       * [Modifica campi](maestro/fields/edit-fields.md)
@@ -2025,14 +2025,15 @@ ht-degree: 0%
       * [Panoramica degli accessi](maestro/access/access-overview.md)
       * [Concedere l’accesso a Adobe Maestro](maestro/access/grant-access.md)
    * Record Adobe Maestro {#adobe-maestro-records}
-      * [Informazioni sui record](maestro/records/records-information.md)
+      * [Record: indice articolo](maestro/records/records-information.md)
       * [Crea record](maestro/records/create-records.md)
       * [Collega record](maestro/records/connect-records.md)
       * [Modifica record](maestro/records/edit-records.md)
       * [Elimina record](maestro/records/delete-records.md)
       * [Condividere i record](maestro/records/share-records.md)
+      * [Gestisci commenti record](maestro/records/manage-record-comments.md)
    * Adobe Visualizzazioni Maestro {#adobe-maestro-views}
-      * [Informazioni sulle visualizzazioni](maestro/views/views-information.md)
+      * [Visualizzazioni: indice articolo](maestro/views/views-information.md)
       * [Gestire le visualizzazioni record](maestro/views/manage-record-views.md)
       * [Gestire la vista tabella](maestro/views/manage-the-table-view.md)
       * [Gestire la visualizzazione della timeline](maestro/views/manage-the-timeline-view.md)

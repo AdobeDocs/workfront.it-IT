@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,8 @@ Accedi ai seguenti articoli per una panoramica di Adobe Maestro:
 
 Le sezioni seguenti contengono articoli che descrivono in dettaglio le funzioni Maestro attualmente disponibili:
 
-* [Informazioni di accesso](../maestro/access/access-information.md): informazioni sull’accesso e le autorizzazioni necessarie per utilizzare Adobe Maestro.
-* [Informazioni sull&#39;architettura](../maestro/architecture/architecture-information.md): informazioni approfondite sull’architettura di Adobe Maestro, con istruzioni dettagliate su come creare e gestire aree di lavoro e tipi di record.
-* [Informazioni sui campi](../maestro/fields/fields-information.md): informazioni approfondite e istruzioni dettagliate sulla creazione di campi personalizzati per i tipi di record Maestro.
-* [Informazioni sui record](../maestro/records/records-information.md): informazioni approfondite e istruzioni dettagliate su come creare e gestire i record.
-* [Informazioni sulle visualizzazioni](../maestro/views/views-information.md): informazioni approfondite sulle visualizzazioni Maestro e su come gestirle quando visualizzi i record in una pagina di tipo record.
+* [Accesso: indice articolo](../maestro/access/access-information.md): informazioni sull’accesso e le autorizzazioni necessarie per utilizzare Adobe Maestro.
+* [Architettura: indice degli articoli](../maestro/architecture/architecture-information.md): informazioni approfondite sull’architettura di Adobe Maestro, con istruzioni dettagliate su come creare e gestire aree di lavoro e tipi di record.
+* [Campi: indice articolo](../maestro/fields/fields-information.md): informazioni approfondite e istruzioni dettagliate sulla creazione di campi personalizzati per i tipi di record Maestro.
+* [Record: indice articolo](../maestro/records/records-information.md): informazioni approfondite e istruzioni dettagliate su come creare e gestire i record.
+* [Visualizzazioni: indice articolo](../maestro/views/views-information.md): informazioni approfondite sulle visualizzazioni Maestro e su come gestirle quando visualizzi i record in una pagina di tipo record.

@@ -1,17 +1,18 @@
 ---
-title: Campi Adobe Maestro
+title: "Campi: indice articolo"
 description: In Adobe Maestro puoi aggiungere nuovi campi che riflettono il ciclo di vita della tua organizzazione. I campi sono attributi dei tipi di record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+exl-id: d06028d9-9230-4a6c-a227-20618067192c
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
 
-# Informazioni campo
+# Campi: indice articolo
 
 <!--
 title: Adobe Maestro fields
@@ -44,5 +45,3 @@ Gli articoli nelle sezioni seguenti descrivono come creare e configurare i campi
 * [Modifica campi](../fields/edit-fields.md)
 * [Elimina campi](../fields/delete-fields.md)
   <!--* [Formula fields](../fields/formula-fields.md)-->
-
-

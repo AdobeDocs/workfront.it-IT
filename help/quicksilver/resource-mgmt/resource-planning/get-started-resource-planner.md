@@ -2,203 +2,204 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Panoramica di Resource Planner
-description: È possibile stimare e preventivare l'allocazione delle risorse ai progetti a cui sono assegnate e prevedere la loro disponibilità per il lavoro futuro utilizzando il Resource Planner.
+title: Panoramica di Programmazione delle risorse
+description: È possibile stimare e preventivare l'allocazione delle risorse ai progetti a cui sono assegnate e prevedere la loro disponibilità per il lavoro futuro utilizzando la Programmazione risorse.
 author: Alina
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: ec49a7d3adeb24c1b8df0ff5fafe650d18d92280
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
 
-# Panoramica di Resource Planner
+# Panoramica di Programmazione delle risorse
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
 -->
 
-È possibile stimare e preventivare l&#39;allocazione delle risorse ai progetti a cui sono assegnate e prevedere la loro disponibilità per il lavoro futuro utilizzando il Resource Planner.
+È possibile stimare e preventivare l&#39;allocazione delle risorse ai progetti a cui sono assegnate e prevedere la loro disponibilità per il lavoro futuro utilizzando la Programmazione risorse.
 
-Per una panoramica generale della pianificazione delle risorse in Adobe Workfront, consulta l’articolo [Guida introduttiva alla pianificazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
+Per una panoramica generale della pianificazione delle risorse in Adobe Workfront, vedi l’articolo [Introduzione alla pianificazione delle risorse](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-## Panoramica di Resource Planner
+## Panoramica di Programmazione delle risorse
 
-È possibile utilizzare il Planner risorse per comprendere facilmente la disponibilità di utenti e ruoli di lavoro, nonché il tempo pianificato necessario per completare il lavoro sui progetti. Puoi quindi decidere come allocare gli utenti e i loro ruoli di lavoro in base ai progetti a cui sono assegnati in base al tempo disponibile.
+È possibile utilizzare la Programmazione delle risorse per comprendere facilmente la disponibilità di utenti e mansioni, nonché il tempo pianificato necessario per completare il lavoro sui progetti. Puoi quindi decidere come allocare gli utenti e le loro mansioni ai progetti a cui sono assegnati in base al tempo disponibile.
 
 >[!IMPORTANT]
 >
->Non è possibile utilizzare il Planner risorse per assegnare agli utenti il lavoro effettivo (attività e problemi). È possibile stimare solo il tempo necessario agli utenti o ai ruoli del lavoro per completare un progetto, indipendentemente dalle attività e dai problemi a cui sono assegnati.\
->Per assegnare il lavoro effettivo agli utenti è necessario utilizzare il servizio di bilanciamento del carico di lavoro. Per ulteriori informazioni sul servizio di bilanciamento del carico di lavoro, vedi [Panoramica del servizio di bilanciamento del carico di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Non è possibile utilizzare la Programmazione delle risorse per assegnare il lavoro effettivo (attività e problemi) agli utenti. È possibile solo stimare il tempo necessario affinché gli utenti o le mansioni completino un progetto, indipendentemente dalle attività e dai problemi a cui sono assegnati.\
+>Per assegnare il lavoro effettivo agli utenti è necessario utilizzare il Bilanciatore dei carichi di lavoro. Per ulteriori informazioni sul Bilanciatore dei carichi di lavoro, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-È possibile visualizzare le informazioni nel Planner risorse utilizzando tre viste separate. È possibile utilizzare ogni visualizzazione per soddisfare uno dei seguenti obiettivi:
+È possibile visualizzare le informazioni nella Programmazione delle risorse utilizzando tre visualizzazioni separate. È possibile utilizzare ciascuna visualizzazione per eseguire una delle seguenti operazioni:
 
-* Per eseguire il budget del tempo o del costo delle risorse per il lavoro da eseguire utilizzando le visualizzazioni Progetto e Ruolo . Questo è lo scopo principale del Planner risorse.\
-   Per ulteriori informazioni sull&#39;impostazione del budget in Resource Planner, vedere l&#39;articolo [Risorse di budget nel planner risorse utilizzando le visualizzazioni Progetto e Ruolo](../resource-planning/budget-resources-project-role-views-resource-planner.md).
+* Preventivare il tempo o il costo delle risorse per il lavoro da eseguire utilizzando le visualizzazioni Progetto e Ruolo. Questo è lo scopo principale della Programmazione delle risorse.\
+  Per ulteriori informazioni sulla definizione del budget nella Programmazione delle risorse, vedere l&#39;articolo [Risorse preventivate nella Programmazione delle risorse utilizzando le viste Progetto e Ruolo](../resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-* Per visualizzare le seguenti informazioni utilizzando la visualizzazione Utente:
+* Per visualizzare le seguenti informazioni utilizzando la vista Utente:
 
    * la disponibilità degli utenti in base alla loro pianificazione
-   * il tempo previsto necessario per completare il lavoro secondo il piano di progetto.
-   * il tempo di accesso degli utenti agli elementi di lavoro effettivi.
+   * la quantità di tempo pianificata necessaria per completare il lavoro in base al piano del progetto.
+   * la quantità di tempo per cui gli utenti hanno già effettuato l&#39;accesso agli elementi di lavoro effettivi.
 
-   Per ulteriori informazioni sulla visualizzazione di Ore disponibili, pianificate e effettive o FTE per gli utenti nel Planner risorse, vedere l&#39;articolo [Visualizza Ore disponibili, pianificate e effettive o FTE nel planner risorse quando si utilizza la visualizzazione Utente](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
+  Per ulteriori informazioni sulla visualizzazione delle ore disponibili, pianificate ed effettive o FTE per gli utenti nella Programmazione delle risorse, vedere l&#39;articolo [Visualizzare le ore disponibili, pianificate ed effettive o FTE nella Programmazione delle risorse quando si utilizza la vista Utente](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
-## Considerazioni sul planner risorse
+## Considerazioni sulla programmazione delle risorse
 
-* Puoi assegnare priorità ai progetti su cui stai lavorando e assegnare le risorse in base alla loro priorità, per assicurarti di disporre delle risorse assegnate prima ai progetti più importanti.
+* È possibile assegnare un ordine di priorità ai progetti su cui si sta lavorando e assegnare un budget all&#39;allocazione delle risorse in base alla relativa priorità, in modo da assicurarsi che le risorse siano allocate prima ai progetti più importanti.
 
-   Per informazioni sulla priorità dei progetti nel Planner risorse, vedi [Assegnare priorità ai progetti nel planner risorse](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+  Per informazioni sull&#39;assegnazione delle priorità ai progetti nella Programmazione delle risorse, vedi [Assegna priorità ai progetti nella Programmazione delle risorse](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
-* È possibile visualizzare informazioni su ore, FTE e costi derivanti dalle attività e dai problemi dei progetti.
+* È possibile visualizzare ore, FTE e informazioni sui costi dalle attività e dai problemi dei progetti.
 
-   >[!NOTE]
-   >
-   >Le attività e i problemi non vengono visualizzati nel Planner risorse. Tuttavia, le informazioni su ore, FTE e costi derivanti dalle allocazioni di risorse sulle attività vengono visualizzate nel Planner risorse come numero totale per il progetto.
+  >[!NOTE]
+  >
+  >Le attività e i problemi non vengono visualizzati nella Programmazione delle risorse. Tuttavia, le informazioni su ore, FTE e costi relative alle allocazioni di risorse nelle attività vengono visualizzate nella Programmazione risorse come numero totale per il progetto.
 
-* Le informazioni relative all&#39;ora, all&#39;FTE e ai costi delle attività principali sono escluse dai progetti visualizzati nel Planner risorse. È consigliabile assegnare le risorse solo alle attività secondarie se si desidera gestire il tempo o il costo di tali risorse nel Planner risorse.
+* Le informazioni su ore, FTE e costi delle attività padre sono escluse dai progetti visualizzati nella Programmazione delle risorse. È consigliabile assegnare le risorse solo alle attività figlio se si desidera gestire il tempo o il costo di tali risorse nella Programmazione delle risorse.
 
-   Per informazioni sulle attività principali, vedere i seguenti articoli:
+  Per informazioni sulle attività padre, vedere gli articoli seguenti:
 
    * [Panoramica delle attività](../../manage-work/tasks/task-information/tasks-overview.md)
-   * [Creare sottoattività](../../manage-work/tasks/create-tasks/create-subtasks.md)
+   * [Crea sottoattività](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
-   >[!TIP]
-   >
-   >Le attività padre presentano un totale delle ore e dei costi delle attività figlio. Per questo motivo, il conteggio di ore, FTE e costi delle attività figlio e delle attività padre conteggiava questi importi due volte. Per questo motivo le informazioni sull&#39;attività padre vengono escluse dal Planner risorse.
+  >[!TIP]
+  >
+  >Le attività padre visualizzano un totale di ore e costi delle attività figlio. Per questo motivo, il conteggio delle ore, dell&#39;FTE e del costo delle attività figlio e delle attività padre conteggerebbe questi importi due volte. Per questo motivo le informazioni sull&#39;attività padre vengono escluse dalla Programmazione risorse.
 
-* Non è possibile gestire l’allocazione dei team nei progetti per i quali hanno attività o problemi nel Planner risorse.
-* È possibile allocare risorse per più progetti alla volta utilizzando il Planner risorse o per un singolo progetto utilizzando l&#39;area Budget risorse del Business Case. Le informazioni di budget per un progetto vengono visualizzate anche nel Planner risorse.
+* Non è possibile gestire l&#39;allocazione di team nei progetti per i quali sono presenti attività o problemi nella Programmazione delle risorse.
+* È possibile preventivare le risorse per più progetti alla volta utilizzando la Programmazione risorse oppure per un singolo progetto utilizzando l&#39;area Budget risorse del Business Case. Le informazioni preventivate per un progetto vengono visualizzate anche nella Programmazione delle risorse.
 
-   Per informazioni sulle modalità di budget delle risorse per un singolo progetto, consulta l’articolo [Risorse di budget nel Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Per informazioni su come preventivare le risorse per un singolo progetto, consulta l’articolo [Risorse di budget nel Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-   Per informazioni sulle modalità di budget delle risorse nel Planner risorse per più progetti alla volta, vedere la sezione &quot;Risorse di budget nel Planner risorse&quot; nell&#39;articolo [Risorse di budget nel planner risorse utilizzando le visualizzazioni Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+  Per informazioni su come preventivare le risorse nella Programmazione delle risorse per più progetti contemporaneamente, vedere la sezione &quot;Risorse preventivate nella Programmazione delle risorse&quot; nell&#39;articolo [Risorse preventivate nella Programmazione delle risorse utilizzando le viste Progetto e Ruolo](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-## Prerequisiti per l’utilizzo del planner risorse {#prerequisites-for-working-in-the-resource-planner}
+## Prerequisiti per lavorare nella Programmazione delle risorse {#prerequisites-for-working-in-the-resource-planner}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(<b>THIS SECTION IS LINKED TO ALL RES PLANNING ARTICLES. DO NOT RENAME OF DELETE THIS!</b> - do NOT ADD the variable here, because it might break this link!)</p>
 -->
 
-Per utilizzare correttamente il Planner risorse per l&#39;impostazione del budget delle risorse, è innanzitutto necessario assicurarsi che tu, i tuoi progetti e le tue attività soddisfino un insieme di prerequisiti. Questi prerequisiti sono obbligatori per visualizzare le informazioni corrette nel Planner risorse e per gestire con precisione le risorse.
+Per utilizzare correttamente la Pianificazione risorse per la definizione del budget delle risorse, è necessario innanzitutto verificare che i progetti e le attività soddisfino una serie di prerequisiti. Questi prerequisiti sono obbligatori per visualizzare le informazioni corrette nella Programmazione delle risorse e per gestire in modo accurato le risorse.
 
 >[!IMPORTANT]
 >
->Se manca uno dei seguenti prerequisiti, è possibile che alcune informazioni sull&#39;allocazione o sulla disponibilità delle risorse siano mancanti o abbiano un valore zero.\
->Per ulteriori informazioni sui motivi per cui i campi mancano di dati o hanno valori zero, passa il cursore del mouse sui campi.
+>Se manca uno dei seguenti prerequisiti, alcune informazioni sull’allocazione o sulla disponibilità delle risorse potrebbero essere mancanti o avere un valore zero.\
+>Per ulteriori informazioni sul motivo per cui i campi non contengono dati o non contengono valori, passa il puntatore del mouse sui campi.
 
 ![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
->I prerequisiti seguenti sono necessari solo quando si visualizza il Planner risorse per progetto o per ruolo di lavoro o quando si inseriscono risorse nel budget nel Business case di un progetto.
+>I seguenti prerequisiti sono necessari solo quando si visualizza la Programmazione delle risorse per progetto o per mansione o quando si definiscono i budget delle risorse nel Business Case di un progetto.
 
-I seguenti tipi di prerequisiti sono necessari per la corretta funzionalità del Planner risorse quando lo si visualizza per progetto o per ruolo:
+I seguenti tipi di prerequisiti sono necessari per la corretta funzionalità di Programmazione delle risorse quando la si visualizza in base al progetto o al ruolo:
 
 * [Prerequisiti utente](#user-prerequisites)
-* [Prerequisiti per il progetto](#project-prerequisites)
-* [Attività e problemi prerequisiti](#tasks-and-issues-prerequisites)
+* [Prerequisiti del progetto](#project-prerequisites)
+* [Prerequisiti per attività e problemi](#tasks-and-issues-prerequisites)
 * [Prerequisiti a livello di sistema](#system-level-prerequisites)
 
 ### Prerequisiti utente {#user-prerequisites}
 
-Verificare che esista la seguente configurazione utente prima di iniziare a utilizzare il Planner risorse:
+Prima di iniziare a utilizzare la Programmazione risorse, accertati che sia presente la seguente configurazione utente:
 
-* Accesso corretto alle risorse di budget.
+* L&#39;accesso alle risorse del budget è corretto.
 
-   Per informazioni sull&#39;accesso necessario alle risorse di budget, consulta l&#39;articolo [Accesso necessario alle risorse di budget in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Per informazioni sull&#39;accesso necessario alle risorse del budget, vedere l&#39;articolo [Accesso necessario per preventivare le risorse in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Gli utenti assegnati alle attività vengono aggiunti ai pool di risorse associati al progetto.
 
-   Per informazioni sull’aggiunta di utenti ai pool di risorse, consulta [Associare pool di risorse con gli utenti](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+  Per informazioni sull&#39;aggiunta di utenti ai pool di risorse, vedere [Associa i pool di risorse agli utenti](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
 
-   >[!NOTE]
-   >
-   >Quando gli utenti non vengono aggiunti ai pool di risorse, possono esistere i seguenti scenari:
-   >
-   >   
-   >   
-   >   * Gli utenti non vengono visualizzati nel Planner risorse anche se possono essere assegnati a attività sui progetti.
-   >   * Se le attività a cui sono associate hanno orari pianificati, tali ore non vengono visualizzate nel Planner risorse per il progetto, a meno che l&#39;utente non sia associato anche a un ruolo di lavoro per tali attività.
-   >   * Se gli utenti sono associati a un ruolo di lavoro in un&#39;attività del progetto, nel Planner risorse viene visualizzato l&#39;orario pianificato per il ruolo di lavoro, ma il ruolo di lavoro non può essere inserito in budget.
+  >[!NOTE]
+  >
+  >Quando gli utenti non vengono aggiunti ai pool di risorse, possono verificarsi i seguenti scenari:
+  >
+  >   
+  >   
+  >   * Gli utenti non vengono visualizzati nella Programmazione delle risorse, anche se potrebbero essere assegnati ad attività sui progetti.
+  >   * Se le attività a cui sono associate hanno Ore pianificate, queste non vengono visualizzate per il progetto nella Programmazione delle risorse, a meno che l&#39;utente non sia associato anche a una mansione per tali attività.
+  >   * Se gli utenti sono associati a una mansione in un&#39;attività del progetto, le ore pianificate vengono visualizzate nella Programmazione delle risorse per la mansione, ma questa non può essere preventivata.
+  >   
+  >
 
+* Gli utenti assegnati ai gruppi di lavoro e di risorse devono avere Schedules e Ruoli associati al loro profilo.
 
-* Gli utenti assegnati a pool di lavoro e risorse devono disporre di Pianificazioni e Ruoli lavoro associati al loro profilo.
+  Per informazioni sull&#39;associazione di pianificazioni e mansioni agli utenti, vedere [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Per informazioni sull&#39;associazione di Pianificazioni e Ruoli processo con gli utenti, consulta [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  >[!NOTE]
+  >
+  >Gli utenti che non sono associati a una pianificazione ma si trovano nel gruppo di risorse del progetto non possono essere inseriti nel budget nella pianificazione risorse.
 
-   >[!NOTE]
-   >
-   >Gli utenti che non sono associati a un programma ma che si trovano nel pool di risorse del progetto non possono essere inseriti in budget nel Planner risorse.
+* Per ottenere informazioni precise sulle ore disponibili, accertati che le pianificazioni associate agli utenti presentino le eccezioni alla pianificazione e il tempo libero aggiornato.
 
-* Per informazioni precise sulle ore disponibili, assicurati che le pianificazioni associate agli utenti dispongano delle eccezioni di pianificazione e del tempo di inattività aggiornati.
+  >[!NOTE]
+  >
+  >Se un utente non è associato a una pianificazione, la pianificazione predefinita del sistema Workfront viene associata all&#39;utente per impostazione predefinita, ai fini della pianificazione delle risorse.
 
-   >[!NOTE]
-   >
-   >Se un utente non è associato a una pianificazione, la pianificazione predefinita del sistema Workfront è associata all&#39;utente per impostazione predefinita, ai fini del planner risorse.
+  Per informazioni sulla creazione di pianificazioni, vedere l&#39;articolo [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   Per informazioni sulla creazione delle pianificazioni, consulta l’articolo [Creare una pianificazione](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+* Se si desidera preventivare le risorse in base al costo, è necessario associare i ruoli mansione a Costo/Ora. tariffe. Il costo associato alle mansioni assegnate agli utenti nei pool di risorse viene utilizzato per calcolare il costo manodopera preventivato e il costo preventivato del progetto.\
+  Per informazioni sull&#39;associazione di mansioni alle tariffe, vedere l&#39;articolo [Creare e gestire le mansioni](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+  Per informazioni sul calcolo del costo manodopera preventivato, vedere l&#39;articolo [Comprendere il costo manodopera preventivato e le ore preventivate per i progetti](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
+  Per informazioni sul calcolo del costo preventivato, vedere l&#39;articolo [Calcola costo preventivato](../../manage-work/projects/project-finances/budgeted-cost.md).
 
-* Se si desidera eseguire il budget delle risorse in base al costo, è necessario associare i ruoli processo a Costo/Ora. tariffe. Il costo associato ai ruoli di lavoro assegnati agli utenti nei pool di risorse viene utilizzato per calcolare il costo del lavoro in budget e il costo in budget del progetto.\
-   Per informazioni sull&#39;associazione dei ruoli di lavoro con le tariffe, vedere l&#39;articolo [Creare e gestire ruoli di lavoro](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-   Per informazioni sul calcolo del costo del lavoro a budget, vedere l&#39;articolo [Comprendere i costi del lavoro e le ore previste per i progetti](../../manage-work/projects/project-finances/budgeted-labor-cost.md).\
-   Per informazioni sul calcolo del costo preventivato, vedere l&#39;articolo [Calcola costo preventivato](../../manage-work/projects/project-finances/budgeted-cost.md).
+### Prerequisiti del progetto {#project-prerequisites}
 
-### Prerequisiti per il progetto {#project-prerequisites}
-
-Verificare che esista la seguente configurazione del progetto prima di iniziare a utilizzare il Planner risorse:
+Prima di iniziare a utilizzare la Programmazione risorse, verifica che sia presente la seguente configurazione del progetto:
 
 * I progetti sono associati a pool di risorse.\
-   Per ulteriori informazioni sull’aggiunta di pool di risorse ai progetti, consulta [Associare pool di risorse a progetti e modelli](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
+  Per ulteriori informazioni sull’aggiunta di pool di risorse ai progetti, consulta [Associare i pool di risorse a progetti e modelli](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
 
-   >[!IMPORTANT]
-   >
-   >Nei progetti senza pool di risorse non vengono visualizzate le informazioni relative all&#39;ora pianificata o alle assegnazioni nel planner risorse.
+  >[!IMPORTANT]
+  >
+  >Nei progetti senza gruppi di risorse non vengono visualizzate le informazioni sull&#39;Ora pianificata o sulle assegnazioni nella Programmazione delle risorse.
 
-### Attività e problemi prerequisiti {#tasks-and-issues-prerequisites}
+### Prerequisiti per attività e problemi {#tasks-and-issues-prerequisites}
 
-Sebbene non sia possibile visualizzare attività e problemi nel Planner risorse, le relative informazioni vengono trasferite ai progetti visualizzati nel Planner risorse .
+Sebbene non sia possibile visualizzare attività e problemi nella Programmazione risorse, le relative informazioni vengono trasferite ai progetti visualizzati nella Programmazione risorse.
 
-Prima di avviare le risorse di budget in Resource Planner, verificare che l&#39;attività e la configurazione del problema seguenti siano presenti:
+Prima di iniziare a definire il budget delle risorse nella Programmazione risorse, verificare che siano presenti le seguenti impostazioni relative a attività e problemi:
 
-* Le attività o i problemi relativi ai progetti per i quali vengono assegnate risorse di budget a una delle seguenti entità:
+* Le attività o i problemi relativi ai progetti per i quali si stanno preventivando le risorse vengono assegnati a una delle seguenti entità:
 
-   * Utenti nei pool di risorse del progetto associati anche a Ruoli lavoro
+   * Utenti nei gruppi di risorse del progetto associati anche a Ruoli
    * Ruoli
 
-   >[!NOTE]
-   >
-   >L&#39;orario pianificato delle attività e dei problemi assegnati ai ruoli del lavoro viene visualizzato nel Planner risorse, ma queste ore non possono essere iscritte in budget a meno che un utente associato al ruolo del lavoro non sia elencato in un pool di risorse associato al progetto.
+  >[!NOTE]
+  >
+  >Le ore pianificate delle attività e dei problemi assegnati alle mansioni vengono visualizzate nella Programmazione delle risorse, ma non possono essere preventivate a meno che un utente associato alla mansione non sia elencato in un pool di risorse associato al progetto.
 
-* Non assegnare attività principali a utenti o ruoli.
+* Non assegnare le attività padre a utenti o ruoli.
 
-   Per visualizzare le informazioni sulle ore nel Planner risorse per gli utenti o i ruoli associati alle attività principali, è necessario assegnarle anche alle attività secondarie. Il Planner risorse non visualizza informazioni relative alle attività principali.
+  Per visualizzare le informazioni sulle ore nella Programmazione delle risorse per gli utenti o i ruoli associati alle attività padre, è necessario assegnarli anche alle attività figlio. La Programmazione delle risorse non visualizza le informazioni delle attività padre.
 
-* Le attività e i problemi hanno un valore per Orari pianificati maggiore di zero.
-* Le attività e i problemi hanno un valore per la loro Durata maggiore di zero.
-* Le date pianificate dei problemi si trovano nella timeline del progetto.
+* Le attività e i problemi hanno un valore per Ore pianificate maggiore di zero.
+* Le attività e i problemi hanno un valore per la durata maggiore di zero.
+* Le Date Pianificate dei problemi rientrano nella timeline del progetto.
 
 ### Prerequisiti a livello di sistema {#system-level-prerequisites}
 
-È necessario comprendere in che modo l’istanza di Workfront calcola la disponibilità dell’utente in base alle preferenze di gestione delle risorse nel sistema. Workfront può calcolare la disponibilità dell’utente utilizzando la pianificazione dell’utente definita nella pagina Profilo utente o nella pianificazione predefinita del sistema.
+È necessario comprendere in che modo l&#39;istanza di Workfront calcola la disponibilità dell&#39;utente in base alle preferenze di gestione delle risorse del sistema. Workfront può calcolare la disponibilità dell&#39;utente utilizzando la pianificazione definita nella pagina Profilo utente o la pianificazione predefinita del sistema.
 
 ![](assets/resource-management-preferences-section-in-setup-350x89.png)
 
-L&#39;amministratore Workfront configura le preferenze di gestione delle risorse.
+L&#39;amministratore di Workfront configura le preferenze di gestione delle risorse.
 
 Per ulteriori informazioni, consulta [Configurare le preferenze di Gestione risorse](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-## Individua il planner risorse
+## Individua la Programmazione delle risorse
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This became another standalone article; drfat this section here when article is live.)</p>
 -->
 
-È possibile individuare il Planner risorse in due aree di Workfront, a seconda che si desideri assegnare il budget alle risorse per più progetti o per un solo progetto.
+È possibile individuare la Programmazione delle risorse in due aree di Workfront, a seconda che si desideri preventivare le risorse per più progetti o per un solo progetto.
 
-Per informazioni su come individuare il planner risorse, vedere [Individua il planner risorse](../../resource-mgmt/resource-planning/locate-resource-planner.md).
+Per informazioni sull&#39;individuazione della Programmazione delle risorse, vedere [Individua la Programmazione delle risorse](../../resource-mgmt/resource-planning/locate-resource-planner.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -230,50 +231,50 @@ You can only add a resource pool in the Resource Budgeting area of the Business 
 </div>
 -->
 
-## Aree del planner risorse
+## Aree della Programmazione delle risorse
 
-È possibile visualizzare le informazioni seguenti o eseguire le azioni seguenti nel Planner risorse:
+È possibile visualizzare le informazioni seguenti o eseguire le azioni seguenti nella Programmazione risorse:
 
-* Informazioni sulle risorse assegnate ai progetti nel Planner risorse in una cronologia generale.
-* Sovrallocazione o sottoutilizzo delle risorse nel Planner risorse.
-* Budget le risorse per lavorare manualmente o automaticamente.
+* Informazioni generali sulle risorse assegnate ai progetti nella Programmazione delle risorse.
+* Sovrassegnazione o sottoutilizzo delle risorse nella pianificazione risorse.
+* Preventivare le risorse per il lavoro manualmente o automaticamente.
 
-Per ulteriori informazioni sulle aree da visualizzare nel Planner risorse e su come configurare le informazioni da visualizzare in queste aree, vedere l&#39;articolo [Panoramica sulla navigazione in planner risorse](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Per ulteriori informazioni sulle aree visualizzate nella Programmazione delle risorse e su come configurare le informazioni visualizzate in tali aree, vedere l&#39;articolo [Panoramica sulla navigazione in Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-## Limitazioni nella visualizzazione delle informazioni nel Planner risorse
+## Limitazioni nella visualizzazione delle informazioni nella pianificazione risorse
 
-Per migliorare le prestazioni, Workfront limita la quantità di elementi che è possibile visualizzare nel planner risorse.
+Per migliorare le prestazioni, Workfront limita la quantità di elementi che è possibile visualizzare nella Programmazione delle risorse.
 
-Per ulteriori informazioni su queste limitazioni, consulta l’articolo [Limitazioni della visualizzazione di Resource Planner](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
+Per ulteriori informazioni su queste limitazioni, consulta l’articolo [Limitazioni della visualizzazione di Programmazione delle risorse](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
 
-## Calcola FTE nel planner risorse
+## Calcola FTE nella Programmazione delle risorse
 
-È possibile visualizzare la disponibilità, l&#39;allocazione e i valori pianificati nel Planner risorse in ore, FTE o Costo.
+È possibile visualizzare la disponibilità, l&#39;allocazione e i valori pianificati nella Programmazione risorse in Ore, FTE o Costo.
 
-Per ulteriori informazioni sulla modifica delle informazioni visualizzate nel Planner risorse, vedere la sezione [Visualizza le informazioni per ora, FTE o Costo](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) nell&#39;articolo [Verifica la disponibilità e l’allocazione delle risorse utilizzando Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+Per ulteriori informazioni sulla modifica delle informazioni visualizzate nella Programmazione delle risorse, vedere la sezione [Visualizza le informazioni per Ora, FTE o Costo](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) nell’articolo [Verificare la disponibilità e l&#39;allocazione delle risorse mediante Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
-Per ulteriori informazioni sul calcolo delle ore e degli FTE per utenti e ruoli in Workfront, consulta l’articolo [Panoramica del calcolo delle ore e degli FTE per utenti e ruoli nel Planner risorse](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Per ulteriori informazioni sul calcolo di Ore ed FTE per utenti e ruoli in Workfront, consulta l’articolo [Panoramica del calcolo delle ore e dell&#39;FTE per utenti e ruoli nella pianificazione risorse](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-## Calcolare i costi nel planner risorse
+## Calcola costi nella programmazione delle risorse
 
-Per visualizzare le informazioni in base al costo nel planner risorse, è necessario disporre dell&#39;accesso Visualizza dati finanziari e Visualizza autorizzazioni di finanziamento per i progetti.
+Per visualizzare le informazioni in base al costo nella Programmazione risorse, è necessario disporre dell&#39;accesso di visualizzazione ai dati finanziari e delle autorizzazioni di visualizzazione per contabilità sui progetti.
 
-Oltre a visualizzare la disponibilità, l&#39;allocazione e i valori pianificati nel Planner risorse in ore e FTE, puoi anche visualizzarli per costo.
+Oltre a visualizzare i valori di disponibilità, allocazione e pianificati nella Programmazione delle risorse in Ore e FTE, è possibile visualizzarli per Costo.
 
 >[!TIP]
 >
->Per visualizzare le informazioni in base ai costi nel planner risorse, è necessario associare gli utenti e i ruoli lavoro ai tassi di costo per ora.
+>È necessario associare gli utenti e le mansioni alle tariffe Costo orario per visualizzare le informazioni in base ai costi nella Programmazione delle risorse.
 
-Per ulteriori informazioni sull&#39;associazione dei tassi di costo per ora con i ruoli di lavoro, consulta l&#39;articolo [Creare e gestire ruoli di lavoro](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
-Per ulteriori informazioni sull&#39;associazione delle tariffe di costo per ora con gli utenti, consulta l&#39;articolo [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Per ulteriori informazioni sull&#39;associazione delle tariffe orarie con le mansioni, vedere l&#39;articolo [Creare e gestire le mansioni](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+Per ulteriori informazioni sull&#39;associazione delle tariffe orarie agli utenti, vedere l&#39;articolo [Modificare il profilo di un utente](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Quando si visualizzano le informazioni in base al costo nel planner risorse, tenere presente quanto segue:
+Quando si visualizzano le informazioni in base al costo nella Programmazione risorse, tenere presente quanto segue:
 
-* Il costo di ogni tipo di ore (Pianificato, Disponibile, Preventivo, Effettivo per utenti, ruoli o progetti) viene calcolato utilizzando un diverso tasso di costo.
-* Il costo pianificato è influenzato dal tipo di costo delle attività relative ai progetti.
-* Quando si applica la visualizzazione utente al planner risorse, non è possibile visualizzare le informazioni di allocazione e disponibilità in base al costo.
+* Il costo di ciascun tipo di ore (Pianificato, Disponibile, Preventivato, Effettivo per Utenti, Ruoli o Progetti) viene calcolato utilizzando un tasso di costo diverso.
+* Il Costo Pianificato è influenzato dal Tipo di Costo delle attività sui progetti.
+* Quando si applica la Vista utente alla Programmazione delle risorse, non è possibile visualizzare le informazioni sull&#39;allocazione e sulla disponibilità in base al costo.
 
-Per ulteriori informazioni sul calcolo dei costi nel Planner risorse per utenti e ruoli, consulta l’articolo [Calcolare i costi nel planner risorse](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Per ulteriori informazioni sul metodo di calcolo dei costi nella pianificazione delle risorse per utenti e ruoli, vedere l&#39;articolo [Calcola i costi nella Programmazione delle risorse](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -288,7 +289,7 @@ Per ulteriori informazioni sul calcolo dei costi nel Planner risorse per utenti 
 </div>
 -->
 
-## Filtrare le informazioni nel planner risorse
+## Filtrare le informazioni nella Programmazione delle risorse
 
-È possibile ridurre il numero di progetti, ruoli o utenti visualizzati nel Planner risorse creando un filtro.\
-Per ulteriori informazioni, consulta l’articolo [Filtrare le informazioni nel planner risorse](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+È possibile ridurre il numero di progetti, ruoli o utenti visualizzati in Pianificazione risorse creando un filtro.\
+Per ulteriori informazioni, consulta l’articolo [Filtrare le informazioni nella Programmazione delle risorse](../../resource-mgmt/resource-planning/filter-resource-planner.md).

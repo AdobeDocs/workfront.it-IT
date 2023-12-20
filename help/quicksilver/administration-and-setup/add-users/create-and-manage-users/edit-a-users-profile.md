@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 81a5c0e3bc3b31223b0d584d4d20399cd0081d9d
+source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3369'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    <li><b>Mostra la percentuale di completamento dello stato di aggiornamento</b>: seleziona questa opzione se desideri visualizzare una barra della percentuale di completamento all’interno dell’area Aggiornamento delle attività dell’utente.</li> 
        <li><b>Invia il lavoro che assegno a me stesso alla mia scheda Lavori in corso</b>: seleziona questa opzione se desideri che tutto ciò che l’utente assegna a se stesso venga visualizzato direttamente nell’elenco Working On (Lavori su) nella sezione Home. L’impostazione predefinita consiste nell’elencare tutto ciò che è stato assegnato a un utente nell’elenco Pronto per l’avvio o Non pronto nell’area Home.</li> 
-       <li><b>Genera automaticamente delle bozze durante il caricamento dei documenti</b>: seleziona questa opzione se desideri che i documenti caricati dall’utente generino immediatamente una bozza. A seconda della licenza di verifica di Workfront, il numero totale di bozze disponibili da generare nel sistema per tutti gli utenti potrebbe essere influenzato quando gli utenti generano le bozze. </li>
+       <li><b>Genera automaticamente delle bozze durante il caricamento dei documenti</b>: seleziona questa opzione se desideri che i documenti caricati dall’utente generino immediatamente una bozza. </li>
        </ul> </td> 
      </tr> 
      <tr> 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
 workflow-type: tm+mt
-source-wordcount: '2698'
+source-wordcount: '2796'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,31 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Settimana del 18 dicembre 2023
+## Settimana del 18 dicembre 2024
+
+### Aggiungere commenti ai record dalla pagina Dettagli
+
+Anteprima e produzione per tutti i clienti: 18 dicembre 2023
+
+>[!NOTE]
+>
+>Con la versione di gennaio 2024, in produzione saranno disponibili le seguenti funzionalità:
+>
+>* Cerca commenti
+>
+>* Copiare e incollare immagini
+>
+>* Trascinare le immagini
+>
+>Per ulteriori informazioni, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+È ora possibile collaborare con altri utenti a singoli record aggiungendo commenti o rispondendo ad altri utenti mentre si visualizza un record nella pagina Dettagli.
+
+L’esperienza di commento per i record Maestro corrisponde alla nuova esperienza di commento per gli oggetti Workfront.
+
+Per ulteriori informazioni, consulta [Gestisci commenti record](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+## Settimana dell’11 dicembre 2023
 
 ### Aggiornare il campo principale in una visualizzazione tabella di un tipo di record
 
@@ -102,7 +126,7 @@ Per ulteriori informazioni, consulta [Gestisci vista tabella](/help/quicksilver/
 
 Versione di anteprima: 14 dicembre 2023
 
-Versione di produzione: 15 dicembre 2023
+Versione di produzione: pianificata per il 15 dicembre 2023
 
 >[!IMPORTANT]
 >
