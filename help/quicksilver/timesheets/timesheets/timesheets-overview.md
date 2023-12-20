@@ -7,9 +7,9 @@ description: Puoi utilizzare le schede orario per tenere traccia del tempo trasc
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Per accedere a una scheda orario:
 
 {{step1-to-timesheets}}
 
-Per impostazione predefinita, vengono visualizzate tutte le schede orario e le schede orario a cui hai accesso. Per informazioni sul layout della scheda orario in Adobe Workfront, consulta [Comprendere il layout della scheda orario](../../timesheets/timesheets/timesheet-layout.md).
+Per impostazione predefinita, vengono visualizzate tutte le schede orario e le schede orario a cui hai accesso. Per informazioni sul layout della scheda orario in Adobe Workfront, consulta [Panoramica del layout della scheda orario](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 

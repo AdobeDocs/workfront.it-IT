@@ -7,9 +7,9 @@ description: Il lavoro straordinario non viene calcolato per impostazione predef
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Per informazioni sull’associazione degli utenti alle tariffe orarie, consulta 
 
 >[!NOTE]
 >
->Nel campo Straordinari che è possibile aggiungere a una visualizzazione Scheda orario in un elenco o in un report vengono visualizzate le informazioni presenti nel campo Straordinari della scheda orario. Queste informazioni vengono aggiornate manualmente da un utente con accesso in modifica alla scheda orario. Per ulteriori informazioni sul campo Straordinari in una scheda orario, consulta l’articolo [Comprendere il layout della scheda orario](../../../timesheets/timesheets/timesheet-layout.md).
+>Nel campo Straordinari che è possibile aggiungere a una visualizzazione Scheda orario in un elenco o in un report vengono visualizzate le informazioni presenti nel campo Straordinari della scheda orario. Queste informazioni vengono aggiornate manualmente da un utente con accesso in modifica alla scheda orario. Per ulteriori informazioni sul campo Straordinari in una scheda orario, consulta l’articolo [Panoramica del layout della scheda orario](../../../timesheets/timesheets/timesheet-layout.md).
 
 ## Requisiti di accesso
 

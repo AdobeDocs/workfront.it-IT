@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13834'
 ht-degree: 0%
 
 ---
@@ -1905,7 +1905,7 @@ ht-degree: 0%
    * Dettagli Timesheet {#details}
       * [Dettagli scheda orario: indice articolo](timesheets/timesheets/timesheets.md)
       * [Panoramica schede orario](timesheets/timesheets/timesheets-overview.md)
-      * [Comprendere il layout della scheda orario](timesheets/timesheets/timesheet-layout.md)
+      * [Panoramica del layout della scheda orario](timesheets/timesheets/timesheet-layout.md)
    * Creare e gestire le schede orario {#create-and-manage-timesheets-in-adobe-workfront}
       * [Creare e gestire le schede orario: indice dell’articolo](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Creare, modificare e assegnare profili di schede orario](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)

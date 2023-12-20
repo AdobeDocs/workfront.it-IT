@@ -3,30 +3,30 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Campi personalizzati calcolati e colonne calcolate
-description: Scopri i dati personalizzati nei rapporti e nelle dashboard
+description: Per aggregare diversi campi in Adobe Workfront e visualizzare tale valore aggregato in un nuovo campo, è possibile creare un campo personalizzato calcolato in un modulo personalizzato o una colonna calcolata in una visualizzazione.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
 
 # Campi personalizzati calcolati e colonne calcolate
 
-Per aggregare diversi campi in Adobe Workfront e visualizzare tale valore aggregato in un nuovo campo, puoi effettuare le seguenti operazioni:
+Per aggregare diversi campi in Adobe Workfront e visualizzare tale valore aggregato in un nuovo campo, puoi creare quanto segue:
 
 * Campo personalizzato calcolato in un modulo personalizzato\
-  Per ulteriori informazioni sull’aggiunta di un campo personalizzato calcolato a un modulo personalizzato, consulta la sezione [Aggiungere un campo calcolato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) nell’articolo [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Per ulteriori informazioni sull’aggiunta di un campo personalizzato calcolato a un modulo personalizzato, consulta la sezione [Aggiungere un campo calcolato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) nell’articolo [Aggiungere dati calcolati a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-* Una colonna calcolata in una visualizzazione\
-  Per ulteriori informazioni sull&#39;utilizzo dei calcoli in una visualizzazione, vedere la sezione [Utilizzare la modalità testo nelle visualizzazioni](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) nell’articolo [Panoramica sugli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+* Colonna calcolata in una visualizzazione\
+  Per ulteriori informazioni sull&#39;utilizzo dei calcoli in una visualizzazione, vedere la sezione [Utilizzare la modalità testo nelle visualizzazioni](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) nell’articolo [Panoramica sugli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Sebbene si utilizzi la modalità testo per generare sia campi calcolati che colonne calcolate, la sintassi per la loro generazione è diversa. Per informazioni su come creare campi calcolati e colonne calcolate, consulta gli articoli elencati sopra. Per informazioni sulla diversa sintassi utilizzata nelle espressioni di dati calcolati, ad esempio campi e colonne personalizzati calcolati, vedere la sezione [Sintassi dei campi personalizzati calcolati rispetto alle colonne personalizzate calcolate](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) in questo articolo.
+Sebbene si utilizzi la modalità testo per generare sia campi calcolati che colonne calcolate, la sintassi per la loro generazione è diversa. Per informazioni su come creare campi calcolati e colonne calcolate, consulta gli articoli elencati sopra. Per informazioni sulla diversa sintassi utilizzata nelle espressioni di dati calcolati, ad esempio campi e colonne personalizzati calcolati, vedere la sezione [Sintassi dei campi personalizzati calcolati rispetto alle colonne personalizzate calcolate](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in questo articolo.
 
-È possibile utilizzare gli stessi calcoli sia nei campi calcolati che in una colonna calcolata. Tuttavia, a seconda dello scopo di questi calcoli, potresti voler considerare la creazione di uno rispetto all’altro.
+È possibile utilizzare gli stessi calcoli sia nei campi calcolati che in una colonna calcolata. Tuttavia, a seconda dello scopo di questi calcoli, potrebbe essere utile creare uno rispetto all&#39;altro.
 
 ## Sintassi dei campi personalizzati calcolati rispetto alle colonne personalizzate calcolate
 
@@ -36,25 +36,19 @@ Ad esempio:
 
 * In un campo personalizzato, in un modulo personalizzato per le attività, puoi utilizzare quanto segue per generare il nome del progetto principale dell’attività a cui è allegato il modulo personalizzato:
 
-  ```
-  {project}.{name}
-  ```
+  `{project}.{name}`
 
 * In una colonna personalizzata di un report, utilizzare quanto segue per aggiungere una colonna personalizzata Nome progetto a un report attività:
 
-  ```
-  valuefield=project:name
-  ```
+  `valuefield=project:name`
 
   Oppure
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
 
   >[!TIP]
   >
-  >La stessa sintassi si applica a tutti gli elementi di reporting in modalità testo in cui vengono utilizzate espressioni calcolate: viste, filtri, raggruppamenti, prompt.
+  >La stessa sintassi si applica a tutti gli elementi di reporting in modalità testo in cui vengono utilizzate espressioni calcolate: visualizzazioni, filtri, raggruppamenti e prompt.
 
 Le differenze tra le due sintassi sono:
 
@@ -63,8 +57,8 @@ Le differenze tra le due sintassi sono:
  <col> 
  <tbody> 
   <tr> 
-   <td>Campo personalizzato calcolato</td> 
-   <td>Elemento di reporting personalizzato calcolato</td> 
+   <td><strong>Campo personalizzato calcolato</strong></td>
+   <td><strong>Elemento di reporting personalizzato calcolato</strong></td> 
   </tr> 
   <tr> 
    <td> <p>Utilizza il nome dei campi così come sono visualizzati nell’interfaccia di Workfront.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span>Esempio di nome di campo utilizzato in un campo personalizzato calcolato: <code>Planned Completion Date</code>.</p> </td> 
@@ -76,7 +70,7 @@ Le differenze tra le due sintassi sono:
   </tr> 
   <tr> 
    <td>Separa i campi per periodi</td> 
-   <td> <p>Separa i campi con due punti quando li utilizzi in una <code>valuefield </code>linea</p> <p>Separa i campi per punti quando li utilizzi in una <code>valueexpression </code>linea. </p> </td> 
+   <td> <p>Separa i campi con due punti quando li utilizzi in una <code>valuefield</code>linea.</p> <p>Separa i campi per punti quando li utilizzi in una <code>valueexpression</code>linea.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,7 +108,7 @@ Per ulteriori informazioni sulla sintassi da utilizzare in una colonna personali
 
 Per esempi di campi personalizzati calcolati, consulta [Dati personalizzati calcolati nei rapporti](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-Per esempi di colonne personalizzate calcolate nelle visualizzazioni, consulta i seguenti articoli:
+Per esempi di colonne personalizzate calcolate nelle viste, vedi i seguenti articoli:
 
 * [Panoramica sugli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
