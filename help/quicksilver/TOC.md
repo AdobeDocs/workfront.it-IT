@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: ec254d4a81e92dc6e61afa852dde7d5d7ef5fc20
 workflow-type: tm+mt
-source-wordcount: '13836'
+source-wordcount: '13835'
 ht-degree: 0%
 
 ---
@@ -1504,7 +1504,7 @@ ht-degree: 0%
       * [Report](reports-and-dashboards/reports/reports-overview.md)
       * Nozioni di base sul reporting {#report-basics}
          * [Nozioni di base sul reporting](reports-and-dashboards/reports/reporting/reporting-basics.md)
-         * [Introduzione ai rapporti in Adobe Workfront](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+         * [Introduzione ai rapporti](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
          * [Salvare i rapporti predefiniti come nuovi rapporti](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
       * Elementi di reporting {#report-elements}
          * [Panoramica degli elementi di reporting](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
@@ -1562,7 +1562,7 @@ ht-degree: 0%
          * [Esempio di campo personalizzato calcolato: visualizzare un timestamp di stato in un modulo personalizzato](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
          * [Esempio di campo personalizzato calcolato: visualizzazione della cronologia di modifica di un campo](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
       * Esempi di visualizzazione, filtro e raggruppamento personalizzati {#custom-view-samples}
-         * [Esempi di visualizzazione, filtro e raggruppamento personalizzati](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+         * [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [Report o elenchi: visualizza gli utenti associati a un oggetto](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [Filtro: visualizzazione di predecessori tra progetti incompleti](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
          * [Filtro: visualizza successori tra progetti incompleti](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)

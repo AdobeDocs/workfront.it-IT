@@ -6,9 +6,9 @@ description: "NOTA: aggiungi una sezione in questo articolo: /Content/Reports an
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1035'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 È possibile modificare un filtro in un elenco o in un report utilizzando la modalità testo per accedere a campi non disponibili nell’interfaccia standard e creare filtri più complessi.
 
-Per ulteriori esempi in modalità testo durante la creazione di un filtro, consulta anche la sezione &quot;Esempi di filtri personalizzati&quot; nell’articolo [Esempi di visualizzazione, filtro e raggruppamento personalizzati](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+Per ulteriori esempi in modalità testo durante la creazione di un filtro, consulta anche la sezione &quot;Esempi di filtri personalizzati&quot; nell’articolo [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Requisiti di accesso
 
@@ -60,7 +60,7 @@ Per ulteriori informazioni, consulta:
 
 * [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Panoramica sulla sintassi della modalità testo](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Esempi di visualizzazione, filtro e raggruppamento personalizzati](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Modificare la modalità testo in un filtro
 
@@ -163,12 +163,19 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
 >[!NOTE]
 >
 >È possibile avere più istruzioni &quot;OR&quot; nello stesso filtro. Ogni volta che si dispone di una nuova istruzione &quot;OR&quot;, il numero dopo &quot;OR:&quot; aumenta.
+>
 Per filtrare le attività che si trovano nello stato In corso o che sono assegnate all&#39;utente connesso o che hanno la Data di completamento pianificata oggi, utilizza quanto segue:
+>
 `status=INP`
+>
 `status_Mod=in`
+>
 `OR:1:assignedToID=$$USER.ID`
+>
 `OR:1:assignedToID_Mod=in`
+>
 `OR:2:plannedCompletionDate=$$TODAY`
+>
 `OR:2:plannedCompletionDate_Mod=eq`
 
 1. Clic **Fine** se desideri salvare le modifiche e continuare a modificare il rapporto o il filtro.

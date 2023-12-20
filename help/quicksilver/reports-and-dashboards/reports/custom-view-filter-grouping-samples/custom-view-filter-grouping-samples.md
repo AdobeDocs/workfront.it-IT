@@ -2,20 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Esempi di visualizzazione, filtro e raggruppamento personalizzati
-description: Personalizza visualizzazione, filtro e raggruppamento di campioniArticolo corretto per il sommario". Non ho visto molto valore nell'organizzare questo per oggetti.)"
-author: Lisa and Nolan
+title: "Visualizzazione personalizzata, filtro e raggruppamento di esempi: indice articolo"
+description: Questa sezione fornisce esempi di visualizzazioni personalizzate, filtri e raggruppamenti che puoi utilizzare nel tuo account Adobe Workfront.
+author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: 417b8c081a1940b112e8cfbd6d9216d802dc8f8e
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
 
-# Esempi di visualizzazione, filtro e raggruppamento personalizzati
+# Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>

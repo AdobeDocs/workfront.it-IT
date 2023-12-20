@@ -6,10 +6,10 @@ description: È possibile modificare le impostazioni di un report per definirne 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 9%
+source-wordcount: '663'
+ht-degree: 6%
 
 ---
 
@@ -70,7 +70,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <td>Specifica un’istruzione che descriva lo scopo e gli utilizzi del rapporto.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Esegui il report con i diritti di accesso di</td> 
+      <td role="rowheader">Esegui questo report con i diritti di accesso di</td> 
       <td>Selezionare l'utente di cui si desidera utilizzare i diritti di accesso per la visualizzazione del report per altri utenti. Per ulteriori informazioni sull’esecuzione di un rapporto con i diritti di accesso di un altro utente, consulta l’articolo <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Eseguire e consegnare un report con i diritti di accesso di un altro utente</a>.</td> 
      </tr> 
      <tr> 
@@ -122,6 +122,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Vedi anche:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [Introduzione ai rapporti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Introduzione ai rapporti](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Utilizzare i rapporti incorporati di Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

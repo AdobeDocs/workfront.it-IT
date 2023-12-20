@@ -7,9 +7,9 @@ description: Scopri i dati personalizzati nei rapporti e nelle dashboard
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -117,4 +117,4 @@ Per esempi di campi personalizzati calcolati, consulta [Dati personalizzati calc
 Per esempi di colonne personalizzate calcolate nelle visualizzazioni, consulta i seguenti articoli:
 
 * [Panoramica sugli usi comuni della modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
-* [Esempi di visualizzazione, filtro e raggruppamento personalizzati](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

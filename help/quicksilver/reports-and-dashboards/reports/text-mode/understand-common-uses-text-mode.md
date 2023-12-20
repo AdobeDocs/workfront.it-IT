@@ -6,9 +6,9 @@ description: Panoramica sugli usi comuni della modalità testo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Puoi espandere le funzionalità di reporting utilizzando la modalità testo nei 
 
 Questo articolo illustra solo alcuni esempi comuni di dove probabilmente dovresti utilizzare la modalità testo per espandere le funzionalità di reporting o campi personalizzati calcolati in Adobe Workfront. Per un elenco più ampio di esempi, consulta:
 
-* [Esempi di visualizzazione, filtro e raggruppamento personalizzati](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Dati personalizzati calcolati nei rapporti](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
 Per ulteriori informazioni sulla creazione di rapporti utilizzando la modalità testo, inclusi classi, video e tutorial, consulta la sezione Informazioni sul sito Adobe Experience League.
