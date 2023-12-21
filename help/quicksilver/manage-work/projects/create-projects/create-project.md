@@ -6,9 +6,9 @@ description: Un progetto è una grande unità di lavoro in Adobe Workfront. Puoi
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1268'
 ht-degree: 1%
 
 ---
@@ -156,6 +156,11 @@ Considera quanto segue:
      Se utilizzi un modello durante la creazione del progetto convertendo il problema, consulta il secondo scenario qui sopra per capire quale gruppo e quale Stato di Workfront si applica al nuovo progetto.
 
 ## Creare un progetto da zero
+
+>[!NOTE]
+>
+>Se stai creando un progetto utilizzando un modello, ti consigliamo di visualizzare anche l’articolo [Creare un progetto utilizzando un modello](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
 
 1. Esegui una delle operazioni seguenti:
 

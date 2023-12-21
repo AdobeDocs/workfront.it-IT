@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3169'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 
 1. Fai clic su **+** nell&#39;angolo superiore destro della vista tabella per aggiungere nuovi campi.
-1. In **Nuovo campo** , selezionare uno dei seguenti tipi di campi:
+1. In **Nuovo campo** , cercare un tipo di campo nella scheda **Tipo di campo** o selezionare uno dei seguenti tipi di campi:
 
    * [Testo a riga singola](#single-line-text)
    * [Paragrafo](#paragraph)

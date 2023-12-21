@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,14 @@ Per informazioni su come un amministratore di Workfront può modificare il tuo l
 ## Considerazioni per la creazione e la gestione di modelli di layout
 
 * Gli utenti possono personalizzare alcune aree del proprio layout. Quando si modifica un modello di layout, le modifiche vengono unite alle personalizzazioni apportate senza sovrascriverle o reimpostarle. Ciò si verifica anche se si assegnano gli utenti a un nuovo modello di layout.
-* I precedenti modelli di layout creati in Adobe Workfront Classic sono stati automaticamente disponibili nell’istanza della nuova esperienza Adobe Workfront, da quando è stata effettuata la migrazione all’inizio di autunno 2019. I modelli di layout creati in Adobe Workfront Classic in seguito a tale data sono stati migrati nell’aprile 2020. È consigliabile aggiornare questi modelli di layout nella nuova esperienza Adobe Workfront per sfruttare le nuove funzionalità e renderli ancora più utili in tale ambiente.
 * Gli amministratori di gruppi e gli utenti con una licenza Pianificazione che possono modificare altri utenti possono aggiungere modelli di layout a livello di sistema e di gruppo agli utenti che possono gestire durante la modifica del profilo.
 * Gli amministratori di gruppi non possono assegnare modelli di layout a mansioni o team.
 
 Per ulteriori informazioni sui modelli di layout, vedere [Modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
+
+<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
+* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
+-->
 
 ## Creare o modificare un modello di layout
 

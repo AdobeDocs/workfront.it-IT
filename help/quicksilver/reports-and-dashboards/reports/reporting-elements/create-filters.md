@@ -6,7 +6,7 @@ description: È possibile limitare la quantità di informazioni visualizzate sul
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
 source-wordcount: '2462'
 ht-degree: 1%
@@ -149,24 +149,24 @@ Quando crei filtri utilizzando le diverse interfacce, tieni presente quanto segu
   >
   >1. Utilizza il generatore di standard per creare un filtro con la seguente sintassi:
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
-  >1. Passa al generatore legacy e modifica il filtro utilizzando la sintassi del generatore legacy come descritto in [Creare o modificare un filtro nel generatore legacy](#create-filter-in-legacy-builder) in questo articolo. La sintassi per il generatore legacy di visualizza le istruzioni del filtro come segue:
+  >1. Passa al generatore legacy e modifica il filtro utilizzando la sintassi del generatore legacy come descritto nella sezione [Creare o modificare un filtro nel generatore legacy](#create-filter-in-legacy-builder) in questo articolo. La sintassi per il generatore legacy di visualizza le istruzioni del filtro come segue:
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. Apporta una modifica al filtro nell’interfaccia legacy.
   >1. Torna al generatore standard. L’istruzione di filtro viene visualizzata in base alla logica supportata nel generatore di versioni precedenti, come descritto in precedenza.
   >
-  >   Il filtro viene visualizzato nell’interfaccia standard di generazione come segue:
+  >      Il filtro viene visualizzato nell’interfaccia standard di generazione come segue:
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   Ciò si verifica perché il filtro è stato modificato nell’interfaccia legacy.
+  >      Ciò si verifica perché il filtro è stato modificato nell’interfaccia legacy.
 
 ## Creare o modificare un filtro nel generatore di standard
 

@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 7b920a139689efe6c33f3a4bc495e5c5f270ebf4
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '4163'
+source-wordcount: '4172'
 ht-degree: 1%
 
 ---
@@ -42,6 +42,7 @@ After the monthly releases to Production, the same features are also available i
 > * Home
 > * Pannello Riepilogo negli elenchi
 > * Pannello Riepilogo nelle schede orario
+> * Pannello Summary (Riepilogo) nel Bilanciatore dei carichi di lavoro
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -100,7 +101,7 @@ After the monthly releases to Production, the same features are also available i
 
    * Da un oggetto Workfront, nella sezione Aggiornamenti
    * Dall’area Home (per attività e problemi)
-   * Dal pannello Riepilogo in un elenco di oggetti o da una scheda orario (per attività e problemi)
+   * Dal pannello Riepilogo in un elenco di oggetti, una scheda orario o dal Bilanciatore dei carichi di lavoro (per attività e problemi)
 
 Le informazioni contenute in questa pagina descrivono come aggiungere commenti agli oggetti di Workfront e come aggiornare progetti, attività e problemi durante l&#39;aggiunta di commenti.
 

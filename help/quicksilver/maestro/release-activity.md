@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '2870'
+source-wordcount: '2890'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,13 @@ Per ulteriori informazioni, consulta [Gestisci commenti record](/help/quicksilve
 
 ### Connettore Maestro (beta) per Adobe Workfront Fusion
 
-Anteprima e produzione: 21 dicembre 2023
+Produzione: 21 dicembre 2023
+
+>[!IMPORTANT]
+>
+>La tua organizzazione deve acquistare Adobe Workfront Fusion per poter creare connessioni con Maestro.
+>
+>Per informazioni, consulta [Panoramica di Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
 Ora puoi usare Adobe Workfront Fusion per connetterti a Maestro. Con il nuovo Adobe Maestro Fusion è possibile:
 

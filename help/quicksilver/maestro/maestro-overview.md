@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a74f9f8940a170d8e1347fd99ff2a6c816b12eca
+source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
 workflow-type: tm+mt
-source-wordcount: '1937'
+source-wordcount: '1951'
 ht-degree: 1%
 
 ---
@@ -51,6 +51,44 @@ Di seguito sono riportate alcune delle principali funzionalità di Maestro:
 * Risolvere il problema della gestione del lavoro in tutte le fasi e per tutte le parti interessate che partecipano al processo di lavoro.
 * Personalizzare completamente i flussi di lavoro, dalla scelta dei tipi di oggetto (o di record) utilizzati dall&#39;organizzazione alla configurazione del modo in cui questi oggetti si collegano l&#39;uno all&#39;altro.
 * Collegamento a tipi di oggetto da altri sistemi, creando un framework coerente per tutti i processi.
+
+## Funzioni attualmente disponibili in Maestro
+
+La tabella seguente illustra le principali funzioni che saranno disponibili in Maestro e la tempistica della loro disponibilità. L&#39;elenco non include tutte le funzionalità.
+
+| Funzionalità | Disponibile ora | Disponibile a breve | Nella ricerca |
+|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
+| Creare aree di lavoro | ✓ |                                  |                  |
+| Creare tipi di record operativi | ✓ |                                  |                  |
+| Creare tassonomie | ✓ |                                  |                  |
+| Creare singoli record denominati e tassonomie | ✓ |                                  |                  |
+| Creare campi personalizzati del record | ✓ |                                  |                  |
+| Importare tipi di record e campi utilizzando un file Excel o CSV | ✓ |                                  |                  |
+| Collega record | ✓ |                                  |                  |
+| Visualizzare i record in una tabella | ✓ |                                  |                  |
+| Visualizzare i record in un indicatore cronologico | ✓ |                                  |                  |
+| Filtra record | ✓ |                                  |                  |
+| Raggruppa i record nella visualizzazione timeline | ✓ |                                  |                  |
+| Raggruppa i record nella vista tabella | ✓ |                                 |                  |
+| Ordinare i record nella vista tabella | ✓ |                                 |                  |
+| Ordinare i record nella visualizzazione timeline |                               | ✓ |                  |
+| Ordinare i raggruppamenti nella vista tabella |                               | ✓ |                  |
+| Ordinare i raggruppamenti nella visualizzazione timeline |                               | ✓ |                  |
+| Connettere le aree di lavoro |                               | ✓ |                  |
+| Collegare i record Maestro e le tassonomie | ✓ |
+| Cerca record nella vista tabella | ✓ |   |
+| Collegare i record Maestro a progetti, programmi, portafogli, aziende, gruppi Workfront | ✓ |                                 |                  |
+| Collegare i record Maestro alle risorse Adobe Experience Manager | ✓ |                                  |                 |
+| Pagina Dettagli record | ✓ |                                  |                  |
+| Aggiornare il layout della pagina Dettagli record |                               | ✓ |                  |
+| Autorizzazioni di Workspace | | ✓ |  |
+| Inviare richieste |                               |                                  | ✓ |
+| Descrizione creativa |                               |                                  | ✓ |
+| Personalizzare il colore e l&#39;icona di un record | ✓ |                                  |                 |
+| Aggiungere commenti ai record | ✓ |                                  |                 |
+| Formattazione Rich Text per i campi Paragrafo | ✓ |                                  |                 |
+| Moduli Maestro per Adobe Workfront Fusion | ✓ |                                  |                 |
+| Copiare e incollare informazioni da un campo all&#39;altro | ✓ |                                  |                 |
 
 ## Accesso necessario per utilizzare Maestro durante il programma beta chiuso
 
@@ -344,44 +382,6 @@ Per individuare Maestro:
    1. Creare una vista Timeline dalla **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
 
    1. Personalizza la visualizzazione della timeline aggiornando Filtri, Raggruppamenti o Impostazioni.
-
-## Funzioni attualmente disponibili in Maestro
-
-La tabella seguente illustra le principali funzioni che saranno disponibili in Maestro e la tempistica della loro disponibilità. L&#39;elenco non include tutte le funzionalità.
-
-| Funzionalità | Disponibile ora | Disponibile a breve | Nella ricerca |
-|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
-| Creare aree di lavoro | ✓ |                                  |                  |
-| Creare tipi di record operativi | ✓ |                                  |                  |
-| Creare tassonomie | ✓ |                                  |                  |
-| Creare singoli record denominati e tassonomie | ✓ |                                  |                  |
-| Creare campi personalizzati del record | ✓ |                                  |                  |
-| Importare tipi di record e campi utilizzando un file Excel o CSV | ✓ |                                  |                  |
-| Collega record | ✓ |                                  |                  |
-| Visualizzare i record in una tabella | ✓ |                                  |                  |
-| Visualizzare i record in un indicatore cronologico | ✓ |                                  |                  |
-| Filtra record | ✓ |                                  |                  |
-| Raggruppa i record nella visualizzazione timeline | ✓ |                                  |                  |
-| Raggruppa i record nella vista tabella | ✓ |                                 |                  |
-| Ordinare i record nella vista tabella | ✓ |                                 |                  |
-| Ordinare i record nella visualizzazione timeline |                               | ✓ |                  |
-| Ordinare i raggruppamenti nella vista tabella |                               | ✓ |                  |
-| Ordinare i raggruppamenti nella visualizzazione timeline |                               | ✓ |                  |
-| Connettere le aree di lavoro |                               | ✓ |                  |
-| Collegare i record Maestro e le tassonomie | ✓ |
-| Cerca record nella vista tabella | ✓ |   |
-| Collegare i record Maestro a progetti, programmi, portafogli, aziende, gruppi Workfront | ✓ |                                 |                  |
-| Collegare i record Maestro a risorse, cartelle e raccolte Adobe Experience Manager | ✓ |                                  |                 |
-| Pagina Dettagli record | ✓ |                                  |                  |
-| Aggiornare il layout della pagina Dettagli record |                               | ✓ |                  |
-| Autorizzazioni di Workspace | | ✓ |  |
-| Inviare richieste |                               |                                  | ✓ |
-| Descrizione creativa |                               |                                  | ✓ |
-| Personalizzare il colore e l&#39;icona di un record | ✓ |                                  |                 |
-| Aggiungere commenti ai record |                               | ✓ |                 |
-| Formattazione Rich Text per i campi Paragrafo | ✓ |                                  |                 |
-
-
 
 ## Attività di rilascio Maestro
 
