@@ -7,26 +7,26 @@ description: Quando gestisci le assegnazioni di attività e problemi, puoi utili
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
 
 # Panoramica delle assegnazioni intelligenti
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
 
-Quando gestisci le assegnazioni di attività e problemi, puoi utilizzare le assegnazioni intelligenti per identificare l’utente migliore per completare il lavoro. Le assegnazioni intelligenti sono suggerimenti che Adobe Workfront presenta quando si assegnano elementi di lavoro alle risorse in base a un algoritmo che determina la risorsa più appropriata per il processo.
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti.</span>
+
+<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+
+Quando gestisci le assegnazioni di attività e problemi, puoi utilizzare le assegnazioni intelligenti per identificare la risorsa migliore per completare il lavoro. Le assegnazioni intelligenti sono suggerimenti che Adobe Workfront presenta quando si assegnano elementi di lavoro alle risorse in base a un algoritmo che determina la risorsa più appropriata per il processo. Le assegnazioni intelligenti possono essere utenti, mansioni o team.
 
 >[!NOTE]
 >
->Le assegnazioni intelligenti non tengono conto della disponibilità dell’utente. Tuttavia, la loro disponibilità in base alle loro pianificazioni influisce sulle Date pianificate e previste delle attività e dei problemi quando vengono assegnate. Per informazioni sulle pianificazioni, vedere l&#39;articolo [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Quando si suggeriscono gli utenti, le assegnazioni intelligenti non tengono conto della disponibilità dell’utente. Tuttavia, la loro disponibilità in base alle loro pianificazioni influisce sulle Date pianificate e previste delle attività e dei problemi quando vengono assegnate. Per informazioni sulle pianificazioni, vedere l&#39;articolo [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Questo articolo contiene informazioni generali sulle assegnazioni avanzate. Per informazioni sull&#39;utilizzo delle assegnazioni avanzate per assegnare attività e problemi agli utenti, vedere [Effettua assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
@@ -43,90 +43,79 @@ Quando si lavora con le assegnazioni intelligenti, considera quanto segue:
 
 Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi assegnare attività o problemi:
 
-* Un elenco di attività o problemi o un rapporto <!--edit this to say just issue list or report and update screen shot - add new one-->
+* Un elenco di problemi o un report nella colonna Assegnazioni
 
-  ![](assets/smart-assignments-task-list-nwe-350x280.png)
+  ![](assets/smart-assignments-issue-list.png)
 
-<!--
-* <span class="preview">A task list or report (******insert shot here*****)</span>
--->
+* <span class="preview">Un elenco di attività o un report nella colonna Assegnazioni </span>
 
-* Un’intestazione di attività o problema
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+
+* Un&#39;intestazione di attività o problemi nel campo Assegnazioni
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-* Pannello Riepilogo dell’attività o del problema
+* Pannello Riepilogo attività o problemi nell’area Assegnazioni
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* Il campo Assegnazioni per un elemento elencato nell&#39;area Home
+* Il campo Assegnazioni per un elemento elencato nell’area Home nell’area Assegnazioni, quando apri un’attività o un problema
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
-
-<!--removed for scheduling deprecation: 
-
-* Resource Scheduling
-
-  ![](assets/smart-assignments-scheduling-350x219.png)
-
-  >[!CAUTION]
-  >
-  >Resource Scheduling is a deprecated feature. For more information, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
-
--->
-* Bilanciatore dei carichi di lavoro
+* Bilanciatore dei carichi di lavoro nell’area Assegnato a quando si assegna un’attività o un problema
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Criteri di assegnazione intelligenti
 
-<!--
+
 <div class="preview">
 
-Smart assignments work differently for tasks than for issues.  
+Le assegnazioni intelligenti funzionano in modo diverso per le attività rispetto ai problemi.
 
-### Smart assignments criteria for tasks
+### Criteri di assegnazione intelligenti per le attività
 
-Task smart assignments work in two phases:  
+Il calcolo delle assegnazioni intelligenti delle attività funziona in due fasi.
 
-#### First phase of smart assignment calculation criteria for tasks 
+#### Prima fase del calcolo dell&#39;assegnazione intelligente per le attività
 
-Workfront calculates a similarity score for every assignment. The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
+Nella prima fase di calcolo delle assegnazioni intelligenti, Workfront calcola un punteggio di somiglianza per ogni assegnazione. Il calcolo per il punteggio di somiglianza e l&#39;ordine in cui sono elencate le assegnazioni tiene conto di quanto segue:
 
-* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
+* Viene assegnato un punteggio del 100% a un&#39;assegnazione esistente in cui i nomi di attività, progetto e portfolio sono identici all&#39;attività che si sta tentando di assegnare. I nomi di progetto e portfolio dell&#39;attività di un&#39;assegnazione esistente devono inoltre corrispondere al progetto e al portfolio dell&#39;attività che si sta tentando di assegnare.
 
-* If only some of this information from other assignments matches on the existing tasks, the score might be lower.  
+* Se solo alcune delle informazioni di altre assegnazioni corrispondono alle attività esistenti, il punteggio potrebbe essere inferiore al 100%.
 
-  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
- 
-    >[!TIP]
-    >
-    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
+  Ad esempio, se si assegna un&#39;attività denominata &quot;La mia seconda attività&quot; a un progetto denominato &quot;Il mio progetto&quot; in un portfolio denominato &quot;Il mio portfolio&quot; e si dispone di un&#39;attività esistente denominata &quot;La mia attività&quot; in un altro progetto denominato &quot;Il mio progetto&quot; in un portfolio denominato &quot;Il mio portfolio&quot;, l&#39;utente assegnato a &quot;La mia attività&quot; potrebbe ottenere un punteggio del 95% perché il nome dell&#39;attività esistente e l&#39;attività che si sta tentando di assegnare ora sono simili, ma non identici.
 
-* An assignment could get a higher score when they are assigned to a lot of tasks in the system that are similar in names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
+  >[!TIP]
+  >
+  >  Workfront cerca le corrispondenze solo nei campi Nome delle attività, dei progetti e dei portfolio e non in altri campi.
 
-* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
+* Un&#39;assegnazione potrebbe ottenere un punteggio più alto quando viene assegnata a molte attività nel sistema che hanno nomi simili. Ad esempio, se un team denominato &quot;Sviluppo&quot; è assegnato al 50% delle attività nel sistema che contengono &quot;AI&quot; nel nome e ora stai assegnando un’altra attività con &quot;AI&quot; nel nome, il punteggio del team &quot;Sviluppo&quot; è più alto. In questo caso, i nomi dei progetti e dei portafogli non sono altrettanto importanti.
 
-* If several assignments have identical scores, they display in descending order of the date on which the assignments were made.  
-For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
+* Tenendo conto di questo sistema di punteggio, i primi 7 suggerimenti sono elencati come assegnazioni intelligenti, nell’ordine decrescente dei loro punteggi. Le assegnazioni con punteggi inferiori al 40% non vengono visualizzate.
 
-* If there are no matches using this calculation, the second step of smart assignments applies which is calculated using a different algorithm.  
+* Se più assegnazioni hanno punteggi identici, vengono visualizzate in ordine di data in cui sono state eseguite, a partire dalla data più recente.
 
-#### Second phase of smart assignment calculation criteria for tasks
+  Ad esempio, se Rick è stato assegnato a un&#39;attività simile in precedenza e Jennifer è stato assegnato a un&#39;attività simile due giorni fa, Rick viene visualizzato per primo.
 
-If the first step of task smart assignments has found no matches, Workfront calculates smart assignments for tasks in the same way that it calculates them for issues.  
+* Se non ci sono corrispondenze che utilizzano questo calcolo, inizia la seconda fase delle assegnazioni intelligenti che viene calcolata utilizzando un algoritmo diverso.
 
-### Smart assignments criteria for tasks and issues 
+#### Seconda fase del calcolo dell&#39;assegnazione intelligente per le attività
 
-</div> 
+Se il primo passaggio delle assegnazioni intelligenti delle attività non ha trovato corrispondenze, Workfront calcola le assegnazioni intelligenti per le attività nello stesso modo in cui le calcola per i problemi.
+
+Per ulteriori informazioni, consulta la sezione [Criteri di assegnazione intelligenti per attività e problemi](#smart-assignments-criteria-for-tasks-and-issues) in questo articolo.
+
+### Criteri di assegnazione intelligenti per attività e problemi
+
+</div>
 
 >[!NOTE]
 >
-><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. The following criteria always applies for issues, by default. </span>
-
--->
+><span class="preview">I criteri seguenti si applicano alle attività solo quando nella prima fase del calcolo dell&#39;assegnazione intelligente delle attività non sono state trovate corrispondenze. per informazioni, consulta la sezione [Prima fase del calcolo dell&#39;assegnazione intelligente per le attività](#first-phase-of-smart-assignment-calculation-for-tasks) in questo articolo. Per impostazione predefinita, i seguenti criteri sono sempre applicabili ai problemi. </span>
 
 Gli utenti sono consigliati nell’elenco a discesa delle assegnazioni intelligenti in base a una combinazione dei seguenti criteri (elencati in ordine crescente e decrescente):
 

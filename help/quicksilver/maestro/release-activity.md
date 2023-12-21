@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bccd29ce284ca247b51971369102b5992061afb0
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '2796'
+source-wordcount: '2870'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,26 @@ L’esperienza di commento per i record Maestro corrisponde alla nuova esperienz
 
 Per ulteriori informazioni, consulta [Gestisci commenti record](/help/quicksilver/maestro/records/manage-record-comments.md).
 
+### Connettore Maestro (beta) per Adobe Workfront Fusion
+
+Anteprima e produzione: 21 dicembre 2023
+
+Ora puoi usare Adobe Workfront Fusion per connetterti a Maestro. Con il nuovo Adobe Maestro Fusion è possibile:
+
+* Creare, leggere, aggiornare ed eliminare record
+
+* Ottiene un elenco di record per tipo di record
+
+* Eliminare o ottenere un elenco di tipi di record
+
+* Cerca record
+
+* Effettuare una chiamata API
+
+* Attiva uno scenario quando viene apportato un cambiamento in Maestro
+
+Per ulteriori informazioni, consulta [Moduli Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+
 ## Settimana dell’11 dicembre 2023
 
 ### Aggiornare il campo principale in una visualizzazione tabella di un tipo di record
@@ -126,7 +146,7 @@ Per ulteriori informazioni, consulta [Gestisci vista tabella](/help/quicksilver/
 
 Versione di anteprima: 14 dicembre 2023
 
-Versione di produzione: pianificata per il 15 dicembre 2023
+Versione di produzione: 21 dicembre 2023
 
 >[!IMPORTANT]
 >

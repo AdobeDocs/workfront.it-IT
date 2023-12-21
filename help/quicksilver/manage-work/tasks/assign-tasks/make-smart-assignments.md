@@ -6,20 +6,18 @@ description: È possibile utilizzare le assegnazioni avanzate per identificare l
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
 
 # Effettua assegnazioni intelligenti
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
--->
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti.</span>
+
+<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
 È possibile utilizzare le assegnazioni avanzate per identificare l&#39;utente migliore per completare il lavoro. Le assegnazioni intelligenti sono suggerimenti per gli utenti presentati da Adobe Workfront quando si assegnano elementi di lavoro alle risorse in base a un algoritmo che determina la risorsa più appropriata per il processo. Per informazioni sulle assegnazioni avanzate, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -60,24 +58,21 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizioni in cui è possibile effettuare assegnazioni in Workfront.
 
-1. Vai alle seguenti aree e fai clic su **Assegnazioni** o **Assegna a** campo:   
+1. Vai alle seguenti aree e fai clic su **Assegnazioni** o **Assegna a** campo:
 
    * Un elenco di attività o problemi o un rapporto
    * Un’intestazione di attività o problema
    * Pannello Riepilogo dell’attività o del problema
    * Il campo Assegnazioni per un elemento elencato nell&#39;area Home
-   * Un&#39;attività o un problema nelle aree Pianificazione o Pianificazione
    * Un’attività o un problema nel Bilanciatore dei carichi di lavoro
 
-1. Posizionare il cursore nel campo delle assegnazioni e attendere due secondi. Il **Assegnazioni suggerite** o **Di seguito sono riportati alcuni consigli** viene visualizzato un elenco.
+1. Posizionare il cursore nel campo delle assegnazioni e attendere due secondi.
 
-   <!--check the casing for "assignments" should be lower case in task lists??-->
+   <span class="preview">Il **Assegnazioni suggerite** viene visualizzato un elenco.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
 
-   <!--replace the last sentence above with this when we release smarter assignments:
-   The **Suggested assignments** list displays. 
-   NOTE (********and add preview tags for the note*****)
-   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
-   -->
+   >[!TIP]
+   >
+   >   Viene visualizzata l’intestazione dell’elenco **Di seguito sono riportati alcuni consigli** invece di **Assegnazioni suggerite** in un elenco di problemi.
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -85,7 +80,9 @@ Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizion
 
    Per ulteriori informazioni sulla posizione di visualizzazione delle assegnazioni avanzate, vedere la sezione &quot;Individuare suggerimenti assegnazione avanzata&quot; nell&#39;articolo [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
-1. Seleziona l’utente nell’elenco dei consigli facendo clic sul nome. Clic **Assegna a me** assegna l&#39;elemento di lavoro a se stessi.
+1. Seleziona l’utente nell’elenco dei consigli facendo clic sul nome.
+
+1. (Facoltativo) Fai clic su **Assegna a me** per assegnare l&#39;elemento di lavoro a se stessi.
 
    >[!TIP]
    >
