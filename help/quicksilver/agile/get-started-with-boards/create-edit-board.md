@@ -6,9 +6,9 @@ description: Dalla sezione [!UICONTROL schede madri] dashboard, puoi creare una 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 03abff907016809addbbf8f50eb2e6e012e6fed3
+source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '764'
 ht-degree: 1%
 
 ---
@@ -70,11 +70,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
       Il [!UICONTROL **Schede aggiunte**] Il contatore mostra il numero di schede che saranno presenti sulla bacheca. Ad esempio, se selezioni un progetto con 100 attività e problemi, il contatore mostra 100. Se aggiungi un’assegnazione utente e tale persona è assegnata a 5 attività sul progetto, il contatore mostra 5.
 
-   1. (Facoltativo) Seleziona [!UICONTROL **Includi lavoro completato**] per includere le schede completate nella bacheca.
+   1. (Facoltativo) Seleziona [!UICONTROL **Includi lavoro completato come schede archiviate**] per inserire attività e problemi completati nella bacheca come schede archiviate.
 
       >[!NOTE]
       >
-      >Se questa opzione non è selezionata, quando le schede in altri stati sono contrassegnate come complete, esse &quot;cadono&quot; dalla bacheca e non vengono più visualizzate.
+      >Per impostazione predefinita, le schede archiviate non vengono visualizzate sulla bacheca. Per visualizzare le schede archiviate, devi attivare un’impostazione di configurazione e filtrare la bacheca per visualizzarle. Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) e [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >Se questa opzione non è selezionata, le schede completate al momento della creazione della bacheca non vengono visualizzate sulla bacheca. Le schede in seguito contrassegnate come complete rimangono sulla bacheca nella colonna Complete (Completato) e non vengono archiviate a meno che non si configuri il decadimento della scheda. Per ulteriori informazioni, consulta [Configurare la perdita di dati della scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Facoltativo) Fai clic su [!UICONTROL **Utilizzare filtri avanzati**] per visualizzare opzioni di filtro aggiuntive.
 
