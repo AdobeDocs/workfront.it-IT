@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ac70fc3564273ef7865de2ae4ca704bb7f61af70
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 2%
+source-wordcount: '158'
+ht-degree: 0%
 
 ---
 
@@ -28,6 +28,7 @@ Questa sezione contiene i seguenti articoli:
 * [Personalizzare il pannello sinistro utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
 * [Personalizzare la visualizzazione Dettagli utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
 * [Personalizzare Home e Riepilogo utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+* [Personalizzare la nuova Home utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
 * [Personalizzare le pagine bloccate utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 * [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 * [Personalizzare la terminologia dell’interfaccia utente utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

@@ -3,9 +3,10 @@ title: Miglioramenti per la casa nel primo trimestre 2024
 description: Miglioramenti per la casa nel primo trimestre 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c2b804741300fcf4cf3f85a73ed1dac0a9d9a40
+exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '123'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -15,6 +16,14 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione del primo trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del primo trimestre 2024.
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## Controlli di amministratore per la nuova Home utilizzando i modelli di layout
+
+Gli amministratori possono ora personalizzare la nuova Home per gli utenti che utilizzano i modelli di layout. Le opzioni di personalizzazione includono la selezione dei widget obbligatori e della loro posizione, la scelta di uno sfondo e opzioni specifiche per i widget per la scelta dei filtri e dei gruppi disponibili (e l&#39;impostazione delle impostazioni predefinite).
+
+Si noti che le scelte del modello di layout dell&#39;amministratore sovrascrivono la personalizzazione dei singoli utenti; ad esempio, quando vengono salvate le modifiche a un modello di layout, gli utenti di tale modello modificheranno la loro nuova home page in modo che corrisponda al modello di layout e le selezioni del widget esistenti verranno spostate nella parte inferiore della pagina. I widget selezionati dall’amministratore possono essere riposizionati da un utente, ma non possono essere rimossi.
+
+Per ulteriori informazioni, consulta [Personalizzare la nuova Home utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 ## I pulsanti di azione rapida Il mio lavoro sono stati modificati per essere visualizzati solo al passaggio del mouse
 

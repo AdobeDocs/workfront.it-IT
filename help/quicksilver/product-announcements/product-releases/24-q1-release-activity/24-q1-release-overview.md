@@ -4,9 +4,9 @@ description: Panoramica sulla versione del primo trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 1ccbab53684928974ef739b0176a6ea893a27320
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,40 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                             </li>
                             <li>
                                 <p>Produzione per rilascio trimestrale: con la versione 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Miglioramenti alle schede madri
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Quando si crea una bacheca, le schede dinamiche archiviano le schede completate</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Quando crei una bacheca dinamica, puoi includere nella bacheca le attività e i problemi completati. Per i progetti con un numero elevato di attività e problemi completati, la bacheca dinamica potrebbe presentare problemi di prestazioni. Ora, quando crei una bacheca dinamica e scegli di includere il lavoro completato, le attività e i problemi vengono riportati nella bacheca come schede archiviate.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 21 dicembre 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produzione per tutti i clienti: 21 dicembre 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -170,6 +204,24 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controlli di amministratore per la nuova Home utilizzando i modelli di layout</a></p><p>Gli amministratori possono ora personalizzare la nuova Home per gli utenti che utilizzano i modelli di layout. Le opzioni di personalizzazione includono la selezione dei widget obbligatori e della loro posizione, la scelta di uno sfondo e opzioni specifiche per i widget per la scelta dei filtri e dei gruppi disponibili (e l'impostazione delle impostazioni predefinite).</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 21 dicembre 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con la versione 24.1</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">I pulsanti di azione rapida Il mio lavoro sono stati modificati per essere visualizzati solo al passaggio del mouse</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Per migliorare le prestazioni, i pulsanti di azione rapida disponibili nel widget Il mio lavoro ora vengono visualizzati solo quando un elemento di lavoro viene passato con il mouse.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -228,6 +280,44 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                             </li>
                             <li>
                                 <p><span class="preview">Produzione per tutti i clienti: 9 novembre 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+        </table>
+
+
+### Miglioramenti al progetto
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni intelligenti basate sull’intelligenza artificiale</a></p><p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica ovunque in Workfront, dove si assegna un’attività (elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo).</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 21 dicembre 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con la versione 24.1</p>
                             </li>
                         </ul>
                     </td>

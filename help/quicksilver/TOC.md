@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 2d58b1938dbce4a8425236f0f690e1697d8340c1
+source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
 workflow-type: tm+mt
-source-wordcount: '13835'
+source-wordcount: '13842'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,11 @@ ht-degree: 0%
          * [Panoramica sulla versione del primo trimestre 2024](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
          * [Miglioramenti per gli amministratori del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
          * [Miglioramenti alla gestione dei documenti nel primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+         * [Miglioramenti alle schede madri per il primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md)
+         * [Miglioramenti Home del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
          * [Miglioramenti all’integrazione nel primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
-         * [Miglioramenti al flusso di aggiornamenti e alle notifiche del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-         * [Miglioramenti per la casa nel primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
+         * [Miglioramenti al progetto per il primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
+         * [Miglioramenti al flusso di aggiornamento e alle notifiche del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
       * Versione Q4 2023 {#release-23-q4}
          * [Panoramica sulla versione del quarto trimestre 2023](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [Miglioramenti per gli amministratori del quarto trimestre 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
@@ -537,6 +539,7 @@ ht-degree: 0%
          * [Personalizzare il pannello sinistro](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [Personalizzare la visualizzazione Dettagli](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [Personalizza pagina principale e riepilogo](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [Personalizza nuova Home](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [Personalizzare le pagine bloccate](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [Personalizza filtri, visualizzazioni, raggruppamenti](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
          * [Personalizzare la terminologia dell’interfaccia utente](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
