@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2944'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,15 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Settimana del 18 dicembre 2024
+## Settimana del 25 dicembre 2023
+
+### Cerca nella vista timeline
+
+Anteprima e produzione: 27 dicembre 2023
+
+È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista timeline. Per trovare un record è possibile utilizzare parole chiave e caratteri speciali da qualsiasi campo visibile sullo schermo. Per informazioni, consulta [Gestire la visualizzazione della timeline](../maestro/views/manage-the-timeline-view.md).
+
+## Settimana del 18 dicembre 2023
 
 ### Aggiungere commenti ai record dalla pagina Dettagli
 
@@ -331,7 +339,7 @@ Per ulteriori informazioni, consulta [Gestire la visualizzazione della timeline]
 
 Anteprima e produzione: 9 ottobre 2023
 
-È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista tabella. È possibile utilizzare parole chiave e caratteri speciali in qualsiasi campo visibile sullo schermo per trovare un record. Per informazioni, consulta [Gestire la vista tabella](../maestro/views/manage-the-table-view.md).
+È ora possibile cercare una parola chiave per trovare rapidamente un record nella vista tabella. Per trovare un record è possibile utilizzare parole chiave e caratteri speciali da qualsiasi campo visibile sullo schermo. Per informazioni, consulta [Gestire la vista tabella](../maestro/views/manage-the-table-view.md).
 
 ## Settimana del 18 settembre 2023
 

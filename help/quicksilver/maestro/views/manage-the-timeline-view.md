@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4d3b571e64fef98abd69bc67f94953a5eb73ea20
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1648'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,20 @@ Per gestire una vista timeline:
    Clic **Passa alla visualizzazione Compatta** per visualizzare i record le cui date non si intersecano sulla stessa riga. <!--check to see if they updated the name of the setting here-->
 
    I record vengono visualizzati nella visualizzazione Compatta per impostazione predefinita.
+
+1. Per trovare rapidamente i record che corrispondono a una parola chiave, eseguire le operazioni seguenti:
+
+   1. Fai clic su **Ricerca** icona ![](assets/search-icon.png) e iniziare a digitare una parola chiave associata a qualsiasi campo di un record visualizzato sullo schermo. Il numero di corrispondenze corrette viene visualizzato accanto all’elemento di ricerca e viene evidenziato il record con la corrispondenza corretta.
+
+      ![](assets/search-box-and-results-timeline-view.png)
+
+      È possibile utilizzare qualsiasi parola o carattere speciale visibile sullo schermo.
+
+      Non è possibile utilizzare parole chiave associate a campi nascosti nella visualizzazione Tabella.
+
+   1. Premi Invio sulla tastiera per passare al successivo campo trovato.
+   1. (Facoltativo) Se sono presenti più corrispondenze, fare clic sulle frecce su e giù a destra della parola chiave di ricerca per trovare tutte le corrispondenze nella tabella.
+   1. Fare clic sull&#39;icona X nella casella di ricerca per deselezionare la parola chiave di ricerca.
 
 1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
    * [Filtri](#add-filters)

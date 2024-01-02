@@ -3,18 +3,20 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: "Raggruppamento: modificare il nome visualizzato in un raggruppamento"
-description: È possibile rinominare i raggruppamenti in modo da renderli più familiari agli utenti.
-author: Lisa and Nolan
+description: È possibile rinominare i raggruppamenti in elenchi e rapporti in modo più familiare agli utenti.
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
 # Raggruppamento: modificare il nome visualizzato in un raggruppamento
+
+<!--Audited: 01/2024-->
 
 È possibile rinominare i raggruppamenti in modo da renderli più familiari agli utenti.
 
@@ -40,8 +42,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di un raggruppamento </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td>
+
+<p>Nuovo: </p>
+   <ul>
+   <li> <p>Collaboratore per modificare un raggruppamento </p></li>
+   <li><p>Standard per modificare un rapporto</p></li></ul>
+
+<p> Corrente:</p>
+   <ul>  
+   <li><p>Richiesta di modifica di un raggruppamento </p></li>
+   <li><p>Pianificare la modifica di un rapporto</p></li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -65,47 +76,36 @@ Per modificare il nome visualizzato in un raggruppamento di progetti:
 1. Consente di passare a un elenco di progetti.
 1. Dalla sezione **Raggruppamento** menu a discesa, seleziona **Nuovo raggruppamento**.
 
-1. Clic **Aggiungi raggruppamento** e inizia a digitare &quot;Nome Portfolio&quot; nel **In primo luogo per:** , quindi selezionarlo quando viene visualizzato nell&#39;elenco.
+1. Clic **Aggiungi raggruppamento** e inizia a digitare &quot;Nome Portfolio&quot; nel **In primo luogo per:** , quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 
 1. Clic **Passa alla modalità testo**.
-1. Effettuate una delle seguenti operazioni:
+1. Eseguire una delle operazioni seguenti:
 
    * Aggiungi il codice seguente al testo esistente disponibile nella **Raggruppa il report** casella:
 
-      ```
-      group.0.displayname=Your
-      ```
 
-      ```
-      Value
-      ```
+     `group.0.displayname=Your Value`
 
-      Oppure, in questo caso:
 
-      ```
-      group.0.displayname=Portfolio
-      ```
+     Oppure, in questo caso:
+
+     `group.0.displayname=Portfolio`
 
    * Rimuovi tutte le righe dell’interfaccia in modalità testo del raggruppamento contenenti la parola &quot;name&quot;, quindi aggiungi la riga:
 
-      ```
-      group.0.name=Your Value
-      ```
+     `group.0.name=Your Value`
 
-      Oppure, in questo caso:
+     Oppure, in questo caso:
 
-      ```
-      group.0.name=Portfolio
-      ```
+     `group.0.name=Portfolio`
 
-      È inoltre possibile lasciare
+     >[!TIP]
+     >
+     >È inoltre possibile lasciare `group.0.name=` e `group.0.displayname=` righe vuote, nel qual caso il raggruppamento mostra il valore in base al quale si sta effettuando il raggruppamento.
 
-      ```
-      group.0.name
-      ```
 
-      riga vuota, nel qual caso il raggruppamento mostra il nome del valore in base al quale si sta effettuando il raggruppamento.
-
-      ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Clic **Fine**, quindi **Salva raggruppamento**.
+
+   Il nome predefinito per il raggruppamento viene modificato in base alle informazioni sulla modalità di testo.

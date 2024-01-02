@@ -6,14 +6,16 @@ description: I Portfoli sono raccolte di progetti o programmi in Adobe Workfront
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b774a74863bb35e3477a69ff11189c40a6d66437
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 # Eliminare e disattivare i portfolio
+
+<!--Audited: 01/2024-->
 
 I Portfoli sono raccolte di progetti o programmi in [!DNL Adobe Workfront]. Puoi eliminare o disattivare un portfolio se lo ritieni irrilevante per il tuo sistema.
 
@@ -33,11 +35,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nuovo: [!UICONTROL Standard] </p>
+   <p>Corrente: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso a progetti e Portfoli tramite [!UICONTROL Edit]</p> <p>Nota: se non disponi ancora dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Accesso a progetti e Portfoli tramite [!UICONTROL Edit]</p> <p><b>NOTA</b></p> <p> Se non hai accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -74,7 +77,7 @@ Quando disattivi un portfolio, puoi comunque accedervi dal [!UICONTROL Portfoli]
 
 1. Clic **[!UICONTROL Portfoli]** .
 1. Fai clic sul nome del portfolio.
-1. Fare clic sul menu Altro ![](assets/more-icon.png) a destra del nome del portfolio, quindi fai clic su **[!UICONTROL Disattiva Portfolio]**.
+1. Fai clic su **Altro** menu ![](assets/more-icon.png) a destra del nome del portfolio, quindi fai clic su **[!UICONTROL Disattiva Portfolio]**.
 
 ## Eliminare un portfolio
 

@@ -1,113 +1,87 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Associa milestone alle attività
-description: È possibile associare le fasi cardine alle attività per indicare quando si raggiungono passaggi importanti nel corso della durata del progetto.
+title: Associa attività cardine ad attività
+description: È possibile associare le attività cardine alle attività per indicare quando si raggiungono passaggi importanti nel corso della durata del progetto. È necessario associare un percorso milestone a un progetto prima di associare le milestone alle attività del progetto.
 author: Alina
 feature: Work Management
 exl-id: 56410640-fde4-417f-8ea0-f089315476f7
-source-git-commit: 7b61f6d9380365daa614c597ee7755d6d01d915d
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
-# Associa milestone alle attività
+# Associa attività cardine ad attività
 
-È possibile associare le fasi cardine alle attività per indicare quando si raggiungono passaggi importanti nel corso della durata del progetto.
+<!--Audited: 01/2024-->
+
+È possibile associare le attività cardine alle attività per indicare quando si raggiungono passaggi importanti nel corso della durata del progetto.
 
 ## Requisiti di accesso
 
-<!--drafted - replace table for P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-  <p>Legacy license: Work or higher</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td> <p>Nuova licenza: Standard</p> 
+   <p>Licenza corrente: Lavoro o versione successiva</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso alle attività</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica l'accesso alle Attività</p> <p><b>NOTA</b>
+
+Se non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+</tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per l’attività</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per l’attività</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Prerequisiti
 
-Prima di associare un&#39;attività cardine a un&#39;attività, è necessario che siano presenti le seguenti informazioni:
+Prima di associare un&#39;attività cardine a un&#39;attività, è necessario che siano presenti le condizioni seguenti:
 
-* L’amministratore di Workfront deve creare un percorso cardine, come descritto in [Creare un percorso cardine](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* L’amministratore di Workfront deve creare un percorso milestone, come descritto in [Creare un percorso milestone](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-* Per associare un percorso cardine a un progetto, è necessario che il progetto sia in stato Planning o Current.
+* È necessario associare un Percorso milestone a un progetto.
 
->[!TIP]
->
->Per ottenere la migliore panoramica dell’avanzamento delle tappe dei progetti utilizzando la vista Milestone, è necessario creare attività principali e associarle a ogni fase principale del progetto. Quindi, associare queste attività principali a ciascuna delle tappe del percorso cardine.
+  Per informazioni, consulta [Modifica progetti](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+* Per associare un percorso milestone a un progetto, il progetto deve trovarsi nello stato Pianificazione o Corrente.
+
+  >[!TIP]
+  >
+  >Per ottenere una panoramica ottimale dell&#39;avanzamento dei milestone nei progetti utilizzando la vista Milestone, è necessario creare attività padre e associarle a ogni fase principale del progetto. Quindi, associa queste attività padre a ciascuna delle attività cardine del percorso milestone.
 
 ## Associare un&#39;attività cardine a un&#39;attività
 
-1. Passa a un progetto, quindi fai clic sul pulsante **Altro** icona ![](assets/more-icon.png), quindi **Modifica**.
-1. Utilizzo della **Impostazioni** imposta il percorso cardine da utilizzare nel progetto.
+Dopo aver associato un percorso milestone a un progetto, alle attività può essere assegnata una milestone.
+
+1. Vai a un’attività, quindi fai clic su **Altro** icona ![](assets/more-icon.png) a destra del nome dell’attività, quindi **Modifica**.
+
+   Le attività e le Milestone hanno una relazione 1:1. Impossibile associare la stessa milestone a più attività. È possibile collegare ogni attività a un&#39;unica attività cardine oppure associare ogni attività cardine a un&#39;unica attività.
+
+1. Clic **Impostazioni**, quindi seleziona una milestone in **Milestone** per l&#39;attività.
 1. Fai clic su **Salva**.
+1. (Facoltativo) In un elenco di attività, aggiungi **Icone di stato** per identificare le attività cardine. Nella colonna Icone di stato viene visualizzato l&#39;indicatore del rombo di Milestone.
 
-   Dopo aver associato un percorso cardine a un progetto, è possibile assegnare alle attività un&#39;attività cardine.
-
-1. Passa a un’attività, quindi fai clic sul pulsante **Altro** icona ![](assets/more-icon.png), quindi **Modifica**.
-
-   Le attività e le attività cardine hanno una relazione 1:1. Non è possibile associare la stessa attività cardine a più attività. Ogni attività può essere collegata a un&#39;unica attività cardine oppure ogni attività cardine può essere mappata a un&#39;unica attività.
-
-1. Fai clic su **Impostazioni**, quindi seleziona una fase cardine nel **Milestone** campo per l’attività.
-1. Fai clic su **Salva**.
-1. (Facoltativo) In un elenco di attività, aggiungi la **Icone di stato** per identificare le attività con tappe principali.
+   Per informazioni, consulta [Creare o modificare viste in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
    ![](assets/amwt3.png)
 
-1. (Facoltativo) In un elenco di progetti, seleziona la **Milestone** per identificare l&#39;avanzamento delle attività cardine.
+1. (Facoltativo) Vai a un elenco di progetti, seleziona la **Milestone** per identificare l&#39;avanzamento delle attività milestone.
 
-   ![Screen_Shot_2018-06-13_at_3.57.56_PM.png](assets/screen-shot-2018-06-13-at-3.57.56-pm-350x57.png)
+   ![](assets/milestone-view-project-list.png)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1959'
 ht-degree: 1%
 
 ---
@@ -77,6 +77,7 @@ La tabella seguente illustra le principali funzioni che saranno disponibili in M
 | Connettere le aree di lavoro |                               | ✓ |                  |
 | Collegare i record Maestro e le tassonomie | ✓ |
 | Cerca record nella vista tabella | ✓ |   |
+| Cercare i record nella visualizzazione timeline | ✓ |   |
 | Collegare i record Maestro a progetti, programmi, portafogli, aziende, gruppi Workfront | ✓ |                                 |                  |
 | Collegare i record Maestro alle risorse Adobe Experience Manager | ✓ |                                  |                 |
 | Pagina Dettagli record | ✓ |                                  |                  |

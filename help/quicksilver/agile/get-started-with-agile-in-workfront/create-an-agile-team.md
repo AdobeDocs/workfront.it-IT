@@ -6,14 +6,16 @@ description: Adobe Workfront consente ai team agili di completare il lavoro in m
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
 
 # Creare un team agile
+
+<!--Audited: 01/2024-->
 
 [!DNL Adobe Workfront] consente ai team agili di completare il lavoro in modo incrementale e organizzato.
 
@@ -41,7 +43,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Plan] per creare un nuovo team agile; [!UICONTROL Work] o versione successiva per convertire un team in un team agile</p> </td> 
+   <td> <p>Nuovo: Standard</p>
+   Corrente: 
+   <ul><li><p>[!UICONTROL Plan] per creare un nuovo team agile</p></li> 
+   <li><p>[!UICONTROL Lavoro] o versione successiva per convertire un team in un team Agile</p></li></ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,12 +90,15 @@ Le funzionalità seguenti supportano questa metodologia:
 
 ## Creare un team agile
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Team]**.
+{{step1-to-team}}
+
 1. Fai clic su **[!UICONTROL Cambia team]** icona ![Icona Cambia team](assets/switch-team-icon.png), quindi fai clic su **[!UICONTROL Crea nuovo team]**.
 
    ![Seleziona Crea nuovo team.](assets/create-new-team-350x198.png)
 
-1. Specifica le seguenti informazioni su [!UICONTROL Nuovo team] finestra di dialogo:
+   Viene visualizzata la casella Nuovo team.
+
+1. Specifica le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -103,10 +111,17 @@ Le funzionalità seguenti supportano questa metodologia:
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Questo è un team agile]</strong> </td> 
       <td>Seleziona questa opzione per configurare il nuovo team come un team agile.</td> 
-     </tr> 
-     <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>[!UICONTROL È Attivo]</strong> </td> 
+      <td>Selezionare questa opzione per attivare il team. I team inattivi non sono visibili agli altri utenti per l’assegnazione al lavoro. </td> 
+     </tr>
+
+
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader"><strong>[!UICONTROL Group]</strong> </td> 
-      <td> <p>Inizia a digitare il nome di un gruppo da aggiungere al team, quindi selezionalo quando viene visualizzato nell’elenco a discesa.</p> <p>Nota: quando un team viene assegnato a un gruppo o a un sottogruppo, qualsiasi amministratore di gruppo di tale gruppo o sottogruppo può gestire il team senza esserne membro. Gli amministratori di gruppi possono passare all'area [!UICONTROL Teams] dal menu principale [!UICONTROL] e fare clic sulla freccia [!UICONTROL Switch Teams] <img src="assets/switch-team-icon.png" alt="Icona Cambia team"> per elencare tutti i team assegnati ai gruppi che gestiscono.</p> </td> 
+      <td> <p>Inizia a digitare il nome di un gruppo da aggiungere al team, quindi selezionalo quando viene visualizzato nell’elenco a discesa.</p> <p><b>NOTA</b></p> <p> Quando un team viene assegnato a un gruppo o a un sottogruppo, qualsiasi amministratore di gruppo di tale gruppo o sottogruppo può gestire il team senza esserne membro. Gli amministratori di gruppi possono passare all'area [!UICONTROL Teams] dal menu principale [!UICONTROL] e fare clic sulla freccia [!UICONTROL Switch Teams] <img src="assets/switch-team-icon.png" alt="Icona Cambia team"> per elencare tutti i team assegnati ai gruppi che gestiscono.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Membri team]</strong> </td> 
@@ -145,7 +160,9 @@ Puoi convertire un team esistente in un team agile:
 
 1. Clic **Salva le modifiche.**
 
-   Per informazioni sulla configurazione di un team Agile, consulta i seguenti articoli:
+   Il team viene salvato come team Agile. È possibile configurare il nuovo team come Scrum o Kanban quando si modifica il team.
+
+   Per ulteriori informazioni, consulta i seguenti articoli:
 
    * [Configura [!UICONTROL Kanban]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
    * [Configura [!UICONTROL Scrum]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
