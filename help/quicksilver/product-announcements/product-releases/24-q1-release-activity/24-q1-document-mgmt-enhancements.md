@@ -4,9 +4,9 @@ description: Miglioramenti alla gestione dei documenti nel primo trimestre 2024
 author: Lisa
 feature: Product Announcements
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,29 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 ## Stati aggiornati per le approvazioni dei documenti
 
+>[!NOTE]
+>
+>Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.
+
 Per rendere più chiaro lo stato di approvazione del documento, sono state aggiornate le approvazioni dello stato del documento disponibili. Ora lo stato di approvazione tiene conto dei revisori che contrassegnano la revisione come completata, nonché dei casi in cui sono presenti solo revisori ma non approvatori.
 
 Per ulteriori informazioni sugli stati disponibili specifici, consulta [Stato approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Lo stato di revisione e approvazione del documento viene visualizzato nell’intestazione del documento
 
+>[!NOTE]
+>
+>Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.
+
 Per rendere più trasparente il processo di revisione e approvazione, è stato aggiunto lo stato all’intestazione della pagina Dettagli documento. Ora è possibile vedere a colpo d&#39;occhio la decisione di approvazione presa sul documento o se il documento è ancora in revisione.
 
 Per informazioni su stati specifici, consulta [Stato approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ## Contrassegna una revisione come completata
+
+>[!NOTE]
+>
+>Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.
 
 Per chiarire quando un documento è stato rivisto ed è pronto per la prossima fase di approvazione, è stata creata una nuova **Completa la recensione** pulsante. Ora, quando un utente impostato come revisore ha rivisto un documento, può fare clic sul pulsante **Completa la recensione** per registrare in Workfront che la revisione è completa.
 

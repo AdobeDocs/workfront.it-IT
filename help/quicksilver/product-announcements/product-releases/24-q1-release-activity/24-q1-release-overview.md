@@ -4,9 +4,9 @@ description: Panoramica sulla versione del primo trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: c32ff93b682ffd6333dcf50096d674a4eeaccef3
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -145,6 +145,7 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                                 <p>Produzione per rilascio trimestrale: con la versione 24.1</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -163,6 +164,7 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                                 <p>Produzione per rilascio trimestrale: con la versione 24.1</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -181,6 +183,7 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                                 <p>Produzione per rilascio trimestrale: con la versione 24.1</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span></p>
                     </td>
                 </tr>                
            </tbody>
