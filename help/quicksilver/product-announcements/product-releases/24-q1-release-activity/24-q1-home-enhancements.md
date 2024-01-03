@@ -4,9 +4,9 @@ description: Miglioramenti per la casa nel primo trimestre 2024
 author: Nolan
 feature: Product Announcements
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 845f0c04923f6e35dcb004ba807c79577385462b
+source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -17,17 +17,13 @@ Questa pagina descrive tutti i miglioramenti apportati all’ambiente di antepri
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-<!--
+## Controlli di amministratore per la nuova Home utilizzando i modelli di layout
 
-## Administrator controls for new Home using layout templates
+Gli amministratori possono ora personalizzare la nuova Home per gli utenti che utilizzano i modelli di layout. Le opzioni di personalizzazione includono la selezione dei widget obbligatori e della loro posizione, la scelta di uno sfondo e opzioni specifiche per i widget per la scelta dei filtri e dei gruppi disponibili (e l&#39;impostazione delle impostazioni predefinite).
 
-Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).
+Si noti che le scelte del modello di layout dell&#39;amministratore sovrascrivono la personalizzazione dei singoli utenti; ad esempio, quando vengono salvate le modifiche a un modello di layout, gli utenti di tale modello modificheranno la loro nuova home page in modo che corrisponda al modello di layout e le selezioni del widget esistenti verranno spostate nella parte inferiore della pagina. I widget selezionati dall’amministratore possono essere riposizionati da un utente, ma non possono essere rimossi.
 
-Note that administrator layout template choices override individual users' customization; i.e., when changes to a layout template are saved, users on that layout template will have their new Home page changed to match the layout template and their existing widget selections will pushed to the bottom of the page. While widgets selected by the administrator may be repositioned by a user, they cannot be removed.
-
-For more information, see [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
-
--->
+Per ulteriori informazioni, consulta [Personalizzare la nuova Home utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 ## I pulsanti di azione rapida Il mio lavoro sono stati modificati per essere visualizzati solo al passaggio del mouse
 
