@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d786a5bd86bcc1a4fbacf022cc9fbee9cb321da5
+source-git-commit: 66957a8bb24538fd302fe0ff7612b266da18118f
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Gli articoli descrittivi della documentazione di Workfront contengono una tabella che spiega i requisiti di accesso e autorizzazioni necessari per tale procedura. Questa tabella dei requisiti di accesso consente di capire se è possibile eseguire una determinata azione in Workfront o perché non è possibile eseguirla. Questo articolo illustra ogni elemento della tabella dei requisiti di accesso e fornisce suggerimenti per la risoluzione dei problemi e collegamenti a informazioni più approfondite.
 
 Se una riga è assente dalla tabella dei requisiti di accesso in un determinato articolo, non vi sono requisiti di quel tipo per tale azione.
+
+Alcune righe contengono informazioni etichettate come &quot;Nuovo&quot; e &quot;Corrente&quot;. Questo perché Workfront sta passando a un nuovo modello di prezzi e imballaggio, con alcune organizzazioni che operano con il nuovo modello e altre che utilizzano ancora il modello corrente. Per individuare il modello utilizzato dall’organizzazione, contatta l’amministratore di Workfront. Puoi trovare dettagli e collegamenti alle informazioni nella sezione [Tabella dei requisiti di accesso](#the-access-requirements-table) sezione di questo articolo.
 
 >[!NOTE]
 >
@@ -51,6 +53,18 @@ Se una riga è assente dalla tabella dei requisiti di accesso in un determinato 
    <li>Se disponi del livello di accesso corretto e non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.
    </ul>
       </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Prodotto</td> 
+   <td>Workfront offre alcuni prodotti che possono essere acquistati oltre a Workfront.
+   <p>Gli articoli che descrivono le procedure eseguite all’interno di questi prodotti aggiuntivi elencano qui il prodotto richiesto.</p>
+   <ul>
+   <li>ADOBE EXPERIENCE MANAGER ASSETS o ASSETS ESSENTIALS </li>
+   <li>Workfront Fusion</li>
+   <li>Workfront Goals</li>
+   <li>Pianificazione scenario Workfront</li>
+   </ul>
+   <p>Per verificare se la tua organizzazione ha acquistato uno di questi prodotti aggiuntivi, contatta l’amministratore Workfront.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso</td> 
