@@ -7,14 +7,16 @@ description: Le ore pianificate associate a un'attività, un problema o un proge
 author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 48efc796923079622ce4bc1c2bddb2429915c9a1
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2815'
 ht-degree: 0%
 
 ---
 
 # Panoramica sulle ore pianificate
+
+<!-- Audited: 01/2024 -->
 
 Le ore pianificate associate a un&#39;attività, un problema o un progetto rappresentano il tempo necessario affinché gli utenti assegnati possano completare l&#39;attività, il problema o il progetto.
 
@@ -30,16 +32,13 @@ Le ore pianificate associate a un&#39;attività, un problema o un progetto rappr
 
 * Puoi modificare il valore di Ore pianificate sui problemi in qualsiasi momento.
 * Non è possibile modificare il valore di Ore pianificate dei progetti o delle attività padre, in quanto si tratta di un totale calcolato di tutte le Ore pianificate di tutte le relative attività e sottoattività.
-* La gestione delle allocazioni utente mediante gli strumenti di gestione delle risorse può modificare il numero di ore pianificate per attività, problemi, progetti e quello delle assegnazioni associate agli elementi di lavoro.
+* La gestione delle allocazioni degli utenti mediante gli strumenti di gestione delle risorse può modificare il numero di ore pianificate per attività, problemi e progetti e quello delle assegnazioni associate agli elementi di lavoro.
 
 ## Ore pianificate sulle attività rispetto alle ore pianificate sui progetti {#planned-hours-on-tasks-vs-planned-hours-on-projects}
 
-Le Ore Pianificate dalle attività vengono riportate alle Ore Pianificate del progetto. Le ore pianificate da questi problemi non sempre vengono aggregate alle ore pianificate del progetto.
+Le Ore Pianificate dalle attività vengono riportate alle Ore Pianificate del progetto. Le ore pianificate da problemi non sempre vengono aggregate alle ore pianificate del progetto.
 
 In questa sezione vengono descritte le differenze tra l&#39;attività e le ore pianificate del progetto. Descrive anche dove puoi visualizzare le ore pianificate del problema riportate nel progetto.
-
-* [Ore pianificate per le attività](#planned-hours-on-tasks)
-* [Ore pianificate nei progetti](#planned-hours-on-projects)
 
 ### Ore pianificate per le attività {#planned-hours-on-tasks}
 
@@ -78,7 +77,7 @@ Se ad esempio un&#39;attività è impostata per iniziare alle 16 e alla pianific
 
 ## Individuare e comprendere i valori delle ore pianificate
 
-Puoi trovare i valori delle ore pianificate in varie aree di Workfront. 
+Puoi trovare i valori delle ore pianificate in varie aree di Workfront.
 
 Il numero di ore pianificate visualizzate proviene dagli elementi di lavoro del progetto o viene calcolato in modo diverso a seconda dell’area e dell’oggetto in cui vengono visualizzate.
 
@@ -90,31 +89,31 @@ Puoi individuare le ore pianificate nelle seguenti aree di Workfront:
 * [Il Bilanciatore dei carichi di lavoro](#the-workload-balancer)
 * [Pianificazione risorse](#the-resource-planner)
 * [Rapporto Utilizzo](#the-utilization-report)
-* [Pannello Allocazione ruoli](#The%C2%A0Role)
+* [Pannello Allocazione ruoli](#the-role-allocation-panel)
 
 ### La sezione Dettagli di un progetto, attività o problema {#the-details-section-of-a-project-task-or-issue}
 
-![](assets/planned-hours-on-details-for-project-nwe-350x138.png)
+![Ore pianificate nella sezione Dettagli](assets/planned-hours-on-details-for-project.png)
 
-Le ore pianificate nella sezione Dettagli di un&#39;attività, un problema o un progetto sono le ore pianificate totali associate al rispettivo elemento.
+Le Ore pianificate nella sezione Dettagli di un&#39;attività, un problema o un progetto sono le ore pianificate totali associate all&#39;articolo.
 
 Per ulteriori informazioni sulle ore pianificate per il progetto, vedi [Ore pianificate sulle attività rispetto alle ore pianificate sui progetti](#planned-hours-on-tasks-vs-planned-hours-on-projects) in questo articolo.
 
 ### Casella Modifica attività o Modifica problema {#the-edit-task-or-edit-issue-box}
 
-![](assets/planned-hours-on-edit-task-box-nwe-350x70.png)
+![Casella Modifica attività](assets/planned-hours-on-edit-task-box-nwe.png)
 
 Le Ore pianificate nella casella Modifica di un’attività o di un problema corrispondono al totale delle Ore pianificate del rispettivo elemento.
 
 Per ulteriori informazioni sulle ore pianificate per il progetto, vedi [Ore pianificate sulle attività rispetto alle ore pianificate sui progetti](#planned-hours-on-tasks-vs-planned-hours-on-projects) in questo articolo.
 
-Per le attività, è possibile modificare la quantità di ore pianificate solo per determinati tipi di durata. Per informazioni, consulta [Aggiorna le ore pianificate dell&#39;attività in base al tipo di durata](#update-task-planned-hours-based-on-duration-type) in questo articolo.
+Per le attività, è possibile modificare la quantità di ore pianificate solo per determinati tipi di durata. Per informazioni, vedere [Aggiorna le ore pianificate dell&#39;attività in base al tipo di durata](#update-task-planned-hours-based-on-duration-type) in questo articolo.
 
 È possibile visualizzare la singola allocazione di ore pianificate per ogni utente o mansione assegnata all&#39;attività o al problema nell&#39;area Assegnazioni.
 
 ### Report {#reports}
 
-![](assets/planned-hours-on-task-repot-nwe-350x99.png)
+![Ore pianificate nel rapporto](assets/planned-hours-on-task-report.png)
 
 Puoi aggiungere il campo Ore pianificate nei rapporti su progetti, attività e problemi.
 
@@ -147,7 +146,7 @@ The daily hour amount represents one of the following:
 
 ### Il Bilanciatore dei carichi di lavoro {#the-workload-balancer}
 
-![](assets/planned-hours-on-wb-expanded-with-pti-info-nwe-350x114.png)
+![Ore pianificate nel Bilanciatore dei carichi di lavoro](assets/planned-hours-on-wb-expanded-with-pti-info.png)
 
 Le ore pianificate seguenti per attività, problemi e progetti vengono visualizzate nel Bilanciatore dei carichi di lavoro a destra del nome dell’attività, del problema o del progetto:
 
@@ -163,13 +162,13 @@ Puoi visualizzare l’allocazione giornaliera delle ore pianificate per ogni ute
 La quantità giornaliera di ore pianificate rappresenta uno dei seguenti valori: 
 
 * l&#39;importo predefinito distribuito equamente da Workfront per ogni giorno della Durata delle attività, delle emissioni o del progetto
-* allocazione giornaliera adeguata gestita dai responsabili delle risorse.
+* allocazione giornaliera adeguata gestita dai responsabili delle risorse
 
   Per informazioni sulla regolazione delle allocazioni giornaliere nel Bilanciatore dei carichi di lavoro, vedere [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ### Pianificazione risorse {#the-resource-planner}
 
-![](assets/planned-hours-on-all-objects-in-resource-planned-expanded-nwe-350x204.png)
+![Ore pianificate nella pianificazione risorse](assets/planned-hours-on-all-objects-in-resource-planned-expanded.png)
 
 In Pianificazione risorse vengono visualizzate le ore pianificate per progetti, attività e problemi.
 
@@ -184,9 +183,9 @@ Il numero di ore pianificate per ciascun oggetto varia a seconda della visualizz
 La quantità di ore pianificate settimanali per attività e problemi rappresenta una delle seguenti:
 
 * l&#39;importo settimanale predefinito distribuito equamente da Workfront per ogni giorno della Durata delle attività o delle emissioni
-* l&#39;allocazione settimanale corretta gestita dai responsabili delle risorse nel Bilanciatore dei carichi di lavoro.
+* l&#39;allocazione settimanale corretta gestita dai responsabili delle risorse nel Bilanciatore dei carichi di lavoro
 
-  Per informazioni sulla regolazione delle allocazioni giornaliere nel Bilanciatore dei carichi di lavoro , vedi [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+  Per informazioni sulla regolazione delle allocazioni giornaliere nel Bilanciatore dei carichi di lavoro, vedere [Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 La quantità settimanale per progetti, utenti e ruoli è influenzata dalle quantità settimanali di ore pianificate per le attività e i problemi associati.
 
@@ -252,19 +251,16 @@ Quando si aggiornano manualmente le allocazioni di utenti o ruoli per le attivit
 
 * Se le allocazioni di singoli utenti o ruoli non sono state aggiornate manualmente per attivare una modifica alle ore pianificate per l&#39;attività, le ore pianificate rimangono invariate quando si aggiungono, rimuovono o sostituiscono assegnazioni per l&#39;attività. Quando si aggiunge una nuova assegnazione all&#39;attività, le singole allocazioni vengono ridistribuite tra tutti gli assegnatari.
 * Dopo aver aggiornato manualmente le allocazioni per attivare una modifica alle ore pianificate per l&#39;attività, le ore pianificate diminuiscono quando si rimuovono le assegnazioni dall&#39;attività. Rimangono invariate quando si sostituisce un&#39;assegnazione.
-* Dopo aver aggiornato manualmente le allocazioni per attivare una modifica alle ore pianificate per l&#39;attività e aver aggiunto un&#39;assegnazione all&#39;attività, per impostazione predefinita alla nuova assegnazione vengono assegnate 0 ore. Devi aggiornare manualmente la loro allocazione all&#39;attività che potrebbe influenzare le ore pianificate.
+* Dopo aver aggiornato manualmente le allocazioni per attivare una modifica alle ore pianificate per l&#39;attività e aver aggiunto un&#39;assegnazione all&#39;attività, per impostazione predefinita alla nuova assegnazione vengono assegnate 0 ore. È necessario aggiornare manualmente la loro allocazione all&#39;attività, che potrebbe influenzare le ore pianificate.
 * Se non sono state aggiornate manualmente le allocazioni per attivare una modifica alle ore pianificate dell&#39;attività e si rimuovono tutte le assegnazioni all&#39;attività, le ore pianificate rimangono invariate.
 * Dopo aver aggiornato manualmente le allocazioni per attivare una modifica alle ore pianificate dell&#39;attività e aver rimosso tutte le assegnazioni all&#39;attività, anche le ore pianificate vengono rimosse e le ore pianificate dell&#39;attività diventano 0.
 
 >[!NOTE]
 >
-Ad esempio, se un&#39;attività ha 10 ore pianificate e si dispone di due assegnatari, per impostazione predefinita a ciascuno di essi vengono assegnate 5 ore.
+Ad esempio, se un’attività ha 10 ore pianificate e hai due assegnatari, per impostazione predefinita vengono loro assegnate 5 ore ciascuno.
 >
 * Se non si aggiorna l&#39;allocazione dei singoli utenti o le allocazioni giornaliere utilizzando il Bilanciatore dei carichi di lavoro e si rimuovono alcuni o tutti gli assegnatari dall&#39;attività, l&#39;attività Ore pianificate rimane 10 ore.
-* Se si modificano manualmente le allocazioni delle assegnazioni rispettivamente a 4 e 6 ore e si rimuove l&#39;utente allocato a 6 ore e la relativa mansione, l&#39;attività Lavoro pianificato viene aggiornata a 4 ore. Se si rimuove anche l&#39;utente allocato a 4 ore ma si mantiene la mansione associata all&#39;utente rimosso, le ore pianificate dell&#39;attività rimangono 4 ore. Se si rimuove l&#39;ultimo utente allocato a 4 ore e la relativa mansione e l&#39;attività rimane non assegnata, l&#39;attività Ore pianificate dell&#39;attività diventa 0.
-
-
-
+* Se si modificano manualmente le allocazioni delle assegnazioni rispettivamente a 4 e 6 ore e si rimuove l&#39;utente allocato a 6 ore e la relativa mansione, l&#39;attività Lavoro pianificato viene aggiornata a 4 ore. Se si rimuove anche l&#39;utente allocato a 4 ore ma si mantiene la mansione associata all&#39;utente rimosso, le ore pianificate dell&#39;attività rimangono 4 ore. Se si rimuove l&#39;ultimo utente allocato a 4 ore e la relativa mansione e l&#39;attività rimane non assegnata, l&#39;attività Lavoro Necessario diventa 0.
 
 ## Aggiorna automaticamente le ore pianificate per l&#39;attività tramite Impegno di lavoro
 

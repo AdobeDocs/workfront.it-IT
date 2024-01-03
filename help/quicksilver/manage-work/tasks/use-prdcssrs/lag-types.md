@@ -7,14 +7,16 @@ description: Lag è il tempo che deve trascorrere dopo il completamento di un pr
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: a2d3032b32d321c0089839dafad6c9b3c5ba153a
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
 
 # Panoramica sui tipi di ritardo
+
+<!-- Audited: 01/2024 -->
 
 Lag è il tempo che deve trascorrere dopo il completamento pianificato di un predecessore fino a quando l&#39;attività dipendente può iniziare (Lag positivo) o il tempo che un&#39;attività dipendente può iniziare prima dell&#39;inizio del predecessore (Lag negativo).
 
@@ -64,7 +66,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td><p>Nuovo: Standard</p>
+       <p>oppure</p>
+       <p>Corrente: Piano </p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -72,7 +76,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per le attività e il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per le attività e il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,9 +86,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Indicare i tipi di ritardo e di ritardo sulle attività
 
 È possibile indicare i tipi di ritardo sulle attività quando si definiscono le relazioni predecessori.
-
-* [Indicare i tipi di ritardo nella sezione Predecessori di un&#39;attività](#indicate-lag-types-in-the-predecessors-section-of-a-task)
-* [Indicare i tipi di ritardo in un elenco delle attività](#indicate-lag-types-in-a-task-list)
 
 ### Indicare i tipi di ritardo nella sezione Predecessori di un&#39;attività {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
@@ -101,18 +102,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Seleziona tra le seguenti opzioni per identificare il tipo di ritardo che desideri indicare per il tuo predecessore:
 
    * **Giorni**
-   * **Giorni di Calendario**
+   * **Giorni di calendario**
    * **Percentuale**
    * **Giorno della settimana**
    * **Giorno della settimana (diverso da zero)**
 
-     Per ulteriori informazioni su questi tipi di Lag e su come vengono calcolati, consulta la sezione [Panoramica sui tipi di ritardo](#lag-types-overview) in questo articolo.
+     Per ulteriori informazioni su questi tipi di Lag e su come vengono calcolati, consulta la sezione [Tipi di Lag](#lag-types) in questo articolo.
 
 1. Fai clic su **Salva**.
 
 ### Indicare i tipi di ritardo in un elenco delle attività  {#indicate-lag-types-in-a-task-list}
 
-1. Passare a un elenco di attività e selezionare **Standard** Visualizza da **Visualizza** menu a discesa.
+1. Passare a un elenco di attività e selezionare **Standard** visualizzazione.
 
 1. Fai clic all’interno del **Predecessori** colonna corrispondente all&#39;attività per la quale si desidera specificare un predecessore e un ritardo.
 1. Immetti quanto segue senza spazi:
@@ -125,15 +126,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * un **+** per un ritardo positivo o un **-** per un ritardo negativo
 
    * l&#39;ammontare del ritardo
-   * l’abbreviazione del Tipo di Lag che desideri utilizzare.
+   * l’abbreviazione del Tipo di Lag che desideri utilizzare
 
-     Per ulteriori informazioni sulle abbreviazioni per Lag Types, consulta la sezione [Panoramica sui tipi di ritardo](#lag-types-overview) in questo articolo.
+     Per ulteriori informazioni sulle abbreviazioni per Lag Types, consulta la sezione [Tipi di Lag](#lag-types) in questo articolo.
 
-   Ad esempio, per indicare che un&#39;attività ha un predecessore e un ritardo positivo di 2 giorni, è necessario immettere  `1fs+2d` nella colonna Predecessori.
+   Ad esempio, per indicare che un&#39;attività ha un predecessore e un ritardo positivo di 2 giorni, è necessario immettere `1fs+2d` nella colonna Predecessori.
 
-1. Fare clic su Invio sulla tastiera per salvare le modifiche apportate all&#39;attività.
+1. Premi Invio sulla tastiera per salvare le modifiche apportate all’attività.
 
-## Panoramica sui tipi di ritardo {#lag-types-overview}
+## Tipi di Lag {#lag-types}
 
 Un esempio di un&#39;attività che richiederebbe un tempo di ritardo potrebbe essere la segatura di alberi in legname. Se il legno appena tagliato deve asciugarsi per un certo periodo prima di poter essere tagliato, allora ci sarebbe un ritardo tra il taglio degli alberi e la segatura in legname.
 
@@ -193,13 +194,13 @@ Se si calcola che la data di inizio del successore sia un martedì specifico e t
  </tbody> 
 </table>
 
-## Panoramica sul ritardo negativo
+## Lag negativo
 
 È possibile utilizzare un Lag negativo per indicare la necessità o la capacità dell&#39;attività di iniziare prima della fine dell&#39;attività predecessore.
 
 Quando si utilizzano i tag negativi, considera le seguenti regole:
 
-* Un ritardo negativo non può far precedere o precedere le date di inizio e fine di un&#39;attività dalle date di inizio e fine pianificate del progetto. Queste date sono specificate nel campo Pianifica da del progetto.
+* Un ritardo negativo non può far precedere o precedere le date di inizio/fine di un&#39;attività dalle date di inizio/fine pianificate del progetto. Queste date sono specificate nel campo Pianifica da del progetto.
 
   In questo caso, considera quanto segue:
 

@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
-source-wordcount: '13842'
+source-wordcount: '13841'
 ht-degree: 0%
 
 ---
@@ -1762,7 +1762,7 @@ ht-degree: 0%
       * [Aggiornare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro utilizzando il Riepilogo](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * Rivedere e approvare il lavoro {#review-and-approve-work}
    * [Rivedere e approvare il lavoro](review-and-approve-work/review-and-approve-work.md)
-   * [Programma Alpha - Approvazioni documenti](review-and-approve-work/Documents/doc-approvals-alpha.md)
+   * [Programma di Alpha - Approvazioni documenti](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica](review-and-approve-work/proof-doc-decision-limits.md)
    * Approvazioni lavoro {#work-approvals}
       * [Approvazioni lavoro](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -2156,7 +2156,7 @@ ht-degree: 0%
       * [Moduli Adobe Acrobat Sign](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
       * [Moduli di Adobe Creative Cloud Libraries](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Moduli Adobe Campaign Classic](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
-      * [Moduli di Adobe Experience Manager Assets](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+      * [Moduli Adobe Experience Manager Assets](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Modulo Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Moduli Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Moduli Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
