@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1649'
 ht-degree: 0%
 
 ---
@@ -154,11 +154,11 @@ Per gestire una vista timeline:
 
       È possibile utilizzare qualsiasi parola o carattere speciale visibile sullo schermo.
 
-      Non è possibile utilizzare parole chiave associate a campi nascosti nella visualizzazione Tabella.
+      Non è possibile utilizzare parole chiave associate a campi che non vengono visualizzati nella visualizzazione timeline.
 
    1. Premi Invio sulla tastiera per passare al successivo campo trovato.
    1. (Facoltativo) Se sono presenti più corrispondenze, fare clic sulle frecce su e giù a destra della parola chiave di ricerca per trovare tutte le corrispondenze nella tabella.
-   1. Fare clic sull&#39;icona X nella casella di ricerca per deselezionare la parola chiave di ricerca.
+   1. Fai clic su **x** nella casella di ricerca per deselezionare la parola chiave di ricerca.
 
 1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
    * [Filtri](#add-filters)

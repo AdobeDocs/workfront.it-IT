@@ -6,9 +6,9 @@ description: È possibile limitare la quantità di informazioni visualizzate sul
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
-source-wordcount: '2462'
+source-wordcount: '2456'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Puoi applicare i seguenti tipi di filtri in Adobe Workfront:
 
   Per informazioni sui filtri rapidi, consulta [Applicare il filtro rapido a un elenco](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-* Filtri permanenti che consentono di risparmiare tempo e utilizzarli in più elenchi e rapporti. In questo articolo viene descritto come creare un filtro permanente o modificarne uno esistente in un elenco o in un report.
+* Filtri permanenti che è possibile salvare e utilizzare più volte su più elenchi e rapporti. In questo articolo viene descritto come creare un filtro permanente o modificarne uno esistente in un elenco o in un report.
 
 * Filtri in altre aree di Workfront, al di fuori di elenchi e rapporti.
 
@@ -202,7 +202,7 @@ Crea un filtro tramite l’interfaccia standard di generazione:
    </tr>
    <tr>
    <td role="rowheader"><strong>Impostazioni predefinite di sistema</strong></td>
-   <td>Filtri predefiniti di Workfront e filtri aggiunti dall’amministratore Workfront all’elenco dei filtri, a livello di sistema o nel modello di layout.</td>
+   <td>I filtri predefiniti di Workfront e i filtri aggiunti dall’amministratore di Workfront all’elenco dei filtri, a livello di sistema o nel modello di layout.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Condivisi con me</strong></td>
@@ -263,14 +263,14 @@ Crea un filtro tramite l’interfaccia standard di generazione:
    >
    >A seconda del modificatore selezionato, è possibile selezionare più valori.
 
-1. Clic **Aggiungi filtro** per selezionare un altro campo e aggiungere un nuovo criterio di filtro all’istruzione di filtro.
+1. Clic **Aggiungi filtro** per selezionare un altro campo, aggiungi un criterio di filtro all’istruzione di filtro.
 1. (Facoltativo) Fai clic su **Elimina** icona ![Icona Elimina](assets/delete.png) per rimuovere le istruzioni di filtro esistenti.
 
    Oppure
 
    Clic **Cancella tutto** per cancellare tutti i criteri di filtraggio.
 
-1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore di default tra i set è AND. Fai clic sull’operatore per modificarlo in O.
+1. (Facoltativo) Fai clic su **Aggiungi gruppo di filtri** per aggiungere un altro set di criteri di filtro. L&#39;operatore predefinito tra i set è **E**. Fai clic sull’operatore per modificarlo in **OPPURE**.
 
    >[!TIP]
    >
@@ -294,7 +294,7 @@ Crea un filtro tramite l’interfaccia standard di generazione:
 
    >[!TIP]
    >
-   >È consigliabile creare il maggior numero possibile di filtri utilizzando l’interfaccia standard di generazione e utilizzando la modalità testo solo quando è necessario apportare modifiche al filtro supportate solo in modalità testo.
+   >È consigliabile creare il maggior numero possibile di filtri utilizzando l’interfaccia standard di generazione e utilizzando la modalità testo solo quando è necessario modificare i filtri supportati solo in modalità testo.
 
    Per ulteriori informazioni sulla creazione di un filtro tramite l’interfaccia in modalità testo, consulta [Modificare un filtro utilizzando la modalità testo](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -306,7 +306,7 @@ Crea un filtro tramite l’interfaccia standard di generazione:
 
 1. (Facoltativo) Fai clic su **Applica** per applicare il filtro all’elenco e visualizzare i risultati.
 
-   Se il filtro non produce risultati, l’elenco sarà vuoto.
+   Se il filtro non produce risultati, l’elenco è vuoto.
 
 1. Clic **Salva come nuovo** per salvare il filtro per utilizzi futuri.
 
@@ -316,7 +316,7 @@ Crea un filtro tramite l’interfaccia standard di generazione:
 
    >[!TIP]
    >
-   >Assicurati di denominare il filtro in modo da poterlo trovare in un secondo momento. Se non si assegna un nome al filtro, verrà chiamato Filtro senza titolo nel sistema.
+   >Assicurati di denominare il filtro in modo da poterlo trovare in un secondo momento. Se non si assegna un nome al filtro, nel sistema verrà chiamato Filtro senza titolo.
 
 1. Seleziona un’icona per il nuovo filtro dal menu **Icona** menu a discesa.
 
@@ -329,13 +329,13 @@ Crea un filtro tramite l’interfaccia standard di generazione:
    >Clic **Annulla** in qualsiasi momento ti riporta all’area di creazione del filtro.
 
 1. Clic **Salva**. Il filtro viene salvato nell’elenco Salvato e applicato all’elenco di elementi.
-1. (Facoltativo) Per spostare un filtro nell’elenco Preferiti, passa il cursore del mouse su un filtro nel cassetto dei filtri e fai clic sull’icona Preferiti ![Icona Preferito](assets/favorites-icon-small.png).
+1. (Facoltativo) Per spostare un filtro nell’elenco Preferiti, passa il cursore del mouse su un filtro nel cassetto dei filtri e fai clic su **Preferito** icona ![Icona Preferito](assets/favorites-icon-small.png).
 
    Oppure
 
    Passare il puntatore del mouse su un filtro nel cassetto del filtro, quindi scegliere il menu Altro ![Menu Altro](assets/more-icon-spectrum.png)e fai clic su **Preferito**.
 
-1. (Facoltativo) Fai clic su **Sovrapponi filtri** per attivare i filtri sovrapposti. Questa opzione consente di applicare più di un filtro salvato. Le regole di filtro vengono applicate nell’ordine in cui vengono selezionate.
+1. (Facoltativo) Fai clic su **Sovrapponi filtri** per attivare i filtri sovrapposti. Questa opzione consente di applicare più di un filtro salvato. Le regole del filtro vengono applicate nell’ordine in cui le selezioni.
 
    >[!TIP]
    >
@@ -377,7 +377,7 @@ Indipendentemente dal metodo utilizzato per creare i filtri, la creazione di un 
 
    Oppure
 
-   Passa il puntatore del mouse sul filtro da modificare e fai clic sul pulsante **Modifica** icona ![](assets/edit-icon.png).
+   Passa il puntatore del mouse sul filtro che desideri modificare e fai clic sul pulsante **Modifica** icona ![](assets/edit-icon.png).
 
    Il generatore per personalizzare i lanci del filtro.
 
@@ -388,7 +388,7 @@ Indipendentemente dal metodo utilizzato per creare i filtri, la creazione di un 
 
      I campi associati all’oggetto del filtro sono elencati nella sezione **Inizia a digitare il nome del campo** casella.
 
-   * Clic **E** o **OPPURE** quando si aggiunge una nuova regola filtro.\
+   * Clic **E** o **OPPURE** quando si aggiunge una regola di filtro.\
      Quando aggiungi le regole del filtro, utilizza i modificatori del filtro per stabilire la condizione del filtro. Per ulteriori informazioni sui modificatori di filtri, consulta [Modificatori di filtri e condizioni](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
@@ -415,11 +415,11 @@ Indipendentemente dal metodo utilizzato per creare i filtri, la creazione di un 
 
    Per ulteriori informazioni sulla creazione di un filtro tramite l’interfaccia in modalità testo, consulta [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Clic **Salva filtro** per creare un nuovo filtro o sostituire quello selezionato con le modifiche apportate.
+1. Clic **Salva filtro** per creare un filtro o sostituire quello selezionato con le modifiche.
 
    Oppure
 
-   Clic **Salva come nuovo filtro** per creare un nuovo filtro da quello selezionato.
+   Clic **Salva come nuovo filtro** per creare un filtro da quello selezionato.
 
    Il nuovo filtro viene visualizzato nell’elenco dei filtri e viene applicato automaticamente all’elenco o al report selezionato.
 

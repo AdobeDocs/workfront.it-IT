@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 3%
@@ -209,7 +209,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    1. (Facoltativo) Se sono presenti più corrispondenze, fare clic sulle frecce su e giù a destra della parola chiave di ricerca per trovare tutte le corrispondenze nella tabella.
 
-   1. Fai clic su **X** nella casella di ricerca per deselezionare la parola chiave di ricerca.
+   1. Fai clic su **x** nella casella di ricerca per deselezionare la parola chiave di ricerca.
 
 
 ### Aggiungi righe (o record) {#add-rows}
