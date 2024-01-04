@@ -6,9 +6,9 @@ description: Puoi esportare i dati di Adobe Workfront da vari elenchi, report, d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 219c952185f50bd3888f6deee17cbc35d3b34b22
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2206'
+source-wordcount: '2203'
 ht-degree: 0%
 
 ---
@@ -123,7 +123,7 @@ Esistono diverse limitazioni relative al modo in cui i rapporti vengono visualiz
 
   Se il report contiene più di 50.000/65.000/100.000 righe e si desidera esportare tutti i dati, è consigliabile utilizzare i filtri o i prompt per ottenere carichi di dati inferiori ed eseguire più esportazioni.
 
-  Per informazioni sull’utilizzo dei filtri, consulta [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Per informazioni sull’utilizzo dei filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   Per informazioni sull&#39;utilizzo dei prompt, vedere [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

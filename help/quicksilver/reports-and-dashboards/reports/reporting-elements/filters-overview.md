@@ -2,19 +2,21 @@
 content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
-title: Panoramica sui filtri in Adobe Workfront
+title: Panoramica sui filtri
 description: In Adobe Workfront è possibile utilizzare i filtri per ridurre la quantità di informazioni visualizzate sullo schermo in elenchi, rapporti o altre aree.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 9add9857213bb3eca5fbc3bbe3f4e1bb9b5020fa
 workflow-type: tm+mt
-source-wordcount: '1841'
+source-wordcount: '1830'
 ht-degree: 1%
 
 ---
 
-# Panoramica sui filtri in Adobe Workfront
+# Panoramica sui filtri
+
+<!-- Audited: 01/2024 -->
 
 In Adobe Workfront è possibile utilizzare i filtri per ridurre la quantità di informazioni visualizzate sullo schermo in elenchi, rapporti o altre aree.
 
@@ -57,7 +59,7 @@ Per informazioni sui filtri rapidi, consulta [Applicare il filtro rapido a un el
 
 È possibile utilizzare filtri permanenti creati dall&#39;utente, da altri utenti o da Workfront in elenchi o report di oggetti.
 
-Per informazioni sugli oggetti in Workfront e su quelli per cui è possibile creare rapporti, consulta [Comprendere gli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Per informazioni sugli oggetti in Workfront e su quelli per cui è possibile creare rapporti, consulta [Panoramica sugli oggetti di Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Per ulteriori informazioni sui filtri negli elenchi e nei rapporti, consulta i seguenti articoli:
 
@@ -70,7 +72,7 @@ Per ulteriori informazioni sui filtri negli elenchi e nei rapporti, consulta i s
 Puoi utilizzare filtri incorporati o creare filtri personalizzati nelle seguenti aree di Workfront:
 
 * Home\
-  Per informazioni, vedere [Filtrare l’elenco di lavoro](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) sezione nell’articolo [Visualizzare gli elementi in Work List (Elenco di lavoro) nell’area Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Per informazioni, vedere [Filtrare l’elenco di lavoro](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) sezione nell’articolo [Visualizzare gli elementi in Work List (Elenco di lavoro) nell’area Home](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Area Richieste. Non è possibile personalizzare i filtri nell’area Richieste.
 
   Per informazioni, consulta [Individuare le richieste inviate](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
@@ -80,7 +82,7 @@ Puoi utilizzare filtri incorporati o creare filtri personalizzati nelle seguenti
 
 * Rapporto utilizzo
 
-  Per informazioni, consulta la sezione [Filtra informazioni sull’utilizzo](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) nell’articolo [Visualizza informazioni sull&#39;utilizzo delle risorse](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  Per informazioni, consulta la sezione [Filtra informazioni sull’utilizzo](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) nell’articolo [Visualizza informazioni sull&#39;utilizzo delle risorse](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Bilanciatore dei carichi di lavoro
 
@@ -130,7 +132,7 @@ Puoi utilizzare filtri incorporati o creare filtri personalizzati nelle seguenti
 
 ## Panoramica dei filtri negli elenchi e nei rapporti
 
-Quando si lavora con elenchi e rapporti, è possibile filtrare le informazioni sullo schermo utilizzando i seguenti tipi di filtri:
+Quando si lavora con elenchi e rapporti, è possibile filtrare le informazioni sullo schermo con i seguenti tipi di filtri:
 
 * filtri incorporati
 * nuovi filtri creati da zero
@@ -142,8 +144,9 @@ Quando si lavora con elenchi e rapporti, è possibile filtrare le informazioni s
 >Quando crei o modifichi filtri nei rapporti, devi modificare il rapporto affinché il nuovo filtro diventi il filtro predefinito per il rapporto. Quando modifichi solo il filtro, all’esterno del generatore di rapporti, il filtro predefinito del rapporto non viene aggiornato.\
 >Per informazioni sulla modifica di un rapporto, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Per informazioni sugli elenchi di Workfront, consulta l’articolo [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).\
-Per informazioni sui rapporti di Workfront, consulta l’articolo [Introduzione ai rapporti](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Per informazioni sugli elenchi di Workfront, consulta [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+
+Per informazioni sui rapporti di Workfront, consulta [Introduzione ai rapporti](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 Quando si lavora con filtri in elenchi o rapporti, considera quanto segue:
 
@@ -151,9 +154,9 @@ Quando si lavora con filtri in elenchi o rapporti, considera quanto segue:
 
 * L’amministratore di Workfront deve concedere l’accesso in Modifica a filtri, viste e raggruppamenti per creare filtri permanenti.
 
-  Per informazioni su come concedere l’accesso a filtri, viste e raggruppamenti, consulta [Concedere l’accesso a filtri, viste e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Per ulteriori informazioni, consulta [Concedere l’accesso a filtri, viste e raggruppamenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Il livello di autorizzazioni per un filtro determina il modo in cui vengono salvati i filtri. Se il filtro è stato creato in origine, è possibile salvare le modifiche, altrimenti verrà richiesto di salvare una versione del filtro che si sta modificando.
+* Il livello di autorizzazioni per un filtro determina il modo in cui vengono salvati i filtri. Se hai creato il filtro originariamente, puoi salvare le modifiche. In caso contrario, viene richiesto di salvare una nuova versione del filtro che si sta modificando.
 
   >[!TIP]
   >
@@ -181,14 +184,14 @@ Un filtro contiene i seguenti elementi:
  <tbody> 
   <tr> 
    <td><strong>Oggetto</strong></td> 
-   <td> <p>Oggetto di database Workfront del filtro. Per informazioni sugli oggetti da segnalare in Workfront, consulta <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Comprendere gli oggetti in Adobe Workfront</a>. </p> <p>Ad esempio, progetti, attività, problemi, utenti, documenti possono essere oggetto di un filtro. </p> </td> 
+   <td> <p>Oggetto di database Workfront del filtro. Per informazioni sugli oggetti da segnalare in Workfront, consulta <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Panoramica sugli oggetti di Adobe Workfront</a>. </p> <p>Ad esempio, progetti, attività, problemi, utenti o documenti possono essere oggetto di un filtro. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Campo</strong></td> 
    <td> <p>Attributo dell'oggetto in base al quale si sta filtrando. </p> <p>È ad esempio possibile filtrare in base al nome del Portfolio o al proprietario del progetto. In questi casi, Nome e Proprietario sono campi degli oggetti Portfolio e Progetto. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Valore</strong></p> </td> 
+   <td><strong>Valore</strong></td> 
    <td>Nome effettivo del campo in Workfront. Ad esempio, Completo può essere il valore di un campo Stato progetto. </td> 
   </tr> 
   <tr> 
@@ -241,22 +244,21 @@ Per informazioni sulla creazione di un filtro tramite l’interfaccia standard o
 
 ## Creare filtri utilizzando l’interfaccia in modalità testo
 
-Puoi creare i filtri utilizzando l’interfaccia in modalità testo. È consigliabile creare la maggior parte delle istruzioni di filtro utilizzando l’interfaccia standard o beta builder e modificare il codice del filtro solo come passaggio finale. Non è consigliabile creare un filtro da zero utilizzando solo l’interfaccia in modalità testo.
+Puoi creare i filtri utilizzando l’interfaccia in modalità testo. È consigliabile creare la maggior parte delle istruzioni di filtro utilizzando l’interfaccia standard o legacy builder e modificare il codice del filtro solo come passaggio finale. Non è consigliabile creare un filtro da zero utilizzando solo l’interfaccia in modalità testo.
 
 Per ulteriori informazioni sulla creazione di un filtro tramite l’interfaccia in modalità testo, consulta [Modificare un filtro utilizzando la modalità testo](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 ## Creare filtri per campi complessi
 
-* [Creare filtri per i campi i cui valori contengono virgole](#create-filters-for-fields-whose-values-contain-commas)
-* [Creare filtri i cui valori sono un campo personalizzato a selezione multipla](#create-filters-for-whose-values-are-a-multi-select-custom-field)
+È possibile creare filtri per campi complessi, ad esempio campi i cui valori contengono virgole e campi i cui valori sono campi personalizzati a selezione multipla.
 
 ### Creare filtri per i campi i cui valori contengono virgole {#create-filters-for-fields-whose-values-contain-commas}
 
 Quando si crea un filtro in modalità testo e si filtrano i valori di campo che contengono virgole, è necessario aggiungere una barra (&quot;/&quot;) prima delle virgole che separano i valori, per garantire che il valore venga letto come un’unica opzione di filtro. Questo vale solo per i seguenti tipi di campi:
 
 * Elenchi a discesa
-* Bottoni Circolari
-* Checkboxe
+* Pulsanti di opzione
+* Caselle di controllo
 
 Ad esempio, in un progetto denominato &quot;Colore&quot; è presente un campo pulsante di opzione con le seguenti opzioni:
 
@@ -270,13 +272,13 @@ Se desideri creare un filtro che trovi solo i progetti in cui è selezionata la 
 
 `DE:check_Mod=in`
 
-Questa sintassi assicura che i valori vengano letti insieme, come un’unica opzione. Se ometti la barra, Workfront legge la virgola come un &#39;OR&#39;, nel qual caso verranno selezionati solo i progetti con la prima o la seconda opzione.
+Questa sintassi assicura che i valori vengano letti insieme, come un’unica opzione. Se ometti la barra, Workfront legge la virgola come un operatore OR, nel qual caso verranno selezionati solo i progetti con la prima o la seconda opzione.
 
 Questa sintassi si applica anche quando si creano i prompt. Per ulteriori informazioni sull&#39;utilizzo dei prompt, vedere [Aggiungere una richiesta a un report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ### Creare filtri i cui valori sono un campo personalizzato a selezione multipla {#create-filters-for-whose-values-are-a-multi-select-custom-field}
 
-Puoi creare rapporti sui campi personalizzati a selezione multipla. Ad esempio, è possibile creare rapporti sui campi che sono caselle di controllo.
+Puoi creare rapporti sui campi personalizzati a selezione multipla. È ad esempio possibile creare rapporti sui campi che sono caselle di controllo.
 
 Tuttavia, se si desidera escludere i risultati che presentano una sola delle opzioni selezionate, nel rapporto verranno visualizzati tutti gli oggetti che presentano tale opzione e qualsiasi altra opzione selezionata.
 

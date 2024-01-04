@@ -6,9 +6,9 @@ description: Puoi condividere filtri, viste e raggruppamenti a cui hai accesso p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: d6b483fd1f28012eb8df3e578a44187de6c3629d
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1249'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Quando un filtro, una visualizzazione o un raggruppamento è condiviso con l&#39
 
 Per informazioni su come creare un filtro, una visualizzazione o un raggruppamento, vedere gli articoli seguenti:
 
-* [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -139,6 +139,7 @@ Condividi un filtro tramite l’interfaccia standard di generazione:
       >[!NOTE]
       >
       >Se abiliti l’accesso Gestisci con l’opzione Elimina, questi utenti potranno eliminare il filtro da tutti gli utenti, anche se non sono i proprietari del filtro.
+
    >[!TIP]
    >
    >Gli utenti non possono ricevere un’autorizzazione superiore al loro livello di accesso. Se non hanno accesso a Modifica filtri nel loro livello di accesso, non possono ricevere le autorizzazioni per gestire un filtro. Workfront disabilita l’opzione Gestisci per questi utenti e l’opzione è disabilitata.

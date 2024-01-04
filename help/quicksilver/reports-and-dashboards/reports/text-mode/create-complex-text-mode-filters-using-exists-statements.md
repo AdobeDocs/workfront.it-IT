@@ -6,9 +6,9 @@ description: Creare filtri in modalità testo complessi utilizzando istruzioni E
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2799'
+source-wordcount: '2766'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Quando si creano filtri che si estendono su più livelli nella gerarchia degli o
 
    * Creare filtri che si estendono su più livelli.
    * Creare filtri che cercano oggetti mancanti.\
-      Ad esempio, quando crei un rapporto utente, puoi filtrare gli utenti che non hanno registrato il tempo per un determinato periodo di tempo.
+     Ad esempio, quando crei un rapporto utente, puoi filtrare gli utenti che non hanno registrato il tempo per un determinato periodo di tempo.
 
 Quando si utilizzano istruzioni EXISTS in un filtro, considera le seguenti regole:
 
@@ -77,12 +77,12 @@ Quando si utilizzano istruzioni EXISTS in un filtro, considera le seguenti regol
    * L&#39;istruzione dopo il segno di uguale fa riferimento all&#39;oggetto da cui si fa riferimento (l&#39;oggetto originale).
 
 * Per connettere le istruzioni, è necessario utilizzare il codice oggetto dell&#39;oggetto di collegamento.\
-   Puoi trovare il codice oggetto di tutti gli oggetti in API Explorer.\
-   Per informazioni su API Explorer, vedi [API Explorer](../../../wf-api/general/api-explorer.md).
+  Puoi trovare il codice oggetto di tutti gli oggetti in API Explorer.\
+  Per informazioni su API Explorer, vedi [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * Quando manca un oggetto di collegamento perché gli oggetti originale e di destinazione sono collegati direttamente tra loro, è possibile utilizzare il codice oggetto dell&#39;oggetto di destinazione anziché l&#39;oggetto di collegamento.
 * È possibile fare riferimento a più campi (campi di destinazione) sullo stesso oggetto (oggetto di destinazione), nel qual caso è necessario connettere le righe che fanno riferimento ai campi mediante AND.\
-   Per un esempio di filtro per più campi appartenenti all&#39;oggetto Target, vedere [Esempio 4: filtrare per più campi: attività per nome proprietario Portfolio e ID scorecard allineamento Portfolio](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in questo articolo.
+  Per un esempio di filtro per più campi appartenenti all&#39;oggetto Target, vedere [Esempio 4: filtrare per più campi: attività per nome proprietario Portfolio e ID scorecard allineamento Portfolio](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in questo articolo.
 
 * L&#39;unico modificatore supportato per un&#39;istruzione EXISTS è NOTEXISTS.
 
@@ -143,7 +143,7 @@ Per creare un filtro che si estenda su più livelli nella gerarchia degli oggett
 
 1. Creare un filtro per l&#39;oggetto originale.\
    Ad esempio, crea un filtro Problema.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Clic **Passa alla modalità testo**.
 1. Incolla il seguente esempio di formula nell’interfaccia della modalità testo del nuovo filtro e sostituisci il testo suggerito con gli oggetti e i campi corretti:
@@ -187,7 +187,7 @@ Per creare un filtro che faccia riferimento a oggetti mancanti:
 
 1. Creare un filtro per l&#39;oggetto originale.\
    Ad esempio, crea un filtro Parametro.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Clic **Passa alla modalità testo**.
 1. (Facoltativo) Se si applica un filtro per gli oggetti mancanti, incollare il seguente esempio di formula nell&#39;interfaccia della modalità testo del nuovo filtro e sostituire il testo suggerito con gli oggetti e i campi corretti:
@@ -218,7 +218,7 @@ Utilizzando l’interfaccia in modalità testo, puoi creare un filtro per un ele
 Per filtrare i problemi in base al nome del proprietario del Portfolio:
 
 1. Creare un filtro Problema.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Clic **Passa alla modalità testo**.
 1. Fai riferimento al seguente codice generico:
@@ -232,7 +232,6 @@ Per filtrare i problemi in base al nome del proprietario del Portfolio:
    ```
 
 1. Incolla il seguente codice in **Impostare le regole di filtro per il report** area in cui sostituire il codice generico precedente:
-
    <pre>ESISTE:A:$$OBJCODE=PROJ<br>ESISTE:A:ID=FIELD:projectID<br>ESISTE:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221</pre>
 
    >[!NOTE]
@@ -243,7 +242,6 @@ Per filtrare i problemi in base al nome del proprietario del Portfolio:
    >* Il campo di destinazione e il campo di collegamento all&#39;oggetto di destinazione a cui si fa riferimento dall&#39;oggetto di collegamento sono ownerID.
    >* Il codice oggetto dell&#39;oggetto di collegamento è PROJ.
    >* Il campo di collegamento visualizzato nell&#39;oggetto originale è projectID e il campo di collegamento è ID.
-
 
 1. Sostituisci il valore del campo di destinazione (ownerID) nell’ultima istruzione con un ID utente del tuo ambiente.
 1. Clic **Salva filtro**.
@@ -259,7 +257,7 @@ Tramite l’interfaccia in modalità testo, puoi creare un filtro per visualizza
 Per filtrare i campi personalizzati non associati a un modulo personalizzato:
 
 1. Crea un filtro Parametro o Campo personalizzato.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Clic **Passa alla modalità testo**.
 1. Fai riferimento al seguente codice generico:
@@ -273,7 +271,6 @@ Per filtrare i campi personalizzati non associati a un modulo personalizzato:
    ```
 
 1. Incolla il seguente codice in **Impostare le regole di filtro per il report** area in cui sostituire il codice generico precedente:
-
    <pre>ESISTE:A:$$OBJCODE=CTGYPA<br>ESISTE:A:parameterID=FIELD:ID<br>ESISTE:A:$$EXISTSMOD=NOTEXISTS</pre>
 
    >[!NOTE]
@@ -285,7 +282,6 @@ Per filtrare i campi personalizzati non associati a un modulo personalizzato:
    >* Il campo di collegamento all&#39;oggetto di destinazione è parameterID perché esiste sia nella tabella oggetto di collegamento che nella tabella oggetto di destinazione.
    >* Il campo di collegamento visualizzato nell&#39;oggetto originale è ID (del parametro Categoria).
 
-
 1. Clic **Salva filtro**.
 
 ### Esempio 3: filtro per gli oggetti mancanti: utenti che non registrano il tempo per un determinato periodo di tempo {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
@@ -295,7 +291,7 @@ Tramite l’interfaccia in modalità testo, puoi creare un filtro per visualizza
 Per filtrare gli utenti che non hanno registrato l&#39;ora durante la settimana scorsa:
 
 1. Creare un filtro Utente.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Clic **Passa alla modalità testo**.
 1. Fai riferimento al seguente codice generico:
@@ -325,7 +321,6 @@ Per filtrare gli utenti che non hanno registrato l&#39;ora durante la settimana 
    >* ESISTE:A:L&#39;istruzione entryDate fa riferimento ai campi che definiscono l&#39;oggetto di destinazione (Hour) e utilizza la stessa sintassi utilizzata in un&#39;istruzione di filtro regolare. In questo modo, verranno visualizzati solo gli utenti che non hanno registrato il tempo per un periodo di tempo specifico, in questo caso la settimana precedente.
    >* Il modificatore NOTEXISTS indica che si stanno cercando elementi (ore) che non esistono per l’oggetto del rapporto (Utenti).
 
-
 1. Clic **Salva filtro**.
 
 ### Esempio 4: filtrare per più campi: attività per nome proprietario Portfolio e ID scorecard allineamento Portfolio {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
@@ -340,7 +335,7 @@ Utilizzando l’interfaccia in modalità testo, puoi creare un filtro che fa rif
 Per filtrare le attività in base al nome del proprietario del Portfolio e all’ID della scorecard di allineamento del Portfolio:
 
 1. Crea un filtro Attività.\
-   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Clic **Passa alla modalità testo**.
 1. Incolla il seguente codice in **Impostare le regole di filtro per il report** area:
@@ -357,6 +352,5 @@ Per filtrare le attività in base al nome del proprietario del Portfolio e all�
    >* Il campo di collegamento all’oggetto di destinazione è l’ID (del Portfolio).
    >* Il campo di collegamento visualizzato nell&#39;oggetto originale è projectID.
    >* Sostituisci ownerID con un ID utente del tuo ambiente.
-
 
 1. Clic **Salva filtro**.

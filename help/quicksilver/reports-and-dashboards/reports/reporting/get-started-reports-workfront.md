@@ -7,9 +7,9 @@ description: I rapporti forniscono visibilità su ciò che sta accadendo con gli
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ I rapporti sono una combinazione dei seguenti tre elementi in Workfront:
   </tr> 
   <tr> 
    <td role="rowheader">Filtro</td> 
-   <td> <li>Controlla la quantità di informazioni visualizzate in un report.</li> <li>Per informazioni sui filtri, consulta <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica sui filtri in Adobe Workfront</a>.</li> <li>Per informazioni sui modificatori di filtri, consulta <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificatori di filtri e condizioni</a>.</li> <li>Puoi filtrare utilizzando i caratteri jolly, per rendere i filtri più generali e dare loro maggiore flessibilità di utilizzo.</li> <li>Per informazioni sull'utilizzo dei caratteri jolly nei filtri, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabili filtro con caratteri jolly</a>.</li> </td> 
+   <td> <li>Controlla la quantità di informazioni visualizzate in un report.</li> <li>Per informazioni sui filtri, consulta <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica sui filtri</a>.</li> <li>Per informazioni sui modificatori di filtri, consulta <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Modificatori di filtri e condizioni</a>.</li> <li>Puoi filtrare utilizzando i caratteri jolly, per rendere i filtri più generali e dare loro maggiore flessibilità di utilizzo.</li> <li>Per informazioni sull'utilizzo dei caratteri jolly nei filtri, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabili filtro con caratteri jolly</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>

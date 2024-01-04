@@ -7,9 +7,9 @@ description: Domande frequenti sui rapporti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Quando eseguo un report con un grafico, viene visualizzato il messaggio di error
 
 Questo errore indica che il grafico contiene fino a 618 risultati distinti, ad esempio più di 618 barre in un grafico a barre. Per risolvere il problema di visualizzazione, è necessario perfezionare i risultati modificando il filtro e raggruppando le selezioni correnti.
 
-Per informazioni sulla modifica di filtri e raggruppamenti, consulta gli articoli [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+Per informazioni sulla modifica di filtri e raggruppamenti, consulta gli articoli [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) e [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Perché trovo le mie attività (o problemi) quando accedo allo stesso rapporto (o calendario) del mio collega, il quale visualizza le sue attività?
 

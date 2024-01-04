@@ -2,18 +2,20 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Collegare documenti da applicazioni esterne
-description: Puoi collegare documenti e cartelle ad Adobe Workfront.
+description: Puoi collegare documenti e cartelle ad Adobe Workfront da origini esterne.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2642'
+source-wordcount: '2588'
 ht-degree: 0%
 
 ---
 
 # Collegare documenti da applicazioni esterne
+
+<!-- Audited: 01/2024 -->
 
 Puoi collegare documenti e cartelle ad Adobe Workfront dalle seguenti origini:
 
@@ -35,8 +37,8 @@ Puoi collegare documenti e cartelle ad Adobe Workfront dalle seguenti origini:
     </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront Proof </td> 
-   <td>In Workfront è possibile rendere disponibili le bozze create originariamente in Workfront Proof. Per utilizzare questa funzione è necessario un piano Pro Workfront o superiore. Per ulteriori informazioni sui vari piani disponibili, vedere <a href="https://www.workfront.com/plans">Piani Workfront</a>.</td> 
+   <td role="rowheader">Bozza Workfront </td> 
+   <td>In Workfront è possibile rendere disponibili le bozze create originariamente in Workfront Proof. Per utilizzare questa funzione, è necessario un piano Pro Workfront o superiore per le licenze correnti. Per le nuove licenze, tutti i piani includono questa funzione. Per ulteriori informazioni sui vari piani disponibili, vedere <a href="https://www.workfront.com/plans">Piani Workfront</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -48,7 +50,7 @@ Puoi collegare documenti e cartelle ad Adobe Workfront dalle seguenti origini:
   </tr> 
   <tr> 
    <td role="rowheader">Altri provider di documenti (tramite integrazioni di documenti personalizzate)</td> 
-   <td> <p class="workfront_plans">Per utilizzare questa funzione è necessario un piano Pro Workfront o superiore. Per ulteriori informazioni sui vari piani disponibili, vedere <a href="https://www.workfront.com/plans">Piani Workfront</a>.</p> </td> 
+   <td> <p class="workfront_plans">Per utilizzare questa funzione, è necessario un piano Pro Workfront o superiore per le licenze correnti. Per le nuove licenze, tutti i piani includono questa funzione. Per ulteriori informazioni sui vari piani disponibili, vedere <a href="https://www.workfront.com/plans">Piani Workfront</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -94,12 +96,6 @@ Si applicano le seguenti eccezioni:
 ## Collegare un documento da un’applicazione esterna a Workfront
 
 Puoi collegare documenti esistenti con un provider cloud esterno. Ciò include tutti i documenti condivisi.
-
-* [Prerequisiti](#prerequisites)
-* [Collegare un documento esterno a Workfront](#link-an-external-document-to-workfront)
-* [Aggiungere una nuova versione di un documento collegato](#add-a-new-version-of-a-linked-document)
-* [Collega documenti bozza Workfront](#link-workfront-proof-documents)
-* [Creazione di un documento Google da Workfront](#create-a-google-document-from-within-workfront)
 
 ### Prerequisiti {#prerequisites}
 
@@ -190,7 +186,7 @@ Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve 
    >
    >Per i documenti collegati a Box, il collegamento al documento in Box viene visualizzato solo dopo l&#39;aggiornamento della pagina.
 
-Per informazioni sull&#39;aggiunta di una nuova versione di un documento caricato in Workfront dal file system, vedere [Aggiungere documenti ad Adobe Workfront dal file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Aggiungere documenti ad Adobe Workfront dal file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Per informazioni sull&#39;aggiunta di una nuova versione di un documento caricato in Workfront dal file system, vedere [Aggiungere documenti ad Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Aggiungere documenti ad Adobe Workfront dal file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Collega documenti bozza Workfront {#link-workfront-proof-documents}
 
@@ -205,7 +201,7 @@ In Workfront Proof è possibile collegare solo le bozze per le quali si dispone 
    >
    >Le opzioni di questo menu possono variare a seconda dei provider di terze parti configurati nel tuo ambiente.
 
-1. In **Collegamento** bozze **da** Nella casella Workfront Proof (Bozza di) visualizzata, inizia a digitare il nome della bozza che desideri rendere disponibile in Workfront.
+1. In **Collega bozze da bozza Workfront** che viene visualizzata, inizia a digitare il nome della bozza che desideri rendere disponibile in Workfront.
 
    L&#39;elenco viene filtrato durante la digitazione.
 
@@ -223,9 +219,7 @@ In Workfront Proof è possibile collegare solo le bozze per le quali si dispone 
 
 1. Vai a **Documenti** in Workfront in cui si desidera inserire il documento.
 1. Clic **Aggiungi nuovo** > **File Google**, quindi selezionare il tipo di documento Google che si desidera creare.
-
-1. Selezionare il tipo di documento Google che si desidera creare.
-1. Se il **Aggiungi account Google Drive** , fare clic su **Autorizza Google Drive**.
+1. Se il **Aggiungi account Google Drive** , fare clic su **Autorizza unità Google**.
 
    Un documento Google viene aggiunto al **Documenti** scheda.
 
@@ -233,7 +227,7 @@ In Workfront Proof è possibile collegare solo le bozze per le quali si dispone 
    >
    > Le opzioni Unità e Condiviso con me visualizzano due risultati diversi. Se non si riesce a individuare un file nella cartella Unità, archiviare la cartella Condiviso con me.
 
-## Aggiornare e collegare un documento da Workfront a un provider cloud esterno
+## Caricare e collegare un documento da Workfront a un provider cloud esterno
 
 Puoi caricare e collegare un documento da Workfront a un provider cloud esterno. In questo modo l’archiviazione del documento viene spostata da Workfront al provider cloud esterno. Quando il documento viene modificato nell&#39;applicazione esterna, viene aggiornato automaticamente in Workfront.
 
@@ -256,11 +250,7 @@ Gli utenti senza accesso a Workfront possono visualizzare il documento nell’ap
 
 ## Collega cartelle
 
-Quando colleghi una cartella tra Workfront e un provider cloud esterno, la cartella e tutto il suo contenuto vengono collegati. Se gli utenti senza accesso a Workfront aggiungono, rimuovono e modificano file dall&#39;applicazione documento esterna, le modifiche apportate vengono sincronizzate con Workfront. Le sezioni seguenti descrivono come collegare cartelle e sottocartelle:
-
-* [Diritti di accesso alle cartelle](#folder-access-rights)
-* [Collega una o più cartelle esterne](#link-one-or-more-external-folders)
-* [Aggiungere sottocartelle a una cartella collegata](#add-subfolders-to-a-linked-folder)
+Quando colleghi una cartella tra Workfront e un provider cloud esterno, la cartella e tutto il suo contenuto vengono collegati. Se gli utenti senza accesso a Workfront aggiungono, rimuovono e modificano file dall&#39;applicazione documento esterna, le modifiche apportate vengono sincronizzate con Workfront.
 
 ### Diritti di accesso alle cartelle {#folder-access-rights}
 
@@ -330,8 +320,6 @@ Quando si aggiunge un documento a una cartella collegata tramite Workfront, ques
 
 1. Selezionare la cartella collegata in cui si desidera inserire il documento, quindi fare clic su **Aggiungi nuovo > Documento**, quindi individuare il documento e aggiungerlo alla cartella.
 
-
-
    Oppure
 
    In **Documenti** in cui si desidera inserire il documento, trascinare il documento in una cartella collegata.
@@ -340,10 +328,11 @@ Quando si aggiunge un documento a una cartella collegata tramite Workfront, ques
 
 >[!NOTE]
 >
-> * Le opzioni del documento non sono disponibili mentre è in corso lo spostamento del documento. Una volta spostato il documento in Experience Manager Assets, non sarà più visibile nell&#39;elenco dei documenti in Workfront.
+> * Le opzioni del documento non sono disponibili mentre è in corso lo spostamento del documento.
 >
-> * Tutte le azioni o le modifiche apportate al documento durante lo spostamento non verranno visualizzate nel documento in Experience Manager Assets e andranno quindi perse.
-
+> * Dopo lo spostamento di un documento in Experience Manager Assets, non sarà più visibile nell&#39;elenco dei documenti in Workfront.
+>
+> * Qualsiasi azione o modifica eseguita su un documento durante lo spostamento non verrà visualizzata sul documento in Experience Manager Assets e andrà quindi persa.
 
 ## Eliminare un documento o una cartella collegata
 
@@ -362,4 +351,4 @@ Se si desidera che il nome corrisponda in Workfront e nell&#39;applicazione este
 
 >[!IMPORTANT]
 >
->Non rinominare un documento in Workfront collegato al Dropbox; in questo modo il file in Workfront non sarà più accessibile. Rinominare il file nel Dropbox, quindi risincronizzare il file, come descritto in [Collegare documenti da applicazioni esterne](#synchronizing-changes-made-on-a-linked-document).
+>Non rinominare un documento in Workfront collegato al Dropbox; in questo modo il file in Workfront non sarà più accessibile. Rinominare il file nel Dropbox, quindi risincronizzare il file.

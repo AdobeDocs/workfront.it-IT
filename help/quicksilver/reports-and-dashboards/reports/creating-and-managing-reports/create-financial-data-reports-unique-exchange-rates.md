@@ -1,29 +1,29 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: Creare rapporti di dati finanziari con tassi di cambio univoci
-description: Se sono stati configurati più tassi di cambio in Adobe Workfront, è possibile impostare i valori finanziari nei rapporti e negli elenchi in modo che vengano visualizzati in una valuta diversa da quella predefinita.
+title: Creazione di report di dati finanziari con tassi di cambio univoci
+description: Se in Adobe Workfront sono stati configurati più tassi di cambio, è possibile impostare i valori finanziari nei report e negli elenchi in modo che vengano visualizzati in una valuta diversa da quella predefinita.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
-# Creare rapporti di dati finanziari con tassi di cambio univoci
+# Creazione di report di dati finanziari con tassi di cambio univoci
 
-Se sono stati configurati più tassi di cambio in Adobe Workfront, è possibile impostare i valori finanziari nei rapporti e negli elenchi in modo che vengano visualizzati in una valuta diversa da quella predefinita.
+Se in Adobe Workfront sono stati configurati più tassi di cambio, è possibile impostare i valori finanziari nei report e negli elenchi in modo che vengano visualizzati in una valuta diversa da quella predefinita.
 
 >[!IMPORTANT]
 >
->Se in una visualizzazione si seleziona una valuta diversa da quella predefinita, i collegamenti non vengono più visualizzati **Aggiungi altre attività** e **Aggiungi altri problemi** in fondo a un elenco di progetti.
+>Se in una visualizzazione si seleziona una valuta diversa da quella predefinita, i collegamenti non saranno più visualizzati **Aggiungi altre attività** e **Aggiungi altri problemi** in fondo all’elenco dei progetti.
 
 Per informazioni su come modificare la valuta predefinita per un determinato progetto, consulta [Modificare la valuta del progetto](../../../manage-work/projects/project-finances/change-project-currency.md).
 
-Se nel rapporto sono presenti progetti con una moneta unica, anche le somme in raggruppamenti vengono visualizzate nella valuta predefinita del sistema.
+Se nel rapporto sono presenti progetti con una valuta unica, anche le somme in raggruppamenti vengono visualizzate nella valuta predefinita del sistema.
 
 ## Requisiti di accesso
 
@@ -34,7 +34,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -42,36 +42,37 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Accesso a rapporti, dashboard, calendari</p> <p>Modificare l’accesso a Filtri, Visualizzazioni, Gruppi</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Prerequisiti
 
-Prima di visualizzare le valute alternative come descritto in questa sezione, l&#39;amministratore di Workfront deve prima abilitare e configurare più valute nell&#39;area Configurazione di Workfront. Per informazioni, consulta [Imposta i tassi di cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Prima di poter visualizzare le valute alternative come descritto in questa sezione, l’amministratore di Workfront deve innanzitutto abilitare e configurare più valute nell’area Configurazione di Workfront. Per informazioni, consulta [Imposta tassi di cambio](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-## Applicazione di valori finanziari a un report {#apply-financial-values-to-a-report}
+## Applicare valori finanziari a un rapporto {#apply-financial-values-to-a-report}
 
-Per convertire i valori finanziari tra le valute quando si utilizzano i rapporti:
+Per convertire i valori finanziari tra valute quando si utilizzano i rapporti:
 
 1. Passare al report in cui si desidera convertire i valori finanziari in una valuta diversa.
-1. Fai clic sul pulsante **Visualizza** elenco a discesa, fai clic su **Cambia valuta**, quindi selezionare una delle seguenti valute in cui si desidera visualizzare i valori finanziari:
+1. Fai clic su **Visualizza** menu a discesa, fai clic su **Cambia valuta**, quindi selezionare una delle seguenti valute in cui si desidera visualizzare i valori finanziari:
 
    * Valuta originale del progetto
-   * Tutte le altre valute
+   * Qualsiasi altra valuta
 
-      >[!TIP]
-      >
-      >È possibile scegliere solo le valute precedentemente selezionate in Configurazione.
-   L&#39;utilizzo di questa opzione consente di convertire rapidamente i valori finanziari in un rapporto tra valori di tasso.
+     >[!TIP]
+     >
+     >È possibile scegliere solo le valute precedentemente selezionate in Configurazione.
+
+   Questa opzione consente di convertire rapidamente i valori finanziari di un rapporto tra i valori dei tassi.
 
    ![Cambia valuta](assets/qs-change-currency-2022-350x257.png)
 
@@ -89,85 +90,85 @@ Per convertire i valori finanziari tra le valute quando si utilizzano i rapporti
    </note>
    -->
 
-## Visualizza la valuta predefinita in più progetti con valute diverse
+## Visualizzare la valuta predefinita in più progetti con valute diverse
 
-Quando si personalizza la valuta a livello di progetto e si desidera visualizzare le informazioni di tutti i progetti nello stesso rapporto, esistono i seguenti scenari:
+Quando si personalizza la valuta a livello di progetto e si desidera visualizzare le informazioni di tutti i progetti nello stesso rapporto, si verificano i seguenti scenari:
 
-* Se si crea un report contenente informazioni finanziarie provenienti da due o più progetti a cui sono applicate valute diverse, per impostazione predefinita il riepilogo dei raggruppamenti riflette la valuta predefinita del sistema selezionata dall&#39;amministratore Workfront.
-* Se si crea un rapporto per due o più progetti che hanno la stessa valuta ma che differiscono da quella predefinita del sistema, le somme dei raggruppamenti vengono visualizzate utilizzando la valuta predefinita del sistema.
-* Se si crea un rapporto per due o più progetti che presentano assegnazioni di ruoli di lavoro associate a una sostituzione di valuta, Workfront converte le informazioni finanziarie dai tassi di cambio di sostituzione del ruolo di lavoro nella divisa del progetto (quando si seleziona Divisa originale del progetto nella visualizzazione) o in una valuta diversa selezionata al momento della visualizzazione del rapporto. Per informazioni sulla sostituzione della valuta di un ruolo di lavoro, vedere [Creare e gestire ruoli di lavoro](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Se si crea un report che fornisce informazioni finanziarie da due o più progetti a cui sono state applicate valute diverse, per impostazione predefinita il riepilogo del raggruppamento riflette la valuta predefinita del sistema selezionata dall&#39;amministratore Workfront.
+* Se si crea un report per due o più progetti che hanno la stessa valuta, ma differiscono da quella predefinita del sistema, le somme nei raggruppamenti vengono visualizzate utilizzando la valuta predefinita del sistema.
+* Se si crea un report per due o più progetti con assegnazioni di mansioni associate a una sostituzione della valuta, Workfront converte le informazioni finanziarie dai tassi di valuta sostituiti della mansione nella valuta del progetto (quando si seleziona la valuta originale del progetto nella visualizzazione) o in una valuta diversa selezionata durante la visualizzazione del report. Per informazioni sull&#39;override della valuta di una mansione, vedere [Creare e gestire le mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-Per visualizzare due progetti con valute personalizzate in un rapporto:
+Per visualizzare in un rapporto due progetti con valute personalizzate:
 
-1. Crea due progetti con diverse valute applicate.
+1. Crea due progetti con valute diverse applicate.
 
    ![](assets/qs-currency-350x217.png)
 
-1. Accedi alle ore su entrambi i progetti.
+1. Registra le ore su entrambi i progetti.
 
-   Per ulteriori informazioni sul tempo di registrazione, vedi [Tempo di log](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Per ulteriori informazioni sull&#39;ora di registrazione, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png), quindi fai clic su **Reporting**.
-1. Fai clic su **Nuovo rapporto**, quindi **Rapporto sul progetto**.
-1. In **Colonne (visualizzazione)** aggiungi una scheda **Costo effettivo** e riepilogalo per **Somma**.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png), quindi fai clic su **Generazione rapporti**.
+1. Clic **Nuovo rapporto**, quindi **Report di progetto**.
+1. In **Colonne (visualizzazione)** , aggiungi un **Costo Reale** e riepilogarlo per **Somma**.
 
    Per informazioni su come creare una colonna, consulta [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In **Raggruppamenti** , applica un **Data completamento pianificata** raggruppamento.
+1. In **Raggruppamenti** , applica una **Data di completamento Pianificata** raggruppamento.
 
    Per informazioni su come creare un raggruppamento, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. In **Filtri** aggiungi un filtro per **Nome progetto** e selezionare i due progetti con le diverse valute.
+1. In **Filtri** , aggiungi un filtro per **Nome progetto** e selezionare i due progetti con valute diverse.
 
-   Per informazioni su come creare un filtro, consulta [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Per informazioni su come creare un filtro, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Fai clic su **Salva e chiudi**.
+1. Clic **Salva e chiudi**.
 
-   Il totale del **Costo effettivo** viene visualizzato nel gruppo utilizzando la valuta predefinita del sistema, indipendentemente dalla valuta dei progetti nel rapporto.
+   Totale del valore **Costo Reale** viene visualizzato in Raggruppamento utilizzando la valuta predefinita del sistema, indipendentemente dalla valuta dei progetti nel rapporto.
 
-   ![Divisa visualizzata nel raggruppamento](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
+   ![Valuta visualizzata nel raggruppamento](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
-   Se i due progetti hanno valute diverse l&#39;uno dall&#39;altro, la valuta predefinita del sistema viene visualizzata anche nel Raggruppamento del rapporto.
+   Se i due progetti hanno valute diverse tra loro, nel Raggruppamento del rapporto viene visualizzata anche la valuta predefinita del sistema.
 
-## Visualizza la divisa del progetto in un rapporto a livello di progetto
+## Visualizzare la valuta del progetto in un rapporto a livello di progetto
 
-Se un raggruppamento viene applicato a un&#39;attività o a un elenco di ore all&#39;interno di un progetto, le somme nel raggruppamento vengono visualizzate nella valuta del progetto.
+Se viene applicato un raggruppamento a un’attività o a un elenco di ore all’interno di un progetto, le somme del raggruppamento vengono visualizzate nella valuta del progetto.
 
-1. Crea un progetto con una valuta personalizzata diversa dalla valuta predefinita del sistema.
+1. Crea un progetto con una valuta personalizzata, diversa da quella predefinita dal sistema.
 1. Vai al progetto e assicurati che includa le ore registrate per le attività.
 
-   Per ulteriori informazioni sul tempo di registrazione, vedi [Tempo di log](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Per ulteriori informazioni sull&#39;ora di registrazione, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
    >[!NOTE]
    >
-   >Le attività devono essere assegnate a utenti o ruoli di lavoro con tariffe di costo per ora.
+   >Le attività devono essere assegnate a utenti o mansioni con tariffe orarie.
 
-1. Fai clic su **Attività**.
-1. Espandi la **Visualizza** menu a discesa e seleziona **Nuova vista**.
-1. Aggiungi **Costo effettivo** nella nuova colonna Visualizza come nuova e riepilogala per **Somma**.
-1. Fai clic su **Fine**, quindi fai clic su **Salva visualizzazione**.
-1. Espandi la **Raggruppamento** menu a discesa e seleziona **Nuovo raggruppamento**.
-1. Aggiungi **Data completamento effettivo** nel nuovo raggruppamento come nuovo campo, fai clic su **Salva raggruppamento**.
+1. Clic **Attività**.
+1. Espandi **Visualizza** menu a discesa e selezionare **Nuova visualizzazione**.
+1. Aggiungi **Costo Reale** nella nuova colonna Visualizza come nuova e riepilogarla per **Somma**.
+1. Clic **Fine**, quindi fai clic su **Salva visualizzazione**.
+1. Espandi **Raggruppamento** menu a discesa e selezionare **Nuovo raggruppamento**.
+1. Aggiungi **Data di completamento effettiva** nel nuovo raggruppamento come nuovo campo, quindi fai clic su **Salva raggruppamento**.
 
-   La **Costo effettivo** La colonna riepiloga nel nuovo raggruppamento e visualizza il totale nella valuta del progetto.
+   Il **Costo Reale** Questa colonna riepiloga nel nuovo Raggruppamento e visualizza il totale nella valuta del progetto.
 
-## Modificare rapporti con valute univoche
+## Modificare i rapporti con valute univoche
 
-I campi finanziari di un rapporto non possono essere modificati finché non si modifica l&#39;impostazione del rapporto per visualizzare la valuta originale dei progetti.
+I campi finanziari di un rapporto non possono essere modificati finché non si modifica l&#39;impostazione del rapporto in modo da visualizzare la valuta originale per i progetti.
 
-Per modificare in linea un campo finanziario in un rapporto:
+Per modificare in linea un campo finanziario in un report:
 
-1. Passa a un rapporto.
+1. Passare a un report.
 
    >[!NOTE]
    >
-   >Se la valuta predefinita non viene visualizzata per un elenco in un&#39;altra area, è possibile modificare la visualizzazione per visualizzare la valuta predefinita.\
-   >Per informazioni su come modificare la valuta in una visualizzazione, consulta la sezione in questo articolo [Applicazione di valori finanziari a un report](#apply-financial-values-to-a-report).
+   >Se la valuta predefinita non viene visualizzata per un elenco in qualsiasi altra area, è possibile modificare la visualizzazione in modo da visualizzare la valuta predefinita.\
+   >Per informazioni su come modificare la valuta in una visualizzazione, vedere la sezione di questo articolo [Applicare valori finanziari a un rapporto](#apply-financial-values-to-a-report).
 
-1. Fai clic su **Azioni dei rapporti**, quindi seleziona **Modifica**.
-1. Fai clic su **Impostazioni dei rapporti**.
-1. Fai clic sul pulsante **Valuta predefinita** a discesa, quindi seleziona **Valuta originale del progetto**.
+1. Clic **Azioni report**, quindi seleziona **Modifica**.
+1. Clic **Impostazioni dei rapporti**.
+1. Fai clic su **Valuta predefinita** a discesa, quindi seleziona **Valuta originale del progetto**.
 
    ![](assets/qs-report-settings-default-currency-350x370.png)
 
-1. Fai clic su **Fine**.
+1. Clic **Fine**.

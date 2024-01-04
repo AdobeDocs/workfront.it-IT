@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '775'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
         <ol> 
          <li value="1"> Clic <strong>Aggiungi filtro</strong>, <strong>Aggiungi visualizzazione</strong>, o <strong>Aggiungi raggruppamento</strong> nella parte inferiore dell'elenco Filtro, Visualizza o Raggruppamento. Nella casella visualizzata, iniziare a digitare il nome di un controllo elenco personalizzato esistente creato in precedenza per l'organizzazione, quindi fare clic sul nome quando viene visualizzato.</li> 
          <li value="2"> Se si desidera impostare il nuovo set di controlli elenco personalizzato come filtro, visualizzazione o raggruppamento predefinito per il modello di layout, fare clic su <strong>Imposta come predefinito</strong>. </li> 
-         <li value="3"> <p>Clic <strong>Aggiungi</strong> quando hai finito.</p> <p><b>NOTA</b>: <p>Gli utenti possono aggiungere controlli elenco personalizzati ai propri elenchi. Se si aggiungono controlli elenco personalizzati in un modello di layout, i controlli elenco vengono aggiunti e spostati nella parte inferiore del pannello, senza sostituirli.</p> <p>Questo vale anche se si assegna l'utente a un nuovo modello di layout con controlli elenco personalizzati. </p> <p>Per informazioni sulla personalizzazione dei controlli elenco, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica sui filtri in Adobe Workfront</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Panoramica delle visualizzazioni in Adobe Workfront</a>, e <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Panoramica sui raggruppamenti in Adobe Workfront</a>.</p> </p> </li> 
+         <li value="3"> <p>Clic <strong>Aggiungi</strong> quando hai finito.</p> <p><b>NOTA</b>: <p>Gli utenti possono aggiungere controlli elenco personalizzati ai propri elenchi. Se si aggiungono controlli elenco personalizzati in un modello di layout, i controlli elenco vengono aggiunti e spostati nella parte inferiore del pannello, senza sostituirli.</p> <p>Questo vale anche se si assegna l'utente a un nuovo modello di layout con controlli elenco personalizzati. </p> <p>Per informazioni sulla personalizzazione dei controlli elenco, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Panoramica sui filtri</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Panoramica delle visualizzazioni in Adobe Workfront</a>, e <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Panoramica sui raggruppamenti in Adobe Workfront</a>.</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 
     </tbody> 

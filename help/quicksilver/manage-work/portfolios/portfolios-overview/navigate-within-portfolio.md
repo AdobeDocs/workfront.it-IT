@@ -6,9 +6,9 @@ description: Spostarsi all’interno di un portfolio
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: a88cc4576122967b52e044ab65ace3451179906b
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -80,9 +80,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * **[!UICONTROL Attivo]**: include tutti i progetti associati al portfolio selezionato con i seguenti stati:
 
-      * [!UICONTROL In Pianificazione]
+      * [!UICONTROL Pianificazione]
       * [!UICONTROL Approvato]
-      * [!UICONTROL Attuali]
+      * [!UICONTROL Corrente]
    * **[!UICONTROL Richiesto]**: include progetti associati al portfolio selezionato con lo stato **[!UICONTROL Richiesto]**.
 
      Per informazioni sulla revisione dei progetti richiesti, vedi [Esamina progetti richiesti](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
@@ -93,7 +93,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      >
      >Per visualizzare solo progetti specifici, puoi creare un filtro di progetto in **[!UICONTROL Filtro]** menu a discesa nella parte superiore dell’elenco dei progetti per ridurre il numero di progetti visualizzati.
 
-     Per ulteriori informazioni sulla creazione di filtri, consulta [Panoramica dei filtri in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     Per ulteriori informazioni sulla creazione di filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. Clic **[!UICONTROL Programmi]** nel pannello a sinistra per creare programmi all’interno del portfolio o gestire quelli esistenti.\

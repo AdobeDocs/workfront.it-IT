@@ -6,9 +6,9 @@ description: Puoi migliorare i rapporti aggiungendo un grafico. È possibile agg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: be47bc4da5e3921a7c36e19831acde91aad55db1
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2755'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Per informazioni sulla creazione di una visualizzazione, vedere [Panoramica dell
 Per ulteriori informazioni sui raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 Se nel report vengono visualizzati troppi elementi, non viene creato un grafico. In questo caso, devi anche aggiungere un filtro al rapporto per ridurre il numero di risultati.\
-Per ulteriori informazioni sui filtri, consulta [Panoramica sui filtri in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Per ulteriori informazioni sui filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisiti di accesso
 
@@ -69,7 +69,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >* I raggruppamenti in modalità testo non sono supportati nei grafici. Per ulteriori informazioni sui raggruppamenti in modalità testo, vedere [Modifica modalità testo in un raggruppamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Se aggiungi un singolo raggruppamento che rappresenta una metrica, tutti i grafici eccetto un grafico a torta visualizzano ciascuno come risultato del raggruppamento dello stesso colore.
 
-
    Per ulteriori informazioni sui raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Seleziona la **Grafico** scheda.
@@ -102,21 +101,20 @@ Per aggiungere una **Colonna** grafico per il report:
    Selezionare una delle opzioni seguenti:
 
    * Fare clic su una delle opzioni seguenti per selezionare la modalità di visualizzazione delle colonne raggruppate:\
-      **- Affiancato**
-
-      **- Impilate**
-      **- Impilate al 100%**
+     **- Affiancato**
+     **- In pila**
+     **- Sovrapposizione al 100%**
 
    * Selezionare il Raggruppamento che si desidera includere nel grafico.
    * (Facoltativo) Seleziona **Colori personalizzati** per personalizzare i colori delle colonne.\
-      Per ulteriori informazioni sulla personalizzazione dei colori dei grafici, vedere [Personalizzare i colori del grafico](#customize-chart-colors).
+     Per ulteriori informazioni sulla personalizzazione dei colori dei grafici, vedere [Personalizzare i colori del grafico](#customize-chart-colors).
 
 1. (Facoltativo) Seleziona **Grafico combinato** per includere un valore aggiuntivo nel grafico, nonché come si desidera riepilogare le informazioni.\
    Considera le seguenti opzioni:
 
    * **Traccia sull&#39;asse secondario**: seleziona questa opzione per tracciare i dati sul lato destro del grafico.
    * **Tipo di grafico**: seleziona se desideri che questo valore aggiuntivo venga visualizzato come riga o come terza colonna.\
-      ![](assets/qs-column-chart-350x163.png)
+     ![](assets/qs-column-chart-350x163.png)
 
 1. Clic **Salva e chiudi** per salvare il grafico e il report.
 
@@ -135,14 +133,13 @@ Per aggiungere una **Barre** grafico per il report:
    Selezionare una delle opzioni seguenti:
 
    * Fare clic su una delle opzioni seguenti per selezionare la modalità di visualizzazione delle barre raggruppate:\
-      **- Affiancato**
-
-      **- Impilate**
-      **- Impilate al 100%**
+     **- Affiancato**
+     **- In pila**
+     **- Sovrapposizione al 100%**
 
    * Selezionare il Raggruppamento che si desidera includere nel grafico.
    * (Facoltativo) Seleziona **Colori personalizzati** per personalizzare i colori delle colonne.\
-      Per ulteriori informazioni sulla personalizzazione dei colori dei grafici, vedere [Personalizzare i colori del grafico](#customize-chart-colors).
+     Per ulteriori informazioni sulla personalizzazione dei colori dei grafici, vedere [Personalizzare i colori del grafico](#customize-chart-colors).
 
 1. (Facoltativo) Seleziona **Grafico combinato** per includere un valore aggiuntivo nel grafico, nonché come si desidera riepilogare le informazioni.\
    ![](assets/qs-bar-chart-350x167.png)
@@ -165,7 +162,7 @@ Per aggiungere una **Torta** grafico per il report:
 
    * **Percento**: i risultati del grafico vengono visualizzati come percentuale.
    * **Numeri**: i risultati del grafico vengono visualizzati sotto forma di numero.\
-      ![](assets/qs-pie-chart-350x171.png)
+     ![](assets/qs-pie-chart-350x171.png)
 
 1. Clic **Salva e chiudi** per salvare il grafico e il report.
 
@@ -186,7 +183,7 @@ Per aggiungere una **Linea** grafico per il report:
 
    * Selezionare il valore che si desidera includere nel grafico, nonché la modalità di riepilogo delle informazioni.
    * Seleziona la **Traccia sull&#39;asse secondario** per tracciare i dati sul lato destro del grafico.\
-      ![](assets/qs-line-chart-350x172.png)
+     ![](assets/qs-line-chart-350x172.png)
 
 1. Clic **Salva e chiudi** per salvare il grafico e il report.
 
@@ -300,6 +297,7 @@ Per personalizzare i colori dei grafici:
       1. (Facoltativo) Specificate un valore esadecimale per il colore, invece di selezionarne uno dagli esempi di colore disponibili\
          Oppure\
          Fai clic sul selettore colore visualizzato dopo aver fatto clic sul codice esadecimale e seleziona un altro colore.
+
    * **Aggiungi colore**: continua ad aggiungere colori personalizzati per tutte le altre opzioni possibili del campo selezionato.
    * **Rimuovi tutto**: seleziona questa opzione per rimuovere tutti i colori e le opzioni del campo selezionato in precedenza.
    * **Opzioni avanzate**: seleziona una delle seguenti opzioni:
@@ -307,10 +305,9 @@ Per personalizzare i colori dei grafici:
       * **Nessun valore**: seleziona questo campo e un colore personalizzato per visualizzare la colonna del grafico che raggruppa gli elementi &quot;senza valore&quot;. Si tratta di elementi che non possono essere raggruppati in base alle opzioni del campo selezionato nel raggruppamento.
       * **Tutti gli altri valori**: seleziona questo campo e un colore personalizzato per visualizzare tutti gli altri elementi del grafico le cui opzioni non sono selezionate sopra.
 
-         >[!NOTE]
-         >
-         >I colori utilizzati più di recente vengono visualizzati nella parte superiore della finestra di dialogo Colori personalizzati. Quando passi il mouse su un colore utilizzato di recente, viene visualizzato il nome del campo associato.
-
+        >[!NOTE]
+        >
+        >I colori utilizzati più di recente vengono visualizzati nella parte superiore della finestra di dialogo Colori personalizzati. Quando passi il mouse su un colore utilizzato di recente, viene visualizzato il nome del campo associato.
 
 1. Fare clic sulla &quot;x&quot; nell&#39;angolo superiore destro della finestra di dialogo Colori personalizzati per chiudere la finestra di dialogo Colori personalizzati. I colori selezionati vengono salvati automaticamente.
 1. Clic **Salva e chiudi** per salvare il grafico ed eseguire il report.

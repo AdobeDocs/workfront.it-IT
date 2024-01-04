@@ -6,9 +6,9 @@ description: Per trovare in modo efficiente gli elementi di lavoro e concentrars
 author: Alina
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
-source-wordcount: '2463'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ In qualità di responsabile delle risorse, puoi utilizzare il Bilanciatore dei c
 >
 >Quando salvi e applichi un nuovo filtro e poi ti sposti dal Bilanciatore dei carichi di lavoro, il filtro viene mantenuto anche dopo la disconnessione e la riaccesso.
 
-
-Questo articolo contiene informazioni sui filtri nel Bilanciatore dei carichi di lavoro. Per informazioni sui filtri in Workfront, consulta [Panoramica sui filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Questo articolo contiene informazioni sui filtri nel Bilanciatore dei carichi di lavoro. Per informazioni sui filtri in Workfront, consulta [Panoramica sui filtri](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisiti di accesso
 
