@@ -2,13 +2,13 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Gestire un progetto nella visualizzazione Agile
-description: Piani, tipi di licenza necessari e accesso a Adobe Workfront Plan Team, Pro, Business o Enterprise Workfront License Type Revisione, Lavoro o Autorizzazioni piano nel modello di accesso Modifica accesso e possibilità di creare report, dashboard e calendari
-author: Alina
+description: Puoi sfruttare le funzionalità agili per il tuo progetto senza le problematiche amministrative che in genere accompagnano le procedure agili (come la gestione del backlog di un team o la creazione di iterazioni).
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
+source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -202,7 +202,7 @@ Per informazioni su come personalizzare una visualizzazione agile, consulta [Cre
 
 Come per le viste standard in Workfront, puoi personalizzare le viste agili esistenti o crearne di nuove da zero. A differenza delle viste standard, non è possibile creare nuove viste agili basate su viste agili esistenti.
 
-Per ulteriori informazioni sulla creazione e la personalizzazione di viste Agile, consultate la sezione &quot;Creare o personalizzare una vista Agile&quot; nell&#39;articolo [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Per ulteriori informazioni sulla creazione e la personalizzazione delle visualizzazioni Agile, vedere [Creare o personalizzare una visualizzazione Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) sezione nell’articolo [Creare o modificare le viste in in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Condividere una visualizzazione Agile esistente
 
