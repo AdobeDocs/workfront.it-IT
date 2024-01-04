@@ -2,22 +2,24 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Attività
+title: "Attività: indice articolo"
 description: Le attività sono elementi di lavoro più piccoli in Adobe Workfront che contribuiscono al completamento di un progetto. Per informazioni sulla gestione delle attività, consulta i seguenti articoli.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 3%
+source-wordcount: '83'
+ht-degree: 0%
 
 ---
 
-# Attività
+# Attività: indice articolo
 
-Questa sezione contiene le seguenti sottosezioni:
+<!--Audited: 01/2024-->
+
+Le attività sono elementi di lavoro più piccoli in Adobe Workfront che contribuiscono al completamento di un progetto. Scopri le informazioni sulla gestione delle attività negli articoli nelle seguenti sottosezioni:
 
 * [Informazioni attività](../../manage-work/tasks/task-information/task-information.md)
 * [Creare le attività](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)

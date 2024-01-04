@@ -3,9 +3,9 @@ title: '''[!DNL Adobe Workfront] documentazione"'
 description: Documentazione per [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: e61e20c1cafbcf32a116bae2cc9e779a8a567986
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Consulta [Documenti](/help/quicksilver/documents/documents-overview.md).
 
 Per visualizzare le informazioni esistenti in un formato di facile lettura e condividerle con tutte le parti interessate, utilizza rapporti e dashboard.
 
-Consulta [Rapporti e dashboard](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
+Consulta [Report e dashboard: indice degli articoli](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md).
 
 #### Generazione rapporti in modalità testo
 

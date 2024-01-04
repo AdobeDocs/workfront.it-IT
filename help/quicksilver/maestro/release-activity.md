@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '2944'
+source-wordcount: '2942'
 ht-degree: 0%
 
 ---
@@ -26,26 +26,35 @@ ht-degree: 0%
 
 Questo articolo elenca le funzionalità rilasciate dopo il lancio del programma beta chiuso Maestro, il 22 maggio 2023.
 
-Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle più recenti. I clienti che partecipano al programma Maestro closed beta possono accedere a tutte le funzioni nei loro ambienti di anteprima e produzione.
+Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle più recenti. I clienti che partecipano al programma Maestro Closed beta possono accedere a tutte le funzioni nei loro ambienti di produzione.
+
+<!--
+>[!IMPORTANT]
+>
+>Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have  temporarily been removed from the Preview and Sandbox environment since January 2024. All features released after this date are currently available in Production. 
+-->
+
+Questo articolo elenca le funzioni e le patch rilasciate dopo il lancio del programma beta chiuso Maestro, il 22 maggio 2023.
+
+Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rilascio, con la prima più recente. I clienti che partecipano al programma Maestro closed beta possono accedere a tutte le funzioni nei loro ambienti di anteprima e produzione.
 
 >[!IMPORTANT]
 >
 >La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
 
-In questa sezione sono elencate le funzioni e le patch rilasciate dopo il lancio del programma beta chiuso Maestro, il 22 maggio 2023.
+<!--## Week of January 8, 2024
 
-Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rilascio, con la prima più recente. I clienti che partecipano al programma Maestro closed beta possono accedere a tutte le funzioni nei loro ambienti di anteprima e produzione.
+### Maestro capabilities are removed from the Preview and Sandbox environments 
 
-<!--
-## Week of November 27, 2023
+Preview and sandbox: <Date here> 
+
+The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
+
+(************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
 
 ### Maestro permissions for users and groups
 
-Production: November 28, 2023
-
->[!IMPORTANT]
->
->This functionality is not yet available in Preview.
+Production: <****date here****>
 
 You can now share a workspace with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace. After you share permissions to a workspace, users have permissions to the record types, records, and fields in that space.
 
@@ -55,13 +64,15 @@ The following are the permissions levels for Maestro workspaces:
 
 * View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
 
-* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces that are shared with them.  
 
-* Manage: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+* Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
 
-Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
+Only Workfront administrators can create, edit, or delete all workspaces, including those that they did not create. All other users can create, edit, or delete workspaces they created or that they have Manage permissions to. 
 
-For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+
+-->
 
 ## Settimana del 25 dicembre 2023
 

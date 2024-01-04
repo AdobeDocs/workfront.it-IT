@@ -4,21 +4,25 @@ content-type: overview
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Panoramica dei blueprint
-description: I blueprint forniscono elementi di base per aiutarti a creare un sistema di gestione del lavoro che cresce con te.
-author: Lisa
+description: I blueprint sono set di oggetti Workfront che trattano casi d’uso comuni in Workfront. Puoi scaricare e installare una blueprint, quindi configurare gli oggetti per il tuo caso d’uso specifico.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: af869fc8f57458f0f006ab86d6c19fe07f3eb81b
+source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '831'
 ht-degree: 0%
 
 ---
 
 # Panoramica dei blueprint
 
+<!--Audited: 01/2024-->
+
 I blueprint sono set di oggetti Workfront che trattano casi d’uso comuni in Workfront. Puoi scaricare e installare una blueprint, quindi configurare gli oggetti per il tuo caso d’uso specifico.
+
+![](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >
@@ -32,7 +36,7 @@ I blueprint sono set di oggetti Workfront che trattano casi d’uso comuni in Wo
 >
 >   Questo blueprint contiene un modello per organizzare nuove attività di onboarding dei dipendenti. L&#39;utilizzo di questo modello consente ai team IT di operare in modo efficiente, garantendo un&#39;esperienza positiva per i nuovi dipendenti e una maggiore produttività.
 >
->* **Elenco di controllo delle nozioni di base dell’istanza ereditata**
+>* **Nozioni di base sull’istanza ereditata | Elenco di controllo**
 >
 >    Questo blueprint contiene un modello di progetto (o elenco di controllo) che puoi esaminare con un breve elenco di domande, risorse e collegamenti per comprendere chiaramente come è stata configurata la tua istanza di Workfront. Utilizzalo quando hai ereditato di recente un’istanza Workfront e hai bisogno di istruzioni su dove iniziare.
 >
@@ -43,9 +47,9 @@ I blueprint forniscono elementi di base per aiutarti a creare un sistema di gest
 
 Ogni blueprint è destinato a un reparto e a un livello di maturità specifico per aiutarti a implementare più rapidamente best practice comprovate nel tuo sistema. I livelli di maturità dettagliati di seguito sono indicati nella scheda del catalogo blueprint e nei relativi dettagli.
 
-**[!UICONTROL Gestito]:** I modelli di progetto gestiti consentono di supportare l&#39;adozione di un nuovo processo aziendale prima che le attività e i risultati finali vengano completamente accettati come procedura standard. Contengono attività per garantire il rispetto di ogni fase del nuovo processo.
+* **[!UICONTROL Gestito]:** I modelli di progetto gestiti consentono di supportare l&#39;adozione di un nuovo processo aziendale prima che le attività e i risultati finali vengano completamente accettati come procedura standard. Contengono attività per garantire il rispetto di ogni fase del nuovo processo.
 
-**[!UICONTROL Integrato]:** I modelli di progetto integrati presuppongono che le funzioni aziendali siano supportate tramite una procedura operativa standard. I collaboratori del processo conoscono i passaggi e le attività da completare per seguire il processo. I modelli di progetto per supportare questo processo contengono un numero inferiore di attività per tenere traccia solo delle attività cardine e di altri risultati finali chiave necessari a scopo di reporting.
+* **[!UICONTROL Integrato]:** I modelli di progetto integrati presuppongono che le funzioni aziendali siano supportate tramite una procedura operativa standard. I collaboratori del processo conoscono i passaggi e le attività da completare per seguire il processo. I modelli di progetto per supportare questo processo contengono un numero inferiore di attività per tenere traccia solo delle attività cardine e di altri risultati finali chiave necessari a scopo di reporting.
 
 ## Trova la blueprint giusta
 
@@ -57,9 +61,9 @@ Il tipo di blueprint mostra ciò che è incluso nella blueprint. Il tipo è elen
 
 Sono disponibili i seguenti tipi di blueprint:
 
-* Modelli di progetto: include oggetti standard associati a un modello di progetto (attività, problemi, ruoli e team) e alcune preferenze relative a tali oggetti. Per ulteriori informazioni, consulta [Configurare una blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
-* Strutture organizzative: include oggetti associati alla struttura di un’organizzazione (società, gruppi, ruoli e team). Per ulteriori informazioni, consulta [Configurare una blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
-* Dashboard: include una o più dashboard per un caso d’uso specifico, ad esempio servizi di implementazione.
+* **Modelli di progetto**: include oggetti standard associati a un modello di progetto (attività, problemi, ruoli e team) ed alcune preferenze relative a tali oggetti. Per ulteriori informazioni, consulta [Configurare una blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Strutture organizzative**: include oggetti associati alla struttura di un’organizzazione (aziende, gruppi, ruoli e team). Per ulteriori informazioni, consulta [Configurare una blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Dashboard**: include una o più dashboard per un caso d’uso specifico, ad esempio servizi di implementazione.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
 * Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
@@ -68,9 +72,9 @@ Sono disponibili i seguenti tipi di blueprint:
 
 Per rivedere i blueprint correnti, vedi [Elenco dei blueprint disponibili](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md).
 
-### Visualizza dettagli di 
+### Visualizza dettagli
 
-Ogni blueprint contiene una pagina di dettagli. Da questa pagina è possibile effettuare le seguenti operazioni:
+Ogni blueprint contiene una pagina Dettagli. Da questa pagina è possibile effettuare le seguenti operazioni:
 
 * Visualizzare un riepilogo del contenuto del flusso di lavoro
 * Leggi un breve riepilogo della blueprint
@@ -82,7 +86,7 @@ Ogni blueprint contiene una pagina di dettagli. Da questa pagina è possibile ef
 
 ## Installare una blueprint
 
-L’amministratore di sistema può eseguire l’installazione direttamente nell’ambiente di produzione o in ambienti sandbox. Per ulteriori informazioni, consulta [Installare una blueprint](../../administration-and-setup/blueprints/blueprints-install.md) o [Configurare una blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
+Un amministratore Workfront può installare una blueprint direttamente in qualsiasi ambiente (ambiente di produzione, di anteprima o sandbox). Per ulteriori informazioni, consulta [Installare una blueprint](../../administration-and-setup/blueprints/blueprints-install.md) o [Configurare una blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
 
 Dopo l&#39;installazione, è possibile che non si sia sicuri delle migliori azioni da eseguire in futuro. Per informazioni, consulta [Azioni da intraprendere dopo l’installazione di una blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
