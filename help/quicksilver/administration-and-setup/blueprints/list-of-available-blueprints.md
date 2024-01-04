@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: a8e1ec8baf24441cceba6deca53515eccf5e0fcd
+source-git-commit: fa9a186c00f7583ee47b87ca1d24a132b9289fd0
 workflow-type: tm+mt
-source-wordcount: '1897'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Questo blueprint contiene la configurazione delle strutture organizzative da esp
 **[!UICONTROL Configurazione dell&#39;organizzazione IT]**
 Questo blueprint contiene la configurazione delle strutture organizzative da espandere a un caso di utilizzo di Information Technology.
 
-**[!UICONTROL Nozioni di base sull’istanza ereditata | Lista di controllo]**
+**[!UICONTROL Nozioni di base sull’istanza ereditata | Elenco di controllo]**
 Questo blueprint contiene un modello di progetto (o elenco di controllo) che puoi esaminare con un breve elenco di domande, risorse e collegamenti per comprendere chiaramente come è stata configurata la tua istanza di Workfront. Utilizzalo quando hai ereditato di recente un’istanza Workfront e hai bisogno di istruzioni su dove iniziare.
 
 **[!UICONTROL Esecuzione di una campagna integrata]**
@@ -126,11 +126,15 @@ Questo blueprint contiene un modello [!DNL Workfront] la professional services o
 **[!UICONTROL Dashboard di manutenzione dell&#39;amministratore di sistema]**
 Questo blueprint contiene un singolo dashboard per aiutare gli amministratori di sistema a mantenere e pulire periodicamente il sistema da vari disagi che potrebbero accumularsi nel tempo.
 
-**Realizzazione del valore | Dashboard valori core**
+**Realizzazione del valore | Dashboard dei valori core**
 
 Questo blueprint contiene un singolo dashboard con 21 rapporti per aiutarti a misurare il valore di Workfront. Questi rapporti aiutano a tradurre i vantaggi della centralizzazione del lavoro e della gestione dei processi di lavoro in valori misurabili che puoi monitorare nel tempo per ottenere risultati migliori.
 
-**Realizzazione del valore | Rivedi e approva dashboard**
+[!BADGE Novità!]{type=Informative}**Realizzazione del valore | Dashboard dei servizi rivolti al client**
+
+Questo blueprint contiene un’unica dashboard con 8 rapporti per aiutarti a sfruttare i vantaggi di Workfront. Questi rapporti sono progettati per aiutarti a tradurre i servizi rivolti ai clienti in un valore misurabile che puoi monitorare nel tempo per ottenere risultati migliori.
+
+**Realizzazione del valore | Revisione e approvazione del dashboard**
 
 Questo blueprint contiene un’unica dashboard con 7 rapporti per aiutarti a realizzare il valore di Workfront. Questi rapporti ti aiutano a tradurre i valori del lavoro di revisione e approvazione in vantaggi misurabili che puoi monitorare nel tempo per ottenere risultati migliori.
 
