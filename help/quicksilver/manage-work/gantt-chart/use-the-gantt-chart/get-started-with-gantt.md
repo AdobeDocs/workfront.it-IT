@@ -6,14 +6,16 @@ description: I grafici di Gantt in Adobe Workfront forniscono una rappresentazio
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 5%
+source-wordcount: '530'
+ht-degree: 0%
 
 ---
 
 # Introduzione a [!UICONTROL Diagramma di Gantt]
+
+<!-- Audited: 01/2024 -->
 
 I grafici di Gantt in Adobe Workfront forniscono una rappresentazione visiva della timeline di un elenco di attività o progetti.
 
@@ -44,9 +46,6 @@ Il [!UICONTROL Gantt] grafici in [!DNL Workfront]  fornisce una rappresentazione
 È possibile visualizzare l&#39;elenco delle attività [!UICONTROL Diagramma di Gantt] direttamente dall&#39;elenco attività di un progetto o da un report attività.
 
 È possibile visualizzare l’elenco dei progetti [!UICONTROL Diagramma di Gantt] in un elenco di progetti o in un report di progetti.
-
-* [Elenco attività [!UICONTROL Diagramma di Gantt]](#task-list-gantt-chart)
-* [Elenco progetti [!UICONTROL Diagramma di Gantt]](#project-list-gantt-chart)
 
 ### Elenco attività [!UICONTROL Diagramma di Gantt] {#task-list-gantt-chart}
 
@@ -82,7 +81,7 @@ Per accedere all&#39;elenco delle attività [!UICONTROL Diagramma di Gantt] di u
    * [!UICONTROL Assegnazioni]
    * [!UICONTROL Linea di base]
    * [!UICONTROL Conferma data]
-   * [!UICONTROL % Completato]
+   * [!UICONTROL % completamento]
    * [!UICONTROL Percorso Critico]
    * [!UICONTROL Diamanti milestone]
    * [!UICONTROL Linee milestone]
@@ -122,7 +121,7 @@ Per accedere all’elenco dei progetti [!UICONTROL Diagramma di Gantt]:
 1. Per configurare le informazioni da visualizzare nel progetto [!UICONTROL Gantt] grafico, fai clic sul pulsante [!UICONTROL **Impostazioni**] , quindi attivare una delle opzioni seguenti:
 
    * [!UICONTROL Date effettive]
-   * [!UICONTROL % Completato]
+   * [!UICONTROL % completamento]
    * [!UICONTROL Diamanti milestone]
    * [!UICONTROL Linee milestone]
    * [!UICONTROL Predecessori]

@@ -2,18 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Modificare un filtro utilizzando la modalità testo
-description: "NOTA: aggiungi una sezione in questo articolo: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Inoltre, crea un'area bozza nell'articolo di panoramica sulla modalità testo"
+description: È possibile modificare un filtro in un elenco o in un report utilizzando la modalità testo per accedere a campi non disponibili nell’interfaccia standard e creare filtri più complessi.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
 
 # Modificare un filtro utilizzando la modalità testo
+
+<!-- Audited: 01/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
@@ -21,7 +23,7 @@ ht-degree: 0%
 
 È possibile modificare un filtro in un elenco o in un report utilizzando la modalità testo per accedere a campi non disponibili nell’interfaccia standard e creare filtri più complessi.
 
-Per ulteriori esempi in modalità testo durante la creazione di un filtro, consulta anche la sezione &quot;Esempi di filtri personalizzati&quot; nell’articolo [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+Per ulteriori esempi in modalità testo durante la creazione di un filtro, consulta anche la sezione &quot;Esempi di filtri personalizzati&quot; nell’articolo [Esempi di visualizzazione, filtro e raggruppamento personalizzati: indice articolo](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Requisiti di accesso
 
@@ -37,7 +39,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td><p>Nuovo: Standard</p>
+    <p>oppure</p>
+    <p>Corrente: Piano</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -45,7 +49,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un report per modificare i filtri in un report</p> <p>Gestire le autorizzazioni per un filtro per modificarlo</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per modificare i filtri in un report</p> <p>Gestire le autorizzazioni per un filtro per modificarlo</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,11 +81,11 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
 1. Esegui una delle operazioni seguenti:
 
    1. Per accedere al filtro da un rapporto, passa al rapporto, quindi fai clic su **Azioni report** > **Modifica** > **Filtri** scheda.
-   1. Per accedere al filtro da un elenco, vai all’elenco e da **Filtro** , posizionare il mouse sul filtro che si desidera modificare e fare clic sul pulsante **Modifica** icona ![](assets/edit-icon.png).
+   1. Per accedere al filtro da un elenco, vai all’elenco e da **Filtro** , passa il puntatore del mouse sul filtro che desideri modificare e fai clic sul pulsante **Modifica** icona ![](assets/edit-icon.png).
 
       Viene aperto il generatore di filtri.
 
-1. Clic **Aggiungere una regola di filtro** per aggiungere le condizioni del filtro, fai clic su **Passa alla modalità testo** nell’angolo superiore destro del generatore.
+1. Clic **Aggiungere una regola di filtro** per aggiungere le condizioni del filtro, fai clic su **Modalità testo** o **Passa alla modalità testo** sul lato destro del generatore.
 1. Aggiungere istruzioni di filtro utilizzando la modalità testo. Ogni istruzione di filtro può contenere le seguenti righe e informazioni aggiuntive:
 
    <table style="table-layout:auto"> 
@@ -93,13 +97,13 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
       <td><b>Esempio</b></td> 
      </tr> 
      <tr> 
-      <td> <p>Nome del campo e valore a cui è uguale come appaiono nel database di Workfront.</p> <p>Questa riga è obbligatoria.</p> <p> Per ulteriori informazioni sull'aspetto degli oggetti e dei campi nel database, vedere <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </td> 
+      <td> <p>Nome del campo e valore che è uguale a quello visualizzato nel database di Workfront.</p> <p>Questa riga è obbligatoria.</p> <p> Per ulteriori informazioni sull'aspetto degli oggetti e dei campi nel database, vedere <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Per filtrare le attività con lo stato In corso, utilizzare la riga seguente:</p> <p><code>status=INP</code> </p> <p><b>SUGGERIMENTO</b>
 
    Quando si filtrano gli stati, è necessario utilizzare il codice di tre lettere dello stato e non il nome.</p> </td>
    </tr> 
      <tr> 
-      <td> <p>Modificatore del nome del campo e corrispondente funzione del modificatore. Indica le condizioni che il campo in base al quale si sta filtrando deve soddisfare.</p> <p>Questa riga è obbligatoria.</p> </td> 
+      <td> <p>Modificatore del nome del campo e elemento corrispondente. Indica le condizioni che il campo in base al quale si sta filtrando deve soddisfare.</p> <p>Questa riga è obbligatoria.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> <p>Per indicare che lo stato delle attività per le quali si applica il filtro deve essere uguale a In corso, utilizzare la riga seguente oltre a quella precedente:</p> <p><code>status_Mod=in</code> </p> <p>Se il modificatore è un intervallo, sono disponibili due linee per indicare il modificatore.</p> 
        <div> <span class="autonumber"><span><b>ESEMPIO </b></span></span> 
         <p>Questo è un filtro in modalità testo che cerca le attività in corso, con una Data di completamento pianificata entro il mese corrente e che sono assegnate a un utente con un GUID specifico:</p> 
@@ -129,7 +133,7 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>Un carattere jolly che consente di generalizzare le informazioni in un filtro e fare riferimento all'ora corrente o all'utente che ha effettuato l'accesso.</p> <p>I caratteri jolly sono facoltativi.</p> <p>Suggerimento   <p>È consigliabile utilizzare i caratteri jolly quando possibile per rendere i filtri più dinamici e non duplicare gli stessi filtri per ogni utente o intervalli di tempo simili.</p> <p>Per informazioni sui caratteri jolly dei filtri, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabili filtro con caratteri jolly</a>.</p> </p> </td> 
+      <td> <p>Un carattere jolly, che consente di generalizzare le informazioni in un filtro e fare riferimento all’ora corrente per l’utente che ha effettuato l’accesso.</p> <p>I caratteri jolly sono facoltativi.</p> <p>Suggerimento   <p>È consigliabile utilizzare i caratteri jolly quando possibile per rendere i filtri più dinamici e non duplicare gli stessi filtri per ogni utente o intervalli di tempo simili.</p> <p>Per informazioni sui caratteri jolly dei filtri, vedere <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Panoramica delle variabili filtro con caratteri jolly</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>ESEMPIO</b></span></span> 
         <p>Per filtrare le attività assegnate all'utente attualmente connesso, utilizzare quanto segue:</p> 
@@ -144,41 +148,30 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
 
    1. Aggiungi una nuova riga di codice e digita OR:1: seguito dall&#39;oggetto o dall&#39;attributo in base al quale si desidera filtrare e dal valore con cui si desidera confrontarlo. Per fare riferimento alle attività in qualsiasi stato tranne Nuovo, utilizzare la riga seguente:
 
-      ```
-      OR:1:status=NEW
-      ```
+      `OR:1:status=NEW`
 
    1. Aggiungi una seconda riga e digita OR:1: seguito dall&#39;oggetto, dal modificatore e dal codice del modificatore. Per definire il modificatore per la riga di codice che fa riferimento a tutti gli stati dei task ad eccezione di Nuovo, utilizzare la linea di modificatore seguente:
 
-      ```
-      OR:1:status_Mod=notin
-      ```
+      `OR:1:status_Mod=notin`
 
       Ogni riga della nuova istruzione deve essere preceduta da &quot;OR:`<number>`:&quot;.
 
       Per informazioni sulla creazione di istruzioni &quot;OR&quot; in un filtro, consulta [Creare istruzioni &quot;OR&quot; nei filtri in modalità testo](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
-<!--WRITER - reformat note below -->
+      >[!NOTE]
+      >
+      >È possibile avere più istruzioni &quot;OR&quot; nello stesso filtro. Ogni volta che si dispone di una nuova istruzione &quot;OR&quot;, il numero dopo &quot;OR:&quot; aumenta.
+      >
+      >Per filtrare le attività che si trovano nello stato In corso o che sono assegnate all&#39;utente connesso o che hanno la Data di completamento pianificata oggi, utilizza quanto segue:
+      >
+      >`status=INP`
+      >`status_Mod=in`
+      >`OR:1:assignedToID=$$USER.ID`
+      >`OR:1:assignedToID_Mod=in`
+      >`OR:2:plannedCompletionDate=$$TODAY`
+      >`OR:2:plannedCompletionDate_Mod=eq`
 
->[!NOTE]
->
->È possibile avere più istruzioni &quot;OR&quot; nello stesso filtro. Ogni volta che si dispone di una nuova istruzione &quot;OR&quot;, il numero dopo &quot;OR:&quot; aumenta.
->
-Per filtrare le attività che si trovano nello stato In corso o che sono assegnate all&#39;utente connesso o che hanno la Data di completamento pianificata oggi, utilizza quanto segue:
->
-`status=INP`
->
-`status_Mod=in`
->
-`OR:1:assignedToID=$$USER.ID`
->
-`OR:1:assignedToID_Mod=in`
->
-`OR:2:plannedCompletionDate=$$TODAY`
->
-`OR:2:plannedCompletionDate_Mod=eq`
-
-1. Clic **Fine** se desideri salvare le modifiche e continuare a modificare il rapporto o il filtro.
+1. Clic **Esci dalla modalità testo** o **Fine** per salvare le modifiche apportate alla modalità testo e continuare a modificare il rapporto o il filtro.
 1. Clic **Salva e chiudi** per salvare il report oppure **Salva filtro** per salvare il filtro nell&#39;elenco.
 
 
