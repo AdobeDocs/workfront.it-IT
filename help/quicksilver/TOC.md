@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: b505937d1faaa29a5c5f89c7db5ca721ea9337e0
+source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
 workflow-type: tm+mt
-source-wordcount: '13843'
+source-wordcount: '13844'
 ht-degree: 0%
 
 ---
@@ -2222,6 +2222,7 @@ ht-degree: 0%
       * [Moduli modelli di Microsoft Word](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
       * [Moduli MIME](workfront-fusion/apps-and-their-modules/mime.md)
       * [Moduli NetSuite](workfront-fusion/apps-and-their-modules/netsuite.md)
+      * [[!DNL OpenAI(ChatGPT & DALL-E)] moduli](workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
       * [Moduli Qualtrics](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
       * [Moduli Quickbase](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
       * [Moduli Salesforce](workfront-fusion/apps-and-their-modules/salesforce-modules.md)
