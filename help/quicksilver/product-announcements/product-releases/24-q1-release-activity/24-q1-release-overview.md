@@ -4,9 +4,9 @@ description: Panoramica sulla versione del primo trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: 0ac00ba31f9960f9c8a0d42db47481dea0798334
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1494'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,25 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                     </td>
                  </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">È disponibile un nuovo widget di approvazione in sospeso</a></p><p><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Per facilitarti la visualizzazione dello stato delle approvazioni e delle revisioni sui tuoi progetti, abbiamo aggiunto un nuovo widget Approvazioni in sospeso alla pagina Home. </p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 3 gennaio 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.1</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con la versione 24.1</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span></p>
+                    </td>
+                </tr>
+                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Controlli di amministratore per la nuova Home utilizzando i modelli di layout</a></p><p>Gli amministratori possono ora personalizzare la nuova Home per gli utenti che utilizzano i modelli di layout. Le opzioni di personalizzazione includono la selezione dei widget obbligatori e della loro posizione, la scelta di uno sfondo e opzioni specifiche per i widget per la scelta dei filtri e dei gruppi disponibili (e l'impostazione delle impostazioni predefinite).</p>
                     </td>
