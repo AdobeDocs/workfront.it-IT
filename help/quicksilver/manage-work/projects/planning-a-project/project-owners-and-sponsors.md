@@ -2,58 +2,61 @@
 content-type: overview
 product-area: projects;user-management
 navigation-topic: plan-a-project
-title: Panoramica dei proprietari e degli sponsor del progetto
-description: Puoi designare un proprietario del progetto e uno sponsor del progetto per un progetto.
+title: Panoramica dei proprietari e degli sponsor dei progetti
+description: Puoi designare un Proprietario del progetto e uno Sponsor del progetto per un progetto.
 author: Alina
 feature: Work Management
 exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
-# Panoramica dei proprietari e degli sponsor del progetto
+# Panoramica dei proprietari e degli sponsor dei progetti
 
-Puoi designare un proprietario del progetto e uno sponsor del progetto per un progetto.
+<!-- Audited: 1/2024 -->
 
-Il proprietario del progetto è l’utente responsabile del completamento del progetto nei tempi e nel budget previsti.
+Puoi designare un Proprietario del progetto e uno Sponsor del progetto per un progetto.
 
-Lo sponsor del progetto è un importante soggetto interessato per il progetto che ha risorse investite nel progetto. In genere, il completamento del progetto avvantaggia lo sponsor del progetto.
+Il proprietario del progetto è la persona responsabile del completamento del progetto nei tempi e nel budget stabiliti.
 
-Per informazioni su come aggiornare il proprietario del progetto o lo sponsor di un progetto, consulta [Aggiornare i proprietari e gli sponsor del progetto](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
+Lo sponsor del progetto è un&#39;importante parte interessata per il progetto che dispone di risorse investite nel progetto. In genere, il completamento del progetto va a vantaggio dello sponsor del progetto.
 
-## Proprietari del progetto
+Per informazioni su come aggiornare il proprietario o lo sponsor del progetto per un progetto, vedi [Aggiorna proprietari e sponsor del progetto](../../../manage-work/projects/planning-a-project/update-project-owners-and-sponsors.md).
 
-Puoi designare il responsabile di un progetto specificando un proprietario di progetto in un progetto o in un modello.
+## Proprietari progetto
 
-Puoi definire un solo proprietario del progetto.
+È possibile designare il manager di un progetto specificando un Proprietario del progetto in un progetto o in un modello.
 
-È possibile utilizzare il campo Proprietario progetto per quanto segue:
+Puoi definire un solo Proprietario progetto per un progetto.
 
-* Puoi designare un solo utente come proprietario del progetto.
-* Puoi designare i Proprietari del progetto come approvatore delle ore per il progetto.
-* È possibile designare il proprietario del progetto come approvatore generico quando si definiscono i processi di approvazione di progetti, task o problemi. Per informazioni sulle approvazioni, consulta [Modificare un processo di approvazione](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+Utilizzando il campo Proprietario progetto è possibile:
 
-   >[!IMPORTANT]
-   >
-   >Quando si assegna un&#39;approvazione al proprietario del progetto e nessuno viene designato come proprietario di un progetto, l&#39;approvazione viene riassegnata all&#39;amministratore principale di Workfront come indicato nella sezione Informazioni cliente nell&#39;area Configurazione. Per informazioni, consulta [Configurare le informazioni di base per il sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* È possibile designare un solo utente come Proprietario del progetto.
+* È possibile designare i proprietari del progetto come approvatori delle ore per il progetto.
+* È possibile designare il proprietario del progetto come approvatore generico quando si definiscono i processi di approvazione di progetti, attività o problemi. Per informazioni sulle approvazioni, consulta [Modificare un processo di approvazione](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+
+  >[!IMPORTANT]
+  >
+  >Quando si assegna un&#39;approvazione al proprietario del progetto e nessuno viene designato come proprietario di un progetto, l&#39;approvazione viene riassegnata all&#39;amministratore principale di Workfront come indicato nella sezione Informazioni cliente nell&#39;area Configura. Per informazioni, consulta [Configurare le informazioni di base per il sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >
 
 
-* Puoi abilitare alcune notifiche che vengono inviate solo al proprietario del progetto.
+* Puoi abilitare alcune notifiche inviate solo al proprietario del progetto.
 
-   Per ulteriori informazioni sulle notifiche e-mail, consulta la sezione . [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) nell&#39;articolo [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+  Per ulteriori informazioni sulle notifiche e-mail, consulta la sezione [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md#modify) nell’articolo [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-* È possibile visualizzare il campo Proprietario del progetto in un rapporto o in un elenco.
+* È possibile visualizzare il campo Proprietario progetto in un report o in un elenco.
 
-   È inoltre possibile visualizzare il campo Proprietario del progetto in una visualizzazione, in un raggruppamento o in un prompt.
+  È inoltre possibile visualizzare il campo Proprietario progetto in una visualizzazione, in un raggruppamento o in un prompt.
 
-   Ad esempio, puoi copiare la seguente espressione della modalità di testo in un filtro per visualizzare i progetti di proprietà dell’utente connesso: 
+  Ad esempio, puoi copiare la seguente espressione in modalità testo in un filtro per visualizzare i progetti di proprietà dell’utente connesso: 
 
-   ```
-   ownerID=$$USER.ID
-   ```
+  ```
+  ownerID=$$USER.ID
+  ```
 
 Per ulteriori informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -71,34 +74,34 @@ Per ulteriori informazioni sulla creazione di rapporti, consulta l’articolo [C
 </div>
 -->
 
-## sponsor del progetto
+## Sponsor del progetto
 
-È possibile designare qualsiasi utente nel sistema come sponsor di progetto. Lo sponsor del progetto è di solito un manager, un esecutivo o un stakeholder che deve sapere cosa sta succedendo con il progetto.
+Puoi designare qualsiasi utente del sistema come sponsor del progetto. Lo sponsor del progetto è solitamente un manager, un dirigente o un soggetto interessato che deve sapere cosa sta succedendo con il progetto.
 
 Quando si assegna uno sponsor di progetto, considera quanto segue:
 
 * Lo sponsor del progetto non ottiene alcun accesso aggiuntivo al progetto, ma viene aggiunto alle notifiche e-mail del progetto. Per informazioni sulle notifiche, consulta l’articolo [Configurare le notifiche degli eventi per tutti gli utenti del sistema](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-* È possibile designare un solo sponsor di progetto.
-* È possibile designare lo sponsor del progetto come approvatore generico quando si definiscono i processi di approvazione di progetti, task o problemi. Per informazioni sulle approvazioni, consulta [Modificare un processo di approvazione](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
+* È possibile designare un solo sponsor progetto.
+* È possibile designare lo sponsor del progetto come un approvatore generico quando si definiscono i processi di approvazione di progetti, attività o problemi. Per informazioni sulle approvazioni, consulta [Modificare un processo di approvazione](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/edit-an-approval-process.md).
 
-   >[!IMPORTANT]
-   >
-   >Quando si assegna un&#39;approvazione allo sponsor del progetto e nessuno viene designato come sponsor di un progetto, l&#39;approvazione viene riassegnata al proprietario del progetto. Se nessuno è designato come proprietario del progetto, l’approvazione viene assegnata all’amministratore Workfront.
+  >[!IMPORTANT]
+  >
+  >Quando si assegna un&#39;approvazione allo sponsor del progetto e nessuno viene designato come sponsor di un progetto, l&#39;approvazione viene riassegnata al proprietario del progetto. Se nessuno è designato come proprietario del progetto, l’approvazione viene assegnata all’amministratore di Workfront.
 
-* È possibile visualizzare il campo Sponsor del progetto in un rapporto o in un elenco.
+* Puoi visualizzare il campo Sponsor progetto in un rapporto o in un elenco.
 
-   È inoltre possibile visualizzare il campo Sponsor del progetto in una visualizzazione, in un raggruppamento o in un prompt.
+  È inoltre possibile visualizzare il campo Sponsor progetto in una visualizzazione, un raggruppamento o un prompt.
 
-   Ad esempio, puoi copiare la seguente espressione di modalità testo in un filtro per visualizzare i progetti sponsorizzati dall’utente connesso:
+  Ad esempio, puoi copiare la seguente espressione in modalità testo in un filtro per visualizzare i progetti sponsorizzati dall’utente connesso:
 
-   ```
-   sponsorID=$$USER.ID
-   ```
+  ```
+  sponsorID=$$USER.ID
+  ```
 
-    
+   
 
-   Per ulteriori informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Per ulteriori informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

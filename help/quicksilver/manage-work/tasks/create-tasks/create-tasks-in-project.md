@@ -7,20 +7,22 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
+source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '786'
 ht-degree: 1%
 
 ---
 
 # Creare attività in un progetto
 
-È possibile creare le attività di un progetto solo dopo averlo creato.
+<!-- Audited: 1/2024 -->
+
+È possibile creare attività in un progetto solo dopo averlo creato.
 
 Ad esempio, dopo aver creato un progetto, è possibile aggiungere attività e modificarle per organizzare il piano del progetto. Per ulteriori informazioni sulla creazione di un progetto, consulta [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
-Per informazioni sulla creazione di attività personali non incluse in un progetto, vedere la sezione &quot;Creare un&#39;attività personale&quot; nell&#39;articolo [Creare elementi di lavoro dall&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Per informazioni sulla creazione di attività personali non incluse in un progetto, vedere [Crea un&#39;attività personale](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) sezione nell’articolo [Creare elementi di lavoro dall&#39;area Home](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 Questo articolo descrive come creare le attività da zero. È inoltre possibile creare le attività nei modi seguenti:
 
@@ -28,35 +30,6 @@ Questo articolo descrive come creare le attività da zero. È inoltre possibile 
 * Spostando le attività da un progetto all&#39;altro. Per informazioni, consulta [Sposta le attività](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Requisiti di accesso
-
-<!--drafted for P&P - replace the table:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td><p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,7 +41,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Licenza Adobe Workfront*</p> </td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td><p>Corrente: Lavoro o versione successiva</p> 
+   Oppure
+   <p>Nuovo: Standard</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -80,6 +55,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
@@ -98,8 +74,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Creare una nuova attività eseguendo una delle operazioni seguenti:
 
-   * Clic **Crea Attività** nella parte superiore dell&#39;elenco delle attività
-   * Clic **Aggiungi altre attività** nella parte inferiore dell&#39;elenco delle attività
+   * Clic **Crea Attività** nella parte superiore dell&#39;elenco delle attività.
+   * Clic **Aggiungi altre attività** nella parte inferiore dell&#39;elenco delle attività.
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 

@@ -6,7 +6,7 @@ description: Dalla sezione [!UICONTROL schede madri] dashboard, puoi creare una 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 5b6c7488bc1233e141e478da8546a05fcfffdc96
+source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 1%
@@ -50,6 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Crea una nuova bacheca
 
 {{step1-to-boards}}
+
 1. Clic **[!UICONTROL Aggiungi bacheca]**.
 
 1. Seleziona un modello per la bacheca.
@@ -98,6 +99,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Modificare una bacheca esistente
 
 {{step1-to-boards}}
+
 1. Nel dashboard, seleziona la bacheca da aprire.
 1. Modifica la bacheca in base alle esigenze. Puoi fare clic sul nome della bacheca per rinominarla.
 

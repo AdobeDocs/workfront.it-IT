@@ -7,9 +7,9 @@ description: Le notifiche e-mail generate da Workfront Proof informano i collabo
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: b4991b649a68ede587e47da2ebb7470aab3b5913
+source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2058'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,32 @@ Le notifiche e-mail informano i collaboratori sulle attività recenti relative a
 
 Puoi impostare le notifiche e-mail per i revisori nelle seguenti aree:
 
+## Requisiti di accesso
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Prodotto</td> 
+   <td>Workfront Proof Standalone</td> 
+  </tr> 
+</table>
+
+Le notifiche e-mail per i revisori possono essere impostate sulla pagina Nuova bozza, [!UICONTROL Nuova versione] e gestito in [!UICONTROL Flusso di lavoro] sezione del [!UICONTROL Dettagli bozza] pagina. Per ulteriori informazioni, consulta [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+
 * Pagina Nuova bozza
 * Il [!UICONTROL Nuova versione] pagina
 * Il [!UICONTROL Flusso di lavoro] sezione del [!UICONTROL Dettagli bozza] pagina.
 
 Per ulteriori informazioni, consulta [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
+
 * [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Gestire i dettagli della bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+
+
+Ogni utente può anche impostare le proprie impostazioni di avviso e-mail, che vengono applicate automaticamente quando viene condivisa una bozza con lui, nel caso in cui i collaboratori abbiano le loro preferenze o gli amministratori dell’account abbiano i loro consigli sulla frequenza degli avvisi. Questo può essere impostato come valore predefinito della bozza nelle pagine dei dettagli degli utenti.
 
 Ogni utente può anche impostare le proprie impostazioni di avviso e-mail, che verranno applicate automaticamente quando viene condivisa una bozza. <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 

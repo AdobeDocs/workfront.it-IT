@@ -7,14 +7,16 @@ description: È possibile unire le informazioni visualizzate in più colonne sep
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: 4b8477b75697268df3581f928e3c77025c2f56cd
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
 
 # Vista: unire le informazioni provenienti da più colonne in una colonna condivisa
+
+<!-- Audited: 1/2024 -->
 
 È possibile unire le informazioni visualizzate in più colonne separate e visualizzarle in una colonna condivisa.
 
@@ -32,8 +34,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di una vista </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td> <p> Corrente: 
+   <ul>
+   <li>Richiesta di modifica di una vista</li> 
+   <li>Pianificare la modifica di un rapporto</li>
+   </ul>
+     </p>
+     <p> Nuovo: 
+   <ul>
+   <li>Collaboratore per modificare una visualizzazione</li> 
+   <li>Standard per modificare un rapporto</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -77,7 +90,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 >
 >Questo approccio è consigliato quando si uniscono due colonne che non possono mai mostrare un valore per lo stesso record contemporaneamente. Ad esempio, in un rapporto Elemento di lavoro, è possibile unire le colonne Nome problema e Nome attività senza un&#39;interruzione di riga tra di esse perché un elemento di lavoro non può mai avere contemporaneamente un nome problema e un nome attività. Un elemento di lavoro può essere un problema o un’attività in Workfront.
 
-Per eseguire questa operazione:
+Per unire i dati di due colonne senza interruzioni di riga:
 
 1. Utilizzando la modalità testo per una visualizzazione, aggiungere il testo seguente alla prima colonna che si desidera unire:
 

@@ -5,19 +5,21 @@ content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: È possibile creare un modulo personalizzato che gli utenti possono allegare a un oggetto Workfront. Gli utenti che lavorano sull’oggetto possono compilare il modulo personalizzato per fornire informazioni sull’oggetto.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: a732344d-aca5-4825-b360-a4b49076b4d0
-source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
+source-git-commit: 0aed653b9e5f0123e6b4d6e494aaff563ae1a72d
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 3%
+source-wordcount: '115'
+ht-degree: 1%
 
 ---
 
-# Moduli personalizzati nel mio gruppo
+# Moduli personalizzati: indice degli articoli
+
+<!-- Audited: 1/2024 -->
 
 È possibile creare un modulo personalizzato che gli utenti possono allegare a un oggetto Workfront. Gli utenti che lavorano sull’oggetto possono compilare il modulo personalizzato per fornire informazioni sull’oggetto.
 
@@ -28,4 +30,3 @@ Questa sezione contiene i seguenti articoli:
 * [Panoramica dei moduli personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
 * [Generatore di moduli personalizzati legacy](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
 * [Progettazione moduli](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
-
