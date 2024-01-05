@@ -6,9 +6,9 @@ description: La delega delle richieste di approvazione ti consente di assegnare 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 # Delega richiesta di approvazione
 
 Puoi delegare temporaneamente il lavoro che ti è stato assegnato mentre sei fuori sede. Puoi delegare le assegnazioni di attività e problemi oppure puoi delegare le richieste di approvazione. Questo articolo descrive come delegare le richieste di approvazione. Per informazioni sulla delega delle assegnazioni di attività e problemi, consulta [Gestire la delega di attività e problemi](../../manage-work/delegate-work/how-to-delegate-work.md).
+
+Puoi delegare i seguenti tipi di approvazione, indipendentemente da come ti è stata assegnata l’approvazione (sia che sia assegnata direttamente a te, a un team di cui sei membro o al tuo ruolo lavorativo):
+
+* Approvazioni progetto
+* Approvazioni attività
+* Approvazioni problemi
+
+Non puoi delegare le approvazioni di schede orario, documenti o bozze.
 
 >[!NOTE]
 >
@@ -83,7 +91,7 @@ Puoi delegare i seguenti tipi di approvazione, indipendentemente da come ti è s
 * Approvazioni attività
 * Approvazioni problemi
 
-Non puoi delegare le approvazioni di schede orario e documenti. 
+Non puoi delegare le approvazioni di schede orario, documenti o bozze.
 
 Quando deleghi le approvazioni, tieni presente quanto segue:
 

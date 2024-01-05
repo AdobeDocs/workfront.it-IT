@@ -6,9 +6,9 @@ description: È possibile aggiungere documenti a progetti, attività o problemi 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: efe264b274085c32c2d00163a2a43bd5d3fc1434
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Per aggiungere un documento:
 1. Passare al progetto, all&#39;attività o al problema in cui si desidera aggiungere un nuovo documento.
 1. Fai clic su **Documenti** , quindi fare clic sulla scheda **Aggiungi nuovo** menu a discesa.
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. A seconda del tipo di documento che si desidera aggiungere, eseguire una delle operazioni seguenti:
 
@@ -98,7 +98,7 @@ Per aggiungere un documento:
         <li value="1">Dalla sezione <strong>Aggiungi nuovo</strong> menu a discesa, seleziona <strong>Richiedi un documento</strong>.</li> 
         <li value="2">In <strong>A chi lo stai richiedendo?</strong> digitare il nome dell'utente che richiede il documento.</li> 
         <li value="3">In <strong>Informali sulla tua richiesta</strong> digitare il nome del documento.</li> 
-        <li value="4"> <p>Clic <strong>Invia richiesta</strong>.</p> <p>La richiesta viene visualizzata nella scheda Documenti.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>Per ulteriori informazioni sulla richiesta di documenti, consulta <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Richiedi un documento</a>.</p> </li> 
+        <li value="4"> <p>Clic <strong>Invia richiesta</strong>.</p> <p>La richiesta viene visualizzata nella scheda Documenti.</p> <p>Per ulteriori informazioni sulla richiesta di documenti, consulta <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Richiedi un documento</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
