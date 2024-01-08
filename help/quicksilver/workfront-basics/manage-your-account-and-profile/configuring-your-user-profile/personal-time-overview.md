@@ -7,10 +7,10 @@ description: È importante indicare in Adobe Workfront quando si verifica l’as
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 1%
 
 ---
 
@@ -45,24 +45,24 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>Nuovo: Standard (per configurare il proprio tempo libero personale)</p>
         <p>oppure</p>
         <p>Corrente: Lavoro o versione successiva (per configurare il proprio tempo libero personale)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td>[!UICONTROL Manager] con accesso a [!UICONTROL Modifica utente] (per apportare modifiche al calendario delle ferie degli altri utenti)<br>
    <strong>NOTA:</strong> Se un manager modifica il calendario personale di ferie dell'utente, tutte le voci vengono visualizzate nel fuso orario dell'utente e non in quello del manager.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Configurare il tempo libero personale in [!DNL Workfront]
 

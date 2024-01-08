@@ -3,32 +3,31 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Creare una pianificazione
-description: Puoi definire le settimane lavorative degli utenti utilizzando le pianificazioni. È possibile associare una pianificazione a un utente o a un progetto. Ciò consente [!DNL Workfront] per calcolare le timeline e la disponibilità dell’utente.
-author: Caroline
+description: Puoi definire le settimane lavorative degli utenti con le pianificazioni. È possibile associare una pianificazione a un utente o a un progetto. Ciò consente [!DNL Workfront] per calcolare le timeline e la disponibilità dell’utente.
+author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 3aad2a3d9ad32313cb14670965bc3ad05ab215d3
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # Creare una pianificazione
 
+<!--Audited: 01/2024-->
+
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 Linked to Editing Users, Editing Projects, Creating and managing groups
 -->
 
-Come un [!DNL Adobe Workfront] amministratore, è possibile definire la settimana lavorativa utilizzando le pianificazioni. È possibile associare una pianificazione a un utente o a un progetto. Ciò consente [!DNL Workfront] per calcolare le timeline e la disponibilità dell’utente.
+Come un [!DNL Adobe Workfront] amministratore, puoi definire la tua settimana lavorativa con le programmazioni. È possibile associare una pianificazione a un utente o a un progetto. Ciò consente [!DNL Workfront] per calcolare le timeline e la disponibilità dell’utente.
 
 Se gli utenti lavorano in fusi orari diversi, la creazione di una pianificazione in ciascuno dei fusi orari e l’associazione di quest’ultimo agli utenti assicura che il loro lavoro venga registrato in [!DNL Workfront] in tempo reale e che la loro disponibilità sia sempre precisa in base al momento in cui funzionano.
 
-Per informazioni sull&#39;associazione delle pianificazioni a utenti e progetti, vedere gli articoli seguenti:
-
-* [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
-* [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md)
+Per informazioni sull&#39;associazione delle pianificazioni a utenti e progetti, vedere [Modificare il profilo di un utente](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) e [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 Gli amministratori di gruppi possono anche creare pianificazioni associate ai gruppi che gestiscono. Per ulteriori informazioni, consulta [Creare e modificare le pianificazioni di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 
@@ -45,50 +44,55 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano [!UICONTROL Adobe Workfront]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Nuovo: [!UICONTROL Standard]</p>
+       <p>Oppure</p>
+       <p>Corrente: [!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un [!DNL Workfront] amministratore.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td>Devi essere un [!DNL Workfront] amministratore. </td> 
   </tr> 
  </tbody> 
 </table>
 
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Creare una pianificazione
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Clic **[!UICONTROL Schedules]**.
 1. Clic **[!UICONTROL Crea Schedule]**.
-1. Specifica un nome per la pianificazione.
+1. Immettere un nome per la programmazione.
 1. (Facoltativo) Seleziona **[!UICONTROL Pianificazione predefinita]** per identificare questa pianificazione come predefinita.
 
-   Puoi avere più di una pianificazione in [!DNL Workfront], ma puoi avere una sola pianificazione predefinita.
-
    Devi avere almeno una pianificazione in [!DNL Workfront]. Se ne hai solo uno, viene designato come pianificazione predefinita.
+
+   È possibile avere più di una pianificazione, ma una sola pianificazione predefinita.
 
    >[!NOTE]
    >
    >Se si è un amministratore di gruppo, non è possibile impostare una pianificazione come predefinita. Solo un [!DNL Workfront] l&#39;amministratore può designare una pianificazione come predefinita per il sistema.
 
-   ![](assets/new-schedule.png)
+   ![Crea Schedule](assets/new-schedule.png)
 
-1. In **[!UICONTROL Pianificazione]** , seleziona una pianificazione giornaliera trascinando il contorno blu tra i blocchi orari per evidenziarli.
+1. Il giorno **[!UICONTROL Pianificazione]** , seleziona una pianificazione giornaliera trascinando il contorno blu tra i blocchi orari per evidenziarli.
 
    È consigliabile selezionare 8 blocchi di un’ora in un periodo di tempo di 9 ore. Questo è adatto per il pranzo o altre pause.
 
-   ![](assets/new-schedule-with-exceptions.png)
+   ![Blocchi di tempo in una pianificazione](assets/new-schedule-with-exceptions.png)
 
-1. Il giorno **[!UICONTROL Dettagli]** , specificare le informazioni seguenti:
+1. Il giorno **[!UICONTROL Dettagli]** , immettere le informazioni seguenti:
 
    <table style="table-layout:auto">
     <tr>
      <td>[!UICONTROL Group con accesso amministratore]</td>
-     <td><p>Indicare il gruppo i cui amministratori dispongono dell'autorizzazione per modificare la pianificazione.</p>
+     <td><p>Selezionare il gruppo i cui amministratori dispongono delle autorizzazioni per modificare la pianificazione.</p>
      <p><b>IMPORTANTE</b>:</p>
       <ul>
        <li>
@@ -105,18 +109,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </tr>
     <tr>
      <td>[!UICONTROL Groups with View Access]</td>
-     <td><p>Selezionare i gruppi con accesso [!UICONTROL View] a cui è visibile questa pianificazione.</p>
+     <td><p>Selezionare i gruppi con accesso [!UICONTROL View] che possono visualizzare questa pianificazione.</p>
      <p>Solo gli utenti dei gruppi qui specificati possono trovare la pianificazione nel menu a discesa quando la assegnano a utenti o progetti.</p></tr>
     <tr>
      <td>Fuso orario di [!UICONTROL]</td>
      <td><p>Seleziona il fuso orario per la pianificazione.</p>
-     <p>Se si associa la pianificazione a un utente, è consigliabile che il fuso orario della pianificazione corrisponda a quello dell'utente.Per informazioni sui fusi orari dell'utente, vedere <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifica il profilo di un utente.
+     <p>Se si associa la pianificazione a un utente, è consigliabile che il fuso orario della pianificazione corrisponda a quello dell'utente. Per informazioni sui fusi orari degli utenti, vedi <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Modifica il profilo di un utente.
      </td>
     </tr>
    </table>
 
 
-1. Il giorno **[!UICONTROL Eccezioni]** , specificare le eccezioni alla pianificazione.
+1. Il giorno **[!UICONTROL Eccezioni]** , specificare eventuali eccezioni alla pianificazione.
 
    Le eccezioni sono giornate piene o mezze giornate che devono essere escluse dalla pianificazione, come festività o eventi aziendali.
 
@@ -126,11 +130,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    I giorni completi o parziali possono essere esclusi dal programma di lavoro. Fai clic sulla data per selezionarla come eccezione, quindi seleziona la **[!UICONTROL Tutto il giorno]** per indicare se l&#39;eccezione è un giorno intero o meno.
 
-   ![](assets/schedule-adding-an-all-day-exception.png)
+   ![Eccezione giornata intera](assets/schedule-adding-an-all-day-exception.png)
 
-1. Specificare l&#39;ora di inizio e di fine per le eccezioni dei giorni parziali.
+1. Inserire l&#39;ora di inizio e di fine per le eccezioni dei giorni parziali.
 
-   ![partial-day-exception-on-schedule.png](assets/partial-day-exception-on-schedules.png)
+   ![Eccezione per giorno parziale](assets/partial-day-exception-on-schedules.png)
 
 1. Clic **[!UICONTROL Salva]**, quindi fai clic su **[!UICONTROL Salva] Modifiche**.
 

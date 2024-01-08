@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: accesso,modello,funnel,diagramma,livelli,autorizzazioni
 navigation-topic: access-levels
-title: Livelli di accesso incorporati in Adobe Workfront
+title: Livelli di accesso incorporati
 description: Ciascuno dei sei livelli di accesso predefiniti è progettato per un particolare tipo di utente, inclusi amministratore di sistema, planner, lavoratore, revisore, richiedente e utente esterno. Questi livelli di accesso consentono di controllare quali utenti possono modificare e visualizzare nel sistema. Se è necessario un livello di accesso personalizzato, è possibile copiare un livello di accesso predefinito e modificarlo in base alla quantità di accesso che si desidera consentire per i vari tipi di oggetti di Workfront.
-author: Becky
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1685'
 ht-degree: 5%
 
 ---
 
-# Livelli di accesso incorporati in Adobe Workfront
+# Livelli di accesso incorporati
 
 <!--Audited: 01/2024-->
 
@@ -60,8 +60,7 @@ Se è necessario un livello di accesso Planner, Worker, Richiedente o Revisore p
 >
 >Non è possibile modificare i livelli di accesso Amministratore di sistema o Utente esterno.
 
-
-Per informazioni sulla creazione di un livello di accesso personalizzato o sulla modifica di uno dei livelli di accesso incorporati, vedere [Creare o modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Per informazioni sulla creazione di un livello di accesso personalizzato o sulla modifica di uno dei livelli di accesso incorporati, vedere [Creare e modificare livelli di accesso personalizzati](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
@@ -87,7 +86,7 @@ In aggiunta alla licenza Pianificazione, il livello di accesso Pianificazione è
 * Tutti gli utenti responsabili della pianificazione, creazione e gestione di attività, progetti, portfolio e programmi
 * Chiunque sia responsabile dell&#39;assegnazione del lavoro (attività e problemi) ad altri utenti
 * Utenti che creano rapporti e che approvano schede orario, elementi di lavoro e documenti
-* Utenti che devono accedere a tutte le aree nel menu principale ![](assets/main-menu-icon.png)
+* Utenti che devono accedere a tutte le aree nel menu principale ![](assets/main-menu-icon.png) o il menu principale ![](assets/lines-main-menu.png), se disponibile
 
 È possibile creare una versione personalizzata del livello di accesso integrato di Planner e determinare la quantità di accesso consentita per i vari tipi di oggetto Workfront. Per ulteriori informazioni, consulta [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -159,7 +158,7 @@ Ad esempio, un soggetto interessato con questo livello di accesso può accedere 
 Utenti con il livello di accesso Revisore:
 
 * Impossibile assegnare elementi di lavoro o approvare schede orario
-* Può accedere alle aree Richieste e Documenti nel menu principale ![](assets/main-menu-icon.png) o il menu principale ![](assets/lines-main-menu.png), se disponibile.
+* Può accedere alle aree Richieste e Documenti nel menu principale ![](assets/main-menu-icon.png) o il menu principale ![](assets/lines-main-menu.png), se disponibile
 * Hanno capacità limitate di creare oggetti, non possono creare progetti, portfolio, programmi o report.
 
 È possibile creare una versione personalizzata del livello di accesso predefinito del revisore e determinare la quantità di accesso consentita per i vari tipi di oggetti di Workfront. Per ulteriori informazioni, consulta [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -321,8 +320,8 @@ Gli utenti di Workfront possono assegnare attività a utenti esterni anche se qu
 Utenti con il livello di accesso Utente esterno:
 
 * È possibile visualizzare solo i documenti e i report del calendario condivisi con gli altri
-* Visualizzare gli utenti che condividono con loro documenti e report del calendario
-* Approva i documenti condivisi con gli altri
+* Può visualizzare gli utenti che condividono documenti e report calendario con loro
+* Può approvare i documenti condivisi con loro
 
 Non puoi modificare questo livello di accesso.
 
