@@ -7,14 +7,16 @@ description: È possibile regolare l'impostazione della modalità Tracciamento d
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
-source-git-commit: 40b6ba5c4deb312fb40aecad4978b5a385e0f1e9
+source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
 workflow-type: tm+mt
-source-wordcount: '630'
-ht-degree: 3%
+source-wordcount: '646'
+ht-degree: 2%
 
 ---
 
 # Panoramica sulla modalità di monitoraggio attività
+
+<!-- Audited: 01/2024 -->
 
 È possibile regolare l&#39;impostazione della modalità Tracciamento di un&#39;attività durante la creazione o la modifica di un&#39;attività per controllare come e quando vengono visualizzati gli indicatori di stato di avanzamento di un&#39;attività. Adobe Workfront mostra i flag di stato di avanzamento quando configuri alcune impostazioni per il tracciamento dell’avanzamento delle attività.
 
@@ -40,10 +42,10 @@ In qualità di proprietario di un&#39;attività o di project manager, è possibi
 
 Puoi scegliere tra le seguenti opzioni:
 
-* [Utente deve Aggiornare](#user-must-update)
-* [presume nei tempi](#assume-on-time)
-* [Ignora Avvertimenti di Ritardo](#ignore-late-warnings)
-* [Auto completamento](#auto-complete)
+* [L&#39;Utente Deve Aggiornare](#user-must-update)
+* [Presupponi puntuale](#assume-on-time)
+* [Ignora avvisi di ritardo](#ignore-late-warnings)
+* [Completamento automatico](#auto-complete)
 * [Predecessore](#predecessor)
 
 ### Utente deve Aggiornare {#user-must-update}
@@ -52,7 +54,7 @@ Quando questa opzione è selezionata, Workfront utilizza la percentuale di compl
 
 ### presume nei tempi {#assume-on-time}
 
-Workfront presuppone che un&#39;attività verrà completata in tempo, indipendentemente dallo stato di completamento corrente. In caso contrario, Workfront assume automaticamente una Data di completamento pianificata del giorno lavorativo successivo. È comunque necessario indicare quando l&#39;attività viene completata. Utilizza questa opzione quando gli utenti non aggiorneranno regolarmente le loro attività.
+Workfront presuppone che un&#39;attività verrà completata in tempo, indipendentemente dallo stato di completamento corrente. Se l&#39;attività non viene completata in tempo (alla data di completamento pianificata), Workfront presuppone automaticamente una data di completamento pianificata del giorno lavorativo successivo. È comunque necessario indicare quando l&#39;attività viene completata. Utilizza questa opzione quando gli utenti non aggiorneranno regolarmente le loro attività.
 
 ### Ignora Avvertimenti di Ritardo {#ignore-late-warnings}
 
@@ -71,8 +73,8 @@ Esistono le seguenti eccezioni:
 >
 >Se si seleziona l&#39;opzione per il completamento automatico delle attività, l&#39;attività viene contrassegnata come completata quando viene ricalcolata l&#39;ora del progetto. Se il tipo di aggiornamento del progetto è impostato su Automatico o Automatico e su Modifica, la sequenza temporale del progetto viene calcolata quotidianamente. Per informazioni sui ricalcoli della sequenza temporale nei progetti, consulta [Ricalcolare i timeline dei progetti](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->L&#39;ora della data di completamento effettiva è la mezzanotte del giorno in cui la sequenza temporale viene calcolata automaticamente. L’ora utilizzata per generare questa marca temporale è il fuso orario del sistema, come definito dall’amministratore di Workfront nella sezione Informazioni cliente di Configurazione. Per informazioni sull&#39;impostazione del fuso orario del sistema, vedere [Configurare le informazioni di base per il sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>L&#39;ora della data di completamento effettiva è la mezzanotte del giorno in cui la sequenza temporale viene calcolata automaticamente. L’ora utilizzata per generare questa marca temporale è il fuso orario del sistema definito dall’amministratore di Workfront nella sezione Informazioni cliente di Configurazione. Per informazioni sull&#39;impostazione del fuso orario del sistema, vedere [Configurare le informazioni di base per il sistema](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Predecessore {#predecessor}
 
-Workfront stima la data di completamento prevista di un&#39;attività in base alla relazione predecessore. Lo stato di avanzamento di un&#39;attività viene determinato in base a questa stima. Ad esempio, l&#39;attività B ha una durata di 1 giorno ed è programmata per essere completata due giorni dopo il predecessore, l&#39;attività A, che dovrebbe richiedere cinque giorni. Un utente aggiorna quindi l’Attività B al 50% completato, ma il predecessore, l’Attività A, non è ancora iniziato. Workfront programma il completamento dell&#39;attività B dipendente sei giorni dopo la data di inizio dell&#39;attività predecessore, consentendo 5 giorni per l&#39;attività A e 1 giorno per l&#39;attività B.
+Workfront stima la data di completamento prevista di un&#39;attività in base alla relazione predecessore. Lo stato di avanzamento di un&#39;attività viene determinato in base a questa stima. Ad esempio, l&#39;attività B ha una durata di 1 giorno ed è programmata per essere completata due giorni dopo il predecessore, l&#39;attività A, che dovrebbe richiedere cinque giorni. Un utente aggiorna quindi l’Attività B al 50% completato, ma il predecessore, l’Attività A, non è ancora iniziato. Workfront pianifica il completamento dell&#39;attività B dipendente sei giorni dopo la data di inizio dell&#39;attività predecessore, consentendo 5 giorni per l&#39;attività A e 1 giorno per l&#39;attività B.
