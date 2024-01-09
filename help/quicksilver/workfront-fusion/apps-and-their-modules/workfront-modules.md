@@ -9,10 +9,10 @@ description: Puoi utilizzare il connettore Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0810f2db8ef85b73de591649712580f23b72b5af
+source-git-commit: 37fd436070b435ebf3d042789bd385dc6a6108cc
 workflow-type: tm+mt
-source-wordcount: '5468'
-ht-degree: 3%
+source-wordcount: '5799'
+ht-degree: 2%
 
 ---
 
@@ -160,7 +160,7 @@ Dopo la creazione del webhook, puoi visualizzare l’indirizzo dell’endpoint a
 
 Per ulteriori informazioni, consulta la sezione [Esempi di payload di eventi](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) nel [!DNL Workfront] Articolo della Guida [API di abbonamento agli eventi](../../wf-api/general/event-subs-api.md).
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -197,7 +197,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -240,7 +240,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -344,7 +344,7 @@ Assicurati di fornire il numero minimo di campi di input. Ad esempio, se desider
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -391,7 +391,7 @@ Assicurati di fornire il numero minimo di campi di input. Ad esempio, se desider
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -458,7 +458,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -495,7 +495,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -507,7 +507,7 @@ Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibil
 
 +++
 
-+++ **[!UICONTROL Scarica Documento]**
++++ **[!UICONTROL Scarica documento]**
 
 Questo modulo di azione scarica un documento da Workfront.
 
@@ -532,7 +532,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -556,7 +556,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>Selezionare l'azione che si desidera venga eseguita dal modulo.</p> <p>Potrebbe essere necessario compilare ulteriori campi, a seconda del tipo di record [!UICONTROL] e dell'azione [!UICONTROL] scelti. Alcune combinazioni di queste due impostazioni possono richiedere solo un ID record, mentre altre (come Project per <strong>[!UICONTROL Tipo di record]</strong> e [!UICONTROL Allega modello] per <strong>[!UICONTROL Action]</strong>) richiedono informazioni aggiuntive (ad esempio un ID oggetto e un ID modello).</p> <p>Per informazioni dettagliate sui singoli campi, vedere <a href="http://developer.workfront.com/">Documentazione per sviluppatori Workfront</a>. </p> 
+   <td> <p>Selezionare l'azione che si desidera venga eseguita dal modulo.</p> <p>Potrebbe essere necessario compilare ulteriori campi, a seconda del tipo di record [!UICONTROL] e dell'azione [!UICONTROL] scelti. Alcune combinazioni di queste due impostazioni possono richiedere solo un ID record, mentre altre (come Project per <strong>[!UICONTROL Tipo di record]</strong> e [!UICONTROL Allega modello] per <strong>[!UICONTROL Action]</strong>) richiedono informazioni aggiuntive (ad esempio un ID oggetto e un ID modello).</p> <p>Per informazioni dettagliate sui singoli campi, vedere <a href="http://developer.workfront.com/">Documentazione per sviluppatori Workfront</a>. <p><strong>Nota</strong>: il sito della documentazione per sviluppatori include informazioni solo tramite la versione 14 dell’API, ma contiene ancora informazioni importanti per le chiamate API. </p> 
     <ol> 
      <li value="1"> <p>Selezionare il tipo di record dalla barra di navigazione a sinistra nella [!DNL Workfront] pagina della documentazione per gli sviluppatori. I seguenti tipi hanno pagine proprie:</p> 
       <ul> 
@@ -577,7 +577,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -627,7 +627,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -666,7 +666,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
@@ -711,7 +711,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -806,7 +806,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
  </tbody> 
 </table>
 
-Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] object types available for each [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
+Consulta l’elenco dei [!DNL Workfront] tipi di oggetto per i quali è possibile utilizzare questo modulo in [[!DNL Workfront] tipi di oggetto disponibili per ogni [!DNL Workfront] modulo](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
