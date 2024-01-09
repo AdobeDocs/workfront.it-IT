@@ -1,83 +1,85 @@
 ---
-title: Condivisione di un progetto in Adobe Workfront
+title: Condividere un progetto in Adobe Workfront
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-description: L’amministratore Adobe Workfront può concedere l’accesso alla visualizzazione o alla modifica dei progetti quando si assegna il livello di accesso. Per ulteriori informazioni, consulta Concedere l’accesso ai progetti.
+description: Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare progetti durante l’assegnazione del livello di accesso. Per ulteriori informazioni, consulta Concedere l’accesso ai progetti.
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 3%
+source-wordcount: '986'
+ht-degree: 2%
 
 ---
 
-# Condivisione di un progetto in Adobe Workfront
+# Condividere un progetto in Adobe Workfront
 
-L’amministratore Adobe Workfront può concedere l’accesso alla visualizzazione o alla modifica dei progetti quando si assegna il livello di accesso. Per ulteriori informazioni, consulta [Concedere l’accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+<!-- Audited: 1/2024 -->
 
-Oltre al livello di accesso concesso agli utenti, puoi anche concedere loro le autorizzazioni per visualizzare, Contribute o gestire progetti specifici a cui hai accesso per condividere.
+Il tuo amministratore Adobe Workfront può concederti l’accesso per visualizzare o modificare progetti durante l’assegnazione del livello di accesso. Per ulteriori informazioni, consulta [Concedere l’accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+
+Oltre al livello di accesso concesso agli utenti, è possibile concedere loro le autorizzazioni per visualizzare, contribuire o gestire progetti specifici a cui si ha accesso per la condivisione.
 
 Le autorizzazioni sono specifiche per un elemento in Workfront e definiscono quali azioni è possibile eseguire su tale elemento.
 
 ## Considerazioni sulla condivisione di progetti
 
-Oltre alle considerazioni seguenti, vedi [Panoramica della condivisione delle autorizzazioni sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Oltre alle considerazioni riportate di seguito, vedere anche [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-* Per impostazione predefinita, l’autore di un progetto dispone delle autorizzazioni necessarie per gestire il progetto e viene indicato anche come Proprietario del progetto. Se il progetto viene assegnato a un altro proprietario, tale utente dispone anche delle autorizzazioni necessarie per gestire il progetto. Quando il creatore (o proprietario) del progetto condivide il progetto con altri utenti, concede a tali utenti determinate autorizzazioni per controllare le operazioni che possono eseguire mentre lavorano al progetto.
+* Per impostazione predefinita, il creatore di un progetto dispone delle autorizzazioni per gestire il progetto ed è anche designato come proprietario del progetto. Se il progetto è assegnato a un altro proprietario, anche tale utente dispone delle autorizzazioni necessarie per gestire il progetto. Quando il creatore del progetto (o il proprietario) condivide il progetto con altri utenti, concede a questi ultimi determinate autorizzazioni per controllare ciò che possono fare mentre lavorano sul progetto.
 
-   Tuttavia, se il proprietario di un progetto non dispone di una licenza Planner, non dispone dell’accesso completo per gestire il progetto. Solo un utente con una licenza Plan può disporre delle autorizzazioni per gestire un progetto. Per ulteriori informazioni, consulta [Funzionamento congiunto dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Tuttavia, se un proprietario del progetto non dispone di una licenza Planner, non ha accesso completo alla gestione del progetto. Solo un utente con una licenza Pianificazione può disporre delle autorizzazioni per gestire un progetto. Per ulteriori informazioni, consulta [Funzionamento congiunto dei livelli di accesso e delle autorizzazioni](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-* Puoi condividere i progetti singolarmente oppure diversi progetti alla volta. La condivisione di progetti è identica alla condivisione di altri oggetti. Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedi [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-* Puoi concedere le seguenti autorizzazioni a un progetto: 
+* Puoi condividere i progetti singolarmente, oppure puoi condividerne più di uno alla volta. La condivisione di progetti è identica alla condivisione di altri oggetti. Per ulteriori informazioni sulla condivisione di elementi in Workfront, vedi [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Puoi concedere le seguenti autorizzazioni a un progetto:
 
    * Visualizza
    * Gestisci
-   * contribuire
+   * Contribuisci
 
-      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
+     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
-* Quando condividi un progetto, tutte le attività, i problemi e i documenti ereditano le stesse autorizzazioni, se non diversamente specificato.
+* Quando si condivide un progetto, tutte le attività, i problemi e i documenti ereditano le stesse autorizzazioni, se non diversamente specificato.
 
-   Per informazioni sulla gestione dell’accesso alle attività e ai problemi del progetto in base alle autorizzazioni di un utente per il progetto, consulta la sezione [](../../manage-work/projects/manage-projects/edit-projects.md#access) sezione dell&#39;articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+  Per informazioni sulla gestione dell’accesso alle attività e ai problemi del progetto in base alle autorizzazioni di un utente, consulta [](../../manage-work/projects/manage-projects/edit-projects.md#access) sezione nell’articolo [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
-   L’amministratore di Workfront può specificare se i documenti devono ereditare le autorizzazioni da oggetti superiori nel livello di accesso dell’utente. Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate ai documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  L&#39;amministratore di Workfront può specificare se i documenti devono ereditare le autorizzazioni da oggetti di livello superiore nel livello di accesso dell&#39;utente. Per ulteriori informazioni sulla limitazione delle autorizzazioni ereditate sui documenti, vedere [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* È possibile rimuovere le autorizzazioni ereditate da un progetto in modo che gli oggetti secondari non le ereditino. Per ulteriori informazioni sulla rimozione delle autorizzazioni ereditate dagli oggetti, vedere  [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* È possibile rimuovere le autorizzazioni ereditate da un progetto in modo che gli oggetti figlio non le ereditino. Per ulteriori informazioni sulla rimozione delle autorizzazioni ereditate dagli oggetti, vedere [Rimuovere le autorizzazioni dagli oggetti](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Modi per condividere un progetto {#ways-to-share-a-project}
 
 Puoi condividere un progetto nei seguenti modi:
 
-* Manualmente, eseguendo una delle operazioni seguenti:
+* Manualmente, effettuando una delle seguenti operazioni:
 
-   * Aggiunta di utenti al team di progetto. Quando aggiungi utenti al team di progetto, ottengono automaticamente le autorizzazioni di visualizzazione per il progetto.\
-      Per ulteriori informazioni sull’aggiunta di utenti a un team di progetto, consulta la sezione &quot;Aggiunta di utenti a un team di progetto&quot; in [Panoramica del team di progetto](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * Condivisione singola o in blocco dei progetti quando si utilizza il **Condivisione** opzione .
+   * Aggiunta di utenti al team del progetto. Quando aggiungi utenti al team di progetto, questi ottengono automaticamente le autorizzazioni di visualizzazione per il progetto.\
+     Per ulteriori informazioni sull&#39;aggiunta di utenti a un team di progetto, vedere la sezione &quot;Aggiunta di utenti a un team di progetto&quot; in [Panoramica del team del progetto](../../manage-work/projects/planning-a-project/project-team-overview.md).
+   * Condivisione individuale o in blocco dei progetti quando si utilizza **Condivisione** opzione.
 
-      La condivisione di un progetto è simile alla condivisione di tutti gli altri oggetti in Adobe Workfront.
+     La condivisione di un progetto è simile alla condivisione di tutti gli altri oggetti in Adobe Workfront.
 
-      Per informazioni sulla condivisione di oggetti in Workfront, consulta [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Per informazioni sulla condivisione di oggetti in Workfront, consulta [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* Automaticamente, eseguendo una delle operazioni seguenti:
+* Automaticamente, effettuando una delle seguenti operazioni:
 
-   * Inserire un progetto in un **Portfolio** o **Programma** che è già condiviso con altri. Gli utenti ottengono le stesse autorizzazioni per il progetto che hanno per il portfolio o il programma.\
-      Per informazioni sull’aggiunta di un progetto a un **Portfolio**, vedi [Aggiungere progetti a un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-      Per informazioni sull’aggiunta di un progetto a un **Programma**, vedi [Aggiungere un progetto a un programma](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   * Posizionare un progetto in un **Portfolio** o **Programma** che è già condiviso con altri. Gli utenti ottengono le stesse autorizzazioni al progetto di cui dispongono per il portfolio o il programma.\
+     Per informazioni sull’aggiunta di un progetto a un **Portfolio**, vedi [Aggiungere progetti a un portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+     Per informazioni sull’aggiunta di un progetto a un **Programma**, vedi [Aggiungere un progetto a un programma](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-      Per informazioni sulla visualizzazione delle autorizzazioni ereditate in un oggetto, vedere [Visualizzare le autorizzazioni ereditate sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     Per informazioni sulla visualizzazione delle autorizzazioni ereditate su un oggetto, vedi [Visualizzare le autorizzazioni ereditate sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Aggiungi entità alla condivisione di progetti in un modello utilizzato per creare il progetto. Per informazioni sulla condivisione di progetti da modelli, consulta [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
-   * Definisci il modello di accesso al progetto.
+   * Aggiungere entità alla condivisione di progetti in un modello utilizzato per creare il progetto. Per informazioni sulla condivisione di progetti da modelli, consulta [Condividere un modello](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Definire il modello di accesso al progetto.
 
-      Per definire il modello di accesso al progetto, vedi [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+     Per definire il modello di accesso al progetto, vedi [Condividere un oggetto](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-      >[!TIP]
-      >
-      >Quando alleghi o salvi un modello, puoi cancellare le regole di condivisione del progetto del modello.
+     >[!TIP]
+     >
+     >Quando si allega o si salva un modello, è possibile cancellare le regole di condivisione dei progetti dei modelli.
 
-   * Modificare un progetto e definire la **Quando a un utente viene concesso l’accesso a questo progetto** impostazione. Per ulteriori informazioni, consulta [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Modificare un progetto e definire **Quando a un utente viene dato l’accesso a questo progetto** impostazione. Per ulteriori informazioni, consulta [Modifica progetti](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -100,12 +102,12 @@ Puoi condividere un progetto nei seguenti modi:
 </ol>
 -->
 
-## Limitazioni per diversi tipi di licenze
+## Limitazioni per i diversi tipi di licenza
 
 * Gli utenti con una licenza Worker non dispongono delle autorizzazioni necessarie per gestire i progetti. Per i lavoratori, l&#39;autorizzazione di condivisione più elevata è Contribute.
-* Gli utenti con una licenza di richiesta possono visualizzare le informazioni sul progetto, ma con accesso limitato al progetto.
-* Un&#39;eccezione alla modifica dello stato di un progetto si verifica quando un utente con autorizzazioni di tipo Visualizza o Contribute viene incluso anche in un processo di approvazione. Possono approvare il progetto, che modifica lo stato del progetto, ma lo stato è lo stato predefinito per l’approvazione o il rifiuto.
-* Per poter copiare un progetto, un utente deve avere accesso anche per creare progetti nel proprio livello di accesso.
+* Gli utenti con una licenza Request possono visualizzare le informazioni sul progetto, ma hanno accesso limitato al progetto.
+* Un&#39;eccezione alla modifica dello stato di un progetto si verifica quando un utente con autorizzazioni Visualizza o Contribuisci è incluso anche in un processo di approvazione. Possono approvare il progetto, che modifica lo stato del progetto, ma lo stato è quello predefinito per l’approvazione o per il rifiuto.
+* Per poter copiare un progetto, un utente deve anche avere accesso alla creazione di progetti nel proprio Livello di Accesso.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -131,7 +133,7 @@ The
 
 ## Opzioni di autorizzazione del progetto
 
-Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono concedere quando condividono un progetto. Per ulteriori informazioni sull&#39;accesso che gli utenti ottengono in base alla propria licenza, vedi [Concedere l’accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono concedere quando condividono un progetto. Per ulteriori informazioni sugli utenti dell’accesso ottenuti in base alla propria licenza, consulta [Concedere l’accesso ai progetti](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -142,7 +144,7 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
   <tr> 
    <th> <p><strong>Azioni</strong> </p> </th> 
    <th> <p><strong>Gestisci</strong> </p> </th> 
-   <th> <p><strong>contribuire</strong> </p> </th> 
+   <th> <p><strong>Contribuisci</strong> </p> </th> 
    <th> <p><strong>Visualizza</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -160,7 +162,7 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Aggiungi processo di approvazione</p> </td> 
+   <td> <p>Aggiungere Un Processo Di Approvazione</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -178,13 +180,13 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Creare Un Progetto</p> </td> 
+   <td> <p>Crea Un Progetto</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Aggiungi documento</p> </td> 
+   <td> <p>Aggiungi documenti</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -256,13 +258,13 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Modifica le Assegnazioni</p> </td> 
+   <td> <p>Modifica assegnazioni</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Gestisci linea di base</p> </td> 
+   <td> <p>Gestisci Base Line</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -274,7 +276,7 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Gestisci le finanze*</p> </td> 
+   <td> <p>Gestisci dati finanziari*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -286,7 +288,7 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Visualizza dati finanziari*</p> </td> 
+   <td> <p>Finanza*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -304,7 +306,7 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Aggiungi/Modifica caso aziendale</p> </td> 
+   <td> <p>Aggiungi/Modifica Business Case</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -316,7 +318,7 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Modifica personale</p> </td> 
+   <td> <p>Modifica assegnazione personale</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -328,7 +330,7 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ricalcola contabilità/cronologia*</p> </td> 
+   <td> <p>Ricalcola finanza/sequenza temporale*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -340,7 +342,7 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Modificare un progetto in serie in un elenco</p> </td> 
+   <td> <p>Modificare un progetto in blocco in un elenco</p> </td> 
    <td> <p>✓</p> </td> 
    <td> </td> 
    <td> </td> 
@@ -348,4 +350,4 @@ Nella tabella seguente sono elencate le autorizzazioni che gli utenti possono co
  </tbody> 
 </table>
 
-&#42;Gli utenti che non hanno accesso ai dati finanziari non possono gestire i rischi e le finanze dei progetti, anche se dispongono dell’accesso all’editing dei progetti. Per informazioni sull&#39;accesso ai dati finanziari, vedi [Concedere l’accesso ai dati finanziari](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42;Gli utenti che non hanno accesso ai dati finanziari non possono gestire i rischi e i finanziamenti per i progetti, anche se hanno accesso in modifica ai progetti. Per informazioni sull&#39;accesso ai dati finanziari, vedere [Concedere l’accesso ai dati finanziari](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).

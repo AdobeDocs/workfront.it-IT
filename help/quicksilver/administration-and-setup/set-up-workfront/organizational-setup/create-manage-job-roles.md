@@ -8,14 +8,16 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1163'
 ht-degree: 0%
 
 ---
 
 # Creare e gestire le mansioni
+
+<!-- Audited: 1/2024 -->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -35,7 +37,9 @@ Devi avere i seguenti:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>Corrente: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -48,7 +52,9 @@ Devi avere i seguenti:
 
 ## Creare una mansione
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+Per creare una mansione:
+
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su&#x200B; **[!UICONTROL Mansioni].**
 1. Clic **[!UICONTROL Crea Ruolo].**

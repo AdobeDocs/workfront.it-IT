@@ -4,14 +4,16 @@ description: Puoi visualizzare lo stato di [!DNL Workfront] piattaforma, inclusi
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 1%
+source-wordcount: '367'
+ht-degree: 0%
 
 ---
 
 # Il [!DNL Adobe Workfront] Sito di stato
+
+<!-- Audited: 1/2024 -->
 
 ## Panoramica del sito Stato
 
@@ -28,11 +30,7 @@ Puoi visualizzare lo stato di [!DNL Workfront] piattaforma, inclusi gli incident
 
 Puoi visualizzare gli aggiornamenti di stato su [!DNL Adobe] Sito di stato.
 
-1. Vai a [[!DNL https://one.workfront.com]](https://one.workfront.com/), quindi fai clic su **[!UICONTROL Stato]** nel **[!UICONTROL Supporto]** nell&#39;angolo inferiore destro della pagina.
-
-   Oppure
-
-   Tipo [status.adobe.com](https://status.adobe.com/it/) nel browser per accedere al sito Stato.
+1. Tipo [status.adobe.com](https://status.adobe.com/) nel browser per accedere al sito Stato.
 
 1. Seleziona **[!UICONTROL Experience Cloud]**.
 1. Scorri verso il basso e seleziona **[!UICONTROL Adobe Workfront]** dall’elenco delle soluzioni.
@@ -41,8 +39,9 @@ Puoi visualizzare gli aggiornamenti di stato su [!DNL Adobe] Sito di stato.
 
 Per iscriversi al sito di stato o per gestire l&#39;iscrizione dopo l&#39;iscrizione:
 
-1. Vai a [status.adobe.com](https://status.adobe.com/it/).
+1. Vai a [status.adobe.com](https://status.adobe.com/).
 1. Nella barra di stato, seleziona **[!UICONTROL Gestire gli abbonamenti]**.
+   ![](assets/manage-subs.png)
 1. Se disponi di un account esistente, accedi all’account; in caso contrario, crea un nuovo account.
 1. Fai clic su **[!UICONTROL Creare abbonamenti]** pulsante.
 1. Seleziona **[!UICONTROL Adobe Workfront]** sotto **[!UICONTROL Experience Cloud]** , quindi fai clic su **[!UICONTROL Continua]**.
@@ -50,10 +49,6 @@ Per iscriversi al sito di stato o per gestire l&#39;iscrizione dopo l&#39;iscriz
 1. Clic **[!UICONTROL Fine]** per confermare l’abbonamento.
 
 ## Comprendere le vulnerabilità denominate
-
-* [Cos’è una vulnerabilità denominata?](#what-is-a-named-vulnerability)
-* [Come posso visualizzare le vulnerabilità denominate identificate da [!DNL Workfront?]](#how-do-i-view-named-vulnerabilities-identified-by-workfront)
-* [Perché è importante?](#why-is-this-important)
 
 ### Cos’è una vulnerabilità denominata? {#what-is-a-named-vulnerability}
 
@@ -63,7 +58,7 @@ I ricercatori che si occupano di vulnerabilità e i creatori sfruttano i progett
 
 ### Come posso visualizzare le vulnerabilità denominate identificate da [!DNL Workfront?] {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Vai a  [status.adobe.com](https://status.adobe.com/it/), quindi fai clic su **[!UICONTROL Sicurezza]**.
+1. Vai a  [status.adobe.com](https://status.adobe.com/), quindi fai clic su **[!UICONTROL Sicurezza]**.
 
 ## Perché è importante? {#why-is-this-important}
 

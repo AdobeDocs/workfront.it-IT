@@ -6,18 +6,21 @@ description: Il [!DNL Adobe Workfront for Microsoft Teams] consente di eseguire 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # Installa [!DNL Adobe Workfront] per Microsoft Teams
 
->[!NOTE]
+<!-- Audited: 1/2024 -->
+
+>[!IMPORTANT]
 >
 >L’integrazione di Adobe Workfront for Microsoft Teams è attualmente supportata solo per l’esperienza di Microsoft Teams classica.
+
 
 Il [!DNL Adobe Workfront for Microsoft Teams] consente di eseguire azioni di base in [!DNL Workfront] senza uscire [!DNL Microsoft Teams] canali di chat.
 
@@ -40,7 +43,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Lavoro], [!UICONTROL Piano]</p> </td> 
+   <td><p>Nuovo: Standard</p>
+    <p>Corrente: [!UICONTROL Lavoro], [!UICONTROL Piano]</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,9 +58,6 @@ Devi essere il proprietario del team in [!DNL Microsoft Teams] per installare [!
 ## Installa [!DNL Workfront for Microsoft Teams]
 
 Come proprietario del team in [!DNL Microsoft Teams], è possibile installare [!DNL Workfront for Microsoft Teams] per ciascuno dei tuoi team da [!DNL Microsoft] Archivia o da un file fornito da [!DNL Workfront].
-
-* [Installa [!DNL Workfront for Microsoft Teams] da Microsoft Store](#install-workfront-for-microsoft-teams-from-the-microsoft-store)
-* [Installa [!DNL Workfront for Microsoft Teams] da un file privato](#install-workfront-for-microsoft-teams-from-a-private-file)
 
 ### Installa [!DNL Workfront for Microsoft Teams] dal [!DNL Microsoft] Archivia
 

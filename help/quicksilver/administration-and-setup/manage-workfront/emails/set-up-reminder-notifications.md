@@ -5,16 +5,18 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: aff9ba1082af998f104fa01bbc437f7e2ec9b16a
+source-git-commit: 108ebd3b8677124085056cf2812fa86e70a11887
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
 
 # Configurare le notifiche di promemoria
 
-Le notifiche di promemoria inviano e-mail ai destinatari in base a criteri specificati. In qualità di amministratore di Adobe Workfront o di utente con un livello di accesso alla Pianificazione e un accesso amministrativo alle notifiche dei promemoria, puoi associare manualmente le notifiche dei promemoria agli elementi di lavoro, come progetti, attività, problemi e schede orario.
+<!-- Audited: 1/2024 -->
+
+Le notifiche di promemoria inviano e-mail ai destinatari in base a criteri specificati. È possibile associare manualmente le notifiche di promemoria agli elementi di lavoro, ad esempio progetti, attività, problemi e schede orario.
 
 <!--
 DRAFTED IN FLARE:
@@ -39,7 +41,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+   <td> <p>Nuovo: Standard </p>
+ <p>oppure</p> 
+<p>Corrente: Piano</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -52,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Personalizzare l’e-mail di promemoria
 
-Puoi personalizzare la notifica del promemoria con un’e-mail personalizzata che include un oggetto e un corpo dell’e-mail personalizzati. Il corpo dell’e-mail può contenere HTML personalizzati.
+Puoi personalizzare l’oggetto, il corpo e il HTML nell’e-mail di notifica del promemoria.
 
 In alternativa, puoi utilizzare l’e-mail predefinita inclusa nella notifica del promemoria. L’e-mail predefinita utilizza il nome della notifica del promemoria come oggetto dell’e-mail e il nome dell’oggetto nel corpo dell’e-mail, incluso l’evento che ha attivato la notifica.
 
@@ -62,7 +67,7 @@ Per informazioni su come creare un modello e-mail, consulta [Configurare i model
 
 ## Creare una notifica di promemoria
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **E-mail** > **Notifiche** > **Avvisi di Promemoria**.
 
@@ -144,10 +149,12 @@ Ad esempio, se un promemoria è impostato per essere attivato un’ora dopo la d
 
 Per attivare manualmente una notifica di promemoria:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Sistema** > **Diagnostica** nell&#39;angolo inferiore sinistro di Workfront.
 
 1. Clic **Invia Avvisi di Promemoria** e attendi la conferma, nella parte superiore della schermata, dell’invio.
 
    Gli utenti designati nella notifica del promemoria ricevono un messaggio e-mail.
+
+![](assets/reminder-test.png)
