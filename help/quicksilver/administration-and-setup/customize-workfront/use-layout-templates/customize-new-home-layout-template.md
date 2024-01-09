@@ -7,9 +7,9 @@ description: È possibile utilizzare un modello di layout per configurare ciò c
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 511d9b0b61870ccec13aa70c9d4d3232b3e60cd3
+source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '741'
 ht-degree: 1%
 
 ---
@@ -101,6 +101,10 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
      </tr>
     </tbody> 
    </table>
+
+>[!IMPORTANT]
+>
+>Se impostate un filtro o un raggruppamento predefinito per un widget specifico utilizzando un modello di layout, potrebbe non avere effetto immediato a causa delle preferenze utente esistenti. Per applicare immediatamente il nuovo filtro o raggruppamento, è possibile che tu o l’utente debba reimpostare le preferenze utente aggiungendo &quot;/resetUser&quot; alla fine dell’URL.
 
 1. Continuate a personalizzare il modello di layout.
 
