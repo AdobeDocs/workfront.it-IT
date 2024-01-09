@@ -8,9 +8,9 @@ description: Se il contenuto della bozza non viene caricato e puoi visualizzare 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-source-git-commit: d2836549ee3c615201ce5f3454258e9af31efa42
+source-git-commit: 238b675b15b189c622692c1ba9babab5e82bfe09
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -82,9 +82,9 @@ All’interno del Visualizzatore bozze vengono caricate le tessere, ovvero i fra
 
 ## Controlla i plug-in
 
-Se il browser e [!DNL Flash Player] il plug-in è aggiornato e la rete non blocca le connessioni a [!DNL Workfront Proof] nel browser potrebbe essere presente un elemento che influisce sulla visualizzazione delle bozze. Al giorno d’oggi sono disponibili più plug-in ed estensioni nel browser e alcuni di essi interferiscono o sono in conflitto con gli altri.
+Se il browser è aggiornato e la rete non blocca le connessioni a [!DNL Workfront Proof], nel browser potrebbe essere presente un elemento che influisce sulla visualizzazione delle bozze. Nel browser sono spesso disponibili più plug-in ed estensioni e alcuni di essi potrebbero interferire o entrare in conflitto con gli altri.
 
-La procedura consigliata consiste nel rimuovere tutti i componenti aggiuntivi sconosciuti e mantenere solo quelli utilizzati e considerati attendibili. Ogni browser deve fornire le opzioni per controllare/modificare/eliminare i plug-in e le estensioni. Nostro [!DNL Workfront Proof] Il visualizzatore si basa su [!DNL Flash] e utilizziamo JavaScript per caricare il visualizzatore in modo da poter rivedere in particolare i plug-in che potrebbero interessarli.
+La procedura consigliata consiste nel rimuovere tutti i componenti aggiuntivi sconosciuti e mantenere solo quelli utilizzati e considerati attendibili. Ogni browser deve fornire le opzioni per controllare/modificare/eliminare i plug-in e le estensioni. Utilizziamo JavaScript per caricare [!DNL Workfront Proof] in modo da poter controllare in particolare i plug-in che potrebbero interessarlo.
 
 Se esiste un componente aggiuntivo particolare che interferisce con il caricamento delle bozze, puoi provare a controllare i dettagli nella console del browser.
 
@@ -101,8 +101,8 @@ In caso di problemi durante la visualizzazione delle bozze:
 
 ## Verifica impostazioni contenuto misto
 
-Tutte le connessioni a [!DNL Workfront Proof] si trovano su HTTPS. Tuttavia, nella [!DNL Workfront Proof] Il visualizzatore carica le tessere su HTTP e i dati sono protetti con i token. Questo crea contenuti misti che alcuni browser o soluzioni di sicurezza potrebbero bloccare (per impostazione predefinita o in base alla configurazione manuale).
+Tutte le connessioni a [!DNL Workfront Proof] si trovano su HTTPS. Tuttavia, nella [!DNL Workfront Proof] Il visualizzatore carica le tessere su HTTP e i dati sono protetti con i token. Questo crea contenuti misti che alcuni browser o soluzioni di sicurezza potrebbero bloccare (per impostazione predefinita o tramite configurazione manuale).
 
-Se questo è il motivo per cui le bozze non si aprono sul computer (dovresti essere in grado di visualizzare gli avvisi pertinenti nella console del browser), autorizza tali connessioni per [!DNL Workfront Proof] o modificare le impostazioni per consentire contenuti misti passivi sul computer. I contenuti misti potrebbero essere bloccati dal browser, dal software AV, dalla configurazione di rete e così via. Per determinare la causa esatta, contattare il team IT o gli amministratori di rete. Dovrebbero anche essere in grado di aiutare ad abilitare i contenuti misti sul computer.
+Se per questo motivo le bozze non si aprono sul computer (dovresti poter visualizzare gli avvisi pertinenti nella console del browser), autorizza tali connessioni per [!DNL Workfront Proof] o modificare le impostazioni per consentire contenuti misti passivi sul computer. I contenuti misti potrebbero essere bloccati dal browser, dal software AV o dalla configurazione di rete per determinare la causa esatta. Contattare il team IT o gli amministratori di rete. Dovrebbero anche essere in grado di aiutare ad abilitare i contenuti misti sul computer.
 
 
