@@ -5,14 +5,15 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Condividere i record
 
@@ -158,9 +159,9 @@ After permissions - replace the table with - below
 
 ## Condividere i collegamenti ai record dalla vista tabella del tipo di record
 
-1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** ![](assets/main-menu-shell.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro**.
+{#step1-to-maestro}
 
-   Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
+Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.

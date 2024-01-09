@@ -3,9 +3,9 @@ title: Miglioramenti al progetto per il primo trimestre 2024
 description: Miglioramenti al progetto nel primo trimestre 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 ## Assegnazioni intelligenti basate sull’intelligenza artificiale
 
-È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica ovunque in Workfront, dove si assegna un’attività (elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo).
+È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.
 
 Ora, quando suggerisce assegnazioni intelligenti, l’algoritmo esamina le seguenti informazioni:
 

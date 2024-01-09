@@ -6,14 +6,16 @@ description: Puoi accedere a [!DNL Adobe Workfront] da [!DNL Microsoft Teams] ed
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
 
 # Accesso [!DNL Adobe Workfront] da [!DNL Microsoft Teams]
+
+<!--Audited: 01/2024-->
 
 >[!NOTE]
 >
@@ -48,12 +50,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Lavoro], [!UICONTROL Piano]</p> </td> 
+   <td> <p>Nuovo: [!UICONTROL Standard]</p>
+   <p>Corrente: [!UICONTROL Lavoro], [!UICONTROL Piano]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+*Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+
+*Per ulteriori informazioni sui requisiti di accesso ai Workfront, vedere [Panoramica dei requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
@@ -63,6 +68,8 @@ Puoi creare attività personali in [!DNL Adobe Workfront] da [!DNL Microsoft Tea
 * Hai effettuato l’accesso a [!DNL Workfront] da [!DNL Microsoft Teams].
 
 ## Accesso [!DNL Workfront] dal [!DNL Workfront] canale chat bot
+
+Devi aver effettuato l’accesso a Workfront.
 
 1. Apri **[!DNL Workfront]** canale di chat bot.
 1. Fai clic su **[!DNL Workfront]** sotto il campo di testo per visualizzare la casella di ricerca.
@@ -89,6 +96,8 @@ Puoi creare attività personali in [!DNL Adobe Workfront] da [!DNL Microsoft Tea
 
 ## Accesso [!DNL Workfront] da un canale team
 
+Devi aver effettuato l’accesso a Workfront.
+
 1. Apri un canale team e digita **@[!DNL Workfront]**, quindi seleziona **[!DNL Workfront].**
 
 1. Clic **[!UICONTROL Ricerca]** per cercare un progetto, un’attività o un problema.
@@ -102,7 +111,7 @@ Puoi creare attività personali in [!DNL Adobe Workfront] da [!DNL Microsoft Tea
    * **[!DNL Log out]** per uscire da Workfront
    * **[!DNL New task]** per creare una nuova attività personale
 
-     Per informazioni sulla creazione di nuove attività da [!DNL Microsoft Teams], vedi [Crea [!DNL Adobe Workfront] attività da [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+     Per informazioni sulla creazione di attività da [!DNL Microsoft Teams], vedi [Crea [!DNL Adobe Workfront] attività da [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL Aiuto]** per visualizzare un elenco di tutti i comandi disponibili.
 

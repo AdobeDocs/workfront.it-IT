@@ -4,7 +4,7 @@ description: Puoi condividere una visione con altri per garantire la collaborazi
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 1%
@@ -112,8 +112,6 @@ Per condividere una visualizzazione con altri utenti:
 
 ## Rimuovere le autorizzazioni per una visualizzazione
 
-
-{{step1-to-maestro}}
 
 {{step1-to-maestro}}
 

@@ -6,14 +6,16 @@ description: Utilizzare la formattazione condizionale in modalità testo
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 2db3e821f26a8f05b2a1822ac4bcf3ae5e26a4ec
 workflow-type: tm+mt
-source-wordcount: '1743'
+source-wordcount: '1699'
 ht-degree: 1%
 
 ---
 
 # Utilizzare la formattazione condizionale in modalità testo
+
+<!--Audited: 01/2024-->
 
 <!--
 (NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
@@ -38,20 +40,24 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Nuovo: Standard </p> 
+   <p>Corrente: Piano</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare le visualizzazioni in un rapporto</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare le visualizzazioni in un rapporto</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un report per modificare le visualizzazioni in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per modificare le visualizzazioni in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+
+*Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Formattazione condizionale in modalità testo
 
@@ -104,13 +110,11 @@ Quando si utilizza la formattazione condizionale in una visualizzazione, è poss
 
 Per modificare l’intestazione di colonna visualizzata, aggiungi il seguente codice alla colonna: `displayname= [Name of column]`. Ad esempio, per nominare una colonna Proprietario progetto, il codice di testo sarà simile al seguente:
 
-```
-displayname=Project Owner
-```
+`displayname=Project Owner`
 
 #### Formato date {#format-dates}
 
-Le date possono essere configurate per la visualizzazione in diversi formati.
+Le date possono essere configurate per la visualizzazione in vari formati.
 
 Per ulteriori informazioni, consulta [Formattare le date nei report in modalità testo](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
@@ -270,11 +274,11 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->Il *styledef.case.0.comparison.icon* La riga è sempre false a meno che non si utilizzino le icone.
+>Il `styledef.case.0.comparison.icon` La riga è sempre false a meno che non si utilizzino le icone.
 >
->Il *styledef.case.0.comparison.truetext* La riga viene sempre lasciata vuota fino a quando non si utilizza la sovrascrittura del testo.
+>Il `styledef.case.0.comparison.truetext` La riga viene sempre lasciata vuota fino a quando non si utilizza la sovrascrittura del testo.
 >
->Il *styledef.case.0.comparison.righttext* la riga è vuota quando il qualificatore non è vuoto.
+>Il `styledef.case.0.comparison.righttext` la riga è vuota quando il qualificatore non è vuoto.
 
 Ad esempio, se desideri visualizzare il Nome azienda in verde in un report di progetto, puoi utilizzare il seguente codice:
 
@@ -338,7 +342,7 @@ Utilizzare le tabelle seguenti per identificare le righe da modificare e i valor
 
 {style="table-layout:auto"}
 
-| **Colore di fondo** | **Line: bgcolor=** |
+| **Colore di sfondo** | **Line: bgcolor=** |
 |---|---|
 | Verde acqua | `dcf6f7` |
 | Verde | `def6e2` |
@@ -400,7 +404,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->Le righe che iniziano con `case.0.` confronti tra casi d’uso per identificare l’utilizzo del testo. Le righe che iniziano con **styledef.case.0.** sono le prime istruzioni di formattazione condizionale in cui viene identificato l’utilizzo del testo tramite `truetext` espressione. Assicurati di impostare `truetext` a un valore, anziché lasciarlo vuoto.
+>Le righe che iniziano con `case.0.` confronti tra casi d’uso per identificare l’utilizzo del testo. Le righe che iniziano con `styledef.case.0.` sono le prime istruzioni di formattazione condizionale in cui viene identificato l’utilizzo del testo tramite `truetext` espressione. Assicurati di impostare `truetext` a un valore, anziché lasciarlo vuoto.
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -410,87 +414,28 @@ styledef.case.0.comparison.truetext=not today
 
 Se desideri applicare una condizione all’intera riga, utilizza il seguente codice con il codice di colonna:
 
+
 ```
 styledef.case.0.comparison.icon=false
-```
-
-```
 styledef.case.0.comparison.isrowcase=true
-```
-
-```
 styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 styledef.case.0.comparison.truetext=
-```
-
-```
 row.0.styledef.applyallcases=true
-```
-
-```
 row.0.styledef.case.0.comparison.icon=false
-```
-
-```
 row.0.styledef.case.0.comparison.isrowcase=true
-```
-
-```
 row.0.styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 row.0.styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 row.0.styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 row.0.styledef.case.0.comparison.truetext=
 ```
 
@@ -510,6 +455,7 @@ image.case.0.comparison.truetext=
 ```
 
 Ad esempio, in un rapporto di progetto, desideri creare una colonna in cui visualizzare un volto disordinato per ogni Data di completamento pianificata che non sia uguale alla data odierna. Utilizza il seguente codice in modalità testo per aggiungere l’icona alla colonna:
+
 
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
@@ -577,9 +523,17 @@ Quando si aggiungono aggregatori a una colonna in modalità testo, tenere presen
 * È possibile aggiungere un aggregatore a una colonna che visualizza un calcolo. Il valore aggregato viene visualizzato nel raggruppamento della visualizzazione o del report. Per ulteriori informazioni, consulta [Raggruppamento: visualizza il risultato dell’aggregazione di più valori calcolati in un raggruppamento](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * Le righe di codice per la definizione della colonna devono essere identiche alle righe di codice che introducono l&#39;aggregatore e precedute da &quot;aggregatore&quot;. Ad esempio, in una colonna in cui vengono visualizzate le ore pianificate in un progetto, la modalità testo delle righe principali della colonna è:
 
-  ```
+```
   valuefield=workRequired
   valueformat=compound
-  ```
+```
 
-  Quando desideri aggregare il valore di tutte le righe nel raggruppamento della vista, puoi aggiungere il seguente codice per aggiungere i valori dell’aggregatore: `aggregator.valuefield=workRequired` (il `aggregator.valuefield` la riga deve essere uguale alla `valuefield` che descrive la colonna) `aggregator.valueformat=compound` (il `aggregator.valueformat` la riga deve avere lo stesso valore della `valueformat` che descrive la colonna) `aggregator.function=SUM` (questa è una riga obbligatoria che indica come aggregare la colonna; in questo caso, si desidera aggiungere tutte le singole ore pianificate in un unico numero nella riga di raggruppamento) `aggregator.displayformat=minutesAsHoursString` (poiché le ore sono memorizzate in Workfront in pochi minuti, è necessario indicare `displayformat` per le ore in cui sono conservati in minuti)
+Quando si desidera aggregare i valori di tutte le righe nel raggruppamento della visualizzazione, è possibile aggiungere il codice seguente per aggiungere i valori aggregatore:
+
+`aggregator.valuefield=workRequired` (il `aggregator.valuefield` la riga deve essere uguale alla `valuefield` che descrive la colonna)
+
+`aggregator.valueformat=compound` (il `aggregator.valueformat` la riga deve avere lo stesso valore della `valueformat` che descrive la colonna)
+
+`aggregator.function=SUM` (questa è una riga obbligatoria che indica come aggregare la colonna; in questo caso, si desidera aggiungere tutte le singole ore pianificate in un unico numero nella riga di raggruppamento)
+
+`aggregator.displayformat=minutesAsHoursString` (poiché le ore sono memorizzate in Workfront in pochi minuti, è necessario indicare `displayformat` per le ore in cui sono conservati in minuti)

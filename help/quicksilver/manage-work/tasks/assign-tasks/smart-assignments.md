@@ -7,9 +7,9 @@ description: Quando gestisci le assegnazioni di attività e problemi, puoi utili
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,17 @@ Il calcolo delle assegnazioni intelligenti delle attività funziona in due fasi.
 
 #### Prima fase del calcolo dell&#39;assegnazione intelligente per le attività
 
-Nella prima fase di calcolo delle assegnazioni intelligenti, Workfront calcola un punteggio di somiglianza per ogni assegnazione. Il calcolo per il punteggio di somiglianza e l&#39;ordine in cui sono elencate le assegnazioni tiene conto di quanto segue:
+Nella prima fase di calcolo delle assegnazioni intelligenti, Workfront calcola un punteggio di somiglianza per ogni assegnazione.
+
+>[!NOTE]
+>
+>La prima fase del calcolo delle assegnazioni intelligenti non si applica alle seguenti aree di attività:
+>
+>* Assegnazioni in blocco nel Bilanciatore dei carichi di lavoro.
+>* Schede collegate sulle schede.
+
+
+Il calcolo per il punteggio di somiglianza e l&#39;ordine in cui sono elencate le assegnazioni tiene conto di quanto segue:
 
 * Viene assegnato un punteggio del 100% a un&#39;assegnazione esistente in cui i nomi di attività, progetto e portfolio sono identici all&#39;attività che si sta tentando di assegnare. I nomi di progetto e portfolio dell&#39;attività di un&#39;assegnazione esistente devono inoltre corrispondere al progetto e al portfolio dell&#39;attività che si sta tentando di assegnare.
 
@@ -115,7 +125,7 @@ Per ulteriori informazioni, consulta la sezione [Criteri di assegnazione intelli
 
 >[!NOTE]
 >
-><span class="preview">I criteri seguenti si applicano alle attività solo quando nella prima fase del calcolo dell&#39;assegnazione intelligente delle attività non sono state trovate corrispondenze. per informazioni, consulta la sezione [Prima fase del calcolo dell&#39;assegnazione intelligente per le attività](#first-phase-of-smart-assignment-calculation-for-tasks) in questo articolo. Per impostazione predefinita, i seguenti criteri sono sempre applicabili ai problemi. </span>
+><span class="preview">I criteri seguenti si applicano alle attività solo quando nella prima fase del calcolo dell&#39;assegnazione intelligente delle attività non sono state trovate corrispondenze. Per informazioni, consulta la sezione [Prima fase del calcolo dell&#39;assegnazione intelligente per le attività](#first-phase-of-smart-assignment-calculation-for-tasks) in questo articolo. Per impostazione predefinita, i seguenti criteri sono sempre applicabili ai problemi. </span>
 
 Gli utenti sono consigliati nell’elenco a discesa delle assegnazioni intelligenti in base a una combinazione dei seguenti criteri (elencati in ordine crescente e decrescente):
 

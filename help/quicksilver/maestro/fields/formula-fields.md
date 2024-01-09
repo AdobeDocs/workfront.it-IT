@@ -4,9 +4,9 @@ description: In Adobe Maestro, puoi creare campi formula che utilizzano funzioni
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
+source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -159,7 +159,7 @@ After permssions - replace the table with:
 
 ## Formule supportate
 
-Sono supportate tutte le formule dei campi calcolati di Workfront. Per ulteriori informazioni, consulta [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+I campi formula Maestro supportano tutte le espressioni dei campi calcolati di Workfront. Per ulteriori informazioni, consulta [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 Inoltre, sono supportate le seguenti espressioni per i campi formula Maestro:
 
@@ -179,7 +179,7 @@ Inoltre, sono supportate le seguenti espressioni per i campi formula Maestro:
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Restituisce una stringa concatenata per delimitatore.</p> <p>L’espressione viene formattata come segue:
 
-    ARRAYJOIN(delimitatore,matrice)
+<code>ARRAYJOIN(delimitatore,matrice)</code>
 </p>
    </td></tr>
 
@@ -187,7 +187,14 @@ Inoltre, sono supportate le seguenti espressioni per i campi formula Maestro:
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Restituisce una matrice con valori univoci.</p> <p>L’espressione viene formattata come segue:
 
-    ARRAYUNIQUE(array)
+<code>ARRAYUNIQUE(array)</code>
+</p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>Restituisce l'ID di un record.</p> <p>L’espressione viene formattata come segue:
+
+<code>{ID}</code>
 </p>
    </td></tr>
 
@@ -195,7 +202,7 @@ Inoltre, sono supportate le seguenti espressioni per i campi formula Maestro:
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Imposta il fuso orario di una data e un’ora su un fuso orario specifico.</p> <p>L’espressione viene formattata come segue:
 
-    SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)
+<code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
 </p>
    </td></tr>
 
@@ -203,9 +210,9 @@ Inoltre, sono supportate le seguenti espressioni per i campi formula Maestro:
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>Restituisce il numero della settimana in un anno. In alternativa, è possibile indicare il giorno in cui inizia la settimana (utilizzare 1 per la domenica o 2 per il lunedì). Se omesso, per impostazione predefinita le settimane iniziano di domenica.</p> <p>L’espressione viene formattata come segue:
 
-    WEEKOFYEAR(date,2)
-    o
-    WEEKOFYEAR(date)
+<code>WEEKOFYEAR(date,2)</code>
+o
+<code>WEEKOFYEAR(date)</code>
 </p>
    </td></tr>
 
