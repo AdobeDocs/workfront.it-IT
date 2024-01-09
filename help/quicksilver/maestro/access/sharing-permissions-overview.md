@@ -1,14 +1,14 @@
 ---
 title: Panoramica delle autorizzazioni di condivisione in Adobe Maestro
-description: Puoi condividere o rimuovere le autorizzazioni per un’area di lavoro Adobe Maestro creata.
+description: Puoi condividere o rimuovere le autorizzazioni per un’area di lavoro o una visualizzazione Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fda35538234593b66b01f9e0cc0dafd6a63a84dc
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 1%
+source-wordcount: '474'
+ht-degree: 8%
 
 ---
 
@@ -30,7 +30,15 @@ ht-degree: 1%
 >
 >Per informazioni, consulta [Panoramica di Adobe Maestro](../maestro-overview.md).
 
-Puoi condividere o rimuovere le autorizzazioni per un’area di lavoro Adobe Maestro creata.
+Puoi condividere o rimuovere le autorizzazioni per un’area di lavoro o una visualizzazione Adobe Maestro.
+
+Questo articolo descrive i livelli di autorizzazione per gli oggetti Maestro.
+
+Per informazioni su come condividere aree di lavoro o visualizzazioni, vedere i seguenti articoli:
+
+* [Condividere un’area di lavoro](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [Condividere una visualizzazione](/help/quicksilver/maestro/access/share-views.md)
 
 ## Oggetti che puoi condividere in Adobe Maestro
 
@@ -48,6 +56,8 @@ In Maestro puoi condividere i seguenti oggetti:
 
    * Nuovo modello di prezzo: Licenza standard
    * Modello di prezzo corrente: licenza Lavoro o superiore
+
+  Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * Gli amministratori di sistema possono gestire e condividere le aree di lavoro create da altri utenti.
 * Se non sei un amministratore di sistema, puoi contribuire alle aree di lavoro create da altri utenti se sono condivise con te.
 * Non è possibile condividere le aree di lavoro in blocco.
@@ -58,30 +68,89 @@ In Maestro puoi condividere i seguenti oggetti:
 
 ## Condivisione delle autorizzazioni per gli oggetti Maestro
 
-La tabella seguente illustra il livello di autorizzazioni che è possibile selezionare quando si condivide un&#39;area di lavoro o una visualizzazione Maestro:
+Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è possibile selezionare quando si condivide un&#39;area di lavoro o una visualizzazione Maestro e le funzionalità consentite da ogni livello.
 
+### Autorizzazioni di Workspace
+
+|        | Gestisci | Contribuisci | Viste |
+|--------|--------|------------|-------|
+| Modif | ✓ |            |       |
+| Condividi | ✓ |            |       |
+| Elimina | ✓ |            |       |
+| Visualizza | ✓ | ✓ | ✓ |
+
+### Autorizzazioni del tipo di record
+
+Le autorizzazioni del tipo di record vengono ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
+
+|        | Gestisci | Contribuisci | Visualizza |
+|--------|--------|------------|-------|
+| Crea | ✓ |            |       |
+| Elimina | ✓ |            |       |
+| Modifica | ✓ |            |       |
+| Visualizza | ✓ | ✓ | ✓ |
+
+### Autorizzazioni record
+
+Le autorizzazioni dei record vengono ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
+
+|        | Gestisci | Contribuisci | Visualizza |
+|--------|--------|------------|-------|
+| Crea | ✓ |            |       |
+| Elimina | ✓ | ✓ |       |
+| Modifica | ✓ | ✓ |       |
+| Visualizza | ✓ | ✓ | ✓ |
+
+### Autorizzazioni campo
+
+Le autorizzazioni per i campi vengono ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
+Le autorizzazioni seguenti fanno riferimento ai campi stessi e non ai valori associati a ciascun campo. Per modificare i valori dei campi è necessario disporre delle autorizzazioni per la modifica dei record.
+
+|        | Gestisci | Contribuisci | Visualizza |
+|--------|--------|------------|-------|
+| Crea | ✓ |            |       |
+| Elimina | ✓ |            |       |
+| Modifica | ✓ |            |       |
+| Visualizza | ✓ | ✓ | ✓ |
+
+
+### Visualizza autorizzazioni
+
+È necessario concedere autorizzazioni separate alle visualizzazioni record. La concessione delle autorizzazioni all&#39;area di lavoro non consente di concedere le autorizzazioni alle visualizzazioni record nell&#39;area di lavoro.
+
+|        | Gestisci | Viste |
+|--------|--------|-------|
+| Modif | ✓ |       |
+| Elimina | ✓ |       |
+| Visualizza | ✓ | ✓ |
+| Applica | ✓ | ✓ |
+
+
+
+
+<!--
 <table>
   <tr>
+   
 
-
-</td>
+   </td>
   </tr>
   <tr>
    <td>
    </td>
    <td>
    </td>
-   <td><p><b>Nuovo: Licenza standard</b></p> <p><b>Corrente: licenza lavoratore o superiore</b></p></strong>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
    </td>
-   <td><strong>Gestire le autorizzazioni</strong>
+   <td><strong>Manage permissions</strong>
    </td>
-   <td><strong>Autorizzazioni di Contribute</strong>
+   <td><strong>Contribute permissions</strong>
    </td>
-   <td><strong>Visualizza autorizzazioni</strong>
+   <td><strong>View permissions</strong>
    </td>
   </tr>
   <tr>
-   <td><strong>Crea</strong>
+   <td><strong>Create</strong>
    </td>
    <td rowspan="5" ><strong>Workspace</strong>
    </td>
@@ -95,7 +164,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Elimina</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -107,7 +176,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Condividi</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -119,7 +188,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Modifica</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -131,7 +200,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Visualizza</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -143,21 +212,9 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Crea/Elimina</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Tipo di record*</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Modifica</strong>
+   <td rowspan="3" ><strong>Record Type*</strong>
    </td>
    <td>✓
    </td>
@@ -169,7 +226,19 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Visualizza</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -181,7 +250,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Crea/Elimina</strong>
+   <td><strong>Create/delete</strong>
    </td>
    <td rowspan="3" ><strong>Record*</strong>
    </td>
@@ -195,7 +264,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Modifica</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -207,7 +276,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Visualizza</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -220,21 +289,9 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
   </tr>
   <tr>
    <tr>
-   <td><strong>Crea</strong>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="5" ><strong>Visualizza</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Elimina</strong>
+   <td rowspan="5" ><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -246,7 +303,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Condividi</strong>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
@@ -258,7 +315,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Modifica</strong>
+   <td><strong>Share</strong>
    </td>
    <td>✓
    </td>
@@ -270,7 +327,19 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Visualizza</strong>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -283,9 +352,9 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
   </tr>
 
 <tr>
-   <td><strong>Crea/Elimina</strong>
+   <td><strong>Create/delete</strong>
    </td>
-   <td rowspan="3" ><strong>Campi*</strong>
+   <td rowspan="3" ><strong>Fields*</strong>
    </td>
    <td>✓
    </td>
@@ -297,7 +366,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Modifica</strong>
+   <td><strong>Edit</strong>
    </td>
    <td>✓
    </td>
@@ -309,7 +378,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
    </td>
   </tr>
   <tr>
-   <td><strong>Visualizza</strong>
+   <td><strong>View</strong>
    </td>
    <td>✓
    </td>
@@ -325,11 +394,7 @@ La tabella seguente illustra il livello di autorizzazioni che è possibile selez
 
 </table>
 
-*I tipi di record, i record e i campi ereditano le autorizzazioni dall’area di lavoro.
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-Per informazioni generali sull’accesso a Maestro, consulta [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](../access/sharing-permissions-overview.md).
 
-Per informazioni sulla condivisione delle aree di lavoro, consulta [Condividere un’area di lavoro](/help/quicksilver/maestro/access/share-workspaces.md).
-
-Per informazioni sulla condivisione delle visualizzazioni, vedi [Condividere una visualizzazione](/help/quicksilver/maestro/access/share-views.md)
 

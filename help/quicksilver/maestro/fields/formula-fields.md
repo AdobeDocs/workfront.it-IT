@@ -4,9 +4,9 @@ description: In Adobe Maestro, puoi creare campi formula che utilizzano funzioni
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
@@ -154,8 +154,8 @@ After permssions - replace the table with:
 * I campi formula fanno riferimento a campi che appartengono allo stesso tipo di record. Non è possibile fare riferimento a campi di altri tipi di record durante la creazione di un campo formula. <!--is this still accurate??-->
 * Non è possibile modificare il tipo di campo Campo di un campo Formula dopo averlo salvato.
 * È possibile aggiornare il calcolo di un campo formula dopo averlo salvato e i risultati del calcolo vengono aggiornati automaticamente per tutti i record dello stesso tipo.
-* Non è possibile utilizzare campi di ricerca da tipi di record collegati.
 * È necessario aggiungere i campi a cui si fa riferimento nelle formule così come vengono visualizzati nell&#39;interfaccia Maestro.
+* L’utilizzo di campi di ricerca da tipi di record collegati in una formula sarà disponibile in un secondo momento.
 
 ## Formule supportate
 

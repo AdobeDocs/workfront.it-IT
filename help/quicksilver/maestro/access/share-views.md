@@ -4,9 +4,9 @@ description: Puoi condividere una visione con altri per garantire la collaborazi
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f92fe2fc35cb810c4d52535151a75fe6c3f22f0e
+source-git-commit: 3c49657c929c414888e6678022ef61b1bba1a420
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -83,14 +83,14 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
 
 >[!NOTE]
 >
->Gli amministratori di sistema non possono visualizzare o condividere viste che non hanno creato personalmente.
+>Gli amministratori di sistema non possono visualizzare o condividere viste che non hanno creato personalmente. Possono solo visualizzare o condividere le visualizzazioni condivise con loro.
 
 
-Per condividere un’area di lavoro con altri utenti:
+Per condividere una visualizzazione con altri utenti:
 
 {{step1-to-maestro}}
 
-1. Apri l’area di lavoro che desideri condividere, quindi fai clic su una scheda Tipo di record.
+1. Aprire l&#39;area di lavoro di cui si desidera condividere la visualizzazione, quindi fare clic su una scheda Tipo di record.
 
    Verrà aperta la pagina del tipo di record.
 
@@ -98,7 +98,7 @@ Per condividere un’area di lavoro con altri utenti:
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. In **Concedi l’accesso all’area di lavoro a** , inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell’elenco.
+1. In **Concedi l’accesso in visualizzazione a** , inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell’elenco.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -117,13 +117,13 @@ Per condividere un’area di lavoro con altri utenti:
 
 {{step1-to-maestro}}
 
-1. Apri l’area di lavoro che desideri condividere, quindi fai clic su una scheda Tipo di record.
+1. Aprire l&#39;area di lavoro di cui si desidera condividere la visualizzazione, quindi fare clic su una scheda Tipo di record.
 
    Verrà aperta la pagina del tipo di record.
 
 1. Dal menu a discesa della vista, passa il puntatore sulla vista da condividere e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
 
-1. Individuare l&#39;utente o il gruppo da rimuovere, quindi fare clic su **Rimuovi**.
+1. Individuare l&#39;utente o il gruppo da rimuovere, quindi fare clic su **Rimuovi** nel menu a discesa autorizzazioni a destra del nome dell’utente o del gruppo.
 
 1. Fai clic su **Salva**.
 
