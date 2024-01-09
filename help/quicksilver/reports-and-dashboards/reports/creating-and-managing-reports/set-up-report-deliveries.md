@@ -6,9 +6,9 @@ description: Panoramica sulla consegna dei rapporti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 0da724e975cfb1f0f7e36cffdc545c6223a14a76
+source-git-commit: 8d89bb511ac28905f5f0043cd0cda7d61611fad3
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Considera quanto segue:
 
 Quando si applica una visualizzazione speciale a un rapporto, la visualizzazione speciale viene visualizzata in nella scheda Dettagli del rapporto in Workfront.
 
-Quando pianifichi la consegna di un rapporto con una visualizzazione speciale, la scheda Dettagli predefinita viene consegnata nell’allegato dell’e-mail inviata, anziché nella visualizzazione speciale.
+Quando pianifichi la consegna di un rapporto con una visualizzazione speciale, la scheda Dettagli viene consegnata nell’allegato dell’e-mail inviata, anziché nella visualizzazione speciale.
 
 Di seguito sono riportate le viste speciali:
 
