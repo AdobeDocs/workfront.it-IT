@@ -4,9 +4,9 @@ description: Miglioramenti all’integrazione per il primo trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti all’integrazione apportati con la versione del primo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione del primo trimestre 2024.
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## La mappatura dei metadati in Experience Manager Assets Essentials ora utilizza `xcm:keywords` invece di `dc:subject`
+
+Abbiamo aggiornato l’integrazione di Experience Manager Assets Essentials per adattarla all’esperienza nell’integrazione di Experience Manager Assets as a Cloud Service. Ora, quando si mappano più campi di testo a riga singola a un singolo campo in Experience Manager Assets, entrambi i servizi utilizzano `xcm:keywords` campo.
+
+In precedenza, questi campi venivano mappati su `dc:subject` in Experience Manager Assets Essentials. La funzionalità as a Cloud Service di Experience Manager Assets è invariata.
+
+Qualsiasi metadati di Experience Manager Assets Essentials attualmente mappati su `dc:subject` deve essere rimappato a `xcm:keywords`.
+
+Per informazioni sulla mappatura dei metadati su Experience Manager Assets Essentials, consulta [Parola chiave AEM](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md#aem-keyword).
 
 ## I campi typeahead sono ora disponibili nell’integrazione di Adobe Experience Manager
 

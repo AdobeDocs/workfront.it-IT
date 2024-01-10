@@ -6,10 +6,10 @@ description: Collega il tuo lavoro con i contenuti in Experience Manager Assets 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 44dd48b72e798b8967c4a4e3dc7d523fe9b130d2
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 4%
+source-wordcount: '634'
+ht-degree: 0%
 
 ---
 
@@ -101,7 +101,7 @@ Devi avere i seguenti:
 
 ## Configurazione metadati (facoltativo)
 
-Mappa i dati oggetto Workfront ai campi degli elementi multimediali delle risorse in Experience Manager Assets. I metadati vengono mappati quando una risorsa viene trasmessa la prima volta da Workfront.
+Mappa i dati oggetto Workfront ai campi degli elementi multimediali delle risorse in Experience Manager Assets. I metadati vengono mappati quando una risorsa viene inviata da Workfront per la prima volta.
 
 
 ### Prerequisiti
@@ -111,15 +111,15 @@ Prima di iniziare, è necessario
 * Configurare uno schema di metadati in Experience Manager Assets Essentials come descritto in [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 * (Facoltativo) Configura i campi modulo personalizzati in Workfront. Workfront dispone di molti campi personalizzati incorporati che è possibile utilizzare. Tuttavia, puoi anche creare campi personalizzati. Per ulteriori informazioni, consulta [Creare o modificare un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-+++ **Campi Workfront e Experience Manager Assets supportati**
+## Campi Workfront e Experience Manager Assets supportati
 
 **Parola chiave AEM**
 
 È possibile mappare qualsiasi campo supportato da Workfront a una parola chiave in Experience Manager Assets Essentials.
 
-Per collegare un campo a una parola chiave, seleziona `dc:subject` nel menu a discesa del campo Experience Manager Assets nell’area di mappatura dei metadati.
+Per collegare un campo a una parola chiave, seleziona `xcm:keywords` nel menu a discesa del campo Experience Manager Assets nell’area di mappatura dei metadati.
 
-Per mappare più campi di testo a riga singola alle parole chiave, immettere un elenco separato da virgole dei valori delle parole chiave nel lato Workfront della mappatura dei metadati e `dc:subject` sul lato Experience Manager Assets. Ogni valore di campo viene mappato su una parola chiave separata. È possibile utilizzare un campo calcolato per combinare più campi Workfront in un unico campo di testo separato da virgole.
+Per mappare più campi di testo a riga singola alle parole chiave, immettere un elenco separato da virgole dei valori delle parole chiave nel lato Workfront della mappatura dei metadati e `xcm:keywords` sul lato Experience Manager Assets. Ogni valore di campo viene mappato su una parola chiave separata. È possibile utilizzare un campo calcolato per combinare più campi Workfront in un unico campo di testo separato da virgole.
 
 <!--
 Look for essentials article
@@ -139,7 +139,7 @@ I metadati vengono mappati quando una risorsa viene inviata da Workfront per la 
    >È possibile mappare un singolo campo Workfront a più campi Experience Manager Assets. Non puoi mappare più campi Workfront a un singolo campo Experience Manager Assets.
 1. In **Experience Manager** scegliere un campo Experience Manager Assets.
 
-   Per mappare un campo Workfront a un tag Experience Manager Assets, seleziona `dc:subject`.
+   Per mappare un campo Workfront a un tag Experience Manager Assets, seleziona `xcm:keywords`.
 1. Ripetere i passaggi 1 e 2 in base alle esigenze.
    ![abilita metadati](assets/metadata-assets-essentials.png)
 1. Clic **Salva** o passare al [Configurare le cartelle collegate (facoltativo)](#set-up-linked-folders-optional) in questo articolo.
