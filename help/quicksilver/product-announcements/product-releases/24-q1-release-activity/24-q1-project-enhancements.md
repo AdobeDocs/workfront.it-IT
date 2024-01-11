@@ -3,9 +3,9 @@ title: Miglioramenti al progetto per il primo trimestre 2024
 description: Miglioramenti al progetto nel primo trimestre 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ Questa pagina descrive tutti i miglioramenti apportati all’ambiente di antepri
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del primo trimestre 2024, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 ## Assegnazioni intelligenti basate sull’intelligenza artificiale
+
+>[!NOTE]
+>
+>Produzione per rilascio rapido: con la versione 24.1; produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
 
 È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.
 
