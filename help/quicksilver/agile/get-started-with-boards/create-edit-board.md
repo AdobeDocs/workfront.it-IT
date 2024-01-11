@@ -6,9 +6,9 @@ description: Dalla sezione [!UICONTROL schede madri] dashboard, puoi creare una 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 38715b9571206fd3621b5c078c3eebe380297e9b
+source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '742'
 ht-degree: 1%
 
 ---
@@ -28,24 +28,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
     <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
    <td> <p>Nuovo: Collaboratore o versione successiva </p>
  <p>oppure</p> 
 <p>Corrente: [!UICONTROL Request] o versione successiva </p> 
 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Crea una nuova bacheca
 
@@ -64,6 +60,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Solo per una scheda dinamica, segui i passaggi della procedura guidata di configurazione:
 
+   1. Digita un nome per la bacheca e fai clic su [!UICONTROL **Successivo**].
    1. Cerca e seleziona [!DNL Workfront] [!UICONTROL **Progetti**] per inserire attività e problemi nella bacheca.
    1. Cerca e seleziona [!UICONTROL **Assegnazioni**] per inserire attività e problemi nella bacheca.
 
@@ -71,13 +68,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
       Il [!UICONTROL **Schede aggiunte**] Il contatore mostra il numero di schede che saranno presenti sulla bacheca. Ad esempio, se selezioni un progetto con 100 attività e problemi, il contatore mostra 100. Se aggiungi un’assegnazione utente e tale persona è assegnata a 5 attività sul progetto, il contatore mostra 5.
 
-   1. (Facoltativo) Seleziona [!UICONTROL **Includi lavoro completato come schede archiviate**] per inserire attività e problemi completati nella bacheca come schede archiviate.
+   1. (Facoltativo) Seleziona [!UICONTROL **Non archiviare le schede completate**] per inserire le attività e i problemi completati nella bacheca come schede visibili nella colonna Completati. Se questa opzione non è selezionata, le schede completate al momento della creazione della bacheca vengono inserite nella bacheca come schede archiviate.
 
       >[!NOTE]
       >
       >Per impostazione predefinita, le schede archiviate non vengono visualizzate sulla bacheca. Per visualizzare le schede archiviate, devi attivare un’impostazione di configurazione e filtrare la bacheca per visualizzarle. Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) e [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
-      >
-      >Se questa opzione non è selezionata, le schede completate al momento della creazione della bacheca non vengono visualizzate sulla bacheca. Le schede in seguito contrassegnate come complete rimangono sulla bacheca nella colonna Complete (Completato) e non vengono archiviate a meno che non si configuri il decadimento della scheda. Per ulteriori informazioni, consulta [Configurare la perdita di dati della scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Facoltativo) Fai clic su [!UICONTROL **Utilizzare filtri avanzati**] per visualizzare opzioni di filtro aggiuntive.
 
