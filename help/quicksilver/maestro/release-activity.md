@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 4e3449e7c31d29e1a289a7866ba98f873e62922c
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '3413'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,9 @@ Questo articolo elenca le funzionalità rilasciate dopo il lancio del programma 
 
 Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle più recenti. I clienti che partecipano al programma Maestro Closed beta possono accedere a tutte le funzioni nei loro ambienti di produzione.
 
-<!--
 >[!IMPORTANT]
 >
->Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have  temporarily been removed from the Preview and Sandbox environment since January 2024. All features released after this date are currently available in Production. 
--->
+>Tra maggio 2023 e dicembre 2023, tutte le funzioni di questo articolo sono state rilasciate sia nell’ambiente di anteprima che in quello di produzione. Le funzionalità Maestro sono state temporaneamente rimosse dagli ambienti di anteprima e sandbox da gennaio 2024. Tutte le funzioni rilasciate dopo questa data sono attualmente disponibili in Produzione.
 
 Questo articolo elenca le funzioni e le patch rilasciate dopo il lancio del programma beta chiuso Maestro, il 22 maggio 2023.
 
@@ -42,83 +40,80 @@ Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rila
 >
 >La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
 
-<!--## Week of January 15, 2024
+## Settimana del 15 gennaio 2024
 
-### Maestro capabilities are removed from the Preview and Sandbox environments 
+### Le funzionalità Maestro vengono rimosse dagli ambienti di anteprima e sandbox
 
-Preview and sandbox: <***Date here****> 
+Anteprima e sandbox: 11 gennaio 2024
 
-The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
+L’area Maestro e tutte le funzionalità Maestro sono state temporaneamente rimosse dagli ambienti Anteprima e Sandbox. Maestro verrà aggiunto a questi ambienti in una data successiva, che comunicheremo nelle note sull’attività di rilascio.
 
-(************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
+### Autorizzazioni Maestro per aree di lavoro e viste
 
-### Maestro permissions for workspaces and views
+Produzione: 11 gennaio 2024
 
-Production: <****date here****>
+Anteprima: da determinare
 
-Preview: To be determined
+Ora puoi condividere un’area di lavoro o una vista con utenti e gruppi. È possibile impostare le relative autorizzazioni su livelli diversi, a seconda delle informazioni da visualizzare o modificare.
 
-You can now share a workspace or a view with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit. 
+Quando si condivide un&#39;area di lavoro, gli utenti dispongono delle autorizzazioni per i tipi di record, i record e i campi in tale spazio.
 
-When you share a workspace, users have permissions to the record types, records, and fields in that space.
+Quando si condivide un&#39;area di lavoro, gli utenti non ricevono autorizzazioni di condivisione per le visualizzazioni associate ai tipi di record dell&#39;area di lavoro. È necessario concedere autorizzazioni separate alle visualizzazioni.
 
-When you share a workspace, users don't receive sharing permissions on the views associated with the record types of the workspace. You must grant separate permissions to views. 
+Di seguito sono riportati i livelli di autorizzazione per le aree di lavoro Maestro:
 
-The following are the permissions levels for Maestro workspaces:  
+* Visualizzazione: gli utenti possono visualizzare le aree di lavoro condivise con loro. Possono inoltre visualizzare i tipi di record e i record dall&#39;area di lavoro condivisa.
 
-* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+* Contribute: gli utenti possono creare, modificare o eliminare record nell&#39;area di lavoro condivisa con loro.  Non possono creare o modificare tipi di record o aree di lavoro condivisi con loro.
 
-* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces that are shared with them.  
+* Gestione: gli utenti possono creare, modificare ed eliminare aree di lavoro, tipi di record, record e campi nelle aree di lavoro condivise.
 
-* Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
+Di seguito sono riportati i livelli di autorizzazione per le visualizzazioni record:
 
-The following are the permissions levels for record type views:
+* Visualizza: gli utenti possono selezionare la visualizzazione dal menu a discesa Visualizza di una pagina del tipo di record.
+* Gestisci: gli utenti possono modificare, condividere ed eliminare la visualizzazione.
 
-* View: Users can select the view from the View drop-down menu of a record type.
-* Manage: Users can edit, share, and delete the view. 
+Per ulteriori informazioni, consulta [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md) e [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+### Nuovo tipo di campo Formula
 
-### New Formula field type (title) 
+Produzione: 11 gennaio 2024
 
-Production: <*******date**********> 
+Anteprima: da determinare
 
-Preview: To be determined 
+È ora possibile aggiungere un campo di tipo Formula a un tipo di record.
 
-You can now add a Formula type field to a record type.  
+I campi formula generano un nuovo valore utilizzando i valori esistenti di altri campi di un tipo di record e una funzione che indica come devono essere calcolati i valori esistenti.
 
-Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
+Non è possibile utilizzare campi di ricerca da tipi di record collegati in un calcolo di formula. Questa funzionalità sarà disponibile in un secondo momento.
 
-You cannot use lookup fields from linked record types in a formula calculation.  
+Per informazioni, consulta [Panoramica sui campi formula](/help/quicksilver/maestro/fields/formula-fields.md).
 
-For information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).  
+### Azioni Annulla/Ripristina durante la gestione dei record nella vista a tabella
 
-### Undo/ Redo actions when managing records in the table view
+Produzione: 11 gennaio 2024
 
-Production: <****Date******>
-Preview: To be determined
+Anteprima: da determinare
 
-You can now undo or redo your changes when performing the following actions in the table view:  
+È ora possibile annullare o ripristinare le modifiche apportate durante l&#39;esecuzione delle azioni seguenti nella vista a tabella:
 
-* Copy/ paste data 
-* Edit record 
-* Add record 
-* Delete record 
+* Copiare/incollare dati
+* Modifica record
+* Aggiungi record
+* Elimina record
 
-You can use the following keystrokes to undo or redo actions: 
+Per annullare o ripristinare le azioni, potete utilizzare le seguenti sequenze di tasti:
 
-* Undo: CTRL + Z 
-* Redo: CTRL + Shift+Z 
+* Annulla: CTRL/COMANDO + Z
+* Ripeti: CTRL/ COMANDO + MAIUSC+Z
 
-For more information, see the following articles:  
+Per ulteriori informazioni, consulta i seguenti articoli:
 
-* Edit records (/help/quicksilver/maestro/records/edit-records.md) 
+* [Modifica record](/help/quicksilver/maestro/records/edit-records.md)
 
-* Delete  records (/help/quicksilver/maestro/records/delete-records.md) 
+* [Elimina record](/help/quicksilver/maestro/records/delete-records.md)
 
-* Create records (/help/quicksilver/maestro/records/create-records.md) 
-
--->
+* [Crea record](/help/quicksilver/maestro/records/create-records.md)
 
 ## Settimana del 25 dicembre 2023
 

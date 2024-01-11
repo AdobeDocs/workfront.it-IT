@@ -4,22 +4,26 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Puoi creare o modificare un nuovo modulo personalizzato.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
 
 # Creare o modificare un modulo personalizzato con il generatore di moduli legacy
 
+<!--Audited: 01/2024-->
+
 Puoi creare o modificare un nuovo modulo personalizzato. Entrambe le attività sono illustrate in questo articolo.
 
 Per informazioni sulla creazione di un nuovo modulo personalizzato da un modulo esistente, vedi [Copiare un modulo personalizzato per crearne uno nuovo con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+
+Questo articolo descrive come creare un modulo personalizzato utilizzando il Generatore di moduli legacy. Per informazioni sulla creazione di un modulo personalizzato tramite Progettazione moduli, vedere [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Requisiti di accesso
 
@@ -35,7 +39,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+   <td><p>Nuovo: Standard</p>
+   <p>Corrente: Piano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
@@ -44,15 +49,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Inizia a creare un modulo personalizzato
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Forms personalizzato** nel pannello a sinistra.
 
-   Nella visualizzazione visualizzata è possibile esaminare tutti i moduli personalizzati e i campi personalizzati creati per l&#39;organizzazione. È inoltre possibile vedere chi ha creato ogni modulo e i campi associati.
+   I moduli personalizzati vengono visualizzati in un elenco. Puoi rivedere tutti i moduli personalizzati e i campi personalizzati creati per la tua organizzazione. È inoltre possibile vedere chi ha creato ogni modulo, gli oggetti associati e se è attivo.
 
 1. Clic **Nuovo modulo personalizzato.**
 1. Seleziona almeno un tipo di oggetto da associare al modulo personalizzato, quindi fai clic su **Continua**.
@@ -61,13 +67,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Il giorno **Impostazioni modulo** scheda visualizzata, digita un **Titolo modulo** e un&#39;opzione **Descrizione** per il modulo personalizzato.
 
-1. (Facoltativo) Se si desidera aggiungere altri tipi di oggetto al modulo in modo che possa essere associato a più oggetti, fare clic sul segno più dopo Tipi di oggetto, quindi selezionare il tipo di oggetto desiderato nel menu visualizzato.
+1. (Facoltativo) Se si desidera aggiungere altri tipi di oggetto al modulo in modo che possa essere allegato a più oggetti, fare clic sul pulsante **più** firma dopo **Tipi di oggetto**, quindi selezionare il tipo di oggetto desiderato nel menu visualizzato.
 
-   È possibile ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.È inoltre possibile fare clic sulla X di un tipo di oggetto per eliminarlo dal modulo.
+   È possibile ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
+
+1. (Facoltativo) Fai clic su **X** su un tipo di oggetto per eliminarlo dal modulo.
 
    Per informazioni sull&#39;eliminazione dei tipi di oggetto da un modulo personalizzato già salvato, vedere [Eliminare tipi di oggetto in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
-1. Clic **Fine**.
+1. Clic **Fine** nell&#39;angolo inferiore sinistro dello schermo.
 
    >[!TIP]
    >
@@ -96,11 +104,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 >
 >In generale, si consiglia di ridurre al minimo il numero di volte in cui si modifica un modulo personalizzato già in uso. Non esiste un sistema di notifica per avvisare gli utenti che utilizzano il modulo personalizzato delle modifiche.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Forms personalizzato** nel pannello a sinistra.
 
-   Nella visualizzazione visualizzata è possibile esaminare tutti i moduli personalizzati creati per l&#39;organizzazione. È inoltre possibile vedere chi ha creato ogni modulo, con quale tipo di oggetto funziona e se è attivo.
+   I moduli personalizzati vengono visualizzati in un elenco. Puoi rivedere tutti i moduli personalizzati e i campi personalizzati creati per la tua organizzazione. È inoltre possibile vedere chi ha creato ogni modulo, gli oggetti associati e se è attivo.
 
 1. Seleziona il modulo personalizzato da modificare, quindi fai clic su **Modifica**.
 1. (Facoltativo) Per modificare il titolo e la descrizione del modulo personalizzato, fai clic sul pulsante **Impostazioni modulo** , quindi digita un **Titolo modulo** e **Descrizione**.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '1903'
 ht-degree: 1%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 1%
 # Panoramica di Adobe Maestro
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -82,8 +78,8 @@ La tabella seguente illustra le principali funzioni che saranno disponibili in M
 | Collegare i record Maestro alle risorse Adobe Experience Manager | ✓ |                                  |                 |
 | Pagina Dettagli record | ✓ |                                  |                  |
 | Aggiornare il layout della pagina Dettagli record |                               | ✓ |                  |
-| Condividere le aree di lavoro | | ✓ |  |
-| Condividere le visualizzazioni | | ✓ |  |
+| Condividere le aree di lavoro | ✓ | |  |
+| Condividere le visualizzazioni | ✓ | |  |
 | Inviare richieste |                               |                                  | ✓ |
 | Descrizione creativa |                               |                                  | ✓ |
 | Personalizzare il colore e l&#39;icona di un record | ✓ |                                  |                 |
@@ -92,15 +88,11 @@ La tabella seguente illustra le principali funzioni che saranno disponibili in M
 | Moduli Maestro per Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copiare e incollare informazioni da un campo all&#39;altro | ✓ |                                  |                 |
 
-## Accesso necessario per utilizzare Maestro durante il programma beta chiuso
+## Abilita Maestro per gli utenti nella tua istanza Workfront
 
->[!IMPORTANT]
->
->Attualmente, non ci sono livelli di accesso o autorizzazioni associati agli utenti o alle informazioni in Maestro. Tutti gli utenti possono visualizzare, modificare ed eliminare tutte le informazioni che qualsiasi altro utente aggiunge a Maestro.
+La tua organizzazione deve iscriversi al programma beta chiuso Adobe Maestro prima di poter accedere a Maestro. Per informazioni sull’iscrizione al programma beta, contatta il rappresentante del tuo account.
 
-Per ulteriori informazioni sull’accesso necessario per utilizzare Maestro, consulta [Panoramica dell’accesso Adobe Maestro](../maestro/access/access-overview.md).
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+Per ulteriori informazioni su come concedere l’accesso a e consentire ad altri di utilizzare Maestro, consulta [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Terminologia Maestro
 
@@ -185,7 +177,7 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
 
    * I campi Maestro sono completamente personalizzabili e sono accessibili solo in Maestro. Non puoi accedere ai campi Maestro da Workfront.
 
-  Per ulteriori informazioni, consulta [Crea campi](../maestro/fields/create-fields.md)
+  Per ulteriori informazioni, consulta [Crea campi](../maestro/fields/create-fields.md).
 
   Per impostazione predefinita, un nuovo tipo di record operativo è associato ai seguenti campi predefiniti:
 
@@ -208,6 +200,7 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
    * Percentuale
    * Valuta
    * Casella di controllo
+   * Formula
    * Persone
    * Creato da
    * Data di creazione
@@ -272,12 +265,6 @@ La tabella seguente mostra i limiti per il numero di oggetti che è possibile cr
 | Dimensione del file che è possibile importare tramite l’API per una tabella del tipo di record | 1,5 MB |
 | Frequenza con cui è possibile effettuare richieste API | 200 richieste al minuto |
 | Dimensione del file CSV di Excel che puoi importare in una tabella | 5 MB |
-
-## Abilita Maestro per gli utenti nella tua istanza Workfront
-
-La tua organizzazione deve iscriversi al programma beta chiuso Adobe Maestro prima di poter accedere a Maestro. Per informazioni sull’iscrizione al programma beta, contatta il rappresentante del tuo account.
-
-Per ulteriori informazioni su come concedere l’accesso a e consentire ad altri di utilizzare Maestro, consulta [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md).
 
 ## Individua Maestro
 

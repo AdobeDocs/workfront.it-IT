@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 50e6b09d626325ee2836dc0ebaf79fc1e8cc9da9
+source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -29,11 +29,8 @@ In qualità di amministratore di Workfront, devi dare accesso ai tuoi utenti per
 I seguenti articoli contengono informazioni sull’accesso necessario per utilizzare Maestro:
 
 * [Panoramica degli accessi](../access/access-overview.md)
+* [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
+* [Condividere un’area di lavoro](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Condividere una visualizzazione](/help/quicksilver/maestro/access/share-views.md)
 
-<!--make the following live with permissions release: 
 
-* [Overview of sharing permissions in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
-* [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md)
-* [Share a view](/help/quicksilver/maestro/access/share-views.md)
-
--->

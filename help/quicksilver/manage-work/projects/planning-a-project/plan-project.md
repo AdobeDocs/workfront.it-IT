@@ -7,17 +7,19 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
 
 # Pianificare una panoramica del progetto
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 Un progetto è un elemento di lavoro di grandi dimensioni in Adobe Workfront. È possibile suddividere un progetto in attività che sono elementi di lavoro più piccoli, ad esempio attività. Le attività possono essere assegnate a utenti o team che possono essere responsabili del loro completamento. Quando tutti gli utenti completano le loro attività, anche il progetto diventa completo.
@@ -58,7 +60,7 @@ Quando pianifichi un progetto, una delle prime cose da determinare è la timelin
 
 ### Definire la pianificazione del progetto {#define-the-project-schedule}
 
-È necessario determinare una pianificazione e associarla al progetto, nonché agli utenti responsabili del completamento delle attività del progetto.
+È necessario determinare una pianificazione e associarla al progetto e agli utenti responsabili del completamento delle attività del progetto.
 
 Valuta di definire quanto segue in una pianificazione:
 

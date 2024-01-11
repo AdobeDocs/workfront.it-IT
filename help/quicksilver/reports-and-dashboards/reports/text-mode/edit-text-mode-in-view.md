@@ -6,17 +6,19 @@ description: "NOTA: aggiungi una sezione in questo articolo: /Content/Reports an
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 0%
+source-wordcount: '466'
+ht-degree: 1%
 
 ---
 
 # Modificare una vista utilizzando la modalità testo
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
+<add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
 -->
 
 È possibile modificare una visualizzazione in un elenco o in un report utilizzando la modalità testo per accedere a campi non disponibili nell&#39;interfaccia standard e creare visualizzazioni più complesse.
@@ -35,20 +37,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Nuovo: Standard </p>
+   <p>Corrente: Piano </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard e Calendari per modificare gli elementi di reporting in un rapporto</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Modificare l’accesso a Rapporti, Dashboard e Calendari per modificare gli elementi di reporting in un rapporto</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un report per modificare le visualizzazioni in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un report per modificare le visualizzazioni in un report</p> <p>Gestire le autorizzazioni per una visualizzazione per modificarla</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
@@ -114,84 +118,86 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto pe
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><strong>valuefield</strong>=</p> </td> 
-      <td> <p>Nome dell'oggetto o del campo visualizzato nel database. Per ulteriori informazioni sull'aspetto degli oggetti e dei campi nel database, vedere <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>Esistono i seguenti scenari:</p> 
-       <ol> 
-        <li value="1"> <p> Se il nome del campo visualizzato è una frase invece di un singolo sostantivo, è necessario utilizzare la sintassi Camel Case per <code>valuefield</code>. Ad esempio, per la Data inizio pianificata di un'attività il codice è: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
-        <li value="2"> <p>Se si desidera visualizzare un campo personalizzato, <code>valuefield</code> value è il nome effettivo del campo, come visualizzato nell’interfaccia. Ad esempio, per un campo personalizzato denominato "Ulteriori informazioni", il codice è:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Se si desidera visualizzare oggetti correlati ad altri oggetti in una vista utilizzando <code>valuefield</code> riga di codice i nomi e gli attributi degli oggetti sono separati da due punti. </p> <p>Una colonna in una visualizzazione delle attività in cui viene visualizzato il nome del proprietario del Portfolio, ad esempio, ha il seguente valore per la riga del campo valore:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>valuefield=project:portfolio:owner:name</code> </p> <p>Indica che dall'oggetto del report (attività) è possibile accedere all'oggetto correlato successivo (progetto), da cui è possibile accedere al seguente oggetto correlato dal progetto (portfolio), quindi dal proprietario del portfolio e infine dal nome (nome). </p> </li> 
-       </ol> <p>Per informazioni sulla connessione tra gli oggetti, vedere la sezione <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdipendenza e gerarchia degli oggetti</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Comprendere gli oggetti in Adobe Workfront</a>.</p> <p>Nota: se si sceglie un campo in modalità testo non valido nell'interfaccia standard, non è possibile tornare all'interfaccia standard all'interno della colonna.</p> </td> 
+      <td> <p><ol><tr><tr><ol><tr><tr><tr><tr><tr><tr><tr><tr><tr><tr><div class="example" data-mc-autonum="<b>Example: </b>"><code><strong>valuefield</strong>=</cod></p> </td> 
+      <td> <p>This is the name of the object or of the field as it appears in the database. For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>The following scenarios exist:</p> 
+        
+        <li value="1"> <p> If the name of the field you display is a phrase instead of a single noun, you must use camel case syntax for the <code>valuefield</code>. For example, for the Planned Start Date of a task the code is: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=plannedStartDate</code> </p> </li> 
+        <li value="2"> <p>If you want to display a custom field, the <code>valuefield</code> value is the actual name of the field, as you see it in the interface. For example, for a custom field named "More information", the code is:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=More information</code> </p> </li> 
+        <li value="3"> <p>If you want to display objects that are related to other objects in a view using the <code>valuefield</code> line of code the object names and attributes are separated by colons. </p> <p>For example, a column in a task view that would display the name of the Portfolio Owner has the following value for the valuefield line:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valuefield=project:portfolio:owner:name</code> </p> <p>This indicates that from the object of the report (task), you can access the next related object (project), from there, you can access the following related object from project (portfolio), then the portfolio owner (owner) and then their name (name). </p> </li> 
+       </ol> <p>For information about how objects connect to one another, see the section <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependency and hierarchy of objects</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> <p>Note: If you choose a field in text mode that is not valid in the standard interface, you are not able to switch back to the standard interface within the column.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>valueformat=</strong> </td> 
-      <td> <p>Questa riga rappresenta il formato utilizzato per visualizzare <code>valuefield</code>. Il <code>valueformat</code> identifica se un oggetto o un campo viene visualizzato come testo, numero, percentuale o data.</p> <p>È consigliabile utilizzare <code>HTML</code> per <code>valueformat</code>, soprattutto quando si utilizza <code>valueexpression</code>, per garantire la visualizzazione più accurata delle informazioni. </p> <p>Per informazioni sui valori aggiuntivi per questa riga, consulta <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Utilizzare la formattazione condizionale in modalità testo</a>.</p> </td> 
+      
+      <td><code><strong>valueformat=</strong></code> </td> 
+      <td> <p>This line represents the format used to display the <code>valuefield</code>. The <code>valueformat</code> identifies whether an object or field displays as text, number, percentage, or date.</p> <p>We recommend using <code>HTML</code> for your <code>valueformat</code>, especially when using <code>valueexpression</code>, to ensure the most accurate display of your information. </p> <p>For information about additional values for this line, see <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Use conditional formatting in Text Mode</a>.</p> </td> 
      </tr> 
-     <tr> 
-      <td> <p><strong>valueexpression=</strong> </p> </td> 
-      <td> <p>Puoi aggiungere questa riga per sostituire <code>valuefield</code>, se si desidera visualizzare un campo calcolato nella colonna.</p> <p>È necessario racchiudere <code>valuefield</code> degli oggetti tra parentesi graffe ogni volta che lo si utilizza in un <code>valueexpression</code>.</p> <p>Esistono i seguenti scenari: </p> 
-       <ol> 
-        <li value="1"> <p>Se desideri visualizzare un campo in una colonna in maiuscolo, puoi utilizzare:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>valueexpression=UPPER({valuefield})</code> </p> <p>Il <code>valuefield</code> dell’oggetto viene digitato nel modo in cui viene visualizzato in API Explorer. </p> </li> 
-        <li value="2">Se desideri aggiungere più <code>valuefields</code> unendoli, è necessario separarli con un punto.</li> 
-        <li value="3"> <p>Ad esempio, se si desidera visualizzare il nome dell'assegnatario principale di un'attività utilizzando <code>valueexpression</code>, puoi utilizzare:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
-        <li value="4"> <p>Se desideri utilizzare un campo personalizzato in un <code>valueexpression</code> riga che deve precedere il nome del campo <code>DE:</code> per indicare che è un campo personalizzato. Il nome del campo viene digitato nel modo in cui viene visualizzato nell’interfaccia. </p> <p>Importante: quando si utilizza un campo personalizzato inserito in una sezione di un modulo personalizzato con autorizzazioni limitate per alcuni utenti, il calcolo dell'espressione di valore è vuoto quando tali utenti visualizzano questo calcolo in un report. Per informazioni sulla modifica delle autorizzazioni per le sezioni dei moduli personalizzati, consulta <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a></span>.</p> <p>Ad esempio, se disponi di un campo personalizzato denominato "Nome sviluppatore" e desideri visualizzarlo in maiuscolo in una colonna, puoi utilizzare quanto segue <code>valueexpression</code> per indicare quanto segue:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>Quando si fa riferimento a un campo personalizzato di tipo Typeahead, utilizzare l'espressione seguente per fare riferimento al nome dell'oggetto selezionato in un campo con etichetta "Nome sviluppatore":</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
+      
+      <td> <p><code><strong>valueexpression=</strong></code> </p> </td> 
+      <td> <p>You can add this line to replace <code>valuefield</code>, if you want to display a calculated field in the column.</p> <p>You must enclose the <code>valuefield</code> of the objects in curly brackets every time you use it in a <code>valueexpression</code>.</p> <p>The following scenarios exist: </p> 
+        
+        <li value="1"> <p>If you want to display a field in a column in upper case, you would use:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valueexpression=UPPER({valuefield})</code> </p> <p>The <code>valuefield</code> of the object is spelled as it appears in the API Explorer. </p> </li> 
+        <li value="2">If you want to add multiple <code>valuefields</code> by stringing them together, you must separate them by a period.</li> 
+        <li value="3"> <p>For example, if you want to display the name of the Primary Assignee of a task using <code>valueexpression</code>, you would use:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valueexpreesion={assignedTo}.{name}</code> </p> </li> 
+        <li value="4"> <p>If you want to use a custom field in a <code>valueexpression</code> line you must precede the name of the field by <code>DE:</code> to indicate that it is a custom field. The name of the field is spelled as it appears in the interface. </p> <p>Important: When you use a custom field that is placed in a custom form section that has restricted permissions for some users, the calculation of the valueexpression is blank when those users view this calculation in a report. For information about adjusting permissions on custom form sections, see <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a></span>.</p> <p>For example, if you have a custom field labeled "Developer Name" and you want to display this field in upper case in a column, you can use the following <code>valueexpression</code> to indicate this:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>valueexpression=UPPER({DE:Developer Name}</code>) </p> <p>When referencing a Typeahead type custom field, use the following expression to reference the name of the object selected in a field labeled "Developer Name":</p> <p><code>valueexpression=UPPER({DE:Developer Name:name})</code> </p> </li> 
        </ol> </td> 
      </tr> 
-     <tr> 
-      <td> <p><strong>descriptionkey= / description=</strong> </p> </td> 
-      <td> <p>Questa riga definisce il testo di una descrizione quando si passa il mouse sul nome della colonna. In questo caso, utilizza una chiave per tradurre il valore del nome nel testo della descrizione. Se si desidera modificare la descrizione, modificare questa riga in: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>description=Your Value</code>.</p> </td> 
+      
+      <td> <p><code><strong>descriptionkey=</strong></code> / <code><strong>description=</strong></code> </p> </td> 
+      <td> <p>This line defines the text of a tool tip as you mouse over the name of the column. In this case it is using a key to translate the name value in the description text. If you want to modify the description, change this line to read: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>description=Your Value</code>.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>namekey= / name=</strong> </td> 
-      <td> <p>Questa riga definisce l’etichetta della colonna. In questo caso utilizza il valore abbreviato basato sulla chiave.</p> <p>Se desideri modificare il nome della colonna, puoi modificare questo valore in: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> consente di immettere qualsiasi testo per il nome della colonna, mentre<code>namekey</code> richiede di immettere una chiave utilizzata per tradurre il nome di una colonna.</p> <p>Per modificare il nome della colonna puoi anche aggiungere <code>displayname </code>riga, se non presente.</p> </td> 
+      
+      <td><code><strong>namekey=</code> / <code><strong>name=</strong></code> </td> 
+      <td> <p>This line defines the column label. In this case it is using the abbreviated value based on the key.</p> <p>If you want to modify the column name you can change this value to: </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>name=Your Value</code> </p> <p><code>Name</code> allows you to enter any text for the column name, while<code>namekey</code> requires you enter a key that is used to translate the name of a column.</p> <p>To change the column name you can also add the <code>displayname </code>line, if one is not present.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>displayname =</strong> </td> 
-      <td> <p>È possibile aggiungere la riga seguente per modificare il nome di una colonna, che sospende <code>namekey/name</code> valore:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Esempio: </b></span></span><code>displayname=Your Value</code> </p> </td> 
+      
+      <td><code><strong>displayname =</strong></code> </td> 
+      <td> <p>You can add the following line to change the name of a column, which suspends the <code>namekey/name</code> value:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>displayname=Your Value</code> </p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>querysort</strong> </td> 
-      <td>Questa riga definisce l’ordinamento dei risultati quando si fa clic sull’intestazione della colonna. Se non è presente, la colonna non può essere ordinata dopo l’esecuzione del rapporto.</td> 
+      
+      <td><code><strong>querysort=</strong> </code></td> 
+      <td>This line defines how the results are sorted when the column header is clicked. If it is not present then the column cannot be sorted after the report is run.</td> 
      </tr> 
-     <tr> 
-      <td><strong>width= larghezza</strong> </td> 
-      <td> <p>Questa riga rappresenta il numero di pixel utilizzati per la colonna. Se la riga viene omessa o impostata su 0 (zero), la colonna non viene visualizzata nella vista.</p> <p>Quando modifichi questo campo manualmente in modalità testo, devi aggiungere anche <code>usewidths=true</code> alla colonna.</p> </td> 
+      
+      <td><code><strong>width=</strong></code> </td> 
+      <td> <p>This line represents the number of pixels that are used for the column. If the line is omitted or set to 0 (zero) then the column does not appear in the view.</p> <p>When you modify this field manually in text mode, you must also add the <code>usewidths=true</code> value to your column.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>usewidths=true</strong> </td> 
-      <td> <p>Devi utilizzare questa riga oltre al <code>width=</code> durante la personalizzazione della larghezza di una colonna. </p> </td> 
+      
+      <td><code><strong>usewidths=true</strong></code> </td> 
+      <td> <p>You must use this line in addition to the <code>width=</code> line when customizing the width of a column. </p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>makeFieldEditable= makeFieldModificabile</strong> </td> 
-      <td> <p>Questa riga definisce se il valore visualizzato in una colonna può essere o meno modificato in linea. Se questa riga è uguale a <strong>true</strong>, il valore nella colonna è modificabile in linea. Se questa riga è uguale a <code>false</code>, il valore nella colonna non è modificabile in linea.</p> </td> 
+      
+      <td><code><strong>makeFieldEditable=</strong></code> </td> 
+      <td> <p>This line defines whether the value displayed in a column is inline editable or not. If this line equals <strong>true</strong>, the value in the column is inline editable. If this line equals <code>false</code>, the value in the column is not inline editable.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>link.valuefield=</strong> </td> 
-      <td> <p>Inserire questa riga solo se si desidera che il valore visualizzato in una colonna venga collegato all'oggetto associato. Il collegamento apre la pagina dei dettagli dell’oggetto. Questo valore deve corrispondere al valore <code>valuefield=</code> linea. Quando inserisci questo, devi aggiungere anche il <code>link.valueformat=</code> linea. </p> <p> Ad esempio, puoi inserire <code>link.valuefield=priority</code> in una visualizzazione del problema e la Priorità del problema viene visualizzata come collegamento. Fai clic su questo collegamento per aprire la pagina Problema.</p> </td> 
+      
+      <td><code><strong>link.valuefield=</strong> </code></td> 
+      <td> <p>Insert this line only when you want the value displayed in a column to link to the object associated with it. The link opens the details page of the object. This value should match the <code>valuefield=</code> line. When you insert this, you must also add the <code>link.valueformat=</code> line. </p> <p> For example, you can insert <code>link.valuefield=priority</code> in an issue view, and the Priority of the issue displays as a link. Clicking this link opens the Issue page.</p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>link.valueformat=</strong> </td> 
-      <td> <p>Inserire questa riga solo dopo aver inserito <code>link.valuefield</code> riga per aggiungere un collegamento al valore in una colonna. Il collegamento apre la pagina dei dettagli dell’oggetto. Questo valore deve corrispondere al valore <code>valueformat=</code> e indica il formato utilizzato per visualizzare <code>valuefield</code>. </p> <p>Importante: quando visualizzi la modalità testo in una colonna incorporata che include anche un collegamento, noterai una serie di righe che fanno riferimento al collegamento. Alcune di queste righe potrebbero non essere più supportate o non essere necessarie quando crei una colonna personalizzata in modalità testo e aggiungi le istruzioni di collegamento. Le righe obbligatorie quando si aggiunge un valore collegato sono<code> link.valuefield</code> e <code>link.valueformat</code>. </p> </td> 
+      
+      <td><code><strong>link.valueformat=</strong> </code></td> 
+      <td> <p>Insert this line only when you have inserted the <code>link.valuefield</code> line to add a link to the value in a column. The link opens the details page of the object. This value should match the <code>valueformat=</code> line and indicates the format used to display the <code>valuefield</code>. </p> <p>Important: When viewing the text mode in a built-in column that also includes a link, you notice a number of lines referring to the link. Some of those lines might no longer be supported or are unnecessary when you create your own custom column in text mode and add the link statements to it. The lines that are mandatory when adding a linked value are<code> link.valuefield</code> and <code>link.valueformat</code>. </p> </td> 
      </tr> 
-     <tr> 
-      <td><strong>aggregator.function=</strong> </td> 
-      <td> <p>Si riferisce al modo in cui vengono riepilogati i valori di ciascuna colonna. Sono presenti più righe che iniziano con <code>aggregator.</code> e si riferiscono tutti all’aggregatore che riepiloga i risultati della colonna. </p> <p>Come regola generale, il <code>aggregator.</code> righe corrispondenti a quelle dell'oggetto column. </p> 
-       <div class="example" data-mc-autonum="<b>Example: </b>">
-        <span class="autonumber"><span><b>Esempio: </b></span></span> 
-        <p>La colonna Ore pianificate in un rapporto attività riepilogato per Somma può avere un aspetto simile al seguente: </p> 
-        <div>
-         <pre>textmode=true</pre>
-         <pre>valuefield=workRequired</pre>
-         <pre>valueformat=composto</pre>
-         <pre>aggregator.function=SUM</pre>
-         <pre>aggregator.valuefield=workRequired</pre>
-         <pre>aggregator.displayformat=minutesAsHoursString</pre>
-         <pre>aggregator.valueformat=compound</pre>
-         <pre>namekey=workRequired</pre>
-         <pre>shortview=false</pre> 
+      
+      <td><code><strong>aggregator.function=</strong></code> </td> 
+      <td> <p>This refers to how the values of each column are summarized. There are multiple lines that start with <code>aggregator.</code> and they all refer to the aggregator that summarizes the results of the column. </p> <p>As a general rule, the <code>aggregator.</code> lines match those of the column object. </p> 
+       
+        <span class="autonumber"><span><b>Example: </b></span></span> 
+        <p>The Planned&nbsp;Hours column in a task report summarized by Sum may look like the following: </p>
+
+   <div>
+         <code>textmode=true</code>
+         <code>valuefield=workRequired</code>
+         <code>valueformat=compound</code>
+         <code>aggregator.function=SUM</code>
+         <code>aggregator.valuefield=workRequired</code>
+         <code>aggregator.displayformat=minutesAsHoursString</code>
+         <code>aggregator.valueformat=compound</code>
+         <code>namekey=workRequired</code>
+         <code>shortview=false</code> 
         </div> 
-       </div> 
-       <div>
-        Il <code>aggregator. </code>le righe possono contenere <code>valuefield </code>o un <code>valueexpression</code>
+       </div>
+
+   <div>
+      Il <code>aggregator. </code>le righe possono contenere <code>valuefield </code>o un <code>valueexpression</code>.
        </div> </td> 
      </tr> 
     </tbody> 
