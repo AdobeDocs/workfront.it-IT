@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2314'
 ht-degree: 3%
 
 ---
@@ -46,9 +46,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> prodotto Adobe</p> </td>
+   <p> Prodotto</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,10 +76,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 
 <tr>
-   <td role="rowheader">Livello di accesso</td>
-   <td> <p>Qualsiasi</p>  
+   <td role="rowheader">Configurazione del livello di accesso</td>
+   <td> <p>Non ci sono controlli del livello di accesso per Maestro </p>  
 </td>
   </tr>
+
+<tr>
+   <td role="rowheader"><p>Autorizzazioni</p></td>
+   <td> <p>Gestire le autorizzazioni per la visualizzazione</p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader">Modello di layout</td>
    <td> <p>L’amministratore di sistema deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
@@ -82,63 +94,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
  </tbody>
 </table>
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
 
 ## Gestire una vista tabella {#manage-a-table-view}
 
@@ -212,8 +167,6 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    >       * Numero
    >       * Formula
    >
-   >         I campi formula verranno rilasciati in una data successiva.
-   >
    >   * Il campo principale è sempre bloccato e non può essere spostato. È possibile selezionare un altro campo per sostituire un campo principale, se è necessario spostarlo in un&#39;altra posizione.
    >
    >   * La modifica del campo principale nella vista tabella ha effetto sulla vista di tutti gli altri utenti che la scelgono.
@@ -267,7 +220,7 @@ Puoi avere fino a 10.000 record (o righe) per un tipo di record in Maestro.
 1. Passare a una pagina del tipo di record e selezionare un **Tabella** dal menu a discesa vista.
 1. Inizia ad aggiungere record (o righe), come descritto nell’articolo [Crea record](../records/create-records.md).
 
-   I record aggiunti nella vista tabella vengono salvati immediatamente e sono visibili a tutti gli utenti che accedono a Maestro. <!--this will change with permissions-->
+   I record aggiunti nella vista tabella vengono salvati immediatamente e sono visibili a tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
 
 1. (Facoltativo) Seleziona uno o più record in una riga, quindi trascina e rilascia la **maniglia** icona ![](assets/handle-icon.png) a sinistra del nome del record per riordinare le righe.
 

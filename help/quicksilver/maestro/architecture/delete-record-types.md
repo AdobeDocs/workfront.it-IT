@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> prodotto Adobe</p> </td>
+   <p> Prodotto</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>Per collegare i tipi di record Maestro a Experience Manager Assets, devi disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
@@ -76,74 +81,25 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 
 <tr>
-   <td role="rowheader">Livello di accesso</td>
-   <td> <p>Qualsiasi</p>  
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
+   <td> <p>Non ci sono controlli del livello di accesso per Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Autorizzazioni</p></td>
+   <td> <p>Gestire le autorizzazioni per un’area di lavoro</a> </p>  
+   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Modello di layout</td>
-   <td> <p>L’amministratore di sistema deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td role="rowheader"><p>Modello di layout</p></td>
+   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
- </tbody>
+
+</tbody>
 </table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -160,17 +116,17 @@ After permssions - replace the table with:
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* È possibile eliminare qualsiasi tipo di record o tassonomia creata dall&#39;utente o da altri utenti dell&#39;organizzazione. <!--this will change with access levels and permissions-->
-* L&#39;eliminazione dei tipi di record comporta la rimozione di tutte le informazioni ad essi associate, inclusi i campi e i record di quel tipo.
+* È possibile eliminare solo i tipi di record o le tassonomie dalle aree di lavoro per le quali si dispone delle autorizzazioni di gestione.
+* L&#39;eliminazione dei tipi di record comporta la rimozione di tutte le informazioni ad essi associate, inclusi i campi e i record di quel tipo. Il tipo di record viene rimosso da tutti gli utenti che accedono all’area di lavoro.
 * Non è possibile recuperare i tipi di record eliminati o le relative informazioni.
 
 ## Elimina tipi di record
 
 L&#39;eliminazione dei tipi di record della tassonomia è identica all&#39;eliminazione dei tipi di record operativi.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
+Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera eliminare i tipi di record.
 

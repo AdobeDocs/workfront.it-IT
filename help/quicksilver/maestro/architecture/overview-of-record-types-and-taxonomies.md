@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 4946a65188391df62ad3e135a5b1dbba9a16dc89
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ In Maestro, puoi creare tipi di record personalizzati che soddisfano le esigenze
    * [Tipo di record operativo](#operational-record-type): tipo di record che rappresenta piani strategici, iniziative o lavoro pianificato. Ad esempio, Campaign, Activity, Tactic, Opportunity può essere un tipo di record operativo.
    * [Tassonomia](#taxonomy): tipi di record che acquisiscono attributi relativi a un tipo di record operativo. Ad esempio, Area geografica, Indirizzo e Pubblico possono essere tassonomie.
 
-* Quando si crea un tipo di record, tutti gli utenti dell&#39;organizzazione possono visualizzarlo, modificarlo o eliminarlo. <!--this will change with access levels and permissions-->
+* Quando si crea un tipo di record, solo l&#39;utente e coloro ai quali sono state assegnate le autorizzazioni di accesso all&#39;area di lavoro possono visualizzare il tipo di record.
 * È necessario creare un&#39;area di lavoro prima di poter creare i tipi di record per l&#39;area di lavoro.
 * In un&#39;unica area di lavoro è possibile ottenere un totale combinato di 1.000 tipi di record operativi e tassonomie. Sono inclusi i tipi di record o le tassonomie creati da zero o importati da altri sistemi.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '888'
 ht-degree: 1%
 
 ---
@@ -179,5 +179,5 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
 1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere la modifica o la copia e l&#39;incollamento delle informazioni del record:
 
-   * **Annulla**: CTRL/COMANDO + Z
-   * **Ripeti**: CTRL/COMANDO + MAIUSC + Z
+   * CTRL + Z (⌘ + Z per Mac) per annullare una modifica
+   * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripetere una modifica

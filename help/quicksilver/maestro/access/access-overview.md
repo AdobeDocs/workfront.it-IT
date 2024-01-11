@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Per utilizzare Adobe Maestro è necessario disporre delle seguenti impostazioni:
  </tbody>
 </table>
 
-*Per ulteriori informazioni sui nuovi modelli di prezzo e su quelli attuali, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per ulteriori informazioni sui requisiti di accesso ai Workfront, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Condividi l’area Maestro nel menu principale con altri

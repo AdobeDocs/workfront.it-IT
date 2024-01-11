@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3390'
 ht-degree: 1%
 
 ---
@@ -118,12 +118,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## Crea campi da zero {#create-fields-from-scratch}
 
@@ -388,6 +382,11 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
    Per ulteriori informazioni sulle espressioni supportate, vedi [Panoramica sui campi formula](/help/quicksilver/maestro/fields/formula-fields.md)
 
 1. Aggiungi i nomi dei campi visualizzati nell’interfaccia Maestro per farvi riferimento in una formula.
+
+   >[!NOTE]
+   >
+   >    Impossibile aggiungere campi da record collegati in una formula. Questa funzionalità verrà rilasciata in un secondo momento. Per ulteriori informazioni sulle nuove versioni, consulta [Attività di rilascio Adobe Maestro](/help/quicksilver/maestro/release-activity.md).
+
 
 1. Clic **Crea**.
 

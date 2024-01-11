@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 74db651f8865965f943bc89e58e7130cffe0c450
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 1%
+source-wordcount: '784'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <tr>
 <tr>
 <td>
-   <p> prodotto Adobe</p> </td>
+   <p> Prodotto</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -71,8 +71,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 
 <tr>
-   <td role="rowheader">Livello di accesso</td>
-   <td> <p>Qualsiasi</p>  
+   <td role="rowheader">Configurazione del livello di accesso</td>
+   <td> <p>Non ci sono controlli del livello di accesso per Maestro</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Autorizzazioni</p></td>
+   <td> <p>Gestire le autorizzazioni per la visualizzazione</p>  
 </td>
   </tr>
 
@@ -84,71 +90,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody>
 </table>
 
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
--->
-
-
 ## Considerazioni durante l’utilizzo delle visualizzazioni Maestro
 
 * Le visualizzazioni in Maestro sono specifiche per il tipo di record. Non è possibile applicare la stessa visualizzazione a due tipi di record diversi.
-* Le visualizzazioni create sono visibili a tutti coloro che accedono all’area Maestro. <!-- edit this when we have permissions and the views will be shared only to be visible by others-->
-  <!-- this is not yet possible: * You can share views with others if you want them to also apply them to the same record types.-->
+* Le visualizzazioni create sono visibili solo a te e agli utenti con cui condividi le visualizzazioni.
 * La creazione di viste per i tipi di record operativi è identica alla creazione di viste per i tipi di record della tassonomia.
-* Quando modificate o eliminate una vista, questa viene modificata ed eliminata per tutti gli utenti che possono accedere all&#39;area Maestro.
+* Quando si modifica o si elimina una visualizzazione, questa viene modificata ed eliminata per tutti gli utenti che dispongono di autorizzazioni per la visualizzazione.
 * I seguenti elementi sono specifici per ogni vista in Maestro:
 
    * Filtro
@@ -163,14 +110,13 @@ When we release permissions to views:
   >
   > Poiché Maestro è attualmente in stato beta, alcuni elementi di visualizzazione potrebbero non essere disponibili per entrambe le visualizzazioni.
 
-
 Questo articolo descrive le seguenti informazioni sulle visualizzazioni Maestro:
 
 * [Creare e modificare una vista](#create-or-edit-record-views)
 * [Eliminare una visualizzazione](#delete-views)
   <!--* [Duplicate a view](#duplicate-views)-->
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
-  <!--* [Share a view](#share-views) - not possible yet-->
+* [Condividere una visualizzazione](#share-a-view)
 
 ## Somiglianze e differenze tra le viste tabella e timeline
 
@@ -200,7 +146,9 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella e
 
 ## Creare o modificare le viste {#create-or-edit-views}
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o **Menu principale** icona ![](assets/main-menu-shell.png) nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
+
+
 Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si è effettuato l&#39;accesso. Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
 1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Crea tipi di record](../architecture/create-record-types.md).
 
@@ -249,6 +197,11 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 1. Clic **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
 
    La vista viene eliminata per tutti gli utenti che possono accedere all’area Maestro e non può essere recuperata.
+
+## Condividere una visualizzazione
+
+Per informazioni sulla condivisione delle visualizzazioni, vedi [Condividere una visualizzazione](/help/quicksilver/maestro/access/share-views.md).
+
 
 <!--not possible yet - August 30, 2023: 
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -106,12 +106,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 ## Creare record aggiungendoli manualmente a un tipo di record <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 È possibile creare record nella vista tabella di una pagina del tipo di record.
@@ -146,8 +140,8 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
 1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere l&#39;aggiunta di nuovi record:
 
-   * **Annulla**: CTRL/COMANDO + Z
-   * **Ripeti**: CTRL/COMANDO + MAIUSC + Z
+   * CTRL + Z (⌘ + Z per Mac) per annullare una modifica
+   * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripetere una modifica
 
 ## Creare record collegandoli da un&#39;altra applicazione
 
