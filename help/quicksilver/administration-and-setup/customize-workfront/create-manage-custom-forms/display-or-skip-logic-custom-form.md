@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: È possibile decidere quali sezioni di un modulo personalizzato devono essere visualizzate o ignorate in base alle scelte effettuate da un utente durante la compilazione.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 1%
+source-wordcount: '969'
+ht-degree: 0%
 
 ---
 
@@ -56,26 +56,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * Non è possibile aggiungere logica di salto a un widget o a un’interruzione di sezione. È possibile aggiungerlo solo a un campo a scelta multipla (pulsanti di scelta, menu a discesa o caselle di controllo).
 
-* È possibile aggiungere logica di visualizzazione e logica di salto a un campo personalizzato. Per quanto riguarda il campo personalizzato, vale quanto segue:
+* È possibile aggiungere logica di visualizzazione e logica di salto a un campo personalizzato se si verificano tutte le condizioni seguenti relative al campo personalizzato:
 
    * È un campo a scelta multipla (pulsanti di scelta, menu a discesa o caselle di controllo)
    * È preceduto da un campo a scelta multipla
    * È seguito da un altro campo personalizzato
 
 * Quando si copiano i moduli con la logica di visualizzazione o salta, la logica viene copiata nel nuovo modulo personalizzato.
-* Quando crei una regola di logica di visualizzazione per un modulo personalizzato, tieni presente quanto segue
+* Durante la modifica di oggetti in blocco, tutti i campi personalizzati vengono visualizzati nella casella Modifica oggetti, inclusi i campi ignorati o nascosti.
+* Quando crei una regola di logica di visualizzazione per un modulo personalizzato, tieni presente quanto segue:
 
    * Per impostazione predefinita, i campi personalizzati non inclusi in un’istruzione di logica di visualizzazione vengono visualizzati in un modulo personalizzato.
    * Puoi creare istruzioni logiche di visualizzazione a più campi.
-
-* Durante la modifica di oggetti in blocco, tutti i campi personalizzati vengono visualizzati nella casella Modifica oggetti, inclusi i campi ignorati o nascosti.
+   * Se a tutti i campi di un’interruzione di sezione è applicata una logica di visualizzazione e questi sono tutti nascosti come risultato della logica, l’intera sezione sarà nascosta nel modulo personalizzato.
 
 ## Creare un modulo personalizzato di esempio con logica di visualizzazione e salto
 
 Il modo migliore per imparare ad aggiungere logica di visualizzazione e salto a un modulo personalizzato consiste nell’esempio pratico illustrato nelle due sezioni seguenti:
-
-* [Logica di visualizzazione](#display-logic)
-* [Logica di salto](#skip-logic)
 
 ### Logica di visualizzazione {#display-logic}
 
