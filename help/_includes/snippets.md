@@ -1,7 +1,7 @@
 ---
-source-git-commit: 849bd09f4d7bfa205b2a9dbc5c6f4acd2f394d2d
+source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
 workflow-type: tm+mt
-source-wordcount: '2241'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
@@ -318,6 +318,10 @@ Per impostare le cartelle collegate:
 ## Passaggio 1 - Accesso a Risorse - {#step1-to-resourcing}
 
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Risorse]**.
+
+## Passaggio 1: passare al rapporto Utilizzo - {#step1-to-utilization-report}
+
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Risorse]**, quindi [!UICONTROL **Utilizzo**] nel pannello a sinistra.
 
 <!-- Review and approve work -->
 

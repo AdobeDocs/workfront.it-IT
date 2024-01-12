@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Creare e gestire le mansioni
 description: Come un [!DNL Adobe Workfront] amministratore o un utente con accesso amministrativo a Ruoli, puoi creare Ruoli che possono essere assegnati agli utenti ed eliminare Ruoli predefiniti che non sono rilevanti per la tua organizzazione.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3af289f9aeecee417d1e82f9c66551360185b85c
+source-git-commit: e7ce6f0b02a1ecde3daaeb9ab678caaae112ac23
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Per creare una mansione:
       <td>
         <p>Selezionare una valuta associata a questa mansione. Questa è la valuta che [!DNL Workfront] utilizza per calcolare i costi e i ricavi associati a questa mansione. </p> 
         <p><span>È diverso da [!UICONTROL Base Currency] impostato da [!DNL Workfront] nell'area [!UICONTROL Setup] e può essere diversa dalla valuta associata a un progetto.</span> </p> 
-        <p>Suggerimento: in questo campo sono disponibili solo le valute disponibili nell'area [!UICONTROL Exchange Rates] del sistema.</p> 
+        <p>Suggerimento: in questo campo sono disponibili solo le valute disponibili nell'area [!UICONTROL Exchange Rates] del sistema. Se è impostata una sola valuta, questo campo non viene visualizzato.</p> 
        <p><span>Per informazioni sulla configurazione della [!UICONTROL Base Currency] in [!DNL Workfront], vedi</span> <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Imposta tassi di cambio</a>.</p> <p><span>Per informazioni sulla modifica della valuta di un progetto, consulta</span> <a href="../../../manage-work/projects/project-finances/change-project-currency.md" class="MCXref xref">Modificare la valuta del progetto</a>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
