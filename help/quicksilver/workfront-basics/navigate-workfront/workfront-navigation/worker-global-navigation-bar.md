@@ -7,9 +7,9 @@ description: Il menu principale cambia con il livello di accesso che ti è stato
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Le seguenti aree sono incluse nel layout predefinito di un [!UICONTROL Lavorator
 
 * **[!UICONTROL Dashboard]**: qui vengono visualizzate le dashboard condivise con te. Per informazioni, consulta [Dashboard](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL Calendari]**: qui vengono visualizzati i calendari condivisi con te. Per informazioni, consulta [Calendari](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL Calendari]**: qui vengono visualizzati i calendari condivisi con te. Per informazioni, consulta [Calendari: indice articoli](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * **[!UICONTROL Team]**: le attività e i problemi assegnati ai tuoi team vengono visualizzati in quest’area. In qualità di lavoratore, sei l&#39;unico [!DNL Workfront] utente che visualizza [!UICONTROL Team] per impostazione predefinita.
 

@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 729cdf8ca5d917d5d009b3d64563d7d37053d8ee
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '13854'
+source-wordcount: '13856'
 ht-degree: 0%
 
 ---
@@ -1660,7 +1660,7 @@ ht-degree: 0%
          * [Come organizzare i rapporti su un dashboard](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
          * [Visualizza utilizzo report](reports-and-dashboards/reports/report-usage/view-report-usage.md)
       * Calendari {#calendars}
-         * [Calendari](reports-and-dashboards/reports/calendars/calendars.md)
+         * [Calendari: indice articoli](reports-and-dashboards/reports/calendars/calendars.md)
          * [Panoramica dei rapporti sul calendario](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
          * [Utilizzare campi data personalizzati in un report calendario](reports-and-dashboards/reports/calendars/use-custom-dates.md)
          * [Utilizzare le date pianificate in un rapporto calendario](reports-and-dashboards/reports/calendars/use-planned-dates.md)
@@ -2015,6 +2015,7 @@ ht-degree: 0%
       * [Connetti tipi di record](maestro/architecture/connect-record-types.md)
       * [Modifica tipi di record](maestro/architecture/edit-record-types.md)
       * [Eliminare le aree di lavoro](maestro/architecture/delete-workspaces.md)
+      * [Modificare le aree di lavoro](maestro/architecture/edit-workspaces.md)
       * [Elimina tipi di record](maestro/architecture/delete-record-types.md)
       * [Esempio di connessione di tipi di record e record](maestro/architecture/example-connect-record-types-and-records.md)
       * [Elenco dei modelli di Workspace](maestro/architecture/workspace-templates.md)
@@ -2029,8 +2030,8 @@ ht-degree: 0%
       * [Informazioni di accesso](maestro/access/access-information.md)
       * [Panoramica degli accessi](maestro/access/access-overview.md)
       * [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
-      * [Condividere un’area di lavoro](maestro/access/share-workspaces.md)
-      * [Condividere una visualizzazione](maestro/access/share-views.md)
+      * [Condividere le aree di lavoro](maestro/access/share-workspaces.md)
+      * [Condividere le visualizzazioni](maestro/access/share-views.md)
    * Record Adobe Maestro {#adobe-maestro-records}
       * [Record: indice articolo](maestro/records/records-information.md)
       * [Crea record](maestro/records/create-records.md)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -200,7 +200,7 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 
 ## Condividere una visualizzazione
 
-Per informazioni sulla condivisione delle visualizzazioni, vedi [Condividere una visualizzazione](/help/quicksilver/maestro/access/share-views.md).
+Per informazioni sulla condivisione delle visualizzazioni, vedi [Condividere le visualizzazioni](/help/quicksilver/maestro/access/share-views.md).
 
 
 <!--not possible yet - August 30, 2023: 

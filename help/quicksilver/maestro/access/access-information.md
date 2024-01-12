@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ I seguenti articoli contengono informazioni sull’accesso necessario per utiliz
 
 * [Panoramica degli accessi](../access/access-overview.md)
 * [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
-* [Condividere un’area di lavoro](/help/quicksilver/maestro/access/share-workspaces.md)
-* [Condividere una visualizzazione](/help/quicksilver/maestro/access/share-views.md)
+* [Condividere le aree di lavoro](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Condividere le visualizzazioni](/help/quicksilver/maestro/access/share-views.md)
 
 
