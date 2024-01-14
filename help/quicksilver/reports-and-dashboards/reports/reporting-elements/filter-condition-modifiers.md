@@ -6,14 +6,16 @@ description: I modificatori di filtri e condizioni ti consentono di creare filtr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 7eecc4879d1e5e760735db4de89ac1a661477be7
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
 
 # Modificatori di filtri e condizioni
+
+<!-- Audited: 1/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: This is temporary - Lilit is fixing this in a future story: NOTE If the field you are filtering for has multiple options, this filters out the results that contain only the choice you specify. If the field contains additional options including the one specified, those results are not filtered from the report. See this document and search for "not equal" for the link to the req doc: https://docs.google.com/document/d/1WA0zZ_wws-2qb908i53BFQ8zDwL3nPJHyIybtJvvnqU/edit) </p>
@@ -27,9 +29,11 @@ Per ulteriori informazioni sull&#39;utilizzo della formattazione condizionale ne
 
 ## Modificatori di filtri e condizioni
 
-Per un elenco dei modificatori incorporati dell’intervallo di tempo, consulta l’articolo [Filtrare i rapporti per intervalli di tempo](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+Alcuni modificatori sono incorporati e puoi sceglierli da un menu a discesa all’interno del filtro o dell’istruzione di formattazione condizionale. Altri modificatori possono essere utilizzati solo nei filtri in modalità testo.
 
-Alcuni modificatori sono incorporati e puoi sceglierli da un menu a discesa all’interno del filtro o dell’istruzione di formattazione condizionale. Altri modificatori possono essere utilizzati solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo, consulta [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Per ulteriori informazioni sulla modalità testo, consulta [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+
+Per un elenco dei modificatori incorporati dell’intervallo di tempo, consulta l’articolo [Filtrare i rapporti per intervalli di tempo](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 Puoi utilizzare i seguenti modificatori di condizioni nei filtri e nelle istruzioni di formattazione condizionale:
 
@@ -48,7 +52,7 @@ Puoi utilizzare i seguenti modificatori di condizioni nei filtri e nelle istruzi
   <tr valign="top"> 
    <td> <p><strong>È vuoto</strong> </p> </td> 
    <td> <p><strong>vuoto</strong> </p> </td> 
-   <td> <p>Il campo esiste per l’oggetto, ma al campo non è ancora stato assegnato un valore.</p> </td> 
+   <td> <p>Il campo esiste per l’oggetto, ma al momento non dispone di un valore.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Non è vuoto</strong> </p> </td> 
@@ -68,37 +72,71 @@ Puoi utilizzare i seguenti modificatori di condizioni nei filtri e nelle istruzi
   <tr valign="top"> 
    <td> <p><strong>Contiene</strong> </p> </td> 
    <td> <p><strong>cicante</strong> </p> </td> 
-   <td> <p>(Senza distinzione maiuscole/minuscole) Questa è la versione senza distinzione maiuscole/minuscole di <strong>contiene</strong>. Ad esempio: "cicontains inf" acquisisce qualsiasi valore che contiene "Inf" o "inf".</p> <p> <p>Nota: Adobe Workfront cerca la parola o la frase esatta specificata per ogni istruzione di filtro. Ad esempio, se stai cercando un progetto che contiene la frase "nuovo progetto" nel nome, Workfront non mostra i progetti che hanno solo "nuovo" o solo "progetto", o "nuovo progetto principale" nel nome. Il filtro trova solo i progetti il cui nome contiene esattamente la frase "nuovo progetto".</p> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>(Senza distinzione tra maiuscole e minuscole) Questa è l’opzione senza distinzione tra maiuscole e minuscole di <strong>eq</strong>. Restituisce solo una corrispondenza esatta del valore cercato.</p> <p>Ad esempio, quando si cerca un'attività con un nome specifico, "task name cieq test" trova le attività in cui il nome è "Test", "TEST" o "Test", ma non trova un'attività con il nome "test 123".</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>ciin</strong> </p> </td> 
-   <td> <p>(Senza distinzione maiuscole/minuscole) Questa è la versione senza distinzione maiuscole/minuscole di <strong>in</strong>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>cilike</strong> </p> </td> 
-   <td> <p>Questa è la versione senza distinzione tra maiuscole e minuscole di <strong>mi piace</strong>. Ad esempio: "cilike %Current% %Dead%" restituisce tutte le note che contengono "Current to Dead" o "current to dead".</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>cinotina</strong> </p> </td> 
-   <td> <p>(Senza distinzione maiuscole/minuscole) Questa è la versione senza distinzione maiuscole/minuscole di <strong>notin</strong>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla creazione di filtri in modalità testo, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> </td> 
-   <td> <p><strong>contiene</strong> </p> </td> 
-   <td> <p>(Distinzione maiuscole/minuscole) Consente di cercare il testo specificato in una stringa di testo intera.</p> <p>Ad esempio, l’utilizzo di "contiene informazioni" acquisisce qualsiasi cosa contenente "informazioni", ad esempio la parola "infinito".</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo.Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+   <td> <p>Questo è il <i>senza distinzione tra maiuscole e minuscole</i> versione di <strong>contiene</strong>. Ad esempio: <code>cicontains inf</code> acquisisce qualsiasi valore che contiene <code>Inf</code> o <code>inf</code>.</p> <p> <p>Nota: Adobe Workfront cerca la parola o la frase esatta specificata per ogni istruzione di filtro. Ad esempio, se stai cercando un progetto che contiene la frase <code>new project</code> nel nome, Workfront non mostra i progetti che hanno solo <code>new</code> o semplicemente <code>project</code>, o <code>new main project</code> nel nome. Il filtro trova solo i progetti con la frase esatta <code>new project</code> nel nome.</p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Does Not Contain</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>(Senza distinzione maiuscole/minuscole) Filtra gli elementi per i quali manca il valore specificato.</p> <p>Ad esempio, "non contiene file INF" acquisisce qualsiasi cosa senza "INF" o "INF" nel nome.</p> <p>Nota: <span>Se il campo per il quale si desidera filtrare dispone di più opzioni, verranno esclusi i risultati che contengono sia la scelta specificata, sia quella specificata ed eventuali altre scelte.</span> </p> </td> 
+   <td> <p>Questo è il <i>senza distinzione tra maiuscole e minuscole</i> versione di <strong>notcontains</strong>.</p><p>Questo modificatore filtra gli elementi per i quali manca il valore specificato.</p> <p>Ad esempio: <code>does not contain inf</code> acquisisce qualsiasi cosa senza <code>Inf</code> o <code>inf</code> nel nome.</p> <p>Nota: <span>Se il campo per il quale si desidera filtrare dispone di più opzioni, verranno esclusi i risultati che contengono sia la scelta specificata, sia quella specificata ed eventuali altre scelte.</span> </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> </td> 
+   <td> <p><strong>contiene</strong> </p> </td> 
+   <td> <p> Cerca il <i>distinzione maiuscole/minuscole</i> testo in un'intera stringa di testo.</p> <p>Ad esempio, utilizzando <code>contains Inf</code> acquisisce qualsiasi cosa con <code>Inf</code> in esso, ad esempio la parola <code>Infinity.</code></p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo.Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>notcontains</strong> </p> </td> 
+   <td> <p>Filtra gli elementi per i quali manca il <i>distinzione maiuscole/minuscole</i> valore specificato.</p> <p>Ad esempio: <code>notcontains inf</code> acquisisce qualsiasi cosa senza <code>inf</code>, ma visualizza valori che contengono <code>Inf</code>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+  </tr> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>cieq</strong> </p> </td> 
+   <td> <p>Questo è il <i>senza distinzione tra maiuscole e minuscole</i> opzione di <strong>eq</strong>. Restituisce solo una corrispondenza esatta del valore cercato.</p> <p>Ad esempio, quando si cerca un’attività con un nome specifico, <code>task name cieq test</code> trova le attività in cui il nome è <code>Test</code>, <code>TEST</code>, o <code>Test</code>, ma non trova un'attività con il nome <code>test 123.</code></p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> </td> 
+   <td><strong>cine</strong> </td> 
+   <td> <p>Questo è il <i>senza distinzione tra maiuscole e minuscole</i> opzione di <strong>ne</strong>ed è l'opposto del <b>cieq</b> modificatore. Restituisce solo risultati che non corrispondono esattamente al valore cercato, senza considerare il caso del valore.</p> <p>Ad esempio: <b>cine</b> restituisce qualsiasi valore che non è uguale a "corrente" o "Corrente". </p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+  </tr>   <tr valign="top"> 
+   <td> </td> 
+   <td> <p><strong>eq</strong> </p> </td> 
+   <td> <p>Questo modificatore restituisce solo un valore esatto, <i>distinzione maiuscole/minuscole</i> corrisponde al valore cercato.</p> <p>Ad esempio, quando cerchi progetti completi, <code>eq CPL</code> restituisce tutti i progetti nello stato Completato. <code>eq CPL, CUR</code> non restituisce un risultato perché un progetto non può essere completo e corrente allo stesso tempo.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> </td> 
+   <td><strong>ne</strong> </td> 
+   <td> <p>Questo è il <i>distinzione maiuscole/minuscole</i> opposto di <strong>eq</strong>. Restituisce solo risultati che non corrispondono esattamente al valore ricercato, oltre alle maiuscole e minuscole.</p> <p>Ad esempio: <b>ne</b> restituisce qualsiasi valore che non è uguale a "Current", ma non restituisce alcun valore che non è uguale a "current". </p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.<br></p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>ciin</strong> </p> </td> 
+   <td> <p> Questo è il <i>senza distinzione tra maiuscole e minuscole</i> versione di <strong>in</strong>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>cinotina</strong> </p> </td> 
+   <td> <p>Questo è il <i>senza distinzione tra maiuscole e minuscole</i> versione di <strong>notin</strong>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> <p> </p> <p> </p> <p><strong>Uguale</strong> </p> </td> 
+   <td> <p><strong>in</strong> </p> </td> 
+   <td> <p>Questo modificatore consente di creare un elenco separato da virgole <i>distinzione maiuscole/minuscole</i> variabili da confrontare con un singolo attributo valutato in un filtro. L’intero elenco viene trattato come un’istruzione OR e restituisce tutti i risultati che soddisfano i criteri di una o più variabili.</p> <p>Ad esempio, durante la ricerca di progetti, utilizzando <code>in CUR, PLN, CPL</code> restituisce tutti i progetti nello stato Corrente, O Pianificazione, O Completo.</p> <p>Il modificatore incorporato <strong>Uguale</strong> corrisponde al modificatore di modalità testo di <strong>in</strong>. Ciò significa che è possibile scegliere Uguale a più valori per il campo.</p> <p>Ad esempio, è possibile scegliere un rapporto "Stato è uguale a Corrente, Pianificazione, Inattivo" ed è possibile visualizzare i progetti in uno qualsiasi di questi stati.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p><strong>Not Equal</strong> </p> </td> 
+   <td> <p><strong>notin</strong> </p> </td> 
+   <td> <p>Questo è il <i>distinzione maiuscole/minuscole</i> opposto di <strong>in</strong>. Restituisce solo i risultati non inclusi nell'elenco specificato.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> <p>Nota: <span>Se il campo per il quale si desidera filtrare dispone di più opzioni, verranno esclusi i risultati che contengono sia la scelta specificata, sia quella specificata ed eventuali altre scelte.</span> </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>cilike</strong> </p> </td> 
+   <td> <p>Questo è il <i>senza distinzione tra maiuscole e minuscole</i> versione di <strong>mi piace</strong>. Ad esempio: <code>cilike %Current% %Dead%</code> restituisce tutte le note che contengono <code>Current to Dead</code> o <code>current to dead</code>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>mi piace</strong> </p> </td> 
+   <td> <p>Questo modificatore cerca parti di una <i>distinzione maiuscole/minuscole</i> stringa di testo simile a <strong>contiene</strong>. Tuttavia, <strong>mi piace</strong> consente di inserire caratteri jolly per suddividere il testo.</p> <p>Ad esempio, durante la ricerca di note, utilizzando <code>like %Current% %Dead%</code> restituisce qualsiasi nota che contiene la frase "Current to Dead" (Da corrente a morto). Non include note che contengono "Dead to Current". Ogni valore viene ricercato nell’ordine in cui è elencato. % rappresenta un carattere jolly per sostituire caratteri o segmenti di testo.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>Non esiste</strong> </td> 
@@ -110,24 +148,9 @@ Puoi utilizzare i seguenti modificatori di condizioni nei filtri e nelle istruzi
     </ul> <p>Per informazioni sulla creazione di filtri complessi tramite istruzioni EXISTS, consulta l’articolo <a href="../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md">Creare filtri in modalità testo complessi utilizzando le istruzioni EXISTS</a>. Questo è l'unico modificatore utilizzato nelle istruzioni EXISTS.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p> </p> <p> </p> <p> </p> <p><strong>Uguale</strong> </p> </td> 
-   <td> <p><strong>in</strong> </p> </td> 
-   <td> <p>(Distinzione maiuscole/minuscole) Questo modificatore consente di creare un elenco di variabili separato da virgole da confrontare con un singolo attributo valutato in un filtro. L’intero elenco viene trattato come un’istruzione OR e restituisce tutti i risultati che soddisfano i criteri di una o più variabili.</p> <p>Ad esempio, quando si ricercano progetti, utilizzando "in CUR, PLN, CPL" vengono restituiti tutti i progetti nello stato Corrente, O Pianificazione, O Completo.</p> <p>Il modificatore incorporato <strong>Uguale</strong> corrisponde al modificatore di modalità testo di <strong>in</strong>. Ciò significa che è possibile scegliere Uguale a più valori per il campo.</p> <p>Ad esempio, è possibile scegliere un rapporto "Stato è uguale a Corrente, Pianificazione, Inattivo" ed è possibile visualizzare i progetti in uno qualsiasi di questi stati.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> </td> 
-   <td> <p><strong>eq</strong> </p> </td> 
-   <td> <p>(Distinzione maiuscole/minuscole) Questo restituisce solo una corrispondenza esatta del valore cercato.</p> <p>Ad esempio, quando si cercano progetti completi, "eq CPL" restituisce tutti i progetti nello stato completo. "eq CPL, CUR" non restituisce un risultato perché un progetto non può essere completo e corrente allo stesso tempo.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sull’utilizzo della modalità testo per creare filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
    <td> <p><strong>Maggiore di</strong> </p> </td> 
    <td> <p><strong>gt</strong> </p> </td> 
    <td> <p>Questa opzione consente di cercare tutti i risultati con un valore maggiore di quello immesso, escluso il valore immesso.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>mi piace</strong> </p> </td> 
-   <td> <p>(Distinzione maiuscole/minuscole) Cerca parti di una stringa di testo in modo simile a <strong>contiene</strong>. Tuttavia, <strong>mi piace</strong> consente di inserire caratteri jolly per suddividere il testo.</p> <p>Ad esempio, quando si ricercano le note, l'utilizzo di "like %Current% %Dead%" restituisce qualsiasi nota contenente la frase "Current to Dead". Non include note che contengono "Dead to Current". Ogni valore viene ricercato nell’ordine in cui è elencato. % rappresenta un carattere jolly per sostituire caratteri o segmenti di testo.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Minore di</strong> </p> </td> 
@@ -147,32 +170,13 @@ Puoi utilizzare i seguenti modificatori di condizioni nei filtri e nelle istruzi
   <tr valign="top"> 
    <td> <p><strong>Tra</strong> </p> </td> 
    <td> <p><strong>tra</strong> </p> </td> 
-   <td> <p>Fornisce due valori di campo obbligatori e cerca tutti i risultati all'interno dell'intervallo di entrambi i campi, inclusi i valori immessi.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>notcontains</strong> </p> </td> 
-   <td> <p>(Distinzione maiuscole/minuscole) Filtra gli elementi per i quali manca il valore specificato.</p> <p>Ad esempio, "notcontains inf" acquisisce qualsiasi cosa senza "inf", ma visualizza valori che contengono "Inf".</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+   <td> <p>Fornisce due valori di campo obbligatori e cerca tutti i risultati compresi nell'intervallo di entrambi i campi, inclusi i valori immessi.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>notbetween</strong> </p> </td> 
    <td> <p>Questo è l'inverso di <strong>tra</strong>. Fornisce due campi valore obbligatori e cerca tutti i risultati al di fuori dell’intervallo di entrambi i campi, inclusi i valori immessi.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p><strong>Not Equal</strong> </p> </td> 
-   <td> <p><strong>notin</strong> </p> </td> 
-   <td> <p>(distinzione maiuscole/minuscole) <strong>in</strong>. Restituisce solo i risultati non inclusi nell'elenco specificato.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> <p>Nota: <span>Se il campo per il quale si desidera filtrare dispone di più opzioni, verranno esclusi i risultati che contengono sia la scelta specificata, sia quella specificata ed eventuali altre scelte.</span> </p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> </td> 
-   <td><strong>ne</strong> </td> 
-   <td> <p>(distinzione maiuscole/minuscole) <strong>eq</strong>. Restituisce solo risultati che non corrispondono esattamente al valore ricercato, oltre alle maiuscole e minuscole.</p> <p>Ad esempio: <b>ne</b> restituisce qualsiasi valore che non è uguale a "Current", ma non restituisce alcun valore che non è uguale a "current". </p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.<br></p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> </td> 
-   <td><strong>cine</strong> </td> 
-   <td> <p>(Senza distinzione tra maiuscole e minuscole) Questa è l’opzione senza distinzione tra maiuscole e minuscole di <strong>ne</strong> ed è l'opposto <b>cieq</b> modificatore. Restituisce solo risultati che non corrispondono esattamente al valore cercato, senza considerare il caso del valore.</p> <p>Ad esempio: <b>cine</b> restituisce qualsiasi valore che non è uguale a "corrente" o "Corrente". </p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+</tbody> 
 </table>

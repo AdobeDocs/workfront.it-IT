@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 2dcf8d3baf5ca5032153627b7e833bafea3418f7
 workflow-type: tm+mt
-source-wordcount: '13856'
+source-wordcount: '13860'
 ht-degree: 0%
 
 ---
@@ -645,9 +645,9 @@ ht-degree: 0%
          * [Nascondere i rapporti](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
       * E-mail {#emails}
          * [E-mail](administration-and-setup/manage-workfront/emails/emails.md)
-         * [Notifiche e-mail](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+         * [Notifiche e-mail: indice dell’articolo](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
          * [Configurare le notifiche degli eventi](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-         * [Notifica evento disponibile](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+         * [Notifiche evento disponibili](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
          * [Sblocca le notifiche degli eventi per tutti i gruppi](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
          * [Oggetto notifica evento](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
          * [Modificare le impostazioni delle notifiche e-mail degli utenti](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
@@ -694,8 +694,8 @@ ht-degree: 0%
    * Gestisci gruppi {#manage-groups}
       * [Gestisci gruppi](administration-and-setup/manage-groups/manage-groups.md)
       * Gruppi {#groups}
-         * [Panoramica sui gruppi](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-         * [Gruppi](administration-and-setup/manage-groups/groups-overview/groups.md)
+         * [Gruppi: indice articolo](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+         * [Panoramica sui gruppi](administration-and-setup/manage-groups/groups-overview/groups.md)
          * [Panoramica sui sottogruppi](administration-and-setup/manage-groups/groups-overview/subgroups.md)
          * [Panoramica sui gruppi predefiniti](administration-and-setup/manage-groups/groups-overview/home-groups.md)
       * Creare e gestire i gruppi {#create-manage-groups}
