@@ -4,7 +4,7 @@ description: Panoramica sulla versione del primo trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 0%
@@ -279,7 +279,7 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">La mappatura dei metadati in Experience Manager Assets Essentials ora utilizza <code>xcm:keywords</code> invece di <code>dc:subject</code></a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Abbiamo aggiornato l’integrazione di Experience Manager Assets Essentials per adattarla all’esperienza nell’integrazione di Experience Manager Assets as a Cloud Service. Ora, quando si mappano più campi di testo a riga singola a un singolo campo in Experience Manager Assets, entrambi i servizi utilizzano <code>xcm:keywords</code> campo.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">La mappatura dei metadati in Experience Manager Assets Essentials ora utilizza <code>xcm:keywords</code> invece di <code>dc:subject</code></a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Abbiamo aggiornato l’integrazione di Experience Manager Assets Essentials per adattarla all’esperienza nell’integrazione di Experience Manager Assets as a Cloud Service. Ora, quando si mappano più campi di testo a riga singola a un singolo campo in Experience Manager Assets, entrambi i servizi utilizzano <code>xcm:keywords</code> campo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
