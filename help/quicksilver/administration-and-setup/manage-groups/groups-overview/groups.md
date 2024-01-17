@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1353ab04-7de7-4d30-a092-27807c950777
-source-git-commit: 9c4aa8d1f812299ba6cdcb664b990c1119e3cb31
+source-git-commit: b5e0a590d258df4510a0bb6a44b57099f32ae6b9
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
 
 # Panoramica sui gruppi
+
+<!-- Audited: 01/2024 -->
 
 Un amministratore Workfront può creare gruppi di utenti che coincidono con la struttura del reparto. I gruppi sono simili ma distinti dai team e dalle aziende.
 
@@ -28,7 +30,7 @@ L’amministratore di Workfront concede ai gruppi l’accesso alle aree Workfron
 
 ## Utilizzo dei gruppi per organizzare gli utenti
 
-In qualità di amministratore di Workfront o di amministratore di gruppo, puoi associare gli utenti a gruppi e sottogruppi. Se rendi pubblico un gruppo, gli utenti con una licenza Planner possono associarvi gli utenti. Per ulteriori informazioni sugli amministratori di gruppi e sui gruppi pubblici, consulta [Creare un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+In qualità di amministratore di Workfront o di amministratore di gruppo, puoi associare gli utenti a gruppi e sottogruppi. Se si rende pubblico un gruppo, gli utenti con una licenza Standard (nuova) o Plan (corrente) possono associarvi gli utenti. Per ulteriori informazioni sugli amministratori di gruppi e sui gruppi pubblici, consulta [Creare un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Quando crei un utente, ti consigliamo di aggiungerlo al gruppo predefinito appropriato e ad altri gruppi in cui dovrebbe lavorare l’utente. Un utente può avere un solo Gruppo Predefinito, ma può appartenere a più altri gruppi.
 

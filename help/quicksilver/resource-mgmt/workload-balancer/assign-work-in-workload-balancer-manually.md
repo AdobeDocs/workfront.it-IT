@@ -3,11 +3,11 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assegnare il lavoro manualmente utilizzando il Bilanciatore dei carichi di lavoro
 description: È possibile assegnare manualmente gli elementi di lavoro agli utenti utilizzando il Bilanciatore dei carichi di lavoro di Adobe Workfront.
-author: Alina
+author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
@@ -106,7 +106,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
    In questo modo l&#39;elemento di lavoro viene assegnato o riassegnato agli assegnatari specificati.
 
-   Se si assegna un elemento solo a un team o a una mansione, l&#39;elemento viene visualizzato solo nell&#39;area Lavoro non assegnato. È necessario assegnare gli elementi di lavoro agli utenti per visualizzarli nell&#39;area Lavoro assegnato del Bilanciatore dei carichi di lavoro.
+   Se si assegna un elemento solo a un team o a una mansione, l&#39;elemento viene visualizzato solo nell&#39;area Lavoro non assegnato. Per visualizzarli nell&#39;area Lavoro assegnato del Bilanciatore dei carichi di lavoro, è necessario assegnare gli elementi di lavoro agli utenti.
 
    >[!TIP]
    >
