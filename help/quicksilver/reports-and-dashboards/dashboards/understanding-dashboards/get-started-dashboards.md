@@ -7,14 +7,16 @@ description: Lo scopo di una dashboard è quello di fornire un accesso rapido al
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 48f46abab1958325aba6832b85247dc2c80f4e80
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
 
 # Introduzione alle dashboard
+
+<!-- Audited: 1/2024 -->
 
 Lo scopo di una dashboard è quello di fornire un accesso rapido alle informazioni provenienti da più report. Innanzitutto, è possibile raccogliere informazioni nei rapporti e quindi inserire più rapporti nei dashboard per semplificare l’accesso alle informazioni.
 
@@ -29,25 +31,25 @@ Devi avere i seguenti:
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Piano Adobe Workfront*</strong></p> </td> 
+   <td> <p><strong>piano Adobe Workfront</strong></p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Licenza Adobe Workfront*</strong></p> </td> 
-   <td> <p>Revisione o successiva</p> </td> 
+   <td> <p><strong>Licenza Adobe Workfront</strong></p> </td> 
+   <td> <p>Nuovo: Collaboratore o versione successiva</p><p>Oppure</p><p>Corrente: revisione o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Livello di accesso*</strong> </td> 
-   <td> <p>Accesso a report, dashboard e calendari in visualizzazione o superiore</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td><strong>Livello di accesso</strong> </td> 
+   <td> <p>Accesso a report, dashboard e calendari in visualizzazione o superiore</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Autorizzazioni oggetto</strong> </p> </td> 
-   <td> <p>Visualizzare le autorizzazioni per il dashboard</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.<br>Per ulteriori informazioni sulle autorizzazioni per le dashboard, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Condividere report, dashboard e calendari </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni per il dashboard</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Oggetti che è possibile aggiungere a un dashboard
 
@@ -80,12 +82,12 @@ Per ulteriori informazioni sulla creazione di un dashboard, consulta [Creare un 
 * Stamparne una copia cartacea da condividere con gli utenti.\
   Per ulteriori informazioni sulla stampa delle dashboard, vedere [Stampare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* Esportali come file .pdf in modo da poterli inviare agli utenti tramite e-mail.\
-  Per ulteriori informazioni sull&#39;esportazione di un dashboard in un file .pdf, vedere [Esportare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+* Esportali come file PDF in modo da poterli inviare agli utenti tramite e-mail.\
+  Per ulteriori informazioni sull&#39;esportazione di un dashboard in un file PDF, vedere [Esportare un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 Quando si condivide un dashboard con gli utenti, per impostazione predefinita vengono condivisi con gli stessi utenti anche tutti i report, i calendari e le pagine esterne presenti nel dashboard.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Se un utente viene eliminato, le dashboard create non sono più accessibili. Per ulteriori informazioni, consulta [Elimina utenti](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -93,14 +95,14 @@ Quando si condivide un dashboard con gli utenti, per impostazione predefinita ve
 
 È possibile visualizzare un dashboard nei modi seguenti:
 
-* Accedi alla sezione in cui è posizionato e viene visualizzato il dashboard posizionato sulla sezione.\
+* Accedi alla sezione personalizzata in cui è posizionato il dashboard.\
   Per ulteriori informazioni sul posizionamento di dashboard nelle sezioni personalizzate, consulta [Navigazione a sinistra in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
-* Cerca e accedi manualmente quando lo trovi.
+* Cerca e accedi manualmente al dashboard.
 
 ## Accedere a un dashboard
 
-1. Fai clic su **Menu principale** ![](assets/main-menu-icon.png), quindi fai clic su **Dashboard**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Dashboard**.
 1. Passa il puntatore del mouse sulla barra laterale sinistra, quindi seleziona una delle opzioni seguenti:
 
    * **I miei dashboard**: i dashboard creati sono elencati qui.
@@ -110,7 +112,7 @@ Quando si condivide un dashboard con gli utenti, per impostazione predefinita ve
      >Se non disponi dell’accesso di modifica per Rapporti, Dashboard e Calendari nel tuo livello di accesso, non puoi creare dashboard. In questo caso, l’elenco Dashboard personali è vuoto.
 
    * **Dashboard condivisi**: qui sono elencate le dashboard create da altri utenti e condivise con te.
-   * **Tutti i dashboard**: qui sono elencati i dashboard personali e di altri utenti condivisi con te.
+   * **Tutti i dashboard**: qui sono elencati sia i dashboard che i dashboard condivisi da altri utenti.
 
    ![Area dashboard](assets/dashboards-area.png)
 

@@ -1,13 +1,13 @@
 ---
 title: Rapporto sulla sezione Aggiornamenti
-description: Rapporto sulla sezione Aggiornamenti
+description: Il rapporto Voce diario evidenzia gli aggiornamenti di sistema dall’area Aggiornamenti di progetti, attività, problemi e altri oggetti precedentemente disponibili solo tramite l’API Adobe Workfront. Anche se si tratta di un rapporto avanzato destinato a casi d’uso specifici, il formato più digeribile consente di creare un rapporto più semplice sull’attività del progetto e sugli aggiornamenti del sistema in Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
 workflow-type: tm+mt
-source-wordcount: '2686'
+source-wordcount: '2765'
 ht-degree: 3%
 
 ---
@@ -38,25 +38,25 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Nuovo: Standard </p><p>Oppure </p><p>Corrente: Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza le autorizzazioni per gli oggetti che contengono le voci diario visualizzate nel report</p> <p>Dopo la creazione, otterrai le autorizzazioni di gestione per il report</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza le autorizzazioni per gli oggetti che contengono le voci diario visualizzate nel report</p> <p>Dopo la creazione, otterrai le autorizzazioni di gestione per il report</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
@@ -68,7 +68,7 @@ Prima di poter eseguire le azioni descritte in questo articolo, è necessario ve
 
 * L’impostazione di qualsiasi campo personalizzato su cui desideri creare un rapporto **Visualizzare le modifiche dei campi nei feed di aggiornamento** abilitato.
 
-  Per informazioni su come abilitare questa impostazione per un campo personalizzato, consulta la sezione [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) nell’articolo [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Per informazioni su come abilitare questa impostazione per un campo personalizzato, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Panoramica del rapporto Voce diario
 
@@ -127,7 +127,7 @@ La visualizzazione predefinita per questo report contiene le colonne seguenti:
  </tbody> 
 </table>
 
-Per organizzare le informazioni in questo report, è possibile utilizzare il raggruppamento predefinito Progetto. Il raggruppamento di progetti consente di ottenere un raggruppamento principale di Nome progetto e un raggruppamento secondario di Data di ingresso. Puoi applicare questo raggruppamento esistente durante la creazione del rapporto oppure durante la visualizzazione del rapporto.
+Per organizzare le informazioni in questo report, è possibile utilizzare il raggruppamento predefinito denominato Progetto. Il raggruppamento di progetti consente di ottenere un raggruppamento principale di Nome progetto e un raggruppamento secondario di Data di ingresso. Puoi applicare questo raggruppamento esistente durante la creazione del rapporto oppure durante la visualizzazione del rapporto.
 
 Per informazioni su come impostare le visualizzazioni, i filtri e i raggruppamenti desiderati per il rapporto, consulta la sezione pertinente:
 
@@ -167,7 +167,7 @@ Queste informazioni possono essere utilizzate per facilitare il controllo e per 
 >Se desideri confrontare la differenza di giorni tra le modifiche di condizione, puoi utilizzare Analisi avanzate.\
 >Per ulteriori informazioni sulle funzioni di analisi avanzate, consulta [Panoramica di analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Rapporti**.
 1. Clic **Nuovo rapporto**, quindi seleziona **Voce diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -281,7 +281,7 @@ Queste informazioni possono essere utilizzate per facilitare il controllo e per 
 
 Per vedere quando un&#39;attività o un problema è stato eliminato:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Rapporti**.
 1. Clic **Nuovo rapporto**, quindi seleziona **Voce diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -325,7 +325,7 @@ Per vedere quando un&#39;attività o un problema è stato eliminato:
 
    Per ulteriori informazioni sull&#39;aggiunta di colonne, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In **Filtri** , fare clic su **Aggiungi regola filtro**, quindi aggiungi quanto segue:
+1. In **Filtri** , fare clic su **Aggiungi regola filtro**, quindi aggiungi i seguenti filtri:
 
    * **Cambia tipo** > **Uguale** > **Elimina**
    * **ID Progetto** > **Uguale** > **`<project>`**
@@ -365,7 +365,7 @@ Puoi tenere traccia di importanti modifiche di campo nel corso del progetto. A t
 
 Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita di un progetto:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Rapporti**.
 1. Clic **Nuovo rapporto**, quindi seleziona **Voce diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -429,7 +429,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
    Per ulteriori informazioni sull&#39;aggiunta di colonne, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In **Filtri** , fare clic su **Aggiungi regola filtro**, quindi aggiungi quanto segue:
+1. In **Filtri** , fare clic su **Aggiungi regola filtro**, quindi aggiungi i seguenti filtri:
 
    * **Nome campo voce diario** > **Contiene** > **DE**
 
@@ -467,7 +467,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
 È possibile impostare il rapporto Scrittura contabile per visualizzare la frequenza con cui la data di completamento pianificata cambia nel corso della vita di un progetto.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Rapporti**.
 1. Clic **Nuovo rapporto**, quindi seleziona **Voce diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -568,7 +568,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
 È possibile impostare il rapporto Voce diario per visualizzare il numero di modifiche apportate dal proprietario del progetto o dal project manager nel corso della vita di un progetto.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Rapporti**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Rapporti**.
 1. Clic **Nuovo rapporto**, quindi seleziona **Voce diario**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)

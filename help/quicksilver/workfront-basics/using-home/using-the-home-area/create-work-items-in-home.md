@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Creare elementi di lavoro dall'area Home
-description: Creare elementi di lavoro dall'area Home
-author: Lisa
+description: È possibile creare elementi di lavoro da [!UICONTROL Home] area. È possibile creare attività personali per se stessi, richiedere lavoro ad altri utenti o aggiungere attività a progetti specifici.
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: ecbba9b1da674328df866ec30e48fe44dd02cb86
+source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
