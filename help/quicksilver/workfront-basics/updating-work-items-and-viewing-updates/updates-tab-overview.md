@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1179'
 ht-degree: 3%
 
 ---
@@ -17,13 +17,11 @@ ht-degree: 3%
 
 # Panoramica della sezione Aggiornamenti
 
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti. </span>
-
-<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 
 >[!IMPORTANT]
@@ -46,18 +44,11 @@ ht-degree: 3%
 > * Pannello Riepilogo nelle schede orario
 > * Pannello Summary (Riepilogo) nel Bilanciatore dei carichi di lavoro
 
-<!-- with October 26 release: add somewhere this:
-
->[!NOTE]
->
->Iterations display the legacy commenting experience.-->
-
-
 ## Panoramica della sezione Aggiornamenti
 
 La sezione Aggiornamenti di un oggetto mostra gli aggiornamenti di sistema e fino a 200 degli aggiornamenti più recenti effettuati dagli utenti negli ultimi 90 giorni.
 
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
+![](assets/updates-tab-after-unified-experience-for-issues.png)
 
 A seconda degli oggetti per i quali accedi all’esperienza di commento, per la sezione Aggiornamenti potresti trovare la seguente esperienza:
 
@@ -97,7 +88,7 @@ A seconda degli oggetti per i quali accedi all’esperienza di commento, per la 
 
 ### Panoramica della sezione Aggiornamenti nella nuova esperienza di commento
 
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
+![](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
@@ -250,7 +241,7 @@ Gli amministratori di Adobe Workfront e gli amministratori di gruppi possono acc
 
 Per informazioni, consulta [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Quando si effettua l’accesso come altro utente e si aggiungono commenti, considera quanto segue:
+Quando accedi come altro utente e aggiungi commenti, considera quanto segue:
 
 * Eventuali commenti formulati per conto di un altro utente sono indicati nel commento.
 

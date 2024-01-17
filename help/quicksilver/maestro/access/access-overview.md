@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
 source-wordcount: '420'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
 >
->Per informazioni, consulta [Panoramica di Adobe Maestro](../maestro-overview.md).
+>Per informazioni, consulta [Panoramica di Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
 
 Per utilizzare le funzionalità Adobe Maestro sono previste restrizioni relative alle licenze e alle autorizzazioni di condivisione.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '1903'
+source-wordcount: '1948'
 ht-degree: 1%
 
 ---
@@ -48,9 +48,11 @@ Di seguito sono riportate alcune delle principali funzionalità di Maestro:
 * Personalizzare completamente i flussi di lavoro, dalla scelta dei tipi di oggetto (o di record) utilizzati dall&#39;organizzazione alla configurazione del modo in cui questi oggetti si collegano l&#39;uno all&#39;altro.
 * Collegamento a tipi di oggetto da altri sistemi, creando un framework coerente per tutti i processi.
 
-## Funzioni attualmente disponibili in Maestro
+## Funzioni Maestro attualmente disponibili
 
 La tabella seguente illustra le principali funzioni che saranno disponibili in Maestro e la tempistica della loro disponibilità. L&#39;elenco non include tutte le funzionalità.
+
+Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [Attività di rilascio Maestro](/help/quicksilver/maestro/release-activity.md).
 
 | Funzionalità | Disponibile ora | Disponibile a breve | Nella ricerca |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -222,6 +224,8 @@ Di seguito sono riportati i principali oggetti e concetti di Maestro:
 
 * **Campi collegati** (o campi di ricerca): dopo aver stabilito la connessione tra due tipi di record e aver collegato i singoli record, è possibile fare riferimento ai campi dei record collegati nel record da cui si sta effettuando la connessione.
 
+  Ad esempio, se colleghi una campagna Maestro a un progetto Workfront, puoi visualizzare il campo Proprietario progetto dei progetti collegati nei record della campagna Maestro.
+
   ![](assets/add-lookup-fields-modal.png)
 
   Per informazioni sul collegamento di tipi di record, record e sulla creazione di campi collegati, vedere gli articoli seguenti:
@@ -268,7 +272,7 @@ La tabella seguente mostra i limiti per il numero di oggetti che è possibile cr
 
 ## Individua Maestro
 
-Assicurati che la tua organizzazione abbia ricevuto l’accesso a Maestro e che l’amministratore di sistema o di gruppo abbia aggiunto l’area Maestro al tuo menu principale.
+Assicurati che la tua organizzazione abbia ricevuto l’accesso a Maestro e che l’amministratore di sistema o di gruppo abbia aggiunto l’area Maestro al tuo menu principale. Per informazioni, consulta [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md) .
 
 Per individuare Maestro:
 

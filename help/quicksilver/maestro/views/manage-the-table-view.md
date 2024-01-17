@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2316'
 ht-degree: 3%
 
 ---
@@ -204,7 +204,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
       Non è possibile utilizzare parole chiave associate a campi nascosti nella visualizzazione Tabella.
 
-   1. Premi Invio sulla tastiera per passare al successivo campo trovato.
+   1. Premi **Invio** sulla tastiera per passare al campo trovato successivo.
 
    1. (Facoltativo) Se sono presenti più corrispondenze, fare clic sulle frecce su e giù a destra della parola chiave di ricerca per trovare tutte le corrispondenze nella tabella.
 
@@ -279,7 +279,7 @@ Per aggiungere un filtro a una vista tabella:
         </thead>
         <tbody>
         <tr>
-            <td>Riga singola, paragrafo </td>
+            <td>Linea singola, paragrafo, formula </td>
             <td><p>Contiene</p>
             <p>Non contiene</p>
             <p>È</p>
@@ -296,7 +296,7 @@ Per aggiungere un filtro a una vista tabella:
             <p>Non è vuoto</p></td>
         </tr>
         <tr>
-            <td>Selezione multipla</td>
+            <td>Selezione multipla, Persone</td>
             <td><p>Ha uno qualsiasi di</p>
             <p>Ha tutti</p>
             <p>È esattamente</p>
@@ -305,7 +305,7 @@ Per aggiungere un filtro a una vista tabella:
             <p>Non è vuoto</p></td>
         </tr>
         <tr>
-            <td>Numerico, percentuale, valuta</td>
+            <td>Numero, Percentuale, Valuta</td>
             <td><p>=</p>
             <p>≠</p>
             <p> &lt; </p>

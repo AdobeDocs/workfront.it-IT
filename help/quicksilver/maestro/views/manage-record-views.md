@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: daa195b0273a232692fe47691a2926579b87ba6b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -135,14 +135,13 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella e
 | Copiare le righe da un elenco esterno e incollarle in una tabella | ✓ |               |
 | Visualizzare i record in una timeline |            | ✓ |
 | Filtra record | ✓ | ✓ |
-| Raggruppa record |           | ✓ |
+| Raggruppa record | ✓ | ✓ |
 | Ordinare i record | ✓ |              |
 | Record codice colore |           | ✓ |
 | Raggruppamenti di codici colore |           | ✓ |
-| Cerca record | ✓ | ✓ |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
-<!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
+| Cerca record specifici | ✓ | ✓ |
+| Condividi visualizzazione | ✓ | ✓ |
+| Aprire la pagina Dettagli del record dalla visualizzazione | ✓ | ✓ |
 
 ## Creare o modificare le viste {#create-or-edit-views}
 
@@ -171,15 +170,11 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
    Per impostazione predefinita, Maestro assegna alla vista il nome &quot;Table &lt; number >&quot; o &quot;Timeline &lt; number >&quot;. Il numero è un incremento generato automaticamente.
 
 1. (Facoltativo) Per rinominare una vista dopo la sua creazione, fai clic sul menu a discesa Vista, quindi fai clic su **Altro** menu ![](assets/more-menu.png) > **Rinomina** per aggiornare il nome della vista. <!--ensure there is not another saving step here?!-->
-1. (Facoltativo) Per gestire una visualizzazione, vedere i seguenti articoli per ulteriori informazioni:
+1. (Facoltativo) Per gestire un tipo specifico di visualizzazione, vedi i seguenti articoli:
 
    * [Gestire la vista tabella](../views/manage-the-table-view.md)
    * [Gestire la visualizzazione della timeline](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## Eliminare le viste
 
@@ -202,6 +197,7 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 
 Per informazioni sulla condivisione delle visualizzazioni, vedi [Condividere le visualizzazioni](/help/quicksilver/maestro/access/share-views.md).
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 
