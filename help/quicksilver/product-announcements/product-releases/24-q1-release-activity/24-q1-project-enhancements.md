@@ -3,9 +3,9 @@ title: Miglioramenti al progetto per il primo trimestre 2024
 description: Miglioramenti al progetto nel primo trimestre 2024
 author: Nolan
 feature: Product Announcements
-source-git-commit: 293e94a73edaf723852fd40e5dfcdfdc9f76ddf8
+source-git-commit: 55ed32932e5791b57da9cbc4138d6252e9420ddd
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->Produzione per rilascio rapido: con la versione 24.1; produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Produzione per rilascio rapido: con la versione 24.2 (febbraio 2024); produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
 
 È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.
 

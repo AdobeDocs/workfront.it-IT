@@ -4,20 +4,18 @@ description: Panoramica sulla versione del primo trimestre 2024
 author: Becky
 feature: Product Announcements
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 242c54f8d650b948f4adac079f5e45b6a741f97f
+source-git-commit: bb80c0f6a7d65f39b0b80a011629e1a0af88e53b
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1571'
 ht-degree: 0%
 
 ---
 
 # Panoramica sulla versione del primo trimestre 2024
 
-Questa pagina fornisce informazioni sulle funzionalità incluse nel rilascio del primo trimestre 2024 pianificato per la settimana del 15 gennaio 2024.
+Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del primo trimestre 2024. Questi miglioramenti saranno disponibili nell’ambiente di produzione per tutti i clienti con la versione 24.1 del 18 e 19 gennaio 2024.
 
-I miglioramenti in questa pagina sono disponibili nell’ambiente di anteprima. Questa pagina verrà aggiornata con ulteriori miglioramenti man mano che il rilascio del primo trimestre 2024 si avvicina al rilascio pianificato in produzione.
-
-Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [registrati qui per il webinar](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+Il webinar sulla versione 24.1 era l’11 gennaio 2024. È possibile [registrati per partecipare al webinar e visualizzare una registrazione on-demand](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Le funzioni fuori ciclo (quelle che vengono rilasciate in produzione prima della data di rilascio del primo trimestre 2024) sono evidenziate in giallo.</span>
 
@@ -352,9 +350,10 @@ Il webinar sulla versione 24.1 si terrà l’11 gennaio 2024. È possibile [regi
                         <ul>
                             <li>
                                 <p>Versione di anteprima: 21 dicembre 2023</p>
+                                <p>NOTA: questa funzione rimarrà in Anteprima fino alla versione 24.4.</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio rapido: con la versione 24.1</p>
+                                <p>Produzione per rilascio rapido: con la versione 24.2 (febbraio 2024)</p>
                             </li>
                             <li>
                                 <p>Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)</p>
