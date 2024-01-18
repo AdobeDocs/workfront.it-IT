@@ -7,9 +7,9 @@ description: La Data di completamento prevista è un indicatore calcolato in tem
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
+source-git-commit: bac9856f3d0946b17e36797262d1a21f093ceadd
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -22,69 +22,40 @@ Le sezioni seguenti descrivono come e come individuare la Data di completamento 
 
 ## Requisiti di accesso
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   <p>For current licenses: 
-   <ul><li><p>Contributor or higher to view the Projected Completion Date in a report</p></li> <li><p>A Standard license to create a report</p></li> </ul>
-   
-   <p>For legacy licenses: 
-   <ul><li><p>Review or higher to view the Projected Completion Date in a report</p></li> 
-   <li><p>A Plan license to create a report</p> </li></ul>
-      </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Rivedi o più avanti per visualizzare la Data di completamento prevista in un rapporto</p> <p>Una licenza Pianificazione per creare un report</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> 
+   <p>Nuovo: 
+   <ul><li><p>Collaboratore o versione successiva per visualizzare la data di completamento prevista in un rapporto</p></li> <li><p>Una licenza Standard per creare un rapporto</p></li> </ul>
+
+<p>Corrente: 
+   <ul><li><p>Rivedi o più avanti per visualizzare la Data di completamento prevista in un rapporto</p></li> 
+   <li><p>Una licenza Pianificazione per creare un report</p> </li></ul>
+      </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Per creare un rapporto è necessario disporre dell'accesso in modifica a report, dashboard e calendari</p> <p>Per creare un rapporto o modificare una vista a elenco, è necessario disporre dell'accesso di modifica a Filtri, Viste, Raggruppamenti</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td> <p>Accesso ai progetti di visualizzazione o superiore</p> <p>Per creare un rapporto è necessario disporre dell'accesso in modifica a report, dashboard e calendari</p> <p>Per creare un rapporto o modificare una vista a elenco, è necessario disporre dell'accesso di modifica a Filtri, Viste, Raggruppamenti</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare o accedere ad autorizzazioni superiori per un progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare o accedere ad autorizzazioni superiori per un progetto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Come Adobe Workfront determina la data di completamento prevista
 
@@ -122,27 +93,23 @@ I criteri utilizzati per determinare la data di completamento prevista variano a
 
 ## Visualizza la data di completamento prevista
 
-Puoi visualizzare la Data di completamento prevista dei progetti, delle attività e dei problemi nei rapporti. È possibile visualizzare la data di completamento prevista dei progetti e delle attività in altre aree di Workfront. 
-
-* [Visualizzare la data di completamento prevista di un progetto](#view-the-projected-completion-date-of-a-project)
-* [Visualizzare la data di completamento prevista di un&#39;attività](#view-the-projected-completion-date-of-a-task)
-* [Visualizzare la data di completamento prevista di un problema](#view-the-projected-completion-date-of-an-issue)
+Puoi visualizzare la Data di completamento prevista dei progetti, delle attività e dei problemi nei rapporti. È possibile visualizzare la data di completamento prevista dei progetti e delle attività in altre aree di Workfront.
 
 ### Visualizzare la data di completamento prevista di un progetto {#view-the-projected-completion-date-of-a-project}
 
 1. Vai al progetto in cui desideri visualizzare la Data di completamento prevista.
 1. Clic **Dettagli progetto** nel pannello a sinistra.
-1. Individua il **Data di completamento Prevista** campo in **Panoramica** sezione.
+1. Individua il **Data di completamento Prevista** campo in **Panoramica** > **Date progetto** sezione.
 
 ### Visualizzare la data di completamento prevista di un&#39;attività {#view-the-projected-completion-date-of-a-task}
 
 1. Passare all&#39;attività in cui si desidera visualizzare la data di completamento prevista.
 1. Clic **Dettagli Attività** nel pannello a sinistra.
-1. Individua il **Data di completamento Prevista** campo in **Panoramica** sezione.
+1. Individua il **Data di completamento Prevista** campo in **Panoramica** > **Vincolo e date attività** sezione.
 
 ### Visualizzare la data di completamento prevista di un problema {#view-the-projected-completion-date-of-an-issue}
 
-È possibile visualizzare la Data di completamento prevista per i problemi solo in un report sui problemi o in una vista a elenco. La creazione di una vista a elenco è simile alla creazione della vista in un rapporto.
+È possibile visualizzare la Data di completamento prevista per i problemi solo in un report sui problemi o in una vista a elenco. La creazione di una vista a elenco è simile alla creazione della vista in un rapporto.
 
 Per creare un report di problemi che includa la Data di completamento prevista:
 

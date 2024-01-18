@@ -6,9 +6,9 @@ description: È possibile generare una bozza per un documento nel momento in cui
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
+source-git-commit: c3bbcaff2643bff43d0c26ee97d2a4ba22680a30
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -32,12 +32,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Piano corrente: Pro o superiore</p> <p>oppure</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
+   <td> 
+   <p>Nuovo: Qualsiasi </p>
+   <p>Corrente: Pro o superiore</p> <p>Piano legacy: Seleziona o Premium</p> <p>Per ulteriori informazioni sulla verifica dell'accesso con i diversi piani, vedere <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Accesso alla funzionalità di verifica in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano corrente: Lavoro o Piano</p> <p>Piano legacy: qualsiasi (per l’utente deve essere abilitata la verifica)</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> 
+   <p>Nuovo: Standard</p>
+   <p>Corrente: Lavoro o Piano</p> <p>Piano legacy: qualsiasi (per l’utente deve essere abilitata la verifica)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Profilo autorizzazione bozza </td> 
@@ -45,19 +49,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Modifica accesso ai documenti</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, la mansione o il profilo di autorizzazione della bozza disponibile, contattare l&#39;amministratore Workfront o Workfront Proof.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Caricare un documento e creare una bozza
 
 1. Vai al progetto, all’attività o al problema in cui desideri creare una nuova bozza.
-1. Fai clic su **Documenti** scheda.
+1. Fai clic su **Documenti** scheda.
 1. Fare clic su Documenti ![](assets/document-icon.png) nel pannello a sinistra.
-1. Clic **Aggiungi nuovo**, quindi fai clic su **Bozza** nel menu visualizzato.
+1. Clic **Aggiungi nuovo**, quindi fai clic su **Bozza** nel menu visualizzato.
 
    >[!TIP]
    >
@@ -71,9 +75,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Caricare un documento e creare una nuova versione di una bozza
 
 1. Vai al progetto, all’attività o al problema in cui desideri creare una nuova versione di una bozza esistente.
-1. Fai clic su **Documenti** scheda.
+1. Fai clic su **Documenti** scheda.
 1. Selezionare il documento in cui si desidera aggiungere una nuova versione.
-1. Clic **Aggiungi nuovo** > **Versione** > **Bozza**.
+1. Clic **Aggiungi nuovo** > **Versione** > **Bozza**.
 1. In **Nuova versione bozza** pagina visualizzata, è possibile
 
    * [Creare una bozza avanzata con un flusso di lavoro di base](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
