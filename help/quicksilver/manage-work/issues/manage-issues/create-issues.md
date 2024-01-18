@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -99,11 +99,10 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
+   
 1. Click **New Issue**.
 
-   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
+  
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -155,9 +154,9 @@ Per creare un problema su un’attività o un progetto:
 1. (Facoltativo) Se desideri segnalare il problema per un’attività, vai al **Attività** , quindi fare clic sul nome di un&#39;attività.
 1. Fai clic su **Problemi** sezione.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+   Viene visualizzato l’elenco dei problemi del progetto
 
-1. Clic **Crea una Issue**.
+1. Clic **Crea una Issue** nella parte superiore dell’elenco dei problemi.
 Viene visualizzata la casella Nuovo problema.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -219,8 +218,8 @@ Per creare problemi in linea:
 
 1. Vai a un progetto in cui desideri creare il problema.
 1. (Facoltativo) Se desideri segnalare il problema per un’attività, vai al **Attività** , quindi fare clic sul nome di un&#39;attività.
-1. Fai clic su **Problemi** sezione.
-1. Clic **Aggiungi altri problemi**.
+1. Fai clic su **Problemi** nel pannello a sinistra.
+1. Clic **Aggiungi altri problemi** in fondo all&#39;elenco dei problemi.
 
    Viene creata una nuova riga nell’elenco dei problemi nella sezione Problemi.
 

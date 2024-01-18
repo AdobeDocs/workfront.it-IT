@@ -1,26 +1,26 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Panoramica sulla durata del problema
-description: La durata di un problema corrisponde al numero di giorni tra la data di inizio pianificata e la data di completamento pianificata del problema.
+title: Panoramica sulla durata della Issue
+description: La durata di un problema è il numero di giorni tra la data di inizio pianificata e la data di completamento pianificata del problema.
 author: Alina
 feature: Work Management
 exl-id: 5a8f7c74-21e4-4e90-bb55-b4ff6e35a751
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 0%
 
 ---
 
-# Panoramica sulla durata del problema
+# Panoramica sulla durata della Issue
 
-La durata di un problema corrisponde al numero di giorni tra la data di inizio pianificata e la data di completamento pianificata del problema. 
+La durata di un problema è il numero di giorni tra la data di inizio pianificata e la data di completamento pianificata del problema.
 
-La durata di un problema viene calcolata automaticamente da Adobe Workfront e non può essere modificata manualmente. 
+La durata di un problema viene calcolata automaticamente da Adobe Workfront e non può essere modificata manualmente.
 
-Puoi visualizzare la durata di un problema in un report del problema o la visualizzazione di un elenco di problemi. 
+È possibile visualizzare la Durata di un problema in un rapporto sui problemi o la visualizzazione di un elenco di problemi.
 
-Per ulteriori informazioni sulla creazione di un rapporto, vedi [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Per ulteriori informazioni sulla creazione di un rapporto, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ![](assets/nwe-issue-duration-view-highlighted-350x73.png)

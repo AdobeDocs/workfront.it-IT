@@ -1,74 +1,73 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Lega manualmente la risoluzione di un problema ad altri problemi, attività o progetti
-description: Puoi collegare manualmente la risoluzione di un problema alla risoluzione di un progetto, un'attività o un problema senza convertire il problema. Il problema diventa uno degli oggetti risolvibili del progetto, dell'attività o del problema selezionato. In questo modo, una modifica dello stato del progetto, dell'attività o del problema determina una modifica dello stato del problema originale.
+title: Collegare manualmente la risoluzione di un problema ad altri problemi, attività o progetti
+description: È possibile collegare manualmente la risoluzione di un problema alla risoluzione di un progetto, un’attività o un problema senza convertire il problema. Il problema diventa uno degli oggetti risolvibili del progetto, dell'attività o del problema selezionato. In questo caso, una modifica dello stato del progetto, dell’attività o del problema determina una modifica dello stato del problema originale.
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: ea430157da539507c11a559a4dce6b24aca9e5a6
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 1%
+source-wordcount: '556'
+ht-degree: 0%
 
 ---
 
-# Lega manualmente la risoluzione di un problema ad altri problemi, attività o progetti
+# Collegare manualmente la risoluzione di un problema ad altri problemi, attività o progetti
 
-Puoi collegare manualmente la risoluzione di un problema alla risoluzione di un progetto, un&#39;attività o un problema senza convertire il problema. Il problema diventa uno degli oggetti risolvibili del progetto, dell&#39;attività o del problema selezionato. In questo modo, una modifica dello stato del progetto, dell&#39;attività o del problema determina una modifica dello stato del problema originale.
+È possibile collegare manualmente la risoluzione di un problema alla risoluzione di un progetto, un’attività o un problema senza convertire il problema. Il problema diventa uno degli oggetti risolvibili del progetto, dell&#39;attività o del problema selezionato. In questo caso, una modifica dello stato del progetto, dell’attività o del problema determina una modifica dello stato del problema originale.
 
 >[!TIP]
 >
->Quando si collega la risoluzione di un problema alla risoluzione di un altro oggetto, non è più possibile modificare manualmente lo stato del problema originale.
+>Quando si associa la risoluzione di un problema alla risoluzione di un altro oggetto, non è più possibile modificare manualmente lo stato del problema originale.
 
-Per ulteriori informazioni sulla risoluzione e la risoluzione degli oggetti risolvibili, vedere [Panoramica sulla risoluzione e risoluzione di oggetti](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+Per ulteriori informazioni sulla risoluzione e la risoluzione degli oggetti, vedere [Panoramica sugli oggetti risolvibili e risolvibili](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta o superiore</p> </td> 
+   <td> <p>Richiedi o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica l'accesso a Problemi, Attività, Progetti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica l'accesso a Issues, Tasks, Projects</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci le autorizzazioni per il problema che colleghi a un altro problema, attività o progetto</p> <p>Visualizza o autorizzazioni superiori per il problema, l'attività o il progetto aggiunto al problema esistente</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il problema collegato a un altro problema, attività o progetto</p> <p>Visualizza o consente di accedere ad altre autorizzazioni per il problema, l'attività o il progetto aggiunto al problema esistente</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Prerequisiti
 
-Prima di iniziare, devi:
+Prima di iniziare, è necessario:
 
-* Avere un problema la cui risoluzione si desidera collegare alla risoluzione di un altro problema, attività o progetto
+* Si è verificato un problema la cui risoluzione si desidera collegare alla risoluzione di un altro problema, attività o progetto
 
-* Avere un problema, un&#39;attività o un progetto aggiuntivo
+* Hai un problema, un&#39;attività o un progetto aggiuntivo
 
-## Legare la risoluzione di un problema alla risoluzione di un altro problema, compito o progetto
+## Associare la risoluzione di un problema alla risoluzione di un altro problema, attività o progetto
 
-1. Passa a un problema di cui desideri collegare la risoluzione alla risoluzione di un altro problema o di un&#39;attività o di un progetto.
-1. Fai clic sul pulsante **Dettagli del problema** > **Panoramica** area.
+1. Passare a un problema la cui risoluzione si desidera associare alla risoluzione di un altro problema o alla risoluzione di un&#39;attività o di un progetto.
+1. Fai clic su **Dettagli problema** nel pannello a sinistra, quindi espandi **Panoramica** area.
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Vai a **Panoramica** nella zona **Dettagli del problema** sezione .
-1. Fai clic sul pulsante **Risolto da** e selezionare uno dei seguenti tipi di oggetti di risoluzione:
+1. Fai clic su **Risolto da** e selezionare uno dei seguenti tipi di oggetti di risoluzione:
 
    * **Progetto**
    * **Attività**
@@ -80,18 +79,17 @@ Prima di iniziare, devi:
    * **Attività risolutiva**
    * **Problema risolutivo**
 
-
-1. Inizia a digitare il nome di un progetto, un&#39;attività o un problema specifico nel **Risoluzione del progetto**, **Attività** oppure **Problema** quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
-
-   >[!NOTE]
-   >
-   >Non è possibile collegare la risoluzione di un problema all&#39;attività o al progetto in cui si trova il problema. L&#39;attività o il progetto del problema non vengono visualizzati nei campi Attività di risoluzione o Attività di risoluzione.
-
-
-1. Fai clic su **Salva modifiche**.
-
-   Il problema originale diventa Oggetto risolvibile per il progetto, l&#39;attività o il problema selezionato nei passaggi 4 e 5. Ciò significa che il problema originale viene completato quando l&#39;oggetto di risoluzione (il progetto, l&#39;attività o il problema a cui l&#39;utente ha collegato) viene completato.
+1. Inizia a digitare il nome di un progetto, attività o problema specifico nel **Progetto risolutivo**, **Attività**, o **Problema** , quindi fare clic su di esso quando viene visualizzato nell&#39;elenco.
 
    >[!NOTE]
    >
-   >Un progetto, un&#39;attività o un problema può avere più problemi come Oggetti Risolvibili.
+   >Non è possibile collegare la risoluzione di un problema all&#39;attività o al progetto in cui si trova il problema. L&#39;attività o il progetto del problema non viene visualizzato nei campi Attività risolutiva o Attività risolutiva.
+
+
+1. Clic **Salva modifiche**.
+
+   Il problema originale diventa l&#39;oggetto risolvibile per il progetto, l&#39;attività o il problema selezionato nei passaggi 4 e 5. Ciò significa che il problema originale viene completato quando viene completato l’oggetto di risoluzione (il progetto, l’attività o il problema a cui l’hai collegato).
+
+   >[!NOTE]
+   >
+   >Un progetto, un&#39;attività o un problema può presentare più problemi come oggetti risolvibili.

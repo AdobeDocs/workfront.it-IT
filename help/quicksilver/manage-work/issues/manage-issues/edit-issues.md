@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 3%
+source-wordcount: '2506'
+ht-degree: 2%
 
 ---
 
@@ -77,8 +77,6 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Facoltativo) Per modificare informazioni limitate su un problema, fai clic su **Dettagli problema** nel pannello a sinistra.
-
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
    >[!NOTE]
    >
@@ -171,7 +169,7 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
        <ul> 
         <li> <p><strong>Nessuno</strong> </p> </li> 
         <li> <p><strong>Basso</strong> </p> </li> 
-        <li> <p><strong>Normal</strong> </p> </li> 
+        <li> <p><strong>Normale</strong> </p> </li> 
         <li> <p><strong>Alta</strong> </p> </li> 
         <li> <p><strong>Urgente</strong> </p> </li> 
        </ul> <p>A seconda delle Preferenze di progetto selezionate dall'amministratore di Workfront, i nomi delle priorità potrebbero essere diversi. Per ulteriori informazioni sulla modifica delle priorità, consulta <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Creare e personalizzare le priorità</a>.</p> </td> 
@@ -195,8 +193,8 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
       <td role="rowheader">Tipo</td> 
       <td> <p>In base alle Proprietà coda selezionate dal project manager nell'area Dettagli coda del progetto, è possibile specificare il tipo di problema. Selezionare una delle seguenti opzioni nella <b>Tipo</b> menu a discesa: </p> 
        <ul> 
-        <li> <p><strong>Segnalazione Bug</strong> </p> </li> 
-        <li> <p><strong>Richiesta di Modifica</strong> </p> </li> 
+        <li> <p><strong>Segnalazione bug</strong> </p> </li> 
+        <li> <p><strong>Cambia ordine</strong> </p> </li> 
         <li> <p><strong>Problema</strong> </p> </li> 
         <li> <p><strong>Richiesta</strong> </p> </li> 
        </ul> <p>A seconda delle Preferenze di progetto selezionate dall’amministratore di Workfront, i nomi dei tipi di problemi potrebbero essere diversi.</p> </td> 
@@ -377,7 +375,7 @@ Esistono alcune limitazioni che potrebbero impedire la modifica dei problemi.
     </tbody> 
    </table>
 
-1. Fai clic su **Salva.**
+1. Clic **Salva.**
 
 ## Modificare un problema nell’intestazione del problema (limitato)
 

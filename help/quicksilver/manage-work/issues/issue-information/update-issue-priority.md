@@ -1,23 +1,23 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Aggiorna priorità del problema
-description: Puoi definire una priorità per un problema per indicare l’importanza del problema.
+title: Aggiorna la priorità del problema
+description: È possibile definire una priorità per un problema per indicare l'importanza del problema.
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '369'
 ht-degree: 2%
 
 ---
 
-# Aggiorna priorità del problema
+# Aggiorna la priorità del problema
 
-Puoi definire una priorità per un problema per indicare l’importanza del problema.
+È possibile definire una priorità per un problema per indicare l&#39;importanza del problema.
 
-Per modificare la priorità del problema è necessario disporre delle autorizzazioni di gestione.  [Aggiornare la priorità di un problema](#update-the-priority-of-an-issue).
+Per modificare la priorità del problema, è necessario disporre delle autorizzazioni di gestione.  [Aggiornare la priorità di un problema](#update-the-priority-of-an-issue).
 
 ## Requisiti di accesso
 
@@ -28,38 +28,38 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta o superiore</p> </td> 
+   <td> <p>Richiedi o superiore</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso ai problemi</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica l'accesso alle Issues</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni al problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il problema</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Panoramica delle priorità delle questioni
+## Panoramica delle priorità dei problemi
 
 A ogni etichetta di priorità è associato un numero che non può essere modificato.
 
-Gli amministratori di Adobe Workfront possono modificare le etichette di priorità in Workfront oppure possono creare nuove priorità. Di conseguenza, le opzioni disponibili per il campo Priorità nell’istanza di Workfront potrebbero essere diverse da quelle elencate di seguito.
+Gli amministratori di Adobe Workfront possono modificare le etichette di priorità in Workfront o creare nuove priorità. Di conseguenza, le opzioni disponibili per il campo Priorità nell’istanza Workfront potrebbero essere diverse da quelle elencate di seguito.
 
-È necessario acquisire familiarità con la sequenza di numerazione per le priorità utilizzate nell&#39;organizzazione.\
-Ad esempio, se l’etichetta della priorità è stata modificata, l’organizzazione potrebbe utilizzare il numero 1 per fare riferimento alle attività urgenti.
+Acquisisci familiarità con la sequenza di numerazione delle priorità utilizzate nell’organizzazione.\
+Ad esempio, la tua organizzazione potrebbe utilizzare il numero 1 per fare riferimento ad attività urgenti, se l’etichetta della priorità è stata modificata.
 
-Per ulteriori informazioni sulla personalizzazione dei nomi delle priorità nell’istanza, vedi [Creare e personalizzare le priorità](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Per ulteriori informazioni sulla personalizzazione dei nomi delle priorità nell’istanza, consulta [Creare e personalizzare le priorità](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-Per informazioni su ciascuna etichetta di priorità predefinita e il relativo numero, fare riferimento alla tabella seguente:
+Per informazioni su ciascuna etichetta di priorità predefinita e sul relativo numero, consulta la tabella seguente:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +67,7 @@ Per informazioni su ciascuna etichetta di priorità predefinita e il relativo nu
  <thead> 
   <tr> 
    <th>Etichetta priorità <br>(Può essere modificato) </th> 
-   <th>Numero priorità <br>(Impossibile modificare) </th> 
+   <th>Numero di priorità <br>(Non modificabile) </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -96,19 +96,17 @@ Per informazioni su ciascuna etichetta di priorità predefinita e il relativo nu
 
 ## Aggiornare la priorità di un problema {#update-the-priority-of-an-issue}
 
-1. Passa al problema di cui vuoi modificare la priorità.
-1. Fai clic su **Dettagli del problema** nel pannello a sinistra.
+1. Passa al problema di cui desideri modificare la priorità.
+1. Clic **Dettagli problema** nel pannello a sinistra.
 
-   ![](assets/nwe-issue-details-left-panel-highlighted-350x207.png)
+   Il **Panoramica** La sezione deve essere visualizzata per impostazione predefinita.
 
-   La **Panoramica** La sezione deve essere visualizzata per impostazione predefinita.
-
-1. Fai clic sul pulsante **Priorità** nel campo **Informazioni di base** area.
+1. Fai clic su **Priorità** campo in **Informazioni di base** area.
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
-1. Seleziona un valore per la **Priorità** campo .
+1. Seleziona un valore per **Priorità** campo.
 
-   Le opzioni variano a seconda della configurazione delle priorità da parte dell’amministratore di Workfront nel sistema.
+   Le opzioni possono variare a seconda di come l’amministratore di Workfront ha configurato Priorità nel sistema.
 
-1. Fai clic su **Salva modifiche**.
+1. Clic **Salva modifiche**.

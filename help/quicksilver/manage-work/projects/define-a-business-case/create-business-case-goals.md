@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Creare gli obiettivi del caso aziendale
-description: Come parte della creazione di un Business Case, puoi creare un insieme di obiettivi per definire gli obiettivi di un progetto. Gli obiettivi del Business Case vengono utilizzati per comunicare al Portfoli Manager o al Project Sponsor lo scopo di completare un progetto.
+title: Creare obiettivi di business case
+description: Durante la creazione di un caso di business, puoi creare una serie di obiettivi per definire gli obiettivi di un progetto. Gli obiettivi del caso di business vengono utilizzati per comunicare al manager del Portfolio o allo sponsor del progetto lo scopo di completare un progetto.
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '487'
 ht-degree: 1%
 
 ---
 
-# Creare gli obiettivi del caso aziendale
+# Creare obiettivi di business case
 
-Come parte della creazione di un Business Case, puoi creare un insieme di obiettivi per definire gli obiettivi di un progetto. Gli obiettivi del Business Case vengono utilizzati per comunicare al Portfoli Manager o al Project Sponsor lo scopo di completare un progetto.
+Durante la creazione di un caso di business, puoi creare una serie di obiettivi per definire gli obiettivi di un progetto. Gli obiettivi del caso di business vengono utilizzati per comunicare al manager del Portfolio o allo sponsor del progetto lo scopo di completare un progetto.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -22,20 +22,20 @@ Come parte della creazione di un Business Case, puoi creare un insieme di obiett
 
 >[!TIP]
 >
->Puoi creare obiettivi strategici per la tua organizzazione che non sono collegati al singolo Business Case di un progetto. Devi avere accesso agli obiettivi di Adobe Workfront per poter creare obiettivi strategici. Puoi quindi collegarli a progetti esterni ai rispettivi casi aziendali. Per informazioni sulla creazione di obiettivi utilizzando gli obiettivi di Workfront, vedi [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>Puoi creare obiettivi strategici per la tua organizzazione che non sono collegati al singolo caso di business di un progetto. Per poter creare obiettivi strategici, devi poter accedere agli obiettivi di Adobe Workfront. Puoi quindi collegarli a progetti al di fuori dei loro casi aziendali. Per informazioni sulla creazione di obiettivi utilizzando gli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-Quando crei obiettivi del Business Case per i tuoi progetti, considera quanto segue:
+Quando crei gli obiettivi del caso di business per i tuoi progetti, tieni presente quanto segue:
 
-* Gli obiettivi del Business Case sono specifici del progetto. Non è possibile copiare gli obiettivi da un progetto all’altro né stabilire obiettivi a livello di sistema. Devono essere definiti a livello di ciascun progetto.
-* L’amministratore di Adobe Workfront o l’amministratore di gruppo deve abilitare la sezione Obiettivi per i progetti prima che venga visualizzata nel Business Case dei progetti. Per informazioni sull&#39;abilitazione dei campi Business Case per i progetti, vedere [Configurare le preferenze del progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Gli obiettivi dei casi di business sono specifici per il progetto. Non è possibile copiare gli obiettivi da un progetto a un altro, né stabilire obiettivi a livello di sistema. Devono essere definite a livello di ciascun progetto.
+* L’amministratore di Adobe Workfront o l’amministratore di gruppo deve abilitare la sezione Obiettivi per i progetti prima che venga visualizzata nel Caso di business dei progetti. Per informazioni sull’abilitazione dei campi Caso di business per i progetti, consulta [Configurare le preferenze di progetto a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* Gli obiettivi non sono una sezione obbligatoria nel Business case di un progetto.
+* Gli obiettivi non sono una sezione obbligatoria nel Business Case di un progetto.
 
-   Un progetto può ricevere un punteggio da assegnare come priorità in Portfoli Optimizer, anche se la sezione Obiettivi del Business Case non è definita.
+  Un progetto può ricevere un punteggio da assegnare come priorità nell’Ottimizzatore Portfolio, anche se la sezione Obiettivi del caso di business non è definita.
 
-   Per ulteriori informazioni sul punteggio di Portfoli Optimizer, vedi [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Per ulteriori informazioni sul punteggio di Portfoli Optimizer, consulta [Applicare una scorecard a un progetto e generare un punteggio di allineamento](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-* Non è possibile creare rapporti sugli obiettivi del caso aziendale.
+* Non è possibile creare rapporti sugli obiettivi del caso di business.
 
 ## Requisiti di accesso
 
@@ -48,7 +48,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Pro o superiore</p> </td> 
   </tr> 
   <tr> 
@@ -56,31 +56,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso a progetti</p> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai progetti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci autorizzazioni o versioni successive per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestisci autorizzazioni o versioni successive per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Aggiungere un obiettivo al Business Case di un progetto
+## Aggiungere un obiettivo al caso di business di un progetto
 
 1. Passare a un progetto per il quale si desidera definire gli obiettivi del Business Case.
-1. Fai clic su **Business case nel pannello a sinistra.**
+1. Clic **Business Case nel pannello a sinistra.**
 
-   Viene visualizzato il Business Case.
+   Viene visualizzato il Business Case (Caso di business).
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. In **Obiettivi** sezione, fai clic su **Modifica obiettivi**.
+1. In **Obiettivi** , fare clic su **Modifica obiettivi**.
 
 1. Specifica gli obiettivi.
- In **Importanza** menu a discesa, seleziona il livello di importanza:
+In **Importanza** dal menu a discesa, selezionare il livello di importanza:
 
    * Il più alto
    * Alta
@@ -88,9 +88,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * Basso
    * Il più basso
 
-      ![](assets/g1-350x76.png)
+     ![](assets/g1-350x76.png)
 
-      Non puoi personalizzare i livelli di importanza degli obiettivi.
+     Non è possibile personalizzare i livelli di importanza degli obiettivi.
 
-1. (Facoltativo) Per aggiungere un altro obiettivo, fai clic su **Aggiungi un altro obiettivo** e ripetere i passaggi 5 e 6.
-1. Fai clic su **Salva**.
+1. (Facoltativo) Per aggiungere un altro obiettivo, fai clic **Aggiungi un altro obiettivo** e ripetere i passaggi 5 e 6.
+1. Clic **Salva**.

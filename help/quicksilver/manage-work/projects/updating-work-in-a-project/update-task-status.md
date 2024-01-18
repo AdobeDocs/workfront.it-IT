@@ -6,9 +6,9 @@ description: È possibile aggiornare lo stato di un'attività per informare gli 
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -23,37 +23,6 @@ Gli stati predefiniti sono Nuovo (New), In corso (In Progress) e Completo (Compl
 
 ## Requisiti di accesso
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 Per aggiornare manualmente le attività, è necessario disporre dei seguenti diritti di accesso:
 
 <table style="table-layout:auto"> 
@@ -61,27 +30,28 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Lavoro o superiore</p> </td> 
+   <td> <p>Nuovo: Standard</p> 
+   Oppure
+   <p>Corrente: Lavoro o versione successiva</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica l'accesso alle Attività</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica l'accesso alle Attività</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per l’attività</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per l’attività</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerazioni sull&#39;aggiornamento dello stato delle attività
 
@@ -94,20 +64,54 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 ## Aggiorna manualmente lo stato delle attività
 
-Quando si aggiorna lo stato di un&#39;attività, è inoltre possibile digitare una spiegazione relativa al nuovo stato e modificare altre informazioni dell&#39;attività, ad esempio la data di scadenza.
+È possibile aggiornare lo stato dell&#39;attività nelle seguenti aree di Workfront:
 
-1. Passare a un&#39;attività a cui si è assegnati per la quale si desidera aggiornare lo stato.
+* L&#39;intestazione dell&#39;attività nella pagina dell&#39;attività.
+* La casella Modifica attività, quando si modifica un&#39;attività.
+* La sezione Dettagli attività nella pagina dell&#39;attività.
+* In un elenco di attività o in un report, quando il campo Stato è visibile nella visualizzazione.
+* Nel pannello Riepilogo dell’attività.
+
+Per aggiornare manualmente lo stato dell&#39;attività nell&#39;intestazione dell&#39;attività:
+
+1. Passare a un&#39;attività per la quale si desidera aggiornare lo stato.
 1. Fai clic su **Stato** nell&#39;intestazione dell&#39;attività e selezionare un nuovo stato.
-1. (Facoltativo) Effettua una delle seguenti operazioni per fornire informazioni aggiuntive sull’aggiornamento, quindi fai clic su **Aggiorna** o, se l&#39;attività ha **Completa** stato, fai clic su **Fine:**
+1. Per fornire un’indicazione visiva del completamento dell’attività, trascina o fai doppio clic sulla bolla sotto **Percentuale completamento** nell’intestazione dell’attività
 
-   * Per aggiungere una nota sull&#39;aggiornamento, passare alla **Aggiornamenti** e fai clic su **Avvia un nuovo aggiornamento**, quindi digita la nota.
+   Oppure
 
-   * Per avvisare alcuni utenti dell’aggiornamento, digita i loro nomi nel **Notifica** visualizzata quando si digita una nota sull&#39;aggiornamento. Per ulteriori informazioni, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Per aggiornare la condizione dell&#39;attività, fare clic su **Seleziona condizione** a destra del **Notifica** (vengono visualizzate quando si digita una nota sull&#39;aggiornamento), quindi selezionare la condizione che meglio riflette la condizione corrente dell&#39;attività.
+   Fai clic all’interno del fumetto nell’intestazione dell’attività per immettere una percentuale.
 
-   * Per aggiornare la data di conferma dell&#39;attività, espandere **Conferma data** e selezionare una nuova Data di conferma.
-   * Per fornire un’indicazione visiva del completamento dell’attività, trascina la bolla sotto Percentuale completata o fai doppio clic su di essa per immettere un valore percentuale.\
-     ![](assets/drag-the-progress-bar-350x155.png)
+   ![](assets/percent-complete-status-widgets-task-header.png)
+
+1. (Facoltativo) Per fornire ulteriori informazioni sull&#39;aggiornamento, effettuare una delle seguenti operazioni:
+
+   * Per aggiungere una nota sull&#39;aggiornamento, passare alla **Aggiornamenti** e fai clic su **Nuovo commento**, quindi digita una nota.
+
+     ![](assets/add-update-to-task.png)
+
+   * Per avvisare alcuni utenti dell’aggiornamento, digita i loro nomi nel **Assegna tag a persone o team** che viene visualizzato quando si digita un commento. Per ulteriori informazioni, consulta [Assegna tag ad altri utenti in caso di aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Per aggiornare la data di conferma dell&#39;attività, fare clic su **Dettagli Attività**, quindi modifica il **Conferma data** campo. Per informazioni, consulta [Modifica attività](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+
+
+   >[!IMPORTANT]
+   >
+   >  Solo gli assegnatari delle attività possono aggiornare la Data di conferma.
+
+<!--old functionality in old commenting: 
+
+1. Go to a task that you are assigned to for which you want to update the status.
+1. Click the **Status** field in the task header and select a new status. 
+1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the task has the **Complete** status, click **Done:**
+
+   * To add a note about the update, go to the **Updates** area and click **Start a new update**, then type your note.  
+
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+   * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
+   
+   * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
+   * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
+     ![](assets/drag-the-progress-bar-350x155.png)-->
 
 ## Aggiorna automaticamente lo stato delle attività
 
@@ -123,9 +127,9 @@ Workfront aggiorna automaticamente lo stato esistente di un&#39;attività a un a
  <col> 
  <tbody> 
   <tr> 
-   <td>Azione</td> 
-   <td>Stato originale</td> 
-   <td>Nuovo stato</td> 
+   <td><b>Azione</b></td> 
+   <td><b>Stato originale</b></td> 
+   <td><b>Nuovo stato</b></td> 
   </tr> 
   <tr> 
    <td>Aggiorna la percentuale di completamento dell'attività al 100%</td> 
