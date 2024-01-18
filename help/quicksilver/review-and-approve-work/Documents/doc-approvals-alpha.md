@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Programma Alpha - Approvazioni documenti
+title: Programma di Alpha - Approvazioni documenti
 description: Siamo lieti di annunciare il lancio del nostro programma di Alpha per l'approvazione dei documenti. Qui troverai informazioni sull’ultima versione di Alpha e un breve video che illustra come iniziare.
 author: Courtney
 feature: Work Management, Digital Content and Documents
@@ -9,14 +9,14 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
 
-# Programma Alpha - Approvazioni documenti
+# Programma di Alpha - Approvazioni documenti
 
 Siamo lieti di annunciare il lancio del nostro programma di Alpha per l&#39;approvazione dei documenti. Qui troverai informazioni sull’ultima versione di Alpha e un breve video che illustra come iniziare.
 
@@ -25,6 +25,20 @@ Siamo lieti di annunciare il lancio del nostro programma di Alpha per l&#39;appr
 Per partecipare a questa versione di Alpha, assicurati che il team di prodotto ti abbia aggiunto all’Alpha in Anteprima. In caso contrario, contatta il tuo Customer Success o Account Manager e richiedi di essere aggiunto.
 
 ## Ultima versione
+
+## Versione Alpha 6 - gennaio 2024
+
+In questo sesto Alpha sono disponibili:
+
+* È stata migliorata l&#39;esperienza di aggiunta dei partecipanti con una nuova finestra a comparsa per evitare che persone vengano accidentalmente aggiunte e avvisate
+* È stato aggiunto un nuovo widget &quot;Approvazioni in sospeso&quot; che mostra tutte le approvazioni in sospeso per i progetti che possiedi, inclusa la possibilità di vedere tutti coloro che sono sull’approvazione, il loro stato e la possibilità di ricordare a chiunque non abbia ancora preso una decisione
+* È stata aggiunta una nuova azione &quot;Completa la mia revisione&quot; per tutti i revisori, che possono utilizzare per indicare che hanno completato il loro passaggio
+
+Di seguito trovi il video completo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426860/)
+
+## _Versioni precedenti_
 
 ### Versione Alpha 5 - settembre 2023
 
@@ -36,11 +50,7 @@ In questo 5° Alpha sono disponibili:
 * Possibilità di aggiungere approvatori esterni
 * È stata migliorata la visualizzazione per gli approvatori esterni di anteprima, download e commenti su un documento.
 
-Di seguito trovi il video completo:
-
->[!VIDEO](https://video.tv.adobe.com/v/3424613/)
-
-## _Versioni precedenti_
+Osserva [video introduttivo](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Versione Alpha 4 - Maggio 2023
 
@@ -48,15 +58,13 @@ In questa versione del quarto Alpha, prima del lancio in produzione per un solo 
 
 Siamo entusiasti di questa pietra miliare e non vediamo l&#39;ora di molto altro!
 
-Di seguito trovi il video completo:
-
-Osserva [video introduttivo](https://video.tv.adobe.com/v/3420094/){target=_blank}
+Osserva [video introduttivo](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Versione Alpha 3 - marzo 2023
 
 In questo terzo Alpha, i tuoi commenti e suggerimenti sono stati integrati con l’introduzione di messaggi di successo che vengono visualizzati al termine di azioni quali l’aggiunta o la rimozione di approvatori e revisori. Inoltre, questa versione offre una visibilità migliorata delle approvazioni in sospeso, che ora possono essere visualizzate nella pagina Home e My Updates (I miei aggiornamenti), consentendo agli utenti di approvare facilmente i documenti direttamente da queste pagine.
 
-Osserva [video introduttivo](https://video.tv.adobe.com/v/3417854/){target=_blank}
+Osserva [video introduttivo](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Alpha versione 2 - gennaio 2023
 
