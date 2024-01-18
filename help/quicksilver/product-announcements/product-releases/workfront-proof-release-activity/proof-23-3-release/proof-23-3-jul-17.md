@@ -3,9 +3,11 @@ title: 23.3 Miglioramenti delle bozze
 description: 23.3 Miglioramenti delle bozze
 author: Lisa
 feature: Product Announcements
-source-git-commit: 6f1327ea52dc17d8fac0c80d030c40ccb5b4da2a
+recommendations: noDisplay, noCatalog
+exl-id: ae82359b-563a-47bd-aefa-973da5daaf79
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---

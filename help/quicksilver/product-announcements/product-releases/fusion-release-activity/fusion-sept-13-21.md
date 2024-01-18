@@ -4,26 +4,27 @@ description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 13 se
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: d9056d6f-a62d-4516-930e-4c3f4fbaec3e
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '484'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio di Workfront Fusion: Settimana del 13 settembre 2021
+# Attività di rilascio di Workfront Fusion: settimana del 13 settembre 2021
 
-Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusion la settimana del 23 settembre 2021.
+Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 23 settembre 2021.
 
 Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
-## Filtrare e ordinare la cronologia dell&#39;esecuzione di uno scenario Workfront Fusion
+## Filtrare e ordinare la cronologia di esecuzione dello scenario di Workfront Fusion
 
-Per facilitare la ricerca di esecuzioni di scenari specifici, abbiamo reso possibile filtrare per più campi nella cronologia di esecuzione dello scenario. Ora, oltre ai filtri esistenti, puoi filtrare in base ai seguenti elementi:
+Per facilitare la ricerca di esecuzioni specifiche dello scenario, è stato possibile filtrare per più campi nella cronologia di esecuzione dello scenario. Ora, oltre ai filtri esistenti, puoi filtrare in base ai seguenti elementi:
 
 * Durata esecuzione
 * Numero di operazioni
@@ -32,34 +33,34 @@ Per facilitare la ricerca di esecuzioni di scenari specifici, abbiamo reso possi
 
 In precedenza, la cronologia di esecuzione poteva essere filtrata solo in base all’ora di inizio o allo stato.
 
-Abbiamo anche reso possibile ordinare la cronologia dell&#39;esecuzione degli scenari. Puoi ordinare in base ai seguenti valori:
+Abbiamo anche reso possibile ordinare la cronologia di esecuzione dello scenario. Puoi ordinare in base ai seguenti valori:
 
-* Ora di inizio esecuzione
+* Ora di inizio dell’esecuzione
 * Stato di esecuzione
 * Durata esecuzione
 * Numero di operazioni
 * Quantità di dati trasferiti
 
-Per ulteriori informazioni sul filtro e sull’ordinamento della cronologia di esecuzione, consulta [Visualizzare la cronologia di esecuzione di uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Per ulteriori informazioni sul filtraggio e l’ordinamento della cronologia di esecuzione, consulta [Visualizzare la cronologia di esecuzione di uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
-## I collegamenti alla Guida in linea in Fusion ora portano ad articoli specifici
+## I collegamenti della Guida in linea in Fusion ora conducono ad articoli specifici
 
-Per facilitare la ricerca delle informazioni necessarie, abbiamo aggiornato i collegamenti di aiuto in Fusion per portare direttamente all&#39;articolo sull&#39;area di fusione in cui si sta lavorando.
+Per facilitare la ricerca delle informazioni necessarie, sono stati aggiornati i collegamenti della Guida in linea di Fusion che consentono di passare direttamente all&#39;articolo relativo all&#39;area di Fusion in cui si sta lavorando.
 
-È possibile fare clic sull&#39;icona di aiuto in qualsiasi area di Fusion da portare all&#39;articolo che parla di tale area. Ad esempio, il collegamento della guida nel pannello Impostazioni scenario porta all&#39;articolo che descrive il pannello Impostazioni scenario, mentre il collegamento della guida in un modulo Workfront porta all&#39;articolo che descrive come impostare i moduli Workfront. È inoltre possibile fare clic sui collegamenti evidenziati nel testo esplicativo, portare anche all&#39;articolo che è rilevante per quel testo esplicativo, come un elenco di formati di data e ora supportati.
+È possibile fare clic sull&#39;icona dell&#39;Aiuto in qualsiasi area di Fusion per passare all&#39;articolo relativo a tale area. Ad esempio, il collegamento della guida nel pannello Impostazioni scenario rimanda all’articolo che descrive il pannello Impostazioni scenario, mentre il collegamento della guida in un modulo di Workfront rimanda all’articolo che descrive la modalità di configurazione dei moduli di Workfront. Puoi anche fare clic sui collegamenti evidenziati nel testo esplicativo per visualizzare l’articolo pertinente a tale testo, ad esempio un elenco dei formati di data e ora supportati.
 
-In precedenza, i collegamenti della guida di Fusion aprirono la documentazione di Workfront Fusion, che era quindi possibile cercare l&#39;argomento desiderato.
+In precedenza, i collegamenti della guida di Fusion aprivano la documentazione di Workfront Fusion, che era possibile cercare nell’argomento desiderato.
 
-## La cronologia di esecuzione degli scenari mostra solo il pulsante Dettagli quando i dettagli sono disponibili
+## La cronologia di esecuzione dello scenario mostra il pulsante Dettagli solo quando i dettagli sono disponibili
 
-Per migliorare la chiarezza nella tabella di esecuzione dello scenario, abbiamo reso visibile il pulsante Dettagli solo per le esecuzioni che presentano dettagli disponibili. Ora, puoi verificare immediatamente se i dettagli di un&#39;esecuzione sono stati archiviati. La funzionalità del pulsante Dettagli non è stata modificata.
+Per chiarezza nella tabella di esecuzione dello scenario, il pulsante Details (Dettagli) è visibile solo per le esecuzioni che presentano dettagli disponibili. Ora, puoi dire subito se i dettagli di un’esecuzione sono stati archiviati. La funzionalità del pulsante Dettagli non è stata modificata.
 
-In precedenza, tutte le esecuzioni avevano un pulsante Dettagli e occasionalmente gli utenti facevano clic nei dettagli solo per scoprire che non c&#39;erano dettagli disponibili.
+In precedenza, tutte le esecuzioni avevano un pulsante Dettagli e occasionalmente gli utenti facevano clic sui dettagli solo per scoprire che non erano disponibili dettagli.
 
 Per ulteriori informazioni, consulta [Visualizzare la cronologia di esecuzione di uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
-## Timeout del connettore di traduzione gestito SDL aumentato a 120 secondi
+## Timeout del connettore SDL Managed Translation aumentato a 120 secondi
 
-Per ridurre i timeout nel connettore di traduzione gestita SDL, abbiamo aumentato la durata del timeout a 120 secondi.
+Per ridurre i timeout sul connettore SDL Managed Translation, la durata del timeout è stata aumentata a 120 secondi.
 
-In precedenza, SDL Managed Translation aveva seguito la protezione del timeout di Workfront Fusion di 40 secondi.
+In precedenza, SDL Managed Translation seguiva il timeout di Workfront Fusion di 40 secondi.

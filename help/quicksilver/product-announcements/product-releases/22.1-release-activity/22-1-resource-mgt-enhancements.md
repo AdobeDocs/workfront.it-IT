@@ -1,20 +1,21 @@
 ---
-title: Miglioramenti a Gestione risorse 22.1
-description: Miglioramenti a Gestione risorse 22.1
+title: 22.1 Miglioramenti alla gestione delle risorse
+description: 22.1 Miglioramenti alla gestione delle risorse
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
-source-git-commit: e0a8093be33773a8b801567cfbe90f67701f9ff3
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
-# Miglioramenti a Gestione risorse 22.1
+# 22.1 Miglioramenti alla gestione delle risorse
 
-Questa pagina descrive tutti i miglioramenti apportati alla gestione delle risorse con la versione 22.1 nell’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell&#39;ambiente di produzione
+Questa pagina descrive tutti i miglioramenti alla gestione delle risorse apportati con la versione 22.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -24,30 +25,30 @@ in January 2022
 
 la settimana del 17 gennaio 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.1, vedi [Panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta [Panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
-## Miglioramenti al pannello Impostazioni e alla capacità di colorare i progetti e le loro attività nel workload Balancer
+## Sono stati apportati miglioramenti al pannello Impostazioni e alla possibilità di codificare i colori dei progetti e delle relative attività nel Bilanciatore dei carichi di lavoro
 
-Per migliorare la tua esperienza quando utilizzi il servizio di bilanciamento del carico di lavoro, sono stati introdotti i seguenti miglioramenti:
+Per migliorare la tua esperienza nell’utilizzo del Bilanciatore dei carichi di lavoro, sono stati introdotti i seguenti miglioramenti:
 
-* Il pannello Impostazioni è stato riprogettato per includere opzioni precedentemente presenti nella barra degli strumenti. Questo migliora l’utilizzo dello spazio nella barra degli strumenti.
-* Aggiunta la possibilità di personalizzare il tema del colore in base a Progetto. Quando si sceglie di colorare il codice in base a Progetto, ogni progetto e i relativi elementi di lavoro vengono visualizzati con lo stesso colore. I colori sono unici per ogni progetto. Prima di questo miglioramento, era possibile usare solo il codice a colori in base allo stato del progetto.
+* Il pannello Impostazioni è stato riprogettato in modo da includere le opzioni che si trovavano in precedenza sulla barra degli strumenti. Questo migliora l’utilizzo dello spazio nella barra degli strumenti.
+* È stata aggiunta la possibilità di personalizzare il tema colore in Project. Quando si seleziona per il codice colore in base a Project, ogni progetto e i relativi elementi di lavoro vengono visualizzati nello stesso colore. I colori sono univoci per ciascun progetto. Prima di questo miglioramento, era possibile usare solo il codice colore in base allo stato del progetto.
 
-Per ulteriori informazioni, consulta [Naviga nel bilanciamento del carico di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Per ulteriori informazioni, consulta [Navigare nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Assegnare il lavoro in blocco utilizzando il bilanciamento del carico di lavoro
+## Assegnare il lavoro in blocco utilizzando il Bilanciatore dei carichi di lavoro
 
-Continuando il nostro sforzo per deprecare gli strumenti di programmazione e sostituirli con il load Balancer, abbiamo aggiunto la possibilità di gestire le assegnazioni in blocco. È ora possibile assegnare più elementi di lavoro alla volta a più utenti, sostituire gli utenti di più elementi di lavoro con altri utenti e annullare l&#39;assegnazione degli utenti da più elementi contemporaneamente. Puoi eseguire tutte queste operazioni con una sola azione utilizzando la nuova funzionalità Assegnazione in blocco nel servizio di bilanciamento del carico di lavoro.
+Continuando il nostro impegno per rendere obsoleti gli strumenti di pianificazione e sostituirli con il Bilanciatore dei carichi di lavoro, abbiamo aggiunto la possibilità di gestire le assegnazioni in blocco. È ora possibile assegnare più elementi di lavoro alla volta a più utenti, sostituire gli utenti di più elementi di lavoro con altri utenti e annullare l&#39;assegnazione degli utenti di più elementi contemporaneamente. Puoi eseguire tutte queste operazioni con una sola azione, utilizzando la nuova funzionalità Assegnazione in blocco nel Bilanciatore dei carichi di lavoro.
 
 Prima di questo miglioramento, era possibile assegnare un solo utente a un elemento di lavoro manualmente o trascinandolo e rilasciandolo.
 
-Le nuove assegnazioni in blocco includono anche nuove funzionalità di filtro per Stato progetto e attività, oltre a Nome.
+Le nuove assegnazioni in blocco includono anche nuove funzionalità di filtro per progetto e stato attività, oltre a Nome.
 
-Per ulteriori informazioni, consulta [Panoramica dell’assegnazione del lavoro nel servizio di bilanciamento del carico di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Per ulteriori informazioni, consulta [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-## Ignora valuta durante la gestione dei ruoli del lavoro
+## Sostituisci valuta durante la gestione delle mansioni
 
-Per aiutarti a gestire facilmente i tassi di costo e fatturazione tra le organizzazioni globali, abbiamo implementato la sostituzione della valuta di un ruolo di lavoro. Utilizzando questa funzione, è ora possibile impostare i tassi di costo e fatturazione per i ruoli di lavoro nella valuta che corrisponde alla posizione del ruolo di lavoro. In questo modo verrà ignorata la valuta del sistema in tutti i calcoli finanziari per il ruolo di lavoro.
+Per aiutarti a gestire facilmente i costi e le tariffe di fatturazione tra le organizzazioni globali, abbiamo implementato l’override della valuta di un ruolo. Utilizzando questa funzione, è ora possibile impostare i costi e le tariffe di fatturazione per le mansioni nella valuta corrispondente alla posizione della mansione. In questo modo verrà ignorata la valuta di sistema in tutti i calcoli finanziari per il ruolo.
 
-Per informazioni, consulta [Creare e gestire ruoli di lavoro](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Per informazioni, consulta [Creare e gestire le mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 

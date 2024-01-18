@@ -4,26 +4,27 @@ description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 25 ap
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 8b61a987-92c3-4fc1-82fc-a1f4e35e4e40
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio di Workfront Fusion: 25 aprile 2022
+# Attività di rilascio di Workfront Fusion: settimana del 25 aprile 2022
 
-Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusion la settimana del 25 aprile 2022.
+Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 25 aprile 2022.
 
 Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
-## Connettore Adobe Workfront Proof ora disponibile per gli utenti con una licenza Workfront Fusion for Automation
+## Il connettore Adobe Workfront Proof è ora disponibile per gli utenti con una licenza Workfront Fusion for Automation
 
-Poiché Workfront Proof è strettamente integrato con Workfront e uno dei principali componenti di molti flussi di lavoro Workfront, stiamo rendendo disponibile il connettore Workfront Proof alle organizzazioni con una licenza Workfront Fusion for Work Automation. Ora è possibile utilizzare Workfront Proof negli scenari Fusion indipendentemente dalla licenza.
+Poiché Workfront Proof è strettamente integrato con Workfront e costituisce un componente principale di molti flussi di lavoro Workfront, il connettore Workfront Proof è ora disponibile per le organizzazioni con una licenza Workfront Fusion for Work Automation. Ora è possibile utilizzare Workfront Proof negli scenari Fusion indipendentemente dalla licenza.
 
 In precedenza, il connettore Workfront Proof era disponibile solo per le organizzazioni con una licenza Workfront Fusion for Work Automation and Integration.
 

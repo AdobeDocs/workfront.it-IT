@@ -2,43 +2,44 @@
 content-type: release-notes
 keywords: note,trimestrale,aggiornamento
 navigation-topic: product-releases
-title: 21.1 Miglioramenti delle analisi migliorate
-description: Questa pagina descrive tutti i miglioramenti apportati alla gestione dei progetti con la versione 21.1 nell’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell'ambiente di produzione la settimana del 15 febbraio 2021.
+title: 21.1 Miglioramenti delle funzioni di analisi
+description: Questa pagina descrive tutti i miglioramenti di Project Management apportati con la versione 21.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 15 febbraio 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '302'
 ht-degree: 2%
 
 ---
 
-# 21.1 Miglioramenti delle analisi migliorate
+# 21.1 Miglioramenti delle funzioni di analisi
 
-Questa pagina descrive tutti i miglioramenti apportati alla gestione dei progetti con la versione 21.1 nell’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell&#39;ambiente di produzione la settimana del 15 febbraio 2021.
+Questa pagina descrive tutti i miglioramenti di Project Management apportati con la versione 21.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 15 febbraio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.1, vedi [Panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.1, consulta [Panoramica sulla versione 21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
-## L&#39;analisi avanzata ora viene visualizzata per impostazione predefinita
+## Le funzioni di analisi avanzate vengono ora visualizzate per impostazione predefinita
 
 >[!NOTE]
 >
->Questa modifica si applica solo agli utenti che sono stati aggiunti di recente ai modelli di layout. Questa modifica non interessa anche gli utenti assegnati a un modello di layout personalizzato.
+>Questa modifica si applica solo agli utenti che sono stati aggiunti di recente ai modelli di layout. Anche gli utenti assegnati a un modello di layout personalizzato non sono interessati da questa modifica.
 
-Nel modello di layout predefinito, l’area di Analytics è ora abilitata per impostazione predefinita. Questo significa che gli utenti assegnati a questo modello di layout vedono ora l’area di Analytics nella barra di navigazione globale in Adobe Workfront Classic e il menu principale nella nuova esperienza Adobe Workfront.
+Nel modello di layout predefinito, l’area Analytics è ora attivata per impostazione predefinita, il che significa che gli utenti assegnati a questo modello di layout ora visualizzano l’area Analytics nella barra di navigazione globale in Adobe Workfront Classic e il menu principale nella nuova esperienza Adobe Workfront.
 
-Per ulteriori informazioni sull’analisi avanzata, consulta [Panoramica dell’analisi migliorata](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Per ulteriori informazioni sulle funzioni di analisi avanzate, consulta [Panoramica di analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Analisi ottimizzata disponibile per tutti i cluster
+## Analisi avanzate disponibili per tutti i cluster
 
-L&#39;analisi avanzata è disponibile per tutti i cluster Workfront, inclusi i clienti nel cluster 6.
+L&#39;analisi avanzata è disponibile per tutti i cluster Workfront, inclusi i clienti del cluster 6.
 
-In precedenza, l’analisi avanzata non era disponibile con Google Cloud Platform e impediva ai clienti di Cluster 6 di accedere all’area di Analytics. Ora i clienti aziendali ed Enterprise del cluster 6 possono accedere all&#39;area di Analytics.
+In precedenza, l’analisi avanzata non era disponibile con Google Cloud Platform, impedendo ai clienti nel cluster 6 di accedere all’area Analytics. Ora i clienti aziendali e aziendali del cluster 6 possono accedere all’area di Analytics.
 
-Per ulteriori informazioni sull’analisi avanzata, consulta [Panoramica dell’analisi migliorata](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Per ulteriori informazioni sulle funzioni di analisi avanzate, consulta [Panoramica di analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Pagina Persone ora disponibile per tutti i cluster
+## La pagina Persone è ora disponibile per tutti i cluster
 
 La pagina Persone è ora disponibile in Workfront Classic per il cluster 4. Questa pagina include i seguenti grafici:
 
@@ -46,6 +47,6 @@ La pagina Persone è ora disponibile in Workfront Classic per il cluster 4. Ques
 * Capacità risorse
 * Capacità del team
 
-Questa pagina era già disponibile con la versione 20.3 sia in Workfront Classic che con la nuova esperienza Workfront per tutti gli altri cluster.
+Questa pagina era precedentemente disponibile con la versione 20.3 sia in Workfront Classic che nella nuova esperienza Workfront per tutti gli altri cluster.
 
-Per ulteriori informazioni sui grafici disponibili nella pagina Persone, consulta [Panoramica dell’analisi migliorata](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Per ulteriori informazioni sui grafici disponibili nella pagina Persone, consulta [Panoramica di analisi avanzate](../../../enhanced-analytics/enhanced-analytics-overview.md).

@@ -4,10 +4,11 @@ description: Panoramica sulla versione 23.1
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: e86524d3-5f57-45b6-8582-102d2de92be4
-source-git-commit: a99c746e9863e06ccc1890fc07533f4024cb0059
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2435'
+source-wordcount: '2461'
 ht-degree: 0%
 
 ---
@@ -455,7 +456,7 @@ Il webinar sulla versione 23.1 si è tenuto martedì 10 gennaio 2023. È possibi
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Come accedere all’Aiuto di Workfront, per i clienti sull’Adobe di Unified Experience</a></p>
                         <p>Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Admin Console e nell’Adobe di esperienza unificata per Workfront, la barra di navigazione di Workfront non include più il collegamento "Aiuto".</p>
-                        <p>Puoi accedere alla guida di Workfront su Adobe Experience League dal menu principale a sinistra della barra di navigazione di Workfront o dall’icona del punto interrogativo nell’area di navigazione superiore.</p>
+                        <p>È possibile accedere alla guida di Workfront in Adobe Experience League dal menu principale a sinistra della barra di navigazione di Workfront o dall'icona del punto interrogativo nell'area di navigazione superiore.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                      <p>

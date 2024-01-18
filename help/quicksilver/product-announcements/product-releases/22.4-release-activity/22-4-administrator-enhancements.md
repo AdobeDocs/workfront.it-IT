@@ -1,64 +1,65 @@
 ---
-title: Miglioramenti dell’amministratore 2.4
-description: Miglioramenti dell’amministratore 2.4
+title: 22.4 Miglioramenti per gli amministratori
+description: 22.4 Miglioramenti per gli amministratori
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 80fa784e15c3b4a927ee8ba2d18a80a2d84f4a91
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
 
-# Miglioramenti dell’amministratore 2.4
+# 22.4 Miglioramenti per gli amministratori
 
-Questa pagina descrive tutti i miglioramenti apportati dall’amministratore all’ambiente di anteprima con la versione 22.4. Questi miglioramenti saranno resi disponibili la settimana del 3 ottobre 2022.
+Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione 22.4 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili la settimana del 3 ottobre 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.4, vedi [Panoramica sulla versione 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.4, consulta [Panoramica sulla versione 22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Utilizzare gli stati sbloccati in un processo di approvazione
 
 >[!NOTE]
 >
->Questa funzione è stata introdotta per la prima volta nell’ambiente di anteprima durante l’intervallo di tempo di rilascio 22.3. Rilascia alla produzione il 15 settembre 2022.
+>Questa funzione è stata introdotta per la prima volta nell’ambiente di anteprima durante l’intervallo di tempo di rilascio 22.3. Viene rilasciato in produzione il 15 settembre 2022.
 
-Per ottenere un maggiore controllo sui processi e gli stati di approvazione del sistema, abbiamo reso possibile creare un processo di approvazione basato sullo stato di un sistema sbloccato. Inoltre, ora puoi sbloccare qualsiasi stato già utilizzato in un processo di approvazione. In precedenza, era necessario bloccare lo stato di un sistema utilizzato in un processo di approvazione. Ciò lo ha reso disponibile per tutti i gruppi, senza la possibilità di rimuoverlo o rinominarlo, in modo che gli amministratori dei gruppi non potessero semplificare l&#39;elenco degli stati del loro gruppo in base alle loro esigenze specifiche.
+Per avere un maggiore controllo sui processi e sugli stati di approvazione nel sistema, è stato possibile creare un processo di approvazione basato sullo stato sbloccato del sistema. Inoltre, ora puoi sbloccare qualsiasi stato già utilizzato in un processo di approvazione. In precedenza, era necessario bloccare uno stato di sistema utilizzato in un processo di approvazione. Questo lo ha reso disponibile per tutti i gruppi, senza la possibilità di rimuoverlo o rinominarlo, pertanto gli amministratori dei gruppi non hanno potuto semplificare l’elenco degli stati del gruppo in base alle loro esigenze specifiche.
 
-## Icona Blueprint nel menu principale ora controllata attraverso i modelli di layout
+## Icona Blueprint nel menu principale ora controllata tramite modelli di layout
 
-Gli amministratori di sistema possono ora aggiungere o rimuovere l’icona Blueprint nel menu principale tramite la configurazione del modello di layout. Questo offre un maggiore controllo sugli utenti che possono sfogliare il catalogo Blueprint.
+Ora gli amministratori di sistema possono aggiungere o rimuovere l’icona Blueprint nel menu principale tramite la configurazione del modello di layout. Questo offre un maggiore controllo su chi può sfogliare il catalogo Blueprint.
 
-L’icona Blueprint viene visualizzata nel menu principale quando:
+L&#39;icona Blueprints viene visualizzata nel menu principale quando:
 
-* All&#39;utente non è assegnato alcun modello di layout
+* Nessun modello di layout assegnato all&#39;utente
 
-* Nel modello di layout dell&#39;utente è presente l&#39;opzione Blueprint nell&#39;elenco Active Items (Elementi attivi)
+* Il modello di layout dell&#39;utente include l&#39;opzione Blueprint nell&#39;elenco Elementi attivi
 
-* Nel modello di layout dell&#39;utente è presente l&#39;opzione Blueprint nell&#39;elenco Elementi disponibili, l&#39;icona non viene visualizzata nel menu principale.
+* Il modello di layout dell&#39;utente dispone dell&#39;opzione Blueprint nell&#39;elenco Elementi disponibili; l&#39;icona non viene visualizzata nel menu principale.
 
-I modelli di layout esistenti includono automaticamente l’icona Blueprint e gli amministratori possono rimuovere l’icona dai modelli di layout per limitare la visibilità del catalogo Blueprint. I nuovi modelli di layout creati dopo la versione 22.4 includeranno l’icona Blueprint nell’elenco Elementi attivi.
+I modelli di layout esistenti includono automaticamente l’icona Blueprint e gli amministratori possono rimuovere l’icona dai modelli di layout per limitare la visibilità del catalogo Blueprint. I nuovi modelli di layout creati dopo la versione 22.4 includeranno l’icona Blueprints nell’elenco Active Items (Elementi attivi).
 
-Per ulteriori informazioni, consulta [Configurare l’accesso alle blueprint](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
+Per ulteriori informazioni, consulta [Configurare l’accesso ai blueprint](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
-## Personalizzazione dell’intestazione del problema
+## Personalizzazione intestazione problema
 
-In qualità di amministratore di gruppo o di Workfront, è ora possibile personalizzare i campi visualizzati nell’intestazione di un problema quando si utilizza un modello di layout.
+In qualità di amministratore di Workfront o di gruppo, ora puoi personalizzare i campi visualizzati nell’intestazione di un problema quando utilizzi un modello di layout.
 
 Questo aggiornamento include i seguenti miglioramenti:
 
-* Rimuovi o ridisponi i campi esistenti dall&#39;intestazione del problema.
+* Rimuovi o ridisponi i campi esistenti dall’intestazione del problema.
 
-* Aggiungi nuovi campi Panoramica dei problemi non modificabili. Non è possibile aggiungere campi o campi personalizzati che è possibile modificare. Puoi anche visualizzare campi modificabili attualmente presenti nell’intestazione del problema (ad esempio, Stato o Percentuale completata).
+* Aggiungere nuovi campi non modificabili per la panoramica del problema. Non è possibile aggiungere campi personalizzati o campi modificabili. Puoi anche visualizzare i campi modificabili che si trovano attualmente nell’intestazione del problema (ad esempio, Stato o Percentuale di completamento).
 
-* L&#39;intestazione del problema può includere fino a cinque campi.
+* L’intestazione del problema può includere fino a cinque campi.
 
-* Ora puoi aggiungere il campo &quot;Risolto da&quot; all’intestazione del problema. Quando un oggetto di risoluzione è associato al problema, il campo &quot;Risolto da&quot; diventa &quot;Problema di risoluzione&quot;, &quot;Attività di risoluzione&quot; o &quot;Progetto di risoluzione&quot;, a seconda del tipo di oggetto associato al problema.
+* Ora puoi aggiungere il campo &quot;Risolto da&quot; all’intestazione del problema. Quando al problema è associato un oggetto di risoluzione, il campo &quot;Risolto da&quot; diventa &quot;Problema di risoluzione&quot;, &quot;Attività di risoluzione&quot; o &quot;Progetto di risoluzione&quot;, a seconda del tipo di oggetto associato al problema.
 
-Prima di questa versione, era possibile personalizzare solo le intestazioni di progetto e attività.
+Prima di questa versione, era possibile personalizzare solo le intestazioni di progetto e di attività.
 
 
 
@@ -66,60 +67,60 @@ Per ulteriori informazioni, consulta [Personalizzare le intestazioni degli ogget
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
-## Personalizzazione dell’intestazione delle attività
+## Personalizzazione intestazione attività
 
-In qualità di amministratore di gruppo o di Workfront, è ora possibile personalizzare i campi visualizzati nell’intestazione di un’attività quando si utilizza un modello di layout.
+In qualità di amministratore di Workfront o di gruppo, ora puoi personalizzare i campi visualizzati nell’intestazione di un’attività quando utilizzi un modello di layout.
 
 Questo aggiornamento include i seguenti miglioramenti:
 
 * Rimuovere o ridisporre i campi esistenti dall&#39;intestazione dell&#39;attività.
 
-* Aggiungi nuovi campi Panoramica attività non modificabili. Non è possibile aggiungere campi o campi personalizzati che è possibile modificare. È inoltre possibile visualizzare campi modificabili attualmente presenti nell’intestazione dell’attività (ad esempio, Stato o Percentuale completata).
+* Aggiungere nuovi campi di panoramica attività non modificabili. Non è possibile aggiungere campi personalizzati o campi modificabili. È inoltre possibile visualizzare i campi modificabili attualmente presenti nell&#39;intestazione dell&#39;attività, ad esempio Stato o Percentuale di completamento.
 
-* L’intestazione dell’attività può includere fino a cinque campi.
+* L&#39;intestazione dell&#39;attività può includere fino a cinque campi.
 
 Prima di questa versione, era possibile personalizzare solo le intestazioni del progetto.
 
 Per ulteriori informazioni, consulta [Personalizzare le intestazioni degli oggetti utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Guarda un video dimostrativo di questa funzione.](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
-## Funzionalità opt-in per le funzioni più recenti sulle bacheche
+## Consenso anticipato per le funzioni più recenti delle bacheche
 
-Siamo entusiasti di aprire nuove funzioni per l&#39;opt-in di funzionalità in fase iniziale. Questo strumento opzionale è disponibile per tutte le organizzazioni.
+Siamo entusiasti di aprire nuove funzioni per le schede madri con consenso alle funzioni anticipate. Questo strumento opzionale è disponibile per tutte le organizzazioni.
 
-Solo un amministratore di Workfront può scegliere di utilizzare le funzioni iniziali. Quando l’amministratore sceglie le funzioni iniziali, tutti gli utenti dell’organizzazione accedono e le funzioni aggiuntive sono abilitate nell’ambiente Workfront di produzione.
+Solo un amministratore di Workfront può dare il consenso alle funzioni preliminari. Quando l’amministratore acconsente alle funzioni iniziali, tutti gli utenti dell’organizzazione hanno acconsentito e le funzioni aggiuntive sono abilitate nell’ambiente Workfront di produzione.
 
-Per ulteriori informazioni, consulta [Funzionalità opt-in in anteprima per le schede Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Per ulteriori informazioni, consulta [Consenso anticipato alle funzioni per le schede madri Adobe Workfront](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[Guarda un video dimostrativo di questa funzione.](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
-## Nell’editor per il calcolo dei campi del modulo personalizzato vengono visualizzate informazioni di errore
+## L’editor di calcolo per i campi modulo personalizzati visualizza le informazioni sull’errore
 
 >[!NOTE]
 >
->Questa funzione è stata introdotta per la prima volta nell’ambiente di anteprima durante l’intervallo di tempo di rilascio 22.3. Viene rilasciato a Production con la versione 22.4.
+>Questa funzione è stata introdotta per la prima volta nell’ambiente di anteprima durante l’intervallo di tempo di rilascio 22.3. Viene rilasciato in produzione con la versione 22.4.
 
-La modifica dei calcoli per i campi personalizzati è ora più semplice grazie alle utili informazioni di errore indicate direttamente nel calcolo. Durante la creazione di un campo calcolato in un modulo personalizzato, gli errori vengono evidenziati in rosa. Quando passi il cursore del mouse sulla parte evidenziata, viene visualizzata una descrizione del problema.
+La modifica dei calcoli per i campi personalizzati è ora più semplice grazie alle utili informazioni sugli errori indicate direttamente nel calcolo. Durante la creazione di un campo calcolato in un modulo personalizzato, gli errori vengono evidenziati in rosa. Quando passi il cursore del mouse sulla parte evidenziata, viene visualizzata una descrizione per descrivere il problema.
 
 Per ulteriori informazioni, consulta [Aggiungere dati calcolati a un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-[Guarda un video dimostrativo di questa funzione.](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
-## Migrazione a Adobe Unified Experience
+## Migrazione ad Adobe Unified Experience
 
-NOTA: Questa migrazione è stata posticipata al secondo trimestre del 2023. Tutti i clienti interessati riceveranno una notifica in quel momento.
+NOTA: questa migrazione è stata posticipata al secondo trimestre del 2023. Tutti i clienti interessati riceveranno una notifica in tale momento.
 
-Se l’organizzazione è stata caricata su Adobe Admin Console, l’istanza Workfront verrà migrata all’esperienza unificata di Adobe con la versione 22.4.
+Se per la tua organizzazione è stato eseguito l’onboarding in Adobe Admin Console, l’istanza di Workfront verrà migrata all’esperienza unificata Adobe con la versione 22.4.
 
 L’esperienza unificata di Adobe include:
 
-* Un unico accesso per tutte le applicazioni Adobe tramite Adobe Experience Cloud
+* Un singolo accesso per tutte le applicazioni Adobe tramite Adobe Experience Cloud
 
-* Uno &quot;switcher di organizzazione&quot; per spostarsi tra organizzazioni e ambienti Workfront
+* Uno &quot;switcher di organizzazione&quot; per spostarsi tra le organizzazioni e gli ambienti Workfront
 
-* Navigazione con le opzioni per le pagine Workfront, le preferenze Adobe Experience Cloud e il profilo Workfront
+* Navigazione con opzioni per pagine Workfront, preferenze Adobe Experience Cloud e il tuo profilo Workfront
 
-Per ulteriori informazioni, consulta [Adobe Unified Experience per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Per ulteriori informazioni, consulta [Adobe di esperienza unificata per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Guarda un video dimostrativo di questa funzione.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412388/){target=_blank}

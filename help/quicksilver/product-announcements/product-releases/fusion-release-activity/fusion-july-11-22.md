@@ -3,83 +3,84 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Attività di rilascio di Workfront Fusion: Settimana dell''11 luglio 2022'''
-description: Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusion la settimana dell’11 luglio 2022.
+title: "Attività di rilascio di Workfront Fusion: settimana dell’11 luglio 2022"
+description: Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana dell’11 luglio 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 19d4610a-670a-49e7-b276-f670de867910
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio di Workfront Fusion: settimana 11 luglio 2022
+# Attività di rilascio di Workfront Fusion: settimana dell’11 luglio 2022
 
-Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusion la settimana dell’11 luglio 2022.
+Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana dell’11 luglio 2022.
 
 Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
-## Connessione Figma e moduli ora disponibili
+## Sono ora disponibili i moduli e le connessioni Figma
 
-Ora è possibile utilizzare Adobe Workfront Fusion per connettersi al tuo account Figma. Con i moduli Figma è possibile:
+Ora puoi utilizzare Adobe Workfront Fusion per connettersi al tuo account Figma. Con i moduli Figma è possibile:
 
-* Attiva uno scenario in cui si verifica un evento nel tuo account Figma
+* Attivare uno scenario quando si verifica un evento nell’account Figma
 
-* Pubblica o elimina commenti in un file
+* Pubblicare o eliminare commenti su un file
 
-* Elencare i commenti relativi a file, cronologia delle versioni dei file, file di progetto o progetti.
+* Elencare commenti su un file, sulla cronologia delle versioni, sui file di progetto o sui progetti.
 
-* Recupera un file, un’immagine, uno stile o un componente
+* Recuperare un file, un&#39;immagine, uno stile o un componente
 
-* Effettua una chiamata all’API Figma
+* Effettuare una chiamata all’API Figma
 
 
 Per ulteriori informazioni, consulta [Moduli Figma](../../../workfront-fusion/apps-and-their-modules/figma-modules.md).
 
-## Connettore Workday e moduli ora disponibili
+## Connettore e moduli Workday ora disponibili
 
-Ora è possibile utilizzare Adobe Workfront Fusion per connettersi al proprio account Workday. I moduli Workday consentono di:
+Ora puoi utilizzare Adobe Workfront Fusion per connettersi al tuo account Workday. Con i moduli Workday, puoi:
 
 * Creare, leggere, aggiornare o eliminare un record
 
-* Recupera un elenco di record
+* Recuperare un elenco di record
 
 * Effettuare una richiesta all’API Workday
 
 
 Per ulteriori informazioni, consulta [Moduli Workday](../../../workfront-fusion/apps-and-their-modules/workday-modules.md).
 
-## Connessione e moduli di Adobe Creative Cloud Libraries ora disponibili
+## Sono ora disponibili la connessione e i moduli Adobe Creative Cloud Libraries
 
-Ora è possibile utilizzare Adobe Workfront Fusion per connettersi alle librerie Adobe Creative Cloud. Con i moduli delle librerie Adobe Creative Cloud puoi:
+Ora puoi utilizzare Adobe Workfront Fusion per connettersi alle librerie Adobe Creative Cloud. Con i moduli Librerie Adobe Creative Cloud, puoi:
 
-* Avvia uno scenario in cui viene creato o aggiornato un elemento o una libreria
+* Avvia uno scenario quando viene creato o aggiornato un elemento o una libreria
 
 * Caricare, recuperare o archiviare elementi
 
-* Elencare elementi in una determinata libreria
+* Elementi elenco in una determinata libreria
 
 * Eseguire una chiamata API personalizzata
 
 
-Per ulteriori informazioni, consulta [Modelli Adobe Creative Cloud Libraries](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+Per ulteriori informazioni, consulta [Moduli Adobe Creative Cloud Libraries](../../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
 
-## Connessione Adobe Target e moduli ora disponibili
+## Sono ora disponibili la connessione e i moduli Adobe Target
 
-Ora è possibile utilizzare Adobe Workfront Fusion per connettersi al tuo account Adobe Target. Con i moduli Adobe Target puoi:
+Ora puoi utilizzare Adobe Workfront Fusion per connettersi al tuo account Adobe Target. Con i moduli di Adobe Target puoi:
 
-* Creare, leggere, aggiornare o eliminare record quali Attività, Offerte, Tipi di pubblico, Proprietà e Report
+* Creare, leggere, aggiornare o eliminare record come attività, offerte, tipi di pubblico, proprietà e rapporti
 
-* Elencare tutti i record di un determinato tipo
+* Elenca tutti i record di un determinato tipo
 
-* Cerca record in base ai criteri specificati
+* Cerca i record in base ai criteri specificati
 
 * Eseguire una chiamata API personalizzata
 
 
-Per ulteriori informazioni, consulta [Moduli Adobe Target](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).
+Per ulteriori informazioni, [Moduli Adobe Target](../../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md).

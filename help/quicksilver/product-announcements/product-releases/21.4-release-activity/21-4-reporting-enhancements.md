@@ -1,62 +1,63 @@
 ---
-title: 21.4 Miglioramenti alla generazione di rapporti
-description: 21.4 Miglioramenti alla generazione di rapporti
+title: 21.4 Miglioramenti al reporting
+description: 21.4 Miglioramenti al reporting
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: db33cee1-45d3-4641-9afa-790de92654c5
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
 
-# 21.4 Miglioramenti alla generazione di rapporti
+# 21.4 Miglioramenti al reporting
 
-Questa pagina descrive tutti i miglioramenti apportati alla funzione di reporting nell’ambiente di anteprima con la versione 21.4. Questi miglioramenti saranno resi disponibili nell&#39;ambiente di produzione la settimana del 4 ottobre 2021.
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.4 di Reporting. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.4, vedi [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
-## Nuovo aspetto del campo Assegnazioni in elenchi e rapporti aggiornati
+## Nuovo aspetto del campo Assegnazioni negli elenchi e nei report aggiornati
 
 >[!NOTE]
 >
->Precedentemente disponibile nell’ambiente di produzione con la versione 21.2, e quindi temporaneamente rimossa dall’ambiente di produzione il 20 maggio 2021.
+>Precedentemente disponibile nell’ambiente di produzione con la versione 21.2, quindi temporaneamente rimosso dall’ambiente di produzione il 20 maggio 2021.
 
 >[!NOTE]
 >
 >Questa funzione è disponibile solo nella nuova esperienza Adobe Workfront.
 
-Per ottenere l’aspetto moderno di altre aree della nuova esperienza Workfront, lo stile del campo Assegnazioni è stato modificato in elenchi e rapporti aggiornati. Questa riprogettazione include:
+Per mantenere l’aspetto moderno delle altre aree della nuova esperienza Workfront, è stato modificato lo stile del campo Assegnazioni negli elenchi e nei rapporti aggiornati. Questa riprogettazione include:
 
-* Avatar arrotondato per immagini di profilo utente, ruoli di lavoro e team
+* Un avatar arrotondato per le immagini del profilo utente, i ruoli e i team
 * Visualizzazione delle iniziali per gli utenti senza immagini del profilo
-* Icona del nuovo ruolo
+* Icona di una nuova mansione
 * Una nuova icona Persone per le assegnazioni avanzate
-* Una nuova icona Accesso limitato
+* Icona Un nuovo accesso con restrizioni
 * Altre modifiche di progettazione minori
 
-Per ulteriori informazioni sulle assegnazioni negli elenchi, vedere [Assegnare le attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md) o [Assegnare i problemi](../../../manage-work/issues/manage-issues/assign-issues.md).
+Per ulteriori informazioni sulle assegnazioni negli elenchi, vedere [Assegna attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md) o [Assegna problemi](../../../manage-work/issues/manage-issues/assign-issues.md).
 
 ![](assets/assignments-updates-350x193.png)
 
-## Nuovo aspetto dei campi typeahead in elenchi e rapporti aggiornati
+## Nuovo aspetto per i campi typeahead negli elenchi e nei report aggiornati
 
 >[!NOTE]
 >
->Precedentemente disponibile nell’ambiente di produzione con la versione 21.2, e quindi temporaneamente rimossa dall’ambiente di produzione il 20 maggio 2021.
+>Precedentemente disponibile nell’ambiente di produzione con la versione 21.2, quindi temporaneamente rimosso dall’ambiente di produzione il 20 maggio 2021.
 
 >[!NOTE]
 >
 >Questa funzione è disponibile solo nella nuova esperienza Adobe Workfront.
 
-Per ottenere l’aspetto moderno di altre aree della nuova esperienza Workfront, lo stile dei campi typeahead in elenchi e rapporti aggiornati è stato modificato. Queste modifiche includono:
+Per conferire un aspetto moderno alle altre aree della nuova esperienza Workfront, è stato modificato lo stile dei campi typeahead negli elenchi e nei report aggiornati. Queste modifiche includono:
 
-* L’icona Typeahead è stata rimossa dal campo .
-* Quando si fa clic su un campo typeahead, viene visualizzato il menu suggerimenti prima di immettere il testo.
-* Il menu dei suggerimenti è più reattivo alla lunghezza dei valori e questi valori vengono ora troncati alla fine quando il limite dei caratteri viene soddisfatto invece che al centro del valore.
+* L’icona Typeahead è stata rimossa dal campo.
+* Quando fai clic su un campo di completamento automatico, ora viene visualizzato il menu dei suggerimenti prima di immettere il testo.
+* Il menu dei suggerimenti è più reattivo alla lunghezza dei valori, che ora vengono troncati alla fine quando viene raggiunto il limite di caratteri anziché al centro del valore.
 
-Per informazioni sugli elenchi aggiornati, consulta la sezione [Differenza tra gli elenchi aggiornati e quelli legacy](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) sezione dell&#39;articolo [Guida introduttiva agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Per informazioni sugli elenchi aggiornati, vedere [Differenza tra gli elenchi aggiornati e quelli legacy](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) sezione nell’articolo [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)

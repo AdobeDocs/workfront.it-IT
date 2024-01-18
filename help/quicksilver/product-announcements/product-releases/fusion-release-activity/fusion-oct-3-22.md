@@ -3,32 +3,33 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Attività di rilascio di Workfront Fusion: Settimana del 3 ottobre 2022'
-description: Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion nella settimana del 3 ottobre 2022.
+title: "Attività di rilascio di Workfront Fusion: settimana del 3 ottobre 2022"
+description: Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 3 ottobre 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: e1519f60-7e6d-4f8e-8ad1-7c3cb1143a7f
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '169'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio di Workfront Fusion: Settimana del 3 ottobre 2022
+# Attività di rilascio di Workfront Fusion: settimana del 3 ottobre 2022
 
-## Nuovi operatori e funzionalità disponibili per i filtri eventi in Workfront > Modulo Eventi di controllo
+## Nuovi operatori e funzionalità disponibili per i filtri eventi nel modulo Workfront > Osserva eventi
 
-Per consentire maggiore flessibilità e specificità nella creazione di filtri evento nel modulo Workfront > Watch Events, sono stati apportati alcuni aggiornamenti al modulo Workfront > Watch Events:
+Per consentire una maggiore flessibilità e specificità durante la creazione dei filtri evento nel modulo Workfront > Osserva eventi, abbiamo apportato alcuni aggiornamenti al modulo Workfront > Osserva eventi:
 
-Abbiamo aggiunto alcuni nuovi operatori al filtro eventi. Ora puoi utilizzare uno dei seguenti elementi:
+Sono stati aggiunti alcuni nuovi operatori al filtro eventi. Ora è possibile utilizzare una delle opzioni seguenti:
 
 * Uguale a
 * Non è uguale a
 * Maggiore di
 * Minore di
 
-Inoltre, è stata aggiunta la possibilità di scegliere se applicare il filtro al vecchio stato del campo o al nuovo stato. Ad esempio, se hai selezionato di controllare lo stato precedente di un campo e imposta il filtro per controllare gli stati in corso, il modulo si attiverà quando uno stato cambia da In corso a un nuovo stato.
+È stata inoltre aggiunta la possibilità di scegliere se applicare il filtro al vecchio stato del campo o al nuovo stato. Ad esempio, se hai selezionato di controllare il vecchio stato di un campo e di impostare il filtro per controllare gli stati in corso, il modulo si attiva quando uno stato cambia da In corso a un nuovo stato.
 
-Per ulteriori informazioni sui moduli Adobe Workfront, vedi [Moduli Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni sui moduli di Adobe Workfront, consulta [Moduli Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).

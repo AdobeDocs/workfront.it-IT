@@ -5,10 +5,11 @@ title: Panoramica sulla versione 20.4
 description: La versione 20.4 è stata resa disponibile nell’ambiente di produzione la settimana del 9 novembre 2020. Per le date e le ore di rilascio specifiche per ciascun cluster, visitare il sito Workfront Status.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-source-git-commit: 174e1200105a04ae1fa3809c450446e6ff8673b5
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3694'
 ht-degree: 0%
 
 ---

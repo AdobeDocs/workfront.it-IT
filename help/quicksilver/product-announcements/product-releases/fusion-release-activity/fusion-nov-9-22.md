@@ -3,37 +3,38 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Attività di rilascio di Workfront Fusion: Settimana del 7 novembre 2022'
-description: Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusion la settimana del 7 novembre 2022.
+title: "Attività di rilascio di Workfront Fusion: settimana del 7 novembre 2022"
+description: Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 7 novembre 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: true
 exl-id: 802db851-39bb-4f40-8a66-ecb8c8b3ced6
-source-git-commit: 9aaba3062bc5d1166c37821a6a3216f7f1d965b1
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '227'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio di Workfront Fusion: Settimana del 7 novembre 2022
+# Attività di rilascio di Workfront Fusion: settimana del 7 novembre 2022
 
-**Ottimizzazione della coda del Webhook**
+**Ottimizzazione coda webhook**
 
-La coda del webhook di Fusion è stata ottimizzata con questa versione. Il servizio che accetta i webhook è ora separato dalla coda e da altri processi. Questa modifica consente a Fusion di elaborare le code dei webhook a una velocità più veloce e più coerente.
+La coda del webhook di Fusion è stata ottimizzata con questa versione. Il servizio che accetta i webhook è ora separato dall’accodamento e da altri processi. Questa modifica consente a Fusion di elaborare le code dei webhook a una velocità più rapida e coerente.
 
-Durante l&#39;implementazione di questa modifica, siamo stati in grado di comprendere meglio il tempo di elaborazione del registro previsto per gli eventi webhook in coda. La pagina del visualizzatore webhook di Fusion non deve superare 1 minuto.
+Durante l’implementazione di questa modifica, siamo stati in grado di comprendere meglio il tempo di elaborazione del registro previsto per gli eventi del webhook in coda. La pagina del visualizzatore del webhook di Fusion non deve essere precedente a 1 minuto.
 
-Per visualizzare gli eventi webhook attualmente in coda, passa a Webhooks, nella navigazione a sinistra. Le icone del camion con un numero nel numeratore indicano gli eventi di coda per quel webhook. Fai clic sull’icona del camion per visualizzare gli eventi in coda.
+Per visualizzare gli eventi del webhook attualmente in coda, passa a Webhook nel menu di navigazione a sinistra. Le icone del camion con un numero nel numeratore indicano gli eventi di coda per quel webhook. Fai clic sull’icona del carrello per visualizzare gli eventi in coda.
 
 ![](assets/fusion-webhook-queue-1866x567.png)
 
 
 **I webhook non utilizzati verranno disattivati o eliminati**
 
-Sono state apportate alcune modifiche al modo in cui Workfront Fusion gestisce i webhook inutilizzati. Ora, i hook di web vengono disattivati automaticamente se si applica una delle seguenti opzioni:
+Sono state apportate alcune modifiche al modo in cui Workfront Fusion gestisce i webhook inutilizzati. Ora, i webhook vengono disattivati automaticamente se si applica una delle seguenti condizioni:
 
-* Il webhook non è stato collegato ad alcuno scenario per più di 5 giorni.
+* Il webhook non è stato connesso ad alcuno scenario per più di 5 giorni.
 * Il webhook viene utilizzato solo in scenari inattivi, che sono stati inattivi per più di 30 giorni.
 
-I webhook disattivati vengono eliminati e non registrati automaticamente se non sono connessi ad alcuno scenario e sono stati disattivati per più di 30 giorni.
+I webhook disattivati vengono eliminati e annullati automaticamente se non sono connessi ad alcun scenario e se sono in stato disattivato da oltre 30 giorni.

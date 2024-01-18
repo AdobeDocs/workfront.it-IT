@@ -4,30 +4,31 @@ description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 15 no
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 36befe2a-6655-4213-a74f-635542c2cec2
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio di Workfront Fusion: settimana 15 novembre 2021
+# Attività di rilascio di Workfront Fusion: settimana del 15 novembre 2021
 
-Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusion la settimana del 15 novembre 2021.
+Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 15 novembre 2021.
 
 Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
-## Nuovo look per Adobe Workfront Fusion
+## Nuovo aspetto per Adobe Workfront Fusion
 
-Abbiamo aggiornato l&#39;aspetto di Workfront Fusion per riflettere più da vicino l&#39;aspetto di altri prodotti Adobe. Questa modifica all’aspetto più pulito consente un’esperienza più coerente quando si lavora su diversi prodotti di Adobe.
+Abbiamo aggiornato il look and feel di Workfront Fusion per rispecchiare più fedelmente il look and feel di altri prodotti Adobi. Questa modifica all’aspetto più pulito consente un’esperienza più coerente quando si lavora su vari prodotti di Adobe.
 
-Questo aggiornamento offre anche miglioramenti delle prestazioni per una navigazione più veloce.
+Questo aggiornamento offre anche miglioramenti delle prestazioni per una navigazione più rapida.
 
-Il nuovo aspetto non influisce sulle funzionalità di Adobe Workfront Fusion. Tutti i pulsanti, le schede e gli altri strumenti si trovano nella stessa posizione, pertanto non è necessario modificare i comportamenti o i flussi di lavoro esistenti.
+Il nuovo aspetto non influisce sulla funzionalità di Adobe Workfront Fusion. Tutti i pulsanti, le schede e gli altri strumenti si trovano nella stessa posizione, pertanto non è necessario modificare i comportamenti o i flussi di lavoro esistenti.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

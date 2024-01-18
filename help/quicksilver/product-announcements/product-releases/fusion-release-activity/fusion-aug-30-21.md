@@ -1,46 +1,47 @@
 ---
-title: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 30 agosto 2021
-description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 30 agosto 2021
+title: 'Attività di rilascio di Workfront Fusion: &nbsp;Settimana del 30 agosto 2021'
+description: 'Attività di rilascio di Workfront Fusion: &nbsp;Settimana del 30 agosto 2021'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 988349f9-aa12-4017-9032-be4d0078959e
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio di Workfront Fusion: settimana 30 agosto 2021
+# Attività di rilascio di Workfront Fusion: settimana del 30 agosto 2021
 
-Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion nella settimana del 30 agosto 2021.
+Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 30 agosto 2021.
 
 Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
-## Filtrare gli eventi che attivano il modulo eventi Workfront > Watch
+## Filtra gli eventi che attivano il modulo Workfront > Osserva eventi
 
-1. Imposta un filtro personalizzato per gli eventi che attivano il modulo Workfront > Guarda eventi
+1. Configura un filtro personalizzato per gli eventi che attivano il modulo Workfront > Osserva eventi
 
-   Per ridurre il numero di esecuzioni di scenari non necessari, abbiamo aggiornato il modulo Workfront > Watch records per abilitare il filtro degli eventi. Ora puoi impostare un filtro quando crei un webhook. Questo consente allo scenario di attivarsi solo quando l’evento soddisfa determinati criteri.
+   Per ridurre il numero di esecuzioni di scenari non necessari, abbiamo aggiornato il modulo Workfront > Record di controllo per abilitare il filtro degli eventi. Ora è possibile impostare un filtro quando si crea un webhook. Questo consente allo scenario di attivarsi solo quando l’evento soddisfa determinati criteri.
 
    Il filtro eventi offre attualmente le seguenti operazioni:
 
-   * Uguale a: Attiva uno scenario solo quando un evento corrisponde alle condizioni del filtro. Ad esempio, puoi impostare un filtro che attiva uno scenario solo se l’evento si verifica in un progetto specifico.
-   * Diverso: Attiva uno scenario solo se un evento non corrisponde alle condizioni del filtro. Ad esempio, puoi creare un filtro che attivi uno scenario solo se il problema si verifica in non ha lo stato Chiuso.
+   * Equal: attiva uno scenario solo quando un evento corrisponde alle condizioni del filtro. Ad esempio, puoi impostare un filtro che attivi uno scenario solo se l’evento si verifica in un progetto specifico.
+   * Not Equal: attiva uno scenario solo se un evento non corrisponde alle condizioni del filtro. Ad esempio, puoi creare un filtro che attiva uno scenario solo se il problema in cui si verifica un evento non ha lo stato Chiuso.
 
-   In precedenza, il modulo dei record Watch recuperava tutti i record. Gli utenti potevano filtrare solo impostando i filtri in un secondo momento nello scenario.
+   In precedenza, il modulo Record di controllo recuperava tutti i record. Gli utenti potevano filtrare solo impostando i filtri più avanti nello scenario.
 
-   Per sfruttare il filtro degli eventi, crea un nuovo webhook nel modulo degli eventi Watch. Al momento non è possibile modificare i webhook esistenti per includere questa funzionalità. È consigliabile creare nuovi webhook utilizzando filtri evento per gli scenari esistenti.
+   Per sfruttare il filtro degli eventi, crea un nuovo webhook nel modulo Osserva eventi. Al momento non è possibile modificare i webhook esistenti per includere questa funzionalità. È consigliabile creare nuovi webhook utilizzando i filtri evento per gli scenari esistenti.
 
-1. Filtrare gli eventi attivati dalla connessione corrente.
+1. Escludi gli eventi attivati dalla connessione corrente.
 
-   Per semplificare la configurazione dei tuoi webhook per il modulo Workfront > Guarda eventi, abbiamo incluso il filtro eventi più comune. Ora, il webhook dispone di un&#39;opzione per filtrare tutte le modifiche apportate dai moduli utilizzando la connessione specificata per il modulo Eventi Watch. In altre parole, con questo filtro abilitato, qualsiasi modifica apportata dall’utente Workfront associato a tale connessione non può attivare lo scenario.
+   Per semplificare la configurazione dei webhook per il modulo Workfront > Osserva eventi, abbiamo incluso il filtro eventi più comune. Ora il webhook ha un’opzione per filtrare eventuali modifiche apportate dai moduli utilizzando la connessione specificata per il modulo Osserva eventi. In altre parole, con questo filtro abilitato, eventuali modifiche apportate dall’utente di Workfront associato a tale connessione non possono attivare lo scenario.
 
-   In precedenza, questo filtro non era disponibile. Pertanto, era più facile per le modifiche apportate nei moduli Workfront attivare scenari contenenti tali moduli, potenzialmente causando scenari da attivare in un ciclo infinito.
+   In precedenza, questo filtro non era disponibile. Pertanto, è stato più facile per le modifiche apportate nei moduli Workfront attivare scenari contenenti tali moduli, causando potenzialmente l’attivazione di scenari in un ciclo infinito.
 
-Per ulteriori informazioni sui filtri eventi nel modulo Workfront > Guarda eventi , vedi [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni sui filtri eventi nel modulo Workfront > Osserva eventi, vedi [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 

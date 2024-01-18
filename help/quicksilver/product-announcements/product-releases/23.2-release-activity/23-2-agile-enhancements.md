@@ -4,138 +4,140 @@ description: 23.2 Miglioramenti di Agile
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: b7c32457f3bb39293f4272a69cd3557a08a1ba27
+recommendations: noDisplay, noCatalog
+exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
 # 23.2 Miglioramenti di Agile
 
-Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 23.2. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.2.
+Questa pagina descrive tutti i miglioramenti agili apportati con la versione 23.2 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione con la versione 23.2.
 
-Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di versione 23.2, vedi [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili a questo punto del ciclo di rilascio 23.2, consulta [Panoramica sulla versione 23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Aggiungere attività e problemi dai dettagli degli oggetti a una bacheca Workfront o a un flusso di lavoro
+## Aggiungere attività e problemi dai dettagli oggetto a una bacheca Workfront o a un flusso di lavoro
 
-È ora possibile aggiungere attività o problemi esistenti a una bacheca Workfront o a un elenco di schede flusso di lavoro direttamente dai dettagli dell&#39;oggetto. Tutti gli elementi aggiunti a una bacheca diventeranno schede collegate e tutti gli elementi aggiunti a un flusso di lavoro verranno aggiunti all&#39;elenco delle schede come schede non pianificate.
+Ora è possibile aggiungere attività o problemi esistenti a una scheda Workfront o a un elenco di schede del flusso di lavoro direttamente dai dettagli dell’oggetto. Tutti gli elementi aggiunti a una bacheca diventano schede collegate e tutti gli elementi aggiunti a un flusso di lavoro vengono aggiunti all’elenco delle schede come schede non pianificate.
 
 Per ulteriori informazioni, consulta [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
-## Funzionalità di iterazione disponibile nelle schede Adobe Workfront
+## Funzionalità di iterazione disponibile nelle schede madri Adobe Workfront
 
-Diverse nuove funzioni disponibili nelle schede Workfront consentono di utilizzare la funzionalità Scrum agile. Queste funzioni includono:
+Diverse nuove funzioni disponibili nelle schede madri Workfront consentono di utilizzare la funzionalità Scrum agile. Queste caratteristiche includono:
 
-* Flussi di lavoro per raggruppare bacheche correlate allo stesso team e collaborare sul lavoro
-* Un elenco di schede, o backlog di lavoro, con la possibilità di utilizzare le origini per collegare le schede alle attività e ai problemi di Workfront
-* Schede di processo di pianificazione e iterazione dell&#39;iterazione
+* Flussi di lavoro per il raggruppamento di bacheche relative allo stesso team e per la collaborazione al lavoro
+* Un elenco di schede, o backlog di lavoro, con la possibilità di utilizzare le origini per collegare le schede ad attività e problemi di Workfront
+* Bacheche per la pianificazione delle iterazioni e il processo di iterazione
 
-Le raccolte sono state rinominate in flussi di lavoro. I flussi di lavoro consentono di visualizzare i dati in modi diversi. Potete visualizzare gli elementi su schede in un elenco, su una bacheca o su un&#39;iterazione. Le schede in un flusso di lavoro possono essere condivise anche tra più bacheche. È possibile facilitare facilmente i flussi di lavoro utilizzando schede e bacheche in un flusso di lavoro.
+Le raccolte sono state rinominate in flussi di lavoro. I flussi di lavoro consentono di visualizzare i dati in modi diversi. È possibile visualizzare gli elementi sulle schede in un elenco, su una bacheca o su un’iterazione. Le schede in un flusso di lavoro possono anche essere condivise tra più bacheche. Puoi semplificare facilmente i flussi di lavoro utilizzando schede e bacheche in un flusso di lavoro.
 
-Per ulteriori informazioni, consulta [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)e [Utilizza l&#39;elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). I due articoli successivi non saranno disponibili in Principale fino a quando non pubblicherò il ramo.
+Per ulteriori informazioni, consulta [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), e [Utilizza l’elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). I secondi due articoli non saranno disponibili in Principale finché non pubblicherò il ramo.
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
-## Aggiungere attività e problemi da elenchi e rapporti a un elenco di schede del flusso di lavoro
+## Aggiungere attività e problemi da elenchi e report a un elenco di schede del flusso di lavoro
 
-È ora possibile aggiungere attività o problemi esistenti a un flusso di lavoro in Workfront Boards direttamente da una vista a elenco o a rapporti. Tutti gli elementi aggiunti al flusso di lavoro vengono aggiunti all’elenco delle schede come schede non pianificate.
+È ora possibile aggiungere attività o problemi esistenti a un flusso di lavoro in Bacheche Workfront direttamente da una vista elenco o report. Tutti gli elementi aggiunti al flusso di lavoro vengono aggiunti all’elenco delle schede come schede non pianificate.
 
 Per ulteriori informazioni, consulta [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
-## Aggiungi campi personalizzati alle schede di una bacheca
+## Aggiungere campi personalizzati alle schede di una bacheca
 
-È ora possibile includere campi personalizzati nelle bacheche Adobe Workfront. Il campo deve essere già creato in Workfront. Non potete progettare e creare nuovi campi personalizzati all&#39;interno di una bacheca.
+Ora puoi includere campi personalizzati nelle bacheche Adobe Workfront. Il campo deve essere già stato creato in Workfront. Non puoi progettare e creare nuovi campi personalizzati all’interno di una bacheca.
 
-Come per i campi predefiniti, potete scegliere di visualizzare il campo personalizzato nella vista completa di una scheda e nella vista a condensa sulla bacheca.
+Analogamente ai campi predefiniti, è possibile scegliere di visualizzare il campo personalizzato nella visualizzazione completa di una scheda e nella visualizzazione ridotta della bacheca.
 
-Tutti i dati del campo personalizzato della scheda sono di sola lettura.
+Tutti i dati del campo personalizzato sulla scheda sono di sola lettura.
 
 Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 ## Aggiungere attività e problemi da elenchi e rapporti a una bacheca Workfront
 
-È ora possibile aggiungere attività o problemi esistenti a una bacheca di Workfront direttamente da una vista a elenco o a rapporti. Tutti gli elementi aggiunti alla bacheca diventeranno schede collegate.
+Ora è possibile aggiungere attività o problemi esistenti a una bacheca Workfront direttamente da una vista a elenco o report. Tutti gli elementi aggiunti alla bacheca diventeranno schede collegate.
 
-Inoltre, il campo Bacheche è ora disponibile per aggiungere a elenchi e rapporti per attività o problemi. In questo campo vengono visualizzate tutte le bacheche alle quali è stata aggiunta un&#39;attività o un problema.
+Inoltre, il campo Bacheche è ora disponibile per l’aggiunta agli elenchi e ai rapporti relativi alle attività o ai problemi. Questo campo visualizza tutte le bacheche a cui è stata aggiunta un’attività o un problema.
 
 Per ulteriori informazioni, consulta [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 
-## Orari di accesso alle schede collegate su una bacheca
+## Registra le ore sulle schede collegate su una bacheca
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-Ora è possibile accedere alle ore sulle schede collegate, nello stesso modo in cui si verifica un&#39;attività o un problema. Per registrare l&#39;ora è necessario disporre delle autorizzazioni corrette per l&#39;attività o il problema.
+Ora è possibile registrare le ore sulle schede collegate, come si farebbe su un&#39;attività o un problema. Per registrare l’ora, è necessario disporre delle autorizzazioni corrette per l’attività o il problema.
 
-Per impostazione predefinita, i campi di registrazione dell&#39;ora non vengono visualizzati sulle schede collegate. È necessario attivare **Ore** nell&#39;area Configura sotto Schede.
+Per impostazione predefinita, i campi di registrazione ora non vengono visualizzati sulle schede collegate. Devi abilitare **Ore** nell’area Configura in Schede.
 
-Per ulteriori informazioni, consulta [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 
 ## Personalizzare la visualizzazione dei campi su una scheda
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
 
-È ora disponibile la personalizzazione per configurare quali campi vengono visualizzati su una scheda, sia nella visualizzazione completa quando la scheda è aperta, sia nella vista a schede condensate sulla bacheca. Quando disattivi un campo non viene visualizzato in nessuna delle due viste. È inoltre possibile abilitare un campo nella visualizzazione completa e nasconderlo dalla vista a condensa.
+È ora disponibile la personalizzazione per configurare quali campi visualizzare su una scheda, sia nella visualizzazione completa quando la scheda è aperta che nella visualizzazione ridotta sulla scheda. Quando si disattiva, un campo non viene visualizzato in nessuna delle due visualizzazioni. È inoltre possibile attivare un campo nella visualizzazione completa e nasconderlo dalla visualizzazione ridotta.
 
 Per ulteriori informazioni, consulta [Personalizzare i campi visualizzati su una scheda](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3415710/){target=_blank}
 
-## Definire uno stato predefinito per le schede spostate in una colonna di una bacheca
+## Definisci uno stato predefinito per le schede spostate in una colonna della bacheca
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-È ora possibile impostare uno stato predefinito da applicare alle schede spostate in una colonna specifica, selezionando uno stato personalizzato e uno stato di sistema nei criteri colonna. Quando sposti una scheda nella colonna, Workfront tenta innanzitutto di applicare lo stato personalizzato (ad esempio, In attesa di un feedback). Se lo stato personalizzato non è disponibile per quella scheda, Workfront applicherà lo stato del sistema (ad esempio, In attesa). Inoltre, se lo stato dell&#39;attività o del problema connesso viene modificato in stato personalizzato o di sistema impostato nel criterio a colonne, la scheda viene spostata automaticamente nella colonna.
+Ora puoi impostare uno stato predefinito da applicare alle schede spostate in una colonna specifica, selezionando uno stato personalizzato e uno stato di sistema nei criteri delle colonne. Quando sposti una scheda nella colonna, Workfront tenta prima di applicare lo stato personalizzato (ad esempio, In attesa di feedback). Se lo stato personalizzato non è disponibile per tale scheda, Workfront applicherà invece lo stato del sistema (ad esempio, In sospeso). Inoltre, se lo stato dell’attività o del problema connesso viene modificato nello stato personalizzato o di sistema impostato nella policy di colonna, la scheda viene automaticamente spostata nella colonna.
 
 In precedenza, veniva richiesto di selezionare uno stato per ogni scheda spostata nella colonna, se erano disponibili più stati.
 
-Per ulteriori informazioni, consulta [Gestire le colonne](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Per ulteriori informazioni, consulta [Gestisci colonne](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3415711/){target=_blank}
 
-## Raccolte ora disponibili nelle bacheche Adobe Workfront
+## Le raccolte sono ora disponibili nelle bacheche di Adobe Workfront
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-Ora potete creare raccolte nel dashboard delle bacheche. Una collezione è un gruppo di bacheche per collaborare sul lavoro. Una volta denominata la raccolta, potete aggiungere bacheche alla raccolta utilizzando un set di modelli che offrono impostazioni predefinite, come i nomi delle colonne. È inoltre possibile spostare le schede autonome in una raccolta. Una volta che una bacheca si trova in una raccolta, può essere spostata in un&#39;altra raccolta ma non può diventare una bacheca indipendente.
+Ora puoi creare raccolte nel dashboard delle bacheche. Una raccolta è un gruppo di bacheche per la collaborazione sul lavoro. Dopo aver denominato la raccolta, puoi aggiungere bacheche alla raccolta utilizzando un set di modelli che offrono impostazioni predefinite, ad esempio i nomi delle colonne. Puoi anche spostare le bacheche autonome in una raccolta. Una volta che una bacheca è in una raccolta, può essere spostata in un’altra raccolta ma non può diventare una bacheca autonoma.
 
-L&#39;aggiunta di membri a una raccolta funziona come l&#39;aggiunta di membri a una bacheca. Una persona o un team deve essere un membro della raccolta prima di poter essere aggiunto come membri in una bacheca della raccolta.
+L&#39;aggiunta di membri a una raccolta funziona come l&#39;aggiunta di membri a una bacheca. Una persona o un team deve essere un membro della raccolta prima di poter essere aggiunto come membri a una bacheca della raccolta.
 
-Per ulteriori informazioni, consulta [Gestire le raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Per ulteriori informazioni, consulta [Gestione raccolte](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3415609/){target=_blank}
 
-## Il campo Stima sulle schede collegate è associato al campo Punti Storia sugli oggetti Workfront
+## Il campo Stima sulle schede collegate viene mappato sul campo Punti storia sugli oggetti Workfront
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-Il campo Stima sulle schede collegate nelle bacheche di Workfront ora viene mappato sul campo Punti della storia per l&#39;oggetto Workfront associato.
+Il campo Stima sulle schede collegate in Bacheche Workfront ora viene mappato sul campo Story Points (Punti storia) per l’oggetto Workfront associato.
 
-Il nuovo campo Punti storia è un campo modulo libero modificabile che è possibile aggiungere a una visualizzazione in un elenco o in un rapporto per attività o problemi. Non è legato alle ore pianificate o alle assegnazioni di team.
+Il nuovo campo Story Points (Punti storia) è un campo libero modificabile che puoi aggiungere a una visualizzazione in un elenco o in un rapporto per attività o problemi. Non è legato alle ore pianificate o alle assegnazioni del team.
 
-In precedenza, la stima della scheda era una voce manuale e non era mappata ad alcun campo su un&#39;attività o un problema.
+In precedenza, la stima della scheda era una voce manuale e non veniva mappata su alcun campo di un’attività o di un problema.
 
-Inoltre, il campo Stima sulle schede ad hoc e collegate non ha più un limite di caratteri. In precedenza, il numero massimo di caratteri era 99.
+Inoltre, il campo Stima sia sulle schede ad hoc che su quelle connesse non ha più un limite di caratteri. In precedenza, il numero massimo di caratteri era 99.
 
-Per ulteriori informazioni, consulta [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Scheda Anteprima nella colonna di aspirazione
+## Scheda di anteprima nella colonna Acquisizione
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-È ora possibile fare clic su una scheda connessa nella colonna di immissione per visualizzare una versione di sola visualizzazione del suo contenuto. Non è possibile modificare il contenuto della scheda finché la scheda non viene spostata dalla colonna di assunzione in un&#39;altra colonna sulla bacheca.
+Ora puoi fare clic su una scheda collegata nella colonna Acquisizione per visualizzare una versione di sola visualizzazione del suo contenuto. Non puoi modificare il contenuto della scheda finché questa non viene spostata fuori dalla colonna di acquisizione in un’altra colonna sulla bacheca.

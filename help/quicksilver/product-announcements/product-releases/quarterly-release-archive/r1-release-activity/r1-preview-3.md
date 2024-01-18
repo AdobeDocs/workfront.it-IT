@@ -5,10 +5,11 @@ title: Anteprima R1 3
 description: Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione R1.3. La funzionalità di questa pagina è stata resa disponibile nell’ambiente di anteprima il 1° febbraio 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1347'
 ht-degree: 2%
 
 ---

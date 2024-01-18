@@ -4,43 +4,44 @@ description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 23 ag
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 8630ef90-0b8c-4c68-938d-4875050f78fd
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '207'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio di Workfront Fusion: settimana 23 agosto 2021
+# Attività di rilascio di Workfront Fusion: settimana del 23 agosto 2021
 
-Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusion la settimana del 23 agosto 2021.
+Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 23 agosto 2021.
 
 Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
-## Campi Typeahead ora disponibili nei moduli Workfront
+## I campi typeahead sono ora disponibili nei moduli Workfront
 
-Per semplificare l’utilizzo dei moduli, sono stati sostituiti alcuni elenchi a discesa con campi typeahead. Ora, invece di selezionare gli elementi da elenchi lunghi, è possibile iniziare a digitare l&#39;elemento, quindi fare clic su di esso quando viene visualizzato.
+Per semplificare l’utilizzo dei moduli, in alcuni elenchi a discesa sono stati sostituiti dei campi typeahead. Ora, invece di selezionare gli elementi da elenchi lunghi, è possibile iniziare a digitare l&#39;elemento, quindi fare clic su di esso quando viene visualizzato.
 
-In precedenza, gli utenti selezionavano gli elementi dagli elenchi a discesa. A seconda dell’oggetto, questi elenchi potrebbero essere lunghi e potrebbe risultare scomodo scorrere e individuare gli elementi.
+In precedenza, gli utenti selezionavano gli elementi dagli elenchi a discesa. A seconda dell’oggetto, questi elenchi potrebbero essere lunghi e potrebbe essere scomodo scorrere e individuare gli elementi.
 
-Per ulteriori informazioni sui moduli Workfront, vedi [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Per ulteriori informazioni sui moduli Workfront, consulta [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-## Oggetto record di fatturazione ora disponibile nei moduli Workfront
+## Oggetto record fatturazione ora disponibile nei moduli Workfront
 
-L’oggetto Record di fatturazione è disponibile negli elenchi a discesa di selezione degli oggetti nei seguenti moduli:
+L’oggetto record Fatturazione è disponibile negli elenchi a discesa di selezione degli oggetti nei seguenti moduli:
 
-* Registra
+* Record di controllo
 * Elimina record
 * Crea record
 * Leggi record
 * Aggiorna record
 * Cerca record
 
-In precedenza, l&#39;oggetto record di fatturazione era disponibile solo tramite mappatura.
+In precedenza, l’oggetto record fatturazione era disponibile solo tramite la mappatura.
 
 Per ulteriori informazioni, consulta [Moduli Adobe Workfront](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 

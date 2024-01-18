@@ -1,32 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: Miglioramenti di Agile 20.3
-description: Questa pagina descrive tutti i miglioramenti apportati ad Agile con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
+title: 20.3 Miglioramenti Agile
+description: Questa pagina descrive tutti i miglioramenti Agile apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---
 
-# Miglioramenti di Agile 20.3
+# 20.3 Miglioramenti Agile
 
-Questa pagina descrive tutti i miglioramenti apportati ad Agile con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
+Questa pagina descrive tutti i miglioramenti Agile apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.3, vedi [Panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta [Panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 
-## Scegli per quanto tempo le carte rimangono sulla scheda Kanban
+## Scegli per quanto tempo le carte rimangono sulla bacheca Kanban
 
-Ora è possibile scegliere per quanto tempo le schede completate rimangono sulla bacheca Kanban.
+Ora puoi scegliere per quanto tempo le schede completate rimangono sul Kanban Board.
 
-Precedentemente, le schede lasciavano la lavagna Kanban dopo 14 giorni.
+In precedenza, le carte lasciavano il Kanban Board dopo 14 giorni.
 
-Per ulteriori informazioni, consulta [Configurare Kanban](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Per ulteriori informazioni, consulta [Configura Kanban](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-## Le assi caricano 50 elementi di lavoro alla volta
+## Le bacheche Agile caricano 50 elementi di lavoro alla volta
 
-Per aumentare la velocità e le prestazioni degli strumenti agili, ora vengono caricate fino a 50 schede in varie posizioni. Se su una bacheca agile sono presenti più di 50 elementi di lavoro, viene visualizzato un pulsante nella parte inferiore della bacheca o del backlog, che consente di caricare altri elementi di lavoro.
+Per aumentare la velocità e le prestazioni degli strumenti agili, fino a 50 schede ora vengono caricate in varie posizioni. Se in una bacheca Agile sono presenti più di 50 elementi di lavoro, nella parte inferiore della bacheca o del backlog viene visualizzato un pulsante che consente di caricare elementi di lavoro aggiuntivi.

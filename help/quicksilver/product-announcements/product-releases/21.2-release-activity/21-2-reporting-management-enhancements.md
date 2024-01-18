@@ -1,83 +1,84 @@
 ---
 content-type: release-notes
-keywords: note, trimestrale, aggiornamento, versione
+keywords: note,trimestrale,aggiornamento,rilascio
 navigation-topic: 2021-2-release-activity
-title: 21. 2 Miglioramenti al reporting
-description: Questa pagina descrive tutti i miglioramenti apportati alla funzione di reporting nell’ambiente di anteprima con la versione 21.2. Questi miglioramenti saranno resi disponibili nell'ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta Panoramica sulla versione 21.2.
+title: 21 2 Miglioramenti al reporting
+description: Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.2 di Reporting. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta Panoramica sulla versione 21.2.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 665732453b33b49421108791a560ab84d51280b9
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
 
-# 21. 2 Miglioramenti al reporting
+# 21 2 Miglioramenti al reporting
 
-Questa pagina descrive tutti i miglioramenti apportati alla funzione di reporting nell’ambiente di anteprima con la versione 21.2. Questi miglioramenti saranno resi disponibili nell&#39;ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, vedi [Panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.2 di Reporting. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 10 maggio 2021. Per un elenco di tutte le modifiche disponibili con la versione 21.2, consulta [Panoramica sulla versione 21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## Limitare la modifica delle ore nei progetti e nei rapporti
+## Limita la modifica delle ore in progetti e report
 
-Per fornire un maggiore controllo sulla modifica delle ore nella scheda Ore di un progetto e dei rapporti sulle ore, è stata aggiunta un’impostazione che consente agli amministratori di Workfront di limitare la modifica delle ore ai proprietari delle ore e agli amministratori di sistema.
+Per fornire un maggiore controllo sulla modifica delle ore nella scheda Ore in un progetto e nei rapporti sulle ore, abbiamo aggiunto un’impostazione che consente agli amministratori di Workfront di limitare la modifica delle ore ai proprietari e agli amministratori di sistema.
 
-In precedenza, gli utenti con fogli presenze e ore abilitate nel livello di accesso potevano modificare le ore.
+In precedenza, gli utenti con le schede orario e le ore abilitate nel loro livello di accesso potevano modificare le ore.
 
-Per ulteriori informazioni, consulta [Configurare le preferenze relative a schede attività e ora](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Per ulteriori informazioni, consulta [Configurare le preferenze di orario e scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-## Nuovo aspetto del campo Assegnazioni in elenchi e rapporti aggiornati
+## Nuovo aspetto del campo Assegnazioni negli elenchi e nei report aggiornati
 
 >[!NOTE]
 >
 >Questa funzione è disponibile solo nella nuova esperienza Adobe Workfront.
 
-Per ottenere l’aspetto moderno di altre aree della nuova esperienza Workfront, lo stile del campo Assegnazioni è stato modificato in elenchi e rapporti aggiornati. Questa riprogettazione include:
+Per mantenere l’aspetto moderno delle altre aree della nuova esperienza Workfront, è stato modificato lo stile del campo Assegnazioni negli elenchi e nei rapporti aggiornati. Questa riprogettazione include:
 
-* Avatar arrotondato per immagini di profilo utente, ruoli di lavoro e team
+* Un avatar arrotondato per le immagini del profilo utente, i ruoli e i team
 * Visualizzazione delle iniziali per gli utenti senza immagini del profilo
-* Icona del nuovo ruolo
+* Icona di una nuova mansione
 * Una nuova icona Persone per le assegnazioni avanzate
-* Una nuova icona Accesso limitato
+* Icona Un nuovo accesso con restrizioni
 * Altre modifiche di progettazione minori
 
-Per ulteriori informazioni sulle assegnazioni negli elenchi, vedere [Assegnare le attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md) o [Assegnare i problemi](../../../manage-work/issues/manage-issues/assign-issues.md).
+Per ulteriori informazioni sulle assegnazioni negli elenchi, vedere [Assegna attività](../../../manage-work/tasks/assign-tasks/assign-tasks.md) o [Assegna problemi](../../../manage-work/issues/manage-issues/assign-issues.md).
 
 ![](assets/assignments-updates-350x193.png)
 
-## Nuovo aspetto dei campi typeahead in elenchi e rapporti aggiornati
+## Nuovo aspetto per i campi typeahead negli elenchi e nei report aggiornati
 
 >[!NOTE]
 >
->È stata temporaneamente rimossa dall’ambiente di produzione il 20 maggio 2021.
+>Temporaneamente rimosso dall’ambiente di produzione il 20 maggio 2021.
 
 >[!NOTE]
 >
 >Questa funzione è disponibile solo nella nuova esperienza Adobe Workfront.
 
-Per ottenere l’aspetto moderno di altre aree della nuova esperienza Workfront, lo stile dei campi typeahead in elenchi e rapporti aggiornati è stato modificato. Queste modifiche includono:
+Per conferire un aspetto moderno alle altre aree della nuova esperienza Workfront, è stato modificato lo stile dei campi typeahead negli elenchi e nei report aggiornati. Queste modifiche includono:
 
-* L’icona Typeahead è stata rimossa dal campo .
-* Quando si fa clic su un campo typeahead, viene visualizzato il menu suggerimenti prima di immettere il testo.
-* Il menu dei suggerimenti è più reattivo alla lunghezza dei valori e questi valori vengono ora troncati alla fine quando il limite dei caratteri viene soddisfatto invece che al centro del valore.
+* L’icona Typeahead è stata rimossa dal campo.
+* Quando fai clic su un campo di completamento automatico, ora viene visualizzato il menu dei suggerimenti prima di immettere il testo.
+* Il menu dei suggerimenti è più reattivo alla lunghezza dei valori, che ora vengono troncati alla fine quando viene raggiunto il limite di caratteri anziché al centro del valore.
 
-Per informazioni sugli elenchi aggiornati, consulta la sezione [Differenza tra gli elenchi aggiornati e quelli legacy](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) sezione dell&#39;articolo [Guida introduttiva agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Per informazioni sugli elenchi aggiornati, vedere [Differenza tra gli elenchi aggiornati e quelli legacy](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) sezione nell’articolo [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)
 
 ## Rapporto sugli aggiornamenti di sistema
 
-Il nuovo rapporto Scrittura contabile consente una maggiore verificabilità consentendo di eseguire un drill-through degli aggiornamenti di sistema, tra cui:
+Il nuovo rapporto Scrittura contabile offre una maggiore verificabilità consentendo di eseguire il drill-in agli aggiornamenti del sistema, tra cui:
 
-* Lo stato cambia in un progetto, un&#39;attività o un problema
+* Modifiche di stato su un progetto, un’attività o un problema
 * Attività o problemi eliminati
 * Valori nei campi personalizzati
 * Date di completamento pianificate
-* Modifiche al proprietario del progetto
+* Modifiche del proprietario del progetto
 
-Ad esempio, puoi impostare questo rapporto per mostrare l’attività intorno a un campo personalizzato specifico, incluso il progetto per il campo personalizzato, quando è stato immesso un valore, quale era tale valore, quando il campo è stato aggiornato, quale era il valore precedente, quale era il nuovo valore immesso, quali utenti hanno completato queste azioni, ecc.
+Ad esempio, puoi impostare questo rapporto in modo da mostrare l’attività intorno a un campo personalizzato specifico, incluso il progetto per il campo personalizzato, quando è stato immesso un valore, di che valore si trattava, quando il campo è stato aggiornato, qual era il valore precedente, qual era il nuovo valore immesso, quali utenti hanno completato queste azioni, ecc.
 
-In precedenza era possibile creare rapporti sugli aggiornamenti di sistema solo tramite l’API Workfront.
+In precedenza, era possibile creare rapporti sugli aggiornamenti di sistema solo tramite l’API Workfront.
 
-Per ulteriori informazioni su questo rapporto e su cosa può essere utilizzato, consulta [Rapporto sull’area Aggiornamenti](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Per ulteriori informazioni su questo rapporto e sulle funzioni per cui è possibile utilizzarlo, consulta [Rapporto sulla sezione Aggiornamenti](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

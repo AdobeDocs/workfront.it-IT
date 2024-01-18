@@ -4,10 +4,11 @@ description: Panoramica sulla versione 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-source-git-commit: a7b4de06965b7b5e09424fbe6f3aa2fa6c195611
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -444,7 +445,7 @@ Al posto del webinar sulla versione, ti invitiamo a registrarti, ad Adobe Summit
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Dashboard dell’area di lavoro</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-reports-dashboards.md" class="MCXref xref" xrefformat="{para}">Dashboard Canvas</a></p>
                         <p>I dashboard di Canvas sono stati aggiunti come funzionalità in corso di lavorazione per i dashboard che possono essere abilitati nei modelli di layout. I dashboard di Canvas consentono di combinare le visualizzazioni di Reporting Canvas con i rapporti esistenti, oltre a utilizzare nuove opzioni di layout. Attualmente sono supportati solo i rapporti elenco, ma verranno aggiunte più opzioni man mano che lo sviluppo continua.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>

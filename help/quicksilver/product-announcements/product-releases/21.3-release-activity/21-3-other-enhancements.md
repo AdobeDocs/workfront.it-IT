@@ -4,33 +4,34 @@ description: 21.3 Altri miglioramenti
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 82f51b74-4743-497c-87c6-6258aa7b02bf
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # 21.3 Altri miglioramenti
 
-Questa pagina descrive tutti gli altri miglioramenti apportati all’ambiente di anteprima con la versione 21.3. Questi miglioramenti sono stati resi disponibili nell&#39;ambiente di produzione la settimana del 21 luglio 2021.
+Questa pagina descrive tutti gli altri miglioramenti apportati con la versione 21.3 all’ambiente di anteprima. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 21 luglio 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.3, vedi [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.3, consulta [Panoramica sulla versione 21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
-## Riprogettazione dell&#39;area principale per l&#39;app mobile
+## Riprogettazione area Home per app mobile
 
 >[!NOTE]
 >
->Questa funzione sarà disponibile in genere nell’Apple App Store e nell’Google Play Store con la versione 21.3 Produzione della settimana 21 giugno 2021.
+>Questa funzione sarà generalmente disponibile in Apple App Store e Google Play Store con la versione di produzione 21.3 la settimana del 21 giugno 2021.
 
-I seguenti miglioramenti sono stati aggiunti all’area principale nell’app mobile Adobe Workfront:
+Nell’app mobile Adobe Workfront sono stati aggiunti i seguenti miglioramenti alla home page:
 
-* I widget di elementi di lavoro riprogettati e una casella di ricerca più grande ti aiutano a trovare ciò che ti serve rapidamente.
-* La barra di navigazione per home, assistente virtuale, task rapido, notifiche e profilo utente ora &quot;galleggia&quot; sull&#39;area home per un facile accesso.
-* Il menu Lavoro personale scorre in orizzontale e mostra questi elementi: Progetti, attività e problemi, richieste, approvazioni e schede attività. Sotto il menu vengono visualizzate fino a tre schede per l&#39;elemento selezionato.
+* I widget per elementi di lavoro riprogettati e una casella di ricerca più grande consentono di trovare rapidamente ciò di cui si ha bisogno.
+* La barra di navigazione per home, assistente virtuale, attività rapida, notifiche e profilo utente ora &quot;fluttua&quot; sulla home area per un facile accesso.
+* Il menu Il mio lavoro scorre orizzontalmente e mostra questi elementi: Progetti, Attività e Problemi, Richieste, Approvazioni e Schede orario. Sotto il menu vengono visualizzate fino a tre schede per l’elemento selezionato.
 
-I seguenti articoli verranno aggiornati quando l’app viene rilasciata agli app store:
+I seguenti articoli verranno aggiornati al rilascio dell’app negli app store:
 
 * [Adobe Workfront per iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [Adobe Workfront per Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
@@ -39,8 +40,8 @@ I seguenti articoli verranno aggiornati quando l’app viene rilasciata agli app
 
 >[!NOTE]
 >
->Questa funzione è stata rilasciata nell’ambiente Preview il 20 maggio 2021. Il rilascio verrà effettuato il 3 giugno 2021 nell’ambiente di produzione.
+>Questa funzione è stata rilasciata nell’ambiente di anteprima il 20 maggio 2021. Verrà rilasciato nell’ambiente di produzione il 3 giugno 2021.
 
-I filtri di abbonamento agli eventi sono ora abilitati negli ambienti di anteprima. È possibile utilizzare il filtro dell’abbonamento agli eventi per garantire che vengano ricevuti solo messaggi rilevanti. La creazione di filtri per le sottoscrizioni potrebbe ridurre notevolmente il numero di messaggi che l’endpoint deve utilizzare.
+I filtri di abbonamento agli eventi sono ora abilitati negli ambienti di anteprima. Puoi utilizzare il filtro dell’abbonamento agli eventi per assicurarti di ricevere solo messaggi pertinenti. La creazione di filtri per gli abbonamenti può ridurre in modo significativo il numero di messaggi che l’endpoint deve utilizzare.
 
-Per ulteriori informazioni sugli abbonamenti agli eventi, vedi [API iscrizione agli eventi](../../../wf-api/general/event-subs-api.md) e [Domande frequenti - Abbonamenti agli eventi](../../../wf-api/general/event-subs-faq.md).
+Per ulteriori informazioni sugli abbonamenti agli eventi, consulta [API di abbonamento agli eventi](../../../wf-api/general/event-subs-api.md) e [Domande frequenti - Abbonamenti agli eventi](../../../wf-api/general/event-subs-faq.md).

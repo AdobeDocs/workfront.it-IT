@@ -4,22 +4,23 @@ description: Attività di rilascio di Workfront Fusion:&nbsp;Settimana del 2 ago
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 051fb2b6-336e-432c-b2cb-0286e5bdf168
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio di Workfront Fusion: settimana 2 agosto 2021
+# Attività di rilascio di Workfront Fusion: settimana del 2 agosto 2021
 
-Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusion la settimana del 2 agosto 2021.
+Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana del 2 agosto 2021.
 
 Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -50,16 +51,17 @@ Nel pannello di mappatura sono ora disponibili due nuove funzioni.
 
 * Nuova funzione data e ora: dateDifference
 
-   Per facilitare il calcolo degli intervalli di tempo negli scenari, abbiamo aggiunto la nuova funzione data e ora &quot;dateDifference&quot;. Questa funzione richiede due date o un&#39;ora e restituisce il periodo di tempo tra le date o le ore, espresso nell&#39;unità di tempo selezionata.
+  Per semplificare il calcolo delle fasce orarie negli scenari, è stata aggiunta la nuova funzione data e ora &quot;dateDifference&quot;. Questa funzione accetta due date o ore e un’unità di tempo e restituisce il periodo di tempo tra le date o le ore, espresso nell’unità di tempo scelta.
 
-   In precedenza, la differenza di data e ora poteva essere calcolata solo con una formula inserita dall’utente.
+  In precedenza, la differenza di data e ora poteva essere calcolata solo tramite una formula immessa dall’utente.
 
-   Per ulteriori informazioni, consulta [Funzioni di data e ora in Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
+  Per ulteriori informazioni, consulta [Funzioni data e ora in Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
 
 * Nuova funzione array: arrayDifference
 
-   Questa funzione prende due array e restituisce un nuovo array. È possibile selezionare il tipo di nuovo array restituito dal modulo:
+  Questa funzione accetta due array e restituisce un nuovo array. Puoi selezionare il tipo di nuovo array restituito dal modulo:
 
-   * Matrice di elementi di un array non contenuti nell&#39;altro
-   * Matrice di elementi contenuti in una matrice o nell&#39;altra, ma non in entrambe.
-   Per ulteriori informazioni, consulta [Funzioni dell&#39;array in Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).
+   * Matrice di elementi di un array che non sono contenuti nell&#39;altro
+   * Matrice di elementi contenuti in un array o nell&#39;altro, ma non in entrambi.
+
+  Per ulteriori informazioni, consulta [Funzioni array in Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).

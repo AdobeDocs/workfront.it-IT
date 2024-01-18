@@ -4,77 +4,78 @@ description: 23.1 Miglioramenti di Agile
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f0e21f9b2846c5665474903a2910ce9f41cdf810
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
 
 # 23.1 Miglioramenti di Agile
 
-Questa pagina descrive tutti i miglioramenti apportati ad Agile con la versione 23.1 nell’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell&#39;ambiente di produzione la settimana del 16 gennaio 2023.
+Questa pagina descrive tutti i miglioramenti Agile apportati con la versione 23.1 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 16 gennaio 2023.
 
-Per un elenco di tutte le modifiche disponibili con la versione 23.1, vedi [Panoramica sulla versione 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 23.1, consulta [Panoramica sulla versione 23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
-## Pianificazione dello stato delle schede Workfront
+## Pianificazione Scrum per le schede madri Workfront
 
-Le nuove funzioni di pianificazione dello Scrum nelle bacheche Adobe Workfront offrono opzioni flessibili per gestire i processi agili. Utilizzando questi strumenti, puoi:
+Le nuove funzioni di pianificazione Scrum nelle schede madri Adobe Workfront offrono opzioni flessibili per gestire i processi agili. Utilizzando questi strumenti, è possibile:
 
-* Tracciare il lavoro in iterazioni o spruzzi
-* Utilizzare la velocità per guidare gli impegni del team
-* Brano a discesa e tasso di completamento
+* Tracciare il lavoro in iterazioni o sprint
+* Utilizzare Velocity per gestire gli impegni del team
+* Tracciamento burndown e velocità di completamento
 
-Le funzioni di pianificazione di Scrum saranno &quot;veloci follow&quot; dopo la versione 23.1.
+Le funzioni di pianificazione di Scrum saranno una &quot;procedura rapida&quot; dopo il rilascio della versione 23.1.
 
-## Le date di scadenza vengono mappate su carte alla data di completamento pianificata sull’oggetto Workfront
+## Le date di scadenza sulle schede sono associate alla data di completamento pianificata sull’oggetto Workfront
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-Le date di scadenza delle schede collegate nelle bacheche Workfront ora vengono mappate sulla data di completamento pianificata per l&#39;oggetto Workfront associato. Se si aggiorna la data di scadenza su una scheda, la data di completamento pianificata viene aggiornata sull&#39;attività o sul problema. La modifica della data di completamento prevista cambia anche la data di scadenza sulla carta. In precedenza, la data di scadenza della scheda era una voce manuale e non era mappata ad alcuna data su un&#39;attività o su un problema.
+Le date di scadenza sulle schede collegate nelle Schede Workfront ora vengono mappate alla data di completamento pianificata sull’oggetto Workfront associato. Se aggiorni la data di scadenza su una scheda, la data di completamento pianificata viene aggiornata sull’attività o sul problema. La modifica della data di completamento pianificata cambia anche la data di scadenza sulla scheda. In precedenza, la data di scadenza della scheda era un inserimento manuale e non veniva mappata ad alcuna data su un’attività o un problema.
 
-La mappatura delle date si applica anche agli elementi della checklist collegati sincronizzati con le sottoattività.
+La mappatura della data si applica anche agli elementi dell’elenco di controllo connessi che sono sincronizzati con le sottoattività.
 
-La data di scadenza delle schede collegate e delle schede ad hoc ora include anche un campo temporale.
+La data di scadenza sia sulle schede collegate che su quelle ad hoc ora include anche un campo ora.
 
-Per ulteriori informazioni, consulta [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
-## Le voci della lista di controllo della bacheca e le sottoattività di Workfront sono ora collegate
+## Le voci dell’elenco di controllo della bacheca e le sottoattività di Workfront sono ora collegate
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-Quando aggiungete una scheda connessa a una bacheca per un&#39;attività Workfront, tutte le sottoattività vengono importate come voci di checklist sulla scheda. Inoltre, quando si crea una voce di elenco di controllo su una scheda connessa, all&#39;attività Workfront viene aggiunta una sottoattività. Le voci di elenco di controllo sui problemi non sono collegate ad alcun oggetto Workfront.
+Quando aggiungi una scheda collegata a una bacheca per un’attività di Workfront, tutte le sottoattività vengono importate come voci dell’elenco di controllo sulla scheda. Inoltre, quando si crea una voce dell&#39;elenco di controllo su una scheda connessa, all&#39;attività Workfront viene aggiunta un&#39;attività secondaria. Gli elementi dell’elenco di controllo sui problemi non sono collegati ad alcun oggetto Workfront.
 
-In precedenza, gli elementi e le sottoattività dell’elenco di controllo non erano collegati. Se si desidera includere una sottoattività sulla bacheca, è possibile importarla come una scheda collegata separata o aggiungere manualmente una voce della lista di controllo a una scheda.
+In precedenza, le voci degli elenchi di controllo e le sottoattività non erano collegate. Se desideri includere una sottoattività nella bacheca, puoi importarla come una scheda collegata separata o aggiungere manualmente una voce dell’elenco di controllo a una scheda.
 
-Per ulteriori informazioni, consulta [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Gestione degli elementi delle liste di controllo sulle schede](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Gestire le voci dell’elenco di controllo sulle schede](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
-## Contatore a schede sulle colonne di bacheca
+## Colonne del contatore della carta sulla bacheca
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-È disponibile una nuova impostazione di configurazione per attivare un contatore di schede per tutte le colonne di una bacheca. Se si utilizza il limite WIP su una colonna, non viene aggiunto un contatore di schede separato.
+È disponibile una nuova impostazione di configurazione per attivare un contatore di schede per tutte le colonne di una scheda. Se si utilizza il limite WIP in una colonna, non viene aggiunto un contatore di schede separato.
 
-Per ulteriori informazioni, consulta [Gestire le colonne della bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Per ulteriori informazioni, consulta [Gestisci colonne bacheca](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-## Ricerca e ordinamento nel dashboard delle bacheche
+## Cerca e ordina nel dashboard delle bacheche
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-Ora potete ordinare il dashboard delle bacheche in base al nome o alla data della bacheca e cercare una bacheca specifica nell&#39;elenco.
+Ora puoi ordinare la dashboard delle bacheche per nome o data e cercare una bacheca specifica nell’elenco.
 
 Per ulteriori informazioni, consulta [Utilizzare il dashboard delle bacheche](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md).
 
@@ -82,56 +83,56 @@ Per ulteriori informazioni, consulta [Utilizzare il dashboard delle bacheche](/h
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-Se a una scheda di una bacheca viene assegnato uno stato, lo stato viene visualizzato sulla scheda in modo da non dover aprire la scheda per visualizzarne lo stato. Questo miglioramento si applica sia alle schede ad hoc che a quelle collegate.
+Se a una scheda di una bacheca è assegnato uno stato, questo viene ora visualizzato sulla scheda in modo da non dover aprire la scheda per visualizzarne lo stato. Questo miglioramento si applica sia alle schede ad hoc che a quelle connesse.
 
-Per ulteriori informazioni, consulta [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Aggiunta di una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) e [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 ![stato sulla scheda](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
-## Schede collegabili ora disponibili sulle bacheche
+## Le schede collegabili sono ora disponibili sulle bacheche
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-Ora potete inviare un collegamento a una scheda specifica a un altro utente delle bacheche. L&#39;utente deve avere accesso per visualizzare la bacheca prima di poter aprire il collegamento.
+Ora puoi inviare un collegamento a una scheda specifica a un altro utente delle bacheche. La persona deve avere accesso alla visualizzazione della bacheca prima di poter aprire il collegamento.
 
-Quando aprite una scheda su una bacheca, l&#39;URL del browser si presenta così:
+Quando apri una scheda su una bacheca, l’URL del browser si presenta così:
 
 ```
 https://<Workfront-URL>/boards/<board-id>/card/<card-id>. 
 ```
 
-Puoi copiare l’URL completo e inviarlo a un altro utente. Accedono direttamente alla scheda aperta quando accedono al collegamento.
+Puoi copiare l’URL completo e inviarlo a un altro utente. Passeranno direttamente alla scheda aperta quando accederanno al collegamento.
 
-In precedenza, i collegamenti erano disponibili per le bacheche ma non per le schede specifiche.
+In precedenza, i collegamenti erano disponibili per le bacheche, ma non per schede specifiche.
 
-Per informazioni sulle schede, vedi [Aggiunta di una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Utilizzare schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per informazioni sulle schede, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) e [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-## Filtra per connessione sulle bacheche
+## Filtra per connessione su bacheche
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-L&#39;elenco dei filtri su una bacheca ora include l&#39;opzione di filtrare per connessione, che mostra tutte le schede collegate per un progetto specifico. È inoltre possibile filtrare per schede non collegate.
+L’elenco dei filtri su una bacheca ora include l’opzione per filtrare in base alla connessione, che mostra tutte le schede collegate per un progetto specifico. È inoltre possibile filtrare in base a schede non connesse.
 
 Per ulteriori informazioni, consulta [Filtrare ed eseguire ricerche in una bacheca](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
-## Archiviare schede da una bacheca su una pianificazione
+## Archiviare le schede da una bacheca in base a una pianificazione
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo tramite la funzionalità opt-in per le schede Workfront.
+>Questa funzione è disponibile solo tramite la funzionalità opt-in anticipato per le schede madri Workfront.
 
-Potete configurare una bacheca in modo che le schede siano archiviate o &quot;cadano&quot; dalla bacheca, secondo una pianificazione. Sono disponibili opzioni per impostare le schede in una particolare colonna da archiviare in un certo numero di giorni o settimane. Ad esempio, puoi definire il calo in modo che le schede in una colonna Completato vengano archiviate dopo essere rimaste nella colonna per due settimane.
+È possibile configurare una bacheca in modo che le schede vengano archiviate, o che &quot;cadano&quot; dalla bacheca, in base a una pianificazione. Sono disponibili opzioni per impostare le schede in una particolare colonna da archiviare in un certo numero di giorni o settimane. Ad esempio, puoi definire la diminuzione in modo che le schede in una colonna Complete vengano archiviate dopo che sono state nella colonna per due settimane.
 
-Se desiderate visualizzare di nuovo le schede dopo che sono cadute dalla bacheca, potete impostare il filtro della bacheca per visualizzare le schede archiviate.
+Se si desidera visualizzare di nuovo le schede dopo che cadono dalla bacheca, è possibile impostare il filtro della bacheca per visualizzare le schede archiviate.
 
-Per ulteriori informazioni, consulta [Configura decadimento scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Per ulteriori informazioni, consulta [Configurare la perdita di dati della scheda](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3412323/){target=_blank}

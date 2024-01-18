@@ -4,9 +4,11 @@ description: 23.2 Miglioramenti per dispositivi mobili
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: be47ec2d4118c1816b1babfcc4af2e04f83781af
+recommendations: noDisplay, noCatalog
+exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -30,4 +32,4 @@ Per ulteriori informazioni, consulta [Accedi a [!DNL Adobe Workfront]](/help/qui
 
 Le raccolte di schede madri sono ora supportate anche nell’app mobile, consentendo agli utenti mobili di visualizzare dall’elenco delle schede madri qualsiasi raccolta a cui hanno accesso nella versione desktop.
 
-Per ulteriori informazioni, consulta [[!DNL Adobe Workfront] [!UICONTROL Boards] per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Per ulteriori informazioni, consulta [[!DNL Adobe Workfront] [!UICONTROL Schede] per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).

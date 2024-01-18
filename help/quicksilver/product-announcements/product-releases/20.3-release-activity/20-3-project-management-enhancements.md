@@ -1,59 +1,60 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Miglioramenti a Project Management
-description: Questa pagina descrive tutti i miglioramenti apportati alla gestione dei progetti con la versione 20.3 nell’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
+title: 20.3 Miglioramenti alla gestione dei progetti
+description: Questa pagina descrive tutti i miglioramenti alla gestione dei progetti apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: d337008d4fca8c41b98b10f9059ec1cc379811e1
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
 
-# 20.3 Miglioramenti a Project Management
+# 20.3 Miglioramenti alla gestione dei progetti
 
-Questa pagina descrive tutti i miglioramenti apportati alla gestione dei progetti con la versione 20.3 nell’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
+Questa pagina descrive tutti i miglioramenti alla gestione dei progetti apportati con la versione 20.3 all’ambiente di produzione. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione la settimana del 10 agosto 2020.
 
-Per un elenco di tutte le modifiche disponibili con la versione 20.3, vedi [Panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 20.3, consulta [Panoramica sulla versione 20.3](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
 
-## Formattazione dei campi personalizzata negli elenchi
+## Formattazione campi personalizzati negli elenchi
 
 >[!NOTE]
 >
 >Questa funzione è supportata solo nella nuova esperienza Adobe Workfront. È disponibile per alcuni elenchi in Adobe Workfront Classic, ma non è supportato in Adobe Workfront Classic.
 
-Ora, quando l’amministratore di sistema crea campi di moduli personalizzati configurati per la formattazione, è possibile formattare il testo nei campi in cui sono più utilizzati: negli elenchi in Workfront. Invece di passare all’area Dettagli per formattare il testo nel modulo personalizzato, è possibile fare clic su un campo in un elenco e applicare Grassetto, Corsivo e Sottolineato al testo.
+Ora, quando l’amministratore di sistema crea campi per moduli personalizzati configurati per la formattazione, è possibile formattare il testo nei campi in cui si utilizza di più: negli elenchi di Workfront. Invece di passare all&#39;area Dettagli per formattare il testo nel modulo personalizzato, è possibile fare clic su un campo di un elenco e applicare Grassetto, Corsivo e Sottolineato al testo.
 
-Questa funzionalità è disponibile solo negli elenchi aggiornati. Per ulteriori informazioni sugli elenchi aggiornati, consulta [Guida introduttiva agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Questa funzionalità è disponibile solo negli elenchi aggiornati. Per ulteriori informazioni sugli elenchi aggiornati, consulta [Introduzione agli elenchi in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Per informazioni sulla creazione di campi di testo con formattazione da parte di un amministratore Workfront, vedere [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Per informazioni sulla creazione di campi di testo con formattazione da parte di un amministratore di Workfront, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## Aspetto aggiornato di diverse intestazioni globali
+## È stato aggiornato l’aspetto di diverse intestazioni globali
 
 >[!NOTE]
 >
 >Questa funzione è disponibile solo nella nuova esperienza Adobe Workfront
 
-Nelle aree globali di Progetti, Portfoli, Programmi e Modelli è ora disponibile un’intestazione aggiornata che consente di sfruttare al meglio lo spazio disponibile sullo schermo. Questo aggiornamento fornisce più spazio per le informazioni su cui lavorare.
+Le aree globali di Progetti, Portfoli, Programmi e Modelli dispongono ora di un’intestazione aggiornata che sfrutta al meglio lo spazio sullo schermo. Questo aggiornamento offre più spazio per le informazioni da utilizzare su cui è necessario concentrarsi.
 
 Il collegamento Modelli dall’area Progetti è stato rimosso. È comunque possibile accedere all&#39;area Modelli dal menu principale.
 
-## Nuova casella di controllo Modifica progetto
+## Casella Nuovo progetto di modifica
 
 >[!NOTE]
 >
 >Questa funzione è disponibile solo nella nuova esperienza Adobe Workfront
 
-Per aggiornare l’aspetto della nuova esperienza Workfront, abbiamo riprogettato la casella Modifica progetto . È possibile accedere alla nuova casella Modifica progetto da un singolo progetto o quando si modifica un singolo progetto da un elenco.
+La finestra Modifica progetto è stata riprogettata allo scopo di aggiornare l&#39;aspetto della nuova esperienza Workfront. Puoi accedere alla nuova casella Modifica progetto da un singolo progetto o quando modifichi un singolo progetto da un elenco.
 
-Oltre a un aspetto e a un aspetto aggiornati, nella casella Modifica progetto sono disponibili i seguenti miglioramenti:
+Oltre a un aspetto aggiornato, nella casella Modifica progetto sono disponibili i seguenti miglioramenti:
 
-* Personalizzare il modello di layout una volta e riflettere le personalizzazioni nella pagina Dettagli e nella casella Modifica oggetto.
-* Nel pannello a sinistra della casella Modifica progetto sono ora disponibili singoli nomi di moduli personalizzati ed è possibile accedere rapidamente a ciascun modulo.
-* La funzionalità di commento viene rimossa dalla schermata di modifica del progetto per eliminare la ridondanza con la sezione Aggiornamenti .
+* Personalizzare il modello di layout una volta e riflettere tali personalizzazioni sia nella pagina Dettagli che nella casella Modifica oggetto.
+* I singoli nomi dei moduli personalizzati sono ora disponibili nel pannello a sinistra all’interno della casella Modifica progetto e da lì è possibile accedere rapidamente a ogni modulo.
+* La funzionalità di aggiunta di commenti viene rimossa dalla schermata di modifica del progetto per eliminare la ridondanza con la sezione Aggiornamenti.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see "New Edit Object box" (NEW ARTICLE, LINK LATER!!).</p>
@@ -61,30 +62,30 @@ Oltre a un aspetto e a un aspetto aggiornati, nella casella Modifica progetto so
 
 Per informazioni sulla nuova casella Modifica progetto, vedere [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-## Nuovo pannello Riepilogo e miglioramenti dell&#39;elenco dei documenti
+## Nuovi miglioramenti al pannello Riepilogo e agli Aggiornamenti per l’elenco dei documenti
 
 >[!NOTE]
 >
 >Questa funzione è disponibile solo nella nuova esperienza Adobe Workfront
 
-Il nuovo pannello Riepilogo a destra dell’elenco dei documenti è ora disponibile con una progettazione avanzata nella nuova esperienza Workfront. Questo pannello fornisce le stesse azioni e informazioni disponibili nel pannello a destra quando si seleziona un documento in Workfront Classic, inclusi dettagli del documento, aggiornamenti, Forms personalizzato, approvazioni e versioni del documento.
+Il nuovo pannello Riepilogo a destra dell’elenco dei documenti è ora disponibile con una progettazione migliorata nella nuova esperienza Workfront. Questo pannello fornisce le stesse azioni e informazioni disponibili nel pannello a destra quando si seleziona un documento in Workfront Classic, inclusi i dettagli del documento, gli aggiornamenti, il Forms personalizzato, le approvazioni e le versioni del documento.
 
-Alcune azioni non sono al momento disponibili, ma verranno aggiunte in una versione futura. Queste azioni includono il flusso di lavoro di correzione.
+Alcune azioni non sono attualmente disponibili, ma saranno aggiunte in una versione futura. Queste azioni includono il flusso di lavoro di verifica.
 
 Per ulteriori informazioni, consulta [Panoramica del riepilogo dei documenti](../../../documents/managing-documents/summary-for-documents.md).
 
-## Miglioramenti nei dettagli dei documenti
+## Miglioramenti in Dettagli documento
 
 >[!NOTE]
 >
 >Questa funzione è disponibile solo nella nuova esperienza Adobe Workfront
 
-Nella pagina Dettagli documento sono disponibili i seguenti miglioramenti:
+Nella pagina Dettagli documento, cerca i seguenti miglioramenti:
 
-* Le nuove opzioni di versione sono state spostate in un menu a discesa vicino al pannello a sinistra, per un accesso più semplice.
-* L’icona a forma di bozza aperta è stata modificata in un’etichetta a prova aperta, facilitando la visualizzazione sulla pagina.
+* Le opzioni della nuova versione sono state spostate in un menu a discesa accanto al pannello sinistro, per un accesso più semplice.
+* L’icona Apri bozza è stata modificata in un’etichetta Apri bozza, per facilitarne la visualizzazione nella pagina.
 * Miniatura di anteprima più grande, che consente di identificare facilmente il documento
-* È stata aggiunta l’icona Modifica globale , che consente di modificare più campi contemporaneamente.
+* È stata aggiunta l’icona Modifica globale, che consente di modificare più campi contemporaneamente.
 
 Per ulteriori informazioni, consulta [Panoramica dei dettagli del documento](../../../documents/managing-documents/document-details-overview.md).
 
@@ -92,25 +93,25 @@ Per ulteriori informazioni, consulta [Panoramica dei dettagli del documento](../
 
 >[!NOTE]
 >
->Questa funzionalità non è temporaneamente disponibile per la maggior parte dei clienti nei cluster 1, 2, 3 e 5. Questa pagina verrà aggiornata quando la funzionalità verrà ripristinata per tutti i clienti.
+>Questa funzionalità non è al momento disponibile per la maggior parte dei clienti nei cluster 1, 2, 3 e 5. Questa pagina verrà aggiornata quando la funzionalità verrà ripristinata per tutti i clienti.
 
-Per dare agli amministratori del gruppo maggiore autonomia e consentire una personalizzazione a livello di gruppo dei flussi di lavoro, ora puoi definire le preferenze di progetto a livello di gruppo per i gruppi amministrati. Quando crei un progetto, le preferenze del gruppo avranno effetto prima di quelle del sistema.
+Per dare maggiore autonomia agli amministratori del gruppo e consentire una maggiore personalizzazione dei flussi di lavoro a livello di gruppo, ora puoi definire le preferenze del progetto a livello di gruppo, per i gruppi che amministri. Quando create un progetto, le preferenze del gruppo avranno effetto prima di quelle del sistema.
 
-Tutte le preferenze del progetto sono personalizzabili a livello di gruppo, ad eccezione dei calcoli Timeline e dei trimestri personalizzati.
+Tutte le preferenze di progetto sono personalizzabili a livello di gruppo, ad eccezione di Calcoli sequenza temporale e Trimestri personalizzati.
 
-Per ulteriori informazioni sulle preferenze per i progetti di gruppo, consulta [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+Per ulteriori informazioni sulle preferenze per i progetti di gruppo, consultate [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-## Novità per gli amministratori: Creazione di campi modulo personalizzati in cui gli utenti possono formattare il testo
+## Novità per gli amministratori: creare campi modulo personalizzati in cui gli utenti possono formattare il testo
 
-In un modulo personalizzato è ora possibile creare campi che includono pulsanti di formattazione del testo. Quando l’utente digita i campi, può evidenziare e organizzare il testo in grassetto, corsivo e sottolineato. L&#39;elevato limite di caratteri di 15.000 consente un&#39;ampia quantità di testo e formattazione.
+In un modulo personalizzato è ora possibile creare campi che includono pulsanti di formattazione del testo. Quando gli utenti digitano in questi campi, possono evidenziare e organizzare il testo in grassetto, corsivo e sottolineato. Il limite massimo di 15.000 caratteri consente di inserire testo e formattazione.
 
-Per ulteriori informazioni, consulta Creare un modulo personalizzato nella nuova esperienza Workfront .
+Per ulteriori informazioni, consulta Creare un modulo personalizzato nella nuova esperienza Workfront.
 
-## Novità per gli amministratori: Creare un nome interno e un’etichetta rivolta all’utente per un campo Modulo personalizzato
+## Novità per gli amministratori: creare un nome interno e un’etichetta rivolta all’utente per un campo modulo personalizzato
 
-Per garantire una maggiore flessibilità nell’etichettatura e nella rietichettatura dei campi modulo personalizzati, è ora possibile creare un *name* per un campo oltre a quello rivolto all’utente *etichetta* tu hai usato. In questo modo è possibile modificare l’etichetta del campo visualizzata dagli utenti senza modificare il nome del campo visualizzato dal sistema.
+Per offrire maggiore flessibilità nell’etichettatura e rietichettatura dei campi del modulo personalizzato, ora puoi creare un modulo interno *nome* per un campo in aggiunta a quello rivolto all&#39;utente *etichetta* hai utilizzato. In questo modo è possibile modificare l&#39;etichetta del campo visualizzata dagli utenti senza modificare il nome del campo visualizzato dal sistema.
 
-In passato, l’etichetta veniva visualizzata sia sopra il campo per gli utenti sia utilizzata dal sistema per identificare il campo. Pertanto, la modifica dell’etichetta per gli utenti ha causato il malfunzionamento del campo dovunque sia stato utilizzato, perché il sistema non era più in grado di identificarlo.
+In passato, l’etichetta veniva visualizzata sopra il campo per gli utenti e utilizzata dal sistema per identificare il campo. Cambiando l&#39;etichetta per gli utenti si causava il malfunzionamento del campo ovunque venisse usato, perché il sistema non poteva più identificarlo.
 
 Per ulteriori informazioni, consulta [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

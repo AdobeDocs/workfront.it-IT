@@ -4,9 +4,11 @@ description: 23.2 Miglioramenti alla gestione delle risorse
 author: Courtney
 draft: Probably
 feature: Product Announcements
-source-git-commit: 93071f9c9d359ff98a269b07f81ebcf251b1f23c
+recommendations: noDisplay, noCatalog
+exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -33,7 +35,7 @@ Il valore predefinito del campo è 1, che indica che un utente spende l’intero
 
 In seguito a questo aggiornamento, Workfront calcola la disponibilità dell&#39;utente utilizzando le formule seguenti, a seconda della selezione effettuata nell&#39;area delle preferenze Gestione risorse:
 
-* schedule Predefinita:
+* Pianificazione predefinita:
 * Capacità utente = [(Ore programmate - Eccezioni programmate) * FTE - Indisponibilità] * Tempo di lavoro
 * Pianificazione utente:
 * Capacità utente = (Ore programmate - Eccezioni programmate - Indisponibilità) * Orario di lavoro.

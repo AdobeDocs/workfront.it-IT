@@ -5,10 +5,11 @@ title: Anteprima R1 5
 description: Questa pagina descrive tutte le modifiche disponibili nell’ambiente di anteprima con la versione R1 Preview 5. La funzionalità in questa pagina è stata resa disponibile nell’ambiente di anteprima il 16 marzo 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1288'
 ht-degree: 13%
 
 ---
@@ -87,7 +88,7 @@ Per ulteriori informazioni sulle notifiche degli eventi, consulta  [Configurare
 
 Le seguenti opzioni sono ora disponibili nelle notifiche e-mail istantanee. Queste opzioni sono disponibili solo per le notifiche istantanee che hanno anche una controparte di riepilogo giornaliera:
 
-* &quot;Aggiungi a un digest giornaliero&quot;
+* &quot;Aggiungi a un riepilogo giornaliero&quot;
 * &quot;Interrompi le e-mail di questo tipo&quot;
 
 Ora, quando ricevi una notifica e-mail istantanea, puoi aggiungerla a una notifica con riepilogo giornaliero, oppure puoi annullare completamente l’abbonamento a tale notifica.

@@ -3,9 +3,11 @@ title: 23.3 Altri miglioramenti
 description: 23.3 Altri miglioramenti
 author: Lisa
 feature: Product Announcements
-source-git-commit: 9eda5871d6712ca46580b79275a79f0e769af58f
+recommendations: noDisplay, noCatalog
+exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '451'
 ht-degree: 0%
 
 ---

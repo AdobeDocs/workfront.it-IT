@@ -1,93 +1,94 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: Altre funzionalità di Workfront Classic rilasciate in Produzione prima della versione 2020.1
-description: Le seguenti funzioni sono state rese disponibili nell’ambiente di produzione Workfront Classic prima della versione 2020.1 in Produzione.
+title: Altre funzioni di Workfront Classic rilasciate in produzione prima della versione 2020.1
+description: Le seguenti funzioni sono state rese disponibili per l’ambiente di produzione Workfront Classic prima della versione 2020.1 di Produzione.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 267757fb-a8ef-43cf-a93c-3ac59d8bb432
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 5%
+source-wordcount: '344'
+ht-degree: 6%
 
 ---
 
-# Altre funzionalità di Workfront Classic rilasciate in Produzione prima della versione 2020.1
+# Altre funzioni di Workfront Classic rilasciate in produzione prima della versione 2020.1
 
-Le seguenti funzioni sono state rese disponibili nell’ambiente di produzione Workfront Classic prima della versione 2020.1 in Produzione.
+Le seguenti funzioni sono state rese disponibili per l’ambiente di produzione Workfront Classic prima della versione 2020.1 di Produzione.
 
-Per informazioni sull’intervallo di tempo del rilascio e su tutte le funzionalità disponibili con la versione 2020.1, consulta [Panoramica sulla versione 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md).
+Per informazioni sull’intervallo di tempo di rilascio e tutte le funzionalità disponibili con la versione 2020.1, consulta [Panoramica sulla versione 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020.1-release-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td> Comportamento dei cookie Workfront aggiornato per mantenere la compatibilità con Chrome <p>Per mantenere la compatibilità con un prossimo aggiornamento di Google Chrome (Chrome v80), abbiamo aggiornato la piattaforma Workfront per garantire che i cookie vengano inviati in modo appropriato con le richieste. </p> <p>Questo aggiornamento di Chrome modifica il valore predefinito dell’attributo cookie SameSite. Se desideri testare il comportamento dell’istanza Workfront dopo l’aggiornamento di Google Chrome, regola i flag in Chrome e abilita le seguenti opzioni: </p> 
+   <td> Comportamento dei cookie di Workfront aggiornato per mantenere la compatibilità con Chrome <p>Per mantenere la compatibilità con un prossimo aggiornamento di Google Chrome (Chrome v80), abbiamo aggiornato la piattaforma Workfront per garantire che i cookie vengano inviati in modo appropriato con le richieste. </p> <p>Questo aggiornamento di Chrome modifica il valore predefinito dell’attributo per cookie SameSite. Se desideri verificare il comportamento dell’istanza di Workfront dopo l’aggiornamento di Google Chrome, regola i flag in Chrome e abilita le seguenti opzioni: </p> 
     <ul> 
-     <li>"SameSite by default cookies" </li> 
-     <li>"I cookie senza SameSite devono essere sicuri"</li> 
+     <li>"SameSite by default cookies" (Cookie SameSite per impostazione predefinita) </li> 
+     <li>"Cookies without SameSite must be secure"</li> 
     </ul> 
     <div class="workfront_plans"> 
-     <p><strong>Disponibile nei seguenti ambienti:</strong> </p> 
+     <p><strong>Disponibile in questi ambienti:</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
       <li>La nuova esperienza Workfront</li> 
      </ul> 
      <p><strong>Anteprima versione</strong> </p> 
      <ul> 
-      <li>29 gennaio 2020</li> 
+      <li>giovedì 29 gennaio 2020</li> 
      </ul> 
      <p><strong>Versione di produzione:</strong> </p> 
      <ul> 
-      <li> 30 gennaio 2020</li> 
+      <li> venerdì 30 gennaio 2020</li> 
      </ul> 
     </div> </td> 
   </tr> 
   <tr> 
    <td>Menu Altro nell’area Aggiornamenti <p>Utilizza il menu Altro in un aggiornamento per:</p> 
     <ul> 
-     <li>Copia il testo del corpo di un aggiornamento</li> 
-     <li>Copia il collegamento diretto in un thread di aggiornamento o in un singolo aggiornamento</li> 
+     <li>Copiare il corpo del testo di un aggiornamento</li> 
+     <li>Copiare il collegamento diretto a un thread di aggiornamento o a un singolo aggiornamento</li> 
      <li>Eliminare un aggiornamento</li> 
     </ul> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Aggiorna lavoro</a>.</p> 
     <div class="workfront_plans"> 
-     <p><strong>Disponibile nei seguenti ambienti:</strong> </p> 
+     <p><strong>Disponibile in questi ambienti:</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
       <li>La nuova esperienza Workfront</li> 
      </ul> 
      <p><strong>Versione di produzione:</strong> </p> 
      <ul> 
-      <li> 8 gennaio 2020</li> 
+      <li> giovedì 8 gennaio 2020</li> 
      </ul> 
     </div> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Nuova barra di avanzamento nell’area Aggiornamenti <p>La barra di avanzamento della percentuale completa nell’area aggiornamenti ha un nuovo aspetto. Fare clic e trascinare per aggiornare la percentuale oppure fare doppio clic per immettere manualmente il numero.</p> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Aggiorna lavoro</a>.</p> 
+   <td>Nuova barra di avanzamento nell’area Aggiornamenti <p>La barra di avanzamento della percentuale di completamento nell'area aggiornamenti ha un nuovo aspetto. Fai clic e trascina per aggiornare la percentuale o fai doppio clic per immettere manualmente il numero.</p> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref" xrefformat="{para}">Aggiorna lavoro</a>.</p> 
     <div class="workfront_plans"> 
-     <p><strong>Disponibile nei seguenti ambienti:</strong> </p> 
+     <p><strong>Disponibile in questi ambienti:</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
       <li>La nuova esperienza Workfront</li> 
      </ul> 
      <p><strong>Versione di produzione:</strong> </p> 
      <ul> 
-      <li> 8 gennaio 2020</li> 
+      <li> giovedì 8 gennaio 2020</li> 
      </ul> 
     </div> </td> 
   </tr> 
   <tr> 
-   <td> Sincronizzazione dei commenti Workfront con Jira <p>L'integrazione Workfront for Jira ora sincronizza i tuoi commenti Workfront nel flusso di commenti nativo di Jira.</p> <p>In precedenza era possibile sincronizzare i commenti da Jira a Workfront, ma non da Workfront a Jira. </p> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">Configurare Adobe Workfront per Jira</a>.</p> 
+   <td> Sincronizzazione commenti Workfront con Jira <p>L’integrazione Workfront for Jira ora sincronizza i commenti Workfront con il flusso di commenti nativo di Jira.</p> <p>In precedenza era possibile sincronizzare i commenti da Jira a Workfront, ma non da Workfront a Jira. </p> <p>Per ulteriori informazioni, consulta <a href="../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">Configurare Adobe Workfront per Jira</a>.</p> 
     <div class="workfront_plans"> 
-     <p><strong>Disponibile nei seguenti ambienti:</strong> </p> 
+     <p><strong>Disponibile in questi ambienti:</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
       <li>La nuova esperienza Workfront</li> 
      </ul> 
      <p><strong>Versione di produzione:</strong> </p> 
      <ul> 
-      <li> 20 dicembre 2019</li> 
+      <li> sabato 20 dicembre 2019</li> 
      </ul> 
     </div> </td> 
   </tr> 

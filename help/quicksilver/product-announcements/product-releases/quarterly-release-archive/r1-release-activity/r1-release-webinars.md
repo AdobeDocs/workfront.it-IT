@@ -1,37 +1,38 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Webinar sulla versione R1
+title: Webinar sulla versione di R1
 description: Questi webinar si sono concentrati sulle funzionalità incluse nella versione R1.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5656710c-873b-4f8c-822f-49858f149892
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 3%
+source-wordcount: '316'
+ht-degree: 2%
 
 ---
 
-# Webinar sulla versione R1
+# Webinar sulla versione di R1
 
 Questi webinar si sono concentrati sulle funzionalità incluse nella versione R1. 
 
-La versione R1 è attualmente disponibile per il test in Anteprima; Rilasci di R1 nell’ambiente di produzione il 26 aprile 2017.
+La versione R1 è attualmente disponibile per il test in Anteprima; le versioni R1 nell&#39;ambiente di produzione il 26 aprile 2017.
 
-Per informazioni più dettagliate sulle funzionalità descritte nei webinar, consulta [Panoramica dell’attività di rilascio di R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) pagina.
+Per informazioni più dettagliate sulle funzionalità trattate nei webinar, vedi [Panoramica dell’attività sulla versione R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) pagina.
 
-Sono disponibili le seguenti registrazioni del webinar:
+Sono disponibili le seguenti registrazioni di webinar:
 
-## Webinar sulla versione R1 (29 marzo 2017)
+## Webinar sulla versione di R1 (29 marzo 2017)
 
-Il webinar sulla versione Workfront R1 2017 è stato presentato dal team di prodotto Workfront il 29 marzo.  
+Il webinar sulla versione di Workfront R1 2017 è stato presentato dal team di prodotto Workfront il 29 marzo.  
 
 Per comodità, il webinar è suddiviso nei seguenti argomenti:
 
 * [Introduzione](#introduction)
 * [Progetti](#projects)
-* [Gestione Utente](#user-management)
+* [Gestione utente](#user-management)
 * [Configurazione](#configuration)
 * [Mobile e Outlook](#mobile-and-outlook)
 
@@ -44,16 +45,16 @@ Questa parte del webinar contiene informazioni sul processo di rilascio, sull’
 Questa parte del webinar contiene i seguenti argomenti:
 
 * Cestino
-* Rapporto sull&#39;utilizzo
+* Rapporto utilizzo
 * Diagramma di approvazione
-* Approvazioni di progetti, attività e problemi aggiornate
+* Sono state aggiornate le approvazioni di progetti, attività e problemi
 * Modificare un processo di approvazione globale esistente
-* Configurare gli oggetti da aggiornare in attesa di approvazione
+* Configura gli oggetti da aggiornare in attesa di approvazione
 * Modifica attività o problemi in attesa di approvazione
 * Modificare lo stato di un progetto
 * Metodo migliorato per il collegamento dei file
-* Miglioramenti della visualizzazione Milestone
-* Rapporti Mostra diagramma di Gantt per impostazione predefinita
+* Miglioramenti alla vista Milestone
+* Rapporti Mostra il Diagramma di Gantt per impostazione predefinita
 
 ### Gestione Utente {#user-management}
 
@@ -62,28 +63,28 @@ Questa parte del webinar contiene i seguenti argomenti:
 * Riprogettazione dell’interfaccia utente del gruppo
 * Rendi pubblico un gruppo
 * Allegare un modello di layout a un gruppo
-* Pianificare gli utenti per la disattivazione
-* Calendario &quot;Working On&quot; del team aggiornato
-* Allocazioni utente nella Timeline di programmazione
-* Miglioramenti alla pianificazione delle risorse
-* Miglioramenti della correzione
+* Pianifica utenti per la disattivazione
+* Calendario &quot;Lavori in corso&quot; del team aggiornato
+* Allocazioni utente nella sequenza temporale di pianificazione
+* Miglioramenti alla programmazione delle risorse
+* Miglioramenti bozza
 
 ### Configurazione {#configuration}
 
 Questa parte del webinar contiene i seguenti argomenti:
 
-* Personalizzazioni terminologiche
-* Opzioni digest e-mail
-* Miglioramenti a livello di look e Feel e-mail
-* Rifiuto delle notifiche istantanee
-* Notifiche utente per la modifica in serie
-* Riorganizzato In Cui Alcune Notifiche Si Trovano
-* Gruppi di notifiche degli eventi aggiornati nell&#39;area di configurazione e-mail
-* Aspetto e sensazione aggiornati di diverse pagine di configurazione del sistema
+* Personalizzazioni della terminologia
+* Opzioni riepilogo e-mail
+* Miglioramenti dell’aspetto dell’e-mail
+* Rinuncia alle notifiche istantanee
+* Modifica in serie delle notifiche utente
+* Riorganizzato Dove Risiedono Alcune Notifiche
+* Raggruppamenti di notifiche di eventi aggiornati nell’area di configurazione e-mail
+* È stato aggiornato il look and feel di diverse pagine di configurazione del sistema
 
 ### Mobile e Outlook {#mobile-and-outlook}
 
 Questa parte del webinar contiene i seguenti argomenti:
 
-* Miglioramenti a livello di dispositivi mobili
+* Miglioramenti per dispositivi mobili
 * Outlook per Office 365

@@ -3,9 +3,11 @@ title: 23.3 Miglioramenti dell’integrazione
 description: 23.3 Miglioramenti dell’integrazione
 author: Lisa
 feature: Product Announcements
-source-git-commit: 29ef11a804cbb7e8da9ddac13bf51de7aa50db53
+recommendations: noDisplay, noCatalog
+exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '740'
 ht-degree: 0%
 
 ---
@@ -62,7 +64,7 @@ For more information, see [Link documents from external applications](/help/quic
 
 -->
 
-## Creare automaticamente cartelle collegate in Adobe Experience Manager Assets durante la creazione di un progetto
+## Creazione automatica di cartelle collegate in Adobe Experience Manager Assets durante la creazione di un progetto
 
 Con il nuovo flusso di lavoro Crea cartella collegata per l’integrazione Adobe Experience Manager, puoi configurare l’integrazione con un percorso a una cartella Adobe Experience Manager Assets. Quando l’integrazione viene aggiunta a un modello di progetto, tutti i progetti creati dal modello creano automaticamente una sottocartella collegata in Experience Manager Assets nella cartella specificata.
 

@@ -3,140 +3,141 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: '''Attività di rilascio di Workfront Fusion: Settimana dell''11 gennaio 2021'''
-description: Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusion la settimana dell’11 gennaio 2021.
+title: "Attività di rilascio di Workfront Fusion: settimana dell’11 gennaio 2021"
+description: Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana dell’11 gennaio 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 2439e2a7-9404-433a-bd71-a7776042d8a0
 hidefromtoc: true
-source-git-commit: e6995cd57c4210725d49379df5bcd7e93ce4b02a
+source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio di Workfront Fusion: settimana 11 gennaio 2021
+# Attività di rilascio di Workfront Fusion: settimana dell’11 gennaio 2021
 
-Questa pagina descrive tutti i miglioramenti effettuati in Adobe Workfront Fusion la settimana dell’11 gennaio 2021.
+Questa pagina descrive tutti i miglioramenti apportati ad Adobe Workfront Fusion la settimana dell’11 gennaio 2021.
 
 Per un elenco di tutte le modifiche recenti, vedi [Attività di rilascio di Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti alla manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e controlla eventuali aggiornamenti etichettati Workfront Fusion Maintenance Update.
+Per un elenco delle correzioni di bug recenti in Workfront Fusion, vedi [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) e verificare la presenza di eventuali aggiornamenti etichettati Aggiornamento di manutenzione di Workfront Fusion.
 
-## Connettore e moduli ampliati ora disponibili
+## Connettore e moduli Widen ora disponibili
 
-È ora possibile utilizzare Workfront Fusion per connettersi all&#39;account Widen. Con i moduli Widen, è possibile:
+Ora puoi utilizzare Workfront Fusion per connettersi al tuo account Widen. I moduli Widen consentono di:
 
-* Aggiungere risorse a o rimuovere risorse da una raccolta
-* Scaricare o caricare file
-* Leggere o aggiornare i metadati delle risorse
+* Aggiungere o rimuovere risorse da una raccolta
+* Scaricare o caricare i file
+* Lettura o aggiornamento dei metadati delle risorse
 * Cercare le risorse in base ai criteri specificati
-* Recupera un elenco di risorse in una raccolta
+* Recuperare un elenco di risorse in una raccolta
 * Esegui una chiamata API personalizzata.
 
-Per ulteriori informazioni consulta [Moduli ampliati](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
+Per ulteriori informazioni, consulta [Amplia moduli](../../../workfront-fusion/apps-and-their-modules/widen-modules.md).
 
-## Connettore dati e moduli ora disponibili
+## Connettore e moduli Datadog ora disponibili
 
-È ora possibile utilizzare Workfront Fusion per connettersi all&#39;account Datadog.
+È ora possibile utilizzare Workfront Fusion per connettersi all’account Datadog.
 
-Con i moduli Datadog, puoi:
+Con i moduli Datadog è possibile:
 
-* Punti della cronologia dei post
+* Pubblica punti serie temporali
 * Eseguire una chiamata API personalizzata
 
-Per informazioni sui moduli di Datadog, consulta [Moduli Datadog](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
+Per informazioni sui moduli Datadog, vedi [Moduli Datadog](../../../workfront-fusion/apps-and-their-modules/datadog-modules.md).
 
-## Connettore evento e moduli ora disponibili
+## Sono ora disponibili il connettore e i moduli Cvent
 
-È ora possibile utilizzare Workfront Fusion 2.0 per connettersi all&#39;account Cvent.
+È ora possibile utilizzare Workfront Fusion 2.0 per connettersi al proprio account Cvent.
 
-Con i moduli Cvent, è possibile:
+Con i moduli Cvent è possibile:
 
-* Creare una richiesta di riunione
-* Leggi record quali contatti, eventi o invitati
-* Elencare record in base ai criteri specificati
-* Registra o aggiungi gli invitati a eventi specifici
-* Aggiorna o elimina contatti
+* Creare una convocazione di riunione
+* Lettura di record quali contatti, eventi o invitati
+* Elenca i record in base ai criteri specificati
+* Registrare o aggiungere invitati a eventi specifici
+* Aggiornare o eliminare contatti
 * Effettuare una chiamata API personalizzata
 
-Per informazioni sui moduli Cvent disponibili, vedi [Moduli di cvent](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
+Per informazioni sui moduli evento disponibili, vedere [Moduli evento](../../../workfront-fusion/apps-and-their-modules/cvent-modules.md).
 
-## Connettore e moduli di Microsoft Dynamics 365 ora disponibili
+## Connettore e moduli Microsoft Dynamics 365 ora disponibili
 
-È ora possibile utilizzare Workfront Fusion 2.0 per connettersi all’account Microsoft Dynamics 365. Con i moduli Microsoft Dynamics 365 puoi:
+È ora possibile utilizzare Workfront Fusion 2.0 per connettersi all’account Microsoft Dynamics 365. Con i moduli di Microsoft Dynamics 365 è possibile:
 
-* Attiva uno scenario in cui i record vengono aggiunti o aggiornati in Microsoft Dynamics 365
-* Creare, leggere, aggiornare o eliminare un record Microsoft Dynamics 365
+* Attiva uno scenario quando i record vengono aggiunti o aggiornati in Microsoft Dynamics 365
+* Creare, leggere, aggiornare o eliminare un record di Microsoft Dynamics 365
 * Eseguire una chiamata API personalizzata
 
-Per informazioni sui moduli Microsoft Dynamics 365 disponibili, consulta [Moduli di Microsoft Dynamics 365](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
+Per informazioni sui moduli di Microsoft Dynamics 365 disponibili, vedere [Moduli Microsoft Dynamics 365](../../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md).
 
-## Connettore e moduli DocuSign ora disponibili
+## Il connettore e i moduli DocuSign sono ora disponibili
 
-È ora possibile utilizzare Workfront Fusion 2.0 per connettersi all&#39;account DOCUSign. Con i moduli Docusign, puoi:
+È ora possibile utilizzare Workfront Fusion 2.0 per connettersi al proprio account Docusign. Con i moduli Documentazione è possibile:
 
-* Attiva uno scenario in cui un involucro cambia il suo stato
+* Attiva uno scenario quando un involucro cambia stato
 * Creare una busta
-* Leggere, inviare o aggiungere un destinatario a una busta esistente
+* Lettura, invio o aggiunta di un destinatario a una busta esistente
 * Aggiungere o modificare campi personalizzati nei documenti
-* Scarica un documento come file
-* Caricare un file in un inviluppo
+* Scaricare un documento come archiviato
+* Caricare un file in una busta
 * Eseguire una chiamata API personalizzata
 
 Per ulteriori informazioni, consulta [Moduli DocuSign](../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
 
 ## Cerca nella cronologia di esecuzione dello scenario
 
-Abbiamo semplificato l’individuazione di informazioni specifiche dalle esecuzioni precedenti degli scenari. La nuova ricerca full text di Fusion consente di cercare nella cronologia di esecuzione i dati contenuti in un bundle. Ad esempio, per identificare l&#39;esecuzione creata per un&#39;attività specifica, è possibile utilizzare la ricerca full text per cercare tale ID attività.
+È stato semplificato l’individuazione di informazioni specifiche provenienti da esecuzioni di scenari precedenti. La nuova ricerca full-text di Fusion consente di cercare nella cronologia di esecuzione tutti i dati contenuti in un bundle. Ad esempio, per identificare l&#39;esecuzione che ha creato un&#39;attività specifica, è possibile utilizzare la ricerca full-text per cercare l&#39;ID attività.
 
-Precedentemente, per trovare informazioni di esecuzione specifiche era necessario visualizzare ciascuna esecuzione singolarmente.
+In precedenza, per trovare informazioni specifiche sull’esecuzione era necessario visualizzare ogni singola esecuzione.
 
 Per ulteriori informazioni, consulta [Visualizzare la cronologia di esecuzione di uno scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Aggiornamenti a Fusion 2.0 Data Store
 
-Per semplificare la personalizzazione degli archivi dati, sono state aggiunte alcune nuove funzionalità. Ora, quando visualizzi un archivio dati, puoi:
+Per semplificare la personalizzazione degli archivi dati, sono state aggiunte alcune nuove funzionalità. Ora quando visualizzi un archivio dati puoi:
 
-* Trascinare per riordinare le colonne
+* Trascina per riordinare le colonne
 * Modificare una singola cella
-* Aggiungi più righe
+* Aggiungere più righe
 
-Per ulteriori informazioni sugli archivi dati, vedi [Moduli di archiviazione dati](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+Per ulteriori informazioni sugli archivi dati, consulta [Moduli archivio dati](../../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
 ## Effettuare una richiesta di autorizzazione della chiave API tramite il connettore HTTP
 
-Per aumentare la flessibilità nelle modalità di accesso alle API, abbiamo aggiunto un nuovo modulo al connettore HTTP. Ora è possibile utilizzare il connettore HTTP per effettuare una richiesta quando il servizio Web a cui si accede richiede l’utilizzo di una chiave API.
+Per aumentare la flessibilità nelle modalità di accesso alle API, è stato aggiunto un nuovo modulo al connettore HTTP. Ora puoi utilizzare il connettore HTTP per effettuare una richiesta quando il servizio web a cui accedi richiede l’utilizzo di una chiave API.
 
 Per ulteriori informazioni, consulta [Moduli HTTP](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
 ## Nuove funzioni disponibili nel pannello di mappatura
 
-Per facilitare la personalizzazione e la semplificazione delle formule nei moduli, sono state aggiunte alcune nuove funzioni.
+Sono state aggiunte alcune nuove funzioni che consentono di personalizzare e semplificare le formule nei moduli.
 
 * il
 
-   ```
-   omit
-   ```
+  ```
+  omit
+  ```
 
-   funzione è una funzione generale che omette le chiavi specificate dell&#39;oggetto e restituisce il resto.
+  La funzione è una funzione generale che omette i tasti specificati dell&#39;oggetto e restituisce il resto.
 * il
 
-   ```
-   pick
-   ```
+  ```
+  pick
+  ```
 
-   funzione è una funzione generale che seleziona dall’oggetto solo le chiavi specificate.
+  è una funzione generale che seleziona solo i tasti specificati dall’oggetto.
 * il
 
-   ```
-   escapeMarkdown
-   ```
+  ```
+  escapeMarkdown
+  ```
 
-   è una funzione stringa che evita tutti i tag Markdown presenti in un testo.
+  La funzione è una funzione stringa che esce da tutti i tag Markdown in un testo.
 
-Per ulteriori informazioni sulle funzioni di omettere e selezionare, vedi [Funzioni generali in Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
+Per ulteriori informazioni sulle funzioni Ometti e Scegli, consulta [Funzioni generali di Adobe Workfront Fusion](../../../workfront-fusion/functions/general-functions.md).
 
 Per ulteriori informazioni sulla funzione escapeMarkdown, consulta [Funzioni stringa in Adobe Workfront Fusion](../../../workfront-fusion/functions/string-functions.md).
