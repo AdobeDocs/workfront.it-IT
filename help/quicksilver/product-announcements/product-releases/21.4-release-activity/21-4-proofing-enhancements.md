@@ -1,33 +1,34 @@
 ---
-title: 21.4 Miglioramenti della correzione
-description: 21.4 Miglioramenti della correzione
+title: 21.4 Miglioramenti delle bozze
+description: 21.4 Miglioramenti delle bozze
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: a8141c36-3e57-47df-8f27-9166fbdf1358
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
 
-# 21.4 Miglioramenti della correzione
+# 21.4 Miglioramenti delle bozze
 
-Questa pagina descrive tutti i miglioramenti apportati alla funzione di correzione nell’ambiente di anteprima con la versione 21.4. Questi miglioramenti saranno resi disponibili nell&#39;ambiente di produzione la settimana del 4 ottobre 2021.
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 21.4. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione la settimana del 4 ottobre 2021.
 
-Per un elenco di tutte le modifiche disponibili con la versione 21.4, vedi [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 21.4, consulta [Panoramica sulla versione 21.4](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
 
-## Funzionalità di correzione migliorate per revisori e richiedenti
+## Funzionalità di verifica migliorate per revisori e richiedenti
 
 >[!NOTE]
 >
->Rilasciato solo ai clienti EMEA. Funzionalità presto disponibili per i clienti americani.
+>Rilasciato solo ai clienti EMEA. Funzionalità disponibili a breve per i clienti statunitensi.
 
-Per fornire un’esperienza più integrata tra Workfront e Proof, abbiamo apportato diversi miglioramenti per quanto riguarda le funzionalità di correzione per Revisori e Richiedenti:
+Per fornire un’esperienza più integrata tra Workfront e Proof, sono stati apportati diversi miglioramenti alle funzionalità di verifica per revisori e richiedenti:
 
-* Puoi assegnare ruoli Moderatore o Autore a qualsiasi utente in Workfront, indipendentemente dal fatto che possieda una licenza di correzione, concedendo loro diritti aggiuntivi, come l’applicazione di azioni o la risoluzione di commenti.
-* È possibile aggiungere Revisori e Richiedenti alle bozze che richiedono un login o che devono essere firmate elettronicamente.
-* Tutti gli utenti possono inoltre usufruire di una connettività migliorata tra Workfront e Proof. Ora, quando si disattiva un utente o si aggiorna l’indirizzo e-mail di un utente, gli aggiornamenti vengono rispecchiati correttamente nelle bozze quando vengono modificati in Workfront.
+* Puoi assegnare i ruoli Moderatore o Autore a qualsiasi utente in Workfront, indipendentemente dal fatto che disponga di una licenza di verifica, assegnando loro diritti aggiuntivi, come l’applicazione di azioni o la risoluzione di commenti.
+* Puoi aggiungere revisori e richiedenti alle bozze che richiedono un accesso o che devono essere firmate elettronicamente.
+* Tutti gli utenti usufruiscono inoltre della connettività migliorata tra Workfront e Proof. Ora, quando si disattiva un utente o si aggiorna l’indirizzo e-mail di un utente, i propri aggiornamenti vengono rispecchiati correttamente nella verifica se modificati in Workfront.
 
-Per ulteriori informazioni, consulta [Panoramica sulla bozza dei ruoli](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Per ulteriori informazioni, consulta [Panoramica sui ruoli bozza](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).

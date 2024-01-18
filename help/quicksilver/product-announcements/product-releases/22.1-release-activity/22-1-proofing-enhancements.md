@@ -1,20 +1,21 @@
 ---
-title: 22.1 Miglioramenti della correzione
-description: 22.1 Miglioramenti della correzione
+title: 22.1 Miglioramenti delle bozze
+description: 22.1 Miglioramenti delle bozze
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof, Digital Content and Documents
+feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 750c0a3863989e758ec35b11e48603300fa31fc7
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
 
-# 22.1 Miglioramenti della correzione
+# 22.1 Miglioramenti delle bozze
 
-Questa pagina descrive tutti i miglioramenti apportati alla funzione di correzione nell’ambiente di anteprima con la versione 22.1. Questi miglioramenti saranno resi disponibili nell&#39;ambiente di produzione
+Questa pagina descrive tutti i miglioramenti apportati all’ambiente di anteprima con la versione 22.1 di. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -24,50 +25,49 @@ in January 2022
 
 la settimana del 17 gennaio 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.1, vedi [Panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.1, consulta [Panoramica sulla versione 22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
-## Funzionalità di correzione migliorate per revisori e richiedenti
+## Funzionalità di verifica migliorate per revisori e richiedenti
 
 >[!NOTE]
 >
->Rilasciato ai clienti EMEA con correzione integrata creata solo prima del 6 luglio 2021. Questa funzionalità viene ora visualizzata in Anteprima in un rollout graduale a partire dal 13 gennaio e fino al 17 gennaio per i seguenti clienti: >
->* Clienti EMEA con funzionalità di correzione integrata e indipendente
->* Clienti EMEA con correzione integrata creata dopo il 6 luglio 2021
->* Tutti i clienti degli Stati Uniti
+>Rilasciato solo ai clienti EMEA con bozze integrate create prima del 6 luglio 2021. Questa funzionalità verrà visualizzata in anteprima con un rollout graduale a partire dal 13 gennaio e fino al 17 gennaio per i seguenti clienti: >
+>* Clienti EMEA con prove sia integrate che autonome
+>* Clienti EMEA con prove integrate create dopo il 6 luglio 2021
+>* Tutti i clienti USA
 >
 
+Per fornire un’esperienza più integrata tra Workfront e Proof, sono stati apportati diversi miglioramenti alle funzionalità di verifica per revisori e richiedenti:
 
-Per fornire un’esperienza più integrata tra Workfront e Proof, abbiamo apportato diversi miglioramenti per quanto riguarda le funzionalità di correzione per Revisori e Richiedenti:
+Puoi assegnare i ruoli Moderatore o Autore a qualsiasi utente in Workfront, indipendentemente dal fatto che disponga di una licenza di verifica, assegnando loro diritti aggiuntivi, come l’applicazione di azioni o la risoluzione di commenti.
 
-Puoi assegnare ruoli Moderatore o Autore a qualsiasi utente in Workfront, indipendentemente dal fatto che possieda una licenza di correzione, concedendo loro diritti aggiuntivi, come l’applicazione di azioni o la risoluzione di commenti.
+Puoi aggiungere revisori e richiedenti alle bozze che richiedono un accesso o che devono essere firmate elettronicamente.
 
-È possibile aggiungere Revisori e Richiedenti alle bozze che richiedono un login o che devono essere firmate elettronicamente.
-
-Tutti gli utenti possono inoltre usufruire di una connettività migliorata tra Workfront e Proof. Ora, quando si disattiva un utente o si aggiorna l’indirizzo e-mail di un utente, gli aggiornamenti vengono rispecchiati correttamente nelle bozze quando vengono modificati in Workfront.
+Tutti gli utenti usufruiscono inoltre della connettività migliorata tra Workfront e Proof. Ora, quando si disattiva un utente o si aggiorna l’indirizzo e-mail di un utente, i propri aggiornamenti vengono rispecchiati correttamente nella verifica se modificati in Workfront.
 
 Per ulteriori informazioni, consulta
 
-* [Panoramica sulla bozza dei ruoli](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [Panoramica sui ruoli bozza](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 *  
 
 ## Miglioramenti della firma elettronica per le bozze
 
-Abbiamo semplificato agli utenti la firma elettronica delle bozze. Ora gli utenti possono utilizzare le proprie credenziali Workfront per firmare una decisione su una bozza.
+Abbiamo semplificato la firma elettronica delle bozze da parte degli utenti. Ora gli utenti possono utilizzare le proprie credenziali Workfront per firmare una decisione relativa a una bozza.
 
 >[!IMPORTANT]
 >
->Per firmare elettronicamente una bozza con le credenziali SSO, è necessario impostare SSO in Workfront Proof. Per ulteriori informazioni sull&#39;abilitazione di SSO, vedi [Configurare il Single Sign-On per gli utenti di prova Workfront](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>Per firmare elettronicamente una bozza con le credenziali SSO, è necessario impostare SSO in Workfront Proof. Per ulteriori informazioni sull&#39;abilitazione dell&#39;SSO, vedere [Configurare il Single Sign-On per gli utenti di Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
-In precedenza, gli utenti dovevano utilizzare le credenziali di Workfront Proof, diverse dalle credenziali di Workfront.
+In precedenza, gli utenti dovevano utilizzare le credenziali Workfront Proof, che sono diverse dalle credenziali Workfront.
 
-Per ulteriori informazioni, consulta [Panoramica sulla sicurezza delle prove](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+Per ulteriori informazioni, consulta [Panoramica sulla sicurezza delle bozze](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
 
-## Aggiornamento del visualizzatore desktop
+## Aggiornamento visualizzatore desktop
 
-È stato aggiornato il visualizzatore per correzione desktop per supportare fino alla versione 91 di Chrome per una maggiore compatibilità con le bozze interattive.
+Abbiamo aggiornato il Visualizzatore bozze desktop per supportare fino alla versione 91 di Chrome per una maggiore compatibilità con le bozze interattive.
 
 >[!IMPORTANT]
 >
->Per eseguire l’aggiornamento alla versione più recente, gli utenti Windows devono reinstallare manualmente il visualizzatore desktop. In seguito, gli aggiornamenti futuri del visualizzatore di correzione desktop saranno automatici. Per informazioni sulla reinstallazione, consulta [Installare il visualizzatore di correzione del desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+>Gli utenti di Windows devono reinstallare manualmente il visualizzatore desktop per eseguire l&#39;aggiornamento alla versione più recente. In seguito, gli aggiornamenti futuri al Visualizzatore bozze desktop saranno automatici. Per informazioni sulla reinstallazione, vedere [Installare il Visualizzatore bozze desktop](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
-Gli utenti di Mac verranno automaticamente aggiornati alla versione più recente.
+Gli utenti di Mac verranno aggiornati automaticamente alla versione più recente.
