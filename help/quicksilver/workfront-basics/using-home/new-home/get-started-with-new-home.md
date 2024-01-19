@@ -6,9 +6,9 @@ description: La nuova Home è una nuova potente funzione per la gestione del tuo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: b2409ceb7358d92ca1941bd849cb6ffd76f0763e
+source-git-commit: 61074fd87dafde9eb555da27e207198ee0eadc60
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1102'
 ht-degree: 8%
 
 ---
@@ -16,8 +16,6 @@ ht-degree: 8%
 # Introduzione alla nuova Home
 
 <!--Audited: 12/2023-->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 La nuova esperienza Home in Adobe Workfront mira a migliorare l’esperienza Home corrente e al contempo a fornire un modo più flessibile per concentrarti sul lavoro giusto.
 
@@ -59,8 +57,8 @@ Di seguito sono riportati i dieci widget attualmente disponibili tra cui sceglie
 * **Tutte le approvazioni**\
     Visualizza tutte le approvazioni per la tua organizzazione in una tabella con colonne personalizzabili, oltre a una barra di ricerca che ti consente di cercare approvazioni specifiche.
 
-* <span class="preview">**Approvazioni in sospeso**</span>\
-    <span class="preview">Visualizza le approvazioni assegnate a un documento su un progetto di cui sei proprietario. Qui puoi visualizzare lo stato di approvazione e ricordare agli utenti le revisioni e le approvazioni incomplete. <span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span></span>
+* **Approvazioni in sospeso**&lt;\
+    Visualizza le approvazioni assegnate a un documento su un progetto di cui sei proprietario. Qui puoi visualizzare lo stato di approvazione e ricordare agli utenti le revisioni e le approvazioni incomplete. <span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span>
 
 * **Menzioni**\
     Visualizza i thread di commenti recenti da Workfront, in modo simile alla pagina My Updates (I miei aggiornamenti). Puoi utilizzare il pulsante di risposta per comporre una risposta all’interno del widget. Questo widget mostra anche i commenti aggiunti sulle attività e sui problemi che ti vengono assegnati, che hai assegnato a un altro utente, di cui sei proprietario, per cui sei il contatto principale o che hai creato, purché l’attività o il problema sia stato aggiornato negli ultimi 30 giorni.
