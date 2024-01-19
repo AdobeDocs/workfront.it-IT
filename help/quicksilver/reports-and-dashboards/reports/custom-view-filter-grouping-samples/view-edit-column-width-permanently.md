@@ -7,18 +7,20 @@ description: È possibile modificare temporaneamente la larghezza delle colonne 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 261c1b73d785094de4ee8549c856a091920ba04a
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
 # Visualizza: modifica definitivamente la larghezza di una colonna
 
+<!-- Audited: 1/2024 -->
+
 È possibile modificare temporaneamente la larghezza delle colonne trascinandone i margini in modo che corrispondano alla larghezza desiderata. Per ulteriori informazioni, consulta [Modifica la larghezza e l&#39;ordine delle colonne](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-È possibile modificare in modo permanente la larghezza di qualsiasi colonna di qualsiasi vista utilizzando la modalità testo nella colonna durante la modifica della vista.
+Per modificare in modo permanente la larghezza di una colonna di qualsiasi vista, è necessario utilizzare la modalità testo nella colonna durante la modifica della vista.
 
 ## Requisiti di accesso
 
@@ -29,34 +31,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di una vista </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Nuovo:<ul><li>Collaboratore per modificare una visualizzazione</li><li>Standard per modificare un rapporto</li></ul></p><p>Oppure</p>Corrente:<ul><li>Richiesta di modifica di una vista</li><li>Pianificare la modifica di un rapporto</li></ul></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Modificare definitivamente la larghezza di una colonna
 
 >[!IMPORTANT]
 >
->Se modifichi manualmente la larghezza di una colonna come descritto nella sezione &quot;Modificare temporaneamente la larghezza e l’ordine delle colonne&quot; nell’articolo [Modifica la larghezza e l&#39;ordine delle colonne](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) dopo aver modificato in modo permanente la larghezza della colonna, questa viene mantenuta in base al ridimensionamento manuale e la larghezza della colonna viene aggiornata in base ai passaggi seguenti. Dopo aver cancellato la cache o effettuato l’accesso da un altro browser, puoi visualizzare la colonna in base alla larghezza definita nei passaggi seguenti.
+>Se modifichi manualmente la larghezza di una colonna come descritto nella sezione [Modifica temporaneamente la larghezza e l&#39;ordine delle colonne](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) nell’articolo [Modifica la larghezza e l&#39;ordine delle colonne](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) dopo aver modificato in modo permanente la larghezza della colonna, questa viene mantenuta in base al ridimensionamento manuale. In questo caso, la larghezza della colonna aggiornata in base ai passaggi seguenti viene sovrascritta. Dopo aver cancellato la cache o effettuato l’accesso da un altro browser, puoi visualizzare la colonna in base alla larghezza definita nei passaggi seguenti.
 >
 >Per ulteriori informazioni sulla personalizzazione della larghezza delle colonne quando si utilizza l’interfaccia Text Mode, consulta le definizioni &quot;width&quot; e &quot;stretch&quot; nella sezione [Glossario della terminologia di Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
