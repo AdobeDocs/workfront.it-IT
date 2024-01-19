@@ -7,25 +7,20 @@ description: Leggi questo articolo per saperne di più su [!DNL Workfront Boards
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
 
 # Consenso anticipato alle funzioni per [!DNL Adobe Workfront] [!UICONTROL Schede]
 
-Le schede con schede ad hoc e schede connesse sono disponibili per tutti gli utenti e siamo entusiasti di aprire ulteriori funzionalità per il consenso anticipato alle funzioni a partire da luglio 2022.
+La funzionalità opt-in anticipata per [!DNL Adobe Workfront] [!UICONTROL Schede] è stato lanciato nel luglio 2022.
 
 [!DNL Adobe Workfront] [!UICONTROL Schede] sono strumenti flessibili che consentono la collaborazione in team fornendo accesso a una bacheca condivisa contenente colonne e schede.
 
 Per informazioni generali sulle bacheche, consulta [[!UICONTROL Schede] panoramica](/help/quicksilver/agile/boards-overview.md).
-
-## Pianificazione della versione
-
-* Lancio anticipato del consenso alle funzioni in Anteprima: 22 luglio 2022
-* Versione ufficiale: 28 luglio 2022
 
 ## Funzioni
 
@@ -138,8 +133,8 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
    <td>Rilasciato</td>
   </tr>
   <tr>
-   <td>Importa le sottoattività come voci dell’elenco di controllo sulle schede</td>
-   <td>Pianificato</td>
+   <td>Importa sottoattività sulle schede</td>
+   <td>Rilasciato</td>
   </tr>
   <tr>
    <td>Personalizzare la visualizzazione dei campi su una scheda</td>
@@ -163,7 +158,7 @@ La tabella seguente illustra le funzioni principali delle bacheche e il loro sta
   </tr>
   <tr>
    <td>Migrare le schede Kanban legacy alle bacheche</td>
-   <td>Questa funzione sarà disponibile in produzione il 18 maggio 2023 e non fa parte del consenso anticipato per la funzione.</td>
+   <td>Questa funzione è disponibile in Produzione il 18 maggio 2023 e non fa parte del consenso anticipato per la funzione.</td>
   </tr>
   <tr>
    <td>Creare bacheche dinamiche</td>
@@ -198,7 +193,8 @@ Tutte le organizzazioni possono accedere alle funzioni iniziali delle bacheche. 
 
 Solo [!DNL Workfront] gli amministratori possono dare il consenso alle funzioni anticipate per le bacheche. Quando un [!DNL Workfront] l’amministratore abilita le funzioni anticipate, tutti gli utenti dell’organizzazione hanno prestato il consenso.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
+{{step1-to-boards}}
+
 1. Clic ![Consenso alle funzioni anticipate](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Consenso alle funzioni anticipate]) nella parte superiore della schermata del dashboard.
 1. Clic **[!UICONTROL Abilita]**.
 1. Iniziare a utilizzare le funzioni iniziali delle schede madri.
@@ -228,6 +224,7 @@ Tuttavia, il [!DNL Workfront] L’amministratore può nascondere l’opzione Bac
 
 Solo [!DNL Workfront] gli amministratori possono rinunciare alla ricezione di funzionalità anticipate. Se un [!DNL Workfront] l’amministratore disabilita le funzioni in anteprima, tutti gli utenti dell’organizzazione vengono esclusi.
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Schede]**.
+{{step1-to-boards}}
+
 1. Clic ![Consenso alle funzioni anticipate abilitato](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Consenso alle funzioni anticipate abilitato]) nella parte superiore della schermata del dashboard.
 1. Clic **[!UICONTROL Disattiva]**.
