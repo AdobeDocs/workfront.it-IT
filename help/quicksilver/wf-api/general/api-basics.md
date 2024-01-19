@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 362a14c2c25e995d06a26b77ab51448b033bc2ac
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4361'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ I metodi HTTP standard corrispondono alle operazioni seguenti:
 Per ovviare alle carenze dei client o ai limiti di lunghezza del protocollo, il parametro di metodo può essere utilizzato per ignorare il comportamento HTTP. Ad esempio, un’operazione di GET può essere implementata inserendo il seguente URI:
 <pre>GET/attask/api/v15.0/project?id=4c78...54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78...54d0?method=get</pre>
 
-### risposta
+### Risposta
 
 A ogni richiesta viene fornita una risposta in formato JSON. La risposta dispone di un attributo dati se la richiesta ha avuto esito positivo o di un attributo di errore se si è verificato un problema. Ad esempio, la richiesta
 
@@ -352,7 +352,7 @@ Per impostazione predefinita, vengono restituiti solo il nome e l’ID di ogni a
 
 Puoi recuperare campi dati personalizzati con il prefisso &quot;DE:&quot;. Ad esempio, per richiedere un progetto con un parametro denominato &quot;CustomText&quot;, utilizza la seguente richiesta:
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>che restituirebbe
-<pre>{<br>    "name": "progetto di dati personalizzati",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>È inoltre possibile recuperare tutti i dati personalizzati per un oggetto richiedendo il campo parameterValues. Ad esempio, 
+<pre>{<br>    "name": "progetto di dati personalizzati",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>È inoltre possibile recuperare tutti i dati personalizzati per un oggetto richiedendo il campo parameterValues. Ad esempio: 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>restituisce dati simili ai seguenti:
 <pre>{<br>    "name": "progetto di dati personalizzati",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1,4 <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
@@ -361,11 +361,11 @@ Puoi recuperare campi dati personalizzati con il prefisso &quot;DE:&quot;. Ad es
 Alcuni tipi di oggetto dispongono di ricerche denominate che vengono comunemente eseguite e sono disponibili aggiungendo il nome della query alla fine dell&#39;URI del tipo di oggetto. Ad esempio, la seguente richiesta recupera gli elementi di lavoro (attività e problemi) a cui l’utente è attualmente assegnato:
 <pre>/attask/api/v15.0/work/myWork</pre>Le query denominate supportano la richiesta del parametro fields per recuperare campi aggiuntivi. Alcune query denominate accettano anche filtri aggiuntivi. Per un elenco delle query denominate consentite per un oggetto, consulta la scheda Azione per l’oggetto in [API Explorer](../../wf-api/general/api-explorer.md).
 
-#### Utilizzo del filtro Conteggio
+#### Utilizzo di `Count`
 
-È possibile specificare il numero di risultati che si desidera vengano restituiti da una determinata ricerca. Questo consente al server di elaborare la richiesta più rapidamente e di risparmiare larghezza di banda. Ad esempio, la richiesta
+È possibile utilizzare `count` per restituire il numero di risultati che corrispondono alla query. Questo può essere utile quando non hai bisogno dei dati nei risultati. Restituendo solo il conteggio, il server può elaborare la richiesta più rapidamente e risparmiare larghezza di banda. Ad esempio, la richiesta
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>restituisce il numero di risultati nel formato seguente:
-<pre>{<br>    "count": 3 <br>}</pre>Questo risultato è un download molto più piccolo rispetto a quando vengono inviati gli oggetti completi. La sintassi del filtro è identica al comando di ricerca.
+<pre>{<br>    "count": 3 <br>}</pre>Restituire un conteggio è un trasferimento di dati molto più piccolo rispetto a quando vengono restituiti gli oggetti completi. La sintassi è identica al comando di ricerca.
 
 ### Richiesta di un rapporto
 
@@ -409,7 +409,7 @@ Per garantire prestazioni ottimali, la tabella seguente mostra le limitazioni im
   </tr> 
   <tr> 
    <td>Numero massimo di risultati</td> 
-   <td>2,000</td> 
+   <td>2.000</td> 
    <td>Il filtro query (ovvero $$LIMIT) può restituire non più di 2.000 risultati. Vedi "Risposte impaginate" per ulteriori informazioni.</td> 
   </tr> 
   <tr> 
@@ -419,12 +419,12 @@ Per garantire prestazioni ottimali, la tabella seguente mostra le limitazioni im
   </tr> 
   <tr> 
    <td>Numero massimo di oggetti</td> 
-   <td>50,000</td> 
+   <td>50.000</td> 
    <td>Il set di risultati non può includere 50000 oggetti primari e secondari.</td> 
   </tr> 
   <tr> 
    <td>Numero massimo di campi</td> 
-   <td nowrap>1,000,000</td> 
+   <td nowrap>1.000.000</td> 
    <td>Se il set di risultati è inferiore a 50000 oggetti, i risultati possono includere al massimo 1.000.000 campi.</td> 
   </tr> 
   <tr> 
