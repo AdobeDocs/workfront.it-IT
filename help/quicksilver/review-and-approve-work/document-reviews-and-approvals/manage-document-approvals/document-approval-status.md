@@ -6,17 +6,14 @@ description: Vengono elencati e spiegati gli stati di approvazione del documento
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 17a4a607354cdc991b1c1f72697c530c32f713bd
+source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 4%
+source-wordcount: '163'
+ht-degree: 5%
 
 ---
 
 # Stato approvazione documento
-
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
-
 
 Lo stato di approvazione di un documento è riportato nell&#39;intestazione del documento.
 
