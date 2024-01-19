@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Modificare i profili utente in blocco
 description: In qualità di amministratore di Adobe Workfront, puoi modificare gli account utente in blocco.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,6 @@ ht-degree: 0%
 >* Non è possibile modificare in blocco la sezione Informazioni personali dei profili degli utenti perché tali informazioni devono essere univoche per ogni utente.
 >* Per garantire la precisione dei dati e prestazioni ottimali, si consiglia di selezionare non più di 2.000 utenti alla volta per un montaggio in blocco.
 >
-
 
 ## Requisiti di accesso
 
@@ -79,7 +78,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
        <ul> 
         <li><b>Fuso orario:</b> Il fuso orario degli utenti.</li> 
         <li><b>Lingua</b>: le impostazioni locali preferite dagli utenti. Questo influisce sul formato dei numeri e delle date nelle e-mail provenienti da Workfront.</li> 
-        <li><b>Mostra la percentuale di completamento dello stato di aggiornamento</b>: seleziona questa opzione se desideri visualizzare una barra della percentuale di completamento nel flusso di aggiornamento delle attività per tutti gli utenti.</li> 
+        <li><b>Mostra la percentuale di completamento dello stato di aggiornamento</b>: seleziona questa opzione se desideri visualizzare una barra della percentuale di completamento all’interno dell’area Aggiornamento di tutte le attività degli utenti, quando utilizzi l’esperienza di commento legacy. Per informazioni, consulta <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nuova esperienza di commento</a>.</li> 
         <li><b>Invia il lavoro che assegno a me stesso alla mia scheda Lavori in corso</b>: seleziona questa opzione se desideri che tutto ciò che gli utenti si assegnano a sé stessi venga visualizzato direttamente nella scheda Lavori in corso. L’impostazione predefinita consiste nell’elencare tutto ciò che è stato assegnato a un utente nella relativa scheda Work Request (Richiesta di lavoro).</li> 
        </ul> </td> 
      </tr> 

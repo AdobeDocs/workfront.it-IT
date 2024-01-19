@@ -6,10 +6,10 @@ description: Il tuo [!DNL Adobe Workfront] Il profilo contiene informazioni su d
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 1%
+source-wordcount: '3301'
+ht-degree: 0%
 
 ---
 
@@ -340,7 +340,9 @@ Specifica cosa visualizzare nel [!DNL Workfront] in questa sezione.
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Mostra la percentuale di completamento allo stato di aggiornamento]</strong> </td> 
-   <td>Selezionare questa casella di controllo per visualizzare una barra della percentuale di completamento di un'attività nel campo [!UICONTROL update status] (Stato aggiornamento), in modo da poter aggiornare la percentuale di completamento di un'attività durante l'immissione di un aggiornamento dell'attività.</td> 
+   <td>Seleziona questa opzione se desideri visualizzare una barra della percentuale di completamento all’interno dell’area Aggiornamenti delle attività, quando utilizzi l’esperienza di commento legacy. Per informazioni, consulta <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nuova esperienza di commento</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Invia il lavoro assegnato a me stesso alla scheda Lavori in corso]</strong> </td> 
@@ -447,7 +449,7 @@ Queste informazioni sono in genere configurate dal [!DNL Workfront] amministrato
  </tbody> 
 </table>
 
-### [!UICONTROL Pianificazione risorse]
+### [!UICONTROL Pianificazione delle risorse]
 
 Le informazioni sulla pianificazione delle risorse influiscono sulla sequenza temporale delle assegnazioni di lavoro, sul tempo di registrazione, sui costi e sui ricavi dei progetti in corso. In genere, quest’area viene aggiornata da [!DNL Workfront] amministratore, project manager o responsabile delle risorse oppure direttamente dall&#39;amministratore.
 

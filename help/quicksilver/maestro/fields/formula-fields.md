@@ -4,9 +4,9 @@ description: In Adobe Maestro, puoi creare campi formula che utilizzano funzioni
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ae60512c337d778939ef6c48fd2eda8b279dcce
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Inoltre, sono supportate le seguenti espressioni per i campi formula Maestro:
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>Restituisce l'ID di un record.</p> <p>L’espressione viene formattata come segue:
+   <td> <p>Restituisce l'ID di un record. Ogni record ha un ID univoco.</p> <p>L’espressione viene formattata come segue:
 
 <code>{ID}</code>
 </p>

@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3526'
 ht-degree: 0%
 
 ---
@@ -334,24 +334,18 @@ Per informazioni generali sull&#39;utilizzo dell&#39;area Home, vedere le sezion
 
 #### Tempo di connessione per un elemento di lavoro dalla nuova area Home
 
+Potete registrare il tempo su qualsiasi oggetto in qualsiasi widget utilizzando il pannello Riepilogo. Per informazioni, vedere [Pannello Riepilogo](#summary-panel) in questo articolo.
+
+Inoltre, per registrare il tempo di un elemento nel widget Il mio lavoro:
+
 1. Arrivato al **Home** area.
-1. Aggiungi uno dei seguenti widget:
+1. Aggiungi il **Il mio lavoro** widget a casa tua.
+1. Seleziona un’attività, un problema o una richiesta in un elenco, quindi fai clic su **Lavoraci**
+1. Passa il cursore del mouse sull’attività o sul problema per il quale vuoi registrare l’ora, quindi fai clic su **Tempo di connessione** icona ![](assets/log-time-icon-in-new-home.png) a destra delle informazioni sull&#39;attività.
 
-   * Le mie attività
-   * I miei problemi
-   * Il mio lavoro
-   * Le mie richieste
-1. Seleziona un’attività, un problema o una richiesta in un elenco, quindi fai clic su **Riepilogo**
+   ![](assets/log-time-ui-for-task-from-new-home.png)
 
-   Oppure
-
-   Fai clic su **Riepilogo** icona ![](assets/open-summary-icon-in-home.png) da un&#39;attività o un problema nel widget Il mio lavoro.
-
-   Il pannello Riepilogo si apre a destra.
-
-   ![](assets/log-time-new-home-my-work-widget.png)
-1. Continuare a registrare nel pannello Riepilogo, come descritto in [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
-
+1. Clic **Tempo di connessione**.
 
 #### Tempo di connessione di un elemento di lavoro dall’area Home legacy
 

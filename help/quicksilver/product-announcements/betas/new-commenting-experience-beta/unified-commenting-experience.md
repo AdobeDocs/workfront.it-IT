@@ -7,15 +7,16 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1317'
 ht-degree: 2%
 
 ---
 
 # Nuova esperienza di commento
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -56,13 +57,15 @@ Tra i miglioramenti inclusi nella nuova esperienza di commento, ci sono i seguen
 * Indicatore in tempo reale quando vengono aggiunti nuovi commenti a un oggetto
 * Modifica di commenti dopo l’invio
 
-Le seguenti funzioni sono state rimosse dalla nuova esperienza:
+Le seguenti funzioni sono state rimosse o diventeranno obsolete nella nuova esperienza:
 
 * Commento su un aggiornamento del sistema
-* Possibilità di modificare lo stato, la condizione e la data del commit durante l&#39;inserimento di commenti
+* Possibilità di modificare lo stato, la condizione, la data di conferma e la percentuale di completamento durante il commento di attività e problemi
 * Modifica modulo personalizzato
 * Le informazioni &quot;per conto di &lt; nome utente >&quot; quando un amministratore di Workfront o di gruppo effettua l’accesso come altro utente e aggiunge un commento per suo conto sono state originariamente rimosse. È stato ripristinato il 19 ottobre 2023.
 * L’opzione &quot;Richiedi approvazione&quot; quando si applicano tag alle persone durante l’aggiunta di un commento a un documento.
+* Quando si modifica la casella del profilo di un utente, l’impostazione &quot;Mostra percentuale di completamento all’aggiornamento dello stato&quot; viene rimossa. È stata rimossa la funzionalità di aggiornamento della percentuale di completamento di un’attività o di un problema.
+* Notifica al proprietario del progetto, nell&#39;area Aggiornamenti, che l&#39;assegnatario di un&#39;attività o di un problema ha modificato la data del commit <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 

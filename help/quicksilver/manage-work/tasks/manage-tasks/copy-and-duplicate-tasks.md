@@ -6,9 +6,9 @@ description: È possibile copiare un'attività da un progetto a un altro oppure 
 author: Alina
 feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1736'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Oltre a copiare le attività in un elenco di attività, è possibile copiare un&
 
 1. Cercare un&#39;attività nel sistema Workfront.
 1. Fare clic sul nome dell&#39;attività per aprirla.
-1. Fai clic su **Altro** menu a discesa ![](assets/qs-more-menu.png) accanto al nome dell&#39;attività, quindi fare clic su **Copia** **a**.
+1. Fai clic su **Altro** menu a discesa ![](assets/qs-more-menu.png) accanto al nome dell&#39;attività, quindi fare clic su **Copia in**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 
