@@ -5,9 +5,9 @@ title: Panoramica delle date di Progetto, Attività e Problema in [!DNL Adobe Wo
 description: Panoramica delle date di Progetto, Attività e Problema in [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1249'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Puoi indicare manualmente quando viene completato il lavoro su un’attività o 
 * Lo stato di progetto, attività o problema cambia in [!UICONTROL Completa], [!UICONTROL Chiuso], o [!UICONTROL Risolto].
 * La percentuale di completamento dell&#39;attività o del progetto è 100%.
 
-Il [!UICONTROL Data di completamento effettiva] di un progetto coincide con la data di completamento della prima attività del progetto.
+Il [!UICONTROL Data di completamento effettiva] di un progetto coincide con la data di completamento dell&#39;ultima attività del progetto.
 
 >[!TIP]
 >
@@ -112,10 +112,6 @@ Il [!UICONTROL Conferma data] è la data entro la quale un utente assegnato a un
 >
 >Modifica del [!UICONTROL Conferma data] influisce sulla [!UICONTROL Data di completamento Prevista] ma non il [!UICONTROL Data di completamento Pianificata] di un’attività o di un problema. Il project manager può utilizzare le modifiche apportate dall&#39;assegnatario al [!UICONTROL Conferma data] per aggiornare [!UICONTROL Data di completamento Pianificata] di un’attività o di un problema.
 
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
-![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
-
 ## [!UICONTROL Data Inizio Previsto]
 
 Il [!UICONTROL Data Inizio Previsto] è una data in tempo reale in cui il progetto, l’attività o il problema e tiene conto di tutti i ritardi. Questa è una data di inizio più precisa per il progetto, l&#39;attività o il problema rispetto alla [!UICONTROL Data Inizio Pianificata]. Il [!UICONTROL Data Inizio Pianificata] non tiene conto dei ritardi o delle date passate.
@@ -132,7 +128,7 @@ Per ulteriori informazioni, consulta [Panoramica del progetto [!UICONTROL Data I
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
-## P[!UICONTROL Data di completamento prevista]
+## [!UICONTROL Data di completamento Prevista]
 
 Il [!UICONTROL Data di completamento Prevista] è un indicatore calcolato in tempo reale di quando il progetto, l’attività o il problema verrà completato. Quando il progetto, l’attività o il problema è contrassegnato come Completato, il [!UICONTROL Data di completamento Prevista] modifiche alla data del [!UICONTROL Data di completamento effettiva].
 
@@ -146,24 +142,28 @@ Per ulteriori informazioni, consulta [Panoramica di [!UICONTROL Data di completa
 
 Quando si registra il tempo dedicato a progetti, attività e problemi per indicare la quantità di tempo effettivo (in ore) dedicata al progetto, all&#39;attività o al problema, il tempo registrato diventa [!UICONTROL Ore effettive] del progetto, dell’attività o del problema.
 
-La data di registrazione dell’ora è la [!UICONTROL Data immissione ore] campo nella voce ore.
+La data di registrazione dell’ora è la [!UICONTROL Data immissione ore] campo nella voce ore. In alcuni rapporti ed elenchi di ore la data di immissione ore viene visualizzata come Data.
 
 >[!TIP]
 >
 >Il [!UICONTROL Data immissione ore] è diverso da [!UICONTROL Data immissione] in quanto non si tratta della data di creazione del registro ore, ma piuttosto della data a cui si desidera associare le ore.
 
-È possibile registrare il tempo in [!UICONTROL progetto], [!UICONTROL attività], o [!UICONTROL Problema Aggiornamenti] o nella sezione [!UICONTROL Ore] sezione . Quando si registra il tempo in [!UICONTROL Ore] , puoi specificare manualmente la Data di immissione ore e l’utente a cui appartengono le ore.
+Puoi registrare e visualizzare il tempo nelle seguenti aree di Workfront:
 
-Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* Registra e visualizza il tempo in [!UICONTROL progetto], [!UICONTROL attività], o [!UICONTROL Problema Aggiornamenti] o nella sezione [!UICONTROL Ore] sezione. Quando si registra il tempo in [!UICONTROL Ore] , puoi specificare manualmente la Data di immissione ore e l’utente a cui appartengono le ore.
 
->[!TIP]
->
->È consigliabile registrare il tempo dedicato alle attività e ai problemi di lavoro anziché alle attività o ai progetti principali. Il tempo di connessione delle attività di lavoro viene aggregato alle attività padre e al progetto come [!UICONTROL Ore effettive] per le attività padre e il progetto. Il tempo di connessione dei problemi si aggrega al progetto come [!UICONTROL Ore effettive] per il progetto.
+  ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
-![](assets/log-time-box-task-hours-section-nwe-350x500.png)
+  Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+  >[!TIP]
+  >
+  >È consigliabile registrare il tempo dedicato alle attività e ai problemi di lavoro anziché alle attività o ai progetti principali. Il tempo di connessione delle attività di lavoro viene aggregato alle attività padre e al progetto come [!UICONTROL Ore effettive] per le attività padre e il progetto. Il tempo di connessione dei problemi si aggrega al progetto come [!UICONTROL Ore effettive] per il progetto.
 
-È possibile visualizzare [!UICONTROL Date di immissione ore] in report ed elenchi ore.
+* Registra il tempo nel flusso di aggiornamento di un’attività o di un problema.
 
-![](assets/hour-entry-date-in-view-nwe-350x173.png)
+  ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+
+* Visualizza [!UICONTROL Date di immissione ore] in report ed elenchi ore.
+
+  ![](assets/hour-entry-date-in-view-nwe-350x173.png)

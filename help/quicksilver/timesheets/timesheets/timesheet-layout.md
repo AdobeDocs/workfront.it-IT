@@ -7,9 +7,9 @@ description: Questo articolo descrive il layout delle schede orario in Adobe Wor
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -121,9 +121,9 @@ Questa area contiene anche informazioni sull’ultimo salvataggio della scheda o
 
 ![Area Aggiornamenti nel pannello Timesheet a sinistra](assets/timesheet-updates-section-unshimmed-redesign.png)
 
-Puoi aggiungere commenti a una scheda orario per comunicare con gli approvatori della scheda orario o altri utenti nella sezione Aggiornamenti nel pannello a sinistra.
+È possibile aggiungere commenti a una scheda orario per comunicare con gli approvatori della scheda orario o altri utenti nella sezione Aggiornamenti nel pannello sinistro della scheda orario.
 
-Eventuali commenti aggiunti alla scheda orario vengono visualizzati in quest&#39;area, nella parte inferiore della scheda. Questa area viene visualizzata sotto la scheda orario e sopra il piè di pagina della scheda orario. Per ulteriori informazioni, consulta [Visualizzare e gestire commenti su una scheda orario](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+Eventuali commenti aggiunti alla scheda orario vengono visualizzati in quest&#39;area.
 
 ## Pannello Riepilogo
 
