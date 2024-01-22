@@ -2,28 +2,30 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: single-sign-on-in-workfront
-title: Aggiornare gli utenti per il single sign-on
-description: È possibile aggiornare gli utenti per il single sign-on in Workfront.
-author: Caroline
+title: Aggiornare gli utenti per il Single Sign-On
+description: È possibile aggiornare gli utenti per il Single Sign-On in Workfront.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 2cbdd0cb065dee01ad128d782334a55233c13156
+source-git-commit: e4cd543aa9f47e6b93aa148ea3fb972fbd356c02
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
 
-# Aggiornare gli utenti per il single sign-on
+# Aggiornare gli utenti per il Single Sign-On
+
+<!-- Audited: 1/2024 -->
 
 {{important-admin-console-onboard}}
 
-Quando l&#39;accesso single sign-on (SSO) è abilitato nell&#39;istanza Adobe Workfront, puoi accedere a Workfront con le tue credenziali SSO.
+Quando l&#39;accesso Single Sign-On (SSO) è abilitato nell&#39;istanza Adobe Workfront, gli utenti possono accedere a Workfront con le credenziali SSO.
 
-Se disponi di un sistema esistente già popolato con utenti associati a credenziali SSO, puoi importare gli ID degli utenti in Workfront importando un file di valori delimitati da virgole (CSV) in Workfront.
+Se disponi di un sistema esistente già popolato con utenti associati a credenziali SSO, puoi importare gli ID degli utenti in Workfront importando un file con valori delimitati da virgole (CSV) in Workfront.
 
-Per ulteriori informazioni sull&#39;integrazione di Workfront con un sistema SSO, vedi [Panoramica del single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Per ulteriori informazioni sull&#39;integrazione di Workfront con un sistema SSO, vedere [Panoramica del single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 
 ## Requisiti di accesso
@@ -40,97 +42,105 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td><p>Nuovo: Standard</p><p>Oppure</p><p>Corrente: Piano</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> <p>Devi essere un amministratore Workfront.</p> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Nomi utente SSO
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-A seconda della soluzione SSO utilizzata, il nome utente nel tuo ambiente SSO può essere chiamato uno dei seguenti:
+## Nomi utenti SSO
+
+A seconda della soluzione SSO utilizzata, il nome utente nell’ambiente SSO può essere chiamato in uno dei seguenti modi:
 
 * Nome utente SSO
 * ID federazione
-* Nome utente federativo
+* Nome utente federazione
 
-In Workfront, tutti questi nomi sono memorizzati nel campo Username SSO, sull&#39;oggetto utente.
+Indipendentemente dalla chiamata del nome utente nell&#39;ambiente SSO, il valore del campo viene memorizzato nel campo Nome utente SSO dell&#39;oggetto Utente.
 
-Affinché i tuoi utenti possano utilizzare le loro credenziali SSO per accedere a Workfront, devi aggiornare il loro profilo per includere il loro nome utente SSO, oltre al loro nome utente Workfront.
+Affinché gli utenti possano utilizzare le credenziali SSO per accedere a Workfront, è necessario aggiornare il profilo in modo che includa il nome utente SSO, oltre al nome utente Workfront.
 
-In qualità di amministratore di Workfront, è possibile aggiornare in massa il campo Nome utente SSO per gli utenti Workfront utilizzando un elenco di nomi utente e importandolo in Workfront. Questo elenco deve contenere l’ID utente Workfront (GUID) e il nome utente SSO corrispondente per ciascun utente e deve essere salvato come file CSV o TSV. Questo processo aggiorna i nomi utente SSO esistenti in Workfront oppure aggiunge un nuovo nome utente SSO, se manca uno per gli utenti.
+In qualità di amministratore di Workfront, puoi aggiornare in blocco il campo Nome utente SSO per gli utenti di Workfront importando un elenco di nomi utente in Workfront. Tale elenco deve:
+
+* Contengono il GUID (Workfront User ID) e il nome utente SSO corrispondente per ogni utente
+* Essere salvato come file CSV o TSV.
+
+Questo processo aggiorna i nomi utente SSO esistenti in Workfront oppure, se ne manca uno per gli utenti, ne aggiunge uno nuovo.
 
 ## Preparare il file di importazione {#prepare-the-import-file}
 
-Puoi iniziare a preparare il file di importazione creando un rapporto di tutti gli utenti in Workfront che deve avere i campi del nome utente SSO aggiornati.
+È possibile iniziare a preparare il file di importazione creando un report di tutti gli utenti in Workfront che devono avere i campi Nome utente SSO aggiornati.
 
-1. Crea un rapporto utente in Workfront.
+1. Creare un rapporto utente in Workfront.
 
-   Per istruzioni su come creare rapporti sugli utenti in Workfront, vedi [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Per istruzioni sulla creazione di report utente in Workfront, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Seleziona i campi seguenti nel rapporto:
 
-   | Nome | Nome completo dell’utente Workfront. |
+   | Campo | Spiegazione |
    |---|---|
-   | ID | L&#39;ID è il GUID alfanumerico Workfront. |
-   | Nome utente SSO | Seleziona il campo Nome utente SSO per assicurarti che non ci siano nomi utente che stai sovrascrivendo con l&#39;importazione. Questo campo deve essere vuoto per tutti gli utenti, se gli utenti non sono ancora stati aggiornati per SSO. |
+   | Nome | Il nome completo dell’utente di Workfront. |
+   | ID | L&#39;ID è il GUID alfanumerico di Workfront. |
+   | Nome utente SSO | Aggiunta del campo Nome utente SSO per garantire che non siano presenti nomi utente sovrascritti con l&#39;importazione. Questo campo deve essere vuoto per tutti gli utenti, se gli utenti non sono ancora stati aggiornati per l&#39;SSO. |
 
    ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Salva il rapporto.
-1. Fai clic su **Esporta** nella parte superiore del rapporto ed esporta il rapporto in Excel.
-1. Apri il file Excel esportato e inizia ad aggiungere i tuoi nomi utente SSO per ogni utente nel report nella colonna Nome utente SSO.
+1. Clic **Esporta** nella parte superiore del rapporto ed esportarlo in Excel.
+1. Aprire il file Excel esportato e aggiungere i nomi utente SSO per ogni utente nel report nella colonna Nome utente SSO.
 
    >[!IMPORTANT]
    >
-   >I nomi utente SSO sono sensibili all&#39;uso di maiuscole e minuscole.
+   >I nomi utente SSO fanno distinzione tra maiuscole e minuscole.
 
-1. Elimina tutte le colonne del file Excel, ad eccezione del **ID** e **Nome utente SSO** colonne.
+1. Elimina tutte le colonne nel file di Excel, ad eccezione di **ID** e **Nome utente SSO** colonne.
 
-1. Elimina le intestazioni di colonna e assicurati che non ci siano righe vuote nella parte superiore del rapporto.
+1. Elimina le intestazioni di colonna e accertati che non vi siano righe vuote nella parte superiore del rapporto.
 
-   Il file utilizzato per aggiornare gli utenti Workfront con i nomi utente SSO deve contenere solo 2 colonne, in questo ordine:
+   Il file che stai utilizzando per aggiornare gli utenti di Workfront con i nomi utente SSO **deve** contiene solo 2 colonne, nell’ordine seguente:
 
-   * Nella prima colonna deve essere visualizzato l’ID utente di Workfront (il GUID utente trovato in Workfront).
-   * La seconda colonna deve contenere il nome utente SSO, così come viene visualizzato nel sistema SSO.
+   * Nella prima colonna deve essere visualizzato l&#39;ID utente di Workfront (il GUID utente trovato in Workfront).
+   * La seconda colonna deve contenere il nome utente SSO visualizzato nel sistema SSO.
    * Le colonne non devono avere intestazioni e non devono essere presenti righe vuote nella parte superiore dell’elenco dei nomi.
 
-      ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![](assets/update-users-for-sso-csv-file-for-import.png)
 
-1. Salva il rapporto come file CSV o TSV sul tuo computer.
+1. Salva il rapporto come file CSV o TSV sul computer.
 
-## Aggiorna gli utenti per SSO {#update-your-users-for-sso}
+## Aggiornare gli utenti per l&#39;SSO {#update-your-users-for-sso}
 
-Il processo di aggiornamento degli utenti per SSO aggiunge il campo Username SSO agli utenti Workfront se non è presente, oppure aggiorna il valore in quel campo se esiste già un valore associato agli utenti.
+Il processo di aggiornamento degli utenti per l&#39;SSO aggiunge il campo Nome utente SSO agli utenti di Workfront, se non ne è presente uno, oppure aggiorna il valore in tale campo se è già presente un valore associato agli utenti.
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Fai clic su **Sistema** then **Aggiorna utenti per SSO**.
+1. Fai clic su, **Sistema** quindi seleziona **Aggiorna utenti per l&#39;SSO**.
 
-1. Fai clic su **Scegli file** per cercare il file preparato.
+1. Clic **Scegli file** per cercare il file preparato.
 
    Per ulteriori informazioni su come preparare questo file, vedi [Preparare il file di importazione](#prepare-the-import-file).
 
-1. Selezionare il file in cui è salvato sul computer, quindi fare clic su **Apri**.
+1. Selezionare il file da cui è stato salvato nel computer, quindi fare clic su **Apri**.
 
-   Questo consente a tutti gli utenti di accedere a Workfront utilizzando le proprie credenziali SSO.
+   In questo modo vengono inserite le credenziali SSO in Workfront, consentendo a tutti gli utenti di accedere a Workfront utilizzando le proprie credenziali SSO.
 
-   La **Consenti solo `<SSO Configuration>` Autenticazione** è abilitata per tutti gli utenti inclusi nel CSV.
+   Il **Consenti solo `<SSO Configuration>` Autenticazione** è attivata per tutti gli utenti inclusi nel file CSV. In questo modo gli utenti devono effettuare l&#39;accesso tramite SSO.
 
-## Verifica SSO i nomi utente Workfront degli utenti
+## Verifica l&#39;SSO in base ai nomi utente Workfront degli utenti
 
-Per istruzioni su come creare un report utente contenente informazioni sul nome utente SSO, vedi [Preparare il file di importazione](#prepare-the-import-file).
+Per istruzioni sulla creazione di un report utente contenente informazioni sul nome utente SSO, vedere [Preparare il file di importazione](#prepare-the-import-file).
 
-1. Esegui un rapporto utente contenente informazioni sul nome utente SSO.
+1. Eseguire un report utente contenente informazioni sul nome utente SSO.
 
    La colonna Nome utente SSO viene compilata per ogni utente.
 
-1. Assicurati che i valori della colonna Nome utente SSO corrispondano al nome utente SSO sul server SSO.
+1. Verificare che i valori della colonna Nome utente SSO corrispondano al nome utente SSO nel server SSO.
 1. Se la colonna Nome utente SSO è vuota, aggiorna i nomi utente SSO degli utenti.
 
    ![](assets/users-with-sso-field-updated.png)
 
-   Per istruzioni su come aggiornare gli utenti per SSO, vedi [Aggiorna gli utenti per SSO](#update-your-users-for-sso).
+   Per istruzioni sull&#39;aggiornamento degli utenti per l&#39;accesso SSO, vedere [Aggiornare gli utenti per l&#39;SSO](#update-your-users-for-sso).
