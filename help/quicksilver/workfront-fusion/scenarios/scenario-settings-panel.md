@@ -7,9 +7,9 @@ description: Questo articolo descrive le impostazioni disponibili nel [!UICONTRO
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,12 @@ Questa opzione determina come [!DNL Adobe Workfront Fusion] procede se si verifi
 
 Questa opzione determina come [!DNL Workfront Fusion] procede se si verifica un errore e l&#39;esecuzione di uno scenario viene spostata in [Visualizzare e risolvere le esecuzioni incomplete in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Se il [!UICONTROL Elaborazione sequenziale] se questa opzione è attivata, Workfront Fusion interrompe completamente l&#39;elaborazione della sequenza di attività fino a quando non vengono risolte tutte le esecuzioni incomplete. Se il [!UICONTROL Elaborazione sequenziale] l’opzione è disabilitata, lo scenario continua a essere eseguito in base alla sua pianificazione, accompagnato da ripetuti tentativi di eseguire nuovamente le esecuzioni incomplete.
 
+>[!NOTE]
+>
+>L’elaborazione sequenziale può causare un ritardo nell’esecuzione di uno scenario. Se vi sono ancora esecuzioni incomplete nella coda quando si attiva uno scenario immediato o quando uno scenario pianificato è impostato per l’esecuzione, tale scenario verrà eseguito dopo che tutte le esecuzioni prima di essere nella coda sono state completate.
+>
+>Se il caso di utilizzo per gli scenari non richiede l’elaborazione sequenziale, si consiglia di disabilitare l’opzione di elaborazione sequenziale.
+
 Per ulteriori informazioni sulla pianificazione, consulta [Pianificare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
 ## I dati sono riservati
@@ -96,7 +102,7 @@ Per ulteriori informazioni sugli avvisi, consulta [Errore di elaborazione in [!D
 
 ## [!UICONTROL Commit automatico]
 
-Il [!UICONTROL Commit automatico] Le impostazioni si applicano alle transazioni e definiscono la modalità di elaborazione di uno scenario. Se l&#39;opzione Auto commit è attivata, la fase di commit su ciascun modulo inizia immediatamente dopo il completamento della fase operativa. Se l&#39;opzione Auto commit è disattivata, non viene eseguito alcun commit finché non vengono eseguite operazioni per tutti i moduli (questa è la modalità predefinita).
+Il [!UICONTROL Commit automatico] Le impostazioni si applicano alle transazioni e definiscono la modalità di elaborazione di uno scenario. Se l&#39;opzione Auto commit è attiva, la fase di commit su ciascun modulo inizia immediatamente dopo il completamento della fase operativa. Se l&#39;opzione Auto commit è disattivata, non viene eseguito alcun commit finché non vengono eseguite operazioni per tutti i moduli (questa è la modalità predefinita).
 
 Per ulteriori informazioni sulle transazioni, consulta [Esecuzione di scenari, cicli e fasi in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
