@@ -6,20 +6,27 @@ description: È possibile utilizzare le assegnazioni avanzate per identificare l
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 94d3fc1715d32531962a1b7405850c0b2944c776
+source-git-commit: 03894773e61fc0706148695572a164a2e778da9b
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
 
 # Effettua assegnazioni intelligenti
 
+<!--update "Results" to "Other assignments" with Prod-->
+
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti.</span>
 
 <span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
 
-È possibile utilizzare le assegnazioni avanzate per identificare l&#39;utente migliore per completare il lavoro. Le assegnazioni intelligenti sono suggerimenti per gli utenti presentati da Adobe Workfront quando si assegnano elementi di lavoro alle risorse in base a un algoritmo che determina la risorsa più appropriata per il processo. Per informazioni sulle assegnazioni avanzate, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+È possibile utilizzare le assegnazioni avanzate per identificare l&#39;utente migliore per completare il lavoro.
+
+Le assegnazioni intelligenti sono suggerimenti per gli utenti presentati da Adobe Workfront quando si assegnano elementi di lavoro alle risorse in base a un algoritmo che determina la risorsa più appropriata per il processo.
+
+<span class="preview">In Workfront sono disponibili due algoritmi distinti per le attività e i problemi. </span>
+Per informazioni sulle assegnazioni avanzate, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Requisiti di accesso
 
@@ -76,9 +83,16 @@ Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizion
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   Gli utenti visualizzati in questo elenco sono i suggerimenti di assegnazione intelligente per l’attività o il problema.
+   Per i problemi, i suggerimenti di assegnazione intelligente vengono visualizzati nella **Assegnazioni suggerite** area.
 
-   Per ulteriori informazioni sulla posizione di visualizzazione delle assegnazioni avanzate, vedere la sezione &quot;Individuare suggerimenti assegnazione avanzata&quot; nell&#39;articolo [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
+   Per le attività, le assegnazioni intelligenti vengono visualizzate nelle sezioni seguenti, a seconda della fase di calcolo dell&#39;algoritmo che ha identificato le assegnazioni:
+
+   * **Assegnazioni suggerite**: assegnazioni identificate nella prima fase del calcolo dell&#39;algoritmo dell&#39;assegnazione intelligente dell&#39;attività.
+   * <span class="preview">**Risultati**: assegnazioni identificate nella seconda fase del calcolo dell&#39;algoritmo dell&#39;assegnazione intelligente dell&#39;attività. Questa sezione non è disponibile per i problemi. </span> <!--replace this with the new UI: "Other assignments"-->
+
+   ![](assets/smart-assignments-task-list.png)
+
+   Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md) .
 
 1. Seleziona l’utente nell’elenco dei consigli facendo clic sul nome.
 
