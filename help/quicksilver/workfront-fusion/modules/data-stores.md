@@ -8,9 +8,9 @@ description: Un archivio dati, simile a un database o a una semplice tabella, pu
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 259ffbbaeddeea64ea2e7f77db258472162c9d8d
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1253'
+source-wordcount: '1268'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,10 @@ I moduli dell’archivio dati ti consentono di eseguire le seguenti azioni sui r
 * Count
 
 Per informazioni sull’utilizzo dei moduli dell’archivio dati, consulta [[!UICONTROL Archivio dati] moduli](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
+
+Per un video introduttivo sugli archivi dati in Workfront Fusion, vedi:
+
+* [Archivi dati](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Requisiti di accesso
 

@@ -9,9 +9,9 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i 
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '2062'
+source-wordcount: '2068'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 0%
 # [!DNL Marketo] moduli
 
 In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i flussi di lavoro che utilizzano [!DNL Marketo], oltre a collegarlo a più applicazioni e servizi di terze parti.
+
+Per un video introduttivo sul connettore Marketo, vedi:
+
+* [Marketo](https://video.tv.adobe.com/v/3427026/){target=_blank}
 
 Per istruzioni sulla creazione di uno scenario, consulta [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -353,7 +357,7 @@ Questo modulo di azione carica un nuovo file in [!UICONTROL Marketo].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Descrizione]</td> 
-   <td>Immetti una descrizione per il file caricato.</td> 
+   <td>Inserisci una descrizione del file caricato.</td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,9 +8,9 @@ description: Un [!DNL Adobe Workfront Fusion] l’archivio dati, simile a un dat
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1164'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Un [!DNL Adobe Workfront Fusion] l’archivio dati, simile a un database o a una
 I moduli dell’archivio dati ti consentono di aggiungere, sostituire, aggiornare, recuperare, eliminare, cercare o contare i record nel tuo [!DNL Adobe Workfront Fusion] archivio dati.
 
 Per informazioni sulla creazione, la modifica e la risoluzione dei problemi relativi agli archivi dati, consulta [Archivi dati in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
+
+Per un video introduttivo sugli archivi dati in Workfront Fusion, vedi:
+
+* [Archivi dati](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Requisiti di accesso
 

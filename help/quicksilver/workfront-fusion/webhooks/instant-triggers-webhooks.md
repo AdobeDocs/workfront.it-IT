@@ -7,9 +7,9 @@ description: Molti servizi forniscono webhook per inviare notifiche istantanee o
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '933'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ Molti servizi forniscono webhook per inviare notifiche istantanee ogni volta che
 ![](assets/instant-350x256.png)
 
 Se il servizio non fornisce webhook, è necessario utilizzare i trigger di polling per eseguire periodicamente il polling del servizio.
+
+Per un video introduttivo ai webhook in Workfront Fusion, vedi:
+
+* [Introduzione ai webhook](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [Webhook intermedi](https://video.tv.adobe.com/v/3427030/){target=_blank}
 
 ## Requisiti di accesso
 
