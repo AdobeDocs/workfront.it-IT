@@ -5,18 +5,20 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Panoramica sugli stati
 description: Per conoscere lo stato attuale di sviluppo di un progetto, attività o problema, l’utente può visualizzarne lo stato.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
+source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
 
 # Panoramica sugli stati
+
+<!-- Audited: 01/2024 -->
 
 Per conoscere lo stato attuale di sviluppo di un progetto, attività o problema, l’utente può visualizzarne lo stato.
 
@@ -26,11 +28,11 @@ Ad esempio, in questo progetto, lo stato Pianificazione indica che il manager de
 
 La modifica dello stato di un progetto, di un’attività o di un problema è solitamente un processo manuale. Tuttavia, in alcuni casi lo stato di un problema viene modificato automaticamente, a seconda di altri fattori che si verificano nel sistema.
 
-Workfront viene fornito con 9 stati del progetto, 3 stati delle attività e 10 stati dei problemi. Per ulteriori informazioni, consulta i seguenti articoli:
+Adobe Workfront viene fornito con 9 stati del progetto, 3 stati delle attività e 10 stati dei problemi. Per ulteriori informazioni, consulta i seguenti articoli:
 
 * [Accedere all’elenco degli stati del progetto di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
 * [Accedere all&#39;elenco degli stati delle attività di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
-* [Accedere all’elenco degli stati dei problemi di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+* [Accedere all’elenco degli stati dei problemi di sistema](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 
 ## Stati personalizzati
 
