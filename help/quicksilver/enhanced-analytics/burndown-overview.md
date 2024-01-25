@@ -7,7 +7,7 @@ description: La visualizzazione Burndown mostra il burndown di un progetto speci
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza</p> </td> 
+   <td> <p>Visualizza</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -60,7 +60,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Prerequisiti
 
-Per i prerequisiti per utilizzare Enhanced Analytics, consulta la sezione &quot;Prerequisiti&quot; in [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+Per i prerequisiti per utilizzare Enhanced Analytics, consulta la sezione &quot;Prerequisiti&quot; in [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Comprendere la visualizzazione Burndown
 
@@ -152,7 +152,7 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
    >Se la velocità effettiva è una linea piatta che corre lungo l’asse x (in linea con 0 ore o 0 giorni) della visualizzazione, significa che non sono state aggiunte al progetto ore o giorni pianificati.\
    >Se la velocità effettiva è una linea piatta sopra l&#39;asse x (allineata con un numero di ore o giorni) che non scende mai, significa che nessuna attività è stata completata entro il periodo di tempo filtrato.
 
-1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sul pulsante **Esporta** icona ![Icona Esporta](assets/export.png)nell’angolo in alto a destra della visualizzazione e seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sul pulsante **Esporta** icona ![Icona Esporta](assets/export.png) nell’angolo in alto a destra della visualizzazione e seleziona il formato di esportazione:
 
    * Grafico (PNG)
    * Tabella dati (XSLX)
