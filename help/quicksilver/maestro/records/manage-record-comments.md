@@ -1,12 +1,12 @@
 ---
 title: Gestisci commenti record
-description: È possibile collaborare ai record Adobe Maestro aggiungendo commenti o risposte nell'area Commenti di un record.
+description: Puoi collaborare ai record Adobe Maestro aggiungendo commenti o risposte nel pannello destro di un record. In quest'area è inoltre possibile visualizzare altre modifiche apportate al record e registrate dal sistema.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1155'
 ht-degree: 0%
 
 ---
@@ -15,22 +15,24 @@ ht-degree: 0%
 # Gestisci commenti record
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-È possibile collaborare ai record Adobe Maestro aggiungendo commenti o risposte nell&#39;area Commenti di un record.
+Puoi collaborare ai record Adobe Maestro aggiungendo commenti o risposte nel pannello destro di un record. In quest&#39;area è inoltre possibile visualizzare altre modifiche apportate al record e registrate dal sistema.
 
-<!--replace first paragraph with this and update the Description in the metadata: 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+Nel pannello destro di un record vengono visualizzate le sezioni riportate di seguito.
 
-The right panel of a record displays the following sections:
+* **Commenti**: visualizza i commenti e le risposte aggiunte dagli utenti ai record.
+* **Cronologia**: visualizza le modifiche registrate dal sistema apportate dagli utenti ai campi record. Per ulteriori informazioni, consulta [Panoramica della sezione Cronologia](/help/quicksilver/maestro/records/history-section-overview.md).
 
-* Comments: Users can add comments and reply to existing ones.
-* History: When you make a change to a record, Maestro records the change in this section. 
--->
+>[!TIP]
+>
+>Il pannello a destra mostra sia i record operativi che quelli di tassonomia.
+
 
 ## Considerazioni sul commento a un record
 
@@ -48,9 +50,9 @@ The right panel of a record displays the following sections:
 
 * Puoi assegnare tag agli utenti per attirare la loro attenzione su un aggiornamento. Gli utenti taggati non ricevono una notifica in-app o un’e-mail relativa all’aggiornamento. <!--this might change??-->
 
-* Puoi aggiungere un aggiornamento ai record dalle seguenti aree di Maestro:
+* Puoi aggiungere un aggiornamento ai record e rivedere la cronologia delle modifiche dalle seguenti aree di Maestro:
 
-   * Dalla pagina Dettagli.
+   * Dalla pagina Dettagli di un record o di una tassonomia.
 
   <!--* From the table view.-->
 
@@ -119,6 +121,8 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Il record **Dettagli** viene visualizzata la pagina. L’area Commenti (Comments) viene visualizzata per impostazione predefinita nel pannello di destra.
 
+1. (Condizionale) Se il pannello a destra non si apre per impostazione predefinita, fai clic sul pulsante **Mostra commenti** ![](assets/show-comments-icon.png) nell’angolo in alto a destra per aprire la sezione Commenti.
+
 1. Inizia a immettere un commento in **Nuovo commento** casella.
 
    ![](assets/empty-comment-box-on-record.png)
@@ -171,24 +175,16 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 1. (Facoltativo) Fai clic su **Altro** icona ![](assets/more-menu.png) nell&#39;angolo superiore destro del commento e fare clic su una delle opzioni seguenti per copiare un&#39;informazione da un commento:
 
    * **Copia collegamento**: copia negli Appunti un collegamento al commento.
-   * **Copia testo corpo** t: copia il testo del commento negli Appunti.
+   * **Copia corpo del testo**: copia il testo del commento negli Appunti.
    * **Risposta preventivo**: copia il contenuto del commento in una nuova risposta. Le immagini non sono incluse nella risposta copiata.
 
    Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) Fai clic su **Altro** icona ![](assets/more-menu.png) nell’angolo superiore destro del commento, quindi fai clic su **Elimina** per eliminare il commento.
+1. (Facoltativo) Fai clic su **Nascondi commenti** icona ![](assets/hide-comments-icon.png) per chiudere il pannello destro.
 
-<!--
-## History section overview
+## Panoramica della sezione Cronologia
 
-*********also update the screen shot above for the Comments section ******
+È possibile esaminare le modifiche apportate al record nella sezione Cronologia del pannello di destra di un record operativo o di una tassonomia.
 
-You can refer to the History section in the right panel of a record to view changes made to the record. 
+Per ulteriori informazioni, consulta [Panoramica della sezione Cronologia](/help/quicksilver/maestro/records/history-section-overview.md).
 
-![](assets/history-area-in-comments.png)
-
-Maestro records the following information in the History section: 
-
-* Any field changes
-* The full name of the user who made the change
-* A date and time stamp of when the change occurred. 
--->

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '3404'
+source-wordcount: '3564'
 ht-degree: 0%
 
 ---
@@ -40,28 +40,35 @@ Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rila
 >
 >La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
 
-<!--
-## Week of January 22, 2024
+## Settimana del 22 gennaio 2024
 
-### New History section displays system activity for Maestro records (title) 
+### La nuova sezione Cronologia mostra l’attività di sistema per i record Maestro
 
-Production: < date > 
+Produzione: 25 gennaio 2024
 
-Preview: To be determined 
+Anteprima: da determinare
 
-We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+Per migliorare le funzionalità di controllo, è stata introdotta una nuova sezione nel pannello destro di un record in cui è possibile esaminare le modifiche apportate al record registrato dal sistema.
 
-Maestro records the following information in the new History section:  
+Maestro registra le seguenti informazioni nella nuova sezione Storia:
 
-* Any field changes 
+* Qualsiasi modifica apportata ai campi
 
-* The full name of the user who made the change 
+* I vecchi e i nuovi valori dei campi, quando i valori cambiano
 
-* A date and time stamp of when the change occurred. 
+* Nome completo dell&#39;utente che ha apportato la modifica
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+* Indicatore di data e ora in cui è avvenuta la modifica.
 
--->
+Per ulteriori informazioni, consulta [Gestisci commenti record](/help/quicksilver/maestro/records/manage-record-comments.md).
+
+### Nuova etichetta per collegamento nuovo record
+
+Produzione: 25 gennaio 2024
+
+Anteprima: da determinare
+
+Per garantire coerenza durante la creazione dei record, il collegamento + Nuovo è stato rinominato per la creazione dei record in &quot;+ Nuovo record&quot;.  Prima di questo aggiornamento, il collegamento conteneva il nome del tipo di record. Il nuovo collegamento è ora disponibile durante la creazione di record operativi e di tassonomia. Per informazioni, consulta [Crea record](/help/quicksilver/maestro/records/create-records.md).
 
 ## Settimana dell’8 gennaio 2024
 

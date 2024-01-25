@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1956'
 ht-degree: 1%
 
 ---
@@ -86,6 +86,7 @@ Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [Attività d
 | Descrizione creativa |                               |                                  | ✓ |
 | Personalizzare il colore e l&#39;icona di un record | ✓ |                                  |                 |
 | Aggiungere commenti ai record | ✓ |                                  |                 |
+| Visualizzare la cronologia delle modifiche in un record | ✓ |                                  |                 |
 | Formattazione Rich Text per i campi Paragrafo | ✓ |                                  |                 |
 | Moduli Maestro per Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copiare e incollare informazioni da un campo all&#39;altro | ✓ |                                  |                 |

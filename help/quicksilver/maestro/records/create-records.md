@@ -1,13 +1,13 @@
 ---
 title: Crea record
-description: In Adobe Maestro, un record è un'istanza di un tipo di record. È necessario creare tipi di record prima di creare singoli record.
+description: In Adobe Maestro, un record è un'istanza di un tipo di record. È necessario creare tipi di record prima di creare singoli record. La creazione di record di tassonomia è identica alla creazione di record operativi.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In Adobe Maestro, un record è un&#39;istanza di un tipo di record.
 * **Record operativi**: rappresentano oggetti correlati al lavoro. Ad esempio, per un record operativo denominato &quot;Campaign&quot;, è possibile denominare record come &quot;Monthly Newsletter&quot; o &quot;Summer Sale&quot;.
 * **Record di tassonomia**: rappresentano attributi che possono essere associati a record operativi. Ad esempio, per un tipo di record di tassonomia denominato &quot;Canale&quot;, è possibile denominare tassonomie come &quot;E-mail&quot;, &quot;Social Media&quot; o &quot;Advertising&quot;.
 
-La creazione di record operativi è identica alla creazione di record di tassonomia o tassonomie.
+La creazione di record operativi è identica alla creazione di record di tassonomia.
 
 È possibile creare record in Maestro eseguendo una delle operazioni seguenti:
 
@@ -120,7 +120,7 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
 1. (Condizionale) Se la pagina del tipo di record non si apre nella vista a tabella, fare clic sul pulsante **Visualizza** e selezionare un menu a discesa esistente **Vista tabella** ![](assets/table-view-icon.png) o fai clic su **Crea vista > Tabella** per creare una vista tabella.
 
-1. Per aggiungere nuovi record, fare clic su **Nuovo &lt; Nome tipo di record >** nell’ultima riga della tabella
+1. Per aggiungere nuovi record, fare clic su **Nuovo record** nell’ultima riga della tabella
 
    Oppure
 
