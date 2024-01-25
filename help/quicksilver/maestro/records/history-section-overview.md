@@ -4,10 +4,10 @@ description: È possibile esaminare le modifiche apportate al record e registrat
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 54c6adf51ab8ef4e7968e8fdeeb0025e42deecc5
+source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 2%
+source-wordcount: '446'
+ht-degree: 4%
 
 ---
 
@@ -72,7 +72,6 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    * Selezione multipla
    * Campi record collegati
-   * Campi collegati (ricerca)
    * Persone
 
   Se la modifica ha aggiunto solo valori al campo, il valore precedente non viene visualizzato e viene visualizzato solo il nuovo valore del campo.
@@ -80,5 +79,14 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 * Nei campi di tipo casella di controllo non viene mai visualizzato il valore precedente in formato barrato. Se il campo viene modificato, viene visualizzato solo lo stato corrente al momento della modifica.
 
   Per ulteriori informazioni sui campi Maestro, consulta [Crea campi](/help/quicksilver/maestro/fields/create-fields.md).
+
+* Le modifiche ai campi dei tipi seguenti non vengono visualizzate nella sezione Cronologia:
+
+   * Campi collegati (ricerca)
+   * Formula
+   * Creato da
+   * Data creazione
+   * Ultima modifica eseguita da
+   * Data ultima modifica
 
 * Se un campo viene rimosso dal sistema, gli aggiornamenti apportati a tale campo rimangono nella sezione Cronologia. Non vi è alcuna indicazione che il campo sia stato rimosso nella sezione Cronologia di un record.
