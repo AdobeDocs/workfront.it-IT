@@ -5,21 +5,25 @@ product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Configurazione [!DNL Adobe Workfront]
 description: As a [!DNL Workfront] amministratore, puoi configurare i valori predefiniti di sistema, le schede orario e le pianificazioni dell’organizzazione, il modo in cui gli utenti sono organizzati nel sistema, gli aggiornamenti automatici di sistema e [!DNL Workfront] ambienti di test utilizzati.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6a6a224-f938-4a19-a708-f00568ca6a88
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: '95'
 ht-degree: 0%
 
 ---
 
-# Configurazione [!DNL Adobe Workfront]
+# Configurazione [!DNL Adobe Workfront]: indice dell’articolo
 
-Questa sezione contiene le seguenti sottosezioni:
+<!--Audited: 01/2024-->
+
+Come un [!DNL Adobe Workfront] amministratore, puoi configurare i valori predefiniti di sistema, le schede orario e le pianificazioni dell’organizzazione, il modo in cui gli utenti sono organizzati nel sistema, gli aggiornamenti automatici di sistema e [!DNL Workfront] ambienti di test utilizzati.
+
+Le sottosezioni seguenti contengono articoli sulla configurazione dell’istanza di Workfront e sull’impostazione delle preferenze del sistema:
 
 * [Configurare i valori predefiniti di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
 * [Configurare schede orario e pianificazioni](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
