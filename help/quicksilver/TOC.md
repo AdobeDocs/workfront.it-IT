@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 1d760fbad6633fac988278b14d630a0aad3f4b76
+source-git-commit: 6a734a7e8f8b1e717c5ec02fc803a14057f5a052
 workflow-type: tm+mt
-source-wordcount: '13881'
+source-wordcount: '13885'
 ht-degree: 0%
 
 ---
@@ -1073,7 +1073,7 @@ ht-degree: 0%
       * [Suggerimenti, trucchi e risoluzione dei problemi per agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
       * [Gli stati personalizzati non vengono visualizzati sullo storyboard agile](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documenti {#documents}
-   * [Documenti](documents/documents-overview.md)
+   * [Documenti: indice articolo](documents/documents-overview.md)
    * Aggiungere nuovi documenti ad Adobe Workfront {#add-new-documents-to-workfront}
       * [Aggiungere nuovi documenti ad Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
       * [Aggiungere documenti ad Adobe Workfront dal file system](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
@@ -1322,7 +1322,7 @@ ht-degree: 0%
          * [Associa attività cardine ad attività](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
          * [Convertire un’attività in un progetto](manage-work/tasks/manage-tasks/convert-task-to-project.md)
       * Vincoli attività {#task-constraints}
-         * [Vincoli attività](manage-work/tasks/task-constraints/task-constraints.md)
+         * [Vincoli attività: indice articolo](manage-work/tasks/task-constraints/task-constraints.md)
          * [Panoramica sui vincoli delle attività](manage-work/tasks/task-constraints/task-constraint-overview.md)
          * [Panoramica sui vincoli delle attività: inizia non più tardi di](manage-work/tasks/task-constraints/start-no-later-than.md)
          * [Panoramica sui vincoli attività: Iniziare non prima di](manage-work/tasks/task-constraints/start-no-earlier-than.md)

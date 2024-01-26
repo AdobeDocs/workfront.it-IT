@@ -7,14 +7,16 @@ description: In qualità di project manager, puoi utilizzare le tariffe di fattu
 author: Alina, Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: c485676fb5584e8438823e9ce0c28b551f6bab45
 workflow-type: tm+mt
-source-wordcount: '3657'
+source-wordcount: '3691'
 ht-degree: 0%
 
 ---
 
 # Panoramica su fatturazione e ricavi
+
+<!-- Audited: 1/2024 -->
 
 {{highlighted-preview}}
 
@@ -26,7 +28,7 @@ Questo articolo descrive come tenere traccia dei ricavi per i progetti. I ricavi
 
 Quando si lavora con le tariffe di fatturazione, considera quanto segue:
 
-* Per gestire le tariffe di fatturazione è necessaria una licenza Pianificazione con accesso Modifica ai dati finanziari.\
+* Per gestire le tariffe di fatturazione è necessaria una licenza Pianificazione o Standard con accesso in modifica ai dati finanziari.\
   Per ulteriori informazioni sulla concessione dell&#39;accesso ai dati finanziari, vedere [Concedere l’accesso ai dati finanziari](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * Le tariffe di fatturazione sono quantità di ricavi per unità di lavoro associate a mansioni o utenti.
@@ -54,7 +56,7 @@ Quando si lavora con le tariffe di fatturazione, considera quanto segue:
 
 ### Tariffe di fatturazione utente {#user-billing-rates}
 
-In qualità di amministratore utente, quando si crea un utente, è possibile associarlo alla data di validità delle tariffe di fatturazione specificando i valori per i campi Fatturazione ad Ore e le date per le tariffe.
+In qualità di amministratore utente, quando crei un utente, puoi associarlo alle tariffe di fatturazione valide per data specificando i valori per i campi Fatturazione ad Ore e le date per le tariffe.
 
 Per ulteriori informazioni sulla creazione di utenti, consulta l’articolo [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
@@ -62,13 +64,13 @@ Per ulteriori informazioni sulla creazione di utenti, consulta l’articolo [Agg
 
 ### Tariffe di fatturazione mansione {#job-role-billing-rates}
 
-In qualità di amministratore di Adobe Workfront, quando crei una mansione, puoi associarla alle tariffe di fatturazione valide per la data specificando i valori per i campi Fatturazione ad ore e le date per le tariffe.
+In qualità di amministratore di Adobe Workfront, quando crei una mansione, puoi associarla alle tariffe di fatturazione valide per data specificando i valori per i campi Fatturazione ad ore e le date per le tariffe.
 
 È possibile definire il valore di un tasso di fatturazione di una mansione utilizzando la valuta di base del sistema Workfront o un&#39;altra valuta personalizzata.
 
 Per ulteriori informazioni sulla creazione di mansioni e sulla sostituzione della relativa valuta, consulta l’articolo [Creare e gestire le mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![Modifica costi mansione e tariffe di fatturazione](assets/edit-job-role-multiple-billing-rates.png)
+![Modifica costi mansione e tariffe di fatturazione](assets/edit-job-role-multiple-billing-rates-new.png)
 
 ### Tariffe di fatturazione fisse per progetti o attività {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -109,22 +111,22 @@ La tabella seguente mostra i tipi di ricavi associati ad attività, problemi e p
  <tbody> 
   <tr> 
    <td role="rowheader">Reddito Pianificato</td> 
-   <td> <p>Per le attività, si tratta delle entrate associate alle ore pianificate delle attività. Le ore pianificate da tutte le attività vengono riportate alle ore pianificate del progetto per contribuire al calcolo delle ore pianificate del progetto. </p> <p>Per ulteriori informazioni sulle ore pianificate in Workfront, consulta <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Panoramica sulle ore pianificate</a>. </p> <p>Workfront calcola la Retribuzione pianificata per le attività utilizzando la formula seguente:</p>
-   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>NOTA</strong></br> La tariffa oraria di fatturazione nella formula considera eventuali modifiche effettive alla data della tariffa.</p> <p>Workfront calcola la Retribuzione pianificata per i progetti utilizzando la formula seguente:</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
+   <td> <p>Per le attività, si tratta delle entrate associate alle ore pianificate delle attività. Le ore pianificate da tutte le attività vengono riportate alle ore pianificate del progetto per contribuire al calcolo delle ore pianificate del progetto. </p> <p>Per ulteriori informazioni sulle ore pianificate in Workfront, consulta <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Panoramica sulle ore pianificate</a>. </p> <ul><li><p>Workfront calcola la Retribuzione pianificata per le attività utilizzando la formula seguente:</p>
+   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>NOTA</strong></br> La tariffa oraria di fatturazione nella formula considera eventuali modifiche della tariffa con data effettiva.</p> </li><li><p>Workfront calcola la Retribuzione pianificata per i progetti utilizzando la formula seguente:</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
    <p><b>NOTA</b>
 
-<p>Il campo Retribuzione pianificata del progetto visualizzato nell'area Dettagli progetto e nei rapporti del progetto è diverso dal campo Retribuzione pianificata visualizzato nel rapporto Utilizzo. </p> <p>La Retribuzione pianificata nell'area Dettagli progetto riflette le entrate dell'attività associate all'attività Lavoro pianificato e alla Retribuzione fissa del progetto. Nel rapporto Utilizzo, la Retribuzione pianificata mostra la Retribuzione pianificata associata solo alle Ore pianificate delle assegnazioni delle attività del progetto. </p> 
+<p>Il campo Retribuzione pianificata del progetto visualizzato nell'area Dettagli progetto e nei rapporti del progetto è diverso dal campo Retribuzione pianificata visualizzato nel rapporto Utilizzo. </p></li></ul> <p>La Retribuzione pianificata nell'area Dettagli progetto riflette le entrate dell'attività associate all'attività Lavoro pianificato e alla Retribuzione fissa del progetto. Nel rapporto Utilizzo, la Retribuzione pianificata mostra la Retribuzione pianificata associata solo alle Ore pianificate delle assegnazioni delle attività del progetto. </p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p>Se il progetto ha 1 attività con 10 ore, assegnata a un consulente con una tariffa oraria di 20 $ e il progetto ha un reddito fisso di 100 $, il rapporto Utilizzo visualizza 200 $ per il reddito pianificato (il reddito pianificato associato alle ore dell'attività). La sezione Dettagli progetto visualizza $ 300 (la Retribuzione pianificata dall'attività e la Retribuzione fissa per il progetto). </p> 
      </div> </p> <p>La Retribuzione pianificata dell'attività viene calcolata utilizzando le tariffe orarie di fatturazione degli utenti o delle mansioni assegnate alle attività. Il tipo di retribuzione delle attività influisce sul tasso (utente o ruolo) utilizzato per calcolare la retribuzione pianificata. Per ulteriori informazioni, vedere le sezioni seguenti in questo articolo:</p> 
     <ul> 
      <li> <p><a href="#overview-of-task-revenue-types" class="MCXref xref">Panoramica sui tipi di retribuzione delle attività</a> </p> </li> 
      <li> <p><a href="#revenue-calculations-for-tasks-based-on-user-and-role-assignments" class="MCXref xref">Calcolo dei ricavi per le attività in base alle assegnazioni di utenti e ruoli</a> </p> </li> 
-    </ul> <p>Per informazioni sui calcoli dei ricavi pianificati nel rapporto Utilizzo, vedere <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visualizza informazioni sull'utilizzo delle risorse </a>. </p> </td> 
+    </ul> <p>Per informazioni sui calcoli dei ricavi pianificati nel rapporto Utilizzo, vedere <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visualizza informazioni sull'utilizzo delle risorse</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Reddito Reale*</td> 
-   <td> <p>Associato alle ore effettive di attività, problemi e progetti. </p> <p>In genere, Workfront calcola i ricavi effettivi utilizzando questa formula:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>NOTA</strong></br> La tariffa oraria di fatturazione nella formula considera eventuali modifiche effettive alla data della tariffa.</p> <p>Per informazioni sui calcoli dei ricavi effettivi nel rapporto Utilizzo, vedere <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visualizza informazioni sull'utilizzo delle risorse </a>. </p> <p><b>SUGGERIMENTO</b>
+   <td> <p>Le entrate associate alle ore effettive di attività, problemi e progetti. </p> <p>In genere, Workfront calcola i ricavi effettivi utilizzando questa formula:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>NOTA</strong></br> La tariffa oraria di fatturazione nella formula considera eventuali modifiche della tariffa con data effettiva.</p> <p>Per informazioni sui calcoli dei ricavi effettivi nel rapporto Utilizzo, vedere <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visualizza informazioni sull'utilizzo delle risorse</a>. </p> <p><b>SUGGERIMENTO</b>
 
 Non è possibile visualizzare la Retribuzione effettiva a livello di problema, ma i ricavi associati alle Ore effettive sui problemi contribuiscono alla Retribuzione effettiva del progetto. </p> </td>
 </tr> 
@@ -167,7 +169,7 @@ Per ulteriori informazioni su come specificare il tipo di retribuzione di un&#39
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Tipo di Reddito</strong> </p> </th> 
+   <th> <p><strong>Tipo di retribuzione</strong> </p> </th> 
    <th> <p><strong>Descrizione</strong> </p> </th> 
   </tr> 
  </thead> 
@@ -246,7 +248,7 @@ Quando si calcolano i ricavi per un&#39;attività, tenere presente quanto segue:
 
 Esiste una gerarchia del tasso utilizzato nei calcoli dei ricavi in base alle assegnazioni delle attività.
 
-Se l&#39;amministratore di Workfront ha abilitato **Assegna mansioni alle ore manualmente** Se si imposta l&#39;opzione nella sezione Preferenze schede orario e ore e l&#39;ora di accesso dell&#39;utente al progetto seleziona un ruolo diverso da associare a questo orario, la retribuzione effettiva dell&#39;attività o del progetto viene sempre calcolata in base al ruolo associato all&#39;immissione di ore. Per informazioni sull’abilitazione dell’ora di registrazione per una mansione specifica, consulta l’articolo [Preferenze Ore e Timesheet](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Se l&#39;amministratore di Workfront ha abilitato **Assegna mansioni alle ore manualmente** Se si imposta l&#39;opzione nella sezione Preferenze schede orario e ore e l&#39;ora di accesso dell&#39;utente al progetto seleziona un ruolo diverso da associare a questo orario, la retribuzione effettiva dell&#39;attività o del progetto viene sempre calcolata in base al ruolo associato all&#39;immissione di ore. Per informazioni sull’abilitazione dell’ora di registrazione per una mansione specifica, consulta l’articolo [Configurare le preferenze di orario e scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Esistono i seguenti scenari quando si calcolano i ricavi delle attività in base al tipo di ricavi e alla natura dell&#39;assegnazione delle attività:
 
@@ -266,7 +268,7 @@ Esistono i seguenti scenari quando si calcolano i ricavi delle attività in base
     </tr> 
     <tr> 
      <td role="rowheader">Tariffa oraria di fatturazione per la retribuzione pianificata</td> 
-     <td>$0.00</td> 
+     <td>0,00 $</td> 
      <td> Se un utente ha una tariffa di fatturazione nel suo profilo, questa viene utilizzata per calcolare la Retribuzione Pianificata. In caso contrario, viene utilizzata la tariffa di fatturazione del sistema per la mansione principale. <br><p><b>NOTA</b>  L’utente può essere assegnato all’attività con una delle sue mansioni secondarie, ma in questa posizione viene utilizzato il tasso della mansione principale.</p><p>Se il ruolo dell'utente è stato modificato durante l'assegnazione, al ricalcolo dei dati finanziari del progetto vengono applicati i tassi corretti.</p></td> 
      <td><p><span class="preview">Se al progetto è allegata una scheda tariffa, la Retribuzione pianificata viene calcolata in base alla mansione dalla scheda tariffa.</span></p> <p><span class="preview">Le tariffe di fatturazione possono essere sostituite a livello di progetto.</span></p></td> 
     </tr> 
@@ -303,7 +305,7 @@ Esistono i seguenti scenari quando si calcolano i ricavi delle attività in base
     </tr> 
     <tr> 
      <td role="rowheader">Tariffa oraria di fatturazione per la retribuzione pianificata</td> 
-     <td>$0.00</td> 
+     <td>0,00 $</td> 
      <td><p>Workfront esamina il ruolo che l’utente svolge nell’attività per calcolare la Retribuzione Pianificata. <br>Se l'utente non è associato ad alcun ruolo nell'attività, il ricavo è $0,00.</p> <p><strong>NOTA</strong><br>Se il ruolo dell'utente è stato modificato durante l'assegnazione, al ricalcolo dei dati finanziari del progetto vengono applicati i tassi corretti.</p> </td> 
      <td><p><span class="preview">Se al progetto è allegata una scheda tariffa, la Retribuzione pianificata viene calcolata in base alla mansione dalla scheda tariffa.</span></p> <p><span class="preview">Le tariffe di fatturazione possono essere sostituite a livello di progetto.</span></p></td> 
     </tr> 

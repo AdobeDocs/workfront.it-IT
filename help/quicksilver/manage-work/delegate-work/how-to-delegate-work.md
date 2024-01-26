@@ -6,24 +6,27 @@ description: Puoi delegare temporaneamente il lavoro che ti è stato assegnato m
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 42601f701e4109320e9e7b3f3f4275dee59bad97
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 1%
+source-wordcount: '1449'
+ht-degree: 0%
 
 ---
 
 # Gestire la delega di attività e problemi
 
+<!-- Audited: 1/2024 -->
+
+
 <!--
 <NOTE: 
 <you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work"
-I wrote thhis as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
+I wrote this as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
 -->
 
 Puoi delegare temporaneamente il lavoro che ti è stato assegnato mentre sei fuori sede.
 
-Puoi delegare le assegnazioni di attività e problemi oppure le approvazioni. Questo articolo descrive come delegare le assegnazioni di attività e problemi.
+Puoi delegare le assegnazioni di attività e problemi, oppure puoi delegare le approvazioni. Questo articolo descrive come delegare le assegnazioni di attività e problemi.
 
 Per informazioni generali sulla delega del lavoro, consulta [Panoramica sul lavoro dei delegati](../../manage-work/delegate-work/delegate-work-overview.md).
 
@@ -35,10 +38,10 @@ Per informazioni generali sulla delega del lavoro, consulta [Panoramica sul lavo
 >* Le autorizzazioni devono funzionare all’interno dei loro livelli di accesso e a volte i loro livelli di accesso potrebbero essere inferiori ai tuoi.
 >
 >   
->   Ad esempio, se un utente dispone solo dell&#39;accesso Visualizzazione alle attività nel proprio livello di accesso e si dispone delle autorizzazioni Gestione per le attività delegate, riceverà le autorizzazioni Gestione per le attività delegate. Tuttavia, non potranno eseguire le stesse azioni che esegui sulle attività delegate. Devono richiedere all&#39;amministratore di sistema l&#39;accesso di modifica alle attività per poter aggiornare le attività in assenza dell&#39;utente.
+>   Ad esempio, se un utente dispone solo dell&#39;accesso Visualizzazione alle attività nel proprio livello di accesso e si dispone delle autorizzazioni Gestione per le attività delegate, riceverà le autorizzazioni Gestione per le attività delegate. Tuttavia, non potranno eseguire le stesse azioni che esegui sulle attività delegate. Per poter aggiornare le attività in assenza dell&#39;utente, è necessario richiedere all&#39;amministratore di sistema l&#39;accesso Modifica attività.
 >
 >   
->   Per informazioni su come modificare il livello di accesso, consulta [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>   Per informazioni su come un amministratore di sistema può modificare il livello di accesso, consulta [Creare o modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* Per gli elementi assegnati dopo l&#39;avvio della delega, può essere necessaria un&#39;ora dopo l&#39;assegnazione dell&#39;elemento per [!DNL Workfront] condividere gli elementi appena assegnati con il delegato.
 
@@ -50,31 +53,32 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>Revisione o successiva</p>
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> <p>Nuovo: Collaboratore o versione successiva</p><p>Oppure</p><p>Corrente: revisione o versione successiva</p>
 
 >[!NOTE]
 >
->Anche se è possibile essere assegnati a lavorare quando si dispone di una licenza Request, non è possibile delegare il lavoro ad altri. [!DNL Workfront] sconsiglia di assegnare il lavoro agli utenti di revisione o richiesta.
+>Anche se è possibile essere assegnati a lavorare quando si dispone di una licenza Request, non è possibile delegare il lavoro ad altri. [!DNL Workfront] sconsiglia di assegnare il lavoro agli utenti Revisione, Richiesta o Collaboratore.
 
 </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica l'accesso ad attività e problemi Se non hai ancora accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica l'accesso ad Attività e Issues 
+     </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> <p>Visualizza o consente di accedere ad autorizzazioni superiori per le attività o i problemi assegnati</p> 
-    <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
@@ -92,7 +96,7 @@ Prima di poter eseguire le attività descritte in questo articolo, è necessario
 
 Prima di delegare il lavoro ad altri, ti consigliamo di contattarli e informarli che saranno designati come delegati per i tuoi elementi di lavoro. Chiedere la loro approvazione verbale prima di delegare il lavoro per assicurarsi che abbiano il tempo necessario per completare il lavoro mentre si è fuori sede.
 
-Per informazioni generali sulla delega di attività e problemi, consulta [Panoramica su delega attività e problemi](delegate-work.md).
+Per informazioni generali sulla delega di attività e problemi, consulta [Panoramica su delega attività e problemi](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 Per delegare le tue attività e i tuoi problemi ad altri:
 
@@ -102,9 +106,9 @@ Per delegare le tue attività e i tuoi problemi ad altri:
 
 1. In [!UICONTROL **Delega attività e problemi**] , aggiorna quanto segue:
 
-   * [!UICONTROL **Delega le tue attività e i tuoi problemi a**]: inizia a digitare il nome di un utente al quale desideri delegare le attività e i problemi, quindi selezionalo quando viene visualizzato nell’elenco. È possibile selezionare un solo utente.\
+   * [!UICONTROL **Delega le tue attività e i tuoi problemi a**]: inizia a digitare il nome di un utente al quale desideri delegare le attività e i problemi, quindi selezionalo quando viene visualizzato nell’elenco. Puoi selezionare un solo utente.
 
-     L&#39;utente che si seleziona come delegato riceve le stesse autorizzazioni delle autorizzazioni relative alle attività e ai problemi che si delegano loro. Per ulteriori informazioni, consulta [Panoramica sulle attività e sui problemi dei delegati](delegate-work-overview.md).
+     L&#39;utente che si seleziona come delegato riceve le stesse autorizzazioni delle autorizzazioni relative alle attività e ai problemi che si delegano loro.
 
    * [!UICONTROL **Data di inizio**]: seleziona una data dal calendario a partire dalla quale deve iniziare la delega degli elementi di lavoro.
 
@@ -118,7 +122,7 @@ Per delegare le tue attività e i tuoi problemi ad altri:
 
      >[!TIP]
      >
-     >La mancata selezione di una data di fine abilita la delega solo per il giorno corrente.
+     >Se si lascia vuoto il campo Data di fine e l&#39;opzione Nessuna data di fine non è selezionata, la delega viene impostata solo per il giorno corrente.
 
      ![](assets/delegate-box-expanded-in-home.png)
 
@@ -128,14 +132,14 @@ Per delegare le tue attività e i tuoi problemi ad altri:
 
    * Il lavoro è delegato all&#39;utente specificato. Eventuali attività o problemi incompleti con date comprese nell’intervallo di tempo selezionato (compresi quelli appena assegnati, dopo l’abilitazione della delega) vengono delegati.
 
-   >[!TIP]
-   >
-   >   Gli elementi di lavoro completati con date comprese nell’intervallo di tempo della delega non vengono delegati.
+     >[!TIP]
+     >
+     >   Gli elementi di lavoro completati con date comprese nell’intervallo di tempo della delega non vengono delegati.
 
 
    * Viene visualizzato un messaggio nell’angolo superiore destro della schermata per confermare che hai abilitato la delega del tuo lavoro a un altro utente. Il nome dell’utente delegato viene visualizzato nel messaggio di conferma.
 
-   * Nella maggior parte delle aree in cui è possibile visualizzare le assegnazioni in, viene visualizzata un&#39;indicazione che indica che le attività e i problemi sono delegati ad altri utenti. [!DNL Workfront]. Per ulteriori informazioni sulle aree in cui non sono inclusi i nomi dei delegati, vedere [Panoramica sulle attività e sui problemi dei delegati](delegate-work-overview.md).
+   * Nella maggior parte delle aree in cui è possibile visualizzare le assegnazioni in, viene visualizzata un&#39;indicazione che indica che le attività e i problemi sono delegati ad altri utenti. [!DNL Workfront]. Per ulteriori informazioni sulle aree in cui non sono inclusi i nomi dei delegati, vedere [Panoramica sul lavoro dei delegati](delegate-work-overview.md).
 
    * Il [!UICONTROL **Delega**] pulsante in [!UICONTROL Home] modifica area in [!UICONTROL **Modifica delega**] per indicare che esiste una delega.
    <!--
@@ -151,9 +155,6 @@ Per delegare le tue attività e i tuoi problemi ad altri:
    * L’utente selezionato come delegato riceve un’e-mail sulla delega, se le relative notifiche degli eventi sono abilitate.
 
      Per informazioni sull’abilitazione delle notifiche e-mail personali, consulta [Modifica le tue notifiche e-mail](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-
-
 
 ## Modificare o interrompere la delega
 
@@ -201,9 +202,9 @@ Quando l&#39;amministratore del sistema o del gruppo abilita la delega del lavor
 
 * Intestazione dell’attività o del problema
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
-
   Il [!UICONTROL Assegnazioni] nell’intestazione dell’attività o del problema diventa [!UICONTROL Assegnazioni e deleghe].
+
+  ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * Il [!UICONTROL Bilanciatore dei carichi di lavoro] quando si assegnano manualmente attività o problemi
 
