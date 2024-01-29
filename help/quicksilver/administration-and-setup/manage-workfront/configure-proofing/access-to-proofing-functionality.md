@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: 41a2d58ce00baa6460ee6ca697d4fe06363eee85
+source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Al momento sono disponibili tre opzioni di piano per la verifica in Workfront:
 
 * **Nuovi piani Workfront**: la verifica viene inclusa automaticamente per tutte le licenze nei nuovi piani di Workfront.
 * **Piani Workfront Pro+ correnti**: la verifica viene inclusa automaticamente per le licenze Lavoro e Piano se si dispone dei piani Workfront pro, business o enterprise.
-* **Piani legacy di Workfront Premium**: questa opzione è valida per i piani Workfront legacy: Select, Enterprise, Premium. La verifica non viene inclusa automaticamente con le licenze in questo piano. È necessario concedere l&#39;accesso di verifica a utenti specifici nel loro profilo utente.
+* **Piani Workfront Premium legacy**: questa opzione è valida per i piani Workfront legacy: Select, Enterprise, Premium. La verifica non viene inclusa automaticamente con le licenze in questo piano. È necessario concedere l&#39;accesso di verifica a utenti specifici nel loro profilo utente.
 
   Se sei un amministratore di Workfront, puoi verificare e vedere quale piano è in corso andando in Configurazione > Sistema > Licenze.
 

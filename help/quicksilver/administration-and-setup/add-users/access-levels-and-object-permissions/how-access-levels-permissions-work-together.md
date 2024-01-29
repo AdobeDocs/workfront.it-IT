@@ -6,13 +6,13 @@ product-area: system-administration
 keywords: accesso,modello,funnel,diagramma,livelli,autorizzazioni
 navigation-topic: access-levels
 description: L’amministratore Adobe Workfront determina il livello di accesso di ogni utente. Tale livello di accesso definisce cosa gli utenti possono vedere e fare con i tipi di oggetto e le aree del sistema.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '873'
 ht-degree: 2%
 
 ---
@@ -21,9 +21,8 @@ ht-degree: 2%
 
 L’amministratore Adobe Workfront determina il livello di accesso di ogni utente. Tale livello di accesso definisce cosa gli utenti possono vedere e fare con i tipi di oggetto e le aree del sistema.
 
-Inoltre, gli utenti possono accedere a singoli oggetti quando altri utenti condividono e concedono determinate autorizzazioni su tali oggetti.
+Gli utenti possono inoltre accedere a singoli oggetti quando altri utenti condividono e concedono determinate autorizzazioni su tali oggetti.
 
-Pertanto, le attività che un utente può svolgere con un oggetto sono definite da una combinazione del proprio livello di accesso e delle autorizzazioni assegnate a tale progetto.
 
 ![](assets/security-model-hierachy.png)
 

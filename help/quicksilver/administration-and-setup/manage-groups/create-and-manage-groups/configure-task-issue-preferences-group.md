@@ -2,41 +2,40 @@
 title: Configurare le preferenze per attività e problemi per un gruppo
 user-type: administrator
 product-area: system-administration;user-management;setup
-keywords: gruppo, preferenze, compito, problema, sblocca
+keywords: gruppo,preferenze,attività,problema,sblocca
 navigation-topic: create-and-manage-groups
-description: Se i gruppi dell’organizzazione devono configurare un’attività o una preferenza per un problema indipendentemente dalla modalità di configurazione a livello di sistema, un amministratore di Adobe Workfront può sbloccare la preferenza. Quindi, in qualità di amministratore del gruppo, puoi configurare la preferenza per il gruppo e questo interesserà tutte le attività o i problemi associati al gruppo.
+description: Se i gruppi dell’organizzazione devono configurare una preferenza per attività o problemi indipendentemente dalla modalità di configurazione a livello di sistema, un amministratore Adobe Workfront può sbloccare la preferenza. Quindi, in qualità di amministratore di gruppo, puoi configurare la preferenza per il gruppo e influenzerà tutte le attività o i problemi associati al gruppo.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
+source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 3%
+source-wordcount: '1895'
+ht-degree: 2%
 
 ---
 
 # Configurare le preferenze per attività e problemi per un gruppo
 
-Se i gruppi dell’organizzazione devono configurare un’attività o una preferenza per un problema indipendentemente dalla modalità di configurazione a livello di sistema, un amministratore di Adobe Workfront può sbloccare la preferenza. Quindi, in qualità di amministratore del gruppo, puoi configurare la preferenza per il gruppo e questo interesserà tutte le attività o i problemi associati al gruppo.
+Se i gruppi dell’organizzazione devono configurare una preferenza per attività o problemi indipendentemente dalla modalità di configurazione a livello di sistema, un amministratore Adobe Workfront può sbloccare la preferenza. Quindi, in qualità di amministratore di gruppo, puoi configurare la preferenza per il gruppo e influenzerà tutte le attività o i problemi associati al gruppo.
 
-Se ci sono gruppi al di sopra del gruppo che gestisci, i loro amministratori possono farlo anche per il tuo gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
+Se al di sopra del gruppo gestito sono presenti gruppi, anche gli amministratori possono eseguire questa operazione per il gruppo. Lo stesso vale per gli amministratori di Workfront (per qualsiasi gruppo).
 
-Per informazioni su come l’amministratore di Workfront sblocca le preferenze, consulta [Bloccare o sbloccare le preferenze del progetto per tutti i gruppi del sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+Per informazioni su come l’amministratore di Workfront sblocca le preferenze, consulta [Blocca o sblocca le preferenze di progetto per tutti i gruppi nel sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 >[!TIP]
 >
->La configurazione a livello di gruppo è possibile anche per le preferenze del progetto. Per informazioni, consulta [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>La configurazione a livello di gruppo è possibile anche per le preferenze di progetto. Per informazioni, consulta [Configurare le preferenze di progetto per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 >[!NOTE]
 >
->* In genere, una preferenza sbloccata rimane sbloccata a tempo indeterminato. Se l’amministratore di Workfront lo blocca nuovamente, l’impostazione di sistema ha effetto nuovamente e le impostazioni relative alle preferenze effettuate dagli amministratori del gruppo vengono perse.
->* Le preferenze impostate per il gruppo associato a un progetto hanno la precedenza sulle preferenze impostate per il gruppo Home dell’utente che crea il progetto.
->* Alcune preferenze a livello di gruppo influiscono sui modelli di progetto creati per il gruppo. Per ulteriori informazioni, consulta la sezione . [Visualizza, utilizza e crea modelli per il gruppo dall’area Gruppi](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) nell&#39;articolo [Creare e modificare i modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* In genere, una preferenza sbloccata rimane sbloccata a tempo indeterminato. Se l&#39;amministratore di Workfront la sblocca nuovamente, l&#39;impostazione di sistema riprende ad avere effetto e le impostazioni relative alle preferenze impostate dagli amministratori di gruppo andranno perse.
+>* Le preferenze impostate per il gruppo associato a un progetto hanno la precedenza su quelle impostate per il gruppo predefinito dell&#39;utente che crea il progetto.
+>* Alcune preferenze a livello di gruppo influiscono sui modelli di progetto creati per il gruppo. Per ulteriori informazioni, consulta la sezione [Visualizzare, utilizzare e creare modelli per il gruppo dall&#39;area Gruppi](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) nell’articolo [Creare e modificare i modelli di progetto di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
->* Dopo che un amministratore di Workfront sblocca una preferenza a livello di sistema, puoi configurarla e bloccarla per garantire che tutti gli utenti del gruppo e dei sottogruppi utilizzino la stessa configurazione. Ciò è parallelo alla possibilità che un amministratore di Workfront debba configurare e bloccare una preferenza per tutti gli utenti del sistema. Per ulteriori informazioni, consulta [Bloccare o sbloccare un progetto, un&#39;attività o una preferenza di problema per i sottogruppi](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* Dopo che un amministratore di Workfront ha sbloccato una preferenza a livello di sistema, è possibile configurarla e quindi bloccarla per assicurarsi che tutti gli utenti del gruppo e dei relativi sottogruppi utilizzino la stessa configurazione. Ciò è parallelo alla possibilità che un amministratore di Workfront deve configurare e bloccare una preferenza per tutti gli utenti del sistema. Per ulteriori informazioni, consulta [Bloccare o sbloccare una preferenza di progetto, attività o problema per i sottogruppi](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
-
 
 ## Requisiti di accesso
 
@@ -47,42 +46,42 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Workfront*</td> 
+   <td role="rowheader">piano Workfront*</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> <p>È necessario essere un amministratore del gruppo o un amministratore di Workfront. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppo</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente pieno accesso amministrativo</a>.</p> </td> 
+   <td> <p>Piano </p> <p>Devi essere un amministratore di gruppo del gruppo o un amministratore di Workfront. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Amministratori di gruppi</a> e <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per sapere quale piano o tipo di licenza hai, contatta il tuo amministratore Workfront.
+&#42;Per conoscere il piano o il tipo di licenza disponibile, contattare l&#39;amministratore di Workfront.
 
-## Configurare le preferenze relative alle attività sbloccate e ai problemi per un gruppo di livello superiore
+## Configurare le preferenze per attività e problemi sbloccati per un gruppo di primo livello
 
 >[!TIP]
 >
->Se sei un amministratore di Workfront, puoi ignorare i passaggi 1-4 andando su Configurazione > Preferenze progetto > Attività e problemi, quindi cercare il nome del gruppo nella casella in alto nella pagina.
+>Se sei un amministratore di Workfront, puoi evitare i passaggi 1-4 andando in Configurazione > Preferenze progetto > Attività e problemi, quindi cercando il nome del gruppo nella casella nella parte superiore della pagina.
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Nel pannello a sinistra, fai clic su **Gruppi** ![](assets/groups-icon.png).
 
-1. Fare clic sul nome del gruppo per il quale si desidera configurare l&#39;attività sbloccata e le preferenze relative ai problemi.
+1. Fare clic sul nome del gruppo per il quale si desidera configurare le preferenze per attività sbloccate e problemi.
 1. Nella pagina visualizzata per il gruppo, nel pannello a sinistra, fai clic su **Preferenze attività e problemi**.
-1. Nella pagina visualizzata, continuare con una delle 5 sezioni elencate di seguito per configurare le impostazioni per le aree Nuovi valori predefiniti attività, Problemi, Eliminazione, Date effettive e Accesso, quindi fare clic su **Salva**.
+1. Nella pagina visualizzata, continua con una delle 5 sezioni elencate di seguito per configurare le impostazioni per le aree Nuovi valori predefiniti attività, Problemi, Eliminazione, Date effettive e Accesso, quindi fai clic su **Salva**.
 
-   Se passi il cursore sull’icona Blocca ![](assets/lock-toggle-button-dimmed.png) per una preferenza da configurare e viene visualizzata una descrizione comandi per indicare che è bloccato, è possibile chiedere all’amministratore di Workfront di sbloccarlo per tutti i gruppi dell’organizzazione.
+   Se passi il cursore sull’icona del lucchetto ![](assets/lock-toggle-button-dimmed.png) per una preferenza da configurare e una descrizione comando che indica che è bloccata, puoi chiedere all’amministratore di Workfront di sbloccarla per tutti i gruppi dell’organizzazione.
 
-   Quando viene sbloccato, tu e gli altri amministratori di gruppo potete configurarlo separatamente per i vostri gruppi. Inoltre, puoi bloccarlo per il gruppo e per tutti i sottogruppi al di sotto del gruppo.
+   Una volta sbloccato, l’utente e gli altri amministratori di gruppi possono configurarlo separatamente per i propri gruppi. Inoltre, puoi bloccarlo per il tuo gruppo e per tutti i suoi sottogruppi.
 
    * [Nuovi valori predefiniti attività](#new-task-defaults)
    * [Problemi](#issues)
    * [Eliminazione](#deletion)
    * [Date effettive](#actual-dates)
 
-      <!--   
+     <!--   
      <li><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>   
      -->
 
@@ -95,20 +94,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Data di inizio delle nuove attività</td> 
-      <td> <p>Determina la data di inizio predefinita per le nuove attività per i project manager. La data di inizio per le nuove attività può essere la data di inizio pianificata del progetto o il giorno in cui l'attività viene creata.</p> </td> 
+      <td role="rowheader">Data di inizio per le nuove attività</td> 
+      <td> <p>Determina la data di inizio predefinita per le nuove attività dei project manager. La data di inizio per le nuove attività può essere la data di inizio pianificata del progetto o il giorno in cui l'attività viene creata.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Tipo di Durata </p> </td> 
-      <td> <p>Determina la relazione tra il numero di risorse (e la relativa percentuale di allocazione) e la durata o lo sforzo totale per l'attività. Per ulteriori informazioni, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Tipi di durata e durata dell’attività</a></p> </td> 
+      <td> <p>Determina la relazione tra il numero di risorse (e la relativa percentuale di allocazione) e la durata o l'impegno totale per l'attività. Per ulteriori informazioni, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Tipi di durata e durata task: indice articolo</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo di Reddito</td> 
-      <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando il <strong>Tipo di ricavo</strong> è impostato su<strong>Non fatturabile</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p> </td> 
+      <td> <p>Calcola le stime dei ricavi pianificati ed effettivi per un'attività. Quando <strong>Tipo di retribuzione</strong> è impostato su<strong>Non Fatturabile</strong>, le ore pianificate e quelle effettive registrate non generano una stima dei ricavi per l'attività e il lavoro sull'attività non contribuisce ai ricavi a livello di progetto.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo Cst</td> 
-      <td> <p>Calcola le stime dei costi pianificati ed effettivi per un'attività. Quando è impostato su <strong>Nessun costo</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei costi prevista o effettiva per l'attività e il lavoro sull'attività non contribuisce ai costi a livello di progetto.</p> </td> 
+      <td> <p>Calcola le stime dei costi pianificati ed effettivi per un'attività. Se impostato su <strong>Nessun costo</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei costi pianificati o effettivi per l'attività e il lavoro relativo all'attività non contribuisce ai costi a livello di progetto.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -121,30 +120,30 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <tbody> 
      <tr> 
       <td role="rowheader">Aggiorna automaticamente lo stato del problema risolvibile quando lo stato dell'oggetto risolutivo cambia</td> 
-      <td> <p>Quando un problema viene convertito in un progetto o un'attività, sia il problema originale che il progetto o l'attività convertiti diventano la risoluzione degli oggetti. Questa impostazione consente di correlare la risoluzione del problema originale alla risoluzione del relativo oggetto risolvibile. Per ulteriori informazioni sulla risoluzione degli oggetti, vedere <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Panoramica sulla risoluzione e risoluzione di oggetti </a>.</p> <p>Affinché questa impostazione abbia effetto, è possibile <strong>Mantenere il problema originale e legarne la risoluzione all'attività</strong> deve essere selezionato.</p> 
+      <td> <p>Quando un utente converte un problema in un progetto o in un’attività, sia il problema originale che il progetto o l’attività convertiti diventano oggetti di risoluzione. Questa impostazione consente di correlare la risoluzione del problema originale alla risoluzione del relativo oggetto risolvibile. Per ulteriori informazioni sulla risoluzione degli oggetti, vedere <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Panoramica sugli oggetti risolvibili e risolvibili </a>.</p> <p>Affinché questa impostazione abbia effetto, l'opzione <strong>Mantieni il problema originale e collegane la risoluzione all'attività</strong> deve essere selezionato.</p> 
        <ul> 
-        <li>Quando questa impostazione è abilitata, puoi creare stati personalizzati con la stessa chiave sia per i problemi che per i progetti o le attività. Quando il progetto o l'attività (come oggetto risolvibile) si trasforma in stato personalizzato, la modifica si riflette anche sullo stato del problema. La chiave di stato deve essere la stessa per il problema e lo stato del progetto o dell'attività.</li> 
-        <li>Se questa impostazione è disabilitata, lo stato di risoluzione degli oggetti viene impostato automaticamente sullo stato predefinito, anziché su quello personalizzato. Per ulteriori informazioni sugli stati predefiniti, consulta <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Accedere all’elenco degli stati dei problemi del sistema</a>.</li> 
+        <li>Quando questa impostazione è abilitata, puoi creare stati personalizzati con la stessa chiave sia per i problemi che per i progetti o le attività. Quando il progetto o l’attività (come oggetto risolvibile) diventa lo stato personalizzato, la modifica si riflette anche sullo stato del problema. La chiave dello stato deve essere la stessa per lo stato del problema e per quello del progetto o dell’attività.</li> 
+        <li>Quando questa impostazione è disattivata, gli stati degli oggetti di risoluzione vengono impostati automaticamente sullo stato predefinito, anziché su quelli personalizzati. Per ulteriori informazioni sugli stati predefiniti, consulta <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Accedere all’elenco degli stati dei problemi di sistema</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Durante la conversione di un problema in un’attività</td> 
+      <td role="rowheader">Quando si converte un problema in un'attività</td> 
       <td> <p>Le impostazioni in questa sezione determinano cosa accade durante il processo di conversione da un problema all’altro:</p> 
        <ul> 
-        <li><strong>Mantenere il problema originale e legarne la risoluzione all'attività</strong>: Durante la conversione, il problema rimane visibile come problema fino al completamento dell’attività. Lo stato del problema cambia automaticamente in Chiuso al completamento dell'attività.</li> 
-        <li><strong>Consenti accesso all'attività al contatto primario</strong>: Consente al contatto principale (creatore di problemi) di accedere all’attività per rivedere l’attività, effettuare aggiornamenti e rimanere informato dei suoi progressi</li> 
-        <li> <p><strong>Consenti la modifica di queste impostazioni durante la conversione</strong>: Consente all’utente che sta convertendo il problema di modificare queste opzioni durante la conversione di un problema in un’attività.</p> <!--
+        <li><strong>Mantieni il problema originale e collegane la risoluzione all'attività</strong>: durante la conversione del problema, questo rimane visibile come problema fino al completamento dell’attività. Lo stato del problema diventa automaticamente Chiuso al completamento dell’attività.</li> 
+        <li><strong>Consenti al contatto principale di accedere all'attività</strong>: consente al contatto principale (autore del problema) di accedere all’attività per rivederla, apportare aggiornamenti e rimanere informato sul suo avanzamento</li> 
+        <li> <p><strong>Consenti la modifica di queste impostazioni durante la conversione</strong>: consente all’utente che converte il problema di modificare queste opzioni durante la conversione di un problema in un’attività.</p> <!--
           Screenshot when possible</p>
          --> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Durante la conversione di un problema in un progetto</td> 
+      <td role="rowheader">Quando si converte un problema in un progetto</td> 
       <td> <p>Le impostazioni in questa sezione determinano cosa accade durante il processo di conversione da un problema all’altro:</p> 
        <ul> 
-        <li><strong>Mantenere il problema originale e legarne la risoluzione al progetto</strong>: Durante la conversione, il problema rimane visibile come problema fino al completamento del progetto. Al termine del progetto, lo stato del problema diventa automaticamente Chiuso .</li> 
-        <li><strong>Consenti l'accesso al progetto al contatto primario</strong>: Consente al contatto principale (creatore di problemi) di accedere al progetto per rivedere il progetto, effettuare aggiornamenti e rimanere informato dei suoi progressi.</li> 
-        <li><strong>Consenti la modifica di queste impostazioni durante la conversione</strong>: Consente all’utente che sta convertendo il problema di modificare le opzioni elencate durante la conversione di un problema in un progetto.</li> 
+        <li><strong>Mantieni il problema originale e collegane la risoluzione al progetto</strong>: durante la conversione del problema, questo rimane visibile come problema fino al completamento del progetto. Lo stato del problema diventa automaticamente Chiuso al completamento del progetto.</li> 
+        <li><strong>Consenti al contatto principale di accedere al progetto</strong>: consente al contatto principale (autore del problema) di accedere al progetto per esaminarlo, aggiornarlo e tenersi informato sui suoi progressi.</li> 
+        <li><strong>Consenti la modifica di queste impostazioni durante la conversione</strong>: consente all’utente che converte il problema di modificare le opzioni elencate durante la conversione di un problema in un progetto.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -158,13 +157,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <tbody> 
      <tr> 
       <td role="rowheader">Consenti agli utenti di eliminare le attività e i problemi con ore registrate</td> 
-      <td> <p> Consente di determinare se consentire l'eliminazione di attività o problemi in cui vengono registrate ore. Questa opzione è selezionata per impostazione predefinita.</p> 
+      <td> <p> Consente di determinare se consentire l’eliminazione di attività o problemi in cui sono registrate le ore. Questa opzione è selezionata per impostazione predefinita.</p> 
        <div> 
-        <p><b>Suggerimento</b>: Questa impostazione si applica anche all’eliminazione di progetti che hanno attività o problemi con ore di accesso. Questa impostazione non si applica all’eliminazione di progetti in cui il tempo viene registrato direttamente per il progetto. </p> 
+        <p><b>Suggerimento</b>: questa impostazione si applica anche all’eliminazione di progetti con attività o problemi con ore collegate. Questa impostazione non si applica all’eliminazione di progetti in cui il tempo viene registrato direttamente per il progetto. </p> 
         <p>Considera quanto segue:</p> 
         <ul> 
-         <li> <p>Quando è selezionata, viene visualizzato un avviso informativo quando si elimina un'attività o un problema. L’avviso ti ricorda che se l’attività o il problema ha registrato ore, verranno spostati nel progetto o eliminati. È possibile configurare se le ore vengono eliminate o spostate nel progetto nell'area Preferenze foglio presenze e ore dell'impostazione. Dopo aver confermato di aver visualizzato l’avviso, l’attività o il problema viene eliminato. Per ulteriori informazioni sulla configurazione delle preferenze per schede attività e ore, vedere <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurare le preferenze relative a schede attività e ora</a>. </p> <p>Suggerimento: <span>Quando si elimina un progetto con attività e problemi che hanno registrato ore, le ore registrate vengono eliminate o mantenute in base alle impostazioni nell'area Preferenze foglio presenze e ore di Configurazione</span>. </p> </li> 
-         <li><span>Quando si deseleziona questa opzione, viene visualizzato un avviso di divieto quando si elimina un'attività o un problema relativo alle ore registrate oppure quando si elimina un progetto con ore registrate per le attività o i problemi relativi</span> <span>.</span> L'avviso specifica che l'amministratore non consente l'eliminazione di attività o problemi relativi alle ore registrate. Compiti, problemi<span>, o progetti con ore di registrazione per attività e problemi</span> non può essere eliminato. </li> 
+         <li> <p>Quando viene selezionato, quando si elimina un'attività o un problema si riceve un avviso informativo. L’avviso ricorda che se l’attività o il problema ha registrato ore, queste verranno spostate nel progetto o eliminate. Puoi configurare se le ore vengono eliminate o spostate nel progetto nell’area Preferenze scheda orario e ore della Configurazione. Dopo aver confermato di aver visualizzato l’avviso, l’attività o il problema viene eliminato. Per ulteriori informazioni sulla configurazione delle preferenze per i Timesheet e le ore, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurare le preferenze di orario e scheda orario</a>. </p> <p>Suggerimento <span>Quando elimini un progetto con attività e problemi che hanno registrato ore, le ore registrate vengono eliminate o vengono mantenute in base alle impostazioni nell’area Preferenze scheda orario e ore della Configurazione</span>. </p> </li> 
+         <li><span>Quando deselezioni questa opzione, viene visualizzato un avviso proibitivo quando elimini un’attività o un problema con ore registrate, o quando elimini un progetto con ore registrate per le relative attività o problemi</span> <span>.</span> L'avviso specifica che l'amministratore non consente l'eliminazione di attività o problemi con ore registrate. Le attività, i problemi<span>, o progetti per i quali sono state registrate ore per attività e problemi</span> non può essere eliminato. </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -178,19 +177,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Quando un'attività o un problema va da "Nuovo" a "In corso", impostare la data di inizio effettiva su</td> 
-      <td> <p>Selezionare una delle opzioni seguenti per quando la data di inizio effettivo viene registrata in Workfront quando un'attività o un problema viene generato <strong>Nuovo</strong> a <strong>In corso</strong>:</p> 
+      <td role="rowheader">Quando un'attività o un problema passa dallo stato "Nuovo" a "In corso", imposta la data di inizio effettiva su</td> 
+      <td> <p>Selezionare una delle seguenti opzioni per la registrazione della data di inizio effettiva in Workfront quando un'attività o un problema inizia <strong>Nuovo</strong> a <strong>In corso</strong>:</p> 
        <ul> 
-        <li><strong>Ora:</strong> La data di inizio effettivo è impostata sulla data corrente.</li> 
-        <li><strong>La Data Di Inizio Pianificata:</strong> La data di inizio effettiva è impostata sulla data di inizio pianificata dell'attività o del problema.</li> 
+        <li><strong>Ora:</strong> La data di inizio effettiva viene impostata sulla data corrente.</li> 
+        <li><strong>La data di inizio pianificata:</strong> La Data di inizio effettiva è impostata sulla Data di inizio pianificata dell’attività o del problema.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Quando un'attività o un problema è completato, impostare la data di completamento effettiva su</td> 
-      <td> <p>Selezionare una delle opzioni seguenti per la registrazione della data di completamento effettiva in Workfront al completamento di un'attività o di un problema:</p> 
+      <td role="rowheader">Quando un'attività o un problema è completato, imposta la Data di completamento effettiva su</td> 
+      <td> <p>Seleziona una delle seguenti opzioni per quando la Data di completamento effettiva viene registrata in Workfront al completamento di un'attività o di un problema:</p> 
        <ul> 
-        <li><strong>Ora:</strong> La data di completamento effettivo è impostata sulla data corrente.</li> 
-        <li> <p><strong>La Data Di Completamento Pianificata:</strong> La data di completamento effettivo è impostata sulla data di completamento pianificata dell'attività o del problema.</p> </li> 
+        <li><strong>Ora:</strong> La data di completamento effettiva è impostata sulla data corrente.</li> 
+        <li> <p><strong>La data di completamento pianificata:</strong> La Data di completamento effettiva è impostata sulla Data di completamento pianificata dell’attività o del problema.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -227,27 +226,27 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Quando un utente viene assegnato a un'attività</td> 
+      <td role="rowheader">Quando a un utente viene assegnata un'attività</td> 
       <td> 
        <ul> 
-        <li><strong>Dare loro ... accesso a un'attività</strong>: Definisce l'autorizzazione predefinita di un utente per l'attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni delle attività, consulta<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Concedere l’accesso agli utenti</a>.</li> 
-        <li> <p><strong>Consentire loro ... di accedere al progetto</strong>: Definisce l'autorizzazione predefinita di un utente al progetto a cui è assegnato un task. Per ulteriori informazioni sulle autorizzazioni del progetto, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </li> 
+        <li><strong>Concedi loro l'accesso a un'attività</strong>: definisce l’autorizzazione predefinita di un utente per l’attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni per le attività, consulta<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Concedere l’accesso agli utenti</a>.</li> 
+        <li> <p><strong>Concedi loro anche ... l'accesso al progetto</strong>: definisce l’autorizzazione predefinita di un utente per il progetto al quale è stata assegnata un’attività. Per ulteriori informazioni sulle autorizzazioni per i progetti, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Quando un utente viene assegnato a un problema</td> 
+      <td role="rowheader">Quando a un utente viene assegnato un problema</td> 
       <td> 
        <ul> 
-        <li><strong>Dare loro ... accesso a un'attività</strong>: Definisce l'autorizzazione predefinita di un utente per l'attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni delle attività, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</li> 
-        <li> <p><strong>Consentire loro ... di accedere al progetto</strong>: Definisce l'autorizzazione predefinita di un utente al progetto a cui è assegnato un task. Per ulteriori informazioni sulle autorizzazioni del progetto, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze del progetto a livello di sistema</a>.</p> </li> 
+        <li><strong>Concedi loro l'accesso a un'attività</strong>: definisce l’autorizzazione predefinita di un utente per l’attività a cui è assegnato. Per ulteriori informazioni sulle autorizzazioni per le attività, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</li> 
+        <li> <p><strong>Concedi loro anche ... l'accesso al progetto</strong>: definisce l’autorizzazione predefinita di un utente per il progetto al quale è stata assegnata un’attività. Per ulteriori informazioni sulle autorizzazioni per i progetti, consulta <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configurare le preferenze di progetto a livello di sistema</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Quando qualcuno invia una richiesta</td> 
       <td> 
        <ul> 
-        <li><strong>Dare loro ... accesso al problema</strong>: Definisce l'autorizzazione predefinita di un utente per una richiesta inviata. Per ulteriori informazioni, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema</a>.</li> 
-        <li> <p><strong>Le persone della stessa società erediteranno le stesse autorizzazioni per tutte le richieste</strong>: Consente agli utenti di visualizzare le richieste inviate da altri utenti della stessa società. Hanno le stesse autorizzazioni per queste richieste che hanno per le proprie richieste inviate.</p> </li> 
+        <li><strong>Concedi loro ... l'accesso al problema</strong>: definisce l’autorizzazione predefinita di un utente per una richiesta inviata. Per ulteriori informazioni, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Condividere un problema</a>.</li> 
+        <li> <p><strong>Le persone della stessa società erediteranno le stesse autorizzazioni per tutte le richieste</strong>: consente agli utenti di visualizzare le richieste inviate da altri utenti della stessa società. Su tali richieste dispongono delle stesse autorizzazioni delle proprie richieste inviate.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

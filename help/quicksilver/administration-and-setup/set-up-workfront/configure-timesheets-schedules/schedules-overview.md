@@ -6,11 +6,11 @@ keywords: utente,pianificazione
 navigation-topic: configure-timesheets-and-schedules
 title: Panoramica sugli Schedules
 description: È possibile definire la settimana lavorativa utilizzando le programmazioni. È possibile associare una pianificazione a un utente o a un progetto. Ciò consente [!DNL Adobe Workfront] per calcolare le timeline e la disponibilità dell’utente. Per istruzioni, consulta Creare una pianificazione.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: b3ec7af8032e077736df1f48a9a4990b8c11922f
+source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 # Panoramica sugli Schedules
 
+<!-- Audited: 1/2024 -->
+
 È possibile definire la settimana lavorativa utilizzando le programmazioni e associare una programmazione a un utente o a un progetto. Ciò consente [!DNL Adobe Workfront] per calcolare le timeline e la disponibilità dell’utente. Per istruzioni, consulta [Creare una pianificazione](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Quando si lavora con le pianificazioni in Workfront, considera quanto segue:
 
 * Il [!DNL Workfront] l’amministratore identifica le ore di funzionamento dell’organizzazione in una pianificazione.
 
-  Analogamente, un amministratore di gruppo può identificare le ore di funzionamento di una pianificazione amministrata da un gruppo che gestisce.
-
-  Per ulteriori informazioni sugli amministratori di gruppi, consulta [Amministratori di gruppi](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+  Analogamente, un amministratore di gruppo può identificare le ore di funzionamento di una pianificazione amministrata da un gruppo che gestisce. Per ulteriori informazioni sugli amministratori di gruppi, consulta [Amministratori di gruppi](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
   Ad esempio, una pianificazione può essere definita come: dal lunedì al venerdì, dalle 8 alle 17, con una pausa pranzo.
 
