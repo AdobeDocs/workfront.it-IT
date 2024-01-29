@@ -7,14 +7,16 @@ description: Scopri come calcolare le differenze di data e ora.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
+source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '610'
 ht-degree: 0%
 
 ---
 
 # Visualizza: calcolo delle differenze di data e ora
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 0%
 Puoi calcolare la differenza tra i seguenti:
 
 * Differenza di data e ora tra due campi data sullo stesso oggetto
-* Differenza di data e ora tra il campo di un oggetto e un altro campo dell&#39;oggetto padre
+* Differenza di data e ora tra un campo di un oggetto e un altro campo dell&#39;oggetto padre
 
 >[!TIP]
 >
@@ -38,34 +40,33 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta di modifica di una vista </p>
-   <p>Pianificare la modifica di un rapporto</p> </td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td> <p>Nuovo: </p><ul><li><p>Collaboratore per modificare una visualizzazione </p></li><li>
+   <p>Standard per modificare un rapporto</p></li></ul><p>Oppure</p><p>Corrente:</p><ul><li><p>Richiesta di modifica di una vista </p></li><li>
+   <p>Pianificare la modifica di un rapporto</p> </li><ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> <p><b>NOTA</b>
-
-Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
-</tr>  
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari per modificare un rapporto</p> <p>Modificare l'accesso a Filtri, Viste, Raggruppamenti per modificare una vista</p> </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Calcola la differenza di data e ora tra due campi data sullo stesso oggetto
 
 È ad esempio possibile calcolare la differenza tra la data di completamento pianificata e la data di completamento effettiva di un&#39;attività.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-350x92.png)
+![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Consente di passare a un elenco di attività.
 1. Dalla sezione **Visualizza** menu a discesa, fai clic su **Nuova visualizzazione**.
@@ -80,7 +81,12 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 1. Rimuove il testo trovato in **Modalità testo** e sostituirlo con il seguente codice:
 
    ```
-   displayname=Planned-Actual Completion Date<br>linkedname=direct<br>querysort=plannedCompletionDate<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)<br>valueformat=HTML
+    displayname=Planned-Actual Completion Date
+    linkedname=direct
+    querysort=plannedCompletionDate
+    textmode=true
+    valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)
+    valueformat=HTML
    ```
 
 1. Clic **Salva**, quindi **Salva visualizzazione**.
@@ -90,7 +96,7 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 Per un elenco degli oggetti e dei relativi elementi padre, vedere la sezione &quot;Informazioni sull&#39;interdipendenza e sulla gerarchia degli oggetti&quot; in [Comprendere gli oggetti in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 È ad esempio possibile calcolare la differenza tra la data di completamento pianificata di un&#39;attività e la data di completamento pianificata dell&#39;attività padre o del progetto a cui appartiene l&#39;attività.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-350x184.png)
+![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Consente di passare a un elenco di attività.
 1. Dalla sezione **Visualizza** menu a discesa, fai clic su **Nuova visualizzazione**.
@@ -107,13 +113,18 @@ Per un elenco degli oggetti e dei relativi elementi padre, vedere la sezione &qu
    * Per visualizzare la differenza tra la data di completamento pianificata del progetto e quella dell&#39;attività:
 
      ```
-     displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+      displayname=Project Planned Completion - Task Planned Completion (Days)
+      textmode=true
+      valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      valueformat=HTML
      ```
 
    * Per visualizzare la differenza tra la data di completamento pianificata dell&#39;attività padre e quella dell&#39;attività:
 
      ```
-     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      textmode=true<br>valueformat=HTML
+      displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
 1. Clic **Salva**, quindi **Salva visualizzazione**.
