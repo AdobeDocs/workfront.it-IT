@@ -7,16 +7,20 @@ description: Quando visualizzi il grafico di visualizzazione della capacità del
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
 
 # Visualizzare la visualizzazione Capacità risorse in Analisi avanzate
 
+<!--Audited: 01/2024-->
+
 Quando visualizzi il grafico di visualizzazione della capacità delle risorse di analisi avanzate in Adobe Workfront, puoi valutare se un team è al di sopra, al di sotto o al limite della capacità.
+
+I team illustrati nella visualizzazione delle risorse si riferiscono al team principale di utenti assegnati al lavoro durante il periodo di tempo specificato.
 
 ## Requisiti di accesso
 
@@ -56,9 +60,9 @@ Devi avere i seguenti:
 
 Per i prerequisiti per utilizzare Enhanced Analytics, consulta la sezione &quot;Prerequisiti&quot; in [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Comprendere il grafico Capacità risorse
+## Comprendere la visualizzazione Capacità risorse
 
-Il grafico Capacità risorse mostra se un team è al di sopra, al di sotto o alla capacità. Questo calcolo si basa su:
+La visualizzazione Capacità risorse mostra se un team è al di sopra, al di sotto o alla capacità. Questo calcolo si basa su:
 
 * **Capacità disponibile**: la quantità totale di ore che un team predefinito ha a disposizione per lavorare nel periodo di tempo filtrato
 
@@ -90,24 +94,25 @@ Nella visualizzazione Capacità risorse puoi visualizzare i seguenti dettagli:
 
   ![](assets/resource-capacity-under-capacity.png)
 
-Passando il cursore sopra una riga, viene visualizzato il numero esatto di ore per la capacità pianificata e la capacità disponibile, nonché il numero di ore in cui il team predefinito ha una capacità eccessiva o insufficiente.
+Passando il mouse sulla riga di un team, viene visualizzato il numero esatto di ore per la capacità pianificata e la capacità disponibile, nonché il numero di ore in cui il team principale ha una capacità eccessiva o insufficiente.
 
 La visualizzazione di queste informazioni consente di determinare:
 
-* Se la squadra principale è stata sovrassegnata o sottoassegnata.
-* I progetti più grandi erano quelli su cui si concentrava il team interno.
-* Quali team principali sono disponibili per il lavoro.
+* Se il team è sovrassegnato o sottoassegnato.
+* Quali sono i progetti più grandi su cui si concentra il team interno?
+* Quali team sono disponibili per il lavoro.
 
 Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta [Panoramica di analisi avanzate](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visualizzare la visualizzazione Capacità risorse
 
-1. Fai clic sull’icona Menu principale ![](assets/main-menu-icon-16x12.png), quindi seleziona **Analytics**.
+{{step1-to-analytics}}
+
 1. Nel pannello a sinistra, seleziona **Persone**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. (Facoltativo) Per utilizzare un intervallo di date diverso, seleziona nuove date di inizio e fine dal filtro dell’intervallo di date.
+1. (Facoltativo) Per utilizzare un intervallo di date diverso, seleziona nuove date di inizio e fine dal filtro dell’intervallo di date nell’angolo superiore destro del grafico.
 
    ![](assets/filters-select-date-range-350x344.png)
 
@@ -125,11 +130,19 @@ Per scoprire come ottenere i dati migliori per questa visualizzazione, consulta 
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. Passa il cursore del mouse sulla riga del team predefinito per vedere quante ore sono ancora disponibili da programmare, la quantità di ore pianificate per il completamento da parte del team principale e il numero totale di ore lavorate, etichettate come al di sopra, al di sotto o alla capacità.
+1. Passa il puntatore del mouse sulla riga del team principale per visualizzare quanto segue:
+
+   * Quante ore sono ancora disponibili da pianificare
+   * La quantità di ore pianificate per il completamento del team predefinito
+   * Numero totale di ore lavorate. Il numero totale di ore lavorate potrebbe avere le seguenti etichette:
+
+      * Oltre
+      * Sotto
+      * Alla capacità.
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 
-1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sul pulsante **Icona Esporta** ![](assets/export.png) nell’angolo in alto a destra della visualizzazione, seleziona il formato di esportazione:
+1. (Facoltativo) Per esportare i dati di visualizzazione, fai clic sul pulsante **Icona Esporta** ![](assets/export.png) nell’angolo superiore destro della visualizzazione, seleziona il formato di esportazione:
 
    * **Grafico (PNG)**
    * **Tabella dati (XSLX)**

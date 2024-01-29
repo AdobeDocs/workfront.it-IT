@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '888'
 ht-degree: 1%
@@ -107,7 +107,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 È possibile modificare un record dalle seguenti aree:
 
 * [Dalla pagina Dettagli di un record](#edit-a-record-from-the-records-details-page)
-* [Dalla vista tabella di un tipo di record](#edit-a-record-from-the-record-type-table-view)
+* [Dalla vista tabella di un tipo di record](#edit-a-record-from-the-table-view-of-a-record-type)
 
 ### Modificare un record dalla pagina Dettagli del record
 
@@ -181,3 +181,5 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
    * CTRL + Z (⌘ + Z per Mac) per annullare una modifica
    * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripetere una modifica
+<!--
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->

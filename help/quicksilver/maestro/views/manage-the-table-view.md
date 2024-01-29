@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
 workflow-type: tm+mt
 source-wordcount: '2316'
 ht-degree: 3%
@@ -222,6 +222,9 @@ Puoi avere fino a 10.000 record (o righe) per un tipo di record in Maestro.
 
    I record aggiunti nella vista tabella vengono salvati immediatamente e sono visibili a tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
 
+   <!--1. (Optional) Add a thumbnail to each record, then click **Fields** in the upper-right corner of the table, and select the toggle for the Thumbnail field to display it to the left of the primary field. It is deselected by default. 
+        For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+
 1. (Facoltativo) Seleziona uno o più record in una riga, quindi trascina e rilascia la **maniglia** icona ![](assets/handle-icon.png) a sinistra del nome del record per riordinare le righe.
 
    >[!NOTE]
@@ -235,9 +238,9 @@ Puoi avere fino a 10.000 record (o righe) per un tipo di record in Maestro.
         The changes you make to the row order are permanent and visible to all users who access the record type
     -->
 
-### Aggiungere filtri {#add-filters}
+<!-- this section below links from the timeline view; consider splitting them if they become different-->
 
-<!-- this section links from the timeline view; consider splitting them if they become different-->
+### Aggiungere filtri {#add-filters}
 
 I filtri consentono di ridurre la quantità di informazioni visualizzate sullo schermo.
 

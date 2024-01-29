@@ -1,0 +1,140 @@
+---
+title: Aggiungi miniature ai record
+description: È possibile modificare le informazioni del record in Adobe Maestro e associare ciascun record alle singole miniature, per renderle facilmente riconoscibili.
+hidefromtoc: true
+hide: true
+recommendations: noDisplay, noCatalog
+source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+workflow-type: tm+mt
+source-wordcount: '559'
+ht-degree: 0%
+
+---
+
+<!--update the metadata with real information-->
+
+# Aggiungi miniature ai record
+
+>[!IMPORTANT]
+>
+>Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro, una nuova offerta di Adobe Workfront.
+>
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare le funzionalità Maestro, devi essere un cliente Workfront.
+>
+>Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
+>
+>Per informazioni, consulta [Panoramica di Adobe Maestro](../maestro-overview.md).
+
+È possibile associare record a miniature univoche in Adobe Maestro, per renderle facilmente riconoscibili.
+
+È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
+Per informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
+
+## Requisiti di accesso
+
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Prodotto</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
+   <td>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>piano Adobe Workfront</p></td>
+   <td>
+<p>Qualsiasi</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
+   <td>
+   <p>Qualsiasi</p> 
+  </td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
+   <td> <p>Non ci sono controlli di accesso per Maestro </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Autorizzazioni</p></td>
+   <td> <p>Visualizzare o modificare le autorizzazioni per un'area di lavoro </p>  
+   <p>Autorizzazioni di visualizzazione o di livello superiore per la vista tabella </p> 
+   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Modello di layout</p></td>
+   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+</td>
+  </tr>
+
+</tbody>
+</table>
+
+
+## Considerazioni sulle miniature dei record
+
+Per distinguere visivamente i record in una vista tabella, è possibile associare a ciascun record un&#39;immagine miniatura univoca.
+
+Considera quanto segue:
+
+* È possibile aggiungere solo file di immagine come miniature.
+* È possibile aggiungere un&#39;immagine di anteprima ai singoli record nella visualizzazione per tabella.
+* Non è possibile aggiungere miniature di record dalla pagina Dettagli del record o nella visualizzazione timeline.
+* L&#39;immagine di anteprima viene sempre visualizzata a sinistra del campo primario di ciascun record, indipendentemente dal tipo di campo.
+
+  I campi costituiti da testo a riga singola, numeri o formule possono essere designati come campi primari.
+Per ulteriori informazioni, consulta [Gestire la vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+<!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+
+## Aggiungere una miniatura a un record
+
+{{step1-to-maestro}}
+
+1. Selezionare l&#39;area di lavoro per i cui record si desidera aggiungere le miniature, quindi fare clic sulla scheda del tipo di record.
+
+   Verrà aperta la pagina del tipo di record.
+1. Selezionare una vista tabella dal menu **Visualizza** menu a discesa. Tutti i record del tipo selezionato vengono visualizzati in una tabella.
+1. Passa il puntatore del mouse sulle informazioni del campo principale, fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Miniatura**.
+
+   ![](assets/record-more-menu-expanded.png)
+
+   >[!TIP]
+   >
+   >   Il campo principale è il campo che viene visualizzato nella prima colonna di una visualizzazione tabella. Il campo principale è sempre bloccato e non può essere nascosto o spostato.
+
+   Il **Miniatura record** viene visualizzata la casella.
+
+   ![](assets/record-thumbnail-box-for-upload.png)
+
+   <!--update screen shot with correct casing-->
+
+1. In **Carica** , trascinare e rilasciare un file da aggiungere come miniatura o fare clic su **Seleziona per caricare**, quindi cerca un file di immagine da aggiungere. Il file deve essere salvato nel computer.
+1. (Facoltativo) Usate lo strumento di ridimensionamento per ritagliare e ridimensionare l&#39;immagine.
+1. Clic **Usa immagine** per aggiungere l&#39;immagine come miniatura.
+Questo chiude il **Miniatura record** casella.
+1. Fare clic su Campi nell&#39;angolo superiore destro della visualizzazione tabella.
+1. Seleziona la **Miniatura** per visualizzare la miniatura. Questa opzione è deselezionata per impostazione predefinita.
+
+   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
+
+   La miniatura viene visualizzata a sinistra del valore del campo primario.
+1. (Facoltativo) Per rimuovere la miniatura, passa il cursore sul campo principale e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png)> **Miniatura** > il **Rimuovi** icona ![](assets/remove-image-icon.png), quindi fai clic su **Salva modifiche**.
