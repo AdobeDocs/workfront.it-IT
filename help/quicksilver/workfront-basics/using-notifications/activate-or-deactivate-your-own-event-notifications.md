@@ -7,14 +7,16 @@ description: Questo articolo descrive come gestire le notifiche e-mail nel profi
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '609'
 ht-degree: 0%
 
 ---
 
 # Modifica le tue notifiche e-mail
+
+<!-- Audited: 1/2024 -->
 
 Adobe [!DNL Workfront] l’amministratore configura le notifiche e-mail ricevute dagli utenti quando si verificano eventi in Workfront (come descritto in [[!UICONTROL Configura evento] notifiche per tutti gli utenti del sistema](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
@@ -41,17 +43,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
+   <td>  <p>Nuovo:</p> 
+   <ul><li>Collaboratore o versione successiva</li></ul>
+   <p>Corrente:</p>
+   <ul><li>Request or Higher</li></ul>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visualizzare e modificare le impostazioni delle notifiche e-mail
 

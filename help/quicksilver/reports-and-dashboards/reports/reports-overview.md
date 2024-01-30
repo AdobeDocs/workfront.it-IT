@@ -3,19 +3,21 @@ content-type: reference;overview
 product-area: reporting
 navigation-topic: reports-and-dashboards
 title: Report
-description: Esamina queste aree per comprendere come utilizzare la generazione rapporti in Adobe Workfront.
+description: Esamina queste aree per scoprire come generare rapporti in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 3%
+source-wordcount: '62'
+ht-degree: 1%
 
 ---
 
-# Report
+# Rapporti: indice degli articoli
+
+<!-- Audited: 1/2024 -->
 
 Questa sezione contiene le seguenti sottosezioni:
 
@@ -29,5 +31,3 @@ Questa sezione contiene le seguenti sottosezioni:
 * [Panoramica sull’utilizzo dei rapporti](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [Calendari: indice articoli](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [Suggerimenti, trucchi e risoluzione dei problemi per i rapporti](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
-
-<!--outdated: For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

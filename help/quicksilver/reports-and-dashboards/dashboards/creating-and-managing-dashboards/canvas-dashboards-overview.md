@@ -1,19 +1,21 @@
 ---
 product-area: dashboards
 navigation-topic: creating-and-managing-dashboards
-title: Panoramica delle dashboard di Canvas
+title: Panoramica dei dashboard di Canvas
 description: Puoi creare dashboard di Canvas che integrano le visualizzazioni di Reporting Canvas con rapporti tradizionali e presentano nuove opzioni di layout.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: da55003a14851d7894693fb95bff866c20938849
+source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
 
 ---
 
-# Panoramica delle dashboard di Canvas
+# Panoramica dei dashboard di Canvas
+
+<!-- Audited: 12/2023 -->
 
 Dashboard di Canvas, una funzione attualmente in fase di sviluppo per i dashboard, offre una nuova opzione per la creazione di dashboard efficaci in Workfront. Le dashboard di Canvas consentono di includere facilmente le visualizzazioni di Reporting Canvas nei rapporti esistenti, offrendo maggiore flessibilità e nuove opzioni di layout.
 
