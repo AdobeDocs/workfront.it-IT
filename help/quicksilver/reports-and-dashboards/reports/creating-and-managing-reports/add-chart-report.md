@@ -6,22 +6,29 @@ description: Puoi migliorare i rapporti aggiungendo un grafico. È possibile agg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2733'
 ht-degree: 0%
 
 ---
 
 # Aggiungere un grafico a un report
 
+<!--Audited: 01/2024-->
+
 Puoi migliorare i rapporti aggiungendo un grafico. È possibile aggiungere grafici ai rapporti esistenti o ai rapporti che si stanno creando.
 
-Prima di aggiungere un grafico a un report, è necessario creare una visualizzazione e un raggruppamento per il report. La maggior parte dei grafici può essere aggiunta solo se le informazioni sono raggruppate nel rapporto. L&#39;unico grafico che può essere aggiunto senza raggruppamento è un grafico a contatori.\
-Per informazioni sulla creazione di una visualizzazione, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).\
+Prima di aggiungere un grafico a un report, è necessario creare una visualizzazione e un raggruppamento per il report.
+
+Non è possibile aggiungere grafici alla maggior parte dei rapporti a meno che non si raggruppino prima le informazioni nel rapporto. L&#39;unico grafico che può essere aggiunto senza raggruppamento è un grafico a contatori.
+
+Per informazioni sulle visualizzazioni, consulta [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
 Per ulteriori informazioni sui raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Se nel report vengono visualizzati troppi elementi, non viene creato un grafico. In questo caso, devi anche aggiungere un filtro al rapporto per ridurre il numero di risultati.\
+Se nel report vengono visualizzati troppi elementi, non viene creato un grafico. In questo caso, devi anche aggiungere un filtro al rapporto per ridurre il numero di risultati.
+
 Per ulteriori informazioni sui filtri, consulta [Panoramica sui filtri](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Requisiti di accesso
@@ -33,33 +40,36 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td> <p>Corrente: Piano </p>
+   Oppure
+   <p>Nuovo: Standard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazione del livello di accesso</td> 
+   <td> <p>Modificare l’accesso a Rapporti, Dashboard, Calendari</p> <p>Modifica accesso a Filtri, Viste, Raggruppamenti</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestire le autorizzazioni per un rapporto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per un rapporto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront. Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aggiungere un grafico a un report
 
 1. Passa a un rapporto esistente o creane uno nuovo. Per ulteriori informazioni sulla creazione di un nuovo rapporto, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. (Condizionale) Se hai visitato un rapporto esistente, fai clic su **Azioni report** > **Modifica**.
 
-1. Assicurati che **Colonne (visualizzazione)** La scheda è stata aggiornata per soddisfare le esigenze del rapporto.\
-   Per informazioni su come creare o modificare la visualizzazione del report, vedere [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. Assicurati che **Colonne (visualizzazione)** La scheda è stata aggiornata per visualizzare le informazioni che si desidera tracciare nel rapporto.
+
+   Per informazioni su come creare o modificare la visualizzazione del report, vedere [Creare o modificare viste in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. Fai clic su **Raggruppamenti** e aggiungere un raggruppamento.
 
@@ -69,13 +79,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >* I raggruppamenti in modalità testo non sono supportati nei grafici. Per ulteriori informazioni sui raggruppamenti in modalità testo, vedere [Modifica modalità testo in un raggruppamento](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Se aggiungi un singolo raggruppamento che rappresenta una metrica, tutti i grafici eccetto un grafico a torta visualizzano ciascuno come risultato del raggruppamento dello stesso colore.
 
-   Per ulteriori informazioni sui raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Per ulteriori informazioni sulla creazione di raggruppamenti, consulta [Creare raggruppamenti in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
 1. Seleziona la **Grafico** scheda.
 1. Fare clic su un tipo di grafico per selezionarlo.\
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. Puoi aggiungere i seguenti tipi di grafici a un rapporto di Adobe Workfront:
+1. Selezionare uno dei seguenti tipi di grafici:
 
    * [Istogramma](#column-chart)
    * [Grafico a barre](#bar-chart)
@@ -100,12 +110,13 @@ Per aggiungere una **Colonna** grafico per il report:
 1. (Facoltativo) **Raggruppa colonne**: seleziona questa opzione per definire il modo in cui desideri raggruppare le colonne.\
    Selezionare una delle opzioni seguenti:
 
-   * Fare clic su una delle opzioni seguenti per selezionare la modalità di visualizzazione delle colonne raggruppate:\
-     **- Affiancato**
-     **- In pila**
-     **- Sovrapposizione al 100%**
+   * Fare clic su una delle opzioni seguenti per selezionare la modalità di visualizzazione delle colonne raggruppate:
 
-   * Selezionare il Raggruppamento che si desidera includere nel grafico.
+      * **Affiancato**
+      * **In pila**
+      * **Sovrapposizione al 100%**
+
+   * Selezionare il Raggruppamento che si desidera includere nel grafico dal **Raggruppa dati per** menu a discesa.
    * (Facoltativo) Seleziona **Colori personalizzati** per personalizzare i colori delle colonne.\
      Per ulteriori informazioni sulla personalizzazione dei colori dei grafici, vedere [Personalizzare i colori del grafico](#customize-chart-colors).
 
@@ -129,15 +140,16 @@ Per aggiungere una **Barre** grafico per il report:
    Per ulteriori informazioni sulla personalizzazione dei colori dei grafici, vedere [Personalizzare i colori del grafico](#customize-chart-colors).
 
 1. (Facoltativo) Seleziona **Mostra in 3D** per visualizzare il grafico in una visualizzazione tridimensionale.
-1. (Facoltativo) Raggruppa barre**: selezionare questa opzione per definire la modalità di raggruppamento delle barre.\
+1. (Facoltativo) Seleziona **Raggruppa barre** per definire la modalità di raggruppamento delle barre.\
    Selezionare una delle opzioni seguenti:
 
-   * Fare clic su una delle opzioni seguenti per selezionare la modalità di visualizzazione delle barre raggruppate:\
-     **- Affiancato**
-     **- In pila**
-     **- Sovrapposizione al 100%**
+   * Fare clic su una delle opzioni seguenti per selezionare la modalità di visualizzazione delle barre raggruppate:
 
-   * Selezionare il Raggruppamento che si desidera includere nel grafico.
+      * **Affiancato**
+      * **In pila**
+      * **Sovrapposizione al 100%**
+
+   * Selezionare la modalità di raggruppamento delle informazioni nel grafico da **Raggruppa dati per** menu a discesa.
    * (Facoltativo) Seleziona **Colori personalizzati** per personalizzare i colori delle colonne.\
      Per ulteriori informazioni sulla personalizzazione dei colori dei grafici, vedere [Personalizzare i colori del grafico](#customize-chart-colors).
 

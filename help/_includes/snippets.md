@@ -1,7 +1,7 @@
 ---
-source-git-commit: 6a6906419058c398ee7b780b2f05f45b90975df9
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2285'
+source-wordcount: '2356'
 ht-degree: 0%
 
 ---
@@ -203,7 +203,7 @@ Per impostare le cartelle collegate:
          </td>
       </tr>
       <tr>
-         <td>Impostare una scadenza
+         <td>Imposta una scadenza
          </td>
          <td>
       <ol>
@@ -248,6 +248,18 @@ Per impostare le cartelle collegate:
 ## Passaggio 1 - Come arrivare a Maestro - {#step1-to-maestro}
 
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Maestro]**.
+
+## Maestro importante intro - {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro, una nuova offerta di Adobe Workfront.
+>
+>Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare le funzionalità Maestro, devi essere un cliente Workfront.
+>
+>Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
+>
+>Per ulteriori informazioni su Maestro, consulta [Panoramica di Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

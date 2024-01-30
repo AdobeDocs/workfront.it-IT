@@ -4,20 +4,26 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: In un modulo personalizzato è possibile creare un campo personalizzato calcolato che genera calcoli. A questo scopo, è necessario creare un'istruzione che utilizzi espressioni di dati e i nomi dei campi esistenti, che possono essere campi personalizzati, campi di dati personalizzati calcolati e campi Workfront incorporati. Questa istruzione calcola i dati immessi e visualizza il risultato nel nuovo campo personalizzato calcolato.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2863'
 ht-degree: 0%
 
 ---
 
 # Aggiungere dati calcolati a un modulo personalizzato con il generatore di moduli legacy
 
+<!--Audited: 01/2024-->
+
 In un modulo personalizzato è possibile aggiungere un campo personalizzato calcolato che utilizza dati esistenti per generare nuovi dati quando il modulo personalizzato viene allegato a un oggetto.
+
+A questo scopo, è necessario creare un&#39;istruzione che utilizzi espressioni di dati e i nomi dei campi esistenti, che possono essere campi personalizzati, campi di dati personalizzati calcolati e campi Adobe Workfront incorporati.
+
+Questa istruzione calcola i dati immessi e visualizza il risultato nel nuovo campo personalizzato calcolato.
 
 Un campo personalizzato calcolato può contenere:
 
@@ -48,35 +54,39 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Piano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+   <td><p>Corrente: Piano</p>
+   Oppure
+   <p>Nuovo: Standard</p>
+   </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader"><p>Configurazione del livello di accesso</p></td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> </p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+*Per conoscere la pianificazione, il tipo di licenza o le configurazioni del livello di accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Aggiungere un campo calcolato a un modulo personalizzato {#add-a-calculated-field-to-a-custom-form}
 
-Puoi utilizzare sia i campi Workfront incorporati che i campi personalizzati già creati.
+Puoi utilizzare sia i campi Workfront incorporati che i campi personalizzati già creati nell’espressione di un campo personalizzato calcolato.
 
 >[!IMPORTANT]
 >
->Prima di creare un nuovo campo personalizzato calcolato, identificare i campi esistenti che si desidera includere in modo da essere certi che i dati necessari per il calcolo siano presenti in Workfront.
+>Prima di creare un campo personalizzato calcolato, identificare i campi esistenti che si desidera includere in modo da essere certi che i dati necessari per il calcolo siano presenti in Workfront.
 
 1. Iniziare a creare o modificare un modulo personalizzato, come descritto in [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 1. Il giorno **Aggiungi un campo** , fare clic su **Calcolato**.
 
-   Nell’area di visualizzazione a destra, il campo viene visualizzato *12345*. Questo è semplicemente un indicatore per ricordare che il campo è un campo personalizzato calcolato durante la creazione o la modifica del modulo personalizzato. Quando il modulo viene allegato a un oggetto e gli utenti lo compilano, visualizzano il risultato del calcolo nel campo, ma non il *12345* indicatore.
+   Nell’area di visualizzazione a destra, il campo mostra il valore di riempimento 12345. Questo è un indicatore per ricordarti che il campo è un campo personalizzato calcolato durante la creazione o la modifica del modulo personalizzato. Quando il modulo viene allegato a un oggetto e gli utenti lo compilano, il risultato del calcolo viene visualizzato nel campo e non nel valore 12345.
 
 1. Specifica le seguenti informazioni per il campo calcolato:
 
@@ -88,29 +98,44 @@ Puoi utilizzare sia i campi Workfront incorporati che i campi personalizzati gi�
     <tbody> 
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td>Digitare un'etichetta per il campo. Questo è ciò che gli utenti vedranno quando utilizzano il modulo personalizzato. Il campo <b>Nome</b>, che viene compilato automaticamente, viene inserito come riferimento da Workfront nei rapporti.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader" id="instructions">Istruzioni</td> 
-      <td> Per impostazione predefinita, la formula creata per il campo viene memorizzata qui. È possibile aggiungere testo per fornire informazioni aggiuntive sul campo e sulla formula in esso contenuta. Questo può essere utile in due modi: 
-       <ul> 
-        <li> <p>Come promemoria di cosa è la formula e come funziona. Questa opzione è particolarmente utile se si intende utilizzare il campo personalizzato calcolato in più moduli.</p> </li> 
-        <li> <p>Come descrizione comando gli utenti possono vedere quando passano il cursore sul campo. Aggiungere qui il testo che si desidera visualizzare nella descrizione comando.</p> <p>Se non si desidera che la formula venga visualizzata nella descrizione comando, il che potrebbe confonderli, è possibile nasconderla. Per istruzioni, consulta la riga della tabella "Visualizza formula nelle istruzioni" nella sezione <a href="#build-the-calculation-for-your-calculated-custom-field" class="MCXref xref">Genera il calcolo per il campo personalizzato calcolato</a> in questo articolo.</p> </li> 
-       </ul> <p>Per informazioni sull'utilizzo dello stesso campo personalizzato calcolato in un nuovo modulo, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Riutilizzare un campo personalizzato calcolato esistente in un modulo personalizzato</a>.</p> </td> 
+      <td>Digitare un'etichetta per il campo. Questo è ciò che gli utenti visualizzano quando utilizzano il modulo personalizzato. Il campo <b>Nome</b>, che viene compilato automaticamente e corrisponde all’Etichetta, viene referenziato da Workfront nei rapporti. Questo è un campo obbligatorio.</td> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">Nome</td> 
+   <td>Per impostazione predefinita, il nome di un campo è uguale al nome dell'etichetta. Tuttavia, è possibile modificare il Nome di un campo in modo che sia diverso da Etichetta di un campo. Il campo <b>Nome</b> Nei rapporti di Workfront viene fatto riferimento a. Questo è un campo obbligatorio.</td> 
+   </tr>
+
+   <tr> 
+     <td role="rowheader" id="instructions">Istruzioni</td> 
+      <td> <p>Aggiungi testo per fornire informazioni aggiuntive sul campo e sulla formula in esso contenuta.</p>
+      <p>Puoi anche incollare qui la formula utilizzata nel calcolo del campo personalizzato. In questo caso, è consigliabile innanzitutto aggiornare il calcolo del campo personalizzato, quindi copiare l'espressione finale dal campo Calcolo e incollarla nel campo Istruzioni. </p>
+
+
+   Questo può essere utile nei seguenti modi:
+   <ul> 
+      <li> <p>Come promemoria di cosa è la formula e come funziona. Questa opzione è particolarmente utile se si intende utilizzare il campo personalizzato calcolato in più moduli.</p> </li> 
+       <li> <p>Come descrizione comando gli utenti possono vedere quando passano il cursore sul campo. È possibile aggiungere qui qualsiasi testo che si desidera visualizzare nella descrizione comando.</p> </li> 
+       </ul>
+       <p>Se non si desidera che gli utenti visualizzino la formula nella descrizione comando, il che potrebbe confonderli, non aggiungerla al campo Istruzioni. Utilizzare invece l'impostazione "Visualizza formula nelle istruzioni" per visualizzare o nascondere la formula, come descritto in questo articolo <a href="#build-the-calculation-for-your-calculated-custom-field">Genera il calcolo per il campo personalizzato calcolato</a> in questo articolo.</p>
+
+   <p>Per informazioni sull'utilizzo dello stesso campo personalizzato calcolato in un nuovo modulo, vedere <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Riutilizzare un campo personalizzato calcolato esistente in un modulo personalizzato</a>.</p>
+
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Formato</td> 
-      <td> <p>Il formato in cui si desidera memorizzare e visualizzare i risultati del campo.</p> <p>Se il campo viene utilizzato nei calcoli matematici, utilizzare sempre un <strong>Numero</strong> o un <strong>Valuta</strong> formato. Quando selezionate Numero (Number) o Valuta (Currency), il sistema tronca automaticamente i numeri che iniziano con 0.</p> 
-      <p><b>IMPORTANTE</b>: prima di scegliere un formato, considera il formato corretto per il nuovo campo. Impossibile modificare il campo di formato dopo il salvataggio del modulo personalizzato. La selezione del formato errato potrebbe inoltre influire sui calcoli futuri e sui valori aggregati nei raggruppamenti di report ed elenchi.</p> </td> 
+      <td> <p>Il formato in cui si desidera memorizzare e visualizzare i risultati del campo.</p> <p>Se si prevede di utilizzare il campo nei calcoli matematici, utilizzare sempre un <strong>Numero</strong> o un <strong>Valuta</strong> formato. Quando selezionate Numero (Number) o Valuta (Currency), il sistema tronca automaticamente i numeri che iniziano con 0.</p> 
+      <p><b>IMPORTANTE</b>: <p>Prima di scegliere un formato, considerare il formato corretto per il nuovo campo. Impossibile modificare il campo di formato dopo il salvataggio del modulo personalizzato. La selezione del formato errato potrebbe inoltre influire sui calcoli futuri e sui valori aggregati nei raggruppamenti di report ed elenchi.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Continua su [Genera il calcolo per il campo personalizzato calcolato](#build-the-calculation-for-your-calculated-custom-field) in questo articolo.
+1. Continua ad aggiornare le informazioni sui campi personalizzati, come descritto nella sezione [Genera il calcolo per il campo personalizzato calcolato](#build-the-calculation-for-your-calculated-custom-field) in questo articolo.
 
 ## Genera il calcolo per il campo personalizzato calcolato {#build-the-calculation-for-your-calculated-custom-field}
 
-1. Inizia a creare il campo personalizzato calcolato, come spiegato nella sezione [Aggiungere un campo calcolato a un modulo personalizzato](#add-a-calculated-field-to-a-custom-form) in questo articolo.
+1. Inizia a creare il campo personalizzato calcolato, come descritto nella sezione [Aggiungere un campo calcolato a un modulo personalizzato](#add-a-calculated-field-to-a-custom-form) in questo articolo.
 
 1. Clic **Ingrandisci** per aprire **Editor calcoli** e genera i calcoli.
 
@@ -126,9 +151,16 @@ Puoi utilizzare sia i campi Workfront incorporati che i campi personalizzati gi�
 
    Ogni campo deve essere circondato da parentesi graffe, come spiegato nella sezione [Sintassi richiesta nei campi personalizzati calcolati](#syntax-required-in-calculated-custom-fields) in questo articolo. Quando si inizia a digitare il nome di un campo, il sistema formula dei suggerimenti ed è possibile selezionarne uno per inserirlo nel calcolo.
 
-   In un calcolo è possibile fare riferimento a qualsiasi tipo di campo personalizzato, ad eccezione di due: Campo di testo con tipo di formattazione e Testo descrittivo. Per informazioni sui tipi di campi personalizzati, vedi [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+   >[!NOTE]
+   >
+   >   Non è possibile fare riferimento a campi dei tipi seguenti in un calcolo: 
+   >   
+   >   * Campo di testo con formattazione
+   >   * Testo descrittivo.
+   >   
+   >   Per informazioni sui tipi di campi personalizzati, vedi [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
-1. Fare clic nella casella di testo grande, quindi fare clic su **Espressioni** e **Campi** che sono disponibili per aggiungerli al calcolo.
+1. Fare clic nella casella di testo grande della casella Editor calcoli, quindi fare clic su Cerca o Espandi e selezionare un&#39;opzione dalla casella **Espressioni** e **Campi** a destra della casella di testo. Questo le aggiunge al calcolo.
 
    È inoltre possibile iniziare a digitare un&#39;espressione o un campo nella casella di testo grande, quindi selezionarlo quando viene visualizzato. Ogni elemento viene visualizzato con una &quot;F&quot; per il campo o una &quot;E&quot; per l’espressione.
 
@@ -144,7 +176,7 @@ Puoi utilizzare sia i campi Workfront incorporati che i campi personalizzati gi�
    >  ![](assets/colors-fields-expressions.jpg)
    >* Individuare gli errori di calcolo, evidenziati in rosa. Puoi passare il cursore del mouse su un errore evidenziato per visualizzarne una breve descrizione della causa.
    >  ![](assets/error-help.png)
-   >* Nell&#39;area sottostante il calcolo, visualizzare in anteprima i risultati di un oggetto Workfront esistente.
+   >* In **Anteprima su un oggetto esistente** sotto il calcolo, iniziare a digitare il nome di un oggetto Workfront e selezionarlo quando viene visualizzato nell&#39;elenco. In questo modo è possibile visualizzare un&#39;anteprima dell&#39;aspetto del campo quando il modulo viene allegato all&#39;oggetto.
    ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
    >* Riferimento alle espressioni in un calcolo lungo utilizzando i numeri di riga visualizzati a sinistra.
@@ -153,7 +185,7 @@ Puoi utilizzare sia i campi Workfront incorporati che i campi personalizzati gi�
 
    >[!NOTE]
    >
-   >Nell’area di visualizzazione a destra, il campo viene visualizzato *12345.* Questo è semplicemente un indicatore per ricordare che il campo è un campo personalizzato calcolato durante la creazione o la modifica del modulo personalizzato. Quando il modulo viene allegato a un oggetto e gli utenti lo compilano, visualizzano il risultato del calcolo nel campo, ma non il *12345* indicatore.
+   >Nell’area di visualizzazione a destra, il campo mostra il valore di riempimento 12345. Questo è un indicatore per ricordarti che il campo è un campo personalizzato calcolato durante la creazione o la modifica del modulo personalizzato. Quando il modulo viene allegato a un oggetto e gli utenti lo compilano, il risultato del calcolo viene visualizzato nel campo e non nel valore 12345.
 
 1. (Facoltativo) Utilizza una delle seguenti opzioni per configurare ulteriormente il campo personalizzato calcolato:
 
@@ -196,7 +228,7 @@ Puoi utilizzare sia i campi Workfront incorporati che i campi personalizzati gi�
 
 ## Sintassi richiesta nei campi personalizzati calcolati
 
-Ogni campo deve utilizzare la sintassi illustrata di seguito, con parentesi graffe intorno al nome di ogni campo. Quando si inizia a digitare il nome di un campo, il sistema formula dei suggerimenti ed è possibile selezionarne uno per inserirlo nel calcolo. Se si immettono dati in un calcolo in modo errato, verrà visualizzato un messaggio di avviso. Non è possibile salvare il modulo a meno che non si modifichi il calcolo in modo che contenga campi validi e un&#39;espressione calcolata valida.
+Ogni campo utilizzato in un campo calcolato personalizzato deve utilizzare la sintassi illustrata di seguito, con parentesi graffe intorno a ogni nome di campo. Quando si inizia a digitare il nome di un campo, il sistema formula dei suggerimenti ed è possibile selezionarne uno per inserirlo nel calcolo. Se si immettono dati in un calcolo in modo errato, verrà visualizzato un messaggio di avviso. Non è possibile salvare il modulo a meno che non si modifichi il calcolo in modo che contenga campi validi e un&#39;espressione calcolata valida.
 
 >[!NOTE]
 >
@@ -204,21 +236,21 @@ Ogni campo deve utilizzare la sintassi illustrata di seguito, con parentesi graf
 
 ### Racchiudi nomi campi con parentesi graffe
 
-* Se si desidera che il calcolo faccia riferimento a un campo incorporato, il nome del campo deve essere racchiuso tra parentesi graffe.
+* Se si desidera che il calcolo faccia riferimento a un campo incorporato, il nome del campo deve essere racchiuso tra parentesi graffe e deve essere formattato come nel database di Workfront. Non è possibile utilizzare il nome dei campi così come vengono visualizzati nell’interfaccia di Workfront.
 
 Ad esempio: `{actualRevenue}`
 
-I nomi dei campi fanno distinzione tra maiuscole e minuscole e devono essere visualizzati nel calcolo esattamente come appaiono nel sistema Workfront.
+I nomi dei campi sono sensibili all&#39;uso di maiuscole e minuscole e devono essere visualizzati nel formato Camel case, come nel sistema Workfront.
 
-* Se si desidera che il calcolo faccia riferimento a un campo personalizzato, il nome del campo deve essere racchiuso tra parentesi graffe e preceduto da `DE:` tra parentesi.
+* Se si desidera che il calcolo faccia riferimento a un campo personalizzato, il nome del campo deve essere racchiuso tra parentesi graffe e preceduto da `DE:` tra parentesi. I campi personalizzati fanno distinzione tra maiuscole e minuscole e devono essere formattati come appaiono nell’interfaccia di Workfront.
 
 Ad esempio: `{DE:Profit}`
 
 Il sistema elenca tutti i campi personalizzati tra cui è possibile scegliere quando si digita `DE:`.
 
-* Se vuoi che il calcolo faccia riferimento a un campo che estrae dati da *principale* oggetto quando il modulo personalizzato viene allegato a un oggetto, è necessario anteporre al nome del campo il tipo di oggetto dell&#39;oggetto padre, tra parentesi graffe.
+* Se si desidera che il calcolo faccia riferimento a un campo che estrae dati dall&#39;oggetto padre quando il modulo personalizzato viene allegato a un oggetto, è necessario anteporre al nome del campo il tipo di oggetto dell&#39;oggetto padre, anche tra parentesi graffe.
 
-  Ad esempio, se il modulo personalizzato è configurato per l&#39;utilizzo con le attività e si desidera che il campo calcoli le entrate effettive dell&#39;oggetto padre quando il modulo viene allegato a un&#39;attività, è necessario indicare `Project` come tipo di oggetto del campo:
+  Ad esempio, se il modulo personalizzato è configurato per l&#39;utilizzo con le attività e si desidera che il campo calcoli le entrate effettive dell&#39;oggetto padre quando il modulo viene allegato a un&#39;attività, è necessario indicare `project` come tipo di oggetto del campo:
 
   `{project}.{actualRevenue}`
 
@@ -226,7 +258,7 @@ Il sistema elenca tutti i campi personalizzati tra cui è possibile scegliere qu
 
   `{project}.{DE:profit}`
 
-  Se non si è sicuri di quale sarà il tipo di oggetto dell&#39;oggetto padre perché l&#39;oggetto personalizzato per è configurato per più tipi di oggetto, è possibile utilizzare la variabile di filtro con caratteri jolly `$$OBJCODE` per consentire il funzionamento del calcolo per ciascuno dei tipi possibili. Per ulteriori informazioni, consulta [Campi personalizzati calcolati nei moduli personalizzati con più oggetti](#calculated-custom-fields-in-multi-object-custom-forms) in questo articolo.
+  Se non si è certi del tipo di oggetto dell&#39;oggetto padre perché il modulo personalizzato è configurato per più tipi di oggetto, è possibile utilizzare la variabile filtro con caratteri jolly `$$OBJCODE` per consentire il funzionamento del calcolo per ciascuno dei tipi possibili. Per ulteriori informazioni, consulta [Campi personalizzati calcolati nei moduli personalizzati con più oggetti](#calculated-custom-fields-in-multi-object-custom-forms) in questo articolo.
 
 ### Separa elementi con periodi
 
@@ -236,11 +268,16 @@ In un modulo personalizzato di tipo attività, ad esempio, per visualizzare il n
 
 `{project}.{porfolio}.{owner}`
 
-Questo determinerebbe quanto segue: Dall’oggetto del modulo personalizzato (un’attività), è possibile accedere all’oggetto successivo correlato all’attività (un progetto). Da qui, puoi accedere al successivo oggetto correlato al progetto (un portfolio), quindi al successivo oggetto correlato al portfolio (il proprietario).
+Il sistema recupera le informazioni nei seguenti passaggi (nell&#39;ordine indicato):
+
+1. Dall’oggetto del modulo personalizzato (un’attività), quindi
+1. Accedere all&#39;elemento padre dell&#39;attività o a un altro oggetto correlato (progetto), quindi
+1. Accedere all&#39;oggetto padre o a un altro oggetto correlato del progetto (un portfolio), quindi
+1. Accedere al successivo oggetto correlato al portfolio (il proprietario del portfolio).
 
 ### Sintassi del nome per il riferimento a un campo personalizzato
 
-Quando si fa riferimento a un altro campo personalizzato in un campo personalizzato calcolato, è necessario immettere il nome del campo visualizzato nell&#39;interfaccia utente di Workfront.
+Quando si fa riferimento a un altro campo personalizzato in un campo personalizzato calcolato, è necessario immettere il nome del campo visualizzato nell&#39;interfaccia di Workfront.
 
 Ad esempio, per fare riferimento all’opzione selezionata in un campo personalizzato denominato Executive sponsor, digita quanto segue:
 
@@ -248,12 +285,11 @@ Ad esempio, per fare riferimento all’opzione selezionata in un campo personali
 
 >[!NOTE]
 >
->La sintassi di un campo typeahead è leggermente diversa da quella di altri tipi di campi, in quanto è necessario aggiungere `:name` alla fine.
+>La sintassi di un campo automatico è diversa da quella di altri tipi di campi, in quanto è necessario aggiungere `:name` alla fine.
 >
 >Ad esempio, per fare riferimento all’opzione selezionata in un campo typeahead personalizzato denominato &quot;Executive sponsor&quot;, digita:
 >
 >`{DE:Executive sponsor:name}`
-
 
 ## Campi personalizzati calcolati nei moduli personalizzati con più oggetti {#calculated-custom-fields-in-multi-object-custom-forms}
 
@@ -294,4 +330,4 @@ I campi personalizzati calcolati su un oggetto vengono ricalcolati automaticamen
 
   >[!NOTE]
   >
-  ><div>In un modulo personalizzato allegato a un oggetto, le istruzioni di data e ora nei campi personalizzati calcolati vengono calcolate e salvate in base al tempo UTC (Coordinated Universal Time) e non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e il tuo profilo utente. I calcoli in un modulo personalizzato vengono generati in base ai singoli fusi orari degli utenti.</div>
+  ><div>In un modulo personalizzato allegato a un oggetto, le istruzioni di data e ora nei campi personalizzati calcolati vengono calcolate e salvate in base al Coordinated Universal Time (UTC), non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e il tuo profilo utente. I calcoli in un modulo personalizzato vengono generati in base ai singoli fusi orari degli utenti.</div>

@@ -6,7 +6,7 @@ description: È possibile personalizzare il tipo di informazioni visualizzate su
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: a4ccd48956fedbafc04ce19198592efdad49e5a3
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '1777'
 ht-degree: 1%
@@ -139,7 +139,7 @@ Potete creare una nuova vista standard oppure personalizzare una vista standard 
 
 ### Creare o personalizzare una visualizzazione Agile {#create-or-customize-an-agile-view}
 
-Puoi creare una nuova visualizzazione Agile o personalizzare una visualizzazione Agile esistente creata in precedenza.
+Puoi creare una vista Agile o personalizzare una vista Agile esistente creata in precedenza.
 
 >[!IMPORTANT]
 >
@@ -212,7 +212,7 @@ Per creare o personalizzare una visualizzazione Agile:
       <td>Tutte le sottoattività corrispondono al colore dell'attività padre, in modo che i colori di tutti i brani di una determinata corsia siano gli stessi.<br>I colori vengono assegnati in modo casuale alle attività quando vengono create se l'attività non ha alcuna sottoattività o non ha un'attività padre.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Modulo libero:</strong> </td> 
+      <td role="rowheader"><strong>Forma libera:</strong> </td> 
       <td> Tutte le schede sono visualizzate in blu per impostazione predefinita finché un utente non cambia il colore manualmente, come descritto nell’articolo <a href="../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md" class="MCXref xref">Categorizzare le storie per colore sulla bacheca Scrum</a>. </td> 
      </tr> 
      <tr> 

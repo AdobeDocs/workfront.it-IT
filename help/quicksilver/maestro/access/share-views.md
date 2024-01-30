@@ -4,9 +4,9 @@ description: Puoi condividere una visione con altri per garantire la collaborazi
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '468'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 1%
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Condividere le visualizzazioni
+
+{{maestro-important-intro}}
 
 Puoi condividere una visione con altri per garantire la collaborazione quando lavori in Adobe Workfront Maestro.
 
@@ -107,6 +109,8 @@ Per condividere una visualizzazione con altri utenti:
    * Gestisci
 
      Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Clic **Copia collegamento** per copiare negli Appunti un collegamento alla visualizzazione.
+1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
 1. Fai clic su **Salva**.
 
 

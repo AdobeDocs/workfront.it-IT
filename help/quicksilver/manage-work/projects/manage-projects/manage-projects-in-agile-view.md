@@ -6,37 +6,14 @@ description: Puoi sfruttare le funzionalità agili per il tuo progetto senza le 
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: fa499d74df891441e729c32188e9b2f74e4ef5c0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # Gestire un progetto nella visualizzazione Agile
-
-<!--
-Required plans, license types, and access
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
-   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Workfront License Type</p> </td> 
-   <td> <p>Review, Work, or Plan </p> </td> 
-  </tr> 
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Permissions in the access model</p> </td> 
-    <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-   </tr>
- </tbody> 
-</table>
--->
 
 Puoi sfruttare le funzionalità agili per il tuo progetto senza le problematiche amministrative che in genere accompagnano le procedure agili (come la gestione del backlog di un team o la creazione di iterazioni).
 
@@ -51,30 +28,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Revisione o successiva</p> </td> 
+   <td> <p>Corrente: revisione o versione successiva</p> 
+   <p>Nuovo: Collaboratore o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazione del livello di accesso</td> 
    <td> <p>Modifica accesso alle seguenti aree:</p> 
     <ul> 
      <li> <p>Progetti</p> </li> 
      <li> <p>Report, dashboard, calendari</p> </li> 
      <li> <p>Filtri, Viste, Raggruppamenti</p> </li> 
-    </ul> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizzare le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizzare le autorizzazioni per il progetto</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront. Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Comprendere i progetti Agile
 
@@ -111,7 +89,9 @@ Esistono alcune differenze quando si utilizzano visualizzazioni agili su un prog
 * Le attività che non hanno né un&#39;attività padre né un&#39;attività secondaria vengono sempre visualizzate come una singola scheda storia sullo storyboard.\
   Ad esempio, nella vista a elenco dei progetti vengono visualizzate le seguenti attività:
 
-  ![Elenco progetti Agile: attività senza attività padre o sottoattività](assets/agile-project-single-list-nwe.png) Queste attività vengono visualizzate come segue nella visualizzazione agile del progetto:
+  ![Elenco progetti Agile: attività senza attività padre o sottoattività](assets/agile-project-single-list-nwe.png)
+
+  Queste attività vengono visualizzate come segue nella visualizzazione agile del progetto:
 
   ![Visualizzazione agile del progetto: attività senza attività padre o sottoattività](assets/agile-project-singlecard-nwe.png)
 
@@ -162,7 +142,7 @@ Per informazioni su come personalizzare una visualizzazione agile, consulta [Cre
 ## Visualizzare un progetto nella visualizzazione Agile
 
 1. Vai al progetto che desideri visualizzare in una visualizzazione agile, sull’elenco delle attività o sull’elenco dei problemi.
-1. Fai clic su **Scheda madre** icona ![Icona bacheca](assets/board-icon-for-agile-view.png).
+1. Fai clic su **Vista bacheca** icona ![Icona bacheca](assets/board-icon-for-agile-view.png).
 
    La vista bacheca del progetto viene visualizzata per impostazione predefinita.
 
@@ -210,7 +190,9 @@ Per ulteriori informazioni sulla creazione e la personalizzazione delle visualiz
 >
 >Questa sezione si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.
 
-Per informazioni su come condividere una visualizzazione agile, consulta [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Puoi condividere una visualizzazione Agile creata o disporre delle autorizzazioni necessarie nello stesso modo in cui condividi qualsiasi altra visualizzazione, filtro o raggruppamento.
+
+Per ulteriori informazioni, consulta [Condividere un filtro, una visualizzazione o un raggruppamento](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Rimuovi una vista Agile esistente
 
@@ -218,4 +200,6 @@ Per informazioni su come condividere una visualizzazione agile, consulta [Condiv
 >
 >Questa sezione si applica solo alla vista Agile legacy, non alla vista bacheca di un progetto.
 
-Per informazioni sull&#39;eliminazione di una visualizzazione, vedere la sezione &quot;Rimuovere una visualizzazione&quot; nell&#39;articolo [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+È possibile rimuovere una visualizzazione Agile nello stesso modo in cui si rimuove qualsiasi altra visualizzazione, filtro o raggruppamento.
+
+Per ulteriori informazioni, vedere [Rimuovere filtri, visualizzazioni e raggruppamenti](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

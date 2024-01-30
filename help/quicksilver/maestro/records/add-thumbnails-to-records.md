@@ -4,7 +4,7 @@ description: È possibile modificare le informazioni del record in Adobe Maestro
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7448f6b8a622bc814604e59d4654644b3d7a1e12
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
@@ -74,8 +74,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Visualizzare o modificare le autorizzazioni per un'area di lavoro </p>  
-   <p>Autorizzazioni di visualizzazione o di livello superiore per la vista tabella </p> 
+   <td> <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro </p>  
+   <p>Autorizzazioni Contribute (Contribute) o superiori per la vista tabella </p> 
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 1129f8ab93d349325bed56bc2b3ba94c2600c03f
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 1%
+source-wordcount: '810'
+ht-degree: 2%
 
 ---
 
@@ -37,27 +37,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td><p>Corrente: Piano</p>
+   Oppure
+   <p>Nuovo: Standard</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td role="rowheader">Configurazione del livello di accesso</td> 
    <td> <p>Amministratore di sistema</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Crea un nuovo modello e-mail {#create-a-new-email-template}
+*Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+## Creare un modello e-mail {#create-an-email-template}
+
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **E-mail** > **Notifiche**> **Modelli e-mail**.
 
-![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Clic **Nuovo modello e-mail**.
 
-1. In **Nuovo modello e-mail** nella casella visualizzata, specificare le informazioni seguenti:
+1. In **Nuovo modello e-mail** , specificare le informazioni seguenti:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -65,24 +69,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <tbody> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td>Titolo del modello e-mail (obbligatorio).</td> 
+      <td>Aggiungi un titolo per il modello e-mail. Questo è un campo obbligatorio.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tipo oggetto</td> 
-      <td>Specifica il tipo di oggetto a cui associare il modello (obbligatorio, sarà impostato su "Problema" per impostazione predefinita).</td> 
-     </tr>
+      <td>Specificare il tipo di oggetto a cui si desidera associare il modello. Scegli uno dei seguenti oggetti:
+      <ul>
+      <li>Progetto</li>
+      <li>Attività</li>
+      <li>Problema</li>
+      <li>Scheda orario</li> </ul>
+
+   Questo campo è obbligatorio ed è impostato su Progetto per impostazione predefinita.</td>
+   </tr>
      <tr> 
       <td role="rowheader">Descrizione</td> 
-      <td>Descrizione del modello.</td> 
+      <td>Aggiungi ulteriori informazioni sul modello e-mail, il suo scopo e il pubblico a cui è destinato.</td> 
      </tr>
 
    <tr> 
       <td role="rowheader">Oggetto </td> 
-      <td>Oggetto visualizzato all’invio del messaggio e-mail (obbligatorio).</td> 
+      <td>Aggiungi il testo visualizzato nella riga Oggetto dell’e-mail quando viene inviato il messaggio e-mail generato dal modello. Questo è un campo obbligatorio.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Corpo </td> 
-      <td> <p>Contenuto visualizzato all’invio del messaggio e-mail.</p> <p>Puoi utilizzare la formattazione HTML per il contenuto dell’e-mail, come descritto in <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Aggiungere formattazione HTML a un modello e-mail</a> in questo articolo.</p> </td> 
+      <td> <p>Aggiungi il testo per il contenuto del messaggio e-mail.</p> <p>Puoi utilizzare la formattazione HTML per il contenuto dell’e-mail, come descritto nella sezione <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Aggiungere formattazione HTML a un modello e-mail</a> in questo articolo.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -128,15 +139,15 @@ Ad esempio, il corpo dell’e-mail di una notifica che avvisa l’assegnatario d
 
 Per ottenere il valore &quot;jolly&quot; per un oggetto, effettuare una delle seguenti operazioni:
 
-<!-- Refer to the API Explorer and select the names of your objects from the Fields tab of any object. For more information about the API Explorer, see [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
+* Fai riferimento a API Explorer e seleziona i nomi degli oggetti dalla scheda Campi di qualsiasi oggetto. Per ulteriori informazioni su API Explorer, consulta [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Utilizza il valore &quot;valuefield&quot; presente all’interno della visualizzazione in modalità testo di un rapporto. Per ulteriori informazioni sui valori della modalità testo, consulta [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Utilizza il `valuefield` valore presente all&#39;interno di una visualizzazione in modalità testo di un report. Per ulteriori informazioni sui valori della modalità testo, consulta [Panoramica sulla modalità testo](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-  Il valore &quot;intestazione&quot; può essere il nome dell’oggetto, come desideri che appaia nel corpo dell’e-mail.
+Il `heading` value può essere il nome dell’oggetto, come desideri che appaia nel corpo dell’e-mail.
 
 ### Collegamento a campi personalizzati con HTML {#link-to-custom-fields-with-html}
 
-È possibile includere collegamenti a utenti e campi personalizzati utilizzando **$$** carattere jolly per indicare al generatore di e-mail di cercare i valori dal database associato all’oggetto. Devono essere presenti su entrambi i lati del riferimento dell’attributo del database.
+È possibile includere collegamenti a utenti e campi personalizzati utilizzando `$$` carattere jolly per indicare al generatore di e-mail di cercare i valori dal database associato all’oggetto. Devono essere presenti su entrambi i lati del riferimento dell’attributo del database.
 
 Se ad esempio si aggiunge come HTML il testo seguente, il nome dell&#39;utente assegnato verrà aggiunto alla notifica di promemoria associata a un&#39;attività:
 
@@ -197,7 +208,7 @@ Sostituisci `<your domain>` con il dominio Workfront della tua azienda, senza le
 
 Un Progetto Gestito È In Ritardo
 
-**ContentContenuto:**
+**Contenuto:**
 
 ```html
 <html>
@@ -235,7 +246,7 @@ Per utilizzare questa proprietà per un messaggio e-mail relativo a un problema,
 
 `$$name$$ to start on $$plannedStartDate$$`
 
-**ContentContenuto:**
+**Contenuto:**
 
 ```html
 <html>

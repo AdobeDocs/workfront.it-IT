@@ -3,19 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
 title: Creare e modificare le società
-description: Puoi aggiungere aziende a [!DNL Workfront] e utilizzarli a scopo di pianificazione finanziaria, reporting, definizione di autorizzazioni relative agli oggetti e per mantenere riservate le informazioni.
-author: Caroline
+description: Puoi aggiungere aziende a [!DNL Adobe Workfront] e utilizzarli a scopo di pianificazione finanziaria, reporting, definizione di autorizzazioni relative agli oggetti e per mantenere riservate le informazioni.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
 
 # Creare e modificare le società
+
+<!--Audited: 01/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -30,33 +32,36 @@ Per gestire le aziende in è necessario disporre dei seguenti elementi [!DNL Wor
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] piano*</p> </td> 
-   <td>[!UICONTROL Team] o versione successiva</td> 
+   <td role="rowheader"> <p>[!DNL Workfront] piano</p> </td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Adobe Workfront] licenza*</p> </td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>Corrente: [!UICONTROL Plan]</p>
+   Oppure
+   <p>Nuovo: [!UICONTROL Standard]</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazione del livello di accesso</td> 
    <td> <p>Uno dei seguenti elementi:</p> 
     <ul> 
-     <li> <p>Il livello di accesso [!UICONTROL Amministratore di sistema], che consente di modificare qualsiasi società del sistema. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>. </p> </li> 
-     <li> <p>Accesso amministrativo per gestire le società, che consente di modificare qualsiasi società nel sistema. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </li> 
+     <li> <p>Il livello di accesso [!UICONTROL Amministratore di sistema], che consente di modificare qualsiasi società del sistema. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md">Concedere a un utente l'accesso amministrativo completo</a>. </p> </li> 
+     <li> <p>Accesso amministrativo per gestire le società, che consente di modificare qualsiasi società nel sistema. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </li> 
     </ul> <p><b>NOTA</b>:  
      <ul> 
       <li> <p>Puoi anche gestire le aziende associate a qualsiasi gruppo a cui sei assegnato come amministratore di gruppo.</p> </li> 
       <li> <p>Per aggiungere e rimuovere utenti da [!DNL Workfront] di sistema, è necessario disporre di uno dei seguenti elementi:</p> 
        <ul> 
         <li> <p>Livello di accesso [!UICONTROL System Administrator]. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>. </p> </li> 
-        <li> <p>Nel livello di accesso, è necessario selezionare [!UICONTROL Edit] per l'impostazione [!UICONTROL Users]. Inoltre, per l'impostazione [!UICONTROL Users], in [!UICONTROL Ottimizzare le impostazioni] <img src="assets/gear-icon-in-access-levels.png"> , l'opzione [!UICONTROL Create] e almeno una delle due opzioni [!UICONTROL User Admin] devono essere abilitate. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Se si utilizza l'opzione [!UICONTROL User Admin (Group Users)], è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> </li> 
+        <li> <p>Nel livello di accesso, è necessario selezionare [!UICONTROL Edit] per l'impostazione [!UICONTROL Users]. Inoltre, per l'impostazione [!UICONTROL Users], in [!UICONTROL Ottimizzare le impostazioni] <img src="assets/gear-icon-in-access-levels.png">, l'opzione [!UICONTROL Create] e almeno una delle due opzioni [!UICONTROL User Admin] devono essere abilitate. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Se si utilizza l'opzione [!UICONTROL User Admin (Group Users)], è necessario essere un amministratore di gruppo di un gruppo di cui l'utente è membro.</p> </li> 
        </ul> <p>Per informazioni sull'impostazione Utenti in un livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Concedere l’accesso agli utenti</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare il [!DNL Workfront] amministratore.
+&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare il [!DNL Workfront] amministratore. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Vantaggi dell’aggiunta di utenti a un’azienda {#benefits-of-adding-users-to-a-company}
 
@@ -82,16 +87,18 @@ Per impostazione predefinita, l’azienda associata all’istanza di [!DNL Workf
 
 Per aggiungere o modificare una società:
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe Workfront], quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+{#step-1-to-setup}
 
 1. Clic **[!UICONTROL Aziende]**.
+
+   Viene visualizzato un elenco di aziende.
 1. Se stai aggiungendo una società, fai clic su **[!UICONTROL Nuova società]**.
 
    Oppure
 
-   Se stai modificando una società esistente, selezionala e fai clic su **[!UICONTROL Modifica]**.
+   Se stai modificando una società esistente, selezionala e fai clic su **[!UICONTROL Modifica]** in cima all&#39;elenco delle aziende.
 
-1. Utilizza le opzioni visualizzate per configurare le seguenti informazioni:
+1. Aggiorna le seguenti informazioni:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -104,18 +111,18 @@ Per aggiungere o modificare una società:
         <li> <p><b>[!UICONTROL Nome società]</b>: digita un nome per la società.</p> </li> 
         <li> <p><b>[!UICONTROL È Attivo]</b>: quando questa opzione è abilitata, gli utenti possono trovare la società e allegarla ai progetti che creano e modificano. Una società inattiva non può essere collegata a progetti. Questa opzione è attivata per impostazione predefinita.</p> </li> 
         <li> <p><b>[!UICONTROL È la società principale]</b>: assegna la società come società principale della tua organizzazione. L'azienda principale in genere rappresenta [!DNL Workfront] dell'account in cui lavora la maggior parte degli utenti.</p> <p>È possibile che una sola azienda o nessuna azienda sia designata come società principale, ma non è possibile che più aziende siano designate come società principali. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> <p><b>NOTA</b>: modificando i rispettivi livelli di accesso, puoi limitare la visualizzazione agli altri utenti: solo nella società principale, oppure nella società associata e nella società principale. Per informazioni sul funzionamento della società principale con i livelli di accesso degli utenti, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </li> 
-        <li> <p><b>[!UICONTROL Group]</b>: se esiste un gruppo che conduce affari con l’azienda, puoi aggiungere il nome del gruppo qui. Questo è utile per gli amministratori di gruppi che devono segnalare e gestire tutte le aziende con cui i loro gruppi intrattengono rapporti commerciali.</p> <p><b>IMPORTANTE</b>: se non associ il gruppo che lavorerà con questa società, gli amministratori del gruppo non possono accedere a meno che non abbiano accesso amministrativo alle società nel loro livello di accesso. Per informazioni sulle modalità di concessione dell’accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Inizia a digitare il nome del gruppo, quindi premi <strong>[!UICONTROL INVIO]</strong> quando viene visualizzato.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Quando si assegna un gruppo a una società, gli amministratori del gruppo del gruppo ottengono l'accesso [!UICONTROL Gestisci] alla società. Per ulteriori informazioni, consulta <a href="#group-administrators-and-companies" class="MCXref xref">Amministratori di gruppi e società</a> in questo articolo.</p> </li> 
+        <li> <p><b>[!UICONTROL Group]</b>: se esiste un gruppo che conduce affari con l’azienda, puoi aggiungere il nome del gruppo qui. Questo è utile per gli amministratori di gruppi che devono segnalare e gestire tutte le aziende con cui i loro gruppi intrattengono rapporti commerciali.</p> <p><b>IMPORTANTE</b>: se non associ il gruppo che lavorerà con questa società, gli amministratori del gruppo non possono accedere alla società a meno che non abbiano accesso amministrativo alle società nel loro livello di accesso. Per informazioni sulle modalità di concessione dell’accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Inizia a digitare il nome del gruppo, quindi premi <strong>[!UICONTROL INVIO]</strong> quando viene visualizzato.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Quando si assegna un gruppo a una società, gli amministratori del gruppo del gruppo ottengono l'accesso [!UICONTROL Gestisci] alla società. Per ulteriori informazioni, consulta <a href="#group-administrators-and-companies" class="MCXref xref">Amministratori di gruppi e società</a> in questo articolo.</p> </li> 
         <li> <p><b>[!UICONTROL Membri società]</b>: aggiungi utenti esistenti all’azienda. In questo modo, si associano questi utenti a questa azienda.</p> <p>Non esiste un limite al numero di utenti associati a una società, ma un utente non può essere associato a più società.</p> </li> 
        </ul> </td> 
      </tr>
      <tr> 
       <td role="rowheader">Sezione [!UICONTROL Custom Forms]</td> 
-      <td> <p>Se sono presenti campi che desideri aggiungere alla tua azienda che non sono disponibili in [!DNL Workfront], è possibile creare un modulo personalizzato e associarlo all'azienda. Per allegare il modulo alla società, selezionarlo dal menu a discesa. Nel menu a discesa sono elencate solo le società attive. Per informazioni sulla creazione di Forms personalizzati, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>. </p> </td> 
+      <td> <p>Se sono presenti campi che desideri aggiungere alla tua azienda che non sono disponibili in [!DNL Workfront], è possibile creare un modulo personalizzato e associarlo all'azienda. </p> <p>Per allegare il modulo alla società, selezionarlo dal menu a discesa.</p> <p>Solo i moduli personalizzati attivi sono elencati nel menu a discesa.</p> <p> Per informazioni sulla creazione di Forms personalizzati, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Se stai creando una nuova società, fai clic su **[!UICONTROL Crea società]**.
+1. (Condizionale) Se stai creando un’azienda, fai clic su **[!UICONTROL Crea società]**.
 
    Oppure
 
@@ -129,7 +136,7 @@ Per informazioni sulla gestione delle appartenenze per una società esistente, v
 
 Per informazioni sulla sostituzione delle tariffe di fatturazione a livello aziendale, consulta [Sostituisci le tariffe di fatturazione dei ruoli a livello aziendale](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
-## Informazioni sulla condivisione di oggetti con le aziende
+## Panoramica sulla condivisione di oggetti con le aziende
 
 Alcune autorizzazioni sono disponibili per gli utenti associati a un’azienda, come spiegato nella sezione [Vantaggi dell’aggiunta di utenti a un’azienda](#benefits-of-adding-users-to-a-company). Oltre a queste autorizzazioni, puoi consentire agli utenti di visualizzare, contribuire o modificare oggetti in [!DNL Workfront] condividendo l’oggetto con la propria azienda.
 

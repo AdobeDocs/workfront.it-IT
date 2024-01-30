@@ -2,84 +2,57 @@
 title: Elimina progetti
 product-area: projects
 navigation-topic: manage-projects
-description: Puoi eliminare un progetto se il progetto e i relativi dati non sono più necessari.
+description: Puoi eliminare un progetto se il progetto e i relativi dati non sono più necessari. In alternativa all’eliminazione di un progetto, è consigliabile modificare il progetto e cambiare lo stato su Completato o Inattivo. Questa operazione rimuove tutte le attività correnti correlate al progetto dall'elenco delle attività di un utente, ma salva tutti i dati associati al progetto.
 author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
-source-git-commit: 5db9a4869e1321bd268e80f786d157fbb41c0656
+recommendations: noDisplay, noCatalog
+source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '884'
 ht-degree: 1%
 
 ---
 
 # Elimina progetti
 
+<!--Audited: 01/2024-->
+
 Puoi eliminare un progetto se il progetto e i relativi dati non sono più necessari.
 
 In alternativa all’eliminazione di un progetto, è consigliabile modificare il progetto e cambiare lo stato su Completato o Inattivo. Questa operazione rimuove tutte le attività correnti correlate al progetto dall&#39;elenco delle attività di un utente, ma salva tutti i dati associati al progetto.
 
+Puoi eliminare un progetto in un elenco di progetti o a livello di progetto.
+
 ## Requisiti di accesso
 
-<!-- drafted for P&P:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
-   <td>Any</td> 
+   <td> <p>piano Adobe Workfront</p> </td> 
+   <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
+   <td> <p>Licenza Adobe Workfront*</p> </td> 
+   <td> <p>Licenza corrente: Piano </p> 
+   Oppure
+   <p>Nuova licenza: Standard </p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Delete</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>Configurazione del livello di accesso</td> 
+   <td> <p>Modificare l’accesso ai progetti con la possibilità di creare ed eliminare progetti</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
-   <td> <p>Qualsiasi </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica l'accesso a Progetti, Attività, Problemi con la possibilità di eliminare progetti, attività e problemi</p> <p><b>NOTA</b></p>
-
-<p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci le autorizzazioni per il progetto, le attività e i problemi con la possibilità di eliminare il progetto, le attività e i problemi. </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Autorizzazioni oggetto </p> </td> 
+   <td> <p>Modifica l'accesso a Progetti, Attività, Problemi con la possibilità di eliminare progetti, attività e problemi</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
-Puoi eliminare un progetto in un elenco di progetti o a livello di progetto.
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Comprendere il processo di eliminazione dei progetti
 
@@ -138,7 +111,7 @@ Puoi eliminare un progetto in un elenco di progetti o a livello di progetto.
    * Se il progetto eliminato è collegato all’unica iniziativa pubblicata da un piano, viene rimossa anche l’indicazione che il piano è stato pubblicato.
    * Se recuperi un progetto eliminato, il progetto viene recuperato, ma il relativo collegamento all’iniziativa non viene ripristinato e l’area Pianificazione scenario non viene più visualizzata in Dettagli progetto.
 
-     La Pianificazione scenario è disponibile solo nella nuova esperienza Adobe Workfront e richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, consulta [Panoramica sulla pianificazione degli scenari](../../../scenario-planner/scenario-planner-overview.md).
+     Scenario Planner richiede una licenza aggiuntiva. Per informazioni su Workfront Scenario Planner, consulta [Panoramica sulla pianificazione degli scenari](../../../scenario-planner/scenario-planner-overview.md).
 
      Per informazioni sui progetti collegati alle iniziative nella Pianificazione scenario, consulta [Aggiornare o creare progetti pubblicando iniziative nella Pianificazione scenario](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -166,7 +139,7 @@ Puoi eliminare i progetti da un elenco di progetti.
 ## Eliminare un progetto a livello di progetto
 
 1. Vai al progetto che desideri eliminare.
-1. Fai clic su **Altro** icona ![](assets/qs-more-menu.png), quindi fai clic su **Elimina progetto**.
+1. Fai clic su **Altro** icona ![](assets/qs-more-menu.png) a destra del nome del progetto, quindi fai clic su **Elimina progetto**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 
