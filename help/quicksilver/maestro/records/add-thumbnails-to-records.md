@@ -4,9 +4,9 @@ description: È possibile modificare le informazioni del record in Adobe Maestro
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -75,19 +75,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
    <td> <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro </p>  
-   <p>Autorizzazioni Contribute (Contribute) o superiori per la vista tabella </p> 
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td>  <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Maestro nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/maestro/access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
-
 
 ## Considerazioni sulle miniature dei record
 
@@ -96,14 +94,14 @@ Per distinguere visivamente i record in una vista tabella, è possibile associar
 Considera quanto segue:
 
 * È possibile aggiungere solo file di immagine come miniature.
+  <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * È possibile aggiungere un&#39;immagine di anteprima ai singoli record nella visualizzazione per tabella.
+* Le miniature appartengono alle informazioni sui record e vengono visualizzate nelle visualizzazioni in cui vengono visualizzati i record. Ad esempio, le miniature vengono visualizzate insieme alle informazioni del record nelle seguenti aree:
+
+   * Campo principale di un record nella visualizzazione tabella
+   * Barra dei record nella visualizzazione timeline.
 * Non è possibile aggiungere miniature di record dalla pagina Dettagli del record o nella visualizzazione timeline.
-* L&#39;immagine di anteprima viene sempre visualizzata a sinistra del campo primario di ciascun record, indipendentemente dal tipo di campo.
-
-  I campi costituiti da testo a riga singola, numeri o formule possono essere designati come campi primari.
-Per ulteriori informazioni, consulta [Gestire la vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md).
-
-<!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+* Le miniature non vengono visualizzate nella pagina Dettagli del record.
 
 ## Aggiungere una miniatura a un record
 
@@ -131,10 +129,11 @@ Per ulteriori informazioni, consulta [Gestire la vista tabella](/help/quicksilve
 1. (Facoltativo) Usate lo strumento di ridimensionamento per ritagliare e ridimensionare l&#39;immagine.
 1. Clic **Usa immagine** per aggiungere l&#39;immagine come miniatura.
 Questo chiude il **Miniatura record** casella.
-1. Fare clic su Campi nell&#39;angolo superiore destro della visualizzazione tabella.
+1. (Condizionale) Se disponete almeno delle autorizzazioni Contribute per la vista tabella, fate clic su **Campi** nell&#39;angolo superiore destro della vista tabella.
 1. Seleziona la **Miniatura** per visualizzare la miniatura. Questa opzione è deselezionata per impostazione predefinita.
 
    ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
 
    La miniatura viene visualizzata a sinistra del valore del campo primario.
+1. (Facoltativo e condizionale) Se non disponete di autorizzazioni Contribute o di livello superiore per la visualizzazione, selezionate una nuova visualizzazione dal menu **Visualizza** menu a discesa o creare una vista.
 1. (Facoltativo) Per rimuovere la miniatura, passa il cursore sul campo principale e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png)> **Miniatura** > il **Rimuovi** icona ![](assets/remove-image-icon.png), quindi fai clic su **Salva modifiche**.

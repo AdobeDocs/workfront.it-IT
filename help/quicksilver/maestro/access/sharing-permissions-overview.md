@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 72d044541f8e061c51c4483672a89ce20e4f30d9
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '454'
 ht-degree: 8%
 
 ---
@@ -55,7 +55,7 @@ In Maestro puoi condividere i seguenti oggetti:
    * Utenti
    * Gruppi
 * Gli altri utenti, inclusi gli amministratori di sistema, possono accedere solo alle visualizzazioni create o condivise con loro.
-* È possibile condividere con altri utenti un collegamento a un&#39;area di lavoro o una visualizzazione da una pagina di tipo record. Per poter accedere all&#39;area di lavoro o alla pagina del tipo di record visualizzata nella vista selezionata, gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront.
+* È possibile condividere con altri utenti un collegamento a un&#39;area di lavoro o a una visualizzazione da una pagina del tipo di record. Per poter accedere all&#39;area di lavoro o alla pagina del tipo di record visualizzata nella vista selezionata, gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront.
 
 ## Condivisione delle autorizzazioni per gli oggetti Maestro
 

@@ -6,7 +6,7 @@ description: Questo articolo descrive come trovare e gestire gli obiettivi in Ad
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -71,6 +71,13 @@ You must have the following to perform the activities described in this article:
      <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p> 
     </div> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> 
+    <div> 
+     <p>All users, including Workfront administrators,  must be assigned to a layout template that includes the Goals area in the Main Menu. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 -->
@@ -82,20 +89,20 @@ You must have the following to perform the activities described in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Pro o superiore</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta o superiore</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td> 
+   <td> <p>Richiedi o superiore</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
-   <td> <p>Devi acquistare una licenza aggiuntiva per la funzionalità Obiettivi di Adobe Workfront per accedere alla descritta in questo articolo. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td> 
+   <td> <p>Per accedere alle funzionalità descritte in questo articolo, è necessario acquistare una licenza aggiuntiva per Adobe Workfront Goals. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Livello di accesso*</td> 
-   <td> <p>Modifica l'accesso agli obiettivi</p> <p><b>NOTA</b><p>Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta:</p> 
+   <td> <p>Modifica accesso agli obiettivi</p> <p><b>NOTA</b><p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta:</p> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Concedere l’accesso agli obiettivi di Adobe Workfront</a></span> </p> </li> 
@@ -105,35 +112,38 @@ You must have the following to perform the activities described in this article:
    <td role="rowheader">Autorizzazioni oggetto</td> 
    <td> 
     <div> 
-     <p>Visualizza o autorizzazioni superiori per l'obiettivo di visualizzarlo</p> 
-     <p>Gestisci le autorizzazioni per l'obiettivo di modificarlo</p> 
-     <p>Per informazioni sulla condivisione degli obiettivi, vedi <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p> 
+     <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p> 
+     <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p> 
+     <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p> 
     </div> </td> 
-  </tr> 
- </tbody> 
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>Modello di layout</p></td> 
+   <td> 
+    <div> 
+     <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p> 
+    </div> </td> 
+  </tr>
+
+</tbody> 
 </table>
 
-*Per sapere quale piano, tipo di licenza o accesso si dispone, contattare l&#39;amministratore Workfront.
-
-## Prerequisiti
-
-È necessario disporre dei seguenti elementi prima di poter iniziare:
-
-* Modello di layout che include l’area Obiettivi del menu principale.
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
 
 ## Accedere agli obiettivi di Workfront
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell&#39;angolo in alto a destra, quindi fai clic su **Obiettivi**.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro, quindi fai clic su **Obiettivi**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   Viene visualizzato l’Elenco obiettivi.
+   Viene visualizzato l’elenco Obiettivo.
 
 
    >[!IMPORTANT]
    >
-   >   Quando disponi dell’accesso corretto agli obiettivi di Workfront, puoi visualizzare per impostazione predefinita gli obiettivi creati nell’elenco obiettivi.
+   >   Quando disponi dell’accesso corretto agli obiettivi di Workfront, puoi visualizzare gli obiettivi che hai creato o che sono stati creati da altri utenti nell’Elenco obiettivi per impostazione predefinita.
 
    <!--   
    (NOTE: This might change when sharing is in place; right now, with sharing in place, they can VIEW all goals in the system but they cannot EDIT the ones others created!)
@@ -143,24 +153,23 @@ You must have the following to perform the activities described in this article:
 
    Oppure
 
-   Fai clic su **Nuovo obiettivo** per aggiungere un nuovo obiettivo.
+   Clic **Nuovo obiettivo** per aggiungere un nuovo obiettivo.
 
-   Per informazioni sulla creazione degli obiettivi, vedi [Creare obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+   Per informazioni sulla creazione degli obiettivi, consulta [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 ## Aprire e gestire singoli obiettivi
 
-È necessario accedere a un singolo obiettivo per eseguire le azioni seguenti durante la gestione degli obiettivi:
+Devi accedere a un singolo obiettivo per eseguire le seguenti azioni mentre gestisci i tuoi obiettivi:
 
 * Modifica
-* Aggiungi un risultato o un’attività a esso
+* Aggiungi un risultato o un&#39;attività
 * Modificare i risultati e le attività associate
-* Attivalo
-* Disattiva
+* Attiva
+* Disattivala
 * Elimina
 * Allinea a un altro obiettivo
 * Convertire risultati o attività in altri obiettivi
-* Aggiorna
-
+* Aggiornalo
 <!--
 Accessing goals differs depending on what environment you use.
 
@@ -192,13 +201,13 @@ To access an individual goal in the Production environment:
 
 Per accedere a un singolo obiettivo:
 
-1. Fai clic sul pulsante **Menu principale** nell’angolo in alto a destra di Workfront, quindi fai clic su **Obiettivi** .
-Per impostazione predefinita viene visualizzato l’elenco degli obiettivi.
+1. Fai clic su **Menu principale** nell’angolo superiore destro di Workfront, quindi fai clic su **Obiettivi** .
+L’Elenco obiettivi viene visualizzato per impostazione predefinita.
    ![](assets/goal-list-unshimmed.png)
 1. Fai clic sul nome di un obiettivo nell’elenco.
 Viene visualizzata la pagina dell’obiettivo.
    ![](assets/goal-page-unshimmed.png)
-1. Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra del nome dell&#39;obiettivo per modificare o condividere ulteriormente l&#39;obiettivo.
-1. Fai clic su **Dettagli obiettivo** nel pannello a sinistra per modificare le informazioni sull’obiettivo. Per ulteriori informazioni, consulta [Aggiornare gli obiettivi nella sezione Dettagli obiettivo in Obiettivi di Adobe Workfront](../goal-management/update-goals-in-goal-details-panel.md).
+1. Fai clic su **Altro** menu ![](assets/more-icon.png) a destra del nome dell’obiettivo per modificarlo ulteriormente o condividerlo.
+1. Clic **Dettagli obiettivo** nel pannello a sinistra per modificare le informazioni sull’obiettivo. Per ulteriori informazioni, consulta [Aggiornare gli obiettivi nella sezione dei dettagli Obiettivo in Obiettivi di Adobe Workfront](../goal-management/update-goals-in-goal-details-panel.md).
 
 
