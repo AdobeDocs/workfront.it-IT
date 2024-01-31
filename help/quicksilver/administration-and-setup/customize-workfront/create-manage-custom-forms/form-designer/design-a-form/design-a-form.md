@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 7078abdf49c26f549028fecb8d9358794b90a242
+source-git-commit: d1229f8da39d4df3167a25b7d8b0f2c5d9f1089f
 workflow-type: tm+mt
-source-wordcount: '4927'
+source-wordcount: '5011'
 ht-degree: 3%
 
 ---
@@ -498,7 +498,7 @@ Per aggiungere campi data di completamento automatico:
 
 ### Aggiungere campi di ricerca esterni
 
-Un campo di ricerca esterno richiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Gli utenti che utilizzano l’oggetto a cui è associato il modulo personalizzato possono selezionare una o più di queste opzioni dal menu a discesa.
+Un campo di ricerca esterno richiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Gli utenti che utilizzano l’oggetto a cui è associato il modulo personalizzato possono selezionare una o più di queste opzioni dal menu a discesa. Il campo di ricerca esterno è disponibile anche in elenchi e rapporti.
 
 >[!NOTE]
 >
@@ -541,8 +541,10 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">URL API base</td> 
       <td><p>Digita o incolla l’URL per l’API.</p><p>L’URL API deve restituire il contenuto JSON delle opzioni che desideri visualizzare nel menu a discesa. Puoi utilizzare il campo Percorso JSON per selezionare i valori specifici dal JSON restituito come opzioni a discesa.</p><p>Quando immetti l’URL API, puoi facoltativamente trasmettere i seguenti valori nell’URL:</p>
       <ul><li>$$QUERY - Rappresenta il testo di ricerca digitato dall'utente finale nel campo e consente di implementare il filtro delle query per gli utenti finali. L’utente cercherà il valore nel menu a discesa.</li>
-      <li>$$HOST - Rappresenta l'host Workfront corrente e può essere utilizzato per effettuare chiamate API /search all'API Workfront. Quando si utilizza questo carattere jolly, l'autenticazione viene gestita e gli utenti non devono inviare intestazioni di autenticazione. Ad esempio, gli utenti possono cercare le attività utilizzando l’URL di base "$$HOST/attask/api/task/search", che consente di cercare le attività e selezionare i valori da un elenco di attività restituito.</li>
-      <li>{fieldName} : dove fieldName è un campo personalizzato o nativo in Workfront. In questo modo puoi implementare i filtri delle opzioni a discesa a cascata, quando trasmetti il valore di un campo già selezionato al campo Ricerca esterna per filtrare le opzioni. Ad esempio, il campo Regione esiste già nel modulo e stai restringendo un elenco di paesi dall’API a quelli che si trovano in un’area specifica.</li>
+      <li><p>$$HOST - Rappresenta l'host Workfront corrente e può essere utilizzato per effettuare chiamate API /search all'API Workfront. Quando si utilizza questo carattere jolly, l'autenticazione viene gestita e gli utenti non devono inviare intestazioni di autenticazione. Ad esempio, gli utenti possono cercare le attività utilizzando l’URL di base <code>$$HOST/attask/api/task/search</code> consente inoltre di cercare le attività e di selezionare i valori da un elenco di attività restituito.)<p>
+      <p>Se l’API a cui stai facendo riferimento lo consente, puoi anche includere modificatori nella query di ricerca per identificare come dovrebbe funzionare la ricerca. Ad esempio, puoi utilizzare quanto segue come URL API di base per consentire agli utenti di cercare qualsiasi progetto Workfront che contiene testo specifico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Ulteriori informazioni sui modificatori di ricerca di Workfront in <a href="/help/quicksilver/wf-api/general/api-basics.md">Nozioni di base sulle API</a>.</p></li>
+      <li><p>{fieldName} : dove fieldName è un campo personalizzato o nativo in Workfront. In questo modo puoi implementare i filtri delle opzioni a discesa a cascata, quando trasmetti il valore di un campo già selezionato al campo Ricerca esterna per filtrare le opzioni. Ad esempio, il campo Regione esiste già nel modulo e stai restringendo un elenco di paesi dall’API a quelli che si trovano in un’area specifica.</p>
+      <p>Per un campo di ricerca esterno che ha una dipendenza da altri campi (utilizzando {fieldName} ), le opzioni restituite dall’API sono limitate a quelle che corrispondono a eventuali stringhe o valori immessi negli altri campi. Questa funzionalità non è supportata negli elenchi e nei report.</p></li>
       <li>{referenceObject}.{fieldName} - Se il campo fa parte di un oggetto. Questa sintassi è simile alle espressioni personalizzate. (Ad esempio, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>NOTA:</strong> Consulta la documentazione dell’API con cui stai lavorando per le query specifiche che puoi definire.</p></td>
      </tr>
@@ -585,12 +587,11 @@ Per aggiungere una ricerca esterna:
 >
 >Gli elementi seguenti sono limitazioni tecniche della chiamata all’API esterna:
 >
->* Numero massimo di opzioni: 200 (vengono visualizzate solo le prime 200 opzioni del JSON restituito)
+>* Numero massimo di opzioni: 2000 (vengono visualizzate solo le prime 2000 opzioni univoche del JSON restituito)
 >* Timeout: 3 secondi
 >* Numero di nuovi tentativi: 3
 >* Durata attesa tra nuovi tentativi: 500 ms
 >* Stati di risposta previsti: 2xx
->* Gli utenti possono visualizzare il valore selezionato (e modificarlo) negli elenchi e nei rapporti di Workfront, ma non il menu a discesa con le opzioni provenienti dall’API esterna.
 
 ### Aggiungere immagini, PDF e video
 
