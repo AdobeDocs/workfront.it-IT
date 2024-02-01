@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-source-git-commit: 4888113d57fa083eb4b5e639ed8edb1072b00df3
+source-git-commit: 99b94c246f14110e37b23c95a178efd5b9042a9d
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 0%
@@ -72,7 +72,7 @@ In qualità di amministratore del profilo di prodotto di Workfront (amministrato
 
 ### Cosa aspettarsi il giorno della migrazione
 
-* **La migrazione degli utenti inizierà alla mezzanotte del centro dati Workfront che ospita il cliente. **
+* **La migrazione degli utenti inizierà alla mezzanotte del centro dati Workfront che ospita il cliente.**
 
 * **Adobe esegue prima automaticamente la migrazione degli amministratori di Workfront.** Quando gli amministratori di Workfront vengono migrati a Adobe Identity, viene loro assegnato il ruolo di amministratore del profilo di prodotto di Adobe (amministratore di sistema di Workfront). Eventuali ruoli esistenti di un utente prima della migrazione non saranno interessati.
 
