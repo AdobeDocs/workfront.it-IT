@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: ce015eba8291995eec1611917896a0e797f820cc
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -16,15 +16,7 @@ ht-degree: 0%
 
 # Creare tipi di record di tassonomia
 
->[!IMPORTANT]
->
->Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro, una nuova offerta di Adobe Workfront.
->
->Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare le funzionalità Maestro, devi essere un cliente Workfront.
->
->Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
->
->Per informazioni, consulta [Panoramica di Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Le tassonomie sono tipi di record che acquisiscono attributi sui tipi di record operativi in Adobe Maestro.
 

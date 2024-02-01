@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 5f3d5c93c2fc721dda2dd04adac22190ef6a3f29
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1678'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -26,15 +26,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro, una nuova offerta di Adobe Workfront.
->
->Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare le funzionalità Maestro, devi essere un cliente Workfront.
->
->Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
->
->Per informazioni, consulta [Panoramica di Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 È possibile visualizzare i record in una visualizzazione timeline quando si accede alla pagina del tipo di record in Adobe Maestro.
 
@@ -265,6 +257,12 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 1. Clic **Stile barra** nel pannello a sinistra, per indicare i campi che si desidera visualizzare sulle barre dei record.
 
    Il campo Nome è selezionato per impostazione predefinita. <!--adjust this when the primary field is released??-->
+
+1. (Facoltativo e condizionale) Se ai record sono state aggiunte miniature, selezionare l&#39;opzione Miniatura per visualizzare l&#39;immagine associata ai record nella barra dei record.
+
+   >[!NOTE]
+   >
+   >    Prima di poter visualizzare le miniature nella vista timeline, dovete aggiungerle alla vista tabella. Per ulteriori informazioni, consulta [Aggiungi miniature ai record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. Clic **Aggiungi campo** per aggiungere fino a 4 campi alle barre dei record.
 1. Fai clic all’interno del **Campi ricerca** e fare clic sul campo da aggiungere.

@@ -5,24 +5,16 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: d3c22c84a9b246d1a45853c5d2825241f58bebe9
+source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
 workflow-type: tm+mt
-source-wordcount: '1888'
+source-wordcount: '1825'
 ht-degree: 0%
 
 ---
 
 # Esempio di connessione di tipi di record e record
 
->[!IMPORTANT]
->
->Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro, una nuova offerta di Adobe Workfront.
->
->Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare le funzionalità Maestro, devi essere un cliente Workfront.
->
->Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
->
->Per informazioni, consulta [Panoramica di Adobe Maestro](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Questo articolo descrive un esempio di quanto segue:
 
@@ -186,7 +178,7 @@ Per eseguire questa operazione:
 
      Oppure
 
-     Fai clic su **Altro** a destra di un progetto Workfront, quindi fai clic su **Visualizza**.
+     Fai clic su **Altro** menu a destra di un progetto Workfront, quindi fai clic su **Visualizza**.
 
      ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
 
