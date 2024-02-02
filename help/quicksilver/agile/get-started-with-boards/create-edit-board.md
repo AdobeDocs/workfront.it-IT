@@ -6,9 +6,9 @@ description: Dalla sezione [!UICONTROL schede madri] dashboard, puoi creare una 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 1195738966734e311a1438002454b29c3fa6986a
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '757'
 ht-degree: 1%
 
 ---
@@ -67,6 +67,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       Tutti gli oggetti vengono visualizzati sulla bacheca come schede collegate.
 
       Il [!UICONTROL **Schede aggiunte**] Il contatore mostra il numero di schede che saranno presenti sulla bacheca. Ad esempio, se selezioni un progetto con 100 attività e problemi, il contatore mostra 100. Se aggiungi un’assegnazione utente e tale persona è assegnata a 5 attività sul progetto, il contatore mostra 5.
+
+      >[!NOTE]
+      >
+      >Se sulla bacheca sono presenti più di 1.000 schede, le prestazioni della bacheca ne risentiranno.
 
    1. (Facoltativo) Seleziona [!UICONTROL **Non archiviare le schede completate**] per inserire le attività e i problemi completati nella bacheca come schede visibili nella colonna Completati. Se questa opzione non è selezionata, le schede completate al momento della creazione della bacheca vengono inserite nella bacheca come schede archiviate.
 

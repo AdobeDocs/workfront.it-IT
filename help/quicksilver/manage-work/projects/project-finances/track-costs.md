@@ -4,17 +4,19 @@ product-area: projects
 navigation-topic: financials
 title: Tracciare i costi
 description: Puoi tenere traccia dei costi per progetti, attività e problemi in Adobe Workfront.
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: d431ae178a157522e2b5d8d963da7b0623510d28
 workflow-type: tm+mt
-source-wordcount: '2472'
-ht-degree: 1%
+source-wordcount: '2480'
+ht-degree: 0%
 
 ---
 
 # Tracciare i costi
+
+<!-- Audited: 02/2024 -->
 
 Puoi tenere traccia dei costi per progetti, attività e problemi in Adobe Workfront.
 
@@ -34,7 +36,7 @@ Esistono i seguenti scenari:
 
   Per informazioni sull&#39;associazione delle mansioni alle tariffe, vedere [Creare e gestire le mansioni](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-* Workfront calcola solo il costo effettivo per i problemi e i problemi non hanno un tipo di costo. Per ulteriori informazioni, consulta la sezione [Come Workfront tiene traccia dei costi per i problemi](#how-workfront-tracks-costs-for-issues) in questo articolo.
+* Workfront calcola solo il costo effettivo per i problemi e i problemi non hanno un tipo di costo. Per ulteriori informazioni, consulta la sezione [Come Workfront tiene traccia dei costi per i problemi](#how-workfront-tracks-costs-for-issues) in questo articolo.
 
 >[!TIP]
 >
@@ -51,11 +53,9 @@ Per ulteriori informazioni sul calcolo degli indici di prestazioni dei costi, ve
 
 ## Come Workfront tiene traccia dei costi per attività e progetti
 
-* [Tracciamento dei costi in Workfront](#how-workfront-tracks-costs)
-* [Calcolo dei costi pianificati, preventivati ed effettivi in Workfront](#how-workfront-calculates-planned-budgeted-and-actual-costs)
-* [Modalità di calcolo dei tipi di costo per le attività in Workfront](#how-workfront-calculates-cost-types-for-tasks)
+I tipi di costi vengono calcolati in modo diverso per le attività e per i progetti.
 
-### Tracciamento dei costi in Workfront  {#how-workfront-tracks-costs}
+### Tracciamento dei costi in Workfront {#how-workfront-tracks-costs}
 
 In Workfront è possibile tenere traccia di diversi tipi di costi per attività e progetti. I costi complessivi sono calcolati con la seguente formula:
 
@@ -84,10 +84,10 @@ In Workfront è possibile tenere traccia di diversi tipi di costi per attività 
 
   Per ulteriori informazioni, vedere [Calcolo dei costi pianificati, preventivati ed effettivi in Workfront](#how-workfront-calculates-planned-budgeted-and-actual-costs) in questo articolo.
 
-* **Costi spese** sono associate a Spese per progetti e attività.\
+* **Costi spese** sono associati a spese per progetti e attività.\
   Quando si crea un progetto, è possibile impostare le spese pianificate per l&#39;intero progetto. È inoltre possibile associare le spese ad attività nuove o esistenti. Per informazioni, consulta [Gestisci spese progetto](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
-* **Costi fissi** sono definiti come importo fisso di costo per un progetto. Questa parte del Costo pianificato del progetto rappresenta la quantità di denaro necessaria per completare il progetto.
+* **Costi fissi** sono definiti come importo fisso di costo per un progetto. Questa è parte del Costo Pianificato del progetto, che rappresenta la quantità di denaro necessaria per completare il progetto.
 
   >[!TIP]
   >
@@ -97,10 +97,6 @@ In Workfront è possibile tenere traccia di diversi tipi di costi per attività 
 
 Workfront calcola il Costo pianificato e il Costo effettivo per ogni singola attività di un progetto. Workfront utilizza questi calcoli per le singole attività per calcolare il Costo pianificato e il Costo effettivo del progetto.
 
-* [Costo Pianificato](#planned-cost)
-* [Bdg prv](#budgeted-cost)
-* [Costo Reale](#actual-cost)
-
 #### Costo Pianificato {#planned-cost}
 
 Il costo pianificato di un progetto è il costo associato al lavoro pianificato (ore pianificate) del progetto.
@@ -109,7 +105,7 @@ Il costo pianificato di un progetto viene calcolato con la formula seguente:
 
 `Planned Project Cost = Planned Labor Cost of all tasks + Planned Expense cost of all tasks + Planned Expense Cost of the project + Fixed Cost of the project`
 
-Ad esempio, nella scheda Spese di un&#39;attività sono presenti le seguenti spese: una spesa di marketing di $ 100 e una spesa amministrativa di $ 50. Nella scheda Finanza selezionare il tipo di costo Orario utente. Un utente viene assegnato all&#39;attività e la tariffa oraria dell&#39;utente è pari a $ 15. L’utente è assegnato a lavorare 5 ore su questa attività. Nella scheda Spese del progetto, si dispone di un costo pianificato di 100 $ per una spesa denominata Consulenza. Hai anche un Costo Fisso di 200 $ per il progetto.
+Ad esempio, nella scheda Spese di un&#39;attività sono presenti le seguenti spese: una spesa di marketing di 100 dollari e una spesa amministrativa di 50 dollari. Nella scheda Finanza selezionare il tipo di costo Orario utente. Un utente viene assegnato all&#39;attività e la tariffa oraria dell&#39;utente è pari a $ 15. L’utente è assegnato a lavorare 5 ore su questa attività. Nella scheda Spese del progetto, si dispone di un costo pianificato di 100 $ per una spesa denominata Consulenza. Hai anche un Costo Fisso di 200 $ per il progetto.
 
 Il costo pianificato del progetto viene calcolato come segue:
 
@@ -123,12 +119,12 @@ Il costo preventivato di un progetto è il costo associato al lavoro preventivat
 
 Il costo preventivato del progetto è uguale al costo pianificato del progetto se sono soddisfatte le due condizioni seguenti:
 
-* Le ore pianificate delle attività del progetto corrispondono alle ore pianificate (nella Programmazione delle risorse)
-* Il tipo di fatturazione dell&#39;attività è Ore ruolo.
+* Le ore pianificate delle attività del progetto corrispondono alle ore pianificate (nella Programmazione delle risorse).
+* Il tipo di fatturazione delle attività è Ore ruolo.
 
 Il costo preventivato del progetto viene calcolato utilizzando la formula seguente se vengono soddisfatte le seguenti condizioni:
 
-* Le ore pianificate delle attività del progetto non corrispondono alle ore pianificate (nella pianificazione risorse)
+* Le ore pianificate delle attività del progetto non corrispondono alle ore pianificate (nella pianificazione risorse).
 * Il tipo di fatturazione delle attività è Ore ruolo.
 
 Quando le condizioni di cui sopra sono soddisfatte, Workfront calcola il costo preventivato del progetto utilizzando la seguente formula:
@@ -164,7 +160,7 @@ La tariffa oraria nella formula considera eventuali modifiche effettive alla dat
 >
 >* Per impostazione predefinita, Workfront utilizza la tariffa Costo orario dell&#39;utente per calcolare il Costo effettivo della manodopera.
 >* Se l&#39;utente che registra l&#39;ora non è associato ad alcun costo, Workfront utilizza la tariffa Costo all&#39;ora del ruolo principale dell&#39;utente.
->* Se l&#39;amministratore di Workfront ha abilitato **Assegna mansioni alle ore manualmente** Se si imposta l&#39;opzione nella sezione Preferenze schede orario e ore e l&#39;utente registra il progetto seleziona un ruolo diverso da associare a questo orario, il costo effettivo del progetto viene calcolato in base al ruolo specificato al momento della registrazione delle ore. Per informazioni sull’abilitazione dell’ora di registrazione per una mansione specifica, consulta l’articolo [Configurare le preferenze di orario e scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+>* Se l&#39;amministratore di Workfront ha abilitato **Assegna mansioni alle ore manualmente** Se si imposta l&#39;opzione nella sezione Preferenze schede orario e ore di Configura e l&#39;utente registra il progetto seleziona un ruolo diverso da associare a questo orario, il costo effettivo del progetto viene calcolato in base al ruolo specificato al momento della registrazione delle ore. Per informazioni sull’abilitazione dell’ora di registrazione per una mansione specifica, consulta l’articolo [Configurare le preferenze di orario e scheda orario](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ### Modalità di calcolo dei tipi di costo per le attività in Workfront {#how-workfront-calculates-cost-types-for-tasks}
 
@@ -176,16 +172,14 @@ Per informazioni sulla modifica del tipo di costo di un&#39;attività, vedere [A
 
 Nella tabella seguente vengono descritti i tipi di costo dei task disponibili in Workfront:
 
-<table border="1" cellspacing="15"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
- <thead> 
+<tbody> 
   <tr> 
-   <th> <p><strong>Tipo di costo attività</strong> </p> </th> 
-   <th> <p><strong>Descrizione</strong> </p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
+   <td> <p><strong>Tipo di costo attività</strong> </p> </td> 
+   <td> <p><strong>Descrizione</strong> </p> </td> 
+  </tr>
   <tr> 
    <td> <p>Ore Utente</p> </td> 
    <td> <p>Questo è il tipo di costo predefinito quando si crea un'attività.</p> <p><strong>Costo Pianificato</strong> è calcolato con la seguente formula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </p> <p>Dove il costo della manodopera pianificata è calcolato da:<br><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate of the User assigned to the task</code></p> <p>Nota: <p>Considera i seguenti impatti dell’utilizzo del tipo di costo orario utente e del calcolo del costo pianificato:</p> 
@@ -197,7 +191,7 @@ Nella tabella seguente vengono descritti i tipi di costo dei task disponibili in
   </tr> 
   <tr> 
    <td> <p>Ore Ruolo</p> </td>
-   <td> <p><strong>Costo Pianificato</strong> è calcolato con la seguente formula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Dove il costo manodopera pianificata dell'attività viene calcolato in base a:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: se si assegnano più risorse a un'attività, Workfront adegua i calcoli per le ore pianificate in base alla percentuale dell'attività assegnata a ciascuna risorsa. Inoltre, la tariffa oraria nella formula considera qualsiasi modifica effettiva della data della tariffa.</p> <p><strong>Costo Reale</strong> è calcolato con la seguente formula: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Dove il costo effettivo manodopera task viene calcolato in base a:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Ad esempio, un'attività viene assegnata a una mansione o a un utente con una mansione per la quale la tariffa oraria è di 20 $. Quando un utente registra 5 ore per un’attività, il costo effettivo della manodopera per tale attività è pari a $ 100. Se all'utente assegnato all'attività non è associata alcuna mansione, il costo effettivo viene calcolato in base alla tariffa oraria del relativo Ruolo principale. Se non hanno una mansione o la tariffa Costo orario della loro mansione non è definita, il Costo effettivo dell'attività è pari a zero. </p> <p>Nota:   <p> Le ore effettive di un'attività oraria ruolo vengono calcolate in base ai ruoli degli utenti associati all'attività e non ai ruoli associati all'utente che registra l'ora. Inoltre, la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della data della tariffa.</p> <p>Se l'amministratore di Workfront ha abilitato <strong>Assegna mansioni alle ore manualmente</strong> Se si imposta l'impostazione nella sezione Preferenze schede orario e ore e l'utente registra l'ora per l'attività seleziona un ruolo diverso da associare a questo orario, il costo effettivo di un'attività oraria ruolo viene calcolato in base al ruolo specificato al momento della registrazione delle ore. Per informazioni sull’abilitazione dell’ora di registrazione per una mansione specifica, consulta l’articolo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurare le preferenze di orario e scheda orario</a>.</p> </p> </td> 
+   <td> <p><strong>Costo Pianificato</strong> è calcolato con la seguente formula: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Dove il costo manodopera pianificata dell'attività viene calcolato in base a:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Nota: se si assegnano più risorse a un'attività, Workfront adegua i calcoli per le ore pianificate in base alla percentuale dell'attività assegnata a ciascuna risorsa. Inoltre, la tariffa oraria nella formula considera qualsiasi modifica effettiva della data della tariffa.</p> <p><strong>Costo Reale</strong> è calcolato con la seguente formula: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Dove il costo effettivo manodopera task viene calcolato in base a:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Ad esempio, un'attività viene assegnata a una mansione o a un utente con una mansione per la quale la tariffa oraria è di 20 $. Quando un utente registra 5 ore per un’attività, il costo effettivo della manodopera per tale attività è pari a $ 100. Se all'utente assegnato all'attività non è associata alcuna mansione, il costo effettivo viene calcolato in base alla tariffa oraria del relativo Ruolo principale. Se non hanno una mansione o la tariffa Costo orario della loro mansione non è definita, il Costo effettivo dell'attività è pari a zero. </p> <p>Nota: le ore effettive di un task Ore ruolo vengono calcolate in base ai ruoli degli utenti associati al task e non ai ruoli associati all'utente che registra l'ora. Inoltre, la tariffa oraria di fatturazione nella formula considera qualsiasi modifica effettiva della data della tariffa.</p> <p>Se l'amministratore di Workfront ha abilitato <strong>Assegna mansioni alle ore manualmente</strong> Se si imposta l'impostazione nella sezione Preferenze schede orario e ore in Configurazione e l'utente registra l'ora per l'attività seleziona un ruolo diverso da associare a questo orario, il costo effettivo di un'attività oraria ruolo viene calcolato in base al ruolo specificato al momento della registrazione delle ore. Per informazioni sull’abilitazione dell’ora di registrazione per una mansione specifica, consulta l’articolo <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configurare le preferenze di orario e scheda orario</a>.</p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Ore Fisse</p> </td> 
@@ -210,19 +204,6 @@ Nella tabella seguente vengono descritti i tipi di costo dei task disponibili in
  </tbody> 
 </table>
 
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: drafted because this was moved to its own how-to article linked above. Could be removed after some time.) </p>
-<p>To configure the Cost Type of an individual task:</p>
-<ol>
-<li value="1">Go to the task where you want to configure the Cost Type. </li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Task Details</strong> in the left panel, then expand the <strong>Finance</strong> area. </p> </li>
-<li value="3"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Double click <strong>Cost Type</strong> and select the cost type that you want to apply to the task. </p> </li>
-<li value="4">Click <strong>Save.</strong></li>
-</ol>
-</div>
--->
-
 ## Come Workfront tiene traccia dei costi per i problemi {#how-workfront-tracks-costs-for-issues}
 
 I problemi non hanno e non influiscono sui seguenti tipi di costi di un progetto:
@@ -230,40 +211,25 @@ I problemi non hanno e non influiscono sui seguenti tipi di costi di un progetto
 * Costo Pianificato
 * Bdg prv
 
-Problemi, tuttavia, possono avere un **Costo Reale** che influisce anche sul costo effettivo del progetto.
+Problemi, tuttavia, possono avere un **Costo Reale**, che influisce anche sul costo effettivo del progetto.
 
 Nella tabella seguente viene illustrato come viene calcolato il costo effettivo per i problemi, in base al tipo di assegnazione per il problema:
 
 <table style="table-layout:auto"> 
  <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th colspan="4">Costo effettivo problema</th> 
-  </tr> 
- </thead> 
+ <col>
  <tbody> 
   <tr> 
    <td> <p>Assegnazione utente</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>Costo Reale</strong> è calcolato con la seguente formula:</p> <p><code style="font-style: normal;">Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>La tariffa Costo orario dell’utente che registra l’ora viene presa in considerazione qui, indipendentemente da chi è assegnato al problema. </p> <p>Se l'utente che registra l'ora non dispone di una tariffa Costo orario nel proprio profilo, la tariffa Costo orario della mansione principale calcola il Costo effettivo del problema. Se l'utente che registra l'ora non ha alcun ruolo nel proprio profilo o nessuna tariffa ad esso associata, le ore effettive vengono calcolate utilizzando la tariffa Costo per ora della mansione principale dell'assegnatario principale per il problema. Se per tale ruolo non è stato definito alcun tasso, il costo effettivo del problema è pari a zero. </p> </td> 
+   <td colspan="3"> <p><strong>Costo Reale</strong> è calcolato con la seguente formula:</p> <p><code style="font-style: normal;">Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>La tariffa Costo orario dell’utente che registra l’ora viene presa in considerazione qui, indipendentemente da chi è assegnato al problema. </p> <p>Se l'utente che registra l'ora non dispone di una tariffa Costo orario nel proprio profilo, la tariffa Costo orario della mansione principale calcola il Costo effettivo del problema.</p> <p>Se l'utente che registra l'ora non ha alcun ruolo nel proprio profilo o nessuna tariffa ad esso associata, le ore effettive vengono calcolate utilizzando la tariffa Costo per ora della mansione principale dell'assegnatario principale per il problema. Se per tale ruolo non è stato definito alcun tasso, il costo effettivo del problema è pari a zero. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Assegnazione Ruolo</p> <p> </p> </td> 
-   <td colspan="3"> <p><strong>Costo Reale</strong> è calcolato con la seguente formula:</p><code>Issue Actual Cost = Actual Hours * Cost per Hour Rate of user logging the hours</code> <p>In questo caso, viene preso in considerazione il tasso di costo orario dell’utente che registra l’ora sul problema, indipendentemente dal ruolo assegnato al problema. </p> <p>Se l’utente che registra l’ora non ha una tariffa Costo orario associata, la tariffa Costo orario del suo ruolo principale calcola il Costo effettivo del problema.<br>Se l’utente che registra l’ora non ha alcun ruolo nel profilo o nessuna tariffa associata, il costo effettivo del problema è zero. </p> </td> 
+   <td colspan="3"> <p><strong>Costo Reale</strong> è calcolato con la seguente formula:</p><code>Issue Actual Cost = Actual Hours * Cost per Hour Rate of user logging the hours</code> <p>In questo caso, viene preso in considerazione il tasso di costo orario dell’utente che registra l’ora sul problema, indipendentemente dal ruolo assegnato al problema. </p> <p>Se l’utente che registra l’ora non ha una tariffa Costo orario associata, la tariffa Costo orario del suo ruolo principale calcola il Costo effettivo del problema.</p><p>Se l’utente che registra l’ora non ha alcun ruolo nel profilo o nessuna tariffa associata, il costo effettivo del problema è zero. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Nessuna assegnazione</p> <p> </p> </td> 
    <td colspan="3"> <p><strong>Costo Reale</strong> è calcolato con la seguente formula:</p> <p><code>Issue Actual Cost = Actual Hours * Cost per Hour rate of the user logging the hours</code> </p> <p>Se l'utente che registra l'ora non ha una tariffa Costo orario associata al proprio profilo, la tariffa Costo orario della sua mansione principale calcola il Costo effettivo del problema. </p> <p>Se l'utente che registra l'ora non ha una mansione associata al suo profilo o la sua mansione principale non ha una tariffa Costo per Ora definita, il Costo Reale del problema è zero. </p> </td> 
   </tr> 
-  <!--<tr data-mc-conditions=""> 
-   <td colspan="4"> 
-    <div> <MadCap:conditionalText data-mc-conditions="">
-       If your Workfront administrator enabled the 
-      <strong>Assign Job Roles to hour entries manually</strong> setting in the Timesheets &amp; Hours Preferences area, and the user logging time on the issue selects a different role to associate with this time, the Actual Cost of the issue calculates based on the role specified when the hours were logged. For information about enabling logging time for a specific job role, see the article 
-      <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Configure timesheet and hour preferences</a>. 
-     </MadCap:conditionalText> 
-    </div> </td> 
-  </tr> 
-  -->
  </tbody> 
 </table>
