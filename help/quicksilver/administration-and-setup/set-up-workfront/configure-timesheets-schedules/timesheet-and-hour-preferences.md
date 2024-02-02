@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Come un [!DNL Adobe Workfront] amministratore, puoi specificare le preferenze pe
 >* Elementi bloccati sulla scheda orario
 >* Elementi cercati e aggiunti manualmente alla scheda orario. Per impostazione predefinita, gli elementi aggiunti manualmente vengono bloccati.
 >
->Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+>Per ulteriori informazioni, consulta [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md) e [Panoramica Timesheet](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
 
 

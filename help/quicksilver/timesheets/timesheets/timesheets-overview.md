@@ -7,9 +7,9 @@ description: Puoi utilizzare le schede orario per tenere traccia del tempo trasc
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,6 @@ Per impostazione predefinita, vengono visualizzate tutte le schede orario e le s
 
 1. Fai clic su **Intervallo date** di una scheda orario per aprirla.
 
-   Ogni scheda attività visualizza tutte le attività, i problemi e i progetti per i quali hai effettuato l’accesso. In una scheda attività vengono inoltre visualizzate fino a 45 attività, problemi o progetti assegnati all&#39;utente con date comprese nell&#39;intervallo di tempo della scheda attività, ma per i quali potrebbe non essere stato ancora registrato il tempo.
+   Ogni scheda attività visualizza tutte le attività, i problemi e i progetti per i quali hai effettuato l’accesso. Una scheda orario visualizza inoltre fino a 45 attività e problemi assegnati all&#39;utente con date comprese nell&#39;intervallo di tempo della scheda orario, ma per i quali potrebbe non essere stato ancora registrato il tempo. I 45 elementi aggiornati più di recente vengono selezionati per la visualizzazione nella scheda orario.
 
    Per ulteriori informazioni, consulta [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
