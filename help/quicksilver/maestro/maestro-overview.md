@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
 source-wordcount: '1961'
 ht-degree: 1%
@@ -263,7 +263,7 @@ La tabella seguente mostra i limiti per il numero di oggetti che è possibile cr
 | Oggetto Maestro | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Numero di aree di lavoro per un’istanza Workfront | 1.000 |
-| Numero di tipi di record per un&#39;area di lavoro | 1.000 (incluse le tassonomie per il workspace o gli oggetti importati da applicazioni di terze parti) |
+| Numero di tipi di record per un&#39;area di lavoro | 1.000 (incluse le tassonomie per il workspace o gli oggetti importati da altre applicazioni) |
 | Numero di record per un tipo di record | 10.000 |
 | Numero di campi per un tipo di record o una tassonomia | 500 |
 | Numero di caratteri per un campo di testo | 1.000 caratteri |

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <td>
    <p> Prodotto</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Per collegare i tipi di record Maestro a Experience Manager Assets, devi disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p> </td>
+   </td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
@@ -98,16 +98,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni sulla creazione di tipi di record
 
-* È possibile creare tipi di record in un&#39;area di lavoro eseguendo una delle operazioni seguenti:
+* È possibile creare tipi di record in un&#39;area di lavoro nei modi seguenti:
 
    * Automaticamente:
       * Quando crei un’area di lavoro utilizzando un modello.
 
         Per informazioni, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
       * Quando vengono importati utilizzando un file Excel o CSV. Questa opzione non è disponibile per i tipi di record di tassonomia.
-      * Quando si crea una connessione a tipi di oggetto da un&#39;altra applicazione, quando si aggiungono campi a un tipo di record. In questo modo viene creato un tipo di record di sola lettura in Maestro che è connesso a tipi di oggetto dell&#39;applicazione originale.
-
-     Per informazioni sulla connessione dei tipi di oggetto con i record Maestro, vedere [Collega record](../records/connect-records.md).
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manualmente:
 
       * Da zero.
@@ -126,9 +126,9 @@ Questo articolo descrive come creare tipi di record operativi da zero. La creazi
 
 Per ulteriori informazioni sulle tassonomie, consulta [Creare una tassonomia](../architecture/create-a-taxonomy.md).
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
+Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera creare i tipi di record.
 1. Clic **Aggiungi tipo di record**.
@@ -138,14 +138,14 @@ Per ulteriori informazioni sulle tassonomie, consulta [Creare una tassonomia](..
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
-1. Selezionare le informazioni seguenti:
+1. Aggiorna le seguenti informazioni:
 
-   * **Nome record**: sostituisci &quot;Tipo di record operativo senza titolo&quot; con il nome del tipo di record futuro. <!--correct this - I asked Garik to change this field to "Record type name"-->
+   * **Nome tipo di record**: sostituisci &quot;Tipo di record operativo senza titolo&quot; con il nome del tipo di record futuro.
    * **Aspetto**: definisci il colore e la forma dell’icona associata al tipo di record. Effettua le seguenti operazioni:
       * Selezionare un colore per identificare il nuovo tipo di record. Colore dell&#39;icona del tipo di record. Il grigio è selezionato per impostazione predefinita.
       * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
 
-1. Fai clic all’esterno del **Aggiungi tipo di record** per salvare il record.
+1. Fai clic all’esterno del **Aggiungi tipo di record** per salvare il tipo di record.
 
    La scheda del tipo di record viene aggiunta all&#39;area di lavoro selezionata.
 Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
@@ -171,8 +171,11 @@ Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
 
    Fai clic su **Altro** icona ![](assets/more-menu.png) a destra del nome del tipo di record e fare clic su **Rinomina** per rinominarlo.
 
-1. (Facoltativo) Fai clic su **+ Nuovo &lt; nome tipo di record >** per aggiungere record del tipo di record selezionato. Per ulteriori informazioni, consulta [Crea record](../records/create-records.md).
-1. (Facoltativo) Fai clic su **+** nell&#39;angolo superiore destro della tabella per aggiungere altri campi al tipo di record. Per ulteriori informazioni, consulta [Crea campi](../fields/create-fields.md).
+1. (Facoltativo) Fai clic su **+ Nuovo record** per aggiungere record del tipo di record selezionato. Per ulteriori informazioni, consulta [Crea record](../records/create-records.md).
+1. (Facoltativo) Fai clic su **+** nell&#39;angolo superiore destro della tabella per aggiungere altri campi al tipo di record.
+
+   Per ulteriori informazioni sulla creazione dei campi, consulta [Crea campi](../fields/create-fields.md).
+
 1. (Facoltativo) Fare clic sulla freccia rivolta a sinistra a sinistra del nome del tipo di record per tornare all&#39;area di lavoro selezionata.
 
    Nella scheda del tipo di record viene visualizzato il numero di campi e connessioni contenuti nel tipo di record.
@@ -184,7 +187,7 @@ Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
    * [Crea record](../records/create-records.md)
    * [Elimina tipi di record](../architecture/delete-record-types.md)
    * [Modifica tipi di record](../architecture/edit-record-types.md)
-   * [Gestire le visualizzazioni record in Adobe Maestro](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
+   * [Gestire le visualizzazioni record](../views/manage-record-views.md)
 
 ## Creare tipi di record importando un file Excel o CSV
 
@@ -202,9 +205,9 @@ Quando si importano tipi di record utilizzando un file Excel o CSV, tenere prese
 
 Per importare i tipi di record utilizzando un file di Excel:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell’angolo superiore destro di Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> quindi fai clic su **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
+Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera creare i tipi di record.
 1. Clic **Aggiungi tipo di record**.
@@ -250,20 +253,21 @@ Per importare i tipi di record utilizzando un file di Excel:
 
    Tutti coloro che hanno accesso a Maestro ora possono visualizzare e modificare i tipi di record importati e le loro informazioni. <!--this will change with permissions-->
 
-## Connettere tipi di record con tipi di oggetto di un&#39;altra applicazione
+<!--## Connect record types with object types from another application
 
-È possibile importare tipi di record quando si crea una connessione tra un tipo di record Maestro e un tipo di oggetto da un&#39;altra applicazione. In Maestro viene creato un tipo di record di sola lettura che corrisponde al tipo di oggetto nell’applicazione di terze parti.
+You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
 
-Ad esempio, puoi creare tipi di record collegando i tipi di record Maestro ai progetti Workfront. Di conseguenza, il tipo di oggetto del progetto Workfront viene importato in Maestro come tipo di record di sola lettura. Per impostazione predefinita, il tipo di record è denominato &quot;Workfront Project&quot;. <!--has this name changed? Lusine wanted to change it at some point-->
+For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+    
+You can import the following objects from the following applications: 
 
-È possibile importare i seguenti oggetti dalle applicazioni seguenti:
+* From Workfront:
 
-* Da Workfront:
+    * Projects
+    * Portfolios
+    * Programs
+    * Company
+    * Group
 
-   * Progetti
-   * Portfolio
-   * Programmi
-   * Azienda
-   * Gruppo
-
-Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
+For more information, see [Connect record types](../architecture/connect-record-types.md). 
+-->

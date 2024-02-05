@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1825'
+source-wordcount: '1543'
 ht-degree: 0%
 
 ---
@@ -37,15 +37,15 @@ Si desidera creare un campo nel tipo di record Campaign in cui è possibile visu
 
 Per eseguire questa operazione:
 
-1. Aprire la vista tabella per il tipo di record Campaign.
-1. Fai clic su **+** nell’angolo superiore destro della vista tabella per aggiungere un nuovo campo, quindi fai clic su **Nuova connessione**.
+1. Apri la vista a tabella per il tipo di record Campaign in un’area di lavoro.
+1. Fai clic su **+** nell’angolo superiore destro della vista tabella per aggiungere un nuovo campo, quindi fai clic su **Nuova connessione**, quindi fai clic su **Prodotto** nella sezione workspace selezionata.
 1. Aggiungi le seguenti informazioni, ad esempio:
 
    * **Tipo di record**: prodotto <!--did they change the casing here?-->
    * **Nome**: informazioni sul prodotto. Questo è il nome del campo record collegato.
    * **Descrizione**: questi sono i prodotti a cui voglio associare le mie campagne.
    * **Consenti più record**: se lasci selezionata questa opzione, gli utenti potranno selezionare più record quando il campo del tipo di record collegato (informazioni sul prodotto) viene visualizzato nei record originali (campagne). Nel nostro caso, saranno in grado di selezionare più Prodotti da collegare a una sola Campagna.
-   * **Seleziona campi di ricerca**: se lasci selezionata questa opzione, il **Aggiungi campi di ricerca** Viene visualizzata la casella accanto, per consentire di collegare i campi Prodotto con il tipo di record Campaign. Puoi saltare questo passaggio e aggiungere i campi Prodotto in un secondo momento.
+   * **Seleziona campi di ricerca**: se lasci selezionata questa opzione, il **Aggiungi campi di ricerca** Viene visualizzata la casella accanto, per consentire di collegare i campi Prodotto con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Prodotto in un secondo momento.
 
    ![](assets/new-connection-with-product-record-type.png)
 
@@ -76,7 +76,7 @@ Per eseguire questa operazione:
    >
    >    I campi record collegati sono preceduti dall&#39;icona di relazione ![](assets/relationship-field-icon.png).
 
-1. Per popolare il **Informazioni sul prodotto** campo, da **Campagna** nella vista tabella del tipo di record, crea una campagna aggiungendo una nuova riga nella tabella della pagina del tipo di record Campaign.
+1. Dalla sezione **Campagna** nella vista tabella del tipo di record, crea una campagna aggiungendo una nuova riga nella tabella della pagina del tipo di record Campaign.
 1. Fai clic su **+** all&#39;interno del  **Informazioni sul prodotto** della nuova campagna. Il **Connetti oggetti** viene visualizzata la casella. Il nome del tipo di record a cui si desidera collegare (Product) viene visualizzato nell&#39;angolo superiore sinistro della casella.
 
    ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
@@ -85,7 +85,7 @@ Per eseguire questa operazione:
 
    Nella tabella dei tipi di record di Campaign sono inserite le colonne seguenti:
    * Il **Informazioni sul prodotto** viene compilato il campo relativo al record Campagna con i Prodotti selezionati.
-   * **Budget (da informazioni prodotto)** viene compilato con il valore Budget per ciascun Prodotto selezionato o con un totale di tutti i budget dei prodotti selezionati.
+   * **Budget (da informazioni prodotto)** viene compilato con il valore Budget per ciascun prodotto selezionato o con un totale di tutti i budget dei prodotti selezionati (se è stato selezionato SOMMA per l&#39;aggregatore).
 
    ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
@@ -96,31 +96,31 @@ Per eseguire questa operazione:
 1. Per popolare il **Campagna** campo da **Prodotto** vista tabella, ripetere i passaggi 5-7 a partire dalla vista tabella Tipo di record prodotto e selezionando le informazioni sulla campagna. Verrà aggiornato anche il campo Informazioni prodotto nella tabella della pagina Tipo di record campagna. <!--ensure the step numbers remain correct-->
 
 
-## Collegare un tipo di record Maestro a un tipo di oggetto progetto Workfront e un record a singoli progetti
+## Collegare un tipo di record Maestro a un tipo di oggetto progetto Workfront e collegare un record a singoli progetti
 
 Ad esempio, il tipo di record originale è Campaign.
 
-In Workfront sono presenti anche progetti con un campo denominato &quot;Entrate pianificate&quot;.
+In Workfront sono presenti anche progetti con un campo denominato &quot;Reddito pianificato&quot;.
 
-Desideri creare un campo connessione nel tipo di record Campaign in cui visualizzare i valori del campo Retribuzione pianificata nel progetto in Workfront per determinate campagne.
+Desideri creare un campo di connessione sul tipo di record Campaign in cui visualizzare i valori del campo Planned Revenue (Entrate pianificate) dei progetti in Workfront connessi alle campagne in Maestro.
 
 Per eseguire questa operazione:
 
 1. Vai a un’area di lavoro in cui desideri collegare il tipo di record Campaign ai progetti Workfront.
 1. Apri la vista a tabella per il tipo di record Campaign nell’area di lavoro selezionata.
-1. Fai clic su **+** nell’angolo superiore destro della vista tabella per aggiungere un nuovo campo, quindi fai clic su **Nuova connessione**.
+1. Fai clic su **+** nell’angolo superiore destro della vista tabella per aggiungere un nuovo campo, quindi fai clic su **Nuova connessione**, quindi fai clic su **Progetto** nel **Tipi di oggetto Workfront** sezione.
 1. Aggiungi le seguenti informazioni, ad esempio:
 
-   * **Tipo di record**: progetto Workfront (dalla sottosezione Workfront) <!--did they change the casing here for the field label and did they take "Workfront" out of the name of the object?-->
-   * **Nome**: informazioni sul progetto. Questo è il nome del campo oggetto collegato.
-   * **Descrizione**: questi sono i progetti a cui voglio associare le mie campagne.
+   * **Tipo di record**: progetto Workfront (dalla sottosezione Workfront)
+   * **Nome**: informazioni sul progetto. Questo è un esempio di ciò che è possibile denominare il campo oggetto collegato.
+   * **Descrizione**: questi sono i progetti a cui voglio associare le mie campagne. Questo è un esempio della descrizione del campo record collegato.
    * 
-      * **Consenti più record**: se lasci selezionata questa opzione, gli utenti potranno selezionare più oggetti quando il campo del tipo di oggetto collegato (informazioni sul progetto) viene visualizzato nei record originali (Campagne).
-   * **Seleziona campi di ricerca**: se lasci selezionata questa opzione, il **Aggiungi campi di ricerca** viene visualizzata la casella accanto, che consente di collegare i campi di Project con il tipo di record Campaign. Puoi saltare questo passaggio e aggiungere i campi Progetto in un secondo momento.
+      * **Consenti più record**: se lasci selezionata questa opzione, gli utenti potranno selezionare più progetti quando il campo del tipo di progetto collegato (informazioni sul progetto) viene visualizzato nei record originali (Campagne).
+   * **Seleziona campi di ricerca**: se lasci selezionata questa opzione, il **Aggiungi campi di ricerca** viene visualizzata la casella accanto, che consente di collegare i campi di Project con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Progetto in un secondo momento.
 
    ![](assets/new-connection-tab-with-workfront-option.png)
 
-1. (Condizionale) Se hai selezionato il **Opzione Seleziona campi di ricerca** nel passaggio precedente, dall’elenco di campi associati al **Progetto** tipo di oggetto, fare clic sul pulsante **+** icona per **Reddito Pianificato** , quindi fai clic su **Aggiungi campi**. Questo crea un campo denominato **Retribuzione pianificata (da informazioni progetto)**, che è il nome del campo collegato. In questo campo verranno visualizzate tutte le informazioni del campo Ricavi progetto relative ai record della campagna.
+1. (Condizionale) Se hai selezionato il **Opzione Seleziona campi di ricerca** nel passaggio precedente, dall’elenco di campi associati al **Progetto** tipo di oggetto, fare clic sul pulsante **+** icona per **Reddito Pianificato** , quindi fai clic su **Aggiungi campi**. Questo crea un campo denominato **Retribuzione pianificata (da informazioni progetto)**, che è il nome del campo collegato. Tutte le informazioni contenute nel campo Retribuzione pianificata progetto verranno visualizzate automaticamente in questo campo per i record della campagna.
 
    >[!TIP]
    >
@@ -141,7 +141,7 @@ Per eseguire questa operazione:
    >
    >    I campi oggetto collegato sono preceduti dall&#39;icona di relazione ![](assets/relationship-field-icon.png).
 
-1. Per popolare il **Informazioni progetto** campo, da **Campagna** tipo di record vista tabella, crea una campagna aggiungendo una nuova riga nella tabella.
+1. Dalla sezione **Campagna** tipo di record vista tabella, crea una campagna aggiungendo una nuova riga nella tabella.
 1. Fai clic su **+** all&#39;interno del  **Informazioni progetto** della nuova campagna. Il **Connetti oggetti** viene visualizzata la casella. Il nome del tipo di oggetto a cui si sta effettuando il collegamento (Workfront Project) viene visualizzato nell&#39;angolo superiore sinistro della casella.
 
    ![](assets/connect-objects-box-to-select-projects.png)
@@ -160,49 +160,17 @@ Per eseguire questa operazione:
    >
    >Se non si seleziona un aggregatore per i valori multipli e si selezionano più oggetti nel campo collegato a oggetti, tutti i valori vengono visualizzati separati da virgole.
 
-   * Tipo di record di Workfront Project di sola lettura per l&#39;area di lavoro selezionata.
+1. Fare clic sul nome di un progetto nel campo record connesso.
 
-1. Fare clic sulla freccia rivolta all&#39;indietro a sinistra del nome del record nell&#39;intestazione della pagina per passare all&#39;area di lavoro che si sta aggiornando.
-1. Apri **Progetto Workfront** scheda tipo di record per aprire la pagina tipo di record.
+   Questo apre il progetto Maestro di sola lettura **Dettagli** pagina.
+Rivedi le informazioni sul progetto. Nella pagina Dettagli vengono visualizzati solo i campi progetto selezionati.
 
-   Osservare quanto segue per la pagina Tipo di record Progetto Workfront:
+1. Fai clic su Vai all’origine nell’angolo superiore destro della schermata per aprire il progetto in Workfront, se disponi almeno delle autorizzazioni di visualizzazione per il progetto.
+1. (Facoltativo) Se disponi delle autorizzazioni necessarie, aggiorna le informazioni sul progetto in Workfront.
 
-   * Si tratta di un tipo di record Maestro di sola lettura che non è possibile eliminare o aggiornare.
-   * I progetti selezionati per la connessione alle campagne vengono visualizzati come record separati nella pagina Tipo di record progetto Workfront. I record del progetto sono anche di sola lettura e le relative informazioni vengono aggiornate automaticamente durante l’aggiornamento dei progetti in Workfront. È necessario aggiungere altri progetti dal record Maestro connesso per visualizzarli nel tipo di record Progetto Workfront.
-   * Nel campo Record collegato alla campagna vengono inseriti i nomi delle campagne connesse ai progetti dalla pagina Tipo di record Campagna.
-
-1. (Facoltativo) Per aprire la pagina Dettagli progetto Workfront in Maestro, effettuate una delle seguenti operazioni:
-
-   * Dal tipo di record da cui è stato effettuato il collegamento (**Campagna**), vai al campo record collegato al progetto Workfront (**Informazioni progetto**) e fai clic sul nome di un progetto Workfront.
-   * Dalla sezione **Tabella** vista del **Progetto Workfront** , fare clic sul nome di un progetto Workfront
-
-     Oppure
-
-     Fai clic su **Altro** menu a destra di un progetto Workfront, quindi fai clic su **Visualizza**.
-
-     ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
-
-   Si apre la pagina Maestro Details (Dettagli Maestro) del progetto Workfront collegato. Pagina di sola lettura.
-
-1. (Facoltativo) Per aprire il progetto Workfront collegato in Workfront, effettuate una delle seguenti operazioni:
-
-   * Dalla sezione **Tabella** vista del **Progetto Workfront** , fare clic sul nome di un progetto Workfront,
-
-   Oppure
-
-   Fai clic su **Altro** a destra del nome del progetto Workfront, quindi fai clic su **Vai all&#39;origine**.
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   Viene visualizzata la pagina del progetto Workfront. Se si dispone delle autorizzazioni necessarie, è possibile modificare le informazioni sul progetto Workfront.
-
-1. Fai clic su **Aggiungi campi** icona ![](assets/add-fields-icon.png) nell’angolo superiore destro della tabella dei tipi di record di Workfront Project per aggiungere altri campi di progetto al tipo di record Workfront Project Maestro.
+1. Dalla vista della tabella Campaign, passa il puntatore del mouse su **Informazioni progetto** e fare clic sulla freccia rivolta verso il basso, quindi su **Modificare i campi di ricerca.**
 1. Fai clic su **+** per qualsiasi campo di progetto che desideri aggiungere al record Workfront Project Maestro in **Campi non selezionati** sezione.
 1. Fai clic su **-** per i campi del progetto che si desidera rimuovere dal record Workfront Project Maestro in **Campi selezionati** sezione.
 1. Fai clic su **Salva**.
 
-   >[!TIP]
-   >
-   >    I campi aggiunti al record Workfront Project Maestro vengono aggiunti solo nella pagina Progetto Workfront e non nella pagina Tipo di record Campagna, come campi collegati. Per visualizzare i campi relativi alle campagne, aggiungi i campi del progetto dal campo Informazioni progetto connesso a un oggetto del tipo di record Campagna.
-
-1. (Facoltativo e condizionale) Se hai selezionato di visualizzare almeno due campi data per i progetti, fai clic sul pulsante **Visualizza** nella tabella dei tipi di record di Workfront Project, quindi **Crea visualizzazione** > **Timeline** > **Crea** per creare una vista timeline e visualizzare i progetti su una timeline.
+   Campi collegati aggiuntivi vengono aggiunti al tipo di record Campaign.

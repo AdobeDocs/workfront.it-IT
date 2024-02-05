@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '1040'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ La creazione di record operativi è identica alla creazione di record di tassono
 È possibile creare record in Maestro eseguendo una delle operazioni seguenti:
 
 * Creali manualmente per i tipi di record Maestro
-* Collegali ai record Maestro da applicazioni di terze parti.
+* Collegali ai record Maestro da altre applicazioni.
 * Creare record copiando e incollando informazioni da un elenco esterno.
 
 Questo articolo descrive come creare i record Maestro. Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
@@ -139,22 +139,21 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
 ## Creare record collegandoli da un&#39;altra applicazione
 
-Puoi importare record da altre applicazioni collegandoli a record collegati Maestro. In questo modo viene creato un tipo di record Maestro per l&#39;oggetto connesso dell&#39;applicazione di terze parti. I record collegati ai record Maestro originali vengono visualizzati nella vista della tabella del tipo di record Maestro dell&#39;oggetto collegato a un&#39;applicazione di terze parti.
+Puoi importare record da altre applicazioni collegandoli a record collegati Maestro. In questo modo viene creato un tipo di record Maestro per l&#39;oggetto connesso dell&#39;altra applicazione.
 
 1. Creare un tipo di record Maestro, come descritto in [Crea tipi di record](../architecture/create-record-types.md).
 
 1. Crea record Maestro per il tipo di record creato nel passaggio precedente. Per informazioni, consulta la sezione [Creare record aggiungendoli manualmente a un tipo di record](#create-records-by-manually-adding-them-to-a-record-type) in questo articolo.
 
-1. Creare una connessione a un tipo di oggetto da un&#39;applicazione di terze parti per il tipo di record Maestro creato. Per informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
+1. Creare una connessione a un tipo di oggetto da un&#39;altra applicazione per il tipo di record Maestro creato. Per informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
 
-1. Aggiungi i record dell&#39;applicazione di terze parti ai record Maestro creati in precedenza utilizzando il campo record collegato creato nel passaggio precedente. Per informazioni, consulta [Collega record](../records/connect-records.md).
+1. Aggiungere i record di un&#39;altra applicazione ai record Maestro creati in precedenza utilizzando il campo record collegato creato nel passaggio precedente. Per informazioni, consulta [Collega record](../records/connect-records.md).
 
    I seguenti elementi sono creati in Maestro:
 
-   * Tipo di record Maestro di sola lettura che fa riferimento al tipo di record di terze parti a cui è stato effettuato il collegamento nel campo record connesso.
+   * Tipo di record Maestro di sola lettura che fa riferimento al tipo di record dell&#39;altra applicazione a cui è stato effettuato il collegamento nel campo record connesso.
 
-     Ad esempio, se si collega un tipo di record Maestro a progetti Workfront, nella stessa area di lavoro viene creato un tipo di record di sola lettura denominato &quot;progetti Workfront&quot;.
-   * Record di sola lettura nella pagina del tipo di record di terze parti. I record importati dall&#39;applicazione di terze parti rimangono di sola lettura e possono essere aggiornati solo nell&#39;applicazione originale.
+     Se ad esempio si collega un tipo di record Maestro a un progetto Workfront, nella stessa area di lavoro viene creato un tipo di record di sola lettura denominato &quot;progetto Workfront&quot;. Puoi accedere ai tipi di record Workfront di sola lettura dalla vista a tabella dei record Maestro da cui stai effettuando il collegamento.
 
 ## Creare record copiando e incollando informazioni da un elenco esterno
 
@@ -178,7 +177,7 @@ Puoi importare record da altre applicazioni collegandoli a record collegati Maes
    >
    > Assicurati di avere già creato i campi desiderati in Maestro e che le informazioni nel tuo foglio siano visualizzate nel formato corretto che corrisponde a quello di ciascun campo in Maestro.
 
-1. Dall&#39;applicazione di terze parti selezionare più righe e colonne, quindi incollare le informazioni nella vista tabella del tipo di record, a partire dal primo nuovo record.
+1. In un&#39;altra applicazione, selezionare più righe e colonne, quindi incollare le informazioni nella vista tabella del tipo di record, a partire dal primo nuovo record.
 
    Le seguenti informazioni sono importate in Maestro:
 

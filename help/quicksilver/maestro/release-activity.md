@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 16db6e7fedbea7a95e8e0356c523409db1f78199
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '3730'
+source-wordcount: '3725'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,8 @@ Produzione: 1 febbraio 2024
 
 Anteprima: da determinare
 
-Per evitare confusione e semplificare il flusso di lavoro, sono state rimosse le schede dei tipi di record create a seguito della connessione dei record Maestro con oggetti di applicazioni di terze parti da un&#39;area di lavoro. <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+Per evitare confusione e semplificare la gestione delle aree di lavoro, abbiamo rimosso da un’area di lavoro le schede per tipi di record pronti e generati automaticamente per gli oggetti non Maestro collegati.
+<!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/maestro/records/connect-records.md).
 

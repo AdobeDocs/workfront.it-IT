@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Le tassonomie sono tipi di record che acquisiscono attributi sui tipi di record operativi in Adobe Maestro.
+I tipi di record di tassonomia acquisiscono attributi sui tipi di record operativi in Adobe Maestro.
 
 Ad esempio, Campaign può essere un tipo di record operativo. Di seguito sono riportate le tassonomie che acquisiscono gli attributi relativi al tipo di record Campaign: Area geografica, Pubblico, Paese.
 
@@ -91,19 +91,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni sulla creazione di tassonomie
 
-* È necessario creare un&#39;area di lavoro prima di poter creare tassonomie nell&#39;area di lavoro.
+* È necessario creare un&#39;area di lavoro prima di poter creare tipi di record di tassonomia nell&#39;area di lavoro.
 
   Per informazioni sulle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
 * È possibile creare un tipo di record di tassonomia eseguendo una delle operazioni seguenti:
    * Creali automaticamente quando crei un’area di lavoro utilizzando un modello. Per informazioni, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
    * Creale manualmente, da zero.
-   * Per crearli manualmente, incollare le informazioni da un elenco esterno.
 
-  <!--this is not possible yet:
-  * You can taxonomies to a workspace by doing one of the following:
-    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
-
-* Tutte le tassonomie create di recente sono disponibili nei campi seguenti:
+* Tutti i nuovi tipi di record di tassonomia creati sono disponibili nei campi riportati di seguito.
 
    * Nome <!--if there won't be any more fields, consider rephrasing this-->
 
@@ -111,11 +106,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
   >[!NOTE]
   >
-  >    Le tassonomie create quando si utilizza un modello di area di lavoro dispongono di campi aggiuntivi.
+  >    I tipi di record di tassonomia creati quando si utilizza un modello di area di lavoro dispongono di campi aggiuntivi.
 
-## Creare una tassonomia
+## Creare un tipo di record tassonomia
 
-La creazione di tassonomie è simile alla creazione di un tipo di record operativo da zero o da un modello di workspace.
+La creazione di tipi di record di tassonomia è simile alla creazione di tipi di record operativi da zero o da un modello di workspace.
 
 Per informazioni, vedere la sezione &quot;Creare un tipo di record da zero&quot; nell&#39;articolo [Crea tipi di record](../architecture/create-record-types.md).
 

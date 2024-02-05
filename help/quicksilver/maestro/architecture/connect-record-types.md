@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
 workflow-type: tm+mt
-source-wordcount: '2116'
+source-wordcount: '2222'
 ht-degree: 0%
 
 ---
@@ -32,18 +32,13 @@ author: Alina
 
 È possibile utilizzare Adobe Maestro per progettare aree di lavoro completamente personalizzabili che contengano i tipi di record necessari nella propria organizzazione. Un modo per indicare la correlazione tra i singoli tipi di record consiste nel collegarli. Inoltre, è possibile collegare i tipi di record Maestro a tipi di oggetto di altre applicazioni per migliorare l&#39;esperienza degli utenti e mantenere l&#39;attenzione in un&#39;unica applicazione.
 
-È possibile connettere i seguenti elementi:
-
-* Mettere in relazione tra loro i tipi di record operativi
-* Tassonomie dei maestri tra loro
-* Mettere insieme tipi di record operativi e tassonomie
-* Gestire i tipi di record operativi e le tassonomie con i tipi di oggetto di altre applicazioni.
+È possibile collegare tipi di record Maestro tra loro o tipi di record Maestro con tipi di oggetti di altre applicazioni.
 
 In questo modo è possibile visualizzare i campi del record collegato o del tipo di oggetto su un altro record Maestro.
 
 Questo articolo descrive come collegare due tipi di record Maestro o un tipo di record Maestro a un oggetto di un&#39;altra applicazione.
 
-Una volta stabilita la connessione tra tipi di record o di oggetti, è possibile collegare tra loro singoli record.
+Dopo aver stabilito la connessione tra i record o i tipi di oggetto, è possibile collegare tra loro singoli record.
 
 Per informazioni sulla connessione di un record Maestro a un oggetto di un&#39;altra applicazione, vedere [Collega record](../records/connect-records.md).
 
@@ -99,7 +94,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
    <td> <p>Gestire le autorizzazioni per un’area di lavoro</a> </p>  
-   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create
+   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle che non hanno creato.
 </td>
   </tr>
  </tbody>
@@ -119,8 +114,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni sulla connessione dei tipi di record
 
-Considera quanto segue:
-
 * In Maestro è possibile collegare le seguenti entità:
 
    * Due tipi di record operativi
@@ -130,7 +123,7 @@ Considera quanto segue:
 
   Tutti i tipi di record operativi e le tassonomie devono appartenere allo stesso workspace.
 
-* Con i tipi di record Maestro è possibile collegare i seguenti oggetti dalle seguenti applicazioni:
+* Con i tipi di record Maestro è possibile collegare i seguenti tipi di oggetto dalle seguenti applicazioni:
 
    * Adobe Workfront:
 
@@ -151,31 +144,31 @@ Considera quanto segue:
      >
      >In caso di domande sull’onboarding per Adobe Admin Console, consulta [Domande frequenti sull’esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
+* Dopo aver creato singoli record per un tipo di record, è possibile selezionare i record a cui ci si connette dal campo del tipo di record collegato. Per informazioni, consulta [Collega record](../records/connect-records.md).
+
 * Dopo aver collegato un tipo di record a un altro tipo di record o a un tipo di oggetto di un&#39;altra applicazione, si verificano i seguenti scenari:
 
    * **Quando si collegano due tipi di record**: viene creato un campo record collegato sul tipo di record da cui stai effettuando la connessione. Un campo record collegato simile viene creato nel tipo di record a cui ci si connette.
 
      Ad esempio, se si collega il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo di record collegato denominato &quot;Prodotto collegato&quot; e nel tipo di record Prodotto viene creato automaticamente un tipo di record collegato denominato &quot;Campagna&quot;.
 
-   * **Quando si collega un tipo di record a un tipo di oggetto di un&#39;altra applicazione**: viene creato un campo record collegato sul tipo di record da cui stai effettuando la connessione. Nessun campo record collegato viene creato automaticamente sull&#39;oggetto applicazione di terze parti.
+   * **Quando si collega un tipo di record a un tipo di oggetto di un&#39;altra applicazione**: viene creato un campo record collegato sul tipo di record da cui stai effettuando la connessione. Nessun campo record collegato viene creato automaticamente sul tipo di oggetto dell&#39;altra applicazione.
 
-     Viene creato un nuovo tipo di record di sola lettura Maestro per l&#39;oggetto applicazione di terze parti solo quando gli oggetti effettivi sono collegati ai record Maestro.
+     Un nuovo tipo di record di sola lettura Maestro viene creato per l&#39;oggetto dell&#39;altra applicazione solo quando gli oggetti effettivi sono collegati ai record Maestro.
 
      Per ulteriori informazioni, consulta [Collega record](../records/connect-records.md).
 
-   * **Quando si aggiungono campi di ricerca del record o dell&#39;oggetto a cui ci si connette**: i campi collegati vengono aggiunti al record da cui si sta effettuando la connessione e visualizzano le informazioni dei campi di ricerca selezionati per i record da cui si sta effettuando il collegamento. I campi record sono sempre di sola lettura e vengono compilati automaticamente con i valori dell&#39;oggetto di terze parti.
+   * **Quando si aggiungono campi di ricerca del record o dell&#39;oggetto a cui ci si connette**: puoi collegare i campi dall’oggetto dell’altra applicazione al tipo di record Maestro. Si tratta di campi collegati o di ricerca. I campi collegati visualizzano automaticamente le informazioni dei record o degli oggetti connessi quando si collegano i record o gli oggetti. I campi di ricerca collegati sono sempre di sola lettura e vengono compilati automaticamente con i valori dei record o degli oggetti connessi.
 
-     Ad esempio, se si collega il tipo di record &quot;Campaign&quot; Maestro a un progetto Workfront e si seleziona di inserire il campo Data di completamento pianificata del progetto nel record Maestro, viene automaticamente creato un campo collegato denominato Data di completamento pianificata (da Progetto) per il record da cui si sta effettuando il collegamento.
+     Ad esempio, se colleghi il tipo di record Maestro &quot;Campaign&quot; a un progetto Workfront e selezioni di portare il campo Data di completamento pianificata del progetto al record Maestro, per la campagna viene automaticamente creato un campo collegato denominato Data di completamento pianificata (da progetto). Impossibile modificare manualmente il campo collegato. Nel campo Data di completamento pianificata (da progetto) viene visualizzata la Data di completamento pianificata dei progetti collegati.
 
      >[!IMPORTANT]
      >
-     >    Tutti coloro che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro possono visualizzare le informazioni nei campi collegati, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione di terze parti dei tipi di oggetto collegati.
+     >    Tutti coloro che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro possono visualizzare le informazioni nei campi collegati, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati.
 
 * I campi record collegati sono preceduti da un&#39;icona di relazione ![](assets/relationship-field-icon.png).
 
   I campi collegati sono preceduti da un’icona che identifica il tipo di campo. Ad esempio, icone che indicano che un campo è un numero, un paragrafo o una data.
-
-* Dopo aver creato singoli record per un tipo di record, è possibile selezionare i record a cui ci si connette dal campo del tipo di record collegato. Per informazioni, consulta [Collega record](../records/connect-records.md).
 
 ## Connetti tipi di record
 
@@ -191,15 +184,15 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
-1. In **Tipo di record** , cercare un tipo di record o selezionare una delle opzioni seguenti: <!--is the field name spelled right? lowercase "t"?-->
+1. In **Tipo di record** , cercare un tipo di record o selezionare una delle opzioni seguenti:
 
-   * Un altro tipo di record operativo o una tassonomia dall&#39;area di lavoro selezionata
+   * Un altro tipo di record operativo o una tassonomia dalla sezione dell&#39;area di lavoro selezionata
 
      >[!TIP]
      >
      >Solo i tipi di record e le tassonomie dell&#39;area di lavoro selezionata sono disponibili per la connessione.
      > 
-     >Se nell&#39;area di lavoro selezionata non sono presenti altri tipi di record, il nome dell&#39;area di lavoro non viene visualizzato.
+     >Se nell&#39;area di lavoro selezionata non sono presenti altri tipi di record, la sezione area di lavoro non viene visualizzata.
 
    * A **Progetto, Portfolio, Programma, Società**, o **Gruppo** dal **Tipi di oggetto Workfront** sezione.
    * **Experience Manager Assets** dal **Applicazioni Adobe** sezione.
@@ -209,7 +202,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 1. Aggiorna le seguenti informazioni:
 
-   * **Nome**: nome del campo connesso che verrà visualizzato nella visualizzazione tabella o nella pagina Dettagli del tipo di record originale. In questo modo viene creata la colonna del record collegato nella vista a tabella del tipo di record originale o del campo del record collegato per i record originali. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: nome del campo connesso che verrà visualizzato nella visualizzazione tabella o nella pagina Dettagli del tipo di record originale. In questo modo viene creata la colonna del record collegato nella vista a tabella del tipo di record originale o del campo del record collegato per i record originali.
 
    >[!TIP]
    >
@@ -217,11 +210,15 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    * **Descrizione**: informazioni aggiuntive sul campo record connesso. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Consenti più record**: seleziona questa opzione per indicare che gli utenti possono aggiungere più record quando il campo del tipo di record collegato viene visualizzato nei record originali. Questa opzione è selezionata per impostazione predefinita.
-   * **Seleziona campi di ricerca**: seleziona questa opzione per aggiungere campi dal tipo di record selezionato. I campi di ricerca sono associati al record o al tipo di oggetto a cui si sta effettuando il collegamento.  Questa opzione è selezionata per impostazione predefinita.
+   * **Seleziona campi di ricerca**: seleziona questa opzione per aggiungere campi dal tipo di record selezionato. I campi di ricerca sono campi associati al record o al tipo di oggetto a cui si sta effettuando il collegamento. Il collegamento consente di visualizzare le informazioni del record o dell&#39;oggetto a cui si sta effettuando il collegamento nel record di cui si desidera creare il collegamento. Questa opzione è selezionata per impostazione predefinita.
 
-1. (Condizionale e facoltativo) Se si è selezionato di collegare un oggetto Workfront, selezionare un **Modulo personalizzato** dal **Collega solo i progetti che corrispondono a questi criteri** sezione. <!--this needs to be updated for each object when they fix this UI.--> Solo gli oggetti a cui sono allegati i moduli personalizzati selezionati possono essere collegati al tipo di record Maestro selezionato. È possibile selezionare più moduli.
+1. (Condizionale e facoltativo) Se si è selezionato di collegare un oggetto Workfront, selezionare un **Modulo personalizzato** dal **Collega solo gli oggetti che corrispondono a questi criteri** sezione. Solo gli oggetti a cui sono allegati i moduli personalizzati selezionati possono essere collegati al tipo di record Maestro selezionato. È possibile selezionare più moduli.
 
    ![](assets/workfront-project-connection-selection.png)
+
+   >[!NOTE]
+   >
+   > È necessario creare moduli personalizzati in Workfront per gli oggetti selezionati prima che vengano visualizzati in questo elenco.
 
 1. (Condizionale) Se hai selezionato di connetterti a Experience Manager Assets, seleziona un archivio da **archivio Experienci Manager** menu a discesa nella **Collegare le risorse dal seguente archivio** sezione. Questo campo è obbligatorio. In questo campo vengono visualizzati solo gli archivi a cui hai accesso in Experience Manager Assets.
 
@@ -239,9 +236,11 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
+   I valori dei campi collegati vengono compilati automaticamente dopo il collegamento di record o oggetti.
+
    >[!IMPORTANT]
    >
-   >    Tutti coloro che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro possono visualizzare le informazioni nei campi collegati, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione di terze parti dei tipi di oggetto collegati.
+   >    Tutti coloro che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro possono visualizzare le informazioni nei campi collegati, indipendentemente dalle autorizzazioni o dal livello di accesso nell&#39;applicazione dei tipi di oggetto collegati.
 
 
 1. (Facoltativo) Fai clic su **Ignora** e non aggiungere campi dal record o dall&#39;oggetto collegato. Il **Nome** del record collegato è l&#39;unico campo visibile nella visualizzazione tabella del record originale.
@@ -281,9 +280,11 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    * Campo record collegato sul tipo di record da cui si sta eseguendo il collegamento. Nel campo record collegato verranno visualizzati i singoli record del tipo di record collegato, dopo averli aggiunti manualmente. Per informazioni sull&#39;aggiunta di record, vedere [Collega record](/help/quicksilver/maestro/records/connect-records.md). Il nome del campo record collegato è il nome selezionato al passaggio 6. <!--accurate-->
 
-   * Campo o campi collegati che visualizzano le informazioni dei campi del tipo di record collegato dopo l&#39;aggiunta manuale dei record nel campo del record collegato. I campi collegati vengono creati solo quando **Seleziona campi di ricerca** durante la creazione della connessione. I campi collegati sono denominati in base a questo pattern:
+   * Campo o campi collegati che visualizzano le informazioni dei campi del record o dei tipi di oggetto collegati dopo l&#39;aggiunta manuale dei record o degli oggetti nel campo record collegato. I campi collegati vengono creati solo quando **Seleziona campi di ricerca** durante la creazione della connessione. I campi collegati vengono denominati automaticamente in base a questo pattern:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
+
+     Ad esempio, se hai collegato un tipo di record Campagna con un tipo di record Programma e denomini il campo del record collegato al Programma &quot;Informazioni sul programma&quot;, quindi hai selezionato di visualizzare anche il campo Budget del programma nella vista a tabella della campagna, il campo collegato viene automaticamente denominato `Budget (from Program information)` nella vista tabella della campagna.
 
    * Quando si collegano tra loro tipi di record Maestro, viene aggiunto anche un campo di record collegato al tipo di record a cui si sta effettuando il collegamento. Il nome del campo record collegato nel tipo di record collegato è il nome del tipo di record da cui si esegue il collegamento.
 
@@ -291,9 +292,9 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
      >[!TIP]
      >
-     > Un campo record collegato al tipo di record da cui si sta effettuando il collegamento non viene creato per gli oggetti di un&#39;applicazione di terze parti.
+     > Non viene creato un campo record collegato per gli oggetti di un&#39;altra applicazione al tipo di record da cui si esegue il collegamento in Maestro.
 
-1. (Facoltativo) Nella visualizzazione per tabella del tipo di record originale o del tipo di record collegato fare clic sulla freccia rivolta verso il basso nell&#39;intestazione dei campi del record collegato, quindi scegliere una delle opzioni seguenti:
+1. (Facoltativo e condizionale) Nella vista tabella del tipo di record originale o del tipo di record collegato fare clic sulla freccia rivolta verso il basso nell&#39;intestazione dei campi del record collegato, quindi scegliere una delle opzioni seguenti:
 
    * **Modifica campo**: puoi aggiornare solo il **Nome** e **Descrizione** informazioni sul campo.
    * **Modifica campi di ricerca**: aggiungi o rimuovi i campi del record collegato.
@@ -304,14 +305,10 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    >[!NOTE]
    >
-   > Non è possibile aggiungere i campi di ricerca del record da cui si effettua il collegamento al tipo di record collegato che indica un oggetto in un&#39;applicazione di terze parti.
+   > Non è possibile aggiungere campi di ricerca che appartengono a tipi di record Maestro da cui si esegue il collegamento a tipi di oggetto da un&#39;altra applicazione.
    >
-   > Ad esempio, non è possibile aggiungere il campo di ricerca di un oggetto Maestro &quot;Campaign&quot; dal campo record collegato &quot;Campaign&quot; visualizzato nel tipo di record Progetto Maestro quando si collega a progetti Workfront.
+   > Ad esempio, non è possibile aggiungere il campo di ricerca &quot;Stato campagna&quot; a un progetto Workfront a cui ti stai collegando dalle campagne.
 
-1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso nell&#39;intestazione del campo record collegato dal tipo di record da cui si sta eseguendo il collegamento, quindi fare clic su **Elimina**.
+1. (Facoltativo) Fai clic sulla freccia rivolta verso il basso nell’intestazione di un campo record collegato o nell’intestazione di un campo di ricerca dal tipo di record da cui stai eseguendo il collegamento, quindi fai clic su **Elimina**.
 
-   Il campo record ed eventuali campi di ricerca collegati aggiuntivi vengono eliminati e non è possibile recuperare i campi e le relative informazioni.
-
-   >[!TIP]
-   >
-   >    Il campo del record collegato nel tipo di record a cui si sta effettuando il collegamento non viene eliminato. <!-- is this still accurate?! -->
+   Il campo record o il campo di ricerca vengono eliminati. Se si elimina un campo record, vengono eliminati anche tutti i campi di ricerca associati al record collegato.
