@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,8 @@ Puoi utilizzare sia i campi Workfront incorporati che i campi personalizzati gi�
      <tr> 
       <td role="rowheader">Formato</td> 
       <td> <p>Il formato in cui si desidera memorizzare e visualizzare i risultati del campo.</p> <p>Se si prevede di utilizzare il campo nei calcoli matematici, utilizzare sempre un <strong>Numero</strong> o un <strong>Valuta</strong> formato. Quando selezionate Numero (Number) o Valuta (Currency), il sistema tronca automaticamente i numeri che iniziano con 0.</p> 
-      <p><b>IMPORTANTE</b>: <p>Prima di scegliere un formato, considerare il formato corretto per il nuovo campo. Impossibile modificare il campo di formato dopo il salvataggio del modulo personalizzato. La selezione del formato errato potrebbe inoltre influire sui calcoli futuri e sui valori aggregati nei raggruppamenti di report ed elenchi.</p> </td> 
+      <p><b>IMPORTANTE</b>: <p>Prima di scegliere un formato, considerare il formato corretto per il nuovo campo. Impossibile modificare il campo di formato dopo il salvataggio del modulo personalizzato. La selezione del formato errato potrebbe inoltre influire sui calcoli futuri e sui valori aggregati nei raggruppamenti di report ed elenchi.</p>
+      <p><strong>NOTA:</strong> I campi calcolati con un formato Valuta non devono includere virgolette. (Ad esempio, utilizzare 800.00 e non "800.00"). L’utilizzo delle virgolette può causare conseguenze impreviste a causa di sfumature con la formattazione della lingua per i tipi di valuta.</p></td> 
      </tr> 
     </tbody> 
    </table>
