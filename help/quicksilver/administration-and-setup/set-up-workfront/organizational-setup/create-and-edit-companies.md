@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
 workflow-type: tm+mt
-source-wordcount: '1414'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -150,7 +150,7 @@ Quando un [!DNL Workfront] l’amministratore assegna un gruppo a una società, 
 
 Con questo accesso alla [!UICONTROL Aziende] , un amministratore gruppo può assegnare un gruppo a una società, ma deve trattarsi di una società creata dall&#39;amministratore gruppo. Se il livello di accesso dell&#39;amministratore del gruppo non è configurato con l&#39;accesso amministrativo alle società, [!UICONTROL Gruppo] Questo campo è obbligatorio quando l’amministratore del gruppo crea la società: il suo titolo in grassetto indica che:
 
-![](assets/manage-company-group-field-req.jpg)
+![Modifica società](assets/group-admin-add-company.png)
 
 Per informazioni su come gli utenti ottengono l’accesso amministrativo alle aziende nel loro livello di accesso, consulta [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
