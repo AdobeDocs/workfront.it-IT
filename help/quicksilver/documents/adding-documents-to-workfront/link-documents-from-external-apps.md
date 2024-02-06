@@ -6,9 +6,9 @@ description: Puoi collegare documenti e cartelle ad Adobe Workfront da origini e
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
 workflow-type: tm+mt
-source-wordcount: '2563'
+source-wordcount: '2578'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Puoi collegare documenti e cartelle ad Adobe Workfront dalle seguenti origini:
     </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Bozza Workfront </td> 
+   <td role="rowheader">Workfront Proof </td> 
    <td>In Workfront è possibile rendere disponibili le bozze create originariamente in Workfront Proof. Per utilizzare questa funzione, è necessario un piano Pro Workfront o superiore per le licenze correnti. Per le nuove licenze, tutti i piani includono questa funzione. Per ulteriori informazioni sui vari piani disponibili, vedere <a href="https://www.workfront.com/plans">Piani Workfront</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
@@ -232,6 +232,10 @@ In Workfront Proof è possibile collegare solo le bozze per le quali si dispone 
 ## Caricare e collegare un documento da Workfront a un provider cloud esterno
 
 Puoi caricare e collegare un documento da Workfront a un provider cloud esterno. In questo modo l’archiviazione del documento viene spostata da Workfront al provider cloud esterno. Quando il documento viene modificato nell&#39;applicazione esterna, viene aggiornato automaticamente in Workfront.
+
+>[!NOTE]
+>
+>Quando si invia una risorsa a un provider di documenti esterno, viene creata una nuova versione della risorsa.
 
 Gli utenti senza accesso a Workfront possono visualizzare il documento nell’applicazione esterna se hanno accesso all’applicazione.
 
