@@ -7,9 +7,9 @@ description: "Rapporto: Ore preventivate"
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '657'
 ht-degree: 1%
 
 ---
@@ -17,18 +17,14 @@ ht-degree: 1%
 # Report: Ore preventivate
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resouce Management and it is super important.) </p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
 Quando desideri condividere le informazioni sulle Ore preventivate con altri utenti che non hanno accesso alla Programmazione delle risorse, puoi creare un rapporto sulle Ore preventivate. Puoi quindi condividere il rapporto con loro.
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This info is also added and drafted in the article "View Budget Hours in a report" in the Resource Planning section. Consider deleting this article?!)</p>
--->
-
 >[!IMPORTANT]
 >
->Le ore preventivate vengono aggiornate ogni ora nel database di Adobe Workfront. L’aggiornamento del rapporto non aggiorna necessariamente le informazioni sulle ore in esso contenute. Puoi visualizzare il tempo trascorso dall’ultimo aggiornamento nell’angolo in alto a destra di ogni rapporto sulle ore preventivate. L’aggiornamento del rapporto aggiorna le informazioni in esso contenute solo quando è trascorsa più di un’ora dall’ultimo aggiornamento.
+>Le ore preventivate vengono di solito aggiornate ogni ora (raramente, può richiedere un massimo di tre ore) nel database di Adobe Workfront. L’aggiornamento del rapporto non aggiorna necessariamente le informazioni sulle ore in esso contenute. Puoi visualizzare il tempo trascorso dall’ultimo aggiornamento nell’angolo in alto a destra di ogni rapporto sulle ore preventivate. L’aggiornamento del rapporto aggiorna le informazioni in esso contenute solo quando è trascorsa più di un’ora dall’ultimo aggiornamento.
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 

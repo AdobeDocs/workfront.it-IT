@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 57ea12e1da0ad326910021b2d2349c6d1eba4b69
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '848'
 ht-degree: 4%
 
 ---
@@ -81,7 +81,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr> 
       <td role="rowheader">Abilita l’utilizzo delle informazioni della sessione durante la creazione degli URL delle pagine esterne</td> 
-      <td> <p>Consente agli utenti di utilizzare le informazioni ID sessione di un sito quando si aggiunge una pagina esterna a un dashboard.</p> <p>Per ulteriori informazioni sull'aggiunta di pagine esterne a un dashboard, vedere <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporare una pagina web esterna in una dashboard</a>.</p> </td> 
+      <td> <p>Consente agli utenti di utilizzare le informazioni ID sessione di un sito quando si aggiunge una pagina esterna a un dashboard.</p> <p>Questa opzione non è sicura e disattivata per impostazione predefinita. Si consiglia invece di utilizzare OAuth per le integrazioni.</p> <p>Per ulteriori informazioni sull'aggiunta di pagine esterne a un dashboard, vedere <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Incorporare una pagina web esterna in una dashboard</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Consentire alle persone di utilizzare le applicazioni mobili di Workfront e <strong>Workfront</strong> Componente aggiuntivo per Outlook</td> 

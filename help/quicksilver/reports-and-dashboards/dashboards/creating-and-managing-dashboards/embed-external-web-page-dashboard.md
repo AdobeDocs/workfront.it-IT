@@ -6,9 +6,9 @@ description: Puoi incorporare una pagina web esterna in una dashboard per fornir
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1014'
 ht-degree: 0%
 
 ---
@@ -131,6 +131,11 @@ Per visualizzare la pagina esterna, è necessario aver effettuato l&#39;accesso 
         Per ulteriori informazioni sulle preferenze di protezione del sistema, vedere [Configurare le preferenze di sicurezza del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
+     >[!WARNING]
+     >
+     >L&#39;utilizzo di SessionID non è sicuro e consigliato.
+     >
+
    * **Altezza**: digita un numero maggiore di 0 per definire lo spazio occupato dalla pagina esterna sul dashboard. L&#39;altezza predefinita è 500.
 
 1. Fai clic su **Salva**.
@@ -158,7 +163,7 @@ Per aggiornare le informazioni per una pagina esterna utilizzata in un dashboard
 
 1. In **Modifica pagina esterna** , aggiorna i campi che desideri modificare, quindi fai clic su **Salva**.
 1. (Facoltativo) Fai clic su **Elimina** icona ![](assets/delete.png) per rimuovere la pagina esterna dal dashboard. Per ulteriori informazioni, consulta [Rimuovere una pagina esterna da un dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
 ## Visualizzare pagine esterne in un rapporto
 

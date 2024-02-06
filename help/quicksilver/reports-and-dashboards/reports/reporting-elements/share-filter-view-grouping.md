@@ -6,9 +6,9 @@ description: Puoi condividere filtri, viste e raggruppamenti a cui hai accesso p
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1211'
 ht-degree: 1%
 
 ---
@@ -117,13 +117,7 @@ Condividi un filtro tramite l’interfaccia standard di generazione:
 
    Viene visualizzata la casella Condivisione filtro.
 
-1. Abilita **Visualizza a livello di sistema** impostazione. In questo modo, chiunque disponga dell’autorizzazione Workfront potrà visualizzare il filtro.
-
-   >[!IMPORTANT]
-   >
-   >Usare questa impostazione con cautela. L’aggiunta di molti filtri per tutti gli utenti ridurrà l’esperienza del filtro e renderà più difficile trovare i filtri.
-
-   Oppure inizia a digitare i nomi di utenti, team, ruoli, gruppi o aziende con cui desideri condividere in **Concedi accesso a** campo.
+1. Inizia a digitare i nomi di utenti, team, ruoli, gruppi o aziende con cui desideri condividere in **Concedi accesso a** campo.
 
    ![Casella Condivisione filtro](assets/new-filters-share-filter.png)
 
@@ -144,7 +138,7 @@ Condividi un filtro tramite l’interfaccia standard di generazione:
    >
    >Gli utenti non possono ricevere un’autorizzazione superiore al loro livello di accesso. Se non hanno accesso a Modifica filtri nel loro livello di accesso, non possono ricevere le autorizzazioni per gestire un filtro. Workfront disabilita l’opzione Gestisci per questi utenti e l’opzione è disabilitata.
 
-1. Clic **Condividi**. Il filtro viene condiviso con le entità specificate.
+1. Fai clic su **Condividi**. Il filtro viene condiviso con le entità specificate.
 
    >[!TIP]
    >
