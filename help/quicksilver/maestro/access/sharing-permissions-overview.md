@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 8%
+source-wordcount: '499'
+ht-degree: 7%
 
 ---
 
@@ -42,12 +42,9 @@ In Maestro puoi condividere i seguenti oggetti:
 
 ## Considerazioni sulla condivisione di oggetti in Maestro
 
-* Per creare aree di lavoro in Maestro è necessario disporre della seguente licenza:
+* Il tipo di licenza Adobe Workfront funziona in combinazione con le autorizzazioni Maestro per consentirti di visualizzare, contribuire o gestire oggetti Maestro.
 
-   * Nuovo modello di prezzo: Licenza standard
-   * Modello di determinazione prezzi corrente: licenza Pianificazione.
-
-  Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+  Per informazioni sull&#39;effetto dei tipi di licenza sui livelli di autorizzazione per gli oggetti Maestro, vedere [Panoramica del tipo di licenza in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 * Gli amministratori di sistema possono gestire e condividere le aree di lavoro create da altri utenti.
 * Se non sei un amministratore di sistema, puoi contribuire alle aree di lavoro create da altri utenti se sono condivise con te.
 * Non è possibile condividere le aree di lavoro in blocco.
@@ -60,6 +57,13 @@ In Maestro puoi condividere i seguenti oggetti:
 ## Condivisione delle autorizzazioni per gli oggetti Maestro
 
 Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è possibile selezionare quando si condivide un&#39;area di lavoro o una visualizzazione Maestro e le funzionalità consentite da ogni livello.
+
+>[!IMPORTANT]
+>
+>Non tutti gli utenti possono disporre dei livelli di autorizzazione descritti di seguito. La licenza individuale degli utenti determina il livello di autorizzazioni che possono ricevere per gli oggetti Maestro.
+>
+>Per informazioni, consulta [Panoramica del tipo di licenza in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+
 
 ### Autorizzazioni di Workspace
 

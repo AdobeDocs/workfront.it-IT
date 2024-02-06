@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 86f9a88518c8a03643061b3328719d2da4016f2b
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -53,9 +53,15 @@ Per utilizzare Adobe Maestro è necessario disporre delle seguenti impostazioni:
    <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
    <td>
    <p>Qualsiasi</p>
-   Per creare le aree di lavoro, gli utenti devono disporre della seguente licenza: 
-   <ul><li><p>Nuovo: Standard</p> </li>
-   <li><p>Corrente: lavoratore o versione successiva</p> </li></ul>
+   <p>Per creare le aree di lavoro, è necessario disporre della seguente licenza:</p>
+   <ul>
+   <li>
+   Nuovo: Standard
+   </li>
+   <li>
+   Corrente: lavoratore o versione successiva
+   </li>
+   </ul>
   </td>
   </tr>
   <tr>
@@ -66,7 +72,7 @@ Per utilizzare Adobe Maestro è necessario disporre delle seguenti impostazioni:
 <tr>
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
-   <p>Contribuire o concedere autorizzazioni superiori alle aree di lavoro e alle visualizzazioni non create per modificarle, eliminarle e condividerle</p>
+   <p>Autorizzazioni di Contribute o di livello superiore per aree di lavoro e visualizzazioni non create per modificarle, eliminarle e condividerle, nonché per creare, modificare o eliminare tipi di record e record.</p>
     <p>Gli amministratori di sistema possono gestire le aree di lavoro e le visualizzazioni non create </p>
    <p>Per informazioni sulle autorizzazioni di condivisione per gli oggetti Maestro, consulta  
    <a href="../access/sharing-permissions-overview.md">Panoramica delle autorizzazioni di condivisione in Adobe Maestro</a> 
@@ -109,10 +115,16 @@ Maestro non dispone di controlli di accesso.
 
 Gli utenti con qualsiasi tipo di licenza possono accedere a Maestro.
 
+Per informazioni sulla concessione dell’accesso in Workfront, consulta [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
 ## Concedere le autorizzazioni
 
 È necessario concedere agli utenti che non sono amministratori di sistema le autorizzazioni per le aree di lavoro e le visualizzazioni create per consentire loro di accedervi.
 
 Per ulteriori informazioni, consulta [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+Il tipo di licenza Adobe Workfront funziona in combinazione con le autorizzazioni Maestro per consentirti di visualizzare, contribuire o gestire oggetti Maestro.
+
+Per informazioni sull&#39;effetto dei tipi di licenza sui livelli di autorizzazione per gli oggetti Maestro, vedere [Panoramica del tipo di licenza in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

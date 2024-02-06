@@ -3,10 +3,10 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: aada8f08093734e6323ba47632f4f9a0f5e496c7
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '13888'
-ht-degree: 0%
+source-wordcount: '13894'
+ht-degree: 1%
 
 ---
 
@@ -413,7 +413,7 @@ ht-degree: 0%
       * [Differenze basate sulla piattaforma](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
    * Configurare Workfront {#set-up-wf}
       * [Configurazione](administration-and-setup/set-up-workfront/set-up-workfront.md)
-      * Configurare i valori predefiniti di sistema {#configure-system-defaults}
+      * Configurare le impostazioni predefinite del sistema {#configure-system-defaults}
          * [Configura impostazioni predefinite](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [Configurare le preferenze del progetto](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [Configurare le preferenze per attività e problemi](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
@@ -466,7 +466,7 @@ ht-degree: 0%
          * [Modificare il profilo di un utente](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
          * [Modificare i profili utente in blocco](administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)
          * [Creare referenti diretti](administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md)
-         * [Accedi come altro utente](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
+         * [Accedere come un altro utente](administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md)
          * [Reimpostare le preferenze di un utente](administration-and-setup/add-users/create-and-manage-users/reset-a-users-preferences.md)
          * [Modificare un nome utente](administration-and-setup/add-users/create-and-manage-users/change-a-username.md)
          * [Modificare la password per un utente con provisioning automatico](administration-and-setup/add-users/create-and-manage-users/change-pw-auto-provisioned-user.md)
@@ -675,8 +675,8 @@ ht-degree: 0%
          * [Aggiornamento dei metadati SAML 2.0 nell’IDP quando si utilizza l’autenticazione avanzata](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
       * Tassi di cambio {#exchange-rates}
          * [Tassi di cambio](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
-         * [Imposta tassi di cambio](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
-      * Gestisci elementi eliminati {#manage-deleted-items}
+         * [Impostare i tassi di cambio](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
+      * Gestire gli elementi eliminati {#manage-deleted-items}
          * [Gestisci elementi eliminati](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [Ripristina elementi eliminati](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
          * [Visualizza elemento ripristinato](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
@@ -764,7 +764,7 @@ ht-degree: 0%
       * [Configurare le integrazioni dei documenti](administration-and-setup/configure-integrations/configure-document-integrations.md)
       * [Disattiva integrazioni documenti](administration-and-setup/configure-integrations/disable-document-integrations.md)
       * [Configurare l’integrazione di SharePoint](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
-      * [Impostare la mappatura dei metadati](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+      * [Configurare la mappatura dei metadati](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
       * [Creare pacchetti Creative Cloud di Adobe Workfront per i tuoi utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
       * [Creazione di applicazioni OAuth2 per le integrazioni Workfront](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Visualizzazione e gestione di applicazioni OAuth2 personalizzate](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
@@ -873,7 +873,7 @@ ht-degree: 0%
       * [Panoramica della sezione Aggiornamenti](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [Aggiorna lavoro](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [Limiti di caratteri nei campi](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
-      * [Rispondi agli aggiornamenti](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
+      * [Rispondere agli aggiornamenti](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
       * [Rispondi alle notifiche e-mail](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
       * [Assegna tag ad altri utenti in caso di aggiornamenti](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [Visualizzare tutti gli aggiornamenti in un report Nota](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
@@ -989,7 +989,7 @@ ht-degree: 0%
       * [Creare o modificare una bacheca](agile/get-started-with-boards/create-edit-board.md)
       * [Eliminare o archiviare una bacheca](agile/get-started-with-boards/delete-archive-board.md)
       * [Aggiungere o rimuovere membri da una bacheca](agile/get-started-with-boards/add-members-to-board.md)
-      * [Gestisci colonne bacheca](agile/get-started-with-boards/manage-board-columns.md)
+      * [Gestire le colonne di una bacheca](agile/get-started-with-boards/manage-board-columns.md)
       * [Aggiungere una scheda ad hoc a una bacheca](agile/get-started-with-boards/add-card-to-board.md)
       * [Utilizzare le schede collegate sulle bacheche](agile/get-started-with-boards/connected-cards.md)
       * [Aggiungere attività o problemi esistenti a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
@@ -1482,7 +1482,7 @@ ht-degree: 0%
    * Suggerimenti, trucchi e risoluzione dei problemi per team e gruppi {#tips-tricks-people-teams-groups}
       * [Suggerimenti, trucchi e risoluzione dei problemi per team e gruppi](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [Nome utente già in uso](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
-* Generazione rapporti {#reporting}
+* Reporting {#reporting}
    * [Report e dashboard: indice degli articoli](reports-and-dashboards/reports-and-dashboards-overview.md)
    * Reporting Canvas {#reporting-canvas}
       * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
@@ -1771,7 +1771,7 @@ ht-degree: 0%
    * Approvazioni lavoro {#work-approvals}
       * [Approvazioni lavoro](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [Panoramica del processo di approvazione](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-      * [Richiedi approvazioni documenti](review-and-approve-work/manage-approvals/request-document-approvals.md)
+      * [Richiedere le approvazioni dei documenti](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [Approvazione del lavoro](review-and-approve-work/manage-approvals/approving-work.md)
       * [Visualizza approvazioni](review-and-approve-work/manage-approvals/view-approvals.md)
       * [Ricordare agli approvatori le approvazioni inviate](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)
@@ -2033,6 +2033,7 @@ ht-degree: 0%
       * [Informazioni di accesso](maestro/access/access-information.md)
       * [Panoramica degli accessi](maestro/access/access-overview.md)
       * [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+      * [Panoramica del tipo di licenza in Adobe Maestro](maestro/access/license-type-overview.md)
       * [Condividere le aree di lavoro](maestro/access/share-workspaces.md)
       * [Condividere le visualizzazioni](maestro/access/share-views.md)
    * Record Adobe Maestro {#adobe-maestro-records}
@@ -2357,7 +2358,7 @@ ht-degree: 0%
       * [Applicare un’allocazione budget Anaplan a un progetto Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [Creare un elemento dell’elenco Anaplan da una richiesta di Adobe Workfront campaign](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Applicare un’allocazione budget Anaplan a una richiesta o a un progetto di campagna Adobe Workfront](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Bozza Workfront {#workfront-proof}
+* Workfront Proof {#workfront-proof}
    * [Workfront Proof: indice articolo](workfront-proof/workfront-proof.md)
    * Guida introduttiva a Workfront Proof {#get-started-wf-proof}
       * [Guida introduttiva a Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)

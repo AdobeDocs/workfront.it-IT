@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 83b4aa974fe0d9ba2ace797b52198b15fc55f5d8
+source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -166,6 +166,8 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    >   * La modifica del campo principale in una vista tabella ha effetto su tutte le viste tabella.
    >
    >   * Non è possibile eliminare o nascondere un campo principale.
+   >
+   >   * Il valore elencato nel campo primario è sempre collegato alla pagina Dettagli del record.
 
 1. Fate clic sulle linee di separazione delle colonne e trascinatele nel punto desiderato per aumentare la larghezza delle colonne.
 
@@ -214,7 +216,7 @@ Puoi avere fino a 10.000 record (o righe) per un tipo di record in Maestro.
 
    I record aggiunti nella vista tabella vengono salvati immediatamente e sono visibili a tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
 
-1. (Facoltativo) Aggiungi una miniatura a ciascun record, quindi fai clic su **Campi** nell&#39;angolo superiore destro della tabella e selezionare l&#39;opzione per il campo Miniatura per visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
+1. (Facoltativo) Aggiungi una miniatura a ciascun record e fai clic su **Campi** nell’angolo superiore destro della tabella, quindi seleziona l’opzione per **Miniatura** per visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
 
    Per informazioni, consulta [Aggiungi miniature ai record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
