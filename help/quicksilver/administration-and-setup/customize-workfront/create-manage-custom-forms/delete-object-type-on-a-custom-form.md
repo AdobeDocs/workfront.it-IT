@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Eliminare tipi di oggetto in un modulo personalizzato
 description: In un modulo personalizzato esistente è possibile eliminare i tipi di oggetto associati al modulo. Dopo questa operazione, gli utenti non potranno più allegare il modulo a oggetti di quel tipo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
 
 # Eliminare tipi di oggetto in un modulo personalizzato
+
+{{highlighted-preview}}
 
 In un modulo personalizzato esistente è possibile eliminare i tipi di oggetto associati al modulo. Dopo questa operazione, gli utenti non potranno più allegare il modulo a oggetti di quel tipo.
 
@@ -28,21 +30,24 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Piano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Eliminare tipi di oggetto in un modulo personalizzato
 
@@ -56,13 +61,13 @@ Un modulo personalizzato deve avere almeno un tipo di oggetto.
 >
 >In generale, si consiglia di ridurre al minimo il numero di volte in cui si modifica un modulo personalizzato già in uso. Non esiste un sistema di notifica per avvisare gli utenti che utilizzano il modulo personalizzato delle modifiche.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Forms personalizzato** nel pannello a sinistra.
-1. Seleziona il modulo personalizzato da modificare, quindi fai clic su **Modifica**.
+1. Seleziona il modulo personalizzato da modificare, quindi fai clic su **Modifica** <span class="preview">o ![Icona Modifica](assets/edit-icon.png).</span>
 1. Fai clic sulla X su uno qualsiasi dei **Tipi di oggetto** da eliminare dal modulo, quindi fare clic su **Elimina** sul messaggio di avviso visualizzato.
 
    ![](assets/click-x-object-types.jpg)
 
 1. (Facoltativo) Ripetere il passaggio precedente per qualsiasi altro tipo di oggetto che si desidera rimuovere dal modulo.
-1. Clic **Fine**, quindi fai clic su **Chiudi e salva**.
+1. Clic **Fine**, quindi fai clic su **Salva e chiudi**.

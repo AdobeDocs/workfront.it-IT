@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: Quando il lavoro definito in un elemento di lavoro diventa troppo grande, è possibile convertirlo in un elemento di lavoro più grande.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
 
 # Trasferimento dei dati del modulo personalizzato durante la conversione di un oggetto
+
+{{highlighted-preview}}
 
 A seconda delle esigenze aziendali dell’organizzazione, il lavoro definito in un’attività o in un problema potrebbe diventare troppo grande da gestire all’interno dell’attività o del problema. In questo caso, è possibile convertirli in un elemento di lavoro più grande:
 
@@ -35,29 +37,33 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Piano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Primo: aggiungere altri oggetti al modulo personalizzato
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Forms personalizzato**.
-1. Trova il modulo desiderato, quindi fai clic su **Modifica**.
+1. Trova il modulo desiderato, quindi fai clic su **Modifica** <span class="preview">o ![Icona Modifica](assets/edit-icon.png).</span>
 1. Nella parte superiore del modulo, aggiungi l’oggetto in cui intendi convertire l’attività o il problema.
+
    >[!INFO]
    >
    >**Esempio**: per trasferire i dati del modulo personalizzato a un progetto, seleziona Progetto.

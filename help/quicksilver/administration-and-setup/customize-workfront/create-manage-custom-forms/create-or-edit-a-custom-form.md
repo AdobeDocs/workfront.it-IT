@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: 8af1890b2e2ae613279b5191cf8f2190364fb524
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Creare o modificare un modulo personalizzato con il generatore di moduli legacy
 
 <!--Audited: 01/2024-->
+
+{{highlighted-preview}}
 
 Puoi creare o modificare un nuovo modulo personalizzato. Entrambe le attività sono illustrate in questo articolo.
 
@@ -34,23 +36,23 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Piano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td><p>Nuovo: Standard</p>
+   <p>oppure</p>
    <p>Corrente: Piano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Inizia a creare un modulo personalizzato
 
@@ -110,7 +112,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    I moduli personalizzati vengono visualizzati in un elenco. Puoi rivedere tutti i moduli personalizzati e i campi personalizzati creati per la tua organizzazione. È inoltre possibile vedere chi ha creato ogni modulo, gli oggetti associati e se è attivo.
 
-1. Seleziona il modulo personalizzato da modificare, quindi fai clic su **Modifica**.
+1. Seleziona il modulo personalizzato da modificare, quindi fai clic su **Modifica** <span class="preview">o ![Icona Modifica](assets/edit-icon.png).</span>
 1. (Facoltativo) Per modificare il titolo e la descrizione del modulo personalizzato, fai clic sul pulsante **Impostazioni modulo** , quindi digita un **Titolo modulo** e **Descrizione**.
 
 1. (Facoltativo) Se si desidera aggiungere altri tipi di oggetto al modulo in modo che possa essere allegato a più oggetti, fare clic sul segno più + dopo **Tipi di oggetto**, quindi seleziona il tipo desiderato nel menu visualizzato.

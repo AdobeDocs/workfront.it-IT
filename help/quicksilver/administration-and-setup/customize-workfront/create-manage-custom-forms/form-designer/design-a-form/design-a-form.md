@@ -3,14 +3,14 @@ title: Progettare un modulo con il progettista del modulo
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: È possibile progettare un modulo personalizzato con il progettista del modulo.
-author: Courtney
+description: È possibile progettare un modulo personalizzato con il progettista del modulo. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: a9d9ae15f4d80fa6e09414459417cfd2b57daf42
 workflow-type: tm+mt
-source-wordcount: '5096'
+source-wordcount: '5075'
 ht-degree: 3%
 
 ---
@@ -28,28 +28,28 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Piano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td>
-   <p>Nuovo piano: Standard</p>
+   <p>Nuovo: Standard</p>
    <p>oppure</p>
-   <p>Piano corrente: piano</p></td> 
+   <p>Corrente: Piano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Inizia a progettare un modulo personalizzato
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Forms personalizzato** nel pannello a sinistra.
 
@@ -678,7 +678,7 @@ Per aggiungere immagini, PDF o video:
 
    Clic **Salva e chiudi**.
 
-#### **Aggiungere un widget video a un modulo personalizzato dall’area Documenti**{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Aggiungere un widget video a un modulo personalizzato dall’area Documenti{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >

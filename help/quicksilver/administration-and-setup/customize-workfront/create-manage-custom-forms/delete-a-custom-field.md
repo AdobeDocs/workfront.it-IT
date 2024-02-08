@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Eliminare un campo personalizzato o un widget dal sistema
 description: Per migliorare le prestazioni del sistema e semplificare l'utilizzo dei moduli da parte degli utenti, è possibile rimuovere campi e widget personalizzati dal sistema quando non sono più utilizzati.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -36,28 +36,31 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Piano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Eliminare un campo personalizzato o un widget dal sistema
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Clic **Forms personalizzato.**
-1. Fai clic su **Campi** scheda.
+1. Clic **Campi** per aprire l&#39;area Campi.
 1. Seleziona il campo o il widget personalizzato, quindi fai clic su **Elimina**.
 1. Se si è certi di voler eliminare definitivamente l&#39;elemento e (nel caso di un campo personalizzato) tutti i dati associati sugli oggetti a cui è stato associato, fare clic su **Sì, elimina**.
 

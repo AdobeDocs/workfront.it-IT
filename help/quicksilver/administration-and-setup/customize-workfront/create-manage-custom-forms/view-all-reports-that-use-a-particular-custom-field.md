@@ -1,13 +1,13 @@
 ---
 title: Visualizzare tutti i rapporti che utilizzano un particolare campo personalizzato o widget
 description: Nell’area Forms personalizzata è possibile aggiungere una visualizzazione personalizzata che mostra quali rapporti utilizzano un particolare campo personalizzato o widget. Questa funzione è utile quando devi modificare o eliminare il campo o il widget, perché potrebbe già essere implementato in uno o più rapporti. È importante valutare se quei rapporti avranno bisogno di aggiustamenti per continuare a funzionare correttamente.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -27,38 +27,39 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Piano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Elencare i rapporti che utilizzano un particolare campo personalizzato o widget
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
-1. Apri **Campi** per visualizzare un rapporto che elenca tutti i campi personalizzati e i widget nell’istanza Workfront.
+1. Clic **Campi** per visualizzare un rapporto in cui sono elencati tutti i campi personalizzati e i widget nell’istanza di Workfront.
 
-   ![](assets/fields-tab.png)
-
-1. Fai clic su **Visualizza** nell’intestazione nella parte superiore dell’elenco, quindi controlla eventuali viste personalizzate nell’elenco che includono **Rapporti** (che non è una colonna predefinita in questa scheda).
+1. Fai clic su **Visualizza** , quindi verificare la presenza di eventuali viste personalizzate nell&#39;elenco che includono **Rapporti** (che non è una colonna predefinita in questa scheda).
 
    Nella colonna Rapporti è possibile visualizzare i rapporti che utilizzano ogni campo personalizzato e widget aggiunto a un modulo personalizzato nel sistema. È possibile che un utente abbia già creato una visualizzazione che include **Rapporti** colonna.
 
 1. Se non viene visualizzata una visualizzazione che include **Rapporti** , crea una nuova visualizzazione che la includa:
 
-   1. Fai clic su **Visualizza** menu a discesa, quindi fai clic su **Nuova visualizzazione**.
+   1. Fai clic su **Visualizza** , quindi fai clic su **Nuova visualizzazione**.
 
    1. Il giorno **Nuova visualizzazione** pagina visualizzata, nella casella accanto all&#39;angolo superiore sinistro sostituire **Nuova vista parametro** con un nome descrittivo per la visualizzazione, ad esempio *Campi e widget*.
 

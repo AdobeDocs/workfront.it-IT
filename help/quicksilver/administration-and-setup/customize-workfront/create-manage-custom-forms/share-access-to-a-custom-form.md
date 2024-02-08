@@ -4,18 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: È possibile configurare l'accesso per un modulo personalizzato in modo da controllare chi, persona, ruolo, gruppo, team, azienda, può visualizzarlo, condividerlo e modificarlo.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '848'
 ht-degree: 1%
 
 ---
 
 # Condividere un modulo personalizzato
+
+{{highlighted-preview}}
 
 È possibile configurare l&#39;accesso per un modulo personalizzato in modo da controllare chi, persona, ruolo, gruppo, team, azienda, può visualizzarlo, condividerlo e modificarlo.
 
@@ -28,21 +30,24 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Piano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Accesso ai moduli personalizzati {#access-to-custom-forms}
 
@@ -57,10 +62,10 @@ Tuttavia, in un oggetto in cui il modulo personalizzato non è già allegato, un
 
 Anziché lasciare un modulo personalizzato nello stato di condivisione predefinito (come descritto in [Accesso ai moduli personalizzati](#access-to-custom-forms) in questo articolo), puoi configurare livelli specifici di accesso al modulo per determinati utenti, ruoli, gruppi, team e aziende.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
-1. Seleziona il modulo personalizzato, quindi fai clic su **Condividi**.
+1. Seleziona il modulo personalizzato, quindi fai clic su **Condividi** <span class="preview">o ![Icona Condividi](assets/share-icon.png).</span>
 1. Nella casella visualizzata, sotto **Concedi accesso al modulo personalizzato a**, inizia a digitare il nome dell’utente, del team, della mansione, del gruppo o dell’azienda con cui vuoi condividere il modulo personalizzato, quindi premi **Invio** quando viene visualizzato il nome.
 1. Per regolare l’accesso per l’utente, il team, la mansione, il gruppo o la società appena aggiunti, fai clic sul menu a discesa a destra del nome, quindi configura una delle seguenti opzioni disponibili e le relative impostazioni avanzate:
 
@@ -106,10 +111,10 @@ Anziché lasciare un modulo personalizzato nello stato di condivisione predefini
 
 ## Rimuovere l’accesso a un modulo personalizzato
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
-1. Seleziona il modulo personalizzato, quindi fai clic su **Condividi**.
+1. Seleziona il modulo personalizzato, quindi fai clic su **Condividi** <span class="preview">o ![Icona Condividi](assets/share-icon.png).</span>
 1. Nella casella visualizzata fare clic sulla X a destra del nome dell&#39;utente, del team, della mansione, del gruppo o della società a cui non si desidera più avere accesso speciale al modulo.
 1. (Facoltativo) Ripeti il passaggio precedente a per altri nomi da rimuovere.
 1. Fai clic su **Salva**.

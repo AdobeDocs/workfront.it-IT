@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
-source-git-commit: a46ad2d847372c153e2da29e0545d70cdb6e04f7
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
 source-wordcount: '969'
 ht-degree: 0%
@@ -78,7 +78,7 @@ Il modo migliore per imparare ad aggiungere logica di visualizzazione e salto a 
 
 1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. Nel pannello a sinistra, fai clic su **Forms personalizzato** ![](assets/custom-forms-icon.png).
+1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
 
 1. Crea il modulo personalizzato di esempio:
 

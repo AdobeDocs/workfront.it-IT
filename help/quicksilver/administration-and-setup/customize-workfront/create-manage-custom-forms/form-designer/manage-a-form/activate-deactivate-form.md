@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: È possibile riattivare o disattivare un modulo personalizzato. È consigliabile disattivare i moduli personalizzati anziché eliminare i moduli che non vengono più utilizzati per conservare i dati storici.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 3319fbfad98350635b7194a434f26e8528753e7b
+source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -32,21 +32,24 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Piano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p></td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso amministrativo ai moduli personalizzati</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Disattivare un modulo personalizzato
 
@@ -56,16 +59,18 @@ Anche i campi di un modulo personalizzato inattivo sono ancora disponibili per l
 
 Per disattivare un modulo personalizzato:
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Nel pannello a sinistra, scegli **Forms personalizzato**.
-1. Il giorno **Forms** , selezionare il modulo personalizzato che si desidera disattivare.
+1. In **Forms** , selezionare il modulo personalizzato che si desidera disattivare.
 1. Nella colonna È attivo scegliere **Falso** e fai clic su fuori dalla colonna. Modulo non più attivo.
 
 ## Riattivare un modulo personalizzato
 
 Se si riattiva un modulo personalizzato, vengono mantenute le impostazioni precedenti e gli utenti possono interagire con esso come se non fosse mai stato disattivato.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Nel pannello a sinistra, scegli **Forms personalizzato**.
-1. Il giorno **Forms** , selezionare il modulo personalizzato da riattivare.
+1. In **Forms** , selezionare il modulo personalizzato che si desidera riattivare.
 1. Nella colonna È attivo scegliere **Vero** e fai clic su fuori dalla colonna. Il modulo è ora attivo.
