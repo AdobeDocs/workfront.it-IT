@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '2227'
+source-wordcount: '2379'
 ht-degree: 1%
 
 ---
@@ -163,15 +163,19 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Seleziona un **Tabella** vista da **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
 1. (Facoltativo) Aggiungere record al tipo di record selezionato aggiungendo una nuova riga alla tabella. Per informazioni, consulta [Crea record](../../maestro/records/create-records.md).
-1. Da un record elencato nella vista a tabella, passare alla colonna del record collegato, fare clic all&#39;interno del campo del record collegato, quindi fare clic su **+** icona.
+1. (Condizionale) Dopo aver collegato il tipo di record selezionato con un altro tipo di record, passare alla colonna del record collegato e fare doppio clic sulla cella corrispondente al record che si desidera collegare con altri record.
+
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Esegui una delle operazioni seguenti:
+
+   * Fare clic sul nome di un record connesso nell&#39;elenco per aggiungerlo al record selezionato. Il record viene aggiunto automaticamente.
+   * Iniziare a digitare il nome di un record e fare clic su di esso quando viene visualizzato nell&#39;elenco. Il record viene aggiunto automaticamente.
+   * Clic **Vedi tutto** per visualizzare tutti i record.
+
+1. (Condizionale) Se hai fatto clic **Seleziona tutto** nel passaggio precedente, il **Connetti oggetti** viene visualizzata la casella.
 
    ![](assets/connected-objects-table-for-records.png)
-
-   >[!TIP]
-   >
-   >    È possibile aprire la pagina Dettagli di un record, trovare il campo record collegato e fare clic sul pulsante **+** nel campo per aggiungere record dal record o dal tipo di oggetto connesso.
-
-   Il **Connetti oggetti** viene visualizzata la casella.
 
 1. Iniziare a digitare il nome di un record nella casella di ricerca, quindi selezionarlo quando viene visualizzato nell&#39;elenco
 
@@ -179,10 +183,14 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Selezionare il nome di uno o più record nella casella, quindi fare clic su **Connetti oggetti** nell&#39;angolo superiore destro della casella Connetti oggetti.
 
+   >[!TIP]
+   >
+   >    È possibile aprire la pagina Dettagli di un record, trovare il campo record collegato e fare clic sul pulsante **+** nel campo per aggiungere record dal record o dal tipo di oggetto connesso.
+
    Sono aggiunti i seguenti elementi:
 
    * I record collegati vengono visualizzati nel campo record collegato del record selezionato al passaggio 6. <!--accurate?-->
-   * I campi collegati vengono compilati con le informazioni dei record collegati.
+   * I campi collegati vengono compilati con le informazioni dei record collegati, se sono stati aggiunti campi di ricerca collegati al momento della connessione dei tipi di record.
 
    L&#39;aggiornamento dei record collegati aggiorna automaticamente i campi collegati per i record da cui si sta effettuando il collegamento. Non è possibile modificare manualmente i campi collegati.
 
@@ -221,17 +229,19 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 1. Seleziona un **Tabella** vista da **Visualizza** menu a discesa.
 
 1. Clic **Nuovo record**  per aggiungere singoli record al tipo di record selezionato. Per informazioni, consulta [Crea record](../../maestro/records/create-records.md).
-1. (Condizionale) Se il tipo di record selezionato è stato collegato a un oggetto Workfront, passare alla colonna dell&#39;oggetto collegato e passare il puntatore del mouse sulla cella corrispondente al record che si desidera collegare agli oggetti di Workfront, quindi fare clic sul pulsante **+** icona.
+1. (Condizionale) Dopo aver collegato il tipo di record selezionato a un tipo di oggetto Workfront, passare alla colonna oggetto collegato e fare doppio clic sulla cella corrispondente al record che si desidera collegare agli oggetti da Workfront.
 
-   Il **Connetti oggetti** viene visualizzata la casella.
+   ![](assets/connect-projects-smaller-box-in-table-view.png)
+
+1. Esegui una delle operazioni seguenti:
+
+   * Fare clic su un oggetto dall&#39;elenco per aggiungerlo al record selezionato. Gli oggetti sono elencati in ordine alfabetico. L&#39;oggetto viene aggiunto automaticamente.
+   * Iniziare a digitare il nome di un oggetto e fare clic su di esso quando viene visualizzato nell&#39;elenco. L&#39;oggetto viene aggiunto automaticamente.
+   * Clic **Vedi tutto** per visualizzare tutti gli oggetti che si dispone almeno delle autorizzazioni di visualizzazione.
+
+1. (Condizionale) Se hai fatto clic **Vedi tutto** nel passaggio precedente, il **Connetti oggetti** viene visualizzata la casella.
 
    ![](assets/connect-objects-box-to-select-projects.png)
-
-   >[!TIP]
-   >
-   >    È possibile aprire la pagina Dettagli di un record, trovare il campo record collegato e fare clic sul pulsante **+** nel campo per aggiungere oggetti dal tipo di oggetto connesso.
-
-   Per ulteriori informazioni sulla connessione di tipi di record con oggetti di un&#39;altra applicazione, vedere [Connetti tipi di record](../architecture/connect-record-types.md).
 
 1. Inizia a digitare il nome di un oggetto Workfront nella casella di ricerca, quindi selezionalo quando viene visualizzato nell’elenco
 
@@ -249,6 +259,12 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    * Gli oggetti Workfront selezionati vengono aggiunti al campo record collegato.
    * Se sono stati aggiunti quando il tipo di record è stato connesso a Workfront, i campi collegati (o i campi di ricerca) degli oggetti Workfront vengono automaticamente compilati con le informazioni di Workfront.
+
+   >[!TIP]
+   >
+   >È possibile aprire la pagina Dettagli di un record, trovare il campo record collegato e fare clic sul pulsante **+** nel campo per aggiungere oggetti dal tipo di oggetto connesso.
+
+   Per ulteriori informazioni sulla connessione di tipi di record con oggetti di un&#39;altra applicazione, vedere [Connetti tipi di record](../architecture/connect-record-types.md).
 
 1. (Facoltativo) Fai clic sul nome di un oggetto Workfront connesso a un record Maestro nel campo collegato di una vista a tabella o nel campo collegato del **Dettagli** pagina del record Maestro.
 
@@ -298,7 +314,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 1. Seleziona un **Tabella** vista da **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
 
 1. (Facoltativo) Fai clic su **Nuovo record** per aggiungere nuovi record al tipo di record selezionato. Per informazioni, consulta [Crea record](../../maestro/records/create-records.md).
-1. (Condizionale) Se il tipo di record selezionato è stato collegato a Experience Manager Assets, passare alla colonna dell&#39;oggetto collegato e passare il puntatore del mouse sulla cella corrispondente al record che si desidera collegare ad altri oggetti da Experience Manager, quindi fare clic sul pulsante **+** icona.
+1. (Condizionale) Dopo aver collegato il tipo di record selezionato a Experience Manager Assets, passa alla colonna dell’oggetto collegato e passa il puntatore del mouse sulla cella corrispondente al record da collegare ad altri oggetti da Experience Manager, quindi fai clic sul pulsante **+** icona.
 
    >[!TIP]
    >

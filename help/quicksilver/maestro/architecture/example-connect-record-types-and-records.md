@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,30 @@ Per eseguire questa operazione:
    >    I campi record collegati sono preceduti dall&#39;icona di relazione ![](assets/relationship-field-icon.png).
 
 1. Dalla sezione **Campagna** nella vista tabella del tipo di record, crea una campagna aggiungendo una nuova riga nella tabella della pagina del tipo di record Campaign.
-1. Fai clic su **+** all&#39;interno del  **Informazioni sul prodotto** della nuova campagna. Il **Connetti oggetti** viene visualizzata la casella. Il nome del tipo di record a cui si desidera collegare (Product) viene visualizzato nell&#39;angolo superiore sinistro della casella.
 
-   ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
+1. Fai doppio clic all’interno del  **Informazioni sul prodotto** della nuova campagna.
 
-1. Seleziona i record Prodotto che desideri collegare ai record Campaign, quindi fai clic su **Connetti oggetti**.
+   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Esegui una delle operazioni seguenti:
+
+   * Fare clic sul nome di un prodotto connesso dall&#39;elenco per aggiungerlo al record selezionato. Il prodotto viene aggiunto automaticamente.
+   * Inizia a digitare il nome di un prodotto e fai clic su di esso quando viene visualizzato nell’elenco. Il prodotto viene aggiunto automaticamente.
+   * Clic **Vedi tutto** per visualizzare tutti i prodotti.
+
+1. (Condizionale) Se hai fatto clic **Seleziona tutto** nel passaggio precedente, il **Connetti oggetti** viene visualizzata la casella.
+
+   ![](assets/connected-objects-table-for-records.png)
+
+1. Inizia a digitare il nome di un prodotto nella casella di ricerca, quindi selezionalo quando viene visualizzato nell’elenco
+
+   Oppure
+
+   Seleziona i record Prodotto che desideri collegare ai record Campaign, quindi fai clic su **Connetti oggetti**.
+
+   >[!TIP]
+   >
+   >    Puoi aprire la pagina Dettagli di una campagna, trovare il campo del record collegato e fare clic su **+** nel campo per aggiungere prodotti dal tipo di record Prodotto connesso.
 
    Nella tabella dei tipi di record di Campaign sono inserite le colonne seguenti:
    * Il **Informazioni sul prodotto** viene compilato il campo relativo al record Campagna con i Prodotti selezionati.
@@ -142,13 +161,32 @@ Per eseguire questa operazione:
    >    I campi oggetto collegato sono preceduti dall&#39;icona di relazione ![](assets/relationship-field-icon.png).
 
 1. Dalla sezione **Campagna** tipo di record vista tabella, crea una campagna aggiungendo una nuova riga nella tabella.
-1. Fai clic su **+** all&#39;interno del  **Informazioni progetto** della nuova campagna. Il **Connetti oggetti** viene visualizzata la casella. Il nome del tipo di oggetto a cui si sta effettuando il collegamento (Workfront Project) viene visualizzato nell&#39;angolo superiore sinistro della casella.
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+1. Fai doppio clic all’interno del  **Informazioni progetto** della nuova campagna.
 
-1. Seleziona il progetto o i progetti a cui vuoi collegare i record di Campaign, quindi fai clic su **Connetti oggetti**.
+   ![](assets/connect-projects-smaller-box-in-table.png)
 
-   Nell&#39;area di lavoro selezionata vengono aggiunti gli elementi seguenti:
+1. Esegui una delle operazioni seguenti:
+
+   * Fare clic sul nome di un progetto nell&#39;elenco per aggiungerlo al record selezionato. Il progetto viene aggiunto automaticamente.
+   * Inizia a digitare il nome di un progetto e fai clic su di esso quando viene visualizzato nell’elenco. Il progetto viene aggiunto automaticamente.
+   * Clic **Vedi tutto** per visualizzare tutti i progetti.
+
+1. (Condizionale) Se hai fatto clic **Seleziona tutto** nel passaggio precedente, il **Connetti oggetti** viene visualizzata la casella.
+
+   ![](assets/connect-projects-larger-box.png)
+
+1. Inizia a digitare il nome di un progetto nella casella di ricerca, quindi selezionalo quando viene visualizzato nell’elenco
+
+   Oppure
+
+   Seleziona i record di Project che desideri connettere ai record di Campaign, quindi fai clic su **Connetti oggetti**.
+
+   >[!TIP]
+   >
+   >    Puoi aprire la pagina Dettagli di una campagna, trovare il campo del progetto collegato e fare clic su **+** nel campo per aggiungere progetti dal tipo di record Prodotto connesso.
+
+   Questa operazione aggiunge quanto segue all&#39;area di lavoro selezionata:
 
    * Nella tabella del tipo di record di Campaign:
       * Il **Informazioni progetto** Il campo viene compilato per il record Campaign con i progetti selezionati.
@@ -165,7 +203,7 @@ Per eseguire questa operazione:
    Questo apre il progetto Maestro di sola lettura **Dettagli** pagina.
 Rivedi le informazioni sul progetto. Nella pagina Dettagli vengono visualizzati solo i campi progetto selezionati.
 
-1. Fai clic su Vai all’origine nell’angolo superiore destro della schermata per aprire il progetto in Workfront, se disponi almeno delle autorizzazioni di visualizzazione per il progetto.
+1. Clic **Vai all&#39;origine** nell’angolo in alto a destra dello schermo per aprire il progetto in Workfront, se disponi almeno delle autorizzazioni di visualizzazione per il progetto.
 1. (Facoltativo) Se disponi delle autorizzazioni necessarie, aggiorna le informazioni sul progetto in Workfront.
 
 1. Dalla vista della tabella Campaign, passa il puntatore del mouse su **Informazioni progetto** e fare clic sulla freccia rivolta verso il basso, quindi su **Modificare i campi di ricerca.**
