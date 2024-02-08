@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Per un elenco di tutte le modifiche disponibili con la versione del quarto trime
 
 >[!NOTE]
 >
->Versione di anteprima: 1 novembre 2023; versione di produzione per tutti i clienti: 1 novembre
+>Versione di anteprima: 1 novembre 2023; versione di produzione per tutti i clienti: 1 novembre 2023
 
 Il modello e-mail per le notifiche di approvazione dei documenti è stato aggiornato per corrispondere meglio ad altri modelli e-mail di Adobe e per migliorare la chiarezza e l’usabilità.
 
@@ -31,7 +31,7 @@ Il modello e-mail per le notifiche di approvazione dei documenti è stato aggior
 
 >[!NOTE]
 >
->Versione di anteprima: 12 ottobre 2023; versione di produzione per tutti i clienti: da definire
+>Versione di anteprima: 12 ottobre 2023; produzione per rilascio rapido: con la versione 24.2 (15 febbraio 2024); produzione per rilascio trimestrale: con la versione 24.4 (aprile 2024)
 
 Per fornire maggiore chiarezza sulle regolazioni manuali o sul contorno nel Bilanciatore dei carichi di lavoro, le allocazioni orarie regolate manualmente ora mostrano un’icona a forma di matita.
 
