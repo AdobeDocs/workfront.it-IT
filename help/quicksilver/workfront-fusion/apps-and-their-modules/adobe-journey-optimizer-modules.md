@@ -9,7 +9,7 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i 
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 50078aec71a4173a67c386ae5a8a4b5ba6cf3ade
 workflow-type: tm+mt
 source-wordcount: '1602'
 ht-degree: 0%
@@ -469,7 +469,6 @@ Questo modulo effettua una chiamata API personalizzata al [!DNL Adobe Journey Op
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
       </td>
-      <td>
    <td> <p>Seleziona il metodo di richiesta HTTP necessario per configurare la chiamata API. Per ulteriori informazioni, consulta <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metodi di richiesta HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>

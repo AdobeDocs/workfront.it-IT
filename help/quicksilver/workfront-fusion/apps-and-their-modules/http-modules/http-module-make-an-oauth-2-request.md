@@ -9,9 +9,9 @@ description: Al fine di creare un [!DNL Adobe Workfront Fusion] richiesta HTTP(S
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
-source-wordcount: '2220'
+source-wordcount: '2236'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,12 @@ Al fine di creare un [!DNL Adobe Workfront Fusion] richiesta HTTP(S) ai server c
 Altri flussi, come il flusso delle credenziali della password del proprietario della risorsa e il flusso delle credenziali del client, non sono automaticamente supportati da questo modulo.
 
 Per ulteriori informazioni sull’autenticazione OAuth 2.0, consulta [Framework di autorizzazione OAuth 2.0](https://tools.ietf.org/html/rfc6749).
+
+>[!NOTE]
+>
+>Se ti stai connettendo a un prodotto di Adobe che al momento non dispone di un connettore dedicato, ti consigliamo di utilizzare il modulo Adobe Authenticator.
+>
+>Per ulteriori informazioni, consulta [Modulo Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Requisiti di accesso
 
@@ -214,11 +220,11 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Nome token intestazione] </td> 
-      <td> <p>Immetti il nome del token di autorizzazione nell’intestazione. Impostazione predefinita: <code>[!UICONTROL Bearer]</code>.</p> </td> 
+      <td> <p>Immetti il nome del token di autorizzazione nell’intestazione. Predefinito: <code>[!UICONTROL Bearer]</code>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Nome parametro stringa query] </td> 
-      <td> <p>Immetti il nome del token di autorizzazione nella stringa di query. Impostazione predefinita: <code>[!UICONTROL access_token]</code>.</p> </td> 
+      <td> <p>Immetti il nome del token di autorizzazione nella stringa di query. Predefinito: <code>[!UICONTROL access_token]</code>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
