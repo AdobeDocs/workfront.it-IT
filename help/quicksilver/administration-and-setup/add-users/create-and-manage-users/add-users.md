@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 01b60a2fab1188c8510857490ea87f609897b0bb
+source-git-commit: b476c012f825afc4bc48b7172be26accc6bac0d1
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1229'
 ht-degree: 1%
 
 ---
@@ -19,15 +19,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina si applica alle organizzazioni che non hanno ancora effettuato l’onboarding nell’Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
+>Se la tua organizzazione è stata integrata in Adobe Admin Console, devi creare gli amministratori di sistema tramite Adobe Admin Console.
+>
+>Per istruzioni sulla creazione di amministratori di sistema in Adobe Admin Console, consulta [Gestione degli utenti in Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Gli amministratori di gruppi nelle organizzazioni che hanno effettuato l’onboarding in Adobe Admin Console possono utilizzare questa procedura per creare utenti e inviare l’utente per l’approvazione dell’amministratore.
->
->Per istruzioni sull’aggiunta di un utente nel Adobe Admin Console:
->
->* Consulta [Creare utenti in Workfront con Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create)
->* Consulta la sezione &quot;Aggiungere utenti&quot; nell’articolo [Gestire gli utenti singolarmente](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
->* Contattare l&#39;amministratore di Adobe Admin Console.
 >
 >Per un elenco delle procedure che differiscono in base al fatto che la tua organizzazione sia stata onboarding in Adobe Admin Console, consulta [Differenze di amministrazione basate su piattaforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
