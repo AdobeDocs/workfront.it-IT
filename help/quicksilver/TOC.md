@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: cd281e0dc91a2b39f54ceea674b36940ffb06a13
+source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
 workflow-type: tm+mt
-source-wordcount: '13930'
+source-wordcount: '13940'
 ht-degree: 1%
 
 ---
@@ -585,6 +585,7 @@ ht-degree: 1%
                * [Progettare un modulo da una copia con il progettista del modulo](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
                * [Aggiungere campi calcolati con il progettista del modulo](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
                * [Aggiungere logica di visualizzazione e logica di salto con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+               * [Esempi di campo di ricerca esterna in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
                * [Organizzare e visualizzare in anteprima un modulo con il progettista del modulo](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
             * Gestire un modulo {#manage-a-form}
                * [Gestire un modulo](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
@@ -1720,7 +1721,7 @@ ht-degree: 1%
       * [Visualizzare la visualizzazione della capacità del team in Analisi avanzate](enhanced-analytics/team-capacity-overview.md)
 * Gestire le risorse {#manage-resources}
    * [Gestire le risorse](resource-mgmt/manage-resources.md)
-   * Gestione risorse {#resource-management}
+   * Gestione delle risorse {#resource-management}
       * [Gestione risorse](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [Introduzione alla gestione delle risorse](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Pianificazione delle risorse in Adobe Workfront {#resource-planning-in-adobe-workfront}
