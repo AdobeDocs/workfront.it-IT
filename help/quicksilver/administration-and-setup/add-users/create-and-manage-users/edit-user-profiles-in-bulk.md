@@ -8,22 +8,25 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
 workflow-type: tm+mt
-source-wordcount: '2387'
+source-wordcount: '2285'
 ht-degree: 0%
 
 ---
 
 # Modificare i profili utente in blocco
 
+<!--
+
 >[!IMPORTANT]
 >
->La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding nell’Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
+>The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->Per istruzioni sulla modifica del profilo di un utente in Adobe Admin Console, consulta la sezione &quot;Modifica dettagli utente&quot; nell’articolo [Utenti caricamento in blocco](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) o contatta l&#39;amministratore di Adobe Admin Console.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
->Per un elenco delle procedure che differiscono in base al fatto che la tua organizzazione sia stata onboarding in Adobe Admin Console, consulta [Differenze di amministrazione basate su piattaforma (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+-->
 
 È possibile modificare gli account utente in blocco. Quando si modificano gli utenti in blocco, solo i campi selezionati in modo specifico vengono aggiornati con le stesse informazioni per tutti gli utenti selezionati. Tutti gli altri campi non selezionati rimangono invariati per ogni singolo utente, anche se sono diversi per ogni utente.
 
@@ -216,4 +219,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo) In **Forms personalizzato** , seleziona la sezione **Ricalcolare Espressioni Personalizzate** per garantire che tutti i campi personalizzati calcolati nei moduli personalizzati allegati agli utenti selezionati siano aggiornati.
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.
