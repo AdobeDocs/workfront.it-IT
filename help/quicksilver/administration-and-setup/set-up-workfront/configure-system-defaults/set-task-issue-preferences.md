@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: a1af801e70a7d1a4da7ec572989ebba7634aef58
+source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
 workflow-type: tm+mt
-source-wordcount: '2060'
+source-wordcount: '2063'
 ht-degree: 0%
 
 ---
@@ -62,15 +62,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Nella pagina visualizzata, continua con una delle 5 sezioni elencate di seguito per configurare le impostazioni per [!UICONTROL Nuovi valori predefiniti attività], [!UICONTROL Problemi], [!UICONTROL Eliminazione], [!UICONTROL Date effettive], e [!UICONTROL Accesso]:
 
-* [[!UICONTROL Nuovi valori predefiniti attività]](#new-task-defaults)
-* [[!UICONTROL Problemi]](#issues)
-* [[!UICONTROL Eliminazione]](#deletion)
-* [[!UICONTROL Date effettive]](#actual-dates)
-* [[!UICONTROL Delega]](#delegation)
+   * [[!UICONTROL Nuovi valori predefiniti attività]](#new-task-defaults)
+   * [[!UICONTROL Problemi]](#issues)
+   * [[!UICONTROL Eliminazione]](#deletion)
+   * [[!UICONTROL Date effettive]](#actual-dates)
+   * [[!UICONTROL Delega]](#delegation)
 
-  <!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
-  -->
+   <!--
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Lavoraci</a> </li>
+  --&gt;
 
 * [[!UICONTROL Accesso]](#access)
 
@@ -97,7 +97,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
     <td> <p>Calcola le stime dei costi pianificati ed effettivi per un'attività. Se impostato su <strong>[!UICONTROL Nessun costo]</strong>, le ore pianificate e le ore effettive registrate non generano una stima dei costi pianificati o effettivi per l'attività e il lavoro relativo all'attività non contribuisce ai costi a livello di progetto.</p> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Problemi {#issues}
 
@@ -181,7 +181,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Delega
 
@@ -192,7 +192,7 @@ Quando questa impostazione è abilitata, gli utenti possono visualizzare quanto 
 * Il [!UICONTROL Delega] link nel loro [!UICONTROL Home] area. Da qui possono delegare le approvazioni, o le assegnazioni di attività e problemi.
 * Un’indicazione che un’attività o un problema è delegato a un altro utente in [!UICONTROL Assegnazioni e deleghe] nell’intestazione dell’attività o del problema.
 
-Se disattivi il [!UICONTROL Consenti agli utenti di delegare le loro attività e i loro problemi] , le deleghe attualmente pianificate verranno interrotte e gli utenti delegati riceveranno una notifica e-mail di interruzione della delega.
+  Se disattivi il [!UICONTROL Consenti agli utenti di delegare le loro attività e i loro problemi] , le deleghe attualmente pianificate verranno interrotte e gli utenti delegati riceveranno una notifica e-mail di interruzione della delega.
 
 Per informazioni sulla delega del lavoro ad altri, vedere gli articoli seguenti:
 
@@ -257,7 +257,7 @@ I have not had a chance to follow up with customers to verify if this is still a
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
