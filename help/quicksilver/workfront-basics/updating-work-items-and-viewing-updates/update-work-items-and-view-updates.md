@@ -2,22 +2,24 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: Aggiorna elementi di lavoro e visualizza aggiornamenti
-description: È possibile utilizzare la sezione Aggiornamenti della maggior parte degli oggetti per aggiungere commenti, risposte o per seguire gli aggiornamenti tracciati dal sistema relativi alle modifiche apportate all'oggetto.
+title: "Aggiorna elementi di lavoro e visualizza aggiornamenti: indice articolo"
+description: È possibile utilizzare la sezione Aggiornamenti della maggior parte degli oggetti per aggiungere commenti e risposte oppure per seguire gli aggiornamenti tracciati dal sistema relativi alle modifiche apportate all'oggetto.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
 
-# Aggiorna elementi di lavoro e visualizza aggiornamenti
+# Aggiorna elementi di lavoro e visualizza aggiornamenti: indice articolo
 
-È possibile utilizzare la sezione Aggiornamenti della maggior parte degli oggetti per aggiungere commenti, risposte o per seguire gli aggiornamenti tracciati dal sistema relativi alle modifiche apportate all&#39;oggetto.
+<!-- Audited: 02/2024 -->
+
+È possibile utilizzare la sezione Aggiornamenti della maggior parte degli oggetti per aggiungere commenti e risposte oppure per seguire gli aggiornamenti tracciati dal sistema relativi alle modifiche apportate all&#39;oggetto.
 
 Questa sezione contiene i seguenti articoli:
 

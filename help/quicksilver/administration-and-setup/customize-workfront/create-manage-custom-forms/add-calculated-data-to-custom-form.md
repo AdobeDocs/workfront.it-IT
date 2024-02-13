@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: fac70de35b3380105911f2958f477f65c9999e55
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
@@ -331,4 +331,4 @@ I campi personalizzati calcolati su un oggetto vengono ricalcolati automaticamen
 
   >[!NOTE]
   >
-  ><div>In un modulo personalizzato allegato a un oggetto, le istruzioni di data e ora nei campi personalizzati calcolati vengono calcolate e salvate in base al Coordinated Universal Time (UTC), non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e il tuo profilo utente. I calcoli in un modulo personalizzato vengono generati in base ai singoli fusi orari degli utenti.</div>
+  >In un modulo personalizzato allegato a un oggetto, le istruzioni di data e ora nei campi personalizzati calcolati vengono calcolate e salvate in base al Coordinated Universal Time (UTC), non in base alle configurazioni del fuso orario impostate per l’istanza della tua organizzazione e il tuo profilo utente. Tuttavia, i calcoli in un modulo personalizzato vengono visualizzati in base al singolo fuso orario di ciascun utente.

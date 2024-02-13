@@ -6,9 +6,9 @@ description: Puoi sfruttare le funzionalità agili per il tuo progetto senza le 
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,16 +77,16 @@ Esistono alcune differenze quando si utilizzano visualizzazioni agili su un prog
 
 ### Differenze quando si utilizza la vista Agile su un progetto rispetto a un’iterazione {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [Le attività e le sottoattività seguono regole di visualizzazione diverse sullo storyboard](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
-* [Backlog e iterazioni non utilizzati](#backlogs-and-iterations-are-not-used)
+* [Le attività e le sottoattività seguono regole di visualizzazione diverse in una visualizzazione Agile del progetto e nella bacheca delle storie di un&#39;iterazione](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board)
+* [I backlog e le iterazioni non vengono utilizzati nella visualizzazione Agile](#backlogs-and-iterations-are-not-used)
 * [L&#39;ordine delle attività viene mantenuto nella vista Agile e non può essere riordinato](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered)
-* [Le attività vengono misurate solo nelle ore pianificate](#tasks-are-measured-only-in-planned-hours)
-* [Il team Agile non è utilizzato](#the-agile-team-is-not-used)
+* [Le attività vengono misurate solo nelle ore pianificate in un elenco di progetti](#tasks-are-measured-only-in-planned-hours)
+* [Il team Agile non viene utilizzato in una visualizzazione Agile](#the-agile-team-is-not-used)
 * [Ogni utente del progetto può visualizzare il progetto in una visualizzazione Agile diversa](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### Le attività e le sottoattività seguono regole di visualizzazione diverse sullo storyboard {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### Le attività e le sottoattività seguono regole di visualizzazione diverse in una visualizzazione Agile del progetto e nella bacheca delle storie di un&#39;iterazione {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* Le attività che non hanno né un&#39;attività padre né un&#39;attività secondaria vengono sempre visualizzate come una singola scheda storia sullo storyboard.\
+* Le attività che non hanno né un&#39;attività padre né un&#39;attività secondaria vengono sempre visualizzate come una scheda a brano singolo nella bacheca delle storie della visualizzazione Agile.\
   Ad esempio, nella vista a elenco dei progetti vengono visualizzate le seguenti attività:
 
   ![Elenco progetti Agile: attività senza attività padre o sottoattività](assets/agile-project-single-list-nwe.png)
@@ -95,7 +95,7 @@ Esistono alcune differenze quando si utilizzano visualizzazioni agili su un prog
 
   ![Visualizzazione agile del progetto: attività senza attività padre o sottoattività](assets/agile-project-singlecard-nwe.png)
 
-* Le attività padre con sottoattività vengono sempre visualizzate nel **Storie** colonna dello storyboard. Le sottoattività vengono visualizzate nella corsia preferenziale dell&#39;attività padre.\
+* Le attività padre con sottoattività vengono sempre visualizzate nel **Storie** nella bacheca delle storie della visualizzazione Agile. Le sottoattività vengono visualizzate nella corsia preferenziale dell&#39;attività padre.\
   Ad esempio, nella vista a elenco dei progetti vengono visualizzate le seguenti attività:
 
   ![Elenco progetti Agile: attività con attività principali e secondarie](assets/agile-project-parent-list-nwe.png)\
@@ -104,9 +104,9 @@ Esistono alcune differenze quando si utilizzano visualizzazioni agili su un prog
   ![Visualizzazione progetto Agile: attività con attività principali e secondarie](assets/agile-project-parent-nwe.png)
 
 * Le sottoattività di secondo livello (sottoattività delle sottoattività) vengono visualizzate come una scheda grigia sporgente rispetto all’attività padre immediata.
-* Le sottoattività di terzo livello (sottoattività delle sottoattività delle sottoattività) non vengono mai visualizzate sullo storyboard.
+* Le sottoattività di terzo livello (sottoattività delle sottoattività delle sottoattività) non vengono mai visualizzate nella visualizzazione Agile.
 
-#### Backlog e iterazioni non utilizzati {#backlogs-and-iterations-are-not-used}
+#### I backlog e le iterazioni non vengono utilizzati nella visualizzazione Agile {#backlogs-and-iterations-are-not-used}
 
 Quando si visualizza un progetto in una visualizzazione agile, i seguenti componenti agile non vengono utilizzati:
 
@@ -119,13 +119,13 @@ L&#39;ordine in cui le attività vengono visualizzate in un progetto viene mante
 
 Non è possibile riordinare le attività nel progetto quando si visualizza il progetto in una visualizzazione agile. Poiché la modifica dell&#39;ordine delle attività può influire su altre attività che potrebbero avere dipendenze, è necessario visualizzare il progetto in una visualizzazione standard per modificare l&#39;ordine delle attività.
 
-#### Le attività vengono misurate solo nelle ore pianificate {#tasks-are-measured-only-in-planned-hours}
+#### Le attività vengono misurate solo nelle ore pianificate in un elenco di progetti {#tasks-are-measured-only-in-planned-hours}
 
 Le attività di un progetto sono sempre misurate in Ore Pianificate.
 
 In un’iterazione, le attività (storie) possono essere misurate in ore o punti.
 
-#### Il team Agile non è utilizzato {#the-agile-team-is-not-used}
+#### Il team Agile non viene utilizzato in una visualizzazione Agile {#the-agile-team-is-not-used}
 
 Poiché i team Agile completano il lavoro sulle iterazioni loro assegnate, non vengono utilizzati quando si visualizza un progetto in una visualizzazione Agile.
 
@@ -137,7 +137,7 @@ A differenza di un’iterazione agile, gli utenti di un progetto possono persona
 
 In un’iterazione Agile, le informazioni disponibili sullo storyboard Agile (come le colonne di stato disponibili) vengono determinate a livello di team.
 
-Per informazioni su come personalizzare una visualizzazione agile, consulta [Creare o personalizzare una visualizzazione Agile](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Per informazioni su come personalizzare una visualizzazione agile, consulta [Creare o personalizzare una visualizzazione Agile](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Creare o modificare le viste in in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Visualizzare un progetto nella visualizzazione Agile
 
