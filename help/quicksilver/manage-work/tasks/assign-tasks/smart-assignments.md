@@ -7,9 +7,9 @@ description: Quando gestisci le assegnazioni di attività e problemi, puoi utili
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 75a67f1eb32d9ec03e27a0dbe2fde1bfaf3a7d1f
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,11 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* Il campo Assegnazioni per un elemento elencato nell’area Home nell’area Assegnazioni, quando apri un’attività o un problema
+* <span class="preview">Campo Assegnazioni nella casella Nuova attività quando si aggiunge un&#39;attività a un progetto</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* Il campo Assegnazioni per un elemento elencato nell’area Home quando apri un’attività o un problema
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -128,7 +132,7 @@ Se il primo passaggio delle assegnazioni intelligenti delle attività non ha tro
 
 Per ulteriori informazioni, consulta la sezione [Criteri di assegnazione intelligenti per attività e problemi](#smart-assignments-criteria-for-tasks-and-issues) in questo articolo.
 
-Le assegnazioni identificate in questa fase sono elencate nella **Risultati** sezione del campo Assegnazioni. <!--update this to "Other assignments"-->
+Le assegnazioni identificate in questa fase sono elencate nella **Altre assegnazioni** sezione del campo Assegnazioni per le attività. <!--update this to "Other assignments"-->
 
 ### Criteri di assegnazione intelligenti per attività e problemi
 
