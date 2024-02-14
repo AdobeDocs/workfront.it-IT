@@ -6,14 +6,16 @@ description: Puoi sfruttare le funzionalità agili per il tuo progetto senza le 
 author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 857c4e96b17b3b520d63ba02c196cae1cdc7f4ac
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # Gestire un progetto nella visualizzazione Agile
+
+<!-- Audited: 2/2024 -->
 
 Puoi sfruttare le funzionalità agili per il tuo progetto senza le problematiche amministrative che in genere accompagnano le procedure agili (come la gestione del backlog di un team o la creazione di iterazioni).
 
@@ -32,7 +34,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
    <td> <p>Corrente: revisione o versione successiva</p> 
    <p>Nuovo: Collaboratore o versione successiva</p> </td> 
   </tr> 
@@ -52,7 +54,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront. Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Comprendere i progetti Agile
 
@@ -162,7 +164,7 @@ Per informazioni su come personalizzare una visualizzazione agile, consulta [Cre
 
    La visualizzazione agile personalizzata viene utilizzata la volta successiva che fai clic su **Agile** icona.
 
-   Per informazioni su come creare una nuova visualizzazione agile, consulta [Creare e personalizzare viste Agile](#create-and-customize-agile-views).
+   Per informazioni su come creare una nuova visualizzazione agile, consulta [Creare e personalizzare viste Agile](#create-and-customize-agile-views), di seguito.
 
    Il progetto viene visualizzato nella visualizzazione agile personalizzata.
 
@@ -170,7 +172,7 @@ Per informazioni su come personalizzare una visualizzazione agile, consulta [Cre
 
    Se le attività si trovano in uno stato che non viene visualizzato sullo storyboard Agile, l&#39;attività stessa non viene visualizzata sullo storyboard Agile (tuttavia, la percentuale di completamento di queste attività contribuisce ancora alla percentuale di completamento di tutte le attività padre e alla percentuale di completamento del progetto complessivo).
 
-   Per aggiungere stati alla vista Agile, crea una nuova vista Agile o personalizza una vista Agile esistente, come descritto nella sezione &quot;Creare o personalizzare una vista Agile&quot; nell’articolo [Panoramica delle visualizzazioni in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Per aggiungere stati alla vista Agile, crea una nuova vista Agile o personalizza una vista Agile esistente, come descritto in [Creare e personalizzare viste Agile](#create-and-customize-agile-views), di seguito.
 
 1. (Facoltativo) Per tornare alla vista a elenco, fai clic sul pulsante **Elenco** icona.
 
