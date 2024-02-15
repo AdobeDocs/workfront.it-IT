@@ -7,9 +7,9 @@ description: È possibile utilizzare un modello di layout per configurare ciò c
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '746'
 ht-degree: 1%
 
 ---
@@ -91,11 +91,11 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
         <li>Le mie attività</li>
         <li>I miei problemi</li>
       </ul>
-      <p>Dopo aver selezionato il widget da modificare, le opzioni disponibili vengono visualizzate a destra. Attualmente, queste opzioni sono <b>Filtri</b> e <b>Gruppi</b>. È possibile:</p>
+      <p>Dopo aver selezionato il widget da modificare, le opzioni disponibili vengono visualizzate a destra. Queste opzioni includono <b>Filtri</b>, <b>Colonne</b>, e <b>Gruppi</b>. È possibile:</p>
       <ul>
-        <li><b>Seleziona i Filtri o Gruppi che saranno disponibili per gli utenti:</b><p>Seleziona la casella accanto a tutte le opzioni nell’elenco che desideri possano essere utilizzate dagli utenti. Le opzioni non selezionate non vengono visualizzate per gli utenti.</li></p>
+        <li><b>Seleziona i Filtri, le Colonne o i Gruppi che saranno disponibili per gli utenti:</b><p>Seleziona la casella accanto a tutte le opzioni nell’elenco che desideri possano essere utilizzate dagli utenti. Le opzioni non selezionate non vengono visualizzate per gli utenti.</li></p>
         <li><b>Impostate un filtro o un gruppo predefinito per il widget:</b><p>Passa il puntatore del mouse su un’opzione e viene visualizzato un pulsante che consente di impostare tale opzione come predefinita per gli utenti. Il valore predefinito corrente presenta un contrassegno predefinito blu a destra.</li></p>
-        <li><b>Aggiungi un filtro o un gruppo esistente all’elenco delle opzioni disponibili:</b><p>Fare clic sul pulsante con il segno più nella parte inferiore di ogni elenco per aggiungere un'opzione all'elenco. Solo i filtri o i gruppi esistenti possono essere aggiunti in questo modo.</li></p>
+        <li><b>Aggiungi un filtro, una colonna o un gruppo esistente all’elenco delle opzioni disponibili:</b><p>Fare clic sul pulsante con il segno più nella parte inferiore di ogni elenco per aggiungere un'opzione all'elenco. Solo i filtri, i campi (per le colonne) o i gruppi esistenti possono essere aggiunti in questo modo.</li></p>
       </ul>
       </td> 
      </tr>

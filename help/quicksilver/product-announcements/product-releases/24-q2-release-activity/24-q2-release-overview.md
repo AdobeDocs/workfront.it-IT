@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b722cce87e8a46b5cb5c5738fec9d58e2f68ef1
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,43 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             </tbody>
         </table>
 
+### Miglioramenti Home
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Opzioni colonna aggiunte ai controlli amministratore per la nuova Home utilizzando i modelli di layout</a></p><p>Gli amministratori possono ora personalizzare le colonne disponibili per gli utenti in nuovi widget Home specifici utilizzando i modelli di layout. Le opzioni includono la possibilità di nascondere o visualizzare le colonne predefinite e di aggiungere campi esistenti come nuove colonne.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 2 gennaio 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.2 (15 febbraio 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produzione per la versione trimestrale: con la versione 24.4 (aprile 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### Miglioramenti al progetto
 
 <table>
@@ -89,6 +126,24 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>È stata aggiunta la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni della casella Nuova attività quando si aggiunge un'attività a un progetto e in un elenco di attività di progetto.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 13 febbraio 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.3 (marzo 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produzione per la versione trimestrale: con la versione 24.4 (aprile 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni intelligenti più rilevanti</a></p><p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -97,7 +152,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                                 <p>Versione di anteprima: 21 dicembre 2023</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio rapido: con la versione 24.2 (15 febbraio 2024)</p>
+                                <p>Produzione per rilascio rapido: con la versione 24.3 (marzo 2024)</p>
                             </li>
                             <li>
                                 <p>Produzione per la versione trimestrale: con la versione 24.4 (aprile 2024)</p>
@@ -176,4 +231,4 @@ Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versi
 
 ### Aggiornamenti dei corsi di formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, consulta la sezione &quot;Novità&quot; del [Pagina Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, consulta la sezione &quot;Novità&quot; del [Pagina Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it).

@@ -4,9 +4,9 @@ description: Aggiornamenti look-and-feel durante l’intervallo di tempo di rila
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
+source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 Questa pagina descrive piccoli aggiornamenti all’aspetto di varie aree dell’applicazione Adobe Workfront che sono stati apportati nell’arco temporale del rilascio del secondo trimestre 2024.
 
 Per un elenco di tutte le modifiche disponibili con la versione del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Aggiornamenti look-and-feel di due modelli e-mail
+
+>[!NOTE]
+>
+>Rilascio per tutti i clienti: con la versione 24.2 (15 febbraio 2024)
+
+I modelli e-mail per aggiungere un approvatore a una risorsa e un utente a una bacheca sono stati aggiornati per corrispondere meglio ad altri modelli e-mail di Adobe e per migliorare la chiarezza e l’usabilità.
 
 ## Nuovi aggiornamenti look-and-feel delle schede nell’area Forms personalizzata
 
