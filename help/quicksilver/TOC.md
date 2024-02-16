@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '13946'
+source-wordcount: '13950'
 ht-degree: 1%
 
 ---
@@ -566,7 +566,7 @@ ht-degree: 1%
                * [Utilizzare il generatore di moduli personalizzati legacy](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
                * [Creare o modificare un modulo personalizzato con il generatore legacy](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
                * [Copiare un modulo personalizzato per crearne uno nuovo con il generatore legacy](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-               * [Aggiungere un campo personalizzato](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+               * [Aggiungere un campo personalizzato con il generatore legacy](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
                * [Aggiungere un’immagine o un altro widget di risorse a un modulo personalizzato con il generatore legacy](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
                * [Aggiungere un’interruzione di sezione con il generatore legacy](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
                * [Aggiungere dati calcolati con il generatore legacy](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)

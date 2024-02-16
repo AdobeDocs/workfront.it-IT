@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: db362bd73e51b30090708822876ad02f7804d064
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2313'
 ht-degree: 2%
 
 ---
 
 # Aggiungere un campo personalizzato a un modulo personalizzato con il generatore di moduli legacy
+
+<!-- Audited: 02/2024 -->
 
 Quando si lavora su un modulo personalizzato, è possibile creare un nuovo campo personalizzato e aggiungerlo a un modulo personalizzato.
 
@@ -36,30 +38,33 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Piano Adobe Workfront*</p> </td> 
+   <td role="rowheader"> <p>piano Adobe Workfront</p> </td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td>Piano</td> 
+   <td role="rowheader">Licenza Adobe Workfront</td> 
+   <td>
+   <p>Nuovo: Standard</p>
+   <p>oppure</p>
+   <p>Corrente: Piano</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso amministrativo ai moduli personalizzati</p> <p>Per informazioni sulle modalità di concessione dell'accesso da parte degli amministratori di Workfront, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Concedere agli utenti l'accesso amministrativo a determinate aree</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td>Accesso amministrativo ai moduli personalizzati </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;Per informazioni sulle configurazioni di piano, tipo di licenza o livello di accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Aggiungere un campo personalizzato a un modulo personalizzato
+## Aggiungere un campo personalizzato a un modulo personalizzato {#add-custom-field-to-custom-form}
 
 1. Iniziare a creare o modificare un modulo personalizzato, come descritto in [Creare o modificare un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Apri **Aggiungi un campo** scheda.
+1. Seleziona la **Aggiungi un campo** scheda.
 
-   ![](assets/add-a-field.jpg)
+   ![Aggiungi una scheda campo](assets/add-a-field.jpg)
 
-1. Con **Nuovo campo** ![](assets/new-field.jpg) selezionare uno dei tipi di campo elencati di seguito:
+1. Con **Nuovo campo** ![Icona Nuovo campo](assets/new-field.jpg) selezionato, selezionare uno dei seguenti tipi di campo:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,7 +82,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Campo di testo con formattazione</td> 
-      <td>Consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. È disponibile in Home, nell’area Aggiornamenti, negli elenchi e nell’area Dettagli per gli oggetti Workfront. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.</p> <p>Per informazioni sull’accesso a questo campo tramite l’API, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Archiviazione di campi in formato Rich Text nell’API</a>.</p> <p><b>NOTA</b>: i campi di testo con formattazione non sono disponibili per le app Workfront per dispositivi mobili (saranno disponibili nelle prossime versioni). </p> </td> 
+      <td>Consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. È disponibile in Home, nell’area Aggiornamenti, negli elenchi e nell’area Dettagli per gli oggetti Workfront. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.</p> <p>Per informazioni sull’accesso a questo campo tramite l’API, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Archiviazione di campi in formato Rich Text nell’API</a>.</p> <p><b>NOTA</b>: i campi di testo con formattazione non sono disponibili per le app Workfront per dispositivi mobili. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">A discesa</td> 
@@ -150,7 +155,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <li>Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l’utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront. <p>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.</p> </li>
       <li> <p>È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.</p> </li>
       <li><p>È consigliabile non utilizzare il carattere punto/punto nel nome del campo personalizzato, per evitare errori quando si utilizza il campo in aree diverse di Workfront.</p></li>
-      </ul> <p>Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. Per ulteriori informazioni, consulta <a href="#Add" class="MCXref xref">Aggiungere un campo personalizzato a un modulo personalizzato</a> in questo articolo.</p> </td>
+      </ul> <p>Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. Per ulteriori informazioni, consulta <a href="#add-a-custom-field-to-a-custom-form">Aggiungere un campo personalizzato a un modulo personalizzato</a> in questo articolo.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Istruzioni</td> 
@@ -196,7 +201,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
         <li>Appartengono a uno o più gruppi specificati</li> 
         <li>Sono associati a un ruolo o a una mansione specificata</li> 
         <li>Appartengono allo stesso gruppo della persona che utilizza il campo</li> 
-       </ul> <p>È necessario definire il filtro per il tipo di oggetto selezionato utilizzando la sintassi della modalità testo. Per informazioni sulla creazione di un filtro in modalità testo, vedere la sezione <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Modificare la modalità testo in un filtro</a> nell’articolo <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Panoramica sulla modalità testo</a>. </p> <p><b>NOTA</b>:   
+       </ul> <p>È necessario definire il filtro per il tipo di oggetto selezionato utilizzando la sintassi della modalità testo. Per informazioni sulla creazione di un filtro in modalità testo, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p>
+       <p><b>NOTA</b>:   
         <ul> 
          <li>Se si sta modificando un modulo personalizzato esistente, l'aggiunta di un filtro a un campo automatico non rimuove gli oggetti già aggiunti dagli utenti utilizzando il campo al di fuori dell'ambito del filtro.</li> 
          <li>Questo filtro non è disponibile sui dispositivi mobili. Se utilizzi il filtro per un campo Typeahead, il campo verrà visualizzato sui dispositivi mobili degli utenti che non sono interessati dal filtro.</li> 
@@ -225,10 +231,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       <p><b>IMPORTANTE</b>: la selezione o deselezione di un tipo di oggetto influisce su tutti i moduli personalizzati associati al tipo di oggetto selezionato e che contengono questo campo. Ad esempio, se deselezioni un tipo di oggetto e salvi il modulo personalizzato, le modifiche al valore del campo non vengono più tracciate per quel tipo di oggetto in nessun modulo personalizzato che contiene il campo.</p>
        <p>Dopo aver selezionato qui un tipo di oggetto per un campo e aver salvato il modulo personalizzato, il campo viene visualizzato nella scheda Campi personalizzati dell’area Aggiorna feed di Configurazione.</p> 
        <p>Al contrario, se questo campo viene eliminato nell’area Aggiorna feed di Configurazione, il tipo di oggetto per questa impostazione viene deselezionato in tutti i moduli personalizzati associati al tipo di oggetto e che contengono questo campo.</p> 
-       <p>Per ulteriori informazioni, consulta la sezione <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Aggiungi i campi di cui vuoi tenere traccia in Workfront</a> nell’articolo <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Configurare gli aggiornamenti di sistema</a>.</p> </td> 
+       <p>Per ulteriori informazioni, consulta la sezione <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Aggiungi i campi di cui vuoi tenere traccia in Workfront</a> nell’articolo <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">Configurare gli aggiornamenti di sistema</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Aggiungi logica</td> 
+      <td role="rowheader">Aggiungi logica</td>
       <td>Specificare i campi da visualizzare nel modulo in base alle selezioni effettuate dagli utenti nei campi esistenti. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Aggiungere logica di visualizzazione e logica di salto a un modulo personalizzato</a>.</td> 
      </tr> 
      <tr> 
@@ -269,11 +275,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >* Se si passa a Pulsanti di opzione, Workfront mantiene i valori a selezione multipla eventualmente immessi nel campo fino a quando l&#39;utente non cambia e salva i dati in qualsiasi parte del modulo. A questo punto, tutti i valori selezionati utilizzando il campo di tipo a selezione multipla vengono sostituiti dal valore del pulsante di opzione selezionato.
    >* Se passi a un elenco a discesa a selezione singola, Workfront mantiene eventuali valori a selezione multipla immessi da un utente nel campo fino a quando l’utente non cambia e salva i valori nel campo. A questo punto, tutti i valori selezionati utilizzando il campo a selezione multipla vengono sostituiti dal valore a discesa selezionato.
 
-1. (Facoltativo) Ripeti i passaggi da 2 a 6 per aggiungere altri campi personalizzati.
+1. (Facoltativo) Ripeti i passaggi 3-5 per aggiungere altri campi personalizzati.
 
    Oppure
 
-   Aggiungi campi già creati per la tua organizzazione, come spiegato in [Riutilizzare un campo personalizzato o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md#add).
+   Aggiungi campi già creati per la tua organizzazione, come spiegato in [Riutilizzare un campo personalizzato o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >
