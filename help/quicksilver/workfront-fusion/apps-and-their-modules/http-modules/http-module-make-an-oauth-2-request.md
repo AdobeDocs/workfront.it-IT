@@ -9,7 +9,7 @@ description: Al fine di creare un [!DNL Adobe Workfront Fusion] richiesta HTTP(S
 author: Becky
 feature: Workfront Fusion
 exl-id: 6c68c9b9-9f74-44a7-94ed-3785081b8331
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
 source-wordcount: '2236'
 ht-degree: 0%
@@ -289,7 +289,7 @@ L&#39;esempio seguente mostra come utilizzare il [!UICONTROL HTTP] > [!UICONTROL
 
 ### Istruzioni per la connessione a [!DNL Microsoft Graph API] tramite [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo
 
-Per istruzioni relative a [!DNL Microsoft Graph API], vedi [Chiama il [!DNL MS Graph REST API] tramite [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+Per istruzioni relative a [!DNL Microsoft Graph API], vedi [Chiama il [!DNL MS Graph REST API] tramite [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
 ## Configurazione del modulo di richiesta OAuth 2.0
 

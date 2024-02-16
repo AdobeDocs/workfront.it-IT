@@ -9,9 +9,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,6 @@ Questa sezione contiene i seguenti articoli:
 * [Connetti [!DNL Adobe Workfront Fusion] a un servizio web che utilizza l’autorizzazione del token API](../../workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
 * [Connetti [!DNL Adobe Workfront Fusion] a [!DNL Google Services] con misure di sicurezza aggiornate](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
 * [Connetti [!DNL Adobe Workfront Fusion] a [!DNL Google Services] utilizzo di un client OAuth personalizzato](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-* [Chiama il [!DNL MS Graph REST API] tramite [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+* [Chiama il [!DNL MS Graph REST API] tramite [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md)
 * [Chiavi in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md)
 * [Ricevere un webhook da un servizio Web](../../workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)

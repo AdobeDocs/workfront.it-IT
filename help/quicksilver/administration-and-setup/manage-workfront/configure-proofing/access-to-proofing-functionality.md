@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
-source-git-commit: f670255de4826f91094060b5cc20329c54d602d6
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Al momento sono disponibili tre opzioni di piano per la verifica in Workfront:
 
 Per informazioni sulla concessione e la revoca dell’accesso di un utente alla creazione e alla visualizzazione delle bozze in Workfront, consulta [Configurare l’accesso alle verifiche di un utente](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-* Genera bozze statiche o interattive su URL e documenti rivolti all’esterno. Per ulteriori informazioni, consulta [Creare le bozze](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+* Genera bozze statiche o interattive su URL e documenti rivolti all’esterno. Per ulteriori informazioni, consulta [Creare le bozze](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * Includi flussi di lavoro automatizzati nelle bozze. Per ulteriori informazioni, consulta [Panoramica del flusso di lavoro automatizzato](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 * Imposta le impostazioni di accesso e iscrizioni sulle bozze. Per ulteriori informazioni, consulta [Configurare le impostazioni di accesso e abbonamento per una bozza](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
 * Assegna profili di autorizzazione per le bozze personalizzati quando abiliti le funzionalità di bozza per un utente in Workfront. Per ulteriori informazioni, consulta [Abilitare e disabilitare la verifica per un utente (solo piani legacy)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in [Configurare l’accesso alle verifiche di un utente](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).

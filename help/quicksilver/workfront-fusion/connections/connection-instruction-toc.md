@@ -9,9 +9,9 @@ description: Una connessione deve rispettare i requisiti impostati dall’API de
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Le circostanze seguenti richiedono passaggi aggiuntivi per la creazione di una c
 
 * Connessione a [!DNL Microsoft Graph API] utilizzando un [!UICONTROL HTTP] modulo
 
-  Per istruzioni, consulta [Chiama il [!DNL MS Graph REST API] tramite [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+  Per istruzioni, consulta [Chiama il [!DNL MS Graph REST API] tramite [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
 ## Connetti a [!DNL Google] app o servizio web
 

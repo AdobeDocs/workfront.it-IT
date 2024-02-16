@@ -6,7 +6,7 @@ description: Puoi utilizzare l’estensione Workfront per esportare in Workfront
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '3076'
 ht-degree: 0%
@@ -285,7 +285,7 @@ Per richiedere l&#39;approvazione di un documento da un&#39;applicazione di Adob
 
 ## Generare una bozza da Illustrator o InDesign {#generate-a-proof-from-illustrator-or-indesign}
 
-Se l&#39;organizzazione utilizza modelli di flusso di lavoro automatizzati, è possibile generare una bozza per un documento creato in un&#39;applicazione di Adobe senza uscire dall&#39;applicazione. Per informazioni sulla creazione di bozze, consulta [Creare le bozze](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md). Per informazioni sui modelli di flussi di lavoro automatizzati, vedi [Modelli di flusso di lavoro automatizzato](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Panoramica del flusso di lavoro automatizzato](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Se l&#39;organizzazione utilizza modelli di flusso di lavoro automatizzati, è possibile generare una bozza per un documento creato in un&#39;applicazione di Adobe senza uscire dall&#39;applicazione. Per informazioni sulla creazione di bozze, consulta [Creare le bozze](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Per informazioni sui modelli di flussi di lavoro automatizzati, vedi [Modelli di flusso di lavoro automatizzato](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Panoramica del flusso di lavoro automatizzato](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. Apri una delle applicazioni Adobe supportate.
 1. Se l’estensione Workfront non viene visualizzata, fai clic su **Finestra** > **Estensioni** > WORKFRONT
