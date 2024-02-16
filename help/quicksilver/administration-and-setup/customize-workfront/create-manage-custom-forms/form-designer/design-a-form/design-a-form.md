@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d5b4531be831356f81880d9f6c90f472bbc8a6ed
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '5105'
+source-wordcount: '5171'
 ht-degree: 3%
 
 ---
@@ -200,6 +200,7 @@ Per aggiungere un campo di testo:
     <ul> 
     <li>Questo campo non può essere modificato dopo il salvataggio del modulo. Se si desidera utilizzare il campo nei calcoli matematici, assicurarsi di selezionare un formato Numerico o Valuta.</li> 
     <li>Quando selezionate Numero (Number) o Valuta (Currency), il sistema tronca automaticamente i numeri che iniziano con 0.</li>
+    <li>Il limite di caratteri per i campi Numero è 16. È inoltre possibile utilizzare un campo Testo per immettere numeri ed evitare il limite.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Testo su riga singola</li>
@@ -317,6 +318,7 @@ Per aggiungere pulsanti di scelta e caselle di controllo:
      <ul> 
     <li>Questo campo non può essere modificato dopo il salvataggio del modulo. Se si desidera utilizzare il campo nei calcoli matematici, assicurarsi di selezionare un formato Numerico o Valuta.<br></li> 
     <li>Quando selezionate Numero (Number) o Valuta (Currency), il sistema tronca automaticamente i numeri che iniziano con 0.</li>
+    <li>Il limite di caratteri per i campi Numero è 16. È inoltre possibile utilizzare un campo Testo per immettere numeri ed evitare il limite.</li>
      </ul></p></td> 
      <td><ul>
     <li>Pulsanti di opzione</li>
@@ -537,7 +539,9 @@ Per aggiungere una ricerca esterna:
       <td><p>Seleziona il tipo di dati che verranno acquisiti nel campo personalizzato.</p>
       <p><strong>NOTA:</strong></p>
       <ul><li>È possibile modificare il tipo di formato dopo il salvataggio del modulo, con un limite: tutti i valori esistenti sugli oggetti devono poter essere convertiti nel nuovo tipo. Ad esempio, se il tipo di formato è Testo e un oggetto memorizza il valore "abc", non è possibile convertire il campo e viene visualizzato un errore che indica che il sistema non può convertire "abc" in numero/valuta. Se si desidera utilizzare il campo nei calcoli matematici, assicurarsi di selezionare un formato Numerico o Valuta.</li>
-      <li>Quando selezionate Numero (Number) o Valuta (Currency), il sistema tronca automaticamente i numeri che iniziano con 0.</li></ul></td>
+      <li>Quando selezionate Numero (Number) o Valuta (Currency), il sistema tronca automaticamente i numeri che iniziano con 0.</li>
+      <li>Il limite di caratteri per i campi Numero è 16. È inoltre possibile utilizzare un campo Testo per immettere numeri ed evitare il limite.</li>
+      </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">URL API base</td> 

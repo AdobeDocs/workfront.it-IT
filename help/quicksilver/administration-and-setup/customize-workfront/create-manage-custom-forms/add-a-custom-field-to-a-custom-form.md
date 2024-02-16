@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Aggiungere un campo personalizzato a un modulo personalizzato con il generatore di moduli legacy
 description: Quando si lavora su un modulo personalizzato, è possibile creare un nuovo campo personalizzato e aggiungerlo a un modulo personalizzato. È inoltre possibile aggiungere un campo personalizzato già aggiunto a un altro modulo personalizzato.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 9b4faccb6b4d61970abb69af60a0e8d47c9408e7
+source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2335'
 ht-degree: 2%
 
 ---
@@ -164,6 +164,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    <p><strong>Esempio:</strong> Se si salva un valore numerico per un campo con formato Testo in almeno un oggetto e successivamente si modifica il formato in Numerico o Valuta, non si verificherà alcun errore. </p>
       <p>Tuttavia, se si salva un valore alfanumerico in un campo con formato Testo in almeno un oggetto e si tenta di modificare il formato in Numerico o Valuta, si verificherà un errore perché il valore alfanumerico salvato non è compatibile con i formati Numerico o Valuta. </p>
+
+   <p><strong>Nota:</strong> Il limite di caratteri per i campi Numero è 16. È inoltre possibile utilizzare un campo Testo per immettere numeri ed evitare il limite.</p>
 
    </td> 
      </tr> 
