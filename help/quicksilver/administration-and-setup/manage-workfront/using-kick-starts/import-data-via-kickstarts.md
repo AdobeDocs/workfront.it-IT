@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
 workflow-type: tm+mt
-source-wordcount: '2780'
+source-wordcount: '2725'
 ht-degree: 6%
 
 ---
@@ -51,11 +51,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>:</p> 
-   <p> Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td>Devi essere un amministratore di Workfront. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Limitazioni
 
@@ -200,27 +201,9 @@ Per esportare un modello di Kick-Start:
      </tr>
 
    <tr> 
-      <td>Gruppo di risorse esistente</td> 
-      <td>Esporta come file Excel</td> 
-      <td> <p> Gruppo di risorse esistente</p> <p>Preferenze </p> </td> 
-     </tr>
-
-   <tr> 
       <td>Percorso milestone</td> 
       <td> Esporta come file Excel</td> 
       <td> <p> Milestone</p> <p>Percorso milestone</p> <p>Preferenze </p> </td> 
-     </tr>
-
-   <tr> 
-      <td>Risorsa non manodopera</td> 
-      <td> Esporta come file Excel</td> 
-      <td> <p> Risorsa non manodopera</p> <p>Preferenze</p></td> 
-     </tr>
-
-   <tr> 
-      <td>Categoria di risorse non manodopera</td> 
-      <td> Esporta come file Excel</td> 
-      <td> <p> Categoria di risorse non manodopera</p> <p>Preferenze</p></td> 
      </tr>
 
    <tr> 
@@ -471,7 +454,7 @@ Sebbene sia una best practice utilizzare gli ID quando possibile, a volte è sco
 
 ## Importare i dati del foglio di calcolo in Workfront
 
-Dopo aver inserito i dati nel modello di Excel, puoi caricarne i dati in Workfront.
+Dopo aver popolato il modello Excel con i tuoi dati, puoi caricarne i dati in Workfront.
 
 L&#39;importazione Kick-Start supporta i seguenti tipi di file:
 
@@ -485,17 +468,17 @@ L&#39;importazione Kick-Start supporta i seguenti tipi di file:
   >* Report
   >* Documenti
   >* Avatar
-  >* Visualizzare, filtrare o raggruppare i file delle proprietà.
+  >* Visualizzare, filtrare o raggruppare i file di proprietà
   >
   >Quando si utilizza un file di importazione compresso, il file .ZIP deve avere lo stesso nome del file .xlsx o .xls e tutti i file devono trovarsi allo stesso livello di struttura (nessuna cartella).
 
 Per importare i dati del foglio di calcolo del modello in Workfront:
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. Clic **Sistema** >**Importa dati (Kick-Start)**.
+{{step-1-to-setup}}
+
+1. Clic **Sistema** > **Importa dati (Kick-Start)**.
 
 1. In **Caricare dati con il foglio di calcolo Kick-Start** , fare clic su **Scegli file**, quindi individuare e selezionare il foglio di calcolo popolato.
 
