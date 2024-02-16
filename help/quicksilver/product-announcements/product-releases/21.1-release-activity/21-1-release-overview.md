@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '3658'
 ht-degree: 0%
@@ -365,7 +365,7 @@ Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versi
 
 Per aumentare il successo della distribuzione delle e-mail, con la versione di produzione 21.1 per i cluster 1, 2, 3, 4 e 5 verranno aggiunti nuovi indirizzi IP.
 
-Per informazioni dettagliate sugli indirizzi IP da aggiungere per il cluster, vedere [Nuovi indirizzi IP per l’e-mail di Adobe Workfront con la versione 21.1](../../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md).
+Per informazioni dettagliate sugli indirizzi IP da aggiungere per il cluster, vedere [Nuovi indirizzi IP per l’e-mail di Adobe Workfront con la versione 21.1](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
 
 Per individuare il cluster su cui si sta eseguendo l&#39;istanza, passare a Configurazione > Sistema > Informazioni cliente.
 

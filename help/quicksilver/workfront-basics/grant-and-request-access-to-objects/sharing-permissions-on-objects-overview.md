@@ -6,7 +6,7 @@ description: È possibile condividere o rimuovere le autorizzazioni per un ogget
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 0%
@@ -38,7 +38,7 @@ In Workfront è possibile condividere i seguenti oggetti con altri utenti:
 
 * **Modelli**: per ulteriori informazioni, consulta [Condividere modelli di progetto](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfoli**: per ulteriori informazioni, consulta [Condividere un portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+* **Portfoli**: per ulteriori informazioni, consulta [Condividere un portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 * **Programmi**: per informazioni, consulta [Condividere un programma](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
 

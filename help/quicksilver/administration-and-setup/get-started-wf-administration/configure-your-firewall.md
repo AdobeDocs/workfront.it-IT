@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1608'
 ht-degree: 0%
@@ -124,7 +124,7 @@ Se l&#39;ambiente di produzione si trova nel cluster 1, 2, 3, 5 o 7, è necessar
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54 71 252 65</li> 
-    </ul> <p>Per informazioni sui seguenti indirizzi IP, vedi <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">Nuovi indirizzi IP per l’e-mail di Adobe Workfront con la versione 21.1</a></p> 
+    </ul> <p>Per informazioni sui seguenti indirizzi IP, vedi <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nuovi indirizzi IP per l’e-mail di Adobe Workfront con la versione 21.1</a></p> 
     <ul> 
      <li>23 251 237 107</li> 
      <li>23 251 237 108</li> 
@@ -158,7 +158,7 @@ Se l’ambiente di produzione si trova nel cluster 4, aggiungi i seguenti indiri
 * 54 220 93 204
 * 34 254 76 122
 
-Per informazioni sui seguenti indirizzi IP, vedi [Nuovi indirizzi IP per l’e-mail di Adobe Workfront con la versione 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
+Per informazioni sui seguenti indirizzi IP, vedi [Nuovi indirizzi IP per l’e-mail di Adobe Workfront con la versione 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23 251 239 98
 * 23 251 239 99
