@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: d177f884a8754d0ced3d9c5d6f44c1b4964f1629
+source-git-commit: 738286fdcd19d1db648da220778d1041a0010cff
 workflow-type: tm+mt
-source-wordcount: '5087'
+source-wordcount: '5127'
 ht-degree: 8%
 
 ---
@@ -75,7 +75,7 @@ Vedi anche [Notifiche: azione necessaria](../../../workfront-basics/using-notifi
    <td> <p>Problema</p> </td> 
    <td> <p>Assegnazione problema</p> </td> 
    <td> <p>Utente a cui è assegnato il problema</p> </td> 
-   <td> <p>Quando si cambia l'incaricato di una Issue, invia una Email al nuovo incaricato.</p> <p>L’assegnatario del problema riceve una notifica e-mail solo se lo stato del progetto è Corrente e lo stato del problema non è Chiuso o se è equivalente a Chiuso.</p> <p>Gli utenti con una licenza Revisione o Richiesta non ricevono una notifica.</p> </td> 
+   <td> <p>Quando si cambia l'incaricato di una Issue, invia una Email al nuovo incaricato.</p> <p>L’assegnatario del problema riceve una notifica e-mail solo se lo stato del progetto è Corrente e lo stato del problema non è Chiuso o se è equivalente a Chiuso.</p> <p>Gli utenti con una licenza Light, Contributor, Review o Request non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
@@ -110,7 +110,7 @@ Vedi anche [Notifiche: azione necessaria](../../../workfront-basics/using-notifi
    <td> <p>Attività</p> </td> 
    <td> <p>Assegnazione attività</p> </td> 
    <td> <p>Utente a cui è assegnata l’attività</p> </td> 
-   <td> <p>Quando viene impostato l'assegnatario principale di un'attività,</p> <p>L'assegnatario dell'attività riceve una notifica e-mail se viene designato come assegnatario principale dell'attività, a meno che l'assegnatario non sia l'utente che ha effettuato l'assegnazione.</p> <p>Se lo stato del progetto è Corrente e l'attività non è contrassegnata come Completa, viene inviata una notifica.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Quando viene impostato l'assegnatario principale di un'attività,</p> <p>L'assegnatario dell'attività riceve una notifica e-mail se viene designato come assegnatario principale dell'attività, a meno che l'assegnatario non sia l'utente che ha effettuato l'assegnazione.</p> <p>Se lo stato del progetto è Corrente e l'attività non è contrassegnata come Completa, viene inviata una notifica.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
@@ -131,14 +131,14 @@ Vedi anche [Notifiche: azione necessaria](../../../workfront-basics/using-notifi
    <td> <p>Scheda orario</p> </td> 
    <td> <p>Scheda orario riaperta</p> </td> 
    <td> <p>Utente a cui appartiene la scheda orario</p> </td> 
-   <td> <p>La mia scheda orario è stata riaperta.</p> <p>Il proprietario della scheda orario riceve una notifica e-mail quando la scheda viene riaperta, a meno che l’utente che ha riaperto la scheda non sia anche il proprietario della scheda orario.</p> <p>Una notifica e-mail viene inviata solo se lo stato della scheda orario è Aperto.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>La mia scheda orario è stata riaperta.</p> <p>Il proprietario della scheda orario riceve una notifica e-mail quando la scheda viene riaperta, a meno che l’utente che ha riaperto la scheda non sia anche il proprietario della scheda orario.</p> <p>Una notifica e-mail viene inviata solo se lo stato della scheda orario è Aperto.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Scheda orario</p> </td> 
    <td> <p>Rifiuto scheda orario</p> </td> 
    <td> <p>Utente a cui appartiene la scheda orario</p> </td> 
-   <td> <p>La mia scheda orario è stata rifiutata.</p> <p>Il proprietario della scheda orario riceve una notifica e-mail quando la scheda viene rifiutata, a meno che l’utente che ha rifiutato la scheda orario non sia anche il proprietario.</p> <p>Una notifica e-mail viene inviata solo se lo stato della scheda orario è Rifiutato.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>La mia scheda orario è stata rifiutata.</p> <p>Il proprietario della scheda orario riceve una notifica e-mail quando la scheda viene rifiutata, a meno che l’utente che ha rifiutato la scheda orario non sia anche il proprietario.</p> <p>Una notifica e-mail viene inviata solo se lo stato della scheda orario è Rifiutato.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
@@ -152,14 +152,14 @@ Vedi anche [Notifiche: azione necessaria](../../../workfront-basics/using-notifi
    <td> <p>Assegnazione</p> </td> 
    <td> <p>Richiesta elemento di lavoro</p> </td> 
    <td> <p>Membri del team per cui è richiesto l'elemento</p> </td> 
-   <td> <p>Il mio team riceve una nuova richiesta di lavoro.</p> <p>I membri del team ricevono una notifica e-mail quando ricevono una nuova richiesta di lavoro. L’utente che ha inviato la richiesta non riceve una notifica se è membro del team.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente al momento della richiesta di lavoro e lo stato della richiesta di lavoro è Nuovo.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Il mio team riceve una nuova richiesta di lavoro.</p> <p>I membri del team ricevono una notifica e-mail quando ricevono una nuova richiesta di lavoro. L’utente che ha inviato la richiesta non riceve una notifica se è membro del team.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente al momento della richiesta di lavoro e lo stato della richiesta di lavoro è Nuovo.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Attiva</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Assegnazione</p> </td> 
    <td> <p>Richiesta elemento di lavoro</p> </td> 
    <td> <p>Utente per cui è richiesto l'elemento di lavoro</p> </td> 
-   <td> <p>Ricevo una nuova richiesta di lavoro.</p> <p>L’assegnatario dell’elemento di lavoro riceve una notifica e-mail, a meno che l’utente che effettua la richiesta non sia anche l’assegnatario. </p> <p>Non viene inviata una notifica se lo stato dell’attività è Completo o se lo stato del problema è Chiuso.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente al momento della richiesta.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Ricevo una nuova richiesta di lavoro.</p> <p>L’assegnatario dell’elemento di lavoro riceve una notifica e-mail, a meno che l’utente che effettua la richiesta non sia anche l’assegnatario. </p> <p>Non viene inviata una notifica se lo stato dell’attività è Completo o se lo stato del problema è Chiuso.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente al momento della richiesta.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Attiva</p> </td> 
   </tr> 
  </tbody> 
@@ -441,35 +441,35 @@ Vedi anche [Notifiche: informazioni sul lavoro assegnato a me](../../../workfron
    <td>Attività</td> 
    <td>Completamento di tutte le attività predecessore</td> 
    <td>Membri del team assegnati ad attività dipendenti</td> 
-   <td> <p>Tutti i predecessori delle attività del team sono completati.</p> <p>Gli assegnatari dell’attività (tutti i membri del team) ricevono una notifica e-mail.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Tutti i predecessori delle attività del team sono completati.</p> <p>Gli assegnatari dell’attività (tutti i membri del team) ricevono una notifica e-mail.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td>Inattiva</td> 
   </tr> 
   <tr> 
    <td> <p>Attività</p> </td> 
    <td> <p>Completamento di tutte le attività predecessore</p> </td> 
    <td> <p>Utente assegnato ad attività dipendenti</p> </td> 
-   <td> <p>Tutti i predecessori delle mie attività sono completati.</p> <p>L'assegnatario dell'attività riceve una notifica e-mail.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Tutti i predecessori delle mie attività sono completati.</p> <p>L'assegnatario dell'attività riceve una notifica e-mail.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Decisione di approvazione</p> </td> 
    <td> <p>Utente a cui è assegnato il problema</p> </td> 
-   <td> <p>Un problema che io risolvo è approvato o rifiutato.</p> <p>L’assegnatario di un problema riceve una notifica e-mail quando viene presa una decisione di approvazione (approvata o rifiutata).</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Un problema che io risolvo è approvato o rifiutato.</p> <p>L’assegnatario di un problema riceve una notifica e-mail quando viene presa una decisione di approvazione (approvata o rifiutata).</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività</p> </td> 
    <td> <p>Decisione di approvazione</p> </td> 
    <td> <p>Utente a cui è assegnata l’attività</p> </td> 
-   <td> <p>Quando si completa un'attività, questa viene approvata o rifiutata.</p> <p>L’assegnatario dell’attività riceve una notifica e-mail quando l’attività viene approvata o rifiutata.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Quando si completa un'attività, questa viene approvata o rifiutata.</p> <p>L’assegnatario dell’attività riceve una notifica e-mail quando l’attività viene approvata o rifiutata.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Completamento problema</p> </td> 
    <td> <p>Utente a cui è assegnato il problema</p> </td> 
-   <td> <p>Quando si completa una Issue, invia una Email alla squadra.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente o Pianificazione.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Quando si completa una Issue, invia una Email alla squadra.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente o Pianificazione.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
@@ -483,7 +483,7 @@ Vedi anche [Notifiche: informazioni sul lavoro assegnato a me](../../../workfron
    <td> <p>Problema</p> </td> 
    <td> <p>Modifica stato problema</p> </td> 
    <td> <p>Utente a cui è assegnato il problema</p> </td> 
-   <td> <p>Lo stato cambia su uno degli elementi del mio lavoro.</p> <p>L’assegnatario del problema riceve una notifica e-mail quando lo stato cambia, a meno che l’utente che ha modificato lo stato non sia anche l’assegnatario.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Lo stato cambia su uno degli elementi del mio lavoro.</p> <p>L’assegnatario del problema riceve una notifica e-mail quando lo stato cambia, a meno che l’utente che ha modificato lo stato non sia anche l’assegnatario.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Attiva</p> </td> 
   </tr> 
   <tr> 
@@ -497,14 +497,14 @@ Vedi anche [Notifiche: informazioni sul lavoro assegnato a me](../../../workfron
    <td> <p>Attività</p> </td> 
    <td> <p>Completamento attività</p> </td> 
    <td> <p>Utente a cui è assegnata l’attività</p> </td> 
-   <td> <p>Quando si completa un'attività, invia una Email all'incaricato.</p> <p>L’Assegnatario dell’attività riceve una notifica e-mail quando l’attività viene completata. Le notifiche non vengono inviate al completamento di un'attività personale.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente.</p> <p>Gli utenti con una licenza Revisione o Richiedente non ricevono una notifica.</p> </td> 
+   <td> <p>Quando si completa un'attività, invia una Email all'incaricato.</p> <p>L’Assegnatario dell’attività riceve una notifica e-mail quando l’attività viene completata. Le notifiche non vengono inviate al completamento di un'attività personale.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente.</p> <p>Gli utenti con una licenza Light, Contributor, Review o Requestor non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività</p> </td> 
    <td> <p>Completamento attività</p> </td> 
    <td> <p>Utente assegnato all'attività dipendente</p> </td> 
-   <td> <p>Un predecessore di una delle mie attività è completato.</p> <p>L’assegnatario dell’attività riceve una notifica e-mail quando uno dei predecessori dell’attività è stato completato.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Un predecessore di una delle mie attività è completato.</p> <p>L’assegnatario dell’attività riceve una notifica e-mail quando uno dei predecessori dell’attività è stato completato.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
@@ -518,7 +518,7 @@ Vedi anche [Notifiche: informazioni sul lavoro assegnato a me](../../../workfron
    <td> <p>Attività</p> </td> 
    <td> <p>Modifica stato attività</p> </td> 
    <td> <p>Utente a cui è assegnata l’attività</p> </td> 
-   <td> <p>Lo stato cambia su un'attività a cui sono assegnato.</p> <p>L’assegnatario dell’attività riceve una notifica e-mail quando lo stato dell’attività cambia, a meno che l’utente che ha modificato lo stato non sia anche l’assegnatario.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica. </p> </td> 
+   <td> <p>Lo stato cambia su un'attività a cui sono assegnato.</p> <p>L’assegnatario dell’attività riceve una notifica e-mail quando lo stato dell’attività cambia, a meno che l’utente che ha modificato lo stato non sia anche l’assegnatario.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica. </p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
  </tbody> 
@@ -644,14 +644,14 @@ Vedi anche [Notifiche: informazioni sui progetti di mia proprietà](../../../wor
    <td> <p>Documento</p> </td> 
    <td> <p>Aggiunta documento</p> </td> 
    <td> <p>Proprietario progetto</p> </td> 
-   <td> <p>Un documento viene aggiunto a un progetto di mia proprietà.</p> <p>Il proprietario del progetto riceve una notifica e-mail quando un documento viene aggiunto al progetto, a meno che l’utente che lo ha aggiunto non sia anche il proprietario del progetto.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e il documento non è Privato.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Un documento viene aggiunto a un progetto di mia proprietà.</p> <p>Il proprietario del progetto riceve una notifica e-mail quando un documento viene aggiunto al progetto, a meno che l’utente che lo ha aggiunto non sia anche il proprietario del progetto.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e il documento non è Privato.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Issue Add</p> </td> 
    <td> <p>Proprietario progetto</p> </td> 
-   <td> <p>Quando si aggiunge una Issue, invia una Email al Proprietario del progetto.</p> <p>Il proprietario del progetto riceve una notifica e-mail quando viene aggiunto un problema al progetto.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente o Pianificazione.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Quando si aggiunge una Issue, invia una Email al Proprietario del progetto.</p> <p>Il proprietario del progetto riceve una notifica e-mail quando viene aggiunto un problema al progetto.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente o Pianificazione.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
@@ -665,7 +665,7 @@ Vedi anche [Notifiche: informazioni sui progetti di mia proprietà](../../../wor
    <td> <p>Problema</p> </td> 
    <td> <p>Completamento problema</p> </td> 
    <td> <p>Proprietario progetto</p> </td> 
-   <td> <p>Quando si completa una Issue, invia una Email al Proprietario del progetto.</p> <p>Il proprietario del progetto riceve una notifica e-mail.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente o Pianificazione.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Quando si completa una Issue, invia una Email al Proprietario del progetto.</p> <p>Il proprietario del progetto riceve una notifica e-mail.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente o Pianificazione.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
@@ -714,7 +714,7 @@ Vedi anche [Notifiche: informazioni sui progetti di mia proprietà](../../../wor
    <td> <p>Problema</p> </td> 
    <td> <p>Invia per Email l'Avviso della Issue non Assegnato</p> </td> 
    <td> <p>Proprietario progetto</p> </td> 
-   <td> <p>Quando si aggiunge una Issue non assegnata, invia una Email al Proprietario del progetto.</p> <p>Il proprietario del progetto riceve una notifica e-mail quando viene aggiunto al progetto un problema non assegnato.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente o Pianificazione.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Quando si aggiunge una Issue non assegnata, invia una Email al Proprietario del progetto.</p> <p>Il proprietario del progetto riceve una notifica e-mail quando viene aggiunto al progetto un problema non assegnato.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente o Pianificazione.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
  </tbody> 
@@ -878,7 +878,7 @@ Vedi anche [Notifiche: informazioni varie](../../../workfront-basics/using-notif
    <td> <p>Utente Progetto</p> </td> 
    <td> <p>Aggiunta utente progetto</p> </td> 
    <td> <p>Proprietario risorsa</p> </td> 
-   <td> <p>Una delle mie persone viene aggiunta a un progetto.</p> <p>Un manager riceve una notifica e-mail quando uno dei suoi referenti diretti viene aggiunto a un progetto.</p> <p>Gli utenti con una licenza Review (Revisione) non ricevono una notifica.</p> </td> 
+   <td> <p>Una delle mie persone viene aggiunta a un progetto.</p> <p>Un manager riceve una notifica e-mail quando uno dei suoi referenti diretti viene aggiunto a un progetto.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
    <td> <p>Inattiva</p> </td> 
   </tr> 
   <tr> 
