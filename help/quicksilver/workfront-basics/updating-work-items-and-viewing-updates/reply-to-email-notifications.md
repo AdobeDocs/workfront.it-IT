@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Rispondi alle notifiche e-mail
 description: Puoi rispondere alle notifiche e-mail di Workfront generate dai commenti fatti a progetti, attività, problemi e altri oggetti per aggiungere risposte ai commenti originali inseriti nell’applicazione Adobe Workfront.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
+source-git-commit: ea16514d15f0b00908d33e2f02dbf23e56b232d4
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '583'
 ht-degree: 1%
 
 ---
@@ -22,9 +22,11 @@ A seconda della configurazione delle notifiche e-mail, potresti ricevere una not
 * Utilizza il pulsante Commento all’interno dell’e-mail per tornare a Workfront e rispondere all’aggiornamento nell’area Aggiornamenti.
 * Rispondi all’e-mail ricevuta. L’e-mail di risposta viene aggiunta come risposta di Workfront al commento originale.
 
+<!--
 >[!NOTE]
 >
->La risposta agli aggiornamenti tramite e-mail non è disponibile per gli ambienti nel cluster 6.
+>Replying to updates by email is not available for environments on Cluster 6.
+-->
 
 Puoi rispondere all’e-mail di Workfront generata dai commenti ai seguenti oggetti:
 
@@ -108,6 +110,6 @@ Per aggiungere un aggiornamento a un messaggio e-mail di Workfront:
 1. Digita il tuo aggiornamento nella risposta e-mail.
 
    Gli allegati non sono consentiti e l’eventuale formattazione Rich Text applicata a un aggiornamento in un messaggio e-mail non viene visualizzata nell’aggiornamento quando viene visualizzata nella scheda Aggiornamenti.
-1. Clic **Invia**.
+1. Fai clic su **Invia**.
 
    L’aggiornamento viene aggiunto come risposta al thread di comunicazione dell’oggetto.
