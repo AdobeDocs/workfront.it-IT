@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 321bc9e190916d417f2b981bb273bb2d01931540
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -275,12 +275,12 @@ ht-degree: 1%
             * [20.3 Integrazione e miglioramenti per dispositivi mobili](product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md)
             * [20.3 altri miglioramenti](product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md)
          * Versione 20.2 {#release-20-2}
-            * [Panoramica sulla versione 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md)
-            * [Miglioramenti per dispositivi mobili 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-mobile-enhancements.md)
-            * [2020.2 altri miglioramenti](product-announcements/product-releases/2020.2.-release-activity/2020.2-other-enhancements.md)
-            * [Miglioramenti al progetto 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-project-enhancements.md)
-            * [Miglioramenti alla bozza 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020.2-proofing-enhancements.md)
-            * [Miglioramenti alla gestione delle risorse 2020.2: il Bilanciatore dei carichi di lavoro](product-announcements/product-releases/2020.2.-release-activity/2020.2-resource-management.md)
+            * [Panoramica sulla versione 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
+            * [Miglioramenti per dispositivi mobili 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-mobile-enhancements.md)
+            * [2020.2 altri miglioramenti](product-announcements/product-releases/2020.2.-release-activity/2020-2-other-enhancements.md)
+            * [Miglioramenti al progetto 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-project-enhancements.md)
+            * [Miglioramenti alla bozza 2020.2](product-announcements/product-releases/2020.2.-release-activity/2020-2-proofing-enhancements.md)
+            * [Miglioramenti alla gestione delle risorse 2020.2: il Bilanciatore dei carichi di lavoro](product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md)
          * Versione 20.1 {#release-20-1}
             * [Panoramica sulla versione 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
             * [Miglioramenti all’elenco 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-list-enhancements.md)
@@ -291,12 +291,12 @@ ht-degree: 1%
             * [Miglioramenti alla gestione delle risorse 2020.1](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
             * [Altre funzioni di Workfront Classic rilasciate in produzione prima della versione 2020.1](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
          * Versione 2019.4 {#release-19-4}
-            * [Panoramica sulla versione 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
-            * [Miglioramenti all’elenco 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-list-enhancements.md)
-            * [Miglioramenti per dispositivi mobili 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-mobile-enhancements.md)
-            * [2019.4 altri miglioramenti](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-other-enhancements.md)
-            * [Miglioramenti alla gestione delle risorse 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-resource-management-enhancements.md)
-            * [Altre funzioni di Workfront Classic rilasciate in produzione prima della versione 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19.4.md)
+            * [Panoramica sulla versione 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
+            * [Miglioramenti all’elenco 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
+            * [Miglioramenti per dispositivi mobili 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
+            * [2019.4 altri miglioramenti](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
+            * [Miglioramenti alla gestione delle risorse 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md)
+            * [Altre funzioni di Workfront Classic rilasciate in produzione prima della versione 2019.4](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/other-workfront-classic-features-prior-to-19-4.md)
          * Versione 2019.3 {#release-19-3}
             * [Panoramica sull’attività della versione 2019.3](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md)
             * [Miglioramenti alla pianificazione delle risorse 2019.3](product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-resource-planning-enhancements.md)
