@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: d80f84f8698d0c969dc94b46d7af70ff49c1039c
+source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 0%
 >[!DNL Adobe Workfront Fusion] richiede un [!DNL Adobe Workfront Fusion] licenza oltre a un [!DNL Adobe Workfront license].
 
 L&#39;automazione del lavoro richiede un&#39;elaborazione rapida, quindi [!DNL Adobe Workfront Fusion] è progettato per prestazioni elevate. Poiché gli scenari a lunga durata possono rallentare il ritmo del tuo lavoro, abbiamo progettato [!DNL Workfront Fusion] con guardrail per il mantenimento delle prestazioni che limitano il tempo di esecuzione, la dimensione dei dati e altri parametri dello scenario. [!DNL Workfront Fusion] i progettisti devono essere consapevoli di questi guardrail e incorporarli nelle loro pratiche di progettazione.
+
+## Browser
+
+Wokfront Fusion supporta solo browser basati su Chrome.
 
 ## Scenari
 
