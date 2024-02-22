@@ -3,11 +3,12 @@ content-type: overview
 title: Panoramica di riepilogo
 description: È possibile utilizzare il pannello Riepilogo per rivedere e aggiornare le informazioni sull'elemento di lavoro direttamente da un elenco di attività, documenti o da altre aree di [!DNL Adobe Workfront] che visualizzano attività e problemi.
 feature: Get Started with Workfront
+author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 2%
+source-wordcount: '931'
+ht-degree: 1%
 
 ---
 
@@ -116,7 +117,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Puoi selezionare una sola attività o un solo problema alla volta per visualizzarne i dettagli in [!UICONTROL Riepilogo] pannello.
 
-   ![Pannello Riepilogo](assets/summary-panel-for-task.png)
+   ![Pannello Riepilogo](assets/summary-panel-for-task-new-comments.png)
 
 1. (Facoltativo) Per chiudere il [!UICONTROL Riepilogo] eseguire una delle operazioni seguenti:
 
@@ -136,19 +137,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Utilizza la barra di avanzamento nella parte superiore della [!UICONTROL Riepilogo] per aggiornare la percentuale di completamento per l&#39;attività o il problema selezionato. Immetti un numero o trascina la barra fino alla percentuale corretta.
 
-![](assets/summary-overview-percent-complete-350x395.png)
+![Percentuale di completamento nel pannello Riepilogo](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Aggiornamenti]
 
 Utilizza il [!UICONTROL Aggiornamenti] sezione del [!UICONTROL Riepilogo] per visualizzare gli aggiornamenti recenti e apportare aggiornamenti all’attività o al problema selezionato. Clic **[!UICONTROL Vedi tutto]** per passare direttamente al [!UICONTROL Aggiornamenti] sull&#39;attività.
 
-![](assets/summary-updates-with-block-quote-350x290.png)
+![Sezione Aggiornamenti nel pannello Riepilogo](assets/summary-updates-section.png)
 
 ## [!UICONTROL Documenti]
 
 Utilizza il [!UICONTROL Documenti] sezione del [!UICONTROL Riepilogo] per visualizzare i documenti allegati all’attività o al problema selezionato. Fare clic sulla miniatura per aprire un&#39;anteprima del documento. Per passare direttamente al [!UICONTROL Documenti] sull’attività o sul problema, fai clic sulla scheda **[!UICONTROL Documenti]** titolo.
 
-![](assets/summary-overview-documents-350x84.png)
+![Sezione Documenti nel pannello Riepilogo](assets/summary-documents-section.png)
 
 ## [!UICONTROL Dettagli]
 
@@ -158,7 +159,7 @@ Utilizza il [!UICONTROL Dettagli] sezione del [!UICONTROL Riepilogo] per visuali
 >
 >I campi visualizzati in questa sezione sono gli stessi campi visualizzati nel pannello destro della Home. Puoi personalizzare questi campi [Personalizza [!UICONTROL Home] e [!UICONTROL Riepilogo] utilizzo di un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
-![](assets/summary-overview-details-new-350x278.png)
+![Sezione Dettagli nel pannello Riepilogo](assets/summary-details-section.png)
 
 ## [!UICONTROL Sottoattività]
 
@@ -166,7 +167,7 @@ Questa sezione è disponibile solo per le attività. Utilizza il [!UICONTROL Sot
 
 Se non sono state aggiunte sottoattività all&#39;attività, fare clic su **[!UICONTROL Aggiungine qui]** per passare direttamente al [!UICONTROL Sottoattività] sull&#39;attività.
 
-![](assets/summary-overview-subtasks-350x140.png)
+![Sezione delle sottoattività nel pannello Riepilogo](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL Ore]
 
@@ -176,7 +177,7 @@ Il conteggio delle ore nel [!UICONTROL Riepilogo] visualizza le ore registrate. 
 
 Se non sono pianificati [!UICONTROL ore] sull’attività o sul problema e hai registrato l’ora, la barra delle ore viene visualizzata in rosso.
 
-![](assets/summary-overview-hours-350x96.png)
+![Sezione ore nel pannello Riepilogo](assets/summary-hours-section.png)
 
 ## Approvazioni
 
@@ -184,4 +185,4 @@ Utilizza il [!UICONTROL Approvazioni] sezione del [!UICONTROL Riepilogo] per vis
 
 Per passare direttamente al [!UICONTROL Approvazioni] sull’attività o sul problema, fai clic sulla scheda **[!UICONTROL Approvazioni]** titolo.
 
-![](assets/summary-overview-approvals-350x122.png)
+![Sezione Approvazioni nel pannello Riepilogo](assets/summary-approvals-section.png)
