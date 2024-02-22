@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 321bc9e190916d417f2b981bb273bb2d01931540
+source-git-commit: 1ccd3441e51b3c4ea61f5bedb83f12ea27a2aac5
 workflow-type: tm+mt
 source-wordcount: '13950'
 ht-degree: 1%
@@ -639,7 +639,7 @@ ht-degree: 1%
       * [Gestisci Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
       * Configurare la funzionalità di verifica {#configure-proofing}
          * [Configurare la verifica](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
-         * [Impostazioni bozza](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
+         * [Impostazioni di bozza](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
          * [Sincronizzazione utente tra Workfront e Workfront Proof](administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md)
          * [Accesso alle prove](administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)
          * [Visualizzatore bozze desktop](administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md)
