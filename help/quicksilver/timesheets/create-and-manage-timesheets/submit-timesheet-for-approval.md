@@ -1,21 +1,21 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Invia una scheda attività per l'approvazione
-description: L'invio della scheda attività per l'approvazione consente al tuo responsabile di avere visibilità nelle ore lavorative. Gli approvatori possono verificare che tutto il tempo registrato sia stato assegnato nelle aree corrette e che sia stato registrato un numero sufficiente di ore per il periodo di tempo.
+title: Invia una scheda orario per l'approvazione
+description: L'invio della scheda orario per l'approvazione fornisce al tuo responsabile visibilità sulle ore lavorative. Gli approvatori possono verificare che tutto il tempo registrato sia stato assegnato nelle aree corrette e che sia stato registrato un numero sufficiente di ore per il periodo di tempo.
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '894'
 ht-degree: 0%
 
 ---
 
-# Invia una scheda attività per l&#39;approvazione
+# Invia una scheda orario per l&#39;approvazione
 
-L&#39;invio della scheda attività per l&#39;approvazione consente al tuo responsabile di avere visibilità nelle ore lavorative. Gli approvatori possono verificare che tutto il tempo registrato sia stato assegnato nelle aree corrette e che sia stato registrato un numero sufficiente di ore per il periodo di tempo.
+L&#39;invio della scheda orario per l&#39;approvazione fornisce al tuo responsabile visibilità sulle ore lavorative. Gli approvatori possono verificare che tutto il tempo registrato sia stato assegnato nelle aree corrette e che sia stato registrato un numero sufficiente di ore per il periodo di tempo.
 
 ## Requisiti di accesso
 
@@ -26,131 +26,133 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Revisione o superiore</p> </td> 
+   <td> <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Visualizza accesso o superiore a Attività e problemi</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Accesso di visualizzazione o superiore per attività e problemi</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Visualizza o autorizzazioni superiori per attività e problemi</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza o autorizzazioni superiori per attività e problemi</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per sapere quale piano, tipo di licenza o accesso si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
 
-## Invia una scheda attività per l&#39;approvazione
+## Invia una scheda orario per l&#39;approvazione
 
-* [Invia una scheda attività per l&#39;approvazione](#submit-a-timesheet-for-approval)
-* [Visualizza lo stato di una scheda attività inviata](#view-the-status-of-a-submitted-timesheet)
+* [Invia una scheda orario per l&#39;approvazione](#submit-a-timesheet-for-approval)
+* [Visualizzare lo stato di una scheda orario inviata](#view-the-status-of-a-submitted-timesheet)
 
-### Invia una scheda attività per l&#39;approvazione
+### Invia una scheda orario per l&#39;approvazione
 
-Dopo aver impostato un approvatore della scheda attività (come descritto nella sezione [Designazione degli approvatori della scheda attività](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) nell&#39;articolo [Approva una scheda attività](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), **Chiudi** il pulsante nella parte inferiore della scheda attività diventa un **Invia per approvazione** pulsante .
+Dopo aver impostato un approvatore della scheda orario (come descritto nella sezione [Designa approvatori scheda orario](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) nell’articolo [Approvare una scheda orario](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), il **Chiudi** nella parte inferiore della scheda orario diventa un **Invia per approvazione** pulsante.
 
-Per inviare una scheda attività per l&#39;approvazione:
+Per inviare una scheda orario per l&#39;approvazione:
 
-1. Passa a una scheda attività configurata per disporre di un approvatore.
-1. Tempo di log, come descritto in [Tempo di log](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. Fai clic su **Invia per approvazione** per avviare il processo di approvazione della scheda attività.
+1. Vai a una scheda orario configurata per avere un approvatore.
+1. Tempo di connessione, come descritto in [Tempo di connessione](../../timesheets/create-and-manage-timesheets/log-time.md).
+1. Clic **Invia per approvazione** per avviare il processo di approvazione della scheda orario.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   La **Invia per approvazione** viene sostituito dal **Approva**, **Rifiuta** e **Richiama** pulsanti. Lo stato della scheda attività cambia in **Inviato**.
+   Il **Invia per approvazione** è sostituito da **Approva**, **Rifiuta**, e **Richiama** pulsanti. Lo stato della scheda orario diventa **Inviato**.
 
-   Quando la scheda attività viene inviata per l&#39;approvazione, l&#39;approvatore visualizza la scheda attività elencata in **Approvazioni** area **Pagina principale** pagina. Potrebbero verificarsi i seguenti eventi:
+   Quando la scheda orario viene inviata per l&#39;approvazione, l&#39;approvatore visualizza la scheda orario elencata in **Approvazioni** area sul **Home** pagina. Potrebbero verificarsi gli eventi seguenti:
 
-   * Se lo approvano, il **Richiama** il pulsante cambia in **Riaprire** e lo stato della scheda attività viene aggiornato a **Apri**.
-   * Se la rifiutano, la **Invia per approvazione** sostituisce il pulsante **Richiama** lo stato del pulsante e della scheda attività si aggiorna a **Rifiutato**.
+   * Se la approvano, il **Richiama** il pulsante diventa **Riapri** e lo stato della scheda orario viene aggiornato in **Apri**.
+   * Se la rifiutano, il **Invia per approvazione** sostituisce il pulsante **Richiama** e lo stato della scheda orario viene aggiornato in **Rifiutato**.
 
-1. (Facoltativo) Fai clic su **Richiama** se è necessario riaprire la scheda attività e aggiornare l&#39;ora. Per informazioni, consulta la sezione [Richiama una scheda attività](#recall-a-timesheet) in questo articolo.
+1. (Facoltativo) Fai clic su **Richiama** se devi riaprire la scheda orario e aggiornare l’orario. Per informazioni, vedere [Richiama una scheda orario](#recall-a-timesheet) in questo articolo.
 
-### Visualizza lo stato di una scheda attività inviata {#view-the-status-of-a-submitted-timesheet}
+### Visualizzare lo stato di una scheda orario inviata {#view-the-status-of-a-submitted-timesheet}
 
-È possibile visualizzare lo stato di una scheda attività dopo l&#39;invio.
+È possibile visualizzare lo stato di una scheda orario dopo averla inviata.
 
-Se l&#39;amministratore Workfront ha abilitato l&#39;approvazione della scheda attività per l&#39;utente e il rifiuto della scheda attività per i gestori di eventi utente, viene inviata una notifica dopo l&#39;approvazione o il rifiuto della scheda attività. Per informazioni sull&#39;abilitazione delle notifiche degli eventi, vedi [Notifiche di eventi disponibili in Adobe Workfront](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Se l&#39;amministratore di Workfront ha attivato i gestori eventi Approvazione scheda orario e Rifiuto scheda orario per utente, l&#39;utente riceverà una notifica dopo l&#39;approvazione o il rifiuto della scheda orario. Per informazioni sull’abilitazione delle notifiche degli eventi, consulta [Tipi di notifica degli eventi](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Senza queste notifiche, è possibile conoscere lo stato dei fogli presenze inviati nell&#39;area Scheda attività di Workfront.
+Senza queste notifiche, puoi scoprire lo stato delle schede orario inviate nell’area Scheda orario di Workfront.
 
-Per visualizzare lo stato di una scheda attività:
+Per visualizzare lo stato di una scheda orario:
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront.
-1. Fai clic su **Schede temporali**. La **Tutto** Il filtro è selezionato per impostazione predefinita.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
+1. Clic **Schede orario**. Il **Tutti** è selezionato per impostazione predefinita.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Facoltativo) Per aggiornare il filtro nell’elenco dei fogli presenze, effettuare una delle seguenti operazioni:
+1. (Facoltativo) Per aggiornare il filtro nell’elenco delle schede orario, effettua una delle seguenti operazioni:
 
-   * Seleziona **Approvazioni foglio presenze personali** nell’angolo in alto a destra della pagina per visualizzare solo i fogli presenze approvati
+   * Seleziona **Le mie approvazioni schede orario** nell’angolo superiore destro della pagina per visualizzare solo le schede orario che hai approvato
 
-      Oppure
+     Oppure
 
-      Seleziona **Fogli orari personali** per visualizzare solo i fogli presenze.
+     Seleziona **Le mie schede orario** per visualizzare solo le schede orario.
 
-      Questo applica le approvazioni della scheda attività personale o i filtri della scheda attività personale all&#39;elenco dei fogli presenze.
+     In questo modo all’elenco delle schede orario vengono applicate le approvazioni delle mie schede orario o i filtri delle mie schede orario.
 
-      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Fai clic sull’icona Filtro ![](assets/filter-nwepng.png) per applicare un filtro diverso o crearne uno nuovo. Per informazioni sulla creazione o l’aggiornamento dei filtri, consulta [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Fai clic sull’icona Filtro. ![](assets/filter-nwepng.png) per applicare un filtro diverso o crearne uno nuovo. Per informazioni sulla creazione o l’aggiornamento dei filtri, consulta [Creare o modificare filtri in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
    >[!NOTE]
    >
-   >Le opzioni Approvazioni schede attività personali e Pagine attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo hanno rimosso le approvazioni della scheda attività personale e i filtri della scheda attività personale dai controlli elenco nell&#39;area Configurazione o dal modello di layout. Per ulteriori informazioni, consulta i seguenti articoli:
+   >Le opzioni Approvazioni schede attività personali e Schede attività personali non vengono visualizzate nella parte superiore dell&#39;elenco delle schede attività o nell&#39;elenco dei filtri se l&#39;amministratore di Workfront o un amministratore di gruppo ha rimosso i filtri Approvazioni schede attività personali e Schede attività personali dall&#39;area Controlli elenco nella configurazione o dal modello di layout. Per ulteriori informazioni, consulta i seguenti articoli:
    >
    >   
    >   
-   >   * [Personalizzare filtri, visualizzazioni e gruppi utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Personalizzare filtri, visualizzazioni e raggruppamenti utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   
+   >
 
+1. (Condizionale) Se hai selezionato **Le mie schede orario**, assicurano che **Standard** viene applicata la visualizzazione e si osserva **Stato** colonna.
 
-1. (Condizionale) Se hai selezionato **Fogli orari personali**, assicura che **Standard** viene applicata la visualizzazione e viene visualizzata la **Stato** colonna.
-
-   I fogli presenze possono presentare i seguenti stati:
+   Le schede orario possono avere i seguenti stati:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Aperto</td> 
-      <td> <p>La scheda attività è attualmente aperta ed è possibile registrare il tempo. </p> <p>Viene visualizzata una scheda attività richiamata con lo stato Apri. Per informazioni, consulta la sezione <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda attività</a> in questo articolo. </p> </td> 
+      <td role="rowheader">Aperti</td> 
+      <td> <p>La scheda orario è attualmente aperta e si potrebbe registrare l'ora. </p> <p>Viene visualizzata una scheda orario richiamata con lo stato Aperto. Per informazioni, vedere <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda orario</a> in questo articolo. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Inviate</td> 
-      <td>La scheda attività è stata inviata per l'approvazione ma non è ancora stata approvata. È possibile richiamare una scheda attività inviata per continuare a modificarla. Per informazioni, consulta la sezione <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda attività</a> in questo articolo. </td> 
+      <td>La scheda orario è stata inviata per l'approvazione ma non è ancora stata approvata. È possibile richiamare una scheda orario inviata per continuare a modificarla. Per informazioni, vedere <a href="#recall-a-timesheet" class="MCXref xref">Richiama una scheda orario</a> in questo articolo. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Chiuso</td> 
       <td> <p>Esistono i seguenti scenari:</p> 
        <ul> 
-        <li> <p>Se la scheda attività non dispone di un approvatore, il tempo è stato salvato e chiuso.</p> </li> 
-        <li> <p>Se la scheda attività dispone di un approvatore, è stata inviata per l'approvazione ed è stata approvata.</p> </li> 
+        <li> <p>Se la scheda orario non ha un approvatore, l'orario è stato salvato e chiuso.</p> </li> 
+        <li> <p>Se la scheda orario dispone di un approvatore, è stata inviata per l'approvazione ed è stata approvata.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Rifiutato</td> 
-      <td>La scheda attività è stata inviata per l'approvazione e l'approvatore l'ha rifiutata.</td> 
+      <td>La scheda orario è stata inviata per l'approvazione e l'approvatore l'ha rifiutata.</td> 
      </tr> 
     </tbody> 
    </table>
 
-## Richiama una scheda attività {#recall-a-timesheet}
+## Richiama una scheda orario {#recall-a-timesheet}
 
-È possibile richiamare una scheda attività già inviata per l&#39;approvazione. È possibile richiamare solo i fogli presenze non approvati.
+È possibile richiamare una scheda orario già inviata per l&#39;approvazione. È possibile richiamare solo le schede orario non approvate.
 
-Per richiamare una scheda attività:
+Per richiamare una scheda orario:
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
 
-1. Fai clic su **Schede temporali**.
-1. Fai clic su **Fogli orari personali** nell’angolo superiore destro dello schermo o seleziona **Fogli orari personali** dal **Filtro** ![](assets/filter-nwepng.png) menu a discesa.
-1. Fare clic sull&#39;intervallo di tempo per una scheda attività con stato **Inviato**.
-1. Fai clic su **Richiama**.
+1. Clic **Schede orario**.
+1. Clic **Le mie schede orario** nell’angolo superiore destro dello schermo o seleziona **Le mie schede orario** dal **Filtro** ![](assets/filter-nwepng.png) menu a discesa.
+1. Fai clic sull’intervallo di tempo per una scheda orario con stato **Inviato**.
+1. Clic **Richiama**.
 
-   La scheda attività diventa nuovamente modificabile e il suo stato cambia in **Apri**.
+   La scheda orario diventa nuovamente modificabile e il suo stato cambia in **Apri**.

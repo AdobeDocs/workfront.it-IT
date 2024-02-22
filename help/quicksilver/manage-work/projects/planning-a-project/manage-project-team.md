@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Gli utenti vengono inoltre aggiunti automaticamente al team di progetto quando v
 
 Se gli utenti che non ricoprono alcun ruolo nel progetto desiderano ricevere una notifica su determinati aggiornamenti o modifiche durante il ciclo di vita del progetto, puoi aggiungerli manualmente al team di progetto.
 
-Per ulteriori informazioni sulle notifiche che possono essere abilitate per gli utenti del team di progetto, vedi [Notifiche degli eventi disponibili in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Per ulteriori informazioni sulle notifiche che possono essere abilitate per gli utenti del team di progetto, vedi [Tipi di notifica degli eventi](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 

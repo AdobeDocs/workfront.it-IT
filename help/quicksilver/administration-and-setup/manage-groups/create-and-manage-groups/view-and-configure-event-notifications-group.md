@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ La configurazione di una notifica di evento per un gruppo influisce sugli utenti
 
 Per informazioni su come un amministratore di Workfront sblocca una notifica di evento, vedi [Sblocca o blocca la configurazione delle notifiche degli eventi per tutti i gruppi](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-Per informazioni sull’impostazione di notifica predefinita per un evento, consulta [Notifiche degli eventi disponibili in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Per informazioni sull’impostazione di notifica predefinita per un evento, consulta [Tipi di notifica degli eventi](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 ## Requisiti di accesso
 
@@ -61,7 +61,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fare clic sul nome del gruppo di primo livello.
 1. Nel menu a sinistra, fai clic su **Notifiche degli eventi**.
 
-   Nell&#39;elenco visualizzato, il **Attivo** a sinistra mostra quali notifiche sono attive (blu) e inattive (grigio) per il gruppo.
+   Nell&#39;elenco visualizzato, il **Attivo** sulla sinistra mostra quali notifiche sono attive (blu) e inattive (grigio) per il gruppo.
 
 1. Per attivare o disattivare una notifica di evento sbloccata: fare clic sul pulsante nella <strong>Attivo</strong> colonna da attivare <img src="assets/email-notification-enabled-unlocked.png"> o disattiva <img src="assets/email-notification-disabled-unlocked.png"> ...
 
@@ -72,7 +72,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >* Se un pulsante in <strong>Attivo</strong> la colonna è grigia e non oscurata <img src="assets/email-notification-disabled-unlocked.png">, la notifica dell’evento è <strong>disattivato per tutti gli utenti e</strong> gli amministratori di gruppi possono attivarla per i loro gruppi.
    >* Se un pulsante in <strong>Attivo</strong> la colonna è blu e oscurata <img src="assets/email-notification-enabled-locked.png">, la notifica dell’evento viene attivata per tutti gli utenti e gli amministratori dei gruppi non possono disattivarla o modificare l’oggetto dell’e-mail per i loro gruppi.
    >* Se un pulsante in <strong>Attivo</strong> la colonna è blu e non oscurata <img src="assets/email-notification-enabled-unlocked.png">, la notifica dell’evento è <strong>attivato per tutti gli utenti e</strong> gli amministratori di gruppi possono disattivarla per i loro gruppi.
-
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

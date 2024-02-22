@@ -2,22 +2,22 @@
 product-area: projects;user-management
 navigation-topic: manage-projects
 title: Rimuovere utenti dai progetti
-description: Puoi rimuovere gli utenti da un progetto quando non sono più coinvolti nel completamento del lavoro sul progetto.
+description: Puoi rimuovere utenti da un progetto quando non sono più coinvolti nel completamento del lavoro sul progetto.
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: 301c86152340a184345bd39cec77fdcf28258196
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
 
 # Rimuovere utenti dai progetti
 
-Puoi rimuovere gli utenti da un progetto quando non sono più coinvolti nel completamento del lavoro sul progetto. La rimozione degli utenti dai progetti ha implicazioni sulle assegnazioni di attività e problemi, nonché sui ruoli di progetto. Gli utenti rimossi cessano di ricevere le notifiche destinate al team di progetto. Per ulteriori informazioni sulle notifiche per i team di progetto, vedi [Notifiche di eventi disponibili in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Puoi rimuovere utenti da un progetto quando non sono più coinvolti nel completamento del lavoro sul progetto. La rimozione degli utenti dai progetti ha implicazioni sulle assegnazioni di attività e problemi, nonché sui ruoli di progetto. Gli utenti rimossi smettono di ricevere le notifiche destinate al team di progetto. Per ulteriori informazioni sulle notifiche per i team di progetto, vedi [Tipi di notifica degli eventi](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Gli utenti associati a un progetto sono elencati nell’area Persone di un progetto. Rappresentano il team di progetto. Per ulteriori informazioni sul team di progetto, consulta [Panoramica del team di progetto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Gli utenti associati a un progetto sono elencati nell’area Persone di un progetto. Rappresenta il team del progetto. Per ulteriori informazioni sulla squadra del progetto, vedi [Panoramica del team del progetto](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Requisiti di accesso
 
@@ -28,7 +28,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -36,47 +36,47 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso a progetti</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai progetti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni sul progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per sapere quale piano, tipo di licenza o accesso si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
 
-## Come la rimozione di un utente influisce su attività, problemi e progetti esistenti
+## Effetti della rimozione su attività, problemi e progetti esistenti
 
-Quando un utente viene rimosso da un progetto, le attività o i problemi ad esso assegnati potrebbero essere influenzati, a seconda che l&#39;attività o il problema sia stato completato al momento della rimozione dell&#39;utente:
+Quando un utente viene rimosso da un progetto, possono essere interessati tutti i problemi o le attività ad esso assegnati, a seconda che l’attività o il problema sia stato completato al momento della rimozione dell’utente:
 
-* **Se l’elemento non viene completato quando l’utente viene rimosso:** L&#39;elemento viene riassegnato a un ruolo di lavoro se un ruolo di lavoro è già stato assegnato oppure viene assegnato al ruolo di lavoro che l&#39;utente stava svolgendo sull&#39;elemento. Se all&#39;elemento o all&#39;utente non è stato assegnato un ruolo, è necessario riassegnare manualmente l&#39;elemento.
-* **Se l’elemento viene completato quando l’utente viene rimosso:** Il nome dell&#39;utente rimosso rimane sull&#39;elemento.
-* **Se l’utente rimosso è anche il creatore di un progetto:** Il progetto non viene rimosso dalle **Progetti in corso** nell’area Progetti . Il progetto viene rimosso dagli elenchi per tutti gli altri utenti che filtrano il progetto in base al campo Inserito da .
-* **Se l’utente è il proprietario o sponsor del progetto:** L’utente rimane nel suo ruolo di sponsor o proprietario del progetto.
+* **Se l&#39;elemento non viene completato quando l&#39;utente viene rimosso:** L&#39;elemento viene riassegnato a una mansione se una mansione è già stata assegnata o è assegnato alla mansione che l&#39;utente stava svolgendo sull&#39;elemento. Se all&#39;elemento o all&#39;utente non è stata assegnata una mansione, è necessario riassegnare manualmente l&#39;elemento.
+* **Se l&#39;elemento viene completato quando l&#39;utente viene rimosso:** Il nome dell&#39;utente rimosso rimane nell&#39;elemento.
+* **Se l’utente rimosso è anche l’autore di un progetto:** Il progetto non viene rimosso dal loro **Progetti a cui collaboro** nell&#39;area Progetti. Il progetto viene rimosso dagli elenchi di tutti gli altri utenti che filtrano il progetto in base al campo Inserito da.
+* **Se l’utente è il proprietario del progetto o lo sponsor:** L’utente rimane nel suo ruolo di sponsor o proprietario del progetto.
 
-## Rimuovere utenti da un progetto e dal team di progetto
+## Rimuovere utenti da un progetto e Team di progetto
 
-Puoi rimuovere gli utenti da un progetto rimuovendoli dal team del progetto.
+È possibile rimuovere utenti da un progetto rimuovendoli dalla squadra del progetto.
 
-Quando gli utenti svolgono ruoli in un progetto, diventano parte del team di progetto.
+Quando gli utenti svolgono i ruoli in un progetto, diventano parte del Team di progetto.
 
-Quando rimuovi gli utenti dai loro ruoli nel progetto, rimangono parte del team del progetto.
+Quando rimuovi gli utenti dai loro ruoli sul progetto, questi rimangono parte del team del progetto.
 
-Per informazioni sui ruoli degli utenti in un progetto, consulta [Gestione del team del progetto](../planning-a-project/manage-project-team.md).
+Per informazioni sui ruoli degli utenti in un progetto, vedi [Gestione del team di progetto](../planning-a-project/manage-project-team.md).
 
-Per rimuovere gli utenti dal team del progetto:
+Per rimuovere utenti dalla squadra del progetto:
 
-1. Passa al progetto in cui desideri rimuovere gli utenti.
+1. Vai al progetto in cui desideri rimuovere gli utenti.
 
-1. Fai clic su **Persone** nel pannello a sinistra, seleziona gli utenti da rimuovere. Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Persone**.
+1. Clic **Persone** nel pannello a sinistra, seleziona gli utenti da rimuovere. Potrebbe essere necessario fare clic su **Mostra altro**, quindi **Persone**.
 
-1. Fai clic sul pulsante **Rimuovi** icona  ![Rimuovi elemento](assets/remove-icon---x-in-circle.png) nella parte superiore dell’elenco degli utenti.
+1. Fai clic su **Rimuovi** icona  ![Rimuovi elemento](assets/remove-icon---x-in-circle.png) nella parte superiore dell’elenco degli utenti.
 
-1. Fai clic su **Sì, Rimuovi utenti selezionati** per confermare la rimozione.
+1. Clic **Sì, rimuovi gli utenti selezionati** per confermare la rimozione.
 
-   Gli utenti vengono rimossi dal team del progetto e da eventuali attività o problemi incompleti a cui potrebbero essere assegnati. Non ricevono più le notifiche destinate al team di progetto.
+   Gli utenti vengono rimossi dal team del progetto e da tutte le attività o i problemi incompleti a cui potrebbero essere assegnati. Non ricevono più le notifiche destinate al team di progetto.

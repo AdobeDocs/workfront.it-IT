@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Devi innanzitutto specificare quali notifiche desideri che tutti gli utenti rice
 
 Una volta attivate le notifiche nell’area Configura e visualizzate nelle pagine del profilo dell’utente, anche i singoli utenti o un altro utente con una licenza Pianificazione possono configurare le notifiche attivate in un profilo utente per controllare quali notifiche riceve un utente specifico e con quale frequenza. Per ulteriori informazioni, consulta [Modifica le tue notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-Per un elenco di tutte le notifiche degli eventi che puoi attivare e disattivare, consulta [Notifiche degli eventi disponibili in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Per un elenco di tutte le notifiche degli eventi che puoi attivare e disattivare, consulta [Tipi di notifica degli eventi](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Per informazioni sullo sblocco di una notifica di evento in modo che gli amministratori dei gruppi possano configurarla per i loro gruppi, vedi [Sblocca o blocca la configurazione delle notifiche degli eventi per tutti i gruppi](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) e [Visualizzare e configurare le notifiche degli eventi per un gruppo](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
