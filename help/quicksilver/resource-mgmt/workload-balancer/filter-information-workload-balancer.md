@@ -6,9 +6,9 @@ description: Per trovare in modo efficiente gli elementi di lavoro e concentrars
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2496'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ In qualità di responsabile delle risorse, puoi utilizzare il Bilanciatore dei c
 >
 >Per trovare in modo efficiente gli elementi di lavoro e concentrarsi sugli utenti o sugli elementi gestiti, si consiglia vivamente di utilizzare i filtri nel Bilanciatore dei carichi di lavoro. Questo consente di visualizzare le informazioni corrette prima di iniziare a gestire le assegnazioni delle risorse.
 >
->Quando salvi e applichi un nuovo filtro e poi ti sposti dal Bilanciatore dei carichi di lavoro, il filtro viene mantenuto anche dopo la disconnessione e la riaccesso.
+>Quando salvi e applichi un nuovo filtro e poi esci dal Bilanciatore dei carichi di lavoro, il filtro viene mantenuto anche dopo la disconnessione e la riaccesso.
 
 Questo articolo contiene informazioni sui filtri nel Bilanciatore dei carichi di lavoro. Per informazioni sui filtri in Workfront, consulta [Panoramica sui filtri](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -205,6 +205,10 @@ Puoi creare un filtro da zero o modificare uno dei filtri predefiniti. Per infor
       > Quando si desidera visualizzare gli oggetti di lavoro di un portfolio specifico, è possibile applicare il seguente filtro: &quot;Il nome del Portfolio contiene marketing&quot;. In questo modo vengono visualizzati gli elementi di lavoro che appartengono a qualsiasi portfolio che contiene il nome &quot;marketing&quot;.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+
+      >[!NOTE]
+      >
+      >Per escludere i progetti con lo stato In sospeso, è necessario applicare il seguente filtro: &quot;Progetto: lo stato non è uguale a In sospeso&quot;. Questo impedisce la visualizzazione degli elementi di lavoro dei progetti in sospeso nel Bilanciatore dei carichi di lavoro.
 
    1. (Facoltativo) Fai clic su **Elimina** icona ![](assets/delete.png) per rimuovere un criterio di filtro.
 
@@ -394,7 +398,7 @@ Per condividere un filtro:
    >
    >Gli utenti non possono ricevere un’autorizzazione superiore al loro livello di accesso. Se non hanno accesso a Modifica filtri nel loro livello di accesso, non possono ricevere le autorizzazioni per gestire un filtro. Workfront disabilita l’opzione Gestisci per questi utenti e l’opzione è disabilitata.
 
-1. Clic **Condividi**. Il filtro viene condiviso con le entità specificate.
+1. Fai clic su **Condividi**. Il filtro viene condiviso con le entità specificate.
 
    I filtri condivisi vengono visualizzati in **Condiviso con me** nella casella del filtro.
 
