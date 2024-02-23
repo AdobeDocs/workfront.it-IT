@@ -7,15 +7,17 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: 815c0504ab1b8b02bde62258fdc939901ffa0c8c
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
 
 
 # Panoramica della sezione Aggiornamenti
+
+{{highlighted-preview}}
 
 <!-- Audited: 1/2024 -->
 
@@ -42,14 +44,25 @@ ht-degree: 3%
 >La nuova esperienza di aggiunta di commenti è disponibile solo per la sezione Aggiornamenti degli oggetti di Workfront e non è disponibile quando si accede agli oggetti dalle aree seguenti:
 >
 > * Home
+> * Pannello Riepilogo negli elenchi
 > * Pannello Riepilogo nelle schede orario
 > * Pannello Summary (Riepilogo) nel Bilanciatore dei carichi di lavoro
+>
+><span class="preview">La nuova esperienza di aggiunta di commenti è disponibile nel pannello Riepilogo in elenchi, schede orario e nel Bilanciatore dei carichi di lavoro nell’ambiente di anteprima.</span>
 
 ## Panoramica della sezione Aggiornamenti
 
 La sezione Aggiornamenti di un oggetto mostra gli aggiornamenti di sistema e fino a 200 degli aggiornamenti più recenti effettuati dagli utenti negli ultimi 90 giorni.
 
+<div class="preview">
+
+Esempio della sezione Aggiornamenti nell’ambiente di anteprima:
 ![Sezione Aggiornamenti](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+
+</div>
+
+Esempio della sezione Aggiornamenti nell’ambiente di produzione:
+![Sezione Aggiornamenti](assets/updates-tab-after-unified-experience-for-issues.png)
 
 A seconda degli oggetti per i quali accedi all’esperienza di commento, per la sezione Aggiornamenti potresti trovare la seguente esperienza:
 
@@ -89,19 +102,25 @@ A seconda degli oggetti per i quali accedi all’esperienza di commento, per la 
 
 ### Panoramica della sezione Aggiornamenti nella nuova esperienza di commento
 
+<div class="preview">
+
+Esempio della sezione Aggiornamenti nell’ambiente di anteprima:
 ![Sezione Aggiornamenti](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+
+</div>
+
+Esempio della sezione Aggiornamenti nell’ambiente di produzione:
+![Sezione Aggiornamenti](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
 >La nuova esperienza di aggiunta di commenti non è disponibile per le iterazioni.
 
-
 * La sezione Aggiornamenti visualizza le informazioni nelle schede seguenti nella nuova esperienza di commento:
-
 
    * **Commenti**: visualizza i commenti degli utenti e le relative risposte. Utilizzare la scheda Commenti per aggiungere nuovi commenti o rispondere a quelli esistenti. Per informazioni sull’aggiornamento degli oggetti nella nuova esperienza di commento, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
    * **Attività di sistema**: visualizza gli aggiornamenti del sistema, ovvero messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, le modifiche nei campi di stato, nome o personalizzati vengono acquisite con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Tutto (sola lettura)**: visualizza in un’unica posizione i commenti degli utenti e quelli relativi all’attività di sistema. Questa è una scheda di sola visualizzazione. Non è possibile rispondere a commenti o assegnare tag ad altri utenti nei commenti esistenti nella scheda Tutti. Per rispondere a un commento specifico, utilizzare il collegamento dalla scheda Tutti alla scheda Commenti. Per informazioni sull’aggiornamento degli oggetti nella nuova esperienza di commento, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+   * <span class="preview">**Tutto (sola lettura)**: visualizza in un’unica posizione i commenti degli utenti e quelli relativi all’attività di sistema. Questa è una scheda di sola visualizzazione. Non è possibile rispondere a commenti o assegnare tag ad altri utenti nei commenti esistenti nella scheda Tutti. Per rispondere a un commento specifico, utilizzare il collegamento dalla scheda Tutti alla scheda Commenti. Per informazioni sull’aggiornamento degli oggetti nella nuova esperienza di commento, consulta [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
 * I seguenti oggetti non dispongono di una scheda Attività di sistema:
 

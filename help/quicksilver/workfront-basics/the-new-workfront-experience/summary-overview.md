@@ -5,14 +5,16 @@ description: È possibile utilizzare il pannello Riepilogo per rivedere e aggior
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 73c24892c3adc30e3a2f7b331b2d818ce7f157ea
+source-git-commit: ba81706f457e41c989bc34d9bdff81223b0d745e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '970'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Riepilogo] panoramica
+
+{{highlighted-preview}}
 
 È possibile utilizzare [!UICONTROL Riepilogo] pannello per rivedere e aggiornare le informazioni sull’elemento di lavoro direttamente da un elenco di attività, problemi, documenti o da altre aree di [!DNL Adobe Workfront] che visualizzano attività e problemi.
 
@@ -117,7 +119,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Puoi selezionare una sola attività o un solo problema alla volta per visualizzarne i dettagli in [!UICONTROL Riepilogo] pannello.
 
+   <div class="preview">
+
+   Esempio del pannello Riepilogo nell’ambiente di anteprima:
    ![Pannello Riepilogo](assets/summary-panel-for-task-new-comments.png)
+
+   </div>
+
+   Esempio del pannello Riepilogo nell’ambiente di produzione:
+   ![Pannello Riepilogo](assets/summary-panel-for-task.png)
 
 1. (Facoltativo) Per chiudere il [!UICONTROL Riepilogo] eseguire una delle operazioni seguenti:
 
@@ -143,7 +153,15 @@ Utilizza la barra di avanzamento nella parte superiore della [!UICONTROL Riepilo
 
 Utilizza il [!UICONTROL Aggiornamenti] sezione del [!UICONTROL Riepilogo] per visualizzare gli aggiornamenti recenti e apportare aggiornamenti all’attività o al problema selezionato. Clic **[!UICONTROL Vedi tutto]** per passare direttamente al [!UICONTROL Aggiornamenti] sull&#39;attività.
 
+<div class="preview">
+
+Esempio di aggiornamenti nell’ambiente di anteprima:
 ![Sezione Aggiornamenti nel pannello Riepilogo](assets/summary-updates-section.png)
+
+</div>
+
+Esempio di aggiornamenti nell’ambiente di produzione:
+![Sezione Aggiornamenti nel pannello Riepilogo](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documenti]
 
