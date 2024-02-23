@@ -6,14 +6,16 @@ description: È possibile aprire il pannello Riepilogo nel Bilanciatore dei cari
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
 
 # Aggiornare gli elementi di lavoro nel Bilanciatore dei carichi di lavoro utilizzando il Riepilogo
+
+{{highlighted-preview}}
 
 Puoi utilizzare il pannello Riepilogo di un’attività o di un problema per aggiornare informazioni importanti per tale elemento. nel Bilanciatore dei carichi di lavoro.
 
@@ -68,11 +70,11 @@ Devi avere i seguenti:
 
    Vai a **Lavoro assegnato** , espandere un utente e trovare un elemento di lavoro.
 
-1. Fai clic sulla barra di un’attività o di un problema per aprire il pannello Riepilogo a destra
+1. Fai clic sulla barra di un’attività o di un problema per aprire il pannello Riepilogo a destra.
 
    Oppure
 
-   Clic **Apri riepilogo** icona ![](assets/summary-panel-icon.png), quindi fai clic sulla barra di un’attività o di un problema per aprire il pannello Riepilogo
+   Clic **Apri riepilogo** icona ![](assets/summary-panel-icon.png), quindi fai clic sulla barra di un’attività o di un problema per aprire il pannello Riepilogo.
 
    Oppure
 
@@ -80,7 +82,15 @@ Devi avere i seguenti:
 
    Il pannello Riepilogo si apre a destra.
 
-   ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   <div class="preview">
+
+   Esempio del pannello Riepilogo nell’ambiente di anteprima:
+   ![Pannello Riepilogo](assets/summary-panel-task-wb-new-comments.png)
+
+   </div>
+
+   Esempio del pannello Riepilogo nell’ambiente di produzione:
+   ![Pannello Riepilogo](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Modificare un certo numero di campi per l&#39;elemento di lavoro, immettere un aggiornamento oppure passare da qui ad altre aree di Workfront per aggiungere documenti o altre informazioni all&#39;elemento di lavoro.
 
