@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 47bfc377f593758e16793dd9999dda12a9b82ca9
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1026'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti Home](#home-enhancements)
 * [Miglioramenti al progetto](#project-enhancements)
+* [Miglioramenti al flusso di aggiornamento e alle notifiche](#update-stream-and-notification-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
 ### Miglioramenti per gli amministratori
@@ -184,7 +185,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
            </tbody>
         </table>
 
-### Altri miglioramenti
+### Miglioramenti al flusso di aggiornamento e alle notifiche
 
 <table>
             <col style="width: 50%;" />
@@ -202,7 +203,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova scheda del flusso di aggiornamento per acquisire sia i commenti che le voci delle attività di sistema</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Per offrirti una visione cronologicamente coerente sia dei commenti che dei registri di attività del sistema, stiamo introducendo una terza scheda nell’area Aggiornamenti di tutti gli oggetti. La scheda "All" (Tutti) acquisisce in un unico flusso sia i commenti degli utenti che quelli delle attività del sistema.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova scheda del flusso di aggiornamento per acquisire sia i commenti che le voci delle attività di sistema</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Per offrirti una visione cronologicamente coerente sia dei commenti che dei registri di attività del sistema, stiamo introducendo una terza scheda nell’area Aggiornamenti di tutti gli oggetti. La scheda "All" (Tutti) acquisisce in un unico flusso sia i commenti degli utenti che quelli delle attività del sistema.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -220,7 +221,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">È ora disponibile un nuovo flusso di commenti nel pannello Riepilogo</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Ora è stata aggiunta la nuova funzionalità di aggiunta di commenti al pannello Riepilogo per gli elenchi di attività e problemi.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">È ora disponibile un nuovo flusso di commenti nel pannello Riepilogo</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Ora è stata aggiunta la nuova funzionalità di aggiunta di commenti al pannello Riepilogo per gli elenchi di attività e problemi.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -234,6 +235,25 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                                 <p>Produzione per la versione trimestrale: con la versione 24.4 (aprile 2024)</p>
                             </li>
                         </ul>
+                    </td>
+                </tr>           
+           </tbody>
+</table>
+
+### Altri miglioramenti
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
                     </td>
                 </tr>
                 <tr>
