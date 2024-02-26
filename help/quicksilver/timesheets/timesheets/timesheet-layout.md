@@ -7,14 +7,16 @@ description: Questo articolo descrive il layout delle schede orario in Adobe Wor
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
 
 # Panoramica del layout della scheda orario
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -36,7 +38,7 @@ Di seguito sono riportate le aree di una scheda orario:
 * [Ruolo](#job-role)
 * [Tipo di ora](#hour-type)
 * [Area Aggiornamenti nel pannello a sinistra](#updates-area-in-the-left-panel)
-* [Pannello Riepilogo](#summary-panel)
+* [Pannello di Riepilogo](#summary-panel)
 * [Intervallo temporale e area di immissione ore](#time-frame-and-hour-entry-area)
 * [Commenti immissione ore](#hour-entry-comments)
 * [Ore](#hours)
@@ -119,13 +121,21 @@ Questa area contiene anche informazioni sull’ultimo salvataggio della scheda o
 
 ## Area Aggiornamenti nel pannello a sinistra
 
+<div class="preview">
+
+Esempio nell’ambiente di anteprima:
+![Area Aggiornamenti nel pannello Timesheet a sinistra](assets/timesheet-updates-with-all-tab.png)
+
+</div>
+
+Esempio nell’ambiente di produzione:
 ![Area Aggiornamenti nel pannello Timesheet a sinistra](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 È possibile aggiungere commenti a una scheda orario per comunicare con gli approvatori della scheda orario o altri utenti nella sezione Aggiornamenti nel pannello sinistro della scheda orario.
 
 Eventuali commenti aggiunti alla scheda orario vengono visualizzati in quest&#39;area.
 
-## Pannello Riepilogo
+## Pannello di Riepilogo
 
 ![Pannello Riepilogo](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 

@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
 workflow-type: tm+mt
 source-wordcount: '3526'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
    <li>Lavoro o superiore per registrare le ore su un progetto, attività o problema</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
    <td> <p>Modifica l'accesso al tipo di elemento di lavoro per il quale si registra il tempo </p> <p>Ad esempio, per registrare il tempo relativo ai problemi è necessario disporre dell’accesso in Modifica ai problemi</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ In Workfront è possibile registrare il tempo nelle seguenti aree:
 * [Scheda orario](#timesheet)
 * [Home](#home)
 * [Progetto, attività o problema](#project-task-or-issue)
-* [Pannello Riepilogo](#summary-panel)
+* [Pannello di Riepilogo](#summary-panel)
 * [Bacheche](#boards)
 * [App mobile](#mobile-app)
 
@@ -442,7 +442,7 @@ Per registrare il tempo nella sezione Ore di un progetto, attività o problema:
 
 1. Clic **Tempo di connessione**.
 
-### Pannello Riepilogo
+### Pannello di Riepilogo
 
 Nel pannello Riepilogo potete registrare il tempo per le attività e i problemi.
 Per ulteriori informazioni, consulta [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
