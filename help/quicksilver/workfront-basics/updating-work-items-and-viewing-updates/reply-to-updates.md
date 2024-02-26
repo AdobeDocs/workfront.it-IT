@@ -1,21 +1,23 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Rispondi agli aggiornamenti
+title: Rispondere agli aggiornamenti
 description: Quando qualcuno aggiunge o risponde a un aggiornamento su un oggetto di lavoro, la risposta viene visualizzata nel thread di comunicazione nella sezione Aggiornamenti dell’oggetto. È possibile aggiungere una risposta a un aggiornamento o aggiungerla come se si disponesse dell'accesso di visualizzazione all'oggetto.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 5d8e189f01a52b2d1b605b497ed17737fb0a0924
+source-git-commit: 56ab6fe79fe6e10be2ec61cb16ff48b30856dc0f
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1098'
 ht-degree: 0%
 
 ---
 
-# Rispondi agli aggiornamenti
+# Rispondere agli aggiornamenti
+
+{{highlighted-preview}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -44,6 +46,8 @@ ht-degree: 0%
 > * Pannello Riepilogo negli elenchi
 > * Pannello Riepilogo nelle schede orario
 > * Pannello Summary (Riepilogo) nel Bilanciatore dei carichi di lavoro
+>
+><span class="preview">La nuova esperienza di aggiunta di commenti è disponibile nel pannello Riepilogo in elenchi, schede orario e nel Bilanciatore dei carichi di lavoro nell’ambiente di anteprima.</span>
 
 Quando qualcuno risponde a un commento o a un aggiornamento di sistema su un oggetto di lavoro, la risposta viene visualizzata nel thread di comunicazione nella sezione Aggiornamenti dell’oggetto.
 
@@ -96,6 +100,11 @@ Per informazioni sulle funzioni disponibili nella nuova esperienza di commento e
 
 1. Passare all&#39;oggetto a cui si desidera aggiungere una risposta.
 1. Clic **Aggiornamenti**, quindi fare clic su **Commenti** e trovare il commento o la risposta a cui si desidera rispondere.
+
+>[!NOTE]
+>
+><span class="preview">Per rispondere a un commento nella scheda Tutto, fare clic su **Rispondi nei commenti** per aprire il commento nella scheda Commenti. Non è possibile rispondere nella scheda Tutto.</span>
+
 1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fare clic sul pulsante **Altro** nell’angolo superiore destro del commento a cui desideri rispondere, quindi fai clic su **Risposta preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato da una linea grigia verticale.
 1. Clic **Rispondi**.
 
