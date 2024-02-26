@@ -4,7 +4,7 @@ description: Il tuo accesso a Adobe Maestro dipende dal tipo di licenza, oltre c
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 62491ee9a8ee6982e104f59e99f182a0f059dc07
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
@@ -43,8 +43,8 @@ Nella tabella seguente viene descritta la relazione tra il tipo di licenza di un
 | Tipo di licenza | Autorizzazioni consentite agli oggetti Maestro |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nuovo: Standard <br> o <br>Corrente: Piano | Gli utenti possono creare e gestire aree di lavoro, tipi di record e record. |
-| Nuovo: Chiaro <br> o <br>Corrente: Lavoro e revisione | Gli utenti possono contribuire e visualizzare un&#39;area di lavoro condivisa con loro, nonché i tipi di record e i record da tale area di lavoro.  Gli utenti possono creare, modificare ed eliminare i record nelle aree di lavoro in cui dispongono delle autorizzazioni Contribute. |
-| Nuovo: Collaboratore <br> o <br>Corrente: Requestor | Gli utenti possono visualizzare le aree di lavoro condivise, nonché i tipi di record e i record di tali aree di lavoro. Gli utenti non possono creare, modificare o eliminare tipi di record o record. |
+| Nuovo: Chiaro <br> o <br>Corrente: Lavoro | Gli utenti possono contribuire e visualizzare un&#39;area di lavoro condivisa con loro, nonché i tipi di record e i record da tale area di lavoro.  Gli utenti possono creare, modificare ed eliminare i record nelle aree di lavoro in cui dispongono delle autorizzazioni Contribute. |
+| Nuovo: Collaboratore <br> o <br>Corrente: revisore o richiedente | Gli utenti possono visualizzare le aree di lavoro condivise, nonché i tipi di record e i record di tali aree di lavoro. Gli utenti non possono creare, modificare o eliminare tipi di record o record. |
 
 
 
