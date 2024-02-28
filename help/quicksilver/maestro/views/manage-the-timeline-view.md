@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -207,13 +207,9 @@ Per aggiungere un raggruppamento nella vista timeline:
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell’articolo [Gestire le visualizzazioni record](../views/manage-record-views.md).
 1. Clic **Raggruppamento** nell&#39;angolo superiore destro della vista timeline.
 
-   ![](assets/grouping-ui-timeline-view.png)
+   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Fai clic su uno dei campi suggeriti oppure fai clic su **Scegli un campo diverso**, cerca un campo diverso, quindi fai clic su di esso quando viene visualizzato nell’elenco.
-
-   >[!TIP]
-   >
-   >Non è possibile selezionare campi collegati.
 
    Il raggruppamento viene applicato automaticamente alla timeline e i record vengono visualizzati nella casella di raggruppamento.
 

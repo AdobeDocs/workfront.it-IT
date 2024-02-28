@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '4110'
+source-wordcount: '4172'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,18 @@ Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rila
 >[!IMPORTANT]
 >
 >La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
+
+## Settimana del 26 febbraio 2024
+
+### Filtra, ordina e raggruppa per record o campi di ricerca connessi
+
+Produzione: 28 febbraio 2024
+
+Anteprima: da determinare
+
+È ora possibile filtrare, ordinare e raggruppare in base ai record connessi o ai relativi campi di ricerca. Questo miglioramento consente di organizzare e visualizzare in modo efficiente i dati sia nelle viste tabella che nella timeline.
+
+Per informazioni, consulta [Gestire la vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md) e [Gestire la visualizzazione della timeline](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
 ## Settimana del 5 febbraio 2024
 
@@ -124,7 +136,7 @@ Produzione: 1 febbraio 2024
 
 Anteprima: da determinare
 
-Per evitare confusione e semplificare la gestione delle aree di lavoro, abbiamo rimosso da un’area di lavoro le schede per tipi di record pronti e generati automaticamente per gli oggetti non Maestro collegati.
+Per evitare confusione e semplificare la gestione delle aree di lavoro, abbiamo rimosso da un’area di lavoro le schede di tipo record generate automaticamente e di sola lettura per gli oggetti non Maestro collegati.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/maestro/records/connect-records.md).

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2288'
 ht-degree: 3%
 
 ---
@@ -264,10 +264,6 @@ Per aggiungere un filtro a una vista tabella:
 
      Nella tabella seguente vengono visualizzati i modificatori disponibili per ogni tipo di campo.
 
-     >[!TIP]
-     >
-     > Non è possibile selezionare campi collegati. Per informazioni, consulta [Crea campi](../fields/create-fields.md).
-
      <table>
         <thead>
         <tr>
@@ -370,17 +366,13 @@ Considera quanto segue:
 Per aggiungere un raggruppamento:
 
 1. Creare una visualizzazione timeline per un tipo di record, come descritto nell’articolo [Gestire le visualizzazioni record](../views/manage-record-views.md).
-1. Clic **Raggruppamento** nell&#39;angolo superiore destro della vista timeline.
+1. Clic **Raggruppamento** nell&#39;angolo superiore destro della vista tabella.
 
-   ![](assets/grouping-ui-table-view.png)
+   ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Fai clic su uno dei campi suggeriti oppure fai clic su **Scegli un campo diverso**, cerca un campo diverso, quindi fai clic su di esso quando viene visualizzato nell’elenco.
 
-   >[!TIP]
-   >
-   >Non è possibile selezionare campi collegati.
-
-   Il raggruppamento viene applicato automaticamente alla tabella e i record vengono visualizzati sotto la linea di separazione di raggruppamento
+   Il raggruppamento viene applicato automaticamente alla tabella e i record vengono visualizzati sotto la linea di separazione di raggruppamento.
 
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
 
@@ -428,6 +420,7 @@ Per ordinare <!--ungrouped (add this when sorting for groupings will be availabl
    Oppure
 
    Passa il puntatore del mouse sul nome di una colonna nella vista tabella, fai clic sulla freccia rivolta verso il basso a destra del nome dell’intestazione della colonna, quindi fai clic su **Ordina per questo campo**. Il campo viene aggiunto come selezione di ordinamento nell’icona Ordina nell’angolo superiore destro della vista tabella.
+
 1. In **Ordina record per** , fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso** e cerca un campo diverso, quindi fai clic su di esso quando viene visualizzato nell’elenco.
 
    L&#39;ordinamento viene applicato automaticamente alla vista tabella e i record vengono visualizzati in base ai criteri selezionati.
@@ -437,10 +430,6 @@ Per ordinare <!--ungrouped (add this when sorting for groupings will be availabl
 1. (Facoltativo) Ripeti i passaggi precedenti per ordinare per campi aggiuntivi.
 
    Il numero di campi in base ai quali si esegue l’ordinamento viene visualizzato a sinistra dell’icona Ordina nell’angolo superiore destro della barra degli strumenti. È possibile scegliere solo i campi che vengono visualizzati nelle colonne della vista tabella.
-
-   >[!TIP]
-   >
-   > Non è possibile selezionare campi collegati. Per informazioni, consulta [Crea campi](../fields/create-fields.md).
 
 1. (Facoltativo) In **Ordina record per** , fare clic sul pulsante **x** a destra di un campo di ordinamento per rimuovere l’ordinamento
 

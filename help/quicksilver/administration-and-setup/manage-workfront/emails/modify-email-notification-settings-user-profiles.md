@@ -5,11 +5,11 @@ keywords: modifica,e-mail,notifica,impostazioni,in blocco,modifica in blocco,con
 navigation-topic: emails-administration
 title: Modificare le impostazioni delle notifiche e-mail per più utenti
 description: Questo articolo fornisce informazioni agli amministratori di Workfront o di gruppi su come aggiornare le notifiche e-mail di altri utenti.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%

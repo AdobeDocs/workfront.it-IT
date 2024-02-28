@@ -5,12 +5,12 @@ product-area: system-administration
 navigation-topic: manage-workfront
 title: E-mail
 description: L’e-mail in Adobe Workfront è costituita da notifiche, promemoria e inviti degli utenti. Gli amministratori di sistema sono responsabili della definizione di molte delle impostazioni e-mail; tuttavia, altri utenti (a seconda del livello di accesso) possono trarre vantaggio dall’utilizzo delle funzioni e-mail per gestire le proprie comunicazioni relative al lavoro.
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: cdc0a2bb-f125-42b2-acab-c869bc71250c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 0%
