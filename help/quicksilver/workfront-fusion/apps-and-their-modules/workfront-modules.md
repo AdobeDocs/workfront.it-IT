@@ -9,9 +9,9 @@ description: Puoi utilizzare il connettore Adobe Workfront Fusion Adobe Workfron
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 0558f72fb8a7fc52d06adc0421082e20520c0b8f
+source-git-commit: 1c5c348916421efb08cca8170b56f8181e1a4d98
 workflow-type: tm+mt
-source-wordcount: '5935'
+source-wordcount: '5945'
 ht-degree: 2%
 
 ---
@@ -201,7 +201,7 @@ Il modulo restituisce tutti i campi standard associati al record, insieme a tutt
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Escludi eventi creati da questa connessione</td> 
-      <td>Abilita questa opzione per escludere gli eventi creati o aggiornati utilizzando lo stesso connettore utilizzato dal modulo di attivazione. Questo può evitare situazioni in cui uno scenario potrebbe attivarsi da solo, causandone la ripetizione in un ciclo infinito.</td> 
+      <td>Abilita questa opzione per escludere gli eventi creati o aggiornati utilizzando lo stesso connettore utilizzato dal modulo di attivazione. Questo può evitare situazioni in cui uno scenario potrebbe attivarsi da solo, causandone la ripetizione in un ciclo infinito.<p><b>NOTA</b>Il tipo di record Assegnazione non include questa opzione.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Origine record]</td> 
