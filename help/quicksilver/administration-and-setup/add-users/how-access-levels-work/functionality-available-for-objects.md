@@ -10,10 +10,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 12%
+source-wordcount: '1599'
+ht-degree: 11%
 
 ---
 
@@ -41,14 +41,14 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 | Approvare un progetto | ✓ | ✓ |   |   |
 | Aggiungi documento | ✓ | ✓ |   |   |
 | Aggiungi problema | ✓ | ✓ |   |   |
-| Aggiungi  attività | ✓ |   |   |   |
+| Aggiungi attività | ✓ |   |   |   |
 | Assegna aggiornamenti/commenti | ✓ | ✓ |   |   |
 | Modifica stato | ✓ |   |   |   |
 | Registra ore | ✓ | ✓ |   |   |
 | Modifica assegnazioni | ✓ |   |   |   |
 | Gestire una baseline | ✓ |   |   |   |
 | Gestire i rischi | ✓ |   |   |   |
-| Gestire le finanze | ✓ |   |   |   |
+| Gestisci dati finanziari | ✓ |   |   |   |
 | Aggiungi/modifica spese | ✓ |   |   |   |
 | Allega modelli | ✓ |   |   |   |
 | Salva come modello | ✓ |   |   |   |
@@ -73,10 +73,10 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 | Condividi a livello di sistema | ✓&#42; |   |   |   |
 | Visualizza | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Aggiungi predecessori | ✓ |   |   |   |
-| Aggiungi  problemi | ✓ | ✓ |   |   |
+| Aggiungi problemi | ✓ | ✓ |   |   |
 | Modificare un’attività (escluso lo stato) | ✓ |   |   |   |
 | Cambia stato attività | ✓ |   |   |   |
-| Aggiungi documenti | ✓ | ✓ |   |   |
+| Agguingere documenti | ✓ | ✓ |   |   |
 | Copiare un&#39;attività | ✓ |   |   |   |
 | Spostare un’attività | ✓ |   |   |   |
 | Registra ore | ✓ | ✓ |   |   |
@@ -85,10 +85,10 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 | Allegare un modulo personalizzato | ✓ |   |   |   |
 | Modifica campi personalizzati | ✓ |   |   |   |
 | Creare un processo di approvazione | ✓ |   |   |   |
-| Approvare un’attività | ✓ | ✓ |   |   |
+| Approvare un’attività | ✓ | ✓ | ✓ |   |
 | Modifica dati finanziari | ✓ |   |   |   |
 | Aggiungi/modifica spese | ✓ |   |   |   |
-| Visualizza informazioni finanziarie | ✓ | ✓ |   |   |
+| Visualizzare dati finanziari | ✓ | ✓ |   |   |
 | Aggiungi aggiornamenti/commenti | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
@@ -109,14 +109,14 @@ Indica inoltre le azioni che gli amministratori di Workfront possono disabilitar
 | Modifica campi personalizzati | ✓ | ✓ | ✓ |   |
 | Approva problemi | ✓ | ✓ | ✓ |   |
 | Aggiungere un processo di approvazione | ✓ | ✓ | ✓ |   |
-| Aggiungi documenti | ✓ | ✓ | ✓ |   |
+| Agguingere documenti | ✓ | ✓ | ✓ |   |
 | Copia i problemi | ✓ | ✓ | ✓ |   |
 | Sposta i problemi | ✓ | ✓ | ✓ |   |
 | Registra ore | ✓ |   |   |   |
 | Convertire un problema in un progetto | ✓ |   |   |   |
 | Convertire un problema in un&#39;attività | ✓ |   |   |   |
 | Accetta assegnazioni | ✓ |   |   |   |
-| Assegnazioni | ✓ |   |   |   |
+| Fai le assegnazioni | ✓ |   |   |   |
 | Aggiungere aggiornamenti e commenti | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
@@ -140,7 +140,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai portf
 | Aggiungere e rimuovere progetti | ✓ |   |   |   |
 | Approva progetti | ✓ |   |   |   |
 | Ottimizzazione del Portfolio | ✓ |   |   |   |
-| Aggiungi documenti | ✓ | ✓ |   |   |
+| Agguingere documenti | ✓ | ✓ |   |   |
 | Aggiungere aggiornamenti e commenti | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
@@ -164,7 +164,7 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai progr
 | Aggiungere e rimuovere progetti | ✓ |   |   |   |
 | Approva progetti | ✓ |   |   |   |
 | Ottimizzazione Portfolio | ✓ |   |   |   |
-| Aggiungi documenti | ✓ | ✓ |   |   |
+| Agguingere documenti | ✓ | ✓ |   |   |
 | Aggiungi aggiornamenti e commenti | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
@@ -233,7 +233,7 @@ Gli utenti con una licenza Standard possono avere accesso completo ai rapporti. 
 | Carica nuova versione | ✓ | ✓ | ✓ |   |
 | Eliminare una versione | ✓ | ✓ | ✓ |   |
 | Anteprima | ✓ | ✓ | ✓ | ✓ |
-|  Bozza | ✓ | ✓ | ✓ | ✓ |
+| Bozza | ✓ | ✓ | ✓ | ✓ |
 | Genera bozza | ✓ |   |   |   |
 | Rimuovi bozza | ✓ | ✓ | ✓ |   |
 | Aggiungi/Rimuovi&#42;&#42; | ✓ | ✓ | ✓ |   |
@@ -303,8 +303,8 @@ Solo gli utenti con una licenza Standard possono avere accesso completo ai dati 
 | Modifica fatturazione utente e tariffe | ✓&#42; |   |   |   |
 | Visualizza fatturazione mansioni e tassi di costo | ✓&#42; |   |   |   |
 | Visualizza fatturazione utente e tariffe di costo | ✓&#42; |   |   |   |
-| Gestisci record fatturazione | ✓ |   |   |   |
-| Gestione spese | ✓ |   |   |   |
+| Gestire record fatturazione | ✓ |   |   |   |
+| Gestire le spese | ✓ |   |   |   |
 | Visualizza dati finanziari | ✓&#42; | ✓&#42; |   |   |
 | <span class="preview">Gestire le schede delle tariffe</span> | ✓ |   |   |   |
 | Visualizzare le informazioni per costo negli strumenti di pianificazione delle risorse | ✓ |   |   |   |
