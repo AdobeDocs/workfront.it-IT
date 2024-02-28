@@ -6,7 +6,7 @@ title: Generare un modulo utilizzando IA
 description: È possibile immettere un prompt di testo per creare un modulo HTTP configurato per il prompt.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 79b5baf5a9558e07b55fb810aa2d6c772faa51cf
+source-git-commit: c80f9ab6d10aa9067b995c99107f98301fa17872
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 1%
@@ -14,6 +14,8 @@ ht-degree: 1%
 ---
 
 # Generare un modulo utilizzando IA
+
+<!--DO NOT DELETE - linked through CSH-->
 
 È possibile utilizzare l’intelligenza artificiale per immettere un prompt di testo che descriva le operazioni che devono essere eseguite da un modulo. Fusion genera quindi un modulo HTTP che si connette all’endpoint corretto dell’API desiderata.
 
