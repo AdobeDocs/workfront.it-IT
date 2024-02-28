@@ -6,9 +6,9 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,6 @@ Se desideri che nell’ambiente di produzione siano abilitate le approvazioni de
 
 ## Utilizzo delle approvazioni di nuovi documenti
 
-Per gli utenti che desiderano creare o gestire approvazioni di documenti, vedi gli articoli elencati in [Gestire le approvazioni dei documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+Per gli utenti che desiderano creare o gestire approvazioni di documenti, vedi gli articoli elencati in [Approva documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
-Per gli utenti che desiderano rivedere o approvare documenti per i quali hanno ricevuto una richiesta, vedere gli articoli elencati in [Rivedere e approvare i documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md).
+Per gli utenti che desiderano rivedere o approvare documenti per i quali hanno ricevuto una richiesta, vedere gli articoli elencati in [Documenti revisione: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
