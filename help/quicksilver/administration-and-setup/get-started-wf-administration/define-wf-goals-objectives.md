@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Per ottenere questo risultato in Workfront, configura quanto segue:
 
 * Sviluppa un processo per la fornitura di servizi e utilizza Workfront per gestire le attività associate a qualsiasi responsabilità giornaliera o settimanale.
 * Utilizzare gli strumenti di gestione delle risorse per visualizzare l&#39;allocazione delle risorse alle attività in modo da comprendere meglio come migliorare la produttività e la qualità della consegna.\
-  Per ulteriori informazioni sulla pianificazione delle risorse, vedere [Pianificazione delle risorse in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  Per ulteriori informazioni sulla pianificazione delle risorse, vedere [Pianificazione risorse: indice articolo](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## Definire i criteri di successo
 

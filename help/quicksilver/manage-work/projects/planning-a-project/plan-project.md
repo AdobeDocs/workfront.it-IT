@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 297e72ebb70c335078d65e7ed6e28862285d2fb1
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -153,5 +153,5 @@ Quando definisci le attività, considera quanto segue:
    * Riduci le ore pianificate per ogni attività.
    * Aggiungi altri utenti a un&#39;attività per assicurarti che possa essere completata entro il tempo assegnato.
    * Riassegna le attività a utenti disponibili senza altri vincoli.\
-     Per ulteriori informazioni sulla pianificazione delle risorse del progetto, vedere l&#39;articolo [Pianificazione delle risorse in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     Per ulteriori informazioni sulla pianificazione delle risorse del progetto, vedere l&#39;articolo [Pianificazione risorse: indice articolo](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
      Per ulteriori informazioni sulla pianificazione delle risorse per eseguire il lavoro su un progetto, vedere [Panoramica del Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

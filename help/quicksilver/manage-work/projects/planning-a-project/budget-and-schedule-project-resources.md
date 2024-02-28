@@ -6,9 +6,9 @@ description: Risorse di progetto di budget e programmazione
 author: Alina
 feature: Work Management
 exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '131'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Durante la finalizzazione della pianificazione dei progetti in Adobe Workfront, 
 
   Per informazioni, vedere i seguenti articoli:
 
-   * [Pianificazione delle risorse in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Pianificazione risorse:indice articolo](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Introduzione alla Pianificazione scenario](../../../scenario-planner/get-started-with-scenario-planning.md)
 
 * Pianifica le risorse o assegnale ad attività e problemi. Quando si assegnano le risorse ad attività e problemi, è possibile associare utenti, team o ruoli a elementi di lavoro specifici, rendendoli responsabili del completamento di tali elementi. Per informazioni, consulta [Panoramica del Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

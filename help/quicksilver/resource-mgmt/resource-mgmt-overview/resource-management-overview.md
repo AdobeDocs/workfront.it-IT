@@ -8,9 +8,9 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: 137787c9-82f6-4b18-a427-720589221a7c
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '127'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Anche se può iniziare a livello di mansione, alla fine Gestione risorse si preo
 Questa sezione contiene i seguenti articoli e sottosezioni:
 
 * [Introduzione alla gestione delle risorse](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
-* [Pianificazione delle risorse in Adobe Workfront](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
+* [Pianificazione risorse: indice articolo](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
 * [L’indice del Bilanciatore dei carichi di lavoro: articolo](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
 * [Utilizzo delle risorse](/help/quicksilver/resource-mgmt/resource-utilization/resource-utilization.md)
 * [Pianificazione scenario Adobe Workfront](/help/quicksilver/scenario-planner/scenario-planning.md)
