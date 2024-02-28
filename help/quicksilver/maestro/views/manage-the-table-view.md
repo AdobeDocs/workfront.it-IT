@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2313'
 ht-degree: 3%
 
 ---
@@ -409,6 +409,8 @@ Quando si ordinano i record nella vista tabella, tenere presente quanto segue:
 * L’ordinamento creato viene mantenuto anche quando ci si sposta.
 
 * È possibile ordinare in base al numero di campi visualizzato nella visualizzazione per tabella di un tipo di record.
+
+* I campi collegati possono essere ordinati solo se consentono valori singoli o se consentono la selezione multipla di valori con l&#39;opzione di riepilogo selezionata (somma, media, massimo, minimo).
 
 * Se si rimuovono i criteri di ordinamento, questi verranno rimossi da chiunque acceda allo stesso tipo di record utilizzato e utilizzerà la stessa visualizzazione utilizzata.
 
