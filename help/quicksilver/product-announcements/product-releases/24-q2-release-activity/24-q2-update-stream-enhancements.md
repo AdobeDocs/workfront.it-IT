@@ -4,9 +4,9 @@ description: Miglioramenti al flusso di aggiornamenti e alle notifiche del secon
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b045cc3ac31459c4d92083d3a332606b37deaa36
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,19 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti relativi al flusso di aggiornamento e alle notifiche apportati con la versione del secondo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Ulteriori informazioni sui commenti disponibili nella nuova esperienza
+
+>[!NOTE]
+>
+>Versione di anteprima: 29 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+
+Nella nuova esperienza di commento sono stati apportati i seguenti miglioramenti:
+
+* È possibile fare clic sul nome di un commentatore per visualizzarne il nome, la mansione e l&#39;indirizzo di posta elettronica in una casella di informazioni. Queste informazioni possono essere utili per identificare l&#39;utente corretto, se sono presenti più utenti con lo stesso nome. Facendo clic sul nome del commentatore nella casella delle informazioni, viene aperto il relativo profilo utente.
+* Il nome utente viene evidenziato nei commenti su cui sei taggato, quando sei menzionato nel testo del commento.
+
+Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Nuova scheda del flusso di aggiornamento per acquisire sia i commenti che le voci delle attività di sistema
 

@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del secondo trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b55217ee95a41d731c7ef1beebc3e5b32d04b48a
+source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,24 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del secondo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## I campi nativi di Workfront sono disponibili nella versione beta di progettazione moduli
+
+>[!NOTE]
+>
+>Versione di anteprima: 29 febbraio 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per tutti i clienti: 24.4 (aprile 2024)
+
+I campi nativi di Workfront sono ora disponibili per l’aggiunta ai moduli personalizzati. Questo nuovo tipo di campo consente di organizzare e presentare i dati agli utenti in modo logico, senza dover ricreare i dati esistenti nei campi personalizzati.
+
+Dopo aver selezionato Campo nativo nell&#39;elenco dei campi dei moduli personalizzati per aggiungere il campo al progettista del modulo, è possibile selezionare qualsiasi campo nativo per gli oggetti del modulo. Se ad esempio l&#39;elenco Tipi di oggetto nella parte superiore del progettista del modulo mostra Project, sarà possibile selezionare campi nativi per i progetti ma non campi specifici delle attività.
+
+Quando il modulo personalizzato viene allegato a un oggetto, il campo viene popolato dai dati dell’oggetto. Ad esempio, il campo Description (Descrizione) in un modulo personalizzato allegato a un progetto estrae la descrizione del progetto. (Il campo può mostrare &quot;N/D&quot; se non sono disponibili dati).
+
+I campi nativi utilizzati nei moduli personalizzati diventano disponibili nella libreria dei campi nella finestra di progettazione per essere riutilizzati. Sono inoltre visibili nell’area Configura > Forms personalizzato > Campi per consentire di vedere in quali moduli vengono utilizzati.
+
+Questa funzione è disponibile solo nella versione beta di Progettazione moduli e non nel generatore di moduli legacy.
+
+Gli Experienci League per questa funzione verranno aggiornati entro il 7 marzo.
 
 ## La mappatura degli attributi è ora disponibile per le organizzazioni che sono migrate ad Adobe IMS
 
