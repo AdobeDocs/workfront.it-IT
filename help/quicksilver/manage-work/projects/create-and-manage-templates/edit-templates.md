@@ -6,22 +6,18 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '4775'
+source-wordcount: '4710'
 ht-degree: 2%
 
 ---
 
 # Modificare i modelli di progetto
 
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<!-- Audited: 2/2024 -->
 
-<!--
-<The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
--->
+<!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 È possibile modificare i modelli di progetto per riflettere le modifiche apportate ai processi e alle impostazioni del progetto. Dopo aver aggiornato e salvato le modifiche su un modello, le nuove modifiche sono visibili nei nuovi progetti quando questi vengono creati utilizzando il modello. Le modifiche apportate al modello non si riflettono sul progetto che attualmente utilizza tale modello.
 
@@ -34,16 +30,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenze Adobe Workfront*</td> 
-   <td> <p>Piano </p> </td> 
+   <td role="rowheader">Licenze Adobe Workfront</td> 
+   <td>
+      <p>Nuovo: Standard</p>
+      <p>Oppure</p>
+      <p>Corrente: Piano</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Livello di accesso*</td> 
-   <td> <p>Modificare l’accesso ai modelli</p> <p>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni sull’accesso ai modelli, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Concedere l’accesso ai modelli</a>. Per informazioni su come un amministratore di Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>. </p> </td> 
+   <td role="rowheader">Livello di accesso</td> 
+   <td> <p>Modificare l’accesso ai modelli</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
@@ -51,12 +51,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     <ul> 
      <li> <p>Concedere le autorizzazioni per un modello per modificarlo nella scheda Dettagli modello</p> </li> 
      <li> <p>Gestire le autorizzazioni per un modello per modificarlo nella casella Modifica modello</p> </li> 
-    </ul> <p> Per informazioni sulle autorizzazioni per i modelli, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Condividere un modello</a>. </p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Modificare un modello {#edit-a-template}
 
@@ -722,7 +722,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
        <td><p>Specifica un budget per i progetti creati da questo modello.</p></td> 
        </tr>  
        <tr> 
-         <td role="rowheader"><strong>Metodo di indice performance</strong></td> 
+         <td role="rowheader"><strong>Metodo indice prestazioni</strong></td> 
          <td><p>Scegli come Workfront calcolerà le metriche del Valore Guadagnato del progetto futuro. Scegli una delle seguenti opzioni:
          <ul>
          <li>Basato su Ore</li>
@@ -1047,7 +1047,7 @@ Per modificare i modelli in blocco:
 
    Per ulteriori informazioni sulla modifica delle informazioni sui modelli, vedere [Modificare un modello](#edit-a-template) in questo articolo.
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.
 
    Tutte le modifiche apportate sono ora visibili in tutti i modelli selezionati.
 

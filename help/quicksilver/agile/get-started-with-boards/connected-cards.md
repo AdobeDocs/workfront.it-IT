@@ -6,14 +6,16 @@ description: È possibile aggiungere alla bacheca una scheda connessa alle attiv
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: ec753f4176208708de0a39679788d34f486f759b
+source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
 
 # Utilizzare le schede collegate sulle bacheche
+
+<!-- Audited: 2/2024 -->
 
 È possibile aggiungere alla bacheca una scheda connessa alle attività e ai problemi esistenti in [!DNL Workfront].
 
@@ -39,29 +41,33 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza</strong></td> 
+   <td>
+   <p>Nuovo: Collaboratore o versione successiva</p>
+   <p>Oppure</p>
+   <p>Corrente: richiesta o successiva</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td>
-   <td><p>Accesso di [!UICONTROL View] o versione successiva ad attività e problemi</p></td>
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td>
+   <td><p>Visualizzare o accedere più facilmente ad attività e problemi</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td>
-   <td><p>Autorizzazioni di [!UICONTROL View] o superiori per l'attività o il problema di Workfront</p></td>
+   <td><p>Visualizza o autorizzazioni superiori per l’attività o il problema di Workfront</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aggiungere una scheda collegata
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **[!UICONTROL Schede]**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Schede]**.
 1. Accedi a una bacheca. Per informazioni, consulta [Creare o modificare una bacheca](../../agile/get-started-with-boards/create-edit-board.md).
 1. Clic **[!UICONTROL Aggiungi scheda] > [!UICONTROL Scheda connessa]**.
 1. Scegli un progetto, quindi scegli un’attività o un problema da aggiungere come scheda sulla bacheca.
