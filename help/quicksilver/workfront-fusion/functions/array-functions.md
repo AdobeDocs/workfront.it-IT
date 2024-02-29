@@ -8,9 +8,9 @@ description: Nel pannello di mappatura di Adobe Workfront Fusion sono disponibil
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 5860e75d0a6521abbe082668749f78058fe7a114
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -211,3 +211,23 @@ Immetti uno dei seguenti valori per `mode` parametro.
   >* `arrayDifference [myArray, yourArray, symmetric]`
   >
   >    Restituisce `[1,2,6,7]`
+
+## toArray
+
+Questa funzione converte una raccolta in un array di coppie chiave-valore.
+
+>[!INFO]
+>
+>**Esempi:**
+>
+>Data la raccolta
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>La funzione
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>Restituisce la matrice di coppie chiave-valore
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`

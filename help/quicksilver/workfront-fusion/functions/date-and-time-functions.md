@@ -8,9 +8,9 @@ description: Nel pannello di mappatura di Adobe Workfront Fusion sono disponibil
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7de4016e489c5194aee674f4ea090e7bcbb1ce79
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1992'
 ht-degree: 1%
 
 ---
@@ -186,7 +186,7 @@ Questa funzione converte una stringa di testo in una data, in base al formato e 
 >
 >* `parseDate(1482940986;X)`
 >
->  Restituisce 2016-12-28T16:03:06.000Z
+>   Restituisce 2016-12-28T16:03:06.000Z
 
 ## [!UICONTROL addDays (data; numero)] {#adddays-date-number}
 
