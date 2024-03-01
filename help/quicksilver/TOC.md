@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 3d4bb2d99bd2942f29bf25434f5554cee5c79553
+source-git-commit: 42d5c47ff0f286c1a4a73ccb295027c539fceeaa
 workflow-type: tm+mt
-source-wordcount: '13989'
+source-wordcount: '13992'
 ht-degree: 1%
 
 ---
@@ -2187,6 +2187,7 @@ ht-degree: 1%
       * [Moduli Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Moduli Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
       * [Moduli dei servizi Adobe PDF](workfront-fusion/apps-and-their-modules/pdf-modules.md)
+      * [Moduli Adobe Photoshop](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Moduli Adobe Target](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
       * [Moduli aerodinamici](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Moduli Allocadia](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
