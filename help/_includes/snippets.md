@@ -1,8 +1,8 @@
 ---
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 472fe32b5f0fa09b00496cf07166e178d248957f
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 0%
+source-wordcount: '2362'
+ht-degree: 1%
 
 ---
 # Snippet
@@ -144,7 +144,7 @@ Per impostare le cartelle collegate:
 
 ## Prerequisiti {#cc-install-prereq}
 
-È necessario installare il plug-in corretto per l&#39;applicazione Adobe Creative Cloud in uso:
+È necessario installare il plug-in corretto per l’applicazione Adobe Creative Cloud in uso:
 * Per Photoshop, consulta [Installare Adobe Workfront per Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * Per l’XD, consulta [Installare Adobe Workfront per XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * Per InDesign, Illustrator, Premiere Pro e After Effects consulta [Installare Adobe Workfront per progettazione e video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
@@ -253,13 +253,13 @@ Per impostare le cartelle collegate:
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono a Adobe Maestro, una nuova offerta di Adobe Workfront.
+>Le informazioni contenute in questo articolo si riferiscono alle funzionalità di pianificazione di Adobe Workfront, una nuova offerta di Adobe Workfront.
 >
->Attualmente, Adobe Maestro fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare le funzionalità Maestro, devi essere un cliente Workfront.
+>Attualmente, le funzionalità di pianificazione fanno parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
 >
->Contatta il rappresentante del tuo account per ulteriori informazioni su come partecipare al programma beta per Maestro.
+>Per ulteriori informazioni su come partecipare al programma beta per le funzionalità di pianificazione, contatta il rappresentante del tuo account.
 >
->Per ulteriori informazioni su Maestro, consulta [Panoramica di Adobe Maestro](/help/quicksilver/maestro/maestro-overview.md).
+>Per ulteriori informazioni sulle funzionalità di pianificazione, vedere [Panoramica delle funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 
@@ -383,7 +383,7 @@ Per impostare le cartelle collegate:
 
    Se l’attività o il problema è assegnato a più utenti, nel menu a discesa viene visualizzata l’opzione &quot;Fine con la parte&quot;, oltre ai diversi stati scelti per il team.
 
-1. Clic **[!UICONTROL Salva modifiche]**.
+1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
 ## Associa utenti a un team predefinito {#associate-users-with-home-team}
 

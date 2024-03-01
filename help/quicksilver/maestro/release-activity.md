@@ -1,32 +1,32 @@
 ---
-title: Attività di rilascio Adobe Maestro
-description: Adobe Maestro è attualmente disponibile per alcuni clienti Workfront. Leggi spesso questo articolo per scoprire le funzioni recentemente rilasciate per Adobe Maestro.
+title: Attività di rilascio delle funzionalità di pianificazione di Adobe Workfront
+description: Le funzionalità di pianificazione di Adobe Workfront sono attualmente disponibili per alcuni clienti Workfront. Consulta spesso questo articolo per scoprire le funzioni rilasciate di recente per le funzionalità di pianificazione.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
 workflow-type: tm+mt
-source-wordcount: '4172'
+source-wordcount: '4258'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio Adobe Maestro
+# Attività di rilascio delle funzionalità di pianificazione di Adobe Workfront
 
 {{maestro-important-intro}}
 
-Questo articolo elenca le funzionalità rilasciate dopo il lancio del programma beta chiuso Maestro, il 22 maggio 2023.
+In questo articolo sono elencate le funzioni rilasciate dopo il lancio del programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront, il 22 maggio 2023.
 
-Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle più recenti. I clienti che partecipano al programma Maestro Closed beta possono accedere a tutte le funzioni nei loro ambienti di produzione.
+Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle più recenti. I clienti che partecipano al programma Closed beta per la pianificazione delle funzionalità possono accedere a tutte le funzionalità nei loro ambienti di produzione.
 
 >[!IMPORTANT]
 >
->Tra maggio 2023 e dicembre 2023, tutte le funzioni di questo articolo sono state rilasciate sia nell’ambiente di anteprima che in quello di produzione. Le funzionalità Maestro sono state temporaneamente rimosse dagli ambienti di anteprima e sandbox da gennaio 2024. Tutte le funzioni rilasciate dopo questa data sono attualmente disponibili in Produzione.
+>Tra maggio 2023 e dicembre 2023, tutte le funzioni di questo articolo sono state rilasciate sia nell’ambiente di anteprima che in quello di produzione. Le funzionalità di pianificazione sono state temporaneamente rimosse dagli ambienti Anteprima e Sandbox da gennaio 2024. Tutte le funzioni rilasciate dopo questa data sono attualmente disponibili in Produzione.
 
-Questo articolo elenca le funzioni e le patch rilasciate dopo il lancio del programma beta chiuso Maestro, il 22 maggio 2023.
+In questo articolo sono elencate le funzioni e le patch rilasciate dopo il lancio del programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront, il 22 maggio 2023.
 
-Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rilascio, con la prima più recente. I clienti che partecipano al programma Maestro closed beta possono accedere a tutte le funzioni nei loro ambienti di anteprima e produzione.
+Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rilascio, con la prima più recente. I clienti che partecipano al programma closed beta delle funzionalità di pianificazione possono accedere a tutte le funzioni nei loro ambienti di anteprima e produzione.
 
 >[!IMPORTANT]
 >
@@ -64,7 +64,7 @@ Le seguenti autorizzazioni ora funzionano insieme al tipo di licenza dell’uten
 
 Per informazioni sul nuovo modello di licenza, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni sulla connessione tra il tipo di licenza e le autorizzazioni in Maestro, consulta [Panoramica del tipo di licenza in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Per informazioni sulla connessione tra il tipo di licenza e le autorizzazioni nelle funzionalità di pianificazione, consulta [Panoramica del tipo di licenza in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nuovo aspetto della barra degli strumenti Testo formattato per i campi record
@@ -88,7 +88,7 @@ Abbiamo riprogettato e migliorato l’esperienza di aggiunta di opzioni o oggett
 * Selezione singola
 * Selezione multipla
 * Persone
-* Campi record collegati (quando si collegano tipi di record Maestro o oggetti Workfront)
+* Campi record collegati (quando si collegano tipi di record di capacità di pianificazione o oggetti Workfront)
 
 Con il nuovo miglioramento, viene visualizzata prima una casella più piccola e più reattiva.
 
@@ -136,14 +136,14 @@ Produzione: 1 febbraio 2024
 
 Anteprima: da determinare
 
-Per evitare confusione e semplificare la gestione delle aree di lavoro, abbiamo rimosso da un’area di lavoro le schede di tipo record generate automaticamente e di sola lettura per gli oggetti non Maestro collegati.
+Per evitare confusione e semplificare la gestione delle aree di lavoro, sono state rimosse da un workspace le schede dei tipi di record generati automaticamente e di sola lettura per gli oggetti esterni connessi.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/maestro/records/connect-records.md).
 
 ## Settimana del 22 gennaio 2024
 
-### La nuova sezione Cronologia mostra l’attività di sistema per i record Maestro
+### Nella nuova sezione Cronologia viene visualizzata l&#39;attività di sistema per i record delle funzionalità di pianificazione
 
 Produzione: 25 gennaio 2024
 
@@ -151,7 +151,7 @@ Anteprima: da determinare
 
 Per migliorare le funzionalità di controllo, è stata introdotta una nuova sezione nel pannello destro di un record in cui è possibile esaminare le modifiche apportate al record registrato dal sistema.
 
-Maestro registra le seguenti informazioni nella nuova sezione Storia:
+Le seguenti informazioni vengono registrate nella nuova sezione Cronologia:
 
 * Qualsiasi modifica apportata ai campi
 
@@ -173,13 +173,13 @@ Per garantire coerenza durante la creazione dei record, il collegamento + Nuovo 
 
 ## Settimana dell’8 gennaio 2024
 
-### Le funzionalità Maestro vengono rimosse dagli ambienti di anteprima e sandbox
+### Le funzionalità di pianificazione vengono rimosse dagli ambienti di anteprima e sandbox
 
 Anteprima e sandbox: 11 gennaio 2024
 
-L’area Maestro e tutte le funzionalità Maestro sono state temporaneamente rimosse dagli ambienti Anteprima e Sandbox. Maestro verrà aggiunto a questi ambienti in una data successiva, che comunicheremo nelle note sull’attività di rilascio.
+Le funzionalità di pianificazione di Adobe Workfront sono state temporaneamente rimosse dagli ambienti di anteprima e sandbox. Gli ambienti verranno aggiunti a questi in una data successiva, come verrà comunicato nelle note sull’attività di rilascio.
 
-### Autorizzazioni Maestro per aree di lavoro e viste
+### Autorizzazioni delle funzionalità di pianificazione per aree di lavoro e viste
 
 Produzione: 11 gennaio 2024
 
@@ -191,7 +191,7 @@ Quando si condivide un&#39;area di lavoro, gli utenti dispongono delle autorizza
 
 Quando si condivide un&#39;area di lavoro, gli utenti non ricevono autorizzazioni di condivisione per le visualizzazioni associate ai tipi di record dell&#39;area di lavoro. È necessario concedere autorizzazioni separate alle visualizzazioni.
 
-Di seguito sono riportati i livelli di autorizzazione per le aree di lavoro Maestro:
+Di seguito sono riportati i livelli di autorizzazione per le aree di lavoro:
 
 * Visualizzazione: gli utenti possono visualizzare le aree di lavoro condivise con loro. Possono inoltre visualizzare i tipi di record e i record dall&#39;area di lavoro condivisa.
 
@@ -274,21 +274,21 @@ Anteprima e produzione per tutti i clienti: 18 dicembre 2023
 
 È ora possibile collaborare con altri utenti a singoli record aggiungendo commenti o rispondendo ad altri utenti mentre si visualizza un record nella pagina Dettagli.
 
-L’esperienza di commento per i record Maestro corrisponde alla nuova esperienza di commento per gli oggetti Workfront.
+L’esperienza di aggiunta di commenti per i record delle funzionalità di pianificazione corrisponde alla nuova esperienza di aggiunta di commenti per gli oggetti di Workfront.
 
 Per ulteriori informazioni, consulta [Gestisci commenti record](/help/quicksilver/maestro/records/manage-record-comments.md).
 
-### Connettore Maestro (beta) per Adobe Workfront Fusion
+### Connettore per la pianificazione delle funzionalità (beta) per Adobe Workfront Fusion
 
 Produzione: 21 dicembre 2023
 
 >[!IMPORTANT]
 >
->La tua organizzazione deve acquistare Adobe Workfront Fusion per poter creare connessioni con Maestro.
+>Per poter creare connessioni con le funzionalità di pianificazione di Adobe Workfront, la tua organizzazione deve acquistare Adobe Workfront Fusion.
 >
 >Per informazioni, consulta [Panoramica di Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
-Ora puoi usare Adobe Workfront Fusion per connetterti a Maestro. Con il nuovo Adobe Maestro Fusion è possibile:
+Ora è possibile utilizzare Adobe Workfront Fusion per connettersi alle funzionalità di pianificazione. Con la nuova connessione Fusion, è possibile:
 
 * Creare, leggere, aggiornare ed eliminare record
 
@@ -300,7 +300,7 @@ Ora puoi usare Adobe Workfront Fusion per connetterti a Maestro. Con il nuovo Ad
 
 * Effettuare una chiamata API
 
-* Attiva uno scenario quando viene apportato un cambiamento in Maestro
+* Attiva uno scenario quando viene apportata una modifica alle funzionalità di pianificazione
 
 Per ulteriori informazioni, consulta [Moduli Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
 
@@ -310,7 +310,7 @@ Per ulteriori informazioni, consulta [Moduli Adobe Maestro](/help/quicksilver/wo
 
 Anteprima e produzione: 14 dicembre 2023
 
-Ora puoi scegliere il campo da visualizzare nella prima colonna di una vista a tabella Maestro. Questo campo è ora denominato campo primario.
+È ora possibile scegliere il campo che si desidera visualizzare nella prima colonna di una vista tabella. Questo campo è ora denominato campo primario.
 
 Prima di questo miglioramento, il campo Nome di un record veniva sempre visualizzato nella prima colonna della visualizzazione tabella e non poteva essere posizionato in un’altra posizione.
 
@@ -332,10 +332,9 @@ Con questo miglioramento, tieni presente quanto segue:
 
 * Tutte le visualizzazioni tabella di un tipo di record hanno lo stesso campo principale selezionato.
 
-Per ulteriori informazioni, consulta [Gestisci vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md).
+Per ulteriori informazioni, consulta [Gestire la vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-
-### Collegare i record Maestro con Adobe Experience Manager Assets
+### Collegare i record delle funzionalità di pianificazione con Adobe Experience Manager Assets
 
 Versione di anteprima: 14 dicembre 2023
 
@@ -343,34 +342,33 @@ Versione di produzione: 21 dicembre 2023
 
 >[!IMPORTANT]
 >
->Per poter collegare i record Maestro ad Adobe Experience Manager Assets, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.
+>Per poter collegare i record delle funzionalità di pianificazione di Adobe Workfront ad Adobe Experience Manager Assets, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.
 >
 >In caso di domande sull’onboarding per Adobe Admin Console, consulta [Domande frequenti sull’esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-
-Ora puoi stabilire una connessione tra i tipi di record Maestro e Adobe Experience Manager Assets.
+È ora possibile stabilire una connessione tra i tipi di record delle funzionalità di pianificazione di Adobe Workfront e Adobe Experience Manager Assets.
 
 Dopo aver stabilito la connessione, con questo aggiornamento sono disponibili le seguenti funzionalità:
 
-* Puoi collegare risorse e cartelle Experience Manager a un record Maestro da un archivio specifico in Experience Manager Assets a cui hanno accesso. In questo processo è possibile collegare i campi delle risorse ai campi Maestro.
+* Puoi collegare risorse e cartelle di Experienci Manager a un record di funzionalità di pianificazione da un archivio specifico in Experience Manager Assets a cui hanno accesso. In questo processo è possibile collegare i campi delle risorse ai campi della funzionalità di pianificazione.
 
-* Gli utenti Maestro possono visualizzare il nome delle risorse collegate, nonché i valori dei campi connessi in Maestro
+* Gli utenti con funzionalità di pianificazione possono visualizzare il nome delle risorse collegate, nonché i valori dei campi connessi nelle funzionalità di pianificazione.
 
 <!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
 -->
 
-* Puoi fare clic sul nome della risorsa nella vista a tabella del record Maestro dal campo del record collegato e visualizzare una finestra a comparsa con la miniatura della risorsa e diversi campi chiave. Dalla finestra pop-up, puoi passare al visualizzatore di risorse in Experience Manager e visualizzare tutti i dettagli relativi.
+* È possibile fare clic sul nome del cespite nella vista a tabella del record della funzionalità di pianificazione dal campo record connesso e visualizzare una finestra popup con la miniatura del cespite e diversi campi chiave. Dalla finestra pop-up, puoi passare al visualizzatore di risorse in Experience Manager e visualizzare tutti i dettagli relativi.
 
 Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
 ## Settimana del 4 dicembre 2023
 
-### Copiare e incollare informazioni da un campo all&#39;altro nella vista tabella Maestro per i campi record collegati e di tipo Persona
+### Copiare e incollare informazioni da un campo all&#39;altro nella vista tabella delle funzionalità di pianificazione per i campi record collegati e di tipo Persone
 
 Anteprima e produzione: 5 dicembre 2023
 
-È ora possibile copiare e incollare informazioni da un campo a un altro campo dello stesso tipo in una vista tabella di tipo di record Maestro. Questa funzionalità è ora supportata per i seguenti tipi di campi:
+È ora possibile copiare e incollare informazioni da un campo a un altro campo dello stesso tipo in una visualizzazione tabella di tipo record. Questa funzionalità è ora supportata per i seguenti tipi di campi:
 
 * Persone
 * Campi record collegati
@@ -379,7 +377,7 @@ Considera quanto segue:
 
 * Per i campi che visualizzano più valori è possibile copiare e incollare valori di campo da un campo all&#39;altro.
 
-* Non è possibile copiare informazioni da un&#39;altra origine, ad eccezione di un campo Maestro dello stesso tipo del campo in cui si incollano le informazioni.
+* Non è possibile copiare informazioni da un&#39;altra origine, ad eccezione di un campo di capacità di pianificazione dello stesso tipo del campo in cui si incollano le informazioni.
 
 * Non è possibile copiare e incollare i valori dei campi visualizzati nell&#39;area Dettagli di un record.
 
@@ -389,15 +387,15 @@ Per informazioni sui campi collegati, consulta [Connetti tipi di record](../maes
 
 ## Settimana del 27 novembre 2023
 
-### Copiare e incollare informazioni da un campo all&#39;altro nella vista tabella Maestro
+### Copiare e incollare informazioni da un campo all&#39;altro nella vista tabella delle funzionalità di pianificazione
 
 Anteprima e produzione: 28 novembre 2023
 
-È ora possibile copiare e incollare informazioni da un campo a un altro campo dello stesso tipo in una vista tabella di tipo di record Maestro.
+È ora possibile copiare e incollare informazioni da un campo a un altro campo dello stesso tipo in una vista tabella di tipo record di capacità di pianificazione.
 
 Considera quanto segue:
 
-* Non è possibile copiare informazioni da un&#39;altra origine, ad eccezione di un campo Maestro dello stesso tipo del campo in cui si incollano le informazioni.
+* Non è possibile copiare informazioni da un&#39;altra origine, ad eccezione di un campo di capacità di pianificazione dello stesso tipo del campo in cui si incollano le informazioni.
 
 * Non è possibile copiare e incollare i valori dei campi visualizzati nell&#39;area Dettagli di un record.
 
@@ -417,7 +415,7 @@ Per ulteriori informazioni, consulta [Modifica record](../maestro/records/edit-r
 
 Anteprima e produzione: 7 novembre 2023
 
-È ora possibile raggruppare i record nella vista tabella di una pagina del tipo di record. Puoi raggruppare per tre campi univoci nell’interfaccia Maestro <!--checking into this for now: and by four fields when using the API-->.
+È ora possibile raggruppare i record nella vista tabella di una pagina del tipo di record. È possibile eseguire il raggruppamento per tre campi univoci nell&#39;interfaccia della funzionalità di pianificazione<!--checking into this for now: and by four fields when using the API-->.
 
 Per ulteriori informazioni, consulta [Gestire la vista tabella](../maestro/views/manage-the-table-view.md).
 
@@ -427,7 +425,7 @@ Per ulteriori informazioni, consulta [Gestire la vista tabella](../maestro/views
 
 Anteprima e produzione: 30 ottobre 2023
 
-Abbiamo introdotto i seguenti tipi di campi per i record Maestro:
+Sono stati introdotti i seguenti tipi di campi per i record delle funzionalità di pianificazione di Adobe Workfront:
 
 * Creato da
 
@@ -441,11 +439,11 @@ I valori dei campi creati da questi tipi di campo sono di sola lettura e acquisi
 
 Per ulteriori informazioni, consulta [Crea campi](../maestro/fields/create-fields.md).
 
-### Passare a oggetti Workfront da un record Maestro
+### Passare a oggetti Workfront da un record delle funzionalità di pianificazione
 
 Anteprima e produzione: 31 ottobre 2023
 
-È ora possibile aprire le pagine degli oggetti di Workfront dalle seguenti aree in Maestro:
+È ora possibile aprire le pagine degli oggetti di Workfront dalle seguenti aree nelle funzionalità di pianificazione:
 
 * Visualizzazione tabella record oggetti Workfront collegata di sola lettura
 
@@ -475,7 +473,7 @@ Per ulteriori informazioni, consulta [Crea record](../maestro/records/connect-re
 
 Anteprima e produzione: 16 ottobre 2023
 
-Ora puoi aggiungere un campo di tipo Persone ai tipi di record Maestro. È possibile utilizzare i campi di tipo Persone per associare gli utenti esistenti a un record. Per informazioni, consulta [Crea campi](../maestro/fields/create-fields.md).
+È ora possibile aggiungere un campo di tipo Persone ai tipi di record delle funzionalità di pianificazione. È possibile utilizzare i campi di tipo Persone per associare gli utenti esistenti a un record. Per informazioni, consulta [Crea campi](../maestro/fields/create-fields.md).
 
 ### Formato Rich Text per campi Paragrafo
 
@@ -530,21 +528,21 @@ Anteprima e produzione: 20 settembre 2023
 
 ## Settimana del 4 settembre 2023
 
-### Collegare i record Maestro alle aziende e ai gruppi Workfront
+### Collegare i record delle funzionalità di pianificazione con aziende e gruppi Workfront
 
 Anteprima e produzione: 5 settembre 2023
 
-Ora è possibile collegare un record Maestro con aziende e gruppi Workfront. È innanzitutto necessario creare una connessione tra un tipo di record Maestro e i tipi di oggetto Società e gruppi di Workfront. Quindi puoi collegare un singolo record Maestro del tipo di record selezionato a singole aziende e gruppi Workfront.
+È ora possibile collegare un record di funzionalità di pianificazione con le società e i gruppi Workfront. È innanzitutto necessario creare una connessione tra un tipo di record della funzionalità di pianificazione e i tipi di oggetto società e gruppi di Workfront. È quindi possibile collegare un singolo record della funzionalità di pianificazione del tipo di record selezionato a singole società e gruppi Workfront.
 
 Considera quanto segue:
 
-* È necessario creare una connessione tra i tipi di record Maestro e i tipi di oggetto Società Workfront e Gruppo per ogni area di lavoro.
+* È necessario creare una connessione tra i tipi di record delle funzionalità di pianificazione e i tipi di oggetto Società e gruppo di Workfront per ogni area di lavoro.
 
 * Non è possibile collegare tipi di record di tassonomia con tipi di oggetto Workfront.
 
-* È possibile collegare più record Maestro alla stessa società o gruppo Workfront e più aziende o gruppi allo stesso record Maestro.
+* È possibile collegare più record di capacità di pianificazione allo stesso gruppo o società Workfront e più società o gruppi allo stesso record di capacità di pianificazione.
 
-* Non è possibile modificare aziende o gruppi in Maestro. Tutte le modifiche di società o gruppi eseguite in Workfront sono visibili in Maestro, quando si esaminano i record collegati a Maestro.
+* Non è possibile modificare società o gruppi nelle funzionalità di pianificazione. Tutte le modifiche di società o gruppi eseguite in Workfront sono visibili nelle funzionalità di pianificazione durante la revisione dei record collegati alle funzionalità di pianificazione.
 
   Per ulteriori informazioni, consulta i seguenti articoli:
 
@@ -571,15 +569,15 @@ Per ulteriori informazioni, consulta [Gestire la vista tabella](../maestro/views
 
 ## Settimana del 21 agosto 2023
 
-### Collegare i record Maestro a programmi e portafogli
+### Collegare i record delle funzionalità di pianificazione di Adobe Workfront a programmi e portfolio
 
 Anteprima e produzione: 24 agosto 2023
 
-Ora è possibile collegare un record Maestro con i programmi e i portfolio Workfront. È necessario creare una connessione tra un tipo di record Maestro e un programma o un portfolio che crea un campo connesso. È quindi possibile collegare qualsiasi record Maestro di tutti gli altri tipi di record all&#39;interno della stessa area di lavoro a programmi e portfolio specifici che creano un tipo di record di Portfolio Workfront Program o Workfront di sola lettura nella stessa area di lavoro. Considera quanto segue:
+È ora possibile collegare un record delle funzionalità di pianificazione con i programmi e i portfolio Workfront. È necessario creare una connessione tra un tipo di record delle funzionalità di pianificazione e un programma o un portfolio che crea un campo connesso. È quindi possibile collegare qualsiasi record delle funzionalità di pianificazione di tutti gli altri tipi di record all&#39;interno della stessa area di lavoro a programmi e portafogli specifici che creano un tipo di record Programma di Workfront o Portfolio di Workfront di sola lettura nella stessa area di lavoro. Considera quanto segue:
 
 * I tipi di record del connettore Workfront sono univoci per ogni area di lavoro.
-* È possibile collegare più record Maestro allo stesso programma o portfolio Workfront e più programmi e portfolio allo stesso record Maestro.
-* Non è possibile modificare programmi e portafogli in Maestro. Tutte le modifiche al programma e al portfolio eseguite in Workfront sono visibili in Maestro durante la revisione dei record collegati.
+* È possibile collegare più record delle funzionalità di pianificazione allo stesso programma o portfolio Workfront e più programmi e portfolio allo stesso record delle funzionalità di pianificazione.
+* Non è possibile modificare programmi e portafogli nelle funzionalità di pianificazione. Tutte le modifiche al programma e al portfolio eseguite in Workfront sono visibili nelle funzionalità di pianificazione durante la revisione dei record collegati.
 
 ### Nuova funzionalità di ordinamento per la vista tabella
 
@@ -608,13 +606,13 @@ Sono stati introdotti i seguenti miglioramenti alla vista timeline:
 
 ### Riordinare le colonne nella vista tabella
 
-È ora possibile riordinare le colonne nella vista tabella Maestro. Quando riordinate le colonne, tenete presente quanto segue:
+È ora possibile riordinare le colonne nella vista tabella. Quando riordinate le colonne, tenete presente quanto segue:
 
 * Il campo Nome è sempre il primo campo nella visualizzazione tabella di una pagina di tipo record
 
 * Impossibile spostare il campo Nome in un&#39;altra posizione
 
-* Il campo Nome è bloccato e non fa parte dello scorrimento orizzontale.
+* Il campo Nome è bloccato e non fa parte dello scorrimento orizzontale
 
 ### Scorrimento orizzontale per la visualizzazione della timeline
 
@@ -650,7 +648,7 @@ Anteprima e produzione: 13 luglio 2023
 
 Anteprima e produzione: 13 luglio 2023
 
-Ora puoi aggiungere un tipo di campo Casella di controllo ai tipi di record Maestro. È possibile utilizzare un campo di tipo Casella di controllo per aggiungere una singola opzione a un record. È possibile utilizzare questo campo per indicare un attributo o uno stato specifico per quel record specifico. È ad esempio possibile utilizzarlo come flag per tenere traccia di completamento, approvazione o qualsiasi altro attributo binario per ogni record.
+È ora possibile aggiungere un tipo di campo Casella di controllo ai tipi di record delle funzionalità di pianificazione. È possibile utilizzare un campo di tipo Casella di controllo per aggiungere una singola opzione a un record. È possibile utilizzare questo campo per indicare un attributo o uno stato specifico per quel record specifico. È ad esempio possibile utilizzarlo come flag per tenere traccia di completamento, approvazione o qualsiasi altro attributo binario per ogni record.
 
 ## Settimana del 26 giugno 2023
 
@@ -664,19 +662,19 @@ Anteprima e produzione: 28 giugno 2023
 
 ### I nomi dei campi record sono univoci
 
-Ora è stato introdotto un requisito per cui i nomi dei campi di un tipo di record Maestro devono avere nomi univoci. I campi che appartengono a tipi di record diversi non devono avere nomi univoci.
+Ora è stato introdotto un requisito in base al quale i nomi dei campi di un tipo di record della funzionalità di pianificazione devono avere nomi univoci. I campi che appartengono a tipi di record diversi non devono avere nomi univoci.
 
 ## Settimana del 5 giugno 2023
 
-### Collegare i record Maestro con i progetti Workfront
+### Collegare i record delle funzionalità di pianificazione di Adobe Workfront ai progetti Workfront
 
 Anteprima e produzione: 5 giugno 2023
 
-Ora puoi collegare un record Maestro a progetti Workfront. È necessario creare un tipo di record Connector Maestro per stabilire la connessione tra i record Maestro e i progetti Workfront. Quindi, puoi collegare qualsiasi record Maestro da tutti gli altri tipi di record al record del connettore utilizzando il campo Relazione. Considera quanto segue:
+È ora possibile collegare un record delle funzionalità di pianificazione ai progetti Workfront. Per stabilire la connessione tra i record delle funzionalità di pianificazione e i progetti Workfront, è necessario creare un tipo di record delle funzionalità di pianificazione del connettore. È quindi possibile collegare qualsiasi record delle funzionalità di pianificazione da tutti gli altri tipi di record al record del connettore utilizzando il campo Relazione. Considera quanto segue:
 
 * È necessario disporre di un tipo di record connettore per Workfront per ogni area di lavoro.
-* È possibile collegare più record Maestro allo stesso progetto Workfront e più progetti allo stesso record Maestro.
-* Non è possibile modificare i progetti in Maestro. Tutte le modifiche al progetto eseguite in Workfront sono visibili in Maestro durante la revisione dei record collegati.
+* È possibile collegare più record delle funzionalità di pianificazione allo stesso progetto Workfront e più progetti allo stesso record delle funzionalità di pianificazione.
+* Non è possibile modificare i progetti nelle funzionalità di pianificazione. Tutte le modifiche apportate al progetto in Workfront sono visibili nelle funzionalità di pianificazione durante la revisione dei record collegati.
 
 ## Settimana del 29 maggio 2023
 
