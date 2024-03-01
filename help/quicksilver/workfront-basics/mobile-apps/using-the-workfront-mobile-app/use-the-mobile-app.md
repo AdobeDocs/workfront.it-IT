@@ -7,14 +7,16 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# Utilizza il [!DNL Adobe Workfront] app mobile
+# Utilizza il [!DNL Adobe Workfront] app mobile: indice articolo
+
+<!-- Audited: 2/2024 -->
 
 Accelera il coinvolgimento e semplifica il lavoro dei team e dei singoli utenti dell’organizzazione tramite [!DNL Adobe Workfront's] app mobile, disponibile su qualsiasi dispositivo iOS o Android. Con l’app, puoi:
 
@@ -38,7 +40,7 @@ Nell’app mobile, puoi completare gli elementi di lavoro e visualizzare informa
 
 >[!NOTE]
 >
->Il [!DNL Adobe Workfront] l&#39;app mobile sta sostituendo il [!DNL Workfront Proof] , che non è più supportata e verrà rimossa completamente a ottobre con la versione 23.10. [!DNL Workfront] I clienti ora devono utilizzare [!DNL Adobe Workfront] app mobile per eseguire revisioni e approvazioni delle bozze.
+>Il [!DNL Adobe Workfront] l&#39;app mobile ha sostituito [!DNL Workfront Proof] app. [!DNL Workfront] I clienti ora devono utilizzare [!DNL Adobe Workfront] app mobile per eseguire revisioni e approvazioni delle bozze.
 
 Per ulteriori informazioni su [!DNL Adobe Workfront] app mobile, consulta i seguenti articoli:
 
