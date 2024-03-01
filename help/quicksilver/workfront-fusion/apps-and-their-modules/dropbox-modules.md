@@ -9,9 +9,9 @@ description: In un [!DNL Adobe Workfront Fusion] In questo scenario, è possibil
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 9db172cc8c02efcd1128fa8adc5ff55bb29b4df5
 workflow-type: tm+mt
-source-wordcount: '3061'
+source-wordcount: '3080'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,14 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
 ## Prerequisiti
 
-Da utilizzare [!DNL Dropbox] moduli, è necessario disporre di un [!DNL Dropbox] account.
+* Da utilizzare [!DNL Dropbox] moduli, è necessario disporre di un [!DNL Dropbox] account.
+
+>[!IMPORTANT]
+>
+>Il Dropbox deve approvare le applicazioni con più di 50 utenti.
+>
+>Per ulteriori informazioni, cerca &quot;Approvazione produzione&quot; nella guida per gli sviluppatori di Dropbox.
+
 
 ## [!DNL Dropbox] moduli e relativi campi
 
@@ -75,12 +82,12 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 
 ![](assets/map-toggle-350x74.png)
 
-* [Moduli di attivazione](#trigger-modules)
+* [Moduli trigger](#trigger-modules)
 * [Moduli per ottenere [!DNL Dropbox] file e cartelle](#modules-for-getting-dropbox-files-and-folders)
 * [Moduli per la creazione e la modifica [!DNL Dropbox] file e cartelle](#modules-for-creating-and-editing-dropbox-files-and-folders)
 * [Altri moduli](#other-modules)
 
-### Moduli di attivazione
+### Moduli trigger
 
 #### [!UICONTROL File di controllo]
 
@@ -235,7 +242,7 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
    <td> <p>Per istruzioni sulla connessione [!DNL Dropbox] account a [!DNL Workfront Fusion], vedi <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Creare una connessione a [!DNL Adobe Workfront Fusion] - Istruzioni di base</a></p> </td> 
   </tr> 
   <tr> 
-   <td>Lista </td> 
+   <td>Elenco </td> 
    <td> <p>Specificare se si desidera recuperare file o cartelle.</p> </td> 
   </tr> 
   <tr> 
