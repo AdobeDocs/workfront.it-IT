@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0e2c529e61ed1c9c85dbd826029cf64346f865ff
+source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1595'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ La sandbox di aggiornamento personalizzata contiene i dati di produzione effetti
 >[!NOTE]
 >
 >* Impossibile pianificare un aggiornamento per il giorno corrente. Ad esempio, se oggi è il 1° giugno, il primo giorno in cui puoi pianificare un aggiornamento è il 2 giugno.
->* L’aggiornamento pianificato viene eseguito alle 00:00 del mattino successivo alla data specificata, in base al fuso orario dell’utente che ha inviato la richiesta.
+>* L’aggiornamento pianificato viene eseguito durante la notte, in base al cluster dell’utente (i cluster degli Stati Uniti aggiornano durante la notte negli Stati Uniti). L’ora specifica è imprevedibile a causa della presenza di altri clienti in coda e della quantità di dati aggiornati. Se la coda include molti clienti di grandi dimensioni, l&#39;aggiornamento potrebbe essere eseguito solo più tardi nello stesso giorno o il giorno successivo.
 >* La sandbox di aggiornamento personalizzata presenta sempre le stesse funzioni di prodotto dell’ambiente di produzione. Tuttavia, quando aggiorni la Sandbox di aggiornamento personalizzata, il marchio viene mantenuto solo per il colore di sfondo della schermata di accesso. La schermata di accesso e i logo della barra di navigazione vengono reimpostati su [!DNL Workfront] e le immagini di branding modificate prima dell&#39;aggiornamento non vengono visualizzate.
 >
 
