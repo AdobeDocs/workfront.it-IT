@@ -5,9 +5,9 @@ title: Aggiungere una risorsa Frame.io a un progetto Workfront connesso
 description: I creativi possono aggiungere risorse che devono essere riviste in Frame.io e inviarle a Workfront per la revisione e l'approvazione formali.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 4edb4f8d0c309c77fbdf96eba056c9e763c799be
+source-git-commit: 87ad8ac6c5768b8ed31ee280212e965789e3ccf4
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedi [Req
 ## Prerequisiti
 
 * È necessario disporre di un gruppo Workfront connesso a un team Frame.io.
-* È necessario avere un progetto Workfront connesso a un progetto Frame.io e aggiungerlo come utente a un&#39;attività con frame abilitato.
+* È necessario avere un progetto Workfront connesso a un progetto Frame.io e aggiungerlo come utente a un&#39;attività Workfront abilitata per Frame.io.
 
 Per ulteriori informazioni, consulta [Connettere Workfront e Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
 
