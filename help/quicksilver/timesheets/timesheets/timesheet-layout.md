@@ -7,9 +7,9 @@ description: Questo articolo descrive il layout delle schede orario in Adobe Wor
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1078'
 ht-degree: 1%
 
 ---
@@ -137,6 +137,14 @@ Eventuali commenti aggiunti alla scheda orario vengono visualizzati in quest&#39
 
 ## Pannello di Riepilogo
 
+<div class="preview">
+
+Esempio nell’ambiente di anteprima:
+![Pannello Riepilogo](assets/timesheet-summary-panel-on-updates.png)
+
+</div>
+
+Esempio nell’ambiente di produzione:
 ![Pannello Riepilogo](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Puoi accedere al pannello Riepilogo per le attività o i problemi visualizzati in una scheda orario. Da qui puoi aggiungere commenti ad attività e problemi, o aggiornarne le informazioni. Per ulteriori informazioni, consulta [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
