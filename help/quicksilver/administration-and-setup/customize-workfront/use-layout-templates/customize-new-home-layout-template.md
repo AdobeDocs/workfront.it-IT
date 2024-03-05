@@ -7,9 +7,9 @@ description: È possibile utilizzare un modello di layout per configurare ciò c
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,14 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
       <p>Selezionate i widget che saranno presenti nelle aree di lavoro degli utenti, la loro posizione e scegliete uno sfondo. Gli utenti non possono rimuovere i widget selezionati, ma possono spostarli e ridimensionarli liberamente e aggiungere altri widget.</p>
       <p>Questa scheda funziona essenzialmente come una nuova piccola area di lavoro Home; in quanto tale, può essere personalizzata in base ai passaggi descritti in <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Aggiungere, modificare o rimuovere widget nella nuova Home</a>. Selezionate i widget e disponete l'area di lavoro come desiderate che appaia per gli utenti.</p>
       <p>Per modificare lo sfondo, segui i passaggi descritti in <b>Personalizzazione dello sfondo</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Introduzione alla nuova home</a>.</p>
-      </td> 
+      <p>
+
+>[!NOTE]
+>
+>Solo lo spostamento o il ridimensionamento dei widget nel modello di layout non attiverà le nuove home page degli utenti per aggiornare il layout. Tuttavia, l’aggiunta o la rimozione di un widget attiverà un aggiornamento delle pagine degli utenti.
+
+</p>
+     </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Impostazioni widget</td> 
@@ -93,18 +100,24 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
       </ul>
       <p>Dopo aver selezionato il widget da modificare, le opzioni disponibili vengono visualizzate a destra. Queste opzioni includono <b>Filtri</b>, <b>Colonne</b>, e <b>Gruppi</b>. È possibile:</p>
       <ul>
-        <li><b>Seleziona i Filtri, le Colonne o i Gruppi che saranno disponibili per gli utenti:</b><p>Seleziona la casella accanto a tutte le opzioni nell’elenco che desideri possano essere utilizzate dagli utenti. Le opzioni non selezionate non vengono visualizzate per gli utenti.</li></p>
-        <li><b>Impostate un filtro o un gruppo predefinito per il widget:</b><p>Passa il puntatore del mouse su un’opzione e viene visualizzato un pulsante che consente di impostare tale opzione come predefinita per gli utenti. Il valore predefinito corrente presenta un contrassegno predefinito blu a destra.</li></p>
-        <li><b>Aggiungi un filtro, una colonna o un gruppo esistente all’elenco delle opzioni disponibili:</b><p>Fare clic sul pulsante con il segno più nella parte inferiore di ogni elenco per aggiungere un'opzione all'elenco. Solo i filtri, i campi (per le colonne) o i gruppi esistenti possono essere aggiunti in questo modo.</li></p>
+      <li><p><b>Seleziona i Filtri, le Colonne o i Gruppi che saranno disponibili per gli utenti:</b></p>
+      <p>Seleziona la casella accanto a tutte le opzioni nell’elenco che desideri possano essere utilizzate dagli utenti. Le opzioni non selezionate non vengono visualizzate per gli utenti.</li></p>
+      <li><p><b>Impostate un filtro o un gruppo predefinito per il widget:</b></p>
+      <p>Passa il puntatore del mouse su un’opzione e viene visualizzato un pulsante che consente di impostare tale opzione come predefinita per gli utenti. Il valore predefinito corrente presenta un contrassegno predefinito blu a destra.</li></p>
+      <li><p><b>Aggiungi un filtro, una colonna o un gruppo esistente all’elenco delle opzioni disponibili:</b></p>
+      <p>Fare clic sul pulsante con il segno più nella parte inferiore di ogni elenco per aggiungere un'opzione all'elenco. Solo i filtri, i campi (per le colonne) o i gruppi esistenti possono essere aggiunti in questo modo.</p></li>
       </ul>
-      </td> 
-     </tr>
-    </tbody> 
-   </table>
+      <p>
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >Se impostate un filtro o un raggruppamento predefinito per un widget specifico utilizzando un modello di layout, potrebbe non avere effetto immediato a causa delle preferenze utente esistenti. Per applicare immediatamente il nuovo filtro o raggruppamento, è possibile che tu o l’utente debba reimpostare le preferenze utente aggiungendo &quot;/resetUser&quot; alla fine dell’URL.
+
+</p>
+  </td> 
+  </tr>
+  </tbody> 
+  </table>
 
 1. Continuate a personalizzare il modello di layout.
 

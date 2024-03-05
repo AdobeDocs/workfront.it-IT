@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
 workflow-type: tm+mt
-source-wordcount: '1235'
+source-wordcount: '1377'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,25 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                     <td>
                         <p><span class="bold">Date di rilascio</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">L’integrazione JumpSeat è ora disponibile per i nuovi tipi di pacchetto</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>L’integrazione JumpSeat esistente è ora disponibile per gli account che utilizzano uno dei nuovi tipi di pacchetto (ad esempio, Select, Prime o Ultimate). Per abilitare l’integrazione, è ancora necessario disporre di un abbonamento JumpSeat attivo.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 26 febbraio 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produzione per la versione trimestrale: con la versione 24.4 (aprile 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -220,6 +239,25 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">È ora disponibile un nuovo flusso di commenti nelle azioni rapide per i nuovi widget per home</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>È stata aggiunta la nuova funzionalità di aggiunta di commenti al <b>Aggiungi nuovo aggiornamento</b> pulsante di azione rapida nei widget Il mio lavoro, I miei progetti, Le mie attività e I miei problemi nella nuova Home.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 1 marzo 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produzione per la versione trimestrale: con la versione 24.4 (aprile 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ulteriori informazioni sui commenti disponibili nella nuova esperienza</a><span style="color: #ff0000;"> Novità in anteprima.</span></p><p>Nella nuova esperienza di commento sono stati apportati i seguenti miglioramenti:</p>

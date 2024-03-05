@@ -4,9 +4,9 @@ description: Miglioramenti al flusso di aggiornamenti e alle notifiche del secon
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 980979bcc96739671ea69bdb1387d98c3f39d047
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '452'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti relativi al flusso di aggiornamento e alle notifiche apportati con la versione del secondo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## È ora disponibile un nuovo flusso di commenti nelle azioni rapide per i nuovi widget per home
+
+>[!NOTE]
+>
+>Versione di anteprima: 1 marzo 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+
+È stata aggiunta la nuova funzionalità di aggiunta di commenti al **Aggiungi nuovo aggiornamento** pulsante di azione rapida nei widget Il mio lavoro, I miei progetti, Le mie attività e I miei problemi nella nuova Home.
+
+Per ulteriori informazioni, consulta [Introduzione alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Ulteriori informazioni sui commenti disponibili nella nuova esperienza
 
@@ -34,7 +44,7 @@ Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfro
 
 >[!NOTE]
 >
->Versione di anteprima: 22 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 22 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
 
 Per offrirti una visione cronologicamente coerente sia dei commenti che dei registri di attività del sistema, stiamo introducendo una terza scheda nell’area Aggiornamenti di tutti gli oggetti. La scheda &quot;All&quot; (Tutti) acquisisce in un unico flusso sia i commenti degli utenti che quelli delle attività del sistema.
 

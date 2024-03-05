@@ -6,9 +6,9 @@ description: La nuova Home è una nuova potente funzione per la gestione del tuo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 61074fd87dafde9eb555da27e207198ee0eadc60
+source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1103'
 ht-degree: 8%
 
 ---
@@ -43,7 +43,7 @@ Di seguito sono riportati i dieci widget attualmente disponibili tra cui sceglie
     Visualizza le attività assegnate all&#39;utente in un elenco. È possibile utilizzare filtri, viste o raggruppamenti esistenti per personalizzare l&#39;elenco oppure creare un&#39;attività direttamente dal widget. Puoi anche delegare le tue attività mentre sei lontano dall&#39;ufficio.
 
 * **I miei problemi**\
-    Visualizza i problemi assegnati all&#39;utente in un elenco. È possibile utilizzare filtri, viste o raggruppamenti esistenti per personalizzare l’elenco oppure creare un problema direttamente dal widget. Questo widget include solo i problemi i cui progetti associati sono impostati su Corrente. Puoi anche delegare i tuoi problemi mentre sei lontano dall&#39;ufficio.
+    Visualizza i problemi assegnati all&#39;utente in un elenco. Puoi utilizzare i filtri, le viste o i raggruppamenti esistenti per personalizzare l’elenco, oppure puoi creare un problema direttamente dal widget. Questo widget include solo i problemi i cui progetti associati sono impostati su Corrente. Puoi anche delegare i tuoi problemi mentre sei lontano dall&#39;ufficio.
 
 * **Le mie richieste**\
     Visualizza tutte le richieste inviate, un filtro per visualizzare solo le richieste aperte e un pulsante che apre il riquadro di riepilogo di una richiesta.
@@ -57,7 +57,7 @@ Di seguito sono riportati i dieci widget attualmente disponibili tra cui sceglie
 * **Tutte le approvazioni**\
     Visualizza tutte le approvazioni per la tua organizzazione in una tabella con colonne personalizzabili, oltre a una barra di ricerca che ti consente di cercare approvazioni specifiche.
 
-* **Approvazioni in sospeso**&lt;\
+* **Approvazioni in sospeso**\
     Visualizza le approvazioni assegnate a un documento su un progetto di cui sei proprietario. Qui puoi visualizzare lo stato di approvazione e ricordare agli utenti le revisioni e le approvazioni incomplete. <span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span>
 
 * **Menzioni**\
