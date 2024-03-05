@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
 source-wordcount: '2051'
 ht-degree: 1%
@@ -233,7 +233,7 @@ Di seguito sono riportati gli oggetti e i concetti principali relativi alle funz
   Per informazioni sul collegamento di tipi di record, record e sulla creazione di campi collegati, vedere gli articoli seguenti:
 
    * [Connetti tipi di record](../maestro/architecture/connect-record-types.md)
-   * [Collega record](../maestro/records/connect-records.md)
+   * [Connetti record](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
@@ -264,7 +264,7 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Numero di aree di lavoro per un’istanza Workfront | 1.000 |
 | Numero di tipi di record per un&#39;area di lavoro | 1.000 (incluse le tassonomie per il workspace o gli oggetti importati da altre applicazioni) |
-| Numero di record per un tipo di record | 10.000 |
+| Numero di record per un tipo di record | 50.000 |
 | Numero di campi per un tipo di record o una tassonomia | 500 |
 | Numero di caratteri per un campo di testo | 1.000 caratteri |
 | Dimensione del file che è possibile incollare in una tabella del tipo di record | 1 MB |

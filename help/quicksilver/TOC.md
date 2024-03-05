@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 358a7c056840240c8df4464bc0ee2e439b174a37
+source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
 workflow-type: tm+mt
-source-wordcount: '13996'
+source-wordcount: '14000'
 ht-degree: 1%
 
 ---
@@ -2050,7 +2050,7 @@ ht-degree: 1%
    * Record Adobe Maestro {#adobe-maestro-records}
       * [Record: indice articolo](maestro/records/records-information.md)
       * [Crea record](maestro/records/create-records.md)
-      * [Collega record](maestro/records/connect-records.md)
+      * [Connetti record](maestro/records/connect-records.md)
       * [Modifica record](maestro/records/edit-records.md)
       * [Elimina record](maestro/records/delete-records.md)
       * [Condividere i record](maestro/records/share-records.md)
@@ -2062,6 +2062,7 @@ ht-degree: 1%
       * [Gestire le visualizzazioni record](maestro/views/manage-record-views.md)
       * [Gestire la vista tabella](maestro/views/manage-the-table-view.md)
       * [Gestire la visualizzazione della timeline](maestro/views/manage-the-timeline-view.md)
+      * [Gestire la visualizzazione calendario](maestro/views/manage-the-calendar-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Modello per tabella di accesso Fusion](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
