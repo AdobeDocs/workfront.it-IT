@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 0100baa3ce3eb266cf650eacfc94120f7c9eb49b
+source-git-commit: e5ab7cf79ad2d2542146336bd48071154d0abc53
 workflow-type: tm+mt
-source-wordcount: '5171'
+source-wordcount: '5592'
 ht-degree: 3%
 
 ---
 
 # Progettare un modulo con il progettista del modulo
+
+{{highlighted-preview}}
 
 È possibile progettare un modulo personalizzato con il progettista del modulo. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
@@ -80,7 +82,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    * [Aggiungere campi calcolati](#add-calculated-fields)
    * [Aggiungi pulsanti di scelta, gruppo di caselle di controllo e elenchi a discesa](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Aggiungere campi di tipo typeahead e date](#add-typeahead-and-date-fields)
+   * [Aggiungere campi di ricerca esterni](#add-external-lookup-fields)
    * [Aggiungere immagini, PDF e video](#add-images-pdfs-and-videos)
+   * [Aggiungi campi nativi Workfront](#add-workfront-native-fields)
    * [Aggiungere file Adobe XD](#add-adobe-xd-files)
 
 ## Aggiungere campi nuovi o esistenti al modulo personalizzato
@@ -645,7 +649,7 @@ Per aggiungere immagini, PDF o video:
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il widget.</p> <p>Quando configuri il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome non sono sincronizzati. In questo modo è possibile modificare l'etichetta visualizzata dagli utenti senza dover cambiare il nome visualizzato dal sistema.</p> <p><b>IMPORTANTE</b>: anche se è possibile farlo, ti consigliamo di non modificare questo nome dopo che tu o altri utenti iniziate a utilizzare il modulo personalizzato in widget. In questo caso, il sistema non riconoscerà più il widget a cui potrebbe ora fare riferimento in altre aree di Workfront. </p> <p>Ogni nome di widget deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. </p> </td> 
+      <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il widget.</p> <p>Quando configuri il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome non sono sincronizzati. In questo modo è possibile modificare l'etichetta visualizzata dagli utenti senza dover cambiare il nome visualizzato dal sistema.</p> <p><b>IMPORTANTE</b>: anche se è possibile farlo, si consiglia di non modificare questo nome dopo che tu o altri utenti avete iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il widget a cui potrebbe ora fare riferimento in altre aree di Workfront. </p> <p>Ogni nome di widget deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -699,6 +703,55 @@ Per aggiungere immagini, PDF o video:
    oppure
 
    Clic **Salva e chiudi**.
+
+<div class="preview">
+
+### Aggiungi campi nativi Workfront
+
+Puoi aggiungere campi nativi di Workfront ai moduli personalizzati. Quando il modulo personalizzato viene allegato a un oggetto, il campo viene popolato dai dati dell’oggetto. Ad esempio, il campo Description (Descrizione) in un modulo personalizzato allegato a un progetto estrae la descrizione del progetto. (Il campo può mostrare &quot;N/D&quot; se non sono disponibili dati).
+
+1. Sul lato sinistro dello schermo, trovare **Campo nativo** e trascinarlo in una sezione dell’area di lavoro.
+1. Sul lato destro della schermata, configura le opzioni per il campo personalizzato:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Etichetta</td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Nome</td> 
+      <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il campo.</p><p> Quando configuri il campo per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome non sono sincronizzati. In questo modo è possibile modificare l'etichetta visualizzata dagli utenti senza dover cambiare il nome visualizzato dal sistema.</p>
+      <p><b>IMPORTANTE</b>:
+      <ul> 
+      <li>Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l’utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo a cui potrebbe ora essere fatto riferimento in altre aree di Workfront.</p> </li>
+      <li> <p>Ogni nome di campo deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato.</p> </li>
+      <li><p>È consigliabile non utilizzare il carattere punto/punto nel nome del campo personalizzato, per evitare errori quando si utilizza il campo in aree diverse di Workfront.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Istruzioni</td> 
+      <td> <p>Digitare eventuali informazioni aggiuntive sul campo. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Campo di riferimento</td> 
+      <td><p>(Obbligatorio) Seleziona un campo nativo di Workfront.<p><p>Sono disponibili solo campi nativi per gli oggetti del modulo. Se ad esempio l'elenco Tipi di oggetto nella parte superiore del progettista del modulo mostra Project, sarà possibile selezionare campi nativi per i progetti ma non campi specifici delle attività.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Dimensione</td> 
+      <td>(Facoltativo) Modifica la dimensione di visualizzazione del campo in base alle esigenze.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+
+   oppure
+
+   Clic **Salva e chiudi**.
+
+</div>
 
 ### Aggiungere file Adobe XD
 
