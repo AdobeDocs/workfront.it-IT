@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 83f10ed479f31101add8747f8b672bbc1dbd922b
+source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
 workflow-type: tm+mt
-source-wordcount: '4258'
+source-wordcount: '4603'
 ht-degree: 0%
 
 ---
@@ -32,59 +32,71 @@ Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rila
 >
 >La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
 
-<!--
-## Week of March 4, 2024
+## Settimana del 4 marzo 2024
 
-### Change row height in the table view
+### Panoramica dei dettagli dei record nella vista a tabella
 
-Production: March 7, 2024 
+Produzione: 7 marzo 2024
 
-Preview: To be determined 
+Anteprima: da determinare
 
-You now have an option to modify the height of a row when displaying records in the table view.
+Per semplificare la visualizzazione di informazioni aggiuntive sui record quando si utilizza la vista a tabella, è stato introdotto un nuovo pannello che consente di visualizzare rapidamente i dettagli del record. Di seguito sono riportate alcune delle informazioni incluse in questo pannello:
 
-You can update the row height to one of the following sizes:  
+* panoramica dei dettagli rilevanti della registrazione
 
-* Short 
-* Medium
-* Tall.  
+* possibilità di modificare le informazioni del record
 
-For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+* un collegamento per aprire la pagina Dettagli del record
 
-### New tabbed design for record views 
+Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
 
-Production: March 7, 2024 
+### Modificare l&#39;altezza delle righe nella vista tabella
 
-Preview: To be determined 
+Produzione: 7 marzo 2024
 
-For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
+Anteprima: da determinare
 
-Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
+È ora disponibile un&#39;opzione per modificare l&#39;altezza di una riga durante la visualizzazione dei record nella vista tabella.
 
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+È possibile aggiornare l&#39;altezza della riga a una delle seguenti dimensioni:
 
-### Dynamic design of a record view
+* Piccolo
+* Medio
+* Alto.
 
-Production: March 7, 2024
-Preview: To be determined 
+Per ulteriori informazioni, consulta [Gestire la vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
-We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
+### Nuova struttura a schede per le visualizzazioni record
 
-For more information, see the following articles: 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+Produzione: 7 marzo 2024
 
-### New calendar view for records
+Anteprima: da determinare
 
-Production: March 7, 2024 
+Per migliorare la navigazione e la facilità d’uso, abbiamo riprogettato la visualizzazione delle visualizzazioni di record. Ora le visualizzazioni vengono visualizzate orizzontalmente, come schede nella pagina del tipo di record, in modo da potervi navigare facilmente. Prima di questo miglioramento, le viste venivano visualizzate nel menu a discesa Vista.
 
-Preview: To be determined 
+Le visualizzazioni vengono visualizzate in ordine cronologico per data aggiunta, da sinistra a destra. Anche le viste condivise vengono visualizzate in ordine cronologico in base al momento in cui sono state condivise.
 
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+Per ulteriori informazioni, consulta [Gestire le visualizzazioni record](/help/quicksilver/maestro/views/manage-record-views.md).
 
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+### Progettazione dinamica di una visualizzazione record
 
--->
+Produzione: 7 marzo 2024 Anteprima: da definire
+
+Nella pagina del tipo di record è stato aggiornato l’aspetto delle visualizzazioni. Le nuove viste rispondono dinamicamente e si adattano rapidamente alle dimensioni dello schermo. Le etichette delle opzioni della barra degli strumenti sono nascoste per facilitarne l&#39;utilizzo su schermi più piccoli.
+
+Per ulteriori informazioni, consulta i seguenti articoli:
+* [Gestire la vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Gestire la visualizzazione della timeline](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### Nuova vista calendario per i record
+
+Produzione: 7 marzo 2024
+
+Anteprima: da determinare
+
+È ora possibile visualizzare i record in una vista calendario. Per creare la visualizzazione calendario è necessario disporre di almeno due campi data in un tipo di record.
+
+Per ulteriori informazioni, consulta [Gestire la visualizzazione calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Settimana del 26 febbraio 2024
 
