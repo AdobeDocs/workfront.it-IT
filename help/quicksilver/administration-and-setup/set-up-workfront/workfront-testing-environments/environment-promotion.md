@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 5927c3e09b0013a296ccde20b38a948d9562e935
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2402'
 ht-degree: 2%
 
 ---
@@ -250,7 +250,7 @@ Oppure
 }
 ```
 
-#### risposta
+#### Risposta
 
 ```json
 200
@@ -314,7 +314,7 @@ Oppure
 
 _Vuoto_
 
-#### risposta
+#### Risposta
 
 ```
 200
@@ -379,7 +379,7 @@ Oppure
 
 _Vuoto_
 
-#### risposta
+#### Risposta
 
 ```
 200
@@ -502,7 +502,7 @@ Oppure
 }
 ```
 
-#### risposta
+#### Risposta
 
 ```
 200
@@ -580,7 +580,7 @@ Oppure
 
 _Vuoto_
 
-#### risposta
+#### Risposta
 
 ```
 200
@@ -624,6 +624,10 @@ Per ogni oggetto promozione, effettuare una delle seguenti operazioni `actions` 
    <td><p>Quando un record corrispondente viene trovato nell’ambiente di destinazione, l’azione è impostata su USEEXISTING e su <code>targetId</code> viene anche acquisito nel <code>translationmap</code>.</p><p>Quando questa azione è impostata in <code>translationmap</code> che viene fornito al <code>/install</code> il servizio di installazione non creerà il record. Tuttavia, utilizzerà il <code>targetId</code> incluso nella voce mappa per altri oggetti che potrebbero avere un riferimento a questo record.</p><p>Ad esempio, nell’ambiente di destinazione in cui viene distribuito un pacchetto è possibile trovare un "Gruppo predefinito". Non è possibile avere due record "Gruppo predefinito", pertanto il servizio di installazione utilizzerà il GUID per il gruppo esistente in qualsiasi altra azione di creazione dell'oggetto che includa un riferimento al "Gruppo predefinito", ad esempio un progetto, un modulo o qualsiasi altra entità correlata al gruppo.</p><p><b>Nota:</b> <ul><li><p>Quando viene assegnata l’azione USEEXISTING, il record esistente nell’ambiente di destinazione non viene modificato. </p><p>Ad esempio, se la descrizione del "Gruppo predefinito" è cambiata nella sandbox da cui è stato creato il pacchetto e il valore della descrizione è diverso nell’ambiente di destinazione, il valore rimarrà invariato dopo un’installazione con questo <code>translationmap</code>.</li></ul></td> 
   </tr> 
   <tr> 
+   <td>SOVRASCRITTURA</td> 
+   <td><p>Questa azione non verrà impostata automaticamente.</p><p>Questa azione consente di aggiornare un oggetto esistente nell’ambiente di destinazione. Consente di eseguire una sostituzione manuale di un'azione CREATE o USEEXISTING assegnata prima di eseguire <code>/install</code> chiamare.<ul><li>Un utente può aggiornare un oggetto nell’ambiente di test, quindi utilizzare l’azione di sovrascrittura per aggiornare tale oggetto nell’ambiente di destinazione.</p></li><li><p>Se l’utente installa inizialmente un pacchetto di promozione e successivamente un nuovo pacchetto (o aggiornato) contiene modifiche agli oggetti nel pacchetto iniziale, può utilizzare la funzione SOVRASCRITTURA per sostituire (sostituire) gli oggetti installati in precedenza. </p></li><ul></td> 
+  </tr> 
+  <tr> 
    <td>IGNORA</td> 
    <td><p>Questa azione non verrà impostata automaticamente.</p><p>Consente di eseguire una sostituzione manuale di un'azione CREATE o USEEXISTING assegnata prima di eseguire <code>/install</code> chiamare.</p><p><b>Note: </b><ul><li><p>Se un record originariamente impostato su CREATE è impostato su IGNORE, anche tutti i record figlio devono essere impostati su IGNORE.</p><p>Ad esempio, se un record Modello è stato mappato con un’azione CREA e l’utente che esegue l’installazione desidera escluderlo dalla distribuzione, può impostare l’azione Modello su IGNORA.</p><p>In questo caso, se l’utente che esegue l’installazione non imposta anche le attività modello, le assegnazioni delle attività modello, i predecessori delle attività modello, la definizione della coda, gli argomenti della coda, le regole di indirizzamento e così via su IGNORA, la distribuzione provocherà un tentativo di installazione non riuscito.</p></li><li><p>Se un record originariamente impostato su USEEXISTING è impostato su IGNORE, potrebbero verificarsi alcuni effetti negativi durante il processo di installazione.</p><p>Ad esempio, se un record Gruppo è stato mappato con l'azione USEEXISTING e l'utente che esegue l'installazione modifica l'azione in IGNORA, per gli oggetti che richiedono un gruppo (ad esempio, un progetto non può esistere senza un gruppo assegnato), il gruppo predefinito del sistema verrà assegnato a tale progetto.</p></li><li><p>Se un record originariamente impostato su USEEXISTING è impostato su CREATE, potrebbero verificarsi alcuni effetti negativi durante il processo di installazione perché molte entità Workfront hanno vincoli di nome univoco.</p><p>Ad esempio, se un record "Gruppo predefinito" è stato mappato con l’azione USEEXISTING e l’utente che esegue l’installazione modifica l’azione in CREATE, poiché esiste già un "Gruppo predefinito", il tentativo di installazione non riuscirà a completare tutti i passaggi. I nomi dei gruppi devono essere univoci.</p><p>Alcune entità non hanno un vincolo di nome univoco. Per tali oggetti, questa modifica determinerà due record con lo stesso nome. Ad esempio, Modelli, Progetti, Viste, Filtri, Raggruppamenti, Rapporti e Dashboard non richiedono vincoli di nome univoci. È consigliabile utilizzare nomi univoci per questi record, ma non è possibile applicarli.</p></li></ul></p></td> 
   </tr> 
@@ -662,7 +666,7 @@ Oppure
 {}
 ```
 
-#### risposta
+#### Risposta
 
 ```
 200
@@ -814,7 +818,7 @@ Oppure
 }
 ```
 
-#### risposta
+#### Risposta
 
 ```
 202
@@ -865,7 +869,7 @@ Oppure
 
 _Vuoto_
 
-#### risposta
+#### Risposta
 
 ```
 200
@@ -962,7 +966,7 @@ Oppure
 
 _Vuoto_
 
-#### risposta
+#### Risposta
 
 ```
 200
