@@ -1,13 +1,13 @@
 ---
 title: Gestire le visualizzazioni record
-description: È possibile visualizzare i record in una vista tabella o sequenza temporale quando si utilizza Adobe Maestro.
+description: È possibile visualizzare i record in una vista tabella, timeline o calendario quando si utilizzano le funzionalità di pianificazione di Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,19 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Dopo aver selezionato un tipo di record in Adobe Maestro, è possibile visualizzare tutti i record di quel tipo nelle seguenti visualizzazioni:
+Dopo aver selezionato un tipo di record nell&#39;area delle funzionalità di pianificazione di Adobe Workfront, è possibile visualizzare tutti i record di quel tipo nelle seguenti viste:
 
 * Tabella
 
   Per ulteriori informazioni, consulta [Gestire la vista tabella](../views/manage-the-table-view.md).
+
 * Timeline
 
   Per ulteriori informazioni, consulta [Gestire la visualizzazione della timeline](../views/manage-the-timeline-view.md).
+
+<!--* Calendar 
+
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
 
 ## Requisiti di accesso
 
@@ -46,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -64,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader">Configurazione del livello di accesso</td>
-   <td> <p>Non ci sono controlli del livello di accesso per Maestro</p>  
+   <td> <p>Non sono disponibili controlli del livello di accesso per le funzionalità di pianificazione di Workfront</p>  
 </td>
   </tr>
 
@@ -82,13 +87,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody>
 </table>
 
-## Considerazioni durante l’utilizzo delle visualizzazioni Maestro
+## Considerazioni durante l&#39;utilizzo delle visualizzazioni record
 
-* Le visualizzazioni in Maestro sono specifiche per il tipo di record. Non è possibile applicare la stessa visualizzazione a due tipi di record diversi.
+* Le visualizzazioni nell&#39;area delle funzionalità di pianificazione di Workfront sono specifiche per il tipo di record. Non è possibile applicare la stessa visualizzazione a due tipi di record diversi.
 * Le visualizzazioni create sono visibili solo a te e agli utenti con cui condividi le visualizzazioni.
 * La creazione di viste per i tipi di record operativi è identica alla creazione di viste per i tipi di record della tassonomia.
 * Quando si modifica o si elimina una visualizzazione, questa viene modificata ed eliminata per tutti gli utenti che dispongono di autorizzazioni per la visualizzazione.
-* I seguenti elementi sono specifici per ogni vista in Maestro:
+* I seguenti elementi sono univoci per ogni visualizzazione record:
 
    * Filtro
    * Raggruppamento
@@ -100,7 +105,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
   >[!NOTE]
   >
-  > Poiché Maestro è attualmente in stato beta, alcuni elementi di visualizzazione potrebbero non essere disponibili per entrambe le visualizzazioni.
+  > Poiché le funzionalità di pianificazione di Adobe Workfront sono attualmente in stato beta, alcuni elementi della vista potrebbero non essere disponibili per tutte le viste.
 
 Questo articolo descrive le seguenti informazioni sulle visualizzazioni Maestro:
 
@@ -111,6 +116,8 @@ Questo articolo descrive le seguenti informazioni sulle visualizzazioni Maestro:
 * [Condividere una visualizzazione](#share-a-view)
 
 ## Somiglianze e differenze tra le viste tabella e timeline
+
+<!-- should we include Calendar here or remove this section???-->
 
 La tabella seguente mostra le somiglianze e le differenze tra le viste tabella e timeline in Maestro:
 
@@ -180,7 +187,7 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 
    Oppure fai clic su **Successivo**, durante la creazione di una timeline <!--or calendar--> visualizzazione.
 
-   Per impostazione predefinita, Maestro assegna alla vista il nome &quot;Table &lt; number >&quot; o &quot;Timeline &lt; number >&quot;. Il numero è un incremento generato automaticamente.
+   Per impostazione predefinita, Workfront nomina la vista &quot;Tabella &lt; numero >&quot; o &quot;Linea temporale &lt; numero >&quot;, <!--or "Calendar < number >"-->. Il numero è un incremento generato automaticamente.
 
 1. (Condizionale) Seleziona le date di inizio e fine per i record che verranno visualizzati nella timeline <!--or calendar--> , quindi fai clic su **Crea**.
 1. (Facoltativo) Per rinominare una vista dopo la sua creazione, fai clic sul menu a discesa Vista, quindi fai clic su **Altro** menu ![](assets/more-menu.png) > **Rinomina** per aggiornare il nome della vista. <!--ensure there is not another saving step here?!-->
@@ -208,7 +215,7 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 1. Fai clic sul menu a discesa delle viste, passa il puntatore del mouse su una delle viste nell’elenco, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) > **Elimina**.
 1. Clic **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
 
-   La vista viene eliminata per tutti gli utenti che possono accedere all’area Maestro e non può essere recuperata.
+   La vista viene eliminata per tutti gli utenti che possono accedere all’area dei record e non può essere recuperata.
 
 ## Condividere una visualizzazione
 

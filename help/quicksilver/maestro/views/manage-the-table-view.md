@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 5cfb4cd064daff455d8b9458d3bcbbb0d209516a
+source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2334'
 ht-degree: 3%
 
 ---
@@ -98,6 +98,11 @@ Per gestire una vista tabella:
 1. Creare una vista tabella come descritto nell&#39;articolo [Gestire le visualizzazioni record](../views/manage-record-views.md).
 
    ![](assets/table-view-example.png)
+
+1. (Facoltativo) Fai clic su **Altezza riga**, quindi seleziona tra le seguenti opzioni per modificare l’altezza delle righe della tabella:
+   * Piccolo
+   * Medio
+   * Alto
 
 1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
    * [Colonne (o campi)](#add-columns-or-fields)
