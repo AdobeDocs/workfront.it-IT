@@ -6,7 +6,7 @@ description: Dalla sezione [!UICONTROL schede madri] dashboard, puoi creare una 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: b76d9ec49e28a186286e6ac2d2df3fcc3360c2d8
+source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
 source-wordcount: '772'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
       >[!NOTE]
       >
-      >Il limite di schede per le bacheche dinamiche è di 1.000 attività e 1.000 problemi, per un totale di 2.000 schede. Un numero elevato di schede sulla scheda può influire sulle prestazioni della scheda.
+      >Il limite di schede per le bacheche dinamiche è di 700 attività e 700 problemi, per un totale di 1.400 schede. Un numero elevato di schede sulla scheda può influire sulle prestazioni della scheda.
 
    1. (Facoltativo) Seleziona [!UICONTROL **Non archiviare le schede completate**] per inserire le attività e i problemi completati nella bacheca come schede visibili nella colonna Completati. Se questa opzione non è selezionata, le schede completate al momento della creazione della bacheca vengono inserite nella bacheca come schede archiviate.
 
