@@ -4,9 +4,9 @@ description: Aggiornamenti look-and-feel durante l’intervallo di tempo di rila
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ I modelli e-mail per aggiungere un approvatore a una risorsa e un utente a una b
 
 >[!NOTE]
 >
->Versione di anteprima: 8 febbraio 2024; produzione per rilascio rapido: con la versione 24.3 (marzo 2024); produzione per rilascio trimestrale: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 8 febbraio 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per rilascio trimestrale: con la versione 24.4 (aprile 2024)
 
 Abbiamo aggiornato le schede per Forms, Campi e Sezioni nell’area Configurazione > Forms personalizzato per ottenere un design più moderno che sia coerente con altre aree di Workfront. Ora puoi accedere alle tre aree dal menu di navigazione a sinistra. Filtri, viste e raggruppamenti sono ancora disponibili per gli elenchi. La progettazione aggiornata si applica ai moduli personalizzati, ai campi e alle sezioni creati sia nel nuovo progettista di moduli che nel generatore di moduli legacy.
 

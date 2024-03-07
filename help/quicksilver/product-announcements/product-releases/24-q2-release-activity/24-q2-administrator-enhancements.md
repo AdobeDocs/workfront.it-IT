@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del secondo trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ I campi nativi utilizzati nei moduli personalizzati diventano disponibili nella 
 
 Questa funzione è disponibile solo nella versione beta di Progettazione moduli e non nel generatore di moduli legacy.
 
-Gli Experienci League per questa funzione verranno aggiornati entro il 7 marzo.
+Per ulteriori informazioni, consulta [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## La mappatura degli attributi è ora disponibile per le organizzazioni che sono migrate ad Adobe IMS
 
@@ -55,7 +57,7 @@ Gli amministratori di sistema di Workfront ora possono impostare la mappatura de
 
 In precedenza, questa funzionalità era disponibile solo per le organizzazioni che non avevano ancora effettuato l’onboarding in Adobe IMS.
 
-Per istruzioni sulla configurazione della mappatura degli attributi, consulta **Mappare gli attributi utente nell’esperienza unificata di Adobe** nell’articolo [Mappare gli attributi utente ed eseguire il provisioning automatico dei nuovi utenti](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+Per istruzioni sulla configurazione della mappatura degli attributi, consulta [Mappare gli attributi utente nell’esperienza unificata di Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) nell’articolo **Mappare gli attributi utente ed eseguire il provisioning automatico dei nuovi utenti**.
 
 ## La logica di salto e la logica di visualizzazione sono ora disponibili nella versione beta di Progettazione moduli
 

@@ -4,9 +4,9 @@ description: Miglioramenti al progetto per il secondo trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '327'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->Versione di anteprima: 13 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 13 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
 
 Abbiamo aggiunto la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni nelle seguenti aree:
 
@@ -36,7 +36,7 @@ Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti
 
 >[!NOTE]
 >
->Versione di anteprima: 21 dicembre 2023; Produzione per rilascio rapido: con la versione 24.3 (marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 21 dicembre 2023; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
 
 È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.
 

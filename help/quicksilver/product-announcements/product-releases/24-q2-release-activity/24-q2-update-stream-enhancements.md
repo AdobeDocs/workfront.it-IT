@@ -4,9 +4,9 @@ description: Miglioramenti al flusso di aggiornamenti e alle notifiche del secon
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8fada0325adf8d750143289ef455728b494444d4
+source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Per ulteriori informazioni, consulta [Panoramica della sezione Aggiornamenti](/h
 
 >[!NOTE]
 >
->Versione di anteprima: 22 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 22 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
 
 Ora è stata aggiunta la nuova funzionalità di aggiunta di commenti al pannello Riepilogo per gli elenchi di attività e problemi.
 
