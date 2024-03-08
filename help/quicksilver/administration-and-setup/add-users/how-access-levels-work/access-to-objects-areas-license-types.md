@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: aefa43697ae0d4edd5300acb94a9880b3cd0c94f
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '393'
 ht-degree: 18%
 
 ---
@@ -41,7 +41,7 @@ La tabella seguente indica il livello massimo di accesso (Modifica o Visualizza)
         <td>Progetti</td>
         <td>Modifica</td>
         <td>Visualizza</td>
-        <td>Visualizza (solo la pagina Dettagli)</td>
+        <td>Visualizza</td>
         <td>Nessun accesso</td>
     </tr>
     <tr>
