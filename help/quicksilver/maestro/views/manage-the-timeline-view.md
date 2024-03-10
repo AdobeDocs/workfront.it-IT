@@ -1,13 +1,13 @@
 ---
 title: Gestire la visualizzazione della timeline
-description: È possibile visualizzare i record in una visualizzazione timeline quando si accede alla pagina del tipo di record in Adobe Maestro.
+description: È possibile visualizzare i record in una vista timeline quando si accede alla pagina del tipo di record nelle funzionalità di pianificazione di Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ef313bf912c65b9b316bd7403235ccf6f05a0ac6
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ role: User
 
 {{maestro-important-intro}}
 
-È possibile visualizzare i record in una visualizzazione timeline quando si accede alla pagina del tipo di record in Adobe Maestro.
+È possibile visualizzare i record in una vista timeline quando si accede alla pagina del tipo di record nelle funzionalità di pianificazione di Adobe Workfront.
 
-Per informazioni sulle visualizzazioni Maestro, consulta [Gestire le visualizzazioni record in Adobe Maestro](../views/manage-record-views.md).
+Per informazioni sulle visualizzazioni record, vedere [Gestire le visualizzazioni record](../views/manage-record-views.md).
 
 ## Requisiti di accesso
 
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader">Configurazione del livello di accesso</td>
-   <td> <p>Non ci sono controlli del livello di accesso per Maestro </p>  
+   <td> <p>Non sono disponibili controlli del livello di accesso per le funzionalità di pianificazione di Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -103,17 +103,6 @@ Considera quanto segue:
    * Quando le date di inizio o fine non hanno valore
    * Quando la data di inizio è successiva alla data di fine
 
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
--->
-
 Per gestire una vista timeline:
 
 1. Passare alla pagina del tipo di record per la quale si desidera visualizzare la sequenza temporale.
@@ -132,7 +121,7 @@ Per gestire una vista timeline:
 
    * Fate clic sulle icone sinistra e destra oppure utilizzate lo scorrimento orizzontale per spostarvi avanti e indietro nella timeline.
    * Clic **Oggi** per centrare la timeline fino alla data odierna.
-   * Per aggiornare gli incrementi di tempo, seleziona una delle seguenti opzioni dal menu a discesa dell’intervallo di tempo:
+   * Per aggiornare gli incrementi di tempo, selezionate una delle seguenti opzioni dal menu a discesa intervallo di tempo:
 
       * Anno
       * Trimestre
@@ -196,7 +185,7 @@ L’aggiunta di raggruppamenti nella vista timeline è simile all’aggiunta di 
 Quando si lavora con i raggruppamenti nella vista timeline, tenete presente quanto segue:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
-* Potete applicare 3 livelli di raggruppamento in una vista Maestro. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
+* È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
 * Puoi applicare fino a 4 livelli di raggruppamento quando utilizzi l’API.
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni timeline dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa visualizzazione timeline visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista timeline.
@@ -218,6 +207,8 @@ Per aggiungere un raggruppamento nella vista timeline:
 1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
 
    Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
+
+   <!-- update screen shot with view redesign-->
 
    ![](assets/grouping-applied-in-timeline-view.png)
 

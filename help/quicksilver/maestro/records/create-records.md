@@ -1,13 +1,13 @@
 ---
 title: Crea record
-description: In Adobe Maestro, un record è un'istanza di un tipo di record. È necessario creare tipi di record prima di creare singoli record. La creazione di record di tassonomia è identica alla creazione di record operativi.
+description: Quando si utilizzano le funzionalità di pianificazione di Adobe Workfront, un record è un'istanza di un tipo di record. È necessario creare tipi di record prima di creare singoli record. La creazione di record di tassonomia è identica alla creazione di record operativi.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '810'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-In Adobe Maestro, un record è un&#39;istanza di un tipo di record.
+Nelle funzionalità di pianificazione di Adobe Workfront, un record è un&#39;istanza di un tipo di record.
 
 È possibile disporre dei seguenti tipi di record:
 
@@ -27,13 +27,13 @@ In Adobe Maestro, un record è un&#39;istanza di un tipo di record.
 
 La creazione di record operativi è identica alla creazione di record di tassonomia.
 
-È possibile creare record in Maestro eseguendo una delle operazioni seguenti:
+È possibile creare record eseguendo una delle operazioni seguenti:
 
-* Creali manualmente per i tipi di record Maestro
-* Collegali ai record Maestro da altre applicazioni.
+* Crearli manualmente per i tipi di record
+  <!-- not possible anymore: * Connect them to records from other applications-->
 * Creare record copiando e incollando informazioni da un elenco esterno.
 
-Questo articolo descrive come creare i record Maestro. Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
+In questo articolo viene descritto come creare record. Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
 
 * [Gestire la vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md)
 * [Gestire la visualizzazione della timeline](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
@@ -57,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +75,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non ci sono controlli di accesso per Maestro </p>  
+   <td> <p>Non sono presenti controlli di accesso per le funzionalità di pianificazione di Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -132,28 +132,44 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
 1. Continua ad aggiungere informazioni su ogni riga, quindi fai clic su **Invio** sulla tastiera per salvare le modifiche.
 
+<!--Or 
+    
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+
+      >[!TIP]
+      >
+      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+
+  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
+  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
+    -->
+
 1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere l&#39;aggiunta di nuovi record:
 
    * CTRL + Z (⌘ + Z per Mac) per annullare una modifica
    * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripetere una modifica
 
-## Creare record collegandoli da un&#39;altra applicazione
+<!-- this is not possible anymore: 
 
-Puoi importare record da altre applicazioni collegandoli a record collegati Maestro. In questo modo viene creato un tipo di record Maestro per l&#39;oggetto connesso dell&#39;altra applicazione.
+## Create records by connecting them from another application
 
-1. Creare un tipo di record Maestro, come descritto in [Crea tipi di record](../architecture/create-record-types.md).
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
 
-1. Crea record Maestro per il tipo di record creato nel passaggio precedente. Per informazioni, consulta la sezione [Creare record aggiungendoli manualmente a un tipo di record](#create-records-by-manually-adding-them-to-a-record-type) in questo articolo.
+1. Create a record type, as described in the [Create record types](../architecture/create-record-types.md).
 
-1. Creare una connessione a un tipo di oggetto da un&#39;altra applicazione per il tipo di record Maestro creato. Per informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. Aggiungere i record di un&#39;altra applicazione ai record Maestro creati in precedenza utilizzando il campo record collegato creato nel passaggio precedente. Per informazioni, consulta [Collega record](../records/connect-records.md).
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
 
-   I seguenti elementi sono creati in Maestro:
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
-   * Tipo di record Maestro di sola lettura che fa riferimento al tipo di record dell&#39;altra applicazione a cui è stato effettuato il collegamento nel campo record connesso.
+    The following items are created in Maestro:
 
-     Se ad esempio si collega un tipo di record Maestro a un progetto Workfront, nella stessa area di lavoro viene creato un tipo di record di sola lettura denominato &quot;progetto Workfront&quot;. Puoi accedere ai tipi di record Workfront di sola lettura dalla vista a tabella dei record Maestro da cui stai effettuando il collegamento.
+    * A read-only Maestro record type that refers to the other application's record type you linked to in the connected record field. 
+
+      For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
+   
+-->
 
 ## Creare record copiando e incollando informazioni da un elenco esterno
 

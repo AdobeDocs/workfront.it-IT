@@ -1,13 +1,13 @@
 ---
 title: Gestire la vista tabella
-description: È possibile visualizzare i record e i relativi campi in una vista tabella quando si accede alla pagina del tipo di record in Adobe Maestro.
+description: È possibile visualizzare i record e i relativi campi in una vista tabella quando si accede alla pagina del tipo di record nelle funzionalità di pianificazione di Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2334'
+source-wordcount: '2337'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-È possibile visualizzare i record e i relativi campi in una vista tabella quando si accede alla pagina del tipo di record in Adobe Maestro.
+È possibile visualizzare i record e i relativi campi in una vista tabella quando si accede alla pagina del tipo di record nelle funzionalità di pianificazione di Adobe Workfront.
 
-Per informazioni sulle visualizzazioni Maestro e su come gestirle, consulta [Gestire le visualizzazioni record](../views/manage-record-views.md).
+Per informazioni sulle visualizzazioni record e su come gestirle, vedere [Gestire le visualizzazioni record](../views/manage-record-views.md).
 
 ## Requisiti di accesso
 
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader">Configurazione del livello di accesso</td>
-   <td> <p>Non ci sono controlli del livello di accesso per Maestro </p>  
+   <td> <p>Non sono disponibili controlli del livello di accesso per le funzionalità di pianificazione di Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -114,7 +114,7 @@ Per gestire una vista tabella:
 
 ### Aggiungi colonne (o campi) {#add-columns}
 
-Le intestazioni di colonna di una vista tabella Maestro visualizzano i campi associati ai record nella vista. Gli stessi campi visualizzati nella vista tabella vengono visualizzati anche nella sezione Dettagli di un record Maestro. Per ulteriori informazioni, consulta [Modifica record](../records/edit-records.md).
+Nelle intestazioni di colonna di una vista tabella vengono visualizzati i campi associati ai record della vista. Gli stessi campi visualizzati nella vista tabella vengono visualizzati anche nella sezione Dettagli di un record. Per ulteriori informazioni, consulta [Modifica record](../records/edit-records.md).
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -123,6 +123,8 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 È possibile aggiungere fino a 500 campi (o colonne) in una visualizzazione tabella.
 
 1. Passare a una pagina del tipo di record e selezionare un **Tabella** dal menu a discesa vista.
+
+   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Inizia ad aggiungere campi (o colonne), come descritto nell’articolo [Crea campi](../fields/create-fields.md).
 
    Le colonne aggiunte sono visibili a tutti gli utenti che accedono al tipo di record e vengono aggiunte come nuovi campi nella pagina Dettagli dei record del tipo di record selezionato.
@@ -212,11 +214,13 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
 ### Aggiungi righe (o record) {#add-rows}
 
-Le righe di una vista tabella Maestro visualizzano singoli record del tipo di record selezionato.
+Le righe di una vista tabella visualizzano i singoli record del tipo di record selezionato.
 
-Puoi avere fino a 10.000 record (o righe) per un tipo di record in Maestro.
+È possibile avere fino a 50.000 record (o righe) per un tipo di record S.
 
 1. Passare a una pagina del tipo di record e selezionare un **Tabella** dal menu a discesa vista.
+
+<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Inizia ad aggiungere record (o righe), come descritto nell’articolo [Crea record](../records/create-records.md).
 
    I record aggiunti nella vista tabella vengono salvati immediatamente e sono visibili a tutti gli utenti che dispongono di autorizzazioni di visualizzazione o di livello superiore per l&#39;area di lavoro.
@@ -359,7 +363,7 @@ L’aggiunta di raggruppamenti nella vista tabella è simile all’aggiunta di r
 Considera quanto segue:
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
-* Potete applicare 3 livelli di raggruppamento in una vista Maestro. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
+* È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
 &lt;!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.

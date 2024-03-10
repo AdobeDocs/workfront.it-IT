@@ -4,9 +4,9 @@ description: È possibile visualizzare i record e i relativi campi in una visual
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ff52e43fc5ed5a7939b9e28b2bda195e94e81724
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ hide: yes
 
 È possibile visualizzare i record e i relativi campi in una visualizzazione calendario dalla pagina del tipo di record.
 
-Per informazioni sulle visualizzazioni Maestro e su come gestirle, consulta [Gestire le visualizzazioni record](../views/manage-record-views.md).
+Per informazioni sulle visualizzazioni delle funzionalità di pianificazione di Adobe Workfront e su come gestirle, consulta [Gestire le visualizzazioni record](../views/manage-record-views.md).
 
 ## Requisiti di accesso
 
@@ -50,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader">Configurazione del livello di accesso</td>
-   <td> <p>Non ci sono controlli del livello di accesso per Maestro </p>  
+   <td> <p>Non sono disponibili controlli del livello di accesso per le funzionalità di pianificazione di Adobe Workfront  </p>  
 </td>
   </tr>
 
@@ -94,7 +94,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Considera quanto segue:
 
 * È possibile creare una visualizzazione Calendario solo se a un tipo di record sono associati almeno due campi data. Quando a un tipo di record è associato uno o nessun campo data, l&#39;opzione della visualizzazione Calendario non è attiva.
-* I seguenti scenari:
+* Esistono i seguenti scenari:
 
    * Se le date di inizio e di fine non contengono valori, i record non vengono visualizzati nel calendario
    * Quando le date di inizio o fine non hanno un valore, il record viene visualizzato come evento di un giorno
@@ -107,7 +107,7 @@ Per gestire una vista calendario:
 
    ![](assets/calendar-view-example.png)
 
-   I record associati al tipo di record selezionato vengono visualizzati come barre in un calendario.
+   I record associati al tipo di record selezionato vengono visualizzati come barre in un calendario. Il colore delle barre corrisponde al colore dell&#39;icona del record.
 
 1. Per spostarsi nel calendario, effettuare una delle seguenti operazioni:
 

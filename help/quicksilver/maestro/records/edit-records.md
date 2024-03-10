@@ -1,13 +1,13 @@
 ---
 title: Modifica record
-description: Puoi modificare le informazioni dei record in Adobe Maestro. È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
+description: È possibile modificare le informazioni del record nelle funzionalità di pianificazione di Adobe Workfront. È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1087'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-È possibile modificare le informazioni sui record in Adobe Maestro modificando i valori dei campi associati ai record.
+È possibile modificare le informazioni sui record nelle funzionalità di pianificazione di Adobe Workfront modificando i valori dei campi associati ai record.
 
 È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 
@@ -47,7 +47,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non ci sono controlli di accesso per Maestro </p>  
+   <td> <p>Non sono presenti controlli di accesso per le funzionalità di pianificazione di Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -104,35 +104,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 È possibile modificare un record dalle seguenti aree:
 
-* [Dalla pagina Dettagli di un record](#edit-a-record-from-the-records-details-page)
 * [Dalla vista tabella di un tipo di record](#edit-a-record-from-the-table-view-of-a-record-type)
-
-### Modificare un record dalla pagina Dettagli del record
-
-{{step1-to-maestro}}
-
-Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
-
-1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
-1. Esegui una delle operazioni seguenti:
-
-   * Da un **Tabella** visualizzazione, fare clic sul nome di un record.
-   * Dalla sezione **Tabella** , passa il puntatore sul nome di un record, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Visualizza**
-
-     ![](assets/contextual-menu-for-record-row.png)
-   * In una visualizzazione Sequenza temporale, fare clic su una barra dei record.
-
-   Il record **Dettagli** viene visualizzata la pagina.
-
-1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del record, quindi fare clic su **Modifica**
-
-   Oppure
-
-   Fare clic all&#39;interno di un campo modificabile nella pagina Dettagli per modificare le informazioni.
-
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-
-1. Clic **Salva modifiche**. <!--logged a bug for this - this needs to be "Save"-->
+* [Dalla pagina Dettagli di un record](#edit-a-record-from-the-records-details-page)
 
 ### Modificare un record dalla vista tabella di un tipo di record
 
@@ -144,7 +117,7 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Da **Visualizza** menu a discesa nell&#39;angolo superiore destro della tabella, selezionare un **Tabella** visualizzazione. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
+1. (Condizionale) Da **Visualizza** menu a discesa <!--tab--> nell’angolo superiore destro della tabella, seleziona una **Tabella** visualizzazione. Questa dovrebbe essere la visualizzazione predefinita, a meno che il tipo di record non sia stato visualizzato in un altro tipo di visualizzazione al momento dell&#39;ultimo accesso.
 
    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
 1. Fare clic all&#39;interno della riga di un record per iniziare a modificare le informazioni sul record in linea.
@@ -171,6 +144,16 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
 1. (Facoltativo) Fare doppio clic su un campo record connesso per aggiungere record o oggetti connessi a un altro record. Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/maestro/records/connect-records.md).
 1. Premi **Invio** sulla tastiera o fare clic all&#39;esterno di una riga per salvare le modifiche. Le modifiche vengono salvate automaticamente. A **Salvato** viene visualizzato brevemente nell&#39;angolo superiore destro della vista tabella per indicare che le modifiche sono state salvate.
+
+
+   <!--
+    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click on a record name. The **Details** box opens in the table. 
+        >[!TIP]
+        >
+        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
+    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
+    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+    -->
 
 1. (Facoltativo) Per copiare e incollare informazioni da un campo all&#39;altro, effettuare una delle seguenti operazioni:
 
@@ -204,3 +187,33 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
    >    È possibile utilizzare più volte le scelte rapide da tastiera in una riga per annullare più modifiche.
 
 1. (Facoltativo) Aggiungi una miniatura a un record. Per informazioni, consulta [Aggiungere una miniatura a un record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+
+
+### Modificare un record dalla pagina Dettagli del record
+
+<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Detais box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+
+{{step1-to-maestro}}
+
+Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
+
+1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
+1. Esegui una delle operazioni seguenti:
+
+   * Da un **Tabella** visualizzazione, fare clic sul nome di un record.
+   * Dalla sezione **Tabella** , passa il puntatore sul nome di un record, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Visualizza**
+
+     ![](assets/contextual-menu-for-record-row.png)
+   * In una visualizzazione Sequenza temporale, fare clic su una barra dei record.
+
+   Il record **Dettagli** viene visualizzata la pagina.
+
+1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del record, quindi fare clic su **Modifica**
+
+   Oppure
+
+   Fare clic all&#39;interno di un campo modificabile nella pagina Dettagli per modificare le informazioni.
+
+   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+
+1. Clic **Salva modifiche**. <!--logged a bug for this - this needs to be "Save"-->

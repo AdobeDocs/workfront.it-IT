@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '4316'
+source-wordcount: '4364'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,16 @@ Anteprima: da determinare
 
 Per ulteriori informazioni, consulta [Gestire la vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md).
 
+### Nuova vista calendario per i record
+
+Produzione: 7 marzo 2024
+
+Anteprima: da determinare
+
+È ora possibile visualizzare i record in una vista calendario. Per creare la visualizzazione calendario è necessario disporre di almeno due campi data in un tipo di record.
+
+Per ulteriori informazioni, consulta [Gestire la visualizzazione calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
 <!--
 ## Week of March 11, 2024
 
@@ -91,16 +101,6 @@ We have updated the look and feel of the views in the record type page. The new 
 For more information, see the following articles: 
 * [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
 * [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
-
-### New calendar view for records
-
-Production: March 14, 2024 
-
-Preview: To be determined 
-
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
-
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
 
 ### Allow System Administrators to manage all shared views 
 

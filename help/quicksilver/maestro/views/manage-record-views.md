@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 0%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
@@ -28,9 +28,9 @@ Dopo aver selezionato un tipo di record nell&#39;area delle funzionalità di pia
 
   Per ulteriori informazioni, consulta [Gestire la visualizzazione della timeline](../views/manage-the-timeline-view.md).
 
-<!--* Calendar 
+* Calendario
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+  Per ulteriori informazioni, consulta [Gestire la visualizzazione calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Requisiti di accesso
 
@@ -107,7 +107,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   >
   > Poiché le funzionalità di pianificazione di Adobe Workfront sono attualmente in stato beta, alcuni elementi della vista potrebbero non essere disponibili per tutte le viste.
 
-Questo articolo descrive le seguenti informazioni sulle visualizzazioni Maestro:
+Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
 
 * [Creare e modificare una vista](#create-or-edit-record-views)
 * [Eliminare una visualizzazione](#delete-views)
@@ -115,32 +115,32 @@ Questo articolo descrive le seguenti informazioni sulle visualizzazioni Maestro:
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [Condividere una visualizzazione](#share-a-view)
 
-## Somiglianze e differenze tra le viste tabella e timeline
+## Somiglianze e differenze tra le visualizzazioni record
 
-<!-- should we include Calendar here or remove this section???-->
-
-La tabella seguente mostra le somiglianze e le differenze tra le viste tabella e timeline in Maestro:
+La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, timeline e calendario:
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Funzionalità | Vista tabella | Vista Timeline |
-|-----------------------------------------------------------------------|------------|---------------|
-| Visualizzare i record in un elenco o in una tabella | ✓ |              |
-| Visualizza tutti i campi come colonne nella tabella per impostazione predefinita | ✓ |              |
-| Nascondere o mostrare campi o colonne | ✓ |               |
-| Modifica i valori dei campi per ogni record | ✓ |               |
-| Aggiungere record come nuove righe nella visualizzazione | ✓ |               |
-| Aggiungere campi come nuove colonne nella visualizzazione | ✓ |               |
-| Copiare le righe da un elenco esterno e incollarle in una tabella | ✓ |               |
-| Visualizzare i record in una timeline |            | ✓ |
-| Filtra record | ✓ | ✓ |
+| Funzionalità | Vista tabella | Vista Timeline | Vista calendario |
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| Visualizzare i record in un elenco o in una tabella | ✓ |              | |
+| Visualizza tutti i campi come colonne nella tabella per impostazione predefinita | ✓ |              |    |
+| Nascondere o mostrare campi o colonne | ✓ |               |    |
+| Modifica i valori dei campi per ogni record | ✓ |               |             |
+| Aggiungere record come nuove righe nella visualizzazione | ✓ |               |        |
+| Aggiungere campi come nuove colonne nella visualizzazione | ✓ |               |         |
+| Copiare le righe da un elenco esterno e incollarle in una tabella | ✓ |               |          |
+| Visualizzare i record in una timeline |            | ✓ |             |
+| Filtra record | ✓ | ✓ |           |
+| Visualizzare i record in un calendario |           |              | ✓ |
 | Raggruppa record | ✓ | ✓ |
 | Ordinare i record | ✓ |              |
-| Record codice colore |           | ✓ |
+| Record codice colore |           | ✓ | ✓ |
 | Raggruppamenti di codici colore |           | ✓ |
 | Cerca record specifici | ✓ | ✓ |
-| Condividi visualizzazione | ✓ | ✓ |
-| Aprire la pagina Dettagli del record dalla visualizzazione | ✓ | ✓ |
+| Condividi visualizzazione | ✓ | ✓ | ✓ |
+| Aprire la pagina Dettagli del record dalla visualizzazione | ✓ | ✓ |    |
+
 
 ## Creare o modificare le viste {#create-or-edit-views}
 
@@ -154,49 +154,62 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. Fai clic su **Visualizza** e selezionare un menu a discesa esistente **Vista tabella** ![](assets/table-view-icon.png) o fai clic su **Crea vista > Tabella** per creare una vista tabella
 
    Oppure
 
-   Seleziona un elemento esistente **Vista Timeline** ![](assets/timeline-view-icon.png) visualizzare o fare clic su **Crea vista > Timeline** per creare una vista timeline.
+   Seleziona un elemento esistente **Vista Timeline** ![](assets/timeline-view-icon.png) o fai clic su **Crea vista > Timeline** per creare una vista timeline.
+
+   Oppure
+
+   Seleziona un elemento esistente **Vista calendario** ![](assets/calendar-view-icon.png) o fai clic su **Crea vista > Calendario** per creare una vista calendario.
 
    ![](assets/view-types-drop-down-from-record-type-list.png)
 
    >[!NOTE]
    >
-   >    Per creare una visualizzazione timeline, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data. In caso contrario, l&#39;opzione Timeline (Timeline) è disattivata.
+   >    Per creare una visualizzazione timeline o calendario, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data. In caso contrario, le opzioni Timeline o Calendario risultano inattive.
 
-1. (Facoltativo) Aggiorna il nome della visualizzazione, quindi fai clic su **Crea** per salvare una vista tabella
+1. (Condizionale) Fai clic su **Successivo**, durante la creazione di una visualizzazione timeline o calendario.
 
-   Oppure fai clic su **Successivo**, durante la creazione di una timeline <!--or calendar--> visualizzazione.
+   Per impostazione predefinita, Workfront assegna alla visualizzazione uno dei seguenti nomi:
 
-   Per impostazione predefinita, Workfront nomina la vista &quot;Tabella &lt; numero >&quot; o &quot;Linea temporale &lt; numero >&quot;, <!--or "Calendar < number >"-->. Il numero è un incremento generato automaticamente.
+   * `Table < number >`
+   * `Timeline < number >`
+   * `Calendar < number >`
 
-1. (Condizionale) Seleziona le date di inizio e fine per i record che verranno visualizzati nella timeline <!--or calendar--> , quindi fai clic su **Crea**.
+   Il numero è un incremento generato automaticamente.
+
+1. (Condizionale) Seleziona il **Inizio** e **Date di fine** per i record che verranno visualizzati nella visualizzazione timeline o calendario.
+1. Fai clic su **Crea**.
+
+   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. (Facoltativo) Per rinominare una vista dopo la sua creazione, fai clic sul menu a discesa Vista, quindi fai clic su **Altro** menu ![](assets/more-menu.png) > **Rinomina** per aggiornare il nome della vista. <!--ensure there is not another saving step here?!-->
    <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Facoltativo) Per gestire un tipo specifico di visualizzazione, vedi i seguenti articoli:
 
    * [Gestire la vista tabella](../views/manage-the-table-view.md)
    * [Gestire la visualizzazione della timeline](../views/manage-the-timeline-view.md)
-     <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+   * [Gestire la visualizzazione calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## Eliminare le viste
@@ -211,7 +224,7 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. Fai clic sul menu a discesa delle viste, passa il puntatore del mouse su una delle viste nell’elenco, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) > **Elimina**.
 1. Clic **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
 

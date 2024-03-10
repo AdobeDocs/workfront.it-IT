@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
 workflow-type: tm+mt
-source-wordcount: '2051'
+source-wordcount: '1977'
 ht-degree: 1%
 
 ---
@@ -253,8 +253,8 @@ Di seguito sono riportati gli oggetti e i concetti principali relativi alle funz
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-  <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
-    ![](assets/calendar-view-example.png)-->
+   * **Vista calendario**: visualizza i record con almeno due campi di tipo Data in un formato calendario.
+     ![](assets/calendar-view-example.png)
 
 
 Per ulteriori informazioni, consulta [Gestire le visualizzazioni record](../maestro/views/manage-record-views.md).
@@ -300,17 +300,13 @@ Per individuare le funzionalità di pianificazione:
 
    1. Fare clic sul nome di un tipo di record per aprire la pagina del record. Per impostazione predefinita, la pagina record viene visualizzata nella vista Tabella.
 
-   1. Personalizzare la vista Tabella effettuando una delle seguenti operazioni:
+      È inoltre possibile creare una vista Timeline o Calendario.
 
-      * Aggiungere altri campi al tipo di record facendo clic sul pulsante **+** nell’angolo in alto a destra. Le colonne nella visualizzazione sono campi associati al tipo di record.
-      * Aggiungere record facendo clic sul pulsante **+** nell’angolo in basso a sinistra. Le righe nella visualizzazione sono record univoci del tipo di record selezionato.
-      * Clic **Filtri** per filtrare le informazioni visualizzate nella pagina tipo di record.
+   1. Nella vista tabella, iniziare ad aggiungere record aggiungendo righe
 
-   1. Fare clic sul nome di un record per visualizzare ulteriori informazioni nella pagina Dettagli del record.
+      Oppure
 
-   1. Creare una vista Timeline dalla **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
-
-   1. Personalizza la visualizzazione della timeline aggiornando Filtri, Raggruppamenti o Impostazioni.
+      Inizia ad aggiungere campi record aggiungendo colonne.
 
 ## Attività di rilascio delle funzionalità di pianificazione di Adobe Workfront
 
