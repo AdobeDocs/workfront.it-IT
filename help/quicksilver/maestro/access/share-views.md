@@ -1,0 +1,111 @@
+---
+title: Condividere le visualizzazioni
+description: Puoi condividere una visualizzazione con altri utenti per garantire la collaborazione quando utilizzi le funzionalità di pianificazione di Adobe Workfront.
+hidefromtoc: true
+hide: true
+recommendations: noDisplay, noCatalog
+source-git-commit: 023ca8c4e7c2dec2098390c1cda1e5b4eafbb840
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 1%
+
+---
+
+
+<!--update the metadata and description when we turn this article live-->
+
+# Condividere le visualizzazioni
+
+{{maestro-important-intro}}
+
+È possibile condividere una visualizzazione con altri utenti per garantire la collaborazione durante l&#39;utilizzo dei record nelle funzionalità di pianificazione di Adobe Workfront.
+
+La concessione di autorizzazioni a un&#39;area di lavoro non consente ad altri utenti di concedere autorizzazioni per le visualizzazioni nelle pagine dei tipi di record. È necessario concedere autorizzazioni alle singole visualizzazioni in una pagina di tipo record per condividerle con altri utenti.
+
+## Requisiti di accesso
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Prodotto</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
+   <td>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>piano Adobe Workfront</p></td>
+   <td>
+<p>Qualsiasi</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
+   <td>
+   <p>Qualsiasi</p> 
+  </td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
+   <td> Non sono presenti controlli di accesso per le funzionalità di pianificazione di Adobe Workfront</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
+   <td> <p>Gestire le autorizzazioni per una visualizzazione</p>  
+</td>
+  </tr>
+
+<tr>
+   <td role="rowheader"><p>Modello di layout</p></td>
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Maestro nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/maestro/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+## Condivisione delle autorizzazioni per una visualizzazione
+
+Puoi condividere le viste create o le viste per le quali disponi delle autorizzazioni di gestione.
+
+>[!NOTE]
+>
+>Gli amministratori di sistema non possono visualizzare o condividere viste che non hanno creato personalmente. Possono accedere o condividere solo le visualizzazioni condivise con loro.
+
+<!--for above note: System administrators can have only Manage permissions to a view.-->
+
+{{step1-to-maestro}}
+
+1. Aprire l&#39;area di lavoro di cui si desidera condividere la visualizzazione, quindi fare clic su una scheda del tipo di record.
+
+   Verrà aperta la pagina del tipo di record.
+
+1. Dal menu a discesa Vista <!--tab-->, passa il puntatore del mouse sulla visualizzazione da condividere e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
+
+   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+
+1. In **Concedi l’accesso in visualizzazione a** , inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell’elenco.
+
+   ![](assets/sharing-a-view-ui-with-groups.png)
+
+1. Seleziona uno dei seguenti livelli di autorizzazione dal menu a discesa:
+   * Visualizza
+   * Gestire
+
+     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Clic **Copia collegamento** per copiare negli Appunti un collegamento alla visualizzazione.
+1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
+1. Fai clic su **Salva**.
