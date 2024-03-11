@@ -6,10 +6,10 @@ description: È possibile creare ed eliminare modelli dall'area Modelli. Durante
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 094a54d2d1f6445aa9611152cb632d85be74bbeb
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -102,7 +102,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Per informazioni sulla modifica di un modello, consulta [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.
 1. (Facoltativo) Se desideri aggiungere altri elementi al modello, consulta la sezione [Aggiungere elementi aggiuntivi a un modello](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) nell’articolo [Modificare i modelli di progetto](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Impostazioni modello determinate dall&#39;associazione di gruppi

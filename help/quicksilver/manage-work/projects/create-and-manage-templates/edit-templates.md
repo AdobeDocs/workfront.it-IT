@@ -6,7 +6,7 @@ description: È possibile modificare i modelli di progetto per riflettere le mod
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '4710'
 ht-degree: 2%
@@ -1116,3 +1116,4 @@ Per disattivare un modello:
 1. (Facoltativo) Per attivare il modello, fai clic su **Altro** ![](assets/qs-more-icon-on-an-object.png) accanto al nome del modello, quindi fai clic su **Attiva**.
 
    Il modello è ora attivo e può essere allegato ai progetti o utilizzato per crearli.
+

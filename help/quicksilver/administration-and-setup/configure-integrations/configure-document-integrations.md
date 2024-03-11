@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 1%
@@ -87,6 +87,7 @@ Puoi configurare le seguenti integrazioni per la gestione dei documenti:
    * [!UICONTROL Unità Google]
 
      <!--Quip-->
+
   >[!TIP]
   >
   >Puoi verificare e approvare i documenti collegati da un provider cloud esterno nello stesso modo in cui esegui la verifica e l’approvazione dei documenti caricati direttamente in [!DNL Workfront].

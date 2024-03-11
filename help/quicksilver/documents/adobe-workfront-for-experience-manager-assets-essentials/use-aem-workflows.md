@@ -6,14 +6,16 @@ description: Utilizzare i flussi di lavoro nell’integrazione Experience Manage
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '1114'
 ht-degree: 0%
 
 ---
 
 # Utilizzare i flussi di lavoro nell’integrazione di Experience Manager Assets
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 Un flusso di lavoro è un insieme di azioni che collegano Workfront ad Adobe Experience Manager as a Cloud Service. Un amministratore di Workfront può configurare i flussi di lavoro in Workfront, quindi assegnarli a Modelli di progetto. Quando un progetto viene creato utilizzando un modello di progetto a cui è assegnato un flusso di lavoro, vengono attivate le azioni definite nel flusso di lavoro.
 
@@ -107,6 +109,10 @@ Puoi aggiungere un flusso di lavoro durante la creazione di un progetto o un flu
 
 ### Aggiungere un flusso di lavoro a un progetto esistente
 
+>[!NOTE]
+>
+>I flussi di lavoro eseguiti al momento della creazione di un progetto (ad esempio la creazione di una cartella collegata) non vengono eseguiti quando il modello viene allegato a un progetto esistente. Vengono eseguiti solo quando un progetto viene creato da un modello.
+
 1. Inizia ad aggiungere un modello al progetto.
 
    Per istruzioni, consulta [Allegare un modello a un progetto](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -116,9 +122,11 @@ Puoi aggiungere un flusso di lavoro durante la creazione di un progetto o un flu
 
    Solo i flussi di lavoro attivati nell’area Experience Manager di Configurazione sono disponibili nei modelli o nei progetti.
 
+
+
 ### Modificare i valori del flusso di lavoro in un progetto
 
-Puoi modificare i valori del flusso di lavoro a livello di progetto. I valori del flusso di lavoro a livello di progetto sostituiscono i valori impostati nel modello di progetto, che sostituiscono i valori predefiniti impostati nell’integrazione di Adobe Experience Manager Assets.
+Puoi modificare i valori del flusso di lavoro a livello di progetto. I valori del flusso di lavoro a livello di progetto sostituiscono i valori impostati nel modello di progetto, che sostituiscono i valori predefiniti impostati nell’integrazione Adobe Experience Manager Assets.
 
 Tutti i valori del flusso di lavoro sono disponibili in:
 
@@ -130,9 +138,17 @@ Tutti i valori del flusso di lavoro sono disponibili in:
   >
   >Se queste aree non sono visibili, l’amministratore di Workfront non ha abilitato i flussi di lavoro per la tua organizzazione.
 
+
+
 #### Cartelle collegate
 
+>[!NOTE]
+>
+>Poiché le cartelle collegate vengono create al momento della creazione del progetto, la modifica del flusso di lavoro delle cartelle collegate in un progetto esistente non è efficace. La modifica di questi valori durante la creazione di un progetto funziona come previsto.
+
 Per modificare il flusso di lavoro per le cartelle collegate:
+
+Nell’ambiente di produzione:
 
 1. Attiva/Disattiva **[!UICONTROL Crea cartella collegata]** acceso o spento come desiderato.
 1. (Condizionale) Se abiliti le cartelle collegate, scegli un percorso di cartella per indicare dove desideri che tutte le cartelle collegate siano associate a questa integrazione.
@@ -142,6 +158,31 @@ Per modificare il flusso di lavoro per le cartelle collegate:
 
    Se si è nel [!DNL Adobe Experience Manager area], le modifiche vengono salvate automaticamente. <!--Do they though?-->
 
+Nell’ambiente Sandbox di anteprima:
+
+<div class="preview">
+
+1. Attiva/disattiva **[!UICONTROL Crea cartella collegata]** acceso o spento come desiderato. Se si attiva questa funzione, è possibile modificare la configurazione della cartella collegata.
+
+   Per informazioni dettagliate sulla configurazione della cartella collegata, vedi [Creare cartelle collegate a Adobe Experience Manager](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) nell’articolo [Configurare [!UICONTROL Experience Manager Assets as a Cloud Service] integrazione](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. (Facoltativo) Se desideri che la struttura ad albero delle cartelle venga creata solo se determinati valori sono presenti in un modulo personalizzato allegato al progetto, fai clic sul pulsante **Applica filtro** per tale struttura di cartelle, selezionare il modulo personalizzato contenente il campo, il campo e il valore del campo. Se il campo del modulo personalizzato allegato al nuovo progetto contiene il valore scelto, verrà creata la struttura ad albero delle cartelle.
+1. (Facoltativo) Quando configuri i nomi delle cartelle, puoi scegliere tra le seguenti opzioni:
+
+   * **Nome**: digita un nome per la cartella.
+
+   * **Dati oggetto**: seleziona l’origine per il nome della cartella, ad esempio Nome progetto.
+
+   * **Dati modulo personalizzato**: seleziona i dati del modulo personalizzato da utilizzare come nome della cartella.
+
+     L’utilizzo dei dati del modulo personalizzato per i nomi delle cartelle è disponibile solo a livello di modello e non può essere configurato a livello di integrazione.
+
+     Se il nome di una cartella è impostato su dati personalizzati che non esistono nella cartella personalizzata associata al progetto, come nome della cartella verrà assegnato un ID casuale.
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+</div>
+
 
 #### Pubblicazione delle risorse
 
@@ -149,10 +190,4 @@ Per modificare il flusso di lavoro per la pubblicazione delle risorse:
 
 1. Attiva/Disattiva **Pubblicare automaticamente le risorse** acceso o spento come desiderato.
 1. (Condizionale) Se abiliti la pubblicazione, seleziona se desideri pubblicarla nel servizio di pubblicazione, nel portale del brand o in entrambi.
-1. Clic **[!UICONTROL Salva]** se si utilizza [!UICONTROL Crea progetto] o [!UICONTROL Modifica progetto] finestra.
-
-   Oppure
-
-   Se si è nel [!DNL Adobe Experience Manager area], le modifiche vengono salvate automaticamente. <!--Do they though?-->
-
-
+1. Fai clic su **[!UICONTROL Salva]**.

@@ -6,9 +6,9 @@ description: Puoi collegare il tuo lavoro con il contenuto in [!DNL Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
 workflow-type: tm+mt
-source-wordcount: '1384'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Configurare [!UICONTROL Experience Manager Assets as a Cloud Service] integrazione
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 >[!IMPORTANT]
 >
@@ -241,7 +243,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 Un flusso di lavoro è un insieme di azioni che collegano Workfront ad Adobe Experience Manager as a Cloud Service. In qualità di amministratore di Workfront, puoi configurare i flussi di lavoro in Workfront e quindi assegnarli a Modelli di progetto. Quando un progetto viene creato utilizzando un modello di progetto a cui è assegnato un flusso di lavoro, vengono attivate le azioni definite nel flusso di lavoro.
 
-I valori predefiniti del flusso di lavoro impostati nell’integrazione possono essere ignorati a livello di Modello del progetto e di Progetto.
+I flussi di lavoro sono abilitati e configurati per Adobe Experience Manager nel suo complesso. Questi flussi di lavoro possono quindi essere applicati ai modelli di progetto e modificati o personalizzati a livello di modello o di progetto.
 
 Nell’integrazione di Adobe Experience Manager sono disponibili i seguenti flussi di lavoro:
 
@@ -255,6 +257,46 @@ Nell’integrazione di Adobe Experience Manager sono disponibili i seguenti flus
    ![Navigazione cartelle collegate](assets/select-folder-aem-integration.png)
 1. Abilita **[!UICONTROL Aggiungi nomi Portfolio e programma]** per includere automaticamente i nomi di Portfolio e di programma alla fine del nome della cartella collegata.
 1. Clic **[!UICONTROL Salva]** o passare al [Pubblicare le risorse inviate ad Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in questo articolo.
+
+Nell’ambiente Sandbox di anteprima
+
+<div class="preview">
+
+1. Attiva/disattiva **[!UICONTROL Crea cartella collegata]** su.
+1. Immettere un nome per la cartella collegata che si sta creando.
+1. (Condizionale) Abilita **Struttura cartella predefinita** opzione se desideri che questa cartella collegata sia la cartella predefinita per i progetti creati con modelli che utilizzano questa integrazione. È possibile selezionare una o più cartelle predefinite.
+1. Scegli un percorso di cartella per indicare dove desideri che tutte le cartelle collegate siano associate a questa integrazione.
+1. (Condizionale) Per aggiungere una struttura di cartelle (cartelle nidificate) a questa integrazione, effettua le seguenti operazioni:
+
+   1. Fai clic su **Aggiungi cartella** icona ![Aggiungi cartella](assets/add-folder-aem.png).
+   1. In **Tipo di nome** , selezionare la modalità di denominazione della cartella:
+
+      * **Nome**: digita un nome per la cartella.
+      * **Dati oggetto**: seleziona l’origine per il nome della cartella, ad esempio Nome progetto.
+
+      >[!NOTE]
+      >
+      >* I nomi delle cartelle devono contenere meno di 100 caratteri.
+      >* I seguenti caratteri verranno rimossi dai nomi delle cartelle:
+      >
+      >   `/`, `:`, `[`, `]`, `|`, `*`
+
+   1. Per aggiungere una cartella nidificata alla struttura di cartelle, fai clic sul menu a tre punti accanto alla cartella in cui desideri creare una cartella nidificata e seleziona **Aggiungi cartella**. Compila i campi come descritto nel passaggio precedente.
+   1. Per collegare una cartella a Workfront, selezionala e fai clic su **Crea cartella collegata**   icona ![Collega cartella](assets/link-folder.png).
+   1. (Facoltativo) Per modificare una cartella, selezionala e fai clic su **Modifica cartella** icona ![Icona Modifica](assets/edit-icon.png).
+   1. (Facoltativo) Per eliminare una cartella, selezionala e fai clic su **Elimina cartella** icona ![Elimina cartella](assets/delete-folder.png).
+1. (Condizionale) Per aggiungere un&#39;altra struttura di cartelle, fai clic su **+ Aggiungi struttura cartelle** e seguire i passaggi descritti al punto 5.
+
+1. Clic **[!UICONTROL Salva]**, o passare alla [Pubblicare le risorse inviate ad Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in questo articolo.
+
+>[!NOTE]
+>
+>* Questa integrazione non creerà più di 100 cartelle, indipendentemente dal numero di strutture di cartelle create. Ad esempio, un’integrazione con 4 strutture di cartelle può creare fino a 100 cartelle, non 400.
+>* La prima cartella nella struttura delle cartelle viene automaticamente contrassegnata come collegata a Workfront. Se non desideri collegare questa cartella, puoi scollegarla.
+>* Se non viene fornita alcuna struttura di cartelle, la cartella principale diventa la cartella collegata.
+
+
+</div>
 
 ### Pubblicare le risorse inviate ad Adobe Experience Manager Assets
 
