@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: edc9d53152ea3828b04a0cd7c2bbb5cf48e541f6
+source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1507'
 ht-degree: 0%
 
 ---
@@ -167,6 +167,40 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>
            </tbody>
         </table>
+
+### Miglioramenti dell’integrazione
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+    <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti al flusso di lavoro per la creazione automatica delle cartelle nell’integrazione Adobe Experience Manager</a></p><span style="color: #ff0000;"> Novità in anteprima.</span><p>Per garantire che le cartelle di Adobe Experience Manager riflettano più accuratamente le tue esigenze, abbiamo aggiunto strutture di cartelle nidificate al flusso di lavoro delle cartelle collegate di Adobe Experience Manager.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 11 marzo 2024</p>
+                            </li>
+                             <li> <p><span class="preview">Rilascio trimestrale in produzione: 14 marzo 2024</span></p>
+                             </li>
+                        </ul>
+                    </td>
+                 </tr>          
+            </tbody>
+</table>
+
 
 ### Miglioramenti al progetto
 
