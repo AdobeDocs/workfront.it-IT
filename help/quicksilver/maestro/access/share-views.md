@@ -4,10 +4,10 @@ description: Puoi condividere una visualizzazione con altri utenti per garantire
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 023ca8c4e7c2dec2098390c1cda1e5b4eafbb840
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 1%
+source-wordcount: '497'
+ht-degree: 0%
 
 ---
 
@@ -109,3 +109,13 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
 1. Clic **Copia collegamento** per copiare negli Appunti un collegamento alla visualizzazione.
 1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
 1. Fai clic su **Salva**.
+
+## Rimuovere le autorizzazioni per una visualizzazione
+
+{{step1-to-maestro}}
+
+1. Aprire l&#39;area di lavoro di cui si desidera condividere la visualizzazione, quindi fare clic su una scheda del tipo di record. Verrà aperta la pagina del tipo di record.
+1. Dal menu a discesa della vista, passa il puntatore sulla vista da condividere e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
+1. Trova l’utente o il gruppo da rimuovere, quindi fai clic su **Rimuovi** nel menu a discesa autorizzazioni a destra del nome dell’utente o del gruppo.
+1. Clic **Salva**.
+L&#39;utente o gli utenti che appartengono al gruppo rimosso non hanno più accesso alla visualizzazione. Non esiste alcuna notifica per gli utenti che sono stati rimossi dall’accesso alla vista.

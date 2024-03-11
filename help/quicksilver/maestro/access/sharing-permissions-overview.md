@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 08a7fa1f3871494c4c6b0c385a98a64735b7f7e4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '507'
 ht-degree: 7%
 
 ---
@@ -44,7 +44,7 @@ In Maestro puoi condividere i seguenti oggetti:
 
 * Il tipo di licenza Adobe Workfront funziona in combinazione con le autorizzazioni Maestro per consentirti di visualizzare, contribuire o gestire oggetti Maestro.
 
-  Per informazioni sull&#39;effetto dei tipi di licenza sui livelli di autorizzazione per gli oggetti Maestro, vedere [Panoramica del tipo di licenza in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+  Per informazioni sull&#39;effetto dei tipi di licenza sui livelli di autorizzazione per gli oggetti Maestro, vedere [Panoramica del tipo di licenza quando si utilizzano le funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 * Gli amministratori di sistema possono gestire e condividere le aree di lavoro create da altri utenti.
 * Se non sei un amministratore di sistema, puoi contribuire alle aree di lavoro create da altri utenti se sono condivise con te.
 * Non è possibile condividere le aree di lavoro in blocco.
@@ -62,12 +62,12 @@ Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è
 >
 >Non tutti gli utenti possono disporre dei livelli di autorizzazione descritti di seguito. La licenza individuale degli utenti determina il livello di autorizzazioni che possono ricevere per gli oggetti Maestro.
 >
->Per informazioni, consulta [Panoramica del tipo di licenza in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+>Per informazioni, consulta [Panoramica del tipo di licenza quando si utilizzano le funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Autorizzazioni di Workspace
 
-|        | Gestisci | Contribuisci | Viste |
+|        | Gestire | Contribuisci | Viste |
 |--------|--------|------------|-------|
 | Modif | ✓ |            |       |
 | Condividi | ✓ |            |       |
@@ -78,7 +78,7 @@ Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è
 
 Le autorizzazioni del tipo di record vengono ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
 
-|        | Gestisci | Contribuisci | Visualizza |
+|        | Gestire | Contribuisci | Visualizza |
 |--------|--------|------------|-------|
 | Crea | ✓ |            |       |
 | Elimina | ✓ |            |       |
@@ -89,7 +89,7 @@ Le autorizzazioni del tipo di record vengono ereditate quando si concedono le au
 
 Le autorizzazioni dei record vengono ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
 
-|        | Gestisci | Contribuisci | Visualizza |
+|        | Gestire | Contribuisci | Visualizza |
 |--------|--------|------------|-------|
 | Crea | ✓ |            |       |
 | Elimina | ✓ | ✓ |       |
@@ -101,7 +101,7 @@ Le autorizzazioni dei record vengono ereditate quando si concedono le autorizzaz
 Le autorizzazioni per i campi vengono ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
 Le autorizzazioni seguenti fanno riferimento ai campi stessi e non ai valori associati a ciascun campo. Per modificare i valori dei campi è necessario disporre delle autorizzazioni per la modifica dei record.
 
-|        | Gestisci | Contribuisci | Visualizza |
+|        | Gestire | Contribuisci | Visualizza |
 |--------|--------|------------|-------|
 | Crea | ✓ |            |       |
 | Elimina | ✓ |            |       |
@@ -113,7 +113,7 @@ Le autorizzazioni seguenti fanno riferimento ai campi stessi e non ai valori ass
 
 È necessario concedere autorizzazioni separate alle visualizzazioni record. La concessione delle autorizzazioni all&#39;area di lavoro non consente di concedere le autorizzazioni alle visualizzazioni record nell&#39;area di lavoro.
 
-|        | Gestisci | Viste |
+|        | Gestire | Viste |
 |--------|--------|-------|
 | Modif | ✓ |       |
 | Elimina | ✓ |       |

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '4364'
+source-wordcount: '4374'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Anteprima: da determinare
 
 Sono stati modificati i livelli di autorizzazione per tenere conto dei tipi di licenza degli utenti. Prima di questo miglioramento, non vi erano differenze nelle autorizzazioni dell’area di lavoro in base ai tipi di licenza degli utenti.
 
-Le seguenti autorizzazioni ora funzionano insieme al tipo di licenza dell’utente:
+Di seguito sono riportati i livelli più elevati di autorizzazioni che gli utenti possono ricevere in base al tipo di licenza dell&#39;utente:
 
 * Gli utenti con una licenza Pianificazione (o Standard, nel nuovo modello di licenza) possono creare e gestire aree di lavoro, tipi di record e record.
 
@@ -156,7 +156,7 @@ Le seguenti autorizzazioni ora funzionano insieme al tipo di licenza dell’uten
 
 Per informazioni sul nuovo modello di licenza, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni sulla connessione tra il tipo di licenza e le autorizzazioni nelle funzionalità di pianificazione, consulta [Panoramica del tipo di licenza in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+Per informazioni sulla connessione tra il tipo di licenza e le autorizzazioni nelle funzionalità di pianificazione, consulta [Panoramica del tipo di licenza quando si utilizzano le funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nuovo aspetto della barra degli strumenti Testo formattato per i campi record

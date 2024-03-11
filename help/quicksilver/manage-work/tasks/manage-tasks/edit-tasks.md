@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
 workflow-type: tm+mt
-source-wordcount: '3712'
-ht-degree: 4%
+source-wordcount: '3729'
+ht-degree: 3%
 
 ---
 
@@ -89,6 +89,8 @@ Quando modifichi le attività, tieni presente quanto segue:
    * Modifica spese esistenti
    * Allegare un modulo personalizzato
 
+* Gli altri utenti devono aggiornare le proprie pagine prima di poter visualizzare gli aggiornamenti apportati a un&#39;attività.
+
 ## Modificare un’attività in un elenco
 
 È possibile modificare le informazioni sulle attività in un elenco di attività modificando i campi in linea visualizzati nella visualizzazione dell&#39;elenco.
@@ -122,7 +124,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
 
      I nomi dei moduli doganali vengono visualizzati solo se all’oggetto sono allegati moduli personalizzati.
 
-   * **Finanz**
+   * **Finanza**
 
    >[!NOTE]
    >
@@ -176,7 +178,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
    * [Panoramica](#overview)
    * [Assegnazioni](#assignments)
    * [Moduli personalizzati](#Custom%C2%A0F)
-   * [Finanz](#finance)
+   * [Finanza](#finance)
    * [Impostazioni](#settings)
 
    >[!NOTE]
@@ -238,16 +240,16 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <td role="rowheader">Vincolo attività</td> 
       <td> <p>Decidere quando l'attività deve essere completata specificando un vincolo attività. </p> <p>Selezionare una delle opzioni seguenti: </p> 
        <ul> 
-      <li> <p><span>Dati Fissi</span> </p> <p>Specifica un <strong>Inizio pianificato</strong> e un <strong>Data di completamento Pianificata</strong>. </p> </li> 
-      <li> <p><span>Deve ininziare al</span> </p> <p>Specifica un <strong>Data Inizio Pianificata</strong>. </p> </li> 
-      <li> <p><span>Deve Finire al</span> </p> <p>Specifica un <strong>Data di completamento Pianificata</strong>. </p> </li> 
+      <li> <p><span>Date Fisse</span> </p> <p>Specifica un <strong>Inizio pianificato</strong> e un <strong>Data di completamento Pianificata</strong>. </p> </li> 
+      <li> <p><span>Deve iniziare il</span> </p> <p>Specifica un <strong>Data Inizio Pianificata</strong>. </p> </li> 
+      <li> <p><span>Deve Finire il</span> </p> <p>Specifica un <strong>Data di completamento Pianificata</strong>. </p> </li> 
        </ul> 
        <ul> 
-      <li> <p><span>Il prima possibile</span></p> </li> 
+      <li> <p><span>Il Prima Possibile</span></p> </li> 
       <li> <p><span>Più tardi possibile</span></p> </li> 
       <li> <p><span>Primo Orario Disponibile</span></p> </li> 
       <li> <p> <span>Ultimo Orario Disponibile</span></p> </li> 
-      <li> <p><span>Iniziare non Dopo di</span> </p> </li> 
+      <li> <p><span>Iniziare Non Dopo Di</span> </p> </li> 
       <li> <p>Specifica una data di inizio pianificata</p> </li> 
       <li> <p><span>Iniziare non Prima di</span> </p> <p>Specifica un <strong>Data Inizio Pianificata</strong>. </p> </li> 
       <li> <p> Fine <span>Non oltre il</span></p> <p>Specifica un <strong>Data di completamento Pianificata</strong>. </p> </li> 
@@ -300,7 +302,7 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       </ul> 
       <p>Selezionare una delle opzioni seguenti:</p> 
       <ul> 
-      <li>Piccolo</li> 
+      <li>Piccola</li> 
       <li>Medio <span style="font-weight: normal;">(valore predefinito per una nuova attività)</span></li> 
       <li>Grande</li> 
       </ul> 
@@ -523,8 +525,8 @@ Potete modificare un&#39;attività in un elenco utilizzando il pannello Riepilog
       <li> <p>Ore Utente </p> </li> 
       <li> <p>Ore Ruolo </p> </li> 
       <li> <p>Ore Fisse </p> </li> 
-      <li> <p>Ore Utente w/Cap </p> </li> 
-      <li> <p>Ore Ruolo w/Cap </p> </li> 
+      <li> <p>Ore utente con limite </p> </li> 
+      <li> <p>Ore ruolo con limite </p> </li> 
       <li> <p>Ore Utente più Fisso </p> </li> 
       <li> <p>Ore Ruolo più Fisso </p> </li> 
       <li> <p>Reddito Fisso </p> </li> 
