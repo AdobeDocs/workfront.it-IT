@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1705'
 ht-degree: 0%
 
 ---
@@ -174,6 +174,8 @@ Quando si lavora con i filtri nella vista timeline, considera quanto segue:
 
   Per ulteriori informazioni, consulta la sezione &quot;Aggiungere filtri&quot; nell’articolo [Gestire la vista tabella](../views/manage-the-table-view.md).
 
+* È possibile filtrare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
+
 ### Aggiungi raggruppamento
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
@@ -190,6 +192,7 @@ Quando si lavora con i raggruppamenti nella vista timeline, tenete presente quan
 * I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni timeline dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa visualizzazione timeline visualizzano lo stesso raggruppamento attualmente applicato.
 * Non è possibile denominare i raggruppamenti creati per una vista timeline.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
+* È possibile raggruppare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
 
 Per aggiungere un raggruppamento nella vista timeline:
 

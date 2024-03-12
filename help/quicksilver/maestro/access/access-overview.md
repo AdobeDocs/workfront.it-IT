@@ -1,13 +1,13 @@
 ---
 title: Panoramica degli accessi
-description: Per utilizzare le funzionalità Adobe Maestro sono previste restrizioni relative alle licenze e alle autorizzazioni di condivisione.
+description: Per utilizzare le funzionalità di pianificazione di Adobe Workfront sono previste limitazioni relative alle licenze e alle autorizzazioni di condivisione.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Per utilizzare le funzionalità Adobe Maestro sono previste restrizioni relative alle licenze e alle autorizzazioni di condivisione.
+Per utilizzare le funzionalità di pianificazione di Adobe Workfront sono previste limitazioni relative alle licenze e alle autorizzazioni di condivisione.
 
 ## Requisiti di accesso
 
-Per utilizzare Adobe Maestro è necessario disporre delle seguenti impostazioni:
+Per utilizzare le funzionalità di pianificazione in Adobe Workfront è necessario disporre delle seguenti impostazioni:
 
 <table style="table-layout:auto">
  <col>
@@ -40,7 +40,7 @@ Per utilizzare Adobe Maestro è necessario disporre delle seguenti impostazioni:
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. </p>
    </td>
   </tr>
   <tr>
@@ -66,16 +66,17 @@ Per utilizzare Adobe Maestro è necessario disporre delle seguenti impostazioni:
   </tr>
   <tr>
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Non sono disponibili controlli del livello di accesso per gli oggetti Maestro</p>  
+   <td> <p>Non sono disponibili controlli del livello di accesso per gli oggetti delle funzionalità di pianificazione</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
    <td>
    <p>Autorizzazioni di Contribute o di livello superiore per aree di lavoro e visualizzazioni non create per modificarle, eliminarle e condividerle, nonché per creare, modificare o eliminare tipi di record e record.</p>
-    <p>Gli amministratori di sistema possono gestire le aree di lavoro e le visualizzazioni non create </p>
-   <p>Per informazioni sulle autorizzazioni di condivisione per gli oggetti Maestro, consulta  
-   <a href="../access/sharing-permissions-overview.md">Panoramica delle autorizzazioni di condivisione in Adobe Maestro</a> 
+    <p>Gli amministratori di sistema possono gestire le aree di lavoro che non hanno creato. </p>
+    <p>Gli amministratori di sistema non possono gestire le viste che non hanno creato. </p>
+   <p>Per informazioni sulle autorizzazioni di condivisione per gli oggetti delle funzionalità di pianificazione, vedere  
+   <a href="../access/sharing-permissions-overview.md">Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront</a> 
   </td>
   </tr>
 <tr>
@@ -93,7 +94,7 @@ Per utilizzare Adobe Maestro è necessario disporre delle seguenti impostazioni:
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.-->
 
-Dopo che la tua organizzazione è stata iscritta al programma beta Maestro, puoi aggiungere l’area Maestro al menu principale di tutti gli utenti utilizzando un modello di layout.
+Dopo che la tua organizzazione è stata iscritta al programma beta delle funzionalità di pianificazione di Workfront, puoi aggiungere l’area Maestro al menu principale di tutti gli utenti utilizzando un modello di layout.
 
 1. Accedi a **Workfront** come amministratore di Workfront.
 
@@ -101,7 +102,7 @@ Dopo che la tua organizzazione è stata iscritta al programma beta Maestro, puoi
 
    Per informazioni, consulta [Personalizzare il menu principale utilizzando un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Assegna il modello di layout agli utenti che desideri possano accedere a Maestro.
+1. Assegnare il modello di layout agli utenti che desiderano avere accesso alle funzionalità di pianificazione di Workfront.
 
    Per informazioni, consulta [Assegnare utenti a un modello di layout](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -111,20 +112,20 @@ Dopo che la tua organizzazione è stata iscritta al programma beta Maestro, puoi
 
 ## Concedi l’accesso
 
-Maestro non dispone di controlli di accesso.
+Non sono disponibili controlli di accesso per le funzionalità di pianificazione di Workfront.
 
-Gli utenti con qualsiasi tipo di licenza possono accedere a Maestro.
+Gli utenti con qualsiasi tipo di licenza possono accedere alle funzionalità di pianificazione di Workfront.
 
 Per informazioni sulla concessione dell’accesso in Workfront, consulta [Creare e modificare livelli di accesso personalizzati](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Concedere le autorizzazioni
 
-È necessario concedere agli utenti che non sono amministratori di sistema le autorizzazioni per le aree di lavoro e le visualizzazioni create per consentire loro di accedervi.
+È necessario concedere agli utenti le autorizzazioni per le aree di lavoro e le visualizzazioni create per consentire loro di accedervi.
 
-Per ulteriori informazioni, consulta [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+Per ulteriori informazioni, consulta [Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
 
-Il tipo di licenza Adobe Workfront funziona in combinazione con le autorizzazioni Maestro per consentirti di visualizzare, contribuire o gestire oggetti Maestro.
+Il tipo di licenza Adobe Workfront funziona in combinazione con le autorizzazioni delle funzionalità di pianificazione per consentire l’accesso alla visualizzazione, al contributo o alla gestione degli oggetti delle funzionalità di pianificazione.
 
-Per informazioni sull&#39;effetto dei tipi di licenza sui livelli di autorizzazione per gli oggetti Maestro, vedere [Panoramica del tipo di licenza quando si utilizzano le funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+Per informazioni sull&#39;effetto dei tipi di licenza sui livelli di autorizzazione per gli oggetti delle funzionalità di pianificazione, vedere [Panoramica del tipo di licenza quando si utilizzano le funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 

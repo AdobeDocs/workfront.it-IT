@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4391'
 ht-degree: 0%
 
 ---
@@ -133,6 +133,8 @@ Produzione: 28 febbraio 2024
 Anteprima: da determinare
 
 È ora possibile filtrare, ordinare e raggruppare in base ai record connessi o ai relativi campi di ricerca. Questo miglioramento consente di organizzare e visualizzare in modo efficiente i dati sia nelle viste tabella che nella timeline.
+
+Non è possibile filtrare, ordinare o raggruppare per campi di ricerca che consentono connessioni con più record.
 
 Per informazioni, consulta [Gestire la vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md) e [Gestire la visualizzazione della timeline](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
@@ -296,7 +298,7 @@ Di seguito sono riportati i livelli di autorizzazione per le visualizzazioni rec
 * Visualizza: gli utenti possono selezionare la visualizzazione dal menu a discesa Visualizza di una pagina del tipo di record.
 * Gestisci: gli utenti possono modificare, condividere ed eliminare la visualizzazione.
 
-Per ulteriori informazioni, consulta [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md) e [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+Per ulteriori informazioni, consulta [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md) e [Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront](../maestro/access/sharing-permissions-overview.md).
 
 ### Nuovo tipo di campo Formula
 

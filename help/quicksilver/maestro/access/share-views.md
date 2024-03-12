@@ -4,9 +4,9 @@ description: Puoi condividere una visualizzazione con altri utenti per garantire
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Autorizzazioni oggetto</p></td>
-   <td> <p>Gestire le autorizzazioni per una visualizzazione</p>  
+   <td> <p>Gestire le autorizzazioni per una visualizzazione</p>
+
 </td>
   </tr>
 
@@ -85,7 +86,7 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
 >
 >Gli amministratori di sistema non possono visualizzare o condividere viste che non hanno creato personalmente. Possono accedere o condividere solo le visualizzazioni condivise con loro.
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -105,7 +106,7 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
    * Visualizza
    * Gestire
 
-     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione in Adobe Maestro](../access/sharing-permissions-overview.md).
+     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront](../access/sharing-permissions-overview.md).
 1. Clic **Copia collegamento** per copiare negli Appunti un collegamento alla visualizzazione.
 1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
 1. Fai clic su **Salva**.

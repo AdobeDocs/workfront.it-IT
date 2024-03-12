@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '2337'
+source-wordcount: '2400'
 ht-degree: 3%
 
 ---
@@ -109,7 +109,7 @@ Per gestire una vista tabella:
    * [Righe (o record)](#add-rows-or-records)
    * [Filtri](#add-filters)
    * [Raggruppamento](#add-groupings)
-   * [Ordina](#sort-information)
+   * [Ordina](#add-a-sort)
 
 
 ### Aggiungi colonne (o campi) {#add-columns}
@@ -261,6 +261,8 @@ Quando si lavora con i filtri nella vista a tabella, considera quanto segue:
 
 * L’aggiunta di filtri alla vista tabella è identica all’aggiunta di filtri alla vista timeline.
 
+* È possibile filtrare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
+
 Per aggiungere un filtro a una vista tabella:
 
 1. Creare una visualizzazione tabella per una pagina del tipo di record, come descritto nell&#39;articolo [Gestire le visualizzazioni record](../views/manage-record-views.md).
@@ -369,6 +371,7 @@ Considera quanto segue:
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
 * È possibile modificare i record elencati in un raggruppamento.
+* È possibile raggruppare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -422,6 +425,8 @@ Quando si ordinano i record nella vista tabella, tenere presente quanto segue:
 * I campi collegati possono essere ordinati solo se consentono valori singoli o se consentono la selezione multipla di valori con l&#39;opzione di riepilogo selezionata (somma, media, massimo, minimo).
 
 * Se si rimuovono i criteri di ordinamento, questi verranno rimossi da chiunque acceda allo stesso tipo di record utilizzato e utilizzerà la stessa visualizzazione utilizzata.
+
+* È possibile ordinare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
 
 Per ordinare <!--ungrouped (add this when sorting for groupings will be available--> eseguire le operazioni seguenti:
 

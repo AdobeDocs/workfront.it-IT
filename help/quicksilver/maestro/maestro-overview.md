@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '1977'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
@@ -215,7 +215,7 @@ Di seguito sono riportati gli oggetti e i concetti principali relativi alle funz
 
    * Due tipi di record di capacità di pianificazione.
    * Un tipo di record di capacità di pianificazione e un tipo di oggetto progetto, programma, portfolio, società o gruppo di Workfront.
-   * Un tipo di record della funzionalità di pianificazione e una risorsa, cartella o raccolta Adobe Experience Manager.
+   * Un tipo di record della funzionalità di pianificazione e una risorsa o cartella Adobe Experience Manager.
 
      È necessario disporre di una licenza Adobe Experience Manager per collegare i tipi di record agli oggetti Experienci Manager.
 

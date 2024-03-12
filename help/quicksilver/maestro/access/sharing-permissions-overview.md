@@ -1,13 +1,13 @@
 ---
-title: Panoramica delle autorizzazioni di condivisione in Adobe Maestro
+title: Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront
 description: Puoi condividere o rimuovere le autorizzazioni per un’area di lavoro o una visualizzazione Adobe Maestro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '531'
 ht-degree: 7%
 
 ---
@@ -16,13 +16,13 @@ ht-degree: 7%
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
-# Panoramica delle autorizzazioni di condivisione in Adobe Maestro
+# Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront
 
 {{maestro-important-intro}}
 
-Puoi condividere o rimuovere le autorizzazioni per un’area di lavoro o una visualizzazione Adobe Maestro.
+Puoi condividere o rimuovere le autorizzazioni per un’area di lavoro o una visualizzazione quando utilizzi le funzionalità di pianificazione di Adobe Workfront.
 
-Questo articolo descrive i livelli di autorizzazione per gli oggetti Maestro.
+Questo articolo descrive i livelli di autorizzazione per gli oggetti delle funzionalità di pianificazione.
 
 Per informazioni su come condividere aree di lavoro o visualizzazioni, vedere i seguenti articoli:
 
@@ -30,9 +30,9 @@ Per informazioni su come condividere aree di lavoro o visualizzazioni, vedere i 
 
 * [Condividere le visualizzazioni](/help/quicksilver/maestro/access/share-views.md)
 
-## Oggetti che puoi condividere in Adobe Maestro
+## Oggetti che puoi condividere nelle funzionalità di pianificazione di Adobe Workfront
 
-In Maestro puoi condividere i seguenti oggetti:
+È possibile condividere i seguenti oggetti:
 
 * Aree di lavoro
 
@@ -40,27 +40,27 @@ In Maestro puoi condividere i seguenti oggetti:
 
 * Viste
 
-## Considerazioni sulla condivisione di oggetti in Maestro
+## Considerazioni sulla condivisione di oggetti nelle funzionalità di pianificazione di Adobe Workfront
 
-* Il tipo di licenza Adobe Workfront funziona in combinazione con le autorizzazioni Maestro per consentirti di visualizzare, contribuire o gestire oggetti Maestro.
+* Il tipo di licenza di Adobe Workfront funziona insieme alle autorizzazioni di per consentire l’accesso alla visualizzazione, al contributo o alla gestione degli oggetti quando si utilizzano le funzionalità di pianificazione.
 
-  Per informazioni sull&#39;effetto dei tipi di licenza sui livelli di autorizzazione per gli oggetti Maestro, vedere [Panoramica del tipo di licenza quando si utilizzano le funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+  Per informazioni sull&#39;effetto dei tipi di licenza sui livelli di autorizzazione per gli oggetti delle funzionalità di pianificazione, vedere [Panoramica del tipo di licenza quando si utilizzano le funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 * Gli amministratori di sistema possono gestire e condividere le aree di lavoro create da altri utenti.
 * Se non sei un amministratore di sistema, puoi contribuire alle aree di lavoro create da altri utenti se sono condivise con te.
 * Non è possibile condividere le aree di lavoro in blocco.
-* Potete condividere un&#39;area di lavoro con le seguenti entità:
+* Potete condividere un workspace o una vista con le seguenti entità:
    * Utenti
    * Gruppi
-* Gli altri utenti, inclusi gli amministratori di sistema, possono accedere solo alle visualizzazioni create o condivise con loro.
+* Gli altri utenti, inclusi gli amministratori di sistema, possono accedere solo alle visualizzazioni create o condivise con loro. <!--System administrators can only be given permissions to Manage a view.-->
 * È possibile condividere con altri utenti un collegamento a un&#39;area di lavoro o a una visualizzazione da una pagina del tipo di record. Per poter accedere all&#39;area di lavoro o alla pagina del tipo di record visualizzata nella vista selezionata, gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront.
 
-## Condivisione delle autorizzazioni per gli oggetti Maestro
+## Condivisione delle autorizzazioni per gli oggetti delle funzionalità di pianificazione di Adobe Workfront
 
-Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è possibile selezionare quando si condivide un&#39;area di lavoro o una visualizzazione Maestro e le funzionalità consentite da ogni livello.
+Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è possibile selezionare quando si condivide un&#39;area di lavoro o una visualizzazione e le funzionalità consentite da ogni livello.
 
 >[!IMPORTANT]
 >
->Non tutti gli utenti possono disporre dei livelli di autorizzazione descritti di seguito. La licenza individuale degli utenti determina il livello di autorizzazioni che possono ricevere per gli oggetti Maestro.
+>Non tutti gli utenti possono disporre dei livelli di autorizzazione descritti di seguito. La licenza individuale degli utenti determina il livello di autorizzazioni che possono ricevere per gli oggetti delle funzionalità di pianificazione.
 >
 >Per informazioni, consulta [Panoramica del tipo di licenza quando si utilizzano le funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
