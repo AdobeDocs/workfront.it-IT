@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1292'
 ht-degree: 3%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 3%
 > * Pannello Riepilogo nelle schede orario
 > * Pannello Summary (Riepilogo) nel Bilanciatore dei carichi di lavoro
 >
-><span class="preview">La nuova esperienza di aggiunta di commenti è disponibile nel pannello Riepilogo in elenchi, schede orario e nel Bilanciatore dei carichi di lavoro nell’ambiente di anteprima.</span>
+><span class="preview">La nuova esperienza di aggiunta di commenti è disponibile nel pannello Riepilogo in elenchi, schede orario e nel Bilanciatore dei carichi di lavoro nell’ambiente di anteprima.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 ## Panoramica della sezione Aggiornamenti
 
@@ -56,13 +56,9 @@ La sezione Aggiornamenti di un oggetto mostra gli aggiornamenti di sistema e fin
 
 <div class="preview">
 
-Esempio della sezione Aggiornamenti nell’ambiente di anteprima:
 ![Sezione Aggiornamenti](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 </div>
-
-Esempio della sezione Aggiornamenti nell’ambiente di produzione:
-![Sezione Aggiornamenti](assets/updates-tab-after-unified-experience-for-issues.png)
 
 A seconda degli oggetti per i quali accedi all’esperienza di commento, per la sezione Aggiornamenti potresti trovare la seguente esperienza:
 
@@ -104,13 +100,9 @@ A seconda degli oggetti per i quali accedi all’esperienza di commento, per la 
 
 <div class="preview">
 
-Esempio della sezione Aggiornamenti nell’ambiente di anteprima:
 ![Sezione Aggiornamenti](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 </div>
-
-Esempio della sezione Aggiornamenti nell’ambiente di produzione:
-![Sezione Aggiornamenti](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >

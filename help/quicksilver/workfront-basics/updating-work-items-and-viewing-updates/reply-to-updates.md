@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 > * Pannello Riepilogo nelle schede orario
 > * Pannello Summary (Riepilogo) nel Bilanciatore dei carichi di lavoro
 >
-><span class="preview">La nuova esperienza di aggiunta di commenti è disponibile nel pannello Riepilogo in elenchi, schede orario e nel Bilanciatore dei carichi di lavoro nell’ambiente di anteprima.</span>
+><span class="preview">La nuova esperienza di aggiunta di commenti è disponibile nel pannello Riepilogo in elenchi, schede orario e nel Bilanciatore dei carichi di lavoro nell’ambiente di anteprima.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Quando qualcuno risponde a un commento o a un aggiornamento di sistema su un oggetto di lavoro, la risposta viene visualizzata nel thread di comunicazione nella sezione Aggiornamenti dell’oggetto.
 
@@ -99,11 +99,11 @@ La risposta a un commento o a una risposta varia a seconda dell’esperienza e d
 Per informazioni sulle funzioni disponibili nella nuova esperienza di commento e sugli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 1. Passare all&#39;oggetto a cui si desidera aggiungere una risposta.
-1. Clic **Aggiornamenti**, quindi fare clic su **Commenti** e trovare il commento o la risposta a cui si desidera rispondere.
+1. Clic **Aggiornamenti**, quindi fare clic su **Commenti** scheda per l&#39;oggetto e trovare il commento o la risposta a cui si desidera rispondere
 
-   >[!NOTE]
-   >
-   ><span class="preview">Per rispondere a un commento nella scheda Tutto, fare clic su **Rispondi nei commenti** per aprire il commento nella scheda Commenti. Non è possibile rispondere nella scheda Tutto.</span>
+   Oppure
+
+   <span class="preview">Fai clic su **Tutti** , quindi fai clic su **Rispondi nei commenti** per aprire il commento nella scheda Commenti e rispondere. Non è possibile rispondere nella scheda Tutto.</span>
 
 1. (Facoltativo) Per includere nella risposta il testo di un aggiornamento precedente, fare clic sul pulsante **Altro** nell’angolo superiore destro del commento a cui desideri rispondere, quindi fai clic su **Risposta preventivo**. Il testo dell&#39;aggiornamento precedente viene visualizzato nell&#39;area di input, contrassegnato da una linea grigia verticale.
 1. Clic **Rispondi**.

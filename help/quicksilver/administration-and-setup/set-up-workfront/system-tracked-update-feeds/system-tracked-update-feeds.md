@@ -9,16 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
 
 # Aggiornamenti monitorati dal sistema
 
-{{highlighted-preview}}
+<span class="preview">Le informazioni evidenziate in questa pagina sono disponibili solo nell’ambiente di anteprima.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -88,11 +88,11 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Di seguito sono riportate le differenze tra la nuova esperienza di commento e quella precedente:
 
-   * Quando si utilizza la nuova esperienza di inserimento di commenti, gli aggiornamenti utente vengono visualizzati nella scheda Commenti e gli aggiornamenti di sistema nella scheda Attività di sistema.
+   * Quando si utilizza la nuova esperienza di inserimento di commenti, gli aggiornamenti utente vengono visualizzati nella scheda Commenti e gli aggiornamenti di sistema nella sezione Attività del sistema <span class="preview">e tutti</span> schede.
 
      Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi [Nuova esperienza di commento](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-   * <span class="preview">Quando si utilizza la nuova esperienza di aggiunta di commenti, gli utenti non possono aggiungere un commento a un aggiornamento del sistema. Tuttavia, tutte le risposte ai record di attività del sistema nell’esperienza di commento legacy vengono popolate nella scheda Attività del sistema come di sola lettura nella nuova esperienza di commento.</span>
+   * <span class="preview">Quando si utilizza la nuova esperienza di aggiunta di commenti, non è possibile aggiungere un commento a un aggiornamento del sistema. Tuttavia, tutte le risposte ai record di attività del sistema nell’esperienza di commento legacy vengono popolate nella scheda Attività del sistema come di sola lettura nella nuova esperienza di commento.</span>
    * Quando si utilizza l’esperienza di commento legacy, gli aggiornamenti di sistema e utente vengono visualizzati in un unico feed continuo.
 
    * Quando si utilizza l’esperienza di commento legacy, gli utenti possono visualizzare gli aggiornamenti di sistema per impostazione predefinita o scegliere di non visualizzarli. Non è possibile disabilitare gli aggiornamenti di sistema quando si utilizza la nuova esperienza di aggiunta di commenti.

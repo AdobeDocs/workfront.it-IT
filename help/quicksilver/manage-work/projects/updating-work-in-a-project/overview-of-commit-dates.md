@@ -7,14 +7,16 @@ description: La data di conferma è la data entro la quale un utente assegnato a
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
 
 # Panoramica sulla data di conferma
+
+<span class="preview">Le informazioni evidenziate sono disponibili solo nell’ambiente di anteprima.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 La data di conferma è la data entro la quale un utente assegnato a un’attività o a un problema si impegna a completare l’attività o il problema. Questa è diversa dalla Data di completamento pianificata, in quanto è una stima più realistica della data di completamento fornita solo dall’utente responsabile del lavoro. Per informazioni sulla data di completamento pianificata, vedi [Panoramica della data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -55,7 +57,7 @@ L’impostazione della data di conferma per un’attività o un problema attiva 
 
 * La Data impegno viene inserita nel flusso di aggiornamento dell’attività o del problema.
 
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
 
   La modifica della data di conferma viene visualizzata nell’area Aggiornamenti dell’attività o del problema quando l’amministratore di Workfront abilita questo aggiornamento nell’area Feed aggiornamenti in Configurazione. Per informazioni, consulta [Aggiornamenti monitorati dal sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 

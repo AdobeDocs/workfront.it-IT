@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 1%
+source-wordcount: '470'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Puoi eliminare i record che non sono più rilevanti in Adobe Maestro.
+Puoi eliminare i record che non sono più rilevanti nelle funzionalità di pianificazione di Adobe Workfront.
 
 ## Requisiti di accesso
 
@@ -39,7 +39,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non ci sono controlli del livello di accesso per Maestro </p>  
+   <td> <p>Non sono disponibili controlli del livello di accesso per le funzionalità di pianificazione di Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -90,7 +90,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Se i record eliminati sono collegati ad altri record, i record collegati non vengono eliminati, ma vengono eliminate anche le informazioni del record eliminato.
 * Non è possibile eliminare i record in blocco. <!--this will probably change-->
 * Non è possibile eliminare record dalla visualizzazione timeline.
-* Impossibile eliminare un tipo di record collegato da un&#39;altra applicazione. Se ad esempio si collega un record Maestro a un oggetto Workfront, non è possibile eliminare l&#39;oggetto Workfront dalla pagina di registrazione dell&#39;oggetto Workfront.
 
 ## Elimina record
 
@@ -132,12 +131,16 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 1. Selezionare un tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Da **Visualizza** nell&#39;angolo superiore destro della tabella, selezionare una vista Tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
+1. (Condizionale) Da **Visualizza** selezionare una vista Tabella dall&#39;angolo superiore sinistro della tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.
 
    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
-1. Fare clic con il pulsante destro del mouse su una riga di record, quindi scegliere **Elimina**.
+1. Esegui una delle operazioni seguenti:
+
+   * Fare clic con il pulsante destro del mouse su una riga di record, quindi scegliere **Elimina**.
+   * Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del record, quindi fare clic su **Elimina**
 
    ![](assets/contextual-menu-for-record-row.png)
+   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
 
    Il record viene eliminato e non può essere recuperato.
 

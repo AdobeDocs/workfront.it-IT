@@ -7,16 +7,16 @@ description: Questo articolo descrive il layout delle schede orario in Adobe Wor
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: 48ac3bd727787ed214b87342ab60e844f342d0b8
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1059'
 ht-degree: 1%
 
 ---
 
 # Panoramica del layout della scheda orario
 
-{{highlighted-preview}}
+<span class="preview">Le informazioni evidenziate sono disponibili solo nell’ambiente di anteprima.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- Audited: 12/2023 -->
 
@@ -123,13 +123,9 @@ Questa area contiene anche informazioni sull’ultimo salvataggio della scheda o
 
 <div class="preview">
 
-Esempio nell’ambiente di anteprima:
 ![Area Aggiornamenti nel pannello Timesheet a sinistra](assets/timesheet-updates-with-all-tab.png)
 
 </div>
-
-Esempio nell’ambiente di produzione:
-![Area Aggiornamenti nel pannello Timesheet a sinistra](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 È possibile aggiungere commenti a una scheda orario per comunicare con gli approvatori della scheda orario o altri utenti nella sezione Aggiornamenti nel pannello sinistro della scheda orario.
 
@@ -139,13 +135,9 @@ Eventuali commenti aggiunti alla scheda orario vengono visualizzati in quest&#39
 
 <div class="preview">
 
-Esempio nell’ambiente di anteprima:
 ![Pannello Riepilogo](assets/timesheet-summary-panel-on-updates.png)
 
 </div>
-
-Esempio nell’ambiente di produzione:
-![Pannello Riepilogo](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 Puoi accedere al pannello Riepilogo per le attività o i problemi visualizzati in una scheda orario. Da qui puoi aggiungere commenti ad attività e problemi, o aggiornarne le informazioni. Per ulteriori informazioni, consulta [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

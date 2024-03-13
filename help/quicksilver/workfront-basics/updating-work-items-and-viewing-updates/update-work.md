@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d76ab0e165d280f84718b52cc72a9b4c152a0897
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '4279'
+source-wordcount: '4249'
 ht-degree: 1%
 
 ---
@@ -48,7 +48,7 @@ After the monthly releases to Production, the same features are also available i
 > * Pannello Riepilogo nelle schede orario
 > * Pannello Summary (Riepilogo) nel Bilanciatore dei carichi di lavoro
 >
-><span class="preview">La nuova esperienza di aggiunta di commenti è disponibile nel pannello Riepilogo in elenchi, schede orario e nel Bilanciatore dei carichi di lavoro nell’ambiente di anteprima.</span>
+><span class="preview">La nuova esperienza di aggiunta di commenti è disponibile nel pannello Riepilogo in elenchi, schede orario e nel Bilanciatore dei carichi di lavoro nell’ambiente di anteprima.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -243,13 +243,10 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 
    <div class="preview">
 
-   Esempio di nuova casella di commento nell’ambiente di anteprima:
    ![Casella Nuovo commento](assets/comment-box-all-tabs.png)
 
    </div>
 
-   Esempio di nuova casella di commento nell’ambiente di produzione:
-   ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
@@ -446,13 +443,9 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
 
    <div class="preview">
 
-   Esempio di ricerca nell’ambiente di anteprima:
    ![Cerca negli aggiornamenti](assets/updates-all-tabs-with-search-field.png)
 
    </div>
-
-   Esempio di ricerca nell’ambiente di produzione:
-   ![](assets/search-field-in-updates-tab.png)
 
    Parola chiave <!--or user--> La ricerca è evidenziata e i commenti che la contengono vengono visualizzati nella parte superiore della sezione Aggiornamenti.
 

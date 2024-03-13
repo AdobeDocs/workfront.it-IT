@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 2c630ad348955380620eef073b0c7dde81d11835
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '857'
 ht-degree: 1%
 
 ---
@@ -161,14 +161,17 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
     * Timeline
     * Calendar
 
+    A new tab is created with the selected view. 
+
+    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
+-->
+
 >[!TIP]
 >
->When you create a record type, the table view is also created by default. 
+>Quando si crea un tipo di record, per impostazione predefinita viene creata anche la vista tabella.
 >
->To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>Per creare una visualizzazione timeline o calendario, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data. In caso contrario, le opzioni Timeline (Timeline) e Calendario (Calendar) vengono disattivate.
 >
->(*********remove the step below and replace the screen shot when calendar view releases*********)
--->
 
 1. Fai clic su **Visualizza** e selezionare un menu a discesa esistente **Vista tabella** ![](assets/table-view-icon.png) o fai clic su **Crea vista > Tabella** per creare una vista tabella
 
@@ -224,7 +227,9 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
+<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
+First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+
 1. Fai clic sul menu a discesa delle viste, passa il puntatore del mouse su una delle viste nell’elenco, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) > **Elimina**.
 1. Clic **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
 

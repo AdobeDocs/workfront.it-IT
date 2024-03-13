@@ -6,9 +6,9 @@ description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: d86b1d5fb6fcfeddccfb079f3040f1ddfe29e71d
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 > * Pannello Riepilogo nelle schede orario
 > * Pannello Summary (Riepilogo) nel Bilanciatore dei carichi di lavoro
 >
-><span class="preview">La nuova esperienza di aggiunta di commenti è disponibile nel pannello Riepilogo in elenchi, schede orario e nel Bilanciatore dei carichi di lavoro nell’ambiente di anteprima.</span>
+><span class="preview">La nuova esperienza di aggiunta di commenti è disponibile nel pannello Riepilogo in elenchi, schede orario e nel Bilanciatore dei carichi di lavoro nell’ambiente di anteprima.</span><!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 È possibile assegnare tag agli utenti quando si esegue un aggiornamento a un oggetto se si desidera attirare la loro attenzione su un oggetto che altrimenti potrebbero non seguire.
 
@@ -133,13 +133,9 @@ Puoi assegnare tag ad altri utenti per gli aggiornamenti nella nuova esperienza 
 
    <div class="preview">
 
-   Esempio di assegnazione tag nell’ambiente di anteprima:
    ![Assegnare tag a un utente](assets/tag-others-unified-commenting-with-all-tab.png)
 
    </div>
-
-   Esempio di assegnazione tag nell’ambiente di produzione:
-   ![](assets/tag-others-unified-commenting.png)
 
 1. (Facoltativo) Per rendere l’aggiornamento privato, abilita **Privato per la mia azienda** nell&#39;angolo inferiore destro della casella di aggiornamento. In questo modo l’aggiornamento è visibile solo agli utenti della tua azienda. Il **Privato per la mia azienda** L’opzione è disponibile solo quando una società è specificata nel tuo profilo Workfront.
 
@@ -161,7 +157,7 @@ Puoi assegnare tag ad altri utenti per gli aggiornamenti nella nuova esperienza 
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">Quando si viene taggati nel testo del commento, il nome utente viene evidenziato in tali commenti.</span>
+   <span class="preview">Quando si viene taggati nel testo del commento, il proprio nome viene evidenziato in tali commenti.</span>
 
    Per informazioni sulle funzionalità aggiuntive disponibili durante l&#39;aggiornamento di un elemento di lavoro, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

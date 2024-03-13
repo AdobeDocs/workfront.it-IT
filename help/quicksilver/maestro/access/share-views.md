@@ -4,7 +4,7 @@ description: Puoi condividere una visualizzazione con altri utenti per garantire
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 0%
@@ -107,6 +107,9 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
    * Gestire
 
      Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront](../access/sharing-permissions-overview.md).
+
+     <!--System administrators always receive Manage permissions to views shared with them.-->
+
 1. Clic **Copia collegamento** per copiare negli Appunti un collegamento alla visualizzazione.
 1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
 1. Fai clic su **Salva**.

@@ -7,16 +7,16 @@ description: Il Riepilogo consente di interagire con informazioni importanti dir
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 2%
 
 ---
 
 # Panoramica del riepilogo dei documenti
 
-{{highlighted-preview}}
+<span class="preview">Le informazioni evidenziate in questa pagina sono disponibili solo nell’ambiente di anteprima.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 Il Riepilogo consente di interagire con informazioni importanti direttamente dall&#39;elenco dei documenti.
 
@@ -67,7 +67,7 @@ Utilizza la sezione Dettagli per visualizzare informazioni generali di alto live
 * [Panoramica](#overview)
 * [Moduli personalizzati](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
 
 ### Panoramica {#overview}
 
@@ -79,7 +79,7 @@ Espandi la sezione Panoramica per visualizzare o scaricare una miniatura di imma
 
 Utilizza la sezione Forms personalizzato per aggiungere, modificare o visualizzare i moduli personalizzati associati al documento. Iniziare a digitare il nome del modulo personalizzato per aggiungerlo al documento. Per ulteriori informazioni, consulta [Aggiungere o modificare un modulo personalizzato a un documento](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
 
 ## Aggiornamenti
 
@@ -87,13 +87,10 @@ Utilizzare la sezione Aggiornamenti per leggere un aggiornamento eseguito da un 
 
 <div class="preview">
 
-Esempio di aggiornamenti nell’ambiente di anteprima:
 ![Sezione Aggiornamenti nel pannello Riepilogo](assets/summary-updates-section-new-comments.png)
 
 </div>
 
-Esempio di aggiornamenti nell’ambiente di produzione:
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Approvazioni
 
@@ -104,7 +101,7 @@ Utilizzare la sezione Approvazioni per richiedere l&#39;approvazione di un docum
 * [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Richiedere le approvazioni dei documenti](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
 
 ## Versioni
 
@@ -116,4 +113,4 @@ Utilizzare la sezione Versioni per visualizzare il numero di versioni create per
 * Vai a Dettagli documento
 * Eliminare una bozza o un documento
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>

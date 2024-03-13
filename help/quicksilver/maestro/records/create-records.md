@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -114,6 +114,9 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
 1. (Condizionale) Se la pagina del tipo di record non si apre nella vista a tabella, fare clic sul pulsante **Visualizza** e selezionare un menu a discesa esistente **Vista tabella** ![](assets/table-view-icon.png) o fai clic su **Crea vista > Tabella** per creare una vista tabella.
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. Per aggiungere nuovi record, fare clic su **Nuovo record** nell’ultima riga della tabella
 
    Oppure
@@ -173,15 +176,15 @@ You can import records from other applications by linking them to existing recor
 
 ## Creare record copiando e incollando informazioni da un elenco esterno
 
-1. In Maestro, inizia a creare record nella vista Tabella, come descritto nella sezione [Creare record aggiungendoli manualmente a un tipo di record](#create-records-by-manually-adding-them-to-a-record-type) in questo articolo.
+1. Iniziare a creare record nella vista Tabella, come descritto nella sezione [Creare record aggiungendoli manualmente a un tipo di record](#create-records-by-manually-adding-them-to-a-record-type) in questo articolo.
 
-   Assicurarsi che la vista tabella Maestro contenga le colonne (o i campi) che si desidera compilare con le nuove informazioni del record.
+   Verificare che nella vista tabella siano presenti le colonne o i campi che si desidera compilare con le nuove informazioni del record.
 
 1. Clic **Nuovo &lt; Nome tipo di record >** nell&#39;ultima riga della tabella per aggiungere alla tabella tutte le nuove righe che si desidera aggiungere ai nuovi record.
 
    Aggiungere ad esempio 10 righe alla vista tabella se si desidera incollare le informazioni relative a 10 nuovi record da un&#39;altra applicazione.
 
-1. In un&#39;altra applicazione, creare un elenco di record che si desidera importare in Maestro.
+1. In un&#39;altra applicazione creare un elenco di record che si desidera importare.
 
    Ad esempio, puoi utilizzare un foglio di calcolo Excel per creare l’elenco.
 
@@ -189,13 +192,13 @@ You can import records from other applications by linking them to existing recor
 
    >[!TIP]
    >
-   > Le colonne dell’elenco devono contenere informazioni relative ai campi esistenti in Maestro.
+   > Le colonne dell’elenco devono contenere informazioni relative ai campi esistenti in Workfront.
    >
-   > Assicurati di avere già creato i campi desiderati in Maestro e che le informazioni nel tuo foglio siano visualizzate nel formato corretto che corrisponde a quello di ciascun campo in Maestro.
+   > Assicurati di avere già creato i campi desiderati in Workfront e che le informazioni nel foglio siano visualizzate nel formato corretto che corrisponde a quello di ciascun campo in Workfront.
 
 1. In un&#39;altra applicazione, selezionare più righe e colonne, quindi incollare le informazioni nella vista tabella del tipo di record, a partire dal primo nuovo record.
 
-   Le seguenti informazioni sono importate in Maestro:
+   Nell&#39;area delle funzionalità di pianificazione di Workfront vengono importate le seguenti informazioni:
 
    * Le righe contengono i nuovi record
    * Nelle colonne vengono inserite le informazioni relative ai campi dei record.
