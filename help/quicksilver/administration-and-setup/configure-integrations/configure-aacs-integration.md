@@ -6,9 +6,9 @@ description: Puoi collegare il tuo lavoro con il contenuto in [!DNL Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 54ece5a3082264af80d6a720452f8afe5e99c868
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1667'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 >[!IMPORTANT]
 >
@@ -253,16 +252,6 @@ Nell’integrazione di Adobe Experience Manager sono disponibili i seguenti flus
 ### Creare cartelle collegate a Adobe Experience Manager
 
 1. Attiva/disattiva **[!UICONTROL Crea cartella collegata]** su.
-1. Scegli un percorso di cartella per indicare dove desideri che tutte le cartelle collegate siano associate a questa integrazione.
-   ![Navigazione cartelle collegate](assets/select-folder-aem-integration.png)
-1. Abilita **[!UICONTROL Aggiungi nomi Portfolio e programma]** per includere automaticamente i nomi di Portfolio e di programma alla fine del nome della cartella collegata.
-1. Clic **[!UICONTROL Salva]** o passare al [Pubblicare le risorse inviate ad Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) in questo articolo.
-
-Nell’ambiente Sandbox di anteprima
-
-<div class="preview">
-
-1. Attiva/disattiva **[!UICONTROL Crea cartella collegata]** su.
 1. Immettere un nome per la cartella collegata che si sta creando.
 1. (Condizionale) Abilita **Struttura cartella predefinita** opzione se desideri che questa cartella collegata sia la cartella predefinita per i progetti creati con modelli che utilizzano questa integrazione. È possibile selezionare una o più cartelle predefinite.
 1. Scegli un percorso di cartella per indicare dove desideri che tutte le cartelle collegate siano associate a questa integrazione.
@@ -295,8 +284,6 @@ Nell’ambiente Sandbox di anteprima
 >* La prima cartella nella struttura delle cartelle viene automaticamente contrassegnata come collegata a Workfront. Se non desideri collegare questa cartella, puoi scollegarla.
 >* Se non viene fornita alcuna struttura di cartelle, la cartella principale diventa la cartella collegata.
 
-
-</div>
 
 ### Pubblicare le risorse inviate ad Adobe Experience Manager Assets
 

@@ -6,16 +6,14 @@ description: Utilizzare i flussi di lavoro nell’integrazione Experience Manage
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 83cd0960947108186f8d1d8ef2ad6c35c89820bd
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1042'
 ht-degree: 0%
 
 ---
 
 # Utilizzare i flussi di lavoro nell’integrazione di Experience Manager Assets
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 Un flusso di lavoro è un insieme di azioni che collegano Workfront ad Adobe Experience Manager as a Cloud Service. Un amministratore di Workfront può configurare i flussi di lavoro in Workfront, quindi assegnarli a Modelli di progetto. Quando un progetto viene creato utilizzando un modello di progetto a cui è assegnato un flusso di lavoro, vengono attivate le azioni definite nel flusso di lavoro.
 
@@ -130,7 +128,7 @@ Puoi modificare i valori del flusso di lavoro a livello di progetto. I valori de
 
 Tutti i valori del flusso di lavoro sono disponibili in:
 
-* La sezione Workflow della finestra Crea progetto o Modifica progetto.
+* La sezione Flussi di lavoro o cartelle collegate della finestra Crea progetto o Modifica progetto.
 * La sezione Adobe Experience Manager del menu di navigazione a sinistra.
 
 
@@ -148,19 +146,6 @@ Tutti i valori del flusso di lavoro sono disponibili in:
 
 Per modificare il flusso di lavoro per le cartelle collegate:
 
-Nell’ambiente di produzione:
-
-1. Attiva/Disattiva **[!UICONTROL Crea cartella collegata]** acceso o spento come desiderato.
-1. (Condizionale) Se abiliti le cartelle collegate, scegli un percorso di cartella per indicare dove desideri che tutte le cartelle collegate siano associate a questa integrazione.
-1. Clic **[!UICONTROL Salva]** se si utilizza [!UICONTROL Crea progetto] o [!UICONTROL Modifica progetto] finestra.
-
-   Oppure
-
-   Se si è nel [!DNL Adobe Experience Manager area], le modifiche vengono salvate automaticamente. <!--Do they though?-->
-
-Nell’ambiente Sandbox di anteprima:
-
-<div class="preview">
 
 1. Attiva/disattiva **[!UICONTROL Crea cartella collegata]** acceso o spento come desiderato. Se si attiva questa funzione, è possibile modificare la configurazione della cartella collegata.
 
@@ -179,10 +164,8 @@ Nell’ambiente Sandbox di anteprima:
 
      Se il nome di una cartella è impostato su dati personalizzati che non esistono nella cartella personalizzata associata al progetto, come nome della cartella verrà assegnato un ID casuale.
 
+1. Per visualizzare la struttura di cartelle, fare clic su **Anteprima** ![Icona Anteprima](assets/preview-icon.png) icona
 1. Fai clic su **[!UICONTROL Salva]**.
-
-</div>
-
 
 #### Pubblicazione delle risorse
 

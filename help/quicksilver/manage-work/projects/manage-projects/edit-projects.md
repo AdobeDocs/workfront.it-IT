@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
 workflow-type: tm+mt
-source-wordcount: '7404'
+source-wordcount: '7486'
 ht-degree: 1%
 
 ---
@@ -221,7 +221,7 @@ Per informazioni sulla creazione di un progetto da un modello, consulta [Creare 
          <td> <p> <p>(viene visualizzato solo dopo aver selezionato <strong>Manuale</strong> per <strong>Tipo di condizione</strong>): seleziona una condizione per indicare come procede il progetto. </p> <p>Per informazioni su come impostare automaticamente o manualmente le Condizioni del progetto, vedere <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Panoramica della condizione e del tipo di condizione del progetto</a></p> </p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Modalità Schedule</strong> </td> 
+         <td role="rowheader"><strong>Modalità pianificazione</strong> </td> 
          <td> <p>Specifica se il progetto è programmato dalla data di inizio o dalla data di completamento. Questa selezione determina le date pianificate delle attività del progetto. 
          <ul> 
          <li><strong>Data di inizio</strong>: per impostazione predefinita, la prima attività del progetto ha la stessa data di inizio pianificata del progetto. Per informazioni sulla data di inizio pianificata dell'attività, vedere <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Panoramica della data di inizio pianificata dell'attività</a>. La sequenza temporale del progetto viene calcolata a partire dalla data di inizio e la data di completamento del progetto viene calcolata dal sistema in base alla durata di tutte le attività. </li> 
@@ -252,14 +252,13 @@ Per informazioni sulla creazione di un progetto da un modello, consulta [Creare 
          <li> <p>Quando il progetto viene creato dalla pagina principale di un gruppo nell’area Configura, tale gruppo viene associato al progetto.</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>NOTE</b></p>
-
-       &lt;ul>
-       &lt;li>&lt;p>Se il progetto o le relative attività o problemi sono associati a uno Stato personalizzato a livello di gruppo, la modifica del gruppo del progetto potrebbe causare la modifica dello Stato del progetto, delle attività o dei problemi in modo che corrisponda al nuovo gruppo.&lt;/p>&lt;/li>
-       &lt;li>&lt;p>Se il progetto o le relative attività o problemi sono già associati a un processo di approvazione a livello di gruppo che utilizza stati personalizzati a livello di gruppo, la modifica del gruppo potrebbe creare un conflitto tra gli stati di approvazione del gruppo precedente e quelli esistenti a livello di sistema.&lt;/p>
-       &lt;p>Prima di aggiornare il gruppo, è consigliabile rimuovere i processi di approvazione a livello di gruppo sul progetto, le relative attività o i problemi.&lt;/p>
-       &lt;p>Per informazioni sulla creazione di processi di approvazione a livello di gruppo, vedere &lt;a href=&quot;../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md&quot; class=&quot;MCXref xref&quot;>Processi di approvazione a livello di gruppo&lt;/a>.&lt;/p>
-       &lt;p>Per informazioni sulla creazione di uno stato personalizzato a livello di gruppo, vedere &lt;a href=&quot;../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md&quot; class=&quot;MCXref xref&quot;>Creazione o modifica dello stato di un gruppo&lt;/a>&lt;/p>&lt;/li>&lt;/ul> &lt;/td>
-   </tr> 
+         <ul>
+         <li><p>Se il progetto o le relative attività o problemi sono associati a uno Stato personalizzato a livello di gruppo, la modifica del gruppo del progetto potrebbe causare la modifica dello Stato del progetto, delle attività o dei problemi in modo che corrisponda al nuovo gruppo.</p></li>
+         <li><p>Se il progetto o le relative attività o problemi sono già associati a un processo di approvazione a livello di gruppo che utilizza stati personalizzati a livello di gruppo, la modifica del gruppo potrebbe creare un conflitto tra gli stati di approvazione del gruppo precedente e quelli esistenti a livello di sistema.</p>
+         <p>Prima di aggiornare il gruppo, è consigliabile rimuovere i processi di approvazione a livello di gruppo sul progetto, le relative attività o i problemi.</p>
+         <p>Per informazioni sulla creazione di processi di approvazione a livello di gruppo, vedere <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Processi di approvazione a livello di gruppo</a>.</p>
+         <p>Per informazioni sulla creazione di uno stato personalizzato a livello di gruppo, consulta <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Creare o modificare lo stato di un gruppo</a></p></li></ul> </td> 
+      </tr> 
       <tr> 
          <td role="rowheader"><strong>Azienda</strong> </td> 
          <td> <p>Specifica una società associata al progetto. È necessario creare una società prima di associarla a un progetto. Solo le società attive possono essere associate a un progetto. Per informazioni sulla creazione di società, consulta <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Creare e modificare le società</a>.</p> </td> 
@@ -653,6 +652,22 @@ Per informazioni sull&#39;effetto di queste impostazioni sulla creazione di nuov
    </table>
 
 1. Fai clic su **Salva**.
+
+### Cartelle collegate
+
+La funzionalità Cartelle collegate crea automaticamente le cartelle in Adobe Experience Manager Assets e le connette a Workfront.
+
+Questa sezione viene visualizzata solo se si applicano tutte le seguenti condizioni:
+
+* La tua organizzazione è stata migrata a Adobe Admin Console
+* La tua organizzazione ha abilitato e configurato un’integrazione con Adobe Experience Manager
+* Il modello utilizzato per creare questo progetto ha abilitato e configurato le cartelle collegate.
+
+Per istruzioni sulla modifica delle cartelle collegate, consulta [Modificare i valori del flusso di lavoro in un progetto](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) nell’articolo Utilizzare i flussi di lavoro nell’integrazione Experience Manager Assets.
+
+>[!NOTE]
+>
+>Poiché le cartelle collegate vengono create al momento della creazione del progetto, la modifica del flusso di lavoro delle cartelle collegate in un progetto esistente non è efficace. La modifica di questi valori durante la creazione di un progetto funziona come previsto.
 
 ## Modificare un progetto nell’intestazione del progetto (limitato)
 
