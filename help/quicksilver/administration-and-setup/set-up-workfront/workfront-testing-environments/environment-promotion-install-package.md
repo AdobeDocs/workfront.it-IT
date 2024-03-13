@@ -4,16 +4,16 @@ content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Installare un pacchetto di promozione dell’ambiente
-description: La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spostamento di oggetti correlati alla configurazione da un ambiente all’altro. Scopri come installare un pacchetto di promozione dell’ambiente in un nuovo ambiente.
+description: La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spostamento di oggetti correlati alla configurazione da un ambiente all’altro. Scopri come installare un pacchetto di promozione dell’ambiente in un ambiente di destinazione.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d710e6dbb93cdec530ed8513bd96f5e7381f93c0
+source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
 workflow-type: tm+mt
-source-wordcount: '46'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -22,28 +22,32 @@ ht-degree: 0%
 
 Questa pagina è in costruzione
 
+
+
+1. Passa all’ambiente in cui desideri installare il pacchetto. Ambiente in cui si stanno copiando gli oggetti **a**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Configurazione]** ![Icona Configurazione](/help/_includes/assets/gear-icon-setup.png).
+1. Seleziona **Sistema** nel menu di navigazione a sinistra, seleziona quindi **Promozione dell&#39;ambiente**.
+1. Seleziona il pacchetto dall’elenco visualizzato.
+1. Per installare il pacchetto, fai clic su **Installa** in alto a destra.
+1. Mappare ogni oggetto del pacchetto all&#39;oggetto corrispondente nell&#39;ambiente di destinazione.
+
+   Per ulteriori informazioni, consulta [Mappatura](#mapping) in questo articolo
+
+
+## Mappatura
+
+Ogni tipo di oggetto è elencato nella barra di navigazione a sinistra e su una scheda. Nella scheda vengono visualizzati gli oggetti di quel tipo e se tali oggetti esistono nell’ambiente di destinazione. È possibile determinare come questi oggetti verranno spostati nell&#39;ambiente di destinazione.
+
+* Crea nuovo: l’oggetto si trova nell’ambiente di destinazione
+* Usa esistente: l&#39;oggetto nel pacchetto non è installato e l&#39;oggetto già esistente nell&#39;ambiente di destinazione rimane invariato.
+* Sovrascrivi esistente: l&#39;oggetto nel pacchetto sostituisce l&#39;oggetto esistente nell&#39;ambiente di destinazione.
+* Non usi:
+
+I valori predefiniti sono `Create new` se l’oggetto non esiste nell’ambiente di destinazione, e `Use existing` se l’oggetto esiste nell’ambiente di destinazione. Per ripristinare la mappatura predefinita, fai clic su **Ripristina mappatura predefinita**.
+
+Se si seleziona Non utilizzare, verrà visualizzato un messaggio di errore che descrive in dettaglio l&#39;effetto di questa scelta su altri oggetti o campi.
+
 <!--
-
-## Mapping
-
-<!--How does one get to the mapping page?--
-
-<!--Also show how to tell you're installing it in the right place (note 3 on slide 3)--
-
-Each object in the package is shown in the left navigation, and as a card on the page.
-
-Each card displays the object and its <!--fields? properties? sub-objects>--. You can determine how these <!--???--s will move to the new environment. 
-
-* Create new <!--does this mean you can have multiples?--
-* Use existing
-* Overwrite existing
-* Do not use
-
-You can revert to the default mapping by clicking **Reset to default mapping**.
-
-If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
-If you select Create new, you will need to change the value <!--of what?--
-
 ## Collisions
 
 A collision occurs when <!--???--.
