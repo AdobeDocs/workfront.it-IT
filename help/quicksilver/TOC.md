@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '14023'
+source-wordcount: '14032'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 1%
          * [Miglioramenti Home Q2 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
          * [Miglioramenti all’integrazione nel secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
          * [Miglioramenti al progetto per il secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+         * [Miglioramenti alla gestione delle risorse nel secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [Miglioramenti al flusso di aggiornamento per il secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [Aggiornamenti look-and-feel durante il periodo di rilascio del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
       * Versione del primo trimestre 2024 {#release-24-q1}
@@ -395,6 +396,7 @@ ht-degree: 1%
    * Programmi beta {#beta}
       * [Programmi beta](product-announcements/betas/betas.md)
       * Dashboard Canvas versione beta {#canvas-dashboards-beta}
+         * [Informazioni sulla versione beta delle dashboard di Canvas](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [Panoramica sulla versione beta di Reporting Canvas](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [Dashboard Canvas versione beta: attività](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
       * Nuova esperienza di commento beta {#new-commenting-experience-beta}

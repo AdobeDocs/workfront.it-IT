@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2a5feca46715a9d17070157af3799a8c8a35ef3d
+source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
 workflow-type: tm+mt
-source-wordcount: '1507'
+source-wordcount: '1584'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti Home](#home-enhancements)
 * [Miglioramenti al progetto](#project-enhancements)
+* [Miglioramenti alla gestione delle risorse](#resource-management-enhancements)
 * [Miglioramenti al flusso di aggiornamento e alle notifiche](#update-stream-and-notification-enhancements)
 * [Altri miglioramenti](#other-enhancements)
 
@@ -186,21 +187,20 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti al flusso di lavoro per la creazione automatica delle cartelle nell’integrazione Adobe Experience Manager</a></p><span style="color: #ff0000;"> Novità in anteprima.</span><p>Per garantire che le cartelle di Adobe Experience Manager riflettano più accuratamente le tue esigenze, abbiamo aggiunto strutture di cartelle nidificate al flusso di lavoro delle cartelle collegate di Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti al flusso di lavoro per la creazione automatica delle cartelle nell’integrazione Adobe Experience Manager</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Per garantire che le cartelle di Adobe Experience Manager riflettano più accuratamente le tue esigenze, abbiamo aggiunto strutture di cartelle nidificate al flusso di lavoro delle cartelle collegate di Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
                                 <p>Versione di anteprima: 11 marzo 2024</p>
                             </li>
-                             <li> <p><span class="preview">Rilascio trimestrale in produzione: 14 marzo 2024</span></p>
+                             <li> <p><span class="preview">Versione di produzione per tutti i clienti: 14 marzo 2024</span></p>
                              </li>
                         </ul>
                     </td>
                  </tr>          
             </tbody>
 </table>
-
 
 ### Miglioramenti al progetto
 
@@ -247,6 +247,43 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produzione per la versione trimestrale: con la versione 24.4 (aprile 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Miglioramenti alla gestione delle risorse
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicatore per le allocazioni regolate manualmente nel Bilanciatore dei carichi di lavoro</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p><p>Per fornire maggiore chiarezza sulle regolazioni manuali o sul contorno nel Bilanciatore dei carichi di lavoro, le allocazioni orarie regolate manualmente ora mostrano un’icona a forma di matita.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 12 ottobre 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.2 (15 febbraio 2024)</p>
                             </li>
                             <li>
                                 <p>Produzione per la versione trimestrale: con la versione 24.4 (aprile 2024)</p>
