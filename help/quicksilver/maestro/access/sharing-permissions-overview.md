@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '542'
 ht-degree: 7%
 
 ---
@@ -51,7 +51,7 @@ Per informazioni su come condividere aree di lavoro o visualizzazioni, vedere i 
 * Potete condividere un workspace o una vista con le seguenti entità:
    * Utenti
    * Gruppi
-* Gli altri utenti, inclusi gli amministratori di sistema, possono accedere solo alle visualizzazioni create o condivise con loro. <!--System administrators can only be given permissions to Manage a view.-->
+* Gli altri utenti, inclusi gli amministratori di sistema, possono accedere solo alle visualizzazioni create o condivise con loro. Agli amministratori di sistema possono essere assegnate solo le autorizzazioni per gestire una visualizzazione.
 * È possibile condividere con altri utenti un collegamento a un&#39;area di lavoro o a una visualizzazione da una pagina del tipo di record. Per poter accedere all&#39;area di lavoro o alla pagina del tipo di record visualizzata nella vista selezionata, gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront.
 
 ## Condivisione delle autorizzazioni per gli oggetti delle funzionalità di pianificazione di Adobe Workfront

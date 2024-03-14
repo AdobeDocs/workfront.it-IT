@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 1%
+source-wordcount: '1244'
+ht-degree: 0%
 
 ---
 
@@ -117,11 +117,9 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
-1. (Condizionale) Da **Visualizza** menu a discesa nell&#39;angolo superiore sinistro della tabella, selezionare un **Tabella** visualizzazione. Questa dovrebbe essere la visualizzazione predefinita, a meno che il tipo di record non sia stato visualizzato in un altro tipo di visualizzazione al momento dell&#39;ultimo accesso.
+1. (Condizionale) Fai clic sulla scheda di una vista a tabella o fai clic su **+ Visualizza** per creare una vista tabella. La vista tabella deve essere quella predefinita, a meno che il tipo di record non sia stato visualizzato in un altro tipo di vista all&#39;ultimo accesso.
 
-<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
-
-    I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
+   I record associati al tipo di record selezionato vengono visualizzati nella vista tabella.
 1. Fare clic all&#39;interno della riga di un record per iniziare a modificare le informazioni sul record in linea.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
@@ -147,15 +145,15 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 1. (Facoltativo) Fare doppio clic su un campo record connesso per aggiungere record o oggetti connessi a un altro record. Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/maestro/records/connect-records.md).
 1. Premi **Invio** sulla tastiera o fare clic all&#39;esterno di una riga per salvare le modifiche. Le modifiche vengono salvate automaticamente. A **Salvato** viene visualizzato brevemente nell&#39;angolo superiore destro della vista tabella per indicare che le modifiche sono state salvate.
 
+1. (Facoltativo) Fai clic su **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record oppure fare clic sul nome di un record. Il **Dettagli** nella tabella.
 
-   <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
-        >[!TIP]
-        >
-        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
-    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
-    -->
+   >[!TIP]
+   >
+   >È possibile visualizzare **Apri dettagli** a sinistra del campo Nome di un record solo quando il campo Nome è un campo primario.
+
+1. Inizia a modificare le informazioni del campo in **Dettagli** casella. Workfront salva automaticamente le modifiche.
+1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro del **Dettagli** per aprire il record **Dettagli** in una nuova scheda. Continua a modificare il record come descritto in [Modificare un record dalla pagina Dettagli del record](#edit-a-record-from-the-records-details-page) in questo articolo.
+
 
 1. (Facoltativo) Per copiare e incollare informazioni da un campo all&#39;altro, effettuare una delle seguenti operazioni:
 
@@ -193,7 +191,9 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
 ### Modificare un record dalla pagina Dettagli del record
 
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.-->
+È possibile modificare un record dalla casella Dettagli in una vista tabella o dalla pagina Dettagli.
+
+Per informazioni sulla modifica dei record nella casella Dettagli, vedere [Modificare un record dalla vista tabella di un tipo di record](#edit-a-record-from-the-table-view-of-a-record-type) in questo articolo.
 
 {{step1-to-maestro}}
 
@@ -214,8 +214,8 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
    Oppure
 
-   Fare clic all&#39;interno di un campo modificabile nella pagina Dettagli per modificare le informazioni. <!--Your changes are saved automatically.-->
+   Fare clic all&#39;interno di un campo modificabile nella pagina Dettagli per modificare le informazioni.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. Clic **Salva modifiche**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->
+1. Clic **Salva modifiche**.

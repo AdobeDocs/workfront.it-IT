@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '948'
 ht-degree: 1%
 
 ---
@@ -153,18 +153,17 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-<!--
-1. Click **+ View** to add a new view. 
-1. Select from the following types of views: 
+1. Clic **+ Visualizza** per aggiungere una nuova visualizzazione.
+1. Selezionate uno dei seguenti tipi di vista:
 
-    * Table
-    * Timeline
-    * Calendar
+   * Tabella
+   * Timeline
+   * Calendario
 
-    A new tab is created with the selected view. 
+   Viene creata una nuova scheda con la vista selezionata.
 
-    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
--->
+   A seconda della larghezza dello schermo, è possibile che nella **Altro** menu ![](assets/more-menu.png).
+
 
 >[!TIP]
 >
@@ -173,21 +172,11 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 >Per creare una visualizzazione timeline o calendario, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data. In caso contrario, le opzioni Timeline (Timeline) e Calendario (Calendar) vengono disattivate.
 >
 
-1. Fai clic su **Visualizza** e selezionare un menu a discesa esistente **Vista tabella** ![](assets/table-view-icon.png) o fai clic su **Crea vista > Tabella** per creare una vista tabella
+![](assets/view-types-drop-down-from-record-type-list.png)
 
-   Oppure
-
-   Seleziona un elemento esistente **Vista Timeline** ![](assets/timeline-view-icon.png) o fai clic su **Crea vista > Timeline** per creare una vista timeline.
-
-   Oppure
-
-   Seleziona un elemento esistente **Vista calendario** ![](assets/calendar-view-icon.png) o fai clic su **Crea vista > Calendario** per creare una vista calendario.
-
-   ![](assets/view-types-drop-down-from-record-type-list.png)
-
-   >[!NOTE]
-   >
-   >    Per creare una visualizzazione timeline o calendario, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data. In caso contrario, le opzioni Timeline o Calendario risultano inattive.
+>[!NOTE]
+>
+>    Per creare una visualizzazione timeline o calendario, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data. In caso contrario, le opzioni Timeline o Calendario risultano inattive.
 
 1. (Condizionale) Fai clic su **Successivo**, durante la creazione di una visualizzazione timeline o calendario.
 
@@ -202,12 +191,16 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 1. (Condizionale) Seleziona il **Inizio** e **Date di fine** per i record che verranno visualizzati nella visualizzazione timeline o calendario.
 1. Fai clic su **Crea**.
 
-   <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
-<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+   La vista viene visualizzata come una nuova scheda. Le visualizzazioni vengono visualizzate in ordine cronologico a partire dal momento in cui sono state create o condivise con te.
+1. (Facoltativo) Fai clic su **Altro** menu ![](assets/more-caret-down-icon-views.png) accanto all&#39;ultima visualizzazione per visualizzare tutte le visualizzazioni per il tipo di record selezionato.
 
-    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
-1. (Facoltativo) Per rinominare una vista dopo la sua creazione, fai clic sul menu a discesa Vista, quindi fai clic su **Altro** menu ![](assets/more-menu.png) > **Rinomina** per aggiornare il nome della vista. <!--ensure there is not another saving step here?!-->
-   <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
+   Visualizzazioni aggiuntive sotto **Altro** dopo l&#39;ultima scheda di visualizzazione. Il numero accanto al **Altro** mostra il numero di visualizzazioni aggiuntive.
+1. (Facoltativo) Per rinominare una vista dopo la sua creazione, fai clic sul menu a discesa Vista, quindi fai clic su **Altro** menu ![](assets/more-menu.png) > **Rinomina** per aggiornare il nome della vista
+
+   Oppure
+
+   Fare doppio clic sul nome della visualizzazione e iniziare a digitare il nuovo nome.  <!--ensure there is not another saving step here?!-->
+
 1. (Facoltativo) Per gestire un tipo specifico di visualizzazione, vedi i seguenti articoli:
 
    * [Gestire la vista tabella](../views/manage-the-table-view.md)
@@ -227,10 +220,9 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
-<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
-First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+1. Passa il puntatore del mouse su uno dei nomi della vista nella scheda vista, quindi fai clic su **Altro** ![](assets/more-menu.png) a sinistra del nome della visualizzazione, quindi fai clic su **Elimina**.
+Innanzitutto, potrebbe essere necessario fare clic su **Altro** a sinistra dell&#39;ultima scheda per trovare la vista da eliminare.
 
-1. Fai clic sul menu a discesa delle viste, passa il puntatore del mouse su una delle viste nell’elenco, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) > **Elimina**.
 1. Clic **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
 
    La vista viene eliminata per tutti gli utenti che possono accedere all’area dei record e non può essere recuperata.

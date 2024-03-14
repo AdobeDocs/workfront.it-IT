@@ -4,9 +4,9 @@ description: Puoi condividere una visualizzazione con altri utenti per garantire
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -85,8 +85,8 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
 >[!NOTE]
 >
 >Gli amministratori di sistema non possono visualizzare o condividere viste che non hanno creato personalmente. Possono accedere o condividere solo le visualizzazioni condivise con loro.
-
-<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
+>
+>Gli amministratori di sistema possono disporre solo delle autorizzazioni di gestione per una visualizzazione.
 
 {{step1-to-maestro}}
 
@@ -94,7 +94,7 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
 
    Verrà aperta la pagina del tipo di record.
 
-1. Dal menu a discesa Vista <!--tab-->, passa il puntatore del mouse sulla visualizzazione da condividere e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
+1. Dalla scheda Visualizza, passa il puntatore del mouse sulla visualizzazione da condividere e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Condividi**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 

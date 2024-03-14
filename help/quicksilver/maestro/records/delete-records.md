@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: b795ceccb3f72eb64269062823199be9c8511860
+source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '492'
 ht-degree: 2%
 
 ---
@@ -139,8 +139,9 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
    * Fare clic con il pulsante destro del mouse su una riga di record, quindi scegliere **Elimina**.
    * Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del record, quindi fare clic su **Elimina**
 
-   ![](assets/contextual-menu-for-record-row.png)
-   <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
+     ![](assets/contextual-menu-for-record-row.png)
+
+   * Fai clic su **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) per aprire la casella Dettagli e fare clic su **Altro** ![](assets/more-menu.png) a destra del nome del record, quindi **Elimina**.
 
    Il record viene eliminato e non può essere recuperato.
 
