@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9acccbaf2ce9c418e9417ff205bdfdb926b51d5
+source-git-commit: 155a2a8f5f266006629a28917a6a7565a95b37a9
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
 
 # Creare e modificare le società
+
+{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -117,7 +119,7 @@ Per aggiungere o modificare una società:
      </tr>
      <tr> 
       <td role="rowheader">Sezione [!UICONTROL Custom Forms]</td> 
-      <td> <p>Se sono presenti campi che desideri aggiungere alla tua azienda che non sono disponibili in [!DNL Workfront], è possibile creare un modulo personalizzato e associarlo all'azienda. </p> <p>Per allegare il modulo alla società, selezionarlo dal menu a discesa.</p> <p>Solo i moduli personalizzati attivi sono elencati nel menu a discesa.</p> <p> Per informazioni sulla creazione di Forms personalizzati, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>. </p> </td> 
+      <td> <p>Se sono presenti campi che desideri aggiungere alla tua azienda che non sono disponibili in [!DNL Workfront], è possibile creare un modulo personalizzato e associarlo all'azienda. </p> <p>Per allegare il modulo alla società, selezionarlo dal menu a discesa. Nel menu sono elencati solo i moduli personalizzati attivi.</p> <p><span class="preview"><strong>Nota:</strong> Le funzioni avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono disponibili solo quando si apre il record aziendale nella pagina dei dettagli e non nella finestra di dialogo Modifica società. Dall’elenco delle aziende, fai clic sul nome della società per aprire i dettagli.</span></p> <p> Per informazioni sulla creazione di moduli personalizzati, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Creare o modificare un modulo personalizzato</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>
