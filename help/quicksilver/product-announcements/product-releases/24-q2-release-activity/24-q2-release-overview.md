@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1712'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,23 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">L’integrazione JumpSeat è ora disponibile per i nuovi tipi di pacchetto</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Aziende e utenti ora supportano i campi modulo personalizzati avanzati</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>Le funzioni avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono ora disponibili quando si allega un modulo personalizzato a un’azienda o a un utente.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 14 marzo 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per i clienti: con la versione 24.4 (aprile 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">L’integrazione JumpSeat è ora disponibile per i nuovi tipi di pacchetto</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
                         <p>L’integrazione JumpSeat esistente è ora disponibile per gli account che utilizzano uno dei nuovi tipi di pacchetto (ad esempio, Select, Prime o Ultimate). Per abilitare l’integrazione, è ancora necessario disporre di un abbonamento JumpSeat attivo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -77,7 +93,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">I campi nativi di Workfront sono disponibili nella versione beta di progettazione moduli</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">I campi nativi di Workfront sono disponibili nella versione beta di progettazione moduli</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
                         <p>I campi nativi di Workfront sono ora disponibili per l’aggiunta ai moduli personalizzati. Questo nuovo tipo di campo consente di organizzare e presentare i dati agli utenti in modo logico, senza dover ricreare i dati esistenti nei campi personalizzati.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -187,7 +203,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti al flusso di lavoro per la creazione automatica delle cartelle nell’integrazione Adobe Experience Manager</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Per garantire che le cartelle di Adobe Experience Manager riflettano più accuratamente le tue esigenze, abbiamo aggiunto strutture di cartelle nidificate al flusso di lavoro delle cartelle collegate di Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti al flusso di lavoro per la creazione automatica delle cartelle nell’integrazione Adobe Experience Manager</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Per garantire che le cartelle di Adobe Experience Manager riflettano più accuratamente le tue esigenze, abbiamo aggiunto strutture di cartelle nidificate al flusso di lavoro cartelle collegate di Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -220,7 +236,8 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività</a></p><p>È stata aggiunta la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni della casella Nuova attività quando si aggiunge un'attività a un progetto e in un elenco di attività di progetto.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>È stata aggiunta la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni della casella Nuova attività quando si aggiunge un'attività a un progetto e in un elenco di attività di progetto.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -238,7 +255,8 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni intelligenti più rilevanti</a></p><p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni intelligenti più rilevanti</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -312,7 +330,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">È ora disponibile un nuovo flusso di commenti nelle azioni rapide per i nuovi widget per home</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">È ora disponibile un nuovo flusso di commenti nelle azioni rapide per i nuovi widget per home</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
                         <p>Ora è stata aggiunta la nuova funzionalità di aggiunta di commenti al pulsante di azione rapida "Aggiungi nuovo aggiornamento" nei widget Il mio lavoro, I miei progetti, Le mie attività e I miei problemi nella nuova Home.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -331,7 +349,8 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ulteriori informazioni sui commenti disponibili nella nuova esperienza</a></p><p>Nella nuova esperienza di commento sono stati apportati i seguenti miglioramenti:</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ulteriori informazioni sui commenti disponibili nella nuova esperienza</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>Nella nuova esperienza di commento sono stati apportati i seguenti miglioramenti:</p>
                         <ul>
                             <li>
                                 <p>È possibile fare clic sul nome di un commentatore per visualizzarne il nome, la mansione e l'indirizzo di posta elettronica in una casella di informazioni. Queste informazioni possono essere utili per identificare l'utente corretto, se sono presenti più utenti con lo stesso nome. Facendo clic sul nome del commentatore nella casella delle informazioni, viene aperto il relativo profilo utente.</p>
@@ -357,7 +376,8 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La scheda Attività di sistema nella nuova esperienza di aggiunta di commenti supporta i commenti di sola lettura</a></p><p>I commenti aggiunti ai record delle attività di sistema nell’esperienza di commento precedente ora vengono inseriti nella scheda Attività di sistema nella nuova esperienza di commento in sola lettura. Non è possibile rispondere ai record delle attività di sistema nella nuova esperienza di aggiunta di commenti.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">La scheda Attività di sistema nella nuova esperienza di aggiunta di commenti supporta i commenti di sola lettura</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>I commenti aggiunti ai record delle attività di sistema nell’esperienza di commento precedente ora vengono inseriti nella scheda Attività di sistema nella nuova esperienza di commento in sola lettura. Non è possibile rispondere ai record delle attività di sistema nella nuova esperienza di aggiunta di commenti.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -375,7 +395,8 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova scheda del flusso di aggiornamento per acquisire sia i commenti che le voci delle attività di sistema</a></p><p>Per offrirti una visione cronologicamente coerente sia dei commenti che dei registri di attività del sistema, stiamo introducendo una terza scheda nell’area Aggiornamenti di tutti gli oggetti. La scheda "All" (Tutti) acquisisce in un unico flusso sia i commenti degli utenti che quelli delle attività del sistema.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nuova scheda del flusso di aggiornamento per acquisire sia i commenti che le voci delle attività di sistema</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>Per offrirti una visione cronologicamente coerente sia dei commenti che dei registri di attività del sistema, stiamo introducendo una terza scheda nell’area Aggiornamenti di tutti gli oggetti. La scheda "All" (Tutti) acquisisce in un unico flusso sia i commenti degli utenti che quelli delle attività del sistema.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -393,7 +414,8 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">È ora disponibile un nuovo flusso di commenti nel pannello Riepilogo</a></p><p>Ora è stata aggiunta la nuova funzionalità di aggiunta di commenti al pannello Riepilogo per gli elenchi di attività e problemi.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">È ora disponibile un nuovo flusso di commenti nel pannello Riepilogo</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <p>Ora è stata aggiunta la nuova funzionalità di aggiunta di commenti al pannello Riepilogo per gli elenchi di attività e problemi.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -430,7 +452,8 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l’arco temporale del secondo trimestre 2024</a></p><p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale del secondo trimestre 2024. Consulta le singole note sulla versione per specifiche date di rilascio.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l’arco temporale del secondo trimestre 2024</a></p>
+                        <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale del secondo trimestre 2024. Consulta le singole note sulla versione per specifiche date di rilascio.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>

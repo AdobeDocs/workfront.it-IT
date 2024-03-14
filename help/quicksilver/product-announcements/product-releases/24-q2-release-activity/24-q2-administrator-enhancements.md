@@ -4,9 +4,9 @@ description: Miglioramenti per gli amministratori del secondo trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del secondo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del secondo trimestre 2024, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Aziende e utenti ora supportano i campi modulo personalizzati avanzati
+
+>[!NOTE]
+>
+>Versione di anteprima: 14 marzo 2024; Produzione per tutti i clienti: 24.4 (aprile 2024)
+
+Le funzioni avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono ora disponibili quando si allega un modulo personalizzato a un’azienda o a un utente. Le funzioni avanzate sono disponibili nelle pagine Dettagli società e Dettagli utente e non nelle finestre di dialogo Modifica società e Modifica utente. Per utilizzare questi tipi di campi, è necessario creare il modulo personalizzato nel nuovo progettista di moduli.
+
+Per ulteriori informazioni sui campi modulo personalizzati, consulta [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## L’integrazione JumpSeat è ora disponibile per i nuovi tipi di pacchetto
 
