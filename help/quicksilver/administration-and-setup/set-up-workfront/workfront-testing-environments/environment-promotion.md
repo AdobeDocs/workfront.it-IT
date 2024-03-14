@@ -12,7 +12,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+source-git-commit: 8d0cfe9bdf32b3be8f44fde0c921abdd1ba9920b
 workflow-type: tm+mt
 source-wordcount: '1894'
 ht-degree: 2%
@@ -23,7 +23,7 @@ ht-degree: 2%
 
 La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spostamento di oggetti correlati alla configurazione da un ambiente all’altro. Puoi spostare questi oggetti utilizzando l’API di Workfront come descritto in questo articolo.
 
-Per istruzioni sullo spostamento di oggetti tra ambienti utilizzando l’applicazione Workfront, consulta:
+Per istruzioni sullo spostamento di oggetti tra ambienti utilizzando l&#39;applicazione Workfront, vedere:
 
 * [Creare o modificare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [Installare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
