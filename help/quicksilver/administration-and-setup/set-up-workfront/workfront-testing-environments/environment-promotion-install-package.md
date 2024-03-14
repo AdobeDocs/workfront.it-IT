@@ -11,17 +11,14 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 690dda5bfc0ac77d396532ff7cfce38f4b61f4af
+source-git-commit: 79468b31b48deecaf63c332387ebbd88dea7d57a
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
 # Installare un pacchetto di promozione dell’ambiente
-
-Questa pagina è in costruzione
-
 
 
 1. Passa all’ambiente in cui desideri installare il pacchetto. Ambiente in cui si stanno copiando gli oggetti **a**.
@@ -41,11 +38,11 @@ Ogni tipo di oggetto è elencato nella barra di navigazione a sinistra e su una 
 * Crea nuovo: l’oggetto si trova nell’ambiente di destinazione
 * Usa esistente: l&#39;oggetto nel pacchetto non è installato e l&#39;oggetto già esistente nell&#39;ambiente di destinazione rimane invariato.
 * Sovrascrivi esistente: l&#39;oggetto nel pacchetto sostituisce l&#39;oggetto esistente nell&#39;ambiente di destinazione.
-* Non usi:
+* Non utilizzare: se si seleziona Non utilizzare, verrà visualizzato un messaggio di errore che indica in dettaglio come questa scelta influirà su altri oggetti o campi.
 
 I valori predefiniti sono `Create new` se l’oggetto non esiste nell’ambiente di destinazione, e `Use existing` se l’oggetto esiste nell’ambiente di destinazione. Per ripristinare la mappatura predefinita, fai clic su **Ripristina mappatura predefinita**.
 
-Se si seleziona Non utilizzare, verrà visualizzato un messaggio di errore che descrive in dettaglio l&#39;effetto di questa scelta su altri oggetti o campi.
+
 
 <!--
 ## Collisions
