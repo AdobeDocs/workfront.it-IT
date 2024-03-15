@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2327'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Campo di testo con formattazione</td> 
-      <td>Consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. È disponibile in Home, nell’area Aggiornamenti, negli elenchi e nell’area Dettagli per gli oggetti Workfront. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.</p> <p>Per informazioni sull’accesso a questo campo tramite l’API, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Archiviazione di campi in formato Rich Text nell’API</a>.</p> <p><b>NOTA</b>: i campi di testo con formattazione non sono disponibili per le app Workfront per dispositivi mobili. </p> </td> 
+      <td>Consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. È disponibile in Home, nell’area Aggiornamenti, negli elenchi e nell’area Dettagli per gli oggetti Workfront. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.</p> <p>Questo tipo di campo personalizzato non è supportato nei filtri di elenchi e rapporti.</p> <p>Per informazioni sull’accesso a questo campo tramite l’API, consulta <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Archiviazione di campi in formato Rich Text nell’API</a>.</p> <p><b>NOTA</b>: i campi di testo con formattazione non sono disponibili per le app Workfront per dispositivi mobili. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">A discesa</td> 
@@ -225,7 +225,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       <td><p>Fai clic sull’elenco a discesa, quindi seleziona i tipi di oggetto in cui desideri tenere traccia automaticamente delle modifiche al valore del campo.</p> 
       <p><b>NOTA</b>: questa opzione non è disponibile per:</p> 
       <ul> 
-      <li>Moduli personalizzati associati ai seguenti tipi di oggetti: Spesa, Società, Iterazione, Record fatturazione e Gruppo.</li> 
+      <li>Moduli personalizzati associati ai seguenti tipi di oggetti: Spesa, Società, Iterazione, Record fatturazione, Documento e Gruppo.</li> 
       <li>I seguenti tipi di campo: Calcolato, Testo descrittivo e Interruzione di sezione</li> 
       </ul>
       <p><b>IMPORTANTE</b>: la selezione o deselezione di un tipo di oggetto influisce su tutti i moduli personalizzati associati al tipo di oggetto selezionato e che contengono questo campo. Ad esempio, se deselezioni un tipo di oggetto e salvi il modulo personalizzato, le modifiche al valore del campo non vengono più tracciate per quel tipo di oggetto in nessun modulo personalizzato che contiene il campo.</p>

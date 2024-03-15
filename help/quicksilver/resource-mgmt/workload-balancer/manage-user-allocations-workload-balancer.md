@@ -6,9 +6,9 @@ description: In qualità di Responsabile risorse, puoi assegnare il lavoro agli 
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 854221ebd53e2adb4fa8a9365391b90c57badbbb
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2859'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Le ore pianificate dell&#39;attività vengono distribuite equamente tra tutti i 
 
 >[!CAUTION]
 >
->Il Bilanciatore dei carichi di lavoro visualizza solo un massimo di 1000 ore pianificate per elemento di lavoro e un massimo di 1000 giorni per la durata di un elemento. Le allocazioni nel Bilanciatore dei carichi di lavoro vengono visualizzate come zero dopo il raggiungimento del limite di 1000 ore o 1000 giorni. È consigliabile suddividere le attività in sottoattività più piccole in modo da includere un numero maggiore di ore pianificate o per durate superiori a 1000 giorni.
+>Il Bilanciatore dei carichi di lavoro visualizza solo fino a 1000 ore pianificate per elemento di lavoro per utente e fino a 1000 giorni della durata di un elemento. Le allocazioni nel Bilanciatore dei carichi di lavoro vengono visualizzate come zero dopo il raggiungimento del limite di 1000 ore o 1000 giorni. È consigliabile suddividere le attività in sottoattività più piccole per includere un numero maggiore di ore pianificate o per durate superiori a 1000 giorni.
 
 Quando si individuano le allocazioni giornaliere, settimanali o mensili per attività o problemi nel Bilanciatore dei carichi di lavoro, tenere presente quanto segue:
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: cf63099d2c86ad9a9390deef7df0ad140464276a
+source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
 workflow-type: tm+mt
-source-wordcount: '5681'
+source-wordcount: '5694'
 ht-degree: 3%
 
 ---
@@ -125,7 +125,9 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 * **Campo di testo paragrafo**: consente agli utenti di digitare più righe di testo nel campo.
 * **Campo di testo con formattazione**: consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.
 
-  Per informazioni sull’accesso a questo campo tramite l’API, consulta Archiviazione di campi in formato Rich text nell’API.
+  Questo tipo di campo personalizzato non è supportato nei filtri di elenchi e rapporti.
+
+  Per informazioni sull’accesso a questo campo tramite l’API, consulta [Archiviazione di campi in formato Rich Text nell’API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >
