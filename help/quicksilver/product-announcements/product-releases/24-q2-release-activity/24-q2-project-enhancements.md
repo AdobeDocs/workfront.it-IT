@@ -4,9 +4,9 @@ description: Miglioramenti al progetto per il secondo trimestre 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f9e9468c85235c0afadfee4d925a796ff89c54
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,9 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->Versione di anteprima: 13 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 13 febbraio 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per tutti i clienti: con la versione 24.4 (aprile 2024).
+
+<span style="color: #ff0000;">Questa funzione è stata rimossa dalla produzione per i clienti con rilascio rapido il 18 marzo 2024.</span>
 
 Abbiamo aggiunto la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni nelle seguenti aree:
 
@@ -36,7 +38,9 @@ Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti
 
 >[!NOTE]
 >
->Versione di anteprima: 21 dicembre 2023; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 21 dicembre 2023; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per tutti i clienti: con la versione 24.4 (aprile 2024).
+
+<span style="color: #ff0000;">Questa funzione è stata rimossa dalla produzione per i clienti con rilascio rapido il 18 marzo 2024.</span>
 
 È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.
 

@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a4056eb307c326b99f25406c2d5b87ad6018c754
+source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
 workflow-type: tm+mt
-source-wordcount: '1712'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,8 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>È stata aggiunta la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni della casella Nuova attività quando si aggiunge un'attività a un progetto e in un elenco di attività di progetto.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -246,6 +247,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024)</p>
+                                <p><span style="color: #ff0000;">Questa funzione è stata rimossa dalla produzione per i clienti con rilascio rapido il 18 marzo 2024.</span></p>
                             </li>
                             <li>
                                 <p>Produzione per la versione trimestrale: con la versione 24.4 (aprile 2024)</p>
@@ -255,7 +257,8 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni intelligenti più rilevanti</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni intelligenti più rilevanti</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
                         <p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -265,6 +268,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                             </li>
                             <li>
                                 <p>Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024)</p>
+                                <p><span style="color: #ff0000;">Questa funzione è stata rimossa dalla produzione per i clienti con rilascio rapido il 18 marzo 2024.</span></p>
                             </li>
                             <li>
                                 <p>Produzione per la versione trimestrale: con la versione 24.4 (aprile 2024)</p>
