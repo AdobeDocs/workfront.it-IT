@@ -8,9 +8,9 @@ title: Moduli delle schede madri Adobe Workfront
 description: Puoi utilizzare il connettore per schede madri Adobe Workfront per automatizzare i processi all’interno delle schede Workfront e collegarlo ad app e servizi di terze parti.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: 074bcf15c61f9c0c75cebf774b15baf7fe383f35
+source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
 workflow-type: tm+mt
-source-wordcount: '2118'
+source-wordcount: '2111'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
-Moduli delle schede madri Adobe Workfront e relativi campi
+
 
 ## Prerequisiti
 
