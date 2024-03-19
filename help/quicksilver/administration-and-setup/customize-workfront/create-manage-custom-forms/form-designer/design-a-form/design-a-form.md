@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c508878704cf149f5ed348c581531d266433f0c3
 workflow-type: tm+mt
-source-wordcount: '5694'
+source-wordcount: '5867'
 ht-degree: 3%
 
 ---
@@ -415,7 +415,7 @@ Per aggiungere pulsanti di scelta e caselle di controllo:
 
 +++
 
-Per aggiungere campi data di completamento automatico:
+Per aggiungere campi di tipo typeahead e date:
 
 1. Nella parte sinistra dello schermo, individua uno dei campi seguenti e trascinalo in una sezione dell’area di lavoro.
 
@@ -482,6 +482,25 @@ Per aggiungere campi data di completamento automatico:
          <td><ul>
     <li>Automatico</li>
     </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader">Aggiungi filtro</td>
+      <td><p>Aggiungi un filtro per un tipo di oggetto per limitare gli oggetti che gli utenti possono scegliere quando utilizzano il campo. </p> <p>Ad esempio, puoi limitare un campo in modo che i nomi utente possano essere selezionati solo se soddisfano i seguenti criteri:</p> 
+       <ul> 
+        <li>Appartengono a uno o più gruppi specificati</li> 
+        <li>Sono associati a un ruolo o a una mansione specificata</li> 
+        <li>Appartengono allo stesso gruppo della persona che utilizza il campo</li> 
+       </ul> <p>È necessario definire il filtro per il tipo di oggetto selezionato utilizzando la sintassi della modalità testo. Per informazioni sulla creazione di un filtro in modalità testo, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modificare un filtro utilizzando la modalità testo</a>.</p>
+       <p><b>NOTA</b>:
+       <ul> 
+        <li>Se si sta modificando un modulo personalizzato esistente, l'aggiunta di un filtro a un campo automatico non rimuove gli oggetti già aggiunti dagli utenti utilizzando il campo al di fuori dell'ambito del filtro.</li> 
+        <li>Questo filtro non è disponibile sui dispositivi mobili. Se utilizzi il filtro per un campo Typeahead, il campo verrà visualizzato sui dispositivi mobili degli utenti che non sono interessati dal filtro.</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>Automatico</li>
+       </ul>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">Rendi il campo obbligatorio</td> 

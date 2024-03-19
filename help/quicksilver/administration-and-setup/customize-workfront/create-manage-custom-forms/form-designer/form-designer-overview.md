@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: a3830935bea08d6ded54c4444f4030b2e48e7089
+source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 Il nuovo progettista di moduli dispone di una nuova area di lavoro in stile area di lavoro che consente di visualizzare contemporaneamente i campi, l&#39;area di lavoro e le impostazioni dei campi. Consente inoltre di trascinare i campi all&#39;interno delle sezioni durante la progettazione del modulo.
 
-<!-- add screenshot when field settings empty state is ready -->
+![Progettazione moduli di esempio](assets/form-designer-example.png)
 
 ## Come accedere al nuovo progettista di moduli
 
@@ -41,17 +41,7 @@ Con il nuovo form designer è stata aggiunta la possibilità di:
 
   >[!NOTE]
   >
-  >La sezione predefinita non è visibile all&#39;interno degli oggetti dopo che il modulo è stato allegato all&#39;oggetto.
-
-## Funzionalità in arrivo
-
-I seguenti elementi non sono attualmente disponibili nel progettista del modulo, ma verranno aggiunti a breve:
-
-* Filtra per campi typeahead
-
->[!IMPORTANT]
->
->Le configurazioni esistenti per i filtri typeahead non verranno influenzate quando si utilizza il nuovo progettista di moduli.
+  >La sezione Default non è visibile all&#39;interno degli oggetti dopo che il modulo è stato associato all&#39;oggetto.
 
 ## Funzionalità rimossa dal progettista del modulo
 
