@@ -7,16 +7,20 @@ description: Adobe Workfront Fusion Devtool consente di comprendere e risolvere 
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 0%
+source-wordcount: '1831'
+ht-degree: 1%
 
 ---
 
 # Scenari di debug con [!DNL Adobe Workfront Fusion] Devtool
 
 Il [!DNL Adobe Workfront Fusion] Devtool consente di comprendere e risolvere gli scenari. Devtool aggiunge un pannello aggiuntivo al [!DNL Chrome Developer Tools]. Utilizzando questo pannello di debugger, puoi controllare tutte le esecuzioni manuali dello scenario, esaminare tutte le operazioni eseguite e visualizzare i dettagli di ogni chiamata API eseguita. Puoi vedere quale modulo, operazione o singola risposta ha causato l’errore e sfruttare queste informazioni per perfezionare lo scenario.
+
+>[!NOTE]
+>
+>La registrazione nel pannello Debugger sarà limitata o non disponibile per scenari riservati, esecuzioni automatiche e operazioni di successo.
 
 Per un video introduttivo e una descrizione dettagliata dello strumento Fusion Devtool, vedere
 
@@ -448,6 +452,6 @@ Evidenzia i moduli dell’app specificata nel tuo scenario.
 
 #### [!UICONTROL Migra GS]
 
-Questo strumento è stato creato appositamente per l&#39;aggiornamento [!DNL Google Sheets] (legacy) ai più recenti [!DNL Google Sheets] versione. Aggiunge una nuova versione del modulo subito dopo la versione legacy del modulo nel percorso dello scenario.
+Questo strumento è stato creato appositamente per l&#39;aggiornamento [!DNL Google Sheets] (legacy) ai più recenti [!DNL Google Sheets] versione. Aggiunge una nuova versione del modulo subito dopo la sua versione legacy nel percorso di indirizzamento dello scenario.
 
 Questo modulo non richiede l’impostazione di alcun parametro.
