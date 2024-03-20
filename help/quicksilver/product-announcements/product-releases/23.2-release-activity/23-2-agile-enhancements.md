@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc97f4a2-9c51-4ccd-8121-c00fd1ac6988
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Diverse nuove funzioni disponibili nelle schede madri Workfront consentono di ut
 
 Le raccolte sono state rinominate in flussi di lavoro. I flussi di lavoro consentono di visualizzare i dati in modi diversi. È possibile visualizzare gli elementi sulle schede in un elenco, su una bacheca o su un’iterazione. Le schede in un flusso di lavoro possono anche essere condivise tra più bacheche. Puoi semplificare facilmente i flussi di lavoro utilizzando schede e bacheche in un flusso di lavoro.
 
-Per ulteriori informazioni, consulta [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), e [Utilizza l’elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md). I secondi due articoli non saranno disponibili in Principale finché non pubblicherò il ramo.
+Per ulteriori informazioni, consulta [Gestire i flussi di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Creare un’iterazione in un flusso di lavoro](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md), e [Utilizza l’elenco delle schede](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
