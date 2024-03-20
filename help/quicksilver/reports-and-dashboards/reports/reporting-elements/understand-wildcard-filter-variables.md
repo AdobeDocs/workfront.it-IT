@@ -7,9 +7,9 @@ description: Utilizzando i caratteri jolly nei filtri, è possibile fare riferim
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1466'
 ht-degree: 1%
 
 ---
@@ -102,8 +102,8 @@ Per indicare vari periodi di tempo e vari punti nel tempo (futuri o passati), è
 
 | **Qualificatori** | |
 |---|---|
-| **b** | inizio della settimana (domenica) |
-| **e** | fine settimana (sabato) |
+| **b** | inizio del periodo (senza un attributo specificato, per impostazione predefinita inizia la settimana: domenica) |
+| **e** | fine periodo (senza un attributo specificato, per impostazione predefinita fine settimana: sabato) |
 
 {style="table-layout:auto"}
 

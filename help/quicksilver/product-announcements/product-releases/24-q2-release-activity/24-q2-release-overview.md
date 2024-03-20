@@ -4,9 +4,9 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4b7ef023d4b45deade0f56f422b0ba6b6662ee4
+source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1820'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,12 @@ ht-degree: 0%
 
 Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del secondo trimestre 2024. Questi miglioramenti saranno disponibili nell’ambiente di produzione durante tutto il trimestre.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview). -->
+<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit](https://summit.adobe.com/na/) per guardare le seguenti sessioni Workfront:
+
+[Il futuro di Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) il 26 marzo 2024, per avere una panoramica del futuro della pianificazione strategica e del flusso di lavoro. Scopri in che modo il team Workfront prevede di affrontare le funzionalità aziendali nell’intero ciclo di vita del marketing, il tutto con un approccio basato sull’intelligenza artificiale per automatizzare il lavoro, semplificare le esperienze utente e aumentare la produttività.
+
+[Presentazione di calendari di marketing e strumenti per la pianificazione di campagne end-to-end](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) il 23 marzo 2023, per scoprire le nuove funzionalità dei prodotti progettate per consentire alle organizzazioni di gestire e visualizzare i cicli di vita operativi end-to-end.
 
 <span class="preview">Le funzioni fuori ciclo (quelle che vengono rilasciate in produzione prima della data di rilascio del secondo trimestre 2024) sono evidenziate in giallo.</span>
 
