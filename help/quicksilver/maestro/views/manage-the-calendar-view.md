@@ -4,9 +4,9 @@ description: È possibile visualizzare i record e i relativi campi in una visual
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 26d6fecf02541fff649deabe61e65dbe5ae5f688
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -116,3 +116,32 @@ Per gestire una vista calendario:
    * Per aggiornare gli incrementi di tempo, seleziona una delle seguenti opzioni dal menu a discesa dell’intervallo di tempo:
 
       * Mese
+1. Aggiornate i seguenti elementi della vista come descritto nelle sottosezioni seguenti:
+   * [Filtri](#add-filters)
+     <!--* [Grouping](#add-grouping)-->
+     <!--* [Settings](#edit-the-calendar-view-settings)-->
+     <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### Aggiungere filtri
+
+È possibile ridurre la quantità di informazioni visualizzate sullo schermo utilizzando i filtri.
+
+Quando si lavora con i filtri nella vista calendario, considera quanto segue:
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* I filtri creati per una visualizzazione calendario funzionano indipendentemente dai filtri di qualsiasi altra visualizzazione applicata allo stesso tipo di record.
+
+* I filtri sono univoci per la vista selezionata. A due visualizzazioni calendario dello stesso tipo di record possono essere applicati filtri diversi.
+
+* Due utenti che visualizzano la stessa vista calendario visualizzano lo stesso filtro attualmente applicato.
+
+* Non è possibile denominare i filtri creati per una visualizzazione calendario.
+
+* Se si rimuovono i filtri, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
+
+* L&#39;aggiunta di filtri nella vista calendario è identica all&#39;aggiunta di filtri nella vista tabella.
+
+  Per ulteriori informazioni, consulta la sezione &quot;Aggiungere filtri&quot; nell’articolo [Gestire la vista tabella](/help/quicksilver/maestro/views/manage-the-table-view.md).
+
+* È possibile filtrare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.

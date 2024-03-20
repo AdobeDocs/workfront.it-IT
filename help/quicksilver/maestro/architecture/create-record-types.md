@@ -1,13 +1,13 @@
 ---
 title: Creare tipi di record operativi
-description: I tipi di record sono i tipi di oggetti di Adobe Maestro. In Maestro, puoi creare tipi di record personalizzati che illustrano gli elementi di lavoro necessari nel ciclo di vita della tua organizzazione.
+description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. In Workfront Planning è possibile creare tipi di record personalizzati che illustrano gli elementi di lavoro necessari nel ciclo di vita dell'organizzazione.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
@@ -18,14 +18,14 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-I tipi di record sono i tipi di oggetti di Adobe Maestro. In Maestro, puoi creare tipi di record personalizzati che illustrano gli elementi relativi al lavoro necessari nel ciclo di vita della tua organizzazione.
+I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. In Workfront Planning è possibile creare tipi di record personalizzati che illustrano gli elementi relativi al lavoro necessari per il ciclo di vita dell&#39;organizzazione.
 
 I tipi di record possono essere uno dei seguenti:
 
 * **Tipi di record operativi**
 * **Tassonomie**
 
-Per ulteriori informazioni sui tipi di record Maestro, vedi [Panoramica dei tipi di record e delle tassonomie](../architecture/overview-of-record-types-and-taxonomies.md).
+Per ulteriori informazioni sui tipi di record, vedere [Panoramica dei tipi di record e delle tassonomie](../architecture/overview-of-record-types-and-taxonomies.md).
 
 La creazione di tipi di record operativi è simile alla creazione di tipi di record di tassonomia. Questo articolo descrive come creare tipi di record operativi.
 
@@ -45,12 +45,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr>
 <td>
    <p> Prodotto</p> </td>
-   <td>
+   <td> Adobe Workfront
    </td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -62,13 +62,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr>
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
    <td>
-   <p>Qualsiasi</p> 
+   <p>Corrente: Piano</p>
+   Oppure
+   <p>Nuovo: Standard </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non ci sono controlli del livello di accesso per Maestro</p>  
+   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -105,6 +107,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
         Per informazioni, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
       * Quando vengono importati utilizzando un file Excel o CSV. Questa opzione non è disponibile per i tipi di record di tassonomia.
+
+        >[!IMPORTANT]
+        >
+        >Questa funzionalità è stata temporaneamente disabilitata dal 21 marzo 2024. Verrà attivato in un secondo momento.
+
      <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
@@ -114,7 +121,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Creare tipi di record utilizzando un modello di area di lavoro
 
-È possibile creare automaticamente i tipi di record quando si crea un&#39;area di lavoro utilizzando un modello. Ogni modello Maestro contiene esempi di tipi di record operativi e di tassonomia.
+È possibile creare automaticamente i tipi di record quando si crea un&#39;area di lavoro utilizzando un modello di pianificazione di Workfront. Ogni modello contiene esempi di tipi di record operativi e di tassonomia.
 
 Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
 
@@ -191,14 +198,19 @@ Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
 
 ## Creare tipi di record importando un file Excel o CSV
 
+>[!IMPORTANT]
+>
+>Questa funzionalità è stata temporaneamente disabilitata dal 21 marzo 2024. Verrà attivato in un secondo momento.
+
+
 Quando si importano tipi di record utilizzando un file Excel o CSV, tenere presente quanto segue:
 
-* Ogni foglio del file Excel diventa un tipo di record in Maestro.
+* Ogni foglio del file Excel diventa un tipo di record.
 * Le colonne di ciascun foglio diventano i campi associati a ciascun tipo di record.
 * I campi sono univoci per i rispettivi tipi di record.
 * Ogni riga di ogni foglio diventa un record univoco associato al rispettivo tipo di record.
 * Ogni foglio del file Excel non deve superare i seguenti:
-   * 10.000 righe
+   * 50.000 righe
    * 500 colonne
 * Il file Excel non deve superare i 5 MB.
 * I fogli vuoti non sono supportati.
@@ -222,7 +234,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Viene visualizzata la casella Anteprima e modifica con le seguenti informazioni:
 
-   * I nomi dei fogli o dei tipi di record futuri vengono visualizzati nel pannello sinistro. Per impostazione predefinita, Maestro seleziona un&#39;icona e un colore per ogni nuovo tipo di record.
+   * I nomi dei fogli o dei tipi di record futuri vengono visualizzati nel pannello sinistro. Per impostazione predefinita, Workfront planning seleziona un&#39;icona e un colore per ogni nuovo tipo di record.
    * Il primo foglio o il tipo di record viene selezionato e i nomi dei campi associati vengono visualizzati come intestazioni di colonna. Il tipo di ogni campo è selezionato per impostazione predefinita.
    * Ogni riga rappresenta un nuovo record. Nella casella Anteprima e modifica vengono visualizzati solo i primi 10 record.
 
@@ -243,7 +255,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 1. Clic **Importa** quando sei pronto per importare il file.
 
-   Le seguenti informazioni vengono importate in Maestro:
+   Le informazioni seguenti vengono importate in Workfront Planning:
 
    * Nuovi tipi di record
    * Nuovi campi associati a ciascun tipo di record
@@ -251,7 +263,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    È possibile iniziare a gestire campi e record nelle pagine dei tipi di record.
 
-   Tutti coloro che hanno accesso a Maestro ora possono visualizzare e modificare i tipi di record importati e le loro informazioni. <!--this will change with permissions-->
+   Tutti coloro che hanno accesso alla pianificazione di Workfront ora possono visualizzare e modificare i tipi di record importati e le relative informazioni. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 

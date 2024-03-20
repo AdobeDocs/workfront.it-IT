@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -131,7 +131,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 | Aggiungere campi come nuove colonne nella visualizzazione | ✓ |               |         |
 | Copiare le righe da un elenco esterno e incollarle in una tabella | ✓ |               |          |
 | Visualizzare i record in una timeline |            | ✓ |             |
-| Filtra record | ✓ | ✓ |           |
+| Filtra record | ✓ | ✓ | ✓ |
 | Visualizzare i record in un calendario |           |              | ✓ |
 | Raggruppa record | ✓ | ✓ |
 | Ordinare i record | ✓ |              |

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '4925'
+source-wordcount: '5057'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,36 @@ Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rila
 >[!IMPORTANT]
 >
 >La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
+
+## Settimana del 18 marzo 2024
+
+### Filtri disponibili nella vista calendario
+
+Produzione: 19 marzo 2024
+
+Anteprima: da determinare
+
+È ora possibile filtrare le informazioni nella vista calendario. Per ulteriori informazioni, consulta [Gestire la visualizzazione calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+### La casella Dettagli è stata aggiunta alle visualizzazioni Timeline e Calendario
+
+Produzione: 19 marzo 2024
+
+Anteprima: da determinare
+
+È ora possibile accedere alla casella Dettagli di un record dalle visualizzazioni Timeline e Calendario. È possibile modificare i record nella casella Dettagli all&#39;interno delle visualizzazioni Timeline e Calendario.
+
+Dalla casella Dettagli è possibile aprire la pagina Dettagli del record.
+
+Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
+
+### Il tipo di record Importazione Excel è temporaneamente disabilitato
+
+Produzione: 21 marzo 2024
+
+Anteprima: da determinare
+
+L’importazione di tipi di record tramite un file Excel o CSV viene temporaneamente disabilitata. Questa funzionalità sarà disponibile in un secondo momento.
 
 ## Settimana dell’11 marzo 2024
 

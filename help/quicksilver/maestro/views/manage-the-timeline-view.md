@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1704'
 ht-degree: 0%
 
 ---
@@ -162,9 +162,11 @@ Quando si lavora con i filtri nella vista timeline, considera quanto segue:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* I filtri creati per la visualizzazione timeline funzionano in modo indipendente dai filtri nella visualizzazione tabella se applicati allo stesso tipo di record.
+* I filtri creati per una visualizzazione timeline funzionano in modo indipendente dai filtri di qualsiasi altra visualizzazione applicata allo stesso tipo di record.
 
-* I filtri sono univoci per la vista selezionata. A due visualizzazioni timeline dello stesso tipo di record possono essere applicati filtri diversi. Due utenti che visualizzano la stessa visualizzazione timeline visualizzano lo stesso filtro attualmente applicato.
+* I filtri sono univoci per la vista selezionata. A due visualizzazioni timeline dello stesso tipo di record possono essere applicati filtri diversi.
+
+* Due utenti che visualizzano la stessa visualizzazione timeline visualizzano lo stesso filtro attualmente applicato.
 
 * Non è possibile assegnare un nome ai filtri creati per una vista timeline.
 
