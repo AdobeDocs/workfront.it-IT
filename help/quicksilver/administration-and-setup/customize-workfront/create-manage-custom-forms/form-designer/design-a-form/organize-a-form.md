@@ -4,20 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: È possibile organizzare un modulo personalizzato con Progettazione moduli.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: f79d3243058e4b71d9825c2b219730e9bc44944e
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
 
 # Organizzare e visualizzare in anteprima un modulo con il progettista del modulo
 
-È possibile organizzare un modulo personalizzato con il progettista del modulo.
+È possibile organizzare un modulo personalizzato con il progettista del modulo e visualizzarlo in anteprima per verificarne la corretta configurazione.
 
 ## Requisiti di accesso
 
@@ -170,4 +170,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. Inizia a creare o modificare un modulo personalizzato e ad aggiungere campi, come descritto in [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Clic **Anteprima** nell’angolo in alto a sinistra per vedere come si presenterà il modulo quando verrà utilizzato, quindi fai clic su **Fine anteprima** per tornare alla modifica del modulo.
+1. Clic **Anteprima** nell’angolo in alto a destra per vedere come si presenterà il modulo quando verrà utilizzato, quindi fai clic su **Fine anteprima** per tornare alla modifica del modulo.
