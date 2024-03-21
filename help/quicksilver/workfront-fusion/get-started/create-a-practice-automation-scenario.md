@@ -7,9 +7,9 @@ description: Questo articolo descrive come creare uno scenario di automazione co
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 3d53042b9321c8712b9aaeea686989add5b9e35e
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '1847'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Dopo la connessione [!DNL Workfront Fusion] al tuo [!DNL Workfront] account, è 
    1. Per l’operatore, seleziona [!UICONTROL Contiene (senza distinzione maiuscole/minuscole)]. Questo consente al modulo di trovare i progetti il cui nome contiene le parole scelte, anche se non si inserisce il nome completo o si inserisce il nome con lettere maiuscole non corrette.
    1. Nell’ultimo campo in [!UICONTROL Criteri di ricerca], immetti una parola o una frase che sai essere nel nome del progetto che stai cercando.
 
-1. In **[!UICONTROL Uscite]** , seleziona i campi per i quali desideri generare il problema. Per questo esempio, seleziona la **[!UICONTROL ID]** e **[!UICONTROL Nome]** campi.
+1. In **[!UICONTROL Uscite]** selezionare i campi che si desidera vengano generati dal modulo. Per questo esempio, seleziona la **[!UICONTROL ID]** e **[!UICONTROL Nome]** campi.
 
    >[!TIP]
    >
