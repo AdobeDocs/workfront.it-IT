@@ -11,9 +11,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5ab9f7c975df86fa7a1f6d54a2fefcbd4cbd9248
+source-git-commit: 610469811a937fde70a938af829b156e69cca391
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '357'
 ht-degree: 0%
 
 ---
@@ -35,10 +35,10 @@ ht-degree: 0%
 
 Ogni tipo di oggetto è elencato nella barra di navigazione a sinistra e su una scheda. Nella scheda vengono visualizzati gli oggetti di quel tipo e se tali oggetti esistono nell’ambiente di destinazione. È possibile determinare come questi oggetti verranno spostati nell&#39;ambiente di destinazione.
 
-* Crea nuovo: l’oggetto si trova nell’ambiente di destinazione
+* Crea nuovo: crea un nuovo oggetto nell’ambiente di destinazione. Se l&#39;oggetto esiste nell&#39;ambiente di destinazione, è possibile creare un nuovo oggetto con un nuovo nome. Se non esiste nell&#39;ambiente di destinazione, è possibile creare l&#39;oggetto con un nuovo nome o con il nome che l&#39;oggetto ha nel pacchetto.
 * Usa esistente: l&#39;oggetto nel pacchetto non è installato e l&#39;oggetto già esistente nell&#39;ambiente di destinazione rimane invariato.
 * Sovrascrivi esistente: (non attualmente disponibile) L’oggetto nel pacchetto sostituisce l’oggetto esistente nell’ambiente di destinazione.
-* Non utilizzare: se si seleziona Non utilizzare, verrà visualizzato un messaggio di errore che indica in dettaglio come questa scelta influirà su altri oggetti o campi.
+* Do not use: l&#39;oggetto nel pacchetto non è installato nell&#39;ambiente di destinazione. Se si seleziona Non utilizzare, verrà visualizzato un messaggio di errore che descrive in dettaglio l&#39;effetto di questa scelta su altri oggetti o campi.
 
 I valori predefiniti sono `Create new` se l’oggetto non esiste nell’ambiente di destinazione, e `Use existing` se l’oggetto esiste nell’ambiente di destinazione. Per ripristinare la mappatura predefinita, fai clic su **Ripristina mappatura predefinita**.
 
