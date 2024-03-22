@@ -8,9 +8,9 @@ description: Le funzioni Organizzazione e Team di Adobe Workfront Fusion consent
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: a51dfcfc3024fd7d1d2612d6f258379d4d166c49
+source-git-commit: 7c05196cd00765a506e028627305ba17978e410d
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ I team sono gruppi di utenti che condividono l’accesso a risorse specifiche. T
 * Connessioni
 * Webhook
 * Chiavi
-* Archivi dati
+* Archivi di dati
 * Strutture di dati
 * Impostazioni delle notifiche e-mail
 
@@ -174,6 +174,14 @@ Per creare un team:
 >Per ulteriori informazioni, consulta [Accedere alle notifiche](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] per [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 Le opzioni di notifica e-mail sono impostate a livello di team.
+
+>[!NOTE]
+>
+>Se l’organizzazione è stata spostata in Unified Shell, riceverai notifiche tramite l’area Notifiche di Adobe. Per visualizzare le notifiche nell’area Notifiche di Adobe, è necessario utilizzare l’esperienza Unified Shell.
+>
+>Per utilizzare l’esperienza Unified Shell, inclusa l’area Notifiche dell’Adobe, fai clic sul pulsante Prova nuova interfaccia utente di Fusion in Esperienza unificata nella parte superiore della pagina. Questo pulsante è disponibile solo se l’organizzazione è stata spostata in Unified Shell.
+>
+>Per ulteriori informazioni sull’individuazione delle notifiche in Unified Shell, consulta [Accedere alle notifiche](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
 
 1. Nel pannello di navigazione a sinistra, fai clic su **[!UICONTROL Team]**
 1. Seleziona la **[!UICONTROL Opzioni di notifica]** scheda.
