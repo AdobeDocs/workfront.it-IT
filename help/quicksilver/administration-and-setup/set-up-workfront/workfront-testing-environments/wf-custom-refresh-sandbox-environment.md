@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 0bfeae7db0e3dfbb402ee602b4ede97cb6c605fa
+source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
 workflow-type: tm+mt
-source-wordcount: '1595'
+source-wordcount: '1605'
 ht-degree: 0%
 
 ---
@@ -197,6 +197,8 @@ Per ulteriori informazioni sulla configurazione [!DNL Workfront] con SSO, vedi [
 
 ## Uso previsto e disponibilità
 
-[!DNL Workfront] Gli ambienti sandbox di aggiornamento personalizzati non sono destinati a test delle prestazioni o del carico. Piuttosto, utilizza questi ambienti per convalidare le funzionalità con i flussi di lavoro esistenti della tua organizzazione.
+* [!DNL Workfront] Gli ambienti sandbox di aggiornamento personalizzati non sono destinati a test delle prestazioni o del carico. Piuttosto, utilizza questi ambienti per convalidare le funzionalità con i flussi di lavoro esistenti della tua organizzazione.
 
-[!DNL Workfront] Gli ambienti sandbox di aggiornamento personalizzati sono destinati a essere sempre disponibili. Qualsiasi interruzione in un ambiente Sandbox di aggiornamento personalizzato Workfront durante il normale orario di lavoro sarà una priorità assoluta subito dopo la risoluzione di eventuali problemi di produzione. In caso di interruzione di un ambiente Sandbox di aggiornamento personalizzato di Workfront nei fine settimana (sabato e domenica), verrà risolto il problema in modo che l’ambiente sia in esecuzione per l’orario di lavoro di lunedì.
+* [!DNL Workfront] Gli ambienti sandbox di aggiornamento personalizzati sono destinati a essere sempre disponibili. Qualsiasi interruzione in un ambiente Sandbox di aggiornamento personalizzato Workfront durante il normale orario di lavoro sarà una priorità assoluta subito dopo la risoluzione di eventuali problemi di produzione. In caso di interruzione di un ambiente Sandbox di aggiornamento personalizzato di Workfront nei fine settimana (sabato e domenica), verrà risolto il problema in modo che l’ambiente sia in esecuzione per l’orario di lavoro di lunedì.
+
+* La verifica non è disponibile negli ambienti Sandbox di aggiornamento personalizzati.
