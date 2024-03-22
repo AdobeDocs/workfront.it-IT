@@ -4,9 +4,9 @@ description: Miglioramenti al flusso di aggiornamenti e alle notifiche del secon
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ I commenti aggiunti ai record delle attività di sistema nell’esperienza di co
 
 Per ulteriori informazioni, consulta [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione su questa funzione specifica inizia alle 2:00 nel video).
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione su questa funzione specifica inizia alle 2:00).
 
 ## Nuova scheda del flusso di aggiornamento per acquisire sia i commenti che le voci delle attività di sistema
 
@@ -66,7 +66,7 @@ La scheda Tutto è una scheda di sola visualizzazione. Non è possibile risponde
 
 Per ulteriori informazioni, consulta [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione su questa funzione specifica inizia alle 0:31 nel video).
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3427992/){target=_blank} (La discussione su questa funzione specifica inizia alle 0:31).
 
 ## È ora disponibile un nuovo flusso di commenti nel pannello Riepilogo
 

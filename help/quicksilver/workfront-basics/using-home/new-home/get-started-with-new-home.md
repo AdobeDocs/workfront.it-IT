@@ -6,9 +6,9 @@ description: La nuova Home è una nuova potente funzione per la gestione del tuo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 07d5abb6a36dd97a5d810fb69bde95ef74a76174
+source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1120'
 ht-degree: 8%
 
 ---
@@ -64,7 +64,7 @@ Di seguito sono riportati i dieci widget attualmente disponibili tra cui sceglie
     Visualizza i thread di commenti recenti da Workfront, in modo simile alla pagina My Updates (I miei aggiornamenti). Puoi utilizzare il pulsante di risposta per comporre una risposta all’interno del widget. Questo widget mostra anche i commenti aggiunti sulle attività e sui problemi che ti vengono assegnati, che hai assegnato a un altro utente, di cui sei proprietario, per cui sei il contatto principale o che hai creato, purché l’attività o il problema sia stato aggiornato negli ultimi 30 giorni.
 
 * **Da fare**\
-    Questo widget univoco consente di aggiungere elementi di testo a un elenco di controllo personale che puoi modificare liberamente.
+    Questo widget univoco consente di aggiungere elementi a un elenco di controllo personale che puoi modificare liberamente. Le cose da fare vengono tracciate come attività nel progetto personale e rimangono fino a due settimane dopo il completamento.
 
   >[!NOTE]
   >
