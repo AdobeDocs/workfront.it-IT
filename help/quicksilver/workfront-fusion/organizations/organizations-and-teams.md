@@ -8,9 +8,9 @@ description: Le funzioni Organizzazione e Team di Adobe Workfront Fusion consent
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 7c05196cd00765a506e028627305ba17978e410d
+source-git-commit: 063c4a885d43b41ba6ff72ac22a1552486531fa6
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1239'
 ht-degree: 0%
 
 ---
@@ -169,19 +169,13 @@ Per creare un team:
 
 >[!NOTE]
 >
->Se accedi a [!DNL Fusion] tramite [!DNL Adobe Experience Cloud], le notifiche vengono gestite in [!DNL Experience Cloud] centro notifiche.
->
->Per ulteriori informazioni, consulta [Accedere alle notifiche](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] per [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
-
-Le opzioni di notifica e-mail sono impostate a livello di team.
-
->[!NOTE]
->
 >Se l’organizzazione è stata spostata in Unified Shell, riceverai notifiche tramite l’area Notifiche di Adobe. Per visualizzare le notifiche nell’area Notifiche di Adobe, è necessario utilizzare l’esperienza Unified Shell.
 >
 >Per utilizzare l’esperienza Unified Shell, inclusa l’area Notifiche dell’Adobe, fai clic sul pulsante Prova nuova interfaccia utente di Fusion in Esperienza unificata nella parte superiore della pagina. Questo pulsante è disponibile solo se l’organizzazione è stata spostata in Unified Shell.
 >
->Per ulteriori informazioni sull’individuazione delle notifiche in Unified Shell, consulta [Accedere alle notifiche](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
+>Per ulteriori informazioni, consulta [Accedere alle notifiche](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [!DNL Adobe Unified Experience] per [!DNL Workfront Fusion].
+
+Le opzioni di notifica e-mail sono impostate a livello di team.
 
 1. Nel pannello di navigazione a sinistra, fai clic su **[!UICONTROL Team]**
 1. Seleziona la **[!UICONTROL Opzioni di notifica]** scheda.
