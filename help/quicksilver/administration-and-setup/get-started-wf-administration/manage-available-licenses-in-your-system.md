@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,11 @@ Per visualizzare le informazioni sulle licenze nel sistema:
    >
    >Le licenze Proof sono disponibili solo per i clienti che hanno acquistato a pagamento il componente aggiuntivo Workfront Proof, oltre alla licenza Workfront. Per informazioni su questo componente aggiuntivo, vedere [Workfront Proof: indice articolo](../../workfront-proof/workfront-proof.md).
 
-1. (Condizionale) Se viene visualizzato il messaggio **Per impostare un massimo, è necessario aggiungere un Gruppo Predefinito**, aggiungi un gruppo predefinito nel sistema come descritto nella sezione [Aggiungere o rimuovere un gruppo predefinito nella pagina Licenze](#add-or-remove-a-home-group-to-the-licenses-page) in questo articolo.
+1. (Condizionale) Se viene visualizzato il messaggio **Per impostare un massimo, è necessario aggiungere un Gruppo Predefinito**, aggiungi un Gruppo predefinito nel sistema come descritto nella sezione [Aggiungere o rimuovere un gruppo predefinito nella pagina Licenze](#add-or-remove-a-home-group-to-the-licenses-page) in questo articolo.
+
+   >[!NOTE]
+   >
+   >Per i nuovi piani, il piano Select non consente agli amministratori di visualizzare le licenze per gruppo predefinito. È possibile visualizzare solo il numero complessivo di licenze utilizzate. I piani Prime e Ultimate consentono di impostare il numero massimo di licenze per gruppo predefinito.
 
 ## Visualizzare informazioni sulle licenze per i componenti aggiuntivi di Workfront
 
