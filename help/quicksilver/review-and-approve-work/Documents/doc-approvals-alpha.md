@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
-source-git-commit: 580ed17642f2f7e20e507de00f61aec7f7a3b131
+source-git-commit: 86ae4fee243bbb2bee6f32c081b6b9debcc3e9b3
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,20 @@ Per partecipare a questa versione di Alpha, assicurati che il team di prodotto t
 
 ## Ultima versione
 
+## Versione Alpha 7 - marzo 2024
+
+In questo settimo Alpha sono disponibili:
+
+* Aggiunta la possibilità di creare scadenze per le approvazioni dei documenti.
+* Sono stati introdotti modelli di approvazione che è ora possibile creare e applicare alle approvazioni per risparmiare tempo nella configurazione.
+* Il widget delle approvazioni è stato aggiornato per mostrare più indicatori di prestazioni chiave con un elenco dettagliato da approfondire.
+
+Di seguito trovi il video completo:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+## _Versioni precedenti_
+
 ## Versione Alpha 6 - gennaio 2024
 
 In questo sesto Alpha sono disponibili:
@@ -37,8 +51,6 @@ In questo sesto Alpha sono disponibili:
 Di seguito trovi il video completo:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426860/)
-
-## _Versioni precedenti_
 
 ### Versione Alpha 5 - settembre 2023
 
