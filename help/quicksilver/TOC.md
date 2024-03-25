@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 640fd9e2df3a8344273078841f75f23ba259e6f6
+source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
 workflow-type: tm+mt
-source-wordcount: '14043'
+source-wordcount: '14044'
 ht-degree: 1%
 
 ---
@@ -2186,6 +2186,7 @@ ht-degree: 1%
       * [App e relativi moduli](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
       * [Moduli Adobe Workfront](workfront-fusion/apps-and-their-modules/workfront-modules.md)
       * [Moduli bozza di Workfront](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+      * [Moduli di Adobe Workfront Planning](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
       * [[!DNL Workfront Boards] moduli](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-boards-modules.md)
       * [Modulo Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
       * [Moduli Adobe Acrobat Sign](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
@@ -2195,7 +2196,6 @@ ht-degree: 1%
       * [Modulo Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Moduli Adobe Journey Optimizer](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Moduli Adobe Lightroom](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
-      * [Moduli Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
       * [Moduli dei servizi Adobe PDF](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Moduli Adobe Photoshop](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Moduli Adobe Target](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)

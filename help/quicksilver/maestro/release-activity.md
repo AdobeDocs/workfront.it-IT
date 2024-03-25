@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
 workflow-type: tm+mt
 source-wordcount: '5057'
 ht-degree: 0%
@@ -445,7 +445,7 @@ Ora è possibile utilizzare Adobe Workfront Fusion per connettersi alle funziona
 
 * Attiva uno scenario quando viene apportata una modifica alle funzionalità di pianificazione
 
-Per ulteriori informazioni, consulta [Moduli Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+Per ulteriori informazioni, consulta [Moduli Adobe Maestro](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Settimana dell’11 dicembre 2023
 

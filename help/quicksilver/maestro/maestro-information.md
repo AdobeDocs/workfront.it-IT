@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: b3a2f3ee4d89a6370c498457c1958cd7b9ea69b8
+source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Accedi ai seguenti articoli per una panoramica delle nuove funzionalità di pian
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 * [Panoramica delle funzionalità di pianificazione di Adobe Workfront](maestro-overview.md): panoramica di alto livello delle funzionalità di pianificazione di Adobe Workfront, inclusi terminologia e concetti specifici di questa soluzione. È consigliabile avviare il percorso con le nuove funzionalità di pianificazione disponibili qui.
 * [Attività di rilascio delle funzionalità di pianificazione di Adobe Workfront](../maestro/release-activity.md): elenco di tutte le funzioni rilasciate dall’avvio del programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront, il 22 maggio 2023, con date esatte di rilascio e una breve panoramica di ciascuna funzione.
-* [Moduli Adobe Maestro per Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
+* [Moduli Adobe Maestro per Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 
 ## Architettura e funzionalità di pianificazione di Workfront
 
