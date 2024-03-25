@@ -7,10 +7,10 @@ description: Dettagli dello scenario in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 0%
+source-wordcount: '579'
+ht-degree: 1%
 
 ---
 
@@ -92,7 +92,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
        <ul> 
         <li>Data di creazione</li> 
         <li>Dimensione del trasferimento di dati</li> 
-        <li>Riprovare</li> 
+        <li>Riprova</li> 
         <li>Risolto</li> 
         <li>Numero di tentativi</li> 
        </ul> </td> 
@@ -133,6 +133,10 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Statats]</p>  </td> 
       <td>Questo grafico consente di visualizzare la quantità di trasferimenti di dati e operazioni utilizzate durante le esecuzioni dello scenario in un grafico [!UICONTROL line].</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Elaborazione banner]</p>  </td> 
+      <td>Se lo scenario è stato eseguito di recente, è possibile che venga visualizzato un banner con il testo:<p><code>Data is still being processed. Only partial scenario history will show until processing is complete.</code></p>Questo viene visualizzato durante la scrittura dei dettagli di esecuzione nell’archivio. L’elaborazione si verifica immediatamente dopo l’esecuzione dello scenario. e non dovrebbe durare più di qualche minuto. I dettagli dell’esecuzione dello scenario potrebbero non essere visibili durante l’elaborazione dell’esecuzione.</td> 
      </tr> 
     </tbody> 
    </table>

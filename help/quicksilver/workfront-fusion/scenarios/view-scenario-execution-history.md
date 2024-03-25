@@ -7,10 +7,10 @@ description: È possibile visualizzare informazioni su tutte le esecuzioni di un
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 1%
+source-wordcount: '958'
+ht-degree: 0%
 
 ---
 
@@ -73,8 +73,6 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
    ![](assets/open-history-tab-350x202.png)
 
-   Clr
-
    Puoi anche fare clic su per visualizzare una pagina intera di queste informazioni. La visualizzazione a pagina intera consente di filtrare la cronologia per visualizzare esecuzioni specifiche.
 
    Per ogni esecuzione dello scenario sono elencati i seguenti dettagli:
@@ -85,6 +83,10 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
    * Numero di **[!UICONTROL Operazioni]**
    * Dimensione di **[!UICONTROL Trasferimento dati]**
    * Collega a **[!UICONTROL Dettagli]**
+
+>[!NOTE]
+>
+>La cronologia dello scenario visualizza un **Elaborazione** il badge accanto agli scenari eseguiti di recente, mentre i dettagli di esecuzione vengono scritti nell’archivio. L’elaborazione si verifica immediatamente dopo l’esecuzione dello scenario. e non dovrebbe durare più di qualche minuto. I dettagli dell’esecuzione dello scenario potrebbero non essere visibili durante l’elaborazione dell’esecuzione.
 
 ### Visualizzare la cronologia di esecuzione dello scenario in [!UICONTROL Cronologia] scheda
 
@@ -103,7 +105,9 @@ Il [!UICONTROL Cronologia] La scheda mostra più dettagli di quanto non sia disp
 
    >[!NOTE]
    >
-   >Il [!UICONTROL dettagli] il collegamento è visibile solo se sono disponibili i dettagli dell’esecuzione.
+   >* Il [!UICONTROL dettagli] il collegamento è visibile solo se sono disponibili i dettagli dell’esecuzione.
+   >
+   >* La cronologia dello scenario visualizza un **Cronologia elaborazione** il badge accanto agli scenari eseguiti di recente, mentre i dettagli di esecuzione vengono scritti nell’archivio. L’elaborazione si verifica immediatamente dopo l’esecuzione dello scenario. e non dovrebbe durare più di qualche minuto. I dettagli dell’esecuzione dello scenario potrebbero non essere visibili durante l’elaborazione dell’esecuzione.
 
 ## Filtrare la cronologia di esecuzione dello scenario
 
@@ -169,7 +173,7 @@ Puoi ordinare la cronologia di esecuzione dello scenario.
 
    * [!UICONTROL Avvertenza]
 
-   * [!UICONTROL Operazione completata]
+   * [!UICONTROL Completato]
 
 1. (Facoltativo) Modifica l’ordine di visualizzazione dei risultati in **[!UICONTROL Ordina per date]** a discesa.
 
