@@ -1,21 +1,21 @@
 ---
 title: Elimina tipi di record
-description: È possibile eliminare i tipi di record operativi o i tipi di record della tassonomia quando non sono più rilevanti.
+description: È possibile eliminare i tipi di record quando non sono più rilevanti.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+<!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
 title: Delete record types
-description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+description: You can delete record types when they are no longer relevant. 
 author: Alina
 feature: Work Management
 topic: Architecture
@@ -29,11 +29,11 @@ hide: yes
 
 {{maestro-important-intro}}
 
-È possibile eliminare i tipi di record operativi o i tipi di record della tassonomia quando non sono più rilevanti.
+È possibile eliminare i tipi di record quando non sono più rilevanti.
 
-Per informazioni sui tipi di record e sulle tassonomie, vedere [Panoramica dei tipi di record e delle tassonomie](../architecture/overview-of-record-types-and-taxonomies.md).
+Tuttavia, l&#39;eliminazione dei tipi di record comporta anche l&#39;eliminazione di tutte le informazioni associate ai tipi di record. Per ulteriori informazioni, vedere [Considerazioni durante l’eliminazione dei tipi di record](#considerations-when-deleting-record-types) in questo articolo.
 
-È consigliabile ricreare i campi e i record associati al tipo di record o alla tassonomia che si desidera eliminare in un altro tipo di record prima di eliminarli.
+Per informazioni sui tipi di record, vedere [Panoramica dei tipi di record](../architecture/overview-of-record-types-and-taxonomies.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -56,7 +56,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non ci sono controlli del livello di accesso per Maestro</p>  
+   <td> <p>Non sono presenti controlli del livello di accesso per la pianificazione di Adobe Workfront</p>  
 </td>
   </tr>
 
@@ -86,14 +86,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 
 </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -108,13 +108,17 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* È possibile eliminare solo i tipi di record o le tassonomie dalle aree di lavoro per le quali si dispone delle autorizzazioni di gestione.
-* L&#39;eliminazione dei tipi di record comporta la rimozione di tutte le informazioni ad essi associate, inclusi i campi e i record di quel tipo. Il tipo di record viene rimosso da tutti gli utenti che accedono all’area di lavoro.
+* È possibile eliminare solo i tipi di record dalle aree di lavoro per le quali si dispone delle autorizzazioni Gestione.
+* L&#39;eliminazione dei tipi di record comporta la rimozione delle seguenti informazioni ad essi associate:
+
+   * Tutti i record di quel tipo.
+   * Tutti i campi associati al tipo di record.
+   * Tutte le visualizzazioni (inclusi filtri, raggruppamenti e criteri di ordinamento) del tipo di record.
+* Il tipo di record viene rimosso da tutti gli utenti che accedono all’area di lavoro.
 * Non è possibile recuperare i tipi di record eliminati o le relative informazioni.
+* È consigliabile ricreare i campi e i record associati al tipo di record che si desidera eliminare in un altro tipo di record prima di eliminarli.
 
 ## Elimina tipi di record
-
-L&#39;eliminazione dei tipi di record della tassonomia è identica all&#39;eliminazione dei tipi di record operativi.
 
 {{step1-to-maestro}}
 
@@ -123,10 +127,10 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera eliminare i tipi di record.
 
    Verrà aperto il workspace e verranno visualizzati i tipi di record e le tassonomie ad esso associati.
-1. Fare clic sulla scheda relativa al tipo di record o alla tassonomia che si desidera eliminare.
+1. Fare clic sulla scheda del tipo di record che si desidera eliminare.
 
    Verrà aperta la pagina del tipo di record.
 1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Elimina**.
 1. Clic **Elimina** per confermare.
 
-   Il tipo di record o la tassonomia selezionati, insieme ai relativi campi e record associati, vengono eliminati.
+   Il tipo di record selezionato e i relativi campi, record associati e viste vengono eliminati.

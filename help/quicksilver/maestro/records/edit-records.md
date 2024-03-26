@@ -1,13 +1,13 @@
 ---
 title: Modifica record
-description: È possibile modificare le informazioni del record nelle funzionalità di pianificazione di Adobe Workfront. È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
+description: È possibile modificare le informazioni del record nella pianificazione di Adobe Workfront. È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-È possibile modificare le informazioni sui record nelle funzionalità di pianificazione di Adobe Workfront modificando i valori dei campi associati ai record.
+È possibile modificare le informazioni sui record in Adobe Workfront Planning modificando i valori dei campi associati ai record.
 
 È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 
@@ -47,7 +47,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non sono presenti controlli di accesso per le funzionalità di pianificazione di Adobe Workfront </p>  
+   <td> <p>Nessun controllo di accesso per la pianificazione di Adobe Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -78,7 +78,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 

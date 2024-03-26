@@ -1,7 +1,7 @@
 ---
-source-git-commit: 46c4deee89c786b73945c2facbf6d21ef035c14f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2355'
 ht-degree: 1%
 
 ---
@@ -247,19 +247,19 @@ Per impostare le cartelle collegate:
 
 ## Passaggio 1 - Come arrivare a Maestro - {#step1-to-maestro}
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Maestro]**.
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Pianificazione]**.
 
 ## Maestro importante intro - {#maestro-important-intro}
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono alle funzionalità di pianificazione di Adobe Workfront, una nuova offerta di Adobe Workfront.
+>Le informazioni contenute in questo articolo si riferiscono alla pianificazione di Adobe Workfront, una nuova offerta di Adobe Workfront.
 >
->Attualmente, le funzionalità di pianificazione fanno parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
+>Attualmente, la pianificazione Workfront fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
 >
->Per ulteriori informazioni su come partecipare al programma beta per le funzionalità di pianificazione, contatta il rappresentante del tuo account.
+>Per ulteriori informazioni su come partecipare al programma beta per la pianificazione di Workfront, contatta il rappresentante del tuo account.
 >
->Per ulteriori informazioni sulle funzionalità di pianificazione, vedere [Panoramica delle funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>Per ulteriori informazioni, consulta [Panoramica sulla pianificazione di Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

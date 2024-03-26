@@ -1,13 +1,13 @@
 ---
 title: Elimina campi
-description: Ad Adobe, Maestro, puoi eliminare i campi personalizzati che non sono più rilevanti.
+description: Nella pianificazione di Adobe Workfront, puoi eliminare i campi personalizzati che non sono più rilevanti.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,13 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Ad Adobe, Maestro, puoi creare campi personalizzati per memorizzare informazioni sui record.
+In Adobe Workfront Planning è possibile creare campi personalizzati per memorizzare informazioni sui record.
 
-Per informazioni sulla creazione di campi personalizzati in Maestro, consulta [Crea campi](../fields/create-fields.md).
+Per informazioni sulla creazione di campi personalizzati nella pianificazione di Workfront, vedere [Crea campi](../fields/create-fields.md).
 
-Puoi eliminare i campi Maestro che non sono più rilevanti.
+È possibile eliminare i campi di pianificazione di Workfront che non sono più rilevanti.
 
-## Considerazioni sull’eliminazione dei campi Maestro:
+## Considerazioni sull&#39;eliminazione dei campi di pianificazione di Workfront:
 
 * È possibile eliminare un campo solo nella vista tabella del tipo di record.
 * Impossibile eliminare il campo principale di un record.
@@ -65,7 +65,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -83,12 +83,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non ci sono controlli del livello di accesso per Maestro</p>  
+   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -113,7 +113,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-maestro}}
 
-Si apre l’ultimo spazio di lavoro a cui si è avuto accesso in Maestro.
+Verrà aperta l&#39;ultima area di lavoro a cui si è effettuato l&#39;accesso in Workfront Planning.
 1. Fare clic sulla scheda di un tipo di record di cui si desidera eliminare i campi.
 1. (Condizionale) Seleziona un **Vista tabella** dal **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
 1. Individuare il campo da eliminare nelle intestazioni di colonna, posizionare il puntatore del mouse sull&#39;intestazione di colonna e fare clic sulla freccia rivolta verso il basso dopo il nome del campo.

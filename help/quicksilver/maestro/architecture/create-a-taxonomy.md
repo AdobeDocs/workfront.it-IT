@@ -1,14 +1,14 @@
 ---
 title: Creare tipi di record di tassonomia
-description: Le tassonomie sono un tipo di tipi di record riutilizzabili che acquisisce attributi relativi a un tipo di record operativo in Adobe Workfront Maestro.
+description: Quando si utilizza un modello per creare un'area di lavoro, i tipi di record vengono creati nelle sezioni Tipi di record operativi e Tassonomie.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '395'
+ht-degree: 3%
 
 ---
 
@@ -18,11 +18,16 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-I tipi di record di tassonomia acquisiscono attributi sui tipi di record operativi in Adobe Maestro.
+Quando si utilizza un modello per creare un&#39;area di lavoro, i tipi di record vengono creati nelle sezioni seguenti:
+
+* Tipi di record operativi
+* Tassonomie
+
+I tipi di record nella sezione Tassonomie di un&#39;area di lavoro acquisiscono attributi sui tipi di record nella sezione Tipi di record operativi della stessa area di lavoro.
 
 Ad esempio, Campaign può essere un tipo di record operativo. Di seguito sono riportate le tassonomie che acquisiscono gli attributi relativi al tipo di record Campaign: Area geografica, Pubblico, Paese.
 
-Per ulteriori informazioni sui tipi di record Maestro, vedi [Panoramica dei tipi di record e delle tassonomie](../architecture/overview-of-record-types-and-taxonomies.md).
+Per ulteriori informazioni sui tipi di record, vedere [Panoramica dei tipi di record](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Requisiti di accesso
 
@@ -39,11 +44,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <td>
    <p> Prodotto</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Per collegare i tipi di record Maestro a Experience Manager Assets, devi disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Per collegare i tipi di record a Experience Manager Assets, devi disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -61,12 +66,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non ci sono controlli del livello di accesso per Maestro</p>  
+   <td> <p>Non sono presenti controlli del livello di accesso per la pianificazione di Adobe Workfront</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -91,16 +96,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni sulla creazione di tassonomie
 
-* È necessario creare un&#39;area di lavoro prima di poter creare tipi di record di tassonomia nell&#39;area di lavoro.
+* È necessario creare un&#39;area di lavoro utilizzando un modello prima di poter creare tipi di record nella sezione Tassonomie dell&#39;area di lavoro.
 
   Per informazioni sulle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
-* È possibile creare un tipo di record di tassonomia eseguendo una delle operazioni seguenti:
+* È possibile creare un tipo di record nella sezione Tassonomie di un&#39;area di lavoro eseguendo una delle operazioni seguenti:
    * Creali automaticamente quando crei un’area di lavoro utilizzando un modello. Per informazioni, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
-   * Creale manualmente, da zero.
+   * Creale manualmente, da zero, nella sezione Tassonomie di un’area di lavoro.
 
-* Tutti i nuovi tipi di record di tassonomia creati sono disponibili nei campi riportati di seguito.
+* Per impostazione predefinita, tutte le nuove tassonomie create presentano i campi seguenti:
 
-   * Nome <!--if there won't be any more fields, consider rephrasing this-->
+   * Nome
+   * Descrizione
+   * Data di inizio
+   * Data di fine
+   * Stato
 
   È inoltre possibile aggiungere campi personalizzati alle tassonomie. Per ulteriori informazioni, consulta [Crea campi](../fields/create-fields.md).
 
@@ -110,8 +119,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Creare un tipo di record tassonomia
 
-La creazione di tipi di record di tassonomia è simile alla creazione di tipi di record operativi da zero o da un modello di workspace.
+La creazione di tipi di record di tassonomia è simile alla creazione di tipi di record.
 
-Per informazioni, vedere la sezione &quot;Creare un tipo di record da zero&quot; nell&#39;articolo [Crea tipi di record](../architecture/create-record-types.md).
-
-Per informazioni sulla creazione automatica di tassonomie durante la creazione di un&#39;area di lavoro da un modello, vedere [Creare aree di lavoro](../architecture/create-workspaces.md).
+Per informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).

@@ -1,13 +1,13 @@
 ---
 title: Gestire le visualizzazioni record
-description: È possibile visualizzare i record in una vista tabella, timeline o calendario quando si utilizzano le funzionalità di pianificazione di Adobe Workfront.
+description: È possibile visualizzare i record in una vista tabella, sequenza temporale o calendario quando si utilizza Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1071'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Dopo aver selezionato un tipo di record nell&#39;area delle funzionalità di pianificazione di Adobe Workfront, è possibile visualizzare tutti i record di quel tipo nelle seguenti viste:
+Dopo aver selezionato un tipo di record nell&#39;area di pianificazione di Adobe Workfront, è possibile visualizzare tutti i record di quel tipo nelle seguenti visualizzazioni:
 
 * Tabella
 
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader">Configurazione del livello di accesso</td>
-   <td> <p>Non sono disponibili controlli del livello di accesso per le funzionalità di pianificazione di Workfront</p>  
+   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader">Modello di layout</td>
-   <td> <p>L’amministratore di sistema deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore di sistema deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -89,9 +89,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni durante l&#39;utilizzo delle visualizzazioni record
 
-* Le visualizzazioni nell&#39;area delle funzionalità di pianificazione di Workfront sono specifiche per il tipo di record. Non è possibile applicare la stessa visualizzazione a due tipi di record diversi.
+* Le visualizzazioni nella pianificazione di Workfront sono specifiche per il tipo di record. Non è possibile applicare la stessa visualizzazione a due tipi di record diversi.
 * Le visualizzazioni create sono visibili solo a te e agli utenti con cui condividi le visualizzazioni.
-* La creazione di viste per i tipi di record operativi è identica alla creazione di viste per i tipi di record della tassonomia.
 * Quando si modifica o si elimina una visualizzazione, questa viene modificata ed eliminata per tutti gli utenti che dispongono di autorizzazioni per la visualizzazione.
 * I seguenti elementi sono univoci per ogni visualizzazione record:
 
@@ -101,19 +100,19 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
   <!-- some of these are not available in all of the views - edit above-->
 
-  Ad esempio, quando si crea un filtro in una vista tabella, i risultati del filtro sono visibili solo nella vista selezionata e non in tutte le viste elencate nel menu a discesa Vista.
+  Ad esempio, quando si crea un filtro in una visualizzazione tabella, i risultati del filtro sono visibili solo nella visualizzazione selezionata e non in tutte le visualizzazioni associate al tipo di record.
 
   >[!NOTE]
   >
-  > Poiché le funzionalità di pianificazione di Adobe Workfront sono attualmente in stato beta, alcuni elementi della vista potrebbero non essere disponibili per tutte le viste.
+  > Poiché la pianificazione di Adobe Workfront è attualmente in stato beta, alcuni elementi di visualizzazione potrebbero non essere disponibili per tutte le visualizzazioni.
 
 Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
 
 * [Creare e modificare una vista](#create-or-edit-record-views)
 * [Eliminare una visualizzazione](#delete-views)
-  <!--* [Duplicate a view](#duplicate-views)-->
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+* [Duplicare una vista](#duplicate-views)
 * [Condividere una visualizzazione](#share-a-view)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Somiglianze e differenze tra le visualizzazioni record
 
@@ -233,20 +232,30 @@ Per informazioni sulla condivisione delle visualizzazioni, vedi [Condividere le 
 
 <!--## Add a view as a favorite - this is not possible yet-->
 
-<!--not possible yet - August 30, 2023: 
+<!--not possible yet - August 30, 2023: -->
 
-## Duplicate views
+## Duplicare una vista
 
-If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
+Se si desidera mantenere più versioni di una visualizzazione e apportare lievi modifiche tra le versioni, è possibile duplicare una visualizzazione.
 
-1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
+La duplicazione di una vista crea copie identiche di una vista esistente.
 
-    By default, all the records of the type selected display in the table view. 
+Le autorizzazioni di condivisione della vista originale non vengono trasferite alla vista duplicata.
 
-1. Click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) to the right of the view name > **Duplicate**. (**********ensure there is not another saving step here?! also, add how this view is named; the button to duplicate was there but not the functionality yet************)
-    
-    The view is duplicated and visible to all users who can access the Maestro area. 
+{{step1-to-maestro}}
 
--->
+Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si è effettuato l&#39;accesso.
+
+Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
+
+1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Crea tipi di record](../architecture/create-record-types.md).
+
+   Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
+
+1. Posizionare il puntatore del mouse sulla scheda della visualizzazione da duplicare e fare clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Duplica**.
+
+   ![](assets/view-more-menu-with-duplicate-option.png)
+
+
+   La vista viene duplicata e il nome della nuova vista segue il seguente pattern: `Original view's name (Copy)`. La nuova scheda vista viene visualizzata alla fine di tutte le schede vista.
+

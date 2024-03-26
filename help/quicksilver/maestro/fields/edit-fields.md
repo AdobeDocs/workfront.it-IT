@@ -1,13 +1,13 @@
 ---
 title: Modifica campi
-description: Ad Adobe, Maestro può modificare le impostazioni dei campi già creati.
+description: In Adobe Workfront Planning è possibile modificare le impostazioni dei campi per i campi già creati.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-È possibile modificare le impostazioni dei campi già creati.
+È possibile modificare le impostazioni dei campi già creati nella pianificazione di Adobe Workfront.
 
-Per informazioni sulla creazione di campi Adobe Maestro, consulta [Crea campi](../fields/create-fields.md).
+Per informazioni sulla creazione dei campi di pianificazione di Adobe Workfront, consulta [Crea campi](../fields/create-fields.md).
 
-Questo articolo descrive come modificare le impostazioni per i campi Maestro. Per informazioni sulla modifica dei valori dei campi per i record Maestro, vedere [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
+Questo articolo descrive come modificare le impostazioni per i campi di pianificazione di Workfront. Per informazioni sulla modifica dei valori dei campi per i record, vedere [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Considerazioni sulla modifica delle informazioni sui campi
 
@@ -69,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +87,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Non ci sono controlli di accesso per Maestro</p>  
+   <td> <p>Nessun controllo di accesso per la pianificazione di Workfront</p>  
 </td>
   </tr>
 
@@ -99,7 +99,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 
@@ -113,14 +113,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Modifica campi
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro di Workfront oppure **Menu principale** icona ![](assets/main-menu-shell.png)  nell’angolo superiore sinistro, se disponibile, fai clic su **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-   Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
+    Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera eliminare i tipi di record.
 
-   Verrà aperto il workspace e verranno visualizzati i tipi di record e le tassonomie ad esso associati.
-1. Fare clic sulla scheda relativa al tipo di record o alla tassonomia di cui si desidera modificare i campi.
+   Verrà aperto il workspace e verranno visualizzati i tipi di record associati.
+1. Fare clic sulla scheda del tipo di record di cui si desidera modificare i campi.
 
    Verrà aperta la pagina del tipo di record.
 1. (Condizionale) Seleziona un **Vista tabella** dal **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.

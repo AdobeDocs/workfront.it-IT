@@ -1,12 +1,13 @@
 ---
 title: Aggiungi miniature ai record
-description: È possibile modificare le informazioni del record in Adobe Maestro e associare ciascun record alle singole miniature, per renderle facilmente riconoscibili.
+description: È possibile modificare le informazioni dei record in Adobe Workfront Planning e associare ogni record a singole miniature per renderle facilmente riconoscibili.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-È possibile associare record a miniature univoche in Adobe Maestro, per renderle facilmente riconoscibili.
+È possibile associare record a miniature univoche nella pianificazione di Adobe Workfront per renderle facilmente riconoscibili.
 
 È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 Per informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
@@ -43,7 +44,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non ci sono controlli di accesso per Maestro </p>  
+   <td> <p>Nessun controllo di accesso per la pianificazione di Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -72,7 +73,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td>  <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Maestro nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/maestro/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td>  <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/maestro/access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 

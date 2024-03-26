@@ -1,35 +1,27 @@
 ---
-title: Creare tipi di record operativi
+title: Crea tipi di record
 description: I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. In Workfront Planning è possibile creare tipi di record personalizzati che illustrano gli elementi di lavoro necessari nel ciclo di vita dell'organizzazione.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Creare tipi di record operativi
+# Crea tipi di record
 
 {{maestro-important-intro}}
 
 I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. In Workfront Planning è possibile creare tipi di record personalizzati che illustrano gli elementi relativi al lavoro necessari per il ciclo di vita dell&#39;organizzazione.
-
 I tipi di record possono essere uno dei seguenti:
 
-* **Tipi di record operativi**
-* **Tassonomie**
-
-Per ulteriori informazioni sui tipi di record, vedere [Panoramica dei tipi di record e delle tassonomie](../architecture/overview-of-record-types-and-taxonomies.md).
-
-La creazione di tipi di record operativi è simile alla creazione di tipi di record di tassonomia. Questo articolo descrive come creare tipi di record operativi.
-
-Per informazioni sulla creazione delle tassonomie, vedere [Creare tipi di record di tassonomia](../architecture/create-a-taxonomy.md).
+Per ulteriori informazioni sui tipi di record, vedere [Panoramica dei tipi di record](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Requisiti di accesso
 
@@ -75,7 +67,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -87,7 +79,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -106,22 +98,34 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       * Quando crei un’area di lavoro utilizzando un modello.
 
         Per informazioni, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
-      * Quando vengono importati utilizzando un file Excel o CSV. Questa opzione non è disponibile per i tipi di record di tassonomia.
+
+      * Quando vengono importati utilizzando un file Excel o CSV.
 
         >[!IMPORTANT]
         >
         >Questa funzionalità è stata temporaneamente disabilitata dal 21 marzo 2024. Verrà attivato in un secondo momento.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
-        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
+        For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manualmente:
 
       * Da zero.
 
+        Questo articolo descrive come creare tipi di record generici da zero in un&#39;area di lavoro creata da zero.
+
+* È possibile spostare tipi di record all&#39;interno di una sezione e da una sezione di un&#39;area di lavoro a un&#39;altra. Non è possibile spostare tipi di record da un&#39;area di lavoro a un&#39;altra.
+
 ## Creare tipi di record utilizzando un modello di area di lavoro
 
-È possibile creare automaticamente i tipi di record quando si crea un&#39;area di lavoro utilizzando un modello di pianificazione di Workfront. Ogni modello contiene esempi di tipi di record operativi e di tassonomia.
+È possibile creare automaticamente i tipi di record quando si crea un&#39;area di lavoro utilizzando un modello di pianificazione di Workfront. Ogni modello contiene tipi di record di esempio.
+
+Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono raggruppati nelle sezioni seguenti:
+
+* Tipi di record operativi
+* Tassonomie
+
+È possibile aggiungere manualmente tipi di record nelle sezioni Tipi di record operativi e Tassonomie.
 
 Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
 
@@ -129,9 +133,7 @@ Per informazioni sui tipi di record inclusi in ogni modello, vedere [Elenco dei 
 
 ## Creare un tipo di record da zero
 
-Questo articolo descrive come creare tipi di record operativi da zero. La creazione di tipi di record operativi da zero è simile alla creazione di tassonomie.
-
-Per ulteriori informazioni sulle tassonomie, consulta [Creare una tassonomia](../architecture/create-a-taxonomy.md).
+Questo articolo descrive come creare tipi di record da zero.
 
 {{step1-to-maestro}}
 
@@ -139,7 +141,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera creare i tipi di record.
 1. Clic **Aggiungi tipo di record**.
-1. (Condizionale) Se si sta creando un tipo di record operativo, fare clic su **Da zero**. Questa opzione non è disponibile durante la creazione di tassonomie.
+1. (Condizionale) Se si sta creando un tipo di record operativo, fare clic su **Da zero**.
 
    Viene visualizzata la casella Aggiungi tipo di record.
 
@@ -165,8 +167,6 @@ Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
    Per impostazione predefinita, i campi seguenti vengono visualizzati nelle colonne della vista tabella di un tipo di record operativo:
 
    * Nome
-
-     Il campo Nome è l’unico campo creato automaticamente per le tassonomie.
    * Descrizione
    * Data di inizio
    * Data di fine
@@ -196,6 +196,10 @@ Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
    * [Modifica tipi di record](../architecture/edit-record-types.md)
    * [Gestire le visualizzazioni record](../views/manage-record-views.md)
 
+1. (Facoltativo) Dall&#39;area di lavoro, fare clic su per trascinare un tipo di record in un punto desiderato o per spostarlo in un&#39;altra sezione.
+
+   Le modifiche vengono salvate automaticamente dopo che la scheda del tipo di record selezionato è stata eliminata.
+
 ## Creare tipi di record importando un file Excel o CSV
 
 >[!IMPORTANT]
@@ -223,12 +227,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera creare i tipi di record.
 1. Clic **Aggiungi tipo di record**.
-1. (Condizionale) Se si sta creando un tipo di record operativo, fare clic su **Excel/CSV**.
-
-   >[!NOTE]
-   >
-   >    Questa opzione non è disponibile quando si creano tipi di record di tassonomia.
-
+1. Clic **Excel/CSV**.
 1. Trascina e rilascia un file Excel o CSV salvato in precedenza sul computer, oppure fai clic su **Seleziona un file CSV o Excel** per sfogliarne uno.
 1. Clic **Verifica i dati**.
 
@@ -267,9 +266,9 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 <!--## Connect record types with object types from another application
 
-You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

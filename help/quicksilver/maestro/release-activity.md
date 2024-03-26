@@ -1,18 +1,18 @@
 ---
-title: Attività di rilascio delle funzionalità di pianificazione di Adobe Workfront
+title: attività sulla versione di Adobe Workfront planning
 description: Le funzionalità di pianificazione di Adobe Workfront sono attualmente disponibili per alcuni clienti Workfront. Consulta spesso questo articolo per scoprire le funzioni rilasciate di recente per le funzionalità di pianificazione.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 593612fea52d917904605cf3d97403347c9c9ac0
+source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
 workflow-type: tm+mt
-source-wordcount: '5057'
+source-wordcount: '5266'
 ht-degree: 0%
 
 ---
 
-# Attività di rilascio delle funzionalità di pianificazione di Adobe Workfront
+# attività sulla versione di Adobe Workfront planning
 
 {{maestro-important-intro}}
 
@@ -31,6 +31,46 @@ Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rila
 >[!IMPORTANT]
 >
 >La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
+
+## Settimana del 25 marzo 2024
+
+### Nuova organizzazione di tipo record flessibile per le aree di lavoro
+
+Produzione: 25 marzo 2024
+
+Anteprima: da determinare
+
+Per rendere più efficiente l&#39;impostazione delle aree di lavoro, è stata modificata la modalità di organizzazione dei tipi di record in un&#39;area di lavoro. Alcuni dei miglioramenti includono:
+
+* Crea fino a 50 sezioni di tipi di record in ogni area di lavoro. Le sezioni dei tipi di record operativi e delle tassonomie esistenti rimangono nelle aree di lavoro esistenti.
+
+* Personalizza completamente tutte le nuove aree di lavoro e le relative nuove sezioni per riflettere i processi e le esigenze dell’organizzazione.
+
+* Spostare dinamicamente i tipi di record all’interno di un’area di lavoro trascinandoli nella posizione desiderata, anche in sezioni diverse.
+
+Per ulteriori informazioni, consulta [Crea tipi di record](/help/quicksilver/maestro/architecture/create-record-types.md).
+
+### Visualizzazioni duplicate
+
+Produzione: 25 marzo 2024
+
+Anteprima: da determinare
+
+Per risparmiare tempo e mantenere la coerenza, ora puoi duplicare una vista esistente a cui hai autorizzazioni di accesso.
+
+La duplicazione di una vista crea una vista identica, utilizzando gli stessi filtri, criteri di ordinamento e raggruppamenti. La duplicazione di una vista non mantiene le autorizzazioni della vista originale.
+
+Per ulteriori informazioni, consulta [Gestire le visualizzazioni record](/help/quicksilver/maestro/views/manage-record-views.md).
+
+### Rinominata area Maestro nel menu principale come Planning
+
+Produzione: 28 marzo 2024
+
+Anteprima: da determinare
+
+Abbiamo rinominato l’area Maestro nel Main Menu in Planning.
+
+Per una panoramica della pianificazione di Adobe Workfront, vedi [Panoramica sulla pianificazione di Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
 
 ## Settimana del 18 marzo 2024
 
@@ -207,7 +247,7 @@ Di seguito sono riportati i livelli più elevati di autorizzazioni che gli utent
 
 Per informazioni sul nuovo modello di licenza, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni sulla connessione tra il tipo di licenza e le autorizzazioni nelle funzionalità di pianificazione, consulta [Panoramica del tipo di licenza quando si utilizzano le funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+Per informazioni sulla connessione tra il tipo di licenza e le autorizzazioni nelle funzionalità di pianificazione, consulta [Panoramica del tipo di licenza quando si utilizza la pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nuovo aspetto della barra degli strumenti Testo formattato per i campi record

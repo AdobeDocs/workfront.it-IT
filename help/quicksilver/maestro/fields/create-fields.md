@@ -1,13 +1,13 @@
 ---
 title: Crea campi
-description: Ad Adobe, Maestro, puoi creare campi personalizzati per ogni tipo di record operativo o tassonomia. Puoi quindi associare il campo ai record Maestro.
+description: In Adobe Workfront Planning è possibile creare campi personalizzati per ogni tipo di record. È quindi possibile associare il campo ai record di pianificazione di Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: be9cedb0d09e6409a0e589f01b85a72933ac89fc
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '3341'
+source-wordcount: '3338'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Ad Adobe, Maestro può creare campi personalizzati per tipi di record operativi o tassonomie. È quindi possibile associare i campi ai record Maestro per migliorare le informazioni sui record.
+In Adobe Workfront Planning è possibile creare campi personalizzati per i tipi di record. È quindi possibile associare i campi ai record di pianificazione di Workfront per migliorare le informazioni sui record.
 
 È necessario creare tipi di record prima di poter creare campi da associare. Per informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Maestro non dispone di alcun controllo del livello di accesso</p>  
+   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>  
 </td>
   </tr>
 
@@ -98,7 +98,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 
@@ -373,13 +373,13 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
    Per ulteriori informazioni sulle espressioni supportate, vedi [Panoramica sui campi formula](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Aggiungi i nomi dei campi visualizzati nell’interfaccia Maestro per farvi riferimento in una formula.
+1. Aggiungere i nomi dei campi visualizzati nell&#39;interfaccia di pianificazione di Workfront per farvi riferimento in una formula.
 
    >[!NOTE]
    >
    > * Non è possibile aggiungere campi di tipo a selezione multipla in una formula.
    >
-   > * Impossibile aggiungere campi da record collegati in una formula. Questa funzionalità verrà rilasciata in un secondo momento. Per ulteriori informazioni sulle nuove versioni, consulta [Attività di rilascio delle funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
+   > * Impossibile aggiungere campi da record collegati in una formula. Questa funzionalità verrà rilasciata in un secondo momento. Per ulteriori informazioni sulle nuove versioni, consulta [attività sulla versione di Adobe Workfront planning](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Fai clic su **Crea**.
@@ -513,7 +513,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
 È possibile creare campi record collegati quando si aggiunge una nuova connessione tra due tipi di record Maestro o un tipo di record e un tipo di oggetto di altre applicazioni.
 
-Per informazioni sulla connessione dei tipi di record Maestro, vedere [Connetti tipi di record](../architecture/connect-record-types.md)
+Per informazioni sulla connessione dei tipi di record di pianificazione di Workfront, vedere [Connetti tipi di record](../architecture/connect-record-types.md)
 
 ## Creare campi importando tipi di record tramite un file Excel e CSV
 
@@ -521,10 +521,10 @@ Per ulteriori informazioni, consulta [Crea tipi di record](../architecture/creat
 
 ## Creare campi creando un tipo di record
 
-Quando si crea un tipo di record, per impostazione predefinita vengono creati anche diversi campi associati al nuovo tipo di record. Per ulteriori informazioni, consulta [Creare tipi di record operativi](../architecture/create-record-types.md).
+Quando si crea un tipo di record, per impostazione predefinita vengono creati anche diversi campi associati al nuovo tipo di record. Per ulteriori informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
 
 ## Creare campi creando un’area di lavoro da un modello
 
-Maestro crea campi per tipi di record operativi e tassonomie quando crei un’area di lavoro da un modello.
+Quando si crea un&#39;area di lavoro da un modello, Adobe Workfront planning crea dei campi per i tipi di record.
 
-Per informazioni, consulta [Creare aree di lavoro operative](../architecture/create-workspaces.md).
+Per informazioni, consulta [Creare aree di lavoro](/help/quicksilver/maestro/architecture/create-workspaces.md).

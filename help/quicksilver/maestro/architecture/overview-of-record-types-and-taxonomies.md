@@ -1,81 +1,87 @@
 ---
-title: Panoramica dei tipi di record e delle tassonomie
-description: I tipi di record sono gli elementi costitutivi di uno spazio di lavoro Maestro.
+title: Panoramica dei tipi di record
+description: I tipi di record sono i blocchi predefiniti di un'area di lavoro di pianificazione di Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 5681b540bceddaae85116b632e968d94761eec0d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Panoramica dei tipi di record e delle tassonomie
+# Panoramica dei tipi di record
 
 {{maestro-important-intro}}
 
-A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Adobe Maestro potete creare tipi di oggetto personalizzati. In Workfront, ad esempio, sono già stati creati i tipi di oggetto Programma, Portfolio, Progetto, Attività o Problema.
+A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Adobe Workfront Planning è possibile creare tipi di oggetto personalizzati. In Workfront, ad esempio, sono già stati creati i tipi di oggetto Programma, Portfolio, Progetto, Attività o Problema.
 
-I tipi di oggetto Maestro sono denominati &quot;tipi di record&quot;. I tipi di record sono gli elementi costitutivi di uno spazio di lavoro Maestro. Per informazioni sulle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
+I tipi di oggetto di pianificazione di Workfront sono denominati &quot;tipi di record&quot; e possono essere creati e personalizzati tutti. I tipi di record sono i blocchi predefiniti di un&#39;area di lavoro di pianificazione di Workfront. Per informazioni sulle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
 
 ## Panoramica del tipo di record
 
-In Maestro, puoi creare tipi di record personalizzati che soddisfano le esigenze della tua organizzazione.
+Nella pianificazione di Workfront è possibile creare tipi di record personalizzati che soddisfino le esigenze dell&#39;organizzazione.
 
-* I tipi di record Maestro sono i seguenti:
+* Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono creati nelle sezioni dell&#39;area di lavoro riportate di seguito.
 
-   * [Tipo di record operativo](#operational-record-type): tipo di record che rappresenta piani strategici, iniziative o lavoro pianificato. Ad esempio, Campaign, Activity, Tactic, Opportunity può essere un tipo di record operativo.
-   * [Tassonomia](#taxonomy): tipi di record che acquisiscono attributi relativi a un tipo di record operativo. Ad esempio, Area geografica, Indirizzo e Pubblico possono essere tassonomie.
+   * [Tipi di record operativi](#operational-record-type): tipo di record che rappresenta piani strategici, iniziative o lavoro pianificato. Ad esempio, Campaign, Activity, Tactic, Opportunity può essere un tipo di record operativo.
+   * [Tassonomie](#taxonomy): tipi di record che acquisiscono attributi relativi a un tipo di record operativo. Ad esempio, Area geografica, Indirizzo e Pubblico possono essere tassonomie.
 
+* Quando si crea un tipo di record in un&#39;area di lavoro creata da zero, è possibile inserire il tipo di record in qualsiasi sezione creata nell&#39;area di lavoro.
 * Quando si crea un tipo di record, solo l&#39;utente e coloro ai quali sono state assegnate le autorizzazioni di accesso all&#39;area di lavoro possono visualizzare il tipo di record.
 * È necessario creare un&#39;area di lavoro prima di poter creare i tipi di record per l&#39;area di lavoro.
-* In un&#39;unica area di lavoro è possibile ottenere un totale combinato di 1.000 tipi di record operativi e tassonomie. Sono inclusi i tipi di record o le tassonomie creati da zero o importati da altri sistemi.
+* È possibile avere un totale di 1.000 tipi di record in un&#39;area di lavoro, indipendentemente dal numero di sezioni dell&#39;area di lavoro. Sono inclusi i tipi di record creati da zero o quando si utilizza un modello.
 
-### Tipo di record operativo{#operational-record-type}
 
-Un tipo di record operativo è un tipo di record Maestro che rappresenta oggetti correlati al lavoro.
+<!--
+
+### Operational Record Type{#operational-record-type}
+
+An operational record type is a Maestro record type that represents work-related objects.  
 
 ![](assets/operational-record-type-blank.png)
 
-Per ulteriori informazioni sui tipi di record operativi, inclusa la relativa creazione, vedere [Crea tipi di record](../architecture/create-record-types.md).
+For more information about operational record types including how to create them, see [Create record types](../architecture/create-record-types.md). 
 
-### Tassonomia{#taxonomy}
+### Taxonomy{#taxonomy}
 
-Una tassonomia è un tipo di record che acquisisce attributi relativi a un tipo di record operativo.
+A taxonomy is a record type that captures attributes about an operational record type. 
 
 ![](assets/taxonomy-record-type-blank.png)
 
-Per ulteriori informazioni sui tipi di record di tassonomia, vedere [Creare una tassonomia](../architecture/create-a-taxonomy.md).
+For more information about taxonomy record types, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
-Sebbene la creazione delle tassonomie sia identica alla creazione dei tipi di record operativi, Maestro distingue concettualmente tra un tipo di record operativo e un tipo di record tassonomia. Lo scopo delle tassonomie è migliorare i tipi di record operativi. Le tassonomie non devono rappresentare direttamente oggetti di lavoro.  <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
+Although creating taxonomies is identical to creating operational record types, Maestro distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  (***********this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.***********) 
 
-<!--mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc -->
+(********mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc*************)
 
-Ad esempio, Pubblico, Area o Indirizzo possono essere tipi di record di tipo tassonomia.
+For example, Audience, Region, or Address can be taxonomy-type record types.  
 
-Per ulteriori informazioni, consulta [Creare una tassonomia](../architecture/create-a-taxonomy.md).
+For more information, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
-## Somiglianze e differenze tra tipi di record operativi e tassonomie
+## Similarities and differences between operational record types and taxonomies
 
-Nella tabella seguente vengono illustrate alcune analogie e differenze tra i tipi di record operativi e le tassonomie:
+The following table illustrates some of the similarities and differences between operational record types and taxonomies: 
 
-| Tipo di record e caratteristica | Tipo di record operativo | Tipo di record tassonomia |
+| Record type and characteristic                              | Operational Record Type | Taxonomy Record Type |
 |-------------------------------------------------------------|:-----------------------:|:--------------------:|
-| Fanno parte di un’area di lavoro | ✓ | ✓ |
-| Puoi crearli automaticamente da un modello di workspace | ✓ | ✓ |
-| Puoi crearli manualmente, da zero | ✓ | ✓ |
-| È possibile crearli copiando e incollando le informazioni da un file o da un elenco esterno | ✓ | ✓ |
-| Puoi creare importando un file Excel o CSV | ✓ |                     |
-| È possibile creare tipi di record di sola lettura connettendosi a tipi di oggetto di altre applicazioni | ✓ |                     |
-| Rappresentano oggetti correlati al lavoro | ✓ |                      |
-| Rappresentano attributi relativi a oggetti correlati al lavoro |                         | ✓ |
-| Puoi creare da zero | ✓ | ✓ |
-| Puoi creare importando un file Excel o CSV | ✓ |                      |
-| È possibile collegare il tipo di record a un oggetto di un&#39;altra applicazione | ✓ |                      |
-| È possibile connettersi ad altri tipi di record Maestro | ✓ |                    |
-| È possibile visualizzare i record associati in una vista tabella | ✓ | ✓ |
-| È possibile visualizzare i record associati in una visualizzazione timeline | ✓ | ✓ |
+| They are part of a workspace                                |            ✓            |           ✓          |
+| You can create them automatically, from a workspace template                    |            ✓            |           ✓          |
+| You can create them manually, from scratch                    |            ✓            |           ✓          |
+| You can create them by copying and pasting information from an external file or list                   |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file                    |            ✓            |                     |
+| You can create read-only record types by connecting to object types from other applications                    |            ✓            |                     |
+| They represent work-related objects                         |            ✓            |                      |
+| They represent attributes about work-related objects        |                         |           ✓          |
+| You can create from scratch                                 |            ✓            |           ✓          |
+| You can create by importing an Excel or CSV file            |            ✓            |                      |
+| You can connect the record type to an object from another application|            ✓            |                      |
+| You can connect to other Maestro record types               |            ✓            |                    |
+| You can view their associated records in a table view       |            ✓            |           ✓          |
+| You can view their associated records in a timeline view    |            ✓            |           ✓          |
+
+-->

@@ -1,18 +1,18 @@
 ---
-title: Panoramica delle funzionalità di pianificazione di Adobe Workfront
-description: Le funzionalità di pianificazione di Adobe Workfront sono una nuova offerta di Adobe Workfront. Puoi creare aree di lavoro completamente personalizzabili per definire flussi di lavoro che soddisfino le esigenze di ogni unità organizzativa dell’azienda.
+title: Panoramica sulla pianificazione di Adobe Workfront
+description: Adobe Workfront planning è una nuova offerta di Adobe Workfront. Puoi creare aree di lavoro completamente personalizzabili per definire flussi di lavoro che soddisfino le esigenze di ogni unità organizzativa dell’azienda.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '1785'
 ht-degree: 1%
 
 ---
 
-# Panoramica delle funzionalità di pianificazione di Adobe Workfront
+# Panoramica sulla pianificazione di Adobe Workfront
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -22,23 +22,24 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono alle funzionalità di pianificazione di Adobe Workfront, una nuova offerta di Adobe Workfront.
+>Le informazioni contenute in questo articolo si riferiscono alla pianificazione di Adobe Workfront, una nuova offerta di Adobe Workfront.
 >
->Attualmente, le funzionalità di pianificazione fanno parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
+>Attualmente, la pianificazione di Adobe Workfront fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
 >
->Per ulteriori informazioni su come partecipare al programma beta per le funzionalità di pianificazione, contatta il rappresentante del tuo account.
->[Guarda una dimostrazione video delle funzionalità di pianificazione di Adobe Workfront.](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>Per ulteriori informazioni su come partecipare al programma beta per la pianificazione di Workfront, contatta il rappresentante del tuo account.
 
-## Introduzione alle funzionalità di pianificazione di Adobe Workfront
+<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-Le funzionalità di pianificazione di Adobe Workfront sono una nuova offerta di Adobe Workfront. Lo scopo delle funzionalità di pianificazione è quello di offrire una visibilità completa dei dettagli operativi di un&#39;organizzazione e di rispondere alle domande aziendali critiche in ogni fase del ciclo di vita della gestione del lavoro.
+## Introduzione alla pianificazione di Adobe Workfront
+
+Adobe Workfront planning è una nuova offerta di Adobe Workfront. Lo scopo della pianificazione Workfront è quello di offrire una visibilità completa dei dettagli operativi di un&#39;organizzazione e di rispondere alle domande critiche in ogni fase del ciclo di vita della gestione del lavoro.
 
 I team e la leadership hanno bisogno di risposte chiare a domande come:
 
 * Quante campagne sono in esecuzione nell’area EMEA per il quarto trimestre?
 * Esistono sovrapposizioni di pubblico tra campagne simultanee?
 * Quanto stanno andando bene i programmi di sensibilizzazione in questo momento?
-* Come si presentano le risorse per una particolare campagna? Chi di loro deve ancora essere approvato?
+* Come si presentano le risorse per una determinata campagna? Chi di loro deve ancora essere approvato?
 
 Per rispondere a queste domande, la leadership ha bisogno di una soluzione che possa fornire una visione olistica di ogni fase del lavoro, dalla pianificazione all&#39;esecuzione, dalla consegna alla misurazione dei risultati. Attualmente, le organizzazioni dispongono di strumenti che possono coprire alcune parti del processo, ma molte non hanno buone connessioni con tutte le fasi del lavoro, né possono fornire risultati in modo affidabile.
 
@@ -50,16 +51,14 @@ Di seguito sono riportate alcune delle funzionalità principali:
 
 ## Funzioni di pianificazione di Adobe Workfront attualmente disponibili
 
-Nella tabella seguente sono illustrate le principali funzionalità disponibili nella pianificazione e la relativa tempistica di disponibilità. L&#39;elenco non include tutte le funzionalità.
+Nella tabella seguente sono illustrate le principali funzioni che saranno disponibili nella pianificazione di Workfront e la relativa tempistica di disponibilità. L&#39;elenco non include tutte le funzionalità.
 
-Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [Attività di rilascio delle funzionalità di pianificazione di Adobe Workfront](/help/quicksilver/maestro/release-activity.md).
+Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [attività sulla versione di Adobe Workfront planning](/help/quicksilver/maestro/release-activity.md).
 
 | Funzionalità | Disponibile ora | Disponibile a breve | Nella ricerca |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | Creare aree di lavoro | ✓ |                                  |                  |
-| Creare tipi di record operativi | ✓ |                                  |                  |
-| Creare tassonomie | ✓ |                                  |                  |
-| Creare singoli record denominati e tassonomie | ✓ |                                  |                  |
+| Crea tipi di record | ✓ |                                  |                  |
 | Creare campi personalizzati del record | ✓ |                                  |                  |
 | Importare tipi di record e campi utilizzando un file Excel o CSV* | ✓ |                                  |                  |
 | Collega record | ✓ |                                  |                  |
@@ -74,15 +73,15 @@ Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [Attività d
 | Ordinare i raggruppamenti nella vista tabella |                               | ✓ |                  |
 | Ordinare i raggruppamenti nella visualizzazione timeline |                               | ✓ |                  |
 | Connettere le aree di lavoro |                               | ✓ |                  |
-| Collegare record e tassonomie delle funzionalità di pianificazione | ✓ |
 | Cerca record nella vista tabella | ✓ |   |
 | Cercare i record nella visualizzazione timeline | ✓ |   |
-| Collegare i record delle funzionalità di pianificazione a progetti, programmi, portafogli, società e gruppi di Workfront | ✓ |                                 |                  |
-| Collegare i record delle funzionalità di pianificazione alle risorse Adobe Experience Manager | ✓ |                                  |                 |
+| Collegare i record di pianificazione di Workfront a progetti, programmi, portafogli, società e gruppi di Workfront | ✓ |                                 |                  |
+| Collegare i record di pianificazione di Workfront alle risorse Adobe Experience Manager | ✓ |                                  |                 |
 | Pagina Dettagli record | ✓ |                                  |                  |
 | Aggiornare il layout della pagina Dettagli record |                               | ✓ |                  |
 | Condividere le aree di lavoro | ✓ | |  |
 | Condividere le visualizzazioni | ✓ | |  |
+| Visualizzazioni duplicate | ✓ | |  |
 | Inviare richieste |                               |                                  | ✓ |
 | Descrizione creativa |                               |                                  | ✓ |
 | Personalizzare il colore e l&#39;icona di un record | ✓ |                                  |                 |
@@ -90,24 +89,24 @@ Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [Attività d
 | Aggiungi miniature ai record | ✓ |                                  |                 |
 | Visualizzare la cronologia delle modifiche in un record | ✓ |                                  |                 |
 | Formattazione Rich Text per i campi Paragrafo | ✓ |                                  |                 |
-| Moduli sulle funzionalità di pianificazione di Adobe Workfront per Adobe Workfront Fusion | ✓ |                                  |                 |
+| Moduli di pianificazione di Adobe Workfront per Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copiare e incollare informazioni da un campo all&#39;altro | ✓ |                                  |                 |
 
-## Abilita le funzionalità di pianificazione di Adobe Workfront per gli utenti nell’istanza Workfront
+## Abilita la pianificazione Adobe Workfront per gli utenti nell’istanza Workfront
 
-Prima di poter accedere alle funzionalità di pianificazione, la tua organizzazione deve iscriversi al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni sull’iscrizione al programma beta, contatta il rappresentante del tuo account.
+Prima di poter accedere alle funzionalità di pianificazione, la tua organizzazione deve iscriversi al programma Adobe Workfront planning closed beta. Per informazioni sull’iscrizione al programma beta, contatta il rappresentante del tuo account.
 
-Per ulteriori informazioni su come concedere l’accesso a e consentire ad altri di utilizzare le funzionalità di pianificazione, consulta [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md).
+Per ulteriori informazioni su come concedere l&#39;accesso e consentire ad altri utenti di utilizzare la pianificazione di Workfront, vedere [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md).
 
-## Terminologia delle funzionalità di pianificazione di Adobe Workfront
+## Terminologia di pianificazione di Adobe Workfront
 
-Sebbene le funzionalità di pianificazione facciano parte di Workfront, vengono fornite nozioni e terminologia proprietarie. Prima di iniziare a configurare le funzionalità di pianificazione per la tua organizzazione, assicurati di conoscere i concetti relativi alle funzionalità di pianificazione.
+Sebbene la pianificazione Workfront faccia parte di Workfront, viene fornita con concetti e terminologia proprietari. Prima di iniziare a configurare la pianificazione Workfront per la tua organizzazione, assicurati di conoscere i nuovi concetti.
 
-Il framework per le funzionalità di pianificazione è completamente personalizzabile. È possibile creare tutti i tipi di record, i relativi attributi e qualsiasi campo ad essi associato in base alle esigenze specifiche dell&#39;organizzazione.
+Il framework per la pianificazione di Workfront è completamente personalizzabile. È possibile creare tutti i tipi di record, i relativi attributi e qualsiasi campo ad essi associato in base alle esigenze specifiche dell&#39;organizzazione.
 
-Di seguito sono riportati gli oggetti e i concetti principali relativi alle funzionalità di pianificazione:
+Di seguito sono riportati gli oggetti e i concetti principali di pianificazione di Workfront:
 
-* **Workspace**: raccolta di tipi di record e tassonomie che definiscono il ciclo di vita operativo di una determinata organizzazione. Un’area di lavoro è l’area di lavoro di un’unità organizzativa.
+* **Workspace**: una raccolta di tipi di record che definiscono il ciclo di vita operativo di una determinata organizzazione. Un’area di lavoro è l’area di lavoro di un’unità organizzativa.
 
   Un’istanza di Workfront può avere un massimo di 1.000 aree di lavoro.
 
@@ -115,64 +114,39 @@ Di seguito sono riportati gli oggetti e i concetti principali relativi alle funz
 
   Per ulteriori informazioni, consulta [Creare aree di lavoro](../maestro/architecture/create-workspaces.md).
 
-* **Tipo di record**: tipo di oggetto delle funzionalità di pianificazione principale.
+* **Tipo di record**: tipo di oggetto o pianificazione di Workfront.
 
-  A differenza di Workfront, dove i tipi di oggetto sono predefiniti, nelle funzionalità di pianificazione è possibile creare tipi di oggetto personalizzati.
+  A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Workfront Planning è possibile creare tipi di oggetto personalizzati.
 
   In Workfront, ad esempio, sono già stati creati i tipi di oggetto Programma, Portfolio, Progetto, Attività o Problema.
 
-  Nelle funzionalità di pianificazione è possibile creare qualsiasi tipo di record che soddisfi i flussi di lavoro dell&#39;organizzazione. Successivamente è possibile definire la relazione tra i tipi di record o le dipendenze tra le maschere.
+  In Workfront Planning è possibile creare qualsiasi tipo di record che soddisfi i flussi di lavoro dell&#39;organizzazione. Successivamente è possibile definire la relazione tra i tipi di record o le dipendenze tra le maschere.
 
-  Per ulteriori informazioni, consulta [Panoramica dei tipi di record operativi e delle tassonomie](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
+  Per ulteriori informazioni, consulta [Panoramica dei tipi di record](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-  Le funzionalità di pianificazione hanno i seguenti tipi di record:
-
-   * **Tipo di record operativo**: tipo di record che rappresenta piani strategici, iniziative o lavoro eseguito.
-
-     ![](assets/operational-record-type-blank.png)
-
-     Ad esempio, Campaign, Activity, Program possono essere tipi di record operativi.
-
-     Per ulteriori informazioni, consulta [Crea tipi di record](../maestro/architecture/create-record-types.md).
-
-   * **Tassonomia**: tipo di record che acquisisce gli attributi relativi a un tipo di record operativo.
-
-     ![](assets/taxonomy-record-type-blank.png)
-
-     Sebbene la creazione delle tassonomie sia identica alla creazione dei tipi di record operativi, le funzionalità di pianificazione distinguono tra un tipo di record operativo e un tipo di record tassonomia. Lo scopo delle tassonomie è migliorare i tipi di record operativi. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->
-
-     Ad esempio, Pubblico, Area o Indirizzo possono essere tipi di record di tipo tassonomia.
-
-     Per ulteriori informazioni, consulta [Creare tipi di record di tassonomia](../maestro/architecture/create-a-taxonomy.md).
-
-* **Registra**: istanza di un tipo di record della funzionalità di pianificazione. Un record può fare riferimento a un tipo di record operativo o a una tassonomia.
+* **Registra**: istanza di un tipo di record.
 
   ![](assets/records-highlighted-in-campaign-record-type-list.png)
-  ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
 
   Dopo aver aggiunto un tipo di record a un&#39;area di lavoro, è possibile iniziare ad aggiungere record di tale tipo nella pagina del tipo di record.
 
-  Ad esempio, &quot;Campagna&quot; può essere un tipo di record operativo e &quot;Campagna estiva per EMEA&quot; è un record del tipo di record Campagna
-
-  Oppure
-
-  &quot;Regione&quot; è un tipo di record di tassonomia, mentre &quot;Americhe-America Latina&quot; o &quot;EMEA - Europa centrale&quot; sono record di tassonomia.
+  Ad esempio, &quot;Campagna&quot; può essere un tipo di record e &quot;Campagna estiva per l’area EMEA&quot; è un record del tipo di record Campagna
 
   Per ulteriori informazioni, consulta [Crea record](../maestro/records/create-records.md).
 
-* **Modello area di lavoro**: puoi creare un’area di lavoro utilizzando modelli predefiniti. È possibile utilizzare i tipi di record, le tassonomie e i campi predefiniti inclusi in un modello oppure aggiungere record personalizzati.
+* **Modello area di lavoro**: puoi creare un’area di lavoro utilizzando modelli predefiniti. È possibile utilizzare i tipi di record e i campi predefiniti inclusi in un modello oppure aggiungere record personalizzati.
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Le funzionalità di pianificazione di Adobe Workfront includono un modello di area di lavoro Vendite, Marketing e Gestione prodotto.
+  La pianificazione Adobe Workfront viene fornita con un modello di area di lavoro Vendite, Marketing e Gestione prodotto.
 
   Per ulteriori informazioni, consulta [Creare aree di lavoro](../maestro/architecture/create-workspaces.md).
 
-* **Campi**: i campi sono attributi che è possibile aggiungere ai tipi di record operativi o di tassonomia che contengono informazioni sul tipo di record. <!--check the shot below, "Connection" needs to be in lowercase-->
+* **Campi**: i campi sono attributi che è possibile aggiungere ai tipi di record. I campi contengono informazioni sul tipo di record. <!--check the shot below, "Connection" needs to be in lowercase-->
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  Considerazioni sui campi della funzionalità di pianificazione:
+  Considerazioni sui campi record:
 
    * I campi aggiunti per un tipo di record vengono automaticamente associati a tutti i record di quel tipo e possono essere utilizzati per acquisire dati su tali record.
 
@@ -180,19 +154,17 @@ Di seguito sono riportati gli oggetti e i concetti principali relativi alle funz
 
    * I campi sono univoci per un tipo di record e non vengono trasferiti da un tipo di record a un altro.
 
-   * I campi della funzionalità di pianificazione sono completamente personalizzabili e sono accessibili solo nelle funzionalità di pianificazione. Impossibile accedere ai campi della funzionalità di pianificazione da Workfront.
+   * I campi sono completamente personalizzabili e sono accessibili solo in Workfront Planning. Impossibile accedere ai campi di pianificazione di Workfront da Workfront.
 
   Per ulteriori informazioni, consulta [Crea campi](../maestro/fields/create-fields.md).
 
-  Per impostazione predefinita, un nuovo tipo di record operativo è associato ai seguenti campi predefiniti:
+  Per impostazione predefinita, un nuovo tipo di record è associato ai seguenti campi predefiniti:
 
    * Nome
    * Descrizione
    * Data di inizio
    * Data di fine
    * Stato
-
-  Per impostazione predefinita, a un campo Nome è associato un nuovo tipo di record di tassonomia.
 
   Puoi creare campi personalizzati dei seguenti tipi:
 
@@ -212,11 +184,11 @@ Di seguito sono riportati gli oggetti e i concetti principali relativi alle funz
    * Ultima modifica eseguita da
    * Data ultima modifica
 
-* **Tipi di record collegati**, **Record collegati**, e **Campi record collegati**: puoi creare una connessione tra le seguenti entità:
+* **Tipi di record collegati**, **Record collegati**, e **Campi record collegati**: in Workfront Planning è possibile creare una connessione tra le seguenti entità:
 
-   * Due tipi di record di capacità di pianificazione.
-   * Un tipo di record di capacità di pianificazione e un tipo di oggetto progetto, programma, portfolio, società o gruppo di Workfront.
-   * Un tipo di record della funzionalità di pianificazione e una risorsa o cartella Adobe Experience Manager.
+   * Due tipi di record.
+   * Tipo di record e tipo di oggetto progetto, programma, portfolio, società o gruppo di Workfront.
+   * Un tipo di record e una risorsa o cartella Adobe Experience Manager.
 
      È necessario disporre di una licenza Adobe Experience Manager per collegare i tipi di record agli oggetti Experienci Manager.
 
@@ -225,9 +197,9 @@ Di seguito sono riportati gli oggetti e i concetti principali relativi alle funz
 
   Dopo aver stabilito una connessione tra i tipi di record, è possibile collegare tra loro singoli record di tali tipi. La connessione tra i record viene visualizzata come campo record collegato.
 
-* **Campi collegati** (o campi di ricerca): dopo aver stabilito la connessione tra due tipi di record e aver collegato i singoli record, è possibile fare riferimento ai campi dei record collegati nel record da cui si sta effettuando la connessione.
+* **Campi collegati** (o campi di ricerca): dopo aver stabilito la connessione tra due tipi di record e aver collegato i singoli record, è possibile fare riferimento ai campi dei record collegati nel record da cui ci si connette.
 
-  Se ad esempio si collega una campagna di funzionalità di pianificazione con un progetto Workfront, è possibile visualizzare il campo Proprietario progetto dei progetti connessi nei record delle campagne di funzionalità di pianificazione.
+  Se ad esempio si collega un tipo di record Campaign a un tipo di oggetto Progetto Workfront, è possibile visualizzare il campo Proprietario progetto dei progetti connessi nei record della campagna.
 
   ![](assets/add-lookup-fields-modal.png)
 
@@ -261,14 +233,14 @@ Di seguito sono riportati gli oggetti e i concetti principali relativi alle funz
 Per ulteriori informazioni, consulta [Gestire le visualizzazioni record](../maestro/views/manage-record-views.md).
 
 
-## Limiti degli oggetti delle funzionalità di pianificazione di Adobe Workfront
+## Limitazioni degli oggetti di pianificazione di Adobe Workfront
 
-Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che è possibile creare nelle funzionalità di pianificazione. I limiti sono soggetti a modifiche man mano che passiamo alle fasi successive di sviluppo.
+Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che è possibile creare in Workfront planning. I limiti sono soggetti a modifiche man mano che passiamo alle fasi successive di sviluppo.
 
-| oggetto funzionalità di pianificazione di Adobe Workfront | Limite |
+| oggetto di pianificazione Adobe Workfront | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Numero di aree di lavoro per un’istanza Workfront | 1.000 |
-| Numero di tipi di record per un&#39;area di lavoro | 1.000 (incluse le tassonomie per il workspace o gli oggetti importati da altre applicazioni) |
+| Numero di tipi di record per un&#39;area di lavoro | 1.000 (sono inclusi i tipi di record di tutte le sezioni e quelli creati quando si utilizza un modello di workspace) |
 | Numero di record per un tipo di record | 50.000 |
 | Numero di campi per un tipo di record o una tassonomia | 500 |
 | Numero di caratteri per un campo di testo | 1.000 caratteri |
@@ -279,20 +251,20 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 
 >[!IMPORTANT]
 >
->*Questa funzionalità è stata temporaneamente disabilitata e sarà disponibile in un secondo momento
+>*Questa funzionalità è stata temporaneamente disabilitata e sarà disponibile in un secondo momento.
 
 
-## Individuazione delle funzionalità di pianificazione di Adobe Workfront
+## Individuazione pianificazione Adobe Workfront
 
-Verificare che l&#39;organizzazione abbia ricevuto l&#39;accesso alle funzionalità di pianificazione e che l&#39;amministratore di sistema o di gruppo abbia aggiunto l&#39;area delle funzionalità di pianificazione al menu principale. Per informazioni, consulta [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md).
+Verificare che l&#39;organizzazione abbia avuto accesso alla pianificazione di Workfront e che l&#39;amministratore di sistema o di gruppo abbia aggiunto l&#39;area Pianificazione al menu principale. Per informazioni, consulta [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md).
 
-Per individuare le funzionalità di pianificazione:
+Per individuare la pianificazione Workfront:
 
 1. Accedi ad Adobe Workfront.
 
 1. Fai clic su **Menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro o fare clic sul pulsante **Menu principale** ![](assets/main-menu-shell.png) nell’angolo in alto a sinistra, se disponibile.
 
-1. Clic **Maestro** ![](assets/maestro-icon.png).
+1. Clic **Pianificazione** ![](assets/maestro-icon.png).
 
    Viene visualizzata l’area Workspace.
 
@@ -300,11 +272,11 @@ Per individuare le funzionalità di pianificazione:
 
    1. Crea un’area di lavoro da zero o utilizzando un modello.
 
+   1. Aggiungi sezioni al nuovo workspace.
+   1. Rinomina le sezioni esistenti nel nuovo workspace.
    1. Aggiungere tipi di record al nuovo workspace.
 
-   1. Aggiungere tassonomie alle nuove aree di lavoro.
-
-   1. Fare clic sul nome di un tipo di record per aprire la pagina del record. Per impostazione predefinita, la pagina record viene visualizzata nella vista Tabella.
+   1. Fare clic sul nome di un tipo di record per aprire la pagina del tipo di record. Per impostazione predefinita, la pagina del tipo di record viene visualizzata nella vista Tabella.
 
       È inoltre possibile creare una vista Timeline o Calendario.
 
@@ -314,7 +286,9 @@ Per individuare le funzionalità di pianificazione:
 
       Inizia ad aggiungere campi record aggiungendo colonne.
 
-## Attività di rilascio delle funzionalità di pianificazione di Adobe Workfront
+## attività sulla versione di Adobe Workfront planning
 
-Le nuove funzioni vengono rilasciate regolarmente nelle capacità di pianificazione. Per un elenco aggiornato delle funzioni rilasciate, consulta [Attività di rilascio delle funzionalità di pianificazione di Adobe Workfront](../maestro/release-activity.md).
+Le nuove funzioni vengono rilasciate regolarmente per la pianificazione di Workfront.
+
+Per un elenco aggiornato delle funzioni rilasciate, consulta [attività sulla versione di Adobe Workfront planning](../maestro/release-activity.md).
 

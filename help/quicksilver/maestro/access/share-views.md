@@ -1,16 +1,16 @@
 ---
 title: Condividere le visualizzazioni
-description: Puoi condividere una visualizzazione con altri utenti per garantire la collaborazione quando utilizzi le funzionalità di pianificazione di Adobe Workfront.
+description: Puoi condividere una visualizzazione con altri utenti per garantire la collaborazione quando utilizzi la pianificazione di Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
-
 
 <!--update the metadata and description when we turn this article live-->
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-È possibile condividere una visualizzazione con altri utenti per garantire la collaborazione durante l&#39;utilizzo dei record nelle funzionalità di pianificazione di Adobe Workfront.
+È possibile condividere una visualizzazione con altri utenti per garantire la collaborazione durante l&#39;utilizzo dei record nella pianificazione di Adobe Workfront.
 
 La concessione di autorizzazioni a un&#39;area di lavoro non consente ad altri utenti di concedere autorizzazioni per le visualizzazioni nelle pagine dei tipi di record. È necessario concedere autorizzazioni alle singole visualizzazioni in una pagina di tipo record per condividerle con altri utenti.
 
@@ -41,7 +41,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> Non sono presenti controlli di accesso per le funzionalità di pianificazione di Adobe Workfront</p>  
+   <td> Nessun controllo di accesso per la pianificazione di Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -72,7 +72,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Maestro nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/maestro/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/maestro/access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -106,7 +106,7 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
    * Visualizza
    * Gestire
 
-     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront](../access/sharing-permissions-overview.md).
+     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione nella pianificazione di Adobe Workfront](../access/sharing-permissions-overview.md).
 
      <!--System administrators always receive Manage permissions to views shared with them.-->
 

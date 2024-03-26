@@ -1,13 +1,13 @@
 ---
 title: Gestire la visualizzazione della timeline
-description: È possibile visualizzare i record in una vista timeline quando si accede alla pagina del tipo di record nelle funzionalità di pianificazione di Adobe Workfront.
+description: È possibile visualizzare i record in una vista timeline quando si accede alla pagina del tipo di record nella pianificazione di Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1699'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ role: User
 
 {{maestro-important-intro}}
 
-È possibile visualizzare i record in una vista timeline quando si accede alla pagina del tipo di record nelle funzionalità di pianificazione di Adobe Workfront.
+È possibile visualizzare i record in una vista timeline quando si accede alla pagina del tipo di record nella pianificazione di Adobe Workfront.
 
 Per informazioni sulle visualizzazioni record, vedere [Gestire le visualizzazioni record](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader">Configurazione del livello di accesso</td>
-   <td> <p>Non sono disponibili controlli del livello di accesso per le funzionalità di pianificazione di Adobe Workfront </p>  
+   <td> <p>Non sono presenti controlli del livello di accesso per la pianificazione di Adobe Workfront </p>  
 </td>
   </tr>
 
@@ -81,7 +81,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader">Modello di layout</td>
-   <td> <p>L’amministratore di sistema deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore di sistema deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
  </tbody>

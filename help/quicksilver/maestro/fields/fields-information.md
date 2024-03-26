@@ -1,13 +1,13 @@
 ---
 title: "Campi: indice articolo"
-description: In Adobe Maestro puoi aggiungere nuovi campi che riflettono il ciclo di vita della tua organizzazione. I campi sono attributi dei tipi di record.
+description: Nella pianificazione di Adobe Workfront puoi aggiungere nuovi campi che riflettono il ciclo di vita della tua organizzazione. I campi sono attributi dei tipi di record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-In qualità di leader delle operazioni di marketing, puoi utilizzare Adobe Maestro per organizzare il lavoro nel ciclo di vita di marketing per tutti i team. In Maestro puoi personalizzare completamente l’architettura dei flussi di lavoro, inclusa l’aggiunta di campi personalizzati per tutti i tipi di record personalizzati creati.
+In qualità di responsabile delle operazioni di marketing, puoi utilizzare la pianificazione di Adobe Workfront per organizzare il lavoro nel ciclo di vita di marketing per tutti i team. In Workfront Planning è possibile personalizzare completamente l&#39;architettura dei flussi di lavoro, inclusa l&#39;aggiunta di campi personalizzati per tutti i tipi di record personalizzati creati.
 
-Gli articoli nelle sezioni seguenti descrivono come creare e configurare i campi Maestro:
+Gli articoli nelle sezioni seguenti descrivono come creare e configurare i campi di pianificazione di Workfront:
 
 * [Panoramica campo](../fields/fields-overview.md)
 * [Crea campi](../fields/create-fields.md)

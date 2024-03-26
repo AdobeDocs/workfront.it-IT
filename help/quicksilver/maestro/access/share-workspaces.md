@@ -1,25 +1,25 @@
 ---
 title: Condividere le aree di lavoro
-description: Puoi condividere un’area di lavoro con altri utenti per garantire la collaborazione quando lavori nelle funzionalità di pianificazione di Adobe Workfront.
+description: Puoi condividere un’area di lavoro con altri utenti per garantire la collaborazione quando lavori nella pianificazione di Adobe Workfront.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 4c62b567fa1ebec37fc64831757eb67d4a048c1f
+source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '414'
 ht-degree: 2%
 
 ---
 
 
-<!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
+<!--update the metadata and description when we turn this article live; also, update title after Bob adds Planning as a product ??-->
 
 # Condividere le aree di lavoro
 
 {{maestro-important-intro}}
 
-Puoi condividere un’area di lavoro con altri utenti per garantire la collaborazione quando lavori nelle funzionalità di pianificazione di Adobe Workfront.
+Puoi condividere un’area di lavoro con altri utenti per garantire la collaborazione quando lavori nella pianificazione di Adobe Workfront.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -65,7 +65,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> Non sono presenti controlli di accesso per le funzionalità di pianificazione di Adobe Workfront</p>  
+   <td> Nessun controllo di accesso per la pianificazione di Adobe Workfront</p>  
 </td>
   </tr>
 
@@ -77,7 +77,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Maestro nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/maestro/access/access-overview.md">Panoramica degli accessi</a>. </p> 
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/maestro/access/access-overview.md">Panoramica degli accessi</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -107,7 +107,7 @@ Per condividere un’area di lavoro con altri utenti:
    * Contribuisci
    * Gestire
 
-     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront](../access/sharing-permissions-overview.md).
+     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione nella pianificazione di Adobe Workfront](../access/sharing-permissions-overview.md).
 1. Clic **Copia collegamento** per copiare negli Appunti un collegamento all&#39;area di lavoro.
 1. Condividi il collegamento copiato con altri utenti. Per poter accedere all’area di lavoro, gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront.
 1. Fai clic su **Salva**.

@@ -4,22 +4,23 @@ description: È possibile modificare le informazioni di un'area di lavoro esiste
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Modificare le aree di lavoro
 
 {{maestro-important-intro}}
 
-Ad Adobe, Maestro, le aree di lavoro sono posizioni centralizzate in cui i team possono pianificare il lavoro.
+Nella pianificazione di Adobe Workfront, le aree di lavoro sono posizioni centralizzate in cui i team possono pianificare il lavoro.
 
-Un’area di lavoro è una raccolta di tipi di record operativi e tassonomie utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. In Maestro è possibile personalizzare completamente le aree di lavoro.
+Un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. È possibile personalizzare completamente le aree di lavoro nella pianificazione di Adobe Workfront.
 
 Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -42,7 +43,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Non ci sono controlli del livello di accesso per Maestro</p>
+   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>
 </td>
   </tr>
 
@@ -73,7 +74,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>È necessario aggiungere l'area Maestro al modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>È necessario aggiungere l'area Planning al modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 
@@ -87,7 +88,7 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
 {{step1-to-maestro}}
 
-Si apre l&#39;area Workspaces di Maestro.
+Verrà aperta l&#39;area Aree di lavoro della pianificazione di Workfront.
 
 1. Fai clic sul nome dell’area di lavoro nell’intestazione della nuova area di lavoro per rinominarla, quindi premi **Invio**
 
@@ -99,11 +100,7 @@ Si apre l&#39;area Workspaces di Maestro.
 
    Per informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
 
-1. (Facoltativo) Fai clic su **Aggiungi tassonomia** per aggiungere tassonomie all&#39;area di lavoro.
-
-   Per informazioni, consulta [Creare tassonomie](../architecture/create-a-taxonomy.md).
-
-1. (Facoltativo) Fai clic sul menu a discesa Visualizza per modificare o creare una vista esistente.
+1. (Facoltativo) Fai clic sul nome di una vista nelle schede della vista per modificare una vista esistente o fai clic su **+ Visualizza** per creare una vista.
 
    Per informazioni, consulta [Gestire le visualizzazioni record](/help/quicksilver/maestro/views/manage-record-views.md).
 

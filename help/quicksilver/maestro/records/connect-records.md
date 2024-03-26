@@ -1,13 +1,13 @@
 ---
-title: Collega record
+title: Connetti record
 description: Dopo aver creato connessioni tra tipi di record, è possibile collegare tra loro singoli record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '2379'
+source-wordcount: '2372'
 ht-degree: 1%
 
 ---
@@ -26,11 +26,11 @@ hide: yes
 
 <!--if you change steps here, also update steps in the "Connect records" article-->
 
-# Collega record
+# Connetti record
 
 {{maestro-important-intro}}
 
-È possibile collegare tra loro record Adobe Maestro o a oggetti di altre applicazioni.
+È possibile collegare tra loro i record di pianificazione di Adobe Workfront o a oggetti di altre applicazioni.
 
 È innanzitutto necessario collegare due tipi di record tra loro o un tipo di record a un tipo di oggetto di un&#39;altra applicazione. In questo modo vengono creati campi record collegati. È quindi possibile collegare record tra loro o record ad altri oggetti da altre applicazioni utilizzando i campi dei record collegati.
 
@@ -42,12 +42,10 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
 
 È possibile connettere i seguenti elementi:
 
-* Record operativi Maestro
-* Gestire i record operativi con i record della tassonomia
-* Tassonomie Maestro
-* Gestire i record operativi o le tassonomie con oggetti provenienti da altre applicazioni.
+* Record di pianificazione di Adobe Workfront
+* Adobe Workfront planning registra gli oggetti di altre applicazioni.
 
-  È possibile collegare i record Maestro agli oggetti dei tipi elencati di seguito dalle seguenti applicazioni:
+  È possibile collegare record agli oggetti dei tipi elencati di seguito dalle applicazioni seguenti:
 
    * Adobe Workfront
 
@@ -79,12 +77,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <td>Prodotto</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Per collegare i record Maestro a Experience Manager Assets, devi disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p>
+   <p>Per collegare i record di pianificazione di Adobe Workfront a Experience Manager Assets, è necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso Adobe Maestro. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -102,7 +100,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Non ci sono controlli del livello di accesso per Maestro</p>  
+   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>  
 </td>
   </tr>
 <tr>
@@ -115,7 +113,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 
@@ -127,7 +125,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Collega record
+## Connetti record
 
 ### Considerazioni sulla connessione dei record
 
@@ -136,14 +134,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * È possibile aggiungere campi dei tipi di record collegati alla tabella del tipo di record da cui si sta effettuando il collegamento.
 * Non è possibile aggiornare manualmente i valori dei campi collegati nei record da cui si sta effettuando il collegamento.
 
-  I valori dei campi collegati dei record collegati popolano il record Maestro da cui si sta effettuando il collegamento automatico dal record o dall&#39;oggetto originale.
+  I valori dei campi collegati dei record collegati popolano il record di pianificazione di Workfront da cui si sta effettuando il collegamento automatico dal record o dall&#39;oggetto originale.
 
-* Tutti coloro che hanno accesso a Maestro e View o ad autorizzazioni superiori all&#39;area di lavoro possono vedere le connessioni che si creano tra i record Maestro o tra i record Maestro e gli oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle autorizzazioni di cui dispongono nelle applicazioni a cui ci si connette.
+* Tutti coloro che dispongono dell&#39;accesso a Workfront Planning and View o di autorizzazioni di livello superiore per l&#39;area di lavoro possono visualizzare le connessioni tra record o tra record e oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle autorizzazioni di cui dispongono nelle applicazioni a cui ci si connette.
 * Se si dispone delle autorizzazioni di gestione per l&#39;area di lavoro in cui si trovano i record connessi, è possibile visualizzare e modificare le connessioni di tutti gli altri utenti.
-* È possibile collegare un record Maestro a uno o più oggetti di un&#39;altra applicazione.
-* Per collegare i record Maestro ad altri record o oggetti, è necessario disporre dei seguenti elementi:
+* È possibile connettere un record a uno o più oggetti di un&#39;altra applicazione.
+* Per collegare record ad altri record o oggetti, è necessario disporre dei seguenti elementi:
 
-   * Almeno un&#39;area di lavoro Maestro, un tipo di record e un record.
+   * Almeno un&#39;area di lavoro, tipo di record e record.
 
      Per ulteriori informazioni, consulta i seguenti articoli:
 
@@ -153,7 +151,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * Connessioni tra tipi di record o tra tipi di record e oggetti di altre applicazioni. Per informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md)
 
-### Collega i record Maestro
+### Collegare i record di pianificazione di Adobe Workfront
 
 {{step1-to-maestro}}
 
@@ -200,7 +198,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
    >
    >* Se hai attivato **Consenti più record** impostazione quando si collegano i tipi di record, i valori dei campi per i più oggetti selezionati vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
 
-1. (Facoltativo) Chiudi la pagina Tipo di record Maestro e passa all’area di lavoro selezionata.
+1. (Facoltativo) Chiudere la pagina del tipo di record e passare all&#39;area di lavoro selezionata.
 1. Fare clic sulla scheda del tipo di record a cui si è collegati.
 
    Ad esempio, se hai connesso **Campagna** con il record Prodotto, fare clic sul pulsante **Prodotto** Card.
@@ -209,15 +207,15 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Tieni presente che **Campagna** nel campo record collegato vengono visualizzati i nomi delle campagne collegate ai prodotti nella pagina Tipo di record prodotto. L’aggiornamento delle informazioni della campagna aggiorna automaticamente il campo del record collegato della campagna per il tipo di record Prodotto.
 
-### Collegare i record Maestro agli oggetti Workfront
+### Collegare i record di pianificazione di Adobe Workfront agli oggetti Workfront
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
-Dopo aver creato una connessione tra un tipo di record Maestro e un tipo di oggetto Workfront, è possibile collegare singoli record Maestro a oggetti in Workfront. I campi Workfront collegati vengono automaticamente compilati sui record Maestro da cui stai collegando gli oggetti.
+Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Workfront, è possibile collegare singoli record agli oggetti in Workfront. I campi Workfront connessi vengono automaticamente compilati nei record da cui si collegano gli oggetti.
 
 >[!NOTE]
 >
->Non è possibile collegare oggetti Workfront a record Maestro di Workfront.
+>Non è possibile connettere oggetti Workfront con i record di pianificazione di Workfront da Workfront.
 
 
 {{step1-to-maestro}}
@@ -266,9 +264,9 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Per ulteriori informazioni sulla connessione di tipi di record con oggetti di un&#39;altra applicazione, vedere [Connetti tipi di record](../architecture/connect-record-types.md).
 
-1. (Facoltativo) Fai clic sul nome di un oggetto Workfront connesso a un record Maestro nel campo collegato di una vista a tabella o nel campo collegato del **Dettagli** pagina del record Maestro.
+1. (Facoltativo) Fare clic sul nome di un oggetto Workfront connesso a un record di pianificazione di Workfront nel campo collegato di una vista tabella o nel campo collegato del **Dettagli** pagina del record.
 
-   Si apre il Maestro di sola lettura **Dettagli** per l&#39;oggetto Workfront collegato. I campi selezionati come campi di ricerca quando si è collegato il tipo di record con l&#39;oggetto Workfront vengono visualizzati nella pagina Dettagli del record Workfront Maestro.
+   Verrà aperta la pianificazione Workfront di sola lettura **Dettagli** per l&#39;oggetto Workfront collegato. I campi selezionati come campi di ricerca quando si è collegato il tipo di record con l&#39;oggetto Workfront vengono visualizzati nella pagina Dettagli del record di pianificazione di Workfront.
 
    >[!TIP]
    >
@@ -282,7 +280,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Se si dispone almeno delle autorizzazioni di visualizzazione per visualizzare l&#39;oggetto, verrà aperta la pagina degli oggetti di Workfront. Se si dispone delle autorizzazioni necessarie, è possibile modificare le informazioni sull&#39;oggetto Workfront.
 
-1. (Facoltativo) Nella vista a tabella del tipo di record Maestro, passa il puntatore sull&#39;intestazione di colonna dell&#39;oggetto Workfront collegato e fai clic sul menu a discesa, quindi fai clic su **Modifica campi di ricerca**.
+1. (Facoltativo) Nella vista a tabella del tipo di record, posiziona il puntatore del mouse sull&#39;intestazione di colonna dell&#39;oggetto Workfront collegato e fai clic sul menu a discesa, quindi fai clic su **Modifica campi di ricerca**.
 
 1. Aggiungere campi oggetto Workfront dalla **Campi non selezionati** area
 
@@ -290,20 +288,20 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Rimuovi i campi oggetto di Workfront dal **Campi selezionati** area.
 
-   Questo aggiunge o rimuove i campi collegati dai record Maestro. Le informazioni associate ai campi rimossi rimangono in Workfront.
+   Questa operazione consente di aggiungere o rimuovere campi collegati dai record di pianificazione di Workfront. Le informazioni associate ai campi rimossi rimangono in Workfront.
 
 
-### Collegare i record Maestro agli oggetti Adobe Experience Manager
+### Collegare i record di pianificazione di Workfront agli oggetti Adobe Experience Manager
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
->Devi disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console per poter collegare i record Maestro ad Adobe Experience Manager Assets.
+>È necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console per poter collegare i record di pianificazione di Workfront ad Adobe Experience Manager Assets.
 >
 >In caso di domande sull’onboarding per Adobe Admin Console, consulta [Domande frequenti sull’esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-Dopo aver creato una connessione tra un tipo di record Maestro e Adobe Experience Manager Assets, puoi collegare singoli record Maestro ad Experienci Manager di risorse. I campi della risorsa connessi da Experience Manager Assets al momento della creazione della connessione vengono automaticamente popolati sul tipo di record Maestro da cui è stato effettuato il collegamento.
+Dopo aver creato una connessione tra un tipo di record e Adobe Experience Manager Assets, puoi collegare singoli record alle risorse di Experience Manager. I campi della risorsa connessi da Experience Manager Assets al momento della creazione della connessione vengono compilati automaticamente sul tipo di record da cui è stato effettuato il collegamento.
 
 {{step1-to-maestro}}
 
@@ -318,7 +316,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    >[!TIP]
    >
-   >  Puoi aggiungere e fare clic su **+** icona nel campo oggetto collegato nella pagina Dettagli del record Maestro per collegare le risorse al record.
+   >  Puoi aggiungere e fare clic su **+** nel campo oggetto collegato della pagina Dettagli del record per collegare le risorse al record.
 
    Il **Seleziona risorse** viene visualizzata la casella. <!--we might change this to Connect assets-->
 
@@ -333,7 +331,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    >[!IMPORTANT]
    >
-   > Puoi collegare solo le risorse a cui hai accesso per visualizzare in Experience Manager. Una volta connessi, tutti gli utenti Maestro possono visualizzare le risorse in Maestro, indipendentemente dal loro accesso in Experience Manager Assets.
+   > Puoi collegare solo le risorse a cui hai accesso per visualizzare in Experience Manager. Una volta connessi, tutti gli utenti di Workfront Planning possono visualizzare le risorse in Workfront Planning, indipendentemente dal loro accesso in Experience Manager Assets.
 
 1. Clic **Seleziona**. <!-- we might change this to Connect-->
 
@@ -348,7 +346,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
      >
      >* Se è stata abilitata l&#39;impostazione Consenti più record, i valori dei diversi oggetti vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
      >
-     >* Non viene creato un campo record collegato ai record collegati Maestro per le risorse Experienci Manager collegate nell’applicazione Experience Manager Assets.
+     >* Non viene creato un campo record collegato ai record collegati di pianificazione Workfront per le risorse Experienci Manager collegate nell’applicazione Experience Manager Assets.
 
 1. (Facoltativo) Vai al tipo di record da cui hai collegato Experience Manager Assets e fai clic sul nome di una risorsa nel campo del record collegato. I dettagli di Experience Manager della risorsa vengono visualizzati in una finestra a comparsa. <!--update screen shot with hi-rez picture-->
 
@@ -366,11 +364,11 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
    * Data di creazione
    * Data modificata
 
-1. (Facoltativo) Per aprire la pagina Dettagli del record di risorse di Experience Manager in Experience Manager, vai alla pagina Tipo di record Maestro del record da cui stai effettuando il collegamento, fai clic sul nome di una risorsa nel campo del record collegato per aprire la finestra a comparsa, quindi fai clic su **Apri** icona ![](assets/open-asset-icon.png) per aprire la risorsa.
+1. (Facoltativo) Per aprire la pagina Dettagli del record di risorse di Experience Manager in Experience Manager, vai alla pagina del tipo di record del record da cui stai effettuando il collegamento, fai clic sul nome di una risorsa nel campo del record collegato per aprire la finestra a comparsa, quindi fai clic su **Apri** icona ![](assets/open-asset-icon.png) per aprire la risorsa.
 
    Verrà aperta la risorsa Experience Manager in Adobe Experience Manager Assets.
 
-1. (Facoltativo) Nella vista a tabella del tipo di record Maestro, passa il puntatore del mouse sull’intestazione di colonna della risorsa Experience Manager collegata e fai clic sul menu a discesa, quindi fai clic su **Modifica campi di ricerca**.
+1. (Facoltativo) Nella vista a tabella del tipo di record, passa il cursore del mouse sull’intestazione di colonna della risorsa di Experience Manager collegata e fai clic sul menu a discesa, quindi fai clic su **Modifica campi di ricerca**.
 
 1. Aggiungere campi oggetto Experience Manager Assets dalla **Campi non selezionati** area
 
@@ -378,4 +376,4 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Rimuovi i campi oggetto di Workfront dal **Campi selezionati** area.
 
-   Questo aggiunge o rimuove i campi collegati dai record Maestro. Le informazioni associate ai campi rimossi rimangono in Adobe Experience Assets.
+   Questa operazione consente di aggiungere o rimuovere campi collegati dai record. Le informazioni associate ai campi rimossi rimangono in Adobe Experience Assets.

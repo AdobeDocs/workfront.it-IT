@@ -1,13 +1,13 @@
 ---
 title: Crea record
-description: Quando si utilizzano le funzionalità di pianificazione di Adobe Workfront, un record è un'istanza di un tipo di record. È necessario creare tipi di record prima di creare singoli record. La creazione di record di tassonomia è identica alla creazione di record operativi.
+description: Quando si utilizza Adobe Workfront Planning, un record è un'istanza di un tipo di record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,11 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Nelle funzionalità di pianificazione di Adobe Workfront, un record è un&#39;istanza di un tipo di record.
-
-È possibile disporre dei seguenti tipi di record:
-
-* **Record operativi**: rappresentano oggetti correlati al lavoro. Ad esempio, per un record operativo denominato &quot;Campaign&quot;, è possibile denominare record come &quot;Monthly Newsletter&quot; o &quot;Summer Sale&quot;.
-* **Record di tassonomia**: rappresentano attributi che possono essere associati a record operativi. Ad esempio, per un tipo di record di tassonomia denominato &quot;Canale&quot;, è possibile denominare tassonomie come &quot;E-mail&quot;, &quot;Social Media&quot; o &quot;Advertising&quot;.
-
-La creazione di record operativi è identica alla creazione di record di tassonomia.
+In Adobe Workfront Planning, un record è un&#39;istanza di un tipo di record.
 
 È possibile creare record eseguendo una delle operazioni seguenti:
 
 * Crearli manualmente per i tipi di record
-  <!-- not possible anymore: * Connect them to records from other applications-->
 * Creare record copiando e incollando informazioni da un elenco esterno.
 
 In questo articolo viene descritto come creare record. Per informazioni sulla gestione dei record nelle viste tabella o sequenza temporale, vedere gli articoli seguenti:
@@ -57,7 +49,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -75,7 +67,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non sono presenti controlli di accesso per le funzionalità di pianificazione di Adobe Workfront </p>  
+   <td> <p>Nessun controllo di accesso per la pianificazione di Adobe Workfront </p>  
 </td>
   </tr>
 <tr>
@@ -86,7 +78,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
-   <td> <p>L’amministratore del Workfront o del gruppo deve aggiungere l’area Maestro nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td> <p>L'amministratore del Workfront o del gruppo deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="../access/access-overview.md">Panoramica degli accessi</a>. </p>  
 </td>
   </tr>
 
@@ -196,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. In un&#39;altra applicazione, selezionare più righe e colonne, quindi incollare le informazioni nella vista tabella del tipo di record, a partire dal primo nuovo record.
 
-   Nell&#39;area delle funzionalità di pianificazione di Workfront vengono importate le seguenti informazioni:
+   Nell&#39;area di pianificazione di Workfront vengono importate le seguenti informazioni:
 
    * Le righe contengono i nuovi record
    * Nelle colonne vengono inserite le informazioni relative ai campi dei record.
