@@ -4,7 +4,8 @@ description: Questa pagina fornisce informazioni sulle funzionalità incluse nel
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
 
 [Il futuro di Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) il 26 marzo 2024, per avere una panoramica del futuro della pianificazione strategica e del flusso di lavoro. Scopri in che modo il team Workfront prevede di affrontare le funzionalità aziendali nell’intero ciclo di vita del marketing, il tutto con un approccio basato sull’intelligenza artificiale per automatizzare il lavoro, semplificare le esperienze utente e aumentare la produttività.
 
-[Presentazione di calendari di marketing e strumenti per la pianificazione di campagne end-to-end](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) il 23 marzo 2023, per scoprire le nuove funzionalità dei prodotti progettate per consentire alle organizzazioni di gestire e visualizzare i cicli di vita operativi end-to-end.
+[Presentazione di calendari di marketing e strumenti per la pianificazione di campagne end-to-end](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) il 28 marzo 2024, per scoprire le nuove funzionalità dei prodotti progettate per consentire alle organizzazioni di gestire e visualizzare i cicli di vita operativi end-to-end.
 
 <span class="preview">Le funzioni fuori ciclo (quelle che vengono rilasciate in produzione prima della data di rilascio del secondo trimestre 2024) sono evidenziate in giallo.</span>
 

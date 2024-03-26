@@ -7,9 +7,10 @@ description: È possibile utilizzare un modello di layout per configurare ciò c
 author: Nolan
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2551089a20d3301ff1cf7dd633114dbb5235e959
+exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
+source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -101,7 +102,14 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
       <p>Dopo aver selezionato il widget da modificare, le opzioni disponibili vengono visualizzate a destra. Queste opzioni includono <b>Filtri</b>, <b>Colonne</b>, e <b>Gruppi</b>. È possibile:</p>
       <ul>
       <li><p><b>Seleziona i Filtri, le Colonne o i Gruppi che saranno disponibili per gli utenti:</b></p>
-      <p>Seleziona la casella accanto a tutte le opzioni nell’elenco che desideri possano essere utilizzate dagli utenti. Le opzioni non selezionate non vengono visualizzate per gli utenti.</li></p>
+      <p>Seleziona la casella accanto a tutte le opzioni nell’elenco che desideri possano essere utilizzate dagli utenti. Le opzioni non selezionate non vengono visualizzate per gli utenti.</li></p>     
+    <p>
+
+>[!IMPORTANT]
+>
+>Gli utenti devono avere l&#39;accesso Crea per le viste per poter applicare correttamente le configurazioni di colonna ai loro widget.
+
+</p>
       <li><p><b>Impostate un filtro o un gruppo predefinito per il widget:</b></p>
       <p>Passa il puntatore del mouse su un’opzione e viene visualizzato un pulsante che consente di impostare tale opzione come predefinita per gli utenti. Il valore predefinito corrente presenta un contrassegno predefinito blu a destra.</li></p>
       <li><p><b>Aggiungi un filtro, una colonna o un gruppo esistente all’elenco delle opzioni disponibili:</b></p>
@@ -124,4 +132,3 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
    Oppure
 
    Se hai finito di personalizzare, fai clic su **Salva** nell’angolo in basso a sinistra.
-
