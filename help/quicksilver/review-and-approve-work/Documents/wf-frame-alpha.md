@@ -8,7 +8,8 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e05c5a8889a406d3f28ba520f28c09d5ec1d1099
+exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
+source-git-commit: 142d94929cb31aee51e10373989f48347fc61740
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 2%
@@ -68,4 +69,6 @@ Quando viene caricata una nuova versione di un documento, è possibile avviare i
 
 ## Invia feedback
 
-Apprezziamo il tuo contributo e riteniamo che la tua prospettiva sia fondamentale per aiutarci a creare il miglior prodotto possibile. In caso di feedback specifici su cosa sarebbe necessario per consentire alla tua azienda di adottare questa soluzione in produzione, inviala a [etienneb@adobe.com](mailto:etienneb@adobe.com).
+Apprezziamo il tuo contributo e riteniamo che la tua prospettiva sia fondamentale per aiutarci a creare il miglior prodotto possibile.
+
+In caso di feedback specifici su cosa sarebbe necessario per consentire alla tua azienda di adottare questa soluzione in produzione, inviala a [etienneb@adobe.com](mailto:etienneb@adobe.com).
