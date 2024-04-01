@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '487'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-È possibile eliminare record non più rilevanti nella pianificazione di Adobe Workfront.
+È possibile eliminare record non più rilevanti in Adobe Workfront Planning.
 
 ## Requisiti di accesso
 
@@ -39,7 +39,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +58,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non sono presenti controlli del livello di accesso per la pianificazione di Adobe Workfront </p>  
+   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning </p>  
 </td>
   </tr>
 
@@ -95,10 +95,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 È possibile eliminare un record dalle seguenti aree:
 
-* [Dalla pagina Dettagli di un record](#delete-a-record-from-the-records-details-page)
+* [Dalla pagina del record](#delete-a-record-from-the-records-page)
 * [Dalla vista tabella di un tipo di record](#delete-a-record-from-the-record-type-table-view)
 
-### Eliminare un record dalla pagina Dettagli del record
+### Eliminare un record dalla pagina del record
 
 {{step1-to-maestro}}
 
@@ -115,7 +115,7 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
      ![](assets/contextual-menu-for-record-row.png)
    * In una visualizzazione Sequenza temporale, fare clic su una barra dei record.
 
-   Il record **Dettagli** viene visualizzata la pagina.
+   Viene visualizzata la pagina del record.
 
 1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del record, quindi fare clic su **Elimina**, quindi **Elimina** di nuovo per confermare.
 
@@ -141,7 +141,7 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Fai clic su **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) per aprire la casella Dettagli e fare clic su **Altro** ![](assets/more-menu.png) a destra del nome del record, quindi **Elimina**.
+   * Fai clic su **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) per aprire la casella con le informazioni dettagliate del record e fare clic su **Altro** ![](assets/more-menu.png) a destra del nome del record, quindi **Elimina**.
 
    Il record viene eliminato e non può essere recuperato.
 

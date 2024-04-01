@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1085'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 {{maestro-important-intro}}
 
-Dopo aver selezionato un tipo di record nell&#39;area di pianificazione di Adobe Workfront, è possibile visualizzare tutti i record di quel tipo nelle seguenti visualizzazioni:
+Dopo aver selezionato un tipo di record nell&#39;area di Adobe Workfront Planning, è possibile visualizzare tutti i record di quel tipo nelle seguenti visualizzazioni:
 
 * Tabella
 
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
    <td>
    <p>Qualsiasi</p> 
+   <p>Gli amministratori di sistema possono accedere solo alle visualizzazioni create o condivise con loro. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Configurazione del livello di accesso</td>
-   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>  
+   <td> <p>Nessun controllo del livello di accesso per Workfront Planning</p>  
 </td>
   </tr>
 
@@ -89,7 +90,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni durante l&#39;utilizzo delle visualizzazioni record
 
-* Le visualizzazioni nella pianificazione di Workfront sono specifiche per il tipo di record. Non è possibile applicare la stessa visualizzazione a due tipi di record diversi.
+* Le visualizzazioni in Workfront Planning sono specifiche per il tipo di record. Non è possibile applicare la stessa visualizzazione a due tipi di record diversi.
 * Le visualizzazioni create sono visibili solo a te e agli utenti con cui condividi le visualizzazioni.
 * Quando si modifica o si elimina una visualizzazione, questa viene modificata ed eliminata per tutti gli utenti che dispongono di autorizzazioni per la visualizzazione.
 * I seguenti elementi sono univoci per ogni visualizzazione record:
@@ -104,7 +105,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
   >[!NOTE]
   >
-  > Poiché la pianificazione di Adobe Workfront è attualmente in stato beta, alcuni elementi di visualizzazione potrebbero non essere disponibili per tutte le visualizzazioni.
+  > Poiché Adobe Workfront Planning è attualmente in stato beta, alcuni elementi di visualizzazione potrebbero non essere disponibili per tutte le visualizzazioni.
 
 Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
 
@@ -138,7 +139,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 | Raggruppamenti di codici colore |           | ✓ |
 | Cerca record specifici | ✓ | ✓ |
 | Condividi visualizzazione | ✓ | ✓ | ✓ |
-| Aprire la pagina Dettagli del record dalla visualizzazione | ✓ | ✓ |    |
+| Aprire la pagina del record dalla visualizzazione | ✓ | ✓ |    |
 
 
 ## Creare o modificare le viste {#create-or-edit-views}

@@ -1,11 +1,11 @@
 ---
 title: Connetti tipi di record
-description: Un modo per indicare la correlazione tra i singoli tipi di record consiste nel collegarli. Inoltre, è possibile collegare i tipi di record di pianificazione di Adobe Workfront con i tipi di oggetto di altre applicazioni per migliorare l'esperienza degli utenti e mantenere l'attenzione in un'unica applicazione.
+description: Un modo per indicare la correlazione tra i singoli tipi di record consiste nel collegarli. Inoltre, è possibile collegare i tipi di record di Adobe Workfront Planning con i tipi di oggetto di altre applicazioni per migliorare l'esperienza degli utenti e mantenere lo stato attivo in un'unica applicazione.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '2213'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -30,17 +30,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-È possibile utilizzare la pianificazione di Adobe Workfront per progettare aree di lavoro completamente personalizzabili che contengano i tipi di record necessari nell’organizzazione. Un modo per indicare la correlazione tra i singoli tipi di record consiste nel collegarli. È inoltre possibile collegare i tipi di record di pianificazione di Workfront con i tipi di oggetto di altre applicazioni per migliorare l&#39;esperienza degli utenti e mantenere l&#39;attenzione in un&#39;unica applicazione.
+È possibile utilizzare Adobe Workfront Planning per progettare aree di lavoro completamente personalizzabili che contengano i tipi di record necessari nell&#39;organizzazione. Un modo per indicare la correlazione tra i singoli tipi di record consiste nel collegarli. È inoltre possibile collegare i tipi di record di Workfront Planning a tipi di oggetto di altre applicazioni per migliorare l&#39;esperienza degli utenti e mantenere l&#39;attenzione in un&#39;unica applicazione.
 
 È possibile connettere tipi di record tra loro o tipi di record con tipi di oggetto di altre applicazioni.
 
-In questo modo è possibile visualizzare i campi del record collegato o del tipo di oggetto in un record di pianificazione di Workfront.
+In questo modo è possibile visualizzare i campi del record collegato o del tipo di oggetto in un record di Workfront Planning.
 
 Questo articolo descrive come collegare due tipi di record in Workfront Planning o un tipo di record a un oggetto di un&#39;altra applicazione.
 
 Dopo aver stabilito la connessione tra i record o i tipi di oggetto, è possibile collegare tra loro singoli record.
 
-Per informazioni sulla connessione di un record di pianificazione di Workfront a un oggetto di un&#39;altra applicazione, vedere [Collega record](../records/connect-records.md).
+Per informazioni sulla connessione di un record di Workfront Planning a un oggetto di un&#39;altra applicazione, vedere [Collega record](../records/connect-records.md).
 
 Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione di tipi di record e record](../architecture/example-connect-record-types-and-records.md).
 
@@ -61,11 +61,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <td>
    <p> Prodotto</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Per collegare i tipi di record di pianificazione di Adobe Workfront a Experience Manager Assets, è necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Per collegare i tipi di record di Adobe Workfront Planning a Experience Manager Assets, è necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -83,7 +83,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non sono presenti controlli del livello di accesso per la pianificazione di Adobe Workfront</p>  
+   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -114,14 +114,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni sulla connessione dei tipi di record
 
-* Nella pianificazione di Adobe Workfront è possibile connettere le seguenti entità:
+* È possibile connettere le seguenti entità in Adobe Workfront Planning:
 
    * Due tipi di record
 
      I tipi di record devono appartenere allo stesso workspace.
    * Tipo di record e tipo di oggetto di un&#39;altra applicazione.
 
-* Con i tipi di record di pianificazione di Workfront è possibile collegare i seguenti tipi di oggetto dalle applicazioni seguenti:
+* Con i tipi di record di Workfront Planning è possibile collegare i seguenti tipi di oggetto dalle applicazioni seguenti:
 
    * Adobe Workfront:
 
@@ -138,7 +138,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      >[!IMPORTANT]
      >
-     >Devi disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console per collegare i record di pianificazione di Workfront ad Adobe Experience Manager Assets.
+     >È necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console per collegare i record di Workfront Planning ad Adobe Experience Manager Assets.
      >
      >In caso di domande sull’onboarding per Adobe Admin Console, consulta [Domande frequenti sull’esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -152,13 +152,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * **Quando si collega un tipo di record a un tipo di oggetto di un&#39;altra applicazione**: viene creato un campo record collegato sul tipo di record da cui stai effettuando la connessione. Nessun campo record collegato viene creato automaticamente sul tipo di oggetto dell&#39;altra applicazione.
 
-     Viene creato un nuovo tipo di record di sola lettura di Workfront Planning per l&#39;oggetto dell&#39;altra applicazione solo quando gli oggetti effettivi sono connessi ai record di pianificazione di Workfront.
+     Viene creato un nuovo tipo di record di sola lettura di Workfront Planning per l&#39;oggetto dell&#39;altra applicazione solo quando gli oggetti effettivi sono connessi ai record di Workfront Planning.
 
      Per ulteriori informazioni, consulta [Collega record](../records/connect-records.md).
 
-   * **Quando si aggiungono campi di ricerca del record o dell&#39;oggetto a cui ci si connette**: è possibile collegare i campi dall&#39;oggetto dell&#39;altra applicazione al tipo di record di pianificazione di Workfront. Si tratta di campi collegati o di ricerca. I campi collegati visualizzano automaticamente le informazioni dei record o degli oggetti connessi quando si collegano i record o gli oggetti. I campi di ricerca collegati sono sempre di sola lettura e vengono compilati automaticamente con i valori dei record o degli oggetti connessi.
+   * **Quando si aggiungono campi di ricerca del record o dell&#39;oggetto a cui ci si connette**: è possibile collegare i campi dall&#39;oggetto dell&#39;altra applicazione al tipo di record Workfront Planning. Si tratta di campi collegati o di ricerca. I campi collegati visualizzano automaticamente le informazioni dei record o degli oggetti connessi quando si collegano i record o gli oggetti. I campi di ricerca collegati sono sempre di sola lettura e vengono compilati automaticamente con i valori dei record o degli oggetti connessi.
 
-     Ad esempio, se si collega il tipo di record &quot;Campagna&quot; a un progetto Workfront e si seleziona di inserire il campo Data di completamento pianificata del progetto nel record di pianificazione di Workfront, per la campagna viene automaticamente creato un campo collegato denominato Data di completamento pianificata (da progetto). Impossibile modificare manualmente il campo collegato. Nel campo Data di completamento pianificata (da progetto) viene visualizzata la Data di completamento pianificata dei progetti collegati.
+     Ad esempio, se si collega il tipo di record &quot;Campagna&quot; a un progetto Workfront e si seleziona di inserire il campo Data di completamento pianificata del progetto nel record Pianificazione di Workfront, per la campagna viene automaticamente creato un campo collegato denominato Data di completamento pianificata (da progetto). Impossibile modificare manualmente il campo collegato. Nel campo Data di completamento pianificata (da progetto) viene visualizzata la Data di completamento pianificata dei progetti collegati.
 
      >[!IMPORTANT]
      >
@@ -200,7 +200,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 1. Aggiorna le seguenti informazioni:
 
-   * **Nome**: nome del campo connesso che verrà visualizzato nella visualizzazione tabella o nella pagina Dettagli del tipo di record originale. In questo modo viene creata la colonna del record collegato nella vista a tabella del tipo di record originale o del campo del record collegato per i record originali.
+   * **Nome**: nome del campo connesso che verrà visualizzato nella visualizzazione tabella o nella pagina del record del tipo di record originale. In questo modo viene creata la colonna del record collegato nella vista a tabella del tipo di record originale o del campo del record collegato per i record originali.
 
    >[!TIP]
    >

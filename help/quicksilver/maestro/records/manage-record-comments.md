@@ -1,13 +1,13 @@
 ---
 title: Gestisci commenti record
-description: Puoi collaborare ai record di pianificazione di Adobe Workfront aggiungendo commenti o risposte nel pannello a destra di un record. In quest'area è inoltre possibile visualizzare altre modifiche apportate al record e registrate dal sistema.
+description: È possibile collaborare ai record di Adobe Workfront Planning aggiungendo commenti o risposte nel pannello destro di un record. In quest'area è inoltre possibile visualizzare altre modifiche apportate al record e registrate dal sistema.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1144'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Puoi collaborare ai record di pianificazione di Adobe Workfront aggiungendo commenti o risposte nel pannello a destra di un record. In quest&#39;area è inoltre possibile visualizzare altre modifiche apportate al record e registrate dal sistema.
+È possibile collaborare ai record di Adobe Workfront Planning aggiungendo commenti o risposte nel pannello destro di un record. In quest&#39;area è inoltre possibile visualizzare altre modifiche apportate al record e registrate dal sistema.
 
 Nel pannello destro di un record vengono visualizzate le sezioni riportate di seguito.
 
@@ -35,21 +35,21 @@ Nel pannello destro di un record vengono visualizzate le sezioni riportate di se
 
 * È possibile aggiungere commenti e risposte ai record in Workfront Planning, nella sezione Commenti di un record.
 
-* I commenti aggiunti ai record collegati non vengono visualizzati nei record da cui si sta eseguendo il collegamento. Se ad esempio si commenta un record di prodotto di pianificazione Workfront collegato a un record di campagna, il commento verrà visualizzato solo nel record di prodotto di pianificazione Workfront e non nel record di campagna da cui si sta effettuando il collegamento.
+* I commenti aggiunti ai record collegati non vengono visualizzati nei record da cui si sta eseguendo il collegamento. Se ad esempio si commenta un record di prodotto di Workfront Planning collegato a un record di Campaign, il commento verrà visualizzato solo nel record di prodotto di Workfront Planning e non nel record di campagna da cui si sta effettuando il collegamento.
 
-* È possibile aggiungere commenti ai record di pianificazione di Workfront creati come risultato di una connessione tra un record e un oggetto di un&#39;altra applicazione.
+* È possibile aggiungere commenti ai record di Workfront Planning creati come risultato di una connessione tra un record e un oggetto di un&#39;altra applicazione.
 
-  È ad esempio possibile aggiungere un commento al record di pianificazione di Project Workfront dopo aver collegato i progetti Workfront ai record di pianificazione di Workfront. Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/maestro/records/connect-records.md).
+  È ad esempio possibile aggiungere un commento al record Pianificazione di Workfront Project dopo aver collegato i progetti Workfront ai record Pianificazione di Workfront. Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/maestro/records/connect-records.md).
 
 * I commenti aggiunti agli oggetti collegati in altre applicazioni non vengono visualizzati in Workfront Planning, mentre i commenti aggiunti agli oggetti collegati in Workfront Planning non vengono visualizzati in altre applicazioni.
 
-  Ad esempio, i commenti aggiunti ai progetti in Workfront non vengono visualizzati sullo stesso progetto collegato a una campagna in Workfront planning e i commenti aggiunti al record di pianificazione del progetto Workfront non vengono visualizzati in Workfront.
+  Ad esempio, i commenti aggiunti ai progetti in Workfront non vengono visualizzati sullo stesso progetto collegato a una campagna in Workfront Planning e i commenti aggiunti al record di pianificazione del progetto Workfront non vengono visualizzati in Workfront.
 
 * Puoi assegnare tag agli utenti per attirare la loro attenzione su un aggiornamento. Gli utenti taggati non ricevono una notifica in-app o un’e-mail relativa all’aggiornamento. <!--this might change??-->
 
-* È possibile aggiungere un aggiornamento ai record ed esaminare la cronologia delle modifiche dalle seguenti aree di pianificazione di Workfront:
+* È possibile aggiungere un aggiornamento ai record ed esaminare la cronologia delle modifiche dalle seguenti aree di Workfront Planning:
 
-   * Dalla pagina Dettagli di un record.
+   * Dalla pagina del record.
 
   <!--* From the table view.-->
 
@@ -72,7 +72,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -90,7 +90,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Nella pianificazione di Workfront non sono presenti controlli del livello di accesso. </p>  
+   <td> <p>Nessun controllo del livello di accesso in Workfront Planning. </p>  
 </td>
   </tr>
 <tr>

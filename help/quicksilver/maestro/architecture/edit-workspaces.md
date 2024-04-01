@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Nella pianificazione di Adobe Workfront, le aree di lavoro sono posizioni centralizzate in cui i team possono pianificare il lavoro.
+In Adobe Workfront Planning, le aree di lavoro sono posizioni centralizzate in cui i team possono pianificare il lavoro.
 
-Un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. È possibile personalizzare completamente le aree di lavoro nella pianificazione di Adobe Workfront.
+Un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. È possibile personalizzare completamente le aree di lavoro in Adobe Workfront Planning.
 
 Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](/help/quicksilver/maestro/architecture/create-workspaces.md).
 
@@ -43,7 +43,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>
+   <td> <p>Nessun controllo del livello di accesso per Workfront Planning</p>
 </td>
   </tr>
 
@@ -88,7 +88,7 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
 {{step1-to-maestro}}
 
-Verrà aperta l&#39;area Aree di lavoro della pianificazione di Workfront.
+Verrà aperta l&#39;area Aree di lavoro di Workfront Planning.
 
 1. Fai clic sul nome dell’area di lavoro nell’intestazione della nuova area di lavoro per rinominarla, quindi premi **Invio**
 

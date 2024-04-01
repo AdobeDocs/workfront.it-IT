@@ -1,13 +1,13 @@
 ---
 title: Gestire la vista tabella
-description: È possibile visualizzare i record e i relativi campi in una vista tabella quando si accede alla pagina del tipo di record in Adobe Workfront planning.
+description: È possibile visualizzare i record e i relativi campi in una vista tabella quando si accede alla pagina del tipo di record in Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2401'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-È possibile visualizzare i record e i relativi campi in una vista tabella quando si accede alla pagina del tipo di record in Adobe Workfront planning.
+È possibile visualizzare i record e i relativi campi in una vista tabella quando si accede alla pagina del tipo di record in Adobe Workfront Planning.
 
 Per informazioni sulle visualizzazioni record e su come gestirle, vedere [Gestire le visualizzazioni record](../views/manage-record-views.md).
 
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -64,6 +64,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
    <td>
    <p>Qualsiasi</p> 
+   <p>Gli amministratori di sistema possono accedere solo alle visualizzazioni create o condivise con loro. </p>
   </td>
   </tr>
 
@@ -127,7 +128,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Inizia ad aggiungere campi (o colonne), come descritto nell’articolo [Crea campi](../fields/create-fields.md).
 
-   Le colonne aggiunte sono visibili a tutti gli utenti che accedono al tipo di record e vengono aggiunte come nuovi campi nella pagina Dettagli dei record del tipo di record selezionato.
+   Le colonne aggiunte sono visibili a tutti gli utenti che accedono al tipo di record e vengono aggiunte come nuovi campi nella pagina del record.
 
 1. Per riordinare le colonne della tabella, effettuare una delle seguenti operazioni:
 
@@ -174,7 +175,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    >
    >   * Non è possibile eliminare o nascondere un campo principale.
    >
-   >   * Il valore elencato nel campo primario è sempre collegato alla pagina Dettagli del record.
+   >   * Il valore elencato nel campo principale è sempre collegato alla pagina del record.
 
 1. Fate clic sulle linee di separazione delle colonne e trascinatele nel punto desiderato per aumentare la larghezza delle colonne.
 

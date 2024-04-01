@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav
 ---
 title: Edit record types
-description: You can edit record types after they have been saved. Record types are the object types of Adobe Workfront planning.
+description: You can edit record types after they have been saved. Record types are the object types of Adobe Workfront Planning.
 author: Alina
 role: User
 feature: Work Management 
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibile modificare l&#39;aspetto dei tipi di record creati dall&#39;utente o da qualsiasi altro utente. Per informazioni sulla creazione di tipi di record di pianificazione di Workfront, vedere [Crea tipi di record](../architecture/create-record-types.md).
+I tipi di record sono i tipi di oggetto di Adobe Workfront Planning. È possibile modificare l&#39;aspetto dei tipi di record creati dall&#39;utente o da qualsiasi altro utente. Per informazioni sulla creazione di tipi di record di Workfront Planning, vedere [Crea tipi di record](../architecture/create-record-types.md).
 
 ## Requisiti di accesso
 
@@ -47,11 +47,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <td>
    <p> Prodotto</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>Per collegare i tipi di record di pianificazione di Adobe Workfront a Experience Manager Assets, è necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>Per collegare i tipi di record di Adobe Workfront Planning a Experience Manager Assets, è necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>  
+   <td> <p>Nessun controllo del livello di accesso per Workfront Planning</p>  
 </td>
   </tr>
 

@@ -1,11 +1,11 @@
 ---
 title: Elenco dei modelli di Workspace
-description: Un'area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. Adobe Workfront Planning include una serie di modelli per iniziare a utilizzare i tipi di record e i campi di base durante la creazione dell’area di lavoro.
+description: Un'area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. Adobe Workfront Planning include un set di modelli per iniziare a utilizzare i tipi di record e i campi di base durante la creazione dell’area di lavoro.
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 0%
@@ -31,18 +31,18 @@ role: User
 
 In Adobe Workfront Planning, un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team.
 
-Workfront Planning include una serie di modelli per iniziare a utilizzare i tipi di record e i campi di base durante la creazione dell&#39;area di lavoro. Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
+Workfront Planning include un set di modelli per iniziare a utilizzare i tipi di record e i campi di base durante la creazione dell&#39;area di lavoro. Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
 
-Questo articolo descrive i modelli di area di lavoro disponibili nella pianificazione di Adobe Workfront.
+Questo articolo descrive i modelli di area di lavoro disponibili in Adobe Workfront Planning.
 
-## Considerazioni sui modelli di pianificazione di Adobe Workfront
+## Considerazioni sui modelli di Adobe Workfront Planning
 
 * Ogni modello include un set di tipi di record. Per informazioni, consulta [Panoramica dei tipi di record](../architecture/overview-of-record-types-and-taxonomies.md).
 * I tipi di record di ogni modello sono organizzati nelle sezioni seguenti:
 
    * Tipi di record operativi
    * Tassonomie
-* Ogni tipo di record include un set di campi. Alcuni di questi campi sono connessioni ad altri tipi di record di pianificazione di Workfront.
+* Ogni tipo di record include un set di campi. Alcuni di questi campi sono connessioni ad altri tipi di record di Workfront Planning.
 * È possibile personalizzare qualsiasi modello e aggiungere altri tipi di record e campi a quelli esistenti.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
@@ -96,9 +96,9 @@ You must have the following:
 
 -->
 
-## Modelli di area di lavoro di pianificazione di Workfront
+## Modelli di area di lavoro di Workfront Planning
 
-Di seguito sono riportati i modelli di area di lavoro nella pianificazione di Workfront e il numero di campi inclusi:
+Di seguito sono riportati i modelli di area di lavoro in Workfront Planning e il numero di campi inclusi:
 
 * **Gestione marketing**: quando utilizzi questo modello, puoi gestire tutte le campagne di marketing. Il modello include quanto segue:
 

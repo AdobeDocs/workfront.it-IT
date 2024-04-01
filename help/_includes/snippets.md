@@ -1,5 +1,5 @@
 ---
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
 source-wordcount: '2355'
 ht-degree: 1%
@@ -255,11 +255,11 @@ Per impostare le cartelle collegate:
 >
 >Le informazioni contenute in questo articolo si riferiscono alla pianificazione di Adobe Workfront, una nuova offerta di Adobe Workfront.
 >
->Attualmente, la pianificazione Workfront fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
+>Attualmente, Workfront Planning fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
 >
->Per ulteriori informazioni su come partecipare al programma beta per la pianificazione di Workfront, contatta il rappresentante del tuo account.
+>Per ulteriori informazioni su come partecipare al programma beta per Workfront Planning, contattare il rappresentante commerciale di riferimento.
 >
->Per ulteriori informazioni, consulta [Panoramica sulla pianificazione di Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+>Per ulteriori informazioni, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

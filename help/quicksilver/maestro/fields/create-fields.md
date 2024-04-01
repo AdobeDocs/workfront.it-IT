@@ -1,13 +1,13 @@
 ---
 title: Crea campi
-description: In Adobe Workfront Planning è possibile creare campi personalizzati per ogni tipo di record. È quindi possibile associare il campo ai record di pianificazione di Workfront.
+description: In Adobe Workfront Planning è possibile creare campi personalizzati per ogni tipo di record. È quindi possibile associare il campo ai record di Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '3338'
+source-wordcount: '3308'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-In Adobe Workfront Planning è possibile creare campi personalizzati per i tipi di record. È quindi possibile associare i campi ai record di pianificazione di Workfront per migliorare le informazioni sui record.
+In Adobe Workfront Planning è possibile creare campi personalizzati per i tipi di record. È quindi possibile associare i campi ai record di Workfront Planning per migliorare le informazioni sui record.
 
 È necessario creare tipi di record prima di poter creare campi da associare. Per informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
 
@@ -68,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>  
+   <td> <p>Nessun controllo del livello di accesso per Workfront Planning</p>  
 </td>
   </tr>
 
@@ -248,7 +248,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
 
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
-   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Formato data**: tipo di formato della data che desideri visualizzare in questo campo. <!--update this casing - submitted bug for it-->
 
@@ -278,7 +278,7 @@ I tipi di campo numerico acquisiscono informazioni in formato numerico.
    ![](assets/number-field-type.png)
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
 
-   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record.
+   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record.
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Precisione**: numero di decimali da registrare per il campo. Puoi visualizzare fino a 6 decimali.
    * **Consenti numeri negativi**: seleziona questa opzione se desideri consentire l’utilizzo di numeri negativi in questo campo. Questa opzione è deselezionata per impostazione predefinita.
@@ -300,7 +300,7 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
    ![](assets/percentage-field-type.png)
 
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
-   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record.
+   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record.
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Precisione**: numero di decimali da registrare per il campo. Puoi visualizzare fino a 6 decimali.
    * **Consenti numeri negativi**: seleziona questa opzione se desideri consentire valori percentuali negativi in questo campo. Questa opzione è deselezionata per impostazione predefinita.
@@ -322,7 +322,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
    ![](assets/currency-field-type.png)
 
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
-   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Valuta**: tipo di valuta da visualizzare in questo campo. Questa è una lista di valute secondo l&#39;Organizzazione Internazionale di Standardizzazione (ISO).
    * **Precisione**: numero di decimali da registrare per il campo. Puoi visualizzare fino a 6 decimali.
@@ -345,7 +345,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
    ![](assets/checkbox-field-type.png)
 
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
-   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
 1. Fai clic su **Crea**.
 
@@ -373,13 +373,13 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
    Per ulteriori informazioni sulle espressioni supportate, vedi [Panoramica sui campi formula](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Aggiungere i nomi dei campi visualizzati nell&#39;interfaccia di pianificazione di Workfront per farvi riferimento in una formula.
+1. Aggiungere i nomi dei campi visualizzati nell&#39;interfaccia di Workfront Planning per farvi riferimento in una formula.
 
    >[!NOTE]
    >
    > * Non è possibile aggiungere campi di tipo a selezione multipla in una formula.
    >
-   > * Impossibile aggiungere campi da record collegati in una formula. Questa funzionalità verrà rilasciata in un secondo momento. Per ulteriori informazioni sulle nuove versioni, consulta [attività sulla versione di Adobe Workfront planning](/help/quicksilver/maestro/release-activity.md).
+   > * Impossibile aggiungere campi da record collegati in una formula. Questa funzionalità verrà rilasciata in un secondo momento. Per ulteriori informazioni sulle nuove versioni, consulta [Attività sulla versione di Adobe Workfront Planning](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Fai clic su **Crea**.
@@ -396,7 +396,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
    ![](assets/people-field-type.png)
 
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
-   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record.
+   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record.
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Consenti più valori**: seleziona questa opzione se desideri consentire agli utenti di aggiungere più di un utente in questo campo. Questa opzione è deselezionata per impostazione predefinita.
 
@@ -418,7 +418,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
 
-   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record. <!--this might change and they might prepopulate it with "Created by"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
 
 1. Fai clic su **Crea**.
@@ -438,7 +438,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
 
-   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record. <!--this might change and they might prepopulate it with "Created date"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Formato data**: seleziona uno dei seguenti formati:
 
@@ -469,7 +469,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
 
-   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--this might change and they might prepopulate it with "Created by"-->
+   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record. <!--this might change and they might prepopulate it with "Created by"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
 
 1. Fai clic su **Crea**.
@@ -489,7 +489,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
 
-   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina Dettagli del record. <!--this might change and they might prepopulate it with "Created date"-->
+   * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record. <!--this might change and they might prepopulate it with "Created date"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Formato data**: seleziona uno dei seguenti formati:
 
@@ -513,7 +513,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
 È possibile creare campi record collegati quando si aggiunge una nuova connessione tra due tipi di record Maestro o un tipo di record e un tipo di oggetto di altre applicazioni.
 
-Per informazioni sulla connessione dei tipi di record di pianificazione di Workfront, vedere [Connetti tipi di record](../architecture/connect-record-types.md)
+Per informazioni sulla connessione dei tipi di record di Workfront Planning, vedere [Connetti tipi di record](../architecture/connect-record-types.md)
 
 ## Creare campi importando tipi di record tramite un file Excel e CSV
 
@@ -525,6 +525,6 @@ Quando si crea un tipo di record, per impostazione predefinita vengono creati an
 
 ## Creare campi creando un’area di lavoro da un modello
 
-Quando si crea un&#39;area di lavoro da un modello, Adobe Workfront planning crea dei campi per i tipi di record.
+Adobe Workfront Planning crea campi per i tipi di record quando si crea un&#39;area di lavoro da un modello.
 
 Per informazioni, consulta [Creare aree di lavoro](/help/quicksilver/maestro/architecture/create-workspaces.md).

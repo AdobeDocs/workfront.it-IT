@@ -5,14 +5,15 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--this is linked to the UI in an empty workspace screen-->
 
 # Crea tipi di record
 
@@ -42,7 +43,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +63,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>  
+   <td> <p>Nessun controllo del livello di accesso per Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -105,20 +106,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
         >
         >Questa funzionalità è stata temporaneamente disabilitata dal 21 marzo 2024. Verrà attivato in un secondo momento.
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
+     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
    * Manualmente:
 
       * Da zero.
 
-        Questo articolo descrive come creare tipi di record generici da zero in un&#39;area di lavoro creata da zero.
+        Questo articolo descrive come creare tipi di record da zero.
 
 * È possibile spostare tipi di record all&#39;interno di una sezione e da una sezione di un&#39;area di lavoro a un&#39;altra. Non è possibile spostare tipi di record da un&#39;area di lavoro a un&#39;altra.
 
 ## Creare tipi di record utilizzando un modello di area di lavoro
 
-È possibile creare automaticamente i tipi di record quando si crea un&#39;area di lavoro utilizzando un modello di pianificazione di Workfront. Ogni modello contiene tipi di record di esempio.
+È possibile creare automaticamente i tipi di record quando si crea un&#39;area di lavoro utilizzando un modello di Workfront Planning. Ogni modello contiene tipi di record di esempio.
 
 Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono raggruppati nelle sezioni seguenti:
 
@@ -133,17 +134,14 @@ Per informazioni sui tipi di record inclusi in ogni modello, vedere [Elenco dei 
 
 ## Creare un tipo di record da zero
 
-Questo articolo descrive come creare tipi di record da zero.
-
 {{step1-to-maestro}}
 
 Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera creare i tipi di record.
+1. (Facoltativo) Fai clic su **Aggiungi sezione** per aggiungere una nuova sezione al workspace.
 1. Clic **Aggiungi tipo di record**.
-1. (Condizionale) Se si sta creando un tipo di record operativo, fare clic su **Da zero**.
-
-   Viene visualizzata la casella Aggiungi tipo di record.
+1. (Condizionale) Quando si creano tipi di record importando un file Excel o CSV è abilitato, fare clic su **Da zero**. In caso contrario, **Aggiungi tipo di record** viene visualizzata la casella.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -156,13 +154,17 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 1. Fai clic all’esterno del **Aggiungi tipo di record** per salvare il tipo di record.
 
-   La scheda del tipo di record viene aggiunta all&#39;area di lavoro selezionata.
+   La scheda del tipo di record viene aggiunta alla sezione e all&#39;area di lavoro selezionate.
 Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
 1. (Facoltativo) Fare clic sulla scheda tipo di record per aprire la pagina tipo di record.
 
    ![](assets/operational-record-type-blank.png)
 
-   Per impostazione predefinita, la pagina del tipo di record viene visualizzata nella vista Tabella. Le colonne della tabella sono campi associati al nuovo tipo di record. Ogni riga è un record univoco da aggiungere.
+   Per impostazione predefinita, la pagina del tipo di record viene visualizzata nella vista tabella. Le colonne della tabella sono campi associati al nuovo tipo di record. Ogni riga è un record univoco da aggiungere.
+
+   >[!TIP]
+   >
+   >    Se si importa un tipo di record da un file Excel o CSV, vengono importati anche i record.
 
    Per impostazione predefinita, i campi seguenti vengono visualizzati nelle colonne della vista tabella di un tipo di record operativo:
 
@@ -183,7 +185,7 @@ Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
 
    Per ulteriori informazioni sulla creazione dei campi, consulta [Crea campi](../fields/create-fields.md).
 
-1. (Facoltativo) Fare clic sulla freccia rivolta a sinistra a sinistra del nome del tipo di record per tornare all&#39;area di lavoro selezionata.
+1. (Facoltativo) Fare clic sulla freccia rivolta a sinistra a sinistra del nome del tipo di record nell&#39;intestazione per tornare all&#39;area di lavoro selezionata.
 
    Nella scheda del tipo di record viene visualizzato il numero di campi e connessioni contenuti nel tipo di record.
 
@@ -196,16 +198,15 @@ Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
    * [Modifica tipi di record](../architecture/edit-record-types.md)
    * [Gestire le visualizzazioni record](../views/manage-record-views.md)
 
-1. (Facoltativo) Dall&#39;area di lavoro, fare clic su per trascinare un tipo di record in un punto desiderato o per spostarlo in un&#39;altra sezione.
+1. (Facoltativo) Dall’area di lavoro, fai clic su una scheda del tipo di record e tieni premuto per trascinarla in un punto desiderato o per spostarla in un’altra sezione.
 
-   Le modifiche vengono salvate automaticamente dopo che la scheda del tipo di record selezionato è stata eliminata.
+   Le modifiche vengono salvate automaticamente.
 
 ## Creare tipi di record importando un file Excel o CSV
 
 >[!IMPORTANT]
 >
 >Questa funzionalità è stata temporaneamente disabilitata dal 21 marzo 2024. Verrà attivato in un secondo momento.
-
 
 Quando si importano tipi di record utilizzando un file Excel o CSV, tenere presente quanto segue:
 
@@ -233,7 +234,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Viene visualizzata la casella Anteprima e modifica con le seguenti informazioni:
 
-   * I nomi dei fogli o dei tipi di record futuri vengono visualizzati nel pannello sinistro. Per impostazione predefinita, Workfront planning seleziona un&#39;icona e un colore per ogni nuovo tipo di record.
+   * I nomi dei fogli o dei tipi di record futuri vengono visualizzati nel pannello sinistro. Per impostazione predefinita, Workfront Planning seleziona un&#39;icona e un colore per ogni nuovo tipo di record.
    * Il primo foglio o il tipo di record viene selezionato e i nomi dei campi associati vengono visualizzati come intestazioni di colonna. Il tipo di ogni campo è selezionato per impostazione predefinita.
    * Ogni riga rappresenta un nuovo record. Nella casella Anteprima e modifica vengono visualizzati solo i primi 10 record.
 
@@ -262,13 +263,13 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    È possibile iniziare a gestire campi e record nelle pagine dei tipi di record.
 
-   Tutti coloro che hanno accesso alla pianificazione di Workfront ora possono visualizzare e modificare i tipi di record importati e le relative informazioni. <!--this will change with permissions-->
+   Tutti gli utenti con accesso a Workfront Planning possono ora visualizzare e modificare i tipi di record importati e le relative informazioni. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

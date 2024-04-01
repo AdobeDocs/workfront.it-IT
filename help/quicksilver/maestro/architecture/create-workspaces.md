@@ -1,13 +1,13 @@
 ---
 title: Creare aree di lavoro
-description: Un'area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. È possibile personalizzare completamente le aree di lavoro nella pianificazione di Adobe Workfront.
+description: Un'area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. È possibile personalizzare completamente le aree di lavoro in Adobe Workfront Planning. I tipi di record sono organizzati per sezioni in un'area di lavoro.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-Nella pianificazione di Adobe Workfront, le aree di lavoro sono posizioni centralizzate in cui i team possono pianificare il lavoro.
+In Adobe Workfront Planning, le aree di lavoro sono posizioni centralizzate in cui i team possono pianificare il lavoro.
 
-Un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. È possibile personalizzare completamente le aree di lavoro nella pianificazione di Adobe Workfront.
+Un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. È possibile personalizzare completamente le aree di lavoro in Adobe Workfront Planning.
 
 ## Requisiti di accesso
 
@@ -61,7 +61,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Non sono presenti controlli del livello di accesso per la pianificazione di Adobe Workfront</p>
+   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>
 </td>
   </tr>
 
@@ -98,8 +98,12 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 * Puoi creare aree di lavoro per specifiche unità organizzative all’interno dell’organizzazione, in base al funzionamento univoco di ciascuna unità.
 * I tipi di record contenuti in un&#39;area di lavoro devono riflettere il ciclo di vita lavorativo di un&#39;unità organizzativa.
 * Quando crei un’area di lavoro, solo tu disponi dell’autorizzazione per accedere a essa e gestirla. È necessario condividerlo con altri utenti affinché possano collaborare con te nello stesso spazio. Per informazioni, consulta [Condividere un’area di lavoro](/help/quicksilver/maestro/access/share-workspaces.md). Gli amministratori di sistema possono gestire tutte le aree di lavoro, anche quelle che non hanno creato.
-* Puoi avere un massimo di 1.000 aree di lavoro nell’istanza Workfront della tua organizzazione.
-* Le aree di lavoro contengono tipi di record univoci per ogni area di lavoro. <!--this might change-->
+* È possibile:
+
+   * Fino a 50 sezioni in un’area di lavoro.
+   * Fino a un totale di 1.000 tipi di record da tutte le sezioni in un&#39;unica area di lavoro. Tutti i tipi di record sono univoci per ogni area di lavoro. <!--this might change-->
+   * Fino a 1.000 aree di lavoro nell’istanza Workfront della tua organizzazione.
+
 
 ## Creare un’area di lavoro
 
@@ -111,7 +115,7 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Verrà aperta l&#39;area Aree di lavoro della pianificazione di Workfront.
+   Verrà aperta l&#39;area Aree di lavoro di Workfront Planning.
 1. (Facoltativo e condizionale) Fai clic su **Anteprima** in uno dei seguenti modelli predefiniti di workspace:
 
    * Gestione marketing
@@ -122,7 +126,7 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
    ![](assets/previewing-a-workspace-template.png)
 
-   Per informazioni sui modelli dell&#39;area di lavoro di pianificazione di Workfront, vedere [Elenco dei modelli di Workspace](../architecture/workspace-templates.md).
+   Per informazioni sui modelli dell&#39;area di lavoro di Workfront Planning, vedere [Elenco dei modelli di Workspace](../architecture/workspace-templates.md).
 
 1. Clic **Usa modello** per iniziare a creare l&#39;area di lavoro dal modello selezionato
 
@@ -140,8 +144,6 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
    Oppure
 
    Fai clic su **Altro** menu ![](assets/more-menu.png)a destra del nome del workspace nell’intestazione, quindi fai clic su **Rinomina**.
-
-1. (Facoltativo e condizionale) Se l&#39;area di lavoro include già sezioni, fare clic su **Aggiungi sezione** per aggiungere una nuova sezione a un workspace. Una sezione può contenere diversi tipi di record.
 
 1. (Facoltativo e condizionale) Se avete creato l&#39;area di lavoro da un modello, fate clic all&#39;interno del nome del **Tipi di record operativi** o **Tassonomie** sezioni
 
@@ -163,8 +165,13 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
    * Clic **Aggiungi sezione** nella parte inferiore dell&#39;area di lavoro.
    * Passa il puntatore del mouse sul nome di una sezione e fai clic su **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Aggiungi sezione sopra** o **Aggiungi sezione di seguito**.
 
-1. (Facoltativo) Fai clic su **Aggiungi tipo di record** per aggiungere tipi di record al workspace.
+1. (Facoltativo) Fai clic su **Aggiungi tipo di record** per aggiungere tipi di record all&#39;area di lavoro in qualsiasi sezione.
 
    Per informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
 
+1. (Facoltativo) Per eliminare una sezione, effettuare le seguenti operazioni:
 
+   1. Passa il puntatore del mouse sul nome di una sezione, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Elimina**. <!--add screen shot when UI is final?-->
+   1. Selezionare una nuova sezione in cui spostare tutti i tipi di record, quindi fare clic su **Elimina**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Tutti i tipi di record vengono spostati nella sezione di selezione e la sezione viene eliminata.

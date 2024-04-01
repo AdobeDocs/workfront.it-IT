@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '2372'
+source-wordcount: '2353'
 ht-degree: 1%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-È possibile collegare tra loro i record di pianificazione di Adobe Workfront o a oggetti di altre applicazioni.
+È possibile collegare tra loro record di Adobe Workfront Planning o a oggetti di altre applicazioni.
 
 È innanzitutto necessario collegare due tipi di record tra loro o un tipo di record a un tipo di oggetto di un&#39;altra applicazione. In questo modo vengono creati campi record collegati. È quindi possibile collegare record tra loro o record ad altri oggetti da altre applicazioni utilizzando i campi dei record collegati.
 
@@ -42,8 +42,8 @@ Per un esempio di connessione dei tipi di record, vedere [Esempio di connessione
 
 È possibile connettere i seguenti elementi:
 
-* Record di pianificazione di Adobe Workfront
-* Adobe Workfront planning registra gli oggetti di altre applicazioni.
+* Record di Adobe Workfront Planning
+* Adobe Workfront Planning registra gli oggetti di altre applicazioni.
 
   È possibile collegare record agli oggetti dei tipi elencati di seguito dalle applicazioni seguenti:
 
@@ -77,12 +77,12 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <td>Prodotto</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Per collegare i record di pianificazione di Adobe Workfront a Experience Manager Assets, è necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p>
+   <p>Per collegare i record di Adobe Workfront Planning a Experience Manager Assets, è necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>  
+   <td> <p>Nessun controllo del livello di accesso per Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -129,14 +129,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ### Considerazioni sulla connessione dei record
 
-* Dopo aver connesso i tipi di record, i tipi di record collegati vengono visualizzati come campi di record collegati nella tabella dei tipi di record da cui sono collegati e nella pagina Dettagli dei record da cui sono collegati.
+* Dopo aver connesso i tipi di record, i tipi di record collegati vengono visualizzati come campi di record collegati nella tabella dei tipi di record da cui sono collegati e nelle pagine dei record.
 * È possibile sfogliare e aggiungere record e oggetti dei tipi di record e oggetti collegati dai campi dei record collegati.
 * È possibile aggiungere campi dei tipi di record collegati alla tabella del tipo di record da cui si sta effettuando il collegamento.
 * Non è possibile aggiornare manualmente i valori dei campi collegati nei record da cui si sta effettuando il collegamento.
 
-  I valori dei campi collegati dei record collegati popolano il record di pianificazione di Workfront da cui si sta effettuando il collegamento automatico dal record o dall&#39;oggetto originale.
+  I valori dei campi collegati dei record collegati popolano il record di Workfront Planning da cui si sta effettuando il collegamento automatico dal record o dall&#39;oggetto originale.
 
-* Tutti coloro che dispongono dell&#39;accesso a Workfront Planning and View o di autorizzazioni di livello superiore per l&#39;area di lavoro possono visualizzare le connessioni tra record o tra record e oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle autorizzazioni di cui dispongono nelle applicazioni a cui ci si connette.
+* Tutti coloro che dispongono dell&#39;accesso a Workfront Planning and View o delle autorizzazioni di livello superiore per l&#39;area di lavoro possono visualizzare le connessioni tra record o tra record e oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle autorizzazioni di cui dispongono nelle applicazioni a cui ci si connette.
 * Se si dispone delle autorizzazioni di gestione per l&#39;area di lavoro in cui si trovano i record connessi, è possibile visualizzare e modificare le connessioni di tutti gli altri utenti.
 * È possibile connettere un record a uno o più oggetti di un&#39;altra applicazione.
 * Per collegare record ad altri record o oggetti, è necessario disporre dei seguenti elementi:
@@ -151,7 +151,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    * Connessioni tra tipi di record o tra tipi di record e oggetti di altre applicazioni. Per informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md)
 
-### Collegare i record di pianificazione di Adobe Workfront
+### Collegare i record di Adobe Workfront Planning
 
 {{step1-to-maestro}}
 
@@ -183,7 +183,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    >[!TIP]
    >
-   >    È possibile aprire la pagina Dettagli di un record, trovare il campo record collegato e fare clic sul pulsante **+** nel campo per aggiungere record dal record o dal tipo di oggetto connesso.
+   >    È possibile aprire la pagina di un record, trovare il campo record collegato e fare clic sul pulsante **+** nel campo per aggiungere record dal record o dal tipo di oggetto connesso.
 
    Sono aggiunti i seguenti elementi:
 
@@ -207,7 +207,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Tieni presente che **Campagna** nel campo record collegato vengono visualizzati i nomi delle campagne collegate ai prodotti nella pagina Tipo di record prodotto. L’aggiornamento delle informazioni della campagna aggiorna automaticamente il campo del record collegato della campagna per il tipo di record Prodotto.
 
-### Collegare i record di pianificazione di Adobe Workfront agli oggetti Workfront
+### Collegare i record di Adobe Workfront Planning agli oggetti Workfront
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
@@ -215,7 +215,7 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
 >[!NOTE]
 >
->Non è possibile connettere oggetti Workfront con i record di pianificazione di Workfront da Workfront.
+>Non è possibile connettere oggetti Workfront con record di Workfront Planning da Workfront.
 
 
 {{step1-to-maestro}}
@@ -260,13 +260,13 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    >[!TIP]
    >
-   >È possibile aprire la pagina Dettagli di un record, trovare il campo record collegato e fare clic sul pulsante **+** nel campo per aggiungere oggetti dal tipo di oggetto connesso.
+   >È possibile aprire la pagina di un record, trovare il campo record collegato e fare clic sul pulsante **+** nel campo per aggiungere oggetti dal tipo di oggetto connesso.
 
    Per ulteriori informazioni sulla connessione di tipi di record con oggetti di un&#39;altra applicazione, vedere [Connetti tipi di record](../architecture/connect-record-types.md).
 
-1. (Facoltativo) Fare clic sul nome di un oggetto Workfront connesso a un record di pianificazione di Workfront nel campo collegato di una vista tabella o nel campo collegato del **Dettagli** pagina del record.
+1. (Facoltativo) Fare clic sul nome di un oggetto Workfront connesso a un record di Workfront Planning nel campo collegato di una vista tabella o nel campo collegato della pagina del record.
 
-   Verrà aperta la pianificazione Workfront di sola lettura **Dettagli** per l&#39;oggetto Workfront collegato. I campi selezionati come campi di ricerca quando si è collegato il tipo di record con l&#39;oggetto Workfront vengono visualizzati nella pagina Dettagli del record di pianificazione di Workfront.
+   Verrà visualizzata la pagina di sola lettura del record di Workfront Planning per l&#39;oggetto Workfront collegato. I campi selezionati come campi di ricerca quando si è collegato il tipo di record con l&#39;oggetto Workfront vengono visualizzati nella pagina dei record di Workfront Planning.
 
    >[!TIP]
    >
@@ -274,7 +274,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
    >
    >* Non viene creato un campo record collegato per gli oggetti Workfront collegati in Workfront.
 
-1. (Facoltativo) Per aprire l&#39;oggetto Workfront collegato in Workfront, fare clic su **Vai all&#39;origine** nell&#39;angolo superiore destro della pagina Dettagli dell&#39;oggetto Workfront.
+1. (Facoltativo) Per aprire l&#39;oggetto Workfront collegato in Workfront, fare clic su **Vai all&#39;origine** nell&#39;angolo superiore destro della pagina record dell&#39;oggetto Workfront.
 
    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
 
@@ -288,16 +288,16 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    Rimuovi i campi oggetto di Workfront dal **Campi selezionati** area.
 
-   Questa operazione consente di aggiungere o rimuovere campi collegati dai record di pianificazione di Workfront. Le informazioni associate ai campi rimossi rimangono in Workfront.
+   Questa operazione consente di aggiungere o rimuovere campi collegati dai record di Workfront Planning. Le informazioni associate ai campi rimossi rimangono in Workfront.
 
 
-### Collegare i record di pianificazione di Workfront agli oggetti Adobe Experience Manager
+### Collegare i record di Workfront Planning agli oggetti di Adobe Experience Manager
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
->È necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console per poter collegare i record di pianificazione di Workfront ad Adobe Experience Manager Assets.
+>È necessario disporre di una licenza Adobe Experience Manager Assets e l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console per poter collegare i record di Workfront Planning ad Adobe Experience Manager Assets.
 >
 >In caso di domande sull’onboarding per Adobe Admin Console, consulta [Domande frequenti sull’esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -316,7 +316,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    >[!TIP]
    >
-   >  Puoi aggiungere e fare clic su **+** nel campo oggetto collegato della pagina Dettagli del record per collegare le risorse al record.
+   >  Puoi aggiungere e fare clic su **+** nel campo oggetto collegato della pagina del record per collegare le risorse al record.
 
    Il **Seleziona risorse** viene visualizzata la casella. <!--we might change this to Connect assets-->
 
@@ -346,7 +346,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
      >
      >* Se è stata abilitata l&#39;impostazione Consenti più record, i valori dei diversi oggetti vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
      >
-     >* Non viene creato un campo record collegato ai record collegati di pianificazione Workfront per le risorse Experienci Manager collegate nell’applicazione Experience Manager Assets.
+     >* Non viene creato un campo record collegato ai record collegati di Workfront Planning per le risorse Experienci Manager collegate nell&#39;applicazione Experience Manager Assets.
 
 1. (Facoltativo) Vai al tipo di record da cui hai collegato Experience Manager Assets e fai clic sul nome di una risorsa nel campo del record collegato. I dettagli di Experience Manager della risorsa vengono visualizzati in una finestra a comparsa. <!--update screen shot with hi-rez picture-->
 
@@ -364,7 +364,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
    * Data di creazione
    * Data modificata
 
-1. (Facoltativo) Per aprire la pagina Dettagli del record di risorse di Experience Manager in Experience Manager, vai alla pagina del tipo di record del record da cui stai effettuando il collegamento, fai clic sul nome di una risorsa nel campo del record collegato per aprire la finestra a comparsa, quindi fai clic su **Apri** icona ![](assets/open-asset-icon.png) per aprire la risorsa.
+1. (Facoltativo) Per aprire la pagina di record Experience Manager assets in Experience Manager, vai alla pagina del tipo di record da cui stai effettuando il collegamento, fai clic sul nome di una risorsa nel campo del record collegato per aprire la finestra a comparsa, quindi fai clic su **Apri** icona ![](assets/open-asset-icon.png) per aprire la risorsa.
 
    Verrà aperta la risorsa Experience Manager in Adobe Experience Manager Assets.
 

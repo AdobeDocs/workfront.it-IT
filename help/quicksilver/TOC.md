@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: ab281b92279d429f13a17326cdb0adca4e219daf
 workflow-type: tm+mt
-source-wordcount: '14037'
+source-wordcount: '14047'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 1%
       * Versione del secondo trimestre 2024 {#release-24-q2}
          * [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [Miglioramenti per gli amministratori del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
+         * [Miglioramenti alla gestione dei documenti nel secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md)
          * [Miglioramenti Home Q2 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
          * [Miglioramenti all’integrazione nel secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
          * [Miglioramenti al progetto per il secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
@@ -2048,7 +2049,7 @@ ht-degree: 1%
       * [Elimina campi](maestro/fields/delete-fields.md)
       * [Panoramica sui campi formula](maestro/fields/formula-fields.md)
    * Accesso Adobe Maestro {#adobe-maestro-access}
-      * [Informazioni di accesso](maestro/access/access-information.md)
+      * [Informazioni di Adobe Workfront Planning Access: indice articolo](maestro/access/access-information.md)
       * [Panoramica degli accessi](maestro/access/access-overview.md)
       * [Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront](maestro/access/sharing-permissions-overview.md)
       * [Panoramica del tipo di licenza quando si utilizza la pianificazione di Adobe Workfront](maestro/access/license-type-overview.md)

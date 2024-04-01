@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '446'
 ht-degree: 4%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-Puoi collaborare ai record di pianificazione di Adobe Workfront aggiungendo commenti o risposte nel pannello a destra di un record. In quest&#39;area è inoltre possibile visualizzare altre modifiche apportate al record e registrate dal sistema.
+È possibile collaborare ai record di Adobe Workfront Planning aggiungendo commenti o risposte nel pannello destro di un record. In quest&#39;area è inoltre possibile visualizzare altre modifiche apportate al record e registrate dal sistema.
 
 Nel pannello destro di un record vengono visualizzate le sezioni riportate di seguito.
 
-* **Commenti**: visualizza i commenti e le risposte aggiunte dagli utenti ai record. Per ulteriori informazioni sulla gestione dei commenti nei record di pianificazione di Workfront, vedere [Gestisci commenti record](/help/quicksilver/maestro/records/manage-record-comments.md).
+* **Commenti**: visualizza i commenti e le risposte aggiunte dagli utenti ai record. Per ulteriori informazioni sulla gestione dei commenti nei record di Workfront Planning, vedere [Gestisci commenti record](/help/quicksilver/maestro/records/manage-record-comments.md).
 * **Cronologia**: visualizza le modifiche registrate dal sistema apportate dagli utenti ai campi record.
 
 ## Individuare la sezione Cronologia di un record
@@ -40,17 +40,17 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 1. Scegliere una vista tabella dal menu **Visualizza** menu a discesa.
 1. Fare clic sul nome di un record nella vista tabella.
 
-   Il record **Dettagli** viene visualizzata la pagina. L’area Commenti (Comments) viene visualizzata per impostazione predefinita nel pannello di destra.
+   Viene visualizzata la pagina del record. L’area Commenti (Comments) viene visualizzata per impostazione predefinita nel pannello di destra.
 1. Fai clic su **Mostra cronologia** icona ![](assets/show-history-icon.png). Tutte le modifiche apportate ai campi del record vengono visualizzate nel pannello di destra, a partire da quello più recente.
 1. (Facoltativo) Fai clic su **Nascondi cronologia** icona ![](assets/hide-history-icon.png) per chiudere il pannello destro.
 
 ## Considerazioni sulla sezione Cronologia
 
-È possibile esaminare le modifiche apportate ai campi record nella sezione Cronologia del pannello di destra della pagina Dettagli di un record.
+È possibile esaminare le modifiche apportate ai campi record nella sezione Cronologia del pannello di destra della pagina di un record.
 
 ![](assets/history-area-in-comments.png)
 
-* Workfront planning registra le seguenti informazioni nella sezione Cronologia:
+* Workfront Planning registra le seguenti informazioni nella sezione Cronologia:
 
    * Qualsiasi modifica apportata ai campi
 
@@ -80,7 +80,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 * Nei campi di tipo casella di controllo non viene mai visualizzato il valore precedente in formato barrato. Se il campo viene modificato, viene visualizzato solo lo stato corrente al momento della modifica.
 
-  Per ulteriori informazioni sui campi di pianificazione di Workfront, vedere [Crea campi](/help/quicksilver/maestro/fields/create-fields.md).
+  Per ulteriori informazioni sui campi di Workfront Planning, vedere [Crea campi](/help/quicksilver/maestro/fields/create-fields.md).
 
 * Le modifiche ai campi dei tipi seguenti non vengono visualizzate nella sezione Cronologia:
 

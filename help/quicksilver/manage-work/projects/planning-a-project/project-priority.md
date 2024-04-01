@@ -3,20 +3,20 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: Comprendere e aggiornare le priorità del progetto
-description: Esistono diversi modi per utilizzare le priorità per i progetti e non comunicano tra loro. È consigliabile selezionare una delle priorità per i progetti che soddisfano le esigenze e fare riferimento a tale priorità quando si classifica l’importanza dei progetti.
+description: Esistono diversi modi per utilizzare le priorità per i progetti e non comunicano tra loro. È consigliabile selezionare una delle priorità per i progetti che soddisfano le proprie esigenze e farvi riferimento quando si categorizza l'importanza dei progetti.
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '661'
 ht-degree: 1%
 
 ---
 
 # Comprendere e aggiornare le priorità del progetto
 
-Esistono diversi modi per utilizzare le priorità per i progetti e non comunicano tra loro. È consigliabile selezionare una delle priorità per i progetti che soddisfano le esigenze e fare riferimento a tale priorità quando si classifica l’importanza dei progetti. 
+Esistono diversi modi per utilizzare le priorità per i progetti e non comunicano tra loro. È consigliabile selezionare una delle priorità per i progetti che soddisfano le proprie esigenze e farvi riferimento quando si categorizza l&#39;importanza dei progetti.
 
 ## Requisiti di accesso
 
@@ -56,7 +56,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -64,70 +64,70 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Piano </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modifica accesso a progetti</p> <p><b>NOTA</b>
+   <td role="rowheader">Configurazioni del livello di accesso*</td> 
+   <td> <p>Modifica accesso ai progetti</p> <p><b>NOTA</b>
 
-Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
+Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Gestisci le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Gestire le autorizzazioni per il progetto</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
 ## Tipi di priorità del progetto in Adobe Workfront
 
 Di seguito sono riportati i tipi di priorità che è possibile utilizzare per classificare i progetti in Adobe Workfront:
 
-* **Campo Priorità progetto**: Puoi assegnare manualmente una Priorità a un progetto.
+* **Campo Priorità progetto**: puoi assegnare manualmente una Priorità a un progetto. Questo articolo descrive come assegnare manualmente una priorità a un progetto.
 
-   Per ulteriori informazioni sul campo Priorità progetto, consulta la sezione [Considerazioni sulla priorità del progetto](#considerations-about-project-priority) in questo articolo.
+  Per ulteriori informazioni, consulta la sezione [Considerazioni sulla priorità del progetto](#considerations-about-project-priority) in questo articolo.
 
-* **Priorità di un progetto in Portfoli Optimizer**, se il progetto è associato a un portfolio: 
+* **Priorità di un progetto in Ottimizzatore Portfolio**, se il progetto è associato a un portfolio:
 
-   Per ulteriori informazioni sulla priorità di un progetto in Portfoli Optimizer, consulta l&#39;articolo [Assegnare priorità ai progetti in Portfoli Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+  Per ulteriori informazioni sulla priorità di un progetto in Ottimizzatore Portfolio, vedi nell’articolo [Assegna priorità ai progetti in Portfoli Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-* **Priorità di un progetto nel Planner risorse**: È possibile assegnare manualmente la priorità ai progetti nel Planner risorse, per indicare quali progetti devono prima ricevere le risorse. 
+* **Priorità di un progetto nella Programmazione delle risorse**: puoi assegnare manualmente la priorità ai progetti nella Programmazione delle risorse, per indicare quali progetti devono ricevere prima le risorse.
 
-   Per ulteriori informazioni sulla priorità dei progetti nel Planner risorse, vedere la sezione &quot;Priorità di pianificazione del progetto&quot; nell&#39;articolo [Panoramica sulla navigazione in planner risorse](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Per ulteriori informazioni sull&#39;assegnazione delle priorità ai progetti nella Programmazione delle risorse, vedere la sezione &quot;Priorità di pianificazione dei progetti&quot; nell&#39;articolo [Panoramica sulla navigazione in Programmazione delle risorse](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Considerazioni sulla priorità del progetto {#considerations-about-project-priority}
 
-Puoi associare una Priorità ai progetti in Workfront. Anche i compiti e le questioni hanno priorità. L’indicazione di una priorità per il progetto comunica a tutti gli utenti del sistema l’importanza di tale progetto.
+È possibile associare una priorità ai progetti in Workfront. L’indicazione di una priorità per il progetto comunica a tutti gli utenti del sistema l’importanza del progetto.
 
-Quando selezioni una priorità per i tuoi progetti, considera quanto segue:
+Quando selezioni una priorità per i progetti, tieni presente quanto segue:
 
-* L’amministratore di Workfront definisce le priorità disponibili in Workfront. Una volta stabiliti, è possibile associarli a progetti nel campo Priorità. 
+* L’amministratore di Workfront definisce le Priorità disponibili in Workfront. Una volta stabiliti, possono essere associati ai progetti nel campo Priorità.
 
-   Per ulteriori informazioni sulla creazione di priorità in Workfront, consulta l’articolo [Creare e personalizzare le priorità](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+  Per ulteriori informazioni sulla creazione di Priorità in Workfront, consulta l’articolo [Creare e personalizzare le priorità](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-* Quando si aggiorna il campo Priorità di un progetto, questa Priorità non viene trasferita all&#39;Ottimizzatore di Portfolio o al Planner risorse. 
-* Il valore di priorità di un progetto viene utilizzato principalmente a scopo di reporting.
+* Quando si aggiorna il campo Priorità di un progetto, questa Priorità non viene trasferita nell&#39;Ottimizzatore Portfolio o nella Programmazione risorse. Il campo Priorità del progetto è semplicemente un flag manuale inserito sul progetto per indicarne l’importanza agli altri utenti.
+* Il valore Priorità di un progetto viene utilizzato principalmente a scopo di reporting.
 
-   Ad esempio, quando utilizzi questo campo in un filtro di progetto puoi cercare tutti i progetti con il valore di priorità Urgente . 
-
+  Ad esempio, puoi cercare tutti i progetti con priorità Urgente quando utilizzi questo campo in un filtro di progetto.
+* Le attività e i problemi hanno anche Priorità, ma le Priorità di attività, problema e progetto funzionano in modo indipendente l’una dall’altra e non si influenzano automaticamente l’una con l’altra. È possibile avere un problema di priorità alta o un&#39;attività di priorità media in un progetto di priorità bassa.
 * Puoi aggiornare la Priorità dei progetti nelle seguenti aree di Workfront:
 
-   * In **Modifica progetto** finestra di dialogo.
-   * In **Dettagli progetto** scheda di un progetto.
-   * In un elenco o in un rapporto di progetto.
+   * In **Modifica Progetto** .
+   * In **Dettagli progetto** di un progetto
+   * In un elenco o report di progetti.
 
-## Aggiorna il campo Priorità progetto
+## Aggiornare il campo Priorità progetto
 
-1. Passa al progetto di cui desideri aggiornare la Priorità.
-1. Fai clic su **Dettagli progetto** nel pannello a sinistra.
-1. Fai clic sul pulsante **Modifica** icona ![](assets/qs-edit-icon.png) nell&#39;angolo superiore destro dell&#39;area Dettagli progetto, quindi fai clic su **Panoramica**.
+1. Vai al progetto di cui desideri aggiornare la Priorità.
+1. Clic **Dettagli progetto** nel pannello a sinistra.
+1. Fai clic su **Modifica** icona ![](assets/qs-edit-icon.png) nell’angolo superiore destro dell’area Project Details (Dettagli progetto), fai clic su **Panoramica**.
 
-1. In **Priorità** seleziona una delle seguenti opzioni:
+1. In **Priorità** , seleziona una delle seguenti opzioni:
 
    * Nessuno
    * Basso
    * Normal
 
-      Questa è la priorità predefinita.
+     Priorità predefinita.
 
    * Alta
    * Urgente
@@ -136,4 +136,4 @@ Quando selezioni una priorità per i tuoi progetti, considera quanto segue:
 
 1. Fai clic su **Salva modifiche**.
 
-   Devi comunicare con altri utenti e comprendere cosa significa ciascun livello di priorità per il progetto.
+   È necessario comunicare con altri utenti e comprendere il significato di ogni livello di priorità per il progetto.

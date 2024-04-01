@@ -1,11 +1,11 @@
 ---
 title: Panoramica dei tipi di record
-description: I tipi di record sono i blocchi predefiniti di un'area di lavoro di pianificazione di Adobe Workfront.
+description: I tipi di record sono i blocchi predefiniti di un'area di lavoro Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 A differenza di Workfront, dove i tipi di oggetto sono predefiniti, in Adobe Workfront Planning è possibile creare tipi di oggetto personalizzati. In Workfront, ad esempio, sono già stati creati i tipi di oggetto Programma, Portfolio, Progetto, Attività o Problema.
 
-I tipi di oggetto di pianificazione di Workfront sono denominati &quot;tipi di record&quot; e possono essere creati e personalizzati tutti. I tipi di record sono i blocchi predefiniti di un&#39;area di lavoro di pianificazione di Workfront. Per informazioni sulle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
+I tipi di oggetto di Workfront Planning sono denominati &quot;tipi di record&quot; e possono essere creati e personalizzati tutti. I tipi di record sono i blocchi predefiniti di un&#39;area di lavoro di Workfront Planning. Per informazioni sulle aree di lavoro, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
 
 ## Panoramica del tipo di record
 
-Nella pianificazione di Workfront è possibile creare tipi di record personalizzati che soddisfino le esigenze dell&#39;organizzazione.
+In Workfront Planning è possibile creare tipi di record personalizzati che soddisfino le esigenze dell&#39;organizzazione.
 
 * Quando si crea un&#39;area di lavoro da un modello, i tipi di record vengono creati nelle sezioni dell&#39;area di lavoro riportate di seguito.
 

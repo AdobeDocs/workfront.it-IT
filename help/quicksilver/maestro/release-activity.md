@@ -1,22 +1,22 @@
 ---
-title: attività sulla versione di Adobe Workfront planning
-description: Le funzionalità di pianificazione di Adobe Workfront sono attualmente disponibili per alcuni clienti Workfront. Consulta spesso questo articolo per scoprire le funzioni rilasciate di recente per le funzionalità di pianificazione.
+title: Attività sulla versione di Adobe Workfront Planning
+description: Le funzionalità di Adobe Workfront Planning sono attualmente disponibili per alcuni clienti Workfront. Consulta spesso questo articolo per scoprire le funzioni rilasciate di recente per le funzionalità di pianificazione.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: c3ba1d5fe789dec76e5513583d35679be290f14a
+source-git-commit: 5c867a0c6f81cc80675409ef9318a228bceaabb5
 workflow-type: tm+mt
-source-wordcount: '5266'
+source-wordcount: '5359'
 ht-degree: 0%
 
 ---
 
-# attività sulla versione di Adobe Workfront planning
+# Attività sulla versione di Adobe Workfront Planning
 
 {{maestro-important-intro}}
 
-In questo articolo sono elencate le funzioni rilasciate dopo il lancio del programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront, il 22 maggio 2023.
+In questo articolo sono elencate le funzioni rilasciate dopo il lancio del programma beta chiuso delle funzionalità di Adobe Workfront Planning, il 22 maggio 2023.
 
 Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle più recenti. I clienti che partecipano al programma Closed beta per la pianificazione delle funzionalità possono accedere a tutte le funzionalità nei loro ambienti di produzione.
 
@@ -24,7 +24,7 @@ Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle 
 >
 >Tra maggio 2023 e dicembre 2023, tutte le funzioni di questo articolo sono state rilasciate sia nell’ambiente di anteprima che in quello di produzione. Le funzionalità di pianificazione sono state temporaneamente rimosse dagli ambienti Anteprima e Sandbox da gennaio 2024. Tutte le funzioni rilasciate dopo questa data sono attualmente disponibili in Produzione.
 
-In questo articolo sono elencate le funzioni e le patch rilasciate dopo il lancio del programma beta chiuso delle funzionalità di pianificazione di Adobe Workfront, il 22 maggio 2023.
+In questo articolo sono elencate le funzioni e le patch rilasciate dopo il lancio del programma beta chiuso delle funzionalità di Adobe Workfront Planning, il 22 maggio 2023.
 
 Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rilascio, con la prima più recente. I clienti che partecipano al programma closed beta delle funzionalità di pianificazione possono accedere a tutte le funzioni nei loro ambienti di anteprima e produzione.
 
@@ -64,13 +64,23 @@ Per ulteriori informazioni, consulta [Gestire le visualizzazioni record](/help/q
 
 ### Rinominata area Maestro nel menu principale come Planning
 
-Produzione: 28 marzo 2024
+Produzione: 27 marzo 2024
 
 Anteprima: da determinare
 
 Abbiamo rinominato l’area Maestro nel Main Menu in Planning.
 
-Per una panoramica della pianificazione di Adobe Workfront, vedi [Panoramica sulla pianificazione di Adobe Workfront](/help/quicksilver/maestro/maestro-overview.md).
+Per una panoramica di Adobe Workfront Planning, vedere [Panoramica di Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
+
+### Nuova esperienza durante l’eliminazione di un tipo di record
+
+Produzione: 27 marzo 2024
+
+Anteprima: da determinare
+
+La casella di conferma durante l’eliminazione di un tipo di record è stata riprogettata. L&#39;eliminazione di un tipo di record ha un impatto notevole, in quanto elimina anche tutti i record, i relativi campi, le informazioni contenute nei campi e le visualizzazioni associate al tipo di record. Non è possibile recuperare i tipi di record eliminati e le relative informazioni eliminate.
+
+Per questo motivo, volevamo garantire che l’intento dell’utente fosse accurato durante l’eliminazione di un tipo di record, per cui abbiamo introdotto un passaggio aggiuntivo nella conferma dell’eliminazione. Per ulteriori informazioni, consulta [Elimina tipi di record](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
 ## Settimana del 18 marzo 2024
 
@@ -82,15 +92,15 @@ Anteprima: da determinare
 
 È ora possibile filtrare le informazioni nella vista calendario. Per ulteriori informazioni, consulta [Gestire la visualizzazione calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### La casella Dettagli è stata aggiunta alle visualizzazioni Timeline e Calendario
+### Casella con i dettagli del record aggiunti alla timeline e alle visualizzazioni del calendario
 
 Produzione: 19 marzo 2024
 
 Anteprima: da determinare
 
-È ora possibile accedere alla casella Dettagli di un record dalle visualizzazioni Timeline e Calendario. È possibile modificare i record nella casella Dettagli all&#39;interno delle visualizzazioni Timeline e Calendario.
+È ora possibile accedere a una casella con i dettagli dei record dalla vista timeline e calendario. È possibile modificare i record nella casella del record all&#39;interno delle visualizzazioni Timeline e Calendario.
 
-Dalla casella Dettagli è possibile aprire la pagina Dettagli del record.
+Dalla casella del record è possibile aprire la pagina del record in una nuova scheda del browser.
 
 Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -116,7 +126,7 @@ Per semplificare la visualizzazione di informazioni aggiuntive sui record quando
 
 * Possibilità di modificare le informazioni del record
 
-* Un collegamento per aprire la pagina Dettagli del record
+* Un collegamento per aprire la pagina del record
 
 Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +257,7 @@ Di seguito sono riportati i livelli più elevati di autorizzazioni che gli utent
 
 Per informazioni sul nuovo modello di licenza, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Per informazioni sulla connessione tra il tipo di licenza e le autorizzazioni nelle funzionalità di pianificazione, consulta [Panoramica del tipo di licenza quando si utilizza la pianificazione di Adobe Workfront](/help/quicksilver/maestro/access/license-type-overview.md).
+Per informazioni sulla connessione tra il tipo di licenza e le autorizzazioni nelle funzionalità di pianificazione, consulta [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Nuovo aspetto della barra degli strumenti Testo formattato per i campi record
@@ -360,7 +370,7 @@ Per garantire coerenza durante la creazione dei record, il collegamento + Nuovo 
 
 Anteprima e sandbox: 11 gennaio 2024
 
-Le funzionalità di pianificazione di Adobe Workfront sono state temporaneamente rimosse dagli ambienti di anteprima e sandbox. Gli ambienti verranno aggiunti a questi in una data successiva, come verrà comunicato nelle note sull’attività di rilascio.
+Le funzionalità di Adobe Workfront Planning sono state temporaneamente rimosse dagli ambienti di anteprima e sandbox. Gli ambienti verranno aggiunti a questi in una data successiva, come verrà comunicato nelle note sull’attività di rilascio.
 
 ### Autorizzazioni delle funzionalità di pianificazione per aree di lavoro e viste
 
@@ -387,7 +397,7 @@ Di seguito sono riportati i livelli di autorizzazione per le visualizzazioni rec
 * Visualizza: gli utenti possono selezionare la visualizzazione dal menu a discesa Visualizza di una pagina del tipo di record.
 * Gestisci: gli utenti possono modificare, condividere ed eliminare la visualizzazione.
 
-Per ulteriori informazioni, consulta [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md) e [Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront](../maestro/access/sharing-permissions-overview.md).
+Per ulteriori informazioni, consulta [Panoramica degli accessi](/help/quicksilver/maestro/access/access-overview.md) e [Panoramica delle autorizzazioni di condivisione nelle funzionalità di Adobe Workfront Planning](../maestro/access/sharing-permissions-overview.md).
 
 ### Nuovo tipo di campo Formula
 
@@ -439,7 +449,7 @@ Anteprima e produzione: 27 dicembre 2023
 
 ## Settimana del 18 dicembre 2023
 
-### Aggiungere commenti ai record dalla pagina Dettagli
+### Aggiungere commenti ai record dalla pagina del record
 
 Anteprima e produzione per tutti i clienti: 18 dicembre 2023
 
@@ -455,7 +465,7 @@ Anteprima e produzione per tutti i clienti: 18 dicembre 2023
 >
 >Per ulteriori informazioni, consulta [Panoramica sulla versione del primo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-È ora possibile collaborare con altri utenti a singoli record aggiungendo commenti o rispondendo ad altri utenti mentre si visualizza un record nella pagina Dettagli.
+È ora possibile collaborare con altri utenti a singoli record aggiungendo commenti o rispondendo ad altri utenti durante la visualizzazione della pagina di un record.
 
 L’esperienza di aggiunta di commenti per i record delle funzionalità di pianificazione corrisponde alla nuova esperienza di aggiunta di commenti per gli oggetti di Workfront.
 
@@ -467,7 +477,7 @@ Produzione: 21 dicembre 2023
 
 >[!IMPORTANT]
 >
->Per poter creare connessioni con le funzionalità di pianificazione di Adobe Workfront, la tua organizzazione deve acquistare Adobe Workfront Fusion.
+>La tua organizzazione deve acquistare Adobe Workfront Fusion per poter creare connessioni con le funzionalità di pianificazione di Adobe Workfront.
 >
 >Per informazioni, consulta [Panoramica di Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
@@ -525,11 +535,11 @@ Versione di produzione: 21 dicembre 2023
 
 >[!IMPORTANT]
 >
->Per poter collegare i record delle funzionalità di pianificazione di Adobe Workfront ad Adobe Experience Manager Assets, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.
+>Per poter collegare i record delle funzionalità di Adobe Workfront Planning ad Adobe Experience Manager Assets, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Business Platform o Adobe Admin Console.
 >
 >In caso di domande sull’onboarding per Adobe Admin Console, consulta [Domande frequenti sull’esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-È ora possibile stabilire una connessione tra i tipi di record delle funzionalità di pianificazione di Adobe Workfront e Adobe Experience Manager Assets.
+È ora possibile stabilire una connessione tra i tipi di record delle funzionalità di Adobe Workfront Planning e Adobe Experience Manager Assets.
 
 Dopo aver stabilito la connessione, con questo aggiornamento sono disponibili le seguenti funzionalità:
 
@@ -608,7 +618,7 @@ Per ulteriori informazioni, consulta [Gestire la vista tabella](../maestro/views
 
 Anteprima e produzione: 30 ottobre 2023
 
-Sono stati introdotti i seguenti tipi di campi per i record delle funzionalità di pianificazione di Adobe Workfront:
+Sono stati introdotti i seguenti tipi di campi per i record delle funzionalità di Adobe Workfront Planning:
 
 * Creato da
 
@@ -630,7 +640,7 @@ Anteprima e produzione: 31 ottobre 2023
 
 * Visualizzazione tabella record oggetti Workfront collegata di sola lettura
 
-* Pagina Dettagli record oggetto Workfront di sola lettura
+* Pagina record oggetto Workfront di sola lettura
 
 Per ulteriori informazioni, consulta [Collega record](../maestro/records/connect-records.md).
 
@@ -662,7 +672,7 @@ Anteprima e produzione: 16 ottobre 2023
 
 Anteprima e produzione: 16 ottobre 2023
 
-Sono stati aggiunti controlli di formato Rich Text per i campi di tipo Paragrafo. È possibile formattare i campi paragrafo utilizzando il formato RTF nella visualizzazione Tabella di un tipo di record o nella pagina Dettagli di un record. Per ulteriori informazioni, consulta [Modifica record](../maestro/records/edit-records.md).
+Sono stati aggiunti controlli di formato Rich Text per i campi di tipo Paragrafo. È possibile formattare i campi paragrafo utilizzando il formato RTF nella visualizzazione Tabella di un tipo di record o nella pagina di record. Per ulteriori informazioni, consulta [Modifica record](../maestro/records/edit-records.md).
 
 
 ### Registrazione e raggruppamento della codifica colore per la visualizzazione Timeline
@@ -752,7 +762,7 @@ Per ulteriori informazioni, consulta [Gestire la vista tabella](../maestro/views
 
 ## Settimana del 21 agosto 2023
 
-### Collegare i record delle funzionalità di pianificazione di Adobe Workfront a programmi e portfolio
+### Collegare i record delle funzionalità di Adobe Workfront Planning a programmi e portafogli
 
 Anteprima e produzione: 24 agosto 2023
 
@@ -839,7 +849,7 @@ Anteprima e produzione: 13 luglio 2023
 
 Anteprima e produzione: 28 giugno 2023
 
-È stata abilitata la possibilità di attivare il menu contestuale facendo clic con il pulsante destro del mouse in un punto qualsiasi di una riga di record quando si visualizzano i record nella vista tabella o in un tipo di record. È ora possibile visualizzare, eliminare o copiare rapidamente un collegamento alla pagina Dettagli del record quando si accede al menu contestuale da un punto qualsiasi della vista tabella di un tipo di record. Prima di questo miglioramento, il menu contestuale era accessibile solo dal menu Altro nella colonna Nome di un record.
+È stata abilitata la possibilità di attivare il menu contestuale facendo clic con il pulsante destro del mouse in un punto qualsiasi di una riga di record quando si visualizzano i record nella vista tabella o in un tipo di record. È ora possibile visualizzare, eliminare o copiare rapidamente un collegamento alla pagina del record quando si accede al menu contestuale da un punto qualsiasi della vista tabella di un tipo di record. Prima di questo miglioramento, il menu contestuale era accessibile solo dal menu Altro nella colonna Nome di un record.
 
 ## Settimana del 19 giugno 2023
 
@@ -849,7 +859,7 @@ Ora è stato introdotto un requisito in base al quale i nomi dei campi di un tip
 
 ## Settimana del 5 giugno 2023
 
-### Collegare i record delle funzionalità di pianificazione di Adobe Workfront ai progetti Workfront
+### Collegare i record delle funzionalità di Adobe Workfront Planning ai progetti Workfront
 
 Anteprima e produzione: 5 giugno 2023
 

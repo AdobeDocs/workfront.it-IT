@@ -1,11 +1,11 @@
 ---
 title: Condividere le aree di lavoro
-description: Puoi condividere un’area di lavoro con altri utenti per garantire la collaborazione quando lavori nella pianificazione di Adobe Workfront.
+description: Puoi condividere un’area di lavoro con altri utenti per garantire la collaborazione quando lavori in Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 {{maestro-important-intro}}
 
-Puoi condividere un’area di lavoro con altri utenti per garantire la collaborazione quando lavori nella pianificazione di Adobe Workfront.
+Puoi condividere un’area di lavoro con altri utenti per garantire la collaborazione quando lavori in Adobe Workfront Planning.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -65,7 +65,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> Nessun controllo di accesso per la pianificazione di Adobe Workfront</p>  
+   <td> Nessun controllo di accesso per Adobe Workfront Planning</p>  
 </td>
   </tr>
 
@@ -107,7 +107,7 @@ Per condividere un’area di lavoro con altri utenti:
    * Contribuisci
    * Gestire
 
-     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione nella pianificazione di Adobe Workfront](../access/sharing-permissions-overview.md).
+     Per informazioni sui livelli di autorizzazione e sulle azioni che gli utenti possono eseguire per ciascun livello, consulta [Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning](../access/sharing-permissions-overview.md).
 1. Clic **Copia collegamento** per copiare negli Appunti un collegamento all&#39;area di lavoro.
 1. Condividi il collegamento copiato con altri utenti. Per poter accedere all’area di lavoro, gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront.
 1. Fai clic su **Salva**.

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-Puoi creare campi personalizzati nella pianificazione di Adobe Workfront facendo riferimento a campi esistenti e collegandoli tramite una formula. A tale scopo, è possibile creare un campo personalizzato di tipo Formula.
+È possibile creare campi personalizzati in Adobe Workfront Planning facendo riferimento a campi esistenti e collegandoli tramite una formula. A tale scopo, è possibile creare un campo personalizzato di tipo Formula.
 
 I campi formula generano un nuovo valore utilizzando i valori esistenti di altri campi di un tipo di record e una funzione che indica come devono essere calcolati i valori esistenti.
 
@@ -56,7 +56,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -102,14 +102,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * I campi formula fanno riferimento a campi che appartengono allo stesso tipo di record. Non è possibile fare riferimento a campi di altri tipi di record durante la creazione di un campo formula. <!--is this still accurate??-->
 * Non è possibile modificare il tipo di campo Campo di un campo Formula dopo averlo salvato.
 * È possibile aggiornare il calcolo di un campo formula dopo averlo salvato e i risultati del calcolo vengono aggiornati automaticamente per tutti i record dello stesso tipo.
-* È necessario aggiungere i campi a cui si fa riferimento nelle formule così come vengono visualizzati nell&#39;interfaccia di pianificazione di Workfront.
+* È necessario aggiungere i campi a cui si fa riferimento nelle formule così come vengono visualizzati nell&#39;interfaccia di Workfront Planning.
 * L’utilizzo di campi di ricerca da tipi di record collegati in una formula sarà disponibile in un secondo momento.
 
 ## Formule supportate
 
-I campi formula di pianificazione di Adobe Workfront supportano tutte le espressioni dei campi calcolati di Workfront. Per ulteriori informazioni, consulta [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+I campi formula di Adobe Workfront Planning supportano tutte le espressioni dei campi calcolati di Workfront. Per ulteriori informazioni, consulta [Panoramica delle espressioni di dati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Sono inoltre supportate le seguenti espressioni per i campi formula di pianificazione di Workfront:
+Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront Planning:
 
 <table style="table-layout:auto"> 
  <col> 

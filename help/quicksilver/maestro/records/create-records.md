@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Nessun controllo di accesso per la pianificazione di Adobe Workfront </p>  
+   <td> <p>Nessun controllo di accesso per Adobe Workfront Planning </p>  
 </td>
   </tr>
 <tr>
@@ -127,14 +127,14 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
    Oppure
 
-   Fare clic sul nome del nuovo record o sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome del record. Il **Dettagli** nella tabella.
+   Fare clic sul nome del nuovo record o sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome del record. Nella tabella viene visualizzata la casella con le informazioni dettagliate del record.
 
    >[!TIP]
    >
    >È possibile accedere alla casella Dettagli solo dal campo del nome del record quando il campo Nome è un campo primario.
 
-1. Iniziare a modificare le informazioni del record nella casella Dettagli. Workfront salva automaticamente le modifiche.
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della casella Dettagli per aprire il record **Dettagli** in una nuova scheda. Continuare a modificare il record nella pagina Dettagli.
+1. Inizia a modificare le informazioni del record nella casella del record. Workfront salva automaticamente le modifiche.
+1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della casella del record per aprire la pagina del record in una nuova scheda. Continuare a modificare il record nella pagina record.
 
 
 1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere l&#39;aggiunta di nuovi record:
@@ -188,7 +188,7 @@ You can import records from other applications by linking them to existing recor
 
 1. In un&#39;altra applicazione, selezionare più righe e colonne, quindi incollare le informazioni nella vista tabella del tipo di record, a partire dal primo nuovo record.
 
-   Nell&#39;area di pianificazione di Workfront vengono importate le seguenti informazioni:
+   Nell&#39;area Workfront Planning vengono importate le seguenti informazioni:
 
    * Le righe contengono i nuovi record
    * Nelle colonne vengono inserite le informazioni relative ai campi dei record.

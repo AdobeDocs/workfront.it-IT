@@ -1,13 +1,13 @@
 ---
 title: Esempio di connessione di tipi di record e record
-description: Questo articolo descrive un esempio di come creare una connessione tra un tipo di record Adobe Maestro e un tipo di oggetto progetto Workfront. Descrive anche come collegare un record Maestro con un singolo progetto.
+description: In questo articolo viene descritto un esempio di come creare una connessione tra un tipo di record Adobe Workfront Planning e un tipo di oggetto progetto Workfront. Descrive inoltre come collegare un record di Workfront Planning a un singolo progetto.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 24975c463c93de61672f1986d82d1d6500133baa
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1720'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,22 @@ ht-degree: 0%
 
 Questo articolo descrive un esempio di quanto segue:
 
-* Come creare una connessione tra due tipi di record Maestro e due record Maestro.
+* Come creare una connessione tra due tipi di record di Workfront Planning e due record.
 
-* Come creare una connessione tra un tipo di record Maestro Adobe e un tipo di oggetto progetto Workfront, nonché una connessione tra un record Maestro e un progetto.
+* Come creare una connessione tra un tipo di record di Workfront Planning e un tipo di oggetto progetto di Workfront, nonché una connessione tra un record e un progetto.
 
 Per ulteriori informazioni, consulta anche i seguenti articoli:
 
 * [Connetti tipi di record](../architecture/connect-record-types.md)
-* [Collega record](../records/connect-records.md)
+* [Connetti record](../records/connect-records.md)
 
-## Collega due tipi di record e record Maestro (esempio)
+## Collegare due tipi di record e record di Workfront Planning (esempio)
 
 Ad esempio, il tipo di record originale è Campaign.
 
 È inoltre disponibile un altro tipo di record denominato Prodotto, che dispone di un campo valuta denominato Budget.
 
-Si desidera creare un campo nel tipo di record Campaign in cui è possibile visualizzare i valori del campo Budget nel tipo di record Prodotto.
+Desideri creare un campo sul tipo di record Campaign in cui visualizzare i valori del campo Budget del tipo di record Prodotto.
 
 Per eseguire questa operazione:
 
@@ -42,9 +42,9 @@ Per eseguire questa operazione:
 1. Aggiungi le seguenti informazioni, ad esempio:
 
    * **Tipo di record**: prodotto <!--did they change the casing here?-->
-   * **Nome**: informazioni sul prodotto. Questo è il nome del campo record collegato.
-   * **Descrizione**: questi sono i prodotti a cui voglio associare le mie campagne.
-   * **Consenti più record**: se lasci selezionata questa opzione, gli utenti potranno selezionare più record quando il campo del tipo di record collegato (informazioni sul prodotto) viene visualizzato nei record originali (campagne). Nel nostro caso, saranno in grado di selezionare più Prodotti da collegare a una sola Campagna.
+   * **Nome**: assegna un nome al nuovo campo. Ad esempio, &quot;Informazioni sul prodotto&quot;. Questo è il nome del campo record collegato.
+   * **Descrizione**: aggiungi una descrizione per il nuovo campo. Ad esempio, &quot;Questi sono i prodotti a cui voglio associare le mie campagne&quot;. La descrizione del campo viene visualizzata quando si passa il cursore sul campo nell’intestazione della colonna.
+   * **Consenti più record**: se lasci selezionata questa opzione, gli utenti potranno selezionare più record quando il campo del tipo di record collegato (informazioni sul prodotto) viene visualizzato nei record originali (campagne). Nel nostro caso, gli utenti possono selezionare più prodotti da collegare a una campagna.
    * **Seleziona campi di ricerca**: se lasci selezionata questa opzione, il **Aggiungi campi di ricerca** Viene visualizzata la casella accanto, per consentire di collegare i campi Prodotto con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Prodotto in un secondo momento.
 
    ![](assets/new-connection-with-product-record-type.png)
@@ -57,16 +57,16 @@ Per eseguire questa operazione:
    >
    >    Se si desidera visualizzare il budget di tutti i prodotti selezionati come un unico numero totale, selezionare **SOMMA** nel menu a discesa a destra del nome del campo. Quando gli utenti selezionano più prodotti nella **Informazioni sul prodotto** campo record collegato, il **Budget (da informazioni prodotto)** aggiunge tutti i valori Budget e visualizza il totale. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Se si seleziona **Nessuno**, invece di **SOMMA**, i singoli budget verranno visualizzati separati da virgole.
+   > Se si seleziona **Nessuno**, invece di **SOMMA**, i singoli budget dei prodotti selezionati verranno visualizzati separati da virgole.
 
    Vengono generati i campi seguenti:
 
-   * Nella vista Tabella record Campaign e nella pagina Dettagli di una campagna:
+   * Nella vista Tabella record Campaign e nella pagina Record Campaign di una campagna:
 
-      * **Informazioni sul prodotto** (campo record collegato): questo comando visualizza il nome o i nomi dei prodotti.
+      * **Informazioni sul prodotto** (campo record collegato): quando vengono aggiunti, vengono visualizzati il nome o i nomi dei prodotti.
       * **Budget (da informazioni prodotto)** (campo collegato): vengono visualizzati i budget dei prodotti selezionati nel campo Informazioni prodotto.
 
-   * Nella visualizzazione della tabella Record prodotto e nella pagina Dettagli di un prodotto:
+   * Nella visualizzazione Tabella record Prodotto e nella pagina Record prodotto di un prodotto:
 
       * **Campagna**: indica che il tipo di record Prodotto è collegato dal tipo di record Campagna.
 
@@ -88,7 +88,7 @@ Per eseguire questa operazione:
    * Inizia a digitare il nome di un prodotto e fai clic su di esso quando viene visualizzato nell’elenco. Il prodotto viene aggiunto automaticamente.
    * Clic **Vedi tutto** per visualizzare tutti i prodotti.
 
-1. (Condizionale) Se hai fatto clic **Seleziona tutto** nel passaggio precedente, il **Connetti oggetti** viene visualizzata la casella.
+1. (Condizionale) Se hai fatto clic **Vedi tutto** nel passaggio precedente, il **Connetti oggetti** viene visualizzata la casella.
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -100,7 +100,7 @@ Per eseguire questa operazione:
 
    >[!TIP]
    >
-   >    Puoi aprire la pagina Dettagli di una campagna, trovare il campo del record collegato e fare clic su **+** nel campo per aggiungere prodotti dal tipo di record Prodotto connesso.
+   >    Puoi aprire la pagina record di una campagna, trovare il campo record collegato e fare clic su **+** nel campo per aggiungere prodotti dal tipo di record Prodotto connesso.
 
    Nella tabella dei tipi di record di Campaign sono inserite le colonne seguenti:
    * Il **Informazioni sul prodotto** viene compilato il campo relativo al record Campagna con i Prodotti selezionati.
@@ -110,18 +110,18 @@ Per eseguire questa operazione:
 
    >[!TIP]
    >
-   >Se non si seleziona un aggregatore per i valori multipli, tutti i valori vengono visualizzati separati da virgole.
+   >Se non si seleziona un aggregatore per i valori multipli, tutti i valori dei prodotti selezionati vengono visualizzati separati da virgole.
 
 1. Per popolare il **Campagna** campo da **Prodotto** vista tabella, ripetere i passaggi 5-7 a partire dalla vista tabella Tipo di record prodotto e selezionando le informazioni sulla campagna. Verrà aggiornato anche il campo Informazioni prodotto nella tabella della pagina Tipo di record campagna. <!--ensure the step numbers remain correct-->
 
 
-## Collegare un tipo di record Maestro a un tipo di oggetto progetto Workfront e collegare un record a singoli progetti
+## Collegare un tipo di record Workfront Planning a un tipo di oggetto progetto Workfront e collegare un record a singoli progetti
 
 Ad esempio, il tipo di record originale è Campaign.
 
 In Workfront sono presenti anche progetti con un campo denominato &quot;Reddito pianificato&quot;.
 
-Desideri creare un campo di connessione sul tipo di record Campaign in cui visualizzare i valori del campo Planned Revenue (Entrate pianificate) dei progetti in Workfront connessi alle campagne in Maestro.
+Si desidera creare un campo connessione nel tipo di record Campaign in cui è possibile visualizzare i valori del campo Retribuzione pianificata dei progetti in Workfront connessi alle campagne in Workfront Planning.
 
 Per eseguire questa operazione:
 
@@ -130,11 +130,11 @@ Per eseguire questa operazione:
 1. Fai clic su **+** nell’angolo superiore destro della vista tabella per aggiungere un nuovo campo, quindi fai clic su **Nuova connessione**, quindi fai clic su **Progetto** nel **Tipi di oggetto Workfront** sezione.
 1. Aggiungi le seguenti informazioni, ad esempio:
 
-   * **Tipo di record**: progetto Workfront (dalla sottosezione Workfront)
-   * **Nome**: informazioni sul progetto. Questo è un esempio di ciò che è possibile denominare il campo oggetto collegato.
-   * **Descrizione**: questi sono i progetti a cui voglio associare le mie campagne. Questo è un esempio della descrizione del campo record collegato.
+   * **Tipo di record**: progetto (dalla sottosezione Workfront)
+   * **Nome**: assegna un nome al nuovo campo, ad esempio &quot;Informazioni sul progetto&quot;.
+   * **Descrizione**: aggiungi una descrizione per il nuovo campo. Ad esempio, &quot;Questi sono i progetti a cui voglio associare le mie campagne&quot;. La descrizione viene visualizzata nella vista tabella quando passi il cursore del mouse sul nome del campo nell’intestazione della colonna.
    * 
-      * **Consenti più record**: se lasci selezionata questa opzione, gli utenti potranno selezionare più progetti quando il campo del tipo di progetto collegato (informazioni sul progetto) viene visualizzato nei record originali (Campagne).
+      * **Consenti più record**: se questa opzione viene lasciata selezionata, gli utenti possono selezionare più progetti quando il campo del tipo di progetto collegato (informazioni sul progetto) viene visualizzato nei record originali (Campagne).
    * **Seleziona campi di ricerca**: se lasci selezionata questa opzione, il **Aggiungi campi di ricerca** viene visualizzata la casella accanto, che consente di collegare i campi di Project con il tipo di record Campaign. Puoi fare clic su **Ignora** per saltare questo passaggio e aggiungere i campi Progetto in un secondo momento.
 
    ![](assets/new-connection-tab-with-workfront-option.png)
@@ -151,7 +151,7 @@ Per eseguire questa operazione:
 
    Vengono generati i campi seguenti:
 
-   * Nella vista Tabella record Campaign e nella pagina Dettagli di una campagna:
+   * Nella vista Tabella record Campaign e nella pagina Record Campaign:
 
       * **Informazioni progetto** (campo oggetto collegato): verranno visualizzati il nome o i nomi dei progetti.
       * **Retribuzione pianificata (da informazioni progetto)** (campo collegato): visualizza le Retribuzioni pianificate dei progetti selezionati nel campo Informazioni progetto.
@@ -172,7 +172,7 @@ Per eseguire questa operazione:
    * Inizia a digitare il nome di un progetto e fai clic su di esso quando viene visualizzato nell’elenco. Il progetto viene aggiunto automaticamente.
    * Clic **Vedi tutto** per visualizzare tutti i progetti.
 
-1. (Condizionale) Se hai fatto clic **Seleziona tutto** nel passaggio precedente, il **Connetti oggetti** viene visualizzata la casella.
+1. (Condizionale) Se hai fatto clic **Vedi tutto** nel passaggio precedente, il **Connetti oggetti** viene visualizzata la casella.
 
    ![](assets/connect-projects-larger-box.png)
 
@@ -184,7 +184,7 @@ Per eseguire questa operazione:
 
    >[!TIP]
    >
-   >    Puoi aprire la pagina Dettagli di una campagna, trovare il campo del progetto collegato e fare clic su **+** nel campo per aggiungere progetti dal tipo di record Prodotto connesso.
+   >    Puoi aprire la pagina di una campagna, trovare il campo del progetto collegato e fare clic su **+** nel campo per aggiungere progetti dal tipo di record Prodotto connesso.
 
    Questa operazione aggiunge quanto segue all&#39;area di lavoro selezionata:
 
@@ -200,15 +200,15 @@ Per eseguire questa operazione:
 
 1. Fare clic sul nome di un progetto nel campo record connesso.
 
-   Questo apre il progetto Maestro di sola lettura **Dettagli** pagina.
-Rivedi le informazioni sul progetto. Nella pagina Dettagli vengono visualizzati solo i campi progetto selezionati.
+   Verrà aperta la pagina del progetto di sola lettura Woekfront Planning.
+Rivedi le informazioni sul progetto. Nella pagina del record vengono visualizzati solo i campi progetto selezionati.
 
 1. Clic **Vai all&#39;origine** nell’angolo in alto a destra dello schermo per aprire il progetto in Workfront, se disponi almeno delle autorizzazioni di visualizzazione per il progetto.
 1. (Facoltativo) Se disponi delle autorizzazioni necessarie, aggiorna le informazioni sul progetto in Workfront.
 
-1. Dalla vista della tabella Campaign, passa il puntatore del mouse su **Informazioni progetto** e fare clic sulla freccia rivolta verso il basso, quindi su **Modificare i campi di ricerca.**
-1. Fai clic su **+** per qualsiasi campo di progetto che desideri aggiungere al record Workfront Project Maestro in **Campi non selezionati** sezione.
-1. Fai clic su **-** per i campi del progetto che si desidera rimuovere dal record Workfront Project Maestro in **Campi selezionati** sezione.
+1. (Facoltativo) Dalla vista della tabella Campaign, passa il puntatore del mouse su **Informazioni progetto** e fare clic sulla freccia rivolta verso il basso, quindi su **Modificare i campi di ricerca.**
+1. Fai clic su **+** per i campi del progetto che si desidera aggiungere al record Workfront Planning del progetto in **Campi non selezionati** sezione.
+1. Fai clic su **-** per i campi del progetto che si desidera rimuovere dal record Workfront Project Planning nel **Campi selezionati** sezione.
 1. Fai clic su **Salva**.
 
    Campi collegati aggiuntivi vengono aggiunti al tipo di record Campaign.

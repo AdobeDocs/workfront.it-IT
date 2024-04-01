@@ -1,13 +1,13 @@
 ---
 title: Panoramica campo
-description: Nella pianificazione di Adobe Workfront puoi aggiungere nuovi campi che riflettono il ciclo di vita della tua organizzazione. I campi sono attributi dei tipi di record.
+description: In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono il ciclo di vita dell'organizzazione. I campi sono attributi dei tipi di record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '436'
 ht-degree: 2%
 
 ---
@@ -28,12 +28,12 @@ hide: yes
 
 {{maestro-important-intro}}
 
-Nella pianificazione di Adobe Workfront puoi aggiungere nuovi campi che riflettono il ciclo di vita della tua organizzazione. I campi sono attributi dei tipi di record.
+In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono il ciclo di vita dell&#39;organizzazione. I campi sono attributi dei tipi di record.
 
 
-## Considerazioni sui campi di pianificazione di Adobe Workfront
+## Considerazioni sui campi di Adobe Workfront Planning
 
-* È possibile creare campi solo dalla vista tabella di una pagina del tipo di record. I campi vengono visualizzati come colonne nella vista tabella. Tutti i campi associati a un tipo di record vengono visualizzati anche nella pagina Dettagli di ciascun record di quel tipo.
+* È possibile creare campi solo dalla vista tabella di una pagina del tipo di record. I campi vengono visualizzati come colonne nella vista tabella. Nella pagina del record vengono visualizzati anche tutti i campi associati a un tipo di record.
 
   Per informazioni sulla gestione delle colonne di tabella (o dei campi record), vedere [Gestire la vista tabella](../views/manage-the-table-view.md).
 
@@ -50,11 +50,9 @@ Nella pianificazione di Adobe Workfront puoi aggiungere nuovi campi che rifletto
 
    * Manualmente:
 
-      * Aggiungendo colonne nella visualizzazione tabella di una pagina di tipo record. Le colonne della tabella sono i campi associati al tipo di record. Sono gli stessi campi visualizzati nella pagina Dettagli di un record.
+      * Aggiungendo colonne nella visualizzazione tabella di una pagina di tipo record. Le colonne della tabella sono i campi associati al tipo di record. Sono gli stessi campi visualizzati nella pagina di un record.
 
-        Impossibile creare campi dalla pagina Dettagli di un record.
-
-        Questo articolo descrive come creare manualmente i campi.
+        Impossibile creare campi dalla pagina del record.
 
       * Collegando i tipi di record. È possibile creare campi record collegati quando si aggiunge una nuova connessione tra due tipi di record o un tipo di record e un tipo di oggetto di altre applicazioni.
 
@@ -81,9 +79,9 @@ Nella pianificazione di Adobe Workfront puoi aggiungere nuovi campi che rifletto
 
         Puoi aggiungere altri valori o rinominare quelli esistenti.
 
-     Quando si crea un&#39;area di lavoro da un modello, in Workfront planning vengono creati campi per i tipi di record. Per informazioni, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
+     Workfront Planning crea campi per i tipi di record quando si crea un&#39;area di lavoro da un modello. Per informazioni, consulta [Creare aree di lavoro](../architecture/create-workspaces.md).
 
-* I campi di pianificazione di Workfront non sono accessibili da Workfront.
+* I campi di Workfront Planning non sono accessibili da Workfront.
 
 * I campi di Workfront sono accessibili da Workfront Planning solo quando si collegano tipi di record a tipi di oggetti di Workfront e si aggiungono campi collegati o di ricerca da oggetti di Workfront. Per informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
 

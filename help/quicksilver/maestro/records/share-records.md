@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 Per collaborare con altri utenti, è possibile condividere i record con altri utenti.
 
-È possibile condividere un record di pianificazione di Adobe Workfront nei modi seguenti:
+È possibile condividere un record di Adobe Workfront Planning nei modi seguenti:
 
-* Copiare il collegamento della pagina Dettagli di un record dal browser quando la pagina è aperta.
+* Copiare il collegamento della pagina record dal browser quando la pagina è aperta.
 
-* Copiare un collegamento nella pagina Dettagli del record quando si visualizzano i record nella visualizzazione tabella del tipo di record.
+* Copiare un collegamento alla pagina del record quando si visualizzano i record nella vista tabella del tipo di record.
 
 * È possibile condividere tutti i record di un&#39;area di lavoro con altri utenti condividendo l&#39;area di lavoro. Per ulteriori informazioni, consulta [Condividere un’area di lavoro](/help/quicksilver/maestro/access/share-workspaces.md).
 
-In questo articolo viene descritto come copiare un collegamento alla pagina Dettagli di un record dalla vista tabella di un tipo di record.
+In questo articolo viene descritto come copiare un collegamento alla pagina di un record dalla vista tabella di un tipo di record.
 
 ## Requisiti di accesso
 
@@ -50,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>L’organizzazione deve essere iscritta al programma beta chiuso di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta chiuso di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Nessun controllo del livello di accesso per la pianificazione di Workfront</p>  
+   <td> <p>Nessun controllo del livello di accesso per Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -124,11 +124,11 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
    Il collegamento viene copiato negli Appunti.
 
-1. Incolla il collegamento in un’e-mail o in una finestra di chat per condividerlo con altri utenti. Quando gli utenti ricevono il collegamento, viene aperta la pagina Dettagli del record.
+1. Incolla il collegamento in un’e-mail o in una finestra di chat per condividerlo con altri utenti. Quando gli utenti ricevono il collegamento, viene aperta la pagina di registrazione.
 
    >[!TIP]
    >
-   >I campi del record nella pagina Dettagli sono gli stessi campi disponibili nella visualizzazione Tabella del record.
+   >I campi nella pagina record sono gli stessi campi disponibili nella visualizzazione Tabella del record.
 
 
    <!--add there when it will be available: if they have access to this record-->

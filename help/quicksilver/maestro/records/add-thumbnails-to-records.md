@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-È possibile associare record a miniature univoche nella pianificazione di Adobe Workfront per renderle facilmente riconoscibili.
+È possibile associare record a miniature univoche in Adobe Workfront Planning per renderle facilmente riconoscibili.
 
 È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 Per informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
@@ -44,7 +44,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Nessun controllo di accesso per la pianificazione di Workfront </p>  
+   <td> <p>Nessun controllo di accesso per Workfront Planning </p>  
 </td>
   </tr>
 <tr>
@@ -93,8 +93,8 @@ Considera quanto segue:
 
    * Campo principale di un record nella visualizzazione tabella
    * Barra dei record nella visualizzazione timeline.
-* Non è possibile aggiungere miniature di record dalla pagina Dettagli del record o nella visualizzazione timeline.
-* Le miniature non vengono visualizzate nella pagina Dettagli del record.
+* Non è possibile aggiungere miniature di record dalla pagina del record o da un altro tipo di visualizzazione.
+* Le miniature non vengono visualizzate sulla pagina del record.
 
 ## Aggiungere una miniatura a un record
 

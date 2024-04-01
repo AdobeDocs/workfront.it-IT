@@ -1,11 +1,11 @@
 ---
 title: "Visualizzazioni: indice articolo"
-description: È possibile visualizzare i record di pianificazione di Adobe Workfront in una vista tabella, sequenza temporale o calendario. Negli articoli seguenti viene descritto come creare e gestire le visualizzazioni record di pianificazione di Adobe Workfront.
+description: È possibile visualizzare i record di Adobe Workfront Planning in una vista tabella, sequenza temporale o calendario. Negli articoli seguenti viene descritto come creare e gestire le visualizzazioni record di Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 0%
@@ -30,9 +30,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-È possibile visualizzare i record di pianificazione di Adobe Workfront in una vista tabella, sequenza temporale o calendario.
+È possibile visualizzare i record di Adobe Workfront Planning in una vista tabella, sequenza temporale o calendario.
 
-Nei seguenti articoli viene descritto come creare e gestire le visualizzazioni record nella pianificazione di Adobe Workfront:
+Nei seguenti articoli viene descritto come creare e gestire le visualizzazioni record in Adobe Workfront Planning:
 
 * [Gestire le visualizzazioni record](../views/manage-record-views.md)
 * [Gestire la vista tabella](../views/manage-the-table-view.md)

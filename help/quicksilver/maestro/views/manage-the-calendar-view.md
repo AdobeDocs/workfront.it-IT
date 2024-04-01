@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ hide: yes
 
 È possibile visualizzare i record e i relativi campi in una visualizzazione calendario dalla pagina del tipo di record.
 
-Per informazioni sulle visualizzazioni delle funzionalità di pianificazione di Adobe Workfront e su come gestirle, consulta [Gestire le visualizzazioni record](../views/manage-record-views.md).
+Per informazioni sulle visualizzazioni delle funzionalità di Adobe Workfront Planning e su come gestirle, vedere [Gestire le visualizzazioni record](../views/manage-record-views.md).
 
 ## Requisiti di accesso
 
@@ -51,7 +51,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -64,12 +64,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
    <td>
    <p>Qualsiasi</p> 
+   <p>Gli amministratori di sistema possono accedere solo alle visualizzazioni create o condivise con loro. </p>
   </td>
   </tr>
 
 <tr>
    <td role="rowheader">Configurazione del livello di accesso</td>
-   <td> <p>Non sono presenti controlli del livello di accesso per la pianificazione di Adobe Workfront</p>  
+   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>  
 </td>
   </tr>
 

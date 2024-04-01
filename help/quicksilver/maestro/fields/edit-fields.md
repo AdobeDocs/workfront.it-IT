@@ -1,13 +1,13 @@
 ---
 title: Modifica campi
-description: In Adobe Workfront Planning è possibile modificare le impostazioni dei campi per i campi già creati.
+description: In Adobe Workfront Planning è possibile modificare le impostazioni dei campi già creati.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -25,22 +25,21 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-
 # Modifica campi
 
 {{maestro-important-intro}}
 
-È possibile modificare le impostazioni dei campi già creati nella pianificazione di Adobe Workfront.
+È possibile modificare le impostazioni dei campi già creati in Adobe Workfront Planning.
 
-Per informazioni sulla creazione dei campi di pianificazione di Adobe Workfront, consulta [Crea campi](../fields/create-fields.md).
+Per informazioni sulla creazione dei campi di Adobe Workfront Planning, vedere [Crea campi](../fields/create-fields.md).
 
-Questo articolo descrive come modificare le impostazioni per i campi di pianificazione di Workfront. Per informazioni sulla modifica dei valori dei campi per i record, vedere [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
+In questo articolo viene descritto come modificare le impostazioni per i campi di Workfront Planning. Per informazioni sulla modifica dei valori dei campi per i record, vedere [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Considerazioni sulla modifica delle informazioni sui campi
 
 * Se disponi delle autorizzazioni di gestione per l’area di lavoro a cui appartengono i campi, puoi modificare i campi creati o quelli creati da altri utenti.
 * È possibile modificare un campo nella tabella del tipo di record.
-* Non è possibile modificare un campo nella pagina Dettagli di un record o nella visualizzazione timeline.
+* Non è possibile modificare un campo nella pagina record o nella visualizzazione timeline.
 * Non è possibile modificare il tipo di campo dopo il salvataggio del campo.
 * Non è possibile deselezionare l&#39;impostazione Consenti numeri negativi precedentemente selezionata per un campo Numerico, Percentuale o Valuta se sono già presenti valori negativi memorizzati nei record a cui è associato.
 <!--this is not true yet; one piece of it is true and I added it as the bullet above: 
@@ -69,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -87,7 +86,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazione del livello di accesso</p></td>
-   <td> <p>Nessun controllo di accesso per la pianificazione di Workfront</p>  
+   <td> <p>Nessun controllo di accesso per Workfront Planning</p>  
 </td>
   </tr>
 

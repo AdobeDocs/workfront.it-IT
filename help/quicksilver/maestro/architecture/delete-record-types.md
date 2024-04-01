@@ -1,13 +1,13 @@
 ---
 title: Elimina tipi di record
-description: È possibile eliminare i tipi di record quando non sono più rilevanti.
+description: È possibile eliminare i tipi di record quando non sono più rilevanti. L'eliminazione dei tipi di record comporta anche l'eliminazione di tutte le informazioni associate ai tipi di record, ad esempio record, campi e visualizzazioni.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 130365bfa220337aa25f27ba03742ea3471972cb
+source-git-commit: f4fb9d5c22ec6216a05e31cbcf80f1cf9add125f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -74,7 +74,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Non sono presenti controlli del livello di accesso per la pianificazione di Adobe Workfront</p>  
+   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning</p>  
 </td>
   </tr>
 
@@ -126,11 +126,11 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera eliminare i tipi di record.
 
-   Verrà aperto il workspace e verranno visualizzati i tipi di record e le tassonomie ad esso associati.
+   Viene aperto il workspace e vengono visualizzati i tipi di record.
 1. Fare clic sulla scheda del tipo di record che si desidera eliminare.
 
    Verrà aperta la pagina del tipo di record.
-1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Elimina**.
-1. Clic **Elimina** per confermare.
+1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Elimina**. <!--add screen shot when they finalize the UI-->
+1. Tipo **Elimina** nella casella di conferma, fai clic su **Elimina definitivamente**.
 
    Il tipo di record selezionato e i relativi campi, record associati e viste vengono eliminati.

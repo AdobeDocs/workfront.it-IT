@@ -1,13 +1,13 @@
 ---
 title: Modifica record
-description: È possibile modificare le informazioni del record nella pianificazione di Adobe Workfront. È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
+description: È possibile modificare le informazioni del record in Adobe Workfront Planning. È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a0f12a016ae8ac73136f05bf3255f9882e2ce6d4
+source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
 workflow-type: tm+mt
-source-wordcount: '1332'
+source-wordcount: '1299'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di pianificazione di Adobe Workfront. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
+<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. Per informazioni su questa nuova offerta, contatta il rappresentante del tuo account. </p>
    </td>
   </tr>
   <tr>
@@ -67,7 +67,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 <tr>
    <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
-   <td> <p>Nessun controllo di accesso per la pianificazione di Adobe Workfront</p>  
+   <td> <p>Nessun controllo di accesso per Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -92,8 +92,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Se si dispone delle autorizzazioni necessarie per l&#39;area di lavoro, è possibile modificare i record creati o quelli creati da altri utenti.
 * È possibile modificare i campi record dalle seguenti aree:
 
-   * Casella Dettagli di un record da una visualizzazione record.
-   * Pagina Dettagli di un record.
+   * Casella del record in una visualizzazione record
+   * Pagina del record
    * In linea, in una vista a tabella.
 
 * I seguenti tipi di campi vengono aggiornati automaticamente e non è possibile modificarne i valori manualmente:
@@ -109,7 +109,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 È possibile modificare un record dalle seguenti aree:
 
 * [Dalla vista tabella di un tipo di record](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Dalla pagina Dettagli di un record](#edit-a-record-from-the-records-details-page)
+* [Dalla casella del record in una visualizzazione](#edit-a-record-from-the-records-box-in-a-view)
+* [Dalla pagina del record](#edit-a-record-from-the-records-page)
 
 ### Modificare un record in linea nella vista tabella di un tipo di record
 
@@ -165,7 +166,7 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
    >   * Incolla: CTRL + V (⌘ + V per Mac)
    >* Non è possibile copiare informazioni da un&#39;altra origine, ad eccezione di un campo record dello stesso tipo del campo in cui si incollano le informazioni.
    >
-   >* Non è possibile copiare e incollare i valori dei campi nell&#39;area Dettagli di un record. Questa funzionalità è supportata solo nella vista tabella di un tipo di record.
+   >* Non è possibile copiare e incollare i valori dei campi nella pagina record. Questa funzionalità è supportata solo nella vista tabella di un tipo di record.
    >* Non è possibile copiare e incollare valori di campo per i tipi di campo seguenti:
    >
    >
@@ -183,9 +184,7 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
 1. (Facoltativo) Aggiungi una miniatura a un record. Per informazioni, consulta [Aggiungere una miniatura a un record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Modificare un record dalla casella Dettagli del record in una visualizzazione
-
-È possibile modificare un record dalla casella Dettagli di qualsiasi visualizzazione.
+### Modificare un record dalla casella del record in una visualizzazione
 
 {{step1-to-maestro}}
 
@@ -201,7 +200,7 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
    Oppure
 
-   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record oppure fare clic sul nome di un record. Il **Dettagli** nella vista.
+   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record oppure fare clic sul nome di un record. La casella del record viene visualizzata nella vista.
 
    ![](assets/details-box.png)
 
@@ -209,13 +208,11 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
    >
    >È possibile visualizzare **Apri dettagli** a sinistra del campo Nome di un record in una visualizzazione tabella solo quando il campo Nome è un campo primario.
 
-1. Inizia a modificare le informazioni del campo in **Dettagli** casella. Workfront salva automaticamente le modifiche.
+1. Inizia a modificare le informazioni del campo nella casella del record. Workfront salva automaticamente le modifiche.
 
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro del **Dettagli** per aprire il record **Dettagli** in una nuova scheda. Continua a modificare il record come descritto in [Modificare un record dalla pagina Dettagli del record](#edit-a-record-from-the-records-details-page) in questo articolo.
+1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro della casella del record per aprire la pagina del record in una nuova scheda. Continua a modificare il record come descritto in [Modificare un record dalla pagina del record](#edit-a-record-from-the-records-page) in questo articolo.
 
-### Modificare un record dalla pagina Dettagli del record
-
-È possibile modificare un record dalla pagina Dettagli.
+### Modificare un record dalla pagina del record
 
 {{step1-to-maestro}}
 
@@ -229,13 +226,13 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
 1. Esegui una delle operazioni seguenti:
 
-   * Da qualsiasi vista, accedere alla casella Dettagli, come descritto nella [Modificare un record dalla casella Dettagli del record in una visualizzazione](#edit-a-record-from-the-records-details-box-in-a-view)in questo articolo. Quindi, fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro del **Dettagli** per aprire il record **Dettagli** in una nuova scheda.
+   * Da qualsiasi visualizzazione, accedere alla casella del record, come descritto nella [Modificare un record dalla casella del record in una visualizzazione](#edit-a-record-from-the-records-box-in-a-view) in questo articolo. Quindi, fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro della casella record per aprire la pagina del record in una nuova scheda.
 
    * Dalla sezione **Tabella** , passa il puntatore sul nome di un record, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Visualizza**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-     Il record **Dettagli** viene visualizzata la pagina.
+     Viene visualizzata la pagina del record.
 
      ![](assets/details-page.png)
 
@@ -243,7 +240,7 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
    Oppure
 
-   Fare clic all&#39;interno di un campo modificabile nella pagina Dettagli per modificare le informazioni.
+   Fare clic all&#39;interno di un campo modificabile nella pagina del record per modificare le informazioni.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
