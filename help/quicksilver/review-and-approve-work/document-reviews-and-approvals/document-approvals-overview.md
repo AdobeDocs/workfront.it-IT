@@ -6,10 +6,10 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1a03d829bc4cddfd568c6d0e8850e847004c83b4
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 0%
+source-wordcount: '505'
+ht-degree: 1%
 
 ---
 
@@ -54,3 +54,10 @@ Se desideri che nell’ambiente di produzione siano abilitate le approvazioni de
 Per gli utenti che desiderano creare o gestire approvazioni di documenti, vedi gli articoli elencati in [Approva documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
 Per gli utenti che desiderano rivedere o approvare documenti per i quali hanno ricevuto una richiesta, vedere gli articoli elencati in [Documenti revisione: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+
+Le approvazioni di nuovi documenti non sono supportate nello strumento di reporting corrente. Il widget Tutte le approvazioni disponibile nei nuovi dashboard Home e Canvas fornisce i seguenti dettagli sulle nuove approvazioni di documenti:
+
+* Approvazioni mediante decisione
+* Tempo medio approvazione
+* Approvazioni in sospeso
+* Approvazioni scadute

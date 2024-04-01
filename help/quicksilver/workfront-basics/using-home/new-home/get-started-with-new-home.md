@@ -6,14 +6,16 @@ description: La nuova Home è una nuova potente funzione per la gestione del tuo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4387c4cda66384f9d988d82cab5e7ed90a70173e
+source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 8%
+source-wordcount: '1131'
+ht-degree: 5%
 
 ---
 
 # Introduzione alla nuova Home
+
+
 
 <!--Audited: 12/2023-->
 
@@ -55,7 +57,7 @@ Di seguito sono riportati i dieci widget attualmente disponibili tra cui sceglie
     Mostra tutte le approvazioni assegnate o delegate in attesa, un pulsante per delegare le approvazioni e pulsanti per prendere decisioni di approvazione direttamente all’interno del widget.
 
 * **Tutte le approvazioni**\
-    Visualizza tutte le approvazioni per la tua organizzazione in una tabella con colonne personalizzabili, oltre a una barra di ricerca che ti consente di cercare approvazioni specifiche.
+        <span class="preview"> Visualizza 2 grafici con informazioni sul tempo medio di approvazione e sulle decisioni, nonché visualizzazioni elenco delle approvazioni in sospeso e in ritardo.</span> <span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span>
 
 * **Approvazioni in sospeso**\
     Visualizza le approvazioni assegnate a un documento su un progetto di cui sei proprietario. Qui puoi visualizzare lo stato di approvazione e ricordare agli utenti le revisioni e le approvazioni incomplete. <span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span>
