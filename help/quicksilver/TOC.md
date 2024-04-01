@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 9171a7696feaebe8efddf126200d319fe7c84d52
+source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
 workflow-type: tm+mt
-source-wordcount: '14061'
+source-wordcount: '14064'
 ht-degree: 1%
 
 ---
@@ -1807,7 +1807,7 @@ ht-degree: 1%
          * [Aggiungere una risorsa Frame.io a un progetto Workfront connesso](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
       * Approva documenti {#approve-documents}
          * [Approva documenti: indice articolo](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
-         * [Creare un’approvazione documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [Creare una richiesta di revisione o approvazione documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [Aggiungere revisori o approvatori aggiuntivi a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Rimuovere approvatori o revisori da un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Creare un modello di approvazione](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)

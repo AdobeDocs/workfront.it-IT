@@ -6,9 +6,9 @@ description: Se si è assegnati come approvatori a un documento, è possibile pr
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 864481fe2af7a2433bac841bb35995c58fe06743
+source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Se si è assegnati come approvatori a un documento, è possibile prendere una decisione in diversi modi.
 
-Per informazioni sulla creazione di una nuova approvazione del documento, vedere [Creare un’approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Per informazioni sulla creazione di una nuova approvazione del documento, vedere [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >
