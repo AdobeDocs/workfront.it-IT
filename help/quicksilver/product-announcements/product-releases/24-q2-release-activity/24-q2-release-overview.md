@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '2020'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,7 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
 ## Miglioramenti di Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
+* [Miglioramenti alla gestione dei documenti](#document-management-enhancements)
 * [Miglioramenti Home](#home-enhancements)
 * [Miglioramenti al progetto](#project-enhancements)
 * [Miglioramenti alla gestione delle risorse](#resource-management-enhancements)
@@ -64,7 +65,23 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Aziende e utenti ora supportano i campi modulo personalizzati avanzati</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">La logica di visualizzazione e la logica di salto sono ora disponibili nella modalità di anteprima di progettazione moduli</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>Il designer di moduli personalizzati beta ora consente di testare la logica di visualizzazione e saltare la logica in modalità anteprima. In precedenza, tutti i campi venivano visualizzati nell’anteprima anche quando veniva applicata la logica.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 28 marzo 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per i clienti: con la versione 24.4 (aprile 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Aziende e utenti ora supportano i campi modulo personalizzati avanzati</a></p>
                         <p>Le funzioni avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono ora disponibili quando si allega un modulo personalizzato a un’azienda o a un utente.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -154,7 +171,7 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
             </tbody>
         </table>
 
-### Miglioramenti Home
+### Miglioramenti alla gestione dei documenti
 
 <table>
             <col style="width: 50%;" />
@@ -169,58 +186,80 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
                         <p><span class="bold">Date di rilascio</span>
                         </p>
                     </td>
-                 </tr>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Opzioni colonna aggiunte ai controlli amministratore per la nuova Home utilizzando i modelli di layout</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p><p>Gli amministratori possono ora personalizzare le colonne disponibili per gli utenti in nuovi widget Home specifici utilizzando i modelli di layout. Le opzioni includono la possibilità di nascondere o visualizzare le colonne predefinite e di aggiungere campi esistenti come nuove colonne.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiungere una scadenza a un documento revisioni e approvazioni</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>È ora possibile specificare una scadenza per gli utenti o i team assegnati alla revisione o all'approvazione di un documento. I revisori e gli approvatori ricevono le notifiche e-mail 72 ore e 24 ore prima della scadenza specificata. La scadenza si riflette anche nel widget Approvazioni nella nuova area Home.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 2 gennaio 2024</p>
+                                <p>Versione di anteprima: 28 marzo 2024</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio rapido: con la versione 24.2 (15 febbraio 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produzione per la versione trimestrale: con la versione 24.4 (aprile 2024)</p>
+                                <p>Produzione per i clienti: con la versione 24.4 (aprile 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-           </tbody>
-        </table>
-
-### Miglioramenti dell’integrazione
-
-<table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-    <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Funzionalità</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Creare e utilizzare modelli di approvazione</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>È ora possibile creare modelli di approvazione nell’area Configura per semplificare il processo di revisione e approvazione. I modelli di approvazione consentono di rendere più ripetibile il processo di revisione e approvazione
+                        <ul>
+                            <li>
+                                <p>Aggiunta di revisori e approvatori</p>
+                            </li>
+                            <li>
+                                <p>Impostazione di un arco temporale</p>
+                            </li>
+                        </ul>
                         </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Date di rilascio</span>
-                        </p>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Miglioramenti al flusso di lavoro per la creazione automatica delle cartelle nell’integrazione Adobe Experience Manager</a></p><p>[!BADGE In produzione ]{type=Informative}</p><p>Per garantire che le cartelle di Adobe Experience Manager riflettano più accuratamente le tue esigenze, abbiamo aggiunto strutture di cartelle nidificate al flusso di lavoro cartelle collegate di Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 11 marzo 2024</p>
+                                <p>Versione di anteprima: 28 marzo 2024</p>
                             </li>
-                             <li> <p><span class="preview">Versione di produzione per tutti i clienti: 14 marzo 2024</span></p>
-                             </li>
+                            <li>
+                                <p>Produzione per i clienti: con la versione 24.4 (aprile 2024)</p>
+                            </li>
                         </ul>
                     </td>
-                 </tr>          
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Visualizza informazioni su tutte le approvazioni in un’unica posizione</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>Per aiutarti a gestire e analizzare rapidamente le richieste di approvazione, abbiamo aggiunto i seguenti indicatori di prestazioni chiave al widget Tutte le approvazioni:
+                        <ul>
+                            <li>
+                                <p>Approvazioni mediante decisione</p>
+                            </li>
+                            <li>
+                                <p>Tempo medio approvazione</p>
+                            </li>
+                            <li>
+                                <p>Approvazioni in sospeso</p>
+                            </li>
+                            <li>
+                                <p>Approvazioni scadute</p>
+                            </li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 28 marzo 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per i clienti: con la versione 24.4 (aprile 2024)</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">Questa funzione fa parte di un rilascio graduale ed è attualmente disponibile solo per clienti specifici.</span></p>
+                    </td>
+                </tr>
             </tbody>
 </table>
 
@@ -338,6 +377,22 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">L’accesso all’area dei commenti legacy è stato rimosso</a><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>È stato rimosso il pulsante "Nuovo commento" nell’area Aggiornamenti per progetti, attività, problemi e documenti. Il nuovo commento è ora l'opzione predefinita e unica per questi oggetti.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 1 aprile 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">È ora disponibile un nuovo flusso di commenti nelle azioni rapide per i nuovi widget per home</a></p><p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
@@ -514,3 +569,4 @@ Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versi
 ### Aggiornamenti dei corsi di formazione
 
 Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, consulta la sezione &quot;Novità&quot; del [Pagina Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it).
+
