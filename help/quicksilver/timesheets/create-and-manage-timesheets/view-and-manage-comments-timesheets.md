@@ -6,9 +6,9 @@ description: È possibile aggiungere commenti alle schede orario, agli elementi 
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: fdf4c86ce70402885e109a680ed1b088dcf71f55
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,16 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
 
    Il commento viene visualizzato in [!UICONTROL Aggiornamenti] nella scheda Commenti.
 
-1. (Facoltativo) Fai clic su **Attività di sistema** per rivedere gli aggiornamenti generati dal sistema.
+1. (Facoltativo) Fai clic su **Attività di sistema** per rivedere gli aggiornamenti generati dal sistema
+
+   Oppure
+
+   Fai clic su **Tutti** per visualizzare le attività di sistema e i commenti degli utenti in ordine cronologico.
+
+   >[!TIP]
+   >
+   >   La scheda Tutto è di sola lettura e non è possibile rispondere ai commenti da tale scheda.
+
 
    Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -139,7 +148,7 @@ Puoi fare commenti generali sulla scheda orario. Commentare la scheda attività 
 1. Clic [!UICONTROL **Schede orario**].
 1. Vai alla scheda orario in cui desideri inserire un commento e fai clic su [!UICONTROL **Scheda orario**] nel pannello a sinistra.
 1. Fai clic sulla riga di un’attività o di un problema, quindi fai clic su [!UICONTROL **Apri riepilogo**].
-1. Inizia a digitare un aggiornamento in [!UICONTROL **Aggiornamenti**] del pannello Riepilogo, quindi fai clic su [!UICONTROL **Aggiorna**].
+1. Inizia a digitare un aggiornamento in [!UICONTROL **Aggiornamenti**] del pannello Riepilogo, quindi fai clic su [!UICONTROL **Invia**].
 L’aggiornamento viene visualizzato nella sezione Aggiornamenti dell’attività e del problema.
 1. (Facoltativo) Fai clic su [!UICONTROL **Chiudi riepilogo**] per chiudere il pannello Riepilogo.
 

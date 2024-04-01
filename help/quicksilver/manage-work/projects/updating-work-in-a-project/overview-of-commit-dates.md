@@ -7,16 +7,14 @@ description: La data di conferma è la data entro la quale un utente assegnato a
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 0%
+source-wordcount: '763'
+ht-degree: 1%
 
 ---
 
 # Panoramica sulla data di conferma
-
-{{preview-and-fast-release}}
 
 La data di conferma è la data entro la quale un utente assegnato a un’attività o a un problema si impegna a completare l’attività o il problema. Questa è diversa dalla Data di completamento pianificata, in quanto è una stima più realistica della data di completamento fornita solo dall’utente responsabile del lavoro. Per informazioni sulla data di completamento pianificata, vedi [Panoramica della data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -55,11 +53,26 @@ Quando un assegnatario di un’attività o di un problema seleziona una Data di 
 
 L’impostazione della data di conferma per un’attività o un problema attiva le seguenti modifiche:
 
-* La Data impegno viene inserita nel flusso di aggiornamento dell’attività o del problema.
+* La modifica della data di conferma viene popolata nelle schede Attività di sistema e Tutte nella sezione Aggiornamento dell’attività o del problema.
 
-  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
+  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
 
   La modifica della data di conferma viene visualizzata nell’area Aggiornamenti dell’attività o del problema quando l’amministratore di Workfront abilita questo aggiornamento nell’area Feed aggiornamenti in Configurazione. Per informazioni, consulta [Aggiornamenti monitorati dal sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+  Se un proprietario del progetto non desidera accettare la modifica, è consigliabile che ritorni all&#39;utente che propone una nuova data utilizzando la scheda Commenti nella sezione Aggiornamenti, per chiedere di ripristinare la Data pianificata originale oppure di selezionare una nuova data. Se un proprietario del progetto accetta la modifica, può regolare manualmente la Data di completamento pianificata in modo che corrisponda alla Data impegno offerta dall&#39;utente assegnato all&#39;elemento modificando l&#39;attività o il problema.
+
+  Devi avere accesso per gestire l’attività o il problema per modificarli.
+
+<!--this is no longer possible: 
+>[!NOTE]
+>
+>If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
+>
+>
+>![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>
+-->
+
 
 * La Data di completamento prevista dell’attività o del problema è impostata sulla stessa data perché l’attività ora dispone di un’indicazione più precisa di quando è probabile che venga completata.
 
@@ -67,27 +80,10 @@ L’impostazione della data di conferma per un’attività o un problema attiva 
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* Se il proprietario del progetto utilizza l’esperienza di commento legacy, nella scheda Aggiornamenti dell’attività riceve una notifica che indica se questa modifica influirà sulla sequenza temporale del progetto e gli viene data l’opportunità di aggiornare la data di completamento pianificata dell’attività nella stessa area.
 
-  Questa funzionalità non è supportata nella nuova esperienza di aggiunta di commenti. Per informazioni, consulta [Nuova esperienza di commento](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-  >[!TIP]
-  >
-  >  Al proprietario del progetto non viene data la possibilità di aggiornare la Data di completamento pianificata di un problema, in quanto le date del problema non influiscono sulla sequenza temporale del progetto.
 
-  Se un Proprietario del progetto non desidera accettare la modifica, si consiglia di commentare l’utente proponendo una nuova data per chiedere di ripristinare la Data pianificata originale oppure di selezionare una nuova data. Se un proprietario del progetto accetta la modifica, può regolare manualmente la Data di completamento pianificata in modo che corrisponda alla Data impegno offerta dall&#39;utente assegnato all&#39;elemento. Possono anche fare clic su **Imposta data pianificata su: &lt; data >** nell’area Aggiornamenti, che imposta automaticamente la Data di completamento pianificata in modo che corrisponda alla nuova Data impegno.
-
-  Per accettare questa modifica, devi avere accesso per gestire l’attività e il progetto.
-
-  >[!NOTE]
-  >
-  >Se si desidera vedere in che modo la sequenza temporale del progetto viene influenzata dall&#39;accettazione della modifica della Data di completamento pianificata dell&#39;attività, fare clic su **Sequenza temporale progetto**. Verrà aperto l&#39;elenco delle attività in cui è possibile valutare le modifiche apportate alla data e la sequenza temporale del progetto.
-  >
-  >
-  >![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
-  >
-
-* Nell&#39;area Notifiche viene inviata una notifica al proprietario del progetto in merito alla modifica della data di conferma di un&#39;attività.
+* Nell’area Notifiche viene inviata una notifica al proprietario del progetto per segnalare che la data di conferma di un’attività o di un problema è stata modificata.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 

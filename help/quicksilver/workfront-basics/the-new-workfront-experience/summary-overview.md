@@ -5,16 +5,20 @@ description: È possibile utilizzare il pannello Riepilogo per rivedere e aggior
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---
 
 # [!UICONTROL Riepilogo] panoramica
 
-{{preview-and-fast-release}}
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti o in produzione per i clienti che hanno abilitato le versioni rapide. </span>
+
+<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 È possibile utilizzare [!UICONTROL Riepilogo] pannello per rivedere e aggiornare le informazioni sull’elemento di lavoro direttamente da un elenco di attività, problemi, documenti o da altre aree di [!DNL Adobe Workfront] che visualizzano attività e problemi.
 
@@ -36,6 +40,9 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
   <tr> 
    <td>Attività nelle aree di lavoro [!UICONTROL non assegnato] e [!UICONTROL assegnato] del Bilanciatore dei carichi di lavoro [!UICONTROL assegnato]</td> 
   </tr> 
+   <tr> 
+   <td>Attività in una scheda orario [!UICONTROL]</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>Problemi</td> 
   </tr> 
@@ -53,7 +60,12 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
   <tr data-mc-conditions=""> 
    <td>Problemi nella sezione [!UICONTROL Submitted] dell'area [!UICONTROL Requests]</td> 
   </tr> 
-  <tr data-mc-conditions=""> 
+</tr> 
+   <tr> 
+   <td>Problemi in una scheda orario [!UICONTROL]</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>Documenti</td> 
   </tr> 
   <tr data-mc-conditions=""> 

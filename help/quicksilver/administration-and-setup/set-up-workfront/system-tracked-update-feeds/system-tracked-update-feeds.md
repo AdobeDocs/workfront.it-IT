@@ -9,16 +9,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
 
 # Aggiornamenti monitorati dal sistema
 
-{{preview-and-fast-release}}
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+
+<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
@@ -92,12 +96,16 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
      Per ulteriori informazioni sulla nuova esperienza di aggiunta di commenti, vedi [Nuova esperienza di commento](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+     <span class="preview">Per un elenco degli oggetti che non hanno le schede Attività di sistema o Tutte, vedere [Panoramica della sezione di aggiornamento](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)</span>
+
    * <span class="preview">Quando si utilizza la nuova esperienza di aggiunta di commenti, non è possibile aggiungere un commento a un aggiornamento del sistema. Tuttavia, tutte le risposte ai record di attività del sistema nell’esperienza di commento legacy vengono popolate nella scheda Attività del sistema come di sola lettura nella nuova esperienza di commento.</span>
    * Quando si utilizza l’esperienza di commento legacy, gli aggiornamenti di sistema e utente vengono visualizzati in un unico feed continuo.
 
    * Quando si utilizza l’esperienza di commento legacy, gli utenti possono visualizzare gli aggiornamenti di sistema per impostazione predefinita o scegliere di non visualizzarli. Non è possibile disabilitare gli aggiornamenti di sistema quando si utilizza la nuova esperienza di aggiunta di commenti.
 
      Per informazioni sulla disattivazione della visualizzazione degli aggiornamenti di sistema, vedere la sezione [Attivare o disattivare gli aggiornamenti di sistema](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) nell’articolo [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+   * <span class="preview">L’esperienza di aggiunta di commenti legacy è stata disabilitata nell’ambiente di anteprima. Per ulteriori informazioni, consulta [Miglioramenti al flusso di aggiornamenti e alle notifiche del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 
 * Workfront registra gli aggiornamenti tracciati dal sistema per i seguenti oggetti, ma non è possibile disattivarne la visualizzazione:
 

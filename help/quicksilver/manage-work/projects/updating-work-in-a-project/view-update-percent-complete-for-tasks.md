@@ -6,9 +6,9 @@ description: È possibile aggiornare la percentuale di completamento di un'attiv
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,16 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
 * **Nell’intestazione dell’attività**: è possibile aggiornare la percentuale di completamento di un’attività nell’intestazione dell’attività. Per informazioni, consulta [Modifica attività](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+* **Nel pannello Riepilogo di un’attività**: quando visualizzi l’attività nelle seguenti aree, puoi aggiornare la percentuale di completamento di un’attività nella parte superiore del pannello Riepilogo:
+
+   * Elenco o rapporto attività
+   * Scheda orario
+   * Bilanciatore dei carichi di lavoro
+
+  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+
+  Per ulteriori informazioni, consulta [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
 
 ## Considerazioni sull&#39;aggiornamento della percentuale di completamento di un&#39;attività

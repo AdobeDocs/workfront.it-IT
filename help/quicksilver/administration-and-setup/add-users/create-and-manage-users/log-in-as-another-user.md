@@ -1,5 +1,5 @@
 ---
-title: Accedi come altro utente
+title: Accedere come un altro utente
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: bc7039bc4b8b257fc55e71e73f72327fdb417837
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 0%
+source-wordcount: '794'
+ht-degree: 1%
 
 ---
 
-# Accedi come altro utente
+# Accedere come un altro utente
 
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
@@ -90,7 +90,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >   
    >* Non è possibile reimpostare la password di un amministratore Workfront.
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Accedi come**.
 

@@ -6,9 +6,9 @@ description: La condizione di un’attività o di un problema è un flag applica
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -68,10 +68,7 @@ Per le licenze correnti:
 
 Le condizioni vengono visualizzate come flag associato ad attività o problemi. Possono anche essere associate a un numero che può essere visualizzato nei rapporti invece che nell’etichetta. Per ulteriori informazioni sull&#39;associazione delle condizioni ai numeri, vedere [Creare o modificare una condizione personalizzata](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-Puoi individuare la condizione delle attività e dei problemi nelle seguenti aree:
-
-* Aggiornamenti di attività e problemi, all’interno di un aggiornamento, quando sei assegnato all’attività o al problema. Questo non è supportato nella nuova esperienza di commento. Per informazioni, consulta [Nuova esperienza di commento](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
-* Report ed elenchi quando si visualizza il campo Condizione in una visualizzazione o in un raggruppamento.
+È possibile individuare la condizione delle attività e dei problemi nei report e negli elenchi quando si visualizza il campo Condizione in una visualizzazione o in un raggruppamento.
 
 >[!NOTE]
 >

@@ -6,16 +6,14 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
 
 # Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -101,14 +99,6 @@ Verrà aperto l&#39;elenco degli obiettivi.
 1. Clic  **Aggiornamenti** nel pannello a sinistra.
 1. Per individuare un commento esistente, inizia a digitare una parola chiave (facoltativo) <!--or a user's name--> nel **Ricerca** nell&#39;angolo superiore destro del **Commenti** scheda.
 
-   <div class="preview">
-
-   Esempio nell’ambiente di anteprima:
-   ![Cerca commento](assets/search-for-update-goals-2.png)
-
-   </div>
-
-   Esempio nell’ambiente di produzione:
    ![](assets/search-field-in-updates-tab-goals.png)
 
    Parola chiave <!--or user--> La ricerca è evidenziata e i commenti che la contengono vengono visualizzati nella parte superiore della sezione Aggiornamenti.
@@ -125,14 +115,6 @@ Verrà aperto l&#39;elenco degli obiettivi.
 1. Fai clic su **Commenti** nell&#39;angolo superiore sinistro dell&#39;area Aggiornamenti.
 1. Inizia a immettere un commento in **Nuovo commento** casella.
 
-   <div class="preview">
-
-   Esempio di nuova casella di commento nell’ambiente di anteprima:
-   ![Casella Nuovo commento](assets/comment-box-all-tabs.png)
-
-   </div>
-
-   Esempio di nuova casella di commento nell’ambiente di produzione:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -190,5 +172,4 @@ Puoi modificare il commento entro 15 minuti dall’invio. A sinistra dell&#39;in
 
 1. (Facoltativo) Fai clic su **Attività di sistema** per visualizzare gli aggiornamenti registrati dal sistema Quando un obiettivo viene aggiornato, Workfront genera una nota sull’aggiornamento e lo visualizza nella scheda Attività del sistema. Workfront registra inoltre un aggiornamento del sistema quando un risultato, un’attività o un progetto viene aggiunto all’obiettivo o quando viene aggiornato. <!--ensure the casing on the tab has not changed-->
 
-1. <span class="preview">(Facoltativo) Fai clic su **Tutti** per visualizzare sia i commenti degli utenti che i commenti delle attività di sistema in un&#39;unica posizione. Per rispondere a un commento nella scheda Tutto, fare clic su **Rispondi nei commenti** per aprire il commento nella scheda Commenti. Non è possibile rispondere nella scheda Tutto.</span>
 
