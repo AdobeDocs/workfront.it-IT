@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d74b0aa22644b7c79d3c6c3c3bbd5e67efdff732
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 0%
+source-wordcount: '758'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ In genere, un amministratore di rete configura un inserisco nell&#39;elenco Cons
 
 ## Raccolta di informazioni per la configurazione del firewall
 
-Per configurare il firewall per Workfront, l&#39;amministratore di rete deve sapere quali indirizzi IP e domini aggiungere. Alcune di queste informazioni sono disponibili solo per un amministratore Workfront. In qualità di amministratore di Workfront, è necessario individuare queste informazioni e fornirle all&#39;amministratore di rete.
+Per configurare il firewall per Workfront, l&#39;amministratore di rete deve sapere quali indirizzi IP e domini aggiungere. Alcune di queste informazioni sono disponibili solo per un amministratore di Workfront. In qualità di amministratore di Workfront, è necessario individuare queste informazioni e fornirle all&#39;amministratore di rete.
 
 >[!NOTE]
 >
@@ -49,11 +49,11 @@ Fornire all&#39;amministratore di rete le informazioni seguenti:
  <tbody> 
   <tr> 
    <td role="rowheader">Indirizzi IP e domini specifici da consentire</td> 
-   <td> <p>L'articolo <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configurare il inserisco nell'elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo</a> contiene l’elenco degli indirizzi IP e dei domini che l’organizzazione deve aggiungere al proprio inserisco nell'elenco Consentiti di. </p> <p>L'amministratore di rete potrebbe non avere accesso all'articolo "Configurare il firewall". In tal caso, devi fornirlo a loro. Si sconsiglia di stampare una copia cartacea. Una copia digitale consente all'amministratore di rete di copiare e incollare gli indirizzi, in modo più rapido e preciso rispetto alla digitazione da una copia cartacea.</p> </td> 
+   <td> <p>L'articolo <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configurare il inserisco nell'elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo</a> contiene l’elenco degli indirizzi IP e dei domini che l’organizzazione deve aggiungere al proprio inserisco nell'elenco Consentiti di. </p> <p>È possibile che l'amministratore di rete non abbia accesso all'articolo "Configurare il inserisco nell'elenco Consentiti di configurazione del firewall" per l'accesso a un'istanza di protezione del firewall. In tal caso, devi fornirlo a loro. Si sconsiglia di stampare una copia cartacea. Una copia digitale consente all'amministratore di rete di copiare e incollare gli indirizzi, in modo più rapido e preciso rispetto alla digitazione da una copia cartacea.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Il cluster</td> 
-   <td>Per individuare il cluster dell'organizzazione, vedere <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Visualizza il piano Workfront e il cluster della tua organizzazione</a></td> 
+   <td>Per individuare il cluster dell'organizzazione, vedere <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">Visualizza il piano Workfront e il cluster della tua organizzazione</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Piano Workfront</td> 
@@ -75,7 +75,7 @@ Fornire all&#39;amministratore di rete le informazioni seguenti:
    <td role="rowheader">Integrazioni Adobe Workfront</td> 
    <td>Informare l'amministratore di rete se si utilizza uno dei seguenti elementi:
     <ul>
-     <li><p><p>Workfront per Jira</p></p></li>
+     <li><p>Workfront per Jira</p></li>
      <li><p>Workfront per G Suite</p></li>
      <li><p>Workfront per Microsoft Teams</p></li>
      <li><p>Workfront per Outlook</p></li>
@@ -84,11 +84,10 @@ Fornire all&#39;amministratore di rete le informazioni seguenti:
   </tr> 
   <tr> 
    <td role="rowheader">Funzionalità aggiuntive</td> 
-   <td> <p>Informare l'amministratore di rete se si utilizza una delle seguenti opzioni:</p> 
+   <td> <p>Informare l'amministratore di rete se si utilizza quanto segue:</p> 
     <ul> 
      <li> <p>Un'unità di prova Workfront</p> </li> 
-     <li> <p>Workfront Ascent</p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,7 +98,7 @@ Fornire all&#39;amministratore di rete le informazioni seguenti:
 
 ### Visualizza il piano Workfront e il cluster della tua organizzazione {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Configurazione]** ![Icona Configurazione](/help/_includes/assets/gear-icon-setup.png).
 
 1. Clic **Sistema** nel pannello a sinistra
 1. Per visualizzare il cluster, selezionare **Informazioni Cliente**.

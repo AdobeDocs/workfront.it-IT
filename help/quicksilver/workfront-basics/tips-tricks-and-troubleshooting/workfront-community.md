@@ -2,19 +2,19 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Il [!DNL Adobe Workfront] Community
-description: Adobe [!DNL Workfront] Community è un gruppo online di oltre 10.000 persone [!DNL Workfront] utenti. Attraverso la community puoi rimanere aggiornato sulle versioni dei prodotti, venire a conoscenza degli eventi dei clienti e parlare con altri utenti di [!DNL Workfront] prodotti e servizi. Troverai le risposte alle domande e stabilirai connessioni con altri [!DNL Workfront] clienti.
+description: Adobe [!DNL Workfront] Community è un gruppo online di oltre 10.000 persone [!DNL Workfront] utenti. Attraverso la community puoi rimanere aggiornato sulle versioni dei prodotti, venire a conoscenza degli eventi dei clienti e parlare con altri utenti di [!DNL Workfront] prodotti e servizi. Troverai le risposte alle domande e stabilirai connessioni con gli altri [!DNL Workfront] clienti.
 feature: Get Started with Workfront
 exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
 # Il [!DNL Adobe Workfront] Community
 
-Adobe [!DNL Workfront] Community è un gruppo online di oltre 10.000 persone [!DNL Workfront] utenti. Attraverso la community puoi rimanere aggiornato sulle versioni dei prodotti, venire a conoscenza degli eventi dei clienti e parlare con altri utenti di [!DNL Workfront] prodotti e servizi. Troverai le risposte alle domande e stabilirai connessioni con altri [!DNL Workfront] clienti.
+Adobe [!DNL Workfront] Community è un gruppo online di oltre 10.000 persone [!DNL Workfront] utenti. Attraverso la community puoi rimanere aggiornato sulle versioni dei prodotti, venire a conoscenza degli eventi dei clienti e parlare con altri utenti di [!DNL Workfront] prodotti e servizi. Troverai le risposte alle domande e stabilirai connessioni con gli altri [!DNL Workfront] clienti.
 
 <!--
 <img src="assets/screen-shot-2018-09-06-at-11.38.27-am-350x112.png" alt="Screen_Shot_2018-09-06_at_11.38.27_AM.png" style="width: 350;height: 112;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -28,7 +28,7 @@ Adobe [!DNL Workfront] Community è un gruppo online di oltre 10.000 persone [!D
 
 ### Contatto supporto autorizzato {#authorized-support-contact}
 
-Se sei un Contatto di supporto autorizzato (ASC), disponi delle credenziali di accesso per [!UICONTROL Help Desk], [!UICONTROL Laboratorio innovazione], e [!DNL Workfront] [!UICONTROL Ascendente]. Puoi utilizzare le stesse credenziali per accedere a [!DNL Workfront] Community. In questo caso, lascerai vuoto il sottodominio.
+Se sei un Contatto di supporto autorizzato (ASC), disponi delle credenziali di accesso per [!UICONTROL Help Desk], e [!UICONTROL Laboratorio innovazione]. Puoi utilizzare le stesse credenziali per accedere a [!DNL Workfront] Community. In questo caso, lascerai vuoto il sottodominio.
 
 ![community_4.png](assets/community-4-350x129.png)
 
@@ -43,8 +43,6 @@ Se non sei un Contatto di assistenza autorizzato, puoi accedere con il tuo norma
 ### Contatto di supporto non autorizzato con accesso SSO {#non-authorized-support-contact-with-sso-login}
 
 Se l&#39;azienda utilizza l&#39;SSO, è necessario contattare [!DNL Workfront] Per richiedere un account, contatta l’Assistenza clienti telefonicamente. Se non riesci a inviare un ticket o a partecipare a una chat in diretta, contatta il tuo [!DNL Workfront] Contatto dell’Assistenza clienti.
-
-Se disponi già di un account configurato all’interno di Ascent Training, puoi utilizzare le stesse credenziali per accedere al sito community (in questo caso lascia vuoto il sottodominio).
 
 Se non ricordi la password per il sito community, contatta [!DNL Workfront Customer Support] e possono aiutarti.
 
