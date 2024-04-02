@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: fcf4ff8525e3ac65aa75ab01463a3641e7898169
+source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '812'
 ht-degree: 1%
 
 ---
@@ -101,13 +101,13 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
       </ul>
       <p>Dopo aver selezionato il widget da modificare, le opzioni disponibili vengono visualizzate a destra. Queste opzioni includono <b>Filtri</b>, <b>Colonne</b>, e <b>Gruppi</b>. È possibile:</p>
       <ul>
-      <li><p><b>Seleziona i Filtri, le Colonne o i Gruppi che saranno disponibili per gli utenti:</b></p>
-      <p>Seleziona la casella accanto a tutte le opzioni nell’elenco che desideri possano essere utilizzate dagli utenti. Le opzioni non selezionate non vengono visualizzate per gli utenti.</li></p>     
-    <p>
+      <li><p><b>Seleziona e ordina Filtri, Colonne o Gruppi disponibili per gli utenti:</b></p>
+      <p>Seleziona la casella accanto a tutte le opzioni nell’elenco che desideri possano essere utilizzate dagli utenti. Le opzioni non selezionate non vengono visualizzate per gli utenti. Trascina le opzioni nell’elenco per impostare un ordine.</li></p>
+      <p>
 
 >[!IMPORTANT]
 >
->Gli utenti devono avere l&#39;accesso Crea per le viste per poter applicare correttamente le configurazioni di colonna ai loro widget.
+>Gli utenti devono disporre almeno dell&#39;accesso Crea alle visualizzazioni per consentire la corretta applicazione della configurazione della colonna Amministratore alle nuove home page.
 
 </p>
       <li><p><b>Impostate un filtro o un gruppo predefinito per il widget:</b></p>
