@@ -6,9 +6,9 @@ description: Puoi utilizzare i modelli come framework per creare progetti in Ado
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 9447310f0d4cf4504ee6d690116fb62f718fe23d
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,10 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 ## Creare un progetto da un modello nell’area Progetti
 
 Puoi creare un progetto dall’area Progetti nel Menu principale oppure dall’area Progetti di un portfolio o di un programma.
+
+>[!NOTE]
+>
+>L&#39;amministratore di sistema o di gruppo potrebbe modificare l&#39;interfaccia utilizzando un modello di layout. In questo caso, alcuni dei nomi delle sezioni e delle aree a cui si fa riferimento nei passaggi seguenti potrebbero essere diversi nell’istanza di Workfront.
 
 1. Esegui una delle operazioni seguenti:
 

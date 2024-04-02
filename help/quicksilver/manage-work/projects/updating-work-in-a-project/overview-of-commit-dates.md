@@ -7,16 +7,20 @@ description: La data di conferma è la data entro la quale un utente assegnato a
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '776'
 ht-degree: 1%
 
 ---
 
 # Panoramica sulla data di conferma
 
-La data di conferma è la data entro la quale un utente assegnato a un’attività o a un problema si impegna a completare l’attività o il problema. Questa è diversa dalla Data di completamento pianificata, in quanto è una stima più realistica della data di completamento fornita solo dall’utente responsabile del lavoro. Per informazioni sulla data di completamento pianificata, vedi [Panoramica della data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+La data di conferma è la data entro la quale un utente assegnato a un’attività o a un problema si impegna a completare l’attività o il problema.
+
+Questa è diversa dalla Data di completamento pianificata di un&#39;attività o di un problema, in quanto è una stima più realistica della data di completamento fornita solo dall&#39;utente responsabile del lavoro.
+
+Per informazioni sulla data di completamento pianificata, vedi [Panoramica della data di completamento pianificata dell&#39;attività](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Panoramica sulla data di conferma
 
@@ -29,6 +33,7 @@ Quando si lavora con le date di commit, considera quanto segue:
 
    * Consenti a Workfront di impostare la Data di conferma in modo che corrisponda alla Data di completamento pianificata esistente dell’attività o del problema facendo clic su Lavoraci, Avvia problema o Avvia attività sull’attività o sul problema. Per informazioni sulla sostituzione del pulsante Lavoraci con un pulsante Start, vedere  [Sostituire il pulsante Lavoraci con un pulsante Start](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Imposta manualmente la Data impegno in base a quando ritieni che l’attività o il problema possa essere completato. In questo modo, l&#39;assegnatario si impegna nei confronti del project manager a fare in modo che l&#39;attività o il problema venga completato entro una data specifica.
+Per informazioni, consulta [Aggiorna le date di conferma per attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 >[!NOTE]
 >
@@ -41,17 +46,17 @@ Quando si lavora con le date di commit, considera quanto segue:
 >* Qualsiasi altro assegnatario dell&#39;attività
 >* Qualsiasi altro utente con autorizzazioni per l’attività.
 >
->Per ulteriori informazioni sul proprietario dell&#39;attività, consulta la sezione [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) nell’articolo [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+>Per ulteriori informazioni sul Proprietario dell&#39;attività, vedi [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 ## Notifiche e aggiornamenti attivati dalla modifica della data di conferma {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
-Quando un assegnatario di un’attività o di un problema seleziona una Data di conferma diversa dalla Data di completamento pianificata impostata dal proprietario del progetto, vi sono una serie di notifiche e aggiornamenti che avvisano il proprietario del progetto e altri utenti di questa modifica.
+Quando un assegnatario di un’attività o di un problema modifica manualmente una Data di conferma in una data diversa dalla Data di completamento pianificata impostata dal proprietario del progetto, vi sono una serie di notifiche e aggiornamenti che avvisano il proprietario del progetto e altri utenti di questa modifica.
 
 >[!NOTE]
 >
 >Le modifiche apportate alla data di conferma non modificano automaticamente le date pianificate e le modifiche apportate alle date pianificate non modificano automaticamente la data di conferma.
 
-L’impostazione della data di conferma per un’attività o un problema attiva le seguenti modifiche:
+L’impostazione manuale della data di conferma per un’attività o un problema attiva le seguenti modifiche:
 
 * La modifica della data di conferma viene popolata nelle schede Attività di sistema e Tutte nella sezione Aggiornamento dell’attività o del problema.
 
@@ -80,9 +85,6 @@ L’impostazione della data di conferma per un’attività o un problema attiva 
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-
-
-
 * Nell’area Notifiche viene inviata una notifica al proprietario del progetto per segnalare che la data di conferma di un’attività o di un problema è stata modificata.
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
@@ -94,8 +96,6 @@ L’impostazione della data di conferma per un’attività o un problema attiva 
   >[!TIP]
   >
   >La notifica relativa alla modifica della data di conferma viene inviata al proprietario del progetto solo quando l’amministratore di Workfront abilita la visualizzazione della data di conferma nell’area Feed aggiornamenti di Configurazione. Per informazioni, consulta [Aggiornamenti monitorati dal sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
-
-
 
 Per informazioni sulle funzionalità aggiuntive disponibili durante l&#39;aggiornamento di un elemento di lavoro, vedere  [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

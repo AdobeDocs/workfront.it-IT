@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1385'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
+<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
@@ -113,7 +113,7 @@ A seconda degli oggetti per i quali accedi all’esperienza di commento, per la 
 
    * Iterazioni
 
-     Non è disponibile alcuna opzione per abilitare la nuova esperienza di commento per le iterazioni.
+     Non è disponibile alcuna opzione per abilitare la nuova esperienza di commento per le iterazioni. Per ulteriori informazioni, consulta [Gestisci commenti iterazione](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 ### Panoramica della sezione Aggiornamenti nella nuova esperienza di commento
 

@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 00e03775fa21f816c845681873ca12c241150076
+source-git-commit: ca65f2720204a9616a849036834e2bf40a60150c
 workflow-type: tm+mt
-source-wordcount: '14071'
+source-wordcount: '14076'
 ht-degree: 1%
 
 ---
@@ -1069,7 +1069,7 @@ ht-degree: 1%
          * [Aggiungere brani a un&#39;iterazione esistente](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
          * [Visualizzare un’iterazione](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
          * [Eliminare un’iterazione](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-         * [Gestire gli aggiornamenti delle iterazioni](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
+         * [Gestisci commenti iterazione](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
       * Bacheca Scrum {#scrum-board}
          * [Bacheca Scrum](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
          * [Panoramica della bacheca Scrum](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
@@ -1802,6 +1802,7 @@ ht-degree: 1%
    * Revisione e approvazione del documento {#document-reviews-and-approvals}
       * [Revisione e approvazione del documento](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Panoramica delle approvazioni dei documenti](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [Panoramica sulla revisione e sull’approvazione delle risorse](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
       * Revisione dei documenti {#review-and-approve-documents}
          * [Documenti revisione: indice articolo](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Rivedere un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
