@@ -2,13 +2,13 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Eliminare i modelli di progetto
-description: È consigliabile disattivare i modelli che non si utilizzano più, anziché eliminarli, in modo da poter conservare nel tempo informazioni storiche sui progetti. Per informazioni sulla disattivazione di un modello, consulta Modifica modelli di progetto.
+description: È consigliabile disattivare i modelli che non si utilizzano più, anziché eliminarli, in modo da poter conservare nel tempo informazioni storiche sui progetti.
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---

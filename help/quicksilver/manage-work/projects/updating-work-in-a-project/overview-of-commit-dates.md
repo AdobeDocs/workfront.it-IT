@@ -3,13 +3,13 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Panoramica sulla data di conferma
-description: La data di conferma è la data entro la quale un utente assegnato a un’attività o a un problema si impegna a completare l’attività o il problema. Questa è diversa dalla Data di completamento pianificata, in quanto è una stima più realistica della data di completamento fornita solo dall’utente responsabile del lavoro. Per informazioni sulla data di completamento pianificata, vedere Panoramica sulla data di completamento pianificata dell'attività.
+description: La data di conferma è la data entro la quale un utente assegnato a un’attività o a un problema si impegna a completare l’attività o il problema. Questa è diversa dalla Data di completamento pianificata, in quanto è una stima più realistica della data di completamento fornita dall’utente che è direttamente responsabile del lavoro.
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '763'
 ht-degree: 1%
 
 ---

@@ -2,13 +2,13 @@
 product-area: projects
 navigation-topic: create-projects
 title: Richiedi un progetto
-description: È possibile richiedere l'approvazione di un progetto prima di iniziare a lavorarci. Si consiglia di creare un Business Case per un nuovo progetto, in modo da poter delineare alcuni dei punti chiave che si desidera raggiungere completando il progetto, nonché presentare alla direzione il proprio budget di lavoro e di spesa. La compilazione del Business Case e l'invio del progetto per l'approvazione completano la richiesta formale per il progetto. Dopo aver inviato il Business Case per l'approvazione, lo stato del progetto diventa Richiesto.
+description: È possibile richiedere l'approvazione di un progetto prima di iniziare a lavorarci. Si consiglia di creare un Business Case per un nuovo progetto, in modo da poter delineare alcuni dei punti chiave che si desidera raggiungere completandolo, nonché di presentare al team di gestione il proprio budget di lavoro e spese. La compilazione del Business Case e l'invio del progetto per l'approvazione completano la richiesta formale per il progetto. Dopo aver inviato il Business Case per l'approvazione, lo stato del progetto diventa Richiesto.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '562'
 ht-degree: 2%
 
 ---

@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 2%
+source-wordcount: '1339'
+ht-degree: 1%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!--take out legacy, preview, prod references from below-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti.  </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
+<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--
 
@@ -59,13 +59,13 @@ Tra i miglioramenti inclusi nella nuova esperienza di commento, ci sono i seguen
 
 Le seguenti funzioni sono state rimosse o diventeranno obsolete nella nuova esperienza:
 
-* Commento su un aggiornamento del sistema
+* Commento su un aggiornamento del sistema. I commenti aggiunti in passato agli aggiornamenti di sistema sono stati importati come commenti di sola lettura nella nuova scheda Attività di sistema.
 * Possibilità di modificare lo stato, la condizione, la data di conferma e la percentuale di completamento durante il commento di attività e problemi
-* Modifica modulo personalizzato
+* Possibilità di modificare il modulo personalizzato
 * Le informazioni &quot;per conto di &lt; nome utente >&quot; quando un amministratore di Workfront o di gruppo effettua l’accesso come altro utente e aggiunge un commento per suo conto sono state originariamente rimosse. È stato ripristinato il 19 ottobre 2023.
 * L’opzione &quot;Richiedi approvazione&quot; quando si applicano tag alle persone durante l’aggiunta di un commento a un documento.
 * Quando si modifica la casella del profilo di un utente, l’impostazione &quot;Mostra percentuale di completamento all’aggiornamento dello stato&quot; viene rimossa. È stata rimossa la funzionalità di aggiornamento della percentuale di completamento di un’attività o di un problema.
-* Notifica al proprietario del progetto, nell&#39;area Aggiornamenti, che l&#39;assegnatario di un&#39;attività o di un problema ha modificato la data del commit <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+* Possibilità per il proprietario del progetto di modificare la data di completamento pianificata di un&#39;attività quando la data di commit viene modificata dalla sezione Aggiornamenti. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -544,13 +544,23 @@ Di seguito è riportata una timeline pianificata per il rilascio della nuova esp
   >
   >    Le iterazioni continueranno a presentare l’esperienza di commento legacy. La nuova esperienza di aggiunta di commenti non sarà disponibile per le iterazioni.
 
-* Secondo trimestre del 2024 (aprile 2024):
+* Con la versione del secondo trimestre 2024 (11 aprile 2024):
 
    * Rimuovi l’opzione per tornare al flusso di commenti legacy e rendere il nuovo flusso di commenti l’unica esperienza per tutti gli oggetti, ad eccezione delle iterazioni.
 
 ## Individua la nuova esperienza di commento
 
-&lt;!—IMPORTANTE: una volta eliminata l’esperienza legacy, spostane una versione nell’articolo Aggiorna lavoro o nella panoramica della sezione Aggiorna, per dire che l’esperienza è diversa per tutti, tranne che per le iterazioni—>
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>
+>The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+
+For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+-->
 
 La nuova esperienza di aggiunta di commenti è attualmente disponibile per tutti i clienti e per tutti gli ambienti.
 
@@ -563,25 +573,25 @@ A seconda degli oggetti per i quali accedi all’esperienza di commento, per la 
    * Problema
    * Documento
 
-  >[!TIP]
-  >
-  >Utilizza l’opzione Nuovo commento per visualizzare la nuova esperienza di commento (quando è abilitata) o quella legacy (quando è disabilitata), come descritto in questa sezione. La nuova esperienza di aggiunta di commenti è quella predefinita.
-
-   * Solo la nuova esperienza di commento per gli oggetti elencati di seguito. Non è possibile abilitare l’esperienza di commento legacy per questi oggetti:
-
-      * Obiettivo
-
      >[!NOTE]
      >
-     >Per accedere a quest’area di Workfront è necessaria un’ulteriore licenza per Adobe Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-      * Scheda su una bacheca
-      * Team
-      * Modello
-      * Attività modello
-      * Scheda orario
-      * Programma
-      * Portfolio
-      * Utente
+     ><span class="preview">L’esperienza di commento legacy è stata rimossa dall’ambiente di anteprima dal 1° aprile 2024. </span>
+
+* Solo la nuova esperienza di commento per gli oggetti elencati di seguito. Non è possibile abilitare l’esperienza di commento legacy per questi oggetti:
+
+   * Obiettivo
+
+  >[!NOTE]
+  >
+  >Per accedere a quest’area di Workfront è necessaria un’ulteriore licenza per Adobe Workfront Goals. Per ulteriori informazioni, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * Scheda su una bacheca
+   * Team
+   * Modello
+   * Attività modello
+   * Scheda orario
+   * Programma
+   * Portfolio
+   * Utente
 
 * Solo l’esperienza di commento legacy per i seguenti oggetti:
 
@@ -619,8 +629,9 @@ The new commenting experience is currently supported for the following objects:
 
 Per abilitare l’opzione di esperienza con commenti per progetti, attività, problemi e documenti:
 
-1. Vai a un oggetto per il quale desideri attivare la nuova esperienza di commento, quindi fai clic su **Aggiornamenti** nel pannello a sinistra.
+1. (Condizionale) Nell’ambiente di produzione, passa a un oggetto per il quale desideri attivare la nuova esperienza di commento, quindi fai clic su **Aggiornamenti** nel pannello a sinistra.
 1. (Condizionale) Se è disabilitato, abilita **Nuovo commento** nell’angolo superiore destro dell’area Aggiornamenti per abilitarla. Questa opzione deve essere attivata per impostazione predefinita.
+   <span class="preview">L’opzione Nuovo commento è stata rimossa dall’ambiente di anteprima.</span>
 
    ![](assets/new-commenting-toggle-off-highlighted.png)
 

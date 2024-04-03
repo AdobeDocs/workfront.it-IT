@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Se i record visualizzati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
 * Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
+<!--
+* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). -->
 
 ## Modifica record
 
@@ -200,7 +202,7 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
    Oppure
 
-   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record oppure fare clic sul nome di un record. La casella del record viene visualizzata nella vista.
+   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record. La casella del record viene visualizzata nella vista.
 
    ![](assets/details-box.png)
 

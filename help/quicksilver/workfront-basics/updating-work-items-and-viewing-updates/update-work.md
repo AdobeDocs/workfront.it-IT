@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '4341'
+source-wordcount: '4261'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,8 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+
+<!--info for April 11: take out the "Important" box below (or hide it)-->
 
 >[!IMPORTANT]
 >
@@ -119,6 +121,8 @@ Per informazioni sul commento degli obiettivi, consulta [Gestire i commenti sugl
 
 Per informazioni sull&#39;inserimento di commenti sulle schede nell&#39;area Bacheche, vedere [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md).
 
+Per informazioni sul commento delle iterazioni, consultate [Gestisci commenti iterazione](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
+
 ## Requisiti di accesso
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
@@ -172,6 +176,8 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
 * Obiettivi
 * Schede nell’area Schede
 * Iterazioni
+
+<!--info for April 11: hide the section below completely:-->
 
 ### Aggiungere un aggiornamento a un elemento di lavoro nella sezione Aggiornamenti legacy
 
@@ -232,6 +238,8 @@ L’aggiunta di un aggiornamento a un elemento di lavoro varia a seconda della v
    >Se l&#39;amministratore di Workfront seleziona l&#39;impostazione &quot;Non consentire agli utenti di eliminare commenti&quot; nel proprio livello di accesso, non è possibile annullare un commento. Per ulteriori informazioni, consulta [Creare e modificare livelli di accesso personalizzati](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 1. Per rispondere a un aggiornamento, vedi [Rispondi agli aggiornamenti](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+
+<!--info for April 11: reword the title of this section to: Add an update to a work item-->
 
 ### Aggiungere un aggiornamento a un elemento di lavoro utilizzando la nuova esperienza di commento
 
@@ -463,6 +471,8 @@ Puoi migliorare gli aggiornamenti utilizzando Rich Text o aggiungendo vari eleme
 
 La copia di un aggiornamento varia a seconda dell’esperienza di commento utilizzata.
 
+<!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
+
 ### Copiare un aggiornamento nella nuova esperienza di commento
 
 Per informazioni sulle funzioni disponibili per la nuova esperienza di commento e per gli oggetti, consulta [Nuova esperienza di commento](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
@@ -515,9 +525,9 @@ L&#39;opzione Risposta preventivo copia il commento originale in una nuova rispo
 
 1. Continua ad aggiungere il tuo aggiornamento e fai clic su **Invia** per aggiungere il commento.
 
-### Copiare un aggiornamento nell’esperienza di commento legacy
+<!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section-->
 
-<!--remove legacy when removed from the UI-->
+### Copiare un aggiornamento nell’esperienza di commento legacy
 
 * [Copia l’aggiornamento](#copy-the-update)
 * [Copiare il collegamento del thread](#copy-the-thread-link)
@@ -621,31 +631,19 @@ Nessun utente di Workfront (incluso l’amministratore di Workfront) può elimin
 
 -->
 
-
-
-## Attivare o disattivare gli aggiornamenti di sistema
-
-<!--update this section when we remove legacy, to just point to the article in green below and rename this section as "Review system activity updates" or something-->
-
-<!--October 2023: when the new stream goes to all objects production, consider updating this article also, to say there is no System Activity tab to be disabled for objects anymore: help\quicksilver\administration-and-setup\set-up-workfront\system-tracked-update-feeds\system-tracked-update-feeds.md-->
-
->[!NOTE]
->
->Non è possibile disattivare gli aggiornamenti di sistema quando si utilizza la nuova esperienza di aggiunta di commenti.
->Le informazioni presenti in questa sezione si riferiscono solo alle funzionalità disponibili nella sezione Aggiornamenti precedenti. &lt;!—rimuovi questa sezione quando rimuoviamo legacy dal sistema->
->Per ulteriori informazioni sugli aggiornamenti di sistema nella nuova esperienza di commento, consulta [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+## Rivedi aggiornamenti di sistema
 
 Nella sezione Aggiornamenti di un oggetto Workfront vengono visualizzati due tipi di informazioni:
 
-* **Aggiornamenti utente:** Gli aggiornamenti utente sono commenti immessi dall&#39;utente e da altri utenti del sistema. <!--October 2023 - new screen shot -->
+* **Aggiornamenti utente:** Gli aggiornamenti utente sono commenti immessi dall&#39;utente e da altri utenti del sistema. Gli aggiornamenti utente vengono visualizzati nelle schede Commenti e Tutti della sezione Aggiornamenti.
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Aggiornamenti di sistema:** Il sistema aggiorna i record che rimuovono le risorse, aggiungono o eliminano le versioni, allegano o rimuovono una richiesta di approvazione, nonché eventuali modifiche o modifiche apportate ai documenti dell&#39;oggetto. <!--October 2023 - new screen shot -->
+* **Aggiornamenti di sistema:** Gli aggiornamenti di sistema registrano la rimozione di attività o problemi, l&#39;aggiunta o l&#39;eliminazione di versioni di documenti, l&#39;aggiunta o la rimozione di una richiesta di approvazione e di eventuali modifiche apportate all&#39;oggetto. Gli aggiornamenti di sistema vengono visualizzati nelle schede Attività di sistema e Tutti nella sezione Aggiornamenti.
 
   ![](assets/system-updates-cl-350x277.png)
 
-  A seconda della licenza di Workfront, gli aggiornamenti di sistema potrebbero essere attivati per impostazione predefinita. Gli amministratori di Workfront possono determinare cosa viene tracciato negli aggiornamenti di sistema, come spiegato in [Aggiornamenti monitorati dal sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Puoi anche filtrare gli aggiornamenti di sistema o le attività in modo da visualizzare solo gli aggiornamenti utente per tutti gli oggetti.
+  Gli amministratori di Workfront possono determinare cosa viene tracciato negli aggiornamenti di sistema, come spiegato in [Aggiornamenti monitorati dal sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). Puoi anche filtrare gli aggiornamenti di sistema o le attività in modo da visualizzare solo gli aggiornamenti utente per tutti gli oggetti.
 
   I seguenti oggetti non dispongono di aggiornamenti generati dal sistema:
 
@@ -653,19 +651,6 @@ Nella sezione Aggiornamenti di un oggetto Workfront vengono visualizzati due tip
    * Modello
    * Attività modello
 
-Per attivare o disattivare gli aggiornamenti di sistema:
-
-1. Fai clic su **Aggiornamenti** su un oggetto.
-1. Clic **Mostra aggiornamenti di sistema** per far scorrere l&#39;interruttore a sinistra (disattivato) o a destra (attivato).
-
-   ![](assets/show-system-updates-qs-350x55.png)
-
-   Questa opzione è permanente per tutti gli oggetti di Workfront e rimane nella posizione selezionata, anche se si esce da Workfront.
-
-   >[!TIP]
-   >
-   >   Gli oggetti che non registrano aggiornamenti di sistema non dispongono dell&#39;opzione Mostra aggiornamenti di sistema nell&#39;area Aggiornamenti.
-
-   <!--when Anna adds the new updates stream to ALL objects, she will remove the System Activity tab from the objects that don't record system updates - add another line to the TIP above to say: The System Activity tab is not available for objects that don't record system-generated updates.*************** OR: maybe make this part of the statement where we list which objects these are, above???  -->
+Per ulteriori informazioni sugli aggiornamenti di sistema nella sezione Aggiornamenti, vedere [Panoramica della sezione Aggiornamenti](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 

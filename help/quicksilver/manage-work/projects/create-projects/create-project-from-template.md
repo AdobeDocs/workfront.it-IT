@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Creare un progetto utilizzando un modello
-description: Puoi utilizzare i modelli come framework per creare progetti in Adobe Workfront. Se i progetti si ripetono spesso, l’utilizzo dei modelli per la timeline generale del nuovo progetto evita di dover creare ripetutamente gli stessi progetti.
+description: Puoi utilizzare i modelli come framework per creare progetti in Adobe Workfront. Se i progetti si ripetono spesso, l’utilizzo dei modelli per il nuovo progetto evita di dover creare ripetutamente gli stessi progetti.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7bef757c24adc7791cb3b258ae6c33f3c0eec818
+source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
