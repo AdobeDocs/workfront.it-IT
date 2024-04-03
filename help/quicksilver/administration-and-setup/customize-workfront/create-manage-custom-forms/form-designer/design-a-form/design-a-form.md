@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 76841cf5ec88c790e625cad792fc37141ad2f84e
+source-git-commit: 83036270d430dcc80069f4de87b6ac1e8da689e3
 workflow-type: tm+mt
-source-wordcount: '5942'
+source-wordcount: '6079'
 ht-degree: 4%
 
 ---
@@ -739,42 +739,48 @@ Puoi aggiungere campi nativi di Workfront ai moduli personalizzati. Quando il mo
 
 +++ **Espandi per visualizzare l’elenco dei campi nativi supportati**
 
-* Data di completamento effettiva
-* Durata Reale
-* Ore effettive
-* Data di inizio effettiva
-* Azienda
-* Condizione
-* Tipo di condizione
-* Descrizione
-* Durata
-* Tipo di Durata
-* Unità di Durata
-* Immesso da
-* Data inserimento
-* Gruppo
-* Ultimo aggiornamento di
-* Data ultimo aggiornamento
-* Nome
-* Proprietario
-* Data di completamento Pianificata
-* Durata Pianificata
-* Lavoro Necessario
-* Data di inizio pianificata
-* Portfolio
-* Priorità
-* Programma
-* Data di completamento Previsto
-* Durata prevista in minuti
-* Data di inizio prevista
-* Numero di riferimento
-* Modalità pianificazione
-* Gravità
-* Sponsor
-* Stato
-* Punti storia
-* Modello
-* URL
+In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront specifici in un modulo personalizzato.
+
+| Nome campo | Progetto | Attività | Problema | Modello | Attività modello | Portfolio | Programma | Gruppo |
+|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| Data di completamento effettiva | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Durata Reale | ✓ |   |   |   |   |   |   |   |
+| Ore effettive | ✓ |   | ✓ |   |   |   |   |   |
+| Data di inizio effettiva | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Azienda | ✓ |   |   | ✓ |   |   |   |   |
+| Condizione | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Tipo di condizione | ✓ |   |   | ✓ |   |   |   |   |
+| Descrizione | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Durata |   | ✓ |   |   | ✓ |   |   |   |
+| Tipo di Durata |   | ✓ |   |   | ✓ |   |   |   |
+| Unità di Durata |   | ✓ |   |   | ✓ |   |   |   |
+| Immesso da | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Data inserimento | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| Gruppo | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Ultimo aggiornamento di | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Data ultimo aggiornamento | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Nome | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Proprietario | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Data di completamento Pianificata | ✓ | ✓ | ✓ |   |   |   |   |   |
+| Durata Pianificata | ✓ |   |   | ✓ |   |   |   |   |
+| Lavoro Necessario | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
+| Data di inizio pianificata | ✓ |   |   |   |   |   |   |   |
+| Portfolio | ✓ |   |   | ✓ |   |   | ✓ |   |
+| Priorità | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Programma | ✓ |   |   | ✓ |   |   |   |   |
+| Data di completamento Previsto | ✓ | ✓ |   |   |   |   |   |   |
+| Durata prevista in minuti |   | ✓ |   |   |   |   |   |   |
+| Data di inizio prevista | ✓ | ✓ |   |   |   |   |   |   |
+| Numero di riferimento | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
+| Modalità pianificazione | ✓ |   |   | ✓ |   |   |   |   |
+| Gravità |   |   | ✓ |   |   |   |   |   |
+| Sponsor | ✓ |   |   | ✓ |   |   |   |   |
+| Stato | ✓ | ✓ |   |   |   |   |   |   |
+| Punti storia |   | ✓ |   |   |   |   |   |   |
+| Modello | ✓ |   |   |   |   |   |   |   |
+| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
+
+{style="table-layout:auto"}
 
 +++
 
