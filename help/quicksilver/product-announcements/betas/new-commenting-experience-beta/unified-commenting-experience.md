@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -60,12 +60,14 @@ Tra i miglioramenti inclusi nella nuova esperienza di commento, ci sono i seguen
 Le seguenti funzioni sono state rimosse o diventeranno obsolete nella nuova esperienza:
 
 * Commento su un aggiornamento del sistema. I commenti aggiunti in passato agli aggiornamenti di sistema sono stati importati come commenti di sola lettura nella nuova scheda Attività di sistema.
-* Possibilità di modificare lo stato, la condizione, la data di conferma e la percentuale di completamento durante il commento di attività e problemi
+* Possibilità di modificare lo stato, la condizione, la data di conferma e la percentuale di completamento durante il commento di attività e problemi.
+
+  In alternativa, è consigliabile aggiungere questi campi nel pannello Riepilogo delle attività e dei problemi, per accedervi facilmente da elenchi, report, Home, Workfront Balancer o una scheda orario.
 * Possibilità di modificare il modulo personalizzato
 * Le informazioni &quot;per conto di &lt; nome utente >&quot; quando un amministratore di Workfront o di gruppo effettua l’accesso come altro utente e aggiunge un commento per suo conto sono state originariamente rimosse. È stato ripristinato il 19 ottobre 2023.
 * L’opzione &quot;Richiedi approvazione&quot; quando si applicano tag alle persone durante l’aggiunta di un commento a un documento.
 * Quando si modifica la casella del profilo di un utente, l’impostazione &quot;Mostra percentuale di completamento all’aggiornamento dello stato&quot; viene rimossa. È stata rimossa la funzionalità di aggiornamento della percentuale di completamento di un’attività o di un problema.
-* Possibilità per il proprietario del progetto di modificare la data di completamento pianificata di un&#39;attività quando la data di commit viene modificata dalla sezione Aggiornamenti. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -499,6 +501,21 @@ La tabella seguente illustra le funzioni che saranno disponibili nella nuova esp
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>Possibilità per il proprietario del progetto di modificare la data di completamento pianificata di un'attività quando la data di commit viene modificata dalla sezione Aggiornamenti
+   </td>
+   <td> ✓
+   </td>
+   <td> Potrebbe essere rilasciato in una data successiva
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓
    </td>
   </tr>
 </table>

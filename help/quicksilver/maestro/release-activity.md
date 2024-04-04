@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
-source-wordcount: '5359'
+source-wordcount: '5486'
 ht-degree: 0%
 
 ---
@@ -32,31 +32,28 @@ Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rila
 >
 >La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
 
-<!--
-## Week of April 1, 2024
+## Settimana del 1° aprile 2024
 
-### Reorder the fields on the records page
+### Riordinare i campi nelle pagine record
 
-Production: April 4, 2024 
+Produzione: 4 aprile 2024
 
-Preview: To be determined 
+Anteprima: da determinare
 
-As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records for the same type, for everyone viewing the record page or box.  
+In qualità di responsabile dell&#39;area di lavoro, ora puoi riordinare i campi elencati nella pagina o nella casella del record. L&#39;aggiornamento dell&#39;ordine dei campi modifica l&#39;ordine dei campi di tutti i record dello stesso tipo, per tutti gli utenti che visualizzano la pagina o la casella record.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+Per ulteriori informazioni, consulta [Gestire la pagina record](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 
-### Add cover image to record pages
+### Aggiungi immagine di copertina per registrare le pagine
 
-Production: April 4, 2024 
+Produzione: 4 aprile 2024
 
-Preview: To be determined 
+Anteprima: da determinare
 
-As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+Durante la gestione delle pagine di record, è ora possibile aggiungere, riposizionare e sostituire un&#39;immagine di copertina in una pagina o in una casella di record, per arricchire la presentazione del record e il coinvolgimento delle parti interessate. Le immagini di copertina sono visibili a tutti gli utenti che visualizzano i record.
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
-
--->
+Per ulteriori informazioni, consulta [Gestire la pagina record](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Settimana del 25 marzo 2024
 
