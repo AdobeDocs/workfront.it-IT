@@ -5,22 +5,38 @@ description: È possibile utilizzare il pannello Riepilogo per rivedere e aggior
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 1%
+source-wordcount: '992'
+ht-degree: 2%
 
 ---
 
 # [!UICONTROL Riepilogo] panoramica
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti o in produzione per i clienti che hanno abilitato le versioni rapide. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
 È possibile utilizzare [!UICONTROL Riepilogo] pannello per rivedere e aggiornare le informazioni sull’elemento di lavoro direttamente da un elenco di attività, problemi, documenti o da altre aree di [!DNL Adobe Workfront] che visualizzano attività e problemi.
+
+L’amministratore del Workfront o del gruppo può modificare le aree e i campi visualizzati nel pannello Riepilogo. Possono aggiungere fino a 16 campi al pannello Riepilogo.
+
+>[!IMPORTANT]
+>
+>È consigliabile aggiungere al pannello Riepilogo i campi che è necessario aggiornare frequentemente, in modo da potervi accedere facilmente e aggiornarli senza dover accedere alla pagina principale dell’oggetto.
+>
+>Ad esempio, puoi aggiungere i seguenti campi aggiornati di frequente ai pannelli Riepilogo delle attività e dei problemi:
+>
+>* Stato
+>* Percentuale completato
+>* Conferma data
+>* Data di completamento Pianificata
+>* Condizione
+
+
 
 Nella tabella seguente vengono visualizzate le aree in cui è possibile individuare e utilizzare [!UICONTROL Riepilogo] pannello:
 
@@ -28,7 +44,7 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Attività</td> 
+   <td><b>Attività</b></td> 
   </tr> 
   <tr> 
    <td> <p>Elenchi di attività in una</p> 
@@ -44,7 +60,7 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
    <td>Attività in una scheda orario [!UICONTROL]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problemi</td> 
+   <td><b>Problemi</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Elenchi di problemi in una</p> 
@@ -66,7 +82,7 @@ Nella tabella seguente vengono visualizzate le aree in cui è possibile individu
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>Documenti</td> 
+   <td><b>Documenti</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Area [!UICONTROL Documents]</td> 
@@ -96,25 +112,27 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] piano</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] licenza*</strong></td> 
-   <td> <p>[!UICONTROL Request] o versione successiva</p> </td> 
+   <td> <p>Nuovo: Collaboratore o versione successiva</p>
+   Oppure
+   <p>Corrente:[!UICONTROL Request] o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni del livello di accesso*</strong></td> 
-   <td> <p>Accesso a [!UICONTROL View] o versione successiva ad attività, problemi e documenti</p> <p>Accesso di [!UICONTROL View] o versione successiva a qualsiasi oggetto per il quale si desidera visualizzare il riepilogo dei documenti [!UICONTROL Summary]</p> <p>Nota: se non disponi ancora dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader"><strong>Configurazione del livello di accesso</strong></td> 
+   <td> <p>Accesso a [!UICONTROL View] o versione successiva ad attività, problemi e documenti</p> <p>Accesso di [!UICONTROL View] o versione successiva a qualsiasi oggetto per il quale si desidera visualizzare i documenti [!UICONTROL Summary]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>[!UICONTROL View] o autorizzazioni superiori per un'attività, un problema o un documento</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] o autorizzazioni superiori per un'attività, un problema o un documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+*Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visualizza [!UICONTROL Riepilogo] in un elenco di attività o problemi
 
@@ -131,11 +149,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >Puoi selezionare una sola attività o un solo problema alla volta per visualizzarne i dettagli in [!UICONTROL Riepilogo] pannello.
 
-   <div class="preview">
-
    ![Pannello Riepilogo](assets/summary-panel-for-task-new-comments.png)
-
-   </div>
 
 1. (Facoltativo) Per chiudere il [!UICONTROL Riepilogo] eseguire una delle operazioni seguenti:
 
@@ -155,17 +169,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Utilizza la barra di avanzamento nella parte superiore della [!UICONTROL Riepilogo] per aggiornare la percentuale di completamento per l&#39;attività o il problema selezionato. Immetti un numero o trascina la barra fino alla percentuale corretta.
 
-<span class="preview">![Percentuale di completamento nel pannello Riepilogo](assets/summary-overview-percent-complete.png)</span>
+![Percentuale di completamento nel pannello Riepilogo](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Aggiornamenti]
 
 Utilizza il [!UICONTROL Aggiornamenti] sezione del [!UICONTROL Riepilogo] per visualizzare gli aggiornamenti recenti e apportare aggiornamenti all’attività o al problema selezionato. Clic **[!UICONTROL Vedi tutto]** per passare direttamente al [!UICONTROL Aggiornamenti] sull&#39;attività.
 
-<div class="preview">
-
 ![Sezione Aggiornamenti nel pannello Riepilogo](assets/summary-updates-section.png)
-
-</div>
 
 ## [!UICONTROL Documenti]
 

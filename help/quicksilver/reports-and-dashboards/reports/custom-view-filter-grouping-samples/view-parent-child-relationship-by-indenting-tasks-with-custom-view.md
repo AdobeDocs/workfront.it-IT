@@ -7,10 +7,10 @@ description: Per mantenere la distinzione tra relazioni padre e figlio in un ele
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4987501f-a1d9-47cd-bfbe-83acfc225204
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -64,9 +64,16 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 1. Fare clic in un punto qualsiasi della casella di testo per modificare il testo e rimuovere tutto il testo esistente.
 1. Incolla il testo seguente:
 
-   ```
-   displayname=<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br>valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))<br>valueformat=HTML
-   ```
+
+```
+   displayname=
+   linkedname=direct
+   namekey=name
+   querysort=name
+   textmode=true
+   valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))
+   valueformat=HTML
+```
 
 1. Fai clic su **Salva**.
-1. Clic **Salva visualizzazione**.
+1. Fai clic su **Salva vista**.

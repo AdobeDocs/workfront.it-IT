@@ -6,7 +6,7 @@ description: Un predecessore di Progetto Incrociato è un'attività da cui dipen
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -76,7 +76,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. In **Attività** , inizia a digitare il nome dell&#39;attività che dovrà essere il predecessore dell&#39;attività corrente.
 1. Specificare le informazioni seguenti per definire la relazione tra il predecessore e l&#39;attività dipendente:
 
-   * **Tipo di dipendenza:** Selezionare la relazione che l&#39;attività predecessore deve avere con l&#39;attività dipendente. La relazione predefinita è &quot;Finish-Start&quot;, ovvero l&#39;attività predecessore deve terminare prima che l&#39;attività dipendente possa iniziare. Per ulteriori informazioni sui vari tipi di dipendenza, vedere [Panoramica dei tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+   * **Tipo di dipendenza:** Selezionare la relazione che l&#39;attività predecessore deve avere con l&#39;attività dipendente. La relazione predefinita è &quot;Finish-Start&quot;, ovvero l&#39;attività predecessore deve terminare prima che l&#39;attività dipendente possa iniziare. Per ulteriori informazioni sui vari tipi di dipendenza, vedere [Panoramica dei tipi di relazione tra attività](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
    * **Lag:** Specificare il tempo che deve trascorrere dopo il completamento di un predecessore imposto fino a quando l&#39;attività dipendente può iniziare. Per ulteriori informazioni sui vari tipi di ritardo, consulta [Panoramica sui tipi di ritardo](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 

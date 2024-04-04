@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 6dceeeb7803e177ee0f366ee2bc94275ed231722
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1426'
 ht-degree: 3%
 
 ---
@@ -19,12 +19,9 @@ ht-degree: 3%
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
-
+<!--info for April 11: hide the disclaimer for preview below-->
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti o in produzione per i clienti che hanno abilitato le versioni rapide. </span>
 
@@ -33,6 +30,8 @@ ht-degree: 3%
 <span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--info for April 11: take out the Important box-->
+
+Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti sull&#39;oggetto o gli aggiornamenti di sistema che tengono traccia delle modifiche apportate all&#39;oggetto.
 
 >[!IMPORTANT]
 >
@@ -85,7 +84,7 @@ The following objects have an Updates section where you can add comments or revi
 * Iterations
 -->
 
-<!--remove all the information below, all the way down to the following section: -->
+<!--info for April 11: remove all the information below, all the way down to the following section: -->
 
 A seconda degli oggetti per i quali accedi all’esperienza di commento, per la sezione Aggiornamenti potresti trovare la seguente esperienza:
 
@@ -133,7 +132,7 @@ A seconda degli oggetti per i quali accedi all’esperienza di commento, per la 
 
 </div>
 
-<!--info for April 11: remove the NOTE below-->
+<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
 >[!NOTE]
 >
@@ -152,9 +151,23 @@ A seconda degli oggetti per i quali accedi all’esperienza di commento, per la 
    * Attività modello
    * Scheda ad hoc
 
+     Per ulteriori informazioni sugli aggiornamenti sulle schede, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
 * I seguenti oggetti non hanno un <span class="preview">Scheda Tutto:</span>
 
    * Obiettivi
+
+     Per ulteriori informazioni sugli aggiornamenti sugli obiettivi, consulta [Gestisci commenti obiettivo](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+
+<!--info for April 11: make the text below live - remove the commented out brackets: 
+
+* The following objects don't have a System Activity or an All tab: 
+
+  * Iterations
+
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+-->
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -175,9 +188,9 @@ I seguenti oggetti non registrano gli aggiornamenti di sistema:
 * Iterazioni
 
 
-## Aggiornamenti visualizzati anche su oggetti di livello superiore
+## Aggiornamenti che vengono visualizzati anche su oggetti di livello superiore
 
-I commenti, le risposte o gli aggiornamenti di sistema di determinati oggetti vengono visualizzati anche nella sezione Aggiornamenti di oggetti di livello superiore.
+I commenti, le risposte o gli aggiornamenti di sistema di determinati oggetti vengono visualizzati anche nella sezione Aggiornamenti degli oggetti di livello superiore.
 
 Ad esempio, quando si aggiunge un aggiornamento a un&#39;attività, l&#39;aggiornamento viene visualizzato nella sezione Aggiornamenti relativa all&#39;attività e nella sezione Aggiornamenti relativa al progetto contenente l&#39;attività.
 
@@ -189,7 +202,7 @@ Nella tabella seguente vengono illustrati gli oggetti i cui commenti vengono vis
  <thead> 
   <tr> 
    <th><strong>Oggetto in cui è stato aggiunto l’aggiornamento originale</strong> </th> 
-   <th> <p><strong>Oggetto di livello superiore in cui viene visualizzato anche l'aggiornamento originale</strong> </p> </th> 
+   <th> <p><strong>Oggetti di livello superiore in cui viene visualizzato anche l'aggiornamento originale</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -248,6 +261,8 @@ Nella tabella seguente vengono illustrati gli oggetti i cui commenti vengono vis
  </tbody> 
 </table>
 
+<!--info for April 11: hide the note below-->
+
 >[!NOTE]
 >
 >Le risposte aggiunte agli aggiornamenti di sistema non vengono riportate nell&#39;oggetto padre. Solo le risposte dirette su un oggetto figlio e le risposte aggiunte agli aggiornamenti esistenti vengono raggruppate in oggetti padre.
@@ -267,16 +282,14 @@ Quando visualizzi gli aggiornamenti per utenti e team, considera quanto segue:
 
 * Non è possibile aggiungere nuovi commenti nella sezione Aggiornamenti di un team.
 
-* È possibile aggiungere una risposta a un aggiornamento visualizzato in un team. La risposta viene visualizzata nella sezione Aggiornamenti del team e nella sezione Aggiornamenti dell’oggetto a cui appartiene.
-
 * La sezione Aggiornamenti per i team è compilata con gli aggiornamenti immessi sui seguenti oggetti:
 
    * Utenti
-   * Schede orario*
    * Storie
-   * Iterazioni*
+   * Schede orario
+   * Iterazioni
 
-  *Questi non sono disponibili per la nuova esperienza di commento.
+* È possibile aggiungere una risposta a un aggiornamento visualizzato in un team. La risposta viene visualizzata nella sezione Aggiornamenti del team e nella sezione Aggiornamenti dell’oggetto a cui appartiene.
 
 * Nella sezione Aggiornamenti per utenti e team, puoi visualizzare gli aggiornamenti immessi negli ultimi 90 giorni.
 

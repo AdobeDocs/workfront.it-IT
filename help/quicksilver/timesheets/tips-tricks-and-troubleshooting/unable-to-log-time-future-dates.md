@@ -2,38 +2,40 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: Impossibile registrare il tempo per le date future
-description: Impossibile registrare le ore per le date future su progetti, attività o problemi perché i campi sono disabilitati.
+title: Impossibile registrare l’ora per le date future
+description: Non è possibile registrare ore per date future su progetti, attività o problemi perché i campi sono disabilitati.
 author: Alina
 feature: Timesheets
 exl-id: 6108fad2-f0a2-4989-8645-69a16820032b
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '151'
 ht-degree: 1%
 
 ---
 
-# Impossibile registrare il tempo per le date future
+# Impossibile registrare l’ora per le date future
 
 ## Problema
 
-Impossibile registrare le ore per le date future su progetti, attività o problemi perché i campi sono disabilitati. 
+Non è possibile registrare ore per date future su progetti, attività o problemi perché i campi sono disabilitati.
 
-L’amministratore di sistema può determinare se è possibile registrare le ore per le date future all’interno dei fogli presenze. 
+L’amministratore di sistema può determinare se è possibile registrare le ore per le date future nelle schede orario.
 
 ## Soluzione
 
 Contatta il tuo amministratore Adobe Workfront.
 
-Gli amministratori di sistema possono aggiornare questa impostazione come segue:
+Gli amministratori di sistema possono aggiornare un’impostazione per consentire di registrare le ore per le date future.
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+In qualità di amministratore di sistema, eseguire le operazioni seguenti:
 
-1. Espandi **Tempi e ore**, quindi fai clic su **Preferenze**.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
-1. In **Preferenze generali** seleziona la sezione **Orari di log per date future**. 
+1. Espandi **Schede orario e ore**, quindi fai clic su **Preferenze**.
+
+1. In **Preferenze generali** , seleziona la sezione **Registra ore per date future**.
 
 1. Fai clic su **Salva**.
 
-Per ulteriori informazioni su questa e altre opzioni relative ai fogli presenze e alle ore, consulta [Configurare le preferenze relative a schede attività e ora](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Per ulteriori informazioni su questa e altre opzioni relative alle schede orario e alle ore, consulta [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

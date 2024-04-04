@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1377'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Le seguenti funzioni sono state rimosse o diventeranno obsolete nella nuova espe
 * Commento su un aggiornamento del sistema. I commenti aggiunti in passato agli aggiornamenti di sistema sono stati importati come commenti di sola lettura nella nuova scheda Attività di sistema.
 * Possibilità di modificare lo stato, la condizione, la data di conferma e la percentuale di completamento durante il commento di attività e problemi.
 
-  In alternativa, è consigliabile aggiungere questi campi nel pannello Riepilogo delle attività e dei problemi, per accedervi facilmente da elenchi, report, Home, Workfront Balancer o una scheda orario.
+  In alternativa, è consigliabile aggiungere questi campi nel pannello Riepilogo delle attività e dei problemi, per accedervi facilmente da elenchi, Home, Workfront Balancer o una scheda orario.
 * Possibilità di modificare il modulo personalizzato
 * Le informazioni &quot;per conto di &lt; nome utente >&quot; quando un amministratore di Workfront o di gruppo effettua l’accesso come altro utente e aggiunge un commento per suo conto sono state originariamente rimosse. È stato ripristinato il 19 ottobre 2023.
 * L’opzione &quot;Richiedi approvazione&quot; quando si applicano tag alle persone durante l’aggiunta di un commento a un documento.

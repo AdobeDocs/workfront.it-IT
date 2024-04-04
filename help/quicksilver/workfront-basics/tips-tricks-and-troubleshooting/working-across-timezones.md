@@ -5,9 +5,9 @@ title: Utilizzo dei fusi orari
 description: Può essere utile capire come [!DNL Adobe Workfront] utilizza i fusi orari per calcolare i campi di tempo per gli oggetti e gli orari in altre aree, ad esempio le e-mail.
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 246750d2a7a053d74df2ceb150f14fdb50f32ade
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,15 @@ Può essere utile capire come [!DNL Adobe Workfront] utilizza i fusi orari per c
 
 * Campi di tempo per gli oggetti
 * Ore in altre [!DNL Workfront] aree, ad esempio e-mail Workfront automatizzate
+
+>[!WARNING]
+>
+>Se non riesci a trovare il tuo fuso orario esatto nell’elenco che ti forniamo, individua quello più vicino e aggiornalo per la tua istanza.
+>
+>Inoltre, considera che un fuso orario simile potrebbe non corrispondere perfettamente al tuo.
+>
+>Ad esempio, alcuni paesi o territori potrebbero osservare l&#39;ora legale, ma il tuo paese potrebbe non farlo. Se necessario, potrebbe essere necessario regolare i fusi orari del sistema in base a queste modifiche.
+
 
 ## Fusi orari in [!DNL Workfront]
 
