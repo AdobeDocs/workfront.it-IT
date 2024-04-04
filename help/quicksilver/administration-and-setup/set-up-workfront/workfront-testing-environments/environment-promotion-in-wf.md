@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b44c83314a06592e21ab3c4316e2574b75e85715
+exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
+source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '915'
 ht-degree: 1%
 
 ---
@@ -46,14 +47,14 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 
 ### Oggetti di lavoro
 
-| Oggetto promovibile | Inclusi oggetti secondari promozionali |
+| Oggetto promovibile | Oggetti collegati promozionali inclusi |
 | --- | --- |
 | Progetto (PROJ) | Progetto<br>Attività<br>Assegnazione<br>Predecessore<br>Azienda<br>Percentuale sostituzione<br>Gruppo<br>Ruolo<br>Team<br>Processo di approvazione<br>Percorso di approvazione<br>Passaggio di approvazione<br>Approvatore passaggio<br>Pianificazione<br>Giorno non feriale<br>Definizione coda<br>Gruppo di argomenti coda<br>Argomento Coda<br>Regola di Instradamento<br>Percorso milestone<br>Milestone<br>Tipo di Ora<br>Pool di Risorse<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
 | Modello (TMPL) | Modello<br>Attività modello<br>Assegnazione attività modello<br>Predecessore attività modello<br>Azienda<br>Percentuale sostituzione<br>Gruppo<br>Ruolo<br>Team<br>Processo di approvazione<br>Percorso di approvazione<br>Passaggio di approvazione<br>Approvatore passaggio<br>Pianificazione<br>Giorno non feriale<br>Definizione coda<br>Gruppo di argomenti coda<br>Argomento Coda<br>Regola di Instradamento<br>Percorso milestone<br>Milestone<br>Tipo di Ora<br>Pool di Risorse<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
 
 ### Oggetti di reporting
 
-| Oggetto promovibile | Inclusi oggetti secondari promozionali |
+| Oggetto promovibile | Oggetti collegati promozionali inclusi |
 | --- | --- |
 | Modello di layout (UITMPL) | Modello di layout<br>Dashboard<br>Calendario<br>Sezione calendario<br>Pagina esterna<br>Report<br>Filtro<br>Raggruppamento<br>Visualizza<br>Parametro |
 | Dashboard (PTLTAB) | Dashboard<br>Calendario<br>Sezione calendario<br>Pagina esterna<br>Report<br>Filtro<br>Raggruppamento<br>Visualizza<br>Parametro |
@@ -66,7 +67,7 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 
 ### Oggetti dati personalizzati
 
-| Oggetto promovibile | Inclusi oggetti secondari promozionali |
+| Oggetto promovibile | Oggetti collegati promozionali inclusi |
 | --- | --- |
 | Categoria (CTGY) | Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria<br>Gruppo |
 | Parametro (PARAM) | Parametro<br>Opzione Parametro |
@@ -74,7 +75,7 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 
 ### Oggetti organizzazione
 
-| Oggetto promovibile | Inclusi oggetti secondari promozionali |
+| Oggetto promovibile | Oggetti collegati promozionali inclusi |
 | --- | --- |
 | Gruppo (GROUP) | Gruppo <br>Sottogruppi (fino a 5 livelli) *<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
 | Ruolo (ROLE) | Ruolo |
@@ -85,7 +86,7 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 
 ### Altri oggetti di configurazione
 
-| Oggetto promovibile | Inclusi oggetti secondari promozionali |
+| Oggetto promovibile | Oggetti collegati promozionali inclusi |
 | --- | --- |
 | Processo di approvazione (ARVPRC) | Processo di approvazione<br>Percorso di approvazione<br>Passaggio di approvazione<br>Approvatore passaggio<br>Ruolo<br>Team<br>Gruppo |
 | Pianificazione (SCHED) | Pianificazione<br>Giorno non feriale<br>Gruppo |
@@ -135,5 +136,3 @@ Questi stati includono:
   </tr> 
   </tbody> 
 </table>
-
-
