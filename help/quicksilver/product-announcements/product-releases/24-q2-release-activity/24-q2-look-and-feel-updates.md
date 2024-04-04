@@ -4,9 +4,10 @@ description: Aggiornamenti look-and-feel durante l’intervallo di tempo di rila
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -29,11 +30,8 @@ I modelli e-mail per aggiungere un approvatore a una risorsa e un utente a una b
 
 >[!NOTE]
 >
->Versione di anteprima: 8 febbraio 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per rilascio trimestrale: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 8 febbraio 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per rilascio trimestrale: con la versione 24.4 (11 aprile 2024)
 
 Abbiamo aggiornato le schede per Forms, Campi e Sezioni nell’area Configurazione > Forms personalizzato per ottenere un design più moderno che sia coerente con altre aree di Workfront. Ora puoi accedere alle tre aree dal menu di navigazione a sinistra. Filtri, viste e raggruppamenti sono ancora disponibili per gli elenchi. La progettazione aggiornata si applica ai moduli personalizzati, ai campi e alle sezioni creati sia nel nuovo progettista di moduli che nel generatore di moduli legacy.
 
 Per informazioni, consulta [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) e [Creare o modificare un modulo personalizzato con il generatore di moduli legacy](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-
-

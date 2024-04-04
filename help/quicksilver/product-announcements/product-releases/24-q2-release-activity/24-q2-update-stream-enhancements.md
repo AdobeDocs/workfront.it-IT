@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: 2faa01024a1a174bacb42e9c6e24f528252f49f4
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,9 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->Versione di anteprima: 1 aprile 2024; Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 1 aprile 2024; produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
-È stato rimosso il pulsante &quot;Nuovo commento&quot; nell’area Aggiornamenti per progetti, attività, problemi e documenti. Il nuovo commento è ora l&#39;opzione predefinita e unica per questi oggetti. Con questa modifica, non sarà più possibile ripristinare l’esperienza di commento precedente.
+È stato rimosso il pulsante &quot;Nuovo commento&quot; nell’area Aggiornamenti per progetti, attività, problemi e documenti. Il nuovo commento è ora l&#39;opzione predefinita e unica per questi oggetti. Con questa modifica, non sarà più possibile ripristinare l’esperienza di commento precedente. Inoltre, è stata rimossa l’impostazione &quot;Show percent complete on update status&quot; (Mostra percentuale di completamento allo stato di aggiornamento) sul profilo di un utente.
 
 Per ulteriori informazioni, consulta [Nuova esperienza di commento](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -32,7 +32,7 @@ Per ulteriori informazioni, consulta [Nuova esperienza di commento](/help/quicks
 
 >[!NOTE]
 >
->Versione di anteprima: 1 marzo 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 1 marzo 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
 È stata aggiunta la nuova funzionalità di aggiunta di commenti al **Aggiungi nuovo aggiornamento** pulsante di azione rapida nei widget Il mio lavoro, I miei progetti, Le mie attività e I miei problemi nella nuova Home.
 
@@ -42,7 +42,7 @@ Per ulteriori informazioni, consulta [Introduzione alla nuova Home](/help/quicks
 
 >[!NOTE]
 >
->Versione di anteprima: 29 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 29 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
 Nella nuova esperienza di commento sono stati apportati i seguenti miglioramenti:
 
@@ -57,7 +57,7 @@ Per ulteriori informazioni, consulta [Aggiorna lavoro](/help/quicksilver/workfro
 
 >[!NOTE]
 >
->Versione di anteprima: 22 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 22 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
 I commenti aggiunti ai record delle attività di sistema nell’esperienza di commento precedente ora vengono inseriti nella scheda Attività di sistema nella nuova esperienza di commento in sola lettura. Non è possibile rispondere ai record delle attività di sistema nella nuova esperienza di aggiunta di commenti.
 
@@ -69,7 +69,7 @@ Per ulteriori informazioni, consulta [Panoramica della sezione Aggiornamenti](/h
 
 >[!NOTE]
 >
->Versione di anteprima: 22 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 22 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
 Per offrirti una visione cronologicamente coerente sia dei commenti che dei registri di attività del sistema, stiamo introducendo una terza scheda nell’area Aggiornamenti di tutti gli oggetti. La scheda &quot;All&quot; (Tutti) acquisisce in un unico flusso sia i commenti degli utenti che quelli delle attività del sistema.
 
@@ -83,7 +83,7 @@ Per ulteriori informazioni, consulta [Panoramica della sezione Aggiornamenti](/h
 
 >[!NOTE]
 >
->Versione di anteprima: 22 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 22 febbraio 2024; Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); Produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
 Ora è stata aggiunta la nuova funzionalità di aggiunta di commenti al pannello Riepilogo per gli elenchi di attività e problemi.
 

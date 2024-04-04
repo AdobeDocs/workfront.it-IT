@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 30a10e240b0f418f7ba49cd2e70e6f3d33956cd6
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->Versione di anteprima: 28 marzo 2024; Produzione per tutti i clienti: 24.4 (aprile 2024)
+>Versione di anteprima: 28 marzo 2024; Produzione per tutti i clienti: 24.4 (11 aprile 2024)
 
 Il designer di moduli personalizzati beta ora consente di testare la logica di visualizzazione e saltare la logica in modalità anteprima. In precedenza, tutti i campi venivano visualizzati nell’anteprima anche quando veniva applicata la logica.
 
@@ -32,7 +32,7 @@ Per ulteriori informazioni sull&#39;anteprima di un modulo personalizzato nel pr
 
 >[!NOTE]
 >
->Versione di anteprima: 14 marzo 2024; Produzione per tutti i clienti: 24.4 (aprile 2024)
+>Versione di anteprima: 14 marzo 2024; Produzione per tutti i clienti: 24.4 (11 aprile 2024)
 
 Le funzioni avanzate dei moduli personalizzati, ad esempio i campi di ricerca esterna e i campi nativi di Workfront, sono ora disponibili quando si allega un modulo personalizzato a un’azienda o a un utente. Le funzioni avanzate sono disponibili nelle pagine Dettagli società e Dettagli utente e non nelle finestre di dialogo Modifica società e Modifica utente. Per utilizzare questi tipi di campi, è necessario creare il modulo personalizzato nel nuovo progettista di moduli.
 
@@ -42,7 +42,7 @@ Per ulteriori informazioni sui campi modulo personalizzati, consulta [Progettare
 
 >[!NOTE]
 >
->Versione di anteprima: 26 febbraio 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per tutti i clienti: 24.4 (aprile 2024)
+>Versione di anteprima: 26 febbraio 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per tutti i clienti: 24.4 (11 aprile 2024)
 
 L’integrazione JumpSeat esistente è ora disponibile per gli account che utilizzano uno dei nuovi tipi di pacchetto (ad esempio, Select, Prime o Ultimate). Per abilitare l’integrazione, è ancora necessario disporre di un abbonamento JumpSeat attivo.
 
@@ -52,7 +52,7 @@ Per ulteriori informazioni sull’integrazione JumpSeat, consulta [Configurare l
 
 >[!NOTE]
 >
->Versione di anteprima: 29 febbraio 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per tutti i clienti: 24.4 (aprile 2024)
+>Versione di anteprima: 29 febbraio 2024; produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024); produzione per tutti i clienti: 24.4 (11 aprile 2024)
 
 I campi nativi di Workfront sono ora disponibili per l’aggiunta ai moduli personalizzati. Questo nuovo tipo di campo consente di organizzare e presentare i dati agli utenti in modo logico, senza dover ricreare i dati esistenti nei campi personalizzati.
 

@@ -4,9 +4,10 @@ description: Miglioramenti per la casa nel secondo trimestre 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6e4e6ba8f960f11aeb824d29b4bbf1d75532747b
+exl-id: df78f09c-7855-4538-abda-421a7a4bc225
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->Versione di anteprima: 2 gennaio 2024; produzione per rilascio rapido: con la versione 24.2 (15 febbraio 2024); produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 2 gennaio 2024; produzione per rilascio rapido: con la versione 24.2 (15 febbraio 2024); produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
 Gli amministratori possono ora personalizzare le colonne disponibili per gli utenti in nuovi widget Home specifici utilizzando i modelli di layout. Le opzioni includono la possibilità di nascondere o visualizzare le colonne predefinite e di aggiungere campi esistenti come nuove colonne.
 

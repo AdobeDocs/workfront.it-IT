@@ -4,9 +4,10 @@ description: Miglioramenti alla gestione delle risorse nel secondo trimestre 202
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->Versione di anteprima: 12 ottobre 2023; produzione per rilascio rapido: con la versione 24.2 (15 febbraio 2024); produzione per rilascio trimestrale: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 12 ottobre 2023; produzione per rilascio rapido: con la versione 24.2 (15 febbraio 2024); produzione per rilascio trimestrale: con la versione 24.4 (11 aprile 2024)
 
 Per fornire maggiore chiarezza sulle regolazioni manuali o sul contorno nel Bilanciatore dei carichi di lavoro, le allocazioni orarie regolate manualmente ora mostrano un’icona a forma di matita.
 

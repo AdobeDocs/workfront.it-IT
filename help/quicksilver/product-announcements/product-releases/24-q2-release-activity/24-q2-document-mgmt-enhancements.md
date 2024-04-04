@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
-source-git-commit: 6d1f7e5bc91e101e613689c9b28a94c7829abae0
+source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->Versione di anteprima: 28 marzo 2024; Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 28 marzo 2024; Produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
 È ora possibile specificare una scadenza per gli utenti o i team assegnati alla revisione o all&#39;approvazione di un documento. I revisori e gli approvatori ricevono le notifiche e-mail 72 ore e 24 ore prima della scadenza specificata. La scadenza si riflette anche nel widget Approvazioni nella nuova area Home.
 
@@ -36,7 +36,7 @@ Per ulteriori informazioni, consulta [Creare una richiesta di revisione o approv
 
 >[!NOTE]
 >
->Versione di anteprima: 28 marzo 2024; Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 28 marzo 2024; Produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
 È ora possibile creare modelli di approvazione nell’area Configura per semplificare il processo di revisione e approvazione. I modelli di approvazione consentono di rendere più ripetibile il processo di revisione e approvazione
 
@@ -51,7 +51,7 @@ Per ulteriori informazioni, consulta [Creare un modello di approvazione](/help/q
 
 >[!NOTE]
 >
->Versione di anteprima: 28 marzo 2024; Produzione per tutti i clienti: con la versione 24.4 (aprile 2024)
+>Versione di anteprima: 28 marzo 2024; Produzione per tutti i clienti: con la versione 24.4 (11 aprile 2024)
 
 Per aiutarti a gestire e analizzare rapidamente le richieste di approvazione, abbiamo aggiunto i seguenti indicatori di prestazioni chiave al widget Tutte le approvazioni:
 
