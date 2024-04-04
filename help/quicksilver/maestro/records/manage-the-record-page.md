@@ -4,7 +4,7 @@ description: In Adobe Workfront Planning è possibile modificare il layout della
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -102,7 +102,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
 1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
-
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
