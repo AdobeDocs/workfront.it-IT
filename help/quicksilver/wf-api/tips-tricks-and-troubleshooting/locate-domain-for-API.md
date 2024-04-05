@@ -6,7 +6,7 @@ description: Individua il dominio da utilizzare nell’API di Adobe Workfront
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 8487f8d4b1651df268720806cfe07fa271a7b87d
+source-git-commit: 1f45298f6bff0b633ce2cd5f3bedd098904eba9d
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -33,3 +33,4 @@ Per individuare il dominio:
    Il dominio è elencato a destra della schermata.
 
    ![Dominio](assets/domain.png)
+
