@@ -8,9 +8,10 @@ title: Moduli delle schede madri Adobe Workfront
 description: Puoi utilizzare il connettore per schede madri Adobe Workfront per automatizzare i processi all’interno delle schede Workfront e collegarlo ad app e servizi di terze parti.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
-source-git-commit: db3f5b1e406d62fd0d3b99cb108ad824d1a32c24
+exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
+source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
 workflow-type: tm+mt
-source-wordcount: '2111'
+source-wordcount: '2318'
 ht-degree: 1%
 
 ---
@@ -476,6 +477,54 @@ Questo modulo di azione crea un nuovo tag e gli assegna un colore.
   <tr> 
    <td>[!UICONTROL Tag Color]</td> 
    <td>Seleziona il colore per questo tag.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Commenti
+
+#### Creare un commento
+
+Questo modulo di azione ha creato un commento sulla scheda specificata.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID scheda]</td> 
+   <td>Inserisci o mappa l’ID della scheda a cui desideri aggiungere un commento.<p>Puoi trovare l’ID della scheda nell’URL quando la visualizzi in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Comment]</td> 
+   <td>Immettere o mappare il testo del commento che si desidera aggiungere.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Leggi i commenti sulle schede
+
+Questo modulo di azione recupera i commenti dalla scheda specificata.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID scheda]</td> 
+   <td>Inserisci o mappa l’ID della carta per la quale desideri recuperare i commenti.<p>Puoi trovare l’ID della scheda nell’URL quando la visualizzi in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Limit]</td> 
+   <td>Immettere il numero massimo di commenti che il modulo deve restituire in un ciclo di esecuzione.</p></td> 
   </tr> 
  </tbody> 
 </table>
