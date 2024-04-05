@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 33c44b10fd235ae8a90733b14391ead54053db9f
+source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 2%
+source-wordcount: '533'
+ht-degree: 1%
 
 ---
 
@@ -20,9 +20,21 @@ ht-degree: 2%
 
 Siamo entusiasti di annunciare il lancio del nostro programma di Alpha per Workfront + Frame.io. Qui troverai informazioni sull’ultima versione di Alpha e un breve video che illustra come iniziare.
 
-## Ultima versione
+## Aggiornamenti della versione di Alpha in Frame.io - marzo 2024
 
-## Versione di Alpha - marzo 2024
+In questo rilascio di Alpha abbiamo:
+
+### Aggiungere più risorse da Frame.io a Workfront
+
+Ora puoi aggiungere fino a 10 risorse contemporaneamente da Frame.io a Workfront. È possibile scegliere di aggiungere a Documenti progetto Workfront o a un&#39;attività di progetto specifica.
+
+### Esperienza migliorata durante l’aggiunta di una risorsa Frame.io a Workfront
+
+Le voci di menu per l’aggiunta di una risorsa a Workfront sono state aggiornate rendendo più facile visualizzare le attività assegnate a te, la gerarchia delle attività e lo stato delle attività.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428213/)
+
+## Aggiornamenti della versione di Alpha in Workfront - marzo 2024
 
 In questo rilascio di Alpha abbiamo:
 
@@ -64,7 +76,7 @@ Una volta bloccato, qualsiasi persona che rivede e/o approva non potrà più far
 
 Quando viene caricata una nuova versione di un documento, è possibile avviare il turno successivo di revisione mantenendo le revisioni precedenti bloccate.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+>[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
 
 ## Invia feedback
