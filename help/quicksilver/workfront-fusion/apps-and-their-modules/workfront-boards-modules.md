@@ -9,9 +9,9 @@ description: Puoi utilizzare il connettore per schede madri Adobe Workfront per 
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: f5ed9dac8fdd0a5049330f06ccc26d56d5cee774
+source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
 workflow-type: tm+mt
-source-wordcount: '2318'
+source-wordcount: '2325'
 ht-degree: 1%
 
 ---
@@ -136,6 +136,7 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 * [Bacheche](#boards)
 * [Colonne](#columns)
 * [Tag](#tags)
+* [Commenti](#comments)
 * [Altro](#other)
 
 <!--
@@ -482,6 +483,9 @@ Questo modulo di azione crea un nuovo tag e gli assegna un colore.
 </table>
 
 ### Commenti
+
+* [Creare un commento](#create-a-comment)
+* [Leggi i commenti sulle schede](#read-card-comments)
 
 #### Creare un commento
 
