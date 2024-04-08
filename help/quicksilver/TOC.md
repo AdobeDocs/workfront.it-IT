@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 0ed09ce00716269c01e59e64cc9efe751bcff577
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '14102'
 ht-degree: 1%
@@ -1788,7 +1788,7 @@ ht-degree: 1%
 * Rivedere e approvare il lavoro {#review-and-approve-work}
    * [Rivedere e approvare il lavoro](review-and-approve-work/review-and-approve-work.md)
    * [Programma di Alpha - Approvazioni documenti](review-and-approve-work/Documents/doc-approvals-alpha.md)
-   * [Programma di Alpha - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
+   * [Programma beta - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
    * [Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica](review-and-approve-work/proof-doc-decision-limits.md)
    * Approvazioni lavoro {#work-approvals}
       * [Approvazioni lavoro](review-and-approve-work/manage-approvals/manage-approvals.md)

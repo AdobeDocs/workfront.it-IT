@@ -1,28 +1,28 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Programma di Alpha - Workfront + Frame.io
-description: Siamo entusiasti di annunciare il lancio del nostro programma di Alpha per Workfront + Frame.io. Qui troverai informazioni sull’ultima versione di Alpha e un breve video che illustra come iniziare.
+title: Programma beta - Workfront + Frame.io
+description: Siamo entusiasti di annunciare il lancio del nostro programma beta per Workfront + Frame.io. Qui troverai informazioni sull’ultima versione Beta e un breve video che illustra come iniziare.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 7b2a087c2d611110ffbb14c57f52de1bf633d4d5
+source-git-commit: 10967c222cdcbfc426260af491f5e6f5b9b81a76
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 1%
 
 ---
 
-# Programma di Alpha - Workfront + Frame.io
+# Programma beta - Workfront + Frame.io
 
-Siamo entusiasti di annunciare il lancio del nostro programma di Alpha per Workfront + Frame.io. Qui troverai informazioni sull’ultima versione di Alpha e un breve video che illustra come iniziare.
+Siamo entusiasti di annunciare il lancio del nostro programma beta per Workfront + Frame.io. Qui troverai informazioni sull’ultima versione Beta e un breve video che illustra come iniziare.
 
-## Aggiornamenti della versione di Alpha in Frame.io - marzo 2024
+## Aggiornamenti della versione beta in Frame.io - marzo 2024
 
-In questo rilascio di Alpha abbiamo:
+In questa versione beta sono disponibili:
 
 ### Aggiungere più risorse da Frame.io a Workfront
 
@@ -34,9 +34,9 @@ Le voci di menu per l’aggiunta di una risorsa a Workfront sono state aggiornat
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Aggiornamenti della versione di Alpha in Workfront - marzo 2024
+## Aggiornamenti della versione beta in Workfront - marzo 2024
 
-In questo rilascio di Alpha abbiamo:
+In questa versione beta sono disponibili:
 
 ### Aggiungere una scadenza a un documento revisioni e approvazioni
 
