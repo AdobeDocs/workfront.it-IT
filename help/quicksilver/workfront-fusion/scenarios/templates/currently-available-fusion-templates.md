@@ -7,9 +7,9 @@ description: In Adobe Workfront Fusion sono attualmente disponibili i seguenti m
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3f07ccb23c6697547742537aa63211ac594c1062
+source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Questa automazione controlla nuovi progetti in portfolio con moduli personalizza
 
 Questo modello converte i problemi in progetti. Puoi modificarlo per soddisfare gli standard della tua organizzazione.
 
-### [!BADGE Nuovo!]{type=Informative}
+### Workfront: copia i documenti da problemi/richieste in progetti o attività già convertiti
 
 Questo scenario flessibile consente di copiare i documenti da problemi o richieste a progetti o attività convertiti in precedenza.
 
