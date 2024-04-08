@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7e970f4f707937a62f68c191a7cbd5dfa26e471c
+source-git-commit: 959bd3cab0de8b76c94fad1be5b6b2b8b7ae904b
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '908'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ Per ulteriori informazioni su Frame.io, consultate [Guida introduttiva a Frame.i
 
 ## Avvio e pianificazione del lavoro in Workfront
 
-L&#39;amministratore di Workfront abilita l&#39;integrazione tra Workfront e Frame.io configurando l&#39;account predefinito Frame.io nell&#39;area Setup e quindi designando gli utenti Frame.io in Workfront. Questo consente al coordinatore di pianificare e avviare il lavoro utilizzando Workfront Projects e l’analisi e l’approvazione formali.
+L&#39;amministratore di Workfront abilita l&#39;integrazione tra Workfront e Frame.io configurando l&#39;account predefinito Frame.io nell&#39;area Setup e quindi designando gli utenti Frame.io in Workfront. Questo consente al coordinatore di pianificare e avviare il lavoro utilizzando i progetti Workfront e i flussi di lavoro di revisione e approvazione formali.
 
 ### Configurare un account Frame.io predefinito
 
-Gli amministratori di Workfront avviano l’integrazione di Workfront e Frame.io aggiungendo un account Frame.io predefinito nell’area Setup di Workfront. Una volta configurato l&#39;account Frame.io predefinito, l&#39;integrazione crea progetti collegati tra Workfront e Frame.io.
+Gli amministratori di Workfront avviano l’integrazione di Workfront e Frame.io aggiungendo un account Frame.io predefinito nell’area Setup di Workfront. Una volta configurato l&#39;account Frame.io predefinito, tutti i progetti creati in Workfront avranno un progetto mirror creato in Frame.io.
 
 Per ulteriori informazioni, consulta [].
 
@@ -42,11 +42,11 @@ Quando un utente viene contrassegnato come utente Frame.io in Workfront e viene 
 
 * Vengono aggiunti come collaboratori in Frame.io
 * Possono inviare le risorse da Frame.io a Workfront per la revisione e l’approvazione formali
+* Possono visualizzare informazioni nella cartella di sincronizzazione unidirezionale da Workfront
 
 >[!TIP]
 >
 >Consigliamo di abilitare gli utenti che lavorano regolarmente in strumenti creativi e caricano risorse da rivedere e approvare come utenti Frame.io.
-
 
 Per ulteriori informazioni, consulta [].
 
@@ -86,26 +86,26 @@ Per ulteriori informazioni sulla revisione delle risorse in Frame.io, consulta
 
 Una volta che un creativo invia una risorsa completata a Workfront da Frame.io, il coordinatore del progetto può avviare il processo formale di revisione e approvazione in Workfront.
 
-Dopo aver creato l’approvazione, gli utenti tornano a Frame.io per aggiungere commenti e marcature alla risorsa. Possono anche prendere una decisione di approvazione nel visualizzatore Frame.io.
+Dopo aver creato l’approvazione, gli utenti tornano a Frame.io per aggiungere commenti e contrassegnare la risorsa. Possono anche prendere una decisione di approvazione nel visualizzatore Frame.io.
 
 ### Avviare revisioni e approvazioni formali in Workfront
 
 I coordinatori dei progetti possono creare modelli di approvazione riutilizzabili e modelli di revisione una tantum nell&#39;area Configurazione di Workfront. Tutte le attività di revisione e approvazione effettuate in Frame.io vengono registrate anche in Workfront.
 
+#### Aggiungi revisori e approvatori
+
 I coordinatori dei progetti hanno la possibilità di assegnare revisori, approvatori o una combinazione di entrambi:
 
-* **Revisori** può aggiungere commenti e markup alle risorse. Una volta terminata, la recensione può essere contrassegnata come completata. <!--example of when to add reviewers-->
-* **Approvatori** può aggiungere un commento alle risorse di markup. Devono prendere la decisione di portare avanti il processo di approvazione.
+* **Revisori** può aggiungere commenti e contrassegnare le risorse. Una volta terminata, la recensione può essere contrassegnata come completata. <!--example of when to add reviewers-->
+* **Approvatori** può aggiungere commenti e contrassegnare le risorse. Devono prendere la decisione di portare avanti il processo di approvazione.
 
 
+#### Creare un flusso di lavoro di revisione e approvazione
 
-Tutti i commenti aggiunti in Frame.io vengono visualizzati nella scheda Aggiornamenti di Workfront. Le risposte effettuate in Workfront non vengono riportate in Frame.io.
-
-I commenti contrassegnati Solo team non verranno visualizzati nella scheda Aggiornamenti di Workfront.
-
-I revisori e gli approvatori possono essere aggiunti ai modelli per utilizzo singolo o approvazione:
+Revisori e approvatori possono essere aggiunti a un flusso di lavoro di approvazione a utilizzo singolo o a un modello di approvazione:
 
 <!--can also assign teams and set deadline-->
+E-mail - e-mail con scadenza 72, 24 e in scadenza.
 
 * **Approvazioni per singolo utilizzo**: imposta le scadenze di approvazione
 
@@ -123,31 +123,34 @@ Nell’area Configurazione di Workfront, gli utenti con una licenza Standard pos
 
 ### Approvare le risorse in Frame.io
 
-Le parti interessate alle risorse collegate Frame.io possono rivedere e approvare all&#39;interno del visualizzatore Frame.io con la sincronizzazione dei commenti nel flusso di aggiornamento di Workfront, le decisioni, ecc.
+Le parti interessate possono rivedere e approvare le risorse collegate con il visualizzatore Frame.io.
+
+#### Accedere al visualizzatore Frame.io
+
+Gli utenti possono accedere al visualizzatore Frame.io nei modi seguenti:
+
+* Il widget In attesa della mia approvazione nella nuova Home di Workfront
+* Notifiche e-mail di Workfront.
+
+Agli utenti esterni di Workfront verrà richiesto di creare un accesso Frame.io per rivedere e approvare le risorse.
+
+#### Commenta e contrassegna risorse
+
+Tutti i commenti aggiunti nel visualizzatore Frame.io vengono registrati anche nella scheda Workfront Update. Le risposte effettuate in Workfront non vengono visualizzate in Frame.io. I commenti contrassegnati Solo team non verranno visualizzati nella scheda Aggiornamenti di Workfront.
+
+#### Prendi una decisione
+
+Gli approvatori devono prendere una delle seguenti decisioni:
+
+* Approva: questo
+* Approva con modifiche
+* Azioni da intraprendere
+
+I revisori possono contrassegnare la loro revisione come completata all&#39;interno dei visualizzatori Frame.io.
 
 <!-- include screenshot from frame.io-->
 
-Se lavori esclusivamente in Frame, puoi ricevere una notifica tramite e-mail.
 
-Se lavori esclusivamente in Workfront, puoi utilizzare il widget di approvazione in casa.
-
-è possibile accedere al visualizzatore Frame.io da ogni volta che si lavora
-
-**Approvare risorse da Frame.io**
-come vengono notificati
-
-prendere una decisione: approvare, approvare con modifiche, lavorare con le esigenze
-
-**Approvare risorse da Workfront**
-come vengono notificati
-
-Home In attesa del widget di approvazione
-
-E-mail - e-mail con scadenza 72, 24 e in scadenza.
-
-Agli utenti WF esterni verrà richiesto di creare un login per frame
-
-Se la risorsa non è collegata a un fotogramma, può visualizzare la miniatura in WF e utilizzare lo streaming di commenti. È possibile prendere decisioni sulla revisione e l&#39;approvazione.
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
 
