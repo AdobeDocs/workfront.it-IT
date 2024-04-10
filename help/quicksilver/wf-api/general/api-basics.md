@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 78584b3e774af77d291ea99327c344fdb4e28709
+source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
 workflow-type: tm+mt
 source-wordcount: '4386'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Qualsiasi utilizzo dell’API deve essere testato nell’ambiente beta di Workfr
 
 ## URL API WORKFRONT
 
-Per informazioni sull’URL che utilizzerai per chiamare l’API di Workfront, consulta [Formato del dominio per le chiamate API di Adobe Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
+Per informazioni sull’URL che utilizzerai per chiamare l’API di Workfront, consulta [Formato del dominio per le chiamate API di Adobe Workfront](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
 
 ## Nozioni di base su REST
 
