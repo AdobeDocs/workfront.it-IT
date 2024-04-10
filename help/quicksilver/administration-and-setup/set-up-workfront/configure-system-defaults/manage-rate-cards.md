@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: a61635022da9eed7c2fc61bad1cbca0f7f23d7ec
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su [!UICONTROL **Classifica schede**].
-1. Clic [!UICONTROL **Nuova scheda tariffaria**], quindi digita un nome per la scheda delle tariffe nel [!UICONTROL **Scheda tariffa**] per sostituire &quot;Tasso senza titolo&quot;.
-1. Nella schermata della scheda, fai clic su [!UICONTROL **Aggiungi mansione**].
+1. Clic [!UICONTROL **Nuova scheda tariffaria**], quindi digita un nome per la scheda delle tariffe nel [!UICONTROL Nuova scheda tariffaria] per sostituire &quot;Tasso senza titolo&quot;.
+1. (Facoltativo) Nella schermata Dettagli scheda tariffa, aggiungi un [!UICONTROL **Descrizione**].
+1. (Facoltativo) Per allegare un modulo personalizzato alla scheda delle tariffe, fai clic sul pulsante [!UICONTROL **Aggiungi modulo personalizzato**] nell&#39;angolo superiore destro e selezionare un modulo personalizzato dall&#39;elenco visualizzato.
+
+   Per ulteriori informazioni su come allegare un modulo personalizzato, consulta [Aggiungere un modulo personalizzato a un oggetto](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+1. Clic [!UICONTROL **Ruoli e tassi**] nel pannello di navigazione a sinistra.
+1. Nella schermata Rate Card Job Roles and Rates (Ruoli e tariffe delle schede di tariffa), fare clic su [!UICONTROL **Aggiungi mansione**].
 1. Nella finestra di dialogo, seleziona una [!UICONTROL **Ruolo**] per definire le tariffe di fatturazione per.
 
    Nel campo Tariffa di fatturazione predefinita viene visualizzata la tariffa a livello di sistema per questa mansione, se definita.
@@ -82,7 +88,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fai clic su [!UICONTROL **Salva**].
 1. (Facoltativo) Per aggiungere un’altra tariffa di fatturazione, per la stessa mansione in un’altra posizione o per una mansione separata, fai clic su [!UICONTROL **Aggiungi mansione**].
-1. (Facoltativo) Per modificare una tariffa di fatturazione, selezionala nella scheda della tariffa e fai clic su **Modifica** icona.
+1. (Facoltativo) Per modificare una scheda tariffa, fare clic sul nome della scheda tariffa nell&#39;elenco Schede tariffa in Configurazione. Per modificare una tariffa di fatturazione, fai clic su [!UICONTROL **Ruoli e tassi**] nel pannello di navigazione a sinistra della scheda tariffa. Quindi, seleziona la tariffa e fai clic su **Modifica** icona ![Icona Modifica](assets/edit-icon.png).
 
 ## Copiare una scheda tariffa
 
@@ -90,15 +96,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Nel pannello a sinistra, fai clic su [!UICONTROL **Classifica schede**].
 1. Seleziona la casella di controllo accanto alla scheda delle tariffe nell’elenco e fai clic su **Copia** icona ![Icona Copia](assets/copy-icon.png).
+1. Digita un nome per la scheda della tariffa nel [!UICONTROL Copia scheda della tariffa] per sostituire &quot;Tasso senza titolo&quot;. Quindi, fai clic su **Salva**.
 
-   Viene aggiunta una scheda di frequenza duplicata. Fare clic sul nome della scheda della tariffa nell&#39;elenco per modificarlo.
+   La nuova scheda tariffe viene salvata. Modifica i dettagli della scheda della tariffa, le mansioni e le tariffe in base alle esigenze.
 
 ## Eliminare un&#39;intera scheda tariffaria
 
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su [!UICONTROL **Classifica schede**].
-1. Seleziona la casella di controllo accanto alla scheda delle tariffe nell’elenco e fai clic su **Elimina** icona ![Icona Elimina](assets/delete.png).
+1. Selezionare la casella di controllo accanto alla scheda delle tariffe nell&#39;elenco e fare clic sul pulsante **Elimina** icona ![Icona Elimina](assets/delete.png).
 
    >[!NOTE]
    >
