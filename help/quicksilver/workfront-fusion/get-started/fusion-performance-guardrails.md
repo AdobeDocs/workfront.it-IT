@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 370743780e5be419eb6a8c432619e5d76acfbfce
+source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 1%
@@ -76,3 +76,4 @@ Wokfront Fusion supporta solo browser basati su Chrome.
 ## Nuovi tentativi
 
 Quando si utilizza il modulo Interrompi e si specifica la direttiva Riprova, se uno scenario si interrompe consecutivamente 10 volte in un arco temporale di 2 minuti, viene disattivato automaticamente.
+
