@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: ebcd2cae176d4fec2fd0bc308f00fa261621a95c
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 12%
+source-wordcount: '319'
+ht-degree: 8%
 
 ---
 
@@ -37,13 +37,17 @@ La tabella seguente mostra la versione e la pianificazione del supporto per l’
  </thead> 
  <tbody> 
  <tr>
+   <td>18</td> 
+   <td> <p>8 aprile 2023</p> </td> 
+   <td> <p>**durante il 2027</p> <p>(con versione 27.4)</p> </td> 
+  </tr>  <tr>
    <td>17</td> 
    <td> <p>12 ottobre 2023</p> </td> 
    <td> <p>**durante il 2026</p> <p>(con versione 26.10)</p> </td> 
   </tr> 
  <tr>
    <td>16</td> 
-   <td> <p>2023 aprile</p> <p>(con versione 23.2)</p> </td> 
+   <td> <p>Aprile 2023</p> <p>(con versione 23.2)</p> </td> 
    <td> <p>**durante il 2026</p> <p>(con versione 26.4)</p> </td> 
   </tr> 
   <tr> 
@@ -88,8 +92,8 @@ La tabella seguente mostra la versione e la pianificazione del supporto per l’
   </tr> 
   <tr> 
    <td>7</td> 
-   <td>2017 aprile</td> 
-   <td> <p>2020 aprile</p> <p>(con la versione 2020.2)</p> </td> 
+   <td>Aprile 2017</td> 
+   <td> <p>Aprile 2020</p> <p>(con la versione 2020.2)</p> </td> 
   </tr> 
   <tr> 
    <td>6</td> 
@@ -98,8 +102,8 @@ La tabella seguente mostra la versione e la pianificazione del supporto per l’
   </tr> 
   <tr> 
    <td>5</td> 
-   <td>2014 aprile</td> 
-   <td> <p>2019 aprile</p> <p>(con la versione 2019.2)</p> </td> 
+   <td>Aprile 2014</td> 
+   <td> <p>Aprile 2019</p> <p>(con la versione 2019.2)</p> </td> 
   </tr> 
   <tr> 
    <td>4</td> 
@@ -122,12 +126,12 @@ La tabella seguente mostra la versione e la pianificazione del supporto per l’
    <td> <p>Luglio 2017</p> <p>(con la versione 2017.2)</p> </td> 
   </tr> 
   <tr> 
-   <td>0.75</td> 
+   <td>0,75</td> 
    <td>2008</td> 
    <td> <p>Luglio 2017</p> <p>(con la versione 2017.2)</p> </td> 
   </tr> 
   <tr> 
-   <td>0.5</td> 
+   <td>0,5</td> 
    <td>2008</td> 
    <td> <p>Luglio 2017</p> <p>(con la versione 2017.2)</p> </td> 
   </tr> 
