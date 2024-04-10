@@ -7,9 +7,9 @@ description: Gli amministratori dispongono delle autorizzazioni necessarie per v
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '636'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,16 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, co
 
 Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Visualizza [!DNL Workfront Fusion] modelli come amministratore
+## Visualizza [!DNL Workfront Fusion] modelli come [!DNL Workfront Fusion] amministratore
 
 Per visualizzare una tabella di tutti i modelli creati e dei relativi stati:
 
 1. Clic **[!UICONTROL Amministrazione]** nel pannello di navigazione a sinistra per aprire [!UICONTROL Amministrazione] area.
+
+   >[!NOTE]
+   >
+   >L&#39;area Amministrazione è visibile solo agli amministratori di Workfront Fusion.
+
 1. Clic **[!UICONTROL Modelli]** nel pannello di navigazione a sinistra.
 
 Sono disponibili tre colonne relative allo stato di pubblicazione dei modelli. Un segno di spunta in una colonna indica quanto segue:
