@@ -1,52 +1,52 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: "Integrazione nativa alfa di Adobe Workfront e Frame.io: panoramica"
-description: Informazioni sull'integrazione alfa nativa di Adobe Workfront e Frame.io
+title: "Integrazione nativa beta di Adobe Workfront e Frame.io: panoramica"
+description: Informazioni sull’integrazione nativa di Adobe Workfront e Frame.io beta
 author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
 exl-id: 8c9f26fb-4d61-4743-959d-cfaba1b7b63b
-source-git-commit: 9e6033e495e83afa994b21996a4026ac484045a0
+source-git-commit: e67df8f8b54e3b65668aa266091203f8f0d9262d
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 0%
 
 ---
 
-# Integrazione alfa nativa di Adobe Workfront e Frame.io: panoramica
+# Integrazione nativa beta di Adobe Workfront e Frame.io: panoramica
 
-## Integrazione Workfront + Frame.io alfa
+## L&#39;integrazione Workfront + Frame.io beta
 
-Benvenuti nel programma alfa di integrazione Workfront + Frame.io! Come parte di questa alpha, potrai accedere in anteprima alla nostra esperienza di integrazione nativa Workfront + Frame.io e condividere il tuo feedback che alla fine plasmerà l&#39;esperienza finale che rilasceremo alla nostra base di clienti più ampia. Con questa integrazione, puntiamo a creare un flusso di lavoro end-to-end senza attriti tra Workfront e Frame.io con l&#39;obiettivo di fornire una soluzione ideale e unificata per la revisione e l&#39;approvazione.
+Benvenuti nel programma beta per l&#39;integrazione Workfront + Frame.io. Come parte di questa versione beta, potrai accedere in anteprima alla nostra esperienza di integrazione nativa Workfront + Frame.io e condividere il tuo feedback che determinerà l’esperienza finale che rilasceremo alla nostra base di clienti più ampia. Con questa integrazione, puntiamo a creare un flusso di lavoro end-to-end senza attriti tra Workfront e Frame.io con l&#39;obiettivo di fornire una soluzione ideale e unificata per la revisione e l&#39;approvazione.
 
 Ottieni il meglio di entrambi i mondi e scopri come un’esperienza semplificata tra Frame.io e Workfront (comprese le nuove approvazioni dei documenti) può stimolare il ciclo di vita dei contenuti dall’inizio del lavoro alla firma e alla consegna.
 
 
-Per ulteriori informazioni sulle feature pianificate dell&#39;alfa e su come testarle, consultate [Integrazione alfa nativa di Adobe Workfront e Frame.io: funzioni](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md).
+Per ulteriori informazioni sulle funzioni pianificate della versione beta e su come testarle, consulta [Integrazione nativa beta di Adobe Workfront e Frame.io: funzioni](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md).
 
 >[!NOTE]
 >
->Se vi imbatteste in queste pagine senza che la vostra azienda partecipasse a questo programma alfa, assicuratevi di trattare le informazioni con attenzione e contattate l&#39;amministratore Workfront o Frame.io per ulteriori informazioni.
+>Nel caso in cui ti imbattessi in queste pagine senza che la tua azienda partecipasse a questo programma beta, assicurati di trattare le informazioni con attenzione e rivolgiti al tuo amministratore Workfront o Frame.io per ulteriori informazioni.
 
 ## Canali di comunicazione
 
-Questo programma alfa offre l&#39;opportunità unica di testare l&#39;esperienza diretta che intendiamo creare sfruttando al meglio sia Workfront che Frame.io. Workfront per la pianificazione del lavoro, il monitoraggio e la gestione del processo di revisione e approvazione delle risorse richieste; Frame.io per la collaborazione creativa e la conduzione della revisione e approvazione.
+Questo programma beta offre l’opportunità unica di testare l’esperienza diretta che intendiamo creare sfruttando il meglio sia di Workfront che di Frame.io. Workfront per la pianificazione del lavoro, il monitoraggio e la gestione del processo di revisione e approvazione delle risorse richieste; Frame.io per la collaborazione creativa e la conduzione della revisione e approvazione.
 
-Come parte del programma Alpha, lavoreremo a stretto contatto per modellare quella che diventerà la futura esperienza di revisione e approvazione formale unificata in tutti gli Adobi.
+Come parte del programma beta, lavoreremo a stretto contatto per definire ciò che diventerà la futura esperienza di revisione e approvazione formale unificata in tutti gli Adobi.
 
 A tal fine, abbiamo stabilito alcuni canali di comunicazione che ci consentiranno di rimanere connessi, condividere gli aggiornamenti e ottenere il tuo feedback pratico. Il nostro obiettivo è capire quali funzionalità sarebbero necessarie per consentire alla tua azienda e ai tuoi utenti di adottare questa soluzione nel tuo ambiente di produzione. Utilizza i seguenti canali di comunicazione per condividere i tuoi commenti:
 
-### Alpha di chiamate di feedback prototipo demo &amp; MVP (per cliente)
+### chiamate di feedback sul prototipo beta demo &amp; MVP (per cliente)
 
-Il team di Adobe organizzerà più riunioni individuali con ogni cliente alfa per presentare il prototipo MVP e l’esperienza rilasciata al tuo ambiente di anteprima/sandbox. Durante queste chiamate, avrai l’opportunità di fornire un feedback e farci conoscere le tue opinioni sul modo in cui immaginiamo la futura revisione e approvazione unificata e su ciò che è necessario per permetterti di adottare questo in produzione. Rivolgiti al portavoce del gruppo per sapere quando è prevista la chiamata successiva. Il piano prevede di iniziare con le chiamate settimanali fino a quando non avrai acquisito tutti i tuoi feedback e quindi di passare a una cadenza di chiamate meno frequente.
+Il team di Adobe organizzerà più riunioni individuali con ogni cliente beta per presentare il prototipo MVP e l’esperienza rilasciata al tuo ambiente di anteprima/sandbox. Durante queste chiamate, avrai l’opportunità di fornire un feedback e farci conoscere le tue opinioni sul modo in cui immaginiamo la futura revisione e approvazione unificata e su ciò che è necessario per permetterti di adottare questo in produzione. Rivolgiti al portavoce del gruppo per sapere quando è prevista la chiamata successiva. Il piano prevede di iniziare con le chiamate settimanali fino a quando non avrai acquisito tutti i tuoi feedback e quindi di passare a una cadenza di chiamate meno frequente.
 
 Oltre alle sessioni di demo/feedback guidate, ti invitiamo a continuare a esplorare l’esperienza ed eseguire ulteriori test con i vari gruppi e utenti tipo coinvolti. Seguire queste istruzioni di base su come verificare la soluzione.
 
 ### Canale di Slack (per cliente)
 
-Il team di Adobi configurerà e inviterà il gruppo di test alfa a un’area di lavoro di Slack. Questo spazio ha lo scopo di accelerare la comunicazione e consentire di condividere e discutere facilmente idee al di fuori delle chiamate pianificate, ma anche di inviare i problemi che si incontrano. Contatta il portavoce del gruppo di test se non sei stato invitato a questa area di lavoro Slack.
+Il team di Adobi configurerà e inviterà il gruppo di beta testing a un’area di lavoro di Slack. Questo spazio ha lo scopo di accelerare la comunicazione e consentire di condividere e discutere facilmente idee al di fuori delle chiamate pianificate, ma anche di inviare i problemi che si incontrano. Contatta il portavoce del gruppo di test se non sei stato invitato a questa area di lavoro Slack.
 
 Leggi la sezione sulle best practice per inviare idee e problemi
 
@@ -62,7 +62,7 @@ We value your input and believe that your perspective is crucial in helping us c
 
 Mention it during our regular demo/feedback calls 
 
-Share it on our alpha program slack channel  
+Share it on our beta program slack channel  
 
 Or send it via e-mail to ossmann@adobe.com 
 
