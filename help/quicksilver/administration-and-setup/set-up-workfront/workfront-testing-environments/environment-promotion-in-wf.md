@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 5d84d50b8984bbff7bbc02ffc0ce86ec1f486742
+source-git-commit: 53194c44b55f5441323672425106d8df4c7cc508
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 1%
+source-wordcount: '927'
+ht-degree: 2%
 
 ---
 
@@ -98,6 +98,15 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 | Pool di Risorse (RSPL) | Gruppo di risorse |
 
 \* Attualmente non disponibile
+
+>[!NOTE]
+>
+>La sovrascrittura è attualmente disponibile per i seguenti oggetti:
+>
+>* Ruolo
+>* Team
+>* Azienda
+>* Gruppo
 
 
 ## Stati di promozione dell’ambiente
