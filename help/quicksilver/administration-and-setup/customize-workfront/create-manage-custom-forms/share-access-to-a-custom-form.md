@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 0%
+source-wordcount: '844'
+ht-degree: 1%
 
 ---
 
 # Condividere un modulo personalizzato
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 È possibile configurare l&#39;accesso per un modulo personalizzato in modo da controllare chi, persona, ruolo, gruppo, team, azienda, può visualizzarlo, condividerlo e modificarlo.
 
@@ -69,7 +63,7 @@ Anziché lasciare un modulo personalizzato nello stato di condivisione predefini
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
-1. Seleziona il modulo personalizzato, quindi fai clic su **Condividi** <span class="preview">o ![Icona Condividi](assets/share-icon.png).</span>
+1. Seleziona il modulo personalizzato, quindi fai clic su ![Icona Condividi](assets/share-icon.png).
 1. Nella casella visualizzata, sotto **Concedi accesso al modulo personalizzato a**, inizia a digitare il nome dell’utente, del team, della mansione, del gruppo o dell’azienda con cui vuoi condividere il modulo personalizzato, quindi premi **Invio** quando viene visualizzato il nome.
 1. Per regolare l’accesso per l’utente, il team, la mansione, il gruppo o la società appena aggiunti, fai clic sul menu a discesa a destra del nome, quindi configura una delle seguenti opzioni disponibili e le relative impostazioni avanzate:
 
@@ -118,7 +112,7 @@ Anziché lasciare un modulo personalizzato nello stato di condivisione predefini
 {{step-1-to-setup}}
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
-1. Seleziona il modulo personalizzato, quindi fai clic su **Condividi** <span class="preview">o ![Icona Condividi](assets/share-icon.png).</span>
+1. Seleziona il modulo personalizzato, quindi fai clic su ![Icona Condividi](assets/share-icon.png).
 1. Nella casella visualizzata fare clic sulla X a destra del nome dell&#39;utente, del team, della mansione, del gruppo o della società a cui non si desidera più avere accesso speciale al modulo.
 1. (Facoltativo) Ripeti il passaggio precedente a per altri nomi da rimuovere.
 1. Fai clic su **Salva**.

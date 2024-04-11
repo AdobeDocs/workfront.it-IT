@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 21b2a8180512f71383a7d5201d62fd9ab166d8ef
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1270'
 ht-degree: 0%
 
 ---
 
 # Aggiungere logica di visualizzazione e logica di salto con il progettista del modulo
-
-<span class="preview">Le informazioni contenute in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 È possibile decidere quali sezioni di un modulo personalizzato devono essere visualizzate o ignorate in base alle scelte effettuate da un utente durante la compilazione.
 
@@ -123,10 +117,6 @@ La logica di visualizzazione definisce quali campi personalizzati vengono visual
 
    Le icone della logica di visualizzazione vengono aggiunte al campo di destinazione e al campo di definizione nel progettista del modulo.
 
->[!NOTE]
->
-><span class="preview">La logica di visualizzazione è disponibile solo quando si visualizza l&#39;anteprima del modulo nel progettista del modulo nell&#39;ambiente di anteprima.</span>
-
 ## Aggiungere la logica di salto a un modulo personalizzato
 
 La logica di salto definisce i campi modulo personalizzati che vengono saltati quando l’utente seleziona un valore specifico in un campo a scelta multipla. I campi ignorati sono nascosti nel modulo. La logica viene applicata al campo di definizione in cui viene effettuata la selezione, non ai campi saltati.
@@ -157,7 +147,4 @@ La logica di salto definisce i campi modulo personalizzati che vengono saltati q
 
    Le icone di salto della logica vengono aggiunte al campo di destinazione e al campo di definizione nel progettista del modulo.
 
->[!NOTE]
->
-><span class="preview">La logica di salto è disponibile solo quando si visualizza l&#39;anteprima del modulo nel progettista del modulo nell&#39;ambiente di anteprima.</span>
 

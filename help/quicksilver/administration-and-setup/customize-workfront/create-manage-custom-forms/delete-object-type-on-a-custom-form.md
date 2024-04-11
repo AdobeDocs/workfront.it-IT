@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
 
 # Eliminare tipi di oggetto in un modulo personalizzato
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 In un modulo personalizzato esistente è possibile eliminare i tipi di oggetto associati al modulo. Dopo questa operazione, gli utenti non potranno più allegare il modulo a oggetti di quel tipo.
 
@@ -68,7 +62,7 @@ Un modulo personalizzato deve avere almeno un tipo di oggetto.
 {{step-1-to-setup}}
 
 1. Clic **Forms personalizzato** nel pannello a sinistra.
-1. Seleziona il modulo personalizzato da modificare, quindi fai clic su **Modifica** <span class="preview">o ![Icona Modifica](assets/edit-icon.png).</span>
+1. Seleziona il modulo personalizzato da modificare, quindi fai clic su ![Icona Modifica](assets/edit-icon.png).
 1. Fai clic sulla X su uno qualsiasi dei **Tipi di oggetto** da eliminare dal modulo, quindi fare clic su **Elimina** sul messaggio di avviso visualizzato.
 
    ![](assets/click-x-object-types.jpg)

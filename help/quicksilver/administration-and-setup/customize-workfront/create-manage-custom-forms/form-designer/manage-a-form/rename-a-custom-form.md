@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
 
 # Rinominare un modulo personalizzato con il progettista del modulo
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 È possibile rinominare un modulo personalizzato in qualsiasi momento dopo averlo creato con il progettista del modulo.
 
@@ -61,7 +55,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Nella visualizzazione visualizzata è possibile esaminare tutti i moduli personalizzati creati per l&#39;organizzazione. È inoltre possibile vedere chi ha creato ogni modulo, con quale tipo di oggetto funziona e se è attivo.
 
-1. Seleziona il modulo personalizzato da rinominare, quindi fai clic su **Modifica** <span class="preview">o ![Icona Modifica](assets/edit-icon2.png).</span>
+1. Seleziona il modulo personalizzato da rinominare, quindi fai clic su o ![Icona Modifica](assets/edit-icon2.png).
 1. Per modificare il titolo, fare clic sul nome del modulo.
 1. Per modificare la descrizione, fare clic nella casella di testo Descrizione.
 

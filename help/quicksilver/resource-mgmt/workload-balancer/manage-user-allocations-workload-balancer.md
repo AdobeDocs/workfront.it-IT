@@ -6,9 +6,9 @@ description: In qualità di Responsabile risorse, puoi assegnare il lavoro agli 
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2798'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,6 @@ ht-degree: 0%
 # Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro
 
 <!-- Audited: 01/2024 -->
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 In qualità di Responsabile risorse, è possibile assegnare lavoro agli utenti e gestire le loro allocazioni giornaliere, settimanali o mensili dal Bilanciatore dei carichi di lavoro per assicurarsi che venga allocata una quantità di ore adatta alle loro programmazioni disponibili.
 
@@ -259,7 +253,7 @@ Come parte dell’assegnazione del lavoro agli utenti, puoi modificare le alloca
 
 >[!TIP]
 >
-><span class="preview">A destra del nome dell’elemento di lavoro viene visualizzata un’icona a forma di matita per indicare che è stato regolato manualmente.</span>
+>A destra del nome dell’elemento di lavoro viene visualizzata un’icona a forma di matita per indicare che è stato regolato manualmente.
 
 ![Icona ore regolate manualmente](assets/icon-for-manually-adjusted-hours.png)
 

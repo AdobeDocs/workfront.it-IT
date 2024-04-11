@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
 
 # Aggiunta o eliminazione di tipi di oggetto da un modulo personalizzato esistente con il progettista del modulo
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 È possibile aggiungere o eliminare tipi di oggetto da un modulo personalizzato esistente mediante lo strumento di progettazione del modulo.
 
@@ -70,7 +64,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Nella visualizzazione visualizzata è possibile esaminare tutti i moduli personalizzati creati per l&#39;organizzazione. È inoltre possibile vedere chi ha creato ogni modulo, con quale tipo di oggetto funziona e se è attivo.
 
-1. Seleziona il modulo personalizzato a cui desideri aggiungere altri tipi di oggetto, quindi fai clic su **Modifica** <span class="preview">o ![Icona Modifica](assets/edit-icon.png).</span>
+1. Seleziona il modulo personalizzato a cui desideri aggiungere altri tipi di oggetto, quindi fai clic su ![Icona Modifica](assets/edit-icon2.png).
 
 1. Nella parte superiore del modulo fare clic sul segno più + dopo **Tipi di oggetto**, quindi seleziona il tipo desiderato nel menu visualizzato. È possibile ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
 
@@ -97,10 +91,10 @@ Per eliminare un tipo di oggetto:
 {{step-1-to-setup}}
 
 1. Clic **Forms personalizzato** nel pannello a sinistra.
-1. Seleziona il modulo personalizzato da modificare, quindi fai clic su **Modifica** <span class="preview">o ![Icona Modifica](assets/edit-icon.png).</span>
+1. Seleziona il modulo personalizzato da modificare, quindi fai clic su ![Icona Modifica](assets/edit-icon2.png).
 1. Fai clic sulla X su uno qualsiasi dei **Tipi di oggetto** che si desidera eliminare dal modulo.
 
    ![](assets/delete-object-types.png)
 
 1. (Facoltativo) Ripetere il passaggio precedente per qualsiasi altro tipo di oggetto che si desidera rimuovere dal modulo.
-1. Clic **Fine**, quindi fai clic su **Salva e chiudi**.
+1. Clic **Applica**, quindi fai clic su **Salva e chiudi**.

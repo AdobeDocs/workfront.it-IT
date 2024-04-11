@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 83036270d430dcc80069f4de87b6ac1e8da689e3
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '6079'
+source-wordcount: '6018'
 ht-degree: 4%
 
 ---
 
 # Progettare un modulo con il progettista del modulo
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 È possibile progettare un modulo personalizzato con il progettista del modulo. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
@@ -731,8 +725,6 @@ Per aggiungere immagini, PDF o video:
 
    Clic **Salva e chiudi**.
 
-<div class="preview">
-
 ### Aggiungi campi nativi Workfront
 
 Puoi aggiungere campi nativi di Workfront ai moduli personalizzati. Quando il modulo personalizzato viene allegato a un oggetto, il campo viene popolato dai dati dell’oggetto. Ad esempio, il campo Description (Descrizione) in un modulo personalizzato allegato a un progetto estrae la descrizione del progetto. (Il campo può mostrare &quot;N/D&quot; se non sono disponibili dati).
@@ -824,8 +816,6 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
    oppure
 
    Clic **Salva e chiudi**.
-
-</div>
 
 ### Aggiungere file Adobe XD
 

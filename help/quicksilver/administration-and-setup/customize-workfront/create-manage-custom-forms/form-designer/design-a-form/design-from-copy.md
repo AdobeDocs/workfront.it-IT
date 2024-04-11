@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '386'
 ht-degree: 0%
 
 ---
 
 # Progettare un modulo da una copia con il progettista del modulo
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 È possibile progettare un nuovo modulo personalizzato basato su un modulo esistente. È possibile allegare moduli personalizzati a diversi oggetti di Workfront per acquisire dati su tali oggetti.
 
@@ -58,7 +52,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step-1-to-setup}}
 
 1. Clic **Forms personalizzato.**
-1. Seleziona il modulo personalizzato da utilizzare come base per un nuovo modulo personalizzato, quindi fai clic su **Copia** <span class="preview">o ![Icona Copia](assets/copy-icon.png).</span>
+1. Seleziona il modulo personalizzato da utilizzare come base per un nuovo modulo personalizzato, quindi fai clic su ![Icona Copia](assets/copy-icon.png).
 1. In **Copia modulo personalizzato** nella casella visualizzata, digitare le informazioni seguenti:
 
    <table style="table-layout:auto"> 
@@ -72,20 +66,20 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      <tr> 
       <td role="rowheader"> <p role="rowheader">Tipi di moduli </p> </td> 
       <td> <p>In <b>Tipo di modulo</b> selezionare i tipi di oggetto che si desidera utilizzare nel modulo personalizzato e fare clic sulla X accanto ai tipi che si desidera rimuovere. I tipi già associati al modulo sono disabilitati nell'elenco.</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>Il modulo deve essere associato ad almeno un tipo di oggetto.</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Clic **Copia modulo**.
+1. Clic **Copia**.
 
    Nel modulo originale, se i campi calcolati fanno riferimento a campi incompatibili con un tipo di oggetto aggiunto al nuovo modulo, verrà visualizzato un messaggio in cui viene richiesto di modificare i calcoli in tali campi.
 
    Analogamente, se un&#39;opzione di accesso per un&#39;interruzione di sezione nel modulo originale non è compatibile con un tipo di oggetto aggiunto al nuovo, verrà visualizzato un messaggio in cui viene richiesto di modificare l&#39;opzione.
 
-1. Seleziona il modulo appena copiato, quindi fai clic su **Modifica** <span class="preview">o ![Icona Modifica](assets/edit-icon.png).</span>
+1. Seleziona il modulo appena copiato, quindi fai clic su ![Icona Modifica](assets/edit-icon.png).
 1. Apportare le modifiche desiderate al modulo, come descritto nelle sezioni seguenti della [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) articolo:
 
    * [Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)

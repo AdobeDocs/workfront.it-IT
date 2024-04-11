@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
 
 # Trasferimento dei dati del modulo personalizzato durante la conversione di un oggetto
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 A seconda delle esigenze aziendali dell’organizzazione, il lavoro definito in un’attività o in un problema potrebbe diventare troppo grande da gestire all’interno dell’attività o del problema. In questo caso, è possibile convertirli in un elemento di lavoro più grande:
 
@@ -65,7 +59,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 {{step-1-to-setup}}
 
 1. Clic **Forms personalizzato**.
-1. Trova il modulo desiderato, quindi fai clic su **Modifica** <span class="preview">o ![Icona Modifica](assets/edit-icon.png).</span>
+1. Trova il modulo desiderato, quindi fai clic su ![Icona Modifica](assets/edit-icon.png).
 1. Nella parte superiore del modulo, aggiungi l’oggetto in cui intendi convertire l’attività o il problema.
 
    >[!INFO]

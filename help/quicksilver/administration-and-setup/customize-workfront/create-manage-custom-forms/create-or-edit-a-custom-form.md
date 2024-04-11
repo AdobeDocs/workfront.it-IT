@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
-Puoi creare o modificare un nuovo modulo personalizzato. Entrambe le attività sono illustrate in questo articolo.
+È possibile creare un nuovo modulo personalizzato o modificare un modulo esistente. Entrambe le attività sono illustrate in questo articolo.
 
 Per informazioni sulla creazione di un nuovo modulo personalizzato da un modulo esistente, vedi [Copiare un modulo personalizzato per crearne uno nuovo con il generatore di moduli legacy](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
@@ -116,7 +110,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    I moduli personalizzati vengono visualizzati in un elenco. Puoi rivedere tutti i moduli personalizzati e i campi personalizzati creati per la tua organizzazione. È inoltre possibile vedere chi ha creato ogni modulo, gli oggetti associati e se è attivo.
 
-1. Seleziona il modulo personalizzato da modificare, quindi fai clic su **Modifica** <span class="preview">o ![Icona Modifica](assets/edit-icon.png).</span>
+1. Seleziona il modulo personalizzato da modificare, quindi fai clic su ![Icona Modifica](assets/edit-icon.png).
 1. (Facoltativo) Per modificare il titolo e la descrizione del modulo personalizzato, fai clic sul pulsante **Impostazioni modulo** , quindi digita un **Titolo modulo** e **Descrizione**.
 
 1. (Facoltativo) Se si desidera aggiungere altri tipi di oggetto al modulo in modo che possa essere allegato a più oggetti, fare clic sul segno più + dopo **Tipi di oggetto**, quindi seleziona il tipo desiderato nel menu visualizzato.

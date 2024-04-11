@@ -8,20 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
-source-git-commit: ccb2b6bb9fa63d29523ff396490f9580ad130bdd
+source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '936'
 ht-degree: 0%
 
 ---
 
 # Configurare la condivisione per campi personalizzati e widget con il generatore di moduli legacy
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
-
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Per impostazione predefinita, quando si aggiunge un nuovo campo personalizzato o widget a un modulo personalizzato, chiunque nel sistema con accesso ai moduli personalizzati può modificare le proprietà di tale elemento, ad esempio l’etichetta e il nome. Puoi cambiare questa impostazione controllando con chi può essere condiviso.
 
@@ -63,11 +57,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Se stai configurando la condivisione per un campo personalizzato o un widget nell’istanza Workfront della tua organizzazione, effettua le seguenti operazioni:
 
    1. Clic **Campi** per aprire l&#39;area Campi.
-   1. Selezionare l&#39;elemento per il quale si desidera configurare la condivisione, quindi fare clic su **Condividi** <span class="preview">o ![Icona Condividi](assets/share-icon.png).</span>
+   1. Selezionare l&#39;elemento per il quale si desidera configurare la condivisione, quindi fare clic su ![Icona Condividi](assets/share-icon.png).
 
    Oppure, se stai configurando la condivisione per un campo personalizzato o un widget in un modulo personalizzato esistente, effettua le seguenti operazioni:
 
-   1. Seleziona il modulo personalizzato, quindi fai clic su **Modifica** <span class="preview">o ![Icona Modifica](assets/edit-icon.png).</span>
+   1. Seleziona il modulo personalizzato, quindi fai clic su ![Icona Modifica](assets/edit-icon.png).
    1. Nell&#39;area di modifica dei moduli a destra, selezionare l&#39;elemento per il quale si desidera configurare la condivisione.
    1. Nel pannello a sinistra, fai clic su **Condividi campo**.
 
@@ -131,7 +125,7 @@ Puoi scoprire chi ha ereditato l’accesso a un campo personalizzato o a un widg
 1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
 
 1. Nel pannello a sinistra, fai clic su **Forms personalizzato**.
-1. Fai clic su **Campi** , quindi selezionare il campo, l&#39;immagine o il widget di accesso.
+1. Clic **Campi**, quindi seleziona il campo, l’immagine o il widget di accesso.
 1. Nella casella visualizzata, fai clic su **Autorizzazioni ereditate** e visualizzare i nomi visualizzati.
 1. Clic **Annulla**.
 
