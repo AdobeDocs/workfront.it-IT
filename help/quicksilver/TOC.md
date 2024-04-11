@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0b40f44929dc8ec01e97f88ddacbbf7bf111775c
 workflow-type: tm+mt
-source-wordcount: '14108'
+source-wordcount: '14151'
 ht-degree: 1%
 
 ---
@@ -412,6 +412,8 @@ ht-degree: 1%
       * Integrazione di Workfront e Frame.io alfa {#frame-io-wf-integration-alpha}
          * [Integrazione alfa nativa di Adobe Workfront e Frame.io: panoramica](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
          * [Integrazione alfa nativa di Adobe Workfront e Frame.io: funzioni](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+      * Data lake beta di Workfront {#data-lake-beta}
+         * [Informazioni beta del data lake di Workfront](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Amministrazione e configurazione {#administration-and-setup}
    * [Amministrazione e configurazione: indice articolo](administration-and-setup/administration-and-setup.md)
    * Introduzione all’amministrazione {#get-started-administration}
@@ -1735,6 +1737,12 @@ ht-degree: 1%
       * [Visualizzare la visualizzazione Attività per team in Analisi avanzate](enhanced-analytics/activity-by-team-overview.md)
       * [Visualizzare la visualizzazione Capacità risorse in Analisi avanzate](enhanced-analytics/resource-capacity-overview.md)
       * [Visualizzare la visualizzazione della capacità del team in Analisi avanzate](enhanced-analytics/team-capacity-overview.md)
+   * Data lake di Workfront {#data-lake}
+      * [Panoramica del data lake di Workfront](reports-and-dashboards/data-lake/data-lake-overview.md)
+      * [Creare un account di lettura](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [dizionario dati del data lake di Workfront](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [Esempi di query del data lake di Workfront di base](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Condividere i dati del data lake con strumenti di business intelligence e data warehouse esterni](reports-and-dashboards/data-lake/share-data-externally.md)
 * Gestire le risorse {#manage-resources}
    * [Gestire le risorse](resource-mgmt/manage-resources.md)
    * Gestione delle risorse {#resource-management}

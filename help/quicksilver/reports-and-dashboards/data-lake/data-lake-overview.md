@@ -1,0 +1,37 @@
+---
+content-type: overview;reference
+product-area: reports and dashboards
+navigation-topic: data lake
+title: Panoramica del data lake di Workfront
+description: Panoramica della funzionalità del data lake di Workfront
+author: Nolan
+feature: Reports and Dashboards
+hidefromtoc: true
+hide: true
+recommendations: noDisplay, noCatalog
+source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 0%
+
+---
+
+# Panoramica del data lake di Workfront
+
+Il data lake di Workfront offre un accesso senza precedenti ai dati Workfront, consentendo di rispondere a domande critiche e misurare il valore dei processi. Questa funzionalità consente ai clienti aziendali di interrogare i propri dati utilizzando strumenti di visualizzazione dei dati direttamente da un data lake di Workfront o di esportare i dati Workfront in data warehouse di proprietà del cliente.
+
+Gli abbonati potranno collegare il loro strumento di business intelligence di scelta (Tableau, Power BI, Domo, Looker, ecc.) al data lake di Workfront per creare visualizzazioni dati con i seguenti tipi di dati:
+
+* Bassa latenza, dati dello stato corrente
+* Modificare i record di eventi per i confronti point-in-time
+* Snapshot cronologici giornalieri per l&#39;analisi delle tendenze
+
+## data lake di Workfront: indice articolo
+
+Per ulteriori informazioni sul data lake di Workfront, vedi i seguenti articoli:
+
+* [Informazioni beta del data lake di Workfront](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+* [Creare un account di lettura](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [dizionario dati del data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
+* [Condividere i dati del data lake con strumenti di business intelligence e data warehouse esterni](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
+<!-- * [Basic Workfront data lake query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) -->
