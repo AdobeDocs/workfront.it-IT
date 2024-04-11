@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: b748e02cb6c0d049e479039aa54b6aa82dc02697
+source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2168'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
                                 <p>Produzione per rilascio rapido: con la versione 24.2 (15 febbraio 2024)</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio trimestrale: da definire</p>
+                                <p>Produzione per la versione trimestrale: con la versione 24.4 (11 aprile 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -371,7 +371,7 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
                                 <p><span style="color: #ff0000;">Questa funzione è stata rimossa dalla produzione per i clienti con rilascio rapido il 18 marzo 2024.</span></p>
                             </li>
                             <li>
-                                <p>Produzione per la versione trimestrale: con la versione 24.4 (11 aprile 2024)</p>
+                                <p>Produzione per rilascio trimestrale: da definire</p>
                             </li>
                         </ul>
                     </td>
@@ -392,7 +392,7 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
                                 <p><span style="color: #ff0000;">Questa funzione è stata rimossa dalla produzione per i clienti con rilascio rapido il 18 marzo 2024.</span></p>
                             </li>
                             <li>
-                                <p>Produzione per la versione trimestrale: con la versione 24.4 (11 aprile 2024)</p>
+                                <p>Produzione per rilascio trimestrale: da definire</p>
                             </li>
                         </ul>
                     </td>
