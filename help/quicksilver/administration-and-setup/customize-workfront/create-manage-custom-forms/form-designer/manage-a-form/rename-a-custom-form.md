@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    Nella visualizzazione visualizzata è possibile esaminare tutti i moduli personalizzati creati per l&#39;organizzazione. È inoltre possibile vedere chi ha creato ogni modulo, con quale tipo di oggetto funziona e se è attivo.
 
-1. Seleziona il modulo personalizzato da rinominare, quindi fai clic su o ![Icona Modifica](assets/edit-icon2.png).
+1. Seleziona il modulo personalizzato da rinominare, quindi fai clic su ![Icona Modifica](assets/edit-icon2.png).
 1. Per modificare il titolo, fare clic sul nome del modulo.
 1. Per modificare la descrizione, fare clic nella casella di testo Descrizione.
 
