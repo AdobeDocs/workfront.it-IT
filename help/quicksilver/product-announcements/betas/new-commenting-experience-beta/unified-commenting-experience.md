@@ -7,9 +7,9 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,9 @@ ht-degree: 0%
 >
 >Le informazioni contenute in questo articolo si riferiscono alle funzioni rilasciate nella nuova esperienza di commento.
 >
->Il programma beta per la nuova esperienza di commento è iniziato ad aprile 2023 ed è terminato a ottobre 2023. Il programma beta per la nuova esperienza di commento si è chiuso con la versione di ottobre 2023.
+>Il programma beta per la nuova esperienza di commento è iniziato ad aprile 2023 e si è concluso a ottobre 2023, con la versione di ottobre 2023.
 >
->A partire da ottobre 2023, tutte le nuove funzioni per la nuova esperienza di commento vengono rilasciate a tutti i clienti. Per ulteriori informazioni, consulta la pagina con la panoramica della versione corrente per ciascuna versione.
-
-<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
-
-<!--For additional resources for the new commenting experience, also see the following articles:
-
-* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
--->
+>Dall’11 aprile 2024 tutte le funzioni per la nuova esperienza di commenti sono disponibili nell’ambiente di produzione per tutti i clienti.
 
 ## Funzioni
 
@@ -561,19 +551,20 @@ Di seguito è riportata una timeline pianificata per il rilascio della nuova esp
 
 * Con la versione del secondo trimestre 2024 (11 aprile 2024):
 
-   * Rimuovi l’opzione per tornare al flusso di commenti legacy e rendere il nuovo flusso di commenti l’unica esperienza per tutti gli oggetti, ad eccezione delle iterazioni.
+  Rimuovi l’opzione per tornare al flusso di commenti legacy e rendere il nuovo flusso di commenti l’unica esperienza per tutti gli oggetti, ad eccezione delle iterazioni.
 
 ## Individua la nuova esperienza di commento
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:-->
+La nuova esperienza di aggiunta di commenti è disponibile nelle seguenti aree di Workfront:
 
->[!IMPORTANT]
->
->La nuova esperienza di commento è disponibile in tutti gli ambienti Workfront su tutti gli oggetti ad eccezione delle iterazioni.
->
->L’esperienza di aggiunta di commenti legacy è stata rimossa da tutti gli ambienti per progetti, attività, problemi e documenti.
+* Nella sezione Aggiornamenti di tutti gli oggetti ad eccezione delle iterazioni.
 
-Per informazioni sull&#39;accesso alla sezione Aggiornamenti degli oggetti di Workfront, vedere [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+  Per informazioni sull&#39;accesso alla sezione Aggiornamenti degli oggetti di Workfront, vedere [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* Nel pannello Riepilogo di attività, problemi e documenti in tutte le aree in cui è disponibile (elenchi, schede orario, Bilanciatore dei carichi di lavoro e Home).
+* Nell’area Home per attività e problemi.
+
+
 
 <!--
 

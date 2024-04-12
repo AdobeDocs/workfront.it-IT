@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2247'
 ht-degree: 0%
 
 ---
 
 # Modificare i profili utente in blocco
-
-{{highlighted-preview}}
 
 <!--
 
@@ -83,10 +81,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
        <ul> 
         <li><b>Fuso orario:</b> Il fuso orario degli utenti.</li> 
         <li><b>Lingua</b>: le impostazioni locali preferite dagli utenti. Questo influisce sul formato dei numeri e delle date nelle e-mail provenienti da Workfront.</li> 
-        <li><b>Mostra la percentuale di completamento dello stato di aggiornamento</b>: seleziona questa opzione se desideri visualizzare una barra della percentuale di completamento all’interno dell’area Aggiornamento di tutte le attività degli utenti, quando utilizzi l’esperienza di commento legacy. Per informazioni, consulta <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">Nuova esperienza di commento</a>.
-        <p><span class="preview">Questa opzione è stata rimossa dall’ambiente di anteprima.</span></p>
-
-   </li> 
         <li><b>Invia il lavoro che assegno a me stesso alla mia scheda Lavori in corso</b>: seleziona questa opzione se desideri che tutto ciò che gli utenti si assegnano a sé stessi venga visualizzato direttamente nella scheda Lavori in corso. L’impostazione predefinita consiste nell’elencare tutto ciò che è stato assegnato a un utente nella relativa scheda Work Request (Richiesta di lavoro).</li> 
        </ul> </td> 
      </tr> 

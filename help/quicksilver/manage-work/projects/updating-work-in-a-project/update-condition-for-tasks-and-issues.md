@@ -6,9 +6,9 @@ description: La condizione di un’attività o di un problema è un flag applica
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -91,6 +91,15 @@ Per informazioni sull&#39;impostazione del pulsante Lavoraci su un pulsante Avvi
 È necessario essere assegnati a un&#39;attività o al problema o disporre delle autorizzazioni di gestione per potervi impostare la condizione.
 
 È possibile aggiornare manualmente la condizione di un&#39;attività o di un problema in un report o elenco di attività o problemi quando si visualizza il campo Condizione nella visualizzazione.
+
+>[!NOTE]
+>
+>È possibile chiedere all&#39;amministratore del sistema o del gruppo di aggiungere il campo Condizione al pannello Riepilogo per semplificarne l&#39;aggiornamento in varie aree di Workfront.
+>
+>Per ulteriori informazioni, consulta i seguenti articoli:
+>
+>* [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Personalizzare Home e Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 

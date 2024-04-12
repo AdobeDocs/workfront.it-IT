@@ -7,18 +7,18 @@ description: Il Riepilogo consente di interagire con informazioni importanti dir
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: c50ff48bbc492199b39db17b8c445207209bb6a5
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 2%
+source-wordcount: '394'
+ht-degree: 3%
 
 ---
 
 # Panoramica del riepilogo dei documenti
 
-{{preview-and-fast-release}}
+<!--Audited: April, 2024-->
 
-Il Riepilogo consente di interagire con informazioni importanti direttamente dall&#39;elenco dei documenti.
+È possibile utilizzare il pannello Riepilogo per accedere e aggiornare informazioni importanti direttamente dall&#39;elenco dei documenti.
 
 ## Requisiti di accesso
 
@@ -31,25 +31,27 @@ Devi avere i seguenti:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p> Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Licenze Adobe Workfront*</td> 
-   <td> <p>Richiedi o superiore</p> </td> 
+   <td> <p>Nuovo: Collaboratore o versione successiva</p> 
+   <p>Corrente: richiesta o successiva</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Modifica accesso ai documenti</p> <p>Nota: se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Modifica accesso ai documenti</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Accesso di visualizzazione all'oggetto associato al documento</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, consulta <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedi accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Accesso di visualizzazione all'oggetto associato al documento</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aprire la visualizzazione Riepilogo
 
@@ -67,7 +69,7 @@ Utilizza la sezione Dettagli per visualizzare informazioni generali di alto live
 * [Panoramica](#overview)
 * [Moduli personalizzati](#custom-forms)
 
-<span class="preview">![](assets/copy-of-doc-summary-details-section-350x404.png)</span>
+![](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Panoramica {#overview}
 
@@ -79,18 +81,13 @@ Espandi la sezione Panoramica per visualizzare o scaricare una miniatura di imma
 
 Utilizza la sezione Forms personalizzato per aggiungere, modificare o visualizzare i moduli personalizzati associati al documento. Iniziare a digitare il nome del modulo personalizzato per aggiungerlo al documento. Per ulteriori informazioni, consulta [Aggiungere o modificare un modulo personalizzato a un documento](../../documents/managing-documents/add-custom-form-documents.md).
 
-<span class="preview">![](assets/add-custom-form-doc-summary-350x265.png)</span>
+![](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Aggiornamenti
 
 Utilizzare la sezione Aggiornamenti per leggere un aggiornamento eseguito da un utente sul documento o sulla bozza. Il riepilogo mostra i primi 2 commenti. Per ulteriori informazioni sugli aggiornamenti, consulta [Commento su una bozza](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-<div class="preview">
-
 ![Sezione Aggiornamenti nel pannello Riepilogo](assets/summary-updates-section-new-comments.png)
-
-</div>
-
 
 ## Approvazioni
 
@@ -101,7 +98,7 @@ Utilizzare la sezione Approvazioni per richiedere l&#39;approvazione di un docum
 * [Approvazione del lavoro](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Richiedere le approvazioni dei documenti](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versioni
 
@@ -113,4 +110,4 @@ Utilizzare la sezione Versioni per visualizzare il numero di versioni create per
 * Vai a Dettagli documento
 * Eliminare una bozza o un documento
 
-<span class="preview">![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)</span>
+![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)

@@ -6,9 +6,9 @@ description: Puoi aggiornare manualmente la data di conferma di un’attività o
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 55e8fc5ce8f3b4065f6c974bf77da4e91e66090f
+source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -69,6 +69,16 @@ Prima di iniziare, devi essere assegnato all’attività o al problema per il qu
 
 L’aggiornamento della data di conferma è identico per attività e problemi.
 
+>[!NOTE]
+>
+>È possibile chiedere all&#39;amministratore del sistema o del gruppo di aggiungere il campo Data conferma al pannello Riepilogo per semplificarne l&#39;aggiornamento in varie aree di Workfront.
+>
+>Per ulteriori informazioni, consulta i seguenti articoli:
+>
+>* [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Personalizzare Home e Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
+
 1. Vai a un&#39;attività o a un problema che ti è stato assegnato come **Proprietario**.
 
    Per ulteriori informazioni su come individuare il proprietario dell’attività per un problema o un’attività, consulta la sezione [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) nell’articolo [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
@@ -89,11 +99,11 @@ L’aggiornamento della data di conferma è identico per attività e problemi.
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * Nelle notifiche in-app, al proprietario del progetto viene notificato che hai suggerito una nuova Data di conferma per l’attività o il problema.
-   * Nella sezione Aggiornamenti, il proprietario del progetto viene informato che hai suggerito una nuova Data di conferma e che può, in questo momento, aggiornare la Data di completamento pianificata dell’attività o del problema in modo che corrisponda alla Data di conferma suggerita. Questa funzionalità non è supportata nella nuova esperienza di aggiunta di commenti. Per informazioni, consulta [La nuova esperienza di commento](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+   * In una notifica in-app Workfront, il proprietario del progetto riceve una notifica che informa che hai suggerito una nuova Data di conferma per l’attività o il problema.
+   <!--* The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). -->
 
-     ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
+   <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     Per informazioni sulle notifiche e sugli aggiornamenti attivati da questa modifica, consulta la sezione &quot;Notifiche e aggiornamenti attivati dalla modifica della data di conferma&quot; nell’articolo [Panoramica sulla data di conferma](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+   Per informazioni sulle notifiche e sugli aggiornamenti attivati da questa modifica, consulta la sezione &quot;Notifiche e aggiornamenti attivati dalla modifica della data di conferma&quot; nell’articolo [Panoramica sulla data di conferma](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

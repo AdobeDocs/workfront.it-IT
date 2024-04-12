@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a1481513747bec3486d94c74c234e2db5cc664d6
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '3526'
+source-wordcount: '3577'
 ht-degree: 0%
 
 ---
@@ -45,8 +45,12 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
   </tr> 
   <tr> 
    <td role="rowheader">Licenza Adobe Workfront</td> 
-   <td> <p>Nuovo: Chiaro o superiore</p>
-   <p>Corrente: 
+   <td> <p>Nuovo: 
+   <ul><li>Chiaro o superiore per registrare le ore generali in una scheda orario</li>
+   <li>Standard per registrare le ore su un progetto, attività o problema</li></ul>
+
+
+<p>Corrente: 
    <ul><li>Revisione o successiva per registrare le ore generali in una scheda orario</li>
    <li>Lavoro o superiore per registrare le ore su un progetto, attività o problema</li></ul> </td> 
   </tr> 
@@ -334,7 +338,7 @@ Per informazioni generali sull&#39;utilizzo dell&#39;area Home, vedere le sezion
 
 #### Tempo di connessione per un elemento di lavoro dalla nuova area Home
 
-Potete registrare il tempo su qualsiasi oggetto in qualsiasi widget utilizzando il pannello Riepilogo. Per informazioni, vedere [Pannello Riepilogo](#summary-panel) in questo articolo.
+Puoi registrare il tempo necessario per le attività e i problemi in qualsiasi widget utilizzando il pannello Riepilogo nell’area Home. Per informazioni, vedere [Pannello Riepilogo](#summary-panel) in questo articolo.
 
 Inoltre, per registrare il tempo di un elemento nel widget Il mio lavoro:
 
@@ -346,6 +350,8 @@ Inoltre, per registrare il tempo di un elemento nel widget Il mio lavoro:
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
 1. Clic **Tempo di connessione**.
+
+   L&#39;ora registrata viene visualizzata nella sezione Ore dell&#39;oggetto e nella scheda orario.
 
 #### Tempo di connessione di un elemento di lavoro dall’area Home legacy
 
@@ -359,6 +365,8 @@ Inoltre, per registrare il tempo di un elemento nel widget Il mio lavoro:
 1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato **Assegnare manualmente i ruoli alle voci orarie** , selezionare una mansione dal menu a discesa. Il ruolo specificato quando si è assegnati all&#39;elemento di lavoro viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un ruolo sull&#39;oggetto, il Ruolo principale viene visualizzato come predefinito. Per ulteriori informazioni su questa impostazione, consulta l’articolo [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Specifica l’ora di registrazione, quindi fai clic su **Tempo di connessione**.
 
+   L&#39;ora registrata viene visualizzata nella sezione Ore dell&#39;oggetto e nella scheda orario.
+
 ### Progetto, attività o problema {#project-task-or-issue}
 
 Puoi registrare l’ora specifica di un progetto su un progetto, un’attività o un problema nelle sezioni seguenti:
@@ -370,11 +378,9 @@ Puoi registrare l’ora specifica di un progetto su un progetto, un’attività 
 
 Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attività o un problema, è necessario disporre dei seguenti elementi:
 
-* Una licenza Lavoro o Piano.
-* Autorizzazioni di contribuzione o superiori per il progetto, l’attività o il problema con accesso alle ore di registro.\
-  Per ulteriori informazioni sulla concessione delle autorizzazioni per i progetti, consulta [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* L’accesso e le autorizzazioni corretti, come descritto nella sezione [Requisiti di accesso](#access-requirements) in questo articolo.
 
-* L’amministratore di Workfront deve abilitare l’ora di accesso direttamente ai progetti in [!UICONTROL **Timesheet e ore**]> [!UICONTROL **Preferenze**], se desideri registrare l’ora direttamente in un progetto.
+* L’amministratore di Workfront deve abilitare l’ora di accesso direttamente ai progetti in [!UICONTROL **Timesheet e ore**]> [!UICONTROL **Preferenze**] nell’area Sistema, se desideri registrare l’ora direttamente in un progetto.
 
   Per ulteriori informazioni su come consentire agli utenti di registrare le ore direttamente nei progetti, consulta [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -406,6 +412,8 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
 
 1. Clic **Tempo di connessione**.
 
+   L&#39;ora registrata viene visualizzata nella sezione Ore dell&#39;oggetto e nella scheda orario.
+
 #### Sezione ore{#hours-section}
 
 Per registrare i tempi di progetti, attività e problemi nella sezione Ore è necessario essere un amministratore Workfront,
@@ -416,7 +424,7 @@ Oppure
 
 * Una licenza Pianificazione con accesso amministrativo alle schede orario e alle ore. Per ulteriori informazioni sulla concessione dell&#39;accesso amministrativo alle schede orario e alle ore, vedi [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 * Autorizzazioni Contribute o superiori per il progetto con accesso a Log Hours (Registra ore). Per ulteriori informazioni sulla concessione delle autorizzazioni per i progetti, consulta [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* Se desideri registrare il tempo direttamente su un progetto, l’amministratore di Workfront deve abilitare l’impostazione Log time direct on projects (Tempo di registro direttamente sui progetti) in Timesheet &amp; Hours > Preferences (Schede orario e ore > Preferenze). Per ulteriori informazioni su come consentire agli utenti di registrare le ore direttamente nei progetti, consulta [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* L’amministratore di Workfront deve abilitare l’ora di accesso direttamente ai progetti in **Schede orario e ore > Preferenze** dell’area Configura, se desideri registrare l’ora direttamente in un progetto. Per ulteriori informazioni su come consentire agli utenti di registrare le ore direttamente nei progetti, consulta [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Per registrare il tempo nella sezione Ore di un progetto, attività o problema:
 

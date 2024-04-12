@@ -7,10 +7,10 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: c6575c832fa21a17a1d20fa7e92798d970ca0f50
+source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 4%
+source-wordcount: '985'
+ht-degree: 5%
 
 ---
 
@@ -19,9 +19,6 @@ ht-degree: 4%
 
 <!-- Audited: 1/2024 -->
 
-<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
-
-<!--info for April 11: hide the disclaimer for preview below-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
@@ -30,8 +27,6 @@ ht-degree: 4%
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
-
-<!--info for April 11: take out the Important box-->
 
 Nella sezione Aggiornamenti di un oggetto vengono visualizzati i commenti degli utenti sull&#39;oggetto o gli aggiornamenti di sistema che tengono traccia delle modifiche apportate all&#39;oggetto.
 
@@ -125,50 +120,45 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Panoramica della sezione Aggiornamenti <!--in the new commenting experience-->
+### Panoramica della sezione Aggiornamenti
 
 ![Sezione Aggiornamenti](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
+* La sezione Aggiornamenti visualizza le informazioni nelle seguenti schede:
 
-<!--
->[!NOTE]
->
->The new commenting experience is not available for iterations.
--->
-
-* La sezione Aggiornamenti visualizza le informazioni nelle schede seguenti<!-- in the new commenting experience-->:
-
-   * **Commenti**: visualizza i commenti degli utenti e le relative risposte. Utilizzare la scheda Commenti per aggiungere nuovi commenti o rispondere a quelli esistenti. Per informazioni sull&#39;aggiornamento degli oggetti<!-- in the new commenting experience-->, vedi [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Commenti**: visualizza i commenti degli utenti e le relative risposte. Utilizzare la scheda Commenti per aggiungere nuovi commenti o rispondere a quelli esistenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
    * **Attività di sistema**: visualizza gli aggiornamenti del sistema, ovvero messaggi informativi creati da Workfront per registrare determinati eventi su un oggetto. Ad esempio, le modifiche nei campi di stato, nome o personalizzati vengono acquisite con gli aggiornamenti del sistema. L&#39;amministratore del Workfront o del gruppo può abilitare gli aggiornamenti di sistema per gli oggetti. Tutte le risposte ai record di attività del sistema nell’esperienza di commento legacy vengono popolate nella scheda Attività del sistema come di sola lettura. Per ulteriori informazioni, consulta [Configurare gli aggiornamenti di sistema](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-   * **Tutto (sola lettura)**: visualizza in un’unica posizione i commenti degli utenti e quelli relativi all’attività di sistema. Questa è una scheda di sola visualizzazione. Non è possibile rispondere a commenti o assegnare tag ad altri utenti nei commenti esistenti nella scheda Tutti. Per rispondere a un commento specifico, utilizzare il collegamento dalla scheda Tutti alla scheda Commenti. Per informazioni sull&#39;aggiornamento degli oggetti<!-- in the new commenting experience-->, vedi [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
+   * **Tutto (sola lettura)**: visualizza in un’unica posizione i commenti degli utenti e quelli relativi all’attività di sistema. Questa è una scheda di sola visualizzazione. Non è possibile rispondere a commenti o assegnare tag ad altri utenti nei commenti esistenti nella scheda Tutti. Per rispondere a un commento specifico, utilizzare il collegamento dalla scheda Tutti alla scheda Commenti. Per informazioni sull&#39;aggiornamento degli oggetti, vedere [Aggiorna lavoro](../updating-work-items-and-viewing-updates/update-work.md).
 
-* I seguenti oggetti non dispongono di una scheda Attività di sistema o di una scheda Tutto:
+* Gli oggetti seguenti hanno esperienze simili in tutte e tre le schede della sezione Aggiornamenti:
+
+   * Progetti
+   * Attività
+   * Problemi
+   * Programmi
+   * Portfolio
+   * Utenti
+   * Schede orario
+
+* I seguenti oggetti non dispongono di una scheda Attività di sistema o Tutte e l&#39;esperienza nella scheda Commenti corrisponde a quella di tutti gli altri oggetti:
 
    * Team
    * Modello
    * Attività modello
+
+* I seguenti oggetti non dispongono di una scheda Attività di sistema o di una scheda Tutto e l&#39;esperienza nella scheda Commenti è diversa da quella di tutti gli altri oggetti:
    * Scheda ad hoc
-   * Iterazioni
 
      Per ulteriori informazioni sugli aggiornamenti sulle schede, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+   * Iterazioni
 
      Per ulteriori informazioni sugli aggiornamenti sulle iterazioni, consulta [Gestisci commenti iterazione](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
-* I seguenti oggetti non dispongono di una scheda Tutto:
+* I seguenti oggetti non dispongono di una scheda Tutto e l&#39;esperienza nella scheda Commenti corrisponde a quella della maggior parte degli oggetti:
 
    * Obiettivi
 
      Per ulteriori informazioni sugli aggiornamenti sugli obiettivi, consulta [Gestisci commenti obiettivo](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
-
-<!--info for April 11: make the text below live - remove the commented out brackets: 
-NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
-
-* The following objects don't have a System Activity or an All tab: 
-
-  * Iterations
-
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 
