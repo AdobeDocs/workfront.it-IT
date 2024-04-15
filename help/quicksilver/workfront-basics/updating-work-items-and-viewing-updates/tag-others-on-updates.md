@@ -6,9 +6,9 @@ description: Quando si forniscono commenti di aggiornamento su un oggetto Adobe 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Puoi assegnare tag ad altri utenti in caso di aggiornamenti nei modi seguenti:
 
-* **Automaticamente**: quando un utente avvia un thread, aggiunge un commento o aggiunge una risposta, viene automaticamente taggato e aggiunto all’area Tag persone o team della casella di commento. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+* **Automaticamente**: quando un utente avvia un thread, aggiunge un commento o aggiunge una risposta, viene automaticamente taggato e aggiunto all’area Tag persone o team della casella di commento.
+
+  >[!TIP]
+  >
+  >   L’assegnazione tag automatica agli utenti non è possibile quando si aggiunge un commento a un’iterazione.  Per informazioni, consulta [Gestisci commenti iterazione](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). \
+  >L’assegnazione tag automatica agli utenti non è possibile quando si aggiunge un commento da altre applicazioni.
+
 
 * **Manualmente**: quando si aggiunge manualmente un utente all’area Tag persone della casella di commento.
 

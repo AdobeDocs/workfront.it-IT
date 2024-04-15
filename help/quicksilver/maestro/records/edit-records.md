@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -201,7 +201,7 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
    Oppure
 
-   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record. La casella del record viene visualizzata nella vista.
+   Nella vista tabella, fare clic su **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record. La casella del record viene visualizzata nella vista.
 
    ![](assets/details-box.png)
 

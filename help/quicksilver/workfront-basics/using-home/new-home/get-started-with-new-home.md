@@ -6,9 +6,9 @@ description: La nuova Home è una nuova potente funzione per la gestione del tuo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 7f822e5ba6c65d50eb7a7a660689f88066939e2d
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1088'
+source-wordcount: '1119'
 ht-degree: 6%
 
 ---
@@ -36,7 +36,7 @@ Per informazioni sull&#39;aggiunta, lo spostamento, il ridimensionamento o l&#39
 Di seguito sono riportati i dieci widget attualmente disponibili tra cui scegliere e un riepilogo delle informazioni visualizzate:
 
 * **Il mio lavoro**\
-    Un ottimo punto di partenza per la gestione di una varietà di lavori, questo widget mostra tutte le attività, i problemi e le richieste assegnati in un&#39;unica posizione. È possibile fare clic sul pulsante Lavoraci per iniziare a lavorare su un elemento.
+    Un ottimo punto di partenza per la gestione di una varietà di lavori, questo widget mostra tutte le attività, i problemi e le richieste assegnati in un&#39;unica posizione. È possibile fare clic sul pulsante Lavoraci per iniziare a lavorare su un elemento oppure sul pulsante Fine per contrassegnarli come completati. È inoltre possibile aggiornare le informazioni (Stato, Condizione, Percentuale di completamento) relative alle attività e ai problemi, registrare i tempi e aggiungere aggiornamenti dal widget Il mio lavoro.
 
 * **I miei progetti**\
     Visualizza in un elenco i progetti di cui sei proprietario o a cui appartieni. È possibile utilizzare filtri, viste o raggruppamenti esistenti per personalizzare l’elenco oppure creare un progetto direttamente dal widget.

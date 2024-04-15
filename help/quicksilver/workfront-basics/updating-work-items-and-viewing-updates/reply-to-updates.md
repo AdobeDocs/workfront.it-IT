@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 1%
+source-wordcount: '725'
+ht-degree: 0%
 
 ---
 
@@ -43,13 +43,13 @@ ht-degree: 1%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-Quando un utente risponde a un commento o a un aggiornamento di sistema su un oggetto di lavoro, la risposta viene visualizzata nel thread di comunicazione nella scheda Commenti e tutti della sezione Aggiornamenti relativa all&#39;oggetto.
+Quando un utente risponde a un commento o a un aggiornamento di sistema su un oggetto di lavoro, la risposta viene visualizzata nel thread di comunicazione nelle schede Commenti e tutti della sezione Aggiornamenti dell&#39;oggetto.
 
 >[!IMPORTANT]
 >
 >Non è possibile rispondere agli aggiornamenti di sistema nella scheda Attività di sistema. Eventuali risposte agli aggiornamenti di sistema apportate nell’esperienza di commento legacy prima dell’11 aprile 2024 vengono visualizzate in sola lettura.
 
-<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
+Questo articolo descrive come rispondere ai commenti della maggior parte degli oggetti in Workfront. Per informazioni sulle differenze tra le sezioni Aggiornamenti dei vari oggetti, vedere [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Requisiti di accesso
 
@@ -85,9 +85,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 È possibile rispondere a un commento nel thread di un oggetto che è possibile visualizzare oppure accedere come amministratore di Workfront o di gruppo e rispondere a un commento per conto di un altro utente. Per ulteriori informazioni, consulta [Accedi come altro utente](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-La risposta a un commento o a una risposta varia a seconda dell’esperienza e dell’oggetto selezionato.
-
 ### Rispondi a un commento
+
+La risposta a un commento nella sezione Aggiornamenti di un oggetto è simile per la maggior parte degli oggetti in Workfront.
 
 1. Passare all&#39;oggetto a cui si desidera aggiungere una risposta.
 1. Clic **Aggiornamenti**, quindi fare clic su **Commenti** scheda per l&#39;oggetto e trovare il commento o la risposta a cui si desidera rispondere

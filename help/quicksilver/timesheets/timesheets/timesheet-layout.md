@@ -7,9 +7,9 @@ description: Questo articolo descrive il layout delle schede orario in Adobe Wor
 author: Alina
 feature: Timesheets
 exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti o in produzione per i clienti che hanno abilitato le versioni rapide. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Per informazioni sulla pianificazione della versione corrente, consulta [Panoramica sulla versione del secondo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 Questo articolo descrive il layout delle schede orario in Adobe Workfront, consentendoti di comprendere meglio come personalizzare e utilizzare le schede orario per registrare l’ora.
 
@@ -125,11 +125,7 @@ Questa area contiene anche informazioni sull’ultimo salvataggio della scheda o
 
 ## Area Aggiornamenti nel pannello a sinistra
 
-<div class="preview">
-
 ![Area Aggiornamenti nel pannello Timesheet a sinistra](assets/timesheet-updates-with-all-tab.png)
-
-</div>
 
 È possibile aggiungere commenti a una scheda orario per comunicare con gli approvatori della scheda orario o altri utenti nella sezione Aggiornamenti nel pannello sinistro della scheda orario.
 
@@ -137,11 +133,7 @@ Eventuali commenti aggiunti alla scheda orario vengono visualizzati in quest&#39
 
 ## Pannello di Riepilogo
 
-<div class="preview">
-
 ![Pannello Riepilogo](assets/timesheet-summary-panel-on-updates.png)
-
-</div>
 
 Puoi accedere al pannello Riepilogo per le attività o i problemi visualizzati in una scheda orario. Da qui puoi aggiungere commenti ad attività e problemi, o aggiornarne le informazioni. Per ulteriori informazioni, consulta [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

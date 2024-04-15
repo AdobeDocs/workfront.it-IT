@@ -6,9 +6,9 @@ description: Sia le date di completamento pianificate che le date di conferma in
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -57,9 +57,11 @@ L’assegnatario che lavora sull’attività o sul problema può aggiornare manu
 
 L’assegnatario che modifica la Data di conferma non modifica automaticamente la Data di completamento pianificata. Anche il contrario è vero: la modifica della Data di completamento pianificata non modificherà la Data impegno.
 
-Quando la data di conferma diventa una data successiva alla data di completamento pianificata, il proprietario del progetto riceve una notifica di questo cambiamento che potrebbe influire sulla sequenza temporale del progetto.
+Quando la Data di conferma cambia, il proprietario del progetto riceve una notifica in-app di Workfront che indica che la modifica si è verificata.
 
-Se la Data impegno offerta dall’assegnatario è accettabile per il proprietario del progetto, deve aggiornare manualmente la Data di completamento pianificata sull’attività o sul problema. Per ulteriori informazioni, consulta i seguenti articoli:
+Se la Data impegno offerta dall&#39;assegnatario è accettabile per il proprietario del progetto, deve aggiornare manualmente la Data completamento pianificata sull&#39;attività per illustrare l&#39;impatto che potrebbe avere sulla cronologia del progetto. Le modifiche nella Data di completamento pianificata dei problemi non influiscono sulla sequenza temporale del progetto.
+
+Per ulteriori informazioni, consulta i seguenti articoli:
 
 * [Panoramica sulla data di conferma](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 * [Aggiorna le date di conferma per attività e problemi](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

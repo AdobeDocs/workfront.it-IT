@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
 workflow-type: tm+mt
 source-wordcount: '2353'
 ht-degree: 1%
@@ -183,7 +183,9 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
    >[!TIP]
    >
-   >    È possibile aprire la pagina di un record, trovare il campo record collegato e fare clic sul pulsante **+** nel campo per aggiungere record dal record o dal tipo di oggetto connesso.
+   >    È possibile aprire la pagina di un record, trovare il campo record collegato e fare clic su **Collega record** nel campo per aggiungere record dal record o dal tipo di oggetto connesso.
+   >
+   >![](assets/connect-records-from-record-page-field.png)
 
    Sono aggiunti i seguenti elementi:
 

@@ -7,10 +7,10 @@ description: La data di conferma è la data entro la quale un utente assegnato a
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 1%
+source-wordcount: '815'
+ht-degree: 0%
 
 ---
 
@@ -64,9 +64,20 @@ L’impostazione manuale della data di conferma per un’attività o un problema
 
   La modifica della data di conferma viene visualizzata nell’area Aggiornamenti dell’attività o del problema quando l’amministratore di Workfront abilita questo aggiornamento nell’area Feed aggiornamenti in Configurazione. Per informazioni, consulta [Aggiornamenti monitorati dal sistema](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-  Se un proprietario del progetto non desidera accettare la modifica, è consigliabile che ritorni all&#39;utente che propone una nuova data utilizzando la scheda Commenti nella sezione Aggiornamenti, per chiedere di ripristinare la Data pianificata originale oppure di selezionare una nuova data. Se un proprietario del progetto accetta la modifica, può regolare manualmente la Data di completamento pianificata in modo che corrisponda alla Data impegno offerta dall&#39;utente assegnato all&#39;elemento modificando l&#39;attività o il problema.
+  Se un proprietario del progetto non desidera accettare la modifica, è consigliabile che ritorni all&#39;utente che propone una nuova data utilizzando la scheda Commenti nella sezione Aggiornamenti, per chiedere di ripristinare la Data pianificata originale oppure di selezionare una nuova data.
+
+  Se un proprietario del progetto accetta la modifica, può regolare manualmente la Data di completamento pianificata in modo che corrisponda alla Data impegno offerta dall&#39;utente assegnato all&#39;elemento modificando l&#39;attività o il problema.
 
   Devi avere accesso per gestire l’attività o il problema per modificarli.
+
+  >[!TIP]
+  >
+  >È possibile chiedere all&#39;amministratore del sistema o del gruppo di aggiungere il campo Data conferma al pannello Riepilogo per semplificarne l&#39;aggiornamento in varie aree di Workfront in cui è visualizzato il pannello Riepilogo.
+  >
+  >Per ulteriori informazioni, consulta i seguenti articoli:
+  >
+  >* [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Personalizzare Home e Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

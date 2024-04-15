@@ -6,9 +6,9 @@ description: È possibile aggiornare la percentuale di completamento di un'attiv
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: ee957e319941fe5eabb9144eed184372e5402197
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,9 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
 
   Per ulteriori informazioni, consulta [Panoramica di riepilogo](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
+* **Home**: puoi aggiornare la percentuale di completamento di un’attività o di un problema dal pannello Riepilogo nella sezione Home o dal widget Il mio lavoro.
+
+Per informazioni, consulta  [Guida introduttiva alla nuova Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Considerazioni sull&#39;aggiornamento della percentuale di completamento di un&#39;attività
 
@@ -104,7 +107,13 @@ Per aggiornare manualmente le attività, è necessario disporre dei seguenti dir
    * Un elenco di progetti e applica la vista Milestone
    * Un’attività, accedendo alla pagina dell’attività
 1. Individua il **Percentuale completamento** campo per l&#39;attività di cui si desidera aggiornare la percentuale di completamento.
-1. Fare clic all&#39;interno del campo Percentuale di completamento e digitare un numero compreso tra 0 e 100
+
+   >[!TIP]
+   >
+   >  Il campo Percentuale di completamento viene sempre visualizzato nella parte superiore del pannello Riepilogo.
+
+
+1. Fai clic all’interno del **Percentuale completamento** e digitare un numero compreso tra 0 e 100
 
    Oppure
 

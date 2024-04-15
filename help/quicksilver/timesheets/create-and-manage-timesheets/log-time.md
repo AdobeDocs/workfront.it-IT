@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '3577'
+source-wordcount: '3578'
 ht-degree: 0%
 
 ---
@@ -344,7 +344,7 @@ Inoltre, per registrare il tempo di un elemento nel widget Il mio lavoro:
 
 1. Arrivato al **Home** area.
 1. Aggiungi il **Il mio lavoro** widget a casa tua.
-1. Seleziona un’attività, un problema o una richiesta in un elenco, quindi fai clic su **Lavoraci**
+1. (Facoltativo) Seleziona un’attività, un problema o una richiesta in un elenco, quindi fai clic su **Lavoraci**
 1. Passa il cursore del mouse sull’attività o sul problema per il quale vuoi registrare l’ora, quindi fai clic su **Tempo di connessione** icona ![](assets/log-time-icon-in-new-home.png) a destra delle informazioni sull&#39;attività.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)

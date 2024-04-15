@@ -6,9 +6,9 @@ description: È possibile utilizzare [!UICONTROL I miei aggiornamenti] per rived
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -153,8 +153,12 @@ Prima di iniziare, è necessario disporre dei seguenti elementi:
    >Le prime 50 menzioni vengono visualizzate per impostazione predefinita.
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Mostra altri aggiornamenti]** per visualizzare altre menzioni.
-1. (Facoltativo) Fai clic su **[!UICONTROL Rispondi]** per rispondere a un commento, immetti la risposta, quindi fai clic su **[!UICONTROL Rispondi]** di nuovo.
+1. (Facoltativo) Fai clic su **[!UICONTROL Rispondi]** per rispondere a un commento ed effettuare una delle seguenti operazioni:
+   * Inizia a digitare una risposta
+   * Utilizza la barra degli strumenti Testo formattato per formattare il testo, aggiungere collegamenti, elenchi, emoticon, virgolette o immagini al messaggio
+   * Aggiungi utenti o team per notificare loro la tua risposta.
 
-   Per ulteriori informazioni sull&#39;aggiornamento degli elementi, vedere [Aggiorna lavoro](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Dopo aver aggiunto la risposta, fai clic su **[!UICONTROL Rispondi]** di nuovo.
 
+     ![](assets/reply-in-the-my-updates-area.png)
 1. (Facoltativo) Fai clic su **[!UICONTROL Fissa pagina corrente]** per fissare [!UICONTROL I miei aggiornamenti] nella navigazione superiore.
