@@ -6,9 +6,9 @@ description: Per impostazione predefinita, una nuova bacheca contiene tre colonn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
+source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ Se si utilizza il limite WIP in una colonna, non viene aggiunto un contatore di 
 >[!NOTE]
 >
 >Le bacheche dinamiche inseriscono sempre le schede nella colonna che corrisponde al loro stato, indipendentemente dal fatto che i criteri delle colonne siano abilitati o disabilitati. Le schede torneranno alle colonne assegnate quando aggiorni la bacheca.
+> 
+>Inoltre, per tutti i tipi di bacheca, se si sposta una scheda da una colonna a un&#39;altra con lo stesso stato, la scheda tornerà alla colonna originale quando si aggiorna la bacheca.
 
 1. Accedi alla bacheca.
 1. Fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) nella colonna e seleziona **[!UICONTROL Modifica]**.
