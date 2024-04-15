@@ -6,16 +6,22 @@ description: Quando elimini una scheda da una bacheca, questa viene eliminata de
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # Eliminare o archiviare una scheda da una bacheca
 
-Quando elimini una scheda da una bacheca, questa viene eliminata definitivamente e non può essere ripristinata. Quando si archivia una scheda, questa viene inviata all&#39;archivio e può essere successivamente ripristinata nella bacheca.
+Quando elimini una scheda ad hoc da una bacheca, questa viene eliminata definitivamente e non può essere ripristinata. Le schede collegate possono essere aggiunte manualmente a una bacheca dopo essere state eliminate.
+
+Se elimini una scheda connessa da una scheda dinamica, questa verrà visualizzata nuovamente quando aggiorni la scheda, perché questo tipo di scheda richiama tutte le attività e i problemi di un progetto specifico. Per eliminare la scheda, devi eliminare l’attività o il problema connesso dal progetto Workfront.
+
+Quando elimini una scheda collegata da qualsiasi altro tipo di scheda che dispone di una colonna di acquisizione, la scheda viene visualizzata nuovamente nella colonna di acquisizione quando si aggiorna la scheda se l’attività o il problema connesso non è ancora contrassegnato come completato. Per ulteriori informazioni sulle colonne di assunzione, consulta [Aggiungere una colonna Acquisizione a una bacheca](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+Quando si archivia una scheda, questa viene inviata all&#39;archivio e può essere successivamente ripristinata nella bacheca.
 
 ## Requisiti di accesso
 

@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Gestisci colonne bacheca
+title: Gestire le colonne di una bacheca
 description: Per impostazione predefinita, una nuova bacheca contiene tre colonne. È possibile aggiungere altre colonne, modificare l'ordine delle colonne, rinominare le colonne ed eliminare le colonne non necessarie.
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 8097842fedb468d8f0e5c9eed94bf74d489edd2b
+source-git-commit: 46099e6ceba4310453743c023823e8952f5ce553
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '967'
 ht-degree: 0%
 
 ---
 
-# Gestisci colonne bacheca
+# Gestire le colonne di una bacheca
 
 Per impostazione predefinita, una nuova bacheca contiene tre colonne. È possibile aggiungere altre colonne, modificare l&#39;ordine delle colonne, rinominare le colonne ed eliminare le colonne non necessarie.
 
@@ -102,6 +102,10 @@ Se si utilizza il limite WIP in una colonna, non viene aggiunto un contatore di 
 1. Clic **[!UICONTROL Nascondi configurazione]** per chiudere [!UICONTROL Configura] pannello.
 
 ## Definire le impostazioni e i criteri delle colonne
+
+>[!NOTE]
+>
+>Le bacheche dinamiche inseriscono sempre le schede nella colonna che corrisponde al loro stato, indipendentemente dal fatto che i criteri delle colonne siano abilitati o disabilitati. Le schede torneranno alle colonne assegnate quando aggiorni la bacheca.
 
 1. Accedi alla bacheca.
 1. Fai clic su **[!UICONTROL Altro]** menu ![Menu Altro](assets/more-icon-spectrum.png) nella colonna e seleziona **[!UICONTROL Modifica]**.

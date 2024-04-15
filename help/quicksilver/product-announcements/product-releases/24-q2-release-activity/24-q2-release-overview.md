@@ -5,16 +5,16 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: a4d0221609f395a62e2c696ccd4a466915b4badc
+source-git-commit: f8ac3cd418b4be3945a793f7c81cd960eba179e2
 workflow-type: tm+mt
-source-wordcount: '2168'
+source-wordcount: '2194'
 ht-degree: 0%
 
 ---
 
 # Panoramica sulla versione del secondo trimestre 2024
 
-Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del secondo trimestre 2024. Questi miglioramenti saranno disponibili nell’ambiente di produzione durante tutto il trimestre.
+Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del secondo trimestre 2024. Questi miglioramenti sono stati resi disponibili nell’ambiente di produzione per tutti i clienti con la versione 24.4 del 10 e 11 aprile 2024.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
 Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit](https://summit.adobe.com/na/) per guardare le seguenti sessioni Workfront:
@@ -22,6 +22,8 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
 [Il futuro di Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) il 26 marzo 2024, per avere una panoramica del futuro della pianificazione strategica e del flusso di lavoro. Scopri in che modo il team Workfront prevede di affrontare le funzionalità aziendali nell’intero ciclo di vita del marketing, il tutto con un approccio basato sull’intelligenza artificiale per automatizzare il lavoro, semplificare le esperienze utente e aumentare la produttività.
 
 [Presentazione di calendari di marketing e strumenti per la pianificazione di campagne end-to-end](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) il 28 marzo 2024, per scoprire le nuove funzionalità dei prodotti progettate per consentire alle organizzazioni di gestire e visualizzare i cicli di vita operativi end-to-end.
+
+È inoltre possibile [visualizzare un file PDF](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} con i punti salienti della versione 24.4.
 
 <span class="preview">Le funzioni fuori ciclo (quelle che vengono rilasciate in produzione prima della data di rilascio del secondo trimestre 2024) sono evidenziate in giallo.</span>
 
