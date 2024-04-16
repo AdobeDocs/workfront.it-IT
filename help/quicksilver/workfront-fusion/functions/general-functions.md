@@ -8,10 +8,10 @@ description: Nel pannello di mappatura di Adobe Workfront Fusion sono disponibil
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 3%
+source-wordcount: '303'
+ht-degree: 0%
 
 ---
 
@@ -135,7 +135,7 @@ Omette le chiavi specificate dell&#39;oggetto e restituisce il resto.
 >
 >`omit(` Utente `;` password `)`
 >
->Restituisce una raccolta delle informazioni dell&#39;utente, escludendo >la password.
+>Restituisce una raccolta delle informazioni dell&#39;utente, esclusa la password.
 
 ## [!UICONTROL pick(object; key1; [key2; ...])]
 

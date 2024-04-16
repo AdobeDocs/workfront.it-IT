@@ -8,10 +8,10 @@ description: Questo articolo tratta le domande comuni relative a [!DNL Adobe Wor
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: f2d67401782abc7e7714d9e14c495a4a6ba2fcc7
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 0%
+source-wordcount: '664'
+ht-degree: 1%
 
 ---
 
@@ -118,4 +118,4 @@ Il trasferimento di dati si riferisce alla quantità di dati trasferiti attraver
 
 Una connessione è il collegamento tra [!DNL Workfront Fusion] e il servizio di terze parti che desideri utilizzare. La connessione può essere creata facilmente durante la modifica di uno scenario. Per aggiungere una connessione, fare clic su **[!UICONTROL Aggiungi]** nell&#39;impostazione del modulo e seguire le istruzioni dettagliate.
 
-Per ulteriori informazioni, consulta [Informazioni sulla connessione [!DNL Adobe Workfront Fusion] a un’app o a un servizio](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Per ulteriori informazioni, consulta [Panoramica delle connessioni](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).

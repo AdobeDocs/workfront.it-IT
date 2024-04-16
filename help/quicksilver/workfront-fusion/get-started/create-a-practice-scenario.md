@@ -7,9 +7,9 @@ description: Questo articolo descrive come creare uno scenario di integrazione c
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '2142'
+source-wordcount: '2139'
 ht-degree: 0%
 
 ---
@@ -153,7 +153,7 @@ Questo modulo conterrà i dati che si desidera controllare nello scenario.
 1. In **[!DNL Google Sheets]** casella, sotto **[!UICONTROL Connessione]**, fai clic su **[!UICONTROL Aggiungi]**, quindi digita un nome per la connessione, ad esempio &quot;Account Google di Olivia&quot;, quindi fai clic su **[!UICONTROL Continua]**.
 1. Autentica la connessione nella finestra visualizzata.
 
-   Il processo di autenticazione di una connessione può variare leggermente da un’app all’altra. Potrebbe essere necessario accedere all’app. In genere è necessario fare clic su un **[!UICONTROL Consenti]** pulsante. Se hai bisogno di aiuto, consulta [Informazioni sulla connessione [!DNL Adobe Workfront Fusion] a un’app o a un servizio](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Il processo di autenticazione di una connessione può variare leggermente da un’app all’altra. Potrebbe essere necessario accedere all’app. In genere è necessario fare clic su un **[!UICONTROL Consenti]** pulsante. Se hai bisogno di aiuto, consulta [Panoramica delle connessioni](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Configurare il primo modulo
 

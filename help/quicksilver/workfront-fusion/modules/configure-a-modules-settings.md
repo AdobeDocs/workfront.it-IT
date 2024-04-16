@@ -7,9 +7,9 @@ description: È necessario configurare le impostazioni per ogni modulo creato.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7e66728d-8c6f-4597-98c4-bc6d36f96911
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '329'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
    Fai clic sull’icona del modulo nell’editor scenario, come descritto in [Creare uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Se necessario per il modulo, crea un’ **[!UICONTROL Connessione]** all&#39;account utente registrato per quel determinato servizio, come descritto in [Informazioni sulla connessione [!DNL Adobe Workfront Fusion] a un’app o a un servizio](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. Se necessario per il modulo, crea un’ **[!UICONTROL Connessione]** all&#39;account utente registrato per quel determinato servizio, come descritto in [Panoramica delle connessioni](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 1. Digitare il testo appropriato in ogni campo.
 
    Oppure

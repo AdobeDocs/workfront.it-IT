@@ -7,9 +7,9 @@ description: Questo articolo descrive come creare uno scenario di automazione co
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 3d53042b9321c8712b9aaeea686989add5b9e35e
+source-git-commit: 97231a6021aa4e897059063293e649f45dc9908d
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1842'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Per questo esempio, non utilizziamo un modulo trigger. Invece, questo scenario i
    1. Accedi a [!DNL Workfront].
    1. Esamina l’accesso che [!DNL Workfront Fusion] richiede, quindi fai clic su **[!UICONTROL Consenti accesso]**.
 
-   Se hai bisogno di aiuto, consulta [Informazioni sulla connessione [!DNL Adobe Workfront Fusion] a un’app o a un servizio](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   Se hai bisogno di aiuto, consulta [Panoramica delle connessioni](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Configurare il primo modulo
 

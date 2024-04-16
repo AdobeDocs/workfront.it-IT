@@ -7,9 +7,9 @@ description: È possibile utilizzare [!DNL Adobe Workfront Fusion] per connetter
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d2b4a9940cb21de1b8b5f2955f53b3d88040e44
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---
@@ -20,38 +20,38 @@ ht-degree: 0%
 
 Per utilizzare le funzionalità di questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>[!UICONTROL Pro] o versione successiva</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> <p>Nuovo: [!UICONTROL Standard]</p><p>Oppure</p><p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Legacy: qualsiasi </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Nuovo:</p> <ul><li>[!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront] Piano: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Piano: [!DNL Workfront Fusion] è incluso.</li></ul>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Corrente: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -59,12 +59,23 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
 È necessario un [!DNL Google] per effettuare questa connessione.
 
-## Crea un progetto su [!DNL Google Cloud Platform]
+## Connettere Fusion ai servizi Google utilizzando un client OAuth personalizzato
 
-La seguente procedura è destinata a:
+Per creare questa connessione, devi creare e configurare un progetto sulla piattaforma Google Cloud, quindi configurare la connessione in Fusion in base a tale progetto.
 
-* Uso personale ([!DNL @gmail.com] e [!DNL @googlemail.com] utenti)
-* Uso interno ([!DNL G Suite] utenti che preferiscono utilizzare un client OAuth personalizzato)
+* [Crea un progetto su [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform)
+* [Configura [!UICONTROL Consenso OAuth] impostazioni](#configure-oauth-consent-settings)
+* [Crea credenziali OAuth](#create-oauth-credentials)
+* [Connetti a [!DNL Google] in [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion)
+
+>[!NOTE]
+>
+>Questa procedura è destinata:
+>
+>* Uso personale ([!DNL `@gmail.com`] e [!DNL `@googlemail.com`] utenti)
+>* Uso interno ([!DNL G Suite] utenti che preferiscono utilizzare un client OAuth personalizzato)
+
+### Crea un progetto su [!DNL Google Cloud Platform]
 
 Per creare un progetto su [!DNL Google Cloud] Piattaforma
 
@@ -86,7 +97,7 @@ Per creare un progetto su [!DNL Google Cloud] Piattaforma
 1. Nella schermata visualizzata, fai clic su **[!UICONTROL Crea credenziali]** nell’angolo superiore destro.
 1. Passa alla sezione [Configurare le impostazioni di consenso OAuth](#configure-oauth-consent-settings) in questo articolo.
 
-## Configura [!UICONTROL Consenso OAuth] impostazioni
+### Configura [!UICONTROL Consenso OAuth] impostazioni
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Schermata di consenso OAuth]**.
 1. Seleziona **[!UICONTROL Esterno]**, quindi fai clic su **[!UICONTROL Crea]**.
@@ -157,7 +168,7 @@ Potrebbe essere necessario espandere l&#39;elenco o passare alla pagina successi
 
 1. Continua con [Crea credenziali OAuth](#create-oauth-credentials).
 
-## Crea credenziali OAuth
+### Crea credenziali OAuth
 
 1. Nel pannello a sinistra, fai clic su **[!UICONTROL Credenziali]**.
 
@@ -197,14 +208,14 @@ Potrebbe essere necessario espandere l&#39;elenco o passare alla pagina successi
 1. Copia il [!UICONTROL ID client] e [!UICONTROL Segreto client] in un luogo sicuro. Le utilizzerai per effettuare una connessione in [!DNL Workfront Fusion].
 1. Continua con [Connetti a [!DNL Google] in [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion).
 
-## Connetti a [!DNL Google] in [!DNL Workfront Fusion]
+### Connetti a [!DNL Google] in [!DNL Workfront Fusion]
 
 Processo di creazione di una connessione a [!DNL Google] varia a seconda che si utilizzi un modulo di da un [!DNL Google] servizio (ad esempio [!DNL Google Sheets] o [!DNL Google Docs]) o se ti stai connettendo a [!DNL Google] tramite [!UICONTROL HTTP] >[!UICONTROL Creare un OAuth2.0] modulo di richiesta.
 
 * [Connetti a [!DNL Google] in un [!DNL Google] servizio](#connect-to-google-in-a-google-service)
 * [Connetti a [!DNL Google] nel [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth2.0] modulo](#connect-to-google-in-the-http--make-an-oauth20-request-module)
 
-### Connetti a [!DNL Google] in un [!DNL Google] servizio
+#### Connetti a [!DNL Google] in un [!DNL Google] servizio
 
 1. In entrata [!DNL Workfront Fusion], individua [!DNL Google] modulo di cui hai bisogno per creare una connessione.
 1. Clic **[!UICONTROL Creare una connessione]**, quindi fai clic su **[!UICONTROL Mostra impostazioni avanzate]**.
@@ -222,10 +233,10 @@ Processo di creazione di una connessione a [!DNL Google] varia a seconda che si 
 
    La connessione al [!DNL Google] è stato stabilito un servizio che utilizza un client OAuth personalizzato.
 
-### Connetti a [!DNL Google] nel [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth2.0] modulo {#connect-to-google-in-the-http--make-an-oauth20-request-module}
+#### Connetti a [!DNL Google] nel [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth2.0] modulo {#connect-to-google-in-the-http--make-an-oauth20-request-module}
 
-Per istruzioni sulla connessione a [!DNL Google] nel [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth2.0] modulo, vedi [Istruzioni per la creazione di una connessione a [!DNL Google] nel [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instruct) in [[!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
+Per istruzioni sulla connessione a [!DNL Google] nel [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth2.0] modulo, vedi [Istruzioni per la creazione di una connessione a [!DNL Google] nel [!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module) in [[!UICONTROL HTTP] > [!UICONTROL Effettuare una richiesta OAuth 2.0] modulo](../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md).
 
 ## Possibile messaggio di errore:[!UICONTROL [403] Accesso non configurato]
 
-Se il [!UICONTROL [403] Accesso non configurato] viene visualizzato un messaggio di errore, è necessario abilitare l’API corrispondente nella piattaforma Google Cloud. Per abilitare l’API, segui i passaggi descritti nella sezione [Crea un progetto su [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) in questo articolo.
+Se il [!UICONTROL `403 Access Not Configured`] viene visualizzato un messaggio di errore, è necessario abilitare l’API corrispondente nella piattaforma Google Cloud. Per abilitare l’API, segui i passaggi descritti nella sezione [Crea un progetto su [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) in questo articolo.

@@ -7,9 +7,9 @@ description: Le seguenti attività spiegano come creare un [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1417'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Moduli Workfront Fusion che si connettono a un’app (ad esempio [!DNL Workfront
 
 Quando selezioni o crei una connessione per un’app in uno scenario, gli altri moduli per tale app utilizzano automaticamente la stessa connessione, a meno che non ne selezioni una diversa durante la configurazione dei moduli successivi.
 
-Per ulteriori informazioni, consulta [Informazioni sulla connessione [!DNL Adobe Workfront Fusion] a un’app o a un servizio](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Per ulteriori informazioni, consulta [Panoramica delle connessioni](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ![](assets/connection-field-350x169.png)
 
