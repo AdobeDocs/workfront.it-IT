@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ Per informazioni sulla creazione di modelli di layout, vedere [Creare e gestire 
 Per informazioni sui modelli di layout per i gruppi, vedere [Creare e modificare i modelli di layout di un gruppo](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Dopo aver configurato un modello di layout, è necessario assegnarlo agli utenti affinché le modifiche apportate siano visibili agli altri utenti. Per informazioni sull&#39;assegnazione di un modello di layout agli utenti, vedere [Assegnare utenti a un modello di layout](../use-layout-templates/assign-users-to-layout-template.md).
+
+>[!NOTE]
+>
+>Quando Richieste è impostato come pagina di destinazione, gli utenti Collaboratore o Richiedente assegnati al modello di layout visualizzano la home page come pagina di destinazione. È consigliabile scegliere una pagina di destinazione diversa da Richieste di modelli di layout destinati agli utenti Collaboratore o Richiedente?
 
 ## Requisiti di accesso
 

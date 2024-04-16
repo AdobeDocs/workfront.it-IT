@@ -4,15 +4,15 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: Il layout predefinito è la disposizione del menu principale , del pannello sinistro e delle visualizzazioni, dei raggruppamenti e dei filtri prima che un amministratore Adobe Workfront apporti modifiche utilizzando un modello di layout.
+description: Il layout predefinito è la disposizione del menu principale , del pannello sinistro e delle viste, dei raggruppamenti e dei filtri prima che un amministratore Adobe Workfront apporti modifiche utilizzando un modello di layout.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 14%
+source-wordcount: '309'
+ht-degree: 6%
 
 ---
 
@@ -131,7 +131,7 @@ La tabella seguente mostra gli elementi del pannello sinistro visualizzati per i
    </tr>
   --> 
   <tr> 
-   <td><strong>In Pianificazione</strong> </td> 
+   <td><strong>Pianificazione</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -187,7 +187,7 @@ La tabella seguente mostra gli elementi del pannello sinistro visualizzati per i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Schede orario da me approvate</strong> </td> 
+   <td><strong>Schede orario che approvo</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td> </td> 
@@ -215,7 +215,7 @@ La tabella seguente mostra gli elementi del pannello sinistro visualizzati per i
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Configura</strong> </td> 
+   <td><strong>Configurazione</strong> </td> 
    <td> </td> 
    <td>✔ </td> 
    <td>Funzionalità limitata</td> 
