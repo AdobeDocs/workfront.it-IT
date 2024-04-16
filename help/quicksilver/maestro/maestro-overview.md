@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 2%
@@ -237,6 +237,8 @@ Per ulteriori informazioni, consulta [Gestire le visualizzazioni record](../maes
 
 Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che è possibile creare in Workfront Planning. I limiti sono soggetti a modifiche man mano che passiamo alle fasi successive di sviluppo.
 
+<!--consider making the table view a stand-alone article when we go to GA-->
+
 | Oggetto Adobe Workfront Planning | Limite |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Numero di aree di lavoro per un’istanza Workfront | 1.000 |
@@ -249,6 +251,8 @@ Nella tabella seguente vengono illustrati i limiti per il numero di oggetti che 
 | Dimensione del file che è possibile importare tramite l’API per una tabella del tipo di record | 1,5 MB |
 | Frequenza con cui è possibile effettuare richieste API | 200 richieste al minuto |
 | Dimensione del file CSV di Excel che puoi importare* | 5 MB |
+
+<!--add to the table above: Maximum number of views created by one use 100 -->
 
 >[!IMPORTANT]
 >

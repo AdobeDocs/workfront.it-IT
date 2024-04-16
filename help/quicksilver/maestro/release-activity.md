@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
 workflow-type: tm+mt
-source-wordcount: '5486'
+source-wordcount: '5562'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,35 @@ Le funzioni vengono rilasciate settimanalmente e sono elencate in ordine di rila
 >[!IMPORTANT]
 >
 >La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
+
+<!--
+## Week of <date>
+
+### Added a limit of 100 views for a record type
+
+Production: <date> 
+
+Preview: To be determined 
+
+A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+## Settimana dell’8 aprile 2024
+
+### Copiare il contenuto di una cella e incollarlo in più celle selezionate
+
+Produzione: 10 aprile 2024
+
+Anteprima: da determinare
+
+È ora possibile copiare il contenuto di una cella nella vista tabella e incollarlo in più celle selezionate. È inoltre possibile copiare informazioni da origini esterne e incollarle nelle celle della vista tabella.
+
+Questa funzionalità è supportata per tutti i tipi di campo, ad eccezione dei campi calcolati.
+
+Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Settimana del 1° aprile 2024
 
