@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -157,6 +157,7 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
    * Copiare uno o più valori esistenti di un campo, quindi incollarli in un campo dello stesso tipo in un altro record
    * Fare clic sull&#39;intestazione di una colonna per selezionarla e copiarla, quindi fare clic sull&#39;intestazione di un&#39;altra colonna e incollare il contenuto della colonna copiata. Le colonne devono contenere tipi di campo simili.
    * Con il tasto Maiusc premuto, fai clic su per selezionare più righe in una tabella, copia le informazioni nelle righe selezionate, quindi fai clic su una riga diversa e incolla le informazioni selezionate nella nuova riga e nelle righe successive.
+   * Copiare le informazioni da una cella, quindi selezionare più celle e incollare le stesse informazioni in più celle. È possibile selezionare più celle e incollare le stesse informazioni in più celle da righe e colonne adiacenti.
 
    >[!NOTE]
    >
@@ -171,7 +172,7 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
    >* Non è possibile copiare e incollare valori di campo per i tipi di campo seguenti:
    >
    >
-   >    * Campi collegati creati mediante la connessione di tipi di record. È possibile copiare e incollare campi record collegati. Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
+   >    * Campi collegati (o campi di ricerca) creati mediante la connessione di tipi di record. È possibile copiare e incollare campi record collegati. Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
    >    * Campi dei seguenti tipi: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica
 
 1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere la modifica o la copia e l&#39;incollamento delle informazioni del record:

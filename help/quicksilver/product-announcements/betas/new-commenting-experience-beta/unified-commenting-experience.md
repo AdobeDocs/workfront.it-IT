@@ -7,10 +7,10 @@ author: Alina
 feature: Product Announcements
 role: User
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 0%
+source-wordcount: '1092'
+ht-degree: 1%
 
 ---
 
@@ -551,13 +551,13 @@ Di seguito è riportata una timeline pianificata per il rilascio della nuova esp
 
 * Con la versione del secondo trimestre 2024 (11 aprile 2024):
 
-  Rimuovi l’opzione per tornare al flusso di commenti legacy e rendere il nuovo flusso di commenti l’unica esperienza per tutti gli oggetti, ad eccezione delle iterazioni.
+  Rimuovi l’opzione per tornare al flusso di commenti legacy e rendere il nuovo flusso di commenti l’unica esperienza per tutti gli oggetti.
 
 ## Individua la nuova esperienza di commento
 
 La nuova esperienza di aggiunta di commenti è disponibile nelle seguenti aree di Workfront:
 
-* Nella sezione Aggiornamenti di tutti gli oggetti ad eccezione delle iterazioni.
+* Nella sezione Aggiornamenti di tutti gli oggetti.
 
   Per informazioni sull&#39;accesso alla sezione Aggiornamenti degli oggetti di Workfront, vedere [Panoramica della sezione Aggiornamenti](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

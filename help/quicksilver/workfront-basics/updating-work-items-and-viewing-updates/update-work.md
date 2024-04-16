@@ -6,9 +6,9 @@ description: Puoi aggiungere un aggiornamento a un oggetto Adobe Workfront (prog
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '2971'
+source-wordcount: '2967'
 ht-degree: 0%
 
 ---
@@ -55,17 +55,13 @@ ht-degree: 0%
 
 Le informazioni contenute in questo articolo descrivono come commentare e aggiornare le informazioni relative a progetti, attività e problemi. Gli utenti che sono assegnati o abbonati all’oggetto possono visualizzare l’aggiornamento. Puoi anche assegnare tag agli utenti per attirare la loro attenzione sull’aggiornamento.
 
-L’aggiunta di commenti ad altri oggetti è simile all’aggiornamento di progetti, attività e problemi. Per ulteriori informazioni sul commento a schede, obiettivi o iterazioni, consulta anche i seguenti articoli:
+L’aggiunta di commenti ad altri oggetti è simile all’aggiornamento di progetti, attività e problemi. Per ulteriori informazioni su come commentare schede e obiettivi, consulta anche i seguenti articoli:
 
 * [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
 
   È necessaria un&#39;ulteriore licenza per accedere a Workfront Goals.
 
 * [Aggiungere una scheda ad hoc a una bacheca](../../agile/get-started-with-boards/add-card-to-board.md)
-
-* [Gestisci commenti iterazione](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
-
-
 
 ## Requisiti di accesso
 

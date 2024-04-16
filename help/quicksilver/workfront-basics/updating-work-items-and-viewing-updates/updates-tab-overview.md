@@ -7,9 +7,9 @@ description: Nella sezione Aggiornamenti di un oggetto vengono visualizzati i co
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '974'
 ht-degree: 5%
 
 ---
@@ -147,12 +147,10 @@ Depending on what objects you access the commenting experience for, you might fi
    * Attività modello
 
 * I seguenti oggetti non dispongono di una scheda Attività di sistema o di una scheda Tutto e l&#39;esperienza nella scheda Commenti è diversa da quella di tutti gli altri oggetti:
+   * Iterazioni
    * Scheda ad hoc
 
      Per ulteriori informazioni sugli aggiornamenti sulle schede, consulta [Aggiungere una scheda ad hoc a una bacheca](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
-   * Iterazioni
-
-     Per ulteriori informazioni sugli aggiornamenti sulle iterazioni, consulta [Gestisci commenti iterazione](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md).
 
 * I seguenti oggetti non dispongono di una scheda Tutto e l&#39;esperienza nella scheda Commenti corrisponde a quella della maggior parte degli oggetti:
 
