@@ -6,19 +6,18 @@ title: Panoramica del data lake di Workfront
 description: Panoramica della funzionalità del data lake di Workfront
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
 
 # Panoramica del data lake di Workfront
 
-Il data lake di Workfront offre un accesso senza precedenti ai dati Workfront, consentendo di rispondere a domande critiche e misurare il valore dei processi. Questa funzionalità consente ai clienti aziendali di interrogare i propri dati utilizzando strumenti di visualizzazione dei dati direttamente da un data lake di Workfront o di esportare i dati Workfront in data warehouse di proprietà del cliente.
+Il data lake di Workfront offre un accesso senza precedenti ai dati Workfront utilizzando la tecnologia di Snowflake, consentendo di rispondere a domande critiche e misurare il valore dei processi. Questa funzionalità consente ai clienti aziendali di interrogare i propri dati utilizzando strumenti di visualizzazione dei dati direttamente da un data lake di Workfront o di esportare i dati Workfront in data warehouse di proprietà del cliente.
 
 Gli abbonati potranno collegare il loro strumento di business intelligence di scelta (Tableau, Power BI, Domo, Looker, ecc.) al data lake di Workfront per creare visualizzazioni dati con i seguenti tipi di dati:
 

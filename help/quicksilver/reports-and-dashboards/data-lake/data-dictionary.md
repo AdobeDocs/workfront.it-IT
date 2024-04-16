@@ -6,13 +6,12 @@ title: Dizionario dati Data Lake
 description: Questa pagina contiene informazioni sulla struttura e il contenuto dei dati nel data lake di Workfront.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: 57985404-554e-4289-b871-b02d3427aa5c
+source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 8%
+source-wordcount: '455'
+ht-degree: 9%
 
 ---
 
@@ -42,7 +41,7 @@ La tabella Cronologia giornaliera offre una versione abbreviata della tabella Ev
 
 <!-- Custom table -->
 
-## Tabella delle relazioni di entità
+## Tabella terminologica
 
 La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (così come i loro nomi nell’interfaccia e nell’API) con i nomi equivalenti nel data lake.
 
