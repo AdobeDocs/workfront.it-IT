@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: ba11f324f6ad68f841bf4266e5eb27f59e25ddae
+source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 1%
@@ -172,3 +172,4 @@ Gli amministratori di gruppi o gli amministratori di Workfront possono creare un
    Lo stato è inattivo e non è più visibile a tutti gli utenti del gruppo.
 
 1. Ripeti i passaggi da 3 a 5 per nascondere lo stato personalizzato a tutti gli altri gruppi che non ne hanno bisogno.
+
