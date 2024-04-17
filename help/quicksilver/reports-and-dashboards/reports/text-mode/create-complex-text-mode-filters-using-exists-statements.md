@@ -6,7 +6,7 @@ description: È possibile creare filtri in modalità testo complessi utilizzando
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 09492b2657aaf599bb31a19329d5de23791b66ec
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -163,7 +163,7 @@ Per creare un filtro che si estenda su più livelli nella gerarchia degli oggett
 
    Per un esempio che utilizza i campi identificati in precedenza, vedi [Esempio 1: filtrare i problemi per nome del proprietario del Portfolio](#example-1-filter-for-issues-by-portfolio-owner-name) in questo articolo.
 
-1. Clic **Salva filtro**.
+1. Fai clic su **Salva filtro**.
 
 ## Creare filtri in modalità testo complesso per gli oggetti mancanti
 
@@ -209,7 +209,7 @@ Per creare un filtro che faccia riferimento a oggetti mancanti:
 
    Per un esempio di reporting sui campi personalizzati non associati a Custom Forms, vedi [Esempio 2: filtro per gli oggetti mancanti: campi personalizzati che non vengono visualizzati in alcun modulo personalizzato](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) in questo articolo.
 
-1. Clic **Salva filtro**.
+1. Fai clic su **Salva filtro**.
 
 ## Esempi di filtri in modalità testo che si estendono su più livelli nella gerarchia degli oggetti
 
@@ -229,7 +229,9 @@ Per filtrare i problemi in base al nome del proprietario del Portfolio:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. Incolla il seguente codice in **Impostare le regole di filtro per il report** area in cui sostituire il codice generico precedente:
 
@@ -249,7 +251,7 @@ Per filtrare i problemi in base al nome del proprietario del Portfolio:
    >* Il campo di collegamento visualizzato nell&#39;oggetto originale è projectID e il campo di collegamento è ID.
 
 1. Sostituisci il valore del campo di destinazione (ownerID) nell’ultima istruzione con un ID utente del tuo ambiente.
-1. Clic **Salva filtro**.
+1. Fai clic su **Salva filtro**.
 
 ### Esempio 2: filtro per gli oggetti mancanti: campi personalizzati che non vengono visualizzati in alcun modulo personalizzato {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
@@ -288,7 +290,7 @@ Per filtrare i campi personalizzati non associati a un modulo personalizzato:
    >* Il campo di collegamento all&#39;oggetto di destinazione è parameterID, perché parameterID esiste sia nella tabella oggetto di collegamento che nella tabella oggetto di destinazione.
    >* Il campo di collegamento visualizzato nell&#39;oggetto originale è ID (del parametro Categoria).
 
-1. Clic **Salva filtro**.
+1. Fai clic su **Salva filtro**.
 
 ### Esempio 3: filtro per gli oggetti mancanti: utenti che non registrano il tempo per un determinato periodo di tempo {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
@@ -321,7 +323,7 @@ Per filtrare gli utenti che non hanno registrato l&#39;ora durante la settimana 
    >* ESISTE:A:L&#39;istruzione entryDate fa riferimento ai campi che definiscono l&#39;oggetto di destinazione (Hour) e utilizza la stessa sintassi utilizzata in un&#39;istruzione di filtro regolare. In questo modo, verranno visualizzati solo gli utenti che non hanno registrato il tempo per un periodo di tempo specifico, in questo caso la settimana precedente.
    >* Il modificatore NOTEXISTS indica che si stanno cercando elementi (ore) che non esistono per l’oggetto del rapporto (Utenti).
 
-1. Clic **Salva filtro**.
+1. Fai clic su **Salva filtro**.
 
 ### Esempio 4: filtrare per più campi: attività per nome proprietario Portfolio e ID scorecard allineamento Portfolio {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
@@ -360,4 +362,4 @@ Per filtrare le attività in base al nome del proprietario del Portfolio e all�
    >* Il campo di collegamento visualizzato nell&#39;oggetto originale è projectID.
    >* Sostituisci ownerID con un ID utente del tuo ambiente.
 
-1. Clic **Salva filtro**.
+1. Fai clic su **Salva filtro**.

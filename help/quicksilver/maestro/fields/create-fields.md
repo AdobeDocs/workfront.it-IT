@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
 workflow-type: tm+mt
-source-wordcount: '3308'
+source-wordcount: '3277'
 ht-degree: 2%
 
 ---
@@ -377,9 +377,8 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
    >[!NOTE]
    >
-   > * Non è possibile aggiungere campi di tipo a selezione multipla in una formula.
-   >
-   > * Impossibile aggiungere campi da record collegati in una formula. Questa funzionalità verrà rilasciata in un secondo momento. Per ulteriori informazioni sulle nuove versioni, consulta [Attività sulla versione di Adobe Workfront Planning](/help/quicksilver/maestro/release-activity.md).
+   > Non è possibile aggiungere campi di tipo a selezione multipla in una formula.
+
 
 
 1. Fai clic su **Crea**.
