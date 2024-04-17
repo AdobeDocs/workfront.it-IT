@@ -12,10 +12,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c87f33a29f07cc1b5aa2873b1e4fdade82dc41b
+source-git-commit: 1141131f57982bc9fec371dba78eb57136e33145
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 2%
+source-wordcount: '915'
+ht-degree: 1%
 
 ---
 
@@ -99,15 +99,18 @@ La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spos
 
 \* Attualmente non disponibile
 
+<!--
+
 >[!NOTE]
 >
->Le azioni (ignora, seleziona esistente e crea nuovo) sono disponibili per i seguenti oggetti:
+>Actions (ignore, select existing, and create new) are available on the following objects:
 >
->* Ruolo
+>* Role
 >* Team
->* Azienda
->* Gruppo
+>* Company
+>* Group
 
+-->
 
 ## Stati di promozione dell’ambiente
 
