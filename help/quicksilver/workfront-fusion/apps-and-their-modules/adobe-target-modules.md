@@ -9,9 +9,9 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i 
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: c0be0a1f21d5db3a480485a39e019a129d248574
+source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
 workflow-type: tm+mt
-source-wordcount: '2665'
+source-wordcount: '2119'
 ht-degree: 0%
 
 ---
@@ -97,6 +97,16 @@ Per creare una connessione per [!DNL Adobe Target] moduli:
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Seleziona se ti connetti a un ambiente di produzione o non di produzione.
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Specificare se ci si connette a un account di servizio o a un account personale.
+        </td>
+      </tr>
+      <tr>
         <td role="rowheader">[!UICONTROL ID client]</td>
         <td>Immetti il [!DNL Adobe] ID client. È disponibile nella sezione [!UICONTROL Credentials details] del file [!DNL Adobe Developer Console].
       </tr>
@@ -105,12 +115,12 @@ Per creare una connessione per [!DNL Adobe Target] moduli:
         <td>Immetti il [!DNL Adobe] Segreto client. È disponibile nella sezione [!UICONTROL Credentials details] del file [!DNL Adobe Developer Console].
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL ID organizzazione]</td>
-        <td>Immetti il [!DNL Adobe] ID organizzazione. È disponibile nella sezione [!UICONTROL Credentials details] del file [!DNL Adobe Developer Console].
-      </tr>
-      <tr>
         <td role="rowheader">[!UICONTROL ID account tecnico]</td>
         <td>Immetti il [!DNL Adobe] ID account tecnico. È disponibile nella sezione [!UICONTROL Credentials details] del file [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL ID organizzazione]</td>
+        <td>Immetti il [!DNL Adobe] ID organizzazione. È disponibile nella sezione [!UICONTROL Credentials details] del file [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Tenant]</td>
@@ -191,25 +201,46 @@ Questo modulo di azione crea un’attività AB o XT, un’offerta o un pubblico.
     <td>Per istruzioni sulla creazione di una connessione a [!DNL Adobe Target], vedi <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Creare una connessione a [!DNL Adobe Target]</a> in questo articolo.</td>
   </tr>
   <tr>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Tipo di record]</td>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+    <td role="rowheader">[!UICONTROL Tipo di record]</td>
+    <td>
       <p>Selezionare il tipo di record da creare.</p>
       <ul>
         <li>
-          <p>[!UICONTROL AB Activity]</p>
-          <p>Continua con <a href="#ab-activity-fields" class="MCXref xref" >Campi attività AB</a>.</p>
+        <b>Proprietà</b><p>Per informazioni dettagliate sui campi, consulta <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty">Creare una proprietà</a> nella documentazione API di Adobe Target.</p>
         </li>
         <li>
-          <p>[!UICONTROL XT Activity]</p>
-          <p>Continua con <a href="#xt-activity-fields" class="MCXref xref" >Campi di attività XT</a>.</p>
+        <b>Consiglio offerta</b><p>Per informazioni dettagliate sui campi, consulta <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">Creare una nuova offerta Recs</a> nella documentazione API di Adobe Target.</p>
         </li>
         <li>
-          <p>Offerta [!UICONTROL]</p>
+          <b>[!UICONTROL Offer JSON]</b>
           <p>Continua con <a href="#offer-fields" class="MCXref xref" >Campi offerta</a>.</p>
         </li>
         <li>
-          <p>[!UICONTROL Audience]</p>
-          <p>Continua con <a href="#audience-fields" class="MCXref xref" >Campi del pubblico</a>.</p>
+          <b>[!UICONTROL Contenuto offerta]</b>
+          <p>Continua con <a href="#offer-fields" class="MCXref xref" >Campi offerta</a>.</p>
+        </li>
+        <li>
+        <b>Ambiente</b><p>Per informazioni dettagliate sui campi, consulta <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Environments/operation/createEnvironment">Creare un ambiente</a> nella documentazione API di Adobe Target.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL Audience]</b>
+          <p>Per informazioni dettagliate sui campi, consulta <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1">Creare un pubblico</a> nella documentazione API di Adobe Target.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL AB Activity]</b>
+          <p>Per informazioni dettagliate sui campi, consulta <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">Crea attività AB</a> nella documentazione API di Adobe Target.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL XT Activity]</b>
+          <p>Continua con <a href="#xt-activity-fields" class="MCXref xref" >Campi di attività XT</a>.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL AP Activity]</b>
+          <p>Per informazioni dettagliate sui campi, consulta <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2">Crea attività di Personalizzazione automatizzata</a> nella documentazione API di Adobe Target.</p>
+        </li>
+        <li>
+          <b>[!UICONTROL Response Token]</b>
+          <p>Per informazioni dettagliate sui campi, consulta <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Response-tokens/operation/createResponseToken">Crea token di risposta</a> nella documentazione API di Adobe Target.</p>
         </li>
       </ul>
     </td>
@@ -217,7 +248,9 @@ Questo modulo di azione crea un’attività AB o XT, un’offerta o un pubblico.
 </tbody>
 </table>
 
-##### Campi attività AB
+<!--
+
+##### AB Activity fields
 
 <table style="table-layout:auto"> 
   <col/>
@@ -225,171 +258,198 @@ Questo modulo di azione crea un’attività AB o XT, un’offerta o un pubblico.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Immetti o mappa un nome per questa attività. Il nome non può contenere più di 250 caratteri.</td>
+      <td>Enter or map a name for this activity. The name can be no more than 250 characters.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Options]</td>
       <td>
-        <p>Per ogni opzione che desideri aggiungere all’attività, fai clic su <b>[!UICONTROL Add item]</b> e compilare i campi seguenti:</p>
+        <p>For each option that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL Option Local ID]</b>
+            <p><b>[!UICONTROL Option local ID]</b>
             </p>
-            <p>Immetti o mappa una stringa da utilizzare per tenere traccia dell’opzione nelle diverse richieste API.</p>
+            <p>Enter or map a string to be used to track the option across API requests.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Immetti o mappa un nome per l’opzione. Il nome non può contenere più di 250 caratteri.</p>
+            <p>Enter or map a name for the option. The name must be no more than 250 characters.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL ID offerta]</b>
+            <p><b>[!UICONTROL Offer ID]</b>
             </p>
           </li>
           <li>
-            <p>Seleziona o mappa l’Offerta associata all’opzione.</p>
+            <p>Select or map the Offer associated with the option.</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Percorsi]</td>
+      <td role="rowheader">[!UICONTROL Mboxes]</td>
       <td>
-        <p>Per ogni Mbox che desideri aggiungere all’attività, fai clic su <b>[!UICONTROL Add item]</b> e compilare i campi seguenti:</p>
+        <p>For each Mbox that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
         <ul>
           <li>
-            <p>[!UICONTROL ID pubblico]</p>
-            <p>Per ogni pubblico che desideri aggiungere alla Mbox, fai clic su <b>[!UICONTROL Add item]</b> e seleziona l’ID pubblico.</p>
+            <p>[!UICONTROL Audience IDs]</p>
+            <p>For each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Location Local ID]</b>
+            <p><b>[!UICONTROL Location local ID]</b>
             </p>
-            <p>Immetti o mappa una stringa da utilizzare per monitorare la posizione nelle diverse richieste API.</p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Immetti o mappa un nome per la posizione. Il nome non può contenere più di 250 caratteri.</p>
+            <p>Enter or map a name for the Location. The name must be no more than 250 characters.</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Esperienze]</td>
+      <td role="rowheader">[!UICONTROL Selectors]</td>
       <td>
-        <p>Un elenco di posizioni sulla pagina in cui viene distribuita l’offerta di contenuti. Una posizione contiene quanto segue:
+        <p>For each selector that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and fill in the following fields:</p>
+        <ul>
+          <li>
+            <p>[!UICONTROL Audience IDs]</p>
+            <p>For each audience that you want to add to the Mbox, click <b>[!UICONTROL Add item]</b> and select the Audience ID.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Location local ID]</b>
+            </p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Selector]</b>
+            </p>
+            <p>Enter or map a string to be used to track the location across API requests.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Name]</b>
+            </p>
+            <p>Enter or map a name for the Location. The name must be no more than 250 characters.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Experiences]</td>
+      <td>
+        <p>A list of locations on the page where the content offer is served. A location contains the following:
 </p>
         <ul>
           <li>
-            <p><b>[!UICONTROL ID Experience Local]</b>
+            <p><b>[!UICONTROL Experience local ID]</b>
             </p>
-            <p>Inserisci o mappa l'ID dell'esperienza</p>
+            <p>Enter or map the ID of the experience</p>
           </li>
           <li>
             <p><b>[!UICONTROL Name]</b>
             </p>
-            <p>Inserisci o mappa il nome dell’esperienza
-
+            <p>Enter or map the name of the experience
 </p>
           </li>
           <li>
             <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>Per ogni pubblico a cui desideri mostrare l’esperienza, fai clic su <b>[!UICONTROL Add item]</b> e inserisci l’ID pubblico.
-
+            <p>For each audience that you want to see the experience, click <b>[!UICONTROL Add item]</b> and enter the Audience ID.
 </p>
           </li>
           <li>
-            <p><b>[!UICONTROL Percentuale Visitatori]</b>
+            <p><b>[!UICONTROL Visitor Percentage]</b>
             </p>
-            <p>Immetti o mappa la percentuale di visitatori allocata all'esperienza</p>
+            <p>Enter or map the percentage of visitors that is allocated to the experience</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Metrics]</td>
-      <td> </td>
+      <td><p>For details on metrics, see <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">Create AB activity</a> in the Adobe Target API documentation.</p> </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Third Party ID]</td>
-      <td>Immetti o mappa un ID per identificare questa attività. Puoi scegliere questo ID. Questo ID non deve essere lo stesso di un’altra attività e non può superare i 250 caratteri.</td>
+      <td>Enter or map an ID to identify this activity. You can choose this ID. This ID must not be the same as another activity, and can be no more than 250 characters.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL inizia da]</td>
-      <td>Immetti o mappa la data e l’ora di inizio dell’attività nel formato <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td role="rowheader">[!UICONTROL Starts at]</td>
+      <td>Enter or map the date and time to start the activity in the format <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL termina alle]</td>
-      <td>Immetti o mappa la data e l’ora in cui terminare l’attività nel formato <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td role="rowheader">[!UICONTROL Ends at]</td>
+      <td>Enter or map the date and time to end the activity in the format <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL State]</td>
       <td>
-        <p>Inserisci o mappa lo stato dell’attività.</p>
+        <p>Enter or map the state of the activity.</p>
         <ul>
           <li>
-            <p>[!UICONTROL approvato]</p>
+            <p>[!UICONTROL Approved]</p>
           </li>
           <li>
-            <p>[!UICONTROL Disattivato]</p>
+            <p>[!UICONTROL Deactivated]</p>
           </li>
           <li>
-            <p>[!UICONTROL In Pausa]</p>
+            <p>[!UICONTROL Paused]</p>
           </li>
           <li>
-            <p>[!UICONTROL Salvato] </p>
+            <p>[!UICONTROL Saved] </p>
           </li>
           <li>
-            <p>[!UICONTROL eliminato]</p>
+            <p>[!UICONTROL Deleted]</p>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Priorità [!UICONTROL]</td>
-      <td>Immetti un numero che definisce la priorità dell’attività. I numeri più alti hanno priorità più alta. Questo valore deve essere compreso tra 0 e 999. Il valore predefinito è 5.</td>
+      <td role="rowheader">[!UICONTROL Priority]</td>
+      <td>Enter a number that defines the priority of the activity. Higher numbers have higher priority. This value must be between 0 and 999. The default value is 5.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Allocazione automatica traffico]</td>
+      <td role="rowheader">[!UICONTROL Auto-allocate traffic]</td>
       <td>
-        <p>Abilita questa opzione per allocare automaticamente il traffico. L’allocazione automatica invia più traffico all’esperienza di maggior successo.</p>
-        <p>Seleziona o mappa i criteri di valutazione in base ai quali giudicare quale esperienza ha più successo.</p>
+        <p>Enable this option to auto-allocate traffic. Auto-allocating sends more traffic to the more successful experience.</p>
+        <p>Select or map the evaluation criteria by which to judge which experience is more successful.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
-      <td>Inserisci o mappa l’area di lavoro a cui è associata l’attività</td>
+      <td>Enter or map the workspace that the activity is associated with</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ID proprietà] </td>
-      <td>Per ogni proprietà che desideri aggiungere all’attività, fai clic su <b>[!UICONTROL Add item]</b> e seleziona o mappa l’ID della proprietà.</td>
+      <td role="rowheader">[!UICONTROL Property IDs] </td>
+      <td>For each property that you want to add to the activity, click <b>[!UICONTROL Add item]</b> and select or map the property's ID.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Tipi di pubblico per reportistica]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>Per ogni pubblico di reportistica che si desidera aggiungere all'attività, fare clic su [!UICONTROL Aggiungi elemento] e immettere le informazioni seguenti:</p>
+      <td role="rowheader">[!UICONTROL Reporting audiences]</td>
+      <td>
+        <p>For each reporting audience that you want to add to the activity, click [!UICONTROL Add item] and enter the following information:</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL Reporting Audience Local ID]</b>
+            <p><b>[!UICONTROL Reporting Audience local ID]</b>
             </p>
-            <p>Immetti o mappa una stringa da utilizzare per monitorare il pubblico di reportistica nelle diverse richieste API.</p>
+            <p>Enter or map a string to be used to track the Reporting Audience across API requests.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL ID pubblico]</b>
+            <p><b>[!UICONTROL Audience ID]</b>
             </p>
-            <p>Inserisci o mappa il segmento da utilizzare nel reporting</p>
+            <p>Enter or map the Segment to be used in reporting</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Metric Local ID]</b>
+            <p><b>[!UICONTROL Metric local ID]</b>
             </p>
-            <p>Inserisci o mappa una stringa da utilizzare per monitorare la metrica nelle richieste API.</p>
+            <p>Enter or map a string to be used to track the metric across API requests.</p>
           </li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
+
+-->
 
 ##### Campi di attività XT
 
@@ -540,8 +600,8 @@ Questo modulo di azione crea un’attività AB o XT, un’offerta o un pubblico.
       <td>Per ogni proprietà che desideri aggiungere all’attività, fai clic su <b>[!UICONTROL Add item]</b> e seleziona o mappa l’ID della proprietà.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Tipi di pubblico per reportistica]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+      <td role="rowheader">[!UICONTROL Tipi di pubblico per reportistica]</td>
+      <td>
         <p>Per ogni pubblico di reportistica che si desidera aggiungere all'attività, fare clic su [!UICONTROL Aggiungi elemento] e immettere le informazioni seguenti:</p>
         <ul>
           <li>
@@ -587,10 +647,22 @@ Questo modulo di azione crea un’attività AB o XT, un’offerta o un pubblico.
         <p>Inserisci o mappa l’ID dell’area di lavoro associata all’offerta. Se non specificata, l’offerta viene associata all’area di lavoro predefinita dell’account. Questa funzionalità si applica solo a [!DNL Target] Account Premium.</p>
       </td>
     </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td>
+        <p>Immetti o mappa la data e l’ora in cui l’offerta è stata modificata.</p>
+      </td>
+    </tr>
   </tbody>
 </table>
 
-##### Campi del pubblico
+<!--
+
+##### Audience fields
+
+>[!NOTE]
+>
+>Audiences created through Workfront Fusion can only be edit in Fusion or through the API. They cannot be edited from within Target.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -598,21 +670,27 @@ Questo modulo di azione crea un’attività AB o XT, un’offerta o un pubblico.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Immetti o mappa un nome per questo pubblico. Il nome non può contenere più di 250 caratteri.</td>
+      <td>Enter or map a name for this audience. The name can be no more than 250 characters.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Content]</td>
+      <td role="rowheader">[!UICONTROL Description]</td>
       <td>
-        <p>Inserisci o mappa una descrizione del pubblico.</p>
+        <p>Enter or map a description of this audience.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">Regola di destinazione [!UICONTROL]</td>
+      <td role="rowheader">[!UICONTROL Origin]</td>
       <td>
-        <p>Attiva l’interruttore per creare regole E, ovvero, tutte le regole devono essere applicate.</p>
-        <p>Per ogni regola che desideri applicare al pubblico, fai clic su <b>[!UICONTROL Add item]</b> e inserisci il JSON della regola da applicare. </p>
-        <div class="example"><span class="autonumber"><span><b>Esempio: </b></span></span>
-          <p>Esempi:</p>
+        <p>Select whether this audience's origin is from Target or from the cloud.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Target Rule]</td>
+      <td>
+        <p>Enable the toggle to make rules AND, that is, all rules must be applied.</p>
+        <p>For each rule that you want to apply to the audience, click <b>[!UICONTROL Add item]</b> and enter the JSON of the rule you want to apply. </p>
+        <div class="example"><span class="autonumber"><span><b>Example: </b></span></span>
+          <p>Example 1:</p>
           <p ><code>&lbrace;</code></p>
                     <p ><code>                "page": "url",</code>
                     </p>
@@ -624,6 +702,7 @@ Questo modulo di azione crea un’attività AB o XT, un’offerta o un pubblico.
                     </p>
                     <p ><code>            &rbrace;,</code>
                     </p>
+                    <p>Example 2</p>
                     <p ><code>            &lbrace;</code>
                     </p>
                     <p><code>                "geo": "region",</code>
@@ -639,13 +718,15 @@ Questo modulo di azione crea un’attività AB o XT, un’offerta o un pubblico.
       </td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Workspace]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-        <p>Inserisci o mappa l’ID dell’area di lavoro associata al pubblico. Se non specificata, l’offerta viene associata all’area di lavoro predefinita dell’account. Questa funzionalità si applica solo a [!DNL Target Premium] account.</p>
+      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td>
+        <p>Enter or map the ID of the workspace associated with the audience. If left blank, the offer is associated with the default workspace of the account. This functionality applies only to [!DNL Target Premium] accounts.</p>
       </td>
     </tr>
   </tbody>
 </table>
+
+-->
 
 #### [!UICONTROL Effettuare una chiamata API personalizzata]
 
@@ -748,7 +829,7 @@ Questo modulo di azione recupera i dati per una singola attività, offerta, pubb
 
 #### [!UICONTROL Aggiornare un record]
 
-Questo modulo di azione aggiorna un’attività, un’offerta o un pubblico.
+Questo modulo di azione aggiorna un record in Target.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -762,38 +843,13 @@ Questo modulo di azione aggiorna un’attività, un’offerta o un pubblico.
       <td role="rowheader">[!UICONTROL Tipo di record]</td>
       <td>
         <p>Selezionare il tipo di record da aggiornare.</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL AB Activity]</b>
-            </p>
-            <p>Vedi le descrizioni dei campi in <a href="#ab-activity-fields" class="MCXref xref" >Campi attività AB</a> in <a href="#create-a-record" class="MCXref xref" >Creare un record</a>.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL XT Activity]</b>
-            </p>
-            <p>Vedi le descrizioni dei campi in <a href="#xt-activity-fields" class="MCXref xref" >Campi di attività XT</a> in <a href="#create-a-record" class="MCXref xref" >Creare un record</a>.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Altra Attività]</b>
-            </p>
-            <p>Selezionare il campo per il quale si desidera aggiornare un valore, quindi immettere il nuovo valore per il campo.</p>
-          </li>
-          <li>
-            <p><b>Offerta [!UICONTROL]</b>
-            </p>
-            <p>Vedi le descrizioni dei campi in <a href="#offer-fields" class="MCXref xref" >Campi offerta</a> in <a href="#create-a-record" class="MCXref xref" >Creare un record</a>.</p>
-          </li>
-          <li>
-            <p><b>[!DNL Audience]</b>
-            </p>
-            <p>Vedi le descrizioni dei campi in <a href="#audience-fields" class="MCXref xref" >Campi del pubblico</a> in <a href="#create-a-record" class="MCXref xref" >Creare un record</a>.</p>
-          </li>
-        </ul>
-      </td>
+       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ID record]</td>
-      <td>Immetti o mappa l’ID del record da aggiornare.</td>
+      <td role="rowheader">[!UICONTROL Nomi campi]</td>
+      <td>Seleziona i campi da aggiornare. I campi vengono visualizzati di seguito.
+          <p>Per informazioni dettagliate sui campi, consulta <a href="https://developer.adobe.com/target/administer/admin-api/">la documentazione API di Adobe Target</a>.</p>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -874,8 +930,8 @@ Questo modulo di ricerca cerca attività, offerte o tipi di pubblico in base ai 
     </td>
   </tr>
   <tr>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Numero massimo di risultati restituiti]</td>
-    <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
+    <td role="rowheader">[!UICONTROL Limit]</td>
+    <td>
       <p>Immettere o mappare il numero massimo di record che il modulo deve restituire durante ogni ciclo di esecuzione dello scenario. Utilizzare questo campo in combinazione con il campo [!UICONTROL Offset] per impaginare le risposte.</p>
       <p>Ad esempio, per visualizzare la terza pagina di risposte, quando ogni pagina ha dieci risposte, impostare [!UICONTROL Offset] su 20 e [!UICONTROL Numero massimo di risultati restituiti] su 10.</p>
     </td>
