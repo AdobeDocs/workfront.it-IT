@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 7f6f569f5380f51494e5051443570b186b443948
+source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -122,6 +122,10 @@ Questi stati includono:
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>NON ASSEMBLATO</td> 
+   <td><p>Questo stato viene assegnato automaticamente e rappresenta un pacchetto che è stato salvato ma non ancora assemblato. </p><p>Questo stato non può essere impostato direttamente da un cliente.</p></td> 
+  </tr> 
   <tr> 
    <td>ASSEMBLAGGIO</td> 
    <td><p>Questo stato viene assegnato automaticamente durante il montaggio degli oggetti. </p><p>L'assemblaggio si riferisce al processo automatizzato di identificazione degli oggetti e dei sottooggetti da includere in un package e di aggiunta di tali oggetti e dei relativi dati al package.</p><p>Questo stato non può essere impostato direttamente da un cliente.</p></td> 
