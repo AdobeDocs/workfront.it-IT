@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d0bbb51b3f12c7f134e045d9b62814c0ed0ffb73
 workflow-type: tm+mt
-source-wordcount: '6018'
+source-wordcount: '6042'
 ht-degree: 4%
 
 ---
@@ -529,9 +529,9 @@ Per esempi sull’utilizzo del campo di ricerca esterna per chiamare la stessa i
 
 >[!NOTE]
 >
->La funzionalità di ricerca esterna non è disponibile per gli oggetti Document o User.
->
->I campi di ricerca esterni dei moduli personalizzati non sono attualmente supportati nei dashboard. Non è possibile modificare il valore del campo in linea e potrebbe non essere visualizzato correttamente in un dashboard.
+>* La funzionalità di ricerca esterna non è disponibile per gli oggetti Document o User.
+>* I campi di ricerca esterni dei moduli personalizzati non sono attualmente supportati nei dashboard. Non è possibile modificare il valore del campo in linea e potrebbe non essere visualizzato correttamente in un dashboard. I campi di ricerca esterna sono supportati nei dashboard di Canvas.
+>* I campi di ricerca esterni sono disponibili negli elenchi, a meno che il campo non abbia una dipendenza da un altro campo.
 
 Per aggiungere una ricerca esterna:
 
