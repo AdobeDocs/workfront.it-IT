@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Per eseguire l’integrazione con Workfront e consentire all’app client di com
 ## Creare un&#39;applicazione OAuth2
 
 Per istruzioni sulla creazione dell&#39;applicazione OAuth2, vedi [Creare un’applicazione OAuth2 utilizzando l’autenticazione del server (flusso JWT)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Creazione di applicazioni OAuth2 per le integrazioni Workfront](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>Puoi avere fino a un totale di dieci applicazioni OAuth2 alla volta.
 
 ## Creare un certificato a chiave pubblica
 
