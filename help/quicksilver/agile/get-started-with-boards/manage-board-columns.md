@@ -6,9 +6,9 @@ description: Per impostazione predefinita, una nuova bacheca contiene tre colonn
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: ade2551a82f28a41816dbf956f3a216cca07034e
+source-git-commit: 99eaafe4b2143f0e29bf677904c1caa8a19d5192
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,15 @@ Se si utilizza il limite WIP in una colonna, non viene aggiunto un contatore di 
 1. Clic **[!UICONTROL Nascondi configurazione]** per chiudere [!UICONTROL Configura] pannello.
 
 ## Definire le impostazioni e i criteri delle colonne
+
+I criteri colonna includono l&#39;aggiornamento automatico dei valori dei campi e l&#39;impostazione di un limite work in progress.
+
+Il criterio per l’aggiornamento dello stato funziona automaticamente sia per la scheda che per la colonna:
+
+* Quando una scheda viene spostata in una colonna con una policy, lo stato della scheda viene aggiornato allo stato definito nella policy. Questo vale sia per le schede ad hoc che per quelle connesse.
+* Quando lo stato di una scheda ad hoc o connessa viene aggiornato sulla scheda in modo che corrisponda allo stato della colonna nel criterio o lo stato di una scheda connessa viene aggiornato in un’altra posizione in Workfront, la scheda viene automaticamente spostata in tale colonna. Inoltre, se uno stato personalizzato di una scheda corrisponde allo stato di sistema assegnato alla colonna, la scheda viene spostata in tale colonna.
+
+Una scheda rimarrà in una colonna in cui viene posizionata se lo stato della scheda non corrisponde a nessuno stato impostato nei criteri di colonna esistenti.
 
 >[!NOTE]
 >
