@@ -4,9 +4,10 @@ description: In Adobe Workfront Planning è possibile modificare il layout della
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d3778d52f9a3afa12a7bdf348f7400693f8f7ab
+exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -93,7 +94,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 ## Considerazioni sulla modifica delle pagine record
 
 * La ridisposizione dei campi nella casella record o nella pagina comporta la ridisposizione dei campi per tutti i record di quel tipo e per tutti gli utenti che accedono a tali record.
-* L&#39;aggiunta di un&#39;immagine di copertina a un record non fa parte del layout complessivo della casella di record o della pagina. È possibile aggiungere immagini di copertina univoche a ogni record.
+* L&#39;aggiunta di un&#39;immagine di copertina a un record non fa parte del layout complessivo della casella di record o della pagina. È possibile aggiungere immagini di copertina univoche a ogni record. Per informazioni, consulta [Aggiungere una copertina a un record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
 ## Ridisposizione dei campi nella casella record o nella pagina
 
@@ -131,56 +132,4 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
    La nuova posizione del campo viene aggiornata sia nella casella che nella pagina di tutti i record dello stesso tipo per tutti gli utenti che visualizzano i record.
 
    Tutte le modifiche apportate al layout della casella di record o della pagina vengono salvate automaticamente.
-
-
-## Aggiungere un&#39;immagine di copertina alla casella record o alla pagina
-
-È possibile personalizzare un record aggiungendo un&#39;immagine di copertina nella parte superiore della casella del record o della pagina.
-
-{{step1-to-maestro}}
-
-Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
-
-1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
-
-1. Fare clic su una scheda del tipo di record.
-
-   Viene visualizzata la pagina del tipo di record.
-
-1. In una visualizzazione di qualsiasi tipo fare clic sul nome di un record
-
-   Oppure
-
-   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record.
-
-   La casella del record viene visualizzata nella vista.
-
-   ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >È possibile visualizzare **Apri dettagli** a sinistra del campo Nome di un record in una visualizzazione tabella solo quando il campo Nome è un campo primario.
-
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro della casella record per aprire la pagina del record in una nuova scheda.
-
-   Viene visualizzata la pagina del record.
-
-   ![](assets/details-page.png)
-
-1. Nella casella o nella pagina del record fare clic su **Aggiungi copertina**. <!--check the casing here; I logged a bug for this-->
-Il **Registra copertina** viene visualizzata la casella.
-
-1. Clic **Seleziona per caricare** e cercare un&#39;immagine nel computer per selezionarla, aggiungerla, quindi fare clic su **Usa immagine**.
-
-   L’immagine viene caricata nella parte superiore della casella o della pagina di record e le modifiche vengono salvate automaticamente.
-
-   ![](assets/record-page-with-cover-image.png)
-
-1. (Facoltativo) Passa il puntatore sull&#39;immagine, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell&#39;angolo inferiore destro dell&#39;immagine di copertina, quindi eseguire una delle operazioni seguenti:
-
-   * Clic **Carica** se si desidera sostituire l&#39;immagine di copertina e ripetere il passaggio 6 per caricare e salvare una nuova immagine.
-   * Clic **Riposiziona**, e utilizzare il **Riposiziona** strumento ![](assets/reposition-tool-icon.png) per centrare l&#39;immagine di copertina, quindi fare clic su **Salva** al termine.
-   * Clic **Rimuovi** per rimuovere l&#39;immagine di copertina
-
-   Tutte le modifiche hanno effetto immediato.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '5562'
+source-wordcount: '5636'
 ht-degree: 0%
 
 ---
@@ -46,6 +46,24 @@ A record type can have only 100 views. Prior to this change, there was no limit 
 For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
 
 -->
+
+## Settimana del 22 aprile 2024
+
+### Flusso di lavoro aggiornato durante la modifica di un’area di lavoro o di un tipo di record
+
+Produzione: 23 aprile 2024
+
+Anteprima: da determinare
+
+È stato aggiornato l’aspetto delle caselle Modifica area di lavoro e Modifica tipo di record.
+
+Quando modifichi un’area di lavoro o un tipo di record, ora puoi definire un nome, una descrizione e assegnare loro un colore e un’icona.
+
+Per ulteriori informazioni, consulta i seguenti articoli:
+
+* [Modificare le aree di lavoro](/help/quicksilver/maestro/architecture/edit-workspaces.md)
+
+* [Modifica tipi di record](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 ## Settimana dell’8 aprile 2024
 
@@ -373,7 +391,7 @@ Anteprima: da determinare
 
 È ora possibile aggiungere singole miniature a ciascun record per distinguerle in una visualizzazione. Nella vista a tabella è possibile aggiungere come miniature file immagine precedentemente salvati nel computer. Le miniature possono essere univoche per ciascun record e possono essere visualizzate sia nella vista tabella che nella vista timeline della pagina del tipo di record.
 
-Per ulteriori informazioni, consulta [Aggiungi miniature ai record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+Per ulteriori informazioni, consulta [Aggiungere una miniatura a un record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 ### Rimuovi schede di tipo record collegate
 

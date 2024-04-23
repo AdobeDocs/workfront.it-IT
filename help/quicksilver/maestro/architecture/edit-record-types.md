@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -100,28 +100,30 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera modificare i tipi di record.
-1. Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell&#39;angolo superiore destro della scheda tipo di record, quindi fare clic su **Aggiorna aspetto**.
+1. Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell&#39;angolo superiore destro della scheda tipo di record, quindi fare clic su **Modifica**.
 
-   ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+   ![](assets/more-menu-options-from-record-type-card.png)
 
-1. In **Aggiorna tipo di record** aggiornare le seguenti informazioni:
+1. In **Modifica tipo di record** aggiornare le seguenti informazioni:
 
-   * **Nome record**: modifica il nome del tipo di record, se necessario. <!--correct this - I asked Garik to change this field to "Record type name"-->
-   * **Aspetto**: modifica il colore e la forma dell’icona associata al tipo di record. Effettua le seguenti operazioni:
+   * Se necessario, modificare il nome del tipo di record. <!--did they add a field label for this? -->
+   * **Descrizione**: modificare o aggiungere una descrizione per il tipo di record con ulteriori informazioni.
+   * Modificare il colore e la forma dell&#39;icona associata al tipo di record. Effettua le seguenti operazioni:
       * Selezionare un colore per identificare il tipo di record. Colore dell&#39;icona del tipo di record. Il grigio è selezionato per impostazione predefinita.
       * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
 
      ![](assets/update-record-type-box.png)
 
-1. Fai clic all’esterno del **Aggiorna tipo di record** per salvare le modifiche.
+1. Fai clic su **Salva**.
 1. (Facoltativo) Fai clic sulla scheda del tipo di record nell’area di lavoro per aprire la pagina del tipo di record.
-1. Fai clic su **Altro** a destra del nome del tipo di record, quindi fare clic su **Rinomina** per rinominare il tipo di record
+1. Fai clic su **Altro** a destra del nome del tipo di record, quindi fare clic su **Modifica** per aggiornare le informazioni sul tipo di record.
 
-   Oppure
+   >[!TIP]
+   >
+   >   È possibile rinominare il tipo di record nell&#39;intestazione.
 
-   Rinomina il tipo di record nell’intestazione.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+   ![](assets/more-menu-options-from-record-details-page.png)
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
+   <!--check this screen shot - not sure this is valid ???-->
 
-   È inoltre possibile rinominare un tipo di record nell&#39;intestazione della pagina del tipo di record.
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un tipo di record e selezionare un altro tipo di record da modificare.

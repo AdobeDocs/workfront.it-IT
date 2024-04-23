@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -107,15 +107,19 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
 ## Creare un’area di lavoro
 
+È possibile creare un workspace e aggiungervi tipi di record per organizzare gli oggetti in Workfront Planning. Per ulteriori informazioni sulla modifica di un’area di lavoro, consulta [Modificare le aree di lavoro](/help/quicksilver/maestro/architecture/edit-workspaces.md).
+
 {{step1-to-maestro}}
+
+Verrà aperta l&#39;area Aree di lavoro di Workfront Planning.
 
 1. (Condizionale) Se nell’ambiente non sono presenti aree di lavoro, fai clic su **Crea area di lavoro**
 
-   In alternativa, da un workspace esistente, fare clic sul pulsante destro del mouse sul nome del workspace, quindi fare clic su **Crea area di lavoro**.
+   In alternativa, da un workspace esistente, fare clic sulla freccia rivolta verso il basso a destra del nome del workspace, quindi fare clic su **Crea area di lavoro**.
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   Verrà aperta l&#39;area Aree di lavoro di Workfront Planning.
+
 1. (Facoltativo e condizionale) Fai clic su **Anteprima** in uno dei seguenti modelli predefiniti di workspace:
 
    * Gestione marketing
@@ -136,14 +140,10 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
    Viene creato uno dei seguenti tipi di aree di lavoro:
 
-   * Area di lavoro vuota in cui è possibile iniziare ad aggiungere tipi di record manualmente quando si crea un&#39;area di lavoro da zero.
-   * Area di lavoro con tipi di record di esempio che è possibile personalizzare ulteriormente quando si utilizza uno dei modelli.
+   * Un’area di lavoro vuota denominata **Area di lavoro senza titolo** quando si crea un&#39;area di lavoro da zero, è possibile iniziare ad aggiungere tipi di record manualmente.
+   * Area di lavoro denominata in base al modello selezionato, popolata con tipi di record di esempio. È possibile personalizzare ulteriormente i tipi di record e il workspace.
 
-1. Fai clic sul nome dell’area di lavoro nell’intestazione della nuova area di lavoro per rinominarla, quindi premi Invio
-
-   Oppure
-
-   Fai clic su **Altro** menu ![](assets/more-menu.png)a destra del nome del workspace nell’intestazione, quindi fai clic su **Rinomina**.
+1. Fai clic sul nome del workspace nell’intestazione del nuovo workspace per rinominarlo, quindi premi Invio.
 
 1. (Facoltativo e condizionale) Se avete creato l&#39;area di lavoro da un modello, fate clic all&#39;interno del nome del **Tipi di record operativi** o **Tassonomie** sezioni
 
@@ -153,25 +153,14 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
    >[!TIP]
    >
-   >È possibile rinominare qualsiasi sezione da qualsiasi area di lavoro, anche se la sezione è stata creata.
+   >È possibile rinominare qualsiasi sezione da qualsiasi area di lavoro, anche se non è stata creata.
 
-1. (Facoltativo) Per modificare la posizione di una sezione, effettuate una delle seguenti operazioni:
-
-   * Passa il puntatore del mouse sul nome di una sezione e fai clic su **afferrare** icona ![](assets/grab-icon.png), quindi trascinarlo nel punto giusto.
-   * Passa il puntatore del mouse sul nome di una sezione e fai clic su **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Sposta su** o **Sposta in basso**. La sezione si sposta verso l&#39;alto o verso il basso all&#39;interno dell&#39;area di lavoro.
-
-1. (Facoltativo) Per aggiungere una nuova sezione, effettuate una delle seguenti operazioni:
-
-   * Clic **Aggiungi sezione** nella parte inferiore dell&#39;area di lavoro.
-   * Passa il puntatore del mouse sul nome di una sezione e fai clic su **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Aggiungi sezione sopra** o **Aggiungi sezione di seguito**.
+   Per ulteriori informazioni sulla modifica delle aree di lavoro, inclusa la modifica delle sezioni dell&#39;area di lavoro, vedere [Modificare le aree di lavoro](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
 1. (Facoltativo) Fai clic su **Aggiungi tipo di record** per aggiungere tipi di record all&#39;area di lavoro in qualsiasi sezione.
 
    Per informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
 
-1. (Facoltativo) Per eliminare una sezione, effettuare le seguenti operazioni:
+   Per ulteriori informazioni sulla modifica e l&#39;eliminazione di tipi di record in un&#39;area di lavoro, vedere [Modificare le aree di lavoro](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-   1. Passa il puntatore del mouse sul nome di una sezione, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Elimina**. <!--add screen shot when UI is final?-->
-   1. Selezionare una nuova sezione in cui spostare tutti i tipi di record, quindi fare clic su **Elimina**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
-      Tutti i tipi di record vengono spostati nella sezione di selezione e la sezione viene eliminata.

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1264'
-ht-degree: 0%
+source-wordcount: '1296'
+ht-degree: 1%
 
 ---
 
@@ -147,15 +147,17 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 1. Aggiorna le seguenti informazioni:
 
-   * **Nome tipo di record**: sostituisci &quot;Tipo di record operativo senza titolo&quot; con il nome del tipo di record futuro.
-   * **Aspetto**: definisci il colore e la forma dell’icona associata al tipo di record. Effettua le seguenti operazioni:
+   * Sostituire &quot;Tipo di record operativo senza titolo&quot; con il nome del tipo di record futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * **Descrizione**: aggiungi ulteriori informazioni sul tipo di record.
+   * Selezionare un colore e una forma per l&#39;icona associata al tipo di record. Effettua le seguenti operazioni:
       * Selezionare un colore per identificare il nuovo tipo di record. Colore dell&#39;icona del tipo di record. Il grigio è selezionato per impostazione predefinita.
       * Seleziona un’icona dall’elenco, oppure inizia a digitare il nome di un’icona per descrivere ciò che rappresenta, quindi selezionala quando viene visualizzata. Icona del tipo di record. Per impostazione predefinita, viene selezionata un&#39;icona di file.
 
-1. Fai clic all’esterno del **Aggiungi tipo di record** per salvare il tipo di record.
+1. Fai clic su **Crea**.
 
    La scheda del tipo di record viene aggiunta alla sezione e all&#39;area di lavoro selezionate.
 Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
+1. (Facoltativo) Passa il puntatore del mouse sulla scheda del tipo di record e fai clic sul pulsante **Altro** icona ![](assets/more-menu.png) nell’angolo superiore destro, quindi fai clic su **Modifica** per modificare le informazioni sul tipo di record.
 1. (Facoltativo) Fare clic sulla scheda tipo di record per aprire la pagina tipo di record.
 
    ![](assets/operational-record-type-blank.png)
@@ -178,7 +180,7 @@ Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
 
    Oppure
 
-   Fai clic su **Altro** icona ![](assets/more-menu.png) a destra del nome del tipo di record e fare clic su **Rinomina** per rinominarlo.
+   Fai clic su **Altro** icona ![](assets/more-menu.png) a destra del nome del tipo di record e fare clic su **Modifica** per rinominarlo o modificarne le informazioni. Per ulteriori informazioni, consulta [Modifica tipi di record](/help/quicksilver/maestro/architecture/edit-record-types.md).
 
 1. (Facoltativo) Fai clic su **+ Nuovo record** per aggiungere record del tipo di record selezionato. Per ulteriori informazioni, consulta [Crea record](../records/create-records.md).
 1. (Facoltativo) Fai clic su **+** nell&#39;angolo superiore destro della tabella per aggiungere altri campi al tipo di record.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '2401'
+source-wordcount: '2403'
 ht-degree: 3%
 
 ---
@@ -228,7 +228,7 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
 
 1. (Facoltativo) Aggiungi una miniatura a ciascun record e fai clic su **Campi** nell’angolo superiore destro della tabella, quindi seleziona l’opzione per **Miniatura** per visualizzarlo a sinistra del campo primario. Per impostazione predefinita è deselezionato.
 
-   Per informazioni, consulta [Aggiungi miniature ai record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+   Per informazioni, consulta [Aggiungere una miniatura a un record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. (Facoltativo) Seleziona uno o più record in una riga, quindi trascina e rilascia la **maniglia** icona ![](assets/handle-icon.png) a sinistra del nome del record per riordinare le righe.
 

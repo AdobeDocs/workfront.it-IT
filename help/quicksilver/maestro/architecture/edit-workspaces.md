@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ In Adobe Workfront Planning, le aree di lavoro sono posizioni centralizzate in c
 Un&#39;area di lavoro è una raccolta di tipi di record utilizzati da un team e rappresenta il ciclo di vita del lavoro del team. È possibile personalizzare completamente le aree di lavoro in Adobe Workfront Planning.
 
 Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](/help/quicksilver/maestro/architecture/create-workspaces.md).
+
+Tutte le modifiche apportate a un&#39;area di lavoro sono visibili a tutti coloro che dispongono almeno delle autorizzazioni di visualizzazione per l&#39;area di lavoro.
 
 ## Requisiti di accesso
 
@@ -90,20 +92,52 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
 Verrà aperta l&#39;area Aree di lavoro di Workfront Planning.
 
-1. Fai clic sul nome dell’area di lavoro nell’intestazione della nuova area di lavoro per rinominarla, quindi premi **Invio**
+1. Fai clic sul nome dell’area di lavoro nell’intestazione della nuova area di lavoro per rinominarla, quindi premi **Invio**.
+1. Fai clic su **Altro** menu ![](assets/more-menu.png)a destra del nome del workspace nell’intestazione, quindi fai clic su **Modifica**.
 
-   Oppure
+   ![](assets/edit-workspace-box.png)
 
-   Fai clic su **Altro** menu ![](assets/more-menu.png)a destra del nome del workspace nell’intestazione, quindi fai clic su **Rinomina**.
+   Aggiorna le seguenti informazioni in **Modifica area di lavoro** casella:
+
+   * Aggiungi un nome per l’area di lavoro. <!--did they add a label for this field?-->
+   * **Descrizione**: aggiungi informazioni sull’area di lavoro.
+   * Selezionate un&#39;icona da associare al workspace.
+
+1. Clic **Salva** per chiudere la casella Modifica area di lavoro e applicare le modifiche.
+
+1. (Facoltativo) Per aggiungere una nuova sezione dell&#39;area di lavoro, effettuate una delle seguenti operazioni:
+
+   * Clic **Aggiungi sezione** nella parte inferiore dell&#39;area di lavoro.
+   * Passa il puntatore del mouse sul nome di una sezione e fai clic su **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Aggiungi sezione sopra** o **Aggiungi sezione di seguito**.
+
+1. (Facoltativo) Per modificare la posizione di una sezione, effettuate una delle seguenti operazioni:
+
+   * Passa il puntatore del mouse sul nome di una sezione e fai clic su **afferrare** icona ![](assets/grab-icon.png), quindi trascinarlo nel punto giusto.
+   * Passa il puntatore del mouse sul nome di una sezione e fai clic su **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Sposta su** o **Sposta in basso**. La sezione si sposta verso l&#39;alto o verso il basso all&#39;interno dell&#39;area di lavoro.
+
+1. (Facoltativo) Per eliminare una sezione dell&#39;area di lavoro, effettuare le seguenti operazioni:
+
+   1. Passa il puntatore del mouse sul nome di una sezione, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Elimina**. <!--add screen shot when UI is final?-->
+   1. Selezionare una nuova sezione in cui spostare tutti i tipi di record, quindi fare clic su **Elimina**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+
+      Tutti i tipi di record vengono spostati nella sezione di selezione e la sezione viene eliminata.
 
 1. (Facoltativo) Fai clic su **Aggiungi tipo di record** per aggiungere tipi di record al workspace.
 
    Per informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
 
-1. (Facoltativo) Fai clic sul nome di una vista nelle schede della vista per modificare una vista esistente o fai clic su **+ Visualizza** per creare una vista.
+1. (Facoltativo) Passa il puntatore del mouse su una scheda del tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell’angolo superiore destro, quindi fai clic su **Modifica** per modificare l&#39;aspetto di un tipo di record
+
+   Per informazioni, consulta [Modifica tipi di record](/help/quicksilver/maestro/architecture/edit-record-types.md).
+
+1. (Facoltativo) Passa il puntatore del mouse su una scheda del tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell’angolo superiore destro, quindi fai clic su **Elimina** per eliminare un tipo di record.
+
+   Per informazioni, consulta [Elimina tipi di record](/help/quicksilver/maestro/architecture/delete-record-types.md).
+
+1. (Facoltativo) Fai clic sul nome di una vista nelle schede della vista per modificarne una esistente oppure fai clic su **+ Visualizza** per creare una vista.
 
    Per informazioni, consulta [Gestire le visualizzazioni record](/help/quicksilver/maestro/views/manage-record-views.md).
 
-1. (Facoltativo) Fai clic su **Condividi** per condividere l&#39;area di lavoro con altri utenti.
+1. (Facoltativo) Fai clic su **Condividi** nell’angolo superiore destro dell’area di lavoro per condividerla con altri utenti.
 
    Per informazioni, consulta [Condividere le aree di lavoro](/help/quicksilver/maestro/access/share-workspaces.md).

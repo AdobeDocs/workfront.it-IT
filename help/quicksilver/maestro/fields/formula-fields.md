@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 I campi formula generano un nuovo valore utilizzando i valori esistenti di altri campi di un tipo di record e una funzione che indica come devono essere calcolati i valori esistenti.
 
-Per informazioni, consulta [Crea campi](../fields/create-fields.md).
+Per informazioni, vedere la sezione &quot;Formula&quot; nell&#39;articolo [Crea campi](../fields/create-fields.md).
 
 ## Requisiti di accesso
 

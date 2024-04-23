@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Il tipo di licenza di Adobe Workfront funziona in combinazione con le autorizzaz
 
 Gli utenti con tutti i tipi di licenza possono visualizzare, creare, modificare o gestire le visualizzazioni di Workfront Planning.
 
-In questo articolo vengono descritti i tipi di licenze necessari in Workfront e le autorizzazioni concesse agli oggetti in Workfront Planning in base a ciascun tipo di licenza.
+In questo articolo vengono descritti i tipi di licenze necessari in Workfront e le autorizzazioni concesse alle aree di lavoro in Workfront Planning in base a ogni tipo di licenza.
 
-Un utente con un tipo di licenza di livello inferiore dispone di autorizzazioni limitate per gli oggetti quando utilizza le funzionalità di Workfront Planning.
+Un utente con un tipo di licenza di livello inferiore dispone di autorizzazioni limitate per le aree di lavoro quando utilizza le funzionalità di Workfront Planning.
 
 >[!INFO]
 >
@@ -40,11 +40,13 @@ Per informazioni sulle autorizzazioni per gli oggetti in Workfront Planning, ved
 
 ## Relazione tra i tipi di licenza di Workfront e le autorizzazioni di Workfront Planning
 
-Nella tabella seguente viene descritta la relazione tra il tipo di licenza di un utente in Adobe Workfront e il livello di autorizzazioni che è possibile concedere agli oggetti di Adobe Workfront Planning in base a tale licenza:
+La tabella seguente descrive la relazione tra il tipo di licenza di un utente in Adobe Workfront e il livello di autorizzazioni che è possibile concedere agli oggetti di Adobe Workfront Planning in base a tale licenza.
+
+La concessione di autorizzazioni utente a un&#39;area di lavoro consente inoltre di concedere autorizzazioni ai tipi di record, ai record e ai campi.
 
 
 | Tipo di licenza Adobe Workfront | Autorizzazioni consentite in Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nuovo: Standard <br> o <br>Corrente: Piano | Gli utenti possono creare e gestire aree di lavoro, tipi di record e record. |
-| Nuovo: Chiaro <br> o <br>Corrente: Lavoro | Gli utenti possono contribuire e visualizzare un&#39;area di lavoro condivisa con loro, nonché i tipi di record e i record da tale area di lavoro.  Gli utenti possono creare, modificare ed eliminare i record nelle aree di lavoro in cui dispongono delle autorizzazioni Contribute. |
-| Nuovo: Collaboratore <br> o <br>Corrente: revisore o richiedente | Gli utenti possono visualizzare le aree di lavoro condivise, nonché i tipi di record e i record di tali aree di lavoro. Gli utenti non possono creare, modificare o eliminare tipi di record o record. |
+| Nuovo: Standard <br> o <br>Corrente: Piano | Gli utenti possono creare e gestire aree di lavoro, tipi di record e record.<br> Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato. |
+| Nuovo: Chiaro <br> o <br>Corrente: Lavoro | Gli utenti possono contribuire e visualizzare un&#39;area di lavoro condivisa con loro, nonché i tipi di record e i record da tale area di lavoro. <br> Gli utenti possono creare, modificare ed eliminare i record nelle aree di lavoro in cui dispongono delle autorizzazioni Contribute. |
+| Nuovo: Collaboratore <br> o <br>Corrente: revisore o richiedente | Gli utenti possono visualizzare le aree di lavoro condivise, nonché i tipi di record e i record di tali aree di lavoro. <br> Gli utenti non possono creare, modificare o eliminare tipi di record o record. |

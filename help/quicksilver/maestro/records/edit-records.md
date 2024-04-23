@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -103,6 +103,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Se i record visualizzati sono collegati ad altri record, le nuove informazioni dei record che si sta modificando verranno applicate ai record collegati.
 * Non è possibile modificare i record in blocco. <!--this will probably change-->
 * Gli URL vengono riconosciuti come collegamenti nei tipi di campi di testo a riga singola solo quando iniziano con: http://, https://, ftp:// o www. .
+* È possibile aggiungere un&#39;immagine di copertina a ogni record. L&#39;immagine è univoca per ogni record e non si applica a tutti i record contemporaneamente.
 * È possibile modificare l&#39;ordine dei campi in una pagina record e aggiungere un&#39;immagine di copertina per un record. Per ulteriori informazioni, consulta [Gestire la pagina record](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Modifica record
@@ -130,7 +131,7 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
    ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
-   >[!NOTE]
+   >[!TIP]
    >
    >  Non è possibile modificare le informazioni per i campi seguenti, in quanto sono di sola lettura e Workfront li aggiorna automaticamente:
    >  
@@ -209,7 +210,18 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
    >
    >È possibile visualizzare **Apri dettagli** a sinistra del campo Nome di un record in una visualizzazione tabella solo quando il campo Nome è un campo primario.
 
-1. Inizia a modificare le informazioni del campo nella casella del record. Workfront salva automaticamente le modifiche.
+1. Inizia a modificare le informazioni del campo nella casella del record.
+
+   >[!TIP]
+   >
+   >  Non è possibile modificare le informazioni per i campi seguenti, in quanto sono di sola lettura e Workfront li aggiorna automaticamente:
+   >  
+   >  * Campi collegati creati mediante la connessione di tipi di record. Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
+   >  * Campi dei tipi seguenti: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica, Campi formula.
+
+1. (Facoltativo) Fai clic su **Aggiungi copertina** per aggiungere una copertina al record. Per ulteriori informazioni, consulta [Aggiungere una copertina a un record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+
+   Workfront salva automaticamente le modifiche.
 
 1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro della casella del record per aprire la pagina del record in una nuova scheda. Continua a modificare il record come descritto in [Modificare un record dalla pagina del record](#edit-a-record-from-the-records-page) in questo articolo.
 
@@ -227,7 +239,7 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
 1. Esegui una delle operazioni seguenti:
 
-   * Da qualsiasi visualizzazione, accedere alla casella del record, come descritto nella [Modificare un record dalla casella del record in una visualizzazione](#edit-a-record-from-the-records-box-in-a-view) in questo articolo. Quindi, fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro della casella record per aprire la pagina del record in una nuova scheda.
+   * Da qualsiasi visualizzazione, accedere alla casella del record, come descritto nella [Modificare un record dalla casella del record in una visualizzazione](#edit-a-record-from-the-records-box-in-a-view) in questo articolo, quindi fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro della casella record per aprire la pagina del record in una nuova scheda.
 
    * Dalla sezione **Tabella** , passa il puntatore sul nome di un record, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Visualizza**
 
@@ -237,12 +249,16 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
      ![](assets/details-page.png)
 
-1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del record, quindi fare clic su **Modifica**
+1. Fare clic su un campo modificabile nella pagina record per modificarlo.
 
-   Oppure
+   >[!TIP]
+   >
+   >  Non è possibile modificare le informazioni per i campi seguenti, in quanto sono di sola lettura e Workfront li aggiorna automaticamente:
+   >  
+   >  * Campi collegati creati mediante la connessione di tipi di record. Per ulteriori informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md).
+   >  * Campi dei tipi seguenti: Creato da, Data di creazione, Ultima modifica da, Data ultima modifica, Campi formula.
 
-   Fare clic all&#39;interno di un campo modificabile nella pagina del record per modificare le informazioni.
+1. (Facoltativo) Fai clic su **Aggiungi copertina** per aggiungere una copertina al record. Per ulteriori informazioni, consulta [Aggiungere una copertina a un record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   Workfront salva automaticamente le modifiche.
 
-1. Clic **Salva modifiche**.
