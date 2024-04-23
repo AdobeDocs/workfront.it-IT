@@ -8,9 +8,9 @@ description: Un archivio dati, simile a un database o a una semplice tabella, pu
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 85e5483b7ee1433d0b1efbaa37c6d55c7c1d5bf7
+source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
 workflow-type: tm+mt
-source-wordcount: '1268'
+source-wordcount: '1312'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ I moduli dell’archivio dati ti consentono di eseguire le seguenti azioni sui r
 * Recupera
 * Elimina
 * Ricerca
-* Count
+* Conta
 
 Per informazioni sull’utilizzo dei moduli dell’archivio dati, consulta [[!UICONTROL Archivio dati] moduli](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
@@ -44,35 +44,56 @@ Per utilizzare le funzionalità di questo articolo, è necessario disporre dei s
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>[!DNL Pro] o superiore</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] piano</td> 
+   <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licenza</td> 
+   <td> <p>Nuovo: [!UICONTROL Standard]</p><p>Oppure</p><p>Corrente: [!UICONTROL Work] o versione successiva</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza [!UICONTROL Adobe Workfront Fusion]**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
+   <p>Corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
    <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p>
+   <p>Legacy: qualsiasi </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
    <td>
-   <p>Fabbisogno prodotto corrente: se si dispone di [!UICONTROL Select] o [!UICONTROL Prime] [!DNL Adobe Workfront] Pianifica, la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo. [!DNL Workfront Fusion] è incluso in [!UICONTROL Ultimate] [!DNL Workfront] piano.</p>
+   <p>Nuovo:</p> <ul><li>[!UICONTROL Select] o [!UICONTROL Prime] [!DNL Workfront] Piano: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Piano: [!DNL Workfront Fusion] è incluso.</li></ul>
    <p>Oppure</p>
-   <p>Requisiti del prodotto legacy: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion] nonché [!DNL Adobe Workfront] per utilizzare la funzionalità descritta in questo articolo.</p>
+   <p>Corrente: la tua organizzazione deve acquistare [!DNL Adobe Workfront Fusion].</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Spazio dati disponibile
+
+Se l’organizzazione utilizza il nuovo modello di piano Workfront (pacchetti Select, Prime e Ultimate), il piano dell’organizzazione influisce sulle dimensioni e sul numero di archivi di dati disponibili per l’istanza di Fusion.
+
+### Piano Ultimate
+
+Le istanze di Fusion sul pacchetto Ultimate ricevono:
+
+* 500 MB di spazio
+* 50 archivi dati
+
+### Seleziona e crea piani
+
+Le istanze di Fusion nei pacchetti Select o Prime ricevono:
+
+* 100 MB per le prime operazioni 500K.
+
+* 10 MB per ogni 100.000 operazioni aggiuntive.
+
+Ad esempio, un’organizzazione con 600.000 operazioni riceve 110 MB.
 
 ## Creare un archivio dati in [!DNL Workfront Fusion]
 
