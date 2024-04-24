@@ -9,9 +9,9 @@ description: Puoi utilizzare il connettore per schede madri Adobe Workfront per 
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 9b4e1b4227b15a6998966838552a5058675fa9a0
+source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2591'
 ht-degree: 1%
 
 ---
@@ -261,7 +261,7 @@ Questo modulo di azione crea una nuova scheda su una scheda Workfront.
   </tr> 
   <tr> 
    <td>[!UICONTROL Column ID]</td> 
-   <td>Immettere o mappare l'ID della colonna a cui si desidera aggiungere una sottoattività.<p>Puoi trovare l’ID tag nelle informazioni restituite dal modulo Read a board.</p></td> 
+   <td>Immettere o mappare l'ID della colonna a cui si desidera aggiungere una sottoattività.<p>Puoi trovare l’ID di colonna nelle informazioni restituite dal modulo Read a board.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -292,7 +292,7 @@ Questo modulo di azione sposta una scheda in una colonna diversa sulla stessa ba
   </tr> 
   <tr> 
    <td>[!UICONTROL ID colonna di destinazione]</td> 
-   <td>Inserisci o mappa l’ID della colonna in cui desideri spostare la scheda.<p>Puoi trovare l’ID tag nelle informazioni restituite dal modulo Read a board.</p></td> 
+   <td>Inserisci o mappa l’ID della colonna in cui desideri spostare la scheda.<p>Puoi trovare l’ID di colonna nelle informazioni restituite dal modulo Read a board.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL A indice]</td> 
@@ -346,7 +346,7 @@ Questo modulo di azione aggiorna le informazioni relative a una scheda specifica
   </tr> 
   <tr> 
    <td>[!UICONTROL ID scheda]</td> 
-   <td>Inserisci o mappa una nuova descrizione per la scheda/\.</p></td> 
+   <td>Immettere o mappare una nuova descrizione per la scheda.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,6 +400,10 @@ Questo modulo di azione restituisce informazioni su una singola bacheca, ad esem
 
 ### Colonne
 
+* [Creare una colonna](#create-a-column)
+* [Cercare una colonna](#search-for-a-column)
+* [Aggiornare una colonna](#update-a-column)
+
 #### Creare una colonna
 
 Questo modulo di azione crea una nuova colonna sulla bacheca specificata.
@@ -417,8 +421,62 @@ Questo modulo di azione crea una nuova colonna sulla bacheca specificata.
    <td>Inserisci o mappa l’ID della bacheca a cui desideri aggiungere una colonna.<p>Puoi trovare l’ID della bacheca nell’URL quando visualizzi la bacheca in Workfront.</p></td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Column ID]</td> 
+   <td>Immetti o mappa l’ID della colonna da aggiornare.<p>Puoi trovare l’ID di colonna nelle informazioni restituite dal modulo Read a board.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Nome colonna]</td> 
-   <td>Immettere o mappare un nome per la nuova colonna.</td> 
+   <td>Immettere o mappare un nuovo nome per la colonna.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL WIP Limit]</td> 
+   <td>Immettere o mappare un nuovo limite WIP per la colonna.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Cercare una colonna
+
+Questo modulo di ricerca restituisce informazioni sulla colonna con il nome specificato.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID bacheca]</td> 
+   <td>Immetti o mappa l’ID della bacheca che contiene la colonna da recuperare.<p>Puoi trovare l’ID della bacheca nell’URL quando visualizzi la bacheca in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Nome Colonna]</td> 
+   <td>Immettere o mappare il nome della colonna che si desidera recuperare.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Aggiornare una colonna
+
+Questo modulo di azione aggiorna il nome o il limite WIP della colonna specificata.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>È possibile utilizzare una connessione Workfront esistente per connettersi alle schede madri Workfront oppure una connessione specifica alle schede madri Workfront. </p><p>Per istruzioni sulla connessione [!DNL Workfront] app a [!DNL Workfront Fusion], vedi <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Creare una connessione alle schede madri Workfront</a> in questo articolo.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL ID bacheca]</td> 
+   <td>Immetti o mappa l’ID della bacheca che contiene la colonna da recuperare.<p>Puoi trovare l’ID della bacheca nell’URL quando visualizzi la bacheca in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Nome Colonna]</td> 
+   <td>Immettere o mappare il nome della colonna che si desidera recuperare.</td> 
   </tr> 
  </tbody> 
 </table>
