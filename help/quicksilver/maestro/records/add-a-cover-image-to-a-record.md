@@ -1,15 +1,17 @@
 ---
 title: Aggiungere una copertina a un record
-description: È possibile modificare le informazioni del record in Adobe Workfront Planning e associare ogni record a un'immagine di copertina per personalizzare la pagina del record.
+description: È possibile personalizzare i record aggiungendo un'immagine di copertina alla pagina dei record in Adobe Workfront Planning durante la modifica di un record.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
+
 
 <!--update the metadata with real information-->
 
@@ -17,9 +19,12 @@ ht-degree: 0%
 
 {{maestro-important-intro}}
 
-È possibile modificare le informazioni del record in Adobe Workfront Planning e associare ogni record a un&#39;immagine di copertina per personalizzare la pagina del record.
+È possibile personalizzare i record aggiungendo un&#39;immagine di copertina alla pagina dei record in Adobe Workfront Planning durante la modifica di un record.
+
+Per informazioni sulla modifica dei record, vedere [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
 
 È necessario creare i tipi di record prima di iniziare a creare e modificare i record.
+
 Per informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
 
 ## Requisiti di accesso
@@ -81,14 +86,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni sulle immagini di copertina della pagina di registrazione
 
-È possibile personalizzare la pagina di un record aggiungendo un&#39;immagine di copertina. L&#39;immagine è univoca per ogni record e non si applica a tutti i record dello stesso tipo.
+È possibile personalizzare la pagina di un record aggiungendo un&#39;immagine di copertina.
 
 Considera quanto segue:
 
+* Un&#39;immagine di copertina è univoca per un record e non si applica a tutti i record dello stesso tipo.
 * È possibile aggiungere solo file di immagine come immagini di copertina.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * È possibile aggiungere un&#39;immagine di copertina ai singoli record dalla casella del record in qualsiasi visualizzazione o dalla pagina del record.
-* Non è possibile aggiungere immagini di copertina in linea dalla vista tabella.
+* Non è possibile aggiungere immagini di copertina in linea da nessuna visualizzazione di record.
 
 ## Aggiungere una copertina a un record
 

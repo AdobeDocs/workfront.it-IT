@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Un utente con un tipo di licenza di livello inferiore dispone di autorizzazioni 
 
 >[!INFO]
 >
->**ESEMPIO:** I richiedenti (o i collaboratori, in base al nuovo modello di licenza) non possono contribuire o gestire le aree di lavoro e i relativi oggetti.
+>**ESEMPIO:**
+>
+>I richiedenti (o i collaboratori, in base al nuovo modello di licenza) non possono contribuire o gestire le aree di lavoro e i relativi oggetti.
 >
 >Nella casella Condivisione è indicato che non è possibile concedere agli utenti le autorizzazioni per contribuire a o gestire un’area di lavoro se dispongono di una licenza di livello inferiore.
 >
@@ -45,8 +47,10 @@ La tabella seguente descrive la relazione tra il tipo di licenza di un utente in
 La concessione di autorizzazioni utente a un&#39;area di lavoro consente inoltre di concedere autorizzazioni ai tipi di record, ai record e ai campi.
 
 
-| Tipo di licenza Adobe Workfront | Autorizzazioni consentite in Adobe Workfront Planning |
+| Tipo di licenza Adobe Workfront* | Autorizzazioni consentite in Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nuovo: Standard <br> o <br>Corrente: Piano | Gli utenti possono creare e gestire aree di lavoro, tipi di record e record.<br> Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato. |
 | Nuovo: Chiaro <br> o <br>Corrente: Lavoro | Gli utenti possono contribuire e visualizzare un&#39;area di lavoro condivisa con loro, nonché i tipi di record e i record da tale area di lavoro. <br> Gli utenti possono creare, modificare ed eliminare i record nelle aree di lavoro in cui dispongono delle autorizzazioni Contribute. |
 | Nuovo: Collaboratore <br> o <br>Corrente: revisore o richiedente | Gli utenti possono visualizzare le aree di lavoro condivise, nonché i tipi di record e i record di tali aree di lavoro. <br> Gli utenti non possono creare, modificare o eliminare tipi di record o record. |
+
+*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

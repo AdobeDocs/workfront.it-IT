@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 7%
 
 ---
@@ -48,10 +48,11 @@ Per informazioni su come condividere aree di lavoro o visualizzazioni, vedere i 
   Per informazioni sull&#39;effetto dei tipi di licenza sui livelli di autorizzazione per Workfront Planning, vedere [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 * Gli amministratori di sistema possono gestire e condividere le aree di lavoro create da altri utenti.
 * Se non sei un amministratore di sistema, puoi contribuire alle aree di lavoro create da altri utenti se sono condivise con te.
-* Non è possibile condividere le aree di lavoro in blocco.
+* Non è possibile condividere aree di lavoro o visualizzazioni in blocco.
 * Potete condividere un workspace o una vista con le seguenti entità:
    * Utenti
    * Gruppi
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 * Gli altri utenti, inclusi gli amministratori di sistema, possono accedere solo alle visualizzazioni create o condivise con loro. Agli amministratori di sistema possono essere assegnate solo le autorizzazioni per gestire una visualizzazione.
 * È possibile condividere con altri utenti un collegamento a un&#39;area di lavoro o a una visualizzazione da una pagina del tipo di record. Per poter accedere all&#39;area di lavoro o alla pagina del tipo di record visualizzata nella vista selezionata, gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront.
 
@@ -114,9 +115,28 @@ Le autorizzazioni seguenti fanno riferimento ai campi stessi e non ai valori ass
 
 È necessario concedere autorizzazioni separate alle visualizzazioni record. La concessione delle autorizzazioni all&#39;area di lavoro non consente di concedere le autorizzazioni alle visualizzazioni record nell&#39;area di lavoro.
 
+<!--You can share views internally or publicly. -->
+
 |        | Gestire | Viste |
 |--------|--------|-------|
 | Modif | ✓ |       |
 | Elimina | ✓ |       |
+| Condividi | ✓ |       |
 | Visualizza | ✓ | ✓ |
 | Applica | ✓ | ✓ |
+
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |
+| Delete | ✓      |       |
+| Share  | ✓       |       |
+| View   | ✓      | ✓     |
+| Apply  | ✓      | ✓     |
+
+|   Public sharing      | View  |
+|--------|-------|
+| View   | ✓     |
+| Apply  | ✓     |
+-->

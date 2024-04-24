@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 6b746b3cdd0fa38607ba3230d44e1b9f3f12b6d6
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '3277'
+source-wordcount: '3283'
 ht-degree: 2%
 
 ---
@@ -43,11 +43,11 @@ In Maestro puoi creare i campi nei seguenti modi:
 
 * Da zero
 * Collegando i tipi di record
-* Importando i tipi di record utilizzando un file Excel e CSV
+* Importando i tipi di record utilizzando un file Excel o CSV
 * Creazione di un tipo di record
 * Creazione di un&#39;area di lavoro da un modello
 
-Per ulteriori informazioni sui campi Maestro, consulta [Panoramica campo](../fields/fields-overview.md)
+Per ulteriori informazioni sui campi Maestro, consulta [Panoramica campo](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Requisiti di accesso
 
@@ -93,7 +93,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
    <td> <p>Gestire le autorizzazioni per un’area di lavoro</a> </p>  
-   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
+   <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle che non hanno creato.</p>
 </td>
   </tr>
 <tr>
@@ -210,7 +210,7 @@ I campi Paragrafo acquisiscono informazioni alfanumeriche aggiuntive su un recor
 1. Clic **Aggiungi scelta** per aggiungere tutte le scelte necessarie. Non esiste alcun limite al numero di scelte che è possibile aggiungere a un campo a selezione multipla.
 1. (Facoltativo) Trascina e rilascia manualmente ciascuna scelta nell’ordine desiderato, oppure seleziona la
    **Ordina le scelte dalla A alla Z** opzione se si desidera che le scelte vengano elencate automaticamente in ordine alfabetico. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Fai clic su **x** a destra di una scelta per rimuoverlo.
+1. (Facoltativo) Per rimuovere una scelta, fai clic sul pulsante **x** sulla destra.
 1. Fate clic sul campione di colore a sinistra di una scelta per espandere il selettore di colore e personalizzare il colore di ciascuna opzione.
 1. Fai clic su **Crea**.
 
@@ -232,7 +232,7 @@ I campi a selezione singola acquisiscono informazioni aggiuntive in qualsiasi fo
 
 1. Clic **Aggiungi scelta** per aggiungere tutte le scelte necessarie. Non esiste alcun limite al numero di scelte che è possibile aggiungere a un campo a selezione singola.
 1. (Facoltativo) Trascina e rilascia manualmente ciascuna scelta nell’ordine desiderato, oppure seleziona la **Ordina le scelte dalla A alla Z** opzione se si desidera che le scelte vengano elencate automaticamente in ordine alfabetico. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Fai clic su **x** a destra di una scelta per rimuoverlo.
+1. (Facoltativo) Per rimuovere una scelta, fai clic sul pulsante **x** sulla destra.
 1. Fate clic sul campione di colore a sinistra di una scelta per espandere il selettore di colore e personalizzare il colore di ciascuna opzione.
 1. Fai clic su **Crea**.
 
@@ -280,7 +280,7 @@ I tipi di campo numerico acquisiscono informazioni in formato numerico.
 
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record.
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
-   * **Precisione**: numero di decimali da registrare per il campo. Puoi visualizzare fino a 6 decimali.
+   * **Precisione**: numero di posizioni decimali da registrare per il campo. Puoi visualizzare fino a 6 decimali.
    * **Consenti numeri negativi**: seleziona questa opzione se desideri consentire l’utilizzo di numeri negativi in questo campo. Questa opzione è deselezionata per impostazione predefinita.
 
    >[!NOTE]
@@ -302,7 +302,7 @@ I tipi di campo Percentuale acquisiscono le informazioni in un formato numerico 
 1. Aggiungi le seguenti informazioni nella **Nuovo campo** scheda:
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record.
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
-   * **Precisione**: numero di decimali da registrare per il campo. Puoi visualizzare fino a 6 decimali.
+   * **Precisione**: numero di posizioni decimali da registrare per il campo. Puoi visualizzare fino a 6 decimali.
    * **Consenti numeri negativi**: seleziona questa opzione se desideri consentire valori percentuali negativi in questo campo. Questa opzione è deselezionata per impostazione predefinita.
 
    >[!NOTE]
@@ -325,7 +325,7 @@ I tipi di campo Valuta acquisiscono le informazioni in un formato numerico prece
    * **Nome**: nome del tipo di campo che verrà visualizzato in una tabella o nella pagina del record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Descrizione**: informazioni aggiuntive sul campo. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Valuta**: tipo di valuta da visualizzare in questo campo. Questa è una lista di valute secondo l&#39;Organizzazione Internazionale di Standardizzazione (ISO).
-   * **Precisione**: numero di decimali da registrare per il campo. Puoi visualizzare fino a 6 decimali.
+   * **Precisione**: numero di posizioni decimali da registrare per il campo. Puoi visualizzare fino a 6 decimali.
    * **Consenti numeri negativi**: seleziona questa opzione se desideri consentire valori di valuta negativi in questo campo. Questa opzione è deselezionata per impostazione predefinita.
 
    >[!NOTE]
@@ -373,7 +373,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
    Per ulteriori informazioni sulle espressioni supportate, vedi [Panoramica sui campi formula](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Aggiungere i nomi dei campi visualizzati nell&#39;interfaccia di Workfront Planning per farvi riferimento in una formula.
+1. Aggiungere i nomi dei campi visualizzati in Workfront Planning per farvi riferimento in una formula.
 
    >[!NOTE]
    >
@@ -388,7 +388,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
 ### Persone
 
-È possibile utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or team--> a un record. Questo è un campo di completamento automatico ed è possibile aggiungere solo utenti<!--, roles, or teams--> che esistono già in Workfront.
+È possibile utilizzare il tipo di campo Persone per aggiungere un utente <!--, job role, or team--> a un record. Questo è un campo di completamento automatico ed è possibile aggiungere solo utenti<!--, roles, or teams--> che esistono già nell’istanza di Workfront.
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, seleziona la **Persone** tipo di campo.
 
@@ -405,7 +405,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
 1. Fai clic su **Crea**.
 
-   Il nuovo campo Persone viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
+   Il nuovo campo di tipo Persone viene aggiunto come colonna al tipo di record e i relativi valori possono essere associati ai record.
 
 ### Creato da
 
@@ -427,7 +427,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
 ### Data di creazione
 
-È possibile utilizzare il tipo di campo Data di creazione per aggiungere la data di creazione di un record a un record. Questo campo è di sola lettura e viene compilato automaticamente con la data (e facoltativamente con l’ora) di creazione del record.
+È possibile utilizzare il tipo di campo Data di creazione per aggiungere la data di creazione del record a un record. Questo campo è di sola lettura e viene compilato automaticamente con la data (e facoltativamente con l’ora) di creazione del record.
 
 1. Inizia a creare un campo come descritto nella sezione [Crea campi da zero](#create-fields-from-scratch) in questo articolo, seleziona la **Data di creazione** tipo di campo.
 
@@ -514,7 +514,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
 
 Per informazioni sulla connessione dei tipi di record di Workfront Planning, vedere [Connetti tipi di record](../architecture/connect-record-types.md)
 
-## Creare campi importando tipi di record tramite un file Excel e CSV
+## Creare campi importando tipi di record tramite un file Excel o CSV
 
 Per ulteriori informazioni, consulta [Crea tipi di record](../architecture/create-record-types.md).
 

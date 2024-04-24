@@ -1,30 +1,30 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Rimuovere l’allineamento dell’obiettivo negli obiettivi di Adobe Workfront
-description: È possibile rimuovere l'allineamento tra due obiettivi se non ha più senso che siano collegati.
+title: Rimuovere l’allineamento dell’obiettivo in Obiettivi di Adobe Workfront
+description: È possibile rimuovere l’allineamento tra due obiettivi se non ha più senso collegarli.
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 0%
+source-wordcount: '461'
+ht-degree: 1%
 
 ---
 
-# Rimuovere l’allineamento dell’obiettivo negli obiettivi di Adobe Workfront
+# Rimuovere l’allineamento dell’obiettivo in Obiettivi di Adobe Workfront
 
-È possibile rimuovere l&#39;allineamento tra due obiettivi se non ha più senso che siano collegati.
+È possibile rimuovere l’allineamento tra due obiettivi se non ha più senso collegarli.
 
-Per informazioni sull’allineamento degli obiettivi, consulta i seguenti articoli:
+Per informazioni sull&#39;allineamento degli obiettivi, vedere i seguenti articoli:
 
-* [Allineare gli obiettivi collegandoli negli obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Allineare gli obiettivi convertendo risultati e attività in obiettivi](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## Requisiti di accesso
 
-<!--drafted - replace the table below with this one when P&P releases: 
+Devi avere i seguenti:
 
 <table style="table-layout:auto">
  <col>
@@ -33,106 +33,67 @@ Per informazioni sull’allineamento degli obiettivi, consulta i seguenti artico
  </col>
  <tbody>
   <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
+   <td role="rowheader">Piano Adobe Workfront*</td>
    <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
+   <p>Nuovo piano: Seleziona o superiore</p>
+   Oppure
+   <p>Piano corrente: Pro o superiore</p>
    
    </td>
   </tr>
   <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
+   <td role="rowheader">Licenza Adobe Workfront*</td>
    <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+   <p>Nuova licenza: Collaboratore o versione successiva</p>
+   Oppure
+   <p>Licenza corrente: richiesta o successiva</p> </td>
   </tr>
   <tr>
-   <td role="rowheader">Product</td>
+   <td role="rowheader">Prodotto*</td>
    <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
+   <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
+<ul>
+<li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
+<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+   <p>Oppure</p>
+   <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
   </tr>
   <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
+   <td role="rowheader">Livello di accesso</td>
+   <td> <p>Modifica accesso agli obiettivi</p> </td>
   </tr>
   <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
+   <td role="rowheader">Autorizzazioni oggetto</td>
    <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
+    <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
+     <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
+     <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+    </td>
   </tr>
+   <td role="rowheader"><p>Modello di layout</p></td>
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
+</td>
+  </tr>
  </tbody>
 </table>
--->
 
-Devi disporre dei seguenti elementi:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
-   <td> <p>Pro o superiore</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta o superiore</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Prodotto</td> 
-   <td> <p>Devi acquistare una licenza aggiuntiva per la funzionalità Obiettivi di Adobe Workfront per accedere alla descritta in questo articolo. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Obiettivi o versioni successive</p> <p><b>NOTA</b>
-
-<p>Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Concedere l’accesso agli obiettivi di Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> 
-    <div> 
-     <p>Gestione delle autorizzazioni per l'obiettivo</p> 
-     <p>Per informazioni sulla condivisione degli obiettivi, vedi <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Per sapere quale piano, tipo di licenza o accesso si dispone, contattare l&#39;amministratore Workfront.
+*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisiti
 
-È necessario disporre dei seguenti elementi prima di poter iniziare:
+Prima di iniziare, è necessario disporre dei seguenti elementi:
 
-* Modello di layout che include l’area Obiettivi del menu principale.
-* Un obiettivo padre a cui è associato almeno un obiettivo figlio. Gli obiettivi per i bambini sono gli indicatori di progresso dell&#39;obiettivo.
+* Un obiettivo principale a cui è associato almeno un obiettivo secondario. Gli obiettivi per bambini sono gli indicatori di progresso dell&#39;obiettivo.
 
 ## Considerazioni sulla rimozione dell’allineamento dell’obiettivo
 
-Quando rimuovi l&#39;allineamento tra due obiettivi, considera quanto segue:
+Quando rimuovi l’allineamento tra due obiettivi, considera quanto segue:
 
-* L&#39;obiettivo padre deve avere un altro obiettivo, un&#39;attività o un risultato associati per poter restare attivo.
+* Per rimanere attivi, all&#39;obiettivo principale deve essere associato un altro obiettivo, attività o risultato.
 * Non è possibile rimuovere un obiettivo figlio allineato da un obiettivo padre se è l&#39;unico indicatore di avanzamento dell&#39;obiettivo padre.
-* L’obiettivo secondario diventa un obiettivo autonomo quando ne rimuovi l’allineamento all’obiettivo principale.
+* L&#39;obiettivo secondario diventa un obiettivo autonomo quando ne rimuovete l&#39;allineamento all&#39;obiettivo principale.
 
-## Rimuovere l&#39;allineamento dell&#39;obiettivo
+## Rimuovere l’allineamento dell’obiettivo
 
 <!--
 Removing goal alignment differs depending on which environment you use.
@@ -155,17 +116,17 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. Accedere al **Obiettivi** in Workfront e fai clic sul nome di un obiettivo per aprire la pagina dell’obiettivo.
-1. Dalla pagina dell&#39;obiettivo di un obiettivo padre, fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
+1. Accedere a **Obiettivi** in Workfront e fai clic sul nome di un obiettivo per aprirne la pagina.
+1. Dalla pagina dell’obiettivo di un obiettivo principale, fai clic su **Indicatori di avanzamento** nel pannello a sinistra.
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. In **Tipo: Obiettivo** raggruppamento, seleziona un obiettivo, quindi fai clic sul **Disconnetti** icona ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) in cima all&#39;elenco.
+1. In **Tipo: Obiettivo** raggruppamento, seleziona un obiettivo, quindi fai clic sul pulsante **Disconnetti** icona ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) nella parte superiore dell’elenco.
 
    Viene visualizzata la casella Disconnetti.
 
-1. Fai clic su **Disconnetti** per scollegare l&#39;obiettivo selezionato dal relativo padre.
+1. Clic **Disconnetti** per disconnettere l&#39;obiettivo selezionato dal relativo elemento padre.
 
-   L’obiettivo diventa un obiettivo standalone e non viene più elencato come indicatore di avanzamento dell’obiettivo originale. Il progresso dell&#39;obiettivo disconnesso non influisce più sul progresso dell&#39;obiettivo originale.
+   L’obiettivo diventa autonomo e non viene più elencato come indicatore di avanzamento dell’obiettivo originale. L’avanzamento dell’obiettivo disconnesso non influenza più l’avanzamento dell’obiettivo originale.
 
-   Nell’angolo superiore destro della pagina viene visualizzato un messaggio di errore per confermare che l’obiettivo è stato disconnesso.
+   Nell’angolo superiore destro della pagina viene visualizzato un messaggio di successo per confermare che l’obiettivo è stato disconnesso.

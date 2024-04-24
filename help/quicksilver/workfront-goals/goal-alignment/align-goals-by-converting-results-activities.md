@@ -6,9 +6,9 @@ description: Puoi allineare manualmente due obiettivi oppure convertire i risult
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '652'
 ht-degree: 15%
 
 ---
@@ -80,7 +80,6 @@ Per informazioni sull’allineamento manuale di due obiettivi, consulta [Allinea
 
 Prima di iniziare, è necessario disporre dei seguenti elementi:
 
-* Modello di layout che include l&#39;area Obiettivi nel menu principale.
 * Un obiettivo esistente con risultati e attività esistenti.
 
   Per informazioni sulla creazione degli obiettivi, consulta [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
