@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 0f760710ec7ec2029c37377fc9e732870d2ca575
+source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '941'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ Questi stati includono:
   </tr> 
   <tr> 
    <td>DISABILITATO</td> 
-   <td><p>Questo stato verrà utilizzato per nascondere i pacchetti promozionali utilizzati in precedenza che non verranno installati in alcun ambiente in futuro.</p><p>Quando un pacchetto si trova in questo stato, non può essere installato in alcun ambiente.</p><p>Quando lo stato di un pacchetto è impostato su DISABLED, il <code>retiredAt</code> La data viene impostata automaticamente sulla marca temporale corrente della richiesta.</p><p>Si consiglia di utilizzare questo stato anziché il<code>DELETE /package</code> endpoint perché è recuperabile e la cronologia di installazione viene mantenuta per tutte le distribuzioni effettuate con questo pacchetto.</p></td> 
+   <td><p>Questo stato viene utilizzato per nascondere i pacchetti promozionali utilizzati in precedenza che non verranno installati in alcun ambiente in futuro.</p><p>Quando un pacchetto si trova in questo stato, non può essere installato in alcun ambiente.</p><p>Quando lo stato di un pacchetto è impostato su DISABLED, il <code>retiredAt</code> La data viene impostata automaticamente sulla marca temporale corrente della richiesta.</p><p>Si consiglia di utilizzare questo stato anziché il<code>DELETE /package</code> l'endpoint perché è recuperabile e la cronologia di installazione viene mantenuta per tutte le distribuzioni effettuate con questo pacchetto.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLAGGIO NON RIUSCITO</td> 

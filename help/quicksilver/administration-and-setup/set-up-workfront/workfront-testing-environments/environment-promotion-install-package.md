@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 92a7a2df142d7736417b903949a5a667cff53913
+source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Per risolvere un conflitto, selezionare un&#39;azione nella colonna Azione di di
 
   È inoltre possibile scegliere gli oggetti da sovrascrivere anche se non viene rilevata una collisione.
 
-  Per informazioni dettagliate su come la sovrascrittura influisce sugli oggetti padre e figlio, vedere
+  Per informazioni dettagliate su come la sovrascrittura influisce sugli oggetti padre e figlio, vedere [Sovrascrittura di oggetti padre e figlio](#overwriting-parent-and-child-objects) in questo articolo.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->

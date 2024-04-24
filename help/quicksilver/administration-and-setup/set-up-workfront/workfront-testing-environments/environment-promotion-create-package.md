@@ -11,9 +11,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c0a841d8f6a4431ff95c1b1d5904c8f41a7c82ca
+exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
+source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -59,11 +60,9 @@ ht-degree: 0%
 1. Seleziona **Sistema** nel menu di navigazione a sinistra, seleziona quindi **Promozione dell&#39;ambiente**.
 1. Seleziona il pacchetto dall’elenco visualizzato.
 1. (Condizionale) Per visualizzare i pacchetti archiviati (disabilitati), abilita **Mostra pacchetti ritirati** opzione.
-1. Per visualizzare il contenuto, inclusi tutti gli oggetti e i relativi oggetti secondari, fare clic sulla freccia a discesa accanto al tipo di oggetto nella **Sommario** sezione.
-1. Per visualizzare le installazioni precedenti e i tentativi di installazione del pacchetto, fare clic su **Distribuzioni**.
-1. Per modificare il pacchetto, fai clic su **Modifica pacchetto** in alto a destra.
+1. (Facoltativo) Per visualizzare il contenuto, inclusi tutti gli oggetti e i relativi oggetti secondari, fare clic sulla freccia dell&#39;elenco a discesa accanto al tipo di oggetto nella **Sommario** sezione.
+1. (Facoltativo) Per visualizzare le installazioni precedenti e i tentativi di installazione del pacchetto, fare clic su **Distribuzioni**.
+1. (Facoltativo) Per modificare il pacchetto, fai clic su **Modifica pacchetto** in alto a destra.
 1. Per installare il pacchetto, fai clic su **Installa** in alto a destra.
 
    Per istruzioni sull’installazione di un pacchetto, consulta [Installare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
-
-
