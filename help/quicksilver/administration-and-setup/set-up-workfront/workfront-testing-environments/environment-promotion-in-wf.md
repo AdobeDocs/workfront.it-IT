@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: ff225e6ed17c06c333806d25ed00e7f744da6f93
+source-git-commit: 4c40920028ca0b8ac797ad0854291e2ae82a07b2
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '995'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,9 @@ Questo processo viene definito &quot;promozione dell&#39;ambiente&quot;.
 
 ## Oggetti supportati per la promozione dell’ambiente
 
-La funzionalità di promozione dell’ambiente ha lo scopo di consentire lo spostamento di oggetti correlati alla configurazione da un ambiente all’altro. Non supporta la possibilità di spostare oggetti transazionali (con eccezioni limitate).
+La funzionalità di promozione dell’ambiente consente di spostare oggetti relativi alla configurazione da un ambiente all’altro. Si tratta di oggetti che possono essere configurati, ad esempio progetti, team o moduli personalizzati.
+
+La promozione dell’ambiente non supporta la possibilità di spostare oggetti transazionali, (con eccezioni limitate). Gli oggetti transazionali non possono essere configurati. Alcuni esempi includono aggiornamenti delle attività di sistema e decisioni relative alle bozze.
 
 * [Oggetti di lavoro](#work-objects)
 * [Oggetti di reporting](#reporting-objects)
@@ -124,15 +126,15 @@ Questi stati includono:
  <tbody> 
   <tr> 
    <td>NON ASSEMBLATO</td> 
-   <td><p>Questo stato viene assegnato automaticamente e rappresenta un pacchetto che è stato salvato ma non ancora assemblato. </p><p>Questo stato non può essere impostato direttamente da un cliente.</p></td> 
+   <td><p>Questo stato viene assegnato automaticamente e rappresenta un pacchetto che è stato salvato ma non ancora assemblato. </p><p>Questo stato non può essere impostato direttamente da un utente.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLAGGIO</td> 
-   <td><p>Questo stato viene assegnato automaticamente durante il montaggio degli oggetti. </p><p>L'assemblaggio si riferisce al processo automatizzato di identificazione degli oggetti e dei sottooggetti da includere in un package e di aggiunta di tali oggetti e dei relativi dati al package.</p><p>Questo stato non può essere impostato direttamente da un cliente.</p></td> 
+   <td><p>Questo stato viene assegnato automaticamente durante il montaggio degli oggetti. </p><p>L'assemblaggio si riferisce al processo automatizzato di identificazione degli oggetti e dei sottooggetti da includere in un package e di aggiunta di tali oggetti e dei relativi dati al package.</p><p>Questo stato non può essere impostato direttamente da un utente.</p></td> 
   </tr> 
   <tr> 
    <td>BOZZA</td> 
-   <td><p>Questo stato viene assegnato al termine di un processo di assemblaggio o durante la creazione di un pacchetto di promozione vuoto.</p><p>Il cliente può ripristinare lo stato attuale del pacchetto promozionale.</p><p>In questo stato, il pacchetto di promozione non può essere installato in alcun ambiente.</p></td> 
+   <td><p>Questo stato viene assegnato al termine di un processo di assemblaggio o durante la creazione di un pacchetto di promozione vuoto.</p><p>Un utente può spostare nuovamente il pacchetto promozionale in questo stato.</p><p>In questo stato, il pacchetto di promozione non può essere installato in alcun ambiente.</p></td> 
   </tr> 
   <tr> 
    <td>TEST</td> 
@@ -144,11 +146,11 @@ Questi stati includono:
   </tr> 
   <tr> 
    <td>DISABILITATO</td> 
-   <td><p>Questo stato viene utilizzato per nascondere i pacchetti promozionali utilizzati in precedenza che non verranno installati in alcun ambiente in futuro.</p><p>Quando un pacchetto si trova in questo stato, non può essere installato in alcun ambiente.</p><p>Quando lo stato di un pacchetto è impostato su DISABLED, il <code>retiredAt</code> La data viene impostata automaticamente sulla marca temporale corrente della richiesta.</p><p>Si consiglia di utilizzare questo stato anziché il<code>DELETE /package</code> l'endpoint perché è recuperabile e la cronologia di installazione viene mantenuta per tutte le distribuzioni effettuate con questo pacchetto.</p></td> 
+   <td><p>Questo stato viene utilizzato per nascondere i pacchetti promozionali utilizzati in precedenza che non verranno installati in alcun ambiente in futuro.</p><p>Quando un pacchetto si trova in questo stato, non può essere installato in alcun ambiente.</p><p>Quando lo stato di un pacchetto è impostato su DISABLED, il <code>retiredAt</code> La data viene impostata automaticamente sulla marca temporale corrente della richiesta.</p><p>Si consiglia di utilizzare questo stato anziché il <code>DELETE /package</code> l'endpoint perché è recuperabile e la cronologia di installazione viene mantenuta per tutte le distribuzioni effettuate con questo pacchetto.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLAGGIO NON RIUSCITO</td> 
-   <td><p>Se la fase ASSEMBLING non riesce, il pacchetto promozionale viene automaticamente posto in questo stato.</p><p>Per riportare il pacchetto alla fase ASSEMBLING, è necessario attivare nuovamente il processo di estrazione.</p></td> 
+   <td><p>Se la fase ASSEMBLING non riesce, il pacchetto promozionale viene automaticamente posto in questo stato.</p><p>Per riportare il pacchetto allo stadio ASSEMBLING, è necessario attivare nuovamente il processo di assemblaggio.</p><p>Per informazioni dettagliate sull’assemblaggio di un pacchetto, consulta la sezione <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modificare o assemblare un pacchetto esistente</a> nell’articolo Creare o modificare un pacchetto di promozione dell’ambiente.</td> 
   </tr> 
   </tbody> 
 </table>
