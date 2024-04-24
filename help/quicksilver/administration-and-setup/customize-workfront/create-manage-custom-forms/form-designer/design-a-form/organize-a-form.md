@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1285'
 ht-degree: 0%
 
 ---
@@ -108,6 +108,7 @@ Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, 
        <p><b>NOTA</b>:  
        <ul> 
        <li> <p>Gli utenti senza le autorizzazioni specificate qui non possono visualizzare i campi personalizzati e i widget nella sezione. </p> <p>Questo vale anche se visualizzi i valori dei campi nei rapporti o li utilizzi nei campi calcolati nella generazione rapporti in modalità testo.</p> </li> 
+       <li><p>Per i moduli personalizzati per richieste/problemi: se è necessario l’accesso di visualizzazione per visualizzare i campi nell’interruzione di sezione, ma è necessario l’accesso di amministratore per modificare i campi, la sezione e tutti i relativi campi non saranno visibili agli utenti non amministratori durante la compilazione del modulo. Una volta creata la richiesta, gli utenti con accesso di visualizzazione possono visualizzare i campi nella sezione.</p></li>
        <li> <p>L'associazione di più tipi di oggetto al modulo può modificare le autorizzazioni di visualizzazione e modifica disponibili in questi passaggi. Per ulteriori informazioni, consulta <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">Come più tipi di oggetto possono influenzare le autorizzazioni di interruzione di sezione in un modulo personalizzato</a> in questo articolo.</p> </li> 
         </ul> </p> </td> 
      </tr> 
