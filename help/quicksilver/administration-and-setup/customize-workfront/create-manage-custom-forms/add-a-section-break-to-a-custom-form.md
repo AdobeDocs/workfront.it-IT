@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
-source-git-commit: 1bad65ff741cdd4273c07893044d42d6b8c826e0
+source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1238'
 ht-degree: 0%
@@ -223,3 +223,4 @@ In un modulo personalizzato con un&#39;interruzione di sezione configurata con l
 >Aggiungendo al modulo il tipo di oggetto Portfolio, l&#39;opzione di autorizzazione Modifica limitata non sarà più disponibile per l&#39;interruzione di sezione nel modulo.
 >
 >Un messaggio sullo schermo richiede di passare all&#39;autorizzazione Modifica, che è l&#39;opzione più simile a Modifica limitata e compatibile sia con il tipo di oggetto Progetto che con il tipo di oggetto Portfolio.
+
