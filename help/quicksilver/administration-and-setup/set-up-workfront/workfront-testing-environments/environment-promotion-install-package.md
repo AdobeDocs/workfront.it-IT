@@ -12,14 +12,22 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: bd27f98191637a3efd11c732890be0091feca89c
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
 # Installare un pacchetto di promozione dell’ambiente
+
+Dopo aver creato un pacchetto, puoi installarlo in un ambiente diverso.
+
+## Prerequisiti
+
+È necessario aver creato un pacchetto prima di poterlo installare.
+
+Per istruzioni, consulta [Creare o modificare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
 >[!NOTE]
 >
@@ -40,7 +48,7 @@ ht-degree: 0%
 
 Si verificano conflitti quando un oggetto che fa parte del pacchetto di installazione ha lo stesso nome di un oggetto già esistente nell&#39;ambiente di destinazione. In questo caso, potete selezionare la modalità di risoluzione della collisione. Le collisioni vengono risolte a livello di oggetto.
 
-Puoi visualizzare le collisioni facendo clic sul menu a discesa accanto a ciascun tipo di oggetto. Le collisioni vengono visualizzate nella colonna Collisione.
+È possibile visualizzare i conflitti facendo clic sul menu a discesa accanto a ciascun tipo di oggetto. Le collisioni vengono visualizzate nella colonna Collisione.
 
 Per risolvere un conflitto, selezionare un&#39;azione nella colonna Azione di distribuzione oppure utilizzare l&#39;azione predefinita già visualizzata.
 

@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 856b3422ef1e91a55a61acaee0bd4068a4508856
+source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -30,13 +30,17 @@ ht-degree: 0%
 
    Viene visualizzata la pagina Nuovo pacchetto promozione.
 
-1. nel **Nome pacchetto** immettere un nome per il pacchetto.
+1. In **Nome pacchetto** immettere un nome per il pacchetto.
 1. In **Descrizione** immettere una descrizione per il package.
 1. Per aggiungere un oggetto al pacchetto, fare clic su **Aggiungi oggetti** nel menu di navigazione a sinistra e seleziona il tipo di oggetto da aggiungere.
 1. Selezionare uno o più oggetti dall&#39;elenco oppure digitare il nome nella barra di ricerca e selezionare l&#39;oggetto quando viene visualizzato nell&#39;elenco. È possibile selezionare più oggetti nell&#39;elenco.
 1. Clic **Aggiungi (oggetti X)** per aggiungere gli oggetti selezionati al pacchetto.
 
-   Ad esempio, se hai selezionato tre progetti da aggiungere al progetto, il pulsante mostra **Aggiungi 3 progetti**.
+   >[!INFO]
+   >
+   >**Esempio**
+   >
+   >Se hai selezionato tre progetti da aggiungere al progetto, il pulsante mostra **Aggiungi 3 progetti**.
 
    Gli oggetti aggiunti vengono visualizzati nell&#39;area Contenuto package a destra della pagina.
 
@@ -59,7 +63,7 @@ ht-degree: 0%
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Configurazione]** ![Icona Configurazione](/help/_includes/assets/gear-icon-setup.png).
 1. Seleziona **Sistema** nel menu di navigazione a sinistra, seleziona quindi **Promozione dell&#39;ambiente**.
 1. Seleziona il pacchetto dall’elenco visualizzato.
-1. (Condizionale) Per visualizzare i pacchetti archiviati (disabilitati), abilita **Mostra pacchetti ritirati** opzione.
+1. (Condizionale) Per visualizzare i pacchetti disabilitati, abilita **Mostra pacchetti ritirati** opzione.
 1. (Facoltativo) Per visualizzare il contenuto, inclusi tutti gli oggetti e i relativi oggetti secondari, fare clic sulla freccia dell&#39;elenco a discesa accanto al tipo di oggetto nella **Sommario** sezione.
 1. (Facoltativo) Per visualizzare le installazioni precedenti e i tentativi di installazione del pacchetto, fare clic su **Distribuzioni**.
 1. (Facoltativo) Per modificare il pacchetto, fai clic su **Modifica pacchetto** in alto a destra.
