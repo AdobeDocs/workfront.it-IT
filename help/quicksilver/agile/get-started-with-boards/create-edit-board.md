@@ -6,10 +6,10 @@ description: Dalla sezione [!UICONTROL schede madri] dashboard, puoi creare una 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: d593d288546abb4a674646519c6245563673b938
+source-git-commit: 1b91cac202151cd60f16b4ef034b60f840088aea
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '802'
+ht-degree: 1%
 
 ---
 
@@ -109,3 +109,4 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 1. Clic **[!UICONTROL Tutte le bacheche]** per tornare alla dashboard delle bacheche.
 
    Puoi anche individuare il menu a discesa con il nome della bacheca corrente e fare clic su di esso per passare a un’altra bacheca.
+
