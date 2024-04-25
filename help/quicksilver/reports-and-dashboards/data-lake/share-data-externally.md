@@ -2,29 +2,70 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data lake
-title: Condivisione di dati con strumenti di business intelligence e data warehouse esterni
+title: Stabilire una connessione al data lake di Workfront
 description: Workfront data lake consente di utilizzare i dati Workfront della tua organizzazione con i più diffusi strumenti di business intelligence o di memorizzarli in un data warehouse esterno.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 6a7af60a5f66b37abcaeb594290503febc179d25
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 0%
+source-wordcount: '499'
+ht-degree: 1%
 
 ---
 
-# Condividere i dati del data lake con strumenti di business intelligence e data warehouse esterni
+# Stabilire una connessione al data lake di Workfront
 
-Workfront data lake consente di utilizzare i dati Workfront della tua organizzazione con strumenti di business intelligence o archiviarli in un data warehouse esterno. Per utilizzare lo strumento scelto, devi aggiungere i relativi IP al inserisco nell&#39;elenco Consentiti di come descritto in [Creare un account di lettura](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+Workfront data lake consente di utilizzare i dati Workfront della tua organizzazione con strumenti di business intelligence o archiviarli in un data warehouse esterno.
+
+Per collegare i dati del data lake di Workfront a un prodotto esterno, devi prima aggiungere tutti gli IP richiesti al inserisco nell&#39;elenco Consentiti di come descritto in [Aggiungere IP al inserisco nell&#39;elenco Consentiti di](#add-ips-to-the-allowlist) di seguito. Inoltre, la maggior parte dei prodotti richiede informazioni aggiuntive sul data lake per stabilire una connessione:
+
+| Nome campo | Valore |
+|---------------|-------------|
+| Server | L&#39;URL per la connessione, senza `https://` porzione (trovata sul **Accesso ai dati** in Workfront*) |
+| Porta | `443` |
+| Database | `WORKFRONT` |
+| Data warehouse | `READER_WH` |
+| Schema | `WF` |
+| Ruolo | `READER_ROLE` |
+| Nome utente | Il nome utente scelto durante la creazione della connessione (disponibile nella **Accesso ai dati** in Workfront*) |
+| Password | La password scelta al primo accesso al Snowflake* |
+
+*Per informazioni su dove trovare **Accesso ai dati** pagina contenente le connessioni al data lake, consulta [Creazione di un account di lettura (servizio) per il Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+
+>[!IMPORTANT]
+>
+>Una volta aggiunta una voce all’elenco Consentiti di IP, tutti gli altri indirizzi IP non sono più consentiti. Prima di utilizzare lo strumento, assicurati di aver inserito tutti gli indirizzi IP richiesti, sia per la creazione che per la lettura dello strumento di visualizzazione. In caso contrario, potrebbe verificarsi un errore relativo alle credenziali non valide.
+
+## Aggiungere IP al inserisco nell&#39;elenco Consentiti di
+
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Configurazione**.
+
+1. Nel pannello a sinistra, fai clic su **Sistema** > **Accesso ai dati**.
+
+1. Fai clic sul pulsante **IP consentiti** , quindi fare clic sul pulsante **Aggiungere un indirizzo IP al Inserisco nell&#39;elenco Consentiti di** pulsante.
+
+1. Immetti un nome per l’indirizzo IP in **Descrizione indirizzo IP** e inserisci l’indirizzo IP dello strumento che desideri utilizzare in **Indirizzo IP**, quindi fai clic su **Aggiungi IP al Inserisco nell&#39;elenco Consentiti di**.
+
+   ![Aggiungi indirizzo IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
+
+## Rimuovere un indirizzo IP dal inserisco nell&#39;elenco Consentiti di
+
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Configurazione**.
+
+1. Nel pannello a sinistra, fai clic su **Sistema** > **Accesso ai dati**.
+
+1. Fai clic sul pulsante **IP consentiti** , quindi fai clic sull’icona del cestino ![Icona Elimina](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) a destra dell’indirizzo IP che desideri rimuovere.
+
+1. Nella finestra visualizzata, seleziona la casella per confermare e quindi fai clic su **Elimina**.
 
 ## Condividere i dati con gli strumenti di Business Intelligence
 
 Di seguito sono elencati alcuni strumenti di business intelligence comuni. I collegamenti ti porteranno al sito della documentazione del servizio per ulteriori informazioni sulla connessione al data lake.
 
 * [Tableau](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-bi/connect-data/desktop-connect-to-data)
+* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
 * [Domo](https://www.domo.com/appstore/connector/snowflake-connector/overview)
 * SAP HANA
 

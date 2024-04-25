@@ -6,10 +6,10 @@ description: La nuova Home è una nuova potente funzione per la gestione del tuo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 6%
+source-wordcount: '1135'
+ht-degree: 5%
 
 ---
 
@@ -67,7 +67,7 @@ Di seguito sono riportati i dieci widget attualmente disponibili tra cui sceglie
 
   >[!NOTE]
   >
-  >Per creare cose da fare nel widget Attività è necessario disporre dell&#39;autorizzazione per creare attività.
+  >È necessario disporre dell&#39;autorizzazione per creare le attività da fare nel widget Da fare e nel widget verranno visualizzate solo le attività personali immesse dall&#39;utente corrente.
 
 Per impostazione predefinita, la home page è compilata con alcuni widget specifici in base al tipo di licenza. Le tabelle seguenti descrivono i widget visualizzati dagli utenti di ciascun tipo di licenza la prima volta che accedono alla nuova home.
 

@@ -8,16 +8,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
 # Creazione di un account di lettura (servizio) per il Snowflake
 
-Per accedere ai dati del data lake di Workfront, devi prima creare un account di lettura per il Snowflake. Inoltre, è necessario aggiungere IP al inserisco nell&#39;elenco Consentiti di per tutti gli strumenti esterni che si prevede di connettere ai dati.
+Per accedere ai dati del data lake di Workfront, devi prima creare un account di lettura del Snowflake (o servizio) per ogni nuova connessione. Dopo aver creato una connessione, puoi trovarne l’URL e il nome utente associati facendo clic su di esso nella **Accesso ai dati** page (**Menu principale** > **Configurazione** > **Sistema** > **Accesso ai dati**) sotto **Connessioni esistenti** scheda.
+
+Per informazioni sull’utilizzo di una connessione appena creata con un prodotto esterno, consulta [Stabilire una connessione al data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Requisiti di accesso
 
@@ -68,28 +70,12 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. Ora puoi utilizzare il tuo nome utente e la nuova password per accedere al tuo data lake Workfront in Snowflake o nello strumento di visualizzazione aziendale di tua scelta.
 
-## Aggiungere IP al inserisco nell&#39;elenco Consentiti di
-
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Configurazione**.
-
-1. Nel pannello a sinistra, fai clic su **Sistema** > **Accesso ai dati**.
-
-1. Fai clic sul pulsante **IP consentiti** , quindi fare clic sul pulsante **Aggiungere un indirizzo IP al Inserisco nell&#39;elenco Consentiti di** pulsante.
-
-1. Immetti un nome per l’indirizzo IP in **Descrizione indirizzo IP** e inserisci l’indirizzo IP dello strumento che desideri utilizzare in **Indirizzo IP**, quindi fai clic su **Aggiungi IP al Inserisco nell&#39;elenco Consentiti di**.
-
-   ![Aggiungi indirizzo IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
-## Revoca di un account di lettura o rimozione di un indirizzo IP dal inserisco nell&#39;elenco Consentiti di
+## Revoca di un account lettore
 
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Configurazione**.
 
 1. Nel pannello a sinistra, fai clic su **Sistema** > **Accesso ai dati**.
 
 1. Fai clic sull’icona del cestino ![Icona Elimina](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) a destra dell’account che desideri revocare.
-
-   OPPURE
-
-   Fai clic sul pulsante **IP consentiti** , quindi fai clic sull’icona del cestino ![Icona Elimina](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) a destra dell’indirizzo IP che desideri rimuovere.
 
 1. Nella finestra visualizzata, seleziona la casella per confermare e quindi fai clic su **Elimina**.

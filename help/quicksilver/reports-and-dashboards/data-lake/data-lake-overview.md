@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Gli abbonati potranno collegare il loro strumento di business intelligence di sc
 Per ulteriori informazioni sul data lake di Workfront, vedi i seguenti articoli:
 
 * [Informazioni beta del data lake di Workfront](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
-* [Creare un account di lettura](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Creazione di un account di lettura (servizio) per il Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Stabilire una connessione al data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [dizionario dati del data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
-* [Condividere i dati del data lake con strumenti di business intelligence e data warehouse esterni](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 <!-- * [Basic Workfront data lake query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) -->
