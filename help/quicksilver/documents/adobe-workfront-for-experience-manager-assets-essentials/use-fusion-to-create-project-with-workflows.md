@@ -5,7 +5,7 @@ title: Utilizzare Workfront Fusion per creare un progetto Workfront con flussi d
 description: Se stai creando un progetto tramite Workfront Fusion e desideri includere nel progetto i flussi di lavoro di Adobe Experience Manager, devi utilizzare una configurazione specifica del modulo Fusion, descritta in questo articolo.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
-source-git-commit: df8f99da107f50eb1302188aa544f45b7b451966
+source-git-commit: 308118e94f76ac1fb070282d31fbba5cac5312fe
 workflow-type: tm+mt
 source-wordcount: '876'
 ht-degree: 0%
@@ -156,4 +156,7 @@ Devi impostare un’applicazione OAuth in Workfront per la connessione di questo
 Utilizzerai questo ID client e segreto client durante la configurazione della connessione del modulo in Fusion.
 
 Per istruzioni sulla creazione di una connessione, consulta [Connetti [!DNL Workfront] a [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) nell’articolo Moduli di Workfront.
+
+
+
 
