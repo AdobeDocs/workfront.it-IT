@@ -10,10 +10,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 91d757513792604677d6285baafa795629b4506d
+source-git-commit: 416ec4f50a03e0911053fe580ff7e6ca2e648a96
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 4%
+source-wordcount: '1702'
+ht-degree: 5%
 
 ---
 
@@ -263,6 +263,7 @@ Utenti con questo livello di accesso integrato:
 
 * Può effettuare richieste e aggiornarle
 * Può caricare e approvare i documenti
+* Può approvare progetti, attività e problemi
 * Può rivedere lo stato dei problemi che ha inviato
 * Può essere assegnato ad elementi di lavoro ma non può completarli
 * Può accedere alle richieste solo dal menu principale. Per ulteriori informazioni sulle code di richieste, consulta [Creare una coda di richieste](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
