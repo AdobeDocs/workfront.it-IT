@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 80f20ef1020a7040f0a1f5fb47227764bf1f0b54
+source-git-commit: daa9aa361e58242754aee93b3db4e1499756f29c
 workflow-type: tm+mt
-source-wordcount: '14166'
+source-wordcount: '14183'
 ht-degree: 1%
 
 ---
@@ -1155,6 +1155,7 @@ ht-degree: 1%
          * [Creare una cartella collegata a Experience Manager Assets o Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [Scollegare o eliminare risorse e cartelle da Experience Manager Assets o Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Utilizzare i flussi di lavoro nell’integrazione Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
+         * [Utilizzare Workfront Fusion per convertire un problema di Workfront in un progetto che include flussi di lavoro di Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Risolvere i problemi relativi all’integrazione di Adobe Experience Manager](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migrare dai connettori legacy o avanzati {#migrate-from-legacy-enhanced-connectors}
       * [Migrare dai connettori legacy o avanzati](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
