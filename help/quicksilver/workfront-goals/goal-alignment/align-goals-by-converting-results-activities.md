@@ -6,10 +6,10 @@ description: Puoi allineare manualmente due obiettivi oppure convertire i risult
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 15%
+source-wordcount: '642'
+ht-degree: 16%
 
 ---
 
@@ -22,56 +22,54 @@ Per informazioni sull’allineamento manuale di due obiettivi, consulta [Allinea
 
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Piano Adobe Workfront*</td>
-   <td>
-   <p>Nuovo piano: Seleziona o superiore</p>
-   Oppure
-   <p>Piano corrente: Pro o superiore</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Licenza Adobe Workfront*</td>
-   <td>
-   <p>Licenza corrente: Collaboratore o versione successiva</p>
-   Oppure
-   <p>Licenza legacy: richiesta o superiore</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Prodotto*</td>
-   <td>
-   <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">piano Adobe Workfront</td>
+ <td>
+ <p>Qualsiasi</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licenza Adobe Workfront*</td>
+ <td>
+ <p>Licenza corrente: Collaboratore o versione successiva</p>
+ Oppure
+ <p>Licenza legacy: richiesta o superiore</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Prodotto*</td>
+ <td>
+ <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
-   <p>Oppure</p>
-   <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Livello di accesso</td>
-   <td> <p>Modifica accesso agli obiettivi</p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Autorizzazioni oggetto</td>
-   <td>
-    <div>
-     <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
-     <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-     <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
-    </div> </td>
-  </tr>
+ <p>Oppure</p>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Livello di accesso</td>
+ <td> <p>Modifica accesso agli obiettivi</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Autorizzazioni oggetto</td>
+ <td>
+  <div>
+  <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
+  <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
+  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  </div> </td>
+ </tr>
 <tr>
    <td role="rowheader"><p>Modello di layout</p></td>
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
 </td>
   </tr>
- </tbody>
+</tbody>
 </table>
 
 *Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

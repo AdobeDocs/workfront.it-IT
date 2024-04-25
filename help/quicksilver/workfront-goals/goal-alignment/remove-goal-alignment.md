@@ -6,9 +6,9 @@ description: È possibile rimuovere l’allineamento tra due obiettivi se non ha
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '451'
 ht-degree: 1%
 
 ---
@@ -27,54 +27,52 @@ Per informazioni sull&#39;allineamento degli obiettivi, vedere i seguenti artico
 Devi avere i seguenti:
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Piano Adobe Workfront*</td>
-   <td>
-   <p>Nuovo piano: Seleziona o superiore</p>
-   Oppure
-   <p>Piano corrente: Pro o superiore</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Licenza Adobe Workfront*</td>
-   <td>
-   <p>Nuova licenza: Collaboratore o versione successiva</p>
-   Oppure
-   <p>Licenza corrente: richiesta o successiva</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Prodotto*</td>
-   <td>
-   <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">piano Adobe Workfront</td>
+ <td>
+ <p>Qualsiasi</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licenza Adobe Workfront*</td>
+ <td>
+ <p>Nuova licenza: Collaboratore o versione successiva</p>
+ Oppure
+ <p>Licenza corrente: richiesta o successiva</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Prodotto*</td>
+ <td>
+ <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
 <ul>
 <li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
 <li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
-   <p>Oppure</p>
-   <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Livello di accesso</td>
-   <td> <p>Modifica accesso agli obiettivi</p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Autorizzazioni oggetto</td>
-   <td>
-    <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
-     <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
-     <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
-    </td>
-  </tr>
+ <p>Oppure</p>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Livello di accesso</td>
+ <td> <p>Modifica accesso agli obiettivi</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Autorizzazioni oggetto</td>
+ <td>
+  <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
+  <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
+  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  </td>
+ </tr>
    <td role="rowheader"><p>Modello di layout</p></td>
    <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
 </td>
   </tr>
- </tbody>
+</tbody>
 </table>
 
 *Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

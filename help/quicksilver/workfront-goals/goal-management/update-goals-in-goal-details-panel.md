@@ -2,132 +2,86 @@
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Aggiornare gli obiettivi nel pannello Dettagli obiettivo in Obiettivi di Adobe Workfront
-description: Puoi aggiornare le informazioni per i singoli obiettivi accedendo al pannello Dettagli obiettivo .
+description: Per aggiornare le informazioni per i singoli obiettivi, accedi al pannello Dettagli obiettivo.
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '607'
 ht-degree: 1%
 
 ---
 
-# Aggiornare gli obiettivi nella sezione Dettagli obiettivo in Obiettivi di Adobe Workfront
+# Aggiornare gli obiettivi nella sezione dei dettagli Obiettivo in Obiettivi di Adobe Workfront
 
 <!--drafted for the goal redesign:
 - change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
 - update the description in the metadata above
 -->
 
-Puoi aggiornare le informazioni per i singoli obiettivi accedendo al pannello Dettagli obiettivo .
+Per aggiornare le informazioni per i singoli obiettivi, accedi al pannello Dettagli obiettivo.
 
 >[!NOTE]
 >
->Non è possibile aggiornare gli obiettivi con stato Chiuso.
+>Non è possibile aggiornare obiettivi con stato Chiuso.
 
 
 ## Requisiti di accesso
 
-<!--drafted for P&P release: replace the existing requirements with this:
-
-You must have the following: 
+Devi avere i seguenti:
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">piano Adobe Workfront</td>
+ <td>
+ <p>Qualsiasi</p> 
+ </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licenza Adobe Workfront*</td>
+ <td>
+ <p>Nuova licenza: Collaboratore o versione successiva</p>
+ Oppure
+ <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Prodotto*</td>
+ <td>
+ <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
+<ul>
+<li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
+<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+ <p>Oppure</p>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Livello di accesso*</td>
+ <td> <p>Modifica accesso agli obiettivi</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Autorizzazioni oggetto</td>
+ <td>
+  <div>
+  <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
+  <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
+  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  </div> </td>
+ </tr>
+ <tr>
+   <td role="rowheader"><p>Modello di layout</p></td>
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
--->
-
-Devi disporre dei seguenti elementi:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
-   <td> <p>Pro o superiore</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta o superiore</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Prodotto</td> 
-   <td> <p>Devi acquistare una licenza aggiuntiva per la funzionalità Obiettivi di Adobe Workfront per accedere alla descritta in questo articolo. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Obiettivi o versioni successive</p> <p><b>NOTA</b><p>Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Concedere l’accesso agli obiettivi di Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> 
-    <div> 
-     <p>Gestione delle autorizzazioni per l'obiettivo</p> 
-     <p>Per informazioni sulla condivisione degli obiettivi, vedi <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*Per sapere quale piano, tipo di licenza o accesso si dispone, contattare l&#39;amministratore Workfront.
-
-## Prerequisiti
-
-È necessario disporre dei seguenti elementi prima di poter iniziare:
-
-* Modello di layout che include l’area Obiettivi del menu principale.
+*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aggiornare gli obiettivi nella sezione Dettagli obiettivo
 
@@ -220,44 +174,43 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Fai clic sul nome di un obiettivo nell’Elenco obiettivi, quindi fai clic sul nome di un obiettivo.
 
-   Viene aperta la **Dettagli obiettivo** a sinistra.
+   Verrà aperto il **Dettagli obiettivo** sezione a sinistra.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Fai clic sul pulsante **Icona Modifica** ![](assets/edit-icon.png) nell&#39;angolo in alto a destra, quindi fai clic su **Modifica tutto** o **Panoramica**
+1. Fai clic su **Icona Modifica** ![](assets/edit-icon.png) nell’angolo superiore destro, quindi fai clic su **Modifica tutto** o **Panoramica**
 
    Oppure
 
-   Inizia a digitare le informazioni in uno dei campi modificabili nella sezione Dettagli obiettivo . La sezione diventa modificabile.
+   Inizia a digitare le informazioni in uno dei campi modificabili nella sezione Dettagli obiettivo. La sezione diventa modificabile.
 
    >[!IMPORTANT]
    >
-   >Non è possibile modificare tutti i campi visualizzati nella sezione Dettagli obiettivo. Workfront calcola alcuni campi e sono di sola lettura.
+   >Non tutti i campi visualizzati nella sezione Dettagli obiettivo possono essere modificati. In Workfront alcuni campi vengono calcolati e sono di sola lettura.
 
 1. Aggiorna o controlla i campi seguenti:
 
-   * **Descrizione**: Aggiungi o aggiorna informazioni sull&#39;obiettivo.
-   * **Avanzamento**: Indica la percentuale di completamento dell&#39;obiettivo. Non è possibile aggiornare manualmente l&#39;avanzamento di un obiettivo. Il progresso obiettivo è un calcolo di tutti gli indicatori di progresso.
-   * **Condizione**: Indica se l’obiettivo è nuovo e non è ancora stato aggiornato, se è su target da completare in tempo o se è in ritardo. Non è possibile aggiornare la condizione di un obiettivo. La condizione dell&#39;obiettivo viene calcolata automaticamente da Worfront.\
-      Per ulteriori informazioni sulla condizione e sull’avanzamento dell’obiettivo, consulta
-      [Panoramica dell’avanzamento e della condizione dell’obiettivo in Obiettivi di Adobe Workfront](../goal-management/calculate-goal-progress.md).
-   * **Stato**: Non è possibile aggiornare manualmente lo stato di un obiettivo. Per ulteriori informazioni, consulta [Panoramica sullo stato dell&#39;obiettivo negli obiettivi di Adobe Workfront](../goal-management/goal-status-overview.md).
-   * **Proprietario dell&#39;obiettivo**: Fai clic su per aggiornare il nome del proprietario dell&#39;obiettivo. Inizia a digitare il nome di un utente, un team, un gruppo o il nome dell’organizzazione, quindi selezionalo quando viene visualizzato nell’elenco. Puoi avere un solo proprietario per un obiettivo.
-   * **Obiettivo principale**: Inizia a digitare il nome di un obiettivo da impostare come padre dell’obiettivo selezionato. L&#39;avanzamento dell&#39;obiettivo selezionato aggiornerà automaticamente l&#39;avanzamento dell&#39;obiettivo principale.
+   * **Descrizione**: aggiungi o aggiorna le informazioni sull’obiettivo.
+   * **Avanzamento**: indica la percentuale di completamento dell’obiettivo fino a questo momento. Non è possibile aggiornare manualmente l’avanzamento di un obiettivo. L&#39;obiettivo &quot;progresso&quot; è il calcolo di tutti gli indicatori di progresso.
+   * **Condizione**: indica se l’obiettivo è nuovo e non è ancora stato aggiornato, se è in target da completare in tempo o in ritardo. Non è possibile aggiornare la condizione di un obiettivo. La condizione dell&#39;obiettivo viene calcolata automaticamente da Workfront.\
+     Per ulteriori informazioni sulla condizione e sull’avanzamento dell’obiettivo, consulta
+     [Panoramica dell’avanzamento e della condizione dell’obiettivo in Obiettivi di Adobe Workfront](../goal-management/calculate-goal-progress.md).
+   * **Stato**: non è possibile aggiornare manualmente lo stato di un obiettivo. Per ulteriori informazioni, consulta [Panoramica sullo stato degli obiettivi in Obiettivi di Adobe Workfront](../goal-management/goal-status-overview.md).
+   * **Proprietario obiettivo**: fai clic su per aggiornare il nome del proprietario dell’obiettivo. Inizia a digitare il nome di un utente, team, gruppo o il nome dell’organizzazione, quindi selezionalo quando viene visualizzato nell’elenco. Puoi avere un solo proprietario per un obiettivo.
+   * **Obiettivo principale**: inizia a digitare il nome di un obiettivo da impostare come principale dell’obiettivo selezionato. L’avanzamento dell’obiettivo selezionato aggiornerà automaticamente l’avanzamento dell’obiettivo principale.
 
-      >[!TIP]
-      >
-      >Non è possibile aggiornare le seguenti informazioni su un obiettivo padre:
-      >    * Periodo obiettivo principale
-      >    * Avanzamento obiettivo principale
-      >    * Proprietario obiettivo principale.
+     >[!TIP]
+     >
+     >Non è possibile aggiornare le seguenti informazioni su un obiettivo principale:
+     >    * Periodo obiettivo principale
+     >    * Avanzamento obiettivo principale
+     >    * Proprietario obiettivo principale.
+     >      
+     >È necessario aggiornare queste informazioni sull&#39;obiettivo principale stesso.
 
-      >      
-      >È necessario aggiornare queste informazioni sull&#39;obiettivo padre stesso.
-
-   * **Punto**: Fai clic su per aggiornare il periodo di tempo per l&#39;obiettivo\
-      Oppure\
-      Seleziona **Abilita date personalizzate** per specificare le date dell&#39;obiettivo **Inizio** e **Date di fine**.
-   * **Note di chiusura**: Questo campo è visibile solo per gli obiettivi con stato Chiuso. Non è possibile modificare gli obiettivi chiusi. La riapertura di un obiettivo chiuso comporta l&#39;eliminazione definitiva delle note di chiusura.
+   * **Periodo**: fai clic per aggiornare il periodo di tempo per l’obiettivo\
+     Oppure\
+     Seleziona **Abilita date personalizzate** per specificare le date per l&#39;obiettivo **Inizio** e **Date di fine**.
+   * **Note di chiusura**: questo campo è visibile solo per gli obiettivi con stato Chiuso. Non è possibile modificare gli obiettivi chiusi. La riapertura di un obiettivo chiuso elimina definitivamente le note di chiusura.
 
 

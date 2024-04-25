@@ -6,9 +6,9 @@ description: È possibile chiudere un obiettivo quando si desidera indicare che 
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: afc2124a7fd0d9d52c04be1c174fdba314beec7a
+source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -17,130 +17,86 @@ ht-degree: 0%
 
 È possibile chiudere un obiettivo quando si desidera indicare quanto segue:
 
-* L&#39;obiettivo viene raggiunto, sia perché lo avete raggiunto, sia perché è trascorso il periodo di tempo.
-* Non ci state più lavorando, né intendete farlo nell&#39;immediato futuro.
+* L’obiettivo viene raggiunto perché l’hai raggiunto o perché è trascorso il periodo di tempo.
+* Non ci state più lavorando, né prevedete di farlo nell&#39;immediato futuro.
 
-È possibile riaprire gli obiettivi che sono stati chiusi quando diventano nuovamente rilevanti.
+Puoi riaprire gli obiettivi che sono stati chiusi quando diventano di nuovo rilevanti.
 
 ## Requisiti di accesso
 
-<!--drafted for P&P release: 
+Devi avere i seguenti:
 
 <table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader">Adobe Workfront plan*</td>
-   <td>
-   <p>Current plan: Select or higher</p>
-   Or
-   <p>Legacy plan: Pro or higher</p>
-   
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Adobe Workfront license*</td>
-   <td>
-   <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Product</td>
-   <td>
-   <p> Current product requirement: If you have the Select or Prime Adobe Workfront plan, you must also buy an additional Adobe Workfront Goals license.  Workfront Goals are included in the Ultimate Workfront Plan.</p>
-   Or
-   <p>Legacy product requirement: You must purchase an additional license for the Adobe Workfront Goals to access functionality described in this article. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader">Access level*</td>
-   <td> <p>Edit access to Goals</p> <p><b>NOTE</b><p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see:</p>
-     <ul>
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li>
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li>
-     </ul> </p> </td>
-  </tr>
-  <tr data-mc-conditions="">
-   <td role="rowheader">Object permissions</td>
-   <td>
-    <div>
-     <p>View or higher permissions to the goal to view it</p>
-     <p>Manage permissions to the goal to edit it</p>
-     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
-    </div> </td>
-  </tr>
- </tbody>
+<col>
+</col>
+<col>
+</col>
+<tbody>
+ <tr>
+ <td role="rowheader">piano Adobe Workfront</td>
+ <td>
+ <p>Qualsiasi</p>
+
+</td>
+ </tr>
+ <tr>
+ <td role="rowheader">Licenza Adobe Workfront*</td>
+ <td>
+ <p>Nuova licenza: Collaboratore o versione successiva</p>
+ Oppure
+ <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ </tr>
+ <tr>
+ <td role="rowheader">Prodotto*</td>
+ <td>
+ <p> Nuovo requisito del prodotto, uno dei seguenti: </p>
+<ul>
+<li>Un piano Select o Prime Adobe Workfront e un’ulteriore licenza Adobe Workfront Goals.</li>
+<li>Un piano Workfront Ultimate che include gli obiettivi Workfront per impostazione predefinita. </li></ul>
+ <p>Oppure</p>
+ <p>Fabbisogno di prodotto corrente: un piano Workfront e una licenza aggiuntiva per gli obiettivi Adobe Workfront. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l’utilizzo degli obiettivi di Workfront</a>. </p> </td>
+ </tr>
+ <td role="rowheader">Livello di accesso</td>
+ <td> <p>Modifica accesso agli obiettivi</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">Autorizzazioni oggetto</td>
+ <td>
+  <div>
+  <p>Visualizza o autorizzazioni superiori per l’obiettivo per visualizzarlo</p>
+  <p>Gestire le autorizzazioni per l’obiettivo per modificarlo</p>
+  <p>Per informazioni sulla condivisione degli obiettivi, consulta <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p>
+  </div> </td>
+ </tr>
+<tr>
+   <td role="rowheader"><p>Modello di layout</p></td>
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l’area Obiettivi nel menu principale. </p>  
+</td>
+  </tr>
+</tbody>
 </table>
 
--->
+*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Devi disporre dei seguenti elementi:
+## Considerazioni per la chiusura o la riapertura degli obiettivi
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">piano Adobe Workfront*</td> 
-   <td> <p>Pro o superiore</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
-   <td> <p>Richiesta o superiore</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Prodotto</td> 
-   <td> <p>Devi acquistare una licenza aggiuntiva per la funzionalità Obiettivi di Adobe Workfront per accedere alla descritta in questo articolo. </p> <p>Per informazioni, consulta <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requisiti per l'utilizzo degli obiettivi di Workfront</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso*</td> 
-   <td> <p>Modificare l’accesso a Obiettivi o versioni successive</p> <p><b>NOTA</b><p>Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta:</p> 
-     <ul> 
-      <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a> </p> </li> 
-      <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Concedere l’accesso agli obiettivi di Adobe Workfront</a></span> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> 
-    <div> 
-     <p>Gestione delle autorizzazioni per l'obiettivo</p> 
-     <p>Per informazioni sulla condivisione degli obiettivi, vedi <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Condividere un obiettivo in Obiettivi di Workfront</a>. </p> 
-    </div> </td> 
-  </tr> 
- </tbody> 
-</table>
+* Per poter chiudere e riaprire gli obiettivi, è necessario disporre dell&#39;accesso Modifica obiettivi nel proprio livello di accesso. Per informazioni su come concedere l’accesso agli obiettivi, consulta [Concedere l’accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+* È possibile chiudere solo gli obiettivi attivi. Non è possibile chiudere gli obiettivi in stato Bozza.
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+  Per informazioni sugli stati degli obiettivi, vedi [Panoramica sullo stato degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/goal-status-overview.md).
 
-## Prerequisiti
+* La chiusura degli obiettivi si blocca nel suo avanzamento e consente di valutare il livello di successo ottenuto nel realizzarlo.
 
-È necessario disporre dei seguenti elementi prima di poter iniziare:
+  >[!CAUTION]
+  >
+  >Quando si chiude un obiettivo con obiettivi attivi, l’avanzamento cambia dopo la chiusura per indicare l’avanzamento degli obiettivi attivi che contribuiscono. Per informazioni sull&#39;allineamento degli obiettivi, vedere [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-* Modello di layout che include l’area Obiettivi del menu principale.
-
-## Considerazioni sulla chiusura o la riapertura degli obiettivi
-
-* Per poter chiudere e riaprire gli obiettivi, devi avere accesso a Modifica obiettivi nel livello di accesso. Per informazioni sulla concessione dell&#39;accesso agli obiettivi, vedi [Concedere l’accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
-* È possibile chiudere solo gli obiettivi attivi. Non è possibile chiudere gli obiettivi che si trovano nello stato Bozza.
-
-   Per informazioni sugli stati degli obiettivi, consulta [Panoramica sullo stato dell&#39;obiettivo negli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/goal-status-overview.md).
-
-* Gli obiettivi di chiusura si bloccano nel suo progresso e ti permette di valutare quanto bene hai fatto nel realizzarlo.
-
-   >[!CAUTION]
-   >
-   >Quando si chiude un obiettivo con obiettivi attivi che contribuiscono, il suo progresso cambia dopo la chiusura per indicare il progresso degli obiettivi attivi che contribuiscono. Per informazioni sull&#39;allineamento degli obiettivi, vedi [Allineare gli obiettivi collegandoli negli obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
-
-* Aggiorna gli indicatori di avanzamento dell&#39;obiettivo prima di chiudere l&#39;obiettivo per assicurarti che l&#39;obiettivo si chiuda con un preciso valore di avanzamento. Se tutti gli indicatori di progresso sono stati raggiunti, l&#39;obiettivo percentuale di completamento dovrebbe essere 100% e il vostro obiettivo è stato raggiunto. Per informazioni sull&#39;aggiornamento degli obiettivi, vedi [Aggiornare lo stato dell’obiettivo negli obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
-* Lascia i commenti finali come aggiornamento agli obiettivi che chiudi. Per informazioni sull’aggiunta di commenti agli obiettivi, consulta [Gestire i commenti sull’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
-* Non puoi più aggiornare l’avanzamento dei risultati e delle attività su un obiettivo che chiudi.
+* Aggiorna gli indicatori di avanzamento dell’obiettivo prima di chiuderlo, in modo che l’obiettivo venga chiuso con un valore di avanzamento accurato. Se tutti gli indicatori di progresso sono stati raggiunti, l&#39;obiettivo percentuale di completamento dovrebbe essere 100% e l&#39;obiettivo è stato raggiunto. Per informazioni sull’aggiornamento degli obiettivi, consulta [Aggiornamento dell’avanzamento dell’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Lascia eventuali commenti finali come aggiornamento degli obiettivi che chiudi. Per informazioni sull’aggiunta di commenti agli obiettivi, consulta [Gestire i commenti sugli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/manage-goal-comments.md).
+* Non puoi più aggiornare l’avanzamento dei risultati e delle attività in base a un obiettivo che hai chiuso.
 * Puoi riaprire un obiettivo chiuso se desideri continuare a lavorarci.
-* Se l’obiettivo non è stato raggiunto, è consigliabile copiare la maggior parte delle informazioni nel periodo di tempo successivo (trimestre o anno). Questa è una grande opzione per gli obiettivi che sono gli stessi da un periodo di tempo all&#39;altro o per gli obiettivi che potrebbe ancora essere necessario lavorare per raggiungere nel prossimo arco temporale. Per informazioni sulla copia degli obiettivi, vedi [Copia degli obiettivi negli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/copy-goals.md). È inoltre possibile aggiornare il periodo di tempo sull&#39;obiettivo anziché copiarlo in un altro periodo.
-* Workfront elimina i commenti di un obiettivo chiuso quando lo si riapre. Se è necessario mantenere i commenti, è consigliabile copiare l’obiettivo chiuso, compresi eventuali risultati associati, anziché riaprirlo.
+* Se l’obiettivo non è stato raggiunto, è consigliabile copiare la maggior parte delle informazioni nel periodo di tempo successivo (trimestre o anno). Questa è un’ottima opzione per obiettivi che sono gli stessi da un periodo di tempo all’altro o per obiettivi che potresti dover ancora lavorare per raggiungere nel prossimo periodo di tempo. Per informazioni sulla copia degli obiettivi, consulta [Copia obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/copy-goals.md). Puoi anche aggiornare il periodo di tempo sull’obiettivo invece di copiarlo in un altro periodo.
+* Workfront elimina i commenti di un obiettivo chiuso quando lo riapri. Se devi conservare i commenti, ti consigliamo di copiare l’obiettivo chiuso, inclusi eventuali risultati associati, anziché riaprirlo.
 
 
 ## Chiudi obiettivi
@@ -182,42 +138,42 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) > **Obiettivi** nell&#39;angolo in alto a destra.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) > **Obiettivi** nell’angolo superiore destro.
 
-   Viene visualizzato l’Elenco obiettivi.
+   Viene visualizzato Elenco obiettivi (Goal List).
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
 1. (Facoltativo) Modifica i filtri per visualizzare solo gli obiettivi attivi.
 
-   Per informazioni sul filtro delle informazioni negli obiettivi di Workfront, vedi [Filtrare le informazioni negli obiettivi di Adobe Workfront](../goal-management/filter-information-wf-goals.md).
+   Per informazioni sul filtraggio delle informazioni negli Obiettivi di Workfront, consulta [Filtrare le informazioni in Obiettivi di Adobe Workfront](../goal-management/filter-information-wf-goals.md).
 1. Fai clic su un obiettivo attivo.
 
    Viene visualizzata la pagina dell’obiettivo.
 
    ![](assets/goal-page-unshimmed.png)
-1. Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra del nome dell&#39;obiettivo, quindi fai clic su **Chiudi**.
+1. Fai clic su **Altro** menu ![](assets/more-icon.png) a destra del nome dell’obiettivo, quindi fai clic su **Chiudi**.
 
-   L’obiettivo viene chiuso e viene visualizzata una conferma nell’angolo in alto a destra dello schermo.
+   L’obiettivo si chiude e ricevi una conferma nell’angolo in alto a destra dello schermo.
 
    ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
-1. (Facoltativo) Nella casella di conferma, fai clic su **Aggiungi note di chiusura** per aggiungere commenti su questo obiettivo e perché è necessario chiuderlo.
-1. Aggiungi le note di chiusura, quindi fai clic su **Aggiungi note**.
+1. (Facoltativo) Nella casella di conferma, fai clic su **Aggiungi note di chiusura** per aggiungere commenti su questo obiettivo e sul motivo per cui è necessario chiuderlo.
+1. Aggiungi note di chiusura, quindi fai clic su **Aggiungi note**.
 
    ![](assets/add-closing-notes-box-unshimmed.png)
 
-   I commenti vengono visualizzati nella sezione Dettagli obiettivo della pagina dell’obiettivo, nell’area Note di chiusura .
+   I commenti vengono visualizzati nella sezione Dettagli obiettivo della pagina dell&#39;obiettivo, nell&#39;area Note di chiusura.
 
    >[!NOTE]
    >
-   >Workfront elimina le note di chiusura se in seguito riapri un obiettivo chiuso.
+   >Workfront elimina le note di chiusura se successivamente riapri un obiettivo chiuso.
 
 
 ## Riapri obiettivi
 
-È possibile riaprire gli obiettivi chiusi se si decide che sono diventati di nuovo rilevanti e che è necessario continuare ad aggiornare i loro progressi.
+Puoi riaprire gli obiettivi chiusi se decidi che sono diventati di nuovo rilevanti e che devi continuare ad aggiornare il loro avanzamento.
 
 <!--
 Reopening goals differs depending on what environment you use.
@@ -248,25 +204,25 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png)> **Obiettivi** nell&#39;angolo in alto a destra.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png)> **Obiettivi** nell’angolo superiore destro.
 
-   Viene visualizzato l’Elenco obiettivi.
+   Viene visualizzato Elenco obiettivi (Goal List).
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
 1. (Facoltativo) Modifica i filtri per visualizzare solo gli obiettivi chiusi.
 
-   Per informazioni sul filtro delle informazioni negli obiettivi di Workfront, vedi [Filtrare le informazioni negli obiettivi di Adobe Workfront](../goal-management/filter-information-wf-goals.md).
+   Per informazioni sul filtraggio delle informazioni negli Obiettivi di Workfront, consulta [Filtrare le informazioni in Obiettivi di Adobe Workfront](../goal-management/filter-information-wf-goals.md).
 1. Fai clic sul nome di un obiettivo chiuso.
 
    Viene visualizzata la pagina dell’obiettivo.
-1. Fai clic sul pulsante **Altro** menu ![](assets/more-icon.png) a destra del nome dell&#39;obiettivo, quindi **Riapri** > **Riapri**.
+1. Fai clic su **Altro** menu ![](assets/more-icon.png) a destra del nome dell’obiettivo, quindi **Riapri** > **Riapri**.
 
    Si verificano le seguenti situazioni:
-   * L&#39;obiettivo è ora aperto e presenta lo stato Attivo.
+   * L’obiettivo è ora aperto e ha lo stato Attivo.
    * L’avanzamento dell’obiettivo viene ricalcolato a partire dalla data corrente.
-   * Tutte le note di chiusura vengono eliminate dalla pagina Dettagli obiettivo. Le note di chiusura eliminate non possono essere recuperate.
+   * Tutte le note di chiusura vengono eliminate dalla pagina dei dettagli Obiettivo. Non è possibile recuperare le note di chiusura eliminate.
 
 1. (Facoltativo) Modifica nuovamente i filtri per visualizzare solo gli obiettivi attivi.
 
