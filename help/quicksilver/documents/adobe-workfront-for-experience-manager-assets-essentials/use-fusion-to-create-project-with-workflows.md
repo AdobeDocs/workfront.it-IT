@@ -6,7 +6,7 @@ description: Se stai creando un progetto tramite Workfront Fusion e desideri inc
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 1677ed676a5ccb4f519cc81bf3b31cc90b8326b4
+source-git-commit: 605065896263ebbb761883689668be181b5012e3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Devi avere i seguenti:
    <p>Devi disporre dell’accesso in scrittura all’archivio in Adobe Experience Manager.</p>
    </li>
    </ul>
-  <b>Workfront Fusion</b>:<p>Nuovo:</p>
+   <b>Workfront Fusion</b>:<p>Nuovo:</p>
    <ul>
    <li>
    <p>Seleziona o imposta il piano Workfront: la tua organizzazione deve acquistare Adobe Workfront Fusion.</p>
@@ -68,8 +68,8 @@ Devi avere i seguenti:
    <td><strong>Configurazioni del livello di accesso*</strong>
    </td>
    <td>Modifica accesso ai documenti
-<p>
-<strong>Nota: </strong>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <strong>Creare o modificare livelli di accesso personalizzati</strong>.
+   <p>
+   <strong>Nota: </strong>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <strong>Creare o modificare livelli di accesso personalizzati</strong>.
    </td>
   </tr>
 </table>
@@ -174,4 +174,3 @@ Devi impostare un’applicazione OAuth in Workfront per la connessione di questo
 Utilizzerai questo ID client e segreto client durante la configurazione della connessione del modulo in Fusion.
 
 Per istruzioni sulla creazione di una connessione, consulta [Connetti [!DNL Workfront] a [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) nell’articolo Moduli di Workfront.
-
