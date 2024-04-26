@@ -6,9 +6,9 @@ description: È possibile inviare documenti da Workfront a Experience Manager As
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 706e531be6f6269a927f94fee4d2c37d9367c9af
+source-git-commit: 825e0a04b2a49d91f9c084fa42e876f9880b2d80
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Inviare un documento a Experience Manager Assets o ad Assets Essentials
 
 È possibile inviare documenti da Workfront a Experience Manager Assets o ad Assets Essentials. I documenti caricati e inviati da Workfront agli Assets Essentials vengono comunque conteggiati nell’archiviazione complessiva dei documenti. Le risorse collegate dagli Assets Essentials non vengono conteggiate per lo storage complessivo.
+
+Le risorse inviate all’Experience Manager tramite questa integrazione hanno un limite di dimensione di **5 GB**.
 
 I campi metadati vengono mappati per la prima volta quando invii una risorsa da Workfront a Experience Manager Assets o ad Assets Essentials. Vengono inviati anche tutti i metadati configurati per la mappatura degli oggetti principali. Per ulteriori informazioni sulla configurazione della mappatura dei metadati, consulta [Configurare l’integrazione di Experience Manager Assets as a Cloud Service](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) o [Configurare l’integrazione di Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
