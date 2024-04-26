@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: c24adf93172d002ea636904d62f531a8e69aace4
+source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 0%
+source-wordcount: '433'
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-È possibile creare campi personalizzati in Adobe Workfront Planning facendo riferimento a campi esistenti e collegandoli tramite una formula. A tale scopo, è possibile creare un campo personalizzato di tipo Formula.
+È possibile creare campi personalizzati in Adobe Workfront Planning facendo riferimento a campi esistenti e collegandoli in un campo di tipo Formula.
 
 I campi formula generano un nuovo valore utilizzando i valori esistenti di altri campi di un tipo di record e una funzione che indica come devono essere calcolati i valori esistenti.
 
@@ -154,7 +154,7 @@ Sono inoltre supportate le seguenti espressioni per i campi formula di Workfront
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>Restituisce il numero della settimana in un anno. In alternativa, è possibile indicare il giorno in cui inizia la settimana (utilizzare 1 per la domenica o 2 per il lunedì). Se omesso, per impostazione predefinita le settimane iniziano di domenica.</p> <p>L’espressione viene formattata come segue:
+   <td> <p>Restituisce il numero di settimana in un anno. Facoltativamente, puoi indicare il giorno in cui inizia la settimana (usa 1 per domenica o 2 per lunedì). Se omesso, le settimane iniziano di domenica, per impostazione predefinita.</p> <p>L’espressione viene formattata come segue:
 
 <code>WEEKOFYEAR(date,2)</code>
 o
