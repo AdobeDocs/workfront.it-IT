@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 00ef33666bebe434739056cb38c3dff24285d682
+source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '570'
 ht-degree: 1%
 
 ---
@@ -72,6 +72,10 @@ Wokfront Fusion supporta solo browser basati su Chrome.
 ## Cronologia di esecuzione
 
 * I registri della cronologia di esecuzione sono limitati a **100 MB**. Se la cronologia di esecuzione supera queste dimensioni, verranno visualizzati solo i primi 100 MB.
+
+## Esecuzioni incomplete
+
+Le esecuzioni incomplete sono limitate a una dimensione totale di **500 MB**. Se viene raggiunto il limite di 500 MB, non verranno memorizzate altre esecuzioni incomplete.
 
 ## Nuovi tentativi
 
