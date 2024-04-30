@@ -4,7 +4,7 @@ description: Altri miglioramenti durante il periodo di rilascio del terzo trimes
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
+source-git-commit: 781dcf0fa2d5f3a3387e5e5e1e56f44669318195
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
@@ -24,3 +24,5 @@ Quando un utente non ha accesso a un oggetto, visualizzerà &quot;Nessun accesso
 Questa modifica non riguarda team e utenti. Gli utenti possono ancora visualizzare i nomi dei team e degli utenti.
 
 Per ulteriori informazioni, consulta la sezione [Accesso limitato agli oggetti](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) nel [!DNL Adobe Workfront] articolo di panoramica sugli oggetti.
+
+
