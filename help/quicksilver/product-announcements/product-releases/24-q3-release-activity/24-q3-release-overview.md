@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: a1d43c76d4737960f926c07df86065a40b87d6ef
+source-git-commit: d337bb199db13c17e70be7b40654be8f1a87c2db
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -85,16 +85,6 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Funzionalità</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Date di rilascio</span>
-                        </p>
-                    </td>
-                 </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività</a></p>
@@ -146,6 +136,46 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
+            <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Esperienza interfaccia utente migliorata per gli utenti con accesso limitato agli oggetti</a></p>
+                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>Quando un utente non ha accesso a un oggetto, visualizzerà "Nessun accesso" in qualsiasi punto del nome dell’oggetto in Workfront. Questa esperienza migliorata si applica anche all’API Workfront.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 27 marzo 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio trimestrale: con il rilascio 24.7 </p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funzionalità</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Date di rilascio</span>
+                        </p>
+                    </td>
+                 </tr>
                 <tr>
                     <td>
                         <p><span class="bold">Funzionalità</span>
