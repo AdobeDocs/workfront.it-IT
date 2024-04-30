@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Per collegare i dati del data lake di Workfront a un prodotto esterno, devi prim
 
 1. Fai clic sul pulsante **IP consentiti** , quindi fare clic sul pulsante **Aggiungere un indirizzo IP al Inserisco nell&#39;elenco Consentiti di** pulsante.
 
-1. Immetti un nome per l’indirizzo IP in **Descrizione indirizzo IP** e inserisci l’indirizzo IP dello strumento che desideri utilizzare in **Indirizzo IP**, quindi fai clic su **Aggiungi IP al Inserisco nell&#39;elenco Consentiti di**.
+1. Immetti un nome per l’indirizzo IP in **Descrizione indirizzo IP** e immetti l’indirizzo IP (o blocco CIDR) dello strumento che desideri utilizzare in **Indirizzo IP**, quindi fai clic su **Aggiungi IP al Inserisco nell&#39;elenco Consentiti di**.
 
    ![Aggiungi indirizzo IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
