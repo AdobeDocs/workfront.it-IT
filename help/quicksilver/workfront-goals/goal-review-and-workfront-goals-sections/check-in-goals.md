@@ -6,9 +6,9 @@ description: Devi rivedere periodicamente i tuoi obiettivi e aggiornarne i progr
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '707'
 ht-degree: 0%
 
 ---
@@ -29,13 +29,18 @@ Devi avere i seguenti:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">piano Adobe Workfront</td>
- <td>
- <p>Qualsiasi</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td> 
+   <p>Per il nuovo piano e la nuova struttura delle licenze:
+  <ul><li>Un piano Ultimate </li>
+  Oppure
+  <li>Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. </li></ul> </p>
+<p>Per il piano corrente e la struttura delle licenze: 
+<ul><li> A Pro o superiore </li>
+  <li>Una licenza Adobe Workfront Goals oltre a una licenza Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licenza Adobe Workfront*</td>
  <td>

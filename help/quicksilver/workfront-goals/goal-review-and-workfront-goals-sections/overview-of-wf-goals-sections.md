@@ -3,101 +3,106 @@ content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
 title: Panoramica delle sezioni Obiettivi di Adobe Workfront
-description: Puoi accedere agli elenchi di obiettivi o di singoli obiettivi e gestirli da diverse sezioni degli obiettivi di Adobe Workfront. La sezione che utilizzi dipende dallo scopo che desideri raggiungere quando lavori con gli obiettivi.
+description: Puoi accedere agli elenchi di obiettivi o di singoli obiettivi e gestirli da diverse sezioni di Obiettivi di Adobe Workfront. La sezione utilizzata dipende dallo scopo che si desidera raggiungere quando si lavora con gli obiettivi.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 0%
+source-wordcount: '698'
+ht-degree: 2%
 
 ---
 
 # Panoramica delle sezioni Obiettivi di Adobe Workfront
 
+Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
 
->[!NOTE]
->
->Per utilizzare la funzionalità descritta in questo articolo, l’organizzazione deve disporre delle seguenti caratteristiche:
->
->* A Pro o superiore [piano Adobe Workfront](https://www.workfront.com/plans).
->* Una licenza Adobe Workfront Obiettivi oltre a una licenza Workfront.
->
->  Contatta il tuo account manager Workfront per saperne di più su una licenza di Workfront Obiettivi .
->
->Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedi [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+* Per il nuovo piano e la nuova struttura delle licenze:
 
-Dopo che il tuo amministratore di Workfront ti ha concesso l’accesso a Obiettivi di Workfront, puoi visualizzare nell’area Obiettivi di Workfront gli obiettivi che tu o chiunque altro nella tua organizzazione hai creato.
+   * Un piano Ultimate
 
-Puoi accedere agli elenchi di obiettivi o di singoli obiettivi e gestirli da diverse sezioni degli obiettivi di Workfront. La sezione che utilizzi dipende dallo scopo che desideri raggiungere mentre lavori con gli obiettivi.
+     Oppure
+
+     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. Per informazioni, consulta [piano Adobe Workfront](https://www.workfront.com/plans).
+
+* Per il piano corrente e la struttura delle licenze:
+
+   * A Pro o superiore
+   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
+
+Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
+
+Dopo che l’amministratore di Workfront ti ha concesso l’accesso agli obiettivi di Workfront, puoi visualizzare gli obiettivi che tu o chiunque altro nell’organizzazione hai creato nell’area Obiettivi di Workfront.
+
+Puoi accedere agli elenchi di obiettivi o di singoli obiettivi e gestirli da diverse sezioni di Obiettivi Workfront. La sezione utilizzata dipende dallo scopo che si desidera raggiungere mentre si lavora con gli obiettivi.
 
 Puoi applicare i filtri per visualizzare solo gli obiettivi che ti interessano in ogni sezione.
 
 >[!TIP]
 >
->I filtri aggiornati in una sezione vengono applicati automaticamente alle sezioni Elenco obiettivi, Grafici e Allineamento obiettivo . In questo modo, puoi aggiornarli una sola volta. Per ulteriori informazioni, consulta [Filtrare le informazioni negli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+>I filtri aggiornati in una sezione vengono applicati automaticamente alle sezioni Elenco obiettivi, Grafici e Allineamento obiettivi. In questo modo, è possibile aggiornarle una sola volta. Per ulteriori informazioni, consulta [Filtrare le informazioni in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
-Di seguito è riportata una breve panoramica delle sezioni degli obiettivi di Workfront e delle opzioni disponibili per la gestione degli obiettivi. Per ulteriori informazioni sulle azioni aggiuntive da eseguire all&#39;interno di ogni sezione degli obiettivi di Workfront, ti consigliamo anche i seguenti articoli:
+Di seguito è riportata una breve panoramica delle sezioni degli Obiettivi di Workfront e delle opzioni disponibili per la gestione degli obiettivi. Per ulteriori informazioni sulle azioni aggiuntive che è possibile eseguire all’interno di ogni sezione degli Obiettivi di Workfront, consigliamo anche i seguenti articoli:
 
-* [Creare obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
-* [Aggiornare lo stato dell’obiettivo negli obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
-* [Filtrare le informazioni negli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
+* [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md)
+* [Aggiornamento dell’avanzamento dell’obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [Filtrare le informazioni in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
 
 ## Elenco obiettivi
 
-Puoi utilizzare l’Elenco obiettivi per esaminare gli obiettivi che appartengono a te, ai tuoi team, gruppi o alla tua organizzazione. Puoi visualizzare gli obiettivi in qualsiasi stato e da qualsiasi periodo di tempo.
+Puoi utilizzare l’Elenco obiettivi per rivedere gli obiettivi che appartengono a te, ai tuoi team, ai tuoi gruppi o alla tua organizzazione. Puoi visualizzare gli obiettivi in qualsiasi stato e da qualsiasi periodo di tempo.
 
-Per informazioni sulla navigazione nell’elenco degli obiettivi e sulla gestione degli obiettivi, consulta [Gestire gli obiettivi nell’elenco degli obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+Per informazioni sulla navigazione nell’elenco degli obiettivi e sulla gestione degli obiettivi, consulta [Gestione degli obiettivi nell’elenco Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ![](assets/goal-list-unshimmed.png)
 
-Utilizza l’elenco obiettivi per effettuare le seguenti operazioni:
+Utilizza Elenco obiettivi per effettuare le seguenti operazioni:
 
-* Visualizza gli obiettivi che appartengono a te, ai tuoi team, gruppi o organizzazioni.
+* Visualizza gli obiettivi che appartengono a te, ai tuoi team, ai tuoi gruppi o all’organizzazione.
 * Esamina gli obiettivi e le relative informazioni (ad esempio nome, proprietario, avanzamento o condizione).
 * Aggiungi nuovi obiettivi.
 
-   Per ulteriori informazioni, consulta [Creare obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+  Per ulteriori informazioni, consulta [Creare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
-* Accedi alla pagina di un obiettivo e modifica e aggiorna l’obiettivo, i suoi risultati o le sue attività
+* Accedi alla pagina di un obiettivo e modifica e aggiorna l’obiettivo, i suoi risultati o le attività
 
-   Per ulteriori informazioni, consulta [Modificare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/edit-goals.md).
+  Per ulteriori informazioni, consulta [Modificare gli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-management/edit-goals.md).
 
 * Modificare gli obiettivi.
 
 ## Grafi
 
-Puoi utilizzare la sezione Grafici per ottenere una visione olistica della salute degli obiettivi che appartengono a te o alla tua organizzazione. Puoi visualizzare le informazioni sull’avanzamento degli obiettivi in qualsiasi stato da qualsiasi periodo di tempo in questa sezione.
+Puoi utilizzare la sezione Grafici per ottenere una visione olistica dello stato degli obiettivi che appartengono a te o alla tua organizzazione. Puoi visualizzare informazioni sull’avanzamento degli obiettivi in qualsiasi stato da qualsiasi periodo di tempo in questa sezione.
 
-Per informazioni sull’utilizzo della sezione Grafici, consulta [Esamina i grafici per comprendere le tendenze di avanzamento degli obiettivi negli obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+Per informazioni sull&#39;utilizzo della sezione Grafici, vedere [Rivedi i grafici per comprendere le tendenze di avanzamento degli obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
 ![](assets/graphs-section-unshimmed.png)
 
-Utilizza la sezione Grafici per effettuare le seguenti operazioni:
+Utilizzare la sezione Grafici per effettuare le seguenti operazioni:
 
-* Visualizza le prestazioni degli obiettivi che appartengono a te, ai tuoi team, gruppi o all&#39;organizzazione.
-* Visualizzare il numero di obiettivi con uno stato di avanzamento specificato.
-* Comprendi le prestazioni dei tuoi obiettivi su base settimanale.
+* Visualizza le prestazioni degli obiettivi che appartengono a te, ai tuoi team, ai tuoi gruppi o all’organizzazione.
+* Visualizzare il numero di obiettivi con un determinato stato di avanzamento.
+* Comprendi il rendimento dei tuoi obiettivi su base settimanale.
 
-## Allineamento obiettivo
+## Allineamento obiettivi
 
-Se gli obiettivi sono allineati tra loro, puoi utilizzare la sezione Allineamento obiettivo per visualizzare e rivedere tutti gli obiettivi dell&#39;organizzazione e il loro allineamento tra loro. Gli obiettivi allineati vengono visualizzati su schede collegate per illustrare il loro allineamento l&#39;uno con l&#39;altro. Gli obiettivi principali vengono visualizzati per primi e gli obiettivi figlio vengono sovrapposti. Puoi visualizzare gli obiettivi in qualsiasi stato e da qualsiasi periodo di tempo in questa sezione.
+Se gli obiettivi sono allineati tra loro, puoi utilizzare la sezione Allineamento obiettivi per visualizzare e rivedere tutti gli obiettivi dell’organizzazione e il loro allineamento. Gli obiettivi allineati vengono visualizzati qui sulle schede collegate per illustrare il loro allineamento l&#39;uno all&#39;altro. Gli obiettivi principali vengono visualizzati per primi, mentre quelli secondari vengono sovrapposti. Puoi visualizzare gli obiettivi in qualsiasi stato e da qualsiasi periodo di tempo in questa sezione.
 
-Per informazioni sulla navigazione nella sezione Allineamento obiettivo per gestire gli obiettivi, consulta [Naviga nella sezione Allineamento obiettivo in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+Per informazioni su come spostarsi nella sezione Allineamento obiettivi per gestire gli obiettivi, consulta [Passare alla sezione Allineamento obiettivi in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
-Per informazioni sull’allineamento degli obiettivi, consulta i seguenti articoli:
+Per informazioni sull&#39;allineamento degli obiettivi, vedere i seguenti articoli:
 
-* [Allineare gli obiettivi collegandoli negli obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Allineare gli obiettivi collegandoli in Obiettivi di Adobe Workfront](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Allineare gli obiettivi convertendo risultati e attività in obiettivi](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ![](assets/goal-alignment-section-unshimmed.png)
 
 Utilizzare la sezione Allineamento obiettivo per effettuare le seguenti operazioni:
 
-* Visualizza gli obiettivi che appartengono a te o alla tua organizzazione in un formato scheda.
-* Visualizza la gerarchia degli obiettivi e visualizza gli obiettivi figlio allineati.
+* Visualizza gli obiettivi che appartengono a te o alla tua organizzazione in formato scheda.
+* Visualizzare la gerarchia degli obiettivi e gli obiettivi secondari allineati.
 * Accedi alla pagina dell’obiettivo e aggiorna l’obiettivo, i relativi risultati o le attività.
 
 <!--

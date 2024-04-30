@@ -3,12 +3,12 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe di esperienza unificata per [!DNL Workfront]
 description: Accesso [!DNL Workfront] tramite Adobe Experience Cloud offre un’esperienza unificata e diretta per la gestione di tutte le applicazioni Adobe.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 4331917d133c52cf727f148b75a213853c1e5679
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,13 @@ ht-degree: 0%
 # [!DNL Adobe Unified Experience] per [!DNL Workfront]
 
 Accesso [!DNL Workfront] da a [!DNL Adobe Experience Cloud] offre un&#39;esperienza unificata e senza soluzione di continuità per la gestione di tutti i [!DNL Adobe] applicazioni. La gestione delle singole identità consente di accedere da un’unica posizione, senza più URL o ID di accesso.
+
+Per determinare se l’organizzazione si trova nell’esperienza unificata di Adobe, esamina l’URL utilizzato per accedere a Workfront.
+
+| URL | Esperienza Adobe |
+|------------|------------|
+| (NomeSocietà).my.workfront.com | Esperienza Workfront |
+| experience.adobe.com | Adobe di esperienza unificata |
 
 ## Requisiti di accesso
 

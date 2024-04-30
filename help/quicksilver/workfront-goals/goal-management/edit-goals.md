@@ -6,9 +6,9 @@ description: Puoi modificare gli obiettivi esistenti da qualsiasi periodo di tem
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '647'
 ht-degree: 1%
 
 ---
@@ -27,13 +27,18 @@ Devi avere i seguenti:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">piano Adobe Workfront</td>
- <td>
- <p>Qualsiasi</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td> 
+   <p>Per il nuovo piano e la nuova struttura delle licenze:
+  <ul><li>Un piano Ultimate </li>
+  Oppure
+  <li>Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. </li></ul> </p>
+<p>Per il piano corrente e la struttura delle licenze: 
+<ul><li> A Pro o superiore </li>
+  <li>Una licenza Adobe Workfront Goals oltre a una licenza Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licenza Adobe Workfront*</td>
  <td>

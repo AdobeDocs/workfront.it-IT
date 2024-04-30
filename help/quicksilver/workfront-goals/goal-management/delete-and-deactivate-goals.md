@@ -6,9 +6,9 @@ description: Quando inizi a lavorare su un obiettivo che diventa irrilevante nel
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,18 @@ Devi avere i seguenti:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">piano Adobe Workfront</td>
- <td>
- <p>Qualsiasi</p>
-
-</td>
- </tr>
+ <tr> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td> 
+   <p>Per il nuovo piano e la nuova struttura delle licenze:
+  <ul><li>Un piano Ultimate </li>
+  Oppure
+  <li>Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront. </li></ul> </p>
+<p>Per il piano corrente e la struttura delle licenze: 
+<ul><li> A Pro o superiore </li>
+  <li>Una licenza Adobe Workfront Goals oltre a una licenza Workfront.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Licenza Adobe Workfront*</td>
  <td>

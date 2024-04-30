@@ -1,56 +1,46 @@
 ---
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
-title: Personalizzare la terminologia Obiettivi di Adobe Workfront
-description: Un amministratore di gruppo o di Workfront può personalizzare i nomi degli oggetti in Obiettivi di Workfront in modo che corrispondano meglio alla terminologia aziendale.
+title: Personalizzare la terminologia degli obiettivi di Adobe Workfront
+description: Un amministratore di Workfront o di gruppo può personalizzare i nomi degli oggetti in Obiettivi di Workfront in modo che corrispondano meglio alla terminologia della tua organizzazione.
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: a9a43cba127917be5c030b79fa099a960c1dcd56
+source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '247'
 ht-degree: 1%
 
 ---
 
-# Personalizzare la terminologia Obiettivi di Adobe Workfront
+# Personalizzare la terminologia degli obiettivi di Adobe Workfront
 
-<!--drafted for P&P new model: the note at the top will need to be replaced with this:
+Per utilizzare le funzionalità descritte in questo articolo, l’organizzazione deve disporre dei seguenti elementi:
 
-Your organization must have the following to use the functionality described in this article:
+* Per il piano corrente e la struttura delle licenze:
 
-* For the legacy plan and license structure: 
+   * A Pro o superiore [piano Adobe Workfront](https://www.workfront.com/plans).
+   * Una licenza Adobe Workfront Goals oltre a una licenza Workfront.
 
-  * A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+* Per il nuovo piano e la nuova struttura delle licenze:
 
-* For the current plan and license structure:
+   * Un piano Ultimate
 
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. <is there a link we can add here for the plans and what they contain?!>
+     Oppure
 
-Contact your Workfront account manager to learn about a Workfront Goals license.
+     Una licenza aggiuntiva per Adobe Workfront Goals per i piani Prime o Select Adobe Workfront.
 
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
--->
+Contatta il tuo account manager Workfront per saperne di più su una licenza Workfront Goals.
 
-Per utilizzare la funzionalità descritta in questo articolo, l’organizzazione deve disporre delle seguenti caratteristiche:
+Per ulteriori informazioni sull’accesso agli obiettivi di Workfront, consulta [Requisiti per l’utilizzo degli obiettivi di Workfront](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-* A Pro o superiore [piano Adobe Workfront](https://www.workfront.com/plans).
-* Una licenza Adobe Workfront Obiettivi oltre a una licenza Workfront.
+Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-   Contatta il tuo account manager Workfront per saperne di più su una licenza di Workfront Obiettivi .
+Un amministratore di Workfront o di gruppo può personalizzare i nomi degli oggetti in Obiettivi di Workfront in modo che corrispondano meglio alla terminologia della tua organizzazione.
 
-Per ulteriori informazioni sull&#39;accesso agli obiettivi di Workfront, vedi [Requisiti per l&#39;utilizzo degli obiettivi di Workfront](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Ad esempio, la tua organizzazione potrebbe non utilizzare il concetto di &quot;obiettivi&quot;, ma utilizza il concetto di &quot;obiettivi&quot;. L’amministratore di Workfront o di gruppo può sostituire il nome &quot;obiettivo&quot; con &quot;obiettivo&quot; ovunque in Obiettivi Workfront per tutti o per le persone del gruppo.
 
-Un amministratore di gruppo o di Workfront può personalizzare i nomi degli oggetti in Obiettivi di Workfront in modo che corrispondano meglio alla terminologia aziendale.
-
-Ad esempio, la tua organizzazione potrebbe non utilizzare il concetto di &quot;obiettivi&quot;, ma utilizza il concetto di &quot;obiettivi&quot;. L’amministratore di Workfront o di gruppo può sostituire il nome &quot;obiettivo&quot; con &quot;obiettivo&quot; ovunque in Obiettivi di Workfront per tutti, o per le persone del gruppo.
-
-In qualità di amministratore, puoi personalizzare i seguenti nomi di oggetto Obiettivi di Workfront utilizzando un modello di layout e assegnandolo agli utenti di Obiettivi di Workfront:
+In qualità di amministratore, puoi personalizzare i seguenti nomi di oggetti Workfront Goals utilizzando un modello di layout e assegnandoli agli utenti di Workfront Goals:
 
 * Obiettivo
 * Risultato
