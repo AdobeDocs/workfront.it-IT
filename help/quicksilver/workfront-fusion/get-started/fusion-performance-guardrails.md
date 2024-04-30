@@ -8,7 +8,7 @@ description: Adobe Workfront Fusion richiede una licenza Adobe Workfront Fusion 
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: c35b1bc54719a6c9a056d2ddd08c953c0bae03b7
+source-git-commit: 9e934a81bce632902dda97f8d79f5110df3cce92
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 1%
@@ -25,7 +25,7 @@ L&#39;automazione del lavoro richiede un&#39;elaborazione rapida, quindi [!DNL A
 
 ## Browser
 
-Wokfront Fusion supporta solo browser basati su Chrome.
+* Wokfront Fusion supporta solo browser basati su Chrome.
 
 ## Scenari
 
@@ -75,9 +75,9 @@ Wokfront Fusion supporta solo browser basati su Chrome.
 
 ## Esecuzioni incomplete
 
-Le esecuzioni incomplete sono limitate a una dimensione totale di **500 MB**. Se viene raggiunto il limite di 500 MB, non verranno memorizzate altre esecuzioni incomplete.
+* Le esecuzioni incomplete sono limitate a una dimensione totale di **500 MB**. Se viene raggiunto il limite di 500 MB, non verranno memorizzate altre esecuzioni incomplete.
 
 ## Nuovi tentativi
 
-Quando si utilizza il modulo Interrompi e si specifica la direttiva Riprova, se uno scenario si interrompe consecutivamente 10 volte in un arco temporale di 2 minuti, viene disattivato automaticamente.
+* Quando si utilizza il modulo Interrompi e si specifica la direttiva Riprova, se uno scenario si interrompe consecutivamente 10 volte in un arco temporale di 2 minuti, viene disattivato automaticamente.
 
