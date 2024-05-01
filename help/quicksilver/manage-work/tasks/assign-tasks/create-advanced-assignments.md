@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 * Regola e ridistribuisci il numero di ore assegnate a ciascun assegnatario.
 * Determina quale utente deve essere designato come proprietario o assegnatario principale dell’attività o del problema.
 * Specifica il ruolo che ogni utente svolge quando lavora sull&#39;attività o sul problema.
-* <span class="preview">Sostituisci la tariffa di fatturazione per una mansione.</span>
+  <!--* <span class="preview">Override the billing rate for a job role.</span>-->
 
 >[!NOTE]
 >
@@ -93,7 +93,11 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
 1. Clic **Avanzate**.
 
+   Immagine di esempio nell’ambiente di produzione:
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">Immagine di esempio nell’ambiente di anteprima:</span>
+   ![Fai clic su Avanzate](assets/assignments-box-in-task-header.png)
 
 1. In **Cerca persone, ruolo e team** , inizia a digitare il nome di un utente, una mansione o un team e, quando viene visualizzato nell&#39;elenco a discesa, fai clic sul nome.
 
@@ -113,15 +117,15 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    >Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, consulta [Concedere l’accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
-   >* <span class="preview">Quando si aggiunge un&#39;assegnazione di una mansione, è possibile cercare la mansione o la posizione. Selezionare la mansione predefinita/di sistema per utilizzare la tariffa di fatturazione predefinita per l&#39;assegnazione oppure selezionare una mansione scheda tariffa per sostituire la tariffa a livello di assegnazione. Per ulteriori informazioni sulle schede delle tariffe, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
-   >
-   >
    >* Se un utente, una mansione o un team è stato assegnato prima della disattivazione, rimane assegnato all&#39;elemento di lavoro. In questo caso, consigliamo quanto segue:
    >   
    >   * Riassegnare l&#39;elemento di lavoro alle risorse attive.
    >   * Associare gli utenti di un team disattivato a un team attivo e riassegnare l&#39;elemento di lavoro al team attivo.
-   >   
    >
+
+   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
+    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+    -->
 
 1. Per ogni utente in **Assegnatario** , specificare le informazioni seguenti:
 
@@ -151,15 +155,19 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 
    * **Ruolo dell&#39;assegnatario:** Selezionare il ruolo che l&#39;utente deve utilizzare per l&#39;esecuzione di questa assegnazione.  Il Ruolo principale dell’utente viene visualizzato per impostazione predefinita. Fare clic nella casella Ruolo dell&#39;assegnatario per selezionare un altro ruolo.  Quando prima assegni l’attività o il problema a un ruolo e poi aggiungi un utente che può svolgere quel ruolo come seconda assegnazione, l’elenco degli utenti suggeriti viene filtrato per gli utenti che possono adempiere ai ruoli già assegnati all’attività e al problema.
 
+     Immagine di esempio nell’ambiente di produzione:
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-   <div class="preview">
+     <span class="preview">Immagine di esempio nell’ambiente di anteprima:</span>
+     ![Ruolo dell&#39;assegnatario](assets/advanced-assignments-select-role.png)
 
-   * **Posizione**: la posizione proviene dalla scheda tariffa, se una scheda tariffa allegata al progetto utilizza le posizioni con le mansioni. La posizione non può essere cambiata.
+   <!--<div class="preview">
 
-   * **Tariffe di fatturazione**: la tariffa di fatturazione per un utente deriva dalla tariffa di sistema per l’utente o dalla mansione associata. La tariffa di fatturazione per una mansione deriva dalla tariffa di sistema o dalla tariffa, se al progetto è allegata una tariffa. Le tariffe di fatturazione esistenti non vengono visualizzate in questo campo. Fai clic nel campo per modificare la tariffa di fatturazione per questa assegnazione di attività specifica.
+   * **Location**: The location comes from the rate card, if a rate card attached to the project uses locations with the job roles. The location can't be changed. 
 
-   </div>
+   * **Billing Rates**: The billing rate for a user comes from the system rate for the user or their associated job role. The billing rate for a job role comes from the system rate or from the rate card, if a rate card is attached to the project. Existing billing rates are not displayed in this field. Click in the field to change the billing rate for this specific task assignment.
+
+   </div>-->
 
    * **Tipo di durata**: disponibile solo per le attività. Fai clic sul nome del Tipo di durata e seleziona un Tipo di durata dal menu a discesa. Per informazioni sui tipi di durata, vedi [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -170,14 +178,12 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
    * **Ore pianificate**: quando il tipo di durata è Assegnazione calcolata o Semplice, aggiorna il numero di ore pianificate. Di conseguenza, le percentuali di allocazione o le ore per ogni risorsa vengono distribuite in modo uniforme. Workfront calcola le ore pianificate quando il tipo di durata è Lavoro calcolato o Impegno guidato. Per ulteriori informazioni, consulta [Panoramica sulla durata e sul tipo di durata dell&#39;attività](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
      Immagine di esempio nell’ambiente di produzione:
-
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
      <div class="preview">
 
      Immagine di esempio nell’ambiente di anteprima:
-
-     ![Assegnazioni avanzate](assets/advanced-assignments-location-billing-rates.png)
+     ![Assegnazioni avanzate](assets/advanced-assignments-duration-type-allocations.png)
 
      </div>
 

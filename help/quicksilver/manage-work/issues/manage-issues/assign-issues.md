@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: abe6d1dbd256506fd733fa626ac5907fb9c24d65
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1490'
 ht-degree: 0%
 
 ---
 
 # Assegna problemi
+
+{{highlighted-preview}}
 
 Puoi assegnare i problemi a utenti, ruoli e team per indicare chi è responsabile del completamento dei problemi. Per informazioni generali sull’assegnazione dei problemi, consulta [Panoramica sulla modifica delle assegnazioni dei problemi](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -112,13 +114,17 @@ Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto
 
    Se il problema è già stato assegnato, fai clic sul nome delle assegnazioni correnti.
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![Pulsante Assegna a](assets/assign-to-button-in-header.png)
 
 1. Esegui una delle operazioni seguenti:
 
    * Inizia a digitare il nome di un utente, una mansione o un team che desideri assegnare, quindi fai clic su di esso quando viene visualizzato nell’elenco.
 
+     Immagine di esempio nell’ambiente di produzione:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">Immagine di esempio nell’ambiente di anteprima:</span>
+     ![Ricerca assegnazioni](assets/assignments-expanded-in-task-issue-header.png)
 
    * (Condizionale) Fai clic su uno dei nomi nell’ **Assegnazioni suggerite** list
    * Clic **Assegna a me** per assegnarlo a se stessi
@@ -161,7 +167,11 @@ Per assegnare i problemi in un elenco:
 
    * Fai clic all’interno del **Assegnazioni** e inizia a digitare il nome di un utente attivo, una mansione o un team attivo che desideri assegnare al problema, quindi fai clic su di esso quando viene visualizzato nell’elenco.
 
+     Immagine di esempio nell’ambiente di produzione:
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">Immagine di esempio nell’ambiente di anteprima:</span>
+     ![Campo Assegnazioni](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >

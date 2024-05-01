@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 13a1d9ebee75c468ce55794db130f01ba658f125
+source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1966'
 ht-degree: 1%
 
 ---
@@ -170,7 +170,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Se l’attività o il problema è già assegnato, fai clic sul nome delle assegnazioni.
 
+   Immagine di esempio nell’ambiente di produzione:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">Immagine di esempio nell’ambiente di anteprima:</span>
+   ![Assegnazioni](assets/assignments-box-in-task-header.png)
 
 1. Esegui una delle operazioni seguenti:
 
@@ -204,7 +208,7 @@ A seconda del campo visibile nella visualizzazione, è possibile assegnare le se
 | Campo | Entità assegnate |
 |---|---|
 | **Assegna a** | Assegna un utente |
-| **Assgnt** | Assegna un utente |
+| **Assegnato** | Assegna un utente |
 | **Assegnazioni** | Assegnare utenti, mansioni o team |
 
 Per assegnare le attività in un elenco:
@@ -288,7 +292,7 @@ Per assegnare le attività in un elenco:
    1. Inizia a digitare il nome di un utente, ruolo o team che desideri rimuovere dall’attività, quindi selezionalo quando viene visualizzato nell’elenco e fai clic su **Rimuovi assegnatario** per rimuovere altri assegnatari.
    1. Clic **Rimuovi tutti gli assegnatari esistenti** per rimuovere tutti gli assegnatari da tutte le attività selezionate.
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.
 1. (Facoltativo e condizionale) Quando nell&#39;elenco delle attività vengono visualizzati i campi Assegnato a o Assegnazioni, fare clic in una di queste colonne per un&#39;attività, quindi fare clic su **Icona X** accanto al nome di un assegnatario per rimuoverlo dall&#39;attività.
 
 <!--
