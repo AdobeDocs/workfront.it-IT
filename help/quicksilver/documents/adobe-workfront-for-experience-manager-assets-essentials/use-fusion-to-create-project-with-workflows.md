@@ -6,7 +6,7 @@ description: Se stai creando un progetto tramite Workfront Fusion e desideri inc
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 605065896263ebbb761883689668be181b5012e3
+source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 0%
@@ -28,48 +28,46 @@ Devi avere i seguenti:
 
 <table>
   <tr>
-   <td><strong>Piano Adobe Workfront*</strong>
-   </td>
-   <td>Qualsiasi
-   </td>
+    <td><strong>Piano Adobe Workfront*</strong></td>
+    <td>Qualsiasi</td>
   </tr>
   <tr>
-   <td><strong>Licenze Adobe Workfront*</strong>
-   </td>
-   <td>Richiedi o superiore
-   </td>
+   <td><strong>Licenze Adobe Workfront*</strong></td>
+   <td>Richiedi o superiore</td>
   </tr>
   <tr>
-   <td><strong>Prodotto</strong>
-   </td>
-   <td><b>Adobe Experience Manager<b>:
-   <ul>
-   <li>
-   <p>È necessario disporre di Experience Manager Assets as a Cloud Service o Assets Essentials e aggiungerli al prodotto come utente nell’Admin Console.</p>
-   </li
-   ><li>
-   <p>Devi disporre dell’accesso in scrittura all’archivio in Adobe Experience Manager.</p>
-   </li>
-   </ul>
-   <b>Workfront Fusion</b>:<p>Nuovo:</p>
-   <ul>
-   <li>
-   <p>Seleziona o imposta il piano Workfront: la tua organizzazione deve acquistare Adobe Workfront Fusion.</p>
-   </li>
-   <li> 
-   <p>Ultimate Workfront Plan: Workfront Fusion è incluso.</p>
-   </li>
-   </ul>
-   <p>Oppure</p>
-   <p>Corrente: la tua organizzazione deve acquistare Adobe Workfront Fusion.</p>
+   <td><strong>Prodotto</strong></td>
+   <td>
+     <p><b>Adobe Experience Manager:</b></p>
+     <ul>
+       <li>
+         <p>È necessario disporre di Experience Manager Assets as a Cloud Service o Assets Essentials e aggiungerli al prodotto come utente nell’Admin Console.</p>
+       </li>
+       <li>
+        <p>Devi disporre dell’accesso in scrittura all’archivio in Adobe Experience Manager.</p>
+       </li>
+     </ul>
+     <p><b>Workfront Fusion:</b></p>
+     <p>Nuovo:</p>
+     <ul>
+       <li>
+         <p>Seleziona o imposta il piano Workfront: la tua organizzazione deve acquistare Adobe Workfront Fusion.</p>
+       </li>
+       <li> 
+         <p>Ultimate Workfront Plan: Workfront Fusion è incluso.</p>
+       </li>
+     </ul>
+     <p>Oppure</p>
+     <p>Corrente: la tua organizzazione deve acquistare Adobe Workfront Fusion.</p>
    </td>
   </tr>
   <tr>
    <td><strong>Configurazioni del livello di accesso*</strong>
    </td>
    <td>Modifica accesso ai documenti
-   <p>
-   <strong>Nota: </strong>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <strong>Creare o modificare livelli di accesso personalizzati</strong>.
+     <p>
+       <strong>Nota: </strong>Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <strong>Creare o modificare livelli di accesso personalizzati</strong>.
+     </p>
    </td>
   </tr>
 </table>
