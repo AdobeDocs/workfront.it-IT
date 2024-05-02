@@ -8,9 +8,9 @@ description: Questo articolo include informazioni sull’accesso e le autorizzaz
 author: Becky
 feature: Workfront Fusion
 exl-id: 0370fa9d-6680-4724-a431-8df884ce4f9a
-source-git-commit: 2169ce1dd7fe48c26b4a80a28b5cd7b0bf4e2617
+source-git-commit: cb093fcecd5defd9dbdbb955ad5158d4a794f005
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '533'
 ht-degree: 1%
 
 ---
@@ -89,66 +89,52 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
  <tbody> 
   <tr> 
    <td> <p>Accedi a tutti i team</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Installare l’app per l’organizzazione</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Elimina organizzazione</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Modifica organizzazione</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Gestire gli utenti dell’organizzazione</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span></td> 
+   <td>✓ </td> 
+   <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Visualizza organizzazione</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Process payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td>✓ </td> 
+    <td>✓ </td> 
     <td> </td> 
     <td> </td> 
    </tr>
   --> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>List payments</p> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+    <td>✓ </td> 
+    <td>✓ </td> 
     <td> </td> 
     <td> </td> 
    </tr>
   --> 
   <tr> 
    <td> <p>Aggiungi team</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr>
@@ -179,101 +165,101 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">Gestire le esecuzioni incomplete</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elencare esecuzioni incomplete</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Aggiungi scenari</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elimina scenari</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Modifica scenari</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Sfoglia la cronologia di esecuzione dello scenario</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Ricevi notifiche scenario</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Reimposta statistiche</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elencare scenari</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Modifica modulo di pianificazione scenario</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Scenari iniziali</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Scenari di interruzione</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Eseguire manualmente gli scenari</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Visualizza scenari</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    </tr> 
  </tbody> 
 </table>
@@ -298,31 +284,31 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">Aggiungere connessioni</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elimina connessioni</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Modificare le connessioni</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elenca connessioni</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -347,36 +333,36 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">Aggiungi webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elimina webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Modifica webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elencare webhook</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Archivi dati
+### Archivi di dati
 
 <table style="table-layout:auto"> 
  <col> 
@@ -396,38 +382,38 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">Aggiungi archivi dati</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elimina archivi dati</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Modifica archivi dati</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elencare archivi dati</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Sfoglia archivi dati</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -452,80 +438,31 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">Aggiungere strutture di dati</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Eliminare le strutture di dati</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Modificare le strutture di dati</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elencare strutture di dati</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Dispositivi
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Admin]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Member]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Monitoring]</p> </th> 
-   <th> <p style="text-align: left;">[!UICONTROL Operator]</p> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p style="text-align: left;">Aggiungi dispositivi</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">Elimina dispositivi</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">Modifica dispositivi</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p style="text-align: left;">Elenca dispositivi</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -550,31 +487,31 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">Aggiungi chiavi</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elimina chiavi</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Modifica chiavi</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Tasti elenco</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -599,38 +536,38 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">Aggiungi modelli</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elimina modelli</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Modifica modelli</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Modelli di elenco</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Visualizza modelli</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
@@ -655,31 +592,31 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
  <tbody> 
   <tr> 
    <td> <p style="text-align: left;">Aggiungi team</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Elimina team</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Aggiungi e modifica utente del team</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p style="text-align: left;">Visualizza team</p> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td><span style="font-family: 'Wingdings'">ü</span> </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
+   <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
