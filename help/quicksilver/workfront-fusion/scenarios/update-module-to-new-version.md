@@ -6,7 +6,7 @@ title: Aggiornare un modulo a una nuova versione in un [!DNL Adobe Workfront Fus
 description: Poiché le applicazioni a cui Workfront Fusion si connette possono aggiornare o rilasciare una nuova versione, è talvolta necessario che Fusion rilasci moduli aggiornati per tali applicazioni.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 342f6993e6992ce0f92a706c75e9de6e3e835509
+source-git-commit: 787329beb0e3a44bc25d59184d35fa82841ebc4c
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -29,6 +29,9 @@ Puoi aggiornare il modulo senza creare un nuovo scenario.
 1. Configura il modulo con le stesse impostazioni del modulo esistente.
 1. Connetti il nuovo modulo allo scenario nello stesso punto del modulo esistente.
 1. Elimina il modulo precedente.
+
+
+
 
 
 
