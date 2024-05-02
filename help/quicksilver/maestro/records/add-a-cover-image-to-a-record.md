@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 0%
@@ -93,12 +93,12 @@ Considera quanto segue:
 * Un&#39;immagine di copertina è univoca per un record e non si applica a tutti i record dello stesso tipo.
 * È possibile aggiungere solo file di immagine come immagini di copertina.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* È possibile aggiungere un&#39;immagine di copertina ai singoli record dalla casella del record in qualsiasi visualizzazione o dalla pagina del record.
+* È possibile aggiungere un&#39;immagine di copertina ai singoli record dall&#39;anteprima del record in qualsiasi visualizzazione o dalla pagina del record.
 * Non è possibile aggiungere immagini di copertina in linea da nessuna visualizzazione di record.
 
 ## Aggiungere una copertina a un record
 
-È possibile personalizzare un record aggiungendo un&#39;immagine di copertina nella parte superiore della casella del record o della pagina.
+È possibile personalizzare un record aggiungendo un&#39;immagine di copertina nella parte superiore dell&#39;anteprima del record o della pagina.
 
 {{step1-to-maestro}}
 
@@ -116,7 +116,7 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
    Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record.
 
-   La casella del record viene visualizzata nella vista.
+   L&#39;anteprima del record viene visualizzata nella vista.
 
    ![](assets/details-box.png)
 
@@ -124,18 +124,18 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
    >
    >È possibile visualizzare **Apri dettagli** a sinistra del campo Nome di un record in una visualizzazione tabella solo quando il campo Nome è un campo primario.
 
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro della casella record per aprire la pagina del record in una nuova scheda.
+1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
    Viene visualizzata la pagina del record.
 
    ![](assets/details-page.png)
 
-1. Nella casella o nella pagina del record fare clic su **Aggiungi copertina**. <!--check the casing here; I logged a bug for this-->
+1. Nell&#39;anteprima del record o nella pagina, fare clic su **Aggiungi copertina**. <!--check the casing here; I logged a bug for this-->
 Il **Registra copertina** viene visualizzata la casella.
 
 1. Clic **Seleziona per caricare** e cercare un&#39;immagine nel computer per selezionarla, aggiungerla, quindi fare clic su **Usa immagine**.
 
-   L’immagine viene caricata nella parte superiore della casella o della pagina di record e le modifiche vengono salvate automaticamente.
+   L’immagine viene caricata nella parte superiore dell’anteprima del record o della pagina e le modifiche vengono salvate automaticamente.
 
    ![](assets/record-page-with-cover-image.png)
 

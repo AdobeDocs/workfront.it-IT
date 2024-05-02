@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
@@ -92,11 +92,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Se si dispone delle autorizzazioni necessarie per l&#39;area di lavoro, è possibile modificare i record creati o quelli creati da altri utenti.
 * È possibile modificare i campi record dalle seguenti aree:
 
-   * Casella del record in una visualizzazione record
+   * Anteprima del record in una visualizzazione record
    * Pagina del record
    * In linea, in una vista a tabella.
 
-<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
+* Quando un utente modifica un record in una visualizzazione, le modifiche sono immediatamente visibili in tutte le visualizzazioni e le pagine dei record a tutti gli altri utenti.
 
 * I seguenti tipi di campi vengono aggiornati automaticamente e non è possibile modificarne i valori manualmente:
    * Campi collegati da altri record
@@ -113,7 +113,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 È possibile modificare un record dalle seguenti aree:
 
 * [Dalla vista tabella di un tipo di record](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Dalla casella del record in una visualizzazione](#edit-a-record-from-the-records-box-in-a-view)
+* [Dall&#39;anteprima del record in una visualizzazione](#edit-a-record-from-the-records-box-in-a-view)
 * [Dalla pagina del record](#edit-a-record-from-the-records-page)
 
 ### Modificare un record in linea nella vista tabella di un tipo di record
@@ -188,7 +188,7 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
 1. (Facoltativo) Aggiungi una miniatura a un record. Per informazioni, consulta [Aggiungere una miniatura a un record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Modificare un record dalla casella del record in una visualizzazione
+### Modificare un record dall&#39;anteprima del record in una visualizzazione
 
 {{step1-to-maestro}}
 
@@ -204,7 +204,7 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
    Oppure
 
-   Nella vista tabella, fare clic su **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record. La casella del record viene visualizzata nella vista.
+   Nella vista tabella, fare clic su **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record. L&#39;anteprima del record viene visualizzata nella vista.
 
    ![](assets/details-box.png)
 
@@ -212,7 +212,7 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
    >
    >È possibile visualizzare **Apri dettagli** a sinistra del campo Nome di un record in una visualizzazione tabella solo quando il campo Nome è un campo primario.
 
-1. Inizia a modificare le informazioni del campo nella casella del record.
+1. Inizia a modificare le informazioni del campo nell’anteprima del record.
 
    >[!TIP]
    >
@@ -225,7 +225,7 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
    Workfront salva automaticamente le modifiche.
 
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro della casella del record per aprire la pagina del record in una nuova scheda. Continua a modificare il record come descritto in [Modificare un record dalla pagina del record](#edit-a-record-from-the-records-page) in questo articolo.
+1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continua a modificare il record come descritto in [Modificare un record dalla pagina del record](#edit-a-record-from-the-records-page) in questo articolo.
 
 ### Modificare un record dalla pagina del record
 
@@ -241,7 +241,7 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
 1. Esegui una delle operazioni seguenti:
 
-   * Da qualsiasi visualizzazione, accedere alla casella del record, come descritto nella [Modificare un record dalla casella del record in una visualizzazione](#edit-a-record-from-the-records-box-in-a-view) in questo articolo, quindi fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro della casella record per aprire la pagina del record in una nuova scheda.
+   * Da qualsiasi visualizzazione, accedere all&#39;anteprima del record, come descritto nella [Modificare un record dall&#39;anteprima del record in una visualizzazione](#edit-a-record-from-the-records-preview-in-a-view) in questo articolo, quindi fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
    * Dalla sezione **Tabella** , passa il puntatore sul nome di un record, quindi fai clic sul pulsante **Altro** menu ![](assets/more-menu.png), quindi fai clic su **Visualizza**
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
-source-wordcount: '5636'
+source-wordcount: '5725'
 ht-degree: 0%
 
 ---
@@ -47,8 +47,19 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
+## Settimana del 29 aprile 2029
+
+### Aggiornamenti in tempo reale nella casella e nella pagina dei dettagli dei record dopo la modifica dei record nella vista Tabella
+
+Produzione: 2 maggio 2024
+
+Anteprima: da determinare
+
+Quando un utente aggiorna le informazioni di un record nella vista a tabella, gli altri utenti possono visualizzare le informazioni aggiornate nella casella dei dettagli del record (all’interno di una vista) o nella pagina in tempo reale. In questo modo tutti gli utenti visualizzano le informazioni aggiornate contemporaneamente, in sincronia con il momento in cui si verificano le modifiche.
+
+Per informazioni sulla modifica dei record, vedere [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
+
 <!--
-## Week of April 29, 2029
 
 ### Add sections to the record's page 
 
@@ -77,16 +88,6 @@ If any user changes any field configuration (name, description, list of options 
 >There is no notification to other users that the field configuration has changed.  
 
 For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
-### Real-time updates on the record details box and page after editing records in the table view
-
-Production: <date> 
-
-Preview: To be determined.  
-
-When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
-
-For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Enable Workfront Planning notifications  
 
@@ -144,7 +145,7 @@ Produzione: 4 aprile 2024
 
 Anteprima: da determinare
 
-In qualità di responsabile dell&#39;area di lavoro, ora puoi riordinare i campi elencati nella pagina o nella casella del record. L&#39;aggiornamento dell&#39;ordine dei campi modifica l&#39;ordine dei campi di tutti i record dello stesso tipo, per tutti gli utenti che visualizzano la pagina o la casella record.
+In qualità di responsabile dell&#39;area di lavoro, ora puoi riordinare i campi elencati nella pagina del record o nell&#39;anteprima. L&#39;aggiornamento dell&#39;ordine dei campi modifica l&#39;ordine dei campi di tutti i record dello stesso tipo, per tutti gli utenti che visualizzano la pagina record o l&#39;anteprima record.
 
 Per ulteriori informazioni, consulta [Gestire la pagina record](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -155,7 +156,7 @@ Produzione: 4 aprile 2024
 
 Anteprima: da determinare
 
-Durante la gestione delle pagine di record, è ora possibile aggiungere, riposizionare e sostituire un&#39;immagine di copertina in una pagina o in una casella di record, per arricchire la presentazione del record e il coinvolgimento delle parti interessate. Le immagini di copertina sono visibili a tutti gli utenti che visualizzano i record.
+Durante la gestione delle pagine di record, è ora possibile aggiungere, riposizionare e sostituire un&#39;immagine di copertina in una pagina di record o in anteprima, per arricchire la presentazione del record e il coinvolgimento delle parti interessate. Le immagini di copertina sono visibili a tutti gli utenti che visualizzano i record.
 
 Per ulteriori informazioni, consulta [Gestire la pagina record](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
@@ -219,15 +220,15 @@ Anteprima: da determinare
 
 È ora possibile filtrare le informazioni nella vista calendario. Per ulteriori informazioni, consulta [Gestire la visualizzazione calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
-### Casella con i dettagli del record aggiunti alla timeline e alle visualizzazioni del calendario
+### Anteprima con i dettagli dei record aggiunti alla timeline e alle visualizzazioni del calendario
 
 Produzione: 19 marzo 2024
 
 Anteprima: da determinare
 
-È ora possibile accedere a una casella con i dettagli dei record dalla vista timeline e calendario. È possibile modificare i record nella casella del record all&#39;interno delle visualizzazioni Timeline e Calendario.
+È ora possibile accedere all’anteprima con i dettagli dei record dalle viste timeline e calendario. È possibile modificare i record nella casella di anteprima del record all&#39;interno delle visualizzazioni Timeline e Calendario.
 
-Dalla casella del record è possibile aprire la pagina del record in una nuova scheda del browser.
+Dall&#39;anteprima del record è possibile aprire la pagina di registrazione in una nuova scheda del browser.
 
 Per ulteriori informazioni, consulta [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
 
@@ -247,7 +248,7 @@ Produzione: 14 marzo 2024
 
 Anteprima: da determinare
 
-Per semplificare la visualizzazione di informazioni aggiuntive sui record quando si utilizza la visualizzazione Tabella, è stata introdotta una nuova casella Dettagli che consente di visualizzare rapidamente i dettagli del record. Di seguito sono riportate alcune delle informazioni incluse in questo riquadro:
+Per semplificare la visualizzazione di informazioni aggiuntive sui record quando si utilizza la vista a tabella, è stata introdotta una nuova anteprima Dettagli che consente di visualizzare rapidamente i dettagli del record. Di seguito sono riportate alcune delle informazioni incluse nell&#39;anteprima del record:
 
 * Panoramica dei dettagli dei record rilevanti
 

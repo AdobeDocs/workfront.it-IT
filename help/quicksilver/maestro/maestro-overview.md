@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: b11ab1dd0fdcc22cf2a99751d0aa4979556ec3fc
+source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
 workflow-type: tm+mt
 source-wordcount: '1799'
 ht-degree: 2%
@@ -78,7 +78,7 @@ Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [Attività s
 | Collegare i record di Workfront Planning a progetti, programmi, portafogli, società e gruppi di Workfront | ✓ |                                 |                  |
 | Collegare i record di Workfront Planning alle risorse Adobe Experience Manager | ✓ |                                  |                 |
 | Registra pagina con informazioni dettagliate | ✓ |                                  |                  |
-| Aggiornare il layout della pagina del record |                               | ✓ |                  |
+| Aggiornare il layout della pagina del record | ✓ |                                 |                  |
 | Condividere le aree di lavoro | ✓ | |  |
 | Condividere le visualizzazioni | ✓ | |  |
 | Visualizzazioni duplicate | ✓ | |  |
