@@ -6,13 +6,14 @@ description: Informazioni sul programma beta per il prossimo strumento Reporting
 author: Nolan
 feature: Product Announcements
 hidefromtoc: true
-source-git-commit: 2fa10260b54e4ba2e9ab661ac5a4985a91e69191
+hide: true
+exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1061'
 ht-degree: 1%
 
 ---
-
 
 # Reporting Canvas beta: panoramica
 

@@ -1,21 +1,81 @@
 ---
-product-area: dashboards
-navigation-topic: creating-and-managing-dashboards
+product-area: Canvas Dashboards
+navigation-topic: canvas-dashboards-beta
 title: Informazioni sulla versione beta delle dashboard di Canvas
 description: Informazioni generali sulla versione beta di Canvas Dashboards
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e103c41d225c3bcc2699da24b0c6733c09b6637
+exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
+source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
 workflow-type: tm+mt
-source-wordcount: '15'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
 
 # Informazioni sulla versione beta delle dashboard di Canvas
+
+Le dashboard di Canvas sono una funzione attualmente in fase di sviluppo che consente di visualizzare facilmente i dati di Adobe Workfront aggiungendo vari tipi di rapporti a un’area di lavoro personalizzabile. Tieni presente che, nonostante la tua partecipazione durante la fase di test della versione beta, alcune parti della funzione potrebbero non essere complete o non funzionare come previsto. Invia un feedback relativo alla tua esperienza seguendo le istruzioni nel [Fornisci feedback](#provide-feedback) sezione successiva.
+
+Per informazioni di base sull’utilizzo delle dashboard di Canvas, consulta [Introduzione ai dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Per un elenco di tutta la documentazione relativa alle dashboard di Canvas, consulta [Panoramica delle dashboard di Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
+**Pianificazione beta:**
+
+* Data di inizio della versione beta chiusa - 2 maggio 2024
+* Data di inizio della versione beta aperta - TBA
+* Data di rilascio pianificata - TBA
+
+## Partecipare alla versione beta
+
+### Iscriviti
+
+Per iscriverti alla versione beta:
+
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Dashboard**.
+
+1. Fai clic su **Partecipa alla versione beta delle dashboard di Canvas** pulsante beta nell’angolo superiore destro della pagina.
+
+1. Leggi i termini, quindi fai clic su **Accetta**. Ora sei iscritto alla versione beta; tieni presente, tuttavia, che ci vorranno alcuni minuti perché i dati Workfront diventino completamente accessibili nelle dashboard di Canvas.
+
+### Fornisci feedback
+
+Il feedback è apprezzato durante lo sviluppo di questo strumento nel corso della versione beta. Segui le istruzioni qui sotto per condividere la tua esperienza con noi.
+
+1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Dashboard**.
+
+1. Nel pannello a sinistra, fai clic su **Dashboard Canvas**.
+
+1. Fai clic su **Invia feedback** nell’angolo in basso a destra della pagina, quindi inserisci il tuo feedback nel modulo visualizzato e fai clic su **Invia**.
+
+## Funzioni pianificate
+
+Di seguito è riportato un elenco dei tipi di rapporto attualmente supportati nella versione beta, nonché di altre funzioni che prevediamo di aggiungere alle dashboard di Canvas nel corso della versione beta e oltre.
+
+### Tipi di rapporti supportati
+
+* Rapporti esistenti (rapporti creati utilizzando lo strumento di reporting corrente)
+* Rapporti grafico
+* Rapporti KPI
+* Rapporti sulle tabelle
+* Rapporti approvazioni in sospeso
+
+### Funzioni in fase di sviluppo
+
+* Rapporti tabella matrice
+* Fogli di lavoro
+* Contenuto web incorporato
+* Rapporti Bacheche
+* Filtri del dashboard
+* Caratteri jolly basati su data e utente per i filtri
+
+### Funzioni future della roadmap
+
+* Richieste a livello di dashboard
+* Supporto valutario
+
+
 
 <!--
 
