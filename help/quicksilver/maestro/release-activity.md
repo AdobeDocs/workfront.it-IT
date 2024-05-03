@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: b9e8669c81891eeaa4c97bf8ab3ce72c02b2f62a
 workflow-type: tm+mt
-source-wordcount: '5725'
+source-wordcount: '5784'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,14 @@ Anteprima: da determinare
 Quando un utente aggiorna le informazioni di un record nella vista a tabella, gli altri utenti possono visualizzare le informazioni aggiornate nella casella dei dettagli del record (all’interno di una vista) o nella pagina in tempo reale. In questo modo tutti gli utenti visualizzano le informazioni aggiornate contemporaneamente, in sincronia con il momento in cui si verificano le modifiche.
 
 Per informazioni sulla modifica dei record, vedere [Modifica record](/help/quicksilver/maestro/records/edit-records.md).
+
+### Aggiornamenti in tempo reale nella vista calendario dopo la modifica dei record
+
+Produzione: 3 maggio 2024
+
+Anteprima: da determinare.
+
+Quando un utente aggiorna le informazioni di un record, gli altri utenti possono visualizzare le informazioni aggiornate nella visualizzazione calendario del record in tempo reale. In questo modo tutti gli utenti visualizzano le informazioni aggiornate contemporaneamente, in sincronia con il momento in cui si verificano le modifiche.
 
 <!--
 
