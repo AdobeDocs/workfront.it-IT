@@ -7,9 +7,10 @@ description: Un campo di ricerca esterna in un modulo personalizzato chiama un�
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: a082f010dbd78235aaad41a80d87d772ca77ff89
+exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
+source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Un campo di ricerca esterna in un modulo personalizzato chiama un’API esterna 
 
 Questo articolo fornisce esempi sull’utilizzo del campo Ricerca esterna per richiamare la stessa istanza di Workfront o un’API pubblica. È inoltre possibile utilizzare la funzione di ricerca esterna per comunicare con un sistema esterno come Jira, Salesforce o ServiceNow.
 
-Per ulteriori informazioni sull’aggiunta di un campo di ricerca esterna a un modulo personalizzato e ulteriori definizioni dei componenti di ricerca esterna, vedi [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+I campi di ricerca esterna sono disponibili solo nel nuovo progettista di moduli, non nel generatore di moduli legacy. Per ulteriori informazioni sull’aggiunta di un campo di ricerca esterna a un modulo personalizzato e ulteriori definizioni dei componenti di ricerca esterna, vedi [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Impostare un campo di ricerca esterna per la stessa istanza di Workfront
 
@@ -127,4 +128,3 @@ Elenca tutti i paesi: <https://api.first.org/data/v1/countries>
    ![Modulo personalizzato con campo di ricerca esterno](assets/external-lookup-countries-example1.png)
 
    ![Opzioni di ricerca esterna per un paese in base all’area geografica](assets/external-lookup-countries-example2.png)
-
