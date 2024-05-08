@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1269'
 ht-degree: 1%
 
 ---
@@ -146,7 +146,7 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 
 1. Aggiorna le seguenti informazioni:
 
-   * Sostituire &quot;Tipo di record operativo senza titolo&quot; con il nome del tipo di record futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
+   * Sostituire &quot;Tipo di record senza titolo&quot; con il nome del tipo di record futuro. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Descrizione**: aggiungi ulteriori informazioni sul tipo di record.
    * Selezionare un colore e una forma per l&#39;icona associata al tipo di record. Effettua le seguenti operazioni:
       * Selezionare un colore per identificare il nuovo tipo di record. Colore dell&#39;icona del tipo di record. Il grigio è selezionato per impostazione predefinita.
@@ -155,7 +155,10 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
 1. Fai clic su **Crea**.
 
    La scheda del tipo di record viene aggiunta alla sezione e all&#39;area di lavoro selezionate.
-Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
+Sulla scheda viene visualizzata la descrizione del tipo di record.
+
+   ![](assets/record-type-card-with-description.png)
+
 1. (Facoltativo) Passa il puntatore del mouse sulla scheda del tipo di record e fai clic sul pulsante **Altro** icona ![](assets/more-menu.png) nell’angolo superiore destro, quindi fai clic su **Modifica** per modificare le informazioni sul tipo di record.
 1. (Facoltativo) Fare clic sulla scheda tipo di record per aprire la pagina tipo di record.
 
@@ -188,9 +191,9 @@ Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
 
 1. (Facoltativo) Fare clic sulla freccia rivolta a sinistra a sinistra del nome del tipo di record nell&#39;intestazione per tornare all&#39;area di lavoro selezionata.
 
-   Nella scheda del tipo di record viene visualizzato il numero di campi e connessioni contenuti nel tipo di record.
+1. (Facoltativo) Dall’area di lavoro, fai clic su una scheda del tipo di record e tieni premuto per trascinarla in un punto desiderato o per spostarla in un’altra sezione.
 
-   ![](assets/campaign-card-with-fields-and-connections-highlighted.png)
+   Le modifiche vengono salvate automaticamente.
 
    Per ulteriori informazioni sull&#39;aggiunta di record, l&#39;eliminazione o la modifica di tipi di record o l&#39;aggiornamento della visualizzazione nella pagina del tipo di record, vedere gli articoli seguenti:
 
@@ -198,10 +201,6 @@ Sulla scheda viene visualizzato il numero di campi contenuti nel tipo di record.
    * [Elimina tipi di record](../architecture/delete-record-types.md)
    * [Modifica tipi di record](../architecture/edit-record-types.md)
    * [Gestire le visualizzazioni record](../views/manage-record-views.md)
-
-1. (Facoltativo) Dall’area di lavoro, fai clic su una scheda del tipo di record e tieni premuto per trascinarla in un punto desiderato o per spostarla in un’altra sezione.
-
-   Le modifiche vengono salvate automaticamente.
 
 ## Creare tipi di record importando un file Excel o CSV
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6bea34403e45c2b50986f79272f7a46959d67c6d
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 0%
@@ -134,9 +134,9 @@ Verrà aperta l&#39;area Aree di lavoro di Workfront Planning.
 
    Per informazioni, consulta [Elimina tipi di record](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
-1. (Facoltativo) Fai clic sul nome di una vista nelle schede della vista per modificarne una esistente oppure fai clic su **+ Visualizza** per creare una vista.
+1. (Facoltativo) Fai clic su una scheda del tipo di record per trascinarla e rilasciarla in un nuovo punto. È possibile trascinare tipi di record da una sezione dell&#39;area di lavoro a un&#39;altra.
 
-   Per informazioni, consulta [Gestire le visualizzazioni record](/help/quicksilver/maestro/views/manage-record-views.md).
+   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Facoltativo) Fai clic su **Condividi** nell’angolo superiore destro dell’area di lavoro per condividerla con altri utenti.
 

@@ -1,29 +1,29 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Visualizzare tutti gli aggiornamenti in un rapporto Nota
-description: Visualizzare tutti gli aggiornamenti in un rapporto Nota
+title: Visualizzare tutti gli aggiornamenti in un report Nota
+description: Visualizzare tutti gli aggiornamenti in un report Nota
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 923c9e25fbd73c9d6a6a20436333c6e7969e9538
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 1%
 
 ---
 
-# Visualizzare tutti gli aggiornamenti in un rapporto Nota
+# Visualizzare tutti gli aggiornamenti in un report Nota
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
 -->
 
-L’area Aggiornamenti di un oggetto visualizza per impostazione predefinita un numero massimo di 200 aggiornamenti. Per visualizzare tutti gli aggiornamenti immessi da uno degli utenti per un oggetto, è possibile creare un rapporto Nota che visualizzi tutti gli aggiornamenti.
+Per impostazione predefinita, nell&#39;area Aggiornamenti di un oggetto viene visualizzato un numero massimo di 200 aggiornamenti. Per visualizzare tutti gli aggiornamenti inseriti da un utente per un oggetto, è possibile creare un report di note che visualizza tutti gli aggiornamenti.
 
 >[!NOTE]
 >
->È possibile creare un rapporto per visualizzare gli aggiornamenti sugli oggetti in Anteprima con il rapporto di immissione sul giornale. Per ulteriori informazioni, consulta [Rapporto sull’area Aggiornamenti](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>È possibile creare un report per visualizzare gli aggiornamenti sugli oggetti in Anteprima con il report Voce diario. Per ulteriori informazioni, consulta [Rapporto sulla sezione Aggiornamenti](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Requisiti di accesso
 
@@ -36,49 +36,58 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>piano Adobe Workfront*</strong></td> 
+   <td role="rowheader"><strong>piano Adobe Workfront</strong></td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Licenza Adobe Workfront*</strong></td> 
-   <td> <p>Piano</p> </td> 
+   <td> <p>Nuovo: Standard </p>
+   <p>Corrente: Piano</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Configurazioni a livello di accesso*</strong></td> 
+   <td role="rowheader"><strong>Configurazioni del livello di accesso</strong></td> 
    <td> <p>Modifica accesso a:</p> 
     <ul> 
      <li> <p>Creare rapporti, dashboard e calendari</p> </li> 
-     <li> <p>Creare filtri, visualizzazioni e gruppi</p> </li> 
-    </ul> <p>Nota: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso.<br>Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+     <li> <p>Creare filtri, visualizzazioni e raggruppamenti</p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Autorizzazioni oggetto</strong></td> 
-   <td> <p>Visualizza</p> <p>Nota: Se non si dispone dell'autorizzazione Visualizza o superiore per un oggetto, le informazioni relative a tale oggetto non vengono visualizzate nel rapporto.</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedi <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l’accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Visualizza</p> <p><b>NOTA</b></p>
+   <p>Se non si dispone dell'autorizzazione di visualizzazione o di un'autorizzazione successiva per un oggetto, le informazioni relative a tale oggetto non vengono visualizzate nel report.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+*Per informazioni, vedere [Requisiti di accesso in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Creare un rapporto sulle note
+## Creare un rapporto di nota
 
-La creazione di un rapporto per Note per qualsiasi oggetto è identica, indipendentemente dall&#39;oggetto.
+La creazione di un report per Notes per qualsiasi oggetto è identica, indipendentemente dall&#39;oggetto.
 
-Ad esempio, per creare un rapporto Nota per tutte le note di un progetto:
+Ad esempio, per creare un rapporto Note per tutte le note di un progetto:
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront.
 
-1. Fai clic su **Rapporti**.
-1. Fai clic su **Nuovo rapporto**, quindi scegli **Nota**.
+1. Clic **Rapporti**.
+1. Clic **Nuovo rapporto**, quindi scegli **Nota**.
 
-1. (Facoltativo) Fai clic su **Viste**, quindi **Aggiungi colonna** per aggiungere **Nome** del **Progetto** nella vista del rapporto. 
+1. (Facoltativo) Fai clic su **Visualizzazioni**, quindi **Aggiungi colonna** per aggiungere **Nome** del **Progetto** a parere della relazione. 
 
-1. (Facoltativo) Fai clic su **Raggruppamenti**, quindi **Aggiungi raggruppamento** per raggruppare **Nome progetto**, se esegui il reporting per più progetti contemporaneamente.\
+1. (Facoltativo) Fai clic su **Raggruppamenti**, quindi **Aggiungi raggruppamento** per eseguire il raggruppamento in base al **Nome progetto**, se esegui rapporti su più progetti contemporaneamente.\
    In questo modo le note vengono raggruppate in base ai rispettivi progetti, facilitando la lettura del rapporto. 
 
-1. (Facoltativo) Fai clic su **Filtri,** then **Aggiungere una regola filtro** per filtrare un solo progetto o progetti specifici.
+1. (Facoltativo) Fai clic su **Filtri,** allora **Aggiungere una regola di filtro**.
+1. Aggiungi un filtro per **Nota** > **Testo nota** > **Non è vuoto**.
 
-1. (Condizionale e opzionale) Imposta il **Nome progetto** come **Uguale** al nome del progetto per il quale desideri visualizzare gli aggiornamenti.  
+   ![](assets/note-note-text-not-blank-filter.png)
 
-1. Fai clic su **Salva e chiudi**.\
-   Tutti gli aggiornamenti immessi sul progetto da tutti gli utenti con autorizzazioni per almeno visualizzare il progetto vengono visualizzati nel rapporto.
+   >[!TIP]
+   >
+   >   Se un campo del progetto è stato aggiornato ma non è stata aggiunta alcuna nota al momento dell’aggiornamento, il **Testo nota** dell’aggiornamento viene visualizzato come **(Nessun testo aggiunto da aggiornare)**.
+
+
+1. (Facoltativo) Aggiungi un altro filtro per **Progetto** > **Nome** > **È uguale a** e aggiungere uno o più nomi di progetto per i quali si desidera visualizzare le note.
+1. Fai clic su **Salva e Chiudi**.\
+   Nel rapporto vengono visualizzati tutti gli aggiornamenti immessi nel progetto da tutti gli utenti con autorizzazioni almeno per Visualizza il progetto.

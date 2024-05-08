@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1441'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,7 @@ Per informazioni sulla conversione dei problemi in progetti, consulta [Convertir
 
 ## Considerazioni durante la conversione dei problemi
 
+* Quando si convertono i problemi in attività o progetti, la maggior parte delle informazioni relative al problema viene trasferita all&#39;attività o al progetto, salvo diversa indicazione nel presente articolo.
 * L’amministratore di Workfront o l’amministratore di gruppo ha già impostato le preferenze per ciò che accade a un problema, la sua risoluzione e l’accesso del suo contatto principale quando viene convertito in un progetto o un’attività, come descritto in [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront rimuove tutte le approvazioni associate a problemi durante la conversione.
 * Workfront sovrascrive l’oggetto risolutivo del problema quando lo si converte in un’attività o in un progetto. La nuova attività o il nuovo problema diventa il nuovo oggetto risolutivo del problema dopo la conversione.
@@ -76,7 +77,9 @@ Nella tabella seguente sono elencate le informazioni sul progetto e se viene tra
   </tr> 
   <tr> 
    <td>Priorità</td> 
-   <td>Trasferimenti dal modello. </td> 
+   <td><p>Trasferimenti dal problema.</p>
+   <p>Quando utilizzi un modello per il progetto convertito, puoi modificare manualmente la Priorità. Se scegli di non modificarlo, la priorità del problema viene trasferita al progetto. 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
@@ -104,11 +107,11 @@ Nella tabella seguente sono elencate le informazioni sul progetto e se viene tra
   </tr> 
   <tr> 
    <td>Portfolio</td> 
-   <td>Trasferimenti dal modello. In caso contrario, il campo è vuoto.</td> 
+   <td>Trasferimenti dal modello. In caso contrario, il campo è vuoto.</td> 
   </tr> 
   <tr> 
    <td>Programma</td> 
-   <td>Trasferimenti dal modello. In caso contrario, il campo è vuoto.</td> 
+   <td>Trasferimenti dal modello. In caso contrario, il campo è vuoto.</td> 
   </tr> 
   <tr> 
    <td>Gruppo</td> 
@@ -157,7 +160,7 @@ Nella tabella seguente sono elencate le informazioni sul progetto e se viene tra
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
@@ -239,8 +242,8 @@ La tabella seguente illustra quali campi dei problemi sono visibili dai progetti
 | Campi problema | Campo progetto o attività | Elenco o rapporto del progetto | Area Dettagli progetto | Elenco o rapporto attività | Area Dettagli attività |
 |---|---|---|---|---|---|
 | Nome Issue | Nome problema convertito | ✔ | ✔ | ✔ | ✔ |
-| Contatto principale | Nome del mittente del problema convertito | ✔ | `✔` | ✔ |   |
-| Data inserimento | Data voce problema convertito | ✔ |   | ✔ |   |
+| Contatto principale | Nome del mittente del problema convertito | ✔ | `✔` | ✔ |  |
+| Data inserimento | Data voce problema convertito | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]

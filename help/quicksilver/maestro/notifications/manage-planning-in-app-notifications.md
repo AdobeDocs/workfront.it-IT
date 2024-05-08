@@ -4,9 +4,9 @@ description: Quando qualcuno ti assegna un tag in un commento del record, ricevi
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 Quando qualcuno ti assegna un tag in un commento del record, potresti ricevere una notifica in-app per tale tag.
+
+>[!IMPORTANT]
+>
+>Per poter ricevere notifiche da Workfront Planning, l&#39;azienda deve essere un Adobe cliente di Unified Experience.
+>
+>Per informazioni, consulta [Adobe di esperienza unificata per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento del record, vedere [Gestisci commenti record](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <td>
    <p> Prodotto</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Per ricevere notifiche da Workfront Planning, l’istanza di Workfront della tua organizzazione deve essere integrata nell’esperienza unificata di Adobe. Per informazioni, consulta <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe di esperienza unificata per Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
@@ -76,12 +83,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 
-## Prerequisiti
-
-La tua azienda deve essere un Adobe di cliente Unified Experience Workfront affinché tu possa ricevere una notifica in-app quando qualcuno ti assegna un tag in un commento da record.
-
-Per determinare se sei un utente di Unified Experience Adobe, consulta [Adobe di esperienza unificata per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
 ## Gestire le notifiche in-app
 
 1. (Condizionale) Dopo che qualcuno ti ha taggato in un commento su un record, passa a in-app **Notifiche** icona ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
@@ -90,7 +91,7 @@ Per determinare se sei un utente di Unified Experience Adobe, consulta [Adobe di
 
 1. Fai clic sulla notifica.
 
-   La pagina dei dettagli del record viene visualizzata in Workfront. È possibile aggiornare il record o rispondere al commento.
+   La pagina dei dettagli del record viene visualizzata in Workfront Planning. È possibile aggiornare il record o rispondere al commento.
 
 1. (Facoltativo) Fai clic su **Contrassegna tutto come letto** per indicare di aver letto tutte le notifiche.
 1. (Facoltativo) Fai clic su **Visualizza tutto** per passare al **Notifiche** in Adobe Experience Cloud.

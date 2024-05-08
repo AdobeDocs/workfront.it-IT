@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 2%
+source-wordcount: '1807'
+ht-degree: 1%
 
 ---
 
@@ -86,6 +86,8 @@ Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [Attività s
 | Descrizione creativa |                               |                                  | ✓ |
 | Personalizzare il colore e l&#39;icona di un record | ✓ |                                  |                 |
 | Aggiungere commenti ai record | ✓ |                                  |                 |
+| Ricevere notifiche in-app | ✓ |                                  |                 |
+| Ricevere notifiche e-mail | ✓ |                                  |                 |
 | Aggiungi miniature ai record | ✓ |                                  |                 |
 | Visualizzare la cronologia delle modifiche in un record | ✓ |                                  |                 |
 | Formattazione Rich Text per i campi Paragrafo | ✓ |                                  |                 |

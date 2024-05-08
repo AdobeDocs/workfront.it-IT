@@ -4,9 +4,9 @@ description: Quando qualcuno ti assegna un tag in un commento del record, ricevi
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,12 @@ ht-degree: 0%
 {{maestro-important-intro}}
 
 Quando qualcuno ti assegna un tag in un commento del record, ricevi una notifica e-mail per quel tag.
+
+>[!IMPORTANT]
+>
+>Per poter ricevere notifiche da Workfront Planning, l&#39;azienda deve essere un Adobe cliente di Unified Experience.
+>
+>Per informazioni, consulta [Adobe di esperienza unificata per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Per informazioni sull&#39;assegnazione di tag ad altri utenti in un commento del record, vedere [Gestisci commenti record](/help/quicksilver/maestro/records/manage-record-comments.md).
 
@@ -35,7 +41,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <td>
    <p> Prodotto</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>Per ricevere notifiche da Workfront Planning e gestire le preferenze di notifica, l’istanza di Workfront della tua organizzazione deve essere integrata in Adobe Unified Experience. Per informazioni, consulta <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe di esperienza unificata per Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
@@ -78,7 +85,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Gestire le notifiche e-mail
 
-1. (Facoltativo) Dopo che qualcuno ti ha taggato in un commento su un record, vai alla notifica e-mail che ti informa del tag e del commento.
+1. (Facoltativo) Dopo che qualcuno ti ha taggato in un commento su un record, vai alla notifica e-mail che ti informa del tag e del commento. Il mittente dell’e-mail è Adobe Experience Cloud.
 
    ![](assets/email-notification-example.png)
 
@@ -87,4 +94,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    La pagina dei dettagli del record viene visualizzata in Workfront. È possibile aggiornare il record o rispondere al commento.
 
 1. (Condizionale) Se disponibile, fai clic su **Visualizza tutte le notifiche**. <!--check with Lilit - do non-IMS users have this button??-->
-La pagina Notifiche viene visualizzata in Adobe Experience Cloud.
+Il **Notifiche** La pagina viene aperta in Adobe Experience Cloud.
