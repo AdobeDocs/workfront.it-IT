@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 7fe24704cead460762322b4f26bf37431e9744ca
+source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-In qualità di responsabile delle operazioni di marketing, puoi utilizzare Adobe Workfront Planning per organizzare il lavoro nel ciclo di vita di marketing per tutti i team.
-
 {{maestro-important-intro}}
 
 È possibile utilizzare questa pagina come punto di partenza per tutta la documentazione relativa ad Adobe Workfront Planning.
@@ -51,15 +49,17 @@ Per una panoramica della nuova pianificazione di Workfront, accedere ai seguenti
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Panoramica di Adobe Workfront Planning](maestro-overview.md): panoramica di alto livello di Adobe Workfront Planning, inclusi la terminologia e i concetti specifici di questa soluzione. È consigliabile iniziare il percorso con Workfront Planning.
-* [Attività sulla versione di Adobe Workfront Planning](../maestro/release-activity.md): elenco di tutte le funzioni rilasciate dall’avvio del programma beta chiuso di Adobe Workfront Planning, il 22 maggio 2023, con date di rilascio esatte e una breve panoramica di ciascuna funzione.
+* [Attività sulla versione di Adobe Workfront Planning](/help/quicksilver/maestro/release-activity.md): elenco di tutte le funzioni rilasciate dall’avvio del programma beta chiuso di Adobe Workfront Planning, il 22 maggio 2023, con date di rilascio esatte e una breve panoramica di ciascuna funzione.
 * [Moduli Adobe Maestro per Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Architettura e funzionalità di Workfront Planning
 
 Le sezioni seguenti contengono articoli che descrivono in dettaglio le funzioni attualmente disponibili per Workfront Planning:
 
-* [Informazioni di Adobe Workfront Planning Access: indice articolo](../maestro/access/access-information.md): informazioni sull&#39;accesso e sulle autorizzazioni necessarie per utilizzare Workfront Planning.
-* [Architettura: indice degli articoli](../maestro/architecture/architecture-information.md): informazioni approfondite sull&#39;architettura di Workfront Planning, con istruzioni dettagliate su come creare e gestire aree di lavoro e tipi di record.
-* [Campi: indice articolo](../maestro/fields/fields-information.md): informazioni approfondite e istruzioni dettagliate sulla creazione di campi personalizzati per i tipi di record.
-* [Record: indice articolo](../maestro/records/records-information.md): informazioni approfondite e istruzioni dettagliate su come creare e gestire i record.
-* [Visualizzazioni: indice articolo](../maestro/views/views-information.md): informazioni approfondite sulle visualizzazioni dei record e su come gestirle quando si visualizza una pagina del tipo di record.
+* [Informazioni di accesso di Adobe Workfront Planning: indice articolo](/help/quicksilver/maestro/access/access-information.md): informazioni sull&#39;accesso e sulle autorizzazioni necessarie per utilizzare Workfront Planning.
+* [Architettura: indice degli articoli](/help/quicksilver/maestro/architecture/architecture-information.md): informazioni approfondite sull&#39;architettura di Workfront Planning, con istruzioni dettagliate su come creare e gestire aree di lavoro e tipi di record.
+* [Campi: indice articolo](/help/quicksilver/maestro/fields/fields-information.md): informazioni approfondite e istruzioni dettagliate sulla creazione di campi personalizzati per i tipi di record.
+* [Record: indice articolo](/help/quicksilver/maestro/records/records-information.md): informazioni approfondite e istruzioni dettagliate su come creare e gestire i record.
+* [Visualizzazioni: indice articolo](/help/quicksilver/maestro/views/views-information.md): informazioni approfondite sulle visualizzazioni dei record e su come gestirle quando si visualizza una pagina del tipo di record.
+* [Notifiche di Adobe Workfront Planning: indice articolo](/help/quicksilver/maestro/notifications/notifications-information.md): informazioni sulle notifiche e-mail e in-app generate dagli eventi in Workfront Planning.
+
