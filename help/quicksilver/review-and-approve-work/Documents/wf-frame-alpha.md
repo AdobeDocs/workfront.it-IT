@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2ea9316e8cbe4474f22028f85204f9351182ba06
+source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
 workflow-type: tm+mt
 source-wordcount: '1135'
 ht-degree: 0%
@@ -89,7 +89,7 @@ Con questa integrazione, il nostro obiettivo è consentire ai creativi di rimane
 
 Per consentirti di testare facilmente le nuove funzioni del programma beta, abbiamo creato un nuovo account test Frame.io e lo abbiamo collegato a un nuovo gruppo denominato `Frame.io testing` nell’ambiente Workfront Preview o Sandbox esistente.
 
-+++Espandi per visualizzare le istruzioni per i test vasici
++++Espandi per visualizzare le istruzioni di test di base
 
 Per testare la funzionalità, accedi all’istanza Workfront Preview o Sandbox ed esegui i seguenti passaggi:
 
