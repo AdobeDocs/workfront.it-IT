@@ -8,9 +8,9 @@ description: Un archivio dati, simile a un database o a una semplice tabella, pu
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 6c449b004e61048d5391a39e5adc38b05f4a3033
+source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1299'
 ht-degree: 1%
 
 ---
@@ -76,24 +76,28 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
 ## Spazio dati disponibile
 
-Se l’organizzazione utilizza il nuovo modello di piano Workfront (pacchetti Select, Prime e Ultimate), il piano dell’organizzazione influisce sulle dimensioni e sul numero di archivi di dati disponibili per l’istanza di Fusion.
+Se la tua organizzazione utilizza il nuovo modello di piano Workfront (pacchetti Select, Prime e Ultimate), le dimensioni totali dell’archivio dati sono:
 
-### Piano Ultimate
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
 
-Le istanze di Fusion sul pacchetto Ultimate ricevono:
+### Ultimate plan
 
-* 500 MB di spazio
-* 50 archivi dati
+Fusion instances on the Ultimate package receive:
 
-### Seleziona e crea piani
+* 500 MB of space
+* 50 data stores 
 
-Le istanze di Fusion nei pacchetti Select o Prime ricevono:
+### Select and Prime plans
+
+Fusion instances on the Select or Prime packages receive:-->
 
 * 100 MB per le prime operazioni 500K.
 
 * 10 MB per ogni 100.000 operazioni aggiuntive.
 
-Ad esempio, un’organizzazione con 600.000 operazioni riceve 110 MB.
+  Ad esempio, un’organizzazione con 600.000 operazioni riceve 110 MB.
+
+La tua organizzazione può avere fino a 50 archivi di dati. La dimensione combinata di questi archivi dati non può superare la dimensione totale dell’archivio dati dell’organizzazione.
 
 ## Creare un archivio dati in [!DNL Workfront Fusion]
 
