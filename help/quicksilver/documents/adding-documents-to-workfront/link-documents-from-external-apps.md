@@ -6,9 +6,9 @@ description: Puoi collegare documenti e cartelle ad Adobe Workfront da origini e
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 9e57fa6d70e5cfe3de90a24564e76e22b82f63ff
+source-git-commit: 8aeb8c23f6eb6cf696512aaf7c6bd92b138f00cb
 workflow-type: tm+mt
-source-wordcount: '2578'
+source-wordcount: '2596'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,8 @@ Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve 
 
    >[!NOTE]
    >
-   >Per i documenti collegati a Box, il collegamento al documento in Box viene visualizzato solo dopo l&#39;aggiornamento della pagina.
+   >* Se l&#39;URL di download utilizzato per collegare il documento supera i 2048 caratteri, il file non può essere collegato.
+   >* Per i documenti collegati a Box, il collegamento al documento in Box viene visualizzato solo dopo l&#39;aggiornamento della pagina.
 
 ### Aggiungere una nuova versione di un documento collegato {#add-a-new-version-of-a-linked-document}
 
@@ -190,20 +191,20 @@ Prima di collegare documenti o cartelle, l&#39;amministratore di Workfront deve 
 
 Per informazioni sull&#39;aggiunta di una nuova versione di un documento caricato in Workfront dal file system, vedere [Aggiungere documenti ad Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Aggiungere documenti ad Adobe Workfront dal file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-### Collega documenti bozza Workfront {#link-workfront-proof-documents}
+### Collega documenti Workfront Proof {#link-workfront-proof-documents}
 
 Puoi collegare le bozze a Workfront che originariamente esistevano in Workfront Proof. Quando colleghi una bozza da Workfront Proof, tutti i commenti e gli altri metadati associati alla bozza sono disponibili in Workfront.
 
-In Workfront Proof è possibile collegare solo le bozze per le quali si dispone dell’accesso Visualizzazione.
+Puoi collegare solo le bozze per le quali disponi dell’accesso di visualizzazione in Workfront Proof.
 
 1. Vai a **Documenti** in Workfront in cui si desidera inserire il documento.
-1. Clic **Aggiungi nuovo**, quindi fai clic su **Da bozza Workfront**.
+1. Clic **Aggiungi nuovo**, quindi fai clic su **Da Workfront Proof**.
 
    >[!NOTE]
    >
    >Le opzioni di questo menu possono variare a seconda dei provider di terze parti configurati nel tuo ambiente.
 
-1. In **Collega bozze da bozza Workfront** che viene visualizzata, inizia a digitare il nome della bozza che desideri rendere disponibile in Workfront.
+1. In **Collega bozze da Workfront Proof** che viene visualizzata, inizia a digitare il nome della bozza che desideri rendere disponibile in Workfront.
 
    L&#39;elenco viene filtrato durante la digitazione.
 
