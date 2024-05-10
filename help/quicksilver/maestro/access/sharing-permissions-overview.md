@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 2f8a5b2d2183090029966a13c7af37f20eb44fd0
+source-git-commit: ace194b584601f9edd7862dbd74f639538891370
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '623'
 ht-degree: 7%
 
 ---
@@ -69,6 +69,15 @@ Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è
 
 ### Autorizzazioni di Workspace
 
+È necessario concedere agli utenti le autorizzazioni per le aree di lavoro per consentire loro di accedere alle seguenti entità:
+
+* Aree di lavoro
+* Tipi di record
+* Record
+* Campi
+
+Di seguito sono riportati i livelli di autorizzazione per le aree di lavoro:
+
 |        | Gestire | Contribuisci | Viste |
 |--------|--------|------------|-------|
 | Modif | ✓ |            |       |
@@ -80,6 +89,9 @@ Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è
 
 Le autorizzazioni del tipo di record vengono ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
 
+Di seguito sono riportati i livelli di autorizzazione per i tipi di record:
+
+
 |        | Gestire | Contribuisci | Visualizza |
 |--------|--------|------------|-------|
 | Crea | ✓ |            |       |
@@ -90,6 +102,9 @@ Le autorizzazioni del tipo di record vengono ereditate quando si concedono le au
 ### Autorizzazioni record
 
 Le autorizzazioni dei record vengono ereditate quando si concedono le autorizzazioni all&#39;area di lavoro.
+
+Di seguito sono riportati i livelli di autorizzazione per i record:
+
 
 |        | Gestire | Contribuisci | Visualizza |
 |--------|--------|------------|-------|
@@ -115,7 +130,19 @@ Le autorizzazioni seguenti fanno riferimento ai campi stessi e non ai valori ass
 
 È necessario concedere autorizzazioni separate alle visualizzazioni record. La concessione delle autorizzazioni all&#39;area di lavoro non consente di concedere le autorizzazioni alle visualizzazioni record nell&#39;area di lavoro.
 
+È necessario concedere agli utenti le autorizzazioni per le visualizzazioni per consentire loro di accedere ai seguenti elementi di visualizzazione:
+
+* Filtri
+* Visibilità del campo
+* Ordina
+* Raggruppamento
+* Altezza riga
+* Impostazioni
+
+
 <!--You can share views internally or publicly. -->
+
+Di seguito sono riportati i livelli di autorizzazione per le visualizzazioni e gli elementi di visualizzazione:
 
 |        | Gestire | Viste |
 |--------|--------|-------|
