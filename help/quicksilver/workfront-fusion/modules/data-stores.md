@@ -8,9 +8,9 @@ description: Un archivio dati, simile a un database o a una semplice tabella, pu
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: b7980d03791fe4a90bf66cebe042ed5890aaa802
+source-git-commit: 00a969175626d27b70d516921097725fdf818799
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1336'
 ht-degree: 1%
 
 ---
@@ -76,20 +76,20 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
 ## Spazio dati disponibile
 
-Se la tua organizzazione utilizza il nuovo modello di piano Workfront (pacchetti Select, Prime e Ultimate), le dimensioni totali dell’archivio dati sono:
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your total data store size is:-->
 
-<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
+Se l’organizzazione utilizza il nuovo modello di piano Workfront (pacchetti Select, Prime e Ultimate), il piano dell’organizzazione influisce sulle dimensioni e sul numero di archivi di dati disponibili per l’istanza di Fusion.
 
-### Ultimate plan
+### Piano Ultimate
 
-Fusion instances on the Ultimate package receive:
+Le istanze di Fusion sul pacchetto Ultimate ricevono:
 
-* 500 MB of space
-* 50 data stores 
+* 100 MB di spazio
+* 50 archivi dati
 
-### Select and Prime plans
+### Seleziona e crea piani
 
-Fusion instances on the Select or Prime packages receive:-->
+Le istanze di Fusion nei pacchetti Select o Prime ricevono:—>
 
 * 100 MB per le prime operazioni 500K.
 
