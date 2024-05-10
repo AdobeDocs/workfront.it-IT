@@ -9,10 +9,10 @@ description: È possibile utilizzare il modulo SOAP per connettersi alle API SOA
 author: Becky
 feature: Workfront Fusion
 exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 1%
+source-wordcount: '490'
+ht-degree: 0%
 
 ---
 
@@ -59,7 +59,11 @@ Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, co
 
 Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Utilizzo di [!UICONTROL SOAP] modulo
+## Limitazioni del [!UICONTROL SOAP] modulo
+
+>[!NOTE]
+>
+>I reindirizzamenti sono disattivati durante il caricamento WDSL. Si tratta di una funzione di sicurezza, ma potrebbe significare che i reindirizzamenti non verificati vengono bloccati durante l’esecuzione del modulo.
 
 Il [!UICONTROL SOAP] Il modulo è attualmente in versione beta e non supporta:
 
@@ -86,8 +90,8 @@ Il [!UICONTROL SOAP] Il modulo è attualmente in versione beta e non supporta:
 >     </complexContent>
 ></complexType>
 >```
-
-Include `soapenc:Array`, `soapenc:arrayType` e `wsdl:arrayType` riferimenti, non ancora supportati in [!UICONTROL Workfront Fusion].
+>
+>Questo esempio include `soapenc:Array`, `soapenc:arrayType` e `wsdl:arrayType` riferimenti, non ancora supportati in [!UICONTROL Workfront Fusion].
 
 ## Soluzione alternativa
 
