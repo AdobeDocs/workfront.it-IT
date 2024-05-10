@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 121aef2ee55597fee2e2adc8250dd0651ea86f17
+source-git-commit: 6e6e65cbf422879a04c4924da509ac43e48030c1
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ Adobe Workfront Fusion collega perfettamente le tue app e i tuoi servizi web in 
 Per informazioni sull&#39;utilizzo di Workfront Fusion, vedere [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Versioni di fusione nel 2024
+
+### Maggio 2024
+
+* [Attività di rilascio di Workfront Fusion: settimana del 6 maggio 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
 
 ### Aprile 2024
 
