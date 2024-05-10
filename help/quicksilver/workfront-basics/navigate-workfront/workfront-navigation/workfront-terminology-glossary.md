@@ -6,9 +6,9 @@ description: Il [!DNL Adobe Workfront] il glossario elenca i termini più comune
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
 workflow-type: tm+mt
-source-wordcount: '19889'
+source-wordcount: '20060'
 ht-degree: 0%
 
 ---
@@ -252,6 +252,19 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Baseline]</td> 
    <td>Origine di dati su cui misurare le iterazioni in un ambiente agile.</td> 
+  </tr>
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Spesa Fatturabile]</td> 
+   <td> <p>Spesa contrassegnata come fatturabile per il cliente. Può trattarsi di una spesa pianificata o di una spesa effettiva.</p> <p>I campi Costo spesa pianificata fatturabile e Costo spesa fatturabile effettivo sono disponibili per l'aggiunta alle visualizzazioni e ai report. Non vengono visualizzate nelle pagine dei dettagli del progetto o dell’attività.</p>
+   <p>Questi campi sono disponibili nei seguenti tipi di rapporti:</p>
+   <ul>
+   <li>Linea di base</li>
+   <li>Modello</li>
+   <li>Progetto (dati finanziari)</li>
+   </ul>
+   <p>Per ulteriori informazioni su come contrassegnare una spesa come fatturabile, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Gestisci spese progetto</a>.</p>
+   </td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -795,7 +808,7 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
      <li>[!UICONTROL Basato Sullo Sforzo]</li> 
      <li>[!UICONTROL semplice]</li> 
     </ul> <p>Per ulteriori informazioni, consulta <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Panoramica dell'attività [!UICONTROL Duration] e [!UICONTROL Duration Type]</a>.</p> 
-    —&gt; </td> 
+    --&gt; </td> 
    </tr> 
    <tr> 
    <td>[!UICONTROL Unità di Durata]</td> 
@@ -1305,7 +1318,21 @@ Le ore possono avere uno dei seguenti stati in Workfront:
    <td>In un report [!UICONTROL Voce diario] viene visualizzato il valore aggiornato di un campo che sostituisce il [!UICONTROL Vecchio valore numerico].
    Per ulteriori informazioni, consulta "[!UICONTROL Old Number Value]" in questo articolo.</td> 
   </tr>
-  <tr> 
+
+<tr data-mc-conditions=""> 
+   <td>[!UICONTROL Spesa Non Fatturabile]</td> 
+   <td> <p>Una spesa non contrassegnata come fatturabile per il cliente. Può trattarsi di una spesa pianificata o di una spesa effettiva.</p> <p>I campi Costo spesa non fatturabile pianificato e Costo spesa non fatturabile effettivo sono disponibili per l'aggiunta alle visualizzazioni e ai report. Non vengono visualizzate nelle pagine dei dettagli del progetto o dell’attività.</p>
+   <p>Questi campi sono disponibili nei seguenti tipi di rapporti:</p>
+   <ul>
+   <li>Linea di base</li>
+   <li>Modello</li>
+   <li>Progetto (dati finanziari)</li>
+   </ul>
+   <p>Per ulteriori informazioni su come contrassegnare una spesa come fatturabile, vedere <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Gestisci spese progetto</a>.</p>
+   </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Giorno Non Feriale]</td> 
    <td>Giorno non assegnato al completamento di alcuna assegnazione. Di solito si tratta di un giorno di vacanza, di una vacanza o di un weekend. Il termine viene visualizzato in API Explorer. </td> 
   </tr> 
