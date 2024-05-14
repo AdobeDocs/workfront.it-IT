@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -103,27 +103,31 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Crea tipi di record](../architecture/create-record-types.md).
 
    La pagina del tipo di record viene visualizzata nella visualizzazione a cui si è effettuato l&#39;ultimo accesso. Per impostazione predefinita, nella vista tabella viene visualizzata una pagina del tipo di record.
-Tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
+Tutti i record del tipo selezionato vengono visualizzati nella vista.
 
-1. (Condizionale) Se la pagina del tipo di record non si apre nella visualizzazione tabella, fare clic sulla scheda di una visualizzazione tabella oppure fare clic su **+ Visualizza** per creare una vista tabella.
+1. (Condizionale) A seconda della vista visualizzata, effettuate una delle seguenti operazioni:
 
-1. Per aggiungere nuovi record, fare clic su **Nuovo record** nell’ultima riga della tabella
+   * Dalla vista tabella:
 
-   Oppure
+      * Clic **Nuovo record** nell’ultima riga della tabella
 
-   Clic **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. Viene aggiunta una riga vuota.
+      * Clic **Maiusc + Invio** sulla tastiera da qualsiasi colonna o riga della tabella. Viene aggiunta una riga vuota.
 
-   ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![](assets/adding-a-new-campaign-in-table-row.png)
 
-1. Iniziare a digitare informazioni sul nuovo record nella nuova riga.
+   * Da qualsiasi vista:
+
+      * Clic **Nuovo record** nell’angolo superiore destro della pagina. Viene visualizzata la casella di anteprima del record.
+
+1. Iniziare a digitare informazioni sul nuovo record nella nuova riga o nei campi visualizzati nella casella di anteprima.
 
    >[!NOTE]
    >
-   >  * Non esistono campi obbligatori per i record. È tuttavia consigliabile aggiungere un nome per il record, in quanto è utile identificare i record quando si collegano tra loro record.
+   >  * Non esistono campi obbligatori per i record. È tuttavia consigliabile aggiungere un nome per il record, in quanto è utile identificare i record in base al nome quando si collegano record tra loro.
    >
    >  * I campi che fanno riferimento ad altri tipi di record o campi calcolati sono campi di sola lettura.
 
-1. Continua ad aggiungere informazioni su ogni riga, quindi fai clic su **Invio** sulla tastiera per salvare le modifiche.
+1. (Condizionale) Quando aggiungi record nella tabella, continua ad aggiungere informazioni su ogni riga, quindi fai clic su **Invio** sulla tastiera per salvare le modifiche.
 
    Oppure
 
@@ -136,8 +140,7 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 1. Iniziare a modificare le informazioni del record nell&#39;anteprima del record. Workfront salva automaticamente le modifiche.
 1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continuare a modificare il record nella pagina record.
 
-
-1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere l&#39;aggiunta di nuovi record:
+1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere l&#39;aggiunta di nuovi record o delle relative informazioni quando questi vengono aggiunti nella vista tabella:
 
    * CTRL + Z (⌘ + Z per Mac) per annullare una modifica
    * CTRL + MAIUSC + Z (⌘ + MAIUSC + Z per Mac) per ripetere una modifica

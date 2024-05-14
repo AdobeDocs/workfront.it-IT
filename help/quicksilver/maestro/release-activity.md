@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
 workflow-type: tm+mt
-source-wordcount: '5929'
+source-wordcount: '6045'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,39 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New warning about object visibility when connecting records 
+
+Production: <date>
+
+Preview: To be determined
+
+When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+
+For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+
 -->
+
+## Settimana del 13 maggio 2024
+
+### Aggiornamenti in tempo reale nella vista timeline dopo la modifica dei record
+
+Produzione: 14 maggio 2024
+
+Anteprima: da determinare.
+
+Quando un utente aggiorna le informazioni di un record, gli altri utenti possono visualizzare le informazioni aggiornate nella visualizzazione della sequenza temporale del record in tempo reale. In questo modo tutti gli utenti visualizzano le informazioni aggiornate contemporaneamente, in sincronia con il momento in cui si verificano le modifiche.
+
+### Aggiungi record dall’intestazione della vista
+
+Produzione: 14 maggio 2024
+
+Anteprima: da determinare
+
+È stato aggiunto il pulsante &quot;Nuovo record&quot; nell’intestazione di una pagina del tipo di record. È ora possibile creare record da qualsiasi visualizzazione. Prima di questo miglioramento, era possibile creare record solo dalla vista tabella.
+
+Per ulteriori informazioni, consulta [Crea record](/help/quicksilver/maestro/records/create-records.md).
 
 ## Settimana del 6 maggio 2024
 
