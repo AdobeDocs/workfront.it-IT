@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
+source-git-commit: a907cd9d07a2912d42ae26d69815a05a1006a633
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,16 @@ Per ulteriori informazioni, consulta [Informazioni sulla disattivazione degli am
 
 ## Disattivare un utente
 
+Quando disattivi un utente tieni presente quanto segue:
+
+* L&#39;utente non potrà accedere al sistema.
+* L&#39;utente verrà rimosso da collegamenti di revisione Frame.io, risorse, progetti e account.
+   * La riattivazione dell&#39;utente non ne determina automaticamente la reaggiunta agli elementi Frame.io. È necessario riassegnare manualmente l&#39;utente a progetti, attività e risorse Workfront che richiedono la collaborazione Frame.io.
+* Tutti i dati associati all’utente verranno conservati.
+* È possibile assegnare la licenza di un utente disattivato a un altro utente.
+
+Per disattivare un utente:
+
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Utenti** ![](assets/users-icon-in-main-menu.png).
 
 1. Seleziona un utente, fai clic su **Altro** icona ![](assets/more-icon.png), quindi fai clic su **Disattiva**.
@@ -126,6 +136,10 @@ Per pianificare la disattivazione di un utente:
 1. Seleziona un utente e fai clic sull’icona Altro ![](assets/more-icon.png), quindi fai clic su **Attiva**.
 
 1. Assegna un nuovo **Livello di accesso** nel menu a discesa, quindi fai clic su **Riattiva**.
+
+### Impatto sulla revisione e l’approvazione delle risorse quando si riattiva un utente
+
+Gli utenti disattivati perdono l&#39;accesso ai loro account Frame.io assegnati, nonché ai progetti, alle risorse e ai collegamenti di revisione assegnati. Se scegli di riattivare l&#39;utente, devi riassegnarlo manualmente a progetti, attività e risorse che richiedono la collaborazione Frame.io.
 
 ### Impatto della bozza durante la riattivazione di un utente
 

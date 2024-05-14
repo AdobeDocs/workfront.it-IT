@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 2c9d52ad5e3d330d0a183d9cef545ff6b6aed6b2
+source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1343'
 ht-degree: 0%
 
 ---
@@ -24,10 +24,32 @@ Qui troverai informazioni sull’ultima versione Beta e un breve video che illus
 >
 >Per partecipare a questa versione beta, è necessario essere abilitati dal team di prodotto. Contatta il tuo Customer Success o Account Manager e richiedi di essere aggiunto.
 
+## Maggio 2024: aggiornamenti della versione beta in Workfront
 
-## Aggiornamenti della versione beta in Frame.io - marzo 2024
+Questa versione di maggio include le seguenti funzionalità:  
 
-In questa versione beta sono disponibili:
+>[!VIDEO](https://video.tv.adobe.com/v/3429129/)
+
+### I progetti Workfront vengono sincronizzati automaticamente con Frame.io
+
+In base al tuo feedback, abbiamo migliorato l&#39;esperienza e ridotto i passaggi necessari per attivare la creazione di un Frame.io connesso.  Ora, quando si crea un progetto in Workfront, in Frame.io viene creato automaticamente un progetto corrispondente. 
+
+### Assegnazione migliorata dei creativi al progetto Frame.io
+
+Ora è possibile gestire facilmente chi deve avere accesso al progetto Frame.io connesso. Gli utenti creativi possono essere contrassegnati come &quot;Frame.io abilitato&quot; che consente loro di accedere automaticamente al progetto Frame.io connesso quando assegnato al progetto Workfront.   
+
+### Il nome del progetto Frame.io viene aggiornato quando il nome del progetto Workfront cambia
+
+Come parte dei nostri sforzi per migliorare la sincronizzazione del progetto tra Workfront e Frame.io, gli aggiornamenti dei nomi dei progetti Workfront ora si riflettono anche in Frame.io. 
+
+### Stato approvazione nell&#39;elenco documenti
+
+Monitora facilmente lo stato di approvazione di qualsiasi file direttamente dall’elenco dei documenti. Con un semplice clic sullo stato generale, accedi a un raggruppamento dettagliato di tutti i partecipanti coinvolti nel processo di approvazione, insieme ai loro stati individuali. Semplifica inoltre il flusso di lavoro ricordando con un solo clic eventuali approvatori in sospeso, garantendo risposte tempestive ed una gestione efficiente dei documenti. 
+
+
+## Marzo 2024: aggiornamenti della versione beta in Frame.io
+
++++ Espandi per visualizzare le funzionalità rilasciate a marzo 2024
 
 ### Aggiungere più risorse da Frame.io a Workfront
 
@@ -39,7 +61,7 @@ Le voci di menu per l’aggiunta di una risorsa a Workfront sono state aggiornat
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Aggiornamenti della versione beta in Workfront - marzo 2024
+## Marzo 2024: Aggiornamenti della versione beta in Workfront
 
 In questa versione beta sono disponibili:
 
@@ -82,6 +104,8 @@ Una volta bloccato, qualsiasi persona che rivede e/o approva non potrà più far
 Quando viene caricata una nuova versione di un documento, è possibile avviare il turno successivo di revisione mantenendo le revisioni precedenti bloccate.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
+
++++
 
 ## Test delle funzioni
 
@@ -128,14 +152,12 @@ Per testare la funzionalità, accedi all’istanza Workfront Preview o Sandbox e
 
 +++ Espandi per visualizzare istruzioni di test dettagliate
 
-Abbiamo creato uno scenario di test più complesso per i partecipanti che desiderano testare funzionalità aggiuntive. Una guida per questo scenario di test dettagliato può essere scaricata qui: [Scenario di test dettagliato WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/wf-frame-detailed-walk-through-may-release.pdf).
+Abbiamo creato uno scenario di test più complesso per i partecipanti che desiderano testare funzionalità aggiuntive. Una guida per questo scenario di test dettagliato può essere scaricata qui: [Scenario di test dettagliato WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 +++
 
-<!-- 
-## Demo Video
+## Video dimostrativo
 
->[!VIDEO](https://video.tv.adobe.com/v/3426406/)
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
 ## Invia feedback
 

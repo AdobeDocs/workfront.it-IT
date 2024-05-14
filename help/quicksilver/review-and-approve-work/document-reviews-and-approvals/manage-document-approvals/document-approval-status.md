@@ -1,21 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Stato approvazione documento
-description: Vengono elencati e spiegati gli stati di approvazione del documento
+title: Stato decisione documento
+description: Vengono elencati e spiegati gli stati di decisione del documento
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: ac3200b478c706194a8c8246d1754b16601d5f56
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '161'
 ht-degree: 5%
 
 ---
 
-# Stato approvazione documento
+# Stato decisione documento
 
-Lo stato di approvazione di un documento è riportato nell&#39;intestazione del documento.
+È possibile visualizzare lo stato del documento direttamente nell&#39;elenco dei documenti:
+
+![](assets/status-in-doc-list.png)
 
 Sono disponibili i seguenti stati:
 

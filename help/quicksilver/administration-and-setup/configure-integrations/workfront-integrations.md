@@ -9,10 +9,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 8d2329e111393e83e3c26ee694df7770b8459247
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 1%
+source-wordcount: '81'
+ht-degree: 4%
 
 ---
 
@@ -21,15 +21,16 @@ ht-degree: 1%
 Questa sezione contiene i seguenti articoli:
 
 * [[!DNL Adobe Workfront] integrazioni](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [Configura [!DNL Workfront] con [!DNL Adobe Experience Manager] connettore legacy](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
+* [Configurare [!DNL Workfront] e [!DNL Frame.io] integrazione](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [Configurare [!DNL Experience Manager Assets as a Cloud Service] integrazione](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [Configurare [!DNL Experience Manager Assets Essentials] integrazione](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-* [[!DNL Workfront] and [!DNL Experience Manager Assets] Integrazioni](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [[!DNL Workfront] e [!DNL Experience Manager Assets] Integrazioni](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Configura [!DNL Workfront] con [!DNL Adobe Experience Manager] connettore legacy](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)
 * [Abilita [!UICONTROL Adobe Workfront per Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
 * [Configurare le integrazioni dei documenti](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [Disattiva integrazioni documenti](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
 * [Configurare [!DNL SharePoint] integrazione](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
-* [Impostare la mappatura dei metadati](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+* [Configurare la mappatura dei metadati](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
 * [Crea [!UICONTROL [!DNL Adobe Workfront] per [!DNL Creative Cloud]] pacchetti per gli utenti in [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
   <!--
