@@ -4,13 +4,13 @@ description: Quando qualcuno ti assegna un tag in un commento del record, ricevi
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
 
 # Gestione delle notifiche in-app di Adobe Workfront Planning
 
@@ -85,7 +85,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Gestire le notifiche in-app
 
-1. (Condizionale) Dopo che qualcuno ti ha taggato in un commento su un record, passa a in-app **Notifiche** icona ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Condizionale) Dopo che qualcuno ti ha taggato in un commento su un record, passa alla pagina in-app **Notifiche** icona ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 

@@ -4,13 +4,13 @@ description: Quando qualcuno ti assegna un tag in un commento del record, ricevi
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
-
 
 # Gestire le notifiche e-mail di Adobe Workfront Planning
 
@@ -94,4 +94,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    La pagina dei dettagli del record viene visualizzata in Workfront. È possibile aggiornare il record o rispondere al commento.
 
 1. (Condizionale) Se disponibile, fai clic su **Visualizza tutte le notifiche**. <!--check with Lilit - do non-IMS users have this button??-->
-Il **Notifiche** La pagina viene aperta in Adobe Experience Cloud.
+Il **Notifiche** La pagina viene aperta in Adobe Experience Cloud. Vengono visualizzate tutte le notifiche provenienti da tutte le applicazioni Adobe Experience Cloud.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ace194b584601f9edd7862dbd74f639538891370
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '1153'
 ht-degree: 0%
 
 ---
@@ -95,100 +95,95 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Considerazioni sulla modifica delle pagine record
 
-* La ridisposizione dei campi nell&#39;anteprima record o nella pagina consente di ridisporre i campi per tutti i record di quel tipo e per tutti gli utenti che accedono a tali record.
+* Per impostazione predefinita, i dettagli e le pagine di anteprima di un record visualizzano tutti i campi associati al record.
+
+* Non è possibile aggiungere nuovi campi per un record nella pagina di anteprima o dei dettagli. Per visualizzarli nelle pagine di anteprima e dettagli, è necessario aggiungere nuovi campi nella vista a tabella.
+
+* È possibile aggiungere sezioni a un&#39;anteprima del record o a una pagina dei dettagli, per organizzare le informazioni in base a criteri comuni e semplificarne la ricerca.
+
+* Le modifiche seguenti hanno effetto su tutti i record dello stesso tipo e sono visibili a tutti gli utenti che accedono a tali record:
+
+   * Ridisposizione dei campi
+   * Aggiunta o rimozione di sezioni
 
 * Le modifiche apportate all&#39;anteprima del record sono immediatamente visibili nella pagina dei dettagli del record. Le modifiche apportate nella pagina record sono visibili anche nella casella di anteprima del record.
 
-<!--Replace the first bullet with this when we add sections:
-
-* The following changes affect all the records of the same type and are visible to all users accessing those records: 
-
-   * Rearranging fields
-   * Adding or removing sections
--->
-
 * L&#39;aggiunta di un&#39;immagine di copertina a un record non fa parte del layout generale dell&#39;anteprima del record o della pagina. È possibile aggiungere immagini di copertina univoche a ogni record. Per informazioni, consulta [Aggiungere una copertina a un record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-<!--
+## Aggiungere sezioni a una pagina o anteprima record
 
-## Add sections to a record preview or page
+Quando si aggiungono sezioni a una pagina record, tenere presente quanto segue:
 
-You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
+* Non esiste alcun limite al numero di sezioni che è possibile includere in una pagina.
+* Impossibile avere una sezione vuota. È necessario disporre di almeno un campo in una sezione.
+* È possibile trascinare i campi da una sezione all&#39;altra. Per ulteriori informazioni, consulta la sezione [Ridisponi i campi nella pagina di anteprima record o dettagli](#rearrange-fields-in-the-record-preview-or-details-page) in questo articolo.
+* Quando rimuovi tutti i campi da una sezione, questa viene eliminata automaticamente e non può essere recuperata.
 
-Consider the following when adding sections to a record page:
-
-* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
-* You cannot have an empty section. You must have at least one field in a section. 
-* You can drag and drop fields from one section to another. 
-* When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
-
-To add a section to a record preview or page: 
+Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
 
 {{step1-to-maestro}}
 
-The workspace that you access last opens. 
+Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
-1. Click a record type card. 
+1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
+1. Fare clic su una scheda del tipo di record.
 
-    The record type page opens. 
+   Viene visualizzata la pagina del tipo di record.
 
-1. From a view of any type, click the name of a record 
+1. In una visualizzazione di qualsiasi tipo fare clic sul nome di un record
 
-    Or 
-    
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
-    
-    The record's preview opens in the view.
+   Oppure
 
-    ![](assets/details-box.png) 
+   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record.
 
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+   L&#39;anteprima del record viene visualizzata nella vista.
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+   ![](assets/details-box.png)
 
-    The record page opens. 
+   >[!TIP]
+   >
+   >È possibile visualizzare **Apri dettagli** a sinistra del campo Nome di un record in una visualizzazione tabella solo quando il campo Nome è un campo primario.
 
-    ![](assets/details-page.png)
+1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
-1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
-1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
-1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+   Viene visualizzata la pagina del record.
 
-1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
+   ![](assets/details-page.png)
+
+1. Nell&#39;anteprima del record o nella pagina, posiziona il cursore del mouse sullo spazio vuoto a sinistra dei campi, quindi fai clic sul pulsante **Aggiungi sezione** icona ![](assets/add-section-icon.png) per aggiungere una sezione.
+1. Fai clic sul nome della sezione e sostituisci **Sezione senza titolo** con un nome, quindi fai clic su Invio. I campi visualizzati sotto la sezione fanno automaticamente parte della nuova sezione.
+1. Inizia a trascinare i campi nella nuova sezione, come descritto nella sezione [Ridisponi i campi nella pagina di anteprima record o dettagli](#rearrange-fields-in-the-record-preview-or-details-page) in questo articolo.
+
+1. (Facoltativo) Passa il puntatore del mouse sul nome di una sezione e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png).
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
-1. (Optional) Do one of the following to edit the section: 
+1. (Facoltativo) Per modificare la sezione, effettuate una delle seguenti operazioni:
 
-   * Click **Rename** to rename the section
+   * Clic **Rinomina** per rinominare la sezione
 
-      >[!TIP]
-      >
-      > You can rename a section inline, by clicking the name.
-   
-   * Click **Move up** to move the section up one position 
+     >[!TIP]
+     >
+     > È possibile rinominare una sezione in linea facendo clic sul nome.
 
-      Or 
-      
-      Click **Move down** to move the section down one position.
-      All fields in the section move with the section. 
+   * Clic **Sposta su** per spostare la sezione in alto di una posizione
 
-   * Click **Delete** to delete the section. The section is deleted and it cannot be recovered. All users accessing the records of this type will no longer view the deleted section. 
+     Oppure
 
-1. Click the downward-pointing arrow to the left of a section name to collapse it, or the right-pointing arrow  to expand it. 
-   All sections are expanded by default. 
+     Clic **Sposta in basso** per spostare la sezione verso il basso di una posizione.
+Tutti i campi della sezione vengono spostati insieme alla sezione.
 
-1. (Optional) Click the **grab** icon ![](assets/grab-icon.png) to the left of a section name, then drag and drop it in a desired spot. 
+   * Clic **Elimina** per eliminare la sezione. La sezione viene eliminata e non può essere recuperata. Tutti gli utenti che accedono ai record di questo tipo non visualizzeranno più la sezione eliminata.
 
-    The new position of the section updates in both the preview and the page of all records of the same type for all users viewing the records. 
+1. Fare clic sulla freccia rivolta verso il basso a sinistra del nome di una sezione per comprimerla oppure sulla freccia rivolta verso destra per espanderla.
+Per impostazione predefinita, tutte le sezioni vengono espanse.
 
-    All changes to sections and field order are saved automatically. 
+1. (Facoltativo) Fai clic su **afferrare** icona ![](assets/grab-icon.png) a sinistra del nome di una sezione, quindi trascinarlo e rilasciarlo nella posizione desiderata.
 
--->
+   La nuova posizione della sezione viene aggiornata sia nell&#39;anteprima che nella pagina di tutti i record dello stesso tipo per tutti gli utenti che visualizzano i record.
 
-## Ridisposizione dei campi nell&#39;anteprima record o nella pagina
+   Tutte le modifiche apportate alle sezioni e all&#39;ordine dei campi vengono salvate automaticamente.
+
+## Ridisponi i campi nella pagina di anteprima record o dettagli
 
 {{step1-to-maestro}}
 

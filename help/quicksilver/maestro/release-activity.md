@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: b2ec979cf9aa2431c8c908440c227758d9dab521
+source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
 workflow-type: tm+mt
-source-wordcount: '6045'
+source-wordcount: '6243'
 ht-degree: 0%
 
 ---
@@ -84,17 +84,27 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
-### New warning about object visibility when connecting records 
+###  New Planning section added to the left panel of a Workfront project, portfolio, and program
 
-Production: <date>
+Production: <date> 
 
 Preview: To be determined
 
-When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+We have added a new Planning section in the left panel of Workfront projects, portfolios, and programs. The new Planning section displays the Workfront Planning records connected to the Workfront object.  
 
-For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+The following actions are available from the Planning section in Workfront: 
 
-For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+* View connected Planning records 
+
+* Connect more records to the Workfront object 
+
+* Disconnect records  
+
+* Display more information about the connected records in the preview box 
+
+* Open records in the Planning area 
+
+For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).  
 
 -->
 
@@ -117,6 +127,29 @@ Anteprima: da determinare
 È stato aggiunto il pulsante &quot;Nuovo record&quot; nell’intestazione di una pagina del tipo di record. È ora possibile creare record da qualsiasi visualizzazione. Prima di questo miglioramento, era possibile creare record solo dalla vista tabella.
 
 Per ulteriori informazioni, consulta [Crea record](/help/quicksilver/maestro/records/create-records.md).
+
+
+### Nuovo avviso sulla visibilità degli oggetti durante la connessione dei record
+
+Produzione: 15 maggio 2024
+
+Anteprima: da determinare
+
+Quando si creano connessioni a tipi di oggetto esterni a Workfront Planning, viene visualizzato un messaggio che informa che tutti gli utenti che lavorano nell&#39;area di lavoro corrente avranno visibilità su tutti gli oggetti collegati e sui relativi campi di ricerca, indipendentemente dalle autorizzazioni e dai livelli di accesso nell&#39;altra applicazione.
+
+Se ad esempio si collegano progetti da campagne Workfront Planning, tutti gli utenti con accesso a Visualizza campagna avranno accesso anche alla visualizzazione dei progetti collegati e delle informazioni dai campi di ricerca, anche se non dispongono di autorizzazioni per i progetti collegati o di accesso ai progetti in generale. Quando si ricevono le autorizzazioni per le aree di lavoro, è possibile accedere ai record di Planning.
+
+Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/maestro/architecture/connect-record-types.md).
+
+## Aggiungere sezioni alle pagine di anteprima e dettagli del record
+
+Produzione: 15 maggio 2024
+
+Anteprima: da determinare
+
+Per una migliore organizzazione delle informazioni sulla pagina del record, per una migliore leggibilità e navigazione, sono state introdotte sezioni nella pagina del record. I titoli delle sezioni fungono da intestazioni che organizzano i campi in categorie distinte. Le sezioni sono completamente personalizzabili e, se necessario, possono essere espanse o compresse.
+
+Per informazioni, consulta [Gestire la pagina record](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Settimana del 6 maggio 2024
 
