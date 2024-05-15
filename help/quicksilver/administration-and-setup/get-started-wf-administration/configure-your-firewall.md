@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: c5100faf3d29182ecf62169708d39d41542a9398
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -191,7 +191,7 @@ Se l&#39;ambiente di produzione si trova nel cluster 6, aggiungere i seguenti in
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Per utilizzare il servizio e-mail di AWS</td> 
+   <td role="rowheader">Per utilizzare il servizio e-mail</td> 
    <td> 
     <ul> 
      <li>54 240 60 174</li> 
@@ -202,6 +202,15 @@ Se l&#39;ambiente di produzione si trova nel cluster 6, aggiungere i seguenti in
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54 71 252 65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Per utilizzare il servizio e-mail Mailgun</td> 
+   <td> 
+    <ul> 
+     <li>143 55 228 56 </li> 
+     <li>209.61.151.229</li> 
+     <li>69.72.43.7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -502,7 +511,7 @@ Se l’organizzazione utilizza il filtro di rete in uscita, aggiungi i seguenti 
      <li>*.workfront.com - Necessario per visualizzare le bozze in Workfront</li> 
      <li>*.proofhq.com - Necessario per visualizzare le bozze in Workfront Proof</li> 
      <li>*.proof.eu - Necessario per visualizzare le bozze in Workfront Proof</li> 
-    </ul> <p><b>NOTA</b>:  <p>Non è supportata l’aggiunta di indirizzi IP al inserisco nell'elenco Consentiti di per Workfront Proof. Sono diventati dinamici dopo il passaggio di Workfront ad AWS. È invece consigliabile consentire solo i domini Workfront Proof.</p> <p>Se si verifica un problema durante l’aggiunta di questi domini al tuo inserisco nell'elenco Consentiti di e hai bisogno di un indirizzo IP, contatta l’Assistenza clienti Workfront.</p> </p> </td> 
+    </ul> <p><b>NOTA</b>:  <p>Non è supportata l’aggiunta di indirizzi IP al tuo elenco Consentiti di per Workfront Proof. Sono diventati dinamici dopo il passaggio di Workfront ad AWS. È invece consigliabile consentire solo i domini Workfront Proof.</p> <p>Se si verifica un problema durante l’aggiunta di questi domini al tuo inserisco nell'elenco Consentiti di e hai bisogno di un indirizzo IP, contatta l’Assistenza clienti Workfront.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>

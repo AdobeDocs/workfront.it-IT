@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
-source-git-commit: bf9f524320e6c9794921fe3f865cfba964c49349
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->Versione di anteprima: 13 febbraio 2024; Produzione per rilascio rapido: questa funzione è stata rimossa da Produzione per i clienti con rilascio rapido il 18 marzo 2024; Produzione per tutti i clienti: da determinare.
-
-<span style="color: #ff0000;">Questa funzione è stata rimossa dalla produzione per i clienti con rilascio rapido il 18 marzo 2024.</span>
+>Versione di anteprima: 13 febbraio 2024; Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024); Produzione per tutti i clienti: da determinare.
 
 Abbiamo aggiunto la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni nelle seguenti aree:
 
@@ -39,9 +37,7 @@ Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti
 
 >[!NOTE]
 >
->Versione di anteprima: 21 dicembre 2023; Produzione per rilascio rapido: questa funzione è stata rimossa da Produzione per i clienti con rilascio rapido il 18 marzo 2024; Produzione per tutti i clienti: da determinare.
-
-<span style="color: #ff0000;">Questa funzione è stata rimossa dalla produzione per i clienti con rilascio rapido il 18 marzo 2024.</span>
+>Versione di anteprima: 21 dicembre 2023; Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024); Produzione per tutti i clienti: da determinare.
 
 È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.
 

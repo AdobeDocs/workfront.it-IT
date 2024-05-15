@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 912f46c87170d6b678d885ccc1fb0170526578df
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 9%
+source-wordcount: '536'
+ht-degree: 7%
 
 ---
 
@@ -27,23 +27,33 @@ Questa pagina contiene informazioni sulla struttura e il contenuto dei dati nel 
 
 Esistono diversi tipi di tabelle che è possibile utilizzare per visualizzare i dati di Workfront in modo da fornire la maggior parte delle informazioni.
 
-### Tabella corrente
+* **Tabella corrente**
 
-La tabella Current riflette i dati in modo simile a come esistono in Workfront, in ogni oggetto e nel relativo stato corrente. Tuttavia, può essere navigato con una latenza molto più bassa rispetto a Workfront.
+  La tabella Current riflette i dati in modo simile a come esistono in Workfront, in ogni oggetto e nel relativo stato corrente. Tuttavia, può essere navigato con una latenza molto più bassa rispetto a Workfront.
 
-### Tabella eventi
+* **Tabella eventi**
 
-La tabella Evento tiene traccia di ogni record di modifica in Workfront, ovvero ogni volta che un oggetto cambia stato, viene creato un record che mostra quando è avvenuta la modifica, chi ha apportato la modifica e cosa è stato modificato. Pertanto, questa tabella è utile per i confronti point-in-time. Questa tabella include solo i record degli ultimi tre anni.
+  La tabella Evento tiene traccia di ogni record di modifica in Workfront, ovvero ogni volta che un oggetto cambia stato, viene creato un record che mostra quando è avvenuta la modifica, chi ha apportato la modifica e cosa è stato modificato. Pertanto, questa tabella è utile per i confronti point-in-time. Questa tabella include solo i record degli ultimi tre anni.
 
-### Tabella cronologia giornaliera
+* **Tabella cronologia giornaliera**
 
-La tabella Cronologia giornaliera offre una versione abbreviata della tabella Evento, in quanto mostra lo stato di ciascun oggetto su base giornaliera anziché nel momento in cui si è verificato ogni singolo evento. Pertanto, questa tabella è utile per l’analisi delle tendenze.
+  La tabella Cronologia giornaliera offre una versione abbreviata della tabella Evento, in quanto mostra lo stato di ciascun oggetto su base giornaliera anziché nel momento in cui si è verificato ogni singolo evento. Pertanto, questa tabella è utile per l’analisi delle tendenze.
 
 <!-- Custom table -->
 
+## Diagramma relazioni entità
+
+Gli oggetti in Workfront (e, pertanto, nel data lake) sono definiti non solo dai singoli valori, ma anche dalle relazioni con altri oggetti. Il diagramma delle relazioni tra entità riportato di seguito fornisce una mappatura di alto livello delle relazioni tra oggetti nel data lake di Workfront. Il diagramma può essere visualizzato e scaricato utilizzando il seguente collegamento:
+
+[Diagramma delle relazioni delle entità del data lake di Workfront](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+
+>[!IMPORTANT]
+>
+>Il diagramma delle relazioni tra entità è un work in progress, in quanto tale, è solo a scopo di riferimento ed è soggetto a modifiche.
+
 ## Tabella terminologica
 
-La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (così come i loro nomi nell’interfaccia e nell’API) con i nomi equivalenti nel data lake.
+La tabella seguente mette in correlazione i nomi degli oggetti in Workfront (così come i loro nomi nell’interfaccia e nell’API) con i loro nomi equivalenti nel data lake.
 
 <table>
 <thead>

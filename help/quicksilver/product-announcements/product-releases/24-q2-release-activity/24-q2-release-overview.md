@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 873aea8f26b59e73f55ee31bf2639f0e588ec274
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2218'
 ht-degree: 0%
 
 ---
@@ -369,8 +369,7 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
                                 <p>Versione di anteprima: 13 febbraio 2024</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024)</p>
-                                <p><span style="color: #ff0000;">Questa funzione è stata rimossa dalla produzione per i clienti con rilascio rapido il 18 marzo 2024.</span></p>
+                                <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio trimestrale: da definire</p>
@@ -390,8 +389,7 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
                                 <p>Versione di anteprima: 21 dicembre 2023</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio rapido: con la versione 24.3 (14 marzo 2024)</p>
-                                <p><span style="color: #ff0000;">Questa funzione è stata rimossa dalla produzione per i clienti con rilascio rapido il 18 marzo 2024.</span></p>
+                                <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
                             <li>
                                 <p>Produzione per rilascio trimestrale: da definire</p>

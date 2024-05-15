@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -38,9 +38,13 @@ Nell’app mobile, puoi completare gli elementi di lavoro e visualizzare informa
 * Creare ed elaborare richieste Workfront
 * Tempo di connessione a una scheda orario
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Il [!DNL Adobe Workfront] l&#39;app mobile ha sostituito [!DNL Workfront Proof] app. [!DNL Workfront] I clienti ora devono utilizzare [!DNL Adobe Workfront] app mobile per eseguire revisioni e approvazioni delle bozze.
+
+>[!NOTE]
+>
+>I collegamenti ipertestuali nei campi di testo non sono supportati nell’app mobile di Workfront.
 
 Per ulteriori informazioni su [!DNL Adobe Workfront] app mobile, consulta i seguenti articoli:
 
