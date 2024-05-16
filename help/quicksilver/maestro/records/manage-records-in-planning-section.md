@@ -4,7 +4,7 @@ description: È possibile visualizzare i record connessi agli oggetti di Adobe W
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 1%
@@ -142,11 +142,11 @@ Si verificano le seguenti situazioni:
    * Vengono eliminati anche i valori dei campi Workfront connessi al record Planning.
 1. Clic **Connetti** per collegare altri record.
 
-   <!--checking with the team on the below note - not sure if if should stay Manage or be changed to Contribute??-->
+   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
-   >   Il pulsante Connetti viene visualizzato solo per le aree di lavoro per le quali si dispone di autorizzazioni Gestione.
+   >   Il pulsante Connetti viene visualizzato solo per le aree di lavoro per le quali si dispone delle autorizzazioni Contribute.
 
 1. Fare clic sui record che si desidera connettere. Si verificano le seguenti situazioni:
 

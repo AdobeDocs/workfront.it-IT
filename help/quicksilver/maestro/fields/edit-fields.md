@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,19 @@ Prima di apportare modifiche alla configurazione di un campo, è necessario cons
 * Non è possibile modificare un campo nella pagina record o in un&#39;altra visualizzazione, all&#39;esterno della visualizzazione tabella.
 * Non è possibile modificare il tipo di campo dopo il salvataggio del campo.
 * Non è possibile deselezionare l&#39;impostazione Consenti numeri negativi precedentemente selezionata per un campo Numerico, Percentuale o Valuta se sono già presenti valori negativi memorizzati nei record a cui è associato.
+* Dopo aver salvato il campo, puoi modificare la configurazione dei seguenti elementi di campo:
 
-<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
+   * Nome o descrizione di un campo
+   * Opzioni di un campo a selezione singola o multipla.
+   * Espressione di un campo Formula.
 
-* You can edit the configuration of the following fields, after they are saved:
-
-    * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
-    * The expression of a Formula field.-->
+  >[!WARNING]
+  >
+  >Quando si modificano le espressioni della formula o si aggiungono o si rimuovono opzioni da un campo di tipo selezionato, si verifica una perdita di dati per i record che contengono già informazioni memorizzate nei campi la cui configurazione viene modificata.
+  >
+  >Non viene visualizzato alcun avviso o indicazione che possa verificarsi questa perdita di dati quando si modifica la configurazione dei campi.
+  >
+  >Non viene inviata alcuna notifica agli altri utenti circa la modifica della configurazione del campo.
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
