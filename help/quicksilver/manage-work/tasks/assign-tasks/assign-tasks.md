@@ -7,16 +7,20 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
+source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '2027'
 ht-degree: 1%
 
 ---
 
 # Assegna attività
 
-{{highlighted-preview}}
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+
+<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 È possibile assegnare attività a utenti, mansioni o team per indicare chi è responsabile del completamento delle attività. È possibile assegnare un&#39;attività a più risorse contemporaneamente.
 

@@ -6,16 +6,20 @@ description: La percentuale di allocazione rappresenta la quantità di tempo in 
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: ad5d6bfda24119076df8336ed291c0ba63e2c88a
+source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '560'
 ht-degree: 1%
 
 ---
 
 # Gestire la percentuale di allocazione di utenti o ruoli sulle attività
 
-{{highlighted-preview}}
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+
+<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 La percentuale di allocazione rappresenta la quantità di tempo in cui una risorsa assegnata deve lavorare su un&#39;attività in un giorno. Rappresenta la percentuale di un giorno lavorativo (in base alla programmazione dell&#39;utente o del progetto) in cui una risorsa viene allocata per l&#39;intera durata dell&#39;attività.
 
