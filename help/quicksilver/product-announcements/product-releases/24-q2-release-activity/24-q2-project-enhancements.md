@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->Versione di anteprima: 13 febbraio 2024; Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024); Produzione per tutti i clienti: da determinare.
+>Versione di anteprima: 13 febbraio 2024; versione di produzione per tutti i clienti: con la versione 24.7 (luglio 2024).
 
 Abbiamo aggiunto la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni nelle seguenti aree:
 
@@ -37,7 +37,7 @@ Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti
 
 >[!NOTE]
 >
->Versione di anteprima: 21 dicembre 2023; Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024); Produzione per tutti i clienti: da determinare.
+>Versione di anteprima: 21 dicembre 2023; versione di produzione per tutti i clienti: con la versione 24.7 (luglio 2024).
 
 È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.
 
