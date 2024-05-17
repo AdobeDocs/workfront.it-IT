@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: cb29d7ff4854faf50195af6916dfaa6eae588764
+source-git-commit: f8cf09b085ad319955afd2b4f8b35b59bcd7d277
 workflow-type: tm+mt
-source-wordcount: '1343'
-ht-degree: 0%
+source-wordcount: '992'
+ht-degree: 1%
 
 ---
 
@@ -113,47 +113,10 @@ Con questa integrazione, il nostro obiettivo è consentire ai creativi di rimane
 
 Per consentirti di testare facilmente le nuove funzioni del programma beta, abbiamo creato un nuovo account test Frame.io e lo abbiamo collegato a un nuovo gruppo denominato `Frame.io testing` nell’ambiente Workfront Preview o Sandbox esistente.
 
-+++Espandi per visualizzare le istruzioni di test di base
-
-Per testare la funzionalità, accedi all’istanza Workfront Preview o Sandbox ed esegui i seguenti passaggi:
-
-1. **Coordinatori:** In Workfront, crea un progetto con `Frame.io testing` gruppo assegnato come gruppo di progetto.
-
-1. **Coordinatori:** In Workfront, contrassegna le attività che richiedono un lavoro creativo come abilitate per i fotogrammi (in dettagli attività) e assegna i tuoi creativi a esso (assegnali anche se desideri testare l’intero flusso di lavoro).
-
->[!NOTE]
->
->Le sottoattività non possono essere contrassegnate come abilitate per fotogrammi.
->
-
-1. **Coordinatori:** Carica il resoconto creativo e cambia lo stato del progetto in &quot;Corrente&quot;.
-
-1. **Creatività:** Controlla le e-mail per un invito al progetto Frame.io appena creato
-
-1. **Creatività:** Fai clic sul pulsante &quot;Partecipa al progetto&quot; nell’e-mail di invito per partecipare al progetto Frame.io, rivedi il documento creativo all’interno del progetto e avvia la creazione dei contenuti all’interno dello strumento Creative Cloud desiderato.
-
-1. **Creatività:** Carica le risorse create in Frame.io e aggiungetele al progetto Workfront collegato selezionando una delle attività con Frame abilitato assegnate. Selezionare l&#39;opzione per contrassegnare l&#39;attività come completata.
-
-1. **Coordinatori:** In Workfront, individua le risorse Frame.io collegate nell’attività con frame abilitato e verifica che lo stato dell’attività sia stato modificato in &quot;completato&quot;.
-
-1. **Coordinatori:** Assegna revisori/approvatori alla risorsa Frame.io collegata. Assegnati anche a te stesso come approvatore se desideri testare l’intero flusso di lavoro. (Per ulteriori informazioni sull&#39;assegnazione di revisioni/approvatori, vedere [Aggiungere altri approvatori o revisori a un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)).
-
-1. **Parti interessate:** In Workfront, puoi visualizzare la richiesta di approvazione in Home, Document Details (Dettagli documento) o nella notifica e-mail ricevuta. Apri la risorsa nel visualizzatore Frame.io, lascia un commento contenente feedback e prendi una decisione.
-
-1. **Coordinatori:** In Workfront, visualizzare i commenti creati dalle parti interessate nella sezione Aggiornamenti del documento connesso Frame.io, nonché la decisione nella sezione Approvazione o nel riquadro di riepilogo del documento.
-
-1. **Creatività:** In Frame.io, notate la decisione di approvazione complessiva presa per le vostre risorse.
-
-1. **Creatività:** All’interno di Frame.io, applica le modifiche richieste aggiungendo la versione aggiornata allo stack delle versioni della risorsa connessa.
-
-1. **Coordinatori:** In Workfront, assegna approvatori/revisori alla versione appena caricata e monitora l’avanzamento fino al momento dell’approvazione.
-
-+++
-
-+++ Espandi per visualizzare istruzioni di test dettagliate
+### Istruzioni dettagliate per il test
 
 Abbiamo creato uno scenario di test più complesso per i partecipanti che desiderano testare funzionalità aggiuntive. Una guida per questo scenario di test dettagliato può essere scaricata qui: [Scenario di test dettagliato WF + Frame.io](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
-+++
+
 
 ## Video dimostrativo
 
