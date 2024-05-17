@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
@@ -31,6 +31,14 @@ Dopo aver selezionato un tipo di record nell&#39;area di Adobe Workfront Plannin
 * Calendario
 
   Per ulteriori informazioni, consulta [Gestire la visualizzazione calendario](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+
+Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
+
+* [Creare e modificare una vista](#create-or-edit-record-views)
+* [Eliminare una visualizzazione](#delete-views)
+* [Duplicare una vista](#duplicate-views)
+  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
 
 ## Requisiti di accesso
 
@@ -93,7 +101,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * Le visualizzazioni in Workfront Planning sono specifiche per il tipo di record. Non è possibile applicare la stessa visualizzazione a due tipi di record diversi.
 * Le visualizzazioni create sono visibili solo a te e agli utenti con cui condividi le visualizzazioni.
 * Quando si modifica o si elimina una visualizzazione, questa viene modificata ed eliminata per tutti gli utenti che dispongono di autorizzazioni per la visualizzazione.
-<!--* Each user can create a maximum of 100 views. -->
+* Ogni utente può creare un massimo di 100 visualizzazioni. È possibile visualizzare più di 100 visualizzazioni per un tipo di record, ma un utente può creare solo 100 visualizzazioni.
+* È possibile condividere con altri le viste create. Per informazioni, consulta [Condividere le visualizzazioni](/help/quicksilver/maestro/access/share-views.md).
 * I seguenti elementi sono univoci per ogni visualizzazione record:
 
    * Filtro
@@ -108,14 +117,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   >[!NOTE]
   >
   > Poiché Adobe Workfront Planning è attualmente in stato beta, alcuni elementi di visualizzazione potrebbero non essere disponibili per tutte le visualizzazioni.
-
-Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
-
-* [Creare e modificare una vista](#create-or-edit-record-views)
-* [Eliminare una visualizzazione](#delete-views)
-* [Duplicare una vista](#duplicate-views)
-* [Condividere una visualizzazione](#share-a-view)
-  <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Somiglianze e differenze tra le visualizzazioni record
 
@@ -228,10 +229,6 @@ Innanzitutto, potrebbe essere necessario fare clic su **Altro** a sinistra dell&
 1. Clic **Elimina** per confermare. <!--ensure there is not another saving step here?!-->
 
    La vista viene eliminata per tutti gli utenti che possono accedere all’area dei record e non può essere recuperata.
-
-## Condividere una visualizzazione
-
-Per informazioni sulla condivisione delle visualizzazioni, vedi [Condividere le visualizzazioni](/help/quicksilver/maestro/access/share-views.md).
 
 <!--## Add a view as a favorite - this is not possible yet-->
 

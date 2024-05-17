@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 1da2e6448f7ac6f4bd5bd76846fbfc1a23c3da77
+source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
 workflow-type: tm+mt
-source-wordcount: '3729'
+source-wordcount: '3727'
 ht-degree: 3%
 
 ---
@@ -612,12 +612,12 @@ L&#39;amministratore del sistema o del gruppo può personalizzare i campi visual
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-Per impostazione predefinita, nell’intestazione del progetto sono inclusi i seguenti campi:
+Per impostazione predefinita, nell&#39;intestazione dell&#39;attività sono inclusi i campi seguenti:
 
 * Nome attività
 * Percentuale completata
 * Assegnazioni
-* Data e ora di completamento pianificate
+* Data di completamento Pianificata
 
   >[!CAUTION]
   >
