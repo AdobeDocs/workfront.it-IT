@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 8dd5e13b479bb46c982b58321d6838d7c0e64410
 workflow-type: tm+mt
-source-wordcount: '14246'
+source-wordcount: '14253'
 ht-degree: 1%
 
 ---
@@ -1936,6 +1936,7 @@ ht-degree: 1%
          * [Disattiva la condivisione della bozza tramite URL pubblico o codice incorporato](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
          * [Domande frequenti: verifica della migrazione da Adobe Workfront, Stati Uniti a EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [Il nome del documento è stato modificato dopo il caricamento e contiene un carattere non valido](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
+         * [Prova di un PowerPoint con un video incorporato](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni {#ttt-approvals}
       * [Suggerimenti, trucchi e risoluzione dei problemi per le approvazioni](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Visualizza il numero di decisioni su bozze e documenti per tutti gli utenti](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
