@@ -6,9 +6,9 @@ description: Il tuo [!DNL Adobe Workfront] Il profilo contiene informazioni su d
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 157ab840d63388b342db624824db9538d43b70b1
 workflow-type: tm+mt
-source-wordcount: '3273'
+source-wordcount: '3275'
 ht-degree: 1%
 
 ---
@@ -255,7 +255,7 @@ Queste informazioni devono essere già configurate dal [!DNL Workfront] amminist
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condizionale) [!UICONTROL Only Allow &lt;sso configuration=""&gt; Authentication]</strong></td> 
-   <td> <p> Se il [!DNL Workfront] l'amministratore ha abilitato un'integrazione SSO con [!DNL Workfront] e ha aggiornato gli utenti per l'SSO, questo campo è selezionato per impostazione predefinita. Tipo di configurazione SSO abilitata per [!DNL Workfront] in questo campo.</p> <p>Quando questo campo è selezionato, è necessario accedere a [!DNL Workfront] con le credenziali SSO. Deselezionando questa opzione sarà possibile accedere a [!DNL Workfront] con il [!DNL Workfront] credenziali.</p> <p>Per ulteriori informazioni sulla configurazione [!DNL Workfront] con una soluzione SSO, consulta <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Accesso Single Sign-On [!DNL Adobe Workfront]</a>. Per ulteriori informazioni sull'aggiornamento degli utenti per l'SSO, vedere <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Aggiornare gli utenti per il Single Sign-On</a>.</p> </td> 
+   <td> <p> Se il [!DNL Workfront] l'amministratore ha abilitato un'integrazione SSO con [!DNL Workfront] e ha aggiornato gli utenti per l'SSO, questo campo è selezionato per impostazione predefinita. Tipo di configurazione SSO abilitata per [!DNL Workfront] in questo campo.</p> <p>Quando questo campo è selezionato, è necessario accedere a [!DNL Workfront] con le credenziali SSO. Deselezionando questa opzione sarà possibile accedere a [!DNL Workfront] con il [!DNL Workfront] credenziali.</p> <p>Per ulteriori informazioni sulla configurazione [!DNL Workfront] con una soluzione SSO, consulta <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Accesso Single Sign-On [!DNL Workfront]: indice dell’articolo</a>. Per ulteriori informazioni sull'aggiornamento degli utenti per l'SSO, vedere <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Aggiornare gli utenti per il Single Sign-On</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -348,7 +348,7 @@ Specifica cosa visualizzare nel [!DNL Workfront] in questa sezione.
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Condizionale) Genera automaticamente delle bozze durante il caricamento dei documenti</strong></td> 
-   <td>Seleziona questo campo per iniziare a generare una bozza immediatamente dopo il caricamento del documento in [!DNL Workfront]. Questo campo è disabilitato per impostazione predefinita e può essere aggiornato solo da un amministratore Workfront.<br>Questo campo è disponibile solo se l’azienda ha acquistato il componente Workfront Proof per Workfront e se l’utente è abilitato come utente della bozza. Per ulteriori informazioni su Workfront Proof, consulta <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gestire le bozze in Adobe Workfront</a>.
+   <td>Seleziona questo campo per iniziare a generare una bozza immediatamente dopo il caricamento del documento in [!DNL Workfront]. Questo campo è disabilitato per impostazione predefinita e può essere aggiornato solo da un amministratore Workfront.<br>Questo campo è disponibile solo se l’azienda ha acquistato il componente Workfront Proof per Workfront e se sei abilitato come utente di bozza. Per ulteriori informazioni su Workfront Proof, consulta <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Gestire le bozze in Adobe Workfront</a>.
    <p><b>Nota:</b> I documenti caricati in una richiesta non generano automaticamente una bozza. </p></td> 
   </tr> 
  </tbody> 

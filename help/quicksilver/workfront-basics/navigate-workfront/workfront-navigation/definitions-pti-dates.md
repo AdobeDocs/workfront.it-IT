@@ -1,18 +1,21 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: Panoramica delle date di Progetto, Attività e Problema in [!DNL Adobe Workfront]
-description: Panoramica delle date di Progetto, Attività e Problema in [!DNL Adobe Workfront]
+title: Panoramica delle date di Progetto, Attività e Problema in [!DNL Workfront]
+description: Questo articolo fornisce le definizioni delle date più comuni associate ai progetti, alle attività e ai problemi in [!DNL Adobe Workfront].
 feature: Get Started with Workfront
+author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: db9193c7593ec6ce361c020b70ed02e79742eb9b
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
 
-# Panoramica delle date di Progetto, Attività e Problema in [!DNL Adobe Workfront]
+# Panoramica delle date di Progetto, Attività e Problema in [!DNL Workfront]
+
+<!-- Audited: 05/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
@@ -35,7 +38,7 @@ A seconda della [!UICONTROL Vincolo attività], potrebbe non essere possibile mo
 
 Per ulteriori informazioni, consulta [Panoramica del progetto [!UICONTROL Data Inizio Pianificata]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
+![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
 ![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
@@ -63,7 +66,7 @@ Il [!UICONTROL Data immissione] è la data di creazione di un progetto, un’att
 
 Il [!UICONTROL Data immissione] non influenza la tempistica di progetti, attività o problemi, ma è importante a scopo di tracciamento e reporting. [!DNL Workfront] genera automaticamente il [!UICONTROL Data immissione] quando l&#39;oggetto viene creato e non è possibile modificarlo manualmente.
 
-![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
+![](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## [!UICONTROL Data d&#39;Inizio Reale]
 
@@ -114,7 +117,7 @@ Il [!UICONTROL Conferma data] è la data entro la quale un utente assegnato a un
 
 ## [!UICONTROL Data Inizio Previsto]
 
-Il [!UICONTROL Data Inizio Previsto] è una data in tempo reale in cui il progetto, l’attività o il problema e tiene conto di tutti i ritardi. Questa è una data di inizio più precisa per il progetto, l&#39;attività o il problema rispetto alla [!UICONTROL Data Inizio Pianificata]. Il [!UICONTROL Data Inizio Pianificata] non tiene conto dei ritardi o delle date passate.
+Il [!UICONTROL Data Inizio Previsto] è una data in tempo reale di inizio del progetto, dell’attività o del problema e tiene conto di tutti i ritardi. Questa è una data di inizio più precisa per il progetto, l&#39;attività o il problema rispetto alla [!UICONTROL Data Inizio Pianificata]. Il [!UICONTROL Data Inizio Pianificata] non tiene conto dei ritardi o delle date passate.
 
 Quando pianifichi un progetto per la prima volta, il [!UICONTROL Data Inizio Pianificata] e [!UICONTROL Data Inizio Previsto] delle attività e del progetto sono identici. Poiché si possono verificare ritardi o è possibile che le attività vengano completate prima, il [!UICONTROL Data Inizio Previsto] può diventare diverso da [!UICONTROL Data Inizio Pianificata].
 
@@ -132,7 +135,7 @@ Per ulteriori informazioni, consulta [Panoramica del progetto [!UICONTROL Data I
 
 Il [!UICONTROL Data di completamento Prevista] è un indicatore calcolato in tempo reale di quando il progetto, l’attività o il problema verrà completato. Quando il progetto, l’attività o il problema è contrassegnato come Completato, il [!UICONTROL Data di completamento Prevista] modifiche alla data del [!UICONTROL Data di completamento effettiva].
 
-Se tutto procede senza intoppi e come pianificato [!UICONTROL Data di completamento prevista] deve corrispondere al [!UICONTROL Data di completamento Pianificata]. Altrimenti a causa dei ritardi sulle attività predecessore [!UICONTROL Data di completamento Prevista] potrebbe diventare diverso da [!UICONTROL Data di completamento Pianificata].
+Se tutto procede senza intoppi e come previsto, il [!UICONTROL Data di completamento prevista] deve corrispondere al [!UICONTROL Data di completamento Pianificata]. In caso contrario, a causa dei ritardi sulle attività predecessore, [!UICONTROL Data di completamento Prevista] potrebbe diventare diverso da [!UICONTROL Data di completamento Pianificata].
 
 Per ulteriori informazioni, consulta [Panoramica di [!UICONTROL Data di completamento Prevista] per progetti, attività e problemi](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -146,7 +149,7 @@ La data di registrazione dell’ora è la [!UICONTROL Data immissione ore] campo
 
 >[!TIP]
 >
->Il [!UICONTROL Data immissione ore] è diverso da [!UICONTROL Data immissione] in quanto non si tratta della data di creazione del registro ore, ma piuttosto della data a cui si desidera associare le ore.
+>Il [!UICONTROL Data immissione ore] è diverso da [!UICONTROL Data immissione] in quanto non è la data di creazione del registro ore, ma la data a cui si desidera associare le ore.
 
 Puoi registrare e visualizzare il tempo nelle seguenti aree di Workfront:
 

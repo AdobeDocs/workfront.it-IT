@@ -7,9 +7,9 @@ description: Esistono diversi tipi di date che mostrano la sequenza temporale de
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '990'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Questo articolo descrive le differenze tra le date stimate e quelle previste per
 
 Quando l&#39;attività viene creata per la prima volta, le date pianificate, previste e stimate devono in genere corrispondere. Esistono alcune eccezioni. 
 
-Per ulteriori informazioni sul progetto, l&#39;attività e le date del problema in Adobe Workfront, consulta [Panoramica delle date di Progetto, Attività e Problema in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Per ulteriori informazioni sul progetto, l&#39;attività e le date del problema in Adobe Workfront, consulta [Panoramica delle date di Progetto, Attività e Problema in Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Panoramica delle date pianificate
 
