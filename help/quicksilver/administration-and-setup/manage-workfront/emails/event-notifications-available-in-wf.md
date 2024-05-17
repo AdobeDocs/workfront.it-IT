@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '5121'
-ht-degree: 8%
+source-wordcount: '5201'
+ht-degree: 7%
 
 ---
 
@@ -29,6 +29,10 @@ Queste notifiche possono essere configurate a livello di sistema e di gruppo:
 I singoli utenti possono anche attivare e disattivare le notifiche dei singoli eventi nel loro profilo individuale. Per ulteriori informazioni, consulta [Modifica le tue notifiche e-mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Nelle tabelle seguenti sono elencate tutte le notifiche degli eventi di Adobe Workfront, una breve descrizione dell’evento e se l’evento è attivo o inattivo per impostazione predefinita.
+
+>[!NOTE]
+>
+>Le notifiche con il valore &quot;Attivo&quot; nella colonna Stato predefinito sono attive sia per le notifiche istantanee che per quelle giornaliere per impostazione predefinita, salvo diversa indicazione.
 
 ## Azione richiesta
 
@@ -62,7 +66,7 @@ Vedi anche [Notifiche: azione necessaria](../../../workfront-basics/using-notifi
    <td> <p>Aggiunta richiesta documento</p> </td> 
    <td> <p>Utente a cui è richiesto il documento</p> </td> 
    <td> <p>Qualcuno mi ha richiesto di caricare i documenti.</p> <p>Il richiedente del documento riceve una notifica e-mail quando riceve una richiesta di caricamento di un documento.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Documento</p> </td> 
@@ -190,14 +194,14 @@ Vedi anche [Notifiche: richieste che ho effettuato](../../../workfront-basics/us
    <td> <p>Modifica stato approvazione documento</p> </td> 
    <td> <p>Richiedente</p> </td> 
    <td> <p>Richiesta di approvazione documento completata.</p> <p>Il richiedente del documento riceve una notifica e-mail quando la richiesta di approvazione del documento viene completata.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Richiesta documento completata</p> </td> 
    <td> <p>Richiedente</p> </td> 
    <td> <p>Richiesta di caricamento documento completata.</p> <p>Il richiedente del documento riceve una notifica e-mail quando viene soddisfatta una richiesta di caricamento di un documento.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
@@ -239,28 +243,28 @@ Vedi anche [Notifiche: richieste che ho effettuato](../../../workfront-basics/us
    <td> <p>Assegnazione richiesta</p> </td> 
    <td> <p>Contatto principale problema</p> </td> 
    <td> <p>Qualcuno è assegnato alla mia richiesta.</p> <p>Il contatto principale del problema riceve una notifica e-mail quando un utente viene assegnato al problema, a meno che il contatto principale e l’utente assegnato non siano lo stesso utente.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e se il progetto utilizza una visualizzazione Help Desk.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Richiesta chiusa</p> </td> 
    <td> <p>Contatto principale problema</p> </td> 
    <td> <p>La mia richiesta è chiusa (conferma).</p> <p>Il contatto principale del problema riceve una notifica e-mail quando la richiesta viene chiusa.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e se il progetto utilizza una visualizzazione Help Desk.</p> <p>Se le notifiche di "completamento del problema" sono abilitate, verranno sempre attivate al posto di "Richiesta chiusa al contatto principale del problema". Se desideri attivare questa notifica, devi disattivare le notifiche di "completamento del problema".</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Aggiungi documento richiesta</p> </td> 
    <td> <p>Contatto principale problema</p> </td> 
    <td> <p>Un documento viene modificato o caricato su un problema per il quale sono il contatto principale.</p> <p>Il contatto principale del problema riceve una notifica e-mail quando un documento viene caricato o modificato sul problema, a meno che l’utente che ha caricato o modificato il documento non sia anche il contatto principale.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e se per il progetto è abilitata l'opzione "Pubblica come coda richieste di aiuto" nella scheda Impostazione coda.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Richiedi modifica stato</p> </td> 
    <td> <p>Contatto principale problema</p> </td> 
    <td> <p>Lo stato cambia su mia richiesta.</p> <p>Il contatto principale del problema riceve una notifica e-mail quando lo stato del problema cambia, a meno che l’utente che ha modificato lo stato non sia anche il contatto principale.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e il progetto utilizza una visualizzazione Help Desk.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -294,7 +298,7 @@ Vedi anche [Notifiche: comunicazione](../../../workfront-basics/using-notificati
    <td> <p>Commento sul documento</p> </td> 
    <td> <p>Proprietario documento</p> </td> 
    <td> <p>È stato aggiunto un commento al documento.</p> <p>Il proprietario di un documento in Workfront riceve una notifica e-mail quando un commento viene pubblicato sul documento, a meno che l'utente che lo ha pubblicato non sia anche il proprietario del documento.</p> <p>Anche tutti gli utenti che sono inclusi direttamente nel commento ricevono una notifica e-mail.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente. </p> <p>L’oggetto dell’e-mail di notifica immediata è: <em>Commenta su &lt;request name=""&gt; il &lt;project name=""&gt; (rif. &lt;request reference="" number=""&gt;)</em></p> <p> L’oggetto della notifica con riepilogo giornaliero è:<em> Digest di comunicazione &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
-   <td> <p>Attiva </p> </td> 
+   <td> <p>Attiva</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Nota</p> </td> 
@@ -315,7 +319,7 @@ Vedi anche [Notifiche: comunicazione](../../../workfront-basics/using-notificati
    <td> <p>Aggiornamento diretto</p> </td> 
    <td> <p>Membri team</p> </td> 
    <td> <p>Qualcuno include il mio team in un aggiornamento diretto.</p> <p>Un aggiornamento diretto si verifica quando un utente include specificamente un altro utente in un aggiornamento, come descritto in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Assegna tag ad altri utenti in caso di aggiornamenti</a>.</p> <p>In questo caso, qualsiasi membro del team incluso nell’aggiornamento diretto riceve una notifica e-mail relativa all’aggiornamento.</p> <p>La notifica e-mail viene inviata solo agli utenti che dispongono dei diritti di accesso all’oggetto dell’aggiornamento.</p> <p>Se l’utente che invia l’aggiornamento diretto è un membro del team incluso, l’utente che invia l’aggiornamento non riceve una notifica e-mail.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Nota</p> </td> 
@@ -327,14 +331,14 @@ Vedi anche [Notifiche: comunicazione](../../../workfront-basics/using-notificati
      <li> <p>Proprietario della nota</p> </li> 
      <li> <p>Il contatto principale</p> </li> 
     </ul> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Nota</p> </td> 
    <td> <p>Commento elemento di lavoro</p> </td> 
    <td> <p>Assegnatario elemento di lavoro</p> </td> 
    <td> <p>Qualcuno ha commentato uno dei miei elementi di lavoro.</p> <p>L’assegnatario dell’elemento di lavoro riceve una notifica e-mail ogni volta che un utente aggiunge un aggiornamento a un elemento di lavoro, a meno che l’utente che aggiunge l’aggiornamento non sia anche l’assegnatario.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Nota</p> </td> 
@@ -345,7 +349,7 @@ Vedi anche [Notifiche: comunicazione](../../../workfront-basics/using-notificati
      <li> <p>L'utente che risponde è lo stesso utente che ha effettuato la richiesta</p> </li> 
      <li> <p>L’utente non ha accesso alla visualizzazione della nota</p> </li> 
     </ul> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -378,35 +382,35 @@ Vedi anche [Notifiche: informazioni sull’approvazione](../../../workfront-basi
    <td> <p>Delega approvazione</p> </td> 
    <td> <p>Utente</p> </td> 
    <td> <p>Sono delegato come approvatore.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
    <td> <p>Modifica dello stato di approvazione del problema delegato</p> </td> 
    <td> <p>Utente che ha delegato l'approvazione</p> </td> 
    <td> <p>Una richiesta di approvazione del problema delegata è stata completata. </p> <p>Quando deleghi un’approvazione del problema a un altro utente, al termine dell’approvazione riceverai una notifica e-mail (che indica se l’approvazione del problema è stata approvata o rifiutata). </p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Progetto</p> </td> 
    <td> <p>Modifica dello stato di approvazione del progetto delegata</p> </td> 
    <td> <p>Utente che ha delegato l'approvazione</p> </td> 
    <td> <p>Una richiesta di approvazione del progetto delegata è stata completata.</p> <p>Quando deleghi l’approvazione di un progetto a un altro utente, al termine dell’approvazione riceverai una notifica e-mail, indicando se l’approvazione è stata approvata o rifiutata.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività</p> </td> 
    <td> <p>Modifica dello stato di approvazione dell'attività delegata</p> </td> 
    <td> <p>Utente che ha delegato l'approvazione</p> </td> 
    <td> <p>Lo stato di approvazione di un'attività delegata è completato.</p> <p>Quando si delega l'approvazione di un'attività a un altro utente, al termine dell'approvazione viene inviata una notifica e-mail, a prescindere dal fatto che l'approvazione venga approvata o rifiutata.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Annullamento approvazione documento all'approvatore</p> </td> 
    <td> <p>Utente che ha delegato l'approvazione</p> </td> 
    <td> <p>Richiesta di approvazione documento annullata.</p> <p>L’approvatore del documento riceve una notifica e-mail quando la richiesta di approvazione del documento viene annullata.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Scheda orario</p> </td> 
@@ -484,14 +488,14 @@ Vedi anche [Notifiche: informazioni sul lavoro assegnato a me](../../../workfron
    <td> <p>Modifica stato problema</p> </td> 
    <td> <p>Utente a cui è assegnato il problema</p> </td> 
    <td> <p>Lo stato cambia su uno degli elementi del mio lavoro.</p> <p>L’assegnatario del problema riceve una notifica e-mail quando lo stato cambia, a meno che l’utente che ha modificato lo stato non sia anche l’assegnatario.</p> <p>Una notifica viene inviata solo se lo stato del progetto è Corrente.</p> <p>Gli utenti con una licenza Light o Review non ricevono una notifica.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Aggiungi documento richiesta</p> </td> 
    <td> <p>Utente a cui è assegnato il problema</p> </td> 
    <td> <p>I documenti vengono caricati o modificati sulle richieste a cui sono assegnato.</p> <p>L’assegnatario del problema riceve una notifica e-mail quando i documenti vengono caricati o modificati in seguito a un problema da lui aggiunto.</p> <p>Una notifica e-mail non viene inviata se l’utente che ha inserito il problema è l’assegnatario del problema.</p> <p>Viene inviata una notifica solo se lo stato del progetto è Corrente e se per il progetto è abilitata l'opzione "Pubblica come coda richieste di aiuto" nella scheda Impostazione coda.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo giornaliero)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività</p> </td> 
@@ -829,14 +833,14 @@ Vedi anche [Notifiche: informazioni varie](../../../workfront-basics/using-notif
    <td> <p>Notifica aggiunta</p> </td> 
    <td> <p></p> </td> 
    <td> <p>Viene inviato un messaggio al Centro notifiche.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Documento</p> </td> 
    <td> <p>Annullamento richiesta documento</p> </td> 
    <td> <p>Utente a cui è richiesto il documento</p> </td> 
    <td> <p>Annulla una richiesta di caricamento documento da parte mia.</p> <p>Il richiedente del documento riceve una notifica e-mail quando viene annullata una richiesta di documento.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -844,7 +848,7 @@ Vedi anche [Notifiche: informazioni varie](../../../workfront-basics/using-notif
    <td> <p></p> </td> 
    <td> <p>È stato rilevato un errore che richiede la tua attenzione.</p> <p>Una notifica e-mail viene generata dopo che Workfront tenta di connettersi a un account POP. Dopo 25 tentativi, Workfront disattiva la connessione all’account POP per preservare le risorse e invia una notifica. </p> <p>La notifica e-mail viene inviata al proprietario del progetto, se l’e-mail POP è associata a una coda di richieste, o agli amministratori di Workfront, se l’account POP è associato alla funzione "Posta in arrivo" in Email Setup.
    </p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Problema</p> </td> 
@@ -872,7 +876,7 @@ Vedi anche [Notifiche: informazioni varie](../../../workfront-basics/using-notif
    <td> <p>Condivisione oggetto</p> </td> 
    <td> <p>Utente con cui l'oggetto è stato condiviso</p> </td> 
    <td> <p>Qualcuno condivide un oggetto con me.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Utente Progetto</p> </td> 
@@ -886,7 +890,7 @@ Vedi anche [Notifiche: informazioni varie](../../../workfront-basics/using-notif
    <td> <p>Progetto aggiunto a un portfolio o programma</p> </td> 
    <td> <p>Proprietario Portfolio o programma</p> </td> 
    <td> <p>Qualcuno aggiunge un progetto a un portfolio o programma di mia proprietà.</p> </td> 
-   <td> <p>Attiva</p> </td> 
+   <td> <p>Attivo (solo istantaneo)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Attività</p> </td> 
@@ -900,7 +904,7 @@ Vedi anche [Notifiche: informazioni varie](../../../workfront-basics/using-notif
    <td>Nuovo aggiornamento</td> 
    <td>Abbonato </td> 
    <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Un messaggio e-mail viene inviato quando viene effettuato un aggiornamento a un'attività, un problema o un progetto a cui sono abbonato.</span> </p> </td> 
-   <td>Attiva</td> 
+   <td>Attivo (solo istantaneo)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -918,8 +922,8 @@ Vedi anche [Notifiche: informazioni varie](../../../workfront-basics/using-notif
 Vedi anche [Notifiche: delega](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
 | Tipo Oggetto | Evento | Destinatario | Descrizione | Stato predefinito |
-|------------------|------|---------------------------------------------|--------------------------------------------------------------|---------------|
-| Attività e problemi | Delega di attività e problemi | Assegnatario | Delego le mie attività e i miei problemi (conferma) | Attiva |
-| Attività e problemi | Revoca la delega di attività e problemi | Assegnatario | Revoco la delega delle mie attività e dei miei problemi (conferma) | Attiva |
-| Attività e problemi | Delega di attività e problemi | Delega | Qualcuno mi delega le sue attività e i suoi problemi | Attiva |
-| Attività e problemi | Revoca attività e delega problemi | Delega | Qualcuno mi revoca la delega delle sue attività e dei suoi problemi | Attiva |
+|------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|
+| Attività e problemi | Delega di attività e problemi | Assegnatario | Delego le mie attività e i miei problemi (conferma) | Attivo (solo istantaneo) |
+| Attività e problemi | Revoca la delega di attività e problemi | Assegnatario | Revoco la delega delle mie attività e dei miei problemi (conferma) | Attivo (solo istantaneo) |
+| Attività e problemi | Delega di attività e problemi | Delega | Qualcuno mi delega le sue attività e i suoi problemi | Attivo (solo istantaneo) |
+| Attività e problemi | Revoca attività e delega problemi | Delega | Qualcuno mi revoca la delega delle sue attività e dei suoi problemi | Attivo (solo istantaneo) |

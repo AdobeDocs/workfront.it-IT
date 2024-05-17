@@ -6,9 +6,9 @@ description: "Le informazioni visualizzate in [!DNL Adobe Workfront] è rapprese
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: d55432667aa86db3216d10d8475962d9e441648b
+source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2441'
 ht-degree: 1%
 
 ---
@@ -300,11 +300,12 @@ Per ulteriori informazioni sulle API, consulta [API Explorer](../../../wf-api/ge
 * [!UICONTROL Raggruppa parametri] (o [!UICONTROL Interruzione di sezione])
 * [!UICONTROL Portfolio]
 * [!UICONTROL Programma]
-* [!UICONTROL Progetto] ([!UICONTROL Dati finanziari])
+* [!UICONTROL Progetto (dati finanziari)]
+   * Le informazioni finanziarie vengono compilate in [!UICONTROL Progetto (dati finanziari)] segnala solo quando i dati ad esso associati hanno meno di 5 anni. Ad esempio, se una mansione è stata assegnata a un’attività a gennaio 2015 e oggi è settembre 2021, un campo finanziario come [!UICONTROL Data di allocazione] per il ruolo non viene popolato in [!UICONTROL Progetto (dati finanziari)] rapporto.
 
-  >[!NOTE]
+  >[!CAUTION]
   >
-  >Le informazioni finanziarie vengono compilate in [!UICONTROL Progetto] ([!UICONTROL Dati finanziari]) segnala solo quando i dati ad essa associati hanno meno di 5 anni. Ad esempio, se una mansione è stata assegnata a un’attività a gennaio 2015 e oggi è settembre 2021, un campo finanziario come [!UICONTROL Data di allocazione] per il ruolo non viene popolato in [!UICONTROL Progetto (dati finanziari)] rapporto.
+  >L&#39;esecuzione di un report Progetto (Dati finanziari) comporta il ricalcolo dei dati finanziari, che può sovrascrivere i dati finanziari precedenti e richiedere molto tempo. Per ulteriori informazioni sulle conseguenze del ricalcolo dei dati finanziari, consulta [Ricalcolare i dati finanziari del progetto](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Approvazione bozza]
    * Consente di visualizzare varie informazioni sull’approvazione della bozza, tra cui: la bozza inviata per l’approvazione, informazioni sulla [!UICONTROL Approvatore], informazioni sul richiedente (se il richiedente è un [!DNL Workfront] utente), informazioni sulla versione, ID bozza e data di creazione della bozza.\

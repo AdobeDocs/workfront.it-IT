@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 44ca7103afe0a44012063f14318968183a6442f9
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '2212'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -360,13 +360,16 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
                         <p>È stata aggiunta la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni della casella Nuova attività quando si aggiunge un'attività a un progetto e in un elenco di attività di progetto.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
                                 <p>Versione di anteprima: 13 febbraio 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
                             <li>
                                 <p>Versione di produzione per tutti i clienti: con la versione 24.7 (luglio 2024)</p>
@@ -377,13 +380,16 @@ Al posto del webinar sulla versione, ti invitiamo a [registrati per Adobe Summit
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni intelligenti più rilevanti</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
                         <p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
                                 <p>Versione di anteprima: 21 dicembre 2023</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
                             <li>
                                 <p>Versione di produzione per tutti i clienti: con la versione 24.7 (luglio 2024)</p>

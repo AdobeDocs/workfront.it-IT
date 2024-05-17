@@ -6,9 +6,9 @@ description: I dati finanziari vengono calcolati su un progetto in base alle mod
 author: Alina
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: bfe77796863bb2d7d324901721fda7fa045c2c0b
+source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,8 @@ Quando la frequenza di un utente o di un ruolo cambia durante la durata di un pr
 >[!CAUTION]
 >
 >Prima di ricalcolare manualmente i dati finanziari per un determinato progetto, è possibile conservare i dati finanziari già calcolati a un tasso precedente. È consigliabile utilizzare l&#39;opzione Ricalcola dati finanziari solo se si è certi di non apportare modifiche alle informazioni esistenti o solo quando si desidera apportare tali modifiche.
+>
+>Si noti che l&#39;esecuzione di un report di progetti (dati finanziari) comporta il ricalcolo dei dati finanziari e pertanto è necessario effettuare le stesse considerazioni prima di eseguire il report.
 
 ## Mantieni dati finanziari per le attività con ore esistenti {#preserve-financial-data-for-tasks-with-existing-hours}
 
