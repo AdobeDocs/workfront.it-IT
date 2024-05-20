@@ -8,9 +8,9 @@ description: Scopri come utilizzare Workfront Proof per le recensioni al di fuor
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
-source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
+source-git-commit: 153951e3bba91d67bcfe5fbf22c0970743f0dc6e
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Questa opzione illustra un flusso di lavoro in cui i client possono visualizzare
 
 La bozza viene prima condivisa con il Project Manager (e con altri colleghi). I colleghi esaminano la bozza e, se la approvano, puoi utilizzare la funzione di condivisione per condividerla con i clienti. Per ulteriori informazioni, consulta [Condividere una bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **Crea una nuova bozza** : l’autore crea una nuova bozza in [!DNL Workfront Proof] e lo condivide con revisori interni. La finestra di progettazione imposta il project manager come proprietario della bozza.
 1. **Revisione interna** : il Project Manager e altri colleghi esaminano la bozza.
@@ -49,7 +49,7 @@ Puoi ripetere questa procedura finché la bozza non viene approvata.
 
 Questa opzione illustra un flusso di lavoro in cui il processo di verifica viene gestito dal Project Manager che crea eventuali nuove versioni (come richiesto) e condivide la bozza con il client. Non è necessario che il progettista sia coinvolto nel processo di revisione.)
 
-![internal_external_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **Crea una nuova bozza** : l’autore crea una nuova bozza in [!DNL Workfront Proof] e lo condivide con i revisori interni. Il progettista fa del Project Manager il proprietario della bozza, oppure gli assegna il ruolo di [!UICONTROL Autore] sulla bozza (vedere [Gestire i ruoli bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
