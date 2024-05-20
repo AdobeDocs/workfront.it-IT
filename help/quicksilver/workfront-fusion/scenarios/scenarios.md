@@ -9,7 +9,7 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: d2baef04d0a02a2a73dbe1dd4c46cb49a75a0d5e
+source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
 workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Questa sezione contiene i seguenti articoli:
 * [Aggiungere un filtro a uno scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
 * [Generare un modulo utilizzando IA](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
 * [Scenari di debug con [!DNL Adobe Workfront Fusion] DevTool](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
-* [Modelli di scenario](../../workfront-fusion/scenarios/templates/fusion-templates.md)
+* [Modelli di scenario](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates.md)
 * [[!DNL Adobe Workfront Fusion] esempio di scenario: connessione e-mail, [!UICONTROL Parser testo], e [!DNL Google Sheets]](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [Ripristinare una versione dello scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [Copiare moduli o scenari in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
