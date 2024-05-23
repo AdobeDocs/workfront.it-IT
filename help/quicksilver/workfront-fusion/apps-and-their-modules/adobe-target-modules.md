@@ -9,9 +9,9 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i 
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: b20f08a3c039ac2f1ece9fc4cef7ad5f58421482
+source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
 workflow-type: tm+mt
-source-wordcount: '2119'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,13 @@ Prima di utilizzare il [!DNL Adobe Target] connettore, è necessario assicurarsi
 
 ## Creare una connessione a [!DNL Adobe Target]
 
+>[!IMPORTANT]
+>
+>Le connessioni create dopo il 3 giugno 2024 richiedono una connessione server-to-server di Adobe Target.
+>
+>* Le connessioni degli account di servizio esistenti continueranno a funzionare fino a gennaio 2025. È necessario sostituire le connessioni dell’account di servizio con le connessioni server-to-server di Adobe Target entro gennaio 2024.
+>* Per creare una connessione server-to-server di Adobe Target, è necessario essere uno sviluppatore dell’organizzazione. Il ruolo sviluppatore è impostato in Adobe Admin Console.
+
 Per creare una connessione per [!DNL Adobe Target] moduli:
 
 1. Clic **[!UICONTROL Aggiungi]** accanto alla casella Connessione.
@@ -94,6 +101,11 @@ Per creare una connessione per [!DNL Adobe Target] moduli:
         <td role="rowheader">[!UICONTROL Nome connessione]</td>
         <td>
           <p>Immettere un nome per la connessione.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Tipo di connessione]</td>
+        <td>Specificare se si sta creando una connessione dell'account di servizio o una connessione server-to-server di Adobe Target.<p><b>IMPORTANTE</b>: le connessioni create dopo il 3 giugno 2024 richiedono una connessione server-to-server di Adobe Target. Le connessioni degli account di servizio esistenti continueranno a funzionare fino a gennaio 2025. È necessario sostituire le connessioni dell’account di servizio con le connessioni server-to-server di Adobe Target entro gennaio 2024.
         </td>
       </tr>
       <tr>
