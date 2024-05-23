@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: 7ab92af92fe39ae3342190ffb74a08fecbdd88ec
 workflow-type: tm+mt
-source-wordcount: '1838'
+source-wordcount: '1845'
 ht-degree: 2%
 
 ---
@@ -97,6 +97,7 @@ Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [Attività s
 | Formattazione Rich Text per i campi Paragrafo | ✓ |                                  |                 |
 | Moduli di Adobe Workfront Planning per Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copiare e incollare informazioni da un campo all&#39;altro | ✓ |                                  |                 |
+| Accedere ai record di Planning dagli oggetti di Workfront | ✓ |                                  |                 |
 
 ## Abilita Adobe Workfront Planning per gli utenti nell’istanza Workfront
 

@@ -4,18 +4,19 @@ description: È possibile visualizzare i record connessi agli oggetti di Adobe W
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
 
-<!--add this to the main TOC and the mini TOC-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
+
+<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
 
 
 # Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront
@@ -101,7 +102,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * [Connetti tipi di record](/help/quicksilver/maestro/architecture/connect-record-types.md)
    * [Connetti record](/help/quicksilver/maestro/records/connect-records.md)
 * È possibile visualizzare la sezione Planning in un oggetto Workfront, anche quando non vi sono record associati all&#39;oggetto Workfront.
-* È possibile collegare i record di Planning agli oggetti di Workfront da Workfront, nella sezione Planning.
+* È possibile connettere i record di Planning con gli oggetti di Workfront da Workfront, nella sezione Planning quando è presente almeno un record connesso all&#39;oggetto di Workfront.
+* Per connettere i record dagli oggetti Workfront, è necessario disporre delle autorizzazioni Contribute o di livello superiore per un&#39;area di lavoro.
 
 ## Gestire i record nella sezione Pianificazione
 
@@ -132,17 +134,15 @@ La pagina degli oggetti viene visualizzata in Workfront Planning.
 
    ![](assets/planning-section-on-project.png)
 
-1. Fare clic su una scheda record per visualizzare ulteriori informazioni sul record. Viene visualizzata la casella di anteprima del record.
-1. (Facoltativo) Inizia a modificare i campi nella casella di anteprima del record. Le modifiche vengono salvate automaticamente.
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della casella di anteprima per aprire la pagina dei dettagli del record.
+<!--1. Click a record card to display more information about the record. The record preview box displays.
+1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.-->
 1. Passa il puntatore del mouse su una scheda record, quindi fai clic sull&#39;icona Disconnetti record **-**, quindi fai clic su **Disconnetti**.
 Si verificano le seguenti situazioni:
    * Il record non è più connesso all&#39;oggetto Workfront.
    * L&#39;oggetto Workfront viene inoltre rimosso dal campo connesso del record da Workfront Planning.
-   * Vengono eliminati anche i valori dei campi Workfront connessi al record Planning.
+   * Vengono eliminati anche i valori dei campi di ricerca di Workfront connessi al record Planning.
 1. Clic **Connetti** per collegare altri record.
-
-   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ Si verificano le seguenti situazioni:
 
    * I record vengono immediatamente collegati all&#39;oggetto Workfront e vengono visualizzati nella sezione Planning.
    * L&#39;oggetto Workfront viene aggiunto al campo connesso del record di Workfront Planning.
-   * I valori dei campi Workfront connessi al record Planning vengono inseriti in Workfront Planning.
+   * I valori dei campi di ricerca di Workfront connessi al record Planning vengono inseriti in Workfront Planning.
 
 <!--add more steps here for what happens after clicking Connect-->
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: f042cd0466f65a7b1179026927b167ae6b208c86
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2463'
 ht-degree: 1%
 
 ---
@@ -125,9 +125,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Connetti record
-
-### Considerazioni sulla connessione dei record
+## Considerazioni sulla connessione dei record
 
 * Dopo aver connesso i tipi di record, i tipi di record collegati vengono visualizzati come campi di record collegati nella tabella dei tipi di record da cui sono collegati e nelle pagine dei record.
 * È possibile sfogliare e aggiungere record e oggetti dei tipi di record e oggetti collegati dai campi dei record collegati.
@@ -150,6 +148,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
       * [Crea record](../records/create-records.md)
 
    * Connessioni tra tipi di record o tra tipi di record e oggetti di altre applicazioni. Per informazioni, consulta [Connetti tipi di record](../architecture/connect-record-types.md)
+* È possibile connettere oggetti da Workfront a record di Workfront Planning nelle seguenti aree:
+   * Da un record Planning in Workfront Planning.
+   * Dalla sezione Planning di un oggetto Workfront.
+
+## Connetti record da Workfront Planning
 
 ### Collegare i record di Adobe Workfront Planning
 
@@ -379,3 +382,13 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
    Rimuovi i campi oggetto di Workfront dal **Campi selezionati** area.
 
    Questa operazione consente di aggiungere o rimuovere campi collegati dai record. Le informazioni associate ai campi rimossi rimangono in Adobe Experience Assets.
+
+## Connetti record da oggetti Workfront
+
+Per connettere i record di Workfront Planning dagli oggetti di Workfront, è necessario disporre delle seguenti informazioni:
+
+* Connessioni tra tipi di record e tipi di oggetti Workfront.
+* Almeno una connessione tra un record e un oggetto Workfront.
+* L&#39;amministratore del Workfront o del gruppo deve aggiungere la sezione Planning ai tipi di oggetto di Workfront che possono connettersi ai tipi di record di Planning.
+
+Per ulteriori informazioni, consulta [Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
