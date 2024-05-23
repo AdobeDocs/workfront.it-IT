@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 087e173d12e57071e77747d2150285bffb1bacae
+source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1005'
 ht-degree: 1%
 
 ---
@@ -38,7 +38,7 @@ Questo processo viene definito &quot;promozione dell&#39;ambiente&quot;.
 
 La funzionalità di promozione dell’ambiente consente di spostare oggetti relativi alla configurazione da un ambiente all’altro. Si tratta di oggetti che possono essere configurati, ad esempio progetti, team o moduli personalizzati.
 
-La promozione dell’ambiente non supporta la possibilità di spostare oggetti transazionali, (con eccezioni limitate). Gli oggetti transazionali non possono essere configurati. Alcuni esempi includono aggiornamenti delle attività di sistema e decisioni relative alle bozze.
+Poiché la promozione dell’ambiente riguarda la configurazione dell’oggetto, gli oggetti transazionali (oggetti che cambiano frequentemente o che dipendono fortemente dal caso d’uso) non vengono inclusi. Esempi di oggetti transazionali includono documenti, problemi, richieste, aggiornamenti e decisioni relative alle bozze.
 
 * [Oggetti di lavoro](#work-objects)
 * [Oggetti di reporting](#reporting-objects)
