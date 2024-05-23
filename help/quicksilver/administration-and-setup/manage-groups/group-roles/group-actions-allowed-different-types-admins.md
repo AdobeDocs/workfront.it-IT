@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 2%
@@ -46,37 +46,37 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
   <tr> 
    <td>Creare e modificare i profili utente</td> 
    <td>✓</td> 
-   <td> <p>✓*</p> </td> 
-   <td> <p>✓*</p> </td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire i sottogruppi</p> </td> 
+   <td>Creare e gestire i sottogruppi</td>
    <td>✓ </td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>Configurare le preferenze di progetto, attività e problema a livello di sistema</p> </td> 
+   <td>Configurare le preferenze di progetto, attività e problema a livello di sistema</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Attiva e disattiva le preferenze di progetto, attività e problema per gruppi e sottogruppi</p> </td> 
+   <td>Attiva e disattiva le preferenze di progetto, attività e problema per gruppi e sottogruppi</td> 
    <td>✓ ***</td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>Configurare le preferenze di orario e scheda orario a livello di sistema</p> </td> 
+   <td>Configurare le preferenze di orario e scheda orario a livello di sistema</td> 
    <td>✓ </td> 
-   <td> <p> </p> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Attiva e disattiva le preferenze orario e scheda orario per gruppi e sottogruppi</p> </td> 
+   <td>Attiva e disattiva le preferenze orario e scheda orario per gruppi e sottogruppi </td> 
    <td>✓ ***</td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
@@ -92,63 +92,63 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire moduli personalizzati</p> </td> 
+   <td>Creare e gestire moduli personalizzati</td> 
    <td>✓ </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire modelli di layout</p> </td> 
+   <td>Creare e gestire modelli di layout</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire i processi di approvazione per un gruppo</p> </td> 
+   <td>Creare e gestire i processi di approvazione per un gruppo</td> 
    <td>✓ *** </td> 
-   <td> <p>✓ ***</p> </td> 
+   <td>✓ ***</td> 
    <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire i team</p> </td> 
+   <td>Creare e gestire i team</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire i tassi di cambio</p> </td> 
+   <td>Creare e gestire i tassi di cambio</td> 
    <td>✓ </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire i tipi di lavoro</p> </td> 
+   <td>Creare e gestire i tipi di lavoro</td> 
    <td>✓ </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire percorsi milestone</p> </td> 
+   <td>Creare e gestire percorsi milestone</td> 
    <td>✓ </td> 
    <td>✓ **</td> 
    <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire le pianificazioni</p> </td> 
+   <td>Creare e gestire le pianificazioni</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire le società</p> </td> 
+   <td>Creare e gestire le società</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire i profili delle schede orario</p> </td> 
+   <td>Creare e gestire i profili delle schede orario</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -164,13 +164,13 @@ In questa tabella sono elencate le attività di amministrazione disponibili per:
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p> Creare e gestire priorità, gravità e condizioni</p> </td> 
+   <td>Creare e gestire priorità, gravità e condizioni</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Creare e gestire i tipi di rischio</p> </td> 
+   <td>Creare e gestire i tipi di rischio</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
