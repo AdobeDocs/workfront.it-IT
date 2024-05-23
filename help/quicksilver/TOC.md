@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 922e5e1924416955e8b154f226c503526d22129f
+source-git-commit: 7c205d13ec12614ddae19f3a1a286fe88d80ebac
 workflow-type: tm+mt
-source-wordcount: '14263'
+source-wordcount: '14265'
 ht-degree: 1%
 
 ---
@@ -2203,6 +2203,7 @@ ht-degree: 1%
       * [Generare un modulo utilizzando IA](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Modelli di scenario Adobe Workfront Fusion {#fusion-scenario-templates}
          * [Modelli di scenario](workfront-fusion/scenarios/templates/fusion-templates.md)
+         * [[!DNL Fusion] panoramica dei modelli](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [Creare nuovi modelli in Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
          * [Pubblicare e condividere modelli di Adobe Workfront Fusion](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [Creare scenari con i modelli di Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
