@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: bba5992184c50a159be21d78f1a9c61aa2d861d8
+source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,22 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+>[!NOTE]
+>
+>Le seguenti istruzioni sono valide solo per i nuovi piani.
+>
+>Per il piano Select:
+>
+>1. Gli amministratori di sistema non possono impostare limiti per i gruppi home.
+>2. Gli amministratori di sistema possono visualizzare solo il numero totale di licenze utilizzate in tutti i gruppi home.
+>3. Gli amministratori di gruppi non possono accedere alla pagina Licenze.
+>
+>Per i piani Prime e Ultimate:
+>
+>1. Gli amministratori di sistema possono aggiungere gruppi predefiniti alla pagina Licenze per visualizzare l&#39;utilizzo delle licenze in tali gruppi e impostare i limiti di licenza.
+>2. Gli amministratori di gruppi possono accedere alla pagina Licenze e visualizzare l&#39;utilizzo delle licenze dei gruppi da loro gestiti che sono state aggiunte alla pagina Licenze dagli amministratori di sistema.
+>3. Gli amministratori di gruppi non possono visualizzare informazioni per altri gruppi Home o aggiungere valori massimi.
+
 ## Visualizzare le licenze della tua organizzazione
 
 Il numero di licenze in uso viene aggiornato automaticamente quando si assegnano i livelli di accesso agli utenti aggiunti a Workfront. Per ulteriori informazioni, consulta [Aggiungi utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
@@ -63,7 +79,7 @@ Per visualizzare le informazioni sulle licenze nel sistema:
 
    >[!NOTE]
    >
-   >Le licenze Proof sono disponibili solo per i clienti che hanno acquistato a pagamento il componente aggiuntivo Workfront Proof, oltre alla licenza Workfront. Per informazioni su questo componente aggiuntivo, vedere [Workfront Proof: indice articolo](../../workfront-proof/workfront-proof.md).
+   >Le licenze Verifica sono disponibili solo per i clienti che hanno acquistato a pagamento il componente aggiuntivo Workfront Proof oltre alla licenza Workfront. Per informazioni su questo componente aggiuntivo, vedere [Workfront Proof: indice articolo](../../workfront-proof/workfront-proof.md).
 
 1. (Condizionale) Se viene visualizzato il messaggio **Per impostare un massimo, è necessario aggiungere un Gruppo Predefinito**, aggiungi un Gruppo predefinito nel sistema come descritto nella sezione [Aggiungere o rimuovere un gruppo predefinito nella pagina Licenze](#add-or-remove-a-home-group-to-the-licenses-page) in questo articolo.
 
@@ -73,7 +89,7 @@ Per visualizzare le informazioni sulle licenze nel sistema:
 
 ## Visualizzare informazioni sulle licenze per i componenti aggiuntivi di Workfront
 
-Se la tua organizzazione dispone del componente aggiuntivo Workfront Proof a pagamento, vengono visualizzati il numero di licenze utilizzate e il numero di licenze disponibili. Ad esempio: **5 di 10 Licenze Verifica** indica che l’organizzazione sta attualmente utilizzando 5 delle 10 licenze Workfront Proof acquistate.
+Se l&#39;organizzazione dispone del componente aggiuntivo a pagamento Workfront Proof, vengono visualizzati il numero di licenze utilizzate e il numero di licenze disponibili. Ad esempio: **5 di 10 Licenze Verifica** indica che l’organizzazione sta attualmente utilizzando 5 delle 10 licenze Workfront Proof acquistate.
 
 ![Licenza per i componenti aggiuntivi Workfront](assets/updated-licenses-page.png)
 
