@@ -6,10 +6,10 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: bf8e6c2b8a45cf65840a2ac8b3c25d11266d49f9
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 3%
+source-wordcount: '537'
+ht-degree: 0%
 
 ---
 
@@ -22,16 +22,6 @@ ht-degree: 3%
 Adobe Workfront sta modificando la gestione del sistema di utenti e password. Queste modifiche verranno implementate in una versione graduale denominata **Autenticazione avanzata** esperienza. L’autenticazione avanzata offre agli utenti un’esperienza di accesso più coerente e sicura su tutti i prodotti e i servizi Workfront.
 
 La tabella seguente fornisce dettagli sulle funzionalità correnti e future:
-
->[!IMPORTANT]
->
->La maggior parte dei clienti utilizza attualmente l’autenticazione legacy, mentre alcuni utilizzano l’autenticazione avanzata 1.0.
-> 
->Per verificare il tipo di autenticazione in uso, vai a *dominio_utente*.my.workfront.com/login. Se si viene reindirizzati a /auth/login, si utilizza l&#39;autenticazione avanzata 1.0.
-> 
->Se sei reindirizzato a https://login-a-xx.workfront.com/, dove &quot;xx&quot; potrebbe essere US (Stati Uniti), EU (Europa) o GCP (Google Cloud Platform) a seconda della tua posizione/piattaforma, stai utilizzando l’autenticazione avanzata 2.0.
->
->Tutti i clienti passeranno a Autenticazione avanzata 2.0 entro la fine del 2021.
 
 <table style="table-layout:auto"> 
  <col> 
