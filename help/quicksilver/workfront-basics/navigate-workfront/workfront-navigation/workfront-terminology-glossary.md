@@ -6,7 +6,7 @@ description: Il [!DNL Adobe Workfront] il glossario elenca i termini più comune
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: b57f5038746094dde4b98bd28361e730c28ba412
+source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
 workflow-type: tm+mt
 source-wordcount: '20060'
 ht-degree: 0%
@@ -96,7 +96,7 @@ La tabella seguente è un elenco dei termini comunemente utilizzati in Adobe Wor
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Team Agile]</td> 
-   <td>Differisce da un team tradizionale perché prende il loro lavoro potenziale da un backlog e lavorarci entro un periodo di tempo impostato chiamato [!UICONTROL Iteration].</td> 
+   <td>Si differenzia da un team tradizionale perché prende il lavoro potenziale da un backlog e lavoraci entro un periodo di tempo impostato denominato [!UICONTROL Iteration].</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Tutti I Miei Team]</td> 
