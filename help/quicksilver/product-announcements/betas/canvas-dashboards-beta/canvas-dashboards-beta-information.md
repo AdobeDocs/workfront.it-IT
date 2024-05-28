@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: eed1f0e5b8dfaebbfc312ba5a592a49487838b39
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Per un elenco di tutta la documentazione relativa alle dashboard di Canvas, cons
 
 **Pianificazione beta:**
 
-* Data di inizio della versione beta chiusa - 2 maggio 2024
+* Data di inizio della versione beta chiusa - TBA
 * Data di inizio della versione beta aperta - TBA
 * Data di rilascio pianificata - TBA
 
@@ -36,6 +36,10 @@ Per iscriverti alla versione beta:
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Dashboard**.
 
 1. Fai clic su **Partecipa alla versione beta delle dashboard di Canvas** pulsante beta nell’angolo superiore destro della pagina.
+
+   >[!NOTE]
+   >
+   >Questo pulsante è disponibile solo se l’organizzazione è stata accettata nella versione beta chiusa. Quando inizia la versione beta aperta, questa sarà disponibile per tutte le organizzazioni.
 
 1. Leggi i termini, quindi fai clic su **Accetta**. Ora sei iscritto alla versione beta; tieni presente, tuttavia, che ci vorranno alcuni minuti perché i dati Workfront diventino completamente accessibili nelle dashboard di Canvas.
 
@@ -63,12 +67,13 @@ Di seguito è riportato un elenco dei tipi di rapporto attualmente supportati ne
 
 ### Funzioni in fase di sviluppo
 
-* Rapporti tabella matrice
+* Caratteri jolly basati su data e utente per i filtri
+* Rapporti di Workfront Planning
+* Tipi di oggetto Workfront aggiuntivi
+* Rapporti Bacheche
+* Altri miglioramenti a livello di usabilità
 * Fogli di lavoro
 * Contenuto web incorporato
-* Rapporti Bacheche
-* Filtri del dashboard
-* Caratteri jolly basati su data e utente per i filtri
 
 ### Funzioni future della roadmap
 
