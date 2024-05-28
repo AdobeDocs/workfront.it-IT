@@ -7,9 +7,9 @@ description: In Adobe Workfront Fusion sono attualmente disponibili i seguenti m
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1186'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,10 @@ Per visualizzare i modelli disponibili, fai clic su **Modelli** icona ![](assets
 ## Modelli Workfront
 
 Questi modelli automatizzano i processi e i flussi di lavoro di Workfront.
+
+### [!BADGE Novità!]{type=Informative}
+
+Questo modello Fusion crea una checklist standard per tutte le schede che immettono una colonna specifica su una bacheca specifica a tempo.
 
 ### Workfront - Creazione di progetti da CSV
 
@@ -86,11 +90,11 @@ Questo modello acquisisce una previsione del progetto su base settimanale ogni l
 
 Una volta al mese, rivedi i modelli di progetto utilizzando il tuo criterio con questo modello facile da gestire che notifica agli utenti appropriati i modelli che violano il criterio.
 
-## Workfront - Modelli di bozza Workfront
+## Workfront - Modelli Workfront Proof
 
 Questi modelli automatizzano i flussi di lavoro che combinano Workfront con Workfront Proof.
 
-### Workfront Proof > Workfront - Decisione di aggiornamento progetto su bozza
+### Workfront Proof > Workfront - Aggiornamento progetto sulla decisione bozza
 
 Quando si prende una decisione su una bozza aggiunta direttamente a un progetto, questa automazione raccoglie informazioni sulla decisione della bozza, ad esempio chi ha preso la decisione, e quindi riflette questo progresso nel progetto Workfront corrispondente come aggiornamento.
 
