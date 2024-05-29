@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 3d9f6da7f4790015d4423bd8c83d751ec44249be
+source-git-commit: 6f97b6c5853bd5403c27276fbdab80ae51543bf2
 workflow-type: tm+mt
-source-wordcount: '14275'
+source-wordcount: '14300'
 ht-degree: 1%
 
 ---
@@ -897,6 +897,12 @@ ht-degree: 1%
          * [Utilizzare la vista Calendario predefinito](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
          * [Visualizza il Calendario predefinito](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [Utilizzare l&#39;area I miei aggiornamenti](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+   * Assistente AI {#ai-assistant}
+      * [Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+      * [Riepiloga utilizzando l’Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
+      * [Ottieni aiuto da Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+      * [Rivedere le formule dei campi calcolati con l’Assistente IA](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+      * [Attivare o disattivare l&#39;Assistente AI](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
    * Aggiorna elementi di lavoro e visualizza aggiornamenti {#update-work-items-view-updates}
       * [Aggiorna elementi di lavoro e visualizza aggiornamenti: indice articolo](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Panoramica della sezione Aggiornamenti](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
