@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9b1b8d8661917946230033b661ca652f5edef734
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2253'
 ht-degree: 0%
 
 ---
@@ -260,16 +260,21 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
    * **MIN**: visualizza il valore più basso tra tutti i valori provenienti da più record selezionati nel campo record collegato.
    * **SOMMA**: visualizza il totale di tutti i valori provenienti da più record selezionati nel campo record collegato.
    * **MEDIA**: visualizza la media di tutti i valori provenienti da più record selezionati nel campo record collegato.
+   * **UNIVOCO**: rimuove i duplicati dai valori dei campi di ricerca e mostra solo i valori univoci. Questa opzione non è disponibile per i tipi di campo seguenti:
+      * Paragrafo
+      * Casella di controllo
+      * Persone
 
    >[!NOTE]
    >
-   >Ad esempio, puoi collegare il record Prodotto (record collegato) dal record Campagna (record originale) e denominarlo &quot;Campo prodotto&quot;. Puoi anche scegliere di collegare il campo Budget del record Prodotto dal record Campagna e chiamarlo &quot;Budget prodotto&quot;. Se hai consentito di selezionare più record nel &quot;Campo prodotto&quot;, puoi selezionare il Prodotto 1 con un Budget di $ 120.000 e il Prodotto 2 con un Budget di $ 100.000. È possibile visualizzare le seguenti informazioni di Budget nel campo collegato dal record originale, a seconda dell&#39;aggregatore scelto:
+   >Ad esempio, puoi collegare il record Prodotto (record collegato) dal record Campagna (record originale) e denominarlo &quot;Campo prodotto&quot;. Puoi anche scegliere di collegare il campo Budget del record Prodotto dal record Campagna e chiamarlo &quot;Budget prodotto&quot;. Se è possibile selezionare più record nel &quot;Campo prodotto&quot;, è possibile selezionare il Prodotto 1 con un budget di $ 100.000 e il Prodotto 2 con un budget di $ 110.000 e il Prodotto 3 con un budget di $ 100.000. È possibile visualizzare le seguenti informazioni di Budget nel campo collegato dal record originale, a seconda dell&#39;aggregatore scelto:
    >
-   >* **Nessuno**: $ 120.000, $ 100.000
-   >* **MAX**: $ 120.000
+   >* **Nessuno**: 100.000, 110.000, 100.000
+   >* **MAX**: $ 110.000
    >* **MIN**: $ 100.000
-   >* **SOMMA**: $ 220.000
-   >* **MEDIA**: $ 110.000
+   >* **SOMMA**: $ 310.000
+   >* **MEDIA**: 103.000,33 $
+   >* **UNIVOCO**: $ 100.000
    >
 
 1. (Facoltativo) Utilizza il **ricerca** icona ![](assets/search-icon.png) per cercare un campo.

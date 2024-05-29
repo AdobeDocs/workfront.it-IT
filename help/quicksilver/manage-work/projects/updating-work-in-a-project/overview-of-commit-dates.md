@@ -7,14 +7,16 @@ description: La data di conferma è la data entro la quale un utente assegnato a
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
 
 # Panoramica sulla data di conferma
+
+<!--{{highlighted-preview}}-->
 
 La data di conferma è la data entro la quale un utente assegnato a un’attività o a un problema si impegna a completare l’attività o il problema.
 
@@ -47,6 +49,15 @@ Per informazioni, consulta [Aggiorna le date di conferma per attività e problem
 >* Qualsiasi altro utente con autorizzazioni per l’attività.
 >
 >Per ulteriori informazioni sul Proprietario dell&#39;attività, vedi [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+## Individuare la data di conferma delle attività e dei problemi
+
+La data di conferma per le attività e i problemi è disponibile nelle seguenti aree di Workfront:
+
+* Pagina Dettagli
+* Il pannello Riepilogo, dopo che un amministratore di Workfront o di gruppo lo ha aggiunto al modello di layout. Per informazioni, consulta [Personalizzare Home e Riepilogo utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
 
 ## Notifiche e aggiornamenti attivati dalla modifica della data di conferma {#notifications-and-updates-triggered-by-changing-the-commit-date}
 

@@ -6,15 +6,17 @@ description: Puoi aggiornare manualmente la data di conferma di un’attività o
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
 
 
 # Aggiorna le date di conferma per attività e problemi
+
+{{highlighted-preview}}
 
 Puoi aggiornare manualmente la data di conferma di un’attività o di un problema che ti è stato assegnato. Per ulteriori informazioni sulle date di conferma in Adobe Workfront, consulta [Panoramica sulla data di conferma](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -29,7 +31,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Piano Adobe Workfront*</td> 
+   <td role="rowheader">piano Adobe Workfront</td> 
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
@@ -63,9 +65,18 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ## Prerequisiti
 
-Prima di iniziare, devi essere assegnato all’attività o al problema per il quale devi aggiornare la Data di conferma.
+Prima di poter modificare la Data di conferma di un’attività o di un problema, è necessario essere assegnati all’attività o al problema di cui è necessario aggiornare la Data di conferma.
 
 ## Aggiorna le date di conferma per attività e problemi
+
+
+Puoi aggiornare la Data di conferma di un’attività o di un problema nelle seguenti aree di Workfront:
+
+* La sezione Dettagli di un’attività o di un problema
+<!--
+* <span class="preview">The task or issue header
+   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
+   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
 
 L’aggiornamento della data di conferma è identico per attività e problemi.
 
@@ -82,6 +93,10 @@ L’aggiornamento della data di conferma è identico per attività e problemi.
 1. Vai a un&#39;attività o a un problema che ti è stato assegnato come **Proprietario**.
 
    Per ulteriori informazioni su come individuare il proprietario dell’attività per un problema o un’attività, consulta la sezione [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) nell’articolo [Modifica attività](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+
+   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
 
 1. Clic **Dettagli Attività** o **Dettagli problema** nel pannello a sinistra.
 1. Clic **Panoramica** per espanderlo.

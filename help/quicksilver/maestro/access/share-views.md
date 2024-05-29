@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -110,7 +110,14 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
 
    <!--The Internal sharing tab should be selected by default.-->
 
-1. In **Concedi l’accesso in visualizzazione a** , inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell’elenco.  <!--replace screen shot below-->
+<!--   
+1. (Optional) Select from the following options to share the view: 
+
+* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
+* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+
+
+1. In **Concedi l’accesso in visualizzazione a** , inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell’elenco.  <!--***********replace screen shot below when global sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 

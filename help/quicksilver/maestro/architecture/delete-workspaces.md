@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: e54142e189cd4f407161401203a7f13c752ad404
+source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -102,6 +102,8 @@ Verrà aperta l&#39;ultima area di lavoro a cui si è effettuato l&#39;accesso.
 
 1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace che si desidera eliminare.
 1. Fai clic su **Altro** menu ![](assets/more-menu.png) accanto al nome dell’area di lavoro, quindi fai clic su **Elimina**.
+   <!--1. Type "**delete**" in the space provided, then click **Permanently delete**. **********AND DELETE THE STEP BELPW EXCEPT FOR THE LAST SENTENCE***********-->
+
 1. Clic **Elimina** per confermare.
 
    L’area di lavoro viene eliminata e non può essere recuperata. Verranno eliminati anche tutti i tipi di record, i record, i campi e le visualizzazioni ad essi associati. <!--ensure this is right after closed beta-->
