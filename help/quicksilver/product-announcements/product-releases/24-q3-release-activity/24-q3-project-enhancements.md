@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -19,19 +19,20 @@ Questa pagina descrive tutti i miglioramenti apportati all’ambiente di antepri
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività
+## Modifica l’attività e il problema Conferma data e condizione dall’intestazione o dalla sezione Dettagli
 
 >[!NOTE]
 >
->Versione di anteprima: 13 febbraio 2024; produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024); versione di produzione per tutti i clienti: con la versione 24.7 (luglio 2024).
+>Versione di anteprima: 30 maggio 2024; Produzione per rilascio rapido: con la versione 24.6 (13 giugno 2024); Versione di produzione per tutti i clienti: con la versione 24.7 (luglio 2024).
 
-Abbiamo aggiunto la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni nelle seguenti aree:
+Per semplificare l’aggiornamento di attività e problemi, ora sono stati aggiunti i campi Conferma data e Condizione come opzioni da aggiungere alle intestazioni delle attività e dei problemi e alla sezione Dettagli in un modello di layout. Gli utenti possono ora aggiornare questi campi dall’intestazione o dalla sezione Details (Dettagli) di una pagina, quando sono assegnati al modello di layout modificato. Prima di questo miglioramento, non era possibile aggiungere la condizione e la data di conferma delle attività e dei problemi durante la personalizzazione delle intestazioni.
 
-* Casella Nuova attività quando si aggiunge un&#39;attività a un progetto
+Per informazioni sull&#39;aggiornamento di Commit Date e sCondition, vedere i seguenti articoli:
 
-* In un elenco di attività del progetto
+* [Aggiorna condizione per attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Aggiorna la data del commit su attività e problemi](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## Assegnazioni intelligenti più rilevanti
 

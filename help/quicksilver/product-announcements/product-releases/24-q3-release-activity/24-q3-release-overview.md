@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 1%
+source-wordcount: '930'
+ht-degree: 0%
 
 ---
 
@@ -139,6 +139,26 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifica l’attività e il problema Conferma data e condizione dall’intestazione o dalla sezione Dettagli</a></p>
+                        <p><span style="color: #ff0000;"> Novità in anteprima.</span></p>
+                        <p>Per semplificare l’aggiornamento di attività e problemi, ora sono stati aggiunti i campi Conferma data e Condizione come opzioni da aggiungere alle intestazioni delle attività e dei problemi e alla sezione Dettagli in un modello di layout. Gli utenti possono ora aggiornare questi campi dall’intestazione o dalla sezione Details (Dettagli) di una pagina, quando sono assegnati al modello di layout modificato.   </p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 30 maggio 2024</p>
+                            </li>
+                            <li>
+                                <p>Produzione per rilascio rapido: con la versione 24.6 (13 giugno 2024)</p>
+                            </li>
+                            <li>
+                                <p>Versione di produzione per tutti i clienti: con la versione 24.7 (luglio 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                   <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività</a></p>
                         <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
