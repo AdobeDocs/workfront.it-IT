@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 6ec985d10a5fd7a4a9307b705f48734d76aec181
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Aggiungere una miniatura a un record
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 È possibile associare record a miniature univoche in Adobe Workfront Planning per renderle facilmente riconoscibili.
 

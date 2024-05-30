@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: d780e7729d7a2fce121f3fe101f4ab0ccb6b4cd1
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Modifica record
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 È possibile modificare le informazioni sui record in Adobe Workfront Planning modificando i valori dei campi associati ai record.
 

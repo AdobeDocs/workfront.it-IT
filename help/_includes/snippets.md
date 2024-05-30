@@ -1,7 +1,7 @@
 ---
-source-git-commit: eaf1cd4142b83a42d068e2d02fe673fa4dd25769
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2354'
 ht-degree: 1%
 
 ---
@@ -249,15 +249,17 @@ Per impostare le cartelle collegate:
 
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Pianificazione]**.
 
-## Maestro importante intro - {#maestro-important-intro}
+## Importante introduzione alla pianificazione Workfront - {#planning-important-intro}
 
 >[!IMPORTANT]
 >
 >Le informazioni contenute in questo articolo si riferiscono alla pianificazione di Adobe Workfront, una nuova offerta di Adobe Workfront.
 >
->Attualmente, Workfront Planning fa parte di un programma beta aperto a un numero limitato di clienti. Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
+>Attualmente, Workfront Planning si trova in una fase di accesso anticipato aperta a un numero limitato di clienti.
 >
->Per ulteriori informazioni su come partecipare al programma beta per Workfront Planning, contattare il rappresentante commerciale di riferimento.
+>Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
+>
+>Il rappresentante del tuo account ti informerà se partecipi a questa fase.
 >
 >Per ulteriori informazioni, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
 

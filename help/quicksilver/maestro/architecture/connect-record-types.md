@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 0%
@@ -28,7 +28,7 @@ author: Alina
 
 # Connetti tipi di record
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 È possibile utilizzare Adobe Workfront Planning per progettare aree di lavoro completamente personalizzabili che contengano i tipi di record necessari nell&#39;organizzazione. Un modo per indicare la correlazione tra i singoli tipi di record consiste nel collegarli. È inoltre possibile collegare i tipi di record di Workfront Planning a tipi di oggetto di altre applicazioni per migliorare l&#39;esperienza degli utenti e mantenere l&#39;attenzione in un&#39;unica applicazione.
 

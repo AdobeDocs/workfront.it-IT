@@ -4,17 +4,19 @@ description: Quando qualcuno ti assegna un tag in un commento del record, potres
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
 
 ---
 
-
 # Notifiche di Adobe Workfront Planning: indice articolo
 
 <!--add this to major TOC and Planning article index-->
+
+{{planning-important-intro}}
 
 Quando qualcuno ti assegna un tag in un commento del record, potresti ricevere un’e-mail o una notifica in-app per quel tag.
 

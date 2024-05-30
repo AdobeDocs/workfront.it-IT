@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 32ed7c1adee51ed134e44bb4f8114c41d14cd2df
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '99'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Informazioni di accesso di Adobe Workfront Planning: indice articolo
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 In qualità di amministratore di Workfront, devi concedere l’accesso ai tuoi utenti per utilizzare Adobe Workfront Planning.
 

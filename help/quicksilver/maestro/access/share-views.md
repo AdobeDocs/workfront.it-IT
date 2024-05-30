@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 44073ea242803e28ca00c82811ae2865747d11c3
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 1%
+source-wordcount: '617'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 # Condividere le visualizzazioni
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 È possibile condividere una visualizzazione con altri utenti per garantire la collaborazione durante l&#39;utilizzo dei record in Adobe Workfront Planning.
 
@@ -24,12 +24,12 @@ La concessione di autorizzazioni a un&#39;area di lavoro non consente ad altri u
 
 Quando si condivide una visualizzazione, si concedono ad altri utenti le autorizzazioni necessarie per accedere a tutti gli elementi della visualizzazione. Ad esempio, quando si assegnano le autorizzazioni Gestione a una visualizzazione, è possibile modificare il raggruppamento, il filtro, l&#39;ordinamento o l&#39;aspetto della barra.
 
-<!--
-You can share a view with the following entities: 
 
-* Workfront users
-* Workfront groups
-* Publicly, with users outside Workfront
+Potete condividere una vista con le seguenti entità:
+
+* Utenti Workfront
+* Gruppi Workfront
+<!--* Publicly, with users outside Workfront
 -->
 
 ## Requisiti di accesso
@@ -110,14 +110,12 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
 
    <!--The Internal sharing tab should be selected by default.-->
 
-<!--   
-1. (Optional) Select from the following options to share the view: 
+1. (Facoltativo) Per condividere la vista, selezionate una delle seguenti opzioni:
 
-* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
-* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+   * **Solo gli invitati possono accedere**: è necessario specificare gli utenti o i gruppi con cui si desidera condividere la visualizzazione. Questa è l&#39;opzione predefinita.
+   * **Tutti nell&#39;area di lavoro possono visualizzare**: tutti gli utenti che dispongono di autorizzazioni View (Visualizzazione) o di livello superiore per le aree di lavoro possono accedere alla visualizzazione.
 
-
-1. In **Concedi l’accesso in visualizzazione a** , inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell’elenco.  <!--***********replace screen shot below when global sharing is released***********-->
+1. In **Concedi l’accesso in visualizzazione a** , inizia a digitare il nome di un utente o di un gruppo, quindi fai clic su di esso quando viene visualizzato nell’elenco.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 

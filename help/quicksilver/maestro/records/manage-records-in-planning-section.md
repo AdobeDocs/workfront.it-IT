@@ -4,7 +4,7 @@ description: È possibile visualizzare i record connessi agli oggetti di Adobe W
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c2659e0b3f571053c1c014703103bfcc7935ff3c
+source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 # Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 È possibile visualizzare i record connessi agli oggetti di Adobe Workfront nella sezione Pianificazione di un oggetto di Workfront, nel pannello sinistro.
 
