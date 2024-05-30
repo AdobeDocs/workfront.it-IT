@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: 706495396b4cf733659e05e28e57c4626c104ef5
 workflow-type: tm+mt
-source-wordcount: '6669'
+source-wordcount: '6732'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,18 @@ A partire dal 30 maggio 2024, il programma Adobe Workfront Planning sta passando
 La fase di accesso anticipato è inoltre limitata ad alcuni clienti Workfront.
 
 Il rappresentante del tuo account ti informerà se hai i requisiti per partecipare alla fase di accesso anticipato.
+
+### Nuovo processo per eliminare un’area di lavoro
+
+Produzione: 30 maggio 2024
+
+Anteprima: da determinare
+
+Poiché l’impatto dell’eliminazione di un’area di lavoro può essere significativo, stiamo aggiungendo un ulteriore passaggio per confermare l’eliminazione. Ora gli utenti devono digitare &quot;delete&quot; (elimina) prima di poter completare l’eliminazione definitiva di un’area di lavoro.
+
+Le aree di lavoro eliminate e le relative informazioni non possono essere recuperate.
+
+Per ulteriori informazioni, consulta [Eliminare le aree di lavoro](/help/quicksilver/maestro/architecture/delete-workspaces.md).
 
 ## Settimana del 20 maggio 2024
 
