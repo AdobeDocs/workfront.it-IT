@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Per utilizzare Adobe Workfront Planning, è necessario disporre delle seguenti i
   </tr>  
  <td role="rowheader"><p>Contratto Adobe Workfront</p></td>
    <td>
-<p>La tua organizzazione deve essere iscritta al programma beta di Adobe Workfront Planning. </p>
+<p>L'organizzazione deve essere iscritta alla fase di accesso anticipato per Workfront Planning </p>
    </td>
   </tr>
   <tr>
@@ -94,7 +94,7 @@ Per utilizzare Adobe Workfront Planning, è necessario disporre delle seguenti i
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning closed beta program.-->
 
-Dopo aver iscritto l&#39;organizzazione al programma beta di Workfront Planning, è possibile aggiungere l&#39;area Pianificazione al menu principale di tutti gli utenti utilizzando un modello di layout.
+Dopo aver iscritto l&#39;organizzazione al programma Workfront Planning, è possibile aggiungere l&#39;area Pianificazione al menu principale di tutti gli utenti utilizzando un modello di layout.
 
 1. Accedi a **Workfront** come amministratore di Workfront.
 
