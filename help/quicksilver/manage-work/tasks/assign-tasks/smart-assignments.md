@@ -7,7 +7,7 @@ description: Quando gestisci le assegnazioni di attività e problemi, puoi utili
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: 6e6115829412b537f6a196a564088c3b6d1d6e8a
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 0%
@@ -158,6 +158,8 @@ Gli utenti sono consigliati nell’elenco a discesa delle assegnazioni intellige
 >* Se all’attività o al problema non è assegnato alcun ruolo o team, in Workfront vengono visualizzati tutti gli utenti assegnati per gli ultimi 30 giorni, fino a 50 utenti.
 >
 >* Se non sono state effettuate assegnazioni negli ultimi 30 giorni, nell&#39;elenco assegnazioni avanzate verranno visualizzati solo gli utenti che appartengono al team assegnato o a cui è stato assegnato il ruolo all&#39;elemento di lavoro.
+
+
 
 <!--the commented out piece in the tip above was live before but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--
