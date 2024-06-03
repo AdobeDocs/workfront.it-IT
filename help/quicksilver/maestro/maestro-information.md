@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -30,15 +30,24 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>Le informazioni contenute in questo articolo si riferiscono alla pianificazione di Adobe Workfront, una nuova offerta di Adobe Workfront.
+>
+>Attualmente, Workfront Planning si trova in una fase di accesso anticipato aperta a un numero limitato di clienti.
+>
+>Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
+>
+>Il rappresentante del tuo account ti informerà se partecipi a questa fase.
+>
+>Per ulteriori informazioni, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
+>
+>In alcuni casi, la documentazione a cui si fa riferimento nelle sezioni seguenti potrebbe essere disponibile dopo il rilascio delle funzioni documentate in Produzione.
 
 È possibile utilizzare questa pagina come punto di partenza per tutta la documentazione relativa ad Adobe Workfront Planning.
 
 Gli articoli nelle sezioni elencate di seguito descrivono come configurare Workfront Planning e iniziare a utilizzarlo.
 
->[!IMPORTANT]
->
->La documentazione a cui si fa riferimento nelle sezioni seguenti sarà disponibile un po’ di tempo dopo il rilascio delle funzioni in produzione.
 
 ## Panoramica generale di Adobe Workfront Planning
 

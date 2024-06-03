@@ -6,7 +6,7 @@ description: Puoi allineare manualmente due obiettivi oppure convertire i risult
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 16%
@@ -37,9 +37,9 @@ Per informazioni sull’allineamento manuale di due obiettivi, consulta [Allinea
  <tr>
  <td role="rowheader">Licenza Adobe Workfront*</td>
  <td>
- <p>Licenza corrente: Collaboratore o versione successiva</p>
+ <p>Nuova licenza: Collaboratore o versione successiva</p>
  Oppure
- <p>Licenza legacy: richiesta o superiore</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
+ <p>Licenza corrente: richiesta o successiva</p> <p>Per ulteriori informazioni, consulta <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze di Adobe Workfront</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Prodotto*</td>

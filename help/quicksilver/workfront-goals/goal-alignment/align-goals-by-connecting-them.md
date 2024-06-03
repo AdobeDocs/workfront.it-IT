@@ -6,7 +6,7 @@ description: Se sei un singolo collaboratore con un obiettivo personale, potrest
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 1%
@@ -51,9 +51,9 @@ Devi avere i seguenti:
  <tr>
  <td role="rowheader">Licenza Adobe Workfront*</td>
  <td>
- <p>Licenza corrente: Collaboratore o versione successiva</p>
+ <p>Nuova licenza: Collaboratore o versione successiva</p>
  Oppure
- <p>Licenza legacy: richiesta o superiore</p> </td>
+ <p>Licenza corrente: richiesta o successiva</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Prodotto*</td>
