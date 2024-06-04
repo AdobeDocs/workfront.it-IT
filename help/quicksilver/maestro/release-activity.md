@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '6799'
+source-wordcount: '6843'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,12 @@ Poiché l’impatto dell’eliminazione di un’area di lavoro può essere signi
 Le aree di lavoro eliminate e le relative informazioni non possono essere recuperate.
 
 Per ulteriori informazioni, consulta [Eliminare le aree di lavoro](/help/quicksilver/maestro/architecture/delete-workspaces.md).
+
+### I campi della data di ricerca sono ora disponibili nella vista Timeline
+
+È ora possibile impostare le date di inizio e di fine della visualizzazione timeline su un campo di ricerca da un record o un tipo di oggetto connesso.
+
+Per ulteriori informazioni sulla creazione delle viste, consultate [Gestire le visualizzazioni record](/help/quicksilver/maestro/views/manage-record-views.md).
 
 ## Settimana del 20 maggio 2024
 

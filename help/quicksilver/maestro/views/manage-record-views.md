@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 1369269bcb64bd32f26603608782dc996b079cb9
+source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1124'
 ht-degree: 1%
 
 ---
@@ -192,6 +192,11 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
    Il numero è un incremento generato automaticamente.
 
 1. (Condizionale) Seleziona il **Inizio** e **Date di fine** per i record che verranno visualizzati nella visualizzazione timeline o calendario.
+
+   >[!TIP]
+   >
+   >    È possibile selezionare campi data record o campi data ricerca da record o oggetti connessi.
+
 1. Fai clic su **Crea**.
 
    La vista viene visualizzata come una nuova scheda. Le visualizzazioni vengono visualizzate in ordine cronologico a partire dal momento in cui sono state create o condivise con te.
