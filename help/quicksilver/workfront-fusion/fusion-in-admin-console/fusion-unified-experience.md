@@ -7,10 +7,10 @@ description: L'accesso a Workfront Fusion tramite Adobe Experience Cloud offre u
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 0cb3a77c1b9b00fa886a3321c6a8d4119f58f84d
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 1%
+source-wordcount: '572'
+ht-degree: 0%
 
 ---
 
@@ -41,9 +41,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licenza**</td> 
    <td>
-   <p>Fabbisogno di licenza corrente: No [!DNL Workfront Fusion] requisito di licenza.</p>
-   <p>Oppure</p>
-   <p>Requisito licenza legacy: [!UICONTROL [!DNL Workfront Fusion] per l'automazione e l'integrazione del lavoro] </p> 
+   <p>Qualsiasi</p> 
   </tr> 
   <tr> 
    <td role="rowheader">Prodotto</td> 
@@ -86,7 +84,7 @@ Dopo aver effettuato l’accesso a [!DNL Adobe Experience Cloud], è possibile v
 
 Utilizza il [!UICONTROL Menu principale] icona ![](assets/main-menu-icon-left-nav.png) a sinistra della [!DNL Adobe] barra di navigazione per aprire [!UICONTROL Organizzazione] e [!UICONTROL Team] menu. Se sei un [!DNL Workfront Fusion] amministratore, il tuo [!UICONTROL Amministrazione] viene visualizzato anche qui.
 
-Per cambiare team, fai clic sul nome del team nella parte superiore della pagina, quindi seleziona il team. Questo viene visualizzato solo nelle pagine specifiche di un team, ad esempio nel caso di un generatore di scenari o [!UICONTROL Connessioni] pagina.
+Per cambiare team, fai clic sul nome del team nella parte superiore della pagina, quindi seleziona il team. Il selettore team viene visualizzato solo nelle pagine specifiche di un team, ad esempio nel caso di un generatore di scenari o [!UICONTROL Connessioni] pagina.
 
 Per cambiare organizzazione, fai clic sul nome dell’organizzazione in alto a destra dello schermo, quindi seleziona l’organizzazione.
 

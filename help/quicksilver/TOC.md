@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 6f97b6c5853bd5403c27276fbdab80ae51543bf2
+source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
 workflow-type: tm+mt
-source-wordcount: '14300'
+source-wordcount: '14314'
 ht-degree: 1%
 
 ---
@@ -161,6 +161,7 @@ ht-degree: 1%
          * [21.1 Altri miglioramenti](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Attività di rilascio di Adobe Workfront Fusion {#fusion-release}
          * [Attività di rilascio di Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Attività di rilascio di Workfront Fusion: settimana del 3 giugno 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-3.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 20 maggio 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 13 maggio 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
          * [Attività di rilascio di Workfront Fusion: settimana del 6 maggio 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
@@ -2106,6 +2107,7 @@ ht-degree: 1%
    * Introduzione ad Adobe Workfront Fusion {#get-started-with-workfront-fusion}
       * [Introduzione ad Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
       * [Panoramica di Adobe Workfront Fusion](workfront-fusion/get-started/workfront-fusion-overview.md)
+      * [Passare alla nuova esperienza in Workfront Fusion](workfront-fusion/get-started/new-fusion-ui.md)
       * [Termini di base in Adobe Workfront Fusion](workfront-fusion/get-started/basic-terms.md)
       * Genera scenari di esercitazione {#practice-scenarios-in-workfront-fusion}
          * [Creare scenari di esercitazione](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)

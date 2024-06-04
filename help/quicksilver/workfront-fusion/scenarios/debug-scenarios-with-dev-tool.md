@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion Devtool consente di comprendere e risolvere 
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 7fe35f70cfc7ef346584e3cf525c2553f867ed1f
+source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -73,9 +73,13 @@ L&#39;accesso a Devtool varia a seconda che si utilizzi Fusion in [!DNL Adobe Un
 * [Accedere a Devtool in [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [Accedere a Devtool in Classic [!DNL Fusion] esperienza](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Accedere a Devtool in [!DNL Adobe Unified Experience]
+### Accedere a Devtool in [!DNL Adobe Unified Experience] o la nuova esperienza Fusion
 
-Se utilizzi Fusion nell’Adobe Unified Shell, puoi accedere allo strumento di sviluppo dall’editor di scenari.
+Se utilizzi Fusion in Unified Shell Adobe o hai eseguito l’aggiornamento alla nuova esperienza Fusion, puoi accedere a Strumento di sviluppo dall’editor scenari.
+
+1. Fai clic su **Strumenti di supporto** ![Strumenti di supporto](assets/debugger-icon.png) nella parte inferiore dello schermo.
+
+Oppure:
 
 1. Passare all&#39;editor scenario per lo scenario di cui si desidera eseguire il debug.
 
