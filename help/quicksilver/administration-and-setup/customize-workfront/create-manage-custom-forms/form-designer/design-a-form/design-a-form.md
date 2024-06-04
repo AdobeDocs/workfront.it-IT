@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 2f7e1bb69ad1731a626306df38e97443f75257f9
+source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
 workflow-type: tm+mt
-source-wordcount: '6040'
+source-wordcount: '6078'
 ht-degree: 4%
 
 ---
@@ -248,29 +248,31 @@ Per aggiungere un campo calcolato, vedi [Aggiungere campi calcolati con il proge
 
 ### Aggiungi pulsanti di scelta, caselle di controllo e menu a discesa
 
-È possibile aggiungere pulsanti di scelta, caselle di controllo e menu a discesa a un modulo personalizzato.
+In un modulo personalizzato è possibile aggiungere pulsanti di scelta, caselle di controllo, elenchi a discesa e elenchi a discesa a selezione multipla.
 
 +++ **Espandi per visualizzare le descrizioni dei campi disponibili**
 
 * **Pulsanti di scelta**: richiede agli utenti di selezionare una sola scelta.
 * **Gruppo di caselle di controllo**: consente agli utenti di selezionare più scelte.
 * **A discesa**: fornisce un elenco di scelte a discesa.
+* **Elenco a discesa a selezione multipla**: consente agli utenti di selezionare più scelte da un elenco a discesa.
 
 +++
 
 >[!NOTE]
 >
->I campi che consentono selezioni multiple, come il gruppo di caselle di controllo e il menu a discesa, sono difficili da tracciare e raggruppare nei rapporti. Per semplificare la creazione di grafici e il raggruppamento nei report, è possibile creare campi separati per ogni scelta, ad esempio un campo di testo a riga singola.
+>I campi che consentono selezioni multiple, come il gruppo di caselle di controllo e il menu a discesa a selezione multipla, sono difficili da tracciare e raggruppare nei rapporti. Per semplificare la creazione di grafici e il raggruppamento nei report, è possibile creare campi separati per ogni scelta, ad esempio un campo di testo a riga singola.
 
-Per aggiungere pulsanti di scelta e caselle di controllo:
+Per aggiungere pulsanti di scelta, caselle di controllo e menu a discesa:
 
 1. Nella parte sinistra dello schermo, individua uno dei campi seguenti e trascinalo in una sezione dell’area di lavoro.
 
    * Pulsanti di opzione
    * Gruppo di caselle di controllo
    * A discesa
+   * Elenco a discesa multi-selezione
 
-   ![](assets/drag-field-to-section.png)
+   ![Trascinare un campo nell&#39;area di lavoro](assets/drag-field-to-section-041524.png)
 
 1. Sul lato destro della schermata, configura le opzioni disponibili per il tipo di campo personalizzato che stai aggiungendo:
 
@@ -288,6 +290,7 @@ Per aggiungere pulsanti di scelta e caselle di controllo:
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
     <li>A discesa</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -303,6 +306,7 @@ Per aggiungere pulsanti di scelta e caselle di controllo:
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
     <li>A discesa</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -314,6 +318,7 @@ Per aggiungere pulsanti di scelta e caselle di controllo:
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
     <li>A discesa</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -328,6 +333,7 @@ Per aggiungere pulsanti di scelta e caselle di controllo:
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
     <li>A discesa</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -337,6 +343,7 @@ Per aggiungere pulsanti di scelta e caselle di controllo:
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
     <li>A discesa</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -346,6 +353,7 @@ Per aggiungere pulsanti di scelta e caselle di controllo:
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
     <li>A discesa</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -370,6 +378,7 @@ Per aggiungere pulsanti di scelta e caselle di controllo:
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
     <li>A discesa</li>
+    <li>Elenco a discesa multi-selezione</li>
     </ul></td>
      </tr> 
     </tbody> 
