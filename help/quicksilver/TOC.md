@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
 workflow-type: tm+mt
-source-wordcount: '14314'
+source-wordcount: '14329'
 ht-degree: 1%
 
 ---
@@ -2046,61 +2046,62 @@ ht-degree: 1%
       * [Personalizzare la terminologia degli obiettivi di Adobe Workfront](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Condividere un obiettivo in Obiettivi di Workfront](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Abilita notifiche obiettivi di Adobe Workfront](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Maestro Adobe {#adobe-maestro}
-   * [Informazioni Adobe Maestro](maestro/maestro-information.md)
-   * [Panoramica sulla pianificazione di Adobe Workfront](maestro/maestro-overview.md)
-   * [attività sulla versione di Adobe Workfront planning](maestro/release-activity.md)
-   * Architettura Adobe Maestro {#adobe-maestro-architecture}
-      * [Architettura: indice degli articoli](maestro/architecture/architecture-information.md)
-      * [Creare aree di lavoro](maestro/architecture/create-workspaces.md)
-      * [Panoramica dei tipi di record](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-      * [Crea tipi di record](maestro/architecture/create-record-types.md)
-      * [Creare tipi di record di tassonomia](maestro/architecture/create-a-taxonomy.md)
-      * [Connetti tipi di record](maestro/architecture/connect-record-types.md)
-      * [Modifica tipi di record](maestro/architecture/edit-record-types.md)
-      * [Eliminare le aree di lavoro](maestro/architecture/delete-workspaces.md)
-      * [Modificare le aree di lavoro](maestro/architecture/edit-workspaces.md)
-      * [Elimina tipi di record](maestro/architecture/delete-record-types.md)
-      * [Esempio di connessione di tipi di record e record](maestro/architecture/example-connect-record-types-and-records.md)
-      * [Elenco dei modelli di Workspace](maestro/architecture/workspace-templates.md)
-   * Campi Adobe Maestro {#adobe-maestro-fields}
-      * [Campi: indice articolo](maestro/fields/fields-information.md)
-      * [Panoramica dei campi](maestro/fields/fields-overview.md)
-      * [Crea campi](maestro/fields/create-fields.md)
-      * [Modifica campi](maestro/fields/edit-fields.md)
-      * [Elimina campi](maestro/fields/delete-fields.md)
-      * [Panoramica sui campi formula](maestro/fields/formula-fields.md)
-   * Accesso Adobe Maestro {#adobe-maestro-access}
-      * [Informazioni di accesso di Adobe Workfront Planning: indice articolo](maestro/access/access-information.md)
-      * [Panoramica degli accessi](maestro/access/access-overview.md)
-      * [Panoramica delle autorizzazioni di condivisione nelle funzionalità di pianificazione di Adobe Workfront](maestro/access/sharing-permissions-overview.md)
-      * [Panoramica del tipo di licenza quando si utilizza la pianificazione di Adobe Workfront](maestro/access/license-type-overview.md)
-      * [Condividere le aree di lavoro](maestro/access/share-workspaces.md)
-      * [Condividere le visualizzazioni](maestro/access/share-views.md)
-   * Record Adobe Maestro {#adobe-maestro-records}
-      * [Record: indice articolo](maestro/records/records-information.md)
-      * [Crea record](maestro/records/create-records.md)
-      * [Connetti record](maestro/records/connect-records.md)
-      * [Modifica record](maestro/records/edit-records.md)
-      * [Elimina record](maestro/records/delete-records.md)
-      * [Condividere i record](maestro/records/share-records.md)
-      * [Gestisci commenti record](maestro/records/manage-record-comments.md)
-      * [Panoramica della sezione Cronologia](maestro/records/history-section-overview.md)
-      * [Aggiungere una miniatura a un record](maestro/records/add-thumbnails-to-records.md)
-      * [Aggiungere una copertina a un record](maestro/records/add-a-cover-image-to-a-record.md)
-      * [Gestire la pagina record](maestro/records/manage-the-record-page.md)
-      * [Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront](maestro/records/manage-records-in-planning-section.md)
-   * Adobe Visualizzazioni Maestro {#adobe-maestro-views}
-      * [Visualizzazioni: indice articolo](maestro/views/views-information.md)
-      * [Gestire le visualizzazioni record](maestro/views/manage-record-views.md)
-      * [Gestire la vista tabella](maestro/views/manage-the-table-view.md)
-      * [Gestire la visualizzazione della timeline](maestro/views/manage-the-timeline-view.md)
-      * [Gestire la visualizzazione calendario](maestro/views/manage-the-calendar-view.md)
-   * Notifiche Adobe Maestro {#adobe-maestro-notifications}
-      * [Notifiche di Adobe Workfront Planning: indice articolo](maestro/notifications/notifications-information.md)
-      * [Gestire le preferenze di notifica di Adobe Workfront Planning](maestro/notifications/manage-notification-preferences.md)
-      * [Gestire le notifiche e-mail di Adobe Workfront Planning](maestro/notifications/manage-planning-email-notifications.md)
-      * [Gestione delle notifiche in-app di Adobe Workfront Planning](maestro/notifications/manage-planning-in-app-notifications.md)
+* Adobe Workfront Planning {#adobe-workfront-planning}
+   * [Adobe Workfront Planning: indice articolo](planning/planning-information.md)
+   * Informazioni generali su Adobe Workfront Planning {#adobe-workfront-planning-general-information}
+      * [Informazioni generali su Adobe Workfront Planning: indice articolo](planning/general/planning-general-article-index.md)
+      * [Panoramica di Adobe Workfront Planning](planning/general/planning-overview.md)
+      * [Attività sulla versione di Adobe Workfront Planning](planning/general/release-activity.md)
+   * Architettura di Adobe Workfront Planning {#adobe-workfront-planning-architecture}
+      * [Architettura: indice degli articoli](planning/architecture/architecture-information.md)
+      * [Creare aree di lavoro](planning/architecture/create-workspaces.md)
+      * [Panoramica sui tipi di record](planning/architecture/overview-of-record-types.md)
+      * [Crea tipi di record](planning/architecture/create-record-types.md)
+      * [Connetti tipi di record](planning/architecture/connect-record-types.md)
+      * [Modifica tipi di record](planning/architecture/edit-record-types.md)
+      * [Eliminare le aree di lavoro](planning/architecture/delete-workspaces.md)
+      * [Modificare le aree di lavoro](planning/architecture/edit-workspaces.md)
+      * [Elimina tipi di record](planning/architecture/delete-record-types.md)
+      * [Esempio di connessione di tipi di record e record](planning/architecture/example-connect-record-types-and-records.md)
+      * [Elenco dei modelli di Workspace](planning/architecture/workspace-templates.md)
+   * Campi Adobe Workfront Planning {#adobe-workfront-planning-fields}
+      * [Campi: indice articolo](planning/fields/fields-information.md)
+      * [Panoramica dei campi](planning/fields/fields-overview.md)
+      * [Crea campi](planning/fields/create-fields.md)
+      * [Modifica campi](planning/fields/edit-fields.md)
+      * [Elimina campi](planning/fields/delete-fields.md)
+      * [Panoramica sui campi formula](planning/fields/formula-fields.md)
+   * Accesso ad Adobe Workfront Planning {#adobe-workfront-planning-access}
+      * [Informazioni di accesso di Adobe Workfront Planning: indice articolo](planning/access/access-information.md)
+      * [Panoramica degli accessi](planning/access/access-overview.md)
+      * [Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
+      * [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](planning/access/license-type-overview.md)
+      * [Condividere le aree di lavoro](planning/access/share-workspaces.md)
+      * [Condividere le visualizzazioni](planning/access/share-views.md)
+   * Record di Adobe Workfront Planning {#adobe-workfront-planning-records}
+      * [Record: indice articolo](planning/records/records-information.md)
+      * [Crea record](planning/records/create-records.md)
+      * [Connetti record](planning/records/connect-records.md)
+      * [Modifica record](planning/records/edit-records.md)
+      * [Elimina record](planning/records/delete-records.md)
+      * [Condividere i record](planning/records/share-records.md)
+      * [Gestisci commenti record](planning/records/manage-record-comments.md)
+      * [Panoramica della sezione Cronologia](planning/records/history-section-overview.md)
+      * [Aggiungere una miniatura a un record](planning/records/add-thumbnails-to-records.md)
+      * [Aggiungere una copertina a un record](planning/records/add-a-cover-image-to-a-record.md)
+      * [Gestire la pagina record](planning/records/manage-the-record-page.md)
+      * [Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront](planning/records/manage-records-in-planning-section.md)
+   * Viste di Adobe Workfront Planning {#adobe-workfront-planning-views}
+      * [Visualizzazioni: indice articolo](planning/views/views-information.md)
+      * [Gestire le visualizzazioni record](planning/views/manage-record-views.md)
+      * [Gestire la vista tabella](planning/views/manage-the-table-view.md)
+      * [Gestire la visualizzazione della timeline](planning/views/manage-the-timeline-view.md)
+      * [Gestire la visualizzazione calendario](planning/views/manage-the-calendar-view.md)
+   * Notifiche di Adobe Workfront Planning {#adobe-workfront-planning-notifications}
+      * [Notifiche di Adobe Workfront Planning: indice articolo](planning/notifications/notifications-information.md)
+      * [Gestire le preferenze di notifica di Adobe Workfront Planning](planning/notifications/manage-notification-preferences.md)
+      * [Gestire le notifiche e-mail di Adobe Workfront Planning](planning/notifications/manage-planning-email-notifications.md)
+      * [Gestione delle notifiche in-app di Adobe Workfront Planning](planning/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
    * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
    * [Modello per tabella di accesso Fusion](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 49335ec86057e4985477034558a271bf4efcab5e
+source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 1%
@@ -243,9 +243,9 @@ Per impostare le cartelle collegate:
       </tr>
       </table>
 
-<!-- Maestro -->
+<!-- Workfront Planning -->
 
-## Passaggio 1 - Come arrivare a Maestro - {#step1-to-maestro}
+## Passaggio 1 - Come arrivare a Maestro - {#step1-to-planning}
 
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Pianificazione]**.
 
@@ -261,7 +261,7 @@ Per impostare le cartelle collegate:
 >
 >Il rappresentante del tuo account ti informerà se partecipi a questa fase.
 >
->Per ulteriori informazioni, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/maestro/maestro-overview.md).
+>Per ulteriori informazioni, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- Manage Work -->
 
