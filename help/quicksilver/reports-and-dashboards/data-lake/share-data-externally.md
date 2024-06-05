@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 508e3c786bc6cfe676fb2cb33080c99b76c3d6a0
+source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '532'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Workfront data lake consente di utilizzare i dati Workfront della tua organizzazione con strumenti di business intelligence o archiviarli in un data warehouse esterno.
 
-Per collegare i dati del data lake di Workfront a un prodotto esterno, devi prima aggiungere tutti gli IP richiesti al inserisco nell&#39;elenco Consentiti di come descritto in [Aggiungere IP al inserisco nell&#39;elenco Consentiti di](#add-ips-to-the-allowlist) di seguito. Inoltre, la maggior parte dei prodotti richiede informazioni aggiuntive sul data lake per stabilire una connessione:
+Per collegare i dati del data lake di Workfront a un prodotto esterno, devi prima aggiungere tutti gli IP richiesti al inserisco nell&#39;elenco Consentiti come descritto in [Aggiungere IP al inserisco nell&#39;elenco Consentiti di](#add-ips-to-the-allowlist) di seguito. Inoltre, la maggior parte dei prodotti richiede informazioni aggiuntive sul data lake per stabilire una connessione:
 
 | Nome campo | Valore |
 |---------------|-------------|
@@ -36,7 +36,10 @@ Per collegare i dati del data lake di Workfront a un prodotto esterno, devi prim
 
 >[!IMPORTANT]
 >
->Una volta aggiunta una voce all’elenco Consentiti di IP, tutti gli altri indirizzi IP non sono più consentiti. Prima di utilizzare lo strumento, assicurati di aver inserito tutti gli indirizzi IP richiesti, sia per la creazione che per la lettura dello strumento di visualizzazione. In caso contrario, potrebbe verificarsi un errore relativo alle credenziali non valide.
+>Una volta aggiunta una voce al inserisco nell&#39;elenco Consentiti di, tutti gli altri indirizzi IP non sono più consentiti. Prima di utilizzare lo strumento, assicurati di aver inserito tutti gli indirizzi IP richiesti, sia per la creazione che per la lettura dello strumento di visualizzazione. In caso contrario, potrebbe verificarsi un errore relativo alle credenziali non valide.
+>
+>Se nel elenco Consentiti non è incluso alcun indirizzo IP ma si verificano ancora problemi di connessione a uno strumento BI, controllare la configurazione del server proxy per lo strumento BI.
+
 
 ## Aggiungere IP al inserisco nell&#39;elenco Consentiti di
 
@@ -50,7 +53,7 @@ Per collegare i dati del data lake di Workfront a un prodotto esterno, devi prim
 
    ![Aggiungi indirizzo IP](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
-## Rimuovere un indirizzo IP dal inserisco nell&#39;elenco Consentiti di
+## Rimozione di un indirizzo IP dal inserisco nell&#39;elenco Consentiti di
 
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **Configurazione**.
 
