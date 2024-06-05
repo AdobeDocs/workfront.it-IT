@@ -12,14 +12,20 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 6497bfa1bf8236baaf4beee38078426b754e1241
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
 
 # Creare o modificare un pacchetto di promozione dell’ambiente
+
+È necessario creare un pacchetto nell&#39;ambiente in cui copiare gli oggetti **da**. Ad esempio, se configuri un progetto nell’ambiente Sandbox di aggiornamento personalizzato e lo promuovi nell’ambiente di produzione, devi creare il pacchetto nell’ambiente Sandbox di aggiornamento personalizzato.
+
+>[!IMPORTANT]
+>
+>Se la Sandbox di aggiornamento personalizzata viene aggiornata durante la configurazione dell’oggetto per la promozione dell’ambiente, tale configurazione andrà persa con l’aggiornamento. È consigliabile non aggiornare la Sandbox di aggiornamento personalizzata a meno che tutti gli oggetti e i pacchetti di promozione dell’ambiente in sospeso non siano stati promossi correttamente.
 
 ## Creare un pacchetto
 

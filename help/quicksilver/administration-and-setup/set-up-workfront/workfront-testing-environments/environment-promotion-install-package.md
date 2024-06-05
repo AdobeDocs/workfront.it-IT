@@ -12,9 +12,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 66b9fc84c18bce2d0cecee9368a125570c822a54
+source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,12 @@ ht-degree: 0%
 # Installare un pacchetto di promozione dell’ambiente
 
 Dopo aver creato un pacchetto, puoi installarlo in un ambiente diverso.
+
+È necessario installare un pacchetto nell&#39;ambiente in cui si desidera copiare gli oggetti **a**. Ad esempio, se configuri un progetto nell’ambiente Sandbox di aggiornamento personalizzato e lo promuovi nell’ambiente di produzione, devi installare il pacchetto nell’ambiente di produzione.
+
+>[!IMPORTANT]
+>
+>Se la Sandbox di aggiornamento personalizzata viene aggiornata durante la configurazione dell’oggetto per la promozione dell’ambiente, tale configurazione andrà persa con l’aggiornamento. È consigliabile non aggiornare la Sandbox di aggiornamento personalizzata a meno che tutti gli oggetti e i pacchetti di promozione dell’ambiente in sospeso non siano stati promossi correttamente.
 
 ## Prerequisiti
 
