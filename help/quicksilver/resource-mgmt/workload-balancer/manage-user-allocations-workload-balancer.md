@@ -6,9 +6,9 @@ description: In qualità di Responsabile risorse, puoi assegnare il lavoro agli 
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ce89f7e680f11a11c8646853652f9f24ee89b14
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Gestire le allocazioni utente nel Bilanciatore dei carichi di lavoro
 
 <!-- Audited: 01/2024 -->
+
+{{highlighted-preview}}
 
 In qualità di Responsabile risorse, è possibile assegnare lavoro agli utenti e gestire le loro allocazioni giornaliere, settimanali o mensili dal Bilanciatore dei carichi di lavoro per assicurarsi che venga allocata una quantità di ore adatta alle loro programmazioni disponibili.
 
@@ -111,11 +113,14 @@ Quando si individuano le allocazioni giornaliere, settimanali o mensili per atti
 
 * Due utenti in fusi orari o pianificazioni diversi in fusi orari diversi rispetto a quelli degli utenti assegnati possono visualizzare le quantità di allocazione in modo diverso per due utenti che visualizzano gli stessi elementi di lavoro.
 
-* Quando un utente pianifica un’indisponibilità, il giorno o la parte di giorno viene visualizzato in uno sfondo grigio. Se l’amministratore di Workfront ha abilitato l’impostazione User Time Off (Ferie utente) nell’area Setup (Configura) per tenere conto del tempo libero dell’utente, le ore assegnate vengono spostate al giorno successivo disponibile nella timeline. Se l’impostazione è disabilitata, le ore allocate rimangono nel giorno contrassegnato per l’indisponibilità e l’utente visualizza come sovrassegnate. Per ulteriori informazioni, consulta [Configurare le preferenze di progetto a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Quando un utente ha programmato un’indisponibilità, il giorno o la parte di giorno vengono visualizzati in uno sfondo grigio, <span class="preview">e un’icona del velivolo indica indisponibilità</span>. Se l’amministratore di Workfront ha abilitato l’impostazione User Time Off (Ferie utente) nell’area Setup (Configura) per tenere conto del tempo libero dell’utente, le ore assegnate vengono spostate al giorno successivo disponibile nella timeline. Se l’impostazione è disabilitata, le ore allocate rimangono nel giorno contrassegnato per l’indisponibilità e l’utente visualizza come sovrassegnate. Per ulteriori informazioni, consulta [Configurare le preferenze di progetto a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >Se l&#39;indisponibilità è stata contrassegnata dopo che l&#39;utente è stato assegnato a un elemento di lavoro, è necessario ricalcolare la sequenza temporale del progetto per visualizzare l&#39;allocazione spostata. Per informazioni, consulta [Ricalcolare i timeline dei progetti](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+   * <span class="preview">Quando a un&#39;attività sono assegnati più utenti e l&#39;assegnatario principale ha programmato un&#39;indisponibilità, la sequenza temporale viene spostata (se le date non sono fisse) e le ore pianificate di tutti gli assegnatari vengono ridistribuite nella nuova durata dell&#39;attività. Se l&#39;attività ha date fisse, la sequenza temporale non viene modificata a causa del tempo libero e le ore vengono riallocate tra i giorni rimanenti.</span>
+   * <span class="preview">Se le allocazioni vengono effettuate manualmente, le ore pianificate non vengono riallocate dopo il tempo libero.</span>
 
 * Se all&#39;attività sono assegnati più utenti, la quantità di ore pianificate viene distribuita in modo uniforme a ogni utente per primo, quindi in modo uniforme a ogni giorno all&#39;interno della Durata dell&#39;attività. Questa distribuzione diventa l&#39;allocazione di ogni utente all&#39;attività.
 
