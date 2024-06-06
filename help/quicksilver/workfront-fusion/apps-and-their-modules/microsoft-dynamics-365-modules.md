@@ -9,9 +9,9 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i 
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -186,9 +186,13 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
    <td role="rowheader">[!UICONTROL Tipo di entità]</td> 
    <td>Selezionare il tipo di entità che si desidera creare nel modulo.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Seleziona campi da mappare]</td> 
+   <td>Selezionare i campi per i quali si desidera includere i valori al momento della creazione del record. I campi disponibili dipendono dal tipo di entità.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Campi proprietà [!UICONTROL]</td> 
-   <td>In questi campi immettere il valore desiderato per l'elemento di lavoro per una determinata proprietà. I campi disponibili dipendono dal tipo di entità.</td> 
+   <td> Questi sono i campi selezionati. Immettere il valore desiderato per il record per una determinata proprietà. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -321,9 +325,13 @@ Durante la configurazione di questo modulo, vengono visualizzati i campi seguent
    <td role="rowheader">[!UICONTROL Tipo di entità]</td> 
    <td>Selezionare il tipo di entità che si desidera aggiornare nel modulo.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Seleziona campi da mappare]</td> 
+   <td>Selezionare i campi per i quali si desidera includere i valori al momento della creazione del record. I campi disponibili dipendono dal tipo di entità.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Campi proprietà [!UICONTROL]</td> 
-   <td>In questi campi immettere il valore desiderato per l'elemento di lavoro per una determinata proprietà. I campi disponibili dipendono dal tipo di entità.</td> 
+   <td>Questi sono i campi selezionati. Immettere il valore desiderato per il record per una determinata proprietà.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL ID]</td> 
