@@ -1,13 +1,13 @@
 ---
 title: Impostare le notifiche di promemoria
-description: Impostare le notifiche di promemoria
+description: Le notifiche di promemoria generano e-mail inviate agli utenti in base a criteri specificati. Le notifiche di promemoria ricordano agli utenti di un’azione la necessità di eseguire per un’attività, un problema, un progetto o una scheda orario.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1215'
 ht-degree: 2%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-Le notifiche di promemoria inviano e-mail ai destinatari in base a criteri specificati. È possibile associare manualmente le notifiche di promemoria agli elementi di lavoro, ad esempio progetti, attività, problemi e schede orario.
+In qualità di amministratore di Workfront, puoi creare notifiche di promemoria per gli utenti e associarli a oggetti a cui desideri che gli utenti prestino particolare attenzione.
+
+Le notifiche di promemoria generano e-mail inviate agli utenti in base a criteri specificati. Le notifiche di promemoria ricordano agli utenti di un’azione la necessità di eseguire per un’attività, un problema, un progetto o una scheda orario.
+
+Dopo aver creato le notifiche di promemoria, gli utenti possono associarle manualmente agli elementi di lavoro, ad esempio progetti, attività, problemi e schede orario. Per informazioni, consulta [Allegare una notifica di promemoria a un oggetto](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -36,7 +40,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">piano Adobe Workfront</td> 
+   <td role="rowheader">Piano Adobe Workfront*</td> 
    <td>Qualsiasi</td> 
   </tr> 
   <tr> 
@@ -53,7 +57,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Per maggiori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Personalizzare l’e-mail di promemoria
 
@@ -126,7 +130,18 @@ Per informazioni su come creare un modello e-mail, consulta [Configurare i model
      </tr> 
      <tr> 
       <td role="rowheader">Destinatari</td> 
-      <td>Seleziona i tipi di utenti a cui desideri inviare la notifica. Consente di selezionare tra vari soggetti interessati all'oggetto, ad esempio proprietario, approvatore o assegnatario.</td> 
+      <td><p>A seconda dell’oggetto a cui si riferisce la notifica di promemoria, seleziona uno dei seguenti tipi di utenti a cui desideri inviare la notifica:</p>
+      <ul>
+      <li>Assegnato a</li>
+      <li>Immesso da</li>
+      <li>Team di progetto (tutti gli utenti del team di progetto ricevono il promemoria)</li>
+      <li>Assegnatari attività dipendenti (gli utenti assegnati ad attività dipendenti ricevono il promemoria)</li>
+      <li>Proprietario progetto</li>
+      <li>Assegnato a (gli utenti assegnati a un'attività o a un problema ricevono il promemoria)</li>
+      <li>Proprietario scheda orario</li>
+      <li>Progetti non completati</li>
+      <li>Gestore del proprietario scheda orario</li></ul>
+      </td> 
      </tr> 
     </tbody> 
    </table>

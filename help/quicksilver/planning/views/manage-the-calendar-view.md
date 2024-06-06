@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 Considera quanto segue:
 
 * È possibile creare una visualizzazione Calendario solo se a un tipo di record sono associati almeno due campi data. Quando a un tipo di record è associato uno o nessun campo data, l&#39;opzione della visualizzazione Calendario non è attiva.
+
+  È possibile selezionare i campi della data di record o i campi della data di ricerca dai tipi di oggetto o record collegati.
 * Esistono i seguenti scenari:
 
    * Se le date di inizio e di fine non contengono valori, i record non vengono visualizzati nel calendario

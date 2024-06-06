@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: f0436d0712a34ca0c92e648e6943c310edf8b7b8
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '6847'
+source-wordcount: '6853'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,6 @@ Tra maggio 2023 e dicembre 2023, tutte le funzioni di questo articolo sono state
 
 Workfront Planning è stato temporaneamente rimosso dagli ambienti Anteprima e Sandbox da gennaio 2024. Tutte le funzioni rilasciate dopo questa data sono attualmente disponibili in Produzione.
 
-
-
-
 <!--
 
 ## Week of <date>
@@ -56,14 +53,37 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md). 
 
-### New process for deleting a workspace 
+## Week of June 3, 2024
 
-Production: May 30, 2024 
+### New landing page for Workfront Planning
+
+Production: <date> 
 
 Preview: To be determined 
 
-Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/planning/architecture/delete-workspaces.md).  
+We are introducing a new landing page for Workfront Planning. The page opens after you click Planning in the Main Menu.  
 
+Some of the information on the landing page includes the following: 
+
+* An area that displays your workspaces and workspaces that are shared with you. The workspace owner is listed on each workspace card.  
+
+* If you are a Workfront administrator, the Other workspaces additional tab displays all workspaces in the system 
+
+* Links to documentation about Workfront Planning 
+
+* A get-started tutorial for Workfront Planning.  
+
+For more information, see Adobe Workfront Planning overview (help/quicksilver/maestro/maestro-overview.md). 
+
+### New onboarding experience for Workfront Planning
+
+Production: <date> 
+
+Preview: To be determined 
+
+When new users access Workfront Planning for the first time, they are now welcomed by a self-prompted onboarding tutorial that guides them through simple tasks and define the main concepts of the solution.  
+
+You can walk through the onboarding process or minimize it and revisit it at a later time.  
 -->
 
 ## Settimana del 27 maggio 2024
@@ -125,6 +145,10 @@ Le aree di lavoro eliminate e le relative informazioni non possono essere recupe
 Per ulteriori informazioni, consulta [Eliminare le aree di lavoro](/help/quicksilver/planning/architecture/delete-workspaces.md).
 
 ### I campi della data di ricerca sono ora disponibili nella vista Timeline
+
+Produzione: 31 maggio 2024
+
+Anteprima: da determinare
 
 È ora possibile impostare le date di inizio e di fine della visualizzazione timeline su un campo di ricerca da un record o un tipo di oggetto connesso.
 

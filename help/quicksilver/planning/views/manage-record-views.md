@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1083'
 ht-degree: 1%
 
 ---
@@ -172,14 +172,12 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 >
 >Quando si crea un tipo di record, per impostazione predefinita viene creata anche la vista tabella.
 >
->Per creare una visualizzazione timeline o calendario, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data. In caso contrario, le opzioni Timeline (Timeline) e Calendario (Calendar) vengono disattivate.
+>Per creare una visualizzazione timeline o calendario, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data.
+>
+>In caso contrario, le opzioni Timeline (Timeline) e Calendario (Calendar) vengono disattivate.
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    Per creare una visualizzazione timeline o calendario, il tipo di record per il quale viene creata la visualizzazione deve avere almeno due campi data. In caso contrario, le opzioni Timeline o Calendario risultano inattive.
 
 1. (Condizionale) Fai clic su **Successivo**, durante la creazione di una visualizzazione timeline o calendario.
 
@@ -195,7 +193,7 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 
    >[!TIP]
    >
-   >    È possibile selezionare campi data record o campi data ricerca da record o oggetti connessi.
+   >    È possibile selezionare i campi della data di record o i campi della data di ricerca dai tipi di oggetto o record collegati.
 
 1. Fai clic su **Crea**.
 
