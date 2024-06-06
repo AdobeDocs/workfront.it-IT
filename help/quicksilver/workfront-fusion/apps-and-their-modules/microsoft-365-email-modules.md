@@ -9,9 +9,9 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, è possibile automati
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1974'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,18 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 ## Prerequisiti
 
 Da utilizzare [!DNL Microsoft Office 365 Email] moduli, è necessario disporre di un [!DNL Microsoft Office 365 Email] account.
+
+
+
+## Collegamento di [!DNL Office 365 Email] servizio a [!DNL Workfront Fusion]
+
+Per istruzioni sulla connessione [!DNL Office 365 Email] account a [!UICONTROL Workfront Fusion], vedi [Creare una connessione a [!UICONTROL Adobe Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Alcune app Microsoft utilizzano la stessa connessione, che è associata alle autorizzazioni dei singoli utenti. Pertanto, durante la creazione di una connessione, nella schermata di consenso delle autorizzazioni vengono visualizzate tutte le autorizzazioni concesse in precedenza alla connessione dell’utente, oltre alle nuove autorizzazioni necessarie per l’applicazione corrente.
+>
+>Ad esempio, se un utente dispone delle autorizzazioni &quot;Leggi tabella&quot; concesse tramite il connettore Excel e quindi crea una connessione nel connettore Outlook per leggere le e-mail, nella schermata di consenso delle autorizzazioni verranno visualizzate sia l’autorizzazione &quot;Leggi tabella&quot; già concessa che l’autorizzazione &quot;Scrivi e-mail&quot; appena richiesta.
 
 ## [!DNL Microsoft Office 365 Email] moduli e relativi campi
 
@@ -225,7 +237,7 @@ Crea e invia un messaggio e-mail.
    <td> <p>Aggiungi l’indirizzo e-mail al quale desideri inviare i messaggi:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Inserisci il nome del contatto</p> </li> 
-     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Immetti l’indirizzo e-mail del contatto.</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Inserisci l’indirizzo e-mail del contatto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -233,7 +245,7 @@ Crea e invia un messaggio e-mail.
    <td> <p>Aggiungi i destinatari a cui vuoi inviare una copia del messaggio:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Inserisci il nome del contatto</p> </li> 
-     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Immetti l’indirizzo e-mail del contatto.</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Inserisci l’indirizzo e-mail del contatto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -241,7 +253,7 @@ Crea e invia un messaggio e-mail.
    <td> <p>Aggiungi i destinatari da copiare nel messaggio, senza consentire ad altri destinatari di visualizzare i propri nomi o indirizzi e-mail:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Inserisci il nome del contatto</p> </li> 
-     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Immetti l’indirizzo e-mail del contatto.</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Inserisci l’indirizzo e-mail del contatto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -349,7 +361,7 @@ Crea un nuovo messaggio e-mail.
    <td> <p>Aggiungi i destinatari a cui vuoi inviare i messaggi:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Inserisci il nome del contatto</p> </li> 
-     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Immetti l’indirizzo e-mail del contatto.</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Inserisci l’indirizzo e-mail del contatto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -357,7 +369,7 @@ Crea un nuovo messaggio e-mail.
    <td> <p>Aggiungi i destinatari Desideri ricevere una copia del messaggio:</p> 
     <ul> 
      <li> <p><strong>Nome</strong> </p> <p>Inserisci il nome del contatto</p> </li> 
-     <li> <p><strong>Indirizzo Email</strong> </p> <p>Immetti l’indirizzo e-mail del contatto.</p> </li> 
+     <li> <p><strong>Indirizzo e-mail</strong> </p> <p>Inserisci l’indirizzo e-mail del contatto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -365,7 +377,7 @@ Crea un nuovo messaggio e-mail.
    <td> <p>Aggiungi i destinatari da copiare nel messaggio, senza consentire ad altri destinatari di visualizzare i propri nomi o indirizzi e-mail:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Inserisci il nome del contatto</p> </li> 
-     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Immetti l’indirizzo e-mail del contatto.</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Inserisci l’indirizzo e-mail del contatto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -440,7 +452,7 @@ Aggiorna un messaggio esistente.
    <td> <p>Aggiungi l’indirizzo e-mail al quale desideri inviare i messaggi:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Inserisci il nome del contatto</p> </li> 
-     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Immetti l’indirizzo e-mail del contatto.</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Inserisci l’indirizzo e-mail del contatto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -448,7 +460,7 @@ Aggiorna un messaggio esistente.
    <td> <p>Aggiungi i destinatari Desideri ricevere una copia del messaggio:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Inserisci il nome del contatto</p> </li> 
-     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Immetti l’indirizzo e-mail del contatto.</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Inserisci l’indirizzo e-mail del contatto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -456,7 +468,7 @@ Aggiorna un messaggio esistente.
    <td> <p>Aggiungi i destinatari da copiare nel messaggio, senza consentire ad altri destinatari di visualizzare i propri nomi o indirizzi e-mail:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Inserisci il nome del contatto</p> </li> 
-     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Immetti l’indirizzo e-mail del contatto.</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Inserisci l’indirizzo e-mail del contatto.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

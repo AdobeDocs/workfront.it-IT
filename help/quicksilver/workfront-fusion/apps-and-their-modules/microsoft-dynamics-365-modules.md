@@ -9,9 +9,9 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i 
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1724'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,12 @@ Da utilizzare [!DNL Microsoft Dynamics] 365, è necessario disporre di un [!DNL 
 ## Connettere Microsoft Dynamics 365 a Workfront Fusion
 
 Puoi creare una connessione al tuo [!DNL Microsoft Dynamics 365] account direttamente da un [!DNL Microsoft Dynamics 365] modulo.
+
+>[!NOTE]
+>
+>Alcune app Microsoft utilizzano la stessa connessione, che è associata alle autorizzazioni dei singoli utenti. Pertanto, durante la creazione di una connessione, nella schermata di consenso delle autorizzazioni vengono visualizzate tutte le autorizzazioni concesse in precedenza alla connessione dell’utente, oltre alle nuove autorizzazioni necessarie per l’applicazione corrente.
+>
+>Ad esempio, se un utente dispone delle autorizzazioni &quot;Leggi tabella&quot; concesse tramite il connettore Excel e quindi crea una connessione nel connettore Outlook per leggere le e-mail, nella schermata di consenso delle autorizzazioni verranno visualizzate sia l’autorizzazione &quot;Leggi tabella&quot; già concessa che l’autorizzazione &quot;Scrivi e-mail&quot; appena richiesta.
 
 1. In qualsiasi [!DNL Microsoft Dynamics 365] modulo, fai clic su **[!UICONTROL Aggiungi]** accanto al [!UICONTROL Connessione] campo.
 1. Immettere un nome per la connessione.

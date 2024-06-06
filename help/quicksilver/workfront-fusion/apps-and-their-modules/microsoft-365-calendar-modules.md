@@ -9,9 +9,9 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, è possibile automati
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1999'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 ## Prerequisiti
 
 Da utilizzare [!DNL Microsoft Office 365 Calendar] moduli, è necessario disporre di un [!DNL Microsoft Office 365 Calendar] account.
+
+## Collegamento di [!DNL Office 365 Calendar] servizio a [!DNL Workfront Fusion]
+
+Per istruzioni sulla connessione [!DNL Office 365 Calendar] account a [!UICONTROL Workfront Fusion], vedi [Creare una connessione a [!UICONTROL Adobe Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Alcune app Microsoft utilizzano la stessa connessione, che è associata alle autorizzazioni dei singoli utenti. Pertanto, durante la creazione di una connessione, nella schermata di consenso delle autorizzazioni vengono visualizzate tutte le autorizzazioni concesse in precedenza alla connessione dell’utente, oltre alle nuove autorizzazioni necessarie per l’applicazione corrente.
+>
+>Ad esempio, se un utente dispone delle autorizzazioni &quot;Leggi tabella&quot; concesse tramite il connettore Excel e quindi crea una connessione nel connettore Outlook per leggere le e-mail, nella schermata di consenso delle autorizzazioni verranno visualizzate sia l’autorizzazione &quot;Leggi tabella&quot; già concessa che l’autorizzazione &quot;Scrivi e-mail&quot; appena richiesta.
 
 ## [!DNL Microsoft Office 365 Calendar] moduli e relativi campi
 

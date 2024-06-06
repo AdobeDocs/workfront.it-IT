@@ -10,9 +10,9 @@ description: In uno scenario Adobe Workfront Fusion, è possibile automatizzare 
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1401'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,18 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
 Per utilizzare [!DNL Miscrosoft Word Templates] con [!DNL Adobe Workfront Fusion], è necessario disporre di un [!DNL Office 365] account. Puoi crearne uno all’indirizzo www.office.com.
 
+
+
+## Collegamento di [!DNL Office] servizio a [!DNL Workfront Fusion]
+
+Per istruzioni sulla connessione [!DNL Office] account a [!UICONTROL Workfront Fusion], vedi [Creare una connessione a [!UICONTROL Adobe Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Alcune app Microsoft utilizzano la stessa connessione, che è associata alle autorizzazioni dei singoli utenti. Pertanto, durante la creazione di una connessione, nella schermata di consenso delle autorizzazioni vengono visualizzate tutte le autorizzazioni concesse in precedenza alla connessione dell’utente, oltre alle nuove autorizzazioni necessarie per l’applicazione corrente.
+>
+>Ad esempio, se un utente dispone delle autorizzazioni &quot;Leggi tabella&quot; concesse tramite il connettore Excel e quindi crea una connessione nel connettore Outlook per leggere le e-mail, nella schermata di consenso delle autorizzazioni verranno visualizzate sia l’autorizzazione &quot;Leggi tabella&quot; già concessa che l’autorizzazione &quot;Scrivi e-mail&quot; appena richiesta.
+
 ## Utilizzo di [!DNL Microsoft Word Templates] moduli
 
 È possibile utilizzare una [!DNL Microsoft Word Template] modulo per unire dati provenienti da più servizi web in un [!DNL Microsoft Word] documento.
@@ -93,14 +105,14 @@ A [!DNL Microsoft Word] il modello è un normale [!DNL Microsoft Word] documento
 Un tag di valore semplice viene semplicemente sostituito con un valore corrispondente. Il nome del tag corrisponde a [!UICONTROL Chiave] il valore del campo, che viene posizionato all&#39;interno di doppie parentesi graffe; ad esempio,
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **Esempio:** Per creare un documento con la dicitura &quot;Ciao, Petr!&quot;, puoi utilizzare un’ [!DNL Microsoft Word Template] per creare il seguente modello:
 
-<pre>&gt; Ciao &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; Ciao {{name}}!</pre>
 
 A questo scopo, imposta il modulo come segue:
 
@@ -111,7 +123,7 @@ A questo scopo, imposta il modulo come segue:
 È possibile utilizzare un tag condizione per racchiudere il testo di cui eseguire il rendering solo quando vengono soddisfatte determinate condizioni. Per racchiudere il testo, posizionalo tra i tag della condizione di apertura e chiusura, ad esempio &quot;hasPhone&quot; se la condizione è se i dati includono o meno un numero di telefono. Il nome di un tag di apertura è preceduto da un hash sign #, il nome di un tag di chiusura è preceduto da una barra /, come mostrato nell&#39;esempio seguente.
 
 **Esempio:** Per produrre un documento che includa il numero di telefono di un cliente se i dati di input includono un numero di telefono, ma nessun indirizzo e-mail, puoi utilizzare un [!DNL Microsoft Word Template] e creare il seguente modello:
-<pre>&gt; &#123;&#123;#hasPhone&#125;&#125;Telefono: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>&gt; &#123;&#123;#hasEmail&#125;&#125;E-mail: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>A questo scopo, imposta il modulo come segue:
+<pre>&gt; {{#hasPhone}}Telefono: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}}E-mail: {{email}} {{/hasEmail}}</pre>A questo scopo, imposta il modulo come segue:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +141,7 @@ Per ripetere una sezione di testo, è possibile utilizzare un tag loop, noto anc
 
 **Esempio:** Per produrre un documento in cui sono elencati il nome e il numero di telefono di ogni contatto in un elenco clienti, è possibile utilizzare una [!DNL Microsoft Word Template] e creare il seguente modello:
 
-<pre>&gt; &#123;&#123;#contact&#125;&#125;</pre><pre>&gt;     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>&gt; &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 A questo scopo, imposta il modulo come segue:
 

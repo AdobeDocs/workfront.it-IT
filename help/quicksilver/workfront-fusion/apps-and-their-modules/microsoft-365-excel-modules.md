@@ -9,9 +9,9 @@ description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2744'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,18 @@ Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe
 
 Da utilizzare [!DNL Microsoft office 365 Excel], è necessario disporre di un account Microsoft.
 
+
+
+## Collegamento di [!DNL Office 365 Excel] servizio a [!DNL Workfront Fusion]
+
+Per istruzioni sulla connessione [!DNL Office 365 Excel] account a [!UICONTROL Workfront Fusion], vedi [Creare una connessione a [!UICONTROL Adobe Workfront Fusion] - Istruzioni di base](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Alcune app Microsoft utilizzano la stessa connessione, che è associata alle autorizzazioni dei singoli utenti. Pertanto, durante la creazione di una connessione, nella schermata di consenso delle autorizzazioni vengono visualizzate tutte le autorizzazioni concesse in precedenza alla connessione dell’utente, oltre alle nuove autorizzazioni necessarie per l’applicazione corrente.
+>
+>Ad esempio, se un utente dispone delle autorizzazioni &quot;Leggi tabella&quot; concesse tramite il connettore Excel e quindi crea una connessione nel connettore Outlook per leggere le e-mail, nella schermata di consenso delle autorizzazioni verranno visualizzate sia l’autorizzazione &quot;Leggi tabella&quot; già concessa che l’autorizzazione &quot;Scrivi e-mail&quot; appena richiesta.
+
 ## [!DNL Microsoft Office 365 Excel] moduli e relativi campi
 
 Quando si configura [!DNL Microsoft 365 Excel] moduli, [!DNL Workfront Fusion] visualizza i campi elencati di seguito. Oltre a questi, ulteriori [!DNL Microsoft 365 Excel] I campi potrebbero essere visualizzati in base a fattori quali il livello di accesso nell’app o nel servizio. Un titolo in grassetto in un modulo indica un campo obbligatorio.
@@ -76,7 +88,7 @@ Se viene visualizzato il pulsante Mappa sopra un campo o una funzione, è possib
 ![](assets/map-toggle-350x74.png)
 
 * [Cartella di lavoro](#workbook)
-* [Worksheet](#worksheet)
+* [Foglio di lavoro](#worksheet)
 * [Tabella](#table)
 * [Altro](#other)
 
@@ -163,7 +175,7 @@ Questo modulo di azione scarica il contenuto della cartella di lavoro di Excel s
  </tbody> 
 </table>
 
-### Worksheet
+### Foglio di lavoro
 
 * [[!UICONTROL Visualizza righe foglio di lavoro]](#watch-worksheet-rows)
 * [[!UICONTROL Elenco fogli di lavoro]](#list-worksheets)
@@ -345,7 +357,7 @@ Questo modulo di azione aggiorna una riga del foglio di lavoro esistente.
   <tr> 
     <td role="rowheader" >[!UICONTROL Riga]</td>
     <td>Per ogni colonna, immettere il valore desiderato per la colonna nella nuova riga.</td>
-   —&gt; 
+   --&gt; 
   </tr> 
  </tbody> 
 </table>
