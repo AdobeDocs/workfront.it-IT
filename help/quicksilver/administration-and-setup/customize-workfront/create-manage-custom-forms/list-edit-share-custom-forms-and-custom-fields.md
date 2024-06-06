@@ -4,9 +4,9 @@ description: Quando si visualizza un elenco dei moduli personalizzati dell'organ
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Per informazioni sulle operazioni che è possibile eseguire quando si seleziona una voce nell&#39;elenco, vedere gli articoli seguenti:
 
-   * [Modificare le proprietà di un campo personalizzato, un’interruzione di sezione o un widget in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [Aggiungere o modificare un campo personalizzato, un&#39;interruzione di sezione o un widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [Configurare la condivisione per campi e widget personalizzati](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [Eliminare un campo personalizzato o un widget dal sistema](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 

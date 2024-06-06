@@ -2,24 +2,28 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Modificare le proprietà di un campo personalizzato, un’interruzione di sezione o un widget in un modulo personalizzato
+title: Aggiungere o modificare un campo personalizzato, un'interruzione di sezione o un widget
 description: Puoi modificare le proprietà di un campo personalizzato, di un’interruzione di sezione o di un widget utilizzato nel modulo personalizzato nella tua istanza di Adobe Workfront. Questi includono l’etichetta, il nome, le istruzioni e così via dell’elemento.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
 
-# Modificare le proprietà di un campo personalizzato, un’interruzione di sezione o un widget in un modulo personalizzato
+# Aggiungere o modificare un campo personalizzato, un&#39;interruzione di sezione o un widget
 
-Puoi modificare le proprietà di un campo personalizzato, di un’interruzione di sezione o di un widget utilizzato nel modulo personalizzato nella tua istanza di Adobe Workfront. Questi includono l’etichetta, il nome, le istruzioni e così via dell’elemento.
+{{highlighted-preview}}
 
-Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedi [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+<span class="preview">Puoi aggiungere un nuovo campo personalizzato o widget direttamente dall’area Campi di Workfront, senza aprire un modulo personalizzato per la creazione del campo.</span>
+
+È inoltre possibile modificare le proprietà di un campo personalizzato, di un&#39;interruzione di sezione o di un widget utilizzato nei moduli personalizzati. Questi includono l’etichetta, il nome, le istruzioni e così via dell’elemento.
+
+Per informazioni sui campi personalizzati e i widget nei moduli personalizzati, vedi [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md), [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), e [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Requisiti di accesso
 
@@ -49,17 +53,36 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+<div class="preview">
+
+## Aggiungere un campo o un widget personalizzato
+
+{{step-1-to-setup}}
+
+1. Clic **Forms personalizzato**.
+1. Clic **Campi** per aprire l&#39;area Campi.
+1. Clic **Nuovo campo personalizzato**.
+1. Nella casella visualizzata immettere le informazioni obbligatorie e facoltative per l&#39;elemento che si sta aggiungendo.
+
+   Per ulteriori informazioni su queste opzioni, consulta:
+   * Se si utilizza il progettista di moduli, vedere [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   * Se utilizzi il generatore di moduli personalizzati, consulta [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) o [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+
+1. Fai clic su **Crea**.
+
+</div>
+
 ## Modificare un campo personalizzato, un’interruzione di sezione o un widget utilizzato in un modulo personalizzato
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato.**
-1. Clic **Campi** per aprire l&#39;area Campi.
+1. Clic **Forms personalizzato**.
+1. Clic **Campi** per aprire l&#39;area Campi, oppure **Sezioni** per aprire l&#39;area Sezioni.
 1. Seleziona il campo personalizzato, l’interruzione di sezione o il widget, quindi fai clic su ![Icona Modifica](assets/edit-icon.png).
 1. Nella casella visualizzata, modificare le opzioni disponibili per l&#39;elemento che si sta modificando.
 
-   Ulteriori informazioni su queste opzioni
+   Per ulteriori informazioni su queste opzioni, consulta:
+   * Se si utilizza il progettista di moduli, vedere [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * Se utilizzi il generatore di moduli personalizzati, consulta [Aggiungere un campo personalizzato a un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) o [Aggiungere o modificare un widget di risorse in un modulo personalizzato](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-   * Se si utilizza il progettista del modulo, vedere [Progettare un modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Al termine, fai clic su **Salva e chiudi**.
+1. Al termine, fai clic su **Modifica**.

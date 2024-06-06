@@ -3,7 +3,7 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: bfc4586d8e277e8fc7855edf3c04631ec8d09436
 workflow-type: tm+mt
 source-wordcount: '14329'
 ht-degree: 1%
@@ -624,7 +624,7 @@ ht-degree: 1%
             * [Visualizzare i rapporti che utilizzano un campo personalizzato o un widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
             * [Visualizzare i moduli personalizzati che utilizzano un campo personalizzato o un widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
             * [Trasferimento dei dati del modulo personalizzato durante la conversione di un oggetto](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-            * [Modificare le proprietà di un campo personalizzato, di un&#39;interruzione di sezione o di un widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [Aggiungere o modificare un campo personalizzato, un&#39;interruzione di sezione o un widget](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
             * [Eliminare un campo personalizzato o un widget dal sistema](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [Eliminare un modulo personalizzato](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [Archiviazione di campi in formato Rich Text nell’API](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
