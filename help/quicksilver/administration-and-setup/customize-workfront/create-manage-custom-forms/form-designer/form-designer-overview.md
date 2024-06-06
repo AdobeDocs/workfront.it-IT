@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
-source-git-commit: 215f72a1619a46f28e0b3a2afb73bcb91586b15e
+source-git-commit: 2a2f6d93c916863177d7a9d2f46f8124d1430354
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
@@ -23,9 +23,9 @@ Il nuovo progettista di moduli dispone di una nuova area di lavoro in stile area
 
 ![Progettazione moduli di esempio](assets/form-designer-example.png)
 
-## Come accedere al nuovo progettista di moduli
+## Come accedere al progettista del modulo
 
-È disponibile un nuovo pulsante nella parte superiore sia del nuovo progettista di moduli che del generatore di moduli legacy. Puoi utilizzare questo pulsante per passare dal generatore legacy al nuovo designer.
+Un pulsante nella parte superiore sia del nuovo progettista di moduli che del generatore di moduli legacy consente di passare da una versione all’altra.
 
 ![Passa a nuovo progettista modulo](assets/switch-views.png)
 
@@ -43,23 +43,17 @@ Con il nuovo form designer è stata aggiunta la possibilità di:
   >
   >La sezione Default non è visibile all&#39;interno degli oggetti dopo che il modulo è stato associato all&#39;oggetto.
 
+* **Utilizzare un campo di ricerca esterno**: questo tipo di campo chiama un’API esterna e restituisce i valori come opzioni in un campo a discesa.
+
 ## Funzionalità rimossa dal progettista del modulo
 
 Sono state rimosse le seguenti funzionalità dall’interno del progettista del modulo:
 
-* Impostazioni modulo, Condivisione modulo, Schede Condivisione campo
-
-   * Le impostazioni del modulo sono ora disponibili nella parte superiore dell’area di lavoro
-
-   * Scheda principale Condivisione modulo e scheda secondaria Condivisione campo
-
-  >[!NOTE]
-  >
-  >Puoi controllare la condivisione di moduli e campi dall’area Configurazione > Forms personalizzato > Forms o Campi.
+* Le impostazioni del modulo sono ora disponibili nella parte superiore dell’area di lavoro
 
 * Traccia le modifiche dei campi nei feed di aggiornamento
 
   >[!NOTE]
   >
-  >È possibile trovarlo in Configurazione > Interfaccia > Aggiorna feed
+  >È possibile trovare questa opzione in Configurazione > Interfaccia > Aggiorna feed
 
