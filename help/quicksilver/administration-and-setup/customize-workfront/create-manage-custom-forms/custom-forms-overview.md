@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 5b167c2d7ca388d0f5298edb301174ff23d85c4d
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '357'
 ht-degree: 7%
 
 ---
@@ -77,5 +77,7 @@ Gli utenti possono allegare moduli personalizzati ai seguenti tipi di oggetti:
 * Fatturazione
 
 Per ulteriori informazioni sull&#39;associazione di moduli personalizzati agli oggetti, vedere [Aggiungere un modulo personalizzato a un oggetto](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+Per informazioni su cosa accade ai moduli personalizzati quando un problema viene convertito in un progetto, consulta [Convertire un problema in un progetto](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 
