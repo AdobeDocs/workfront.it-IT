@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                                 <p>Versione di anteprima: 6 giugno 2024</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio rapido: con la versione 24.6 (20 giugno 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produzione per la versione trimestrale: con la versione 24.7 (luglio 2024)</p>
+                                <p>Versione di produzione per tutti i clienti: con la versione 24.7 (luglio 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -264,7 +261,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Il tempo libero ora si riflette nel Bilanciatore dei carichi di lavoro</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Il tempo libero ora si riflette nel Bilanciatore dei carichi di lavoro</a></p>
                         [!BADGE Nuovo nell'anteprima ]{type=Negative}
                         <p>Per regolare facilmente il lavoro quando l’assegnatario principale di un’attività ha programmato un’indisponibilità, il Bilanciatore dei carichi di lavoro ora riassegna le ore sia agli utenti principali che a quelli secondari quando la sequenza temporale del progetto viene ricalcolata.</p>
                     </td>
@@ -274,10 +271,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                                 <p>Versione di anteprima: 6 giugno 2024</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio rapido: con la versione 24.6 (20 giugno 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produzione per la versione trimestrale: con la versione 24.7 (luglio 2024)</p>
+                                <p>Versione di produzione per tutti i clienti: con la versione 24.7 (luglio 2024)</p>
                             </li>
                         </ul>
                     </td>

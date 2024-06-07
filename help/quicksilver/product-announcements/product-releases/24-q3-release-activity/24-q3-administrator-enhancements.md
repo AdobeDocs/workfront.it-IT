@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Per ulteriori informazioni, consulta [Condividere un modulo personalizzato](/hel
 
 >[!NOTE]
 >
->Versione di anteprima: 6 giugno 2024; produzione per rilascio rapido: con la versione 24.6 (20 giugno 2024); produzione per rilascio trimestrale: con la versione 24.7 (luglio 2024)
+>Versione di anteprima: 6 giugno 2024; versione di produzione per tutti i clienti: con versione 24.7 (luglio 2024)
 
 È ora possibile aggiungere un nuovo campo personalizzato o widget direttamente dall’area Campi di Workfront, senza aprire un modulo personalizzato per la creazione del campo. Questo consente di creare rapidamente campi personalizzati riutilizzabili.
 
