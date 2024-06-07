@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2403'
 ht-degree: 3%
 
 ---
@@ -270,9 +270,9 @@ Per aggiungere un filtro a una vista tabella:
 1. Seleziona una vista a tabella, quindi fai clic su **Filtri** nell’angolo superiore destro della tabella.
 1. Clic **Aggiungi condizione** e aggiungi le seguenti informazioni:
 
-   * Seleziona un campo in base al quale filtrare <!-- the tip below might change-->
+   * **Seleziona un campo** in base al quale si desidera filtrare <!-- the tip below might change-->
 
-   * Seleziona un’opzione (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare
+   * **Seleziona un’opzione** (o un modificatore di filtro) per definire il tipo di condizione che il campo deve soddisfare
 
      Nella tabella seguente vengono visualizzati i modificatori disponibili per ogni tipo di campo.
 
@@ -387,7 +387,7 @@ Per aggiungere un raggruppamento:
 
    Il raggruppamento viene applicato automaticamente alla tabella e i record vengono visualizzati sotto la linea di separazione di raggruppamento.
 
-1. (Facoltativo) Ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
+1. (Facoltativo) Fai clic su **Aggiungi condizione** e ripeti i passaggi precedenti per aggiungere fino a 3 raggruppamenti.
 
    Il numero di campi selezionati per il raggruppamento viene visualizzato accanto all’icona Raggruppamento.
 
@@ -438,13 +438,13 @@ Per ordinare <!--ungrouped (add this when sorting for groupings will be availabl
 
    Passa il puntatore del mouse sul nome di una colonna nella vista tabella, fai clic sulla freccia rivolta verso il basso a destra del nome dell’intestazione della colonna, quindi fai clic su **Ordina per questo campo**. Il campo viene aggiunto come selezione di ordinamento nell’icona Ordina nell’angolo superiore destro della vista tabella.
 
-1. In **Ordina record per** , fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso** e cerca un campo diverso, quindi fai clic su di esso quando viene visualizzato nell’elenco.
+1. (Condizionale) In **Ordina record per** , fare clic su uno dei campi suggeriti oppure fare clic su **Scegli un campo diverso** e cerca un campo diverso, quindi fai clic su di esso quando viene visualizzato nell’elenco.
 
    L&#39;ordinamento viene applicato automaticamente alla vista tabella e i record vengono visualizzati in base ai criteri selezionati.
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (Facoltativo) Ripeti i passaggi precedenti per ordinare per campi aggiuntivi.
+1. (Facoltativo) Fai clic su **Aggiungi condizione** e ripetere i passaggi precedenti per ordinare in base a campi aggiuntivi.
 
    Il numero di campi in base ai quali si esegue l’ordinamento viene visualizzato a sinistra dell’icona Ordina nell’angolo superiore destro della barra degli strumenti. È possibile scegliere solo i campi che vengono visualizzati nelle colonne della vista tabella.
 

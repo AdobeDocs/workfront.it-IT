@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2249'
 ht-degree: 0%
 
 ---
@@ -175,7 +175,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-planning}}
 
-1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un&#39;area di lavoro esistente e selezionare l&#39;area di lavoro da cui si desidera connettere i tipi di record.
+1. Fare clic sull&#39;area di lavoro di cui si desidera connettere i tipi di record.
+
+   Oppure
+
+   Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace dal quale si desidera connettere i tipi di record.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Fai clic su **+** nell&#39;angolo superiore destro della vista tabella, quindi fare clic sul pulsante **Nuova connessione** scheda.
 

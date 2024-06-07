@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2021'
 ht-degree: 1%
 
 ---
@@ -168,16 +168,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Assegna una singola attività
 
 1. Passare a un&#39;attività che si desidera assegnare.
-1. Clic **Assegna a** nel **Assegnazioni** nell’intestazione dell’attività o del problema.
+1. Clic **Assegna a** nel **Assegnazioni** campo nell’intestazione dell’attività
 
    Oppure
 
    Se l’attività o il problema è già assegnato, fai clic sul nome delle assegnazioni.
 
-   Immagine di esempio nell’ambiente di produzione:
+   Nell’ambiente di produzione:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Immagine di esempio nell’ambiente di anteprima:</span>
+   <span class="preview">Nell’ambiente di anteprima:</span>
    ![Assegnazioni](assets/assignments-box-in-task-header.png)
 
 1. Esegui una delle operazioni seguenti:

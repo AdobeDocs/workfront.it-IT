@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -98,13 +98,14 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-planning}}
 
-Verrà aperta l&#39;ultima area di lavoro a cui si è effettuato l&#39;accesso.
+1. Fare clic sull&#39;area di lavoro da eliminare.
 
-1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace che si desidera eliminare.
+   Viene visualizzata la pagina Workspace.
+
 1. Fai clic su **Altro** menu ![](assets/more-menu.png) accanto al nome dell’area di lavoro, quindi fai clic su **Elimina**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Digita &quot;**eliminare**&quot; nello spazio disponibile, quindi fai clic su **Elimina definitivamente**.
+1. Digita &quot;**eliminare**&quot; nello spazio disponibile, quindi fai clic su **Elimina definitivamente**. Non fa distinzione tra maiuscole e minuscole.
 
    L’area di lavoro viene eliminata e non può essere recuperata. Verranno eliminati anche tutti i tipi di record, i record, i campi e le visualizzazioni ad essi associati. <!--ensure this is right at or before GA-->

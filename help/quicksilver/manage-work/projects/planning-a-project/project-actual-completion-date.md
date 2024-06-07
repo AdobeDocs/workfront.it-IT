@@ -2,54 +2,54 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Panoramica della data di completamento effettivo del progetto
-description: I progetti, le attività e i problemi hanno una data di completamento effettiva in Adobe Workfront. Data in cui il progetto, l’attività o il problema sono stati contrassegnati come completati.
+title: Panoramica della data di completamento effettiva del progetto
+description: I progetti, le attività e i problemi hanno una Data di completamento effettiva in Adobe Workfront. Si tratta della data in cui il progetto, l’attività o il problema sono stati contrassegnati come completati.
 author: Alina
 feature: Work Management
 exl-id: 0baba359-a61d-43d7-8336-1f45c7f34374
-source-git-commit: 3a3dc541219706e3f6a4700889db344c110838bb
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
 
 ---
 
-# Panoramica della data di completamento effettivo del progetto
+# Panoramica della data di completamento effettiva del progetto
 
-I progetti, le attività e i problemi hanno una data di completamento effettiva in Adobe Workfront. Data in cui il progetto, l’attività o il problema sono stati contrassegnati come completati.
+I progetti, le attività e i problemi hanno una Data di completamento effettiva in Adobe Workfront. Si tratta della data in cui il progetto, l’attività o il problema sono stati contrassegnati come completati.
 
 ## Date di completamento effettive
 
-La data di completamento effettivo rappresenta la data e l&#39;ora effettive al completamento del lavoro. Quando un&#39;attività o un problema viene contrassegnato come Fine o Completa, Workfront imposta automaticamente la data della modifica dello stato dell&#39;elemento come Data di completamento effettiva dell&#39;attività o del problema. Se tale data non riflette in modo accurato quando l&#39;attività o il problema è stato effettivamente completato, è possibile modificare manualmente la data di completamento effettivo.
+La data di completamento effettiva rappresenta la data e l&#39;ora effettive in cui il lavoro viene completato. Quando un’attività o un problema è contrassegnato come completato o completato, Workfront imposta automaticamente la data della modifica dello stato dell’elemento come data di completamento effettiva dell’attività o del problema. Se tale data non riflette in modo accurato il momento in cui l’attività o il problema è stato effettivamente completato, puoi modificare manualmente la Data di completamento effettiva.
 
-Ad esempio, è possibile contrassegnare un’attività o un problema Fine lunedì, ma si sa che il lavoro è stato completato il venerdì precedente. Dopo aver contrassegnato l&#39;attività o il problema come Fine, è possibile quindi aggiornare manualmente la data di completamento effettivo dell&#39;attività o del problema alla data del venerdì precedente per riflettere il completamento effettivo.
+Ad esempio, puoi contrassegnare un’attività o un problema come completato il lunedì, ma sai che il lavoro è stato completato il venerdì precedente. Dopo aver contrassegnato l’attività o il problema come completato, puoi aggiornare manualmente la Data di completamento effettiva dell’attività o del problema alla data del venerdì precedente per riflettere il completamento effettivo.
 
-Non è possibile modificare manualmente la data di completamento effettivo di un progetto, ma è possibile modificare manualmente lo stato di un progetto che può attivare una modifica alla data di completamento effettivo.
+Non è possibile modificare manualmente la Data di completamento effettiva di un progetto, ma è possibile modificare manualmente lo stato di un progetto che può attivare una modifica alla relativa Data di completamento effettiva.
 
-La data di completamento effettivo di un progetto viene impostata nei seguenti modi:
+La data di completamento effettiva di un progetto è impostata nei modi seguenti:
 
-* Aggiornando manualmente lo stato del progetto: se la modalità di completamento del progetto è impostata su Manuale e lo stato del progetto viene modificato manualmente in Completato, viene attivata la data di completamento effettivo del progetto da aggiornare alla data e all&#39;ora in cui viene modificato lo stato.
-* Automaticamente, al completamento dell&#39;ultima attività del progetto: se la modalità di completamento del progetto è impostata su Automatico e si contrassegna l&#39;ultima attività come Completa o si aggiorna la data di completamento effettivo dell&#39;ultima attività, viene aggiornata anche la data di completamento effettivo del progetto.
+* Aggiornando manualmente lo stato del progetto: se la modalità di completamento del progetto è impostata su Manuale e lo stato del progetto viene modificato manualmente su Completo, la data di completamento effettiva del progetto viene aggiornata alla data e all&#39;ora dell&#39;ultima attività completata.
+* Automaticamente, quando l&#39;ultima attività del progetto viene completata: se la Modalità di completamento del progetto è impostata su Automatico e l&#39;ultima attività viene contrassegnata come Completa o se si aggiorna la Data di completamento effettiva dell&#39;ultima attività, anche la Data di completamento effettiva del progetto viene aggiornata con tale data.
 
-   Per informazioni sull&#39;impostazione della modalità di completamento di un progetto, vedere l&#39;articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Per informazioni sull’impostazione della modalità di completamento di un progetto, consulta l’articolo [Modifica progetti](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   >[!NOTE]
-   >
-   >Workfront utilizza la data di completamento effettivo dell&#39;attività del progetto che è stata completata per ultima come data di completamento effettivo per l&#39;intero progetto.
+  >[!NOTE]
+  >
+  >Workfront utilizza come data di completamento effettiva per l&#39;intero progetto la data di completamento effettiva dell&#39;ultima attività del progetto completata.
 
-Un amministratore di Workfront o di gruppo determina se Workfront utilizza la data odierna o la data di completamento pianificata di un&#39;attività o un problema quando questi sono impostati su Completa o Chiuso. Per informazioni sull&#39;impostazione delle preferenze per le attività e i problemi, consulta [Configurare le preferenze relative alle attività e ai problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Un amministratore di Workfront o di gruppo determina se Workfront utilizza la data odierna o la data di completamento pianificata di un’attività o un problema quando questi sono impostati su Completo o Chiuso. Per informazioni sull&#39;impostazione delle preferenze per attività e problemi, vedere [Configurare le preferenze per attività e problemi a livello di sistema](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--this statement is confusing, not sure what it is referring to, so I am drafting this for now: The value for the Actual Completion Date is always what is considered the current date and time.-->
 
 
 
-## Individua date di completamento effettive
+## Individua le date di completamento effettive
 
 La data di completamento effettiva si trova nelle seguenti aree di Workfront:
 
-* Aree Dettagli progetto, attività e problema
-* Modificare le caselle Progetto, Attività e Problema
-* Area Aggiornamenti di progetto, task e problemi come aggiornamento del sistema.
-* Elenchi di progetti, attività o problemi o rapporti.
+* Aree Dettagli progetto, Attività e Problema
+* Caselle Modifica progetto, attività e problema
+* Aggiornamenti di progetti, attività e problemi come aggiornamento del sistema.
+* Elenchi o report di progetti, attività o problemi.
 
 Per ulteriori informazioni sulla creazione di rapporti, consulta l’articolo [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

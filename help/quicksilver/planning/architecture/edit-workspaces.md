@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,7 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
 {{step1-to-planning}}
 
+1. Fai clic su una scheda dell’area di lavoro per aprirla.
 1. Fai clic sul nome dell’area di lavoro nell’intestazione della nuova area di lavoro per rinominarla, quindi premi **Invio**.
 1. Fai clic su **Altro** menu ![](assets/more-menu.png)a destra del nome del workspace nell’intestazione, quindi fai clic su **Modifica**.
 
@@ -130,7 +131,7 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
 1. (Facoltativo) Passa il puntatore del mouse su una scheda del tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell’angolo superiore destro, quindi fai clic su **Elimina** per eliminare un tipo di record.
 
-   Per informazioni, consulta [Elimina tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md)).
+   Per informazioni, consulta [Elimina tipi di record](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Facoltativo) Fai clic su una scheda del tipo di record per trascinarla e rilasciarla in un nuovo punto. È possibile trascinare tipi di record da una sezione dell&#39;area di lavoro a un&#39;altra.
 

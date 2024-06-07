@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2412'
 ht-degree: 1%
 
 ---
@@ -249,20 +249,14 @@ Per impostare le cartelle collegate:
 
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Pianificazione]**.
 
-   Verrà aperta l&#39;area Aree di lavoro di Workfront Planning.
+   Viene visualizzata la pagina di destinazione Workfront Planning.
 
-<!-- replace sentence above with this and following step:
-   The Workfront Planning landing page opens. 
-    
-1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+1. (Facoltativo e condizionale) Se sei un amministratore di Workfront, fai clic sulle seguenti schede:
 
-   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+   * **Le mie aree di lavoro**: visualizza le aree di lavoro create.
+   * **Altri workspace**: visualizza tutte le aree di lavoro in Workfront Planning, incluse quelle condivise con l&#39;utente.
 
-   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
- 
--->
-
+   Per tutti gli altri utenti, tutte le aree di lavoro che hanno creato o che sono condivise con loro vengono visualizzate nel **Aree di lavoro** area.
 
 ## Importante introduzione alla pianificazione Workfront - {#planning-important-intro}
 

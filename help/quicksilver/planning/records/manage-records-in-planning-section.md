@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '683'
 ht-degree: 1%
 
 ---
@@ -109,7 +109,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-planning}}
 
-Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
+1. Fai clic sulla scheda di un’area di lavoro.
+
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 
 1. Fare clic sulla scheda di un tipo di record connesso a un progetto, portfolio o programma Workfront.
 1. Scegliere una vista tabella dal menu **Visualizza** menu a discesa.

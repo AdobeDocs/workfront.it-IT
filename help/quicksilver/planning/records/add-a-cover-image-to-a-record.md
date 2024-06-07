@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -102,9 +102,13 @@ Considera quanto segue:
 
 {{step1-to-planning}}
 
-Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
+1. Fare clic sull&#39;area di lavoro di cui si desidera personalizzare i record.
 
-1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
+   Oppure
+
+   Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace di cui si desidera personalizzare i record.
+
+   Viene aperto il workspace e vengono visualizzati i tipi di record.
 
 1. Fare clic su una scheda del tipo di record.
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 1%
 
 ---
@@ -111,19 +111,9 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
 {{step1-to-planning}}
 
-<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Optional) Click the **My workspaces** tab to view workspaces you created
-    Or
-    Click the **Other workspaces** tab to view workspaces shared with you. 
-    -->
+1. Clic **Crea area di lavoro**
 
-1. (Condizionale) Se nell’ambiente non sono presenti aree di lavoro, fai clic su **Crea area di lavoro**
-
-   In alternativa, da un workspace esistente, fare clic sulla freccia rivolta verso il basso a destra del nome del workspace, quindi fare clic su **Crea area di lavoro**.
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   Viene visualizzata la casella Crea area di lavoro. È possibile creare un&#39;area di lavoro da zero utilizzando uno dei modelli disponibili.
 
 1. (Facoltativo e condizionale) Fai clic su **Anteprima** in uno dei seguenti modelli predefiniti di workspace:
 
@@ -131,17 +121,19 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
    * Gestione vendite
    * Gestione dei prodotti
 
+   Viene visualizzata la casella di anteprima del modello.
+
    È possibile indicare i tipi di record operativi, le tassonomie e il numero di campi associati a ciascun modello.
 
    ![](assets/previewing-a-workspace-template.png)
 
    Per informazioni sui modelli dell&#39;area di lavoro di Workfront Planning, vedere [Elenco dei modelli di Workspace](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Clic **Usa modello** per iniziare a creare l&#39;area di lavoro dal modello selezionato
+1. Nella casella di anteprima modello fare clic su **Usa modello** per iniziare a creare l&#39;area di lavoro dal modello selezionato
 
    Oppure
 
-   Clic **Crea area di lavoro** per creare un&#39;area di lavoro da zero.
+   Clic **Indietro**, quindi fai clic su **Crea area di lavoro** per creare un&#39;area di lavoro da zero.
 
    Viene creato uno dei seguenti tipi di aree di lavoro:
 

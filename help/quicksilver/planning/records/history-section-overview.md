@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 4%
+source-wordcount: '472'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,12 @@ Nel pannello destro di un record vengono visualizzate le sezioni riportate di se
 
 {{step1-to-planning}}
 
-Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
+1. Fai clic sulla scheda di un’area di lavoro.
+
+   L&#39;area di lavoro si apre e i tipi di record vengono visualizzati sulle schede.
+
+1. Fare clic su una scheda del tipo di record.
+Viene visualizzata la pagina del tipo di record e vengono visualizzati tutti i record di quel tipo.
 
 1. Scegliere una vista tabella dal menu **Visualizza** menu a discesa.
 1. Fare clic sul nome di un record nella vista tabella.

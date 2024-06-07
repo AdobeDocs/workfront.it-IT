@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-planning}}
 
-Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
+1. Fare clic sull&#39;area di lavoro di cui si desidera modificare i record
 
-1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
@@ -192,9 +192,9 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
 {{step1-to-planning}}
 
-Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
+1. Fare clic sull&#39;area di lavoro di cui si desidera modificare i record
 
-1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 
 1. Fare clic su una scheda del tipo di record.
 
@@ -231,9 +231,9 @@ Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
 
 {{step1-to-planning}}
 
-Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
+1. Fare clic sull&#39;area di lavoro di cui si desidera modificare i record
 
-1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 
 1. Fare clic su una scheda del tipo di record.
 

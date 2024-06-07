@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1065'
 ht-degree: 1%
 
 ---
@@ -150,9 +150,13 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 {{step1-to-planning}}
 
 
-Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si è effettuato l&#39;accesso. Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Fai clic sulla scheda di un’area di lavoro.
 
-1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
+
+1. Fare clic su una scheda del tipo di record.
+
+   Viene visualizzata la pagina del tipo di record.
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
@@ -218,11 +222,13 @@ Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si 
 
 {{step1-to-planning}}
 
-Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si è effettuato l&#39;accesso. Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Fai clic sulla scheda di un’area di lavoro.
+
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 
 1. Fare clic su una scheda del tipo di record.
 
-   Per informazioni sulla creazione di un tipo di record, vedere [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+   Viene visualizzata la pagina del tipo di record.
 
    Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
@@ -247,13 +253,14 @@ Le autorizzazioni di condivisione della vista originale non vengono trasferite a
 
 {{step1-to-planning}}
 
-Per impostazione predefinita, viene aperta l&#39;ultima area di lavoro a cui si è effettuato l&#39;accesso.
+1. Fai clic sulla scheda di un’area di lavoro.
 
-Per informazioni sulla creazione delle aree di lavoro, consulta [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md).
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 
-1. Fare clic su una scheda del tipo di record. Per informazioni sulla creazione di un tipo di record, vedere [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Fare clic su una scheda del tipo di record.
 
-   Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
+   Viene visualizzata la pagina del tipo di record.
+Per impostazione predefinita, tutti i record del tipo selezionato vengono visualizzati nella vista tabella.
 
 1. Posizionare il puntatore del mouse sulla scheda della visualizzazione da duplicare e fare clic sul pulsante **Altro** menu ![](assets/more-menu.png) a destra del nome della visualizzazione, quindi fai clic su **Duplica**.
 

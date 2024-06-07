@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -123,9 +123,10 @@ Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
 
 {{step1-to-planning}}
 
-Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
+1. Fai clic sulla scheda di un’area di lavoro.
 
-1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
+
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
@@ -187,9 +188,10 @@ Per impostazione predefinita, tutte le sezioni vengono espanse.
 
 {{step1-to-planning}}
 
-Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
+1. Fai clic sulla scheda di un’area di lavoro.
 
-1. (Facoltativo) Fare clic sulla freccia rivolta verso il basso a destra del nome del workspace per selezionare il workspace di cui si desidera aggiornare i record.
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
+
 1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.

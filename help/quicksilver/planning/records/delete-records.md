@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '504'
 ht-degree: 2%
 
 ---
@@ -102,9 +102,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-planning}}
 
-Viene aperto l&#39;ultimo workspace a cui si è autorizzati ad accedere.
+1. Fare clic sull&#39;area di lavoro di cui si desidera eliminare i record.
 
-1. Selezionare un tipo di record.
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
+
+1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
 1. Esegui una delle operazioni seguenti:
@@ -126,9 +128,11 @@ Il record viene eliminato e non può essere recuperato.
 
 {{step1-to-planning}}
 
-Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
+1. Fare clic sull&#39;area di lavoro di cui si desidera eliminare i record.
 
-1. Selezionare un tipo di record.
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
+
+1. Fare clic su una scheda del tipo di record.
 
    Viene visualizzata la pagina del tipo di record.
 1. (Condizionale) Da **Visualizza** selezionare una vista Tabella dall&#39;angolo superiore sinistro della tabella. Questa dovrebbe essere la vista predefinita, a meno che il tipo di record non sia stato visualizzato nella vista timeline al momento dell&#39;ultimo accesso.

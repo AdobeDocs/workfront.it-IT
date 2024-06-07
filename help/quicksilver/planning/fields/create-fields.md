@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3287'
 ht-degree: 2%
 
 ---
@@ -117,9 +117,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-planning}}
 
-Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è effettuato l’accesso.
+1. Fare clic sull&#39;area di lavoro per la quale si desidera creare i record.
 
-1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un&#39;area di lavoro esistente e selezionare l&#39;area di lavoro per la quale si desidera creare i tipi di record, quindi fare clic sul tipo di record.
+   Viene aperto il workspace e vengono visualizzati i tipi di record.
+
+1. Fare clic sulla scheda di un tipo di record.
 
    Tutti i record esistenti associati al tipo di record vengono visualizzati nelle righe della vista tabella.
 
@@ -127,8 +129,11 @@ Per impostazione predefinita, viene aperta l’ultima area di lavoro a cui si è
    >
    >    Se non viene visualizzato alcun record, è possibile che non siano ancora presenti record oppure che sia stato applicato un filtro che limita la visualizzazione sullo schermo.
 
-   Tutti i campi esistenti associati al tipo di record vengono visualizzati nelle colonne della vista tabella. <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+   Tutti i campi esistenti associati al tipo di record vengono visualizzati nelle colonne della vista tabella.
 
+   >[!TIP]
+   >
+   >    Alcuni campi potrebbero essere nascosti. Fare clic su Campi e attivare l&#39;attivazione/disattivazione dei campi che si desidera visualizzare come colonne nella visualizzazione tabella.
 
 1. Fai clic su **+** nell&#39;angolo superiore destro della vista tabella per aggiungere nuovi campi.
 1. In **Nuovo campo** , cercare un tipo di campo nella scheda **Tipo di campo** o selezionare uno dei seguenti tipi di campi:

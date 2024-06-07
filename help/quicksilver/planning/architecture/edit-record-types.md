@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,13 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-planning}}
 
-1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera modificare i tipi di record.
+1. Fare clic sull&#39;area di lavoro di cui si desidera modificare i tipi di record.
+
+   Oppure
+
+   Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace di cui si desidera modificare i tipi di record.
+
+   Viene aperto il workspace e vengono visualizzati i tipi di record.
 1. Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell&#39;angolo superiore destro della scheda tipo di record, quindi fare clic su **Modifica**.
 
    ![](assets/more-menu-options-from-record-type-card.png)

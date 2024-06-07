@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-planning}}
 
-Verrà aperta l&#39;ultima area di lavoro accessibile in Workfront Planning.
-1. Fare clic sulla scheda di un tipo di record di cui si desidera eliminare i campi.
-1. (Condizionale) Seleziona un **Vista tabella** dal **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
+1. Fare clic sull&#39;area di lavoro di cui si desidera eliminare i campi record.
+
+   Viene aperto il workspace e vengono visualizzati i tipi di record.
+
+1. Fare clic sulla scheda di un tipo di record.
+
+1. (Condizionale) Se non è già selezionato, fai clic sulla scheda di un’ **Vista tabella** nella pagina tipo di record.
+
+   Tutti i record esistenti associati al tipo di record vengono visualizzati nelle righe della vista tabella.
+
 1. Individuare il campo da eliminare nelle intestazioni di colonna, posizionare il puntatore del mouse sull&#39;intestazione di colonna e fare clic sulla freccia rivolta verso il basso dopo il nome del campo.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)

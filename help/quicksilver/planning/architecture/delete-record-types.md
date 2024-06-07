@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 2%
 
 ---
 
@@ -122,13 +122,20 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-planning}}
 
-1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace per il quale si desidera eliminare i tipi di record.
+1. Fare clic sull&#39;area di lavoro di cui si desidera eliminare i tipi di record.
+
+   Oppure
+
+   Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace dal quale si desidera eliminare i tipi di record.
 
    Viene aperto il workspace e vengono visualizzati i tipi di record.
-1. Fare clic sulla scheda del tipo di record che si desidera eliminare.
+1. Esegui una delle operazioni seguenti:
 
-   Verrà aperta la pagina del tipo di record.
-1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Elimina**. <!--add screen shot when they finalize the UI-->
-1. Tipo **Elimina** nella casella di conferma, fai clic su **Elimina definitivamente**.
+   * Passa il puntatore del mouse sulla scheda del tipo di record, fai clic sul menu Altro, quindi **Elimina**.
+   * Fare clic sulla scheda del tipo di record che si desidera eliminare e nella pagina del tipo di record fare clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del tipo di record, quindi fare clic su **Elimina**.
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. Tipo **eliminare** nella casella di conferma, fai clic su **Elimina definitivamente**. Non fa distinzione tra maiuscole e minuscole.
 
    Il tipo di record selezionato e i relativi campi, record associati e viste vengono eliminati.

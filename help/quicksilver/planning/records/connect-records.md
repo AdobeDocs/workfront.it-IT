@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2415'
 ht-degree: 1%
 
 ---
@@ -158,7 +158,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 {{step1-to-planning}}
 
-1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace da cui si desidera connettere i record.
+1. Fare clic sull&#39;area di lavoro di cui si desidera connettere i record
+
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Seleziona un **Tabella** vista da **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
 1. (Facoltativo) Aggiungere record al tipo di record selezionato aggiungendo una nuova riga alla tabella. Per informazioni, consulta [Crea record](/help/quicksilver/planning/records/create-records.md).
@@ -223,7 +225,9 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
 {{step1-to-planning}}
 
-1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace da cui si desidera connettere i record.
+1. Fare clic sull&#39;area di lavoro di cui si desidera connettere i record.
+
+   Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Seleziona un **Tabella** vista da **Visualizza** menu a discesa.
 
@@ -306,7 +310,9 @@ Dopo aver creato una connessione tra un tipo di record e Adobe Experience Manage
 
 {{step1-to-planning}}
 
-1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace da cui si desidera connettere i record.
+1. Fare clic sull&#39;area di lavoro di cui si desidera connettere i record.
+
+   Viene aperto il workspace e vengono visualizzati i tipi di record.
 1. Fare clic sulla scheda di un tipo di record per aprire la pagina del tipo di record.
 1. Seleziona un **Tabella** vista da **Visualizza** nell&#39;angolo superiore destro della pagina del tipo di record.
 
