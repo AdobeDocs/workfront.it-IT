@@ -6,9 +6,9 @@ description: L’amministratore di Adobe Workfront consente agli utenti di visua
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -167,7 +167,7 @@ Per condividere gli oggetti, è necessario disporre dei seguenti elementi:
 
 ## Condividere un documento, un portfolio o un programma dalla relativa pagina
 
-1. Passare all&#39;oggetto da condividere.
+1. Passare alla pagina del documento, portfolio o programma che si desidera condividere.
 
    Per informazioni sugli oggetti che possono essere condivisi, vedi [Panoramica delle autorizzazioni di condivisione sugli oggetti](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 

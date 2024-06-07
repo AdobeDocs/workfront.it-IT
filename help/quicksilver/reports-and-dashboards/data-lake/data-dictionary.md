@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 7%
+source-wordcount: '725'
+ht-degree: 5%
 
 ---
 
@@ -50,6 +50,15 @@ Gli oggetti in Workfront (e, pertanto, nel data lake) sono definiti non solo dai
 >[!IMPORTANT]
 >
 >Il diagramma delle relazioni tra entità è un work in progress, in quanto tale, è solo a scopo di riferimento ed è soggetto a modifiche.
+
+## Tipi di date
+
+Esistono diversi oggetti data che forniscono informazioni su quando si verificano eventi specifici.
+
+* `DL_LOAD_TIMESTAMP`: questa data viene utilizzata come riferimento interno e viene visualizzata quando i dati sono stati caricati nella tabella Cronologia corrente, evento o giornaliera. Questa data non deve essere utilizzata per l’analisi dei dati e deve essere rimossa durante la fase beta del data lake di Workfront.
+* `CALENDAR_DATE`: data presente solo nella tabella Cronologia giornaliera. Questa tabella fornisce una registrazione dell’aspetto dei dati alle 11:59 UTC per ogni data specificata in `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: questa data è presente nelle tabelle Evento e Cronologia giornaliera e registra esattamente quando un record viene modificato _a_ il valore presente nella riga corrente.
+* `END_EFFECTIVE_TIMESTAMP`: questa data è presente nelle tabelle Evento e Cronologia giornaliera e registra esattamente quando un record viene modificato _da_ il valore nella riga corrente a un valore in una riga diversa. Per consentire l’esecuzione di query tra `BEGIN_EFFECTIVE_TIMESTAMP` e `END_EFFECTIVE_TIMESTAMP` questo è un valore che non è mai nullo, anche se non esiste un nuovo valore. Nel caso in cui un record sia ancora valido (ossia il valore non sia stato modificato), `END_EFFECTIVE_TIMESTAMP` avrà un valore di 2300-01-01.
 
 ## Tabella terminologica
 
