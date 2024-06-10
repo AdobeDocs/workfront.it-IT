@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ La promozione dell’ambiente consente di spostare gli oggetti da un ambiente Wo
 In precedenza, gli oggetti dovevano essere configurati negli ambienti di produzione separatamente dagli ambienti sandbox o di anteprima.
 
 Ulteriori informazioni e istruzioni per la promozione dell’ambiente saranno disponibili quando la promozione dell’ambiente verrà pubblicata con la versione 24.6.
+
+[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Condivisione di moduli personalizzati e campi personalizzati nella finestra di progettazione moduli personalizzati
 
