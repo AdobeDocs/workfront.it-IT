@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: 742de02474455f3518fb9d3422fe38dde59a076e
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 0%
@@ -304,7 +304,7 @@ Questa pagina fornisce informazioni sulle funzionalità incluse nella versione d
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 13 giugno 2024</p>
+                                <p>Versione di anteprima: 11 giugno 2024</p>
                             </li>
                             <li>
                                 <p>Produzione per clienti specifici: con la versione 24.7 (luglio 2024)</p>
