@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->La promozione dell’ambiente sarà disponibile in ambienti sandbox, di anteprima e di produzione con la versione 24.6 (20 giugno 2024).
+>La promozione dell’ambiente sarà disponibile in ambienti sandbox, di anteprima e di produzione con la versione 24.6 (13 giugno 2024).
 
 La promozione dell’ambiente consente di spostare gli oggetti da un ambiente Workfront a un altro, ad esempio da un ambiente sandbox a un ambiente di produzione. È possibile configurare e testare gli oggetti senza alcun rischio per i dati e i record dell&#39;organizzazione. È quindi possibile spostare tali oggetti in produzione senza doverli riconfigurare, risparmiando tempo e fatica.
 
