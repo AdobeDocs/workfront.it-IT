@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
+source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Devi avere i seguenti:
   <tr>
    <td><strong>[!DNL Adobe Workfront] piano</strong>
    </td>
-   <td> La tua organizzazione deve seguire il nuovo modello di prezzo e disporre di un piano Prime o Ultimate.
+   <td> Prime o Ultimate (solo per i nuovi piani)
    </td>
   </tr>
   <tr>
