@@ -8,13 +8,11 @@ description: La funzionalità di promozione dell’ambiente ha lo scopo di conse
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -26,6 +24,33 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Se la Sandbox di aggiornamento personalizzata viene aggiornata durante la configurazione dell’oggetto per la promozione dell’ambiente, tale configurazione andrà persa con l’aggiornamento. È consigliabile non aggiornare la Sandbox di aggiornamento personalizzata a meno che tutti gli oggetti e i pacchetti di promozione dell’ambiente in sospeso non siano stati promossi correttamente.
+
+## Requisiti di accesso
+
+Devi avere i seguenti:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] piano</strong>
+   </td>
+   <td> La tua organizzazione deve seguire il nuovo modello di prezzo e disporre di un piano Prime o Ultimate.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenze</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Configurazioni del livello di accesso
+   </td>
+   <td>Devi essere un [!DNL Workfront] amministratore.
+   </td>
+  </tr>
+</table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Creare un pacchetto
 

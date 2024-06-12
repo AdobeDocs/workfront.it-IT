@@ -8,13 +8,11 @@ description: La funzionalità di promozione dell’ambiente ha lo scopo di conse
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1001'
 ht-degree: 1%
 
 ---

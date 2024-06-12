@@ -8,13 +8,11 @@ description: La funzionalità di promozione dell’ambiente ha lo scopo di conse
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -29,9 +27,36 @@ Dopo aver creato un pacchetto, puoi installarlo in un ambiente diverso.
 >
 >Se la Sandbox di aggiornamento personalizzata viene aggiornata durante la configurazione dell’oggetto per la promozione dell’ambiente, tale configurazione andrà persa con l’aggiornamento. È consigliabile non aggiornare la Sandbox di aggiornamento personalizzata a meno che tutti gli oggetti e i pacchetti di promozione dell’ambiente in sospeso non siano stati promossi correttamente.
 
+## Requisiti di accesso
+
+Devi avere i seguenti:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] piano</strong>
+   </td>
+   <td> La tua organizzazione deve seguire il nuovo modello di prezzo e disporre di un piano Prime o Ultimate.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenze</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Configurazioni del livello di accesso
+   </td>
+   <td>Devi essere un [!DNL Workfront] amministratore.
+   </td>
+  </tr>
+</table>
+
+Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Prerequisiti
 
-È necessario aver creato un pacchetto prima di poterlo installare.
+È necessario creare un pacchetto di promozione dell’ambiente prima di installarlo.
 
 Per istruzioni, consulta [Creare o modificare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
