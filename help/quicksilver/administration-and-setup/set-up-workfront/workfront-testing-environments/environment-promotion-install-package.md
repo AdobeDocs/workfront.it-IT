@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,15 @@ Per ulteriori informazioni sugli stati, consulta [Stati di promozione dell’amb
 
 ## Conflitti
 
-Si verificano conflitti quando un oggetto che fa parte del pacchetto di installazione ha lo stesso nome di un oggetto già esistente nell&#39;ambiente di destinazione. In questo caso, potete selezionare la modalità di risoluzione della collisione. Le collisioni vengono risolte a livello di oggetto.
+Una collisione è un oggetto presente nell&#39;ambiente di destinazione di un&#39;installazione che corrisponde a uno degli oggetti installati dall&#39;ambiente di origine. Le collisioni vengono rilevate confrontando i nomi e gli ID degli oggetti di origine con gli oggetti nell&#39;ambiente di destinazione. Le collisioni vengono rilevate anche confrontando gli oggetti di origine con i record di oggetti installati in precedenza.
+
+Quando si verifica una collisione, è possibile selezionare la modalità di risoluzione della collisione. Le collisioni vengono risolte a livello di oggetto.
 
 È possibile visualizzare i conflitti facendo clic sul menu a discesa accanto a ciascun tipo di oggetto. Le collisioni vengono visualizzate nella colonna Collisione.
+
+>[!NOTE]
+>
+>È possibile che i conflitti rilevati non siano gli oggetti che si desidera ignorare o utilizzare nell&#39;installazione. Si consiglia di convalidare le collisioni rilevate per garantire che le destinazioni di installazione siano corrette.
 
 Per risolvere un conflitto, selezionare un&#39;azione nella colonna Azione di distribuzione oppure utilizzare l&#39;azione predefinita già visualizzata.
 
