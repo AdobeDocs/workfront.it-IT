@@ -6,16 +6,14 @@ description: "Le informazioni visualizzate in [!DNL Adobe Workfront] è rapprese
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: ae2e8f0914e5090b9ea2605f593fcef271469c61
+source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2419'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront] panoramica degli oggetti
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 <!--Audited: 12/2023-->
 
@@ -211,14 +209,11 @@ Per ulteriori informazioni sull&#39;esecuzione di ricerche di base e avanzate in
 
 ## Accesso limitato agli oggetti
 
-<span class="preview">
-Quando un utente non ha accesso a un oggetto, visualizza "Nessun accesso" in qualsiasi punto del nome dell’oggetto in Workfront.
+Quando un utente non ha accesso a un oggetto, visualizza &quot;Nessun accesso&quot; in qualsiasi punto del nome dell’oggetto in Workfront.
 
 L&#39;accesso agli oggetti può essere limitato nel livello di accesso o nelle autorizzazioni di un oggetto specifico.
 
 Questo vale per tutti gli oggetti e gli oggetti secondari elencati nel [Interdipendenza e gerarchia degli oggetti](#interdependency-and-hierarchy-of-objects) in questo articolo. Questo non si applica agli oggetti Team e User.
-
-</span>
 
 ## Report sugli oggetti
 
