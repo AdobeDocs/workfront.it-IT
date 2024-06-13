@@ -8,7 +8,7 @@ description: Le seguenti funzioni stringa sono disponibili nel pannello di mappa
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
+source-git-commit: 0b286e43ed77669329fbee25618394ee5641e428
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
@@ -56,121 +56,6 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 Per informazioni su [!DNL Adobe Workfront Fusion] licenze, consulta [[!DNL Adobe Workfront Fusion] licenze](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL ascii (testo; [rimuovere i segni diacritici])]
-
-Rimuove tutti i caratteri non ascii da una stringa di testo.
-
->[!INFO]
->
->**Esempi:**
->
->* `ascii(` `Wěošrčkřfžrýoáníté` `)`
->
->   Restituisce: [!DNL Workfront]
->
->* `ascii(` `ěščřž` `;` `true` `)`
->
->   Restituisce: [!UICONTROL escrz]
-
-## [!UICONTROL base64 (testo)]
-
-Trasforma il testo in base64.
-
->[!INFO]
->
->**Esempio:**
->
->`base64( workfront )`
->
->Restituisce: d29ya2Zyb250==
-
-## [!UICONTROL maiuscolo (testo)]
-
-Converte il primo carattere di una stringa di testo in maiuscolo.
-
->[!INFO]
->
->**Esempio:**
->
->`capitalize( workfront )`
->
->Restituisce: [!DNL Workfront]
-
-## contiene (testo; stringa di ricerca)
-
-Verifica se il testo contiene la stringa di ricerca.
-
->[!INFO]
->
->**Esempi:**
->
->* `contains( Hello World ; Hello )`
->
->   Restituisce: [!UICONTROL true]
->
->* `contains( Hello World ; Bye )`
->
->   Restituisce: [!UICONTROL false]
-
-## [!UICONTROL decodeURL (testo)]
-
-Decodifica caratteri speciali in un URL in testo.
-
->[!INFO]
->
->**Esempio:**
->`decodeURL( Automate%20your%20workflow )`
->
->Restituisce: [!UICONTROL Automatizzare il flusso di lavoro]
-
-## [!UICONTROL encodeURL (testo)]
-
-Codifica i caratteri speciali in un testo in un indirizzo URL valido.
-
-## [!UICONTROL escapeHTML (testo)]
-
-Esclude tutti i tag HTML nel testo.
-
->[!INFO]
->
->**Esempio:**
->
->`escapeHTML( <b>Hello</b> )`
->
-> Restituisce: `&lt;b&gt;Hello&lt;/b&gt;`
-
-## [!UICONTROL escapeMarkdown(testo)]
-
-Evita tutti i tag Markdown nel testo.
-
->[!INFO]
->
->**Esempio:**
->
->`escapeMarkdown( # Header )`
->
->Restituisce: `&#35; Header`
-
-## [!DNL indexOf (string; value; [start])]
-
-Restituisce la posizione della prima occorrenza di un valore specificato in una stringa. Questo metodo restituisce &#39;-1&#39; se il valore ricercato non è presente. Il valore iniziale indica la posizione nella stringa da cui deve iniziare la ricerca.
-
->[!INFO]
->
->**Esempi:**
->
->* `indexOf( Workfront ; o )`
->
->   Restituisce: 1
->
->* `indexOf( Workfront ; x )`
->
->   Restituisce: -1
->
->* `indexOf( Workfront ; o ; 3 )`
->
->   Restituisce: 6
-
 ## [!UICONTROL lunghezza (testo o buffer)]
 
 Restituisce la lunghezza della stringa di testo (numero di caratteri) o del buffer binario (dimensione del buffer in byte).
@@ -195,17 +80,46 @@ Converte tutti i caratteri alfabetici di una stringa di testo in minuscolo.
 >
 >Restituisce: hello
 
-## [!UICONTROL md5 (testo)]
+## [!UICONTROL maiuscolo (testo)]
 
-Calcola l’hash MD5 di una stringa.
+Converte il primo carattere di una stringa di testo in maiuscolo.
 
 >[!INFO]
 >
 >**Esempio:**
 >
->`md5( Workfront )`
+>`capitalize( workfront )`
 >
->Restituisce: `1448bbbeaa7a9b8091d426999f1f666b`
+>Restituisce: [!DNL Workfront]
+
+## [!UICONTROL startcase (testo)]
+
+Usa la maiuscola per la prima lettera di ogni parola e le minuscole per tutte le altre lettere.
+
+>[!INFO]
+>
+>**Esempio:**
+>`startcase( hello WORLD )`
+>
+>Restituisce: [!UICONTROL Hello World]
+
+## [!UICONTROL ascii (testo; [rimuovere i segni diacritici])]
+
+Rimuove tutti i caratteri non ascii da una stringa di testo.
+
+>[!INFO]
+>
+>**Esempi:**
+>
+>* `ascii(` `Wěošrčkřfžrýoáníté` `)`
+>
+>   Restituisce: [!DNL Workfront]
+>
+>* `ascii(` `ěščřž` `;` `true` `)`
+>
+>   Restituisce: [!UICONTROL escrz]
+
+
 
 ## [!UICONTROL replace (testo;stringa di ricerca; stringa di sostituzione)]
 
@@ -251,6 +165,169 @@ La stringa di sostituzione può includere i seguenti modelli di sostituzione spe
 >Non utilizzare gruppi di acquisizione denominati come `/ is (?<number>\d+)/` nell&#39;argomento della stringa di sostituzione. In questo caso si verifica un errore.
 
 Per ulteriori informazioni sulle espressioni regolari, consulta [Parser testo](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+
+## [!UICONTROL trim (testo)]
+
+Rimuove gli spazi all&#39;inizio o alla fine del testo.
+
+## [!UICONTROL upper (testo)]
+
+Converte tutti i caratteri alfabetici in maiuscolo in una stringa di testo.
+
+>[!INFO]
+>
+>**Esempio:**
+>
+>`upper( Hello )`
+>
+>Restituisce: [!UICONTROL CIAO]
+
+## [!UICONTROL sottostringa (testo; inizio;fine)]
+
+Restituisce una parte di una stringa di testo tra la posizione &quot;start&quot; e la posizione &quot;end&quot;.
+
+>[!INFO]
+>
+>**Esempi:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   Restituisce: Hel
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   Restituisce: el
+
+## [!DNL indexOf (string; value; [start])]
+
+Restituisce la posizione della prima occorrenza di un valore specificato in una stringa. Questo metodo restituisce &#39;-1&#39; se il valore ricercato non è presente. Il valore iniziale indica la posizione nella stringa da cui deve iniziare la ricerca.
+
+>[!INFO]
+>
+>**Esempi:**
+>
+>* `indexOf( Workfront ; o )`
+>
+>   Restituisce: 1
+>
+>* `indexOf( Workfront ; x )`
+>
+>   Restituisce: -1
+>
+>* `indexOf( Workfront ; o ; 3 )`
+>
+>   Restituisce: 6
+
+## [!UICONTROL toBinary (valore)]
+
+Converte qualsiasi valore in dati binari.
+
+È inoltre possibile specificare la codifica come secondo argomento per applicare le conversioni binarie da hex o base64 ai dati binari.
+
+>[!INFO]
+>
+>**Esempi:**
+>
+>* `toBinary( Workfront )`
+>
+>   Restituisce: 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   Restituisce: 57 6f 72 6b 66 72 6f 6e 74
+
+## [!UICONTROL toString (valore)]
+
+Converte qualsiasi valore in una stringa.
+
+## [!UICONTROL encodeURL (testo)]
+
+Codifica i caratteri speciali in un testo in un indirizzo URL valido.
+
+## [!UICONTROL decodeURL (testo)]
+
+Decodifica caratteri speciali in un URL in testo.
+
+>[!INFO]
+>
+>**Esempio:**
+>`decodeURL( Automate%20your%20workflow )`
+>
+>Restituisce: [!UICONTROL Automatizzare il flusso di lavoro]
+
+## [!UICONTROL escapeHTML (testo)]
+
+Esclude tutti i tag HTML nel testo.
+
+>[!INFO]
+>
+>**Esempio:**
+>
+>`escapeHTML( <b>Hello</b> )`
+>
+> Restituisce: `&lt;b&gt;Hello&lt;/b&gt;`
+
+## [!UICONTROL escapeMarkdown(testo)]
+
+Evita tutti i tag Markdown nel testo.
+
+>[!INFO]
+>
+>**Esempio:**
+>
+>`escapeMarkdown( # Header )`
+>
+>Restituisce: `&#35; Header`
+
+## [!UICONTROL stripHTML (testo)]
+
+Rimuove tutti i tag HTML dal testo.
+
+>[!INFO]
+>
+>**Esempio:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>Restituisce: Hello
+
+## contiene (testo; stringa di ricerca)
+
+Verifica se il testo contiene la stringa di ricerca.
+
+>[!INFO]
+>
+>**Esempi:**
+>
+>* `contains( Hello World ; Hello )`
+>
+>   Restituisce: [!UICONTROL true]
+>
+>* `contains( Hello World ; Bye )`
+>
+>   Restituisce: [!UICONTROL false]
+
+## [!UICONTROL split (testo; separatore)]
+
+Divide una stringa in una matrice di stringhe separandola in sottostringhe.
+
+>[!INFO]
+>
+>**Esempio:**
+>
+>`split( John, George, Paul ; , )`
+
+## [!UICONTROL md5 (testo)]
+
+Calcola l’hash MD5 di una stringa.
+
+>[!INFO]
+>
+>**Esempio:**
+>
+>`md5( Workfront )`
+>
+>Restituisce: `1448bbbeaa7a9b8091d426999f1f666b`
 
 ## [!UICONTROL sha1 (testo; [codifica]; [chiave])]
 
@@ -302,89 +379,14 @@ Quando si utilizza &quot;[!UICONTROL binario]&quot;, una chiave deve essere un b
 >
 >Restituisce: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19
 
-## [!UICONTROL split (testo; separatore)]
+## [!UICONTROL base64 (testo)]
 
-Divide una stringa in una matrice di stringhe separandola in sottostringhe.
-
->[!INFO]
->
->**Esempio:**
->
->`split( John, George, Paul ; , )`
-
-## [!UICONTROL startcase (testo)]
-
-Usa la maiuscola per la prima lettera di ogni parola e le minuscole per tutte le altre lettere.
-
->[!INFO]
->
->**Esempio:**
->`startcase( hello WORLD )`
->
->Restituisce: [!UICONTROL Hello World]
-
-## [!UICONTROL stripHTML (testo)]
-
-Rimuove tutti i tag HTML dal testo.
+Trasforma il testo in base64.
 
 >[!INFO]
 >
 >**Esempio:**
 >
->`stripHTML( <b>Hello</b> )`
+>`base64( workfront )`
 >
->Restituisce: Hello
-
-## [!UICONTROL sottostringa (testo; inizio;fine)]
-
-Restituisce una parte di una stringa di testo tra la posizione &quot;start&quot; e la posizione &quot;end&quot;.
-
->[!INFO]
->
->**Esempi:**
->
->* `substring( Hello ; 0 ; 3)`
->
->   Restituisce: Hel
->
->* `substring( Hello ; 1 ; 3 )`
->
->   Restituisce: el
-
-## [!UICONTROL toBinary (valore)]
-
-Converte qualsiasi valore in dati binari.
-
-È inoltre possibile specificare la codifica come secondo argomento per applicare le conversioni binarie da hex o base64 ai dati binari.
-
->[!INFO]
->
->**Esempi:**
->
->* `toBinary( Workfront )`
->
->   Restituisce: 57 6f 72 6b 66 72 6f 6e 74
->
->* `toBinary( V29ya2Zyb250 ; base64 )`
->
->   Restituisce: 57 6f 72 6b 66 72 6f 6e 74
-
-## [!UICONTROL toString (valore)]
-
-Converte qualsiasi valore in una stringa.
-
-## [!UICONTROL trim (testo)]
-
-Rimuove gli spazi all&#39;inizio o alla fine del testo.
-
-## [!UICONTROL upper (testo)]
-
-Converte tutti i caratteri alfabetici in maiuscolo in una stringa di testo.
-
->[!INFO]
->
->**Esempio:**
->
->`upper( Hello )`
->
->Restituisce: [!UICONTROL CIAO]
+>Restituisce: d29ya2Zyb250==
