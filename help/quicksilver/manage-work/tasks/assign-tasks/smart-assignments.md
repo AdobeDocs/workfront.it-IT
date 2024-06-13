@@ -7,7 +7,7 @@ description: Quando gestisci le assegnazioni di attività e problemi, puoi utili
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 6e6115829412b537f6a196a564088c3b6d1d6e8a
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 0%
@@ -69,11 +69,11 @@ Puoi visualizzare le assegnazioni intelligenti nelle seguenti aree, dove puoi as
 
 * Il campo Assegnazioni per un elemento elencato nell’area Home quando apri un’attività o un problema
 
-  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
 
 * Bilanciatore dei carichi di lavoro nell’area Assegnato a quando si assegna un’attività o un problema
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Criteri di assegnazione intelligenti
@@ -122,7 +122,7 @@ Il calcolo per il punteggio di somiglianza e l&#39;ordine in cui sono elencate l
 
   Ad esempio, se Rick è stato assegnato a un&#39;attività simile in precedenza e Jennifer è stato assegnato a un&#39;attività simile due giorni fa, Rick viene visualizzato per primo.
 
-* Le assegnazioni identificate in questa fase sono elencate nella    **Assegnazioni suggerite**  sezione del campo Assegnazioni.
+* Le assegnazioni identificate in questa fase sono elencate nella    **Assegnazioni suggerite**  sezione del campo Assegnazioni delle attività.
 
 * Se non ci sono corrispondenze che utilizzano questo calcolo, inizia la seconda fase delle assegnazioni intelligenti che viene calcolata utilizzando un algoritmo diverso.
 
@@ -132,7 +132,7 @@ Se il primo passaggio delle assegnazioni intelligenti delle attività non ha tro
 
 Per ulteriori informazioni, consulta la sezione [Criteri di assegnazione intelligenti per attività e problemi](#smart-assignments-criteria-for-tasks-and-issues) in questo articolo.
 
-Le assegnazioni identificate in questa fase sono elencate nella   **Altre assegnazioni** (oppure la sezione Utenti e team o Assegnazioni mansione) del campo Assegnazioni per le attività.
+Le assegnazioni identificate in questa fase sono elencate nella   **Altre assegnazioni**, **Utenti e team**, o **Assegnazioni mansioni**  sezioni del campo Assegnazioni per le attività.
 
 ### Criteri di assegnazione intelligenti per attività e problemi
 
@@ -142,7 +142,7 @@ Le assegnazioni identificate in questa fase sono elencate nella   **Altre assegn
 >
 ><span class="preview">I criteri seguenti si applicano alle attività solo quando nella prima fase del calcolo dell&#39;assegnazione intelligente delle attività non sono state trovate corrispondenze. Per informazioni, consulta la sezione [Prima fase del calcolo dell&#39;assegnazione intelligente per le attività](#first-phase-of-smart-assignment-calculation-for-tasks) in questo articolo. Per impostazione predefinita, i seguenti criteri sono sempre applicabili ai problemi. </span>
 
-![](assets/smart-assignments-issue-header.png)
+<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 
 Gli utenti sono consigliati nell’elenco a discesa delle assegnazioni intelligenti in base a una combinazione dei seguenti criteri (elencati in ordine crescente e decrescente):
 

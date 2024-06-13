@@ -6,9 +6,9 @@ description: È possibile utilizzare le assegnazioni avanzate per identificare l
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -75,22 +75,29 @@ Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizion
 
 1. Posizionare il cursore nel campo delle assegnazioni e attendere due secondi.
 
-   <span class="preview">Il **Assegnazioni suggerite** viene visualizzato un elenco.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   <div class="preview">
+   Vengono visualizzate una o più delle seguenti sezioni con suggerimenti di assegnazione intelligente:
 
-   >[!TIP]
-   >
-   >   Viene visualizzata l’intestazione dell’elenco **Di seguito sono riportati alcuni consigli** invece di **Assegnazioni suggerite** in un elenco di problemi.
+   * **Assegnazioni suggerite**: viene visualizzata per le attività.
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     >[!TIP]
+     >
+     >   Viene visualizzata l’intestazione dell’elenco **Di seguito sono riportati alcuni consigli** invece di **Assegnazioni suggerite** nell’ambiente di produzione.
+     >
+   * **Altre assegnazioni**: viene visualizzata per le attività e i problemi.
+   * **Utenti e team**: viene visualizzata per le attività e i problemi.
+   * **Ruoli**: viene visualizzato per attività e problemi.
+   </div>
 
-   Per i problemi, i suggerimenti di assegnazione intelligente vengono visualizzati nella **Assegnazioni suggerite** area.
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
 
    Per le attività, le assegnazioni intelligenti vengono visualizzate nelle sezioni seguenti, a seconda della fase di calcolo dell&#39;algoritmo che ha identificato le assegnazioni:
 
    * **Assegnazioni suggerite**: assegnazioni identificate nella prima fase del calcolo dell&#39;algoritmo dell&#39;assegnazione intelligente dell&#39;attività. <span class="preview">Questa sezione non è disponibile per i problemi.</span>
-   * <span class="preview">**Altre assegnazioni** (o **Utenti e team**, o **Ruoli**): assegnazioni identificate nella seconda fase del calcolo dell&#39;algoritmo dell&#39;assegnazione intelligente dell&#39;attività. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Altre assegnazioni**, **Utenti e team**, o **Ruoli**: assegnazioni identificate nella seconda fase del calcolo dell&#39;algoritmo dell&#39;assegnazione intelligente dell&#39;attività. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

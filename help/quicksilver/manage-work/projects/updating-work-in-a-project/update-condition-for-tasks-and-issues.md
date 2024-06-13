@@ -6,16 +6,20 @@ description: La condizione di un’attività o di un problema è un flag applica
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1095'
 ht-degree: 1%
 
 ---
 
 # Aggiorna condizione per attività e problemi
 
-{{highlighted-preview}}
+<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
+
+<span class="preview">Per informazioni sulle versioni rapide, consulta [Abilitare o disabilitare le versioni rapide per la tua organizzazione](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Per informazioni sulla versione corrente, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 La condizione di un’attività o di un problema è un flag applicato a tale attività o problema per indicarne la direzione. Diverso dallo stato dell&#39;elemento di lavoro, che indica la fase corrente di sviluppo dell&#39;elemento.
 
@@ -136,7 +140,7 @@ Per aggiornare manualmente la condizione di un’attività o di un problema, eff
 
 1. Per aggiornare la Condizione di un’attività o di un problema nella sezione Dettagli dell’attività o del problema:
 
-   1. (Condizionale) Se l’amministratore del Workfront o del gruppo ha aggiunto il campo Condizione alla sezione Dettagli di un’attività o di un problema nel modello di layout, fai clic su **Dettagli** nel pannello a sinistra, fai clic su **Condizione** e selezionare una delle opzioni seguenti:
+   1. (Condizionale) Se l’amministratore del Workfront o del gruppo ha aggiunto il campo Condizione alla sezione Dettagli di un’attività o di un problema nel modello di layout, fai clic su **Dettagli** nel pannello a sinistra, fai clic su **Condizione attività** o **Condizione problema** e seleziona una delle seguenti opzioni:
       * Senza problemi
       * Qualche dubbio
       * Problemi notevoli
