@@ -7,9 +7,9 @@ description: Workfront Fusion ha aggiornato la propria interfaccia utente per gl
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
+source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ Workfront Fusion è stato aggiornato per gli utenti che non accedono a Fusion tr
 
 >[!IMPORTANT]
 >
->L’esperienza legacy di Fusion diventerà obsoleta il 15 agosto 2024.
+>* L’esperienza legacy di Fusion diventerà obsoleta il 15 agosto 2024.
+>* Quando si carica per la prima volta, la nuova esperienza Fusion può essere caricata lentamente (30-60 secondi). Dopo la prima volta, Fusion verrà caricato più rapidamente.
 
 ## Requisiti di accesso
 
