@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6ddbe56dd187d62489c41ff721d0f071202e54e4
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 1%
@@ -16,8 +16,6 @@ ht-degree: 1%
 ---
 
 # Condividere un modulo personalizzato
-
-{{highlighted-preview}}
 
 È possibile configurare l&#39;accesso per un modulo personalizzato in modo da controllare chi, persona, ruolo, gruppo, team, azienda, può visualizzarlo, condividerlo e modificarlo.
 
@@ -109,8 +107,6 @@ Anziché lasciare un modulo personalizzato nello stato di condivisione predefini
 
 1. Fai clic su **Salva**.
 
-<div class="preview">
-
 ## Condividere un modulo personalizzato dal progettista del modulo
 
 {{step-1-to-setup}}
@@ -160,8 +156,6 @@ Anziché lasciare un modulo personalizzato nello stato di condivisione predefini
    >Se sei preoccupato di un modulo personalizzato in cui gli utenti potrebbero immettere dati sensibili quando è allegato a determinati oggetti, limitane la condivisione *oggetti* potrebbe essere preferibile a limitare l’accesso al modulo stesso.
 
 1. Fai clic su **Salva**.
-
-</div>
 
 ## Rimuovere l’accesso a un modulo personalizzato dall’elenco dei moduli
 

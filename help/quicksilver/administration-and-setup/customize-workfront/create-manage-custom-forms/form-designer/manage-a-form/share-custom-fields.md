@@ -7,7 +7,7 @@ description: Per impostazione predefinita, quando si aggiunge un nuovo campo per
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: d80eb802baa6f03ca6e65e542f16b23e9d42444a
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 1%
@@ -15,8 +15,6 @@ ht-degree: 1%
 ---
 
 # Configurare la condivisione di campi personalizzati e widget con il progettista del modulo
-
-{{highlighted-preview-article-level}}
 
 Per impostazione predefinita, quando si aggiunge un nuovo campo personalizzato o widget a un modulo personalizzato, chiunque nel sistema con accesso ai moduli personalizzati può modificare le proprietà di tale elemento, ad esempio l’etichetta e il nome. Puoi cambiare questa impostazione controllando con chi può essere condiviso.
 
