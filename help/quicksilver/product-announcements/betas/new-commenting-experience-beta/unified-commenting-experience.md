@@ -6,8 +6,10 @@ description: È attualmente in fase di sviluppo un aggiornamento dell’esperien
 author: Alina
 feature: Product Announcements
 role: User
+hide: true
+hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 1%

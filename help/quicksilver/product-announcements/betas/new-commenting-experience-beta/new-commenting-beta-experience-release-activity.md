@@ -5,9 +5,11 @@ title: Nuova attività di rilascio esperienza di commento
 description: Rivedi l’attività di rilascio settimanale per la nuova esperienza di commento di Adobe Workfront.
 author: Alina
 feature: Product Announcements
+hide: true
+hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
+source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 0%
