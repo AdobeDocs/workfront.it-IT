@@ -6,9 +6,9 @@ description: È possibile utilizzare [!DNL Adobe Workfront] per [!DNL Jira] per 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: b98a7fa48e60f1f2c2ea938b14b88e0c5a2ee418
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Questo componente aggiuntivo è disponibile per [!UICONTROL Server] e [!UICONTRO
 Per un elenco di [!DNL Jira] versioni che [!DNL Workfront for Jira] attualmente supporta, vedi [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) nel Marketplace Atlassian.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -57,6 +59,8 @@ Devi avere i seguenti:
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Installa [!DNL Workfront] per [!DNL Jira]
 
@@ -92,7 +96,7 @@ Anche se si installa [!DNL Workfront] componente aggiuntivo nei due [!DNL Jira] 
 * È necessario utilizzare la crittografia SSL per proteggere la comunicazione tra [!DNL Jira] e [!DNL Workfront]. Quando abiliti SSL, devi disporre di uno stack di certificati SSL completo da un’autorità di certificazione. I certificati autofirmati non sono supportati.
 * È necessario assicurarsi che [!DNL jira.workfront.com] è accessibile dai server aziendali. Funge da ambiente middleware tra [!DNL Workfront] e [!DNL Jira] ed è richiesto per il funzionamento del componente aggiuntivo.
 
-  È inoltre necessario aggiungere i seguenti indirizzi IP statici al inserisco nell&#39;elenco Consentiti di sul firewall per le connessioni in uscita e in entrata.
+  È inoltre necessario aggiungere i seguenti indirizzi IP statici al elenco Consentiti di accesso al firewall per le connessioni in uscita e in entrata.
 
   `35.162.128.73`
 

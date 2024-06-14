@@ -6,14 +6,16 @@ description: Crea un team agile Kanban o Scrum in [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 0%
+source-wordcount: '1487'
+ht-degree: 1%
 
 ---
 
 # Configura [!UICONTROL Kanban]
+
+<!--Audited: 12/2023-->
 
 Puoi creare un team agile in [!DNL Adobe Workfront] come descritto in [Creare un team agile](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). Durante la creazione di un team agile, puoi scegliere la metodologia utilizzata dal team per completare il lavoro. Puoi scegliere tra le seguenti opzioni:
 
@@ -33,7 +35,7 @@ Per informazioni sulla configurazione di un team Scrum, consulta [Configura Scru
 
 ## Requisiti di accesso
 
-<!--Audited: 12/2023-->
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -65,6 +67,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 *Per sapere quale piano o tipo di licenza si dispone, contattare il [!DNL Workfront] amministratore.
 
++++
+
 ## Configura se le storie vengono stimate in punti o ore
 
 Puoi configurare le storie in modo che vengano stimate utilizzando punti o ore.
@@ -83,7 +87,7 @@ Per configurare il modo in cui le storie vengono stimate per il tuo team agile:
 
    **Esempio:** Se hai selezionato di stimare le storie in punti e 1 punto equivale a 8 ore e una storia è stimata in 3 punti, alla storia vengono aggiunte 24 ore pianificate.
 
-1. Clic **[!UICONTROL Salva modifiche]**.
+1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
 ## Configurare le colonne di stato sullo storyboard Agile
 
@@ -115,7 +119,7 @@ Per definire gli stati disponibili per la bacheca delle storie associata al team
 
    È possibile aggiungere stati personalizzati se [!DNL Workfront] configurati dall&#39;amministratore. Per ulteriori informazioni, consulta [Creare o modificare uno stato](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Clic **[!UICONTROL Salva modifiche]**.
+1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
 ## Configura campi aggiuntivi da visualizzare sulle schede delle storie sulla bacheca delle storie agile
 
@@ -154,7 +158,7 @@ Per configurare le schede delle storie assegnate al team Agile in modo da visual
 
 1. Seleziona il nome del campo da aggiungere.
 1. Digita il **[!UICONTROL Nome visualizzato]** il campo da mostrare sulla storia o sulla scheda problema.
-1. Clic **[!UICONTROL Salva modifiche]**.
+1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
 ## Configurare il limite WIP
 
@@ -181,7 +185,7 @@ Per limitare WIP per il team Kanban:
 
    ![Limite WIP](assets/wip-limit-350x193.png)
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.
 
 ## Configurare l’aggiunta automatica di brani dal backlog
 
@@ -205,7 +209,7 @@ Puoi configurare i brani dal backlog in modo che vengano aggiunti automaticament
    Ogni volta che una storia viene spostata da [!UICONTROL In corso] colonna in una colonna sullo storyboard che rappresenta un [!UICONTROL Completa] stato (o uno stato che equivale a [!UICONTROL Completa]), un brano della colonna Backlog si sposta automaticamente nel [!UICONTROL Nuovo] colonna del [!UICONTROL Kanban Board].
 Quando viene aggiunta dal backlog, la storia con la priorità più alta viene aggiunta alla bacheca delle storie.
 
-1. Clic **[!UICONTROL Salva modifiche]**.
+1. Fai clic su **[!UICONTROL Salva modifiche]**.
 
 ## Configurare la durata delle schede [!UICONTROL Kanban] scheda
 
@@ -222,4 +226,4 @@ Puoi scegliere per quanto tempo le schede completate rimangono sul [!UICONTROL K
 1. In **[!UICONTROL Numero di giorni in cui le schede completate rimangono sulla bacheca Kanban]** , selezionare un valore.
 
    Puoi scegliere un numero da 1 a 30 giorni.
-1. Clic **[!UICONTROL Salva modifiche]**.
+1. Fai clic su **[!UICONTROL Salva modifiche]**.

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '821'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,8 @@ Senza un modello e-mail, la notifica del promemoria verrà consegnata come conte
 I modelli e-mail possono essere associati a notifiche di promemoria per problemi, attività, progetti e schede orario. Durante la creazione dei modelli e-mail, l’amministratore di Workfront può fornire il contenuto dell’e-mail e una riga dell’oggetto.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -50,6 +52,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 *Per ulteriori informazioni sui requisiti di accesso, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creare un modello e-mail {#create-an-email-template}
 

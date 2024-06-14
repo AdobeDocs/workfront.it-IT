@@ -5,10 +5,10 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 94c2930d155f38a56fe36e5a09bd29f27d1593f0
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 3%
+source-wordcount: '2776'
+ht-degree: 4%
 
 ---
 
@@ -30,6 +30,8 @@ Il rapporto Voce diario può mostrare:
 * Se il proprietario di un progetto cambia
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -57,6 +59,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -268,7 +272,7 @@ Queste informazioni possono essere utilizzate per facilitare il controllo e per 
 
    Per ulteriori informazioni sull’aggiunta di raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
    Il nuovo rapporto viene caricato.
 
@@ -351,7 +355,7 @@ Per vedere quando un&#39;attività o un problema è stato eliminato:
 
    Per ulteriori informazioni sull’aggiunta di raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
    Il nuovo rapporto viene caricato.
 
@@ -459,7 +463,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
    Per ulteriori informazioni sull’aggiunta di raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
    Il nuovo rapporto viene caricato.
 
@@ -560,7 +564,7 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
    Per ulteriori informazioni sull’aggiunta di raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
    Il nuovo rapporto viene caricato.
 
@@ -649,6 +653,6 @@ Per vedere come sono cambiati i campi personalizzati nel corso del ciclo di vita
 
    Per ulteriori informazioni sull’aggiunta di raggruppamenti, consulta [Panoramica sui raggruppamenti in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
    Il nuovo rapporto viene caricato.

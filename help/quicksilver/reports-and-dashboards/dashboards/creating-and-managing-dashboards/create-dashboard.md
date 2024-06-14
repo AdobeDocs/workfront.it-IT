@@ -6,10 +6,10 @@ description: Puoi creare dashboard per accedere rapidamente alle informazioni in
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: c264c0c96b818934a7c25ed54c7666d2d6c95e54
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 0%
+source-wordcount: '486'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,8 @@ Puoi creare dashboard per accedere rapidamente alle informazioni in Adobe Workfr
 Per ulteriori informazioni sulle dashboard, consulta [Introduzione alle dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -53,6 +55,8 @@ Devi avere i seguenti:
 </table>
 
 *Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront. Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -110,6 +114,6 @@ Prima di poter aggiungere gli oggetti seguenti a un dashboard, è necessario cre
 
    Per ulteriori informazioni sulla creazione di pagine esterne e sulla loro incorporazione nelle dashboard, consulta [Incorporare una pagina web esterna in una dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-1. Clic **Salva e chiudi**.
+1. Fai clic su **Salva e Chiudi**.
 
    Un timestamp viene visualizzato nell’angolo superiore destro del dashboard. La marca temporale include la data, l’ora e il fuso orario dell’ultimo aggiornamento del dashboard.

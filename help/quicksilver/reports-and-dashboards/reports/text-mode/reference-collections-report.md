@@ -6,9 +6,9 @@ description: Fare riferimento alle raccolte in un rapporto
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2598'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ La creazione di un report in Adobe Workfront consente di visualizzare un set di 
 Per ulteriori informazioni sulla creazione di un rapporto in Workfront, consulta [Creare un rapporto personalizzato](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -47,6 +49,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+
++++
 
 ## Comprendere le raccolte
 
@@ -419,7 +423,7 @@ Per aggiungere un riferimento a una raccolta nel prompt personalizzato di un rep
 
    >[!NOTE]
    >
-   Nota che devi utilizzare **problemi** per il nome dell&#39;oggetto insieme. API Explorer non offre al momento un nome di oggetto raccolta per i problemi.
+   >Nota che devi utilizzare **problemi** per il nome dell&#39;oggetto insieme. API Explorer non offre al momento un nome di oggetto raccolta per i problemi.
 
 1. Clic **Fine**.
 1. (Facoltativo) Continua a modificare il rapporto.

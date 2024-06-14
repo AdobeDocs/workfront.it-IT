@@ -6,9 +6,9 @@ description: I predecessori sono attività da cui dipendono altre attività per 
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Puoi applicare la relazione di predecessore quando imposti predecessori su un pr
 Se viene applicato un predecessore, l&#39;attività successore non può iniziare prima del completamento del predecessore. Ad esempio, se si applica una relazione Fine-Inizio tra l&#39;Attività A e l&#39;Attività B, l&#39;Attività B non può iniziare (lo Stato deve rimanere Nuovo e la Percentuale di completamento deve rimanere 0%) finché l&#39;Attività A non viene contrassegnata come completata. L’applicazione delle relazioni si applica a tutti i tipi di predecessori.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -67,6 +69,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Imponi un predecessore a livello di attività
 

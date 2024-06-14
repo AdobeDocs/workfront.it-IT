@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 5f11e6ccda9fa3b37ec1300edb8f322521013a52
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 1%
 Durante la configurazione del sistema Adobe Workfront, puoi gestire i dettagli dell’organizzazione nella sezione Informazioni di base della pagina Informazioni cliente.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -47,6 +49,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Accedi a informazioni cliente
 
@@ -72,7 +76,7 @@ Per accedere alla pagina Informazioni cliente:
 
    * **INSERIRE NELL&#39;ELENCO CONSENTITI IP**
 
-     Per informazioni sull’aggiunta degli indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso degli utenti a Workfront per l’accesso ai propri, consulta [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     Per informazioni sull’aggiunta degli indirizzi IP al tuo elenco Consentiti di accesso a Workfront, consulta [Configurare il elenco Consentiti di protezione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
    * **Licenza**
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 48c9bb06dff1e8f1260b331ace7843b204b3139e
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '994'
 ht-degree: 8%
 
 ---
@@ -29,6 +29,8 @@ In qualità di amministratore di Adobe Workfront, puoi utilizzare la funzione di
 L&#39;esportazione dei dati tramite Kick-Start è utile anche per comprendere quali campi sono associati a ciascun oggetto, come questi campi sono codificati e come i valori di questi campi sono formattati nel database.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -56,6 +58,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Vantaggi e svantaggi dell’utilizzo dei kick-start per esportare i dati
 
@@ -132,7 +136,7 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
       <td scope="col" valign="top"> ZIP </td> 
      </tr> 
      <tr> 
-      <td scope="col" valign="top"> <p>Approval</p> </td> 
+      <td scope="col" valign="top"> <p>Approvazione</p> </td> 
       <td scope="col" valign="top"> <p>Approvatore passaggio<br>Passaggio di approvazione<br>Approvazione<br>Processo di approvazione<br>Preferenze</p> </td> 
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 

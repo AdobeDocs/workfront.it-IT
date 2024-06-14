@@ -6,9 +6,9 @@ description: Un flusso di lavoro automatizzato semplifica la gestione del proces
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Un flusso di lavoro automatizzato semplifica la gestione del processo di revisione se il processo è complesso o se invii regolarmente contenuti per la revisione agli stessi utenti. La bozza si sposta da un ambiente di staging all’altro e Adobe Workfront notifica a ogni utente quando è il momento di rivederla. Per ulteriori informazioni sui flussi di lavoro automatizzati, consulta [Panoramica del flusso di lavoro automatizzato](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -47,6 +49,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creare una bozza avanzata con un flusso di lavoro automatizzato
 
@@ -121,7 +125,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
         </tr>
         <tr>
          <td role="rowheader">Rendi privata questa fase</td>
-         <td>Consente solo alle persone seguenti di visualizzare i commenti e le decisioni prese durante questa fase: supervisori, amministratori Workfront e amministratori di bozze Workfront</td>
+         <td>Consente solo alle persone seguenti di visualizzare i commenti e le decisioni prese durante questa fase: supervisori, amministratori Workfront e amministratori Workfront Proof</td>
         </tr>
        </tbody>
       </table>

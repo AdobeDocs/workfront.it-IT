@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 In qualità di amministratore di Adobe Workfront, puoi accedere a informazioni sul tuo account Workfront, compreso il numero di licenze acquistate per la tua organizzazione e il numero di tali licenze attualmente in uso.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -64,6 +66,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 >1. Gli amministratori di sistema possono aggiungere gruppi predefiniti alla pagina Licenze per visualizzare l&#39;utilizzo delle licenze in tali gruppi e impostare i limiti di licenza.
 >2. Gli amministratori di gruppi possono accedere alla pagina Licenze e visualizzare l&#39;utilizzo delle licenze dei gruppi da loro gestiti che sono state aggiunte alla pagina Licenze dagli amministratori di sistema.
 >3. Gli amministratori di gruppi non possono visualizzare informazioni per altri gruppi Home o aggiungere valori massimi.
+
++++
 
 ## Visualizzare le licenze della tua organizzazione
 

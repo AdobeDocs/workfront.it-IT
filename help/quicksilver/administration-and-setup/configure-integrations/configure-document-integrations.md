@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: a243094dc6bbbe71a6efdb4fe99f7365daae514d
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1117'
 ht-degree: 1%
 
 ---
@@ -27,9 +27,11 @@ Come un [!DNL Adobe Workfront] amministratore, puoi configurare le integrazioni 
 
 >[!NOTE]
 >
->Per consentire la comunicazione aperta tra [!DNL Workfront Proof] e [!DNL Workfront] server, potrebbe essere necessario aggiungere determinati indirizzi IP al inserisco nell&#39;elenco Consentiti di. Per ulteriori informazioni, consulta [Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+>Per consentire la comunicazione aperta tra [!DNL Workfront Proof] e [!DNL Workfront] server, potrebbe essere necessario aggiungere determinati indirizzi IP alla inserisce nell&#39;elenco Consentiti di accesso al sistema. Per ulteriori informazioni, consulta [Configurare il elenco Consentiti di protezione del firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -55,6 +57,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Integrazioni supportate
 

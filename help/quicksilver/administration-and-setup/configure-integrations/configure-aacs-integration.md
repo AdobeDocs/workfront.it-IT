@@ -6,9 +6,9 @@ description: Puoi collegare il tuo lavoro con il contenuto in [!DNL Experience M
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Puoi collegare il tuo lavoro con il contenuto in [!DNL Experience Manager Assets
 >Puoi anche connetterne diversi [!DNL Experience Manager Assets] archivi su uno [!UICONTROL Workfront] ambiente o più [!DNL Workfront] ambienti a uno [!DNL Experience Manager Assets] archivio tra gli ID organizzazione. Segui le istruzioni di configurazione in questo articolo per ogni integrazione da configurare.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -74,6 +76,8 @@ Devi avere i seguenti:
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Prerequisiti

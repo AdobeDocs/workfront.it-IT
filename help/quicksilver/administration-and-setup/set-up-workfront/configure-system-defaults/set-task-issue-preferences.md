@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2074'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Per impostazione predefinita, le preferenze relative a attività e problemi sono
 
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -54,6 +56,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Configurare le preferenze per attività e problemi per tutti gli utenti in [!DNL Workfront]
 
 {{step-1-to-setup}}
@@ -70,7 +74,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Lavoraci</a> </li>
-  -->
+  --&gt;
 
 * [[!UICONTROL Accesso]](#access)
 
@@ -114,7 +118,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Quando si converte un problema in un'attività]</td> 
+    <td role="rowheader" [!UICONTROL>Quando si converte un problema in un'attività]</td> 
     <td> <p>Le impostazioni in questa sezione determinano cosa accade durante il processo di conversione da un problema all’altro:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Mantieni il problema originale e collegane la risoluzione all'attività]</strong>: durante la conversione del problema, questo rimane visibile come problema fino al completamento dell’attività. Lo stato del problema cambia automaticamente in [!UICONTROL Closed] al completamento dell'attività. Se questa opzione è deselezionata, il problema viene eliminato.</p> <p><b>NOTA</b>:  <p>Gli utenti che non dispongono dell’accesso o delle autorizzazioni necessarie per eliminare un problema non potranno eliminarlo mentre lo stanno convertendo, indipendentemente dallo stato di questa impostazione. Per informazioni sull’accesso e le autorizzazioni per i problemi, consulta:</p> 

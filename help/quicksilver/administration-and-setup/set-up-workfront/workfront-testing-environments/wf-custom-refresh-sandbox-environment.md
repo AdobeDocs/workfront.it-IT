@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ La sandbox di aggiornamento personalizzata è un ambiente in cui puoi testare e 
 
 ## Requisiti di accesso
 
-Devi avere i seguenti:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,6 +56,8 @@ Devi avere i seguenti:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Aggiornamento della sandbox di aggiornamento personalizzata
 

@@ -7,10 +7,10 @@ description: È possibile aggiungere un modulo personalizzato esistente a uno qu
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 1%
+source-wordcount: '822'
+ht-degree: 2%
 
 ---
 
@@ -32,11 +32,13 @@ ht-degree: 1%
 * Utenti
 * Iterazioni
 * Spese
-* Record fatturazione
+* Record di fatturazione
 
 È possibile aggiungere un modulo personalizzato solo ai tipi di oggetti per i quali è stato creato.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire le azioni descritte in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -68,6 +70,8 @@ Per eseguire le azioni descritte in questo articolo, è necessario disporre dei 
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisiti
 
@@ -140,6 +144,6 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
    >Se non è possibile trovare il modulo nel menu a discesa, significa che il modulo è già associato ad almeno uno degli oggetti. Determinare l&#39;oggetto ed eliminarlo dalla selezione prima di aggiungere il modulo agli oggetti rimanenti.
 
 
-1. Clic **Salva modifiche**.
+1. Fai clic su **Salva modifiche**.
 
    Se il modulo contiene campi obbligatori contrassegnati da un asterisco rosso, non è necessario completarli in questo momento.

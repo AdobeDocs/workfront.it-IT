@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '3298'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ ht-degree: 0%
 In qualità di amministratore di Adobe Workfront, puoi creare utenti e gestire i profili di quelli esistenti. Per informazioni sulla creazione di utenti, consulta [Aggiungi utenti](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -63,8 +65,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
     </ul> </td> 
   </tr> 
  </tbody> 
-</table> 
-*Per informazioni sulla pianificazione, il tipo di licenza o l'accesso disponibili, contattare l'amministratore Workfront.
+</table>
+
+*Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
+
++++
 
 ## Modificare un profilo utente
 
@@ -86,7 +91,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
        <ul> 
         <li><p><b>Nome</b></p></li>
         <li><p><b>Cognome</b></p></li> 
-        <li> <p><b>Indirizzo e-mail:</b> L’indirizzo e-mail di un utente corrisponde anche al suo nome utente in Workfront. Questo campo distingue tra maiuscole e minuscole e deve essere univoco. Se un utente tenta di aggiungere un indirizzo e-mail non univoco 3 volte in una finestra di 10 minuti, viene visualizzata una risposta reCAPTCHA.</p> <p> Seleziona la <b>Io non sono un robot</b> prima di procedere.</p><p>Inserire nell'elenco Consentiti Se utilizzi l’e-mail e immetti un dominio e-mail non incluso nell’elenco, l’utente non riceverà notifiche e-mail. Per ulteriori informazioni sul inserisco nell'elenco Consentiti di, consulta <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configurare il inserisco nell'elenco Consentiti di e-mail per l e-mail</a>.</p> </li> 
+        <li> <p><b>Indirizzo e-mail:</b> L’indirizzo e-mail di un utente corrisponde anche al suo nome utente in Workfront. Questo campo distingue tra maiuscole e minuscole e deve essere univoco. Se un utente tenta di aggiungere un indirizzo e-mail non univoco 3 volte in una finestra di 10 minuti, viene visualizzata una risposta reCAPTCHA.</p> <p> Seleziona la <b>Io non sono un robot</b> prima di procedere.</p><p>Se utilizzi il elenco Consentiti di gestione delle e-mail e immetti un dominio e-mail non incluso nell’elenco, l’utente non riceverà notifiche e-mail. Per ulteriori informazioni sul inserisco nell'elenco Consentiti di, consulta <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Configurare la inserisce nell'elenco Consentiti di e-mail per l’e-mail</a>.</p> </li> 
         <li> <p><b>Reimposta password</b>: fai clic su questo collegamento per reimpostare la password dell’utente. È necessario immettere la propria password prima di reimpostare quella di un altro utente.</p> <p>Per reimpostare la password di un altro utente, è necessario essere un amministratore di Workfront o un amministratore di gruppo.</p> <p><b>NOTA</b>:  
           <ul> 
            <li> <p>Se si è un amministratore di gruppo, è possibile reimpostare le password solo per gli utenti dei gruppi in cui si è designati come amministratore. Inoltre, l’autorizzazione Amministratore utenti (utenti gruppo) deve essere abilitata nel tuo livello di accesso:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Questa impostazione è disabilitata per impostazione predefinita. Per ulteriori informazioni, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </li> 

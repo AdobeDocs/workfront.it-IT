@@ -7,9 +7,9 @@ description: Scopri come calcolare le differenze di data e ora.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Puoi calcolare la differenza tra i seguenti:
 >Questi calcoli visualizzano il numero di giorni tra le due date. Il risultato viene visualizzato in giorni. Viene considerata anche la marca temporale nel campo data e il numero di giorni potrebbe essere seguito da decimali se le marche temporali non corrispondono. Se l&#39;attività è stata completata in ritardo, il numero di giorni viene visualizzato come valore negativo.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -61,6 +63,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Calcola la differenza di data e ora tra due campi data sullo stesso oggetto
 

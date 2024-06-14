@@ -6,10 +6,10 @@ description: Convertire un problema in un progetto in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b091b62d3afe822c92f96641332077b5a211ee58
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1969'
-ht-degree: 0%
+source-wordcount: '1980'
+ht-degree: 1%
 
 ---
 
@@ -28,6 +28,8 @@ Se è necessario fare di più per completare un problema dopo l’invio del prob
 Durante la creazione di un progetto a partire da un problema, alcuni campi del progetto si popolano da altri oggetti. Per ulteriori informazioni, consulta la sezione &quot;Nuove impostazioni predefinite del progetto&quot; nell’articolo [Creare un progetto](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -57,6 +59,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Convertire un problema in un progetto
 
@@ -90,7 +94,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Facoltativo e condizionale) Fai clic su [!UICONTROL **Opzioni**] nel pannello a sinistra, seleziona una delle opzioni disponibili:
 
-   * [!UICONTROL **Mantieni il problema originale e collegane la risoluzione a questo progetto**]
+   * [!UICONTROL **Mantieni il problema originale e collegane la risoluzione al progetto**]
 
      Se questa opzione è deselezionata, il problema originale viene eliminato.
 
@@ -198,7 +202,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 1. (Facoltativo e condizionale) Fai clic su [!UICONTROL **Opzioni**] nel pannello a sinistra, seleziona una delle opzioni disponibili:
 
-   * [!UICONTROL **Mantieni il problema originale e collegane la risoluzione a questo progetto**]
+   * [!UICONTROL **Mantieni il problema originale e collegane la risoluzione al progetto**]
 
      Se questa opzione è deselezionata, il problema originale viene eliminato.
 

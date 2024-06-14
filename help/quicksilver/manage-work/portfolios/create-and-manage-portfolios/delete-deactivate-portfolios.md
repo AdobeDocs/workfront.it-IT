@@ -6,9 +6,9 @@ description: I Portfoli sono raccolte di progetti o programmi in Adobe Workfront
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ I Portfoli sono raccolte di progetti o programmi in [!DNL Adobe Workfront]. Puoi
 Consigliamo di disattivare un portfolio che non deve più essere associato a progetti futuri, invece di eliminarlo, per conservare le informazioni storiche sui progetti attualmente associati al portfolio e ai suoi programmi.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -50,6 +52,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Panoramica sull’eliminazione e la disattivazione dei portfolio
 

@@ -1,29 +1,31 @@
 ---
-title: Creare un percorso cardine
+title: Creare un percorso milestone
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-description: In qualità di amministratore di Adobe Workfront, puoi creare percorsi cardine che possono essere applicati a qualsiasi progetto nel sistema. Le modifiche apportate ai percorsi cardine in quest’area influiscono sull’intero sistema Workfront.
+description: In qualità di amministratore di Adobe Workfront, puoi creare percorsi milestone che possono quindi essere applicati a qualsiasi progetto del sistema. Le modifiche apportate ai percorsi milestone in quest'area hanno effetto sull'intero sistema Workfront.
 author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
 
-# Creare un percorso cardine
+# Creare un percorso milestone
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-In qualità di amministratore di Adobe Workfront, puoi creare percorsi cardine che possono essere applicati a qualsiasi progetto nel sistema. Le modifiche apportate ai percorsi cardine in quest’area influiscono sull’intero sistema Workfront.
+In qualità di amministratore di Adobe Workfront, puoi creare percorsi milestone che possono quindi essere applicati a qualsiasi progetto del sistema. Le modifiche apportate ai percorsi milestone in quest&#39;area hanno effetto sull&#39;intero sistema Workfront.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -40,46 +42,48 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td>Piano</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni a livello di accesso</td> 
-   <td> <p>Devi essere un amministratore Workfront.</p> <p><b>NOTA</b>: Se non disponi ancora dell’accesso, chiedi all’amministratore Workfront se ha impostato ulteriori restrizioni nel livello di accesso. Per informazioni su come un amministratore Workfront può modificare il livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Devi essere un amministratore di Workfront.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi all’amministratore di Workfront se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di Workfront può modificare il tuo livello di accesso, consulta <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Milestone e percorsi cardine
++++
 
-È possibile associare le attività chiave di un progetto a tappe predefinite. Questa funzione può fornire ai manager e agli altri soggetti interessati una panoramica di alto livello dei progressi di un progetto.
+## Milestone e percorsi milestone
 
-La somma di tutte le tappe predefinite è denominata percorso cardine.
+È possibile associare le attività chiave di un progetto alle attività cardine predefinite. Questa funzione può fornire ai manager e ad altre parti interessate una panoramica di alto livello sullo stato di avanzamento di un progetto.
 
-Il primo passo per la creazione di un percorso cardine consiste nell&#39;identificare quali sono i passaggi cardine e stabilire le fasi cardine. Poiché è possibile associare un percorso cardine a più progetti, i passaggi cardine devono essere fasi generali o fasi di qualsiasi progetto.
+La somma di tutte le milestone predefinite è chiamata percorso milestone.
 
-Per ulteriori informazioni su come associare un percorso cardine a un progetto e un&#39;attività cardine a un&#39;attività, consulta [Associa milestone alle attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Il primo passo nella creazione di un percorso milestone consiste nell&#39;identificare le fasi cardine e nel definirne le tappe. Poiché è possibile associare un percorso milestone a più progetti, i passaggi milestone devono essere fasi generali o fasi di qualsiasi progetto.
 
-## Creare un percorso cardine
+Per ulteriori informazioni su come associare un percorso milestone a un progetto e un milestone a un&#39;attività, vedere [Associa attività cardine ad attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+## Creare un percorso milestone
 
-1. Fai clic su **Processi** > **Percorsi Milestone**.
-1. Fai clic su **Nuovo percorso Milestone.**
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+
+1. Clic **Processi** > **Percorsi milestone**.
+1. Clic **Nuovo Percorso Milestone.**
 1. Specifica le seguenti informazioni nella **Informazioni di base** area:
 
    <table style="table-layout:auto">
     <tr>
       <td>Nome percorso milestone</td>
-       <td>Immettere un nome per il percorso cardine.</td>
+       <td>Immettere un nome per il percorso milestone.</td>
     </tr>
     <tr>
       <td>Descrizione</td>
-      <td>Immettere una descrizione per definire il percorso della cardine.</td>
+      <td>Immettere una descrizione per definire il percorso della milestone.</td>
     </tr>
     <tr>
        <td>È attivo</td>
-      <td>Selezionare questa casella di controllo se si desidera che il percorso cardine sia attivo. Altri utenti possono trovare questo percorso e allegarlo ai progetti durante la creazione o la modifica di progetti. Non è possibile allegare ai progetti percorsi di cardine inattivi. Questa opzione è attivata per impostazione predefinita.</td>
+      <td>Selezionare questa casella di controllo se si desidera che il percorso milestone sia attivo. Altri utenti possono trovare questo percorso e allegarlo ai progetti durante la creazione o la modifica dei progetti. I percorsi delle milestone inattivi non possono essere associati ai progetti. Questa opzione è attivata per impostazione predefinita.</td>
     </tr>
     <tr>
       <td>Gruppi</td>
-      <td>Seleziona i gruppi elencati per consentire agli utenti di questi gruppi di visualizzare e applicare questo percorso cardine ai loro progetti. Per impostazione predefinita, il gruppo home dell’utente che accede al percorso della cardine viene selezionato.</td>
+      <td>Seleziona i gruppi elencati per consentire agli utenti di questi gruppi di visualizzare e applicare questo percorso milestone ai loro progetti. Per impostazione predefinita, viene selezionato il gruppo predefinito dell'utente che immette il percorso milestone.</td>
     </tr>
    </table>
 
@@ -91,22 +95,22 @@ Per ulteriori informazioni su come associare un percorso cardine a un progetto e
     <tbody> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td>Digitare nomi descrittivi per ogni cardine.</td> 
+      <td>Digita nomi descrittivi per ogni milestone.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Descrizione</td> 
       <td>Digitare una descrizione per la fase cardine.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Clr icn</td> 
-      <td> <p>Scegliere un colore da associare alla cardine. </p> <p>Se non si sceglie un colore, il sistema sceglie l'ultimo colore utilizzato in un percorso cardine. È consigliabile scegliere un colore univoco per ogni cardine. Il colore viene utilizzato a scopo visivo e di reporting.</p> </td> 
+      <td role="rowheader">Colore</td> 
+      <td> <p>Scegliere un colore da associare alla milestone. </p> <p>Se non scegliete un colore, il sistema sceglie l'ultimo colore utilizzato in un percorso milestone. È consigliabile scegliere un colore univoco per ogni fase cardine. Il colore viene utilizzato a scopo visivo e di reporting.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Fai clic su **Aggiungi Milestone** e continua ad aggiungere le tappe necessarie fino al completamento del percorso.
-1. Fai clic su **Crea percorso Milestone** per salvare le modifiche.
+1. Clic **Aggiungi milestone** e continua ad aggiungere le milestone necessarie fino al completamento del percorso.
+1. Clic **Crea percorso milestone** per salvare le modifiche.
 
-   Il percorso cardine è pronto per essere associato a un progetto.
+   Il percorso milestone è pronto per essere associato a un progetto.
 
-   Per ulteriori informazioni su come associare percorsi cardine a progetti e fasi cardine alle attività, vedere [Associa milestone alle attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+   Per ulteriori informazioni su come associare percorsi milestone a progetti e milestone ad attività, vedi [Associa attività cardine ad attività](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).

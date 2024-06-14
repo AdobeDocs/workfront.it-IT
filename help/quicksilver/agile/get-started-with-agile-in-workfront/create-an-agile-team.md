@@ -6,10 +6,10 @@ description: Adobe Workfront consente ai team agili di completare il lavoro in m
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 0%
+source-wordcount: '1012'
+ht-degree: 1%
 
 ---
 
@@ -28,6 +28,8 @@ Qualsiasi utente dell’organizzazione può vedere il team agile e tutti i suoi 
 * **[!UICONTROL Kanban]:** I team spostano il lavoro nella vista Kanban tra stati predeterminati. Gli stati predefiniti sono: backlog, in-process e done. Per informazioni più dettagliate sulla gestione di un team Kanban, consulta [Kanban in un team agile](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -51,7 +53,9 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare [!DNL Workfront] amministratore.
+Per conoscere il piano o il tipo di licenza di cui si dispone, contattare [!DNL Workfront] amministratore.
+
++++
 
 ## Decidere una metodologia agile
 
@@ -135,7 +139,7 @@ Le funzionalità seguenti supportano questa metodologia:
     </tbody> 
    </table>
 
-1. Clic **[!UICONTROL Crea]**.
+1. Fai clic su **[!UICONTROL Crea]**.
 
    Per informazioni sulla configurazione di un team Agile, consulta i seguenti articoli:
 

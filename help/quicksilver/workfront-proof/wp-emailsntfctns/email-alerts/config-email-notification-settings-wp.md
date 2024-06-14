@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Configurare le impostazioni delle notifiche e-mail in [!DNL Workfront Proof]
-description: Le notifiche e-mail generate da Workfront Proof informano i collaboratori sulle attività recenti relative alle bozze, ad esempio commenti, risposte o decisioni.
+description: Le notifiche e-mail generate da Workfront Proof informano i collaboratori sulle recenti attività su bozze, ad esempio commenti, risposte o decisioni.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '2058'
+source-wordcount: '2049'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,6 @@ ht-degree: 0%
 Le notifiche e-mail informano i collaboratori sulle attività recenti relative alle bozze, ad esempio commenti, risposte o decisioni.
 
 Puoi impostare le notifiche e-mail per i revisori nelle seguenti aree:
-
-## Requisiti di accesso
-
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">Prodotto</td> 
-   <td>Workfront Proof Standalone</td> 
-  </tr> 
-</table>
 
 Le notifiche e-mail per i revisori possono essere impostate sulla pagina Nuova bozza, [!UICONTROL Nuova versione] e gestito in [!UICONTROL Flusso di lavoro] sezione del [!UICONTROL Dettagli bozza] pagina. Per ulteriori informazioni, consulta [Generare bozze in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
@@ -63,9 +52,20 @@ Utenti con [!UICONTROL Amministratore] o [!UICONTROL Amministratore fatturazione
 
 Per informazioni sui profili, consulta [Profili delle autorizzazioni di bozza in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [Configurare i valori predefiniti per la bozza nelle impostazioni personali ([!DNL Workfront Proof] (solo utenti)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [Modificare gli avvisi e-mail per un destinatario](#change-email-alerts-for-a-recipient)
-* [Configurare le impostazioni predefinite della bozza per un utente](#configure-proof-defaults-for-a-user)
+## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
+Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Prodotto</td> 
+   <td>Standalone Workfront Proof</td> 
+  </tr> 
+</table>
+
++++
 
 ## Configurare i valori predefiniti per la bozza nelle impostazioni personali ([!DNL Workfront Proof] (solo utenti)
 

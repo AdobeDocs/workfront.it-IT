@@ -6,10 +6,10 @@ description: È possibile configurare le impostazioni del Calendario predefinito
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 1%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 È possibile configurare [!UICONTROL Calendario predefinito] impostazioni per eseguire le operazioni seguenti:
 
-* Integrare con una versione basata su Web di [!DNL Outlook] in hosting cloud [!DNL Office 365] o [!DNL Outlook Live]. È possibile visualizzare tutti gli eventi dal calendario di Outlook e tutti i calendari associati selezionati nel [!UICONTROL Calendario predefinito] in Adobe Workfront.
+* Integrare con una versione basata sul web di [!DNL Outlook] in [!DNL Office 365] o [!DNL Outlook Live] ospitati nel cloud. È possibile visualizzare tutti gli eventi dal calendario di Outlook e tutti i calendari associati selezionati nel [!UICONTROL Calendario predefinito] in Adobe Workfront.
 * Consente di tenere traccia del carico di lavoro rispetto alle ore lavorative disponibili sul [!UICONTROL Allocazione] barra.
 
 Per ulteriori informazioni sul Calendario predefinito, consulta [[!UICONTROL Calendario predefinito] visualizza](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
@@ -27,6 +27,8 @@ Per ulteriori informazioni sul Calendario predefinito, consulta [[!UICONTROL Cal
 In questo articolo viene descritto come configurare le impostazioni del Calendario predefinito e integrare il Calendario predefinito con il calendario di Outlook esterno.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -51,6 +53,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 *Per sapere quale piano o tipo di licenza si dispone, contattare il [!DNL Workfront] amministratore. Per ulteriori informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Informazioni sull’integrazione [!DNL Microsoft Outlook] calendari
 

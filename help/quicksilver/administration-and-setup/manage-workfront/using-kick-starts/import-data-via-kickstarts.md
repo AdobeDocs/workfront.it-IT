@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 22c8f41f725784e348c44b209b9bc1537b26c952
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2725'
+source-wordcount: '2736'
 ht-degree: 6%
 
 ---
@@ -31,6 +31,8 @@ Questo processo è suddiviso in 3 attività principali:
 Ognuna di queste procedure è descritta nell&#39;ordine appropriato in questo articolo.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -57,6 +59,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Limitazioni
 
@@ -110,9 +114,9 @@ Per esportare un modello di Kick-Start:
       <td scope="col"> <p scope="col">Parametro</p> <p scope="col">Testo descrittivo</p> <p scope="col">Opzione Parametro</p> <p scope="col">Gruppo di parametri</p> <p scope="col">Parametro di Categoria</p> <p scope="col">Categoria</p> <p scope="col">Rapporto</p> <p scope="col">Preferenze</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Approval</p> </td> 
+      <td scope="col"> <p>Approvazione</p> </td> 
       <td scope="col"> <p>Esporta come file Excel</p> </td> 
-      <td scope="col"> <p>Approvatore fase</p> <p>Fase di approvazione</p> <p>Approval</p> <p>Processo di approvazione</p> <p>Preferenze</p> </td> 
+      <td scope="col"> <p>Approvatore fase</p> <p>Fase di approvazione</p> <p>Approvazione</p> <p>Processo di approvazione</p> <p>Preferenze</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Dati personalizzati</p> </td> 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2338'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,8 @@ Per informazioni sull’aggiunta di un widget di risorse a un modulo personalizz
 >In un modulo personalizzato contenente molti campi personalizzati o molte opzioni a selezione multipla nei campi personalizzati, gli utenti potrebbero notare un rallentamento delle prestazioni quando aggiungono o modificano valori in tali campi. Ad esempio, un modulo contenente 100 campi personalizzati o più campi personalizzati selezionati con più di 200 opzioni potrebbe risultare più lento quando gli utenti interagiscono con esso.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
@@ -56,6 +58,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aggiungere un campo personalizzato a un modulo personalizzato {#add-custom-field-to-custom-form}
 

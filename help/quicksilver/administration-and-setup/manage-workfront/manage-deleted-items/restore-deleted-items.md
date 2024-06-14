@@ -8,9 +8,9 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1082'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,8 @@ Un amministratore di gruppo può inoltre ripristinare questi oggetti per un grup
 
 ## Requisiti di accesso
 
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
+
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti elementi:
 
 <table style="table-layout:auto"> 
@@ -59,6 +61,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano o il tipo di licenza di cui si dispone, contattare l&#39;amministratore Workfront.
 
++++
+
 ## Informazioni recuperate quando si ripristina un progetto, un&#39;attività o un problema
 
 Quando ripristini un progetto, un’attività o un problema, vengono recuperate anche le seguenti informazioni associate:
@@ -77,14 +81,14 @@ Quando ripristini un progetto, un’attività o un problema, vengono recuperate 
 * Stati
 * Informazioni finanziarie:
 
-   * Record fatturazione
+   * Record di fatturazione
    * Tariffe di fatturazione
    * Spese
 
 * Informazioni sequenza temporale:
 
    * Predecessori
-   * Vincoli attività
+   * Vincoli delle attività
    * Tipo di durata
 
 * Linee di base

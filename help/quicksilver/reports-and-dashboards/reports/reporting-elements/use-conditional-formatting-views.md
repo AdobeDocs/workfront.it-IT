@@ -6,10 +6,10 @@ description: Quando condividi i tuoi rapporti con altri utenti in Adobe Workfron
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 2%
+source-wordcount: '1220'
+ht-degree: 3%
 
 ---
 
@@ -36,6 +36,8 @@ Con una vista con formattazione condizionale è possibile:
 Le modifiche apportate nella visualizzazione del report hanno effetto solo nella scheda Dettagli del report. Queste modifiche non influiscono sulle schede Riepilogo, Matrice o Grafico del rapporto.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -70,6 +72,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+
++++
 
 ## Prerequisiti
 
@@ -114,7 +118,7 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto](.
     </tbody> 
    </table>
 
-1. Clic **Aggiungi una regola per questa colonna**.
+1. Fai clic su **Aggiungi una regola per la colonna**.
 
    <!--
    <note type="note">
@@ -186,5 +190,5 @@ Per informazioni sulla creazione di un rapporto, consulta [Creare un rapporto](.
    * Quando salvi le regole e la visualizzazione, lo sfondo rosso non viene applicato a un progetto annullato.
 
 1. Clic **Fine**.
-1. Clic **Salva e chiudi**.\
+1. Fai clic su **Salva e Chiudi**.\
    Nel report, gli utenti visualizzano le modifiche al formato se sono state soddisfatte le condizioni specificate.

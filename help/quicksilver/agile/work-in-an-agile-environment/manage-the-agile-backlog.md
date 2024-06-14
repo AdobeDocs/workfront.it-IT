@@ -6,9 +6,9 @@ description: Le attività e i problemi possono essere assegnati a un team agile 
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1371'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Le attività o i problemi possono essere assegnati al team (e successivamente ag
 >Se aggiungi più team a un elemento del backlog, l’attività o il problema viene visualizzato solo nel backlog del team principale. Il team principale è il team assegnato per primo.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -56,6 +58,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creazione e gestione di brani nel backlog
 
@@ -182,7 +186,7 @@ Per assegnare un’attività o un problema a un team agile:
 1. (Facoltativo) Elimina eventuali assegnatari esistenti.
 1. Clic **[!UICONTROL Aggiungi assegnatario]**.
 1. Inizia a digitare il nome del team Agile che desideri assegnare all’attività o al problema, quindi fai clic sul nome del team quando viene visualizzato nell’elenco a discesa.
-1. Clic **[!UICONTROL Salva modifiche]**.\
+1. Fai clic su **[!UICONTROL Salva modifiche]**.\
    L’attività o il problema è ora disponibile nel backlog del team.
 
 ## Spostare i brani nel backlog o fuori di esso

@@ -6,9 +6,9 @@ description: Una previsione è un'istantanea del progetto che rappresenta le inf
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Una previsione è un&#39;istantanea del progetto che rappresenta le informazioni
 È possibile utilizzare la previsione per confrontare tali informazioni dal piano corrente al piano originale o a qualsiasi altro point-in-time, per identificare le attività problematiche, lo slittamento dell&#39;ambito e altre tendenze nel tempo.
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <!--
 drafted for P&P:
@@ -83,6 +85,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </table>
 
 Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerazioni sull&#39;utilizzo delle linee di base
 
