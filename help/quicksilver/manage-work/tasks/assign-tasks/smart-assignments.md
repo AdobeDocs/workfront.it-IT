@@ -7,14 +7,16 @@ description: Quando gestisci le assegnazioni di attività e problemi, puoi utili
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 # Panoramica delle assegnazioni intelligenti
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
 
@@ -122,7 +124,7 @@ Il calcolo per il punteggio di somiglianza e l&#39;ordine in cui sono elencate l
 
   Ad esempio, se Rick è stato assegnato a un&#39;attività simile in precedenza e Jennifer è stato assegnato a un&#39;attività simile due giorni fa, Rick viene visualizzato per primo.
 
-* Le assegnazioni identificate in questa fase sono elencate nella    **Assegnazioni suggerite**  sezione del campo Assegnazioni delle attività.
+* Le assegnazioni identificate in questa fase sono elencate nella    **Assegnazioni suggerite**  sezione del campo Assegnazioni per le attività.
 
 * Se non ci sono corrispondenze che utilizzano questo calcolo, inizia la seconda fase delle assegnazioni intelligenti che viene calcolata utilizzando un algoritmo diverso.
 
@@ -132,7 +134,7 @@ Se il primo passaggio delle assegnazioni intelligenti delle attività non ha tro
 
 Per ulteriori informazioni, consulta la sezione [Criteri di assegnazione intelligenti per attività e problemi](#smart-assignments-criteria-for-tasks-and-issues) in questo articolo.
 
-Le assegnazioni identificate in questa fase sono elencate nella   **Altre assegnazioni**, **Utenti e team**, o **Assegnazioni mansioni**  sezioni del campo Assegnazioni per le attività.
+Le assegnazioni identificate in questa fase sono elencate nella **Utenti e team**, **Assegnazioni mansioni**, e **Valuta ruoli scheda**  sezioni del campo Assegnazioni. Per ulteriori informazioni sulle schede delle tariffe, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Criteri di assegnazione intelligenti per attività e problemi
 

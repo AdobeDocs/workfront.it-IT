@@ -6,14 +6,16 @@ description: È possibile utilizzare le assegnazioni avanzate per identificare l
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
 
 # Effettua assegnazioni intelligenti
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
 
@@ -25,7 +27,7 @@ ht-degree: 0%
 
 Le assegnazioni intelligenti sono suggerimenti per utenti, ruoli o team che Adobe Workfront presenta quando si assegnano elementi di lavoro alle risorse. Workfront basa i suoi suggerimenti su un algoritmo che determina la risorsa più appropriata per il processo.
 
-<span class="preview">In Workfront sono disponibili due algoritmi distinti per le attività e i problemi. </span>
+<span class="preview">In Workfront sono disponibili due algoritmi distinti che calcolano le assegnazioni intelligenti che funzionano in modo diverso per le attività e per i problemi. </span>
 
 Per ulteriori informazioni sui criteri utilizzati per determinare le assegnazioni intelligenti, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -73,20 +75,20 @@ Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizion
    * Il campo Assegnazioni per un elemento elencato nell&#39;area Home
    * Un’attività o un problema nel Bilanciatore dei carichi di lavoro
 
-1. Posizionare il cursore nel campo delle assegnazioni e attendere due secondi.
+1. Posizionare il cursore nel campo Assegnazioni e attendere due secondi.
 
    <div class="preview">
    Vengono visualizzate una o più delle seguenti sezioni con suggerimenti di assegnazione intelligente:
 
-   * **Assegnazioni suggerite**: viene visualizzata per le attività.
+   * **Assegnazioni suggerite**: viene visualizzata per le attività. <!--remove the note when we go to production with smarter assignments-->
 
      >[!TIP]
      >
      >   Viene visualizzata l’intestazione dell’elenco **Di seguito sono riportati alcuni consigli** invece di **Assegnazioni suggerite** nell’ambiente di produzione.
      >
-   * **Altre assegnazioni**: viene visualizzata per le attività e i problemi.
    * **Utenti e team**: viene visualizzata per le attività e i problemi.
    * **Ruoli**: viene visualizzato per attività e problemi.
+   * **Valuta ruoli scheda**: viene visualizzata per le attività. Per ulteriori informazioni, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
    </div>
 
    <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
@@ -95,7 +97,7 @@ Le assegnazioni intelligenti sono disponibili nella maggior parte delle posizion
    Per le attività, le assegnazioni intelligenti vengono visualizzate nelle sezioni seguenti, a seconda della fase di calcolo dell&#39;algoritmo che ha identificato le assegnazioni:
 
    * **Assegnazioni suggerite**: assegnazioni identificate nella prima fase del calcolo dell&#39;algoritmo dell&#39;assegnazione intelligente dell&#39;attività. <span class="preview">Questa sezione non è disponibile per i problemi.</span>
-   * <span class="preview">**Altre assegnazioni**, **Utenti e team**, o **Ruoli**: assegnazioni identificate nella seconda fase del calcolo dell&#39;algoritmo dell&#39;assegnazione intelligente dell&#39;attività. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Utenti e team**, **Ruoli**, o **Valuta ruoli scheda**: assegnazioni identificate nella seconda fase del calcolo dell&#39;algoritmo dell&#39;assegnazione intelligente dell&#39;attività. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 

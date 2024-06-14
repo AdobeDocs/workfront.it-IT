@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 50e52f27f1f3f6f5b601b50303aba409559d8ca8
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2070'
 ht-degree: 1%
 
 ---
 
 # Assegna attività
+
+<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
 
@@ -51,6 +53,8 @@ Oltre a questo articolo, si consiglia di leggere i seguenti articoli per ulterio
 * [Panoramica sull’assegnazione del lavoro nel Bilanciatore dei carichi di lavoro](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <!--drafted for P&P - replace table below with this:
 
@@ -112,6 +116,8 @@ Se non disponi ancora dell’accesso, chiedi all’amministratore di Workfront s
 </table>
 
 *Per informazioni sulla pianificazione, il tipo di licenza o l&#39;accesso disponibili, contattare l&#39;amministratore Workfront.
+
++++
 
 ## Considerazioni per più assegnazioni a mansioni, team e utenti
 
@@ -191,10 +197,12 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, consulta [Concedere l’accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
-     ><span class="preview">Quando si aggiunge un&#39;assegnazione di una mansione, è possibile cercare la mansione o la posizione. Selezionare la mansione predefinita/di sistema per utilizzare la tariffa di fatturazione predefinita per l&#39;assegnazione oppure selezionare una mansione scheda tariffa per utilizzare la tariffa di fatturazione dalla scheda tariffa. Per ulteriori informazioni sulle schede delle tariffe, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">Quando si aggiunge un&#39;assegnazione di una mansione, è possibile cercare la mansione o la posizione. Selezionare un ruolo dall&#39;elenco Ruoli per utilizzare la tariffa di fatturazione predefinita per l&#39;assegnazione oppure selezionare un ruolo di ruolo Scheda tariffa per utilizzare la tariffa di fatturazione dalla scheda tariffa. Per ulteriori informazioni sulle schede delle tariffe, consulta [Gestire le schede delle tariffe](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Condizionale) Fai clic su uno dei nomi nell’ **Assegnazioni suggerite** elenco, se visualizzato. Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Condizionale) Fai clic su uno dei nomi nell’ <span class="preview">**Assegnazioni suggerite**, **Utente e team**, o **Ruoli**, o **Valuta ruoli scheda**</span> elenchi quando vengono visualizzati. Per ulteriori informazioni, consulta [Panoramica delle assegnazioni intelligenti](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+     È possibile iniziare a digitare il nome di qualsiasi utente, team o mansione da assegnare all&#39;attività, quindi selezionarlo quando viene visualizzato nell&#39;elenco.
 
    * Clic **Avanzate**
 

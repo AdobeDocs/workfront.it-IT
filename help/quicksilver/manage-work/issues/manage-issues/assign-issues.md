@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
 
 # Assegna problemi
+
+<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
 <span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente di anteprima per tutti i clienti oppure nell’ambiente di produzione per i clienti che hanno abilitato le versioni rapide.</span>
 
@@ -130,7 +132,7 @@ Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto
      <span class="preview">Immagine di esempio nell’ambiente di anteprima:</span>
      <span class="preview">![Ricerca assegnazioni](assets/smart-assignments-issue-header.png)</span>
 
-   * (Condizionale) Fai clic su uno dei nomi nell’ **Assegnazioni suggerite** list
+   * (Condizionale) Fai clic su uno dei nomi, dei ruoli o dei team negli elenchi disponibili
    * Clic **Assegna a me** per assegnarlo a se stessi
    * Clic **Avanzate**.
 
@@ -143,6 +145,10 @@ Quando si assegnano più risorse a un elemento di lavoro, tenere presente quanto
      >Gli utenti devono essere associati ad almeno una mansione per visualizzarla quando vengono aggiunti.
      >
      >Per consentire agli utenti di visualizzare le e-mail degli utenti, nel proprio livello di accesso deve essere abilitata l’impostazione Visualizza informazioni di contatto. Per informazioni, consulta [Concedere l’accesso agli utenti](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >
+
+     <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
 1. Clic **Salva** per completare l’assegnazione del problema.

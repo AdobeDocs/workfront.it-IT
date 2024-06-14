@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '2249'
+source-wordcount: '2268'
 ht-degree: 0%
 
 ---
@@ -212,6 +212,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * **Descrizione**: informazioni aggiuntive sul campo record connesso. La descrizione di un campo viene visualizzata quando si passa il cursore sulla colonna del campo in una tabella.
    * **Consenti più record**: seleziona questa opzione per indicare che gli utenti possono aggiungere più record quando il campo del tipo di record collegato viene visualizzato nei record originali. Questa opzione è selezionata per impostazione predefinita.
    * **Seleziona campi di ricerca**: seleziona questa opzione per aggiungere campi dal tipo di record selezionato. I campi di ricerca sono campi associati al record o al tipo di oggetto a cui si sta effettuando il collegamento. Il collegamento consente di visualizzare le informazioni del record o dell&#39;oggetto a cui si sta effettuando il collegamento nel record di cui si desidera creare il collegamento. Questa opzione è selezionata per impostazione predefinita.
+
+     >[!TIP]
+     >
+     > Non è possibile aggiungere i seguenti tipi di campi come campi di ricerca:
+     >
+     >    * Persone
+     >    * Creato da
+     >    * Ultima modifica eseguita da
+     >    * Campi typeahead Workfront
 
 1. (Condizionale e facoltativo) Se si è selezionato di collegare un oggetto Workfront, selezionare un **Modulo personalizzato** dal **Collega solo gli oggetti che corrispondono a questi criteri** sezione. Solo gli oggetti a cui sono allegati i moduli personalizzati selezionati possono essere collegati al tipo di record selezionato. È possibile selezionare più moduli.
 
