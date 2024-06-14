@@ -6,9 +6,9 @@ description: È possibile aggiungere documenti a progetti, attività o problemi 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
+source-git-commit: 187e33c088177affd246aaf90cea33d6201e7a1b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Non esistono restrizioni sui tipi e sulle dimensioni dei file che è possibile c
 Per informazioni sul caricamento di nuove versioni di un documento in Workfront, consulta [Carica una nuova versione di un documento](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Requisiti di accesso
+
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 Devi avere i seguenti:
 
@@ -50,15 +52,19 @@ Devi avere i seguenti:
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
+
++++
 
 ## Aggiungi documenti a Workfront
 
 È possibile aggiungere nuovi documenti a Workfront dal file system della workstation. È inoltre possibile collegare documenti da applicazioni di terze parti, ad esempio Google Drive e SharePoint.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Anche se non esiste un limite di dimensione per il caricamento dei documenti, il download dei documenti è limitato a 4 GB.
+>* È possibile caricare fino a 150 documenti alla volta.
+>* Non esiste alcun limite alla dimensione del file.
+>* I download dei documenti sono limitati a 4 GB.
 
 Per aggiungere un documento:
 
