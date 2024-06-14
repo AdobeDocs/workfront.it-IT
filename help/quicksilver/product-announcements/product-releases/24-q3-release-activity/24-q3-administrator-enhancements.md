@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,20 @@ La promozione dell’ambiente consente di spostare gli oggetti da un ambiente Wo
 
 In precedenza, gli oggetti dovevano essere configurati negli ambienti di produzione separatamente dagli ambienti sandbox o di anteprima.
 
-Ulteriori informazioni e istruzioni per la promozione dell’ambiente saranno disponibili quando la promozione dell’ambiente verrà pubblicata con la versione 24.6.
+Per ulteriori informazioni sulla promozione dell’ambiente, consulta [Panoramica sullo spostamento di oggetti tra ambienti Workfront (promozione dell&#39;ambiente)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
+>[!IMPORTANT]
+>
+>La promozione dell&#39;ambiente è disponibile solo per le organizzazioni che aderiscono ai nuovi piani Prime o Ultimate.
+>
 
 ## Condivisione di moduli personalizzati e campi personalizzati nella finestra di progettazione moduli personalizzati
 
 >[!NOTE]
 >
->Versione di anteprima: 6 giugno 2024; versione di produzione per tutti i clienti: da definire
+>Versione di anteprima: 6 giugno 2024; versione di produzione per tutti i clienti: 13 giugno
 
 È ora possibile condividere sia i moduli personalizzati che i campi personalizzati all’interno del nuovo progettista di moduli. Ciò consente una maggiore collaborazione tra gli utenti sui moduli personalizzati.
 
