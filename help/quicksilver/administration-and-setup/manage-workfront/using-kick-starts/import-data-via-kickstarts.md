@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2755'
 ht-degree: 6%
 
 ---
@@ -109,7 +109,7 @@ Per esportare un modello di Kick-Start:
       <td scope="col"> <p>Parametro</p> <p>Testo descrittivo</p><p>Opzione Parametro</p> <p>Gruppo di parametri</p> <p>Parametro di Categoria</p> <p>Categoria</p> <p>Rapporto</p> <p>La Sezione della Liguetta Portale</p> <p>Dashboard</p> <p>Preferenze</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Rapporto</p> <p>Tutti i report nel sistema sono disponibili per l'esportazione. Puoi selezionare fino a 100 rapporti specifici in una singola esportazione.</p> </td> 
+      <td scope="col"> <p>Rapporto</p> <p>Tutti i report nel sistema sono disponibili per l'esportazione. Puoi selezionare fino a 100 rapporti specifici in una singola esportazione.</p> <p>Kick-Start non supporta i filtri in modalità testo. Per una corretta esportazione, i filtri di reporting devono essere commutati in modalità Standard.</p> </td> 
       <td scope="col">Esporta come file ZIP </td> 
       <td scope="col"> <p scope="col">Parametro</p> <p scope="col">Testo descrittivo</p> <p scope="col">Opzione Parametro</p> <p scope="col">Gruppo di parametri</p> <p scope="col">Parametro di Categoria</p> <p scope="col">Categoria</p> <p scope="col">Rapporto</p> <p scope="col">Preferenze</p> </td> 
      </tr> 

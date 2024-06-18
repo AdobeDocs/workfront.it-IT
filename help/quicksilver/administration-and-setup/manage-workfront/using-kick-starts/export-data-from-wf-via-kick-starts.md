@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 8%
+source-wordcount: '1013'
+ht-degree: 7%
 
 ---
 
@@ -334,13 +334,13 @@ Esistono le seguenti limitazioni quando si esportano dati tramite avvii (i dati 
 
    Non è possibile esportare report matrice. Per ulteriori informazioni sui report matrice, vedere [Creare un rapporto matrice](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
+   Kick-Start non supporta i filtri in modalità testo. Per una corretta esportazione, i filtri di reporting devono essere commutati in modalità Standard.
+
    Puoi selezionare fino a 100 dashboard e 100 rapporti in una singola esportazione.
 
    ![](assets/kickstart-export-350x381.png)
 
    È possibile esportare più oggetti contemporaneamente.
-
-
 
 1. (Consigliato) Analizza i dati esportati per assicurarti che tutte le informazioni che prevedi di visualizzare siano state esportate.
 
