@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2573'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
    <td> <p>Gestire le autorizzazioni per un'area di lavoro per connettere i record </p>  
-   <p>Consente di visualizzare o autorizzazioni superiori per un'area di lavoro per visualizzare tutte le connessioni a oggetti e campi da altre applicazioni, indipendentemente dall'accesso in altre applicazioni. </p>
+   <p>Consente di visualizzare o autorizzazioni superiori per un'area di lavoro per visualizzare tutte le connessioni a oggetti e campi da altre applicazioni, indipendentemente dall'accesso all'altra applicazione. </p>
+   <p>Visualizza o autorizzazioni superiori per gli oggetti che si desidera collegare da Workfront o Experience Manager Assets. </p>
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle che non hanno creato.</p>
 </td>
   </tr>
@@ -129,28 +130,41 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * Dopo aver connesso i tipi di record, i tipi di record collegati vengono visualizzati come campi di record collegati nella tabella dei tipi di record da cui sono collegati e nelle pagine dei record.
 * È possibile sfogliare e aggiungere record e oggetti dei tipi di record e oggetti collegati dai campi dei record collegati.
-* È possibile aggiungere campi dei tipi di record collegati alla tabella del tipo di record da cui si sta effettuando il collegamento.
-* Non è possibile aggiornare manualmente i valori dei campi collegati nei record da cui si sta effettuando il collegamento.
+* È possibile aggiungere campi (campi di ricerca) dei tipi di record collegati nella tabella del tipo di record da cui si sta effettuando il collegamento.
 
-  I valori dei campi collegati dei record collegati popolano il record di Workfront Planning da cui si sta effettuando il collegamento automatico dal record o dall&#39;oggetto originale.
+  È possibile aggiungere campi (campi di ricerca) dei tipi di record da cui si esegue il collegamento nella tabella del tipo di record a cui si esegue il collegamento.
+
+  Ad esempio, se colleghi il tipo di record Prodotto dal tipo di record Campagna, puoi visualizzare i campi Prodotto per le campagne e Campagna per i prodotti.
+* Non è possibile aggiornare manualmente i valori dei campi di ricerca nei record da cui si sta effettuando il collegamento.
+
+  I valori dei campi di ricerca dei record collegati popolano il record di Workfront Planning da cui si sta effettuando il collegamento automatico dal record o dall&#39;oggetto originale.
 
 * Tutti coloro che dispongono dell&#39;accesso a Workfront Planning and View o delle autorizzazioni di livello superiore per l&#39;area di lavoro possono visualizzare le connessioni tra record o tra record e oggetti di altre applicazioni. Possono visualizzare i record e gli oggetti connessi indipendentemente dalle autorizzazioni di cui dispongono nelle applicazioni a cui ci si connette.
 * Se si dispone delle autorizzazioni di gestione per l&#39;area di lavoro in cui si trovano i record connessi, è possibile visualizzare e modificare le connessioni di tutti gli altri utenti.
 * È possibile connettere un record a uno o più oggetti di un&#39;altra applicazione.
-* Per collegare record ad altri record o oggetti, è necessario disporre dei seguenti elementi:
 
-   * Almeno un&#39;area di lavoro, tipo di record e record.
-
-     Per ulteriori informazioni, consulta i seguenti articoli:
-
-      * [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [Crea record](/help/quicksilver/planning/records/create-records.md)
-
-   * Connessioni tra tipi di record o tra tipi di record e oggetti di altre applicazioni. Per informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md)
 * È possibile connettere oggetti da Workfront a record di Workfront Planning nelle seguenti aree:
    * Da un record Planning in Workfront Planning.
    * Dalla sezione Planning di un oggetto Workfront.
+
+* È possibile collegare i record di Workfront Planning a Experience Manager Assets nelle seguenti aree:
+
+   * Da un record di Planning in Workfront Planning
+
+
+## Prerequisiti per il collegamento di record
+
+Per collegare record ad altri record o oggetti, è necessario disporre dei seguenti elementi:
+
+* Almeno un&#39;area di lavoro, tipo di record e record.
+
+  Per ulteriori informazioni, consulta i seguenti articoli:
+
+   * [Creare aree di lavoro](/help/quicksilver/planning/architecture/create-workspaces.md)
+   * [Crea tipi di record](/help/quicksilver/planning/architecture/create-record-types.md)
+   * [Crea record](/help/quicksilver/planning/records/create-records.md)
+
+* Connessioni tra tipi di record o tra tipi di record e oggetti di altre applicazioni. Per informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Connetti record da Workfront Planning
 
@@ -186,7 +200,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    >[!TIP]
    >
-   >    È possibile aprire la pagina di un record, trovare il campo record collegato e fare clic su **Collega record** nel campo per aggiungere record dal record o dal tipo di oggetto connesso.
+   >    È possibile aprire la pagina di un record, trovare il campo record collegato e fare clic sul campo collegato (se sono già presenti record connessi) oppure fare clic su **Collega record** (se il campo è vuoto) per aggiungere record dal record o dal tipo di oggetto connesso.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -307,6 +321,11 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 >In caso di domande sull’onboarding per Adobe Admin Console, consulta [Domande frequenti sull’esperienza unificata di Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Dopo aver creato una connessione tra un tipo di record e Adobe Experience Manager Assets, puoi collegare singoli record alle risorse di Experience Manager. I campi della risorsa connessi da Experience Manager Assets al momento della creazione della connessione vengono compilati automaticamente sul tipo di record da cui è stato effettuato il collegamento.
+
+>[!NOTE]
+>
+>I record di pianificazione e i relativi campi sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
 
 {{step1-to-planning}}
 

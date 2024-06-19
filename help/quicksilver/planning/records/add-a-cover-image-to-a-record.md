@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Per informazioni, consulta [Crea tipi di record](/help/quicksilver/planning/arch
 
 ## Requisiti di accesso
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
@@ -58,9 +58,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
    <td>
-   <p>Qualsiasi</p> 
+   <p>Corrente: Lavoro o versione successiva</p>
+   <p>Nuovo: Standard</p>  
   </td>
   </tr>
 
@@ -71,7 +72,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro </p>  
+   <td> <p>Gestire le autorizzazioni per un’area di lavoro </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>
@@ -84,6 +85,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </tbody>
 </table>
 
+*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Considerazioni sulle immagini di copertina della pagina di registrazione
 
 È possibile personalizzare la pagina di un record aggiungendo un&#39;immagine di copertina.
@@ -94,7 +97,8 @@ Considera quanto segue:
 * È possibile aggiungere solo file di immagine come immagini di copertina.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * È possibile aggiungere un&#39;immagine di copertina ai singoli record dall&#39;anteprima del record in qualsiasi visualizzazione o dalla pagina del record.
-* Non è possibile aggiungere immagini di copertina in linea da nessuna visualizzazione di record.
+* Non è possibile aggiungere immagini di copertina da una visualizzazione record.
+* Workfront carica automaticamente un&#39;immagine di copertina ogni volta che si crea un record. In seguito potrai modificare questa immagine.
 
 ## Aggiungere una copertina a un record
 
@@ -114,19 +118,15 @@ Considera quanto segue:
 
    Viene visualizzata la pagina del tipo di record.
 
-1. In una visualizzazione di qualsiasi tipo fare clic sul nome di un record
+1. In una visualizzazione di qualsiasi tipo, fare clic su un record
 
    Oppure
 
-   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record.
+   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >È possibile visualizzare **Apri dettagli** a sinistra del campo Nome di un record in una visualizzazione tabella solo quando il campo Nome è un campo primario.
 
 1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
@@ -134,10 +134,25 @@ Considera quanto segue:
 
    ![](assets/details-page.png)
 
-1. Nell&#39;anteprima del record o nella pagina, fare clic su **Aggiungi copertina**. <!--check the casing here; I logged a bug for this-->
-Il **Registra copertina** viene visualizzata la casella.
+1. Nell&#39;anteprima del record o nella pagina, fare clic su **Aggiungi copertina**
 
-1. Clic **Seleziona per caricare** e cercare un&#39;immagine nel computer per selezionarla, aggiungerla, quindi fare clic su **Usa immagine**.
+
+   Oppure
+
+   Passa il puntatore del mouse su un&#39;immagine di copertina esistente e fai clic su **Altro** menu ![](assets/more-menu.png) , quindi fai clic su **Carica**. <!--check the casing here; I logged a bug for this-->
+Il **Registra copertina** La casella si apre in **Carica** scheda.
+
+   ![](assets/record-cover-box-for-upload.png)
+
+1. Clic **Sfoglia immagini** e cercare un&#39;immagine nel computer per selezionarla e aggiungerla.
+
+1. (Facoltativo) Per rimuovere l&#39;immagine prima di salvarla, fare clic sul pulsante **Carica nuova immagine** icona ![](assets/upload-new-image-icon.png) , e carica una nuova immagine.
+
+1. (Facoltativo) Fai clic su **Galleria** , quindi fare clic su un&#39;immagine nella raccolta di immagini. Impossibile modificare la raccolta di immagini.
+
+   ![](assets/record-cover-box-for-gallery.png)
+
+1. Clic **Usa immagine**.
 
    L’immagine viene caricata nella parte superiore dell’anteprima del record o della pagina e le modifiche vengono salvate automaticamente.
 

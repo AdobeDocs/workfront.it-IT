@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1097'
 ht-degree: 1%
 
 ---
@@ -198,7 +198,7 @@ La tabella seguente mostra le somiglianze e le differenze tra le viste tabella, 
 
    >[!TIP]
    >
-   >    È possibile selezionare i campi della data di record o i campi della data di ricerca dai tipi di oggetto o record collegati.
+   >    È possibile selezionare i campi della data di record o i campi della data di ricerca dai tipi di oggetto o record collegati. È necessario utilizzare gli aggregatori per i campi data (MAX o MIN) quando si selezionano i campi di ricerca come date di inizio e di fine per le visualizzazioni Timeline e Calendario. Per informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Fai clic su **Crea**.
 

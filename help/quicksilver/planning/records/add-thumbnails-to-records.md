@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
    <td>
-   <p>Qualsiasi</p> 
+   <p>Corrente: Lavoro o versione successiva</p>
+   <p>Nuovo: Standard</p>  
   </td>
   </tr>
 
@@ -67,7 +68,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr>
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Contribuire o concedere autorizzazioni superiori a un’area di lavoro </p>  
+   <td> <p>Gestire le autorizzazioni per un’area di lavoro </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro, incluse quelle non create</p>
 </td>
   </tr>
@@ -80,23 +81,33 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </tbody>
 </table>
 
+*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Considerazioni sulle miniature dei record
 
 Per distinguere visivamente i record in una vista tabella, è possibile associare a ciascun record un&#39;immagine miniatura univoca.
 
 Considera quanto segue:
 
+* Una miniatura è univoca per un record e non si applica a tutti i record dello stesso tipo.
 * È possibile aggiungere solo file di immagine come miniature.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* È possibile aggiungere un&#39;immagine di anteprima ai singoli record nella visualizzazione per tabella.
-* Le miniature appartengono alle informazioni sui record e vengono visualizzate nelle visualizzazioni in cui vengono visualizzati i record. Ad esempio, le miniature vengono visualizzate insieme alle informazioni del record nelle seguenti aree:
+* È possibile aggiungere un&#39;immagine di anteprima ai singoli record nella vista tabella o dalla pagina o dalla casella di anteprima del record.
+* Workfront carica automaticamente una miniatura ogni volta che crei un record. In seguito potrai modificare questa immagine.
+* Le miniature appartengono alle informazioni del record e vengono visualizzate nelle aree in cui vengono visualizzati i record. Ad esempio, le miniature vengono visualizzate insieme alle informazioni del record nelle seguenti aree:
 
    * Campo principale di un record nella visualizzazione tabella
    * Barra dei record nella visualizzazione timeline.
-* Non è possibile aggiungere miniature di record dalla pagina del record o da un altro tipo di visualizzazione.
-* Le miniature non vengono visualizzate sulla pagina del record.
+   * L&#39;anteprima e la pagina dei dettagli del record.
 
 ## Aggiungere una miniatura a un record
+
+È possibile aggiungere una miniatura nei modi seguenti:
+
+* [Aggiungere una miniatura a un record dalla vista tabella](#add-a-thumbnail-to-a-record-from-the-table-view)
+* [Aggiungere una miniatura a un record dalla pagina dei dettagli](#add-a-thumbnail-to-a-record-from-the-details-page)
+
+### Aggiungere una miniatura a un record dalla vista tabella
 
 {{step1-to-planning}}
 
@@ -110,72 +121,85 @@ Considera quanto segue:
 
    >[!TIP]
    >
-   >   Il campo principale è il campo che viene visualizzato nella prima colonna di una visualizzazione tabella. Il campo principale è sempre bloccato e non può essere nascosto o spostato.
+   >   Il campo principale è il campo che viene visualizzato nella prima colonna di una visualizzazione tabella. Il campo principale è sempre bloccato e non può essere nascosto o spostato. L&#39;opzione Miniatura non è disponibile nel menu Altro quando il campo principale è un campo formula.
 
-   Il **Miniatura record** viene visualizzata la casella.
+   Il **Carica** La scheda si apre per impostazione predefinita in **Miniatura record** casella.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
-
-   <!--update screen shot with correct casing-->
-
-1. In **Carica** , trascinare e rilasciare un file da aggiungere come miniatura o fare clic su **Seleziona per caricare**, quindi cerca un file di immagine da aggiungere. Il file deve essere salvato nel computer.
-1. (Facoltativo) Usate lo strumento di ridimensionamento per ritagliare e ridimensionare l&#39;immagine.
-1. Clic **Usa immagine** per aggiungere l&#39;immagine come miniatura.
-Questo chiude il **Miniatura record** casella.
-1. (Condizionale) Se disponete almeno delle autorizzazioni Contribute per la vista tabella, fate clic su **Campi** nell&#39;angolo superiore destro della vista tabella.
-1. Seleziona la **Miniatura** per visualizzare la miniatura. Questa opzione è deselezionata per impostazione predefinita.
-
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
-
-   La miniatura viene visualizzata a sinistra del valore del campo primario.
-1. (Facoltativo e condizionale) Se non disponete di autorizzazioni Contribute o di livello superiore per la visualizzazione, selezionate una nuova visualizzazione dal menu **Visualizza** menu a discesa o creare una vista.
-1. (Facoltativo) Per rimuovere la miniatura, passa il cursore sul campo principale e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png)> **Miniatura** > il **Rimuovi** icona ![](assets/remove-image-icon.png), quindi fai clic su **Salva modifiche**.
+   Per ulteriori informazioni sul caricamento della miniatura, consulta la sezione [Aggiungere una miniatura a un record dalla pagina dei dettagli](#add-a-thumbnail-to-a-record-from-the-details-page) in questo articolo, a partire dal passaggio 6. <!--see if this is accurate-->
 
 <!--
-Replace the section above with the following when we release generate thumbnails:
+   ![](assets/record-thumbnail-box-for-upload.png) 
 
-## Add a thumbnail to a record
+  *****update screen shot with correct casing****
 
-You can add a thumbnail to a record in the following ways:
+1. Drag and drop a file to add as a thumbnail
+   
+   Or
+   
+   Click **Browse images**, then browse for an image file to add. The file must be saved on your computer. 
+1. (Optional) After the image uploads in the **Record thumbnail** box, use the sizing tool to crop and resize the image.
+1. (Optional) Click the **Upload new image** icon ![](assets/upload-new-image-icon.png) to upload another image. 
+1. (Optional) To remove a thumbnail before it is saved, click  **Remove uploaded image** icon ![](assets/remove-image-icon.png) to the right of the image. 
+1. (Optional) Click the **Gallery** tab, then click an image. The gallery of images cannot be modified.
 
-* Upload a file from your computer
-* Generate an image with a prompt
+   ![](assets/record-thumbnail-box-for-gallery.png)
+1. Click **Use image** to add the image as a thumbnail. 
+   This closes the **Record thumbnail** box.
+   The thumbnail displays in areas of Workfront Planning where the record displays. 
 
-### Upload a thumbnail to a record
+   >[!TIP]
+   >
+   >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
+
+1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**. -->
+
+### Aggiungere una miniatura a un record dalla pagina dei dettagli
 
 {{step1-to-planning}}
 
-1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Fare clic sull&#39;area di lavoro per i record ai quali si desidera aggiungere le miniature, quindi fare clic sulla scheda del tipo di record.
 
-   This opens the record type page. 
-1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
-1. Hover over the primary field information, click the **More** menu ![](assets/more-menu.png), then click **Thumbnail**. 
+   Verrà aperta la pagina del tipo di record.
+1. In qualsiasi visualizzazione, fare clic su un record per aprirlo.
 
-   ![](assets/record-more-menu-expanded.png)
+   Viene visualizzata la casella di anteprima dei dettagli.
+1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell’angolo superiore destro.
 
-      >[!TIP]
-      >
-      >   The primary field is the field that displays in the first column of a table view. The primary field is always frozen and cannot be hidden or relocated. 
+   Viene visualizzata la pagina dei dettagli del record.
+1. Passa il puntatore sull&#39;immagine o sull&#39;icona della miniatura ![](assets/record-thumbnail-icon-on-details-page.png), quindi fare clic su **Altro** menu ![](assets/more-menu.png) > **Modifica miniatura**.
 
-   The **Record thumbnail** box opens.
+   Il **Carica** La scheda si apre per impostazione predefinita in **Miniatura record** casella.
 
-   ![](assets/record-thumbnail-box-for-upload.png) 
+   ![](assets/record-thumbnail-box-for-upload.png)
 
-1. Click the **Upload** tab, and drag and drop a file to add as a thumbnail
-   Or
-   Click **Select to upload**, then browse for an image file to add. The file must be saved on your computer. 
-1. (Optional) Use the sizing tool to crop and resize the image.
-1. Click **Use image** to add the image as a thumbnail. 
-   This closes the **Record thumbnail** box.
-1. (Conditional) If you have at least Contribute permissions to the table view, click **Fields** in the upper-right corner of the table view. 
-1. Select the **Thumbnail** toggle to display the thumbnail. This is deselected by default. 
+1. Trascina un file da aggiungere come miniatura
 
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
+   Oppure
 
-   The thumbnail displays to the left of the primary field value. 
-1. (Optional and conditional) If you do not have Contribute or higher permissions to the view, select a new view from the **View** drop-down menu, or create a view. 
-1. (Optional) To remove the thumbnail, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**.
+   Clic **Sfoglia immagini**, quindi cerca un file di immagine da aggiungere. Il file deve essere salvato nel computer.
 
+1. (Facoltativo) Dopo che l’immagine viene caricata in **Miniatura record** utilizzare lo strumento di ridimensionamento per ritagliare e ridimensionare l&#39;immagine.
+1. (Facoltativo) Fai clic su **Carica nuova immagine** icona ![](assets/upload-new-image-icon.png) per caricare un&#39;altra immagine.
+1. (Facoltativo) Fai clic su **Galleria** , quindi fare clic su un&#39;immagine. Impossibile modificare la raccolta di immagini.
+
+   ![](assets/record-thumbnail-box-for-gallery.png)
+
+1. (Facoltativo) Per rimuovere la miniatura prima del salvataggio, fare clic sul pulsante **Rimuovi** icona ![](assets/remove-image-icon.png) a destra dell&#39;immagine.
+
+1. Clic **Usa immagine** per aggiungere l&#39;immagine come miniatura.
+Questo chiude il **Miniatura record** casella.
+La miniatura viene visualizzata nelle aree di Workfront Planning in cui viene visualizzato il record.
+
+   >[!TIP]
+   >
+   >   Per visualizzare le miniature in questa visualizzazione, è necessario attivare il campo Miniatura nella visualizzazione Tabella. Per impostazione predefinita, è disabilitata.
+
+1. (Facoltativo) Per rimuovere la miniatura dopo averla salvata, fai clic su un record in una visualizzazione qualsiasi per aprire la pagina dei dettagli, quindi passa il puntatore sull&#39;immagine miniatura e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png)> **Rimuovi** icona ![](assets/remove-image-icon.png). L&#39;immagine di anteprima viene rimossa.
+
+
+
+
+<!--
 ### Generate a thumbnail for a record
 
 {{step1-to-planning}}

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1932'
-ht-degree: 1%
+source-wordcount: '1965'
+ht-degree: 2%
 
 ---
 
@@ -100,6 +100,7 @@ Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [Attività s
 | Moduli di Adobe Workfront Planning per Adobe Workfront Fusion | ✓ |                                  |                 |
 | Copiare e incollare informazioni da un campo all&#39;altro | ✓ |                                  |                 |
 | Accedere ai record di Planning dagli oggetti di Workfront | ✓ |                                  |                 |
+| Collegare i record di Planning dagli oggetti Workfront | ✓ |                                  |                 |
 
 ## Abilita Adobe Workfront Planning per gli utenti nell’istanza Workfront
 
@@ -208,9 +209,18 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
 * **Campi collegati** (o campi di ricerca): dopo aver stabilito la connessione tra due tipi di record e aver collegato i singoli record, è possibile fare riferimento ai campi dei record collegati nel record da cui ci si connette.
 
-  Se ad esempio si collega un tipo di record Campaign a un tipo di oggetto Progetto Workfront, è possibile visualizzare il campo Proprietario progetto dei progetti connessi nei record della campagna.
+  Se ad esempio si connette un tipo di record Campagna a un tipo di oggetto Progetto Workfront, è possibile visualizzare il campo Budget dei progetti connessi nei record della campagna.
 
   ![](assets/add-lookup-fields-modal.png)
+
+  >[!TIP]
+  >
+  > Non è possibile aggiungere i seguenti tipi di campi come campi di ricerca:
+  >
+  >* Persone
+  >* Creato da
+  >* Ultima modifica eseguita da
+  >* Campi typeahead di Workfront (inclusi campi come Proprietario progetto o Sponsor progetto)
 
   Per informazioni sul collegamento di tipi di record, record e sulla creazione di campi collegati, vedere gli articoli seguenti:
 
@@ -285,7 +295,7 @@ Per individuare Workfront Planning:
 
    ![](assets/planning-landing-page-admin.png)
 
-   1. (Condizionale e facoltativo) Se sei un amministratore di Workfront, fai clic su una delle seguenti schede:
+1. (Condizionale e facoltativo) Se sei un amministratore di Workfront, fai clic su una delle seguenti schede:
    * **Le mie aree di lavoro**: visualizza le aree di lavoro create.
    * **Altri workspace**: visualizza tutte le altre aree di lavoro del sistema, incluse quelle condivise con te.
 

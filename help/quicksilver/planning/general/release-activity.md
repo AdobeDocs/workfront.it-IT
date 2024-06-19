@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 216ddc77c76d3e607cc56f32f347aa3544a03ebf
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '7510'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Anteprima: da determinare
 
 È stata aggiornata l’esperienza per aggiungere una miniatura o un’immagine di copertina a un record dalla pagina Dettagli. I miglioramenti includono i seguenti aggiornamenti:
 
-* Un&#39;immagine di anteprima viene assegnata in modo casuale a un record quando lo si crea. In seguito potrai modificare questa immagine.
+* Le miniature e le immagini di copertina vengono automaticamente assegnate a un record quando lo si crea. In seguito sarà possibile modificare queste immagini.
 
 * È possibile aggiungere una miniatura dalla pagina Dettagli. Prima di questo miglioramento, era possibile aggiungere una miniatura solo dalla vista tabella.
 
@@ -129,7 +129,7 @@ Produzione: 17 giugno 2024
 
 Anteprima: da determinare
 
-È stato aggiunto il collegamento &quot;Mostra altro/Mostra meno&quot; in un campo record connesso, quando sono presenti record che altrimenti verrebbero visualizzati su più di due righe.
+È stato aggiunto il collegamento &quot;Mostra altro/Mostra meno&quot; in un campo record collegato, quando sono presenti record che altrimenti verrebbero visualizzati su più di due righe nella pagina Dettagli di un record.
 
 Per informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
 
@@ -169,7 +169,7 @@ Verrà visualizzata una nuova pagina di destinazione per Workfront Planning, dop
 
 Alcune delle informazioni sulla pagina di destinazione includono:
 
-* Area in cui vengono visualizzate le aree di lavoro e le aree di lavoro condivise con l&#39;utente. Il proprietario dell’area di lavoro è elencato su ogni scheda dell’area di lavoro.
+* Area in cui vengono visualizzate le aree di lavoro e le aree di lavoro condivise con l&#39;utente. Il proprietario dell’area di lavoro viene visualizzato su ogni scheda dell’area di lavoro.
 
 * Se sei un amministratore di Workfront, vengono visualizzate le seguenti schede:
 
@@ -324,7 +324,7 @@ Anteprima: da determinare
 
 Per una migliore organizzazione delle informazioni sulla pagina del record, per una migliore leggibilità e navigazione, sono state introdotte sezioni nella pagina del record. I titoli delle sezioni fungono da intestazioni che organizzano i campi in categorie distinte. Le sezioni sono completamente personalizzabili e, se necessario, possono essere espanse o compresse.
 
-Per informazioni, consulta [Gestire la pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+Per informazioni, consulta [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### Aggiornamenti in tempo reale per le modifiche alla configurazione dei campi
 
@@ -433,7 +433,7 @@ Anteprima: da determinare
 
 In qualità di responsabile dell&#39;area di lavoro, ora puoi riordinare i campi elencati nella pagina del record o nell&#39;anteprima. L&#39;aggiornamento dell&#39;ordine dei campi modifica l&#39;ordine dei campi di tutti i record dello stesso tipo, per tutti gli utenti che visualizzano la pagina record o l&#39;anteprima record.
 
-Per ulteriori informazioni, consulta [Gestire la pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+Per ulteriori informazioni, consulta [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### Aggiungi immagine di copertina per registrare le pagine
@@ -444,7 +444,7 @@ Anteprima: da determinare
 
 Durante la gestione delle pagine di record, è ora possibile aggiungere, riposizionare e sostituire un&#39;immagine di copertina in una pagina di record o in anteprima, per arricchire la presentazione del record e il coinvolgimento delle parti interessate. Le immagini di copertina sono visibili a tutti gli utenti che visualizzano i record.
 
-Per ulteriori informazioni, consulta [Gestire la pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
+Per ulteriori informazioni, consulta [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Settimana del 25 marzo 2024
 

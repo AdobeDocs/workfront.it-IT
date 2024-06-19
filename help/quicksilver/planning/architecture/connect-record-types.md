@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2404'
 ht-degree: 0%
 
 ---
@@ -151,11 +151,16 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
      Ad esempio, se si collega il tipo di record &quot;Campagna&quot; al tipo di record &quot;Prodotto&quot;, nel tipo di record Campagna viene creato un campo di record collegato denominato &quot;Prodotto collegato&quot; e nel tipo di record Prodotto viene creato automaticamente un tipo di record collegato denominato &quot;Campagna&quot;.
 
-   * **Quando si collega un tipo di record a un tipo di oggetto di un&#39;altra applicazione**: viene creato un campo record collegato sul tipo di record da cui stai effettuando la connessione. Nessun campo record collegato viene creato automaticamente sul tipo di oggetto dell&#39;altra applicazione.
+   * **Quando si collega un tipo di record a un tipo di oggetto di un&#39;altra applicazione**:
 
-     Viene creato un nuovo tipo di record di sola lettura di Workfront Planning per l&#39;oggetto dell&#39;altra applicazione solo quando gli oggetti effettivi sono connessi ai record di Workfront Planning.
+      * Nel tipo di record da cui si sta effettuando la connessione viene creato un campo record collegato. Nessun campo record collegato viene creato automaticamente sul tipo di oggetto dell&#39;altra applicazione.
 
-     Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+      * Viene creato un nuovo tipo di record di sola lettura di Workfront Planning per l&#39;oggetto dell&#39;altra applicazione solo quando gli oggetti effettivi sono connessi ai record di Workfront Planning.
+
+        Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+
+      * I record di pianificazione o i relativi campi non sono accessibili da Workfront.
+      * I record di pianificazione e i relativi campi sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
    * **Quando si aggiungono campi di ricerca del record o dell&#39;oggetto a cui ci si connette**: è possibile collegare i campi dall&#39;oggetto dell&#39;altra applicazione al tipo di record Workfront Planning. Si tratta di campi collegati o di ricerca. I campi collegati visualizzano automaticamente le informazioni dei record o degli oggetti connessi quando si collegano i record o gli oggetti. I campi di ricerca collegati sono sempre di sola lettura e vengono compilati automaticamente con i valori dei record o degli oggetti connessi.
 
@@ -167,7 +172,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * I campi record collegati sono preceduti da un&#39;icona di relazione ![](assets/relationship-field-icon.png).
 
-  I campi collegati sono preceduti da un’icona che identifica il tipo di campo. Ad esempio, icone che indicano che un campo è un numero, un paragrafo o una data.
+  I campi collegati sono preceduti da un’icona che identifica il tipo di campo. Ad esempio, i campi collegati (o di ricerca) sono preceduti da icone che indicano che un campo è un numero, un paragrafo o una data.
+
 
 ## Connetti tipi di record
 
@@ -220,7 +226,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
      >    * Persone
      >    * Creato da
      >    * Ultima modifica eseguita da
-     >    * Campi typeahead Workfront
+     >    * Campi typeahead di Workfront (inclusi campi come Proprietario progetto o Sponsor progetto)
 
 1. (Condizionale e facoltativo) Se si è selezionato di collegare un oggetto Workfront, selezionare un **Modulo personalizzato** dal **Collega solo gli oggetti che corrispondono a questi criteri** sezione. Solo gli oggetti a cui sono allegati i moduli personalizzati selezionati possono essere collegati al tipo di record selezionato. È possibile selezionare più moduli.
 
@@ -235,6 +241,21 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
+
+   >[!NOTE]
+   >
+   >L&#39;amministratore di Workfront può mappare i campi di Workfront Planning sui campi di Experience Manager Assets tramite la mappatura dei metadati in Workfront. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+
+1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
+
+    >[!TIP]
+    >
+    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
+    >
+    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+-->
 
 1. Fai clic su **Crea**.
 
@@ -258,6 +279,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. (Facoltativo) Fai clic su **Ignora** e non aggiungere campi dal record o dall&#39;oggetto collegato. Il **Nome** del record collegato è l&#39;unico campo visibile nella visualizzazione tabella del record originale.
 
 1. (Facoltativo e condizionale) Se si seleziona di collegare un campo di tipo numero, valuta, percentuale o data, selezionare anche un valore aggregatore. Quando gli utenti selezionano più record collegati nel campo record collegato, i valori dei campi collegati vengono visualizzati separati da virgole o come valore aggregato in base all&#39;aggregatore scelto.
+
+   >[!IMPORTANT]
+   >
+   >    È necessario selezionare un valore di aggregazione quando si aggiungono campi data, se si desidera che i campi siano disponibili per l&#39;aggiunta come date di inizio e di fine per le visualizzazioni Timeline e Calendario.
+
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,12 @@ Puoi condividere le viste create o le viste per le quali disponi delle autorizza
 1. Clic **Copia collegamento** per copiare negli Appunti un collegamento alla visualizzazione.
 1. Condividi il collegamento copiato con altri utenti. Gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront per poter accedere alla pagina del tipo di record e visualizzarla nella visualizzazione selezionata.
 1. Fai clic su **Salva**.
+
+   >[!TIP]
+   >
+   >   Le visualizzazioni condivise con te hanno un indicatore di persone ![](assets/view-shared-with-others-people-icon.png) accanto all’icona visualizza. Le visualizzazioni senza l&#39;indicatore persone sono visualizzazioni create dall&#39;utente.
+
+
 
 <!--
 ## Share permissions to a view publicly

@@ -1,7 +1,7 @@
 ---
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2412'
+source-wordcount: '2411'
 ht-degree: 1%
 
 ---
@@ -256,7 +256,7 @@ Per impostare le cartelle collegate:
    * **Le mie aree di lavoro**: visualizza le aree di lavoro create.
    * **Altri workspace**: visualizza tutte le aree di lavoro in Workfront Planning, incluse quelle condivise con l&#39;utente.
 
-   Per tutti gli altri utenti, tutte le aree di lavoro che hanno creato o che sono condivise con loro vengono visualizzate nel **Aree di lavoro** area.
+   Per tutti gli altri utenti, tutte le aree di lavoro create o condivise con te vengono visualizzate nel **Aree di lavoro** area.
 
 ## Importante introduzione alla pianificazione Workfront - {#planning-important-intro}
 
