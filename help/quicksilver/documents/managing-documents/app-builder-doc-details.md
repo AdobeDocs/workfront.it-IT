@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
+source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Se AppBuilder è configurato correttamente, dovresti vedere &quot;Crea progetto 
    >È disponibile un’opzione per aggiungere altre aree di lavoro in questo passaggio. Ci è stato suggerito di creare un&#39;area di lavoro per ogni sviluppatore. In questo modo i segreti e le distribuzioni sono separati l’uno dall’altro mentre i dispositivi funzionano. È necessario denominare l’area di lavoro con il nome dello sviluppatore che la utilizza. Il file CLI AIO dispone di opzioni per il passaggio all&#39;area di lavoro, che verranno illustrate in seguito.
 
 
-1. Esci **Includi runtime** selezionato. Non so perché, davvero, ma non cambiarlo!
+1. Esci **Includi runtime** selezionato.
 
 1. Fai clic su **Salva**.
 
