@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '877'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista.
 
    >[!NOTE]
    >
-   >  * Non esistono campi obbligatori per i record. È tuttavia consigliabile aggiungere informazioni per il campo principale di un record, in quanto è utile identificare i record quando si collegano tra loro record. Per ulteriori informazioni sui campi primari, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+   >  * Non esistono campi obbligatori per i record. È tuttavia consigliabile aggiungere informazioni per il campo principale di un record, in quanto è utile identificare i record quando si collegano tra loro record. Per ulteriori informazioni sui campi primari, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md) e [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
    >  * I campi che fanno riferimento ad altri tipi di record o campi calcolati sono campi di sola lettura.
 

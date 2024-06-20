@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2543'
 ht-degree: 3%
 
 ---
@@ -157,25 +157,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
 
    Il campo diventa un campo primario, ovvero viene visualizzato come prima colonna della visualizzazione tabella. Il campo primario precedente si sposta sulla seconda colonna.
 
-   >[!NOTE]
-   >
-   >   * Solo i campi dei tipi seguenti possono essere campi primari:
-   >
-   >       * Testo a riga singola
-   >       * Numero
-   >       * Formula
-   >
-   >   * Il campo principale è sempre bloccato e non può essere spostato o nascosto. Il campo principale è bloccato e non fa parte dello scorrimento orizzontale. È possibile selezionare un altro campo per sostituire un campo principale, se è necessario spostarlo in un&#39;altra posizione.
-   >
-   >   * La modifica del campo principale nella vista tabella ha effetto sulla vista di tutti gli altri utenti che la scelgono.
-   >
-   >   * La modifica del campo principale in una vista tabella ha effetto su tutte le viste tabella.
-   >
-   >   * Non è possibile eliminare o nascondere un campo principale.
-   >
-   >   * Il valore elencato nel campo principale è sempre collegato alla pagina del record.
-   >
-   >   * I campi primari diventano il titolo del record e vengono visualizzati nelle pagine di record nell&#39;area di intestazione dei record e ovunque vengano visualizzati i record. Ad esempio, il titolo del record viene visualizzato in campi collegati e in tutte le visualizzazioni.
+   I campi primari diventano il titolo e la visualizzazione del record nell&#39;area dell&#39;intestazione della pagina del record e ovunque vengano visualizzati i record. Ad esempio, il titolo del record viene visualizzato in campi collegati e in tutte le visualizzazioni. Per ulteriori informazioni sui campi primari, consulta [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Fate clic sulle linee di separazione delle colonne e trascinatele nel punto desiderato per aumentare la larghezza delle colonne.
 

@@ -1,13 +1,13 @@
 ---
 title: Esempio di connessione di tipi di record e record
-description: In questo articolo viene descritto un esempio di come creare una connessione tra un tipo di record Adobe Workfront Planning e un tipo di oggetto progetto Workfront. Descrive inoltre come collegare un record di Workfront Planning a un singolo progetto.
+description: In questo articolo viene descritto un esempio di come creare una connessione tra un tipo di record di Adobe Workfront Planning e un tipo di oggetto di progetto Workfront. Descrive inoltre come collegare un record di Workfront Planning a un singolo progetto.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,8 @@ Per eseguire questa operazione:
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. (Condizionale) Se hai selezionato il **Opzione Seleziona campi di ricerca** nel passaggio precedente, dall’elenco di campi associati al **Prodotto** tipo di record, fare clic sul pulsante **+** icona per **Budget** , quindi fai clic su **Aggiungi campi**. Questo crea un campo denominato **Budget (da informazioni prodotto)**, che è il nome del campo collegato. In questo campo verranno visualizzate tutte le informazioni relative al budget prodotti per i record della campagna.
+1. (Facoltativo) Deseleziona il **Titolo** attivare/disattivare **Aspetto del record** per visualizzare solo la miniatura del record nei campi collegati. Se questa opzione è attivata, nei record vengono visualizzati sia la miniatura che il titolo. L’interruttore è attivato per impostazione predefinita.
+1. (Condizionale) Se hai selezionato il **Opzione Seleziona campi di ricerca** nel passaggio precedente, dall’elenco di campi associati al **Prodotto** tipo di record, fare clic sul pulsante **+** icona per **Budget** , quindi fai clic su **Aggiungi campi**. Questo crea un campo denominato **Budget (da informazioni prodotto)**, che è il nome del campo collegato. In questo campo vengono visualizzate tutte le informazioni relative al budget prodotti per i record Campagna.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
@@ -57,13 +58,13 @@ Per eseguire questa operazione:
    >
    >    Se si desidera visualizzare il budget di tutti i prodotti selezionati come un unico numero totale, selezionare **SOMMA** nel menu a discesa a destra del nome del campo. Quando gli utenti selezionano più prodotti nella **Informazioni sul prodotto** campo record collegato, il **Budget (da informazioni prodotto)** aggiunge tutti i valori Budget e visualizza il totale. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Se si seleziona **Nessuno**, invece di **SOMMA**, i singoli budget dei prodotti selezionati verranno visualizzati separati da virgole.
+   > Se si seleziona **Nessuno**, invece di **SOMMA**, i singoli budget dei prodotti selezionati vengono visualizzati separati da virgole.
 
    Vengono generati i campi seguenti:
 
    * Nella vista Tabella record Campaign e nella pagina Record Campaign di una campagna:
 
-      * **Informazioni sul prodotto** (campo record collegato): quando vengono aggiunti, vengono visualizzati il nome o i nomi dei prodotti.
+      * **Informazioni sul prodotto** (campo record collegato): consente di visualizzare il nome o i nomi dei prodotti quando vengono aggiunti.
       * **Budget (da informazioni prodotto)** (campo collegato): vengono visualizzati i budget dei prodotti selezionati nel campo Informazioni prodotto.
 
    * Nella visualizzazione Tabella record Prodotto e nella pagina Record prodotto di un prodotto:
@@ -78,7 +79,7 @@ Per eseguire questa operazione:
 
 1. Dalla sezione **Campagna** nella vista tabella del tipo di record, crea una campagna aggiungendo una nuova riga nella tabella della pagina del tipo di record Campaign.
 
-1. Fai doppio clic all’interno del  **Informazioni sul prodotto** della nuova campagna.
+1. Fai doppio clic all’interno del **Informazioni sul prodotto** della nuova campagna.
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -157,7 +158,7 @@ Per eseguire questa operazione:
 
    * Nella vista Tabella record Campaign e nella pagina Record Campaign:
 
-      * **Informazioni progetto** (campo oggetto collegato): verranno visualizzati il nome o i nomi dei progetti.
+      * **Informazioni progetto** (campo oggetto collegato): consente di visualizzare il nome o i nomi dei progetti.
       * **Retribuzione pianificata (da informazioni progetto)** (campo collegato): visualizza le Retribuzioni pianificate dei progetti selezionati nel campo Informazioni progetto.
 
    >[!TIP]
@@ -166,7 +167,7 @@ Per eseguire questa operazione:
 
 1. Dalla sezione **Campagna** tipo di record vista tabella, crea una campagna aggiungendo una nuova riga nella tabella.
 
-1. Fai doppio clic all’interno del  **Informazioni progetto** della nuova campagna.
+1. Fai doppio clic all’interno della colonna Informazioni progetto** della nuova campagna.
 
    ![](assets/connect-projects-smaller-box-in-table.png)
 
@@ -204,7 +205,7 @@ Per eseguire questa operazione:
 
 1. Fare clic sul nome di un progetto nel campo record connesso.
 
-   Verrà aperta la pagina del progetto di sola lettura Woekfront Planning.
+   Verrà aperta la pagina del progetto di Workfront Planning di sola lettura.
 Rivedi le informazioni sul progetto. Nella pagina del record vengono visualizzati solo i campi progetto selezionati.
 
 1. Clic **Vai all&#39;origine** nell’angolo in alto a destra dello schermo per aprire il progetto in Workfront, se disponi almeno delle autorizzazioni di visualizzazione per il progetto.

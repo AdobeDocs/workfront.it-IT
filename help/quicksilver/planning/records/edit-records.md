@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 * [Dalla vista tabella di un tipo di record](#edit-a-record-inline-in-the-table-view-of-a-record-type)
 * [Dall&#39;anteprima del record in una visualizzazione](#edit-a-record-from-the-records-preview-in-a-view)
 * [Dalla pagina del record](#edit-a-record-from-the-records-page)
+* [Da un oggetto Workfront nella sezione Planning](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Modificare un record in linea nella vista tabella di un tipo di record
 
@@ -210,7 +211,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo) Fai clic su **Altro** a destra del titolo del record, quindi fare clic su **Rinomina**. Il campo visualizzato come titolo del record verrà aggiornato.
 
-   Il titolo del record è il campo principale del record visualizzato in una vista a tabella. Per informazioni, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
+   Il titolo del record è il campo principale del record visualizzato in una vista a tabella. Per informazioni, consulta [Panoramica del campo primario](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Inizia a modificare le informazioni del campo nell’anteprima del record.
 
@@ -280,3 +281,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Workfront salva automaticamente le modifiche.
 
+## Modificare un record da un oggetto Workfront nella sezione Planning
+
+Dopo aver collegato i record agli oggetti di Workfront, è possibile modificare i record di Workfront Planning in Workfront dalla sezione Planning dell&#39;oggetto.
+
+Per ulteriori informazioni, consulta [Gestire i record nella sezione Pianificazione degli oggetti di Adobe Workfront](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

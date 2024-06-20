@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * [Connetti record](/help/quicksilver/planning/records/connect-records.md)
 * È possibile visualizzare la sezione Planning in un oggetto Workfront, anche quando non vi sono record associati all&#39;oggetto Workfront.
 * È possibile connettere i record di Planning con gli oggetti di Workfront da Workfront, nella sezione Planning quando è presente almeno un record connesso all&#39;oggetto di Workfront.
-* Per connettere i record dagli oggetti Workfront, è necessario disporre delle autorizzazioni Contribute o di livello superiore per un&#39;area di lavoro.
+* Per connettere i record dagli oggetti Workfront, è necessario disporre delle autorizzazioni di gestione per un&#39;area di lavoro.
 
 ## Gestire i record nella sezione Pianificazione
 
@@ -138,7 +138,7 @@ La pagina degli oggetti viene visualizzata in Workfront Planning.
 
 1. Fare clic su una scheda record per visualizzare ulteriori informazioni sul record. Viene visualizzata la casella di anteprima del record.
 1. (Facoltativo) Inizia a modificare i campi nella casella di anteprima del record. Le modifiche vengono salvate automaticamente.
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della casella di anteprima per aprire la pagina dei dettagli del record.
+1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro della casella di anteprima per aprire la pagina dei dettagli del record. La pagina dei dettagli del record viene visualizzata in Workfront Planning.
 1. Passa il puntatore del mouse su una scheda record, quindi fai clic sull&#39;icona Disconnetti record **-**, quindi fai clic su **Disconnetti**.
 Si verificano le seguenti situazioni:
    * Il record non è più connesso all&#39;oggetto Workfront.
@@ -148,7 +148,7 @@ Si verificano le seguenti situazioni:
 
    >[!NOTE]
    >
-   >   Il pulsante Connetti viene visualizzato solo per le aree di lavoro per le quali si dispone delle autorizzazioni Contribute.
+   >   Il pulsante Connetti viene visualizzato solo per le aree di lavoro per le quali si dispone delle autorizzazioni Contribute. <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. Fare clic sui record che si desidera connettere. Si verificano le seguenti situazioni:
 

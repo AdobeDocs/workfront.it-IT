@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '7510'
+source-wordcount: '7684'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,30 @@ Anteprima: da determinare
 È stato aggiunto il collegamento &quot;Mostra altro/Mostra meno&quot; in un campo record collegato, quando sono presenti record che altrimenti verrebbero visualizzati su più di due righe nella pagina Dettagli di un record.
 
 Per informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+
+### Compilare automaticamente il campo Nome con il nome del record, durante la connessione dei tipi di record
+
+Produzione: 20 giugno 2024
+
+Anteprima: da determinare
+
+Quando si crea una connessione tra due record o tra un record e un oggetto da un&#39;altra applicazione, il campo Nome connessione viene compilato automaticamente con il nome del record connesso. Prima di questo miglioramento, era necessario aggiungere manualmente un Nome per il campo di connessione.
+
+Per ulteriori informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Definire la modalità di visualizzazione dei record connessi nei campi connessi
+
+Produzione: 20 giugno 2024
+
+Anteprima: da determinare
+
+È ora possibile decidere la modalità di visualizzazione dei record connessi nei campi connessi. Durante l&#39;aggiunta di una nuova connessione a un tipo di record, è ora possibile visualizzare il titolo del record collegato e la relativa miniatura oppure solo la miniatura.
+
+Il titolo di un record è il nome del record o qualsiasi campo impostato come campo principale nella visualizzazione tabella del tipo di record.
+
+Questo miglioramento è disponibile per i record connessi da Workfront Planning e per le risorse collegate da Adobe Experience Manager.
+
+Per informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Settimana del 10 giugno 2024
 
@@ -563,6 +587,7 @@ Produzione: 14 marzo 2024 Anteprima: da definire
 Nella pagina del tipo di record è stato aggiornato l’aspetto delle visualizzazioni. Le nuove viste rispondono dinamicamente e si adattano rapidamente alle dimensioni dello schermo. Le etichette delle opzioni della barra degli strumenti sono nascoste su schermi più piccoli per facilitarne l’utilizzo.
 
 Per ulteriori informazioni, consulta i seguenti articoli:
+
 * [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Gestire la visualizzazione della timeline](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 

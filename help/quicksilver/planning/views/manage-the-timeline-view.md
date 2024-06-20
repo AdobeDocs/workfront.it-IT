@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
 1. Clic **Stile barra** nel pannello a sinistra, per indicare i campi che si desidera visualizzare sulle barre dei record.
 
-   Il campo Nome è selezionato per impostazione predefinita. <!--adjust this when the primary field is released??-->
+   Il campo principale (o titolo) del record, come definito nella vista tabella del record, è selezionato per impostazione predefinita. <!--adjust this when the primary field is released??-->
 
 1. (Facoltativo e condizionale) Se ai record sono state aggiunte miniature, selezionare l&#39;opzione Miniatura per visualizzare l&#39;immagine associata ai record nella barra dei record.
 
