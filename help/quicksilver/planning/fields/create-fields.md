@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 2%
@@ -384,7 +384,7 @@ Per ulteriori informazioni, consulta [Panoramica sui campi formula](/help/quicks
    >
    >* Non è possibile aggiungere campi di tipo a selezione multipla in una formula.
    >
-   >* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento al proprietario del progetto nella formula che si sta creando per il tipo di record Attività.
+   >* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un campo formula per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento al budget del progetto nella formula che si sta creando per il tipo di record Attività.
 
 1. Fai clic su **Crea**.
 

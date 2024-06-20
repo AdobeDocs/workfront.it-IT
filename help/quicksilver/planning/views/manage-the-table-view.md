@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '2619'
+source-wordcount: '2645'
 ht-degree: 3%
 
 ---
@@ -145,9 +145,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
      >
      >* Non è possibile spostare il campo Nome in un&#39;altra posizione, a meno che non si indichi un altro campo come campo principale. Per ulteriori informazioni, continuare con il passaggio 4. <!--accurate?-->
      >
-     >* Non è possibile nascondere o eliminare un campo principale.
      >
-     >* Il campo principale è bloccato e non fa parte dello scorrimento orizzontale.
 
    * Sostituire il campo nella prima colonna con un altro campo modificando il campo principale. Per ulteriori informazioni, passare al passaggio 4. <!--accurate?-->
 
@@ -167,7 +165,7 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    >       * Numero
    >       * Formula
    >
-   >   * Il campo principale è sempre bloccato e non può essere spostato. È possibile selezionare un altro campo per sostituire un campo principale, se è necessario spostarlo in un&#39;altra posizione.
+   >   * Il campo principale è sempre bloccato e non può essere spostato o nascosto. Il campo principale è bloccato e non fa parte dello scorrimento orizzontale. È possibile selezionare un altro campo per sostituire un campo principale, se è necessario spostarlo in un&#39;altra posizione.
    >
    >   * La modifica del campo principale nella vista tabella ha effetto sulla vista di tutti gli altri utenti che la scelgono.
    >
@@ -176,6 +174,8 @@ L&#39;aggiunta di colonne a una visualizzazione è identica all&#39;aggiunta di 
    >   * Non è possibile eliminare o nascondere un campo principale.
    >
    >   * Il valore elencato nel campo principale è sempre collegato alla pagina del record.
+   >
+   >   * I campi primari diventano il titolo del record e vengono visualizzati nelle pagine di record nell&#39;area di intestazione dei record e ovunque vengano visualizzati i record. Ad esempio, il titolo del record viene visualizzato in campi collegati e in tutte le visualizzazioni.
 
 1. Fate clic sulle linee di separazione delle colonne e trascinatele nel punto desiderato per aumentare la larghezza delle colonne.
 
@@ -230,7 +230,7 @@ Le righe di una vista tabella visualizzano i singoli record del tipo di record s
 
    Per informazioni, consulta [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Facoltativo) Seleziona uno o più record in una riga, quindi trascina e rilascia la **maniglia** icona ![](assets/handle-icon.png) a sinistra del nome del record per riordinare le righe.
+1. (Facoltativo) Seleziona uno o più record in una riga, quindi trascina e rilascia la **maniglia** icona ![](assets/handle-icon.png) a sinistra del record per riordinare le righe.
 
    >[!NOTE]
    >
@@ -264,7 +264,7 @@ Quando si lavora con i filtri nella vista a tabella, considera quanto segue:
 
 * È possibile filtrare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
 
-* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un filtro per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento al proprietario del progetto nel filtro che si sta creando per il tipo di record Attività.
+* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un filtro per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento al budget del progetto nel filtro che si sta creando per il tipo di record Attività.
 
 Per aggiungere un filtro a una vista tabella:
 
@@ -375,7 +375,7 @@ Considera quanto segue:
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
 * È possibile modificare i record elencati in un raggruppamento.
 * È possibile raggruppare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
-* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un raggruppamento per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento al proprietario del progetto nel raggruppamento che si sta creando per il tipo di record Attività.
+* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un raggruppamento per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento allo stato del progetto nel raggruppamento che si sta creando per il tipo di record Attività.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -403,7 +403,7 @@ Per aggiungere un raggruppamento:
    Clic **Cancella tutto** per rimuovere tutti i campi.
 
 1. Fai clic all’esterno del **Raggruppa record per** per chiuderlo.
-1. (Facoltativo) Fai clic su **+ Nuovo &lt; Nome tipo di record >** al termine di qualsiasi raggruppamento per aggiungere nuovi record, quindi aggiorna la pagina per aggiungere il nuovo record al raggruppamento appropriato. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. (Facoltativo) Fai clic su **+ Nuovo record** al termine di qualsiasi raggruppamento per aggiungere nuovi record, quindi aggiorna la pagina per aggiungere il nuovo record al raggruppamento appropriato. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Aggiungi un ordinamento {#sort-information}
 
@@ -432,7 +432,7 @@ Quando si ordinano i record nella vista tabella, tenere presente quanto segue:
 
 * È possibile ordinare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
 
-* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un ordinamento per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento al proprietario del progetto nell&#39;ordinamento che si sta creando per il tipo di record Attività.
+* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un ordinamento per un tipo di record Attività e l&#39;Attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento allo Stato del progetto nell&#39;ordinamento che si sta creando per il tipo di record Attività.
 
 Per ordinare <!--ungrouped (add this when sorting for groupings will be available--> eseguire le operazioni seguenti:
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -280,7 +280,13 @@ Aggiornate le impostazioni della vista timeline per indicare cosa e come vengono
 
    * **Predefinito (grigio)**: il colore dei raggruppamenti è impostato sul grigio. Questa è l&#39;impostazione predefinita.
    * **Valori campo**: il colore dei raggruppamenti corrisponde al colore del campo in base al quale vengono raggruppati.
-È possibile associare il colore dei raggruppamenti solo ai campi con opzioni codificate per colore.
+
+     >[!NOTE]
+     >
+     >    * È possibile far corrispondere il colore solo ai campi con opzioni codificate per colore. Ad esempio, è possibile associare il colore ai campi Stato oppure ai campi con opzioni associate ai colori.
+     >    
+     >    * Non è possibile associare il colore ai campi di ricerca da tipi di record o oggetti collegati.
+
 
    Ad esempio, i campi a selezione multipla o a selezione singola possono avere opzioni codificate con colori.
 

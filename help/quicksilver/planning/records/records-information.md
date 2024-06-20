@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '110'
 ht-degree: 1%
 
 ---
@@ -41,4 +41,4 @@ Nei seguenti articoli viene descritto come creare e gestire i record e le relati
 * [Panoramica della sezione Cronologia](/help/quicksilver/planning/records/history-section-overview.md)
 * [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 * [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-* [Gestire la pagina record](/help/quicksilver/planning/records/manage-the-record-page.md)
+* [Gestire il layout della pagina record](/help/quicksilver/planning/records/manage-the-record-page.md)

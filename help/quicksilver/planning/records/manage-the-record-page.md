@@ -1,20 +1,20 @@
 ---
-title: Gestire la pagina record
+title: Gestire il layout della pagina record
 description: È possibile modificare il layout dell'anteprima record e della pagina in Adobe Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
 
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Gestire la pagina record
+# Gestire il layout della pagina record
 
 {{planning-important-intro}}
 
@@ -108,7 +108,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 * Le modifiche apportate all&#39;anteprima del record sono immediatamente visibili nella pagina dei dettagli del record. Le modifiche apportate nella pagina record sono visibili anche nella casella di anteprima del record.
 
-* L&#39;aggiunta di un&#39;immagine di copertina a un record non fa parte del layout generale dell&#39;anteprima del record o della pagina. È possibile aggiungere immagini di copertina univoche a ogni record. Per informazioni, consulta [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* L&#39;aggiunta di un&#39;immagine di copertina o di una miniatura a un record non fa parte del layout generale dell&#39;anteprima del record o della pagina. È possibile aggiungere immagini di copertina o miniature univoche a ciascun record. Per informazioni, consulta [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) e [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ## Aggiungere sezioni a una pagina o anteprima record
 
@@ -135,15 +135,11 @@ Per aggiungere una sezione a un&#39;anteprima record o a una pagina:
 
    Oppure
 
-   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record.
+   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >È possibile visualizzare **Apri dettagli** a sinistra del campo Nome di un record in una visualizzazione tabella solo quando il campo Nome è un campo primario.
 
 1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 
@@ -200,15 +196,11 @@ Per impostazione predefinita, tutte le sezioni vengono espanse.
 
    Oppure
 
-   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) a sinistra del nome di un record.
+   Nella vista tabella, fare clic sul pulsante **Apri dettagli** icona ![](assets/open-details-icon-in-table-name-field.png) nella prima colonna.
 
    L&#39;anteprima del record viene visualizzata nella vista.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >È possibile visualizzare **Apri dettagli** a sinistra del campo Nome di un record in una visualizzazione tabella solo quando il campo Nome è un campo primario.
 
 1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda.
 

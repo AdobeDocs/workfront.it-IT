@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '642'
 ht-degree: 1%
 
 ---
@@ -117,7 +117,9 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
 1. (Facoltativo e condizionale) Fai clic su **Anteprima** in uno dei seguenti modelli predefiniti di workspace:
 
-   * Gestione marketing
+   * Base: Marketing Management
+   * Avanzato: Marketing Management
+   * Enterprise: Marketing Management
    * Gestione vendite
    * Gestione dei prodotti
 
@@ -133,7 +135,7 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
    Oppure
 
-   Clic **Indietro**, quindi fai clic su **Crea area di lavoro** per creare un&#39;area di lavoro da zero.
+   Clic **Indietro**, quindi fai clic su **Nuova area di lavoro** per creare un&#39;area di lavoro da zero.
 
    Viene creato uno dei seguenti tipi di aree di lavoro:
 

@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -100,55 +100,81 @@ You must have the following:
 
 Di seguito sono riportati i modelli di area di lavoro in Workfront Planning e il numero di campi inclusi:
 
-* **Gestione marketing**: quando utilizzi questo modello, puoi gestire tutte le campagne di marketing. Il modello include quanto segue:
+* **Base: Marketing Management**: ideale per le organizzazioni che gettano le basi di un sistema di marketing di base. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
    * Tipi di record operativi:
 
-      * **Piano di marketing**: 7 campi e 5 campi collegati
-      * **Campagna**: 9 campi e 7 campi collegati
-      * **Programma**: 9 campi e 5 campi collegati
-      * **Attività**: 6 campi e 5 campi collegati
+      * **Campagna**: 15 campi
    * Tassonomie:
-      * **Pubblico**: 3 campi e 3 campi collegati
-      * **Segmento**: 5 campi e 1 campo collegato
-      * **Percorso di clienti**: 4 campi
-      * **Offerta prodotti**: 3 campi e 1 campo collegato
-      * **Regione**: 1 campo
-      * **Tattico**: 1 campo
-      * **Canali**: 1 campo e 1 campo collegato
-      * **Business Unit**: 1 campo
-      * **Funzione**: 1 campo
 
-* **Gestione vendite**: puoi creare un sistema di vendita completo che semplifica il processo di vendita e migliora l’efficienza. Il modello include quanto segue:
+      * **Persone**: 7 campi
+      * **Marchi**: 6 campi
+      * **Prodotti**: 5 campi
+
+* **Avanzato: Marketing Management**: adatto ai team pronti ad esplorare strategie di marketing più sfaccettate. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
    * Tipi di record operativi:
 
-      * **opportunità**: 7 campi e 4 campi collegati
-      * **Attività**: 4 campi e 5 campi collegati
-      * **Campagna**: 5 campi e 3 campi collegati
+      * **Campagne**: 14 campi
+      * **Programmi**: 23 campi
+
    * Tassonomie:
-      * **Account**: 4 campi e 3 campi collegati
-      * **Lead**: 12 campi e 2 campi collegati
-      * **Contatto**: 10 campi e 2 campi collegati
-      * **Regione**: 1 campo e 2 campi collegati
-      * **Settore**: 1 campo
+      * **Aree geografiche**: 1 campo
+      * **Fasi Percorso cliente**: 4 campi
+      * **Tipi di pubblico**: 8 campi
+      * **Deliverables**: 12 campi
+      * **Marchi**: 6 campi
+
+* **Enterprise: Marketing Management**: progettato per organizzazioni grandi o mature con sistemi di marketing complessi. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
+
+   * Tipi di record operativi:
+
+      * **Campagne**: 15 campi
+      * **Programmi**: 15 campi
+      * **Tattiche**: 11 campi
+      * **Attività**: 18 campi
+
+   * Tassonomie:
+
+      * **Prodotti**: 10 campi
+      * **Deliverables**: 18 campi
+      * **Destinatari**: 8 campi
+      * **Aree geografiche**: 8 campi
+      * **Sottoregioni**: 7 campi
+      * **Partner**: 7 campi
+      * **Casi d’uso**: 7 campi
+      * **Fasi Percorso cliente**: 3 campi
+
+* **Gestione vendite**: puoi creare un sistema di vendita completo che semplifica il processo di vendita e migliora l’efficienza. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
+
+   * Tipi di record operativi:
+
+      * **opportunità**: 11 campi
+      * **Attività**: 9 campi
+      * **Campagna**: 8 campi
+   * Tassonomie:
+      * **Account**: 7 campi
+      * **Lead**: 14 campi
+      * **Contatto**: 12 campi
+      * **Regione**: 3 campi
+      * **Settore**: campo 2
       * **Centro acquisti**: 1 campo
       * **Prodotto/Servizio**: 1 campo
       * **Concorrenza**: 1 campo
 
-* **Gestione dei prodotti**: puoi creare un processo di gestione dei prodotti efficiente e strutturato utilizzando questo modello. Il modello include quanto segue:
+* **Gestione dei prodotti**: puoi creare un processo di gestione dei prodotti efficiente e strutturato utilizzando questo modello. Il modello include i tipi di record e il numero di campi seguenti, inclusi i campi collegati ad altri tipi di record:
 
    * Tipi di record operativi:
 
-      * **Tema**: 8 campi e 2 campi collegati
-      * **Iniziativa**: 8 campi e 2 campi collegati
-      * **Epica**: 9 campi e 3 campi collegati
-      * **Storia utente**: 9 campi e 2 campi collegati
+      * **Tema**: 10 campi
+      * **Iniziativa**: 10 campi
+      * **Epica**: 12 campi
+      * **Storia utente**: 11 campi
 
    * Tassonomie:
 
-      * **Cliente**: 6 campi e 1 campo collegato
-      * **Sprint**: 7 campi e 1 campo collegato
-      * **Team di prodotto**: 3 campi
-      * **Richieste di funzioni**: 8 campi e 1 campo collegato
-      * **Settore**: 1 campo e 1 campo collegato
+      * **Cliente**: 8 campi
+      * **Sprint**: 9 campi
+      * **Team di prodotto**: 4 campi
+      * **Richieste di funzioni**: 9 campi
+      * **Settore**: 2 campi

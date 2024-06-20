@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,16 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista.
 
       * Clic **Nuovo record** nell’angolo superiore destro della pagina. Viene visualizzata la casella di anteprima del record.
 
-1. Iniziare a digitare informazioni sul nuovo record nella nuova riga o nei campi visualizzati nella casella di anteprima.
+     Workfront carica automaticamente una miniatura e un&#39;immagine di copertina in ogni nuovo record. In seguito sarà possibile modificare queste immagini. Per informazioni, vedere i seguenti articoli:
+
+      * [Aggiungere una copertina a un record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+      * [Aggiungere una miniatura a un record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+
+1. Iniziare a digitare informazioni sul nuovo record nei campi visualizzati nella casella di anteprima.
 
    >[!NOTE]
    >
-   >  * Non esistono campi obbligatori per i record. È tuttavia consigliabile aggiungere un nome per il record, in quanto è utile identificare i record in base al nome quando si collegano record tra loro.
+   >  * Non esistono campi obbligatori per i record. È tuttavia consigliabile aggiungere informazioni per il campo principale di un record, in quanto è utile identificare i record quando si collegano tra loro record. Per ulteriori informazioni sui campi primari, consulta [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
    >
    >  * I campi che fanno riferimento ad altri tipi di record o campi calcolati sono campi di sola lettura.
 
@@ -140,7 +145,7 @@ Tutti i record del tipo selezionato vengono visualizzati nella vista.
    >È possibile accedere a **Apri dettagli** solo dal campo del nome del record quando il campo del nome è un campo primario.
 
 1. Iniziare a modificare le informazioni del record nell&#39;anteprima del record. Workfront salva automaticamente le modifiche.
-1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continuare a modificare il record nella pagina record.
+1. (Facoltativo) Fai clic su **Apri in una nuova scheda** icona ![](assets/open-details-in-a-new-tab-icon.png) nell&#39;angolo superiore destro dell&#39;anteprima del record per aprire la pagina del record in una nuova scheda. Continuare a modificare il record nella pagina record. Per informazioni, consulta [Modifica record](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Facoltativo) Utilizzare le seguenti scelte rapide da tastiera per annullare o ripetere l&#39;aggiunta di nuovi record o delle relative informazioni quando questi vengono aggiunti nella vista tabella:
 
