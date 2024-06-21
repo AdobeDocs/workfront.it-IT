@@ -8,9 +8,10 @@ title: Moduli Adobe Firefly
 description: In un [!DNL Adobe Workfront Fusion] scenario, puoi automatizzare i flussi di lavoro che utilizzano [!DNL Adobe Firefly], oltre a collegarlo a più applicazioni e servizi di terze parti.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
+exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
+source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1274'
 ht-degree: 0%
 
 ---
@@ -177,6 +178,10 @@ Questo modulo di azione espande un’immagine, facoltativamente con il contenuto
    <td>Immetti o mappa un prompt per il contenuto con cui desideri espandere l’immagine. Se non viene fornito alcun prompt, l’immagine viene espansa con contenuto corrispondente all’immagine originale.</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[!UICONTROL Numero di varianti]</td> 
+   <td>Immettere un numero compreso tra 1 e 4. Il modulo genera questo numero di varianti di immagine espanse.</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL Expanded image format]</td> 
    <td>Selezionare il formato di file con cui verrà salvata l'immagine espansa.</td> 
   </tr> 
@@ -212,6 +217,10 @@ Questo modulo di azione riempie l’area nascosta di un’immagine, facoltativam
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Immetti o mappa un prompt per il contenuto con cui desideri riempire l’immagine. Se non viene fornito alcun prompt, l’immagine verrà riempita con contenuto corrispondente all’immagine originale.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Numero di varianti]</td> 
+   <td>Immettere un numero compreso tra 1 e 4. Il modulo genera questo numero di varianti di immagine riempite.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Formato immagine riempita]</td> 
@@ -253,6 +262,10 @@ Questo modulo di azione genera un’immagine e in base a un prompt fornito. È i
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Immettete o mappate un prompt per l'immagine da creare. Un maggior numero di dettagli nel prompt consente un maggiore controllo su ciò che appare nell'immagine.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Numero di varianti]</td> 
+   <td>Immettere un numero compreso tra 1 e 4. Il modulo genera questo numero di varianti di immagine.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Generated image format]</td> 
@@ -297,5 +310,3 @@ Questo modulo di azione genera un’immagine e in base a un prompt fornito. È i
   </tr> 
  </tbody> 
 </table>
-
-
