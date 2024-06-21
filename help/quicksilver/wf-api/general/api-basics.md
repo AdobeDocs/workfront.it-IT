@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
 workflow-type: tm+mt
-source-wordcount: '4386'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -363,7 +363,7 @@ Puoi recuperare campi dati personalizzati con il prefisso &quot;DE:&quot;. Ad es
 #### Utilizzo di query denominate
 
 Alcuni tipi di oggetto dispongono di ricerche denominate che vengono comunemente eseguite e sono disponibili aggiungendo il nome della query alla fine dell&#39;URI del tipo di oggetto. Ad esempio, la seguente richiesta recupera gli elementi di lavoro (attività e problemi) a cui l’utente è attualmente assegnato:
-<pre>/attask/api/v15.0/work/myWork</pre>Le query denominate supportano la richiesta del parametro fields per recuperare campi aggiuntivi. Alcune query denominate accettano anche filtri aggiuntivi. Per un elenco delle query denominate consentite per un oggetto, consulta la scheda Azione per l’oggetto in [API Explorer](../../wf-api/general/api-explorer.md).
+<pre>/attask/api/v15.0/work/myWork</pre>Le query denominate supportano la richiesta del parametro fields per recuperare campi aggiuntivi. Alcune query denominate accettano anche filtri aggiuntivi. Per un elenco delle query denominate consentite per un oggetto, consulta la scheda Azione per l’oggetto in [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
 #### Utilizzo di `Count`
 
