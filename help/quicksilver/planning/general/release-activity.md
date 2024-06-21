@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '7684'
+source-wordcount: '7781'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,16 @@ Il titolo di un record è il nome del record o qualsiasi campo impostato come ca
 Questo miglioramento è disponibile per i record connessi da Workfront Planning e per le risorse collegate da Adobe Experience Manager.
 
 Per informazioni, consulta [Connetti tipi di record](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Solo gli utenti con licenza Standard o Plan possono disporre delle autorizzazioni Manage per le aree di lavoro (titolo)
+
+Produzione: 21 giugno 2024
+
+Anteprima: da determinare
+
+Sono stati modificati i tipi di utenti che possono avere accesso completo alle aree di lavoro. Ora solo gli utenti con licenza Standard o Plan possono disporre delle autorizzazioni Manage per le aree di lavoro. L&#39;accesso ai tipi di record, ai record e ai campi viene ereditato da un&#39;area di lavoro. Tutti gli altri utenti hanno accesso in sola visualizzazione alle aree di lavoro e ai relativi tipi di oggetto. Prima di questo aggiornamento, gli utenti con licenza Light e Worker potevano ricevere le autorizzazioni Contribute per le aree di lavoro.
+
+Per ulteriori informazioni, consulta [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Settimana del 10 giugno 2024
 
@@ -366,7 +376,7 @@ Quando un utente modifica una configurazione di campo (nome, descrizione, elenco
 >
 >Non viene inviata alcuna notifica agli altri utenti circa la modifica della configurazione del campo.
 
-Per ulteriori informazioni, consulta [Modifica campi](/help/quicksilver/planning/fields/edit-fields.md).
+Per ulteriori informazioni, consulta [Modifica impostazioni campo](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Settimana del 6 maggio 2024
 

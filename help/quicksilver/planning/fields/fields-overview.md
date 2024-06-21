@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ In Adobe Workfront Planning è possibile aggiungere nuovi campi che riflettono i
 
   Per informazioni sulla gestione dei campi, vedi anche i seguenti articoli:
 
-   * [Modifica campi](/help/quicksilver/planning/fields/edit-fields.md)
+   * [Modifica impostazioni campo](/help/quicksilver/planning/fields/edit-fields.md)
    * [Elimina campi](/help/quicksilver/planning/fields/delete-fields.md)
 
 * I campi associati a un tipo di record sono disponibili per essere associati a tutti i record di quel tipo. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->

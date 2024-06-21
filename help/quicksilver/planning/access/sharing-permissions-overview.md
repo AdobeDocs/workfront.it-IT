@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 6%
+source-wordcount: '663'
+ht-degree: 7%
 
 ---
 
@@ -41,20 +41,25 @@ Per informazioni su come condividere aree di lavoro o visualizzazioni, vedere i 
 
 * Viste
 
+  È necessario concedere agli utenti, inclusi gli amministratori di sistema, le autorizzazioni per accedere alle visualizzazioni separatamente dalle autorizzazioni per l’accesso alle aree di lavoro. Per informazioni, consulta [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md).
+
+Potete condividere un workspace o una vista con le seguenti entità:
+
+* Utenti
+* Gruppi
+
+<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+
 ## Considerazioni sulla condivisione di oggetti in Adobe Workfront Planning
 
-* Il tipo di licenza Adobe Workfront funziona insieme alle autorizzazioni di Workfront Planning per consentire l&#39;accesso alla visualizzazione, al contributo o alla gestione degli oggetti quando si utilizza Workfront Planning.
+* Il tipo di licenza Adobe Workfront funziona insieme alle autorizzazioni di Workfront Planning per consentire l’accesso alla visualizzazione, al contributo o alla gestione delle aree di lavoro e dei relativi oggetti.
 
   Per informazioni sull&#39;effetto dei tipi di licenza sui livelli di autorizzazione per Workfront Planning, vedere [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
-* Gli amministratori di sistema possono gestire e condividere le aree di lavoro create da altri utenti.
-* Se non sei un amministratore di sistema, puoi contribuire alle aree di lavoro create da altri utenti se sono condivise con te.
-* Non è possibile condividere aree di lavoro o visualizzazioni in blocco.
-* Potete condividere un workspace o una vista con le seguenti entità:
-   * Utenti
-   * Gruppi
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-* Gli altri utenti, inclusi gli amministratori di sistema, possono accedere solo alle visualizzazioni create o condivise con loro. Agli amministratori di sistema possono essere assegnate solo le autorizzazioni per gestire una visualizzazione.
-* È possibile condividere con altri utenti un collegamento a un&#39;area di lavoro o a una visualizzazione da una pagina del tipo di record. Per poter accedere all&#39;area di lavoro o alla pagina del tipo di record visualizzata nella vista selezionata, gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront.
+* Gli amministratori di sistema possono gestire tutte le aree di lavoro del sistema, incluse quelle che non hanno creato.
+* Gli altri utenti, inclusi gli amministratori di sistema, possono accedere solo alle visualizzazioni create o condivise con loro. Gli amministratori di sistema possono disporre delle autorizzazioni necessarie solo per gestire una visualizzazione.
+* È possibile condividere con altri utenti un collegamento a un&#39;area di lavoro o a una visualizzazione.
+
+  Per poter accedere all&#39;area di lavoro o alla pagina del tipo di record visualizzata nella vista selezionata, gli utenti che ricevono il collegamento devono essere utenti attivi e accedere a Workfront.
 
 ## Condivisione delle autorizzazioni per gli oggetti di Adobe Workfront Planning
 
@@ -63,6 +68,8 @@ Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è
 >[!IMPORTANT]
 >
 >Non tutti gli utenti possono disporre dei livelli di autorizzazione descritti di seguito. La licenza individuale degli utenti determina il livello di autorizzazioni che possono ricevere per gli oggetti di Workfront Planning.
+>
+>Solo gli utenti con licenza Standard (o Plan) possono disporre delle autorizzazioni Contribute o Manage per le aree di lavoro.
 >
 >Per informazioni, consulta [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -75,9 +82,6 @@ Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è
 * Tipi di record
 * Record
 * Campi
-* Visualizzazioni*
-
-  *È possibile consentire a tutti gli utenti con le autorizzazioni View (Visualizzazione) o superiori, di accedere a un&#39;area di lavoro anche alle viste in essa contenute. Questa è un’autorizzazione aggiuntiva che devi abilitare quando condividi una vista. Per informazioni, consulta [Condividere le visualizzazioni](/help/quicksilver/planning/access/share-views.md).
 
 Di seguito sono riportati i livelli di autorizzazione per le aree di lavoro:
 

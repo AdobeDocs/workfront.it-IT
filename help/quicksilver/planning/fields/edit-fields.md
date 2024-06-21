@@ -1,13 +1,13 @@
 ---
-title: Modifica campi
+title: Modifica impostazioni campo
 description: In Adobe Workfront Planning è possibile modificare le impostazioni dei campi già creati. In questo articolo viene descritto come modificare le impostazioni per i campi di Workfront Planning.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
-title: Edit foelds
+title: Edit fields
 description: In Adobe Workfront Planning, you can edit the field settings for fields that are already created.
 hidefromtoc: yes
 hide: yes
@@ -25,7 +25,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# Modifica campi
+# Modifica impostazioni campo
 
 {{planning-important-intro}}
 
@@ -34,33 +34,6 @@ recommendations: noDisplay, noCatalog
 Per informazioni sulla creazione dei campi di Adobe Workfront Planning, vedere [Crea campi](/help/quicksilver/planning/fields/create-fields.md).
 
 In questo articolo viene descritto come modificare le impostazioni per i campi di Workfront Planning. Per informazioni sulla modifica dei valori dei campi per i record, vedere [Modifica record](/help/quicksilver/planning/records/edit-records.md).
-
-## Considerazioni sulla modifica delle impostazioni dei campi
-
-Prima di apportare modifiche alla configurazione di un campo, è necessario considerare quanto segue:
-
-* Se disponi delle autorizzazioni di gestione per l’area di lavoro a cui appartengono i campi, puoi modificare i campi creati o quelli creati da altri utenti.
-* È possibile modificare un campo nella tabella del tipo di record.
-* Non è possibile modificare un campo nella pagina record o in un&#39;altra visualizzazione, all&#39;esterno della visualizzazione tabella.
-* Non è possibile modificare il tipo di campo dopo il salvataggio del campo.
-* Non è possibile deselezionare l&#39;impostazione Consenti numeri negativi precedentemente selezionata per un campo Numerico, Percentuale o Valuta se sono già presenti valori negativi memorizzati nei record a cui è associato.
-* Dopo aver salvato il campo, puoi modificare la configurazione dei seguenti elementi di campo:
-
-   * Nome o descrizione di un campo
-   * Opzioni di un campo a selezione singola o multipla.
-   * Espressione di un campo Formula.
-
-  >[!WARNING]
-  >
-  >Quando si modificano le espressioni della formula o si aggiungono o si rimuovono opzioni da un campo di tipo selezionato, si verifica una perdita di dati per i record che contengono già informazioni memorizzate nei campi la cui configurazione viene modificata.
-  >
-  >Non viene visualizzato alcun avviso o indicazione che possa verificarsi questa perdita di dati quando si modifica la configurazione dei campi.
-  >
-  >Non viene inviata alcuna notifica agli altri utenti circa la modifica della configurazione del campo.
-
-<!--this is not yet true, but it might come later:
-* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
--->
 
 ## Requisiti di accesso
 
@@ -91,9 +64,10 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
    <td>
-   <p>Qualsiasi</p> 
+   <p>Nuovo: Standard</p>
+   <p>Corrente: Piano</p> 
   </td>
   </tr>
 
@@ -118,10 +92,39 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 </tbody>
 </table>
 
+*Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+## Considerazioni sulla modifica delle impostazioni dei campi
+
+Prima di apportare modifiche alla configurazione di un campo, è necessario considerare quanto segue:
+
+* Se disponi delle autorizzazioni di gestione per l’area di lavoro a cui appartengono i campi, puoi modificare i campi creati o quelli creati da altri utenti.
+* È possibile modificare un campo nella tabella del tipo di record.
+* Non è possibile modificare un campo nella pagina record o in un&#39;altra visualizzazione, all&#39;esterno della visualizzazione tabella.
+* Non è possibile modificare il tipo di campo dopo il salvataggio del campo.
+* Non è possibile deselezionare l&#39;impostazione Consenti numeri negativi precedentemente selezionata per un campo Numerico, Percentuale o Valuta se sono già presenti valori negativi memorizzati nei record a cui è associato.
+* Dopo aver salvato il campo, puoi modificare la configurazione dei seguenti elementi di campo:
+
+   * Nome o descrizione di un campo
+   * Opzioni di un campo a selezione singola o multipla.
+   * Espressione di un campo Formula.
+
+  >[!WARNING]
+  >
+  >Quando si modificano le espressioni della formula o si aggiungono o si rimuovono opzioni da un campo di tipo selezionato, si verifica una perdita di dati per i record che contengono già informazioni memorizzate nei campi la cui configurazione viene modificata.
+  >
+  >Non viene visualizzato alcun avviso o indicazione che possa verificarsi questa perdita di dati quando si modifica la configurazione dei campi.
+  >
+  >Non viene inviata alcuna notifica agli altri utenti circa la modifica della configurazione del campo.
+
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
+-->
 
 ## Modifica impostazioni campo
 

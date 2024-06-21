@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -135,4 +135,8 @@ Viene aperto l&#39;ultimo workspace a cui si è effettuato l&#39;accesso.
 
 ## Condividere tutti i record in un&#39;area di lavoro condividendo l&#39;area di lavoro
 
-È possibile condividere tutti i record di un&#39;area di lavoro quando questa viene condivisa con altri utenti. Per ulteriori informazioni, consulta [Condividere un’area di lavoro](/help/quicksilver/planning/access/share-workspaces.md).
+È possibile condividere tutti i record di un&#39;area di lavoro quando questa viene condivisa con altri utenti.
+
+Solo gli utenti con le autorizzazioni di gestione di un’area di lavoro possono condividerla con altri utenti.
+
+Per ulteriori informazioni, consulta [Condividere un’area di lavoro](/help/quicksilver/planning/access/share-workspaces.md).

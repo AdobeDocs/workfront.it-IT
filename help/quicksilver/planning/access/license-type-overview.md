@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 99b8d6371a718b7268edfda81959ae3170d1962b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 
 Il tipo di licenza di Adobe Workfront funziona in combinazione con le autorizzazioni di Adobe Workfront Planning per consentire l’accesso alla visualizzazione, al contributo o alla gestione delle aree di lavoro. <!--add more objects here when we can grant other object-specific permissions-->
 
+Le autorizzazioni di Workfront Planning per le visualizzazioni record sono indipendenti dai tipi di licenza di Workfront.
+
 Gli utenti con tutti i tipi di licenza possono visualizzare, creare, modificare o gestire le visualizzazioni di Workfront Planning.
 
 In questo articolo vengono descritti i tipi di licenze necessari in Workfront e le autorizzazioni concesse alle aree di lavoro in Workfront Planning in base a ogni tipo di licenza.
@@ -33,7 +35,7 @@ Un utente con un tipo di licenza di livello inferiore dispone di autorizzazioni 
 >
 >I richiedenti (o i collaboratori, in base al nuovo modello di licenza) non possono contribuire o gestire le aree di lavoro e i relativi oggetti.
 >
->Nella casella Condivisione è indicato che non è possibile concedere agli utenti le autorizzazioni per contribuire a o gestire un’area di lavoro se dispongono di una licenza di livello inferiore.
+>Nella casella Condivisione è indicato che non è possibile concedere agli utenti le autorizzazioni per contribuire a o gestire un’area di lavoro quando dispongono di una licenza di livello inferiore, poiché tali livelli di autorizzazione sono disabilitati.
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
@@ -47,10 +49,9 @@ La tabella seguente descrive la relazione tra il tipo di licenza di un utente in
 La concessione di autorizzazioni utente a un&#39;area di lavoro consente inoltre di concedere autorizzazioni ai tipi di record, ai record e ai campi.
 
 
-| Tipo di licenza Adobe Workfront* | Autorizzazioni consentite in Adobe Workfront Planning |
+| Tipo di licenza Adobe Workfront* | Autorizzazioni massime consentite in Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nuovo: Standard <br> o <br>Corrente: Piano | Gli utenti possono creare e gestire aree di lavoro, tipi di record e record.<br> Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato. |
-| Nuovo: Chiaro <br> o <br>Corrente: Lavoro | Gli utenti possono contribuire e visualizzare un&#39;area di lavoro condivisa con loro, nonché i tipi di record e i record da tale area di lavoro. <br> Gli utenti possono creare, modificare ed eliminare i record nelle aree di lavoro in cui dispongono delle autorizzazioni Contribute. |
-| Nuovo: Collaboratore <br> o <br>Corrente: revisore o richiedente | Gli utenti possono visualizzare le aree di lavoro condivise, nonché i tipi di record e i record di tali aree di lavoro. <br> Gli utenti non possono creare, modificare o eliminare tipi di record o record. |
+| Nuovo: Standard <br> o <br>Corrente: Piano | Gli utenti possono gestire le aree di lavoro. Possono creare, modificare o eliminare aree di lavoro, tipi di record, record e campi. <br> Gli amministratori di sistema dispongono delle autorizzazioni di gestione per tutte le aree di lavoro, incluse quelle che non hanno creato. |
+| Nuovo: Light, Collaboratore <br> o <br>Corrente: Lavoro, Richiedente, Revisore | Gli utenti possono visualizzare le aree di lavoro condivise, nonché i tipi di record, i record e i campi di tali aree di lavoro. <br> Gli utenti non possono creare, modificare o eliminare aree di lavoro, tipi di record, record o campi. |
 
 *Per ulteriori informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
