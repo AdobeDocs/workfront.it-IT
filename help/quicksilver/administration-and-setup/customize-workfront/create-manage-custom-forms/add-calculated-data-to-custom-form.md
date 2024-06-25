@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '2911'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Aggiungere dati calcolati a un modulo personalizzato con il generatore di moduli legacy
 
 <!--Audited: 01/2024-->
+
+{{form-designer-default}}
 
 In un modulo personalizzato è possibile aggiungere un campo personalizzato calcolato che utilizza dati esistenti per generare nuovi dati quando il modulo personalizzato viene allegato a un oggetto.
 

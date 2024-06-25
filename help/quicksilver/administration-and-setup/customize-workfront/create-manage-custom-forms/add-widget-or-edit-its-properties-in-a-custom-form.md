@@ -1,18 +1,20 @@
 ---
 title: Aggiungere o modificare un’immagine o un altro widget di risorse in un modulo personalizzato con il generatore di moduli legacy
 description: Puoi aggiungere o modificare le proprietà di uno qualsiasi dei seguenti widget di risorse, come immagini, video, file PDF e file Adobe XD, in un modulo personalizzato. Questa funzione ti consente di includere contenuti visivi, come immagini di branding, un video istruttivo o un prototipo interattivo per un’app che stai progettando.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 1%
 
 ---
 
 # Aggiungere o modificare un’immagine o un altro widget di risorse in un modulo personalizzato con il generatore di moduli legacy
+
+{{form-designer-default}}
 
 Puoi aggiungere o modificare le proprietà di uno qualsiasi dei seguenti widget di risorse in un modulo personalizzato:
 

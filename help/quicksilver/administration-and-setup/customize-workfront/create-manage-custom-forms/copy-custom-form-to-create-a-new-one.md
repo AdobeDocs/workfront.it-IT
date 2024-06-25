@@ -9,7 +9,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 0%
@@ -17,6 +17,8 @@ ht-degree: 0%
 ---
 
 # Copiare un modulo personalizzato per crearne uno nuovo con il generatore legacy
+
+{{form-designer-default}}
 
 È possibile creare un nuovo modulo personalizzato basato su un modulo esistente.
 

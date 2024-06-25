@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2502'
 ht-degree: 1%
 
 ---
@@ -61,6 +61,15 @@ ht-degree: 1%
 
 1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell’angolo superiore sinistro, quindi fai clic su **[!UICONTROL Configurazione]** ![Icona Configurazione](/help/_includes/assets/gear-icon-setup.png).
 
+## Progettazione moduli in GA {#form-designer-default}
+
+>[!IMPORTANT]
+>
+>Con la versione 24.7, il progettista di moduli sarà generalmente disponibile e diventerà l’esperienza predefinita per la creazione e la modifica di moduli personalizzati in Adobe Workfront. Il generatore di moduli legacy non sarà più disponibile. È consigliabile passare ora al progettista del modulo e sfruttarne le funzionalità.
+>
+>Per informazioni, consulta [Progettare un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+>Il generatore di moduli legacy è stato rimosso dall’ambiente di anteprima il 19 giugno 2024 e verrà rimosso dall’ambiente di produzione con la versione 24.7 di luglio.
 
 ## Associa gruppo a destra con team {#right-group-team}
 
