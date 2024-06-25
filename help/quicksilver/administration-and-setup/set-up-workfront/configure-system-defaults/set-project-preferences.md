@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
 workflow-type: tm+mt
-source-wordcount: '2524'
+source-wordcount: '2561'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Configura una delle seguenti preferenze per i progetti appena creati nel sistema
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calcola la percentuale di completamento in base a]</td> 
-   <td> <p>La percentuale di completamento di un progetto o di un'attività padre si basa sull'avanzamento complessivo delle attività. Queste informazioni possono essere calcolate in base alla Durata o alle Ore pianificate delle attività di un progetto.</p> <p>Se si seleziona [!UICONTROL Durata], la Durata di ogni attività in un progetto determina la percentuale complessiva di completamento per il progetto e la Durata di ogni sottoattività determina la percentuale complessiva di completamento per l'attività padre.</p> <p>Se si seleziona [!UICONTROL Duration], assicurarsi di specificare [!UICONTROL Typical hours per work day] e [!UICONTROL Typical work days per week] nella sezione [!UICONTROL Timelines]. [!DNL Workfront] utilizza queste informazioni per calcolare la percentuale di completamento di un'attività in base alla durata. </p> <p>Se si seleziona [!UICONTROL Lavoro Necessario], verificare che per tutte le attività di ogni progetto sia definita la quantità di [!UICONTROL Lavoro Necessario] e che la quantità non sia zero.</p> </td> 
+   <td> <p>Workfront calcola la percentuale di completamento di un progetto o di un'attività padre in base alla percentuale di completamento di ogni attività del progetto e alla Durata o alle Ore pianificate di ogni attività.</p><p>La percentuale di completamento di ogni attività viene impostata manualmente dagli assegnatari dell'attività.</p><p>È possibile scegliere se Workfront utilizzerà la Durata o le Ore pianificate delle attività per calcolare la percentuale di completamento dei progetti.</p> <p>Se si seleziona [!UICONTROL Durata], la Durata di ogni attività in un progetto determina la percentuale complessiva di completamento per il progetto e la Durata di ogni sottoattività determina la percentuale complessiva di completamento per l'attività padre.</p> <p>Se si seleziona [!UICONTROL Duration], assicurarsi di specificare [!UICONTROL Typical hours per work day] e [!UICONTROL Typical work days per week] nella sezione [!UICONTROL Timelines]. [!DNL Workfront] utilizza queste informazioni per calcolare la percentuale di completamento di un'attività in base alla durata. </p> <p>Se si seleziona [!UICONTROL Lavoro Necessario], verificare che per tutte le attività di ogni progetto sia definita la quantità di [!UICONTROL Lavoro Necessario] e che la quantità non sia zero.</p><p>Per ulteriori informazioni, consulta <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">Panoramica sulla percentuale di completamento del progetto</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Imposta automaticamente la condizione del progetto in base allo stato di avanzamento]</td> 
