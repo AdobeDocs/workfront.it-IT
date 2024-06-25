@@ -6,16 +6,14 @@ description: Puoi richiedere l’approvazione di altri utenti per un documento i
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Creare una richiesta di revisione o approvazione documento
-
-<span class="preview">Le informazioni evidenziate in questa pagina si riferiscono a funzionalità non ancora generalmente disponibili. È disponibile solo nell’ambiente Sandbox di anteprima.</span>
 
 Puoi richiedere l’approvazione di un documento in Adobe Workfront ad altri utenti o team, oppure chiedere loro di rivedere un documento senza doverlo approvare.
 
@@ -62,7 +60,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Clic **Approvazioni** nel riquadro a sinistra.
 
-1. <span class="preview">(Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.</span>
+1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
 
 1. Per aggiungere un approvatore, fare clic su **Approvatore** e iniziare a digitare il nome di un utente o di un team.
 
@@ -84,7 +82,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 ![](assets/doc-summary-add-approvers.png)
 
-1. <span class="preview">(Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.</span>
+1. (Facoltativo) Imposta una scadenza per l’approvazione. Gli utenti e i team ricevono una notifica via e-mail 72 ore e in seguito 24 ore prima della scadenza specificata.
 
 1. Per aggiungere un approvatore, fare clic su **Approvatore** e iniziare a digitare il nome di un utente o di un team.
 
