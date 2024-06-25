@@ -6,10 +6,10 @@ description: È possibile reimpostare [!DNL Adobe Workfront] password. Come misu
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 699498fb286c53b6ba4ddde88ba59e79699fd7b3
+source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 0%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >A [!DNL Workfront] l&#39;amministratore può configurare le restrizioni per le password personalizzate, come descritto in [Configurare le preferenze di sicurezza del sistema](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) e [Configura criteri password per l&#39;autenticazione](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md).
 >
->A [!DNL Workfront] L&#39;amministratore può inoltre reimpostare la password in un ambiente con autenticazione avanzata abilitata. Per ulteriori informazioni, consulta [Reimpostare la password di un utente con l&#39;autenticazione avanzata](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).
+><!-- [!DNL Workfront] administrator can also reset your password in an Enhanced Authentication enabled environment. For more information, see [Reset a user's password with Enhanced Authentication](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md).-->
 
 ## Requisiti di accesso
 
@@ -72,4 +72,4 @@ Per conoscere il piano o il tipo di licenza di cui si dispone, contattare [!DNL 
 
    Le regole della password potrebbero essere più rigide di questa, a seconda delle impostazioni di configurazione impostate dal [!DNL Workfront] amministratore.
 
-1. Clic **[!UICONTROL Salva modifiche]**.
+1. Fai clic su **[!UICONTROL Salva modifiche]**.
