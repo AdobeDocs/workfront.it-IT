@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,11 @@ Questo blueprint contiene un modello [!DNL Workfront] la professional services o
 
 Questo blueprint contiene un singolo dashboard con 13 rapporti per trovare, riassegnare o gestire in altro modo gli oggetti e le assegnazioni associati a un utente che esce da Workfront. Puoi inoltre utilizzare questi rapporti per consentire a un utente che si sposta in un nuovo ruolo o gruppo di riassegnare il proprio lavoro.
 
-**[!UICONTROL Post-implementazione: rollout di un nuovo caso d’uso]**
+[!BADGE Nuovo]{type=negative}**Dashboard di People Manager**
+
+Questo blueprint contiene un singolo dashboard con 12 rapporti per dare visibilità ai responsabili delle persone nel lavoro dei loro referenti diretti.
+
+**[!UICONTROL Implementazione di Post: rollout di un nuovo caso d’uso]**
 Questo blueprint contiene un singolo modello che organizza il lavoro che un [!DNL Workfront] il cliente dovrà completare per gestire l’espansione ai processi successivi dopo l’implementazione iniziale.
 
 **[!UICONTROL Stampa produzione risorse] (Integrato)**
@@ -133,6 +137,10 @@ Questo blueprint contiene un singolo dashboard con 21 rapporti per aiutarti a mi
 **Realizzazione del valore | Dashboard dei servizi rivolti al client**
 
 Questo blueprint contiene un’unica dashboard con 8 rapporti per aiutarti a sfruttare i vantaggi di Workfront. Questi rapporti sono progettati per aiutarti a tradurre i servizi rivolti ai clienti in un valore misurabile che puoi monitorare nel tempo per ottenere risultati migliori.
+
+[!BADGE Nuovo]{type=negative}**Realizzazione del valore | Pannello di controllo Flussi di lavoro conformità**
+
+Questo blueprint contiene un singolo dashboard con 7 rapporti per aiutarti a realizzare il valore di Workfront. Per l’uso quotidiano o in settori altamente regolamentati, questi rapporti, che consentono di risparmiare tempo, favoriscono la responsabilità e migliorano i risultati nel tempo, aiutando a tenere traccia e gestire i flussi di lavoro e le esigenze di conformità.
 
 **Realizzazione del valore | Revisione e approvazione del dashboard**
 
