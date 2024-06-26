@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ Nell’app mobile, puoi chiedere all’assistente virtuale di aiutarti con i com
 
 Con questi comandi viene visualizzato un elenco delle diverse informazioni che è possibile richiedere all&#39;assistente.
 
-Per un elenco dei comandi esistenti, vedere [Assistente virtuale per app mobili Adobe Workfront](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**Nota: l’Assistente virtuale mobile è diventato obsoleto ad aprile 2024.**

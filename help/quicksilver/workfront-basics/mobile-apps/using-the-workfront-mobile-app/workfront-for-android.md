@@ -7,10 +7,10 @@ description: Il [!DNL Adobe Workfront] L'app ti consente di accedere al tuo lavo
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 3%
+source-wordcount: '543'
+ht-degree: 2%
 
 ---
 
@@ -39,7 +39,7 @@ Il [!UICONTROL Home] consente di lavorare direttamente sulle attività, sui prob
    <td> 
     <ul> 
      <li>Aggiornare gli stati di attività e problemi</li> 
-     <li>Pubblica nell’area Aggiornamenti</li> 
+     <li>Post nell’area Aggiornamenti</li> 
      <li>Visualizza documenti</li> 
      <li>Allega foto</li> 
      <li> <p>Creare una richiesta o un’attività rapida</p> <p>Nota: le attività rapide create nella home sono attività personali, a meno che non si scelga di assegnare un progetto.</p> </li> 
@@ -58,7 +58,7 @@ Il [!UICONTROL Schede] consente di accedere al [!DNL Workfront] schede madri.
 
 ![Area Bacheche](assets/mobile-all-boards-displayed.png)
 
-Per ulteriori informazioni, consulta [[!DNL Adobe Workfront] [!UICONTROL Boards] per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Per ulteriori informazioni, consulta [[!DNL Adobe Workfront] [!UICONTROL Schede] per dispositivi mobili](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 ## [!UICONTROL Progetti]
 
@@ -73,7 +73,7 @@ Il [!UICONTROL Progetti] consente di interagire con i progetti di tua proprietà
     <ul> 
      <li>Aggiorna stato progetto</li> 
      <li>Visualizza dettagli progetto importanti</li> 
-     <li>Pubblica nell'area [!UICONTROL Aggiornamenti]</li> 
+     <li>Post nell'area [!UICONTROL Aggiornamenti]</li> 
      <li>Convertire attività, problemi e richieste in progetti</li> 
     </ul> </td> 
    <td> 
@@ -145,7 +145,7 @@ Il [!UICONTROL Richieste] L’area ti consente di visualizzare i dettagli sulle 
     </ul> </td>
    <td>
     <ul>
-     <li>Pubblica nell’area Aggiornamenti</li>
+     <li>Post nell’area Aggiornamenti</li>
      <li>Visualizza documenti</li>
      <li>Allega foto</li>
      <li>Salvare una richiesta come bozza</li>
@@ -160,7 +160,7 @@ Il [!UICONTROL Richieste] L’area ti consente di visualizzare i dettagli sulle 
 
 Il [!UICONTROL schede orario] consente di visualizzare i dettagli delle schede orario. Nell’area Schede orario dell’app, puoi:
 
-* Pubblica in [!UICONTROL Aggiornamenti] area
+* Post in [!UICONTROL Aggiornamenti] area
 * Regola i tipi di ora
 * Modifica l’ora di accesso
 * Inserisci commenti sulla scheda orario
@@ -174,7 +174,7 @@ Il [!UICONTROL schede orario] consente di visualizzare i dettagli delle schede o
 
 ![Area Preferiti](assets/mobile-favorites-area.png)
 
-## [!UICONTROL Conttati]
+## [!UICONTROL Contatti]
 
 Il [!UICONTROL Contatti] consente di visualizzare le informazioni di contatto per tutti gli utenti della società.
 
@@ -192,21 +192,3 @@ Il [!UICONTROL Configurazione] consente di:
 * Disconnetti
 
 ![Area di configurazione](assets/android-configuration-area.png)
-
-## [!UICONTROL Assistente virtuale]
-
-L&#39;assistente virtuale consente di eseguire le seguenti attività tramite comando vocale:
-
-* [!UICONTROL Mostra]
-* [!UICONTROL Elimina]
-* [!UICONTROL Cerca]
-* [!UICONTROL Informazioni sui comandi]
-
-Per ulteriori informazioni sull&#39;Assistente virtuale, vedere [Adobe [!DNL Workfront] assistente virtuale per app mobili](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
-
-## [!UICONTROL Pin]
-
-Il [!UICONTROL Fissa] consente di accedere ai comandi salvati dell&#39;assistente virtuale e ai pin dal browser Web.
-![Aggiungi e salva query](assets/pin-and-save-query-adobe-350x285.png)
-
-Per ulteriori informazioni sull&#39;Assistente virtuale, vedere [Adobe [!DNL Workfront] assistente virtuale per app mobili](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).

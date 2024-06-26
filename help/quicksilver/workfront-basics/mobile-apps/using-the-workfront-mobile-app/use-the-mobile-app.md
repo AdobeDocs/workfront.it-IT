@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Puoi scaricare e installare l’app da [Apple App Store](https://apps.apple.com/
 Nell’app mobile, puoi completare gli elementi di lavoro e visualizzare informazioni come fai nella versione del browser di [!DNL Workfront]. Sono disponibili queste e altre funzioni:
 
 * Lavora e assegna attività e problemi
-* Pubblica aggiornamenti
+* Aggiornamenti Post
 * Accedere alle schede madri Workfront
 * Visualizzare e gestire i progetti
 * Visualizzare, commentare e prendere decisioni sulle bozze
@@ -62,5 +62,4 @@ Per ulteriori informazioni su [!DNL Adobe Workfront] app mobile, consulta i segu
 * [Approvazioni in [!DNL Adobe Workfront] app mobile](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
 * [[!DNL Adobe Workfront] per [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [Configura [!DNL Adobe Workfront] per [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-* [[!DNL Adobe Workfront] assistente virtuale per app mobili](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
 
