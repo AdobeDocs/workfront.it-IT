@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 0%
@@ -303,7 +303,7 @@ Il webinar sulla versione 24.7 sarà il 27 giugno 2024. È possibile [registrati
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 11 giugno 2024</p>
+                                <p>Versione di anteprima: 20 giugno 2024</p>
                             </li>
                             <li>
                                 <p>Produzione per clienti specifici: con la versione 24.7 (luglio 2024)</p>
@@ -379,7 +379,7 @@ A questo punto della versione, non sono presenti aggiornamenti di Scenario Plann
 
 ### Miglioramenti di Workfront Proof
 
-A questo punto della versione, non sono presenti aggiornamenti di bozza per Workfront. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
+A questo punto della versione, non ci sono aggiornamenti per Workfront Proof. Questa area verrà aggiornata quando saranno disponibili aggiornamenti.
 
 ### Miglioramenti agli obiettivi di Workfront
 

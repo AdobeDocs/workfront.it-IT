@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 >[!NOTE]
 >
 >* L’Adobe di Unified Shell viene reso disponibile in un rollout graduale. Altre organizzazioni saranno integrate in Adobe Unified Shell con le versioni 24.10 e 25.1.
->* Versione di anteprima: 11 giugno 2024; versione di produzione per clienti specifici: con versione 24.7 (luglio 2024)
+>* Versione di anteprima: 20 giugno 2024; versione di produzione per clienti specifici: con versione 24.7 (luglio 2024)
 
 Per consentire alle organizzazioni di accedere ai vantaggi di Adobe Unified Experience, abbiamo iniziato a renderla disponibile ai clienti Workfront esistenti.
 
