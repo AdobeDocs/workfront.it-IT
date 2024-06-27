@@ -4,9 +4,10 @@ description: In qualità di responsabile delle operazioni di marketing, puoi uti
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '138'
 ht-degree: 0%
 
 ---
@@ -19,3 +20,4 @@ Rivedi i seguenti articoli:
 
 * [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
 * [Attività sulla versione di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md)
+* [Attività sulla versione di Adobe Workfront Planning per il 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)

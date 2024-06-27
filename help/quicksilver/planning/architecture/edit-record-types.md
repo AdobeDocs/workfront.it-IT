@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '462'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    Oppure
 
-   Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace di cui si desidera modificare i tipi di record.
+   Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente, cercare un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
 
    Viene aperto il workspace e vengono visualizzati i tipi di record.
 1. Passa il puntatore del mouse sulla scheda di un tipo di record e fai clic sul pulsante **Altro** menu ![](assets/more-menu.png) nell&#39;angolo superiore destro della scheda tipo di record, quindi fare clic su **Modifica**.
@@ -130,4 +130,4 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
    <!--check this screen shot - not sure this is valid ???-->
 
-1. (Facoltativo) Espandere la freccia rivolta verso il basso a destra del nome di un tipo di record e selezionare un altro tipo di record da modificare.
+1. (Facoltativo) Per modificare un altro tipo di record, espandere la freccia rivolta verso il basso a destra del nome di un tipo di record, cercare un tipo di record e selezionarlo quando viene visualizzato nell&#39;elenco.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3384'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,11 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    >
    >    Alcuni campi potrebbero essere nascosti. Fare clic su Campi e attivare l&#39;attivazione/disattivazione dei campi che si desidera visualizzare come colonne nella visualizzazione tabella.
 
-1. Fai clic su **+** nell&#39;angolo superiore destro della vista tabella per aggiungere nuovi campi.
+1. Fai clic su **+** nell&#39;angolo superiore destro della vista tabella
+
+   Oppure
+
+   Passa il puntatore del mouse sull’intestazione di una colonna, fai clic sulla freccia rivolta verso il basso dopo il nome del campo, quindi fai clic su **Inserisci a sinistra** o **Inserisci a destra** per aggiungere il nuovo campo.
 1. In **Nuovo campo** , cercare un tipo di campo nella scheda **Tipo di campo** o selezionare uno dei seguenti tipi di campi:
 
    * [Testo a riga singola](#single-line-text)

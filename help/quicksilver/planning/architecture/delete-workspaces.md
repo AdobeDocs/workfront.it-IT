@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
@@ -100,7 +100,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Fare clic sull&#39;area di lavoro da eliminare.
 
-   Viene visualizzata la pagina Workspace.
+   Viene visualizzata la pagina dell’area di lavoro.
 
 1. Fai clic su **Altro** menu ![](assets/more-menu.png) accanto al nome dell’area di lavoro, quindi fai clic su **Elimina**.
 

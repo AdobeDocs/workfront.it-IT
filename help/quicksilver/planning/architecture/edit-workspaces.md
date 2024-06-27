@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 0%
@@ -92,7 +92,7 @@ Per ulteriori informazioni sui requisiti di accesso, consulta [Requisiti di acce
 
 1. Fai clic su una scheda dell’area di lavoro per aprirla.
 1. Fai clic sul nome dell’area di lavoro nell’intestazione della nuova area di lavoro per rinominarla, quindi premi **Invio**.
-1. Fai clic su **Altro** menu ![](assets/more-menu.png)a destra del nome del workspace nell’intestazione, quindi fai clic su **Modifica**.
+1. Fai clic su **Altro** menu ![](assets/more-menu.png) a destra del nome del workspace nell’intestazione, quindi fai clic su **Modifica**.
 
    ![](assets/edit-workspace-box.png)
 

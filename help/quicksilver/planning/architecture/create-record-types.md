@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1273'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Per informazioni sui tipi di record inclusi in ogni modello, vedere [Elenco dei 
 
    Oppure
 
-   Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace in cui si desidera creare i tipi di record.
+   Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente, cercare un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
 1. (Facoltativo) Fai clic su **Aggiungi sezione** per aggiungere una nuova sezione al workspace.
 1. Clic **Aggiungi tipo di record**.
 1. (Condizionale) Quando si creano tipi di record importando un file Excel o CSV è abilitato, fare clic su **Da zero**. In caso contrario, **Aggiungi tipo di record** viene visualizzata la casella.
@@ -230,7 +230,7 @@ Per importare i tipi di record utilizzando un file di Excel:
 
    Oppure
 
-   Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente e selezionare il workspace in cui si desidera creare i tipi di record.
+   Da un workspace, espandere la freccia rivolta verso il basso a destra del nome di un workspace esistente, cercare un workspace e selezionarlo quando viene visualizzato nell&#39;elenco.
 1. Clic **Aggiungi tipo di record**.
 1. Clic **Excel/CSV**.
 1. Trascina e rilascia un file Excel o CSV salvato in precedenza sul computer, oppure fai clic su **Seleziona un file CSV o Excel** per sfogliarne uno.
