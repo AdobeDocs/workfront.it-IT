@@ -3,7 +3,7 @@ title: '''[!DNL Adobe Workfront] documentazione"'
 description: Documentazione per [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 618267f23e5d080a5c0072370eb31188f86a1700
+source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 1%
@@ -94,7 +94,7 @@ La ricerca della documentazione può essere più efficiente con alcuni approcci 
 
 ### Esplora le sezioni di apprendimento e formazione
 
-* **Materiale per la formazione**: Accedi a [Formazione su Workfront](https://experienceleague.adobe.com/en/browse/workfront) pagina per una libreria di video e articoli di formazione progettati per aiutarti a comprendere meglio le funzioni e le impostazioni di Workfront. Puoi anche accedere ai materiali di formazione a pagamento all’indirizzo [learning.adobe.com](http://learning.adobe.com/).
+* **Materiale per la formazione**: Accedi a [Formazione su Workfront](https://experienceleague.adobe.com/en/browse/workfront) pagina per una libreria di video e articoli di formazione progettati per aiutarti a comprendere meglio le funzioni e le impostazioni di Workfront. Puoi anche accedere ai materiali di formazione a pagamento all’indirizzo [learning.adobe.com](https://learning.adobe.com/).
 * **Corsi**: Trova [corsi di apprendimento strutturati](https://experienceleague.adobe.com/home?Solution=Workfront#courses) che ti guida attraverso l’utilizzo di varie funzioni di Workfront in una sequenza logica.
 
 ### Trova risposte nei forum della community
