@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---
@@ -78,7 +78,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
    <td> <p>In Workfront, puoi visualizzare o accedere ad altre autorizzazioni per un progetto, un portfolio o un programma</a> </p> 
-   <p>In Workfront Planning, visualizzare o autorizzazioni superiori per un'area di lavoro</a> </p>  
+   <p>In Workfront Planning, Contribute o autorizzazioni superiori per un'area di lavoro</a> </p>  
    <p>Gli amministratori di sistema dispongono delle autorizzazioni per tutte le aree di lavoro di Workfront Planning, incluse quelle non create</p>
 </td>
   </tr>
@@ -103,7 +103,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    * [Connetti record](/help/quicksilver/planning/records/connect-records.md)
 * È possibile visualizzare la sezione Planning in un oggetto Workfront, anche quando non vi sono record associati all&#39;oggetto Workfront.
 * È possibile connettere i record di Planning con gli oggetti di Workfront da Workfront, nella sezione Planning quando è presente almeno un record connesso all&#39;oggetto di Workfront.
-* Per connettere i record dagli oggetti Workfront, è necessario disporre delle autorizzazioni di gestione per un&#39;area di lavoro.
 
 ## Gestire i record nella sezione Pianificazione
 
@@ -114,8 +113,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    Viene aperto il workspace e i tipi di record vengono visualizzati come schede.
 
 1. Fare clic sulla scheda di un tipo di record connesso a un progetto, portfolio o programma Workfront.
-1. Scegliere una vista tabella dal menu **Visualizza** menu a discesa.
-1. (Facoltativo) Vai al campo del record connesso nella tabella e aggiungi un oggetto Workfront, quindi fai clic sul nome dell’oggetto Workfront nel campo. Per informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+1. Passare a un campo record connesso che presenta una connessione con un oggetto Workfront, nella visualizzazione tabella o dalla pagina dei dettagli di un record. Per informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
+1. Fare clic sul nome di un oggetto Workfront nel campo record connesso.
 La pagina degli oggetti viene visualizzata in Workfront Planning.
 1. Clic **Vai all&#39;origine**, nell&#39;angolo superiore destro dello schermo.
 
@@ -148,7 +147,7 @@ Si verificano le seguenti situazioni:
 
    >[!NOTE]
    >
-   >   Il pulsante Connetti viene visualizzato solo per le aree di lavoro per le quali si dispone delle autorizzazioni Contribute. <!--they might replace this with one button at the top of the page. Rephrase-->
+   >   Il pulsante Connetti viene visualizzato solo per le aree di lavoro per le quali si dispone di autorizzazioni Contribute. <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. Fare clic sui record che si desidera connettere. Si verificano le seguenti situazioni:
 
