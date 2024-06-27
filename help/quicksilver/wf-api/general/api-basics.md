@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
+source-git-commit: cf84efd2b1e38e497eb0ac73ce76ed7366901251
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: '4395'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Acquisire familiarità con lo schema Workfront ti aiuterà a comprendere le rela
 
 ## Limiti e linee guida
 
-Per garantire prestazioni coerenti del sistema Workfront on-demand, ogni cliente può contare su un massimo di 10 thread API simultanei. L’ambiente Sandbox dispone dello stesso limite, che consente a clienti e partner di testare con precisione le chiamate API prima di rilasciare il codice in produzione.
+Per garantire prestazioni coerenti del sistema Workfront on-demand, l’API Workfront limita i thread API simultanei. Questo guardrail impedisce i problemi di sistema causati da chiamate API abusive. L’ambiente Sandbox dispone dello stesso limite di thread API simultanei, che consente a clienti e partner di testare con precisione le chiamate API prima di rilasciare il codice in produzione.
 
 Per gli ambienti di produzione, anteprima e test delle unità, le richieste degli utenti finali hanno una lunghezza URI massima di 8892 byte, in quanto vengono instradate tramite la rete CDN di Workfront (Akamai). Questo limite si applica solo agli URI instradati attraverso la rete CDN.
 
