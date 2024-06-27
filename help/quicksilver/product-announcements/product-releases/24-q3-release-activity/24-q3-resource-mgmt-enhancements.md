@@ -4,9 +4,10 @@ description: Miglioramenti alla gestione delle risorse nel terzo trimestre 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+exl-id: 40ca0460-5a01-4df9-b3dc-72055a272072
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rila
 
 >[!NOTE]
 >
->Versione di anteprima: 6 giugno 2024; versione di produzione per tutti i clienti: con versione 24.7 (luglio 2024)
+>Versione di anteprima: 6 giugno 2024; versione di produzione per tutti i clienti: con versione 24.7 (18 luglio 2024)
 
 Per regolare facilmente il lavoro quando l’assegnatario principale di un’attività ha programmato un’indisponibilità, il Bilanciatore dei carichi di lavoro ora riassegna le ore sia agli utenti principali che a quelli secondari quando la sequenza temporale del progetto viene ricalcolata. (Questa funzione è disponibile solo se l’amministratore di Workfront ha attivato l’impostazione Time Off (Ferie utente) nell’area Setup (Configura) per tenere conto del tempo libero dell’utente.)
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del terzo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Progettazione moduli personalizzati generalmente disponibile in Adobe Workfront
+
+>[!NOTE]
+>
+>Versione di anteprima: 19 giugno 2024; versione di produzione per tutti i clienti: con la versione 24.7 (18 luglio 2024).
+
+Il designer di moduli personalizzati è stato rilasciato in versione beta nell’aprile 2023 (versione 23.2) e da allora sono state aggiunte ulteriori funzioni, ad esempio campi di ricerca esterna e campi nativi di Workfront. Nel 2024 il progettista di moduli ha raggiunto la parità funzionale con il generatore di moduli legacy.
+
+Con la versione 24.7, il progettista di moduli sarà generalmente disponibile e diventerà l’esperienza predefinita per la creazione e la modifica di moduli personalizzati in Adobe Workfront. Quando si crea un nuovo modulo personalizzato o si apre un modulo esistente, viene visualizzata l&#39;area di lavoro in stile area di lavoro del progettista del modulo.
+
+Dopo questa versione, non sarà più possibile tornare al generatore di moduli legacy.
+
+Per informazioni dettagliate sul progettista del modulo e una dimostrazione video, vedere [note sulla versione beta di form designer](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Spostare gli oggetti tra ambienti Workfront con la promozione dell’ambiente
 
@@ -51,7 +65,7 @@ Per ulteriori informazioni, consulta [Condividere un modulo personalizzato](/hel
 
 >[!NOTE]
 >
->Versione di anteprima: 6 giugno 2024; versione di produzione per tutti i clienti: con versione 24.7 (luglio 2024)
+>Versione di anteprima: 6 giugno 2024; versione di produzione per tutti i clienti: con versione 24.7 (18 luglio 2024)
 
 È ora possibile aggiungere un nuovo campo personalizzato o widget direttamente dall’area Campi di Workfront, senza aprire un modulo personalizzato per la creazione del campo. Questo consente di creare rapidamente campi personalizzati riutilizzabili.
 
