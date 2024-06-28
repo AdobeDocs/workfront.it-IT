@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -19,5 +19,7 @@ In qualità di responsabile delle operazioni di marketing, puoi utilizzare Adobe
 Rivedi i seguenti articoli:
 
 * [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
-* [Attività sulla versione di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md)
-* [Attività sulla versione di Adobe Workfront Planning per il 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Panoramica dell’Assistente di Adobe Workfront Planning AI](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
+* [Attività della versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md)
+* [Archivi delle attività sulla versione di Adobe Workfront Planning per il 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+

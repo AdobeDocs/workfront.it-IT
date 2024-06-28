@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1967'
 ht-degree: 2%
 
 ---
@@ -59,7 +59,7 @@ Di seguito sono riportate alcune delle funzionalità principali:
 
 Nella tabella seguente sono illustrate le principali funzionalità disponibili in Workfront Planning e la relativa tempistica di disponibilità. L&#39;elenco non include tutte le funzionalità.
 
-Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [Attività sulla versione di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
+Per informazioni sulle nuove funzioni e sul loro rilascio, consulta [Attività della versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
 | Funzionalità | Disponibile ora | Disponibile a breve | Nella ricerca |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -144,7 +144,7 @@ Di seguito sono riportati gli oggetti e i concetti principali di Workfront Plann
 
   Per ulteriori informazioni, consulta [Crea record](/help/quicksilver/planning/records/create-records.md).
 
-* **Modello area di lavoro**: puoi creare un’area di lavoro utilizzando modelli predefiniti. È possibile utilizzare i tipi di record e i campi predefiniti inclusi in un modello oppure aggiungere record personalizzati.
+* **Modello Workspace**: puoi creare un’area di lavoro utilizzando modelli predefiniti. È possibile utilizzare i tipi di record e i campi predefiniti inclusi in un modello oppure aggiungere record personalizzati.
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
@@ -328,5 +328,5 @@ Per individuare Workfront Planning:
 
 Le nuove funzioni vengono rilasciate regolarmente in Workfront Planning.
 
-Per un elenco aggiornato delle funzioni rilasciate, consulta [Attività sulla versione di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md)
+Per un elenco aggiornato delle funzioni rilasciate, consulta [Attività della versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md)
 

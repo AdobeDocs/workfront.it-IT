@@ -4,9 +4,9 @@ description: È possibile utilizzare l’assistente AI per generare, aggiornare 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Le informazioni contenute in questo articolo si riferiscono alla pianificazione di Adobe Workfront e all’Assistente IA, ovvero nuove offerte di Adobe Workfront.
+>Le informazioni contenute in questo articolo si riferiscono ad Adobe Workfront Planning e Workfront AI Assistant (beta), ovvero nuove offerte di Adobe Workfront.
 >
->Attualmente, Workfront Planning e l’Assistente AI si trovano in una fase di accesso anticipato aperta a un numero limitato di clienti.
+>Attualmente, Workfront Planning è in una fase di accesso iniziale e Workfront AI Assistant è in una fase beta.
+>
+>Workfront Planning e l’Assistente IA (beta) sono aperti a un numero limitato di clienti.
 >
 >Per utilizzare queste funzionalità è necessario essere clienti di Workfront.
 >
@@ -28,7 +30,7 @@ ht-degree: 0%
 >
 >Per ulteriori informazioni, consulta [Panoramica di Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
-È possibile utilizzare l’assistente AI per generare, aggiornare o rimuovere record in base al contesto della pagina e alla struttura dei record correnti.
+È possibile utilizzare l&#39;Assistente AI per generare, aggiornare o rimuovere record in base al contesto della pagina corrente e alla struttura dei record.
 
 I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA collaborano per garantire che le modifiche apportate dall’IA vengano riflesse accuratamente nell’ambiente.
 
@@ -40,25 +42,27 @@ I comandi dell’utente e l’esecuzione di tali comandi da parte dell’IA coll
 
 * L’Assistente AI funziona nel contesto di ogni pagina. Le richieste inviate per l&#39;Assistente AI devono fare riferimento alla funzionalità disponibile nella pagina aperta.
 
-* Le azioni eseguite dall&#39;Assistente AI si trovano nel contesto delle autorizzazioni di Workfront Planning e del livello di accesso a Workfront. Per informazioni, vedere i seguenti articoli:
+* Le azioni eseguite dall&#39;Assistente IA nell&#39;area Planning si trovano nel contesto delle autorizzazioni di Workfront Planning e del livello di accesso a Workfront. Per informazioni, vedere i seguenti articoli:
 
    * [Panoramica delle autorizzazioni di condivisione in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
    * [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
 * Le modifiche apportate dall&#39;Assistente AI per conto dell&#39;utente vengono tracciate nel pannello della cronologia del record.
 
-* Puoi utilizzare i comandi per annullare le azioni.
+* Puoi utilizzare i comandi per annullare le azioni. Ad esempio, puoi digitare &quot;Annulla ultima modifica&quot; per ripristinare la modifica.
 
 ## Funzionalità attualmente disponibile per l’Assistente IA
 
 Attualmente, l’Assistente AI è disponibile nell’area Planning di Workfront per le seguenti pagine:
 
+* Pagina Workspace
 * Pagina tipo di record
 * Pagina record
 
 In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti azioni:
 
-* Creare record. Dopo la creazione del record viene visualizzato un ID con un collegamento al nuovo record.
+* Cercare i record. È possibile eseguire ricerche in base alle informazioni contenute in qualsiasi campo record.
+* Creare record. Dopo la creazione del record viene visualizzato un ID con un collegamento al nuovo record. Puoi specificare i campi da aggiornare durante il processo di creazione, come date o descrizione.
 * Crea record basati su un documento caricato. Workfront supporta i seguenti formati di documento per l’Assistente IA:
 
   .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt e la maggior parte dei formati immagine
@@ -70,7 +74,9 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 
 1. Accedi a Workfront, quindi vai a **Pianificazione** area.
 
-1. Fai clic su un **scheda area di lavoro** > **tipo di record scheda**.
+1. Fai clic su un **scheda area di lavoro**.
+
+1. (Facoltativo) Fai clic su **tipo di record scheda**.
 
 1. (Facoltativo) Fai clic su **record** per aprire il record **Dettagli** pagina.
 
@@ -84,7 +90,7 @@ In questo momento, puoi utilizzare l’Assistente IA per eseguire le seguenti az
 
    Ad esempio, è possibile digitare uno dei seguenti elementi:
 
-   * Creare un record
+   * Crea una campagna con data di inizio 4 luglio e data di fine 30 luglio
    * Aggiorna il campo Descrizione del record Campagna estiva con data da determinare
    * Elimina l&#39;ultimo record
    * Ripristina il record

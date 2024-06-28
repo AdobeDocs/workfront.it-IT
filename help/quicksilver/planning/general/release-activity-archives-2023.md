@@ -1,12 +1,12 @@
 ---
-title: Attività sulla versione di Adobe Workfront Planning per il 2023
+title: Archivi delle attività sulla versione di Adobe Workfront Planning per il 2023
 description: Le funzionalità di Adobe Workfront Planning sono attualmente disponibili per alcuni clienti Workfront. Consulta spesso questo articolo per scoprire le funzioni rilasciate di recente per le funzionalità di pianificazione.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '2987'
+source-wordcount: '2989'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 In questo articolo sono elencate le funzioni rilasciate dopo il lancio del programma Adobe Workfront Planning, il 22 maggio 2023, per l’anno 2023.
 
-Per informazioni sulle funzioni rilasciate nel 2024, consulta [Attività sulla versione di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
+Per informazioni sulle funzioni rilasciate nel 2024, consulta [Attività della versione corrente di Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md).
 
 Le funzioni rilasciate sono elencate in ordine di rilascio, a partire da quelle più recenti. I clienti che partecipano al programma Workfront Planning possono accedere a tutte le funzioni degli ambienti di produzione.
 
