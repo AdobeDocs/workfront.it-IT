@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
+source-git-commit: cd84a3b448de41c795cc962e4756db0946bae0fd
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
 
 >[!IMPORTANT]
 >
->La versione 23.3 includeva l’opzione per spostare l’organizzazione alle versioni mensili. Pertanto, Workfront ha modificato lo schema di numerazione delle versioni per tenere conto delle versioni mensili e trimestrali. Il primo numero indica l&#39;anno e il secondo numero indica il mese del rilascio. Esempio: la versione di aprile 2024 è 24.4.
+>La versione 23.3 includeva l’opzione per spostare l’organizzazione alle versioni mensili. Pertanto, Workfront ha modificato lo schema di numerazione delle versioni per tenere conto delle versioni mensili e trimestrali. Il primo numero indica l’anno e il secondo il mese del rilascio. Esempio: la versione di aprile 2024 è la 24.4.
 >
->Le versioni mensili e trimestrali sono pianificate per essere disponibili il giovedì della seconda settimana completa del mese, se non diversamente specificato.
+>Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere disponibili il giovedì della seconda settimana completa del mese.
 >
 >| Versione mensile | Versione trimestrale |
 >|----|----|
 >| <ul><li>24.5 (16 maggio 2024)</li><li>24.6 (13 giugno 2024)</li><li>24.7 (18 luglio 2024)</li></ul> | <ul><li>24.7 (18 luglio 2024)</li></ul> |
 >
->Per ulteriori informazioni sul processo di rilascio rapido, vedere [Abilitare o disabilitare il processo](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) di rilascio rapido.
+>Per ulteriori informazioni sul processo di rilascio rapido, consulta [Attiva o disattiva il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
-## Miglioramenti di Adobe Systems Workfront
+## Miglioramenti di Adobe Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti alla gestione finanziaria](#financial-management-enhancements)
@@ -61,6 +61,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Le regole business sono ora disponibili</a></p>
+                        [!BADGE Nuovo nell'anteprima ]{type=Negative}
                         <p>Gli amministratori possono ora aggiungere regole business nell’area Configurazione di Workfront.</p>
                         <p>Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. Le regole vengono create utilizzando una formula simile ai campi calcolati nei moduli personalizzati.</p>
                     </td>
@@ -77,14 +78,14 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Progettazione moduli personalizzati generalmente disponibile in Adobe Workfront</a></p>
-                        <p>Con la versione 24.7, il progettista di moduli sarà generalmente disponibile e diventerà l’esperienza predefinita per la creazione e la modifica di moduli personalizzati in Adobe Workfront. Quando si crea un nuovo modulo personalizzato o si apre un modulo esistente, viene visualizzata l'area di lavoro in stile area di lavoro del progettista del modulo.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Progettazione moduli personalizzati generalmente disponibile in Adobe Systems Workfront</a></p>
+                        <p>Con la versione 24.7, la finestra di progettazione moduli sarà disponibile a livello generale e diventerà l'esperienza predefinita per la creazione e la modifica di moduli personalizzati in Adobe Systems Workfront. Quando si crea un nuovo modulo personalizzato o si apre un modulo esistente, viene visualizzata l'area di lavoro in stile canvas del progettista del modulo.</p>
                         <p>Dopo questa versione, non sarà più possibile tornare al generatore di moduli legacy.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 19 giugno 2024</p>
+                                <p>Anteprima rilascio: 19 giugno 2024</p>
                             </li>
                             <li>
                                 <p>Versione di produzione per tutti i clienti: con la versione 24.7 (18 luglio 2024)</p>
@@ -115,10 +116,10 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 6 giugno 2024</p>
+                                <p>Anteprima rilascio: 6 giugno 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Versione di produzione per tutti i clienti: 13 giugno</span></p>
+                                <p><span class="preview">Release di produzione per tutti i clienti: 13 giugno</span></p>
                             </li>
                         </ul>
                     </td>
@@ -126,7 +127,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Aggiungere un nuovo campo personalizzato dall'area Campi</a></p>
-                        <p>È ora possibile aggiungere un nuovo campo personalizzato o widget direttamente dall’area Campi di Workfront, senza aprire un modulo personalizzato per la creazione del campo. Questo consente di creare rapidamente campi personalizzati riutilizzabili.</p>
+                        <p>È ora possibile aggiungere un nuovo campo o widget personalizzato direttamente dall'area Campi in Workfront, senza aprire un modulo personalizzato per creare il campo. Questo consente di creare rapidamente campi personalizzati riutilizzabili.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -177,20 +178,20 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Campi spese fatturabili e non fatturabili disponibili per progetti e attività</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Campi delle spese fatturabili e non fatturabili disponibili per progetti e attività</a></p>
                         [!BADGE In produzione ]{type=Informative}
                         <p>Per semplificare la visualizzazione dei tipi di spesa, le spese sono state suddivise in spese fatturabili e non fatturabili per progetti e attività. Sono disponibili i seguenti campi da aggiungere alle viste e ai rapporti:</p>
                         <ul>
                             <li><p>Costo spese fatturabile pianificabile</p></li>
                             <li><p>Costo spese pianificato non fatturabile</p></li>
                             <li><p>Costo spese non fatturabile effettivo</p></li>
-                            <li><p>Costo effettivo delle spese non fatturabili</p></li>
+                            <li><p>Costo spese non fatturabile effettivo</p></li>
                         </ul>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Anteprima rilascio: 10 maggio 2024</p>
+                                <p>Versione di anteprima: 10 maggio 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produzione per tutti i clienti: 10 maggio 2024</span></p>
@@ -260,7 +261,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifica l’attività e il problema Conferma data e condizione dall’intestazione o dalla sezione Dettagli</a></p>
-                        [!BADGE In produzione per rilascio rapido ]{type=Positive}
+                        [! BADGE In produzione per Fast Release ]{type=Positive}
                         <p>Per semplificare l’aggiornamento di attività e problemi, ora sono stati aggiunti i campi Conferma data e Condizione come opzioni da aggiungere alle intestazioni delle attività e dei problemi e alla sezione Dettagli in un modello di layout. Gli utenti possono ora aggiornare questi campi dall’intestazione o dalla sezione Details (Dettagli) di una pagina, quando sono assegnati al modello di layout modificato.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -301,15 +302,15 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni intelligenti più rilevanti</a></p>
                         <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
-                        <p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
+                        <p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un'attività: elenchi di attività, l'area Assegnazioni nell'intestazione dell'attività, Home e il pannello Riepilogo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 21 dicembre 2023</p>
+                                <p>Anteprima rilascio: 21 dicembre 2023</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
+                                <p>Produzione per il rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
                             <li>
                                 <p>Versione di produzione per tutti i clienti: con la versione 24.7 (18 luglio 2024)</p>
@@ -320,7 +321,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
            </tbody>
         </table>
 
-### Miglioramenti delle bozze
+### Miglioramenti apportati agli strumenti di correzione
 
 <table>
             <col style="width: 50%;" />
@@ -408,16 +409,16 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Systems Esperienza unificata ora disponibile per più organizzazioni Workfront</a></p>
-                        <p>Per consentire alle organizzazioni di accesso ai vantaggi di Adobe Systems Unified Experience, abbiamo iniziato a renderla disponibile ai clienti Workfront esistenti. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience è ora disponibile per più organizzazioni Workfront</a></p>
+                        <p>Per consentire alle organizzazioni di accedere ai vantaggi di Adobe Unified Experience, abbiamo iniziato a renderla disponibile ai clienti Workfront esistenti. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Anteprima rilascio: 20 giugno 2024</p>
+                                <p>Versione di anteprima: 20 giugno 2024</p>
                             </li>
                             <li>
-                                <p>Produzione per clienti specifici: Con la versione 24.7 (18 luglio 2024)</p>
+                                <p>Produzione per clienti specifici: con la versione 24.7 (18 luglio 2024)</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">L’Adobe di Unified Shell viene reso disponibile in un rollout graduale. Altre organizzazioni saranno integrate in Adobe Unified Shell con le versioni 24.10 e 25.1. </p>
@@ -426,7 +427,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Pulsante Aiuto rimosso dalla barra di navigazione principale</a></p>
-                        <p>Per unificare l’esperienza per gli utenti non su Unified Shell, è stato rimosso il pulsante Aiuto sulla barra di navigazione principale. Questo pulsante, non disponibile per gli utenti di Unified Shell, era collegato alla documentazione di Workfront ed era ridondante con un pulsante Aiuto simile disponibile per tutti gli utenti nel menu principale.</p>
+                        <p>Per unificare l’esperienza per gli utenti non su Unified Shell, è stato rimosso il pulsante Aiuto sulla barra di navigazione principale. Questo pulsante, che non è presente per gli utenti di Unified Shell, collegato alla documentazione di Workfront ed era ridondante con un Guida pulsante simile disponibile per tutti gli utenti nel menu principale.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -448,21 +449,21 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Anteprima versione: 27 marzo 2024</p>
+                                <p>Versione di anteprima: 27 marzo 2024</p>
                             </li>
                             <li>
-                                <p>Produzione per il rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
+                                <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
                             <li>
-                                <p>Produzione per la versione trimestrale: con la versione 24.7 (18 luglio 2024)</p>
+                                <p>Produzione per rilascio trimestrale: con il rilascio 24.7 (18 luglio 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti Look-and-feel durante il terzo trimestre 2024 arco temporale</a></p>
-                        <p>Aggiornamenti minori al look and feel di varie aree del applicazione Workfront Adobe Systems sono stati effettuati entro il terzo trimestre 2024 arco temporale. Esamina le singole note sulla versione per stabilire specifiche date di rilascio.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l’arco temporale del terzo trimestre 2024</a></p>
+                        <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale del terzo trimestre 2024. Consulta le singole note sulla versione per specifiche date di rilascio.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -498,11 +499,11 @@ A questo punto della versione, non ci sono aggiornamenti per gli Obiettivi di Wo
 
 ### API versione 18
 
-Per API versione 18, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
+Per l&#39;API versione 18, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l&#39;utilizzo delle informazioni disponibili tramite l&#39;API.
 
-Per informazioni sulle novità e sugli aggiornamenti, consulta [Novità della versione 18 dell’API](/help/quicksilver/wf-api/api/new-api-version-18.md).
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 18](/help/quicksilver/wf-api/api/new-api-version-18.md) dell&#39;API.
 
-Per informazioni sulle versioni API, consulta [Pianificazione del supporto e del controllo delle versioni API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Per informazioni sulle versioni API, consulta [controllo delle versioni API e supportare programmare](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Aggiornamenti di manutenzione per Workfront
 
