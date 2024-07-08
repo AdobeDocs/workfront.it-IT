@@ -7,17 +7,16 @@ description: È possibile scegliere se ricevere nuove funzionalità Workfront co
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
-source-git-commit: d96ddcc2f514d9f79e94a3437a3b66e07a270abc
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 # Creare e modificare le regole business
+
+{{highlighted-preview-article-level}}
 
 Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. Le regole aziendali contribuiscono a migliorare la qualità dei dati e l’efficienza operativa impedendo azioni che potrebbero compromettere l’integrità dei dati.
 
@@ -25,7 +24,7 @@ Una singola regola business può essere assegnata a un solo oggetto. Ad esempio,
 
 I livelli di accesso e la condivisione degli oggetti hanno una priorità più alta rispetto alle regole di business quando un utente interagisce con un oggetto. Ad esempio, se un utente dispone di un livello di accesso o di un’autorizzazione che non consente la modifica di un progetto, questi hanno la precedenza su una regola business che consente la modifica di un progetto in determinate condizioni.
 
-Una gerarchia esiste anche quando a un oggetto vengono applicate più regole business. Ad esempio, sono disponibili due regole business. Uno limita la creazione di spese nel mese di febbraio. La seconda impedisce la modifica di un progetto quando lo stato del progetto è Completo. Se un utente tenta di aggiungere una spesa a un progetto completato nel mese di giugno, la spesa non può essere aggiunta perché ha attivato la seconda regola.
+Quando a un oggetto vengono applicate più regole business, tutte le regole vengono seguite ma non vengono applicate in un determinato ordine. Ad esempio, sono disponibili due regole business. Uno limita la creazione di spese nel mese di febbraio. La seconda impedisce la modifica di un progetto quando lo stato del progetto è Completo. Se un utente tenta di aggiungere una spesa a un progetto completato nel mese di giugno, la spesa non può essere aggiunta perché ha attivato la seconda regola.
 
 Le regole business si applicano alla creazione, modifica ed eliminazione di oggetti tramite l’API e nell’interfaccia di Workfront.
 
@@ -64,18 +63,36 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Scenari per le regole business
 
-Alcuni semplici scenari di regole di business sono:
+Il formato di una regola business è &quot;Se la condizione definita viene soddisfatta, l&#39;utente non è in grado di eseguire l&#39;azione sull&#39;oggetto e viene visualizzato il messaggio&quot;.
 
-* Gli utenti non possono aggiungere nuove spese durante l&#39;ultima settimana di febbraio. Questa formula potrebbe essere così formulata: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Gli utenti non possono modificare un progetto che si trova nello stato Completato. Questa formula potrebbe essere così formulata: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
-
-La sintassi per la creazione di una regola business è la stessa della creazione di un campo calcolato in un modulo personalizzato. Per ulteriori informazioni sulla sintassi, consulta [Aggiungere campi calcolati con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+La sintassi per le proprietà e le altre funzioni di una regola business è identica a quella di un campo calcolato di un modulo personalizzato. Per ulteriori informazioni sulla sintassi, consulta [Aggiungere campi calcolati con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Per informazioni sulle istruzioni IF, vedere [Panoramica delle istruzioni &quot;IF&quot;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) e [Operatori condizione nei campi personalizzati calcolati](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Per informazioni sui caratteri jolly basati sull&#39;utente, vedere [Utilizzare caratteri jolly basati sull&#39;utente per generalizzare i rapporti](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Per informazioni sui caratteri jolly basati sulla data, vedere [Utilizzare caratteri jolly basati sulla data per generalizzare i rapporti](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+Un carattere jolly API è disponibile anche nelle regole business. È possibile utilizzare `$$ISAPI` per attivare la regola solo nell’interfaccia utente o solo nell’API.
+
+Alcuni semplici scenari di regole di business sono:
+
+* Gli utenti non possono aggiungere nuove spese durante l&#39;ultima settimana di febbraio. Questa formula potrebbe essere così formulata: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Gli utenti non possono modificare un progetto che si trova nello stato Completato. Questa formula potrebbe essere così formulata: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+Uno scenario con istruzioni IF nidificate è:
+
+Gli utenti non possono modificare i progetti completati e non possono modificare i progetti con una Data di completamento pianificata a marzo. Questa formula potrebbe essere così formulata:
+
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## Aggiungere una nuova regola business
 

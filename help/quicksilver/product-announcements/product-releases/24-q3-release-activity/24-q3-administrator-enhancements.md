@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 Questa pagina descrive tutti i miglioramenti per gli amministratori apportati con la versione del terzo trimestre 2024 all’ambiente di anteprima. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
 Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Le regole business sono ora disponibili
+
+>[!NOTE]
+>
+>Versione di anteprima: 4 luglio 2024; versione di produzione per tutti i clienti: con la versione 24.7 (18 luglio 2024).
+
+Gli amministratori possono ora aggiungere regole business nell’area Configurazione di Workfront.
+
+Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. Le regole vengono create utilizzando una formula simile ai campi calcolati nei moduli personalizzati.
+
+Per ulteriori informazioni, consulta [Creare e modificare le regole business](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+>[!IMPORTANT]
+>
+>Le regole aziendali sono disponibili solo per le organizzazioni che utilizzano il nuovo piano Ultimate.
 
 ## Progettazione moduli personalizzati generalmente disponibile in Adobe Workfront
 

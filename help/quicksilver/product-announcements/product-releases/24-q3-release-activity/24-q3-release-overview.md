@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
+source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -22,17 +22,17 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
 
 >[!IMPORTANT]
 >
->La versione 23.3 includeva l’opzione per spostare l’organizzazione alle versioni mensili. Pertanto, Workfront ha modificato lo schema di numerazione delle versioni per tenere conto delle versioni mensili e trimestrali. Il primo numero indica l’anno e il secondo il mese del rilascio. Esempio: la versione di aprile 2024 è la 24.4.
+>La versione 23.3 includeva l’opzione per spostare l’organizzazione alle versioni mensili. Pertanto, Workfront ha modificato lo schema di numerazione delle versioni per tenere conto delle versioni mensili e trimestrali. Il primo numero indica l&#39;anno e il secondo numero indica il mese del rilascio. Esempio: la versione di aprile 2024 è 24.4.
 >
->Salvo diversa indicazione, i rilasci mensili e trimestrali dovrebbero essere disponibili il giovedì della seconda settimana completa del mese.
+>Le versioni mensili e trimestrali sono pianificate per essere disponibili il giovedì della seconda settimana completa del mese, se non diversamente specificato.
 >
 >| Versione mensile | Versione trimestrale |
 >|----|----|
 >| <ul><li>24.5 (16 maggio 2024)</li><li>24.6 (13 giugno 2024)</li><li>24.7 (18 luglio 2024)</li></ul> | <ul><li>24.7 (18 luglio 2024)</li></ul> |
 >
->Per ulteriori informazioni sul processo di rilascio rapido, consulta [Attiva o disattiva il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Per ulteriori informazioni sul processo di rilascio rapido, vedere [Abilitare o disabilitare il processo](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) di rilascio rapido.
 
-## Miglioramenti di Adobe Workfront
+## Miglioramenti di Adobe Systems Workfront
 
 * [Miglioramenti per gli amministratori](#administrator-enhancements)
 * [Miglioramenti alla gestione finanziaria](#financial-management-enhancements)
@@ -56,6 +56,23 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                     <td>
                         <p><span class="bold">Date di rilascio</span>
                         </p>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Le regole business sono ora disponibili</a></p>
+                        <p>Gli amministratori possono ora aggiungere regole business nell’area Configurazione di Workfront.</p>
+                        <p>Una regola business consente di applicare la convalida agli oggetti di Workfront e di impedire agli utenti di creare, modificare o eliminare un oggetto quando vengono soddisfatte determinate condizioni. Le regole vengono create utilizzando una formula simile ai campi calcolati nei moduli personalizzati.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Versione di anteprima: 4 luglio 2024</p>
+                            </li>
+                            <li>
+                                <p>Versione di produzione per tutti i clienti: con la versione 24.7 (18 luglio 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -160,20 +177,20 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Campi delle spese fatturabili e non fatturabili disponibili per progetti e attività</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Campi spese fatturabili e non fatturabili disponibili per progetti e attività</a></p>
                         [!BADGE In produzione ]{type=Informative}
                         <p>Per semplificare la visualizzazione dei tipi di spesa, le spese sono state suddivise in spese fatturabili e non fatturabili per progetti e attività. Sono disponibili i seguenti campi da aggiungere alle viste e ai rapporti:</p>
                         <ul>
                             <li><p>Costo spese fatturabile pianificabile</p></li>
                             <li><p>Costo spese pianificato non fatturabile</p></li>
                             <li><p>Costo spese non fatturabile effettivo</p></li>
-                            <li><p>Costo spese non fatturabile effettivo</p></li>
+                            <li><p>Costo effettivo delle spese non fatturabili</p></li>
                         </ul>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 10 maggio 2024</p>
+                                <p>Anteprima rilascio: 10 maggio 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produzione per tutti i clienti: 10 maggio 2024</span></p>
@@ -391,16 +408,16 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience è ora disponibile per più organizzazioni Workfront</a></p>
-                        <p>Per consentire alle organizzazioni di accedere ai vantaggi di Adobe Unified Experience, abbiamo iniziato a renderla disponibile ai clienti Workfront esistenti. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Systems Esperienza unificata ora disponibile per più organizzazioni Workfront</a></p>
+                        <p>Per consentire alle organizzazioni di accesso ai vantaggi di Adobe Systems Unified Experience, abbiamo iniziato a renderla disponibile ai clienti Workfront esistenti. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 20 giugno 2024</p>
+                                <p>Anteprima rilascio: 20 giugno 2024</p>
                             </li>
                             <li>
-                                <p>Produzione per clienti specifici: con la versione 24.7 (18 luglio 2024)</p>
+                                <p>Produzione per clienti specifici: Con la versione 24.7 (18 luglio 2024)</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">L’Adobe di Unified Shell viene reso disponibile in un rollout graduale. Altre organizzazioni saranno integrate in Adobe Unified Shell con le versioni 24.10 e 25.1. </p>
@@ -431,21 +448,21 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Versione di anteprima: 27 marzo 2024</p>
+                                <p>Anteprima versione: 27 marzo 2024</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
+                                <p>Produzione per il rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
                             <li>
-                                <p>Produzione per rilascio trimestrale: con il rilascio 24.7 (18 luglio 2024)</p>
+                                <p>Produzione per la versione trimestrale: con la versione 24.7 (18 luglio 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l’arco temporale del terzo trimestre 2024</a></p>
-                        <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale del terzo trimestre 2024. Consulta le singole note sulla versione per specifiche date di rilascio.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti Look-and-feel durante il terzo trimestre 2024 arco temporale</a></p>
+                        <p>Aggiornamenti minori al look and feel di varie aree del applicazione Workfront Adobe Systems sono stati effettuati entro il terzo trimestre 2024 arco temporale. Esamina le singole note sulla versione per stabilire specifiche date di rilascio.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
