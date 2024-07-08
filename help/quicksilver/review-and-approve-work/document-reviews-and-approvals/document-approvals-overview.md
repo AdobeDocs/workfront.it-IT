@@ -6,10 +6,10 @@ description: È possibile aggiungere ulteriori approvatori o revisori a un docum
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
+source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 2%
 
 ---
 
@@ -41,13 +41,9 @@ Per ulteriori informazioni sulle funzioni e sulle versioni pianificate per le ap
 
 ## Piano di rilascio
 
-Stiamo rendendo disponibili agli utenti le nuove approvazioni di documenti nel corso di diverse versioni. Oltre ad aggiungere nuove funzioni, aumenteremo il numero di account per i quali sono disponibili nuove approvazioni dei documenti con ogni versione. Gli amministratori degli account riceveranno un’e-mail del Centro notifiche con le modifiche apportate prima di essere inclusi.
+Stiamo rendendo disponibili agli utenti le nuove approvazioni di documenti nel corso di diverse versioni. Oltre ad aggiungere nuove funzioni, aumenteremo il numero di account per i quali sono disponibili nuove approvazioni dei documenti con ogni versione.
 
 Se desideri che nell’ambiente di produzione siano abilitate le approvazioni dei nuovi documenti, rivolgiti al tuo Customer Success o Strategic Account Manager.
-
-**Versione 1**\
-    Anteprima: 31 maggio 2023\
-    Produzione: 14 giugno 2023
 
 ## Utilizzo delle approvazioni di nuovi documenti
 
