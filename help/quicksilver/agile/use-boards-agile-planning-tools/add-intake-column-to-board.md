@@ -7,7 +7,7 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di acqui
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: d2d96baa060cb3306f1767d179d514b569b0156a
+source-git-commit: 14448432922ec1fa478b805dead2ba1e6c211e86
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 3%
@@ -166,5 +166,3 @@ Le icone in alto a destra nella colonna Acquisizione mostrano quante schede ci s
    Fai clic su **[!UICONTROL Altro]** menu ![Icona Altro menu](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Sposta]**. Quindi, nella **[!UICONTROL Sposta elemento]** , scegliere un&#39;altra colonna e selezionare **[!UICONTROL Sposta]**.
 
 1. (Facoltativo) Per eliminare la colonna Acquisizione, fai clic sul pulsante **[!UICONTROL Altro]** menu ![Icona Altro menu](assets/more-icon-spectrum.png) e seleziona **[!UICONTROL Elimina]**.
-
-
