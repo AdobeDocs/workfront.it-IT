@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
 
 1. Iniziare a lavorare su un modello di layout, come descritto in [Creare e gestire modelli di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Fare clic sulla freccia giù ![](assets/dropdown-arrow.png) in **Personalizzare gli elementi visualizzati dagli utenti**, quindi fai clic su **Area di lavoro Home**.
+1. Fare clic sulla freccia giù ![](assets/dropdown-arrow.png) in **Personalizzare gli elementi visualizzati dagli utenti**, quindi fai clic su **Home Workspace**.
 
 1. Nelle schede visualizzate a destra, fare clic su **Progettazione e layout** per scegliere e disporre i widget e lo sfondo, oppure **Impostazioni widget** per gestire le impostazioni per i singoli widget, ad esempio i filtri e i gruppi disponibili.
 
@@ -132,3 +132,8 @@ Per eseguirli per un gruppo, è necessario essere un manager di tale gruppo.</p>
    Oppure
 
    Se hai finito di personalizzare, fai clic su **Salva** nell’angolo in basso a sinistra.
+
+
+>[!NOTE]
+>
+>Gli amministratori che personalizzano il proprio modello di layout devono aggiornare la pagina per visualizzare le modifiche.

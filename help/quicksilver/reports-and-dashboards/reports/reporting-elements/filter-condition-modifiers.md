@@ -6,9 +6,9 @@ description: I modificatori di filtri e condizioni ti consentono di creare filtr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -127,16 +127,16 @@ Puoi utilizzare i seguenti modificatori di condizioni nei filtri e nelle istruzi
    <td> <p><strong>Not Equal</strong> </p> </td> 
    <td> <p><strong>notin</strong> </p> </td> 
    <td> <p>Questo è il <i>distinzione maiuscole/minuscole</i> opposto di <strong>in</strong>. Restituisce solo i risultati non inclusi nell'elenco specificato.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> <p>Nota: <span>Se il campo per il quale si desidera filtrare dispone di più opzioni, verranno esclusi i risultati che contengono sia la scelta specificata, sia quella specificata ed eventuali altre scelte.</span> </p> </td> 
-  </tr> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>mi piace</strong> </p> </td> 
+   <td> <p>Questo modificatore cerca parti di una <i>distinzione maiuscole/minuscole</i> stringa di testo simile a <strong>contiene</strong>. Tuttavia, <strong>mi piace</strong> consente di inserire caratteri jolly per suddividere il testo.</p> <p>Ad esempio, durante la ricerca di note, utilizzando <code>like %Current% %Dead%</code> restituisce qualsiasi nota che contiene la frase "Current to Dead" (Da corrente a morto). Non include note che contengono "Dead to Current". Ogni valore viene ricercato nell’ordine in cui è elencato. % rappresenta un carattere jolly per sostituire caratteri o segmenti di testo. Un carattere di sottolineatura può essere utilizzato anche per un singolo carattere jolly, ad esempio <code>like Project_</code> che restituisce sia "Project" che "Projects". Se intendi utilizzare un’ <strong>mi piace</strong> o <strong>clike</strong> modificatore nel filtro, si consiglia di evitare i caratteri % o _ nei nomi dei campi dati personalizzati, nei valori delle opzioni dei parametri o in altri nomi di oggetto.</p><p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
+  </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
    <td> <p>Questo è il <i>senza distinzione tra maiuscole e minuscole</i> versione di <strong>mi piace</strong>. Ad esempio: <code>cilike %Current% %Dead%</code> restituisce tutte le note che contengono <code>Current to Dead</code> o <code>current to dead</code>.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>mi piace</strong> </p> </td> 
-   <td> <p>Questo modificatore cerca parti di una <i>distinzione maiuscole/minuscole</i> stringa di testo simile a <strong>contiene</strong>. Tuttavia, <strong>mi piace</strong> consente di inserire caratteri jolly per suddividere il testo.</p> <p>Ad esempio, durante la ricerca di note, utilizzando <code>like %Current% %Dead%</code> restituisce qualsiasi nota che contiene la frase "Current to Dead" (Da corrente a morto). Non include note che contengono "Dead to Current". Ogni valore viene ricercato nell’ordine in cui è elencato. % rappresenta un carattere jolly per sostituire caratteri o segmenti di testo.</p> <p>Questo modificatore può essere utilizzato solo nei filtri in modalità testo. Per ulteriori informazioni sulla modalità testo nei filtri, consulta <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Modificare un filtro utilizzando la modalità testo</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>Non esiste</strong> </td> 
