@@ -7,10 +7,10 @@ description: Facoltativamente, puoi aggiungere alla bacheca una colonna di acqui
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: 4fd097395a3122caa5ba63765e572186c31c75ac
+source-git-commit: d2d96baa060cb3306f1767d179d514b569b0156a
 workflow-type: tm+mt
 source-wordcount: '1108'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -24,7 +24,7 @@ La colonna Acquisizione non è disponibile su una bacheca dinamica. Tuttavia, pu
 
 >[!NOTE]
 >
->Per motivi di sicurezza, solo il proprietario di una scheda può modificare i filtri della scheda nel pannello Configura.
+>Per motivi di sicurezza, solo il proprietario di una bacheca può modificarne i filtri nel pannello Configura.
 
 La colonna Assunzione è limitata a 300 attività e 300 problemi. L’ordine predefinito degli elementi nella colonna Acquisizione è il seguente:
 
@@ -166,4 +166,5 @@ Le icone in alto a destra nella colonna Acquisizione mostrano quante schede ci s
    Fai clic su **[!UICONTROL Altro]** menu ![Icona Altro menu](assets/more-icon-spectrum.png) sulla scheda e seleziona **[!UICONTROL Sposta]**. Quindi, nella **[!UICONTROL Sposta elemento]** , scegliere un&#39;altra colonna e selezionare **[!UICONTROL Sposta]**.
 
 1. (Facoltativo) Per eliminare la colonna Acquisizione, fai clic sul pulsante **[!UICONTROL Altro]** menu ![Icona Altro menu](assets/more-icon-spectrum.png) e seleziona **[!UICONTROL Elimina]**.
+
 
