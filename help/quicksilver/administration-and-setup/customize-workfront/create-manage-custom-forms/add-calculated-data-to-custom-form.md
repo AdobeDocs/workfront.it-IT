@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
+source-git-commit: 02b025f228b6e2abc58dbc30f88c055c7850b803
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2895'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ Ad esempio, per fare riferimento all’opzione selezionata in un campo personali
 
 ## Campi personalizzati calcolati nei moduli personalizzati con più oggetti {#calculated-custom-fields-in-multi-object-custom-forms}
 
-In un modulo personalizzato con più oggetti, i tipi di oggetto selezionati devono essere compatibili con tutti i campi a cui si fa riferimento nei campi personalizzati calcolati del modulo. In caso di incompatibilità, un messaggio ti avvisa di apportare le modifiche necessarie.
+In un modulo personalizzato con più oggetti, i tipi di oggetto selezionati devono essere compatibili con tutti i campi a cui si fa riferimento nei campi personalizzati calcolati del modulo.
 
 >[!INFO]
 >
@@ -310,7 +310,7 @@ In un modulo personalizzato con più oggetti, i tipi di oggetto selezionati devo
 >
 >`{assignedTo}.{name}`
 >
->Successivamente, si aggiunge il tipo di oggetto Project al modulo personalizzato. Un messaggio di avviso indica che il tipo di oggetto Project non è compatibile con il campo personalizzato calcolato.
+>In seguito si aggiunge il tipo di oggetto Project al modulo personalizzato, ma il tipo di oggetto Project non è compatibile con il campo personalizzato calcolato.
 
 In questo caso, puoi effettuare una delle seguenti operazioni:
 
@@ -325,7 +325,7 @@ In questo caso, puoi effettuare una delle seguenti operazioni:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-Per ulteriori informazioni su variabili come `$$OBJCODE,` vedi [Panoramica delle variabili filtro con caratteri jolly](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Per ulteriori informazioni su variabili come `$$OBJCODE,` vedi [Panoramica delle variabili filtro con caratteri jolly](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Aggiornamenti automatici dei campi personalizzati calcolati
 
