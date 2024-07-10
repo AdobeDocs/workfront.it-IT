@@ -6,9 +6,9 @@ description: È possibile aggiungere alla bacheca una scheda connessa alle attiv
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1492'
 ht-degree: 0%
 
 ---
@@ -166,8 +166,8 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Commenti]</strong></td>
-      <td><p>Fai clic su nella <strong>[!UICONTROL Nuovo commento]</strong> e digita il commento. Utilizzare gli strumenti di formattazione per formattare il testo e fare clic su <strong>Aggiungi allegato</strong> icona <img src="assets/attachment-icon.png" alt="Icona dell’allegato"> per allegare un file al commento. Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca. Gli utenti taggati sulle schede collegate riceveranno notifiche e-mail.</p><p>Clic <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
-      <p><strong>NOTA:</strong> L’area di commento sulle schede utilizza la nuova esperienza di commento di Adobe Workfront. Per ulteriori informazioni, consulta <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiorna lavoro</a>.</p></td>
+      <td><p>Fai clic su nella <strong>[!UICONTROL Nuovo commento]</strong> e digita il commento. Utilizza gli strumenti di formattazione per formattare il testo. Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca. Gli utenti taggati sulle schede collegate riceveranno notifiche e-mail.</p><p>Clic <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
+      <p>Per ulteriori informazioni sui commenti, consulta <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiorna lavoro</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Attività di sistema]</strong></td> 
