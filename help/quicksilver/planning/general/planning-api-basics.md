@@ -4,9 +4,9 @@ description: L’obiettivo per l’API di pianificazione di Adobe Workfront è s
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: b50d2746fe6ab0155d0385b92227b203a9eb7fd6
+source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '939'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Gli oggetti vengono manipolati inviando una richiesta HTTP al relativo URI univo
 
 I metodi HTTP standard corrispondono alle operazioni seguenti:
 
-* **GET** : recupera un oggetto per ID, cerca tutti gli oggetti tramite query, esegue report o esegue query con nome.
+* **GET** - Recupera un oggetto per ID, cerca tutti gli oggetti per query
 * **POST** - Inserisce un nuovo oggetto
 * **PUT** - Modifica un oggetto esistente
 * **DELETE** - Elimina un oggetto
