@@ -6,9 +6,9 @@ description: Puoi aggiungere rapidamente una scheda ad hoc a una bacheca e asseg
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: 61eb51d458caebbb144112ad697f98f019f54918
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Una scheda ad hoc non è collegata a un elemento di lavoro in [!DNL Adobe Workfr
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Commenti]</strong></td>
-      <td><p>Fai clic su nella <strong>[!UICONTROL Nuovo commento]</strong> e digita il commento. Utilizza gli strumenti di formattazione per formattare il testo. Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca.</p><p><strong>NOTA:</strong> Al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
+      <td><p>Fai clic su nella <strong>[!UICONTROL Nuovo commento]</strong> e digita il commento. Utilizza gli strumenti di formattazione per formattare il testo. (Le immagini non sono disponibili nei commenti sulle schede ad hoc.) Per assegnare un tag a una persona o a un team, utilizza la casella di ricerca nella parte inferiore dell’area dei commenti. L’utente non deve essere un membro della bacheca.</p><p><strong>NOTA:</strong> Al momento, gli utenti taggati nei commenti su schede ad hoc non ricevono una notifica e-mail.
       </p><p>Clic <strong>[!UICONTROL Submit]</strong> per aggiungere il commento alla scheda.</p>
       <p>Per ulteriori informazioni sui commenti, consulta <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Aggiorna lavoro</a>.</p></td>
      </tr>
