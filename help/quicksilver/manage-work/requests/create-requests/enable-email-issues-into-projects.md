@@ -6,7 +6,7 @@ description: Consentire agli utenti di inviare un problema tramite e-mail a un p
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 9cda6fd41ba7fcb9b9f412a7c2b7ffd39f3fe189
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -76,12 +76,12 @@ Prima di abilitare questa funzione è necessario soddisfare le seguenti condizio
 >
 >* Workfront consente di inviare un messaggio e-mail univoco per ogni coda di richieste in tutti i cluster. Se scegli di disabilitare la coda di richieste, mantieni l’indirizzo e-mail creato finché è ancora nella casella Indirizzo e-mail di assegnazione. Se scegli di interrompere l’uso dell’e-mail di assegnazione, devi eliminarla dal campo E-mail di assegnazione in modo che possa essere utilizzata in futuro.
 >
->* Se la coda di richieste ha più argomenti della coda o gruppi di argomenti, Workfront selezionerà in modo casuale l’argomento della coda a cui verranno inviate le richieste inviate via e-mail, rendendo difficile la gestione di queste ultime.
+>* Se la coda di richieste ha più argomenti della coda o gruppi di argomenti, Workfront selezionerà in modo casuale l’argomento della coda a cui andranno le richieste inviate via e-mail, rendendo difficile la gestione di queste ultime.
 >È consigliabile che il progetto configurato per la ricezione di richieste tramite e-mail non contenga più di un argomento della coda. Se le richieste inviate sono destinate a risorse o progetti diversi, è necessario indirizzarle o spostarle manualmente, dopo l’invio.
 
 1. Vai al progetto che desideri abilitare per ricevere i problemi tramite e-mail.
 1. Clic **Dettagli coda** nel pannello a sinistra. Potrebbe essere necessario fare clic su **Mostra altro** prima.
-1. In **Tipo di coda** area, seleziona **Pubblica come coda di richieste di aiuto**.
+1. In **Tipo di coda** area, seleziona **Coda richieste di aiuto di Publish as**.
 
 1. Scorri verso il basso fino a **Impostazioni coda e-mail** , quindi seleziona **Abilita l’acquisizione delle richieste tramite e-mail**.
 
@@ -102,7 +102,7 @@ Prima di abilitare questa funzione è necessario soddisfare le seguenti condizio
 
    Questo indirizzo e-mail riceve informazioni sulle e-mail che non sono state inviate al progetto.
 
-1. Clic **Salva**. Ora, quando gli utenti con un account Workfront attivo inviano un’e-mail a questo indirizzo e-mail, nel progetto Workfront viene creato un problema.
+1. Fai clic su **Salva**. Ora, quando gli utenti con un account Workfront attivo inviano un’e-mail a questo indirizzo e-mail, nel progetto Workfront viene creato un problema.
 
    >[!NOTE]
    >
