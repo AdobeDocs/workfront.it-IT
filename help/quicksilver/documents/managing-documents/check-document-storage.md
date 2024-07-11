@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: manage-documents
-title: Controlla i limiti di archiviazione dei documenti
-description: Sebbene non ci siano restrizioni sui tipi e sulle dimensioni dei singoli file che gli utenti possono caricare nella tua istanza Workfront, c'è un limite sul piano Workfront alla quantità totale di archiviazione utilizzata dall'istanza Workfront. In qualità di amministratore di Adobe Workfront, puoi monitorare l’archiviazione dei documenti dell’istanza dall’area Configurazione.
+title: Controllare i limiti di archiviazione dei documenti
+description: Sebbene non vi siano restrizioni sui tipi e sulle dimensioni dei singoli file che gli utenti possono caricare nell’istanza di Workfront, il piano Workfront prevede un limite sulla quantità totale di archiviazione utilizzata dall’istanza di Workfront. In qualità di amministratore di Adobe Workfront, monitori l’archiviazione dei documenti dell’istanza dall’area di configurazione.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
-# Controlla i limiti di archiviazione dei documenti
+# Controllare i limiti di archiviazione dei documenti
 
-Sebbene non ci siano restrizioni sui tipi e sulle dimensioni dei singoli file che gli utenti possono caricare nella tua istanza Workfront, c&#39;è un limite sul piano Workfront alla quantità totale di archiviazione utilizzata dall&#39;istanza Workfront. In qualità di amministratore di Adobe Workfront, puoi monitorare l’archiviazione dei documenti dell’istanza dall’area Configurazione.
+Sebbene non vi siano restrizioni sui tipi e sulle dimensioni dei singoli file che gli utenti possono caricare nell’istanza di Workfront, il piano Workfront prevede un limite sulla quantità totale di archiviazione utilizzata dall’istanza di Workfront. In qualità di amministratore di Adobe Workfront, monitori l’archiviazione dei documenti dell’istanza dall’area di configurazione.
 
 ## Requisiti di accesso
 
-Devi disporre dei seguenti elementi:
+Devi avere i seguenti:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,20 +30,22 @@ Devi disporre dei seguenti elementi:
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica sulle licenze legacy</a>*</td> 
-   <td> <p>Devi essere un amministratore Workfront. Per informazioni sugli amministratori di Workfront, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente pieno accesso amministrativo</a>.</p> </td> 
+   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Panoramica delle licenze legacy</a>*</td> 
+   <td> <p>Devi essere un amministratore di Workfront. Per informazioni sugli amministratori di Workfront, consulta <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Concedere a un utente l'accesso amministrativo completo</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per informazioni sul piano, il tipo di licenza o l&#39;accesso, contattare l&#39;amministratore Workfront.
+&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Controlla archiviazione documenti
+## Verifica archiviazione documenti
 
-1. Fai clic sul pulsante **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo in alto a destra di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
-1. Nel pannello a sinistra, fai clic su **Sistema** > **Informazioni cliente**.
-1. In **Informazioni di base** sezione, trova **Quota di archiviazione**. Qui è possibile visualizzare la quantità di spazio di archiviazione attualmente in uso e la quantità totale di spazio di archiviazione che il piano Workfront include.
+1. Fai clic su **Menu principale** icona ![](assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, quindi fai clic su **Configurazione** ![](assets/gear-icon-settings.png).
+1. Nel pannello a sinistra, fai clic su **Sistema** > **Informazioni Cliente**.
+1. In **Informazioni di base** sezione, trova **Quota di archiviazione**. Qui è possibile visualizzare la quantità di storage attualmente utilizzata e la quantità totale di storage inclusa nel piano Workfront.
 
-   >[!NOTE]
-   >
-   >Questo limite non si applica ai documenti che si collegano a Workfront da qualsiasi altro provider di servizi di terze parti (SharePoint, Google Drive, Webdam, Box, Dropbox, qualsiasi altro provider di Document Asset Management).
+La quota di archiviazione viene aggiornata quotidianamente per mostrare il conteggio più aggiornato.
+
+>[!NOTE]
+>
+>Questo limite non si applica ai documenti collegati a Workfront da altri provider di servizi di terze parti (SharePoint, Google Drive, Webdam, Box, Dropbox, qualsiasi altro provider di Document Asset Management).
