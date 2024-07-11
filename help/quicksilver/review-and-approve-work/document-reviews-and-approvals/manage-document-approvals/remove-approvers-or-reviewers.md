@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Rimuovere approvatori o revisori da un documento
+title: Rimuovere approvatori o revisori da una risorsa o da un documento
 description: È possibile rimuovere singoli approvatori o revisori da un documento.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-# Rimuovere approvatori o revisori da un documento
+# Rimuovere approvatori o revisori da una risorsa o da un documento
 
-È possibile rimuovere singoli approvatori o revisori da un documento dopo averli assegnati.
+È possibile rimuovere singoli approvatori o revisori da una risorsa o da un documento dopo averli assegnati.
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Rimuovi approvatori o revisori dalla pagina del documento
+## Rimuovere gli approvatori o i revisori dalla pagina Dettagli documento
 
 1. Vai alla pagina del documento facendo clic sul nome del documento, quindi seleziona la versione del documento per la quale desideri rimuovere un’approvazione nel menu a discesa della versione. Per impostazione predefinita, viene selezionata la versione più recente.
 
@@ -64,7 +64,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Ripeti il passaggio precedente per rimuovere eventuali approvatori o revisori aggiuntivi.
 
-## Rimuovere approvatori o revisori dal riquadro Riepilogo documento
+## Rimuovi approvatori o revisori dal riepilogo del documento
 
 1. Vai al progetto, all’attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 

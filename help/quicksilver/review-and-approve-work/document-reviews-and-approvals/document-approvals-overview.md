@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Panoramica sulle nuove approvazioni documenti
+title: Panoramica sulle nuove approvazioni di documenti
 description: È possibile aggiungere ulteriori approvatori o revisori a un documento che dispone già di approvazioni in sospeso.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
+source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '486'
 ht-degree: 2%
 
 ---
 
-# Panoramica sulle nuove approvazioni documenti
+# Panoramica sulle nuove approvazioni di documenti
 
-New Document Approvals è una riprogettazione completa del processo di approvazione esistente attualmente in fase di sviluppo per Adobe Workfront. Attualmente disponibile in versione limitata, è progettato per essere una soluzione pratica ed efficace per le aziende che richiedono un coinvolgimento completo delle parti interessate e l’approvazione di documenti specifici per le versioni. Il design attento e le nuove funzioni mirate facilitano la collaborazione, la chiarezza dei ruoli e il controllo delle versioni nel processo di approvazione, migliorando l’efficienza e la responsabilità.
+Le nuove approvazioni di documenti sono una riprogettazione completa del processo di approvazione esistente attualmente in fase di sviluppo per Adobe Workfront. Attualmente disponibile in versione limitata, è progettato per essere una soluzione pratica ed efficace per le aziende che richiedono un coinvolgimento completo delle parti interessate e l’approvazione di documenti specifici per le versioni. Il design attento e le nuove funzioni mirate facilitano la collaborazione, la chiarezza dei ruoli e il controllo delle versioni nel processo di approvazione, migliorando l’efficienza e la responsabilità.
 
 Per ulteriori informazioni sulle funzioni e sulle versioni pianificate per le approvazioni di nuovi documenti, prosegui con la lettura di seguito.
 
@@ -47,9 +47,9 @@ Se desideri che nell’ambiente di produzione siano abilitate le approvazioni de
 
 ## Utilizzo delle approvazioni di nuovi documenti
 
-Per gli utenti che desiderano creare o gestire approvazioni di documenti, vedi gli articoli elencati in [Approva documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+Per gli utenti che desiderano creare o gestire approvazioni di documenti, vedi gli articoli elencati in [Impostare e gestire le approvazioni di risorse e documenti: indice articoli](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Per gli utenti che desiderano rivedere o approvare documenti per i quali hanno ricevuto una richiesta, vedere gli articoli elencati in [Documenti revisione: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Per gli utenti che desiderano rivedere o approvare documenti per i quali hanno ricevuto una richiesta, vedere gli articoli elencati in [Approvare e rivedere i documenti: indice articolo](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

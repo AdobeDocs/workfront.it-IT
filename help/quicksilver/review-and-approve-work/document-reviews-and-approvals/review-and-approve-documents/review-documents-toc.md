@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Rivedi documenti: indice articolo"
+title: "Approva e rivedi documenti: indice articolo"
 description: Questa sezione contiene articoli sulla revisione di documenti in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cb4c2496-4219-4e37-9785-a8d224bc3936
-source-git-commit: 864481fe2af7a2433bac841bb35995c58fe06743
+source-git-commit: 8949e61a92aa5899d6ed118c4dbe27d84a1d1e6d
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '67'
 ht-degree: 0%
 
 ---
 
-# Documenti revisione: indice articolo
+# Approvare e rivedere i documenti: indice articolo
 
 >[!IMPORTANT]
 >
@@ -24,5 +24,4 @@ ht-degree: 0%
 Questa sezione contiene i seguenti articoli:
 
 * [Rivedere un documento in Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-* [Connettere Workfront e Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-* [Aggiungere una risorsa Frame.io a un progetto connesso](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+* [Approvare un documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)

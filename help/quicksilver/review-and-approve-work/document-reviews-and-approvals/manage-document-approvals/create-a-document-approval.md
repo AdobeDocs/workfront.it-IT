@@ -6,7 +6,7 @@ description: Puoi richiedere l’approvazione di altri utenti per un documento i
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
+source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Creare una richiesta di revisione o approvazione documento
 
-Puoi richiedere l’approvazione di un documento in Adobe Workfront ad altri utenti o team, oppure chiedere loro di rivedere un documento senza doverlo approvare.
+cÈ possibile richiedere ad altri utenti o team l&#39;approvazione di un documento in Adobe Workfront oppure chiedere loro di rivedere un documento senza doverlo approvare.
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    <td> <p>Qualsiasi</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Licenza Adobe Workfront*</td> 
+   <td role="rowheader">Licenza Adobe Workfront*</td>  
    <td> <p>Revisione o successiva</p> </td> 
   </tr> 
   <tr> 

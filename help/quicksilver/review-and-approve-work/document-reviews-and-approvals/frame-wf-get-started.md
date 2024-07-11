@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: a1ffd3ff488e06a10c9b418360906146c9cb3c99
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Revisori e approvatori possono essere aggiunti a un flusso di lavoro di approvaz
 
 * **Approvazioni per singolo utilizzo**: nel progetto o nell’attività in cui risiede la risorsa, il coordinatore del progetto può assegnare revisori e approvatori e impostare una scadenza di completamento. Ai revisori e agli approvatori viene inviato un promemoria tramite e-mail 72 e 24 ore prima della scadenza, oltre che sulla scadenza stessa.
 
-  Per ulteriori informazioni, consulta [Creare una richiesta di revisione o approvazione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!--I think this needs to be renamed? -->
+  Per ulteriori informazioni, consulta * [Creare una richiesta di revisione o approvazione per una risorsa Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
 * **Modelli di approvazione**: nell’area Configurazione di Workfront, i coordinatori del progetto possono creare modelli di approvazione riutilizzabili. All’interno di un modello, gli utenti possono aggiungere revisori e approvatori e specificare un arco temporale di completamento. Quando il modello di approvazione viene applicato a una risorsa, la scadenza viene calcolata a partire dall’intervallo di tempo specificato.
 

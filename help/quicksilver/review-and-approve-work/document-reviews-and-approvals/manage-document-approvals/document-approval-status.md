@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Stato decisione documento
+title: Panoramica sullo stato delle decisioni relative ai documenti
 description: Vengono elencati e spiegati gli stati di decisione del documento
-author: Becky
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: ac3200b478c706194a8c8246d1754b16601d5f56
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 5%
 
 ---
 
-# Stato decisione documento
+# Panoramica sullo stato delle decisioni relative ai documenti
 
 È possibile visualizzare lo stato del documento direttamente nell&#39;elenco dei documenti:
 

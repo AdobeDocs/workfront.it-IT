@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Aggiungere altri approvatori o revisori a un documento
+title: Aggiungere altri approvatori o revisori a una risorsa o a un documento
 description: È possibile aggiungere ulteriori approvatori o revisori a un documento che dispone già di approvazioni in sospeso.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# Aggiungere altri approvatori o revisori a un documento
+# Aggiungere altri approvatori o revisori a una risorsa o a un documento
 
-È possibile aggiungere ulteriori approvatori o revisori a un documento che dispone già di approvazioni in sospeso.
+È possibile aggiungere approvatori o revisori aggiuntivi a una risorsa o a un documento con approvazioni in sospeso.
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 &#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore Workfront.
 
-## Aggiungere ulteriori approvatori o revisori dalla pagina del documento
+## Aggiungere ulteriori approvatori o revisori dalla pagina Dettagli documento
 
 1. Passare alla pagina del documento facendo clic sul nome del documento, quindi selezionare la versione del documento a cui si desidera aggiungere un approvatore o un revisore nel menu a discesa della versione. Per impostazione predefinita, viene selezionata la versione più recente.
 
@@ -60,7 +60,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. Ripeti il passaggio precedente per aggiungere altri approvatori o revisori.
 
-## Aggiungere altri approvatori o revisori dal riquadro Riepilogo documento
+## Aggiungere altri approvatori o revisori dal riepilogo del documento
 
 1. Vai al progetto, all’attività o al problema che contiene il documento, quindi seleziona **Documenti**.
 

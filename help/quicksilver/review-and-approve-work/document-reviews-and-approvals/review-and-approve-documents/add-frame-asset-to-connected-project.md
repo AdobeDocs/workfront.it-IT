@@ -6,9 +6,9 @@ description: I creativi possono aggiungere risorse che devono essere riviste in 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
+source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedi [Req
 
 ## Prerequisiti
 
-* È necessario disporre di un gruppo Workfront connesso a un team Frame.io.
-* È necessario avere un progetto Workfront connesso a un progetto Frame.io e aggiungerlo come utente a un&#39;attività Workfront abilitata per Frame.io.
-
-Per ulteriori informazioni, consulta [Connettere Workfront e Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-
+* È necessario configurare l&#39;integrazione di Workfront e Frame.io. Per ulteriori informazioni, consulta [Configurare l’integrazione di Workfront e Frame.io](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ## Aggiungere una risorsa Frame.io a un progetto Workfront connesso
 

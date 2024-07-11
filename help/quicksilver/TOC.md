@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 1c9deb747ee9e9598949bcd0b64513b222fa0bc1
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '14395'
+source-wordcount: '14434'
 ht-degree: 1%
 
 ---
@@ -1820,22 +1820,22 @@ ht-degree: 1%
       * [Delega richiesta di approvazione](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associa un processo di approvazione nuovo o esistente al lavoro](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Richiama approvazioni inviate](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Revisione e approvazione del documento {#document-reviews-and-approvals}
-      * [Revisione e approvazione del documento](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+   * Revisione e approvazione di risorse e documenti {#document-reviews-and-approvals}
+      * [Revisione e approvazione di risorse e documenti: indice articoli](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Panoramica delle approvazioni dei documenti](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [Panoramica sullo stato delle decisioni relative ai documenti](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Introduzione alla revisione e all’approvazione delle risorse con Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
-      * Revisione dei documenti {#review-and-approve-documents}
-         * [Documenti revisione: indice articolo](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [Rivedere un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-         * [Connettere Workfront e Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-         * [Aggiungere una risorsa Frame.io a un progetto Workfront connesso](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * Approva documenti {#approve-documents}
-         * [Approva documenti: indice articolo](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+      * [Impostare e gestire le approvazioni di risorse e documenti]{#manage-asset-review-and-approval}
+         * [Impostare e gestire le approvazioni di risorse e documenti: indice articoli](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Creare una richiesta di revisione o approvazione documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Aggiungere revisori o approvatori aggiuntivi a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [Rimuovere approvatori o revisori da un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [Creare un modello di approvazione](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [Stato decisione documento](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [Creare una richiesta di revisione o approvazione per una risorsa Frame.io](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
+         * [Aggiungere revisori o approvatori aggiuntivi a una risorsa o a un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Rimuovere approvatori o revisori da una risorsa o da un documento](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Creare un modello di approvazione per risorse e documenti](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [Aggiungere una risorsa Frame.io a un progetto Workfront connesso](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+      * Approvare e rivedere risorse e documenti {#review-and-approve-documents}
+         * [Approvare e rivedere i documenti: indice articolo](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [Rivedere un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Approvare un documento](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Bozza {#proofing}
       * [Strumenti di correzione: indice articolo](review-and-approve-work/proofing/proofing.md)
