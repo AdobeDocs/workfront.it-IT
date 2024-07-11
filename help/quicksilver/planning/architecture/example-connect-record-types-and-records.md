@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Si desidera creare un campo connessione nel tipo di record Campaign in cui è po
 
 Per eseguire questa operazione:
 
-1. Vai a un’area di lavoro in cui desideri collegare il tipo di record Campaign ai progetti Workfront.
+1. Vai a un Workspace in cui desideri collegare il tipo di record Campaign ai progetti Workfront.
 1. Apri la vista a tabella per il tipo di record Campaign nell’area di lavoro selezionata.
 1. Fai clic su **+** nell’angolo superiore destro della vista tabella per aggiungere un nuovo campo, quindi fai clic su **Nuova connessione**, quindi fai clic su **Progetto** nel **Tipi di oggetto Workfront** sezione.
 1. Aggiungi le seguenti informazioni, ad esempio:
@@ -205,10 +205,7 @@ Per eseguire questa operazione:
 
 1. Fare clic sul nome di un progetto nel campo record connesso.
 
-   Verrà aperta la pagina del progetto di Workfront Planning di sola lettura.
-Rivedi le informazioni sul progetto. Nella pagina del record vengono visualizzati solo i campi progetto selezionati.
-
-1. Clic **Vai all&#39;origine** nell’angolo in alto a destra dello schermo per aprire il progetto in Workfront, se disponi almeno delle autorizzazioni di visualizzazione per il progetto.
+   Il progetto verrà aperto in Workfront, se disponi almeno delle autorizzazioni di visualizzazione per il progetto.
 1. (Facoltativo) Se disponi delle autorizzazioni necessarie, aggiorna le informazioni sul progetto in Workfront.
 
 1. (Facoltativo) Dalla vista della tabella Campaign, passa il puntatore del mouse su **Informazioni progetto** e fare clic sulla freccia rivolta verso il basso, quindi su **Modificare i campi di ricerca.**

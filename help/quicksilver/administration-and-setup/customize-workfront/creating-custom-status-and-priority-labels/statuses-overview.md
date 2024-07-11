@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,17 @@ Per conoscere lo stato attuale di sviluppo di un progetto, attività o problema,
 Ad esempio, in questo progetto, lo stato Pianificazione indica che il manager del progetto sta pianificando aspetti del progetto quali la sequenza temporale, le assegnazioni dei task e le approvazioni.
 
 ![Stato progetto di esempio](assets/statuses-overview.png)
+
+Per visualizzarne lo stato, è necessario disporre dei diritti di accesso e delle autorizzazioni seguenti per un progetto, un’attività o un problema:
+
+* Accesso di visualizzazione o superiore a progetti, attività e problemi nel proprio livello di accesso
+* Visualizza o autorizzazioni superiori sull&#39;oggetto
+
+Per cambiare manualmente lo stato di un progetto, un’attività o un problema, è necessario disporre dei seguenti diritti di accesso e autorizzazioni:
+
+* Modifica l&#39;accesso a Progetti, Attività e Issues nel tuo livello di accesso
+* Autorizzazioni Contribute o superiori per l’attività o il problema
+* Gestisci le autorizzazioni sul progetto.
 
 La modifica dello stato di un progetto, di un’attività o di un problema è solitamente un processo manuale. Tuttavia, in alcuni casi lo stato di un problema viene modificato automaticamente, a seconda di altri fattori che si verificano nel sistema.
 

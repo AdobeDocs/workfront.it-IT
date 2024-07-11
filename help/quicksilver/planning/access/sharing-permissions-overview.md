@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 7%
+source-wordcount: '692'
+ht-degree: 6%
 
 ---
 
@@ -69,12 +69,14 @@ Le tabelle delle sezioni seguenti illustrano il livello di autorizzazioni che è
 >
 >Non tutti gli utenti possono disporre dei livelli di autorizzazione descritti di seguito. La licenza individuale degli utenti determina il livello di autorizzazioni che possono ricevere per gli oggetti di Workfront Planning.
 >
->Solo gli utenti con licenza Standard (o Plan) possono disporre delle autorizzazioni Contribute o Manage per le aree di lavoro.
+>Solo gli utenti con licenza Standard (o Plan) possono disporre delle autorizzazioni Contribute o Manage per le aree di lavoro e delle autorizzazioni Manage per le visualizzazioni.
+> 
+>Gli utenti con tutti gli altri tipi di licenza possono disporre delle autorizzazioni di visualizzazione per le aree di lavoro e le visualizzazioni.
 >
 >Per informazioni, consulta [Panoramica del tipo di licenza quando si utilizza Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### Autorizzazioni di Workspace
+### Autorizzazioni Workspace
 
 È necessario concedere agli utenti le autorizzazioni per le aree di lavoro per consentire loro di accedere alle seguenti entità:
 
@@ -157,7 +159,8 @@ Di seguito sono riportati i livelli di autorizzazione per le visualizzazioni e g
 | Elimina | ✓ |       |                            |
 | Condividi | ✓ |       |                           |
 | Visualizza | ✓ | ✓ | ✓ |
-| Applica | ✓ | ✓ | ✓ |
+| Accedere alla visualizzazione | ✓ | ✓ | ✓ |
+| Applicare filtri, raggruppamenti e ordinamenti temporanei | ✓ | ✓ | ✓ |
 
 *Gli utenti devono disporre di autorizzazioni View (Visualizzazione) o superiori per un&#39;area di lavoro per poter accedere a questa visualizzazione.
 

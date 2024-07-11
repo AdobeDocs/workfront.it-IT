@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2512'
 ht-degree: 1%
 
 ---
@@ -288,19 +288,13 @@ Dopo aver creato una connessione tra un tipo di record e un tipo di oggetto Work
 
 1. (Facoltativo) Fare clic sul nome di un oggetto Workfront connesso a un record di Workfront Planning nel campo collegato di una vista tabella o nel campo collegato della pagina del record.
 
-   Verrà visualizzata la pagina di sola lettura del record di Workfront Planning per l&#39;oggetto Workfront collegato. I campi selezionati come campi di ricerca quando si è collegato il tipo di record con l&#39;oggetto Workfront vengono visualizzati nella pagina dei record di Workfront Planning.
+   Se si dispone almeno delle autorizzazioni di visualizzazione per l&#39;oggetto, verrà aperto l&#39;oggetto Workfront in Workfront.
 
    >[!TIP]
    >
    >* Quando si abilita l&#39;impostazione Consenti più record, i valori dei campi di ricerca vengono visualizzati separati da virgole o aggregati in base all&#39;aggregatore scelto.
    >
    >* Non viene creato un campo record collegato per gli oggetti Workfront collegati in Workfront.
-
-1. (Facoltativo) Per aprire l&#39;oggetto Workfront collegato in Workfront, fare clic su **Vai all&#39;origine** nell&#39;angolo superiore destro della pagina record dell&#39;oggetto Workfront.
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   Se si dispone almeno delle autorizzazioni di visualizzazione per visualizzare l&#39;oggetto, verrà aperta la pagina degli oggetti di Workfront. Se si dispone delle autorizzazioni necessarie, è possibile modificare le informazioni sull&#39;oggetto Workfront.
 
 1. (Facoltativo) Nella vista a tabella del tipo di record, posiziona il puntatore del mouse sull&#39;intestazione di colonna dell&#39;oggetto Workfront collegato e fai clic sul menu a discesa, quindi fai clic su **Modifica campi di ricerca**.
 
@@ -345,7 +339,7 @@ Dopo aver creato una connessione tra un tipo di record e Adobe Experience Manage
    >
    >  Puoi aggiungere e fare clic su **+** nel campo oggetto collegato della pagina del record per collegare le risorse al record.
 
-   Il **Seleziona risorse** viene visualizzata la casella. <!--we might change this to Connect assets-->
+   Il **Seleziona Assets** viene visualizzata la casella. <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -391,7 +385,7 @@ Dopo aver creato una connessione tra un tipo di record e Adobe Experience Manage
    * Data di creazione
    * Data modificata
 
-1. (Facoltativo) Per aprire la pagina di record Experience Manager assets in Experience Manager, vai alla pagina del tipo di record da cui stai effettuando il collegamento, fai clic sul nome di una risorsa nel campo del record collegato per aprire la finestra a comparsa, quindi fai clic su **Apri** icona ![](assets/open-asset-icon.png) per aprire la risorsa.
+1. (Facoltativo) Per aprire la pagina di record Experience Manager assets in Experience Manager, vai alla pagina del tipo di record da cui stai effettuando il collegamento, fai clic sul nome di una risorsa nel campo del record collegato per aprire la finestra a comparsa, quindi fai clic su **Aperto in AEM** icona ![](assets/open-asset-icon.png) per aprire la risorsa.
 
    Verrà aperta la risorsa Experience Manager in Adobe Experience Manager Assets.
 

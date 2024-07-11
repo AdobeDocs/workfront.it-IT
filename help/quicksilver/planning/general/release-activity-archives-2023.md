@@ -4,9 +4,9 @@ description: Le funzionalità di Adobe Workfront Planning sono attualmente dispo
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2988'
 ht-degree: 0%
 
 ---
@@ -236,7 +236,7 @@ Per ulteriori informazioni, consulta [Crea campi](/help/quicksilver/planning/fie
 
 Anteprima e produzione: 31 ottobre 2023
 
-È ora possibile aprire le pagine degli oggetti di Workfront dalle seguenti aree nelle funzionalità di pianificazione:
+È ora possibile aprire le pagine degli oggetti di Workfront dalle seguenti aree in Workfront Planning:
 
 * Visualizzazione tabella record oggetti Workfront collegata di sola lettura
 

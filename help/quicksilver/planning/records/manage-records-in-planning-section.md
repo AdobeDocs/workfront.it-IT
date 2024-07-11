@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -115,10 +115,8 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 1. Fare clic sulla scheda di un tipo di record connesso a un progetto, portfolio o programma Workfront.
 1. Passare a un campo record connesso che presenta una connessione con un oggetto Workfront, nella visualizzazione tabella o dalla pagina dei dettagli di un record. Per informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
 1. Fare clic sul nome di un oggetto Workfront nel campo record connesso.
-La pagina degli oggetti viene visualizzata in Workfront Planning.
-1. Clic **Vai all&#39;origine**, nell&#39;angolo superiore destro dello schermo.
+La pagina degli oggetti si apre in Workfront.
 
-   La pagina dell&#39;oggetto si apre in Workfront.
 1. Clic **Pianificazione** nel pannello a sinistra.
 
    >[!NOTE]

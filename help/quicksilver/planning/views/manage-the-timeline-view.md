@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1880'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Per informazioni sulle visualizzazioni record, vedere [Gestire le visualizzazion
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
    <td>
-   <p>Qualsiasi</p> 
-   <p>Gli amministratori di sistema possono accedere solo alle visualizzazioni create o condivise con loro. </p>
+   <p>Nuovo: Standard</p>
+   Oppure
+   <p>Corrente: Piano </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configurazione del livello di accesso</td>
-   <td> <p>Nessun controllo del livello di accesso per Adobe Workfront Planning </p>  
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
+   <td> Nessun controllo di accesso per Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Gestire le autorizzazioni per la visualizzazione</p>  
+   <td> <p>Gestire le autorizzazioni per una visualizzazione</p>  
+   <p>Autorizzazioni di visualizzazione per modificare temporaneamente le impostazioni di visualizzazione</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Modello di layout</td>
-   <td> <p>L'amministratore di sistema deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td role="rowheader"><p>Modello di layout</p></td>
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Per informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Gestire una vista timeline {#manage-a-timeline-view}
@@ -179,7 +185,9 @@ Quando si lavora con i filtri nella vista timeline, considera quanto segue:
 
   Per ulteriori informazioni, consulta la sezione &quot;Aggiungere filtri&quot; nell’articolo [Gestire la vista tabella](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* È possibile filtrare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
+* È possibile filtrare in base ai campi record o ai campi di ricerca connessi.
+* Puoi filtrare per campi di ricerca che visualizzano più valori.
+
 
 ### Aggiungi raggruppamento
 
@@ -193,11 +201,16 @@ Quando si lavora con i raggruppamenti nella vista timeline, tenete presente quan
 
 * Potete applicare i raggruppamenti sia nella vista tabella che nella vista timeline. I raggruppamenti della vista tabella sono indipendenti da quelli della vista timeline dello stesso tipo di record.
 * È possibile applicare 3 livelli di raggruppamento in una visualizzazione. I record vengono raggruppati in base all&#39;ordine dei raggruppamenti selezionati.
-* Puoi applicare fino a 4 livelli di raggruppamento quando utilizzi l’API.
-* I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni timeline dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa visualizzazione timeline visualizzano lo stesso raggruppamento attualmente applicato.
-* Non è possibile denominare i raggruppamenti creati per una vista timeline.
+&lt;!—* È possibile applicare fino a 4 livelli di raggruppamento quando si utilizza l’API. —controllare questo per il momento—>
+* I raggruppamenti sono univoci per la vista selezionata. A due visualizzazioni tabella dello stesso tipo di record possono essere applicati raggruppamenti diversi. Due utenti che visualizzano la stessa vista tabella visualizzano lo stesso raggruppamento attualmente applicato.
+* Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
-* È possibile raggruppare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
+* È possibile modificare i record elencati in un raggruppamento.
+* È possibile eseguire il raggruppamento in base ai campi record o ai campi di ricerca connessi.
+* Quando si esegue il raggruppamento per campi di ricerca con più valori (che non sono stati riepilogati da un aggregatore), i record vengono raggruppati per ogni combinazione univoca di valori di campo.
+* È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un raggruppamento per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento allo stato del progetto nel raggruppamento che si sta creando per il tipo di record Attività.
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
 Per aggiungere un raggruppamento nella vista timeline:
 

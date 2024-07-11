@@ -6,9 +6,9 @@ description: Puoi aggiungere commenti a tutti gli obiettivi che puoi visualizzar
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -127,12 +127,12 @@ Verrà aperto l&#39;elenco degli obiettivi.
 
    >[!TIP]
    >
-   >Se si esce dalla sezione Aggiornamenti prima di completare la digitazione e l&#39;invio di un commento, il commento nella pagina rimane in modalità bozza anche dopo la disconnessione e la riconnessione. Nella bozza vengono salvate anche tutte le immagini aggiunte al commento. Le bozze vengono salvate per 7 giorni dopo i quali vengono eliminate e non possono essere recuperate. I commenti bozza sono visibili solo all&#39;utente che li inserisce.
+   >Se si esce dalla sezione Aggiornamenti prima di completare la digitazione e l&#39;invio di un commento, il commento nella pagina rimane in modalità bozza anche dopo la disconnessione e la riconnessione. Le bozze vengono salvate per 7 giorni dopo i quali vengono eliminate e non possono essere recuperate. I commenti bozza sono visibili solo all&#39;utente che li inserisce.
 
 1. (Facoltativo) Per annullare o ripristinare una modifica, utilizzare i seguenti tasti di scelta rapida:
    * CTRL + Z (⌘+z per Mac) per annullare una modifica
    * CTRL+Y (⌘+y per Mac) per ripetere una modifica
-1. (Facoltativo) Per aggiungere la formattazione RTF all&#39;aggiornamento, a un collegamento ipertestuale o a un&#39;immagine, utilizzare le opzioni disponibili sulla barra degli strumenti Testo formattato o le icone adiacenti. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facoltativo) Per aggiungere la formattazione RTF all&#39;aggiornamento, a un collegamento ipertestuale o a un emoji, utilizzare le opzioni disponibili sulla barra degli strumenti Testo formattato o le icone adiacenti. Per ulteriori informazioni, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Facoltativo) In **Assegna tag a persone o team** , inizia a digitare il nome o l’e-mail di un utente o di un team che desideri includere in questo commento, quindi selezionalo quando viene visualizzato nell’elenco.
 1. Seleziona la **Privato per la mia azienda** attiva per rendere visibile il commento solo agli utenti della tua azienda.
 
@@ -150,7 +150,7 @@ Verrà aperto l&#39;elenco degli obiettivi.
    >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
 
 1. (Facoltativo) Per modificare un commento, fai clic su **Altro** menu ![](assets/more-icon.png) a destra dell’icona Mi piace, quindi fai clic su **Modifica**.
-1. Modificare le informazioni nel commento, aggiungere o rimuovere immagini o rimuovere gli utenti taggati.
+1. Modifica le informazioni nel commento o rimuovi uno degli utenti taggati.
 Puoi modificare il commento entro 15 minuti dall’invio. A sinistra dell&#39;indicatore della data viene aggiunto un indicatore &quot;modificato&quot; che viene visualizzato quando il commento è stato aggiornato.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)

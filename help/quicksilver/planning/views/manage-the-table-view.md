@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2543'
+source-wordcount: '2569'
 ht-degree: 3%
 
 ---
@@ -36,6 +36,8 @@ Per informazioni sulle visualizzazioni record e su come gestirle, vedere [Gestir
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
    <td>
-   <p>Qualsiasi</p> 
-   <p>Gli amministratori di sistema possono accedere solo alle visualizzazioni create o condivise con loro. </p>
+   <p>Nuovo: Standard</p>
+   Oppure
+   <p>Corrente: Piano </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configurazione del livello di accesso</td>
-   <td> <p>Non sono disponibili controlli del livello di accesso per Adobe Workfront Planning</p>  
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
+   <td> Nessun controllo di accesso per Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Gestire le autorizzazioni per la visualizzazione</p>  
+   <td> <p>Gestire le autorizzazioni per una visualizzazione</p>  
+   <p>Autorizzazioni di visualizzazione per modificare temporaneamente le impostazioni di visualizzazione</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Modello di layout</td>
-   <td> <p>L'amministratore di sistema deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td role="rowheader"><p>Modello di layout</p></td>
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Per informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Gestire una vista tabella {#manage-a-table-view}
 
@@ -244,7 +250,9 @@ Quando si lavora con i filtri nella vista a tabella, considera quanto segue:
 
 * L’aggiunta di filtri alla vista tabella è identica all’aggiunta di filtri alla vista timeline.
 
-* È possibile filtrare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
+* È possibile filtrare in base ai campi record o ai campi di ricerca connessi.
+
+* Puoi filtrare per campi di ricerca che visualizzano più valori.
 
 * È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un filtro per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento al budget del progetto nel filtro che si sta creando per il tipo di record Attività.
 
@@ -356,7 +364,8 @@ Considera quanto segue:
 * Non è possibile denominare i raggruppamenti creati per una vista tabella.
 * Se si rimuovono i raggruppamenti, questi verranno rimossi da tutti coloro che accedono allo stesso tipo di record e che visualizzano la stessa visualizzazione.
 * È possibile modificare i record elencati in un raggruppamento.
-* È possibile raggruppare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
+* È possibile eseguire il raggruppamento in base ai campi record o ai campi di ricerca connessi.
+* Quando si esegue il raggruppamento per campi di ricerca con più valori (che non sono stati riepilogati da un aggregatore), i record vengono raggruppati per ogni combinazione univoca di valori di campo.
 * È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un raggruppamento per un tipo di record Attività e l&#39;attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento allo stato del progetto nel raggruppamento che si sta creando per il tipo di record Attività.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
@@ -408,11 +417,11 @@ Quando si ordinano i record nella vista tabella, tenere presente quanto segue:
 
 * È possibile ordinare in base al numero di campi visualizzato nella visualizzazione per tabella di un tipo di record.
 
-* I campi collegati possono essere ordinati solo se consentono valori singoli o se consentono la selezione multipla di valori con l&#39;opzione di riepilogo selezionata (somma, media, massimo, minimo).
+* Non è possibile ordinare in base ai campi record connessi, ma è possibile ordinare in base ai campi di ricerca dei tipi di record connessi.
+
+* Quando si ordina in base a campi di ricerca con più valori (che non sono stati riepilogati da un aggregatore), il primo valore viene utilizzato per l’ordinamento.
 
 * Se si rimuovono i criteri di ordinamento, questi verranno rimossi da chiunque acceda allo stesso tipo di record utilizzato e utilizzerà la stessa visualizzazione utilizzata.
-
-* È possibile ordinare in base ai campi record o ai campi di ricerca connessi, ma non per i campi che consentono il collegamento a più record.
 
 * È possibile fare riferimento a un campo fino a 4 livelli di distanza dal tipo di record corrente. Ad esempio, se si crea un ordinamento per un tipo di record Attività e l&#39;Attività è connessa al tipo di record Prodotto connesso al tipo di record Campagna connesso a un progetto Workfront, è possibile fare riferimento allo Stato del progetto nell&#39;ordinamento che si sta creando per il tipo di record Attività.
 

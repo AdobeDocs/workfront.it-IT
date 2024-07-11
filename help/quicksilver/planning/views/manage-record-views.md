@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1113'
 ht-degree: 1%
 
 ---
@@ -44,6 +44,8 @@ Questo articolo descrive le seguenti informazioni sulle visualizzazioni record:
 
 Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -69,32 +71,37 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Licenza Adobe Workfront</p></td>
+   <td role="rowheader"><p>Licenza Adobe Workfront*</p></td>
    <td>
-   <p>Qualsiasi</p> 
-   <p>Gli amministratori di sistema possono accedere solo alle visualizzazioni create o condivise con loro. </p>
+   <p>Nuovo: Standard</p>
+   Oppure
+   <p>Corrente: Piano </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Configurazione del livello di accesso</td>
-   <td> <p>Nessun controllo del livello di accesso per Workfront Planning</p>  
+   <td role="rowheader"><p>Configurazioni del livello di accesso</p></td>
+   <td> Nessun controllo di accesso per Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Autorizzazioni</p></td>
-   <td> <p>Gestire le autorizzazioni per la visualizzazione</p>  
+   <td> <p>Gestire le autorizzazioni per una visualizzazione</p>  
+   <p>Autorizzazioni di visualizzazione per modificare temporaneamente le impostazioni di visualizzazione</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Modello di layout</td>
-   <td> <p>L'amministratore di sistema deve aggiungere l'area Planning nel modello di layout. Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p>  
+   <td role="rowheader"><p>Modello di layout</p></td>
+   <td> <p>A tutti gli utenti, inclusi gli amministratori di Workfront, deve essere assegnato un modello di layout che includa l'area Planning nel menu principale. </p> <p>Per informazioni, consulta <a href="/help/quicksilver/planning/access/access-overview.md">Panoramica degli accessi</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Per informazioni, vedere [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Considerazioni durante l&#39;utilizzo delle visualizzazioni record
 

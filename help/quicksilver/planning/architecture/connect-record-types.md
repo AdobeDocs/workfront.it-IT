@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2487'
+source-wordcount: '2515'
 ht-degree: 0%
 
 ---
@@ -156,10 +156,6 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
       * Nel tipo di record da cui si sta effettuando la connessione viene creato un campo record collegato. Nessun campo record collegato viene creato automaticamente sul tipo di oggetto dell&#39;altra applicazione.
 
-      * Viene creato un nuovo tipo di record di sola lettura di Workfront Planning per l&#39;oggetto dell&#39;altra applicazione solo quando gli oggetti effettivi sono connessi ai record di Workfront Planning.
-
-        Per ulteriori informazioni, consulta [Collega record](/help/quicksilver/planning/records/connect-records.md).
-
       * I campi dei record di Planning non sono accessibili dagli oggetti di Workfront.
       * I campi dei record di pianificazione sono accessibili da Experience Manager Assets quando l’amministratore Workfront configura la mappatura dei metadati tramite l’integrazione tra Workfront e Adobe Experience Manager Assets. Per ulteriori informazioni, consulta [Configurare la mappatura dei metadati delle risorse tra Adobe Workfront e Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
@@ -274,7 +270,15 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 1. (Facoltativo) Fai clic su **Ignora** per ignorare l&#39;aggiunta di campi dal record o dal tipo di oggetto collegato. Il **Nome** o **Titolo** del record collegato è l&#39;unico campo visibile nella vista tabella del tipo di record da cui ci si connette.
 
-1. (Facoltativo e condizionale) Se si seleziona di collegare un campo di tipo numero, valuta, percentuale o data, selezionare anche un valore aggregatore. Quando gli utenti selezionano più record collegati nel campo record collegato, i valori dei campi collegati vengono visualizzati separati da virgole o come valore aggregato in base all&#39;aggregatore scelto.
+1. (Facoltativo e condizionale) Se si seleziona di collegare un campo di tipo numero, valuta, percentuale o data, selezionare anche un valore aggregatore per riepilogare più valori. Quando gli utenti selezionano più record collegati nel campo record collegato, i valori dei campi collegati vengono visualizzati separati da virgole o come valore di riepilogo in base all&#39;aggregatore scelto.
+
+   Se il campo di ricerca contiene più valori che non vengono riepilogati, quando si utilizza il campo in ordinamento o raggruppamento in una visualizzazione tenere presente quanto segue:
+
+   * L’ordinamento viene eseguito dal primo valore
+
+   * I record sono raggruppati per ogni combinazione univoca di valori di campo
+
+   * La vista timeline viene creata in base al primo valore di data.
 
    >[!IMPORTANT]
    >
