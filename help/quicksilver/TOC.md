@@ -3,9 +3,9 @@ user-guide-title: Guida di Workfront
 user-guide-description: Utilizza documenti, tutorial e risorse aggiuntive per scoprire come implementare e utilizzare in modo efficace Adobe Workfront nella tua organizzazione.
 role: User
 feature-set: Workfront
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
 workflow-type: tm+mt
-source-wordcount: '14441'
+source-wordcount: '14439'
 ht-degree: 1%
 
 ---
@@ -1963,7 +1963,7 @@ ht-degree: 1%
    * Crea e gestisci schede orario {#create-and-manage-timesheets-in-adobe-workfront}
       * [Creare e gestire le schede orario: indice dell’articolo](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Creare, modificare e assegnare profili di schede orario](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-      * [Definire i tipi di ore e la disponibilità per le schede orario](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+      * [Definire i tipi di ore e la disponibilità](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Creare una scheda orario monouso](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [Modifica informazioni scheda orario](timesheets/create-and-manage-timesheets/edit-timesheets.md)
       * [Registra ore](timesheets/create-and-manage-timesheets/log-time.md)
@@ -2389,7 +2389,7 @@ ht-degree: 1%
       * [Trasformare le e-mail di Google Workspace in oggetti e aggiornamenti di Adobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
       * [Creare un’attività Adobe Workfront in Google Workspace utilizzando il contenuto dell’e-mail](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
       * [Creare un problema Adobe Workfront in Google Workspace utilizzando il contenuto dell’e-mail](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-      * [Aggiornare un elemento Adobe Workfront da Google Workspace utilizzando il contenuto dell’e-mail](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+      * [Aggiornare un elemento di Adobe Workfront da G Suite utilizzando il contenuto dell’e-mail](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Adobe Workfront per Outlook {#workfront-for-outlook}
       * [Adobe Workfront per Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [Configurare Adobe Workfront per Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)

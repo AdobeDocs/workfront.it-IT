@@ -2,14 +2,14 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Registra ore
-description: È possibile registrare il tempo per gli elementi di lavoro in &nbsp;Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L'ora registrata viene visualizzata nella scheda orario.
+description: È possibile registrare il tempo per gli elementi di lavoro in&nbsp;Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L'ora registrata viene visualizzata nella scheda orario.
 author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '3589'
+source-wordcount: '3581'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 È possibile registrare il tempo degli elementi di lavoro in Adobe Workfront per indicare il numero di ore dedicate al loro lavoro. È inoltre possibile registrare il tempo non correlato al lavoro, ad esempio ferie, malattia o riunioni. L&#39;ora registrata viene visualizzata nella scheda orario.
 
-Per ulteriori informazioni sul tipo di ore per accedere a Workfront, consulta [Gestire i tipi di lavoro](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+Per ulteriori informazioni sul tipo di ore che è possibile accedere a Workfront, vedere [Gestione dei tipi di ore](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Requisiti di accesso
 
@@ -62,7 +62,7 @@ Per eseguire i passaggi descritti in questo articolo e registrare le ore specifi
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Autorizzazioni Contribute o superiori per l'elemento di lavoro per il quale si registra il tempo, che includono le autorizzazioni per Registrare le ore</p> </td> 
+   <td> <p>Autorizzazioni di Contribute o di livello superiore per l’elemento di lavoro per il quale si registra il tempo, che includono le autorizzazioni per Registra ore</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,15 +75,15 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 * È possibile registrare il tempo per progetti, attività o problemi oppure è possibile registrare il tempo direttamente nella scheda orario.
 
-  Per informazioni sulla creazione delle schede orario, consulta [Creare una scheda orario monouso](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+  Per informazioni sulla creazione delle schede orario, vedere [Creare una scheda orario monouso](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 * Tutti gli orari registrati tramite strumenti diversi dalla scheda orario vengono visualizzati nella scheda orario per il periodo di tempo corrispondente.
 * Le attività e i problemi relativi a un progetto non corrente non vengono precompilati in una scheda orario.
 * Il tempo registrato nella scheda orario viene applicato immediatamente all’attività, al problema o al progetto.
 * Le schede orario includono il tempo totale per tutte le date registrate. I fine settimana sono sempre inclusi, anche quando i calcoli della sequenza temporale sono stati configurati per escluderli (come descritto in [Configurare le preferenze di progetto a livello di sistema](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)).
 * Il numero massimo di elementi visualizzati in una scheda orario è 45. Se sono presenti più di 45 elementi le cui date corrispondono all’intervallo di tempo della scheda orario, vengono visualizzati solo gli elementi aggiornati più di recente.
-* Le ore inserite nei record di fatturazione fatturate sono oscurate e non possono essere modificate nella scheda orario. Per ulteriori informazioni, consulta [Crea record fatturazione](../../manage-work/projects/project-finances/create-billing-records.md).
-* Per impostazione predefinita, le attività personali non vengono visualizzate nella scheda orario. Le attività personali vengono visualizzate nella scheda orario solo quando sono registrate. Dopo aver registrato l&#39;ora in un&#39;attività personale, è possibile aggiungere l&#39;attività alla scheda attività e rimarrà nella scheda attività se rimane bloccata. Per ulteriori informazioni, consulta [Creare elementi di lavoro dall&#39;area Home](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+* Le ore inserite nei record di fatturazione fatturate sono oscurate e non possono essere modificate nella scheda orario. Per ulteriori informazioni, vedere [Creare record fatturazione](../../manage-work/projects/project-finances/create-billing-records.md).
+* Per impostazione predefinita, le attività personali non vengono visualizzate nella scheda orario. Le attività personali vengono visualizzate nella scheda orario solo quando sono registrate. Dopo aver registrato l&#39;ora in un&#39;attività personale, è possibile aggiungere l&#39;attività alla scheda attività e rimarrà nella scheda attività se rimane bloccata. Per ulteriori informazioni, vedere [Creare elementi di lavoro dall&#39;area Home](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Registra ore {#log-time-section}
 
@@ -102,7 +102,7 @@ In Workfront è possibile registrare il tempo nelle seguenti aree:
 
 Puoi registrare il tempo ai seguenti elementi nella scheda orario:
 
-* Attività, problemi e progetti precompilati che vengono visualizzati automaticamente, in base al modo in cui l’amministratore di Workfront imposta le preferenze della scheda orario. Per informazioni sul modo in cui le schede orario vengono precompilate, vedi [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Attività, problemi e progetti precompilati che vengono visualizzati automaticamente, in base al modo in cui l’amministratore di Workfront imposta le preferenze della scheda orario. Per informazioni sulle modalità di precompilazione delle schede orario, vedere [Configurare le preferenze relative alle ore e alla scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
   Solo le attività e i problemi assegnati sono precompilati nella scheda orario. Le attività e i problemi assegnati ai tuoi team o alle tue mansioni non compilano automaticamente la scheda orario.
 
@@ -118,27 +118,27 @@ Puoi registrare il tempo ai seguenti elementi nella scheda orario:
 
 Per registrare l’ora su una scheda orario:
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon.png) nell’angolo superiore destro di Adobe Workfront, oppure (se disponibile) fai clic sul pulsante **[!UICONTROL Menu principale]** icona ![Menu principale](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
+1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
 
-1. Clic [!UICONTROL **Schede orario**]. La scheda orario corrente viene visualizzata per impostazione predefinita.
+1. Fai clic su [!UICONTROL **Schede orario**]. La scheda orario corrente viene visualizzata per impostazione predefinita.
    ![Scheda orario](assets/timesheet-redesigned-nwe.png)
 
 
-1. (Facoltativo) Fai clic su **a schermo intero** icona ![](assets/full-screen.png) per visualizzare la scheda orario in modalità a schermo intero, fai clic sul pulsante **exit-full-screen** ![](assets/exit-full-screen.png) per tornare alla scheda orario.
+1. (Facoltativo) Fai clic sull&#39;icona **a schermo intero** ![](assets/full-screen.png) per visualizzare la scheda orario in modalità a schermo intero, quindi fai clic sull&#39;icona **a schermo intero** ![](assets/exit-full-screen.png) per tornare alla scheda orario.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
-1. (Facoltativo) Per aggiungere un progetto, un’attività o un problema alla scheda orario, fai clic sul pulsante **Aggiungi elemento** menu a discesa nell’angolo superiore sinistro della scheda orario, quindi fai clic su **Aggiungi progetti**, **Aggiungi attività**, o **Aggiungi problemi**.
+1. (Facoltativo) Per aggiungere un progetto, un&#39;attività o un problema alla scheda attività, fai clic sul menu a discesa **Aggiungi elemento** nell&#39;angolo superiore sinistro della scheda attività, quindi fai clic su **Aggiungi progetti**, **Aggiungi attività** o **Aggiungi problemi**.
 
    Viene visualizzato un elenco di progetti, attività o problemi.
 
    <!--drafted for full screen mode for add projects story - align it with the rest of the steps when you enable this:: 1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the list of objects in full-screen mode.-->
 
-1. (Facoltativo) Fai clic sull’icona di ricerca ![Cerca un elemento](assets/search-icon.png) per cercare un elemento specifico utilizzando una parola chiave da aggiungere alla scheda orario.
+1. (Facoltativo) Fai clic sull&#39;icona di ricerca ![Cerca un elemento](assets/search-icon.png) per cercare un elemento specifico utilizzando una parola chiave da aggiungere alla scheda orario.
 
 1. (Facoltativo) Espandere i menu a discesa di filtro, visualizzazione o raggruppamento per applicarne o personalizzarne uno e visualizzare le informazioni sull&#39;elemento desiderate.
 
-1. Seleziona uno o più elementi nell’elenco, quindi fai clic su **Aggiungi**.
+1. Seleziona uno o più elementi nell&#39;elenco, quindi fai clic su **Aggiungi**.
 
    Se sono stati aggiunti meno di 50 elementi alla volta, gli elementi verranno aggiunti alla scheda orario. Le attività e i problemi sono elencati con il nome del progetto.
 
@@ -149,7 +149,9 @@ Per registrare l’ora su una scheda orario:
 
 1. (Facoltativo) Se aggiungi 50 o più elementi contemporaneamente, viene visualizzato un messaggio di conferma con il numero di elementi aggiunti alla scheda orario.
 
-   Clic **Aggiungi tutto** per aggiungere tutti gli elementi o fare clic su **Annulla** per interrompere l&#39;aggiunta degli elementi selezionati, **Annulla** per chiudere l&#39;elenco di elementi.
+   Fai clic su **Aggiungi tutti** per aggiungere tutti gli elementi
+Oppure
+Fai clic su **Annulla** per interrompere l&#39;aggiunta degli elementi selezionati, quindi su **Annulla** per chiudere l&#39;elenco degli elementi.
 
    Le attività e i problemi sono elencati con il nome del progetto.
 
@@ -159,7 +161,7 @@ Per registrare l’ora su una scheda orario:
 
    <!--(ensure this stays accurate)-->
 
-1. (Facoltativo) Fai clic su **Comprimi** ![](assets/collapse-icon.png) o **Espandi** ![](assets/expand-icon.png) icone accanto al nome del progetto per visualizzare o nascondere l’elenco delle attività e dei problemi del progetto.
+1. (Facoltativo) Fai clic sulle icone **Comprimi** ![](assets/collapse-icon.png) o **Espandi** ![](assets/expand-icon.png) accanto al nome del progetto per visualizzare o nascondere l&#39;elenco delle attività e dei problemi del progetto.
 
 
    >[!TIP]
@@ -173,7 +175,7 @@ Per registrare l’ora su una scheda orario:
    >     * Maiusc + Opzione + freccia Giù per computer Mac.
 
 
-1. (Facoltativo) Per fissare manualmente un elemento che viene visualizzato automaticamente nella scheda orario, passa il puntatore del mouse sul nome dell’elemento, quindi fai clic su **pin** icona ![](assets/empty-pin-icon.png).
+1. (Facoltativo) Per fissare manualmente un elemento da visualizzare automaticamente sulla scheda orario, passa il puntatore del mouse sul nome dell&#39;elemento e fai clic sull&#39;icona **pin** ![](assets/empty-pin-icon.png).
 
    >[!TIP]
    >
@@ -181,14 +183,14 @@ Per registrare l’ora su una scheda orario:
    >   * Opzione + P per computer Windows e Mac.
 
 
-1. (Facoltativo) Fai clic sull’icona di ricerca ![](assets/search-icon.png) e inizia a digitare una parola chiave per trovare un progetto, un’attività o un problema nella scheda orario.
+1. (Facoltativo) Fare clic sull&#39;icona di ricerca ![](assets/search-icon.png) e iniziare a digitare una parola chiave per trovare un progetto, un&#39;attività o un problema nella scheda attività.
 
-1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato **Assegnare manualmente i ruoli alle voci orarie** , selezionare una mansione dal menu a discesa. Il ruolo specificato quando si è assegnati all&#39;elemento di lavoro viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un ruolo sull&#39;oggetto, il Ruolo principale viene visualizzato come predefinito. Per ulteriori informazioni su questa impostazione, consulta l’articolo [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato l&#39;impostazione **Assegnare manualmente le mansioni alle ore**, selezionare una mansione dal menu a discesa. Il ruolo specificato quando si è assegnati all&#39;elemento di lavoro viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un ruolo sull&#39;oggetto, il Ruolo principale viene visualizzato come predefinito. Per ulteriori informazioni su questa impostazione, vedere l&#39;articolo [Configurare le preferenze relative alle ore e alle schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-   ![Tempo di connessione per più ruoli nella scheda orario](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
+   ![Registra ora per più ruoli nella scheda orario](assets/job-role-plus-sign-and-boxes-in-redesigned-timesheet.png)
 
 
-1. (Facoltativo) Fai clic su **+** per aggiungere un’altra riga, quindi seleziona un nuovo tipo di ora dal menu a discesa nella [!UICONTROL Tipo di Ora] colonna per registrare l&#39;ora per un tipo di ora diverso.
+1. (Facoltativo) Fai clic sull&#39;icona **+** per aggiungere un&#39;altra riga, quindi seleziona un nuovo tipo di ora dal menu a discesa nella colonna [!UICONTROL Tipo di ora] per registrare l&#39;ora per un tipo di ora diverso.
 
    ![Menu a discesa Tipo di Ora](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
@@ -199,7 +201,7 @@ Per registrare l’ora su una scheda orario:
    >   * Ctrl + Opzione + + per computer Windows
    >   * Cmd + Opzione + + per computer Mac
 
-   I tipi di ore sono disponibili a seconda di ciò che è stato definito a livello di sistema, progetto e utente, come descritto in [Definire i tipi di ore e la disponibilità per le schede orario](define-hour-types-and-availability.md).
+   I tipi di ore sono disponibili a seconda di ciò che è stato definito a livello di sistema, progetto e utente, come descritto in [Definire i tipi di ore e la disponibilità](define-hour-types-and-availability.md).
 
    Impossibile modificare il tipo di ora dopo la chiusura di una scheda orario.
 
@@ -209,7 +211,7 @@ Per registrare l’ora su una scheda orario:
    >
    >Se si desidera mantenere il tipo di ora disattivato associato all&#39;ora registrata in precedenza, è consigliabile aggiungere una nuova riga per l&#39;elemento di lavoro per il quale si desidera registrare ulteriore tempo e selezionare un nuovo tipo di ora.
 
-1. Fai clic su **eliminare** icona  ![](assets/delete.png) accanto al ruolo per rimuoverlo. Viene rimosso anche qualsiasi orario registrato per il ruolo.
+1. Fai clic sull&#39;icona **elimina** ![](assets/delete.png) accanto alla mansione per rimuoverla. Viene rimosso anche qualsiasi orario registrato per il ruolo.
 
    >[!TIP]
    >
@@ -219,19 +221,19 @@ Per registrare l’ora su una scheda orario:
 
 1. Specifica per quanto tempo desideri accedere a un dato giorno nella sezione timeline della scheda orario, quindi fai clic all’esterno della casella delle ore per salvare la voce delle ore. Le ore vengono salvate automaticamente. La riga per la quale si registra l&#39;ora è evidenziata in blu chiaro e la casella di immissione ore è evidenziata in blu scuro.
 
-   ![Casella tempo di connessione nella scheda orario](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
+   ![Casella dell&#39;ora del registro nella scheda orario](assets/log-time-with-blue-hightlight-redesigned-timesheet.png)
 
-   Registra il tempo in ore o giorni. Questa impostazione viene configurata dagli utenti con una licenza Pianificazione o dall&#39;amministratore di sistema, come descritto in [Configurare se il tempo è registrato in ore o giorni](../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+   Registra il tempo in ore o giorni. Questa impostazione è configurata dagli utenti con una licenza Pianificazione o dall&#39;amministratore di sistema, come descritto in [Specificare se l&#39;ora è registrata in ore o giorni](../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
 
    >[!IMPORTANT]
    >
    >È necessario salvare la scheda orario manualmente se si verifica uno dei seguenti scenari:
    >
-   >* Il ruolo associato all’ora registrata in precedenza è stato modificato e il **Assegnare manualmente i ruoli alle voci orarie** l&#39;impostazione è stata disabilitata. La registrazione dell’ora per le nuove date la assocerà a un ruolo diverso.
+   >* Il ruolo associato all&#39;ora registrata in precedenza è stato modificato e l&#39;impostazione **Assegnare manualmente le mansioni alle ore** è stata disabilitata. La registrazione dell’ora per le nuove date la assocerà a un ruolo diverso.
    >   
-   >   Se il ruolo è stato modificato e il **Assegnare manualmente i ruoli alle voci orarie** se l&#39;impostazione è abilitata, puoi registrare l&#39;ora o aggiornare il ruolo e le modifiche vengono salvate automaticamente.
+   >   Se il ruolo è stato modificato e l&#39;impostazione **Assegna manualmente i ruoli alle voci orarie** è abilitata, è possibile registrare l&#39;ora o aggiornare il ruolo e le modifiche vengono salvate automaticamente.
    >
-   >* La mansione assegnata a un’attività o a un problema è diversa dalla mansione con cui il proprietario della scheda orario registra il tempo <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
+   >* La mansione assegnata a un&#39;attività o a un problema è diversa dalla mansione che il proprietario della scheda orario sta registrando con <!--or assigned to them_ this last  piece came from a Support note but but sure what role it's referring to. Leaving it out for now.-->.
    >
    >La scheda orario salverà nuovamente l’ora automaticamente quando non vi sono più voci in conflitto tra i due ruoli.
    >
@@ -242,7 +244,7 @@ Per registrare l’ora su una scheda orario:
    >
    >Non è possibile registrare un numero di ore di straordinario maggiore delle ore totali correnti nella scheda orario. Ad esempio, se hai registrato 7 ore sulla scheda orario finora, non puoi registrare 8 ore di lavoro straordinario.
 
-1. (Facoltativo) Fai clic su **Commento** per aggiungere un commento per la voce oraria.
+1. (Facoltativo) Fai clic su **Commento** per aggiungere un commento alla tua immissione di ore.
 
    ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
@@ -251,7 +253,7 @@ Per registrare l’ora su una scheda orario:
    >   Quando si utilizza una tastiera QWERTY standard dopo aver fatto clic sulla casella di immissione ore, premere i tasti seguenti per aprire la casella dei commenti:
    >   * Maiusc+F2 per entrambi i computer Windows e Mac.
 
-1. Clic **Fine** per salvare il commento.
+1. Fai clic su **Fine** per salvare il commento.
 
    >[!TIP]
    >
@@ -260,7 +262,7 @@ Per registrare l’ora su una scheda orario:
    >   * Cmd + Invio per computer Mac.
 
 
-1. (Facoltativo) Fai clic su **Mostra commenti** nella barra degli strumenti per visualizzare i commenti relativi alle ore sotto l&#39;elemento di lavoro.
+1. (Facoltativo) Fai clic su **Mostra commenti** nella barra degli strumenti per visualizzare i commenti sulle ore inserite sotto l&#39;elemento di lavoro.
 
    ![Commenti elencati in elemento nella scheda orario](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
@@ -268,7 +270,7 @@ Per registrare l’ora su una scheda orario:
    >
    >   Tutte le modifiche apportate alla scheda orario vengono salvate automaticamente.
 
-1. (Facoltativo) Fai clic sulla riga di un’attività o di un problema, quindi fai clic su **Apri riepilogo** nell’angolo superiore destro della scheda orario per aggiungere un aggiornamento o aggiornare informazioni sull’attività o sul problema. Il pannello Riepilogo si apre a destra.
+1. (Facoltativo) Fai clic sulla riga di un&#39;attività o di un problema, quindi fai clic su **Apri riepilogo** nell&#39;angolo superiore destro della scheda orario per aggiungere un aggiornamento o per aggiornare le informazioni sull&#39;attività o sul problema. Il pannello Riepilogo si apre a destra.
 
    ![pannello di riepilogo per l&#39;attività aperta nella scheda orario](assets/summary-panel-for-task-opened-in-timesheet-redesigned-timesheet.png)
 
@@ -278,21 +280,21 @@ Per registrare l’ora su una scheda orario:
    >
    >Non è possibile aggiungere commenti ai progetti o alle ore General Time.
 
-1. Clic [!UICONTROL **Chiudi riepilogo**] per chiudere il pannello Riepilogo e tornare alla scheda orario.
+1. Fai clic su [!UICONTROL **Chiudi riepilogo**] per chiudere il pannello Riepilogo e tornare alla scheda orario.
 
-1. (Facoltativo) Fai clic su [!UICONTROL **Aggiornamenti**] nel pannello a sinistra, aggiungi un aggiornamento alla scheda orario. Per ulteriori informazioni sugli aggiornamenti di Workfront, consulta [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Facoltativo) Fai clic su [!UICONTROL **Aggiornamenti**] nel pannello a sinistra, quindi aggiungi un aggiornamento alla scheda orario. Per ulteriori informazioni sugli aggiornamenti di Workfront, vedere [Aggiorna lavoro](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    ![enter-an-update-in-redesign-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
 
-1. (Facoltativo) Torna a **Scheda orario** per chiudere o inviare la scheda orario.
+1. (Facoltativo) Torna all&#39;area **Scheda orario** per chiudere o inviare la scheda orario.
 
-   * **Chiudi**: al termine dell’aggiornamento, chiudi la scheda orario. Questa opzione è disponibile solo quando la scheda orario non è associata a un approvatore.
+   * **Chiudi**: chiudi la scheda orario al termine dell&#39;aggiornamento. Questa opzione è disponibile solo quando la scheda orario non è associata a un approvatore.
 
-   * **Invia per approvazione:** Questa opzione è disponibile solo se nella scheda orario è presente un approvatore. Salva le modifiche e invia per l&#39;approvazione. Puoi aprire la scheda orario dopo averla chiusa facendo clic su **Richiama**, se non è stata ancora concessa un&#39;approvazione. Per ulteriori informazioni, consulta [Invia una scheda orario per l&#39;approvazione](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+   * **Invia per approvazione:** Questa opzione è disponibile solo se nella scheda orario è presente un approvatore. Salva le modifiche e invia per l&#39;approvazione. Se non è stata ancora concessa un&#39;approvazione, è possibile aprire la scheda orario dopo averla chiusa facendo clic su **Richiama**. Per ulteriori informazioni, vedere [Inviare una scheda orario per l&#39;approvazione](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
-   * **Rifiuta**: questa opzione viene visualizzata quando si è un approvatore della scheda orario e la scheda orario è stata inviata per l’approvazione. Facendo clic su di essa, lo stato della scheda orario viene modificato in Rifiutato e la scheda orario rimane aperta.
+   * **Rifiuta**: questa opzione viene visualizzata quando si è un approvatore della scheda orario e la scheda orario è stata inviata per l&#39;approvazione. Facendo clic su di essa, lo stato della scheda orario viene modificato in Rifiutato e la scheda orario rimane aperta.
 
-   * **Approva**: questa opzione viene visualizzata quando si è un approvatore della scheda orario e la scheda orario è stata inviata per l’approvazione. Facendo clic su di essa, lo stato della scheda orario viene modificato in Approvato e la scheda orario viene chiusa.
+   * **Approva**: questa opzione viene visualizzata quando si è un approvatore della scheda orario e la scheda orario è stata inviata per l&#39;approvazione. Facendo clic su di essa, lo stato della scheda orario viene modificato in Approvato e la scheda orario viene chiusa.
 
    >[!TIP]
    >
@@ -301,7 +303,7 @@ Per registrare l’ora su una scheda orario:
 1. (Condizionale) Se la scheda attività è stata chiusa o inviata per l&#39;approvazione, fare clic su una delle opzioni seguenti:
 
    * **Riapri**: questa opzione è disponibile per le schede orario già chiuse e prive di approvatori o già approvate. Riapri la scheda orario per modificare le ore inserite.
-   * **Richiama**: questa opzione è disponibile per le schede orario che sono state inviate per l’approvazione ma che non sono ancora state approvate o rifiutate. Clic **Richiama** per riaprire la scheda orario e modificare le ore inserite.
+   * **Ricorda**: questa opzione è disponibile per le schede orario inviate per l&#39;approvazione ma non ancora approvate o rifiutate. Fai clic su **Richiama** per riaprire la scheda orario e modificare le ore inserite.
 
 #### Rimuovi un elemento dalla scheda orario
 
@@ -310,18 +312,20 @@ Per registrare l’ora su una scheda orario:
 Per rimuovere una voce di ora da una scheda orario:
 
 1. Vai alla scheda orario e trova la voce dell&#39;ora che desideri rimuovere.
-1. Sostituire le ore immesse con 0 Oppure Rimuovere le ore e sostituirle con 0, quindi premere Invio.
+1. Sostituisci le ore inserite con 0
+Oppure
+Rimuovere le ore e sostituirle con 0, quindi premere Invio.
 
    Le ore vengono rimosse e la scheda orario viene salvata automaticamente.
 
-È possibile rimuovere un elemento (progetto, attività o problema) dalla scheda attività sbloccandolo, se non si è ancora registrato il tempo per esso e se l&#39;elemento è stato aggiunto manualmente (come descritto nei passaggi 4-8 in [Tempo di connessione a una scheda orario](#log-time-on-a-timesheet) in questo articolo). <!--ensure this stays accurate-->
+È possibile rimuovere un elemento (progetto, attività o problema) dalla scheda attività sbloccandolo, se non si è ancora registrato tempo per esso e se l&#39;elemento è stato aggiunto manualmente (come descritto nei passaggi 4-8 nella sezione [Registra tempo su una scheda attività](#log-time-on-a-timesheet) in questo articolo). <!--ensure this stays accurate-->
 
-Non puoi rimuovere automaticamente gli elementi inclusi nella scheda orario in base alle preferenze della scheda orario nel tuo sistema Workfront o gruppo configurato per precompilare le schede orario (come descritto in [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). Gli elementi smettono di prepopolare la scheda orario quando le date degli elementi si trovano al di fuori dell’intervallo di tempo della scheda orario.
+Non puoi rimuovere automaticamente gli elementi inclusi nella scheda orario in base alle preferenze della scheda orario nel tuo sistema Workfront o gruppo configurato per precompilare le schede orario (come descritto in [Configurare le preferenze della scheda orario e delle ore](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). Gli elementi smettono di prepopolare la scheda orario quando le date degli elementi si trovano al di fuori dell’intervallo di tempo della scheda orario.
 
 Per rimuovere un elemento dalla scheda orario aggiunto manualmente:
 
 1. Verificare che non sia stato registrato alcun orario per l&#39;elemento.
-1. Fai clic su **sblocca** icona ![Fissa un elemento](assets/pin-icon.png) accanto all&#39;elemento per rimuovere l&#39;elemento dalla scheda orario.
+1. Fai clic sull&#39;icona **sblocca** ![Aggiungi un elemento](assets/pin-icon.png) accanto all&#39;elemento per sbloccare l&#39;elemento dalla scheda orario.
 
    >[!TIP]
    >
@@ -336,37 +340,37 @@ Puoi registrare l’ora specifica del progetto nella Home.
 
 Per informazioni generali sull&#39;utilizzo dell&#39;area Home, vedere le sezioni seguenti:
 
-* Per informazioni sull&#39;utilizzo dell&#39;area Home legacy, vedere [Utilizzare l’area Home](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* Per informazioni sull&#39;utilizzo della nuova area Home, vedere [Introduzione alla nuova home](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
+* Per informazioni sull&#39;utilizzo dell&#39;area Home legacy, vedere [Utilizzare l&#39;area Home](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+* Per informazioni sull&#39;utilizzo della nuova area Home, vedere [Introduzione alla nuova Home](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 #### Tempo di connessione per un elemento di lavoro dalla nuova area Home
 
-Puoi registrare il tempo necessario per le attività e i problemi in qualsiasi widget utilizzando il pannello Riepilogo nell’area Home. Per informazioni, vedere [Pannello Riepilogo](#summary-panel) in questo articolo.
+Puoi registrare il tempo necessario per le attività e i problemi in qualsiasi widget utilizzando il pannello Riepilogo nell’area Home. Per informazioni, vedere la sezione [Summary panel](#summary-panel) in questo articolo.
 
 Inoltre, per registrare il tempo di un elemento nel widget Il mio lavoro:
 
-1. Arrivato al **Home** area.
-1. Aggiungi il **Il mio lavoro** widget a casa tua.
-1. (Facoltativo) Seleziona un’attività, un problema o una richiesta in un elenco, quindi fai clic su **Lavoraci**
-1. Passa il cursore del mouse sull’attività o sul problema per il quale vuoi registrare l’ora, quindi fai clic su **Tempo di connessione** icona ![](assets/log-time-icon-in-new-home.png) a destra delle informazioni sull&#39;attività.
+1. Ho raggiunto l&#39;area **Home**.
+1. Aggiungi il widget **Il mio lavoro** alla Home.
+1. (Facoltativo) Seleziona un&#39;attività, un problema o una richiesta in un elenco, quindi fai clic su **Lavoraci**
+1. Passa il puntatore del mouse sull&#39;attività o sul problema per cui desideri registrare l&#39;ora, quindi fai clic sull&#39;icona **Registra ora** ![](assets/log-time-icon-in-new-home.png) a destra delle informazioni sull&#39;attività.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
 
-1. Clic **Tempo di connessione**.
+1. Fare clic su **Tempo di registrazione**.
 
    L&#39;ora registrata viene visualizzata nella sezione Ore dell&#39;oggetto e nella scheda orario.
 
 #### Tempo di connessione di un elemento di lavoro dall’area Home legacy
 
-1. In **Elenco lavori** , selezionare l&#39;elemento in cui si desidera registrare l&#39;ora.
-1. Nel pannello di destra, fai clic su **Tempo di connessione**.
+1. Nell&#39;area **Elenco lavori**, selezionare l&#39;elemento in cui si desidera registrare l&#39;ora.
+1. Nel pannello a destra, fai clic su **Tempo di connessione**.
 
    ![](assets/log-time-home-350x181.png)
 
-1. In **Immetti ore** dal menu a discesa, selezionare il tipo di ora appropriato.\
-   I tipi di ore sono disponibili a seconda di ciò che è stato definito a livello di sistema, progetto e utente, come descritto in [Definire i tipi di ore e la disponibilità per le schede orario](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
-1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato **Assegnare manualmente i ruoli alle voci orarie** , selezionare una mansione dal menu a discesa. Il ruolo specificato quando si è assegnati all&#39;elemento di lavoro viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un ruolo sull&#39;oggetto, il Ruolo principale viene visualizzato come predefinito. Per ulteriori informazioni su questa impostazione, consulta l’articolo [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
-1. Specifica l’ora di registrazione, quindi fai clic su **Tempo di connessione**.
+1. Nel menu a discesa **Immetti ore**, seleziona il tipo di ora appropriato.\
+   I tipi di ore sono disponibili a seconda di ciò che è stato definito a livello di sistema, progetto e utente, come descritto in [Definire i tipi di ore e la disponibilità](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+1. (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato l&#39;impostazione **Assegnare manualmente le mansioni alle ore**, selezionare una mansione dal menu a discesa. Il ruolo specificato quando si è assegnati all&#39;elemento di lavoro viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un ruolo sull&#39;oggetto, il Ruolo principale viene visualizzato come predefinito. Per ulteriori informazioni su questa impostazione, vedere l&#39;articolo [Configurare le preferenze relative alle ore e alle schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. Specifica l&#39;ora di registrazione, quindi fai clic su **Ora di registrazione**.
 
    L&#39;ora registrata viene visualizzata nella sezione Ore dell&#39;oggetto e nella scheda orario.
 
@@ -374,24 +378,24 @@ Inoltre, per registrare il tempo di un elemento nel widget Il mio lavoro:
 
 Puoi registrare l’ora specifica di un progetto su un progetto, un’attività o un problema nelle sezioni seguenti:
 
-* [Sezione Aggiornamenti](#updates-section)
+* [Sezione aggiornamenti](#updates-section)
 * [Sezione ore](#hours-section)
 
 #### Sezione aggiornamenti{#updates-section}
 
 Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attività o un problema, è necessario disporre dei seguenti elementi:
 
-* L’accesso e le autorizzazioni corretti, come descritto nella sezione [Requisiti di accesso](#access-requirements) in questo articolo.
+* L&#39;accesso e le autorizzazioni corretti, come descritto nella sezione [Requisiti di accesso](#access-requirements) in questo articolo.
 
-* L’amministratore di Workfront deve abilitare l’ora di accesso direttamente ai progetti in [!UICONTROL **Timesheet e ore**]> [!UICONTROL **Preferenze**] nell’area Sistema, se desideri registrare l’ora direttamente in un progetto.
+* Se desideri registrare l&#39;ora direttamente su un progetto, il tuo amministratore di Workfront deve abilitare l&#39;impostazione Registra ora direttamente sui progetti in [!UICONTROL **Scheda orario e ore**]> [!UICONTROL **Preferenze**] nell&#39;area Sistema.
 
-  Per ulteriori informazioni su come consentire agli utenti di registrare le ore direttamente nei progetti, consulta [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Per ulteriori informazioni su come consentire agli utenti di registrare le ore direttamente nei progetti, consulta [Configurare le preferenze di ore e schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attività o un problema:
 
 1. Vai a un progetto, attività o problema.
 1. Nel pannello a sinistra, seleziona **Aggiornamenti**.
-1. Clic **Tempo di connessione**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
+1. Fare clic su **Tempo di registrazione**. <!-- did Anna B change the casing for this button? If yes and if she changed it for the other areas, update screen shot too-->
 
    Viene visualizzata la finestra di dialogo Registra ora.
 
@@ -405,15 +409,15 @@ Per registrare l’ora nella sezione Aggiornamenti di un progetto, un’attivit�
 
 1. Specifica le seguenti informazioni:
 
-   * **Tipo di Ora**: seleziona un Tipo di ora dal menu a discesa, se diverso da quello visualizzato per impostazione predefinita.
+   * **Tipo di Ora**: seleziona un Tipo di Ora dal menu a discesa, se diverso da quello visualizzato per impostazione predefinita.
 
-     A seconda dei tipi di ore configurati nel sistema, le opzioni disponibili possono variare. Per ulteriori informazioni sulla configurazione dei tipi di ora, consulta [Definire i tipi di ore e la disponibilità per le schede orario](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     A seconda dei tipi di ore configurati nel sistema, le opzioni disponibili possono variare. Per ulteriori informazioni sulla configurazione dei tipi di lavoro, vedere [Definire i tipi di lavoro e la disponibilità](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **Ruolo**: (Condizionale) se l’amministratore del Workfront o del gruppo ha abilitato **Assegnare manualmente i ruoli alle voci orarie** , seleziona un **Ruolo** dal menu a discesa. Il Ruolo specificato quando si è assegnati all&#39;oggetto viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un Ruolo nell&#39;oggetto, il Ruolo principale viene visualizzato come impostazione predefinita. Per ulteriori informazioni su questa impostazione, consulta l’articolo [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Ruolo**: (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato l&#39;impostazione **Assegna mansioni alle voci orarie manualmente**, seleziona una **Mansione** dal menu a discesa. Il Ruolo specificato quando si è assegnati all&#39;oggetto viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un Ruolo nell&#39;oggetto, il Ruolo principale viene visualizzato come impostazione predefinita. Per ulteriori informazioni su questa impostazione, vedere l&#39;articolo [Configurare le preferenze relative alle ore e alle schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-   * **Ore**: immetti il numero di ore per il progetto, l’attività o il problema.
+   * **Ore**: immetti il numero di ore per il progetto, l&#39;attività o il problema.
 
-1. Clic **Tempo di connessione**.
+1. Fare clic su **Tempo di registrazione**.
 
    L&#39;ora registrata viene visualizzata nella sezione Ore dell&#39;oggetto e nella scheda orario.
 
@@ -425,15 +429,15 @@ Oppure
 
 È necessario disporre di tutti i seguenti elementi:
 
-* Una licenza Pianificazione con accesso amministrativo alle schede orario e alle ore. Per ulteriori informazioni sulla concessione dell&#39;accesso amministrativo alle schede orario e alle ore, vedi [Concedere agli utenti l&#39;accesso amministrativo a determinate aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* Autorizzazioni Contribute o superiori per il progetto con accesso a Log Hours (Registra ore). Per ulteriori informazioni sulla concessione delle autorizzazioni per i progetti, consulta [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-* L’amministratore di Workfront deve abilitare l’ora di accesso direttamente ai progetti in **Schede orario e ore > Preferenze** dell’area Configura, se desideri registrare l’ora direttamente in un progetto. Per ulteriori informazioni su come consentire agli utenti di registrare le ore direttamente nei progetti, consulta [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Una licenza Pianificazione con accesso amministrativo alle schede orario e alle ore. Per ulteriori informazioni sulla concessione dell&#39;accesso amministrativo alle schede orario e alle ore, vedere [Concedere agli utenti l&#39;accesso amministrativo ad alcune aree](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Autorizzazioni Contribute o superiori per il progetto con accesso a Registra ore. Per ulteriori informazioni sulla concessione delle autorizzazioni per i progetti, vedere [Condividere un progetto in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* Se desideri registrare l&#39;ora direttamente su un progetto, il tuo amministratore di Workfront deve abilitare l&#39;impostazione Registra tempo direttamente sui progetti nella sezione **Timesheet &amp; Hours > Preferences** dell&#39;area Setup (Configurazione). Per ulteriori informazioni su come consentire agli utenti di registrare le ore direttamente nei progetti, consulta [Configurare le preferenze di ore e schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Per registrare il tempo nella sezione Ore di un progetto, attività o problema:
 
 1. Vai a un progetto, attività o problema.
 1. Nel pannello a sinistra, fai clic su **Ore**.
-1. Clic **Tempo di connessione**.
+1. Fare clic su **Tempo di registrazione**.
 
    Viene visualizzata la finestra di dialogo Registra ore.
 
@@ -442,30 +446,30 @@ Per registrare il tempo nella sezione Ore di un progetto, attività o problema:
    * **Proprietario:** Per impostazione predefinita, il tuo nome viene visualizzato in questo campo.\
      Se si registrano le ore per un altro utente, specificarne il nome.
 
-   * **Tipo di Ora**: seleziona un Tipo di ora dal menu a discesa, se diverso da quello visualizzato per impostazione predefinita.
+   * **Tipo di Ora**: seleziona un Tipo di Ora dal menu a discesa, se diverso da quello visualizzato per impostazione predefinita.
 
-     A seconda dei tipi di ore configurati nel sistema, le opzioni disponibili possono variare. Per ulteriori informazioni sulla configurazione dei tipi di ora, consulta [Definire i tipi di ore e la disponibilità per le schede orario](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     A seconda dei tipi di ore configurati nel sistema, le opzioni disponibili possono variare. Per ulteriori informazioni sulla configurazione dei tipi di lavoro, vedere [Definire i tipi di lavoro e la disponibilità](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
-   * **Ruolo**: (Condizionale) se l’amministratore del Workfront o del gruppo ha abilitato **Assegnare manualmente i ruoli alle voci orarie** , seleziona un **Ruolo** dal menu a discesa. Il Ruolo specificato quando si è assegnati all&#39;oggetto viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un Ruolo nell&#39;oggetto, il Ruolo principale viene visualizzato come impostazione predefinita. Per ulteriori informazioni su questa impostazione, consulta l’articolo [Configurare le preferenze di orario e scheda orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   * **Ruolo**: (Condizionale) Se l&#39;amministratore del Workfront o del gruppo ha abilitato l&#39;impostazione **Assegna mansioni alle voci orarie manualmente**, seleziona una **Mansione** dal menu a discesa. Il Ruolo specificato quando si è assegnati all&#39;oggetto viene visualizzato per impostazione predefinita. Se all&#39;utente non è stato assegnato un Ruolo nell&#39;oggetto, il Ruolo principale viene visualizzato come impostazione predefinita. Per ulteriori informazioni su questa impostazione, vedere l&#39;articolo [Configurare le preferenze relative alle ore e alle schede orario](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
      ![](assets/log-time-box-in-hours-section-on-task.png)
-   * **Ore**: immetti il numero di ore per il progetto, l’attività o il problema.
+   * **Ore**: immetti il numero di ore per il progetto, l&#39;attività o il problema.
 
-1. Clic **Tempo di connessione**.
+1. Fare clic su **Tempo di registrazione**.
 
 ### Pannello di Riepilogo
 
 Nel pannello Riepilogo potete registrare il tempo per le attività e i problemi.
-Per ulteriori informazioni, consulta [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Per ulteriori informazioni, vedere [Panoramica di riepilogo](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ![](assets/summary-hour-log.png)
 
 ### Bacheche {#boards}
 
 È possibile registrare il tempo sulle schede collegate su una scheda Workfront. Questa è la stessa procedura utilizzata per registrare il tempo su un’attività o un problema e le ore registrate sulla scheda vengono salvate sull’attività o sul problema connesso.
-Per ulteriori informazioni, consulta [Utilizzare le schede collegate sulle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Per ulteriori informazioni, vedere [Utilizzare schede collegate nelle bacheche](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ### App mobile {#mobile-app}
 
 Puoi registrare l’ora dall’app mobile di Workfront.
-Per ulteriori informazioni, consulta [Adobe Workfront per Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) o [Adobe Workfront per iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+Per ulteriori informazioni, vedere [Adobe Workfront per Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) o [Adobe Workfront per iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).

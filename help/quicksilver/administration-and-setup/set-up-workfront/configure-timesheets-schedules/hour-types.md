@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 Esistono due set di tipi di ore:
 
-* **Tipi di lavoro specifici per progetto**: tempo impiegato per l’accesso a progetti, attività e problemi. I tipi di ore specifici del progetto possono essere associati alle ore inserite ovunque in [!DNL Adobe Workfront] dove è possibile registrare il tempo per progetti, attività e problemi.
+* **Tipi di lavoro specifici per il progetto**: tempo impiegato per l&#39;accesso a progetti, attività e problemi. I tipi di lavoro specifici del progetto possono essere associati alle ore inserite in qualsiasi punto di [!DNL Adobe Workfront], dove è possibile registrare il tempo per progetti, attività e problemi.
 
-  Quando si effettua l’accesso [!DNL Workfront], i tipi di lavoro specifici per il progetto disponibili dipendono dalle opzioni di configurazione impostate a livello di sistema, progetto e utente.
+  Quando si registra l&#39;ora in [!DNL Workfront], i tipi di ora specifici del progetto disponibili dipendono dalle opzioni di configurazione impostate a livello di sistema, progetto e utente.
 
   Sono sempre disponibili i seguenti tipi di lavoro predefiniti specifici per il progetto:
 
@@ -35,13 +35,13 @@ Esistono due set di tipi di ore:
    * Ore di Attività
    * Tempo del problema
 
-  Il [!DNL Workfront] l’amministratore determina quali tipi di ore specifici del progetto vengono resi disponibili, come descritto in [Definire i tipi di ore e la disponibilità per le schede orario](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+  L&#39;amministratore [!DNL Workfront] determina quali tipi di ore specifiche del progetto sono rese disponibili, come descritto in [Definire i tipi di ore e la disponibilità](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
   >[!NOTE]
   >
-  >Se si abilita qualsiasi tipo di ora specifica per il progetto nel [!DNL Workfront] di sistema, è necessario abilitare almeno un tipo di ora specifico per il progetto in ogni progetto del sistema. Non è possibile abilitare un tipo di ora specifico per il progetto a livello di sistema e non sono disponibili tipi di ora specifici per il progetto a livello di progetto.
+  >Se si abilita qualsiasi tipo di ora specifico del progetto nel sistema [!DNL Workfront], è necessario abilitare almeno un tipo di ora specifico del progetto in ogni progetto del sistema. Non è possibile abilitare un tipo di ora specifico per il progetto a livello di sistema e non sono disponibili tipi di ora specifici per il progetto a livello di progetto.
 
-* **Tipi di Ora Generali**: le ore generali non possono essere associate a un progetto, un’attività o un problema e vengono registrate direttamente in una scheda orario. Per ulteriori informazioni sull&#39;ora di registrazione, vedere [Tempo di connessione](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* **Tipi di lavoro generali**: le ore generali non possono essere associate a un progetto, un&#39;attività o un problema e vengono registrate direttamente in una scheda orario. Per ulteriori informazioni sull&#39;ora di registrazione, vedere [Ora di registrazione](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Requisiti di accesso
 
@@ -61,7 +61,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un [!DNL Workfront] amministratore.</p> <p><b>NOTA</b>: se ancora non disponi dell’accesso, chiedi al tuo [!DNL Workfront] amministratore se impostano restrizioni aggiuntive nel livello di accesso. Per informazioni su come [!DNL Workfront] l'amministratore può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td> <p>Devi essere un amministratore [!DNL Workfront].</p> <p><b>NOTA</b>: se non disponi ancora dell'accesso, chiedi all'amministratore di [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il tuo livello di accesso, vedi <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,27 +70,27 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
 
 Workfront viene fornito con un set di tipi di ora incorporati. Questi tipi di lavoro non possono essere modificati e non possono essere nascosti.
 
-I tipi di ora forniti con [!DNL Workfront] sono:
+I tipi di ore forniti con [!DNL Workfront] sono:
 
-* **[!UICONTROL Ore Malattia]**: tipo di ora generale che non può essere associato alle ore inserite in un progetto, attività o problema. Le ore di malattia non possono essere conteggiate come ricavi.
-* **[!UICONTROL Tempo di vacanza]**: tipo di ora generale che non può essere associato alle ore inserite in un progetto, attività o problema. Il tempo di vacanza non può essere conteggiato come reddito.
-* **[!UICONTROL Costi generali]**: tipo di ora generale che non può essere associato alle ore inserite in un progetto, attività o problema. Tuttavia, può essere conteggiato come ricavo nel processo di pianificazione del progetto.
+* **[!UICONTROL Malattia]**: tipo di ora generale che non può essere associato alle ore inserite in un progetto, attività o problema. Le ore di malattia non possono essere conteggiate come ricavi.
+* **[!UICONTROL Ferie]**: tipo di ora generale che non può essere associato alle ore inserite in un progetto, attività o problema. Il tempo di vacanza non può essere conteggiato come reddito.
+* **[!UICONTROL Costi comuni generali]**: un tipo di ora generale che non può essere associato alle ore inserite in un progetto, attività o problema. Tuttavia, può essere conteggiato come ricavo nel processo di pianificazione del progetto.
 * **[!UICONTROL Ora progetto]**: tipo di ora generale che può essere associato solo alle ore inserite in un progetto.
 * **[!UICONTROL Ora attività]**: tipo di ora generale che può essere associato solo alle ore inserite in un&#39;attività.
 * **[!UICONTROL Ora problema]**: tipo di ora generale che può essere associato solo alle ore inserite in un problema.
 
 ## Crea tipi di lavoro
 
-As a [!DNL Workfront] amministratore, puoi creare nuovi tipi di ore per la tua organizzazione a livello di sistema e di progetto. Dopo aver creato i tipi di ore a livello di sistema e di progetto, gli utenti possono definire i tipi di ore disponibili per progetti e utenti specifici. Per ulteriori informazioni, vedere [Definire i tipi di ore e la disponibilità per le schede orario](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+In qualità di amministratore [!DNL Workfront], puoi creare nuovi tipi di lavoro per la tua organizzazione a livello sia di sistema che di progetto. Dopo aver creato i tipi di ore a livello di sistema e di progetto, gli utenti possono definire i tipi di ore disponibili per progetti e utenti specifici. Per ulteriori informazioni, vedere [Definire i tipi di ore e la disponibilità](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 
 Per creare nuovi tipi di ore:
 
-1. Fai clic su **[!UICONTROL Menu principale]** icona ![](assets/main-menu-icon.png) nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
+1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di [!DNL Adobe] Workfront, quindi fai clic su **[!UICONTROL Configurazione]** ![](assets/gear-icon-settings.png).
 
-1. Clic **[!UICONTROL Timesheet e ore]** > **[!UICONTROL Tipi di Ora]**.
+1. Fai clic su **[!UICONTROL Timesheet &amp; Hours]** > **[!UICONTROL Hour Types]**.
 
-1. Clic **[!UICONTROL Nuovo Tipo di Ora].**
-1. Specifica le seguenti informazioni su **[!UICONTROL Nuovo Tipo di Ora]** forma:
+1. Fai clic su **[!UICONTROL Nuovo tipo di ora].**
+1. Specifica le seguenti informazioni nel modulo **[!UICONTROL New Hour Type]**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,7 +106,7 @@ Per creare nuovi tipi di ore:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Ambito]</td> 
-      <td> <p>Definisci se il tipo di ora è generale o specifico per il progetto selezionando l’ambito corretto nel menu a discesa.</p> <p>I tipi di lavoro generali sono visibili solo nelle schede orario e non possono essere associati a progetti, attività o problemi.</p> <p><b>IMPORTANTE</b>: se hai un Tipo di Ora personalizzato che è [!UICONTROL Specifico del Progetto], poi lo cambi in [!UICONTROL Generale], tutte le Attività, i Problemi e le Ore del Progetto esistenti sono impostate sui loro tipi predefiniti di sistema.</p> </td> 
+      <td> <p>Definisci se il tipo di ora è generale o specifico per il progetto selezionando l’ambito corretto nel menu a discesa.</p> <p>I tipi di lavoro generali sono visibili solo nelle schede orario e non possono essere associati a progetti, attività o problemi.</p> <p><b>IMPORTANTE</b>: se si dispone di un Tipo di Ora personalizzato che è [!UICONTROL Specifico per Progetto], modificarlo in [!UICONTROL Generale], tutte le Attività, i Problemi e le Ore di Progetto esistenti vengono impostate sui relativi tipi predefiniti di sistema.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
@@ -119,22 +119,22 @@ Per creare nuovi tipi di ore:
     </tbody> 
    </table>
 
-   **[!UICONTROL Conta Come Reddito]**: seleziona questa opzione se desideri che la voce dell’ora associata a questo tipo di ora influisca sui calcoli dei ricavi.
+   **[!UICONTROL Conta come ricavi]**: selezionare questa opzione se si desidera che la voce delle ore associata a questo tipo di ore influisca sui calcoli dei ricavi.
 
-1. Clic **[!UICONTROL Crea Tipo di Ora].**
+1. Fai clic su **[!UICONTROL Crea tipo di lavoro].**
 
 ## Disattiva i tipi di lavoro
 
 Se i tipi di ore diventano obsoleti e non si desidera più che gli utenti associno le ore immesse, è possibile disattivare i tipi di ore.
 
-La disattivazione dei tipi di ora nasconde i tipi di ora da qualsiasi punto di [!DNL Workfront] dove sono visibili i tipi di ora.
+La disattivazione dei tipi di ora nasconde i tipi di ora in qualsiasi punto di [!DNL Workfront] in cui i tipi di ora sono visibili.
 
 Per disattivare un tipo di ora:
 
-1. Clic **[!UICONTROL Configurazione]** vicino all&#39;angolo superiore destro di [!DNL Adobe Workfront] sulla barra di navigazione globale.
+1. Fai clic su **[!UICONTROL Configurazione]** nell&#39;angolo superiore destro di [!DNL Adobe Workfront] sulla barra di spostamento globale.
 
-1. Espandi **[!UICONTROL Preferenze Ore e Timesheet]**, quindi fai clic su **[!UICONTROL Tipi di Ora]**.
+1. Espandi **[!UICONTROL Preferenze Ore e Timesheet]**, quindi fai clic su **[!UICONTROL Tipi di lavoro]**.
 
 1. Selezionare il tipo di ora che si desidera disattivare.
 
-1. Clic **[!UICONTROL Disattiva]**.
+1. Fare clic su **[!UICONTROL Disattiva]**.
