@@ -2,20 +2,20 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Configurare il inserisco nell'elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo
-description: Se il firewall o il server di posta è configurato in modo da consentire l'accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell'elenco Consentiti di. In questo modo si apre la comunicazione tra l'ambiente e i server Adobe Workfront e si consente agli utenti di inviare messaggi da Workfront e di utilizzare l'SSO con Active Directory o LDAP.
+title: Configurare il elenco Consentiti di protezione del firewall
+description: Se il firewall o il server di posta è configurato in modo da consentire l'accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell'elenco Consentiti di posta elettronica. In questo modo si apre la comunicazione tra l'ambiente e i server Adobe Workfront e si consente agli utenti di inviare messaggi da Workfront e di utilizzare l'SSO con Active Directory o LDAP.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 0%
 
 ---
 
-# Configurare il inserisco nell&#39;elenco Consentiti di configurazione del firewall per l’accesso a un sistema di protezione da attacchi di tipo
+# Configurare il elenco Consentiti di protezione del firewall
 
 <!-- Audited: 12/2023 -->
 
@@ -23,15 +23,15 @@ ht-degree: 0%
 >
 >La procedura descritta in questa pagina si applica solo alle organizzazioni che non hanno ancora effettuato l’onboarding nell’Admin Console. Se la tua organizzazione è stata integrata in Adobe Admin Console, devi eseguire questa azione tramite Adobe Admin Console.
 >
->Per configurare il inserisco nell&#39;elenco Consentiti di accesso a Adobe Admin Console, se la tua organizzazione è stata integrata, consulta [Domini da consentire per app e servizi di Adobe](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>Inserire nell&#39;elenco Consentiti Per configurare il tuo di accesso a Adobe Admin Console, consulta [Domini per Adobe su app e servizi](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Per un elenco delle procedure che differiscono in base al fatto che la tua organizzazione sia stata onboarding in Adobe Admin Console, consulta [Differenze di amministrazione basate su piattaforma (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Per un elenco delle procedure che differiscono a seconda che l&#39;organizzazione sia stata integrata in Adobe Admin Console, consulta [Differenze di amministrazione basate su Platform (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
 >Il modo in cui un’organizzazione configura il proprio inserisco nell&#39;elenco Consentiti di è univoco per ogni organizzazione. Collabora con il tuo team IT per identificare la procedura aziendale e implementare queste aggiunte.
 
-Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti di. Questo apre la comunicazione tra l’ambiente e i server Adobe Workfront e consente i seguenti processi:
+Se il firewall o il server di posta è configurato in modo da consentire l&#39;accesso solo a determinati fornitori, è necessario aggiungere determinati indirizzi IP al relativo inserisco nell&#39;elenco Consentiti di posta elettronica. Questo apre la comunicazione tra l’ambiente e i server Adobe Workfront e consente i seguenti processi:
 
 * Invio di messaggi dall’applicazione Workfront
 
@@ -42,30 +42,30 @@ Se il firewall o il server di posta è configurato in modo da consentire l&#39;a
 * Utilizzo dei webhook dei documenti durante la configurazione di integrazioni di documenti personalizzate
 * Utilizzo delle sottoscrizioni agli eventi di Workfront
 
-  Per ulteriori informazioni, consulta [API di abbonamento agli eventi](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
+  Per ulteriori informazioni, vedere [API sottoscrizione eventi](https://experience.workfront.com/s/article/Event-Subscription-API-2100945680).
 
 È inoltre necessario aprire alcune porte per crittografare i messaggi e-mail al momento della consegna.
 
 ## Workfront inserire nell&#39;elenco Consentiti utilizzabili
 
-Se la tua organizzazione dispone del piano Enterprise, puoi anche configurare due Workfront di inserire nell&#39;elenco Consentiti:
+Se l&#39;organizzazione dispone del piano Enterprise, è inoltre possibile configurare due Workfront di inserire nell&#39;elenco Consentiti:
 
-* **Inserire nell&#39;elenco Consentiti E-mail**: consente di controllare dove gli utenti possono inviare i dati e-mail memorizzati in Workfront. Per ulteriori informazioni, consulta [Configurare il inserisco nell&#39;elenco Consentiti di e-mail per l e-mail](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **INSERIRE NELL&#39;ELENCO CONSENTITI IP**: limita l’accesso a Workfront a 45 indirizzi IP o intervalli di indirizzi IP specificati dall’utente, fornendo un ulteriore livello di sicurezza per l’applicazione Workfront. Per ulteriori informazioni, consulta [Limita l’accesso ad Adobe Workfront per indirizzo IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **inserisco nell&#39;elenco Consentiti di posta elettronica**: consente di controllare dove gli utenti possono inviare i dati archiviati in Workfront tramite posta elettronica. Per ulteriori informazioni, consulta [Configurare il tuo inserisco nell&#39;elenco Consentiti di e-mail di accesso ai messaggi di posta elettronica](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **inserisco nell&#39;elenco Consentiti IP**: limita l&#39;accesso a Workfront a 45 indirizzi IP o intervalli di indirizzi IP specificati, fornendo un ulteriore livello di sicurezza per l&#39;applicazione Workfront. Per ulteriori informazioni, vedere [Limitare l&#39;accesso ad Adobe Workfront per indirizzo IP](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Individuare il cluster Workfront
 
-Gli indirizzi IP da aggiungere al elenco Consentiti di sul firewall dipendono dal cluster in cui viene eseguito l’ambiente di produzione.
+Gli indirizzi IP da aggiungere al elenco Consentiti di produzione dipendono dal cluster in cui viene eseguito l’ambiente di produzione.
 
 Per individuare il cluster dell&#39;organizzazione:
 
-1. In qualità di amministratore di Workfront, fai clic su **Menu principale** icona ![Menu principale](assets/main-menu-icon.png), quindi fai clic su **Configurazione**.
-1. Nel menu di navigazione a sinistra, fai clic su **Sistema**, quindi seleziona **Informazioni Cliente**.
-1. Individua il **Cluster Setup** nell&#39;angolo superiore destro della pagina. Il cluster della tua organizzazione è elencato qui.
+1. In qualità di amministratore di Workfront, fai clic sull&#39;icona **Main Menu** ![Main Menu](assets/main-menu-icon.png), quindi fai clic su **Setup**.
+1. Nel menu di navigazione a sinistra, fai clic su **Sistema**, quindi seleziona **Informazioni cliente**.
+1. Individua il campo **Cluster Setup** nell&#39;angolo superiore destro della pagina. Il cluster della tua organizzazione è elencato qui.
 
    CL01 fa riferimento al cluster 1, CL02 al cluster 2 e così via.
 
-Per ulteriori informazioni, consulta la sezione [Visualizza il piano Workfront e il cluster della tua organizzazione](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) nell’articolo [Panoramica del firewall](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+Per ulteriori informazioni, vedere la sezione [Visualizzare il cluster e il piano Workfront dell&#39;organizzazione](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) nell&#39;articolo [Panoramica del firewall](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Indirizzi IP da aggiungere al inserisco nell&#39;elenco Consentiti di
 
@@ -73,18 +73,18 @@ Per ulteriori informazioni, consulta la sezione [Visualizza il piano Workfront e
 >
 >Alcune integrazioni Workfront non funzionano quando il inserisco nell&#39;elenco Consentiti di è abilitato perché non possono essere configurate con un indirizzo IP statico. Per utilizzare le seguenti integrazioni, devi disabilitare il inserisco nell&#39;elenco Consentiti di.
 >
->* Workfront per G Suite
+>* Workfront per Google Workspace
 >* Workfront per Outlook
 >* Workfront per Salesforce
 
 * [Indirizzi IP per consentire i cluster 1, 2, 3, 5, 7, 8 e 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
-* [Indirizzi IP per consentire il cluster 4](#ip-addresses-to-allow-for-cluster-4)
-* [Indirizzi IP per consentire il cluster 6](#ip-addresses-to-allow-for-cluster-6)
-* [Indirizzi IP per consentire un&#39;unità di test](#IP%20Addre2)
-* [Indirizzi IP da consentire durante l’implementazione delle sottoscrizioni di eventi](#ip-addresses-to-allow-when-implementing-event-subscriptions)
-* [Indirizzi IP per consentire l’autenticazione avanzata](#ip-addresses-to-allow-for-enhanced-authentication)
+* [Indirizzi IP da consentire per il cluster 4](#ip-addresses-to-allow-for-cluster-4)
+* [Indirizzi IP da consentire per il cluster 6](#ip-addresses-to-allow-for-cluster-6)
+* [Indirizzi IP da consentire per un&#39;unità di prova](#IP%20Addre2)
+* [Indirizzi IP da consentire durante l&#39;implementazione di sottoscrizioni eventi](#ip-addresses-to-allow-when-implementing-event-subscriptions)
+* [Indirizzi IP per consentire l&#39;autenticazione avanzata](#ip-addresses-to-allow-for-enhanced-authentication)
 * [Indirizzi IP da aggiungere per accedere a Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion)
-* [Indirizzi IP da aggiungere per l’utilizzo di Workfront per Jira](#ip-addresses-to-add-for-using-workfront-for-jira)
+* [Indirizzi IP da aggiungere per l&#39;utilizzo di Workfront per Jira](#ip-addresses-to-add-for-using-workfront-for-jira)
 * [URL da aggiungere per tutti i cluster Workfront](#urls-to-add-for-all-clusters-workfront)
 
 ### Indirizzi IP per consentire i cluster 1, 2, 3, 5, 7, 8 e 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -126,7 +126,7 @@ Se l&#39;ambiente di produzione si trova nel cluster 1, 2, 3, 5 o 7, è necessar
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54 71 252 65</li> 
-    </ul> <p>Per informazioni sui seguenti indirizzi IP, vedi <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nuovi indirizzi IP per l’e-mail di Adobe Workfront con la versione 21.1</a></p> 
+    </ul> <p>Per informazioni sui seguenti indirizzi IP, consulta <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nuovi indirizzi IP per l'e-mail di Adobe Workfront con versione 21.1</a></p> 
     <ul> 
      <li>23 251 237 107</li> 
      <li>23 251 237 108</li> 
@@ -163,7 +163,7 @@ Se l’ambiente di produzione si trova nel cluster 4, aggiungi i seguenti indiri
 * 46.51.194.192/32
 * 54.229.129.66/32
 
-Per informazioni sui seguenti indirizzi IP, vedi [Nuovi indirizzi IP per l’e-mail di Adobe Workfront con la versione 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
+Per informazioni sui seguenti indirizzi IP, consulta [Nuovi indirizzi IP per l&#39;e-mail di Adobe Workfront con versione 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23 251 239 98
 * 23 251 239 99
@@ -235,7 +235,7 @@ Se l&#39;ambiente di produzione si trova nel cluster 6, aggiungere i seguenti in
    <td role="rowheader">Per le integrazioni SSO e documenta webhook quando si utilizza un’unità di test</td> 
    <td> 
     <ul> 
-     <li> <p>69 42 126 188:</p> <p>Per consentire agli utenti di ricevere e-mail da Workfront, questo indirizzo deve essere aggiunto anche al tuo elenco Consentiti di.</p> </li> 
+     <li> <p>69 42 126 188:</p> <p>Per consentire agli utenti di ricevere e-mail da Workfront, questo indirizzo deve essere aggiunto anche al tuo elenco Consentiti di accesso a cui si è sottoposti.</p> </li> 
      <li>66 119 37 186</li> 
      <li>66 119 37 167</li> 
      <li>54 244 142 219</li> 
@@ -347,7 +347,7 @@ Aggiungi i seguenti indirizzi IP per utilizzare l’autenticazione avanzata per 
 
 ### Indirizzi IP da aggiungere per accedere a Workfront Fusion  {#ip-addresses-to-add-for-accessing-workfront-fusion}
 
-Aggiungere i seguenti indirizzi IP al inserisco nell&#39;elenco Consentiti di accesso di Workfront Fusion al proprio sistema di.
+Per consentire a Workfront Fusion di accedere al sistema, aggiungi i seguenti indirizzi IP al tuo inserisco nell&#39;elenco Consentiti di accesso al sistema.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -386,7 +386,7 @@ Aggiungere i seguenti indirizzi IP al inserisco nell&#39;elenco Consentiti di ac
  </tbody> 
 </table>
 
-Inoltre, se l’organizzazione utilizza il filtro di rete in uscita, aggiungi il seguente dominio al tuo elenco Consentiti di accesso a Workfront Fusion per consentire l’accesso al sistema.
+Inoltre, se l’organizzazione utilizza il filtro di rete in uscita, aggiungi il seguente dominio al inserisco nell&#39;elenco Consentiti per consentire al sistema di accedere a Workfront Fusion.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -409,11 +409,11 @@ Inoltre, se l’organizzazione utilizza il filtro di rete in uscita, aggiungi il
 
 >[!NOTE]
 >
->Il filtro di rete in uscita non è comune. Rivolgersi all&#39;amministratore di rete per verificare se è necessario aggiornare il inserisco nell&#39;elenco Consentiti di accesso a un&#39;istanza di accesso a un&#39;istanza di rete.
+>Il filtro di rete in uscita non è comune. Rivolgersi all&#39;amministratore di rete per verificare se è necessario aggiornare il inserisco nell&#39;elenco Consentiti di gestione della rete per adattarlo a tale scopo.
 
 ### Indirizzi IP da aggiungere per l’utilizzo di Workfront per Jira {#ip-addresses-to-add-for-using-workfront-for-jira}
 
-Aggiungi i seguenti indirizzi IP al tuo inserisco nell&#39;elenco Consentiti di per utilizzare l’integrazione di Workfront for Jira.
+Aggiungi i seguenti indirizzi IP al tuo inserisco nell&#39;elenco Consentiti di per utilizzare l’integrazione Workfront for Jira.
 
 Il dominio jira.workfront.com deve essere accessibile anche dai server aziendali. Questo dominio è necessario perché funge da middleware tra Workfront e Jira.
 
@@ -462,11 +462,11 @@ Il dominio jira.workfront.com deve essere accessibile anche dai server aziendali
 
 ## Domini da aggiungere per accedere a Workfront
 
-Se l’organizzazione utilizza il filtro di rete in uscita, aggiungi i seguenti domini al inserisco nell&#39;elenco Consentiti di accesso a Workfront per abilitare il sistema.
+Se l&#39;organizzazione utilizza il filtro di rete in uscita, aggiungere i domini seguenti al inserisco nell&#39;elenco Consentiti di accesso a Workfront al sistema di gestione dei sistemi in uscita.
 
 >[!NOTE]
 >
->Il filtro di rete in uscita non è comune. Rivolgersi all&#39;amministratore di rete per verificare se è necessario aggiornare il inserisco nell&#39;elenco Consentiti di accesso a un&#39;istanza di accesso a un&#39;istanza di rete.
+>Il filtro di rete in uscita non è comune. Rivolgersi all&#39;amministratore di rete per verificare se è necessario aggiornare il inserisco nell&#39;elenco Consentiti di gestione della rete per adattarlo a tale scopo.
 
 * `<your domain>`.my.workfront.com
 * `<your domain>`.preview.workfront.com
@@ -511,7 +511,7 @@ Se l’organizzazione utilizza il filtro di rete in uscita, aggiungi i seguenti 
      <li>*.workfront.com - Necessario per visualizzare le bozze in Workfront</li> 
      <li>*.proofhq.com - Necessario per visualizzare le bozze in Workfront Proof</li> 
      <li>*.proof.eu - Necessario per visualizzare le bozze in Workfront Proof</li> 
-    </ul> <p><b>NOTA</b>:  <p>Non è supportata l’aggiunta di indirizzi IP al tuo elenco Consentiti di per Workfront Proof. Sono diventati dinamici dopo il passaggio di Workfront ad AWS. È invece consigliabile consentire solo i domini Workfront Proof.</p> <p>Se si verifica un problema durante l’aggiunta di questi domini al tuo inserisco nell'elenco Consentiti di e hai bisogno di un indirizzo IP, contatta l’Assistenza clienti Workfront.</p> </p> </td> 
+    </ul> <p><b>NOTA</b>:  <p>Non è supportata l'aggiunta di indirizzi IP al tuo inserisco nell'elenco Consentiti di per Workfront Proof. Sono diventati dinamici dopo il passaggio di Workfront ad AWS. È invece consigliabile consentire solo i domini Workfront Proof.</p> <p>Se si verifica un problema durante l’aggiunta di questi domini al tuo inserisco nell'elenco Consentiti di e hai bisogno di un indirizzo IP, contatta l’Assistenza clienti Workfront.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -520,7 +520,7 @@ Se l’organizzazione utilizza il filtro di rete in uscita, aggiungi i seguenti 
 
 Per utilizzare varie funzioni, è necessario aggiungere i seguenti indirizzi IP al inserisco nell&#39;elenco Consentiti di.
 
-* [Per callback e bozze di acquisizione Web](#for-callbacks-and-webcapture-proofs)
+* [Per callback e bozze di webcapture](#for-callbacks-and-webcapture-proofs)
 * [Per e-mail in uscita](#for-outgoing-email)
 
 ### Per callback e bozze di acquisizione Web {#for-callbacks-and-webcapture-proofs}
@@ -607,9 +607,9 @@ Per utilizzare varie funzioni, è necessario aggiungere i seguenti indirizzi IP 
  </tbody> 
 </table>
 
-## Porte aperte per ottenere prestazioni ottimali con Workfront Proof
+## Porte aperte per prestazioni Workfront Proof ottimali
 
-Se riscontri problemi durante il caricamento delle bozze o se non lavori in Workfront Proof, apri le seguenti porte:
+Se riscontri problemi con il caricamento delle bozze o se non lavori in Workfront Proof, apri le seguenti porte:
 
 * 5671
 * 5672

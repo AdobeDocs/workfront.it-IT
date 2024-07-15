@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 0%
@@ -25,7 +25,7 @@ in January 2022
 
 la settimana del 4 aprile 2022.
 
-Per un elenco di tutte le modifiche disponibili con la versione 22.2, consulta [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Per un elenco di tutte le modifiche disponibili con la versione 22.2, vedere [Panoramica sulla versione 22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## È ora disponibile l’integrazione di Adobe Workfront con Anaplan
 
@@ -39,7 +39,7 @@ Altri flussi di lavoro per i quali si può considerare l’utilizzo dell’integ
 * Creazione di progetti Workfront da nuove voci di elenco Anaplan
 * Avvio delle richieste dei fornitori Anaplan dai progetti Workfront
 
-Per ulteriori informazioni, consulta [Adobe Workfront con Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+Per ulteriori informazioni, vedere [Adobe Workfront con Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
 ## Workfront, ad Experience Manager aggiornamenti di connettori avanzati
 
@@ -51,17 +51,17 @@ Il connettore ottimizzato di Workfront ad Experience Manager ora include i segue
 * È stato aggiunto il supporto per ambienti proxy
 * Diverse correzioni di bug in base al feedback ricevuto da partner e clienti
 
-Per ulteriori informazioni, consulta [Panoramica del connettore avanzato di Workfront ad Experience Manager](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
+Per ulteriori informazioni, vedere [Workfront, ad Experience Manager Panoramica del connettore avanzato](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md).
 
 >[!NOTE]
 >
->L’implementazione e la configurazione di questo connettore richiedono un partner certificato. Consulta [Installare Workfront, ad Experience Manager il connettore avanzato](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#) per ulteriori informazioni.
+>L’implementazione e la configurazione di questo connettore richiedono un partner certificato. Per ulteriori informazioni, vedere [Installare Workfront per Experience Manager connettore avanzato](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=en#).
 
 ## Le integrazioni Adobe Creative Cloud ora utilizzano OAuth2
 
 Per una maggiore sicurezza e per rendere più coerente l’esperienza tra le diverse integrazioni, abbiamo aggiornato le integrazioni Adobe Creative Cloud per l’utilizzo dell’autenticazione OAuth2, una modalità standard del settore per l’autenticazione degli utenti. Ora, quando gli utenti effettuano l’accesso, possono visualizzare le azioni e le aree specifiche a cui le integrazioni hanno accesso e consentire l’accesso. In seguito, non sarà necessario effettuare l&#39;accesso con la stessa frequenza.
 
-Per ulteriori informazioni, consulta [Utilizzare l’estensione Workfront per Illustrator e InDesign](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md).
+Per ulteriori informazioni, vedere [Utilizzare l&#39;estensione Workfront per Illustrator e InDesign](../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md).
 
 ## Vedi i dettagli del segreto client per le integrazioni OAuth2 o JWT personalizzate
 
@@ -69,7 +69,7 @@ Per garantire trasparenza nell’utilizzo delle integrazioni personalizzate OAut
 
 In precedenza, questi dettagli non erano disponibili.
 
-Per ulteriori informazioni sui segreti client nelle integrazioni personalizzate OAuth2 o JWT, consulta [Creazione di applicazioni OAuth2 per le integrazioni Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Per ulteriori informazioni sui segreti client nelle integrazioni personalizzate OAuth2 o JWT, consulta [Creare applicazioni OAuth2 per le integrazioni Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Vedi il tipo di autenticazione nell’elenco delle applicazioni OAuth2 personalizzate
 
@@ -77,13 +77,13 @@ Ora, quando visualizzi l’elenco delle applicazioni OAuth2 personalizzate nell�
 
 In precedenza, era possibile visualizzare queste informazioni solo andando nelle opzioni di modifica di ogni applicazione.
 
-Per ulteriori informazioni, consulta [Creazione di applicazioni OAuth2 per le integrazioni Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Per ulteriori informazioni, consulta [Creare applicazioni OAuth2 per le integrazioni Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Impostare la scadenza per i token di aggiornamento nelle integrazioni OAuth2 personalizzate
 
 Per controllare meglio l’accesso e la sicurezza delle integrazioni OAuth2 personalizzate, ora puoi personalizzare la durata dei token di aggiornamento. Dopo la scadenza del token di aggiornamento di un utente, quest’ultimo dovrà accedere nuovamente all’integrazione.
 
-Per ulteriori informazioni, consulta [Creazione di applicazioni OAuth2 per le integrazioni Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Per ulteriori informazioni, consulta [Creare applicazioni OAuth2 per le integrazioni Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
 ## Usa chiavi pubbliche e private nelle integrazioni OAuth2 personalizzate per le app server-to-server
 
@@ -91,10 +91,10 @@ Per ulteriori informazioni, consulta [Creazione di applicazioni OAuth2 per le in
 
 In precedenza, tutte le autenticazioni nelle applicazioni OAuth2 personalizzate utilizzavano le credenziali di accesso dell&#39;utente.
 
-Per ulteriori informazioni, consulta [Creazione di applicazioni OAuth2 per le integrazioni Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Per ulteriori informazioni, consulta [Creare applicazioni OAuth2 per le integrazioni Workfront](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
-## L’integrazione con Google G Suite ora utilizza OAuth2
+## L’integrazione di Google Google Workspace ora utilizza OAuth2
 
-Per una maggiore sicurezza e per rendere più coerente l’esperienza tra le diverse integrazioni, abbiamo aggiornato l’integrazione Google G Suite per utilizzare l’autenticazione OAuth2, una modalità standard del settore per l’autenticazione degli utenti. Ora, quando gli utenti effettuano l’accesso, possono visualizzare le azioni e le aree specifiche a cui le integrazioni hanno accesso e consentire l’accesso. In seguito, non sarà necessario effettuare l&#39;accesso con la stessa frequenza.
+Per una maggiore sicurezza e per rendere più coerente l’esperienza tra le diverse integrazioni, abbiamo aggiornato l’integrazione Google Google Workspace per utilizzare l’autenticazione OAuth2, un modo standard del settore per autenticare gli utenti. Ora, quando gli utenti effettuano l’accesso, possono visualizzare le azioni e le aree specifiche a cui le integrazioni hanno accesso e consentire l’accesso. In seguito, non sarà necessario effettuare l&#39;accesso con la stessa frequenza.
 
-Per ulteriori informazioni, consulta [Accedere e uscire da Adobe Workfront per G Suite](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).
+Per ulteriori informazioni, vedere [Accesso e disconnessione da Adobe Workfront per Google Workspace](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

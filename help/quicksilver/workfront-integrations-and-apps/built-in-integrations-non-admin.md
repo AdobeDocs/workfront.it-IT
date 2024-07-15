@@ -3,14 +3,14 @@ product-area: workfront-integrations
 keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Panoramica delle integrazioni integrate di Adobe Workfront
-description: È possibile integrare [!DNL Adobe Workfront] con applicazioni di terze parti. Queste integrazioni possono estendere l’utilità di [!DNL Workfront] e adattarlo alle esigenze della tua organizzazione. Ad esempio, se sei un lavoratore creativo nel settore del marketing, puoi utilizzare il componente aggiuntivo Adobe Creative Cloud per esportare le risorse direttamente da Photoshop a Workfront.
+description: Puoi integrare [!DNL Adobe Workfront] con applicazioni di terze parti. Queste integrazioni possono estendere l'utilità di  [!DNL Workfront]  e personalizzarla in base alle esigenze della tua organizzazione. Ad esempio, se sei un lavoratore creativo nel settore del marketing, puoi utilizzare il componente aggiuntivo Adobe Creative Cloud per esportare le risorse direttamente da Photoshop a Workfront.
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 2%
+source-wordcount: '476'
+ht-degree: 3%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 2%
 
 <!-- Audited: 12/2023 -->
 
-È possibile integrare [!DNL Adobe Workfront] con applicazioni di terze parti e altre [!DNL Adobe] prodotti. Queste integrazioni possono estendere l’utilità di [!DNL Workfront] e adattarlo alle esigenze della tua organizzazione. Ad esempio, se sei un lavoratore creativo nel settore del marketing, puoi utilizzare [!DNL Adobe Workfront] plugin per [!DNL Creative Cloud] applicazioni per esportare le risorse direttamente da Photoshop a Workfront.
+È possibile integrare [!DNL Adobe Workfront] con applicazioni di terze parti e altri prodotti [!DNL Adobe]. Queste integrazioni possono estendere l&#39;utilità di [!DNL Workfront] e adattarla alle esigenze della tua organizzazione. Ad esempio, se sei un lavoratore creativo nel settore del marketing, puoi utilizzare il plug-in [!DNL Adobe Workfront] per le applicazioni [!DNL Creative Cloud] per esportare le risorse direttamente da Photoshop a Workfront.
 
-Il tuo [!DNL Workfront] prima di poter utilizzare le integrazioni integrate, l’amministratore deve abilitarle e configurarle. Per scoprire quali integrazioni integrate vengono utilizzate all’interno della tua organizzazione, contatta il tuo [!DNL Workfront] amministratore.
+L&#39;amministratore di [!DNL Workfront] deve abilitare e configurare le integrazioni incorporate prima che sia possibile utilizzarle. Per informazioni sulle integrazioni incorporate utilizzate nell&#39;organizzazione, contattare l&#39;amministratore [!DNL Workfront].
 
 ## Integrazioni integrate disponibili
 
@@ -34,7 +34,7 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
    <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Integrare [!DNL Workfront] commenti e approvazioni con le seguenti applicazioni Adobe Creative Cloud: 
+     <li>Integra [!DNL Workfront] commenti e approvazioni con le seguenti applicazioni Adobe Creative Cloud: 
      <ul>
      <li>InDesign </li>
      <li>Illustrator </li>
@@ -43,8 +43,8 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Scarica/installa da <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Scambio Adobe</a>.</p></li></ul>
-     <p>Per informazioni e istruzioni, consulta <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installare  [!DNL Adobe Workfront] plugin per [!DNL Creative Cloud] Applicazioni</a>.</p> </td> 
+     <li><p>Scarica/installa da <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <p>Per informazioni e istruzioni, vedere <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installare il plug-in [!DNL Adobe Workfront] per [!DNL Creative Cloud] applicazioni</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -64,7 +64,7 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
    <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Aggiungere un'e-mail G-Suite a un progetto o a un'attività </li> 
+     <li>Aggiungere un messaggio e-mail di Google Workspace a un progetto o a un’attività </li> 
      <li>Visualizza e gestisci [!DNL Workfront] notifiche in Gmail</li> 
      <li>Inviare richieste tramite Gmail </li> 
     </ul> </td> 
@@ -89,7 +89,7 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
    <td> 
     <ul> 
      <li> <p>Integrare con una versione basata sul Web di Outlook in Office 365 o Outlook Live ospitato dal cloud. </p> </li> 
-     <li> <p>Visualizza tutti gli eventi dal tuo [!DNL Outlook] calendario ed eventuali calendari associati selezionati, ad esempio i calendari di compleanni e festività, nel Calendario predefinito.</p>  <p>Nota: la configurazione del calendario di Outlook è completamente separata dal componente aggiuntivo di Outlook (integrazione di Outlook o Workfront per Outlook). Non è necessaria alcuna installazione per configurare il calendario.</p></li> 
+     <li> <p>Visualizzare tutti gli eventi del calendario [!DNL Outlook] e dei calendari associati selezionati, ad esempio i calendari di compleanni e festività, nel Calendario predefinito.</p>  <p>Nota: la configurazione del calendario di Outlook è completamente separata dal componente aggiuntivo di Outlook (integrazione di Outlook o Workfront per Outlook). Non è necessaria alcuna installazione per configurare il calendario.</p></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -104,16 +104,16 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
    <td> 
     <ul> 
      <li>Aggiornare un progetto, un’attività o un problema esistente con le informazioni contenute in un messaggio e-mail </li> 
-     <li>Convertire le e-mail in [!DNL Workfront] elementi direttamente dalla casella in entrata </li> 
+     <li>Converti le e-mail in [!DNL Workfront] elementi direttamente dalla casella in entrata </li> 
      <li>Creare nuove attività da un messaggio e-mail </li> 
-     <li>Commenta su [!DNL Workfront] elementi </li> 
+     <li>Commento su [!DNL Workfront] elementi </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Ottenere [!DNL Workfront] notifiche in [!DNL Microsoft Teams] </li> 
+     <li>Ottieni [!DNL Workfront] notifiche in [!DNL Microsoft Teams] </li> 
      <li>Prendi decisioni di approvazione </li> 
      <li>Cerca [!DNL Workfront] progetti, attività e problemi </li> 
      <li>Crea [!DNL Workfront] attività personali </li> 
@@ -124,7 +124,7 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
    <td role="rowheader"> <p>Forza vendita</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Crea nuovo [!DNL Workfront] richieste da [!DNL Salesforce] </li> 
+     <li>Crea nuove [!DNL Workfront] richieste da [!DNL Salesforce] </li> 
      <li>Crea [!DNL Workfront] progetti da [!DNL Salesforce]</li> 
     </ul> </td> 
   </tr> 
@@ -139,10 +139,10 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
    <td role="rowheader"> <p>Slack</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Ricezione [!DNL Workfront] notifiche in [!DNL Slack] </li> 
+     <li>Ricevi [!DNL Workfront] notifiche in [!DNL Slack] </li> 
      <li>Gestire le approvazioni in Slack </li> 
-     <li>Crea [!DNL Workfront] attività e problemi di [!DNL Slack] </li> 
-     <li>Pubblicare commenti in un progetto o attività da uno Slack</li> 
+     <li>Crea [!DNL Workfront] attività e problemi da [!DNL Slack] </li> 
+     <li>Commenti di Post a un progetto o a un'attività da Slack</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -166,6 +166,6 @@ Le seguenti integrazioni integrate sono attualmente disponibili in Workfront.
 
 &#42;Disponibile a un costo aggiuntivo.
 
-## Altro [!DNL Workfront] integrazioni
+## Altre integrazioni [!DNL Workfront]
 
-L’integrazione desiderata potrebbe non essere un’integrazione integrata. Tuttavia, [!DNL Workfront] offre altri modi per integrarsi con l’app o il servizio web desiderato. Per ulteriori informazioni su altri modi di integrazione con [!DNL Workfront], vedi [Metodi di integrazione di Adobe Workfront](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md).
+L’integrazione desiderata potrebbe non essere un’integrazione integrata. Tuttavia, [!DNL Workfront] offre altri modi per integrarsi con l&#39;app o il servizio Web desiderato. Per ulteriori informazioni sugli altri modi di integrazione con [!DNL Workfront], vedere [Metodi di integrazione Adobe Workfront](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md).
