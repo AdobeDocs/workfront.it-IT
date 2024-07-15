@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c5a9705cf90498b08b45d85e0b4f571dc2e30f2
+source-git-commit: 706c27e611b1bd1e1c06eb3fd2e59ad0f55a6157
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
@@ -30,9 +30,9 @@ Questo processo viene definito &quot;promozione dell&#39;ambiente&quot;.
    * [Creare o modificare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [Installare un pacchetto di promozione dell’ambiente](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Per istruzioni sull’esecuzione di questo processo tramite l’API di Workfront, consulta [Sposta oggetti tra [!DNL Workfront] ambienti che utilizzano [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* Per istruzioni sull&#39;esecuzione di questo processo tramite l&#39;API Workfront, vedere [Spostare oggetti tra [!DNL Workfront] ambienti utilizzando l&#39;API [!DNL Workfront] ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
-[Visualizza una dimostrazione video di questa funzione](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Oggetti supportati per la promozione dell’ambiente
 
@@ -51,19 +51,19 @@ Poiché la promozione dell’ambiente riguarda la configurazione dell’oggetto,
 
 | Oggetto promovibile | Oggetti collegati promozionali inclusi |
 | --- | --- |
-| Progetto (PROJ) | Progetto<br>Attività<br>Assegnazione<br>Predecessore<br>Azienda<br>Percentuale sostituzione<br>Gruppo<br>Ruolo<br>Team<br>Processo di approvazione<br>Percorso di approvazione<br>Passaggio di approvazione<br>Approvatore passaggio<br>Pianificazione<br>Giorno non feriale<br>Definizione coda<br>Gruppo di argomenti coda<br>Argomento Coda<br>Regola di Instradamento<br>Percorso milestone<br>Milestone<br>Tipo di Ora<br>Pool di Risorse<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
-| Modello (TMPL) | Modello<br>Attività modello<br>Assegnazione attività modello<br>Predecessore attività modello<br>Azienda<br>Percentuale sostituzione<br>Gruppo<br>Ruolo<br>Team<br>Processo di approvazione<br>Percorso di approvazione<br>Passaggio di approvazione<br>Approvatore passaggio<br>Pianificazione<br>Giorno non feriale<br>Definizione coda<br>Gruppo di argomenti coda<br>Argomento Coda<br>Regola di Instradamento<br>Percorso milestone<br>Milestone<br>Tipo di Ora<br>Pool di Risorse<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
+| Progetto (PROJ) | Progetto<br>Attività<br>Assegnazione<br>Predecessore<br>Società<br>Percentuale sostituzione<br>Gruppo<br>Ruolo<br>Team<br>Processo di approvazione<br>Percorso di approvazione<br>Passaggio approvazione<br>Approvatore passaggio<br>Pianificazione<br>Giorno non lavorativo<br>Definizione coda<br>Gruppo argomenti coda<br>Argomento coda<br>Regola di routing<br>Percorso milestone<br>Milestone<br>Tipo ora<br>Pool risorse{2 2}Categoria<br>Parametro Categoria<br>Parametro<br>Gruppo Di Parametri<br>Opzione Parametro<br>Logica Di Visualizzazione Categoria<br> |
+| Modello (TMPL) | Modello<br>Attività modello<br>Assegnazione attività modello<br>Predecessore attività modello<br>Società<br>Percentuale sostituzione<br>Gruppo<br>Ruolo<br>Team<br>Processo di approvazione<br>Percorso approvazione<br>Passaggio approvazione<br>Approvatore passaggio<br>Pianificazione<br>Giorno non lavorativo<br>Definizione coda<br>Gruppo argomenti coda<br>Argomento coda<br>Regola di routing<br>Percorso milestone<br>Milestone<br>Tipo ora{21 Pool di Risorse<br>Categoria<br>Parametro Categoria<br>Parametro<br>Gruppo Di Parametri<br>Opzione Parametro<br>Logica Di Visualizzazione Categoria<br> |
 
 ### Oggetti di reporting
 
 | Oggetto promovibile | Oggetti collegati promozionali inclusi |
 | --- | --- |
-| Modello di layout (UITMPL) | Modello di layout<br>Dashboard<br>Calendario<br>Sezione calendario<br>Pagina esterna<br>Report<br>Filtro<br>Raggruppamento<br>Visualizza<br>Parametro |
-| Dashboard (PTLTAB) | Dashboard<br>Calendario<br>Sezione calendario<br>Pagina esterna<br>Report<br>Filtro<br>Raggruppamento<br>Visualizza<br>Parametro |
-| Calendario (calendario) | Calendario<br>Sezione calendario |
+| Modello di layout (UITMPL) | Modello Di Layout<br>Dashboard<br>Calendario<br>Sezione Calendario<br>Pagina Esterna<br>Report<br>Filtro<br>Raggruppamento<br>Visualizzazione<br>Parametro<br>Gruppo |
+| Dashboard (PTLTAB) | Dashboard<br>Calendario<br>Sezione Calendario<br>Pagina Esterna<br>Rapporto<br>Filtro<br>Raggruppamento<br>Visualizza<br>Parametro |
+| Calendario (calendario) | Sezione Calendario<br>Calendario |
 | Pagina esterna (EXTSEC) | Pagina Esterna |
 | Rapporto (PTLSEC) | Report<br>Filtro<br>Raggruppamento<br>Visualizza<br>Parametro |
-| Filtro (UIFT) | Filtro<br>Parametro |
+| Filtro (UIFT) | Filtra<br>Parametro |
 | Raggruppamento (UIGB) | Raggruppamento<br>Parametro |
 | Visualizza (UIVW) | Visualizza<br>Parametro |
 
@@ -71,7 +71,7 @@ Poiché la promozione dell’ambiente riguarda la configurazione dell’oggetto,
 
 | Oggetto promovibile | Oggetti collegati promozionali inclusi |
 | --- | --- |
-| Categoria (CTGY) | Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria<br>Gruppo |
+| Categoria (CTGY) | Categoria<br>Parametro Categoria<br>Parametro<br>Gruppo Parametri<br>Opzione Parametri<br>Logica Visualizzazione Categoria<br>Gruppo |
 | Parametro (PARAM) | Parametro<br>Opzione Parametro |
 | Raggruppa Parametri (PGRP) | Gruppo di parametri |
 
@@ -79,21 +79,21 @@ Poiché la promozione dell’ambiente riguarda la configurazione dell’oggetto,
 
 | Oggetto promovibile | Oggetti collegati promozionali inclusi |
 | --- | --- |
-| Gruppo (GROUP) | Gruppo <br>Sottogruppi (fino a 5 livelli) *<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
+| Gruppo (GROUP) | Gruppo <br>Sottogruppi (fino a 5 livelli) *<br>Categoria<br>Categoria Parametro<br>Parametro<br>Gruppo di parametri<br>Opzione di parametri<br>Categoria Logica di visualizzazione |
 | Ruolo (ROLE) | Ruolo |
 | Team (TEAM) | Team<br>Gruppo |
-| Società (CMPY) | Azienda<br>Percentuale sostituzione<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Parametro <br>Logica di visualizzazione della categoria<br>Gruppo |
-| Portfolio (PORTA) | Portfolio<br>Programma<br>Gruppo<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
-| Programma (PRGM) | Programma<br>Portfolio<br>Gruppo<br>Categoria<br>Parametro di Categoria<br>Parametro<br>Raggruppa parametri<br>Opzione Parametro<br>Logica di visualizzazione della categoria |
+| Società (CMPY) | Società<br>Override Rate<br>Categoria<br>Parametro Categoria<br>Parametro<br>Gruppo Parametri<br>Parametro <br>Logica Visualizzazione Categoria<br>Gruppo |
+| Portfolio (PORTA) | Portfolio<br>Programma<br>Gruppo<br>Categoria<br>Parametro Categoria<br>Parametro<br>Gruppo Parametri<br>Opzione Parametro<br>Logica Di Visualizzazione Categoria |
+| Programma (PRGM) | Programma<br>Portfolio<br>Gruppo<br>Categoria<br>Parametro Categoria<br>Parametro<br>Gruppo Parametri<br>Opzione Parametro<br>Logica Di Visualizzazione Categoria |
 
 ### Altri oggetti di configurazione
 
 | Oggetto promovibile | Oggetti collegati promozionali inclusi |
 | --- | --- |
-| Processo di approvazione (ARVPRC) | Processo di approvazione<br>Percorso di approvazione<br>Passaggio di approvazione<br>Approvatore passaggio<br>Ruolo<br>Team<br>Gruppo |
-| Pianificazione (SCHED) | Pianificazione<br>Giorno non feriale<br>Gruppo |
+| Processo di approvazione (ARVPRC) | Processo Di Approvazione<br>Percorso Approvazione<br>Passaggio Approvazione<br>Passaggio Approvatore<br>Ruolo<br>Team<br>Gruppo |
+| Pianificazione (SCHED) | Pianifica<br>Giorno Non Feriale<br>Gruppo |
 | Percorso milestone (MPATH) | Percorso milestone<br>Milestone |
-| Timesheet Ricorrente (TSPRO) | Timesheet Ricorrente<br>Tipo di Ora |
+| Timesheet Ricorrente (TSPRO) | Tipo di Profilo<br>Ora Scheda Orario |
 | Tipo di Ora (HOURT) | Tipo di ora |
 | Tipo di spesa (EXPTYP) | Tipo di Spesa |
 | Tipo di rischio (RSKTYP) | Tipo Rischio |
@@ -142,15 +142,15 @@ Questi stati includono:
   </tr> 
   <tr> 
    <td>ATTIVO</td> 
-   <td><p>Questo stato consente di installare un pacchetto promozionale in qualsiasi ambiente, inclusa la produzione.</p><p>Quando lo stato di un pacchetto è impostato su ACTIVE, <code>publishedAt</code> La data viene impostata automaticamente sulla marca temporale corrente della richiesta.</p></td> 
+   <td><p>Questo stato consente di installare un pacchetto promozionale in qualsiasi ambiente, inclusa la produzione.</p><p>Quando lo stato di un pacchetto è impostato su ACTIVE, la data <code>publishedAt</code> viene automaticamente impostata sulla marca temporale corrente della richiesta.</p></td> 
   </tr> 
   <tr> 
    <td>DISABILITATO</td> 
-   <td><p>Questo stato viene utilizzato per nascondere i pacchetti promozionali utilizzati in precedenza che non verranno installati in alcun ambiente in futuro.</p><p>Quando un pacchetto si trova in questo stato, non può essere installato in alcun ambiente.</p><p>Quando lo stato di un pacchetto è impostato su DISABLED, il <code>retiredAt</code> La data viene impostata automaticamente sulla marca temporale corrente della richiesta.</p><p>Si consiglia di utilizzare questo stato anziché il <code>DELETE /package</code> l'endpoint perché è recuperabile e la cronologia di installazione viene mantenuta per tutte le distribuzioni effettuate con questo pacchetto.</p></td> 
+   <td><p>Questo stato viene utilizzato per nascondere i pacchetti promozionali utilizzati in precedenza che non verranno installati in alcun ambiente in futuro.</p><p>Quando un pacchetto si trova in questo stato, non può essere installato in alcun ambiente.</p><p>Quando lo stato di un pacchetto è impostato su DISABLED, la data <code>retiredAt</code> viene impostata automaticamente sulla marca temporale corrente della richiesta.</p><p>L'utilizzo di questo stato è consigliato rispetto all'utilizzo dell'endpoint <code>DELETE /package</code> perché è recuperabile e la cronologia di installazione viene mantenuta per tutte le distribuzioni effettuate con questo pacchetto.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLAGGIO NON RIUSCITO</td> 
-   <td><p>Se la fase ASSEMBLING non riesce, il pacchetto promozionale viene automaticamente posto in questo stato.</p><p>Per riportare il pacchetto allo stadio ASSEMBLING, è necessario attivare nuovamente il processo di assemblaggio.</p><p>Per informazioni dettagliate sull’assemblaggio di un pacchetto, consulta la sezione <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modificare o assemblare un pacchetto esistente</a> nell’articolo Creare o modificare un pacchetto di promozione dell’ambiente.</td> 
+   <td><p>Se la fase ASSEMBLING non riesce, il pacchetto promozionale viene automaticamente posto in questo stato.</p><p>Per riportare il pacchetto allo stadio ASSEMBLING, è necessario attivare nuovamente il processo di assemblaggio.</p><p>Per informazioni dettagliate sull'assemblaggio di un pacchetto, vedere la sezione <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Modificare o assemblare un pacchetto esistente</a> nell'articolo Creare o modificare un pacchetto di promozione dell'ambiente.</td> 
   </tr> 
   </tbody> 
 </table>
