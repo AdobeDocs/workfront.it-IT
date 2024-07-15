@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
+source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6081'
 ht-degree: 4%
 
 ---
@@ -51,19 +51,19 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 {{step-1-to-setup}}
 
-1. Clic **Forms personalizzato** nel pannello a sinistra.
+1. Fai clic su **Forms personalizzato** nel pannello a sinistra.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Clic **Nuovo modulo personalizzato.**
-1. Seleziona i tipi di oggetto a cui desideri allegare il modulo personalizzato, quindi fai clic su **Continua**.
+1. Fare clic su **Nuovo modulo personalizzato.**
+1. Seleziona i tipi di oggetto a cui vuoi allegare il modulo personalizzato, quindi fai clic su **Continua**.
 
    ![](assets/choose-object-type.jpg)
 
-1. In **Il titolo è obbligatorio** , digitare il titolo del modulo personalizzato.
-1. (Facoltativo) Se si desidera aggiungere altri tipi di oggetto al modulo in modo che possa essere allegato a più oggetti, fare clic sul pulsante **Aggiungi** icona ![](assets/add-objects-icon.png) dopo **Tipi di oggetto**, quindi seleziona il tipo desiderato nel menu visualizzato. È possibile ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
+1. Nell&#39;area **Titolo obbligatorio** digitare il titolo del modulo personalizzato.
+1. (Facoltativo) Se si desidera aggiungere altri tipi di oggetto al modulo in modo che possa essere allegato a più oggetti, fare clic sull&#39;icona **Aggiungi** ![](assets/add-objects-icon.png) dopo **Tipi di oggetto**, quindi selezionare il tipo desiderato nel menu visualizzato. È possibile ripetere questa operazione per aggiungere tutti i tipi di oggetto desiderati.
 
    È inoltre possibile fare clic sulla X su un tipo di oggetto per eliminarlo dal modulo.
 
@@ -71,14 +71,14 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >L’eliminazione di un modulo personalizzato comporta anche l’eliminazione di tutti i dati personalizzati sugli oggetti associati al modulo. Non è possibile recuperare i dati eliminati. Valuta invece la possibilità di disattivare un modulo personalizzato: quando disattivi un modulo personalizzato che non utilizzi più, vengono conservati tutti i dati storici associati.
    >
-   >Per ulteriori informazioni, consulta [Eliminare tipi di oggetto in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   >Per ulteriori informazioni, vedere [Eliminare i tipi di oggetto in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
 
 1. Successivamente, puoi iniziare ad aggiungere campi al modulo personalizzato. Vedere le sezioni seguenti:
    * [Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Aggiungi campi di testo](#add-text-fields)
    * [Aggiungere campi calcolati](#add-calculated-fields)
-   * [Aggiungi pulsanti di scelta, gruppo di caselle di controllo e elenchi a discesa](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [Aggiungi pulsanti di scelta, gruppi di caselle di controllo e elenchi a discesa](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Aggiungere campi di tipo typeahead e date](#add-typeahead-and-date-fields)
    * [Aggiungere campi di ricerca esterni](#add-external-lookup-fields)
    * [Aggiungere immagini, PDF e video](#add-images-pdfs-and-videos)
@@ -91,7 +91,7 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Riutilizzare un campo o un widget esistente già utilizzato in un altro modulo personalizzato
 
-1. In alto a sinistra nella schermata, fai clic su **Libreria campi**.
+1. Nella parte superiore sinistra dello schermo fare clic su **Libreria campi**.
 
 1. Trascina qui il campo o il widget desiderato nel modulo personalizzato.
 1. (Facoltativo) Ripeti il passaggio precedente per aggiungere altri campi o widget.
@@ -103,11 +103,11 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
    >
    >Esempi di moduli complessi includono moduli con parametri a catena, campi di dati personalizzati calcolati e opzioni con più valori in un singolo campo.
 
-1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.
 
 ### Aggiungi campi di testo
 
@@ -117,17 +117,17 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 * **Campo di testo a riga singola**: consente agli utenti di digitare una singola riga di testo nel campo.
 * **Campo di testo paragrafo**: consente agli utenti di digitare più righe di testo nel campo.
-* **Campo di testo con formattazione**: consente agli utenti di digitare più righe di testo nel campo e formattare il testo con grassetto, corsivo, sottolineato, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.
+* **Campo di testo con formattazione**: consente agli utenti di digitare più righe di testo nel campo e di formattare il testo con grassetto, corsivo, sottolineatura, punti elenco, numerazione, collegamenti ipertestuali e virgolette. Un limite di caratteri di 15.000 consente di inserire testo e formattazione in modo molto ampio.
 
   Questo tipo di campo personalizzato non è supportato nei filtri di elenchi e rapporti.
 
-  Per informazioni sull’accesso a questo campo tramite l’API, consulta [Archiviazione di campi in formato Rich Text nell’API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+  Per informazioni sull&#39;accesso a questo campo tramite l&#39;API, vedere [Archiviazione campi in formato Rich Text nell&#39;API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
   >[!NOTE]
   >
   >I campi di testo con formattazione non sono disponibili per le app Workfront per dispositivi mobili (disponibili nelle prossime versioni).
 
-* **Testo descrittivo**: ti consente di includere istruzioni e collegamenti a pagine esterne a Workfront.
+* **Testo descrittivo**: consente di includere istruzioni e collegamenti a pagine esterne a Workfront.
 
 +++
 
@@ -234,27 +234,27 @@ Per aggiungere un campo di testo:
 
    ![icona copia](assets/copy-field.png)
 
-1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.
 
 ### Aggiungere campi calcolati
 
 In un modulo personalizzato è possibile aggiungere un campo personalizzato calcolato che utilizza dati esistenti per generare nuovi dati quando il modulo personalizzato viene allegato a un oggetto.
 
-Per aggiungere un campo calcolato, vedi [Aggiungere campi calcolati con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Per aggiungere un campo calcolato, vedere [Aggiungere campi calcolati con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-### Aggiungi pulsanti di scelta, caselle di controllo e menu a discesa
+### Aggiungi pulsanti di scelta, gruppi di caselle di controllo e elenchi a discesa
 
-In un modulo personalizzato è possibile aggiungere pulsanti di scelta, caselle di controllo, elenchi a discesa e elenchi a discesa a selezione multipla.
+In un modulo personalizzato è possibile aggiungere pulsanti di scelta, gruppi di caselle di controllo, elenchi a discesa e elenchi a discesa a selezione multipla.
 
 +++ **Espandi per visualizzare le descrizioni dei campi disponibili**
 
 * **Pulsanti di scelta**: richiede agli utenti di selezionare una sola scelta.
 * **Gruppo di caselle di controllo**: consente agli utenti di selezionare più scelte.
-* **A discesa**: fornisce un elenco di scelte a discesa.
+* **Elenco a discesa**: fornisce un elenco di scelte a discesa.
 * **Elenco a discesa a selezione multipla**: consente agli utenti di selezionare più scelte da un elenco a discesa.
 
 +++
@@ -263,7 +263,7 @@ In un modulo personalizzato è possibile aggiungere pulsanti di scelta, caselle 
 >
 >I campi che consentono selezioni multiple, come il gruppo di caselle di controllo e il menu a discesa a selezione multipla, sono difficili da tracciare e raggruppare nei rapporti. Per semplificare la creazione di grafici e il raggruppamento nei report, è possibile creare campi separati per ogni scelta, ad esempio un campo di testo a riga singola.
 
-Per aggiungere pulsanti di scelta, caselle di controllo e menu a discesa:
+Per aggiungere pulsanti di scelta, gruppi di caselle di controllo e elenchi a discesa:
 
 1. Nella parte sinistra dello schermo, individua uno dei campi seguenti e trascinalo in una sezione dell’area di lavoro.
 
@@ -285,7 +285,7 @@ Per aggiungere pulsanti di scelta, caselle di controllo e menu a discesa:
     </tr>
     <tr> 
      <td role="rowheader">Etichetta</td> 
-     <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+     <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
      <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
@@ -301,7 +301,7 @@ Per aggiungere pulsanti di scelta, caselle di controllo e menu a discesa:
     <li>Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l’utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront. <p>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.</p> </li>
     <li> <p>È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.</p> </li>
      <li><p>È consigliabile non utilizzare il carattere punto/punto nel nome del campo personalizzato, per evitare errori quando si utilizza il campo in aree diverse di Workfront.</p></li>
-     </ul> <p>Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. Per ulteriori informazioni, consulta <a href="#Add" class="MCXref xref">Aggiungere un campo personalizzato a un modulo personalizzato</a> in questo articolo.</p> </td>
+     </ul> <p>Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. Per ulteriori informazioni, vedere <a href="#Add" class="MCXref xref">Aggiungere un campo personalizzato a un modulo personalizzato</a> in questo articolo.</p> </td>
      <td><ul>
     <li>Pulsanti di opzione</li>
     <li>Gruppo di caselle di controllo</li>
@@ -360,17 +360,17 @@ Per aggiungere pulsanti di scelta, caselle di controllo e menu a discesa:
     <td role="rowheader">Scelte </td> 
     <td> 
     <ol> 
-    <li> <p>Clic <b>Opzioni</b>, quindi attiva uno dei seguenti elementi:</p> 
+    <li> <p>Fai clic su <b>Opzioni</b>, quindi abilita uno dei seguenti elementi:</p> 
     <ul> 
     <li><strong>Mostra valori</strong>: mostra i valori di ciascuna scelta nel campo. L’etichetta di ciascuna scelta viene visualizzata per impostazione predefinita.</li> 
-     <li><strong>Ordina le scelte dalla A alla Z</strong>: Ordina le scelte aggiunte in ordine alfabetico nel campo.</li> 
+     <li><strong>Ordina scelte A-Z</strong>: ordina alfabeticamente le scelte aggiunte nel campo.</li> 
     </ul> 
     </li> 
-    <li> <p>Per ogni scelta aggiunta per l’utente, fai clic sull’icona a forma di ingranaggio <img src="assets/gear-icon-settings.png">, quindi seleziona una delle seguenti opzioni:</p> 
+    <li> <p>Per ogni scelta aggiunta per l'utente, fare clic sull'icona a forma di ingranaggio <img src="assets/gear-icon-settings.png">, quindi selezionare una delle opzioni seguenti:</p> 
     <ul> 
     <li><strong>Seleziona per impostazione predefinita</strong>: seleziona la scelta per impostazione predefinita nel campo.</li> 
     <li> <p><strong>Nascondi scelta</strong>: nasconde la scelta nel campo. Le scelte nascoste rimangono accessibili nei rapporti.</p> </li> 
-    <li> <p><strong>Rimuovi scelta</strong>: rimuovi la scelta dal campo.</p> <p><b>AVVISO</b>: se gli oggetti correnti utilizzano questa scelta, non rimuoverla dal campo. Rimuovendola, i dati storici andranno perduti. Al contrario, seleziona l’opzione per nasconderlo, impedendo agli utenti di selezionarlo in futuro.</p> </li> 
+    <li> <p><strong>Rimuovi scelta</strong>: rimuovere la scelta dal campo.</p> <p><b>AVVISO</b>: se sono presenti oggetti correnti che utilizzano questa scelta, non rimuoverla dal campo. Rimuovendola, i dati storici andranno perduti. Al contrario, seleziona l’opzione per nasconderlo, impedendo agli utenti di selezionarlo in futuro.</p> </li> 
     </ul> 
      </li> 
     </ol> </td> 
@@ -392,11 +392,11 @@ Per aggiungere pulsanti di scelta, caselle di controllo e menu a discesa:
 
    ![icona copia](assets/copy-field.png)
 
-1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.
 
 ### Aggiungere campi di tipo typeahead e date
 
@@ -414,7 +414,7 @@ Per aggiungere pulsanti di scelta, caselle di controllo e menu a discesa:
    * Team
    * Modello
    * Azienda
-* **Campo data**: visualizza un calendario in cui gli utenti possono selezionare una data e un’ora.
+* **Campo data**: visualizza un calendario in cui gli utenti possono selezionare una data e un&#39;ora.
 
 +++
 
@@ -438,7 +438,7 @@ Per aggiungere campi di tipo typeahead e date:
     </tr>
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
        <td><ul>
     <li>Automatico</li>
     <li>Campo Data</li>
@@ -452,7 +452,7 @@ Per aggiungere campi di tipo typeahead e date:
       <li>Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l’utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront. <p>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.</p> </li>
       <li> <p>È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.</p> </li>
       <li><p>È consigliabile non utilizzare il carattere punto/punto nel nome del campo personalizzato, per evitare errori quando si utilizza il campo in aree diverse di Workfront.</p></li>
-      </ul> <p>Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. Per ulteriori informazioni, consulta <a href="#Add" class="MCXref xref">Aggiungere un campo personalizzato a un modulo personalizzato</a> in questo articolo.</p> </td>
+      </ul> <p>Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. Per ulteriori informazioni, vedere <a href="#Add" class="MCXref xref">Aggiungere un campo personalizzato a un modulo personalizzato</a> in questo articolo.</p> </td>
          <td><ul>
     <li>Automatico</li>
     <li>Campo Data</li>
@@ -493,7 +493,7 @@ Per aggiungere campi di tipo typeahead e date:
         <li>Appartengono a uno o più gruppi specificati</li> 
         <li>Sono associati a un ruolo o a una mansione specificata</li> 
         <li>Appartengono allo stesso gruppo della persona che utilizza il campo</li> 
-       </ul> <p>È necessario definire il filtro per il tipo di oggetto selezionato utilizzando la sintassi della modalità testo. Per informazioni sulla creazione di un filtro in modalità testo, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modificare un filtro utilizzando la modalità testo</a>.</p>
+       </ul> <p>È necessario definire il filtro per il tipo di oggetto selezionato utilizzando la sintassi della modalità testo. Per informazioni sulla creazione di un filtro in modalità testo, vedere <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Modificare un filtro in modalità testo</a>.</p>
        <p><b>NOTA</b>:
        <ul> 
         <li>Se si sta modificando un modulo personalizzato esistente, l'aggiunta di un filtro a un campo automatico non rimuove gli oggetti già aggiunti dagli utenti utilizzando il campo al di fuori dell'ambito del filtro.</li> 
@@ -524,17 +524,17 @@ Per aggiungere campi di tipo typeahead e date:
 
    ![icona copia](assets/copy-field.png)
 
-1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.
 
 ### Aggiungere campi di ricerca esterni
 
 Un campo di ricerca esterno richiama un’API esterna e restituisce i valori come opzioni in un campo a discesa. Gli utenti che utilizzano l’oggetto a cui è associato il modulo personalizzato possono selezionare una o più di queste opzioni dal menu a discesa. Il campo di ricerca esterno è disponibile anche in elenchi e rapporti.
 
-Per esempi sull’utilizzo del campo di ricerca esterna per chiamare la stessa istanza di Workfront o un’API pubblica, consulta [Esempi di campo di ricerca esterna in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Per esempi sull&#39;utilizzo del campo di ricerca esterna per chiamare la stessa istanza di Workfront o un&#39;API pubblica, vedere [Esempi del campo di ricerca esterna in un modulo personalizzato](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
@@ -544,7 +544,7 @@ Per esempi sull’utilizzo del campo di ricerca esterna per chiamare la stessa i
 
 Per aggiungere una ricerca esterna:
 
-1. Sul lato sinistro dello schermo, trovare **Ricerca esterna** e trascinarlo in una sezione dell’area di lavoro.
+1. Nella parte sinistra dello schermo, trovare **Ricerca esterna** e trascinarlo in una sezione dell&#39;area di lavoro.
 1. Sul lato destro della schermata, configura le opzioni per il campo personalizzato:
 
    <table style="table-layout:auto"> 
@@ -553,7 +553,7 @@ Per aggiungere una ricerca esterna:
     <tbody> 
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo personalizzato. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
@@ -563,7 +563,7 @@ Per aggiungere una ricerca esterna:
       <li>Sebbene sia possibile farlo, si consiglia di non modificare questo nome dopo che l’utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il campo personalizzato a cui potrebbe ora fare riferimento in altre aree di Workfront. <p>Ad esempio, se aggiungi il campo personalizzato a un rapporto e successivamente ne modifichi il nome, Workfront non lo riconosce nel rapporto e non funzionerà più correttamente a meno che non lo aggiungi nuovamente al rapporto utilizzando il nuovo nome.</p> </li>
       <li> <p>È consigliabile non digitare un nome già utilizzato per i campi Workfront incorporati.</p> </li>
       <li><p>È consigliabile non utilizzare il carattere punto/punto nel nome del campo personalizzato, per evitare errori quando si utilizza il campo in aree diverse di Workfront.</p></li>
-      </ul> <p>Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. Per ulteriori informazioni, consulta <a href="#Add" class="MCXref xref">Aggiungere un campo personalizzato a un modulo personalizzato</a> in questo articolo.</p> </td>
+      </ul> <p>Ogni nome di campo personalizzato deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. Per ulteriori informazioni, vedere <a href="#Add" class="MCXref xref">Aggiungere un campo personalizzato a un modulo personalizzato</a> in questo articolo.</p> </td>
      </tr> 
       <td role="rowheader">Istruzioni</td> 
       <td> <p>Inserisci eventuali informazioni aggiuntive sul campo personalizzato. Quando gli utenti compilano il modulo personalizzato, possono passare il cursore sull’icona del punto interrogativo per visualizzare una descrizione comando contenente le informazioni digitate qui.</p> </td> 
@@ -581,31 +581,36 @@ Per aggiungere una ricerca esterna:
       <td role="rowheader">URL API base</td> 
       <td><p>Digita o incolla l’URL per l’API.</p><p>L’URL API deve restituire il contenuto JSON delle opzioni che desideri visualizzare nel menu a discesa. Puoi utilizzare il campo Percorso JSON per selezionare i valori specifici dal JSON restituito come opzioni a discesa.</p><p>Quando immetti l’URL API, puoi facoltativamente trasmettere i seguenti valori nell’URL:</p>
       <ul>
-      <li>$$HOST - Rappresenta l'host Workfront corrente e può essere utilizzato per effettuare chiamate API /search all'API Workfront. Quando si utilizza questo carattere jolly, l'autenticazione viene gestita e gli utenti non devono inviare intestazioni di autenticazione. Ad esempio, gli utenti possono cercare le attività utilizzando l’URL di base <code>$$HOST/attask/api/task/search</code> consente inoltre di cercare le attività e di selezionare i valori da un elenco di attività restituito.)</li>
+      <li>$$HOST - Rappresenta l'host Workfront corrente e può essere utilizzato per effettuare chiamate API /search all'API Workfront. Quando si utilizza questo carattere jolly, l'autenticazione viene gestita e gli utenti non devono inviare intestazioni di autenticazione. Gli utenti, ad esempio, possono cercare le attività utilizzando l'URL di base <code>$$HOST/attask/api/task/search</code> e consentire la ricerca delle attività e la selezione dei valori da un elenco di attività restituito.</li>
       <li><p>$$QUERY - Rappresenta il testo di ricerca digitato dall'utente finale nel campo e consente di implementare il filtro delle query per gli utenti finali. L’utente cercherà il valore nel menu a discesa.</p>
-      <p>Se l’API a cui stai facendo riferimento lo consente, puoi anche includere modificatori nella query di ricerca per identificare come dovrebbe funzionare la ricerca. Ad esempio, puoi utilizzare quanto segue come URL API di base per consentire agli utenti di cercare qualsiasi progetto Workfront che contiene testo specifico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Ulteriori informazioni sui modificatori di ricerca di Workfront in <a href="/help/quicksilver/wf-api/general/api-basics.md">Nozioni di base sulle API</a>.</p>
-      <p><strong>NOTA:</strong> Se non si utilizza $$QUERY e l'utente digita del testo nella casella di ricerca, le scelte già disponibili verranno limitate. Tuttavia, se utilizzi $$QUERY e l’utente digita qualsiasi cosa, viene eseguita una nuova chiamata di rete all’API. Pertanto, se nell’API sono presenti più di 2.000 valori e l’API supporta l’esecuzione di query, puoi utilizzare $$QUERY per eseguire ricerche non solo dai valori esistenti del 2.000, ma dall’API originale con le opzioni ridotte.</p></li>
-      <li><p>{fieldName} : dove fieldName è un campo personalizzato o nativo in Workfront. In questo modo puoi implementare i filtri delle opzioni a discesa a cascata, quando trasmetti il valore di un campo già selezionato al campo Ricerca esterna per filtrare le opzioni. Ad esempio, il campo Regione esiste già nel modulo e stai restringendo un elenco di paesi dall’API a quelli che si trovano in un’area specifica.</p>
-      <p>Per un campo di ricerca esterno che ha una dipendenza da altri campi (utilizzando {fieldName} ), le opzioni restituite dall’API sono limitate a quelle che corrispondono a eventuali stringhe o valori immessi negli altri campi. Questa funzionalità non è supportata negli elenchi e nei report.</p></li>
-      <li>{referenceObject}.{fieldName} - Se il campo fa parte di un oggetto. Questa sintassi è simile alle espressioni personalizzate. (Ad esempio, portfolioID={project}.{portfolioID})</li></ul>
-      <p><strong>NOTA:</strong> Consulta la documentazione dell’API con cui stai lavorando per le query specifiche che puoi definire.</p></td>
+      <p>Se l’API a cui stai facendo riferimento lo consente, puoi anche includere modificatori nella query di ricerca per identificare come dovrebbe funzionare la ricerca. È possibile, ad esempio, utilizzare quanto segue come URL API di base per consentire agli utenti di cercare qualsiasi progetto Workfront contenente testo specifico: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Ulteriori informazioni sui modificatori di ricerca Workfront in <a href="/help/quicksilver/wf-api/general/api-basics.md">Nozioni di base sulle API</a>.</p>
+      <p><strong>NOTA:</strong> se non si utilizza $$QUERY e l'utente digita del testo nella casella di ricerca, le scelte già disponibili verranno limitate. Tuttavia, se utilizzi $$QUERY e l’utente digita qualsiasi cosa, viene eseguita una nuova chiamata di rete all’API. Pertanto, se nell’API sono presenti più di 2.000 valori e l’API supporta l’esecuzione di query, puoi utilizzare $$QUERY per eseguire ricerche non solo dai valori esistenti del 2.000, ma dall’API originale con le opzioni ridotte.</p></li>
+      <li><p>{fieldName} - Dove fieldName è un campo personalizzato o nativo in Workfront. In questo modo puoi implementare i filtri delle opzioni a discesa a cascata, quando trasmetti il valore di un campo già selezionato al campo Ricerca esterna per filtrare le opzioni. Ad esempio, il campo Regione esiste già nel modulo e stai restringendo un elenco di paesi dall’API a quelli che si trovano in un’area specifica.</p>
+      <p>Per un campo di ricerca esterno che ha una dipendenza da altri campi (utilizzando la sintassi {fieldName}), le opzioni restituite dall'API sono limitate a quelle che corrispondono a eventuali stringhe o valori immessi negli altri campi. Questa funzionalità non è supportata negli elenchi e nei report.</p></li>
+      <li>{referenceObject}.{fieldName} - Dove il campo fa parte di un oggetto. Questa sintassi è simile alle espressioni personalizzate. Ad esempio, portfolioID={project}.{portfolioID})</li></ul>
+      <p><strong>NOTA:</strong> consulta la documentazione dell'API con cui stai lavorando per le query specifiche che puoi definire.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Metodo HTTP</td> 
-      <td>Seleziona <strong>Ottenere</strong>, <strong>Pubblica</strong>, o <strong>Inserisci</strong> per il metodo.</td> 
+      <td>Selezionare <strong>Get</strong>, <strong>Post</strong> o <strong>Put</strong> per il metodo.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Percorso JSON</td>
-      <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l’URL API restituisce JSON in questo formato:</br>
+      <td><p>Digita o incolla il percorso JSON per l’API.</p> <p>Questa opzione consente di estrarre i dati dal JSON restituito dall’URL API. Serve come modo per selezionare quali valori dall’interno del JSON appariranno nelle opzioni a discesa.</p><p>Ad esempio, se l'URL API restituisce JSON in questo formato:</br>
       <pre>
-      { dati: { name: "USA"}, { name: "Canada"} } }
+      {
+       dati: {
+         { name: "USA"},
+         { name: "Canada"}
+       }
+      }
       </pre>
       </p>
-      <p>quindi puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa.</p> <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, consulta <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+      <p>quindi puoi utilizzare "$.data[*].name" per selezionare Stati Uniti e Canada come opzioni a discesa.</p> <p>Per ulteriori informazioni sul percorso JSON e sulla verifica della scrittura del percorso JSON corretto, fare riferimento a <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Intestazioni</td>
-      <td><p>Clic <strong>Aggiungi intestazione</strong>e digita o incolla la coppia chiave-valore richiesta per l’autenticazione con l’API.</p><p><strong>NOTA:</strong> I campi Intestazione non rappresentano un luogo sicuro in cui archiviare le credenziali. È necessario prestare attenzione a ciò che si immette e si salva.</p></td>
+      <td><p>Fai clic su <strong>Aggiungi intestazione</strong> e digita o incolla la coppia chiave-valore richiesta per l'autenticazione con l'API.</p><p><strong>NOTA:</strong> i campi Intestazione non sono un luogo sicuro in cui archiviare le credenziali. È necessario prestare attenzione a ciò che si immette e si salva.</p></td>
      </tr>
      <tr> 
       <td role="rowheader">Elenco a discesa multi-selezione</td>
@@ -619,11 +624,11 @@ Per aggiungere una ricerca esterna:
     </tbody>
    </table>
 
-1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.
 
 >[!NOTE]
 >
@@ -675,11 +680,11 @@ Per aggiungere immagini, PDF o video:
     <tbody> 
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il widget. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il widget. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
-      <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il widget.</p> <p>Quando configuri il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome non sono sincronizzati. In questo modo è possibile modificare l'etichetta visualizzata dagli utenti senza dover cambiare il nome visualizzato dal sistema.</p> <p><b>IMPORTANTE</b>: anche se è possibile farlo, si consiglia di non modificare questo nome dopo che tu o altri utenti avete iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il widget a cui potrebbe ora fare riferimento in altre aree di Workfront. </p> <p>Ogni nome di widget deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. </p> </td> 
+      <td> <p>(Obbligatorio) Questo nome indica il modo in cui il sistema identifica il widget.</p> <p>Quando configuri il widget per la prima volta e digiti l’etichetta, il campo Nome si popola automaticamente in modo che corrisponda a esso. Tuttavia, i campi Etichetta e Nome non sono sincronizzati. In questo modo è possibile modificare l'etichetta visualizzata dagli utenti senza dover cambiare il nome visualizzato dal sistema.</p> <p><b>IMPORTANTE</b>: anche se è possibile, si consiglia di non modificare questo nome dopo che l'utente o altri utenti hanno iniziato a utilizzare il modulo personalizzato in Workfront. In questo caso, il sistema non riconoscerà più il widget a cui potrebbe ora fare riferimento in altre aree di Workfront. </p> <p>Ogni nome di widget deve essere univoco nell’istanza Workfront della tua organizzazione. In questo modo, è possibile riutilizzare un modulo già creato per un altro modulo personalizzato. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -689,7 +694,7 @@ Per aggiungere immagini, PDF o video:
       <li> <p>Collegamento YouTube o Vimeo</p> </li> 
       <li> <p>Collegamento video Google Drive</p> </li> 
       <li> <p>Collegamento a video con estensione MP4 e MOV</p> </li> 
-      <li> <p>Collegamento a un video già caricato nell’area Documenti della tua istanza di Workfront. Per istruzioni, consulta <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Aggiungere un widget video a un modulo personalizzato dall’area Documenti</a> in questo articolo.</p> </li> 
+      <li> <p>Collegamento a un video già caricato nell’area Documenti della tua istanza di Workfront. Per istruzioni, vedere <a href="#add-a-video-widget-to-a-custom-form-from-the-documents-area" class="MCXref xref">Aggiungere un widget video a un modulo personalizzato dall'area Documenti</a> in questo articolo.</p> </li> 
       </ul> 
        </td> 
      </tr> 
@@ -712,11 +717,11 @@ Per aggiungere immagini, PDF o video:
 
    ![icona copia](assets/copy-field.png)
 
-1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.
 
 #### Aggiungere un widget video a un modulo personalizzato dall’area Documenti{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
@@ -724,21 +729,21 @@ Per aggiungere immagini, PDF o video:
 >
 >Quando si aggiunge un video a un modulo personalizzato in questo modo, al video vengono applicate solo le autorizzazioni impostate per il modulo personalizzato quando gli utenti accedono al modulo su un oggetto, non le autorizzazioni impostate per il video nell&#39;area Documenti.
 
-1. Vai al video nell’area Documenti e genera una bozza per esso, come descritto in [Creare una bozza interattiva per un sito web o altro contenuto web](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
+1. Vai al video nell&#39;area Documenti e genera una bozza per esso, come descritto in [Crea una bozza interattiva per un sito Web o altro contenuto Web](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md).
 1. Apri la bozza.
 1. Fai clic con il pulsante destro del mouse in un punto qualsiasi del video, quindi seleziona **Copia indirizzo video**.
-1. Nel modulo personalizzato in cui stai aggiungendo il widget video, incolla l’indirizzo copiato nel **URL** casella.
-1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+1. Nel modulo personalizzato in cui stai aggiungendo il widget video, incolla l&#39;indirizzo copiato nella casella **URL**.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.
 
 ### Aggiungi campi nativi Workfront
 
 Puoi aggiungere campi nativi di Workfront ai moduli personalizzati. Quando il modulo personalizzato viene allegato a un oggetto, il campo viene popolato dai dati dell’oggetto. Ad esempio, il campo Description (Descrizione) in un modulo personalizzato allegato a un progetto estrae la descrizione del progetto. (Il campo può mostrare &quot;N/D&quot; se non sono disponibili dati).
 
-+++ **Espandi per visualizzare l’elenco dei campi nativi supportati**
++++ **Espandi per visualizzare l&#39;elenco dei campi nativi supportati**
 
 In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront specifici in un modulo personalizzato.
 
@@ -785,7 +790,7 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
 
 +++
 
-1. Sul lato sinistro dello schermo, trovare **Campo nativo** e trascinarlo in una sezione dell’area di lavoro.
+1. Nella parte sinistra della schermata, individua **Campo nativo** e trascinalo in una sezione dell&#39;area di lavoro.
 1. Sul lato destro della schermata, configura le opzioni per il campo personalizzato:
 
    <table style="table-layout:auto"> 
@@ -794,7 +799,7 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
     <tbody> 
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il campo. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
@@ -820,11 +825,11 @@ In questa tabella sono elencati i campi nativi disponibili per oggetti Workfront
     </tbody> 
    </table>
 
-1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.
 
 ### Aggiungere file Adobe XD
 
@@ -835,7 +840,7 @@ Puoi aggiungere un prototipo Adobe XD direttamente a un modulo personalizzato. G
 
 Per aggiungere un file Adobe XD:
 
-1. Sul lato sinistro dello schermo, trovare **Adobe XD** e trascinarlo in una sezione dell’area di lavoro.
+1. Sul lato sinistro della schermata, trovare **Adobe XD** e trascinarlo in una sezione dell&#39;area di lavoro.
 1. Digitate o modificate una delle seguenti proprietà per il widget:
 
    <table style="table-layout:auto"> 
@@ -844,7 +849,7 @@ Per aggiungere un file Adobe XD:
     <tbody> 
      <tr> 
       <td role="rowheader">Etichetta</td> 
-      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il widget. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evita di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
+      <td> <p>(Obbligatorio) Digita un’etichetta descrittiva da visualizzare sopra il widget. Puoi modificare l’etichetta in qualsiasi momento.</p> <p><b>IMPORTANTE</b>: evitare di utilizzare caratteri speciali in questa etichetta. Non vengono visualizzati correttamente nei rapporti.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nome</td> 
@@ -881,12 +886,12 @@ Per aggiungere un file Adobe XD:
 
    ![icona copia](assets/copy-field.png)
 
-1. Per salvare le modifiche, fai clic su **Applica** e passare a un&#39;altra sezione per continuare a creare il modulo.
+1. Per salvare le modifiche, fai clic su **Applica** e passa a un&#39;altra sezione per continuare a creare il modulo.
 
    oppure
 
-   Clic **Salva e chiudi**.
+   Fare clic su **Salva e chiudi**.
 
 ## Organizzare e visualizzare in anteprima un modulo con il progettista del modulo
 
-Per informazioni su come organizzare e visualizzare un&#39;anteprima del modulo, vedere [Organizzare e visualizzare in anteprima un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Per informazioni su come organizzare e visualizzare un&#39;anteprima del modulo, vedere [Organizzare e visualizzare l&#39;anteprima di un modulo con il progettista del modulo](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
