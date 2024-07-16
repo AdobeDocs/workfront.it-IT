@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 834d08d8e9896b80d047d00b2008dd9a002a95da
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
   </tr> 
   <tr> 
    <td role="rowheader">Configurazioni del livello di accesso</td> 
-   <td> <p>Devi essere un amministratore di Workfront.</p> </td> 
+   <td> <p>Devi essere un amministratore di sistema o un amministratore di gruppo. L'amministratore del gruppo ha una visualizzazione limitata delle informazioni sulla licenza.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,21 +71,21 @@ Per ulteriori dettagli sulle informazioni contenute in questa tabella, vedere [R
 
 ## Visualizzare le licenze della tua organizzazione
 
-Il numero di licenze in uso viene aggiornato automaticamente quando si assegnano i livelli di accesso agli utenti aggiunti a Workfront. Per ulteriori informazioni, consulta [Aggiungi utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Il numero di licenze in uso viene aggiornato automaticamente quando si assegnano i livelli di accesso agli utenti aggiunti a Workfront. Per ulteriori informazioni, vedere [Aggiungere utenti](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 Per visualizzare le informazioni sulle licenze nel sistema:
 
 {{step-1-to-setup}}
 
-1. Nella parte inferiore del pannello sinistro, fai clic su **Sistema** > **Licenze**.
+1. Nella parte inferiore del pannello a sinistra, fai clic su **Sistema** > **Licenze**.
 
-   Per ulteriori informazioni sulle licenze elencate in questa pagina, consulta [Panoramica sulle licenze](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Per ulteriori informazioni sulle licenze elencate in questa pagina, vedere [Panoramica sulle licenze](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
-   >Le licenze Verifica sono disponibili solo per i clienti che hanno acquistato a pagamento il componente aggiuntivo Workfront Proof oltre alla licenza Workfront. Per informazioni su questo componente aggiuntivo, vedere [Workfront Proof: indice articolo](../../workfront-proof/workfront-proof.md).
+   >Le licenze Verifica sono disponibili solo per i clienti che hanno acquistato a pagamento il componente aggiuntivo Workfront Proof oltre alla licenza Workfront. Per informazioni su questo componente aggiuntivo, vedere [Workfront Proof: article index](../../workfront-proof/workfront-proof.md).
 
-1. (Condizionale) Se viene visualizzato il messaggio **Per impostare un massimo, è necessario aggiungere un Gruppo Predefinito**, aggiungi un Gruppo predefinito nel sistema come descritto nella sezione [Aggiungere o rimuovere un gruppo predefinito nella pagina Licenze](#add-or-remove-a-home-group-to-the-licenses-page) in questo articolo.
+1. (Condizionale) Se viene visualizzato il messaggio **Per impostare un massimo, è necessario aggiungere un gruppo predefinito**, aggiungere un gruppo predefinito nel sistema come descritto nella sezione [Aggiungere o rimuovere un gruppo predefinito nella pagina Licenze](#add-or-remove-a-home-group-to-the-licenses-page) di questo articolo.
 
    >[!NOTE]
    >
@@ -93,16 +93,16 @@ Per visualizzare le informazioni sulle licenze nel sistema:
 
 ## Visualizzare informazioni sulle licenze per i componenti aggiuntivi di Workfront
 
-Se l&#39;organizzazione dispone del componente aggiuntivo a pagamento Workfront Proof, vengono visualizzati il numero di licenze utilizzate e il numero di licenze disponibili. Ad esempio: **5 di 10 Licenze Verifica** indica che l’organizzazione sta attualmente utilizzando 5 delle 10 licenze Workfront Proof acquistate.
+Se l&#39;organizzazione dispone del componente aggiuntivo a pagamento Workfront Proof, vengono visualizzati il numero di licenze utilizzate e il numero di licenze disponibili. Ad esempio, **5 delle 10 licenze di verifica** indica che l&#39;organizzazione sta attualmente utilizzando 5 delle 10 licenze di Workfront Proof acquistate.
 
-![Licenza per i componenti aggiuntivi Workfront](assets/updated-licenses-page.png)
+![Licenza per i componenti aggiuntivi di Workfront](assets/updated-licenses-page.png)
 
 Se la tua organizzazione ha acquistato Workfront Goals, qui vengono visualizzate anche le informazioni sulla licenza per questo prodotto. In questo caso, puoi visualizzare le seguenti informazioni:
 
 * Numero totale di licenze Workfront Goals acquistate dalla società
 * Il numero di licenze Workfront Goals associate agli utenti. Questo è il numero di utenti a cui è stato concesso almeno l’accesso di visualizzazione agli obiettivi nel rispettivo livello di accesso.
 
-Per informazioni sugli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md). Per informazioni sull’accesso agli obiettivi di Workfront, consulta [Concedere l’accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Per informazioni sugli obiettivi di Workfront, consulta [Panoramica sugli obiettivi di Adobe Workfront](../../workfront-goals/goal-management/wf-goals-overview.md). Per informazioni sull&#39;accesso agli obiettivi di Workfront, vedere [Concedere l&#39;accesso agli obiettivi di Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
@@ -120,21 +120,21 @@ If an organization has other paid add-on products, their license information als
 >* Limite tipo di licenza: limite lavoratore
 >* Limite tipo di licenza: Limite planner
 >
->Per ulteriori informazioni sulla creazione di un rapporto, consulta [Creare un rapporto personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>Per ulteriori informazioni sulla creazione di un report, vedere [Creare un report personalizzato](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Visualizza informazioni sulle assegnazioni di bozze e documenti decisionali mensili
 
 >[!IMPORTANT]
 >
->I limiti di decisione per bozze e documenti si applicano solo agli utenti delle nuove licenze. Per ulteriori informazioni, consulta [Panoramica sulle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>I limiti di decisione per bozze e documenti si applicano solo agli utenti delle nuove licenze. Per ulteriori informazioni, vedere [Panoramica delle nuove licenze](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 Le decisioni su bozze e documenti sono limitate per tutte le licenze Workfront non a pagamento. Limiti reimpostati per ogni utente ogni mese.
 
 I limiti di decisione per ogni licenza variano a seconda del piano su cui stai lavorando. Puoi visualizzare l’assegnazione mensile in Configurazione > Licenze.
 
-Per ulteriori informazioni sui limiti di decisione per bozze e documenti, consulta [Documento limitato e decisione sulla bozza per utenti non pagati - Panoramica](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Per ulteriori informazioni sui limiti di decisione per bozze e documenti, consulta [Panoramica su documenti e bozze con limitazioni per utenti non pagati](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-![Aggiudicazione mensile delle decisioni](assets/monthly-decision-allotment.png)
+![Ripartizione mensile delle decisioni](assets/monthly-decision-allotment.png)
 
 ## Aggiungere o rimuovere un gruppo predefinito nella pagina Licenze {#add-or-remove-a-home-group-to-the-licenses-page}
 
@@ -142,11 +142,11 @@ Per ulteriori informazioni sui limiti di decisione per bozze e documenti, consul
 
 Ogni utente può essere assegnato a un solo Gruppo Predefinito. Workfront fornisce un conteggio delle licenze orientato al gruppo calcolando il numero di licenze allocate e attualmente utilizzate in ciascun Gruppo predefinito.
 
-Se viene visualizzato il messaggio **Per impostare un massimo, è necessario aggiungere un Gruppo Predefinito** nella pagina Licenze è necessario aggiungere almeno un gruppo predefinito alla pagina Licenze.
+Se viene visualizzato il messaggio **Per impostare un massimo, è necessario aggiungere un gruppo predefinito** nella pagina Licenze, è necessario aggiungere almeno un gruppo predefinito alla pagina Licenze.
 
 >[!IMPORTANT]
 >
->* Per gestire in modo efficace le licenze con i gruppi home, si consiglia di impostare gruppi home specifici per le unità aziendali prima di aggiornare il numero massimo di licenze. Per ulteriori informazioni, consulta [Panoramica sui gruppi predefiniti](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
+>* Per gestire in modo efficace le licenze con i gruppi home, si consiglia di impostare gruppi home specifici per le unità aziendali prima di aggiornare il numero massimo di licenze. Per ulteriori informazioni, vedere [Panoramica sui gruppi principali](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
 >* È possibile aggiungere solo i gruppi di primo livello come gruppi principali, non i sottogruppi. Se a un utente è assegnato un sottogruppo come Gruppo predefinito, la licenza viene aggiunta al numero di licenze per il gruppo di livello superiore al di sopra di tale sottogruppo.
 >
 
@@ -154,10 +154,10 @@ Per aggiungere o rimuovere un gruppo predefinito nella pagina Licenze:
 
 {{step-1-to-setup}}
 
-1. Nella parte inferiore del pannello sinistro, fai clic su **Sistema** > **Licenze**.
+1. Nella parte inferiore del pannello a sinistra, fai clic su **Sistema** > **Licenze**.
 
-1. Clic **Gestisci elenco gruppi**.
-1. Inizia a digitare il nome del gruppo di primo livello nel **Gruppi predefiniti** casella.
+1. Fare clic su **Gestione elenco gruppi**.
+1. Inizia a digitare il nome del gruppo di primo livello nella casella **Gruppi principali**.
 1. Per aggiungere il gruppo, fare clic sul nome quando viene visualizzato.
 
    Oppure
@@ -166,7 +166,7 @@ Per aggiungere o rimuovere un gruppo predefinito nella pagina Licenze:
 
 1. Fai clic su **Salva**.
 
-In qualità di amministratore di Workfront, puoi impostare il numero massimo di licenze per i gruppi Home per impedire a una business unit di utilizzare le licenze Workfront acquistate per altre business unit. Per istruzioni, consulta [Impostare il numero massimo di licenze per un gruppo predefinito](#set-the-maximum-license-count-for-a-home-group) in questo articolo.
+In qualità di amministratore di Workfront, puoi impostare il numero massimo di licenze per i gruppi Home per impedire a una business unit di utilizzare le licenze Workfront acquistate per altre business unit. Per istruzioni, vedere [Impostare il numero massimo di licenze per un gruppo predefinito](#set-the-maximum-license-count-for-a-home-group) in questo articolo.
 
 ## Impostare il numero massimo di licenze per un gruppo predefinito {#set-the-maximum-license-count-for-a-home-group}
 
@@ -174,16 +174,16 @@ In qualità di amministratore di Workfront, puoi impostare il numero massimo di 
 
 Per impostazione predefinita, il numero massimo di licenze è impostato su N/D, il che significa che non esiste alcun limite.
 
-Gli amministratori di gruppi possono visualizzare il numero di licenze allocate e utilizzate in un Gruppo predefinito che gestiscono. Per ulteriori informazioni, consulta [Visualizza il numero di licenze allocate e utilizzate in un gruppo](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+Gli amministratori di gruppi possono visualizzare il numero di licenze allocate e utilizzate in un Gruppo predefinito che gestiscono. Per ulteriori informazioni, vedere [Visualizzare il numero di licenze allocate e utilizzate in un gruppo](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
 Per impostare il numero massimo di licenze per un gruppo predefinito:
 
 {{step-1-to-setup}}
 
-1. Nella parte inferiore del pannello sinistro, fai clic su **Sistema** > **Licenze**.
+1. Nella parte inferiore del pannello a sinistra, fai clic su **Sistema** > **Licenze**.
 
 1. Individuare il Gruppo Predefinito nell&#39;elenco.
-1. In **Max** del gruppo, fare clic sul valore per il quale si desidera impostare un valore massimo.
+1. Nella colonna **Max** del gruppo fare clic sul valore per il quale si desidera impostare un valore massimo.
 1. Digitare il numero massimo, quindi premere Invio.
 
    ![](assets/updated-max.png)
