@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: cd84a3b448de41c795cc962e4756db0946bae0fd
+source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Questa pagina fornisce informazioni sulle funzionalità incluse nella versione del terzo trimestre 2024. Questi miglioramenti saranno disponibili nell’ambiente di produzione durante tutto il trimestre.
 
-Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda un video dimostrativo delle funzioni 24.7 qui](https://video.tv.adobe.com/v/3430532/%20).
+Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guardare una dimostrazione video delle funzionalità 24.7 qui](https://video.tv.adobe.com/v/3430532/%20).
 
 <span class="preview">Le funzioni fuori ciclo (quelle rilasciate in produzione prima della data di rilascio del terzo trimestre 2024) sono evidenziate in giallo.</span>
 
@@ -30,7 +30,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
 >|----|----|
 >| <ul><li>24.5 (16 maggio 2024)</li><li>24.6 (13 giugno 2024)</li><li>24.7 (18 luglio 2024)</li></ul> | <ul><li>24.7 (18 luglio 2024)</li></ul> |
 >
->Per ulteriori informazioni sul processo di rilascio rapido, consulta [Attiva o disattiva il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Per ulteriori informazioni sul processo di rilascio rapido, vedere [Attivare o disattivare il processo di rilascio rapido](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Miglioramenti di Adobe Workfront
 
@@ -78,14 +78,14 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Progettazione moduli personalizzati generalmente disponibile in Adobe Systems Workfront</a></p>
-                        <p>Con la versione 24.7, la finestra di progettazione moduli sarà disponibile a livello generale e diventerà l'esperienza predefinita per la creazione e la modifica di moduli personalizzati in Adobe Systems Workfront. Quando si crea un nuovo modulo personalizzato o si apre un modulo esistente, viene visualizzata l'area di lavoro in stile canvas del progettista del modulo.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">La finestra di progettazione dei moduli personalizzati è disponibile in Adobe Workfront</a></p>
+                        <p>Con la versione 24.7, il progettista di moduli sarà generalmente disponibile e diventerà l’esperienza predefinita per la creazione e la modifica di moduli personalizzati in Adobe Workfront. Quando si crea un nuovo modulo personalizzato o si apre un modulo esistente, viene visualizzata l'area di lavoro in stile area di lavoro del progettista del modulo.</p>
                         <p>Dopo questa versione, non sarà più possibile tornare al generatore di moduli legacy.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Anteprima rilascio: 19 giugno 2024</p>
+                                <p>Versione di anteprima: 19 giugno 2024</p>
                             </li>
                             <li>
                                 <p>Versione di produzione per tutti i clienti: con la versione 24.7 (18 luglio 2024)</p>
@@ -95,7 +95,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Spostare gli oggetti tra ambienti Workfront con la promozione dell’ambiente</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Spostamento di oggetti tra ambienti Workfront con promozione dell'ambiente</a></p>
                         [!BADGE In produzione ]{type=Informative}
                         <p>La promozione dell’ambiente consente di spostare gli oggetti da un ambiente Workfront a un altro, ad esempio da un ambiente sandbox a un ambiente di produzione. È possibile configurare e testare gli oggetti senza alcun rischio per i dati e i record dell'organizzazione. È quindi possibile spostare tali oggetti in produzione senza doverli riconfigurare, risparmiando tempo e fatica.</p>
                     </td>
@@ -109,17 +109,17 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Condivisione di moduli personalizzati e campi personalizzati nella finestra di progettazione moduli personalizzati</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Condividi moduli personalizzati e campi personalizzati nella finestra di progettazione moduli personalizzati</a></p>
                         [!BADGE In produzione ]{type=Informative}
                         <p>È ora possibile condividere sia i moduli personalizzati che i campi personalizzati all’interno del nuovo progettista di moduli. Ciò consente una maggiore collaborazione tra gli utenti sui moduli personalizzati.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Anteprima rilascio: 6 giugno 2024</p>
+                                <p>Versione di anteprima: 6 giugno 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Release di produzione per tutti i clienti: 13 giugno</span></p>
+                                <p><span class="preview">Versione di produzione per tutti i clienti: 13 giugno</span></p>
                             </li>
                         </ul>
                     </td>
@@ -127,7 +127,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Aggiungere un nuovo campo personalizzato dall'area Campi</a></p>
-                        <p>È ora possibile aggiungere un nuovo campo o widget personalizzato direttamente dall'area Campi in Workfront, senza aprire un modulo personalizzato per creare il campo. Questo consente di creare rapidamente campi personalizzati riutilizzabili.</p>
+                        <p>È ora possibile aggiungere un nuovo campo personalizzato o widget direttamente dall’area Campi di Workfront, senza aprire un modulo personalizzato per la creazione del campo. Questo consente di creare rapidamente campi personalizzati riutilizzabili.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -142,7 +142,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Tipo di campo a discesa a selezione multipla disponibile nel progettista del modulo</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Tipo di campo a discesa a selezione multipla disponibile nella finestra di progettazione del modulo</a></p>
                         [!BADGE In produzione ]{type=Informative}
                         <p>Per semplificare la definizione dei campi a discesa, è stato aggiunto il campo a discesa Selezione multipla al designer del modulo personalizzato. Questo tipo di campo consente agli utenti di scegliere più opzioni da un elenco a discesa.</p>
                     </td>
@@ -260,8 +260,8 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifica l’attività e il problema Conferma data e condizione dall’intestazione o dalla sezione Dettagli</a></p>
-                        [! BADGE In produzione per Fast Release ]{type=Positive}
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifica l'attività e il problema Conferma data e condizione dall'intestazione o dalla sezione Dettagli</a></p>
+                        [!BADGE In produzione per rilascio rapido ]{type=Positive}
                         <p>Per semplificare l’aggiornamento di attività e problemi, ora sono stati aggiunti i campi Conferma data e Condizione come opzioni da aggiungere alle intestazioni delle attività e dei problemi e alla sezione Dettagli in un modello di layout. Gli utenti possono ora aggiornare questi campi dall’intestazione o dalla sezione Details (Dettagli) di una pagina, quando sono assegnati al modello di layout modificato.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -280,7 +280,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                  </tr>
                    <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni più rilevanti aggiunte al flusso di lavoro Nuova attività</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Altre assegnazioni rilevanti aggiunte al flusso di lavoro Nuova attività</a></p>
                         <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
                         <p>È stata aggiunta la stessa funzionalità per assegnazioni intelligenti più rilevanti al campo Assegnazioni della casella Nuova attività quando si aggiunge un'attività a un progetto e in un elenco di attività di progetto.</p>
                     </td>
@@ -300,17 +300,17 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Assegnazioni intelligenti più rilevanti</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Altre assegnazioni avanzate rilevanti</a></p>
                         <p>[!BADGE In produzione per rilascio rapido ]{type=Positive}</p>
-                        <p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un'attività: elenchi di attività, l'area Assegnazioni nell'intestazione dell'attività, Home e il pannello Riepilogo.</p>
+                        <p>È stato modificato l’algoritmo utilizzato da Workfront per calcolare e suggerire assegnazioni intelligenti per le attività. Il nuovo algoritmo si applica nelle seguenti aree di Workfront in cui si assegna un’attività: elenchi di attività, area Assegnazioni nell’intestazione dell’attività, Home e il pannello Riepilogo.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
                             <li>
-                                <p>Anteprima rilascio: 21 dicembre 2023</p>
+                                <p>Versione di anteprima: 21 dicembre 2023</p>
                             </li>
                             <li>
-                                <p>Produzione per il rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
+                                <p>Produzione per rilascio rapido: con la versione 24.5 (16 maggio 2024)</p>
                             </li>
                             <li>
                                 <p>Versione di produzione per tutti i clienti: con la versione 24.7 (18 luglio 2024)</p>
@@ -321,7 +321,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
            </tbody>
         </table>
 
-### Miglioramenti apportati agli strumenti di correzione
+### Miglioramenti delle bozze
 
 <table>
             <col style="width: 50%;" />
@@ -339,7 +339,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti di sicurezza per il visualizzatore bozze desktop</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti di sicurezza per il visualizzatore di bozze per il desktop</a></p>
                         <p>L’aggiornamento di sicurezza 2.1.35 di Workfront Proof Desktop Proofing Viewer fornisce correzioni di bug di sicurezza per le vulnerabilità identificate nelle versioni precedenti.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -374,7 +374,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Il tempo libero ora si riflette nel Bilanciatore dei carichi di lavoro</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Indisponibilità ora riportata nel Bilanciatore dei carichi di lavoro</a></p>
                         <p>Per regolare facilmente il lavoro quando l’assegnatario principale di un’attività ha programmato un’indisponibilità, il Bilanciatore dei carichi di lavoro ora riassegna le ore sia agli utenti principali che a quelli secondari quando la sequenza temporale del progetto viene ricalcolata.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -409,7 +409,20 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience è ora disponibile per più organizzazioni Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Modifica back-end alle guide interne al prodotto</a></p>
+                        <p>Stiamo implementando un cambiamento tecnologico per le nostre guide interne al prodotto nelle prossime settimane. Anche se abbiamo cercato di ridurre al minimo l’impatto di questa transizione, alcuni utenti potrebbero trovare guide che hanno già visto.</p>
+                    </td>
+                    <td><p><b>Disponibile in queste date:</b></p>
+                        <ul>
+                            <li>
+                                <p>Produzione per tutti i clienti: incrementale fino a metà agosto 2024</p>
+                            </li>
+                         </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience è ora disponibile per altre organizzazioni Workfront</a></p>
                         <p>Per consentire alle organizzazioni di accedere ai vantaggi di Adobe Unified Experience, abbiamo iniziato a renderla disponibile ai clienti Workfront esistenti. </p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -421,13 +434,13 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                                 <p>Produzione per clienti specifici: con la versione 24.7 (18 luglio 2024)</p>
                             </li>
                          </ul>
-                         <span style="color: #ff0000;">L’Adobe di Unified Shell viene reso disponibile in un rollout graduale. Altre organizzazioni saranno integrate in Adobe Unified Shell con le versioni 24.10 e 25.1. </p>
+                         <span style="color: #ff0000;">Adobe Unified Shell è disponibile in un rollout graduale. Altre organizzazioni saranno integrate in Adobe Unified Shell con le versioni 24.10 e 25.1. </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Pulsante Aiuto rimosso dalla barra di navigazione principale</a></p>
-                        <p>Per unificare l’esperienza per gli utenti non su Unified Shell, è stato rimosso il pulsante Aiuto sulla barra di navigazione principale. Questo pulsante, che non è presente per gli utenti di Unified Shell, collegato alla documentazione di Workfront ed era ridondante con un Guida pulsante simile disponibile per tutti gli utenti nel menu principale.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Pulsante? rimosso dalla barra di navigazione principale</a></p>
+                        <p>Per unificare l’esperienza per gli utenti non su Unified Shell, è stato rimosso il pulsante Aiuto sulla barra di navigazione principale. Questo pulsante, non disponibile per gli utenti di Unified Shell, era collegato alla documentazione di Workfront ed era ridondante con un pulsante Aiuto simile disponibile per tutti gli utenti nel menu principale.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
                         <ul>
@@ -462,7 +475,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l’arco temporale del terzo trimestre 2024</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Aggiornamenti look-and-feel durante l’intervallo di tempo del terzo trimestre 2024</a></p>
                         <p>Aggiornamenti minori al look and feel di varie aree dell’applicazione Adobe Workfront vengono effettuati entro l’arco temporale del terzo trimestre 2024. Consulta le singole note sulla versione per specifiche date di rilascio.</p>
                     </td>
                     <td><p><b>Disponibile in queste date:</b></p>
@@ -483,7 +496,7 @@ Il webinar sulla versione live 24.7 è stato annullato, ma puoi ancora [guarda u
 
 ### Miglioramenti apportati a Workfront Fusion
 
-Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza che esula dalla pianificazione del rilascio del terzo trimestre 2024. Per ulteriori informazioni sulle funzioni più recenti, consulta [Attività di rilascio di Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Le nuove funzioni di Workfront Fusion sono disponibili in produzione a una cadenza che esula dalla pianificazione del rilascio del terzo trimestre 2024. Per ulteriori informazioni sulle funzionalità più recenti, vedere [Attività di Adobe Workfront Fusion release](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Miglioramenti di Workfront Scenario Planner
 
@@ -499,16 +512,16 @@ A questo punto della versione, non ci sono aggiornamenti per gli Obiettivi di Wo
 
 ### API versione 18
 
-Per l&#39;API versione 18, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l&#39;utilizzo delle informazioni disponibili tramite l&#39;API.
+Per API versione 18, abbiamo modificato alcune risorse ed endpoint. Alcune delle modifiche supportano nuove funzionalità, mentre altre semplificano l’utilizzo delle informazioni disponibili tramite l’API.
 
-Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione 18](/help/quicksilver/wf-api/api/new-api-version-18.md) dell&#39;API.
+Per informazioni sulle novità e sugli aggiornamenti, vedere [Novità della versione API 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
-Per informazioni sulle versioni API, consulta [controllo delle versioni API e supportare programmare](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Per informazioni sulle versioni API, vedere [Controllo delle versioni e pianificazione del supporto API](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Aggiornamenti di manutenzione per Workfront
 
-Per informazioni sugli aggiornamenti di manutenzione effettuati durante il rilascio del terzo trimestre 2024, consulta [Aggiornamenti di manutenzione per Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Per informazioni sugli aggiornamenti di manutenzione effettuati durante la versione del terzo trimestre 2024, vedi [Aggiornamenti di manutenzione di Workfront](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Aggiornamenti dei corsi di formazione
 
-Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, consulta la sezione &quot;Novità&quot; del [Pagina Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it).
+Scopri gli ultimi aggiornamenti apportati a programmi di apprendimento, percorsi di apprendimento, video e guide per ogni versione di Adobe Workfront. Per ulteriori informazioni, vedere la sezione &quot;Novità&quot; della [pagina Tutorials di Workfront](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=it).

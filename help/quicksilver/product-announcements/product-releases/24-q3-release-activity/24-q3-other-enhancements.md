@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 0%
 
 Questa pagina descrive i miglioramenti apportati all’ambiente di anteprima con la versione del terzo trimestre 2024. Questi miglioramenti saranno resi disponibili nell’ambiente di produzione come indicato.
 
-Per un elenco di tutte le modifiche disponibili a questo punto nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Per un elenco di tutte le modifiche disponibili al momento nel ciclo di rilascio del terzo trimestre 2024, consulta [Panoramica sulla versione del terzo trimestre 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Modifica back-end alle guide interne al prodotto
+
+>[!NOTE]
+>
+>Produzione per tutti i clienti: incrementale fino a metà agosto 2024
+
+Stiamo implementando un cambiamento tecnologico per le nostre guide interne al prodotto nelle prossime settimane. Anche se abbiamo cercato di ridurre al minimo l’impatto di questa transizione, alcuni utenti potrebbero trovare guide che hanno già visto.
 
 ## Adobe Unified Experience è ora disponibile per più organizzazioni Workfront
 
@@ -37,9 +45,9 @@ Se l’organizzazione sta passando all’esperienza unificata Adobe con la versi
 
 In precedenza, l’esperienza unificata Adobe era disponibile solo per i nuovi clienti Workfront.
 
-Per ulteriori informazioni, consulta [Adobe di esperienza unificata per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Per ulteriori informazioni, vedere [Esperienza unificata di Adobe per Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Visualizza una dimostrazione video di questa funzione.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Visualizza una dimostrazione video di questa funzionalità.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## Pulsante Aiuto rimosso dalla barra di navigazione principale
 
@@ -55,4 +63,4 @@ Quando un utente non ha accesso a un oggetto, visualizzerà &quot;Nessun accesso
 
 Questa modifica non riguarda team e utenti. Gli utenti possono ancora visualizzare i nomi dei team e degli utenti.
 
-Per ulteriori informazioni, consulta la sezione [Accesso limitato agli oggetti](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) nel [!DNL Adobe Workfront] articolo di panoramica sugli oggetti.
+Per ulteriori informazioni, vedere la sezione [Accesso limitato agli oggetti](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) nell&#39;articolo Panoramica sugli oggetti [!DNL Adobe Workfront].
