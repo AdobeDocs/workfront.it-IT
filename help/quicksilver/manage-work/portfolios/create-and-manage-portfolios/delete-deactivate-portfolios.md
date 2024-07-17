@@ -6,9 +6,9 @@ description: I Portfoli sono raccolte di progetti o programmi in Adobe Workfront
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '358'
 ht-degree: 0%
 
 ---
@@ -77,14 +77,16 @@ Quando disattivi un portfolio, puoi comunque accedervi dall&#39;area [!UICONTROL
 >
 >A seconda della configurazione del modello di layout da parte dell&#39;amministratore di [!DNL Workfront] o del gruppo, l&#39;area [!UICONTROL Portfoli] potrebbe non essere visualizzata nel [!UICONTROL menu principale]. Per ulteriori informazioni, vedere [Personalizzare il menu principale utilizzando un modello di layout](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
+{{step1-click-main-menu}}
+
 1. Fai clic su **[!UICONTROL Portfoli]**.
 1. Fai clic sul nome del portfolio.
 1. Fai clic sul menu **Altro** ![](assets/more-icon.png) a destra del nome del portfolio, quindi fai clic su **[!UICONTROL Disattiva Portfolio]**.
 
 ## Eliminare un portfolio
 
-1. Fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon.png) nell&#39;angolo superiore destro di Adobe Workfront oppure, se disponibile, fai clic sull&#39;icona **[!UICONTROL Main Menu]** ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) nell&#39;angolo superiore sinistro.
+{{step1-click-main-menu}}
+
 1. Fai clic su **[!UICONTROL Portfoli]**.
 1. Seleziona il portfolio, quindi fai clic su **[!UICONTROL Elimina]**&#x200B;icona [!UICONTROL Elimina] ![](assets/delete.png).
-1. Nella casella visualizzata, fare clic su **[!UICONTROL Sì, Elimina]** per confermare.
+1. Fai clic su **[!UICONTROL Sì, elimina]** per confermare.

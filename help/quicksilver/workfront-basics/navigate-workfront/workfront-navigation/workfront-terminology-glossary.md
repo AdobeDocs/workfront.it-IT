@@ -6,9 +6,9 @@ description: Il  [!DNL Adobe Workfront] glossario elenca i termini comunemente u
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '20304'
+source-wordcount: '20310'
 ht-degree: 0%
 
 ---
@@ -1531,7 +1531,7 @@ Le ore possono avere uno dei seguenti stati in Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Data di completamento Pianificata]</td> 
-   <td> <p>È possibile impostare manualmente [!UICONTROL Planned Completion Date] (Data di completamento pianificata) a una data a scelta. Se non si imposta la [!UICONTROL Planned Completion Date], [!DNL Workfront] la imposta automaticamente. Se impostata automaticamente, la [!UICONTROL Planned Completion Date] è: [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>Per ulteriori informazioni, consulta i seguenti articoli:</p> 
+   <td> <p>Puoi impostare manualmente il [!UICONTROL Planned Completion Date] (Data di completamento pianificata) di un'attività, un progetto o un problema su una data a tua scelta. Se non si imposta la [!UICONTROL Planned Completion Date], [!DNL Workfront] la imposta automaticamente. Se impostata automaticamente, la [!UICONTROL Planned Completion Date] è: [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>Per ulteriori informazioni, consulta i seguenti articoli:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Panoramica dell'attività [!UICONTROL Data di completamento pianificata]</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Imposta il progetto [!UICONTROL Planned Completion Date]</a> </p> </li> 

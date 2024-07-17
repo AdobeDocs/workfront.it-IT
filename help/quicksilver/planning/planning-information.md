@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,7 @@ Le sezioni seguenti contengono articoli che descrivono in dettaglio le funzioni 
    * Creare, modificare ed eliminare record
    * Connetti record
    * Aggiungere una copertina o una miniatura a un record
+   * Gestire il layout di una pagina record
    * Sezione Registra commenti e cronologia
    * Condividere i record
    * Sezione Workfront Planning per gli oggetti Workfront

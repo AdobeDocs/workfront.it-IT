@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1989'
 ht-degree: 2%
 
 ---
@@ -287,13 +287,18 @@ Per individuare Workfront Planning:
 
 1. Accedi ad Adobe Workfront.
 
-1. Fare clic sul **menu principale** ![](assets/main-menu-workfront.png) nell&#39;angolo superiore destro oppure fare clic sul **menu principale** ![](assets/main-menu-shell.png) nell&#39;angolo superiore sinistro, se disponibile.
+{{step1-click-main-menu}}
 
 1. Fare clic su **Pianificazione** ![](assets/planning-icon.png).
 
    Viene visualizzata la pagina di destinazione Workfront Planning.
 
    ![](assets/planning-landing-page-admin.png)
+
+   >[!TIP]
+   >
+   >    L&#39;amministratore di Workfront può aggiungere l&#39;area Pianificazione all&#39;opzione Seleziona pagina di destinazione nel modello di layout, in modo da poter aprire Planning non appena si accede a Workfront. Per informazioni, vedere [Personalizzare la pagina di destinazione utilizzando un modello di layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+
 
 1. (Condizionale e facoltativo) Se sei un amministratore di Workfront, fai clic su una delle seguenti schede:
    * **Aree di lavoro personali**: visualizza le aree di lavoro create.

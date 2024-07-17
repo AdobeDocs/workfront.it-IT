@@ -6,14 +6,16 @@ description: Un Portfolio è una raccolta di progetti in concorrenza per le stes
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '534'
 ht-degree: 2%
 
 ---
 
 # Creare un portfolio
+
+<!--Audited: 7/2024-->
 
 Un Portfolio è una raccolta di progetti in concorrenza per le stesse risorse, budget e pianificazione. I progetti di un Portfolio sono abbastanza simili da utilizzare lo stesso Pool di Risorse ed essere misurati sulla stessa scorecard.
 
@@ -21,7 +23,7 @@ Un Portfolio è una raccolta di progetti in concorrenza per le stesse risorse, b
 
 ## Requisiti di accesso
 
-Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei seguenti diritti di accesso:
++++ Espandi per visualizzare i requisiti di accesso per la funzionalità in questo articolo.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,28 +31,32 @@ Per eseguire i passaggi descritti in questo articolo, è necessario disporre dei
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] piano*</td> 
-   <td> <p>[!UICONTROL Business] o versione successiva</p> </td> 
+   <td> <p>Nuovo: Qualsiasi</p>
+   <p>Corrente:[!UICONTROL Business] o versione successiva</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licenza*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nuovo: [!UICONTROL Standard]</p>
+   <p>Corrente:[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Configurazioni del livello di accesso*</td> 
-   <td> <p>Accesso a [!UICONTROL Edit] ai Portfoli</p> <p>Nota: se non disponi ancora dell'accesso, chiedi all'amministratore [!DNL Workfront] se ha impostato restrizioni aggiuntive nel tuo livello di accesso. Per informazioni su come un amministratore di [!DNL Workfront] può modificare il livello di accesso, vedere <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Creare o modificare livelli di accesso personalizzati</a>.</p> </td> 
+   <td role="rowheader">Configurazioni del livello di accesso</td> 
+   <td> <p>Accesso a [!UICONTROL Edit] ai Portfoli</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Autorizzazioni oggetto</td> 
-   <td> <p>Dopo aver creato un portfolio, per impostazione predefinita disponi delle autorizzazioni di gestione</p> <p>Per informazioni sulla richiesta di accesso aggiuntivo, vedere <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Richiedere l'accesso agli oggetti </a>.</p> </td> 
+   <td> <p>Dopo aver creato un portfolio, per impostazione predefinita disponi delle autorizzazioni di gestione</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Per conoscere il piano, il tipo di licenza o l&#39;accesso di cui si dispone, contattare l&#39;amministratore [!DNL Workfront].
+*Per informazioni, consulta [Requisiti di accesso nella documentazione di Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Creare un portfolio
 
-1. Fai clic sull&#39;icona ![](assets/main-menu-icon.png) del **[!UICONTROL menu principale]** nell&#39;angolo superiore destro di Adobe Workfront.
+{{step1-click-main-menu}}
 
 1. Fai clic su **[!UICONTROL Portfoli]**.
 1. Fare clic su **[!UICONTROL Nuovo Portfolio]**.
